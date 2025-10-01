@@ -1,4 +1,7 @@
-﻿$esc = [char]27
+# Check cache first for instant output
+if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
+
+$esc = [char]27
 
 $redf = "$esc[31m"
 $greenf = "$esc[32m"

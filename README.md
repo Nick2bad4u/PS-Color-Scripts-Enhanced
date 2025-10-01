@@ -34,6 +34,16 @@ Show-ColorScript -Name "pacman"
 Show-ColorScript -List
 ```
 
+## ⚡ Performance
+
+All colorscripts now include an **advanced caching system** that provides **6-19x performance improvement**!
+
+- **Cached scripts load in 5-20ms** (vs 30-400ms without cache)
+- **OS-wide cache** stored in `%APPDATA%\ps-color-scripts\cache` - works consistently from any directory
+- Completely transparent - no user action required
+- Cache automatically invalidates when scripts are updated
+- See [CACHING_REPORT.md](./CACHING_REPORT.md) for detailed performance metrics
+
 ## 🧑‍🍳 Recipes
 
 #### Add to your PowerShell profile to display a random color script on startup.
