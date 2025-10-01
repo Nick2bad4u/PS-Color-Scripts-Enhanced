@@ -47,7 +47,14 @@ function Get-CachedOutput {
         if ($scriptTime -le $cacheTime) {
             # Cache is valid - output it
             $content = [System.IO.File]::ReadAllText($cacheFile)
-            [Console]::Write($content)
+            $originalEncoding = [Console]::OutputEncoding
+            [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+            try {
+                [Console]::Write($content)
+            }
+            finally {
+                [Console]::OutputEncoding = $originalEncoding
+            }
             return $true
         }
     }
@@ -76,11 +83,11 @@ function Build-ScriptCache {
         # Execute script and capture output
         $startInfo = New-Object System.Diagnostics.ProcessStartInfo
         $startInfo.FileName = "pwsh.exe"
-        $startInfo.Arguments = "-NoProfile -NonInteractive -File `"$ScriptPath`""
+        $startInfo.Arguments = "-NoProfile -NonInteractive -Command `"[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; & '$ScriptPath'`""
         $startInfo.RedirectStandardOutput = $true
         $startInfo.RedirectStandardError = $true
-        $startInfo.UseShellExecute = $false
-        $startInfo.CreateNoWindow = $true
+        $startInfo.StandardOutputEncoding = [System.Text.Encoding]::UTF8
+        $startInfo.StandardErrorEncoding = [System.Text.Encoding]::UTF8
 
         $process = New-Object System.Diagnostics.Process
         $process.StartInfo = $startInfo
@@ -195,7 +202,14 @@ function Show-ColorScript {
     }
 
     # Execute script directly
-    & $script.FullName
+    $originalEncoding = [Console]::OutputEncoding
+    [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+    try {
+        & $script.FullName
+    }
+    finally {
+        [Console]::OutputEncoding = $originalEncoding
+    }
 
     # Build cache for next time if not already cached
     if (-not $NoCache) {

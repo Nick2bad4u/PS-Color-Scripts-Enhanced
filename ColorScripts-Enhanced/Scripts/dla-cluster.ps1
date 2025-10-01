@@ -116,6 +116,16 @@ for ($p = 0; $p -lt $particles; $p++) {
 
 # Render the cluster
 for ($row = $size - 1; $row -ge 0; $row--) {
+    # Check if this row has any occupied positions
+    $hasOccupied = $false
+    for ($col = 0; $col -lt $size; $col++) {
+        if ($grid.ContainsKey("$col,$row")) {
+            $hasOccupied = $true
+            break
+        }
+    }
+    if (-not $hasOccupied) { continue }
+
     $sb = [System.Text.StringBuilder]::new()
     for ($col = 0; $col -lt $size; $col++) {
         $key = "$col,$row"
@@ -144,7 +154,9 @@ for ($row = $size - 1; $row -ge 0; $row--) {
             $null = $sb.Append("$esc[38;2;8;8;12m ")
         }
     }
-    Write-Host ($sb.ToString() + $reset)
+    [Console]::WriteLine($sb.ToString() + $reset)
 }
 
-Write-Host $reset
+[Console]::Write($reset)
+
+

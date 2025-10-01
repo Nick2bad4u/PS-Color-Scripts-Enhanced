@@ -130,7 +130,8 @@ for ($p = 1; $p -le $particles; $p++) {
 if ($maxRadius -eq 0) { $maxRadius = 1 }
 if ($maxAge -eq 0) { $maxAge = 1 }
 
-for ($y = $size - 1; $y -ge 0; $y--) {
+$lines = @()
+for ($y = 0; $y -lt $size; $y++) {
     $sb = [System.Text.StringBuilder]::new()
     for ($x = 0; $x -lt $size; $x++) {
         if ($occupied[$x, $y]) {
@@ -150,7 +151,6 @@ for ($y = $size - 1; $y -ge 0; $y--) {
 
             $rgb = Convert-HsvToRgb -Hue $hue -Saturation $saturation -Value $value
             $token = "$esc[38;2;$($rgb[0]);$($rgb[1]);$($rgb[2])m$symbol"
-            $null = $sb.Append($token)
             $null = $sb.Append($token)
         }
         else {
@@ -173,14 +173,30 @@ for ($y = $size - 1; $y -ge 0; $y--) {
                 $rgb = Convert-HsvToRgb -Hue $hue -Saturation $saturation -Value $value
                 $token = "$esc[38;2;$($rgb[0]);$($rgb[1]);$($rgb[2])m$symbol"
                 $null = $sb.Append($token)
-                $null = $sb.Append($token)
             }
             else {
-                $null = $sb.Append("$esc[38;2;6;7;10m  ")
+                $null = $sb.Append("$esc[38;2;6;7;10m ")
             }
         }
     }
-    Write-Host ($sb.ToString() + $reset)
+    $lines += $sb.ToString() + $reset
 }
 
-Write-Host $reset
+$background = ("$esc[38;2;6;7;10m " * $size) + $reset
+$minY = 0
+$maxY = $size - 1
+for ($i = 0; $i -lt $lines.Count; $i++) {
+    if ($lines[$i] -ne $background) {
+        $minY = $i
+        break
+    }
+}
+for ($i = $lines.Count - 1; $i -ge 0; $i--) {
+    if ($lines[$i] -ne $background) {
+        $maxY = $i
+        break
+    }
+}
+for ($i = $minY; $i -le $maxY; $i++) {
+    Write-Host $lines[$i]
+}
