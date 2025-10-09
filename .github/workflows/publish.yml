@@ -10,7 +10,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Set Timezone
-              run: sudo timedatectl set-timezone Pacific/Auckland
+              run: sudo timedatectl set-timezone America/Detroit
 
             - uses: actions/checkout@v4
             - name: Build and publish
