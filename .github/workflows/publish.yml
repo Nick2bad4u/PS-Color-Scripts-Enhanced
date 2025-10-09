@@ -19,4 +19,4 @@ jobs:
               shell: pwsh
               run: |
                   ./build.ps1
-                  Publish-Module -Path ./ps-color-scripts -NuGetApiKey $env:NUGET_KEY -Verbose
+                  Publish-Module -Path ./ps-color-scripts/ColorScripts-Enhanced -NuGetApiKey $env:NUGET_KEY -Verbose
