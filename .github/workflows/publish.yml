@@ -18,5 +18,4 @@ jobs:
                   NUGET_KEY: ${{ secrets.NUGET_KEY }}
               shell: pwsh
               run: |
-                  ./build.ps1
                   Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:NUGET_KEY -Verbose
