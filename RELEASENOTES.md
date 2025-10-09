@@ -3,17 +3,20 @@
 ## Version 2025.10.09.1633
 
 ### New Features
+
 - `Add-ColorScriptProfile` cmdlet for one-line profile integration with duplicate detection
 - `Lint-Module.ps1` helper script for consistent ScriptAnalyzer runs (with optional warnings-as-errors)
 - Expanded Pester suite covers profile helper scenarios and lint gating
 
 ### Documentation Updates
+
 - README / Quick Start now lead with PowerShell Gallery installation steps
 - Quick Reference, Development, Publishing, and Release Checklist aligned with new helper and lint flow
 - Module summary refreshed with latest command set and workflow notes
 - Added cross-platform Nerd Font installation guidance (README, quick start/reference, about help)
 
 ### Tooling Improvements
+
 - `Install.ps1` delegates profile updates to the new cmdlet and supports `-SkipStartupScript`
 - `Test-Module.ps1` runs ScriptAnalyzer automatically and requires PSScriptAnalyzer availability
 - `Lint-Module.ps1` gains a `-Fix` switch to apply auto-fixable ScriptAnalyzer corrections before re-linting
@@ -23,6 +26,7 @@
 ## Version 2025.10.09.1625
 
 ### New Features
+
 - Enhanced caching system with OS-wide cache in AppData
 - 6-19x performance improvement over non-cached execution
 - Centralized cache location that works from any directory
@@ -32,25 +36,30 @@
 - Full PowerShell Gallery compliance
 
 ### Performance Improvements
+
 - Cached scripts display in 8-16ms vs 50-300ms uncached
 - Simple scripts: ~6x faster with cache
 - Medium scripts: ~12x faster with cache
 - Complex scripts: ~19x faster with cache
 
 ### Cache System
+
 - Cache stored in: `$env:APPDATA\ColorScripts-Enhanced\cache`
 - Automatic cache invalidation on script modification
 - UTF-8 encoding preserved for perfect rendering
 - Cache files include timestamp validation
 
 ### Commands
+
 All commands include comprehensive help:
+
 - `Show-ColorScript` (alias: `scs`) - Display colorscripts
 - `Get-ColorScriptList` - List available scripts
 - `Build-ColorScriptCache` - Pre-generate cache files
 - `Clear-ColorScriptCache` - Remove cache files
 
 ### Documentation
+
 - Complete about_ColorScripts-Enhanced help topic
 - Individual cmdlet help in markdown format
 - Examples for all use cases
@@ -58,7 +67,9 @@ All commands include comprehensive help:
 - Performance metrics
 
 ### Script Categories
+
 New colorscripts added in categories:
+
 - Geometric patterns
 - Nature and space
 - Artistic designs
@@ -71,6 +82,7 @@ New colorscripts added in categories:
 ## Version 2025.10.08
 
 ### Initial Release
+
 - Basic colorscript display functionality
 - Random script selection
 - Script listing
@@ -83,12 +95,14 @@ None in current version. Module maintains backward compatibility with PowerShell
 ## Known Issues
 
 ### Terminal Compatibility
+
 - Some terminals may not support full ANSI escape code sequences
 - Windows Terminal recommended for best experience
 - ConEmu, Oh-My-Posh, and iTerm2 fully supported
 - Legacy cmd.exe has limited ANSI support
 
 ### Performance
+
 - First run of each script is slower as cache is built
 - Use `Build-ColorScriptCache -All` to pre-build all caches
 - Very complex scripts may take 200-300ms to cache initially
@@ -96,12 +110,14 @@ None in current version. Module maintains backward compatibility with PowerShell
 ## Upgrade Notes
 
 ### From Earlier Versions
+
 1. Remove old module version if manually installed
 2. Install new version
 3. Run `Build-ColorScriptCache -All` to rebuild cache
 4. Update any scripts that reference old function names
 
 ### Clean Installation
+
 1. Install from PowerShell Gallery: `Install-Module ColorScripts-Enhanced`
 2. Import module: `Import-Module ColorScripts-Enhanced`
 3. Optional: Pre-build cache: `Build-ColorScriptCache -All`
@@ -112,6 +128,7 @@ None in current version. Module maintains backward compatibility with PowerShell
 Contributions welcome! See CONTRIBUTING.md for guidelines.
 
 ### Adding New Colorscripts
+
 1. Create script in `Scripts/` folder
 2. Follow naming convention: `lowercase-with-hyphens.ps1`
 3. Include cache header: `if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }`
@@ -119,6 +136,7 @@ Contributions welcome! See CONTRIBUTING.md for guidelines.
 5. Test with `Show-ColorScript -Name yourscript`
 
 ### Reporting Issues
+
 - Use GitHub Issues
 - Include PowerShell version
 - Include terminal information

@@ -2,3 +2,4 @@ ps-color-scripts/*.md
 ps-color-scripts/*.psd1
 
 ps-color-scripts/cache/
+.prettier-cache

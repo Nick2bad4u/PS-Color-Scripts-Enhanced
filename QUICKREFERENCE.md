@@ -9,17 +9,18 @@ Import-Module ColorScripts-Enhanced
 
 ## Basic Commands
 
-| Command | Alias | Description |
-|---------|-------|-------------|
-| `Show-ColorScript` | `scs` | Display colorscripts |
-| `Get-ColorScriptList` | - | List available scripts |
-| `Build-ColorScriptCache` | - | Pre-generate cache |
-| `Clear-ColorScriptCache` | - | Remove cache files |
-| `Add-ColorScriptProfile` | - | Append module import/startup snippet |
+| Command                  | Alias | Description                          |
+| ------------------------ | ----- | ------------------------------------ |
+| `Show-ColorScript`       | `scs` | Display colorscripts                 |
+| `Get-ColorScriptList`    | -     | List available scripts               |
+| `Build-ColorScriptCache` | -     | Pre-generate cache                   |
+| `Clear-ColorScriptCache` | -     | Remove cache files                   |
+| `Add-ColorScriptProfile` | -     | Append module import/startup snippet |
 
 ## Common Usage
 
 ### Display Random Colorscript
+
 ```powershell
 Show-ColorScript
 # or
@@ -27,18 +28,21 @@ scs
 ```
 
 ### Display Specific Script
+
 ```powershell
 Show-ColorScript -Name hearts
 scs mandelbrot-zoom
 ```
 
 ### List All Scripts
+
 ```powershell
 Show-ColorScript -List
 Get-ColorScriptList
 ```
 
 ### Build Cache for Fast Loading
+
 ```powershell
 # Cache all scripts
 Build-ColorScriptCache -All
@@ -51,6 +55,7 @@ Build-ColorScriptCache -All -Force
 ```
 
 ### Clear Cache
+
 ```powershell
 # Clear all cache
 Clear-ColorScriptCache -All
@@ -114,16 +119,16 @@ Add-ColorScriptProfile -Scope CurrentUserCurrentHost
 
 ## Script Categories
 
-| Category | Examples |
-|----------|----------|
+| Category      | Examples                                         |
+| ------------- | ------------------------------------------------ |
 | **Geometric** | mandelbrot-zoom, sierpinski-carpet, fractal-tree |
-| **Nature** | galaxy-spiral, aurora-bands, crystal-drift |
-| **Artistic** | kaleidoscope, rainbow-waves, color-morphing |
-| **Gaming** | doom-original, pacman, space-invaders |
-| **System** | colortest, nerd-font-test, terminal-benchmark |
-| **Logos** | arch, debian, ubuntu, windows |
-| **NerdFont** | dev-workspace, cloud-services, data-science |
-| **Patterns** | bars, gradient-bars, hex-blocks |
+| **Nature**    | galaxy-spiral, aurora-bands, crystal-drift       |
+| **Artistic**  | kaleidoscope, rainbow-waves, color-morphing      |
+| **Gaming**    | doom-original, pacman, space-invaders            |
+| **System**    | colortest, nerd-font-test, terminal-benchmark    |
+| **Logos**     | arch, debian, ubuntu, windows                    |
+| **NerdFont**  | dev-workspace, cloud-services, data-science      |
+| **Patterns**  | bars, gradient-bars, hex-blocks                  |
 
 ## Parameters Reference
 
@@ -147,6 +152,7 @@ Build-ColorScriptCache
 ```
 
 ### Clear-ColorScriptCache
+
 ### Add-ColorScriptProfile
 
 ```powershell
@@ -170,6 +176,7 @@ Clear-ColorScriptCache
 ## Examples
 
 ### Daily Different Colorscript
+
 ```powershell
 # In your profile
 $seed = (Get-Date).DayOfYear
@@ -178,6 +185,7 @@ Show-ColorScript
 ```
 
 ### Show All Scripts Sequentially
+
 ```powershell
 Get-ColorScriptList | Out-String -Stream |
   Where-Object { $_.Trim() } |
@@ -189,6 +197,7 @@ Get-ColorScriptList | Out-String -Stream |
 ```
 
 ### Find Scripts by Pattern
+
 ```powershell
 Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter "*galaxy*.cache" |
   ForEach-Object {
@@ -197,6 +206,7 @@ Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter "*galaxy*.cache
 ```
 
 ### Cache Statistics
+
 ```powershell
 $cacheDir = "$env:APPDATA\ColorScripts-Enhanced\cache"
 $caches = Get-ChildItem $cacheDir -Filter *.cache
@@ -207,6 +217,7 @@ Write-Host "Total cache size: $([math]::Round(($caches | Measure-Object Length -
 ## Troubleshooting
 
 ### Scripts not displaying
+
 ```powershell
 # Ensure UTF-8 encoding
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
@@ -217,6 +228,7 @@ Build-ColorScriptCache -All
 ```
 
 ### Cache not working
+
 ```powershell
 # Check cache location
 Test-Path "$env:APPDATA\ColorScripts-Enhanced\cache"
@@ -226,6 +238,7 @@ Build-ColorScriptCache -Name bars -Force
 ```
 
 ### Performance issues
+
 ```powershell
 # Pre-build all caches (one-time)
 Build-ColorScriptCache -All
@@ -250,4 +263,4 @@ Current: 2025.10.09.1633
 
 ---
 
-*For detailed documentation, use: `Get-Help about_ColorScripts-Enhanced`*
+_For detailed documentation, use: `Get-Help about_ColorScripts-Enhanced`_

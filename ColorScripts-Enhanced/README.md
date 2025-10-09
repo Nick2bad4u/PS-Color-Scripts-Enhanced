@@ -24,13 +24,13 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 
 ColorScripts-Enhanced Demo: https://i.imgur.com/FCjqkxn.mp4
 
-__Open in new tab since video is too large for github__
+**Open in new tab since video is too large for github**
 
 <img width="780" height="797" alt="image" src="https://github.com/user-attachments/assets/1d05d7b0-e648-47dc-a53f-d6d3f539f562" />
 <img width="525" height="563" alt="image" src="https://github.com/user-attachments/assets/4c0dbf5e-f697-4ae6-8e2b-57e5052cb4c2" />
 <img width="607" height="854" alt="image" src="https://github.com/user-attachments/assets/95953355-1ad3-4d71-a56e-9e36a67671bd" />
 
-__+ 170~ more__
+**+ 170~ more**
 
 ## Installation
 
@@ -124,30 +124,32 @@ Show-ColorScript -Name "bars" -NoCache
 
 ## Commands
 
-| Command | Alias | Description |
-|---------|-------|-------------|
-| `Show-ColorScript` | `scs` | Display a colorscript |
-| `Get-ColorScriptList` | - | List all available colorscripts |
-| `Build-ColorScriptCache` | - | Pre-generate cache files |
-| `Clear-ColorScriptCache` | - | Remove cache files |
+| Command                  | Alias | Description                     |
+| ------------------------ | ----- | ------------------------------- |
+| `Show-ColorScript`       | `scs` | Display a colorscript           |
+| `Get-ColorScriptList`    | -     | List all available colorscripts |
+| `Build-ColorScriptCache` | -     | Pre-generate cache files        |
+| `Clear-ColorScriptCache` | -     | Remove cache files              |
 
 ## Performance
 
 ### Before Caching
+
 - Simple scripts: 30-50ms
 - Complex scripts: 200-400ms
 
 ### After Caching
+
 - All scripts: 5-20ms
 - **Improvement: 6-19x faster!**
 
 ### Example Performance Gains
 
-| Script | Without Cache | With Cache | Speedup |
-|--------|--------------|------------|---------|
-| bars | 31ms | 5ms | **6x** |
-| gradient-bars | 65ms | 8ms | **8x** |
-| mandelbrot-zoom | 365ms | 19ms | **19x** |
+| Script          | Without Cache | With Cache | Speedup |
+| --------------- | ------------- | ---------- | ------- |
+| bars            | 31ms          | 5ms        | **6x**  |
+| gradient-bars   | 65ms          | 8ms        | **8x**  |
+| mandelbrot-zoom | 365ms         | 19ms       | **19x** |
 
 ## Cache System
 
@@ -289,6 +291,7 @@ MIT License - See LICENSE file for details
 ## Version History
 
 ### 1.0.0 (2025-09-30)
+
 - Initial release
 - 185 colorscripts included
 - High-performance caching system

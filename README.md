@@ -27,13 +27,13 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 
 ColorScripts-Enhanced Demo: https://i.imgur.com/FCjqkxn.mp4
 
-__Open in new tab since video is too large for github__
+**Open in new tab since video is too large for github**
 
 <img width="780" height="797" alt="image" src="https://github.com/user-attachments/assets/1d05d7b0-e648-47dc-a53f-d6d3f539f562" />
 <img width="525" height="563" alt="image" src="https://github.com/user-attachments/assets/4c0dbf5e-f697-4ae6-8e2b-57e5052cb4c2" />
 <img width="607" height="854" alt="image" src="https://github.com/user-attachments/assets/95953355-1ad3-4d71-a56e-9e36a67671bd" />
 
-__+ 170~ more__
+**+ 170~ more**
 
 ## Quick Start (Less Than a Minute)
 
@@ -50,16 +50,16 @@ Show-ColorScript
 
 Several scripts display Nerd Font icons (powerline separators, dev icons, logos). Without a Nerd Font, those glyphs render as blank boxes. Pick one of the patched fonts from [nerdfonts.com](https://www.nerdfonts.com/) and set it as your terminal font:
 
-1. **Download** a font (e.g., *Cascadia Code*, *FiraCode*, *JetBrainsMono*) from the [Nerd Fonts releases](https://github.com/ryanoasis/nerd-fonts/releases).
+1. **Download** a font (e.g., _Cascadia Code_, _FiraCode_, _JetBrainsMono_) from the [Nerd Fonts releases](https://github.com/ryanoasis/nerd-fonts/releases).
 2. **Install on Windows**: extract the `.zip`, select the `.ttf` files, right-click → **Install for all users**.
    **macOS**: `brew install --cask font-caskaydia-cove-nerd-font` (or double-click in Font Book).
    **Linux**: copy the `.ttf` files to `~/.local/share/fonts` (or `/usr/local/share/fonts`), then run `fc-cache -fv`.
 3. **Update your terminal** (Windows Terminal, VS Code, Alacritty, etc.) to use the installed Nerd Font for each profile.
 4. **Verify** by running:
 
-    ```powershell
-    Show-ColorScript -Name nerd-font-test
-    ```
+   ```powershell
+   Show-ColorScript -Name nerd-font-test
+   ```
 
 The script will render checkmarks and dev icons when the font is configured correctly.
 
@@ -100,30 +100,30 @@ Authenticate with a GitHub PAT (Package Read scope) if prompted.
 
 1. Copy the `ColorScripts-Enhanced` folder to one of your PowerShell module paths:
 
-    ```powershell
-    # See available module paths
-    $env:PSModulePath -split ';'
+   ```powershell
+   # See available module paths
+   $env:PSModulePath -split ';'
 
-    # Recommended location (user-specific)
-    $modulePath = "$env:USERPROFILE\Documents\PowerShell\Modules\ColorScripts-Enhanced"
+   # Recommended location (user-specific)
+   $modulePath = "$env:USERPROFILE\Documents\PowerShell\Modules\ColorScripts-Enhanced"
 
-    # Copy the module folder to the destination
-    Copy-Item -Path ".\ColorScripts-Enhanced" -Destination $modulePath -Recurse -Force
-    ```
+   # Copy the module folder to the destination
+   Copy-Item -Path ".\ColorScripts-Enhanced" -Destination $modulePath -Recurse -Force
+   ```
 
 2. Import the module:
 
-    ```powershell
-    Import-Module ColorScripts-Enhanced
-    ```
+   ```powershell
+   Import-Module ColorScripts-Enhanced
+   ```
 
 3. (Optional) Add to your PowerShell profile for automatic loading:
 
-    ```powershell
-    Add-Content -Path $PROFILE.CurrentUserAllHosts -Value "Import-Module ColorScripts-Enhanced"
-    ```
+   ```powershell
+   Add-Content -Path $PROFILE.CurrentUserAllHosts -Value "Import-Module ColorScripts-Enhanced"
+   ```
 
-    Alternatively, run `Add-ColorScriptProfile -Scope CurrentUserAllHosts -SkipStartupScript` after importing the module.
+   Alternatively, run `Add-ColorScriptProfile -Scope CurrentUserAllHosts -SkipStartupScript` after importing the module.
 
 ### Option 4: Quick Test (Without Installation)
 
@@ -202,14 +202,14 @@ Show-ColorScript -Name "bars" -NoCache
 
 ## Commands
 
-| Command | Alias | Description |
-|---------|-------|-------------|
-| `Show-ColorScript` | `scs` | Display a colorscript |
-| `Get-ColorScriptList` | - | List all available colorscripts |
-| `Build-ColorScriptCache` | - | Pre-generate cache files |
-| `Clear-ColorScriptCache` | - | Remove cache files |
-| `Add-ColorScriptProfile` | - | Append module startup snippet to your profile |
-| `Install.ps1` | - | Optional local installer with `-AddToProfile`, `-SkipStartupScript`, `-BuildCache` |
+| Command                  | Alias | Description                                                                        |
+| ------------------------ | ----- | ---------------------------------------------------------------------------------- |
+| `Show-ColorScript`       | `scs` | Display a colorscript                                                              |
+| `Get-ColorScriptList`    | -     | List all available colorscripts                                                    |
+| `Build-ColorScriptCache` | -     | Pre-generate cache files                                                           |
+| `Clear-ColorScriptCache` | -     | Remove cache files                                                                 |
+| `Add-ColorScriptProfile` | -     | Append module startup snippet to your profile                                      |
+| `Install.ps1`            | -     | Optional local installer with `-AddToProfile`, `-SkipStartupScript`, `-BuildCache` |
 
 ## Documentation
 
@@ -249,20 +249,22 @@ Please review [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines, cod
 ## Performance
 
 ### Before Caching
+
 - Simple scripts: 30-50ms
 - Complex scripts: 200-400ms
 
 ### After Caching
+
 - All scripts: 5-20ms
 - **Improvement: 6-19x faster!**
 
 ### Example Performance Gains
 
-| Script | Without Cache | With Cache | Speedup |
-|--------|--------------|------------|---------|
-| bars | 31ms | 5ms | **6x** |
-| gradient-bars | 65ms | 8ms | **8x** |
-| mandelbrot-zoom | 365ms | 19ms | **19x** |
+| Script          | Without Cache | With Cache | Speedup |
+| --------------- | ------------- | ---------- | ------- |
+| bars            | 31ms          | 5ms        | **6x**  |
+| gradient-bars   | 65ms          | 8ms        | **8x**  |
+| mandelbrot-zoom | 365ms         | 19ms       | **19x** |
 
 ## Cache System
 
@@ -417,6 +419,7 @@ MIT License - See LICENSE file for details
 ## Version History
 
 ### 1.0.0 (2025-09-30)
+
 - Initial release
 - 185 colorscripts included
 - High-performance caching system

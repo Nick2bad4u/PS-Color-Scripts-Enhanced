@@ -51,10 +51,10 @@ Show-ColorScript -Name nerd-font-test
 
 ## Secrets & Environment Variables
 
-| Purpose | Local Var | GitHub Secret |
-|---------|-----------|---------------|
+| Purpose                                | Local Var                                        | GitHub Secret                         |
+| -------------------------------------- | ------------------------------------------------ | ------------------------------------- |
 | PowerShell Gallery / NuGet.org API key | `$env:PSGALLERY_API_KEY` or `$env:NUGET_API_KEY` | `PSGALLERY_API_KEY` / `NUGET_API_KEY` |
-| GitHub Packages PAT | `$env:PACKAGES_TOKEN` | `PACKAGES_TOKEN` |
+| GitHub Packages PAT                    | `$env:PACKAGES_TOKEN`                            | `PACKAGES_TOKEN`                      |
 
 ## GitHub Packages (Optional)
 

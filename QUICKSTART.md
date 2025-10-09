@@ -13,6 +13,7 @@ Offline? Clone the repository and run `.\Install.ps1 -AddToProfile -BuildCache -
 ## 🎨 Basic Usage
 
 ### Display a Random Colorscript
+
 ```powershell
 Show-ColorScript
 # or simply:
@@ -20,6 +21,7 @@ scs
 ```
 
 ### Display a Specific Colorscript
+
 ```powershell
 scs mandelbrot-zoom
 scs hearts
@@ -27,6 +29,7 @@ scs galaxy-spiral
 ```
 
 ### See All Available Scripts
+
 ```powershell
 Get-ColorScriptList
 ```
@@ -47,9 +50,9 @@ Some scripts use Nerd Font icons (powerline separators, developer glyphs). Witho
 
 1. Grab a patched font from [nerdfonts.com](https://www.nerdfonts.com/) (popular choices: Cascadia Code, JetBrainsMono, FiraCode).
 2. Install it:
-	- **Windows**: extract the `.zip`, select the `.ttf` files, right-click → **Install for all users**.
-	- **macOS**: `brew install --cask font-caskaydia-cove-nerd-font` or add via Font Book.
-	- **Linux**: copy the `.ttf` files to `~/.local/share/fonts` (or `/usr/local/share/fonts`) and run `fc-cache -fv`.
+   - **Windows**: extract the `.zip`, select the `.ttf` files, right-click → **Install for all users**.
+   - **macOS**: `brew install --cask font-caskaydia-cove-nerd-font` or add via Font Book.
+   - **Linux**: copy the `.ttf` files to `~/.local/share/fonts` (or `/usr/local/share/fonts`) and run `fc-cache -fv`.
 3. Open your terminal settings and switch the profile font to the installed Nerd Font.
 4. Confirm glyphs render correctly:
 
@@ -62,6 +65,7 @@ You should see icons and checkmarks instead of fallback boxes.
 ## �💡 Common Uses
 
 ### Add to Your PowerShell Profile
+
 Display a random colorscript every time you open PowerShell:
 
 ```powershell
@@ -71,6 +75,7 @@ Add-ColorScriptProfile -Scope CurrentUserCurrentHost  # Current host only
 ```
 
 ### Test the Performance
+
 ```powershell
 # Time a script without cache
 Measure-Command { scs bars -NoCache }
@@ -83,12 +88,12 @@ Measure-Command { scs bars }
 
 ## 📊 Module Commands
 
-| Command | Purpose |
-|---------|---------|
-| `Show-ColorScript` | Display colorscripts |
-| `Get-ColorScriptList` | List all available scripts |
-| `Build-ColorScriptCache` | Pre-build cache files |
-| `Clear-ColorScriptCache` | Remove cache files |
+| Command                  | Purpose                              |
+| ------------------------ | ------------------------------------ |
+| `Show-ColorScript`       | Display colorscripts                 |
+| `Get-ColorScriptList`    | List all available scripts           |
+| `Build-ColorScriptCache` | Pre-build cache files                |
+| `Clear-ColorScriptCache` | Remove cache files                   |
 | `Add-ColorScriptProfile` | Append module import/startup snippet |
 
 ## 🎯 Pro Tips
@@ -107,6 +112,7 @@ Measure-Command { scs bars }
 ## 🆘 Troubleshooting
 
 ### "Module not found"
+
 ```powershell
 # Verify installation
 Get-Module ColorScripts-Enhanced -ListAvailable
@@ -116,6 +122,7 @@ Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
 ```
 
 ### "Script not found"
+
 ```powershell
 # List all available scripts
 Get-ColorScriptList
@@ -125,6 +132,7 @@ scs [exact-name]
 ```
 
 ### Cache not working
+
 ```powershell
 # Rebuild cache
 Build-ColorScriptCache -All -Force

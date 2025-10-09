@@ -25,6 +25,7 @@ Test-Module.ps1           # Smoke-test harness used during development
 ## Common Tasks
 
 ### Install Dependencies
+
 ```powershell
 Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
 Install-Module Pester -MinimumVersion 5.4.0 -Force
@@ -32,6 +33,7 @@ Install-Module PSScriptAnalyzer -Force
 ```
 
 ### Run Tests
+
 ```powershell
 pwsh -NoProfile -Command "& .\Test-Module.ps1"
 Invoke-Pester -Path ./Tests
@@ -40,6 +42,7 @@ Invoke-Pester -Path ./Tests
 `Test-Module.ps1` now validates exported commands, runs ScriptAnalyzer (warnings treated as failures), and exercises profile helpers.
 
 ### Lint Source
+
 ```powershell
 pwsh -NoProfile -Command "& .\Lint-Module.ps1"
 pwsh -NoProfile -Command "& .\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
@@ -47,6 +50,7 @@ pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix
 ```
 
 ### Build Manifest
+
 ```powershell
 # Timestamp version automatically
 .\build.ps1
@@ -56,11 +60,13 @@ pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix
 ```
 
 ### Generate Help (Optional)
+
 ```powershell
 .\Build-Help.ps1
 ```
 
 ### Add a New Colorscript
+
 1. Create `ColorScripts-Enhanced/Scripts/<name>.ps1`
 2. Include cache header: `if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }`
 3. Use UTF-8 encoding without BOM
@@ -71,9 +77,11 @@ pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix
 > Tip: Reuse `Add-ColorScriptProfile` when scripts need to manipulate PowerShell profiles to avoid duplicating logic.
 
 ### Verify Nerd Font Rendering
+
 ```powershell
 Show-ColorScript -Name nerd-font-test
 ```
+
 Expect to see icons, checkmarks, and box-drawing characters. If they appear as squares, install a Nerd Font and set it as your terminal font (see README or Quick Reference for OS-specific steps).
 
 ## Coding Standards

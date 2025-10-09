@@ -38,6 +38,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
    - Include proper UTF-8 encoding
 
 2. **Script structure**
+
    ```powershell
    # Script Name - Brief description
    # Check cache first for instant output
@@ -55,6 +56,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
    - Test on multiple terminals
 
 4. **Test your script**
+
    ```powershell
    # Test direct execution
    & .\ColorScripts-Enhanced\Scripts\my-cool-script.ps1
@@ -71,6 +73,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
 
 1. **Fork the repository**
 2. **Create a feature branch**
+
    ```powershell
    git checkout -b feature/your-feature-name
    ```
@@ -88,6 +91,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
    - Include examples
 
 5. **Run tests**
+
    ```powershell
    # Module smoke tests (includes ScriptAnalyzer)
    pwsh -NoProfile -Command "& .\Test-Module.ps1"
@@ -103,6 +107,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
    ```
 
 6. **Commit your changes**
+
    ```powershell
    git add .
    git commit -m "feat: add awesome new feature"

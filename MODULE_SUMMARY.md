@@ -33,6 +33,7 @@ ColorScripts-Enhanced/
 ## Public Commands
 
 ### 1. Show-ColorScript (Alias: scs)
+
 Main command to display colorscripts with automatic caching.
 
 ```powershell
@@ -44,6 +45,7 @@ Show-ColorScript -Name "bars" -NoCache  # Bypass cache
 ```
 
 ### 2. Get-ColorScriptList
+
 Lists all available colorscripts in a formatted view.
 
 ```powershell
@@ -51,6 +53,7 @@ Get-ColorScriptList
 ```
 
 ### 3. Build-ColorScriptCache
+
 Pre-generates cache files for faster performance.
 
 ```powershell
@@ -60,6 +63,7 @@ Build-ColorScriptCache -All -Force          # Force rebuild
 ```
 
 ### 4. Clear-ColorScriptCache
+
 Removes cache files.
 
 ```powershell
@@ -68,6 +72,7 @@ Clear-ColorScriptCache -Name "bars"         # Clear specific
 ```
 
 ### 5. Add-ColorScriptProfile
+
 Appends the module import (and optional startup script) to a PowerShell profile.
 
 ```powershell
@@ -103,24 +108,28 @@ Add-ColorScriptProfile -SkipStartupScript
 ## Key Features
 
 ### ✅ Professional Module Structure
+
 - Standard PowerShell module format (`.psd1` + `.psm1`)
 - Proper manifest with metadata
 - Version control ready
 - Gallery-ready structure
 
 ### ✅ High-Performance Caching
+
 - **6-19x faster** than non-cached execution
 - OS-wide cache in AppData
 - Automatic cache invalidation
 - Smart cache validation
 
 ### ✅ Clean API
+
 - Well-documented cmdlets
 - Help content with examples
 - Tab completion support
 - Intuitive parameter names
 
 ### ✅ User-Friendly
+
 - Simple installation script
 - Comprehensive README
 - Colorful console output
@@ -129,12 +138,12 @@ Add-ColorScriptProfile -SkipStartupScript
 
 ## Performance Results
 
-| Script | Without Cache | With Cache | Improvement |
-|--------|--------------|------------|-------------|
-| bars | 31ms | 13ms | **2.4x** |
-| hearts | 40ms | 15ms | **2.7x** |
-| mandelbrot-zoom | 365ms | 18ms | **20x** |
-| galaxy-spiral | 250ms | 16ms | **15x** |
+| Script          | Without Cache | With Cache | Improvement |
+| --------------- | ------------- | ---------- | ----------- |
+| bars            | 31ms          | 13ms       | **2.4x**    |
+| hearts          | 40ms          | 15ms       | **2.7x**    |
+| mandelbrot-zoom | 365ms         | 18ms       | **20x**     |
+| galaxy-spiral   | 250ms         | 16ms       | **15x**     |
 
 ## Cache System Architecture
 
@@ -212,30 +221,31 @@ scs galaxy-spiral
 
 ### vs. ps-color-scripts Repository
 
-| Feature | Original | ColorScripts-Enhanced |
-|---------|----------|----------------------|
-| Structure | Loose scripts | PowerShell Module |
-| Caching | Basic | Advanced (6-19x) |
-| Cache Location | Local folder | OS-wide AppData |
-| API | Script invocation | Cmdlets |
-| Installation | Manual | `Install.ps1` |
-| Help | README only | Get-Help support |
-| Tab Completion | No | Yes |
-| Version Control | N/A | Module versioning |
+| Feature         | Original          | ColorScripts-Enhanced |
+| --------------- | ----------------- | --------------------- |
+| Structure       | Loose scripts     | PowerShell Module     |
+| Caching         | Basic             | Advanced (6-19x)      |
+| Cache Location  | Local folder      | OS-wide AppData       |
+| API             | Script invocation | Cmdlets               |
+| Installation    | Manual            | `Install.ps1`         |
+| Help            | README only       | Get-Help support      |
+| Tab Completion  | No                | Yes                   |
+| Version Control | N/A               | Module versioning     |
 
 ### vs. shell-color-scripts (Bash Original)
 
-| Feature | Bash Version | ColorScripts-Enhanced |
-|---------|--------------|----------------------|
-| Platform | Linux/Unix | Windows PowerShell |
-| Caching | None | High-performance |
-| Integration | Terminal config | PowerShell module |
-| API | Bash script | PowerShell cmdlets |
-| Speed | Fast | **6-19x faster** |
+| Feature     | Bash Version    | ColorScripts-Enhanced |
+| ----------- | --------------- | --------------------- |
+| Platform    | Linux/Unix      | Windows PowerShell    |
+| Caching     | None            | High-performance      |
+| Integration | Terminal config | PowerShell module     |
+| API         | Bash script     | PowerShell cmdlets    |
+| Speed       | Fast            | **6-19x faster**      |
 
 ## File Breakdown
 
 ### ColorScripts-Enhanced.psd1 (Module Manifest)
+
 - Module metadata
 - Version information
 - Exported functions
@@ -243,6 +253,7 @@ scs galaxy-spiral
 - Gallery information
 
 ### ColorScripts-Enhanced.psm1 (Module Code)
+
 - Main module logic (~450 lines)
 - Caching engine
 - Public cmdlets
@@ -250,17 +261,20 @@ scs galaxy-spiral
 - Export declarations
 
 ### ColorScriptCache.ps1 (Compatibility Stub)
+
 - Compatibility with old cache check lines
 - Returns false to allow module to handle caching
 - Prevents errors in colorscripts
 
 ### Install.ps1 (Installation Script)
+
 - Automated installation
 - Profile integration
 - Cache building
 - User-friendly prompts
 
 ### README.md (Documentation)
+
 - Complete usage guide
 - Installation instructions
 - Examples
@@ -268,6 +282,7 @@ scs galaxy-spiral
 - Architecture details
 
 ### Scripts/ (185 Colorscripts)
+
 - All original colorscripts
 - Unchanged from source
 - Cache check lines still present
@@ -276,23 +291,29 @@ scs galaxy-spiral
 ## Distribution Options
 
 ### Option 1: PowerShell Gallery
+
 Can be published to PowerShell Gallery:
+
 ```powershell
 Publish-Module -Path ".\ColorScripts-Enhanced" -NuGetApiKey "your-key"
 ```
 
 Then users install with:
+
 ```powershell
 Install-Module -Name ColorScripts-Enhanced
 ```
 
 ### Option 2: GitHub Release
+
 Package as `.zip` for GitHub releases:
+
 ```powershell
 Compress-Archive -Path ".\ColorScripts-Enhanced" -DestinationPath "ColorScripts-Enhanced-v1.0.0.zip"
 ```
 
 ### Option 3: Manual Distribution
+
 Share the folder directly - users run `Install.ps1`
 
 ## Future Enhancement Ideas
@@ -336,18 +357,21 @@ Users with the original ps-color-scripts can migrate:
 ## Technical Details
 
 ### Module Loading
+
 - Imports on demand
 - Lazy loading of scripts
 - Minimal startup overhead
 - Verbose logging available
 
 ### Error Handling
+
 - Try/catch blocks
 - Graceful degradation
 - Informative error messages
 - Warning for non-critical issues
 
 ### Compatibility
+
 - Works with Windows PowerShell 5.1
 - Works with PowerShell 7+
 - Compatible with Windows Terminal
@@ -366,6 +390,7 @@ Users with the original ps-color-scripts can migrate:
 ✅ Is production-ready
 
 The module is ready for:
+
 - Personal use
 - Distribution
 - PowerShell Gallery publication

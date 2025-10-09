@@ -8,6 +8,7 @@ and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
 ## 2025.10.09.1633 - 2025-10-09
 
 ### Added
+
 - `Add-ColorScriptProfile` helper cmdlet for safe profile integration
 - `Lint-Module.ps1` convenience script to run ScriptAnalyzer locally
 - Extended Pester coverage for profile helper and lint checks
@@ -15,6 +16,7 @@ and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
 - Cross-platform Nerd Font installation guidance for glyph-heavy scripts
 
 ### Changed
+
 - README and module summary now lead with PowerShell Gallery installation instructions
 - `Install.ps1` reuses the new helper and supports `-SkipStartupScript`
 - `Test-Module.ps1` runs ScriptAnalyzer and validates profile snippets
@@ -22,12 +24,14 @@ and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
 - `Lint-Module.ps1` now supports an optional `-Fix` pass before verification
 
 ### Fixed
+
 - Ensured manual install guidance aligns with exported commands
 - Updated automation docs with current secret names used by GitHub Actions
 
 ## 2025.10.09.1625 - 2025-10-09
 
 ### Added
+
 - Comprehensive comment-based help for all functions
 - External help in markdown format (MAML-compatible)
 - `about_ColorScripts-Enhanced` help topic
@@ -48,12 +52,14 @@ and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
 - Pipeline input support where applicable
 
 ### Changed
+
 - Enhanced module manifest with complete metadata
 - Improved function documentation
 - Updated all functions to follow PowerShell best practices
 - Standardized error handling across all functions
 
 ### Fixed
+
 - Help content now displays correctly with Get-Help
 - Module metadata complies with PowerShell Gallery standards
 - All exported functions properly documented
@@ -61,6 +67,7 @@ and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
 ## 2025.10.09 - 2025-10-09
 
 ### Added
+
 - OS-wide caching system in AppData
 - Centralized cache location
 - 6-19x performance improvement
@@ -82,12 +89,14 @@ and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
   - mobile-dev.ps1
 
 ### Changed
+
 - Cache directory moved to AppData
 - Improved cache file naming
 - Enhanced script selection algorithm
 - Better error messages
 
 ### Removed
+
 - Animated scripts that would loop on startup:
   - matrix-rain.ps1
   - fire-effect.ps1
@@ -97,6 +106,7 @@ and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
 ## 2025.10.08 - 2025-10-08
 
 ### Added
+
 - Initial public release
 - Basic colorscript display functionality
 - Random script selection
@@ -107,6 +117,7 @@ and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
 - Basic documentation
 
 ### Features
+
 - Show-ColorScript command
 - Get-ColorScriptList command
 - Build-ColorScriptCache command
@@ -116,6 +127,7 @@ and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
 ## Unreleased
 
 ### Planned
+
 - Script categories filtering
 - Favorite scripts management
 - Custom colorscript import

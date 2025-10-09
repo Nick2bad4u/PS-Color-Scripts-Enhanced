@@ -64,11 +64,11 @@ else {
 # Get all colorscripts
 $scriptsPath = Join-Path $PSScriptRoot "Scripts"
 $scripts = Get-ChildItem -Path $scriptsPath -Filter "*.ps1" |
-Where-Object {
-    $_.Name -ne 'ColorScriptCache.ps1' -and
-    $_.BaseName -like $Filter
-} |
-Sort-Object Name
+    Where-Object {
+        $_.Name -ne 'ColorScriptCache.ps1' -and
+        $_.BaseName -like $Filter
+    } |
+    Sort-Object Name
 
 if ($scripts.Count -eq 0) {
     Write-Warning "No colorscripts found matching filter: $Filter"
@@ -115,7 +115,6 @@ foreach ($script in $scripts) {
         # Success
         $successful++
         Write-Host "`n✓ Completed in $([math]::Round($duration, 0))ms" -ForegroundColor Green
-
     }
     catch {
         [Console]::OutputEncoding = $originalEncoding
