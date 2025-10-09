@@ -12,11 +12,11 @@ jobs:
             - name: Set Timezone
               run: sudo timedatectl set-timezone America/Detroit
 
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - name: Build and publish
               env:
                   NUGET_KEY: ${{ secrets.NUGET_KEY }}
               shell: pwsh
               run: |
                   ./build.ps1
-                  Publish-Module -Path ./ps-color-scripts-enhanced/ColorScripts-Enhanced -NuGetApiKey $env:NUGET_KEY -Verbose
+                  Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:NUGET_KEY -Verbose
