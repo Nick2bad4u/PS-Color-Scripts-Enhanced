@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -22,16 +22,16 @@ $reset = "$esc[0m"
 
 Write-Host @"
 
- $redf ▄█▀ █ █ ▀█▄   $greenf ▄█▀ █ █ ▀█▄   $yellowf ▄█▀ █ █ ▀█▄   $bluef ▄█▀ █ █ ▀█▄   $purplef ▄█▀ █ █ ▀█▄   $cyanf ▄█▀ █ █ ▀█▄ 
+ $redf ▄█▀ █ █ ▀█▄   $greenf ▄█▀ █ █ ▀█▄   $yellowf ▄█▀ █ █ ▀█▄   $bluef ▄█▀ █ █ ▀█▄   $purplef ▄█▀ █ █ ▀█▄   $cyanf ▄█▀ █ █ ▀█▄
  $redf███  ███  ███  $greenf███  ███  ███  $yellowf███  ███  ███  $bluef███  ███  ███  $purplef███  ███  ███  $cyanf███  ███  ███
  $redf█████████████  $greenf█████████████  $yellowf█████████████  $bluef█████████████  $purplef█████████████  $cyanf█████████████
- $redf ▀██▄   ▄██▀   $greenf ▀██▄   ▄██▀   $yellowf ▀██▄   ▄██▀   $bluef ▀██▄   ▄██▀   $purplef ▀██▄   ▄██▀   $cyanf ▀██▄   ▄██▀ 
- 
-$boldon 
- $redfbright ▄█▀ █ █ ▀█▄   $greenfbright ▄█▀ █ █ ▀█▄   $yellowfbright ▄█▀ █ █ ▀█▄   $bluefbright ▄█▀ █ █ ▀█▄   $purplefbright ▄█▀ █ █ ▀█▄   $cyanfbright ▄█▀ █ █ ▀█▄ 
+ $redf ▀██▄   ▄██▀   $greenf ▀██▄   ▄██▀   $yellowf ▀██▄   ▄██▀   $bluef ▀██▄   ▄██▀   $purplef ▀██▄   ▄██▀   $cyanf ▀██▄   ▄██▀
+
+$boldon
+ $redfbright ▄█▀ █ █ ▀█▄   $greenfbright ▄█▀ █ █ ▀█▄   $yellowfbright ▄█▀ █ █ ▀█▄   $bluefbright ▄█▀ █ █ ▀█▄   $purplefbright ▄█▀ █ █ ▀█▄   $cyanfbright ▄█▀ █ █ ▀█▄
  $redfbright███  ███  ███  $greenfbright███  ███  ███  $yellowfbright███  ███  ███  $bluefbright███  ███  ███  $purplefbright███  ███  ███  $cyanfbright███  ███  ███
  $redfbright█████████████  $greenfbright█████████████  $yellowfbright█████████████  $bluefbright█████████████  $purplefbright█████████████  $cyanfbright█████████████
- $redfbright ▀██▄   ▄██▀   $greenfbright ▀██▄   ▄██▀   $yellowfbright ▀██▄   ▄██▀   $bluefbright ▀██▄   ▄██▀   $purplefbright ▀██▄   ▄██▀   $cyanfbright ▀██▄   ▄██▀ 
-$reset 
+ $redfbright ▀██▄   ▄██▀   $greenfbright ▀██▄   ▄██▀   $yellowfbright ▀██▄   ▄██▀   $bluefbright ▀██▄   ▄██▀   $purplefbright ▀██▄   ▄██▀   $cyanfbright ▀██▄   ▄██▀
+$reset
 
 "@

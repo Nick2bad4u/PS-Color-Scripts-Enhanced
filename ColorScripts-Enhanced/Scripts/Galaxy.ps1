@@ -1,4 +1,4 @@
-# Galaxy Panel: Static star cluster with color-coded depth.
+﻿# Galaxy Panel: Static star cluster with color-coded depth.
 
 # Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
@@ -8,7 +8,7 @@ $w = 100
 $h = 12
 $stars = 140
 $grid = @()
-for ($i=0; $i -lt $h; $i++) { $grid += ,(@(" " * $w).ToCharArray()) }
+for ($i=0; $i -lt $h; $i++) { $grid += , (@(" " * $w).ToCharArray()) }
 
 for ($s=0; $s -lt $stars; $s++) {
     $x = Get-Random -Minimum 0 -Maximum $w
@@ -34,7 +34,8 @@ for ($py = -$planetRadius; $py -le $planetRadius; $py++) {
             if ($drawX -ge 0 -and $drawX -lt $w -and $drawY -ge 0 -and $drawY -lt $h) {
                 if ($dist -le $planetRadius - 1) {
                     $grid[$drawY][$drawX] = $planetCoreChar
-                } else {
+                }
+                else {
                     $grid[$drawY][$drawX] = $planetEdgeChar
                 }
             }

@@ -1,4 +1,4 @@
-#Requires -Version 5.1
+﻿#Requires -Version 5.1
 
 # ColorScripts-Enhanced Module
 # High-performance colorscripts with intelligent caching
@@ -27,6 +27,7 @@ function Get-CachedOutput {
         Returns $true if cache was used, $false otherwise.
     #>
     [CmdletBinding()]
+    [OutputType([bool])]
     param(
         [Parameter(Mandatory)]
         [string]$ScriptPath
@@ -71,6 +72,7 @@ function Build-ScriptCache {
         The full path to the colorscript file.
     #>
     [CmdletBinding()]
+    [OutputType([bool])]
     param(
         [Parameter(Mandatory)]
         [string]$ScriptPath
@@ -174,12 +176,14 @@ function Show-ColorScript {
 
     # Get all available scripts
     $availableScripts = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" |
-    Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
+        Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
 
     if ($availableScripts.Count -eq 0) {
         Write-Warning "No colorscripts found in $script:ScriptsPath"
         return
     }
+
+    $useRandom = $Random -or $PSCmdlet.ParameterSetName -eq 'Random'
 
     # Select script
     if ($Name) {
@@ -189,9 +193,12 @@ function Show-ColorScript {
             return
         }
     }
-    else {
+    elseif ($useRandom) {
         # Random selection
         $script = $availableScripts | Get-Random
+    }
+    else {
+        $script = $availableScripts | Select-Object -First 1
     }
 
     # Try to use cache first (unless NoCache specified)
@@ -233,8 +240,8 @@ function Get-ColorScriptList {
     param()
 
     $scripts = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" |
-    Where-Object { $_.Name -ne 'ColorScriptCache.ps1' } |
-    Sort-Object Name
+        Where-Object { $_.Name -ne 'ColorScriptCache.ps1' } |
+        Sort-Object Name
 
     Write-Host "`nAvailable ColorScripts ($($scripts.Count)):" -ForegroundColor Cyan
     Write-Host ("=" * 60) -ForegroundColor Cyan
@@ -315,7 +322,7 @@ function Build-ColorScriptCache {
     }
     elseif ($All) {
         $scriptFiles = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" |
-        Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
+            Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
     }
     else {
         Write-Host "Usage: Build-ColorScriptCache -All | -Name script1,script2,..." -ForegroundColor Yellow
@@ -429,6 +436,113 @@ function Clear-ColorScriptCache {
     }
 }
 
+function Add-ColorScriptProfile {
+    <#
+    .SYNOPSIS
+        Adds ColorScripts-Enhanced import and optional startup snippet to a PowerShell profile.
+
+    .DESCRIPTION
+        Appends the module import (and optionally Show-ColorScript) to the specified PowerShell profile
+        file. Creates the profile file if it does not already exist. Prevents duplicate entries unless
+        -Force is specified.
+
+    .PARAMETER Scope
+        Which predefined PowerShell profile path to update. Defaults to CurrentUserAllHosts.
+
+    .PARAMETER Path
+        Explicit path to a profile script. Overrides Scope when provided.
+
+    .PARAMETER SkipStartupScript
+        Only add Import-Module line; do not add Show-ColorScript.
+
+    .PARAMETER Force
+        Add the snippet even if the profile already contains an Import-Module ColorScripts-Enhanced line.
+
+    .EXAMPLE
+        Add-ColorScriptProfile
+        Adds the import and random colorscript startup to the CurrentUserAllHosts profile.
+
+    .EXAMPLE
+        Add-ColorScriptProfile -SkipStartupScript -Scope CurrentUserCurrentHost
+        Adds only the import line to the current host profile.
+    #>
+    [CmdletBinding(SupportsShouldProcess = $true)]
+    param(
+        [Parameter()]
+        [ValidateSet('CurrentUserAllHosts', 'CurrentUserCurrentHost', 'AllUsersAllHosts', 'AllUsersCurrentHost')]
+        [string]$Scope = 'CurrentUserAllHosts',
+
+        [Parameter()]
+        [string]$Path,
+
+        [Parameter()]
+        [switch]$SkipStartupScript,
+
+        [Parameter()]
+        [switch]$Force
+    )
+
+    if ($PSBoundParameters.ContainsKey('Path')) {
+        $profilePath = $Path
+    }
+    else {
+        $profilePath = $PROFILE.$Scope
+    }
+
+    if (-not [System.IO.Path]::IsPathRooted($profilePath)) {
+        $profilePath = [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $profilePath))
+    }
+
+    $profileDirectory = Split-Path -Parent $profilePath
+    if (-not (Test-Path $profileDirectory)) {
+        New-Item -ItemType Directory -Path $profileDirectory -Force | Out-Null
+    }
+
+    $existingContent = ''
+    if (Test-Path $profilePath) {
+        $existingContent = Get-Content -Path $profilePath -Raw
+        if (-not $Force -and $existingContent -match 'Import-Module\s+ColorScripts-Enhanced') {
+            Write-Verbose "Profile already contains ColorScripts-Enhanced import. Skipping (use -Force to append anyway)."
+            return [pscustomobject] @{
+                Path    = $profilePath
+                Changed = $false
+                Message = 'Profile already configured.'
+            }
+        }
+    }
+
+    $newline = [Environment]::NewLine
+    $timestamp = (Get-Date).ToString('u')
+    $snippetLines = @(
+        "# Added by ColorScripts-Enhanced on $timestamp",
+        'Import-Module ColorScripts-Enhanced'
+    )
+
+    if (-not $SkipStartupScript) {
+        $snippetLines += 'Show-ColorScript'
+    }
+
+    $snippet = ($snippetLines -join $newline)
+
+    $separator = ''
+    if ($existingContent -and $existingContent.TrimEnd()) {
+        $separator = $newline + $newline
+    }
+
+    if ($PSCmdlet.ShouldProcess($profilePath, 'Add ColorScripts-Enhanced profile snippet')) {
+        $contentToAppend = $separator + $snippet + $newline
+        [System.IO.File]::AppendAllText($profilePath, $contentToAppend, [System.Text.Encoding]::UTF8)
+
+        Write-Host "✓ Added ColorScripts-Enhanced startup snippet to $profilePath" -ForegroundColor Green
+
+        return [pscustomobject] @{
+            Path    = $profilePath
+            Changed = $true
+            Message = 'ColorScripts-Enhanced profile snippet added.'
+        }
+    }
+}
+
 #endregion
 
 # Export module members
@@ -436,7 +550,8 @@ Export-ModuleMember -Function @(
     'Show-ColorScript',
     'Get-ColorScriptList',
     'Build-ColorScriptCache',
-    'Clear-ColorScriptCache'
+    'Clear-ColorScriptCache',
+    'Add-ColorScriptProfile'
 ) -Alias @('scs')
 
 # Module initialization message

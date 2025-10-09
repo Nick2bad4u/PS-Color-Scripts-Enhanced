@@ -18,6 +18,8 @@ function New-Gradient {
     $sb.ToString()
 }
 
+$void = "Keep in the script for proper spacing"
+
 # Print 3 static gradient rows with different phases
 Write-Host (New-Gradient -Phase 0)
 Write-Host (New-Gradient -Phase 0)

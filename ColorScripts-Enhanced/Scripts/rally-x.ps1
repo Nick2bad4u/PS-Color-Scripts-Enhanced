@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -22,21 +22,21 @@ $rst="$esc[0m"
 
 Write-Host @"
 
- $f3 ▄      $f1      ▄▄      $f2      ▄▄      $f4      ▄▄      $f5      ▄▄      $f6      ▄▄     
- $f3 ███▄▄  $f1   ██▬██▬██   $f2   ██▬██▬██   $f4   ██▬██▬██   $f5   ██▬██▬██   $f6   ██▬██▬██  
- $f3 █████▀▀$f1     ████     $f2     ████     $f4     ████     $f5     ████     $f6     ████    
- $f3 █▀▀    $f1   ▄██  ██▄   $f2   ▄██  ██▄   $f4   ▄██  ██▄   $f5   ▄██  ██▄   $f6   ▄██  ██▄  
+ $f3 ▄      $f1      ▄▄      $f2      ▄▄      $f4      ▄▄      $f5      ▄▄      $f6      ▄▄
+ $f3 ███▄▄  $f1   ██▬██▬██   $f2   ██▬██▬██   $f4   ██▬██▬██   $f5   ██▬██▬██   $f6   ██▬██▬██
+ $f3 █████▀▀$f1     ████     $f2     ████     $f4     ████     $f5     ████     $f6     ████
+ $f3 █▀▀    $f1   ▄██  ██▄   $f2   ▄██  ██▄   $f4   ▄██  ██▄   $f5   ▄██  ██▄   $f6   ▄██  ██▄
  $f3 █      $f1 ▄▄▄▀█  █▀▄▄▄ $f2 ▄▄▄▀█  █▀▄▄▄ $f4 ▄▄▄▀█  █▀▄▄▄ $f5 ▄▄▄▀█  █▀▄▄▄ $f6 ▄▄▄▀█  █▀▄▄▄
  $f3▄█▄     $f1 ███▀████▀███ $f2 ███▀████▀███ $f4 ███▀████▀███ $f5 ███▀████▀███ $f6 ███▀████▀███
-            $f1  ▀  ▀        $f2  ▀  ▀        $f4  ▀  ▀        $f5  ▀  ▀        $f6  ▀  ▀       
+            $f1  ▀  ▀        $f2  ▀  ▀        $f4  ▀  ▀        $f5  ▀  ▀        $f6  ▀  ▀
 $bld
- $fbright3 ▄      $fbright1      ▄▄      $fbright2      ▄▄      $fbright4      ▄▄      $fbright5      ▄▄      $fbright6      ▄▄     
- $fbright3 ███▄▄  $fbright1   ██▬██▬██   $fbright2   ██▬██▬██   $fbright4   ██▬██▬██   $fbright5   ██▬██▬██   $fbright6   ██▬██▬██  
- $fbright3 █████▀▀$fbright1     ████     $fbright2     ████     $fbright4     ████     $fbright5     ████     $fbright6     ████    
- $fbright3 █▀▀    $fbright1   ▄██  ██▄   $fbright2   ▄██  ██▄   $fbright4   ▄██  ██▄   $fbright5   ▄██  ██▄   $fbright6   ▄██  ██▄  
+ $fbright3 ▄      $fbright1      ▄▄      $fbright2      ▄▄      $fbright4      ▄▄      $fbright5      ▄▄      $fbright6      ▄▄
+ $fbright3 ███▄▄  $fbright1   ██▬██▬██   $fbright2   ██▬██▬██   $fbright4   ██▬██▬██   $fbright5   ██▬██▬██   $fbright6   ██▬██▬██
+ $fbright3 █████▀▀$fbright1     ████     $fbright2     ████     $fbright4     ████     $fbright5     ████     $fbright6     ████
+ $fbright3 █▀▀    $fbright1   ▄██  ██▄   $fbright2   ▄██  ██▄   $fbright4   ▄██  ██▄   $fbright5   ▄██  ██▄   $fbright6   ▄██  ██▄
  $fbright3 █      $fbright1 ▄▄▄▀█  █▀▄▄▄ $fbright2 ▄▄▄▀█  █▀▄▄▄ $fbright4 ▄▄▄▀█  █▀▄▄▄ $fbright5 ▄▄▄▀█  █▀▄▄▄ $fbright6 ▄▄▄▀█  █▀▄▄▄
  $fbright3▄█▄     $fbright1 ███▀████▀███ $fbright2 ███▀████▀███ $fbright4 ███▀████▀███ $fbright5 ███▀████▀███ $fbright6 ███▀████▀███
-            $fbright1  ▀  ▀        $fbright2  ▀  ▀        $fbright4  ▀  ▀        $fbright5  ▀  ▀        $fbright6  ▀  ▀       
-$rst  
+            $fbright1  ▀  ▀        $fbright2  ▀  ▀        $fbright4  ▀  ▀        $fbright5  ▀  ▀        $fbright6  ▀  ▀
+$rst
 
 "@

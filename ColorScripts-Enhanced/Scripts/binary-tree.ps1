@@ -31,7 +31,7 @@ $width = 100
 $height = 26
 $grid = @{}
 
-function Draw-Branch {
+function Write-Branch {
     param($X, $Y, $Angle, $Length, $Depth, $MaxDepth)
 
     if ($Depth -gt $MaxDepth -or $Length -lt 0.8) { return }
@@ -64,12 +64,12 @@ function Draw-Branch {
     $rightAngle = $Angle + 0.4 + (7 - $Depth) * 0.06
     $newLength = $Length * 0.72
 
-    Draw-Branch -X $endX -Y $endY -Angle $leftAngle -Length $newLength -Depth ($Depth + 1) -MaxDepth $MaxDepth
-    Draw-Branch -X $endX -Y $endY -Angle $rightAngle -Length $newLength -Depth ($Depth + 1) -MaxDepth $MaxDepth
+    Write-Branch -X $endX -Y $endY -Angle $leftAngle -Length $newLength -Depth ($Depth + 1) -MaxDepth $MaxDepth
+    Write-Branch -X $endX -Y $endY -Angle $rightAngle -Length $newLength -Depth ($Depth + 1) -MaxDepth $MaxDepth
 }
 
 # Start tree from bottom center
-Draw-Branch -X 50 -Y 25 -Angle ( - [math]::PI / 2) -Length 8 -Depth 0 -MaxDepth 9
+Write-Branch -X 50 -Y 25 -Angle ( - [math]::PI / 2) -Length 8 -Depth 0 -MaxDepth 9
 
 # Render
 $maxDepth = ($grid.Values | Measure-Object -Property Depth -Maximum).Maximum

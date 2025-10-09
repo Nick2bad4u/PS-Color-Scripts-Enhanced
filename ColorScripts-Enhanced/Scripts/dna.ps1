@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -28,7 +28,7 @@ Write-Host @"
   $f1 █-$bld$fbright1█$rst     $f2 █-$bld$fbright2█$rst     $f3 █-$bld$fbright3█$rst     $f4 █-$bld$fbright4█$rst     $f5 █-$bld$fbright5█$rst     $f6 █-$bld$fbright6█$rst
     $f1█$rst        $f2█$rst        $f3█$rst        $f4█$rst        $f5█$rst        $f6█$rst
    $f1$bld$fbright1█-$rst$f1█$rst      $f2$bld$fbright2█_$rst$f2█$rst      $f3$bld$fbright3█-$rst$f3█$rst      $f4$bld$fbright4█-$rst$f4█$rst      $f5$bld$fbright5█-$rst$f5█$rst      $f6$bld$fbright6█-$rst$f6█$rst
-  $f1$bld$fbright1█---$rst$f1█$rst    $f2$bld$fbright2█---$rst$f2█$rst    $f3$bld$fbright3█---$rst$f3█$rst    $f4$bld$fbright4█---$rst$f4█$rst    $f5$bld$fbright5█---$rst$f5█$rst    $f6$bld$fbright6█---$rst$f6█$rst 
+  $f1$bld$fbright1█---$rst$f1█$rst    $f2$bld$fbright2█---$rst$f2█$rst    $f3$bld$fbright3█---$rst$f3█$rst    $f4$bld$fbright4█---$rst$f4█$rst    $f5$bld$fbright5█---$rst$f5█$rst    $f6$bld$fbright6█---$rst$f6█$rst
  $f1$bld$fbright1█-----$rst$f1█$rst  $f2$bld$fbright2█-----$rst$f2█$rst  $f3$bld$fbright3█-----$rst$f3█$rst  $f4$bld$fbright4█-----$rst$f4█$rst  $f5$bld$fbright5█-----$rst$f5█$rst  $f6$bld$fbright6█-----$rst$f6█$rst
   $f1$bld$fbright1█---$rst$f1█$rst    $f2$bld$fbright2█---$rst$f2█$rst    $f3$bld$fbright3█---$rst$f3█$rst    $f4$bld$fbright4█---$rst$f4█$rst    $f5$bld$fbright5█---$rst$f5█$rst    $f6$bld$fbright6█---$rst$f6█$rst
    $f1$bld$fbright1█-$rst$f1█$rst      $f2$bld$fbright2█-$rst$f2█$rst      $f3$bld$fbright3█-$rst$f3█$rst      $f4$bld$fbright4█-$rst$f4█$rst      $f5$bld$fbright5█-$rst$f5█$rst      $f6$bld$fbright6█-$rst$f6█$rst
@@ -40,7 +40,7 @@ Write-Host @"
   $f1 █-$bld$fbright1█$rst     $f2 █-$bld$fbright2█$rst     $f3 █-$bld$fbright3█$rst     $f4 █-$bld$fbright4█$rst     $f5 █-$bld$fbright5█$rst     $f6 █-$bld$fbright6█$rst
     $f1█$rst        $f2█$rst        $f3█$rst        $f4█$rst        $f5█$rst        $f6█$rst
    $f1$bld$fbright1█-$rst$f1█$rst      $f2$bld$fbright2█_$rst$f2█$rst      $f3$bld$fbright3█-$rst$f3█$rst      $f4$bld$fbright4█-$rst$f4█$rst      $f5$bld$fbright5█-$rst$f5█$rst      $f6$bld$fbright6█-$rst$f6█$rst
-  $f1$bld$fbright1█---$rst$f1█$rst    $f2$bld$fbright2█---$rst$f2█$rst    $f3$bld$fbright3█---$rst$f3█$rst    $f4$bld$fbright4█---$rst$f4█$rst    $f5$bld$fbright5█---$rst$f5█$rst    $f6$bld$fbright6█---$rst$f6█$rst 
+  $f1$bld$fbright1█---$rst$f1█$rst    $f2$bld$fbright2█---$rst$f2█$rst    $f3$bld$fbright3█---$rst$f3█$rst    $f4$bld$fbright4█---$rst$f4█$rst    $f5$bld$fbright5█---$rst$f5█$rst    $f6$bld$fbright6█---$rst$f6█$rst
  $f1$bld$fbright1█-----$rst$f1█$rst  $f2$bld$fbright2█-----$rst$f2█$rst  $f3$bld$fbright3█-----$rst$f3█$rst  $f4$bld$fbright4█-----$rst$f4█$rst  $f5$bld$fbright5█-----$rst$f5█$rst  $f6$bld$fbright6█-----$rst$f6█$rst
   $f1$bld$fbright1█---$rst$f1█$rst    $f2$bld$fbright2█---$rst$f2█$rst    $f3$bld$fbright3█---$rst$f3█$rst    $f4$bld$fbright4█---$rst$f4█$rst    $f5$bld$fbright5█---$rst$f5█$rst    $f6$bld$fbright6█---$rst$f6█$rst
    $f1$bld$fbright1█-$rst$f1█$rst      $f2$bld$fbright2█-$rst$f2█$rst      $f3$bld$fbright3█-$rst$f3█$rst      $f4$bld$fbright4█-$rst$f4█$rst      $f5$bld$fbright5█-$rst$f5█$rst      $f6$bld$fbright6█-$rst$f6█$rst
@@ -48,5 +48,5 @@ Write-Host @"
    $f1█-$bld$fbright1█$rst      $f2█-$bld$fbright2█$rst      $f3█-$bld$fbright3█$rst      $f4█-$bld$fbright4█$rst      $f5█-$bld$fbright5█$rst      $f6█-$bld$fbright6█$rst
   $f1█---$bld$fbright1█$rst    $f2█---$bld$fbright2█$rst    $f3█---$bld$fbright3█$rst    $f4█---$bld$fbright4█$rst    $f5█---$bld$fbright5█$rst    $f6█---$bld$fbright6█$rst
  $f1█-----$bld$fbright1█  $rst$f2█-----$bld$fbright2█$rst  $f3█-----$bld$fbright3█$rst  $f4█-----$bld$fbright4█$rst  $f5█-----$bld$fbright5█$rst  $f6█-----$bld$fbright6█$rst
-  
+
 "@

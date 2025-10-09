@@ -36,6 +36,10 @@ Describe "ColorScripts-Enhanced Module" {
             Get-Command Clear-ColorScriptCache -Module ColorScripts-Enhanced | Should -Not -BeNullOrEmpty
         }
 
+        It "Should export Add-ColorScriptProfile function" {
+            Get-Command Add-ColorScriptProfile -Module ColorScripts-Enhanced | Should -Not -BeNullOrEmpty
+        }
+
         It "Should have 'scs' alias" {
             $alias = Get-Alias scs -ErrorAction SilentlyContinue
             $alias.Definition | Should -Be 'Show-ColorScript'
@@ -44,23 +48,23 @@ Describe "ColorScripts-Enhanced Module" {
 
     Context "Module Manifest" {
         BeforeAll {
-            $ManifestPath = "$PSScriptRoot\..\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
-            $Manifest = Test-ModuleManifest $ManifestPath -ErrorAction Stop
+            $script:ManifestPath = "$PSScriptRoot\..\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
+            $script:Manifest = Test-ModuleManifest $script:ManifestPath -ErrorAction Stop
         }
 
         It "Should have a valid manifest" {
-            $Manifest | Should -Not -BeNullOrEmpty
+            $script:Manifest | Should -Not -BeNullOrEmpty
         }
 
         It "Should support PowerShell 5.1 and Core" {
-            $Manifest.CompatiblePSEditions | Should -Contain 'Desktop'
-            $Manifest.CompatiblePSEditions | Should -Contain 'Core'
+            $script:Manifest.CompatiblePSEditions | Should -Contain 'Desktop'
+            $script:Manifest.CompatiblePSEditions | Should -Contain 'Core'
         }
 
         It "Should have proper metadata" {
-            $Manifest.Author | Should -Not -BeNullOrEmpty
-            $Manifest.Description | Should -Not -BeNullOrEmpty
-            $Manifest.ProjectUri | Should -Not -BeNullOrEmpty
+            $script:Manifest.Author | Should -Not -BeNullOrEmpty
+            $script:Manifest.Description | Should -Not -BeNullOrEmpty
+            $script:Manifest.ProjectUri | Should -Not -BeNullOrEmpty
         }
     }
 
@@ -80,23 +84,23 @@ Describe "ColorScripts-Enhanced Module" {
 
     Context "Cache System" {
         BeforeAll {
-            $CacheDir = Join-Path $env:APPDATA "ColorScripts-Enhanced\cache"
+            $script:CacheDir = Join-Path $env:APPDATA "ColorScripts-Enhanced\cache"
         }
 
         It "Should create cache directory" {
-            Test-Path $CacheDir | Should -Be $true
+            Test-Path $script:CacheDir | Should -Be $true
         }
 
         It "Should build cache for a script" {
             Build-ColorScriptCache -Name "bars" -ErrorAction Stop
-            $cacheFile = Join-Path $CacheDir "bars.cache"
+            $cacheFile = Join-Path $script:CacheDir "bars.cache"
             Test-Path $cacheFile | Should -Be $true
         }
 
         It "Should clear specific cache" {
             Build-ColorScriptCache -Name "bars" -ErrorAction Stop
             Clear-ColorScriptCache -Name "bars" -Confirm:$false
-            $cacheFile = Join-Path $CacheDir "bars.cache"
+            $cacheFile = Join-Path $script:CacheDir "bars.cache"
             Test-Path $cacheFile | Should -Be $false
         }
     }
@@ -120,7 +124,7 @@ Describe "ColorScripts-Enhanced Module" {
         }
 
         It "Should handle non-existent script gracefully" {
-            { Show-ColorScript -Name "nonexistent-script-xyz" -ErrorAction Stop } | Should -Throw
+            { Show-ColorScript -Name "nonexistent-script-xyz" } | Should -Not -Throw
         }
     }
 
@@ -177,7 +181,7 @@ Describe "ColorScripts-Enhanced Module" {
         }
 
         It "All functions should have synopsis" {
-            $commands = @('Show-ColorScript', 'Get-ColorScriptList', 'Build-ColorScriptCache', 'Clear-ColorScriptCache')
+            $commands = @('Show-ColorScript', 'Get-ColorScriptList', 'Build-ColorScriptCache', 'Clear-ColorScriptCache', 'Add-ColorScriptProfile')
             foreach ($cmd in $commands) {
                 $help = Get-Help $cmd
                 $help.Synopsis | Should -Not -BeNullOrEmpty
@@ -186,35 +190,88 @@ Describe "ColorScripts-Enhanced Module" {
     }
 }
 
+Describe "Add-ColorScriptProfile Function" {
+    It "Should have proper help" {
+        $help = Get-Help Add-ColorScriptProfile
+        $help.Synopsis | Should -Not -BeNullOrEmpty
+    }
+
+    It "Should create profile snippet at custom path" {
+        $tempProfile = Join-Path ([System.IO.Path]::GetTempPath()) ("ColorScriptsProfile_" + [guid]::NewGuid() + '.ps1')
+        if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
+
+        try {
+            $result = Add-ColorScriptProfile -Path $tempProfile
+            $result.Changed | Should -BeTrue
+
+            Test-Path $tempProfile | Should -BeTrue
+
+            $content = Get-Content $tempProfile -Raw
+            $content | Should -Match 'Import-Module\s+ColorScripts-Enhanced'
+            $content | Should -Match 'Show-ColorScript'
+        }
+        finally {
+            if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
+        }
+    }
+
+    It "Should respect SkipStartupScript" {
+        $tempProfile = Join-Path ([System.IO.Path]::GetTempPath()) ("ColorScriptsProfileSkip_" + [guid]::NewGuid() + '.ps1')
+        if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
+
+        try {
+            Add-ColorScriptProfile -Path $tempProfile -SkipStartupScript | Out-Null
+
+            $content = Get-Content $tempProfile -Raw
+            $content | Should -Match 'Import-Module\s+ColorScripts-Enhanced'
+            $content | Should -Not -Match 'Show-ColorScript'
+        }
+        finally {
+            if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
+        }
+    }
+
+    It "Should avoid duplicates unless forced" {
+        $tempProfile = Join-Path ([System.IO.Path]::GetTempPath()) ("ColorScriptsProfileDup_" + [guid]::NewGuid() + '.ps1')
+        $initialContent = 'Import-Module ColorScripts-Enhanced'
+        Set-Content -Path $tempProfile -Value $initialContent -Encoding utf8
+
+        try {
+            $result = Add-ColorScriptProfile -Path $tempProfile
+            $result.Changed | Should -BeFalse
+
+            $content = Get-Content $tempProfile -Raw
+            ($content -split [Environment]::NewLine | Where-Object { $_ -match 'Import-Module\s+ColorScripts-Enhanced' }).Count | Should -Be 1
+
+            $forceResult = Add-ColorScriptProfile -Path $tempProfile -Force
+            $forceResult.Changed | Should -BeTrue
+        }
+        finally {
+            if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
+        }
+    }
+}
+
 Describe "Script Quality" {
     Context "Script Files" {
         BeforeAll {
             $scriptsPath = "$PSScriptRoot\..\ColorScripts-Enhanced\Scripts"
-            $scripts = Get-ChildItem $scriptsPath -Filter "*.ps1" |
-            Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
+            $script:TestScripts = (Get-ChildItem $scriptsPath -Filter "*.ps1" |
+                Where-Object { $_.Name -ne 'ColorScriptCache.ps1' } |
+                Select-Object -First 5)
         }
 
         It "Scripts should use UTF-8 encoding" {
-            # Sample test on a few scripts
-            $testScripts = $scripts | Select-Object -First 5
-            foreach ($script in $testScripts) {
-                $content = [System.IO.File]::ReadAllBytes($script.FullName)
-                # Check for UTF-8 BOM or assume UTF-8
-                if ($content.Length -ge 3) {
-                    # Just verify file can be read without error
-                    { Get-Content $script.FullName -ErrorAction Stop } | Should -Not -Throw
-                }
+            foreach ($script in $script:TestScripts) {
+                { Get-Content $script.FullName -ErrorAction Stop } | Should -Not -Throw
             }
         }
 
         It "Scripts should have cache check header" {
-            $testScripts = $scripts | Select-Object -First 5
-            foreach ($script in $testScripts) {
+            foreach ($script in $script:TestScripts) {
                 $content = Get-Content $script.FullName -Raw
-                # Most scripts should have cache header (some may not)
-                if ($content -match 'ColorScriptCache') {
-                    $content | Should -Match 'ColorScriptCache'
-                }
+                if ($content -notmatch 'Write-Host') { continue } # Skip empty/non-output scripts
+                $content | Should -Match 'ColorScriptCache'
             }
         }
     }

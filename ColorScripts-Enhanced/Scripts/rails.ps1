@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -24,7 +24,7 @@ Write-Host @"
 
  $redf╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗  $greenf╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗  $yellowf╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗
  $boldon$redfbright╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝  $greenfbright╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝  $yellowfbright╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝$reset
-  ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ 
+  ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
  $bluef╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗  $purplef╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗  $cyanf╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗
  $boldon$bluefbright╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝  $purplefbright╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝  $cyanfbright╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝$reset
 

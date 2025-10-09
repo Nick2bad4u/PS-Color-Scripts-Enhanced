@@ -89,12 +89,17 @@ By participating in this project, you agree to maintain a respectful and inclusi
 
 5. **Run tests**
    ```powershell
-   # Test all functions
-   Import-Module .\ColorScripts-Enhanced -Force
-   Show-ColorScript -List
-   Show-ColorScript
-   Build-ColorScriptCache -All
-   Clear-ColorScriptCache -All
+   # Module smoke tests (includes ScriptAnalyzer)
+   pwsh -NoProfile -Command "& .\Test-Module.ps1"
+
+   # Full unit tests
+   Invoke-Pester -Path ./Tests
+
+   # Lint (treat warnings as failures)
+   pwsh -NoProfile -Command "& .\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
+
+   # (Optional) Auto-fix ScriptAnalyzer violations when available
+   pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix
    ```
 
 6. **Commit your changes**
@@ -191,7 +196,10 @@ Before submitting:
 - [ ] Examples work as documented
 - [ ] Tested on PowerShell 5.1 and 7.x
 - [ ] Tested on Windows Terminal
+- [ ] Verified glyph-heavy scripts render with a Nerd Font (`Show-ColorScript -Name nerd-font-test`)
 - [ ] UTF-8 encoding verified
+- [ ] `Lint-Module.ps1 -IncludeTests -TreatWarningsAsErrors` passes
+- [ ] Pester tests pass (`Invoke-Pester -Path ./Tests`)
 - [ ] No breaking changes (or documented if required)
 - [ ] Documentation updated
 - [ ] Release notes updated

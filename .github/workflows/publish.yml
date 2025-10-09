@@ -1,23 +1,120 @@
-name: Publish PowerShell Module
+name: Publish
 
 on:
-    push:
-        branches:
-            - main
+  workflow_dispatch:
+    inputs:
+      publishToNuGet:
+        description: "Publish to NuGet.org (PowerShell Gallery uses same feed)"
+        required: false
+        default: "true"
+      publishToGitHub:
+        description: "Publish to GitHub Packages"
+        required: false
+        default: "false"
+      versionOverride:
+        description: "Override module version (optional)"
+        required: false
+        default: ""
+  release:
+    types: [published]
 
 jobs:
-    publish-to-gallery:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Set Timezone
-              run: sudo timedatectl set-timezone America/Detroit
+  validate:
+    name: Validate module
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-            - uses: actions/checkout@v5
-            - name: Build and publish
-              env:
-                  NUGET_KEY: ${{ secrets.NUGET_KEY }}
-                  PSGalleryApiKey: ${{ secrets.PSGalleryApiKey }}
-              shell: pwsh
-              run: |
-                  Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:NUGET_KEY -Verbose
-                  Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:PSGalleryApiKey -Verbose -Repository PSGallery
+      - name: Install quality tools
+        run: |
+          Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+          if (-not (Get-Module -ListAvailable -Name Pester)) {
+              Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
+          }
+          if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
+              Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
+          }
+        shell: pwsh
+
+      - name: Run Script Analyzer
+        run: |
+          Import-Module PSScriptAnalyzer
+          $results = Invoke-ScriptAnalyzer -Path ./ColorScripts-Enhanced -Recurse -Settings ./PSScriptAnalyzerSettings.psd1 -Severity 'Error','Warning' -ReportSummary
+          if ($results) {
+              $results | Format-Table -AutoSize
+              throw 'ScriptAnalyzer reported findings.'
+          }
+        shell: pwsh
+
+      - name: Run Pester tests
+        run: |
+          Import-Module Pester
+          $configuration = New-PesterConfiguration
+          $configuration.Run.Path = './Tests'
+          $configuration.Output.Verbosity = 'Detailed'
+          Invoke-Pester -Configuration $configuration
+        shell: pwsh
+
+      - name: Verify manifest version
+        id: manifest
+        run: |
+          $manifest = Test-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1
+          $version = if ([string]::IsNullOrWhiteSpace('${{ github.event.inputs.versionOverride }}')) {
+              $manifest.Version.ToString()
+          } else {
+              '${{ github.event.inputs.versionOverride }}'
+          }
+
+          Write-Host "Module version: $version"
+          "version=$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
+          if ('${{ github.event_name }}' -eq 'release') {
+              $tag = '${{ github.event.release.tag_name }}'.TrimStart('v')
+              if ($tag -ne $version) {
+                  throw "Release tag $tag does not match module version $version"
+              }
+          }
+    shell: pwsh
+
+      - name: Upload module artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: module-source
+          path: ColorScripts-Enhanced/
+
+  publish:
+    name: Publish
+    needs: validate
+    if: >-
+      (github.event_name == 'workflow_dispatch' || github.event_name == 'release') &&
+      (secrets.PSGALLERY_API_KEY != '' || secrets.NUGET_API_KEY != '' || secrets.PACKAGES_TOKEN != '')
+    runs-on: windows-latest
+    env:
+      PSGALLERY_API_KEY: ${{ secrets.PSGALLERY_API_KEY }}
+      NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+      PACKAGES_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+      VERSION: ${{ needs.validate.outputs.version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Publish to PowerShell Gallery
+        if: env.PSGALLERY_API_KEY != '' || env.NUGET_API_KEY != ''
+        run: |
+          $apiKey = if (-not [string]::IsNullOrWhiteSpace($env:PSGALLERY_API_KEY)) { $env:PSGALLERY_API_KEY } elseif (-not [string]::IsNullOrWhiteSpace($env:NUGET_API_KEY)) { $env:NUGET_API_KEY } else { '' }
+          if ([string]::IsNullOrWhiteSpace($apiKey)) {
+              Write-Host 'No PowerShell Gallery API key provided. Skipping publish.'
+              return
+          }
+
+          Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $apiKey -Repository PSGallery -Verbose
+        shell: pwsh
+
+      - name: Publish to GitHub Packages
+        if: env.PACKAGES_TOKEN != '' && github.event.inputs.publishToGitHub != 'false'
+        run: |
+          $source = "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json"
+          Register-PSRepository -Name GitHub -SourceLocation $source -InstallationPolicy Trusted -PublishLocation $source -PackageManagementProvider NuGet -ErrorAction SilentlyContinue
+          Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:PACKAGES_TOKEN -Repository GitHub -Verbose
+        shell: pwsh

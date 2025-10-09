@@ -72,13 +72,15 @@ if (-not $SkipXmlGeneration) {
         Write-Host "✗ Failed to generate help XML: $_" -ForegroundColor Red
         Write-Host "  Continuing with comment-based help only...`n" -ForegroundColor Yellow
     }
-}# Validate the help
+}
+
+# Validate the help
 Write-Host "Validating help content..." -ForegroundColor Yellow
 
 try {
     Import-Module $ModulePath -Force -ErrorAction Stop
 
-    $commands = @('Show-ColorScript', 'Get-ColorScriptList', 'Build-ColorScriptCache', 'Clear-ColorScriptCache')
+    $commands = @('Show-ColorScript', 'Get-ColorScriptList', 'Build-ColorScriptCache', 'Clear-ColorScriptCache', 'Add-ColorScriptProfile')
 
     Write-Host ""
     foreach ($cmd in $commands) {

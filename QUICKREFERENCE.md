@@ -15,6 +15,7 @@ Import-Module ColorScripts-Enhanced
 | `Get-ColorScriptList` | - | List available scripts |
 | `Build-ColorScriptCache` | - | Pre-generate cache |
 | `Clear-ColorScriptCache` | - | Remove cache files |
+| `Add-ColorScriptProfile` | - | Append module import/startup snippet |
 
 ## Common Usage
 
@@ -61,6 +62,16 @@ Clear-ColorScriptCache -Name hearts
 Clear-ColorScriptCache -All -WhatIf
 ```
 
+## Linting & Tests
+
+```powershell
+pwsh -NoProfile -Command "& .\Test-Module.ps1"              # Smoke tests + lint gate
+Invoke-Pester -Path ./Tests                                   # Full test suite
+pwsh -NoProfile -Command "& .\Lint-Module.ps1"              # Standard lint
+pwsh -NoProfile -Command "& .\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
+pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix         # Apply auto-fixes, then re-run lint
+```
+
 ## Help System
 
 ```powershell
@@ -81,10 +92,18 @@ Get-Help *ColorScript*
 Add to your PowerShell profile (`$PROFILE`):
 
 ```powershell
-# Random colorscript on every session
-Import-Module ColorScripts-Enhanced
-Show-ColorScript
+Add-ColorScriptProfile                     # Import + Show-ColorScript
+Add-ColorScriptProfile -SkipStartupScript  # Import only
+Add-ColorScriptProfile -Scope CurrentUserCurrentHost
 ```
+
+## Nerd Font Glyphs
+
+- Install a patched font from [nerdfonts.com](https://www.nerdfonts.com/).
+- Windows: unzip → select `.ttf` files → right-click → **Install for all users**.
+- macOS: `brew install --cask font-caskaydia-cove-nerd-font` or add via Font Book.
+- Linux: copy `.ttf` to `~/.local/share/fonts` (or `/usr/local/share/fonts`) and run `fc-cache -fv`.
+- Set your terminal profile font to the Nerd Font and verify with `Show-ColorScript -Name nerd-font-test`.
 
 ## Performance Tips
 
@@ -128,6 +147,17 @@ Build-ColorScriptCache
 ```
 
 ### Clear-ColorScriptCache
+### Add-ColorScriptProfile
+
+```powershell
+Add-ColorScriptProfile
+  [-Scope <String>]           # Profile scope (default CurrentUserAllHosts)
+  [-Path <String>]            # Explicit profile path
+  [-SkipStartupScript]        # Only add Import-Module line
+  [-Force]                    # Append even if import already exists
+  [-WhatIf]
+  [-Confirm]
+```
 
 ```powershell
 Clear-ColorScriptCache
@@ -216,7 +246,7 @@ Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" | Measure-Object
 Get-Module ColorScripts-Enhanced | Select-Object Version
 ```
 
-Current: 2025.10.09.1625
+Current: 2025.10.09.1633
 
 ---
 

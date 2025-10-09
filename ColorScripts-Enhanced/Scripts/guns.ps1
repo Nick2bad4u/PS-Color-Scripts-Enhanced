@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -24,14 +24,14 @@ Write-Host @"
 
  $redf   ▀▄▄███████████  $greenf ▀▄▄███████████  $yellowf ▀▄▄███████████  $bluef ▀▄▄███████████  $purplef ▀▄▄███████████  $cyanf ▀▄▄███████████
  $redf  ▄███▀█▀▀▀        $greenf ▄███▀█▀▀▀       $yellowf ▄███▀█▀▀▀       $bluef ▄███▀█▀▀▀       $purplef ▄███▀█▀▀▀       $cyanf ▄███▀█▀▀▀
- $redf ▐███▄▀            $greenf▐███▄▀           $yellowf▐███▄▀           $bluef▐███▄▀           $purplef▐███▄▀           $cyanf▐███▄▀ 
- $redf ▐███              $greenf▐███             $yellowf▐███             $bluef▐███             $purplef▐███             $cyanf▐███ 
+ $redf ▐███▄▀            $greenf▐███▄▀           $yellowf▐███▄▀           $bluef▐███▄▀           $purplef▐███▄▀           $cyanf▐███▄▀
+ $redf ▐███              $greenf▐███             $yellowf▐███             $bluef▐███             $purplef▐███             $cyanf▐███
  $redf  ▀▀▀              $greenf ▀▀▀             $yellowf ▀▀▀             $bluef ▀▀▀             $purplef ▀▀▀             $cyanf ▀▀▀
  $bld
  $redfbright   ▀▄▄███████████  $greenfbright ▀▄▄███████████  $yellowfbright ▀▄▄███████████  $bluefbright ▀▄▄███████████  $purplefbright ▀▄▄███████████  $cyanfbright ▀▄▄███████████
  $redfbright  ▄███▀█▀▀▀        $greenfbright ▄███▀█▀▀▀       $yellowfbright ▄███▀█▀▀▀       $bluefbright ▄███▀█▀▀▀       $purplefbright ▄███▀█▀▀▀       $cyanfbright ▄███▀█▀▀▀
- $redfbright ▐███▄▀            $greenfbright▐███▄▀           $yellowfbright▐███▄▀           $bluefbright▐███▄▀           $purplefbright▐███▄▀           $cyanfbright▐███▄▀ 
- $redfbright ▐███              $greenfbright▐███             $yellowfbright▐███             $bluefbright▐███             $purplefbright▐███             $cyanfbright▐███ 
+ $redfbright ▐███▄▀            $greenfbright▐███▄▀           $yellowfbright▐███▄▀           $bluefbright▐███▄▀           $purplefbright▐███▄▀           $cyanfbright▐███▄▀
+ $redfbright ▐███              $greenfbright▐███             $yellowfbright▐███             $bluefbright▐███             $purplefbright▐███             $cyanfbright▐███
  $redfbright  ▀▀▀              $greenfbright ▀▀▀             $yellowfbright ▀▀▀             $bluefbright ▀▀▀             $purplefbright ▀▀▀             $cyanfbright ▀▀▀
  $rst
 "@

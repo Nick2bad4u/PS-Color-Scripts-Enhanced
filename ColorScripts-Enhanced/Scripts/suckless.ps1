@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -9,10 +9,10 @@ $cyan = "$esc[36m"
 $reset = "$esc[0m"
 
 Write-Host @"
-$bold$blue                  __    __                   
+$bold$blue                  __    __
 .-----.--.--.----|  |--|  .-----.-----.-----.
 |__ --|  |  |  __|    <|  |  -__|__ --|__ --|
 |_____|_____|____|__|__|__|_____|_____|_____|
-$reset$cyan          software that sucks less$reset            
+$reset$cyan          software that sucks less$reset
 
 "@

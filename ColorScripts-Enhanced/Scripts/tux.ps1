@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -10,36 +10,36 @@ $reset = "$esc[0m"
 
 Write-Host @"
 
-                                                     
-                      $blackf▄█████▄$reset          
-                     $blackf█████████$reset     
-                    $blackf████████$whiteb▀██$reset                      
-                   $blackf█████████$whiteb█▄██$reset                     
-                   $blackf██$whiteb▀▀███▀▀████$reset                     
-                   $blackf███$whiteb█ █ ██ ███$reset                     
-                   $blackf$yellowb█         ████$reset                    
-                   $blackf$yellowb█       ▄ ████$reset                    
-                   $blackf$yellowb███▀▀▀▀▀▄$blackf▀████$reset                    
-                   $blackf██$whiteb▀▀▀▀▀▀   ███$reset$blackf▄$reset                  
-                 $blackf▄█$whiteb▀          █████$reset                  
-                $blackf███$whiteb           ██████$reset                 
-               $blackf███$whiteb             ██████$reset                
-              $blackf█$whiteb▀██              ██████$reset               
-              $blackf█$whiteb █               █ ████$reset               
-              $blackf█$whiteb █               ██ ███$reset               
-             $blackf██$whiteb ▀               █▀ ████$reset              
-             $blackf███$whiteb                   ████$reset              
-            $blackf█████$whiteb               ███ ███$reset              
-            $blackf$yellowb█▀▀███$whiteb             █████████$reset             
-           $blackf▄$yellowb█   ███$whiteb           █$yellowb▀ ████  ▀█$reset            
-         $blackf▄█$yellowb▀     ████$whiteb         █$yellowb   ▀     █$reset            
-        $blackf█$yellowb         ████$whiteb     █  █$yellowb         ██$reset           
-         $blackf█$yellowb         ██$whiteb       █ █$yellowb          ▀█$reset          
-        $blackf█$yellowb           █$whiteb      █  █$yellowb          █$reset           
-        $blackf█$yellowb           ███████████$yellowb        ▄$reset$blackf▀$reset            
-         $blackf█$yellowb▄         █$reset$blackf ▀▀▀▀▀▀▀ █$yellowb      ▄$reset$blackf▀$reset              
-           $blackf▀▀▀▀▀$yellowb▄▄▄█$reset$blackf▀         ▀$yellowb▄    █$reset                
-                                $blackf▀▀▀▀$reset                 
+
+                      $blackf▄█████▄$reset
+                     $blackf█████████$reset
+                    $blackf████████$whiteb▀██$reset
+                   $blackf█████████$whiteb█▄██$reset
+                   $blackf██$whiteb▀▀███▀▀████$reset
+                   $blackf███$whiteb█ █ ██ ███$reset
+                   $blackf$yellowb█         ████$reset
+                   $blackf$yellowb█       ▄ ████$reset
+                   $blackf$yellowb███▀▀▀▀▀▄$blackf▀████$reset
+                   $blackf██$whiteb▀▀▀▀▀▀   ███$reset$blackf▄$reset
+                 $blackf▄█$whiteb▀          █████$reset
+                $blackf███$whiteb           ██████$reset
+               $blackf███$whiteb             ██████$reset
+              $blackf█$whiteb▀██              ██████$reset
+              $blackf█$whiteb █               █ ████$reset
+              $blackf█$whiteb █               ██ ███$reset
+             $blackf██$whiteb ▀               █▀ ████$reset
+             $blackf███$whiteb                   ████$reset
+            $blackf█████$whiteb               ███ ███$reset
+            $blackf$yellowb█▀▀███$whiteb             █████████$reset
+           $blackf▄$yellowb█   ███$whiteb           █$yellowb▀ ████  ▀█$reset
+         $blackf▄█$yellowb▀     ████$whiteb         █$yellowb   ▀     █$reset
+        $blackf█$yellowb         ████$whiteb     █  █$yellowb         ██$reset
+         $blackf█$yellowb         ██$whiteb       █ █$yellowb          ▀█$reset
+        $blackf█$yellowb           █$whiteb      █  █$yellowb          █$reset
+        $blackf█$yellowb           ███████████$yellowb        ▄$reset$blackf▀$reset
+         $blackf█$yellowb▄         █$reset$blackf ▀▀▀▀▀▀▀ █$yellowb      ▄$reset$blackf▀$reset
+           $blackf▀▀▀▀▀$yellowb▄▄▄█$reset$blackf▀         ▀$yellowb▄    █$reset
+                                $blackf▀▀▀▀$reset
 $reset
 
 "@

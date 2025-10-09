@@ -4,13 +4,13 @@
 [CmdletBinding()]
 param(
     [Parameter()]
-    [switch]$CurrentUser,
-
-    [Parameter()]
     [switch]$AllUsers,
 
     [Parameter()]
     [switch]$AddToProfile,
+
+    [Parameter()]
+    [switch]$SkipStartupScript,
 
     [Parameter()]
     [switch]$BuildCache
@@ -21,7 +21,7 @@ $ErrorActionPreference = 'Stop'
 # Determine installation path
 if ($AllUsers) {
     if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
-        Write-Error "AllUsers installation requires Administrator privileges. Run PowerShell as Administrator or use -CurrentUser instead."
+        Write-Error "AllUsers installation requires Administrator privileges. Run PowerShell as Administrator or rerun without -AllUsers."
         exit 1
     }
     $modulePath = "$env:ProgramFiles\PowerShell\Modules"
@@ -81,24 +81,19 @@ catch {
 
 # Add to profile if requested
 if ($AddToProfile) {
-    $profilePath = $PROFILE.CurrentUserAllHosts
-
-    if (-not (Test-Path $profilePath)) {
-        Write-Host "`nCreating PowerShell profile..." -ForegroundColor Cyan
-        New-Item -Path $profilePath -ItemType File -Force | Out-Null
+    Write-Host "`nAdding module to PowerShell profile..." -ForegroundColor Cyan
+    $profileParams = @{ Scope = 'CurrentUserAllHosts' }
+    if ($SkipStartupScript) {
+        $profileParams.SkipStartupScript = $true
     }
 
-    $importLine = "Import-Module ColorScripts-Enhanced"
-    $content = Get-Content $profilePath -ErrorAction SilentlyContinue
+    $profileResult = Add-ColorScriptProfile @profileParams
 
-    if ($content -notcontains $importLine) {
-        Write-Host "Adding module to PowerShell profile..." -ForegroundColor Cyan
-        Add-Content -Path $profilePath -Value "`n# ColorScripts-Enhanced Module"
-        Add-Content -Path $profilePath -Value $importLine
-        Write-Host "✓ Added to profile: $profilePath" -ForegroundColor Green
+    if ($profileResult.Changed) {
+        Write-Host "✓ Profile updated: $($profileResult.Path)" -ForegroundColor Green
     }
     else {
-        Write-Host "Module already in profile" -ForegroundColor Yellow
+        Write-Host "Profile already configured. (Use -Force with Add-ColorScriptProfile for overrides.)" -ForegroundColor Yellow
     }
 }
 

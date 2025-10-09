@@ -40,7 +40,7 @@ function Clamp {
 
 # Newton's method for z^3 - 1 = 0 (simpler, prettier basins)
 # f(z) = z^3 - 1, f'(z) = 3*z^2
-function Apply-NewtonIteration {
+function Get-NewtonIteration {
     param(
         [double]$Zr,
         [double]$Zi,
@@ -120,7 +120,7 @@ for ($row = 0; $row -lt $height; $row++) {
         $zr = ($col - $width / 2.0) / ($width / 2.0) * $zoom * 1.5
         $zi = ($row - $height / 2.0) / ($height / 2.0) * $zoom
 
-        $result = Apply-NewtonIteration -Zr $zr -Zi $zi -MaxIter 50
+        $result = Get-NewtonIteration -Zr $zr -Zi $zi -MaxIter 50
 
         # Find which root we converged to
         $closestRoot = 0

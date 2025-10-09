@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -22,12 +22,12 @@ $reset = "$esc[0m"
 
 Write-Host @"
 
-$boldon$redfbright █   █ $reset $boldon$greenfbright█   █ $reset $boldon$yellowfbright█   █ $reset $boldon$bluefbright█   █ $reset $boldon$purplefbright█   █ $reset $boldon$cyanfbright█   █ $reset 
+$boldon$redfbright █   █ $reset $boldon$greenfbright█   █ $reset $boldon$yellowfbright█   █ $reset $boldon$bluefbright█   █ $reset $boldon$purplefbright█   █ $reset $boldon$cyanfbright█   █ $reset
 $boldon$redfbright  ■ ■  $reset $boldon$greenfbright ■ ■  $reset $boldon$yellowfbright ■ ■  $reset $boldon$bluefbright ■ ■  $reset $boldon$purplefbright ■ ■  $reset $boldon$cyanfbright ■ ■  $reset
 $boldon$redfbright  =■=  $reset $boldon$greenfbright =■=  $reset $boldon$yellowfbright =■=  $reset $boldon$bluefbright =■=  $reset $boldon$purplefbright =■=  $reset $boldon$cyanfbright =■=  $reset
- 
+
 $redf █=@=█ $reset $greenf█=@=█ $reset $yellowf█=@=█ $reset $bluef█=@=█ $reset $purplef█=@=█ $reset $cyanf█=@=█ $reset
 $redf  ■ ■  $reset $greenf ■ ■  $reset $yellowf ■ ■  $reset $bluef ■ ■  $reset $purplef ■ ■  $reset $cyanf ■ ■  $reset
-$redf  =■=  $reset $greenf =■=  $reset $yellowf =■=  $reset $bluef =■=  $reset $purplef =■=  $reset $cyanf =■=  $reset 
+$redf  =■=  $reset $greenf =■=  $reset $yellowf =■=  $reset $bluef =■=  $reset $purplef =■=  $reset $cyanf =■=  $reset
 
 "@

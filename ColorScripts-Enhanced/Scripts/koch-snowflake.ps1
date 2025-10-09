@@ -1,4 +1,4 @@
-# Unique Concept: Koch snowflake fractal with multiple iterations showing self-similarity.
+﻿# Unique Concept: Koch snowflake fractal with multiple iterations showing self-similarity.
 # Recursive edge replacement creates increasingly complex hexagonal crystal structure.
 
 # Check cache first for instant output
@@ -27,7 +27,7 @@ function Convert-HsvToRgb {
     return @([int][math]::Round($r * 255), [int][math]::Round($g * 255), [int][math]::Round($b * 255))
 }
 
-function Get-KochPoints {
+function Get-KochPoint {
     param($P1, $P2, $Depth)
 
     if ($Depth -eq 0) {

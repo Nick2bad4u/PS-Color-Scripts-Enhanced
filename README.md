@@ -4,6 +4,9 @@ Based on the PowerShell port [ps-color-scripts](https://github.com/scottmckendry
 
 # ColorScripts-Enhanced PowerShell Module
 
+[![Tests](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml)
+[![Publish](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml)
+
 A high-performance PowerShell module for displaying beautiful ANSI colorscripts in your terminal with intelligent caching for 6-19x faster load times.
 
 ## Features
@@ -32,40 +35,115 @@ __Open in new tab since video is too large for github__
 
 __+ 170~ more__
 
+## Quick Start (Less Than a Minute)
+
+```powershell
+Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
+Import-Module ColorScripts-Enhanced
+Add-ColorScriptProfile              # Optional: add to profile immediately
+Show-ColorScript
+```
+
+> Requires PowerShell 5.1 or later. PowerShell 7.4+ recommended for best performance and PSResourceGet support.
+
+## Install a Nerd Font for Custom Glyphs
+
+Several scripts display Nerd Font icons (powerline separators, dev icons, logos). Without a Nerd Font, those glyphs render as blank boxes. Pick one of the patched fonts from [nerdfonts.com](https://www.nerdfonts.com/) and set it as your terminal font:
+
+1. **Download** a font (e.g., *Cascadia Code*, *FiraCode*, *JetBrainsMono*) from the [Nerd Fonts releases](https://github.com/ryanoasis/nerd-fonts/releases).
+2. **Install on Windows**: extract the `.zip`, select the `.ttf` files, right-click → **Install for all users**.
+   **macOS**: `brew install --cask font-caskaydia-cove-nerd-font` (or double-click in Font Book).
+   **Linux**: copy the `.ttf` files to `~/.local/share/fonts` (or `/usr/local/share/fonts`), then run `fc-cache -fv`.
+3. **Update your terminal** (Windows Terminal, VS Code, Alacritty, etc.) to use the installed Nerd Font for each profile.
+4. **Verify** by running:
+
+    ```powershell
+    Show-ColorScript -Name nerd-font-test
+    ```
+
+The script will render checkmarks and dev icons when the font is configured correctly.
+
 ## Installation
 
-### Option 1: Manual Installation
+### Option 1: PowerShell Gallery (Recommended)
+
+The module is published to the PowerShell Gallery, making installation a single command:
+
+```powershell
+# PowerShellGet (Windows PowerShell 5.1 / PowerShell 7)
+Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
+
+# PSResourceGet (PowerShell 7.4+)
+Install-PSResource -Name ColorScripts-Enhanced -Scope CurrentUser
+
+# Update to latest release later
+Update-Module ColorScripts-Enhanced
+```
+
+> 💡 Tip: Set `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` if your environment restricts script execution during installation.
+
+### Option 2: GitHub Packages (Optional)
+
+If you prefer GitHub Packages (for private mirrors or enterprise environments):
+
+```powershell
+$owner  = 'Nick2bad4u'
+$source = "https://nuget.pkg.github.com/$owner/index.json"
+
+Register-PSRepository -Name ColorScriptsEnhanced-GitHub -SourceLocation $source -PublishLocation $source -InstallationPolicy Trusted -PackageManagementProvider NuGet
+Install-Module -Name ColorScripts-Enhanced -Repository ColorScriptsEnhanced-GitHub -Scope CurrentUser
+```
+
+Authenticate with a GitHub PAT (Package Read scope) if prompted.
+
+### Option 3: Manual Installation
 
 1. Copy the `ColorScripts-Enhanced` folder to one of your PowerShell module paths:
 
-```powershell
-# See available module paths
-$env:PSModulePath -split ';'
+    ```powershell
+    # See available module paths
+    $env:PSModulePath -split ';'
 
-# Recommended location (user-specific)
-$modulePath = "$env:USERPROFILE\Documents\PowerShell\Modules\ColorScripts-Enhanced"
+    # Recommended location (user-specific)
+    $modulePath = "$env:USERPROFILE\Documents\PowerShell\Modules\ColorScripts-Enhanced"
 
-# Copy the module folder to the destination
-Copy-Item -Path ".\ColorScripts-Enhanced" -Destination $modulePath -Recurse -Force
-```
+    # Copy the module folder to the destination
+    Copy-Item -Path ".\ColorScripts-Enhanced" -Destination $modulePath -Recurse -Force
+    ```
 
 2. Import the module:
 
-```powershell
-Import-Module ColorScripts-Enhanced
-```
+    ```powershell
+    Import-Module ColorScripts-Enhanced
+    ```
 
 3. (Optional) Add to your PowerShell profile for automatic loading:
 
-```powershell
-Add-Content -Path $PROFILE.CurrentUserAllHosts -Value "Import-Module ColorScripts-Enhanced"
-```
+    ```powershell
+    Add-Content -Path $PROFILE.CurrentUserAllHosts -Value "Import-Module ColorScripts-Enhanced"
+    ```
 
-### Option 2: Quick Test (Without Installation)
+    Alternatively, run `Add-ColorScriptProfile -Scope CurrentUserAllHosts -SkipStartupScript` after importing the module.
+
+### Option 4: Quick Test (Without Installation)
 
 ```powershell
 Import-Module ".\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
 ```
+
+### (Optional) Add to Your PowerShell Profile
+
+Use the built-in helper to import the module (and optionally display a random colorscript) at shell startup:
+
+```powershell
+Add-ColorScriptProfile
+```
+
+Key options:
+
+- `Add-ColorScriptProfile -SkipStartupScript` — import the module without showing a script on launch.
+- `Add-ColorScriptProfile -Scope CurrentUserCurrentHost` — limit to the current host (e.g., just VS Code).
+- `Add-ColorScriptProfile -Path .\MyCustomProfile.ps1` — target an explicit profile file.
 
 ## Usage
 
@@ -130,6 +208,43 @@ Show-ColorScript -Name "bars" -NoCache
 | `Get-ColorScriptList` | - | List all available colorscripts |
 | `Build-ColorScriptCache` | - | Pre-generate cache files |
 | `Clear-ColorScriptCache` | - | Remove cache files |
+| `Add-ColorScriptProfile` | - | Append module startup snippet to your profile |
+| `Install.ps1` | - | Optional local installer with `-AddToProfile`, `-SkipStartupScript`, `-BuildCache` |
+
+## Documentation
+
+- [Quick Start](QUICKSTART.md)
+- [Quick Reference](QUICKREFERENCE.md)
+- [Module Summary](MODULE_SUMMARY.md)
+- [Development Guide](docs/Development.md)
+- [Publishing Guide](docs/Publishing.md)
+- [Release Checklist](docs/ReleaseChecklist.md)
+
+## Quality & Testing
+
+- Smoke tests (includes ScriptAnalyzer): `pwsh -NoProfile -Command "& .\Test-Module.ps1"`
+- Full test suite: `Invoke-Pester -Path ./Tests`
+- Linting (module only): `pwsh -NoProfile -Command "& .\Lint-Module.ps1"`
+- Linting (treat warnings as errors and include tests): `pwsh -NoProfile -Command "& .\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors`
+- Lint auto-fix (apply ScriptAnalyzer fixes, then re-run lint): `pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix`
+- Continuous integration: [`test.yml`](.github/workflows/test.yml) runs on Windows PowerShell 5.1 and PowerShell 7.4 across Windows, Linux, and macOS runners.
+
+## Release & Publishing
+
+- Automated publishing workflow: [`publish.yml`](.github/workflows/publish.yml)
+- Local helper script: `build.ps1`
+- Optional help generation: `Build-Help.ps1`
+- Documentation: [Publishing Guide](docs/Publishing.md) & [Release Checklist](docs/ReleaseChecklist.md)
+
+## Additional Package Feeds
+
+- PowerShell Gallery / NuGet.org (primary distribution)
+- GitHub Packages (optional; instructions in [Publishing Guide](docs/Publishing.md))
+- Azure Artifacts or other NuGet-compatible feeds for enterprise deployment
+
+## Contributing
+
+Please review [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines, coding standards, and how to submit pull requests.
 
 ## Performance
 
@@ -246,11 +361,24 @@ Show-ColorScript -Name "scriptname" -NoCache
 Get-ColorScriptList
 ```
 
+### Icons or glyphs show as squares
+
+```powershell
+# Confirm Nerd Font installation
+Show-ColorScript -Name nerd-font-test
+
+# If icons are missing:
+# 1. Install a Nerd Font from https://www.nerdfonts.com/
+# 2. Set your terminal profile to use the installed font
+# 3. Restart the terminal session
+```
+
 ## Requirements
 
 - PowerShell 5.1 or higher
 - Windows (tested on Windows 10/11)
 - ANSI-capable terminal (Windows Terminal, VS Code, etc.)
+- Nerd Font (optional but recommended for glyph-heavy scripts like `nerd-font-test`)
 
 ## Architecture
 

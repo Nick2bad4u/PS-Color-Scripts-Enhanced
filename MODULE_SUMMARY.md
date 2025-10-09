@@ -25,7 +25,7 @@ ColorScripts-Enhanced/
 ### Module Information
 
 - **Name:** ColorScripts-Enhanced
-- **Version:** 1.0.0
+- **Version:** 2025.10.09.1633
 - **PowerShell Version:** 5.1+
 - **Colorscripts Included:** 185
 - **Cache Location:** `%APPDATA%\ColorScripts-Enhanced\cache`
@@ -67,13 +67,24 @@ Clear-ColorScriptCache -All                 # Clear all cache
 Clear-ColorScriptCache -Name "bars"         # Clear specific
 ```
 
+### 5. Add-ColorScriptProfile
+Appends the module import (and optional startup script) to a PowerShell profile.
+
+```powershell
+Add-ColorScriptProfile                                # Import + Show-ColorScript
+Add-ColorScriptProfile -SkipStartupScript             # Import only
+Add-ColorScriptProfile -Scope CurrentUserCurrentHost  # Limit to current host
+Add-ColorScriptProfile -Path .\MyProfile.ps1 -Force  # Custom profile
+```
+
 ## Installation
 
 ### Quick Install
 
 ```powershell
-cd ColorScripts-Enhanced
-.\Install.ps1 -AddToProfile -BuildCache
+Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
+Import-Module ColorScripts-Enhanced
+Add-ColorScriptProfile -SkipStartupScript
 ```
 
 ### Manual Install
@@ -86,7 +97,7 @@ Copy-Item -Path ".\ColorScripts-Enhanced" -Destination "$HOME\Documents\PowerShe
 Import-Module ColorScripts-Enhanced
 
 # Add to profile (optional)
-Add-Content $PROFILE.CurrentUserAllHosts -Value "Import-Module ColorScripts-Enhanced"
+Add-ColorScriptProfile -SkipStartupScript
 ```
 
 ## Key Features
@@ -114,6 +125,7 @@ Add-Content $PROFILE.CurrentUserAllHosts -Value "Import-Module ColorScripts-Enha
 - Comprehensive README
 - Colorful console output
 - Verbose logging support
+- Dedicated Nerd Font installation guidance so glyph-heavy scripts render correctly
 
 ## Performance Results
 
@@ -166,6 +178,8 @@ C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\
 ✅ Cache validation works
 ✅ Performance improvement verified
 ✅ Install script tested
+✅ ScriptAnalyzer lint (`Lint-Module.ps1`) clean
+✅ Auto-fix option (`Lint-Module.ps1 -Fix`) applies formatter-driven corrections before verification
 
 ## Usage Examples
 

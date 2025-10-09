@@ -3,13 +3,6 @@ if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
 
-$redf = "$esc[31m"
-$greenf = "$esc[32m"
-$yellowf = "$esc[33m"
-$bluef = "$esc[34m"
-$purplef = "$esc[35m"
-$cyanf = "$esc[36m"
-
 $redfbright = "$esc[91m"
 $greenfbright = "$esc[92m"
 $yellowfbright = "$esc[93m"

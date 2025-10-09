@@ -1,5 +1,25 @@
 # ColorScripts-Enhanced Module Release Notes
 
+## Version 2025.10.09.1633
+
+### New Features
+- `Add-ColorScriptProfile` cmdlet for one-line profile integration with duplicate detection
+- `Lint-Module.ps1` helper script for consistent ScriptAnalyzer runs (with optional warnings-as-errors)
+- Expanded Pester suite covers profile helper scenarios and lint gating
+
+### Documentation Updates
+- README / Quick Start now lead with PowerShell Gallery installation steps
+- Quick Reference, Development, Publishing, and Release Checklist aligned with new helper and lint flow
+- Module summary refreshed with latest command set and workflow notes
+- Added cross-platform Nerd Font installation guidance (README, quick start/reference, about help)
+
+### Tooling Improvements
+- `Install.ps1` delegates profile updates to the new cmdlet and supports `-SkipStartupScript`
+- `Test-Module.ps1` runs ScriptAnalyzer automatically and requires PSScriptAnalyzer availability
+- `Lint-Module.ps1` gains a `-Fix` switch to apply auto-fixable ScriptAnalyzer corrections before re-linting
+
+---
+
 ## Version 2025.10.09.1625
 
 ### New Features
@@ -56,24 +76,6 @@ New colorscripts added in categories:
 - Script listing
 - Initial caching implementation
 
-## Planned Features
-
-### Version 2025.11.x
-- Custom colorscript import/export
-- Script categories and tagging
-- Favorite scripts management
-- Theme support for colorscripts
-- Web-based script browser
-- Script search functionality
-
-### Version 2026.x.x
-- Animated colorscript support
-- Interactive colorscripts
-- Sound integration
-- Community script repository
-- Script editor integration
-- PowerShell 7.5+ specific features
-
 ## Breaking Changes
 
 None in current version. Module maintains backward compatibility with PowerShell 5.1+.
@@ -83,7 +85,7 @@ None in current version. Module maintains backward compatibility with PowerShell
 ### Terminal Compatibility
 - Some terminals may not support full ANSI escape code sequences
 - Windows Terminal recommended for best experience
-- ConEmu and iTerm2 fully supported
+- ConEmu, Oh-My-Posh, and iTerm2 fully supported
 - Legacy cmd.exe has limited ANSI support
 
 ### Performance

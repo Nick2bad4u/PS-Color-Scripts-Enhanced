@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -21,7 +21,7 @@ $boldon = "$esc[1m"
 
 $reset = "$esc[0m"
 
-Write-Host 
+Write-Host
 Write-Host "$redf   ▄█████▄ $greenf   ▄█████▄ $yellowf   ▄█████▄ $bluef   ▄█████▄ $purplef   ▄█████▄ $cyanf   ▄█████▄"
 Write-Host "$redf   █▄▄ ▄▄█ $greenf   █▄▄ ▄▄█ $yellowf   █▄▄ ▄▄█ $bluef   █▄▄ ▄▄█ $purplef   █▄▄ ▄▄█ $cyanf   █▄▄ ▄▄█"
 Write-Host "$redf   ███ ███ $greenf   ███ ███ $yellowf   ███ ███ $bluef   ███ ███ $purplef   ███ ███ $cyanf   ███ ███"

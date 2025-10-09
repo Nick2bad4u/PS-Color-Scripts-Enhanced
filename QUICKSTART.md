@@ -3,14 +3,12 @@
 ## 🚀 Installation (30 seconds)
 
 ```powershell
-# Navigate to the module directory
-cd ColorScripts-Enhanced
-
-# Run the installer
-.\Install.ps1 -AddToProfile -BuildCache
+Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
+Import-Module ColorScripts-Enhanced
+Add-ColorScriptProfile # Optional: add to profile immediately
 ```
 
-That's it! The module is installed and ready to use.
+Offline? Clone the repository and run `.\Install.ps1 -AddToProfile -BuildCache -SkipStartupScript`.
 
 ## 🎨 Basic Usage
 
@@ -43,15 +41,33 @@ Build-ColorScriptCache -All
 
 This takes a few minutes but makes all colorscripts load **6-19x faster**!
 
-## 💡 Common Uses
+## �️ Enable Nerd Font Glyphs
+
+Some scripts use Nerd Font icons (powerline separators, developer glyphs). Without a Nerd Font, those characters appear as empty squares.
+
+1. Grab a patched font from [nerdfonts.com](https://www.nerdfonts.com/) (popular choices: Cascadia Code, JetBrainsMono, FiraCode).
+2. Install it:
+	- **Windows**: extract the `.zip`, select the `.ttf` files, right-click → **Install for all users**.
+	- **macOS**: `brew install --cask font-caskaydia-cove-nerd-font` or add via Font Book.
+	- **Linux**: copy the `.ttf` files to `~/.local/share/fonts` (or `/usr/local/share/fonts`) and run `fc-cache -fv`.
+3. Open your terminal settings and switch the profile font to the installed Nerd Font.
+4. Confirm glyphs render correctly:
+
+```powershell
+Show-ColorScript -Name nerd-font-test
+```
+
+You should see icons and checkmarks instead of fallback boxes.
+
+## �💡 Common Uses
 
 ### Add to Your PowerShell Profile
 Display a random colorscript every time you open PowerShell:
 
 ```powershell
-# The installer already added this if you used -AddToProfile:
-Import-Module ColorScripts-Enhanced
-Show-ColorScript
+Add-ColorScriptProfile                 # Import + Show-ColorScript on startup
+Add-ColorScriptProfile -SkipStartupScript  # Import only
+Add-ColorScriptProfile -Scope CurrentUserCurrentHost  # Current host only
 ```
 
 ### Test the Performance
@@ -73,6 +89,7 @@ Measure-Command { scs bars }
 | `Get-ColorScriptList` | List all available scripts |
 | `Build-ColorScriptCache` | Pre-build cache files |
 | `Clear-ColorScriptCache` | Remove cache files |
+| `Add-ColorScriptProfile` | Append module import/startup snippet |
 
 ## 🎯 Pro Tips
 
@@ -94,8 +111,8 @@ Measure-Command { scs bars }
 # Verify installation
 Get-Module ColorScripts-Enhanced -ListAvailable
 
-# If not found, re-run the installer
-.\Install.ps1
+# If not found, install from the gallery
+Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
 ```
 
 ### "Script not found"

@@ -1,4 +1,4 @@
-# ColorScripts-Enhanced Module Tests
+﻿# ColorScripts-Enhanced Module Tests
 # Run this to validate module functionality
 
 #Requires -Version 5.1
@@ -68,6 +68,11 @@ Test-Function "Clear-ColorScriptCache exported" {
     if (-not $cmd) { throw "Command not found" }
 }
 
+Test-Function "Add-ColorScriptProfile exported" {
+    $cmd = Get-Command Add-ColorScriptProfile -ErrorAction Stop
+    if (-not $cmd) { throw "Command not found" }
+}
+
 # Test 3: Alias exported
 Test-Function "Alias 'scs' exists" {
     $alias = Get-Alias scs -ErrorAction Stop
@@ -88,7 +93,7 @@ Test-Function "Scripts directory exists" {
 Test-Function "Colorscripts are available" {
     $scriptsPath = Join-Path $PSScriptRoot "ColorScripts-Enhanced\Scripts"
     $scripts = Get-ChildItem $scriptsPath -Filter "*.ps1" |
-    Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
+        Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
     if ($scripts.Count -eq 0) {
         throw "No colorscripts found"
     }
@@ -166,6 +171,13 @@ Test-Function "Help for Clear-ColorScriptCache" {
     }
 }
 
+Test-Function "Help for Add-ColorScriptProfile" {
+    $help = Get-Help Add-ColorScriptProfile
+    if (-not $help.Synopsis) {
+        throw "No help synopsis found"
+    }
+}
+
 # Test 13: About help topic
 Test-Function "about_ColorScripts-Enhanced help topic" {
     $help = Get-Help about_ColorScripts-Enhanced -ErrorAction Stop
@@ -201,6 +213,59 @@ Test-Function "Show-ColorScript -NoCache works" {
 Test-Function "Show-ColorScript random selection" {
     Show-ColorScript -ErrorAction Stop | Out-Null
     # If we get here, it executed successfully
+}
+
+Test-Function "Add-ColorScriptProfile creates snippet" {
+    $tempProfile = Join-Path ([System.IO.Path]::GetTempPath()) ("ColorScriptsProfile_" + [Guid]::NewGuid() + '.ps1')
+    if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
+
+    try {
+        $result = Add-ColorScriptProfile -Path $tempProfile
+        if (-not $result.Changed) { throw "Profile not updated" }
+
+        $content = Get-Content $tempProfile -Raw
+        if ($content -notmatch 'Import-Module\s+ColorScripts-Enhanced') {
+            throw "Import line missing"
+        }
+        if ($content -notmatch 'Show-ColorScript') {
+            throw "Startup script missing"
+        }
+    }
+    finally {
+        if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
+    }
+}
+
+Test-Function "Add-ColorScriptProfile SkipStartupScript" {
+    $tempProfile = Join-Path ([System.IO.Path]::GetTempPath()) ("ColorScriptsProfileSkip_" + [Guid]::NewGuid() + '.ps1')
+    if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
+
+    try {
+        Add-ColorScriptProfile -Path $tempProfile -SkipStartupScript | Out-Null
+        $content = Get-Content $tempProfile -Raw
+        if ($content -notmatch 'Import-Module\s+ColorScripts-Enhanced') {
+            throw "Import line missing"
+        }
+        if ($content -match 'Show-ColorScript') {
+            throw "Startup script unexpectedly present"
+        }
+    }
+    finally {
+        if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
+    }
+}
+
+Test-Function "Script analyzer clean" {
+    if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
+        throw "PSScriptAnalyzer module not installed. Run 'Install-Module PSScriptAnalyzer -Scope CurrentUser'."
+    }
+
+    Import-Module PSScriptAnalyzer -ErrorAction Stop
+    $lintResults = Invoke-ScriptAnalyzer -Path "$PSScriptRoot\ColorScripts-Enhanced" -Recurse -Settings "$PSScriptRoot\PSScriptAnalyzerSettings.psd1" -Severity Error, Warning
+    if ($lintResults) {
+        $lintResults | Format-Table -AutoSize | Out-String | Write-Host
+        throw "ScriptAnalyzer reported issues"
+    }
 }
 
 # Summary

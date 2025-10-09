@@ -18,12 +18,20 @@ The module automatically caches script output to a centralized location in your 
 - UTF-8 encoding support for perfect rendering
 - Random colorscript selection
 - Easy script discovery and listing
+- Profile helper for one-line startup integration
 
 ### INSTALLATION
 
 #### From PowerShell Gallery (Recommended)
 ```powershell
 Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
+```
+
+Add the module to your profile automatically:
+
+```powershell
+Add-ColorScriptProfile             # Import + Show-ColorScript
+Add-ColorScriptProfile -SkipStartupScript
 ```
 
 #### Manual Installation
@@ -70,6 +78,7 @@ The module exports the following commands:
 - `Get-ColorScriptList` - List available colorscripts
 - `Build-ColorScriptCache` - Pre-generate cache files
 - `Clear-ColorScriptCache` - Remove cache files
+- `Add-ColorScriptProfile` - Append module startup snippet to a PowerShell profile
 
 Use `Get-Help <CommandName> -Full` for detailed help on each command.
 
@@ -95,11 +104,8 @@ The caching system works automatically:
 Display a random colorscript on every terminal launch:
 
 ```powershell
-# Edit your profile
-notepad $PROFILE
-
-# Add this line:
-Show-ColorScript
+Add-ColorScriptProfile                 # Import + Show-ColorScript
+Add-ColorScriptProfile -SkipStartupScript
 ```
 
 #### Customize Cache Location
@@ -107,6 +113,21 @@ The cache location is set automatically but can be checked:
 
 ```powershell
 $env:APPDATA\ColorScripts-Enhanced\cache
+```
+
+### NERD FONT GLYPHS
+
+Some scripts display Nerd Font icons (developer glyphs, powerline separators, checkmarks). Install a patched font so those characters render correctly:
+
+1. Download a font from https://www.nerdfonts.com/ (popular choices: Cascadia Code, JetBrainsMono, FiraCode).
+2. Windows: extract the `.zip`, select the `.ttf` files, right-click → **Install for all users**.
+   macOS: `brew install --cask font-caskaydia-cove-nerd-font` or add via Font Book.
+   Linux: copy `.ttf` files to `~/.local/share/fonts` (or `/usr/local/share/fonts`) and run `fc-cache -fv`.
+3. Set your terminal profile to use the installed Nerd Font.
+4. Verify glyphs with:
+
+```powershell
+Show-ColorScript -Name nerd-font-test
 ```
 
 ### EXAMPLES

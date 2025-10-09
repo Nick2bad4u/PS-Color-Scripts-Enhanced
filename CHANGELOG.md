@@ -5,7 +5,27 @@ All notable changes to ColorScripts-Enhanced will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
 
-## [2025.10.09.1625] - 2025-10-09
+## 2025.10.09.1633 - 2025-10-09
+
+### Added
+- `Add-ColorScriptProfile` helper cmdlet for safe profile integration
+- `Lint-Module.ps1` convenience script to run ScriptAnalyzer locally
+- Extended Pester coverage for profile helper and lint checks
+- Quick Start / Quick Reference updates for new command and install flow
+- Cross-platform Nerd Font installation guidance for glyph-heavy scripts
+
+### Changed
+- README and module summary now lead with PowerShell Gallery installation instructions
+- `Install.ps1` reuses the new helper and supports `-SkipStartupScript`
+- `Test-Module.ps1` runs ScriptAnalyzer and validates profile snippets
+- Publishing and development docs reference new lint pipeline and secrets
+- `Lint-Module.ps1` now supports an optional `-Fix` pass before verification
+
+### Fixed
+- Ensured manual install guidance aligns with exported commands
+- Updated automation docs with current secret names used by GitHub Actions
+
+## 2025.10.09.1625 - 2025-10-09
 
 ### Added
 - Comprehensive comment-based help for all functions
@@ -38,7 +58,7 @@ and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
 - Module metadata complies with PowerShell Gallery standards
 - All exported functions properly documented
 
-## [2025.10.09] - 2025-10-09
+## 2025.10.09 - 2025-10-09
 
 ### Added
 - OS-wide caching system in AppData
@@ -74,7 +94,7 @@ and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
   - bouncing-balls.ps1
   - particle-explosion.ps1
 
-## [2025.10.08] - 2025-10-08
+## 2025.10.08 - 2025-10-08
 
 ### Added
 - Initial public release
@@ -93,7 +113,7 @@ and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
 - Clear-ColorScriptCache command
 - Alias 'scs' for Show-ColorScript
 
-## [Unreleased]
+## Unreleased
 
 ### Planned
 - Script categories filtering

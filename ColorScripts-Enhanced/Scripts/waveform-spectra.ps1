@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -21,11 +21,11 @@ function Convert-HsvToRgb {
     $t = $Value * (1 - (1 - $fraction) * $Saturation)
 
     switch ($sector) {
-        0 { $r = $Value; $g = $t;      $b = $p }
-        1 { $r = $q;     $g = $Value;  $b = $p }
-        2 { $r = $p;     $g = $Value;  $b = $t }
-        3 { $r = $p;     $g = $q;      $b = $Value }
-        4 { $r = $t;     $g = $p;      $b = $Value }
+        0 { $r = $Value; $g = $t; $b = $p }
+        1 { $r = $q; $g = $Value; $b = $p }
+        2 { $r = $p; $g = $Value; $b = $t }
+        3 { $r = $p; $g = $q; $b = $Value }
+        4 { $r = $t; $g = $p; $b = $Value }
         default { $r = $Value; $g = $p; $b = $q }
     }
 

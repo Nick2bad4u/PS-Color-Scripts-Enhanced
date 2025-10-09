@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -12,7 +12,7 @@ Write-Host
 for ($y = 0; $y -lt $rows; $y++) {
     $sb = [System.Text.StringBuilder]::new()
     for ($x = 0; $x -lt $cols; $x++) {
-        $h = ($x / [double]([math]::Max($cols-1,1))) * 6.28318530718
+        $h = ($x / [double]([math]::Max($cols-1, 1))) * 6.28318530718
         $baseR = [int](120 + 120 * [math]::Sin($h))
         $baseG = [int](120 + 120 * [math]::Sin($h + 2.094))
         $baseB = [int](120 + 120 * [math]::Sin($h + 4.188))
@@ -26,7 +26,7 @@ for ($y = 0; $y -lt $rows; $y++) {
         switch ($side) {
             0 { $r=$baseR; $g=$baseG; $b=$baseB }
             1 { $r=[int]($baseR*0.70); $g=[int]($baseG*0.70); $b=[int]($baseB*0.70) }
-            2 { $r=[int]([math]::Min(255,$baseR*1.15)); $g=[int]([math]::Min(255,$baseG*1.15)); $b=[int]([math]::Min(255,$baseB*1.15)) }
+            2 { $r=[int]([math]::Min(255, $baseR*1.15)); $g=[int]([math]::Min(255, $baseG*1.15)); $b=[int]([math]::Min(255, $baseB*1.15)) }
         }
 
         # thin grid lines

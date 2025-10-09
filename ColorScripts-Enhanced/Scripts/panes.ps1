@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -18,10 +18,10 @@ $fbright5 = "$esc[94m"
 $fbright6 = "$esc[95m"
 
 Write-Host @"
- 
- $f1███$d$fbright$fbright1▄$t  $f2███$d$fbright$fbright2▄$t  $f3███$d$fbright3▄$t  $f4███$d$fbright4▄$t  $f5███$d$fbright5▄$t  $f6███$d$fbright6▄$t  $f7███$d$fbright7▄$t  
- $f1███$d$fbright$fbright1█$t  $f2███$d$fbright$fbright2█$t  $f3███$d$fbright3█$t  $f4███$d$fbright4█$t  $f5███$d$fbright5█$t  $f6███$d$fbright6█$t  $f7███$d$fbright7█$t  
- $f1███$d$fbright$fbright1█$t  $f2███$d$fbright$fbright2█$t  $f3███$d$fbright3█$t  $f4███$d$fbright4█$t  $f5███$d$fbright5█$t  $f6███$d$fbright6█$t  $f7███$d$fbright7█$t  
+
+ $f1███$d$fbright$fbright1▄$t  $f2███$d$fbright$fbright2▄$t  $f3███$d$fbright3▄$t  $f4███$d$fbright4▄$t  $f5███$d$fbright5▄$t  $f6███$d$fbright6▄$t  $f7███$d$fbright7▄$t
+ $f1███$d$fbright$fbright1█$t  $f2███$d$fbright$fbright2█$t  $f3███$d$fbright3█$t  $f4███$d$fbright4█$t  $f5███$d$fbright5█$t  $f6███$d$fbright6█$t  $f7███$d$fbright7█$t
+ $f1███$d$fbright$fbright1█$t  $f2███$d$fbright$fbright2█$t  $f3███$d$fbright3█$t  $f4███$d$fbright4█$t  $f5███$d$fbright5█$t  $f6███$d$fbright6█$t  $f7███$d$fbright7█$t
  $d$fbright1 ▀▀▀   $fbright2▀▀▀   $fbright3▀▀▀   $fbright4▀▀▀   $fbright5▀▀▀   $fbright6▀▀▀   $fbright7▀▀▀  $t
 
 "@

@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -14,7 +14,7 @@ for ($y = 0; $y -lt $rows; $y++) {
     for ($x = 0; $x -lt $cols; $x++) {
         $t = $x * 0.09
         $noise = [math]::Sin($t + $y*0.18) + 0.5*[math]::Sin($t*2.2 - $y*0.31) + 0.25*[math]::Sin($t*3.7 + $y*0.53)
-        $h = ($x + 12*$noise) / [double]([math]::Max($cols-1,1)) * 6.28318530718
+        $h = ($x + 12*$noise) / [double]([math]::Max($cols-1, 1)) * 6.28318530718
         $r = [int](120 + 120 * [math]::Sin($h))
         $g = [int](120 + 120 * [math]::Sin($h + 2.094))
         $b = [int](120 + 120 * [math]::Sin($h + 4.188))

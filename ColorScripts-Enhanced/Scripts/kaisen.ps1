@@ -1,4 +1,4 @@
-# Check cache first for instant output
+﻿# Check cache first for instant output
 if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 
 $esc = [char]27
@@ -8,30 +8,30 @@ $reset = "$esc[0m"
 
 Write-Host @"
 
-$boldon$redfbright                                          ░▓▓                              
-$boldon$redfbright                                       ▓▓▓▓▓▓▓▓▓                                
-$boldon$redfbright                                ▓░  ▓▓▓▓▓▓▓▓▓▓▓                                 
-$boldon$redfbright                              ▓▓▓  ▓▓▓▓▓▓▓▓▓▓▓▓                                 
-$boldon$redfbright                        ▓    ▓▓▓   ▓▒      ░▓▓▓▓▓                               
-$boldon$redfbright                      ▒▓▓   ▓▓▓▓          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒                   
-$boldon$redfbright                      ▓▓▓  ▓▓▓▓▓   ▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓               
-$boldon$redfbright                      ▓▓▓▓▒▓▓▓▓▓ ▓▓▓▓▒   ▓▓░      ▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓             
-$boldon$redfbright                     ▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                   ▒▓▓▓▓▓▓▓▓▓▓▓            
-$boldon$redfbright                     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ░▓▓▓▓     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓           
-$boldon$redfbright                     ▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    ▓▓▓▓▓▓▓▓▓▓          ▓           
-$boldon$redfbright                     ▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▒▓▓▓▓▓▓▓▓▓▓▓                      
-$boldon$redfbright                    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ░▓▓▓▓▓▓▓▓▓▓▓                      
-$boldon$redfbright                   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓                     
-$boldon$redfbright            ▓     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓▓                  
-$boldon$redfbright           ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░   ▓▓▓▓▓▓▓▓▓▒           ▓▓▓▓▓▓▓▓▓▓▓▓                
-$boldon$redfbright            ▓▓▓▓▓▓▓▓▓▓▓▓▓▓     ▓▓▓▓▓▓▓     ▓▓▓▓▓▓▓▓▓▓ ░▓▓▓▓▓▓▓▓▓▓▓              
-$boldon$redfbright            ▓▓▓▓▓▓▓▓▓▓▓▓       ▓▓▓▓▓░    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓             
-$boldon$redfbright             ▓▓▓▓▓ ▓▓  ▒     ▓▓▓▓▓▓▓         ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒            
-$boldon$redfbright               ▓▓▓       ▓▓▓▓▓▓▓▓▓▓            ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓             
-$boldon$redfbright                       ▓▓▓▓▓▓▓  ▒▓▓            ▓▓▓▓▓▓▓▓▓▓▓▓      ▓▓             
-$boldon$redfbright                    ▓▓▓▓▓▓▓▓                  ▓▓▓▓▓▓▓▓▓▓▓▓                      
-$boldon$redfbright                      ▓▓▓▓▓▓                ▓▓▓▓▓▓▓▓▓▓▓▓▓▓                      
-$boldon$redfbright                         ▓▓▓▓▓          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                      
+$boldon$redfbright                                          ░▓▓
+$boldon$redfbright                                       ▓▓▓▓▓▓▓▓▓
+$boldon$redfbright                                ▓░  ▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright                              ▓▓▓  ▓▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright                        ▓    ▓▓▓   ▓▒      ░▓▓▓▓▓
+$boldon$redfbright                      ▒▓▓   ▓▓▓▓          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒
+$boldon$redfbright                      ▓▓▓  ▓▓▓▓▓   ▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright                      ▓▓▓▓▒▓▓▓▓▓ ▓▓▓▓▒   ▓▓░      ▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright                     ▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                   ▒▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright                     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ░▓▓▓▓     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright                     ▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    ▓▓▓▓▓▓▓▓▓▓          ▓
+$boldon$redfbright                     ▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▒▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright                    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ░▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright                   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright            ▓     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright           ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░   ▓▓▓▓▓▓▓▓▓▒           ▓▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright            ▓▓▓▓▓▓▓▓▓▓▓▓▓▓     ▓▓▓▓▓▓▓     ▓▓▓▓▓▓▓▓▓▓ ░▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright            ▓▓▓▓▓▓▓▓▓▓▓▓       ▓▓▓▓▓░    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright             ▓▓▓▓▓ ▓▓  ▒     ▓▓▓▓▓▓▓         ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒
+$boldon$redfbright               ▓▓▓       ▓▓▓▓▓▓▓▓▓▓            ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright                       ▓▓▓▓▓▓▓  ▒▓▓            ▓▓▓▓▓▓▓▓▓▓▓▓      ▓▓
+$boldon$redfbright                    ▓▓▓▓▓▓▓▓                  ▓▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright                      ▓▓▓▓▓▓                ▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+$boldon$redfbright                         ▓▓▓▓▓          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 $boldon$redfbright                                   ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓       $reset
 
 "@
