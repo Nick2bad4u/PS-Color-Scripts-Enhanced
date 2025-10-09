@@ -9,16 +9,16 @@
 @{
 
 # Script module or binary module file associated with this manifest.
-RootModule = './ColorScripts-Enhanced.psm1'
+RootModule = './ColorScripts-Enhanced/ColorScripts-Enhanced.psm1'
 
 # Version number of this module.
-ModuleVersion = '2025.10.9.139'
+ModuleVersion = '2025.10.9.142'
 
 # Supported PSEditions
 CompatiblePSEditions = 'Desktop', 'Core'
 
 # ID used to uniquely identify this module
-GUID = '9255e2ba-1d10-4be9-bfc2-20bb2b284d33'
+GUID = 'd34b8011-003c-425f-a065-6ed77d8d64b9'
 
 # Author of this module
 Author = 'Nick2bad4u'
@@ -72,13 +72,13 @@ PowerShellVersion = '5.1'
 FunctionsToExport = 'Show-ColorScript'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
-CmdletsToExport = @()
+CmdletsToExport = '*'
 
 # Variables to export from this module
-VariablesToExport = @()
+VariablesToExport = '*'
 
 # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-AliasesToExport = @()
+AliasesToExport = '*'
 
 # DSC resources to export from this module
 # DscResourcesToExport = @()
@@ -129,3 +129,4 @@ PrivateData = @{
 # DefaultCommandPrefix = ''
 
 }
+
