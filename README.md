@@ -17,7 +17,7 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 
 ## Demo
 
-![ColorScripts-Enhanced Demo](https://i.imgur.com/FCjqkxn.mp4)
+![ColorScripts-Enhanced Demo](./FCjqkxn.mp4)
 
 ## Installation
 
