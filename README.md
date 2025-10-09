@@ -9,10 +9,15 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 ## Features
 
 ✨ **185+ Beautiful Colorscripts** - Extensive collection of ANSI art
+
 ⚡ **Intelligent Caching** - 6-19x performance improvement (5-20ms load times)
+
 🌐 **OS-Wide Cache** - Consistent caching across all terminal sessions
+
 🎯 **Simple API** - Easy-to-use cmdlets with tab completion
+
 🔄 **Auto-Update** - Cache automatically invalidates when scripts change
+
 📍 **Centralized Storage** - Cache stored in `%APPDATA%\ColorScripts-Enhanced\cache`
 
 ## Demo
