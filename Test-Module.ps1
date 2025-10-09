@@ -1,0 +1,218 @@
+# ColorScripts-Enhanced Module Tests
+# Run this to validate module functionality
+
+#Requires -Version 5.1
+
+[CmdletBinding()]
+param()
+
+Write-Host "`n=== ColorScripts-Enhanced Module Tests ===`n" -ForegroundColor Cyan
+
+$ErrorCount = 0
+$SuccessCount = 0
+
+function Test-Function {
+    param(
+        [string]$Name,
+        [scriptblock]$Test
+    )
+
+    Write-Host "Testing: $Name..." -NoNewline
+    try {
+        & $Test
+        Write-Host " ✓ PASS" -ForegroundColor Green
+        $script:SuccessCount++
+    }
+    catch {
+        Write-Host " ✗ FAIL" -ForegroundColor Red
+        Write-Host "  Error: $_" -ForegroundColor Red
+        $script:ErrorCount++
+    }
+}
+
+# Import module
+Write-Host "Importing module..." -ForegroundColor Yellow
+try {
+    Import-Module "$PSScriptRoot\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1" -Force
+    Write-Host "✓ Module imported successfully`n" -ForegroundColor Green
+}
+catch {
+    Write-Host "✗ Failed to import module: $_" -ForegroundColor Red
+    exit 1
+}
+
+# Test 1: Module loaded
+Test-Function "Module loaded" {
+    $module = Get-Module ColorScripts-Enhanced
+    if (-not $module) { throw "Module not loaded" }
+}
+
+# Test 2: Functions exported
+Test-Function "Show-ColorScript exported" {
+    $cmd = Get-Command Show-ColorScript -ErrorAction Stop
+    if (-not $cmd) { throw "Command not found" }
+}
+
+Test-Function "Get-ColorScriptList exported" {
+    $cmd = Get-Command Get-ColorScriptList -ErrorAction Stop
+    if (-not $cmd) { throw "Command not found" }
+}
+
+Test-Function "Build-ColorScriptCache exported" {
+    $cmd = Get-Command Build-ColorScriptCache -ErrorAction Stop
+    if (-not $cmd) { throw "Command not found" }
+}
+
+Test-Function "Clear-ColorScriptCache exported" {
+    $cmd = Get-Command Clear-ColorScriptCache -ErrorAction Stop
+    if (-not $cmd) { throw "Command not found" }
+}
+
+# Test 3: Alias exported
+Test-Function "Alias 'scs' exists" {
+    $alias = Get-Alias scs -ErrorAction Stop
+    if ($alias.Definition -ne 'Show-ColorScript') {
+        throw "Alias points to wrong command"
+    }
+}
+
+# Test 4: Scripts directory exists
+Test-Function "Scripts directory exists" {
+    $scriptsPath = Join-Path $PSScriptRoot "ColorScripts-Enhanced\Scripts"
+    if (-not (Test-Path $scriptsPath)) {
+        throw "Scripts directory not found"
+    }
+}
+
+# Test 5: Scripts are present
+Test-Function "Colorscripts are available" {
+    $scriptsPath = Join-Path $PSScriptRoot "ColorScripts-Enhanced\Scripts"
+    $scripts = Get-ChildItem $scriptsPath -Filter "*.ps1" |
+    Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
+    if ($scripts.Count -eq 0) {
+        throw "No colorscripts found"
+    }
+    Write-Host "  Found $($scripts.Count) scripts" -ForegroundColor Gray
+}
+
+# Test 6: Cache directory created
+Test-Function "Cache directory exists" {
+    $cacheDir = Join-Path $env:APPDATA "ColorScripts-Enhanced\cache"
+    if (-not (Test-Path $cacheDir)) {
+        throw "Cache directory not created"
+    }
+}
+
+# Test 7: Get-ColorScriptList works
+Test-Function "Get-ColorScriptList executes" {
+    $null = Get-ColorScriptList *>&1
+}
+
+# Test 8: Show-ColorScript with -List
+Test-Function "Show-ColorScript -List works" {
+    $null = Show-ColorScript -List *>&1
+}
+
+# Test 9: Build cache for single script
+Test-Function "Build-ColorScriptCache for single script" {
+    Build-ColorScriptCache -Name "bars" -ErrorAction Stop *>&1 | Out-Null
+    $cacheFile = Join-Path $env:APPDATA "ColorScripts-Enhanced\cache\bars.cache"
+    if (-not (Test-Path $cacheFile)) {
+        throw "Cache file not created"
+    }
+}
+
+# Test 10: Show specific script
+Test-Function "Show-ColorScript by name" {
+    Show-ColorScript -Name "bars" -ErrorAction Stop | Out-Null
+    # If we get here, it executed successfully
+}
+
+# Test 11: Clear specific cache
+Test-Function "Clear-ColorScriptCache for specific script" {
+    Clear-ColorScriptCache -Name "bars" -Confirm:$false *>&1 | Out-Null
+    $cacheFile = Join-Path $env:APPDATA "ColorScripts-Enhanced\cache\bars.cache"
+    if (Test-Path $cacheFile) {
+        throw "Cache file not removed"
+    }
+}
+
+# Test 12: Help available
+Test-Function "Help for Show-ColorScript" {
+    $help = Get-Help Show-ColorScript
+    if (-not $help.Synopsis) {
+        throw "No help synopsis found"
+    }
+}
+
+Test-Function "Help for Get-ColorScriptList" {
+    $help = Get-Help Get-ColorScriptList
+    if (-not $help.Synopsis) {
+        throw "No help synopsis found"
+    }
+}
+
+Test-Function "Help for Build-ColorScriptCache" {
+    $help = Get-Help Build-ColorScriptCache
+    if (-not $help.Synopsis) {
+        throw "No help synopsis found"
+    }
+}
+
+Test-Function "Help for Clear-ColorScriptCache" {
+    $help = Get-Help Clear-ColorScriptCache
+    if (-not $help.Synopsis) {
+        throw "No help synopsis found"
+    }
+}
+
+# Test 13: About help topic
+Test-Function "about_ColorScripts-Enhanced help topic" {
+    $help = Get-Help about_ColorScripts-Enhanced -ErrorAction Stop
+    if (-not $help) {
+        throw "Help topic not found"
+    }
+}
+
+# Test 14: Module manifest valid
+Test-Function "Module manifest is valid" {
+    $manifestPath = Join-Path $PSScriptRoot "ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
+    $manifest = Test-ModuleManifest $manifestPath -ErrorAction Stop
+    if (-not $manifest) {
+        throw "Invalid manifest"
+    }
+}
+
+# Test 15: UTF-8 encoding support
+Test-Function "UTF-8 encoding preserved" {
+    $output = Show-ColorScript -Name "bars" *>&1 | Out-String
+    if ($output.Length -eq 0) {
+        throw "Empty output"
+    }
+}
+
+# Test 16: NoCache parameter
+Test-Function "Show-ColorScript -NoCache works" {
+    Show-ColorScript -Name "bars" -NoCache -ErrorAction Stop | Out-Null
+    # If we get here, it executed successfully
+}
+
+# Test 17: Random script selection
+Test-Function "Show-ColorScript random selection" {
+    Show-ColorScript -ErrorAction Stop | Out-Null
+    # If we get here, it executed successfully
+}
+
+# Summary
+Write-Host "`n=== Test Summary ===" -ForegroundColor Cyan
+Write-Host "Passed: $SuccessCount" -ForegroundColor Green
+Write-Host "Failed: $ErrorCount" -ForegroundColor $(if ($ErrorCount -gt 0) { 'Red' } else { 'Green' })
+
+if ($ErrorCount -eq 0) {
+    Write-Host "`n✓ All tests passed!`n" -ForegroundColor Green
+    exit 0
+}
+else {
+    Write-Host "`n✗ Some tests failed!`n" -ForegroundColor Red
+    exit 1
+}

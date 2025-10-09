@@ -16,6 +16,8 @@ jobs:
             - name: Build and publish
               env:
                   NUGET_KEY: ${{ secrets.NUGET_KEY }}
+                  PSGalleryApiKey: ${{ secrets.PSGalleryApiKey }}
               shell: pwsh
               run: |
                   Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:NUGET_KEY -Verbose
+                  Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:PSGalleryApiKey -Verbose -Repository PSGallery

@@ -12,13 +12,13 @@
 RootModule = 'ColorScripts-Enhanced.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.0'
+ModuleVersion = '2025.10.9.1633'
 
 # Supported PSEditions
-# CompatiblePSEditions = @()
+CompatiblePSEditions = 'Desktop', 'Core'
 
 # ID used to uniquely identify this module
-GUID = 'a1b2c3d4-e5f6-7890-abcd-ef1234567890'
+GUID = 'f77548d7-23eb-48ce-a6e0-f64b4758d995'
 
 # Author of this module
 Author = 'Nick'
@@ -69,14 +69,14 @@ PowerShellVersion = '5.1'
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = 'Show-ColorScript', 'Get-ColorScriptList', 'Build-ColorScriptCache',
+FunctionsToExport = 'Show-ColorScript', 'Get-ColorScriptList', 'Build-ColorScriptCache', 
                'Clear-ColorScriptCache'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
-CmdletsToExport = @()
+CmdletsToExport = '*'
 
 # Variables to export from this module
-# VariablesToExport = @()
+VariablesToExport = '*'
 
 # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
 AliasesToExport = 'scs'
@@ -96,24 +96,28 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = 'ColorScripts','ANSI','Terminal','Art','Cache','Performance'
+        Tags = 'ColorScripts', 'ANSI', 'Terminal', 'Art', 'Cache', 'Performance', 
+               'PowerShell', 'Startup', 'Terminal Startup', 'ANSI Art', 
+               'Colorful Terminal', 'PowerShell Art'
 
         # A URL to the license for this module.
-        LicenseUri = 'https://github.com/Nick2bad4u/ps-color-scripts/blob/main/LICENSE'
+        LicenseUri = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/LICENSE'
 
         # A URL to the main website for this project.
-        ProjectUri = 'https://github.com/Nick2bad4u/ps-color-scripts'
+        ProjectUri = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced'
 
         # A URL to an icon representing this module.
         # IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = 'Version 1.0.0:
+        ReleaseNotes = 'Version 2025.10.09.1633:
 - Enhanced caching system with OS-wide cache in AppData
 - 6-19x performance improvement
 - Cache stored in centralized location
 - Works from any directory
-- 185+ beautiful colorscripts included'
+- 185+ beautiful colorscripts included
+- Full comment-based help documentation
+- Scripts optimized for performance and visual quality'
 
         # Prerelease string of this module
         # Prerelease = ''
@@ -126,7 +130,7 @@ PrivateData = @{
 
     } # End of PSData hashtable
 
- } # End of PrivateData hashtable
+} # End of PrivateData hashtable
 
 # HelpInfo URI of this module
 # HelpInfoURI = ''
@@ -135,3 +139,4 @@ PrivateData = @{
 # DefaultCommandPrefix = ''
 
 }
+

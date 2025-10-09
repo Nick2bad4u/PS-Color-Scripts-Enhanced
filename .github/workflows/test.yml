@@ -1,0 +1,72 @@
+# .github/workflows/test.yml
+# GitHub Actions workflow for testing the module
+
+name: Test ColorScripts-Enhanced
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest, macos-latest]
+        pwsh-version: ['5.1', '7.2', '7.3', '7.4']
+        exclude:
+          # PowerShell 5.1 only runs on Windows
+          - os: ubuntu-latest
+            pwsh-version: '5.1'
+          - os: macos-latest
+            pwsh-version: '5.1'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Setup PowerShell ${{ matrix.pwsh-version }}
+      if: matrix.pwsh-version != '5.1'
+      uses: actions/setup-powershell@v1
+      with:
+        powershell-version: ${{ matrix.pwsh-version }}
+    
+    - name: Install Pester
+      shell: pwsh
+      run: |
+        Set-PSRepository PSGallery -InstallationPolicy Trusted
+        Install-Module -Name Pester -MinimumVersion 5.0.0 -Force -SkipPublisherCheck
+    
+    - name: Run Pester Tests
+      shell: pwsh
+      run: |
+        Import-Module Pester
+        $config = New-PesterConfiguration
+        $config.Run.Path = './Tests'
+        $config.Output.Verbosity = 'Detailed'
+        $config.TestResult.Enabled = $true
+        $config.TestResult.OutputPath = 'test-results.xml'
+        Invoke-Pester -Configuration $config
+    
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: test-results-${{ matrix.os }}-${{ matrix.pwsh-version }}
+        path: test-results.xml
+    
+    - name: Test Module Import
+      shell: pwsh
+      run: |
+        Import-Module ./ColorScripts-Enhanced -Force
+        Get-Module ColorScripts-Enhanced
+    
+    - name: Validate Help
+      shell: pwsh
+      run: |
+        Import-Module ./ColorScripts-Enhanced -Force
+        Get-Help Show-ColorScript
+        Get-Help about_ColorScripts-Enhanced
