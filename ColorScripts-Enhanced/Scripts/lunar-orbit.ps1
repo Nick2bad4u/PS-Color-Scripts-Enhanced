@@ -4,12 +4,12 @@ if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
 $esc = [char]27
 $reset = "$esc[0m"
 
-$rows = 24
-$cols = 72
+$rows = 26
+$cols = 80
 $moons = @(
-    @{ X = 16.0; Y = 11.0; Radius = 5.0; Hue = 0.62; Phase = 0.2 },
-    @{ X = 36.0; Y = 9.0;  Radius = 6.0; Hue = 0.58; Phase = 0.5 },
-    @{ X = 56.0; Y = 13.0; Radius = 4.2; Hue = 0.66; Phase = 0.85 }
+    @{ X = 18.0; Y = 12.0; Radius = 5.5; Hue = 0.15; Phase = 0.2 },
+    @{ X = 40.0; Y = 10.0; Radius = 6.5; Hue = 0.55; Phase = 0.5 },
+    @{ X = 62.0; Y = 14.0; Radius = 4.8; Hue = 0.75; Phase = 0.85 }
 )
 $orbits = @(
     @{ CX = 36.0; CY = 11.5; A = 26.0; B = 9.5 },
@@ -37,12 +37,12 @@ function HslToRgb {
         if ($t -gt 1) { $t -= 1 }
         if (6 * $t -lt 1) { return $p + ($q - $p) * 6 * $t }
         if (2 * $t -lt 1) { return $q }
-        if (3 * $t -lt 2) { return $p + ($q - $p) * ((2/3) - $t) * 6 }
+        if (3 * $t -lt 2) { return $p + ($q - $p) * ((2 / 3) - $t) * 6 }
         return $p
     }
-    $r = & $toRgb ($hk + 1.0/3.0)
+    $r = & $toRgb ($hk + 1.0 / 3.0)
     $g = & $toRgb $hk
-    $b = & $toRgb ($hk - 1.0/3.0)
+    $b = & $toRgb ($hk - 1.0 / 3.0)
     return @([int]([math]::Round($r * 255)), [int]([math]::Round($g * 255)), [int]([math]::Round($b * 255)))
 }
 

@@ -38,8 +38,8 @@ function Clamp {
     return $Value
 }
 
-# Newton's method for z^5 - 1 = 0
-# Derivative: 5*z^4
+# Newton's method for z^3 - 1 = 0 (simpler, prettier basins)
+# f(z) = z^3 - 1, f'(z) = 3*z^2
 function Apply-NewtonIteration {
     param(
         [double]$Zr,
@@ -51,28 +51,27 @@ function Apply-NewtonIteration {
     $y = $Zi
 
     for ($iter = 0; $iter -lt $MaxIter; $iter++) {
-        # Calculate z^5
-        $x2 = $x * $x
-        $y2 = $y * $y
-        $x4 = $x2 * $x2 - $y2 * $y2
-        $y4 = 2 * $x2 * $y2
+        # Calculate z^2
+        $z2r = $x * $x - $y * $y
+        $z2i = 2 * $x * $y
 
-        $z5r = $x4 * $x - $y4 * $y - $y2 * $y * 2 * $x2 - $y2 * $y * $y2
-        $z5i = $x4 * $y + $y4 * $x + 2 * $x2 * $x * $y2 + $x * $y2 * $y2
+        # Calculate z^3 = z * z^2
+        $z3r = $x * $z2r - $y * $z2i
+        $z3i = $x * $z2i + $y * $z2r
 
-        # Subtract 1 from z^5
-        $fr = $z5r - 1.0
-        $fi = $z5i
+        # f(z) = z^3 - 1
+        $fr = $z3r - 1.0
+        $fi = $z3i
 
-        # Calculate 5*z^4
-        $fpr = 5 * ($x4 - $y4)
-        $fpi = 5 * (4 * $x * $x2 * $y - 4 * $x * $y * $y2)
+        # f'(z) = 3*z^2
+        $fpr = 3 * $z2r
+        $fpi = 3 * $z2i
 
         # Avoid division by zero
         $denom = $fpr * $fpr + $fpi * $fpi
         if ($denom -lt 1e-10) { break }
 
-        # z = z - f(z)/f'(z)
+        # z = z - f(z)/f'(z) using complex division
         $divr = ($fr * $fpr + $fi * $fpi) / $denom
         $divi = ($fi * $fpr - $fr * $fpi) / $denom
 
@@ -100,20 +99,20 @@ function Apply-NewtonIteration {
     }
 }
 
-# Calculate the 5 roots of z^5 = 1
+# Calculate the 3 roots of z^3 = 1
 $roots = @()
-for ($k = 0; $k -lt 5; $k++) {
-    $angle = 2 * [math]::PI * $k / 5.0
+for ($k = 0; $k -lt 3; $k++) {
+    $angle = 2 * [math]::PI * $k / 3.0
     $roots += @{
         X   = [math]::Cos($angle)
         Y   = [math]::Sin($angle)
-        Hue = $k / 5.0
+        Hue = $k / 3.0
     }
 }
 
 $width = 120
 $height = 40
-$zoom = 1.5
+$zoom = 2.0
 
 for ($row = 0; $row -lt $height; $row++) {
     $sb = [System.Text.StringBuilder]::new()
@@ -158,5 +157,3 @@ for ($row = 0; $row -lt $height; $row++) {
     }
     Write-Host ($sb.ToString() + $reset)
 }
-
-Write-Host $reset

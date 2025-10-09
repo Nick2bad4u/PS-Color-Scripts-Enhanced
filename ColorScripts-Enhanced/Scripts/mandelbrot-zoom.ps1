@@ -75,7 +75,7 @@ function Get-MandelbrotIteration {
 
 $width = 120
 $height = 40
-$maxIter = 256
+$maxIter = 128  # Reduced for faster rendering
 
 # Zoom into an interesting location near the Mandelbrot boundary
 $centerX = -0.7463

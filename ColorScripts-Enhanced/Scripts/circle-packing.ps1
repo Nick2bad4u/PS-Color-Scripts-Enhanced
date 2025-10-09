@@ -27,12 +27,12 @@ function Convert-HsvToRgb {
     return @([int][math]::Round($r * 255), [int][math]::Round($g * 255), [int][math]::Round($b * 255))
 }
 
-$width = 100
-$height = 26
+$width = 110
+$height = 30
 $rand = [System.Random]::new(101)
 
 # Initialize circles at random positions
-$circles = for ($i = 0; $i -lt 120; $i++) {
+$circles = for ($i = 0; $i -lt 150; $i++) {
     @{
         X   = $rand.Next($width)
         Y   = $rand.Next($height)

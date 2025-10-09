@@ -27,19 +27,19 @@ function Convert-HsvToRgb {
     return @([int][math]::Round($r * 255), [int][math]::Round($g * 255), [int][math]::Round($b * 255))
 }
 
-$width = 100
-$height = 26
+$width = 110
+$height = 30
 
 # Grid: 0 = white, values > 0 = black (with step count)
 $grid = @{}
 
 # Ant state
-$antX = 50
-$antY = 13
+$antX = 55
+$antY = 15
 $antDir = 0  # 0=up, 1=right, 2=down, 3=left
 
 # Simulate ant movement
-$steps = 11000
+$steps = 12000
 for ($step = 1; $step -le $steps; $step++) {
     $key = "$antX,$antY"
 

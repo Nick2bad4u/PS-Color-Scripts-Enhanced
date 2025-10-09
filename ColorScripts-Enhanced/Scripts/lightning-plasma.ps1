@@ -27,13 +27,13 @@ function Convert-HsvToRgb {
     return @([int][math]::Round($r * 255), [int][math]::Round($g * 255), [int][math]::Round($b * 255))
 }
 
-$width = 100
-$height = 26
+$width = 110
+$height = 30
 $rand = [System.Random]::new(777)
 
 # Lightning branches
 $branches = New-Object 'System.Collections.Generic.List[object]'
-$branches.Add(@{ X = 50; Y = 0; Vx = 0; Vy = 1; Energy = 100; Depth = 0 })
+$branches.Add(@{ X = 55; Y = 0; Vx = 0; Vy = 1; Energy = 120; Depth = 0 })
 
 $grid = @{}
 $maxDepth = 0

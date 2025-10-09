@@ -41,15 +41,15 @@ function Clamp {
 $width = 120
 $height = 40
 
-# Define epicycle parameters: radius, frequency, phase
+# Define epicycle parameters: radius, frequency, phase (enhanced)
 $epicycles = @(
     @{ Radius = 0.45; Freq = 1; Phase = 0 },
-    @{ Radius = 0.25; Freq = -3; Phase = 1.2 },
-    @{ Radius = 0.15; Freq = 5; Phase = 0.5 },
-    @{ Radius = 0.12; Freq = -7; Phase = 2.1 },
-    @{ Radius = 0.08; Freq = 11; Phase = 0.8 },
-    @{ Radius = 0.06; Freq = -13; Phase = 1.7 },
-    @{ Radius = 0.04; Freq = 17; Phase = 0.3 }
+    @{ Radius = 0.28; Freq = -3; Phase = 1.2 },
+    @{ Radius = 0.18; Freq = 5; Phase = 0.5 },
+    @{ Radius = 0.14; Freq = -7; Phase = 2.1 },
+    @{ Radius = 0.10; Freq = 11; Phase = 0.8 },
+    @{ Radius = 0.07; Freq = -13; Phase = 1.7 },
+    @{ Radius = 0.05; Freq = 17; Phase = 0.3 }
 )
 
 # Generate the path traced by epicycles

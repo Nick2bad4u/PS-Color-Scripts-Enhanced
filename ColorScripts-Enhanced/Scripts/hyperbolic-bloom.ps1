@@ -96,5 +96,3 @@ for ($row = $height - 1; $row -ge 0; $row--) {
     }
     Write-Host ($sb.ToString() + $reset)
 }
-
-Write-Host $reset

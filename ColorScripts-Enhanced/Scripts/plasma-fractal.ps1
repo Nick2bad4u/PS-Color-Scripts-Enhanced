@@ -89,28 +89,43 @@ while ($stepSize -gt 1) {
     $scale *= 0.5
 }
 
-# Render
+# Normalize grid values
+$minVal = 1e10
+$maxVal = -1e10
+for ($y = 0; $y -le $size; $y++) {
+    for ($x = 0; $x -le $size; $x++) {
+        if ($grid[$y][$x] -lt $minVal) { $minVal = $grid[$y][$x] }
+        if ($grid[$y][$x] -gt $maxVal) { $maxVal = $grid[$y][$x] }
+    }
+}
+$range = $maxVal - $minVal
+
+# Render with proper mapping
 for ($row = 0; $row -lt $height; $row++) {
     $sb = [System.Text.StringBuilder]::new()
     for ($col = 0; $col -lt $width; $col++) {
-        $value = $grid[$row][$col]
-        $normalized = Clamp -Value $value -Min 0 -Max 1
+        # Map display coordinates to grid coordinates
+        $gridY = [int](($row / [double]$height) * $size)
+        $gridX = [int](($col / [double]$width) * $size)
 
-        # Multi-hue plasma effect
-        $hue = (0.5 + $normalized * 0.4 + [math]::Sin($normalized * 6.28) * 0.15) % 1
-        $saturation = 0.7 + 0.25 * [math]::Abs([math]::Sin($normalized * 3.14))
-        $brightness = 0.35 + 0.6 * $normalized
+        $value = ($grid[$gridY][$gridX] - $minVal) / $range
+
+        # Multi-hue plasma effect with fractal-like coloring
+        $hue = (0.5 + $value * 0.6 + [math]::Sin($value * 12.56) * 0.2 + [math]::Cos($gridX * 0.2) * 0.1) % 1
+        if ($hue -lt 0) { $hue += 1 }
+        $saturation = 0.65 + 0.3 * [math]::Abs([math]::Sin($value * 6.28))
+        $brightness = 0.3 + 0.65 * $value
 
         $rgb = Convert-HsvToRgb -Hue $hue -Saturation $saturation -Value $brightness
 
-        $symbol = if ($normalized -gt 0.8) { '█' }
-        elseif ($normalized -gt 0.6) { '▓' }
-        elseif ($normalized -gt 0.4) { '▒' }
-        elseif ($normalized -gt 0.2) { '░' }
+        $symbol = if ($value -gt 0.85) { '█' }
+        elseif ($value -gt 0.7) { '▓' }
+        elseif ($value -gt 0.5) { '▒' }
+        elseif ($value -gt 0.3) { '░' }
+        elseif ($value -gt 0.15) { '∙' }
         else { '·' }
 
         $null = $sb.Append("$esc[38;2;$($rgb[0]);$($rgb[1]);$($rgb[2])m$symbol")
     }
     Write-Host ($sb.ToString() + $reset)
 }
-Write-Host $reset

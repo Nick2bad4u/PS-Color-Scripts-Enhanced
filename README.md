@@ -1,15 +1,23 @@
+## Credits
+
+Based on the PowerShell port [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts) by Scott McKendry, which is itself based on the excellent [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts) by Derek Taylor.
+
 # ColorScripts-Enhanced PowerShell Module
 
 A high-performance PowerShell module for displaying beautiful ANSI colorscripts in your terminal with intelligent caching for 6-19x faster load times.
 
 ## Features
 
-✨ **176+ Beautiful Colorscripts** - Extensive collection of ANSI art
+✨ **185+ Beautiful Colorscripts** - Extensive collection of ANSI art
 ⚡ **Intelligent Caching** - 6-19x performance improvement (5-20ms load times)
 🌐 **OS-Wide Cache** - Consistent caching across all terminal sessions
 🎯 **Simple API** - Easy-to-use cmdlets with tab completion
 🔄 **Auto-Update** - Cache automatically invalidates when scripts change
 📍 **Centralized Storage** - Cache stored in `%APPDATA%\ColorScripts-Enhanced\cache`
+
+## Demo
+
+![ColorScripts-Enhanced Demo](ColorScripts-Enhanced/585927820e6cce62a4e43579fad09de7.mp4)
 
 ## Installation
 
@@ -148,7 +156,7 @@ C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\cache\
 - One `.cache` file per colorscript
 - Contains pre-rendered ANSI output
 - Average size: ~20KB per file
-- Total size: ~3.7MB for all 176 scripts
+- Total size: ~3.7MB for all 185 scripts
 
 ## Examples
 
@@ -182,7 +190,7 @@ Build-ColorScriptCache -All
 
 ## Available Colorscripts
 
-The module includes 176 colorscripts including:
+The module includes 185 colorscripts including:
 
 - **Fractals**: mandelbrot-zoom, julia-morphing, barnsley-fern, koch-snowflake
 - **Patterns**: kaleidoscope, wave-pattern, rainbow-waves, gradient-bars
@@ -248,7 +256,7 @@ ColorScripts-Enhanced/
 └── cache/                         # Cache files
     ├── bars.cache
     ├── hearts.cache
-    └── ... (176 total)
+    └── ... (185 total)
 ```
 
 ## Contributing
@@ -265,15 +273,11 @@ Contributions welcome! When adding new colorscripts:
 
 MIT License - See LICENSE file for details
 
-## Credits
-
-Based on the excellent [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts) by Derek Taylor, ported to PowerShell with enhanced caching and module structure.
-
 ## Version History
 
 ### 1.0.0 (2025-09-30)
 - Initial release
-- 176 colorscripts included
+- 185 colorscripts included
 - High-performance caching system
 - OS-wide cache in AppData
 - Complete PowerShell module structure

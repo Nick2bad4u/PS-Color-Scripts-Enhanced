@@ -38,9 +38,9 @@ function Clamp {
     return $Value
 }
 
-$width = 120
-$height = 40
-$numBoids = 150
+$width = 90
+$height = 30
+$numBoids = 200  # Increased for more detail
 $rand = [System.Random]::new(789)
 
 # Initialize boids with random positions and velocities

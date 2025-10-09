@@ -32,19 +32,19 @@ function Convert-HsvToRgb {
     $t = $Value * (1 - (1 - $fraction) * $Saturation)
 
     switch ($sector) {
-        0 { $r = $Value; $g = $t;      $b = $p }
-        1 { $r = $q;     $g = $Value;  $b = $p }
-        2 { $r = $p;     $g = $Value;  $b = $t }
-        3 { $r = $p;     $g = $q;      $b = $Value }
-        4 { $r = $t;     $g = $p;      $b = $Value }
+        0 { $r = $Value; $g = $t; $b = $p }
+        1 { $r = $q; $g = $Value; $b = $p }
+        2 { $r = $p; $g = $Value; $b = $t }
+        3 { $r = $p; $g = $q; $b = $Value }
+        4 { $r = $t; $g = $p; $b = $Value }
         default { $r = $Value; $g = $p; $b = $q }
     }
 
     return @([int][math]::Round($r * 255), [int][math]::Round($g * 255), [int][math]::Round($b * 255))
 }
 
-$rows = 24
-$cols = 60
+$rows = 28
+$cols = 70
 $targetWidth = 120
 
 Write-Host

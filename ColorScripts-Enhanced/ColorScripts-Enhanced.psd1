@@ -38,7 +38,7 @@ Version 1.0.0:
 - 6-19x performance improvement
 - Cache stored in centralized location
 - Works from any directory
-- 176+ beautiful colorscripts included
+- 185+ beautiful colorscripts included
 '@
         }
     }
