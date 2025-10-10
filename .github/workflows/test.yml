@@ -59,17 +59,20 @@ jobs:
         shell: powershell
         run: |
           Import-Module PSScriptAnalyzer
-          $params = @{
-              Path          = './ColorScripts-Enhanced'
-              Settings      = './PSScriptAnalyzerSettings.psd1'
-              Recurse       = $true
-              ReportSummary = $true
+          # Analyze module files (exclude Scripts folder with colorscripts)
+          $modulePath = './ColorScripts-Enhanced'
+          $files = Get-ChildItem -Path $modulePath -File -Recurse -Include *.ps1, *.psm1, *.psd1 |
+              Where-Object { $_.FullName -notlike '*\Scripts\*' }
+
+          $results = @()
+          foreach ($file in $files) {
+              $fileResults = Invoke-ScriptAnalyzer -Path $file.FullName -Settings './PSScriptAnalyzerSettings.psd1' -Severity 'Error','Warning'
+              if ($fileResults) { $results += $fileResults }
           }
-          $params.Severity = @('Error','Warning')
-          $results = Invoke-ScriptAnalyzer @params
+
           if ($results) {
               $results | Format-Table -AutoSize
-              throw 'ScriptAnalyzer reported findings.'
+              throw 'ScriptAnalyzer reported findings in module files.'
           }
 
       - name: Validate help topics
@@ -137,17 +140,20 @@ jobs:
         shell: pwsh
         run: |
           Import-Module PSScriptAnalyzer
-          $params = @{
-              Path          = './ColorScripts-Enhanced'
-              Settings      = './PSScriptAnalyzerSettings.psd1'
-              Recurse       = $true
-              ReportSummary = $true
+          # Analyze module files (exclude Scripts folder with colorscripts)
+          $modulePath = './ColorScripts-Enhanced'
+          $files = Get-ChildItem -Path $modulePath -File -Recurse -Include *.ps1, *.psm1, *.psd1 |
+              Where-Object { $_.FullName -notlike '*Scripts*' }
+
+          $results = @()
+          foreach ($file in $files) {
+              $fileResults = Invoke-ScriptAnalyzer -Path $file.FullName -Settings './PSScriptAnalyzerSettings.psd1' -Severity 'Error','Warning'
+              if ($fileResults) { $results += $fileResults }
           }
-          $params.Severity = @('Error','Warning')
-          $results = Invoke-ScriptAnalyzer @params
+
           if ($results) {
               $results | Format-Table -AutoSize
-              throw 'ScriptAnalyzer reported findings.'
+              throw 'ScriptAnalyzer reported findings in module files.'
           }
 
       - name: Validate help topics
