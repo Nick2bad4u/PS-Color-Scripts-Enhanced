@@ -1,12 +1,6 @@
-## Credits
-
-This project owes its existence to the foundational work of two incredible developers. The beautiful ANSI art scripts were originally created by Derek Taylor (DistroTube) in his project [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts).
-
-The collection was then thoughtfully ported to PowerShell by Scott McKendry as [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts).
-
-`ColorScripts-Enhanced` builds upon their efforts by introducing a high-performance caching system, PowerShell Cross-Platform support on Linux and Mac, an expanded command set, and a formal module structure, but the creative core remains their legacy. Thank you, Derek and Scott, for your contributions!
-
 # ColorScripts-Enhanced PowerShell Module
+
+> **Credits:** This project owes its existence to the foundational work of two incredible developers. The beautiful ANSI art scripts were originally created by Derek Taylor (DistroTube) in his project [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts). The collection was then thoughtfully ported to PowerShell by Scott McKendry as [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts). `ColorScripts-Enhanced` builds upon their efforts by introducing a high-performance caching system, PowerShell Cross-Platform support on Linux and Mac, an expanded command set, and a formal module structure, but the creative core remains their legacy. Thank you, Derek and Scott, for your contributions!
 
 [![Tests](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml)
 [![Publish](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml)
@@ -287,21 +281,25 @@ Please review [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines, cod
 The module stores cached output in platform-specific directories:
 
 **Windows:**
+
 ```
 C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\cache\
 ```
 
 **macOS:**
+
 ```
 ~/Library/Application Support/ColorScripts-Enhanced/cache/
 ```
 
 **Linux:**
+
 ```
 ~/.cache/ColorScripts-Enhanced/
 ```
 
 To find your cache location programmatically:
+
 ```powershell
 # Windows
 $env:APPDATA\ColorScripts-Enhanced\cache
@@ -456,18 +454,31 @@ MIT License - See LICENSE file for details
 
 ## Version History
 
-### 1.0.0 (2025-09-30)
+See [CHANGELOG.md](CHANGELOG.md) for detailed version history and release notes.
 
-- Initial release
-- 195 colorscripts included
-- High-performance caching system
-- OS-wide cache in AppData
-- Complete PowerShell module structure
-- 6-19x performance improvement
+### Latest Release
+
+**2025.10.10** - Cross-platform support, enhanced caching, and 197 colorscripts
+
+## Documentation
+
+- 📖 [Quick Start Guide](QUICKSTART.md)
+- 📘 [Quick Reference](QUICKREFERENCE.md)
+- 📋 [Module Summary](MODULE_SUMMARY.md)
+- 🔧 [Development Guide](docs/Development.md)
+- 📦 [Publishing Guide](docs/Publishing.md)
+- ✅ [Release Checklist](docs/ReleaseChecklist.md)
+- 🤝 [Contributing Guidelines](CONTRIBUTING.md)
+- 🔄 [Changelog](CHANGELOG.md)
+
+## CI/CD & Workflows
+
+- ⚙️ [Test Workflow](.github/workflows/test.yml)
+- 📦 [Publish Workflow](.github/workflows/publish.yml)
 
 ## Support
 
-For issues, questions, or contributions, please visit the GitHub repository.
+For issues, questions, or contributions, please visit the [GitHub repository](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced).
 
 ---
 

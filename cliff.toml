@@ -63,7 +63,7 @@ trim = true
 render_always = true
 protect_breaking_commits = false
 postprocessors = [
-  { pattern = 'PS-Color-Scripts-Enhanced', replace = "[PS-Color-Scripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)" }, # replace repository URL
+  { pattern = 'ColorScripts-Enhanced', replace = "[ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)" }, # replace repository URL
   { pattern = 'merge branch', replace = "[chore] Merge Branch" },                                          # replace merge branch commit messages
   { pattern = 'Merge branch', replace = "[chore] Merge Branch" },                                          # replace merge branch commit messages
   { pattern = '\[dependency\]', replace = 'test' },

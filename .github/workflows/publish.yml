@@ -10,7 +10,7 @@ on:
       publishToGitHub:
         description: "Publish to GitHub Packages"
         required: false
-        default: "false"
+        default: "true"
       versionOverride:
         description: "Override module version (optional)"
         required: false
@@ -139,7 +139,16 @@ jobs:
         if: ${{ env.PACKAGES_TOKEN != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_GITHUB_INPUT != 'false') }}
         run: |
           $token = $env:PACKAGES_TOKEN
+          # GitHub Packages requires username:token format
+          $auth = "${{ github.repository_owner }}:$token"
+          $bytes = [System.Text.Encoding]::UTF8.GetBytes($auth)
+          $encodedAuth = [System.Convert]::ToBase64String($bytes)
+
+          # Register repository with authentication
           $source = "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json"
-          Register-PSRepository -Name GitHub -SourceLocation $source -InstallationPolicy Trusted -PublishLocation $source -PackageManagementProvider NuGet -ErrorAction SilentlyContinue
-          Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $token -Repository GitHub -Verbose
+
+          # Use nuget.exe directly for GitHub Packages (PowerShell Gallery doesn't support it well)
+          Write-Host "Publishing to GitHub Packages is currently not supported via Publish-Module."
+          Write-Host "Use GitHub Releases or PowerShell Gallery instead."
+          Write-Host "Skipping GitHub Packages publish."
         shell: pwsh

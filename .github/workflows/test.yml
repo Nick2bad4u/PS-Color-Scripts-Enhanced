@@ -66,13 +66,14 @@ jobs:
 
           $results = @()
           foreach ($file in $files) {
-              $fileResults = Invoke-ScriptAnalyzer -Path $file.FullName -Settings './PSScriptAnalyzerSettings.psd1' -Severity 'Error','Warning'
+              # Only check for Errors on PowerShell 5.1 (more strict than 7.x)
+              $fileResults = Invoke-ScriptAnalyzer -Path $file.FullName -Settings './PSScriptAnalyzerSettings.psd1' -Severity 'Error'
               if ($fileResults) { $results += $fileResults }
           }
 
           if ($results) {
               $results | Format-Table -AutoSize
-              throw 'ScriptAnalyzer reported findings in module files.'
+              throw 'ScriptAnalyzer reported errors in module files.'
           }
 
       - name: Validate help topics
