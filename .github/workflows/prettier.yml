@@ -1,0 +1,44 @@
+name: Prettier
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: prettier-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+        with:
+          egress-policy: audit
+
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 20
+
+      - name: Cache node modules
+        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
+        with:
+          path: ./node_modules
+          key: ${{ runner.os }}-.-node-modules-${{ hashFiles('./package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-.-node-modules-
+
+      - name: Install Prettier
+        run: npm install --no-save prettier
+
+      - name: Prettify code
+        uses: creyD/prettier_action@8c18391fdc98ed0d884c6345f03975edac71b8f0 # v4.6
+        with:
+          prettier_options: --check **/*.{js,md,css,html}
+        continue-on-error: true

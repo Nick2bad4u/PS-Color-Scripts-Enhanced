@@ -109,10 +109,21 @@ Add-ColorScriptProfile -SkipStartupScript
 ```
 
 #### Customize Cache Location
-The cache location is set automatically but can be checked:
+The cache location is automatically set based on your platform:
 
+Windows:
 ```powershell
 $env:APPDATA\ColorScripts-Enhanced\cache
+```
+
+macOS:
+```powershell
+~/Library/Application Support/ColorScripts-Enhanced/cache
+```
+
+Linux:
+```powershell
+~/.cache/ColorScripts-Enhanced
 ```
 
 ### NERD FONT GLYPHS

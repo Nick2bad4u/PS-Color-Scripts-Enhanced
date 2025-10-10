@@ -80,7 +80,7 @@ jobs:
           Get-Help about_ColorScripts-Enhanced
 
   pwsh-cross-platform:
-    name: PowerShell 7.4 (${{ matrix.os }})
+    name: PowerShell 7.5 (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
@@ -97,6 +97,12 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+
+      - name: Verify PowerShell version
+        shell: pwsh
+        run: |
+          $PSVersionTable.PSVersion
+          Write-Host "PowerShell $($PSVersionTable.PSVersion) detected"
 
       - name: Install dependencies
         shell: pwsh

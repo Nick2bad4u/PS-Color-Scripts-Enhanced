@@ -2,8 +2,8 @@
 # Run with: Invoke-Pester
 
 BeforeAll {
-    # Import the module
-    $ModulePath = "$PSScriptRoot\..\ColorScripts-Enhanced"
+    # Import the module (cross-platform path)
+    $ModulePath = Join-Path $PSScriptRoot ".." "ColorScripts-Enhanced"
     Import-Module $ModulePath -Force
 }
 
@@ -48,7 +48,7 @@ Describe "ColorScripts-Enhanced Module" {
 
     Context "Module Manifest" {
         BeforeAll {
-            $script:ManifestPath = "$PSScriptRoot\..\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
+            $script:ManifestPath = Join-Path $PSScriptRoot ".." "ColorScripts-Enhanced" "ColorScripts-Enhanced.psd1"
             $script:Manifest = Test-ModuleManifest $script:ManifestPath -ErrorAction Stop
         }
 
@@ -70,12 +70,12 @@ Describe "ColorScripts-Enhanced Module" {
 
     Context "Scripts Directory" {
         It "Should have Scripts directory" {
-            $scriptsPath = "$PSScriptRoot\..\ColorScripts-Enhanced\Scripts"
+            $scriptsPath = Join-Path $PSScriptRoot ".." "ColorScripts-Enhanced" "Scripts"
             Test-Path $scriptsPath | Should -Be $true
         }
 
         It "Should contain colorscript files" {
-            $scriptsPath = "$PSScriptRoot\..\ColorScripts-Enhanced\Scripts"
+            $scriptsPath = Join-Path $PSScriptRoot ".." "ColorScripts-Enhanced" "Scripts"
             $scripts = Get-ChildItem $scriptsPath -Filter "*.ps1" |
             Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
             $scripts.Count | Should -BeGreaterThan 0

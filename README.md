@@ -1,11 +1,18 @@
 ## Credits
 
-Based on the PowerShell port [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts) by Scott McKendry, which is itself based on the excellent [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts) by Derek Taylor.
+This project owes its existence to the foundational work of two incredible developers. The beautiful ANSI art scripts were originally created by Derek Taylor (DistroTube) in his project [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts).
+
+The collection was then thoughtfully ported to PowerShell by Scott McKendry as [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts).
+
+`ColorScripts-Enhanced` builds upon their efforts by introducing a high-performance caching system, an expanded command set, and a formal module structure, but the creative core remains their legacy. Thank you, Derek and Scott, for your contributions!
 
 # ColorScripts-Enhanced PowerShell Module
 
 [![Tests](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml)
 [![Publish](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml)
+[![Dependabot Updates](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependabot/dependabot-updates)
+[![Dependency Review](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml)
+[![Scorecard supply-chain security](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/scorecards.yml/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/scorecards.yml)
 
 A high-performance PowerShell module for displaying beautiful ANSI colorscripts in your terminal with intelligent caching for 6-19x faster load times.
 
@@ -277,8 +284,33 @@ Please review [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines, cod
 
 ### Cache Location
 
+The module stores cached output in platform-specific directories:
+
+**Windows:**
 ```
 C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\cache\
+```
+
+**macOS:**
+```
+~/Library/Application Support/ColorScripts-Enhanced/cache/
+```
+
+**Linux:**
+```
+~/.cache/ColorScripts-Enhanced/
+```
+
+To find your cache location programmatically:
+```powershell
+# Windows
+$env:APPDATA\ColorScripts-Enhanced\cache
+
+# macOS
+~/Library/Application Support/ColorScripts-Enhanced/cache
+
+# Linux
+~/.cache/ColorScripts-Enhanced
 ```
 
 ### Cache Files
@@ -377,10 +409,16 @@ Show-ColorScript -Name nerd-font-test
 
 ## Requirements
 
-- PowerShell 5.1 or higher
-- Windows (tested on Windows 10/11)
-- ANSI-capable terminal (Windows Terminal, VS Code, etc.)
-- Nerd Font (optional but recommended for glyph-heavy scripts like `nerd-font-test`)
+- **PowerShell:** 5.1 or higher (PowerShell 7+ recommended)
+- **Operating System:**
+  - Windows 10/11
+  - macOS 10.13+
+  - Linux (Ubuntu, Debian, Fedora, etc.)
+- **Terminal:** ANSI-capable terminal
+  - Windows: Windows Terminal, VS Code Terminal, ConEmu
+  - macOS: Terminal.app, iTerm2, VS Code Terminal
+  - Linux: GNOME Terminal, Konsole, xterm, VS Code Terminal
+- **Optional:** Nerd Font for glyph-heavy scripts like `nerd-font-test`
 
 ## Architecture
 

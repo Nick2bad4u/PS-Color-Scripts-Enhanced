@@ -1,0 +1,61 @@
+# This GitHub Actions workflow automatically applies labels to pull requests
+# based on the paths that are modified in the pull request.
+#
+# Workflow Name: Labeler
+# Trigger: pull_request_target - This workflow runs when a pull request is targeted.
+#
+# Permissions:
+# - contents: read - Grants read access to repository contents.
+# - pull-requests: write - Grants write access to pull requests.
+#
+# Jobs:
+# - label: The job that performs the labeling.
+#   - runs-on: ubuntu-latest - Specifies the runner environment.
+#   - permissions:
+#     - contents: read - Grants read access to repository contents.
+#     - pull-requests: write - Grants write access to pull requests.
+#
+# Steps:
+# - Harden Runner: Uses the step-security/harden-runner action to enhance security.
+#   - uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911
+#   - with:
+#     - egress-policy: audit - Audits egress traffic.
+#
+# - Labeler: Uses the actions/labeler action to apply labels based on modified paths.
+#   - uses: actions/labeler@8558fd74291d67161a8a78ce36a881fa63b766a9
+#   - with:
+#     - repo-token: "${{ secrets.GITHUB_TOKEN }}" - Uses the GitHub token for authentication.
+#
+# This workflow will triage pull requests and apply a label based on the
+# paths that are modified in the pull request.
+#
+# To use this workflow, you will need to set up a .github/labeler.yml
+# file with configuration.  For more information, see:
+# https://github.com/actions/labeler
+
+name: Labeler
+on: [pull_request_target]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: labeler-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+        with:
+          egress-policy: audit
+
+      - uses: actions/labeler@8558fd74291d67161a8a78ce36a881fa63b766a9 # v5.0.0
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"

@@ -1,0 +1,59 @@
+# MegaLinter workflow customized for FitFileViewer
+name: MegaLinter
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: megalinter-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  megalinter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+        with:
+          egress-policy: audit
+
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: MegaLinter
+        id: megalinter
+        uses: oxsecurity/megalinter@e08c2b05e3dbc40af4c23f41172ef1e068a7d651 # v8.8.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISABLE_LINTERS: SPELL_CSPELL
+          EXCLUDED_DIRECTORIES: libs, tests, screenshots, node_modules, icons
+          SHOW_ELAPSED_TIME: true
+          GITHUB_STATUS_REPORTER: true
+          FILEIO_REPORTER: true
+          GITHUB_COMMENT_REPORTER: true
+          JSON_REPORTER: true
+          JSON_REPORTER_OUTPUT_DETAIL: true
+          MARKDOWN_SUMMARY_REPORTER: true
+          SARIF_REPORTER: true
+          TAP_REPORTER: true
+          TAP_REPORTER_OUTPUT_DETAIL: true
+          DISABLE_ERRORS: true
+          JAVASCRIPT_DEFAULT_STYLE: prettier
+          PRINT_ALL_FILES: true
+
+      # Upload MegaLinter artifacts
+      - name: Archive production artifacts
+        if: success() || failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: MegaLinter reports
+          path: |
+            megalinter-reports
+            mega-linter.log
+        continue-on-error: true

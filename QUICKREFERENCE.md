@@ -231,7 +231,14 @@ Build-ColorScriptCache -All
 
 ```powershell
 # Check cache location
+# Windows:
 Test-Path "$env:APPDATA\ColorScripts-Enhanced\cache"
+
+# macOS:
+Test-Path "~/Library/Application Support/ColorScripts-Enhanced/cache"
+
+# Linux:
+Test-Path "~/.cache/ColorScripts-Enhanced"
 
 # Rebuild specific cache
 Build-ColorScriptCache -Name bars -Force

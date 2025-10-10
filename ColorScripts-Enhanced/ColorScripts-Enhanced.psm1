@@ -5,8 +5,22 @@
 
 # Module variables
 $script:ModuleRoot = $PSScriptRoot
-$script:ScriptsPath = Join-Path $PSScriptRoot "Scripts"
-$script:CacheDir = Join-Path $env:APPDATA "ColorScripts-Enhanced\cache"
+$script:ScriptsPath = Join-Path -Path $PSScriptRoot -ChildPath "Scripts"
+
+# Cross-platform cache directory
+if ($IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
+    # Windows: Use APPDATA
+    $script:CacheDir = Join-Path -Path $env:APPDATA -ChildPath "ColorScripts-Enhanced" | Join-Path -ChildPath "cache"
+}
+elseif ($IsMacOS) {
+    # macOS: Use Application Support
+    $script:CacheDir = Join-Path -Path $HOME -ChildPath "Library" | Join-Path -ChildPath "Application Support" | Join-Path -ChildPath "ColorScripts-Enhanced" | Join-Path -ChildPath "cache"
+}
+else {
+    # Linux: Use XDG_CACHE_HOME or fallback to ~/.cache
+    $xdgCache = if ($env:XDG_CACHE_HOME) { $env:XDG_CACHE_HOME } else { Join-Path -Path $HOME -ChildPath ".cache" }
+    $script:CacheDir = Join-Path -Path $xdgCache -ChildPath "ColorScripts-Enhanced"
+}
 
 # Ensure cache directory exists
 if (-not (Test-Path $script:CacheDir)) {
@@ -84,8 +98,17 @@ function Build-ScriptCache {
     try {
         # Execute script and capture output
         $startInfo = New-Object System.Diagnostics.ProcessStartInfo
-        $startInfo.FileName = "pwsh.exe"
+
+        # Detect PowerShell executable (cross-platform)
+        if ($PSVersionTable.PSVersion.Major -ge 6) {
+            $startInfo.FileName = "pwsh"
+        }
+        else {
+            $startInfo.FileName = "powershell.exe"
+        }
+
         $startInfo.Arguments = "-NoProfile -NonInteractive -Command `"[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; & '$ScriptPath'`""
+        $startInfo.UseShellExecute = $false
         $startInfo.RedirectStandardOutput = $true
         $startInfo.RedirectStandardError = $true
         $startInfo.StandardOutputEncoding = [System.Text.Encoding]::UTF8
@@ -96,12 +119,21 @@ function Build-ScriptCache {
         $null = $process.Start()
 
         $output = $process.StandardOutput.ReadToEnd()
+        $errorOutput = $process.StandardError.ReadToEnd()
         $process.WaitForExit()
 
         if ($process.ExitCode -eq 0) {
             [System.IO.File]::WriteAllText($cacheFile, $output)
             (Get-Item $cacheFile).LastWriteTime = (Get-Date).AddSeconds(1)
             return $true
+        }
+        else {
+            if ($errorOutput) {
+                Write-Warning "Failed to cache $scriptName (Exit Code: $($process.ExitCode)): $errorOutput"
+            }
+            else {
+                Write-Warning "Failed to cache $scriptName (Exit Code: $($process.ExitCode))"
+            }
         }
     }
     catch {
@@ -241,7 +273,7 @@ function Get-ColorScriptList {
 
     $scripts = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" |
         Where-Object { $_.Name -ne 'ColorScriptCache.ps1' } |
-        Sort-Object Name
+            Sort-Object Name
 
     Write-Host "`nAvailable ColorScripts ($($scripts.Count)):" -ForegroundColor Cyan
     Write-Host ("=" * 60) -ForegroundColor Cyan

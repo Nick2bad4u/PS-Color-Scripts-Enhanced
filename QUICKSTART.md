@@ -105,9 +105,17 @@ Measure-Command { scs bars }
 
 ## 📁 Where Are Things Stored?
 
-- **Module:** `$HOME\Documents\PowerShell\Modules\ColorScripts-Enhanced`
-- **Cache:** `$env:APPDATA\ColorScripts-Enhanced\cache`
-- **Scripts:** `[Module]\Scripts\*.ps1`
+**Module Location:**
+- Windows: `$HOME\Documents\PowerShell\Modules\ColorScripts-Enhanced`
+- macOS: `$HOME/.local/share/powershell/Modules/ColorScripts-Enhanced`
+- Linux: `$HOME/.local/share/powershell/Modules/ColorScripts-Enhanced`
+
+**Cache Location:**
+- Windows: `$env:APPDATA\ColorScripts-Enhanced\cache`
+- macOS: `~/Library/Application Support/ColorScripts-Enhanced/cache`
+- Linux: `~/.cache/ColorScripts-Enhanced`
+
+**Scripts:** `[Module]\Scripts\*.ps1`
 
 ## 🆘 Troubleshooting
 
@@ -137,8 +145,14 @@ scs [exact-name]
 # Rebuild cache
 Build-ColorScriptCache -All -Force
 
-# Check cache location
+# Check cache location (Windows)
 explorer "$env:APPDATA\ColorScripts-Enhanced\cache"
+
+# Check cache location (macOS)
+open ~/Library/Application\ Support/ColorScripts-Enhanced/cache
+
+# Check cache location (Linux)
+xdg-open ~/.cache/ColorScripts-Enhanced
 ```
 
 ## 🎉 You're Ready!

@@ -51,8 +51,10 @@ try {
     if ([Kernel32]::GetConsoleMode($handle, [ref]$mode)) {
         [Kernel32]::SetConsoleMode($handle, $mode -bor $ENABLE_VIRTUAL_TERMINAL_PROCESSING) | Out-Null
     }
-} catch {
+}
+catch {
     # If enabling VT fails, continue anyway; many hosts already support ANSI
+    Write-Verbose "Could not enable virtual terminal processing: $_"
 }
 
 $esc = [char]27
