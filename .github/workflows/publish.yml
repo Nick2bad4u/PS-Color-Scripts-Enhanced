@@ -26,6 +26,9 @@ on:
       PACKAGES_TOKEN:
         required: false
 
+permissions:
+  contents: read
+
 jobs:
   validate:
     name: Validate module
@@ -33,8 +36,13 @@ jobs:
     outputs:
       version: ${{ steps.manifest.outputs.version }}
     steps:
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+        with:
+          egress-policy: audit
+
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
 
       - name: Install quality tools
         run: |
@@ -88,7 +96,7 @@ jobs:
           }
 
       - name: Upload module artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: module-source
           path: ColorScripts-Enhanced/
@@ -105,8 +113,13 @@ jobs:
       PUBLISH_TO_GITHUB_INPUT: ${{ github.event.inputs.publishToGitHub }}
       MODULE_VERSION: ${{ needs.validate.outputs.version }}
     steps:
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+        with:
+          egress-policy: audit
+
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
 
       - name: Publish to PowerShell Gallery
         if: ${{ env.PSGALLERY_API_KEY != '' || env.NUGET_API_KEY != '' }}
