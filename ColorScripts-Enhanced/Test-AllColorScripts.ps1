@@ -68,7 +68,7 @@ $scripts = Get-ChildItem -Path $scriptsPath -Filter "*.ps1" |
         $_.Name -ne 'ColorScriptCache.ps1' -and
         $_.BaseName -like $Filter
     } |
-    Sort-Object Name
+        Sort-Object Name
 
 if ($scripts.Count -eq 0) {
     Write-Warning "No colorscripts found matching filter: $Filter"

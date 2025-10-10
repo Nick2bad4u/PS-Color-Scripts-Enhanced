@@ -3,7 +3,8 @@
 
 BeforeAll {
     # Import the module (cross-platform path)
-    $ModulePath = Join-Path $PSScriptRoot ".." "ColorScripts-Enhanced"
+    $ModulePath = Join-Path -Path $PSScriptRoot -ChildPath ".."
+    $ModulePath = Join-Path -Path $ModulePath -ChildPath "ColorScripts-Enhanced"
     Import-Module $ModulePath -Force
 }
 
@@ -48,7 +49,9 @@ Describe "ColorScripts-Enhanced Module" {
 
     Context "Module Manifest" {
         BeforeAll {
-            $script:ManifestPath = Join-Path $PSScriptRoot ".." "ColorScripts-Enhanced" "ColorScripts-Enhanced.psd1"
+            $script:ManifestPath = Join-Path -Path $PSScriptRoot -ChildPath ".."
+            $script:ManifestPath = Join-Path -Path $script:ManifestPath -ChildPath "ColorScripts-Enhanced"
+            $script:ManifestPath = Join-Path -Path $script:ManifestPath -ChildPath "ColorScripts-Enhanced.psd1"
             $script:Manifest = Test-ModuleManifest $script:ManifestPath -ErrorAction Stop
         }
 
@@ -70,12 +73,16 @@ Describe "ColorScripts-Enhanced Module" {
 
     Context "Scripts Directory" {
         It "Should have Scripts directory" {
-            $scriptsPath = Join-Path $PSScriptRoot ".." "ColorScripts-Enhanced" "Scripts"
+            $scriptsPath = Join-Path -Path $PSScriptRoot -ChildPath ".."
+            $scriptsPath = Join-Path -Path $scriptsPath -ChildPath "ColorScripts-Enhanced"
+            $scriptsPath = Join-Path -Path $scriptsPath -ChildPath "Scripts"
             Test-Path $scriptsPath | Should -Be $true
         }
 
         It "Should contain colorscript files" {
-            $scriptsPath = Join-Path $PSScriptRoot ".." "ColorScripts-Enhanced" "Scripts"
+            $scriptsPath = Join-Path -Path $PSScriptRoot -ChildPath ".."
+            $scriptsPath = Join-Path -Path $scriptsPath -ChildPath "ColorScripts-Enhanced"
+            $scriptsPath = Join-Path -Path $scriptsPath -ChildPath "Scripts"
             $scripts = Get-ChildItem $scriptsPath -Filter "*.ps1" |
             Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
             $scripts.Count | Should -BeGreaterThan 0
@@ -84,7 +91,21 @@ Describe "ColorScripts-Enhanced Module" {
 
     Context "Cache System" {
         BeforeAll {
-            $script:CacheDir = Join-Path $env:APPDATA "ColorScripts-Enhanced\cache"
+            # Use cross-platform cache directory
+            if ($IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
+                $script:CacheDir = Join-Path -Path $env:APPDATA -ChildPath "ColorScripts-Enhanced"
+                $script:CacheDir = Join-Path -Path $script:CacheDir -ChildPath "cache"
+            }
+            elseif ($IsMacOS) {
+                $script:CacheDir = Join-Path -Path $HOME -ChildPath "Library"
+                $script:CacheDir = Join-Path -Path $script:CacheDir -ChildPath "Application Support"
+                $script:CacheDir = Join-Path -Path $script:CacheDir -ChildPath "ColorScripts-Enhanced"
+                $script:CacheDir = Join-Path -Path $script:CacheDir -ChildPath "cache"
+            }
+            else {
+                $xdgCache = if ($env:XDG_CACHE_HOME) { $env:XDG_CACHE_HOME } else { Join-Path -Path $HOME -ChildPath ".cache" }
+                $script:CacheDir = Join-Path -Path $xdgCache -ChildPath "ColorScripts-Enhanced"
+            }
         }
 
         It "Should create cache directory" {
@@ -93,14 +114,14 @@ Describe "ColorScripts-Enhanced Module" {
 
         It "Should build cache for a script" {
             Build-ColorScriptCache -Name "bars" -ErrorAction Stop
-            $cacheFile = Join-Path $script:CacheDir "bars.cache"
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
             Test-Path $cacheFile | Should -Be $true
         }
 
         It "Should clear specific cache" {
             Build-ColorScriptCache -Name "bars" -ErrorAction Stop
             Clear-ColorScriptCache -Name "bars" -Confirm:$false
-            $cacheFile = Join-Path $script:CacheDir "bars.cache"
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
             Test-Path $cacheFile | Should -Be $false
         }
     }
@@ -279,7 +300,24 @@ Describe "Script Quality" {
 
 AfterAll {
     # Cleanup test cache if needed
-    $testCache = Join-Path $env:APPDATA "ColorScripts-Enhanced\cache\bars.cache"
+    if ($IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
+        $cacheBase = Join-Path -Path $env:APPDATA -ChildPath "ColorScripts-Enhanced"
+        $testCache = Join-Path -Path $cacheBase -ChildPath "cache"
+        $testCache = Join-Path -Path $testCache -ChildPath "bars.cache"
+    }
+    elseif ($IsMacOS) {
+        $cacheBase = Join-Path -Path $HOME -ChildPath "Library"
+        $cacheBase = Join-Path -Path $cacheBase -ChildPath "Application Support"
+        $cacheBase = Join-Path -Path $cacheBase -ChildPath "ColorScripts-Enhanced"
+        $testCache = Join-Path -Path $cacheBase -ChildPath "cache"
+        $testCache = Join-Path -Path $testCache -ChildPath "bars.cache"
+    }
+    else {
+        $xdgCache = if ($env:XDG_CACHE_HOME) { $env:XDG_CACHE_HOME } else { Join-Path -Path $HOME -ChildPath ".cache" }
+        $cacheBase = Join-Path -Path $xdgCache -ChildPath "ColorScripts-Enhanced"
+        $testCache = Join-Path -Path $cacheBase -ChildPath "bars.cache"
+    }
+
     if (Test-Path $testCache) {
         Remove-Item $testCache -Force -ErrorAction SilentlyContinue
     }
