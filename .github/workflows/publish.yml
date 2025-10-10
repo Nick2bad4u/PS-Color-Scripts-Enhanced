@@ -17,11 +17,21 @@ on:
         default: ""
   release:
     types: [published]
+  workflow_call:
+    secrets:
+      PSGALLERY_API_KEY:
+        required: false
+      NUGET_API_KEY:
+        required: false
+      PACKAGES_TOKEN:
+        required: false
 
 jobs:
   validate:
     name: Validate module
     runs-on: windows-latest
+    outputs:
+      version: ${{ steps.manifest.outputs.version }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -58,6 +68,7 @@ jobs:
 
       - name: Verify manifest version
         id: manifest
+        shell: pwsh
         run: |
           $manifest = Test-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1
           $version = if ([string]::IsNullOrWhiteSpace('${{ github.event.inputs.versionOverride }}')) {
@@ -75,7 +86,6 @@ jobs:
                   throw "Release tag $tag does not match module version $version"
               }
           }
-    shell: pwsh
 
       - name: Upload module artifact
         uses: actions/upload-artifact@v4
@@ -86,23 +96,24 @@ jobs:
   publish:
     name: Publish
     needs: validate
-    if: >-
-      (github.event_name == 'workflow_dispatch' || github.event_name == 'release') &&
-      (secrets.PSGALLERY_API_KEY != '' || secrets.NUGET_API_KEY != '' || secrets.PACKAGES_TOKEN != '')
+    if: needs.validate.result == 'success' && (github.event_name == 'workflow_dispatch' || github.event_name == 'release')
     runs-on: windows-latest
     env:
       PSGALLERY_API_KEY: ${{ secrets.PSGALLERY_API_KEY }}
       NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
       PACKAGES_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
-      VERSION: ${{ needs.validate.outputs.version }}
+      PUBLISH_TO_GITHUB_INPUT: ${{ github.event.inputs.publishToGitHub }}
+      MODULE_VERSION: ${{ needs.validate.outputs.version }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Publish to PowerShell Gallery
-        if: env.PSGALLERY_API_KEY != '' || env.NUGET_API_KEY != ''
+        if: ${{ env.PSGALLERY_API_KEY != '' || env.NUGET_API_KEY != '' }}
         run: |
-          $apiKey = if (-not [string]::IsNullOrWhiteSpace($env:PSGALLERY_API_KEY)) { $env:PSGALLERY_API_KEY } elseif (-not [string]::IsNullOrWhiteSpace($env:NUGET_API_KEY)) { $env:NUGET_API_KEY } else { '' }
+          $galleryKey = $env:PSGALLERY_API_KEY
+          $nugetKey = $env:NUGET_API_KEY
+          $apiKey = if (-not [string]::IsNullOrWhiteSpace($galleryKey)) { $galleryKey } elseif (-not [string]::IsNullOrWhiteSpace($nugetKey)) { $nugetKey } else { '' }
           if ([string]::IsNullOrWhiteSpace($apiKey)) {
               Write-Host 'No PowerShell Gallery API key provided. Skipping publish.'
               return
@@ -112,9 +123,10 @@ jobs:
         shell: pwsh
 
       - name: Publish to GitHub Packages
-        if: env.PACKAGES_TOKEN != '' && github.event.inputs.publishToGitHub != 'false'
+        if: ${{ env.PACKAGES_TOKEN != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_GITHUB_INPUT != 'false') }}
         run: |
+          $token = $env:PACKAGES_TOKEN
           $source = "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json"
           Register-PSRepository -Name GitHub -SourceLocation $source -InstallationPolicy Trusted -PublishLocation $source -PackageManagementProvider NuGet -ErrorAction SilentlyContinue
-          Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:PACKAGES_TOKEN -Repository GitHub -Verbose
+          Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $token -Repository GitHub -Verbose
         shell: pwsh

@@ -259,7 +259,7 @@ Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" | Measure-Object
 Get-Module ColorScripts-Enhanced | Select-Object Version
 ```
 
-Current: 2025.10.09.1633
+Current: 2025.10.09.2115
 
 ---
 

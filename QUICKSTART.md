@@ -143,7 +143,7 @@ explorer "$env:APPDATA\ColorScripts-Enhanced\cache"
 
 ## 🎉 You're Ready!
 
-Start exploring the 185 beautiful colorscripts:
+Start exploring the 195 beautiful colorscripts:
 
 ```powershell
 # Random fun

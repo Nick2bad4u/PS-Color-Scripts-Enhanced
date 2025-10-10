@@ -71,7 +71,7 @@ and this project uses date-based versioning: `YYYY.MM.DD.BuildNumber`.
 - OS-wide caching system in AppData
 - Centralized cache location
 - 6-19x performance improvement
-- 185+ colorscripts included
+- 195+ colorscripts included
 - Automatic cache validation
 - UTF-8 encoding support
 - New colorscripts:

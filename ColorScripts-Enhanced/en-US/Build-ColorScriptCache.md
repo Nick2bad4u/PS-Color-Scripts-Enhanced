@@ -156,7 +156,7 @@ This cmdlet displays progress information but does not produce pipeline output.
 Author: Nick
 Module: ColorScripts-Enhanced
 
-Building cache for all 185+ scripts may take 3-5 minutes on first run.
+Building cache for all 195+ scripts may take 3-5 minutes on first run.
 Subsequent cache builds with -Force are faster as scripts are already validated.
 
 Cache files are automatically validated against source script modification times.

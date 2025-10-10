@@ -6,12 +6,12 @@
 Enhanced PowerShell ColorScripts with high-performance caching system for displaying beautiful ANSI art in your terminal.
 
 ### LONG DESCRIPTION
-ColorScripts-Enhanced is a PowerShell module that provides a collection of 185+ beautiful ANSI colorscripts for terminal display. It features an intelligent caching system that provides 6-19x performance improvements over traditional script execution.
+ColorScripts-Enhanced is a PowerShell module that provides a collection of 195+ beautiful ANSI colorscripts for terminal display. It features an intelligent caching system that provides 6-19x performance improvements over traditional script execution.
 
 The module automatically caches script output to a centralized location in your AppData folder, enabling instant display on subsequent runs. Cache files are automatically validated and regenerated when source scripts are modified.
 
 ### FEATURES
-- 185+ beautiful pre-made colorscripts
+- 195+ beautiful pre-made colorscripts
 - High-performance caching system (6-19x faster)
 - Centralized cache location (works from any directory)
 - Automatic cache invalidation on script changes
@@ -221,7 +221,7 @@ The module includes scripts in various categories:
 - Enhanced caching system with OS-wide cache
 - 6-19x performance improvement
 - Centralized cache location in AppData
-- 185+ colorscripts included
+- 195+ colorscripts included
 - Full comment-based help documentation
 - Module manifest improvements
 

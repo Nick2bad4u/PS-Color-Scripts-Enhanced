@@ -31,7 +31,7 @@
 - 6-19x performance improvement over non-cached execution
 - Centralized cache location that works from any directory
 - Automatic cache validation and regeneration
-- 185+ beautiful colorscripts included
+- 195+ beautiful colorscripts included
 - Complete comment-based help documentation
 - Full PowerShell Gallery compliance
 

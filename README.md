@@ -11,7 +11,7 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 
 ## Features
 
-✨ **185+ Beautiful Colorscripts** - Extensive collection of ANSI art
+✨ **195+ Beautiful Colorscripts** - Extensive collection of ANSI art
 
 ⚡ **Intelligent Caching** - 6-19x performance improvement (5-20ms load times)
 
@@ -286,7 +286,7 @@ C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\cache\
 - One `.cache` file per colorscript
 - Contains pre-rendered ANSI output
 - Average size: ~20KB per file
-- Total size: ~3.7MB for all 185 scripts
+- Total size: ~3.9MB for all 195 scripts
 
 ## Examples
 
@@ -320,7 +320,7 @@ Build-ColorScriptCache -All
 
 ## Available Colorscripts
 
-The module includes 185 colorscripts including:
+The module includes 195 colorscripts including:
 
 - **Fractals**: mandelbrot-zoom, julia-morphing, barnsley-fern, koch-snowflake
 - **Patterns**: kaleidoscope, wave-pattern, rainbow-waves, gradient-bars
@@ -392,14 +392,14 @@ ColorScripts-Enhanced/
 │   ├── bars.ps1
 │   ├── hearts.ps1
 │   ├── mandelbrot-zoom.ps1
-│   └── ... (173 more)
+│   └── ... (192 more)
 └── README.md                      # This file
 
 %APPDATA%/ColorScripts-Enhanced/
 └── cache/                         # Cache files
     ├── bars.cache
     ├── hearts.cache
-    └── ... (185 total)
+   └── ... (195 total)
 ```
 
 ## Contributing
@@ -421,7 +421,7 @@ MIT License - See LICENSE file for details
 ### 1.0.0 (2025-09-30)
 
 - Initial release
-- 185 colorscripts included
+- 195 colorscripts included
 - High-performance caching system
 - OS-wide cache in AppData
 - Complete PowerShell module structure

@@ -417,7 +417,7 @@
     <maml:alertSet>
       <maml:alert>
         <maml:para>Author: Nick Module: ColorScripts-Enhanced</maml:para>
-        <maml:para>Building cache for all 185+ scripts may take 3-5 minutes on first run. Subsequent cache builds with -Force are faster as scripts are already validated.</maml:para>
+        <maml:para>Building cache for all 195+ scripts may take 3-5 minutes on first run. Subsequent cache builds with -Force are faster as scripts are already validated.</maml:para>
         <maml:para>Cache files are automatically validated against source script modification times.</maml:para>
       </maml:alert>
     </maml:alertSet>
