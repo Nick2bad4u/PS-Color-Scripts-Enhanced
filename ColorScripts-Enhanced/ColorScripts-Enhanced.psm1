@@ -438,33 +438,7 @@ function Clear-ColorScriptCache {
 
 function Add-ColorScriptProfile {
     <#
-    .SYNOPSIS
-        Adds ColorScripts-Enhanced import and optional startup snippet to a PowerShell profile.
-
-    .DESCRIPTION
-        Appends the module import (and optionally Show-ColorScript) to the specified PowerShell profile
-        file. Creates the profile file if it does not already exist. Prevents duplicate entries unless
-        -Force is specified.
-
-    .PARAMETER Scope
-        Which predefined PowerShell profile path to update. Defaults to CurrentUserAllHosts.
-
-    .PARAMETER Path
-        Explicit path to a profile script. Overrides Scope when provided.
-
-    .PARAMETER SkipStartupScript
-        Only add Import-Module line; do not add Show-ColorScript.
-
-    .PARAMETER Force
-        Add the snippet even if the profile already contains an Import-Module ColorScripts-Enhanced line.
-
-    .EXAMPLE
-        Add-ColorScriptProfile
-        Adds the import and random colorscript startup to the CurrentUserAllHosts profile.
-
-    .EXAMPLE
-        Add-ColorScriptProfile -SkipStartupScript -Scope CurrentUserCurrentHost
-        Adds only the import line to the current host profile.
+    .EXTERNALHELP ColorScripts-Enhanced-help.xml
     #>
     [CmdletBinding(SupportsShouldProcess = $true)]
     param(

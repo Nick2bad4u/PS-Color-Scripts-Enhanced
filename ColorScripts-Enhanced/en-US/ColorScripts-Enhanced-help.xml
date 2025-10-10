@@ -296,7 +296,8 @@
     </command:details>
     <maml:description>
       <maml:para>Pre-generates cache files for faster colorscript loading. Can cache all scripts or specific ones.</maml:para>
-      <maml:para>This command is useful for: - Initial setup to cache all scripts at once</maml:para>
+      <maml:para>This command is useful for:</maml:para>
+      <maml:para>- Initial setup to cache all scripts at once</maml:para>
       <maml:para>- Rebuilding cache after module updates</maml:para>
       <maml:para>- Pre-caching favorite scripts for maximum performance</maml:para>
       <maml:para></maml:para>
