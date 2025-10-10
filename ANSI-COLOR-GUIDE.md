@@ -19,6 +19,7 @@
 ### 2. **Backtick Escape Sequences**
 
 **Problem:** Backticks (`` ` ``) before certain letters create escape sequences:
+
 - `` `b `` = backspace
 - `` `d `` = (not defined but causes issues)
 - `` `t `` = tab
@@ -61,11 +62,13 @@
 ### 5. **Here-String vs Write-Host Lines**
 
 **Here-String Issues:**
+
 - Variable interpolation happens all at once
 - Harder to debug specific lines
 - Can have unexpected escape sequence interactions
 
 **Write-Host Line-by-Line:**
+
 - Each line is independent
 - Easier to debug
 - Better control over color transitions
@@ -92,6 +95,7 @@ Write-Host "$red`$`$`$$reset${gray}P^*^T$reset$red`$`$$reset"
 ```
 
 This ensures:
+
 - No variable name collisions
 - Clean color boundaries
 - Predictable output
@@ -99,7 +103,8 @@ This ensures:
 ### 7. **Special Characters That Need Backticks**
 
 Characters that need escaping in double-quoted strings:
-- `` ` `` (backtick itself) - ``` `` ```
+
+- `` ` `` (backtick itself) - ` `` `
 - `$` (dollar) - `` `$ ``
 - `"` (quote) - `` `" ``
 - Newlines/tabs if you DON'T want them - `` `n ``, `` `t ``
@@ -125,11 +130,13 @@ Write-Host "`$dollar"           # Outputs: $dollar
 ```
 
 **Common Pattern Mistakes:**
+
 - `\`` - This is backslash + escaped-backtick (outputs: \`)
 - `\.` - This is just backslash + period (outputs: \.)
 - `\-` - This is just backslash + dash (outputs: \-)
 
 **When working with ASCII art containing backslashes:**
+
 - Use `\\` to output a single backslash (PowerShell string literal, not escaping)
 - Use `\` followed by any character that's not special
 - Never use `` \` `` unless you specifically want backslash-backtick output
@@ -153,11 +160,12 @@ Write-Host "``*TP*"  # Outputs: `*TP*
 **Common Mistakes with Backslash-Backtick (`\```):**
 
 The pattern `\``` appears to work but causes subtle parser errors:
+
 - `\``` means: backslash + backtick-escape-for-backtick
 - This creates ambiguous parsing situations
 - Can cause "Unexpected token" errors at seemingly random positions
 
-**Always use double-backtick (``` `` ```) for literal backticks, never `\```**
+**Always use double-backtick (` `` `) for literal backticks, never `\```**
 
 ```powershell
 # ❌ WRONG - All of these use incorrect \` pattern
@@ -199,6 +207,7 @@ If output is misaligned:
 7. **Watch for incorrect backslash escaping** - Don't use `` \` `` when you mean `\.` or `\-`
 
 **Character Counting Tips:**
+
 - Count each literal `$` in the original ASCII (each becomes `` `$ `` in code)
 - Verify spaces match exactly
 - Check that backslashes are literal `\`, not escaped with backtick
@@ -242,15 +251,15 @@ Write-Host "${gray}            .sd$red`$`$`$`$`$`$`$$reset${gray}P^*^T${reset}$r
 
 ## Quick Reference
 
-| Issue | Wrong | Right |
-|-------|-------|-------|
-| Letter after color | `${gray}P` | `$reset${gray}P` |
-| Backtick + letter | ``` ${white}`bug ``` | `$reset${white}bug` |
-| Dollar signs | `$$$` | `` `$`$`$ `` |
-| Color transitions | `$red$$$${gray}P` | `$red`$`$`$$reset${gray}P` |
-| Complex strings | Here-string | Write-Host lines |
-| Backslash escaping | `` \`. `` or `` \`- `` | `\.` or `\-` |
-| Missing dollars | Count mismatch | Count each $ in original |
+| Issue              | Wrong              | Right                      |
+| ------------------ | ------------------ | -------------------------- |
+| Letter after color | `${gray}P`         | `$reset${gray}P`           |
+| Backtick + letter  | ``${white}`bug``   | `$reset${white}bug`        |
+| Dollar signs       | `$$$`              | `` `$`$`$ ``               |
+| Color transitions  | `$red$$$${gray}P`  | `$red`$`$`$$reset${gray}P` |
+| Complex strings    | Here-string        | Write-Host lines           |
+| Backslash escaping | ``\`.`` or ``\`-`` | `\.` or `\-`               |
+| Missing dollars    | Count mismatch     | Count each $ in original   |
 
 ## Testing Checklist
 
