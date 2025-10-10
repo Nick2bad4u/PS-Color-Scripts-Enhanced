@@ -16,7 +16,7 @@ updates:
       include: ["*"]
     directory: /
     schedule:
-      interval: daily
+      interval: quarterly
       time: "05:30"
       timezone: "America/Detroit"
     assignees: ["Nick2bad4u"]
