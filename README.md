@@ -4,7 +4,7 @@ This project owes its existence to the foundational work of two incredible devel
 
 The collection was then thoughtfully ported to PowerShell by Scott McKendry as [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts).
 
-`ColorScripts-Enhanced` builds upon their efforts by introducing a high-performance caching system, an expanded command set, and a formal module structure, but the creative core remains their legacy. Thank you, Derek and Scott, for your contributions!
+`ColorScripts-Enhanced` builds upon their efforts by introducing a high-performance caching system, PowerShell Cross-Platform support on Linux and Mac, an expanded command set, and a formal module structure, but the creative core remains their legacy. Thank you, Derek and Scott, for your contributions!
 
 # ColorScripts-Enhanced PowerShell Module
 
