@@ -39,6 +39,13 @@ scs mandelbrot-zoom
 ```powershell
 Show-ColorScript -List
 Get-ColorScriptList
+
+# Object output for automation
+Get-ColorScriptList -AsObject | Select-Object Name, Category, Tags
+
+# Filter by metadata
+Get-ColorScriptList -Category Patterns -Detailed
+Get-ColorScriptList -Tag Recommended
 ```
 
 ### Build Cache for Fast Loading
@@ -65,6 +72,20 @@ Clear-ColorScriptCache -Name hearts
 
 # Preview without deleting
 Clear-ColorScriptCache -All -WhatIf
+
+# Dry run or alternate cache root
+Clear-ColorScriptCache -Name hearts -DryRun
+Clear-ColorScriptCache -Name hearts -Path 'C:/temp/colorscripts-cache'
+```
+
+### Run All Scripts
+
+```powershell
+# Sequential with metadata-rich results
+.\ColorScripts-Enhanced\Test-AllColorScripts.ps1 -Filter 'bars' -Delay 0 -SkipErrors
+
+# Parallel execution (PowerShell 7+)
+.\ColorScripts-Enhanced\Test-AllColorScripts.ps1 -Parallel -SkipErrors -ThrottleLimit 4
 ```
 
 ## Linting & Tests
@@ -75,6 +96,7 @@ Invoke-Pester -Path ./Tests                                   # Full test suite
 pwsh -NoProfile -Command "& .\Lint-Module.ps1"              # Standard lint
 pwsh -NoProfile -Command "& .\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
 pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix         # Apply auto-fixes, then re-run lint
+pwsh -NoProfile -Command "& .\scripts\Lint-PS7.ps1"         # PowerShell 7-only analyzer with auto-fix
 ```
 
 ## Help System
@@ -139,7 +161,20 @@ Show-ColorScript
   [-Name <String>]      # Script name (without .ps1)
   [-List]               # List all scripts
   [-Random]             # Random selection (default)
+  [-Category <String[]>]
+  [-Tag <String[]>]
   [-NoCache]            # Bypass cache
+  [-PassThru]           # Return metadata object
+```
+
+### Get-ColorScriptList
+
+```powershell
+Get-ColorScriptList
+  [-Category <String[]>]
+  [-Tag <String[]>]
+  [-AsObject]
+  [-Detailed]
 ```
 
 ### Build-ColorScriptCache
@@ -153,6 +188,16 @@ Build-ColorScriptCache
 
 ### Clear-ColorScriptCache
 
+```powershell
+Clear-ColorScriptCache
+  [-Name <String[]>]    # Specific scripts
+  [-All]                # All cache files
+  [-Path <String>]      # Alternate cache root
+  [-DryRun]             # Preview deletions
+  [-WhatIf]
+  [-Confirm]
+```
+
 ### Add-ColorScriptProfile
 
 ```powershell
@@ -163,14 +208,6 @@ Add-ColorScriptProfile
   [-Force]                    # Append even if import already exists
   [-WhatIf]
   [-Confirm]
-```
-
-```powershell
-Clear-ColorScriptCache
-  [-Name <String[]>]    # Specific scripts
-  [-All]                # All cache files
-  [-WhatIf]             # Preview only
-  [-Confirm]            # Prompt for confirmation
 ```
 
 ## Examples

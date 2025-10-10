@@ -19,6 +19,7 @@ Test-Module.ps1           # Smoke-test harness used during development
 - **PowerShell 7.4** (recommended) and **PowerShell 5.1** (supported)
 - **Pester 5.4+** for testing
 - **PSScriptAnalyzer** for linting (`Lint-Module.ps1` helper script)
+- **PowerShell 7 ScriptAnalyzer Helper** (`scripts/Lint-PS7.ps1` runs analyzer with auto-fix exclusively on PS7+)
 - **PSResourceGet** or **PowerShellGet** for dependency management
 - **Nerd Font** (e.g., Cascadia Code NF) for validating glyph-heavy scripts like `nerd-font-test`
 
@@ -47,6 +48,7 @@ Invoke-Pester -Path ./Tests
 pwsh -NoProfile -Command "& .\Lint-Module.ps1"
 pwsh -NoProfile -Command "& .\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
 pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix
+pwsh -NoProfile -Command "& .\scripts\Lint-PS7.ps1"  # PowerShell 7 only
 ```
 
 ### Build Manifest

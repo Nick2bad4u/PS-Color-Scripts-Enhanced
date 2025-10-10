@@ -113,16 +113,59 @@ Describe "ColorScripts-Enhanced Module" {
         }
 
         It "Should build cache for a script" {
-            Build-ColorScriptCache -Name "bars" -ErrorAction Stop
+            $result = Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop
             $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+
+            $result | Should -Not -BeNullOrEmpty
+            $result[0].Status | Should -BeIn @('Updated', 'SkippedUpToDate')
             Test-Path $cacheFile | Should -Be $true
         }
 
-        It "Should clear specific cache" {
-            Build-ColorScriptCache -Name "bars" -ErrorAction Stop
-            Clear-ColorScriptCache -Name "bars" -Confirm:$false
+        It "Should skip cache rebuild when up-to-date" {
+            Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null
             $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+            [System.IO.File]::SetLastWriteTime($cacheFile, (Get-Date).AddHours(1))
+
+            $result = Build-ColorScriptCache -Name "bars" -ErrorAction Stop
+            $result[0].Status | Should -Be 'SkippedUpToDate'
+        }
+
+        It "Should force cache rebuild even when cache is newer" {
+            Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+            [System.IO.File]::SetLastWriteTime($cacheFile, (Get-Date).AddHours(1))
+
+            $result = Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop
+            $result[0].Status | Should -Be 'Updated'
+        }
+
+        It "Should write UTF-8 cache without BOM" {
+            Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+            $bytes = [System.IO.File]::ReadAllBytes($cacheFile)
+
+            if ($bytes.Length -ge 3) {
+                $bytes[0] | Should -Not -Be 0xEF
+                $bytes[1] | Should -Not -Be 0xBB
+                $bytes[2] | Should -Not -Be 0xBF
+            }
+        }
+
+        It "Should clear specific cache" {
+            Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null
+            $result = Clear-ColorScriptCache -Name "bars" -Confirm:$false
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+
+            $result[0].Status | Should -BeIn @('Removed', 'Missing')
             Test-Path $cacheFile | Should -Be $false
+        }
+
+        It "Should support DryRun cache clearing" {
+            Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null
+            $dryRun = Clear-ColorScriptCache -Name "bars" -DryRun
+            $dryRun[0].Status | Should -Be 'DryRun'
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+            Test-Path $cacheFile | Should -Be $true
         }
     }
 
@@ -160,6 +203,43 @@ Describe "ColorScripts-Enhanced Module" {
         }
     }
 
+    Context "Metadata and Filtering" {
+        It "Should return structured objects when using -AsObject" {
+            $records = Get-ColorScriptList -AsObject
+            $records | Should -Not -BeNullOrEmpty
+            $records[0] | Should -BeOfType [pscustomobject]
+            $records[0].Metadata | Should -Not -BeNullOrEmpty
+        }
+
+        It "Should filter by category" {
+            $records = Get-ColorScriptList -AsObject -Category 'Patterns'
+            $records | Should -Not -BeNullOrEmpty
+            $records | ForEach-Object {
+                $_.Categories | ForEach-Object { $_.ToLowerInvariant() } | Should -Contain 'patterns'
+            }
+        }
+
+        It "Should filter by tag" {
+            $records = Get-ColorScriptList -AsObject -Tag 'recommended'
+            $records | Should -Not -BeNullOrEmpty
+            $records | ForEach-Object {
+                $_.Tags | ForEach-Object { $_.ToLowerInvariant() } | Should -Contain 'recommended'
+            }
+        }
+
+        It "Show-ColorScript -PassThru should return metadata" {
+            $record = Show-ColorScript -Name 'bars' -NoCache -PassThru
+            $record.Name | Should -Be 'bars'
+            $record.Metadata | Should -Not -BeNullOrEmpty
+        }
+
+        It "Should provide metadata for every colorscript" {
+            $records = Get-ColorScriptList -AsObject
+            $records.Count | Should -BeGreaterThan 0
+            $records | ForEach-Object { $_.Metadata | Should -Not -BeNullOrEmpty }
+        }
+    }
+
     Context "Build-ColorScriptCache Function" {
         It "Should have proper help" {
             $help = Get-Help Build-ColorScriptCache
@@ -187,6 +267,22 @@ Describe "ColorScripts-Enhanced Module" {
 
         It "Should support -Confirm:$false" {
             { Clear-ColorScriptCache -Name "bars" -Confirm:$false } | Should -Not -Throw
+        }
+
+        It "Should support custom cache path" {
+            $tempDir = Join-Path ([System.IO.Path]::GetTempPath()) ("ColorScriptsCache_" + [guid]::NewGuid())
+            $null = New-Item -ItemType Directory -Path $tempDir
+            $tempCache = Join-Path $tempDir 'bars.cache'
+            Set-Content -Path $tempCache -Value 'cache-data' -Encoding utf8
+
+            try {
+                $result = Clear-ColorScriptCache -Name 'bars' -Path $tempDir -Confirm:$false
+                $result[0].Status | Should -Be 'Removed'
+                Test-Path $tempCache | Should -BeFalse
+            }
+            finally {
+                if (Test-Path $tempDir) { Remove-Item $tempDir -Recurse -Force }
+            }
         }
     }
 
@@ -266,6 +362,10 @@ Describe "Add-ColorScriptProfile Function" {
 
             $forceResult = Add-ColorScriptProfile -Path $tempProfile -Force
             $forceResult.Changed | Should -BeTrue
+
+            $updatedContent = Get-Content $tempProfile -Raw
+            (($updatedContent -split [Environment]::NewLine) | Where-Object { $_ -match '# Added by ColorScripts-Enhanced' }).Count | Should -Be 1
+            (($updatedContent -split [Environment]::NewLine) | Where-Object { $_ -match 'Import-Module\s+ColorScripts-Enhanced' }).Count | Should -Be 1
         }
         finally {
             if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
@@ -298,27 +398,30 @@ Describe "Script Quality" {
     }
 }
 
-AfterAll {
-    # Cleanup test cache if needed
-    if ($IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
-        $cacheBase = Join-Path -Path $env:APPDATA -ChildPath "ColorScripts-Enhanced"
-        $testCache = Join-Path -Path $cacheBase -ChildPath "cache"
-        $testCache = Join-Path -Path $testCache -ChildPath "bars.cache"
-    }
-    elseif ($IsMacOS) {
-        $cacheBase = Join-Path -Path $HOME -ChildPath "Library"
-        $cacheBase = Join-Path -Path $cacheBase -ChildPath "Application Support"
-        $cacheBase = Join-Path -Path $cacheBase -ChildPath "ColorScripts-Enhanced"
-        $testCache = Join-Path -Path $cacheBase -ChildPath "cache"
-        $testCache = Join-Path -Path $testCache -ChildPath "bars.cache"
-    }
-    else {
-        $xdgCache = if ($env:XDG_CACHE_HOME) { $env:XDG_CACHE_HOME } else { Join-Path -Path $HOME -ChildPath ".cache" }
-        $cacheBase = Join-Path -Path $xdgCache -ChildPath "ColorScripts-Enhanced"
-        $testCache = Join-Path -Path $cacheBase -ChildPath "bars.cache"
+Describe "Test-AllColorScripts Script" {
+    BeforeAll {
+        $script:RunnerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\ColorScripts-Enhanced\Test-AllColorScripts.ps1"
     }
 
-    if (Test-Path $testCache) {
-        Remove-Item $testCache -Force -ErrorAction SilentlyContinue
+    It "Should return structured results for filtered run" {
+        $results = & $script:RunnerPath -Filter 'bars' -Delay 0 -SkipErrors
+        $results | Should -Not -BeNullOrEmpty
+        $results[0].Name | Should -Be 'bars'
+        $results[0] | Should -BeOfType [pscustomobject]
     }
+
+    It "Should support parallel execution when available" {
+        if ($PSVersionTable.PSVersion.Major -ge 7) {
+            $results = & $script:RunnerPath -Filter 'bars' -Delay 0 -SkipErrors -Parallel -ThrottleLimit 1
+            $results | Should -Not -BeNullOrEmpty
+            $results[0].Name | Should -Be 'bars'
+        }
+        else {
+            Set-ItResult -Skipped -Because "Parallel mode requires PowerShell 7 or later."
+        }
+    }
+}
+
+AfterAll {
+    Clear-ColorScriptCache -Name 'bars' -Confirm:$false | Out-Null
 }

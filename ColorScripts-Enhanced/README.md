@@ -171,6 +171,16 @@ Show-ColorScript -List
 Get-ColorScriptList
 ```
 
+```powershell
+# Return objects with metadata
+$scripts = Get-ColorScriptList -AsObject
+$scripts | Select-Object Name, Category, Tags | Format-Table
+
+# Filter by category or tag metadata
+Get-ColorScriptList -Category Patterns -Detailed
+Get-ColorScriptList -Tag Recommended
+```
+
 ### Build Cache for Faster Performance
 
 ```powershell
@@ -192,12 +202,43 @@ Clear-ColorScriptCache -All
 
 # Clear specific cache
 Clear-ColorScriptCache -Name "mandelbrot-zoom"
+
+# Preview deletions or target alternate cache roots
+Clear-ColorScriptCache -Name "mandelbrot-zoom" -DryRun
+Clear-ColorScriptCache -Name "mandelbrot-zoom" -Path 'C:/temp/colorscripts-cache'
 ```
 
 ### Bypass Cache (Force Fresh Execution)
 
 ```powershell
 Show-ColorScript -Name "bars" -NoCache
+```
+
+### Filter and Inspect Scripts via Metadata
+
+```powershell
+# Display a random recommended script and emit its metadata
+Show-ColorScript -Tag Recommended -PassThru
+
+# Run a single script without touching the cache and capture the returned object
+$record = Show-ColorScript -Name 'bars' -NoCache -PassThru
+$record.Metadata
+```
+
+### Test All Scripts
+
+```powershell
+# Sequential run with per-script results
+.\ColorScripts-Enhanced\Test-AllColorScripts.ps1 -Filter 'bars' -Delay 0 -SkipErrors
+
+# Parallel run (PowerShell 7+)
+.\ColorScripts-Enhanced\Test-AllColorScripts.ps1 -Parallel -SkipErrors -ThrottleLimit 4
+```
+
+### PowerShell 7 Lint Helper
+
+```powershell
+.\scripts\Lint-PS7.ps1
 ```
 
 ## Commands

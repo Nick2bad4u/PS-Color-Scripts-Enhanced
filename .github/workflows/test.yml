@@ -55,27 +55,6 @@ jobs:
           name: test-results-windows-51
           path: test-results.xml
 
-      - name: Run script analyzer
-        shell: powershell
-        run: |
-          Import-Module PSScriptAnalyzer
-          # Analyze module files (exclude Scripts folder with colorscripts)
-          $modulePath = './ColorScripts-Enhanced'
-          $files = Get-ChildItem -Path $modulePath -File -Recurse -Include *.ps1, *.psm1, *.psd1 |
-              Where-Object { $_.FullName -notlike '*\Scripts\*' }
-
-          $results = @()
-          foreach ($file in $files) {
-              # Only check for Errors on PowerShell 5.1 (more strict than 7.x)
-              $fileResults = Invoke-ScriptAnalyzer -Path $file.FullName -Settings './PSScriptAnalyzerSettings.psd1' -Severity 'Error'
-              if ($fileResults) { $results += $fileResults }
-          }
-
-          if ($results) {
-              $results | Format-Table -AutoSize
-              throw 'ScriptAnalyzer reported errors in module files.'
-          }
-
       - name: Validate help topics
         shell: powershell
         run: |

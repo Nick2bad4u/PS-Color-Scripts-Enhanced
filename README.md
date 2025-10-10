@@ -47,6 +47,18 @@ Show-ColorScript
 
 > Requires PowerShell 5.1 or later. PowerShell 7.4+ recommended for best performance and PSResourceGet support.
 
+## PowerShell Support
+
+We test every change across Windows, macOS, and Linux. See the full matrix in [.github/POWERSHELL-VERSIONS.md](.github/POWERSHELL-VERSIONS.md).
+
+| Platform | PowerShell 5.1 | PowerShell 7.x |
+|----------|----------------|----------------|
+| Windows  | ✅ Unit tests, module validation | ✅ Unit tests, ScriptAnalyzer, help validation |
+| macOS    | ❌ Not available | ✅ Unit tests, ScriptAnalyzer |
+| Linux    | ❌ Not available | ✅ Unit tests, ScriptAnalyzer |
+
+> We intentionally run ScriptAnalyzer only on PowerShell 7.x because the 5.1 engine applies different rules that conflict with modern cross-platform patterns.
+
 ## Install a Nerd Font for Custom Glyphs
 
 Several scripts display Nerd Font icons (powerline separators, dev icons, logos). Without a Nerd Font, those glyphs render as blank boxes. Pick one of the patched fonts from [nerdfonts.com](https://www.nerdfonts.com/) and set it as your terminal font:
@@ -172,6 +184,28 @@ Show-ColorScript -List
 Get-ColorScriptList
 ```
 
+```powershell
+# Return objects for automation
+$scripts = Get-ColorScriptList -AsObject
+$scripts | Select-Object Name, Category, Tags | Format-Table
+
+# Show additional metadata in the table view
+Get-ColorScriptList -Detailed
+```
+
+### Filter by Category or Tag
+
+```powershell
+# All pattern-based scripts
+Get-ColorScriptList -Category Patterns
+
+# Recommended scripts surfaced by metadata
+Get-ColorScriptList -Tag Recommended -Detailed
+
+# Display a random recommended script and return its metadata
+Show-ColorScript -Tag Recommended -PassThru
+```
+
 ### Build Cache for Faster Performance
 
 ```powershell
@@ -193,6 +227,12 @@ Clear-ColorScriptCache -All
 
 # Clear specific cache
 Clear-ColorScriptCache -Name "mandelbrot-zoom"
+
+# Preview what would be deleted (no files removed)
+Clear-ColorScriptCache -Name "mandelbrot-zoom" -DryRun
+
+# Clear caches in an alternate location
+Clear-ColorScriptCache -Name "mandelbrot-zoom" -Path 'C:/temp/colorscripts-cache'
 ```
 
 ### Bypass Cache (Force Fresh Execution)
@@ -200,6 +240,23 @@ Clear-ColorScriptCache -Name "mandelbrot-zoom"
 ```powershell
 Show-ColorScript -Name "bars" -NoCache
 ```
+
+### Test the Entire Collection
+
+```powershell
+# Sequential run with metadata-rich summary results
+.\ColorScripts-Enhanced\Test-AllColorScripts.ps1 -Filter 'bars' -Delay 0 -SkipErrors
+
+# Parallel run (PowerShell 7+) for faster CI coverage
+.\ColorScripts-Enhanced\Test-AllColorScripts.ps1 -Parallel -SkipErrors -ThrottleLimit 4
+```
+
+### Lint with PowerShell 7
+
+```powershell
+.\scripts\Lint-PS7.ps1
+```
+
 
 ## Commands
 
@@ -216,7 +273,7 @@ Show-ColorScript -Name "bars" -NoCache
 
 - [Quick Start](QUICKSTART.md)
 - [Quick Reference](QUICKREFERENCE.md)
-- [Module Summary](MODULE_SUMMARY.md)
+- [Module Summary](docs/MODULE_SUMMARY.md)
 - [Development Guide](docs/Development.md)
 - [Publishing Guide](docs/Publishing.md)
 - [Release Checklist](docs/ReleaseChecklist.md)
@@ -373,6 +430,18 @@ Build-ColorScriptCache -All -Force
 explorer "$env:APPDATA\ColorScripts-Enhanced\cache"
 ```
 
+### Cache Files Locked or Refusing to Delete
+
+```powershell
+# Preview what would be removed without touching the filesystem
+Clear-ColorScriptCache -Name 'bars' -DryRun
+
+# Force deletion after closing terminals that might hold locks
+Clear-ColorScriptCache -Name 'bars' -Confirm:$false
+```
+
+If a cache file stays locked, close any terminals showing the script, then retry the commands above. As a last resort, specify `-Path` with a custom cache root and move the cache elsewhere.
+
 ### Module Not Found
 
 ```powershell
@@ -464,7 +533,7 @@ See [CHANGELOG.md](CHANGELOG.md) for detailed version history and release notes.
 
 - 📖 [Quick Start Guide](QUICKSTART.md)
 - 📘 [Quick Reference](QUICKREFERENCE.md)
-- 📋 [Module Summary](MODULE_SUMMARY.md)
+- 📋 [Module Summary](docs/MODULE_SUMMARY.md)
 - 🔧 [Development Guide](docs/Development.md)
 - 📦 [Publishing Guide](docs/Publishing.md)
 - ✅ [Release Checklist](docs/ReleaseChecklist.md)

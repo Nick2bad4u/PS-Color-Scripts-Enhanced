@@ -19,6 +19,12 @@
 .PARAMETER Filter
     Filter scripts by name pattern (supports wildcards).
 
+.PARAMETER Parallel
+    Execute scripts in parallel (requires PowerShell 7+). Output is summarized after completion.
+
+.PARAMETER ThrottleLimit
+    Maximum number of scripts to execute concurrently when using -Parallel. Defaults to processor count.
+
 .EXAMPLE
     .\Test-AllColorScripts.ps1
     Runs all colorscripts with 1 second delay between each.
@@ -48,7 +54,13 @@ param(
     [switch]$SkipErrors,
 
     [Parameter()]
-    [string]$Filter = "*"
+    [string]$Filter = "*",
+
+    [Parameter()]
+    [switch]$Parallel,
+
+    [Parameter()]
+    [int]$ThrottleLimit = [System.Environment]::ProcessorCount
 )
 
 # Import the module if not already loaded
@@ -84,62 +96,132 @@ $currentScript = 0
 $successful = 0
 $failed = 0
 $failedScripts = @()
+$results = [System.Collections.Generic.List[object]]::new()
+$initialEap = $ErrorActionPreference
 
-foreach ($script in $scripts) {
-    $currentScript++
-    $scriptName = $script.BaseName
+function New-ScriptTestResult {
+    param(
+        [string]$Name,
+        [double]$DurationMs,
+        [bool]$Success,
+        [string]$ErrorMessage,
+        [string]$Output
+    )
 
-    # Display header
-    Write-Host "`n" -NoNewline
-    Write-Host ("─" * 70) -ForegroundColor DarkGray
-    Write-Host "[$currentScript/$($scripts.Count)] " -ForegroundColor Cyan -NoNewline
-    Write-Host "$scriptName" -ForegroundColor White
-    Write-Host ("─" * 70) -ForegroundColor DarkGray
-    Write-Host ""
+    [pscustomobject]@{
+        Name        = $Name
+        DurationMs  = [math]::Round($DurationMs, 2)
+        Success     = $Success
+        Error       = $ErrorMessage
+        Output      = $Output
+    }
+}
 
-    try {
-        # Run the colorscript
-        $originalEncoding = [Console]::OutputEncoding
-        [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+if ($Parallel) {
+    if ($PSVersionTable.PSVersion.Major -lt 7) {
+        throw "-Parallel requires PowerShell 7 or later."
+    }
+
+    $parallelResults = $scripts | ForEach-Object -Parallel {
+        $scriptName = $_.BaseName
+        $startTime = Get-Date
+        $outputData = ''
+        $success = $true
+        $errorMessage = ''
+
+        try {
+            $outputData = (& $_.FullName | Out-String)
+        }
+        catch {
+            $success = $false
+            $errorMessage = $_.Exception.Message
+        }
+
+        $duration = ((Get-Date) - $startTime).TotalMilliseconds
+        [pscustomobject]@{
+            Name       = $scriptName
+            DurationMs = [math]::Round($duration, 2)
+            Success    = $success
+            Error      = $errorMessage
+            Output     = $outputData
+        }
+    } -ThrottleLimit $ThrottleLimit
+
+    foreach ($item in $parallelResults) {
+        $results.Add($item)
+        if ($item.Success) {
+            $successful++
+        }
+        else {
+            $failed++
+            $failedScripts += $item.Name
+        }
+    }
+}
+else {
+    foreach ($script in $scripts) {
+        $currentScript++
+        $scriptName = $script.BaseName
+
+        Write-Host "`n" -NoNewline
+        Write-Host ("─" * 70) -ForegroundColor DarkGray
+        Write-Host "[$currentScript/$($scripts.Count)] " -ForegroundColor Cyan -NoNewline
+        Write-Host "$scriptName" -ForegroundColor White
+        Write-Host ("─" * 70) -ForegroundColor DarkGray
+        Write-Host ""
 
         $startTime = Get-Date
+        $outputCapture = ''
+        $success = $true
+        $errorMessage = ''
 
-        # Execute the script with error handling
-        $ErrorActionPreference = 'Stop'
-        & $script.FullName
+        try {
+            $ErrorActionPreference = 'Stop'
+            $originalEncoding = [Console]::OutputEncoding
+            [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+            & $script.FullName
+            [Console]::OutputEncoding = $originalEncoding
+        }
+        catch {
+            [Console]::OutputEncoding = $originalEncoding
+            $success = $false
+            $errorMessage = $_.Exception.Message
+        }
+        finally {
+            $ErrorActionPreference = $initialEap
+        }
 
         $duration = ((Get-Date) - $startTime).TotalMilliseconds
 
-        [Console]::OutputEncoding = $originalEncoding
+        if ($success) {
+            $successful++
+            Write-Host "`n✓ Completed in $([math]::Round($duration, 0))ms" -ForegroundColor Green
+        }
+        else {
+            $failed++
+            $failedScripts += $scriptName
+            Write-Host "`n✗ Error: $errorMessage" -ForegroundColor Red
 
-        # Success
-        $successful++
-        Write-Host "`n✓ Completed in $([math]::Round($duration, 0))ms" -ForegroundColor Green
-    }
-    catch {
-        [Console]::OutputEncoding = $originalEncoding
+            if (-not $SkipErrors) {
+                Write-Host "`nStopping test run due to error. Use -SkipErrors to continue on errors." -ForegroundColor Yellow
+                $results.Add((New-ScriptTestResult -Name $scriptName -DurationMs $duration -Success $success -ErrorMessage $errorMessage -Output $outputCapture))
+                break
+            }
+        }
 
-        # Handle error
-        $failed++
-        $failedScripts += $scriptName
-        Write-Host "`n✗ Error: $_" -ForegroundColor Red
+        $results.Add((New-ScriptTestResult -Name $scriptName -DurationMs $duration -Success $success -ErrorMessage $errorMessage -Output $outputCapture))
 
-        if (-not $SkipErrors) {
-            Write-Host "`nStopping test run due to error. Use -SkipErrors to continue on errors." -ForegroundColor Yellow
-            break
+        if ($PauseAfterEach) {
+            Write-Host "`nPress Enter to continue to next script..." -ForegroundColor Yellow
+            $null = Read-Host
+        }
+        elseif ($currentScript -lt $scripts.Count) {
+            Start-Sleep -Milliseconds $Delay
         }
     }
-
-    # Handle pause/delay
-    if ($PauseAfterEach) {
-        Write-Host "`nPress Enter to continue to next script..." -ForegroundColor Yellow
-        $null = Read-Host
-    }
-    elseif ($currentScript -lt $scripts.Count) {
-        # Only delay if not the last script
-        Start-Sleep -Milliseconds $Delay
-    }
 }
+
+$ErrorActionPreference = $initialEap
 
 # Summary
 Write-Host "`n"
@@ -161,3 +243,5 @@ if ($failedScripts.Count -gt 0) {
 }
 
 Write-Host "`n"
+
+return $results

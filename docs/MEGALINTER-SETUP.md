@@ -26,6 +26,7 @@ npx git-cliff --config cliff.toml --unreleased
 - ✅ Configures markdown linting with proper exclusions
 - ✅ Sets up YAML, PowerShell, and Repository linters
 - ✅ Excludes CHANGELOG.md from duplicate heading checks
+- ✅ Notes that ScriptAnalyzer now runs only on PowerShell 7 runners (Windows PowerShell 5.1 executes tests without analyzer to avoid false positives)
 
 **Key Settings:**
 

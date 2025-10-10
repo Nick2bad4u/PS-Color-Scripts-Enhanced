@@ -1,122 +1,148 @@
 # ColorScripts-Enhanced Installation Script
-# Installs the module to your PowerShell modules directory
 
-[CmdletBinding()]
+[CmdletBinding(SupportsShouldProcess = $true)]
 param(
-    [Parameter()]
     [switch]$AllUsers,
-
-    [Parameter()]
     [switch]$AddToProfile,
-
-    [Parameter()]
     [switch]$SkipStartupScript,
-
-    [Parameter()]
     [switch]$BuildCache
 )
 
-$ErrorActionPreference = 'Stop'
+function Get-ModuleInstallRoot {
+    [CmdletBinding()]
+    param(
+        [switch]$AllUsersScope
+    )
 
-# Determine installation path
-if ($AllUsers) {
-    if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
-        Write-Error "AllUsers installation requires Administrator privileges. Run PowerShell as Administrator or rerun without -AllUsers."
-        exit 1
+    $separator = [System.IO.Path]::PathSeparator
+    $paths = $env:PSModulePath -split [System.Text.RegularExpressions.Regex]::Escape($separator) | Where-Object { $_ }
+
+    if ($AllUsersScope) {
+        if ($PROFILE.AllUsersAllHosts) {
+            return Split-Path -Parent $PROFILE.AllUsersAllHosts
+        }
+
+        return $paths | Where-Object { $_ -notlike "*$HOME*" } | Select-Object -First 1
     }
-    $modulePath = "$env:ProgramFiles\PowerShell\Modules"
+
+    if ($PROFILE.CurrentUserAllHosts) {
+        return Split-Path -Parent $PROFILE.CurrentUserAllHosts
+    }
+
+    $userHome = [Environment]::GetFolderPath('UserProfile')
+    if (-not $userHome) {
+        $userHome = $HOME
+    }
+
+    return $paths | Where-Object { $userHome -and $_ -like "$userHome*" } | Select-Object -First 1
 }
-else {
-    # Default to current user
-    $modulePath = "$HOME\Documents\PowerShell\Modules"
-    if (-not (Test-Path "$HOME\Documents\PowerShell")) {
-        $modulePath = "$HOME\Documents\WindowsPowerShell\Modules"
+
+$moduleRoot = Get-ModuleInstallRoot -AllUsersScope:$AllUsers
+if (-not $moduleRoot) {
+    throw 'Unable to determine module installation path.'
+}
+
+if ($AllUsers -and $PSVersionTable.PSEdition -eq 'Desktop') {
+    $principal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
+    if (-not $principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+        throw 'AllUsers installation requires Administrator privileges.'
     }
 }
 
-$destinationPath = Join-Path $modulePath "ColorScripts-Enhanced"
+$destinationPath = Join-Path -Path $moduleRoot -ChildPath 'ColorScripts-Enhanced'
 $sourcePath = $PSScriptRoot
 
-Write-Host "`n╔════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
-Write-Host "║  ColorScripts-Enhanced Module Installation             ║" -ForegroundColor Cyan
-Write-Host "╚════════════════════════════════════════════════════════╝`n" -ForegroundColor Cyan
+Write-Host ''
+Write-Host '========================================================' -ForegroundColor Cyan
+Write-Host '  ColorScripts-Enhanced Module Installation' -ForegroundColor Cyan
+Write-Host '========================================================' -ForegroundColor Cyan
 
-Write-Host "Installation Details:" -ForegroundColor Yellow
-Write-Host "  Source: $sourcePath"
-Write-Host "  Destination: $destinationPath"
-Write-Host "  Scope: $(if($AllUsers){'All Users'}else{'Current User'})`n"
+$originalErrorActionPreference = $ErrorActionPreference
+$ErrorActionPreference = 'Stop'
 
-# Create module directory if it doesn't exist
-if (-not (Test-Path $modulePath)) {
-    New-Item -ItemType Directory -Path $modulePath -Force | Out-Null
-    Write-Host "✓ Created module directory" -ForegroundColor Green
-}
-
-# Copy module files
 try {
-    if (Test-Path $destinationPath) {
-        Write-Host "Module already exists. Removing old version..." -ForegroundColor Yellow
-        Remove-Item $destinationPath -Recurse -Force
+    if (-not (Test-Path -LiteralPath $moduleRoot)) {
+        if ($PSCmdlet.ShouldProcess($moduleRoot, 'Create module directory')) {
+            New-Item -Path $moduleRoot -ItemType Directory -Force | Out-Null
+            Write-Host '✓ Created module directory' -ForegroundColor Green
+        }
     }
 
-    Write-Host "Copying module files..." -ForegroundColor Cyan
-    Copy-Item -Path $sourcePath -Destination $destinationPath -Recurse -Force
-    Write-Host "✓ Module files copied successfully" -ForegroundColor Green
-}
-catch {
-    Write-Error "Failed to copy module files: $_"
-    exit 1
-}
-
-# Import the module
-try {
-    Write-Host "`nImporting module..." -ForegroundColor Cyan
-    Import-Module ColorScripts-Enhanced -Force
-    Write-Host "✓ Module imported successfully" -ForegroundColor Green
-}
-catch {
-    Write-Error "Failed to import module: $_"
-    exit 1
-}
-
-# Add to profile if requested
-if ($AddToProfile) {
-    Write-Host "`nAdding module to PowerShell profile..." -ForegroundColor Cyan
-    $profileParams = @{ Scope = 'CurrentUserAllHosts' }
-    if ($SkipStartupScript) {
-        $profileParams.SkipStartupScript = $true
+    if (Test-Path -LiteralPath $destinationPath) {
+        if ($PSCmdlet.ShouldProcess($destinationPath, 'Remove existing module')) {
+            Remove-Item -LiteralPath $destinationPath -Recurse -Force
+            Write-Host '✓ Removed existing module' -ForegroundColor Yellow
+        }
     }
 
-    $profileResult = Add-ColorScriptProfile @profileParams
-
-    if ($profileResult.Changed) {
-        Write-Host "✓ Profile updated: $($profileResult.Path)" -ForegroundColor Green
+    if ($PSCmdlet.ShouldProcess($destinationPath, 'Copy module files')) {
+        Copy-Item -Path $sourcePath -Destination $destinationPath -Recurse -Force
+        Write-Host '✓ Module files copied' -ForegroundColor Green
     }
-    else {
-        Write-Host "Profile already configured. (Use -Force with Add-ColorScriptProfile for overrides.)" -ForegroundColor Yellow
+
+    if ($PSCmdlet.ShouldProcess($destinationPath, 'Import module')) {
+        Import-Module (Join-Path -Path $destinationPath -ChildPath 'ColorScripts-Enhanced.psd1') -Force
+        Write-Host '✓ Module imported successfully' -ForegroundColor Green
+    }
+
+    $profileResult = $null
+    if ($AddToProfile) {
+        $profileArguments = @{ Scope = 'CurrentUserAllHosts' }
+        if ($SkipStartupScript) {
+            $profileArguments.SkipStartupScript = $true
+        }
+
+        if ($PSCmdlet.ShouldProcess($PROFILE.CurrentUserAllHosts, 'Update profile')) {
+            $profileResult = Add-ColorScriptProfile @profileArguments
+            if ($profileResult.Changed) {
+                Write-Host "✓ Profile updated: $($profileResult.Path)" -ForegroundColor Green
+            }
+            else {
+                Write-Host 'Profile already configured. Use -Force with Add-ColorScriptProfile to overwrite.' -ForegroundColor Yellow
+            }
+        }
+    }
+
+    $cacheResults = @()
+    if ($BuildCache) {
+        if ($PSCmdlet.ShouldProcess('ColorScripts-Enhanced cache', 'Build caches for all scripts')) {
+            Write-Host ''
+            Write-Host 'Building cache for all colorscripts...' -ForegroundColor Cyan
+            $cacheResults = Build-ColorScriptCache -All -ErrorAction Stop
+            $successCount = ($cacheResults | Where-Object { $_.Status -in @('Updated', 'SkippedUpToDate') }).Count
+            $failureCount = ($cacheResults | Where-Object { $_.Status -eq 'Failed' }).Count
+            Write-Host "  Updated: $successCount" -ForegroundColor Green
+            if ($failureCount) {
+                Write-Host "  Failed:  $failureCount" -ForegroundColor Red
+            }
+        }
+    }
+
+    Write-Host ''
+    Write-Host "[INFO] Source:      $sourcePath" -ForegroundColor Yellow
+    Write-Host "[INFO] Destination: $destinationPath" -ForegroundColor Yellow
+    Write-Host "[INFO] Scope:       $(if ($AllUsers) { 'AllUsers' } else { 'CurrentUser' })" -ForegroundColor Yellow
+
+    Write-Host ''
+    Write-Host 'ColorScripts-Enhanced installed successfully!' -ForegroundColor Green
+    Write-Host 'Quick start:' -ForegroundColor Yellow
+    Write-Host '  Show-ColorScript             # Display a random colorscript'
+    Write-Host '  scs mandelbrot-zoom          # Display a specific colorscript'
+    Write-Host '  Get-ColorScriptList          # List all scripts'
+    Write-Host '  Build-ColorScriptCache -All  # Pre-build caches'
+
+    if (-not $BuildCache) {
+        Write-Host "Tip: Run 'Build-ColorScriptCache -All' to prime caches." -ForegroundColor Cyan
+    }
+
+    [pscustomobject]@{
+        SourcePath      = $sourcePath
+        DestinationPath = $destinationPath
+        Scope           = if ($AllUsers) { 'AllUsers' } else { 'CurrentUser' }
+        ProfileResult   = $profileResult
+        CacheResults    = $cacheResults
     }
 }
-
-# Build cache if requested
-if ($BuildCache) {
-    Write-Host "`nBuilding cache for all colorscripts..." -ForegroundColor Cyan
-    Write-Host "(This may take a few minutes)`n" -ForegroundColor Yellow
-    Build-ColorScriptCache -All
+finally {
+    $ErrorActionPreference = $originalErrorActionPreference
 }
-
-# Display completion message
-Write-Host "`n╔════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
-Write-Host "║  Installation Complete! ✓                              ║" -ForegroundColor Green
-Write-Host "╚════════════════════════════════════════════════════════╝`n" -ForegroundColor Cyan
-
-Write-Host "Quick Start:" -ForegroundColor Yellow
-Write-Host "  Show-ColorScript          # Display random colorscript"
-Write-Host "  scs mandelbrot-zoom       # Display specific script"
-Write-Host "  Get-ColorScriptList       # List all scripts"
-Write-Host "  Build-ColorScriptCache -All   # Build cache for performance`n"
-
-if (-not $BuildCache) {
-    Write-Host "💡 Tip: Run 'Build-ColorScriptCache -All' to enable high-speed caching!" -ForegroundColor Cyan
-}
-
-Write-Host "`nModule installed successfully! Enjoy your colorful terminal! 🌈`n" -ForegroundColor Green
