@@ -156,8 +156,17 @@ jobs:
     needs: validate
     if: |
       needs.validate.result == 'success' &&
-      github.event_name == 'workflow_dispatch' &&
-      (github.event.inputs.createRelease == 'true' || github.event.inputs.createRelease == '')
+      (
+        (
+          github.event_name == 'workflow_dispatch' &&
+          (github.event.inputs.createRelease == 'true' || github.event.inputs.createRelease == '')
+        ) ||
+        (
+          github.event_name == 'workflow_run' &&
+          github.event.workflow_run.conclusion == 'success' &&
+          github.event.workflow_run.event == 'workflow_dispatch'
+        )
+      )
     runs-on: ubuntu-latest
     steps:
       - name: Harden the runner (Audit all outbound calls)
@@ -180,12 +189,21 @@ jobs:
 
   publish:
     name: Publish
-    needs: validate
+    needs:
+      - validate
+      - create-release
     if: |
       needs.validate.result == 'success' &&
-      (github.event_name == 'workflow_dispatch' ||
-       github.event_name == 'release' ||
-       (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success'))
+      (needs['create-release'].result == 'success' || needs['create-release'].result == 'skipped') &&
+      (
+        github.event_name == 'workflow_dispatch' ||
+        github.event_name == 'release' ||
+        (
+          github.event_name == 'workflow_run' &&
+          github.event.workflow_run.conclusion == 'success' &&
+          github.event.workflow_run.event == 'workflow_dispatch'
+        )
+      )
     runs-on: windows-latest
     env:
       PSGALLERY_API_KEY: ${{ secrets.PSGALLERY_API_KEY }}
