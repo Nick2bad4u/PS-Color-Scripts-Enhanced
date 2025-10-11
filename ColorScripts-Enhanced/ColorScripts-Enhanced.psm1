@@ -1401,13 +1401,8 @@ function Build-ColorScriptCache {
 
         Write-Progress -Id 1 -Activity $progressActivity -Completed
 
-        # Return results if PassThru is specified
-        if ($PassThru) {
-            return [pscustomobject[]]$results
-        }
-
         # Display summary if not using PassThru and there are results
-        if ($totalCount -gt 0) {
+        if (-not $PassThru -and $totalCount -gt 0) {
             $summary = $results | Group-Object -Property Status | ForEach-Object {
                 [pscustomobject]@{
                     Status = $_.Name
@@ -1446,6 +1441,11 @@ function Build-ColorScriptCache {
 
             Write-Host "`nTotal scripts processed: $totalCount" -ForegroundColor Cyan
             Write-Host "Use -PassThru to see detailed results`n" -ForegroundColor Gray
+        }
+
+        # Return results if PassThru is specified
+        if ($PassThru) {
+            return [pscustomobject[]]$results
         }
     }
 }
