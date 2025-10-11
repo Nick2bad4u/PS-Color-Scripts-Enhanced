@@ -23,9 +23,9 @@ on:
     types: [published]
   workflow_call:
     secrets:
-      PSGALLERY_API_KEY:
+      PSGALLERYAPIKEY:
         required: false
-      NUGET_API_KEY:
+      NUGETAPIKEY:
         required: false
       PACKAGES_TOKEN:
         required: false
@@ -181,8 +181,8 @@ jobs:
       - create-release
     runs-on: windows-latest
     env:
-      PSGALLERY_API_KEY: ${{ secrets.PSGALLERY_API_KEY }}
-      NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+      PSGALLERYAPIKEY: ${{ secrets.PSGALLERYAPIKEY }}
+      NUGETAPIKEY: ${{ secrets.NUGETAPIKEY }}
       PACKAGES_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       PUBLISH_TO_NUGET_INPUT: ${{ github.event.inputs.publishToNuGet }}
       PUBLISH_TO_GITHUB_INPUT: ${{ github.event.inputs.publishToGitHub }}
@@ -238,7 +238,7 @@ jobs:
               throw "Package not found at $packagePath"
           }
 
-          $apiKey = $env:PSGALLERY_API_KEY
+          $apiKey = $env:PSGALLERYAPIKEY
           if ([string]::IsNullOrWhiteSpace($apiKey)) {
               Write-Host 'No PowerShell Gallery API key provided. Skipping publish.'
               return
@@ -249,14 +249,14 @@ jobs:
         shell: pwsh
 
       - name: Publish to NuGet.org
-        if: ${{ env.NUGET_API_KEY != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_NUGET_INPUT != 'false') }}
+        if: ${{ env.NUGETAPIKEY != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_NUGET_INPUT != 'false') }}
         run: |
           $packagePath = '${{ steps.package.outputs.packagePath }}'
           if (-not (Test-Path $packagePath)) {
               throw "Package not found at $packagePath"
           }
 
-          $apiKey = $env:NUGET_API_KEY
+          $apiKey = $env:NUGETAPIKEY
           if ([string]::IsNullOrWhiteSpace($apiKey)) {
               Write-Host 'No NuGet.org API key provided. Skipping publish.'
               return

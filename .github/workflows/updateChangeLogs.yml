@@ -123,4 +123,4 @@ jobs:
           Add-Content -Path $env:GITHUB_STEP_SUMMARY "- CHANGELOG.md files were generated or updated in the repository and subfolders."
           Add-Content -Path $env:GITHUB_STEP_SUMMARY "- A pull request was created or updated with the new changelogs."
           Add-Content -Path $env:GITHUB_STEP_SUMMARY "- Check runs were updated to reflect the workflow status."
-          Add-Content -Path $env:GITHUB_STEP_SUMMARY "- Workflow completed with status: ${{ job.status }}".
+          Add-Content -Path $env:GITHUB_STEP_SUMMARY "- Workflow completed with status: ${{ job.status }}."
