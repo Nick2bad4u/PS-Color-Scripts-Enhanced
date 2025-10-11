@@ -314,39 +314,55 @@ Test-Function "Add-ColorScriptProfile expands tilde" {
         if (Test-Path $expectedPath) { Remove-Item $expectedPath -Force }
     }
 }
-
 Test-Function "Script analyzer clean" {
     if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
         throw "PSScriptAnalyzer module not installed. Run 'Install-Module PSScriptAnalyzer -Scope CurrentUser'."
     }
 
     Import-Module PSScriptAnalyzer -ErrorAction Stop
-    $lintParams = @{
-        Path        = "$PSScriptRoot\ColorScripts-Enhanced"
-        Recurse     = $true
-        Settings    = "$PSScriptRoot\PSScriptAnalyzerSettings.psd1"
-        Severity    = 'Error', 'Warning'
-        ErrorAction = 'Stop'
-    }
 
-    try {
-        $lintResults = Invoke-ScriptAnalyzer @lintParams
-    }
-    catch {
-        $exception = $_.Exception
-        $isNullRef = $exception -is [System.NullReferenceException] -or ($exception -and $exception.Message -like 'Object reference*')
+    $settingsPath = Join-Path $PSScriptRoot 'PSScriptAnalyzerSettings.psd1'
+    $moduleRoot = Join-Path $PSScriptRoot 'ColorScripts-Enhanced'
+    $moduleItems = Get-ChildItem -Path $moduleRoot -File -Recurse -Include *.ps1, *.psm1, *.psd1
 
-        if ($isNullRef -and $lintParams.ContainsKey('Settings')) {
-            Write-Warning "ScriptAnalyzer encountered a known issue analyzing module sources with custom settings. Retrying without settings."
-            $lintParams.Remove('Settings')
-            $lintResults = Invoke-ScriptAnalyzer @lintParams
+    $lintResults = New-Object 'System.Collections.Generic.List[psobject]'
+
+    foreach ($item in $moduleItems) {
+        $params = @{
+            Path        = $item.FullName
+            Severity    = 'Error', 'Warning'
+            ErrorAction = 'Stop'
         }
-        else {
-            throw
+
+        if (Test-Path $settingsPath) {
+            $params.Settings = $settingsPath
+        }
+
+        try {
+            $result = Invoke-ScriptAnalyzer @params
+        }
+        catch {
+            $exception = $_.Exception
+            $isNullRef = $exception -is [System.NullReferenceException] -or ($exception -and $exception.Message -like 'Object reference*')
+
+            if ($isNullRef -and $params.ContainsKey('Settings')) {
+                Write-Warning "ScriptAnalyzer encountered a known issue analyzing '$($item.FullName)' with custom settings. Retrying without settings."
+                $params.Remove('Settings')
+                $result = Invoke-ScriptAnalyzer @params
+            }
+            else {
+                throw
+            }
+        }
+
+        if ($result) {
+            foreach ($entry in $result) {
+                $lintResults.Add($entry) | Out-Null
+            }
         }
     }
 
-    if ($lintResults) {
+    if ($lintResults.Count -gt 0) {
         $lintResults | Format-Table -AutoSize | Out-String | Write-Host
         throw "ScriptAnalyzer reported issues"
     }

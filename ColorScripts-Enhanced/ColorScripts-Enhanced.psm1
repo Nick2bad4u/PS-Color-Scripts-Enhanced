@@ -363,6 +363,8 @@ function Select-RecordsByName {
         $null = $recordList.Add($record)
     }
 
+    $selectedNames = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+
     if (-not $Name -or $Name.Count -eq 0) {
         return [pscustomobject]@{
             Records         = $recordList.ToArray()
@@ -406,7 +408,9 @@ function Select-RecordsByName {
         }
 
         if ($recordMatched) {
-            $null = $selected.Add($record)
+            if ($selectedNames.Add($candidateName)) {
+                $null = $selected.Add($record)
+            }
         }
     }
 
@@ -1342,6 +1346,10 @@ Cache every available script. When omitted and no names are supplied, all script
 Rebuild caches even when the existing cache file is newer than the script source.
 .PARAMETER PassThru
 Return detailed result objects for each cache operation. By default, only a summary is displayed.
+.PARAMETER Category
+Limit the selection to scripts that belong to the specified category (case-insensitive). Multiple values are treated as an OR filter.
+.PARAMETER Tag
+Limit the selection to scripts containing the specified metadata tags (case-insensitive). Multiple values are treated as an OR filter.
 #>
 function Build-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache operation.')]
@@ -1358,7 +1366,13 @@ function Build-ColorScriptCache {
         [switch]$Force,
 
         [Parameter()]
-        [switch]$PassThru
+        [switch]$PassThru,
+
+        [Parameter()]
+        [string[]]$Category,
+
+        [Parameter()]
+        [string[]]$Tag
     )
 
     begin {
@@ -1379,9 +1393,10 @@ function Build-ColorScriptCache {
         $records = @()
         $selectedNames = $collectedNames.ToArray()
         $allExplicitlyDisabled = $PSBoundParameters.ContainsKey('All') -and -not $All
+        $filteredRecords = Get-ColorScriptEntry -Category $Category -Tag $Tag
 
         if ($selectedNames.Count -gt 0) {
-            $selection = Select-RecordsByName -Records (Get-ColorScriptEntry) -Name $selectedNames
+            $selection = Select-RecordsByName -Records $filteredRecords -Name $selectedNames
             foreach ($pattern in $selection.MissingPatterns) {
                 Write-Warning "Script not found: $pattern"
             }
@@ -1391,7 +1406,7 @@ function Build-ColorScriptCache {
             throw "Specify -Name to select scripts when -All is explicitly disabled."
         }
         else {
-            $records = Get-ColorScriptEntry
+            $records = $filteredRecords
         }
 
         if ($records -is [System.Collections.IEnumerable]) {
@@ -1554,6 +1569,10 @@ Remove every cache file in the target directory.
 Alternate cache directory to operate against.
 .PARAMETER DryRun
 Preview removal actions without deleting files.
+.PARAMETER Category
+Filter the target scripts by category before evaluating cache entries.
+.PARAMETER Tag
+Filter the target scripts by metadata tag before evaluating cache entries.
 #>
 function Clear-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache entry.')]
@@ -1570,7 +1589,13 @@ function Clear-ColorScriptCache {
         [string]$Path,
 
         [Parameter()]
-        [switch]$DryRun
+        [switch]$DryRun,
+
+        [Parameter()]
+        [string[]]$Category,
+
+        [Parameter()]
+        [string[]]$Tag
     )
 
     begin {
@@ -1588,9 +1613,60 @@ function Clear-ColorScriptCache {
     }
 
     end {
-        $selectedNames = $collectedNames.ToArray()
+        $filtersSpecified = ($Category -and $Category.Count -gt 0) -or ($Tag -and $Tag.Count -gt 0)
 
-        if ($selectedNames.Count -eq 0 -and -not $All) {
+        $nameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+        foreach ($value in $collectedNames) {
+            if (-not [string]::IsNullOrWhiteSpace($value)) {
+                $null = $nameSet.Add($value)
+            }
+        }
+
+        $filteredRecords = if ($filtersSpecified) { Get-ColorScriptEntry -Category $Category -Tag $Tag } else { @() }
+
+        if ($filtersSpecified) {
+            $filteredNameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+            foreach ($record in $filteredRecords) {
+                if ($record -and $record.Name) {
+                    $null = $filteredNameSet.Add($record.Name)
+                }
+            }
+
+            if ($All -and $nameSet.Count -eq 0 -and $filteredNameSet.Count -gt 0) {
+                foreach ($name in $filteredNameSet) {
+                    $null = $nameSet.Add($name)
+                }
+            }
+            elseif ($nameSet.Count -eq 0) {
+                foreach ($name in $filteredNameSet) {
+                    $null = $nameSet.Add($name)
+                }
+            }
+            else {
+                $skippedByFilter = New-Object 'System.Collections.Generic.List[string]'
+                $namesSnapshot = @($nameSet)
+                foreach ($name in $namesSnapshot) {
+                    if (-not $filteredNameSet.Contains($name)) {
+                        $null = $nameSet.Remove($name)
+                        $null = $skippedByFilter.Add($name)
+                    }
+                }
+
+                foreach ($skipped in $skippedByFilter) {
+                    Write-Warning "Script '$skipped' does not satisfy the specified filters and will be skipped."
+                }
+            }
+        }
+
+        $selectedNames = @($nameSet)
+        $operateOnAll = $All -and -not $filtersSpecified -and $selectedNames.Count -eq 0
+
+        if (-not $operateOnAll -and $selectedNames.Count -eq 0) {
+            if ($filtersSpecified) {
+                Write-Warning "No scripts matched the specified filters."
+                return [pscustomobject[]]@()
+            }
+
             throw "Specify -All or -Name to clear cache entries."
         }
 

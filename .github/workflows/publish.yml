@@ -15,6 +15,10 @@ on:
         description: "Override module version (optional)"
         required: false
         default: ""
+      createRelease:
+        description: "Create GitHub Release"
+        required: false
+        default: "true"
   release:
     types: [published]
   workflow_call:
@@ -29,9 +33,11 @@ on:
     workflows: ["Tests"]
     types:
       - completed
+    branches:
+      - main
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate:
@@ -105,10 +111,41 @@ jobs:
           name: module-source
           path: ColorScripts-Enhanced/
 
+  create-release:
+    name: Create GitHub Release
+    needs: validate
+    if: |
+      needs.validate.result == 'success' &&
+      github.event_name == 'workflow_dispatch' &&
+      (github.event.inputs.createRelease == 'true' || github.event.inputs.createRelease == '')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+        with:
+          egress-policy: audit
+
+      - name: Checkout
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+
+      - name: Create Release
+        uses: ncipollo/release-action@2c591bcc8ecdcd2db72b97d6147f871fcd833ba5 # v1.14.0
+        with:
+          tag: v${{ needs.validate.outputs.version }}
+          name: Release v${{ needs.validate.outputs.version }}
+          draft: false
+          prerelease: false
+          generateReleaseNotes: true
+          skipIfReleaseExists: true
+
   publish:
     name: Publish
     needs: validate
-    if: needs.validate.result == 'success' && (github.event_name == 'workflow_dispatch' || github.event_name == 'release')
+    if: |
+      needs.validate.result == 'success' &&
+      (github.event_name == 'workflow_dispatch' ||
+       github.event_name == 'release' ||
+       (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success'))
     runs-on: windows-latest
     env:
       PSGALLERY_API_KEY: ${{ secrets.PSGALLERY_API_KEY }}
