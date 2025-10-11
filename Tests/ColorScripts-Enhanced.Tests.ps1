@@ -163,6 +163,53 @@ Describe "ColorScripts-Enhanced Module" {
             }
         }
 
+        It "Should cache all scripts when no parameters are provided" {
+            $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
+            $originalCacheDir = $module.SessionState.PSVariable.GetValue('CacheDir')
+            $originalCacheInitialized = $module.SessionState.PSVariable.GetValue('CacheInitialized')
+            $temporaryCacheDir = Join-Path -Path $TestDrive -ChildPath ("DefaultCache_{0}" -f ([Guid]::NewGuid()))
+            if (-not (Test-Path $temporaryCacheDir)) {
+                New-Item -ItemType Directory -Path $temporaryCacheDir -Force | Out-Null
+            }
+
+            $module.SessionState.PSVariable.Set('CacheDir', $temporaryCacheDir)
+            $module.SessionState.PSVariable.Set('CacheInitialized', $true)
+
+            Mock -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced {
+                param([string]$ScriptPath)
+
+                $name = [System.IO.Path]::GetFileNameWithoutExtension($ScriptPath)
+                $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
+                $cacheDir = $module.SessionState.PSVariable.GetValue('CacheDir')
+                [pscustomobject]@{
+                    ScriptName = $name
+                    CacheFile  = Join-Path -Path $cacheDir -ChildPath ("{0}.cache" -f $name)
+                    Success    = $true
+                    ExitCode   = 0
+                    StdOut     = ''
+                    StdErr     = ''
+                }
+            }
+
+            try {
+                $result = Build-ColorScriptCache -ErrorAction Stop
+                $result | Should -Not -BeNullOrEmpty
+
+                $expectedCount = (Get-ColorScriptList -AsObject).Count
+                $result.Count | Should -Be $expectedCount
+
+                Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times $expectedCount -Exactly
+            }
+            finally {
+                $module.SessionState.PSVariable.Set('CacheDir', $originalCacheDir)
+                $module.SessionState.PSVariable.Set('CacheInitialized', $originalCacheInitialized)
+
+                if (Test-Path $temporaryCacheDir) {
+                    Remove-Item -Path $temporaryCacheDir -Recurse -Force
+                }
+            }
+        }
+
         It "Should render cached output without re-executing the script" {
             Clear-ColorScriptCache -Name "bars" -Confirm:$false | Out-Null
             Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null

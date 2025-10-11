@@ -67,7 +67,7 @@ Get-ColorScriptList
 
 Pre-build cache for all scripts:
 ```powershell
-Build-ColorScriptCache -All
+Build-ColorScriptCache
 ```
 
 ### COMMANDS
@@ -165,7 +165,7 @@ Build-ColorScriptCache -Name hearts,mandelbrot-zoom,galaxy-spiral
 
 #### Example 4: Force Cache Rebuild
 ```powershell
-Build-ColorScriptCache -All -Force
+Build-ColorScriptCache -Force
 ```
 
 ### TROUBLESHOOTING
@@ -180,13 +180,13 @@ Ensure your terminal supports UTF-8 and ANSI escape codes:
 Clear and rebuild cache:
 ```powershell
 Clear-ColorScriptCache -All
-Build-ColorScriptCache -All
+Build-ColorScriptCache
 ```
 
 #### Performance issues
 The first run of each script will be slower as it builds cache. Pre-build all caches:
 ```powershell
-Build-ColorScriptCache -All
+Build-ColorScriptCache
 ```
 
 ### PERFORMANCE

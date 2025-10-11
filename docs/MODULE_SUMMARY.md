@@ -56,9 +56,9 @@ Get-ColorScriptList
 Pre-generates cache files for faster performance.
 
 ```powershell
-Build-ColorScriptCache -All                 # Cache all scripts
+Build-ColorScriptCache                      # Cache all scripts (default)
 Build-ColorScriptCache -Name "bars","hearts" # Cache specific
-Build-ColorScriptCache -All -Force          # Force rebuild
+Build-ColorScriptCache -Force               # Force rebuild
 ```
 
 ### 4. Clear-ColorScriptCache
@@ -204,7 +204,7 @@ Show-ColorScript
 
 ```powershell
 function Cool-Terminal {
-    Build-ColorScriptCache -All
+    Build-ColorScriptCache
     Show-ColorScript -Name "mandelbrot-zoom"
 }
 ```

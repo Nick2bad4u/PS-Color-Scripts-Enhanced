@@ -215,17 +215,19 @@ Show-ColorScript -Tag Recommended -PassThru
 
 ```powershell
 # Cache all colorscripts (recommended)
-Build-ColorScriptCache -All
+Build-ColorScriptCache
 
 # Cache specific colorscripts
 Build-ColorScriptCache -Name "bars","hearts","arch"
 
 # Force rebuild cache
-Build-ColorScriptCache -All -Force
+Build-ColorScriptCache -Force
 
 # Cache every script whose name starts with "aurora-"
 Build-ColorScriptCache -Name "aurora-*"
 ```
+
+> `Build-ColorScriptCache` caches the entire library by default, so specifying `-All` is optional.
 
 ### Clear Cache
 
@@ -415,7 +417,7 @@ Set-Alias -Name cs -Value Show-ColorScript
 ```powershell
 # Add to profile after Import-Module
 Import-Module ColorScripts-Enhanced
-Build-ColorScriptCache -All
+Build-ColorScriptCache
 ```
 
 ## Available Colorscripts
@@ -437,7 +439,7 @@ Use `Show-ColorScript -List` to see all available scripts.
 
 ```powershell
 # Rebuild cache
-Build-ColorScriptCache -All -Force
+Build-ColorScriptCache -Force
 
 # Check cache location
 explorer "$env:APPDATA\ColorScripts-Enhanced\cache"

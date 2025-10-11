@@ -1,11 +1,12 @@
-## Credits
-
-Based on the PowerShell port [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts) by Scott McKendry, which is itself based on the excellent [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts) by Derek Taylor.
-
 # ColorScripts-Enhanced PowerShell Module
+
+> **Credits:** This project owes its existence to the foundational work of two incredible developers. The beautiful ANSI art scripts were originally created by Derek Taylor (DistroTube) in his project [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts). The collection was then thoughtfully ported to PowerShell by Scott McKendry as [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts). `ColorScripts-Enhanced` builds upon their efforts by introducing a high-performance caching system, PowerShell Cross-Platform support on Linux and Mac, an expanded command set, and a formal module structure, but the creative core remains their legacy. Thank you, Derek and Scott, for your contributions!
 
 [![Tests](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml)
 [![Publish](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml)
+[![Dependabot Updates](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependabot/dependabot-updates)
+[![Dependency Review](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml)
+[![Scorecard supply-chain security](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/scorecards.yml/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/scorecards.yml)
 
 A high-performance PowerShell module for displaying beautiful ANSI colorscripts in your terminal with intelligent caching for 6-19x faster load times.
 
@@ -45,6 +46,18 @@ Show-ColorScript
 ```
 
 > Requires PowerShell 5.1 or later. PowerShell 7.4+ recommended for best performance and PSResourceGet support.
+
+## PowerShell Support
+
+We test every change across Windows, macOS, and Linux. See the full matrix in [.github/POWERSHELL-VERSIONS.md](.github/POWERSHELL-VERSIONS.md).
+
+| Platform | PowerShell 5.1 | PowerShell 7.x |
+|----------|----------------|----------------|
+| Windows  | ✅ Unit tests, module validation | ✅ Unit tests, ScriptAnalyzer, help validation |
+| macOS    | ❌ Not available | ✅ Unit tests, ScriptAnalyzer |
+| Linux    | ❌ Not available | ✅ Unit tests, ScriptAnalyzer |
+
+> We intentionally run ScriptAnalyzer only on PowerShell 7.x because the 5.1 engine applies different rules that conflict with modern cross-platform patterns.
 
 ## Install a Nerd Font for Custom Glyphs
 
@@ -177,30 +190,44 @@ Get-ColorScriptList
 ```
 
 ```powershell
-# Return objects with metadata
+# Return objects for automation
 $scripts = Get-ColorScriptList -AsObject
 $scripts | Select-Object Name, Category, Tags | Format-Table
 
-# Filter by category or tag metadata
-Get-ColorScriptList -Category Patterns -Detailed
-Get-ColorScriptList -Tag Recommended
+# Show additional metadata in the table view
+Get-ColorScriptList -Detailed
+```
+
+### Filter by Category or Tag
+
+```powershell
+# All pattern-based scripts
+Get-ColorScriptList -Category Patterns
+
+# Recommended scripts surfaced by metadata
+Get-ColorScriptList -Tag Recommended -Detailed
+
+# Display a random recommended script and return its metadata
+Show-ColorScript -Tag Recommended -PassThru
 ```
 
 ### Build Cache for Faster Performance
 
 ```powershell
 # Cache all colorscripts (recommended)
-Build-ColorScriptCache -All
+Build-ColorScriptCache
 
 # Cache specific colorscripts
 Build-ColorScriptCache -Name "bars","hearts","arch"
 
 # Force rebuild cache
-Build-ColorScriptCache -All -Force
+Build-ColorScriptCache -Force
 
 # Cache every script whose name starts with "aurora-"
 Build-ColorScriptCache -Name "aurora-*"
 ```
+
+> `Build-ColorScriptCache` caches the entire library by default, so specifying `-All` is optional.
 
 ### Clear Cache
 
@@ -211,8 +238,10 @@ Clear-ColorScriptCache -All
 # Clear specific cache
 Clear-ColorScriptCache -Name "mandelbrot-zoom"
 
-# Preview deletions or target alternate cache roots
+# Preview what would be deleted (no files removed)
 Clear-ColorScriptCache -Name "mandelbrot-zoom" -DryRun
+
+# Clear caches in an alternate location
 Clear-ColorScriptCache -Name "mandelbrot-zoom" -Path 'C:/temp/colorscripts-cache'
 
 # Remove all caches that match a wildcard pattern
@@ -227,32 +256,22 @@ Clear-ColorScriptCache -Name "aurora-*" -Confirm:$false
 Show-ColorScript -Name "bars" -NoCache
 ```
 
-### Filter and Inspect Scripts via Metadata
+### Test the Entire Collection
 
 ```powershell
-# Display a random recommended script and emit its metadata
-Show-ColorScript -Tag Recommended -PassThru
-
-# Run a single script without touching the cache and capture the returned object
-$record = Show-ColorScript -Name 'bars' -NoCache -PassThru
-$record.Metadata
-```
-
-### Test All Scripts
-
-```powershell
-# Sequential run with per-script results
+# Sequential run with metadata-rich summary results
 .\ColorScripts-Enhanced\Test-AllColorScripts.ps1 -Filter 'bars' -Delay 0 -SkipErrors
 
-# Parallel run (PowerShell 7+)
+# Parallel run (PowerShell 7+) for faster CI coverage
 .\ColorScripts-Enhanced\Test-AllColorScripts.ps1 -Parallel -SkipErrors -ThrottleLimit 4
 ```
 
-### PowerShell 7 Lint Helper
+### Lint with PowerShell 7
 
 ```powershell
 .\scripts\Lint-PS7.ps1
 ```
+
 
 ## Commands
 
@@ -269,7 +288,7 @@ $record.Metadata
 
 - [Quick Start](QUICK_REFERENCE.md)
 - [Quick Reference](QUICKREFERENCE.md)
-- [Module Summary](MODULE_SUMMARY.md)
+- [Module Summary](docs/MODULE_SUMMARY.md)
 - [Development Guide](docs/Development.md)
 - [Publishing Guide](docs/Publishing.md)
 - [Release Checklist](docs/ReleaseChecklist.md)
@@ -331,8 +350,37 @@ Please review [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines, cod
 
 ### Cache Location
 
+The module stores cached output in platform-specific directories:
+
+**Windows:**
+
 ```
 C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\cache\
+```
+
+**macOS:**
+
+```
+~/Library/Application Support/ColorScripts-Enhanced/cache/
+```
+
+**Linux:**
+
+```
+~/.cache/ColorScripts-Enhanced/
+```
+
+To find your cache location programmatically:
+
+```powershell
+# Windows
+$env:APPDATA\ColorScripts-Enhanced\cache
+
+# macOS
+~/Library/Application Support/ColorScripts-Enhanced/cache
+
+# Linux
+~/.cache/ColorScripts-Enhanced
 ```
 
 ### Cache Files
@@ -369,7 +417,7 @@ Set-Alias -Name cs -Value Show-ColorScript
 ```powershell
 # Add to profile after Import-Module
 Import-Module ColorScripts-Enhanced
-Build-ColorScriptCache -All
+Build-ColorScriptCache
 ```
 
 ## Available Colorscripts
@@ -391,11 +439,23 @@ Use `Show-ColorScript -List` to see all available scripts.
 
 ```powershell
 # Rebuild cache
-Build-ColorScriptCache -All -Force
+Build-ColorScriptCache -Force
 
 # Check cache location
 explorer "$env:APPDATA\ColorScripts-Enhanced\cache"
 ```
+
+### Cache Files Locked or Refusing to Delete
+
+```powershell
+# Preview what would be removed without touching the filesystem
+Clear-ColorScriptCache -Name 'bars' -DryRun
+
+# Force deletion after closing terminals that might hold locks
+Clear-ColorScriptCache -Name 'bars' -Confirm:$false
+```
+
+If a cache file stays locked, close any terminals showing the script, then retry the commands above. As a last resort, specify `-Path` with a custom cache root and move the cache elsewhere.
 
 ### Module Not Found
 
@@ -431,10 +491,16 @@ Show-ColorScript -Name nerd-font-test
 
 ## Requirements
 
-- PowerShell 5.1 or higher
-- Windows (tested on Windows 10/11)
-- ANSI-capable terminal (Windows Terminal, VS Code, etc.)
-- Nerd Font (optional but recommended for glyph-heavy scripts like `nerd-font-test`)
+- **PowerShell:** 5.1 or higher (PowerShell 7+ recommended)
+- **Operating System:**
+  - Windows 10/11
+  - macOS 10.13+
+  - Linux (Ubuntu, Debian, Fedora, etc.)
+- **Terminal:** ANSI-capable terminal
+  - Windows: Windows Terminal, VS Code Terminal, ConEmu
+  - macOS: Terminal.app, iTerm2, VS Code Terminal
+  - Linux: GNOME Terminal, Konsole, xterm, VS Code Terminal
+- **Optional:** Nerd Font for glyph-heavy scripts like `nerd-font-test`
 
 ## Architecture
 
@@ -472,18 +538,31 @@ MIT License - See LICENSE file for details
 
 ## Version History
 
-### 1.0.0 (2025-09-30)
+See [CHANGELOG.md](CHANGELOG.md) for detailed version history and release notes.
 
-- Initial release
-- 195 colorscripts included
-- High-performance caching system
-- OS-wide cache in AppData
-- Complete PowerShell module structure
-- 6-19x performance improvement
+### Latest Release
+
+**2025.10.10** - Cross-platform support, enhanced caching, and 197 colorscripts
+
+## Documentation
+
+- 📖 [Quick Start Guide](QUICK_REFERENCE.md)
+- 📘 [Quick Reference](QUICKREFERENCE.md)
+- 📋 [Module Summary](docs/MODULE_SUMMARY.md)
+- 🔧 [Development Guide](docs/Development.md)
+- 📦 [Publishing Guide](docs/Publishing.md)
+- ✅ [Release Checklist](docs/ReleaseChecklist.md)
+- 🤝 [Contributing Guidelines](CONTRIBUTING.md)
+- 🔄 [Changelog](CHANGELOG.md)
+
+## CI/CD & Workflows
+
+- ⚙️ [Test Workflow](.github/workflows/test.yml)
+- 📦 [Publish Workflow](.github/workflows/publish.yml)
 
 ## Support
 
-For issues, questions, or contributions, please visit the GitHub repository.
+For issues, questions, or contributions, please visit the [GitHub repository](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced).
 
 ---
 

@@ -11,6 +11,10 @@ schema: 2.0.0
 
 Pre-build or refresh colorscript cache files for faster rendering.
 
+## DESCRIPTION
+
+`Build-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript`. You can target specific scripts by name (wildcards supported) or allow the cmdlet to cache the entire collection (the default behavior, equivalent to specifying `-All`). Results are returned as structured objects so you can inspect status, standard output, and error streams programmatically.
+
 ## SYNTAX
 
 ### All
@@ -25,19 +29,15 @@ Build-ColorScriptCache [-All] [-Force] [<CommonParameters>]
 Build-ColorScriptCache [-Name <String[]>] [-Force] [<CommonParameters>]
 ```
 
-## DESCRIPTION
-
-`Build-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript`. You can target specific scripts by name (wildcards supported) or cache the entire collection with `-All`. Results are returned as structured objects so you can inspect status, standard output, and error streams programmatically.
-
 ## EXAMPLES
 
 ### EXAMPLE 1
 
 ```powershell
-Build-ColorScriptCache -All
+Build-ColorScriptCache
 ```
 
-Warm the cache for every script that ships with the module.
+Warm the cache for every script that ships with the module. This is equivalent to explicitly providing `-All`.
 
 ### EXAMPLE 2
 
@@ -59,7 +59,7 @@ Force a rebuild even if the cache is newer than the source script and examine th
 
 ### -Name
 
-One or more script names to cache. Supports wildcards. When absent you must supply `-All`.
+One or more script names to cache. Supports wildcards. When this parameter is omitted, the cmdlet caches every available script by default (unless `-All` is explicitly set to `$false`).
 
 ```yaml
 Type: String[]
@@ -75,7 +75,7 @@ Accept wildcard characters: True
 
 ### -All
 
-Cache every available script.
+Cache every available script. This switch is optional because the cmdlet already defaults to caching everything when no names are supplied.
 
 ```yaml
 Type: SwitchParameter

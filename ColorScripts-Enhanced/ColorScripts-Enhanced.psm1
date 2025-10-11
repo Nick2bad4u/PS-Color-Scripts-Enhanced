@@ -1228,7 +1228,7 @@ Uses cached path resolution to execute color scripts and persist their output, h
 .PARAMETER Name
 One or more colorscript names to cache. Supports wildcard patterns and pipeline input.
 .PARAMETER All
-Cache every available script when specified.
+Cache every available script. When omitted and no names are supplied, all scripts are cached by default.
 .PARAMETER Force
 Rebuild caches even when the existing cache file is newer than the script source.
 #>
@@ -1264,6 +1264,7 @@ function Build-ColorScriptCache {
     end {
         $records = @()
         $selectedNames = $collectedNames.ToArray()
+        $allExplicitlyDisabled = $PSBoundParameters.ContainsKey('All') -and -not $All
 
         if ($selectedNames.Count -gt 0) {
             $allRecords = Get-ColorScriptEntry
@@ -1274,11 +1275,11 @@ function Build-ColorScriptCache {
 
             $records = $selection.Records
         }
-        elseif ($All) {
-            $records = Get-ColorScriptEntry
+        elseif ($allExplicitlyDisabled) {
+            throw "Specify -Name to select scripts when -All is explicitly disabled."
         }
         else {
-            throw "Specify -All or -Name to select scripts."
+            $records = Get-ColorScriptEntry
         }
 
         if (-not $records) {
@@ -1291,59 +1292,82 @@ function Build-ColorScriptCache {
         }
 
         $results = @()
+        $totalCount = $records.Count
+        $progressActivity = 'Building ColorScripts cache'
 
-        foreach ($record in $records) {
+        for ($index = 0; $index -lt $totalCount; $index++) {
+            $record = $records[$index]
             $cacheFile = Join-Path $script:CacheDir "$($record.Name).cache"
-            $status = 'Updated'
+            $percentComplete = if ($totalCount -eq 0) { 0 } else { [int](($index / [double]$totalCount) * 100) }
+            $statusMessage = "Processing {0}/{1}: {2}" -f ($index + 1), $totalCount, $record.Name
+            Write-Progress -Id 1 -Activity $progressActivity -Status $statusMessage -PercentComplete $percentComplete -CurrentOperation $record.Name
+
+            $entry = $null
+            $resultStatus = 'Updated'
 
             if (-not $Force -and (Test-Path -LiteralPath $cacheFile)) {
                 $scriptItem = Get-Item -LiteralPath $record.Path
                 $cacheItem = Get-Item -LiteralPath $cacheFile
                 if ($cacheItem.LastWriteTimeUtc -ge $scriptItem.LastWriteTimeUtc) {
-                    $status = 'SkippedUpToDate'
+                    $resultStatus = 'SkippedUpToDate'
+                    $entry = [pscustomobject]@{
+                        Name      = $record.Name
+                        Status    = $resultStatus
+                        CacheFile = $cacheFile
+                        ExitCode  = 0
+                        StdOut    = ''
+                        StdErr    = ''
+                    }
                 }
             }
 
-            if ($status -eq 'SkippedUpToDate') {
-                $results += [pscustomobject]@{
-                    Name      = $record.Name
-                    Status    = $status
-                    CacheFile = $cacheFile
-                    ExitCode  = 0
-                    StdOut    = ''
-                    StdErr    = ''
+            if (-not $entry) {
+                if (-not $PSCmdlet.ShouldProcess($record.Name, 'Build cache')) {
+                    $resultStatus = 'SkippedByUser'
+                    $entry = [pscustomobject]@{
+                        Name      = $record.Name
+                        Status    = $resultStatus
+                        CacheFile = $cacheFile
+                        ExitCode  = $null
+                        StdOut    = ''
+                        StdErr    = ''
+                    }
                 }
-                continue
-            }
+                else {
+                    $buildResult = Build-ScriptCache -ScriptPath $record.Path
+                    $resultStatus = if ($buildResult.Success) { 'Updated' } else { 'Failed' }
 
-            if (-not $PSCmdlet.ShouldProcess($record.Name, 'Build cache')) {
-                $results += [pscustomobject]@{
-                    Name      = $record.Name
-                    Status    = 'SkippedByUser'
-                    CacheFile = $cacheFile
-                    ExitCode  = $null
-                    StdOut    = ''
-                    StdErr    = ''
+                    if (-not $buildResult.Success -and $buildResult.StdErr) {
+                        Write-Warning "Failed to cache $($record.Name): $($buildResult.StdErr)"
+                    }
+
+                    $entry = [pscustomobject]@{
+                        Name      = $record.Name
+                        Status    = $resultStatus
+                        CacheFile = $buildResult.CacheFile
+                        ExitCode  = $buildResult.ExitCode
+                        StdOut    = $buildResult.StdOut
+                        StdErr    = $buildResult.StdErr
+                    }
                 }
-                continue
             }
 
-            $buildResult = Build-ScriptCache -ScriptPath $record.Path
-            $status = if ($buildResult.Success) { 'Updated' } else { 'Failed' }
+            $results += $entry
 
-            if (-not $buildResult.Success -and $buildResult.StdErr) {
-                Write-Warning "Failed to cache $($record.Name): $($buildResult.StdErr)"
+            $completionPercent = if ($totalCount -eq 0) { 100 } else { [int]((($index + 1) / [double]$totalCount) * 100) }
+            $statusSuffix = switch ($resultStatus) {
+                'Updated' { 'Cached' }
+                'SkippedUpToDate' { 'Skipped (up-to-date)' }
+                'SkippedByUser' { 'Skipped by user' }
+                'Failed' { 'Failed' }
+                default { $resultStatus }
             }
 
-            $results += [pscustomobject]@{
-                Name      = $record.Name
-                Status    = $status
-                CacheFile = $buildResult.CacheFile
-                ExitCode  = $buildResult.ExitCode
-                StdOut    = $buildResult.StdOut
-                StdErr    = $buildResult.StdErr
-            }
+            $completionMessage = "{0}/{1}: {2} - {3}" -f ($index + 1), $totalCount, $record.Name, $statusSuffix
+            Write-Progress -Id 1 -Activity $progressActivity -Status $completionMessage -PercentComplete $completionPercent -CurrentOperation $record.Name
         }
+
+        Write-Progress -Id 1 -Activity $progressActivity -Completed
 
         return [pscustomobject[]]$results
     }
