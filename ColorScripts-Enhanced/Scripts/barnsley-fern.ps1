@@ -1,8 +1,6 @@
 # Unique Concept: Barnsley fern fractal using iterated function system with probabilistic transformations.
 # Creates realistic fern shapes through chaos game method with affine transformations.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

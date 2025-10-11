@@ -685,8 +685,7 @@ function Get-ColorScriptMetadataTable {
         }
     }
 
-    $scripts = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" |
-        Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
+    $scripts = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1"
 
     foreach ($scriptFile in $scripts) {
         $name = $scriptFile.BaseName
@@ -804,8 +803,7 @@ function Get-ColorScriptEntry {
     )
 
     $metadata = Get-ColorScriptMetadataTable
-    $scripts = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" |
-        Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
+    $scripts = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1"
 
     $records = foreach ($script in $scripts) {
         $entry = if ($metadata.ContainsKey($script.BaseName)) { $metadata[$script.BaseName] } else { $null }
@@ -898,7 +896,7 @@ function Get-CachedOutput {
         [string]$ScriptPath
     )
 
-    if (-not (Test-Path $ScriptPath)) {
+    if (-not (Test-Path -LiteralPath $ScriptPath)) {
         return $false
     }
 
@@ -906,13 +904,13 @@ function Get-CachedOutput {
     $cacheFile = Join-Path $script:CacheDir "$scriptName.cache"
 
     # Check if cache exists and is valid
-    if (Test-Path $cacheFile) {
-        $scriptTime = (Get-Item $ScriptPath).LastWriteTime
-        $cacheTime = (Get-Item $cacheFile).LastWriteTime
+    if (Test-Path -LiteralPath $cacheFile) {
+        $scriptTime = (Get-Item -LiteralPath $ScriptPath).LastWriteTimeUtc
+        $cacheTime = (Get-Item -LiteralPath $cacheFile).LastWriteTimeUtc
 
         if ($scriptTime -le $cacheTime) {
             # Cache is valid - output it
-            $content = [System.IO.File]::ReadAllText($cacheFile)
+            $content = [System.IO.File]::ReadAllText($cacheFile, $script:Utf8NoBomEncoding)
             Invoke-WithUtf8Encoding -ScriptBlock {
                 param($text)
 
@@ -957,7 +955,7 @@ function Build-ScriptCache {
         StdErr     = ''
     }
 
-    if (-not (Test-Path $ScriptPath)) {
+    if (-not (Test-Path -LiteralPath $ScriptPath)) {
         $result.StdErr = "Script path not found."
         return $result
     }
@@ -991,7 +989,12 @@ function Build-ScriptCache {
         if ($process.ExitCode -eq 0) {
             [System.IO.File]::WriteAllText($cacheFile, $output, $script:Utf8NoBomEncoding)
             $scriptItem = Get-Item -LiteralPath $ScriptPath
-            [System.IO.File]::SetLastWriteTime($cacheFile, $scriptItem.LastWriteTime)
+            try {
+                [System.IO.File]::SetLastWriteTimeUtc($cacheFile, $scriptItem.LastWriteTimeUtc)
+            }
+            catch {
+                [System.IO.File]::SetLastWriteTime($cacheFile, $scriptItem.LastWriteTime)
+            }
             $result.Success = $true
         }
     }
@@ -1221,9 +1224,9 @@ function Get-ColorScriptList {
 Builds or refreshes the cache for one or more color scripts.
 .DESCRIPTION
 Uses cached path resolution to execute color scripts and persist their output, honoring Force, WhatIf, and ShouldProcess semantics.
- Accepts wildcard patterns so multiple scripts can be cached with a single command.
+ Accepts wildcard patterns so multiple scripts can be cached with a single command or streamed from the pipeline.
 .PARAMETER Name
-One or more colorscript names to cache. Supports wildcard patterns.
+One or more colorscript names to cache. Supports wildcard patterns and pipeline input.
 .PARAMETER All
 Cache every available script when specified.
 .PARAMETER Force
@@ -1233,7 +1236,7 @@ function Build-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache operation.')]
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
     param(
-        [Parameter()]
+        [Parameter(ValueFromPipeline, ValueFromPipelineByPropertyName)]
         [SupportsWildcards()]
         [string[]]$Name,
 
@@ -1244,89 +1247,106 @@ function Build-ColorScriptCache {
         [switch]$Force
     )
 
-    $records = @()
-
-    if ($Name) {
-        $allRecords = Get-ColorScriptEntry
-        $selection = Select-RecordsByName -Records $allRecords -Name $Name
-        foreach ($pattern in $selection.MissingPatterns) {
-            Write-Warning "Script not found: $pattern"
-        }
-
-        $records = $selection.Records
-    }
-    elseif ($All) {
-        $records = Get-ColorScriptEntry
-    }
-    else {
-        throw "Specify -All or -Name to select scripts."
+    begin {
+        $collectedNames = New-Object 'System.Collections.Generic.List[string]'
     }
 
-    if (-not $records) {
-        Write-Warning "No scripts selected for cache build."
-        return [System.Management.Automation.PSCustomObject[]]@()
-    }
-
-    if (-not $PSCmdlet.ShouldProcess($script:CacheDir, "Build cache for $($records.Count) script(s)")) {
-        return [System.Management.Automation.PSCustomObject[]]@()
-    }
-
-    $results = @()
-
-    foreach ($record in $records) {
-        $cacheFile = Join-Path $script:CacheDir "$($record.Name).cache"
-        $status = 'Updated'
-
-        if (-not $Force -and (Test-Path $cacheFile)) {
-            $scriptItem = Get-Item -LiteralPath $record.Path
-            $cacheItem = Get-Item -LiteralPath $cacheFile
-            if ($cacheItem.LastWriteTime -ge $scriptItem.LastWriteTime) {
-                $status = 'SkippedUpToDate'
+    process {
+        if ($Name) {
+            foreach ($value in $Name) {
+                if (-not [string]::IsNullOrWhiteSpace($value)) {
+                    $null = $collectedNames.Add($value)
+                }
             }
         }
+    }
 
-        if ($status -eq 'SkippedUpToDate') {
+    end {
+        $records = @()
+        $selectedNames = $collectedNames.ToArray()
+
+        if ($selectedNames.Count -gt 0) {
+            $allRecords = Get-ColorScriptEntry
+            $selection = Select-RecordsByName -Records $allRecords -Name $selectedNames
+            foreach ($pattern in $selection.MissingPatterns) {
+                Write-Warning "Script not found: $pattern"
+            }
+
+            $records = $selection.Records
+        }
+        elseif ($All) {
+            $records = Get-ColorScriptEntry
+        }
+        else {
+            throw "Specify -All or -Name to select scripts."
+        }
+
+        if (-not $records) {
+            Write-Warning "No scripts selected for cache build."
+            return [System.Management.Automation.PSCustomObject[]]@()
+        }
+
+        if (-not $PSCmdlet.ShouldProcess($script:CacheDir, "Build cache for $($records.Count) script(s)")) {
+            return [System.Management.Automation.PSCustomObject[]]@()
+        }
+
+        $results = @()
+
+        foreach ($record in $records) {
+            $cacheFile = Join-Path $script:CacheDir "$($record.Name).cache"
+            $status = 'Updated'
+
+            if (-not $Force -and (Test-Path -LiteralPath $cacheFile)) {
+                $scriptItem = Get-Item -LiteralPath $record.Path
+                $cacheItem = Get-Item -LiteralPath $cacheFile
+                if ($cacheItem.LastWriteTimeUtc -ge $scriptItem.LastWriteTimeUtc) {
+                    $status = 'SkippedUpToDate'
+                }
+            }
+
+            if ($status -eq 'SkippedUpToDate') {
+                $results += [pscustomobject]@{
+                    Name      = $record.Name
+                    Status    = $status
+                    CacheFile = $cacheFile
+                    ExitCode  = 0
+                    StdOut    = ''
+                    StdErr    = ''
+                }
+                continue
+            }
+
+            if (-not $PSCmdlet.ShouldProcess($record.Name, 'Build cache')) {
+                $results += [pscustomobject]@{
+                    Name      = $record.Name
+                    Status    = 'SkippedByUser'
+                    CacheFile = $cacheFile
+                    ExitCode  = $null
+                    StdOut    = ''
+                    StdErr    = ''
+                }
+                continue
+            }
+
+            $buildResult = Build-ScriptCache -ScriptPath $record.Path
+            $status = if ($buildResult.Success) { 'Updated' } else { 'Failed' }
+
+            if (-not $buildResult.Success -and $buildResult.StdErr) {
+                Write-Warning "Failed to cache $($record.Name): $($buildResult.StdErr)"
+            }
+
             $results += [pscustomobject]@{
                 Name      = $record.Name
                 Status    = $status
-                CacheFile = $cacheFile
-                ExitCode  = 0
-                StdOut    = ''
-                StdErr    = ''
+                CacheFile = $buildResult.CacheFile
+                ExitCode  = $buildResult.ExitCode
+                StdOut    = $buildResult.StdOut
+                StdErr    = $buildResult.StdErr
             }
-            continue
         }
 
-        if (-not $PSCmdlet.ShouldProcess($record.Name, 'Build cache')) {
-            $results += [pscustomobject]@{
-                Name      = $record.Name
-                Status    = 'SkippedByUser'
-                CacheFile = $cacheFile
-                ExitCode  = $null
-                StdOut    = ''
-                StdErr    = ''
-            }
-            continue
-        }
-
-        $buildResult = Build-ScriptCache -ScriptPath $record.Path
-        $status = if ($buildResult.Success) { 'Updated' } else { 'Failed' }
-
-        if (-not $buildResult.Success -and $buildResult.StdErr) {
-            Write-Warning "Failed to cache $($record.Name): $($buildResult.StdErr)"
-        }
-
-        $results += [pscustomobject]@{
-            Name      = $record.Name
-            Status    = $status
-            CacheFile = $buildResult.CacheFile
-            ExitCode  = $buildResult.ExitCode
-            StdOut    = $buildResult.StdOut
-            StdErr    = $buildResult.StdErr
-        }
+        return [pscustomobject[]]$results
     }
-
-    return [pscustomobject[]]$results
 }
 
 <#
@@ -1336,7 +1356,7 @@ Removes color script cache files with optional dry-run support.
 Clears cached script output for specific scripts or the entire cache directory while providing structured, scriptable results.
  Supports wildcard name patterns for batch operations while reporting unmatched patterns.
 .PARAMETER Name
-Names or wildcard patterns identifying cache files to remove.
+Names or wildcard patterns identifying cache files to remove. Accepts pipeline input and property binding.
 .PARAMETER All
 Remove every cache file in the target directory.
 .PARAMETER Path
@@ -1348,7 +1368,7 @@ function Clear-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache entry.')]
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
     param(
-        [Parameter()]
+        [Parameter(ValueFromPipeline, ValueFromPipelineByPropertyName)]
         [SupportsWildcards()]
         [string[]]$Name,
 
@@ -1362,100 +1382,161 @@ function Clear-ColorScriptCache {
         [switch]$DryRun
     )
 
-    if (-not $Name -and -not $All) {
-        throw "Specify -All or -Name to clear cache entries."
+    begin {
+        $collectedNames = New-Object 'System.Collections.Generic.List[string]'
     }
 
-    $targetRoot = if ($Path) { $Path } else { $script:CacheDir }
-
-    try {
-        $targetRoot = (Resolve-Path -Path $targetRoot -ErrorAction Stop).ProviderPath
+    process {
+        if ($Name) {
+            foreach ($value in $Name) {
+                if (-not [string]::IsNullOrWhiteSpace($value)) {
+                    $null = $collectedNames.Add($value)
+                }
+            }
+        }
     }
-    catch {
-        Write-Warning "Cache path not found: $targetRoot"
-        return [pscustomobject[]]@()
-    }
 
-    $results = @()
+    end {
+        $selectedNames = $collectedNames.ToArray()
 
-    if ($Name) {
-        $cacheFiles = Get-ChildItem -Path $targetRoot -Filter "*.cache" -File -ErrorAction SilentlyContinue
-        $cacheRecords = @()
-        if ($cacheFiles) {
+        if ($selectedNames.Count -eq 0 -and -not $All) {
+            throw "Specify -All or -Name to clear cache entries."
+        }
+
+        $targetRoot = if ($Path) { $Path } else { $script:CacheDir }
+
+        try {
+            $targetRoot = (Resolve-Path -LiteralPath $targetRoot -ErrorAction Stop).ProviderPath
+        }
+        catch {
+            Write-Warning "Cache path not found: $targetRoot"
+            return [pscustomobject[]]@()
+        }
+
+        $results = @()
+
+        if ($selectedNames.Count -gt 0) {
+            $cacheFiles = Get-ChildItem -LiteralPath $targetRoot -File -ErrorAction SilentlyContinue |
+                Where-Object { $_.Extension -eq '.cache' }
+            $cacheRecords = @()
+            if ($cacheFiles) {
+                foreach ($file in $cacheFiles) {
+                    $cacheRecords += [pscustomobject]@{
+                        Name      = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
+                        CacheFile = $file.FullName
+                    }
+                }
+            }
+
+            $selection = Select-RecordsByName -Records $cacheRecords -Name $selectedNames
+            $recordIndex = @{}
+            foreach ($entry in $selection.Records) {
+                $key = $entry.Name.ToLowerInvariant()
+                if (-not $recordIndex.ContainsKey($key)) {
+                    $recordIndex[$key] = $entry
+                }
+            }
+
+            $processedNames = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+
+            foreach ($patternInfo in $selection.MatchMap) {
+                if (-not $patternInfo.Matched) {
+                    $results += [pscustomobject]@{
+                        Name      = $patternInfo.Pattern
+                        CacheFile = Join-Path -Path $targetRoot -ChildPath ("{0}.cache" -f $patternInfo.Pattern)
+                        Status    = 'Missing'
+                        Message   = 'Cache file not found.'
+                    }
+                    continue
+                }
+
+                foreach ($matchedName in $patternInfo.Matches) {
+                    if (-not $processedNames.Add($matchedName)) {
+                        continue
+                    }
+
+                    $lookupKey = $matchedName.ToLowerInvariant()
+                    $entry = if ($recordIndex.ContainsKey($lookupKey)) { $recordIndex[$lookupKey] } else { $null }
+
+                    if (-not $entry) {
+                        $results += [pscustomobject]@{
+                            Name      = $matchedName
+                            CacheFile = Join-Path -Path $targetRoot -ChildPath ("{0}.cache" -f $matchedName)
+                            Status    = 'Missing'
+                            Message   = 'Cache file not found.'
+                        }
+                        continue
+                    }
+
+                    $cacheFile = $entry.CacheFile
+
+                    if (-not (Test-Path -LiteralPath $cacheFile)) {
+                        $results += [pscustomobject]@{
+                            Name      = $matchedName
+                            CacheFile = $cacheFile
+                            Status    = 'Missing'
+                            Message   = 'Cache file not found.'
+                        }
+                        continue
+                    }
+
+                    if (-not $PSCmdlet.ShouldProcess($cacheFile, 'Clear cache')) {
+                        $results += [pscustomobject]@{
+                            Name      = $matchedName
+                            CacheFile = $cacheFile
+                            Status    = 'SkippedByUser'
+                            Message   = ''
+                        }
+                        continue
+                    }
+
+                    if ($DryRun) {
+                        $results += [pscustomobject]@{
+                            Name      = $matchedName
+                            CacheFile = $cacheFile
+                            Status    = 'DryRun'
+                            Message   = 'No changes applied.'
+                        }
+                        continue
+                    }
+
+                    try {
+                        Remove-Item -LiteralPath $cacheFile -Force -ErrorAction Stop
+                        $results += [pscustomobject]@{
+                            Name      = $matchedName
+                            CacheFile = $cacheFile
+                            Status    = 'Removed'
+                            Message   = ''
+                        }
+                    }
+                    catch {
+                        $results += [pscustomobject]@{
+                            Name      = $matchedName
+                            CacheFile = $cacheFile
+                            Status    = 'Error'
+                            Message   = $_.Exception.Message
+                        }
+                    }
+                }
+            }
+        }
+        else {
+            $cacheFiles = Get-ChildItem -LiteralPath $targetRoot -File -ErrorAction SilentlyContinue |
+                Where-Object { $_.Extension -eq '.cache' }
+            if (-not $cacheFiles) {
+                Write-Warning "No cache files found at $targetRoot."
+                return [System.Management.Automation.PSCustomObject[]]@()
+            }
+
+            if (-not $PSCmdlet.ShouldProcess($targetRoot, "Clear $($cacheFiles.Count) cache file(s)")) {
+                return [System.Management.Automation.PSCustomObject[]]@()
+            }
+
             foreach ($file in $cacheFiles) {
-                $cacheRecords += [pscustomobject]@{
-                    Name      = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
-                    CacheFile = $file.FullName
-                }
-            }
-        }
-
-        $selection = Select-RecordsByName -Records $cacheRecords -Name $Name
-        $recordIndex = @{}
-        foreach ($entry in $selection.Records) {
-            $key = $entry.Name.ToLowerInvariant()
-            if (-not $recordIndex.ContainsKey($key)) {
-                $recordIndex[$key] = $entry
-            }
-        }
-
-        $processedNames = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
-
-        foreach ($patternInfo in $selection.MatchMap) {
-            if (-not $patternInfo.Matched) {
-                $results += [pscustomobject]@{
-                    Name      = $patternInfo.Pattern
-                    CacheFile = Join-Path -Path $targetRoot -ChildPath ("{0}.cache" -f $patternInfo.Pattern)
-                    Status    = 'Missing'
-                    Message   = 'Cache file not found.'
-                }
-                continue
-            }
-
-            foreach ($matchedName in $patternInfo.Matches) {
-                if (-not $processedNames.Add($matchedName)) {
-                    continue
-                }
-
-                $lookupKey = $matchedName.ToLowerInvariant()
-                $entry = if ($recordIndex.ContainsKey($lookupKey)) { $recordIndex[$lookupKey] } else { $null }
-
-                if (-not $entry) {
-                    $results += [pscustomobject]@{
-                        Name      = $matchedName
-                        CacheFile = Join-Path -Path $targetRoot -ChildPath ("{0}.cache" -f $matchedName)
-                        Status    = 'Missing'
-                        Message   = 'Cache file not found.'
-                    }
-                    continue
-                }
-
-                $cacheFile = $entry.CacheFile
-
-                if (-not (Test-Path -LiteralPath $cacheFile)) {
-                    $results += [pscustomobject]@{
-                        Name      = $matchedName
-                        CacheFile = $cacheFile
-                        Status    = 'Missing'
-                        Message   = 'Cache file not found.'
-                    }
-                    continue
-                }
-
-                if (-not $PSCmdlet.ShouldProcess($cacheFile, 'Clear cache')) {
-                    $results += [pscustomobject]@{
-                        Name      = $matchedName
-                        CacheFile = $cacheFile
-                        Status    = 'SkippedByUser'
-                        Message   = ''
-                    }
-                    continue
-                }
-
                 if ($DryRun) {
                     $results += [pscustomobject]@{
-                        Name      = $matchedName
-                        CacheFile = $cacheFile
+                        Name      = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
+                        CacheFile = $file.FullName
                         Status    = 'DryRun'
                         Message   = 'No changes applied.'
                     }
@@ -1463,68 +1544,27 @@ function Clear-ColorScriptCache {
                 }
 
                 try {
-                    Remove-Item -LiteralPath $cacheFile -Force -ErrorAction Stop
+                    Remove-Item -LiteralPath $file.FullName -Force -ErrorAction Stop
                     $results += [pscustomobject]@{
-                        Name      = $matchedName
-                        CacheFile = $cacheFile
+                        Name      = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
+                        CacheFile = $file.FullName
                         Status    = 'Removed'
                         Message   = ''
                     }
                 }
                 catch {
                     $results += [pscustomobject]@{
-                        Name      = $matchedName
-                        CacheFile = $cacheFile
+                        Name      = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
+                        CacheFile = $file.FullName
                         Status    = 'Error'
                         Message   = $_.Exception.Message
                     }
                 }
             }
         }
+
+        return [pscustomobject[]]$results
     }
-    else {
-        $cacheFiles = Get-ChildItem -Path $targetRoot -Filter "*.cache" -File -ErrorAction SilentlyContinue
-        if (-not $cacheFiles) {
-            Write-Warning "No cache files found at $targetRoot."
-            return [System.Management.Automation.PSCustomObject[]]@()
-        }
-
-        if (-not $PSCmdlet.ShouldProcess($targetRoot, "Clear $($cacheFiles.Count) cache file(s)")) {
-            return [System.Management.Automation.PSCustomObject[]]@()
-        }
-
-        foreach ($file in $cacheFiles) {
-            if ($DryRun) {
-                $results += [pscustomobject]@{
-                    Name      = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
-                    CacheFile = $file.FullName
-                    Status    = 'DryRun'
-                    Message   = 'No changes applied.'
-                }
-                continue
-            }
-
-            try {
-                Remove-Item -LiteralPath $file.FullName -Force -ErrorAction Stop
-                $results += [pscustomobject]@{
-                    Name      = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
-                    CacheFile = $file.FullName
-                    Status    = 'Removed'
-                    Message   = ''
-                }
-            }
-            catch {
-                $results += [pscustomobject]@{
-                    Name      = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
-                    CacheFile = $file.FullName
-                    Status    = 'Error'
-                    Message   = $_.Exception.Message
-                }
-            }
-        }
-    }
-
-    return [pscustomobject[]]$results
 }
 
 function Add-ColorScriptProfile {

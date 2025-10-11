@@ -1,6 +1,4 @@
 # Nerd Font Test - Showcases popular Nerd Font glyphs and icons
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $esc = [char]27
 

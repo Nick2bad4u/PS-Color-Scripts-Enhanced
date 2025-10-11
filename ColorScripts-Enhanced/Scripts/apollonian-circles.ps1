@@ -1,8 +1,6 @@
 # Unique Concept: Apollonian gasket - recursive circle packing where each gap contains tangent circles.
 # Creates intricate fractal patterns with Descartes Circle Theorem for curvature calculations.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

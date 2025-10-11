@@ -1,6 +1,4 @@
 # Unicode Showcase - Beautiful display of various Unicode glyphs and symbols
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $esc = [char]27
 

@@ -1,6 +1,3 @@
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
-
 $T = 'gYw'   # The test text
 $esc = [char]27
 

@@ -1,8 +1,6 @@
 # Unique Concept: Julia set with morphing constant parameter creating multi-frame animation effect.
 # The constant C rotates in complex plane, creating a dynamic transformation of the fractal structure.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

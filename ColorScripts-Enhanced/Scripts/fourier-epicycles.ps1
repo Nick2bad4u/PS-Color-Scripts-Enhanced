@@ -1,8 +1,6 @@
 # Unique Concept: Fourier epicycles drawing a path - multiple circles rotating to trace a complex curve.
 # Demonstrates how combining circular motions at different frequencies creates intricate patterns.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

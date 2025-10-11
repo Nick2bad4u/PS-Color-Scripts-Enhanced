@@ -1,8 +1,6 @@
 # Unique Concept: Starfield warp effect with motion blur and relativistic color shifting.
 # Stars stream past with velocity-based trails creating a hyperspace jump visual.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

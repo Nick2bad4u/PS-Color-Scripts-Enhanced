@@ -1,8 +1,6 @@
 # Unique Concept: Pythagorean tree fractal - squares branching at right angles creating organic growth.
 # Each square spawns two smaller squares rotated 45° creating a tree-like structure.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

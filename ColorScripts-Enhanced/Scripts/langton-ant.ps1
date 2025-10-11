@@ -1,8 +1,6 @@
 # Unique Concept: Langton's Ant - a cellular automaton where an "ant" creates emergent ordered patterns from chaos.
 # The ant follows simple rules: turn right on white, left on black, flip color, move forward.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

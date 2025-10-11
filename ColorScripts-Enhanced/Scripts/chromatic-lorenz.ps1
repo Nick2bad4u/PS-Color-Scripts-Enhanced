@@ -1,7 +1,5 @@
 # Unique Concept: Lorenz attractor plotted across a terminal grid with time-coded hues and speed-weighted highlights.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

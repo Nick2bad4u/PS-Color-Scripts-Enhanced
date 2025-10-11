@@ -1,8 +1,6 @@
 # Unique Concept: N-body gravitational simulation showing orbital mechanics and gravitational lensing effects.
 # Multiple masses interact via Newton's law of gravitation, creating dynamic orbital patterns.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

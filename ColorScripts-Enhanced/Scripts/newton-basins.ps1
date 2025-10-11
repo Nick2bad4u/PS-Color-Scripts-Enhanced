@@ -1,8 +1,6 @@
 # Unique Concept: Newton's method visualization for finding polynomial roots in the complex plane.
 # Colors show which root each point converges to, creating beautiful basin boundaries.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

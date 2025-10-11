@@ -1,8 +1,6 @@
 # Unique Concept: 3D Perlin noise slice with multi-octave turbulence creating organic cloud-like formations.
 # Samples noise at different frequencies and combines them for detailed terrain-like patterns.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

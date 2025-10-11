@@ -1,7 +1,5 @@
 # Unique Concept: Time-synchronized diagonal tiling that reorients with seconds and recolors by hour.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

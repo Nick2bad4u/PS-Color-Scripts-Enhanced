@@ -1,6 +1,3 @@
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
-
 $esc = [char]27
 
 $white = "$esc[38;2;255;255;255m"

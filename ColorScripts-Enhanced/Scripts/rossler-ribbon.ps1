@@ -1,8 +1,6 @@
 # Unique Concept: Rössler attractor - a chaotic system creating ribbon-like patterns in 3D space.
 # Projects the attractor onto 2D with depth-based coloring showing the folded structure.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

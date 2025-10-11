@@ -1,8 +1,6 @@
 # Unique Concept: Circle packing algorithm with growing circles filling space organically.
 # Circles expand until touching neighbors creating an efficient space-filling pattern.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

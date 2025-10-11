@@ -1,8 +1,6 @@
 # Unique Concept: Koch snowflake fractal with multiple iterations showing self-similarity.
 # Recursive edge replacement creates increasingly complex hexagonal crystal structure.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27
@@ -48,10 +46,10 @@ function Get-KochPoint {
 
     # Recursively process four segments
     $result = @()
-    $result += Get-KochPoints -P1 $P1 -P2 $a -Depth ($Depth - 1)
-    $result += Get-KochPoints -P1 $a -P2 $peak -Depth ($Depth - 1)
-    $result += Get-KochPoints -P1 $peak -P2 $b -Depth ($Depth - 1)
-    $result += Get-KochPoints -P1 $b -P2 $P2 -Depth ($Depth - 1)
+    $result += Get-KochPoint -P1 $P1 -P2 $a -Depth ($Depth - 1)
+    $result += Get-KochPoint -P1 $a -P2 $peak -Depth ($Depth - 1)
+    $result += Get-KochPoint -P1 $peak -P2 $b -Depth ($Depth - 1)
+    $result += Get-KochPoint -P1 $b -P2 $P2 -Depth ($Depth - 1)
 
     return $result
 }
@@ -70,9 +68,9 @@ $p3 = @{ X = $centerX + $size; Y = $centerY + $size * 0.289 }
 
 # Generate Koch curve for each edge
 $depth = 4
-$edge1 = Get-KochPoints -P1 $p1 -P2 $p2 -Depth $depth
-$edge2 = Get-KochPoints -P1 $p2 -P2 $p3 -Depth $depth
-$edge3 = Get-KochPoints -P1 $p3 -P2 $p1 -Depth $depth
+$edge1 = Get-KochPoint -P1 $p1 -P2 $p2 -Depth $depth
+$edge2 = Get-KochPoint -P1 $p2 -P2 $p3 -Depth $depth
+$edge3 = Get-KochPoint -P1 $p3 -P2 $p1 -Depth $depth
 
 $allPoints = $edge1 + $edge2 + $edge3
 

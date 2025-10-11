@@ -102,8 +102,7 @@ Describe "ColorScripts-Enhanced Module" {
             $scriptsPath = Join-Path -Path $PSScriptRoot -ChildPath ".."
             $scriptsPath = Join-Path -Path $scriptsPath -ChildPath "ColorScripts-Enhanced"
             $scriptsPath = Join-Path -Path $scriptsPath -ChildPath "Scripts"
-            $scripts = Get-ChildItem $scriptsPath -Filter "*.ps1" |
-                Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
+            $scripts = Get-ChildItem $scriptsPath -Filter "*.ps1"
             $scripts.Count | Should -BeGreaterThan 0
         }
     }
@@ -162,6 +161,60 @@ Describe "ColorScripts-Enhanced Module" {
                 $bytes[1] | Should -Not -Be 0xBB
                 $bytes[2] | Should -Not -Be 0xBF
             }
+        }
+
+        It "Should render cached output without re-executing the script" {
+            Clear-ColorScriptCache -Name "bars" -Confirm:$false | Out-Null
+            Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null
+
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+            Test-Path $cacheFile | Should -Be $true
+            $cachedText = [System.IO.File]::ReadAllText($cacheFile)
+
+            Mock -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced {
+                throw "Build-ScriptCache should not run when cache is valid."
+            }
+
+            $stringWriter = $null
+            $originalOut = $null
+            $consoleRedirected = $false
+
+            try {
+                $stringWriter = New-Object System.IO.StringWriter
+                $originalOut = [Console]::Out
+                [Console]::SetOut($stringWriter)
+                $consoleRedirected = $true
+            }
+            catch [System.IO.IOException] {
+                $consoleRedirected = $false
+                $stringWriter = $null
+            }
+
+            $executionOutput = $null
+            try {
+                $executionOutput = Show-ColorScript -Name "bars" -ErrorAction Stop
+            }
+            finally {
+                if ($consoleRedirected -and $originalOut) {
+                    [Console]::SetOut($originalOut)
+                }
+            }
+
+            Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+
+            if ($consoleRedirected -and $stringWriter) {
+                $stringWriter.Flush()
+                $renderedOutput = $stringWriter.ToString()
+            }
+            elseif ($executionOutput) {
+                $renderedOutput = ($executionOutput -join [Environment]::NewLine)
+            }
+            else {
+                $renderedOutput = $null
+            }
+
+            $renderedOutput | Should -Not -BeNullOrEmpty
+            $renderedOutput | Should -BeExactly $cachedText
         }
 
         It "Should clear specific cache" {
@@ -321,6 +374,22 @@ Describe "ColorScripts-Enhanced Module" {
         It "Should support -Force parameter" {
             { Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop } | Should -Not -Throw
         }
+
+        It "Should accept pipeline input" {
+            $result = @('bars', 'aurora-storm') | Build-ColorScriptCache -Force -ErrorAction Stop
+            $result | Should -Not -BeNullOrEmpty
+            ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
+            ($result | Select-Object -ExpandProperty Name) | Should -Contain 'aurora-storm'
+        }
+
+        It "Should accept pipeline objects" {
+            $records = Get-ColorScriptList -AsObject -Name 'bars', 'aurora-storm'
+            $records | Should -Not -BeNullOrEmpty
+            $result = $records | Build-ColorScriptCache -Force -ErrorAction Stop
+            $result | Should -Not -BeNullOrEmpty
+            ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
+            ($result | Select-Object -ExpandProperty Name) | Should -Contain 'aurora-storm'
+        }
     }
 
     Context "Clear-ColorScriptCache Function" {
@@ -351,6 +420,24 @@ Describe "ColorScripts-Enhanced Module" {
             finally {
                 if (Test-Path $tempDir) { Remove-Item $tempDir -Recurse -Force }
             }
+        }
+
+        It "Should accept pipeline input" {
+            Build-ColorScriptCache -Name 'bars', 'aurora-storm' -Force -ErrorAction Stop | Out-Null
+            $result = @('bars', 'aurora-storm') | Clear-ColorScriptCache -Confirm:$false
+            $result | Should -Not -BeNullOrEmpty
+            ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
+            ($result | Select-Object -ExpandProperty Name) | Should -Contain 'aurora-storm'
+        }
+
+        It "Should accept pipeline objects" {
+            Build-ColorScriptCache -Name 'bars', 'aurora-storm' -Force -ErrorAction Stop | Out-Null
+            $records = Get-ColorScriptList -AsObject -Name 'bars', 'aurora-storm'
+            $records | Should -Not -BeNullOrEmpty
+            $result = $records | Clear-ColorScriptCache -Confirm:$false
+            $result | Should -Not -BeNullOrEmpty
+            ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
+            ($result | Select-Object -ExpandProperty Name) | Should -Contain 'aurora-storm'
         }
     }
 
@@ -462,7 +549,7 @@ Describe "Script Quality" {
     Context "Script Files" {
         BeforeAll {
             $scriptsPath = "$PSScriptRoot\..\ColorScripts-Enhanced\Scripts"
-            $script:TestScripts = Get-ChildItem $scriptsPath -Filter "*.ps1" | Where-Object { $_.Name -ne 'ColorScriptCache.ps1' } | Select-Object -First 5
+            $script:TestScripts = Get-ChildItem $scriptsPath -Filter "*.ps1" | Select-Object -First 5
         }
 
         It "Scripts should use UTF-8 encoding" {
@@ -471,11 +558,10 @@ Describe "Script Quality" {
             }
         }
 
-        It "Scripts should have cache check header" {
+        It "Scripts should not reference legacy cache stub" {
             foreach ($script in $script:TestScripts) {
                 $content = Get-Content $script.FullName -Raw
-                if ($content -notmatch 'Write-Host') { continue } # Skip empty/non-output scripts
-                $content | Should -Match 'ColorScriptCache'
+                $content | Should -Not -Match 'ColorScriptCache'
             }
         }
     }

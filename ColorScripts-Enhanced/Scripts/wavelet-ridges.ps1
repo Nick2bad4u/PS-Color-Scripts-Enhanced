@@ -1,7 +1,5 @@
 # Unique Concept: Superposition of rotated Gabor wavelets forming colorized ridges with gradient-oriented glyphs.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

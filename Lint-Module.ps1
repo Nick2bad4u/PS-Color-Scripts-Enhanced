@@ -22,7 +22,6 @@ if (-not $PSBoundParameters.ContainsKey('Path')) {
     $Path = @(
         Join-Path $moduleRoot 'ColorScripts-Enhanced.psm1'
         Join-Path $moduleRoot 'ColorScripts-Enhanced.psd1'
-        Join-Path $moduleRoot 'ColorScriptCache.ps1'
         Join-Path $moduleRoot 'Install.ps1'
         Join-Path $PSScriptRoot 'Test-Module.ps1'
         Join-Path $PSScriptRoot 'Build-Help.ps1'

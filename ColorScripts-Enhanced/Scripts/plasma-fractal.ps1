@@ -1,8 +1,6 @@
 # Unique Concept: Plasma fractal using diamond-square algorithm for terrain-like color gradients.
 # Generates organic noise patterns through recursive midpoint displacement with interpolated colors.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

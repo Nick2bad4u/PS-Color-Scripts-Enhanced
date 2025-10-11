@@ -1,8 +1,6 @@
 # Unique Concept: Deep Mandelbrot set visualization with iteration-based color cycling and escape velocity gradients.
 # Uses cardioid and bulb optimization for faster rendering and smooth HSV color mapping.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

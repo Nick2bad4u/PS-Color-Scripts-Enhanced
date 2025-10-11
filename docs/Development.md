@@ -70,11 +70,10 @@ pwsh -NoProfile -Command "& .\scripts\Lint-PS7.ps1"  # PowerShell 7 only
 ### Add a New Colorscript
 
 1. Create `ColorScripts-Enhanced/Scripts/<name>.ps1`
-2. Include cache header: `if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }`
-3. Use UTF-8 encoding without BOM
-4. Test via `Show-ColorScript -Name <name>`
-5. Add to `ScriptMetadata.psd1` if needed (category/difficulty)
-6. Update docs/tests as appropriate and run lint/tests before committing
+2. Use UTF-8 encoding without BOM
+3. Test via `Show-ColorScript -Name <name>`
+4. Add to `ScriptMetadata.psd1` if needed (category/difficulty)
+5. Update docs/tests as appropriate and run lint/tests before committing
 
 > Tip: Reuse `Add-ColorScriptProfile` when scripts need to manipulate PowerShell profiles to avoid duplicating logic.
 

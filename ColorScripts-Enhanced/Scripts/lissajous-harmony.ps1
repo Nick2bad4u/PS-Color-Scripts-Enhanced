@@ -1,8 +1,6 @@
 # Unique Concept: Lissajous curves with varying frequency ratios creating intricate harmonic patterns.
 # Parametric equations x = A*sin(at + δ), y = B*sin(bt) with different phase relationships.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

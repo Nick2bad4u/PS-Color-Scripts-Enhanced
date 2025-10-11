@@ -96,8 +96,7 @@ Test-Function "Scripts directory exists" {
 # Test 5: Scripts are present
 Test-Function "Colorscripts are available" {
     $scriptsPath = Join-Path $PSScriptRoot "ColorScripts-Enhanced\Scripts"
-    $scripts = Get-ChildItem $scriptsPath -Filter "*.ps1" |
-        Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
+    $scripts = Get-ChildItem $scriptsPath -Filter "*.ps1"
     if ($scripts.Count -eq 0) {
         throw "No colorscripts found"
     }

@@ -1,7 +1,5 @@
 # Unique Concept: Diffusion-limited aggregation nebula with distance-graded spectral cores and soft particulate halo.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

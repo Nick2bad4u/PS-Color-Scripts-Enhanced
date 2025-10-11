@@ -216,9 +216,6 @@ If output is misaligned:
 ### 10. **Best Practices Template**
 
 ```powershell
-# Check cache first for instant output
-if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
-
 $esc = [char]27
 
 # Define all colors

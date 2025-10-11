@@ -1,8 +1,6 @@
 # Unique Concept: Hexagonal maze generation using recursive division with colored path finding.
 # Creates a hex-tiled labyrinth with gradient coloring showing distance from center.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

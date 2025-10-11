@@ -1,7 +1,5 @@
 # Unique Concept: Signed-distance fusion of a neon orb, warped ring, and ribbon petals with normal-oriented highlights.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

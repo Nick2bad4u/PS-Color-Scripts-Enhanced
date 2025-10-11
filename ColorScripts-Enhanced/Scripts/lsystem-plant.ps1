@@ -1,8 +1,6 @@
 # Unique Concept: L-system fractal tree with branching rules and angle variations.
 # Uses string rewriting to generate plant-like structures with recursive growth patterns.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

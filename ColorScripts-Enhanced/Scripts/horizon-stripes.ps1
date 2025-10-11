@@ -1,6 +1,4 @@
 # Horizon Stripes - bold layers fading toward the skyline
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $esc = [char]27
 $reset = "$esc[0m"

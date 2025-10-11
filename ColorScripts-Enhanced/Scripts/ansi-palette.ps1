@@ -1,6 +1,4 @@
 # ANSI Palette - Comprehensive 256-color palette display
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $esc = [char]27
 

@@ -1,8 +1,6 @@
 # Unique Concept: Clifford attractor with particle trail accumulation and velocity-based color intensity.
 # Creates organic flowing patterns using the equations: x' = sin(a*y) + c*cos(a*x), y' = sin(b*x) + d*cos(b*y)
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

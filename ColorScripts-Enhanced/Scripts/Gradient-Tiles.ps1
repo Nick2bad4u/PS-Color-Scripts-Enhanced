@@ -1,7 +1,5 @@
 # Gradient Tiles: 2D block gradient using 24-bit color.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $esc = [char]27
 $rows = 8

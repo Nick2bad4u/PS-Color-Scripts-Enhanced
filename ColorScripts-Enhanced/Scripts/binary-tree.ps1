@@ -1,8 +1,6 @@
 # Unique Concept: Recursive binary tree fractal with asymmetric branching and autumn colors.
 # Each branch splits into two with varying angles creating an organic tree structure.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

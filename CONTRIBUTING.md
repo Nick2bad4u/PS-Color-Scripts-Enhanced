@@ -41,9 +41,6 @@ By participating in this project, you agree to maintain a respectful and inclusi
 
    ```powershell
    # Script Name - Brief description
-   # Check cache first for instant output
-   if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
-
    # Your colorscript code here
    Write-Host "Beautiful ANSI art" -ForegroundColor Green
    ```
@@ -216,7 +213,6 @@ ps-color-scripts-enhanced/
 ├── ColorScripts-Enhanced/
 │   ├── ColorScripts-Enhanced.psd1    # Module manifest
 │   ├── ColorScripts-Enhanced.psm1    # Module code
-│   ├── ColorScriptCache.ps1          # Cache helper
 │   ├── en-US/                         # Help files
 │   │   ├── about_ColorScripts-Enhanced.help.txt
 │   │   ├── Show-ColorScript.md
@@ -226,7 +222,7 @@ ps-color-scripts-enhanced/
 │   └── Scripts/                       # Colorscript files
 │       ├── hearts.ps1
 │       ├── mandelbrot-zoom.ps1
-│       └── ...
+│       └── ...                        # Render logic only; caching handled by module
 ├── build.ps1                          # Build script
 ├── README.md                          # Main documentation
 ├── RELEASENOTES.md                    # Version history

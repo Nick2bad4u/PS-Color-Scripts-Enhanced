@@ -1,7 +1,5 @@
 # Unique Concept: Symmetric spectral inkblot built from stochastic noise with iterative smoothing and mirrored diffusion.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

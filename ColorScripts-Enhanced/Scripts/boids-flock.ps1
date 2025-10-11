@@ -1,8 +1,6 @@
 # Unique Concept: Boids flocking algorithm - simulates bird/fish swarm behavior with cohesion, separation, and alignment.
 # Each boid follows three rules creating emergent collective motion patterns colored by velocity and density.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

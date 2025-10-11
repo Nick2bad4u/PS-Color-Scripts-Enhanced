@@ -1,6 +1,4 @@
 # Amiga Classic ASCII
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $art = @'
                      ___..-.---.---.--..___

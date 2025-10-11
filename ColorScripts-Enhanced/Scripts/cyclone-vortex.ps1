@@ -1,8 +1,6 @@
 # Unique Concept: Particle cyclone with centripetal force creating a swirling vortex.
 # Particles spiral inward with velocity-based streaking and density gradients.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

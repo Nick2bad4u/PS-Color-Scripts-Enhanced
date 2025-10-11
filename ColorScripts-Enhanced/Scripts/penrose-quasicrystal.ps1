@@ -1,8 +1,6 @@
 # Unique Concept: Penrose tiling with Rhombus tiles creating non-periodic quasicrystal patterns.
 # Uses substitution rules to generate the iconic aperiodic tiling with fivefold symmetry.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

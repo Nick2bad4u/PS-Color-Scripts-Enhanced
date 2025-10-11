@@ -1,8 +1,6 @@
 # Unique Concept: Verlet physics rope simulation with hanging chains and wave propagation.
 # Shows connected particles with constraint satisfaction creating realistic swaying motion.
 
-# Check cache first for instant output
-if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27
