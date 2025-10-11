@@ -239,7 +239,7 @@ Describe "ColorScripts-Enhanced Module" {
 
             $executionOutput = $null
             try {
-                $executionOutput = Show-ColorScript -Name "bars" -ErrorAction Stop
+                $executionOutput = Show-ColorScript -Name "bars" -ReturnText -ErrorAction Stop
             }
             finally {
                 if ($consoleRedirected -and $originalOut) {
@@ -253,7 +253,7 @@ Describe "ColorScripts-Enhanced Module" {
                 $stringWriter.Flush()
                 $renderedOutput = $stringWriter.ToString()
             }
-            elseif ($executionOutput) {
+            if (-not $renderedOutput -and $executionOutput) {
                 $renderedOutput = ($executionOutput -join [Environment]::NewLine)
             }
             else {

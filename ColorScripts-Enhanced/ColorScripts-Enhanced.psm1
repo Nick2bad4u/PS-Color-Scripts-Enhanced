@@ -1120,6 +1120,8 @@ function Show-ColorScript {
         Filter the available script set by tag metadata (case-insensitive).
     .PARAMETER PassThru
         Return the selected script metadata in addition to rendering output.
+    .PARAMETER ReturnText
+        Emit the rendered colorscript as pipeline output instead of writing directly to the console.
 
     .EXAMPLE
         Show-ColorScript
@@ -1165,7 +1167,11 @@ function Show-ColorScript {
 
         [Parameter(ParameterSetName = 'Named')]
         [Parameter(ParameterSetName = 'Random')]
-        [switch]$PassThru
+        [switch]$PassThru,
+
+        [Parameter()]
+        [Alias('AsString')]
+        [switch]$ReturnText
     )
 
     # Handle list request
@@ -1254,20 +1260,32 @@ function Show-ColorScript {
         $renderedOutput = ''
     }
 
-    $displayText = Invoke-WithUtf8Encoding -ScriptBlock {
-        param($text)
+    $pipelineBoundParameters = $PSCmdlet.MyInvocation.BoundParameters
+    $pipelineLength = $PSCmdlet.MyInvocation.PipelineLength
+    $shouldEmitText = $ReturnText.IsPresent -or [Console]::IsOutputRedirected
+
+    if (-not $shouldEmitText -and -not $PassThru) {
+        if ($pipelineLength -gt 1 -or $pipelineBoundParameters.ContainsKey('OutVariable') -or $pipelineBoundParameters.ContainsKey('PipelineVariable')) {
+            $shouldEmitText = $true
+        }
+    }
+
+    Invoke-WithUtf8Encoding -ScriptBlock {
+        param($text, $emitText)
+
+        if ($emitText) {
+            Write-Output $text
+            return
+        }
 
         try {
             [Console]::Write($text)
         }
         catch [System.IO.IOException] {
-            Write-Verbose 'Console handle unavailable during cached render; outputting via pipeline only.'
+            Write-Verbose 'Console handle unavailable during cached render; writing rendered text to the pipeline.'
+            Write-Output $text
         }
-
-        Write-Output $text
-    } -Arguments $renderedOutput
-
-    Write-Output $displayText
+    } -Arguments @($renderedOutput, $shouldEmitText)
 
     if ($PassThru) {
         return $selection

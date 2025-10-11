@@ -16,13 +16,13 @@ Displays a colorscript with automatic caching.
 ### Random (Default)
 
 ```
-Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru] [<CommonParameters>]
+Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru] [-ReturnText] [<CommonParameters>]
 ```
 
 ### Named
 
 ```
-Show-ColorScript [-Name] <String> [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru] [<CommonParameters>]
+Show-ColorScript [-Name] <String> [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru] [-ReturnText] [<CommonParameters>]
 ```
 
 ### List
@@ -96,6 +96,14 @@ Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category
 ```
 
 Display a random nature-themed script and capture the metadata for further use.
+
+### EXAMPLE 8
+
+```powershell
+Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt
+```
+
+Emit the rendered colorscript as plain text so it can be redirected or saved.
 
 ## PARAMETERS
 
@@ -211,6 +219,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ReturnText
+
+Emit the rendered colorscript as pipeline output instead of writing directly to the console. This is useful when you want to capture the rendered text or redirect it to another command.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: Random, Named
+Aliases: AsString
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
@@ -225,7 +249,7 @@ You can pipe script names to Show-ColorScript.
 
 ### System.Object
 
-Returns the selected script record when `-PassThru` is specified. Otherwise the cmdlet writes the rendered colorscript to the host.
+Returns the selected script record when `-PassThru` is specified. When `-ReturnText` is used, the rendered colorscript is emitted to the pipeline; otherwise it is written directly to the console.
 
 ## NOTES
 
