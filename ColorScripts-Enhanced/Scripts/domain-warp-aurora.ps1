@@ -1,7 +1,7 @@
-﻿# Unique Concept: Dual-domain warped aurora using recursive sine displacement and ridge detection.
+# Unique Concept: Dual-domain warped aurora using recursive sine displacement and ridge detection.
 
 # Check cache first for instant output
-if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
+if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

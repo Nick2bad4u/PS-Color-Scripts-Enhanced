@@ -1,5 +1,5 @@
 # Check cache first for instant output
-if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
+if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $esc = [char]27
 Write-Host "$esc[0m

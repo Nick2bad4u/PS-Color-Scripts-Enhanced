@@ -2,7 +2,7 @@
 # Uses substitution rules to generate the iconic aperiodic tiling with fivefold symmetry.
 
 # Check cache first for instant output
-if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
+if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

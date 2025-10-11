@@ -2,7 +2,7 @@
 # Each boid follows three rules creating emergent collective motion patterns colored by velocity and density.
 
 # Check cache first for instant output
-if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
+if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

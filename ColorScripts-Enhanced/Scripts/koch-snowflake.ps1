@@ -1,8 +1,8 @@
-﻿# Unique Concept: Koch snowflake fractal with multiple iterations showing self-similarity.
+# Unique Concept: Koch snowflake fractal with multiple iterations showing self-similarity.
 # Recursive edge replacement creates increasingly complex hexagonal crystal structure.
 
 # Check cache first for instant output
-if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
+if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $ErrorActionPreference = 'Stop'
 $esc = [char]27

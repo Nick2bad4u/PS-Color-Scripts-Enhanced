@@ -3,6 +3,25 @@
 
 BeforeAll {
     # Import the module (cross-platform path)
+    $script:OriginalCacheOverride = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
+    $testDriveRoot = $null
+    if (Test-Path -LiteralPath 'TestDrive:\') {
+        $testDriveRoot = (Resolve-Path -LiteralPath 'TestDrive:\' -ErrorAction Stop).ProviderPath
+    }
+    elseif ($TestDrive) {
+        $testDriveRoot = $TestDrive
+    }
+
+    if (-not $testDriveRoot) {
+        throw 'Pester TestDrive path is unavailable.'
+    }
+
+    $script:TestCacheRoot = Join-Path -Path $testDriveRoot -ChildPath 'Cache'
+    $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $script:TestCacheRoot
+    if (-not (Test-Path $script:TestCacheRoot)) {
+        New-Item -ItemType Directory -Path $script:TestCacheRoot -Force | Out-Null
+    }
+
     $ModulePath = Join-Path -Path $PSScriptRoot -ChildPath ".."
     $ModulePath = Join-Path -Path $ModulePath -ChildPath "ColorScripts-Enhanced"
     Import-Module $ModulePath -Force
@@ -91,21 +110,8 @@ Describe "ColorScripts-Enhanced Module" {
 
     Context "Cache System" {
         BeforeAll {
-            # Use cross-platform cache directory
-            if ($IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
-                $script:CacheDir = Join-Path -Path $env:APPDATA -ChildPath "ColorScripts-Enhanced"
-                $script:CacheDir = Join-Path -Path $script:CacheDir -ChildPath "cache"
-            }
-            elseif ($IsMacOS) {
-                $script:CacheDir = Join-Path -Path $HOME -ChildPath "Library"
-                $script:CacheDir = Join-Path -Path $script:CacheDir -ChildPath "Application Support"
-                $script:CacheDir = Join-Path -Path $script:CacheDir -ChildPath "ColorScripts-Enhanced"
-                $script:CacheDir = Join-Path -Path $script:CacheDir -ChildPath "cache"
-            }
-            else {
-                $xdgCache = if ($env:XDG_CACHE_HOME) { $env:XDG_CACHE_HOME } else { Join-Path -Path $HOME -ChildPath ".cache" }
-                $script:CacheDir = Join-Path -Path $xdgCache -ChildPath "ColorScripts-Enhanced"
-            }
+            $moduleInstance = Get-Module ColorScripts-Enhanced -ErrorAction Stop
+            $script:CacheDir = $moduleInstance.SessionState.PSVariable.GetValue('CacheDir')
         }
 
         It "Should create cache directory" {
@@ -237,6 +243,39 @@ Describe "ColorScripts-Enhanced Module" {
             $records = Get-ColorScriptList -AsObject
             $records.Count | Should -BeGreaterThan 0
             $records | ForEach-Object { $_.Metadata | Should -Not -BeNullOrEmpty }
+        }
+
+        It "Should not leave any script uncategorized" {
+            $records = Get-ColorScriptList -AsObject
+            $uncategorized = $records | Where-Object { $_.Category -eq 'Uncategorized' }
+            $uncategorized | Should -BeNullOrEmpty
+        }
+
+        It "Should auto categorize city-neon as Artistic" {
+            $record = Get-ColorScriptList -AsObject | Where-Object { $_.Name -eq 'city-neon' } | Select-Object -First 1
+            $record | Should -Not -BeNullOrEmpty
+            $record.Category | Should -Be 'Artistic'
+            $record.Tags | Should -Contain 'AutoCategorized'
+        }
+
+        It "Should expose TerminalThemes category" {
+            $records = Get-ColorScriptList -Category 'TerminalThemes' -AsObject
+            ($records | Select-Object -ExpandProperty Name) | Should -Contain 'terminal-glow'
+        }
+
+        It "Should expose ASCIIArt category" {
+            $records = Get-ColorScriptList -Category 'ASCIIArt' -AsObject
+            ($records | Select-Object -ExpandProperty Name) | Should -Contain 'thebat'
+        }
+
+        It "Should expose Physics category" {
+            $records = Get-ColorScriptList -Category 'Physics' -AsObject
+            ($records | Select-Object -ExpandProperty Name) | Should -Contain 'nbody-gravity'
+        }
+
+        It "Should filter by AutoCategorized tag" {
+            $records = Get-ColorScriptList -Tag 'AutoCategorized' -AsObject
+            ($records | Select-Object -ExpandProperty Name) | Should -Contain 'city-neon'
         }
     }
 
@@ -424,4 +463,12 @@ Describe "Test-AllColorScripts Script" {
 
 AfterAll {
     Clear-ColorScriptCache -Name 'bars' -Confirm:$false | Out-Null
+    if ($null -eq $script:OriginalCacheOverride) {
+        Remove-Item Env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH -ErrorAction SilentlyContinue
+    }
+    else {
+        $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $script:OriginalCacheOverride
+    }
+
+    Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue
 }

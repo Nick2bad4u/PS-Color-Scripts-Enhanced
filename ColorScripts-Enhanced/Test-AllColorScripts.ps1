@@ -63,6 +63,44 @@ param(
     [int]$ThrottleLimit = [System.Environment]::ProcessorCount
 )
 
+# Ensure consistent UTF-8 output when a console handle exists.
+function Invoke-TestWithUtf8Encoding {
+    param(
+        [scriptblock]$ScriptBlock
+    )
+
+    $originalEncoding = $null
+    $encodingChanged = $false
+
+    if (-not [Console]::IsOutputRedirected) {
+        try {
+            $originalEncoding = [Console]::OutputEncoding
+            if ($originalEncoding.WebName -ne 'utf-8') {
+                [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+                $encodingChanged = $true
+            }
+        }
+        catch [System.IO.IOException] {
+            Write-Verbose 'Console handle unavailable; skipping OutputEncoding change in Test-AllColorScripts.'
+            $encodingChanged = $false
+        }
+    }
+
+    try {
+        & $ScriptBlock
+    }
+    finally {
+        if ($encodingChanged -and $originalEncoding) {
+            try {
+                [Console]::OutputEncoding = $originalEncoding
+            }
+            catch [System.IO.IOException] {
+                Write-Verbose 'Console handle unavailable; unable to restore OutputEncoding in Test-AllColorScripts.'
+            }
+        }
+    }
+}
+
 # Import the module if not already loaded
 $modulePath = Join-Path $PSScriptRoot "ColorScripts-Enhanced.psm1"
 if (Test-Path $modulePath) {
@@ -104,8 +142,7 @@ function New-ScriptTestResult {
         [string]$Name,
         [double]$DurationMs,
         [bool]$Success,
-        [string]$ErrorMessage,
-        [string]$Output
+        [string]$ErrorMessage
     )
 
     [pscustomobject]@{
@@ -113,7 +150,6 @@ function New-ScriptTestResult {
         DurationMs  = [math]::Round($DurationMs, 2)
         Success     = $Success
         Error       = $ErrorMessage
-        Output      = $Output
     }
 }
 
@@ -125,12 +161,40 @@ if ($Parallel) {
     $parallelResults = $scripts | ForEach-Object -Parallel {
         $scriptName = $_.BaseName
         $startTime = Get-Date
-        $outputData = ''
         $success = $true
         $errorMessage = ''
 
         try {
-            $outputData = (& $_.FullName | Out-String)
+            $originalEncoding = $null
+            $encodingChanged = $false
+
+            if (-not [Console]::IsOutputRedirected) {
+                try {
+                    $originalEncoding = [Console]::OutputEncoding
+                    if ($originalEncoding.WebName -ne 'utf-8') {
+                        [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+                        $encodingChanged = $true
+                    }
+                }
+                catch [System.IO.IOException] {
+                    $encodingChanged = $false
+                    $originalEncoding = $null
+                }
+            }
+
+            try {
+                & $_.FullName
+            }
+            finally {
+                if ($encodingChanged -and $originalEncoding) {
+                    try {
+                        [Console]::OutputEncoding = $originalEncoding
+                    }
+                    catch [System.IO.IOException] {
+                        Write-Verbose 'Console handle unavailable; unable to restore OutputEncoding in parallel execution.'
+                    }
+                }
+            }
         }
         catch {
             $success = $false
@@ -143,7 +207,6 @@ if ($Parallel) {
             DurationMs = [math]::Round($duration, 2)
             Success    = $success
             Error      = $errorMessage
-            Output     = $outputData
         }
     } -ThrottleLimit $ThrottleLimit
 
@@ -171,19 +234,14 @@ else {
         Write-Host ""
 
         $startTime = Get-Date
-        $outputCapture = ''
         $success = $true
         $errorMessage = ''
 
         try {
             $ErrorActionPreference = 'Stop'
-            $originalEncoding = [Console]::OutputEncoding
-            [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-            & $script.FullName
-            [Console]::OutputEncoding = $originalEncoding
+            Invoke-TestWithUtf8Encoding { & $script.FullName }
         }
         catch {
-            [Console]::OutputEncoding = $originalEncoding
             $success = $false
             $errorMessage = $_.Exception.Message
         }
@@ -204,12 +262,12 @@ else {
 
             if (-not $SkipErrors) {
                 Write-Host "`nStopping test run due to error. Use -SkipErrors to continue on errors." -ForegroundColor Yellow
-                $results.Add((New-ScriptTestResult -Name $scriptName -DurationMs $duration -Success $success -ErrorMessage $errorMessage -Output $outputCapture))
+                $results.Add((New-ScriptTestResult -Name $scriptName -DurationMs $duration -Success $success -ErrorMessage $errorMessage))
                 break
             }
         }
 
-        $results.Add((New-ScriptTestResult -Name $scriptName -DurationMs $duration -Success $success -ErrorMessage $errorMessage -Output $outputCapture))
+        $results.Add((New-ScriptTestResult -Name $scriptName -DurationMs $duration -Success $success -ErrorMessage $errorMessage))
 
         if ($PauseAfterEach) {
             Write-Host "`nPress Enter to continue to next script..." -ForegroundColor Yellow

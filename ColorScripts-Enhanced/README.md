@@ -208,6 +208,8 @@ Clear-ColorScriptCache -Name "mandelbrot-zoom" -DryRun
 Clear-ColorScriptCache -Name "mandelbrot-zoom" -Path 'C:/temp/colorscripts-cache'
 ```
 
+> Tip: Set `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` to redirect cache files to a custom directory for CI or ephemeral test runs.
+
 ### Bypass Cache (Force Fresh Execution)
 
 ```powershell
@@ -254,7 +256,7 @@ $record.Metadata
 
 ## Documentation
 
-- [Quick Start](QUICKSTART.md)
+- [Quick Start](QUICK_REFERENCE.md)
 - [Quick Reference](QUICKREFERENCE.md)
 - [Module Summary](MODULE_SUMMARY.md)
 - [Development Guide](docs/Development.md)

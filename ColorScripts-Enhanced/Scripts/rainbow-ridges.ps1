@@ -1,6 +1,6 @@
 # Rainbow Ridges - chromatic terrain carved into repeating waves
 # Check cache first for instant output
-if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
+if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $esc = [char]27
 $reset = "$esc[0m"

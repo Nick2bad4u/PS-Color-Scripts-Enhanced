@@ -105,6 +105,7 @@ Expect to see icons, checkmarks, and box-drawing characters. If they appear as s
 ## Working with the Cache
 
 - Cache location: `$env:APPDATA\ColorScripts-Enhanced\cache`
+- Override cache location for testing/CI with `COLOR_SCRIPTS_ENHANCED_CACHE_PATH`
 - Use `Build-ColorScriptCache` to warm caches during development
 - Use `Clear-ColorScriptCache` to troubleshoot stale outputs
 

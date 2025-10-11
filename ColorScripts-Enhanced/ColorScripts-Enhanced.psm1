@@ -8,29 +8,129 @@ $script:ModuleRoot = $PSScriptRoot
 $script:ScriptsPath = Join-Path -Path $PSScriptRoot -ChildPath "Scripts"
 $script:MetadataPath = Join-Path -Path $PSScriptRoot -ChildPath "ScriptMetadata.psd1"
 $script:MetadataCache = $null
+$script:MetadataLastWriteTime = $null
 $script:PowerShellExecutable = $null
-
-# Cross-platform cache directory
-if ($IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
-    # Windows: Use APPDATA
-    $script:CacheDir = Join-Path -Path $env:APPDATA -ChildPath "ColorScripts-Enhanced" | Join-Path -ChildPath "cache"
-}
-elseif ($IsMacOS) {
-    # macOS: Use Application Support
-    $script:CacheDir = Join-Path -Path $HOME -ChildPath "Library" | Join-Path -ChildPath "Application Support" | Join-Path -ChildPath "ColorScripts-Enhanced" | Join-Path -ChildPath "cache"
-}
-else {
-    # Linux: Use XDG_CACHE_HOME or fallback to ~/.cache
-    $xdgCache = if ($env:XDG_CACHE_HOME) { $env:XDG_CACHE_HOME } else { Join-Path -Path $HOME -ChildPath ".cache" }
-    $script:CacheDir = Join-Path -Path $xdgCache -ChildPath "ColorScripts-Enhanced"
-}
-
-# Ensure cache directory exists
-if (-not (Test-Path $script:CacheDir)) {
-    New-Item -ItemType Directory -Path $script:CacheDir -Force | Out-Null
-}
+$script:Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding($false)
+$script:CacheDir = $null
+$script:CacheInitialized = $false
+$script:DefaultAutoCategoryRules = @(
+    [pscustomobject]@{
+        Category = 'System'
+        Tags     = @('System', 'Utility')
+        Patterns = @(
+            '^(00default|alpha)$',
+            '^ansi-palette$',
+            '^awk-rgb-test$',
+            '^colortest(-slim)?$',
+            '^colorbars$',
+            '^colorview$',
+            '^colorwheel$',
+            '^(A{6}|O{6})$',
+            '^nerd-font-(glyphs|test)$',
+            '^rgb-spectrum$',
+            '^RGB-Wave(-Shifted)?$',
+            '^spectrum(-flames)?$',
+            '^terminal-benchmark$',
+            '^text-styles$',
+            '^unicode-showcase$',
+            '^gradient-test$'
+        )
+    },
+    [pscustomobject]@{
+        Category = 'TerminalThemes'
+        Tags     = @('Terminal', 'Theme')
+        Patterns = @('^terminal($|-.*)')
+    },
+    [pscustomobject]@{
+        Category = 'Logos'
+        Tags     = @('Logo')
+        Patterns = @('arch', 'debian', 'manjaro', 'kaisen', 'tux', 'xmonad', 'suckless', 'android', 'apple', 'windows', 'ubuntu', 'pinguco', 'crunchbang', 'amiga')
+    },
+    [pscustomobject]@{
+        Category = 'Gaming'
+        Tags     = @('Gaming', 'PopCulture')
+        Patterns = @('doom', 'pacman', 'space-invaders', 'tiefighter', 'rally-x', 'tanks', 'guns', 'pukeskull', 'rupees', 'unowns', 'jangofett', 'darthvader')
+    },
+    [pscustomobject]@{
+        Category = 'ASCIIArt'
+        Tags     = @('ASCIIArt')
+        Patterns = @('cats', 'crabs', 'crowns', 'elfman', 'faces', '^hearts[0-9]*$', 'kevin-woods', 'monster', '^mouseface', 'pinguco', '^thebat', 'thisisfine', '^welcome-', 'ghosts', 'bears', 'hedgehogs', '^tvs$', 'pukeskull')
+    },
+    [pscustomobject]@{
+        Category = 'Physics'
+        Tags     = @('Physics')
+        Patterns = @('boids', 'cyclone', 'domain', '\bdla\b', '\bdna\b', 'lightning', 'nbody', 'particle', 'perlin', 'plasma', 'sandpile', '\bsdf\b', 'solar-system', 'verlet', 'waveform', 'wavelet', 'wave-interference', 'wave-pattern', 'vector-streams', 'vortex', 'orbit', 'field', 'life', 'langton', 'electrostatic')
+    },
+    [pscustomobject]@{
+        Category = 'Nature'
+        Tags     = @('Nature')
+        Patterns = @('aurora', 'nebula', 'galaxy', 'forest', 'crystal', 'fern', 'dunes', 'twilight', 'starlit', 'cloud', 'horizon', 'cosmic', 'enchanted')
+    },
+    [pscustomobject]@{
+        Category = 'Mathematical'
+        Tags     = @('Mathematical')
+        Patterns = @('apollonian', 'barnsley', 'binary-tree', 'clifford', 'fourier', 'fractal', 'hilbert', 'koch', 'lissajous', 'mandelbrot', 'newton', 'penrose', 'pythagorean', 'quasicrystal', 'rossler', 'sierpinski', 'circle-packing', 'lorenz', 'julia', 'lsystem', 'voronoi', 'iso-cubes')
+    },
+    [pscustomobject]@{
+        Category = 'Artistic'
+        Tags     = @('Artistic')
+        Patterns = @('braid', 'chromatic', 'chrono', 'city', 'ember', 'kaleidoscope', 'mandala', 'mosaic', 'prismatic', 'midnight', 'illumina', 'inkblot', 'pixel', 'sunburst', 'fade', 'starlit', 'twilight', 'rainbow', 'matrix')
+    },
+    [pscustomobject]@{
+        Category = 'Patterns'
+        Tags     = @('Pattern')
+        Patterns = @('bars?', 'block', 'blok', 'grid', 'maze', 'spiral', 'wave', 'zigzag', 'tile', 'lattice', 'hex', 'ring', 'polygon', 'prism', 'tessell', 'iso', 'quasicrystal', 'rail', 'pane', 'truchet', 'pattern', 'panes', 'rails', 'circle', 'square', 'triangles', 'gradient', 'voronoi', 'radial', '^six$')
+    }
+)
 
 #region Helper Functions
+
+function Resolve-CachePath {
+    param(
+        [string]$Path
+    )
+
+    if ([string]::IsNullOrWhiteSpace($Path)) {
+        return $null
+    }
+
+    $expanded = [System.Environment]::ExpandEnvironmentVariables($Path)
+    $candidate = $expanded
+
+    $qualifier = $null
+    try {
+        $qualifier = Split-Path -Path $expanded -Qualifier -ErrorAction Stop
+    }
+    catch {
+        $qualifier = $null
+    }
+
+    if ($qualifier -and $qualifier -notlike '\\*') {
+        $driveName = $qualifier.TrimEnd(':', '\')
+        if (-not (Get-PSDrive -Name $driveName -ErrorAction SilentlyContinue)) {
+            return $null
+        }
+    }
+
+    if (-not [System.IO.Path]::IsPathRooted($expanded)) {
+        try {
+            $basePath = (Get-Location).ProviderPath
+        }
+        catch {
+            $basePath = [System.IO.Directory]::GetCurrentDirectory()
+        }
+
+        $candidate = Join-Path -Path $basePath -ChildPath $expanded
+    }
+
+    try {
+        return [System.IO.Path]::GetFullPath($candidate)
+    }
+    catch {
+        Write-Verbose "Unable to resolve cache path '$Path': $($_.Exception.Message)"
+        return $null
+    }
+}
 
 function Get-PowerShellExecutable {
     if (-not $script:PowerShellExecutable) {
@@ -51,12 +151,181 @@ function Get-PowerShellExecutable {
     return $script:PowerShellExecutable
 }
 
+function Invoke-WithUtf8Encoding {
+    param(
+        [scriptblock]$ScriptBlock,
+        [object[]]$Arguments
+    )
+
+    $originalEncoding = $null
+    $encodingChanged = $false
+
+    if (-not [Console]::IsOutputRedirected) {
+        try {
+            $originalEncoding = [Console]::OutputEncoding
+            if ($originalEncoding.WebName -ne 'utf-8') {
+                [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+                $encodingChanged = $true
+            }
+        }
+        catch [System.IO.IOException] {
+            $originalEncoding = $null
+            $encodingChanged = $false
+            Write-Verbose 'Console handle unavailable; skipping OutputEncoding change.'
+        }
+    }
+
+    try {
+        if ($Arguments) {
+            return & $ScriptBlock @Arguments
+        }
+
+        return & $ScriptBlock
+    }
+    finally {
+        if ($encodingChanged -and $originalEncoding) {
+            try {
+                [Console]::OutputEncoding = $originalEncoding
+            }
+            catch [System.IO.IOException] {
+                Write-Verbose 'Console handle unavailable; unable to restore OutputEncoding.'
+            }
+        }
+    }
+}
+
+function Initialize-CacheDirectory {
+    if ($script:CacheInitialized -and $script:CacheDir) {
+        return
+    }
+
+    $overrideCacheRoot = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
+    $resolvedOverride = $null
+
+    if ($overrideCacheRoot) {
+        $resolvedOverride = Resolve-CachePath -Path $overrideCacheRoot
+        if (-not $resolvedOverride) {
+            Write-Verbose "Ignoring COLOR_SCRIPTS_ENHANCED_CACHE_PATH override '$overrideCacheRoot' because the path could not be resolved."
+        }
+    }
+
+    $candidatePaths = @()
+
+    if ($resolvedOverride) {
+        $candidatePaths += $resolvedOverride
+    }
+
+    if ($IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
+        if ($env:APPDATA) {
+            $windowsBase = Join-Path -Path $env:APPDATA -ChildPath 'ColorScripts-Enhanced'
+            $candidatePaths += (Join-Path -Path $windowsBase -ChildPath 'cache')
+        }
+    }
+    elseif ($IsMacOS) {
+        $macBase = Join-Path -Path $HOME -ChildPath 'Library'
+        $macBase = Join-Path -Path $macBase -ChildPath 'Application Support'
+        $macBase = Join-Path -Path $macBase -ChildPath 'ColorScripts-Enhanced'
+        $candidatePaths += (Join-Path -Path $macBase -ChildPath 'cache')
+    }
+    else {
+        $xdgCache = if ($env:XDG_CACHE_HOME) { $env:XDG_CACHE_HOME } else { Join-Path -Path $HOME -ChildPath '.cache' }
+        if ($xdgCache) {
+            $candidatePaths += (Join-Path -Path $xdgCache -ChildPath 'ColorScripts-Enhanced')
+        }
+    }
+
+    $candidatePaths = $candidatePaths | Where-Object { -not [string]::IsNullOrWhiteSpace($_) }
+
+    foreach ($candidate in $candidatePaths) {
+        $target = Resolve-CachePath -Path $candidate
+        if (-not $target) {
+            Write-Verbose "Skipping cache candidate '$candidate' because it could not be resolved."
+            continue
+        }
+
+        try {
+            if (-not (Test-Path -LiteralPath $target)) {
+                New-Item -ItemType Directory -Path $target -Force -ErrorAction Stop | Out-Null
+            }
+
+            try {
+                $resolvedPhysicalPath = (Resolve-Path -LiteralPath $target -ErrorAction Stop).ProviderPath
+            }
+            catch {
+                $resolvedPhysicalPath = $target
+            }
+
+            $script:CacheDir = $resolvedPhysicalPath
+            $script:CacheInitialized = $true
+            return
+        }
+        catch {
+            Write-Warning "Unable to prepare cache directory '$target': $($_.Exception.Message)"
+        }
+    }
+
+    $fallback = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath 'ColorScripts-Enhanced'
+    if (-not (Test-Path -LiteralPath $fallback)) {
+        New-Item -ItemType Directory -Path $fallback -Force -ErrorAction Stop | Out-Null
+    }
+
+    try {
+        $resolvedFallback = (Resolve-Path -LiteralPath $fallback -ErrorAction Stop).ProviderPath
+    }
+    catch {
+        $resolvedFallback = $fallback
+    }
+
+    $script:CacheDir = $resolvedFallback
+    $script:CacheInitialized = $true
+}
+
+Initialize-CacheDirectory
+
 function Get-ColorScriptMetadataTable {
-    if ($script:MetadataCache) {
+    $currentTimestamp = $null
+    if (Test-Path $script:MetadataPath) {
+        try {
+            $currentTimestamp = (Get-Item -LiteralPath $script:MetadataPath).LastWriteTimeUtc
+        }
+        catch {
+            Write-Verbose "Unable to determine metadata timestamp: $($_.Exception.Message)"
+        }
+    }
+
+    if ($script:MetadataCache -and $script:MetadataLastWriteTime -and $currentTimestamp -eq $script:MetadataLastWriteTime) {
         return $script:MetadataCache
     }
 
     $store = New-Object 'System.Collections.Generic.Dictionary[string, object]' ([System.StringComparer]::OrdinalIgnoreCase)
+
+    $mergeUnique = {
+        param(
+            [string[]]$existing,
+            [string[]]$additional
+        )
+
+        $set = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+        $list = New-Object 'System.Collections.Generic.List[string]'
+
+        if ($existing) {
+            foreach ($value in $existing) {
+                if ([string]::IsNullOrWhiteSpace($value)) { continue }
+                if ($set.Add($value)) { $null = $list.Add($value) }
+            }
+        }
+
+        if ($additional) {
+            foreach ($value in $additional) {
+                if ([string]::IsNullOrWhiteSpace($value)) { continue }
+                if ($set.Add($value)) { $null = $list.Add($value) }
+            }
+        }
+
+        return $list.ToArray()
+    }
+
+    $data = $null
 
     if (Test-Path $script:MetadataPath) {
         $data = Import-PowerShellDataFile -Path $script:MetadataPath
@@ -81,8 +350,8 @@ function Get-ColorScriptMetadataTable {
 
             if ($data.Categories -is [hashtable]) {
                 foreach ($categoryName in $data.Categories.Keys) {
-                    $scripts = $data.Categories[$categoryName]
-                    foreach ($scriptName in $scripts) {
+                    $scriptsForCategory = $data.Categories[$categoryName]
+                    foreach ($scriptName in $scriptsForCategory) {
                         $entry = & $ensureEntry $internal $scriptName
                         if (-not $entry.Categories.Contains($categoryName)) {
                             $null = $entry.Categories.Add($categoryName)
@@ -160,7 +429,223 @@ function Get-ColorScriptMetadataTable {
         }
     }
 
+    $autoRules = @()
+
+    if ($data -is [hashtable] -and $data.ContainsKey('AutoCategories') -and $data.AutoCategories -is [System.Collections.IEnumerable]) {
+        foreach ($rule in $data.AutoCategories) {
+            $categoryName = $rule.Category
+            if ([string]::IsNullOrWhiteSpace($categoryName)) {
+                continue
+            }
+
+            $patterns = @()
+            if ($rule.Patterns -is [System.Collections.IEnumerable]) {
+                foreach ($pattern in $rule.Patterns) {
+                    $patternValue = [string]$pattern
+                    if (-not [string]::IsNullOrWhiteSpace($patternValue)) {
+                        $patterns += $patternValue
+                    }
+                }
+            }
+            elseif ($rule.Patterns) {
+                $patternValue = [string]$rule.Patterns
+                if (-not [string]::IsNullOrWhiteSpace($patternValue)) {
+                    $patterns += $patternValue
+                }
+            }
+
+            if ($patterns.Count -eq 0) {
+                continue
+            }
+
+            $tags = @()
+            if ($rule.Tags -is [System.Collections.IEnumerable]) {
+                foreach ($tag in $rule.Tags) {
+                    $tagValue = [string]$tag
+                    if (-not [string]::IsNullOrWhiteSpace($tagValue)) {
+                        $tags += $tagValue
+                    }
+                }
+            }
+            elseif ($rule.Tags) {
+                $tagValue = [string]$rule.Tags
+                if (-not [string]::IsNullOrWhiteSpace($tagValue)) {
+                    $tags += $tagValue
+                }
+            }
+
+            $autoRules += [pscustomobject]@{
+                Category = [string]$categoryName
+                Patterns = $patterns
+                Tags     = $tags
+            }
+        }
+    }
+
+    if ($autoRules.Count -eq 0) {
+        $autoRules = $script:DefaultAutoCategoryRules
+    }
+
+    $resolveAutoCategory = {
+        param([string]$Name)
+
+        $matchedCategories = New-Object 'System.Collections.Generic.List[string]'
+        $matchedTags = New-Object 'System.Collections.Generic.List[string]'
+
+        foreach ($rule in $autoRules) {
+            $patterns = @()
+            if ($rule.Patterns -is [System.Collections.IEnumerable]) {
+                $patterns = $rule.Patterns
+            }
+            elseif ($rule.Patterns) {
+                $patterns = @($rule.Patterns)
+            }
+
+            foreach ($pattern in $patterns) {
+                $patternValue = [string]$pattern
+                if ([string]::IsNullOrWhiteSpace($patternValue)) { continue }
+                if ([System.Text.RegularExpressions.Regex]::IsMatch($Name, $patternValue, [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)) {
+                    if (-not $matchedCategories.Contains($rule.Category)) {
+                        $null = $matchedCategories.Add([string]$rule.Category)
+                    }
+
+                    if ($rule.Tags -is [System.Collections.IEnumerable]) {
+                        foreach ($tag in $rule.Tags) {
+                            $tagValue = [string]$tag
+                            if (-not [string]::IsNullOrWhiteSpace($tagValue) -and -not $matchedTags.Contains($tagValue)) {
+                                $null = $matchedTags.Add($tagValue)
+                            }
+                        }
+                    }
+                    elseif ($rule.Tags) {
+                        $tagValue = [string]$rule.Tags
+                        if (-not [string]::IsNullOrWhiteSpace($tagValue) -and -not $matchedTags.Contains($tagValue)) {
+                            $null = $matchedTags.Add($tagValue)
+                        }
+                    }
+
+                    break
+                }
+            }
+        }
+
+        if ($matchedCategories.Count -eq 0) {
+            $null = $matchedCategories.Add('Abstract')
+        }
+
+        [pscustomobject]@{
+            Categories = [string[]]$matchedCategories.ToArray()
+            Tags       = [string[]]$matchedTags.ToArray()
+        }
+    }
+
+    $scripts = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" |
+        Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
+
+    foreach ($scriptFile in $scripts) {
+        $name = $scriptFile.BaseName
+        $entryExists = $store.ContainsKey($name)
+        $existingEntry = if ($entryExists) {
+            $store[$name]
+        }
+        else {
+            [pscustomobject]@{
+                Category    = 'Uncategorized'
+                Categories  = @()
+                Tags        = @()
+                Description = $null
+            }
+        }
+
+        $needsAuto = -not $entryExists -or [string]::IsNullOrWhiteSpace($existingEntry.Category) -or $existingEntry.Category -eq 'Uncategorized'
+
+        if ($needsAuto) {
+            $autoInfo = & $resolveAutoCategory $name
+            $autoCategories = if ($autoInfo.Categories) { [string[]]$autoInfo.Categories } else { @('Abstract') }
+            $autoTags = if ($autoInfo.Tags) { [string[]]$autoInfo.Tags } else { @() }
+
+            $baseCategories = @()
+            if ($existingEntry.Category -and $existingEntry.Category -ne 'Uncategorized') {
+                $baseCategories += [string]$existingEntry.Category
+            }
+            if ($existingEntry.Categories) {
+                foreach ($cat in [string[]]$existingEntry.Categories) {
+                    if (-not [string]::IsNullOrWhiteSpace($cat) -and $cat -ne 'Uncategorized') {
+                        $baseCategories += $cat
+                    }
+                }
+            }
+
+            $categories = [string[]](& $mergeUnique $baseCategories $autoCategories)
+            if (-not $categories -or $categories.Length -eq 0) {
+                $categories = @('Abstract')
+            }
+
+            $newCategory = if ($existingEntry.Category -and $existingEntry.Category -ne 'Uncategorized') { [string]$existingEntry.Category } else { $categories[0] }
+
+            $existingTags = @()
+            if ($existingEntry.Tags) {
+                $existingTags = [string[]]$existingEntry.Tags
+            }
+
+            $autoTagList = @()
+            if ($autoTags) { $autoTagList += $autoTags }
+            $autoTagList += ($categories | ForEach-Object { "Category:$($_)" })
+            $autoTagList += 'AutoCategorized'
+
+            $tags = [string[]](& $mergeUnique $existingTags $autoTagList)
+
+            $store[$name] = [pscustomobject]@{
+                Category    = $newCategory
+                Categories  = $categories
+                Tags        = $tags
+                Description = $existingEntry.Description
+            }
+        }
+    }
+
+    foreach ($key in @($store.Keys)) {
+        $entry = $store[$key]
+
+        $baseCategories = @()
+        if ($entry.Category -and $entry.Category -ne 'Uncategorized') {
+            $baseCategories += [string]$entry.Category
+        }
+        if ($entry.Categories) {
+            foreach ($cat in [string[]]$entry.Categories) {
+                if (-not [string]::IsNullOrWhiteSpace($cat)) {
+                    $baseCategories += $cat
+                }
+            }
+        }
+
+        if (-not $baseCategories -or $baseCategories.Count -eq 0) {
+            $baseCategories = @('Abstract')
+        }
+
+        $categories = [string[]](& $mergeUnique @() $baseCategories)
+        if (-not $categories -or $categories.Length -eq 0) {
+            $categories = @('Abstract')
+        }
+
+        $existingTags = @()
+        if ($entry.Tags) {
+            $existingTags = [string[]]$entry.Tags
+        }
+
+        $categoryTags = $categories | ForEach-Object { "Category:$($_)" }
+        $tags = [string[]](& $mergeUnique $existingTags $categoryTags)
+
+        $store[$key] = [pscustomobject]@{
+            Category    = $categories[0]
+            Categories  = $categories
+            Tags        = $tags
+            Description = $entry.Description
+        }
+    }
+
     $script:MetadataCache = $store
+    $script:MetadataLastWriteTime = $currentTimestamp
     return $script:MetadataCache
 }
 
@@ -180,16 +665,23 @@ function Get-ColorScriptEntry {
 
         if (-not $entry) {
             $entry = [pscustomobject]@{
-                Category    = 'Uncategorized'
-                Categories  = @()
-                Tags        = @()
+                Category    = 'Abstract'
+                Categories  = @('Abstract')
+                Tags        = @('Category:Abstract', 'AutoCategorized')
                 Description = $null
             }
         }
 
-        $categoryValue = if ($entry.PSObject.Properties.Name -contains 'Category' -and $entry.Category) { [string]$entry.Category } else { 'Uncategorized' }
+        $categoryValue = if ($entry.PSObject.Properties.Name -contains 'Category' -and $entry.Category) { [string]$entry.Category } else { 'Abstract' }
         $categoriesValue = if ($entry.PSObject.Properties.Name -contains 'Categories') { [string[]]$entry.Categories } else { @() }
+        if (-not $categoriesValue -or $categoriesValue.Count -eq 0) {
+            $categoriesValue = @($categoryValue)
+        }
+
         $tagsValue = if ($entry.PSObject.Properties.Name -contains 'Tags') { [string[]]$entry.Tags } else { @() }
+        if (-not $tagsValue -or $tagsValue.Count -eq 0) {
+            $tagsValue = @("Category:$categoryValue")
+        }
         $descriptionValue = if ($entry.PSObject.Properties.Name -contains 'Description') { [string]$entry.Description } else { $null }
 
         [pscustomobject]@{
@@ -274,14 +766,17 @@ function Get-CachedOutput {
         if ($scriptTime -le $cacheTime) {
             # Cache is valid - output it
             $content = [System.IO.File]::ReadAllText($cacheFile)
-            $originalEncoding = [Console]::OutputEncoding
-            [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-            try {
-                [Console]::Write($content)
-            }
-            finally {
-                [Console]::OutputEncoding = $originalEncoding
-            }
+            Invoke-WithUtf8Encoding -ScriptBlock {
+                param($text)
+
+                try {
+                    [Console]::Write($text)
+                }
+                catch [System.IO.IOException] {
+                    Write-Verbose 'Console handle unavailable; routing cached output through Write-Output.'
+                    Write-Output $text
+                }
+            } -Arguments $content
             return $true
         }
     }
@@ -325,7 +820,8 @@ function Build-ScriptCache {
     try {
         $startInfo = New-Object System.Diagnostics.ProcessStartInfo
         $startInfo.FileName = $executable
-        $encodedCommand = "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; & '$ScriptPath'"
+        $escapedScriptPath = $ScriptPath.Replace("'", "''")
+        $encodedCommand = "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; & '$escapedScriptPath'"
         $startInfo.Arguments = "-NoProfile -NonInteractive -Command `"$encodedCommand`""
         $startInfo.UseShellExecute = $false
         $startInfo.RedirectStandardOutput = $true
@@ -346,7 +842,7 @@ function Build-ScriptCache {
         $result.StdErr = $errorOutput
 
         if ($process.ExitCode -eq 0) {
-            [System.IO.File]::WriteAllText($cacheFile, $output)
+            [System.IO.File]::WriteAllText($cacheFile, $output, $script:Utf8NoBomEncoding)
             $scriptItem = Get-Item -LiteralPath $ScriptPath
             [System.IO.File]::SetLastWriteTime($cacheFile, $scriptItem.LastWriteTime)
             $result.Success = $true
@@ -467,14 +963,10 @@ function Show-ColorScript {
     }
 
     # Execute script directly
-    $originalEncoding = [Console]::OutputEncoding
-    [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-    try {
-        & $selection.Path
-    }
-    finally {
-        [Console]::OutputEncoding = $originalEncoding
-    }
+    Invoke-WithUtf8Encoding -ScriptBlock {
+        param($scriptPath)
+        & $scriptPath
+    } -Arguments $selection.Path
 
     # Build cache for next time if not already cached
     if (-not $NoCache) {
@@ -843,6 +1335,23 @@ function Add-ColorScriptProfile {
         $updatedContent = [System.Text.RegularExpressions.Regex]::Replace($updatedContent, $pattern, '', 'MultiLine')
     }
 
+    $importPattern = '(?mi)^\s*Import-Module\s+ColorScripts-Enhanced\b.*$'
+
+    if (-not $Force -and $existingContent -match $importPattern) {
+        Write-Verbose "Profile already imports ColorScripts-Enhanced."
+        return [pscustomobject]@{
+            Path    = $profilePath
+            Changed = $false
+            Message = 'Profile already configured.'
+        }
+    }
+
+    if ($Force) {
+        $updatedContent = [System.Text.RegularExpressions.Regex]::Replace($updatedContent, $importPattern + '(?:\r?\n)?', '', 'Multiline')
+        $showPattern = '(?mi)^\s*(Show-ColorScript|scs)\b.*(?:\r?\n)?'
+        $updatedContent = [System.Text.RegularExpressions.Regex]::Replace($updatedContent, $showPattern, '', 'Multiline')
+    }
+
     if ($PSCmdlet.ShouldProcess($profilePath, 'Add ColorScripts-Enhanced profile snippet')) {
         $trimmedExisting = $updatedContent.TrimEnd()
         if ($trimmedExisting) {
@@ -852,11 +1361,11 @@ function Add-ColorScriptProfile {
             $updatedContent = $snippet
         }
 
-        [System.IO.File]::WriteAllText($profilePath, $updatedContent + $newline, [System.Text.Encoding]::UTF8)
+        [System.IO.File]::WriteAllText($profilePath, $updatedContent + $newline, $script:Utf8NoBomEncoding)
 
         Write-Host "✓ Added ColorScripts-Enhanced startup snippet to $profilePath" -ForegroundColor Green
 
-        return [pscustomobject] @{
+        return [pscustomobject]@{
             Path    = $profilePath
             Changed = $true
             Message = 'ColorScripts-Enhanced profile snippet added.'

@@ -1,5 +1,5 @@
-﻿# Check cache first for instant output
-if (. "$PSScriptRoot\..\ColorScriptCache.ps1") { return }
+# Check cache first for instant output
+if (. (Join-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -ChildPath 'ColorScriptCache.ps1')) { return }
 
 $esc = [char]27
 $FGNAMES = @(' black ', '  red  ', ' green ', ' yellow', '  blue ', 'magenta', '  cyan ', ' white ')
