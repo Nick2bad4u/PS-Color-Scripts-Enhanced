@@ -415,11 +415,11 @@ Describe "ColorScripts-Enhanced Module" {
         }
 
         It "Should support -Name parameter" {
-            { Build-ColorScriptCache -Name "bars" -ErrorAction Stop } | Should -Not -Throw
+            { Build-ColorScriptCache -Name "bars" -ErrorAction Stop | Out-Null } | Should -Not -Throw
         }
 
         It "Should support -Force parameter" {
-            { Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop } | Should -Not -Throw
+            { Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null } | Should -Not -Throw
         }
 
         It "Should accept pipeline input" {

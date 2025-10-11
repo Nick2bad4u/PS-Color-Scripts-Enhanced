@@ -25,6 +25,10 @@ on:
         required: false
       PACKAGES_TOKEN:
         required: false
+  workflow_run:
+    workflows: ["Test"]
+    types:
+      - completed
 
 permissions:
   contents: read

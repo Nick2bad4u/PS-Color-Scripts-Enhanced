@@ -1323,7 +1323,7 @@ function Build-ColorScriptCache {
         }
 
         $results = @()
-        $totalCount = $records.Count
+        $totalCount = if ($records) { $records.Count } else { 0 }
         $progressActivity = 'Building ColorScripts cache'
 
         for ($index = 0; $index -lt $totalCount; $index++) {
@@ -1402,7 +1402,7 @@ function Build-ColorScriptCache {
         Write-Progress -Id 1 -Activity $progressActivity -Completed
 
         # Display summary unless PassThru is specified
-        if (-not $PassThru) {
+        if (-not $PassThru -and $totalCount -gt 0) {
             $summary = $results | Group-Object -Property Status | ForEach-Object {
                 [pscustomobject]@{
                     Status = $_.Name
