@@ -82,6 +82,34 @@ function Invoke-LintPass {
     )
 
     $passResults = @()
+    $invokeAnalyzer = {
+        param([hashtable]$AnalyzerParams, [string]$TargetPath)
+
+        try {
+            return Invoke-ScriptAnalyzer @AnalyzerParams
+        }
+        catch {
+            $exception = $_.Exception
+            $isNullRef = $exception -is [System.NullReferenceException] -or ($exception -and $exception.Message -like 'Object reference*')
+
+            if ($AnalyzerParams.ContainsKey('Settings') -and $SettingsFile -and $isNullRef) {
+                Write-Warning "ScriptAnalyzer encountered a known issue analyzing '$TargetPath' with custom settings. Retrying without settings."
+                $fallback = @{}
+                foreach ($key in $AnalyzerParams.Keys) {
+                    if ($key -ne 'Settings') {
+                        $fallback[$key] = $AnalyzerParams[$key]
+                    }
+                }
+                if (-not $fallback.ContainsKey('ErrorAction')) {
+                    $fallback.ErrorAction = 'Stop'
+                }
+
+                return Invoke-ScriptAnalyzer @fallback
+            }
+
+            throw
+        }
+    }
 
     foreach ($target in $Path) {
         if (-not (Test-Path $target)) {
@@ -99,8 +127,9 @@ function Invoke-LintPass {
             }
             foreach ($file in $files) {
                 $params = @{
-                    Severity = @('Error', 'Warning')
-                    Path     = $file.FullName
+                    Severity    = @('Error', 'Warning')
+                    Path        = $file.FullName
+                    ErrorAction = 'Stop'
                 }
                 if ($SettingsFile) {
                     $params.Settings = $SettingsFile
@@ -109,7 +138,7 @@ function Invoke-LintPass {
                     $params.Fix = $true
                 }
                 try {
-                    $result = Invoke-ScriptAnalyzer @params
+                    $result = & $invokeAnalyzer $params $file.FullName
                     if ($result) { $passResults += $result }
                 }
                 catch {
@@ -121,8 +150,9 @@ function Invoke-LintPass {
         }
 
         $params = @{
-            Severity = @('Error', 'Warning')
-            Path     = $resolved
+            Severity    = @('Error', 'Warning')
+            Path        = $resolved
+            ErrorAction = 'Stop'
         }
         if ($SettingsFile) {
             $params.Settings = $SettingsFile
@@ -131,7 +161,7 @@ function Invoke-LintPass {
             $params.Fix = $true
         }
         try {
-            $result = Invoke-ScriptAnalyzer @params
+            $result = & $invokeAnalyzer $params $resolved
             if ($result) { $passResults += $result }
         }
         catch {

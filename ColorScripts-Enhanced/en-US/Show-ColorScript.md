@@ -16,19 +16,19 @@ Displays a colorscript with automatic caching.
 ### Random (Default)
 
 ```
-Show-ColorScript [-Random] [-NoCache] [<CommonParameters>]
+Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru] [<CommonParameters>]
 ```
 
 ### Named
 
 ```
-Show-ColorScript [-Name] <String> [-NoCache] [<CommonParameters>]
+Show-ColorScript [-Name] <String> [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru] [<CommonParameters>]
 ```
 
 ### List
 
 ```
-Show-ColorScript [-List] [<CommonParameters>]
+Show-ColorScript [-List] [-Category <String[]>] [-Tag <String[]>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -36,6 +36,8 @@ Show-ColorScript [-List] [<CommonParameters>]
 Shows a beautiful ANSI colorscript in your terminal. If no name is specified, displays a random script. Uses intelligent caching for 6-19x faster performance.
 
 The first time a colorscript is displayed, it executes normally and the output is cached. Subsequent displays use the cached output for near-instant rendering. Cache is automatically invalidated when the source script is modified.
+
+When multiple scripts match a wildcard pattern, the first match in alphabetical order is displayed. Use `-PassThru` to inspect the selected record when needed.
 
 ## EXAMPLES
 
@@ -58,12 +60,20 @@ Displays the specified colorscript.
 ### EXAMPLE 3
 
 ```powershell
+Show-ColorScript -Name "aurora-*"
+```
+
+Displays the first (alphabetically) colorscript that matches the wildcard pattern.
+
+### EXAMPLE 4
+
+```powershell
 scs hearts
 ```
 
 Uses the alias to display the hearts colorscript.
 
-### EXAMPLE 4
+### EXAMPLE 5
 
 ```powershell
 Show-ColorScript -List
@@ -71,7 +81,7 @@ Show-ColorScript -List
 
 Lists all available colorscripts.
 
-### EXAMPLE 5
+### EXAMPLE 6
 
 ```powershell
 Show-ColorScript -Name arch -NoCache
@@ -79,13 +89,13 @@ Show-ColorScript -Name arch -NoCache
 
 Displays the arch colorscript without using cache.
 
-### EXAMPLE 6
+### EXAMPLE 7
 
 ```powershell
-Get-ColorScriptList | ForEach-Object { Show-ColorScript -Name $_.BaseName }
+Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category
 ```
 
-Display all colorscripts sequentially.
+Display a random nature-themed script and capture the metadata for further use.
 
 ## PARAMETERS
 
@@ -102,7 +112,7 @@ Required: False
 Position: 1
 Default value: None
 Accept pipeline input: True (ByValue, ByPropertyName)
-Accept wildcard characters: False
+Accept wildcard characters: True
 ```
 
 ### -List
@@ -153,6 +163,54 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -Category
+
+Filter the available script set by one or more categories before selection occurs.
+
+```yaml
+Type: String[]
+Parameter Sets: Random, Named, List
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Tag
+
+Filter scripts by metadata tags (case-insensitive) before selection occurs.
+
+```yaml
+Type: String[]
+Parameter Sets: Random, Named, List
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -PassThru
+
+Return the selected script metadata object in addition to displaying output.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: Random, Named
+Aliases:
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
@@ -165,9 +223,9 @@ You can pipe script names to Show-ColorScript.
 
 ## OUTPUTS
 
-### None
+### System.Object
 
-This cmdlet displays output directly to the console.
+Returns the selected script record when `-PassThru` is specified. Otherwise the cmdlet writes the rendered colorscript to the host.
 
 ## NOTES
 
@@ -176,7 +234,7 @@ Module: ColorScripts-Enhanced
 Requires: PowerShell 5.1 or later
 
 The caching system provides 6-19x performance improvements for colorscripts.
-Cache location: $env:APPDATA\ColorScripts-Enhanced\cache
+Cache location: determined by the module (see `Get-Module ColorScripts-Enhanced` and inspect the `CacheDir` variable).
 
 ## RELATED LINKS
 

@@ -9,7 +9,7 @@ schema: 2.0.0
 
 ## SYNOPSIS
 
-Builds cache files for colorscripts.
+Pre-build or refresh colorscript cache files for faster rendering.
 
 ## SYNTAX
 
@@ -22,20 +22,12 @@ Build-ColorScriptCache [-All] [-Force] [<CommonParameters>]
 ### Named
 
 ```
-Build-ColorScriptCache [-Name] <String[]> [-Force] [<CommonParameters>]
+Build-ColorScriptCache [-Name <String[]>] [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
 
-Pre-generates cache files for faster colorscript loading. Can cache all scripts or specific ones.
-
-This command is useful for:
-
-- Initial setup to cache all scripts at once
-- Rebuilding cache after module updates
-- Pre-caching favorite scripts for maximum performance
-
-Cache files are stored in $env:APPDATA\ColorScripts-Enhanced\cache
+`Build-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript`. You can target specific scripts by name (wildcards supported) or cache the entire collection with `-All`. Results are returned as structured objects so you can inspect status, standard output, and error streams programmatically.
 
 ## EXAMPLES
 
@@ -45,67 +37,45 @@ Cache files are stored in $env:APPDATA\ColorScripts-Enhanced\cache
 Build-ColorScriptCache -All
 ```
 
-Caches all available colorscripts. This may take a few minutes initially.
+Warm the cache for every script that ships with the module.
 
 ### EXAMPLE 2
 
 ```powershell
-Build-ColorScriptCache -Name "bars","hearts","arch"
+Build-ColorScriptCache -Name bars, 'aurora-*'
 ```
 
-Caches only the specified colorscripts.
+Cache a mix of exact and wildcard matches. Each matching script generates a result record.
 
 ### EXAMPLE 3
 
 ```powershell
-Build-ColorScriptCache -All -Force
+Build-ColorScriptCache -Name mandelbrot-zoom -Force | Format-List
 ```
 
-Rebuilds cache for all scripts, even if valid cache already exists.
-
-### EXAMPLE 4
-
-```powershell
-Get-ChildItem "$PSScriptRoot\Scripts" -Filter *.ps1 |
-    Select-Object -First 10 |
-    ForEach-Object { Build-ColorScriptCache -Name $_.BaseName }
-```
-
-Cache the first 10 scripts found.
-
-### EXAMPLE 5
-
-```powershell
-# Cache all scripts containing "rainbow" in the name
-Get-ColorScriptList | Out-String |
-    Select-String "rainbow" |
-    ForEach-Object {
-        $name = $_.Line.Trim()
-        Build-ColorScriptCache -Name $name
-    }
-```
+Force a rebuild even if the cache is newer than the source script and examine the detailed result.
 
 ## PARAMETERS
 
 ### -Name
 
-Specific script name(s) to cache. Accepts multiple names.
+One or more script names to cache. Supports wildcards. When absent you must supply `-All`.
 
 ```yaml
 Type: String[]
 Parameter Sets: Named
 Aliases:
 
-Required: True
-Position: 1
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: True (ByValue, ByPropertyName)
-Accept wildcard characters: False
+Accept wildcard characters: True
 ```
 
 ### -All
 
-Cache all available colorscripts.
+Cache every available script.
 
 ```yaml
 Type: SwitchParameter
@@ -121,7 +91,7 @@ Accept wildcard characters: False
 
 ### -Force
 
-Force rebuild even if valid cache already exists.
+Rebuild cache files even when the existing cache is newer than the script source.
 
 ```yaml
 Type: SwitchParameter
@@ -143,23 +113,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ### System.String[]
 
-You can pipe script names to this cmdlet.
+You can pipe script names or metadata records with a `Name` property to this cmdlet.
 
 ## OUTPUTS
 
-### None
+### System.Object[]
 
-This cmdlet displays progress information but does not produce pipeline output.
+Returns a record per processed script containing `Name`, `Status`, `CacheFile`, `ExitCode`, `StdOut`, and `StdErr` fields.
 
 ## NOTES
 
 Author: Nick
 Module: ColorScripts-Enhanced
 
-Building cache for all 195+ scripts may take 3-5 minutes on first run.
-Subsequent cache builds with -Force are faster as scripts are already validated.
-
-Cache files are automatically validated against source script modification times.
+Cache files are stored in the directory exposed by the module's `CacheDir` variable. A successful build sets the cache file's timestamp to the script's last write time so subsequent runs can skip unchanged scripts.
 
 ## RELATED LINKS
 

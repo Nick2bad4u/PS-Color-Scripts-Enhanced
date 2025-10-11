@@ -9,95 +9,109 @@ schema: 2.0.0
 
 ## SYNOPSIS
 
-Clears the colorscript cache.
+Remove cached colorscript output files.
 
 ## SYNTAX
 
 ### All
 
 ```
-Clear-ColorScriptCache [-All] [-WhatIf] [-Confirm] [<CommonParameters>]
+Clear-ColorScriptCache [-All] [-Path <String>] [-DryRun] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Named
 
 ```
-Clear-ColorScriptCache [-Name] <String[]> [-WhatIf] [-Confirm] [<CommonParameters>]
+Clear-ColorScriptCache [-Name <String[]>] [-Path <String>] [-DryRun] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
 
-Removes cached colorscript output files. Use this if you want to force regeneration of all caches or if cache becomes corrupted.
-
-This command supports -WhatIf and -Confirm for safe cache deletion.
+`Clear-ColorScriptCache` deletes cached output either selectively (`-Name`) or wholesale (`-All`). Wildcard patterns are supported and unmatched names report a `Missing` status in the results. Use `-DryRun` to preview the actions without touching the filesystem, or `-Path` to target an alternate cache directory (useful for CI or custom cache roots).
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 
 ```powershell
-Clear-ColorScriptCache -All
+Clear-ColorScriptCache -All -Confirm:$false
 ```
 
-Removes all cache files with confirmation prompt.
+Remove every cache file without prompting.
 
 ### EXAMPLE 2
 
 ```powershell
-Clear-ColorScriptCache -Name "mandelbrot-zoom"
+Clear-ColorScriptCache -Name 'aurora-*' -DryRun
 ```
 
-Removes cache for a specific script.
+Preview which aurora-themed caches would be removed.
 
 ### EXAMPLE 3
 
 ```powershell
-Clear-ColorScriptCache -All -Confirm:$false
+Clear-ColorScriptCache -Name bars -Path $env:TEMP -Confirm:$false
 ```
 
-Removes all cache files without confirmation.
-
-### EXAMPLE 4
-
-```powershell
-Clear-ColorScriptCache -Name hearts,bars,arch
-```
-
-Clears cache for multiple specific scripts.
-
-### EXAMPLE 5
-
-```powershell
-Clear-ColorScriptCache -All -WhatIf
-```
-
-Shows what would be deleted without actually deleting.
+Clean a custom cache directory (for example when using `COLOR_SCRIPTS_ENHANCED_CACHE_PATH`).
 
 ## PARAMETERS
 
 ### -Name
 
-Clear cache for specific script(s) only. Accepts multiple script names.
+Script names (wildcards supported) whose caches should be cleared. Mutually exclusive with `-All`.
 
 ```yaml
 Type: String[]
 Parameter Sets: Named
 Aliases:
 
-Required: True
-Position: 1
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: True (ByValue, ByPropertyName)
-Accept wildcard characters: False
+Accept wildcard characters: True
 ```
 
 ### -All
 
-Clear all cache files.
+Remove every cache file in the target directory.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: All
+Aliases:
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Path
+
+Custom cache directory to operate on. Defaults to the module's cache path.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -DryRun
+
+Emit the actions that would be taken without deleting any files.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
 Aliases:
 
 Required: False
@@ -147,21 +161,20 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ### System.String[]
 
-You can pipe script names to this cmdlet.
+You can pipe script names or objects with a `Name` property to this cmdlet.
 
 ## OUTPUTS
 
-### None
+### System.Object[]
 
-This cmdlet displays status messages but does not produce pipeline output.
+Returns status records for each processed cache file, including the `Status`, `CacheFile`, and message text.
 
 ## NOTES
 
 Author: Nick
 Module: ColorScripts-Enhanced
 
-Cache will be automatically regenerated on next Show-ColorScript execution.
-Cache location: $env:APPDATA\ColorScripts-Enhanced\cache
+Cache files are regenerated automatically the next time `Show-ColorScript` runs. The default cache path is exposed via the module's `CacheDir` variable.
 
 ## RELATED LINKS
 

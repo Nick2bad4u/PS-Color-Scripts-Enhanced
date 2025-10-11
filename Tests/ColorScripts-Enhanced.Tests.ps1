@@ -103,7 +103,7 @@ Describe "ColorScripts-Enhanced Module" {
             $scriptsPath = Join-Path -Path $scriptsPath -ChildPath "ColorScripts-Enhanced"
             $scriptsPath = Join-Path -Path $scriptsPath -ChildPath "Scripts"
             $scripts = Get-ChildItem $scriptsPath -Filter "*.ps1" |
-            Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
+                Where-Object { $_.Name -ne 'ColorScriptCache.ps1' }
             $scripts.Count | Should -BeGreaterThan 0
         }
     }
@@ -125,6 +125,13 @@ Describe "ColorScripts-Enhanced Module" {
             $result | Should -Not -BeNullOrEmpty
             $result[0].Status | Should -BeIn @('Updated', 'SkippedUpToDate')
             Test-Path $cacheFile | Should -Be $true
+        }
+
+        It "Should build cache for wildcard patterns" {
+            $result = Build-ColorScriptCache -Name 'aurora-s*' -Force -ErrorAction Stop
+            $names = $result | Select-Object -ExpandProperty Name
+            $names | Should -Contain 'aurora-stream'
+            $names | Should -Contain 'aurora-storm'
         }
 
         It "Should skip cache rebuild when up-to-date" {
@@ -166,6 +173,16 @@ Describe "ColorScripts-Enhanced Module" {
             Test-Path $cacheFile | Should -Be $false
         }
 
+        It "Should clear caches using wildcard patterns" {
+            Build-ColorScriptCache -Name 'aurora-s*' -Force -ErrorAction Stop | Out-Null
+            $result = Clear-ColorScriptCache -Name 'aurora-s*' -Confirm:$false
+            $result | Should -Not -BeNullOrEmpty
+            $names = $result | Select-Object -ExpandProperty Name
+            $names | Should -Contain 'aurora-stream'
+            $names | Should -Contain 'aurora-storm'
+            $result | ForEach-Object { $_.Status | Should -BeIn @('Removed', 'Missing') }
+        }
+
         It "Should support DryRun cache clearing" {
             Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null
             $dryRun = Clear-ColorScriptCache -Name "bars" -DryRun
@@ -193,6 +210,12 @@ Describe "ColorScripts-Enhanced Module" {
             { Show-ColorScript -Name "bars" -NoCache -ErrorAction Stop } | Should -Not -Throw
         }
 
+        It "Should support wildcard Name patterns" {
+            $record = Show-ColorScript -Name 'aurora-s*' -NoCache -PassThru
+            $record | Should -Not -BeNullOrEmpty
+            $record.Name | Should -Be 'aurora-storm'
+        }
+
         It "Should handle non-existent script gracefully" {
             { Show-ColorScript -Name "nonexistent-script-xyz" } | Should -Not -Throw
         }
@@ -206,6 +229,12 @@ Describe "ColorScripts-Enhanced Module" {
 
         It "Should execute without error" {
             { Get-ColorScriptList } | Should -Not -Throw
+        }
+
+        It "Should filter by name with wildcards" {
+            $records = Get-ColorScriptList -AsObject -Name 'aurora-s*'
+            $records | Should -Not -BeNullOrEmpty
+            ($records | Select-Object -ExpandProperty Name) | Should -Contain 'aurora-storm'
         }
     }
 
@@ -410,15 +439,30 @@ Describe "Add-ColorScriptProfile Function" {
             if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
         }
     }
+
+    It "Should expand tilde paths" {
+        $uniqueName = "ColorScriptsProfileHome_{0}.ps1" -f ([guid]::NewGuid())
+        $tildePath = "~/$uniqueName"
+        $expectedPath = [System.IO.Path]::GetFullPath((Join-Path $HOME $uniqueName))
+
+        if (Test-Path $expectedPath) { Remove-Item $expectedPath -Force }
+
+        try {
+            $result = Add-ColorScriptProfile -Path $tildePath -SkipStartupScript -Force
+            $result.Path | Should -Be $expectedPath
+            Test-Path $expectedPath | Should -BeTrue
+        }
+        finally {
+            if (Test-Path $expectedPath) { Remove-Item $expectedPath -Force }
+        }
+    }
 }
 
 Describe "Script Quality" {
     Context "Script Files" {
         BeforeAll {
             $scriptsPath = "$PSScriptRoot\..\ColorScripts-Enhanced\Scripts"
-            $script:TestScripts = (Get-ChildItem $scriptsPath -Filter "*.ps1" |
-                Where-Object { $_.Name -ne 'ColorScriptCache.ps1' } |
-                Select-Object -First 5)
+            $script:TestScripts = Get-ChildItem $scriptsPath -Filter "*.ps1" | Where-Object { $_.Name -ne 'ColorScriptCache.ps1' } | Select-Object -First 5
         }
 
         It "Scripts should use UTF-8 encoding" {

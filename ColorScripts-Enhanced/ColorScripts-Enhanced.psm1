@@ -95,6 +95,29 @@ function Resolve-CachePath {
     }
 
     $expanded = [System.Environment]::ExpandEnvironmentVariables($Path)
+
+    if ($expanded -and $expanded.StartsWith('~')) {
+        $homeDirectory = [System.Environment]::GetFolderPath('UserProfile')
+        if (-not $homeDirectory) {
+            $homeDirectory = $HOME
+        }
+
+        if ($homeDirectory) {
+            if ($expanded.Length -eq 1) {
+                $expanded = $homeDirectory
+            }
+            elseif ($expanded.Length -gt 1 -and ($expanded[1] -eq '/' -or $expanded[1] -eq '\')) {
+                $relativeSegment = $expanded.Substring(2)
+                $expanded = if ($relativeSegment) {
+                    Join-Path -Path $homeDirectory -ChildPath $relativeSegment
+                }
+                else {
+                    $homeDirectory
+                }
+            }
+        }
+    }
+
     $candidate = $expanded
 
     $qualifier = $null
@@ -281,6 +304,129 @@ function Initialize-CacheDirectory {
 }
 
 Initialize-CacheDirectory
+
+function New-NameMatcherSet {
+    param(
+        [string[]]$Patterns
+    )
+
+    $matchers = New-Object 'System.Collections.Generic.List[object]'
+
+    if (-not $Patterns) {
+        return $matchers.ToArray()
+    }
+
+    foreach ($pattern in $Patterns) {
+        if ([string]::IsNullOrWhiteSpace($pattern)) {
+            continue
+        }
+
+        $hasWildcard = [System.Management.Automation.WildcardPattern]::ContainsWildcardCharacters($pattern)
+        if ($hasWildcard) {
+            $wildcard = New-Object System.Management.Automation.WildcardPattern ($pattern, [System.Management.Automation.WildcardOptions]::IgnoreCase)
+            $null = $matchers.Add(
+                [pscustomobject]@{
+                    Pattern    = $pattern
+                    Matcher    = $wildcard
+                    IsWildcard = $true
+                    Matched    = $false
+                    Matches    = New-Object 'System.Collections.Generic.List[string]'
+                }
+            )
+        }
+        else {
+            $null = $matchers.Add(
+                [pscustomobject]@{
+                    Pattern    = $pattern
+                    Matcher    = $pattern
+                    IsWildcard = $false
+                    Matched    = $false
+                    Matches    = New-Object 'System.Collections.Generic.List[string]'
+                }
+            )
+        }
+    }
+
+    return $matchers.ToArray()
+}
+
+function Select-RecordsByName {
+    param(
+        [Parameter(Mandatory)]
+        [System.Collections.IEnumerable]$Records,
+
+        [string[]]$Name
+    )
+
+    $recordList = New-Object 'System.Collections.Generic.List[object]'
+    foreach ($record in $Records) {
+        $null = $recordList.Add($record)
+    }
+
+    if (-not $Name -or $Name.Count -eq 0) {
+        return [pscustomobject]@{
+            Records         = $recordList.ToArray()
+            MissingPatterns = @()
+        }
+    }
+
+    $matchers = New-NameMatcherSet -Patterns $Name
+    if (-not $matchers -or $matchers.Count -eq 0) {
+        return [pscustomobject]@{
+            Records         = @()
+            MissingPatterns = @()
+        }
+    }
+
+    $selected = New-Object 'System.Collections.Generic.List[object]'
+
+    foreach ($record in $recordList) {
+        if (-not ($record.PSObject.Properties.Name -contains 'Name')) {
+            continue
+        }
+
+        $candidateName = [string]$record.Name
+        $recordMatched = $false
+
+        foreach ($matcher in $matchers) {
+            $isMatch = if ($matcher.IsWildcard) {
+                $matcher.Matcher.IsMatch($candidateName)
+            }
+            else {
+                [System.String]::Equals($candidateName, [string]$matcher.Matcher, [System.StringComparison]::OrdinalIgnoreCase)
+            }
+
+            if ($isMatch) {
+                $matcher.Matched = $true
+                if (-not $matcher.Matches.Contains($candidateName)) {
+                    $null = $matcher.Matches.Add($candidateName)
+                }
+                $recordMatched = $true
+            }
+        }
+
+        if ($recordMatched) {
+            $null = $selected.Add($record)
+        }
+    }
+
+    $missing = $matchers | Where-Object { -not $_.Matched } | ForEach-Object { $_.Pattern }
+
+    $matchMap = $matchers | ForEach-Object {
+        [pscustomobject]@{
+            Pattern    = $_.Pattern
+            IsWildcard = $_.IsWildcard
+            Matched    = $_.Matched
+            Matches    = $_.Matches.ToArray()
+        }
+    }
+
+    return [pscustomobject]@{
+        Records         = $selected.ToArray()
+        MissingPatterns = [string[]]$missing
+        MatchMap        = $matchMap
+    }
+}
 
 function Get-ColorScriptMetadataTable {
     $currentTimestamp = $null
@@ -651,6 +797,7 @@ function Get-ColorScriptMetadataTable {
 
 function Get-ColorScriptEntry {
     param(
+        [SupportsWildcards()]
         [string[]]$Name,
         [string[]]$Category,
         [string[]]$Tag
@@ -696,8 +843,8 @@ function Get-ColorScriptEntry {
     }
 
     if ($Name) {
-        $nameSet = $Name | ForEach-Object { $_.ToLowerInvariant() }
-        $records = $records | Where-Object { $nameSet -contains $_.Name.ToLowerInvariant() }
+        $selection = Select-RecordsByName -Records $records -Name $Name
+        $records = $selection.Records
     }
 
     if ($Category) {
@@ -867,9 +1014,11 @@ function Show-ColorScript {
     .DESCRIPTION
         Shows a beautiful ANSI colorscript in your terminal. If no name is specified,
         displays a random script. Uses intelligent caching for 6-19x faster performance.
+        Name values accept wildcards; when multiple scripts match the provided pattern, the first
+        alphabetical match is displayed and can be inspected with -PassThru.
 
     .PARAMETER Name
-        The name of the colorscript to display (without .ps1 extension).
+        The name of the colorscript to display (without .ps1 extension). Supports wildcards for partial matches.
 
     .PARAMETER List
         Lists all available colorscripts.
@@ -879,6 +1028,12 @@ function Show-ColorScript {
 
     .PARAMETER NoCache
         Bypass cache and execute script directly.
+    .PARAMETER Category
+        Filter the available script set by one or more categories before selection occurs.
+    .PARAMETER Tag
+        Filter the available script set by tag metadata (case-insensitive).
+    .PARAMETER PassThru
+        Return the selected script metadata in addition to rendering output.
 
     .EXAMPLE
         Show-ColorScript
@@ -887,6 +1042,10 @@ function Show-ColorScript {
     .EXAMPLE
         Show-ColorScript -Name "mandelbrot-zoom"
         Displays the mandelbrot-zoom colorscript.
+
+    .EXAMPLE
+        Show-ColorScript -Name "aurora-*"
+        Displays the first colorscript (alphabetically) whose name matches the wildcard.
 
     .EXAMPLE
         Show-ColorScript -List
@@ -900,6 +1059,7 @@ function Show-ColorScript {
     [Alias('scs')]
     param(
         [Parameter(ParameterSetName = 'Named', Position = 0)]
+        [SupportsWildcards()]
         [string]$Name,
 
         [Parameter(ParameterSetName = 'List')]
@@ -917,21 +1077,37 @@ function Show-ColorScript {
         [Parameter()]
         [string[]]$Tag,
 
-        [Parameter()]
+        [Parameter(ParameterSetName = 'Named')]
+        [Parameter(ParameterSetName = 'Random')]
         [switch]$PassThru
     )
 
     # Handle list request
     if ($List) {
-        Get-ColorScriptList
+        $listParams = @{}
+        if ($Category) { $listParams.Category = $Category }
+        if ($Tag) { $listParams.Tag = $Tag }
+        Get-ColorScriptList @listParams
         return
     }
 
     $records = Get-ColorScriptEntry -Category $Category -Tag $Tag
 
-    if (-not $records) {
+    if (-not $records -or $records.Count -eq 0) {
         Write-Warning "No colorscripts found in $script:ScriptsPath"
         return
+    }
+
+    if ($Name) {
+        $selectionResult = Select-RecordsByName -Records $records -Name $Name
+        foreach ($pattern in $selectionResult.MissingPatterns) {
+            Write-Warning "Colorscript '$pattern' not found with the specified filters."
+        }
+
+        $records = $selectionResult.Records
+        if (-not $records -or $records.Count -eq 0) {
+            return
+        }
     }
 
     $useRandom = $Random -or $PSCmdlet.ParameterSetName -eq 'Random'
@@ -939,11 +1115,12 @@ function Show-ColorScript {
     $selection = $null
 
     if ($Name) {
-        $selection = $records | Where-Object { $_.Name -eq $Name } | Select-Object -First 1
-        if (-not $selection) {
-            Write-Warning "Colorscript '$Name' not found with the specified filters."
-            return
+        $orderedMatches = $records | Sort-Object Name
+        if ($orderedMatches.Count -gt 1) {
+            $matchedNames = $orderedMatches | Select-Object -ExpandProperty Name
+            Write-Verbose "Multiple colorscripts matched the provided name pattern(s): $($matchedNames -join ', '). Displaying '$($orderedMatches[0].Name)'."
         }
+        $selection = $orderedMatches | Select-Object -First 1
     }
     elseif ($useRandom) {
         $selection = $records | Get-Random
@@ -986,6 +1163,16 @@ function Show-ColorScript {
 Returns metadata-rich information about available color scripts.
 .DESCRIPTION
 Loads script metadata and optionally filters by category or tag before returning structured objects or displaying a table view.
+.PARAMETER AsObject
+return raw record objects instead of rendering a formatted table.
+.PARAMETER Detailed
+Include tag and description columns when emitting the formatted table view.
+.PARAMETER Name
+Filter the colorscript list by one or more names. Wildcards are supported and unmatched patterns generate warnings.
+.PARAMETER Category
+Filter the list to scripts belonging to one or more categories (case-insensitive).
+.PARAMETER Tag
+Filter the list to scripts containing one or more metadata tags (case-insensitive).
 #>
 function Get-ColorScriptList {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Structured list is emitted for pipeline consumption.')]
@@ -993,11 +1180,22 @@ function Get-ColorScriptList {
     param(
         [switch]$AsObject,
         [switch]$Detailed,
+        [SupportsWildcards()]
+        [string[]]$Name,
         [string[]]$Category,
         [string[]]$Tag
     )
 
     $records = Get-ColorScriptEntry -Category $Category -Tag $Tag | Sort-Object Name
+
+    if ($Name) {
+        $selection = Select-RecordsByName -Records $records -Name $Name
+        foreach ($pattern in $selection.MissingPatterns) {
+            Write-Warning "Colorscript '$pattern' not found with the specified filters."
+        }
+
+        $records = $selection.Records
+    }
 
     if (-not $records) {
         Write-Warning "No colorscripts available with the specified filters."
@@ -1023,12 +1221,20 @@ function Get-ColorScriptList {
 Builds or refreshes the cache for one or more color scripts.
 .DESCRIPTION
 Uses cached path resolution to execute color scripts and persist their output, honoring Force, WhatIf, and ShouldProcess semantics.
+ Accepts wildcard patterns so multiple scripts can be cached with a single command.
+.PARAMETER Name
+One or more colorscript names to cache. Supports wildcard patterns.
+.PARAMETER All
+Cache every available script when specified.
+.PARAMETER Force
+Rebuild caches even when the existing cache file is newer than the script source.
 #>
 function Build-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache operation.')]
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
     param(
         [Parameter()]
+        [SupportsWildcards()]
         [string[]]$Name,
 
         [Parameter()]
@@ -1041,11 +1247,13 @@ function Build-ColorScriptCache {
     $records = @()
 
     if ($Name) {
-        $records = Get-ColorScriptEntry -Name $Name
-        $missing = $Name | Where-Object { $records.Name -notcontains $_ }
-        foreach ($item in $missing) {
-            Write-Warning "Script not found: $item"
+        $allRecords = Get-ColorScriptEntry
+        $selection = Select-RecordsByName -Records $allRecords -Name $Name
+        foreach ($pattern in $selection.MissingPatterns) {
+            Write-Warning "Script not found: $pattern"
         }
+
+        $records = $selection.Records
     }
     elseif ($All) {
         $records = Get-ColorScriptEntry
@@ -1126,12 +1334,22 @@ function Build-ColorScriptCache {
 Removes color script cache files with optional dry-run support.
 .DESCRIPTION
 Clears cached script output for specific scripts or the entire cache directory while providing structured, scriptable results.
+ Supports wildcard name patterns for batch operations while reporting unmatched patterns.
+.PARAMETER Name
+Names or wildcard patterns identifying cache files to remove.
+.PARAMETER All
+Remove every cache file in the target directory.
+.PARAMETER Path
+Alternate cache directory to operate against.
+.PARAMETER DryRun
+Preview removal actions without deleting files.
 #>
 function Clear-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache entry.')]
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
     param(
         [Parameter()]
+        [SupportsWildcards()]
         [string[]]$Name,
 
         [Parameter()]
@@ -1161,53 +1379,105 @@ function Clear-ColorScriptCache {
     $results = @()
 
     if ($Name) {
-        foreach ($scriptName in $Name) {
-            $cacheFile = Join-Path -Path $targetRoot -ChildPath "$scriptName.cache"
-            if (-not (Test-Path -LiteralPath $cacheFile)) {
+        $cacheFiles = Get-ChildItem -Path $targetRoot -Filter "*.cache" -File -ErrorAction SilentlyContinue
+        $cacheRecords = @()
+        if ($cacheFiles) {
+            foreach ($file in $cacheFiles) {
+                $cacheRecords += [pscustomobject]@{
+                    Name      = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
+                    CacheFile = $file.FullName
+                }
+            }
+        }
+
+        $selection = Select-RecordsByName -Records $cacheRecords -Name $Name
+        $recordIndex = @{}
+        foreach ($entry in $selection.Records) {
+            $key = $entry.Name.ToLowerInvariant()
+            if (-not $recordIndex.ContainsKey($key)) {
+                $recordIndex[$key] = $entry
+            }
+        }
+
+        $processedNames = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+
+        foreach ($patternInfo in $selection.MatchMap) {
+            if (-not $patternInfo.Matched) {
                 $results += [pscustomobject]@{
-                    Name      = $scriptName
-                    CacheFile = $cacheFile
+                    Name      = $patternInfo.Pattern
+                    CacheFile = Join-Path -Path $targetRoot -ChildPath ("{0}.cache" -f $patternInfo.Pattern)
                     Status    = 'Missing'
                     Message   = 'Cache file not found.'
                 }
                 continue
             }
 
-            if (-not $PSCmdlet.ShouldProcess($cacheFile, 'Clear cache')) {
-                $results += [pscustomobject]@{
-                    Name      = $scriptName
-                    CacheFile = $cacheFile
-                    Status    = 'SkippedByUser'
-                    Message   = ''
+            foreach ($matchedName in $patternInfo.Matches) {
+                if (-not $processedNames.Add($matchedName)) {
+                    continue
                 }
-                continue
-            }
 
-            if ($DryRun) {
-                $results += [pscustomobject]@{
-                    Name      = $scriptName
-                    CacheFile = $cacheFile
-                    Status    = 'DryRun'
-                    Message   = 'No changes applied.'
-                }
-                continue
-            }
+                $lookupKey = $matchedName.ToLowerInvariant()
+                $entry = if ($recordIndex.ContainsKey($lookupKey)) { $recordIndex[$lookupKey] } else { $null }
 
-            try {
-                Remove-Item -LiteralPath $cacheFile -Force -ErrorAction Stop
-                $results += [pscustomobject]@{
-                    Name      = $scriptName
-                    CacheFile = $cacheFile
-                    Status    = 'Removed'
-                    Message   = ''
+                if (-not $entry) {
+                    $results += [pscustomobject]@{
+                        Name      = $matchedName
+                        CacheFile = Join-Path -Path $targetRoot -ChildPath ("{0}.cache" -f $matchedName)
+                        Status    = 'Missing'
+                        Message   = 'Cache file not found.'
+                    }
+                    continue
                 }
-            }
-            catch {
-                $results += [pscustomobject]@{
-                    Name      = $scriptName
-                    CacheFile = $cacheFile
-                    Status    = 'Error'
-                    Message   = $_.Exception.Message
+
+                $cacheFile = $entry.CacheFile
+
+                if (-not (Test-Path -LiteralPath $cacheFile)) {
+                    $results += [pscustomobject]@{
+                        Name      = $matchedName
+                        CacheFile = $cacheFile
+                        Status    = 'Missing'
+                        Message   = 'Cache file not found.'
+                    }
+                    continue
+                }
+
+                if (-not $PSCmdlet.ShouldProcess($cacheFile, 'Clear cache')) {
+                    $results += [pscustomobject]@{
+                        Name      = $matchedName
+                        CacheFile = $cacheFile
+                        Status    = 'SkippedByUser'
+                        Message   = ''
+                    }
+                    continue
+                }
+
+                if ($DryRun) {
+                    $results += [pscustomobject]@{
+                        Name      = $matchedName
+                        CacheFile = $cacheFile
+                        Status    = 'DryRun'
+                        Message   = 'No changes applied.'
+                    }
+                    continue
+                }
+
+                try {
+                    Remove-Item -LiteralPath $cacheFile -Force -ErrorAction Stop
+                    $results += [pscustomobject]@{
+                        Name      = $matchedName
+                        CacheFile = $cacheFile
+                        Status    = 'Removed'
+                        Message   = ''
+                    }
+                }
+                catch {
+                    $results += [pscustomobject]@{
+                        Name      = $matchedName
+                        CacheFile = $cacheFile
+                        Status    = 'Error'
+                        Message   = $_.Exception.Message
+                    }
                 }
             }
         }
@@ -1287,14 +1557,24 @@ function Add-ColorScriptProfile {
     }
 
     if ($PSBoundParameters.ContainsKey('Path')) {
-        $profilePath = $Path
+        $profilePath = Resolve-CachePath -Path $Path
+        if (-not $profilePath) {
+            throw "Unable to resolve profile path '$Path'."
+        }
     }
     else {
         $profilePath = $PROFILE.$Scope
-    }
+        if ([string]::IsNullOrWhiteSpace($profilePath)) {
+            throw "Profile path for scope '$Scope' is not defined."
+        }
 
-    if (-not [System.IO.Path]::IsPathRooted($profilePath)) {
-        $profilePath = [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $profilePath))
+        $resolvedProfile = Resolve-CachePath -Path $profilePath
+        if ($resolvedProfile) {
+            $profilePath = $resolvedProfile
+        }
+        elseif (-not [System.IO.Path]::IsPathRooted($profilePath)) {
+            $profilePath = [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $profilePath))
+        }
     }
 
     $profileDirectory = Split-Path -Parent $profilePath
@@ -1303,11 +1583,19 @@ function Add-ColorScriptProfile {
     }
 
     $existingContent = ''
-    if (Test-Path $profilePath) {
-        $existingContent = [System.IO.File]::ReadAllText($profilePath)
+    if (Test-Path -LiteralPath $profilePath) {
+        $existingContent = Get-Content -LiteralPath $profilePath -Raw
     }
 
-    $newline = [Environment]::NewLine
+    $newline = if ($existingContent -match "`r`n") {
+        "`r`n"
+    }
+    elseif ($existingContent -match "`n") {
+        "`n"
+    }
+    else {
+        [Environment]::NewLine
+    }
     $timestamp = (Get-Date).ToString('u')
     $snippetLines = @(
         "# Added by ColorScripts-Enhanced on $timestamp",

@@ -163,6 +163,11 @@ Show-ColorScript -Name "mandelbrot-zoom"
 scs mandelbrot-zoom
 ```
 
+```powershell
+# Use wildcards to target a family of scripts
+Show-ColorScript -Name "aurora-*"
+```
+
 ### List All Available Colorscripts
 
 ```powershell
@@ -192,6 +197,9 @@ Build-ColorScriptCache -Name "bars","hearts","arch"
 
 # Force rebuild cache
 Build-ColorScriptCache -All -Force
+
+# Cache every script whose name starts with "aurora-"
+Build-ColorScriptCache -Name "aurora-*"
 ```
 
 ### Clear Cache
@@ -206,6 +214,9 @@ Clear-ColorScriptCache -Name "mandelbrot-zoom"
 # Preview deletions or target alternate cache roots
 Clear-ColorScriptCache -Name "mandelbrot-zoom" -DryRun
 Clear-ColorScriptCache -Name "mandelbrot-zoom" -Path 'C:/temp/colorscripts-cache'
+
+# Remove all caches that match a wildcard pattern
+Clear-ColorScriptCache -Name "aurora-*" -Confirm:$false
 ```
 
 > Tip: Set `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` to redirect cache files to a custom directory for CI or ephemeral test runs.

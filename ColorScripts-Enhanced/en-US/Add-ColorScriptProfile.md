@@ -29,6 +29,8 @@ Add-ColorScriptProfile [-Path <String>] [-SkipStartupScript] [-Force] [-WhatIf] 
 
 Adds a startup snippet to the specified PowerShell profile file. The snippet always imports the ColorScripts-Enhanced module and, unless suppressed, adds a call to `Show-ColorScript` so that a random colorscript is displayed on launch. The profile file is created if it does not already exist, and duplicate imports are avoided unless `-Force` is specified.
 
+The `-Path` parameter accepts relative paths, environment variables, and `~` expansion, making it easy to target profiles outside the default locations.
+
 ## EXAMPLES
 
 ### EXAMPLE 1
@@ -58,10 +60,10 @@ Targets the profile for the current host (e.g., Windows Terminal, VS Code) inste
 ### EXAMPLE 4
 
 ```powershell
-Add-ColorScriptProfile -Path .\profiles\example.ps1 -Force
+Add-ColorScriptProfile -Path "~/PowerShell/Profiles/Example.ps1" -Force
 ```
 
-Appends the snippet to a custom profile path, even if the import line already exists.
+Appends the snippet to a custom profile path (resolved from `~`), even if the import line already exists.
 
 ## PARAMETERS
 
@@ -83,7 +85,7 @@ Accept wildcard characters: False
 
 ### -Path
 
-Explicit profile path to update. Overrides `-Scope` when provided.
+Explicit profile path to update. Overrides `-Scope` when provided. Supports environment variables, relative paths, and `~` expansion.
 
 ```yaml
 Type: String

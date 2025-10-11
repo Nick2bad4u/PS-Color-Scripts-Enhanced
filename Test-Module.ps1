@@ -34,6 +34,10 @@ function Test-Function {
 Write-Host "Importing module..." -ForegroundColor Yellow
 try {
     Import-Module "$PSScriptRoot\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1" -Force
+    $cacheVariable = (Get-Module ColorScripts-Enhanced -ErrorAction Stop).SessionState.PSVariable.GetValue('CacheDir')
+    if (-not [string]::IsNullOrWhiteSpace($cacheVariable)) {
+        $script:ModuleCacheDir = $cacheVariable
+    }
     Write-Host "✓ Module imported successfully`n" -ForegroundColor Green
 }
 catch {
@@ -102,7 +106,7 @@ Test-Function "Colorscripts are available" {
 
 # Test 6: Cache directory created
 Test-Function "Cache directory exists" {
-    $cacheDir = Join-Path $env:APPDATA "ColorScripts-Enhanced\cache"
+    $cacheDir = if ($script:ModuleCacheDir) { $script:ModuleCacheDir } else { Join-Path $env:APPDATA "ColorScripts-Enhanced\cache" }
     if (-not (Test-Path $cacheDir)) {
         throw "Cache directory not created"
     }
@@ -113,6 +117,13 @@ Test-Function "Get-ColorScriptList executes" {
     $null = Get-ColorScriptList *>&1
 }
 
+Test-Function "Get-ColorScriptList -Name filters results" {
+    $records = Get-ColorScriptList -AsObject -Name "bars"
+    if ($records.Count -ne 1 -or $records[0].Name -ne 'bars') {
+        throw "Expected single bars record, found $($records.Count)"
+    }
+}
+
 # Test 8: Show-ColorScript with -List
 Test-Function "Show-ColorScript -List works" {
     $null = Show-ColorScript -List *>&1
@@ -121,9 +132,21 @@ Test-Function "Show-ColorScript -List works" {
 # Test 9: Build cache for single script
 Test-Function "Build-ColorScriptCache for single script" {
     Build-ColorScriptCache -Name "bars" -ErrorAction Stop *>&1 | Out-Null
-    $cacheFile = Join-Path $env:APPDATA "ColorScripts-Enhanced\cache\bars.cache"
+    $cacheRoot = if ($script:ModuleCacheDir) { $script:ModuleCacheDir } else { Join-Path $env:APPDATA "ColorScripts-Enhanced\cache" }
+    $cacheFile = Join-Path $cacheRoot "bars.cache"
     if (-not (Test-Path $cacheFile)) {
         throw "Cache file not created"
+    }
+}
+
+Test-Function "Build-ColorScriptCache wildcard" {
+    $result = Build-ColorScriptCache -Name "aurora-s*" -Force -ErrorAction Stop
+    if (-not $result -or $result.Count -lt 2) {
+        throw "Expected multiple results for wildcard build"
+    }
+    $names = $result | ForEach-Object { $_.Name }
+    if ($names -notcontains 'aurora-stream' -or $names -notcontains 'aurora-storm') {
+        throw "Wildcard cache build missing expected entries"
     }
 }
 
@@ -133,14 +156,35 @@ Test-Function "Show-ColorScript by name" {
     # If we get here, it executed successfully
 }
 
+Test-Function "Show-ColorScript wildcard selection" {
+    $record = Show-ColorScript -Name "aurora-s*" -NoCache -PassThru
+    if (-not $record) { throw "No record returned" }
+    if ($record.Name -ne 'aurora-storm') { throw "Unexpected selection '$($record.Name)'" }
+}
+
 # Test 11: Clear specific cache
 Test-Function "Clear-ColorScriptCache for specific script" {
     Clear-ColorScriptCache -Name "bars" -Confirm:$false *>&1 | Out-Null
-    $cacheFile = Join-Path $env:APPDATA "ColorScripts-Enhanced\cache\bars.cache"
+    $cacheRoot = if ($script:ModuleCacheDir) { $script:ModuleCacheDir } else { Join-Path $env:APPDATA "ColorScripts-Enhanced\cache" }
+    $cacheFile = Join-Path $cacheRoot "bars.cache"
     if (Test-Path $cacheFile) {
         throw "Cache file not removed"
     }
 }
+
+Test-Function "Clear-ColorScriptCache wildcard" {
+    Build-ColorScriptCache -Name "aurora-s*" -Force -ErrorAction Stop *>&1 | Out-Null
+    $result = Clear-ColorScriptCache -Name "aurora-s*" -Confirm:$false
+    if (-not $result -or $result.Count -lt 2) {
+        throw "Expected multiple results for wildcard clear"
+    }
+    foreach ($entry in $result) {
+        if ($entry.Status -notin @('Removed', 'Missing')) {
+            throw "Unexpected status '$($entry.Status)' for $($entry.Name)"
+        }
+    }
+}
+
 
 # Test 12: Help available
 Test-Function "Help for Show-ColorScript" {
@@ -255,13 +299,54 @@ Test-Function "Add-ColorScriptProfile SkipStartupScript" {
     }
 }
 
+Test-Function "Add-ColorScriptProfile expands tilde" {
+    $uniqueName = "ColorScriptsProfileHome_{0}.ps1" -f ([Guid]::NewGuid())
+    $tildePath = "~/$uniqueName"
+    $expectedPath = [System.IO.Path]::GetFullPath((Join-Path $HOME $uniqueName))
+
+    if (Test-Path $expectedPath) { Remove-Item $expectedPath -Force }
+
+    try {
+        $result = Add-ColorScriptProfile -Path $tildePath -SkipStartupScript -Force
+        if ($result.Path -ne $expectedPath) { throw "Path not expanded as expected" }
+        if (-not (Test-Path $expectedPath)) { throw "Profile file not created" }
+    }
+    finally {
+        if (Test-Path $expectedPath) { Remove-Item $expectedPath -Force }
+    }
+}
+
 Test-Function "Script analyzer clean" {
     if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
         throw "PSScriptAnalyzer module not installed. Run 'Install-Module PSScriptAnalyzer -Scope CurrentUser'."
     }
 
     Import-Module PSScriptAnalyzer -ErrorAction Stop
-    $lintResults = Invoke-ScriptAnalyzer -Path "$PSScriptRoot\ColorScripts-Enhanced" -Recurse -Settings "$PSScriptRoot\PSScriptAnalyzerSettings.psd1" -Severity Error, Warning
+    $lintParams = @{
+        Path        = "$PSScriptRoot\ColorScripts-Enhanced"
+        Recurse     = $true
+        Settings    = "$PSScriptRoot\PSScriptAnalyzerSettings.psd1"
+        Severity    = 'Error', 'Warning'
+        ErrorAction = 'Stop'
+    }
+
+    try {
+        $lintResults = Invoke-ScriptAnalyzer @lintParams
+    }
+    catch {
+        $exception = $_.Exception
+        $isNullRef = $exception -is [System.NullReferenceException] -or ($exception -and $exception.Message -like 'Object reference*')
+
+        if ($isNullRef -and $lintParams.ContainsKey('Settings')) {
+            Write-Warning "ScriptAnalyzer encountered a known issue analyzing module sources with custom settings. Retrying without settings."
+            $lintParams.Remove('Settings')
+            $lintResults = Invoke-ScriptAnalyzer @lintParams
+        }
+        else {
+            throw
+        }
+    }
+
     if ($lintResults) {
         $lintResults | Format-Table -AutoSize | Out-String | Write-Host
         throw "ScriptAnalyzer reported issues"
