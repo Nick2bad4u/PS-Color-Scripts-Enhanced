@@ -68,10 +68,50 @@ jobs:
       - name: Run Script Analyzer
         run: |
           Import-Module PSScriptAnalyzer
-          $results = Invoke-ScriptAnalyzer -Path ./ColorScripts-Enhanced -Recurse -Settings ./PSScriptAnalyzerSettings.psd1 -Severity 'Error','Warning' -ReportSummary
-          if ($results) {
-              $results | Format-Table -AutoSize
-              throw 'ScriptAnalyzer reported findings.'
+          $settingsPath = Join-Path (Get-Location) 'PSScriptAnalyzerSettings.psd1'
+          $moduleRoot = Join-Path (Get-Location) 'ColorScripts-Enhanced'
+          $moduleFiles = Get-ChildItem -Path $moduleRoot -File -Recurse -Include *.ps1, *.psm1, *.psd1
+
+          $allFindings = New-Object 'System.Collections.Generic.List[psobject]'
+
+          foreach ($file in $moduleFiles) {
+            $parameters = @{
+              Path        = $file.FullName
+              Severity    = 'Error', 'Warning'
+              ErrorAction = 'Stop'
+            }
+
+            if (Test-Path $settingsPath) {
+              $parameters.Settings = $settingsPath
+            }
+
+            try {
+              $diagnostics = Invoke-ScriptAnalyzer @parameters
+            }
+            catch {
+              $exception = $_.Exception
+              $isNullReference = $exception -is [System.NullReferenceException] -or ($exception -and $exception.Message -like 'Object reference*')
+
+              if ($isNullReference -and $parameters.ContainsKey('Settings')) {
+                Write-Warning "ScriptAnalyzer hit a known issue on '$($file.FullName)' with custom settings. Retrying without settings."
+                $parameters.Remove('Settings')
+                $diagnostics = Invoke-ScriptAnalyzer @parameters
+              }
+              else {
+                throw
+              }
+            }
+
+            if ($diagnostics) {
+              foreach ($entry in $diagnostics) {
+                $allFindings.Add($entry) | Out-Null
+              }
+            }
+          }
+
+          if ($allFindings.Count -gt 0) {
+            $allFindings | Format-Table -AutoSize
+            throw 'ScriptAnalyzer reported findings.'
           }
         shell: pwsh
 
