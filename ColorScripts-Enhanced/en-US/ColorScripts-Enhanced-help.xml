@@ -296,7 +296,8 @@
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>`Build-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript`. You can target specific scripts by name (wildcards supported) or allow the cmdlet to cache the entire collection (the default behavior, equivalent to specifying `-All`). Results are returned as structured objects so you can inspect status, standard output, and error streams programmatically.</maml:para>
+      <maml:para>`Build-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript`. You can target specific scripts by name (wildcards supported) or allow the cmdlet to cache the entire collection (the default behavior, equivalent to specifying `-All`).</maml:para>
+      <maml:para>By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -324,6 +325,17 @@
           </dev:type>
           <dev:defaultValue>False</dev:defaultValue>
         </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>PassThru</maml:name>
+          <maml:description>
+            <maml:para>Return detailed result objects for each cache operation. By default, the cmdlet displays a concise summary instead of returning objects.</maml:para>
+          </maml:description>
+          <dev:type>
+            <maml:name>SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
       </command:syntaxItem>
       <command:syntaxItem>
         <maml:name>Build-ColorScriptCache</maml:name>
@@ -342,6 +354,17 @@
           <maml:name>Force</maml:name>
           <maml:description>
             <maml:para>Rebuild cache files even when the existing cache is newer than the script source.</maml:para>
+          </maml:description>
+          <dev:type>
+            <maml:name>SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>PassThru</maml:name>
+          <maml:description>
+            <maml:para>Return detailed result objects for each cache operation. By default, the cmdlet displays a concise summary instead of returning objects.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -388,6 +411,18 @@
         </dev:type>
         <dev:defaultValue>False</dev:defaultValue>
       </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+        <maml:name>PassThru</maml:name>
+        <maml:description>
+          <maml:para>Return detailed result objects for each cache operation. By default, the cmdlet displays a concise summary instead of returning objects.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
+        <dev:type>
+          <maml:name>SwitchParameter</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>False</dev:defaultValue>
+      </command:parameter>
     </command:parameters>
     <command:inputTypes>
       <command:inputType>
@@ -405,7 +440,7 @@
           <maml:name>System.Object[]</maml:name>
         </dev:type>
         <maml:description>
-          <maml:para>Returns a record per processed script containing `Name`, `Status`, `CacheFile`, `ExitCode`, `StdOut`, and `StdErr` fields.</maml:para>
+          <maml:para>When `-PassThru` is specified, returns a record per processed script containing `Name`, `Status`, `CacheFile`, `ExitCode`, `StdOut`, and `StdErr` fields. Without `-PassThru`, displays a concise summary to the console.</maml:para>
         </maml:description>
       </command:returnValue>
     </command:returnValues>
@@ -432,9 +467,16 @@
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 3 --------------------------</maml:title>
-        <dev:code>Build-ColorScriptCache -Name mandelbrot-zoom -Force | Format-List</dev:code>
+        <dev:code>Build-ColorScriptCache -Name mandelbrot-zoom -Force -PassThru | Format-List</dev:code>
         <dev:remarks>
-          <maml:para>Force a rebuild even if the cache is newer than the source script and examine the detailed result.</maml:para>
+          <maml:para>Force a rebuild even if the cache is newer than the source script and examine the detailed result objects.</maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 4 --------------------------</maml:title>
+        <dev:code>Build-ColorScriptCache -All</dev:code>
+        <dev:remarks>
+          <maml:para>Cache all scripts and display a concise summary (default behavior without `-PassThru`).</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>

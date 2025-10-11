@@ -1231,6 +1231,8 @@ One or more colorscript names to cache. Supports wildcard patterns and pipeline 
 Cache every available script. When omitted and no names are supplied, all scripts are cached by default.
 .PARAMETER Force
 Rebuild caches even when the existing cache file is newer than the script source.
+.PARAMETER PassThru
+Return detailed result objects for each cache operation. By default, only a summary is displayed.
 #>
 function Build-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache operation.')]
@@ -1244,7 +1246,10 @@ function Build-ColorScriptCache {
         [switch]$All,
 
         [Parameter()]
-        [switch]$Force
+        [switch]$Force,
+
+        [Parameter()]
+        [switch]$PassThru
     )
 
     begin {
@@ -1267,13 +1272,39 @@ function Build-ColorScriptCache {
         $allExplicitlyDisabled = $PSBoundParameters.ContainsKey('All') -and -not $All
 
         if ($selectedNames.Count -gt 0) {
-            $allRecords = Get-ColorScriptEntry
-            $selection = Select-RecordsByName -Records $allRecords -Name $selectedNames
-            foreach ($pattern in $selection.MissingPatterns) {
-                Write-Warning "Script not found: $pattern"
+            # Fast path: Check if any names contain wildcards
+            $hasWildcards = $false
+            foreach ($name in $selectedNames) {
+                if ([System.Management.Automation.WildcardPattern]::ContainsWildcardCharacters($name)) {
+                    $hasWildcards = $true
+                    break
+                }
             }
 
-            $records = $selection.Records
+            if ($hasWildcards) {
+                # Use full metadata processing for wildcard matches
+                $allRecords = Get-ColorScriptEntry
+                $selection = Select-RecordsByName -Records $allRecords -Name $selectedNames
+                foreach ($pattern in $selection.MissingPatterns) {
+                    Write-Warning "Script not found: $pattern"
+                }
+                $records = $selection.Records
+            }
+            else {
+                # Fast path: Direct file resolution without metadata loading
+                $records = foreach ($name in $selectedNames) {
+                    $scriptPath = Join-Path -Path $script:ScriptsPath -ChildPath "$name.ps1"
+                    if (Test-Path -LiteralPath $scriptPath) {
+                        [pscustomobject]@{
+                            Name = $name
+                            Path = $scriptPath
+                        }
+                    }
+                    else {
+                        Write-Warning "Script not found: $name"
+                    }
+                }
+            }
         }
         elseif ($allExplicitlyDisabled) {
             throw "Specify -Name to select scripts when -All is explicitly disabled."
@@ -1297,10 +1328,11 @@ function Build-ColorScriptCache {
 
         for ($index = 0; $index -lt $totalCount; $index++) {
             $record = $records[$index]
-            $cacheFile = Join-Path $script:CacheDir "$($record.Name).cache"
+            $scriptName = [string]$record.Name
+            $cacheFile = Join-Path $script:CacheDir "$scriptName.cache"
             $percentComplete = if ($totalCount -eq 0) { 0 } else { [int](($index / [double]$totalCount) * 100) }
-            $statusMessage = "Processing {0}/{1}: {2}" -f ($index + 1), $totalCount, $record.Name
-            Write-Progress -Id 1 -Activity $progressActivity -Status $statusMessage -PercentComplete $percentComplete -CurrentOperation $record.Name
+            $statusMessage = "Processing {0}/{1}: {2}" -f ($index + 1), $totalCount, $scriptName
+            Write-Progress -Id 1 -Activity $progressActivity -Status $statusMessage -PercentComplete $percentComplete -CurrentOperation $scriptName
 
             $entry = $null
             $resultStatus = 'Updated'
@@ -1311,7 +1343,7 @@ function Build-ColorScriptCache {
                 if ($cacheItem.LastWriteTimeUtc -ge $scriptItem.LastWriteTimeUtc) {
                     $resultStatus = 'SkippedUpToDate'
                     $entry = [pscustomobject]@{
-                        Name      = $record.Name
+                        Name      = $scriptName
                         Status    = $resultStatus
                         CacheFile = $cacheFile
                         ExitCode  = 0
@@ -1322,10 +1354,10 @@ function Build-ColorScriptCache {
             }
 
             if (-not $entry) {
-                if (-not $PSCmdlet.ShouldProcess($record.Name, 'Build cache')) {
+                if (-not $PSCmdlet.ShouldProcess($scriptName, 'Build cache')) {
                     $resultStatus = 'SkippedByUser'
                     $entry = [pscustomobject]@{
-                        Name      = $record.Name
+                        Name      = $scriptName
                         Status    = $resultStatus
                         CacheFile = $cacheFile
                         ExitCode  = $null
@@ -1338,11 +1370,11 @@ function Build-ColorScriptCache {
                     $resultStatus = if ($buildResult.Success) { 'Updated' } else { 'Failed' }
 
                     if (-not $buildResult.Success -and $buildResult.StdErr) {
-                        Write-Warning "Failed to cache $($record.Name): $($buildResult.StdErr)"
+                        Write-Warning ("Failed to cache {0}: {1}" -f $scriptName, $buildResult.StdErr)
                     }
 
                     $entry = [pscustomobject]@{
-                        Name      = $record.Name
+                        Name      = $scriptName
                         Status    = $resultStatus
                         CacheFile = $buildResult.CacheFile
                         ExitCode  = $buildResult.ExitCode
@@ -1363,13 +1395,57 @@ function Build-ColorScriptCache {
                 default { $resultStatus }
             }
 
-            $completionMessage = "{0}/{1}: {2} - {3}" -f ($index + 1), $totalCount, $record.Name, $statusSuffix
-            Write-Progress -Id 1 -Activity $progressActivity -Status $completionMessage -PercentComplete $completionPercent -CurrentOperation $record.Name
+            $completionMessage = "{0}/{1}: {2} - {3}" -f ($index + 1), $totalCount, $scriptName, $statusSuffix
+            Write-Progress -Id 1 -Activity $progressActivity -Status $completionMessage -PercentComplete $completionPercent -CurrentOperation $scriptName
         }
 
         Write-Progress -Id 1 -Activity $progressActivity -Completed
 
-        return [pscustomobject[]]$results
+        # Display summary unless PassThru is specified
+        if (-not $PassThru) {
+            $summary = $results | Group-Object -Property Status | ForEach-Object {
+                [pscustomobject]@{
+                    Status = $_.Name
+                    Count  = $_.Count
+                }
+            }
+
+            Write-Host "`nCache Build Summary:" -ForegroundColor Cyan
+            Write-Host ("=" * 40) -ForegroundColor Cyan
+
+            foreach ($item in $summary) {
+                $color = switch ($item.Status) {
+                    'Updated' { 'Green' }
+                    'SkippedUpToDate' { 'Yellow' }
+                    'Failed' { 'Red' }
+                    'SkippedByUser' { 'Gray' }
+                    default { 'White' }
+                }
+                $statusText = switch ($item.Status) {
+                    'Updated' { 'Cached' }
+                    'SkippedUpToDate' { 'Up-to-date (skipped)' }
+                    'Failed' { 'Failed' }
+                    'SkippedByUser' { 'Skipped by user' }
+                    default { $item.Status }
+                }
+                Write-Host ("  {0,-25} {1}" -f $statusText, $item.Count) -ForegroundColor $color
+            }
+
+            $failed = $results | Where-Object { $_.Status -eq 'Failed' }
+            if ($failed) {
+                Write-Host "`nFailed scripts:" -ForegroundColor Red
+                foreach ($failure in $failed) {
+                    Write-Host "  - $($failure.Name): $($failure.StdErr)" -ForegroundColor Red
+                }
+            }
+
+            Write-Host "`nTotal scripts processed: $totalCount" -ForegroundColor Cyan
+            Write-Host "Use -PassThru to see detailed results`n" -ForegroundColor Gray
+        }
+
+        if ($PassThru) {
+            return [pscustomobject[]]$results
+        }
     }
 }
 

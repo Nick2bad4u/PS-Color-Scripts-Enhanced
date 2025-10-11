@@ -8,11 +8,14 @@ All notable changes to this project will be documented in this file.
 
 
 [[1321c83](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/1321c83d2d05a58bd56c02aa7d2bba5e6c30f0db)...
-[c77c215](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/c77c21509570a253cdfa203d5d9a00405f5a2a73)]
-([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/1321c83d2d05a58bd56c02aa7d2bba5e6c30f0db...c77c21509570a253cdfa203d5d9a00405f5a2a73))
+[971f155](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/971f1555ad96f6666e9256dbcd5b3fdba9c34cc6)]
+([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/1321c83d2d05a58bd56c02aa7d2bba5e6c30f0db...971f1555ad96f6666e9256dbcd5b3fdba9c34cc6))
 
 
 ### 🚀 Features
+
+- Complete MegaLinter and Git-Cliff setup [`(a175361)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/a175361a928250fbfa5f63d4649505b82c0fbfaa)
+
 
 - Add PowerShell version support documentation [`(c77c215)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/c77c21509570a253cdfa203d5d9a00405f5a2a73)
 
@@ -53,6 +56,25 @@ All notable changes to this project will be documented in this file.
 
 ### 🛠️ GitHub Actions
 
+- 📝 [docs] Refactor README and related docs
+
+Updates documentation and improves consistency.
+
+- 📝 [docs] Updates the README and [ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)/README.md files:
+ - 🔄 Replaces the relative path to the PowerShell versions document with an absolute path (`.github/POWERSHELL-VERSIONS.md` $\rightarrow$ `docs/POWERSHELL-VERSIONS.md`).
+  - ➕ Improves the table formatting for PowerShell support matrix, enhancing readability.
+- 📝 [docs] Updates the en-US/Get-ColorScriptList.md file:
+ - 🛠️ Corrects a minor typographical error in an example description ("*Patterns*" $\rightarrow$ "_Patterns_").
+- 👷 [ci] Updates the jekyll-gh-pages.yml file:
+ - 🧹 Reformat the YAML file for improved readability.
+- 🧹 [chore] Updates the .vscode/settings.json file:
+ - 🧹 Reformat the JSON file for improved readability.
+- 🛠️ [fix] Updates the Install.ps1 file:
+ - 🛠️ Fixes minor formatting issue in a Write-Host statement
+
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(971f155)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/971f1555ad96f6666e9256dbcd5b3fdba9c34cc6)
+
+
 - Update publish.yml [`(432936c)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/432936cbf2fa790e6d2f5a88c0199c9987d75251)
 
 
@@ -64,6 +86,138 @@ All notable changes to this project will be documented in this file.
 
 
 ### 💼 Other
+
+- ✨ [feat] Streamlines caching and documentation
+
+This commit enhances the caching mechanism and improves documentation for the [ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced) module.
+
+- ⚡ [perf] Simplifies `Build-ColorScriptCache` by making `-All` optional, caching all scripts by default when no names are supplied.
+ - This change streamlines the caching process, making it easier for users to cache all scripts without explicitly specifying the `-All` parameter.
+- 👷 [ci] Introduces progress reporting to `Build-ColorScriptCache` for better user feedback during cache creation.
+ - Shows current operation and completion percentage.
+- 📝 [docs] Updates help documentation for `Build-ColorScriptCache`, `Clear-ColorScriptCache`, `Get-ColorScriptList`, and `Add-ColorScriptProfile` to reflect the new caching behavior and parameter options.
+ - Improves clarity and provides more detailed examples for users.
+- 📝 [docs] Enhances the README with a more comprehensive introduction, credits, PowerShell support information, and usage examples.
+ - Provides a better overview of the module and its features.
+- 📝 [docs] Adds a table summarizing PowerShell support across different platforms.
+- 📝 [docs] Updates the module summary and quick reference guides to reflect the changes.
+- 📝 [docs] Adds more detailed examples and explanations for the `Clear-ColorScriptCache` cmdlet, including how to use the `-DryRun` and `-Path` parameters.
+- 📝 [docs] Clarifies the usage of `Get-ColorScriptList`, including filtering by category and tag metadata.
+- 📝 [docs] Adds a section on troubleshooting cache file locking issues.
+- 📝 [docs] Adds a section detailing the module's architecture.
+- 🧪 [test] Adds a test case to verify that `Build-ColorScriptCache` caches all scripts when no parameters are provided.
+- 🧹 [chore] Updates the module version and release notes in `[ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced).psd1`.
+- 🚜 [refactor] Improves parameter descriptions and examples in the help documentation for better user understanding.
+
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(c5d7a44)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/c5d7a447b623c5312253c9607ec0c816f4d266bd)
+
+
+- 🧹 [chore] Remove legacy caching system
+
+Removes the legacy caching system and integrates caching directly into the module.
+
+- 🚀 **Motivation**: The old caching system relied on a separate `ColorScriptCache.ps1` file included in each script. This approach was redundant and less efficient than module-managed caching.
+- ✅ **Benefits**:
+ - Simplifies script structure by removing cache check headers.
+ - Improves performance by centralizing caching logic within the module.
+ - Reduces the module's footprint by removing `ColorScriptCache.ps1`.
+- 🛠️ **Details**:
+ - Removes the `ColorScriptCache.ps1` file.
+ - Removes cache check lines from all scripts in the `Scripts/` directory. 🚫
+ - Modifies `Get-ColorScriptMetadataTable` and `Get-ColorScriptEntry` to no longer exclude `ColorScriptCache.ps1`.
+ - Updates `Build-ColorScriptCache` and `Clear-ColorScriptCache` to accept pipeline input. 🌊
+ - Updates tests and documentation to reflect the changes. 🧪 📝
+
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(b1abc5f)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/b1abc5f4b49df13a823be7cd256958e99e302ec7)
+
+
+- ✨ [feat] Enhance script selection with wildcards
+
+This commit introduces wildcard support for script names across multiple commands, enhancing flexibility and ease of use.
+
+- 🌟 Implements wildcard matching for script names in `Show-ColorScript`, `Get-ColorScriptList`, `Build-ColorScriptCache`, and `Clear-ColorScriptCache`.
+ - This allows users to specify patterns like `aurora-*` to target multiple scripts at once.
+- 🏠 Adds tilde (`~`) expansion for profile paths in `Add-ColorScriptProfile`, allowing users to specify paths relative to their home directory.
+- ⚠️ Introduces warnings for unmatched patterns in `Show-ColorScript` and `Get-ColorScriptList`, informing users when a specified script name or pattern is not found.
+- 🐛 Fixes a potential issue in `Invoke-LintPass` where ScriptAnalyzer might fail with custom settings; retries without settings in such cases.
+- 🧪 Adds new tests to validate wildcard functionality and tilde expansion.
+- 📝 Updates documentation to reflect the new wildcard support and tilde expansion.
+
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(a63a3b6)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/a63a3b6b4b64eea4e7e031bcb7bbfb010208f5e2)
+
+
+- ✨ [feat] Enhance ColorScripts module with caching
+
+Enhances the [ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced) module by adding new features and refactoring existing code for improved functionality, reliability, and performance.
+
+- 🎨 [style] Adds `.vscode/settings.json` to disable format on save.
+- ✨ [feat] Implements automatic script categorization based on regular expression patterns defined in metadata, improving script organization and discoverability 🗂️.
+ -  - Introduces `$script:DefaultAutoCategoryRules` for default categorization.
+ -  - Adds logic to merge user-defined categories with auto-categories.
+ - ✨ [feat] Configurable Cache Directory: Allows users to override the default cache directory using the `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` environment variable ⚙️.
+ -  - Improves cache path resolution with `Resolve-CachePath` function, handling environment variables and relative paths.
+ -  - Initializes the cache directory with `Initialize-CacheDirectory`, ensuring its existence and proper permissions.
+ - ✨ [feat] UTF-8 Encoding: Enforces UTF-8 encoding for script output and file writing, ensuring consistent character rendering across different systems 🌍.
+ -  - Introduces `$script:Utf8NoBomEncoding` for UTF-8 encoding without BOM.
+ -  - Implements `Invoke-WithUtf8Encoding` to temporarily set console output encoding to UTF-8.
+- 🚜 [refactor] Improves script caching mechanism for faster execution.
++ - 🚜 [refactor] Improves script caching mechanism for faster execution.
+ -  - Replaces direct cache path references with `$script:CacheDir`.
+ -  - Updates cache inclusion logic in scripts to use `Join-Path` for better path handling.
+ -  - Fixes profile addition logic to prevent duplicate entries and allow forced updates ➕.
+ -  - Updates documentation links in `README.md` to reflect the new quick reference guide.
+- 🧪 [test] Improves test script to align with UTF-8 console and adds more assertions.
++ - 🧪 [test] Improves test script to align with UTF-8 console and adds more assertions.
+ -  - Adds `Invoke-TestWithUtf8Encoding` to ensure consistent UTF-8 output during tests.
+ -  - Adds assertions to verify automatic script categorization.
+
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(9b1ece4)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/9b1ece4413acb33e598ab99db6c92715081bf56e)
+
+
+- ✨ [feat] Enhance ColorScripts module functionality
+
+This commit introduces several enhancements and improvements to the ColorScripts module, focusing on functionality, caching, metadata handling, and installation.
+
+- 🛠️ [feat] Adds metadata support for color scripts
+ - Introduces metadata files (`ScriptMetadata.psd1`) to categorize and tag scripts.
+ - Adds functions to retrieve and filter scripts based on metadata (category, tags).
+ - Extends `Get-ColorScriptList` and `Show-ColorScript` to support metadata and filtering.
+ - Improves script discovery and organization.
+- ⚡ [perf] Enhances caching mechanism for faster script execution
+ - Stores script output in cache files to reduce execution time.
+ - Adds functions to build and clear the cache.
+ - Improves performance by using cached output when available.
+- 🧹 [chore] Refactors module structure and functions
+ - Updates helper functions for better code organization and readability.
+ - Implements new functions for metadata retrieval and filtering.
+ - Improves error handling and logging.
+- 👷 [ci] Updates installation script for better module deployment
+ - Modifies `Install.ps1` to support module installation for all users and current users.
+ - Adds options to add the module to the PowerShell profile and build the cache during installation.
+ - Improves installation process with detailed messages.
+- 📝 [docs] Updates documentation and help topics
+ - Updates README with new features and commands.
+ - Adds detailed help topics for new functions and parameters.
+ - Improves documentation for better user understanding.
+- 🧪 [test] Adds Pester tests to validate the changes
+ - Adds tests for metadata retrieval and filtering.
+ - Adds tests for cache building and clearing.
+ - Improves test coverage for the module.
+- 🔧 [build] Adds workflow permissions to YAML files
+ - Adds `contents: read` permission to workflow files for secure access to repository content.
+- 🚜 [refactor] Removes Script Analyzer from test workflow
+ - Removes the Script Analyzer step from the test workflow file, as the analyzer is now run on PowerShell 7 runners.
+
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(c78469c)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/c78469c6225180e70c27ada9bf8401bcd0e2455c)
+
+
+- Change Dependabot update schedule to quarterly [`(b540986)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/b540986e718e6b5fd1500805461814949b2b85e8)
+
+
+- Enhance Jekyll GitHub Pages workflow with concurrency
+
+Updated the GitHub Actions workflow for Jekyll deployment to include concurrency settings and hardened runner steps. [`(6446f38)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/6446f389fc3c4208cb5cf455d88c69096e12cc49)
+
 
 - 🔧 [build] Update PSScriptAnalyzer usage to exclude Scripts folder from analysis
  - Enhance script analysis by excluding the Scripts directory in module files
@@ -426,6 +580,17 @@ Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com> [`(0fc2ebf)
 
 
 - Initial commit [`(1321c83)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/1321c83d2d05a58bd56c02aa7d2bba5e6c30f0db)
+
+
+
+### 📦 Dependencies
+
+- Merge pull request #3 from Nick2bad4u/dependabot/github_actions/github-actions-a70b045ae5
+
+[ci][skip-ci](deps): [dependency] Update the github-actions group across 1 directory with 12 updates [`(c3d5a2c)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/c3d5a2cc67dbe9a1cc34b993edd76359d6826632)
+
+
+- *(deps)* [dependency] Update the github-actions group across 1 directory with 12 updates [`(d065b7c)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/d065b7cc9a415d9f03b3923a42164a65b99da62c)
 
 
 

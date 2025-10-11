@@ -13,20 +13,22 @@ Pre-build or refresh colorscript cache files for faster rendering.
 
 ## DESCRIPTION
 
-`Build-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript`. You can target specific scripts by name (wildcards supported) or allow the cmdlet to cache the entire collection (the default behavior, equivalent to specifying `-All`). Results are returned as structured objects so you can inspect status, standard output, and error streams programmatically.
+`Build-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript`. You can target specific scripts by name (wildcards supported) or allow the cmdlet to cache the entire collection (the default behavior, equivalent to specifying `-All`).
+
+By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.
 
 ## SYNTAX
 
 ### All
 
 ```
-Build-ColorScriptCache [-All] [-Force] [<CommonParameters>]
+Build-ColorScriptCache [-All] [-Force] [-PassThru] [<CommonParameters>]
 ```
 
 ### Named
 
 ```
-Build-ColorScriptCache [-Name <String[]>] [-Force] [<CommonParameters>]
+Build-ColorScriptCache [-Name <String[]>] [-Force] [-PassThru] [<CommonParameters>]
 ```
 
 ## EXAMPLES
@@ -50,10 +52,18 @@ Cache a mix of exact and wildcard matches. Each matching script generates a resu
 ### EXAMPLE 3
 
 ```powershell
-Build-ColorScriptCache -Name mandelbrot-zoom -Force | Format-List
+Build-ColorScriptCache -Name mandelbrot-zoom -Force -PassThru | Format-List
 ```
 
-Force a rebuild even if the cache is newer than the source script and examine the detailed result.
+Force a rebuild even if the cache is newer than the source script and examine the detailed result objects.
+
+### EXAMPLE 4
+
+```powershell
+Build-ColorScriptCache -All
+```
+
+Cache all scripts and display a concise summary (default behavior without `-PassThru`).
 
 ## PARAMETERS
 
@@ -105,6 +115,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -PassThru
+
+Return detailed result objects for each cache operation. By default, the cmdlet displays a concise summary instead of returning objects.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
@@ -119,7 +145,7 @@ You can pipe script names or metadata records with a `Name` property to this cmd
 
 ### System.Object[]
 
-Returns a record per processed script containing `Name`, `Status`, `CacheFile`, `ExitCode`, `StdOut`, and `StdErr` fields.
+When `-PassThru` is specified, returns a record per processed script containing `Name`, `Status`, `CacheFile`, `ExitCode`, `StdOut`, and `StdErr` fields. Without `-PassThru`, displays a concise summary to the console.
 
 ## NOTES
 

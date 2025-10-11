@@ -118,7 +118,7 @@ Describe "ColorScripts-Enhanced Module" {
         }
 
         It "Should build cache for a script" {
-            $result = Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop
+            $result = Build-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop
             $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
 
             $result | Should -Not -BeNullOrEmpty
@@ -127,32 +127,32 @@ Describe "ColorScripts-Enhanced Module" {
         }
 
         It "Should build cache for wildcard patterns" {
-            $result = Build-ColorScriptCache -Name 'aurora-s*' -Force -ErrorAction Stop
+            $result = Build-ColorScriptCache -Name 'aurora-s*' -Force -PassThru -ErrorAction Stop
             $names = $result | Select-Object -ExpandProperty Name
             $names | Should -Contain 'aurora-stream'
             $names | Should -Contain 'aurora-storm'
         }
 
         It "Should skip cache rebuild when up-to-date" {
-            Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null
+            Build-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
             $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
             [System.IO.File]::SetLastWriteTime($cacheFile, (Get-Date).AddHours(1))
 
-            $result = Build-ColorScriptCache -Name "bars" -ErrorAction Stop
+            $result = Build-ColorScriptCache -Name "bars" -PassThru -ErrorAction Stop
             $result[0].Status | Should -Be 'SkippedUpToDate'
         }
 
         It "Should force cache rebuild even when cache is newer" {
-            Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null
+            Build-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
             $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
             [System.IO.File]::SetLastWriteTime($cacheFile, (Get-Date).AddHours(1))
 
-            $result = Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop
+            $result = Build-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop
             $result[0].Status | Should -Be 'Updated'
         }
 
         It "Should write UTF-8 cache without BOM" {
-            Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null
+            Build-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
             $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
             $bytes = [System.IO.File]::ReadAllBytes($cacheFile)
 
@@ -192,7 +192,7 @@ Describe "ColorScripts-Enhanced Module" {
             }
 
             try {
-                $result = Build-ColorScriptCache -ErrorAction Stop
+                $result = Build-ColorScriptCache -PassThru -ErrorAction Stop
                 $result | Should -Not -BeNullOrEmpty
 
                 $expectedCount = (Get-ColorScriptList -AsObject).Count
@@ -212,7 +212,7 @@ Describe "ColorScripts-Enhanced Module" {
 
         It "Should render cached output without re-executing the script" {
             Clear-ColorScriptCache -Name "bars" -Confirm:$false | Out-Null
-            Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null
+            Build-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
 
             $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
             Test-Path $cacheFile | Should -Be $true
@@ -265,7 +265,7 @@ Describe "ColorScripts-Enhanced Module" {
         }
 
         It "Should clear specific cache" {
-            Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null
+            Build-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
             $result = Clear-ColorScriptCache -Name "bars" -Confirm:$false
             $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
 
@@ -274,7 +274,7 @@ Describe "ColorScripts-Enhanced Module" {
         }
 
         It "Should clear caches using wildcard patterns" {
-            Build-ColorScriptCache -Name 'aurora-s*' -Force -ErrorAction Stop | Out-Null
+            Build-ColorScriptCache -Name 'aurora-s*' -Force -PassThru -ErrorAction Stop | Out-Null
             $result = Clear-ColorScriptCache -Name 'aurora-s*' -Confirm:$false
             $result | Should -Not -BeNullOrEmpty
             $names = $result | Select-Object -ExpandProperty Name
@@ -284,7 +284,7 @@ Describe "ColorScripts-Enhanced Module" {
         }
 
         It "Should support DryRun cache clearing" {
-            Build-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null
+            Build-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
             $dryRun = Clear-ColorScriptCache -Name "bars" -DryRun
             $dryRun[0].Status | Should -Be 'DryRun'
             $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
@@ -423,7 +423,7 @@ Describe "ColorScripts-Enhanced Module" {
         }
 
         It "Should accept pipeline input" {
-            $result = @('bars', 'aurora-storm') | Build-ColorScriptCache -Force -ErrorAction Stop
+            $result = @('bars', 'aurora-storm') | Build-ColorScriptCache -Force -PassThru -ErrorAction Stop
             $result | Should -Not -BeNullOrEmpty
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'aurora-storm'
@@ -432,7 +432,7 @@ Describe "ColorScripts-Enhanced Module" {
         It "Should accept pipeline objects" {
             $records = Get-ColorScriptList -AsObject -Name 'bars', 'aurora-storm'
             $records | Should -Not -BeNullOrEmpty
-            $result = $records | Build-ColorScriptCache -Force -ErrorAction Stop
+            $result = $records | Build-ColorScriptCache -Force -PassThru -ErrorAction Stop
             $result | Should -Not -BeNullOrEmpty
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'aurora-storm'
