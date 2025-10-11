@@ -114,6 +114,7 @@ jobs:
       PSGALLERY_API_KEY: ${{ secrets.PSGALLERY_API_KEY }}
       NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
       PACKAGES_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+      PUBLISH_TO_NUGET_INPUT: ${{ github.event.inputs.publishToNuGet }}
       PUBLISH_TO_GITHUB_INPUT: ${{ github.event.inputs.publishToGitHub }}
       MODULE_VERSION: ${{ needs.validate.outputs.version }}
     steps:
@@ -125,34 +126,92 @@ jobs:
       - name: Checkout
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
-      - name: Publish to PowerShell Gallery
-        if: ${{ env.PSGALLERY_API_KEY != '' || env.NUGET_API_KEY != '' }}
+      - name: Package module
+        id: package
         run: |
-          $galleryKey = $env:PSGALLERY_API_KEY
-          $nugetKey = $env:NUGET_API_KEY
-          $apiKey = if (-not [string]::IsNullOrWhiteSpace($galleryKey)) { $galleryKey } elseif (-not [string]::IsNullOrWhiteSpace($nugetKey)) { $nugetKey } else { '' }
+          Import-Module PowerShellGet -ErrorAction Stop
+
+          $stagingPath = Join-Path $env:RUNNER_TEMP "module-packages"
+          if (Test-Path $stagingPath) {
+              Remove-Item -Path $stagingPath -Recurse -Force
+          }
+          New-Item -ItemType Directory -Path $stagingPath | Out-Null
+
+          $repoName = 'LocalModuleStaging'
+          if (Get-PSRepository -Name $repoName -ErrorAction SilentlyContinue) {
+              Unregister-PSRepository -Name $repoName -ErrorAction SilentlyContinue
+          }
+
+          Register-PSRepository -Name $repoName -SourceLocation $stagingPath -PublishLocation $stagingPath -InstallationPolicy Trusted
+
+          try {
+              Publish-Module -Path ./ColorScripts-Enhanced -Repository $repoName -NuGetApiKey 'LocalRepositoryKey' -ErrorAction Stop | Out-Null
+          }
+          finally {
+              Unregister-PSRepository -Name $repoName -ErrorAction SilentlyContinue
+          }
+
+          $package = Get-ChildItem -Path $stagingPath -Filter '*.nupkg' | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+          if (-not $package) {
+              throw 'Failed to produce NuGet package for the module.'
+          }
+
+          "packagePath=$($package.FullName)" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          "packageName=$($package.Name)" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          Write-Host "Packaged module to: $($package.FullName)"
+        shell: pwsh
+
+      - name: Publish to PowerShell Gallery
+        if: ${{ env.PSGALLERY_API_KEY != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_NUGET_INPUT != 'false') }}
+        run: |
+          $packagePath = '${{ steps.package.outputs.packagePath }}'
+          if (-not (Test-Path $packagePath)) {
+              throw "Package not found at $packagePath"
+          }
+
+          $apiKey = $env:PSGALLERY_API_KEY
           if ([string]::IsNullOrWhiteSpace($apiKey)) {
               Write-Host 'No PowerShell Gallery API key provided. Skipping publish.'
               return
           }
 
-          Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $apiKey -Repository PSGallery -Verbose
+          Write-Host "Publishing $packagePath to PowerShell Gallery"
+          dotnet nuget push $packagePath --api-key $apiKey --source https://www.powershellgallery.com/api/v2/package --skip-duplicate
+        shell: pwsh
+
+      - name: Publish to NuGet.org
+        if: ${{ env.NUGET_API_KEY != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_NUGET_INPUT != 'false') }}
+        run: |
+          $packagePath = '${{ steps.package.outputs.packagePath }}'
+          if (-not (Test-Path $packagePath)) {
+              throw "Package not found at $packagePath"
+          }
+
+          $apiKey = $env:NUGET_API_KEY
+          if ([string]::IsNullOrWhiteSpace($apiKey)) {
+              Write-Host 'No NuGet.org API key provided. Skipping publish.'
+              return
+          }
+
+          Write-Host "Publishing $packagePath to NuGet.org"
+          dotnet nuget push $packagePath --api-key $apiKey --source https://api.nuget.org/v3/index.json --skip-duplicate
         shell: pwsh
 
       - name: Publish to GitHub Packages
         if: ${{ env.PACKAGES_TOKEN != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_GITHUB_INPUT != 'false') }}
         run: |
+          $packagePath = '${{ steps.package.outputs.packagePath }}'
+          if (-not (Test-Path $packagePath)) {
+              throw "Package not found at $packagePath"
+          }
+
           $token = $env:PACKAGES_TOKEN
-          # GitHub Packages requires username:token format
-          $auth = "${{ github.repository_owner }}:$token"
-          $bytes = [System.Text.Encoding]::UTF8.GetBytes($auth)
-          $encodedAuth = [System.Convert]::ToBase64String($bytes)
+          if ([string]::IsNullOrWhiteSpace($token)) {
+              Write-Host 'No GitHub Packages token provided. Skipping publish.'
+              return
+          }
 
-          # Register repository with authentication
           $source = "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json"
-
-          # Use nuget.exe directly for GitHub Packages (PowerShell Gallery doesn't support it well)
-          Write-Host "Publishing to GitHub Packages is currently not supported via Publish-Module."
-          Write-Host "Use GitHub Releases or PowerShell Gallery instead."
-          Write-Host "Skipping GitHub Packages publish."
+          Write-Host "Publishing $packagePath to GitHub Packages feed $source"
+          dotnet nuget push $packagePath --api-key $token --source $source --skip-duplicate
         shell: pwsh

@@ -73,21 +73,25 @@ if (-not [string]::IsNullOrWhiteSpace($Filter)) {
     $filterPatterns = $Filter -split '\s*,\s*' | Where-Object { $_ }
 }
 
-if ($filterPatterns.Count -eq 0 -or ($filterPatterns.Count -eq 1 -and $filterPatterns[0] -eq '*')) {
-    $records = Get-ColorScriptList -AsObject
+$records = if ($filterPatterns.Count -eq 0 -or ($filterPatterns.Count -eq 1 -and $filterPatterns[0] -eq '*')) {
+    Get-ColorScriptList -AsObject
 }
 else {
-    $records = Get-ColorScriptList -AsObject -Name $filterPatterns
+    Get-ColorScriptList -AsObject -Name $filterPatterns
 }
 
-$records = $records | Sort-Object Name | ForEach-Object {
-    [pscustomobject]@{
-        Name     = $_.Name
-        Category = $_.Category
+$records = @(
+    $records | Sort-Object Name | ForEach-Object {
+        [pscustomobject]@{
+            Name     = $_.Name
+            Category = $_.Category
+        }
     }
-}
+)
 
-if (-not $records -or $records.Count -eq 0) {
+$recordCount = $records.Count
+
+if ($recordCount -eq 0) {
     Write-Warning "No colorscripts found matching filter: $Filter"
     exit 0
 }
@@ -136,10 +140,10 @@ function Invoke-ColorScriptRun {
 
 $runnerDefinition = "function Invoke-ColorScriptRun {`n$((Get-Command Invoke-ColorScriptRun -CommandType Function).Definition)`n}"
 
-Write-Host "`n╔════════════════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
-Write-Host "║          ColorScripts Enhanced - Test All Scripts                 ║" -ForegroundColor Cyan
-Write-Host "╚════════════════════════════════════════════════════════════════════╝" -ForegroundColor Cyan
-Write-Host "`nFound $($records.Count) colorscript(s) to test`n" -ForegroundColor Yellow
+Write-Host "`n+====================================================================+" -ForegroundColor Cyan
+Write-Host "|          ColorScripts Enhanced - Test All Scripts                 |" -ForegroundColor Cyan
+Write-Host "+====================================================================+" -ForegroundColor Cyan
+Write-Host "`nFound $recordCount colorscript(s) to test`n" -ForegroundColor Yellow
 
 $successful = 0
 $failed = 0
@@ -177,15 +181,15 @@ else {
         $index++
 
         Write-Host "`n" -NoNewline
-        Write-Host ("─" * 70) -ForegroundColor DarkGray
-        Write-Host "[$index/$($records.Count)] " -ForegroundColor Cyan -NoNewline
+        Write-Host ('-' * 70) -ForegroundColor DarkGray
+        Write-Host "[$index/$recordCount] " -ForegroundColor Cyan -NoNewline
         if ($record.Category) {
             Write-Host "$($record.Name)  ($($record.Category))" -ForegroundColor White
         }
         else {
             Write-Host $record.Name -ForegroundColor White
         }
-        Write-Host ("─" * 70) -ForegroundColor DarkGray
+        Write-Host ('-' * 70) -ForegroundColor DarkGray
         Write-Host ""
 
         try {
@@ -209,12 +213,12 @@ else {
 
         if ($runResult.Success) {
             $successful++
-            Write-Host "`n✓ Completed in $([math]::Round($runResult.DurationMs, 0))ms" -ForegroundColor Green
+            Write-Host "`n[OK] Completed in $([math]::Round($runResult.DurationMs, 0))ms" -ForegroundColor Green
         }
         else {
             $failed++
             $failedScripts += $runResult.Name
-            Write-Host "`n✗ Error: $($runResult.Error)" -ForegroundColor Red
+            Write-Host "`n[ERR] Error: $($runResult.Error)" -ForegroundColor Red
 
             if (-not $SkipErrors) {
                 Write-Host "`nStopping test run due to error. Use -SkipErrors to continue on errors." -ForegroundColor Yellow
@@ -226,7 +230,7 @@ else {
             Write-Host "`nPress Enter to continue to next script..." -ForegroundColor Yellow
             $null = Read-Host
         }
-        elseif ($index -lt $records.Count) {
+        elseif ($index -lt $recordCount) {
             Start-Sleep -Milliseconds $Delay
         }
     }
@@ -235,11 +239,11 @@ else {
 $ErrorActionPreference = $initialEap
 
 Write-Host "`n"
-Write-Host ("═" * 70) -ForegroundColor Cyan
+Write-Host ('=' * 70) -ForegroundColor Cyan
 Write-Host "                         TEST SUMMARY                               " -ForegroundColor Cyan
-Write-Host ("═" * 70) -ForegroundColor Cyan
+Write-Host ('=' * 70) -ForegroundColor Cyan
 Write-Host "`nTotal Scripts: " -NoNewline
-Write-Host $records.Count -ForegroundColor White
+Write-Host $recordCount -ForegroundColor White
 Write-Host "Successful:    " -NoNewline
 Write-Host $successful -ForegroundColor Green
 Write-Host "Failed:        " -NoNewline
@@ -248,7 +252,7 @@ Write-Host $failed -ForegroundColor $(if ($failed -gt 0) { 'Red' } else { 'Green
 if ($failedScripts.Count -gt 0) {
     Write-Host "`nFailed Scripts:" -ForegroundColor Red
     $failedScripts | ForEach-Object {
-        Write-Host "  • $_" -ForegroundColor Red
+        Write-Host "  - $_" -ForegroundColor Red
     }
 }
 

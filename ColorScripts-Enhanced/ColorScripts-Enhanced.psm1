@@ -884,49 +884,145 @@ function Get-CachedOutput {
     .SYNOPSIS
         Retrieves cached output for a colorscript if available and valid.
 
-        The full path to the colorscript file.
+    .DESCRIPTION
+        Returns a structured object that indicates whether a cache entry is available for the supplied
+        script path together with the cached text content when the cache is current. No console output is emitted.
 
     .OUTPUTS
-        Returns $true if cache was used, $false otherwise.
+        PSCustomObject with the following properties:
+            Available      - Indicates whether the cache entry was used.
+            CacheFile      - Full path to the cache file.
+            Content        - Cached ANSI text when Available is $true, otherwise an empty string.
+            LastWriteTime  - Last write time (UTC) of the cache file when Available is $true.
     #>
     [CmdletBinding()]
-    [OutputType([bool])]
+    [OutputType([pscustomobject])]
     param(
         [Parameter(Mandatory)]
         [string]$ScriptPath
     )
 
     if (-not (Test-Path -LiteralPath $ScriptPath)) {
-        return $false
+        return [pscustomobject]@{
+            Available     = $false
+            CacheFile     = $null
+            Content       = ''
+            LastWriteTime = $null
+        }
     }
 
     $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($ScriptPath)
     $cacheFile = Join-Path $script:CacheDir "$scriptName.cache"
 
-    # Check if cache exists and is valid
-    if (Test-Path -LiteralPath $cacheFile) {
-        $scriptTime = (Get-Item -LiteralPath $ScriptPath).LastWriteTimeUtc
-        $cacheTime = (Get-Item -LiteralPath $cacheFile).LastWriteTimeUtc
-
-        if ($scriptTime -le $cacheTime) {
-            # Cache is valid - output it
-            $content = [System.IO.File]::ReadAllText($cacheFile, $script:Utf8NoBomEncoding)
-            Invoke-WithUtf8Encoding -ScriptBlock {
-                param($text)
-
-                try {
-                    [Console]::Write($text)
-                }
-                catch [System.IO.IOException] {
-                    Write-Verbose 'Console handle unavailable; routing cached output through Write-Output.'
-                    Write-Output $text
-                }
-            } -Arguments $content
-            return $true
+    if (-not (Test-Path -LiteralPath $cacheFile)) {
+        return [pscustomobject]@{
+            Available     = $false
+            CacheFile     = $cacheFile
+            Content       = ''
+            LastWriteTime = $null
         }
     }
 
-    return $false
+    $scriptItem = Get-Item -LiteralPath $ScriptPath
+    $cacheItem = Get-Item -LiteralPath $cacheFile
+
+    if ($scriptItem.LastWriteTimeUtc -gt $cacheItem.LastWriteTimeUtc) {
+        return [pscustomobject]@{
+            Available     = $false
+            CacheFile     = $cacheFile
+            Content       = ''
+            LastWriteTime = $cacheItem.LastWriteTimeUtc
+        }
+    }
+
+    $content = [System.IO.File]::ReadAllText($cacheFile, $script:Utf8NoBomEncoding)
+
+    return [pscustomobject]@{
+        Available     = $true
+        CacheFile     = $cacheFile
+        Content       = $content
+        LastWriteTime = $cacheItem.LastWriteTimeUtc
+    }
+}
+
+function Invoke-ColorScriptProcess {
+    <#
+    .SYNOPSIS
+        Executes a colorscript in an isolated process and captures its output.
+    #>
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)]
+        [string]$ScriptPath
+    )
+
+    $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($ScriptPath)
+
+    $result = [pscustomobject]@{
+        ScriptName = $scriptName
+        StdOut     = ''
+        StdErr     = ''
+        ExitCode   = $null
+        Success    = $false
+    }
+
+    if (-not (Test-Path -LiteralPath $ScriptPath)) {
+        $result.StdErr = 'Script path not found.'
+        return $result
+    }
+
+    $executable = Get-PowerShellExecutable
+    $scriptDirectory = [System.IO.Path]::GetDirectoryName($ScriptPath)
+    $process = $null
+
+    try {
+        $startInfo = New-Object System.Diagnostics.ProcessStartInfo
+        $startInfo.FileName = $executable
+
+        $escapedScriptPath = $ScriptPath.Replace("'", "''")
+        $escapedScriptDir = if ($scriptDirectory) { $scriptDirectory.Replace("'", "''") } else { $null }
+        $commandBuilder = New-Object System.Text.StringBuilder
+        $null = $commandBuilder.Append("[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; ")
+        if ($escapedScriptDir) {
+            $null = $commandBuilder.Append("Set-Location -LiteralPath '$escapedScriptDir'; ")
+        }
+        $null = $commandBuilder.Append("& ([ScriptBlock]::Create([System.IO.File]::ReadAllText('$escapedScriptPath', [System.Text.Encoding]::UTF8)))")
+
+        $encodedCommand = $commandBuilder.ToString()
+        $startInfo.Arguments = "-NoProfile -NonInteractive -Command `"$encodedCommand`""
+        $startInfo.UseShellExecute = $false
+        $startInfo.RedirectStandardOutput = $true
+        $startInfo.RedirectStandardError = $true
+        $startInfo.StandardOutputEncoding = [System.Text.Encoding]::UTF8
+        $startInfo.StandardErrorEncoding = [System.Text.Encoding]::UTF8
+
+        if ($scriptDirectory) {
+            $startInfo.WorkingDirectory = $scriptDirectory
+        }
+
+        $process = New-Object System.Diagnostics.Process
+        $process.StartInfo = $startInfo
+        $null = $process.Start()
+
+        $output = $process.StandardOutput.ReadToEnd()
+        $errorOutput = $process.StandardError.ReadToEnd()
+        $process.WaitForExit()
+
+        $result.ExitCode = $process.ExitCode
+        $result.StdOut = $output
+        $result.StdErr = $errorOutput
+        $result.Success = ($process.ExitCode -eq 0)
+    }
+    catch {
+        $result.StdErr = $_.Exception.Message
+    }
+    finally {
+        if ($process) {
+            $process.Dispose()
+        }
+    }
+
+    return $result
 }
 
 function Build-ScriptCache {
@@ -960,34 +1056,14 @@ function Build-ScriptCache {
         return $result
     }
 
-    $executable = Get-PowerShellExecutable
+    $execution = Invoke-ColorScriptProcess -ScriptPath $ScriptPath
+    $result.ExitCode = $execution.ExitCode
+    $result.StdOut = $execution.StdOut
+    $result.StdErr = $execution.StdErr
 
-    try {
-        $startInfo = New-Object System.Diagnostics.ProcessStartInfo
-        $startInfo.FileName = $executable
-        $escapedScriptPath = $ScriptPath.Replace("'", "''")
-        $encodedCommand = "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; & '$escapedScriptPath'"
-        $startInfo.Arguments = "-NoProfile -NonInteractive -Command `"$encodedCommand`""
-        $startInfo.UseShellExecute = $false
-        $startInfo.RedirectStandardOutput = $true
-        $startInfo.RedirectStandardError = $true
-        $startInfo.StandardOutputEncoding = [System.Text.Encoding]::UTF8
-        $startInfo.StandardErrorEncoding = [System.Text.Encoding]::UTF8
-
-        $process = New-Object System.Diagnostics.Process
-        $process.StartInfo = $startInfo
-        $null = $process.Start()
-
-        $output = $process.StandardOutput.ReadToEnd()
-        $errorOutput = $process.StandardError.ReadToEnd()
-        $process.WaitForExit()
-
-        $result.ExitCode = $process.ExitCode
-        $result.StdOut = $output
-        $result.StdErr = $errorOutput
-
-        if ($process.ExitCode -eq 0) {
-            [System.IO.File]::WriteAllText($cacheFile, $output, $script:Utf8NoBomEncoding)
+    if ($execution.Success) {
+        try {
+            [System.IO.File]::WriteAllText($cacheFile, $execution.StdOut, $script:Utf8NoBomEncoding)
             $scriptItem = Get-Item -LiteralPath $ScriptPath
             try {
                 [System.IO.File]::SetLastWriteTimeUtc($cacheFile, $scriptItem.LastWriteTimeUtc)
@@ -997,9 +1073,12 @@ function Build-ScriptCache {
             }
             $result.Success = $true
         }
+        catch {
+            $result.StdErr = $_.Exception.Message
+        }
     }
-    catch {
-        $result.StdErr = $_.Exception.Message
+    elseif (-not $result.StdErr) {
+        $result.StdErr = "Script exited with code $($execution.ExitCode)."
     }
 
     return $result
@@ -1132,29 +1211,59 @@ function Show-ColorScript {
         $selection = $records | Select-Object -First 1
     }
 
-    # Try to use cache first (unless NoCache specified)
+    $renderedOutput = $null
+
     if (-not $NoCache) {
-        if (Get-CachedOutput -ScriptPath $selection.Path) {
-            if ($PassThru) {
-                return $selection
+        $cacheState = Get-CachedOutput -ScriptPath $selection.Path
+        if ($cacheState.Available) {
+            $renderedOutput = $cacheState.Content
+        }
+        else {
+            $cacheResult = Build-ScriptCache -ScriptPath $selection.Path
+            if (-not $cacheResult.Success) {
+                if ($cacheResult.StdErr) {
+                    Write-Warning "Cache build failed for $($selection.Name): $($cacheResult.StdErr.Trim())"
+                }
+
+                if ([string]::IsNullOrEmpty($cacheResult.StdOut)) {
+                    throw "Failed to build cache for $($selection.Name)."
+                }
+
+                $renderedOutput = $cacheResult.StdOut
             }
-            return
+            else {
+                $renderedOutput = $cacheResult.StdOut
+            }
         }
     }
-
-    # Execute script directly
-    Invoke-WithUtf8Encoding -ScriptBlock {
-        param($scriptPath)
-        & $scriptPath
-    } -Arguments $selection.Path
-
-    # Build cache for next time if not already cached
-    if (-not $NoCache) {
-        $cacheResult = Build-ScriptCache -ScriptPath $selection.Path
-        if (-not $cacheResult.Success -and $cacheResult.StdErr) {
-            Write-Warning "Cache build failed for $($selection.Name): $($cacheResult.StdErr)"
+    else {
+        $executionResult = Invoke-ColorScriptProcess -ScriptPath $selection.Path
+        if (-not $executionResult.Success) {
+            $errorMessage = if ($executionResult.StdErr) { $executionResult.StdErr.Trim() } else { "Script exited with code $($executionResult.ExitCode)." }
+            throw "Failed to execute colorscript '$($selection.Name)': $errorMessage"
         }
+
+        $renderedOutput = $executionResult.StdOut
     }
+
+    if ($null -eq $renderedOutput) {
+        $renderedOutput = ''
+    }
+
+    $displayText = Invoke-WithUtf8Encoding -ScriptBlock {
+        param($text)
+
+        try {
+            [Console]::Write($text)
+        }
+        catch [System.IO.IOException] {
+            Write-Verbose 'Console handle unavailable during cached render; outputting via pipeline only.'
+        }
+
+        Write-Output $text
+    } -Arguments $renderedOutput
+
+    Write-Output $displayText
 
     if ($PassThru) {
         return $selection
@@ -1272,39 +1381,11 @@ function Build-ColorScriptCache {
         $allExplicitlyDisabled = $PSBoundParameters.ContainsKey('All') -and -not $All
 
         if ($selectedNames.Count -gt 0) {
-            # Fast path: Check if any names contain wildcards
-            $hasWildcards = $false
-            foreach ($name in $selectedNames) {
-                if ([System.Management.Automation.WildcardPattern]::ContainsWildcardCharacters($name)) {
-                    $hasWildcards = $true
-                    break
-                }
+            $selection = Select-RecordsByName -Records (Get-ColorScriptEntry) -Name $selectedNames
+            foreach ($pattern in $selection.MissingPatterns) {
+                Write-Warning "Script not found: $pattern"
             }
-
-            if ($hasWildcards) {
-                # Use full metadata processing for wildcard matches
-                $allRecords = Get-ColorScriptEntry
-                $selection = Select-RecordsByName -Records $allRecords -Name $selectedNames
-                foreach ($pattern in $selection.MissingPatterns) {
-                    Write-Warning "Script not found: $pattern"
-                }
-                $records = $selection.Records
-            }
-            else {
-                # Fast path: Direct file resolution without metadata loading
-                $records = foreach ($name in $selectedNames) {
-                    $scriptPath = Join-Path -Path $script:ScriptsPath -ChildPath "$name.ps1"
-                    if (Test-Path -LiteralPath $scriptPath) {
-                        [pscustomobject]@{
-                            Name = $name
-                            Path = $scriptPath
-                        }
-                    }
-                    else {
-                        Write-Warning "Script not found: $name"
-                    }
-                }
-            }
+            $records = $selection.Records
         }
         elseif ($allExplicitlyDisabled) {
             throw "Specify -Name to select scripts when -All is explicitly disabled."
@@ -1313,17 +1394,29 @@ function Build-ColorScriptCache {
             $records = Get-ColorScriptEntry
         }
 
-        if (-not $records) {
+        if ($records -is [System.Collections.IEnumerable]) {
+            $records = @($records | Where-Object { $_ })
+        }
+        elseif ($null -eq $records) {
+            $records = @()
+        }
+        else {
+            $records = @($records)
+        }
+
+        $recordCount = ($records | Measure-Object).Count
+
+        if ($recordCount -eq 0) {
             Write-Warning "No scripts selected for cache build."
             return [System.Management.Automation.PSCustomObject[]]@()
         }
 
-        if (-not $PSCmdlet.ShouldProcess($script:CacheDir, "Build cache for $($records.Count) script(s)")) {
+        if (-not $PSCmdlet.ShouldProcess($script:CacheDir, "Build cache for $recordCount script(s)")) {
             return [System.Management.Automation.PSCustomObject[]]@()
         }
 
         $results = @()
-        $totalCount = if ($records) { $records.Count } else { 0 }
+        $totalCount = $recordCount
         $progressActivity = 'Building ColorScripts cache'
 
         for ($index = 0; $index -lt $totalCount; $index++) {
@@ -1443,10 +1536,7 @@ function Build-ColorScriptCache {
             Write-Host "Use -PassThru to see detailed results`n" -ForegroundColor Gray
         }
 
-        # Return results if PassThru is specified
-        if ($PassThru) {
-            return [pscustomobject[]]$results
-        }
+        return [pscustomobject[]]$results
     }
 }
 
