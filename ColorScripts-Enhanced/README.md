@@ -49,13 +49,13 @@ Show-ColorScript
 
 ## PowerShell Support
 
-We test every change across Windows, macOS, and Linux. See the full matrix in [.github/POWERSHELL-VERSIONS.md](.github/POWERSHELL-VERSIONS.md).
+We test every change across Windows, macOS, and Linux. See the full matrix in [docs/POWERSHELL-VERSIONS.md](docs/POWERSHELL-VERSIONS.md).
 
-| Platform | PowerShell 5.1 | PowerShell 7.x |
-|----------|----------------|----------------|
+| Platform | PowerShell 5.1                   | PowerShell 7.x                                 |
+| -------- | -------------------------------- | ---------------------------------------------- |
 | Windows  | ✅ Unit tests, module validation | ✅ Unit tests, ScriptAnalyzer, help validation |
-| macOS    | ❌ Not available | ✅ Unit tests, ScriptAnalyzer |
-| Linux    | ❌ Not available | ✅ Unit tests, ScriptAnalyzer |
+| macOS    | ❌ Not available                 | ✅ Unit tests, ScriptAnalyzer                  |
+| Linux    | ❌ Not available                 | ✅ Unit tests, ScriptAnalyzer                  |
 
 > We intentionally run ScriptAnalyzer only on PowerShell 7.x because the 5.1 engine applies different rules that conflict with modern cross-platform patterns.
 
@@ -271,7 +271,6 @@ Show-ColorScript -Name "bars" -NoCache
 ```powershell
 .\scripts\Lint-PS7.ps1
 ```
-
 
 ## Commands
 

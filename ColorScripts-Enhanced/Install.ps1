@@ -132,7 +132,7 @@ try {
     Write-Host '  Build-ColorScriptCache       # Pre-build caches (defaults to all)'
 
     if (-not $BuildCache) {
-    Write-Host "Tip: Run 'Build-ColorScriptCache' to prime caches (equivalent to -All)." -ForegroundColor Cyan
+        Write-Host "Tip: Run 'Build-ColorScriptCache' to prime caches (equivalent to -All)." -ForegroundColor Cyan
     }
 
     [pscustomobject]@{

@@ -37,7 +37,7 @@ Display all scripts in a compact table.
 Get-ColorScriptList -Detailed -Category Patterns
 ```
 
-Show only scripts in the *Patterns* category and include tag metadata in the table output.
+Show only scripts in the _Patterns_ category and include tag metadata in the table output.
 
 ### EXAMPLE 3
 
