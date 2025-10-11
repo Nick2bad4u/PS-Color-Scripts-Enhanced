@@ -154,19 +154,6 @@ jobs:
   create-release:
     name: Create GitHub Release
     needs: validate
-    if: |
-      needs.validate.result == 'success' &&
-      (
-        (
-          github.event_name == 'workflow_dispatch' &&
-          (github.event.inputs.createRelease == 'true' || github.event.inputs.createRelease == '')
-        ) ||
-        (
-          github.event_name == 'workflow_run' &&
-          github.event.workflow_run.conclusion == 'success' &&
-          github.event.workflow_run.event == 'workflow_dispatch'
-        )
-      )
     runs-on: ubuntu-latest
     steps:
       - name: Harden the runner (Audit all outbound calls)
@@ -192,18 +179,6 @@ jobs:
     needs:
       - validate
       - create-release
-    if: |
-      needs.validate.result == 'success' &&
-      (needs['create-release'].result == 'success' || needs['create-release'].result == 'skipped') &&
-      (
-        github.event_name == 'workflow_dispatch' ||
-        github.event_name == 'release' ||
-        (
-          github.event_name == 'workflow_run' &&
-          github.event.workflow_run.conclusion == 'success' &&
-          github.event.workflow_run.event == 'workflow_dispatch'
-        )
-      )
     runs-on: windows-latest
     env:
       PSGALLERY_API_KEY: ${{ secrets.PSGALLERY_API_KEY }}
@@ -257,7 +232,6 @@ jobs:
         shell: pwsh
 
       - name: Publish to PowerShell Gallery
-        if: ${{ env.PSGALLERY_API_KEY != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_NUGET_INPUT != 'false') }}
         run: |
           $packagePath = '${{ steps.package.outputs.packagePath }}'
           if (-not (Test-Path $packagePath)) {
@@ -293,7 +267,6 @@ jobs:
         shell: pwsh
 
       - name: Publish to GitHub Packages
-        if: ${{ env.PACKAGES_TOKEN != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_GITHUB_INPUT != 'false') }}
         run: |
           $packagePath = '${{ steps.package.outputs.packagePath }}'
           if (-not (Test-Path $packagePath)) {
