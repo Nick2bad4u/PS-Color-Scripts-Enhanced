@@ -70,6 +70,54 @@ jobs:
           }
         shell: pwsh
 
+      - name: Build latest Manifest Version
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Write-Host "Starting build process..." -ForegroundColor Cyan
+
+          # Verify build script exists
+          if (-not (Test-Path ".\build.ps1")) {
+              throw "Build script not found: .\build.ps1"
+          }
+
+          # Verify module directory exists
+          if (-not (Test-Path ".\ColorScripts-Enhanced")) {
+              throw "Module directory not found: .\ColorScripts-Enhanced"
+          }
+
+          # Run build script with error handling
+          try {
+              Write-Host "Executing build script..." -ForegroundColor Yellow
+              & .\build.ps1
+
+              if ($LASTEXITCODE -and $LASTEXITCODE -ne 0) {
+                  throw "Build script failed with exit code: $LASTEXITCODE"
+              }
+
+              Write-Host "Build completed successfully!" -ForegroundColor Green
+          }
+          catch {
+              Write-Host "Build failed: $_" -ForegroundColor Red
+              throw
+          }
+
+          # Verify manifest was updated
+          $manifestPath = ".\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
+          if (-not (Test-Path $manifestPath)) {
+              throw "Module manifest not found after build: $manifestPath"
+          }
+
+          # Test manifest is valid
+          try {
+              $manifest = Test-ModuleManifest -Path $manifestPath -ErrorAction Stop
+              Write-Host "Manifest validation successful. Version: $($manifest.Version)" -ForegroundColor Green
+          }
+          catch {
+              Write-Host "Manifest validation failed: $_" -ForegroundColor Red
+              throw
+          }
+        shell: pwsh
+
       - name: Run Script Analyzer
         run: |
           Import-Module PSScriptAnalyzer

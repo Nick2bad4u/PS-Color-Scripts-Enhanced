@@ -316,6 +316,18 @@ Describe "ColorScripts-Enhanced Module" {
             $record.Name | Should -Be 'aurora-storm'
         }
 
+            It "Should adjust buffer height when writing to host" {
+                Mock -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced {}
+                Show-ColorScript -Name 'bars' -NoCache -ErrorAction Stop
+                Assert-MockCalled -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
+            }
+
+            It "Should skip buffer adjustment when returning text" {
+                Mock -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced {}
+                Show-ColorScript -Name 'bars' -NoCache -ReturnText -ErrorAction Stop | Out-Null
+                Assert-MockCalled -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced -Times 0
+            }
+
         It "Should handle non-existent script gracefully" {
             { Show-ColorScript -Name "nonexistent-script-xyz" } | Should -Not -Throw
         }

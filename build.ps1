@@ -46,6 +46,7 @@ $ErrorActionPreference = 'Stop'
 $modulePath = "./ColorScripts-Enhanced"
 $manifestPath = Join-Path $modulePath "ColorScripts-Enhanced.psd1"
 $readmePath = "./README.md"
+$scriptsPath = Join-Path $modulePath "Scripts"
 
 Write-Verbose "Building module version: $Version"
 Write-Verbose "Module path: $modulePath"
@@ -53,6 +54,16 @@ Write-Verbose "Module path: $modulePath"
 # Ensure module directory exists
 if (-not (Test-Path $modulePath)) {
     throw "Module directory not found: $modulePath"
+}
+
+# Count colorscripts
+$scriptCount = 0
+if (Test-Path $scriptsPath) {
+    $scriptCount = (Get-ChildItem -Path $scriptsPath -Filter "*.ps1" -File).Count
+    Write-Verbose "Found $scriptCount colorscripts"
+}
+else {
+    Write-Warning "Scripts directory not found: $scriptsPath"
 }
 
 # Copy README if it exists and not skipped
@@ -92,6 +103,8 @@ $manifestParams = @{
     Copyright            = "(c) 2025. All rights reserved."
     RootModule           = "ColorScripts-Enhanced.psm1"
     CompatiblePSEditions = @("Desktop", "Core")
+    PowerShellVersion    = "5.1"
+    ProcessorArchitecture = "None"
     FunctionsToExport    = @(
         "Show-ColorScript",
         "Get-ColorScriptList",
@@ -104,19 +117,28 @@ $manifestParams = @{
     AliasesToExport      = @("scs")
     Description          = "Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times."
     ProjectUri           = "https://github.com/Nick2bad4u/ps-color-scripts-enhanced"
-    LicenseUri           = "https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/LICENSE"
-    Tags                 = @("ColorScripts", "ANSI", "Terminal", "Art", "Cache", "Performance", "PowerShell", "Startup", "Terminal-Startup", "ANSI-Art", "Colorful-Terminal", "PowerShell-Art", "Fancy-Terminal", "Terminal-Enhancement", "Beautiful-Terminal", "Terminal-Colors", "PowerShell-Scripts", "Terminal-Art", "Colorful-Scripts", "Enhanced-Terminal", "Terminal-Visuals", "PowerShell-Module", "Colorful-Output", "Terminal-Themes")
+    IconUri              = "https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/docs/icon.png"
+    Tags                 = @("ColorScripts", "ANSI", "Terminal", "Art", "Cache", "Performance", "PowerShell", "Startup", "Terminal-Startup", "ANSI-Art", "Colorful-Terminal", "PowerShell-Art", "Fancy-Terminal", "Terminal-Enhancement", "Beautiful-Terminal", "Terminal-Colors", "PowerShell-Scripts", "Terminal-Art", "Colorful-Scripts", "Enhanced-Terminal", "Terminal-Visuals", "PowerShell-Module", "Colorful-Output", "Terminal-Themes", "PSEdition_Desktop", "PSEdition_Core", "Windows", "Linux", "MacOS")
+    FileList             = @(
+        "ColorScripts-Enhanced.psm1",
+        "ColorScripts-Enhanced.psd1",
+        "README.md",
+        "ScriptMetadata.psd1",
+        "Install.ps1"
+    )
+    HelpInfoUri          = "https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/README.md"
     ReleaseNotes         = @"
 Version ${Version}:
     - Enhanced caching system with OS-wide cache in AppData
     - 6-19x performance improvement
     - Cache stored in centralized location
     - Works from any directory
-    - 222+ beautiful colorscripts included
+    - $scriptCount beautiful colorscripts included
     - Full comment-based help documentation
     - Scripts optimized for performance and visual quality
+    - Cross-platform support (Windows, Linux, macOS)
+    - PowerShell 5.1+ and PowerShell Core 7+ compatible
 "@
-    PowerShellVersion    = "5.1"
     PassThru             = $true
 }
 
@@ -129,7 +151,6 @@ try {
 
     # Reformat manifest for consistent indentation and style expected by PSScriptAnalyzer
     $generatedOn = (Get-Date).ToString('M/d/yyyy')
-    $licenseUri = $manifestParams.LicenseUri
     $projectUri = $manifestParams.ProjectUri
     $tagIndent = ' ' * 16
     $tagsBlock = ($manifestParams.Tags | ForEach-Object { "$tagIndent'$_'" }) -join [Environment]::NewLine
@@ -139,9 +160,11 @@ Version ${Version}:
 - 6-19x performance improvement
 - Cache stored in centralized location
 - Works from any directory
- - 222+ beautiful colorscripts included
+- $scriptCount beautiful colorscripts included
 - Full comment-based help documentation
 - Scripts optimized for performance and visual quality
+- Cross-platform support (Windows, Linux, macOS)
+- PowerShell 5.1+ and PowerShell Core 7+ compatible
 "@
 
     $manifestContent = @"
@@ -194,7 +217,7 @@ Version ${Version}:
     # ClrVersion = ''
 
     # Processor architecture (None, X86, Amd64) required by this module
-    # ProcessorArchitecture = ''
+    ProcessorArchitecture = 'None'
 
     # Modules that must be imported into the global environment prior to importing this module
     # RequiredModules = @()
@@ -239,7 +262,13 @@ Version ${Version}:
     # ModuleList = @()
 
     # List of all files packaged with this module
-    # FileList = @()
+    FileList = @(
+        'ColorScripts-Enhanced.psm1'
+        'ColorScripts-Enhanced.psd1'
+        'README.md'
+        'ScriptMetadata.psd1'
+        'Install.ps1'
+    )
 
     # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
     PrivateData = @{
@@ -250,13 +279,16 @@ $tagsBlock
             )
 
             # A URL to the license for this module.
-            LicenseUri = '$licenseUri'
+            # LicenseUri = '$licenseUri'
+
+            # License expression or path to license file
+            License = 'MIT'
 
             # A URL to the main website for this project.
             ProjectUri = '$projectUri'
 
             # A URL to an icon representing this module.
-            # IconUri = ''
+            IconUri = 'https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/docs/icon.png'
 
             # ReleaseNotes of this module
             ReleaseNotes = @'
@@ -267,7 +299,7 @@ $($releaseNotes.TrimEnd())
             # Prerelease = ''
 
             # Flag to indicate whether the module requires explicit user acceptance for install/update/save
-            # RequireLicenseAcceptance = $false
+            RequireLicenseAcceptance = `$false
 
             # External dependent modules of this module
             # ExternalModuleDependencies = @()
@@ -275,7 +307,7 @@ $($releaseNotes.TrimEnd())
     }
 
     # HelpInfo URI of this module
-    # HelpInfoURI = ''
+    HelpInfoURI = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/README.md'
 
     # Default prefix for commands exported from this module. Override the default prefix using Import-Module -Prefix.
     # DefaultCommandPrefix = ''

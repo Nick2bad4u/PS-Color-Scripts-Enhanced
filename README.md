@@ -24,6 +24,8 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 
 📍 **Centralized Storage** - Cache stored in `%APPDATA%\ColorScripts-Enhanced\cache`
 
+📜 **Auto Scrollback Expansion** - Tall ANSI art automatically expands your console buffer for full, hands-free viewing
+
 ## Demo
 
 ColorScripts-Enhanced Demo: https://i.imgur.com/FCjqkxn.mp4

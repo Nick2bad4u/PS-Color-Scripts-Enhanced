@@ -11,7 +11,7 @@
     RootModule = 'ColorScripts-Enhanced.psm1'
 
     # Version number of this module.
-    ModuleVersion = '2025.10.12.0047'
+    ModuleVersion = '2025.10.12.0112'
 
     # Supported PSEditions
     CompatiblePSEditions = @('Desktop', 'Core')
@@ -47,7 +47,7 @@
     # ClrVersion = ''
 
     # Processor architecture (None, X86, Amd64) required by this module
-    # ProcessorArchitecture = ''
+    ProcessorArchitecture = 'None'
 
     # Modules that must be imported into the global environment prior to importing this module
     # RequiredModules = @()
@@ -92,7 +92,13 @@
     # ModuleList = @()
 
     # List of all files packaged with this module
-    # FileList = @()
+    FileList = @(
+        'ColorScripts-Enhanced.psm1'
+        'ColorScripts-Enhanced.psd1'
+        'README.md'
+        'ScriptMetadata.psd1'
+        'Install.ps1'
+    )
 
     # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
     PrivateData = @{
@@ -123,34 +129,44 @@
                 'PowerShell-Module'
                 'Colorful-Output'
                 'Terminal-Themes'
+                'PSEdition_Desktop'
+                'PSEdition_Core'
+                'Windows'
+                'Linux'
+                'MacOS'
             )
 
             # A URL to the license for this module.
-            LicenseUri = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/LICENSE'
+            # LicenseUri = ''
+
+            # License expression or path to license file
+            License = 'MIT'
 
             # A URL to the main website for this project.
             ProjectUri = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced'
 
             # A URL to an icon representing this module.
-            # IconUri = ''
+            IconUri = 'https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/docs/icon.png'
 
             # ReleaseNotes of this module
             ReleaseNotes = @'
-Version 2025.10.12.0047:
+Version 2025.10.12.0112:
 - Enhanced caching system with OS-wide cache in AppData
 - 6-19x performance improvement
 - Cache stored in centralized location
 - Works from any directory
- - 222+ beautiful colorscripts included
+- 221 beautiful colorscripts included
 - Full comment-based help documentation
 - Scripts optimized for performance and visual quality
+- Cross-platform support (Windows, Linux, macOS)
+- PowerShell 5.1+ and PowerShell Core 7+ compatible
 '@
 
             # Prerelease string of this module
             # Prerelease = ''
 
             # Flag to indicate whether the module requires explicit user acceptance for install/update/save
-            # RequireLicenseAcceptance = False
+            RequireLicenseAcceptance = $false
 
             # External dependent modules of this module
             # ExternalModuleDependencies = @()
@@ -158,7 +174,7 @@ Version 2025.10.12.0047:
     }
 
     # HelpInfo URI of this module
-    # HelpInfoURI = ''
+    HelpInfoURI = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/README.md'
 
     # Default prefix for commands exported from this module. Override the default prefix using Import-Module -Prefix.
     # DefaultCommandPrefix = ''

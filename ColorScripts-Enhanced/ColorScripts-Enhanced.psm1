@@ -217,6 +217,70 @@ function Invoke-WithUtf8Encoding {
     }
 }
 
+function Get-StringLineCount {
+    [CmdletBinding()]
+    [OutputType([int])]
+    param(
+        [AllowEmptyString()]
+        [string]$Text
+    )
+
+    if ($null -eq $Text -or $Text.Length -eq 0) {
+        return 0
+    }
+
+    $count = 0
+    $reader = New-Object System.IO.StringReader($Text)
+    while ($true) {
+        $line = $reader.ReadLine()
+        if ($null -eq $line) {
+            break
+        }
+        $count += 1
+    }
+    return $count
+}
+
+function Set-ConsoleBufferHeightForContent {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true)]
+        [int]$LineCount,
+
+        [int]$Margin = 5
+    )
+
+    if ($LineCount -le 0) {
+        return
+    }
+
+    try {
+        $rawUI = $Host.UI.RawUI
+        if (-not $rawUI) {
+            return
+        }
+
+        $currentBuffer = $rawUI.BufferSize
+        $currentWindow = $rawUI.WindowSize
+
+        $baselineHeight = [Math]::Max($currentBuffer.Height, $currentWindow.Height)
+        $targetHeight = [Math]::Max($baselineHeight, $LineCount + $Margin)
+
+        $maxHeight = 32000
+        if ($targetHeight -gt $maxHeight) {
+            $targetHeight = $maxHeight
+        }
+
+        if ($targetHeight -gt $currentBuffer.Height) {
+            $currentBuffer.Height = $targetHeight
+            $rawUI.BufferSize = $currentBuffer
+        }
+    }
+    catch {
+        Write-Verbose "Unable to adjust console buffer height: $($_.Exception.Message)"
+    }
+}
+
 function Initialize-CacheDirectory {
     if ($script:CacheInitialized -and $script:CacheDir) {
         return
@@ -1268,6 +1332,11 @@ function Show-ColorScript {
         if ($pipelineLength -gt 1 -or $pipelineBoundParameters.ContainsKey('OutVariable') -or $pipelineBoundParameters.ContainsKey('PipelineVariable')) {
             $shouldEmitText = $true
         }
+    }
+
+    if (-not $shouldEmitText) {
+        $lineCount = Get-StringLineCount -Text $renderedOutput
+    Set-ConsoleBufferHeightForContent -LineCount $lineCount
     }
 
     Invoke-WithUtf8Encoding -ScriptBlock {
