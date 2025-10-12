@@ -105,7 +105,7 @@ $manifestParams = @{
     Description          = "Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times."
     ProjectUri           = "https://github.com/Nick2bad4u/ps-color-scripts-enhanced"
     LicenseUri           = "https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/LICENSE"
-    Tags                 = @("ColorScripts", "ANSI", "Terminal", "Art", "Cache", "Performance", "PowerShell", "Startup", "Terminal Startup", "ANSI Art", "Colorful Terminal", "PowerShell Art")
+    Tags                 = @("ColorScripts", "ANSI", "Terminal", "Art", "Cache", "Performance", "PowerShell", "Startup", "Terminal-Startup", "ANSI-Art", "Colorful-Terminal", "PowerShell-Art", "Fancy-Terminal", "Terminal-Enhancement", "Beautiful-Terminal", "Terminal-Colors", "PowerShell-Scripts", "Terminal-Art", "Colorful-Scripts", "Enhanced-Terminal", "Terminal-Visuals", "PowerShell-Module", "Colorful-Output", "Terminal-Themes")
     ReleaseNotes         = @"
 Version ${Version}:
     - Enhanced caching system with OS-wide cache in AppData
