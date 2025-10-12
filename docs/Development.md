@@ -6,7 +6,7 @@ This document outlines local development practices for the **ColorScripts-Enhanc
 
 ```
 ColorScripts-Enhanced/    # Module root (manifest + .psm1 + scripts)
-Scripts/                  # 222+ colorscript files
+Scripts/                  # <!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscript files
 Tests/                    # Pester test suite
 Build-Help.ps1            # Optional help generator (comment-based help already available)
 build.ps1                 # Module build helper
@@ -22,6 +22,24 @@ Test-Module.ps1           # Smoke-test harness used during development
 - **PowerShell 7 ScriptAnalyzer Helper** (`scripts/Lint-PS7.ps1` runs analyzer with auto-fix exclusively on PS7+)
 - **PSResourceGet** or **PowerShellGet** for dependency management
 - **Nerd Font** (e.g., Cascadia Code NF) for validating glyph-heavy scripts like `nerd-font-test`
+
+## npm Scripts
+
+We publish a set of convenience commands in `package.json` so you can run common workflows without memorising long PowerShell invocations. Each command accepts the usual `--` syntax for additional arguments.
+
+| Command                                     | Purpose                                                                          |
+| ------------------------------------------- | -------------------------------------------------------------------------------- |
+| `npm run build`                             | Execute `build.ps1` to regenerate the manifest and refresh documentation counts. |
+| `npm run lint`                              | Run ScriptAnalyzer across the module.                                            |
+| `npm run lint:strict`                       | Run lint with `-IncludeTests` and `-TreatWarningsAsErrors`.                      |
+| `npm run lint:fix`                          | Attempt auto-fixes, then rerun lint.                                             |
+| `npm test`                                  | Execute the smoke-test harness (`Test-Module.ps1`).                              |
+| `npm run test:pester`                       | Run the full Pester suite from `./Tests`.                                        |
+| `npm run docs:update-counts`                | Call `Update-DocumentationCounts.ps1` to sync README markers.                    |
+| `npm run scripts:convert -- <ansi-file>`    | Convert ANSI artwork via the Node-based converter.                               |
+| `npm run scripts:split -- <file> [options]` | Split tall ANSI or PowerShell scripts into manageable slices.                    |
+| `npm run scripts:test-all`                  | Run `Test-AllColorScripts.ps1` across the entire library.                        |
+| `npm run verify`                            | Chain strict linting and smoke tests (`lint:strict` + `test`).                   |
 
 ## Common Tasks
 
@@ -76,6 +94,24 @@ pwsh -NoProfile -Command "& .\scripts\Lint-PS7.ps1"  # PowerShell 7 only
 5. Update docs/tests as appropriate and run lint/tests before committing
 
 > Tip: Reuse `Add-ColorScriptProfile` when scripts need to manipulate PowerShell profiles to avoid duplicating logic.
+
+### Work with External ANSI Art
+
+```powershell
+# Convert an ANSI file to a colorscript
+node Convert-AnsiToColorScript.js .\art.ans
+
+# Split extremely tall ANSI art into multiple chunks
+node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --auto --heights=320,320
+
+# Or split a converted colorscript directly
+node scripts/Split-AnsiFile.js .\ColorScripts-Enhanced\Scripts\we-acidtrip.ps1 --input=ps1 --breaks=360,720
+
+# Uniform slices every 120 rows
+node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --every=120
+```
+
+`Split-AnsiFile.js` accepts `--breaks` for absolute cut rows, `--heights` for sequential segment sizes, `--every` for evenly spaced slices, `--auto` to detect large blank bands, and `--format=ansi` when you want raw `.ANS` slices instead of `.ps1` wrappers. Use `--input=ps1` when splitting an existing colorscript; `--strip-space-bg` only applies when the input is an ANSI file.
 
 ### Verify Nerd Font Rendering
 

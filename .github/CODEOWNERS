@@ -1,0 +1,7 @@
+# Default reviewers for changes in this repository
+# See https://docs.github.com/articles/about-code-owners for full syntax
+
+*               @Nick2bad4u
+ColorScripts-Enhanced/Scripts/*  @Nick2bad4u
+scripts/*                        @Nick2bad4u
+docs/*                           @Nick2bad4u

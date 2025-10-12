@@ -4,7 +4,7 @@ Thank you for your interest in contributing to ColorScripts-Enhanced! This docum
 
 ## Code of Conduct
 
-By participating in this project, you agree to maintain a respectful and inclusive environment for all contributors.
+By participating in this project, you agree to maintain a respectful and inclusive environment for all contributors. Please review the [Code of Conduct](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CODE_OF_CONDUCT.md) before submitting contributions.
 
 ## How to Contribute
 

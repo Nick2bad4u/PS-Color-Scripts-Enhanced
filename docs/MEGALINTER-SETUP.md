@@ -21,7 +21,13 @@ npx git-cliff --config cliff.toml --unreleased
 
 **Created comprehensive configuration:**
 
-- ✅ Excludes `Scripts/` folder from PowerShell linting (197 colorscripts)
+- ✅ Validates module structure
+- ✅ Lints PowerShell code (`.ps1`, `.psm1`, `.psd1`)
+- ✅ Checks Markdown formatting
+- ✅ Validates JSON and YAML files
+- ✅ Excludes `Scripts/` folder from PowerShell linting (<!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts)
+- ✅ Runs ScriptAnalyzer on module code only
+- ✅ Generates detailed reports
 - ✅ Uses custom `PSScriptAnalyzerSettings.psd1`
 - ✅ Configures markdown linting with proper exclusions
 - ✅ Sets up YAML, PowerShell, and Repository linters

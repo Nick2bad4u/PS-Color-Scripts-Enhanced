@@ -90,6 +90,27 @@ Clear-ColorScriptCache -Name hearts -Path 'C:/temp/colorscripts-cache'
 .\ColorScripts-Enhanced\Test-AllColorScripts.ps1 -Parallel -SkipErrors -ThrottleLimit 4
 ```
 
+### ANSI Toolkit
+
+```powershell
+# Convert ANSI to PowerShell script
+node Convert-AnsiToColorScript.js .\art.ans
+
+# Split a towering ANSI into smaller chunks (auto-detect gaps)
+node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --auto --dry-run
+
+# Force manual breakpoints and emit ANSI slices instead of PowerShell
+node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --format=ansi --breaks=360,720
+
+# Split an already converted colorscript
+node scripts/Split-AnsiFile.js .\ColorScripts-Enhanced\Scripts\we-acidtrip.ps1 --input=ps1 --heights=320,320
+
+# Split every 120 lines automatically
+node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --every=120
+```
+
+Use `--heights=h1,h2,...` for sequential segment sizes, `--every=<n>` for uniform slices, or `--breaks=row,row,...` for absolute cut points. Combine with `--strip-space-bg` (ANSI input only) to match our converter's treatment of space backgrounds.
+
 ## Linting & Tests
 
 ```powershell
@@ -305,7 +326,7 @@ Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" | Measure-Object
 Get-Module ColorScripts-Enhanced | Select-Object Version
 ```
 
-Current: 2025.10.09.2115
+Current: 2025.10.12
 
 ---
 

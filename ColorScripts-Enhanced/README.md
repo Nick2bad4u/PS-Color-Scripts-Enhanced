@@ -4,15 +4,41 @@
 
 [![Tests](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml)
 [![Publish](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml)
+[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/ColorScripts-Enhanced)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
+[![PowerShell Gallery Downloads](https://img.shields.io/powershellgallery/dt/ColorScripts-Enhanced)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+[![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B%20%7C%207.0%2B-blue.svg)](https://github.com/PowerShell/PowerShell)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Nick2bad4u/ps-color-scripts-enhanced)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/releases/latest)
 [![Dependabot Updates](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependabot/dependabot-updates)
 [![Dependency Review](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml)
 [![Scorecard supply-chain security](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/scorecards.yml/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/scorecards.yml)
 
 A high-performance PowerShell module for displaying beautiful ANSI colorscripts in your terminal with intelligent caching for 6-19x faster load times.
 
+## Table of Contents
+
+- [Features](#features)
+- [Demo](#demo)
+- [Quick Start](#quick-start-less-than-a-minute)
+- [PowerShell Support](#powershell-support)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Performance](#performance)
+- [ANSI Utility Scripts](#ansi-utility-scripts)
+- [Available Colorscripts](#available-colorscripts)
+- [Quality & Testing](#quality--testing)
+- [npm Scripts](#npm-scripts)
+- [Documentation](#documentation)
+- [Release & Publishing](#release--publishing)
+- [Additional Package Feeds](#additional-package-feeds)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
+
 ## Features
 
-✨ **222+ Beautiful Colorscripts** - Extensive collection of ANSI art
+✨ **<!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Beautiful Colorscripts** - Extensive collection of ANSI art
 
 ⚡ **Intelligent Caching** - 6-19x performance improvement (5-20ms load times)
 
@@ -24,8 +50,6 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 
 📍 **Centralized Storage** - Cache stored in `%APPDATA%\ColorScripts-Enhanced\cache`
 
-📜 **Auto Scrollback Expansion** - Tall ANSI art automatically expands your console buffer for full, hands-free viewing
-
 ## Demo
 
 ColorScripts-Enhanced Demo: https://i.imgur.com/FCjqkxn.mp4
@@ -36,7 +60,7 @@ ColorScripts-Enhanced Demo: https://i.imgur.com/FCjqkxn.mp4
 <img width="525" height="563" alt="image" src="https://github.com/user-attachments/assets/4c0dbf5e-f697-4ae6-8e2b-57e5052cb4c2" />
 <img width="607" height="854" alt="image" src="https://github.com/user-attachments/assets/95953355-1ad3-4d71-a56e-9e36a67671bd" />
 
-**+ 170~ more**
+**+ <!-- COLOR_SCRIPT_COUNT_MINUS_IMAGES -->242<!-- /COLOR_SCRIPT_COUNT_MINUS_IMAGES --> more colorscripts available!**
 
 ## Quick Start (Less Than a Minute)
 
@@ -51,7 +75,7 @@ Show-ColorScript
 
 ## PowerShell Support
 
-We test every change across Windows, macOS, and Linux. See the full matrix in [docs/POWERSHELL-VERSIONS.md](docs/POWERSHELL-VERSIONS.md).
+We test every change across Windows, macOS, and Linux. See the full matrix in [docs/POWERSHELL-VERSIONS.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/POWERSHELL-VERSIONS.md).
 
 | Platform | PowerShell 5.1                   | PowerShell 7.x                                 |
 | -------- | -------------------------------- | ---------------------------------------------- |
@@ -230,6 +254,7 @@ Build-ColorScriptCache -Name "aurora-*"
 ```
 
 > `Build-ColorScriptCache` caches the entire library by default, so specifying `-All` is optional.
+> Use `-PassThru` when you need per-script status objects. Without it you'll just see the concise on-screen summary.
 
 ### Clear Cache
 
@@ -287,12 +312,17 @@ Show-ColorScript -Name "bars" -NoCache
 
 ## Documentation
 
-- [Quick Start](QUICK_REFERENCE.md)
-- [Quick Reference](QUICKREFERENCE.md)
-- [Module Summary](docs/MODULE_SUMMARY.md)
-- [Development Guide](docs/Development.md)
-- [Publishing Guide](docs/Publishing.md)
-- [Release Checklist](docs/ReleaseChecklist.md)
+- [Quick Start & Reference](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/QUICK_REFERENCE.md)
+- [ANSI Color Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-COLOR-GUIDE.md)
+- [ANSI Conversion Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-CONVERSION-GUIDE.md)
+- [Module Summary](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/MODULE_SUMMARY.md)
+- [Development Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Development.md)
+- [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Publishing.md)
+- [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ReleaseChecklist.md)
+- [Support Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/SUPPORT.md)
+- [Code of Conduct](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CODE_OF_CONDUCT.md)
+- [Security Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/SECURITY.md)
+- [Project Roadmap](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/ROADMAP.md)
 
 ## Quality & Testing
 
@@ -301,24 +331,40 @@ Show-ColorScript -Name "bars" -NoCache
 - Linting (module only): `pwsh -NoProfile -Command "& .\Lint-Module.ps1"`
 - Linting (treat warnings as errors and include tests): `pwsh -NoProfile -Command "& .\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors`
 - Lint auto-fix (apply ScriptAnalyzer fixes, then re-run lint): `pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix`
-- Continuous integration: [`test.yml`](.github/workflows/test.yml) runs on Windows PowerShell 5.1 and PowerShell 7.4 across Windows, Linux, and macOS runners.
+- Continuous integration: [`test.yml`](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/test.yml) runs on Windows PowerShell 5.1 and PowerShell 7.4 across Windows, Linux, and macOS runners.
+
+## npm Scripts
+
+| Command                                     | Description                                                     |
+| ------------------------------------------- | --------------------------------------------------------------- |
+| `npm run build`                             | Build the module manifest and refresh documentation counts.     |
+| `npm run lint`                              | Run ScriptAnalyzer against the module.                          |
+| `npm run lint:strict`                       | Run lint with tests included and warnings treated as errors.    |
+| `npm run lint:fix`                          | Apply ScriptAnalyzer fixes where possible, then rerun lint.     |
+| `npm test`                                  | Execute the smoke-test harness (`Test-Module.ps1`).             |
+| `npm run test:pester`                       | Run the full Pester suite in `./Tests`.                         |
+| `npm run docs:update-counts`                | Synchronize script-count markers across all docs.               |
+| `npm run scripts:convert -- <ansi-file>`    | Convert an ANSI file into a colorscript (Node-based converter). |
+| `npm run scripts:split -- <file> [options]` | Split a tall ANSI or PowerShell script into multiple chunks.    |
+| `npm run scripts:test-all`                  | Execute every colorscript via `Test-AllColorScripts.ps1`.       |
+| `npm run verify`                            | Run strict linting followed by smoke tests.                     |
 
 ## Release & Publishing
 
-- Automated publishing workflow: [`publish.yml`](.github/workflows/publish.yml)
+- Automated publishing workflow: [`publish.yml`](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/publish.yml)
 - Local helper script: `build.ps1`
 - Optional help generation: `Build-Help.ps1`
-- Documentation: [Publishing Guide](docs/Publishing.md) & [Release Checklist](docs/ReleaseChecklist.md)
+- Documentation: [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Publishing.md) & [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ReleaseChecklist.md)
 
 ## Additional Package Feeds
 
 - PowerShell Gallery / NuGet.org (primary distribution)
-- GitHub Packages (optional; instructions in [Publishing Guide](docs/Publishing.md))
+- GitHub Packages (optional; instructions in [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Publishing.md))
 - Azure Artifacts or other NuGet-compatible feeds for enterprise deployment
 
 ## Contributing
 
-Please review [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines, coding standards, and how to submit pull requests.
+Please review [CONTRIBUTING.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CONTRIBUTING.md) for development guidelines, coding standards, and how to submit pull requests.
 
 ## Performance
 
@@ -389,7 +435,7 @@ $env:APPDATA\ColorScripts-Enhanced\cache
 - One `.cache` file per colorscript
 - Contains pre-rendered ANSI output
 - Average size: ~20KB per file
-- Total size: ~3.9MB for all 222 scripts
+- Total size: ~4.9MB for <!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> scripts
 
 ## Examples
 
@@ -423,7 +469,7 @@ Build-ColorScriptCache
 
 ## Available Colorscripts
 
-The module includes 222 colorscripts including:
+The module includes <!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts including:
 
 - **Fractals**: mandelbrot-zoom, julia-morphing, barnsley-fern, koch-snowflake
 - **Patterns**: kaleidoscope, wave-pattern, rainbow-waves, gradient-bars
@@ -433,6 +479,34 @@ The module includes 222 colorscripts including:
 - And many more!
 
 Use `Show-ColorScript -List` to see all available scripts.
+
+## ANSI Utility Scripts
+
+Two helper tools live in the repository for working with external ANSI art:
+
+- `Convert-AnsiToColorScript.js` converts a `.ANS` file into a PowerShell script ready to drop into `ColorScripts-Enhanced/Scripts`.
+- `scripts/Split-AnsiFile.js` slices extremely tall ANSI art into smaller chunks that can be converted individually.
+
+### Split Super-Tall ANSI Art
+
+```powershell
+# Preview suggested splits without writing files (looks for 4+ blank rows)
+node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --auto --dry-run
+
+# Generate three 300-line chunks as PowerShell scripts
+node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --heights=300,300,300
+
+# Emit ANSI slices instead of .ps1 wrappers
+node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --format=ansi --breaks=420,840
+
+# Split an already converted colorscript
+node scripts/Split-AnsiFile.js .\ColorScripts-Enhanced\Scripts\we-acidtrip.ps1 --input=ps1 --heights=320,320
+
+# Split every 160 lines automatically
+node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --every=160
+```
+
+Options can be combined—`--auto` adds breaks where large blank gaps exist, `--heights` / `--breaks` enforce manual cut points, `--every=<n>` evenly divides the render, and `--strip-space-bg` (ANSI input only) mirrors the conversion behavior that clears background colors on plain spaces. Each output chunk is normalized with a trailing `ESC[0m` so the terminal resets cleanly after display.
 
 ## Troubleshooting
 
@@ -520,7 +594,7 @@ ColorScripts-Enhanced/
 └── cache/                         # Cache files
     ├── bars.cache
     ├── hearts.cache
-   └── ... (222 total)
+   └── ... (<!-- COLOR_CACHE_TOTAL -->245+<!-- /COLOR_CACHE_TOTAL --> total)
 ```
 
 ## Contributing
@@ -539,31 +613,37 @@ MIT License - See LICENSE file for details
 
 ## Version History
 
-See [CHANGELOG.md](CHANGELOG.md) for detailed version history and release notes.
+See [CHANGELOG.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CHANGELOG.md) for detailed version history and release notes.
 
 ### Latest Release
 
-**2025.10.10** - Cross-platform support, enhanced caching, and 197 colorscripts
+**2025.10.12** - Cross-platform support, enhanced caching, and <!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts
 
 ## Documentation
 
-- 📖 [Quick Start Guide](QUICK_REFERENCE.md)
-- 📘 [Quick Reference](QUICKREFERENCE.md)
-- 📋 [Module Summary](docs/MODULE_SUMMARY.md)
-- 🔧 [Development Guide](docs/Development.md)
-- 📦 [Publishing Guide](docs/Publishing.md)
-- ✅ [Release Checklist](docs/ReleaseChecklist.md)
-- 🤝 [Contributing Guidelines](CONTRIBUTING.md)
-- 🔄 [Changelog](CHANGELOG.md)
+- 📖 [Quick Start & Reference](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/QUICK_REFERENCE.md)
+- 🌈 [ANSI Color Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-COLOR-GUIDE.md)
+- 🧰 [ANSI Conversion Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-CONVERSION-GUIDE.md)
+- 📋 [Module Summary](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/MODULE_SUMMARY.md)
+- 🔧 [Development Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Development.md)
+- 📦 [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Publishing.md)
+- ✅ [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ReleaseChecklist.md)
+- 🤝 [Contributing Guidelines](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CONTRIBUTING.md)
+- 🛡️ [Security Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/SECURITY.md)
+- 🙌 [Code of Conduct](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CODE_OF_CONDUCT.md)
+- 🧭 [Project Roadmap](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/ROADMAP.md)
+- 💬 [Support Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/SUPPORT.md)
+- 🔄 [Changelog](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CHANGELOG.md)
 
 ## CI/CD & Workflows
 
-- ⚙️ [Test Workflow](.github/workflows/test.yml)
-- 📦 [Publish Workflow](.github/workflows/publish.yml)
+- ⚙️ [Test Workflow](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/test.yml)
+- 📦 [Publish Workflow](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/publish.yml)
+- 🤖 [Dependabot Updates](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/dependabot.yml)
 
 ## Support
 
-For issues, questions, or contributions, please visit the [GitHub repository](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced).
+For support options, response targets, and contact channels, review the [Support Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/SUPPORT.md). Bug reports and feature ideas live in the [issue tracker](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues).
 
 ---
 

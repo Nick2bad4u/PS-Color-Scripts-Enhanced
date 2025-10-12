@@ -14,19 +14,17 @@ ColorScripts-Enhanced/
 ├── ColorScripts-Enhanced.psm1     # Main module code
 ├── Install.ps1                    # Installation script
 ├── README.md                      # Comprehensive documentation
-└── Scripts/                       # 222 colorscript files
-    ├── bars.ps1
-    ├── hearts.ps1
-    ├── mandelbrot-zoom.ps1
-    └── ... (173 more)
+    ├── ... (additional scripts)
+    └── ... (<!-- COLOR_SCRIPT_COUNT -->245<!-- /COLOR_SCRIPT_COUNT --> total)
+├── Test-AllColorScripts.ps1
 ```
 
 ### Module Information
 
 - **Name:** ColorScripts-Enhanced
-- **Version:** 2025.10.09.2115
+- **Version:** 2025.10.12.1424
 - **PowerShell Version:** 5.1+
-- **Colorscripts Included:** 222
+- **Colorscripts Included:** <!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS -->
 - **Cache Location:** `%APPDATA%\ColorScripts-Enhanced\cache`
 
 ## Public Commands
@@ -173,7 +171,7 @@ C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\
     ├── bars.cache
     ├── hearts.cache
     ├── mandelbrot-zoom.cache
-    └── ... (222 total)
+    └── ... (<!-- COLOR_CACHE_TOTAL -->245+<!-- /COLOR_CACHE_TOTAL --> total)
 ```
 
 ## Testing Performed
@@ -274,7 +272,7 @@ scs galaxy-spiral
 - Troubleshooting
 - Architecture details
 
-### Scripts/ (222 Colorscripts)
+### Scripts/ (<!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts)
 
 - All original colorscripts
 - Unchanged from source artwork
@@ -374,7 +372,9 @@ Users with the original ps-color-scripts can migrate:
 
 **ColorScripts-Enhanced** is a complete, professional PowerShell module that:
 
-✅ Provides 222 beautiful colorscripts
+✅ Centralized cache location for all terminals
+✅ Provides <!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> beautiful colorscripts
+✅ Cross-platform support (Windows, macOS, Linux)
 ✅ Offers 6-19x performance improvement
 ✅ Uses clean, intuitive API
 ✅ Includes comprehensive documentation

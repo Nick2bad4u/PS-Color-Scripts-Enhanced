@@ -330,20 +330,50 @@ Describe "ColorScripts-Enhanced Module" {
             $record.Name | Should -Be 'aurora-storm'
         }
 
-        It "Should adjust buffer height when writing to host" {
-            Mock -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced {}
-            Show-ColorScript -Name 'bars' -NoCache -ErrorAction Stop
-            Assert-MockCalled -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
-        }
-
-        It "Should skip buffer adjustment when returning text" {
-            Mock -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced {}
-            Show-ColorScript -Name 'bars' -NoCache -ReturnText -ErrorAction Stop | Out-Null
-            Assert-MockCalled -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced -Times 0
-        }
-
         It "Should handle non-existent script gracefully" {
             { Show-ColorScript -Name "nonexistent-script-xyz" } | Should -Not -Throw
+        }
+    }
+
+    Context "Rendering Helpers" {
+        It "Should append newline when rendered text lacks terminator" {
+            $stringWriter = New-Object System.IO.StringWriter
+            $originalOut = [Console]::Out
+
+            try {
+                [Console]::SetOut($stringWriter)
+                InModuleScope ColorScripts-Enhanced {
+                    Write-RenderedText -Text 'Hello world'
+                }
+            }
+            finally {
+                if ($originalOut) {
+                    [Console]::SetOut($originalOut)
+                }
+            }
+
+            $stringWriter.ToString() | Should -Be "Hello world`r`n"
+            $stringWriter.Dispose()
+        }
+
+        It "Should avoid extra newline when output already terminated" {
+            $stringWriter = New-Object System.IO.StringWriter
+            $originalOut = [Console]::Out
+
+            try {
+                [Console]::SetOut($stringWriter)
+                InModuleScope ColorScripts-Enhanced {
+                    Write-RenderedText -Text "Hello world`r`n"
+                }
+            }
+            finally {
+                if ($originalOut) {
+                    [Console]::SetOut($originalOut)
+                }
+            }
+
+            $stringWriter.ToString() | Should -Be "Hello world`r`n"
+            $stringWriter.Dispose()
         }
     }
 

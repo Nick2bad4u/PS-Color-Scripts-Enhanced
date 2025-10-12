@@ -1,21 +1,54 @@
 {
   "name": "ps-color-scripts-enhanced",
-  "version": "1.0.0",
-  "description": "> **Credits:** This project owes its existence to the foundational work of two incredible developers. The beautiful ANSI art scripts were originally created by Derek Taylor (DistroTube) in his project [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts). The collection was then thoughtfully ported to PowerShell by Scott McKendry as [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts). `ColorScripts-Enhanced` builds upon their efforts by introducing a high-performance caching system, PowerShell Cross-Platform support on Linux and Mac, an expanded command set, and a formal module structure, but the creative core remains their legacy. Thank you, Derek and Scott, for your contributions!",
+  "version": "2025.10.12",
+  "description": "Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times. 245+ colorscripts included.",
   "main": "Convert-AnsiToColorScript.js",
   "directories": {
-    "doc": "docs"
+    "doc": "docs",
+    "test": "tests",
+    "ColorScripts-Enhanced": "ColorScripts-Enhanced",
+    "oversized-colorscripts": "oversized-colorscripts",
+    "ansi-files": "ansi-files",
+    "types": "types",
+    ".github": ".github"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pwsh -NoProfile -File ./build.ps1",
+    "build:skip-help": "pwsh -NoProfile -File ./build.ps1 -SkipHelp",
+    "build:help": "pwsh -NoProfile -File ./Build-Help.ps1",
+    "lint": "pwsh -NoProfile -File ./Lint-Module.ps1",
+    "lint:strict": "pwsh -NoProfile -File ./Lint-Module.ps1 -IncludeTests -TreatWarningsAsErrors",
+    "lint:fix": "pwsh -NoProfile -File ./Lint-Module.ps1 -Fix",
+    "test": "pwsh -NoProfile -File ./Test-Module.ps1",
+    "test:pester": "pwsh -NoProfile -Command \"Invoke-Pester -Path ./Tests\"",
+    "docs:update-counts": "pwsh -NoProfile -File ./Update-DocumentationCounts.ps1",
+    "scripts:convert": "node ./Convert-AnsiToColorScript.js",
+    "scripts:convert:ps": "pwsh -NoProfile -File ./Convert-AnsiToColorScript.ps1",
+    "scripts:convert:advanced": "pwsh -NoProfile -File ./Convert-AnsiToColorScript-Advanced.ps1",
+    "scripts:split": "node ./scripts/Split-AnsiFile.js",
+    "scripts:count": "pwsh -NoProfile -File ./Get-ColorScriptCount.ps1",
+    "scripts:test-all": "pwsh -NoProfile -File ./ColorScripts-Enhanced/Test-AllColorScripts.ps1",
+    "verify": "npm run lint:strict && npm run test && npm run test:pester"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nick2bad4u/ps-color-scripts-enhanced.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "powershell",
+    "ansi",
+    "colorscripts",
+    "terminal",
+    "cli",
+    "ascii-art",
+    "shell",
+    "windows",
+    "macos",
+    "linux",
+    "cross-platform"
+  ],
+  "author": "Nick2bad4u",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues"
