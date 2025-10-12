@@ -40,11 +40,16 @@ permissions:
   contents: write
 
 jobs:
-  validate:
-    name: Validate module
+  validate-and-publish:
+    name: Validate and Publish
     runs-on: windows-latest
-    outputs:
-      version: ${{ steps.manifest.outputs.version }}
+    env:
+      PSGALLERYAPIKEY: ${{ secrets.PSGALLERYAPIKEY }}
+      NUGETAPIKEY: ${{ secrets.NUGETAPIKEY }}
+      PACKAGES_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+      PUBLISH_TO_NUGET_INPUT: ${{ github.event.inputs.publishToNuGet }}
+      PUBLISH_TO_GITHUB_INPUT: ${{ github.event.inputs.publishToGitHub }}
+      CREATE_RELEASE_INPUT: ${{ github.event.inputs.createRelease }}
     steps:
       - name: Harden the runner (Audit all outbound calls)
         uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
@@ -145,56 +150,16 @@ jobs:
               }
           }
 
-      - name: Upload module artifact
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
-        with:
-          name: module-source
-          path: ColorScripts-Enhanced/
-
-  create-release:
-    name: Create GitHub Release
-    needs: validate
-    runs-on: ubuntu-latest
-    steps:
-      - name: Harden the runner (Audit all outbound calls)
-        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
-        with:
-          egress-policy: audit
-
-      - name: Checkout
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
-
-      - name: Create Release
+      - name: Create GitHub Release
+        if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
         uses: ncipollo/release-action@2c591bcc8ecdcd2db72b97d6147f871fcd833ba5 # v1.14.0
         with:
-          tag: v${{ needs.validate.outputs.version }}
-          name: Release v${{ needs.validate.outputs.version }}
+          tag: v${{ steps.manifest.outputs.version }}
+          name: Release v${{ steps.manifest.outputs.version }}
           draft: false
           prerelease: false
           generateReleaseNotes: true
           skipIfReleaseExists: true
-
-  publish:
-    name: Publish
-    needs:
-      - validate
-      - create-release
-    runs-on: windows-latest
-    env:
-      PSGALLERYAPIKEY: ${{ secrets.PSGALLERYAPIKEY }}
-      NUGETAPIKEY: ${{ secrets.NUGETAPIKEY }}
-      PACKAGES_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
-      PUBLISH_TO_NUGET_INPUT: ${{ github.event.inputs.publishToNuGet }}
-      PUBLISH_TO_GITHUB_INPUT: ${{ github.event.inputs.publishToGitHub }}
-      MODULE_VERSION: ${{ needs.validate.outputs.version }}
-    steps:
-      - name: Harden the runner (Audit all outbound calls)
-        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
-        with:
-          egress-policy: audit
-
-      - name: Checkout
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
       - name: Package module
         id: package
@@ -267,6 +232,7 @@ jobs:
         shell: pwsh
 
       - name: Publish to GitHub Packages
+        if: ${{ env.PACKAGES_TOKEN != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_GITHUB_INPUT != 'false') }}
         run: |
           $packagePath = '${{ steps.package.outputs.packagePath }}'
           if (-not (Test-Path $packagePath)) {

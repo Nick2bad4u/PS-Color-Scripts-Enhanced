@@ -11,7 +11,7 @@
     RootModule = 'ColorScripts-Enhanced.psm1'
 
     # Version number of this module.
-    ModuleVersion = '2025.10.11.1624'
+    ModuleVersion = '2025.10.11.2020'
 
     # Supported PSEditions
     CompatiblePSEditions = @('Desktop', 'Core')
@@ -107,10 +107,22 @@
                 'Performance'
                 'PowerShell'
                 'Startup'
-                'Terminal Startup'
-                'ANSI Art'
-                'Colorful Terminal'
-                'PowerShell Art'
+                'Terminal-Startup'
+                'ANSI-Art'
+                'Colorful-Terminal'
+                'PowerShell-Art'
+                'Fancy-Terminal'
+                'Terminal-Enhancement'
+                'Beautiful-Terminal'
+                'Terminal-Colors'
+                'PowerShell-Scripts'
+                'Terminal-Art'
+                'Colorful-Scripts'
+                'Enhanced-Terminal'
+                'Terminal-Visuals'
+                'PowerShell-Module'
+                'Colorful-Output'
+                'Terminal-Themes'
             )
 
             # A URL to the license for this module.
@@ -124,12 +136,12 @@
 
             # ReleaseNotes of this module
             ReleaseNotes = @'
-Version 2025.10.11.1624:
+Version 2025.10.11.2020:
 - Enhanced caching system with OS-wide cache in AppData
 - 6-19x performance improvement
 - Cache stored in centralized location
 - Works from any directory
- - 195+ beautiful colorscripts included
+ - 222+ beautiful colorscripts included
 - Full comment-based help documentation
 - Scripts optimized for performance and visual quality
 '@

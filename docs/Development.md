@@ -6,7 +6,7 @@ This document outlines local development practices for the **ColorScripts-Enhanc
 
 ```
 ColorScripts-Enhanced/    # Module root (manifest + .psm1 + scripts)
-Scripts/                  # 195+ colorscript files
+Scripts/                  # 222+ colorscript files
 Tests/                    # Pester test suite
 Build-Help.ps1            # Optional help generator (comment-based help already available)
 build.ps1                 # Module build helper

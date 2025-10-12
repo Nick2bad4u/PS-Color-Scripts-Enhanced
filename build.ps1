@@ -112,7 +112,7 @@ Version ${Version}:
     - 6-19x performance improvement
     - Cache stored in centralized location
     - Works from any directory
-    - 195+ beautiful colorscripts included
+    - 222+ beautiful colorscripts included
     - Full comment-based help documentation
     - Scripts optimized for performance and visual quality
 "@
@@ -139,7 +139,7 @@ Version ${Version}:
 - 6-19x performance improvement
 - Cache stored in centralized location
 - Works from any directory
- - 195+ beautiful colorscripts included
+ - 222+ beautiful colorscripts included
 - Full comment-based help documentation
 - Scripts optimized for performance and visual quality
 "@

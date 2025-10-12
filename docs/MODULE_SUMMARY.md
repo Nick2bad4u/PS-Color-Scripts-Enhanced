@@ -14,7 +14,7 @@ ColorScripts-Enhanced/
 ├── ColorScripts-Enhanced.psm1     # Main module code
 ├── Install.ps1                    # Installation script
 ├── README.md                      # Comprehensive documentation
-└── Scripts/                       # 195 colorscript files
+└── Scripts/                       # 222 colorscript files
     ├── bars.ps1
     ├── hearts.ps1
     ├── mandelbrot-zoom.ps1
@@ -26,7 +26,7 @@ ColorScripts-Enhanced/
 - **Name:** ColorScripts-Enhanced
 - **Version:** 2025.10.09.2115
 - **PowerShell Version:** 5.1+
-- **Colorscripts Included:** 195
+- **Colorscripts Included:** 222
 - **Cache Location:** `%APPDATA%\ColorScripts-Enhanced\cache`
 
 ## Public Commands
@@ -173,7 +173,7 @@ C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\
     ├── bars.cache
     ├── hearts.cache
     ├── mandelbrot-zoom.cache
-    └── ... (195 total)
+    └── ... (222 total)
 ```
 
 ## Testing Performed
@@ -274,7 +274,7 @@ scs galaxy-spiral
 - Troubleshooting
 - Architecture details
 
-### Scripts/ (195 Colorscripts)
+### Scripts/ (222 Colorscripts)
 
 - All original colorscripts
 - Unchanged from source artwork
@@ -374,7 +374,7 @@ Users with the original ps-color-scripts can migrate:
 
 **ColorScripts-Enhanced** is a complete, professional PowerShell module that:
 
-✅ Provides 195 beautiful colorscripts
+✅ Provides 222 beautiful colorscripts
 ✅ Offers 6-19x performance improvement
 ✅ Uses clean, intuitive API
 ✅ Includes comprehensive documentation

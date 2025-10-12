@@ -1069,6 +1069,17 @@
           </dev:type>
           <dev:defaultValue>False</dev:defaultValue>
         </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="AsString">
+          <maml:name>ReturnText</maml:name>
+          <maml:description>
+            <maml:para>Emit the rendered colorscript as pipeline output instead of writing directly to the console. This is useful when you want to capture the rendered text or redirect it to another command.</maml:para>
+          </maml:description>
+          <dev:type>
+            <maml:name>SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
       </command:syntaxItem>
       <command:syntaxItem>
         <maml:name>Show-ColorScript</maml:name>
@@ -1178,6 +1189,17 @@
           </dev:type>
           <dev:defaultValue>False</dev:defaultValue>
         </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="AsString">
+          <maml:name>ReturnText</maml:name>
+          <maml:description>
+            <maml:para>Emit the rendered colorscript as pipeline output instead of writing directly to the console. This is useful when you want to capture the rendered text or redirect it to another command.</maml:para>
+          </maml:description>
+          <dev:type>
+            <maml:name>SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
       </command:syntaxItem>
     </command:syntax>
     <command:parameters>
@@ -1265,6 +1287,18 @@
         </dev:type>
         <dev:defaultValue>False</dev:defaultValue>
       </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="AsString">
+        <maml:name>ReturnText</maml:name>
+        <maml:description>
+          <maml:para>Emit the rendered colorscript as pipeline output instead of writing directly to the console. This is useful when you want to capture the rendered text or redirect it to another command.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
+        <dev:type>
+          <maml:name>SwitchParameter</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>False</dev:defaultValue>
+      </command:parameter>
     </command:parameters>
     <command:inputTypes>
       <command:inputType>
@@ -1282,7 +1316,7 @@
           <maml:name>System.Object</maml:name>
         </dev:type>
         <maml:description>
-          <maml:para>Returns the selected script record when `-PassThru` is specified. Otherwise the cmdlet writes the rendered colorscript to the host.</maml:para>
+          <maml:para>Returns the selected script record when `-PassThru` is specified. When `-ReturnText` is used, the rendered colorscript is emitted to the pipeline; otherwise it is written directly to the console.</maml:para>
         </maml:description>
       </command:returnValue>
     </command:returnValues>
@@ -1340,6 +1374,13 @@
         <dev:code>Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category</dev:code>
         <dev:remarks>
           <maml:para>Display a random nature-themed script and capture the metadata for further use.</maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 8 --------------------------</maml:title>
+        <dev:code>Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt</dev:code>
+        <dev:remarks>
+          <maml:para>Emit the rendered colorscript as plain text so it can be redirected or saved.</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
