@@ -1336,7 +1336,7 @@ function Show-ColorScript {
 
     if (-not $shouldEmitText) {
         $lineCount = Get-StringLineCount -Text $renderedOutput
-    Set-ConsoleBufferHeightForContent -LineCount $lineCount
+        Set-ConsoleBufferHeightForContent -LineCount $lineCount
     }
 
     Invoke-WithUtf8Encoding -ScriptBlock {
@@ -1638,7 +1638,11 @@ function Build-ColorScriptCache {
             Write-Host "Use -PassThru to see detailed results`n" -ForegroundColor Gray
         }
 
-        return [pscustomobject[]]$results
+        if ($PassThru) {
+            return [pscustomobject[]]$results
+        }
+
+        return
     }
 }
 

@@ -3,6 +3,7 @@
 ## Quick Start
 
 Convert a single ANSI file:
+
 ```powershell
 .\Convert-AnsiToColorScript.ps1 -AnsiFile "myart.ans"
 ```
@@ -10,6 +11,7 @@ Convert a single ANSI file:
 ## Batch Conversion
 
 Convert all .ans files in a directory:
+
 ```powershell
 Get-ChildItem -Path "C:\ANSI-Art" -Filter "*.ans" | .\Convert-AnsiToColorScript.ps1
 ```
@@ -17,16 +19,19 @@ Get-ChildItem -Path "C:\ANSI-Art" -Filter "*.ans" | .\Convert-AnsiToColorScript.
 ## Advanced Options
 
 ### Custom Output Name
+
 ```powershell
 .\Convert-AnsiToColorScript.ps1 -AnsiFile "art.ans" -OutputFile "my-custom-script.ps1"
 ```
 
 ### Add Header Comments
+
 ```powershell
 .\Convert-AnsiToColorScript.ps1 -AnsiFile "art.ans" -AddComment
 ```
 
 ### Verbose Mode
+
 ```powershell
 # See detailed information about conversion process
 .\Convert-AnsiToColorScript.ps1 -AnsiFile "art.ans" -Verbose
@@ -38,6 +43,7 @@ Get-ChildItem -Path "C:\ANSI-Art" -Filter "*.ans" | .\Convert-AnsiToColorScript.
 ```
 
 ### Custom Output Directory
+
 ```powershell
 .\Convert-AnsiToColorScript.ps1 -AnsiFile "art.ans" -OutputDirectory ".\CustomScripts"
 ```
@@ -53,6 +59,7 @@ Get-ChildItem -Path "C:\ANSI-Art" -Filter "*.ans" | .\Convert-AnsiToColorScript.
 ## ANSI File Format
 
 The converter supports standard ANSI art files (.ans) which contain:
+
 - ANSI escape sequences for colors (e.g., `\x1b[31m` for red)
 - Box-drawing characters
 - Extended ASCII/CP437 characters
@@ -67,11 +74,13 @@ Some ANSI files don't use traditional newlines. The converter automatically dete
 Files that use cursor positioning commands instead of newlines:
 
 **Before (single-line with positioning):**
+
 ```
 ESC[1;1HRed TextESC[2;1HGreen TextESC[3;1HBlue Text
 ```
 
 **After (multi-line with newlines):**
+
 ```
 Red Text
 Green Text
@@ -79,6 +88,7 @@ Blue Text
 ```
 
 **Supported cursor commands:**
+
 - `ESC[row;colH` or `ESC[row;colf` - Move cursor to position
 - `ESC[nB` - Move cursor down n lines
 - `ESC[nC` - Move cursor forward n columns
@@ -88,11 +98,13 @@ Blue Text
 Files where all content is on one long line meant to wrap every 80 visible characters:
 
 **Before (single long line):**
+
 ```
 ████████...████ ▄▄ ▄▄▄...▄▄ ██ ██ ▀ ▄...▄ ▀ ██...
 ```
 
 **After (split at 80 columns):**
+
 ```
 ████████...████
 ██ ▄▄ ▄▄▄...▄▄ ██
@@ -104,6 +116,7 @@ Files where all content is on one long line meant to wrap every 80 visible chara
 Files with multiple lines where **some** individual lines exceed 80 characters:
 
 **Before (mixed line lengths):**
+
 ```
 Normal line (75 chars)
 Very long line exceeding 80 chars that needs wrapping... (160 chars)
@@ -111,6 +124,7 @@ Another normal line (60 chars)
 ```
 
 **After (long lines split at 80):**
+
 ```
 Normal line (75 chars)
 Very long line exceeding 80 chars that needs wrapping... (first 80)
@@ -125,6 +139,7 @@ The converter counts only **visible characters** - ANSI escape codes don't count
 ## Examples
 
 ### Example 1: Simple Conversion
+
 ```powershell
 # Input: dragon.ans
 # Output: dragon.ps1 (in ColorScripts-Enhanced/Scripts)
@@ -132,6 +147,7 @@ The converter counts only **visible characters** - ANSI escape codes don't count
 ```
 
 ### Example 2: Batch with Comments
+
 ```powershell
 Get-ChildItem "*.ans" | ForEach-Object {
     .\Convert-AnsiToColorScript.ps1 -AnsiFile $_.FullName -AddComment
@@ -139,6 +155,7 @@ Get-ChildItem "*.ans" | ForEach-Object {
 ```
 
 ### Example 3: Preview Before Converting
+
 ```powershell
 # View the ANSI file first (in PowerShell 7+)
 Get-Content "art.ans" -Raw | Write-Host
@@ -158,6 +175,7 @@ Get-Content "art.ans" -Raw | Write-Host
 ## Troubleshooting
 
 ### Characters Display as ?? or �
+
 This happens when ANSI files using CP437 (DOS) encoding are incorrectly read as UTF-8. The fix is to re-convert the file:
 
 ```powershell
@@ -166,28 +184,33 @@ This happens when ANSI files using CP437 (DOS) encoding are incorrectly read as 
 ```
 
 **Why this happens:**
+
 - Traditional ANSI art uses **Code Page 437 (CP437)** encoding
 - CP437 includes special box-drawing characters in bytes 128-255
 - These characters must be properly converted to Unicode for PowerShell
 - The converter now automatically handles this conversion
 
 ### Colors Look Wrong
+
 - Ensure the ANSI file uses standard escape sequences
 - Check that your terminal supports 256-color or true color
 - Try viewing in Windows Terminal for best results
 
 ### Characters Display Incorrectly
+
 - If you see `�` or `??`: Re-convert the file (see above)
 - Verify your terminal font supports Unicode box-drawing characters
 - Recommended fonts: CascadiaCode Nerd Font, FiraCode Nerd Font, JetBrains Mono Nerd Font
 
 ### Empty Output
+
 - Check if the source .ans file contains actual content
 - Some ANSI files may have non-printing control characters only
 
 ## Where to Find ANSI Art
 
 Popular sources for ANSI art files:
+
 - 16colo.rs - Large collection of ANSI/ASCII art
 - textfiles.com - Vintage BBS art archives
 - ANSI art communities and forums
@@ -199,6 +222,7 @@ Popular sources for ANSI art files:
 ## After Conversion
 
 Once converted, your scripts will:
+
 1. Be automatically discovered by `Get-ColorScriptList`
 2. Work with `Show-ColorScript -Name your-script`
 3. Be cached for fast loading with `Build-ColorScriptCache`

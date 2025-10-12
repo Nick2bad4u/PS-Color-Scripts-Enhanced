@@ -139,7 +139,7 @@ Test-Function "Build-ColorScriptCache for single script" {
 }
 
 Test-Function "Build-ColorScriptCache wildcard" {
-    $result = Build-ColorScriptCache -Name "aurora-s*" -Force -ErrorAction Stop
+    $result = Build-ColorScriptCache -Name "aurora-s*" -Force -PassThru -ErrorAction Stop
     if (-not $result -or $result.Count -lt 2) {
         throw "Expected multiple results for wildcard build"
     }

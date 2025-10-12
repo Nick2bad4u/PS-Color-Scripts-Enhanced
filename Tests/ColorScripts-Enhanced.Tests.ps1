@@ -1,4 +1,4 @@
-# Pester Tests for ColorScripts-Enhanced Module
+﻿# Pester Tests for ColorScripts-Enhanced Module
 # Run with: Invoke-Pester
 
 BeforeAll {
@@ -163,6 +163,20 @@ Describe "ColorScripts-Enhanced Module" {
             }
         }
 
+        It "Should build cache during first Show-ColorScript invocation" {
+            Clear-ColorScriptCache -Name "bars" -Confirm:$false | Out-Null
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+            if (Test-Path $cacheFile) {
+                Remove-Item -LiteralPath $cacheFile -Force
+            }
+
+            $rendered = Show-ColorScript -Name "bars" -ReturnText -ErrorAction Stop
+
+            Test-Path $cacheFile | Should -Be $true
+            $cachedText = [System.IO.File]::ReadAllText($cacheFile)
+            $cachedText | Should -Be $rendered
+        }
+
         It "Should cache all scripts when no parameters are provided" {
             $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $originalCacheDir = $module.SessionState.PSVariable.GetValue('CacheDir')
@@ -316,17 +330,17 @@ Describe "ColorScripts-Enhanced Module" {
             $record.Name | Should -Be 'aurora-storm'
         }
 
-            It "Should adjust buffer height when writing to host" {
-                Mock -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced {}
-                Show-ColorScript -Name 'bars' -NoCache -ErrorAction Stop
-                Assert-MockCalled -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
-            }
+        It "Should adjust buffer height when writing to host" {
+            Mock -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced {}
+            Show-ColorScript -Name 'bars' -NoCache -ErrorAction Stop
+            Assert-MockCalled -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
+        }
 
-            It "Should skip buffer adjustment when returning text" {
-                Mock -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced {}
-                Show-ColorScript -Name 'bars' -NoCache -ReturnText -ErrorAction Stop | Out-Null
-                Assert-MockCalled -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced -Times 0
-            }
+        It "Should skip buffer adjustment when returning text" {
+            Mock -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced {}
+            Show-ColorScript -Name 'bars' -NoCache -ReturnText -ErrorAction Stop | Out-Null
+            Assert-MockCalled -CommandName Set-ConsoleBufferHeightForContent -ModuleName ColorScripts-Enhanced -Times 0
+        }
 
         It "Should handle non-existent script gracefully" {
             { Show-ColorScript -Name "nonexistent-script-xyz" } | Should -Not -Throw
