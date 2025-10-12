@@ -208,7 +208,7 @@
             'rainbow-pukeskull'
         )
 
-        Terminal     = @(
+        TerminalThemes = @(
             'terminal',
             'terminal-fire',
             'terminal-fire-wave',
@@ -227,7 +227,7 @@
             'terminal-sunset-wave'
         )
 
-        ASCII        = @(
+        ASCIIArt     = @(
             'cats',
             'crabs',
             'crowns',
