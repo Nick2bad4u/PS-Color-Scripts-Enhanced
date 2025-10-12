@@ -78,7 +78,6 @@
             'lightning-plasma',
             'prism-diagonals',
             'sdf-neon-orb',
-            'city-neon',
             'starlit-plaza',
             'wave-interference',
             'waveform-spectra',
