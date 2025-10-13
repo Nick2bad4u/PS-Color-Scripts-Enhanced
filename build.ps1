@@ -137,7 +137,23 @@ $manifestParams = @{
     CmdletsToExport       = @()
     VariablesToExport     = @()
     AliasesToExport       = @("scs")
-    Description           = "Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times."
+    Description           = @'
+Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times.
+
+Features:
+• 245+ beautiful colorscripts - Extensive collection of ANSI art
+• Intelligent Caching - 6-19x performance improvement (5-20ms load times)
+• OS-Wide Cache - Consistent caching across all terminal sessions
+• Simple API - Easy-to-use cmdlets with tab completion
+• Configurable Defaults - Persist cache locations and startup behaviour
+• Auto-Update - Cache automatically invalidates when scripts change
+• Centralized Storage - Cache stored in AppData/ColorScripts-Enhanced/cache
+• Cross-platform - Works on Windows, Linux, and macOS
+• PowerShell 5.1+ and PowerShell Core 7+ compatible
+
+Quick Start: Show-ColorScript (or alias: scs)
+Full documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
+'@
     ProjectUri            = "https://github.com/Nick2bad4u/ps-color-scripts-enhanced"
     IconUri               = "https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/docs/colorscripts-icon.png"
     Tags                  = @("ColorScripts", "ANSI", "Terminal", "Art", "Cache", "Performance", "PowerShell", "Startup", "Terminal-Startup", "ANSI-Art", "Colorful-Terminal", "PowerShell-Art", "Fancy-Terminal", "Terminal-Enhancement", "Beautiful-Terminal", "Terminal-Colors", "PowerShell-Scripts", "Terminal-Art", "Colorful-Scripts", "Enhanced-Terminal", "Terminal-Visuals", "PowerShell-Module", "Colorful-Output", "Terminal-Themes", "PSEdition_Desktop", "PSEdition_Core", "Windows", "Linux", "MacOS")
@@ -223,7 +239,23 @@ Version ${Version}:
     Copyright = '(c) 2025. All rights reserved.'
 
     # Description of the functionality provided by this module
-    Description = 'Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times.'
+    Description = @'
+Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times.
+
+Features:
+• 245+ beautiful colorscripts - Extensive collection of ANSI art
+• Intelligent Caching - 6-19x performance improvement (5-20ms load times)
+• OS-Wide Cache - Consistent caching across all terminal sessions
+• Simple API - Easy-to-use cmdlets with tab completion
+• Configurable Defaults - Persist cache locations and startup behaviour
+• Auto-Update - Cache automatically invalidates when scripts change
+• Centralized Storage - Cache stored in AppData/ColorScripts-Enhanced/cache
+• Cross-platform - Works on Windows, Linux, and macOS
+• PowerShell 5.1+ and PowerShell Core 7+ compatible
+
+Quick Start: Show-ColorScript (or alias: scs)
+Full documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
+'@
 
     # Minimum version of the PowerShell engine required by this module
     PowerShellVersion = '5.1'

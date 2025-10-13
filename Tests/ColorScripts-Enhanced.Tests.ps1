@@ -439,7 +439,8 @@ Describe "ColorScripts-Enhanced Module" {
                 }
             }
 
-            $stringWriter.ToString() | Should -Be "Hello world`r`n"
+            $result = $stringWriter.ToString()
+            $result | Should -Match '^Hello world(\r)?\n$'
             $stringWriter.Dispose()
         }
 
@@ -459,7 +460,8 @@ Describe "ColorScripts-Enhanced Module" {
                 }
             }
 
-            $stringWriter.ToString() | Should -Be "Hello world`r`n"
+            $result = $stringWriter.ToString()
+            $result | Should -Match '^Hello world(\r)?\n$'
             $stringWriter.Dispose()
         }
     }
