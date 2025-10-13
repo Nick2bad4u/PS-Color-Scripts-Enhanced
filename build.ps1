@@ -299,7 +299,7 @@ $tagsBlock
             )
 
             # A URL to the license for this module.
-            # LicenseUri = '$licenseUri'
+            LicenseUri = 'https://licenses.nuget.org/MIT'
 
             # License expression or path to license file
             License = 'MIT'

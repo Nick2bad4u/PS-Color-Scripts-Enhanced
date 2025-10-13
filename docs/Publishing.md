@@ -33,6 +33,8 @@ dotnet nuget push 'C:\path\to\ColorScripts-Enhanced.<version>.nupkg' --api-key $
 
 The GitHub publish workflow runs this script automatically.
 
+> **Note:** NuGet.org expects packages that declare the `MIT` license expression to also expose `https://licenses.nuget.org/MIT` via `licenseUrl`. The normalization script sets this automatically so older NuGet clients render the license correctly.
+
 ### Getting an API Key
 
 1. Create an account at <https://www.powershellgallery.com>.

@@ -127,13 +127,16 @@ try {
     $licenseNode.InnerText = 'MIT'
     $licenseNode.SetAttribute('type', 'expression')
 
+    $licenseUrlNode = Get-OrCreateNode -Parent $metadataNode -Name 'licenseUrl' -Manager $nsMgr -NamespaceUri $namespaceUri
+    $licenseUrlNode.InnerText = 'https://licenses.nuget.org/MIT'
+
     $iconNode = Get-OrCreateNode -Parent $metadataNode -Name 'icon' -Manager $nsMgr -NamespaceUri $namespaceUri
     $iconNode.InnerText = 'icon.png'
 
     $readmeNode = Get-OrCreateNode -Parent $metadataNode -Name 'readme' -Manager $nsMgr -NamespaceUri $namespaceUri
     $readmeNode.InnerText = 'README.md'
 
-    foreach ($deprecated in 'licenseUrl', 'iconUrl') {
+    foreach ($deprecated in 'iconUrl') {
         $deprecatedNode = $metadataNode.SelectSingleNode("ns:$deprecated", $nsMgr)
         if ($deprecatedNode) {
             [void]$metadataNode.RemoveChild($deprecatedNode)
