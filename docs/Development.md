@@ -171,4 +171,4 @@ Expect to see icons, checkmarks, and box-drawing characters. If they appear as s
 - [Publishing Guide](Publishing.md)
 - [Release Checklist](ReleaseChecklist.md)
 - [Contributing Guidelines](../CONTRIBUTING.md)
-- [PowerShell Module Best Practices](https://learn.microsoft.com/powershell/scripting/dev-cross-plat/performance/module-authoring-best-practices)
+- [PowerShell Module Best Practices](https://learn.microsoft.com/en-us/powershell/gallery/concepts/publishing-guidelines?view=powershellget-3.x)
