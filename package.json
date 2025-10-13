@@ -27,6 +27,7 @@
     "scripts:convert:ps": "pwsh -NoProfile -File ./Convert-AnsiToColorScript.ps1",
     "scripts:convert:advanced": "pwsh -NoProfile -File ./Convert-AnsiToColorScript-Advanced.ps1",
     "scripts:split": "node ./scripts/Split-AnsiFile.js",
+    "scripts:format": "pwsh -NoProfile -File ./scripts/Format-ColorScripts.ps1",
     "scripts:count": "pwsh -NoProfile -File ./Get-ColorScriptCount.ps1",
     "scripts:test-all": "pwsh -NoProfile -File ./ColorScripts-Enhanced/Test-AllColorScripts.ps1",
     "release:notes": "pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Unreleased -OutputPath ./dist/PowerShellGalleryReleaseNotes.md -StripHeader",
@@ -64,6 +65,6 @@
     "node-ansiparser": "^2.2.1"
   },
   "devDependencies": {
-    "markdown-link-check": "^3.12.2"
+    "markdown-link-check": "^3.14.1"
   }
 }
