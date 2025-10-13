@@ -21,10 +21,10 @@ The PowerShell Gallery is built on top of NuGet feeds. Publishing to the Gallery
 
 ```powershell
 # Publish to the PowerShell Gallery (NuGet.org)
-Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:PSGALLERY_API_KEY -ReadMe ./ColorScripts-Enhanced/README.md -Verbose
+Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:PSGALLERY_API_KEY -Verbose
 ```
 
-If you stage the package locally with `Publish-Module` (for example by targeting a temporary repository), run the metadata normalizer before pushing:
+PowerShellGet versions prior to 2.2.6 do not embed README or license assets automatically. When you stage the package locally with `Publish-Module` (for example by targeting a temporary repository), run the metadata normalizer before pushing:
 
 ```powershell
 pwsh -NoProfile -File ./scripts/Update-NuGetPackageMetadata.ps1 -PackagePath 'C:\path\to\ColorScripts-Enhanced.<version>.nupkg'
@@ -38,7 +38,7 @@ The GitHub publish workflow runs this script automatically.
 1. Create an account at <https://www.powershellgallery.com>.
 2. Generate an API key from your profile.
 3. Store the key securely (e.g., GitHub secret `PSGALLERY_API_KEY`).
-4. Ensure `README.md` is present in the module root (`ColorScripts-Enhanced/README.md`). When `Publish-Module` runs with `-ReadMe`, it embeds the file so the online gallery renders it automatically.
+4. Ensure `README.md` is present in the module root (`ColorScripts-Enhanced/README.md`). The metadata normalization script bundles this file (along with `LICENSE` and the icon) into the staged `.nupkg` prior to publishing.
 
 ### Testing Before Publishing
 
@@ -74,7 +74,9 @@ GitHub Packages provides a private or public NuGet feed.
 $owner = 'Nick2bad4u'
 $source = "https://nuget.pkg.github.com/$owner/index.json"
 Register-PSRepository -Name GitHub -SourceLocation $source -PublishLocation $source -InstallationPolicy Trusted -PackageManagementProvider NuGet
-Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:PACKAGES_TOKEN -Repository GitHub -ReadMe ./ColorScripts-Enhanced/README.md
+Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:PACKAGES_TOKEN -Repository GitHub
+
+> **Tip:** When you stage the package locally before pushing to GitHub Packages, run `Update-NuGetPackageMetadata.ps1` against the resulting `.nupkg` so the README, license, and icon are embedded.
 ```
 
 ### Installing from GitHub Packages
@@ -91,7 +93,9 @@ For enterprise environments you can host the module in Azure Artifacts or any Nu
 
 ```powershell
 Register-PSRepository -Name MyCompanyFeed -SourceLocation 'https://pkgs.dev.azure.com/<org>/<project>/_packaging/<feed>/nuget/v2' -InstallationPolicy Trusted -Credential (Get-Credential)
-Publish-Module -Path ./ColorScripts-Enhanced -Repository MyCompanyFeed -ReadMe ./ColorScripts-Enhanced/README.md
+Publish-Module -Path ./ColorScripts-Enhanced -Repository MyCompanyFeed
+
+> **Tip:** Normalize staged packages with `Update-NuGetPackageMetadata.ps1` before pushing them to your private feed to ensure gallery-friendly metadata.
 ```
 
 ## Release Workflow Summary

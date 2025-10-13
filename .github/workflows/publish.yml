@@ -233,7 +233,7 @@ jobs:
           }
 
           try {
-              Publish-Module -Path ./ColorScripts-Enhanced -Repository $repoName -NuGetApiKey 'LocalRepositoryKey' -ReadMe $readmePath -ErrorAction Stop | Out-Null
+              Publish-Module -Path ./ColorScripts-Enhanced -Repository $repoName -NuGetApiKey 'LocalRepositoryKey' -ErrorAction Stop | Out-Null
           }
           finally {
               Unregister-PSRepository -Name $repoName -ErrorAction SilentlyContinue
