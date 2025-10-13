@@ -80,7 +80,18 @@ Write-Host "Validating help content..." -ForegroundColor Yellow
 try {
     Import-Module $ModulePath -Force -ErrorAction Stop
 
-    $commands = @('Show-ColorScript', 'Get-ColorScriptList', 'Build-ColorScriptCache', 'Clear-ColorScriptCache', 'Add-ColorScriptProfile')
+    $commands = @(
+        'Show-ColorScript'
+        'Get-ColorScriptList'
+        'Build-ColorScriptCache'
+        'Clear-ColorScriptCache'
+        'Add-ColorScriptProfile'
+        'Get-ColorScriptConfiguration'
+        'Set-ColorScriptConfiguration'
+        'Reset-ColorScriptConfiguration'
+        'Export-ColorScriptMetadata'
+        'New-ColorScript'
+    )
 
     Write-Host ""
     foreach ($cmd in $commands) {

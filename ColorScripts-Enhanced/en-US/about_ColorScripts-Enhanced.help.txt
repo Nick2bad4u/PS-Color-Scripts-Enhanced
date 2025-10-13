@@ -19,6 +19,8 @@ The module automatically caches script output to a centralized location in your 
 - Random colorscript selection
 - Easy script discovery and listing
 - Profile helper for one-line startup integration
+- Persistent configuration helpers for cache and startup behaviour
+- Metadata export and scaffolding workflows for custom scripts
 
 ### INSTALLATION
 
@@ -79,6 +81,11 @@ The module exports the following commands:
 - `Build-ColorScriptCache` - Pre-generate cache files
 - `Clear-ColorScriptCache` - Remove cache files
 - `Add-ColorScriptProfile` - Append module startup snippet to a PowerShell profile
+- `Get-ColorScriptConfiguration` - Inspect cache and startup defaults
+- `Set-ColorScriptConfiguration` - Persist custom configuration values
+- `Reset-ColorScriptConfiguration` - Restore configuration defaults
+- `Export-ColorScriptMetadata` - Export script metadata for automation
+- `New-ColorScript` - Scaffold a new colorscript and metadata snippet
 
 Use `Get-Help <CommandName> -Full` for detailed help on each command.
 

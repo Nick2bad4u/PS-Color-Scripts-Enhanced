@@ -109,40 +109,47 @@ if (Test-Path $manifestPath) {
 }
 
 # Create manifest parameters
+$functionsToExport = @(
+    'Show-ColorScript'
+    'Get-ColorScriptList'
+    'Build-ColorScriptCache'
+    'Clear-ColorScriptCache'
+    'Add-ColorScriptProfile'
+    'Get-ColorScriptConfiguration'
+    'Set-ColorScriptConfiguration'
+    'Reset-ColorScriptConfiguration'
+    'Export-ColorScriptMetadata'
+    'New-ColorScript'
+)
+
 $manifestParams = @{
-    ModuleVersion        = $Version
-    Path                 = $manifestPath
-    Guid                 = "f77548d7-23eb-48ce-a6e0-f64b4758d995"
-    Author               = "Nick"
-    CompanyName          = "Community"
-    Copyright            = "(c) 2025. All rights reserved."
-    RootModule           = "ColorScripts-Enhanced.psm1"
-    CompatiblePSEditions = @("Desktop", "Core")
-    PowerShellVersion    = "5.1"
+    ModuleVersion         = $Version
+    Path                  = $manifestPath
+    Guid                  = "f77548d7-23eb-48ce-a6e0-f64b4758d995"
+    Author                = "Nick"
+    CompanyName           = "Community"
+    Copyright             = "(c) 2025. All rights reserved."
+    RootModule            = "ColorScripts-Enhanced.psm1"
+    CompatiblePSEditions  = @("Desktop", "Core")
+    PowerShellVersion     = "5.1"
     ProcessorArchitecture = "None"
-    FunctionsToExport    = @(
-        "Show-ColorScript",
-        "Get-ColorScriptList",
-        "Build-ColorScriptCache",
-        "Clear-ColorScriptCache",
-        "Add-ColorScriptProfile"
-    )
-    CmdletsToExport      = @()
-    VariablesToExport    = @()
-    AliasesToExport      = @("scs")
-    Description          = "Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times."
-    ProjectUri           = "https://github.com/Nick2bad4u/ps-color-scripts-enhanced"
-    IconUri              = "https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/docs/colorscripts-icon.png"
-    Tags                 = @("ColorScripts", "ANSI", "Terminal", "Art", "Cache", "Performance", "PowerShell", "Startup", "Terminal-Startup", "ANSI-Art", "Colorful-Terminal", "PowerShell-Art", "Fancy-Terminal", "Terminal-Enhancement", "Beautiful-Terminal", "Terminal-Colors", "PowerShell-Scripts", "Terminal-Art", "Colorful-Scripts", "Enhanced-Terminal", "Terminal-Visuals", "PowerShell-Module", "Colorful-Output", "Terminal-Themes", "PSEdition_Desktop", "PSEdition_Core", "Windows", "Linux", "MacOS")
-    FileList             = @(
+    FunctionsToExport     = $functionsToExport
+    CmdletsToExport       = @()
+    VariablesToExport     = @()
+    AliasesToExport       = @("scs")
+    Description           = "Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times."
+    ProjectUri            = "https://github.com/Nick2bad4u/ps-color-scripts-enhanced"
+    IconUri               = "https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/docs/colorscripts-icon.png"
+    Tags                  = @("ColorScripts", "ANSI", "Terminal", "Art", "Cache", "Performance", "PowerShell", "Startup", "Terminal-Startup", "ANSI-Art", "Colorful-Terminal", "PowerShell-Art", "Fancy-Terminal", "Terminal-Enhancement", "Beautiful-Terminal", "Terminal-Colors", "PowerShell-Scripts", "Terminal-Art", "Colorful-Scripts", "Enhanced-Terminal", "Terminal-Visuals", "PowerShell-Module", "Colorful-Output", "Terminal-Themes", "PSEdition_Desktop", "PSEdition_Core", "Windows", "Linux", "MacOS")
+    FileList              = @(
         "ColorScripts-Enhanced.psm1",
         "ColorScripts-Enhanced.psd1",
         "README.md",
         "ScriptMetadata.psd1",
         "Install.ps1"
     )
-    HelpInfoUri          = "https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/README.md"
-    ReleaseNotes         = @"
+    HelpInfoUri           = "https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/README.md"
+    ReleaseNotes          = @"
 Version ${Version}:
     - Enhanced caching system with OS-wide cache in AppData
     - 6-19x performance improvement
@@ -154,7 +161,7 @@ Version ${Version}:
     - Cross-platform support (Windows, Linux, macOS)
     - PowerShell 5.1+ and PowerShell Core 7+ compatible
 "@
-    PassThru             = $true
+    PassThru              = $true
 }
 
 # Create the manifest
@@ -169,6 +176,8 @@ try {
     $projectUri = $manifestParams.ProjectUri
     $tagIndent = ' ' * 16
     $tagsBlock = ($manifestParams.Tags | ForEach-Object { "$tagIndent'$_'" }) -join [Environment]::NewLine
+    $functionIndent = ' ' * 8
+    $functionsBlock = ($functionsToExport | ForEach-Object { "$functionIndent'$_'" }) -join [Environment]::NewLine
     $releaseNotes = @"
 Version ${Version}:
 - Enhanced caching system with OS-wide cache in AppData
@@ -254,11 +263,7 @@ Version ${Version}:
 
     # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
     FunctionsToExport = @(
-        'Show-ColorScript'
-        'Get-ColorScriptList'
-        'Build-ColorScriptCache'
-        'Clear-ColorScriptCache'
-        'Add-ColorScriptProfile'
+$functionsBlock
     )
 
     # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
