@@ -9,13 +9,18 @@ Import-Module ColorScripts-Enhanced
 
 ## Basic Commands
 
-| Command                  | Alias | Description                          |
-| ------------------------ | ----- | ------------------------------------ |
-| `Show-ColorScript`       | `scs` | Display colorscripts                 |
-| `Get-ColorScriptList`    | -     | List available scripts               |
-| `Build-ColorScriptCache` | -     | Pre-generate cache                   |
-| `Clear-ColorScriptCache` | -     | Remove cache files                   |
-| `Add-ColorScriptProfile` | -     | Append module import/startup snippet |
+| Command                          | Alias | Description                          |
+| -------------------------------- | ----- | ------------------------------------ |
+| `Show-ColorScript`               | `scs` | Display colorscripts                 |
+| `Get-ColorScriptList`            | -     | List available scripts               |
+| `Build-ColorScriptCache`         | -     | Pre-generate cache                   |
+| `Clear-ColorScriptCache`         | -     | Remove cache files                   |
+| `Add-ColorScriptProfile`         | -     | Append module import/startup snippet |
+| `Get-ColorScriptConfiguration`   | -     | Inspect persisted defaults           |
+| `Set-ColorScriptConfiguration`   | -     | Persist cache/startup preferences    |
+| `Reset-ColorScriptConfiguration` | -     | Restore configuration defaults       |
+| `Export-ColorScriptMetadata`     | -     | Export metadata and cache info       |
+| `New-ColorScript`                | -     | Scaffold a new colorscript template  |
 
 ## Common Usage
 
@@ -78,6 +83,28 @@ Clear-ColorScriptCache -All -WhatIf
 # Dry run or alternate cache root
 Clear-ColorScriptCache -Name hearts -DryRun
 Clear-ColorScriptCache -Name hearts -Path 'C:/temp/colorscripts-cache'
+```
+
+### Persist Defaults with Configuration
+
+```powershell
+Get-ColorScriptConfiguration
+Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -ProfileAutoShow:$false
+Reset-ColorScriptConfiguration
+```
+
+### Export Metadata
+
+```powershell
+Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
+Export-ColorScriptMetadata -Path ./dist/colorscripts-metadata.json -IncludeFileInfo
+```
+
+### Scaffold a Colorscript
+
+```powershell
+$scaffold = New-ColorScript -Name 'my-custom-script' -GenerateMetadataSnippet -Category 'Patterns' -Tag 'Custom'
+$scaffold.MetadataGuidance
 ```
 
 ### Run All Scripts

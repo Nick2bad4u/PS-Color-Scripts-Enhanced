@@ -46,6 +46,8 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 
 🎯 **Simple API** - Easy-to-use cmdlets with tab completion
 
+⚙️ **Configurable Defaults** - Persist cache locations and startup behaviour via module configuration
+
 🔄 **Auto-Update** - Cache automatically invalidates when scripts change
 
 📍 **Centralized Storage** - Cache stored in `%APPDATA%\ColorScripts-Enhanced\cache`
@@ -277,6 +279,45 @@ Clear-ColorScriptCache -Name "aurora-*" -Confirm:$false
 
 > Tip: Set `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` to redirect cache files to a custom directory for CI or ephemeral test runs.
 
+### Persist Defaults with Configuration
+
+```powershell
+# Inspect current configuration (cache path, startup behaviour)
+Get-ColorScriptConfiguration
+
+# Persist a custom cache path and disable automatic profile startup
+Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -ProfileAutoShow:$false
+
+# Reset everything to defaults
+Reset-ColorScriptConfiguration
+```
+
+Configuration is stored in `%APPDATA%/ColorScripts-Enhanced/config.json` (or the equivalent on macOS/Linux). Set `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` to redirect the configuration location for portable or CI scenarios.
+
+### Export Metadata for External Tools
+
+```powershell
+# Emit metadata objects to the pipeline
+$metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
+
+# Persist a JSON snapshot for front-end tooling
+Export-ColorScriptMetadata -Path ./dist/colorscripts-metadata.json -IncludeFileInfo
+```
+
+Metadata includes categories, tags, descriptions, script paths, and optional cache details—perfect for building dashboards, search interfaces, or gallery listings.
+
+### Scaffold a New Colorscript
+
+```powershell
+# Create a new colorscript skeleton in the Scripts directory
+$scaffold = New-ColorScript -Name 'my-awesome-script' -GenerateMetadataSnippet -Category 'Artistic' -Tag 'Custom','Demo'
+
+# Inspect metadata guidance for ScriptMetadata.psd1 updates
+$scaffold.MetadataGuidance
+```
+
+The scaffolded script includes a UTF-8 template with placeholders so you can paste ANSI art directly. The optional metadata guidance hints at how to categorise the new script in `ScriptMetadata.psd1`.
+
 ### Bypass Cache (Force Fresh Execution)
 
 ```powershell
@@ -301,20 +342,26 @@ Show-ColorScript -Name "bars" -NoCache
 
 ## Commands
 
-| Command                  | Alias | Description                                                                        |
-| ------------------------ | ----- | ---------------------------------------------------------------------------------- |
-| `Show-ColorScript`       | `scs` | Display a colorscript                                                              |
-| `Get-ColorScriptList`    | -     | List all available colorscripts                                                    |
-| `Build-ColorScriptCache` | -     | Pre-generate cache files                                                           |
-| `Clear-ColorScriptCache` | -     | Remove cache files                                                                 |
-| `Add-ColorScriptProfile` | -     | Append module startup snippet to your profile                                      |
-| `Install.ps1`            | -     | Optional local installer with `-AddToProfile`, `-SkipStartupScript`, `-BuildCache` |
+| Command                          | Alias | Description                                                                        |
+| -------------------------------- | ----- | ---------------------------------------------------------------------------------- |
+| `Show-ColorScript`               | `scs` | Display a colorscript                                                              |
+| `Get-ColorScriptList`            | -     | List all available colorscripts                                                    |
+| `Build-ColorScriptCache`         | -     | Pre-generate cache files                                                           |
+| `Clear-ColorScriptCache`         | -     | Remove cache files                                                                 |
+| `Add-ColorScriptProfile`         | -     | Append module startup snippet to your profile                                      |
+| `Get-ColorScriptConfiguration`   | -     | Inspect persisted defaults (cache path, startup behaviour)                         |
+| `Set-ColorScriptConfiguration`   | -     | Update configuration values and immediately persist them                           |
+| `Reset-ColorScriptConfiguration` | -     | Restore configuration to factory defaults                                          |
+| `Export-ColorScriptMetadata`     | -     | Export metadata and cache info as JSON for external tooling                        |
+| `New-ColorScript`                | -     | Scaffold a new colorscript skeleton with metadata guidance                         |
+| `Install.ps1`                    | -     | Optional local installer with `-AddToProfile`, `-SkipStartupScript`, `-BuildCache` |
 
 ## Documentation
 
 - [Quick Start & Reference](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/QUICK_REFERENCE.md)
 - [ANSI Color Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-COLOR-GUIDE.md)
 - [ANSI Conversion Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-CONVERSION-GUIDE.md)
+- [ANSI Conversion Examples](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/examples/ansi-conversion/README.md)
 - [Module Summary](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/MODULE_SUMMARY.md)
 - [Development Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Development.md)
 - [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Publishing.md)
@@ -324,6 +371,8 @@ Show-ColorScript -Name "bars" -NoCache
 - [Security Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/SECURITY.md)
 - [Project Roadmap](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/ROADMAP.md)
 
+<a id="quality--testing"></a>
+
 ## Quality & Testing
 
 - Smoke tests (includes ScriptAnalyzer): `pwsh -NoProfile -Command "& .\Test-Module.ps1"`
@@ -331,28 +380,36 @@ Show-ColorScript -Name "bars" -NoCache
 - Linting (module only): `pwsh -NoProfile -Command "& .\Lint-Module.ps1"`
 - Linting (treat warnings as errors and include tests): `pwsh -NoProfile -Command "& .\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors`
 - Lint auto-fix (apply ScriptAnalyzer fixes, then re-run lint): `pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix`
-- Continuous integration: [`test.yml`](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/test.yml) runs on Windows PowerShell 5.1 and PowerShell 7.4 across Windows, Linux, and macOS runners.
+- Continuous integration: [`test.yml`](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/test.yml) runs on Windows PowerShell 5.1, PowerShell 7.x across Windows/Linux/macOS, includes a PowerShell 7.5 preview container smoke test, and validates markdown links.
 
 ## npm Scripts
 
-| Command                                     | Description                                                     |
-| ------------------------------------------- | --------------------------------------------------------------- |
-| `npm run build`                             | Build the module manifest and refresh documentation counts.     |
-| `npm run lint`                              | Run ScriptAnalyzer against the module.                          |
-| `npm run lint:strict`                       | Run lint with tests included and warnings treated as errors.    |
-| `npm run lint:fix`                          | Apply ScriptAnalyzer fixes where possible, then rerun lint.     |
-| `npm test`                                  | Execute the smoke-test harness (`Test-Module.ps1`).             |
-| `npm run test:pester`                       | Run the full Pester suite in `./Tests`.                         |
-| `npm run docs:update-counts`                | Synchronize script-count markers across all docs.               |
-| `npm run scripts:convert -- <ansi-file>`    | Convert an ANSI file into a colorscript (Node-based converter). |
-| `npm run scripts:split -- <file> [options]` | Split a tall ANSI or PowerShell script into multiple chunks.    |
-| `npm run scripts:test-all`                  | Execute every colorscript via `Test-AllColorScripts.ps1`.       |
-| `npm run verify`                            | Run strict linting followed by smoke tests.                     |
+| Command                                             | Description                                                                  |
+| --------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `npm run build`                                     | Build the module manifest and refresh documentation counts.                  |
+| `npm run lint`                                      | Run ScriptAnalyzer against the module.                                       |
+| `npm run lint:strict`                               | Run lint with tests included and warnings treated as errors.                 |
+| `npm run lint:fix`                                  | Apply ScriptAnalyzer fixes where possible, then rerun lint.                  |
+| `npm test`                                          | Execute the smoke-test harness (`Test-Module.ps1`).                          |
+| `npm run test:pester`                               | Run the full Pester suite in `./Tests`.                                      |
+| `npm run docs:update-counts`                        | Synchronize script-count markers across all docs.                            |
+| `npm run package:metadata -- --PackagePath <nupkg>` | Inject README/license/icon metadata into a generated package before pushing. |
+| `npm run scripts:convert -- <ansi-file>`            | Convert an ANSI file into a colorscript (Node-based converter).              |
+| `npm run scripts:split -- <file> [options]`         | Split a tall ANSI or PowerShell script into multiple chunks.                 |
+| `npm run scripts:test-all`                          | Execute every colorscript via `Test-AllColorScripts.ps1`.                    |
+| `npm run release:notes`                             | Generate unreleased notes (stripped header) for gallery publishing.          |
+| `npm run release:notes:latest`                      | Generate the most recent tagged release notes.                               |
+| `npm run release:verify`                            | Validate CHANGELOG.md against the module manifest and git-cliff.             |
+| `npm run markdown:check`                            | Run `markdown-link-check` across all repository docs.                        |
+| `npm run verify`                                    | Run strict linting, markdown checks, and both smoke + Pester tests.          |
+
+<a id="release--publishing"></a>
 
 ## Release & Publishing
 
 - Automated publishing workflow: [`publish.yml`](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/publish.yml)
 - Local helper script: `build.ps1`
+- Release notes automation: `npm run release:notes` (gallery snippet) & `npm run release:verify` (requires [git-cliff](https://github.com/orhun/git-cliff))
 - Optional help generation: `Build-Help.ps1`
 - Documentation: [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Publishing.md) & [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ReleaseChecklist.md)
 
@@ -482,10 +539,14 @@ Use `Show-ColorScript -List` to see all available scripts.
 
 ## ANSI Utility Scripts
 
-Two helper tools live in the repository for working with external ANSI art:
+The repository ships several helpers for working with ANSI art, release notes, and documentation hygiene:
 
 - `Convert-AnsiToColorScript.js` converts a `.ANS` file into a PowerShell script ready to drop into `ColorScripts-Enhanced/Scripts`.
 - `scripts/Split-AnsiFile.js` slices extremely tall ANSI art into smaller chunks that can be converted individually.
+- `scripts/Generate-ReleaseNotes.ps1` wraps `git-cliff` so you can build PowerShell Gallery release notes or tag summaries in one command.
+- `scripts/Validate-Changelog.ps1` checks that `CHANGELOG.md` matches the manifest version and the latest `git-cliff` output.
+- `scripts/Invoke-MarkdownLinkCheck.ps1` runs `markdown-link-check` across every markdown file using the bundled configuration.
+- `examples/ansi-conversion/` contains turnkey PowerShell scripts that demonstrate the Node and PowerShell conversion utilities end-to-end.
 
 ### Split Super-Tall ANSI Art
 

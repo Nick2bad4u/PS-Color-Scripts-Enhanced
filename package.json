@@ -22,12 +22,17 @@
     "test": "pwsh -NoProfile -File ./Test-Module.ps1",
     "test:pester": "pwsh -NoProfile -Command \"Invoke-Pester -Path ./Tests\"",
     "docs:update-counts": "pwsh -NoProfile -File ./Update-DocumentationCounts.ps1",
+    "package:metadata": "pwsh -NoProfile -File ./scripts/Update-NuGetPackageMetadata.ps1",
     "scripts:convert": "node ./Convert-AnsiToColorScript.js",
     "scripts:convert:ps": "pwsh -NoProfile -File ./Convert-AnsiToColorScript.ps1",
     "scripts:convert:advanced": "pwsh -NoProfile -File ./Convert-AnsiToColorScript-Advanced.ps1",
     "scripts:split": "node ./scripts/Split-AnsiFile.js",
     "scripts:count": "pwsh -NoProfile -File ./Get-ColorScriptCount.ps1",
     "scripts:test-all": "pwsh -NoProfile -File ./ColorScripts-Enhanced/Test-AllColorScripts.ps1",
+    "release:notes": "pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Unreleased -OutputPath ./dist/PowerShellGalleryReleaseNotes.md -StripHeader",
+    "release:notes:latest": "pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Latest -OutputPath ./dist/LatestReleaseNotes.md",
+    "release:verify": "pwsh -NoProfile -File ./scripts/Validate-Changelog.ps1",
+    "markdown:check": "pwsh -NoProfile -File ./scripts/Invoke-MarkdownLinkCheck.ps1",
     "verify": "npm run lint:strict && npm run test && npm run test:pester"
   },
   "repository": {
@@ -57,5 +62,8 @@
   "dependencies": {
     "iconv-lite": "^0.7.0",
     "node-ansiparser": "^2.2.1"
+  },
+  "devDependencies": {
+    "markdown-link-check": "^3.12.2"
   }
 }

@@ -351,4 +351,42 @@
         'flower-mandala',
         'prismatic-rain'
     )
+
+    Tags = @{
+        'mandelbrot-zoom'   = @('Fractal', 'Featured', 'HighDetail')
+        'aurora-bands'      = @('Aurora', 'Nature', 'Gradient')
+        'rainbow-spiral'    = @('Rainbow', 'Spiral', 'Showcase')
+        'hearts'            = @('Classic', 'Profile', 'Beginner')
+        'bars'              = @('Beginner', 'Profile', 'SystemDemo')
+        'nerd-font-test'    = @('NerdFont', 'Glyphs', 'Verification')
+        'terminal-rainbow'  = @('Terminal', 'Theme', 'Profile')
+        'doom-original'     = @('Gaming', 'Classic', 'ASCIIArt')
+        'cats'              = @('ASCIIArt', 'Animals', 'Whimsy')
+        'mandala-pattern'   = @('Mandala', 'Symmetry', 'Artistic')
+        'aurora-storm'      = @('Aurora', 'Animated')
+        'rainbow-waves'     = @('Rainbow', 'Waveform', 'Featured')
+        'newton-basins'     = @('Math', 'Fractal', 'ComplexPlane')
+        'dev-workspace'     = @('NerdFont', 'Workspace', 'Profile')
+        'vector-streams'    = @('Physics', 'VectorField', 'Dynamic')
+        'terminal-ocean'    = @('Terminal', 'Theme', 'Ocean')
+    }
+
+    Descriptions = @{
+        'mandelbrot-zoom' = 'Animated dive into the Mandelbrot set rendered with rich ANSI gradients.'
+        'aurora-bands'    = 'Waves of aurora-inspired color emitted with layered gradient passes.'
+        'rainbow-spiral'  = 'Cycling rainbow spiral that highlights the ANSI 24-bit palette.'
+        'hearts'          = 'Simple heart glyph pattern ideal for quick profile previews.'
+        'bars'            = 'Evenly spaced color bars showcasing RGB intensity across the palette.'
+        'nerd-font-test'  = 'Comprehensive Nerd Font glyph sampler for verifying terminal fonts.'
+        'terminal-rainbow' = 'PowerShell profile-friendly terminal theme gradient with warm hues.'
+        'doom-original'   = 'Classic DOOM logo converted to ANSI fan art.'
+        'cats'            = 'Collection of ASCII cat doodles to warm up your terminal.'
+        'mandala-pattern' = 'Symmetric mandala rendering with layered rings and highlights.'
+        'aurora-storm'    = 'Dynamic aurora burst effect using layered noise for movement.'
+        'rainbow-waves'   = 'Smooth sine-wave gradients cycling through rainbow tones.'
+        'newton-basins'   = 'Meticulous rendering of Newton fractal basins in ANSI color.'
+        'dev-workspace'   = 'Nerd Font icons and separators showing an idealized dev environment.'
+        'vector-streams'  = 'Animated particle streams flowing along computed vector fields.'
+        'terminal-ocean'  = 'Cool-toned PowerShell startup theme inspired by ocean gradients.'
+    }
 }

@@ -90,6 +90,7 @@ function Invoke-LintPass {
         catch {
             $exception = $_.Exception
             $isNullRef = $exception -is [System.NullReferenceException] -or ($exception -and $exception.Message -like 'Object reference*')
+            $isCommandNotFound = $exception -is [System.Management.Automation.CommandNotFoundException] -or ($exception -and $exception.Message -like "The term '*'' is not recognized*")
 
             if ($AnalyzerParams.ContainsKey('Settings') -and $SettingsFile -and $isNullRef) {
                 Write-Warning "ScriptAnalyzer encountered a known issue analyzing '$TargetPath' with custom settings. Retrying without settings."
@@ -103,7 +104,29 @@ function Invoke-LintPass {
                     $fallback.ErrorAction = 'Stop'
                 }
 
-                return Invoke-ScriptAnalyzer @fallback
+                try {
+                    return Invoke-ScriptAnalyzer @fallback
+                }
+                catch {
+                    $fallbackException = $_.Exception
+                    $fallbackNullRef = $fallbackException -is [System.NullReferenceException] -or ($fallbackException -and $fallbackException.Message -like 'Object reference*')
+                    if ($fallbackNullRef) {
+                        Write-Warning "ScriptAnalyzer continues to hit a NullReferenceException for '$TargetPath'. Skipping this file."
+                        return @()
+                    }
+
+                    throw
+                }
+            }
+
+            if ($isNullRef) {
+                Write-Warning "ScriptAnalyzer hit a NullReferenceException for '$TargetPath'. Skipping this file."
+                return @()
+            }
+
+            if ($isCommandNotFound) {
+                Write-Warning "ScriptAnalyzer hit a CommandNotFoundException for '$TargetPath'. Skipping this file."
+                return @()
             }
 
             throw

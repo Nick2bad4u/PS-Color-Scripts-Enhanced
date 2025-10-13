@@ -5,6 +5,12 @@
     },
     {
       "pattern": "^https://github\\.com/Nick2bad4u/PS-Color-Scripts-Enhanced"
+    },
+    {
+      "pattern": "^mailto:"
+    },
+    {
+      "pattern": "^deps$"
     }
   ],
   "replacementPatterns": [

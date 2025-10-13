@@ -13,6 +13,278 @@ $script:PowerShellExecutable = $null
 $script:Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding($false)
 $script:CacheDir = $null
 $script:CacheInitialized = $false
+$script:ConfigurationRoot = $null
+$script:ConfigurationPath = $null
+$script:ConfigurationData = $null
+$script:ConfigurationInitialized = $false
+$script:DefaultConfiguration = @{
+    Cache   = @{
+        Path = $null
+    }
+    Startup = @{
+        AutoShowOnImport = $false
+        ProfileAutoShow  = $true
+        DefaultScript    = $null
+    }
+}
+
+function Copy-ColorScriptHashtable {
+    param([hashtable]$Source)
+
+    if (-not $Source) {
+        return @{}
+    }
+
+    $clone = @{}
+    foreach ($key in $Source.Keys) {
+        $value = $Source[$key]
+        if ($value -is [hashtable]) {
+            $clone[$key] = Copy-ColorScriptHashtable $value
+        }
+        elseif ($value -is [System.Collections.IDictionary]) {
+            $clone[$key] = Copy-ColorScriptHashtable ([hashtable]$value)
+        }
+        elseif ($value -is [System.Collections.IEnumerable] -and $value -isnot [string]) {
+            $clone[$key] = @($value)
+        }
+        else {
+            $clone[$key] = $value
+        }
+    }
+
+    return $clone
+}
+
+function Merge-ColorScriptConfiguration {
+    param(
+        [hashtable]$Base,
+        [hashtable]$Override
+    )
+
+    if (-not $Override) {
+        return Copy-ColorScriptHashtable $Base
+    }
+
+    $result = Copy-ColorScriptHashtable $Base
+    foreach ($key in $Override.Keys) {
+        $overrideValue = $Override[$key]
+        if ($result.ContainsKey($key)) {
+            $baseValue = $result[$key]
+            if ($baseValue -is [hashtable] -and $overrideValue -is [hashtable]) {
+                $result[$key] = Merge-ColorScriptConfiguration $baseValue ([hashtable]$overrideValue)
+                continue
+            }
+        }
+
+        if ($overrideValue -is [hashtable]) {
+            $result[$key] = Copy-ColorScriptHashtable ([hashtable]$overrideValue)
+        }
+        elseif ($overrideValue -is [System.Collections.IDictionary]) {
+            $result[$key] = Copy-ColorScriptHashtable ([hashtable]$overrideValue)
+        }
+        elseif ($overrideValue -is [System.Collections.IEnumerable] -and $overrideValue -isnot [string]) {
+            $result[$key] = @($overrideValue)
+        }
+        else {
+            $result[$key] = $overrideValue
+        }
+    }
+
+    return $result
+}
+
+function Get-ColorScriptsConfigurationRoot {
+    if ($script:ConfigurationRoot) {
+        return $script:ConfigurationRoot
+    }
+
+    $candidates = @()
+
+    $overrideRoot = $env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT
+    if (-not [string]::IsNullOrWhiteSpace($overrideRoot)) {
+        $candidates += $overrideRoot
+    }
+
+    if ($IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
+        if ($env:APPDATA) {
+            $candidates += (Join-Path -Path $env:APPDATA -ChildPath 'ColorScripts-Enhanced')
+        }
+    }
+    elseif ($IsMacOS) {
+        $macBase = Join-Path -Path $HOME -ChildPath 'Library'
+        $macBase = Join-Path -Path $macBase -ChildPath 'Application Support'
+        $candidates += (Join-Path -Path $macBase -ChildPath 'ColorScripts-Enhanced')
+    }
+    else {
+        $xdgConfig = if ($env:XDG_CONFIG_HOME) { $env:XDG_CONFIG_HOME } else { Join-Path -Path $HOME -ChildPath '.config' }
+        if ($xdgConfig) {
+            $candidates += (Join-Path -Path $xdgConfig -ChildPath 'ColorScripts-Enhanced')
+        }
+    }
+
+    if (-not $candidates) {
+        $candidates = @([System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), 'ColorScripts-Enhanced'))
+    }
+
+    foreach ($candidate in $candidates) {
+        if ([string]::IsNullOrWhiteSpace($candidate)) { continue }
+        $resolved = Resolve-CachePath -Path $candidate
+        if (-not $resolved) { continue }
+
+        try {
+            if (-not (Test-Path -LiteralPath $resolved)) {
+                New-Item -ItemType Directory -Path $resolved -Force -ErrorAction Stop | Out-Null
+            }
+            $script:ConfigurationRoot = $resolved
+            return $script:ConfigurationRoot
+        }
+        catch {
+            Write-Verbose "Unable to prepare configuration directory '$resolved': $($_.Exception.Message)"
+        }
+    }
+
+    throw "Unable to determine configuration directory for ColorScripts-Enhanced."
+}
+
+function Save-ColorScriptConfiguration {
+    param([hashtable]$Configuration)
+
+    $configRoot = Get-ColorScriptsConfigurationRoot
+    if (-not $configRoot) {
+        throw 'Configuration root could not be resolved.'
+    }
+
+    $script:ConfigurationPath = Join-Path -Path $configRoot -ChildPath 'config.json'
+    $json = $Configuration | ConvertTo-Json -Depth 6
+    Set-Content -Path $script:ConfigurationPath -Value ($json + [Environment]::NewLine) -Encoding UTF8
+}
+
+function Initialize-Configuration {
+    if ($script:ConfigurationInitialized -and $script:ConfigurationData) {
+        return
+    }
+
+    $configRoot = Get-ColorScriptsConfigurationRoot
+    $script:ConfigurationPath = Join-Path -Path $configRoot -ChildPath 'config.json'
+
+    $existing = $null
+    if (Test-Path -LiteralPath $script:ConfigurationPath) {
+        try {
+            $raw = Get-Content -LiteralPath $script:ConfigurationPath -Raw -ErrorAction Stop
+            if (-not [string]::IsNullOrWhiteSpace($raw)) {
+                $existing = ConvertFrom-Json -InputObject $raw -AsHashtable
+            }
+        }
+        catch {
+            Write-Warning "Failed to parse configuration file at '$script:ConfigurationPath': $($_.Exception.Message). Using defaults."
+        }
+    }
+
+    $script:ConfigurationData = Merge-ColorScriptConfiguration $script:DefaultConfiguration $existing
+    Save-ColorScriptConfiguration -Configuration $script:ConfigurationData
+    $script:ConfigurationInitialized = $true
+}
+
+function Get-ConfigurationDataInternal {
+    Initialize-Configuration
+    return $script:ConfigurationData
+}
+
+function Get-ColorScriptConfiguration {
+    <#
+    .EXTERNALHELP ColorScripts-Enhanced-help.xml
+    #>
+    [CmdletBinding()]
+    param()
+
+    $data = Copy-ColorScriptHashtable (Get-ConfigurationDataInternal)
+    return $data
+}
+
+function Set-ColorScriptConfiguration {
+    <#
+    .EXTERNALHELP ColorScripts-Enhanced-help.xml
+    #>
+    [CmdletBinding()]
+    param(
+        [Nullable[bool]]$AutoShowOnImport,
+        [Nullable[bool]]$ProfileAutoShow,
+        [string]$CachePath,
+        [string]$DefaultScript,
+        [switch]$PassThru
+    )
+
+    $data = Get-ConfigurationDataInternal
+
+    if ($PSBoundParameters.ContainsKey('AutoShowOnImport')) {
+        $data.Startup.AutoShowOnImport = [bool]$AutoShowOnImport
+    }
+
+    if ($PSBoundParameters.ContainsKey('ProfileAutoShow')) {
+        $data.Startup.ProfileAutoShow = [bool]$ProfileAutoShow
+    }
+
+    if ($PSBoundParameters.ContainsKey('CachePath')) {
+        if ([string]::IsNullOrWhiteSpace($CachePath)) {
+            $data.Cache.Path = $null
+        }
+        else {
+            $resolvedCache = Resolve-CachePath -Path $CachePath
+            if (-not $resolvedCache) {
+                throw "Unable to resolve cache path '$CachePath'."
+            }
+
+            if (-not (Test-Path -LiteralPath $resolvedCache)) {
+                New-Item -ItemType Directory -Path $resolvedCache -Force | Out-Null
+            }
+
+            $data.Cache.Path = $resolvedCache
+        }
+
+        $script:CacheInitialized = $false
+        $script:CacheDir = $null
+    }
+
+    if ($PSBoundParameters.ContainsKey('DefaultScript')) {
+        if ([string]::IsNullOrWhiteSpace($DefaultScript)) {
+            $data.Startup.DefaultScript = $null
+        }
+        else {
+            $data.Startup.DefaultScript = [string]$DefaultScript
+        }
+    }
+
+    Save-ColorScriptConfiguration -Configuration $data
+
+    if ($PassThru) {
+        return Get-ColorScriptConfiguration
+    }
+}
+
+function Reset-ColorScriptConfiguration {
+    <#
+    .EXTERNALHELP ColorScripts-Enhanced-help.xml
+    #>
+    [CmdletBinding(SupportsShouldProcess = $true)]
+    param(
+        [switch]$PassThru
+    )
+
+    $configRoot = Get-ColorScriptsConfigurationRoot
+    $configPath = Join-Path -Path $configRoot -ChildPath 'config.json'
+
+    if ($PSCmdlet.ShouldProcess($configPath, 'Reset ColorScripts-Enhanced configuration')) {
+        $script:ConfigurationData = Copy-ColorScriptHashtable $script:DefaultConfiguration
+        Save-ColorScriptConfiguration -Configuration $script:ConfigurationData
+        $script:CacheInitialized = $false
+        $script:CacheDir = $null
+    }
+
+    if ($PassThru) {
+        return Get-ColorScriptConfiguration
+    }
+}
+
 $script:DefaultAutoCategoryRules = @(
     [pscustomobject]@{
         Category = 'System'
@@ -250,6 +522,8 @@ function Initialize-CacheDirectory {
         return
     }
 
+    Initialize-Configuration
+
     $overrideCacheRoot = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
     $resolvedOverride = $null
 
@@ -264,6 +538,17 @@ function Initialize-CacheDirectory {
 
     if ($resolvedOverride) {
         $candidatePaths += $resolvedOverride
+    }
+
+    $configData = $script:ConfigurationData
+    if ($configData -and $configData.Cache -and $configData.Cache.Path) {
+        $configuredPath = Resolve-CachePath -Path $configData.Cache.Path
+        if ($configuredPath) {
+            $candidatePaths += $configuredPath
+        }
+        else {
+            Write-Warning "Configured cache path '$($configData.Cache.Path)' could not be resolved. Falling back to default locations."
+        }
     }
 
     if ($IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
@@ -573,6 +858,38 @@ function Get-ColorScriptMetadataTable {
                     $entry = & $ensureEntry $internal $scriptName
                     if (-not $entry.Tags.Contains('Recommended')) {
                         $null = $entry.Tags.Add('Recommended')
+                    }
+                }
+            }
+
+            if ($data.Tags -is [hashtable]) {
+                foreach ($taggedScript in $data.Tags.Keys) {
+                    $entry = & $ensureEntry $internal $taggedScript
+                    $tagsForScript = $data.Tags[$taggedScript]
+
+                    if ($tagsForScript -is [System.Collections.IEnumerable] -and $tagsForScript -isnot [string]) {
+                        foreach ($tagValue in $tagsForScript) {
+                            $tagText = [string]$tagValue
+                            if (-not [string]::IsNullOrWhiteSpace($tagText) -and -not $entry.Tags.Contains($tagText)) {
+                                $null = $entry.Tags.Add($tagText)
+                            }
+                        }
+                    }
+                    elseif ($tagsForScript) {
+                        $tagText = [string]$tagsForScript
+                        if (-not [string]::IsNullOrWhiteSpace($tagText) -and -not $entry.Tags.Contains($tagText)) {
+                            $null = $entry.Tags.Add($tagText)
+                        }
+                    }
+                }
+            }
+
+            if ($data.Descriptions -is [hashtable]) {
+                foreach ($describedScript in $data.Descriptions.Keys) {
+                    $entry = & $ensureEntry $internal $describedScript
+                    $descriptionText = $data.Descriptions[$describedScript]
+                    if ($null -ne $descriptionText -and -not [string]::IsNullOrWhiteSpace([string]$descriptionText)) {
+                        $entry.Description = [string]$descriptionText
                     }
                 }
             }
@@ -1372,6 +1689,116 @@ function Get-ColorScriptList {
     return $records
 }
 
+function Export-ColorScriptMetadata {
+    <#
+    .SYNOPSIS
+    Export the module's colorscript metadata as structured objects or JSON.
+    .DESCRIPTION
+    Retrieves metadata for each colorscript, including categories and tags, and optionally augments it with
+    file system and cache information. The result can be written to a JSON file for consumption by external
+    tooling or returned directly to the pipeline.
+    .PARAMETER Path
+    Destination file path for the JSON output. When omitted, objects are emitted to the pipeline.
+    .PARAMETER IncludeFileInfo
+    Attach file system information (full path, file size, and last write time) for each colorscript.
+    .PARAMETER IncludeCacheInfo
+    Attach cache metadata including the cache location, whether a cache file exists, and its timestamp.
+    .PARAMETER PassThru
+    Return the in-memory objects even when writing to a file.
+    #>
+    [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseSingularNouns', '', Justification = 'Metadata is a collective noun representing the exported dataset.')]
+    [CmdletBinding()]
+    param(
+        [Parameter()]
+        [string]$Path,
+
+        [Parameter()]
+        [switch]$IncludeFileInfo,
+
+        [Parameter()]
+        [switch]$IncludeCacheInfo,
+
+        [Parameter()]
+        [switch]$PassThru
+    )
+
+    $records = Get-ColorScriptEntry | Sort-Object Name
+    Initialize-CacheDirectory
+
+    $payload = @()
+
+    foreach ($record in $records) {
+        $entry = [ordered]@{
+            Name        = $record.Name
+            Category    = $record.Category
+            Categories  = [string[]]$record.Categories
+            Tags        = [string[]]$record.Tags
+            Description = $record.Description
+        }
+
+        if ($IncludeFileInfo) {
+            try {
+                $fileInfo = Get-Item -LiteralPath $record.Path -ErrorAction Stop
+                $entry['ScriptPath'] = $fileInfo.FullName
+                $entry['ScriptSizeBytes'] = [int64]$fileInfo.Length
+                $entry['ScriptLastWriteTimeUtc'] = $fileInfo.LastWriteTimeUtc
+            }
+            catch {
+                $entry['ScriptPath'] = $record.Path
+                $entry['ScriptSizeBytes'] = $null
+                $entry['ScriptLastWriteTimeUtc'] = $null
+                Write-Verbose "Unable to retrieve file info for '$($record.Name)': $($_.Exception.Message)"
+            }
+        }
+
+        if ($IncludeCacheInfo) {
+            $cacheFile = if ($script:CacheDir) { Join-Path -Path $script:CacheDir -ChildPath "$($record.Name).cache" } else { $null }
+            $cacheExists = $false
+            $cacheTimestamp = $null
+
+            if ($cacheFile -and (Test-Path -LiteralPath $cacheFile)) {
+                $cacheExists = $true
+                try {
+                    $cacheInfo = Get-Item -LiteralPath $cacheFile -ErrorAction Stop
+                    $cacheTimestamp = $cacheInfo.LastWriteTimeUtc
+                }
+                catch {
+                    Write-Verbose "Unable to read cache info for '$($record.Name)': $($_.Exception.Message)"
+                }
+            }
+
+            $entry['CachePath'] = $cacheFile
+            $entry['CacheExists'] = $cacheExists
+            $entry['CacheLastWriteTimeUtc'] = $cacheTimestamp
+        }
+
+        $payload += [pscustomobject]$entry
+    }
+
+    if ($Path) {
+        $resolvedPath = Resolve-CachePath -Path $Path
+        if (-not $resolvedPath) {
+            throw "Unable to resolve output path '$Path'."
+        }
+
+        $outputDirectory = Split-Path -Path $resolvedPath -Parent
+        if ($outputDirectory -and -not (Test-Path -LiteralPath $outputDirectory)) {
+            New-Item -ItemType Directory -Path $outputDirectory -Force | Out-Null
+        }
+
+        $json = $payload | ConvertTo-Json -Depth 6
+        Set-Content -Path $resolvedPath -Value ($json + [Environment]::NewLine) -Encoding UTF8
+
+        if ($PassThru) {
+            return $payload
+        }
+
+        return
+    }
+
+    return $payload
+}
+
 <#
 .SYNOPSIS
 Builds or refreshes the cache for one or more color scripts.
@@ -1878,6 +2305,126 @@ function Clear-ColorScriptCache {
     }
 }
 
+function New-ColorScript {
+    <#
+    .SYNOPSIS
+    Scaffold a new colorscript file with a ready-to-edit template.
+    .DESCRIPTION
+    Creates a PowerShell colorscript skeleton in the target directory (defaulting to the module's Scripts folder).
+    Optionally emits guidance for updating ScriptMetadata.psd1 with category and tag suggestions.
+    .PARAMETER Name
+    Name of the new colorscript. A `.ps1` extension is appended automatically.
+    .PARAMETER OutputPath
+    Destination directory for the new script. Defaults to the module's Scripts directory.
+    .PARAMETER Force
+    Overwrite an existing file with the same name.
+    .PARAMETER Category
+    Suggested primary category for metadata guidance.
+    .PARAMETER Tag
+    Suggested metadata tags for the new script.
+    .PARAMETER GenerateMetadataSnippet
+    Emit a guidance snippet describing how to update ScriptMetadata.psd1.
+    #>
+    [CmdletBinding(SupportsShouldProcess = $true)]
+    param(
+        [Parameter(Mandatory)]
+        [ValidatePattern('^[a-zA-Z0-9][a-zA-Z0-9_-]*$')]
+        [string]$Name,
+
+        [Parameter()]
+        [string]$OutputPath,
+
+        [Parameter()]
+        [switch]$Force,
+
+        [Parameter()]
+        [string]$Category,
+
+        [Parameter()]
+        [string[]]$Tag,
+
+        [Parameter()]
+        [switch]$GenerateMetadataSnippet
+    )
+
+    $targetDirectory = $script:ScriptsPath
+    if ($PSBoundParameters.ContainsKey('OutputPath')) {
+        $resolvedOutput = Resolve-CachePath -Path $OutputPath
+        if (-not $resolvedOutput) {
+            throw "Unable to resolve output path '$OutputPath'."
+        }
+        $targetDirectory = $resolvedOutput
+    }
+
+    if (-not (Test-Path -LiteralPath $targetDirectory)) {
+        New-Item -ItemType Directory -Path $targetDirectory -Force | Out-Null
+    }
+
+    $targetPath = Join-Path -Path $targetDirectory -ChildPath ("{0}.ps1" -f $Name)
+
+    if ((Test-Path -LiteralPath $targetPath) -and -not $Force) {
+        throw "Script '$targetPath' already exists. Use -Force to overwrite."
+    }
+
+    $template = @'
+# __NAME__ colorscript
+param()
+
+$esc = [char]27
+$ansiLines = @(
+    "$esc[38;2;255;145;0mReplace this array with your ANSI art for '__NAME__'.",
+    "$esc[0mAdd additional lines as needed."
+)
+
+foreach ($line in $ansiLines) {
+    Write-Host $line
+}
+'@
+
+    $template = $template.Replace('__NAME__', $Name)
+
+    if ($PSCmdlet.ShouldProcess($targetPath, 'Create colorscript skeleton')) {
+        [System.IO.File]::WriteAllText($targetPath, $template, $script:Utf8NoBomEncoding)
+    }
+
+    $metadataSnippet = $null
+    if ($GenerateMetadataSnippet) {
+        $categoryHint = if (-not [string]::IsNullOrWhiteSpace($Category)) { $Category } else { 'YourCategory' }
+        $tagList = @($Tag | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
+        if (-not $tagList) {
+            $tagList = @('Custom')
+        }
+
+        $formattedTags = ($tagList | ForEach-Object { "'$_'" }) -join ', '
+        $metadataSnippet = @"
+# ScriptMetadata.psd1 guidance for '$Name'
+#
+# Categories:
+#     '$categoryHint' = @(
+#         # ...existing entries...
+#         '$Name'
+#     )
+#
+# Tags:
+#     '$Name' = @($formattedTags)
+"@
+    }
+
+    $result = [pscustomobject]@{
+        Name                 = $Name
+        Path                 = $targetPath
+        CategorySuggestion   = if ($Category) { $Category } else { $null }
+        TagSuggestion        = if ($Tag) { [string[]]$Tag } else { @() }
+        MetadataGuidance     = $metadataSnippet
+    }
+
+    if ($metadataSnippet) {
+        Write-Verbose "Metadata guidance for '$Name':`n$metadataSnippet"
+    }
+
+    return $result
+}
+
 function Add-ColorScriptProfile {
     <#
     .EXTERNALHELP ColorScripts-Enhanced-help.xml
@@ -1905,6 +2452,31 @@ function Add-ColorScriptProfile {
             Changed = $false
             Message = 'Remote session detected.'
         }
+    }
+
+    $configuration = $null
+    try {
+        $configuration = Get-ColorScriptConfiguration
+    }
+    catch {
+        Write-Verbose "Configuration unavailable: $($_.Exception.Message)"
+    }
+
+    $autoShow = $true
+    $defaultStartupScript = $null
+
+    if ($configuration -and $configuration.Startup) {
+        if ($configuration.Startup.ContainsKey('ProfileAutoShow')) {
+            $autoShow = [bool]$configuration.Startup.ProfileAutoShow
+        }
+
+        if ($configuration.Startup.ContainsKey('DefaultScript')) {
+            $defaultStartupScript = $configuration.Startup.DefaultScript
+        }
+    }
+
+    if ($PSBoundParameters.ContainsKey('SkipStartupScript')) {
+        $autoShow = -not $SkipStartupScript.IsPresent
     }
 
     if ($PSBoundParameters.ContainsKey('Path')) {
@@ -1953,8 +2525,14 @@ function Add-ColorScriptProfile {
         'Import-Module ColorScripts-Enhanced'
     )
 
-    if (-not $SkipStartupScript) {
-        $snippetLines += 'Show-ColorScript'
+    if ($autoShow) {
+        if (-not [string]::IsNullOrWhiteSpace($defaultStartupScript)) {
+            $safeName = $defaultStartupScript -replace "'", "''"
+            $snippetLines += "Show-ColorScript -Name '$safeName'"
+        }
+        else {
+            $snippetLines += 'Show-ColorScript'
+        }
     }
 
     $snippet = ($snippetLines -join $newline)
@@ -2012,6 +2590,48 @@ function Add-ColorScriptProfile {
     }
 }
 
+# Internal helper to honor startup preferences post-import
+function Invoke-ColorScriptsStartup {
+    try {
+        $configuration = Get-ColorScriptConfiguration
+        if (-not $configuration.Startup.AutoShowOnImport) {
+            return
+        }
+
+        if ($env:CI -eq 'true' -or $env:GITHUB_ACTIONS -eq 'true') {
+            return
+        }
+
+        if ($Host.Name -eq 'ServerRemoteHost') {
+            return
+        }
+
+        $outputRedirected = $false
+        try {
+            $outputRedirected = [Console]::IsOutputRedirected
+        }
+        catch {
+            $outputRedirected = $false
+        }
+
+        if ($outputRedirected) {
+            return
+        }
+
+        $defaultScript = if ($configuration.Startup.ContainsKey('DefaultScript')) { $configuration.Startup.DefaultScript } else { $null }
+
+        if (-not [string]::IsNullOrWhiteSpace($defaultScript)) {
+            Show-ColorScript -Name $defaultScript -ErrorAction SilentlyContinue | Out-Null
+        }
+        else {
+            Show-ColorScript -ErrorAction SilentlyContinue | Out-Null
+        }
+    }
+    catch {
+        Write-Verbose "Auto-show on import skipped: $($_.Exception.Message)"
+    }
+}
+
 #endregion
 
 # Export module members
@@ -2020,8 +2640,14 @@ Export-ModuleMember -Function @(
     'Get-ColorScriptList',
     'Build-ColorScriptCache',
     'Clear-ColorScriptCache',
-    'Add-ColorScriptProfile'
+    'Add-ColorScriptProfile',
+    'Get-ColorScriptConfiguration',
+    'Set-ColorScriptConfiguration',
+    'Reset-ColorScriptConfiguration',
+    'Export-ColorScriptMetadata',
+    'New-ColorScript'
 ) -Alias @('scs')
 
 # Module initialization message
 Write-Verbose "ColorScripts-Enhanced module loaded. Cache location: $script:CacheDir"
+Invoke-ColorScriptsStartup

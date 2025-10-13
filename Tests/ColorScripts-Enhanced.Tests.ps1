@@ -4,6 +4,7 @@
 BeforeAll {
     # Import the module (cross-platform path)
     $script:OriginalCacheOverride = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
+    $script:OriginalConfigOverride = $env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT
     $testDriveRoot = $null
     if (Test-Path -LiteralPath 'TestDrive:\') {
         $testDriveRoot = (Resolve-Path -LiteralPath 'TestDrive:\' -ErrorAction Stop).ProviderPath
@@ -20,6 +21,12 @@ BeforeAll {
     $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $script:TestCacheRoot
     if (-not (Test-Path $script:TestCacheRoot)) {
         New-Item -ItemType Directory -Path $script:TestCacheRoot -Force | Out-Null
+    }
+
+    $script:TestConfigRoot = Join-Path -Path $testDriveRoot -ChildPath 'Config'
+    $env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT = $script:TestConfigRoot
+    if (-not (Test-Path $script:TestConfigRoot)) {
+        New-Item -ItemType Directory -Path $script:TestConfigRoot -Force | Out-Null
     }
 
     $ModulePath = Join-Path -Path $PSScriptRoot -ChildPath ".."
@@ -41,23 +48,41 @@ Describe "ColorScripts-Enhanced Module" {
         }
 
         It "Should export Show-ColorScript function" {
-            Get-Command Show-ColorScript -Module ColorScripts-Enhanced | Should -Not -BeNullOrEmpty
+            $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
+            $module.ExportedFunctions.ContainsKey('Show-ColorScript') | Should -BeTrue
         }
 
         It "Should export Get-ColorScriptList function" {
-            Get-Command Get-ColorScriptList -Module ColorScripts-Enhanced | Should -Not -BeNullOrEmpty
+            $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
+            $module.ExportedFunctions.ContainsKey('Get-ColorScriptList') | Should -BeTrue
         }
 
         It "Should export Build-ColorScriptCache function" {
-            Get-Command Build-ColorScriptCache -Module ColorScripts-Enhanced | Should -Not -BeNullOrEmpty
+            $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
+            $module.ExportedFunctions.ContainsKey('Build-ColorScriptCache') | Should -BeTrue
         }
 
         It "Should export Clear-ColorScriptCache function" {
-            Get-Command Clear-ColorScriptCache -Module ColorScripts-Enhanced | Should -Not -BeNullOrEmpty
+            $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
+            $module.ExportedFunctions.ContainsKey('Clear-ColorScriptCache') | Should -BeTrue
         }
 
         It "Should export Add-ColorScriptProfile function" {
-            Get-Command Add-ColorScriptProfile -Module ColorScripts-Enhanced | Should -Not -BeNullOrEmpty
+            $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
+            $module.ExportedFunctions.ContainsKey('Add-ColorScriptProfile') | Should -BeTrue
+        }
+
+        It "Should export configuration helpers" {
+            $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
+            $module.ExportedFunctions.ContainsKey('Get-ColorScriptConfiguration') | Should -BeTrue
+            $module.ExportedFunctions.ContainsKey('Set-ColorScriptConfiguration') | Should -BeTrue
+            $module.ExportedFunctions.ContainsKey('Reset-ColorScriptConfiguration') | Should -BeTrue
+        }
+
+        It "Should export metadata utilities" {
+            $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
+            $module.ExportedFunctions.ContainsKey('Export-ColorScriptMetadata') | Should -BeTrue
+            $module.ExportedFunctions.ContainsKey('New-ColorScript') | Should -BeTrue
         }
 
         It "Should have 'scs' alias" {
@@ -303,6 +328,68 @@ Describe "ColorScripts-Enhanced Module" {
             $dryRun[0].Status | Should -Be 'DryRun'
             $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
             Test-Path $cacheFile | Should -Be $true
+        }
+    }
+
+    Context "Configuration" {
+        It "Should expose default configuration values" {
+            $config = Get-ColorScriptConfiguration
+            $config.Cache.Path | Should -Be $null
+            $config.Startup.AutoShowOnImport | Should -BeFalse
+            $config.Startup.ProfileAutoShow | Should -BeTrue
+        }
+
+        It "Should update configuration values" {
+            $originalEnvCache = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
+            try {
+                $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $null
+                Reset-ColorScriptConfiguration | Out-Null
+
+                $customCache = Join-Path -Path $script:TestConfigRoot -ChildPath 'ConfiguredCache'
+                $result = Set-ColorScriptConfiguration -CachePath $customCache -AutoShowOnImport:$true -ProfileAutoShow:$false -DefaultScript 'bars' -PassThru
+
+                $resolved = Resolve-Path -LiteralPath $customCache
+                $result.Cache.Path | Should -Be $resolved.ProviderPath
+                $result.Startup.AutoShowOnImport | Should -BeTrue
+                $result.Startup.ProfileAutoShow | Should -BeFalse
+                $result.Startup.DefaultScript | Should -Be 'bars'
+            }
+            finally {
+                if ($null -eq $originalEnvCache) {
+                    Remove-Item Env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH -ErrorAction SilentlyContinue
+                }
+                else {
+                    $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $originalEnvCache
+                }
+
+                Set-ColorScriptConfiguration -CachePath $script:TestCacheRoot -AutoShowOnImport:$false -ProfileAutoShow:$true -DefaultScript '' | Out-Null
+            }
+        }
+    }
+
+    Context "Metadata Export" {
+        It "Should export metadata as JSON" {
+            $outputPath = Join-Path -Path $script:TestConfigRoot -ChildPath 'metadata.json'
+            $records = Export-ColorScriptMetadata -Path $outputPath -IncludeFileInfo -IncludeCacheInfo -PassThru
+
+            Test-Path -LiteralPath $outputPath | Should -BeTrue
+            $records | Should -Not -BeNullOrEmpty
+            ($records | Where-Object { $_.Name -eq 'bars' }).Category | Should -Not -BeNullOrEmpty
+
+            $parsed = Get-Content -LiteralPath $outputPath -Raw | ConvertFrom-Json
+            $parsed | Should -Not -BeNullOrEmpty
+        }
+    }
+
+    Context "Scaffolding" {
+        It "Should scaffold a new colorscript" {
+            $scaffoldRoot = Join-Path -Path $script:TestConfigRoot -ChildPath 'Scaffold'
+            $result = New-ColorScript -Name 'test-script' -OutputPath $scaffoldRoot -Force -GenerateMetadataSnippet -Category 'Test' -Tag 'Sample', 'Demo'
+
+            $result | Should -Not -BeNullOrEmpty
+            Test-Path -LiteralPath $result.Path | Should -BeTrue
+            (Get-Content -LiteralPath $result.Path -Raw) | Should -Match 'Replace this array with your ANSI art'
+            $result.MetadataGuidance | Should -Match 'ScriptMetadata'
         }
     }
 
@@ -696,11 +783,19 @@ Describe "Test-AllColorScripts Script" {
 
 AfterAll {
     Clear-ColorScriptCache -Name 'bars' -Confirm:$false | Out-Null
+    Reset-ColorScriptConfiguration | Out-Null
     if ($null -eq $script:OriginalCacheOverride) {
         Remove-Item Env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH -ErrorAction SilentlyContinue
     }
     else {
         $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $script:OriginalCacheOverride
+    }
+
+    if ($null -eq $script:OriginalConfigOverride) {
+        Remove-Item Env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT -ErrorAction SilentlyContinue
+    }
+    else {
+        $env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT = $script:OriginalConfigOverride
     }
 
     Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue

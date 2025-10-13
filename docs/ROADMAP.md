@@ -4,17 +4,13 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 
 ## Near Term (Next Release)
 
-- Automate gallery publishing notes via `cliff` and changelog validation
-- Expand metadata for ANSI scripts (category, tags) to improve filtered listings
-- Add smoke-test coverage for PowerShell 7.5 preview builds in CI
-- Ship bundled examples for the ANSI conversion utilities
+- Open slot for community-driven enhancements—drop suggestions in Discussions or Issues.
 
 ## Mid Term (1-2 Releases)
 
-- Provide module configuration file support (store defaults for cache path, startup behavior)
-- Expose JSON export of script metadata for external tools
-- Offer `New-ColorScript` scaffolding helper to bootstrap new ANSI art scripts
-- Integrate markdown-link-check into CI to catch broken documentation links
+- Expand script descriptions to cover the remaining catalog for richer search experiences.
+- Investigate live previews for the ANSI conversion utilities (side-by-side ANSI + PowerShell output).
+- Evaluate adding VS Code tasks to streamline conversion workflows and cache maintenance.
 
 ## Long Term
 
@@ -28,6 +24,10 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 - Cross-platform module structure with caching (Windows, macOS, Linux)
 - Automated dependency and supply-chain scanning workflows (Dependabot, osv-scanner, Gitleaks, Trufflehog)
 - Script count automation (`Get-ColorScriptCount.ps1` and `Update-DocumentationCounts.ps1`)
+- Release-note automation via git-cliff scripts and CHANGELOG validation
+- Configuration persistence, metadata export cmdlet, scaffolding helper, and expanded metadata tags/descriptions
+- Markdown link checking in CI alongside PowerShell 7.5 preview smoke testing
+- Bundled ANSI conversion examples to accelerate onboarding
 
 ## How to Participate
 

@@ -14,6 +14,24 @@ permissions:
   contents: read
 
 jobs:
+  markdown-links:
+    name: Markdown Link Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+        with:
+          egress-policy: audit
+
+      - name: Checkout repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+
+      - name: Install Node dependencies
+        run: npm install --include=dev
+
+      - name: Run markdown link check
+        run: npm run markdown:check
+
   windows-powershell:
     name: Windows PowerShell 5.1
     runs-on: windows-latest
@@ -142,3 +160,39 @@ jobs:
           Import-Module ./ColorScripts-Enhanced -Force
           Get-Help Show-ColorScript
           Get-Help about_ColorScripts-Enhanced
+
+  pwsh-preview:
+    name: PowerShell 7.5 Preview (ubuntu)
+    runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/powershell:preview
+    steps:
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+        with:
+          egress-policy: audit
+
+      - name: Checkout repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+
+      - name: Install PowerShell module dependencies
+        shell: pwsh
+        run: |
+          Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+          if (-not (Get-Module -ListAvailable -Name Pester)) {
+              Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
+          }
+          if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
+              Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
+          }
+
+      - name: Run smoke tests on preview build
+        shell: pwsh
+        run: |
+          ./Test-Module.ps1
+
+      - name: Import module on preview build
+        shell: pwsh
+        run: |
+          Import-Module ./ColorScripts-Enhanced -Force
+          Get-ColorScriptList -AsObject | Select-Object -First 1
