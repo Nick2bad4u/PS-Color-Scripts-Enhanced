@@ -82,10 +82,10 @@ Test-ModuleManifest .\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1
 pwsh -NoProfile -Command "Invoke-Pester -Path ./Tests"
 
 # Run lint (treat warnings as errors)
-pwsh -NoProfile -Command "& .\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
+pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
 
 # Apply auto-fixable ScriptAnalyzer rules (optional)
-pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix
+pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -Fix
 
 # Verify Nerd Font glyphs render correctly
 Show-ColorScript -Name nerd-font-test

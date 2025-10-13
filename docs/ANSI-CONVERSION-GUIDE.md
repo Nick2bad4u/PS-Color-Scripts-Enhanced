@@ -1,6 +1,6 @@
 # ANSI to ColorScript Conversion Guide
 
-> Looking for turnkey demos? See `examples/ansi-conversion/` for scripts that wrap the commands below.
+> Looking for turnkey demos? See `docs/examples/ansi-conversion/` for scripts that wrap the commands below.
 
 ## Quick Start
 

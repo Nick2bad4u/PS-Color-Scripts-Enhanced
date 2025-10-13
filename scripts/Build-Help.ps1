@@ -7,14 +7,23 @@
 [CmdletBinding()]
 param(
     [Parameter()]
-    [string]$ModulePath = "$PSScriptRoot\ColorScripts-Enhanced",
+    [string]$ModulePath,
 
     [Parameter()]
-    [string]$OutputPath = "$PSScriptRoot\ColorScripts-Enhanced\en-US",
+    [string]$OutputPath,
 
     [Parameter()]
     [switch]$SkipXmlGeneration
 )
+
+# Set default paths relative to repository root
+$repoRoot = Split-Path -Parent $PSScriptRoot
+if (-not $ModulePath) {
+    $ModulePath = Join-Path $repoRoot "ColorScripts-Enhanced"
+}
+if (-not $OutputPath) {
+    $OutputPath = Join-Path $ModulePath "en-US"
+}
 
 Write-Host "`nColorScripts-Enhanced Help Builder" -ForegroundColor Cyan
 Write-Host "=================================" -ForegroundColor Cyan

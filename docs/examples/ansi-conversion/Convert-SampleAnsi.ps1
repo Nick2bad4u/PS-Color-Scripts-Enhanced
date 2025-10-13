@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param(
     [Parameter()]
-    [string]$AnsiPath = './ansi-files/DEL-FLAG.ANS',
+    [string]$AnsiPath = './assets/ansi-files/DEL-FLAG.ANS',
 
     [Parameter()]
     [string]$OutputPath = './dist/examples/DEL-FLAG.ps1'
@@ -23,7 +23,7 @@ if (-not (Test-Path -LiteralPath $outputDirectory)) {
     New-Item -ItemType Directory -Path $outputDirectory -Force | Out-Null
 }
 
-$converter = Join-Path -Path $repoRoot -ChildPath 'Convert-AnsiToColorScript.js'
+$converter = Join-Path -Path $repoRoot -ChildPath 'scripts\Convert-AnsiToColorScript.js'
 if (-not (Test-Path -LiteralPath $converter)) {
     throw "Converter not found at '$converter'. Run this script from the repository workspace."
 }

@@ -64,18 +64,18 @@ Clear-ColorScriptCache -All
 
 ## All Commands
 
-| Command | Alias | Description |
-|---------|-------|-------------|
-| `Show-ColorScript` | `scs` | Display a colorscript (random or by name) |
-| `Get-ColorScriptList` | - | List all available colorscripts with metadata |
-| `Build-ColorScriptCache` | - | Pre-generate cache files for faster loading |
-| `Clear-ColorScriptCache` | - | Remove cache files |
-| `Add-ColorScriptProfile` | - | Add module import to your PowerShell profile |
-| `Get-ColorScriptConfiguration` | - | View current configuration settings |
-| `Set-ColorScriptConfiguration` | - | Update and persist configuration |
-| `Reset-ColorScriptConfiguration` | - | Restore default configuration |
-| `Export-ColorScriptMetadata` | - | Export script metadata as JSON |
-| `New-ColorScript` | - | Create a new colorscript template |
+| Command                          | Alias | Description                                   |
+| -------------------------------- | ----- | --------------------------------------------- |
+| `Show-ColorScript`               | `scs` | Display a colorscript (random or by name)     |
+| `Get-ColorScriptList`            | -     | List all available colorscripts with metadata |
+| `Build-ColorScriptCache`         | -     | Pre-generate cache files for faster loading   |
+| `Clear-ColorScriptCache`         | -     | Remove cache files                            |
+| `Add-ColorScriptProfile`         | -     | Add module import to your PowerShell profile  |
+| `Get-ColorScriptConfiguration`   | -     | View current configuration settings           |
+| `Set-ColorScriptConfiguration`   | -     | Update and persist configuration              |
+| `Reset-ColorScriptConfiguration` | -     | Restore default configuration                 |
+| `Export-ColorScriptMetadata`     | -     | Export script metadata as JSON                |
+| `New-ColorScript`                | -     | Create a new colorscript template             |
 
 ## Configuration
 
@@ -114,20 +114,6 @@ Get-Help Show-ColorScript -Parameter Name
 # View the about topic for module overview
 Get-Help about_ColorScripts-Enhanced
 ```
-
-## Script Categories
-
-Browse colorscripts by category:
-
-- **Geometric** - Fractals, patterns, sacred geometry (mandelbrot-zoom, sierpinski-carpet)
-- **Nature** - Space, weather, organic forms (galaxy-spiral, aurora-bands, crystal-drift)
-- **Artistic** - Creative designs (kaleidoscope, rainbow-waves, psychedelic-vortex)
-- **Gaming** - Retro game art (doom-original, pacman, space-invaders)
-- **System** - Terminal tests (colortest, nerd-font-test, terminal-benchmark)
-- **Logos** - OS and software logos (arch, debian, ubuntu, windows)
-- **Patterns** - Repeating designs (bars, gradient-bars, hex-blocks)
-- **Mathematical** - Math-based art (fourier-epicycles, newton-basins)
-- **Physics** - Simulations (nbody-gravity, boids-flock, langton-ant)
 
 ## Performance
 

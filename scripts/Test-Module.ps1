@@ -33,7 +33,8 @@ function Test-Function {
 # Import module
 Write-Host "Importing module..." -ForegroundColor Yellow
 try {
-    Import-Module "$PSScriptRoot\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1" -Force
+    $repoRoot = Split-Path -Parent $PSScriptRoot
+    Import-Module "$repoRoot\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1" -Force
     $cacheVariable = (Get-Module ColorScripts-Enhanced -ErrorAction Stop).SessionState.PSVariable.GetValue('CacheDir')
     if (-not [string]::IsNullOrWhiteSpace($cacheVariable)) {
         $script:ModuleCacheDir = $cacheVariable
@@ -87,7 +88,8 @@ Test-Function "Alias 'scs' exists" {
 
 # Test 4: Scripts directory exists
 Test-Function "Scripts directory exists" {
-    $scriptsPath = Join-Path $PSScriptRoot "ColorScripts-Enhanced\Scripts"
+    $repoRoot = Split-Path -Parent $PSScriptRoot
+    $scriptsPath = Join-Path $repoRoot "ColorScripts-Enhanced\Scripts"
     if (-not (Test-Path $scriptsPath)) {
         throw "Scripts directory not found"
     }
@@ -95,7 +97,8 @@ Test-Function "Scripts directory exists" {
 
 # Test 5: Scripts are present
 Test-Function "Colorscripts are available" {
-    $scriptsPath = Join-Path $PSScriptRoot "ColorScripts-Enhanced\Scripts"
+    $repoRoot = Split-Path -Parent $PSScriptRoot
+    $scriptsPath = Join-Path $repoRoot "ColorScripts-Enhanced\Scripts"
     $scripts = Get-ChildItem $scriptsPath -Filter "*.ps1"
     if ($scripts.Count -eq 0) {
         throw "No colorscripts found"
@@ -231,7 +234,8 @@ Test-Function "about_ColorScripts-Enhanced help topic" {
 
 # Test 14: Module manifest valid
 Test-Function "Module manifest is valid" {
-    $manifestPath = Join-Path $PSScriptRoot "ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
+    $repoRoot = Split-Path -Parent $PSScriptRoot
+    $manifestPath = Join-Path $repoRoot "ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
     $manifest = Test-ModuleManifest $manifestPath -ErrorAction Stop
     if (-not $manifest) {
         throw "Invalid manifest"
@@ -321,8 +325,9 @@ Test-Function "Script analyzer clean" {
 
     Import-Module PSScriptAnalyzer -ErrorAction Stop
 
-    $settingsPath = Join-Path $PSScriptRoot 'PSScriptAnalyzerSettings.psd1'
-    $moduleRoot = Join-Path $PSScriptRoot 'ColorScripts-Enhanced'
+    $repoRoot = Split-Path -Parent $PSScriptRoot
+    $settingsPath = Join-Path $repoRoot 'PSScriptAnalyzerSettings.psd1'
+    $moduleRoot = Join-Path $repoRoot 'ColorScripts-Enhanced'
     $moduleItems = Get-ChildItem -Path $moduleRoot -File -Recurse -Include *.ps1, *.psm1, *.psd1
 
     $lintResults = New-Object 'System.Collections.Generic.List[psobject]'

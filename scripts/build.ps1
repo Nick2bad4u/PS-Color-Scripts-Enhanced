@@ -95,6 +95,21 @@ if (-not $SkipReadme) {
     else {
         Write-Warning "README.md not found at: $readmePath"
     }
+
+    # Also copy the Gallery README
+    $galleryReadmePath = "./ColorScripts-Enhanced/README-Gallery.md"
+    if (Test-Path $galleryReadmePath) {
+        try {
+            # It's already in the module directory, just ensure it's there
+            Write-Verbose "Gallery README already in module directory"
+        }
+        catch {
+            Write-Warning "Failed to verify Gallery README: $_"
+        }
+    }
+    else {
+        Write-Warning "Gallery README not found at: $galleryReadmePath"
+    }
 }
 
 # Remove existing manifest

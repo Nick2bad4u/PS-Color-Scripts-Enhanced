@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Normalize readme and documentation script-count markers.
 
@@ -47,6 +47,7 @@ param(
     [string[]]$Files = @(
         'README.md',
         'ColorScripts-Enhanced/README.md',
+        'ColorScripts-Enhanced/README-Gallery.md',
         'docs/MODULE_SUMMARY.md',
         'docs/MEGALINTER-SETUP.md',
         'docs/Development.md',
@@ -57,11 +58,12 @@ param(
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-$repoRoot = Split-Path -Path $MyInvocation.MyCommand.Path -Parent
+$scriptRoot = Split-Path -Path $MyInvocation.MyCommand.Path -Parent
+$repoRoot = Split-Path -Path $scriptRoot -Parent
 
 if (-not $PSBoundParameters.ContainsKey('ScriptCount')) {
-    $counterScript = Join-Path -Path $repoRoot -ChildPath 'Get-ColorScriptCount.ps1'
-    if (-not (Test-Path -Path $counterScript)) {
+    $counterScript = Join-Path -Path $scriptRoot -ChildPath 'Get-ColorScriptCount.ps1'
+    if (-not (Test-Path -LiteralPath $counterScript)) {
         throw "Cannot locate Get-ColorScriptCount.ps1 at $counterScript"
     }
 
@@ -88,7 +90,8 @@ $replacements = @{
 foreach ($file in $Files) {
     $resolvedPath = if ([System.IO.Path]::IsPathRooted($file)) {
         $file
-    } else {
+    }
+    else {
         Join-Path -Path $repoRoot -ChildPath $file
     }
 

@@ -5,10 +5,11 @@
 const fs = require("fs");
 const path = require("path");
 const {
-  readAnsiFile,
-  convertAnsiToPs1,
-  sanitizeName,
-} = require("../Convert-AnsiToColorScript.js");
+  parseANSI,
+  buildPowerShellOutput,
+  loadCustomPalette,
+  ANSI_COLORS,
+} = require("./Convert-AnsiToColorScript.js");
 
 const DEFAULT_OUTPUT_DIR = path.join(
   __dirname,

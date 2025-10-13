@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param(
     [Parameter()]
-    [string]$AnsiPath = './ansi-files/we-ACiDTrip.ANS',
+    [string]$AnsiPath = './assets/ansi-files/we-ACiDTrip.ANS',
 
     [Parameter()]
     [int]$Every = 160,

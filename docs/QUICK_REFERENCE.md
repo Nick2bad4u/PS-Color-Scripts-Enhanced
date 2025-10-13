@@ -121,7 +121,7 @@ $scaffold.MetadataGuidance
 
 ```powershell
 # Convert ANSI to PowerShell script
-node Convert-AnsiToColorScript.js .\art.ans
+node scripts/Convert-AnsiToColorScript.js .\art.ans
 
 # Split a towering ANSI into smaller chunks (auto-detect gaps)
 node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --auto --dry-run
@@ -141,11 +141,11 @@ Use `--heights=h1,h2,...` for sequential segment sizes, `--every=<n>` for unifor
 ## Linting & Tests
 
 ```powershell
-pwsh -NoProfile -Command "& .\Test-Module.ps1"              # Smoke tests + lint gate
+pwsh -NoProfile -Command "& .\scripts\Test-Module.ps1"              # Smoke tests + lint gate
 Invoke-Pester -Path ./Tests                                   # Full test suite
-pwsh -NoProfile -Command "& .\Lint-Module.ps1"              # Standard lint
-pwsh -NoProfile -Command "& .\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
-pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix         # Apply auto-fixes, then re-run lint
+pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1"              # Standard lint
+pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
+pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -Fix         # Apply auto-fixes, then re-run lint
 pwsh -NoProfile -Command "& .\scripts\Lint-PS7.ps1"         # PowerShell 7-only analyzer with auto-fix
 ```
 

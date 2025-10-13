@@ -64,7 +64,7 @@ Install-Module PSScriptAnalyzer -Force
 ### Run Tests
 
 ```powershell
-pwsh -NoProfile -Command "& .\Test-Module.ps1"
+pwsh -NoProfile -Command "& .\scripts\Test-Module.ps1"
 Invoke-Pester -Path ./Tests
 ```
 
@@ -73,9 +73,9 @@ Invoke-Pester -Path ./Tests
 ### Lint Source
 
 ```powershell
-pwsh -NoProfile -Command "& .\Lint-Module.ps1"
-pwsh -NoProfile -Command "& .\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
-pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix
+pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1"
+pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
+pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -Fix
 pwsh -NoProfile -Command "& .\scripts\Lint-PS7.ps1"  # PowerShell 7 only
 ```
 
@@ -109,7 +109,7 @@ pwsh -NoProfile -Command "& .\scripts\Lint-PS7.ps1"  # PowerShell 7 only
 
 ```powershell
 # Convert an ANSI file to a colorscript
-node Convert-AnsiToColorScript.js .\art.ans
+node scripts/Convert-AnsiToColorScript.js .\art.ans
 
 # Split extremely tall ANSI art into multiple chunks
 node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --auto --heights=320,320

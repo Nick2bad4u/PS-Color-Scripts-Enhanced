@@ -18,7 +18,8 @@ param(
 )
 
 if (-not $PSBoundParameters.ContainsKey('Path')) {
-    $moduleRoot = Join-Path $PSScriptRoot 'ColorScripts-Enhanced'
+    $repoRoot = Split-Path -Parent $PSScriptRoot
+    $moduleRoot = Join-Path $repoRoot 'ColorScripts-Enhanced'
     $Path = @(
         Join-Path $moduleRoot 'ColorScripts-Enhanced.psm1'
         Join-Path $moduleRoot 'ColorScripts-Enhanced.psd1'
@@ -26,6 +27,9 @@ if (-not $PSBoundParameters.ContainsKey('Path')) {
         Join-Path $PSScriptRoot 'Test-Module.ps1'
         Join-Path $PSScriptRoot 'Build-Help.ps1'
         Join-Path $PSScriptRoot 'Lint-Module.ps1'
+        Join-Path $PSScriptRoot 'build.ps1'
+        Join-Path $PSScriptRoot 'Get-ColorScriptCount.ps1'
+        Join-Path $PSScriptRoot 'Update-DocumentationCounts.ps1'
     )
 
     if ($IncludeScripts) {
@@ -37,7 +41,7 @@ if (-not $PSBoundParameters.ContainsKey('Path')) {
 }
 
 if ($IncludeTests) {
-    $testRoot = Join-Path $PSScriptRoot 'Tests'
+    $testRoot = Join-Path $repoRoot 'Tests'
     if (Test-Path $testRoot) {
         $testFiles = Get-ChildItem -Path $testRoot -File -Recurse -Include *.ps1
         $Path += $testFiles.FullName
@@ -49,7 +53,7 @@ $Path = $Path | Where-Object { $_ } | Sort-Object -Unique
 Write-Verbose "Linting paths: $($Path -join ', ')"
 
 if ($IncludeTests) {
-    $testPath = Join-Path $PSScriptRoot 'Tests'
+    $testPath = Join-Path $repoRoot 'Tests'
     if (-not ($Path | Where-Object { $_ -eq $testPath })) {
         $Path += $testPath
     }
@@ -68,7 +72,7 @@ if ($Fix -and -not $invokeScriptAnalyzerCommand.Parameters.ContainsKey('Fix')) {
     exit 1
 }
 
-$settingsPath = Join-Path $PSScriptRoot 'PSScriptAnalyzerSettings.psd1'
+$settingsPath = Join-Path $repoRoot 'PSScriptAnalyzerSettings.psd1'
 if (-not (Test-Path $settingsPath)) {
     Write-Warning "Settings file not found at $settingsPath. Using default analyzer rules."
     $settingsPath = $null

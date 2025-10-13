@@ -91,16 +91,16 @@ By participating in this project, you agree to maintain a respectful and inclusi
 
    ```powershell
    # Module smoke tests (includes ScriptAnalyzer)
-   pwsh -NoProfile -Command "& .\Test-Module.ps1"
+   pwsh -NoProfile -Command "& .\scripts\Test-Module.ps1"
 
    # Full unit tests
    Invoke-Pester -Path ./Tests
 
    # Lint (treat warnings as failures)
-   pwsh -NoProfile -Command "& .\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
+   pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
 
    # (Optional) Auto-fix ScriptAnalyzer violations when available
-   pwsh -NoProfile -Command "& .\Lint-Module.ps1" -Fix
+   pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -Fix
    ```
 
 6. **Commit your changes**

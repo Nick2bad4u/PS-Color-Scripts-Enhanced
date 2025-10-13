@@ -25,8 +25,13 @@
 [CmdletBinding()]
 param(
     [Parameter()]
-    [string]$ScriptsPath = (Join-Path $PSScriptRoot 'ColorScripts-Enhanced\Scripts')
+    [string]$ScriptsPath
 )
+
+if (-not $ScriptsPath) {
+    $repoRoot = Split-Path -Parent $PSScriptRoot
+    $ScriptsPath = Join-Path $repoRoot 'ColorScripts-Enhanced\Scripts'
+}
 
 if (-not (Test-Path $ScriptsPath)) {
     Write-Error "Scripts path not found: $ScriptsPath"

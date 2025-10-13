@@ -141,10 +141,10 @@ $cacheDir = if ($env:XDG_CACHE_HOME) {
 
 ```powershell
 # Test on Windows PowerShell 5.1
-powershell.exe -Command "& .\Test-Module.ps1"
+powershell.exe -Command "& .\scripts\Test-Module.ps1"
 
 # Test on PowerShell 7.x
-pwsh -Command "& .\Test-Module.ps1"
+pwsh -Command "& .\scripts\Test-Module.ps1"
 ```
 
 ### CI/CD Testing

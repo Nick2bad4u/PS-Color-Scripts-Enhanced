@@ -72,17 +72,18 @@ if ($ConfigPath) {
 
 if (-not $Paths) {
     $Paths = Get-ChildItem -Path $repoRoot -Filter '*.md' -File -Recurse | Where-Object {
-        $_.FullName -notmatch '\\node_modules\\' -and $_.FullName -notmatch '\\\.git\\'
+        $relativePath = $_.FullName.Substring($repoRoot.Path.Length)
+        $relativePath -notmatch '^[\\/]node_modules[\\/]' -and
+        $relativePath -notmatch '^[\\/]\.git[\\/]' -and
+        $relativePath -notmatch '^[\\/]dist[\\/]' -and
+        $relativePath -notmatch '^[\\/]\.vscode[\\/]' -and
+        $relativePath -notmatch '^[\\/]\.idea[\\/]' -and
+        $relativePath -notmatch '^[\\/]\.github[\\/]' -and
+        $relativePath -notmatch '^[\\/]Invoke-MarkdownLinkCheck.ps1[\\/]'
     } | Select-Object -ExpandProperty FullName
 }
 else {
     $Paths = $Paths | ForEach-Object { Resolve-ScanPath -Path $_ }
-}
-
-# Filter out node_modules and this script itself
-$scriptFile = $MyInvocation.MyCommand.Path
-$Paths = $Paths | Where-Object {
-    $_ -notmatch '\\node_modules\\' -and $_ -ne $scriptFile
 }
 
 if (-not $Paths) {
@@ -104,8 +105,14 @@ foreach ($file in $Paths) {
     $arguments += $file
 
     Write-Host "🔗 Checking $file" -ForegroundColor Cyan
+
+    # Suppress Node.js deprecation warnings
+    $env:NODE_NO_WARNINGS = '1'
     & npx @arguments
-    if ($LASTEXITCODE -ne 0) {
+    $exitCode = $LASTEXITCODE
+    Remove-Item Env:\NODE_NO_WARNINGS -ErrorAction SilentlyContinue
+
+    if ($exitCode -ne 0) {
         throw "markdown-link-check reported failures for '$file'."
     }
 }
