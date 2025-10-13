@@ -2,8 +2,6 @@ name: Metrics - Repository Stats
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "53 4 1 * *" # Runs monthly at 4:53 AM (UTC)
   push:
     branches: [repo-stats]
   pull_request:

@@ -1,8 +1,6 @@
 name: Scheduled repo analysis with git-sizer
 
 on:
-  schedule:
-    - cron: "44 2 * * 0" # Runs on Sundays at 2:44 AM UTC; https://crontab.guru/#44_2_*_*_0
   push:
   pull_request:
   workflow_dispatch:

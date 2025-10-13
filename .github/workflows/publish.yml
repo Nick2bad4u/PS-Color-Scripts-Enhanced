@@ -198,17 +198,6 @@ jobs:
               }
           }
 
-      - name: Create GitHub Release
-        if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
-        uses: ncipollo/release-action@2c591bcc8ecdcd2db72b97d6147f871fcd833ba5 # v1.14.0
-        with:
-          tag: v${{ steps.manifest.outputs.version }}
-          name: Release v${{ steps.manifest.outputs.version }}
-          draft: false
-          prerelease: false
-          generateReleaseNotes: true
-          skipIfReleaseExists: true
-
       - name: Package module
         id: package
         run: |
@@ -252,6 +241,85 @@ jobs:
       - name: Normalize NuGet metadata
         run: pwsh -NoProfile -File ./scripts/Update-NuGetPackageMetadata.ps1 -PackagePath '${{ steps.package.outputs.packagePath }}'
         shell: pwsh
+
+      - name: Install git-cliff
+        if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
+        run: |
+          Write-Host "Installing git-cliff..."
+          $downloadUrl = "https://github.com/orhun/git-cliff/releases/latest/download/git-cliff-x86_64-pc-windows-msvc.zip"
+          $zipPath = Join-Path $env:RUNNER_TEMP "git-cliff.zip"
+          $extractPath = Join-Path $env:RUNNER_TEMP "git-cliff"
+
+          Invoke-WebRequest -Uri $downloadUrl -OutFile $zipPath
+          Expand-Archive -Path $zipPath -DestinationPath $extractPath -Force
+
+          $exePath = Join-Path $extractPath "git-cliff.exe"
+          if (-not (Test-Path $exePath)) {
+              throw "git-cliff.exe not found after extraction"
+          }
+
+          # Add to PATH for this session
+          $env:PATH = "$extractPath;$env:PATH"
+          "PATH=$env:PATH" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+          Write-Host "git-cliff installed successfully"
+          & $exePath --version
+        shell: pwsh
+
+      - name: Generate release notes
+        if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
+        id: release-notes
+        run: |
+          $version = '${{ steps.manifest.outputs.version }}'
+          Write-Host "Generating release notes for version $version"
+
+          # Check if the tag exists yet
+          $tagExists = git tag -l "v$version"
+
+          if ($tagExists) {
+              # Tag exists, generate notes for latest tag
+              Write-Host "Tag v$version exists, generating notes for latest release"
+              $notes = & pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Latest
+          } else {
+              # Tag doesn't exist yet, generate unreleased notes
+              Write-Host "Tag v$version doesn't exist yet, generating unreleased notes"
+              $notes = & pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Unreleased
+          }
+
+          if ([string]::IsNullOrWhiteSpace($notes)) {
+              Write-Warning "No release notes generated, using fallback"
+              $notes = @"
+          ## Release v$version
+
+          See [CHANGELOG.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CHANGELOG.md) for full details.
+          "@
+          }
+
+          # Write to file for GitHub Actions
+          $notesFile = Join-Path $env:RUNNER_TEMP "release-notes.md"
+          Set-Content -Path $notesFile -Value $notes -Encoding UTF8
+
+          Write-Host "Release notes preview:"
+          Write-Host "------------------------"
+          Write-Host $notes
+          Write-Host "------------------------"
+
+          "notesFile=$notesFile" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+        shell: pwsh
+
+      - name: Create GitHub Release
+        if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
+        uses: ncipollo/release-action@2c591bcc8ecdcd2db72b97d6147f871fcd833ba5 # v1.14.0
+        with:
+          tag: v${{ steps.manifest.outputs.version }}
+          name: Release v${{ steps.manifest.outputs.version }}
+          bodyFile: ${{ steps.release-notes.outputs.notesFile }}
+          artifacts: ${{ steps.package.outputs.packagePath }}
+          draft: false
+          prerelease: false
+          allowUpdates: true
+          updateOnlyUnreleased: false
+          skipIfReleaseExists: false
 
       - name: Publish to PowerShell Gallery
         run: |
