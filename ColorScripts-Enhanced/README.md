@@ -726,7 +726,7 @@ For support options, response targets, and contact channels, review the [Support
 
 - [DistroTube's shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts)
 
-- [Scott McKendry's ps-color-scripts](https://github.com/ScottMCK/ps-color-scripts)
+- [Scott McKendry's ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts)
 
 - [16colo.rs](https://16colo.rs/)
 
