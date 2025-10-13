@@ -19,6 +19,7 @@
 .EXAMPLE
     pwsh -NoProfile -File ./scripts/Invoke-MarkdownLinkCheck.ps1 -Paths docs/README.md
 #>
+
 [CmdletBinding()]
 param(
     [Parameter()]
@@ -76,6 +77,12 @@ if (-not $Paths) {
 }
 else {
     $Paths = $Paths | ForEach-Object { Resolve-ScanPath -Path $_ }
+}
+
+# Filter out node_modules and this script itself
+$scriptFile = $MyInvocation.MyCommand.Path
+$Paths = $Paths | Where-Object {
+    $_ -notmatch '\\node_modules\\' -and $_ -ne $scriptFile
 }
 
 if (-not $Paths) {

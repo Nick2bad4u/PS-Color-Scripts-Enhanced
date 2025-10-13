@@ -253,13 +253,20 @@ jobs:
           Invoke-WebRequest -Uri $downloadUrl -OutFile $zipPath
           Expand-Archive -Path $zipPath -DestinationPath $extractPath -Force
 
-          $exePath = Join-Path $extractPath "git-cliff.exe"
-          if (-not (Test-Path $exePath)) {
+          # The exe might be in the root or in a subdirectory
+          $exePath = Get-ChildItem -Path $extractPath -Filter "git-cliff.exe" -Recurse | Select-Object -First 1 -ExpandProperty FullName
+
+          if (-not $exePath -or -not (Test-Path $exePath)) {
+              Write-Host "Directory structure:"
+              Get-ChildItem -Path $extractPath -Recurse | ForEach-Object { Write-Host $_.FullName }
               throw "git-cliff.exe not found after extraction"
           }
 
+          $binPath = Split-Path $exePath -Parent
+          Write-Host "Found git-cliff.exe at: $exePath"
+
           # Add to PATH for this session
-          $env:PATH = "$extractPath;$env:PATH"
+          $env:PATH = "$binPath;$env:PATH"
           "PATH=$env:PATH" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
           Write-Host "git-cliff installed successfully"
