@@ -31,7 +31,7 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 
 ## Features
 
-✨ **<!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Beautiful Colorscripts** - Extensive collection of ANSI art
+✨  **<!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Beautiful Colorscripts** - Extensive collection of ANSI art
 
 ⚡ **Intelligent Caching** - 6-19x performance improvement (5-20ms load times)
 
@@ -51,7 +51,7 @@ ColorScripts-Enhanced Demo: <https://i.imgur.com/FCjqkxn.mp4>
 
 **Open in new tab since video is too large for github**
 
-![image](https://github.com/user-attachments/assets/1d05d7b0-e648-47dc-a53f-d6d3f539f562) ![image](https://github.com/user-attachments/assets/4c0dbf5e-f697-4ae6-8e2b-57e5052cb4c2) ![image](https://github.com/user-attachments/assets/95953355-1ad3-4d71-a56e-9e36a67671bd)
+![ColorScripts-Example-1](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-1.png) ![ColorScripts-Example-2](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-2.png) ![ColorScripts-Example-3](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-3.png)
 
 **+ <!-- COLOR_SCRIPT_COUNT_MINUS_IMAGES -->242<!-- /COLOR_SCRIPT_COUNT_MINUS_IMAGES --> more colorscripts available!**
 
@@ -70,11 +70,11 @@ Show-ColorScript
 
 We test every change across Windows, macOS, and Linux. See the full matrix in [docs/POWERSHELL-VERSIONS.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/POWERSHELL-VERSIONS.md).
 
-| Platform | PowerShell 5.1                   | PowerShell 7.x                                 |
-| -------- | -------------------------------- | ---------------------------------------------- |
-| Windows  | ✅ Unit tests, module validation | ✅ Unit tests, ScriptAnalyzer, help validation |
-| macOS    | ❌ Not available                 | ✅ Unit tests, ScriptAnalyzer                  |
-| Linux    | ❌ Not available                 | ✅ Unit tests, ScriptAnalyzer                  |
+Platform | PowerShell 5.1                  | PowerShell 7.x
+-------- | ------------------------------- | ---------------------------------------------
+Windows  | ✅ Unit tests, module validation | ✅ Unit tests, ScriptAnalyzer, help validation
+macOS    | ❌ Not available                 | ✅ Unit tests, ScriptAnalyzer
+Linux    | ❌ Not available                 | ✅ Unit tests, ScriptAnalyzer
 
 > We intentionally run ScriptAnalyzer only on PowerShell 7.x because the 5.1 engine applies different rules that conflict with modern cross-platform patterns.
 
@@ -141,13 +141,13 @@ $modulePath = "$env:USERPROFILE\Documents\PowerShell\Modules\ColorScripts-Enhanc
 Copy-Item -Path ".\ColorScripts-Enhanced" -Destination $modulePath -Recurse -Force
 ```
 
-2. Import the module:
+1. Import the module:
 
 ```powershell
 Import-Module ColorScripts-Enhanced
 ```
 
-3. (Optional) Add to your PowerShell profile for automatic loading:
+1. (Optional) Add to your PowerShell profile for automatic loading:
 
 ```powershell
 Add-Content -Path $PROFILE.CurrentUserAllHosts -Value "Import-Module ColorScripts-Enhanced"
@@ -330,19 +330,19 @@ Show-ColorScript -Name "bars" -NoCache
 
 ## Commands
 
-| Command                          | Alias | Description                                                                        |
-| -------------------------------- | ----- | ---------------------------------------------------------------------------------- |
-| `Show-ColorScript`               | `scs` | Display a colorscript                                                              |
-| `Get-ColorScriptList`            | -     | List all available colorscripts                                                    |
-| `Build-ColorScriptCache`         | -     | Pre-generate cache files                                                           |
-| `Clear-ColorScriptCache`         | -     | Remove cache files                                                                 |
-| `Add-ColorScriptProfile`         | -     | Append module startup snippet to your profile                                      |
-| `Get-ColorScriptConfiguration`   | -     | Inspect persisted defaults (cache path, startup behaviour)                         |
-| `Set-ColorScriptConfiguration`   | -     | Update configuration values and immediately persist them                           |
-| `Reset-ColorScriptConfiguration` | -     | Restore configuration to factory defaults                                          |
-| `Export-ColorScriptMetadata`     | -     | Export metadata and cache info as JSON for external tooling                        |
-| `New-ColorScript`                | -     | Scaffold a new colorscript skeleton with metadata guidance                         |
-| `Install.ps1`                    | -     | Optional local installer with `-AddToProfile`, `-SkipStartupScript`, `-BuildCache` |
+Command                          | Alias | Description
+-------------------------------- | ----- | ----------------------------------------------------------------------------------
+`Show-ColorScript`               | `scs` | Display a colorscript
+`Get-ColorScriptList`            | -     | List all available colorscripts
+`Build-ColorScriptCache`         | -     | Pre-generate cache files
+`Clear-ColorScriptCache`         | -     | Remove cache files
+`Add-ColorScriptProfile`         | -     | Append module startup snippet to your profile
+`Get-ColorScriptConfiguration`   | -     | Inspect persisted defaults (cache path, startup behaviour)
+`Set-ColorScriptConfiguration`   | -     | Update configuration values and immediately persist them
+`Reset-ColorScriptConfiguration` | -     | Restore configuration to factory defaults
+`Export-ColorScriptMetadata`     | -     | Export metadata and cache info as JSON for external tooling
+`New-ColorScript`                | -     | Scaffold a new colorscript skeleton with metadata guidance
+`Install.ps1`                    | -     | Optional local installer with `-AddToProfile`, `-SkipStartupScript`, `-BuildCache`
 
 ### Getting Help
 
@@ -396,24 +396,24 @@ Get-Help about_ColorScripts-Enhanced
 
 > **Note:** The following npm scripts are for development and repository maintenance only. End-users do not need Node.js or npm to use the PowerShell module.
 
-| Command                                             | Description                                                                  |
-| --------------------------------------------------- | ---------------------------------------------------------------------------- |
-| `npm run build`                                     | Build the module manifest and refresh documentation counts.                  |
-| `npm run lint`                                      | Run ScriptAnalyzer against the module.                                       |
-| `npm run lint:strict`                               | Run lint with tests included and warnings treated as errors.                 |
-| `npm run lint:fix`                                  | Apply ScriptAnalyzer fixes where possible, then rerun lint.                  |
-| `npm test`                                          | Execute the smoke-test harness (`Test-Module.ps1`).                          |
-| `npm run test:pester`                               | Run the full Pester suite in `./Tests`.                                      |
-| `npm run docs:update-counts`                        | Synchronize script-count markers across all docs.                            |
-| `npm run package:metadata -- --PackagePath <nupkg>` | Inject README/license/icon metadata into a generated package before pushing. |
-| `npm run scripts:convert -- <ansi-file>`            | Convert an ANSI file into a colorscript (Node-based converter).              |
-| `npm run scripts:split -- <file> [options]`         | Split a tall ANSI or PowerShell script into multiple chunks.                 |
-| `npm run scripts:test-all`                          | Execute every colorscript via `Test-AllColorScripts.ps1`.                    |
-| `npm run release:notes`                             | Generate unreleased notes (stripped header) for gallery publishing.          |
-| `npm run release:notes:latest`                      | Generate the most recent tagged release notes.                               |
-| `npm run release:verify`                            | Validate CHANGELOG.md against the module manifest and git-cliff.             |
-| `npm run markdown:check`                            | Run `markdown-link-check` across all repository docs.                        |
-| `npm run verify`                                    | Run strict linting, markdown checks, and both smoke + Pester tests.          |
+Command                                             | Description
+--------------------------------------------------- | ----------------------------------------------------------------------------
+`npm run build`                                     | Build the module manifest and refresh documentation counts.
+`npm run lint`                                      | Run ScriptAnalyzer against the module.
+`npm run lint:strict`                               | Run lint with tests included and warnings treated as errors.
+`npm run lint:fix`                                  | Apply ScriptAnalyzer fixes where possible, then rerun lint.
+`npm test`                                          | Execute the smoke-test harness (`Test-Module.ps1`).
+`npm run test:pester`                               | Run the full Pester suite in `./Tests`.
+`npm run docs:update-counts`                        | Synchronize script-count markers across all docs.
+`npm run package:metadata -- --PackagePath <nupkg>` | Inject README/license/icon metadata into a generated package before pushing.
+`npm run scripts:convert -- <ansi-file>`            | Convert an ANSI file into a colorscript (Node-based converter).
+`npm run scripts:split -- <file> [options]`         | Split a tall ANSI or PowerShell script into multiple chunks.
+`npm run scripts:test-all`                          | Execute every colorscript via `Test-AllColorScripts.ps1`.
+`npm run release:notes`                             | Generate unreleased notes (stripped header) for gallery publishing.
+`npm run release:notes:latest`                      | Generate the most recent tagged release notes.
+`npm run release:verify`                            | Validate CHANGELOG.md against the module manifest and git-cliff.
+`npm run markdown:check`                            | Run `markdown-link-check` across all repository docs.
+`npm run verify`                                    | Run strict linting, markdown checks, and both smoke + Pester tests.
 
 ## Release Process
 
@@ -447,11 +447,11 @@ Please review [CONTRIBUTING.md](https://github.com/Nick2bad4u/ps-color-scripts-e
 
 ### Example Performance Gains
 
-| Script          | Without Cache | With Cache | Speedup |
-| --------------- | ------------- | ---------- | ------- |
-| bars            | 31ms          | 5ms        | **6x**  |
-| gradient-bars   | 65ms          | 8ms        | **8x**  |
-| mandelbrot-zoom | 365ms         | 19ms       | **19x** |
+Script          | Without Cache | With Cache | Speedup
+--------------- | ------------- | ---------- | -------
+bars            | 31ms          | 5ms        | **6x**
+gradient-bars   | 65ms          | 8ms        | **8x**
+mandelbrot-zoom | 365ms         | 19ms       | **19x**
 
 ## Cache System
 
@@ -639,11 +639,13 @@ Show-ColorScript -Name nerd-font-test
 
 - **PowerShell:** 5.1 or higher (PowerShell 7+ recommended)
 - **Operating System:**
+
   - Windows 10/11
   - macOS 10.13+
   - Linux (Ubuntu, Debian, Fedora, etc.)
 
 - **Terminal:** ANSI-capable terminal
+
   - Windows: Windows Terminal, VS Code Terminal, ConEmu
   - macOS: Terminal.app, iTerm2, VS Code Terminal
   - Linux: GNOME Terminal, Konsole, xterm, VS Code Terminal
@@ -718,7 +720,7 @@ See [CHANGELOG.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/
 
 For support options, response targets, and contact channels, review the [Support Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/SUPPORT.md). Bug reports and feature ideas live in the [issue tracker](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues).
 
----
+--------------------------------------------------------------------------------
 
 **Enjoy the colors and scripts!** 🌈✨
 
@@ -735,3 +737,4 @@ For support options, response targets, and contact channels, review the [Support
 - [r/ANSIart](https://www.reddit.com/r/ANSIart/)
 
 - [Sixteen Colors Facebook](https://www.facebook.com/sixteencolors/)
+

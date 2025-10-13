@@ -33,6 +33,8 @@
     "release:notes": "pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Unreleased -OutputPath ./dist/PowerShellGalleryReleaseNotes.md -StripHeader",
     "release:notes:latest": "pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Latest -OutputPath ./dist/LatestReleaseNotes.md",
     "release:verify": "pwsh -NoProfile -File ./scripts/Validate-Changelog.ps1",
+    "readme:check": "pwsh -NoProfile -File ./scripts/Test-ReadmeSize.ps1",
+    "readme:check:strict": "pwsh -NoProfile -File ./scripts/Test-ReadmeSize.ps1 -Strict",
     "markdown:check": "pwsh -NoProfile -File ./scripts/Invoke-MarkdownLinkCheck.ps1",
     "verify": "npm run lint:strict && npm run test && npm run test:pester"
   },

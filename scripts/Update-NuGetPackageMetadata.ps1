@@ -4,14 +4,17 @@
 
 .DESCRIPTION
     Ensures the generated .nupkg contains embedded README, license, and icon assets while updating the
-    .nuspec metadata to use the modern <readme>, <license>, and <icon> elements. Removes deprecated
-    <licenseUrl> and <iconUrl> entries to avoid gallery warnings.
+    .nuspec metadata to use the modern <readme>, <license>, and <icon> elements. For PowerShell Gallery,
+    uses a condensed README to stay within the 8KB limit. For NuGet.org, uses the full README.
 
 .PARAMETER PackagePath
     Path to the .nupkg produced by Publish-Module.
 
 .PARAMETER RepositoryRoot
     Optionally override the repository root that contains README.md, LICENSE, and docs/colorscripts-icon.png.
+
+.PARAMETER Gallery
+    Target gallery: 'PSGallery' (uses README-Gallery.md) or 'NuGet' (uses README.md). Default is 'PSGallery'.
 
 .NOTES
     Requires PowerShell 5.1+ with System.IO.Compression.FileSystem available.
@@ -24,7 +27,11 @@ param(
 
     [Parameter()]
     [ValidateNotNullOrEmpty()]
-    [string]$RepositoryRoot = (Split-Path -Parent (Split-Path -Parent $PSCommandPath))
+    [string]$RepositoryRoot = (Split-Path -Parent (Split-Path -Parent $PSCommandPath)),
+
+    [Parameter()]
+    [ValidateSet('PSGallery', 'NuGet')]
+    [string]$Gallery = 'PSGallery'
 )
 
 Set-StrictMode -Version Latest
@@ -37,7 +44,16 @@ if (-not (Test-Path -LiteralPath $PackagePath)) {
 $packageFull = (Resolve-Path -LiteralPath $PackagePath).ProviderPath
 $repoRootFull = (Resolve-Path -LiteralPath $RepositoryRoot).ProviderPath
 
-$readmeSource = Join-Path $repoRootFull 'README.md'
+# Choose README based on target gallery
+if ($Gallery -eq 'PSGallery') {
+    $readmeSource = Join-Path $repoRootFull 'ColorScripts-Enhanced\README-Gallery.md'
+    Write-Verbose "Using condensed README for PowerShell Gallery: $readmeSource"
+}
+else {
+    $readmeSource = Join-Path $repoRootFull 'README.md'
+    Write-Verbose "Using full README for NuGet.org: $readmeSource"
+}
+
 $licenseSource = Join-Path $repoRootFull 'LICENSE'
 $iconSource = Join-Path $repoRootFull 'docs\colorscripts-icon.png'
 
