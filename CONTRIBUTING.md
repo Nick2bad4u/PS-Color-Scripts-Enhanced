@@ -223,12 +223,21 @@ ps-color-scripts-enhanced/
 │       ├── hearts.ps1
 │       ├── mandelbrot-zoom.ps1
 │       └── ...                        # Render logic only; caching handled by module
-├── build.ps1                          # Build script
+├── scripts/                           # Build and utility scripts
+│   ├── build.ps1                      # Build script
+│   ├── Test-Module.ps1                # Test harness
+│   ├── Lint-Module.ps1                # Linting script
+│   └── ...                            # Other utility scripts
+├── docs/                              # Documentation
+│   ├── examples/                      # Example code and conversions
+│   └── oversized-colorscripts/        # Large colorscripts
+├── assets/                            # Static assets
+│   └── ansi-files/                    # Source ANSI art files
 ├── README.md                          # Main documentation
 ├── RELEASENOTES.md                    # Version history
 ├── CONTRIBUTING.md                    # This file
 ├── LICENSE                            # MIT License
-└── .gitignore                        # Git ignore rules
+└── .gitignore                         # Git ignore rules
 ```
 
 ## Pull Request Process

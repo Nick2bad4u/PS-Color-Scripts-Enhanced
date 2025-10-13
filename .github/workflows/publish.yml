@@ -76,8 +76,8 @@ jobs:
           Write-Host "Starting build process..." -ForegroundColor Cyan
 
           # Verify build script exists
-          if (-not (Test-Path ".\build.ps1")) {
-              throw "Build script not found: .\build.ps1"
+          if (-not (Test-Path ".\scripts\build.ps1")) {
+              throw "Build script not found: .\scripts\build.ps1"
           }
 
           # Verify module directory exists
@@ -88,7 +88,7 @@ jobs:
           # Run build script with error handling
           try {
               Write-Host "Executing build script..." -ForegroundColor Yellow
-              & .\build.ps1
+              & .\scripts\build.ps1
 
               if ($LASTEXITCODE -and $LASTEXITCODE -ne 0) {
                   throw "Build script failed with exit code: $LASTEXITCODE"

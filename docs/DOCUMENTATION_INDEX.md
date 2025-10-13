@@ -92,11 +92,11 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 
 ## Example Files
 
-| Location                                                  | Description                                              |
-| --------------------------------------------------------- | -------------------------------------------------------- |
-| [examples/ansi-conversion/](../examples/ansi-conversion/) | ANSI art conversion examples and samples                 |
-| [ansi-files/](../ansi-files/)                             | Source ANSI art files for conversion                     |
-| [oversized-colorscripts/](./oversized-colorscripts)       | Large colorscripts that don't fit in main Scripts folder |
+| Location                                                        | Description                                              |
+| --------------------------------------------------------------- | -------------------------------------------------------- |
+| [docs/examples/ansi-conversion/](./examples/ansi-conversion/)   | ANSI art conversion examples and samples                 |
+| [assets/ansi-files/](../assets/ansi-files/)                     | Source ANSI art files for conversion                     |
+| [docs/oversized-colorscripts/](./oversized-colorscripts)        | Large colorscripts that don't fit in main Scripts folder |
 
 ## Special Setup Guides
 

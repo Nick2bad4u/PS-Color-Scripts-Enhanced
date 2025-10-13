@@ -7,7 +7,7 @@
     "doc": "docs",
     "test": "tests",
     "ColorScripts-Enhanced": "ColorScripts-Enhanced",
-    "oversized-colorscripts": "oversized-colorscripts",
+    "oversized-colorscripts": "docs/oversized-colorscripts",
     "ansi-files": "assets/ansi-files",
     "types": "types",
     ".github": ".github"
