@@ -84,16 +84,45 @@ $scriptRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repoRoot = Resolve-Path -LiteralPath (Join-Path -Path $scriptRoot -ChildPath '..')
 $cliffConfig = Join-Path -Path $repoRoot -ChildPath 'cliff.toml'
 
-$gitCliff = Get-Command git-cliff -ErrorAction SilentlyContinue
-if (-not $gitCliff) {
-    throw "git-cliff CLI is required. Install via 'cargo install git-cliff' or download from https://github.com/orhun/git-cliff/releases."
+# Try to find git-cliff executable
+$gitCliffExe = $null
+$gitCliffCmd = Get-Command git-cliff -ErrorAction SilentlyContinue
+
+if ($gitCliffCmd) {
+    if ($gitCliffCmd.Source -match '\.exe$') {
+        # Direct executable
+        $gitCliffExe = $gitCliffCmd.Source
+    }
+    elseif ($gitCliffCmd.Source -match '\.ps1$' -or $gitCliffCmd.Source -match '\.cmd$') {
+        # npm wrapper - look for actual exe
+        $npmBinPath = Split-Path $gitCliffCmd.Source -Parent
+        $possibleExe = Join-Path $npmBinPath 'git-cliff.exe'
+
+        if (Test-Path $possibleExe) {
+            $gitCliffExe = $possibleExe
+        }
+        else {
+            # Try node_modules path
+            $nodeModulesPath = Join-Path (Split-Path $npmBinPath -Parent) 'git-cliff-windows-x64\bin\git-cliff.exe'
+            if (Test-Path $nodeModulesPath) {
+                $gitCliffExe = $nodeModulesPath
+            }
+        }
+    }
+}
+
+if (-not $gitCliffExe -or -not (Test-Path $gitCliffExe)) {
+    throw "git-cliff CLI is required. Install via 'npm install -g git-cliff', 'cargo install git-cliff', or download from https://github.com/orhun/git-cliff/releases."
 }
 
 if (-not (Test-Path -LiteralPath $cliffConfig)) {
     throw "Unable to locate cliff configuration at '$cliffConfig'."
 }
 
-$arguments = @('--config', $cliffConfig)
+$arguments = @()
+$arguments += '--config'
+$arguments += $cliffConfig
+
 if ($Unreleased) {
     $arguments += '--unreleased'
 }
@@ -106,16 +135,41 @@ if ($StripHeader) {
     $arguments += 'header'
 }
 
-Write-Verbose ("Running git-cliff {0}" -f ($arguments -join ' '))
-$notesOutput = & $gitCliff.Source $arguments
-$exitCode = $LASTEXITCODE
-if ($exitCode -ne 0) {
-    $combined = ($notesOutput | Out-String)
-    throw "git-cliff exited with code $exitCode.`n$combined"
+Write-Verbose ("Running git-cliff with arguments: {0}" -f ($arguments -join ' '))
+
+# Use Start-Process with proper argument handling for paths with spaces
+try {
+    $processInfo = New-Object System.Diagnostics.ProcessStartInfo
+    $processInfo.FileName = $gitCliffExe
+    $processInfo.RedirectStandardOutput = $true
+    $processInfo.RedirectStandardError = $true
+    $processInfo.UseShellExecute = $false
+    $processInfo.CreateNoWindow = $true
+
+    # Add arguments one by one to avoid quoting issues
+    foreach ($arg in $arguments) {
+        $processInfo.ArgumentList.Add($arg)
+    }
+
+    $process = New-Object System.Diagnostics.Process
+    $process.StartInfo = $processInfo
+    $process.Start() | Out-Null
+
+    $notesOutput = $process.StandardOutput.ReadToEnd()
+    $errorOutput = $process.StandardError.ReadToEnd()
+    $process.WaitForExit()
+    $exitCode = $process.ExitCode
+
+    if ($exitCode -ne 0) {
+        $combined = $notesOutput + "`n" + $errorOutput
+        throw "git-cliff exited with code $exitCode.`n$combined"
+    }
+}
+catch {
+    throw "Failed to execute git-cliff: $_"
 }
 
-$notes = ($notesOutput | Where-Object { $_ -ne $null }) -join [Environment]::NewLine
-$notes = $notes.TrimEnd()
+$notes = $notesOutput.Trim()
 
 if (-not $notes) {
     throw 'git-cliff returned no release notes.'

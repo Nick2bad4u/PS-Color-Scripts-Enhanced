@@ -246,7 +246,7 @@ jobs:
         if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
         run: |
           Write-Host "Installing git-cliff..."
-          $downloadUrl = "https://github.com/orhun/git-cliff/releases/latest/download/git-cliff-x86_64-pc-windows-msvc.zip"
+          $downloadUrl = "https://github.com/orhun/git-cliff/releases/download/v2.10.1/git-cliff-2.10.1-x86_64-pc-windows-msvc.zip"
           $zipPath = Join-Path $env:RUNNER_TEMP "git-cliff.zip"
           $extractPath = Join-Path $env:RUNNER_TEMP "git-cliff"
 

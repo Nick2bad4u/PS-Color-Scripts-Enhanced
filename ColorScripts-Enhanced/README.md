@@ -12,11 +12,13 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 - [Demo](#demo)
 - [Quick Start](#quick-start-less-than-a-minute)
 - [PowerShell Support](#powershell-support)
+- [Install a Nerd Font](#install-a-nerd-font-for-custom-glyphs)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Performance](#performance)
 - [ANSI Utility Scripts](#ansi-utility-scripts)
 - [Available Colorscripts](#available-colorscripts)
+- [Commands](#commands)
 - [Testing](#testing)
 - [Linting](#linting)
 - [npm Scripts](#npm-scripts)
@@ -341,6 +343,27 @@ Show-ColorScript -Name "bars" -NoCache
 | `Export-ColorScriptMetadata`     | -     | Export metadata and cache info as JSON for external tooling                        |
 | `New-ColorScript`                | -     | Scaffold a new colorscript skeleton with metadata guidance                         |
 | `Install.ps1`                    | -     | Optional local installer with `-AddToProfile`, `-SkipStartupScript`, `-BuildCache` |
+
+### Getting Help
+
+PowerShell uses the `Get-Help` cmdlet for command documentation. Traditional CLI flags like `--help` or `-h` will not work.
+
+```powershell
+# Get basic help
+Get-Help Show-ColorScript
+
+# Get detailed help with examples
+Get-Help Show-ColorScript -Full
+
+# Get only examples
+Get-Help Show-ColorScript -Examples
+
+# Get help for a specific parameter
+Get-Help Show-ColorScript -Parameter Name
+
+# Module help
+Get-Help about_ColorScripts-Enhanced
+```
 
 ## Documentation
 
@@ -712,4 +735,3 @@ For support options, response targets, and contact channels, review the [Support
 - [r/ANSIart](https://www.reddit.com/r/ANSIart/)
 
 - [Sixteen Colors Facebook](https://www.facebook.com/sixteencolors/)
-

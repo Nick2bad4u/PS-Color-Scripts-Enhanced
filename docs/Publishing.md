@@ -15,6 +15,34 @@ This document describes how to publish the **ColorScripts-Enhanced** PowerShell 
 - When publishing a public build, ensure the manifest `ModuleVersion` matches the release tag.
 - Update the version automatically using `build.ps1 -Version <value>` or via `Update-ModuleManifest`.
 
+## Automated Publishing (GitHub Actions)
+
+The `.github/workflows/publish.yml` workflow automates the entire publish process:
+
+1. **Build & Test** - Runs ScriptAnalyzer and Pester tests
+2. **Package** - Creates the `.nupkg` file
+3. **Normalize Metadata** - Embeds README, LICENSE, and icon; sets licenseUrl
+4. **Generate Release Notes** - Uses git-cliff to create changelog from commits
+5. **Create GitHub Release** - Publishes release with:
+   - git-cliff generated changelog in release body
+   - `.nupkg` file attached as release asset
+   - Automatic version tagging
+6. **Publish to Galleries** - Pushes to PowerShell Gallery, NuGet.org, and GitHub Packages
+
+The workflow can be triggered:
+- Manually via `workflow_dispatch` with customizable options
+- Automatically when tests pass on the main branch
+
+### Manual Trigger Options
+
+When manually triggering the publish workflow, you can control:
+- `publishToNuGet` - Publish to NuGet.org (default: true)
+- `publishToGitHub` - Publish to GitHub Packages (default: true)
+- `versionOverride` - Override the manifest version
+- `createRelease` - Create a GitHub release (default: true)
+
+The workflow installs git-cliff automatically and generates release notes for the current version, which are then displayed in the GitHub release.
+
 ## PowerShell Gallery / NuGet.org
 
 The PowerShell Gallery is built on top of NuGet feeds. Publishing to the Gallery or to NuGet.org uses the same API key.
