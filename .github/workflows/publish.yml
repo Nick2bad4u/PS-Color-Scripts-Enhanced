@@ -245,27 +245,12 @@ jobs:
       - name: Install git-cliff
         if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
         run: |
-          Write-Host "Installing git-cliff (discovering latest release asset)..."
-
-          $api = "https://api.github.com/repos/orhun/git-cliff/releases/latest"
-          $headers = @{ 'User-Agent' = 'GitHub Actions' }
-          if ($env:GITHUB_TOKEN) { $headers['Authorization'] = "token $env:GITHUB_TOKEN" }
-
-          # Query the latest release and pick the asset matching the platform pattern.
-          $release = Invoke-RestMethod -Uri $api -Headers $headers
-          $asset = $release.assets | Where-Object { $_.name -match 'x86_64-pc-windows-msvc\.zip$' } | Select-Object -First 1
-
-          if (-not $asset) {
-              throw "No matching git-cliff asset found in latest release. Checked pattern: 'x86_64-pc-windows-msvc.zip'"
-          }
-
-          $downloadUrl = $asset.browser_download_url
+          Write-Host "Installing git-cliff..."
+          $downloadUrl = "https://github.com/orhun/git-cliff/releases/download/v2.10.1/git-cliff-2.10.1-x86_64-pc-windows-msvc.zip"
           $zipPath = Join-Path $env:RUNNER_TEMP "git-cliff.zip"
           $extractPath = Join-Path $env:RUNNER_TEMP "git-cliff"
 
-          Write-Host "Downloading $($asset.name) from $downloadUrl"
-          Invoke-WebRequest -Uri $downloadUrl -OutFile $zipPath -Headers $headers -UseBasicParsing
-
+          Invoke-WebRequest -Uri $downloadUrl -OutFile $zipPath
           Expand-Archive -Path $zipPath -DestinationPath $extractPath -Force
 
           $exePath = Join-Path $extractPath "git-cliff.exe"
@@ -273,7 +258,7 @@ jobs:
               throw "git-cliff.exe not found after extraction"
           }
 
-          # Add to PATH for this session and persist for later steps
+          # Add to PATH for this session
           $env:PATH = "$extractPath;$env:PATH"
           "PATH=$env:PATH" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
