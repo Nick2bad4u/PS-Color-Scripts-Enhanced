@@ -13,95 +13,95 @@ Complete guide to all documentation files in this repository.
 
 ### Installation & Setup
 
-| Document | Description |
-|----------|-------------|
-| [README.md](../README.md) | Main project documentation with installation, usage, and examples |
-| [ColorScripts-Enhanced/README.md](../ColorScripts-Enhanced/README.md) | Module-specific documentation (identical to main README) |
-| [QUICK_REFERENCE.md](QUICK_REFERENCE.md) | Command reference and common usage patterns |
+| Document                                                              | Description                                                       |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| [README.md](../README.md)                                             | Main project documentation with installation, usage, and examples |
+| [ColorScripts-Enhanced/README.md](../ColorScripts-Enhanced/README.md) | Module-specific documentation (identical to main README)          |
+| [QUICK_REFERENCE.md](QUICK_REFERENCE.md)                              | Command reference and common usage patterns                       |
 
 ### Command Help
 
 All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 
-| Command | Help File |
-|---------|-----------|
-| `Show-ColorScript` | [Show-ColorScript.md](../ColorScripts-Enhanced/en-US/Show-ColorScript.md) |
-| `Get-ColorScriptList` | [Get-ColorScriptList.md](../ColorScripts-Enhanced/en-US/Get-ColorScriptList.md) |
-| `Build-ColorScriptCache` | [Build-ColorScriptCache.md](../ColorScripts-Enhanced/en-US/Build-ColorScriptCache.md) |
-| `Clear-ColorScriptCache` | [Clear-ColorScriptCache.md](../ColorScripts-Enhanced/en-US/Clear-ColorScriptCache.md) |
-| `Add-ColorScriptProfile` | [Add-ColorScriptProfile.md](../ColorScripts-Enhanced/en-US/Add-ColorScriptProfile.md) |
-| `Get-ColorScriptConfiguration` | [Get-ColorScriptConfiguration.md](../ColorScripts-Enhanced/en-US/Get-ColorScriptConfiguration.md) |
-| `Set-ColorScriptConfiguration` | [Set-ColorScriptConfiguration.md](../ColorScripts-Enhanced/en-US/Set-ColorScriptConfiguration.md) |
+| Command                          | Help File                                                                                             |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `Show-ColorScript`               | [Show-ColorScript.md](../ColorScripts-Enhanced/en-US/Show-ColorScript.md)                             |
+| `Get-ColorScriptList`            | [Get-ColorScriptList.md](../ColorScripts-Enhanced/en-US/Get-ColorScriptList.md)                       |
+| `Build-ColorScriptCache`         | [Build-ColorScriptCache.md](../ColorScripts-Enhanced/en-US/Build-ColorScriptCache.md)                 |
+| `Clear-ColorScriptCache`         | [Clear-ColorScriptCache.md](../ColorScripts-Enhanced/en-US/Clear-ColorScriptCache.md)                 |
+| `Add-ColorScriptProfile`         | [Add-ColorScriptProfile.md](../ColorScripts-Enhanced/en-US/Add-ColorScriptProfile.md)                 |
+| `Get-ColorScriptConfiguration`   | [Get-ColorScriptConfiguration.md](../ColorScripts-Enhanced/en-US/Get-ColorScriptConfiguration.md)     |
+| `Set-ColorScriptConfiguration`   | [Set-ColorScriptConfiguration.md](../ColorScripts-Enhanced/en-US/Set-ColorScriptConfiguration.md)     |
 | `Reset-ColorScriptConfiguration` | [Reset-ColorScriptConfiguration.md](../ColorScripts-Enhanced/en-US/Reset-ColorScriptConfiguration.md) |
-| `Export-ColorScriptMetadata` | [Export-ColorScriptMetadata.md](../ColorScripts-Enhanced/en-US/Export-ColorScriptMetadata.md) |
-| `New-ColorScript` | [New-ColorScript.md](../ColorScripts-Enhanced/en-US/New-ColorScript.md) |
+| `Export-ColorScriptMetadata`     | [Export-ColorScriptMetadata.md](../ColorScripts-Enhanced/en-US/Export-ColorScriptMetadata.md)         |
+| `New-ColorScript`                | [New-ColorScript.md](../ColorScripts-Enhanced/en-US/New-ColorScript.md)                               |
 
 **Module Help**: [about_ColorScripts-Enhanced.help.txt](../ColorScripts-Enhanced/en-US/about_ColorScripts-Enhanced.help.txt)
 
 ### Technical Guides
 
-| Document | Description |
-|----------|-------------|
-| [ANSI-COLOR-GUIDE.md](ANSI-COLOR-GUIDE.md) | ANSI escape codes reference and color palette guide |
+| Document                                             | Description                                          |
+| ---------------------------------------------------- | ---------------------------------------------------- |
+| [ANSI-COLOR-GUIDE.md](ANSI-COLOR-GUIDE.md)           | ANSI escape codes reference and color palette guide  |
 | [ANSI-CONVERSION-GUIDE.md](ANSI-CONVERSION-GUIDE.md) | Converting ANSI art files to PowerShell colorscripts |
-| [POWERSHELL-VERSIONS.md](POWERSHELL-VERSIONS.md) | PowerShell version compatibility matrix |
+| [POWERSHELL-VERSIONS.md](POWERSHELL-VERSIONS.md)     | PowerShell version compatibility matrix              |
 
 ## Developer Documentation
 
 ### Development Workflow
 
-| Document | Description |
-|----------|-------------|
-| [Development.md](Development.md) | Local development setup, tooling, and workflows |
-| [MODULE_SUMMARY.md](MODULE_SUMMARY.md) | Complete module implementation overview |
-| [CONTRIBUTING.md](../CONTRIBUTING.md) | How to contribute code, scripts, and documentation |
+| Document                               | Description                                        |
+| -------------------------------------- | -------------------------------------------------- |
+| [Development.md](Development.md)       | Local development setup, tooling, and workflows    |
+| [MODULE_SUMMARY.md](MODULE_SUMMARY.md) | Complete module implementation overview            |
+| [CONTRIBUTING.md](../CONTRIBUTING.md)  | How to contribute code, scripts, and documentation |
 
 ### Release & Publishing
 
-| Document | Description |
-|----------|-------------|
-| [Publishing.md](Publishing.md) | Publishing to PowerShell Gallery, NuGet.org, and GitHub Packages |
-| [ReleaseChecklist.md](ReleaseChecklist.md) | Step-by-step release checklist with git-cliff integration |
-| [CHANGELOG.md](../CHANGELOG.md) | Complete project changelog |
+| Document                                   | Description                                                      |
+| ------------------------------------------ | ---------------------------------------------------------------- |
+| [Publishing.md](Publishing.md)             | Publishing to PowerShell Gallery, NuGet.org, and GitHub Packages |
+| [ReleaseChecklist.md](ReleaseChecklist.md) | Step-by-step release checklist with git-cliff integration        |
+| [CHANGELOG.md](../CHANGELOG.md)            | Complete project changelog                                       |
 
 ### Project Management
 
-| Document | Description |
-|----------|-------------|
-| [ROADMAP.md](ROADMAP.md) | Project roadmap and planned features |
-| [SUPPORT.md](SUPPORT.md) | Support channels and response time expectations |
-| [CONTRIBUTORS.md](CONTRIBUTORS.md) | List of project contributors |
-| [todo.md](../todo.md) | Development tasks and action items |
+| Document                           | Description                                     |
+| ---------------------------------- | ----------------------------------------------- |
+| [ROADMAP.md](ROADMAP.md)           | Project roadmap and planned features            |
+| [SUPPORT.md](SUPPORT.md)           | Support channels and response time expectations |
+| [CONTRIBUTORS.md](CONTRIBUTORS.md) | List of project contributors                    |
+| [todo.md](../todo.md)              | Development tasks and action items              |
 
 ## Repository Policies
 
-| Document | Description |
-|----------|-------------|
-| [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md) | Community code of conduct |
-| [SECURITY.md](../SECURITY.md) | Security policy and vulnerability reporting |
-| [LICENSE](../LICENSE) | MIT License terms |
+| Document                                    | Description                                 |
+| ------------------------------------------- | ------------------------------------------- |
+| [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md) | Community code of conduct                   |
+| [SECURITY.md](../SECURITY.md)               | Security policy and vulnerability reporting |
+| [LICENSE](../LICENSE)                       | MIT License terms                           |
 
 ## Configuration Files
 
-| File | Purpose |
-|------|---------|
-| [cliff.toml](../cliff.toml) | git-cliff configuration for changelog generation |
-| [PSScriptAnalyzerSettings.psd1](../PSScriptAnalyzerSettings.psd1) | ScriptAnalyzer rules and settings |
-| [package.json](../package.json) | npm scripts and Node.js dependencies |
-| [.github/workflows/](../.github/workflows/) | GitHub Actions CI/CD workflows |
+| File                                                              | Purpose                                          |
+| ----------------------------------------------------------------- | ------------------------------------------------ |
+| [cliff.toml](../cliff.toml)                                       | git-cliff configuration for changelog generation |
+| [PSScriptAnalyzerSettings.psd1](../PSScriptAnalyzerSettings.psd1) | ScriptAnalyzer rules and settings                |
+| [package.json](../package.json)                                   | npm scripts and Node.js dependencies             |
+| [.github/workflows/](../.github/workflows/)                       | GitHub Actions CI/CD workflows                   |
 
 ## Example Files
 
-| Location | Description |
-|----------|-------------|
-| [examples/ansi-conversion/](../examples/ansi-conversion/) | ANSI art conversion examples and samples |
-| [ansi-files/](../ansi-files/) | Source ANSI art files for conversion |
-| [oversized-colorscripts/](../oversized-colorscripts/) | Large colorscripts that don't fit in main Scripts folder |
+| Location                                                  | Description                                              |
+| --------------------------------------------------------- | -------------------------------------------------------- |
+| [examples/ansi-conversion/](../examples/ansi-conversion/) | ANSI art conversion examples and samples                 |
+| [ansi-files/](../ansi-files/)                             | Source ANSI art files for conversion                     |
+| [oversized-colorscripts/](../oversized-colorscripts/)     | Large colorscripts that don't fit in main Scripts folder |
 
 ## Special Setup Guides
 
-| Document | Description |
-|----------|-------------|
+| Document                                   | Description                              |
+| ------------------------------------------ | ---------------------------------------- |
 | [MEGALINTER-SETUP.md](MEGALINTER-SETUP.md) | MegaLinter configuration and usage guide |
 
 ## Need Help?

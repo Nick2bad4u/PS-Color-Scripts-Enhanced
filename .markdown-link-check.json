@@ -1,5 +1,4 @@
 {
-
   "ignorePatterns": [
     {
       "pattern": "^https://i\\.imgur\\.com/"
@@ -59,27 +58,19 @@
   "timeout": "20s",
   "retryOn429": true,
   "retryCount": 3,
-    "aliveStatusCodes": [
-      200,
-      206,
-      301,
-      302,
-      303,
-      307,
-      308
-    ],
-    "fallbackRetryDelay": "30s",
-    "httpHeaders": [
-      {
-        "headers": {
-          "Accept-Encoding": "zstd, br, gzip, deflate",
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        },
-        "urls": [
-          "https://github.com",
-          "https://api.github.com",
-          "https://raw.githubusercontent.com"
-        ]
-      }
-    ]
+  "aliveStatusCodes": [200, 206, 301, 302, 303, 307, 308],
+  "fallbackRetryDelay": "30s",
+  "httpHeaders": [
+    {
+      "headers": {
+        "Accept-Encoding": "zstd, br, gzip, deflate",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "urls": [
+        "https://github.com",
+        "https://api.github.com",
+        "https://raw.githubusercontent.com"
+      ]
+    }
+  ]
 }

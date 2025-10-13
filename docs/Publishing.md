@@ -30,12 +30,14 @@ The `.github/workflows/publish.yml` workflow automates the entire publish proces
 6. **Publish to Galleries** - Pushes to PowerShell Gallery, NuGet.org, and GitHub Packages
 
 The workflow can be triggered:
+
 - Manually via `workflow_dispatch` with customizable options
 - Automatically when tests pass on the main branch
 
 ### Manual Trigger Options
 
 When manually triggering the publish workflow, you can control:
+
 - `publishToNuGet` - Publish to NuGet.org (default: true)
 - `publishToGitHub` - Publish to GitHub Packages (default: true)
 - `versionOverride` - Override the manifest version
@@ -154,6 +156,6 @@ Publish-Module -Path ./ColorScripts-Enhanced -Repository MyCompanyFeed
 
 ## Additional Resources
 
-- PowerShell Gallery Publishing Docs: <https://learn.microsoft.com/powershell/gallery/how-to/publishing-packages>
-- PSResourceGet Guide: <https://learn.microsoft.com/powershell/gallery/psresourceget/overview>
-- GitHub Packages with PowerShell: <https://learn.microsoft.com/powershell/gallery/how-to/working-with-packages#github-packages>
+- PowerShell Gallery Publishing Docs: <https://learn.microsoft.com/en-us/powershell/gallery/how-to/publishing-packages/publishing-a-package?view=powershellget-3.x>
+- PSResourceGet Guide: <https://learn.microsoft.com/en-us/powershell/gallery/overview?view=powershellget-3.x>
+- GitHub Packages with PowerShell: <https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-nuget-registry>
