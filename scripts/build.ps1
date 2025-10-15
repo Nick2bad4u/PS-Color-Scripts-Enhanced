@@ -110,6 +110,30 @@ if (-not $SkipReadme) {
     else {
         Write-Warning "Gallery README not found at: $galleryReadmePath"
     }
+
+    # Copy help documentation files
+    $helpDocsPath = "./docs"
+    if (Test-Path $helpDocsPath) {
+        $helpDestPath = Join-Path $modulePath "docs"
+        try {
+            if (-not (Test-Path $helpDestPath)) {
+                New-Item -Path $helpDestPath -ItemType Directory -Force | Out-Null
+            }
+
+            # Copy all markdown help files
+            Get-ChildItem -Path $helpDocsPath -Filter "*.md" | ForEach-Object {
+                Copy-Item -Path $_.FullName -Destination $helpDestPath -Force
+                Write-Verbose "Copied help file: $($_.Name)"
+            }
+            Write-Verbose "Help documentation files copied successfully"
+        }
+        catch {
+            Write-Warning "Failed to copy help documentation: $_"
+        }
+    }
+    else {
+        Write-Verbose "Help docs directory not found at: $helpDocsPath"
+    }
 }
 
 # Remove existing manifest
@@ -176,6 +200,7 @@ Full documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
         "ColorScripts-Enhanced.psm1",
         "ColorScripts-Enhanced.psd1",
         "README.md",
+        "README-Gallery.md",
         "ScriptMetadata.psd1",
         "Install.ps1"
     )
@@ -333,6 +358,7 @@ $functionsBlock
         'ColorScripts-Enhanced.psm1'
         'ColorScripts-Enhanced.psd1'
         'README.md'
+        'README-Gallery.md'
         'ScriptMetadata.psd1'
         'Install.ps1'
     )

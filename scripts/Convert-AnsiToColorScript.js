@@ -1009,7 +1009,11 @@ function parseArguments(argv) {
       if (!Number.isNaN(value) && value > 0) {
         options.columns = value;
       }
-    } else if (arg.startsWith("--max-height=") || arg.startsWith("--height=") || arg.startsWith("--Height=")) {
+    } else if (
+      arg.startsWith("--max-height=") ||
+      arg.startsWith("--height=") ||
+      arg.startsWith("--Height=")
+    ) {
       const value = parseInt(arg.split("=")[1], 10);
       if (!Number.isNaN(value) && value > 0) {
         options.maxHeight = value;

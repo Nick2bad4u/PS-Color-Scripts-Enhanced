@@ -195,7 +195,15 @@ function Get-ColorScriptConfiguration {
     .EXTERNALHELP ColorScripts-Enhanced-help.xml
     #>
     [CmdletBinding()]
-    param()
+    param(
+        [Alias('Help')]
+        [switch]$h
+    )
+
+    if ($h) {
+        Get-Help Get-ColorScriptConfiguration -Full
+        return
+    }
 
     $data = Copy-ColorScriptHashtable (Get-ConfigurationDataInternal)
     return $data
@@ -207,12 +215,20 @@ function Set-ColorScriptConfiguration {
     #>
     [CmdletBinding()]
     param(
+        [Alias('Help')]
+        [switch]$h,
+
         [Nullable[bool]]$AutoShowOnImport,
         [Nullable[bool]]$ProfileAutoShow,
         [string]$CachePath,
         [string]$DefaultScript,
         [switch]$PassThru
     )
+
+    if ($h) {
+        Get-Help Set-ColorScriptConfiguration -Full
+        return
+    }
 
     $data = Get-ConfigurationDataInternal
 
@@ -267,8 +283,16 @@ function Reset-ColorScriptConfiguration {
     #>
     [CmdletBinding(SupportsShouldProcess = $true)]
     param(
+        [Alias('Help')]
+        [switch]$h,
+
         [switch]$PassThru
     )
+
+    if ($h) {
+        Get-Help Reset-ColorScriptConfiguration -Full
+        return
+    }
 
     $configRoot = Get-ColorScriptsConfigurationRoot
     $configPath = Join-Path -Path $configRoot -ChildPath 'config.json'
@@ -1491,6 +1515,10 @@ function Show-ColorScript {
     [CmdletBinding(DefaultParameterSetName = 'Random')]
     [Alias('scs')]
     param(
+        [Parameter(ParameterSetName = 'Help')]
+        [Alias('Help')]
+        [switch]$h,
+
         [Parameter(ParameterSetName = 'Named', Position = 0)]
         [SupportsWildcards()]
         [string]$Name,
@@ -1518,6 +1546,12 @@ function Show-ColorScript {
         [Alias('AsString')]
         [switch]$ReturnText
     )
+
+    # Handle help request
+    if ($h) {
+        Get-Help Show-ColorScript -Full
+        return
+    }
 
     # Handle list request
     if ($List) {
@@ -1651,6 +1685,9 @@ function Get-ColorScriptList {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Structured list is emitted for pipeline consumption.')]
     [CmdletBinding()]
     param(
+        [Alias('Help')]
+        [switch]$h,
+
         [switch]$AsObject,
         [switch]$Detailed,
         [SupportsWildcards()]
@@ -1658,6 +1695,11 @@ function Get-ColorScriptList {
         [string[]]$Category,
         [string[]]$Tag
     )
+
+    if ($h) {
+        Get-Help Get-ColorScriptList -Full
+        return
+    }
 
     $records = Get-ColorScriptEntry -Category $Category -Tag $Tag | Sort-Object Name
 
@@ -1709,6 +1751,9 @@ function Export-ColorScriptMetadata {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseSingularNouns', '', Justification = 'Metadata is a collective noun representing the exported dataset.')]
     [CmdletBinding()]
     param(
+        [Alias('Help')]
+        [switch]$h,
+
         [Parameter()]
         [string]$Path,
 
@@ -1721,6 +1766,11 @@ function Export-ColorScriptMetadata {
         [Parameter()]
         [switch]$PassThru
     )
+
+    if ($h) {
+        Get-Help Export-ColorScriptMetadata -Full
+        return
+    }
 
     $records = Get-ColorScriptEntry | Sort-Object Name
     Initialize-CacheDirectory
@@ -1822,6 +1872,9 @@ function Build-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache operation.')]
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
     param(
+        [Alias('Help')]
+        [switch]$h,
+
         [Parameter(ValueFromPipeline, ValueFromPipelineByPropertyName)]
         [SupportsWildcards()]
         [string[]]$Name,
@@ -1843,6 +1896,11 @@ function Build-ColorScriptCache {
     )
 
     begin {
+        if ($h) {
+            Get-Help Build-ColorScriptCache -Full
+            return
+        }
+
         $collectedNames = New-Object 'System.Collections.Generic.List[string]'
     }
 
@@ -2049,6 +2107,9 @@ function Clear-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache entry.')]
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
     param(
+        [Alias('Help')]
+        [switch]$h,
+
         [Parameter(ValueFromPipeline, ValueFromPipelineByPropertyName)]
         [SupportsWildcards()]
         [string[]]$Name,
@@ -2070,6 +2131,11 @@ function Clear-ColorScriptCache {
     )
 
     begin {
+        if ($h) {
+            Get-Help Clear-ColorScriptCache -Full
+            return
+        }
+
         $collectedNames = New-Object 'System.Collections.Generic.List[string]'
     }
 
@@ -2327,6 +2393,9 @@ function New-ColorScript {
     #>
     [CmdletBinding(SupportsShouldProcess = $true)]
     param(
+        [Alias('Help')]
+        [switch]$h,
+
         [Parameter(Mandatory)]
         [ValidatePattern('^[a-zA-Z0-9][a-zA-Z0-9_-]*$')]
         [string]$Name,
@@ -2346,6 +2415,11 @@ function New-ColorScript {
         [Parameter()]
         [switch]$GenerateMetadataSnippet
     )
+
+    if ($h) {
+        Get-Help New-ColorScript -Full
+        return
+    }
 
     $targetDirectory = $script:ScriptsPath
     if ($PSBoundParameters.ContainsKey('OutputPath')) {
@@ -2411,11 +2485,11 @@ foreach ($line in $ansiLines) {
     }
 
     $result = [pscustomobject]@{
-        Name                 = $Name
-        Path                 = $targetPath
-        CategorySuggestion   = if ($Category) { $Category } else { $null }
-        TagSuggestion        = if ($Tag) { [string[]]$Tag } else { @() }
-        MetadataGuidance     = $metadataSnippet
+        Name               = $Name
+        Path               = $targetPath
+        CategorySuggestion = if ($Category) { $Category } else { $null }
+        TagSuggestion      = if ($Tag) { [string[]]$Tag } else { @() }
+        MetadataGuidance   = $metadataSnippet
     }
 
     if ($metadataSnippet) {
@@ -2431,6 +2505,9 @@ function Add-ColorScriptProfile {
     #>
     [CmdletBinding(SupportsShouldProcess = $true)]
     param(
+        [Alias('Help')]
+        [switch]$h,
+
         [Parameter()]
         [ValidateSet('CurrentUserAllHosts', 'CurrentUserCurrentHost', 'AllUsersAllHosts', 'AllUsersCurrentHost')]
         [string]$Scope = 'CurrentUserAllHosts',
@@ -2444,6 +2521,11 @@ function Add-ColorScriptProfile {
         [Parameter()]
         [switch]$Force
     )
+
+    if ($h) {
+        Get-Help Add-ColorScriptProfile -Full
+        return
+    }
 
     if ($null -ne $PSSenderInfo) {
         Write-Warning "Profile updates are not supported in remote sessions."
