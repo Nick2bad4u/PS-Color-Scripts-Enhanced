@@ -8,28 +8,28 @@
 
 @{
     # Script module or binary module file associated with this manifest.
-    RootModule            = 'ColorScripts-Enhanced.psm1'
+    RootModule = 'ColorScripts-Enhanced.psm1'
 
     # Version number of this module.
-    ModuleVersion         = '2025.10.15.0137'
+    ModuleVersion = '2025.10.15.0349'
 
     # Supported PSEditions
-    CompatiblePSEditions  = @('Desktop', 'Core')
+    CompatiblePSEditions = @('Desktop', 'Core')
 
     # ID used to uniquely identify this module
-    GUID                  = 'f77548d7-23eb-48ce-a6e0-f64b4758d995'
+    GUID = 'f77548d7-23eb-48ce-a6e0-f64b4758d995'
 
     # Author of this module
-    Author                = 'Nick2bad4u'
+    Author = 'Nick2bad4u'
 
     # Company or vendor of this module
-    CompanyName           = 'Community'
+    CompanyName = 'Community'
 
     # Copyright statement for this module
-    Copyright             = '(c) 2025. All rights reserved.'
+    Copyright = '(c) 2025. All rights reserved.'
 
     # Description of the functionality provided by this module
-    Description           = @'
+    Description = @'
 Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times.
 
 Features:
@@ -48,7 +48,7 @@ Full documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
 '@
 
     # Minimum version of the PowerShell engine required by this module
-    PowerShellVersion     = '5.1'
+    PowerShellVersion = '5.1'
 
     # Name of the PowerShell host required by this module
     # PowerShellHostName = ''
@@ -84,7 +84,7 @@ Full documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
     # NestedModules = @()
 
     # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-    FunctionsToExport     = @(
+    FunctionsToExport = @(
         'Show-ColorScript'
         'Get-ColorScriptList'
         'Build-ColorScriptCache'
@@ -98,13 +98,13 @@ Full documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
     )
 
     # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
-    CmdletsToExport       = @()
+    CmdletsToExport = @()
 
     # Variables to export from this module
-    VariablesToExport     = @()
+    VariablesToExport = @()
 
     # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-    AliasesToExport       = @('scs')
+    AliasesToExport = @('scs')
 
     # DSC resources to export from this module
     # DscResourcesToExport = @()
@@ -113,7 +113,7 @@ Full documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
     # ModuleList = @()
 
     # List of all files packaged with this module
-    FileList              = @(
+    FileList = @(
         'ColorScripts-Enhanced.psm1'
         'ColorScripts-Enhanced.psd1'
         'README.md'
@@ -123,10 +123,10 @@ Full documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
     )
 
     # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
-    PrivateData           = @{
+    PrivateData = @{
         PSData = @{
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags                     = @(
+            Tags = @(
                 'ColorScripts'
                 'ANSI'
                 'Terminal'
@@ -159,20 +159,20 @@ Full documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
             )
 
             # A URL to the license for this module.
-            LicenseUri               = 'https://licenses.nuget.org/MIT'
+            LicenseUri = 'https://licenses.nuget.org/MIT'
 
             # License expression or path to license file
-            License                  = 'MIT'
+            License = 'MIT'
 
             # A URL to the main website for this project.
-            ProjectUri               = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced'
+            ProjectUri = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced'
 
             # A URL to an icon representing this module.
-            IconUri                  = 'https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/docs/colorscripts-icon.png'
+            IconUri = 'https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/docs/colorscripts-icon.png'
 
             # ReleaseNotes of this module
-            ReleaseNotes             = @'
-Version 2025.10.15.0137:
+            ReleaseNotes = @'
+Version 2025.10.15.0349:
 - Enhanced caching system with OS-wide cache in AppData
 - 6-19x performance improvement
 - Cache stored in centralized location
@@ -196,7 +196,7 @@ Version 2025.10.15.0137:
     }
 
     # HelpInfo URI of this module
-    HelpInfoURI           = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/README.md'
+    HelpInfoURI = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/README.md'
 
     # Default prefix for commands exported from this module. Override the default prefix using Import-Module -Prefix.
     # DefaultCommandPrefix = ''

@@ -1,4 +1,4 @@
-﻿#Requires -Version 5.1
+#Requires -Version 5.1
 
 # ColorScripts-Enhanced Module
 # High-performance colorscripts with intelligent caching
@@ -91,6 +91,51 @@ function Merge-ColorScriptConfiguration {
     }
 
     return $result
+}
+
+function Show-ColorScriptHelp {
+    <#
+    .SYNOPSIS
+    Displays colorized help output for a command.
+    #>
+    [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingWriteHost', '', Justification = 'Write-Host is intentionally used for colored help output to the console.')]
+    param(
+        [Parameter(Mandatory)]
+        [string]$CommandName
+    )
+
+    # Get the help content
+    $helpContent = Get-Help $CommandName -Full | Out-String
+
+    # Split into lines for colorization
+    $lines = $helpContent -split "`n"
+
+    foreach ($line in $lines) {
+        if ($line -match '^NAME$|^SYNOPSIS$|^SYNTAX$|^DESCRIPTION$|^PARAMETERS$|^EXAMPLES$|^INPUTS$|^OUTPUTS$|^NOTES$|^RELATED LINKS$') {
+            # Section headers in cyan
+            Write-Host $line -ForegroundColor Cyan
+        }
+        elseif ($line -match '^\s+-\w+') {
+            # Parameter names in yellow
+            Write-Host $line -ForegroundColor Yellow
+        }
+        elseif ($line -match '^\s+--') {
+            # Example commands in green
+            Write-Host $line -ForegroundColor Green
+        }
+        elseif ($line -match 'EXAMPLE \d+') {
+            # Example headers in magenta
+            Write-Host $line -ForegroundColor Magenta
+        }
+        elseif ($line -match '^\s+Required\?|^\s+Position\?|^\s+Default value|^\s+Accept pipeline input\?|^\s+Accept wildcard characters\?') {
+            # Parameter metadata in dark gray
+            Write-Host $line -ForegroundColor DarkGray
+        }
+        else {
+            # Regular text
+            Write-Host $line
+        }
+    }
 }
 
 function Get-ColorScriptsConfigurationRoot {
@@ -196,12 +241,12 @@ function Get-ColorScriptConfiguration {
     #>
     [CmdletBinding()]
     param(
-        [Alias('Help')]
+        [Alias('help')]
         [switch]$h
     )
 
     if ($h) {
-        Get-Help Get-ColorScriptConfiguration -Full
+        Show-ColorScriptHelp -CommandName 'Get-ColorScriptConfiguration'
         return
     }
 
@@ -213,9 +258,9 @@ function Set-ColorScriptConfiguration {
     <#
     .EXTERNALHELP ColorScripts-Enhanced-help.xml
     #>
-    [CmdletBinding()]
+    [CmdletBinding(SupportsShouldProcess = $true)]
     param(
-        [Alias('Help')]
+        [Alias('help')]
         [switch]$h,
 
         [Nullable[bool]]$AutoShowOnImport,
@@ -226,7 +271,7 @@ function Set-ColorScriptConfiguration {
     )
 
     if ($h) {
-        Get-Help Set-ColorScriptConfiguration -Full
+        Show-ColorScriptHelp -CommandName 'Set-ColorScriptConfiguration'
         return
     }
 
@@ -270,7 +315,12 @@ function Set-ColorScriptConfiguration {
         }
     }
 
-    Save-ColorScriptConfiguration -Configuration $data
+    $configRoot = Get-ColorScriptsConfigurationRoot
+    $configPath = Join-Path -Path $configRoot -ChildPath 'config.json'
+
+    if ($PSCmdlet.ShouldProcess($configPath, 'Update ColorScripts-Enhanced configuration')) {
+        Save-ColorScriptConfiguration -Configuration $data
+    }
 
     if ($PassThru) {
         return Get-ColorScriptConfiguration
@@ -283,14 +333,14 @@ function Reset-ColorScriptConfiguration {
     #>
     [CmdletBinding(SupportsShouldProcess = $true)]
     param(
-        [Alias('Help')]
+        [Alias('help')]
         [switch]$h,
 
         [switch]$PassThru
     )
 
     if ($h) {
-        Get-Help Reset-ColorScriptConfiguration -Full
+        Show-ColorScriptHelp -CommandName 'Reset-ColorScriptConfiguration'
         return
     }
 
@@ -1516,7 +1566,7 @@ function Show-ColorScript {
     [Alias('scs')]
     param(
         [Parameter(ParameterSetName = 'Help')]
-        [Alias('Help')]
+        [Alias('help')]
         [switch]$h,
 
         [Parameter(ParameterSetName = 'Named', Position = 0)]
@@ -1549,7 +1599,7 @@ function Show-ColorScript {
 
     # Handle help request
     if ($h) {
-        Get-Help Show-ColorScript -Full
+        Show-ColorScriptHelp -CommandName 'Show-ColorScript'
         return
     }
 
@@ -1685,7 +1735,7 @@ function Get-ColorScriptList {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Structured list is emitted for pipeline consumption.')]
     [CmdletBinding()]
     param(
-        [Alias('Help')]
+        [Alias('help')]
         [switch]$h,
 
         [switch]$AsObject,
@@ -1697,7 +1747,7 @@ function Get-ColorScriptList {
     )
 
     if ($h) {
-        Get-Help Get-ColorScriptList -Full
+        Show-ColorScriptHelp -CommandName 'Get-ColorScriptList'
         return
     }
 
@@ -1751,7 +1801,7 @@ function Export-ColorScriptMetadata {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseSingularNouns', '', Justification = 'Metadata is a collective noun representing the exported dataset.')]
     [CmdletBinding()]
     param(
-        [Alias('Help')]
+        [Alias('help')]
         [switch]$h,
 
         [Parameter()]
@@ -1768,7 +1818,7 @@ function Export-ColorScriptMetadata {
     )
 
     if ($h) {
-        Get-Help Export-ColorScriptMetadata -Full
+        Show-ColorScriptHelp -CommandName 'Export-ColorScriptMetadata'
         return
     }
 
@@ -1872,7 +1922,8 @@ function Build-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache operation.')]
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
     param(
-        [Alias('Help')]
+        [Parameter(ParameterSetName = 'Help')]
+        [Alias('help')]
         [switch]$h,
 
         [Parameter(ValueFromPipeline, ValueFromPipelineByPropertyName)]
@@ -1896,8 +1947,10 @@ function Build-ColorScriptCache {
     )
 
     begin {
+        $helpRequested = $false
         if ($h) {
-            Get-Help Build-ColorScriptCache -Full
+            Show-ColorScriptHelp -CommandName 'Build-ColorScriptCache'
+            $helpRequested = $true
             return
         }
 
@@ -1905,6 +1958,8 @@ function Build-ColorScriptCache {
     }
 
     process {
+        if ($helpRequested) { return }
+
         if ($Name) {
             foreach ($value in $Name) {
                 if (-not [string]::IsNullOrWhiteSpace($value)) {
@@ -1915,6 +1970,7 @@ function Build-ColorScriptCache {
     }
 
     end {
+        if ($helpRequested) { return }
         $records = @()
         $selectedNames = $collectedNames.ToArray()
         $allExplicitlyDisabled = $PSBoundParameters.ContainsKey('All') -and -not $All
@@ -2107,7 +2163,8 @@ function Clear-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache entry.')]
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
     param(
-        [Alias('Help')]
+        [Parameter(ParameterSetName = 'Help')]
+        [Alias('help')]
         [switch]$h,
 
         [Parameter(ValueFromPipeline, ValueFromPipelineByPropertyName)]
@@ -2131,8 +2188,10 @@ function Clear-ColorScriptCache {
     )
 
     begin {
+        $helpRequested = $false
         if ($h) {
-            Get-Help Clear-ColorScriptCache -Full
+            Show-ColorScriptHelp -CommandName 'Clear-ColorScriptCache'
+            $helpRequested = $true
             return
         }
 
@@ -2140,6 +2199,8 @@ function Clear-ColorScriptCache {
     }
 
     process {
+        if ($helpRequested) { return }
+
         if ($Name) {
             foreach ($value in $Name) {
                 if (-not [string]::IsNullOrWhiteSpace($value)) {
@@ -2150,6 +2211,7 @@ function Clear-ColorScriptCache {
     }
 
     end {
+        if ($helpRequested) { return }
         $filtersSpecified = ($Category -and $Category.Count -gt 0) -or ($Tag -and $Tag.Count -gt 0)
 
         $nameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
@@ -2393,7 +2455,7 @@ function New-ColorScript {
     #>
     [CmdletBinding(SupportsShouldProcess = $true)]
     param(
-        [Alias('Help')]
+        [Alias('help')]
         [switch]$h,
 
         [Parameter(Mandatory)]
@@ -2417,7 +2479,7 @@ function New-ColorScript {
     )
 
     if ($h) {
-        Get-Help New-ColorScript -Full
+        Show-ColorScriptHelp -CommandName 'New-ColorScript'
         return
     }
 
@@ -2505,7 +2567,7 @@ function Add-ColorScriptProfile {
     #>
     [CmdletBinding(SupportsShouldProcess = $true)]
     param(
-        [Alias('Help')]
+        [Alias('help')]
         [switch]$h,
 
         [Parameter()]
@@ -2523,7 +2585,7 @@ function Add-ColorScriptProfile {
     )
 
     if ($h) {
-        Get-Help Add-ColorScriptProfile -Full
+        Show-ColorScriptHelp -CommandName 'Add-ColorScriptProfile'
         return
     }
 

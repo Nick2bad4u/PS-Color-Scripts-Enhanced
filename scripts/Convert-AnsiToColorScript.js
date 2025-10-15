@@ -874,11 +874,11 @@ class TerminalEmulator {
     this.applyEsc(collected, flag);
   }
 
-  inst_H() { }
+  inst_H() {}
 
-  inst_P() { }
+  inst_P() {}
 
-  inst_U() { }
+  inst_U() {}
 
   /**
    * @param {unknown} error

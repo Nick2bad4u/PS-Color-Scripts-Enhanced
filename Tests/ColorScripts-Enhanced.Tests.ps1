@@ -525,11 +525,12 @@ Describe "ColorScripts-Enhanced Module" {
             $uncategorized | Should -BeNullOrEmpty
         }
 
-        It "Should auto categorize city-neon as Artistic" {
+        It "Should categorize city-neon as Artistic" {
             $record = Get-ColorScriptList -AsObject | Where-Object { $_.Name -eq 'city-neon' } | Select-Object -First 1
             $record | Should -Not -BeNullOrEmpty
             $record.Category | Should -Be 'Artistic'
-            $record.Tags | Should -Contain 'AutoCategorized'
+            # City-neon is explicitly categorized, so it should have Category:Artistic tag
+            $record.Tags | Should -Contain 'Category:Artistic'
         }
 
         It "Should expose TerminalThemes category" {
@@ -547,9 +548,16 @@ Describe "ColorScripts-Enhanced Module" {
             ($records | Select-Object -ExpandProperty Name) | Should -Contain 'nbody-gravity'
         }
 
-        It "Should filter by AutoCategorized tag" {
-            $records = Get-ColorScriptList -Tag 'AutoCategorized' -AsObject
-            ($records | Select-Object -ExpandProperty Name) | Should -Contain 'city-neon'
+        It "Should add category tags to all scripts" {
+            $records = Get-ColorScriptList -AsObject
+            # Every script should have at least one Category:* tag
+            foreach ($record in $records) {
+                $categoryTags = $record.Tags | Where-Object { $_ -like 'Category:*' }
+                $categoryTags | Should -Not -BeNullOrEmpty -Because "Script '$($record.Name)' should have category tags"
+            }
+            # Verify city-neon specifically has the Artistic category tag
+            $cityNeon = $records | Where-Object { $_.Name -eq 'city-neon' } | Select-Object -First 1
+            $cityNeon.Tags | Should -Contain 'Category:Artistic'
         }
     }
 
