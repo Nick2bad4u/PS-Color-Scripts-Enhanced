@@ -126,6 +126,7 @@ After these changes, the following have been tested and verified:
 ### GitHub Actions Updates
 
 The following workflow files were updated to use the new script paths:
+
 - `.github/workflows/test.yml` - Updated `Test-Module.ps1` path
 - `.github/workflows/publish.yml` - Updated `build.ps1` path
 

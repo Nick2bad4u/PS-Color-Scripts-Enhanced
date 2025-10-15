@@ -3,6 +3,7 @@
 > **Credits:** This project owes its existence to the foundational work of two incredible developers. The beautiful ANSI art scripts were originally created by Derek Taylor (DistroTube) in his project [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts). The collection was then thoughtfully ported to PowerShell by Scott McKendry as [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts). `ColorScripts-Enhanced` builds upon their efforts by introducing a high-performance caching system, PowerShell Cross-Platform support on Linux and Mac, an expanded command set, and a formal module structure, but the creative core remains their legacy. Thank you, Derek and Scott, for your contributions!
 
 <!-- Download & Version Badges -->
+
 [![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/ColorScripts-Enhanced?logo=powershell&label=PSGallery)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
 [![PowerShell Gallery Downloads](https://img.shields.io/powershellgallery/dt/ColorScripts-Enhanced?logo=powershell&label=Downloads)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
 [![NuGet Version](https://img.shields.io/nuget/v/ColorScripts-Enhanced?logo=nuget&label=NuGet)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
@@ -10,18 +11,21 @@
 [![GitHub Release](https://img.shields.io/github/v/release/Nick2bad4u/ps-color-scripts-enhanced?logo=github&label=Release)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/releases/latest)
 
 <!-- CI/CD & Quality Badges -->
+
 [![Tests](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml)
 [![Publish](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/badge)](https://scorecard.dev/viewer/?uri=github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)
 [![Dependency Review](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml)
 
 <!-- Platform & Compatibility -->
+
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue?logo=windows-terminal)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B%20%7C%207.0%2B-blue.svg?logo=powershell)](https://github.com/PowerShell/PowerShell)
 [![Code Size](https://img.shields.io/github/languages/code-size/Nick2bad4u/ps-color-scripts-enhanced?logo=github)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
 [![Repo Stars](https://img.shields.io/github/stars/Nick2bad4u/ps-color-scripts-enhanced?style=social)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/stargazers)
 
 <!-- License & Contributing -->
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -52,7 +56,7 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 
 ## Features
 
-✨ **<!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Beautiful Colorscripts** - Extensive collection of ANSI art
+✨ **<!-- COLOR_SCRIPT_COUNT_PLUS -->286+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Beautiful Colorscripts** - Extensive collection of ANSI art
 
 ⚡ **Intelligent Caching** - 6-19x performance improvement (5-20ms load times)
 
@@ -74,7 +78,7 @@ ColorScripts-Enhanced Demo: <https://i.imgur.com/FCjqkxn.mp4>
 
 ![ColorScripts-Example-1](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-1.png) ![ColorScripts-Example-2](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-2.png) ![ColorScripts-Example-3](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-3.png)
 
-**+ <!-- COLOR_SCRIPT_COUNT_MINUS_IMAGES -->242<!-- /COLOR_SCRIPT_COUNT_MINUS_IMAGES --> more colorscripts available!**
+**+ <!-- COLOR_SCRIPT_COUNT_MINUS_IMAGES -->283<!-- /COLOR_SCRIPT_COUNT_MINUS_IMAGES --> more colorscripts available!**
 
 ## Quick Start (Less Than a Minute)
 
@@ -523,7 +527,7 @@ $env:APPDATA\ColorScripts-Enhanced\cache
 - One `.cache` file per colorscript
 - Contains pre-rendered ANSI output
 - Average size: ~20KB per file
-- Total size: ~4.9MB for <!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> scripts
+- Total size: ~4.9MB for <!-- COLOR_SCRIPT_COUNT_PLUS -->286+<!-- /COLOR_SCRIPT_COUNT_PLUS --> scripts
 
 ## Examples
 
@@ -557,7 +561,7 @@ Build-ColorScriptCache
 
 ## Available Colorscripts
 
-The module includes <!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts including:
+The module includes <!-- COLOR_SCRIPT_COUNT_PLUS -->286+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts including:
 
 - **Fractals**: mandelbrot-zoom, julia-morphing, barnsley-fern, koch-snowflake
 - **Patterns**: kaleidoscope, wave-pattern, rainbow-waves, gradient-bars
@@ -681,14 +685,14 @@ ColorScripts-Enhanced/
 │   ├── bars.ps1
 │   ├── hearts.ps1
 │   ├── mandelbrot-zoom.ps1
-│   └── ... (<!-- COLOR_CACHE_TOTAL -->245+<!-- /COLOR_CACHE_TOTAL --> total)
+│   └── ... (<!-- COLOR_CACHE_TOTAL -->286+<!-- /COLOR_CACHE_TOTAL --> total)
 └── README.md                      # This file
 
 %APPDATA%/ColorScripts-Enhanced/
 └── cache/                         # Cache files
     ├── bars.cache
     ├── hearts.cache
-    └── ... (<!-- COLOR_CACHE_TOTAL -->245+<!-- /COLOR_CACHE_TOTAL --> total)
+    └── ... (<!-- COLOR_CACHE_TOTAL -->286+<!-- /COLOR_CACHE_TOTAL --> total)
 ```
 
 ## Contributing
@@ -711,7 +715,7 @@ See [CHANGELOG.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/
 
 ### Latest Release
 
-**2025.10.12** - Cross-platform support, enhanced caching, and <!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts
+**2025.10.12** - Cross-platform support, enhanced caching, and <!-- COLOR_SCRIPT_COUNT_PLUS -->286+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts
 
 ## Documentation
 
@@ -756,3 +760,4 @@ For support options, response targets, and contact channels, review the [Support
 - [r/ANSIart](https://www.reddit.com/r/ANSIart/)
 
 - [Sixteen Colors Facebook](https://www.facebook.com/sixteencolors/)
+

@@ -6,7 +6,7 @@ This document outlines local development practices for the **ColorScripts-Enhanc
 
 ```
 ColorScripts-Enhanced/    # Module root (manifest + .psm1 + scripts)
-Scripts/                  # <!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscript files
+Scripts/                  # <!-- COLOR_SCRIPT_COUNT_PLUS -->286+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscript files
 Tests/                    # Pester test suite
 Build-Help.ps1            # Optional help generator (comment-based help already available)
 build.ps1                 # Module build helper
@@ -172,3 +172,4 @@ Expect to see icons, checkmarks, and box-drawing characters. If they appear as s
 - [Release Checklist](ReleaseChecklist.md)
 - [Contributing Guidelines](../CONTRIBUTING.md)
 - [PowerShell Module Best Practices](https://learn.microsoft.com/en-us/powershell/gallery/concepts/publishing-guidelines?view=powershellget-3.x)
+

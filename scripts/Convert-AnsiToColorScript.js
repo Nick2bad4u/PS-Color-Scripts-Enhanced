@@ -53,6 +53,7 @@ const DEFAULT_COLUMNS = 80;
  * @property {number} [columns]
  * @property {boolean} [autoWrap]
  * @property {boolean} [stripSpaceBackground]
+ * @property {number} [maxHeight]
  */
 
 /**
@@ -990,14 +991,15 @@ function sanitizeName(name) {
 
 /**
  * @param {string[]} argv
- * @returns {{options: {columns: number | null, autoWrap: boolean, stripSpaceBackground: boolean}, positional: string[]}}
+ * @returns {{options: {columns: number | null, autoWrap: boolean, stripSpaceBackground: boolean, maxHeight: number | null}, positional: string[]}}
  */
 function parseArguments(argv) {
   const options =
-    /** @type {{columns: number | null, autoWrap: boolean, stripSpaceBackground: boolean}} */ ({
+    /** @type {{columns: number | null, autoWrap: boolean, stripSpaceBackground: boolean, maxHeight: number | null}} */ ({
       columns: null,
       autoWrap: true,
       stripSpaceBackground: false,
+      maxHeight: null,
     });
   /** @type {string[]} */
   const positional = [];
@@ -1006,6 +1008,11 @@ function parseArguments(argv) {
       const value = parseInt(arg.split("=")[1], 10);
       if (!Number.isNaN(value) && value > 0) {
         options.columns = value;
+      }
+    } else if (arg.startsWith("--max-height=") || arg.startsWith("--height=")) {
+      const value = parseInt(arg.split("=")[1], 10);
+      if (!Number.isNaN(value) && value > 0) {
+        options.maxHeight = value;
       }
     } else if (arg === "--no-autowrap") {
       options.autoWrap = false;
@@ -1066,6 +1073,9 @@ function main(argv = process.argv.slice(2)) {
     console.error(
       "  --strip-space-bg   Clear background color for plain space characters.",
     );
+    console.error(
+      "  --max-height=<n>   Split output into multiple files every <n> lines.",
+    );
     process.exit(1);
   }
 
@@ -1074,6 +1084,7 @@ function main(argv = process.argv.slice(2)) {
     positional[1] ||
     path.join(
       __dirname,
+      "..",
       "ColorScripts-Enhanced",
       "Scripts",
       `${sanitizeName(path.basename(ansiFile, path.extname(ansiFile)))}.ps1`,
@@ -1104,21 +1115,50 @@ function main(argv = process.argv.slice(2)) {
       content,
       terminalOptions,
     );
-    const convertedContent = lines.join("\n");
 
     const header = `# Converted from: ${path.basename(ansiFile)}\n# Conversion date: ${new Date().toISOString()}\n`;
-    const ps1Content = `${header}\nWrite-Host @"\n${convertedContent}\n"@\n`;
 
     const outputDir = path.dirname(outputFile);
     if (!fs.existsSync(outputDir)) {
       fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    fs.writeFileSync(outputFile, ps1Content, "utf8");
+    // Split output if max-height is specified
+    if (options.maxHeight && lines.length > options.maxHeight) {
+      const chunks = [];
+      for (let i = 0; i < lines.length; i += options.maxHeight) {
+        chunks.push(lines.slice(i, i + options.maxHeight));
+      }
 
-    console.log(
-      `✓ Converted: ${path.basename(ansiFile)} → ${path.basename(outputFile)}`,
-    );
+      const baseName = path.basename(outputFile, path.extname(outputFile));
+      const ext = path.extname(outputFile);
+
+      chunks.forEach((chunk, index) => {
+        const chunkFile = path.join(
+          outputDir,
+          `${baseName}-${index + 1}${ext}`,
+        );
+        const convertedContent = chunk.join("\n");
+        const ps1Content = `${header}# Part ${index + 1} of ${chunks.length}\n\nWrite-Host @"\n${convertedContent}\n"@\n`;
+        fs.writeFileSync(chunkFile, ps1Content, "utf8");
+        console.log(
+          `✓ Created part ${index + 1}/${chunks.length}: ${path.basename(chunkFile)}`,
+        );
+      });
+
+      console.log(
+        `\n✓ Split into ${chunks.length} files (max height: ${options.maxHeight} lines)`,
+      );
+    } else {
+      // Single file output
+      const convertedContent = lines.join("\n");
+      const ps1Content = `${header}\nWrite-Host @"\n${convertedContent}\n"@\n`;
+      fs.writeFileSync(outputFile, ps1Content, "utf8");
+      console.log(
+        `✓ Converted: ${path.basename(ansiFile)} → ${path.basename(outputFile)}`,
+      );
+    }
+
     console.log(`  Output: ${outputFile}`);
     if (warnings.length > 0) {
       console.warn("Warnings during conversion:");
