@@ -33,6 +33,8 @@
     "scripts:format": "pwsh -NoProfile -File ./scripts/Format-ColorScripts.ps1",
     "scripts:count": "pwsh -NoProfile -File ./scripts/Get-ColorScriptCount.ps1",
     "scripts:test-all": "pwsh -NoProfile -File ./ColorScripts-Enhanced/Test-AllColorScripts.ps1",
+    "scripts:check-dupes": "pwsh -NoProfile -Command \"Get-ChildItem -Path '.\\assets\\ansi-files' -File | ForEach-Object { $name = $_.Name; $unusedPath = '.\\assets\\unused-ansi-files\\' + $name; if (Test-Path $unusedPath) { Write-Host 'Would delete: ' + $unusedPath -ForegroundColor Yellow } }\"",
+    "scripts:remove-dupes": "pwsh -NoProfile -Command \"Get-ChildItem -Path '.\\assets\\ansi-files' -File | ForEach-Object { $name = $_.Name; $unusedPath = '.\\assets\\unused-ansi-files\\' + $name; if (Test-Path $unusedPath) { Remove-Item $unusedPath -Verbose } }\"",
     "release:notes": "pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Latest -OutputPath ./dist/PowerShellGalleryReleaseNotes.md -StripHeader",
     "release:notes:latest": "pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Latest -OutputPath ./dist/LatestReleaseNotes.md",
     "release:verify": "pwsh -NoProfile -File ./scripts/Validate-Changelog.ps1",

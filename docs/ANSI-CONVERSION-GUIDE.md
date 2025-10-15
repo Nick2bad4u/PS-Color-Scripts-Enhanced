@@ -261,3 +261,45 @@ Show-ColorScript -Name dragon
 # Add to your profile for startup
 Add-ColorScriptProfile -ScriptName dragon
 ```
+
+## Advanced Utilities
+
+### Split Super-Tall ANSI Art
+
+For ANSI files that are too tall to display comfortably, use `Split-AnsiFile.js`:
+
+```powershell
+# Preview suggested splits without writing files (looks for 4+ blank rows)
+node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --auto --dry-run
+
+# Generate three 300-line chunks as PowerShell scripts
+node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --heights=300,300,300
+
+# Emit ANSI slices instead of .ps1 wrappers
+node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --format=ansi --breaks=420,840
+
+# Split an already converted colorscript
+node scripts/Split-AnsiFile.js .\ColorScripts-Enhanced\Scripts\we-acidtrip.ps1 --input=ps1 --heights=320,320
+
+# Split every 160 lines automatically
+node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --every=160
+```
+
+**Options:**
+- `--auto` - Adds breaks where large blank gaps exist
+- `--heights` / `--breaks` - Enforce manual cut points
+- `--every=<n>` - Evenly divides the render
+- `--strip-space-bg` - (ANSI input only) Clears background colors on plain spaces
+- `--dry-run` - Preview without writing files
+
+Each output chunk is normalized with a trailing `ESC[0m` so the terminal resets cleanly after display.
+
+### Other Developer Utilities
+
+The repository includes additional helpers for developers:
+
+- **`Generate-ReleaseNotes.ps1`** - Wraps git-cliff to build PowerShell Gallery release notes
+- **`Validate-Changelog.ps1`** - Checks CHANGELOG.md matches manifest version
+- **`Invoke-MarkdownLinkCheck.ps1`** - Validates all markdown links
+
+See the [npm Scripts Reference](NPM_SCRIPTS.md) for complete details on development utilities.

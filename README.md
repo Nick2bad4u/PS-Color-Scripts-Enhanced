@@ -1,6 +1,6 @@
 # ColorScripts-Enhanced PowerShell Module
 
-> **Credits:** This project owes its existence to the foundational work of two incredible developers. The beautiful ANSI art scripts were originally created by Derek Taylor (DistroTube) in his project [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts). The collection was then thoughtfully ported to PowerShell by Scott McKendry as [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts). `ColorScripts-Enhanced` builds upon their efforts by introducing a high-performance caching system, PowerShell Cross-Platform support on Linux and Mac, an expanded command set, and a formal module structure, but the creative core remains their legacy. Thank you, Derek and Scott, for your contributions!
+> **Credits:** This project owes its existence to the foundational work of two developers. The beautiful ANSI art scripts were originally created and/or sourced by Derek Taylor (DistroTube) in his project [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts). The collection was then ported to PowerShell by Scott McKendry as [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts). `ColorScripts-Enhanced` builds upon their efforts by introducing a high-performance caching system, PowerShell Cross-Platform support on Linux and Mac, an expanded command set, and a formal module structure.
 
 <!-- Download & Version Badges -->
 
@@ -41,15 +41,9 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Performance](#performance)
-- [ANSI Utility Scripts](#ansi-utility-scripts)
 - [Available Colorscripts](#available-colorscripts)
 - [Commands](#commands)
-- [Testing](#testing)
-- [Linting](#linting)
-- [npm Scripts](#npm-scripts)
 - [Documentation](#documentation)
-- [Release Process](#release-process)
-- [Additional Package Feeds](#additional-package-feeds)
 - [Contributing](#contributing)
 - [License](#license)
 - [Support](#support)
@@ -392,71 +386,41 @@ Get-Help about_ColorScripts-Enhanced
 
 ## Documentation
 
+### User Documentation
+
 - [Quick Start & Reference](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/QUICK_REFERENCE.md)
 - [ANSI Color Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-COLOR-GUIDE.md)
 - [ANSI Conversion Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-CONVERSION-GUIDE.md)
 - [ANSI Conversion Examples](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/examples/ansi-conversion/README.md)
 - [Module Summary](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/MODULE_SUMMARY.md)
+
+### Developer Documentation
+
 - [Development Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Development.md)
+- [Testing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/TESTING.md)
+- [Linting Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/LINTING.md)
+- [npm Scripts Reference](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/NPM_SCRIPTS.md)
 - [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Publishing.md)
 - [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ReleaseChecklist.md)
+
+### Project Information
+
 - [Support Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/SUPPORT.md)
 - [Code of Conduct](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CODE_OF_CONDUCT.md)
 - [Security Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/SECURITY.md)
 - [Project Roadmap](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ROADMAP.md)
-
-## Testing
-
-- Smoke tests (includes ScriptAnalyzer): `pwsh -NoProfile -Command "& .\scripts\Test-Module.ps1"`
-- Full test suite: `Invoke-Pester -Path ./Tests`
-- Continuous integration: [`test.yml`](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/test.yml) runs on Windows PowerShell 5.1, PowerShell 7.x across Windows/Linux/macOS, includes a PowerShell 7.5 preview container smoke test, and validates markdown links.
-
-## Linting
-
-- Linting (module only): `pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1"`
-- Linting (treat warnings as errors and include tests): `pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors`
-- Lint auto-fix (apply ScriptAnalyzer fixes, then re-run lint): `pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -Fix`
-
-## npm Scripts
-
-> **Note:** The following npm scripts are for development and repository maintenance only. End-users do not need Node.js or npm to use the PowerShell module.
-
-| Command                                             | Description                                                                  |
-| --------------------------------------------------- | ---------------------------------------------------------------------------- |
-| `npm run build`                                     | Build the module manifest and refresh documentation counts.                  |
-| `npm run lint`                                      | Run ScriptAnalyzer against the module.                                       |
-| `npm run lint:strict`                               | Run lint with tests included and warnings treated as errors.                 |
-| `npm run lint:fix`                                  | Apply ScriptAnalyzer fixes where possible, then rerun lint.                  |
-| `npm test`                                          | Execute the smoke-test harness (`Test-Module.ps1`).                          |
-| `npm run test:pester`                               | Run the full Pester suite in `./Tests`.                                      |
-| `npm run docs:update-counts`                        | Synchronize script-count markers across all docs.                            |
-| `npm run package:metadata -- --PackagePath <nupkg>` | Inject README/license/icon metadata into a generated package before pushing. |
-| `npm run scripts:convert -- <ansi-file>`            | Convert an ANSI file into a colorscript (Node-based converter).              |
-| `npm run scripts:split -- <file> [options]`         | Split a tall ANSI or PowerShell script into multiple chunks.                 |
-| `npm run scripts:test-all`                          | Execute every colorscript via `Test-AllColorScripts.ps1`.                    |
-| `npm run release:notes`                             | Generate unreleased notes (stripped header) for gallery publishing.          |
-| `npm run release:notes:latest`                      | Generate the most recent tagged release notes.                               |
-| `npm run release:verify`                            | Validate CHANGELOG.md against the module manifest and git-cliff.             |
-| `npm run markdown:check`                            | Run `markdown-link-check` across all repository docs.                        |
-| `npm run verify`                                    | Run strict linting, markdown checks, and both smoke + Pester tests.          |
-
-## Release Process
-
-- Automated publishing workflow: [`publish.yml`](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/publish.yml)
-- Local helper script: `build.ps1`
-- Release notes automation: `npm run release:notes` (gallery snippet) & `npm run release:verify` (requires [git-cliff](https://github.com/orhun/git-cliff))
-- Optional help generation: `Build-Help.ps1`
-- Documentation: [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Publishing.md) & [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ReleaseChecklist.md)
-
-## Additional Package Feeds
-
-- PowerShell Gallery / NuGet.org (primary distribution)
-- GitHub Packages (optional; instructions in [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Publishing.md))
-- Azure Artifacts or other NuGet-compatible feeds for enterprise deployment
+- [Documentation Index](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/DOCUMENTATION_INDEX.md)
 
 ## Contributing
 
-Please review [CONTRIBUTING.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CONTRIBUTING.md) for development guidelines, coding standards, and how to submit pull requests.
+We welcome contributions! Please review [CONTRIBUTING.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CONTRIBUTING.md) for:
+
+- Development setup and workflow
+- Coding standards and best practices
+- How to submit pull requests
+- Testing requirements
+
+For development-specific tasks, see the [Developer Documentation](#developer-documentation) section above.
 
 ## Performance
 
@@ -571,38 +535,6 @@ The module includes <!-- COLOR_SCRIPT_COUNT_PLUS -->286+<!-- /COLOR_SCRIPT_COUNT
 - And many more!
 
 Use `Show-ColorScript -List` to see all available scripts.
-
-## ANSI Utility Scripts
-
-The repository ships several helpers for working with ANSI art, release notes, and documentation hygiene:
-
-- `Convert-AnsiToColorScript.js` converts a `.ANS` file into a PowerShell script ready to drop into `ColorScripts-Enhanced/Scripts`.
-- `scripts/Split-AnsiFile.js` slices extremely tall ANSI art into smaller chunks that can be converted individually.
-- `scripts/Generate-ReleaseNotes.ps1` wraps `git-cliff` so you can build PowerShell Gallery release notes or tag summaries in one command.
-- `scripts/Validate-Changelog.ps1` checks that `CHANGELOG.md` matches the manifest version and the latest `git-cliff` output.
-- `scripts/Invoke-MarkdownLinkCheck.ps1` runs `markdown-link-check` across every markdown file using the bundled configuration.
-- `docs/examples/ansi-conversion/` contains turnkey PowerShell scripts that demonstrate the Node and PowerShell conversion utilities end-to-end.
-
-### Split Super-Tall ANSI Art
-
-```powershell
-# Preview suggested splits without writing files (looks for 4+ blank rows)
-node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --auto --dry-run
-
-# Generate three 300-line chunks as PowerShell scripts
-node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --heights=300,300,300
-
-# Emit ANSI slices instead of .ps1 wrappers
-node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --format=ansi --breaks=420,840
-
-# Split an already converted colorscript
-node scripts/Split-AnsiFile.js .\ColorScripts-Enhanced\Scripts\we-acidtrip.ps1 --input=ps1 --heights=320,320
-
-# Split every 160 lines automatically
-node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --every=160
-```
-
-Options can be combined--`--auto` adds breaks where large blank gaps exist, `--heights` / `--breaks` enforce manual cut points, `--every=<n>` evenly divides the render, and `--strip-space-bg` (ANSI input only) mirrors the conversion behavior that clears background colors on plain spaces. Each output chunk is normalized with a trailing `ESC[0m` so the terminal resets cleanly after display.
 
 ## Troubleshooting
 
@@ -760,4 +692,3 @@ For support options, response targets, and contact channels, review the [Support
 - [r/ANSIart](https://www.reddit.com/r/ANSIart/)
 
 - [Sixteen Colors Facebook](https://www.facebook.com/sixteencolors/)
-

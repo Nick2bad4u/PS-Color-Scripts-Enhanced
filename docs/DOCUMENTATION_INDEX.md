@@ -53,6 +53,9 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | Document                               | Description                                        |
 | -------------------------------------- | -------------------------------------------------- |
 | [Development.md](Development.md)       | Local development setup, tooling, and workflows    |
+| [TESTING.md](TESTING.md)               | Testing procedures and test suite documentation    |
+| [LINTING.md](LINTING.md)               | Code quality standards and linting guide           |
+| [NPM_SCRIPTS.md](NPM_SCRIPTS.md)       | Reference for all npm scripts available            |
 | [MODULE_SUMMARY.md](MODULE_SUMMARY.md) | Complete module implementation overview            |
 | [CONTRIBUTING.md](../CONTRIBUTING.md)  | How to contribute code, scripts, and documentation |
 
@@ -96,7 +99,7 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | ------------------------------------------------------------- | -------------------------------------------------------- |
 | [docs/examples/ansi-conversion/](./examples/ansi-conversion/) | ANSI art conversion examples and samples                 |
 | [assets/ansi-files/](../assets/ansi-files/)                   | Source ANSI art files for conversion                     |
-| [docs/oversized-colorscripts/](./oversized-colorscripts)      | Large colorscripts that don't fit in main Scripts folder |
+| [docs/oversized-colorscripts/](../assets/oversized-colorscripts)      | Large colorscripts that don't fit in main Scripts folder |
 
 ## Special Setup Guides
 
