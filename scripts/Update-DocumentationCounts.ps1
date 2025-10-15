@@ -81,10 +81,10 @@ $cacheValue = "${ScriptCount}+"
 $exactValue = $ScriptCount.ToString()
 
 $replacements = @{
-    'COLOR_SCRIPT_COUNT_PLUS'          = $plusValue
-    'COLOR_SCRIPT_COUNT_MINUS_IMAGES'  = $minusValue
-    'COLOR_CACHE_TOTAL'                = $cacheValue
-    'COLOR_SCRIPT_COUNT'               = $exactValue
+    'COLOR_SCRIPT_COUNT_PLUS'         = $plusValue
+    'COLOR_SCRIPT_COUNT_MINUS_IMAGES' = $minusValue
+    'COLOR_CACHE_TOTAL'               = $cacheValue
+    'COLOR_SCRIPT_COUNT'              = $exactValue
 }
 
 foreach ($file in $Files) {

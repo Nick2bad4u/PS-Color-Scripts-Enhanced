@@ -59,8 +59,8 @@ for ($y = 0; $y -lt $height; $y++) {
         }
 
         # Spiral elements
-        $spiralAngle = [math]::Atan2($y - $height/2, $x - $width/2)
-        $spiralRadius = [math]::Sqrt(($x - $width/2) * ($x - $width/2) + ($y - $height/2) * ($y - $height/2))
+        $spiralAngle = [math]::Atan2($y - $height / 2, $x - $width / 2)
+        $spiralRadius = [math]::Sqrt(($x - $width / 2) * ($x - $width / 2) + ($y - $height / 2) * ($y - $height / 2))
         $spiralValue = [math]::Sin($spiralRadius * 0.3 + $spiralAngle * 2)
 
         if ($minDistance -lt 1.5) {

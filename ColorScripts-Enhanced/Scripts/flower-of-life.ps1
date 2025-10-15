@@ -45,10 +45,10 @@ $circles = @(
     @{ X = $centerX; Y = $centerY; Radius = $circleRadius },  # Center
     @{ X = $centerX + $circleRadius; Y = $centerY; Radius = $circleRadius },  # Right
     @{ X = $centerX - $circleRadius; Y = $centerY; Radius = $circleRadius },  # Left
-    @{ X = $centerX + $circleRadius/2; Y = $centerY + $circleRadius * [math]::Sqrt(3)/2; Radius = $circleRadius },  # Top right
-    @{ X = $centerX - $circleRadius/2; Y = $centerY + $circleRadius * [math]::Sqrt(3)/2; Radius = $circleRadius },  # Top left
-    @{ X = $centerX + $circleRadius/2; Y = $centerY - $circleRadius * [math]::Sqrt(3)/2; Radius = $circleRadius },  # Bottom right
-    @{ X = $centerX - $circleRadius/2; Y = $centerY - $circleRadius * [math]::Sqrt(3)/2; Radius = $circleRadius },  # Bottom left
+    @{ X = $centerX + $circleRadius / 2; Y = $centerY + $circleRadius * [math]::Sqrt(3) / 2; Radius = $circleRadius },  # Top right
+    @{ X = $centerX - $circleRadius / 2; Y = $centerY + $circleRadius * [math]::Sqrt(3) / 2; Radius = $circleRadius },  # Top left
+    @{ X = $centerX + $circleRadius / 2; Y = $centerY - $circleRadius * [math]::Sqrt(3) / 2; Radius = $circleRadius },  # Bottom right
+    @{ X = $centerX - $circleRadius / 2; Y = $centerY - $circleRadius * [math]::Sqrt(3) / 2; Radius = $circleRadius },  # Bottom left
     @{ X = $centerX; Y = $centerY + $circleRadius * [math]::Sqrt(3); Radius = $circleRadius },  # Top
     @{ X = $centerX; Y = $centerY - $circleRadius * [math]::Sqrt(3); Radius = $circleRadius },  # Bottom
     @{ X = $centerX + $circleRadius * 2; Y = $centerY; Radius = $circleRadius },  # Far right

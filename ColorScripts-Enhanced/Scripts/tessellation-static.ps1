@@ -71,7 +71,7 @@ for ($y = 0; $y -lt $height; $y++) {
             }
             1 {
                 # Diamond pattern
-                if ([math]::Abs($localX - $tileSize/2) + [math]::Abs($localY - $tileSize/2) -le $tileSize/2) {
+                if ([math]::Abs($localX - $tileSize / 2) + [math]::Abs($localY - $tileSize / 2) -le $tileSize / 2) {
                     $hue = ($hue + 0.3) % 1
                     $symbol = '◆'
                 }

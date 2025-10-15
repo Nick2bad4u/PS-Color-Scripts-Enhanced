@@ -41,9 +41,9 @@ $centerY = $height / 2
 # Rose curves with different petal counts
 $roses = @(
     @{ Petals = 3; Scale = 12; Hue = 0.1; Offset = 0 },
-    @{ Petals = 4; Scale = 10; Hue = 0.3; Offset = [math]::PI/4 },
-    @{ Petals = 5; Scale = 8; Hue = 0.5; Offset = [math]::PI/2 },
-    @{ Petals = 6; Scale = 6; Hue = 0.7; Offset = 3*[math]::PI/4 },
+    @{ Petals = 4; Scale = 10; Hue = 0.3; Offset = [math]::PI / 4 },
+    @{ Petals = 5; Scale = 8; Hue = 0.5; Offset = [math]::PI / 2 },
+    @{ Petals = 6; Scale = 6; Hue = 0.7; Offset = 3 * [math]::PI / 4 },
     @{ Petals = 7; Scale = 4; Hue = 0.9; Offset = [math]::PI }
 )
 

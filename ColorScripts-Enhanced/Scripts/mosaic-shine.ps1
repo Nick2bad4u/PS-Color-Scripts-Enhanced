@@ -9,7 +9,7 @@ Write-Host
 for ($y = 0; $y -lt $rows; $y++) {
     $line = [System.Text.StringBuilder]::new()
     for ($x = 0; $x -lt $cols; $x++) {
-        $h = ($x / [double]([math]::Max($cols-1, 1))) * 6.28318530718
+        $h = ($x / [double]([math]::Max($cols - 1, 1))) * 6.28318530718
         $r = [int](120 + 120 * [math]::Sin($h))
         $g = [int](120 + 120 * [math]::Sin($h + 2.094))
         $b = [int](120 + 120 * [math]::Sin($h + 4.188))

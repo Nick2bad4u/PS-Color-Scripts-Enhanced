@@ -6,9 +6,9 @@ $w = 100
 $h = 12
 $stars = 140
 $grid = @()
-for ($i=0; $i -lt $h; $i++) { $grid += , (@(" " * $w).ToCharArray()) }
+for ($i = 0; $i -lt $h; $i++) { $grid += , (@(" " * $w).ToCharArray()) }
 
-for ($s=0; $s -lt $stars; $s++) {
+for ($s = 0; $s -lt $stars; $s++) {
     $x = Get-Random -Minimum 0 -Maximum $w
     $y = Get-Random -Minimum 0 -Maximum $h
     $depth = Get-Random
@@ -23,9 +23,9 @@ $planetY = [int]($h / 2)
 $planetRadius = 5
 $planetCoreChar = "●"
 $planetEdgeChar = "◉"
-for ($py = -$planetRadius; $py -le $planetRadius; $py++) {
-    for ($px = -$planetRadius; $px -le $planetRadius; $px++) {
-        $dist = [math]::Sqrt($px*$px + $py*$py)
+for ($py = - $planetRadius; $py -le $planetRadius; $py++) {
+    for ($px = - $planetRadius; $px -le $planetRadius; $px++) {
+        $dist = [math]::Sqrt($px * $px + $py * $py)
         if ($dist -le $planetRadius) {
             $drawX = $planetX + $px
             $drawY = $planetY + $py
@@ -41,9 +41,9 @@ for ($py = -$planetRadius; $py -le $planetRadius; $py++) {
     }
 }
 
-for ($row=0; $row -lt $h; $row++) {
+for ($row = 0; $row -lt $h; $row++) {
     $line = New-Object System.Text.StringBuilder
-    for ($col=0; $col -lt $w; $col++) {
+    for ($col = 0; $col -lt $w; $col++) {
         $ch = $grid[$row][$col]
         switch ($ch) {
             "." { $color = "245;245;255" }

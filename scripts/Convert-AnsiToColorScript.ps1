@@ -98,7 +98,8 @@ process {
         $nonEmptyLines = @($lines | Where-Object { $_.Length -gt 0 })
         $firstLineLength = if ($nonEmptyLines.Count -gt 0 -and $nonEmptyLines[0] -is [string]) {
             ($nonEmptyLines[0] -replace '\x1b\[[^m]*m', '').Length
-        } else { 0 }
+        }
+        else { 0 }
         $hasCursorPositioning = $content -match '\x1b\[\d+;\d+[Hf]'
         # Check if first line is much longer than expected (e.g., 80*10 = 800 chars suggests wrapped format)
         # Also check if there's a second line that's much shorter (likely SAUCE metadata)
@@ -258,7 +259,8 @@ process {
             $hasLongLines = $false
             foreach ($line in $lines) {
                 $visibleLength = ($line -replace '\x1b\[[^m]*m', '').Length
-                if ($visibleLength -gt 100) { # More than 80 with some tolerance
+                if ($visibleLength -gt 100) {
+                    # More than 80 with some tolerance
                     $hasLongLines = $true
                     break
                 }

@@ -64,10 +64,10 @@ foreach ($harmonic in $harmonics) {
 
             if (-not $grid.ContainsKey($key)) {
                 $grid[$key] = @{
-                    Count = 0
-                    Hues = @()
+                    Count     = 0
+                    Hues      = @()
                     Harmonics = @()
-                    Progress = $progress
+                    Progress  = $progress
                 }
             }
 

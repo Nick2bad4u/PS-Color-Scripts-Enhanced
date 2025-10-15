@@ -110,11 +110,11 @@ else {
 
 # Return object for automation
 [PSCustomObject]@{
-    Path         = $file.FullName
-    SizeBytes    = $fileSizeBytes
-    LimitBytes   = $galleryLimit
-    PercentUsed  = $percentUsed
-    Remaining    = $galleryLimit - $fileSizeBytes
-    OverLimit    = $fileSizeBytes -gt $galleryLimit
-    NearLimit    = $fileSizeBytes -gt ($galleryLimit * 0.9)
+    Path        = $file.FullName
+    SizeBytes   = $fileSizeBytes
+    LimitBytes  = $galleryLimit
+    PercentUsed = $percentUsed
+    Remaining   = $galleryLimit - $fileSizeBytes
+    OverLimit   = $fileSizeBytes -gt $galleryLimit
+    NearLimit   = $fileSizeBytes -gt ($galleryLimit * 0.9)
 }

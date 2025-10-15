@@ -15,7 +15,7 @@ for ($y = 0; $y -lt $rows; $y++) {
         $dy = $y - $cy
         $angle = [math]::Atan2($dy, $dx)
         if ($angle -lt 0) { $angle += 6.28318530718 }
-        $dist = [math]::Sqrt($dx*$dx + $dy*$dy)
+        $dist = [math]::Sqrt($dx * $dx + $dy * $dy)
 
         $r = [int](128 + 127 * [math]::Sin($angle))
         $g = [int](128 + 127 * [math]::Sin($angle + 2.094))
