@@ -127,7 +127,7 @@ function Show-ColorScriptHelp {
             # Example headers in magenta
             Write-Host $line -ForegroundColor Magenta
         }
-        elseif ($line -match '^\s+Required\?|^\s+Position\?|^\s+Default value|^\s+Accept pipeline input\?|^\s+Accept wildcard characters\?') {
+        elseif ($line -match '^\s+Required\\?|^\s+Position\\?|^\s+Default value|^\s+Accept pipeline input\\?|^\s+Accept wildcard characters\\?') {
             # Parameter metadata in dark gray
             Write-Host $line -ForegroundColor DarkGray
         }
@@ -2724,7 +2724,7 @@ function Add-ColorScriptProfile {
 
         [System.IO.File]::WriteAllText($profilePath, $updatedContent + $newline, $script:Utf8NoBomEncoding)
 
-        Write-Host "✓ Added ColorScripts-Enhanced startup snippet to $profilePath" -ForegroundColor Green
+        Write-Host "[OK] Added ColorScripts-Enhanced startup snippet to $profilePath" -ForegroundColor Green
 
         return [pscustomobject]@{
             Path    = $profilePath
