@@ -202,4 +202,3 @@ MIT - See [LICENSE](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob
 ---
 
 **Tip**: Run `Get-ColorScriptList | Select-Object -First 10` to preview your first 10 scripts!
-

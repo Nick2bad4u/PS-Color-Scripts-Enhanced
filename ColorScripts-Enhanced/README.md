@@ -692,4 +692,3 @@ For support options, response targets, and contact channels, review the [Support
 - [r/ANSIart](https://www.reddit.com/r/ANSIart/)
 
 - [Sixteen Colors Facebook](https://www.facebook.com/sixteencolors/)
-

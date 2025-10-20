@@ -283,4 +283,3 @@ All MegaLinter and git-cliff issues resolved:
 - [git-cliff Documentation](https://git-cliff.org/)
 - [Conventional Commits](https://www.conventionalcommits.org/)
 - [Markdown Lint Rules](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)
-

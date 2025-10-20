@@ -13,6 +13,10 @@ $script:PowerShellExecutable = $null
 $script:Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding($false)
 $script:CacheDir = $null
 $script:CacheInitialized = $false
+$script:ScriptInventory = $null
+$script:ScriptInventoryStamp = $null
+$script:ScriptInventoryInitialized = $false
+$script:ScriptInventoryRecords = $null
 $script:ConfigurationRoot = $null
 $script:ConfigurationPath = $null
 $script:ConfigurationData = $null
@@ -29,7 +33,7 @@ $script:DefaultConfiguration = @{
 }
 
 function Copy-ColorScriptHashtable {
-    param([hashtable]$Source)
+    param([System.Collections.IDictionary]$Source)
 
     if (-not $Source) {
         return @{}
@@ -38,17 +42,30 @@ function Copy-ColorScriptHashtable {
     $clone = @{}
     foreach ($key in $Source.Keys) {
         $value = $Source[$key]
-        if ($value -is [hashtable]) {
-            $clone[$key] = Copy-ColorScriptHashtable $value
-        }
-        elseif ($value -is [System.Collections.IDictionary]) {
-            $clone[$key] = Copy-ColorScriptHashtable ([hashtable]$value)
-        }
-        elseif ($value -is [System.Collections.IEnumerable] -and $value -isnot [string]) {
-            $clone[$key] = @($value)
-        }
-        else {
-            $clone[$key] = $value
+        switch ($true) {
+            { $value -is [System.Collections.IDictionary] } {
+                $clone[$key] = Copy-ColorScriptHashtable $value
+                break
+            }
+            { $value -is [System.Array] } {
+                $clone[$key] = $value.Clone()
+                break
+            }
+            { $value -is [System.ICloneable] -and $value -isnot [string] } {
+                $clone[$key] = $value.Clone()
+                break
+            }
+            { $value -is [System.Collections.IEnumerable] -and $value -isnot [string] } {
+                $buffer = New-Object System.Collections.Generic.List[object]
+                foreach ($item in $value) {
+                    $null = $buffer.Add($item)
+                }
+                $clone[$key] = $buffer.ToArray()
+                break
+            }
+            default {
+                $clone[$key] = $value
+            }
         }
     }
 
@@ -57,8 +74,8 @@ function Copy-ColorScriptHashtable {
 
 function Merge-ColorScriptConfiguration {
     param(
-        [hashtable]$Base,
-        [hashtable]$Override
+        [System.Collections.IDictionary]$Base,
+        [System.Collections.IDictionary]$Override
     )
 
     if (-not $Override) {
@@ -70,23 +87,36 @@ function Merge-ColorScriptConfiguration {
         $overrideValue = $Override[$key]
         if ($result.ContainsKey($key)) {
             $baseValue = $result[$key]
-            if ($baseValue -is [hashtable] -and $overrideValue -is [hashtable]) {
-                $result[$key] = Merge-ColorScriptConfiguration $baseValue ([hashtable]$overrideValue)
+            if ($baseValue -is [System.Collections.IDictionary] -and $overrideValue -is [System.Collections.IDictionary]) {
+                $result[$key] = Merge-ColorScriptConfiguration $baseValue $overrideValue
                 continue
             }
         }
 
-        if ($overrideValue -is [hashtable]) {
-            $result[$key] = Copy-ColorScriptHashtable ([hashtable]$overrideValue)
-        }
-        elseif ($overrideValue -is [System.Collections.IDictionary]) {
-            $result[$key] = Copy-ColorScriptHashtable ([hashtable]$overrideValue)
-        }
-        elseif ($overrideValue -is [System.Collections.IEnumerable] -and $overrideValue -isnot [string]) {
-            $result[$key] = @($overrideValue)
-        }
-        else {
-            $result[$key] = $overrideValue
+        switch ($true) {
+            { $overrideValue -is [System.Collections.IDictionary] } {
+                $result[$key] = Copy-ColorScriptHashtable $overrideValue
+                break
+            }
+            { $overrideValue -is [System.Array] } {
+                $result[$key] = $overrideValue.Clone()
+                break
+            }
+            { $overrideValue -is [System.ICloneable] -and $overrideValue -isnot [string] } {
+                $result[$key] = $overrideValue.Clone()
+                break
+            }
+            { $overrideValue -is [System.Collections.IEnumerable] -and $overrideValue -isnot [string] } {
+                $buffer = New-Object System.Collections.Generic.List[object]
+                foreach ($item in $overrideValue) {
+                    $null = $buffer.Add($item)
+                }
+                $result[$key] = $buffer.ToArray()
+                break
+            }
+            default {
+                $result[$key] = $overrideValue
+            }
         }
     }
 
@@ -127,7 +157,7 @@ function Show-ColorScriptHelp {
             # Example headers in magenta
             Write-Host $line -ForegroundColor Magenta
         }
-        elseif ($line -match '^\s+Required\\?|^\s+Position\\?|^\s+Default value|^\s+Accept pipeline input\\?|^\s+Accept wildcard characters\\?') {
+        elseif ($line -match '^\s+Required\?|^\s+Position\?|^\s+Default value|^\s+Accept pipeline input\?|^\s+Accept wildcard characters\?') {
             # Parameter metadata in dark gray
             Write-Host $line -ForegroundColor DarkGray
         }
@@ -162,7 +192,7 @@ function Get-ColorScriptsConfigurationRoot {
     }
     else {
         $xdgConfig = if ($env:XDG_CONFIG_HOME) { $env:XDG_CONFIG_HOME } else { Join-Path -Path $HOME -ChildPath '.config' }
-        if ($xdgConfig) {
+        if (-not [string]::IsNullOrWhiteSpace($xdgConfig)) {
             $candidates += (Join-Path -Path $xdgConfig -ChildPath 'ColorScripts-Enhanced')
         }
     }
@@ -192,7 +222,11 @@ function Get-ColorScriptsConfigurationRoot {
 }
 
 function Save-ColorScriptConfiguration {
-    param([hashtable]$Configuration)
+    param(
+        [hashtable]$Configuration,
+        [string]$ExistingContent,
+        [switch]$Force
+    )
 
     $configRoot = Get-ColorScriptsConfigurationRoot
     if (-not $configRoot) {
@@ -201,6 +235,34 @@ function Save-ColorScriptConfiguration {
 
     $script:ConfigurationPath = Join-Path -Path $configRoot -ChildPath 'config.json'
     $json = $Configuration | ConvertTo-Json -Depth 6
+    $normalizedNew = $json.TrimEnd("`r", "`n")
+
+    if (-not $Force) {
+        $existingContent = $ExistingContent
+
+        if (-not $existingContent -and (Test-Path -LiteralPath $script:ConfigurationPath)) {
+            try {
+                $existingContent = Get-Content -LiteralPath $script:ConfigurationPath -Raw -ErrorAction Stop
+            }
+            catch {
+                $existingContent = $null
+            }
+        }
+
+        if ($existingContent) {
+            $normalizedExisting = $existingContent.TrimEnd("`r", "`n")
+            if ($normalizedExisting -eq $normalizedNew) {
+                return
+            }
+        }
+        elseif (-not (Test-Path -LiteralPath $script:ConfigurationPath)) {
+            # Nothing to compare against and no destination file. Continue to write defaults.
+        }
+        else {
+            # File exists but contained only whitespace or was unreadable; continue with write.
+        }
+    }
+
     Set-Content -Path $script:ConfigurationPath -Value ($json + [Environment]::NewLine) -Encoding UTF8
 }
 
@@ -213,20 +275,33 @@ function Initialize-Configuration {
     $script:ConfigurationPath = Join-Path -Path $configRoot -ChildPath 'config.json'
 
     $existing = $null
-    if (Test-Path -LiteralPath $script:ConfigurationPath) {
+    $raw = $null
+    $forceSave = $false
+    $configExists = Test-Path -LiteralPath $script:ConfigurationPath
+
+    if ($configExists) {
         try {
             $raw = Get-Content -LiteralPath $script:ConfigurationPath -Raw -ErrorAction Stop
             if (-not [string]::IsNullOrWhiteSpace($raw)) {
                 $existing = ConvertFrom-Json -InputObject $raw -AsHashtable
             }
+            else {
+                $raw = $null
+            }
         }
         catch {
             Write-Warning "Failed to parse configuration file at '$script:ConfigurationPath': $($_.Exception.Message). Using defaults."
+            $forceSave = $true
+            $raw = $null
         }
     }
 
     $script:ConfigurationData = Merge-ColorScriptConfiguration $script:DefaultConfiguration $existing
-    Save-ColorScriptConfiguration -Configuration $script:ConfigurationData
+
+    if ($forceSave -or $configExists) {
+        Save-ColorScriptConfiguration -Configuration $script:ConfigurationData -ExistingContent $raw -Force:$forceSave
+    }
+
     $script:ConfigurationInitialized = $true
 }
 
@@ -319,7 +394,7 @@ function Set-ColorScriptConfiguration {
     $configPath = Join-Path -Path $configRoot -ChildPath 'config.json'
 
     if ($PSCmdlet.ShouldProcess($configPath, 'Update ColorScripts-Enhanced configuration')) {
-        Save-ColorScriptConfiguration -Configuration $data
+        Save-ColorScriptConfiguration -Configuration $data -Force
     }
 
     if ($PassThru) {
@@ -349,7 +424,7 @@ function Reset-ColorScriptConfiguration {
 
     if ($PSCmdlet.ShouldProcess($configPath, 'Reset ColorScripts-Enhanced configuration')) {
         $script:ConfigurationData = Copy-ColorScriptHashtable $script:DefaultConfiguration
-        Save-ColorScriptConfiguration -Configuration $script:ConfigurationData
+        Save-ColorScriptConfiguration -Configuration $script:ConfigurationData -Force
         $script:CacheInitialized = $false
         $script:CacheDir = $null
     }
@@ -482,11 +557,26 @@ function Resolve-CachePath {
     }
 
     if (-not [System.IO.Path]::IsPathRooted($expanded)) {
+        $basePath = $null
+
         try {
-            $basePath = (Get-Location).ProviderPath
+            $basePath = $ExecutionContext.SessionState.Path.CurrentFileSystemLocation.ProviderPath
         }
         catch {
-            $basePath = [System.IO.Directory]::GetCurrentDirectory()
+            $basePath = $null
+        }
+
+        if (-not $basePath) {
+            try {
+                $basePath = [System.IO.Directory]::GetCurrentDirectory()
+            }
+            catch {
+                $basePath = $null
+            }
+        }
+
+        if (-not $basePath) {
+            return $null
         }
 
         $candidate = Join-Path -Path $basePath -ChildPath $expanded
@@ -499,6 +589,117 @@ function Resolve-CachePath {
         Write-Verbose "Unable to resolve cache path '$Path': $($_.Exception.Message)"
         return $null
     }
+}
+
+function Reset-ScriptInventoryCache {
+    $script:ScriptInventory = $null
+    $script:ScriptInventoryStamp = $null
+    $script:ScriptInventoryInitialized = $false
+    $script:ScriptInventoryRecords = $null
+}
+
+function Get-ColorScriptInventory {
+    param(
+        [switch]$Raw
+    )
+
+    $currentStamp = $null
+    try {
+        $currentStamp = [System.IO.Directory]::GetLastWriteTimeUtc($script:ScriptsPath)
+        if ($currentStamp -eq [datetime]::MinValue) {
+            $currentStamp = $null
+        }
+    }
+    catch {
+        $currentStamp = $null
+    }
+
+    $shouldRefresh = -not $script:ScriptInventoryInitialized
+    if (-not $shouldRefresh -and $null -ne $script:ScriptInventoryStamp) {
+        if ($currentStamp -ne $script:ScriptInventoryStamp) {
+            $shouldRefresh = $true
+        }
+    }
+    elseif (-not $shouldRefresh -and $null -eq $script:ScriptInventoryStamp -and $currentStamp) {
+        # We previously had no stamp (directory missing). If it now exists, refresh once.
+        $shouldRefresh = $true
+    }
+
+    if ($shouldRefresh) {
+        $scriptFiles = @()
+        try {
+            $scriptFiles = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" -File -ErrorAction Stop
+        }
+        catch {
+            $scriptFiles = @()
+        }
+
+        $script:ScriptInventory = @($scriptFiles)
+        $script:ScriptInventoryRecords = @(
+            foreach ($file in $scriptFiles) {
+                [pscustomobject]@{
+                    Name        = $file.BaseName
+                    Path        = $file.FullName
+                    Category    = $null
+                    Categories  = @()
+                    Tags        = @()
+                    Description = $null
+                    Metadata    = $null
+                }
+            }
+        )
+        $script:ScriptInventoryStamp = $currentStamp
+        $script:ScriptInventoryInitialized = $true
+    }
+
+    if ($Raw) {
+        return $script:ScriptInventory
+    }
+
+    if (-not $script:ScriptInventoryRecords) {
+        $script:ScriptInventoryRecords = @(
+            foreach ($file in $script:ScriptInventory) {
+                [pscustomobject]@{
+                    Name        = $file.BaseName
+                    Path        = $file.FullName
+                    Category    = $null
+                    Categories  = @()
+                    Tags        = @()
+                    Description = $null
+                    Metadata    = $null
+                }
+            }
+        )
+    }
+
+    return $script:ScriptInventoryRecords
+}
+
+function Test-ColorScriptTextEmission {
+    param(
+        [bool]$ReturnText,
+        [bool]$PassThru,
+        [int]$PipelineLength,
+        [System.Collections.IDictionary]$BoundParameters
+    )
+
+    if ($ReturnText -or [Console]::IsOutputRedirected) {
+        return $true
+    }
+
+    if ($PassThru) {
+        return $false
+    }
+
+    if ($PipelineLength -gt 1) {
+        return $true
+    }
+
+    if ($BoundParameters -and ($BoundParameters.ContainsKey('OutVariable') -or $BoundParameters.ContainsKey('PipelineVariable'))) {
+        return $true
+    }
+
+    return $false
 }
 
 function Get-PowerShellExecutable {
@@ -830,8 +1031,40 @@ function Get-ColorScriptMetadataTable {
         }
     }
 
+    # Return in-memory cache if available and current
     if ($script:MetadataCache -and $script:MetadataLastWriteTime -and $currentTimestamp -eq $script:MetadataLastWriteTime) {
         return $script:MetadataCache
+    }
+
+    # Try to load from binary cache file for faster subsequent loads
+    $binaryCachePath = $null
+    if ($script:CacheInitialized -and $script:CacheDir) {
+        $binaryCachePath = Join-Path -Path $script:CacheDir -ChildPath 'metadata.cache.json'
+
+        if ($binaryCachePath -and (Test-Path -LiteralPath $binaryCachePath)) {
+            try {
+                $cacheFileInfo = Get-Item -LiteralPath $binaryCachePath -ErrorAction Stop
+                if ($cacheFileInfo.LastWriteTimeUtc -ge $currentTimestamp) {
+                    # JSON cache is current, load it
+                    $jsonData = Get-Content -LiteralPath $binaryCachePath -Raw -ErrorAction Stop
+                    $cachedHash = ConvertFrom-Json -InputObject $jsonData -AsHashtable -ErrorAction Stop
+
+                    # Convert back to proper dictionary
+                    $loadedStore = New-Object 'System.Collections.Generic.Dictionary[string, object]' ([System.StringComparer]::OrdinalIgnoreCase)
+                    foreach ($key in $cachedHash.Keys) {
+                        $loadedStore[$key] = $cachedHash[$key]
+                    }
+
+                    $script:MetadataCache = $loadedStore
+                    $script:MetadataLastWriteTime = $currentTimestamp
+                    Write-Verbose "Loaded metadata from JSON cache (fast path)"
+                    return $script:MetadataCache
+                }
+            }
+            catch {
+                Write-Verbose "JSON metadata cache load failed, will rebuild: $($_.Exception.Message)"
+            }
+        }
     }
 
     $store = New-Object 'System.Collections.Generic.Dictionary[string, object]' ([System.StringComparer]::OrdinalIgnoreCase)
@@ -1108,7 +1341,7 @@ function Get-ColorScriptMetadataTable {
         }
     }
 
-    $scripts = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1"
+    $scripts = Get-ColorScriptInventory -Raw
 
     foreach ($scriptFile in $scripts) {
         $name = $scriptFile.BaseName
@@ -1214,6 +1447,19 @@ function Get-ColorScriptMetadataTable {
 
     $script:MetadataCache = $store
     $script:MetadataLastWriteTime = $currentTimestamp
+
+    # Save JSON cache for faster subsequent loads
+    if ($binaryCachePath) {
+        try {
+            $jsonData = $store | ConvertTo-Json -Depth 10 -Compress
+            Set-Content -LiteralPath $binaryCachePath -Value $jsonData -Encoding UTF8 -ErrorAction Stop
+            Write-Verbose "Saved metadata to JSON cache for faster future loads"
+        }
+        catch {
+            Write-Verbose "Failed to save JSON metadata cache: $($_.Exception.Message)"
+        }
+    }
+
     return $script:MetadataCache
 }
 
@@ -1226,7 +1472,7 @@ function Get-ColorScriptEntry {
     )
 
     $metadata = Get-ColorScriptMetadataTable
-    $scripts = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1"
+    $scripts = Get-ColorScriptInventory -Raw
 
     $records = foreach ($script in $scripts) {
         $entry = if ($metadata.ContainsKey($script.BaseName)) { $metadata[$script.BaseName] } else { $null }
@@ -1325,7 +1571,18 @@ function Get-CachedOutput {
         [string]$ScriptPath
     )
 
-    if (-not (Test-Path -LiteralPath $ScriptPath)) {
+    # Fast path: Use .NET File methods to avoid PowerShell cmdlet overhead
+    try {
+        if (-not [System.IO.File]::Exists($ScriptPath)) {
+            return [pscustomobject]@{
+                Available     = $false
+                CacheFile     = $null
+                Content       = ''
+                LastWriteTime = $null
+            }
+        }
+    }
+    catch {
         return [pscustomobject]@{
             Available     = $false
             CacheFile     = $null
@@ -1337,34 +1594,46 @@ function Get-CachedOutput {
     $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($ScriptPath)
     $cacheFile = Join-Path $script:CacheDir "$scriptName.cache"
 
-    if (-not (Test-Path -LiteralPath $cacheFile)) {
+    try {
+        if (-not [System.IO.File]::Exists($cacheFile)) {
+            return [pscustomobject]@{
+                Available     = $false
+                CacheFile     = $cacheFile
+                Content       = ''
+                LastWriteTime = $null
+            }
+        }
+
+        # Use direct .NET file time comparison for better performance
+        $scriptLastWrite = [System.IO.File]::GetLastWriteTimeUtc($ScriptPath)
+        $cacheLastWrite = [System.IO.File]::GetLastWriteTimeUtc($cacheFile)
+
+        if ($scriptLastWrite -gt $cacheLastWrite) {
+            return [pscustomobject]@{
+                Available     = $false
+                CacheFile     = $cacheFile
+                Content       = ''
+                LastWriteTime = $cacheLastWrite
+            }
+        }
+
+        $content = [System.IO.File]::ReadAllText($cacheFile, $script:Utf8NoBomEncoding)
+
+        return [pscustomobject]@{
+            Available     = $true
+            CacheFile     = $cacheFile
+            Content       = $content
+            LastWriteTime = $cacheLastWrite
+        }
+    }
+    catch {
+        Write-Verbose "Cache read error for $ScriptPath : $($_.Exception.Message)"
         return [pscustomobject]@{
             Available     = $false
             CacheFile     = $cacheFile
             Content       = ''
             LastWriteTime = $null
         }
-    }
-
-    $scriptItem = Get-Item -LiteralPath $ScriptPath
-    $cacheItem = Get-Item -LiteralPath $cacheFile
-
-    if ($scriptItem.LastWriteTimeUtc -gt $cacheItem.LastWriteTimeUtc) {
-        return [pscustomobject]@{
-            Available     = $false
-            CacheFile     = $cacheFile
-            Content       = ''
-            LastWriteTime = $cacheItem.LastWriteTimeUtc
-        }
-    }
-
-    $content = [System.IO.File]::ReadAllText($cacheFile, $script:Utf8NoBomEncoding)
-
-    return [pscustomobject]@{
-        Available     = $true
-        CacheFile     = $cacheFile
-        Content       = $content
-        LastWriteTime = $cacheItem.LastWriteTimeUtc
     }
 }
 
@@ -1474,7 +1743,8 @@ function Build-ScriptCache {
         StdErr     = ''
     }
 
-    if (-not (Test-Path -LiteralPath $ScriptPath)) {
+    # Use .NET File.Exists for faster check
+    if (-not [System.IO.File]::Exists($ScriptPath)) {
         $result.StdErr = "Script path not found."
         return $result
     }
@@ -1487,12 +1757,16 @@ function Build-ScriptCache {
     if ($execution.Success) {
         try {
             [System.IO.File]::WriteAllText($cacheFile, $execution.StdOut, $script:Utf8NoBomEncoding)
-            $scriptItem = Get-Item -LiteralPath $ScriptPath
+
+            # Use .NET methods directly for better performance
             try {
-                [System.IO.File]::SetLastWriteTimeUtc($cacheFile, $scriptItem.LastWriteTimeUtc)
+                $scriptLastWrite = [System.IO.File]::GetLastWriteTimeUtc($ScriptPath)
+                [System.IO.File]::SetLastWriteTimeUtc($cacheFile, $scriptLastWrite)
             }
             catch {
-                [System.IO.File]::SetLastWriteTime($cacheFile, $scriptItem.LastWriteTime)
+                # Fallback if UTC methods fail
+                $scriptLastWrite = [System.IO.File]::GetLastWriteTime($ScriptPath)
+                [System.IO.File]::SetLastWriteTime($cacheFile, $scriptLastWrite)
             }
             $result.Success = $true
         }
@@ -1612,7 +1886,17 @@ function Show-ColorScript {
         return
     }
 
-    $records = Get-ColorScriptEntry -Category $Category -Tag $Tag
+    # Optimization: Skip metadata loading if no filters are specified
+    # This dramatically improves performance for simple Show-ColorScript calls
+    $needsMetadata = ($Category -and $Category.Count -gt 0) -or ($Tag -and $Tag.Count -gt 0) -or $PassThru.IsPresent
+
+    $records = if ($needsMetadata) {
+        Get-ColorScriptEntry -Category $Category -Tag $Tag
+    }
+    else {
+        # Fast path: reuse cached file inventory to avoid repeated allocations
+        Get-ColorScriptInventory
+    }
 
     if (-not $records -or $records.Count -eq 0) {
         Write-Warning "No colorscripts found in $script:ScriptsPath"
@@ -1644,7 +1928,9 @@ function Show-ColorScript {
         $selection = $orderedMatches | Select-Object -First 1
     }
     elseif ($useRandom) {
-        $selection = $records | Get-Random
+        $rng = [System.Random]::new()
+        $index = $rng.Next($records.Count)
+        $selection = $records[$index]
     }
     else {
         $selection = $records | Select-Object -First 1
@@ -1653,6 +1939,9 @@ function Show-ColorScript {
     $renderedOutput = $null
 
     if (-not $NoCache) {
+        # Lazy initialization: only initialize cache when actually needed
+        Initialize-CacheDirectory
+
         $cacheState = Get-CachedOutput -ScriptPath $selection.Path
         if ($cacheState.Available) {
             $renderedOutput = $cacheState.Content
@@ -1689,15 +1978,9 @@ function Show-ColorScript {
         $renderedOutput = ''
     }
 
-    $pipelineBoundParameters = $PSCmdlet.MyInvocation.BoundParameters
+    $boundParameters = $PSCmdlet.MyInvocation.BoundParameters
     $pipelineLength = $PSCmdlet.MyInvocation.PipelineLength
-    $shouldEmitText = $ReturnText.IsPresent -or [Console]::IsOutputRedirected
-
-    if (-not $shouldEmitText -and -not $PassThru) {
-        if ($pipelineLength -gt 1 -or $pipelineBoundParameters.ContainsKey('OutVariable') -or $pipelineBoundParameters.ContainsKey('PipelineVariable')) {
-            $shouldEmitText = $true
-        }
-    }
+    $shouldEmitText = Test-ColorScriptTextEmission -ReturnText:$ReturnText.IsPresent -PassThru:$PassThru.IsPresent -PipelineLength $pipelineLength -BoundParameters $boundParameters
 
     Invoke-WithUtf8Encoding -ScriptBlock {
         param($text, $emitText)
@@ -2007,6 +2290,9 @@ function Build-ColorScriptCache {
             return [System.Management.Automation.PSCustomObject[]]@()
         }
 
+        # Lazy initialization: only initialize cache when building
+        Initialize-CacheDirectory
+
         if (-not $PSCmdlet.ShouldProcess($script:CacheDir, "Build cache for $recordCount script(s)")) {
             return [System.Management.Automation.PSCustomObject[]]@()
         }
@@ -2268,6 +2554,9 @@ function Clear-ColorScriptCache {
 
             throw "Specify -All or -Name to clear cache entries."
         }
+
+        # Lazy initialization: only initialize cache when clearing
+        Initialize-CacheDirectory
 
         $targetRoot = if ($Path) { $Path } else { $script:CacheDir }
 
@@ -2558,6 +2847,8 @@ foreach ($line in $ansiLines) {
         Write-Verbose "Metadata guidance for '$Name':`n$metadataSnippet"
     }
 
+    Reset-ScriptInventoryCache
+
     return $result
 }
 
@@ -2737,11 +3028,7 @@ function Add-ColorScriptProfile {
 # Internal helper to honor startup preferences post-import
 function Invoke-ColorScriptsStartup {
     try {
-        $configuration = Get-ColorScriptConfiguration
-        if (-not $configuration.Startup.AutoShowOnImport) {
-            return
-        }
-
+        # Fast-path: check environment conditions BEFORE loading configuration
         if ($env:CI -eq 'true' -or $env:GITHUB_ACTIONS -eq 'true') {
             return
         }
@@ -2759,6 +3046,37 @@ function Invoke-ColorScriptsStartup {
         }
 
         if ($outputRedirected) {
+            return
+        }
+
+        $autoShowOverride = $env:COLOR_SCRIPTS_ENHANCED_AUTOSHOW_ON_IMPORT
+        $overrideEnabled = $false
+        if ($autoShowOverride) {
+            $overrideEnabled = $autoShowOverride -match '^(1|true|yes)$'
+            if (-not $overrideEnabled) {
+                return
+            }
+        }
+
+        $configRoot = $null
+        try {
+            $configRoot = Get-ColorScriptsConfigurationRoot
+        }
+        catch {
+            Write-Verbose "Unable to locate configuration root: $($_.Exception.Message)"
+            if (-not $overrideEnabled) {
+                return
+            }
+        }
+
+        $configPath = if ($configRoot) { Join-Path -Path $configRoot -ChildPath 'config.json' } else { $null }
+        if (-not $overrideEnabled -and $configPath -and -not (Test-Path -LiteralPath $configPath)) {
+            return
+        }
+
+        # Only load configuration if we know auto-show might be enabled
+        $configuration = Get-ConfigurationDataInternal
+        if (-not $configuration.Startup.AutoShowOnImport -and -not $overrideEnabled) {
             return
         }
 
@@ -2792,6 +3110,6 @@ Export-ModuleMember -Function @(
     'New-ColorScript'
 ) -Alias @('scs')
 
-# Module initialization message
-Write-Verbose "ColorScripts-Enhanced module loaded. Cache location: $script:CacheDir"
+# Module initialization - cache and configuration are lazily loaded when first needed
+Write-Verbose "ColorScripts-Enhanced module loaded successfully."
 Invoke-ColorScriptsStartup

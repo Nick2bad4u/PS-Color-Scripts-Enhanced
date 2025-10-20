@@ -172,4 +172,3 @@ Expect to see icons, checkmarks, and box-drawing characters. If they appear as s
 - [Release Checklist](ReleaseChecklist.md)
 - [Contributing Guidelines](../CONTRIBUTING.md)
 - [PowerShell Module Best Practices](https://learn.microsoft.com/en-us/powershell/gallery/concepts/publishing-guidelines?view=powershellget-3.x)
-
