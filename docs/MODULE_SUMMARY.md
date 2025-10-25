@@ -15,7 +15,7 @@ ColorScripts-Enhanced/
 ├── Install.ps1                    # Installation script
 ├── README.md                      # Comprehensive documentation
     ├── ... (additional scripts)
-    └── ... (<!-- COLOR_SCRIPT_COUNT -->327<!-- /COLOR_SCRIPT_COUNT --> total)
+    └── ... (<!-- COLOR_SCRIPT_COUNT -->498<!-- /COLOR_SCRIPT_COUNT --> total)
 ├── Test-AllColorScripts.ps1
 ```
 
@@ -24,7 +24,7 @@ ColorScripts-Enhanced/
 - **Name:** ColorScripts-Enhanced
 - **Current Version:** 2025.10.13.1537
 - **PowerShell Version:** 5.1+
-- **Colorscripts Included:** <!-- COLOR_SCRIPT_COUNT_PLUS -->327+<!-- /COLOR_SCRIPT_COUNT_PLUS -->
+- **Colorscripts Included:** <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS -->
 - **Cache Location:** `%APPDATA%\ColorScripts-Enhanced\cache`
 - **Exported Functions:** 10
 - **Alias:** scs → Show-ColorScript
@@ -204,7 +204,7 @@ C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\
     ├── bars.cache
     ├── hearts.cache
     ├── mandelbrot-zoom.cache
-    └── ... (<!-- COLOR_CACHE_TOTAL -->327+<!-- /COLOR_CACHE_TOTAL --> total)
+    └── ... (<!-- COLOR_CACHE_TOTAL -->498+<!-- /COLOR_CACHE_TOTAL --> total)
 ```
 
 ## Testing Performed
@@ -311,7 +311,7 @@ scs galaxy-spiral
 - Troubleshooting
 - Architecture details
 
-### Scripts/ (<!-- COLOR_SCRIPT_COUNT_PLUS -->327+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts)
+### Scripts/ (<!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts)
 
 - All original colorscripts
 - Unchanged from source artwork
@@ -412,7 +412,7 @@ Users with the original ps-color-scripts can migrate:
 **ColorScripts-Enhanced** is a complete, professional PowerShell module that:
 
 ✅ Centralized cache location for all terminals
-✅ Provides <!-- COLOR_SCRIPT_COUNT_PLUS -->327+<!-- /COLOR_SCRIPT_COUNT_PLUS --> beautiful colorscripts
+✅ Provides <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> beautiful colorscripts
 ✅ Cross-platform support (Windows, macOS, Linux)
 ✅ Offers 6-19x performance improvement
 ✅ Uses clean, intuitive API

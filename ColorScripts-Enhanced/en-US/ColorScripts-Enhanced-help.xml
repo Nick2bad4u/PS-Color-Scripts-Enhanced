@@ -1878,6 +1878,7 @@
       <maml:para>Shows a beautiful ANSI colorscript in your terminal. If no name is specified, displays a random script. Uses intelligent caching for 6-19x faster performance.</maml:para>
       <maml:para>The first time a colorscript is displayed, it executes normally and the output is cached. Subsequent displays use the cached output for near-instant rendering. Cache is automatically invalidated when the source script is modified.</maml:para>
       <maml:para>When multiple scripts match a wildcard pattern, the first match in alphabetical order is displayed. Use `-PassThru` to inspect the selected record when needed.</maml:para>
+      <maml:para>Use `-All` to cycle through all colorscripts in alphabetical order. Combine with `-WaitForInput` to pause between each script and press spacebar to continue.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2072,6 +2073,42 @@
           <dev:defaultValue>False</dev:defaultValue>
         </command:parameter>
       </command:syntaxItem>
+      <command:syntaxItem>
+        <maml:name>Show-ColorScript</maml:name>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>All</maml:name>
+          <maml:description>
+            <maml:para>Cycle through all available colorscripts in alphabetical order. Use with `-WaitForInput` to pause between each script.</maml:para>
+          </maml:description>
+          <dev:type>
+            <maml:name>SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>WaitForInput</maml:name>
+          <maml:description>
+            <maml:para>When used with `-All`, pause after each colorscript and wait for spacebar to continue. Press 'q' to quit early.</maml:para>
+          </maml:description>
+          <dev:type>
+            <maml:name>SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>NoCache</maml:name>
+          <maml:description>
+            <maml:para>Bypass cache and execute script directly. Useful for testing or when cache is corrupted.</maml:para>
+          </maml:description>
+          <dev:type>
+            <maml:name>SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
+      </command:syntaxItem>
     </command:syntax>
     <command:parameters>
       <command:parameter required="false" variableLength="true" globbing="true" pipelineInput="True (ByValue, ByPropertyName)" position="1" aliases="none">
@@ -2102,6 +2139,30 @@
         <maml:name>Random</maml:name>
         <maml:description>
           <maml:para>Explicitly request a random colorscript (default behavior).</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
+        <dev:type>
+          <maml:name>SwitchParameter</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>False</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+        <maml:name>All</maml:name>
+        <maml:description>
+          <maml:para>Cycle through all available colorscripts in alphabetical order. Use with `-WaitForInput` to pause between each script.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
+        <dev:type>
+          <maml:name>SwitchParameter</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>False</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+        <maml:name>WaitForInput</maml:name>
+        <maml:description>
+          <maml:para>When used with `-All`, pause after each colorscript and wait for spacebar to continue. Press 'q' to quit early.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -2252,6 +2313,27 @@
         <dev:code>Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt</dev:code>
         <dev:remarks>
           <maml:para>Emit the rendered colorscript as plain text so it can be redirected or saved.</maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 9 --------------------------</maml:title>
+        <dev:code>Show-ColorScript -All</dev:code>
+        <dev:remarks>
+          <maml:para>Displays all colorscripts in alphabetical order continuously with a short delay between each.</maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 10 --------------------------</maml:title>
+        <dev:code>Show-ColorScript -All -WaitForInput</dev:code>
+        <dev:remarks>
+          <maml:para>Displays all colorscripts one at a time, waiting for spacebar press between each. Press 'q' to quit early.</maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 11 --------------------------</maml:title>
+        <dev:code>Show-ColorScript -All -Category Nature -WaitForInput</dev:code>
+        <dev:remarks>
+          <maml:para>Cycles through all nature-themed colorscripts with manual progression using spacebar.</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>

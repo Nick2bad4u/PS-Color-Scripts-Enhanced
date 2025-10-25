@@ -50,7 +50,7 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 
 ## Features
 
-✨ **<!-- COLOR_SCRIPT_COUNT_PLUS -->327+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Beautiful Colorscripts** - Extensive collection of ANSI art
+✨ **<!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Beautiful Colorscripts** - Extensive collection of ANSI art
 
 ⚡ **Intelligent Caching** - 6-19x performance improvement (5-20ms load times)
 
@@ -72,7 +72,7 @@ ColorScripts-Enhanced Demo: <https://i.imgur.com/FCjqkxn.mp4>
 
 ![ColorScripts-Example-1](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-1.png) ![ColorScripts-Example-2](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-2.png) ![ColorScripts-Example-3](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-3.png)
 
-**+ <!-- COLOR_SCRIPT_COUNT_MINUS_IMAGES -->324<!-- /COLOR_SCRIPT_COUNT_MINUS_IMAGES --> more colorscripts available!**
+**+ <!-- COLOR_SCRIPT_COUNT_MINUS_IMAGES -->495<!-- /COLOR_SCRIPT_COUNT_MINUS_IMAGES --> more colorscripts available!**
 
 ## Quick Start (Less Than a Minute)
 
@@ -491,7 +491,7 @@ $env:APPDATA\ColorScripts-Enhanced\cache
 - One `.cache` file per colorscript
 - Contains pre-rendered ANSI output
 - Average size: ~20KB per file
-- Total size: ~4.9MB for <!-- COLOR_SCRIPT_COUNT_PLUS -->327+<!-- /COLOR_SCRIPT_COUNT_PLUS --> scripts
+- Total size: ~4.9MB for <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> scripts
 
 ## Examples
 
@@ -525,7 +525,7 @@ Build-ColorScriptCache
 
 ## Available Colorscripts
 
-The module includes <!-- COLOR_SCRIPT_COUNT_PLUS -->327+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts including:
+The module includes <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts including:
 
 - **Fractals**: mandelbrot-zoom, julia-morphing, barnsley-fern, koch-snowflake
 - **Patterns**: kaleidoscope, wave-pattern, rainbow-waves, gradient-bars
@@ -617,14 +617,14 @@ ColorScripts-Enhanced/
 │   ├── bars.ps1
 │   ├── hearts.ps1
 │   ├── mandelbrot-zoom.ps1
-│   └── ... (<!-- COLOR_CACHE_TOTAL -->327+<!-- /COLOR_CACHE_TOTAL --> total)
+│   └── ... (<!-- COLOR_CACHE_TOTAL -->498+<!-- /COLOR_CACHE_TOTAL --> total)
 └── README.md                      # This file
 
 %APPDATA%/ColorScripts-Enhanced/
 └── cache/                         # Cache files
     ├── bars.cache
     ├── hearts.cache
-    └── ... (<!-- COLOR_CACHE_TOTAL -->327+<!-- /COLOR_CACHE_TOTAL --> total)
+    └── ... (<!-- COLOR_CACHE_TOTAL -->498+<!-- /COLOR_CACHE_TOTAL --> total)
 ```
 
 ## Contributing
@@ -647,7 +647,7 @@ See [CHANGELOG.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/
 
 ### Latest Release
 
-**2025.10.12** - Cross-platform support, enhanced caching, and <!-- COLOR_SCRIPT_COUNT_PLUS -->327+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts
+**2025.10.12** - Cross-platform support, enhanced caching, and <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts
 
 ## Documentation
 

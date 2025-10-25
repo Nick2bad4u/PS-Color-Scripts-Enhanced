@@ -68,6 +68,7 @@
   },
   "homepage": "https://github.com/Nick2bad4u/ps-color-scripts-enhanced#readme",
   "dependencies": {
+    "git-cliff": "^2.10.1",
     "iconv-lite": "^0.7.0",
     "node-ansiparser": "^2.2.1"
   },
