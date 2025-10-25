@@ -18,8 +18,6 @@ $bld = "$esc[1m"
 $rst = "$esc[0m"
 
 Write-Host @"
-
-
  $f1█-----$bld$fbright1█  $rst$f2█-----$bld$fbright2█$rst  $f3█-----$bld$fbright3█$rst  $f4█-----$bld$fbright4█$rst  $f5█-----$bld$fbright5█$rst  $f6█-----$bld$fbright6█$rst
   $f1█---$bld$fbright1█$rst    $f2█---$bld$fbright2█$rst    $f3█---$bld$fbright3█$rst    $f4█---$bld$fbright4█$rst    $f5█---$bld$fbright5█$rst    $f6█---$bld$fbright6█$rst
   $f1 █-$bld$fbright1█$rst     $f2 █-$bld$fbright2█$rst     $f3 █-$bld$fbright3█$rst     $f4 █-$bld$fbright4█$rst     $f5 █-$bld$fbright5█$rst     $f6 █-$bld$fbright6█$rst
@@ -45,5 +43,4 @@ Write-Host @"
    $f1█-$bld$fbright1█$rst      $f2█-$bld$fbright2█$rst      $f3█-$bld$fbright3█$rst      $f4█-$bld$fbright4█$rst      $f5█-$bld$fbright5█$rst      $f6█-$bld$fbright6█$rst
   $f1█---$bld$fbright1█$rst    $f2█---$bld$fbright2█$rst    $f3█---$bld$fbright3█$rst    $f4█---$bld$fbright4█$rst    $f5█---$bld$fbright5█$rst    $f6█---$bld$fbright6█$rst
  $f1█-----$bld$fbright1█  $rst$f2█-----$bld$fbright2█$rst  $f3█-----$bld$fbright3█$rst  $f4█-----$bld$fbright4█$rst  $f5█-----$bld$fbright5█$rst  $f6█-----$bld$fbright6█$rst
-
 "@

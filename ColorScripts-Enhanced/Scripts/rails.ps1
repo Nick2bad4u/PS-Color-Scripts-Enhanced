@@ -18,11 +18,9 @@ $boldon = "$esc[1m"
 $reset = "$esc[0m"
 
 Write-Host @"
-
  $redf╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗  $greenf╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗  $yellowf╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗
  $boldon$redfbright╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝  $greenfbright╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝  $yellowfbright╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝$reset
   ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
  $bluef╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗  $purplef╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗  $cyanf╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗
  $boldon$bluefbright╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝  $purplefbright╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝  $cyanfbright╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝$reset
-
 "@

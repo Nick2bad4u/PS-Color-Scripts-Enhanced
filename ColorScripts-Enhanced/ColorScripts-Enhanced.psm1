@@ -1796,6 +1796,9 @@ function Show-ColorScript {
         Name values accept wildcards; when multiple scripts match the provided pattern, the first
         alphabetical match is displayed and can be inspected with -PassThru.
 
+        Use -All to cycle through all colorscripts in alphabetical order.
+        Combine with -WaitForInput to pause between each script (press spacebar to continue).
+
     .PARAMETER Name
         The name of the colorscript to display (without .ps1 extension). Supports wildcards for partial matches.
 
@@ -1804,6 +1807,13 @@ function Show-ColorScript {
 
     .PARAMETER Random
         Display a random colorscript (default behavior).
+
+    .PARAMETER All
+        Cycle through all available colorscripts in alphabetical order.
+
+    .PARAMETER WaitForInput
+        When used with -All, pause after each colorscript and wait for spacebar to continue.
+        Press 'q' to quit early.
 
     .PARAMETER NoCache
         Bypass cache and execute script directly.
@@ -1835,6 +1845,18 @@ function Show-ColorScript {
     .EXAMPLE
         scs hearts
         Uses the alias to display the hearts colorscript.
+
+    .EXAMPLE
+        Show-ColorScript -All
+        Displays all colorscripts in alphabetical order continuously.
+
+    .EXAMPLE
+        Show-ColorScript -All -WaitForInput
+        Displays all colorscripts one at a time, waiting for spacebar press between each.
+
+    .EXAMPLE
+        Show-ColorScript -All -Category Nature -WaitForInput
+        Cycles through all nature-themed colorscripts with manual progression.
     #>
     [CmdletBinding(DefaultParameterSetName = 'Random')]
     [Alias('scs')]
@@ -1852,6 +1874,12 @@ function Show-ColorScript {
 
         [Parameter(ParameterSetName = 'Random')]
         [switch]$Random,
+
+        [Parameter(ParameterSetName = 'All')]
+        [switch]$All,
+
+        [Parameter(ParameterSetName = 'All')]
+        [switch]$WaitForInput,
 
         [Parameter()]
         [switch]$NoCache,
@@ -1883,6 +1911,99 @@ function Show-ColorScript {
         if ($Category) { $listParams.Category = $Category }
         if ($Tag) { $listParams.Tag = $Tag }
         Get-ColorScriptList @listParams
+        return
+    }
+
+    # Handle -All parameter to cycle through all colorscripts
+    if ($All) {
+        # Get all colorscripts (with optional filters)
+        $needsMetadata = ($Category -and $Category.Count -gt 0) -or ($Tag -and $Tag.Count -gt 0)
+        $allScripts = if ($needsMetadata) {
+            Get-ColorScriptEntry -Category $Category -Tag $Tag
+        }
+        else {
+            Get-ColorScriptInventory
+        }
+
+        if (-not $allScripts -or $allScripts.Count -eq 0) {
+            Write-Warning "No colorscripts found matching the specified criteria."
+            return
+        }
+
+        # Sort alphabetically
+        $sortedScripts = $allScripts | Sort-Object Name
+        $totalCount = $sortedScripts.Count
+        $currentIndex = 0
+
+        Write-Host "`nDisplaying $totalCount colorscripts..." -ForegroundColor Cyan
+        if ($WaitForInput) {
+            Write-Host "Press [Spacebar] to continue to next, [Q] to quit`n" -ForegroundColor Yellow
+        }
+        else {
+            Write-Host "Displaying continuously (Ctrl+C to stop)`n" -ForegroundColor Yellow
+        }
+
+        foreach ($script in $sortedScripts) {
+            $currentIndex++
+
+            # Clear screen and show progress
+            Clear-Host
+            Write-Host "[$currentIndex/$totalCount] " -NoNewline -ForegroundColor Green
+            Write-Host $script.Name -ForegroundColor Cyan
+            Write-Host ("=" * 60) -ForegroundColor DarkGray
+            Write-Host ""
+
+            # Display the colorscript
+            $renderedOutput = $null
+            if (-not $NoCache) {
+                Initialize-CacheDirectory
+                $cacheState = Get-CachedOutput -ScriptPath $script.Path
+                if ($cacheState.Available) {
+                    $renderedOutput = $cacheState.Content
+                }
+                else {
+                    $cacheResult = Build-ScriptCache -ScriptPath $script.Path
+                    $renderedOutput = $cacheResult.StdOut
+                }
+            }
+            else {
+                $executionResult = Invoke-ColorScriptProcess -ScriptPath $script.Path
+                $renderedOutput = $executionResult.StdOut
+            }
+
+            if ($renderedOutput) {
+                Invoke-WithUtf8Encoding -ScriptBlock {
+                    param($text)
+                    Write-RenderedText -Text $text
+                } -Arguments @($renderedOutput)
+            }
+
+            # Wait for input if requested
+            if ($WaitForInput -and $currentIndex -lt $totalCount) {
+                Write-Host ""
+                Write-Host "Press [Spacebar] for next, [Q] to quit..." -NoNewline -ForegroundColor Yellow
+
+                $continueLoop = $true
+                while ($continueLoop) {
+                    $key = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
+                    if ($key.VirtualKeyCode -eq 32) { # Spacebar
+                        $continueLoop = $false
+                    }
+                    elseif ($key.Character -eq 'q' -or $key.Character -eq 'Q') {
+                        Write-Host "`nQuitting..." -ForegroundColor Yellow
+                        return
+                    }
+                }
+                Write-Host "" # Clear the prompt line
+            }
+            elseif (-not $WaitForInput -and $currentIndex -lt $totalCount) {
+                # Small delay between scripts when auto-advancing
+                Start-Sleep -Milliseconds 100
+            }
+        }
+
+        Write-Host "`n" -NoNewline
+        Write-Host "Finished displaying all $totalCount colorscripts!" -ForegroundColor Green
         return
     }
 

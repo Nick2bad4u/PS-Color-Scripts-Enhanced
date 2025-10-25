@@ -18,7 +18,6 @@ $bld = "$esc[1m"
 $rst = "$esc[0m"
 
 Write-Host @"
-
  $redf   ▀▄▄███████████  $greenf ▀▄▄███████████  $yellowf ▀▄▄███████████  $bluef ▀▄▄███████████  $purplef ▀▄▄███████████  $cyanf ▀▄▄███████████
  $redf  ▄███▀█▀▀▀        $greenf ▄███▀█▀▀▀       $yellowf ▄███▀█▀▀▀       $bluef ▄███▀█▀▀▀       $purplef ▄███▀█▀▀▀       $cyanf ▄███▀█▀▀▀
  $redf ▐███▄▀            $greenf▐███▄▀           $yellowf▐███▄▀           $bluef▐███▄▀           $purplef▐███▄▀           $cyanf▐███▄▀
@@ -32,4 +31,3 @@ Write-Host @"
  $redfbright  ▀▀▀              $greenfbright ▀▀▀             $yellowfbright ▀▀▀             $bluefbright ▀▀▀             $purplefbright ▀▀▀             $cyanfbright ▀▀▀
  $rst
 "@
-

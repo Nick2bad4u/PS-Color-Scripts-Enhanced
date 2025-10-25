@@ -20,5 +20,4 @@ $reset$white░░░██║░░░$reset  $lightGray█████╗�
 $reset$white░░░██║░░░$reset  $lightGray██╔══╝░░$reset  $gray██╔══██╗$reset  $mediumGray██║╚██╔╝██║$reset  $darkGray██║$reset  $darkerGray██║╚████║$reset  $veryDarkGray██╔══██║$reset  $black██║░░░░░$reset
 $reset$white░░░██║░░░$reset  $lightGray███████╗$reset  $gray██║░░██║$reset  $mediumGray██║░╚═╝░██║$reset  $darkGray██║$reset  $darkerGray██║░╚███║$reset  $veryDarkGray██║░░██║$reset  $black███████╗$reset
 $reset$white░░░╚═╝░░░$reset  $lightGray╚══════╝$reset  $gray╚═╝░░╚═╝$reset  $mediumGray╚═╝░░░░░╚═╝$reset  $darkGray╚═╝$reset  $darkerGray╚═╝░░╚══╝$reset  $veryDarkGray╚═╝░░╚═╝$reset  $black╚══════╝$reset
-
 "@

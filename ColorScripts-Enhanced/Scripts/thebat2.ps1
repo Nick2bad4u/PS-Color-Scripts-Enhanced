@@ -18,7 +18,6 @@ $boldon = "$esc[1m"
 $reset = "$esc[0m"
 
 Write-Host @"
-
  $redf ▄█▀ █ █ ▀█▄   $greenf ▄█▀ █ █ ▀█▄   $yellowf ▄█▀ █ █ ▀█▄   $bluef ▄█▀ █ █ ▀█▄   $purplef ▄█▀ █ █ ▀█▄   $cyanf ▄█▀ █ █ ▀█▄
  $redf███  ███  ███  $greenf███  ███  ███  $yellowf███  ███  ███  $bluef███  ███  ███  $purplef███  ███  ███  $cyanf███  ███  ███
  $redf█████████████  $greenf█████████████  $yellowf█████████████  $bluef█████████████  $purplef█████████████  $cyanf█████████████
@@ -30,5 +29,4 @@ $boldon
  $redfbright█████████████  $greenfbright█████████████  $yellowfbright█████████████  $bluefbright█████████████  $purplefbright█████████████  $cyanfbright█████████████
  $redfbright ▀██▄   ▄██▀   $greenfbright ▀██▄   ▄██▀   $yellowfbright ▀██▄   ▄██▀   $bluefbright ▀██▄   ▄██▀   $purplefbright ▀██▄   ▄██▀   $cyanfbright ▀██▄   ▄██▀
 $reset
-
 "@

@@ -6,8 +6,6 @@ $whiteb = "$esc[47m"
 $reset = "$esc[0m"
 
 Write-Host @"
-
-
                       $blackf▄█████▄$reset
                      $blackf█████████$reset
                     $blackf████████$whiteb▀██$reset
@@ -38,5 +36,4 @@ Write-Host @"
            $blackf▀▀▀▀▀$yellowb▄▄▄█$reset$blackf▀         ▀$yellowb▄    █$reset
                                 $blackf▀▀▀▀$reset
 $reset
-
 "@

@@ -18,8 +18,6 @@ $boldon = "$esc[1m"
 $reset = "$esc[0m"
 
 Write-Host @"
-
  $redf■■■■$reset$boldon$redfbright■■$reset   $greenf■■■■$reset$boldon$greenfbright■■$reset   $yellowf■■■■$reset$boldon$yellowfbright■■$reset   $bluef■■■■$reset$boldon$purplefbright■■$reset   $purplef■■■■$reset$boldon$bluefbright■■$reset   $cyanf■■■■$reset$boldon$cyanfbright■■$reset
  $redf■■$reset$boldon$greenfbright■■$reset$boldon$redfbright■■$reset   $greenf■■$reset$boldon$yellowfbright■■$reset$boldon$greenfbright■■$reset   $yellowf■■$reset$boldon$bluefbright■■$reset$boldon$yellowfbright■■$reset   $bluef■■$reset$purplef■■$reset$boldon$purplefbright■■$reset   $purplef■■$reset$boldon$cyanfbright■■$reset$boldon$bluefbright■■$reset   $cyanf■■$reset$boldon$purplefbright■■$reset$boldon$cyanfbright■■$reset
-
 "@

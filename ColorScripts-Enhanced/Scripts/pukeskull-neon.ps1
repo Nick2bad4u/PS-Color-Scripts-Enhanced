@@ -1,7 +1,6 @@
 $esc = [char]27
 
 Write-Host @"
-
 $esc[1;96m                  .................
 $esc[1;96m             .syhhso++++++++/++osyyhys+.
 $esc[1;96m          -oddyo+o+++++++++++++++o+oo+osdms:
@@ -56,5 +55,4 @@ $esc[1;96m              ``:sNMMMMN'       ``mNMNNNd/``
     $esc[1;91mXXXX$esc[1;92mXXXX$esc[1;96mXXXX$esc[1;97mXXXX$esc[1;93mXXXX$esc[1;92mXXXX$esc[1;96mXXXX$esc[1;95mXXXX$esc[1;91mXXXX$esc[1;95mXXXX$esc[1;96mXXXX$esc[1;94mXXXX
     $esc[1;91mXXXX$esc[1;92mXXXX$esc[1;96mXXXX$esc[1;97mXXXX$esc[1;93mXXXX$esc[1;92mXXXX$esc[1;96mXXXX$esc[1;95mXXXX$esc[1;91mXXXX$esc[1;95mXXXX$esc[1;96mXXXX$esc[1;94mXXXX
     $esc[1;91mXXXX$esc[1;92mXXXX$esc[1;96mXXXX$esc[1;97mXXXX$esc[1;93mXXXX$esc[1;92mXXXX$esc[1;96mXXXX$esc[1;95mXXXX$esc[1;91mXXXX$esc[1;95mXXXX$esc[1;96mXXXX$esc[1;94mXXXX
-
 "@

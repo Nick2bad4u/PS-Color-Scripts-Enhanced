@@ -18,5 +18,4 @@ $reset$blue░░░██║░░░$reset  $darkblue█████╗░
 $reset$darkblue░░░██║░░░$reset  $teal██╔══╝░░$reset  $deepblue██╔══██╗$reset  $lightblue██║╚██╔╝██║$reset  $cyan██║$reset  $blue██║╚████║$reset  $darkblue██╔══██║$reset  $teal██║░░░░░$reset
 $reset$teal░░░██║░░░$reset  $deepblue███████╗$reset  $lightblue██║░░██║$reset  $cyan██║░╚═╝░██║$reset  $blue██║$reset  $darkblue██║░╚███║$reset  $teal██║░░██║$reset  $deepblue███████╗$reset
 $reset$deepblue░░░╚═╝░░░$reset  $lightblue╚══════╝$reset  $cyan╚═╝░░╚═╝$reset  $blue╚═╝░░░░░╚═╝$reset  $darkblue╚═╝$reset  $teal╚═╝░░╚══╝$reset  $deepblue╚═╝░░╚═╝$reset  $lightblue╚══════╝$reset
-
 "@

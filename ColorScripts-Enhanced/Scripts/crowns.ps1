@@ -1,7 +1,6 @@
 $esc = [char]27
 
 Write-Host @"
-
  $esc[1;34m    $esc[0;30m    $esc[5;44m $esc[0;30m$esc[11C$esc[5;42;32m $esc[0;30m$esc[5C$esc[37m $esc[30m$esc[5C$esc[5;46;32m $esc[0;30m$esc[5C$esc[37m $esc[30m$esc[5C$esc[5;41;32m $esc[0;30m$esc[5C$esc[37m $esc[30m$esc[5C$esc[5;45;35m $esc[0;30m$esc[5C$esc[37m $esc[30m$esc[5C$esc[5;43;35m $esc[0m
  $esc[1;34m    $esc[0;30m   $esc[5;44m $esc[0;1;44;34m $esc[0;5;44;30m $esc[0;30m$esc[9C$esc[5;42;32m $esc[0;42;32m $esc[5m $esc[0;30m    $esc[37m $esc[30m    $esc[5;46;32m $esc[0;46;32m $esc[5m $esc[0;30m    $esc[37m $esc[30m    $esc[5;41;32m $esc[0;41;32m $esc[5m $esc[0;30m    $esc[37m $esc[30m    $esc[5;45;35m $esc[0;45;35m $esc[5m $esc[0;30m    $esc[37m $esc[30m    $esc[5;43;35m $esc[0;43;35m $esc[5m $esc[0m
  $esc[1;34m    $esc[0;30m    $esc[5;44m $esc[0;30m$esc[11C$esc[5;42;32m $esc[0;30m$esc[5C$esc[37m $esc[30m$esc[5C$esc[5;46;32m $esc[0;30m$esc[5C$esc[37m $esc[30m$esc[5C$esc[5;41;32m $esc[0;30m$esc[5C$esc[37m $esc[30m$esc[5C$esc[5;45;35m $esc[0;30m$esc[5C$esc[37m $esc[30m$esc[5C$esc[5;43;35m $esc[0m
@@ -13,6 +12,4 @@ $esc[6C$esc[5;1;44;34m       $esc[0m   $esc[30m  $esc[5;42;32m       $esc[0;30m 
 $esc[6C$esc[5;1;44;34m       $esc[0m   $esc[30m  $esc[5;42;32m       $esc[0;30m  $esc[37m $esc[30m  $esc[5;46;32m       $esc[0;30m  $esc[37m $esc[30m  $esc[5;41;32m       $esc[0;30m  $esc[37m $esc[30m  $esc[5;45;35m       $esc[0;30m  $esc[37m $esc[30m  $esc[5;43;35m       $esc[0m
     $esc[47;35m                                                                       $esc[0m
     $esc[5;47;35m                                                                       $esc[0m
-
 "@
-

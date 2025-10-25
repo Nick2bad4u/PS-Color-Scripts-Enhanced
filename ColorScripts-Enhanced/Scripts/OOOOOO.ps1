@@ -11,7 +11,6 @@ $boldon = "$esc[1m"
 $reset = "$esc[0m"
 
 Write-Host @"
-
 $reset$boldon
 $reset$redfbright   ██████╗     $reset$greenfbright  ██████╗     $reset$yellowfbright  ██████╗     $reset$bluefbright  ██████╗     $reset$purplefbright  ██████╗     $reset$cyanfbright  ██████╗
 $reset$redfbright  ██╔═══██╗    $reset$greenfbright ██╔═══██╗    $reset$yellowfbright ██╔═══██╗    $reset$bluefbright ██╔═══██╗    $reset$purplefbright ██╔═══██╗    $reset$cyanfbright ██╔═══██╗
@@ -19,5 +18,4 @@ $reset$redfbright  ██║   ██║    $reset$greenfbright ██║   █�
 $reset$redfbright  ██║   ██║    $reset$greenfbright ██║   ██║    $reset$yellowfbright ██║   ██║    $reset$bluefbright ██║   ██║    $reset$purplefbright ██║   ██║    $reset$cyanfbright ██║   ██║
 $reset$redfbright  ╚██████╔╝    $reset$greenfbright ╚██████╔╝    $reset$yellowfbright ╚██████╔╝    $reset$bluefbright ╚██████╔╝    $reset$purplefbright ╚██████╔╝    $reset$cyanfbright ╚██████╔╝
 $reset$redfbright   ╚═════╝     $reset$greenfbright  ╚═════╝     $reset$yellowfbright  ╚═════╝     $reset$bluefbright  ╚═════╝     $reset$purplefbright  ╚═════╝     $reset$cyanfbright  ╚═════╝ $reset
-
 "@

@@ -8,7 +8,6 @@ $boldon = "$esc[1m"
 $reset = "$esc[0m"
 
 Write-Host @"
-
     $boldon$blackf ██████$reset
    $boldon$blackf██$reset██$reset$bluef██$reset$boldon$blackf██$reset$bluef██$reset
    $boldon$blackf██$reset██$bluef██$reset$boldon$blackf██$reset$bluef██$reset
@@ -19,5 +18,4 @@ Write-Host @"
  $boldon$blackf████$reset████████$boldon$blackf██$reset
    $boldon$blackf████$reset████$boldon$blackf██$reset
   $boldon$blackf███$reset$purplef███   ████$reset
-
 "@

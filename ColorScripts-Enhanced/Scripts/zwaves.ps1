@@ -18,8 +18,6 @@ $bld = "$esc[1m"
 $rst = "$esc[0m"
 
 Write-Host @"
-
  $f1▀■▄ $f2▀■▄ $f3▀■▄ $f4▀■▄ $f5▀■▄ $f6▀■▄
   $bld$fbright1▀■▄ $fbright2▀■▄ $fbright3▀■▄ $fbright4▀■▄ $fbright5▀■▄ $fbright6▀■▄$rst
-
 "@

@@ -2,7 +2,6 @@
 # Conversion date: 2025-10-14T23:50:53.761Z
 
 Write-Host @"
-
      [36m [0m                       [1;36;40m▄[0m       [1;36m I AM [0;36mTIRED[0;1;36m OF EARTH. THESE PEOPLE[0;36m.[0m
 [37m   [0;1;36m▀[0m                                                                      [36m    ▀[0m
 

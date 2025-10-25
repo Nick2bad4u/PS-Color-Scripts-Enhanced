@@ -14,5 +14,4 @@ $reset$orange░░░██║░░░$reset  $purple█████╗░
 $reset$orange░░░██║░░░$reset  $purple██╔══╝░░$reset  $orange██╔══██╗$reset  $purple██║╚██╔╝██║$reset  $orange██║$reset  $purple██║╚████║$reset  $orange██╔══██║$reset  $purple██║░░░░░$reset
 $reset$orange░░░██║░░░$reset  $purple███████╗$reset  $orange██║░░██║$reset  $purple██║░╚═╝░██║$reset  $orange██║$reset  $purple██║░╚███║$reset  $orange██║░░██║$reset  $purple███████╗$reset
 $reset$orange░░░╚═╝░░░$reset  $purple╚══════╝$reset  $orange╚═╝░░╚═╝$reset  $purple╚═╝░░░░░╚═╝$reset  $orange╚═╝$reset  $purple╚═╝░░╚══╝$reset  $orange╚═╝░░╚═╝$reset  $purple╚══════╝$reset
-
 "@

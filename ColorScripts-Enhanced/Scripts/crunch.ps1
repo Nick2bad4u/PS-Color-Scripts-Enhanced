@@ -20,7 +20,6 @@ $boldoff = "$esc[22m"
 $reset = "$esc[0m"
 
 Write-Host @"
-
 $reset$redf  ██  ██   $reset$greenf   ██  ██   $reset$yellowf   ██  ██   $reset$bluef   ██  ██   $reset$purplef   ██  ██   $reset$cyanf   ██  ██   $reset
 $reset$redf██████████ $reset$greenf ██████████ $reset$yellowf ██████████ $reset$bluef ██████████ $reset$purplef ██████████ $reset $cyanf██████████ $reset
 $reset$redf  ██$boldon$redfbright██$boldoff$redf██   $reset$greenf   ██$boldon$greenfbright██$boldoff$greenf██   $reset$yellowf   ██$boldon$yellowfbright██$boldoff$yellowf██   $reset$bluef   ██$boldon$bluefbright██$boldoff$bluef██ $reset$purplef     ██$boldon$purplefbright██$boldoff$purplef██   $reset$cyanf   ██$boldon$cyanfbright██$boldoff$cyanf██   $reset

@@ -9,7 +9,6 @@ $redb = "$esc[41m"
 $reset = "$esc[0m"
 
 Write-Host @"
-
 $boldon$whitefbright    ▄▄▄${reset}
 $boldon$whitefbright ▄█████▄▄ ${reset}
 $boldon$whitefbright███$cyanb▀▀▀▀$blackb▀$cyanb▀$blackb▀$cyanb▀${reset}
@@ -18,5 +17,4 @@ $boldon$whitefbright ▄$cyanb  ${reset}$boldon$whitefbright█████▄ $
 $boldoff$redf▀▀${reset}$boldon$redb$whitefbright▄$cyanb▄   $redb▄▄▄${reset}$boldoff$redf▀██▀${reset}
 $boldon$whitefbright ██▀▀▀██▀  $boldoff$redf▀${reset}
 $boldon$whitefbright ▀▀▀▀ ▀▀▀▀${reset}
-
 "@

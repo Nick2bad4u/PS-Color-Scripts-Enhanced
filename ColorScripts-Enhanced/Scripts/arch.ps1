@@ -16,12 +16,10 @@ $purplefbright = "$esc[95m"
 $cyanfbright = "$esc[96m"
 
 Write-Host @"
-
 $boldon$redfbright        ■      $boldon$greenfbright        ■      $boldon$yellowfbright        ■     $boldon$bluefbright         ■       $boldon$purplefbright       ■      $boldon$cyanfbright        ■   $reset
 $boldon$redfbright       ■■■     $boldon$greenfbright       ■■■     $boldon$yellowfbright       ■■■    $boldon$bluefbright        ■■■      $boldon$purplefbright      ■■■     $boldon$cyanfbright       ■■■  $reset
 $boldon$redfbright      ■■■■■    $boldon$greenfbright      ■■■■■    $boldon$yellowfbright      ■■■■■   $boldon$bluefbright       ■■■■■     $boldon$purplefbright     ■■■■■    $boldon$cyanfbright      ■■■■■ $reset
 $redf     ■(   )■   $greenf     ■(   )■   $yellowf     ■(   )■   $bluef     ■(   )■    $purplef    ■(   )■   $cyanf     ■(   )■   $reset
 $redf    ■■■■ ■■■■  $greenf    ■■■■ ■■■■  $yellowf    ■■■■ ■■■■  $bluef    ■■■■ ■■■■   $purplef   ■■■■ ■■■■  $cyanf    ■■■■ ■■■■  $reset
 $redf   ■■       ■■ $greenf   ■■       ■■ $yellowf   ■■       ■■ $bluef   ■■       ■■  $purplef  ■■       ■■ $cyanf   ■■       ■■ $reset
-
 "@

@@ -31,6 +31,12 @@ Show-ColorScript [-Name] <String> [-NoCache] [-Category <String[]>] [-Tag <Strin
 Show-ColorScript [-List] [-Category <String[]>] [-Tag <String[]>] [<CommonParameters>]
 ```
 
+### All
+
+```
+Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [<CommonParameters>]
+```
+
 ## DESCRIPTION
 
 Shows a beautiful ANSI colorscript in your terminal. If no name is specified, displays a random script. Uses intelligent caching for 6-19x faster performance.
@@ -38,6 +44,8 @@ Shows a beautiful ANSI colorscript in your terminal. If no name is specified, di
 The first time a colorscript is displayed, it executes normally and the output is cached. Subsequent displays use the cached output for near-instant rendering. Cache is automatically invalidated when the source script is modified.
 
 When multiple scripts match a wildcard pattern, the first match in alphabetical order is displayed. Use `-PassThru` to inspect the selected record when needed.
+
+Use `-All` to cycle through all colorscripts in alphabetical order. Combine with `-WaitForInput` to pause between each script and press spacebar to continue.
 
 ## EXAMPLES
 
@@ -105,6 +113,30 @@ Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt
 
 Emit the rendered colorscript as plain text so it can be redirected or saved.
 
+### EXAMPLE 9
+
+```powershell
+Show-ColorScript -All
+```
+
+Displays all colorscripts in alphabetical order continuously with a short delay between each.
+
+### EXAMPLE 10
+
+```powershell
+Show-ColorScript -All -WaitForInput
+```
+
+Displays all colorscripts one at a time, waiting for spacebar press between each. Press 'q' to quit early.
+
+### EXAMPLE 11
+
+```powershell
+Show-ColorScript -All -Category Nature -WaitForInput
+```
+
+Cycles through all nature-themed colorscripts with manual progression using spacebar.
+
 ## PARAMETERS
 
 ### -Name
@@ -146,6 +178,38 @@ Explicitly request a random colorscript (default behavior).
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Random
+Aliases:
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -All
+
+Cycle through all available colorscripts in alphabetical order. Use with `-WaitForInput` to pause between each script.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: All
+Aliases:
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -WaitForInput
+
+When used with `-All`, pause after each colorscript and wait for spacebar to continue. Press 'q' to quit early.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: All
 Aliases:
 
 Required: False

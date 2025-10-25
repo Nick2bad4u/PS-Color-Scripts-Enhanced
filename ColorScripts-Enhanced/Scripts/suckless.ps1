@@ -11,5 +11,4 @@ $bold$blue                  __    __
 |__ --|  |  |  __|    <|  |  -__|__ --|__ --|
 |_____|_____|____|__|__|__|_____|_____|_____|
 $reset$cyan          software that sucks less$reset
-
 "@

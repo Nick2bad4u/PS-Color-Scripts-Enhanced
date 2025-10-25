@@ -20,7 +20,6 @@ $OFF = "$esc[22m"
 $reset = "$esc[0m"
 
 Write-Host @"
-
                        $blf██                               $blf████                    $blf████                    $blf████                    $blf████                    $blf████
                      $blf██$yf██$blf██                           $blf██$gf$ON$gfbright██$OFF$gf██$blf██                $blf██$bf$ON$bfbright██$OFF$bf██$blf██                $blf██$rf$ON$rfbright██$OFF$rf██$blf██                $blf██$pf$ON$pfbright██$OFF$pf██$blf██                $blf██$cf$ON$cfbright██$OFF$cf██$blf██
                    $blf██$yf██████$blf██                       $blf██$gf$ON$gfbright████$OFF$gf████$blf██            $blf██$bf$ON$bfbright████$OFF$bf████$blf██            $blf██$rf$ON$rfbright████$OFF$rf████$blf██            $blf██$pf$ON$pfbright████$OFF$pf████$blf██            $blf██$cf$ON$cfbright████$OFF$cf████$blf██
@@ -38,5 +37,4 @@ Write-Host @"
      $blf██$yf██$ON$yfbright████$OFF$yf████████$blf██  ██$yf██████$ON$yfbright████$OFF$yf████$blf██         $blf██$gf████████$blf██            $blf██$bf████████$blf██            $blf██$rf████████$blf██            $blf██$pf████████$blf██            $blf██$cf████████$blf██
      $blf██$yf████$ON$yfbright██$OFF$yf████████$blf██  ██$yf████████$ON$yfbright██$OFF$yf████$blf██           $blf██$gf████$blf██                $blf██$bf████$blf██                $blf██$rf████$blf██                $blf██$pf████$blf██                $blf██$cf████$blf██
      $blf██████████████████████████████████████             $blf████                    $blf████                    $blf████                    $blf████                    $blf████$reset
-
 "@

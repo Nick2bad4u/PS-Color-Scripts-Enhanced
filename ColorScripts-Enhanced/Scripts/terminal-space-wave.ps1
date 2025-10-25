@@ -18,5 +18,4 @@ $reset$black░░░██║░░░$reset  $gray█████╗░░
 $reset$gray░░░██║░░░$reset  $navy██╔══╝░░$reset  $indigo██╔══██╗$reset  $darkblue██║╚██╔╝██║$reset  $purple██║$reset  $black██║╚████║$reset  $gray██╔══██║$reset  $navy██║░░░░░$reset
 $reset$navy░░░██║░░░$reset  $indigo███████╗$reset  $darkblue██║░░██║$reset  $purple██║░╚═╝░██║$reset  $black██║$reset  $gray██║░╚███║$reset  $navy██║░░██║$reset  $indigo███████╗$reset
 $reset$indigo░░░╚═╝░░░$reset  $darkblue╚══════╝$reset  $purple╚═╝░░╚═╝$reset  $black╚═╝░░░░░╚═╝$reset  $gray╚═╝$reset  $navy╚═╝░░╚══╝$reset  $indigo╚═╝░░╚═╝$reset  $darkblue╚══════╝$reset
-
 "@

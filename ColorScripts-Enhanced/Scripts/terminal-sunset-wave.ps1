@@ -18,5 +18,4 @@ $reset$purple░░░██║░░░$reset  $red█████╗░░
 $reset$red░░░██║░░░$reset  $peach██╔══╝░░$reset  $coral██╔══██╗$reset  $orange██║╚██╔╝██║$reset  $pink██║$reset  $purple██║╚████║$reset  $red██╔══██║$reset  $peach██║░░░░░$reset
 $reset$peach░░░██║░░░$reset  $coral███████╗$reset  $orange██║░░██║$reset  $pink██║░╚═╝░██║$reset  $purple██║$reset  $red██║░╚███║$reset  $peach██║░░██║$reset  $coral███████╗$reset
 $reset$coral░░░╚═╝░░░$reset  $orange╚══════╝$reset  $pink╚═╝░░╚═╝$reset  $purple╚═╝░░░░░╚═╝$reset  $red╚═╝$reset  $peach╚═╝░░╚══╝$reset  $coral╚═╝░░╚═╝$reset  $orange╚══════╝$reset
-
 "@

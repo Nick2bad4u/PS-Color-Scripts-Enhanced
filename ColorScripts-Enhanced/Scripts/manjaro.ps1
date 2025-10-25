@@ -18,11 +18,9 @@ $boldon = "$esc[1m"
 $reset = "$esc[0m"
 
 Write-Host @"
-
 $reset$redf ███████ ███   $greenf  ███████ ███   $yellowf  ███████ ███   $bluef  ███████ ███   $purplef  ███████ ███   $cyanf  ███████ ███
 $reset$redf ███ $boldon$redfbright▄▄▄$reset$redf ███   $greenf  ███ $boldon$greenfbright▄▄▄$reset$greenf ███   $yellowf  ███ $boldon$yellowfbright▄▄▄$reset$yellowf ███   $bluef  ███ $boldon$bluefbright▄▄▄$reset$bluef ███   $purplef  ███ $boldon$purplefbright▄▄▄$reset$purplef ███   $cyanf  ███ $boldon$cyanfbright▄▄▄$reset$cyanf ███
 $reset$redf ███ $boldon$redfbright███$reset$redf ███   $greenf  ███ $boldon$greenfbright███$reset$greenf ███   $yellowf  ███ $boldon$yellowfbright███$reset$yellowf ███   $bluef  ███ $boldon$bluefbright███$reset$bluef ███   $purplef  ███ $boldon$purplefbright███$reset$purplef ███   $cyanf  ███ $boldon$cyanfbright███$reset$cyanf ███
 $reset$redf ███ $boldon$redfbright███$reset$redf ███   $greenf  ███ $boldon$greenfbright███$reset$greenf ███   $yellowf  ███ $boldon$yellowfbright███$reset$yellowf ███   $bluef  ███ $boldon$bluefbright███$reset$bluef ███   $purplef  ███ $boldon$purplefbright███$reset$purplef ███   $cyanf  ███ $boldon$cyanfbright███$reset$cyanf ███
 $reset$redf ▀▀▀ $boldon$redfbright▀▀▀$reset$redf ▀▀▀   $greenf  ▀▀▀ $boldon$greenfbright▀▀▀$reset$greenf ▀▀▀   $yellowf  ▀▀▀ $boldon$yellowfbright▀▀▀$reset$yellowf ▀▀▀   $bluef  ▀▀▀ $boldon$bluefbright▀▀▀$reset$bluef ▀▀▀   $purplef  ▀▀▀ $boldon$purplefbright▀▀▀$reset$purplef ▀▀▀   $cyanf  ▀▀▀ $boldon$cyanfbright▀▀▀$reset$cyanf ▀▀▀ $reset
-
 "@

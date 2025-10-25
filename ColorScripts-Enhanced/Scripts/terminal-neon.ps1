@@ -20,5 +20,4 @@ $reset$neonGreen░░░██║░░░$reset  $neonBlue█████�
 $reset$neonGreen░░░██║░░░$reset  $neonBlue██╔══╝░░$reset  $neonPink██╔══██╗$reset  $neonOrange██║╚██╔╝██║$reset  $neonYellow██║$reset  $neonPurple██║╚████║$reset  $neonRed██╔══██║$reset  $neonCyan██║░░░░░$reset
 $reset$neonGreen░░░██║░░░$reset  $neonBlue███████╗$reset  $neonPink██║░░██║$reset  $neonOrange██║░╚═╝░██║$reset  $neonYellow██║$reset  $neonPurple██║░╚███║$reset  $neonRed██║░░██║$reset  $neonCyan███████╗$reset
 $reset$neonGreen░░░╚═╝░░░$reset  $neonBlue╚══════╝$reset  $neonPink╚═╝░░╚═╝$reset  $neonOrange╚═╝░░░░░╚═╝$reset  $neonYellow╚═╝$reset  $neonPurple╚═╝░░╚══╝$reset  $neonRed╚═╝░░╚═╝$reset  $neonCyan╚══════╝$reset
-
 "@

@@ -18,12 +18,10 @@ $boldon = "$esc[1m"
 $reset = "$esc[0m"
 
 Write-Host @"
-
  $white╔══════════════════════════════════════════════════════════════════╗
  $white║ $redf  ▄█ █▄$reset    $greenf  ▄█ █▄$reset    $yellowf  ▄█ █▄$reset    $bluef  ▄█ █▄$reset    $purplef  ▄█ █▄$reset    $cyanf  ▄█ █▄$reset   $white║
  $white║ $boldon$redfbright▄█◄► ◄►█▄$reset  $boldon$greenfbright▄█◄► ◄►█▄$reset  $boldon$yellowfbright▄█◄► ◄►█▄$reset  $boldon$bluefbright▄█◄► ◄►█▄$reset  $boldon$purplefbright▄█◄► ◄►█▄$reset  $boldon$cyanfbright▄█◄► ◄►█▄$reset $white║
  $white║ $boldon$redfbright▀█     █▀$reset  $boldon$greenfbright▀█     █▀$reset  $boldon$yellowfbright▀█     █▀$reset  $boldon$bluefbright▀█     █▀$reset  $boldon$purplefbright▀█     █▀$reset  $boldon$cyanfbright▀█     █▀$reset $white║
  $white║ $redf  ▀█ █▀$reset    $greenf  ▀█ █▀$reset    $yellowf  ▀█ █▀$reset    $bluef  ▀█ █▀$reset    $purplef  ▀█ █▀$reset    $cyanf  ▀█ █▀$reset   $white║
  $white╚══════════════════════════════════════════════════════════════════╝
-
 "@

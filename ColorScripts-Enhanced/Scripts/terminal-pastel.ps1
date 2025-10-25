@@ -20,5 +20,4 @@ $reset$pastelRed░░░██║░░░$reset  $pastelOrange████
 $reset$pastelRed░░░██║░░░$reset  $pastelOrange██╔══╝░░$reset  $pastelYellow██╔══██╗$reset  $pastelGreen██║╚██╔╝██║$reset  $pastelBlue██║$reset  $pastelPurple██║╚████║$reset  $pastelPink██╔══██║$reset  $pastelCyan██║░░░░░$reset
 $reset$pastelRed░░░██║░░░$reset  $pastelOrange███████╗$reset  $pastelYellow██║░░██║$reset  $pastelGreen██║░╚═╝░██║$reset  $pastelBlue██║$reset  $pastelPurple██║░╚███║$reset  $pastelPink██║░░██║$reset  $pastelCyan███████╗$reset
 $reset$pastelRed░░░╚═╝░░░$reset  $pastelOrange╚══════╝$reset  $pastelYellow╚═╝░░╚═╝$reset  $pastelGreen╚═╝░░░░░╚═╝$reset  $pastelBlue╚═╝$reset  $pastelPurple╚═╝░░╚══╝$reset  $pastelPink╚═╝░░╚═╝$reset  $pastelCyan╚══════╝$reset
-
 "@

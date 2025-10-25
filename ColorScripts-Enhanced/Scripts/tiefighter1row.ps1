@@ -9,12 +9,10 @@ $cyanf = "$esc[36m"
 $reset = "$esc[0m"
 
 Write-Host @"
-
 $greenf█         █   $redf█         █   $bluef█         █   $purplef█         █   $cyanf█         █
 $greenf█   ▄▄▄   █   $redf█   ▄▄▄   █   $bluef█   ▄▄▄   █   $purplef█   ▄▄▄   █   $cyanf█   ▄▄▄   █
 $greenf█▄▄██▀██▄▄█   $redf█▄▄██▀██▄▄█   $bluef█▄▄██▀██▄▄█   $purplef█▄▄██▀██▄▄█   $cyanf█▄▄██▀██▄▄█
 $greenf█▀▀█████▀▀█   $redf█▀▀█████▀▀█   $bluef█▀▀█████▀▀█   $purplef█▀▀█████▀▀█   $cyanf█▀▀█████▀▀█
 $greenf█   ▀▀▀   █   $redf█   ▀▀▀   █   $bluef█   ▀▀▀   █   $purplef█   ▀▀▀   █   $cyanf█   ▀▀▀   █
 $greenf█         █   $redf█         █   $bluef█         █   $purplef█         █   $cyanf█         █ $reset
-
 "@

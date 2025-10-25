@@ -34,6 +34,25 @@
 .PARAMETER ShowSummary
     Show only a summary of results. Default is true.
 
+.PARAMETER ConvertToScripts
+    Automatically convert normal-sized files to PowerShell ColorScripts using Convert-AnsiToColorScript.js.
+
+.PARAMETER ConvertOutputDir
+    Directory where converted PowerShell scripts will be saved. Defaults to .\ColorScripts-Enhanced\Scripts.
+
+.PARAMETER StripSpaceBackground
+    When converting, strip background color from plain space characters.
+
+.PARAMETER ExcludeRegularAscii
+    Exclude files that contain only regular ASCII characters (0-127) without extended ASCII or ANSI escape sequences.
+
+.PARAMETER AsciiCharLimit
+    Exclude files where visible text characters exceed this limit.
+    Use with -ExcludeRegularAscii to filter text-heavy files.
+    - Set to 0: Exclude any file with visible text but little/no extended ASCII art
+    - Set to N: Exclude files with more than N text characters
+    Useful for filtering out artist info cards, copyright notices, etc. Default is 0 (disabled).
+
 .EXAMPLE
     .\Analyze-UnusedAnsiFiles.ps1
     Analyzes all files in the unused-ansi-files folder with default size limits.
@@ -45,6 +64,14 @@
 .EXAMPLE
     .\Analyze-UnusedAnsiFiles.ps1 -OutputCsv "results.csv" -CopyToFolder "normal-size-ansi"
     Analyzes files, saves results to CSV, and copies suitable files to a folder.
+
+.EXAMPLE
+    .\Analyze-UnusedAnsiFiles.ps1 -ExcludeRegularAscii -ShowSummary
+    Analyzes files but excludes those containing only regular ASCII characters (no extended ASCII or ANSI colors).
+
+.EXAMPLE
+    .\Analyze-UnusedAnsiFiles.ps1 -AsciiCharLimit 50 -ShowSummary
+    Analyzes files but excludes those with more than 50 visible text characters (like artist info cards).
 #>
 
 [CmdletBinding()]
@@ -77,7 +104,13 @@ param(
     [string]$ConvertOutputDir = ".\ColorScripts-Enhanced\Scripts",
 
     [Parameter()]
-    [switch]$StripSpaceBackground
+    [switch]$StripSpaceBackground,
+
+    [Parameter()]
+    [switch]$ExcludeRegularAscii,
+
+    [Parameter()]
+    [int]$AsciiCharLimit = 0
 )
 
 $ErrorActionPreference = 'Continue'
@@ -214,6 +247,47 @@ function Get-AnsiDimension {
     }
 }
 
+# Helper function to count ASCII characters in content
+function Get-AsciiCharCount {
+    param(
+        [string]$Content
+    )
+
+    # Remove ANSI escape sequences first
+    $cleanContent = $Content -replace '\x1b\[[0-9;]*[a-zA-Z]', ''
+
+    # Count different types of characters
+    $extendedAsciiCount = 0      # Box drawing, special chars (128-255)
+    $visibleTextCount = 0        # Regular printable ASCII (letters, numbers, punctuation)
+    $whitespaceCount = 0         # Spaces, tabs, newlines
+    $hasExtendedAscii = $false
+
+    for ($i = 0; $i -lt $cleanContent.Length; $i++) {
+        $charCode = [int][char]$cleanContent[$i]
+
+        # Check for extended ASCII (128-255) - used in box drawing, etc.
+        if ($charCode -ge 128 -and $charCode -le 255) {
+            $hasExtendedAscii = $true
+            $extendedAsciiCount++
+        }
+        # Visible text characters (letters, numbers, punctuation)
+        elseif (($charCode -ge 33 -and $charCode -le 126) -or ($charCode -ge 65 -and $charCode -le 90) -or ($charCode -ge 97 -and $charCode -le 122) -or ($charCode -ge 48 -and $charCode -le 57)) {
+            $visibleTextCount++
+        }
+        # Whitespace
+        elseif ($charCode -eq 32 -or $charCode -eq 9 -or $charCode -eq 10 -or $charCode -eq 13) {
+            $whitespaceCount++
+        }
+    }
+
+    return @{
+        ExtendedAsciiCount = $extendedAsciiCount
+        VisibleTextCount   = $visibleTextCount
+        WhitespaceCount    = $whitespaceCount
+        HasExtendedAscii   = $hasExtendedAscii
+        TotalAsciiChars    = $asciiCount + $regularAsciiOnlyCount
+    }
+}
 # Main analysis function
 function Test-AnsiFile {
     param(
@@ -244,8 +318,78 @@ function Test-AnsiFile {
             }
         }
 
+        # Check for regular ASCII characters if exclusion flag is set
+        if ($ExcludeRegularAscii) {
+            $hasExtendedAscii = $false
+            $hasAnsiEscapes = $content -match '\x1b\['
+
+            # Check for extended ASCII characters (128-255) or ANSI escape sequences
+            foreach ($char in $content.ToCharArray()) {
+                if ([int]$char -gt 127) {
+                    $hasExtendedAscii = $true
+                    break
+                }
+            }
+
+            # If file contains only regular ASCII and no ANSI escapes, exclude it
+            if (-not $hasExtendedAscii -and -not $hasAnsiEscapes) {
+                return [PSCustomObject]@{
+                    FileName     = $FileInfo.Name
+                    FilePath     = $FileInfo.FullName
+                    Width        = 0
+                    Height       = 0
+                    Source       = "Regular ASCII only"
+                    IsNormalSize = $false
+                    FileSizeKB   = [Math]::Round($FileInfo.Length / 1KB, 2)
+                    Error        = "Excluded: Contains only regular ASCII characters"
+                }
+            }
+        }
+
         # Calculate dimensions
         $dimensions = Get-AnsiDimension -Content $content -Sauce $result.Sauce
+
+        # Check ASCII character limit if specified
+        if ($AsciiCharLimit -ge 0 -and $ExcludeRegularAscii) {
+            $asciiInfo = Get-AsciiCharCount -Content $content
+
+            # If limit is 0, exclude files with significant text but little art
+            if ($AsciiCharLimit -eq 0) {
+                # Exclude if file has lots of text but very few extended ASCII art characters
+                # This filters out info cards, copyright notices, etc.
+                $artToTextRatio = if ($asciiInfo.VisibleTextCount -gt 0) {
+                    $asciiInfo.ExtendedAsciiCount / $asciiInfo.VisibleTextCount
+                }
+                else { 1.0 }
+
+                # If less than 10% of content is art characters, it's probably a text file
+                if ($asciiInfo.VisibleTextCount -gt 50 -and $artToTextRatio -lt 0.1) {
+                    return [PSCustomObject]@{
+                        FileName     = $FileInfo.Name
+                        FilePath     = $FileInfo.FullName
+                        Width        = $dimensions.Width
+                        Height       = $dimensions.Height
+                        Source       = $dimensions.Source
+                        IsNormalSize = $false
+                        FileSizeKB   = [Math]::Round($FileInfo.Length / 1KB, 2)
+                        Error        = "Excluded: Text-heavy file ($($asciiInfo.VisibleTextCount) text chars, $($asciiInfo.ExtendedAsciiCount) art chars, ratio: $([Math]::Round($artToTextRatio, 2)))"
+                    }
+                }
+            }
+            # Otherwise use the explicit limit
+            elseif ($asciiInfo.VisibleTextCount -gt $AsciiCharLimit) {
+                return [PSCustomObject]@{
+                    FileName     = $FileInfo.Name
+                    FilePath     = $FileInfo.FullName
+                    Width        = $dimensions.Width
+                    Height       = $dimensions.Height
+                    Source       = $dimensions.Source
+                    IsNormalSize = $false
+                    FileSizeKB   = [Math]::Round($FileInfo.Length / 1KB, 2)
+                    Error        = "Excluded: Contains $($asciiInfo.VisibleTextCount) visible text chars (limit: $AsciiCharLimit)"
+                }
+            }
+        }
 
         # Determine if it's within normal terminal size
         $isNormalSize = $dimensions.Width -le $MaxWidth -and $dimensions.Height -le $MaxHeight
@@ -383,7 +527,8 @@ Write-Progress -Activity "Analyzing ANSI files" -Completed
 
 # Generate summary
 $normalSizeFiles = $results | Where-Object { $_.IsNormalSize -and -not $_.Error }
-$oversizedFiles = $results | Where-Object { -not $_.IsNormalSize -and -not $_.Error }
+$oversizedFiles = $results | Where-Object { -not $_.IsNormalSize -and -not $_.Error -and $_.Source -ne "Regular ASCII only" }
+$asciiOnlyFiles = $results | Where-Object { $_.Source -eq "Regular ASCII only" }
 $errorFiles = $results | Where-Object { $_.Error }
 
 if ($ShowSummary) {
@@ -392,6 +537,9 @@ if ($ShowSummary) {
     Write-Host "Total files analyzed: $($results.Count)" -ForegroundColor White
     Write-Host "Normal size files: $($normalSizeFiles.Count)" -ForegroundColor Green
     Write-Host "Oversized files: $($oversizedFiles.Count)" -ForegroundColor Red
+    if ($ExcludeRegularAscii) {
+        Write-Host "ASCII-only files (excluded): $($asciiOnlyFiles.Count)" -ForegroundColor Gray
+    }
     Write-Host "Files with errors: $($errorFiles.Count)" -ForegroundColor Yellow
 
     Write-Host "`n[NORMAL] NORMAL SIZE FILES (Width ≤ $MaxWidth, Height ≤ $MaxHeight):" -ForegroundColor Green
