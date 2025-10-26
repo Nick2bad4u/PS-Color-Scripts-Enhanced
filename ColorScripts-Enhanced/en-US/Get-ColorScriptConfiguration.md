@@ -1,8 +1,10 @@
----
+﻿---
+document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
+HelpUri: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
 Module Name: ColorScripts-Enhanced
-online version: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
-schema: 2.0.0
+ms.date: 10/26/2025
+PlatyPS schema version: 2024-05-01
 ---
 
 # Get-ColorScriptConfiguration
@@ -13,9 +15,19 @@ Return the current ColorScripts-Enhanced configuration values.
 
 ## SYNTAX
 
+### Default (Default)
+
 ```
 Get-ColorScriptConfiguration [<CommonParameters>]
 ```
+
+### __AllParameterSets
+
+```
+Get-ColorScriptConfiguration [<CommonParameters>]
+```
+
+## ALIASES
 
 ## DESCRIPTION
 
@@ -45,7 +57,10 @@ Serialises the configuration to JSON for logging or exporting.
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, and -WarningAction. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -65,6 +80,6 @@ The configuration is initialised automatically when the module loads. Calling th
 
 ## RELATED LINKS
 
-[Set-ColorScriptConfiguration](Set-ColorScriptConfiguration.md)
-[Reset-ColorScriptConfiguration](Reset-ColorScriptConfiguration.md)
-[Show-ColorScript](Show-ColorScript.md)
+- [Set-ColorScriptConfiguration](Set-ColorScriptConfiguration.md)
+- [Reset-ColorScriptConfiguration](Reset-ColorScriptConfiguration.md)
+- [Show-ColorScript](Show-ColorScript.md)

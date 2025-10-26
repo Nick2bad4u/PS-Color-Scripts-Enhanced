@@ -1,8 +1,10 @@
----
+﻿---
+document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
+HelpUri: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
 Module Name: ColorScripts-Enhanced
-online version: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
-schema: 2.0.0
+ms.date: 10/26/2025
+PlatyPS schema version: 2024-05-01
 ---
 
 # Show-ColorScript
@@ -16,26 +18,32 @@ Displays a colorscript with automatic caching.
 ### Random (Default)
 
 ```
-Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru] [-ReturnText] [<CommonParameters>]
+Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru]
+ [-ReturnText] [<CommonParameters>]
 ```
 
 ### Named
 
 ```
-Show-ColorScript [-Name] <String> [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru] [-ReturnText] [<CommonParameters>]
+Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-PassThru]
+ [-ReturnText] [<CommonParameters>]
 ```
 
 ### List
 
 ```
-Show-ColorScript [-List] [-Category <String[]>] [-Tag <String[]>] [<CommonParameters>]
+Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-ReturnText]
+ [<CommonParameters>]
 ```
 
 ### All
 
 ```
-Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [<CommonParameters>]
+Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
+ [<CommonParameters>]
 ```
+
+## ALIASES
 
 ## DESCRIPTION
 
@@ -139,68 +147,208 @@ Cycles through all nature-themed colorscripts with manual progression using spac
 
 ## PARAMETERS
 
-### -Name
-
-The name of the colorscript to display (without .ps1 extension).
-
-```yaml
-Type: String
-Parameter Sets: Named
-Aliases:
-
-Required: False
-Position: 1
-Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
-Accept wildcard characters: True
-```
-
-### -List
-
-Lists all available colorscripts instead of displaying one.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: List
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Random
-
-Explicitly request a random colorscript (default behavior).
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: Random
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -All
 
 Cycle through all available colorscripts in alphabetical order. Use with `-WaitForInput` to pause between each script.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: All
-Aliases:
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
 
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
+### -Category
+
+Filter the available script set by one or more categories before selection occurs.
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -List
+
+Lists all available colorscripts instead of displaying one.
+Lists all available colorscripts.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: List
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Name
+
+The name of the colorscript to display (without .ps1 extension).
+The name of the colorscript to display (without .ps1 extension).
+Supports wildcards for partial matches.
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: true
+Aliases: []
+ParameterSets:
+- Name: Named
+  Position: 0
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -NoCache
+
+Bypass cache and execute script directly. Useful for testing or when cache is corrupted.
+Bypass cache and execute script directly.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -PassThru
+
+Return the selected script metadata object in addition to displaying output.
+Return the selected script metadata in addition to rendering output.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: Random
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Named
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Random
+
+Explicitly request a random colorscript (default behavior).
+Display a random colorscript (default behavior).
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: Random
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -ReturnText
+
+Emit the rendered colorscript as pipeline output instead of writing directly to the console. This is useful when you want to capture the rendered text or redirect it to another command.
+Emit the rendered colorscript as pipeline output instead of writing directly to the console.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+- AsString
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Tag
+
+Filter scripts by metadata tags (case-insensitive) before selection occurs.
+Filter the available script set by tag metadata (case-insensitive).
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -WaitForInput
@@ -209,99 +357,27 @@ When used with `-All`, pause after each colorscript and wait for spacebar to con
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: All
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -NoCache
-
-Bypass cache and execute script directly. Useful for testing or when cache is corrupted.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Category
-
-Filter the available script set by one or more categories before selection occurs.
-
-```yaml
-Type: String[]
-Parameter Sets: Random, Named, List
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Tag
-
-Filter scripts by metadata tags (case-insensitive) before selection occurs.
-
-```yaml
-Type: String[]
-Parameter Sets: Random, Named, List
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -PassThru
-
-Return the selected script metadata object in addition to displaying output.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: Random, Named
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ReturnText
-
-Emit the rendered colorscript as pipeline output instead of writing directly to the console. This is useful when you want to capture the rendered text or redirect it to another command.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: Random, Named
-Aliases: AsString
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -326,7 +402,7 @@ Cache location: determined by the module (see `Get-Module ColorScripts-Enhanced`
 
 ## RELATED LINKS
 
-[Get-ColorScriptList](Get-ColorScriptList.md)
-[Build-ColorScriptCache](Build-ColorScriptCache.md)
-[Clear-ColorScriptCache](Clear-ColorScriptCache.md)
-[Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+- [Get-ColorScriptList](Get-ColorScriptList.md)
+- [Build-ColorScriptCache](Build-ColorScriptCache.md)
+- [Clear-ColorScriptCache](Clear-ColorScriptCache.md)
+- [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)

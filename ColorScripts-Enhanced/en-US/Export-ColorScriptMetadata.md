@@ -1,8 +1,10 @@
----
+﻿---
+document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
+HelpUri: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
 Module Name: ColorScripts-Enhanced
-online version: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
-schema: 2.0.0
+ms.date: 10/26/2025
+PlatyPS schema version: 2024-05-01
 ---
 
 # Export-ColorScriptMetadata
@@ -13,9 +15,21 @@ Export metadata for every colorscript to JSON or emit it directly to the pipelin
 
 ## SYNTAX
 
+### Default (Default)
+
 ```
-Export-ColorScriptMetadata [-Path <String>] [-IncludeFileInfo] [-IncludeCacheInfo] [-PassThru] [<CommonParameters>]
+Export-ColorScriptMetadata [-Path <String>] [-IncludeFileInfo] [-IncludeCacheInfo] [-PassThru]
+ [<CommonParameters>]
 ```
+
+### __AllParameterSets
+
+```
+Export-ColorScriptMetadata [[-Path] <string>] [-IncludeFileInfo] [-IncludeCacheInfo] [-PassThru]
+ [<CommonParameters>]
+```
+
+## ALIASES
 
 ## DESCRIPTION
 
@@ -54,70 +68,98 @@ Writes the metadata file and also returns the objects to the pipeline, enabling 
 ### -IncludeCacheInfo
 
 Augment each record with cache metadata, including the cache file path, whether it exists, and its last modification time.
+Attach cache metadata including the cache location, whether a cache file exists, and its timestamp.
 
 ```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -IncludeFileInfo
 
 Include file system details (full path, size, and last write time) in each record. Errors encountered while reading file metadata are reported via verbose output and result in null values.
+Attach file system information (full path, file size, and last write time) for each colorscript.
 
 ```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -PassThru
 
 Return the metadata objects even when `-Path` is specified.
+Return the in-memory objects even when writing to a file.
 
 ```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Path
 
 Destination path for the JSON export. Supports relative paths, environment variables, and `~` expansion. When omitted, the cmdlet outputs objects to the pipeline.
+Destination file path for the JSON output.
+When omitted, objects are emitted to the pipeline.
 
 ```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: 0
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, and -WarningAction. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -127,7 +169,7 @@ This cmdlet does not accept pipeline input.
 
 ## OUTPUTS
 
-### System.Object[]
+### System.Object
 
 Each object describes a colorscript, its tag and category metadata, and optional file or cache details.
 
@@ -137,6 +179,6 @@ Cache metadata is collected after ensuring the cache directory exists. When cach
 
 ## RELATED LINKS
 
-[Build-ColorScriptCache](Build-ColorScriptCache.md)
-[Get-ColorScriptList](Get-ColorScriptList.md)
-[Clear-ColorScriptCache](Clear-ColorScriptCache.md)
+- [Build-ColorScriptCache](Build-ColorScriptCache.md)
+- [Get-ColorScriptList](Get-ColorScriptList.md)
+- [Clear-ColorScriptCache](Clear-ColorScriptCache.md)

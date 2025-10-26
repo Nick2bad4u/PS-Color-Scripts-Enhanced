@@ -1,8 +1,10 @@
----
+﻿---
+document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
+HelpUri: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
 Module Name: ColorScripts-Enhanced
-online version: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
-schema: 2.0.0
+ms.date: 10/26/2025
+PlatyPS schema version: 2024-05-01
 ---
 
 # Get-ColorScriptList
@@ -13,9 +15,21 @@ Lists available colorscripts and optionally returns rich metadata.
 
 ## SYNTAX
 
+### Default (Default)
+
 ```
-Get-ColorScriptList [-AsObject] [-Detailed] [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [<CommonParameters>]
+Get-ColorScriptList [-AsObject] [-Detailed] [-Name <String[]>] [-Category <String[]>]
+ [-Tag <String[]>] [<CommonParameters>]
 ```
+
+### __AllParameterSets
+
+```
+Get-ColorScriptList [[-Name] <string[]>] [[-Category] <string[]>] [[-Tag] <string[]>] [-AsObject]
+ [-Detailed] [<CommonParameters>]
+```
+
+## ALIASES
 
 ## DESCRIPTION
 
@@ -60,86 +74,120 @@ Retrieve scripts tagged as recommended for profile usage.
 ### -AsObject
 
 Return metadata records instead of writing a formatted table to the host.
+return raw record objects instead of rendering a formatted table.
 
 ```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Detailed
-
-Include tag and description columns when rendering the formatted table view.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Name
-
-Filter by one or more script names. Wildcards are supported and unmatched patterns generate warnings.
-
-```yaml
-Type: String[]
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: True
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Category
 
 Limit results to scripts whose metadata includes the specified categories (case-insensitive).
+Filter the list to scripts belonging to one or more categories (case-insensitive).
 
 ```yaml
-Type: String[]
-Parameter Sets: (All)
-Aliases:
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: 1
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
 
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+### -Detailed
+
+Include tag and description columns when rendering the formatted table view.
+Include tag and description columns when emitting the formatted table view.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Name
+
+Filter by one or more script names. Wildcards are supported and unmatched patterns generate warnings.
+Filter the colorscript list by one or more names.
+Wildcards are supported and unmatched patterns generate warnings.
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: true
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: 0
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Tag
 
 Limit results to scripts tagged with the supplied metadata tags (case-insensitive).
+Filter the list to scripts containing one or more metadata tags (case-insensitive).
 
 ```yaml
-Type: String[]
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: 2
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -149,7 +197,7 @@ This cmdlet does not accept pipeline input.
 
 ## OUTPUTS
 
-### System.Object[]
+### System.Object
 
 Returns colorscript metadata records when `-AsObject` is used. Without `-AsObject` the cmdlet writes a formatted table to the host and still returns the records for further processing.
 
@@ -162,6 +210,6 @@ Returned records expose `Name`, `Category`, `Categories`, `Tags`, `Description`,
 
 ## RELATED LINKS
 
-[Show-ColorScript](Show-ColorScript.md)
-[Build-ColorScriptCache](Build-ColorScriptCache.md)
-[Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+- [Show-ColorScript](Show-ColorScript.md)
+- [Build-ColorScriptCache](Build-ColorScriptCache.md)
+- [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)

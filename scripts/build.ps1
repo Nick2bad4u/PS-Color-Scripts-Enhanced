@@ -204,7 +204,7 @@ Full documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
         "ScriptMetadata.psd1",
         "Install.ps1"
     )
-    HelpInfoUri           = "https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/README.md"
+    HelpInfoUri           = "https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/ColorScripts-Enhanced/"
     ReleaseNotes          = @"
 Version ${Version}:
     - Enhanced caching system with OS-wide cache in AppData
@@ -400,7 +400,7 @@ $($releaseNotes.TrimEnd())
     }
 
     # HelpInfo URI of this module
-    HelpInfoURI = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/README.md'
+    HelpInfoURI = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/ColorScripts-Enhanced/'
 
     # Default prefix for commands exported from this module. Override the default prefix using Import-Module -Prefix.
     # DefaultCommandPrefix = ''

@@ -1,8 +1,10 @@
----
+﻿---
+document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
+HelpUri: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
 Module Name: ColorScripts-Enhanced
-online version: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
-schema: 2.0.0
+ms.date: 10/26/2025
+PlatyPS schema version: 2024-05-01
 ---
 
 # Reset-ColorScriptConfiguration
@@ -13,9 +15,19 @@ Restore the ColorScripts-Enhanced configuration to its default values.
 
 ## SYNTAX
 
+### Default (Default)
+
 ```
 Reset-ColorScriptConfiguration [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
+
+### __AllParameterSets
+
+```
+Reset-ColorScriptConfiguration [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
+```
+
+## ALIASES
 
 ## DESCRIPTION
 
@@ -48,15 +60,21 @@ Resets the configuration and returns the resulting hashtable for inspection.
 Prompts you for confirmation before running the cmdlet.
 
 ```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+- cf
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -PassThru
@@ -64,36 +82,52 @@ Accept wildcard characters: False
 Return the updated configuration object after the reset completes.
 
 ```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -WhatIf
 
 Shows what would happen if the cmdlet runs. The cmdlet is not run.
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
 Aliases:
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
+- wi
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, and -WarningAction. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -113,5 +147,5 @@ The configuration file is stored under the directory resolved by `Get-ColorScrip
 
 ## RELATED LINKS
 
-[Get-ColorScriptConfiguration](Get-ColorScriptConfiguration.md)
-[Set-ColorScriptConfiguration](Set-ColorScriptConfiguration.md)
+- [Get-ColorScriptConfiguration](Get-ColorScriptConfiguration.md)
+- [Set-ColorScriptConfiguration](Set-ColorScriptConfiguration.md)
