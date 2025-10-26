@@ -79,7 +79,7 @@ jobs:
 
       - name: install dependency
         run: |
-          npm run install -force
+          npm install -force
         shell: pwsh
 
       - name: Build latest Manifest Version
