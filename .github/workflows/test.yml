@@ -37,7 +37,7 @@ jobs:
               Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
           }
 
-      - name: Run Pester tests
+      - name: Run Pester tests with coverage
         shell: powershell
         run: |
           Import-Module Pester
@@ -46,6 +46,10 @@ jobs:
           $configuration.Output.Verbosity = 'Detailed'
           $configuration.TestResult.Enabled = $true
           $configuration.TestResult.OutputPath = 'test-results.xml'
+          $configuration.CodeCoverage.Enabled = $true
+          $configuration.CodeCoverage.Path = './ColorScripts-Enhanced/*.psm1'
+          $configuration.CodeCoverage.OutputPath = 'coverage.xml'
+          $configuration.CodeCoverage.OutputFormat = 'JaCoCo'
           Invoke-Pester -Configuration $configuration
 
       - name: Upload test results
@@ -54,6 +58,13 @@ jobs:
         with:
           name: test-results-windows-51
           path: test-results.xml
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@7f8b4b4bde536c465e797be725718b88c5d95e0e # v5.1.2
+        with:
+          files: ./coverage.xml
+          flags: windows-powershell-51
+          name: windows-powershell-51
 
       - name: Validate help topics
         shell: powershell
@@ -98,7 +109,7 @@ jobs:
               Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
           }
 
-      - name: Run Pester tests
+      - name: Run Pester tests with coverage
         shell: pwsh
         run: |
           Import-Module Pester
@@ -107,6 +118,10 @@ jobs:
           $configuration.Output.Verbosity = 'Detailed'
           $configuration.TestResult.Enabled = $true
           $configuration.TestResult.OutputPath = 'test-results.xml'
+          $configuration.CodeCoverage.Enabled = $true
+          $configuration.CodeCoverage.Path = './ColorScripts-Enhanced/*.psm1'
+          $configuration.CodeCoverage.OutputPath = 'coverage.xml'
+          $configuration.CodeCoverage.OutputFormat = 'JaCoCo'
           Invoke-Pester -Configuration $configuration
 
       - name: Upload test results
@@ -115,6 +130,13 @@ jobs:
         with:
           name: test-results-${{ matrix.os }}-pwsh
           path: test-results.xml
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@7f8b4b4bde536c465e797be725718b88c5d95e0e # v5.1.2
+        with:
+          files: ./coverage.xml
+          flags: pwsh-${{ matrix.os }}
+          name: pwsh-${{ matrix.os }}
 
       - name: Run script analyzer
         shell: pwsh

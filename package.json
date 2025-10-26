@@ -22,6 +22,8 @@
     "test": "npm run test:custom && npm run test:pester",
     "test:custom": "pwsh -NoProfile -File ./scripts/Test-Module.ps1",
     "test:pester": "pwsh -NoProfile -Command \"Invoke-Pester -Path ./Tests\"",
+    "test:coverage": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1",
+    "test:coverage:report": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1 -ShowReport",
     "docs:update-counts": "pwsh -NoProfile -File ./scripts/Update-DocumentationCounts.ps1",
     "package:metadata": "pwsh -NoProfile -File ./scripts/Update-NuGetPackageMetadata.ps1",
     "scripts:convert": "node ./scripts/Convert-AnsiToColorScript.js",

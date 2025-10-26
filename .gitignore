@@ -114,7 +114,8 @@ obj/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -341,3 +342,10 @@ ps-color-scripts/*.psd1
 ps-color-scripts/cache/
 .prettier-cache
 node_modules/
+
+# Code coverage reports
+coverage.xml
+coverage-report/
+testResults.xml
+test-results.xml
+*.coverage
