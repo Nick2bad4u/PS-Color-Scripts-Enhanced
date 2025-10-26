@@ -13,6 +13,7 @@
 <!-- CI/CD & Quality Badges -->
 
 [![Tests](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/Nick2bad4u/ps-color-scripts-enhanced/branch/main/graph/badge.svg)](https://codecov.io/gh/Nick2bad4u/ps-color-scripts-enhanced)
 [![Publish](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/badge)](https://scorecard.dev/viewer/?uri=github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)
 [![Dependency Review](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml)
@@ -26,10 +27,14 @@
 
 <!-- License & Contributing -->
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: UnLicense](https://img.shields.io/badge/License-UnLicense-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 A high-performance PowerShell module for displaying beautiful ANSI colorscripts in your terminal with intelligent caching for 6-19x faster load times.
+
+<p align="center">
+  <img src="assets/ColorScripts-Mascot-Dark.jpeg" alt="ColorScripts mascot" width="60%" />
+</p>
 
 ## Table of Contents
 
@@ -639,7 +644,7 @@ Contributions welcome! When adding new colorscripts:
 
 ## License
 
-MIT License – see [LICENSE](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/LICENSE) file for details
+UnLicense License – see [LICENSE](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/LICENSE) file for details
 
 ## Version History
 
@@ -668,8 +673,32 @@ See [CHANGELOG.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/
 ## CI/CD & Workflows
 
 - ⚙️ [Test Workflow](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/test.yml)
-- 📦 [Publish Workflow](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/publish.yml)
+- � [Code Coverage](https://codecov.io/gh/Nick2bad4u/ps-color-scripts-enhanced) - Automated via Codecov
+- �📦 [Publish Workflow](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/publish.yml)
 - 🤖 [Dependabot Updates](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/dependabot.yml)
+
+## Testing
+
+This module uses [Pester](https://pester.dev/) for testing with code coverage tracking:
+
+```powershell
+# Run all tests
+npm run test
+
+# Run tests with coverage report
+npm run test:coverage
+
+# Generate HTML coverage report (requires ReportGenerator)
+npm run test:coverage:report
+
+# Run tests directly with Pester
+Invoke-Pester -Path ./Tests
+
+# Run with coverage using the script
+./scripts/Test-Coverage.ps1 -ShowReport
+```
+
+Coverage reports are automatically uploaded to [Codecov](https://codecov.io/gh/Nick2bad4u/ps-color-scripts-enhanced) on every push.
 
 ## Support
 

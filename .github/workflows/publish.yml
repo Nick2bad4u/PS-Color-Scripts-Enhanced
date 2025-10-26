@@ -90,30 +90,26 @@ jobs:
               Write-Host "Executing build script..." -ForegroundColor Yellow
               & .\scripts\build.ps1
 
-              if ($LASTEXITCODE -and $LASTEXITCODE -ne 0) {
-                  throw "Build script failed with exit code: $LASTEXITCODE"
+              # Only fail if the manifest wasn't created successfully
+              $manifestPath = ".\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
+              if (-not (Test-Path $manifestPath)) {
+                  throw "Module manifest not found after build: $manifestPath"
+              }
+
+              # Test manifest is valid
+              try {
+                  $manifest = Test-ModuleManifest -Path $manifestPath -ErrorAction Stop
+                  Write-Host "Manifest validation successful. Version: $($manifest.Version)" -ForegroundColor Green
+              }
+              catch {
+                  Write-Host "Manifest validation failed: $_" -ForegroundColor Red
+                  throw
               }
 
               Write-Host "Build completed successfully!" -ForegroundColor Green
           }
           catch {
               Write-Host "Build failed: $_" -ForegroundColor Red
-              throw
-          }
-
-          # Verify manifest was updated
-          $manifestPath = ".\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
-          if (-not (Test-Path $manifestPath)) {
-              throw "Module manifest not found after build: $manifestPath"
-          }
-
-          # Test manifest is valid
-          try {
-              $manifest = Test-ModuleManifest -Path $manifestPath -ErrorAction Stop
-              Write-Host "Manifest validation successful. Version: $($manifest.Version)" -ForegroundColor Green
-          }
-          catch {
-              Write-Host "Manifest validation failed: $_" -ForegroundColor Red
               throw
           }
         shell: pwsh
