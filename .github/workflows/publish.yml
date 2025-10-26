@@ -77,6 +77,11 @@ jobs:
             node-version: "22"
             cache: "npm"
 
+      - name: install dependency
+        run: |
+          npm run install -force
+        shell: pwsh
+
       - name: Build latest Manifest Version
         run: |
           npm run build
