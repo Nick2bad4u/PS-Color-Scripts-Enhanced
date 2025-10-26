@@ -29,8 +29,6 @@ Get-ColorScriptList [[-Name] <string[]>] [[-Category] <string[]>] [[-Tag] <strin
  [-Detailed] [<CommonParameters>]
 ```
 
-## ALIASES
-
 ## DESCRIPTION
 
 `Get-ColorScriptList` surfaces the colorscripts packaged with the module. By default it renders a concise table, while `-AsObject` emits the underlying records for automation scenarios. You can filter the list by name (including wildcards), category, or tag metadata, and the optional `-Detailed` switch adds the tags and description columns to the formatted table.

@@ -29,8 +29,6 @@ Export-ColorScriptMetadata [[-Path] <string>] [-IncludeFileInfo] [-IncludeCacheI
  [<CommonParameters>]
 ```
 
-## ALIASES
-
 ## DESCRIPTION
 
 `Export-ColorScriptMetadata` gathers the module's catalog of colorscripts and returns an ordered data set describing each entry. Optional switches enrich the output with file metadata (size, timestamps, and full paths) and cache information (cache location, existence flag, and last write time). When `-Path` is supplied the metadata is written as pretty-printed JSON; otherwise the cmdlet produces objects on the pipeline.

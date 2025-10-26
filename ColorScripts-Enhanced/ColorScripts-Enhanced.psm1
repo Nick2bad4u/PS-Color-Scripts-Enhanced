@@ -1943,9 +1943,10 @@ function Show-ColorScript {
             Write-Host "Displaying continuously (Ctrl+C to stop)`n" -ForegroundColor Yellow
         }
 
-            foreach ($script in $sortedScripts)
-            {
-                $currentIndex++            # Clear screen and show progress
+        foreach ($script in $sortedScripts) {
+            $currentIndex++
+
+            # Clear screen and show progress
             Clear-Host
             Write-Host "[$currentIndex/$totalCount] " -NoNewline -ForegroundColor Green
             Write-Host $script.Name -ForegroundColor Cyan

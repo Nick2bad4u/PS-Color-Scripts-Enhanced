@@ -27,8 +27,6 @@ Reset-ColorScriptConfiguration [-PassThru] [-WhatIf] [-Confirm] [<CommonParamete
 Reset-ColorScriptConfiguration [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-## ALIASES
-
 ## DESCRIPTION
 
 `Reset-ColorScriptConfiguration` clears all persisted configuration overrides and restores the module defaults. The configuration file is rewritten, the cache path is reset to the platform default, and startup flags return to their original values. This cmdlet supports `-WhatIf` and `-Confirm` because the operation overwrites the configuration file.

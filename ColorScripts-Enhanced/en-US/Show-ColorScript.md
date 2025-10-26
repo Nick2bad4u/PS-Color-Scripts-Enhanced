@@ -43,8 +43,6 @@ Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag 
  [<CommonParameters>]
 ```
 
-## ALIASES
-
 ## DESCRIPTION
 
 Shows a beautiful ANSI colorscript in your terminal. If no name is specified, displays a random script. Uses intelligent caching for 6-19x faster performance.

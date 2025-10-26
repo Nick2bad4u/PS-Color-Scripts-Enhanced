@@ -36,8 +36,6 @@ Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-SkipStartupScrip
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-## ALIASES
-
 ## DESCRIPTION
 
 Adds a startup snippet to the specified PowerShell profile file. The snippet always imports the ColorScripts-Enhanced module and, unless suppressed, adds a call to `Show-ColorScript` so that a random colorscript is displayed on launch. The profile file is created if it does not already exist, and duplicate imports are avoided unless `-Force` is specified.

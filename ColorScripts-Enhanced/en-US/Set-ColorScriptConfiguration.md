@@ -29,8 +29,6 @@ Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <b
  [[-CachePath] <string>] [[-DefaultScript] <string>] [-PassThru] [<CommonParameters>]
 ```
 
-## ALIASES
-
 ## DESCRIPTION
 
 `Set-ColorScriptConfiguration` updates the module configuration file. You can relocate the cache directory, control whether the module auto-renders a colorscript on import, and set the default script used by `Add-ColorScriptProfile` or startup automation. Any directory supplied for `-CachePath` is created if it does not already exist. Supplying an empty string to `-CachePath` or `-DefaultScript` clears the stored value.

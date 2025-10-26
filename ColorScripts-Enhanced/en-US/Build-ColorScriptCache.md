@@ -40,8 +40,6 @@ Build-ColorScriptCache [[-Name] <string[]>] [[-Category] <string[]>] [[-Tag] <st
  [-Force] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-## ALIASES
-
 ## DESCRIPTION
 
 `Build-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript`. You can target specific scripts by name (wildcards supported) or allow the cmdlet to cache the entire collection (the default behavior, equivalent to specifying `-All`).

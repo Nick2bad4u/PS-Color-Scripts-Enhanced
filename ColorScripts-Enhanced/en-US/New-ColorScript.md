@@ -29,8 +29,6 @@ New-ColorScript [-Name] <string> [[-OutputPath] <string>] [[-Category] <string>]
  [-Force] [-GenerateMetadataSnippet] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-## ALIASES
-
 ## DESCRIPTION
 
 `New-ColorScript` creates a UTF-8 colorscript skeleton containing an ANSI template and returns information about the generated file. By default the script is written into the module's `Scripts` directory, but `-OutputPath` can target any folder. Names must begin with an alphanumeric character and can include underscores or hyphens. Existing files are protected unless `-Force` is specified.

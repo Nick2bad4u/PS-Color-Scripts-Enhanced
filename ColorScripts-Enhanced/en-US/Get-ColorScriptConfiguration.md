@@ -27,8 +27,6 @@ Get-ColorScriptConfiguration [<CommonParameters>]
 Get-ColorScriptConfiguration [<CommonParameters>]
 ```
 
-## ALIASES
-
 ## DESCRIPTION
 
 `Get-ColorScriptConfiguration` retrieves the effective module configuration, including the cache location and startup behaviour flags. The configuration is assembled from built-in defaults and any persisted overrides stored in the configuration file (typically `%APPDATA%\ColorScripts-Enhanced\config.json`).

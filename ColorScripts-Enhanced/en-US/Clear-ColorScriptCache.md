@@ -35,8 +35,6 @@ Clear-ColorScriptCache [[-Name] <string[]>] [[-Path] <string>] [[-Category] <str
  [[-Tag] <string[]>] [-All] [-DryRun] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-## ALIASES
-
 ## DESCRIPTION
 
 `Clear-ColorScriptCache` deletes cached output either selectively (`-Name`) or wholesale (`-All`). Wildcard patterns are supported and unmatched names report a `Missing` status in the results. Use `-DryRun` to preview the actions without touching the filesystem, or `-Path` to target an alternate cache directory (useful for CI or custom cache roots).
