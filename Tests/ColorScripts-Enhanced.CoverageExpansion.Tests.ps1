@@ -613,11 +613,16 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
             Mock -CommandName Invoke-WithUtf8Encoding -ModuleName ColorScripts-Enhanced -MockWith {
                 param($ScriptBlock, [object[]]$Arguments)
+
+                if ($null -ne $Arguments -and $Arguments.Count -gt 0) {
+                    $script:RenderedOutputs += $Arguments[0]
+                }
+
                 & $ScriptBlock @Arguments
             }
             Mock -CommandName Write-RenderedText -ModuleName ColorScripts-Enhanced -MockWith {
                 param($Text)
-                $script:RenderedOutputs += $Text
+                # Suppress direct console writes during tests; rendered text is captured via Invoke-WithUtf8Encoding mock.
             }
         }
 
