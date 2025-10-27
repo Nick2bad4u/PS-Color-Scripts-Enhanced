@@ -29,9 +29,16 @@ Reset-ColorScriptConfiguration [-PassThru] [-WhatIf] [-Confirm] [<CommonParamete
 
 ## DESCRIPTION
 
-`Reset-ColorScriptConfiguration` clears all persisted configuration overrides and restores the module defaults. The configuration file is rewritten, the cache path is reset to the platform default, and startup flags return to their original values. This cmdlet supports `-WhatIf` and `-Confirm` because the operation overwrites the configuration file.
+`Reset-ColorScriptConfiguration` clears all persisted configuration overrides and restores the module to its factory defaults. When executed, this cmdlet:
 
-Use `-PassThru` to immediately see the newly restored settings.
+- Removes all custom configuration settings from the configuration file
+- Resets the cache path to the platform-specific default location
+- Restores all startup flags (RunOnStartup, RandomOnStartup, etc.) to their original values
+- Preserves the configuration file structure while clearing user customizations
+
+This cmdlet supports `-WhatIf` and `-Confirm` parameters because it performs a destructive operation by overwriting the configuration file. The reset operation cannot be undone automatically, so users should consider backing up their current configuration using `Get-ColorScriptConfiguration` before proceeding.
+
+Use the `-PassThru` parameter to immediately inspect the newly restored default settings after the reset completes.
 
 ## EXAMPLES
 
@@ -41,7 +48,7 @@ Use `-PassThru` to immediately see the newly restored settings.
 Reset-ColorScriptConfiguration -Confirm:$false
 ```
 
-Resets the configuration without prompting for confirmation.
+Resets the configuration without prompting for confirmation. This is useful in automated scripts or when you're certain about resetting to defaults.
 
 ### EXAMPLE 2
 
@@ -49,7 +56,25 @@ Resets the configuration without prompting for confirmation.
 Reset-ColorScriptConfiguration -PassThru
 ```
 
-Resets the configuration and returns the resulting hashtable for inspection.
+Resets the configuration and returns the resulting hashtable for inspection, allowing you to verify the default values.
+
+### EXAMPLE 3
+
+```powershell
+# Backup current configuration before resetting
+$backup = Get-ColorScriptConfiguration
+Reset-ColorScriptConfiguration -WhatIf
+```
+
+Uses `-WhatIf` to preview the reset operation without actually executing it, after backing up the current configuration.
+
+### EXAMPLE 4
+
+```powershell
+Reset-ColorScriptConfiguration -Verbose
+```
+
+Resets the configuration with verbose output to see detailed information about the operation.
 
 ## PARAMETERS
 
@@ -98,9 +123,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Shows what would happen if the cmdlet runs. The cmdlet is not run.
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+Shows what would happen if the cmdlet runs without actually executing the reset operation.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -141,7 +164,28 @@ Returned when `-PassThru` is specified.
 
 ## NOTES
 
-The configuration file is stored under the directory resolved by `Get-ColorScriptConfiguration`. Environment variable `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` overrides the default location if set.
+The configuration file is stored under the directory resolved by `Get-ColorScriptConfiguration`. By default, this location is platform-specific:
+
+- **Windows**: `$env:LOCALAPPDATA\ColorScripts-Enhanced`
+- **Linux/macOS**: `$HOME/.config/ColorScripts-Enhanced`
+
+The environment variable `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` can override the default location if set before module import.
+
+**Important Considerations:**
+
+- The reset operation is immediate and cannot be automatically undone
+- Any custom color script paths, cache locations, or startup behaviors will be lost
+- Consider using `Get-ColorScriptConfiguration` to export your current settings before resetting
+- The module must have write permissions to the configuration directory
+- Other PowerShell sessions using the module will see the changes after their next configuration reload
+
+**Default Values Restored:**
+
+- CachePath: Platform-specific default cache directory
+- RunOnStartup: `$false`
+- RandomOnStartup: `$false`
+- ScriptOnStartup: Empty string
+- CustomScriptPaths: Empty array
 
 ## RELATED LINKS
 

@@ -53,8 +53,8 @@ function Invoke-HelperPowerShell {
         $exitCode = $LASTEXITCODE
 
         return [PSCustomObject]@{
-            ExitCode = $exitCode
-            Output   = $output
+            ExitCode   = $exitCode
+            Output     = $output
             Executable = $psExe
         }
     }
@@ -109,9 +109,14 @@ Write-Host "=================================" -ForegroundColor Cyan
 
 # Check if PlatyPS is available (handle legacy and current names)
 $platyModule = Get-Module -ListAvailable -Name 'Microsoft.PowerShell.PlatyPS', 'PlatyPS', 'platyPS' |
-    Select-Object -First 1
+    Sort-Object -Property @(
+        @{ Expression = { $_.Name -eq 'Microsoft.PowerShell.PlatyPS' }; Descending = $true },
+        @{ Expression = { $_.Version }; Descending = $true }
+    ) |
+        Select-Object -First 1
 $hasPlatyPS = [bool]$platyModule
 $platyModuleName = if ($platyModule) { $platyModule.Name } else { 'Microsoft.PowerShell.PlatyPS' }
+$isModernPlaty = $platyModuleName -eq 'Microsoft.PowerShell.PlatyPS'
 
 if (-not $hasPlatyPS) {
     Write-Host "`nplatyPS module is not installed." -ForegroundColor Yellow
@@ -142,33 +147,36 @@ if (-not $SkipXmlGeneration) {
         Write-Host "`nUpdating markdown help files from module..." -ForegroundColor Yellow
 
         try {
-            # Escape single quotes for helper script
+            $escapedModulePath = $ModulePath -replace "'", "''"
             $escapedOutputPath = $OutputPath -replace "'", "''"
-            $escapedManifestPath = $ModuleManifestPath -replace "'", "''"
             $escapedPlatyName = $platyModuleName -replace "'", "''"
-            Write-Host "Updating markdown files in: $escapedOutputPath"
 
             $updateScript = @"
+Import-Module '$escapedModulePath' -Force -ErrorAction Stop
 Import-Module '$escapedPlatyName' -Force -ErrorAction Stop
-$loadedModule = Import-Module '$escapedManifestPath' -Force -ErrorAction Stop -PassThru
-Update-MarkdownCommandHelp -Path 'C:\Users\Nick\Dropbox\PC (2)\Documents\GitHub\ps-color-scripts-enhanced\ColorScripts-Enhanced\en-US\**.md' -ErrorAction Stop
+
+# Update all markdown help files for the module
+# Note: Update-MarkdownCommandHelp should be called on the directory, not individual files
+Update-MarkdownCommandHelp -Path '$escapedOutputPath' -RefreshModulePage -AlphabeticParamsOrder -UpdateInputOutput -Force
+
+Write-Host "Markdown files updated successfully"
 "@
 
-            $helperResult = Invoke-HelperPowerShell -ScriptContent $updateScript -Purpose 'markdown update'
+            $updateResult = Invoke-HelperPowerShell -ScriptContent $updateScript -Purpose 'markdown help update'
 
-            if ($helperResult.ExitCode -ne 0) {
-                throw "Update helper exited with code $($helperResult.ExitCode) : $($helperResult.Output)"
+            if ($updateResult.ExitCode -ne 0) {
+                throw "Markdown update helper exited with code $($updateResult.ExitCode) : $($updateResult.Output)"
             }
 
-            if ($helperResult.Output) {
-                Write-Verbose ($helperResult.Output | Out-String)
+            if ($updateResult.Output) {
+                Write-Verbose ($updateResult.Output | Out-String)
+            }
+
+            Get-ChildItem -Path $OutputPath -Filter '*.md' | ForEach-Object {
+                Write-Host "  Updated: $($_.Name)" -ForegroundColor Gray
             }
 
             Write-Host "✓ Markdown files updated successfully" -ForegroundColor Green
-            Write-Host "  Updated files in: $OutputPath`n" -ForegroundColor Gray
-
-            # Remove backup files created by PlatyPS (they end with .bak)
-            Get-ChildItem -Path $OutputPath -Filter '*.bak' -File -ErrorAction SilentlyContinue | Remove-Item -Force -ErrorAction SilentlyContinue
         }
         catch {
             Write-Host "✗ Failed to update markdown files: $_" -ForegroundColor Red
@@ -183,10 +191,35 @@ Update-MarkdownCommandHelp -Path 'C:\Users\Nick\Dropbox\PC (2)\Documents\GitHub\
         $escapedOutputPath = $OutputPath -replace "'", "''"
         $escapedPlatyName = $platyModuleName -replace "'", "''"
 
-        $mamlScript = @"
+        if ($isModernPlaty) {
+            $mamlScript = @"
+Import-Module '$escapedPlatyName' -Force -ErrorAction Stop
+`$mdFiles = Measure-PlatyPSMarkdown -Path (Join-Path '$escapedOutputPath' '*.md')
+`$commandHelpFiles = `$mdFiles | Where-Object { `$_.FileType -like '*CommandHelp*' }
+if (-not `$commandHelpFiles) {
+    throw "No PlatyPS command help markdown files were found in '$escapedOutputPath'."
+}
+`$commandHelpFiles |
+    Import-MarkdownCommandHelp -Path { `$_.FilePath } |
+    Export-MamlCommandHelp -OutputFolder '$escapedOutputPath' -Force
+
+`$nestedHelp = Join-Path '$escapedOutputPath' 'ColorScripts-Enhanced\ColorScripts-Enhanced-help.xml'
+`$targetHelp = Join-Path '$escapedOutputPath' 'ColorScripts-Enhanced-help.xml'
+if (Test-Path `$nestedHelp) {
+    Move-Item -Path `$nestedHelp -Destination `$targetHelp -Force
+    `$nestedDir = Join-Path '$escapedOutputPath' 'ColorScripts-Enhanced'
+    if (Test-Path `$nestedDir) {
+        Remove-Item -Path `$nestedDir -Recurse -Force
+    }
+}
+"@
+        }
+        else {
+            $mamlScript = @"
 Import-Module '$escapedPlatyName' -Force -ErrorAction Stop
 New-ExternalHelp -Path '$escapedOutputPath' -OutputPath '$escapedOutputPath' -Force
 "@
+        }
 
         $mamlResult = Invoke-HelperPowerShell -ScriptContent $mamlScript -Purpose 'external help generation'
 
@@ -203,7 +236,44 @@ New-ExternalHelp -Path '$escapedOutputPath' -OutputPath '$escapedOutputPath' -Fo
     }
     catch {
         Write-Host "✗ Failed to generate help XML: $_" -ForegroundColor Red
-        Write-Host "  Continuing with comment-based help only...`n" -ForegroundColor Yellow
+        throw
+    }
+
+    # Generate HelpInfo.xml for updatable help
+    Write-Host "Generating HelpInfo.xml..." -ForegroundColor Yellow
+
+    try {
+        # Create the HelpInfo.xml content
+        $helpInfoContent = @"
+<?xml version="1.0" encoding="utf-8"?>
+<HelpInfo xmlns="http://schemas.microsoft.com/powershell/help/2010/05">
+  <HelpContentURI>$helpInfoUri</HelpContentURI>
+  <SupportedUICultures>
+    <UICulture>
+      <UICultureName>$uiCulture</UICultureName>
+      <UICultureVersion>$moduleVersion</UICultureVersion>
+    </UICulture>
+  </SupportedUICultures>
+</HelpInfo>
+"@
+
+        # Write to the output directory with correct naming convention
+        $helpInfoFileName = "{0}_{1}_HelpInfo.xml" -f $moduleName, $moduleGuid
+        $helpInfoPath = Join-Path $OutputPath $helpInfoFileName
+
+        # Remove any old HelpInfo files with incorrect names
+        Get-ChildItem -Path $OutputPath -Filter "*_HelpInfo.xml" |
+            Where-Object { $_.Name -ne $helpInfoFileName } |
+                Remove-Item -Force -ErrorAction SilentlyContinue
+
+        Set-Content -Path $helpInfoPath -Value $helpInfoContent -Encoding UTF8 -NoNewline
+        Write-Host "✓ HelpInfo.xml generated successfully" -ForegroundColor Green
+        Write-Host "  Location: $helpInfoPath" -ForegroundColor Gray
+        Write-Host "  Version: $moduleVersion`n" -ForegroundColor Gray
+    }
+    catch {
+        Write-Host "✗ Failed to generate HelpInfo.xml: $_" -ForegroundColor Red
+        Write-Host "  Continuing without HelpInfo.xml...`n" -ForegroundColor Yellow
     }
 }
 

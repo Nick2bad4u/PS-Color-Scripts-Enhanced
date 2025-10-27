@@ -11,7 +11,7 @@
     RootModule = 'ColorScripts-Enhanced.psm1'
 
     # Version number of this module.
-    ModuleVersion = '2025.10.26.1521'
+    ModuleVersion = '2025.10.26.1957'
 
     # Supported PSEditions
     CompatiblePSEditions = @('Desktop', 'Core')
@@ -33,7 +33,7 @@
 Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times.
 
 Features:
-• 245+ beautiful colorscripts - Extensive collection of ANSI art
+• 498 beautiful colorscripts - Extensive collection of ANSI art
 • Intelligent Caching - 6-19x performance improvement (5-20ms load times)
 • OS-Wide Cache - Consistent caching across all terminal sessions
 • Simple API - Easy-to-use cmdlets with tab completion
@@ -172,7 +172,7 @@ Full documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
 
             # ReleaseNotes of this module
             ReleaseNotes = @'
-Version 2025.10.26.1521:
+Version 2025.10.26.1957:
 - Enhanced caching system with OS-wide cache in AppData
 - 6-19x performance improvement
 - Cache stored in centralized location

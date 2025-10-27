@@ -31,9 +31,20 @@ Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <b
 
 ## DESCRIPTION
 
-`Set-ColorScriptConfiguration` updates the module configuration file. You can relocate the cache directory, control whether the module auto-renders a colorscript on import, and set the default script used by `Add-ColorScriptProfile` or startup automation. Any directory supplied for `-CachePath` is created if it does not already exist. Supplying an empty string to `-CachePath` or `-DefaultScript` clears the stored value.
+`Set-ColorScriptConfiguration` provides a persistent way to customize the behavior and storage location of the ColorScripts-Enhanced module. This cmdlet updates the module's configuration file, allowing you to control various aspects of script rendering and storage.
 
-When `-PassThru` is used, the cmdlet returns the updated configuration (equivalent to calling `Get-ColorScriptConfiguration`).
+**Key capabilities:**
+
+- **Cache relocation**: Move the colorscript cache to a custom directory, useful for network shares, faster drives, or centralized storage locations.
+- **Auto-import behavior**: Control whether a colorscript automatically displays when the module is first imported into your PowerShell session.
+- **Profile integration**: Configure default settings for `Add-ColorScriptProfile` to streamline profile setup.
+- **Default script selection**: Set a preferred colorscript that will be used when no specific script is requested.
+
+Any directory path supplied for `-CachePath` is automatically created if it does not already exist. The cmdlet supports environment variable expansion, tilde (`~`) home directory expansion, and both absolute and relative paths. Supplying an empty string (`''`) to `-CachePath` or `-DefaultScript` clears the stored value and reverts to module defaults.
+
+Changes made with this cmdlet take effect immediately for new operations but may not affect already-loaded cache data until the module is reimported or PowerShell is restarted.
+
+When `-PassThru` is specified, the cmdlet returns the updated configuration object, making it easy to verify changes or chain additional operations.
 
 ## EXAMPLES
 
@@ -51,13 +62,37 @@ Moves the cache to `D:/Temp/ColorScriptsCache`, enables automatic display on mod
 Set-ColorScriptConfiguration -DefaultScript '' -PassThru
 ```
 
-Clears the default script and returns the resulting configuration object.
+Clears the default script and returns the resulting configuration object, allowing you to verify that the setting was removed.
+
+### EXAMPLE 3
+
+```powershell
+Set-ColorScriptConfiguration -CachePath "$env:TEMP\ColorScripts" -PassThru | Format-List
+```
+
+Relocates the cache to the Windows TEMP directory and displays the full updated configuration in list format. Useful for temporary testing scenarios.
+
+### EXAMPLE 4
+
+```powershell
+Set-ColorScriptConfiguration -AutoShowOnImport:$false
+```
+
+Disables automatic colorscript rendering when the module loads. Useful if you prefer manual control over when scripts are displayed.
+
+### EXAMPLE 5
+
+```powershell
+Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultScript 'crunch'
+```
+
+Sets a Linux/macOS-style cache path using tilde expansion and configures 'crunch' as the default script for all operations.
 
 ## PARAMETERS
 
 ### -AutoShowOnImport
 
-Enable or disable automatic rendering of a colorscript when the module is imported.
+Enable or disable automatic rendering of a colorscript when the module is imported. When enabled (`$true`), a colorscript displays immediately upon module import, providing instant visual feedback. When disabled (`$false`), scripts only display when explicitly invoked. If not specified, the existing setting remains unchanged.
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
@@ -78,10 +113,11 @@ HelpMessage: ''
 
 ### -CachePath
 
-Override the cache directory. Supports relative paths, environment variables, and `~` expansion. When left blank or set to an empty string the cache path reverts to the platform default.
-Override the cache directory.
-Supports relative paths, environment variables, and `~` expansion.
-When left blank or set to an empty string the cache path reverts to the platform default.
+Specifies the directory where colorscript files and metadata are stored. Supports absolute paths, relative paths (resolved from the current location), environment variables (e.g., `$env:USERPROFILE`), and tilde (`~`) expansion for the home directory.
+
+If the specified directory does not exist, it will be created automatically with appropriate permissions. Provide an empty string (`''`) to clear the custom path and revert to the platform-specific default location. When left unspecified, the existing cache path setting is preserved.
+
+**Note**: Changing the cache path does not automatically migrate existing cached files. You may need to manually copy files or allow them to be regenerated.
 
 ```yaml
 Type: System.String
@@ -102,9 +138,11 @@ HelpMessage: ''
 
 ### -DefaultScript
 
-Set or clear the script name used by profile helpers and auto-show features. Provide an empty string to remove the stored value.
-Set or clear the script name used by profile helpers and auto-show features.
-Provide an empty string to remove the stored value.
+Sets or clears the default colorscript name used by profile helpers, auto-show features, and when no script is explicitly specified in commands. This should match the base name of a script file without extension (e.g., `'bars'`, not `'bars.ps1'`).
+
+Provide an empty string (`''`) to remove the stored default, reverting to module-level default behavior (typically random selection). When this parameter is omitted, the current default script setting is unchanged.
+
+The specified script must exist in the module's script directory to be used successfully.
 
 ```yaml
 Type: System.String
@@ -125,7 +163,9 @@ HelpMessage: ''
 
 ### -PassThru
 
-Return the updated configuration object instead of writing nothing.
+Returns the updated configuration object after making changes. Without this switch, the cmdlet operates silently (no output). The returned object has the same structure as `Get-ColorScriptConfiguration` and can be inspected, stored, or piped to other cmdlets for further processing.
+
+Useful for verification, logging, or chaining configuration commands.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -146,7 +186,9 @@ HelpMessage: ''
 
 ### -ProfileAutoShow
 
-Control whether a profile snippet generated by `Add-ColorScriptProfile` includes an automatic `Show-ColorScript` call.
+Controls whether profile snippets generated by `Add-ColorScriptProfile` include an automatic `Show-ColorScript` invocation. When `$true`, the profile code will display a colorscript on every shell startup. When `$false`, the profile will load the module but not auto-display scripts.
+
+This setting only affects newly generated profile code; existing profile modifications are not automatically updated. Omitting this parameter leaves the current setting unchanged.
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
@@ -176,20 +218,43 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ### None
 
-You cannot pipe input to this cmdlet.
+This cmdlet does not accept pipeline input.
 
 ## OUTPUTS
 
+### None
+
+By default, this cmdlet produces no output.
+
 ### System.Collections.Hashtable
 
-Returned only when `-PassThru` is specified. The structure matches `Get-ColorScriptConfiguration`.
+When `-PassThru` is specified, returns a hashtable containing the complete updated configuration. The structure matches the output of `Get-ColorScriptConfiguration`, with keys such as `CachePath`, `AutoShowOnImport`, `ProfileAutoShow`, and `DefaultScript`.
 
 ## NOTES
 
-Configuration changes are persisted under the directory reported by `Get-ColorScriptConfiguration`. Environment variable `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` can be used to relocate the settings file.
+**Configuration file location:**
+
+Configuration changes are persisted to a JSON or XML file stored in a platform-specific application data directory. Use `Get-ColorScriptConfiguration` to view the current configuration root path. The environment variable `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` can override the default configuration directory location if set before module import.
+
+**Platform defaults:**
+
+- **Windows**: `$env:LOCALAPPDATA\ColorScripts-Enhanced`
+- **Linux/macOS**: `~/.config/ColorScripts-Enhanced` or `$XDG_CONFIG_HOME/ColorScripts-Enhanced`
+
+**Best practices:**
+
+- Test cache path changes in a non-production environment first, especially when using network locations.
+- Use `-PassThru` when scripting to validate configuration updates programmatically.
+- Consider setting `AutoShowOnImport:$false` in automated scripts or CI/CD pipelines to avoid unexpected visual output.
+- Document custom configurations in team environments to ensure consistent behavior across users.
+
+**Permissions:**
+
+Ensure you have write permissions to the configuration directory. On shared systems, configuration changes affect only the current user's profile unless overridden with environment variables pointing to shared locations.
 
 ## RELATED LINKS
 
 - [Get-ColorScriptConfiguration](Get-ColorScriptConfiguration.md)
 - [Reset-ColorScriptConfiguration](Reset-ColorScriptConfiguration.md)
 - [Add-ColorScriptProfile](Add-ColorScriptProfile.md)
+- [Show-ColorScript](Show-ColorScript.md)

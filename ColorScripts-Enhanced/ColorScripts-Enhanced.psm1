@@ -238,19 +238,17 @@ function Save-ColorScriptConfiguration {
     $normalizedNew = $json.TrimEnd("`r", "`n")
 
     if (-not $Force) {
-        $existingContent = $ExistingContent
-
-        if (-not $existingContent -and (Test-Path -LiteralPath $script:ConfigurationPath)) {
+        if (-not $ExistingContent -and (Test-Path -LiteralPath $script:ConfigurationPath)) {
             try {
-                $existingContent = Get-Content -LiteralPath $script:ConfigurationPath -Raw -ErrorAction Stop
+                $ExistingContent = Get-Content -LiteralPath $script:ConfigurationPath -Raw -ErrorAction Stop
             }
             catch {
-                $existingContent = $null
+                $ExistingContent = $null
             }
         }
 
-        if ($existingContent) {
-            $normalizedExisting = $existingContent.TrimEnd("`r", "`n")
+        if ($ExistingContent) {
+            $normalizedExisting = $ExistingContent.TrimEnd("`r", "`n")
             if ($normalizedExisting -eq $normalizedNew) {
                 return
             }
@@ -891,7 +889,7 @@ function Initialize-CacheDirectory {
     $script:CacheInitialized = $true
 }
 
-Initialize-CacheDirectory
+# Cache directory is initialized lazily by public functions when needed
 
 function New-NameMatcherSet {
     param(
@@ -1725,7 +1723,7 @@ function Build-ScriptCache {
         The full path to the colorscript file.
     #>
     [CmdletBinding()]
-    [OutputType([bool])]
+    [OutputType([pscustomobject])]
     param(
         [Parameter(Mandatory)]
         [string]$ScriptPath
@@ -1986,7 +1984,8 @@ function Show-ColorScript {
                 $continueLoop = $true
                 while ($continueLoop) {
                     $key = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
-                    if ($key.VirtualKeyCode -eq 32) { # Spacebar
+                    if ($key.VirtualKeyCode -eq 32) {
+                        # Spacebar
                         $continueLoop = $false
                     }
                     elseif ($key.Character -eq 'q' -or $key.Character -eq 'Q') {
@@ -2426,7 +2425,7 @@ function Build-ColorScriptCache {
             $record = $records[$index]
             $scriptName = [string]$record.Name
             $cacheFile = Join-Path $script:CacheDir "$scriptName.cache"
-            $percentComplete = if ($totalCount -eq 0) { 0 } else { [int](($index / [double]$totalCount) * 100) }
+            $percentComplete = [int](($index / [double]$totalCount) * 100)
             $statusMessage = "Processing {0}/{1}: {2}" -f ($index + 1), $totalCount, $scriptName
             Write-Progress -Id 1 -Activity $progressActivity -Status $statusMessage -PercentComplete $percentComplete -CurrentOperation $scriptName
 

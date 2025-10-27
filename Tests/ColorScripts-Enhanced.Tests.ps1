@@ -1,6 +1,10 @@
 ﻿# Pester Tests for ColorScripts-Enhanced Module
 # Run with: Invoke-Pester
 
+# PSScriptAnalyzer cannot resolve module commands before module import in tests
+[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseDeclaredVarsMoreThanAssignments', '', Justification = 'Pester test variables')]
+param()
+
 BeforeAll {
     # Import the module (cross-platform path)
     $script:OriginalCacheOverride = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
@@ -134,11 +138,16 @@ Describe "ColorScripts-Enhanced Module" {
 
     Context "Cache System" {
         BeforeAll {
+            # Trigger cache initialization by calling a cache function
+            # This initializes $CacheDir in the module scope
+            Build-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
+
             $moduleInstance = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $script:CacheDir = $moduleInstance.SessionState.PSVariable.GetValue('CacheDir')
         }
 
         It "Should create cache directory" {
+            $script:CacheDir | Should -Not -BeNullOrEmpty
             Test-Path $script:CacheDir | Should -Be $true
         }
 

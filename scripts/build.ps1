@@ -180,7 +180,7 @@ $manifestParams = @{
 Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times.
 
 Features:
-• 245+ beautiful colorscripts - Extensive collection of ANSI art
+• $scriptCount beautiful colorscripts - Extensive collection of ANSI art
 • Intelligent Caching - 6-19x performance improvement (5-20ms load times)
 • OS-Wide Cache - Consistent caching across all terminal sessions
 • Simple API - Easy-to-use cmdlets with tab completion
@@ -283,7 +283,7 @@ Version ${Version}:
 Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times.
 
 Features:
-• 245+ beautiful colorscripts - Extensive collection of ANSI art
+• $scriptCount beautiful colorscripts - Extensive collection of ANSI art
 • Intelligent Caching - 6-19x performance improvement (5-20ms load times)
 • OS-Wide Cache - Consistent caching across all terminal sessions
 • Simple API - Easy-to-use cmdlets with tab completion
@@ -422,35 +422,61 @@ catch {
 if (-not $SkipHelp) {
     Write-Verbose "Building help files..."
 
-    # Check if PlatyPS is installed
-    if (-not (Get-Module -ListAvailable -Name platyPS)) {
-        Write-Host "Installing platyPS module..." -ForegroundColor Yellow
-        try {
-            # Save current execution policy
-            $currentPolicy = Get-ExecutionPolicy -Scope Process
+    # Ensure a modern PlatyPS module is available
+    $platyCandidates = Get-Module -ListAvailable -Name 'Microsoft.PowerShell.PlatyPS', 'PlatyPS', 'platyPS' |
+        Sort-Object -Property Version -Descending
 
-            # Temporarily set execution policy for installation
-            Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
+    $selectedPlaty = $platyCandidates | Select-Object -First 1
 
-            # Install with SkipPublisherCheck to handle unsigned modules
-            Install-Module -Name platyPS -Force -SkipPublisherCheck -Scope CurrentUser
-            Write-Host "✓ platyPS installed successfully" -ForegroundColor Green
+    $requiresInstall = -not $selectedPlaty -or $selectedPlaty.Version.Major -lt 1
 
-            # Restore execution policy
-            Set-ExecutionPolicy -ExecutionPolicy $currentPolicy -Scope Process -Force
+    if ($requiresInstall) {
+        Write-Host "Installing Microsoft.PowerShell.PlatyPS module..." -ForegroundColor Yellow
+        $installSucceeded = $false
+        $installErrors = @()
+
+        foreach ($candidateName in @('Microsoft.PowerShell.PlatyPS', 'platyPS')) {
+            try {
+                $currentPolicy = Get-ExecutionPolicy -Scope Process
+                Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
+                Install-Module -Name $candidateName -Force -SkipPublisherCheck -Scope CurrentUser -AllowClobber
+                $installSucceeded = $true
+                Write-Host "✓ $candidateName installed successfully" -ForegroundColor Green
+                break
+            }
+            catch {
+                $installErrors += $_
+            }
+            finally {
+                if ($currentPolicy) {
+                    Set-ExecutionPolicy -ExecutionPolicy $currentPolicy -Scope Process -Force
+                }
+            }
         }
-        catch {
-            Write-Warning "Failed to install platyPS: $_"
+
+        if (-not $installSucceeded) {
+            foreach ($err in $installErrors) {
+                Write-Warning "Failed to install PlatyPS candidate: $err"
+            }
             Write-Host "Skipping help file generation" -ForegroundColor Yellow
             exit 0
         }
+
+        $platyCandidates = Get-Module -ListAvailable -Name 'Microsoft.PowerShell.PlatyPS', 'PlatyPS', 'platyPS' |
+            Sort-Object -Property Version -Descending
+        $selectedPlaty = $platyCandidates | Select-Object -First 1
+    }
+
+    if (-not $selectedPlaty) {
+        Write-Warning "No PlatyPS module available after installation. Skipping help file generation."
+        exit 0
     }
 
     # Run Build-Help.ps1 if it exists
     $buildHelpPath = Join-Path $PSScriptRoot "Build-Help.ps1"
     if (Test-Path $buildHelpPath) {
         try {
-            & $buildHelpPath
+            & $buildHelpPath -UpdateMarkdown
             Write-Host "✓ Help files built successfully" -ForegroundColor Green
         }
         catch {

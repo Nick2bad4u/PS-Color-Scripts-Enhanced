@@ -31,9 +31,13 @@ New-ColorScript [-Name] <string> [[-OutputPath] <string>] [[-Category] <string>]
 
 ## DESCRIPTION
 
-`New-ColorScript` creates a UTF-8 colorscript skeleton containing an ANSI template and returns information about the generated file. By default the script is written into the module's `Scripts` directory, but `-OutputPath` can target any folder. Names must begin with an alphanumeric character and can include underscores or hyphens. Existing files are protected unless `-Force` is specified.
+The `New-ColorScript` cmdlet creates a complete colorscript skeleton that serves as a foundation for developing custom ANSI art scripts. The generated file includes a pre-formatted template with ANSI escape sequence examples, proper UTF-8 encoding without a byte-order mark (BOM), and optional metadata guidance for integration with the module's metadata system.
 
-When `-GenerateMetadataSnippet` is supplied the cmdlet produces a guidance block that can be copied into `ScriptMetadata.psd1`, using the category and tag hints provided.
+By default, the script is written into the module's `Scripts` directory, ensuring it can be automatically discovered by the module's script enumeration functions. However, the `-OutputPath` parameter allows targeting any custom directory for development or testing purposes.
+
+Script names must follow PowerShell naming conventions: they must begin with an alphanumeric character and may include underscores or hyphens. The `.ps1` extension is automatically appended if not provided. Existing files are protected from accidental overwrites unless the `-Force` switch is explicitly specified.
+
+When combined with the `-GenerateMetadataSnippet` parameter, the cmdlet produces ready-to-use PowerShell code that demonstrates how to register the new script in `ScriptMetadata.psd1`. This guidance includes the category and tag values specified through the respective parameters, streamlining the process of integrating custom scripts into the module's organizational structure.
 
 ## EXAMPLES
 
@@ -43,7 +47,7 @@ When `-GenerateMetadataSnippet` is supplied the cmdlet produces a guidance block
 New-ColorScript -Name 'my-spectrum' -GenerateMetadataSnippet -Category 'Artistic' -Tag 'Custom','Demo'
 ```
 
-Creates `my-spectrum.ps1` in the module's `Scripts` directory and returns metadata guidance for updating `ScriptMetadata.psd1`.
+Creates `my-spectrum.ps1` in the module's `Scripts` directory and returns a PowerShell object containing the file path and a metadata snippet. The snippet shows how to add an entry to `ScriptMetadata.psd1` with the 'Artistic' category and tags 'Custom' and 'Demo'.
 
 ### EXAMPLE 2
 
@@ -51,14 +55,30 @@ Creates `my-spectrum.ps1` in the module's `Scripts` directory and returns metada
 New-ColorScript -Name 'holiday-banner' -OutputPath '~/Dev/colorscripts' -Force
 ```
 
-Generates the scaffold under a custom directory, overwriting any existing file with the same name.
+Generates the scaffold under a custom directory (`~/Dev/colorscripts`), creating the directory if it doesn't exist. If a file named `holiday-banner.ps1` already exists in that location, it will be overwritten due to the `-Force` switch.
+
+### EXAMPLE 3
+
+```powershell
+$result = New-ColorScript -Name 'retro-wave' -Category 'Retro' -Tag '80s','Neon' -GenerateMetadataSnippet
+$result.MetadataGuidance | Set-Clipboard
+```
+
+Creates a new colorscript and copies the metadata guidance to the clipboard, making it easy to paste into `ScriptMetadata.psd1`.
+
+### EXAMPLE 4
+
+```powershell
+New-ColorScript -Name 'test-pattern' -OutputPath '.\temp' -WhatIf
+```
+
+Shows what would happen when creating a test pattern script in the `.\temp` directory without actually creating the file. Useful for validating paths and names before execution.
 
 ## PARAMETERS
 
 ### -Category
 
-Optional category hint included in the metadata guidance output when `-GenerateMetadataSnippet` is used.
-Suggested primary category for metadata guidance.
+Specifies the primary category for the colorscript when generating metadata guidance. This parameter is only meaningful when used with `-GenerateMetadataSnippet`. Common categories include 'Artistic', 'Geometric', 'Nature', 'Retro', 'Gaming', and 'Abstract'. The value should align with existing categories in `ScriptMetadata.psd1` for consistency.
 
 ```yaml
 Type: System.String
@@ -101,8 +121,7 @@ HelpMessage: ''
 
 ### -Force
 
-Overwrite the destination file if it already exists.
-Overwrite an existing file with the same name.
+Overwrites the destination file if it already exists. Without this switch, the cmdlet will terminate with an error if a file with the same name is found at the target location. Use with caution to avoid data loss.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -123,8 +142,7 @@ HelpMessage: ''
 
 ### -GenerateMetadataSnippet
 
-Include a guidance snippet that shows how to register the new script in `ScriptMetadata.psd1`.
-Emit a guidance snippet describing how to update ScriptMetadata.psd1.
+Includes a guidance snippet in the output that demonstrates how to register the new script in `ScriptMetadata.psd1`. The snippet uses the values from `-Category` and `-Tag` parameters if provided. This is particularly useful for maintaining consistent metadata across all colorscripts in the module.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -145,9 +163,7 @@ HelpMessage: ''
 
 ### -Name
 
-Name of the colorscript (used for the output file). Must begin with an alphanumeric character and can include underscores or hyphens.
-Name of the new colorscript.
-A `.ps1` extension is appended automatically.
+Specifies the name of the new colorscript. The name must begin with an alphanumeric character and can include underscores or hyphens. The `.ps1` extension is appended automatically if not included. This name will be used as the filename and should be descriptive of the script's content or theme.
 
 ```yaml
 Type: System.String
@@ -168,9 +184,7 @@ HelpMessage: ''
 
 ### -OutputPath
 
-Destination directory for the scaffold. Defaults to the module's `Scripts` folder when not specified. Supports relative paths, environment variables, and `~` expansion.
-Destination directory for the new script.
-Defaults to the module's Scripts directory.
+Specifies the destination directory for the scaffold. When not specified, defaults to the module's `Scripts` directory. The path supports tilde (`~`) expansion for the user's home directory, environment variables (e.g., `$env:USERPROFILE`), and both relative and absolute paths. The directory will be created if it doesn't exist.
 
 ```yaml
 Type: System.String
@@ -191,8 +205,7 @@ HelpMessage: ''
 
 ### -Tag
 
-One or more metadata tags suggested for inclusion in `ScriptMetadata.psd1`.
-Suggested metadata tags for the new script.
+Specifies one or more metadata tags for the colorscript. Tags provide additional classification beyond the primary category and are useful for filtering and searching. Common tags include theme descriptors like 'Minimal', 'Colorful', 'Animated', technology references like 'Matrix', 'ASCII', or contextual markers like 'Holiday', 'Season'. Multiple tags can be specified as a comma-separated array.
 
 ```yaml
 Type: System.String[]
@@ -213,8 +226,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Shows what would happen if the cmdlet runs. The cmdlet is not run.
-Runs the command in a mode that only reports what would happen without performing the actions.
+Shows what would happen if the cmdlet runs without actually performing any actions. Displays the file path that would be created and any validation checks that would be performed. The cmdlet does not create any files or directories when this switch is specified.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -251,14 +263,42 @@ You cannot pipe objects to this cmdlet.
 
 ### System.Management.Automation.PSCustomObject
 
-Contains the script name, generated path, category and tag suggestions, and metadata guidance text (when requested).
+The cmdlet returns a custom object with the following properties:
+
+- **ScriptName**: The name of the created colorscript (including .ps1 extension)
+- **Path**: The full path to the generated file
+- **Category**: The category value that was specified (if any)
+- **Tags**: The array of tag values that were specified (if any)
+- **MetadataGuidance**: The metadata snippet text (only when -GenerateMetadataSnippet is used)
 
 ## NOTES
 
-The scaffold is written with UTF-8 encoding without a byte-order mark. The generated template includes an ANSI sample block that can be replaced with the final artwork.
+**Encoding**: The scaffold is written with UTF-8 encoding without a byte-order mark (BOM), ensuring compatibility across different platforms and editors.
+
+**Template Structure**: The generated template includes:
+- A comment-based help block with placeholders for documentation
+- An ANSI art sample block demonstrating color sequences and formatting
+- Proper PowerShell script structure with clear sections for customization
+
+**Metadata Integration**: While the cmdlet can generate metadata guidance, you must manually add the snippet to `ScriptMetadata.psd1` to fully integrate the script into the module's discovery and categorization system.
+
+**Development Workflow**:
+1. Use `New-ColorScript` to create the scaffold
+2. Edit the generated .ps1 file to add your ANSI art
+3. If metadata guidance was generated, copy it to `ScriptMetadata.psd1`
+4. Run `Build-ColorScriptCache` to rebuild the module's cache
+5. Test your script with `Show-ColorScript -Name <your-script-name>`
+
+**Best Practices**:
+- Choose descriptive, hyphenated names that clearly indicate the script's theme
+- Use consistent category values that align with existing scripts
+- Apply multiple tags to improve discoverability
+- Test scripts in different terminal environments to ensure compatibility
 
 ## RELATED LINKS
 
 - [Export-ColorScriptMetadata](Export-ColorScriptMetadata.md)
 - [Build-ColorScriptCache](Build-ColorScriptCache.md)
+- [Show-ColorScript](Show-ColorScript.md)
+- [Get-ColorScriptList](Get-ColorScriptList.md)
 - [ScriptMetadata.psd1](../ScriptMetadata.psd1)

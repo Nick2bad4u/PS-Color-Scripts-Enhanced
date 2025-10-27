@@ -15,7 +15,7 @@
   "scripts": {
     "build": "pwsh -NoProfile -File ./scripts/build.ps1 && npm run release:notes && npm run release:notes:latest && npm run verify && npm run test",
     "build:skip-help": "pwsh -NoProfile -File ./scripts/build.ps1 -SkipHelp",
-    "build:help": "pwsh -NoProfile -File ./scripts/Build-Help.ps1",
+    "build:help": "pwsh -NoProfile -File ./scripts/Build-Help.ps1 -UpdateMarkdown",
     "lint": "pwsh -NoProfile -File ./scripts/Lint-Module.ps1",
     "lint:strict": "pwsh -NoProfile -File ./scripts/Lint-Module.ps1 -IncludeTests -TreatWarningsAsErrors",
     "lint:fix": "pwsh -NoProfile -File ./scripts/Lint-Module.ps1 -Fix",
