@@ -13,7 +13,7 @@
     ".github": ".github"
   },
   "scripts": {
-    "build": "pwsh -NoProfile -File ./scripts/build.ps1 && npm run release:notes && npm run release:notes:latest && npm run verify && npm run test",
+    "build": "pwsh -NoProfile -File ./scripts/build.ps1 && npm run release:notes && npm run release:notes:latest",
     "build:skip-help": "pwsh -NoProfile -File ./scripts/build.ps1 -SkipHelp",
     "build:help": "pwsh -NoProfile -File ./scripts/Build-Help.ps1 -UpdateMarkdown",
     "lint": "pwsh -NoProfile -File ./scripts/Lint-Module.ps1",
