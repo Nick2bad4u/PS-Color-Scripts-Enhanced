@@ -1,7 +1,7 @@
 ﻿---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
+HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Get-ColorScriptConfiguration.md
 Module Name: ColorScripts-Enhanced
 ms.date: 10/26/2025
 PlatyPS schema version: 2024-05-01
@@ -130,4 +130,3 @@ Returns a nested hashtable containing the following structure:
 - [Set-ColorScriptConfiguration](Set-ColorScriptConfiguration.md)
 - [Reset-ColorScriptConfiguration](Reset-ColorScriptConfiguration.md)
 - [Show-ColorScript](Show-ColorScript.md)
-- [about_ColorScripts_Configuration](about_ColorScripts_Configuration.md)

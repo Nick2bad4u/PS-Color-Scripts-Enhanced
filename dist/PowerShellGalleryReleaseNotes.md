@@ -1,109 +1,160 @@
-## [2025.10.25.536] - 2025-10-25
+## [2025.10.27.140] - 2025-10-27
 
 
-[[a9938ef](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/a9938ef01c2933a44dff7b838deb3694780ad41a)...
-[0d48754](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/0d48754e9a2918878de6c7b28a1235f052ff9add)]
-([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/a9938ef01c2933a44dff7b838deb3694780ad41a...0d48754e9a2918878de6c7b28a1235f052ff9add))
+[[4c31328](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/4c31328284fd37cc44d1b32ca48987b5d5856673)...
+[9c540a3](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/9c540a311d0477eacde81515f9aa375b276f5201)]
+([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/4c31328284fd37cc44d1b32ca48987b5d5856673...9c540a311d0477eacde81515f9aa375b276f5201))
+
+
+### ≡ƒ¢á∩╕Å GitHub Actions
+
+- Update publish.yml [`(d60c0a6)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/d60c0a66fa042998b2c6aa077b4dad1167e3f28f)
+
+
+- Update publish.yml [`(f52f875)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/f52f87540cf966ade61eb5f3715c05495090b66e)
+
+
+- ≡ƒº╣ [chore] No-op: no changes detected in provided diff
+ - ≡ƒº╣ [chore] Inspected .github/workflows/publish.yml ΓÇö no modifications
+ - ≡ƒº╣ [chore] Inspected [ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)/[ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced).psd1 ΓÇö no modifications
+ - ≡ƒæ╖ [ci] No CI, packaging, manifest, or release updates required; nothing to publish
+
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(5f5b6b4)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/5f5b6b41a9b5c0f7477b7c475572d540566283c5)
+
+
+- ≡ƒæ╖ [ci] Enhance publish workflow and update docs
+
+This commit introduces several improvements to the CI/CD pipeline, project documentation, and license.
+
+*   ≡ƒæ╖ [ci] Refines the `publish.yml` GitHub Actions workflow.
+    *   Improves build validation logic by checking for the module manifest's existence and validity directly within the build step.
+    *   Removes the less reliable check on `$LASTEXITCODE`, preventing false negatives and ensuring a valid module is built before proceeding.
+
+*   ≡ƒô¥ [docs] Updates the `README.md` with significant enhancements.
+    *   Adds a new project mascot image for better visual appeal.
+    *   Integrates a Codecov badge to display test coverage status.
+    *   Includes a new "Testing" section with detailed instructions on running Pester tests and generating coverage reports.
+
+*   ≡ƒô¥ [docs] Changes the project license from MIT to The Unlicense.
+    *   Updates the `LICENSE` badge and the "License" section in the `README.md` to reflect this change.
+
+*   ≡ƒº╣ [chore] [dependency] Updates the module version to `2025.10.26.1439`.
+    *   Updates the module manifest (`.psd1`) and release notes with the new version number.
+
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(4c8d39e)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/4c8d39efb04f43603dabd5cfdeb22eb2b3203dde)
+
+
+- Γ£¿ [feat] Add code coverage reporting with Codecov
+
+Γ£¿ [feat] Adds comprehensive code coverage reporting to the project. This enhances quality assurance by tracking the percentage of code executed during tests.
+
+≡ƒæ╖ [ci] Updates the `test.yml` workflow to:
+-   Enable Pester's code coverage feature during test runs for both PowerShell 5.1 and pwsh.
+-   Generate coverage reports in `JaCoCo` XML format.
+-   Upload these reports to Codecov using the `codecov/codecov-action` for analysis and badge generation.
+
+≡ƒº¬ [test] Introduces a new PowerShell script `scripts/Test-Coverage.ps1` to streamline local testing:
+-   Runs Pester tests with coverage analysis.
+-   Displays a detailed coverage summary in the console.
+-   Enforces a minimum coverage threshold to maintain code quality.
+-   Includes an option to generate and open a local HTML coverage report using `ReportGenerator`.
+
+≡ƒöº [build] Adds new npm scripts for convenience:
+-   `npm run test:coverage` to execute the coverage script.
+-   `npm run test:coverage:report` to generate the HTML report.
+
+≡ƒô¥ [docs] Updates `README.md` to:
+-   Add the new Codecov badge.
+-   Include a new "Testing" section detailing how to run tests and generate coverage reports.
+-   Add a project mascot image.
+
+≡ƒº╣ [chore] Modifies `.gitignore` to exclude generated test results and coverage report files.
+
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(3bfb155)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/3bfb155d519bb925234dd1bc3d0dc6e92ee90b4a)
+
 
 
 ### ≡ƒÆ╝ Other
 
-- Γ£¿ [feat] Expand colorscript collection to 498 and add slideshow functionality
+- ≡ƒ¢á∩╕Å [fix] Improve path handling and test reliability
 
-≡ƒÄ¿ **Colorscript Collection Expansion**
- - Increases available colorscripts from 327 to 498 (52% growth) ≡ƒôÜ
- - Updates all documentation and metadata references across README files and module manifest
- - Reflects new collection size in cache documentation (~4.9MB for 498 scripts)
+This update introduces several fixes and enhancements to improve robustness, especially around path resolution and test execution.
 
-≡ƒÄ¼ **New Show-ColorScript Slideshow Capability**
- - Adds `-All` parameter to cycle through all colorscripts in alphabetical order ≡ƒöä
- - Introduces `-WaitForInput` flag for manual progression with spacebar between each script ΓÅ╕∩╕Å
- - Supports 'q' key to exit slideshow early for better user control
- - Works seamlessly with existing `-Category` filter for themed slideshows
- - Updates XML help documentation with three new usage examples demonstrating slideshow features
+*   **Source Code Changes**
+    *   ≡ƒ¢á∩╕Å [fix] Strengthens cache path resolution by adding error handling for `[System.IO.Path]::IsPathRooted`. This prevents crashes when processing paths with invalid characters, returning `null` instead.
 
-≡ƒôª **Build Tooling Enhancement**
- - Adds `git-cliff` dependency (v2.10.1) to package.json for automated changelog generation
- - Installs supporting dependencies: `execa`, `figures`, `get-stream`, `human-signals`, `is-plain-obj`, `is-stream`, `is-unicode-supported`, `npm-run-path`, `pretty-ms`, `cross-spawn`, and platform-specific git-cliff binaries ≡ƒö¿
+*   **Testing and Build Changes**
+    *   ≡ƒº¬ [test] Updates tests to be more resilient and accurate.
+        -   Improves test state management by using `try...finally` blocks to correctly restore environment and global variables, ensuring test isolation.
+        -   Refines assertions to be more specific, particularly for cache path and text emission tests, to correctly reflect behavior under different conditions (like output redirection).
+        -   Corrects a potential issue in a test by ensuring a `Where-Object` result is always treated as an array.
+    *   ≡ƒæ╖ [ci] Enhances the module test script (`Test-Module.ps1`).
+        -   Introduces a helper function to reliably retrieve the module's cache directory, even if it hasn't been initialized yet.
+        -   Skips the PSScriptAnalyzer test with a warning if the module is not installed, preventing script failure in environments without it.
+    *   ≡ƒº╣ [chore] [dependency] Updates the module version and updates related help files.
 
-≡ƒòÉ **Version & Timestamp Updates**
- - [dependency] Updates module version from 2025.10.20.1440 to 2025.10.25.0124
- - Updates generated timestamp in manifest to reflect latest build date
-
-Enables richer user interaction for exploring the expanded colorscript library while maintaining backward compatibility with existing cmdlet usage.
-
-Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(0d48754)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/0d48754e9a2918878de6c7b28a1235f052ff9add)
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(9c540a3)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/9c540a311d0477eacde81515f9aa375b276f5201)
 
 
-- Γ£¿ [feat] Add -All and -WaitForInput parameters to cycle through colorscripts
+- ≡ƒô¥ [docs] Overhaul and enhance cmdlet documentation
 
-Introduces new functionality to display all available colorscripts sequentially with optional manual control ≡ƒÄ¼
+This commit introduces a comprehensive overhaul of the external help documentation (Markdown and XML files) for all major cmdlets, alongside several code refinements and feature enhancements.
 
-**Core Features:**
-- Adds `-All` parameter to cycle through all colorscripts in alphabetical order
-- Adds `-WaitForInput` parameter to pause between each script and wait for spacebar input
-- Supports 'q' key to quit early when cycling through scripts
-- Integrates with existing `-Category` and `-Tag` filters to show subset of scripts
-- Displays progress counter showing current script number and total count
+### Documentation (`≡ƒô¥ [docs]`)
 
-**Implementation Details:**
-- Creates new 'All' parameter set in Show-ColorScript function ≡ƒôé
-- Implements dual-mode progression: continuous auto-advance with slight delay, or manual spacebar-controlled stepping ΓÅ»∩╕Å
-- Retrieves filtered script list using Get-ColorScriptEntry or Get-ColorScriptInventory depending on filter presence
-- Respects existing `-NoCache` flag during cycling to allow cache bypass if needed
-- Renders each script using standard rendering pipeline (cache-aware when possible)
-- Shows user-friendly prompts indicating available controls (spacebar/q keys) ≡ƒÄ«
+-   **Complete Rewrite**: The help content for `Add-ColorScriptProfile`, `Build-ColorScriptCache`, `Clear-ColorScriptCache`, and other cmdlets has been completely rewritten for clarity, accuracy, and detail.
+-   **Richer Examples**: Adds more diverse and practical examples for each cmdlet, including pipeline usage and combinations of parameters.
+-   **Improved Descriptions**: Parameter descriptions, notes, and cmdlet summaries are expanded to better explain the "why" behind features, their behavior, and best practices.
+-   **Standardization**: Ensures consistent formatting, structure, and tone across all help files, including updating the MAML XML to reflect the Markdown changes.
 
-**UI/UX Enhancements:**
-- Clears screen before each script display for clean presentation
-- Shows formatted progress indicator with cyan/green color coding
-- Displays helpful instructions based on mode (auto or manual)
-- Provides visual feedback during spacebar input prompt
+### Refactoring & Fixes (`≡ƒÜ£ [refactor]`)
 
-**Documentation Updates:**
-- Updates help documentation with new parameter descriptions
-- Adds three new usage examples showing different cycling scenarios ≡ƒôÜ
-- Documents parameter sets and accepted values
-- Explains keyboard controls for interactive mode
+-   **Lazy Initialization**: The cache directory is no longer initialized on module import. Instead, it's created lazily on the first call to a function that requires it, improving module load times.
+-   **Code Simplification**:
+    -   Refactors `Save-ColorScriptConfiguration` to remove a redundant variable, simplifying the logic for checking existing configuration content.
+    -   Fixes a potential divide-by-zero error in `Build-ColorScriptCache`'s progress calculation when processing an empty set of scripts.
 
-**File Housekeeping:**
-- Removes trailing blank lines from 60+ colorscript files to maintain consistency ≡ƒº╣
-- Cleans up whitespace in unused and oversized ANSI art files
+### Build & Metadata (`≡ƒöº [build]`)
 
-**Script Analysis Tool Enhancement:**
-- Extends Analyze-UnusedAnsiFiles.ps1 with new filtering capabilities
-- Adds `-ExcludeRegularAscii` flag to filter out text-only files without extended ASCII art
-- Adds `-AsciiCharLimit` parameter to exclude text-heavy files (artist info, copyright notices)
-- Implements character counting helper to distinguish art vs. text content
-- Provides better categorization in analysis results distinguishing between oversized, ASCII-only, and error files
+-   **Build Output**: Modifies `.gitignore` to explicitly include the `dist` directory, ensuring it's available for packaging and distribution workflows.
+-   **Version [dependency] Update**: Increments the module version and updates the description to reflect the new total count of 498 colorscripts.
 
-Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(3a0713e)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/3a0713e570de4ca89ebaae9d9ef3abe3896a1207)
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(bb5f0e6)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/bb5f0e6cbde9b1f276f6d9b7a12744cf75d62be0)
 
 
-- Γ£¿ [feat] Add ANSI file analysis and display utilities for terminal size optimization
+- ≡ƒº╣ [chore] [dependency] Update version, update docs, and apply formatting
 
-Introduces two new PowerShell utilities to enhance ANSI art file management and discovery:
+≡ƒöº [build] [dependency] Updates the module version to `2025.10.26.1403`.
+ - Updates the version in the module manifest (`.psd1`) file.
+ - Aligns the version number in the release notes.
 
-**Analyze-UnusedAnsiFiles.ps1** ≡ƒôè
-- Scans unused ANSI files to identify those fitting standard terminal dimensions (Γëñ120 columns, Γëñ50 lines)
-- Implements CP437 encoding support for proper DOS/OEM character rendering
-- Strips SAUCE metadata (a standard container format for ANSI art) to extract embedded dimension hints
-- Calculates actual terminal dimensions by:
-  - Removing ANSI escape sequences from line content
-  - Parsing cursor positioning commands to infer layout
-  - Detecting single-line wrapped content and estimating height
-- Provides flexible output options: CSV export, file copying, or automated PowerShell script conversion
-- Generates detailed reports with size distribution analysis and error handling
-- Enables batch conversion of suitable files to PowerShell ColorScript format
+≡ƒô¥ [docs] Removes the empty `## ALIASES` section from all cmdlet help files for a cleaner, more consistent documentation experience.
 
-**Show-AscFile.ps1** ≡ƒÄ¿
-- Displays ASCII/ANSI art files with proper encoding (CP437)
-- Handles both raw and gzip-compressed files transparently
-- Clears screen before rendering for clean presentation
+≡ƒÄ¿ [style] Applies minor code formatting in the `Show-ColorScript` function.
+ - Adjusts brace style and line spacing for improved readability without changing logic.
 
-Both utilities support the workflow of curating and converting legacy ANSI art assets into modern PowerShell color scripts, automating the discovery of viable candidates based on terminal compatibility constraints.
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(061fcda)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/061fcda7de75f3806993da05895f457a4ab4bd31)
 
-Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(a9938ef)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/a9938ef01c2933a44dff7b838deb3694780ad41a)
+
+- ≡ƒô¥ [docs] Regenerate and enhance PlatyPS help documentation
+
+This commit overhauls the module's help documentation by regenerating all markdown files using a newer version of PlatyPS. It also introduces a new build script for managing and publishing help content.
+
+≡ƒô¥ [docs] **Help File Regeneration**
+- Updates all cmdlet markdown help files (`.md`) to a new, more detailed PlatyPS schema (`2024-05-01`).
+- Enriches parameter documentation with full YAML definitions, including type, default values, parameter sets, and positions.
+- Adds `HelpUri` to the frontmatter of each help file, pointing to the project's GitHub repository for better discoverability.
+- Updates the module manifest (`.psd1`) to point `HelpInfoURI` to a new GitHub Pages site, enabling updatable help via `Update-Help`.
+
+≡ƒöº [build] **New Help Build Process**
+- Introduces a new `Build-Help.ps1` script to automate the generation of MAML XML files from the updated markdown.
+- The script now runs PlatyPS cmdlets in an isolated PowerShell process to ensure compatibility and avoid module conflicts.
+- Adds logic to publish help content to the `docs` directory for GitHub Pages deployment.
+
+≡ƒÄ¿ [style] **Minor Code Formatting**
+- Adjusts brace style in a `foreach` loop within `Show-ColorScript` for consistency. This is a non-functional, cosmetic change.
+
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(4c31328)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/4c31328284fd37cc44d1b32ca48987b5d5856673)
 
 
 

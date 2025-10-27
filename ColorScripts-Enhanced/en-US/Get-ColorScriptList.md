@@ -1,7 +1,7 @@
 ﻿---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
+HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Get-ColorScriptList.md
 Module Name: ColorScripts-Enhanced
 ms.date: 10/26/2025
 PlatyPS schema version: 2024-05-01

@@ -214,7 +214,7 @@ Add-ColorScriptProfile -Force
     <command:relatedLinks>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
+        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Add-ColorScriptProfile.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
@@ -544,7 +544,7 @@ Get-ColorScriptList | Where-Object Category -eq 'Classic' | Build-ColorScriptCac
     <command:relatedLinks>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
+        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Build-ColorScriptCache.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Show-ColorScript</maml:linkText>
@@ -950,7 +950,7 @@ Clear-ColorScriptCache -Name 'test-*', 'demo-*' -Confirm:$false
     <command:relatedLinks>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
+        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Clear-ColorScriptCache.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Show-ColorScript</maml:linkText>
@@ -1232,7 +1232,7 @@ Write-Host "Total size of all colorscripts: $($totalSize / 1KB) KB"
     <command:relatedLinks>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
+        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Export-ColorScriptMetadata.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Build-ColorScriptCache</maml:linkText>
@@ -1247,8 +1247,8 @@ Write-Host "Total size of all colorscripts: $($totalSize / 1KB) KB"
         <command:uri>Clear-ColorScriptCache.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
-        <maml:linkText>Invoke-ColorScript</maml:linkText>
-        <command:uri>Invoke-ColorScript.md</command:uri>
+        <maml:linkText>Show-ColorScript</maml:linkText>
+        <command:uri>Show-ColorScript.md</command:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -1385,7 +1385,7 @@ Get-ColorScriptConfiguration | Format-List *
     <command:relatedLinks>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
+        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Get-ColorScriptConfiguration.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Set-ColorScriptConfiguration</maml:linkText>
@@ -1398,10 +1398,6 @@ Get-ColorScriptConfiguration | Format-List *
       <maml:navigationLink>
         <maml:linkText>Show-ColorScript</maml:linkText>
         <command:uri>Show-ColorScript.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>about_ColorScripts_Configuration</maml:linkText>
-        <command:uri>about_ColorScripts_Configuration.md</command:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -1684,7 +1680,7 @@ Get-ColorScriptList -Name blocks,pipes,matrix -AsObject | ForEach-Object { Show-
     <command:relatedLinks>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
+        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Get-ColorScriptList.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Show-ColorScript</maml:linkText>
@@ -2002,7 +1998,7 @@ New-ColorScript -Name 'test-pattern' -OutputPath '.\temp' -WhatIf
     <command:relatedLinks>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
+        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/New-ColorScript.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Export-ColorScriptMetadata</maml:linkText>
@@ -2215,7 +2211,7 @@ Reset-ColorScriptConfiguration -Verbose
     <command:relatedLinks>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
+        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Reset-ColorScriptConfiguration.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Get-ColorScriptConfiguration</maml:linkText>
@@ -2493,7 +2489,7 @@ Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultSc
     <command:relatedLinks>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
+        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Set-ColorScriptConfiguration.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Get-ColorScriptConfiguration</maml:linkText>
@@ -3002,7 +2998,7 @@ Show-ColorScript -List -Category Art,Abstract
     <command:relatedLinks>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
+        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Show-ColorScript.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Get-ColorScriptList</maml:linkText>
