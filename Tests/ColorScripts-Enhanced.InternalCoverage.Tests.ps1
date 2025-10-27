@@ -214,7 +214,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
         It "handles invalid path characters gracefully" {
             InModuleScope ColorScripts-Enhanced {
                 $result = Resolve-CachePath -Path 'C:\path|invalid'
-                $result | Should -Be 'C:\path|invalid'
+                @($null, 'C:\path|invalid') | Should -Contain $result
             }
         }
     }
@@ -302,6 +302,16 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
 
         It "falls back to home .config when no XDG path" {
+            if ($PSVersionTable.PSEdition -eq 'Desktop') {
+                Set-ItResult -Skipped -Because 'PowerShell 5.1 uses Windows-specific configuration paths.'
+                return
+            }
+
+            $originalWindows = $IsWindows
+            $originalMac = $IsMacOS
+            $originalLinux = $IsLinux
+            $originalXdg = $env:XDG_CONFIG_HOME
+
             Set-Variable -Name IsWindows -Scope Global -Force -Value $false
             Set-Variable -Name IsMacOS -Scope Global -Force -Value $false
             Set-Variable -Name IsLinux -Scope Global -Force -Value $true
@@ -310,31 +320,45 @@ Describe "ColorScripts-Enhanced internal coverage" {
             $origHomeVar = $HOME
             $origHomeEnv = $env:HOME
 
-            InModuleScope ColorScripts-Enhanced -Parameters @{ OrigHome = $origHomeVar; OrigHomeEnv = $origHomeEnv } {
-                param($OrigHome, $OrigHomeEnv)
+            try {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ OrigHome = $origHomeVar; OrigHomeEnv = $origHomeEnv } {
+                    param($OrigHome, $OrigHomeEnv)
 
-                $newHome = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'linuxHome'
-                Set-Variable -Name HOME -Scope Global -Force -Value $newHome
-                $env:HOME = $newHome
+                    $newHome = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'linuxHome'
+                    Set-Variable -Name HOME -Scope Global -Force -Value $newHome
+                    $env:HOME = $newHome
 
-                try {
-                    $script:ConfigurationRoot = $null
-                    $env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT = $null
-                    $result = Get-ColorScriptsConfigurationRoot
-                    $configRoot = Join-Path -Path $HOME -ChildPath '.config'
-                    $expected = Join-Path -Path $configRoot -ChildPath 'ColorScripts-Enhanced'
-                    $result | Should -Be $expected
-                    Test-Path $configRoot | Should -BeTrue
-                }
-                finally {
-                    Set-Variable -Name HOME -Scope Global -Force -Value $OrigHome
-                    if ($null -eq $OrigHomeEnv) {
-                        Remove-Item Env:HOME -ErrorAction SilentlyContinue
+                    try {
+                        $script:ConfigurationRoot = $null
+                        $env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT = $null
+                        $result = Get-ColorScriptsConfigurationRoot
+                        $configRoot = Join-Path -Path $HOME -ChildPath '.config'
+                        $expected = Join-Path -Path $configRoot -ChildPath 'ColorScripts-Enhanced'
+                        $result | Should -Be $expected
+                        Test-Path $configRoot | Should -BeTrue
                     }
-                    else {
-                        $env:HOME = $OrigHomeEnv
+                    finally {
+                        Set-Variable -Name HOME -Scope Global -Force -Value $OrigHome
+                        if ($null -eq $OrigHomeEnv) {
+                            Remove-Item Env:HOME -ErrorAction SilentlyContinue
+                        }
+                        else {
+                            $env:HOME = $OrigHomeEnv
+                        }
                     }
                 }
+            }
+            finally {
+                if ($null -eq $originalXdg) {
+                    Remove-Item Env:XDG_CONFIG_HOME -ErrorAction SilentlyContinue
+                }
+                else {
+                    $env:XDG_CONFIG_HOME = $originalXdg
+                }
+
+                Set-Variable -Name IsWindows -Scope Global -Force -Value $originalWindows
+                Set-Variable -Name IsMacOS -Scope Global -Force -Value $originalMac
+                Set-Variable -Name IsLinux -Scope Global -Force -Value $originalLinux
             }
         }
 
@@ -526,34 +550,70 @@ Describe "ColorScripts-Enhanced internal coverage" {
 
         It "falls back to temp directory when candidates fail" {
             # Clear all environment overrides so we test the fallback path
+            $originalOverride = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
+            $originalAppData = $env:APPDATA
+            $originalWindows = $IsWindows
+            $originalMac = $IsMacOS
+            $originalLinux = $IsLinux
+
             Remove-Item Env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH -ErrorAction SilentlyContinue
             $env:APPDATA = $null
             Set-Variable -Name IsWindows -Scope Global -Force -Value $false
             Set-Variable -Name IsMacOS -Scope Global -Force -Value $false
             Set-Variable -Name IsLinux -Scope Global -Force -Value $true
 
-            InModuleScope ColorScripts-Enhanced {
-                $script:CacheDir = $null
-                $script:CacheInitialized = $false
-                $script:ConfigurationInitialized = $false
-                $script:ConfigurationData = @{
-                    Cache = @{ Path = $null }
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:CacheDir = $null
+                    $script:CacheInitialized = $false
+                    $script:ConfigurationInitialized = $false
+                    $script:ConfigurationData = @{
+                        Cache = @{ Path = $null }
+                    }
+
+                    # Mock to make all candidates fail to create directories
+                    Mock -CommandName Test-Path -ModuleName ColorScripts-Enhanced -MockWith { $false } -ParameterFilter {
+                        $LiteralPath -match 'cache|Cache|CACHE'
+                    }
+                    Mock -CommandName New-Item -ModuleName ColorScripts-Enhanced -MockWith {
+                        throw 'simulated failure'
+                    } -ParameterFilter {
+                        $Path -match 'cache|Cache|CACHE' -and $Path -notmatch 'Temp'
+                    }
+
+                    Initialize-CacheDirectory
+
+                    $expectedTempDir = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath 'ColorScripts-Enhanced'
+                    $expectedResolved = $expectedTempDir
+                    try {
+                        $expectedResolved = (Resolve-Path -LiteralPath $expectedTempDir -ErrorAction Stop).ProviderPath
+                    }
+                    catch {
+                        $expectedResolved = [System.IO.Path]::GetFullPath($expectedTempDir)
+                    }
+
+                    $script:CacheDir | Should -Be $expectedResolved
+                    $script:CacheInitialized | Should -BeTrue
+                }
+            }
+            finally {
+                if ($null -eq $originalOverride) {
+                    Remove-Item Env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH -ErrorAction SilentlyContinue
+                }
+                else {
+                    $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $originalOverride
                 }
 
-                # Mock to make all candidates fail to create directories
-                Mock -CommandName Test-Path -ModuleName ColorScripts-Enhanced -MockWith { $false } -ParameterFilter {
-                    $LiteralPath -match 'cache|Cache|CACHE'
+                if ($null -eq $originalAppData) {
+                    Remove-Item Env:APPDATA -ErrorAction SilentlyContinue
                 }
-                Mock -CommandName New-Item -ModuleName ColorScripts-Enhanced -MockWith {
-                    throw 'simulated failure'
-                } -ParameterFilter {
-                    $Path -match 'cache|Cache|CACHE' -and $Path -notmatch 'Temp'
+                else {
+                    $env:APPDATA = $originalAppData
                 }
 
-                Initialize-CacheDirectory
-                $script:CacheDir | Should -Match 'ColorScripts-Enhanced'
-                $script:CacheDir | Should -Match 'Temp'
-                $script:CacheInitialized | Should -BeTrue
+                Set-Variable -Name IsWindows -Scope Global -Force -Value $originalWindows
+                Set-Variable -Name IsMacOS -Scope Global -Force -Value $originalMac
+                Set-Variable -Name IsLinux -Scope Global -Force -Value $originalLinux
             }
         }
     }
@@ -602,11 +662,13 @@ Describe "ColorScripts-Enhanced internal coverage" {
     Context "Utility helpers" {
         It "evaluates text emission scenarios" {
             InModuleScope ColorScripts-Enhanced {
+                $isRedirected = [Console]::IsOutputRedirected
+
                 Test-ColorScriptTextEmission -ReturnText $true -PassThru $false -PipelineLength 0 -BoundParameters @{} | Should -BeTrue
-                Test-ColorScriptTextEmission -ReturnText $false -PassThru $true -PipelineLength 0 -BoundParameters @{} | Should -BeFalse
+                Test-ColorScriptTextEmission -ReturnText $false -PassThru $true -PipelineLength 0 -BoundParameters @{} | Should -Be $isRedirected
                 Test-ColorScriptTextEmission -ReturnText $false -PassThru $false -PipelineLength 2 -BoundParameters @{} | Should -BeTrue
                 Test-ColorScriptTextEmission -ReturnText $false -PassThru $false -PipelineLength 1 -BoundParameters @{ OutVariable = 'ov' } | Should -BeTrue
-                Test-ColorScriptTextEmission -ReturnText $false -PassThru $false -PipelineLength 1 -BoundParameters @{} | Should -BeFalse
+                Test-ColorScriptTextEmission -ReturnText $false -PassThru $false -PipelineLength 1 -BoundParameters @{} | Should -Be $isRedirected
             }
         }
 
@@ -659,7 +721,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             InModuleScope ColorScripts-Enhanced {
                 $matchers = New-NameMatcherSet -Patterns @('alpha*', 'beta')
                 $matchers.Count | Should -Be 2
-                ($matchers | Where-Object IsWildcard).Count | Should -Be 1
+                @($matchers | Where-Object { $_.IsWildcard }).Count | Should -Be 1
 
                 $records = @(
                     [pscustomobject]@{ Name = 'alphaOne'; Path = 'one' },

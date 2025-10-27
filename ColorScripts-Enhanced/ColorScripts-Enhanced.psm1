@@ -554,7 +554,16 @@ function Resolve-CachePath {
         }
     }
 
-    if (-not [System.IO.Path]::IsPathRooted($expanded)) {
+    $isRooted = $false
+    try {
+        $isRooted = [System.IO.Path]::IsPathRooted($expanded)
+    }
+    catch {
+        Write-Verbose "Unable to evaluate rooted state for cache path '$expanded': $($_.Exception.Message)"
+        return $null
+    }
+
+    if (-not $isRooted) {
         $basePath = $null
 
         try {
