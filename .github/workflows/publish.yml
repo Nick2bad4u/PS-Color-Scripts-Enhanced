@@ -285,7 +285,7 @@ jobs:
 
       - name: Create GitHub Release
         if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
-        uses: ncipollo/release-action@2c591bcc8ecdcd2db72b97d6147f871fcd833ba5 # v1.14.0
+        uses: ncipollo/release-action@b7eabc95ff50cbeeedec83973935c8f306dfcd0b # v1.20.0
         with:
           tag: v${{ steps.manifest.outputs.version }}
           name: Release v${{ steps.manifest.outputs.version }}
