@@ -30,26 +30,79 @@ namespace CoverageHost
         private Coordinates windowPosition = new Coordinates(0, 0);
         private string windowTitle = "CoverageHost";
 
-        public override ConsoleColor BackgroundColor { get => backgroundColor; set => backgroundColor = value; }
-        public override ConsoleColor ForegroundColor { get => foregroundColor; set => foregroundColor = value; }
-        public override Size BufferSize { get => bufferSize; set => bufferSize = value; }
-        public override Coordinates CursorPosition { get => cursorPosition; set => cursorPosition = value; }
-        public override int CursorSize { get => cursorSize; set => cursorSize = value; }
-        public override Size WindowSize { get => windowSize; set => windowSize = value; }
-        public override Coordinates WindowPosition { get => windowPosition; set => windowPosition = value; }
-        public override string WindowTitle { get => windowTitle; set => windowTitle = value; }
-        public override Size MaxWindowSize => windowSize;
-        public override Size MaxPhysicalWindowSize => windowSize;
+        public override ConsoleColor BackgroundColor
+        {
+            get { return backgroundColor; }
+            set { backgroundColor = value; }
+        }
+
+        public override ConsoleColor ForegroundColor
+        {
+            get { return foregroundColor; }
+            set { foregroundColor = value; }
+        }
+
+        public override Size BufferSize
+        {
+            get { return bufferSize; }
+            set { bufferSize = value; }
+        }
+
+        public override Coordinates CursorPosition
+        {
+            get { return cursorPosition; }
+            set { cursorPosition = value; }
+        }
+
+        public override int CursorSize
+        {
+            get { return cursorSize; }
+            set { cursorSize = value; }
+        }
+
+        public override Size WindowSize
+        {
+            get { return windowSize; }
+            set { windowSize = value; }
+        }
+
+        public override Coordinates WindowPosition
+        {
+            get { return windowPosition; }
+            set { windowPosition = value; }
+        }
+
+        public override string WindowTitle
+        {
+            get { return windowTitle; }
+            set { windowTitle = value; }
+        }
+
+        public override Size MaxWindowSize
+        {
+            get { return windowSize; }
+        }
+
+        public override Size MaxPhysicalWindowSize
+        {
+            get { return windowSize; }
+        }
         public override void FlushInputBuffer() { }
         public override BufferCell[,] GetBufferContents(Rectangle rectangle)
         {
             return new BufferCell[rectangle.Bottom - rectangle.Top + 1, rectangle.Right - rectangle.Left + 1];
         }
-        public override KeyInfo ReadKey(ReadKeyOptions options) => new KeyInfo();
+        public override KeyInfo ReadKey(ReadKeyOptions options)
+        {
+            return new KeyInfo();
+        }
         public override void ScrollBufferContents(Rectangle source, Coordinates destination, Rectangle clip, BufferCell fill) { }
         public override void SetBufferContents(Rectangle rectangle, BufferCell fill) { }
         public override void SetBufferContents(Coordinates origin, BufferCell[,] contents) { }
-        public override bool KeyAvailable => false;
+        public override bool KeyAvailable
+        {
+            get { return false; }
+        }
     }
 
     internal sealed class StubHostUI : PSHostUserInterface
@@ -62,7 +115,10 @@ namespace CoverageHost
             this.responses = new Queue<int>(responses ?? Array.Empty<int>());
         }
 
-        public override PSHostRawUserInterface RawUI => rawUI;
+        public override PSHostRawUserInterface RawUI
+        {
+            get { return rawUI; }
+        }
 
         public override void Write(string value) { }
         public override void Write(ConsoleColor foregroundColor, ConsoleColor backgroundColor, string value) { }
@@ -120,7 +176,10 @@ namespace CoverageHost
             return new PSCredential(userName ?? "user", CreateSecureString("password"));
         }
 
-        public override string ReadLine() => string.Empty;
+        public override string ReadLine()
+        {
+            return string.Empty;
+        }
 
         public override SecureString ReadLineAsSecureString()
         {
@@ -140,13 +199,40 @@ namespace CoverageHost
             ui = new StubHostUI(responses);
         }
 
-        public override Guid InstanceId => instanceId;
-        public override string Name => "CoverageHost";
-        public override Version Version => new Version(1, 0);
-        public override PSHostUserInterface UI => ui;
-        public override PSObject PrivateData => PSObject.AsPSObject(null);
-        public override CultureInfo CurrentCulture => CultureInfo.InvariantCulture;
-        public override CultureInfo CurrentUICulture => CultureInfo.InvariantCulture;
+        public override Guid InstanceId
+        {
+            get { return instanceId; }
+        }
+
+        public override string Name
+        {
+            get { return "CoverageHost"; }
+        }
+
+        public override Version Version
+        {
+            get { return new Version(1, 0); }
+        }
+
+        public override PSHostUserInterface UI
+        {
+            get { return ui; }
+        }
+
+        public override PSObject PrivateData
+        {
+            get { return PSObject.AsPSObject(null); }
+        }
+
+        public override CultureInfo CurrentCulture
+        {
+            get { return CultureInfo.InvariantCulture; }
+        }
+
+        public override CultureInfo CurrentUICulture
+        {
+            get { return CultureInfo.InvariantCulture; }
+        }
         public override void EnterNestedPrompt() { }
         public override void ExitNestedPrompt() { }
         public override void NotifyBeginApplication() { }

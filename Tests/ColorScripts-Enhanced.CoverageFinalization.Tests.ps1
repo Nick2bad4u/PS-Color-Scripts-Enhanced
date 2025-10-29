@@ -70,6 +70,7 @@
             $result = InModuleScope ColorScripts-Enhanced {
                 $script:ShouldProcessOverride = {
                     param($cmdlet, $target, $action)
+                    [void]$cmdlet
                     $script:__ShouldProcessCall = '{0}:{1}' -f $target, $action
                     return $false
                 }
@@ -204,6 +205,7 @@
 
             $result = InModuleScope ColorScripts-Enhanced -Parameters @{ HomePath = $customHome } {
                 param($HomePath)
+                [void]$HomePath
                 $original = $script:GetUserProfilePathDelegate
                 try {
                     $script:GetUserProfilePathDelegate = { $HomePath }
@@ -305,6 +307,7 @@
 
                 Mock -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -MockWith {
                     param($Message)
+                    [void]$Message
                     $null = $script:__VerboseMessages.Add($Message)
                 }
 
@@ -322,6 +325,7 @@
                 $script:__EncodingCallCount = 0
                 $script:SetConsoleOutputEncodingDelegate = {
                     param([System.Text.Encoding]$Encoding)
+                    [void]$Encoding
                     $script:__EncodingCallCount++
                     if ($script:__EncodingCallCount -gt 1) {
                         throw [System.IO.IOException]::new('restore failure')
@@ -349,6 +353,7 @@
                 try {
                     $script:ConsoleWriteDelegate = {
                         param($Text)
+                        [void]$Text
                         throw [System.IO.IOException]::new('console unavailable')
                     }
                     Write-RenderedText -Text 'fallback text'
@@ -536,6 +541,7 @@
 
                 Mock -CommandName Write-Verbose -MockWith {
                     param($Message)
+                    [void]$Message
                 }
 
                 Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
@@ -572,6 +578,8 @@
 
                 $script:ShouldProcessEvaluator = {
                     param($cmdlet, $target, $action)
+                    [void]$cmdlet
+                    [void]$target
                     if ($action -like 'Build cache for*') { $true } else { $false }
                 }
 
@@ -626,7 +634,10 @@
                     @{ Startup = @{ AutoShowOnImport = $false; DefaultScript = 'bars' } }
                 }
                 Mock -CommandName Show-ColorScript -ModuleName ColorScripts-Enhanced -MockWith {
-                    param([Parameter(ValueFromPipeline = $true)]$Name, [switch]$ReturnText, [switch]$PassThru)
+                    param([string]$Name, [switch]$ReturnText, [switch]$PassThru)
+                    [void]$Name
+                    [void]$ReturnText
+                    [void]$PassThru
                     $script:__StartupCalled = $true
                     'rendered'
                 }

@@ -9,13 +9,13 @@ param(
     [switch]$ShowReport,
 
     [Parameter()]
-    [int]$MinimumCoverage = 70,
+    [int]$MinimumCoverage = 95,
 
     [Parameter()]
     [switch]$CI,
 
     [Parameter()]
-    [ValidateSet('None', 'Default', 'Passed', 'Failed', 'Pending', 'Skipped', 'Inconclusive', 'Describe', 'Context', 'Summary', 'Header', 'Fails', 'All')]
+    [ValidateSet('None', 'Default', 'Minimal', 'Passed', 'Failed', 'Pending', 'Skipped', 'Inconclusive', 'Describe', 'Context', 'Summary', 'Header', 'Fails', 'All', 'Detailed')]
     [string[]]$Show
 )
 
@@ -70,7 +70,7 @@ if ($Show) {
     elseif ($Show -contains 'Minimal' -or $Show -contains 'Summary') {
         $config.Output.Verbosity = 'Minimal'
     }
-    elseif ($Show -contains 'Normal' -or $Show -contains 'Default') {
+    elseif ($Show -contains 'Default') {
         $config.Output.Verbosity = 'Normal'
     }
     elseif ($Show -contains 'Detailed' -or $Show -contains 'All') {

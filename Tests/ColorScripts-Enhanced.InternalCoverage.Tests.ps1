@@ -282,8 +282,9 @@ Describe "ColorScripts-Enhanced internal coverage" {
                 $script:ConfigurationRoot = $null
                 $env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT = $null
                 Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith {
-                    param($path)
-                    $null = $path
+                    param($Path)
+                    [void]$Path
+                    $null = $Path
                     Join-Path $root 'ColorScripts-Enhanced'
                 }
 
@@ -396,15 +397,23 @@ Describe "ColorScripts-Enhanced internal coverage" {
                 $fallback = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'failing-config'
                 Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith {
                     param($Path)
+                    [void]$Path
                     $Path
                 }
                 Mock -CommandName Test-Path -ModuleName ColorScripts-Enhanced -MockWith { $false }
-                Mock -CommandName New-Item -ModuleName ColorScripts-Enhanced -MockWith { throw 'failure' }
+
+                $originalCreateDelegate = $script:CreateDirectoryDelegate
+                $script:CreateDirectoryDelegate = {
+                    param($Path)
+                    [void]$Path
+                    throw [System.IO.IOException]::new('failure')
+                }
 
                 try {
                     { Get-ColorScriptsConfigurationRoot } | Should -Throw
                 }
                 finally {
+                    $script:CreateDirectoryDelegate = $originalCreateDelegate
                     $VerbosePreference = $verbosePreference
                 }
             }

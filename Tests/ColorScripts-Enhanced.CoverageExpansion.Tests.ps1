@@ -365,6 +365,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
 
             InModuleScope ColorScripts-Enhanced -Parameters @{ testScriptPath = $scriptPath } {
                 param($testScriptPath)
+                [void]$testScriptPath
                 Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
                     @([pscustomobject]@{
                             Name        = 'cacheerr'
@@ -1536,6 +1537,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
             Mock -CommandName Write-RenderedText -ModuleName ColorScripts-Enhanced -MockWith {
                 param($Text)
+                [void]$Text
                 # Suppress direct console writes during tests; rendered text is captured via Invoke-WithUtf8Encoding mock.
             }
         }

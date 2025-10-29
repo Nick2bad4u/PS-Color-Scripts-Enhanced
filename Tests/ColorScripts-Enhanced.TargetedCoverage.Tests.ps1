@@ -28,7 +28,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
                 $originalHome = $HOME
                 try {
                     $script:GetUserProfilePathDelegate = { $null }
-                    $HOME = $overrideHome
+                    Set-Variable -Name HOME -Scope Global -Force -Value $overrideHome
                     $resolved = Resolve-CachePath -Path '~'
                     [pscustomobject]@{
                         Resolved = $resolved
@@ -37,7 +37,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
                 }
                 finally {
                     $script:GetUserProfilePathDelegate = $originalDelegate
-                    $HOME = $originalHome
+                    Set-Variable -Name HOME -Scope Global -Force -Value $originalHome
                 }
             }
 

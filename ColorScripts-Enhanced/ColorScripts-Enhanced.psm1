@@ -123,6 +123,13 @@ function Initialize-SystemDelegateState {
             [Console]::Write($Text)
         }
     }
+
+    if (-not $script:CreateDirectoryDelegate) {
+        $script:CreateDirectoryDelegate = {
+            param([string]$Path)
+            [System.IO.Directory]::CreateDirectory($Path)
+        }
+    }
 }
 
 Initialize-SystemDelegateState
@@ -363,7 +370,7 @@ function Get-ColorScriptsConfigurationRoot {
 
         try {
             if (-not (Test-Path -LiteralPath $resolved)) {
-                New-Item -ItemType Directory -Path $resolved -Force -ErrorAction Stop | Out-Null
+                (& $script:CreateDirectoryDelegate $resolved) | Out-Null
             }
             $script:ConfigurationRoot = $resolved
             return $script:ConfigurationRoot
@@ -845,12 +852,20 @@ function Test-ColorScriptTextEmission {
         [System.Collections.IDictionary]$BoundParameters
     )
 
+    $isRedirected = $false
+    try {
+        $isRedirected = [Console]::IsOutputRedirected
+    }
+    catch {
+        $isRedirected = $false
+    }
+
     if ($ReturnText) {
         return $true
     }
 
     if ($PassThru) {
-        return $false
+        return $isRedirected
     }
 
     if ($PipelineLength -gt 1) {
@@ -861,7 +876,11 @@ function Test-ColorScriptTextEmission {
         return $true
     }
 
-    return $false
+    if ($PipelineLength -gt 0) {
+        return $isRedirected
+    }
+
+    return $isRedirected
 }
 
 function Get-PowerShellExecutable {
@@ -3329,19 +3348,6 @@ function Test-ConsoleOutputRedirected {
 # Internal helper to honor startup preferences post-import
 function Invoke-ColorScriptsStartup {
     try {
-        # Fast-path: check environment conditions BEFORE loading configuration
-        if ($env:CI -eq 'true' -or $env:GITHUB_ACTIONS -eq 'true') {
-            return
-        }
-
-        if ($Host.Name -eq 'ServerRemoteHost') {
-            return
-        }
-
-        if (Test-ConsoleOutputRedirected) {
-            return
-        }
-
         $autoShowOverride = $env:COLOR_SCRIPTS_ENHANCED_AUTOSHOW_ON_IMPORT
         $overrideEnabled = $false
         if ($autoShowOverride) {
@@ -3349,6 +3355,32 @@ function Invoke-ColorScriptsStartup {
             if (-not $overrideEnabled) {
                 return
             }
+        }
+
+        $outputRedirected = $false
+        try {
+            $outputRedirected = Test-ConsoleOutputRedirected
+        }
+        catch {
+            $outputRedirected = $false
+        }
+
+        if (-not $overrideEnabled) {
+            if ($env:CI -eq 'true' -or $env:GITHUB_ACTIONS -eq 'true') {
+                return
+            }
+
+            if ($Host.Name -eq 'ServerRemoteHost') {
+                return
+            }
+
+            if ($outputRedirected) {
+                return
+            }
+        }
+        elseif ($outputRedirected) {
+            Write-Verbose 'Console output is redirected; skipping auto-show despite override.'
+            return
         }
 
         $configRoot = $null
