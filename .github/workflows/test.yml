@@ -66,6 +66,13 @@ jobs:
           flags: windows-powershell-51
           name: windows-powershell-51
 
+      - name: Upload test results to Codecov
+        if: ${{ !cancelled() }}
+        uses: codecov/test-results-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./test-results.xml
+
       - name: Validate help topics
         shell: powershell
         run: |
@@ -137,6 +144,13 @@ jobs:
           files: ./coverage.xml
           flags: pwsh-${{ matrix.os }}
           name: pwsh-${{ matrix.os }}
+
+      - name: Upload test results to Codecov
+        if: ${{ !cancelled() }}
+        uses: codecov/test-results-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./test-results.xml
 
       - name: Run script analyzer
         shell: pwsh

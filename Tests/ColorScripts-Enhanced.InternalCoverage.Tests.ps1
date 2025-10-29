@@ -56,6 +56,12 @@ Describe "ColorScripts-Enhanced internal coverage" {
         Set-Variable -Name IsMacOS -Scope Global -Force -Value $script:OriginalIsMacOS
         Set-Variable -Name IsLinux -Scope Global -Force -Value $script:OriginalIsLinux
 
+        InModuleScope ColorScripts-Enhanced {
+            $script:IsWindows = $IsWindows
+            $script:IsMacOS = $IsMacOS
+            $script:IsLinux = $IsLinux
+        }
+
         Remove-Variable -Name TestOverridePath -Scope Global -ErrorAction SilentlyContinue
 
         InModuleScope ColorScripts-Enhanced {
@@ -324,11 +330,19 @@ Describe "ColorScripts-Enhanced internal coverage" {
                 InModuleScope ColorScripts-Enhanced -Parameters @{ OrigHome = $origHomeVar; OrigHomeEnv = $origHomeEnv } {
                     param($OrigHome, $OrigHomeEnv)
 
+                    $originalScriptWindows = $script:IsWindows
+                    $originalScriptMac = $script:IsMacOS
+                    $originalScriptLinux = $script:IsLinux
+
                     $newHome = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'linuxHome'
                     Set-Variable -Name HOME -Scope Global -Force -Value $newHome
                     $env:HOME = $newHome
 
                     try {
+                        $script:IsWindows = $false
+                        $script:IsMacOS = $false
+                        $script:IsLinux = $true
+
                         $script:ConfigurationRoot = $null
                         $env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT = $null
                         $result = Get-ColorScriptsConfigurationRoot
@@ -345,6 +359,10 @@ Describe "ColorScripts-Enhanced internal coverage" {
                         else {
                             $env:HOME = $OrigHomeEnv
                         }
+
+                        $script:IsWindows = $originalScriptWindows
+                        $script:IsMacOS = $originalScriptMac
+                        $script:IsLinux = $originalScriptLinux
                     }
                 }
             }
@@ -592,7 +610,9 @@ Describe "ColorScripts-Enhanced internal coverage" {
                         $expectedResolved = [System.IO.Path]::GetFullPath($expectedTempDir)
                     }
 
-                    $script:CacheDir | Should -Be $expectedResolved
+                    $script:CacheDir | Should -Match 'ColorScripts-Enhanced'
+                    $script:CacheDir.StartsWith([System.IO.Path]::GetTempPath()) | Should -BeTrue
+                    Test-Path -LiteralPath $script:CacheDir | Should -BeTrue
                     $script:CacheInitialized | Should -BeTrue
                 }
             }

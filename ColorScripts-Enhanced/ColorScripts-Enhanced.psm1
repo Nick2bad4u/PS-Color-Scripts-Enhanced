@@ -21,6 +21,7 @@ $script:ConfigurationRoot = $null
 $script:ConfigurationPath = $null
 $script:ConfigurationData = $null
 $script:ConfigurationInitialized = $false
+$script:ShouldProcessOverride = $null
 $script:DefaultConfiguration = @{
     Cache   = @{
         Path = $null
@@ -30,6 +31,155 @@ $script:DefaultConfiguration = @{
         ProfileAutoShow  = $true
         DefaultScript    = $null
     }
+}
+
+$script:IsWindows = $IsWindows
+$script:IsMacOS = $IsMacOS
+$script:PowerShellMajorVersion = $PSVersionTable.PSVersion.Major
+
+function Initialize-SystemDelegateState {
+    if (-not $script:GetUserProfilePathDelegate) {
+        $script:GetUserProfilePathDelegate = { [System.Environment]::GetFolderPath('UserProfile') }
+    }
+
+    if (-not $script:IsPathRootedDelegate) {
+        $script:IsPathRootedDelegate = {
+            param([string]$Path)
+            [System.IO.Path]::IsPathRooted($Path)
+        }
+    }
+
+    if (-not $script:GetFullPathDelegate) {
+        $script:GetFullPathDelegate = {
+            param([string]$Path)
+            [System.IO.Path]::GetFullPath($Path)
+        }
+    }
+
+    if (-not $script:GetCurrentDirectoryDelegate) {
+        $script:GetCurrentDirectoryDelegate = {
+            [System.IO.Directory]::GetCurrentDirectory()
+        }
+    }
+
+    if (-not $script:GetCurrentProviderPathDelegate) {
+        $script:GetCurrentProviderPathDelegate = {
+            $ExecutionContext.SessionState.Path.CurrentFileSystemLocation.ProviderPath
+        }
+    }
+
+    if (-not $script:DirectoryGetLastWriteTimeUtcDelegate) {
+        $script:DirectoryGetLastWriteTimeUtcDelegate = {
+            param([string]$Path)
+            [System.IO.Directory]::GetLastWriteTimeUtc($Path)
+        }
+    }
+
+    if (-not $script:FileExistsDelegate) {
+        $script:FileExistsDelegate = {
+            param([string]$Path)
+            [System.IO.File]::Exists($Path)
+        }
+    }
+
+    if (-not $script:FileGetLastWriteTimeUtcDelegate) {
+        $script:FileGetLastWriteTimeUtcDelegate = {
+            param([string]$Path)
+            [System.IO.File]::GetLastWriteTimeUtc($Path)
+        }
+    }
+
+    if (-not $script:FileReadAllTextDelegate) {
+        $script:FileReadAllTextDelegate = {
+            param([string]$Path, [System.Text.Encoding]$Encoding)
+            [System.IO.File]::ReadAllText($Path, $Encoding)
+        }
+    }
+
+    if (-not $script:GetCurrentProcessDelegate) {
+        $script:GetCurrentProcessDelegate = {
+            [System.Diagnostics.Process]::GetCurrentProcess()
+        }
+    }
+
+    if (-not $script:IsOutputRedirectedDelegate) {
+        $script:IsOutputRedirectedDelegate = { [Console]::IsOutputRedirected }
+    }
+
+    if (-not $script:GetConsoleOutputEncodingDelegate) {
+        $script:GetConsoleOutputEncodingDelegate = { [Console]::OutputEncoding }
+    }
+
+    if (-not $script:SetConsoleOutputEncodingDelegate) {
+        $script:SetConsoleOutputEncodingDelegate = {
+            param([System.Text.Encoding]$Encoding)
+            [Console]::OutputEncoding = $Encoding
+        }
+    }
+
+    if (-not $script:ConsoleWriteDelegate) {
+        $script:ConsoleWriteDelegate = {
+            param([string]$Text)
+            [Console]::Write($Text)
+        }
+    }
+}
+
+Initialize-SystemDelegateState
+
+function Invoke-ShouldProcess {
+    param(
+        [System.Management.Automation.PSCmdlet]$Cmdlet,
+        [object]$Target,
+        [string]$Action
+    )
+
+    if ($script:ShouldProcessOverride -is [scriptblock]) {
+        return & $script:ShouldProcessOverride $Cmdlet $Target $Action
+    }
+
+    return $Cmdlet.ShouldProcess($Target, $Action)
+}
+
+function Invoke-FileWriteAllText {
+    param(
+        [Parameter(Mandatory)]
+        [string]$Path,
+        [Parameter(Mandatory)]
+        [string]$Content,
+        [Parameter(Mandatory)]
+        [System.Text.Encoding]$Encoding
+    )
+
+    [System.IO.File]::WriteAllText($Path, $Content, $Encoding)
+}
+
+function Get-FileLastWriteTimeUtc {
+    param([Parameter(Mandatory)][string]$Path)
+    [System.IO.File]::GetLastWriteTimeUtc($Path)
+}
+
+function Set-FileLastWriteTimeUtc {
+    param(
+        [Parameter(Mandatory)][string]$Path,
+        [Parameter(Mandatory)][datetime]$Timestamp
+    )
+
+    [System.IO.File]::SetLastWriteTimeUtc($Path, $Timestamp)
+}
+
+function Get-FileLastWriteTime {
+    param([Parameter(Mandatory)][string]$Path)
+    [System.IO.File]::GetLastWriteTime($Path)
+}
+
+function Set-FileLastWriteTime {
+    param(
+        [Parameter(Mandatory)][string]$Path,
+        [Parameter(Mandatory)][datetime]$Timestamp
+    )
+
+    [System.IO.File]::SetLastWriteTime($Path, $Timestamp)
 }
 
 function Copy-ColorScriptHashtable {
@@ -180,12 +330,12 @@ function Get-ColorScriptsConfigurationRoot {
         $candidates += $overrideRoot
     }
 
-    if ($IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
+    if ($script:IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
         if ($env:APPDATA) {
             $candidates += (Join-Path -Path $env:APPDATA -ChildPath 'ColorScripts-Enhanced')
         }
     }
-    elseif ($IsMacOS) {
+    elseif ($script:IsMacOS) {
         $macBase = Join-Path -Path $HOME -ChildPath 'Library'
         $macBase = Join-Path -Path $macBase -ChildPath 'Application Support'
         $candidates += (Join-Path -Path $macBase -ChildPath 'ColorScripts-Enhanced')
@@ -197,7 +347,7 @@ function Get-ColorScriptsConfigurationRoot {
         }
     }
 
-    if (-not $candidates) {
+    if ($candidates.Count -eq 0) {
         $candidates = @([System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), 'ColorScripts-Enhanced'))
     }
 
@@ -296,7 +446,7 @@ function Initialize-Configuration {
 
     $script:ConfigurationData = Merge-ColorScriptConfiguration $script:DefaultConfiguration $existing
 
-    if ($forceSave -or $configExists) {
+    if ($forceSave -or -not $configExists) {
         Save-ColorScriptConfiguration -Configuration $script:ConfigurationData -ExistingContent $raw -Force:$forceSave
     }
 
@@ -516,7 +666,7 @@ function Resolve-CachePath {
     $expanded = [System.Environment]::ExpandEnvironmentVariables($Path)
 
     if ($expanded -and $expanded.StartsWith('~')) {
-        $homeDirectory = [System.Environment]::GetFolderPath('UserProfile')
+        $homeDirectory = & $script:GetUserProfilePathDelegate
         if (-not $homeDirectory) {
             $homeDirectory = $HOME
         }
@@ -556,7 +706,7 @@ function Resolve-CachePath {
 
     $isRooted = $false
     try {
-        $isRooted = [System.IO.Path]::IsPathRooted($expanded)
+        $isRooted = & $script:IsPathRootedDelegate $expanded
     }
     catch {
         Write-Verbose "Unable to evaluate rooted state for cache path '$expanded': $($_.Exception.Message)"
@@ -567,7 +717,7 @@ function Resolve-CachePath {
         $basePath = $null
 
         try {
-            $basePath = $ExecutionContext.SessionState.Path.CurrentFileSystemLocation.ProviderPath
+            $basePath = & $script:GetCurrentProviderPathDelegate
         }
         catch {
             $basePath = $null
@@ -575,7 +725,7 @@ function Resolve-CachePath {
 
         if (-not $basePath) {
             try {
-                $basePath = [System.IO.Directory]::GetCurrentDirectory()
+                $basePath = & $script:GetCurrentDirectoryDelegate
             }
             catch {
                 $basePath = $null
@@ -590,7 +740,7 @@ function Resolve-CachePath {
     }
 
     try {
-        return [System.IO.Path]::GetFullPath($candidate)
+        return & $script:GetFullPathDelegate $candidate
     }
     catch {
         Write-Verbose "Unable to resolve cache path '$Path': $($_.Exception.Message)"
@@ -612,7 +762,7 @@ function Get-ColorScriptInventory {
 
     $currentStamp = $null
     try {
-        $currentStamp = [System.IO.Directory]::GetLastWriteTimeUtc($script:ScriptsPath)
+        $currentStamp = & $script:DirectoryGetLastWriteTimeUtcDelegate $script:ScriptsPath
         if ($currentStamp -eq [datetime]::MinValue) {
             $currentStamp = $null
         }
@@ -717,7 +867,14 @@ function Get-PowerShellExecutable {
         }
         else {
             try {
-                $script:PowerShellExecutable = [System.Diagnostics.Process]::GetCurrentProcess().MainModule.FileName
+                $process = & $script:GetCurrentProcessDelegate
+                $module = if ($process) { $process.MainModule } else { $null }
+                if ($module -and $module.FileName) {
+                    $script:PowerShellExecutable = $module.FileName
+                }
+                else {
+                    throw [System.InvalidOperationException]::new('Process module unavailable.')
+                }
             }
             catch {
                 $script:PowerShellExecutable = [System.Environment]::GetCommandLineArgs()[0]
@@ -737,11 +894,11 @@ function Invoke-WithUtf8Encoding {
     $originalEncoding = $null
     $encodingChanged = $false
 
-    if (-not [Console]::IsOutputRedirected) {
+    if (-not (& $script:IsOutputRedirectedDelegate)) {
         try {
-            $originalEncoding = [Console]::OutputEncoding
-            if ($originalEncoding.WebName -ne 'utf-8') {
-                [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+            $originalEncoding = & $script:GetConsoleOutputEncodingDelegate
+            if ($originalEncoding -and $originalEncoding.WebName -ne 'utf-8') {
+                & $script:SetConsoleOutputEncodingDelegate ([System.Text.Encoding]::UTF8)
                 $encodingChanged = $true
             }
         }
@@ -762,7 +919,7 @@ function Invoke-WithUtf8Encoding {
     finally {
         if ($encodingChanged -and $originalEncoding) {
             try {
-                [Console]::OutputEncoding = $originalEncoding
+                & $script:SetConsoleOutputEncodingDelegate $originalEncoding
             }
             catch [System.IO.IOException] {
                 Write-Verbose 'Console handle unavailable; unable to restore OutputEncoding.'
@@ -781,7 +938,7 @@ function Write-RenderedText {
     $outputText = if ($null -ne $Text) { [string]$Text } else { '' }
 
     try {
-        [Console]::Write($outputText)
+        & $script:ConsoleWriteDelegate $outputText
 
         $requiresNewLine = $true
         if ($outputText) {
@@ -789,7 +946,7 @@ function Write-RenderedText {
         }
 
         if ($requiresNewLine) {
-            [Console]::Write([Environment]::NewLine)
+            & $script:ConsoleWriteDelegate ([Environment]::NewLine)
         }
     }
     catch [System.IO.IOException] {
@@ -833,13 +990,13 @@ function Initialize-CacheDirectory {
         }
     }
 
-    if ($IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
+    if ($script:IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
         if ($env:APPDATA) {
             $windowsBase = Join-Path -Path $env:APPDATA -ChildPath 'ColorScripts-Enhanced'
             $candidatePaths += (Join-Path -Path $windowsBase -ChildPath 'cache')
         }
     }
-    elseif ($IsMacOS) {
+    elseif ($script:IsMacOS) {
         $macBase = Join-Path -Path $HOME -ChildPath 'Library'
         $macBase = Join-Path -Path $macBase -ChildPath 'Application Support'
         $macBase = Join-Path -Path $macBase -ChildPath 'ColorScripts-Enhanced'
@@ -1580,7 +1737,7 @@ function Get-CachedOutput {
 
     # Fast path: Use .NET File methods to avoid PowerShell cmdlet overhead
     try {
-        if (-not [System.IO.File]::Exists($ScriptPath)) {
+        if (-not (& $script:FileExistsDelegate $ScriptPath)) {
             return [pscustomobject]@{
                 Available     = $false
                 CacheFile     = $null
@@ -1602,7 +1759,7 @@ function Get-CachedOutput {
     $cacheFile = Join-Path $script:CacheDir "$scriptName.cache"
 
     try {
-        if (-not [System.IO.File]::Exists($cacheFile)) {
+        if (-not (& $script:FileExistsDelegate $cacheFile)) {
             return [pscustomobject]@{
                 Available     = $false
                 CacheFile     = $cacheFile
@@ -1612,8 +1769,8 @@ function Get-CachedOutput {
         }
 
         # Use direct .NET file time comparison for better performance
-        $scriptLastWrite = [System.IO.File]::GetLastWriteTimeUtc($ScriptPath)
-        $cacheLastWrite = [System.IO.File]::GetLastWriteTimeUtc($cacheFile)
+        $scriptLastWrite = & $script:FileGetLastWriteTimeUtcDelegate $ScriptPath
+        $cacheLastWrite = & $script:FileGetLastWriteTimeUtcDelegate $cacheFile
 
         if ($scriptLastWrite -gt $cacheLastWrite) {
             return [pscustomobject]@{
@@ -1624,7 +1781,7 @@ function Get-CachedOutput {
             }
         }
 
-        $content = [System.IO.File]::ReadAllText($cacheFile, $script:Utf8NoBomEncoding)
+        $content = & $script:FileReadAllTextDelegate $cacheFile $script:Utf8NoBomEncoding
 
         return [pscustomobject]@{
             Available     = $true
@@ -1763,17 +1920,17 @@ function Build-ScriptCache {
 
     if ($execution.Success) {
         try {
-            [System.IO.File]::WriteAllText($cacheFile, $execution.StdOut, $script:Utf8NoBomEncoding)
+            Invoke-FileWriteAllText -Path $cacheFile -Content $execution.StdOut -Encoding $script:Utf8NoBomEncoding
 
             # Use .NET methods directly for better performance
             try {
-                $scriptLastWrite = [System.IO.File]::GetLastWriteTimeUtc($ScriptPath)
-                [System.IO.File]::SetLastWriteTimeUtc($cacheFile, $scriptLastWrite)
+                $scriptLastWrite = Get-FileLastWriteTimeUtc -Path $ScriptPath
+                Set-FileLastWriteTimeUtc -Path $cacheFile -Timestamp $scriptLastWrite
             }
             catch {
                 # Fallback if UTC methods fail
-                $scriptLastWrite = [System.IO.File]::GetLastWriteTime($ScriptPath)
-                [System.IO.File]::SetLastWriteTime($cacheFile, $scriptLastWrite)
+                $scriptLastWrite = Get-FileLastWriteTime -Path $ScriptPath
+                Set-FileLastWriteTime -Path $cacheFile -Timestamp $scriptLastWrite
             }
             $result.Success = $true
         }
@@ -2422,7 +2579,7 @@ function Build-ColorScriptCache {
         # Lazy initialization: only initialize cache when building
         Initialize-CacheDirectory
 
-        if (-not $PSCmdlet.ShouldProcess($script:CacheDir, "Build cache for $recordCount script(s)")) {
+        if (-not (Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $script:CacheDir -Action "Build cache for $recordCount script(s)")) {
             return [System.Management.Automation.PSCustomObject[]]@()
         }
 
@@ -2458,7 +2615,7 @@ function Build-ColorScriptCache {
             }
 
             if (-not $entry) {
-                if (-not $PSCmdlet.ShouldProcess($scriptName, 'Build cache')) {
+                if (-not (Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $scriptName -Action 'Build cache')) {
                     $resultStatus = 'SkippedByUser'
                     $entry = [pscustomobject]@{
                         Name      = $scriptName
@@ -2490,13 +2647,13 @@ function Build-ColorScriptCache {
 
             $results += $entry
 
-            $completionPercent = if ($totalCount -eq 0) { 100 } else { [int]((($index + 1) / [double]$totalCount) * 100) }
-            $statusSuffix = switch ($resultStatus) {
-                'Updated' { 'Cached' }
-                'SkippedUpToDate' { 'Skipped (up-to-date)' }
-                'SkippedByUser' { 'Skipped by user' }
-                'Failed' { 'Failed' }
-                default { $resultStatus }
+            $completionPercent = if ($totalCount -gt 0) { [int]((($index + 1) / [double]$totalCount) * 100) } else { 0 }
+            $statusSuffix = $resultStatus
+            switch ($resultStatus) {
+                'Updated' { $statusSuffix = 'Cached' }
+                'SkippedUpToDate' { $statusSuffix = 'Skipped (up-to-date)' }
+                'SkippedByUser' { $statusSuffix = 'Skipped by user' }
+                'Failed' { $statusSuffix = 'Failed' }
             }
 
             $completionMessage = "{0}/{1}: {2} - {3}" -f ($index + 1), $totalCount, $scriptName, $statusSuffix
@@ -2764,7 +2921,7 @@ function Clear-ColorScriptCache {
                         continue
                     }
 
-                    if (-not $PSCmdlet.ShouldProcess($cacheFile, 'Clear cache')) {
+                    if (-not (Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $cacheFile -Action 'Clear cache')) {
                         $results += [pscustomobject]@{
                             Name      = $matchedName
                             CacheFile = $cacheFile
@@ -2812,7 +2969,7 @@ function Clear-ColorScriptCache {
                 return [System.Management.Automation.PSCustomObject[]]@()
             }
 
-            if (-not $PSCmdlet.ShouldProcess($targetRoot, "Clear $($cacheFiles.Count) cache file(s)")) {
+            if (-not (Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $targetRoot -Action "Clear $($cacheFiles.Count) cache file(s)")) {
                 return [System.Management.Automation.PSCustomObject[]]@()
             }
 
@@ -3154,6 +3311,16 @@ function Add-ColorScriptProfile {
     }
 }
 
+# Internal helper to check if console output is redirected (testable wrapper)
+function Test-ConsoleOutputRedirected {
+    try {
+        return (& $script:IsOutputRedirectedDelegate)
+    }
+    catch {
+        return $false
+    }
+}
+
 # Internal helper to honor startup preferences post-import
 function Invoke-ColorScriptsStartup {
     try {
@@ -3166,15 +3333,7 @@ function Invoke-ColorScriptsStartup {
             return
         }
 
-        $outputRedirected = $false
-        try {
-            $outputRedirected = [Console]::IsOutputRedirected
-        }
-        catch {
-            $outputRedirected = $false
-        }
-
-        if ($outputRedirected) {
+        if (Test-ConsoleOutputRedirected) {
             return
         }
 

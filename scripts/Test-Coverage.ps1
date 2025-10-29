@@ -12,14 +12,18 @@ param(
     [int]$MinimumCoverage = 70,
 
     [Parameter()]
-    [switch]$CI
+    [switch]$CI,
+
+    [Parameter()]
+    [ValidateSet('None', 'Default', 'Passed', 'Failed', 'Pending', 'Skipped', 'Inconclusive', 'Describe', 'Context', 'Summary', 'Header', 'Fails', 'All')]
+    [string[]]$Show
 )
 
 $ErrorActionPreference = 'Stop'
 
 # Ensure Pester v5+ is available
-$pesterModule = Get-Module -ListAvailable -Name Pester | Where-Object { $_.Version -ge '5.0.0' } | Select-Object -First 1
-if (-not $pesterModule) {
+$availablePesterModule = Get-Module -ListAvailable -Name Pester | Where-Object { $_.Version -ge '5.0.0' } | Select-Object -First 1
+if (-not $availablePesterModule) {
     Write-Host "Installing Pester v5..." -ForegroundColor Yellow
     Install-Module -Name Pester -MinimumVersion 5.0.0 -Force -SkipPublisherCheck -Scope CurrentUser
     Import-Module Pester -MinimumVersion 5.0.0 -Force
@@ -56,7 +60,31 @@ $config.CodeCoverage.OutputFormat = 'JaCoCo'
 $config.CodeCoverage.CoveragePercentTarget = $MinimumCoverage
 
 # Output settings
-$config.Output.Verbosity = 'Detailed'
+if ($Show) {
+    $config.Output.Verbosity = 'Normal'
+    $config.Should.ErrorAction = 'Continue'
+    # Map Show values to Pester v5 verbosity levels
+    if ($Show -contains 'None') {
+        $config.Output.Verbosity = 'None'
+    }
+    elseif ($Show -contains 'Minimal' -or $Show -contains 'Summary') {
+        $config.Output.Verbosity = 'Minimal'
+    }
+    elseif ($Show -contains 'Normal' -or $Show -contains 'Default') {
+        $config.Output.Verbosity = 'Normal'
+    }
+    elseif ($Show -contains 'Detailed' -or $Show -contains 'All') {
+        $config.Output.Verbosity = 'Detailed'
+    }
+}
+else {
+    $config.Output.Verbosity = 'Detailed'
+}
+
+# Additional output control for CI
+if ($CI) {
+    $config.Output.Verbosity = 'Minimal'
+}
 
 # TestResult settings for CI
 if ($CI) {
@@ -111,8 +139,12 @@ if ($ShowReport -and (Test-Path $coverageOutputPath)) {
 
     if (-not $reportGenerator) {
         Write-Host "Installing ReportGenerator..." -ForegroundColor Yellow
-        dotnet tool install -g dotnet-reportgenerator-globaltool
+        $installResult = dotnet tool install -g dotnet-reportgenerator-globaltool 2>&1
         $reportGenerator = Get-Command reportgenerator -ErrorAction SilentlyContinue
+        if (-not $reportGenerator) {
+            Write-Error "Failed to install ReportGenerator. Ensure .NET SDK is installed and you have network connectivity.`nDetails: $installResult"
+            return
+        }
     }
 
     if ($reportGenerator) {
@@ -149,8 +181,6 @@ if ($result.FailedCount -gt 0) {
         Write-Host "  - $($_.ExpandedPath)" -ForegroundColor Red
     }
 }
-
-Write-Host ""
 
 # Exit with appropriate code
 if ($CI) {

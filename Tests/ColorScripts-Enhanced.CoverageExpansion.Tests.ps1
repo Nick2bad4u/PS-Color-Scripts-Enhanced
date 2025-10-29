@@ -317,6 +317,98 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $caught | Should -Not -BeNullOrEmpty
             $caught.Exception.Message | Should -Be "Unable to resolve output path '::invalid::'."
         }
+
+        It "shows help when requested" {
+            Mock -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced
+
+            Export-ColorScriptMetadata -h
+
+            Assert-MockCalled -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'Export-ColorScriptMetadata' }
+        }
+
+        It "continues when file info cannot be retrieved" {
+            $unavailablePath = 'Z:\nonexistent\failinfo.ps1'
+
+            $capturedVerbose = [System.Collections.Generic.List[string]]::new()
+
+            Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                @([pscustomobject]@{
+                        Name        = 'failinfo'
+                        Path        = $unavailablePath
+                        Category    = 'Demo'
+                        Categories  = @('Demo')
+                        Tags        = @('Demo')
+                        Description = 'demo'
+                    })
+            }
+
+            Mock -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -MockWith {
+                param($Message)
+                $null = $capturedVerbose.Add($Message)
+            }
+
+            $result = Export-ColorScriptMetadata -IncludeFileInfo -PassThru
+
+            $result | Should -HaveCount 1
+            $result[0].ScriptPath | Should -Be $unavailablePath
+            $result[0].ScriptSizeBytes | Should -Be $null
+            $result[0].ScriptLastWriteTimeUtc | Should -Be $null
+            ($capturedVerbose | Where-Object { $_ -like "Unable to retrieve file info for 'failinfo'*" }) | Should -Not -BeNullOrEmpty
+        }
+
+        It "includes cache metadata when available" {
+            $scriptPath = Join-Path -Path $script:ScriptsDir -ChildPath 'cacheerr.ps1'
+            Set-Content -LiteralPath $scriptPath -Value "Write-Host 'cacheerr'" -Encoding UTF8
+
+            $cachePath = Join-Path -Path $script:CachePath -ChildPath 'cacheerr.cache'
+            Set-Content -LiteralPath $cachePath -Value 'cached' -Encoding UTF8
+
+            InModuleScope ColorScripts-Enhanced -Parameters @{ testScriptPath = $scriptPath } {
+                param($testScriptPath)
+                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                    @([pscustomobject]@{
+                            Name        = 'cacheerr'
+                            Path        = $testScriptPath
+                            Category    = 'Demo'
+                            Categories  = @('Demo')
+                            Tags        = @('Demo')
+                            Description = 'demo'
+                        })
+                }
+
+                $result = Export-ColorScriptMetadata -IncludeCacheInfo -PassThru
+
+                $result | Should -HaveCount 1
+                $result[0].CachePath | Should -Match 'cacheerr.cache'
+                $result[0].CacheExists | Should -BeTrue
+                $result[0].CacheLastWriteTimeUtc | Should -BeGreaterThan ([datetime]::MinValue)
+            }
+        }
+
+        It "creates the output directory when exporting to a file" {
+            $scriptPath = Join-Path -Path $script:ScriptsDir -ChildPath 'dircreate.ps1'
+            Set-Content -LiteralPath $scriptPath -Value "Write-Host 'dircreate'" -Encoding UTF8
+
+            Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                @([pscustomobject]@{
+                        Name        = 'dircreate'
+                        Path        = $scriptPath
+                        Category    = 'Demo'
+                        Categories  = @('Demo')
+                        Tags        = @('Demo')
+                        Description = 'demo'
+                    })
+            }
+
+            $targetDir = Join-Path -Path $script:TestRoot -ChildPath ([guid]::NewGuid().ToString())
+            $outputPath = Join-Path -Path $targetDir -ChildPath 'export.json'
+
+            $payload = Export-ColorScriptMetadata -Path $outputPath -PassThru
+
+            Test-Path -LiteralPath $targetDir | Should -BeTrue
+            Test-Path -LiteralPath $outputPath | Should -BeTrue
+            $payload | Should -HaveCount 1
+        }
     }
 
     Context "Get-ColorScriptMetadataTable" {
@@ -378,13 +470,783 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $metadataPath = $script:MetadataFile
 
             New-Item -ItemType File -Path (Join-Path -Path $scriptsDir -ChildPath 'cached.ps1') -Force | Out-Null
+            Set-Content -LiteralPath (Join-Path -Path $scriptsDir -ChildPath 'cached.ps1') -Value "Write-Host 'cached script'" -Encoding UTF8
             $metadataContent = @'
 @{
     Categories = @{
         Abstract = @("cached")
     }
+
+    Context "Resolve-CachePath delegate scenarios" {
+        It "uses HOME fallback when user profile delegate unavailable" {
+            $customHome = Join-Path -Path $script:TestRoot -ChildPath 'home-fallback'
+            New-Item -ItemType Directory -Path $customHome -Force | Out-Null
+
+            $previousHome = $HOME
+            $previousEnvHome = $env:HOME
+            $originalDelegate = InModuleScope ColorScripts-Enhanced {
+                $script:GetUserProfilePathDelegate
+            }
+
+            try {
+                Set-Variable -Name HOME -Scope Global -Force -Value $customHome
+                $env:HOME = $customHome
+
+                $result = InModuleScope ColorScripts-Enhanced -Parameters @{ expectedHome = $customHome } {
+                    param($expectedHome)
+                    $script:GetUserProfilePathDelegate = { $null }
+                    Resolve-CachePath -Path '~'
+                }
+
+                $result | Should -Be $customHome
+            }
+            finally {
+                Set-Variable -Name HOME -Scope Global -Force -Value $previousHome
+                $env:HOME = $previousEnvHome
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:GetUserProfilePathDelegate = $delegate
+                }
+            }
+        }
+
+        It "returns null when provider path and current directory unavailable" {
+            $originalProvider = InModuleScope ColorScripts-Enhanced { $script:GetCurrentProviderPathDelegate }
+            $originalCurrent = InModuleScope ColorScripts-Enhanced { $script:GetCurrentDirectoryDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:GetCurrentProviderPathDelegate = {
+                        throw [System.Management.Automation.RuntimeException]::new('missing provider path')
+                    }
+                    $script:GetCurrentDirectoryDelegate = {
+                        throw [System.IO.IOException]::new('missing directory path')
+                    }
+                }
+
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Resolve-CachePath -Path 'relative\cache'
+                }
+
+                $result | Should -Be $null
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ provider = $originalProvider; current = $originalCurrent } {
+                    param($provider, $current)
+                    $script:GetCurrentProviderPathDelegate = $provider
+                    $script:GetCurrentDirectoryDelegate = $current
+                }
+            }
+        }
+
+        It "handles full path failures gracefully" {
+            $originalDelegate = InModuleScope ColorScripts-Enhanced { $script:GetFullPathDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:GetFullPathDelegate = {
+                        param($path)
+                        throw [System.Exception]::new('full-path failure')
+                    }
+                }
+
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Resolve-CachePath -Path 'relative\cache'
+                }
+
+                $result | Should -Be $null
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:GetFullPathDelegate = $delegate
+                }
+            }
+        }
+
+        It "continues when qualifier resolution fails" {
+            Mock -CommandName Split-Path -ModuleName ColorScripts-Enhanced -MockWith {
+                throw [System.Management.Automation.RuntimeException]::new('qualifier failure')
+            } -ParameterFilter { $Qualifier }
+
+            Push-Location -LiteralPath $script:TestRoot
+            try {
+                $expected = Join-Path -Path (Get-Location).ProviderPath -ChildPath 'relative\cache'
+
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Resolve-CachePath -Path 'relative\cache'
+                }
+
+                $result | Should -Be $expected
+            }
+            finally {
+                Pop-Location
+                Remove-Mock -CommandName Split-Path -ModuleName ColorScripts-Enhanced
+            }
+        }
+
+        It "returns null when path rooted check fails" {
+            $originalDelegate = InModuleScope ColorScripts-Enhanced { $script:IsPathRootedDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:IsPathRootedDelegate = {
+                        param($path)
+                        throw [System.Exception]::new('rooted failure')
+                    }
+                }
+
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Resolve-CachePath -Path 'relative\cache'
+                }
+
+                $result | Should -Be $null
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:IsPathRootedDelegate = $delegate
+                }
+            }
+        }
+
+        It "reinitializes system delegate defaults" {
+            InModuleScope ColorScripts-Enhanced {
+                $script:GetUserProfilePathDelegate = $null
+                $script:IsPathRootedDelegate = $null
+                $script:GetFullPathDelegate = $null
+                $script:GetCurrentDirectoryDelegate = $null
+                $script:GetCurrentProviderPathDelegate = $null
+                $script:DirectoryGetLastWriteTimeUtcDelegate = $null
+                $script:FileExistsDelegate = $null
+                $script:FileGetLastWriteTimeUtcDelegate = $null
+                $script:FileReadAllTextDelegate = $null
+                $script:GetCurrentProcessDelegate = $null
+                $script:IsOutputRedirectedDelegate = $null
+                $script:GetConsoleOutputEncodingDelegate = $null
+                $script:SetConsoleOutputEncodingDelegate = $null
+                $script:ConsoleWriteDelegate = $null
+            }
+
+            InModuleScope ColorScripts-Enhanced {
+                Initialize-SystemDelegateState
+            }
+
+            InModuleScope ColorScripts-Enhanced {
+                $script:GetUserProfilePathDelegate  | Should -Not -BeNullOrEmpty
+                $script:IsPathRootedDelegate        | Should -Not -BeNullOrEmpty
+                $script:GetFullPathDelegate         | Should -Not -BeNullOrEmpty
+                $script:GetCurrentDirectoryDelegate | Should -Not -BeNullOrEmpty
+                $script:GetCurrentProviderPathDelegate | Should -Not -BeNullOrEmpty
+                $script:DirectoryGetLastWriteTimeUtcDelegate | Should -Not -BeNullOrEmpty
+                $script:FileExistsDelegate          | Should -Not -BeNullOrEmpty
+                $script:FileGetLastWriteTimeUtcDelegate | Should -Not -BeNullOrEmpty
+                $script:FileReadAllTextDelegate     | Should -Not -BeNullOrEmpty
+                $script:GetCurrentProcessDelegate   | Should -Not -BeNullOrEmpty
+                $script:IsOutputRedirectedDelegate  | Should -Not -BeNullOrEmpty
+                $script:GetConsoleOutputEncodingDelegate | Should -Not -BeNullOrEmpty
+                $script:SetConsoleOutputEncodingDelegate | Should -Not -BeNullOrEmpty
+                $script:ConsoleWriteDelegate        | Should -Not -BeNullOrEmpty
+            }
+        }
+
+        It "expands relative home paths" {
+            $previousHome = $HOME
+            $previousEnvHome = $env:HOME
+            Set-Variable -Name HOME -Scope Global -Force -Value $script:TestRoot
+            $env:HOME = $script:TestRoot
+
+            try {
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Resolve-CachePath -Path '~\relative'
+                }
+
+                $result | Should -Be (Join-Path -Path $script:TestRoot -ChildPath 'relative')
+            }
+            finally {
+                Set-Variable -Name HOME -Scope Global -Force -Value $previousHome
+                $env:HOME = $previousEnvHome
+            }
+        }
+
+        It "returns null for whitespace input" {
+            $result = InModuleScope ColorScripts-Enhanced {
+                Resolve-CachePath -Path '   '
+            }
+
+            $result | Should -Be $null
+        }
+
+        It "rejects invalid drive qualifier" {
+            $originalDelegate = InModuleScope ColorScripts-Enhanced { $script:IsPathRootedDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:IsPathRootedDelegate = {
+                        param($path)
+                        $false
+                    }
+                }
+
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Resolve-CachePath -Path 'ZZ:\missing\dir'
+                }
+
+                $result | Should -Be $null
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:IsPathRootedDelegate = $delegate
+                }
+            }
+        }
+    }
+
+    Context "Get-PowerShellExecutable fallbacks" {
+        It "prefers pwsh when available" {
+            Mock -CommandName Get-Command -ModuleName ColorScripts-Enhanced -MockWith {
+                [pscustomobject]@{ Path = 'C:\Program Files\PowerShell\7\pwsh.exe' }
+            }
+
+            InModuleScope ColorScripts-Enhanced {
+                $script:PowerShellExecutable = $null
+            }
+
+            $result = InModuleScope ColorScripts-Enhanced {
+                Get-PowerShellExecutable
+            }
+
+            $result | Should -Be 'C:\Program Files\PowerShell\7\pwsh.exe'
+
+            Remove-Mock -CommandName Get-Command -ModuleName ColorScripts-Enhanced
+        }
+
+        It "uses command line args when process module unavailable" {
+            Mock -CommandName Get-Command -ModuleName ColorScripts-Enhanced -MockWith { $null }
+
+            $processStub = [pscustomobject]@{ MainModule = $null }
+            $originalDelegate = InModuleScope ColorScripts-Enhanced { $script:GetCurrentProcessDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ stub = $processStub } {
+                    param($stub)
+                    $script:GetCurrentProcessDelegate = { $stub }
+                    $script:PowerShellExecutable = $null
+                }
+
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Get-PowerShellExecutable
+                }
+
+                $result | Should -Be ([System.Environment]::GetCommandLineArgs()[0])
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:GetCurrentProcessDelegate = $delegate
+                }
+                Remove-Mock -CommandName Get-Command -ModuleName ColorScripts-Enhanced
+            }
+        }
+
+        It "handles process retrieval exceptions" {
+            Mock -CommandName Get-Command -ModuleName ColorScripts-Enhanced -MockWith { $null }
+            $originalDelegate = InModuleScope ColorScripts-Enhanced { $script:GetCurrentProcessDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:GetCurrentProcessDelegate = {
+                        throw [System.InvalidOperationException]::new('process unavailable')
+                    }
+                    $script:PowerShellExecutable = $null
+                }
+
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Get-PowerShellExecutable
+                }
+
+                $result | Should -Be ([System.Environment]::GetCommandLineArgs()[0])
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:GetCurrentProcessDelegate = $delegate
+                }
+                Remove-Mock -CommandName Get-Command -ModuleName ColorScripts-Enhanced
+            }
+        }
+    }
+
+    Context "Invoke-WithUtf8Encoding console handling" {
+        It "continues when setting output encoding fails" {
+            $originalIsRedirected = InModuleScope ColorScripts-Enhanced { $script:IsOutputRedirectedDelegate }
+            $originalGetEncoding = InModuleScope ColorScripts-Enhanced { $script:GetConsoleOutputEncodingDelegate }
+            $originalSetEncoding = InModuleScope ColorScripts-Enhanced { $script:SetConsoleOutputEncodingDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:IsOutputRedirectedDelegate = { $false }
+                    $script:GetConsoleOutputEncodingDelegate = { [System.Text.Encoding]::Unicode }
+                    $script:SetConsoleOutputEncodingDelegate = {
+                        param($encoding)
+                        throw [System.IO.IOException]::new('set failure')
+                    }
+                }
+
+                Mock -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -MockWith {
+                    param($Message)
+                    $script:VerboseMessages = @($script:VerboseMessages + $Message)
+                }
+
+                $state = [ref]$false
+                InModuleScope ColorScripts-Enhanced -Parameters @{ state = $state } {
+                    param($state)
+                    Invoke-WithUtf8Encoding -ScriptBlock {
+                        param($stateRef)
+                        $stateRef.Value = $true
+                    } -Arguments @($state)
+                }
+
+                $state.Value | Should -BeTrue
+                Assert-MockCalled -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Console handle unavailable; skipping*' } -Times 1
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ isDel = $originalIsRedirected; getDel = $originalGetEncoding; setDel = $originalSetEncoding } {
+                    param($isDel, $getDel, $setDel)
+                    $script:IsOutputRedirectedDelegate = $isDel
+                    $script:GetConsoleOutputEncodingDelegate = $getDel
+                    $script:SetConsoleOutputEncodingDelegate = $setDel
+                }
+            }
+        }
+
+        It "logs when restoring output encoding fails" {
+            $originalIsRedirected = InModuleScope ColorScripts-Enhanced { $script:IsOutputRedirectedDelegate }
+            $originalGetEncoding = InModuleScope ColorScripts-Enhanced { $script:GetConsoleOutputEncodingDelegate }
+            $originalSetEncoding = InModuleScope ColorScripts-Enhanced { $script:SetConsoleOutputEncodingDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:IsOutputRedirectedDelegate = { $false }
+                    $script:GetConsoleOutputEncodingDelegate = { [System.Text.Encoding]::Unicode }
+                    $script:EncodingSetCounter = 0
+                    $script:SetConsoleOutputEncodingDelegate = {
+                        param($encoding)
+                        $script:EncodingSetCounter++
+                        if ($script:EncodingSetCounter -eq 2) {
+                            throw [System.IO.IOException]::new('restore failure')
+                        }
+                    }
+                }
+
+                Mock -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -MockWith {
+                    param($Message)
+                    $script:VerboseMessages = @($script:VerboseMessages + $Message)
+                }
+
+                InModuleScope ColorScripts-Enhanced {
+                    Invoke-WithUtf8Encoding -ScriptBlock { 'ok' } | Out-Null
+                }
+
+                Assert-MockCalled -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Console handle unavailable; unable to restore*' } -Times 1
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ isDel = $originalIsRedirected; getDel = $originalGetEncoding; setDel = $originalSetEncoding } {
+                    param($isDel, $getDel, $setDel)
+                    $script:IsOutputRedirectedDelegate = $isDel
+                    $script:GetConsoleOutputEncodingDelegate = $getDel
+                    $script:SetConsoleOutputEncodingDelegate = $setDel
+                    Remove-Variable -Name EncodingSetCounter -Scope Script -ErrorAction SilentlyContinue
+                }
+            }
+        }
+    }
+
+    Context "Write-RenderedText error handling" {
+        It "writes to pipeline when console write fails" {
+            $originalDelegate = InModuleScope ColorScripts-Enhanced { $script:ConsoleWriteDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:ConsoleWriteDelegate = {
+                        param($text)
+                        throw [System.IO.IOException]::new('write failure')
+                    }
+                }
+
+                Mock -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -MockWith { param($Message) }
+
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Write-RenderedText -Text 'hello'
+                }
+
+                $result | Should -Be 'hello'
+                Assert-MockCalled -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Console handle unavailable during cached render*' } -Times 1
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:ConsoleWriteDelegate = $delegate
+                }
+            }
+        }
+    }
+
+    Context "Get-CachedOutput resilience" {
+        It "handles exceptions when verifying script existence" {
+            $originalDelegate = InModuleScope ColorScripts-Enhanced { $script:FileExistsDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:FileExistsDelegate = {
+                        param($path)
+                        throw [System.Exception]::new('existence failure')
+                    }
+                }
+
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Get-CachedOutput -ScriptPath (Join-Path -Path (Get-Variable -Name '__CoverageScriptsDir' -Scope Global -ValueOnly) -ChildPath 'missing.ps1')
+                }
+
+                $result.Available | Should -BeFalse
+                $result.CacheFile | Should -BeNull
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:FileExistsDelegate = $delegate
+                }
+            }
+        }
+
+        It "handles cache read failures gracefully" {
+            $scriptPath = Join-Path -Path $script:ScriptsDir -ChildPath 'alpha.ps1'
+            Set-Content -LiteralPath $scriptPath -Value 'Write-Host alpha' -Encoding UTF8
+
+            $cacheFile = Join-Path -Path $script:CachePath -ChildPath 'alpha.cache'
+            Set-Content -LiteralPath $cacheFile -Value 'cached' -Encoding UTF8
+
+            $originalDelegate = InModuleScope ColorScripts-Enhanced { $script:FileReadAllTextDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:FileReadAllTextDelegate = {
+                        param($path, $encoding)
+                        throw [System.Exception]::new('read failure')
+                    }
+                }
+
+                Mock -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -MockWith { param($Message) }
+
+                $result = InModuleScope ColorScripts-Enhanced -Parameters @{ path = $scriptPath } {
+                    param($path)
+                    Get-CachedOutput -ScriptPath $path
+                }
+
+                $result.Available | Should -BeFalse
+                $result.CacheFile | Should -Be (Join-Path -Path (Get-Variable -Name '__CoverageCachePath' -Scope Global -ValueOnly) -ChildPath 'alpha.cache')
+                Assert-MockCalled -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Cache read error*' } -Times 1
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:FileReadAllTextDelegate = $delegate
+                }
+            }
+        }
+    }
+
+    Context "Test-ConsoleOutputRedirected safety" {
+        It "returns false when delegate throws" {
+            $originalDelegate = InModuleScope ColorScripts-Enhanced { $script:IsOutputRedirectedDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:IsOutputRedirectedDelegate = {
+                        throw [System.IO.IOException]::new('redirect failure')
+                    }
+                }
+
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Test-ConsoleOutputRedirected
+                }
+
+                $result | Should -BeFalse
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:IsOutputRedirectedDelegate = $delegate
+                }
+            }
+        }
+    }
+
+    Context "Get-ColorScriptInventory edge cases" {
+        BeforeEach {
+            $scriptFile = Join-Path -Path $script:ScriptsDir -ChildPath 'inventory-test.ps1'
+            Set-Content -LiteralPath $scriptFile -Value 'Write-Host inventory' -Encoding UTF8
+        }
+
+        It "continues when directory timestamp retrieval fails" {
+            $originalDelegate = InModuleScope ColorScripts-Enhanced { $script:DirectoryGetLastWriteTimeUtcDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:DirectoryGetLastWriteTimeUtcDelegate = {
+                        param($path)
+                        throw [System.Exception]::new('timestamp failure')
+                    }
+                }
+
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Get-ColorScriptInventory
+                }
+
+                $result | Should -Not -BeNullOrEmpty
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:DirectoryGetLastWriteTimeUtcDelegate = $delegate
+                }
+            }
+        }
+
+        It "treats minimum timestamp as null" {
+            $originalDelegate = InModuleScope ColorScripts-Enhanced { $script:DirectoryGetLastWriteTimeUtcDelegate }
+
+            try {
+                InModuleScope ColorScripts-Enhanced {
+                    $script:DirectoryGetLastWriteTimeUtcDelegate = {
+                        param($path)
+                        [datetime]::MinValue
+                    }
+                    $script:ScriptInventoryStamp = $null
+                    $script:ScriptInventoryInitialized = $false
+                }
+
+                InModuleScope ColorScripts-Enhanced {
+                    Get-ColorScriptInventory | Out-Null
+                }
+
+                $stamp = InModuleScope ColorScripts-Enhanced { $script:ScriptInventoryStamp }
+                $stamp | Should -BeNullOrEmpty
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:DirectoryGetLastWriteTimeUtcDelegate = $delegate
+                }
+            }
+        }
+
+        It "recovers when child item enumeration fails" {
+            Mock -CommandName Get-ChildItem -ModuleName ColorScripts-Enhanced -MockWith {
+                throw [System.IO.IOException]::new('enumeration failure')
+            }
+
+            InModuleScope ColorScripts-Enhanced {
+                $script:ScriptInventoryInitialized = $false
+            }
+
+            $result = InModuleScope ColorScripts-Enhanced {
+                Get-ColorScriptInventory
+            }
+
+            $result | Should -BeEmpty
+
+            Remove-Mock -CommandName Get-ChildItem -ModuleName ColorScripts-Enhanced
+        }
+
+        It "rebuilds inventory records when cache is absent" {
+            InModuleScope ColorScripts-Enhanced {
+                $script:ScriptInventory = @()
+                $script:ScriptInventoryRecords = $null
+            }
+
+            $records = InModuleScope ColorScripts-Enhanced {
+                Get-ColorScriptInventory -Raw | Out-Null
+                Get-ColorScriptInventory
+            }
+
+            $records | Should -Not -BeNullOrEmpty
+        }
+
+        It "refreshes when inventory timestamp changes" {
+            $originalDelegate = InModuleScope ColorScripts-Enhanced { $script:DirectoryGetLastWriteTimeUtcDelegate }
+            $newStamp = [datetime]::UtcNow.AddMinutes(5)
+
+            try {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ stamp = $newStamp } {
+                    param($stamp)
+                    $script:ScriptInventoryInitialized = $true
+                    $script:ScriptInventoryStamp = [datetime]::UtcNow
+                    $script:DirectoryGetLastWriteTimeUtcDelegate = {
+                        param($path)
+                        $stamp
+                    }
+                }
+
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Get-ColorScriptInventory
+                }
+
+                $result | Should -Not -BeNullOrEmpty
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:DirectoryGetLastWriteTimeUtcDelegate = $delegate
+                    $script:ScriptInventoryInitialized = $false
+                    $script:ScriptInventoryStamp = $null
+                }
+            }
+        }
+
+        It "refreshes when inventory was previously missing" {
+            $originalDelegate = InModuleScope ColorScripts-Enhanced { $script:DirectoryGetLastWriteTimeUtcDelegate }
+            $newStamp = [datetime]::UtcNow.AddMinutes(10)
+
+            try {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ stamp = $newStamp } {
+                    param($stamp)
+                    $script:ScriptInventoryInitialized = $true
+                    $script:ScriptInventoryStamp = $null
+                    $script:DirectoryGetLastWriteTimeUtcDelegate = {
+                        param($path)
+                        $stamp
+                    }
+                }
+
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Get-ColorScriptInventory
+                }
+
+                $result | Should -Not -BeNullOrEmpty
+            }
+            finally {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
+                    param($delegate)
+                    $script:DirectoryGetLastWriteTimeUtcDelegate = $delegate
+                    $script:ScriptInventoryInitialized = $false
+                    $script:ScriptInventoryStamp = $null
+                }
+            }
+        }
+    }
+
+    Context "Initialize-CacheDirectory edge cases" {
+        BeforeEach {
+            InModuleScope ColorScripts-Enhanced {
+                $script:CacheInitialized = $false
+                $script:CacheDir = $null
+            }
+        }
+
+        It "ignores invalid override cache path" {
+            $originalOverride = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
+            $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = 'ZZ:\invalid\cache'
+
+            Mock -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -MockWith { param($Message) }
+
+            InModuleScope ColorScripts-Enhanced {
+                Initialize-CacheDirectory
+            }
+
+            Assert-MockCalled -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Ignoring COLOR_SCRIPTS_ENHANCED_CACHE_PATH override*' } -Times 1
+
+            $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $originalOverride
+        }
+
+        It "warns when configuration cache path cannot be resolved" {
+            InModuleScope ColorScripts-Enhanced {
+                $script:ConfigurationData = @{
+                    Cache = @{ Path = '::invalid::' }
+                }
+                $script:ConfigurationInitialized = $true
+            }
+
+            Mock -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -MockWith { param($Message) }
+
+            InModuleScope ColorScripts-Enhanced {
+                Initialize-CacheDirectory
+            }
+
+            Assert-MockCalled -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Configured cache path*could not be resolved*' } -Times 1
+
+            InModuleScope ColorScripts-Enhanced {
+                $script:ConfigurationData = $null
+                $script:ConfigurationInitialized = $false
+            }
+        }
+
+        It "skips unresolved candidate paths" {
+            $originalAppData = $env:APPDATA
+            $env:APPDATA = 'ZZ:\MissingAppData'
+
+            Mock -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -MockWith { param($Message) }
+
+            InModuleScope ColorScripts-Enhanced {
+                Initialize-CacheDirectory
+            }
+
+            Assert-MockCalled -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Skipping cache candidate*' } -Times 1
+
+            $env:APPDATA = $originalAppData
+        }
+
+        It "warns when candidate directory creation fails" {
+            $originalOverride = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
+            $overridePath = Join-Path -Path $script:TestRoot -ChildPath 'blocked'
+            $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $overridePath
+
+            Mock -CommandName New-Item -ModuleName ColorScripts-Enhanced -MockWith {
+                param([Parameter(ValueFromRemainingArguments = $true)]$Args)
+                throw [System.UnauthorizedAccessException]::new('creation blocked')
+            }
+
+            Mock -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -MockWith { param($Message) }
+
+            InModuleScope ColorScripts-Enhanced {
+                Initialize-CacheDirectory
+            }
+
+            Assert-MockCalled -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Unable to prepare cache directory*' } -Times 1
+
+            Remove-Mock -CommandName New-Item -ModuleName ColorScripts-Enhanced
+            $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $originalOverride
+        }
+
+        It "falls back when resolving final path fails" {
+            Mock -CommandName Resolve-Path -ModuleName ColorScripts-Enhanced -MockWith {
+                param($LiteralPath, $ErrorAction)
+                throw [System.IO.IOException]::new('resolve failure')
+            }
+
+            InModuleScope ColorScripts-Enhanced {
+                Initialize-CacheDirectory
+            }
+
+            $cacheDir = InModuleScope ColorScripts-Enhanced { $script:CacheDir }
+            $cacheDir | Should -Be (Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath 'ColorScripts-Enhanced')
+
+            Remove-Mock -CommandName Resolve-Path -ModuleName ColorScripts-Enhanced
+        }
+    }
 }
 '@
+            $metadataContent = @"
+@{
+    Categories = @{
+        Abstract = @('cached')
+    }
+    Descriptions = @{
+        cached = 'Initial description'
+    }
+}
+"@
             [System.IO.File]::WriteAllText($metadataPath, $metadataContent, [System.Text.Encoding]::UTF8)
 
             $result = InModuleScope ColorScripts-Enhanced {
@@ -549,6 +1411,58 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $result.NoMeta.Category | Should -Be 'Abstract'
             $result.NoMeta.Tags | Should -Contain 'AutoCategorized'
         }
+
+        It "combines manual metadata with automatic category fallbacks" {
+            $scriptsDir = $script:ScriptsDir
+            $metadataPath = $script:MetadataFile
+
+            foreach ($name in @('solo', 'autoarray', 'autostring', 'nocategory')) {
+                New-Item -ItemType File -Path (Join-Path -Path $scriptsDir -ChildPath "$name.ps1") -Force | Out-Null
+            }
+
+            $metadataContent = @"
+@{
+    Categories = @{
+        Custom = @('solo')
+    }
+    Tags = @{
+        'solo'       = 'SoloTag'
+        'nocategory' = @('ListTag1', 'ListTag2')
+    }
+    Descriptions = @{
+        'solo' = 'Solo description'
+    }
+    AutoCategories = @(
+        @{ Category = 'ArrayCat';  Patterns = @('^autoarray$'); Tags = @('ArrayTag1', 'ArrayTag2') }
+        @{ Category = 'StringCat'; Patterns = 'autostring';    Tags = 'StringTag' }
+    )
+}
+"@
+
+            [System.IO.File]::WriteAllText($metadataPath, $metadataContent, [System.Text.Encoding]::UTF8)
+
+            $table = InModuleScope ColorScripts-Enhanced {
+                Reset-ScriptInventoryCache
+                $script:CacheInitialized = $true
+                Get-ColorScriptMetadataTable
+            }
+
+            $table['solo'].Category | Should -Be 'Custom'
+            $table['solo'].Tags | Should -Contain 'SoloTag'
+            $table['solo'].Tags | Should -Contain 'Category:Custom'
+
+            $table['autoarray'].Categories | Should -Contain 'ArrayCat'
+            $table['autoarray'].Tags | Should -Contain 'ArrayTag1'
+            $table['autoarray'].Tags | Should -Contain 'AutoCategorized'
+
+            $table['autostring'].Categories | Should -Contain 'StringCat'
+            $table['autostring'].Tags | Should -Contain 'StringTag'
+            $table['autostring'].Tags | Should -Contain 'Category:StringCat'
+
+            $table['nocategory'].Category | Should -Be 'Abstract'
+            $table['nocategory'].Tags | Should -Contain 'AutoCategorized'
+            $table['nocategory'].Tags | Should -Contain 'ListTag1'
+        }
     }
 
     Context "Show-ColorScript" {
@@ -631,6 +1545,13 @@ Describe "ColorScripts-Enhanced extended coverage" {
 
             $script:ListParams.Category | Should -Be 'Nature'
             $script:ListParams.Tag | Should -Be 'Bright'
+        }
+
+        It "defaults to the first script when no name is specified" {
+            $null = Show-ColorScript
+
+            Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 1
+            ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'built output'
         }
 
         It "shows command help when requested" {
