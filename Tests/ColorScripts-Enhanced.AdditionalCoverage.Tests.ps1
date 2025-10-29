@@ -2242,22 +2242,33 @@ namespace CoverageHost
             }
 
             It "uses macOS cache locations when applicable" {
-                $originalHome = $env:HOME
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $homePath = Join-Path -Path $testRoot -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $homePath -Force | Out-Null
-                $env:HOME = $homePath
+
+                # Pre-create the macOS directory structure
+                $macCachePath = Join-Path -Path $homePath -ChildPath 'Library\Application Support\ColorScripts-Enhanced\cache'
+                New-Item -ItemType Directory -Path $macCachePath -Force | Out-Null
 
                 Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith {
                     param($Path)
                     $Path
                 }
 
-                InModuleScope ColorScripts-Enhanced {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ TestHomePath = $homePath } {
+                    param($TestHomePath)
+                    $originalHome = Get-Variable -Name HOME -Scope Global -ValueOnly
+                    $originalAppData = $env:APPDATA
+                    $originalXdg = $env:XDG_CACHE_HOME
                     $script:CacheInitialized = $false
                     $script:CacheDir = $null
+                    $script:ConfigurationData = @{ Cache = @{} ; Startup = @{} }
+                    $script:ConfigurationInitialized = $false
                     $script:IsWindows = $false
                     $script:IsMacOS = $true
+                    Set-Variable -Name HOME -Scope Global -Value $TestHomePath -Force
+                    $env:APPDATA = $null
+                    $env:XDG_CACHE_HOME = $null
                     try {
                         Initialize-CacheDirectory
                         $script:CacheDir | Should -Match 'Library[/\\]Application Support[/\\]ColorScripts-Enhanced[/\\]cache$'
@@ -2265,41 +2276,54 @@ namespace CoverageHost
                     finally {
                         $script:IsWindows = $IsWindows
                         $script:IsMacOS = $IsMacOS
+                        Set-Variable -Name HOME -Scope Global -Value $originalHome -Force
+                        $env:APPDATA = $originalAppData
+                        $env:XDG_CACHE_HOME = $originalXdg
                     }
                 }
-
-                $env:HOME = $originalHome
             }
 
             It "uses XDG cache home on non-windows platforms" {
-                $originalXdg = $env:XDG_CACHE_HOME
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $xdgPath = Join-Path -Path $testRoot -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $xdgPath -Force | Out-Null
-                $env:XDG_CACHE_HOME = $xdgPath
+
+                # Pre-create the XDG cache directory
+                $xdgCachePath = Join-Path -Path $xdgPath -ChildPath 'ColorScripts-Enhanced'
+                New-Item -ItemType Directory -Path $xdgCachePath -Force | Out-Null
 
                 Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith {
                     param($Path)
                     $Path
                 }
 
-                InModuleScope ColorScripts-Enhanced {
+                InModuleScope ColorScripts-Enhanced -Parameters @{ TestXdgPath = $xdgPath } {
+                    param($TestXdgPath)
+                    $originalHome = Get-Variable -Name HOME -Scope Global -ValueOnly
+                    $originalXdg = $env:XDG_CACHE_HOME
+                    $originalAppData = $env:APPDATA
                     $script:CacheInitialized = $false
                     $script:CacheDir = $null
+                    $script:ConfigurationData = @{ Cache = @{} ; Startup = @{} }
+                    $script:ConfigurationInitialized = $false
                     $script:IsWindows = $false
                     $script:IsMacOS = $false
+                    Set-Variable -Name HOME -Scope Global -Value (Join-Path -Path $TestXdgPath -ChildPath 'fakehome') -Force
+                    $env:XDG_CACHE_HOME = $TestXdgPath
+                    $env:APPDATA = $null
                     try {
                         Initialize-CacheDirectory
                         $script:CacheDir | Should -Match 'ColorScripts-Enhanced$'
-                        $script:CacheDir | Should -Match ([regex]::Escape($xdgPath))
+                        $script:CacheDir | Should -Match ([regex]::Escape($TestXdgPath))
                     }
                     finally {
                         $script:IsWindows = $IsWindows
                         $script:IsMacOS = $IsMacOS
+                        Set-Variable -Name HOME -Scope Global -Value $originalHome -Force
+                        $env:XDG_CACHE_HOME = $originalXdg
+                        $env:APPDATA = $originalAppData
                     }
                 }
-
-                $env:XDG_CACHE_HOME = $originalXdg
             }
 
             It "skips unresolved candidate paths" {

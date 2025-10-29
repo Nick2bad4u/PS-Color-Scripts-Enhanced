@@ -1184,18 +1184,20 @@ Describe "ColorScripts-Enhanced extended coverage" {
         }
 
         It "skips unresolved candidate paths" {
-            $originalAppData = $env:APPDATA
-            $env:APPDATA = 'ZZ:\MissingAppData'
-
             Mock -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -MockWith { param($Message) }
 
             InModuleScope ColorScripts-Enhanced {
-                Initialize-CacheDirectory
+                $originalAppData = $env:APPDATA
+                $env:APPDATA = 'ZZ:\MissingAppData'
+                try {
+                    Initialize-CacheDirectory
+                }
+                finally {
+                    $env:APPDATA = $originalAppData
+                }
             }
 
             Assert-MockCalled -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Skipping cache candidate*' } -Times 1
-
-            $env:APPDATA = $originalAppData
         }
 
         It "warns when candidate directory creation fails" {
