@@ -128,11 +128,16 @@ function Initialize-SystemDelegateState {
 Initialize-SystemDelegateState
 
 function Invoke-ShouldProcess {
+    [CmdletBinding(SupportsShouldProcess = $true)]
     param(
         [System.Management.Automation.PSCmdlet]$Cmdlet,
         [object]$Target,
         [string]$Action
     )
+
+    if ($script:ShouldProcessEvaluator -is [scriptblock]) {
+        return & $script:ShouldProcessEvaluator $Cmdlet $Target $Action
+    }
 
     if ($script:ShouldProcessOverride -is [scriptblock]) {
         return & $script:ShouldProcessOverride $Cmdlet $Target $Action
@@ -840,7 +845,7 @@ function Test-ColorScriptTextEmission {
         [System.Collections.IDictionary]$BoundParameters
     )
 
-    if ($ReturnText -or [Console]::IsOutputRedirected) {
+    if ($ReturnText) {
         return $true
     }
 

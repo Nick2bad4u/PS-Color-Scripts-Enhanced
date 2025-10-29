@@ -2156,7 +2156,7 @@ namespace CoverageHost
                     $script:IsMacOS = $true
                     try {
                         Initialize-CacheDirectory
-                        $script:CacheDir | Should -Match 'Library\\Application Support\\ColorScripts-Enhanced\\cache'
+                        $script:CacheDir | Should -Match 'Library[/\\]Application Support[/\\]ColorScripts-Enhanced[/\\]cache$'
                     }
                     finally {
                         $script:IsWindows = $IsWindows

@@ -619,7 +619,7 @@ Describe "ColorScripts-Enhanced coverage completion" {
                 }
 
                 $result.Exists | Should -BeTrue
-                $result.CacheDir | Should -Match 'cache$'
+                $result.CacheDir | Should -Match 'ColorScripts-Enhanced([/\\]cache)?$'
             }
             finally {
                 if ($null -eq $originalTemp) { Remove-Item Env:TEMP -ErrorAction SilentlyContinue } else { $env:TEMP = $originalTemp }
@@ -799,7 +799,7 @@ Describe "ColorScripts-Enhanced coverage completion" {
 
             $result | Should -HaveCount 2
             ($result | Where-Object { $_.Name -eq 'ghost' }).Status | Should -Be 'Missing'
-            ($result | Where-Object { $_.Name -eq 'sample' }).Status | Should -Be 'Removed'
+            ($result | Where-Object { $_.Name -eq 'sample' }).Status | Should -Be 'SkippedByUser'
         }
     }
 

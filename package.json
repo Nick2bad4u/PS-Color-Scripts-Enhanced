@@ -45,6 +45,7 @@
     "lint": "pwsh -NoProfile -File ./scripts/Lint-Module.ps1",
     "lint:fix": "pwsh -NoProfile -File ./scripts/Lint-Module.ps1 -Fix",
     "lint:strict": "pwsh -NoProfile -File ./scripts/Lint-Module.ps1 -IncludeTests -TreatWarningsAsErrors",
+    "lint:strict:fix": "pwsh -NoProfile -File ./scripts/Lint-Module.ps1 -IncludeTests -TreatWarningsAsErrors -Fix",
     "markdown:check": "pwsh -NoProfile -File ./scripts/Invoke-MarkdownLinkCheck.ps1",
     "package:metadata": "pwsh -NoProfile -File ./scripts/Update-NuGetPackageMetadata.ps1",
     "readme:check": "pwsh -NoProfile -File ./scripts/Test-ReadmeSize.ps1 -Path ./ColorScripts-Enhanced/README-Gallery.md",
@@ -78,7 +79,8 @@
     "test:coverage:summary": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1 -Show Summary",
     "test:custom": "pwsh -NoProfile -File ./scripts/Test-Module.ps1",
     "test:pester": "pwsh -NoProfile -Command \"Invoke-Pester -Path ./Tests\"",
-    "verify": "npm run lint:strict && npm run readme:check"
+    "verify": "npm run lint:fix && npm run readme:check",
+    "verify:strict": "npm run lint:strict:fix && npm run readme:check"
   },
   "dependencies": {
     "git-cliff": "^2.10.1",

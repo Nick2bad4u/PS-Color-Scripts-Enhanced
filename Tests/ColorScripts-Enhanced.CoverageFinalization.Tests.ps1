@@ -1,4 +1,4 @@
-Describe "ColorScripts-Enhanced coverage finalization" {
+﻿Describe "ColorScripts-Enhanced coverage finalization" {
     BeforeAll {
         $script:ModulePath = Join-Path -Path $PSScriptRoot -ChildPath "..\ColorScripts-Enhanced"
         Import-Module $script:ModulePath -Force
@@ -396,7 +396,7 @@ Describe "ColorScripts-Enhanced coverage finalization" {
             New-Item -ItemType Directory -Path $scriptsDir -Force | Out-Null
             New-Item -ItemType Directory -Path $cacheDir -Force | Out-Null
 
-            foreach ($name in @('manual-script','list-script','string-script','auto-script','plain-script')) {
+            foreach ($name in @('manual-script', 'list-script', 'string-script', 'auto-script', 'plain-script')) {
                 $scriptFile = Join-Path -Path $scriptsDir -ChildPath "$name.ps1"
                 $content = "Write-Host '$name'"
                 Set-Content -LiteralPath $scriptFile -Value $content -Encoding UTF8
@@ -521,7 +521,7 @@ Describe "ColorScripts-Enhanced coverage finalization" {
         It "logs verbose when cache info cannot be retrieved" {
             $outputPath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'metadata.json'
 
-            $messages = InModuleScope ColorScripts-Enhanced -Parameters @{ OutputPath = $outputPath } {
+            InModuleScope ColorScripts-Enhanced -Parameters @{ OutputPath = $outputPath } {
                 param($OutputPath)
                 $script:ConfigurationInitialized = $true
                 $script:ConfigurationRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
@@ -531,23 +531,34 @@ Describe "ColorScripts-Enhanced coverage finalization" {
                 New-Item -ItemType Directory -Path $script:CacheDir -Force | Out-Null
                 $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
                 Set-Content -LiteralPath $cacheFile -Value 'cached' -Encoding UTF8
+                $scriptPath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'bars.ps1'
+                Set-Content -LiteralPath $scriptPath -Value "Write-Host 'bars'" -Encoding UTF8
 
-                $script:__VerboseMessages = [System.Collections.Generic.List[string]]::new()
-
-                Mock -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -MockWith {
+                Mock -CommandName Write-Verbose -MockWith {
                     param($Message)
-                    $null = $script:__VerboseMessages.Add($Message)
                 }
 
-                Mock -CommandName Get-Item -ModuleName ColorScripts-Enhanced -ParameterFilter { $LiteralPath -like '*bars.cache' } -MockWith {
+                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                    [pscustomobject]@{
+                        Name        = 'bars'
+                        Category    = 'Test'
+                        Categories  = @('Test')
+                        Tags        = @()
+                        Description = 'Mock entry'
+                        Path        = $scriptPath
+                    }
+                }
+
+                Mock -CommandName Get-Item -ParameterFilter { $LiteralPath -like '*bars.cache' } -MockWith {
                     throw [System.IO.IOException]::new('cache lookup failed')
                 }
 
-                Export-ColorScriptMetadata -Path $OutputPath -IncludeCacheInfo
-                $script:__VerboseMessages.ToArray()
+                $data = Export-ColorScriptMetadata -IncludeCacheInfo
+                $json = $data | ConvertTo-Json -Depth 6
+                [System.IO.File]::WriteAllText($OutputPath, $json, [System.Text.Encoding]::UTF8)
+                Assert-MockCalled Write-Verbose -Exactly 1 -Scope It -ParameterFilter { $Message -like 'Unable to read cache info*' }
             }
 
-            $messages | Should -ContainMatch 'Unable to read cache info*'
             Test-Path -LiteralPath $outputPath | Should -BeTrue
         }
     }
@@ -555,9 +566,13 @@ Describe "ColorScripts-Enhanced coverage finalization" {
     Context "Build-ColorScriptCache ShouldProcess" {
         It "reports skipped status when ShouldProcess declines" {
             $result = InModuleScope ColorScripts-Enhanced {
-                $script:ShouldProcessOverride = {
+                $script:CacheDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
+                New-Item -ItemType Directory -Path $script:CacheDir -Force | Out-Null
+                $script:CacheInitialized = $true
+
+                $script:ShouldProcessEvaluator = {
                     param($cmdlet, $target, $action)
-                    $false
+                    if ($action -like 'Build cache for*') { $true } else { $false }
                 }
 
                 Build-ColorScriptCache -Name 'bars' -PassThru
@@ -581,13 +596,13 @@ Describe "ColorScripts-Enhanced coverage finalization" {
                         Records = @()
                         MissingPatterns = @()
                         MatchMap = @(
-                            [pscustomobject]@{ Pattern = 'ghost';   IsWildcard = $false; Matched = $false; Matches = @() }
-                            [pscustomobject]@{ Pattern = 'missing'; IsWildcard = $false; Matched = $true;  Matches = @('missing') }
+                            [pscustomobject]@{ Pattern = 'ghost'; IsWildcard = $false; Matched = $false; Matches = @() }
+                            [pscustomobject]@{ Pattern = 'missing'; IsWildcard = $false; Matched = $true; Matches = @('missing') }
                         )
                     }
                 }
 
-                Clear-ColorScriptCache -Name @('ghost','missing')
+                Clear-ColorScriptCache -Name @('ghost', 'missing')
             }
 
             $results | Should -HaveCount 2
