@@ -37,7 +37,7 @@
     "types": "types"
   },
   "scripts": {
-    "build": "pwsh -NoProfile -File ./scripts/build.ps1 && npm run release:notes && npm run release:notes:latest && npm run verify && npm run test",
+    "build": "pwsh -NoProfile -File ./scripts/build.ps1 && npm run release:notes && npm run release:notes:latest && npm run verify && npm run test:coverage:fails",
     "build:help": "pwsh -NoProfile -File ./scripts/Build-Help.ps1 -UpdateMarkdown",
     "build:skip-help": "pwsh -NoProfile -File ./scripts/build.ps1 -SkipHelp",
     "convert": "node ./scripts/Convert-AnsiToColorScript.js --strip-space-bg",
@@ -78,7 +78,7 @@
     "test:coverage:skipped": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1 -Show Skipped",
     "test:coverage:summary": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1 -Show Summary",
     "test:custom": "pwsh -NoProfile -File ./scripts/Test-Module.ps1",
-    "test:pester": "pwsh -NoProfile -Command \"Invoke-Pester -Path ./Tests\"",
+    "test:pester": "pwsh -NoProfile -Command \"Invoke-Pester -Path ./Tests\" -Output Minimal",
     "verify": "npm run lint:fix && npm run readme:check",
     "verify:strict": "npm run lint:strict:fix && npm run readme:check"
   },
