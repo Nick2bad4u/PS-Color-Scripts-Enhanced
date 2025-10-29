@@ -54,13 +54,13 @@ jobs:
 
       - name: Upload test results
         if: always()
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
         with:
           name: test-results-windows-51
           path: test-results.xml
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@7f8b4b4bde536c465e797be725718b88c5d95e0e # v5.1.2
+        uses: codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7 # v5.1.2
         with:
           files: ./coverage.xml
           flags: windows-powershell-51
@@ -126,13 +126,13 @@ jobs:
 
       - name: Upload test results
         if: always()
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
         with:
           name: test-results-${{ matrix.os }}-pwsh
           path: test-results.xml
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@7f8b4b4bde536c465e797be725718b88c5d95e0e # v5.1.2
+        uses: codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7 # v5.1.2
         with:
           files: ./coverage.xml
           flags: pwsh-${{ matrix.os }}
