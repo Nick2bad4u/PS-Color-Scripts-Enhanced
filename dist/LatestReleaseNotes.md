@@ -12,7 +12,7 @@ All notable changes to this project will be documented in this file.
 ([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/9bb900c6b3370bcb0c519e4a77104d4ca87868c0...bfc9fc5bc8a96b077b9254e6bb11f6ce544f64e3))
 
 
-### ≡ƒôª Dependencies
+### 📦 Dependencies
 
 - Merge pull request #6 from Nick2bad4u/dependabot/npm_and_yarn/npm-all-aaf6290c26
 

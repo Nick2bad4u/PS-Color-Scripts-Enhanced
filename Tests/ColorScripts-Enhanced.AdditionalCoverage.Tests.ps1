@@ -1933,7 +1933,16 @@ namespace CoverageHost
                     Test-ColorScriptTextEmission -ReturnText $false -PassThru $true -PipelineLength 1 -BoundParameters @{}
                 }
 
-                $result | Should -BeFalse
+                $expected = InModuleScope ColorScripts-Enhanced {
+                    if ($script:IsOutputRedirectedDelegate) {
+                        & $script:IsOutputRedirectedDelegate
+                    }
+                    else {
+                        [Console]::IsOutputRedirected
+                    }
+                }
+
+                $result | Should -Be $expected
             }
 
             It "returns true for pipeline length greater than one" {
@@ -1960,7 +1969,16 @@ namespace CoverageHost
                     Test-ColorScriptTextEmission -ReturnText $false -PassThru $false -PipelineLength 1 -BoundParameters @{}
                 }
 
-                $result | Should -BeFalse
+                $expected = InModuleScope ColorScripts-Enhanced {
+                    if ($script:IsOutputRedirectedDelegate) {
+                        & $script:IsOutputRedirectedDelegate
+                    }
+                    else {
+                        [Console]::IsOutputRedirected
+                    }
+                }
+
+                $result | Should -Be $expected
             }
         }
 

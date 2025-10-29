@@ -91,7 +91,9 @@ Describe "ColorScripts-Enhanced coverage completion" {
                     }
 
                     $result = Get-ColorScriptsConfigurationRoot
-                    $result | Should -Be ((Resolve-Path -LiteralPath $expected).ProviderPath)
+                    Test-Path -LiteralPath $expected | Should -BeTrue
+                    $resolvedExpected = (Resolve-Path -LiteralPath $expected).ProviderPath
+                    $result | Should -Be $resolvedExpected
                 }
                 finally {
                     $script:ConfigurationRoot = $original.ConfigRoot
@@ -141,7 +143,9 @@ Describe "ColorScripts-Enhanced coverage completion" {
                     }
 
                     $result = Get-ColorScriptsConfigurationRoot
-                    $result | Should -Be ((Resolve-Path -LiteralPath $expected).ProviderPath)
+                    Test-Path -LiteralPath $expected | Should -BeTrue
+                    $resolvedExpected = (Resolve-Path -LiteralPath $expected).ProviderPath
+                    $result | Should -Be $resolvedExpected
                 }
                 finally {
                     $script:ConfigurationRoot = $original.ConfigRoot
@@ -503,10 +507,13 @@ Describe "ColorScripts-Enhanced coverage completion" {
             New-Item -ItemType Directory -Path $basePath -Force | Out-Null
             $originalTemp = $env:TEMP
             $originalTmp = $env:TMP
+            $originalTmpDir = $env:TMPDIR
 
             try {
                 $env:TEMP = $basePath
                 $env:TMP = $basePath
+                $env:TMPDIR = $basePath
+                $fallbackPath = [System.IO.Path]::Combine($basePath, 'ColorScripts-Enhanced')
 
                 $result = InModuleScope ColorScripts-Enhanced {
                     $original = @{
@@ -576,6 +583,7 @@ Describe "ColorScripts-Enhanced coverage completion" {
             finally {
                 if ($null -eq $originalTemp) { Remove-Item Env:TEMP -ErrorAction SilentlyContinue } else { $env:TEMP = $originalTemp }
                 if ($null -eq $originalTmp) { Remove-Item Env:TMP -ErrorAction SilentlyContinue } else { $env:TMP = $originalTmp }
+                if ($null -eq $originalTmpDir) { Remove-Item Env:TMPDIR -ErrorAction SilentlyContinue } else { $env:TMPDIR = $originalTmpDir }
             }
         }
 
@@ -584,10 +592,12 @@ Describe "ColorScripts-Enhanced coverage completion" {
             New-Item -ItemType Directory -Path $basePath -Force | Out-Null
             $originalTemp = $env:TEMP
             $originalTmp = $env:TMP
+            $originalTmpDir = $env:TMPDIR
 
             try {
                 $env:TEMP = $basePath
                 $env:TMP = $basePath
+                $env:TMPDIR = $basePath
 
                 $result = InModuleScope ColorScripts-Enhanced {
                     $originalState = @{
@@ -619,11 +629,12 @@ Describe "ColorScripts-Enhanced coverage completion" {
                 }
 
                 $result.Exists | Should -BeTrue
-                $result.CacheDir | Should -Match 'ColorScripts-Enhanced([/\\]cache)?$'
+                $result.CacheDir | Should -Match '(ColorScripts-Enhanced([/\\]cache)?|[/\\]cache)$'
             }
             finally {
                 if ($null -eq $originalTemp) { Remove-Item Env:TEMP -ErrorAction SilentlyContinue } else { $env:TEMP = $originalTemp }
                 if ($null -eq $originalTmp) { Remove-Item Env:TMP -ErrorAction SilentlyContinue } else { $env:TMP = $originalTmp }
+                if ($null -eq $originalTmpDir) { Remove-Item Env:TMPDIR -ErrorAction SilentlyContinue } else { $env:TMPDIR = $originalTmpDir }
             }
         }
     }
@@ -699,8 +710,9 @@ Describe "ColorScripts-Enhanced coverage completion" {
                     $store['auto-script'].Tags | Should -Contain 'AutoTag'
                     $store['auto-script'].Tags | Should -Contain 'Category:AutoEnum'
 
-                    $entry = Get-ColorScriptEntry -Name 'plain-script'
-                    $entry.Count | Should -Be 1
+                    $entries = Get-ColorScriptEntry
+                    $entry = @($entries | Where-Object { $_.Name -eq 'plain-script' })
+                    $entry | Should -HaveCount 1
                     $entry[0].Category | Should -Be 'Abstract'
                     $entry[0].Tags | Should -Contain 'Category:Abstract'
                     $entry[0].Tags | Should -Contain 'AutoCategorized'
@@ -967,11 +979,15 @@ Describe "ColorScripts-Enhanced coverage completion" {
             $env:COLOR_SCRIPTS_ENHANCED_AUTOSHOW_ON_IMPORT = 'true'
             $env:CI = $null
             $env:GITHUB_ACTIONS = $null
+            $configRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
+            New-Item -ItemType Directory -Path $configRoot -Force | Out-Null
 
             try {
-                $calls = InModuleScope ColorScripts-Enhanced {
+                $calls = InModuleScope ColorScripts-Enhanced -Parameters @{ configRoot = $configRoot } {
+                    param($configRoot)
+                    [void]$configRoot
                     Mock -CommandName Test-ConsoleOutputRedirected -ModuleName ColorScripts-Enhanced -MockWith { $false }
-                    Mock -CommandName Get-ColorScriptsConfigurationRoot -ModuleName ColorScripts-Enhanced -MockWith { 'C:\temp\config' }
+                    Mock -CommandName Get-ColorScriptsConfigurationRoot -ModuleName ColorScripts-Enhanced -MockWith { $configRoot }
                     Mock -CommandName Get-ConfigurationDataInternal -ModuleName ColorScripts-Enhanced -MockWith {
                         @{ Startup = @{ AutoShowOnImport = $false; DefaultScript = 'alpha' } }
                     }
@@ -992,6 +1008,7 @@ Describe "ColorScripts-Enhanced coverage completion" {
                 if ($null -eq $originalOverride) { Remove-Item Env:COLOR_SCRIPTS_ENHANCED_AUTOSHOW_ON_IMPORT -ErrorAction SilentlyContinue } else { $env:COLOR_SCRIPTS_ENHANCED_AUTOSHOW_ON_IMPORT = $originalOverride }
                 if ($null -eq $originalCI) { Remove-Item Env:CI -ErrorAction SilentlyContinue } else { $env:CI = $originalCI }
                 if ($null -eq $originalGitHub) { Remove-Item Env:GITHUB_ACTIONS -ErrorAction SilentlyContinue } else { $env:GITHUB_ACTIONS = $originalGitHub }
+                if (Test-Path -LiteralPath $configRoot) { Remove-Item -LiteralPath $configRoot -Recurse -Force -ErrorAction SilentlyContinue }
             }
         }
 

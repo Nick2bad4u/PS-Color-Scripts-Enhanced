@@ -854,7 +854,12 @@ function Test-ColorScriptTextEmission {
 
     $isRedirected = $false
     try {
-        $isRedirected = [Console]::IsOutputRedirected
+        if ($script:IsOutputRedirectedDelegate) {
+            $isRedirected = & $script:IsOutputRedirectedDelegate
+        }
+        else {
+            $isRedirected = [Console]::IsOutputRedirected
+        }
     }
     catch {
         $isRedirected = $false

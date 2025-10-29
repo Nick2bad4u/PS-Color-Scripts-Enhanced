@@ -122,8 +122,11 @@
                     }
 
                     $resolved = Get-ColorScriptsConfigurationRoot
+                    $exists = Test-Path -LiteralPath $expected
+                    $expectedPath = if ($exists) { (Resolve-Path -LiteralPath $expected).ProviderPath } else { $null }
                     [pscustomobject]@{
-                        Expected = (Resolve-Path -LiteralPath $expected).ProviderPath
+                        Exists   = $exists
+                        Expected = $expectedPath
                         Result   = $resolved
                     }
                 }
@@ -140,6 +143,7 @@
                 }
             }
 
+            $result.Exists | Should -BeTrue
             $result.Result | Should -Be $result.Expected
         }
 
@@ -177,8 +181,11 @@
                     }
 
                     $resolved = Get-ColorScriptsConfigurationRoot
+                    $exists = Test-Path -LiteralPath $expected
+                    $expectedPath = if ($exists) { (Resolve-Path -LiteralPath $expected).ProviderPath } else { $null }
                     [pscustomobject]@{
-                        Expected = (Resolve-Path -LiteralPath $expected).ProviderPath
+                        Exists   = $exists
+                        Expected = $expectedPath
                         Result   = $resolved
                     }
                 }
@@ -194,6 +201,7 @@
                 }
             }
 
+            $result.Exists | Should -BeTrue
             $result.Result | Should -Be $result.Expected
         }
     }
