@@ -513,9 +513,9 @@ Describe "ColorScripts-Enhanced coverage completion" {
                 $env:TEMP = $basePath
                 $env:TMP = $basePath
                 $env:TMPDIR = $basePath
-                $fallbackPath = [System.IO.Path]::Combine($basePath, 'ColorScripts-Enhanced')
 
-                $result = InModuleScope ColorScripts-Enhanced {
+                $result = InModuleScope ColorScripts-Enhanced -Parameters @{ TestBasePath = $basePath } {
+                    param($TestBasePath)
                     $original = @{
                         CacheDir = $script:CacheDir
                         CacheInitialized = $script:CacheInitialized
@@ -526,6 +526,9 @@ Describe "ColorScripts-Enhanced coverage completion" {
                     $originalOverride = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
                     $originalAppData = $env:APPDATA
                     $originalXdg = $env:XDG_CACHE_HOME
+                    $originalTemp = $env:TEMP
+                    $originalTmp = $env:TMP
+                    $originalTmpDir = $env:TMPDIR
 
                     try {
                         $script:CacheDir = $null
@@ -536,6 +539,9 @@ Describe "ColorScripts-Enhanced coverage completion" {
                         $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $null
                         $env:APPDATA = $null
                         $env:XDG_CACHE_HOME = $null
+                        $env:TEMP = $TestBasePath
+                        $env:TMP = $TestBasePath
+                        $env:TMPDIR = $TestBasePath
 
                         $fallbackPath = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), 'ColorScripts-Enhanced')
 
@@ -574,6 +580,9 @@ Describe "ColorScripts-Enhanced coverage completion" {
                         $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $originalOverride
                         $env:APPDATA = $originalAppData
                         $env:XDG_CACHE_HOME = $originalXdg
+                        $env:TEMP = $originalTemp
+                        $env:TMP = $originalTmp
+                        $env:TMPDIR = $originalTmpDir
                     }
                 }
 
@@ -599,17 +608,24 @@ Describe "ColorScripts-Enhanced coverage completion" {
                 $env:TMP = $basePath
                 $env:TMPDIR = $basePath
 
-                $result = InModuleScope ColorScripts-Enhanced {
+                $result = InModuleScope ColorScripts-Enhanced -Parameters @{ TestBasePath = $basePath } {
+                    param($TestBasePath)
                     $originalState = @{
                         CacheDir = $script:CacheDir
                         CacheInitialized = $script:CacheInitialized
                         ConfigData = $script:ConfigurationData
                     }
+                    $originalTemp = $env:TEMP
+                    $originalTmp = $env:TMP
+                    $originalTmpDir = $env:TMPDIR
 
                     try {
                         $script:CacheDir = $null
                         $script:CacheInitialized = $false
                         $script:ConfigurationData = $null
+                        $env:TEMP = $TestBasePath
+                        $env:TMP = $TestBasePath
+                        $env:TMPDIR = $TestBasePath
 
                         Mock -CommandName Resolve-Path -ModuleName ColorScripts-Enhanced -ParameterFilter { $LiteralPath -like '*ColorScripts-Enhanced' } -MockWith {
                             throw [System.IO.IOException]::new('resolve failure')
@@ -625,6 +641,9 @@ Describe "ColorScripts-Enhanced coverage completion" {
                         $script:CacheDir = $originalState.CacheDir
                         $script:CacheInitialized = $originalState.CacheInitialized
                         $script:ConfigurationData = $originalState.ConfigData
+                        $env:TEMP = $originalTemp
+                        $env:TMP = $originalTmp
+                        $env:TMPDIR = $originalTmpDir
                     }
                 }
 
