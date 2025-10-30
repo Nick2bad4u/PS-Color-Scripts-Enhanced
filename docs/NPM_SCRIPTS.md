@@ -89,6 +89,139 @@ Apply ScriptAnalyzer fixes where possible, then rerun lint:
 npm run lint:fix
 ```
 
+### `npm run build:help`
+
+Generate external help XML from markdown:
+
+```powershell
+npm run build:help
+```
+
+## Testing
+
+### `npm test`
+
+Execute the smoke-test harness (`Test-Module.ps1`):
+
+```powershell
+npm test
+```
+
+This runs:
+- Module import validation
+- Command export verification
+- Basic functionality tests
+- ScriptAnalyzer compliance check
+- Help documentation availability
+
+### `npm run test:pester`
+
+Run the full Pester test suite in `./Tests`:
+
+```powershell
+npm run test:pester
+```
+
+Includes:
+- Unit tests for all commands
+- Integration test scenarios
+- Cache behavior validation
+- Configuration persistence tests
+- Error handling tests
+- Performance tests
+
+### `npm run test:coverage`
+
+Run tests with code coverage analysis:
+
+```powershell
+npm run test:coverage
+```
+
+Generates coverage report showing:
+- Statement coverage percentage
+- Branch coverage
+- Function coverage
+- Line coverage
+
+## Advanced Test Workflows
+
+### Test Specific File
+
+```powershell
+# Run individual test file
+Invoke-Pester -Path ./Tests/Show-ColorScript.Tests.ps1
+```
+
+### Test Specific Function
+
+```powershell
+# Test only caching functionality
+Invoke-Pester -Path ./Tests -TestNameFilter '*cache*'
+```
+
+### Test with Verbose Output
+
+```powershell
+# See detailed test execution
+$VerbosePreference = 'Continue'
+npm run test:pester
+$VerbosePreference = 'SilentlyContinue'
+```
+
+### Generate Test Report
+
+```powershell
+# Generate XML report for CI
+Invoke-Pester -Path ./Tests -OutputFile test-results.xml -OutputFormat JUnitXml
+```
+
+## Linting
+
+### `npm run lint`
+
+Run ScriptAnalyzer against the module:
+
+```powershell
+npm run lint
+```
+
+Checks:
+- Cmdlet naming conventions
+- Parameter naming
+- Comment-based help quality
+- Code style consistency
+- Security concerns
+
+### `npm run lint:strict`
+
+Run lint with tests included and warnings treated as errors:
+
+```powershell
+npm run lint:strict
+```
+
+Use before:
+- Pull request submission
+- Release publishing
+- Major commits
+
+### `npm run lint:fix`
+
+Apply ScriptAnalyzer fixes where possible, then rerun lint:
+
+```powershell
+npm run lint:fix
+```
+
+Auto-fixes:
+- Indentation
+- Whitespace
+- Brace placement
+- Some code style issues
+
+Then reruns linting to verify all issues are resolved.
+
 ## Documentation
 
 ### `npm run docs:update-counts`
@@ -99,10 +232,277 @@ Synchronize script-count markers across all documentation files:
 npm run docs:update-counts
 ```
 
-This updates markers like:
+Updates markers like:
+- `<!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS -->`
+- `<!-- COLOR_CACHE_TOTAL -->498+<!-- /COLOR_CACHE_TOTAL -->`
 
-- `<!-- COLOR_SCRIPT_COUNT_PLUS -->245+<!-- /COLOR_SCRIPT_COUNT_PLUS -->`
-- `<!-- COLOR_CACHE_TOTAL -->245+<!-- /COLOR_CACHE_TOTAL -->`
+Run after:
+- Adding new colorscripts
+- Removing scripts
+- Before commits/releases
+
+### `npm run docs:validate-links`
+
+Validate all markdown links:
+
+```powershell
+npm run docs:validate-links
+```
+
+Checks:
+- Internal file references
+- External URLs
+- Anchor links
+- Image references
+
+Fix broken links before publishing.
+
+## Release & Publishing
+
+### `npm run release:notes`
+
+Generate release notes using git-cliff:
+
+```powershell
+npm run release:notes
+```
+
+Outputs changelog from git history using conventional commits.
+
+### `npm run release:notes:latest`
+
+Generate only the latest version notes:
+
+```powershell
+npm run release:notes:latest
+```
+
+### `npm run release:verify`
+
+Verify release notes format:
+
+```powershell
+npm run release:verify
+```
+
+Checks:
+- CHANGELOG.md formatting
+- Version consistency
+- Link validity
+- Duplicate sections
+
+## Verification
+
+### `npm run verify`
+
+Run comprehensive verification including strict linting, markdown checks, and all tests:
+
+```powershell
+npm run verify
+```
+
+Runs in order:
+1. Linting (strict mode)
+2. Documentation validation
+3. Smoke tests
+4. Full Pester tests
+5. Coverage report
+
+**Use this before:**
+- Committing to main
+- Creating pull requests
+- Publishing releases
+
+## Utility Scripts
+
+### Manual npm Script Inspection
+
+View all available scripts:
+
+```powershell
+npm run
+```
+
+Or view the `package.json` file:
+
+```powershell
+Get-Content package.json | ConvertFrom-Json | Select-Object -ExpandProperty scripts
+```
+
+## Chaining Commands
+
+### Run multiple scripts in sequence
+
+```powershell
+npm run lint && npm test && npm run docs:update-counts
+```
+
+### Run scripts with arguments
+
+Pass arguments to scripts using `--`:
+
+```powershell
+# Run linter with specific file
+npm run lint -- .\ColorScripts-Enhanced\ColorScripts-Enhanced.psm1
+
+# Run Pester with verbose
+npm run test:pester -- -Verbose
+```
+
+## Environment Variables
+
+### PowerShell Paths
+
+Scripts automatically detect:
+- PowerShell executable location
+- Module path locations
+- Temp directory for test artifacts
+
+Override with:
+```powershell
+$env:PSROOT = "C:\Program Files\PowerShell\7"
+npm run test
+```
+
+### Test Configuration
+
+```powershell
+# Run tests with specific settings
+$env:PESTER_VERBOSITY = 'Detailed'
+npm run test:pester
+```
+
+## Troubleshooting npm Scripts
+
+### Script Won't Run
+
+```powershell
+# Ensure Node.js is installed
+node --version
+npm --version
+
+# Reinstall dependencies
+npm install
+
+# Clear cache
+npm cache clean --force
+```
+
+### PowerShell Execution Issues
+
+```powershell
+# Set execution policy if needed
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+# Or run with bypass flag
+npm test
+```
+
+### Permission Errors
+
+```powershell
+# Run PowerShell as Administrator if needed
+# Or use Process scope (temporary)
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+```
+
+## Performance Optimization
+
+### Parallel Execution
+
+```powershell
+# Run tests in parallel (PowerShell 7+)
+npm run test:pester -- -Parallel -ThrottleLimit 4
+```
+
+### Faster Linting
+
+```powershell
+# Skip test linting for faster feedback
+npm run lint
+# (vs. npm run lint:strict which includes tests)
+```
+
+### Selective Testing
+
+```powershell
+# Test only modified files
+npm test
+# (faster than full suite)
+```
+
+## CI/CD Integration
+
+These scripts are used in GitHub Actions workflows:
+
+- `.github/workflows/test.yml` - Uses `npm test` and `npm run test:pester`
+- `.github/workflows/publish.yml` - Uses `npm run build` and release scripts
+- `.github/workflows/lint.yml` - Uses `npm run lint:strict`
+
+See `.github/workflows/` for complete automation details.
+
+## Daily Development Workflow
+
+### Quick Development Loop
+
+```powershell
+# 1. Make code changes
+
+# 2. Quick test
+npm test
+
+# 3. Full validation before commit
+npm run verify
+
+# 4. Commit if all pass
+git commit -am "feat: your change"
+```
+
+### Before Pull Request
+
+```powershell
+# Complete validation suite
+npm run verify
+
+# Check documentation counts
+npm run docs:update-counts
+
+# Validate release notes
+npm run release:verify
+
+# Then push to GitHub
+git push origin feature-branch
+```
+
+### Before Release
+
+```powershell
+# Full verification
+npm run verify
+
+# Update documentation
+npm run docs:update-counts
+
+# Generate release notes
+npm run release:notes:latest
+
+# Build
+npm run build
+
+# Then publish via GitHub Actions
+```
+
+## Reference
+
+- **Build Script**: `scripts/build.ps1`
+- **Test Harness**: `scripts/Test-Module.ps1`
+- **Linter**: `scripts/Lint-Module.ps1`
+- **Documentation Script**: `scripts/Update-DocumentationCounts.ps1`
+- **Package Config**: `package.json`
+
+---
+
+**Last Updated**: October 30, 2025
 - `<!-- COLOR_SCRIPT_COUNT -->245<!-- /COLOR_SCRIPT_COUNT -->`
 
 ### `npm run markdown:check`

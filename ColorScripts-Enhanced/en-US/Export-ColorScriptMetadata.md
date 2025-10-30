@@ -108,6 +108,101 @@ Write-Host "Total size of all colorscripts: $($totalSize / 1KB) KB"
 
 Calculates the total disk space used by all colorscript files.
 
+### EXAMPLE 8
+
+```powershell
+# Generate statistics and save report
+$metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
+$stats = @{
+    TotalScripts = $metadata.Count
+    Categories = ($metadata | Select-Object -ExpandProperty Category -Unique).Count
+    CachedScripts = ($metadata | Where-Object CacheExists).Count
+    TotalFileSize = ($metadata | Measure-Object FileSize -Sum).Sum
+    TotalCacheSize = ($metadata | Where-Object CacheExists |
+        Measure-Object CacheFileSize -Sum).Sum
+}
+$stats | ConvertTo-Json | Out-File "./colorscripts-stats.json"
+```
+
+Generates a comprehensive statistics report including cache coverage and sizes.
+
+### EXAMPLE 9
+
+```powershell
+# Export and compare with previous backup
+$current = Export-ColorScriptMetadata -Path "./current-metadata.json" -IncludeFileInfo -PassThru
+$previous = Get-Content "./previous-metadata.json" | ConvertFrom-Json
+$new = $current | Where-Object { $_.Name -notin $previous.Name }
+$removed = $previous | Where-Object { $_.Name -notin $current.Name }
+Write-Host "New scripts: $($new.Count) | Removed scripts: $($removed.Count)"
+```
+
+Compares current metadata with a previous version to identify changes.
+
+### EXAMPLE 10
+
+```powershell
+# Build API response for web dashboard
+$metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
+$apiResponse = @{
+    version = (Get-Module ColorScripts-Enhanced | Select-Object Version).Version.ToString()
+    timestamp = (Get-Date -Format 'o')
+    count = $metadata.Count
+    scripts = $metadata
+} | ConvertTo-Json -Depth 5
+$apiResponse | Out-File "./api/colorscripts.json" -Encoding UTF8
+```
+
+Generates API-ready JSON with versioning and timestamp information.
+
+### EXAMPLE 11
+
+```powershell
+# Find scripts with missing cache for batch rebuild
+$metadata = Export-ColorScriptMetadata -IncludeCacheInfo -AsObject
+$uncached = $metadata | Where-Object { -not $_.CacheExists } | Select-Object -ExpandProperty Name
+if ($uncached.Count -gt 0) {
+    Write-Host "Rebuilding cache for $($uncached.Count) scripts..."
+    New-ColorScriptCache -Name $uncached
+}
+```
+
+Identifies and rebuilds cache for scripts that don't have cache files.
+
+### EXAMPLE 12
+
+```powershell
+# Create HTML gallery from metadata
+$metadata = Export-ColorScriptMetadata -IncludeFileInfo
+$html = @"
+<html>
+<head><title>ColorScripts-Enhanced Gallery</title></head>
+<body>
+<h1>ColorScripts-Enhanced</h1>
+<ul>
+"@
+foreach ($script in $metadata) {
+    $html += "<li><strong>$($script.Name)</strong> [$($script.Category)]</li>`n"
+}
+$html += "</ul></body></html>"
+$html | Out-File "./gallery.html" -Encoding UTF8
+```
+
+Creates an HTML gallery page listing all available colorscripts.
+
+### EXAMPLE 13
+
+```powershell
+# Monitor script sizes over time
+Export-ColorScriptMetadata -Path "./logs/metadata-$(Get-Date -Format 'yyyyMMdd').json" -IncludeFileInfo
+Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
+    ForEach-Object { Get-Content $_ | ConvertFrom-Json } |
+    Group-Object { $_.Name } |
+    ForEach-Object { Write-Host "$($_.Name): $(($_.Group | Measure-Object FileSize -Average).Average) bytes avg" }
+```
+
+Tracks file size changes for individual scripts over multiple exports.
+
 ## PARAMETERS
 
 ### -IncludeCacheInfo
@@ -229,10 +324,186 @@ When `-IncludeCacheInfo` is specified, these additional properties are included:
 - **CacheExists**: Boolean indicating whether a cache file exists
 - **CacheLastWriteTime**: Timestamp of cache file modification (null if cache doesn't exist)
 
+## ADVANCED USAGE PATTERNS
+
+### Data Analysis and Reporting
+
+**Comprehensive Inventory Report**
+```powershell
+# Generate complete inventory with all metadata
+$metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo -PassThru
+
+$report = @{
+    TotalScripts = $metadata.Count
+    Categories = ($metadata | Select-Object -ExpandProperty Category -Unique).Count
+    TotalFileSize = ($metadata | Measure-Object -Property FileSize -Sum).Sum
+    CachedScripts = ($metadata | Where-Object { $_.CacheExists }).Count
+    CacheSize = ($metadata | Where-Object { $_.CacheExists } | Measure-Object -Property CacheFileSize -Sum).Sum
+}
+
+$report | ConvertTo-Json | Out-File "./inventory-report.json"
+```
+
+**Category Distribution Analysis**
+```powershell
+# Analyze distribution across categories
+$metadata = Export-ColorScriptMetadata -IncludeFileInfo
+
+$categories = $metadata | Group-Object Category | ForEach-Object {
+    [PSCustomObject]@{
+        Category = $_.Name
+        Count = $_.Count
+        TotalSize = ($_.Group | Measure-Object FileSize -Sum).Sum
+        AverageSize = [math]::Round(($_.Group | Measure-Object FileSize -Average).Average, 0)
+    }
+}
+
+$categories | Sort-Object Count -Descending | Format-Table
+```
+
+**Cache Coverage Analysis**
+```powershell
+# Identify cache gaps
+$metadata = Export-ColorScriptMetadata -IncludeCacheInfo -PassThru
+
+$uncached = $metadata | Where-Object { -not $_.CacheExists }
+$cached = $metadata | Where-Object { $_.CacheExists }
+
+Write-Host "Cache coverage: $([math]::Round($cached.Count / $metadata.Count * 100, 1))%"
+Write-Host "Scripts without cache: $($uncached.Count)"
+
+$uncached | Select-Object Name, Category | Format-Table
+```
+
+### Integration Workflows
+
+**API Response Generation**
+```powershell
+# Build versioned API response
+$metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
+$apiResponse = @{
+    version = (Get-Module ColorScripts-Enhanced | Select-Object -ExpandProperty Version).ToString()
+    timestamp = (Get-Date -Format 'o')
+    scriptCount = $metadata.Count
+    scripts = $metadata | Select-Object Name, Category, Tags, Description
+    cacheStats = @{
+        cached = ($metadata | Where-Object CacheExists).Count
+        total = $metadata.Count
+    }
+} | ConvertTo-Json -Depth 5
+
+$apiResponse | Out-File "./api/colorscripts-v1.json" -Encoding UTF8
+```
+
+**Web Gallery Generation**
+```powershell
+# Create interactive HTML gallery
+$metadata = Export-ColorScriptMetadata -Detailed
+
+$html = @"
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ColorScripts-Enhanced Gallery</title>
+    <style>
+        body { font-family: Arial; margin: 20px; }
+        .script { border: 1px solid #ccc; padding: 10px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+<h1>ColorScripts-Enhanced - $($metadata.Count) Scripts</h1>
+"@
+
+$metadata | ForEach-Object {
+    $html += "<div class='script'><strong>$($_.Name)</strong> [$($_.Category)]<br/>Tags: $(($_.Tags -join ', '))</div>`n"
+}
+
+$html += "</body></html>"
+$html | Out-File "./gallery.html" -Encoding UTF8
+```
+
+**Change Tracking**
+```powershell
+# Compare current state with previous export
+Export-ColorScriptMetadata -Path "./metadata-current.json" -IncludeFileInfo
+
+$current = Get-Content "./metadata-current.json" | ConvertFrom-Json
+$previous = Get-Content "./metadata-previous.json" -ErrorAction SilentlyContinue | ConvertFrom-Json
+
+if ($previous) {
+    $added = $current | Where-Object { $_.Name -notin $previous.Name }
+    $removed = $previous | Where-Object { $_.Name -notin $current.Name }
+
+    Write-Host "Added: $($added.Count) scripts"
+    Write-Host "Removed: $($removed.Count) scripts"
+}
+```
+
+### Maintenance and Validation
+
+**Health Check Automation**
+```powershell
+# Validate all scripts and cache status
+$metadata = Export-ColorScriptMetadata -IncludeCacheInfo -IncludeFileInfo -PassThru
+
+$health = $metadata | ForEach-Object {
+    @{
+        Name = $_.Name
+        FileExists = Test-Path $_.FilePath
+        Cached = $_.CacheExists
+        FileAge = if (Test-Path $_.FilePath) { (Get-Date) - (Get-Item $_.FilePath).LastWriteTime } else { $null }
+    }
+}
+
+$health | Where-Object { -not $_.FileExists -or -not $_.Cached } | Format-Table
+```
+
+**Performance Metrics**
+```powershell
+# Export with performance data
+$startTime = Get-Date
+$metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
+
+$metrics = @{
+    ExportTime = ((Get-Date) - $startTime).TotalMilliseconds
+    ScriptCount = $metadata.Count
+    TotalFileSize = ($metadata | Measure-Object FileSize -Sum).Sum
+    CacheHitRate = ($metadata | Where-Object CacheExists).Count / $metadata.Count
+}
+
+$metrics | ConvertTo-Json | Out-File "./performance.json"
+```
+
+### Backup and Disaster Recovery
+
+**Metadata Backup**
+```powershell
+# Create timestamped metadata backup
+$timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
+Export-ColorScriptMetadata -Path "./backups/metadata-$timestamp.json" -IncludeFileInfo -IncludeCacheInfo
+
+# Keep only last 5 backups
+Get-ChildItem "./backups/metadata-*.json" | Sort-Object Name -Descending | Select-Object -Skip 5 | Remove-Item
+```
+
+**Recovery Validation**
+```powershell
+# Validate backed-up metadata against current state
+$backup = Get-Content "./backups/metadata-latest.json" | ConvertFrom-Json
+$current = Export-ColorScriptMetadata -PassThru
+
+$missing = $backup | Where-Object { $_.Name -notin $current.Name }
+if ($missing.Count -gt 0) {
+    Write-Warning "Missing from current: $($missing.Count) scripts"
+}
+```
+
 ## NOTES
 
 **Performance Considerations:**
 - Adding `-IncludeFileInfo` or `-IncludeCacheInfo` requires filesystem I/O operations and may impact performance when processing large colorscript libraries.
+- For large exports, consider using `-PassThru` with pipeline filtering rather than loading all in memory
+- Export operations scale linearly with script count
 
 **Cache Directory Management:**
 - Cache metadata collection ensures the cache directory exists before attempting to read cache files.
@@ -247,11 +518,19 @@ When `-IncludeCacheInfo` is specified, these additional properties are included:
 - The output encoding is UTF-8 for maximum compatibility.
 - Existing files at the target path are overwritten without prompting.
 
+**Best Practices:**
+- Schedule regular metadata exports for auditing
+- Version your metadata exports with timestamps
+- Use `-PassThru` for both file export and pipeline processing
+- Store backups in version control or backup systems
+- Monitor export file size growth over time
+
 **Use Cases:**
 - Integrating with CI/CD pipelines for documentation generation
 - Building web dashboards or API endpoints serving colorscript metadata
 - Creating inventory reports for large colorscript collections
 - Identifying scripts requiring cache regeneration
+- Tracking changes and maintaining audit logs
 
 ## RELATED LINKS
 
@@ -259,3 +538,4 @@ When `-IncludeCacheInfo` is specified, these additional properties are included:
 - [Get-ColorScriptList](Get-ColorScriptList.md)
 - [Clear-ColorScriptCache](Clear-ColorScriptCache.md)
 - [Show-ColorScript](Show-ColorScript.md)
+- [Get-ColorScriptConfiguration](Get-ColorScriptConfiguration.md)

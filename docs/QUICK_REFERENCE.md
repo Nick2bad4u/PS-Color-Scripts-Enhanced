@@ -341,6 +341,189 @@ New-ColorScriptCache
 Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" | Measure-Object
 ```
 
+## Advanced Usage
+
+### Performance Monitoring
+
+```powershell
+# Measure cache benefit
+$uncached = Measure-Command { Show-ColorScript -Name mandelbrot-zoom -NoCache }
+$cached = Measure-Command { Show-ColorScript -Name mandelbrot-zoom }
+Write-Host "Improvement: $([math]::Round($uncached.TotalMilliseconds / $cached.TotalMilliseconds, 1))x"
+```
+
+### Batch Automation
+
+```powershell
+# Process all recommended scripts
+Get-ColorScriptList -Tag Recommended -AsObject | ForEach-Object {
+    Show-ColorScript -Name $_.Name
+    Start-Sleep -Seconds 1
+}
+
+# Export to JSON for external tools
+Export-ColorScriptMetadata -Path "./scripts.json" -IncludeFileInfo
+```
+
+### CI/CD Integration
+
+```powershell
+# Pre-build cache for container deployment
+New-ColorScriptCache -Force
+
+# Verify all scripts are cached
+$cached = @(Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter *.cache)
+Write-Host "✓ Cached: $($cached.Count) scripts"
+```
+
+### Environment Detection
+
+```powershell
+# Conditional display based on environment
+if ($env:CI) {
+    Show-ColorScript -NoCache  # Avoid file I/O in ephemeral environments
+} else {
+    Show-ColorScript  # Use cache for faster performance
+}
+```
+
+### Data Analysis
+
+```powershell
+# Category distribution
+Get-ColorScriptList -AsObject |
+    Group-Object Category |
+    ForEach-Object { Write-Host "$($_.Name): $($_.Count) scripts" }
+
+# Find scripts by pattern
+Get-ColorScriptList -AsObject |
+    Where-Object { $_.Tags -contains 'Animated' } |
+    Select-Object Name, Category
+```
+
+## Best Practices
+
+### Installation
+- [ ] Use `Install-Module` from PowerShell Gallery when available
+- [ ] Use `-Scope CurrentUser` for user-only installation
+- [ ] Run `New-ColorScriptCache` after installation for optimal performance
+
+### Daily Use
+- [ ] Add `Show-ColorScript` to your profile for a colorful greeting
+- [ ] Use aliases: `scs` instead of `Show-ColorScript`
+- [ ] Try `-Random` mode to discover different scripts
+
+### Configuration
+- [ ] Run `Add-ColorScriptProfile` to add startup integration
+- [ ] Use `Get-ColorScriptConfiguration` to verify settings
+- [ ] Backup configuration with `Export-ColorScriptMetadata`
+
+### Performance
+- [ ] Pre-build cache with `New-ColorScriptCache` after updates
+- [ ] Use `-NoCache` only for script development/testing
+- [ ] Monitor cache size: `$env:APPDATA\ColorScripts-Enhanced\cache`
+
+### Troubleshooting
+- [ ] Verify UTF-8 encoding: `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8`
+- [ ] Check module loads: `Get-Module ColorScripts-Enhanced`
+- [ ] Test cache: `Clear-ColorScriptCache -All; New-ColorScriptCache`
+- [ ] Review help: `Get-Help about_ColorScripts-Enhanced`
+
+## Quick Troubleshooting Matrix
+
+| Issue | Check | Solution |
+|-------|-------|----------|
+| Scripts not showing | Terminal encoding | `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8` |
+| Slow first run | Cache missing | `New-ColorScriptCache -Force` |
+| Garbled characters | Font support | Install Nerd Font or try different script |
+| Module not found | Module path | `$env:PSModulePath -split ';'` |
+| Cache errors | Disk space | `Clear-ColorScriptCache -All` |
+| Startup delays | Profile heavy | Use `-SkipStartupScript` option |
+
+## Comparison: Commands vs Parameters
+
+### Display Methods
+
+| Goal | Command | Parameters |
+|------|---------|------------|
+| Random display | `Show-ColorScript` | (none) |
+| Specific script | `Show-ColorScript` | `-Name "bars"` |
+| With caching | `Show-ColorScript` | (default) |
+| Skip cache | `Show-ColorScript` | `-NoCache` |
+| Get metadata | `Show-ColorScript` | `-PassThru` |
+| List view | `Show-ColorScript` | `-List` |
+| Browse all | `Show-ColorScript` | `-All -WaitForInput` |
+
+### Filtering Methods
+
+| Goal | Command | Parameters |
+|------|---------|------------|
+| All scripts | `Get-ColorScriptList` | (none) |
+| One category | `Get-ColorScriptList` | `-Category Geometric` |
+| Multiple categories | `Get-ColorScriptList` | `-Category Geometric,Nature` |
+| By tag | `Get-ColorScriptList` | `-Tag Recommended` |
+| Object format | `Get-ColorScriptList` | `-AsObject` |
+| Rich details | `Get-ColorScriptList` | `-Detailed` |
+
+## Learning Paths
+
+### Path 1: First Time User (10 min)
+1. Install: `Install-Module -Name ColorScripts-Enhanced`
+2. Import: `Import-Module ColorScripts-Enhanced`
+3. Try it: `Show-ColorScript`
+4. Explore: `Get-ColorScriptList`
+5. Setup: `Add-ColorScriptProfile`
+
+### Path 2: Daily Power User (30 min)
+1. Read Basic Commands section
+2. Try Examples section (each example)
+3. Setup profile integration
+4. Explore categories and tags
+5. Test performance improvements
+
+### Path 3: Advanced User (1 hour)
+1. Read Advanced Usage section
+2. Study Best Practices
+3. Try Performance Monitoring
+4. Explore Batch Automation
+5. Review CI/CD Integration examples
+
+### Path 4: Integration & Automation (2 hours)
+1. Study all Advanced Usage examples
+2. Review Environment Detection patterns
+3. Study Data Analysis workflows
+4. Plan custom automation
+5. Review ANSI-CONVERSION-GUIDE for custom scripts
+
+## Keyboard Shortcuts & Aliases
+
+```powershell
+# Define custom aliases for faster access
+Set-Alias -Name cs -Value Show-ColorScript
+Set-Alias -Name csl -Value Get-ColorScriptList
+Set-Alias -Name csb -Value New-ColorScriptCache
+Set-Alias -Name csc -Value Clear-ColorScriptCache
+```
+
+## Environment Variables
+
+```powershell
+# Override cache location
+$env:COLORSCRIPTS_CACHE = "D:\MyCache\ColorScripts"
+
+# Set in profile for persistence
+$env:PSModulePath += ";C:\CustomModulePath"
+```
+
+## For More Information
+
+- **Full Help**: `Get-Help about_ColorScripts-Enhanced`
+- **Command Help**: `Get-Help Show-ColorScript -Full`
+- **Examples**: `Get-Help Show-ColorScript -Examples`
+- **GitHub**: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
+- **Issues**: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues
+- **Documentation**: `./docs/` folder in repository
+
 ## Links
 
 - **GitHub**: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
@@ -358,3 +541,6 @@ Current: 2025.10.13
 ---
 
 _For detailed documentation, use: `Get-Help about_ColorScripts-Enhanced`_
+
+**Last Updated**: October 30, 2025
+**Status**: ✅ Production Ready

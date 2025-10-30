@@ -242,29 +242,444 @@ ps-color-scripts-enhanced/
 
 ## Pull Request Process
 
-1. Update documentation
-2. Add release notes
-3. Ensure all tests pass
-4. Request review from maintainers
-5. Address review feedback
-6. Wait for approval and merge
+1. **Before Starting**
+   - [ ] Fork the repository
+   - [ ] Create a feature branch: `git checkout -b feature/your-feature`
+   - [ ] Update `.gitignore` if needed
+
+2. **During Development**
+   - [ ] Follow code style guidelines
+   - [ ] Add tests for new functionality
+   - [ ] Update relevant documentation
+   - [ ] Run full test suite: `npm run verify`
+   - [ ] Run linting: `npm run lint:fix`
+
+3. **Before Submitting PR**
+   - [ ] All tests pass: `npm run verify`
+   - [ ] Linting clean: `npm run lint`
+   - [ ] Documentation updated
+   - [ ] Examples work correctly
+   - [ ] Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/)
+   - [ ] Tested on multiple PowerShell versions
+
+4. **Creating the PR**
+   - [ ] Use descriptive title
+   - [ ] Link related issues: `Closes #123`
+   - [ ] Include description of changes
+   - [ ] Mention breaking changes (if any)
+   - [ ] Request review from maintainers
+
+5. **After PR Submission**
+   - [ ] Address review feedback
+   - [ ] Keep branch up to date with main
+   - [ ] Rebase if necessary
+   - [ ] Wait for maintainer approval
+
+## Commit Message Convention
+
+We follow [Conventional Commits](https://www.conventionalcommits.org/):
+
+```
+type(scope): subject
+
+body
+
+footer
+```
+
+### Types
+
+- **feat**: New feature
+- **fix**: Bug fix
+- **docs**: Documentation changes
+- **style**: Code formatting
+- **refactor**: Code restructuring
+- **perf**: Performance improvement
+- **test**: Test changes
+- **chore**: Build or dependency changes
+
+### Examples
+
+```
+feat(cache): add parallel cache building
+
+Implemented multi-threaded cache generation
+for improved performance on large collections.
+
+Closes #456
+```
+
+```
+fix(caching): resolve cache invalidation bug
+
+Cache was not invalidating when scripts
+were updated in certain scenarios.
+```
+
+## Contribution Types
+
+### Adding Colorscripts
+
+**Difficulty**: Easy 🟢
+
+Steps:
+1. Create script file in `ColorScripts-Enhanced/Scripts/`
+2. Use lowercase-with-hyphens naming
+3. Add to `ScriptMetadata.psd1`
+4. Test with: `Show-ColorScript -Name your-script`
+5. Submit PR with description
+
+**Requirements**:
+- [ ] UTF-8 encoding
+- [ ] ANSI escape sequences for colors
+- [ ] Under 500 lines (prefer smaller)
+- [ ] No external dependencies
+- [ ] Tested on multiple terminals
+- [ ] Comments for complex sections
+
+**Example**:
+```powershell
+# File: ColorScripts-Enhanced/Scripts/my-awesome-art.ps1
+$esc = [char]27
+$red = "$esc[38;2;255;0;0m"
+$reset = "$esc[0m"
+
+Write-Host "${red}Beautiful ANSI Art${reset}"
+```
+
+### Bug Reports
+
+**Difficulty**: Easy 🟢
+
+When reporting:
+1. Use [bug report template](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues/new?template=bug_report.md)
+2. Include:
+   - PowerShell version (`$PSVersionTable`)
+   - Operating system and terminal
+   - Exact reproduction steps
+   - Error messages and logs
+   - Attached screenshots (if visual)
+
+### Feature Requests
+
+**Difficulty**: Easy 🟢
+
+When requesting:
+1. Use [feature request template](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues/new?template=feature_request.md)
+2. Include:
+   - Clear description of desired functionality
+   - Use cases and benefits
+   - Proposed implementation approach
+   - Examples or mockups (if applicable)
+
+### Documentation
+
+**Difficulty**: Easy 🟢
+
+Areas for improvement:
+- [ ] Typo fixes
+- [ ] Clarity improvements
+- [ ] New examples
+- [ ] Additional guides
+- [ ] Better translations (if multilingual)
+
+### Code Contributions
+
+**Difficulty**: Medium 🟡 to Hard 🔴
+
+Examples:
+- New cmdlet (Hard 🔴)
+- Bug fix (Medium 🟡)
+- Performance optimization (Medium 🟡 to Hard 🔴)
+- Refactoring (Medium 🟡)
+- Test additions (Easy 🟢 to Medium 🟡)
+
+For complex changes:
+1. Open issue first to discuss approach
+2. Wait for maintainer feedback
+3. Implement with tests
+4. Submit PR with detailed explanation
+
+## Development Workflow Details
+
+### Local Setup
+
+```powershell
+# 1. Clone repository
+git clone https://github.com/yourusername/ps-color-scripts-enhanced.git
+cd ps-color-scripts-enhanced
+
+# 2. Install dependencies
+npm install
+
+# 3. Verify setup
+npm run build
+npm test
+```
+
+### Making Changes
+
+```powershell
+# 1. Create feature branch
+git checkout -b feature/my-feature
+
+# 2. Make changes to files
+
+# 3. Test changes
+npm test
+npm run lint
+
+# 4. Run full validation
+npm run verify
+
+# 5. Commit changes
+git add .
+git commit -m "feat(module): add new feature"
+
+# 6. Push to fork
+git push origin feature/my-feature
+```
+
+### Handling Conflicts
+
+If your PR has conflicts:
+
+```powershell
+# Update from main
+git fetch upstream
+git rebase upstream/main
+
+# Resolve conflicts in your editor, then:
+git add .
+git rebase --continue
+git push origin feature/my-feature -f
+```
+
+## Testing Your Contributions
+
+### Unit Tests
+
+```powershell
+# Run all tests
+npm run test:pester
+
+# Run specific test file
+Invoke-Pester -Path ./Tests/MyTest.Tests.ps1
+
+# Run with coverage report
+Invoke-Pester -Path ./Tests -CodeCoverage ColorScripts-Enhanced/ColorScripts-Enhanced.psm1
+```
+
+### Integration Tests
+
+```powershell
+# Test full workflow
+New-ColorScriptCache -Force
+Show-ColorScript
+Get-ColorScriptList
+Export-ColorScriptMetadata -IncludeFileInfo
+```
+
+### Smoke Tests
+
+```powershell
+# Quick validation
+npm test
+```
+
+### Linting
+
+```powershell
+# Standard linting
+npm run lint
+
+# With auto-fix
+npm run lint:fix
+
+# Strict mode (treat warnings as errors)
+npm run lint:strict
+```
+
+## Testing Matrix
+
+Test your changes across:
+
+| Platform | PowerShell 5.1 | PowerShell 7.x | Status |
+|----------|---|---|---|
+| Windows | ✅ | ✅ | Required |
+| macOS | ❌ | ✅ | Recommended |
+| Linux | ❌ | ✅ | Recommended |
+
+Use GitHub Actions or test locally:
+
+```powershell
+# PowerShell 5.1 (Windows only)
+powershell -NoProfile -Command "& .\scripts\Test-Module.ps1"
+
+# PowerShell 7
+pwsh -NoProfile -Command "& .\scripts\Test-Module.ps1"
+```
+
+## Performance Benchmarking
+
+Before optimization PRs, include benchmarks:
+
+```powershell
+# Measure before
+$before = Measure-Command { Show-ColorScript -Name mandelbrot-zoom -NoCache }
+
+# Make your changes...
+
+# Measure after
+$after = Measure-Command { Show-ColorScript -Name mandelbrot-zoom -NoCache }
+
+Write-Host "Before: $($before.TotalMilliseconds)ms"
+Write-Host "After: $($after.TotalMilliseconds)ms"
+Write-Host "Improvement: $(([math]::Round($before.TotalMilliseconds / $after.TotalMilliseconds, 2)))x"
+```
+
+## Documentation Standards
+
+### Code Comments
+
+```powershell
+# Good: Explains WHY not WHAT
+# We use StringBuilder for performance with large outputs
+$sb = [System.Text.StringBuilder]::new()
+
+# Bad: Restates obvious code
+# Increment counter
+$i++
+```
+
+### Help Documentation
+
+All public functions must have comment-based help:
+
+```powershell
+<#
+.SYNOPSIS
+    One-line summary (critical)
+
+.DESCRIPTION
+    Detailed explanation of what it does.
+    Include use cases and behavior.
+
+.PARAMETER Name
+    Description of parameter.
+    Include type and valid values.
+
+.PARAMETER Force
+    Switch to override default behavior.
+
+.EXAMPLE
+    Show-ColorScript -Name "hearts"
+
+    Displays the "hearts" colorscript.
+
+.EXAMPLE
+    Show-ColorScript -Random
+
+    Displays a random colorscript.
+
+.INPUTS
+    System.String. You can pipe a script name.
+
+.OUTPUTS
+    None or System.String (with -PassThru)
+
+.NOTES
+    Additional technical notes.
+
+.LINK
+    Get-ColorScriptList
+    New-ColorScriptCache
+    https://github.com/Nick2bad4u/ps-color-scripts-enhanced
+#>
+```
+
+## Approval Process
+
+### Automatic Checks
+- ✅ Tests pass
+- ✅ Linting passes
+- ✅ No security issues
+- ✅ Coverage maintained
+
+### Manual Review
+- Code quality
+- Design appropriateness
+- Documentation completeness
+- Breaking changes assessment
+
+### Approval Criteria
+
+PR can be merged when:
+1. All automatic checks pass
+2. At least one maintainer approves
+3. No requested changes remain
+4. Commits are clean
+
+## Recognition
+
+Contributors will be recognized:
+- In CHANGELOG.md for each release
+- In [CONTRIBUTORS.md](./docs/CONTRIBUTORS.md)
+- GitHub "Contributors" page
+- Release announcements (optional)
+
+## Resources for Contributors
+
+### Documentation
+- [PowerShell Docs](https://docs.microsoft.com/powershell/)
+- [Pester Testing Guide](https://pester.dev/)
+- [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer)
+- [ANSI Art Guide](./docs/ANSI-COLOR-GUIDE.md)
+- [ANSI Conversion Guide](./docs/ANSI-CONVERSION-GUIDE.md)
+
+### Tools
+- [VS Code PowerShell Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
+- [Nerd Fonts](https://www.nerdfonts.com/)
+- [git-cliff](https://git-cliff.org/)
+
+### Community
+- [GitHub Discussions](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/discussions)
+- [GitHub Issues](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues)
+- PowerShell Discord (if available)
+
+## Getting Help
+
+- **Questions**: Open a GitHub Discussion
+- **Bug Reports**: Use issue template
+- **Feature Ideas**: Use issue template or Discussion
+- **Code Review**: Ask in PR comments
+- **General Help**: Check existing docs first
 
 ## Version Numbering
 
-We use date-based versioning: `YYYY.MM.DD.BuildNumber`
+Format: `YYYY.MM.DD.BuildNumber`
 
 Example: `2025.10.09.1625`
 
+- **YYYY**: Year
+- **MM**: Month (01-12)
+- **DD**: Day (01-31)
+- **BuildNumber**: Sequential number for multiple releases per day
+
 ## Questions?
 
-- Open an issue for questions
-- Check existing documentation
-- Review closed issues for answers
+- 📖 Check [README.md](./README.md)
+- 📚 Review [docs/](./docs/) folder
+- 💬 Open a Discussion
+- 🐛 Check existing Issues
+- 👥 Ask in PR comments
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the MIT License.
+By contributing, you agree your contributions will be licensed under the [MIT License](./LICENSE).
+
+---
 
 ## Thank You!
 
-Your contributions help make ColorScripts-Enhanced better for everyone!
+Your contributions make ColorScripts-Enhanced better for the entire PowerShell community! 🎨✨

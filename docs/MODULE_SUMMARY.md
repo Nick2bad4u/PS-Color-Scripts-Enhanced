@@ -93,13 +93,25 @@ Reset-ColorScriptConfiguration
 
 Configuration lives in `%APPDATA%/ColorScripts-Enhanced/config.json` (or the platform equivalent); set `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` to relocate it for portable scenarios.
 
-### 7. Export-ColorScriptMetadata
+### 7. Metadata Export
 
 Exports metadata—including categories, tags, descriptions, file info, and optional cache state—for every script. Ideal for building dashboards or integrating with external tooling.
 
 ```powershell
-Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
+# Basic export
+Export-ColorScriptMetadata
+
+# Export with file information
+Export-ColorScriptMetadata -IncludeFileInfo
+
+# Export with cache information
+Export-ColorScriptMetadata -IncludeCacheInfo
+
+# Save to file for external tools
 Export-ColorScriptMetadata -Path ./dist/colorscripts-metadata.json -IncludeFileInfo
+
+# Full metadata export
+Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo -PassThru | ConvertTo-Json | Out-File metadata.json
 ```
 
 ### 8. New-ColorScript
@@ -107,9 +119,52 @@ Export-ColorScriptMetadata -Path ./dist/colorscripts-metadata.json -IncludeFileI
 Creates a UTF-8 scaffold for a new colorscript and optionally emits metadata guidance so you can update `ScriptMetadata.psd1` immediately.
 
 ```powershell
-$scaffold = New-ColorScript -Name 'my-awesome-script' -GenerateMetadataSnippet -Category 'Artistic' -Tag 'Custom','Demo'
+# Create basic scaffold
+$scaffold = New-ColorScript -Name 'my-awesome-script'
+
+# Create with metadata guidance
+$scaffold = New-ColorScript -Name 'my-awesome-script' -GenerateMetadataSnippet
+
+# Create with category and tags
+$scaffold = New-ColorScript -Name 'my-awesome-script' -Category 'Artistic' -Tag 'Custom','Demo'
+
+# Use in workflow
+$scaffold = New-ColorScript -Name 'my-awesome-script' -GenerateMetadataSnippet
 code $scaffold.Path
 $scaffold.MetadataGuidance
+```
+
+### 9. Add-ColorScriptProfile
+
+Integrates the module into your PowerShell profile for automatic startup.
+
+```powershell
+# Add with startup script
+Add-ColorScriptProfile
+
+# Add without startup display
+Add-ColorScriptProfile -SkipStartupScript
+
+# Add to specific profile
+Add-ColorScriptProfile -Scope CurrentUserCurrentHost
+
+# Add with custom path
+Add-ColorScriptProfile -Path .\MyProfile.ps1 -Force
+```
+
+### 10. Get-ColorScriptConfiguration / Set-ColorScriptConfiguration / Reset-ColorScriptConfiguration
+
+Manage persistent configuration settings.
+
+```powershell
+# View current configuration
+Get-ColorScriptConfiguration
+
+# Customize settings
+Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -ProfileAutoShow:$false
+
+# Restore defaults
+Reset-ColorScriptConfiguration
 ```
 
 ## Installation

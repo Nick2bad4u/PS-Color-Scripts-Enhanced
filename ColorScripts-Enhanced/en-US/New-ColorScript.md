@@ -74,6 +74,84 @@ New-ColorScript -Name 'test-pattern' -OutputPath '.\temp' -WhatIf
 
 Shows what would happen when creating a test pattern script in the `.\temp` directory without actually creating the file. Useful for validating paths and names before execution.
 
+### EXAMPLE 5
+
+```powershell
+# Create multiple colorscripts for a project
+$scriptNames = @("company-logo", "team-banner", "status-display")
+foreach ($name in $scriptNames) {
+    New-ColorScript -Name $name -Category "Corporate" -Tag "Custom" -OutputPath ".\src" | Out-Null
+}
+Write-Host "Created $($scriptNames.Count) colorscript templates"
+```
+
+Creates multiple colorscript templates in batch for a project.
+
+### EXAMPLE 6
+
+```powershell
+# Create and immediately open in editor
+$scaffold = New-ColorScript -Name "my-art" -Category "Artistic" -GenerateMetadataSnippet
+code $scaffold.Path  # Opens in VS Code
+```
+
+Creates a colorscript and opens it immediately in the default editor for editing.
+
+### EXAMPLE 7
+
+```powershell
+# Create with full workflow automation
+$newScript = New-ColorScript -Name "interactive-demo" -Category "Educational" -Tag "Interactive","Demo" -GenerateMetadataSnippet
+Write-Host "Created: $($newScript.ScriptName)"
+Write-Host "Path: $($newScript.Path)"
+Write-Host "Metadata guidance ready in clipboard"
+$newScript.MetadataGuidance | Set-Clipboard
+```
+
+Creates a colorscript with metadata guidance automatically copied to clipboard.
+
+### EXAMPLE 8
+
+```powershell
+# Verify script name conventions
+$validName = "my-awesome-script"
+$invalidNames = @("123start", "-invalid", "_underscore-only")
+foreach ($name in $invalidNames) {
+    try {
+        New-ColorScript -Name $name -WhatIf -ErrorAction Stop
+    } catch {
+        Write-Warning "Invalid name '$name': $_"
+    }
+}
+```
+
+Demonstrates naming convention validation for colorscripts.
+
+### EXAMPLE 9
+
+```powershell
+# Create in portable location for distribution
+$portableDir = Join-Path $PSScriptRoot "colorscripts"
+$scaffold = New-ColorScript -Name "portable-art" -OutputPath $portableDir -GenerateMetadataSnippet
+Write-Host "Created portable colorscript at: $($scaffold.Path)"
+```
+
+Creates colorscripts in a portable location relative to the current script.
+
+### EXAMPLE 10
+
+```powershell
+# Create with category and tag validation
+$categories = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Category -Unique
+if ("Retro" -in $categories) {
+    New-ColorScript -Name "retro-party" -Category "Retro" -Tag "Fun","Social"
+} else {
+    Write-Warning "Retro category not found"
+}
+```
+
+Validates that a category exists before creating a new colorscript.
+
 ## PARAMETERS
 
 ### -Category

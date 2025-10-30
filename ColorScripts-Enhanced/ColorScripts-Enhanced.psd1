@@ -11,7 +11,7 @@
     RootModule = 'ColorScripts-Enhanced.psm1'
 
     # Version number of this module.
-    ModuleVersion = '2025.10.30.0107'
+    ModuleVersion = '2025.10.30.1631'
 
     # Supported PSEditions
     CompatiblePSEditions = @('Desktop', 'Core')
@@ -30,21 +30,55 @@
 
     # Description of the functionality provided by this module
     Description = @'
-Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times.
+🎨 ColorScripts-Enhanced: Professional ANSI Art Terminal Experience
 
-Features:
-• 498 beautiful colorscripts - Extensive collection of ANSI art
-• Intelligent Caching - 6-19x performance improvement (5-20ms load times)
-• OS-Wide Cache - Consistent caching across all terminal sessions
-• Simple API - Easy-to-use cmdlets with tab completion
-• Configurable Defaults - Persist cache locations and startup behaviour
-• Auto-Update - Cache automatically invalidates when scripts change
-• Centralized Storage - Cache stored in AppData/ColorScripts-Enhanced/cache
-• Cross-platform - Works on Windows, Linux, and macOS
-• PowerShell 5.1+ and PowerShell Core 7+ compatible
+![ColorScripts Mascot](https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/assets/ColorScripts-Mascot-Dark.jpeg)
 
-Quick Start: Show-ColorScript (or alias: scs)
-Full documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
+A powerful PowerShell module that brings beautiful ANSI art colorscripts to your terminal with enterprise-grade performance. Choose from 498 stunning visual scripts and enjoy lightning-fast loading with intelligent caching.
+
+⚡ PERFORMANCE BOOST
+• 6-19x faster performance with smart caching
+• 5-20ms average load time (cached)
+• OS-wide cache across all terminal sessions
+• Automatic cache invalidation on script updates
+
+✨ FEATURES
+• 498 beautiful colorscripts included
+• Professional-grade ANSI art collection
+• Cross-platform support (Windows, macOS, Linux)
+• PowerShell 5.1+ and PowerShell 7+ compatible
+• Tab completion and intelligent parameter handling
+• Centralized cache in AppData/ColorScripts-Enhanced
+• Configuration persistence for user preferences
+• Rich metadata and script discovery
+
+🚀 QUICK START
+Display random art: Show-ColorScript (or use alias: scs)
+List available scripts: Get-ColorScriptList
+Pre-build cache: New-ColorScriptCache
+
+📖 DOCUMENTATION
+Full guide: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
+Issues & Discussions: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues
+
+COMMANDS INCLUDED
+• Show-ColorScript - Display colorscripts with caching
+• Get-ColorScriptList - Browse available scripts
+• New-ColorScriptCache - Pre-generate cache for speed
+• Clear-ColorScriptCache - Manage cache storage
+• Add-ColorScriptProfile - Integrate into PowerShell profile
+• Get-ColorScriptConfiguration - View settings
+• Set-ColorScriptConfiguration - Persist preferences
+• Export-ColorScriptMetadata - Export script metadata
+• New-ColorScript - Create new colorscripts
+
+PERFECT FOR
+✓ Making your terminal visually stunning
+✓ Terminal startup customization
+✓ System administration dashboards
+✓ Development environments
+✓ DevOps automation
+✓ Learning ANSI art and terminal graphics
 '@
 
     # Minimum version of the PowerShell engine required by this module
@@ -172,7 +206,7 @@ Full documentation: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
 
             # ReleaseNotes of this module
             ReleaseNotes = @'
-Version 2025.10.30.0107:
+Version 2025.10.30.1631:
 - Enhanced caching system with OS-wide cache in AppData
 - 6-19x performance improvement
 - Cache stored in centralized location

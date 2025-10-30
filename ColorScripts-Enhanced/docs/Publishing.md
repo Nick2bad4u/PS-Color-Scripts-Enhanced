@@ -148,11 +148,262 @@ Publish-Module -Path ./ColorScripts-Enhanced -Repository MyCompanyFeed
 - **Missing dependencies**: Ensure PowerShellGet/PSResourceGet is updated on host machine.
 - **Changelog mismatch**: Always update documentation before publishing.
 
-## Related Automation
+## Pre-Publishing Checklist
 
-- `.github/workflows/test.yml` — Continuous integration tests for every commit/pull request.
-- `.github/workflows/publish.yml` — Manual/release publishing pipeline.
-- `build.ps1` — Local build helper script.
+- [ ] All tests pass (`npm run verify`)
+- [ ] Linting clean (`npm run lint`)
+- [ ] Documentation updated
+- [ ] Version bumped (`.psd1` manifest)
+- [ ] CHANGELOG.md updated
+- [ ] Release notes generated
+- [ ] Tested locally on Windows/Mac/Linux
+
+## Local Publishing Workflow
+
+### Step 1: Validate Package
+
+```powershell
+# Test manifest
+Test-ModuleManifest -Path ColorScripts-Enhanced/ColorScripts-Enhanced.psd1
+
+# Verify module loads
+Remove-Module ColorScripts-Enhanced -Force -ErrorAction SilentlyContinue
+Import-Module ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1 -Verbose
+
+# Check all commands export
+Get-Command -Module ColorScripts-Enhanced | Select-Object Name
+```
+
+### Step 2: Create Package
+
+```powershell
+# Using automatic publish workflow (recommended)
+# Trigger via GitHub Actions interface or:
+gh workflow run publish.yml --ref main
+
+# Manual packaging (optional)
+Compress-Archive -Path "./ColorScripts-Enhanced" -DestinationPath "./dist/ColorScripts-Enhanced-v1.0.0.zip"
+```
+
+### Step 3: Test Package Installation
+
+```powershell
+# PowerShell Gallery (simulate)
+Save-Module -Name ColorScripts-Enhanced -Path "./test-install"
+
+# Test load
+Import-Module "./test-install/ColorScripts-Enhanced"
+
+# Verify functionality
+Show-ColorScript -Name bars
+Get-ColorScriptList
+```
+
+## Publishing to Different Galleries
+
+### PowerShell Gallery (Primary)
+
+```powershell
+# Publish via GitHub Actions (automatic)
+# OR manually if needed:
+
+$nugetApiKey = Read-Host "Enter NuGet API key" -AsSecureString
+$nugetApiKeyPlain = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto(
+    [System.Runtime.InteropServices.Marshal]::SecureStringToCoTaskMemUnicode($nugetApiKey)
+)
+
+Publish-Module -Path "./ColorScripts-Enhanced" `
+    -NuGetApiKey $nugetApiKeyPlain `
+    -Repository PSGallery
+```
+
+**Verification:**
+```powershell
+# Should appear in PowerShell Gallery after 5-10 minutes
+Find-Module -Name ColorScripts-Enhanced
+```
+
+### NuGet.org
+
+```powershell
+# Publish directly to NuGet
+dotnet nuget push "./dist/ColorScripts-Enhanced.*.nupkg" `
+    -k $nugetApiKey `
+    -s https://api.nuget.org/v3/index.json
+```
+
+### GitHub Packages
+
+```powershell
+# Register GitHub package source
+$owner = 'Nick2bad4u'
+$source = "https://nuget.pkg.github.com/$owner/index.json"
+
+Register-PSRepository -Name ColorScriptsEnhanced-GitHub `
+    -SourceLocation $source `
+    -PublishLocation $source `
+    -InstallationPolicy Trusted
+
+# Publish
+Publish-Module -Path "./ColorScripts-Enhanced" `
+    -Repository ColorScriptsEnhanced-GitHub `
+    -NuGetApiKey $githubToken
+```
+
+## Automated Publishing Workflow
+
+### GitHub Actions Execution
+
+The `.github/workflows/publish.yml` workflow:
+
+1. **Validates** - Runs smoke tests and linting
+2. **Builds** - Creates .nupkg package
+3. **Normalizes** - Embeds README, LICENSE, icon
+4. **Generates** - Creates changelog using git-cliff
+5. **Releases** - Creates GitHub release with changelog
+6. **Publishes** - Pushes to configured galleries
+
+### Manual Workflow Trigger
+
+```powershell
+# Via GitHub CLI
+gh workflow run publish.yml
+
+# With options
+gh workflow run publish.yml `
+    -f publishToNuGet=true `
+    -f publishToGitHub=true `
+    -f createRelease=true `
+    -f versionOverride="2025.10.30.1200"
+
+# Check status
+gh run list --workflow=publish.yml
+```
+
+## Versioning Strategy
+
+### Date-Based Versioning
+
+Format: `yyyy.MM.dd.HHmm`
+
+Example: `2025.10.30.1247`
+
+```powershell
+# Generate version automatically
+$version = (Get-Date -Format "yyyy.MM.dd.HHmm")
+Write-Host "Version: $version"
+```
+
+### Updating Version
+
+```powershell
+# Method 1: Direct update
+$manifestPath = "./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1"
+$version = "2025.10.30.1247"
+
+Update-ModuleManifest -Path $manifestPath -ModuleVersion $version
+
+# Method 2: Via build script
+.\scripts\build.ps1 -Version $version
+```
+
+## Release Notes Generation
+
+### Using git-cliff
+
+```powershell
+# Generate release notes for latest version
+npx git-cliff --unreleased
+
+# Generate for specific version
+npx git-cliff --tag v2025.10.30
+
+# Generate full changelog
+npx git-cliff --latest > CHANGELOG.md
+
+# Validate changelog
+npm run release:verify
+```
+
+## Post-Publishing Tasks
+
+### Verification
+
+```powershell
+# Wait 5-10 minutes for gallery sync
+
+# Check PowerShell Gallery
+Find-Module -Name ColorScripts-Enhanced | Select-Object Version
+
+# Test installation
+Install-Module -Name ColorScripts-Enhanced -Force -Verbose
+
+# Verify functionality
+Import-Module ColorScripts-Enhanced
+Show-ColorScript
+```
+
+### Announcement
+
+- [ ] Update GitHub releases page
+- [ ] Post to PowerShell community forums
+- [ ] Update project website
+- [ ] Announce on social media (optional)
+- [ ] Update documentation links
+
+## Troubleshooting Publication
+
+### Publish Fails
+
+**Issue**: Module won't publish to gallery
+
+```powershell
+# Check manifest syntax
+Test-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1
+
+# Validate version format
+# Should be: Major.Minor.Patch or date-based (2025.10.30)
+# NOT: year.month.day.minute with too many parts
+
+# Correct format if needed
+Update-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1 `
+    -ModuleVersion "2025.10.30"
+```
+
+**Issue**: "Already published" error
+
+```powershell
+# Increment version and retry
+Update-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1 `
+    -ModuleVersion "2025.10.31"
+```
+
+## Monitoring After Release
+
+### Track Downloads
+
+```powershell
+# Check PowerShell Gallery stats
+# https://www.powershellgallery.com/packages/ColorScripts-Enhanced
+
+# Track downloads programmatically
+$info = Invoke-RestMethod -Uri "https://www.powershellgallery.com/api/v2/Packages?`$filter=Id eq 'ColorScripts-Enhanced'" -ErrorAction SilentlyContinue
+$info.Entry | Select-Object Title, Version, @{N='Downloads'; E={$_.Properties.DownloadCount}}
+```
+
+### Track Issues
+
+```powershell
+# Monitor GitHub issues for post-release problems
+gh issue list --label "v2025.10.30" --state open
+
+# Track bug reports
+gh issue list --label "bug" --state open
+```
+
+##
+
+
 
 ## Additional Resources
 

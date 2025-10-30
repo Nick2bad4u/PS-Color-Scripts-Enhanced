@@ -14,23 +14,383 @@ PSScriptAnalyzerSettings.psd1  # Script analyzer ruleset
 Test-Module.ps1           # Smoke-test harness used during development
 ```
 
-## Tooling
+## Local Development Setup
 
-- **PowerShell 7.4** (recommended) and **PowerShell 5.1** (supported)
-- **Pester 5.4+** for testing
-- **PSScriptAnalyzer** for linting (`Lint-Module.ps1` helper script)
-- **PowerShell 7 ScriptAnalyzer Helper** (`scripts/Lint-PS7.ps1` runs analyzer with auto-fix exclusively on PS7+)
-- **PSResourceGet** or **PowerShellGet** for dependency management
-- **Nerd Font** (e.g., Cascadia Code NF) for validating glyph-heavy scripts like `nerd-font-test`
+### Prerequisites
 
-## npm Scripts
+- **PowerShell 7.4+** recommended (5.1 supported for testing)
+- **Node.js 18+** (for ANSI conversion scripts)
+- **Nerd Font** (for testing glyph-heavy scripts)
+- **Git** for version control
 
-We publish a set of convenience commands in `package.json` so you can run common workflows without memorising long PowerShell invocations. Each command accepts the usual `--` syntax for additional arguments.
+### Quick Setup
 
-| Command                                             | Purpose                                                                            |
-| --------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| `npm run build`                                     | Execute `build.ps1` to regenerate the manifest and refresh documentation counts.   |
-| `npm run lint`                                      | Run ScriptAnalyzer across the module.                                              |
+```powershell
+# Clone the repository
+git clone https://github.com/Nick2bad4u/ps-color-scripts-enhanced.git
+cd ps-color-scripts-enhanced
+
+# Install dependencies
+npm install
+
+# Run initial tests
+npm run build
+npm test
+```
+
+### Development Workflow
+
+```powershell
+# 1. Create feature branch
+git checkout -b feature/your-feature
+
+# 2. Make changes and test
+npm run lint
+npm test
+
+# 3. Update documentation
+npm run docs:update-counts
+
+# 4. Commit with conventional commits
+git commit -m "feat: add new colorscript"
+git push origin feature/your-feature
+
+# 5. Create pull request
+```
+
+## Adding New Colorscripts
+
+### Step 1: Create the Script File
+
+```powershell
+# File: ColorScripts-Enhanced/Scripts/my-awesome-script.ps1
+$esc = [char]27
+$reset = "$esc[0m"
+$red = "$esc[38;2;238;0;0m"
+
+Write-Host "${red}Your ASCII art here$reset"
+```
+
+### Step 2: Update Metadata
+
+Edit `ColorScripts-Enhanced/ScriptMetadata.psd1`:
+
+```powershell
+@{
+    'my-awesome-script' = @{
+        Category = 'Artistic'
+        Tags = @('Custom', 'Demo', 'Colorful')
+        Description = 'Beautiful artistic composition'
+    }
+}
+```
+
+### Step 3: Test
+
+```powershell
+# Direct test
+& .\ColorScripts-Enhanced\Scripts\my-awesome-script.ps1
+
+# Via module
+Show-ColorScript -Name my-awesome-script
+
+# With caching
+New-ColorScriptCache -Name my-awesome-script
+Show-ColorScript -Name my-awesome-script
+```
+
+## Editing Module Code
+
+### Structure Overview
+
+- **ColorScripts-Enhanced.psd1** - Module manifest (metadata)
+- **ColorScripts-Enhanced.psm1** - Main module implementation
+- **Install.ps1** - Installation helper
+- **Tests/** - Pester test suite
+- **scripts/** - Development utilities
+
+### Making Changes
+
+1. **Edit the main module** (`ColorScripts-Enhanced.psm1`)
+2. **Add function help** (comment-based help in code)
+3. **Update version** in `.psd1` manifest
+4. **Run linting**:
+   ```powershell
+   npm run lint
+   npm run lint:fix  # Apply auto-fixes
+   ```
+5. **Run tests**:
+   ```powershell
+   npm test
+   npm run test:pester
+   ```
+
+### Code Style Guidelines
+
+- **Naming**: Use PascalCase for functions, camelCase for variables
+- **Indentation**: 4 spaces (no tabs)
+- **Comments**: XML comment-based help on all public functions
+- **Errors**: Use proper try/catch with specific error messages
+- **Type**: Use type annotations where appropriate
+
+Example:
+
+```powershell
+<#
+.SYNOPSIS
+    Brief description
+
+.DESCRIPTION
+    Detailed description
+
+.PARAMETER Name
+    Parameter description
+
+.EXAMPLE
+    Show-ColorScript -Name "bars"
+
+.LINK
+    Get-Help about_ColorScripts-Enhanced
+#>
+function Show-ColorScript {
+    [CmdletBinding()]
+    param(
+        [Parameter(ValueFromPipeline)]
+        [string]$Name
+    )
+
+    process {
+        # Implementation here
+    }
+}
+```
+
+## Advanced Development Topics
+
+### Cache System Architecture
+
+The caching system works by:
+
+1. **Execution**: Script runs in isolated PowerShell process
+2. **Capture**: Output captured to cache file
+3. **Storage**: Cache stored in AppData with timestamp
+4. **Validation**: Compares script mtime with cache mtime
+5. **Retrieval**: Direct file read on subsequent calls
+
+```powershell
+# Study the cache implementation
+code ColorScripts-Enhanced/ColorScripts-Enhanced.psm1
+# Search for: function New-ColorScriptCache
+```
+
+### Performance Optimization
+
+Measure script performance:
+
+```powershell
+# Profile a colorscript
+Measure-Command { & .\ColorScripts-Enhanced\Scripts\mandelbrot-zoom.ps1 }
+
+# Compare cached vs uncached
+$uncached = Measure-Command { Show-ColorScript -Name mandelbrot-zoom -NoCache }
+$cached = Measure-Command { Show-ColorScript -Name mandelbrot-zoom }
+Write-Host "Improvement: $([math]::Round($uncached.TotalMilliseconds / $cached.TotalMilliseconds, 1))x"
+```
+
+### Debugging Tips
+
+```powershell
+# Enable verbose output
+$VerbosePreference = 'Continue'
+Show-ColorScript -Verbose
+
+# Debug cache operations
+Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" | Format-Table
+
+# Test configuration
+Get-ColorScriptConfiguration | ConvertTo-Json
+
+# Trace script execution
+Set-PSDebug -Trace 1
+& .\ColorScripts-Enhanced\Scripts\my-script.ps1
+Set-PSDebug -Trace 0
+```
+
+## Testing Strategy
+
+### Test Categories
+
+1. **Smoke Tests** - Quick module validation
+2. **Unit Tests** - Individual function testing
+3. **Integration Tests** - Multi-component workflows
+4. **Performance Tests** - Cache effectiveness
+5. **Compatibility Tests** - Cross-platform validation
+
+### Writing Tests
+
+```powershell
+# File: Tests/Show-ColorScript.Tests.ps1
+Describe 'Show-ColorScript' {
+    BeforeAll {
+        Import-Module .\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1 -Force
+    }
+
+    Context 'Basic Functionality' {
+        It 'should display random colorscript' {
+            { Show-ColorScript } | Should -Not -Throw
+        }
+
+        It 'should display specific colorscript' {
+            { Show-ColorScript -Name 'bars' } | Should -Not -Throw
+        }
+    }
+
+    Context 'Caching' {
+        It 'should create cache file' {
+            New-ColorScriptCache -Name 'test-script' -Force
+            Test-Path "$env:APPDATA\ColorScripts-Enhanced\cache\test-script.cache" | Should -Be $true
+        }
+    }
+}
+```
+
+### Running Tests
+
+```powershell
+# Run all tests
+npm run test:pester
+
+# Run specific test file
+Invoke-Pester -Path ./Tests/Show-ColorScript.Tests.ps1
+
+# With coverage report
+Invoke-Pester -Path ./Tests -CodeCoverage ColorScripts-Enhanced/ColorScripts-Enhanced.psm1
+```
+
+## CI/CD Insights
+
+### GitHub Actions Workflow
+
+The project uses automated testing across:
+
+- **Windows PowerShell 5.1** - Legacy compatibility
+- **PowerShell 7.x** - Cross-platform
+- **PowerShell 7.5 Preview** - Future compatibility
+
+See `.github/workflows/` for implementation details.
+
+### Local CI Simulation
+
+```powershell
+# Run the same tests as CI
+npm run verify
+
+# Or individually:
+npm run lint:strict
+npm test
+npm run test:pester
+```
+
+## Performance Considerations
+
+### Optimization Areas
+
+1. **Cache Building** - Parallelize if building 500+ scripts
+2. **Module Loading** - Lazy-load large collections
+3. **String Handling** - Use here-strings for large outputs
+4. **File I/O** - Buffer cache reads for faster access
+
+### Benchmarking
+
+```powershell
+# Create performance baseline
+$baseline = @()
+Get-ChildItem .\ColorScripts-Enhanced\Scripts -Filter *.ps1 | ForEach-Object {
+    $time = Measure-Command { & $_.FullName } | Select-Object -ExpandProperty TotalMilliseconds
+    $baseline += @{ Script = $_.BaseName; Time = $time }
+}
+
+# Compare after changes
+$baseline | Where-Object { $_.Time -gt 100 } | Format-Table  # Scripts taking >100ms
+```
+
+## Troubleshooting Development Issues
+
+### Module Won't Load
+
+```powershell
+# Check for syntax errors
+[System.Management.Automation.PSParser]::Tokenize((Get-Content .\ColorScripts-Enhanced.psm1), [ref]$null)
+
+# Reload module
+Remove-Module ColorScripts-Enhanced -Force -ErrorAction SilentlyContinue
+Import-Module .\ColorScripts-Enhanced -Verbose
+```
+
+### Tests Failing
+
+```powershell
+# Check test environment
+Get-Module ColorScripts-Enhanced
+Get-ExecutionPolicy
+$PSVersionTable
+
+# Run single test in verbose mode
+Invoke-Pester -Path ./Tests/Show-ColorScript.Tests.ps1 -Verbose
+```
+
+### Cache Issues
+
+```powershell
+# Clear all cache
+Clear-ColorScriptCache -All -Confirm:$false
+
+# Rebuild
+New-ColorScriptCache -Force
+
+# Verify
+Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" | Measure-Object
+```
+
+## Contributing Checklist
+
+Before submitting a pull request:
+
+- [ ] All tests pass: `npm run verify`
+- [ ] Linting clean: `npm run lint`
+- [ ] Help documentation updated
+- [ ] Version bumped if necessary
+- [ ] CHANGELOG.md updated
+- [ ] Documentation counts refreshed: `npm run docs:update-counts`
+- [ ] Commit messages follow conventional commits
+- [ ] Changes tested locally on multiple platforms
+
+## Resources
+
+- [PowerShell Docs](https://docs.microsoft.com/powershell/)
+- [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer)
+- [Pester Testing](https://pester.dev/)
+- [ANSI Escape Codes](https://en.wikipedia.org/wiki/ANSI_escape_code)
+
+## Repository Layout
+
+```
+ColorScripts-Enhanced/
+├── ColorScripts-Enhanced.psd1     # Module manifest
+├── ColorScripts-Enhanced.psm1     # Main implementation
+├── Install.ps1                    # Installation helper
+├── README.md                      # Main documentation
+├── ScriptMetadata.psd1           # Metadata for all colorscripts
+├── Scripts/                       # <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscript files
+├── Tests/                         # Pester test suite
+├── docs/                          # Extended documentation
+├── scripts/                       # Development utilities
+└── .github/                       # GitHub Actions workflows
+```
+
+---
+
+**Last Updated**: October 30, 2025
 | `npm run lint:strict`                               | Run lint with `-IncludeTests` and `-TreatWarningsAsErrors`.                        |
 | `npm run lint:fix`                                  | Attempt auto-fixes, then rerun lint.                                               |
 | `npm test`                                          | Execute the smoke-test harness (`Test-Module.ps1`).                                |

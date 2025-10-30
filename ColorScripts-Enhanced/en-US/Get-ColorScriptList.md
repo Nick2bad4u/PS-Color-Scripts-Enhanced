@@ -102,6 +102,105 @@ Get-ColorScriptList -Name blocks,pipes,matrix -AsObject | ForEach-Object { Show-
 
 Retrieves specific named scripts and executes each one in sequence, demonstrating pipeline integration with `Show-ColorScript`.
 
+### EXAMPLE 8
+
+```powershell
+# Count scripts by category for inventory purposes
+Get-ColorScriptList -AsObject |
+    Group-Object Category |
+    Select-Object Name, Count |
+    Sort-Object Count -Descending
+```
+
+Provides a summary of how many colorscripts exist in each category.
+
+### EXAMPLE 9
+
+```powershell
+# Find scripts with specific keywords in description
+$scripts = Get-ColorScriptList -AsObject
+$scripts |
+    Where-Object { $_.Description -match 'fractal|mandelbrot' } |
+    Select-Object Name, Category, Description
+```
+
+Searches for scripts based on their description content using pattern matching.
+
+### EXAMPLE 10
+
+```powershell
+# Export to CSV for external tool processing
+Get-ColorScriptList -AsObject -Detailed |
+    Select-Object Name, Category, Tags, Description |
+    Export-Csv -Path "./colorscripts-inventory.csv" -NoTypeInformation
+```
+
+Exports the complete colorscript inventory to CSV format for use in spreadsheet applications.
+
+### EXAMPLE 11
+
+```powershell
+# Check for scripts without specific category
+$allScripts = Get-ColorScriptList -AsObject
+$uncategorized = $allScripts | Where-Object { -not $_.Category }
+Write-Host "Uncategorized scripts: $($uncategorized.Count)"
+$uncategorized | Select-Object Name
+```
+
+Identifies scripts that are missing category metadata.
+
+### EXAMPLE 12
+
+```powershell
+# Build cache for filtered scripts
+Get-ColorScriptList -Tag Recommended -AsObject |
+    ForEach-Object {
+        New-ColorScriptCache -Name $_.Name -PassThru
+    } |
+    Format-Table Name, Status
+```
+
+Caches only the recommended scripts and shows the results of the caching operation.
+
+### EXAMPLE 13
+
+```powershell
+# Create a formatted report of all geometric scripts
+Get-ColorScriptList -Category Geometric -Detailed |
+    Out-String |
+    Tee-Object -FilePath "./geometric-report.txt"
+```
+
+Generates and saves a detailed report of geometric category colorscripts to a file.
+
+### EXAMPLE 14
+
+```powershell
+# Find the first script matching a pattern for quick display
+$script = Get-ColorScriptList -Name "aurora-*" -AsObject | Select-Object -First 1
+if ($script) {
+    Show-ColorScript -Name $script.Name -PassThru
+}
+```
+
+Quickly displays the first matching script based on a wildcard pattern.
+
+### EXAMPLE 15
+
+```powershell
+# Verify all referenced scripts exist before running automation
+$requiredScripts = @("bars", "arch", "mandelbrot-zoom")
+$available = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Name
+$missing = $requiredScripts | Where-Object { $_ -notin $available }
+if ($missing) {
+    Write-Warning "Missing scripts: $($missing -join ', ')"
+} else {
+    Write-Host "All required scripts are available"
+}
+```
+
+Validates that all required scripts exist before automation runs.
+
 ## PARAMETERS
 
 ### -AsObject
@@ -248,6 +347,128 @@ When `-AsObject` is specified, returns colorscript metadata record objects with 
 
 Without `-AsObject`, the cmdlet writes a formatted table to the host while still returning the record objects for potential pipeline processing.
 
+## ADVANCED USAGE PATTERNS
+
+### Dynamic Filtering
+
+**Multi-Criteria Filtering**
+```powershell
+# Find animated scripts that are colorful
+Get-ColorScriptList -AsObject |
+    Where-Object {
+        $_.Tags -contains 'Animated' -and
+        $_.Tags -contains 'Colorful'
+    }
+
+# Find scripts in Nature category but exclude simple ones
+Get-ColorScriptList -Category Nature -AsObject |
+    Where-Object { $_.Tags -notcontains 'Simple' }
+```
+
+**Fuzzy Matching**
+```powershell
+# Find scripts similar to a name pattern
+$search = "wave"
+Get-ColorScriptList -AsObject |
+    Where-Object { $_.Name -like "*$search*" } |
+    Select-Object Name, Category
+```
+
+### Data Analysis
+
+**Category Distribution**
+```powershell
+# Analyze how scripts are distributed across categories
+$analysis = Get-ColorScriptList -AsObject |
+    Group-Object Category |
+    Select-Object @{N='Category'; E={$_.Name}}, @{N='Count'; E={$_.Count}}, @{N='Percentage'; E={[math]::Round($_.Count / (Get-ColorScriptList -AsObject).Count * 100)}}
+
+$analysis | Sort-Object Count -Descending | Format-Table
+```
+
+**Tag Frequency Analysis**
+```powershell
+# Determine most common tags
+Get-ColorScriptList -AsObject |
+    ForEach-Object { $_.Tags } |
+    Group-Object |
+    Sort-Object Count -Descending |
+    Format-Table Name, Count
+```
+
+### Integration Workflows
+
+**Playlist Creation**
+```powershell
+# Create a "favorite" playlist
+$playlist = Get-ColorScriptList -AsObject |
+    Where-Object { $_.Tags -contains 'Recommended' } |
+    Select-Object -ExpandProperty Name
+
+# Display playlist
+$playlist | ForEach-Object {
+    Write-Host "Showing: $_"
+    Show-ColorScript -Name $_
+    Start-Sleep -Seconds 2
+}
+```
+
+**Metadata Export for Web**
+```powershell
+# Export detailed metadata
+$web = Get-ColorScriptList -AsObject |
+    Select-Object Name, Category, Tags, Description |
+    ConvertTo-Json
+
+$web | Out-File "./scripts.json" -Encoding UTF8
+```
+
+**Validation and Health Check**
+```powershell
+# Health check on all scripts
+$health = Get-ColorScriptList -AsObject |
+    ForEach-Object {
+        $cached = Test-Path "$env:APPDATA\ColorScripts-Enhanced\cache\$($_.Name).cache"
+        [PSCustomObject]@{
+            Name = $_.Name
+            Category = $_.Category
+            Cached = $cached
+            TagCount = $_.Tags.Count
+        }
+    }
+
+$uncached = @($health | Where-Object { -not $_.Cached })
+Write-Host "Scripts without cache: $($uncached.Count)"
+$uncached | Format-Table Name, Category
+```
+
+## PERFORMANCE CONSIDERATIONS
+
+### Query Optimization
+
+**Filter Early**
+```powershell
+# Faster: Filter by category first
+Get-ColorScriptList -Category Geometric -AsObject |
+    Where-Object { $_.Name -like "*spiral*" }
+
+# Slower: Get all then filter
+Get-ColorScriptList -AsObject |
+    Where-Object { $_.Category -eq "Geometric" -and $_.Name -like "*spiral*" }
+```
+
+**Use Appropriate Output Format**
+```powershell
+# For exploration: Detailed display
+Get-ColorScriptList -Detailed
+
+# For automation: Object format
+Get-ColorScriptList -AsObject
+
+# For piping: AsObject to pipeline
+Get-ColorScriptList -AsObject | ForEach-Object { ... }
+```
+
 ## NOTES
 
 **Author**: Nick
@@ -260,9 +481,21 @@ All filtering operations (Name, Category, Tag) are case-insensitive and can be c
 
 For best results when integrating colorscripts into your PowerShell profile, use the `-Tag Recommended` filter to identify curated scripts suitable for startup display.
 
+### Best Practices
+
+- Always use `-AsObject` when you need to filter or manipulate results programmatically
+- Use `-Detailed` when exploring interactively to see tags and descriptions
+- Combine multiple filters for precise queries
+- Export metadata periodically to track changes over time
+- Use result objects for automation rather than parsing text output
+- Consider performance when running queries repeatedly (cache results if possible)
+- Leverage Group-Object for analysis and reporting
+- Use Where-Object for complex filtering logic
+
 ## RELATED LINKS
 
 - [Show-ColorScript](Show-ColorScript.md)
 - [New-ColorScriptCache](New-ColorScriptCache.md)
+- [Export-ColorScriptMetadata](Export-ColorScriptMetadata.md)
 - [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
 - [Module Repository](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)

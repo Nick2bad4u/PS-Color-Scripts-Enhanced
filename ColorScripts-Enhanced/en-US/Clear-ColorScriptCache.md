@@ -95,6 +95,69 @@ Clear-ColorScriptCache -Name 'test-*', 'demo-*' -Confirm:$false
 
 Removes cache files for all scripts whose names begin with 'test-' or 'demo-' without confirmation. Multiple wildcard patterns can be specified as an array.
 
+### EXAMPLE 7
+
+```powershell
+# Clean cache and rebuild for optimization
+Clear-ColorScriptCache -All -Confirm:$false
+New-ColorScriptCache -PassThru | Measure-Object
+Write-Host "Cache rebuilt successfully"
+```
+
+Performs a complete cache refresh by clearing all and rebuilding, then shows statistics.
+
+### EXAMPLE 8
+
+```powershell
+# Clear old cache entries older than 30 days
+$cacheDir = "$env:APPDATA\ColorScripts-Enhanced\cache"
+$thirtyDaysAgo = (Get-Date).AddDays(-30)
+Get-ChildItem $cacheDir -Filter "*.cache" |
+    Where-Object { $_.LastWriteTime -lt $thirtyDaysAgo } |
+    ForEach-Object {
+        Clear-ColorScriptCache -Name $_.BaseName -Confirm:$false
+    }
+Write-Host "Old cache files cleaned"
+```
+
+Removes cache files that haven't been updated in more than 30 days.
+
+### EXAMPLE 9
+
+```powershell
+# Cache management report
+$cacheDir = "$env:APPDATA\ColorScripts-Enhanced\cache"
+$beforeCount = @(Get-ChildItem $cacheDir -Filter "*.cache" -ErrorAction SilentlyContinue).Count
+Clear-ColorScriptCache -Category Geometric -Confirm:$false
+$afterCount = @(Get-ChildItem $cacheDir -Filter "*.cache" -ErrorAction SilentlyContinue).Count
+Write-Host "Cleared $($beforeCount - $afterCount) geometric cache files"
+```
+
+Shows statistics about cache clearing operations.
+
+### EXAMPLE 10
+
+```powershell
+# Troubleshooting - clear and rebuild specific script
+$scriptName = "mandelbrot-zoom"
+Clear-ColorScriptCache -Name $scriptName -Confirm:$false
+New-ColorScriptCache -Name $scriptName -Force
+Show-ColorScript -Name $scriptName
+```
+
+Clears and rebuilds cache for a single script, then displays it for verification.
+
+### EXAMPLE 11
+
+```powershell
+# Filter by multiple categories
+Clear-ColorScriptCache -Category Geometric,Abstract -DryRun |
+    Select-Object CacheFile |
+    Measure-Object
+```
+
+Shows how many cache files would be deleted if filtering by multiple categories.
+
 ## PARAMETERS
 
 ### -All
@@ -299,6 +362,134 @@ Returns status records for each processed cache file. Each output object contain
 - **Message**: Descriptive text explaining the outcome of the operation
 - **ScriptName**: The name of the script associated with the cache file
 
+## ADVANCED USAGE PATTERNS
+
+### Cache Maintenance Strategies
+
+**Full Cache Rebuild**
+```powershell
+# Complete cache refresh
+Clear-ColorScriptCache -All -Confirm:$false
+New-ColorScriptCache -Force
+Write-Host "Cache rebuilt successfully"
+```
+
+**Targeted Cache Cleaning**
+```powershell
+# Clear only obsolete entries
+Clear-ColorScriptCache -Name "deprecated-*", "test-*" -Confirm:$false
+
+# Verify what would be removed first
+Clear-ColorScriptCache -Name "draft-*" -DryRun
+```
+
+**Age-Based Cleanup**
+```powershell
+# Clear cache files older than 60 days
+$cacheDir = (Get-ColorScriptConfiguration).Cache.Path
+$cutoffDate = (Get-Date).AddDays(-60)
+
+Get-ChildItem $cacheDir -Filter "*.cache" |
+    Where-Object { $_.LastWriteTime -lt $cutoffDate } |
+    ForEach-Object {
+        Clear-ColorScriptCache -Name $_.BaseName -Confirm:$false
+    }
+```
+
+### Category and Tag Based Cleaning
+
+**Clear by Metadata**
+```powershell
+# Remove caches for experimental category
+Clear-ColorScriptCache -Category Experimental -Confirm:$false
+
+# Clear outdated tag
+Clear-ColorScriptCache -Tag deprecated -Confirm:$false
+
+# Clear multiple categories at once
+Clear-ColorScriptCache -Category @("Demo", "Test", "Draft") -Confirm:$false
+```
+
+**Selective Preservation**
+```powershell
+# Keep only recommended scripts, clear everything else
+$keep = Get-ColorScriptList -Tag Recommended -AsObject | Select-Object -ExpandProperty Name
+$all = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Name
+$remove = $all | Where-Object { $_ -notin $keep }
+
+$remove | ForEach-Object { Clear-ColorScriptCache -Name $_ -Confirm:$false }
+```
+
+### Performance and Reporting
+
+**Cache Usage Analysis**
+```powershell
+# Analyze cache before cleanup
+$cacheDir = (Get-ColorScriptConfiguration).Cache.Path
+$before = (Get-ChildItem $cacheDir -Filter "*.cache" | Measure-Object -Property Length -Sum).Sum
+
+Clear-ColorScriptCache -Category Demo -DryRun
+Write-Host "Current cache size: $([math]::Round($before / 1MB, 2)) MB"
+```
+
+**Cleanup Report**
+```powershell
+# Generate report of cleanup operations
+$report = Clear-ColorScriptCache -Name "test-*", "debug-*" -Confirm:$false
+$report | Group-Object Status | ForEach-Object {
+    Write-Host "$($_.Name): $($_.Count) items"
+}
+```
+
+**Space Recovery**
+```powershell
+# Calculate disk space freed
+$before = (Get-ChildItem (Get-ColorScriptConfiguration).Cache.Path -Filter "*.cache" | Measure-Object -Property Length -Sum).Sum
+Clear-ColorScriptCache -All -Confirm:$false
+$after = (Get-ChildItem (Get-ColorScriptConfiguration).Cache.Path -Filter "*.cache" -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum).Sum
+
+Write-Host "Freed: $([math]::Round(($before - $after) / 1MB, 2)) MB"
+```
+
+### CI/CD and Deployment
+
+**Pre-Build Cache Cleanup**
+```powershell
+# Clean build: clear all cache before rebuilding
+Clear-ColorScriptCache -All -Confirm:$false
+New-ColorScriptCache -Tag Recommended -Force
+Write-Host "Cache ready for deployment"
+```
+
+**Selective Cache Persistence**
+```powershell
+# Keep production scripts, clear development
+Clear-ColorScriptCache -Tag "development,experimental" -Confirm:$false
+
+# Preserve cache for critical scripts
+$critical = @("bars", "arch", "mandelbrot-zoom")
+$scripts = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Name
+$toRemove = $scripts | Where-Object { $_ -notin $critical }
+$toRemove | ForEach-Object { Clear-ColorScriptCache -Name $_ -Confirm:$false }
+```
+
+### Troubleshooting
+
+**Verification Workflow**
+```powershell
+# Verify cache issues and fix
+$problemScripts = Get-ColorScriptList -AsObject |
+    Where-Object {
+        -not (Test-Path "$env:APPDATA\ColorScripts-Enhanced\cache\$($_.Name).cache")
+    }
+
+Write-Host "Scripts without cache: $($problemScripts.Count)"
+$problemScripts | ForEach-Object {
+    Write-Host "Rebuilding: $($_.Name)"
+    New-ColorScriptCache -Name $_.Name -Force
+}
+```
+
 ## NOTES
 
 **Author**: Nick
@@ -314,9 +505,27 @@ When using `-DryRun` or `-WhatIf`, the cmdlet will still validate that the cache
 
 Filtering by `-Category` or `-Tag` requires that the scripts have associated metadata. Scripts without metadata will not match these filters.
 
+### Best Practices
+
+- Always use `-DryRun` or `-WhatIf` before destructive operations
+- Use `-Confirm:$false` only when you're certain about the operation
+- Archive cache before major cleanup operations for recovery
+- Monitor disk space regularly for cache growth
+- Use selective cleaning instead of full clearing when possible
+- Keep track of critical scripts that shouldn't be cleared
+- Schedule automated cleanups during maintenance windows
+- Test cleanup operations in non-production first
+
+### Troubleshooting
+
+- **"No cache files found"**: Use `-AsObject` to verify which scripts have caches
+- **"Permission denied"**: Verify write access to cache directory
+- **"Cache not regenerating"**: Scripts may have rendering issues; test with `-NoCache`
+
 ## RELATED LINKS
 
 - [Show-ColorScript](Show-ColorScript.md)
 - [New-ColorScriptCache](New-ColorScriptCache.md)
 - [Get-ColorScriptList](Get-ColorScriptList.md)
+- [Get-ColorScriptConfiguration](Get-ColorScriptConfiguration.md)
 - [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)

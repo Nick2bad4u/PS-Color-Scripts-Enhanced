@@ -76,6 +76,32 @@ Reset-ColorScriptConfiguration -Verbose
 
 Resets the configuration with verbose output to see detailed information about the operation.
 
+### EXAMPLE 5
+
+```powershell
+# Reset configuration and clear cache for complete factory reset
+Reset-ColorScriptConfiguration -Confirm:$false
+Clear-ColorScriptCache -All -Confirm:$false
+New-ColorScriptCache
+Write-Host "Module reset to factory defaults!"
+```
+
+Performs a complete factory reset including configuration, cache, and rebuilding the cache.
+
+### EXAMPLE 6
+
+```powershell
+# Verify reset was successful
+$config = Reset-ColorScriptConfiguration -PassThru
+if ($config.Cache.Path -match "AppData|\.config") {
+    Write-Host "Configuration successfully reset to platform default"
+} else {
+    Write-Host "Configuration reset but using custom path: $($config.Cache.Path)"
+}
+```
+
+Resets and verifies that the configuration was restored to defaults by checking the cache path.
+
 ## PARAMETERS
 
 ### -Confirm

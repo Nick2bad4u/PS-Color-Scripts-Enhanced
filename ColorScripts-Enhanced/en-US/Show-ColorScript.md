@@ -170,6 +170,95 @@ Show-ColorScript -List -Category Art,Abstract
 
 Lists only colorscripts categorized as "Art" or "Abstract", helping you discover scripts within specific themes.
 
+### EXAMPLE 14
+
+```powershell
+# Measure performance improvement from caching
+$uncached = Measure-Command { Show-ColorScript -Name spectrum -NoCache }
+$cached = Measure-Command { Show-ColorScript -Name spectrum }
+Write-Host "Uncached: $($uncached.TotalMilliseconds)ms | Cached: $($cached.TotalMilliseconds)ms | Speedup: $([math]::Round($uncached.TotalMilliseconds / $cached.TotalMilliseconds, 1))x"
+```
+
+Demonstrates the performance improvement that caching provides by measuring execution time.
+
+### EXAMPLE 15
+
+```powershell
+# Set up daily rotation of different colorscripts
+$seed = (Get-Date).DayOfYear
+Get-Random -SetSeed $seed
+Show-ColorScript -Random -PassThru | Select-Object Name
+```
+
+Displays a consistent but different colorscript each day based on the date.
+
+### EXAMPLE 16
+
+```powershell
+# Export rendered colorscript to file for sharing
+Show-ColorScript -Name "aurora-waves" -ReturnText |
+    Out-File -FilePath "./aurora.ansi" -Encoding UTF8
+
+# Later, display the saved file
+Get-Content "./aurora.ansi" -Raw | Write-Host
+```
+
+Saves a rendered colorscript to a file that can be displayed later or shared with others.
+
+### EXAMPLE 17
+
+```powershell
+# Create a slideshow of geometric colorscripts
+Get-ColorScriptList -Category Geometric -AsObject |
+    ForEach-Object {
+        Show-ColorScript -Name $_.Name
+        Start-Sleep -Seconds 3
+    }
+```
+
+Automatically displays a sequence of geometric colorscripts with 3-second delays between each.
+
+### EXAMPLE 18
+
+```powershell
+# Error handling example
+try {
+    Show-ColorScript -Name "nonexistent-script" -ErrorAction Stop
+} catch {
+    Write-Warning "Script not found: $_"
+    Show-ColorScript  # Fallback to random
+}
+```
+
+Demonstrates error handling when requesting a script that doesn't exist.
+
+### EXAMPLE 19
+
+```powershell
+# Build automation integration
+if ($env:CI) {
+    Show-ColorScript -Name "nerd-font-test" -NoCache
+} else {
+    Show-ColorScript  # Random display for interactive use
+}
+```
+
+Shows how to conditionally display different colorscripts in CI/CD environments vs. interactive sessions.
+
+### EXAMPLE 20
+
+```powershell
+# Scheduled task for terminal greeting
+$scriptPath = "$(Get-Module ColorScripts-Enhanced).ModuleBase\Scripts\mandelbrot-zoom.ps1"
+if (Test-Path $scriptPath) {
+    & $scriptPath
+} else {
+    Show-ColorScript -Name mandelbrot-zoom
+}
+```
+
+Demonstrates running a specific colorscript as part of scheduled task or startup automation.
+
 ## PARAMETERS
 
 ### -All
@@ -441,9 +530,221 @@ The intelligent caching system provides 6-19x performance improvements over dire
 **Compatibility:**
 Colorscripts use ANSI escape sequences and display best in terminals with full color support, such as Windows Terminal, ConEmu, or modern Unix terminals.
 
+## ADVANCED USAGE
+
+### Filtering Strategies
+
+**By Category and Tag Combination**
+```powershell
+# Show only geometric colorscripts tagged as minimal
+Show-ColorScript -Category Geometric -Tag minimal -Random
+
+# Show only recommended colorscripts from nature category
+Show-ColorScript -Category Nature -Tag Recommended -Random
+
+# Display multiple categories with specific tag
+Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
+```
+
+**Dynamic Filtering Based on Time**
+```powershell
+# Morning: bright colors
+if ((Get-Date).Hour -lt 12) {
+    Show-ColorScript -Tag bright,colorful -Random
+}
+# Evening: darker palettes
+else {
+    Show-ColorScript -Tag dark,minimal -Random
+}
+```
+
+### Output Capture Patterns
+
+**Save for Later Viewing**
+```powershell
+# Save to variable
+$art = Show-ColorScript -Name spectrum -ReturnText
+$art | Out-File "./my-art.ansi" -Encoding UTF8
+
+# Later display
+Get-Content "./my-art.ansi" -Raw | Write-Host
+```
+
+**Create Themed Collections**
+```powershell
+# Collect all geometric scripts
+$geometric = Get-ColorScriptList -Category Geometric -AsObject
+
+# Save each one
+$geometric | ForEach-Object {
+    Show-ColorScript -Name $_.Name -ReturnText |
+        Out-File "./collection/$($_.Name).ansi" -Encoding UTF8
+}
+```
+
+### Performance Analysis
+
+**Comprehensive Benchmark**
+```powershell
+# Function to benchmark colorscript performance
+function Measure-ColorScriptPerformance {
+    param([string]$Name)
+
+    # Warm up cache
+    Show-ColorScript -Name $Name | Out-Null
+
+    # Cached performance
+    $cached = Measure-Command { Show-ColorScript -Name $Name }
+
+    # Uncached performance
+    Clear-ColorScriptCache -Name $Name -Confirm:$false
+    $uncached = Measure-Command { Show-ColorScript -Name $Name -NoCache }
+
+    [PSCustomObject]@{
+        Script = $Name
+        Cached = $cached.TotalMilliseconds
+        Uncached = $uncached.TotalMilliseconds
+        Improvement = [math]::Round($uncached.TotalMilliseconds / $cached.TotalMilliseconds, 2)
+    }
+}
+
+# Test multiple scripts
+Get-ColorScriptList -Category Geometric -AsObject |
+    ForEach-Object { Measure-ColorScriptPerformance -Name $_.Name }
+```
+
+### Terminal Customization
+
+**Terminal-Specific Display**
+```powershell
+# Windows Terminal with ANSI support
+if ($env:WT_SESSION) {
+    Show-ColorScript -Category Abstract -Random  # Maximum colors
+}
+
+# VS Code terminal
+if ($env:TERM_PROGRAM -eq "vscode") {
+    Show-ColorScript -Tag simple  # Avoid complex rendering
+}
+
+# SSH session (potentially limited)
+if ($env:SSH_CONNECTION) {
+    Show-ColorScript -NoCache -Category Simple  # Minimal overhead
+}
+
+# ConEmu terminal
+if ($env:ConEmuANSI -eq "ON") {
+    Show-ColorScript -Random  # Full ANSI support
+}
+```
+
+### Automation Integration
+
+**Scheduled Colorscript Rotation**
+```powershell
+# Create scheduled task wrapper
+function Start-ColorScriptSession {
+    param(
+        [int]$MaxScripts = 5,
+        [string[]]$Categories = @("Geometric", "Nature"),
+        [int]$DelaySeconds = 2
+    )
+
+    Get-ColorScriptList -Category $Categories -AsObject |
+        Select-Object -First $MaxScripts |
+        ForEach-Object {
+            Write-Host "`n=== $($_.Name) ($($_.Category)) ===" -ForegroundColor Cyan
+            Show-ColorScript -Name $_.Name
+            Start-Sleep -Seconds $DelaySeconds
+        }
+}
+```
+
+### Error Handling and Resilience
+
+**Graceful Fallback**
+```powershell
+# Try specific script, fallback to random
+try {
+    Show-ColorScript -Name "specific-script" -ErrorAction Stop
+} catch {
+    Write-Warning "Specific script not found, showing random"
+    Show-ColorScript -Random
+}
+```
+
+**Validation Before Display**
+```powershell
+# Verify script exists before displaying
+$scripts = Get-ColorScriptList -AsObject
+$scriptName = "aurora-waves"
+
+if ($scriptName -in $scripts.Name) {
+    Show-ColorScript -Name $scriptName
+} else {
+    Write-Error "$scriptName not found"
+    Get-ColorScriptList | Out-Host
+}
+```
+
+### Metadata Inspection
+
+**Inspect Before Displaying**
+```powershell
+# Get metadata while displaying
+$metadata = Show-ColorScript -Name aurora-waves -PassThru
+
+Write-Host "`nScript Details:`n"
+$metadata | Select-Object Name, Category, Tags, Description | Format-List
+
+# Use metadata for decisions
+if ($metadata.Tags -contains "Animated") {
+    Write-Host "This is an animated script"
+}
+```
+
+## NOTES
+
+**Author:** Nick
+**Module:** ColorScripts-Enhanced
+**Requires:** PowerShell 5.1 or later
+
+**Performance:**
+The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
+
+**Cache Management:**
+- Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
+- Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
+- Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
+- Inspect cache: Cache files are plain text and can be viewed directly
+
+**Advanced Tips:**
+- Use `-PassThru` to get metadata while displaying for post-processing
+- Combine `-ReturnText` with pipeline commands for advanced text manipulation
+- Use `-NoCache` during development of custom colorscripts for immediate feedback
+- Filter by multiple categories/tags for more precise selection
+- Store frequently-used scripts in variables for quick access
+- Use `-List` with `-Category` and `-Tag` to explore available content
+- Monitor cache hits with performance measurements
+- Consider terminal capabilities when selecting scripts
+- Use environment variables to customize behavior per environment
+- Implement error handling for automated display scenarios
+
+**Terminal Compatibility Matrix:**
+
+| Terminal | ANSI Support | UTF-8 | Performance | Notes |
+|----------|---------|-------|-----------|-------|
+| Windows Terminal | ✓ Excellent | ✓ Full | Excellent | Recommended |
+| ConEmu | ✓ Good | ✓ Full | Good | Legacy but reliable |
+| VS Code | ✓ Good | ✓ Full | Very Good | Slight rendering delay |
+| PowerShell ISE | ✗ Limited | ✗ Limited | N/A | Not recommended |
+| SSH Terminal | ✓ Varies | ✓ Depends | Varies | Network latency may affect |
+| Windows 10 Console | ✗ No | ✓ Yes | N/A | Not recommended |
+
 ## RELATED LINKS
 
 - [Get-ColorScriptList](Get-ColorScriptList.md)
 - [New-ColorScriptCache](New-ColorScriptCache.md)
 - [Clear-ColorScriptCache](Clear-ColorScriptCache.md)
+- [Export-ColorScriptMetadata](Export-ColorScriptMetadata.md)
 - [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)

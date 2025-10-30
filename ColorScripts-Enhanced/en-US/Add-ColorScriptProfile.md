@@ -79,6 +79,74 @@ Add-ColorScriptProfile -Force
 
 This appends the snippet again, even if the profile already contains an import statement for ColorScripts-Enhanced.
 
+### EXAMPLE 5
+
+Setup on a new machine - create profile if needed and add ColorScripts to all hosts.
+
+```powershell
+$profileExists = Test-Path $PROFILE.CurrentUserAllHosts
+if (-not $profileExists) {
+    New-Item -Path $PROFILE.CurrentUserAllHosts -ItemType File -Force | Out-Null
+}
+Add-ColorScriptProfile -Scope CurrentUserAllHosts -Confirm:$false
+Write-Host "Profile configured! Restart your terminal to see colorscripts on startup."
+```
+
+### EXAMPLE 6
+
+Add with a specific colorscript for display (add manually after this command):
+
+```powershell
+Add-ColorScriptProfile -SkipStartupScript
+# Then manually edit $PROFILE to add:
+# Show-ColorScript -Name mandelbrot-zoom
+```
+
+### EXAMPLE 7
+
+Verify profile was added correctly:
+
+```powershell
+Add-ColorScriptProfile
+Get-Content $PROFILE.CurrentUserAllHosts | Select-String "ColorScripts-Enhanced"
+```
+
+### EXAMPLE 8
+
+Add to specific profile scope targeting current host only:
+
+```powershell
+# For Windows Terminal or ConEmu only
+Add-ColorScriptProfile -Scope CurrentUserCurrentHost
+
+# For all PowerShell hosts (ISE, VSCode, Console)
+Add-ColorScriptProfile -Scope CurrentUserAllHosts
+```
+
+### EXAMPLE 9
+
+Using relative paths and tilde expansion:
+
+```powershell
+# Using tilde expansion for home directory
+Add-ColorScriptProfile -Path "~/Documents/PowerShell/profile.ps1"
+
+# Using current directory relative path
+Add-ColorScriptProfile -Path ".\my-profile.ps1"
+```
+
+### EXAMPLE 10
+
+Display daily different colorscript by adding custom logic:
+
+```powershell
+Add-ColorScriptProfile -SkipStartupScript
+# Then add this to $PROFILE manually:
+# $seed = (Get-Date).DayOfYear
+# Get-Random -SetSeed $seed
+# Show-ColorScript
+```
+
 ## PARAMETERS
 
 ### -Confirm
