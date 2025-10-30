@@ -286,7 +286,7 @@ The cmdlet returns a custom object with the following properties:
 1. Use `New-ColorScript` to create the scaffold
 2. Edit the generated .ps1 file to add your ANSI art
 3. If metadata guidance was generated, copy it to `ScriptMetadata.psd1`
-4. Run `Build-ColorScriptCache` to rebuild the module's cache
+4. Run `New-ColorScriptCache` to rebuild the module's cache
 5. Test your script with `Show-ColorScript -Name <your-script-name>`
 
 **Best Practices**:
@@ -298,7 +298,7 @@ The cmdlet returns a custom object with the following properties:
 ## RELATED LINKS
 
 - [Export-ColorScriptMetadata](Export-ColorScriptMetadata.md)
-- [Build-ColorScriptCache](Build-ColorScriptCache.md)
+- [New-ColorScriptCache](New-ColorScriptCache.md)
 - [Show-ColorScript](Show-ColorScript.md)
 - [Get-ColorScriptList](Get-ColorScriptList.md)
 - [ScriptMetadata.psd1](../ScriptMetadata.psd1)

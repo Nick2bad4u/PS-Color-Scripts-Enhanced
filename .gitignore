@@ -348,5 +348,4 @@ coverage.xml
 coverage-report/
 testResults.xml
 test-results.xml
-*.coverage
 !dist

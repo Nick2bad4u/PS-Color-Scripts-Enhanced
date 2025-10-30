@@ -13,7 +13,7 @@ Import-Module ColorScripts-Enhanced
 | -------------------------------- | ----- | ------------------------------------ |
 | `Show-ColorScript`               | `scs` | Display colorscripts                 |
 | `Get-ColorScriptList`            | -     | List available scripts               |
-| `Build-ColorScriptCache`         | -     | Pre-generate cache                   |
+| `New-ColorScriptCache`         | -     | Pre-generate cache                   |
 | `Clear-ColorScriptCache`         | -     | Remove cache files                   |
 | `Add-ColorScriptProfile`         | -     | Append module import/startup snippet |
 | `Get-ColorScriptConfiguration`   | -     | Inspect persisted defaults           |
@@ -57,16 +57,16 @@ Get-ColorScriptList -Tag Recommended
 
 ```powershell
 # Cache all scripts
-Build-ColorScriptCache
+New-ColorScriptCache
 
 # Cache specific scripts
-Build-ColorScriptCache -Name hearts,bars,arch
+New-ColorScriptCache -Name hearts,bars,arch
 
 # Force rebuild
-Build-ColorScriptCache -Force
+New-ColorScriptCache -Force
 ```
 
-> Running `Build-ColorScriptCache` without parameters caches the entire collection (the same as using `-All`).
+> Running `New-ColorScriptCache` without parameters caches the entire collection (the same as using `-All`).
 
 ### Clear Cache
 
@@ -186,7 +186,7 @@ Add-ColorScriptProfile -Scope CurrentUserCurrentHost
 
 - **First Run**: ~50-300ms (builds cache)
 - **Cached Run**: ~8-16ms (6-19x faster!)
-- **Pre-build cache**: `Build-ColorScriptCache`
+- **Pre-build cache**: `New-ColorScriptCache`
 - **Cache location**: `$env:APPDATA\ColorScripts-Enhanced\cache`
 
 ## Script Categories
@@ -227,10 +227,10 @@ Get-ColorScriptList
   [-Detailed]
 ```
 
-### Build-ColorScriptCache
+### New-ColorScriptCache
 
 ```powershell
-Build-ColorScriptCache
+New-ColorScriptCache
   [-Name <String[]>]    # Specific scripts
   [-All]                # All scripts
   [-Force]              # Rebuild existing cache
@@ -311,7 +311,7 @@ Write-Host "Total cache size: $([math]::Round(($caches | Measure-Object Length -
 
 # Clear and rebuild cache
 Clear-ColorScriptCache -All
-Build-ColorScriptCache
+New-ColorScriptCache
 ```
 
 ### Cache not working
@@ -328,14 +328,14 @@ Test-Path "~/Library/Application Support/ColorScripts-Enhanced/cache"
 Test-Path "~/.cache/ColorScripts-Enhanced"
 
 # Rebuild specific cache
-Build-ColorScriptCache -Name bars -Force
+New-ColorScriptCache -Name bars -Force
 ```
 
 ### Performance issues
 
 ```powershell
 # Pre-build all caches (one-time)
-Build-ColorScriptCache
+New-ColorScriptCache
 
 # Verify cache exists
 Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" | Measure-Object

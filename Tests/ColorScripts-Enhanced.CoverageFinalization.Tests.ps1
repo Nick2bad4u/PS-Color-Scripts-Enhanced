@@ -577,7 +577,7 @@
         }
     }
 
-    Context "Build-ColorScriptCache ShouldProcess" {
+    Context "New-ColorScriptCache ShouldProcess" {
         It "reports skipped status when ShouldProcess declines" {
             $result = InModuleScope ColorScripts-Enhanced {
                 $script:CacheDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
@@ -591,7 +591,7 @@
                     if ($action -like 'Build cache for*') { $true } else { $false }
                 }
 
-                Build-ColorScriptCache -Name 'bars' -PassThru
+                New-ColorScriptCache -Name 'bars' -PassThru
             }
 
             $resultArray = @($result)

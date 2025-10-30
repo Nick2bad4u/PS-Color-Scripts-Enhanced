@@ -428,7 +428,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 **Cache Management:**
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
-- Rebuild cache: Use `Build-ColorScriptCache` to pre-populate cache for all scripts
+- Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 **Tips:**
@@ -444,6 +444,6 @@ Colorscripts use ANSI escape sequences and display best in terminals with full c
 ## RELATED LINKS
 
 - [Get-ColorScriptList](Get-ColorScriptList.md)
-- [Build-ColorScriptCache](Build-ColorScriptCache.md)
+- [New-ColorScriptCache](New-ColorScriptCache.md)
 - [Clear-ColorScriptCache](Clear-ColorScriptCache.md)
 - [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)

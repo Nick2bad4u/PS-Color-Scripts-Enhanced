@@ -51,14 +51,14 @@ Lists all available colorscripts in a formatted view.
 Get-ColorScriptList
 ```
 
-### 3. Build-ColorScriptCache
+### 3. New-ColorScriptCache
 
 Pre-generates cache files for faster performance.
 
 ```powershell
-Build-ColorScriptCache                      # Cache all scripts (default)
-Build-ColorScriptCache -Name "bars","hearts" # Cache specific
-Build-ColorScriptCache -Force               # Force rebuild
+New-ColorScriptCache                      # Cache all scripts (default)
+New-ColorScriptCache -Name "bars","hearts" # Cache specific
+New-ColorScriptCache -Force               # Force rebuild
 ```
 
 ### 4. Clear-ColorScriptCache
@@ -239,7 +239,7 @@ Show-ColorScript
 
 ```powershell
 function Cool-Terminal {
-    Build-ColorScriptCache
+    New-ColorScriptCache
     Show-ColorScript -Name "mandelbrot-zoom"
 }
 ```
@@ -374,7 +374,7 @@ Users with the original ps-color-scripts can migrate:
 
 1. Add `.ps1` file to `Scripts/` folder
 2. Ensure it has the cache check line
-3. Run `Build-ColorScriptCache -Name "newscript"`
+3. Run `New-ColorScriptCache -Name "newscript"`
 4. Test with `Show-ColorScript -Name "newscript"`
 
 ### Updating Module Version

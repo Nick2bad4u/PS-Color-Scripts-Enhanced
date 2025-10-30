@@ -95,7 +95,7 @@ Before merging startup-related changes, verify:
 
 - Ship a pre-built metadata cache to eliminate the 120 ms cold path.
 - Explore binary or incremental metadata formats to shrink the 570 ms filtered cold path.
-- Parallelize `Build-ColorScriptCache` for bulk operations.
+- Parallelize `New-ColorScriptCache` for bulk operations.
 - Pre-populate cache entries for popular scripts during installation.
 
 ---

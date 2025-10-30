@@ -1,27 +1,19 @@
-## [2025.10.29.21] - 2025-10-29
+## [2025.10.30.127] - 2025-10-30
 
 
-[[9bb900c](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/9bb900c6b3370bcb0c519e4a77104d4ca87868c0)...
-[bfc9fc5](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/bfc9fc5bc8a96b077b9254e6bb11f6ce544f64e3)]
-([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/9bb900c6b3370bcb0c519e4a77104d4ca87868c0...bfc9fc5bc8a96b077b9254e6bb11f6ce544f64e3))
+[[3bbaed1](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/3bbaed1f2e323a57a68c6b727c2c3866c2249ddc)...
+[3bbaed1](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/3bbaed1f2e323a57a68c6b727c2c3866c2249ddc)]
+([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/3bbaed1f2e323a57a68c6b727c2c3866c2249ddc...3bbaed1f2e323a57a68c6b727c2c3866c2249ddc))
 
 
-### 📦 Dependencies
+### ≡ƒ¢á∩╕Å GitHub Actions
 
-- Merge pull request #6 from Nick2bad4u/dependabot/npm_and_yarn/npm-all-aaf6290c26
+- ≡ƒæ╖ [ci] Disable Codecov max_report_age to prevent CI timing issues
+ - Update codecov.yml: set codecov.max_report_age to off (was "24h")
+ - Rationale: avoid rejecting valid coverage uploads due to CI delays, clock skew, or slow runners
+ - No other Codecov settings changed; uploads and notification behavior preserved
 
-[dev-dependency][skip-ci](deps-dev): [dependency] Update commander 14.0.2 in the npm-all group [`(bfc9fc5)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/bfc9fc5bc8a96b077b9254e6bb11f6ce544f64e3)
-
-
-- *(deps-dev)* [dependency] Update commander in the npm-all group [`(b6ce9aa)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/b6ce9aa057fbec9853c6e924d29a517f19061903)
-
-
-- Merge pull request #7 from Nick2bad4u/dependabot/github_actions/github-actions-a952a031d6
-
-[ci][skip-ci](deps): [dependency] Update dependency group [`(7199778)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/71997780f0c7fc14b902b864dbcffe3715b27c89)
-
-
-- *(deps)* [dependency] Update dependency group [`(9bb900c)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/9bb900c6b3370bcb0c519e4a77104d4ca87868c0)
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(3bbaed1)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/3bbaed1f2e323a57a68c6b727c2c3866c2249ddc)
 
 
 

@@ -255,7 +255,7 @@ When `-IncludeCacheInfo` is specified, these additional properties are included:
 
 ## RELATED LINKS
 
-- [Build-ColorScriptCache](Build-ColorScriptCache.md)
+- [New-ColorScriptCache](New-ColorScriptCache.md)
 - [Get-ColorScriptList](Get-ColorScriptList.md)
 - [Clear-ColorScriptCache](Clear-ColorScriptCache.md)
 - [Show-ColorScript](Show-ColorScript.md)

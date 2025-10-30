@@ -17,6 +17,7 @@
 [![Publish](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/badge)](https://scorecard.dev/viewer/?uri=github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)
 [![Dependency Review](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Nick2bad4u/PS-Color-Scripts-Enhanced)
 
 <!-- Platform & Compatibility -->
 
@@ -256,19 +257,19 @@ Show-ColorScript -Tag Recommended -PassThru
 
 ```powershell
 # Cache all colorscripts (recommended)
-Build-ColorScriptCache
+New-ColorScriptCache
 
 # Cache specific colorscripts
-Build-ColorScriptCache -Name "bars","hearts","arch"
+New-ColorScriptCache -Name "bars","hearts","arch"
 
 # Force rebuild cache
-Build-ColorScriptCache -Force
+New-ColorScriptCache -Force
 
 # Cache every script whose name starts with "aurora-"
-Build-ColorScriptCache -Name "aurora-*"
+New-ColorScriptCache -Name "aurora-*"
 ```
 
-> `Build-ColorScriptCache` caches the entire library by default, so specifying `-All` is optional. Use `-PassThru` when you need per-script status objects. Without it you'll just see the concise on-screen summary.
+> `New-ColorScriptCache` caches the entire library by default, so specifying `-All` is optional. Use `-PassThru` when you need per-script status objects. Without it you'll just see the concise on-screen summary.
 
 ### Clear Cache
 
@@ -358,7 +359,7 @@ Show-ColorScript -Name "bars" -NoCache
 | -------------------------------- | ----- | ---------------------------------------------------------------------------------- |
 | `Show-ColorScript`               | `scs` | Display a colorscript                                                              |
 | `Get-ColorScriptList`            | -     | List all available colorscripts                                                    |
-| `Build-ColorScriptCache`         | -     | Pre-generate cache files                                                           |
+| `New-ColorScriptCache`         | -     | Pre-generate cache files                                                           |
 | `Clear-ColorScriptCache`         | -     | Remove cache files                                                                 |
 | `Add-ColorScriptProfile`         | -     | Append module startup snippet to your profile                                      |
 | `Get-ColorScriptConfiguration`   | -     | Inspect persisted defaults (cache path, startup behaviour)                         |
@@ -525,7 +526,7 @@ Set-Alias -Name cs -Value Show-ColorScript
 ```powershell
 # Add to profile after Import-Module
 Import-Module ColorScripts-Enhanced
-Build-ColorScriptCache
+New-ColorScriptCache
 ```
 
 ## Available Colorscripts
@@ -547,7 +548,7 @@ Use `Show-ColorScript -List` to see all available scripts.
 
 ```powershell
 # Rebuild cache
-Build-ColorScriptCache -Force
+New-ColorScriptCache -Force
 
 # Check cache location
 explorer "$env:APPDATA\ColorScripts-Enhanced\cache"
@@ -640,7 +641,7 @@ Contributions welcome! When adding new colorscripts:
 2. Use ANSI escape codes for colors
 3. Keep output concise (fits in standard terminal)
 4. Test with `Show-ColorScript -Name "yourscript" -NoCache`
-5. Build cache with `Build-ColorScriptCache -Name "yourscript"`
+5. Build cache with `New-ColorScriptCache -Name "yourscript"`
 
 ## License
 

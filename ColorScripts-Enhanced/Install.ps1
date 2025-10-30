@@ -108,7 +108,7 @@ try {
         if ($PSCmdlet.ShouldProcess('ColorScripts-Enhanced cache', 'Build caches for all scripts')) {
             Write-Host ''
             Write-Host 'Building cache for all colorscripts...' -ForegroundColor Cyan
-            $cacheResults = Build-ColorScriptCache -ErrorAction Stop
+            $cacheResults = New-ColorScriptCache -ErrorAction Stop
             $successCount = ($cacheResults | Where-Object { $_.Status -in @('Updated', 'SkippedUpToDate') }).Count
             $failureCount = ($cacheResults | Where-Object { $_.Status -eq 'Failed' }).Count
             Write-Host "  Updated: $successCount" -ForegroundColor Green
@@ -129,10 +129,10 @@ try {
     Write-Host '  Show-ColorScript             # Display a random colorscript'
     Write-Host '  scs mandelbrot-zoom          # Display a specific colorscript'
     Write-Host '  Get-ColorScriptList          # List all scripts'
-    Write-Host '  Build-ColorScriptCache       # Pre-build caches (defaults to all)'
+    Write-Host '  New-ColorScriptCache         # Pre-build caches (defaults to all)'
 
     if (-not $BuildCache) {
-        Write-Host "Tip: Run 'Build-ColorScriptCache' to prime caches (equivalent to -All)." -ForegroundColor Cyan
+        Write-Host "Tip: Run 'New-ColorScriptCache' to prime caches (equivalent to -All)." -ForegroundColor Cyan
     }
 
     [pscustomobject]@{

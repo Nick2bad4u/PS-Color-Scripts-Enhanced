@@ -225,8 +225,8 @@ Add-ColorScriptProfile -Force
         <command:uri>./Show-ColorScript.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
-        <maml:linkText>Build-ColorScriptCache</maml:linkText>
-        <command:uri>./Build-ColorScriptCache.md</command:uri>
+        <maml:linkText>New-ColorScriptCache</maml:linkText>
+        <command:uri>./New-ColorScriptCache.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Clear-ColorScriptCache</maml:linkText>
@@ -234,332 +234,6 @@ Add-ColorScriptProfile -Force
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>GitHub Repository</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
-      </maml:navigationLink>
-    </command:relatedLinks>
-  </command:command>
-  <command:command>
-    <command:details>
-      <command:name>Build-ColorScriptCache</command:name>
-      <maml:description>
-        <maml:para>Pre-build or refresh colorscript cache files for faster rendering.
-
-## DESCRIPTION
-
-`Build-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 encoding (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript` by eliminating the need to re-execute scripts.
-
-You can target specific scripts by name (wildcards supported) or cache the entire collection. When no parameters are specified, the cmdlet defaults to caching all available scripts. You can also filter scripts by category or tag to cache only those that match specific criteria.
-
-By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.
-
-The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.</maml:para>
-      </maml:description>
-      <command:verb>Build</command:verb>
-      <command:noun>ColorScriptCache</command:noun>
-    </command:details>
-    <maml:description>
-      <maml:para>`Build-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 encoding (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript` by eliminating the need to re-execute scripts.</maml:para>
-      <maml:para>You can target specific scripts by name (wildcards supported) or cache the entire collection. When no parameters are specified, the cmdlet defaults to caching all available scripts. You can also filter scripts by category or tag to cache only those that match specific criteria.</maml:para>
-      <maml:para>By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.</maml:para>
-      <maml:para>The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.</maml:para>
-      <maml:para>## SYNTAX</maml:para>
-      <maml:para>### All</maml:para>
-      <maml:para>``` Build-ColorScriptCache [-All] [-Force] [-PassThru] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
-      <maml:para>### Named</maml:para>
-      <maml:para>``` Build-ColorScriptCache [-Name &lt;String[]&gt;] [-Category &lt;String[]&gt;] [-Tag &lt;String[]&gt;] [-Force] [-PassThru] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
-    </maml:description>
-    <command:syntax>
-      <command:syntaxItem>
-        <maml:name>Build-ColorScriptCache</maml:name>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-          <maml:name>All</maml:name>
-          <maml:description>
-            <maml:para>Cache every available script. When omitted and no names are supplied, all scripts are cached by default. This parameter is useful when you want to be explicit about caching all scripts.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-        </command:parameter>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-          <maml:name>Confirm</maml:name>
-          <maml:description>
-            <maml:para>Prompts you for confirmation before running the cmdlet. Useful when caching a large number of scripts or when using `-Force` to prevent accidental cache regeneration.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-        </command:parameter>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-          <maml:name>Force</maml:name>
-          <maml:description>
-            <maml:para>Rebuild cache files even when the existing cache is newer than the script source. This is useful when you want to ensure all caches are regenerated, such as after module updates or when troubleshooting rendering issues.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-        </command:parameter>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-          <maml:name>PassThru</maml:name>
-          <maml:description>
-            <maml:para>Return detailed result objects for each cache operation. By default, only a summary is displayed. The result objects include properties such as Name, Status, CacheFile, ExitCode, StdOut, and StdErr, allowing for programmatic inspection of the caching process.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-        </command:parameter>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-          <maml:name>WhatIf</maml:name>
-          <maml:description>
-            <maml:para>Shows what would happen if the cmdlet runs without actually performing the caching operations. Useful for previewing which scripts would be cached before committing to the operation.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-        </command:parameter>
-      </command:syntaxItem>
-      <command:syntaxItem>
-        <maml:name>Build-ColorScriptCache</maml:name>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="1" aliases="none">
-          <maml:name>Category</maml:name>
-          <maml:description>
-            <maml:para>Limit the selection to scripts that belong to the specified category (case-insensitive). Multiple values are treated as an OR filter, meaning scripts matching any of the specified categories will be cached.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
-        </command:parameter>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-          <maml:name>Confirm</maml:name>
-          <maml:description>
-            <maml:para>Prompts you for confirmation before running the cmdlet. Useful when caching a large number of scripts or when using `-Force` to prevent accidental cache regeneration.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-        </command:parameter>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-          <maml:name>Force</maml:name>
-          <maml:description>
-            <maml:para>Rebuild cache files even when the existing cache is newer than the script source. This is useful when you want to ensure all caches are regenerated, such as after module updates or when troubleshooting rendering issues.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-        </command:parameter>
-        <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
-          <maml:name>Name</maml:name>
-          <maml:description>
-            <maml:para>One or more colorscript names to cache. Supports wildcard patterns (e.g., 'aurora-*', '*-wave'). When this parameter is omitted and no filtering parameters are specified, the cmdlet caches every available script by default.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
-        </command:parameter>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-          <maml:name>PassThru</maml:name>
-          <maml:description>
-            <maml:para>Return detailed result objects for each cache operation. By default, only a summary is displayed. The result objects include properties such as Name, Status, CacheFile, ExitCode, StdOut, and StdErr, allowing for programmatic inspection of the caching process.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-        </command:parameter>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="2" aliases="none">
-          <maml:name>Tag</maml:name>
-          <maml:description>
-            <maml:para>Limit the selection to scripts containing the specified metadata tags (case-insensitive). Multiple values are treated as an OR filter, caching scripts that match any of the specified tags.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
-        </command:parameter>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-          <maml:name>WhatIf</maml:name>
-          <maml:description>
-            <maml:para>Shows what would happen if the cmdlet runs without actually performing the caching operations. Useful for previewing which scripts would be cached before committing to the operation.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-        </command:parameter>
-      </command:syntaxItem>
-    </command:syntax>
-    <command:parameters>
-      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-        <maml:name>All</maml:name>
-        <maml:description>
-          <maml:para>Cache every available script. When omitted and no names are supplied, all scripts are cached by default. This parameter is useful when you want to be explicit about caching all scripts.</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-      </command:parameter>
-      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="1" aliases="none">
-        <maml:name>Category</maml:name>
-        <maml:description>
-          <maml:para>Limit the selection to scripts that belong to the specified category (case-insensitive). Multiple values are treated as an OR filter, meaning scripts matching any of the specified categories will be cached.</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
-      </command:parameter>
-      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-        <maml:name>Confirm</maml:name>
-        <maml:description>
-          <maml:para>Prompts you for confirmation before running the cmdlet. Useful when caching a large number of scripts or when using `-Force` to prevent accidental cache regeneration.</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-      </command:parameter>
-      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-        <maml:name>Force</maml:name>
-        <maml:description>
-          <maml:para>Rebuild cache files even when the existing cache is newer than the script source. This is useful when you want to ensure all caches are regenerated, such as after module updates or when troubleshooting rendering issues.</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-      </command:parameter>
-      <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
-        <maml:name>Name</maml:name>
-        <maml:description>
-          <maml:para>One or more colorscript names to cache. Supports wildcard patterns (e.g., 'aurora-*', '*-wave'). When this parameter is omitted and no filtering parameters are specified, the cmdlet caches every available script by default.</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
-      </command:parameter>
-      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-        <maml:name>PassThru</maml:name>
-        <maml:description>
-          <maml:para>Return detailed result objects for each cache operation. By default, only a summary is displayed. The result objects include properties such as Name, Status, CacheFile, ExitCode, StdOut, and StdErr, allowing for programmatic inspection of the caching process.</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-      </command:parameter>
-      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="2" aliases="none">
-        <maml:name>Tag</maml:name>
-        <maml:description>
-          <maml:para>Limit the selection to scripts containing the specified metadata tags (case-insensitive). Multiple values are treated as an OR filter, caching scripts that match any of the specified tags.</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
-      </command:parameter>
-      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-        <maml:name>WhatIf</maml:name>
-        <maml:description>
-          <maml:para>Shows what would happen if the cmdlet runs without actually performing the caching operations. Useful for previewing which scripts would be cached before committing to the operation.</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-      </command:parameter>
-    </command:parameters>
-    <command:inputTypes>
-      <command:inputType>
-        <dev:type>
-          <dev:name>System.String</dev:name>
-        </dev:type>
-        <maml:description>
-          <maml:para>You can pipe script names to this cmdlet. Each string is treated as a potential script name and supports wildcard matching.</maml:para>
-        </maml:description>
-      </command:inputType>
-      <command:inputType>
-        <dev:type>
-          <dev:name>System.String</dev:name>
-        </dev:type>
-        <maml:description>
-          <maml:para>You can pipe an array of script names or metadata records with a `Name` property to this cmdlet for batch processing.</maml:para>
-        </maml:description>
-      </command:inputType>
-    </command:inputTypes>
-    <command:returnValues>
-      <command:returnValue>
-        <dev:type>
-          <dev:name>System.Object</dev:name>
-        </dev:type>
-        <maml:description>
-          <maml:para>When `-PassThru` is specified, returns a custom object for each processed script containing the following properties:
-
-- **Name**: The colorscript name
-- **Status**: Success, Skipped, or Failed
-- **CacheFile**: Full path to the generated cache file
-- **ExitCode**: The exit code from the script execution (0 indicates success)
-- **StdOut**: Standard output captured during script execution
-- **StdErr**: Standard error output captured during script execution
-
-Without `-PassThru`, displays a concise summary table to the console showing the number of scripts cached, skipped, and failed.</maml:para>
-        </maml:description>
-      </command:returnValue>
-    </command:returnValues>
-    <maml:alertSet>
-      <maml:alert>
-        <maml:para>**Author:** Nick
-**Module:** ColorScripts-Enhanced
-
-Cache files are stored in the directory exposed by the module's `CacheDir` variable (typically within the module's data directory). A successful build sets the cache file's timestamp to match the script's last write time, enabling subsequent runs to skip unchanged scripts efficiently.
-
-The cmdlet executes each script in an isolated background PowerShell process to capture its output without affecting the current session. This ensures accurate caching of the exact console output that would be displayed when running the script directly.
-
-**Performance Tip:** Run this cmdlet once after installing or updating the module to pre-cache all scripts for optimal performance.</maml:para>
-      </maml:alert>
-    </maml:alertSet>
-    <command:examples>
-      <command:example>
-        <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Build-ColorScriptCache
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Warm the cache for every script that ships with the module. This is the default behavior when no parameters are specified.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Build-ColorScriptCache -Name bars, 'aurora-*'
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Cache a mix of exact and wildcard matches. The cmdlet will process the 'bars' script and all scripts whose names start with 'aurora-'.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Build-ColorScriptCache -Name mandelbrot-zoom -Force -PassThru | Format-List
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Force a rebuild of the 'mandelbrot-zoom' cache even if it's up-to-date, and examine the detailed result object.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Build-ColorScriptCache -Category 'Animation' -PassThru
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Cache all scripts in the 'Animation' category and return detailed results for each operation.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Build-ColorScriptCache -Tag 'geometric', 'colorful' -Force
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Rebuild caches for all scripts tagged with either 'geometric' or 'colorful', forcing regeneration even if caches are current.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList | Where-Object Category -eq 'Classic' | Build-ColorScriptCache -PassThru
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Pipeline example: retrieve all classic scripts and cache them, returning detailed results.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-    </command:examples>
-    <command:relatedLinks>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Build-ColorScriptCache.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Show-ColorScript</maml:linkText>
-        <command:uri>Show-ColorScript.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Clear-ColorScriptCache</maml:linkText>
-        <command:uri>Clear-ColorScriptCache.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Get-ColorScriptList</maml:linkText>
-        <command:uri>Get-ColorScriptList.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Documentation</maml:linkText>
         <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
       </maml:navigationLink>
     </command:relatedLinks>
@@ -957,8 +631,8 @@ Clear-ColorScriptCache -Name 'test-*', 'demo-*' -Confirm:$false
         <command:uri>Show-ColorScript.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
-        <maml:linkText>Build-ColorScriptCache</maml:linkText>
-        <command:uri>Build-ColorScriptCache.md</command:uri>
+        <maml:linkText>New-ColorScriptCache</maml:linkText>
+        <command:uri>New-ColorScriptCache.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Get-ColorScriptList</maml:linkText>
@@ -1235,8 +909,8 @@ Write-Host "Total size of all colorscripts: $($totalSize / 1KB) KB"
         <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Export-ColorScriptMetadata.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
-        <maml:linkText>Build-ColorScriptCache</maml:linkText>
-        <command:uri>Build-ColorScriptCache.md</command:uri>
+        <maml:linkText>New-ColorScriptCache</maml:linkText>
+        <command:uri>New-ColorScriptCache.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Get-ColorScriptList</maml:linkText>
@@ -1687,8 +1361,8 @@ Get-ColorScriptList -Name blocks,pipes,matrix -AsObject | ForEach-Object { Show-
         <command:uri>Show-ColorScript.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
-        <maml:linkText>Build-ColorScriptCache</maml:linkText>
-        <command:uri>Build-ColorScriptCache.md</command:uri>
+        <maml:linkText>New-ColorScriptCache</maml:linkText>
+        <command:uri>New-ColorScriptCache.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Online Documentation</maml:linkText>
@@ -1934,7 +1608,7 @@ Get-ColorScriptList -Name blocks,pipes,matrix -AsObject | ForEach-Object { Show-
 1. Use `New-ColorScript` to create the scaffold
 2. Edit the generated .ps1 file to add your ANSI art
 3. If metadata guidance was generated, copy it to `ScriptMetadata.psd1`
-4. Run `Build-ColorScriptCache` to rebuild the module's cache
+4. Run `New-ColorScriptCache` to rebuild the module's cache
 5. Test your script with `Show-ColorScript -Name &lt;your-script-name&gt;`
 
 **Best Practices**:
@@ -2005,8 +1679,8 @@ New-ColorScript -Name 'test-pattern' -OutputPath '.\temp' -WhatIf
         <command:uri>Export-ColorScriptMetadata.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
-        <maml:linkText>Build-ColorScriptCache</maml:linkText>
-        <command:uri>Build-ColorScriptCache.md</command:uri>
+        <maml:linkText>New-ColorScriptCache</maml:linkText>
+        <command:uri>New-ColorScriptCache.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Show-ColorScript</maml:linkText>
@@ -2019,6 +1693,334 @@ New-ColorScript -Name 'test-pattern' -OutputPath '.\temp' -WhatIf
       <maml:navigationLink>
         <maml:linkText>ScriptMetadata.psd1</maml:linkText>
         <command:uri>../ScriptMetadata.psd1</command:uri>
+      </maml:navigationLink>
+    </command:relatedLinks>
+  </command:command>
+  <command:command>
+    <command:details>
+      <command:name>New-ColorScriptCache</command:name>
+      <maml:description>
+        <maml:para>Pre-build or refresh colorscript cache files for faster rendering.
+
+## DESCRIPTION
+
+`New-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 encoding (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript` by eliminating the need to re-execute scripts. You can also use the alias `Update-ColorScriptCache` to invoke this cmdlet.
+
+You can target specific scripts by name (wildcards supported) or cache the entire collection. When no parameters are specified, the cmdlet defaults to caching all available scripts. You can also filter scripts by category or tag to cache only those that match specific criteria.
+
+By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.
+
+The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.</maml:para>
+      </maml:description>
+      <command:verb>New</command:verb>
+      <command:noun>ColorScriptCache</command:noun>
+    </command:details>
+    <maml:description>
+      <maml:para>`New-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 encoding (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript` by eliminating the need to re-execute scripts. You can also use the alias `Update-ColorScriptCache` to invoke this cmdlet.</maml:para>
+      <maml:para>You can target specific scripts by name (wildcards supported) or cache the entire collection. When no parameters are specified, the cmdlet defaults to caching all available scripts. You can also filter scripts by category or tag to cache only those that match specific criteria.</maml:para>
+      <maml:para>By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.</maml:para>
+      <maml:para>The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.</maml:para>
+      <maml:para>## SYNTAX</maml:para>
+      <maml:para>### All</maml:para>
+      <maml:para>``` New-ColorScriptCache [-All] [-Force] [-PassThru] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
+      <maml:para>### Named</maml:para>
+      <maml:para>``` New-ColorScriptCache [-Name &lt;String[]&gt;] [-Category &lt;String[]&gt;] [-Tag &lt;String[]&gt;] [-Force] [-PassThru] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
+    </maml:description>
+    <command:syntax>
+      <command:syntaxItem>
+        <maml:name>New-ColorScriptCache</maml:name>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>All</maml:name>
+          <maml:description>
+            <maml:para>Cache every available script. When omitted and no names are supplied, all scripts are cached by default. This parameter is useful when you want to be explicit about caching all scripts.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Confirm</maml:name>
+          <maml:description>
+            <maml:para>Prompts you for confirmation before running the cmdlet. Useful when caching a large number of scripts or when using `-Force` to prevent accidental cache regeneration.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Force</maml:name>
+          <maml:description>
+            <maml:para>Rebuild cache files even when the existing cache is newer than the script source. This is useful when you want to ensure all caches are regenerated, such as after module updates or when troubleshooting rendering issues.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>PassThru</maml:name>
+          <maml:description>
+            <maml:para>Return detailed result objects for each cache operation. By default, only a summary is displayed. The result objects include properties such as Name, Status, CacheFile, ExitCode, StdOut, and StdErr, allowing for programmatic inspection of the caching process.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>WhatIf</maml:name>
+          <maml:description>
+            <maml:para>Shows what would happen if the cmdlet runs without actually performing the caching operations. Useful for previewing which scripts would be cached before committing to the operation.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+      </command:syntaxItem>
+      <command:syntaxItem>
+        <maml:name>New-ColorScriptCache</maml:name>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="1" aliases="none">
+          <maml:name>Category</maml:name>
+          <maml:description>
+            <maml:para>Limit the selection to scripts that belong to the specified category (case-insensitive). Multiple values are treated as an OR filter, meaning scripts matching any of the specified categories will be cached.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Confirm</maml:name>
+          <maml:description>
+            <maml:para>Prompts you for confirmation before running the cmdlet. Useful when caching a large number of scripts or when using `-Force` to prevent accidental cache regeneration.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Force</maml:name>
+          <maml:description>
+            <maml:para>Rebuild cache files even when the existing cache is newer than the script source. This is useful when you want to ensure all caches are regenerated, such as after module updates or when troubleshooting rendering issues.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
+          <maml:name>Name</maml:name>
+          <maml:description>
+            <maml:para>One or more colorscript names to cache. Supports wildcard patterns (e.g., 'aurora-*', '*-wave'). When this parameter is omitted and no filtering parameters are specified, the cmdlet caches every available script by default.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>PassThru</maml:name>
+          <maml:description>
+            <maml:para>Return detailed result objects for each cache operation. By default, only a summary is displayed. The result objects include properties such as Name, Status, CacheFile, ExitCode, StdOut, and StdErr, allowing for programmatic inspection of the caching process.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="2" aliases="none">
+          <maml:name>Tag</maml:name>
+          <maml:description>
+            <maml:para>Limit the selection to scripts containing the specified metadata tags (case-insensitive). Multiple values are treated as an OR filter, caching scripts that match any of the specified tags.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>WhatIf</maml:name>
+          <maml:description>
+            <maml:para>Shows what would happen if the cmdlet runs without actually performing the caching operations. Useful for previewing which scripts would be cached before committing to the operation.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>All</maml:name>
+        <maml:description>
+          <maml:para>Cache every available script. When omitted and no names are supplied, all scripts are cached by default. This parameter is useful when you want to be explicit about caching all scripts.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="1" aliases="none">
+        <maml:name>Category</maml:name>
+        <maml:description>
+          <maml:para>Limit the selection to scripts that belong to the specified category (case-insensitive). Multiple values are treated as an OR filter, meaning scripts matching any of the specified categories will be cached.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Confirm</maml:name>
+        <maml:description>
+          <maml:para>Prompts you for confirmation before running the cmdlet. Useful when caching a large number of scripts or when using `-Force` to prevent accidental cache regeneration.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Force</maml:name>
+        <maml:description>
+          <maml:para>Rebuild cache files even when the existing cache is newer than the script source. This is useful when you want to ensure all caches are regenerated, such as after module updates or when troubleshooting rendering issues.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
+        <maml:name>Name</maml:name>
+        <maml:description>
+          <maml:para>One or more colorscript names to cache. Supports wildcard patterns (e.g., 'aurora-*', '*-wave'). When this parameter is omitted and no filtering parameters are specified, the cmdlet caches every available script by default.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>PassThru</maml:name>
+        <maml:description>
+          <maml:para>Return detailed result objects for each cache operation. By default, only a summary is displayed. The result objects include properties such as Name, Status, CacheFile, ExitCode, StdOut, and StdErr, allowing for programmatic inspection of the caching process.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="2" aliases="none">
+        <maml:name>Tag</maml:name>
+        <maml:description>
+          <maml:para>Limit the selection to scripts containing the specified metadata tags (case-insensitive). Multiple values are treated as an OR filter, caching scripts that match any of the specified tags.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>WhatIf</maml:name>
+        <maml:description>
+          <maml:para>Shows what would happen if the cmdlet runs without actually performing the caching operations. Useful for previewing which scripts would be cached before committing to the operation.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+    </command:parameters>
+    <command:inputTypes>
+      <command:inputType>
+        <dev:type>
+          <dev:name>System.String</dev:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>You can pipe script names to this cmdlet. Each string is treated as a potential script name and supports wildcard matching.</maml:para>
+        </maml:description>
+      </command:inputType>
+      <command:inputType>
+        <dev:type>
+          <dev:name>System.String</dev:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>You can pipe an array of script names or metadata records with a `Name` property to this cmdlet for batch processing.</maml:para>
+        </maml:description>
+      </command:inputType>
+    </command:inputTypes>
+    <command:returnValues>
+      <command:returnValue>
+        <dev:type>
+          <dev:name>System.Object</dev:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>When `-PassThru` is specified, returns a custom object for each processed script containing the following properties:
+
+- **Name**: The colorscript name
+- **Status**: Success, Skipped, or Failed
+- **CacheFile**: Full path to the generated cache file
+- **ExitCode**: The exit code from the script execution (0 indicates success)
+- **StdOut**: Standard output captured during script execution
+- **StdErr**: Standard error output captured during script execution
+
+Without `-PassThru`, displays a concise summary table to the console showing the number of scripts cached, skipped, and failed.</maml:para>
+        </maml:description>
+      </command:returnValue>
+    </command:returnValues>
+    <maml:alertSet>
+      <maml:alert>
+        <maml:para>**Author:** Nick
+**Module:** ColorScripts-Enhanced
+
+**Aliases:** This cmdlet can also be called using the alias `Update-ColorScriptCache`, which is useful for scripts that refresh existing caches.
+
+Cache files are stored in the directory exposed by the module's `CacheDir` variable (typically within the module's data directory). A successful build sets the cache file's timestamp to match the script's last write time, enabling subsequent runs to skip unchanged scripts efficiently.
+
+The cmdlet executes each script in an isolated background PowerShell process to capture its output without affecting the current session. This ensures accurate caching of the exact console output that would be displayed when running the script directly.
+
+**Performance Tip:** Run this cmdlet once after installing or updating the module to pre-cache all scripts for optimal performance.</maml:para>
+      </maml:alert>
+    </maml:alertSet>
+    <command:examples>
+      <command:example>
+        <maml:title>--------- EXAMPLE 1 ---------</maml:title>
+        <maml:introduction>
+          <maml:para>```powershell
+New-ColorScriptCache
+```</maml:para>
+          <maml:para>&#x80;</maml:para>
+          <maml:para>Warm the cache for every script that ships with the module. This is the default behavior when no parameters are specified.</maml:para>
+        </maml:introduction>
+        <dev:code />
+        <dev:remarks />
+      </command:example>
+      <command:example>
+        <maml:title>--------- EXAMPLE 2 ---------</maml:title>
+        <maml:introduction>
+          <maml:para>```powershell
+New-ColorScriptCache -Name bars, 'aurora-*'
+```</maml:para>
+          <maml:para>&#x80;</maml:para>
+          <maml:para>Cache a mix of exact and wildcard matches. The cmdlet will process the 'bars' script and all scripts whose names start with 'aurora-'.</maml:para>
+        </maml:introduction>
+        <dev:code />
+        <dev:remarks />
+      </command:example>
+      <command:example>
+        <maml:title>--------- EXAMPLE 3 ---------</maml:title>
+        <maml:introduction>
+          <maml:para>```powershell
+New-ColorScriptCache -Name mandelbrot-zoom -Force -PassThru | Format-List
+```</maml:para>
+          <maml:para>&#x80;</maml:para>
+          <maml:para>Force a rebuild of the 'mandelbrot-zoom' cache even if it's up-to-date, and examine the detailed result object.</maml:para>
+        </maml:introduction>
+        <dev:code />
+        <dev:remarks />
+      </command:example>
+      <command:example>
+        <maml:title>--------- EXAMPLE 4 ---------</maml:title>
+        <maml:introduction>
+          <maml:para>```powershell
+New-ColorScriptCache -Category 'Animation' -PassThru
+```</maml:para>
+          <maml:para>&#x80;</maml:para>
+          <maml:para>Cache all scripts in the 'Animation' category and return detailed results for each operation.</maml:para>
+        </maml:introduction>
+        <dev:code />
+        <dev:remarks />
+      </command:example>
+      <command:example>
+        <maml:title>--------- EXAMPLE 5 ---------</maml:title>
+        <maml:introduction>
+          <maml:para>```powershell
+New-ColorScriptCache -Tag 'geometric', 'colorful' -Force
+```</maml:para>
+          <maml:para>&#x80;</maml:para>
+          <maml:para>Rebuild caches for all scripts tagged with either 'geometric' or 'colorful', forcing regeneration even if caches are current.</maml:para>
+        </maml:introduction>
+        <dev:code />
+        <dev:remarks />
+      </command:example>
+      <command:example>
+        <maml:title>--------- EXAMPLE 6 ---------</maml:title>
+        <maml:introduction>
+          <maml:para>```powershell
+Get-ColorScriptList | Where-Object Category -eq 'Classic' | New-ColorScriptCache -PassThru
+```</maml:para>
+          <maml:para>&#x80;</maml:para>
+          <maml:para>Pipeline example: retrieve all classic scripts and cache them, returning detailed results.</maml:para>
+        </maml:introduction>
+        <dev:code />
+        <dev:remarks />
+      </command:example>
+    </command:examples>
+    <command:relatedLinks>
+      <maml:navigationLink>
+        <maml:linkText>Online Version</maml:linkText>
+        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/New-ColorScriptCache.md</command:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>Show-ColorScript</maml:linkText>
+        <command:uri>Show-ColorScript.md</command:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>Clear-ColorScriptCache</maml:linkText>
+        <command:uri>Clear-ColorScriptCache.md</command:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>Get-ColorScriptList</maml:linkText>
+        <command:uri>Get-ColorScriptList.md</command:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>Online Documentation</maml:linkText>
+        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -2823,7 +2825,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 **Cache Management:**
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
-- Rebuild cache: Use `Build-ColorScriptCache` to pre-populate cache for all scripts
+- Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 **Tips:**
@@ -3005,8 +3007,8 @@ Show-ColorScript -List -Category Art,Abstract
         <command:uri>Get-ColorScriptList.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
-        <maml:linkText>Build-ColorScriptCache</maml:linkText>
-        <command:uri>Build-ColorScriptCache.md</command:uri>
+        <maml:linkText>New-ColorScriptCache</maml:linkText>
+        <command:uri>New-ColorScriptCache.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Clear-ColorScriptCache</maml:linkText>

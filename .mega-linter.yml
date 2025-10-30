@@ -31,7 +31,7 @@ MARKDOWN_MARKDOWN_TABLE_FORMATTER_FILTER_REGEX_EXCLUDE: '(CHANGELOG\.md|.*AUDIT.
 REPOSITORY_CHECKOV_ARGUMENTS: "--framework github_actions --skip-check CKV_GHA_7,CKV2_GHA_1"
 REPOSITORY_DEVSKIM_ARGUMENTS: "--ignore-globs **/node_modules/**,**/.git/**"
 REPOSITORY_GITLEAKS_CONFIG_FILE: .gitleaks.toml
-REPOSITORY_SECRETLINT_ARGUMENTS: "--secretlintrc .secretlintrc.json"
+# REPOSITORY_SECRETLINT_ARGUMENTS: "--secretlintrc .secretlintrc.json"
 REPOSITORY_TRIVY_ARGUMENTS: "--skip-dirs node_modules"
 
 # YAML settings

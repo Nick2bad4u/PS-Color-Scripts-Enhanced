@@ -27,7 +27,7 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | -------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | `Show-ColorScript`               | [Show-ColorScript.md](../ColorScripts-Enhanced/en-US/Show-ColorScript.md)                             |
 | `Get-ColorScriptList`            | [Get-ColorScriptList.md](../ColorScripts-Enhanced/en-US/Get-ColorScriptList.md)                       |
-| `Build-ColorScriptCache`         | [Build-ColorScriptCache.md](../ColorScripts-Enhanced/en-US/Build-ColorScriptCache.md)                 |
+| `New-ColorScriptCache`         | [New-ColorScriptCache.md](../ColorScripts-Enhanced/en-US/New-ColorScriptCache.md)                 |
 | `Clear-ColorScriptCache`         | [Clear-ColorScriptCache.md](../ColorScripts-Enhanced/en-US/Clear-ColorScriptCache.md)                 |
 | `Add-ColorScriptProfile`         | [Add-ColorScriptProfile.md](../ColorScripts-Enhanced/en-US/Add-ColorScriptProfile.md)                 |
 | `Get-ColorScriptConfiguration`   | [Get-ColorScriptConfiguration.md](../ColorScripts-Enhanced/en-US/Get-ColorScriptConfiguration.md)     |

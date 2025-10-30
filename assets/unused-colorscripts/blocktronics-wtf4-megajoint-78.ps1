@@ -23,6 +23,6 @@ Write-Host @"
 
                                                                                [30m█[0m
          [1;30m[[0m VIEW THE YOUTUBE ANIMATED VERSION WITH MUSIC BY _ensnare_ [1;30m][0m
-                          http://youtu.be/sMncm4V_AV4
+                          https://youtu.be/sMncm4V_AV4
 
 "@

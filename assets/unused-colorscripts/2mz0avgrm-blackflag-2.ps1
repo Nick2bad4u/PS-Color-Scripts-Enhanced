@@ -57,7 +57,7 @@ Write-Host @"
 
 
 
-    TODO List: * Seaweed shading / tighten up outlines and coloring
+    Improvements List: * Seaweed shading / tighten up outlines and coloring
                * Skull body & arm shading
                * Ground shading
                * Black Flag font shading

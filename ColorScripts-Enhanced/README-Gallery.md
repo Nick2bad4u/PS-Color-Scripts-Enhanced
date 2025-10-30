@@ -53,10 +53,10 @@ Get-ColorScriptList -Category Geometric
 Get-ColorScriptList -Detailed
 
 # Build cache for faster loading (6-19x improvement)
-Build-ColorScriptCache
+New-ColorScriptCache
 
 # Build cache for specific scripts only
-Build-ColorScriptCache -Name bars,hearts,arch
+New-ColorScriptCache -Name bars,hearts,arch
 
 # Clear cache when needed
 Clear-ColorScriptCache -All
@@ -68,7 +68,7 @@ Clear-ColorScriptCache -All
 | -------------------------------- | ----- | --------------------------------------------- |
 | `Show-ColorScript`               | `scs` | Display a colorscript (random or by name)     |
 | `Get-ColorScriptList`            | -     | List all available colorscripts with metadata |
-| `Build-ColorScriptCache`         | -     | Pre-generate cache files for faster loading   |
+| `New-ColorScriptCache`         | -     | Pre-generate cache files for faster loading   |
 | `Clear-ColorScriptCache`         | -     | Remove cache files                            |
 | `Add-ColorScriptProfile`         | -     | Add module import to your PowerShell profile  |
 | `Get-ColorScriptConfiguration`   | -     | View current configuration settings           |

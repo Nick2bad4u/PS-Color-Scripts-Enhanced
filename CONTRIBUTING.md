@@ -62,7 +62,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
    Show-ColorScript -Name my-cool-script
 
    # Test caching
-   Build-ColorScriptCache -Name my-cool-script
+   New-ColorScriptCache -Name my-cool-script
    Show-ColorScript -Name my-cool-script
    ```
 
@@ -217,7 +217,7 @@ ps-color-scripts-enhanced/
 │   │   ├── about_ColorScripts-Enhanced.help.txt
 │   │   ├── Show-ColorScript.md
 │   │   ├── Get-ColorScriptList.md
-│   │   ├── Build-ColorScriptCache.md
+│   │   ├── New-ColorScriptCache.md
 │   │   └── Clear-ColorScriptCache.md
 │   └── Scripts/                       # Colorscript files
 │       ├── hearts.ps1

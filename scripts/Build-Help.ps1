@@ -286,7 +286,7 @@ try {
     $commands = @(
         'Show-ColorScript'
         'Get-ColorScriptList'
-        'Build-ColorScriptCache'
+        'New-ColorScriptCache'
         'Clear-ColorScriptCache'
         'Add-ColorScriptProfile'
         'Get-ColorScriptConfiguration'

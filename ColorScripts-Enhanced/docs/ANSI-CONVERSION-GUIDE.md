@@ -227,7 +227,7 @@ Once converted, your scripts will:
 
 1. Be automatically discovered by `Get-ColorScriptList`
 2. Work with `Show-ColorScript -Name your-script`
-3. Be cached for fast loading with `Build-ColorScriptCache`
+3. Be cached for fast loading with `New-ColorScriptCache`
 4. Support all ColorScripts-Enhanced features
 
 ## Example Workflow
@@ -241,7 +241,7 @@ Once converted, your scripts will:
 Show-ColorScript -Name cool-art
 
 # 4. Build cache for performance
-Build-ColorScriptCache -Name cool-art
+New-ColorScriptCache -Name cool-art
 
 # 5. List all your scripts
 Get-ColorScriptList -Name cool-art

@@ -317,6 +317,6 @@ Filtering by `-Category` or `-Tag` requires that the scripts have associated met
 ## RELATED LINKS
 
 - [Show-ColorScript](Show-ColorScript.md)
-- [Build-ColorScriptCache](Build-ColorScriptCache.md)
+- [New-ColorScriptCache](New-ColorScriptCache.md)
 - [Get-ColorScriptList](Get-ColorScriptList.md)
 - [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)

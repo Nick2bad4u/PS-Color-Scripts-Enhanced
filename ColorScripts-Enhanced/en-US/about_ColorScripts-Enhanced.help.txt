@@ -69,7 +69,7 @@ Get-ColorScriptList
 
 Pre-build cache for all scripts:
 ```powershell
-Build-ColorScriptCache
+New-ColorScriptCache
 ```
 
 ### COMMANDS
@@ -78,7 +78,7 @@ The module exports the following commands:
 
 - `Show-ColorScript` - Display colorscripts (alias: scs)
 - `Get-ColorScriptList` - List available colorscripts
-- `Build-ColorScriptCache` - Pre-generate cache files
+- `New-ColorScriptCache` - Pre-generate cache files
 - `Clear-ColorScriptCache` - Remove cache files
 - `Add-ColorScriptProfile` - Append module startup snippet to a PowerShell profile
 - `Get-ColorScriptConfiguration` - Inspect cache and startup defaults
@@ -167,12 +167,12 @@ Show-ColorScript
 
 #### Example 3: Build Cache for Favorite Scripts
 ```powershell
-Build-ColorScriptCache -Name hearts,mandelbrot-zoom,galaxy-spiral
+New-ColorScriptCache -Name hearts,mandelbrot-zoom,galaxy-spiral
 ```
 
 #### Example 4: Force Cache Rebuild
 ```powershell
-Build-ColorScriptCache -Force
+New-ColorScriptCache -Force
 ```
 
 ### TROUBLESHOOTING
@@ -187,13 +187,13 @@ Ensure your terminal supports UTF-8 and ANSI escape codes:
 Clear and rebuild cache:
 ```powershell
 Clear-ColorScriptCache -All
-Build-ColorScriptCache
+New-ColorScriptCache
 ```
 
 #### Performance issues
 The first run of each script will be slower as it builds cache. Pre-build all caches:
 ```powershell
-Build-ColorScriptCache
+New-ColorScriptCache
 ```
 
 ### PERFORMANCE

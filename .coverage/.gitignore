@@ -1,0 +1,6 @@
+# Ignore coverage output files
+*.xml
+coverage-report/
+*.html
+*.css
+*.js

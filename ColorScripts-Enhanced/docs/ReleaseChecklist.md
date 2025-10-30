@@ -21,7 +21,7 @@ Use this checklist to produce a production-ready release of **ColorScripts-Enhan
   - [ ] `npm run markdown:check` - Validate all markdown links
 - [ ] (Optional) Run `npm run lint:fix` to apply auto-fixable ScriptAnalyzer rules.
 - [ ] Spot-check a selection of colorscripts (include glyph-heavy scripts like `nerd-font-test`).
-- [ ] Validate caching performance using `Build-ColorScriptCache` and verify load times.
+- [ ] Validate caching performance using `New-ColorScriptCache` and verify load times.
 
 ## 3. Versioning
 

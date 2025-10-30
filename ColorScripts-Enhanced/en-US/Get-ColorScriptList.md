@@ -263,6 +263,6 @@ For best results when integrating colorscripts into your PowerShell profile, use
 ## RELATED LINKS
 
 - [Show-ColorScript](Show-ColorScript.md)
-- [Build-ColorScriptCache](Build-ColorScriptCache.md)
+- [New-ColorScriptCache](New-ColorScriptCache.md)
 - [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
 - [Module Repository](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)

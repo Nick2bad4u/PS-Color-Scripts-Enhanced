@@ -37,7 +37,7 @@ function Get-ModuleCacheDirectory {
     $cacheDir = $moduleInstance.SessionState.PSVariable.GetValue('CacheDir')
 
     if (-not $cacheDir) {
-        Build-ColorScriptCache -Name 'bars' -ErrorAction Stop | Out-Null
+        New-ColorScriptCache -Name 'bars' -ErrorAction Stop | Out-Null
         $cacheDir = $moduleInstance.SessionState.PSVariable.GetValue('CacheDir')
     }
 
@@ -74,8 +74,8 @@ Test-Function "Get-ColorScriptList exported" {
     if (-not $cmd) { throw "Command not found" }
 }
 
-Test-Function "Build-ColorScriptCache exported" {
-    $cmd = Get-Command Build-ColorScriptCache -ErrorAction Stop
+Test-Function "New-ColorScriptCache exported" {
+    $cmd = Get-Command New-ColorScriptCache -ErrorAction Stop
     if (-not $cmd) { throw "Command not found" }
 }
 
@@ -143,8 +143,8 @@ Test-Function "Show-ColorScript -List works" {
 }
 
 # Test 9: Build cache for single script
-Test-Function "Build-ColorScriptCache for single script" {
-    Build-ColorScriptCache -Name "bars" -ErrorAction Stop *>&1 | Out-Null
+Test-Function "New-ColorScriptCache for single script" {
+    New-ColorScriptCache -Name "bars" -ErrorAction Stop *>&1 | Out-Null
     $cacheRoot = Get-ModuleCacheDirectory
     $cacheFile = Join-Path $cacheRoot "bars.cache"
     if (-not (Test-Path $cacheFile)) {
@@ -152,8 +152,8 @@ Test-Function "Build-ColorScriptCache for single script" {
     }
 }
 
-Test-Function "Build-ColorScriptCache wildcard" {
-    $result = Build-ColorScriptCache -Name "aurora-s*" -Force -PassThru -ErrorAction Stop
+Test-Function "New-ColorScriptCache wildcard" {
+    $result = New-ColorScriptCache -Name "aurora-s*" -Force -PassThru -ErrorAction Stop
     if (-not $result -or $result.Count -lt 2) {
         throw "Expected multiple results for wildcard build"
     }
@@ -186,7 +186,7 @@ Test-Function "Clear-ColorScriptCache for specific script" {
 }
 
 Test-Function "Clear-ColorScriptCache wildcard" {
-    Build-ColorScriptCache -Name "aurora-s*" -Force -ErrorAction Stop *>&1 | Out-Null
+    New-ColorScriptCache -Name "aurora-s*" -Force -ErrorAction Stop *>&1 | Out-Null
     $result = Clear-ColorScriptCache -Name "aurora-s*" -Confirm:$false
     if (-not $result -or $result.Count -lt 2) {
         throw "Expected multiple results for wildcard clear"
@@ -214,8 +214,8 @@ Test-Function "Help for Get-ColorScriptList" {
     }
 }
 
-Test-Function "Help for Build-ColorScriptCache" {
-    $help = Get-Help Build-ColorScriptCache
+Test-Function "Help for New-ColorScriptCache" {
+    $help = Get-Help New-ColorScriptCache
     if (-not $help.Synopsis) {
         throw "No help synopsis found"
     }

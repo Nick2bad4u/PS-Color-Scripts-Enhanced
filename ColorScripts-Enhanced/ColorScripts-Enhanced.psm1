@@ -37,6 +37,64 @@ $script:IsWindows = $IsWindows
 $script:IsMacOS = $IsMacOS
 $script:PowerShellMajorVersion = $PSVersionTable.PSVersion.Major
 
+function ConvertFrom-JsonToHashtable {
+    <#
+    .SYNOPSIS
+        Converts JSON to a hashtable, compatible with PowerShell 5.1 and 7+
+    .DESCRIPTION
+        PowerShell 5.1 doesn't support -AsHashtable parameter on ConvertFrom-Json.
+        This function provides a compatible conversion method for all PowerShell versions.
+    #>
+    param(
+        [Parameter(Mandatory, ValueFromPipeline)]
+        [AllowEmptyString()]
+        [string]$InputObject
+    )
+
+    process {
+        if ([string]::IsNullOrWhiteSpace($InputObject)) {
+            return $null
+        }
+
+        # PowerShell 6.0+ supports -AsHashtable natively
+        if ($PSVersionTable.PSVersion.Major -ge 6) {
+            return ConvertFrom-Json -InputObject $InputObject -AsHashtable
+        }
+
+        # PowerShell 5.1 fallback: Convert PSCustomObject to Hashtable
+        function ConvertTo-HashtableInternal {
+            param([Parameter(ValueFromPipeline)]$InputObject)
+
+            process {
+                if ($null -eq $InputObject) {
+                    return $null
+                }
+
+                if ($InputObject -is [System.Collections.IEnumerable] -and $InputObject -isnot [string]) {
+                    $collection = @()
+                    foreach ($item in $InputObject) {
+                        $collection += ConvertTo-HashtableInternal $item
+                    }
+                    return $collection
+                }
+
+                if ($InputObject -is [PSCustomObject]) {
+                    $hash = @{}
+                    foreach ($property in $InputObject.PSObject.Properties) {
+                        $hash[$property.Name] = ConvertTo-HashtableInternal $property.Value
+                    }
+                    return $hash
+                }
+
+                return $InputObject
+            }
+        }
+
+        $obj = ConvertFrom-Json -InputObject $InputObject
+        return ConvertTo-HashtableInternal $obj
+    }
+}
+
 function Initialize-SystemDelegateState {
     if (-not $script:GetUserProfilePathDelegate) {
         $script:GetUserProfilePathDelegate = { [System.Environment]::GetFolderPath('UserProfile') }
@@ -443,7 +501,7 @@ function Initialize-Configuration {
         try {
             $raw = Get-Content -LiteralPath $script:ConfigurationPath -Raw -ErrorAction Stop
             if (-not [string]::IsNullOrWhiteSpace($raw)) {
-                $existing = ConvertFrom-Json -InputObject $raw -AsHashtable
+                $existing = ConvertFrom-JsonToHashtable -InputObject $raw
             }
             else {
                 $raw = $null
@@ -1240,7 +1298,7 @@ function Get-ColorScriptMetadataTable {
                 if ($cacheFileInfo.LastWriteTimeUtc -ge $currentTimestamp) {
                     # JSON cache is current, load it
                     $jsonData = Get-Content -LiteralPath $binaryCachePath -Raw -ErrorAction Stop
-                    $cachedHash = ConvertFrom-Json -InputObject $jsonData -AsHashtable -ErrorAction Stop
+                    $cachedHash = ConvertFrom-JsonToHashtable -InputObject $jsonData
 
                     # Convert back to proper dictionary
                     $loadedStore = New-Object 'System.Collections.Generic.Dictionary[string, object]' ([System.StringComparer]::OrdinalIgnoreCase)
@@ -1645,7 +1703,7 @@ function Get-ColorScriptMetadataTable {
     if ($binaryCachePath) {
         try {
             $jsonData = $store | ConvertTo-Json -Depth 10 -Compress
-            Set-Content -LiteralPath $binaryCachePath -Value $jsonData -Encoding UTF8 -ErrorAction Stop
+            Set-Content -Path $binaryCachePath -Value $jsonData -Encoding UTF8 -ErrorAction Stop
             Write-Verbose "Saved metadata to JSON cache for faster future loads"
         }
         catch {
@@ -2516,9 +2574,10 @@ Limit the selection to scripts that belong to the specified category (case-insen
 .PARAMETER Tag
 Limit the selection to scripts containing the specified metadata tags (case-insensitive). Multiple values are treated as an OR filter.
 #>
-function Build-ColorScriptCache {
+function New-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache operation.')]
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
+    [Alias('Update-ColorScriptCache')]
     param(
         [Parameter(ParameterSetName = 'Help')]
         [Alias('help')]
@@ -2547,7 +2606,7 @@ function Build-ColorScriptCache {
     begin {
         $helpRequested = $false
         if ($h) {
-            Show-ColorScriptHelp -CommandName 'Build-ColorScriptCache'
+            Show-ColorScriptHelp -CommandName 'New-ColorScriptCache'
             $helpRequested = $true
             return
         }
@@ -2712,7 +2771,6 @@ function Build-ColorScriptCache {
                     default { 'White' }
                 }
                 $statusText = switch ($item.Status) {
-                    'Updated' { 'Cached' }
                     'SkippedUpToDate' { 'Up-to-date (skipped)' }
                     'Failed' { 'Failed' }
                     'SkippedByUser' { 'Skipped by user' }
@@ -3430,7 +3488,7 @@ function Invoke-ColorScriptsStartup {
 Export-ModuleMember -Function @(
     'Show-ColorScript',
     'Get-ColorScriptList',
-    'Build-ColorScriptCache',
+    'New-ColorScriptCache',
     'Clear-ColorScriptCache',
     'Add-ColorScriptProfile',
     'Get-ColorScriptConfiguration',
@@ -3438,7 +3496,7 @@ Export-ModuleMember -Function @(
     'Reset-ColorScriptConfiguration',
     'Export-ColorScriptMetadata',
     'New-ColorScript'
-) -Alias @('scs')
+) -Alias @('scs', 'Update-ColorScriptCache')
 
 # Module initialization - cache and configuration are lazily loaded when first needed
 Write-Verbose "ColorScripts-Enhanced module loaded successfully."

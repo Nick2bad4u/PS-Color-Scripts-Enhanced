@@ -792,7 +792,7 @@ namespace CoverageHost
         }
     }
 
-    Context "Build-ColorScriptCache" {
+    Context "New-ColorScriptCache" {
         BeforeEach {
             InModuleScope ColorScripts-Enhanced {
                 $script:CacheDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
@@ -808,16 +808,16 @@ namespace CoverageHost
                     , $list
                 }
 
-                Should -Throw -ActualValue { Build-ColorScriptCache -All:$false } -ExpectedMessage 'Specify -Name to select scripts when -All is explicitly disabled.'
+                Should -Throw -ActualValue { New-ColorScriptCache -All:$false } -ExpectedMessage 'Specify -Name to select scripts when -All is explicitly disabled.'
             }
         }
         It "shows help when requested" {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced
 
-                Build-ColorScriptCache -h
+                New-ColorScriptCache -h
 
-                Assert-MockCalled -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'Build-ColorScriptCache' }
+                Assert-MockCalled -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'New-ColorScriptCache' }
             }
         }
 
@@ -831,7 +831,7 @@ namespace CoverageHost
                 Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith { @() }
                 Mock -CommandName Write-Warning -ModuleName ColorScripts-Enhanced
 
-                $result = Build-ColorScriptCache -Category 'None'
+                $result = New-ColorScriptCache -Category 'None'
 
                 $result | Should -BeNullOrEmpty
             }
@@ -864,7 +864,7 @@ namespace CoverageHost
                 }
                 Mock -CommandName Write-Progress -ModuleName ColorScripts-Enhanced
 
-                $result = Build-ColorScriptCache -PassThru
+                $result = New-ColorScriptCache -PassThru
 
                 $result | Should -HaveCount 1
                 $result[0].Name | Should -Be 'enum-test'
@@ -894,7 +894,7 @@ namespace CoverageHost
                 }
                 Mock -CommandName Write-Progress -ModuleName ColorScripts-Enhanced
 
-                $result = Build-ColorScriptCache -PassThru
+                $result = New-ColorScriptCache -PassThru
 
                 $result | Should -HaveCount 1
                 $result[0].Status | Should -Be 'Updated'
@@ -922,7 +922,7 @@ namespace CoverageHost
                     Set-Variable -Name __missingWarnings -Scope Script -Value ($current + $Message)
                 }
 
-                Build-ColorScriptCache -Name 'ghost-script'
+                New-ColorScriptCache -Name 'ghost-script'
 
                 $warnings = Get-Variable -Name __missingWarnings -Scope Script -ValueOnly
                 $warnings | Should -Contain "Script not found: ghost-script"
@@ -953,7 +953,7 @@ namespace CoverageHost
                 }
                 Mock -CommandName Write-Progress -ModuleName ColorScripts-Enhanced
 
-                $result = Build-ColorScriptCache -Name 'beta' -PassThru
+                $result = New-ColorScriptCache -Name 'beta' -PassThru
 
                 $result | Should -HaveCount 1
                 $result[0].Status | Should -Be 'SkippedUpToDate'
@@ -979,7 +979,7 @@ namespace CoverageHost
 
                 Mock -CommandName Write-Progress -ModuleName ColorScripts-Enhanced
 
-                $result = Build-ColorScriptCache -All -WhatIf
+                $result = New-ColorScriptCache -All -WhatIf
 
                 $result | Should -BeNullOrEmpty
             }
@@ -1065,7 +1065,7 @@ namespace CoverageHost
 
                 Mock -CommandName Write-Progress -ModuleName ColorScripts-Enhanced
 
-                Build-ColorScriptCache -Name @('skip', 'fresh', 'broken')
+                New-ColorScriptCache -Name @('skip', 'fresh', 'broken')
 
                 $messages = Get-Variable -Name __summaryMessages -Scope Script -ValueOnly
                 ($messages | Where-Object { $_ -like '*Cache Build Summary*' }) | Should -Not -BeNullOrEmpty
@@ -1112,7 +1112,7 @@ namespace CoverageHost
                     }
                 }
 
-                $result = Build-ColorScriptCache -Name 'gamma' -PassThru
+                $result = New-ColorScriptCache -Name 'gamma' -PassThru
 
                 $result | Should -HaveCount 1
                 $result[0].Status | Should -Be 'Failed'

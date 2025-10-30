@@ -1,13 +1,13 @@
 ﻿---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Build-ColorScriptCache.md
+HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/New-ColorScriptCache.md
 Module Name: ColorScripts-Enhanced
 ms.date: 10/26/2025
 PlatyPS schema version: 2024-05-01
 ---
 
-# Build-ColorScriptCache
+# New-ColorScriptCache
 
 ## SYNOPSIS
 
@@ -15,7 +15,7 @@ Pre-build or refresh colorscript cache files for faster rendering.
 
 ## DESCRIPTION
 
-`Build-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 encoding (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript` by eliminating the need to re-execute scripts.
+`New-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 encoding (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript` by eliminating the need to re-execute scripts. You can also use the alias `Update-ColorScriptCache` to invoke this cmdlet.
 
 You can target specific scripts by name (wildcards supported) or cache the entire collection. When no parameters are specified, the cmdlet defaults to caching all available scripts. You can also filter scripts by category or tag to cache only those that match specific criteria.
 
@@ -28,13 +28,13 @@ The cmdlet intelligently skips scripts whose cache files are already up-to-date 
 ### All
 
 ```
-Build-ColorScriptCache [-All] [-Force] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-All] [-Force] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Named
 
 ```
-Build-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## EXAMPLES
@@ -42,7 +42,7 @@ Build-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]
 ### EXAMPLE 1
 
 ```powershell
-Build-ColorScriptCache
+New-ColorScriptCache
 ```
 
 Warm the cache for every script that ships with the module. This is the default behavior when no parameters are specified.
@@ -50,7 +50,7 @@ Warm the cache for every script that ships with the module. This is the default 
 ### EXAMPLE 2
 
 ```powershell
-Build-ColorScriptCache -Name bars, 'aurora-*'
+New-ColorScriptCache -Name bars, 'aurora-*'
 ```
 
 Cache a mix of exact and wildcard matches. The cmdlet will process the 'bars' script and all scripts whose names start with 'aurora-'.
@@ -58,7 +58,7 @@ Cache a mix of exact and wildcard matches. The cmdlet will process the 'bars' sc
 ### EXAMPLE 3
 
 ```powershell
-Build-ColorScriptCache -Name mandelbrot-zoom -Force -PassThru | Format-List
+New-ColorScriptCache -Name mandelbrot-zoom -Force -PassThru | Format-List
 ```
 
 Force a rebuild of the 'mandelbrot-zoom' cache even if it's up-to-date, and examine the detailed result object.
@@ -66,7 +66,7 @@ Force a rebuild of the 'mandelbrot-zoom' cache even if it's up-to-date, and exam
 ### EXAMPLE 4
 
 ```powershell
-Build-ColorScriptCache -Category 'Animation' -PassThru
+New-ColorScriptCache -Category 'Animation' -PassThru
 ```
 
 Cache all scripts in the 'Animation' category and return detailed results for each operation.
@@ -74,7 +74,7 @@ Cache all scripts in the 'Animation' category and return detailed results for ea
 ### EXAMPLE 5
 
 ```powershell
-Build-ColorScriptCache -Tag 'geometric', 'colorful' -Force
+New-ColorScriptCache -Tag 'geometric', 'colorful' -Force
 ```
 
 Rebuild caches for all scripts tagged with either 'geometric' or 'colorful', forcing regeneration even if caches are current.
@@ -82,7 +82,7 @@ Rebuild caches for all scripts tagged with either 'geometric' or 'colorful', for
 ### EXAMPLE 6
 
 ```powershell
-Get-ColorScriptList | Where-Object Category -eq 'Classic' | Build-ColorScriptCache -PassThru
+Get-ColorScriptList | Where-Object Category -eq 'Classic' | New-ColorScriptCache -PassThru
 ```
 
 Pipeline example: retrieve all classic scripts and cache them, returning detailed results.
@@ -295,6 +295,8 @@ Without `-PassThru`, displays a concise summary table to the console showing the
 
 **Author:** Nick
 **Module:** ColorScripts-Enhanced
+
+**Aliases:** This cmdlet can also be called using the alias `Update-ColorScriptCache`, which is useful for scripts that refresh existing caches.
 
 Cache files are stored in the directory exposed by the module's `CacheDir` variable (typically within the module's data directory). A successful build sets the cache file's timestamp to match the script's last write time, enabling subsequent runs to skip unchanged scripts efficiently.
 

@@ -267,6 +267,6 @@ If you need elevated permissions to modify an AllUsers profile, ensure you run P
 
 - [Online Version](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
 - [Show-ColorScript](./Show-ColorScript.md)
-- [Build-ColorScriptCache](./Build-ColorScriptCache.md)
+- [New-ColorScriptCache](./New-ColorScriptCache.md)
 - [Clear-ColorScriptCache](./Clear-ColorScriptCache.md)
 - [GitHub Repository](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
