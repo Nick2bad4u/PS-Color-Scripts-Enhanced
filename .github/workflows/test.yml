@@ -63,6 +63,14 @@ jobs:
           name: test-results-windows-51
           path: test-results.xml
 
+      - name: Upload coverage results
+        if: always()
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+        with:
+          name: coverage-windows-51
+          path: coverage.xml
+
+
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7 # v5.1.2
         with:
@@ -145,6 +153,13 @@ jobs:
         with:
           name: test-results-${{ matrix.os }}-pwsh
           path: test-results.xml
+
+      - name: Upload coverage results
+        if: always()
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+        with:
+          name: test-coverage-${{ matrix.os }}-pwsh
+          path: coverage.xml
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7 # v5.1.2

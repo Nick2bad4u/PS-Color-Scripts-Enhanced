@@ -8,7 +8,7 @@ codecov:
         uploads: true # Keep historical data for analytics
 
     branch: main
-    max_report_age: "24h" # Modern syntax - reject reports older than 24 hours
+    max_report_age: off # Disable age check to prevent CI timing issues
     notify:
         manual_trigger: false # Explicit setting for modern CI/CD pipelines
         notify_error: true # Show upload failures in comments
