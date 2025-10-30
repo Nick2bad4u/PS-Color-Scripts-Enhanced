@@ -56,7 +56,7 @@ Describe "ColorScripts-Enhanced coverage completion" {
     }
 
     Context "Configuration root platform coverage" {
-        It "selects macOS application support location" -Skip:($PSVersionTable.PSVersion.Major -le 5 -and $IsWindows) {
+        It "selects macOS application support location" -Skip:($PSVersionTable.PSVersion.Major -le 5) {
             $testHome = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
             New-Item -ItemType Directory -Path $testHome -Force | Out-Null
 
@@ -109,7 +109,7 @@ Describe "ColorScripts-Enhanced coverage completion" {
             }
         }
 
-        It "uses XDG config location when available" -Skip:($PSVersionTable.PSVersion.Major -le 5 -and $IsWindows) {
+        It "uses XDG config location when available" -Skip:($PSVersionTable.PSVersion.Major -le 5) {
             $testHome = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
             $xdgRoot = Join-Path -Path $testHome -ChildPath '.config'
             New-Item -ItemType Directory -Path $xdgRoot -Force | Out-Null

@@ -87,7 +87,7 @@
     }
 
     Context "Configuration root selection" {
-        It "selects macOS application support directory" -Skip:($PSVersionTable.PSVersion.Major -le 5 -and $IsWindows) {
+        It "selects macOS application support directory" -Skip:($PSVersionTable.PSVersion.Major -le 5) {
             $homePath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
             New-Item -ItemType Directory -Path $homePath -Force | Out-Null
 
@@ -147,7 +147,7 @@
             $result.Result | Should -Be $result.Expected
         }
 
-        It "uses XDG config path when defined" -Skip:($PSVersionTable.PSVersion.Major -le 5 -and $IsWindows) {
+        It "uses XDG config path when defined" -Skip:($PSVersionTable.PSVersion.Major -le 5) {
             $homePath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
             $xdgPath  = Join-Path -Path $homePath -ChildPath '.config'
             New-Item -ItemType Directory -Path $xdgPath -Force | Out-Null

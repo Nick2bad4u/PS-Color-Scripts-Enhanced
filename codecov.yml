@@ -35,7 +35,7 @@ component_management:
     individual_components:
         # === CORE MODULE (Highest Coverage Requirements) ===
         - component_id: core_module
-          name: "🧩 Core Module"
+          name: "Core Module"
           paths:
               - ColorScripts-Enhanced/**
           statuses:
@@ -47,7 +47,7 @@ component_management:
                 type: patch
         # === TEST SUITE (High Coverage - Test Code) ===
         - component_id: test_suite
-          name: "🧪 Test Suite"
+          name: "Test Suite"
           paths:
               - Tests/**
           statuses:
@@ -59,7 +59,7 @@ component_management:
                 type: patch
         # === UTILITY SCRIPTS (Medium Coverage) ===
         - component_id: utility_scripts
-          name: "🔧 Utility Scripts"
+          name: "Utility Scripts"
           paths:
               - scripts/**
           statuses:
@@ -71,7 +71,7 @@ component_management:
                 type: patch
         # === CONFIGURATION AND BUILD (Lower Coverage) ===
         - component_id: configuration
-          name: "⚙️ Configuration & Build"
+          name: "Configuration & Build"
           paths:
               - package.json
               - *.yml

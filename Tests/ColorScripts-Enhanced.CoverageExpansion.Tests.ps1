@@ -1183,7 +1183,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
         }
 
-        It "skips unresolved candidate paths" -Skip:($PSVersionTable.PSVersion.Major -le 5 -and $IsWindows) {
+        It "skips unresolved candidate paths" -Skip:($PSVersionTable.PSVersion.Major -le 5) {
             Mock -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -MockWith { param($Message) }
 
             InModuleScope ColorScripts-Enhanced {

@@ -2241,7 +2241,7 @@ namespace CoverageHost
                 ($capturedVerbose | Where-Object { $_ -like 'Ignoring COLOR_SCRIPTS_ENHANCED_CACHE_PATH override*' }) | Should -Not -BeNullOrEmpty
             }
 
-            It "uses macOS cache locations when applicable" -Skip:($PSVersionTable.PSVersion.Major -le 5 -and $IsWindows) {
+            It "uses macOS cache locations when applicable" -Skip:($PSVersionTable.PSVersion.Major -le 5) {
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $homePath = Join-Path -Path $testRoot -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $homePath -Force | Out-Null
@@ -2283,7 +2283,7 @@ namespace CoverageHost
                 }
             }
 
-            It "uses XDG cache home on non-windows platforms" -Skip:($PSVersionTable.PSVersion.Major -le 5 -and $IsWindows) {
+            It "uses XDG cache home on non-windows platforms" -Skip:($PSVersionTable.PSVersion.Major -le 5) {
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $xdgPath = Join-Path -Path $testRoot -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $xdgPath -Force | Out-Null
