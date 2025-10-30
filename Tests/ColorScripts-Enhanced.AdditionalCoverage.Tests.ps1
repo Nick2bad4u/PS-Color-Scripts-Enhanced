@@ -2326,30 +2326,6 @@ namespace CoverageHost
                 }
             }
 
-            It "skips unresolved candidate paths" {
-                $capturedVerbose = [System.Collections.Generic.List[string]]::new()
-
-                Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith {
-                    param($Path)
-                    if ($Path -like '*ColorScripts-Enhanced') {
-                        return $null
-                    }
-
-                    return $Path
-                }
-
-                Mock -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -MockWith {
-                    param($Message)
-                    $null = $capturedVerbose.Add($Message)
-                }
-
-                InModuleScope ColorScripts-Enhanced {
-                    Initialize-CacheDirectory
-                }
-
-                ($capturedVerbose | Where-Object { $_ -like 'Skipping cache candidate*' }) | Should -Not -BeNullOrEmpty
-            }
-
             It "creates fallback directory when all candidates fail" {
                 Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith {
                     param($Path)

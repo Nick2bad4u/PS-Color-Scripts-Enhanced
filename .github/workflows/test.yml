@@ -17,6 +17,10 @@ jobs:
   windows-powershell:
     name: Windows PowerShell 5.1
     runs-on: windows-latest
+    env:
+      CI: true
+      POWERSHELL_EDITION: Desktop
+      PS_VERSION: 5.1
     steps:
       - name: Harden the runner (Audit all outbound calls)
         uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
@@ -83,6 +87,10 @@ jobs:
   pwsh-cross-platform:
     name: PowerShell 7.5 (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
+    env:
+      CI: true
+      POWERSHELL_EDITION: Core
+      PS_VERSION: 7.5
     strategy:
       fail-fast: false
       matrix:
@@ -184,6 +192,10 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/powershell:preview
+    env:
+      CI: true
+      POWERSHELL_EDITION: Core
+      PS_VERSION: preview
     steps:
       - name: Harden the runner (Audit all outbound calls)
         uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1

@@ -74,10 +74,6 @@ component_management:
           name: "Configuration & Build"
           paths:
               - package.json
-              - *.yml
-              - *.yaml
-              - *.toml
-              - *.psd1
           statuses:
               - target: 60%
                 threshold: 5%
