@@ -86,12 +86,10 @@ if ($CI) {
     $config.Output.Verbosity = 'Minimal'
 }
 
-# TestResult settings for CI
-if ($CI) {
-    $config.TestResult.Enabled = $true
-    $config.TestResult.OutputPath = Join-Path $repoRoot 'testResults.xml'
-    $config.TestResult.OutputFormat = 'NUnitXml'
-}
+# TestResult settings - use JUnit format via Export-JUnitReport
+$config.TestResult.Enabled = $true
+$config.TestResult.OutputPath = Join-Path $repoRoot 'testResults.junit.xml'
+$config.TestResult.OutputFormat = 'JUnitXml'
 
 # Run tests with coverage
 Write-Host "Running Pester tests with code coverage analysis..." -ForegroundColor Cyan

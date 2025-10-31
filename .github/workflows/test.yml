@@ -44,24 +44,14 @@ jobs:
       - name: Run Pester tests with coverage
         shell: powershell
         run: |
-          Import-Module Pester
-          $configuration = New-PesterConfiguration
-          $configuration.Run.Path = './Tests'
-          $configuration.Output.Verbosity = 'Detailed'
-          $configuration.TestResult.Enabled = $true
-          $configuration.TestResult.OutputPath = 'test-results.xml'
-          $configuration.CodeCoverage.Enabled = $true
-          $configuration.CodeCoverage.Path = './ColorScripts-Enhanced/*.psm1'
-          $configuration.CodeCoverage.OutputPath = 'coverage.xml'
-          $configuration.CodeCoverage.OutputFormat = 'JaCoCo'
-          Invoke-Pester -Configuration $configuration
+          npm run test:coverage -- -CI
 
       - name: Upload test results
         if: always()
         uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
         with:
           name: test-results-windows-51
-          path: test-results.xml
+          path: testResults.junit.xml
 
       - name: Upload coverage results
         if: always()
@@ -69,7 +59,6 @@ jobs:
         with:
           name: coverage-windows-51
           path: coverage.xml
-
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7 # v5.1.2
@@ -83,7 +72,7 @@ jobs:
         uses: codecov/test-results-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./test-results.xml
+          files: ./testResults.junit.xml
 
       - name: Validate help topics
         shell: powershell
@@ -135,24 +124,14 @@ jobs:
       - name: Run Pester tests with coverage
         shell: pwsh
         run: |
-          Import-Module Pester
-          $configuration = New-PesterConfiguration
-          $configuration.Run.Path = './Tests'
-          $configuration.Output.Verbosity = 'Detailed'
-          $configuration.TestResult.Enabled = $true
-          $configuration.TestResult.OutputPath = 'test-results.xml'
-          $configuration.CodeCoverage.Enabled = $true
-          $configuration.CodeCoverage.Path = './ColorScripts-Enhanced/*.psm1'
-          $configuration.CodeCoverage.OutputPath = 'coverage.xml'
-          $configuration.CodeCoverage.OutputFormat = 'JaCoCo'
-          Invoke-Pester -Configuration $configuration
+          npm run test:coverage -- -CI
 
       - name: Upload test results
         if: always()
         uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
         with:
           name: test-results-${{ matrix.os }}-pwsh
-          path: test-results.xml
+          path: testResults.junit.xml
 
       - name: Upload coverage results
         if: always()
@@ -173,7 +152,7 @@ jobs:
         uses: codecov/test-results-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./test-results.xml
+          files: ./testResults.junit.xml
 
       - name: Run script analyzer
         shell: pwsh

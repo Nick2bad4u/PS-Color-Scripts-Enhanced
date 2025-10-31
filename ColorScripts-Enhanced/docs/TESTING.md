@@ -182,7 +182,7 @@ Invoke-Pester -Path ./Tests -Output Detailed
 Invoke-Pester -Path ./Tests -Output Summary
 
 # JSON output for CI
-Invoke-Pester -Path ./Tests -OutputFile ./test-results.xml -OutputFormat JUnitXml
+Invoke-Pester -Path ./Tests -OutputFile ./testResults.junit.xml -OutputFormat JUnitXml
 ```
 
 ## Continuous Integration Testing

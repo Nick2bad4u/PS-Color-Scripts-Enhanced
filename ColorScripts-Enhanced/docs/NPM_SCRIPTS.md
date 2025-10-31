@@ -173,7 +173,7 @@ $VerbosePreference = 'SilentlyContinue'
 
 ```powershell
 # Generate XML report for CI
-Invoke-Pester -Path ./Tests -OutputFile test-results.xml -OutputFormat JUnitXml
+Invoke-Pester -Path ./Tests -OutputFile testResults.junit.xml -OutputFormat JUnitXml
 ```
 
 ## Linting

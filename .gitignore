@@ -1,6 +1,6 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,powershell,node,dotnetcore,autotools+strict,autotools,linux,macos,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,powershell,node,dotnetcore,autotools+strict,autotools,linux,macos,windows
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,powershell,node,macos,linux,dotnetcore,autotools+strict,autotools,test,testcomplete,testinfra
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,powershell,node,macos,linux,dotnetcore,autotools+strict,autotools,test,testcomplete,testinfra
 
 ### Autotools ###
 # http://www.gnu.org/software/automake
@@ -287,6 +287,106 @@ dist
 # Exclude .NET assemblies from source
 *.dll
 
+### Test ###
+### Ignore all files that could be used to test your code and
+### you wouldn't want to push
+
+# Reference https://en.wikipedia.org/wiki/Metasyntactic_variable
+
+# Most common
+*foo
+*bar
+*fubar
+*foobar
+*baz
+
+# Less common
+*qux
+*quux
+*bongo
+*bazola
+*ztesch
+
+# UK, Australia
+*wibble
+*wobble
+*wubble
+*flob
+*blep
+*blah
+*boop
+*beep
+
+# Japanese
+*hoge
+*piyo
+*fuga
+*hogera
+*hogehoge
+
+# Portugal, Spain
+*fulano
+*sicrano
+*beltrano
+*mengano
+*perengano
+*zutano
+
+# France, Italy, the Netherlands
+*toto
+*titi
+*tata
+*tutu
+*pipppo
+*pluto
+*paperino
+*aap
+*noot
+*mies
+
+# Other names that would make sense
+*tests
+*testsdir
+*testsfile
+*testsfiles
+*test
+*testdir
+*testfile
+*testfiles
+*testing
+*testingdir
+*testingfile
+*testingfiles
+*temp
+*tempdir
+*tempfile
+*tempfiles
+*tmp
+*tmpdir
+*tmpfile
+*tmpfiles
+*lol
+
+### TestComplete ###
+# Test Complete ignore files: https://support.smartbear.com/viewarticle/68002/
+
+# Tester-specific Settings
+*.tcCFGExtender
+*.tcLS
+
+# Type library declarations
+*.tlb
+
+# Log files
+*.tcLogs
+
+# Backup files
+*.bak
+
+### Testinfra ###
+__pycache__/
+.pytest_cache/
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -332,7 +432,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,powershell,node,dotnetcore,autotools+strict,autotools,linux,macos,windows
+# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,powershell,node,macos,linux,dotnetcore,autotools+strict,autotools,test,testcomplete,testinfra
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
@@ -346,6 +446,8 @@ node_modules/
 # Code coverage reports
 coverage.xml
 coverage-report/
-testResults.xml
-test-results.xml
+testResults.junit.xml
+testResults.junit.xml
 !dist
+testResults.xml
+testResults.nunit.xml
