@@ -3,24 +3,24 @@
 ## about_ColorScripts-Enhanced
 
 ### SHORT DESCRIPTION
-Enhanced PowerShell ColorScripts with high-performance caching system for displaying beautiful ANSI art in your terminal.
+增强的 PowerShell ColorScripts，具有高性能缓存系统，用于在您的终端中显示美丽的 ANSI 艺术。
 
 ### LONG DESCRIPTION
-ColorScripts-Enhanced is a PowerShell module that provides a collection of 450++ beautiful ANSI colorscripts for terminal display. It features an intelligent caching system that provides 6-19x performance improvements over traditional script execution.
+ColorScripts-Enhanced 是一个 PowerShell 模块，提供 450++ 个美丽的 ANSI colorscripts 集合用于终端显示。它具有智能缓存系统，比传统脚本执行提供 6-19 倍的性能改进。
 
-The module automatically caches script output to a centralized location in your AppData folder, enabling instant display on subsequent runs. Cache files are automatically validated and regenerated when source scripts are modified.
+该模块自动将脚本输出缓存到您 AppData 文件夹中的集中位置，使后续运行时能够即时显示。缓存文件会在源脚本修改时自动验证和重新生成。
 
 ### FEATURES
-- 450++ beautiful pre-made colorscripts
-- High-performance caching system (6-19x faster)
-- Centralized cache location (works from any directory)
-- Automatic cache invalidation on script changes
-- UTF-8 encoding support for perfect rendering
-- Random colorscript selection
-- Easy script discovery and listing
-- Profile helper for one-line startup integration
-- Persistent configuration helpers for cache and startup behaviour
-- Metadata export and scaffolding workflows for custom scripts
+- 450++ 个美丽的预制 colorscripts
+- 高性能缓存系统（6-19 倍更快）
+- 集中缓存位置（从任何目录工作）
+- 脚本更改时自动缓存失效
+- UTF-8 编码支持完美渲染
+- 随机 colorscript 选择
+- 轻松脚本发现和列出
+- 配置文件助手用于单行启动集成
+- 缓存和启动行为的持久配置助手
+- 自定义脚本的元数据导出和脚手架工作流
 
 ### INSTALLATION
 
@@ -29,7 +29,7 @@ The module automatically caches script output to a centralized location in your 
 Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
 ```
 
-Add the module to your profile automatically:
+自动将模块添加到您的配置文件：
 
 ```powershell
 Add-ColorScriptProfile             # Import + Show-ColorScript
@@ -37,78 +37,78 @@ Add-ColorScriptProfile -SkipStartupScript
 ```
 
 #### Manual Installation
-1. Download the module from GitHub
-2. Extract to a PowerShell module path:
+1. 从 GitHub 下载模块
+2. 提取到 PowerShell 模块路径：
    - User: `$HOME\Documents\PowerShell\Modules\ColorScripts-Enhanced`
    - System: `C:\Program Files\PowerShell\Modules\ColorScripts-Enhanced`
-3. Import the module:
+3. 导入模块：
    ```powershell
    Import-Module ColorScripts-Enhanced
    ```
 
 ### QUICK START
 
-Display a random colorscript:
+显示随机 colorscript：
 ```powershell
 Show-ColorScript
 # or use the alias
 scs
 ```
 
-Display a specific colorscript:
+显示特定 colorscript：
 ```powershell
 Show-ColorScript -Name hearts
 scs mandelbrot-zoom
 ```
 
-List all available colorscripts:
+列出所有可用 colorscripts：
 ```powershell
 Show-ColorScript -List
 Get-ColorScriptList
 ```
 
-Pre-build cache for all scripts:
+为所有脚本预构建缓存：
 ```powershell
 New-ColorScriptCache
 ```
 
 ### COMMANDS
 
-The module exports the following commands:
+模块导出以下命令：
 
-- `Show-ColorScript` - Display colorscripts (alias: scs)
-- `Get-ColorScriptList` - List available colorscripts
-- `New-ColorScriptCache` - Pre-generate cache files
-- `Clear-ColorScriptCache` - Remove cache files
-- `Add-ColorScriptProfile` - Append module startup snippet to a PowerShell profile
-- `Get-ColorScriptConfiguration` - Inspect cache and startup defaults
-- `Set-ColorScriptConfiguration` - Persist custom configuration values
-- `Reset-ColorScriptConfiguration` - Restore configuration defaults
-- `Export-ColorScriptMetadata` - Export script metadata for automation
-- `New-ColorScript` - Scaffold a new colorscript and metadata snippet
+- `Show-ColorScript` - 显示 colorscripts（alias: scs）
+- `Get-ColorScriptList` - 列出可用 colorscripts
+- `New-ColorScriptCache` - 预生成缓存文件
+- `Clear-ColorScriptCache` - 删除缓存文件
+- `Add-ColorScriptProfile` - 将模块启动片段附加到 PowerShell 配置文件
+- `Get-ColorScriptConfiguration` - 检查缓存和启动默认值
+- `Set-ColorScriptConfiguration` - 持久保存自定义配置值
+- `Reset-ColorScriptConfiguration` - 恢复配置默认值
+- `Export-ColorScriptMetadata` - 导出脚本元数据用于自动化
+- `New-ColorScript` - 搭建新的 colorscript 和元数据片段
 
-Use `Get-Help <CommandName> -Full` for detailed help on each command.
+使用 `Get-Help <CommandName> -Full` 获取每个命令的详细帮助。
 
 ### CACHE SYSTEM
 
-The caching system works automatically:
+缓存系统自动工作：
 
-1. **First Run**: Script executes normally and output is cached
-2. **Subsequent Runs**: Cached output displays instantly (6-19x faster)
-3. **Auto-Refresh**: Cache regenerates when script is modified
+1. **首次运行**：脚本正常执行并缓存输出
+2. **后续运行**：缓存输出即时显示（6-19 倍更快）
+3. **自动刷新**：脚本修改时缓存重新生成
 
-**Cache Location**: `$env:APPDATA\ColorScripts-Enhanced\cache`
+**缓存位置**：`$env:APPDATA\ColorScripts-Enhanced\cache`
 
-**Cache Benefits**:
-- Instant display of complex colorscripts
-- Reduced CPU usage
-- Consistent performance
-- Works from any directory
+**缓存优势**：
+- 复杂 colorscripts 的即时显示
+- 减少 CPU 使用
+- 一致性能
+- 从任何目录工作
 
 ### CONFIGURATION
 
 #### Add to PowerShell Profile
-Display a random colorscript on every terminal launch:
+在每次终端启动时显示随机 colorscript：
 
 ```powershell
 Add-ColorScriptProfile                 # Import + Show-ColorScript
@@ -116,33 +116,33 @@ Add-ColorScriptProfile -SkipStartupScript
 ```
 
 #### Customize Cache Location
-The cache location is automatically set based on your platform:
+缓存位置根据您的平台自动设置：
 
-Windows:
+Windows：
 ```powershell
 $env:APPDATA\ColorScripts-Enhanced\cache
 ```
 
-macOS:
+macOS：
 ```powershell
 ~/Library/Application Support/ColorScripts-Enhanced/cache
 ```
 
-Linux:
+Linux：
 ```powershell
 ~/.cache/ColorScripts-Enhanced
 ```
 
 ### NERD FONT GLYPHS
 
-Some scripts display Nerd Font icons (developer glyphs, powerline separators, checkmarks). Install a patched font so those characters render correctly:
+某些脚本显示 Nerd Font 图标（开发者字形、powerline 分隔符、复选标记）。安装补丁字体以使这些字符正确渲染：
 
-1. Download a font from https://www.nerdfonts.com/ (popular choices: Cascadia Code, JetBrainsMono, FiraCode).
-2. Windows: extract the `.zip`, select the `.ttf` files, right-click → **Install for all users**.
-   macOS: `brew install --cask font-caskaydia-cove-nerd-font` or add via Font Book.
-   Linux: copy `.ttf` files to `~/.local/share/fonts` (or `/usr/local/share/fonts`) and run `fc-cache -fv`.
-3. Set your terminal profile to use the installed Nerd Font.
-4. Verify glyphs with:
+1. 从 https://www.nerdfonts.com/ 下载字体（流行选择：Cascadia Code、JetBrainsMono、FiraCode）。
+2. Windows：提取 `.zip`，选择 `.ttf` 文件，右键 → **为所有用户安装**。
+   macOS：`brew install --cask font-caskaydia-cove-nerd-font` 或通过 Font Book 添加。
+   Linux：将 `.ttf` 文件复制到 `~/.local/share/fonts`（或 `/usr/local/share/fonts`）并运行 `fc-cache -fv`。
+3. 设置终端配置文件使用已安装的 Nerd Font。
+4. 使用以下命令验证字形：
 
 ```powershell
 Show-ColorScript -Name nerd-font-test
@@ -178,27 +178,27 @@ New-ColorScriptCache -Force
 ### TROUBLESHOOTING
 
 #### Scripts not displaying correctly
-Ensure your terminal supports UTF-8 and ANSI escape codes:
+确保您的终端支持 UTF-8 和 ANSI 转义码：
 ```powershell
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 ```
 
 #### Cache not working
-Clear and rebuild cache:
+清除并重建缓存：
 ```powershell
 Clear-ColorScriptCache -All
 New-ColorScriptCache
 ```
 
 #### Performance issues
-The first run of each script will be slower as it builds cache. Pre-build all caches:
+每个脚本的首次运行会较慢，因为它正在构建缓存。预构建所有缓存：
 ```powershell
 New-ColorScriptCache
 ```
 
 ### PERFORMANCE
 
-Typical performance improvements with caching:
+使用缓存的典型性能改进：
 
 | Script Type | Without Cache | With Cache | Speedup |
 |------------|---------------|------------|---------|
@@ -208,7 +208,7 @@ Typical performance improvements with caching:
 
 ### SCRIPT CATEGORIES
 
-The module includes scripts in various categories:
+模块包括各种类别的脚本：
 
 - **Geometric**: mandelbrot-zoom, apollonian-circles, sierpinski-carpet
 - **Nature**: galaxy-spiral, aurora-bands, crystal-drift
@@ -236,14 +236,14 @@ The module includes scripts in various categories:
 ### ADVANCED USAGE
 
 #### Building Cache for Specific Categories
-Cache all scripts in the Geometric category for optimal performance:
+为最佳性能缓存 Geometric 类别中的所有脚本：
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
 ```
 
 #### Performance Measurement
-Measure the performance improvement from caching:
+测量缓存的性能改进：
 ```powershell
 # Uncached performance (cold start)
 Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue
@@ -263,7 +263,7 @@ Write-Host "Speedup: $([math]::Round($uncached.TotalMilliseconds / $cached.Total
 ```
 
 #### Automation: Display Different Script Daily
-Set up your profile to show a different script each day:
+设置您的配置文件每天显示不同的脚本：
 ```powershell
 # In your $PROFILE file:
 $seed = (Get-Date).DayOfYear
@@ -273,7 +273,7 @@ Show-ColorScript
 ```
 
 #### Pipeline Operations with Metadata
-Export colorscript metadata for use in other tools:
+导出 colorscript 元数据以用于其他工具：
 ```powershell
 # Export to JSON for web dashboard
 Export-ColorScriptMetadata -Path ./dist/colorscripts.json -IncludeFileInfo
@@ -292,7 +292,7 @@ $scripts |
 ```
 
 #### Cache Management for CI/CD Environments
-Configure and manage cache for automated deployments:
+为自动化部署配置和管理缓存：
 ```powershell
 # Set temporary cache location for CI/CD
 Set-ColorScriptConfiguration -CachePath $env:TEMP\colorscripts-cache
@@ -307,7 +307,7 @@ Get-ChildItem $cacheDir -Filter "*.cache" | Measure-Object -Sum Length
 ```
 
 #### Filtering and Display Workflows
-Advanced filtering for customized displays:
+自定义显示的高级过滤：
 ```powershell
 # Display all recommended scripts with details
 Get-ColorScriptList -Tag Recommended -Detailed
@@ -325,10 +325,10 @@ Export-ColorScriptMetadata -IncludeFileInfo |
 
 ### ENVIRONMENT VARIABLES
 
-The module respects the following environment variables:
+模块尊重以下环境变量：
 
-- **COLORSCRIPTS_CACHE**: Override the default cache location
-- **PSModulePath**: Affects where the module is discovered
+- **COLORSCRIPTS_CACHE**: 覆盖默认缓存位置
+- **PSModulePath**: 影响模块发现位置
 
 ### PERFORMANCE TUNING
 
@@ -340,9 +340,9 @@ The module respects the following environment variables:
 | Complex (200-300ms) | ~300ms | ~16ms | 19x faster |
 
 #### Cache Size Information
-- Average cache file size: 2-50KB per script
-- Total cache size for all scripts: ~2-5MB
-- Cache location: Uses OS-appropriate paths for minimal footprint
+- 平均缓存文件大小：每个脚本 2-50KB
+- 所有脚本的总缓存大小：~2-5MB
+- 缓存位置：使用适合 OS 的路径以最小化占用空间
 
 ### TROUBLESHOOTING ADVANCED ISSUES
 
@@ -359,7 +359,7 @@ Import-Module "C:\Path\To\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
 ```
 
 #### Cache Corruption
-Clear and rebuild completely:
+完全清除并重建：
 ```powershell
 # Remove module from session
 Remove-Module ColorScripts-Enhanced -Force
@@ -373,7 +373,7 @@ New-ColorScriptCache -Force
 ```
 
 #### Performance Degradation
-If performance worsens over time:
+如果性能随时间恶化：
 ```powershell
 # Check cache directory size
 $cacheDir = (Get-ColorScriptConfiguration).Cache.Path
@@ -389,42 +389,42 @@ New-ColorScriptCache
 ### PLATFORM-SPECIFIC NOTES
 
 #### Windows PowerShell 5.1
-- Limited to Windows only
-- Use `powershell.exe` to run scripts
-- Some advanced features may be unavailable
-- Recommended to upgrade to PowerShell 7+
+- 仅限于 Windows
+- 使用 `powershell.exe` 运行脚本
+- 某些高级功能可能不可用
+- 推荐升级到 PowerShell 7+
 
 #### PowerShell 7+ (Cross-Platform)
-- Full support on Windows, macOS, and Linux
-- Use `pwsh` command
-- All features fully functional
-- Recommended for new deployments
+- 在 Windows、macOS 和 Linux 上完全支持
+- 使用 `pwsh` 命令
+- 所有功能完全正常
+- 推荐用于新部署
 
 ### DETAILED COMMAND REFERENCE
 
 #### Core Commands Overview
-The module provides 10 main commands for managing and displaying colorscripts:
+模块提供 10 个主要命令用于管理和显示 colorscripts：
 
 **Display Commands:**
-- `Show-ColorScript` - Display colorscripts with multiple modes (random, named, list, all)
-- `Get-ColorScriptList` - List available colorscripts with detailed metadata
+- `Show-ColorScript` - 以多种模式显示 colorscripts（random、named、list、all）
+- `Get-ColorScriptList` - 列出具有详细元数据的可用 colorscripts
 
 **Cache Management:**
-- `New-ColorScriptCache` - Build cache files for performance
-- `Clear-ColorScriptCache` - Remove cache files with filtering options
-- `Build-ColorScriptCache` - Alias for New-ColorScriptCache
+- `New-ColorScriptCache` - 构建缓存文件以提高性能
+- `Clear-ColorScriptCache` - 删除具有过滤选项的缓存文件
+- `Build-ColorScriptCache` - New-ColorScriptCache 的别名
 
 **Configuration:**
-- `Get-ColorScriptConfiguration` - Retrieve current configuration settings
-- `Set-ColorScriptConfiguration` - Persist configuration changes
-- `Reset-ColorScriptConfiguration` - Restore factory defaults
+- `Get-ColorScriptConfiguration` - 检索当前配置设置
+- `Set-ColorScriptConfiguration` - 持久保存配置更改
+- `Reset-ColorScriptConfiguration` - 恢复出厂默认值
 
 **Profile Integration:**
-- `Add-ColorScriptProfile` - Integrate module into PowerShell profile
+- `Add-ColorScriptProfile` - 将模块集成到 PowerShell 配置文件
 
 **Development:**
-- `New-ColorScript` - Scaffold new colorscript template
-- `Export-ColorScriptMetadata` - Export metadata for automation
+- `New-ColorScript` - 搭建新的 colorscript 模板
+- `Export-ColorScriptMetadata` - 导出元数据用于自动化
 
 #### Command Usage Patterns
 
@@ -590,7 +590,7 @@ Get-ColorScriptList -AsObject |
 ### ADVANCED TOPICS
 
 #### Topic 1: Cache Strategy Selection
-Different caching strategies for different scenarios:
+不同场景的不同缓存策略：
 
 **Full Cache Strategy** (Optimal for Workstations)
 ```powershell
@@ -615,21 +615,21 @@ Show-ColorScript -NoCache
 ```
 
 #### Topic 2: Metadata Organization
-Understanding and organizing colorscripts by metadata:
+按元数据理解和组织 colorscripts：
 
-**Categories** - Broad organizational groupings:
-- Geometric: Fractals, mathematical patterns
-- Nature: Landscapes, organic themes
-- Artistic: Creative, abstract designs
-- Gaming: Game-related themes
-- System: OS/technology themed
+**Categories** - 广泛的组织分组：
+- Geometric: 分形、数学模式
+- Nature: 景观、有机主题
+- Artistic: 创意、抽象设计
+- Gaming: 游戏相关主题
+- System: OS/技术主题
 
-**Tags** - Specific descriptors:
-- Recommended: Curated for general use
-- Animated: Moving/changing patterns
-- Colorful: Multi-color palettes
-- Minimal: Simple, clean designs
-- Retro: Classic 80s/90s aesthetics
+**Tags** - 具体描述符：
+- Recommended: 为一般使用而策划
+- Animated: 移动/变化模式
+- Colorful: 多色调色板
+- Minimal: 简单、干净设计
+- Retro: 经典 80 年代/90 年代美学
 
 #### Topic 3: Performance Optimization Tips
 ```powershell
@@ -777,54 +777,54 @@ Add-ColorScriptProfile -Force
 ### FAQ
 
 **Q: How many colorscripts are available?**
-A: 450++ built-in scripts across multiple categories and tags
+A: 450++ 个内置脚本跨越多个类别和标签
 
 **Q: How much disk space does caching use?**
-A: Approximately 2-5MB total for all scripts, about 2-50KB per script
+A: 所有脚本总共大约 2-5MB，每个脚本约 2-50KB
 
 **Q: Can I use colorscripts in scripts/automation?**
-A: Yes, use `-ReturnText` to capture output or `-PassThru` for metadata
+A: 是的，使用 `-ReturnText` 捕获输出或 `-PassThru` 获取元数据
 
 **Q: How do I create custom colorscripts?**
-A: Use `New-ColorScript` to scaffold a template, then add your ANSI art
+A: 使用 `New-ColorScript` 搭建模板，然后添加您的 ANSI 艺术
 
 **Q: What if I don't want colors on startup?**
-A: Use `Add-ColorScriptProfile -SkipStartupScript` to import without auto-display
+A: 使用 `Add-ColorScriptProfile -SkipStartupScript` 导入而不自动显示
 
 **Q: Can I use this on macOS/Linux?**
-A: Yes, with PowerShell 7+ which runs cross-platform
+A: 是的，使用 PowerShell 7+ 它是跨平台的
 
 **Q: How do I share colorscripts with colleagues?**
-A: Export metadata with `Export-ColorScriptMetadata` or share script files
+A: 使用 `Export-ColorScriptMetadata` 导出元数据或共享脚本文件
 
 **Q: Is caching always enabled?**
-A: No, use `-NoCache` to disable caching for development/testing
+A: 不是，使用 `-NoCache` 在开发/测试中禁用缓存
 
 ### BEST PRACTICES
 
-1. **Install from PowerShell Gallery**: Use `Install-Module` for automatic updates
-2. **Add to Profile**: Use `Add-ColorScriptProfile` for automatic startup integration
-3. **Pre-build Cache**: Run `New-ColorScriptCache` after installation for optimal performance
-4. **Use Meaningful Naming**: When creating custom scripts, use descriptive names
-5. **Keep Metadata Updated**: Update ScriptMetadata.psd1 when adding scripts
-6. **Test in Different Terminals**: Verify scripts display correctly across your environments
-7. **Monitor Cache Size**: Periodically check cache directory size and clean if needed
-8. **Use Categories/Tags**: Leverage filtering for faster script discovery
-9. **Document Custom Scripts**: Add descriptions and tags to custom colorscripts
-10. **Backup Configuration**: Export configuration before major changes
+1. **Install from PowerShell Gallery**: 使用 `Install-Module` 进行自动更新
+2. **Add to Profile**: 使用 `Add-ColorScriptProfile` 进行自动启动集成
+3. **Pre-build Cache**: 安装后运行 `New-ColorScriptCache` 以获得最佳性能
+4. **Use Meaningful Naming**: 创建自定义脚本时使用描述性名称
+5. **Keep Metadata Updated**: 添加脚本时更新 ScriptMetadata.psd1
+6. **Test in Different Terminals**: 验证脚本在您的环境中正确显示
+7. **Monitor Cache Size**: 定期检查缓存目录大小并在需要时清理
+8. **Use Categories/Tags**: 利用过滤以更快发现脚本
+9. **Document Custom Scripts**: 为自定义 colorscripts 添加描述和标签
+10. **Backup Configuration**: 在重大更改前导出配置
 
 ### VERSION HISTORY
 
 #### Version 2025.10.09
-- Enhanced caching system with OS-wide cache
-- 6-19x performance improvement
-- Centralized cache location in AppData
-- 450++ colorscripts included
-- Full comment-based help documentation
-- Module manifest improvements
-- Advanced configuration management
-- Metadata export capabilities
-- Profile integration helpers
+- 具有 OS 范围缓存的增强缓存系统
+- 6-19 倍性能改进
+- AppData 中的集中缓存位置
+- 包含 450++ 个 colorscripts
+- 完整的基于注释的帮助文档
+- 模块清单改进
+- 高级配置管理
+- 元数据导出功能
+- 配置文件集成助手
 
 ### COPYRIGHT
 

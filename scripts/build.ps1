@@ -198,6 +198,7 @@ A powerful PowerShell module that brings beautiful ANSI art colorscripts to your
 • Centralized cache in AppData/ColorScripts-Enhanced
 • Configuration persistence for user preferences
 • Rich metadata and script discovery
+• 🌍 Internationalization: English & Spanish support
 
 🚀 QUICK START
 Display random art: Show-ColorScript (or use alias: scs)
@@ -229,7 +230,7 @@ PERFECT FOR
 '@
     ProjectUri            = "https://github.com/Nick2bad4u/ps-color-scripts-enhanced"
     IconUri               = "https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/docs/colorscripts-icon.png"
-    Tags                  = @("ColorScripts", "ANSI", "Terminal", "Art", "Cache", "Performance", "PowerShell", "Startup", "Terminal-Startup", "ANSI-Art", "Colorful-Terminal", "PowerShell-Art", "Fancy-Terminal", "Terminal-Enhancement", "Beautiful-Terminal", "Terminal-Colors", "PowerShell-Scripts", "Terminal-Art", "Colorful-Scripts", "Enhanced-Terminal", "Terminal-Visuals", "PowerShell-Module", "Colorful-Output", "Terminal-Themes", "PSEdition_Desktop", "PSEdition_Core", "Windows", "Linux", "MacOS")
+    Tags                  = @("ColorScripts", "ANSI", "Terminal", "Art", "Cache", "Performance", "PowerShell", "Startup", "Terminal-Startup", "ANSI-Art", "Colorful-Terminal", "PowerShell-Art", "Fancy-Terminal", "Terminal-Enhancement", "Beautiful-Terminal", "Terminal-Colors", "PowerShell-Scripts", "Terminal-Art", "Colorful-Scripts", "Enhanced-Terminal", "Terminal-Visuals", "PowerShell-Module", "Colorful-Output", "Terminal-Themes", "PSEdition_Desktop", "PSEdition_Core", "Windows", "Linux", "MacOS", "Localization", "Internationalization", "Spanish", "Español", "Multilingual")
     FileList              = @(
         "ColorScripts-Enhanced.psm1",
         "ColorScripts-Enhanced.psd1",
@@ -250,6 +251,7 @@ Version ${Version}:
     - Scripts optimized for performance and visual quality
     - Cross-platform support (Windows, Linux, macOS)
     - PowerShell 5.1+ and PowerShell Core 7+ compatible
+    - 🌍 Internationalization: English & Spanish, and more support
 "@
     PassThru              = $true
 }
@@ -279,6 +281,7 @@ Version ${Version}:
 - Scripts optimized for performance and visual quality
 - Cross-platform support (Windows, Linux, macOS)
 - PowerShell 5.1+ and PowerShell Core 7+ compatible
+- 🌍 Internationalization: English & Spanish, and more support
 "@
 
     $manifestContent = @"

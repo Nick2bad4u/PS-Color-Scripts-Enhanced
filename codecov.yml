@@ -132,7 +132,7 @@ coverage:
                     - module
                 paths:
                     - "ColorScripts-Enhanced/"
-                target: 75%
+                target: 95%
                 threshold: 10%
             tests:
                 flags:
@@ -153,19 +153,19 @@ coverage:
                     - module
                 paths:
                     - "ColorScripts-Enhanced/"
-                target: 90% # High target for core module
+                target: 95% # High target for core module
                 threshold: 2%
             tests:
                 flags:
                     - tests
                 paths:
                     - "Tests/"
-                target: 85%
+                target: 95%
                 threshold: 3%
 
 flags:
     module:
-        carryforward: false
+        carryforward: true
         ignore:
             - "Tests/**/*"  # Don't include tests in module coverage
             - "scripts/**/*"
@@ -173,7 +173,7 @@ flags:
         paths:
             - ColorScripts-Enhanced/
     tests:
-        carryforward: false
+        carryforward: true
         ignore:
             - "ColorScripts-Enhanced/**/*"  # Don't include module in test coverage
         paths:
@@ -197,6 +197,8 @@ parsers:
         enable_partials: true
     v1:
         include_full_missed_files: true
+    jacoco:
+        partials_as_hits: true #false by default
 
 # Modern Slack integration
 slack_app: false # Set to true to enable Codecov Slack App notifications

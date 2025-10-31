@@ -37,6 +37,9 @@ $script:IsWindows = $IsWindows
 $script:IsMacOS = $IsMacOS
 $script:PowerShellMajorVersion = $PSVersionTable.PSVersion.Major
 
+# Import localized messages
+Import-LocalizedData -BindingVariable "script:Messages" -FileName "Messages" -BaseDirectory $PSScriptRoot
+
 function ConvertFrom-JsonToHashtable {
     <#
     .SYNOPSIS
@@ -438,7 +441,7 @@ function Get-ColorScriptsConfigurationRoot {
         }
     }
 
-    throw "Unable to determine configuration directory for ColorScripts-Enhanced."
+    throw $script:Messages.UnableToDetermineConfigurationDirectory
 }
 
 function Save-ColorScriptConfiguration {
@@ -450,7 +453,7 @@ function Save-ColorScriptConfiguration {
 
     $configRoot = Get-ColorScriptsConfigurationRoot
     if (-not $configRoot) {
-        throw 'Configuration root could not be resolved.'
+        throw $script:Messages.ConfigurationRootCouldNotBeResolved
     }
 
     $script:ConfigurationPath = Join-Path -Path $configRoot -ChildPath 'config.json'
@@ -508,7 +511,7 @@ function Initialize-Configuration {
             }
         }
         catch {
-            Write-Warning "Failed to parse configuration file at '$script:ConfigurationPath': $($_.Exception.Message). Using defaults."
+            Write-Warning ($script:Messages.FailedToParseConfigurationFile + "'$script:ConfigurationPath': $($_.Exception.Message). Using defaults.")
             $forceSave = $true
             $raw = $null
         }
@@ -585,7 +588,7 @@ function Set-ColorScriptConfiguration {
         else {
             $resolvedCache = Resolve-CachePath -Path $CachePath
             if (-not $resolvedCache) {
-                throw "Unable to resolve cache path '$CachePath'."
+                throw ($script:Messages.UnableToResolveCachePath + "'$CachePath'.")
             }
 
             if (-not (Test-Path -LiteralPath $resolvedCache)) {
@@ -1073,7 +1076,7 @@ function Initialize-CacheDirectory {
             $candidatePaths += $configuredPath
         }
         else {
-            Write-Warning "Configured cache path '$($configData.Cache.Path)' could not be resolved. Falling back to default locations."
+            Write-Warning ($script:Messages.ConfiguredCachePathInvalid + "'$($configData.Cache.Path)' could not be resolved. Falling back to default locations.")
         }
     }
 
@@ -1122,7 +1125,7 @@ function Initialize-CacheDirectory {
             return
         }
         catch {
-            Write-Warning "Unable to prepare cache directory '$target': $($_.Exception.Message)"
+            Write-Warning ($script:Messages.UnableToPrepareCacheDirectory + "'$target': $($_.Exception.Message)")
         }
     }
 
@@ -1910,7 +1913,7 @@ function Invoke-ColorScriptProcess {
     }
 
     if (-not (Test-Path -LiteralPath $ScriptPath)) {
-        $result.StdErr = 'Script path not found.'
+        $result.StdErr = $script:Messages.ScriptPathNotFound
         return $result
     }
 
@@ -1996,7 +1999,7 @@ function Build-ScriptCache {
 
     # Use .NET File.Exists for faster check
     if (-not [System.IO.File]::Exists($ScriptPath)) {
-        $result.StdErr = "Script path not found."
+        $result.StdErr = $script:Messages.ScriptPathNotFound
         return $result
     }
 
@@ -2026,7 +2029,7 @@ function Build-ScriptCache {
         }
     }
     elseif (-not $result.StdErr) {
-        $result.StdErr = "Script exited with code $($execution.ExitCode)."
+        $result.StdErr = ($script:Messages.ScriptExitedWithCode -f $execution.ExitCode)
     }
 
     return $result
@@ -2177,7 +2180,7 @@ function Show-ColorScript {
         }
 
         if (-not $allScripts -or $allScripts.Count -eq 0) {
-            Write-Warning "No colorscripts found matching the specified criteria."
+            Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria
             return
         }
 
@@ -2186,12 +2189,12 @@ function Show-ColorScript {
         $totalCount = $sortedScripts.Count
         $currentIndex = 0
 
-        Write-Host "`nDisplaying $totalCount colorscripts..." -ForegroundColor Cyan
+        Write-Host ($script:Messages.DisplayingColorscripts -f $totalCount) -ForegroundColor Cyan
         if ($WaitForInput) {
-            Write-Host "Press [Spacebar] to continue to next, [Q] to quit`n" -ForegroundColor Yellow
+            Write-Host $script:Messages.PressSpacebarToContinue -ForegroundColor Yellow
         }
         else {
-            Write-Host "Displaying continuously (Ctrl+C to stop)`n" -ForegroundColor Yellow
+            Write-Host $script:Messages.DisplayingContinuously -ForegroundColor Yellow
         }
 
         foreach ($script in $sortedScripts) {
@@ -2199,7 +2202,7 @@ function Show-ColorScript {
 
             # Clear screen and show progress
             Clear-Host
-            Write-Host "[$currentIndex/$totalCount] " -NoNewline -ForegroundColor Green
+            Write-Host ($script:Messages.CurrentIndexOfTotal -f $currentIndex, $totalCount) -NoNewline -ForegroundColor Green
             Write-Host $script.Name -ForegroundColor Cyan
             Write-Host ("=" * 60) -ForegroundColor DarkGray
             Write-Host ""
@@ -2232,7 +2235,7 @@ function Show-ColorScript {
             # Wait for input if requested
             if ($WaitForInput -and $currentIndex -lt $totalCount) {
                 Write-Host ""
-                Write-Host "Press [Spacebar] for next, [Q] to quit..." -NoNewline -ForegroundColor Yellow
+                Write-Host $script:Messages.PressSpacebarForNext -NoNewline -ForegroundColor Yellow
 
                 $continueLoop = $true
                 while ($continueLoop) {
@@ -2242,7 +2245,7 @@ function Show-ColorScript {
                         $continueLoop = $false
                     }
                     elseif ($key.Character -eq 'q' -or $key.Character -eq 'Q') {
-                        Write-Host "`nQuitting..." -ForegroundColor Yellow
+                        Write-Host $script:Messages.Quitting -ForegroundColor Yellow
                         return
                     }
                 }
@@ -2255,7 +2258,7 @@ function Show-ColorScript {
         }
 
         Write-Host "`n" -NoNewline
-        Write-Host "Finished displaying all $totalCount colorscripts!" -ForegroundColor Green
+        Write-Host ($script:Messages.FinishedDisplayingAll -f $totalCount) -ForegroundColor Green
         return
     }
 
@@ -2272,14 +2275,14 @@ function Show-ColorScript {
     }
 
     if (-not $records -or $records.Count -eq 0) {
-        Write-Warning "No colorscripts found in $script:ScriptsPath"
+        Write-Warning ($script:Messages.NoColorscriptsFoundInScriptsPath -f $script:ScriptsPath)
         return
     }
 
     if ($Name) {
         $selectionResult = Select-RecordsByName -Records $records -Name $Name
         foreach ($pattern in $selectionResult.MissingPatterns) {
-            Write-Warning "Colorscript '$pattern' not found with the specified filters."
+            Write-Warning ($script:Messages.ColorscriptNotFoundWithFilters -f $pattern)
         }
 
         $records = $selectionResult.Records
@@ -2296,7 +2299,7 @@ function Show-ColorScript {
         $orderedMatches = $records | Sort-Object Name
         if ($orderedMatches.Count -gt 1) {
             $matchedNames = $orderedMatches | Select-Object -ExpandProperty Name
-            Write-Verbose "Multiple colorscripts matched the provided name pattern(s): $($matchedNames -join ', '). Displaying '$($orderedMatches[0].Name)'."
+            Write-Verbose ($script:Messages.MultipleColorscriptsMatched -f $matchedNames, $orderedMatches[0].Name)
         }
         $selection = $orderedMatches | Select-Object -First 1
     }
@@ -2323,11 +2326,11 @@ function Show-ColorScript {
             $cacheResult = Build-ScriptCache -ScriptPath $selection.Path
             if (-not $cacheResult.Success) {
                 if ($cacheResult.StdErr) {
-                    Write-Warning "Cache build failed for $($selection.Name): $($cacheResult.StdErr.Trim())"
+                    Write-Warning $script:Messages.CacheBuildFailedForScript
                 }
 
                 if ([string]::IsNullOrEmpty($cacheResult.StdOut)) {
-                    throw "Failed to build cache for $($selection.Name)."
+                    throw $script:Messages.FailedToBuildCacheForScript
                 }
 
                 $renderedOutput = $cacheResult.StdOut
@@ -2341,7 +2344,7 @@ function Show-ColorScript {
         $executionResult = Invoke-ColorScriptProcess -ScriptPath $selection.Path
         if (-not $executionResult.Success) {
             $errorMessage = if ($executionResult.StdErr) { $executionResult.StdErr.Trim() } else { "Script exited with code $($executionResult.ExitCode)." }
-            throw "Failed to execute colorscript '$($selection.Name)': $errorMessage"
+            throw ($script:Messages.FailedToExecuteColorscript + "'$($selection.Name)': $errorMessage")
         }
 
         $renderedOutput = $executionResult.StdOut
@@ -2412,14 +2415,14 @@ function Get-ColorScriptList {
     if ($Name) {
         $selection = Select-RecordsByName -Records $records -Name $Name
         foreach ($pattern in $selection.MissingPatterns) {
-            Write-Warning "Colorscript '$pattern' not found with the specified filters."
+            Write-Warning ($script:Messages.ScriptNotFound -f $pattern)
         }
 
         $records = $selection.Records
     }
 
     if (-not $records) {
-        Write-Warning "No colorscripts available with the specified filters."
+        Write-Warning $script:Messages.NoColorscriptsAvailableWithFilters
         return [System.Object[]]@()
     }
 
@@ -2503,7 +2506,7 @@ function Export-ColorScriptMetadata {
                 $entry['ScriptPath'] = $record.Path
                 $entry['ScriptSizeBytes'] = $null
                 $entry['ScriptLastWriteTimeUtc'] = $null
-                Write-Verbose "Unable to retrieve file info for '$($record.Name)': $($_.Exception.Message)"
+                Write-Verbose ($script:Messages.UnableToRetrieveFileInfo -f $record.Name, $_.Exception.Message)
             }
         }
 
@@ -2519,7 +2522,7 @@ function Export-ColorScriptMetadata {
                     $cacheTimestamp = $cacheInfo.LastWriteTimeUtc
                 }
                 catch {
-                    Write-Verbose "Unable to read cache info for '$($record.Name)': $($_.Exception.Message)"
+                    Write-Verbose ($script:Messages.UnableToReadCacheInfo -f $record.Name, $_.Exception.Message)
                 }
             }
 
@@ -2534,7 +2537,7 @@ function Export-ColorScriptMetadata {
     if ($Path) {
         $resolvedPath = Resolve-CachePath -Path $Path
         if (-not $resolvedPath) {
-            throw "Unable to resolve output path '$Path'."
+            throw ($script:Messages.UnableToResolveOutputPath + "'$Path'.")
         }
 
         $outputDirectory = Split-Path -Path $resolvedPath -Parent
@@ -2636,12 +2639,12 @@ function New-ColorScriptCache {
         if ($selectedNames.Count -gt 0) {
             $selection = Select-RecordsByName -Records $filteredRecords -Name $selectedNames
             foreach ($pattern in $selection.MissingPatterns) {
-                Write-Warning "Script not found: $pattern"
+                Write-Warning ($script:Messages.ScriptNotFound -f $pattern)
             }
             $records = $selection.Records
         }
         elseif ($allExplicitlyDisabled) {
-            throw "Specify -Name to select scripts when -All is explicitly disabled."
+            throw $script:Messages.SpecifyNameToSelectScripts
         }
         else {
             $records = $filteredRecords
@@ -2660,7 +2663,7 @@ function New-ColorScriptCache {
         $recordCount = ($records | Measure-Object).Count
 
         if ($recordCount -eq 0) {
-            Write-Warning "No scripts selected for cache build."
+            Write-Warning $script:Messages.NoScriptsSelectedForCacheBuild
             return [System.Management.Automation.PSCustomObject[]]@()
         }
 
@@ -2719,7 +2722,7 @@ function New-ColorScriptCache {
                     $resultStatus = if ($buildResult.Success) { 'Updated' } else { 'Failed' }
 
                     if (-not $buildResult.Success -and $buildResult.StdErr) {
-                        Write-Warning ("Failed to cache {0}: {1}" -f $scriptName, $buildResult.StdErr)
+                        Write-Warning $script:Messages.CacheBuildFailedForScript
                     }
 
                     $entry = [pscustomobject]@{
@@ -2738,10 +2741,10 @@ function New-ColorScriptCache {
             $completionPercent = if ($totalCount -gt 0) { [int]((($index + 1) / [double]$totalCount) * 100) } else { 0 }
             $statusSuffix = $resultStatus
             switch ($resultStatus) {
-                'Updated' { $statusSuffix = 'Cached' }
-                'SkippedUpToDate' { $statusSuffix = 'Skipped (up-to-date)' }
-                'SkippedByUser' { $statusSuffix = 'Skipped by user' }
-                'Failed' { $statusSuffix = 'Failed' }
+                'Updated' { $statusSuffix = $script:Messages.StatusCached }
+                'SkippedUpToDate' { $statusSuffix = $script:Messages.StatusSkippedUpToDate }
+                'SkippedByUser' { $statusSuffix = $script:Messages.StatusSkippedByUser }
+                'Failed' { $statusSuffix = $script:Messages.StatusFailed }
             }
 
             $completionMessage = "{0}/{1}: {2} - {3}" -f ($index + 1), $totalCount, $scriptName, $statusSuffix
@@ -2759,7 +2762,7 @@ function New-ColorScriptCache {
                 }
             }
 
-            Write-Host "`nCache Build Summary:" -ForegroundColor Cyan
+            Write-Host $script:Messages.CacheBuildSummary -ForegroundColor Cyan
             Write-Host ("=" * 40) -ForegroundColor Cyan
 
             foreach ($item in $summary) {
@@ -2771,9 +2774,9 @@ function New-ColorScriptCache {
                     default { 'White' }
                 }
                 $statusText = switch ($item.Status) {
-                    'SkippedUpToDate' { 'Up-to-date (skipped)' }
-                    'Failed' { 'Failed' }
-                    'SkippedByUser' { 'Skipped by user' }
+                    'SkippedUpToDate' { $script:Messages.StatusUpToDateSkipped }
+                    'Failed' { $script:Messages.StatusFailed }
+                    'SkippedByUser' { $script:Messages.StatusSkippedByUser }
                     default { $item.Status }
                 }
                 Write-Host ("  {0,-25} {1}" -f $statusText, $item.Count) -ForegroundColor $color
@@ -2781,14 +2784,14 @@ function New-ColorScriptCache {
 
             $failed = $results | Where-Object { $_.Status -eq 'Failed' }
             if ($failed) {
-                Write-Host "`nFailed scripts:" -ForegroundColor Red
+                Write-Host $script:Messages.FailedScripts -ForegroundColor Red
                 foreach ($failure in $failed) {
-                    Write-Host "  - $($failure.Name): $($failure.StdErr)" -ForegroundColor Red
+                    Write-Host ($script:Messages.FailedScriptDetails -f $failure.Name, $failure.StdErr) -ForegroundColor Red
                 }
             }
 
-            Write-Host "`nTotal scripts processed: $totalCount" -ForegroundColor Cyan
-            Write-Host "Use -PassThru to see detailed results`n" -ForegroundColor Gray
+            Write-Host ($script:Messages.TotalScriptsProcessed -f $totalCount) -ForegroundColor Cyan
+            Write-Host $script:Messages.UsePassThruForDetailedResults -ForegroundColor Gray
         }
 
         if ($PassThru) {
@@ -2911,7 +2914,7 @@ function Clear-ColorScriptCache {
                 }
 
                 foreach ($skipped in $skippedByFilter) {
-                    Write-Warning "Script '$skipped' does not satisfy the specified filters and will be skipped."
+                    Write-Warning ($script:Messages.ScriptSkippedByFilter -f $skipped)
                 }
             }
         }
@@ -2921,11 +2924,11 @@ function Clear-ColorScriptCache {
 
         if (-not $operateOnAll -and $selectedNames.Count -eq 0) {
             if ($filtersSpecified) {
-                Write-Warning "No scripts matched the specified filters."
+                Write-Warning $script:Messages.NoScriptsMatchedSpecifiedFilters
                 return [pscustomobject[]]@()
             }
 
-            throw "Specify -All or -Name to clear cache entries."
+            throw $script:Messages.SpecifyAllOrNameToClearCache
         }
 
         # Lazy initialization: only initialize cache when clearing
@@ -2937,7 +2940,7 @@ function Clear-ColorScriptCache {
             $targetRoot = (Resolve-Path -LiteralPath $targetRoot -ErrorAction Stop).ProviderPath
         }
         catch {
-            Write-Warning "Cache path not found: $targetRoot"
+            Write-Warning ($script:Messages.CachePathNotFound -f $targetRoot)
             return [pscustomobject[]]@()
         }
 
@@ -2973,7 +2976,7 @@ function Clear-ColorScriptCache {
                         Name      = $patternInfo.Pattern
                         CacheFile = Join-Path -Path $targetRoot -ChildPath ("{0}.cache" -f $patternInfo.Pattern)
                         Status    = 'Missing'
-                        Message   = 'Cache file not found.'
+                        Message   = $script:Messages.CacheFileNotFound
                     }
                     continue
                 }
@@ -2991,7 +2994,7 @@ function Clear-ColorScriptCache {
                             Name      = $matchedName
                             CacheFile = Join-Path -Path $targetRoot -ChildPath ("{0}.cache" -f $matchedName)
                             Status    = 'Missing'
-                            Message   = 'Cache file not found.'
+                            Message   = $script:Messages.CacheFileNotFound
                         }
                         continue
                     }
@@ -3003,7 +3006,7 @@ function Clear-ColorScriptCache {
                             Name      = $matchedName
                             CacheFile = $cacheFile
                             Status    = 'Missing'
-                            Message   = 'Cache file not found.'
+                            Message   = $script:Messages.CacheFileNotFound
                         }
                         continue
                     }
@@ -3023,7 +3026,7 @@ function Clear-ColorScriptCache {
                             Name      = $matchedName
                             CacheFile = $cacheFile
                             Status    = 'DryRun'
-                            Message   = 'No changes applied.'
+                            Message   = $script:Messages.NoChangesApplied
                         }
                         continue
                     }
@@ -3052,7 +3055,7 @@ function Clear-ColorScriptCache {
             $cacheFiles = Get-ChildItem -LiteralPath $targetRoot -File -ErrorAction SilentlyContinue |
                 Where-Object { $_.Extension -eq '.cache' }
             if (-not $cacheFiles) {
-                Write-Warning "No cache files found at $targetRoot."
+                Write-Warning ($script:Messages.NoCacheFilesFound -f $targetRoot)
                 return [System.Management.Automation.PSCustomObject[]]@()
             }
 
@@ -3066,7 +3069,7 @@ function Clear-ColorScriptCache {
                         Name      = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
                         CacheFile = $file.FullName
                         Status    = 'DryRun'
-                        Message   = 'No changes applied.'
+                        Message   = $script:Messages.NoChangesApplied
                     }
                     continue
                 }
@@ -3149,7 +3152,7 @@ function New-ColorScript {
     if ($PSBoundParameters.ContainsKey('OutputPath')) {
         $resolvedOutput = Resolve-CachePath -Path $OutputPath
         if (-not $resolvedOutput) {
-            throw "Unable to resolve output path '$OutputPath'."
+            throw ($script:Messages.UnableToResolveOutputPath + "'$OutputPath'.")
         }
         $targetDirectory = $resolvedOutput
     }
@@ -3161,7 +3164,7 @@ function New-ColorScript {
     $targetPath = Join-Path -Path $targetDirectory -ChildPath ("{0}.ps1" -f $Name)
 
     if ((Test-Path -LiteralPath $targetPath) -and -not $Force) {
-        throw "Script '$targetPath' already exists. Use -Force to overwrite."
+        throw ($script:Messages.ScriptAlreadyExists -f $targetPath)
     }
 
     $template = @'
@@ -3254,11 +3257,11 @@ function Add-ColorScriptProfile {
     }
 
     if ($null -ne $PSSenderInfo) {
-        Write-Warning "Profile updates are not supported in remote sessions."
+        Write-Warning $script:Messages.ProfileUpdatesNotSupportedInRemote
         return [pscustomobject]@{
             Path    = $null
             Changed = $false
-            Message = 'Remote session detected.'
+            Message = $script:Messages.RemoteSessionDetected
         }
     }
 
@@ -3290,13 +3293,13 @@ function Add-ColorScriptProfile {
     if ($PSBoundParameters.ContainsKey('Path')) {
         $profilePath = Resolve-CachePath -Path $Path
         if (-not $profilePath) {
-            throw "Unable to resolve profile path '$Path'."
+            throw ($script:Messages.UnableToResolveProfilePath + "'$Path'.")
         }
     }
     else {
         $profilePath = $PROFILE.$Scope
         if ([string]::IsNullOrWhiteSpace($profilePath)) {
-            throw "Profile path for scope '$Scope' is not defined."
+            throw ($script:Messages.ProfilePathNotDefinedForScope -f $Scope)
         }
 
         $resolvedProfile = Resolve-CachePath -Path $profilePath
@@ -3349,11 +3352,11 @@ function Add-ColorScriptProfile {
     $pattern = '(?ms)^# Added by ColorScripts-Enhanced.*?(?:\r?\n){2}'
     if ($updatedContent -match $pattern) {
         if (-not $Force) {
-            Write-Verbose "Profile already contains ColorScripts-Enhanced snippet."
+            Write-Verbose $script:Messages.ProfileAlreadyContainsSnippet
             return [pscustomobject]@{
                 Path    = $profilePath
                 Changed = $false
-                Message = 'Profile already configured.'
+                Message = $script:Messages.ProfileAlreadyConfigured
             }
         }
 
@@ -3363,11 +3366,11 @@ function Add-ColorScriptProfile {
     $importPattern = '(?mi)^\s*Import-Module\s+ColorScripts-Enhanced\b.*$'
 
     if (-not $Force -and $existingContent -match $importPattern) {
-        Write-Verbose "Profile already imports ColorScripts-Enhanced."
+        Write-Verbose $script:Messages.ProfileAlreadyImportsModule
         return [pscustomobject]@{
             Path    = $profilePath
             Changed = $false
-            Message = 'Profile already configured.'
+            Message = $script:Messages.ProfileAlreadyConfigured
         }
     }
 
@@ -3388,12 +3391,12 @@ function Add-ColorScriptProfile {
 
         [System.IO.File]::WriteAllText($profilePath, $updatedContent + $newline, $script:Utf8NoBomEncoding)
 
-        Write-Host "[OK] Added ColorScripts-Enhanced startup snippet to $profilePath" -ForegroundColor Green
+        Write-Host ($script:Messages.ProfileSnippetAdded -f $profilePath) -ForegroundColor Green
 
         return [pscustomobject]@{
             Path    = $profilePath
             Changed = $true
-            Message = 'ColorScripts-Enhanced profile snippet added.'
+            Message = $script:Messages.ProfileSnippetAddedMessage
         }
     }
 }
@@ -3499,5 +3502,5 @@ Export-ModuleMember -Function @(
 ) -Alias @('scs', 'Update-ColorScriptCache')
 
 # Module initialization - cache and configuration are lazily loaded when first needed
-Write-Verbose "ColorScripts-Enhanced module loaded successfully."
+Write-Verbose $script:Messages.ModuleLoadedSuccessfully
 Invoke-ColorScriptsStartup

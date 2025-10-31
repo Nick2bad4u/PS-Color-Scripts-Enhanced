@@ -3,24 +3,24 @@
 ## about_ColorScripts-Enhanced
 
 ### SHORT DESCRIPTION
-Enhanced PowerShell ColorScripts with high-performance caching system for displaying beautiful ANSI art in your terminal.
+Улучшенные PowerShell ColorScripts с высокопроизводительной системой кэширования для отображения красивого ANSI искусства в вашем терминале.
 
 ### LONG DESCRIPTION
-ColorScripts-Enhanced is a PowerShell module that provides a collection of 450++ beautiful ANSI colorscripts for terminal display. It features an intelligent caching system that provides 6-19x performance improvements over traditional script execution.
+ColorScripts-Enhanced - это модуль PowerShell, который предоставляет коллекцию из 450++ красивых ANSI colorscripts для отображения в терминале. Он включает интеллектуальную систему кэширования, которая обеспечивает улучшение производительности в 6-19 раз по сравнению с традиционным выполнением скриптов.
 
-The module automatically caches script output to a centralized location in your AppData folder, enabling instant display on subsequent runs. Cache files are automatically validated and regenerated when source scripts are modified.
+Модуль автоматически кэширует вывод скриптов в централизованное место в вашей папке AppData, обеспечивая мгновенное отображение при последующих запусках. Файлы кэша автоматически проверяются и регенерируются при изменении исходных скриптов.
 
 ### FEATURES
-- 450++ beautiful pre-made colorscripts
-- High-performance caching system (6-19x faster)
-- Centralized cache location (works from any directory)
-- Automatic cache invalidation on script changes
-- UTF-8 encoding support for perfect rendering
-- Random colorscript selection
-- Easy script discovery and listing
-- Profile helper for one-line startup integration
-- Persistent configuration helpers for cache and startup behaviour
-- Metadata export and scaffolding workflows for custom scripts
+- 450++ красивых готовых colorscripts
+- Высокопроизводительная система кэширования (6-19 раз быстрее)
+- Централизованное расположение кэша (работает из любого каталога)
+- Автоматическая инвалидация кэша при изменении скриптов
+- Поддержка кодировки UTF-8 для идеального рендеринга
+- Случайный выбор colorscript
+- Легкое обнаружение и перечисление скриптов
+- Помощник профиля для однострочной интеграции запуска
+- Постоянные помощники конфигурации для поведения кэша и запуска
+- Рабочие процессы экспорта метаданных и scaffolding для пользовательских скриптов
 
 ### INSTALLATION
 
@@ -29,7 +29,7 @@ The module automatically caches script output to a centralized location in your 
 Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
 ```
 
-Add the module to your profile automatically:
+Добавьте модуль в ваш профиль автоматически:
 
 ```powershell
 Add-ColorScriptProfile             # Import + Show-ColorScript
@@ -37,78 +37,78 @@ Add-ColorScriptProfile -SkipStartupScript
 ```
 
 #### Manual Installation
-1. Download the module from GitHub
-2. Extract to a PowerShell module path:
+1. Скачайте модуль с GitHub
+2. Извлеките в путь модуля PowerShell:
    - User: `$HOME\Documents\PowerShell\Modules\ColorScripts-Enhanced`
    - System: `C:\Program Files\PowerShell\Modules\ColorScripts-Enhanced`
-3. Import the module:
+3. Импортируйте модуль:
    ```powershell
    Import-Module ColorScripts-Enhanced
    ```
 
 ### QUICK START
 
-Display a random colorscript:
+Отобразить случайный colorscript:
 ```powershell
 Show-ColorScript
 # or use the alias
 scs
 ```
 
-Display a specific colorscript:
+Отобразить конкретный colorscript:
 ```powershell
 Show-ColorScript -Name hearts
 scs mandelbrot-zoom
 ```
 
-List all available colorscripts:
+Перечислить все доступные colorscripts:
 ```powershell
 Show-ColorScript -List
 Get-ColorScriptList
 ```
 
-Pre-build cache for all scripts:
+Предварительно построить кэш для всех скриптов:
 ```powershell
 New-ColorScriptCache
 ```
 
 ### COMMANDS
 
-The module exports the following commands:
+Модуль экспортирует следующие команды:
 
-- `Show-ColorScript` - Display colorscripts (alias: scs)
-- `Get-ColorScriptList` - List available colorscripts
-- `New-ColorScriptCache` - Pre-generate cache files
-- `Clear-ColorScriptCache` - Remove cache files
-- `Add-ColorScriptProfile` - Append module startup snippet to a PowerShell profile
-- `Get-ColorScriptConfiguration` - Inspect cache and startup defaults
-- `Set-ColorScriptConfiguration` - Persist custom configuration values
-- `Reset-ColorScriptConfiguration` - Restore configuration defaults
-- `Export-ColorScriptMetadata` - Export script metadata for automation
-- `New-ColorScript` - Scaffold a new colorscript and metadata snippet
+- `Show-ColorScript` - Отображать colorscripts (alias: scs)
+- `Get-ColorScriptList` - Перечислить доступные colorscripts
+- `New-ColorScriptCache` - Предварительно генерировать файлы кэша
+- `Clear-ColorScriptCache` - Удалить файлы кэша
+- `Add-ColorScriptProfile` - Добавить фрагмент запуска модуля в профиль PowerShell
+- `Get-ColorScriptConfiguration` - Проверить кэш и значения по умолчанию запуска
+- `Set-ColorScriptConfiguration` - Сохранить пользовательские значения конфигурации
+- `Reset-ColorScriptConfiguration` - Восстановить значения по умолчанию конфигурации
+- `Export-ColorScriptMetadata` - Экспортировать метаданные скриптов для автоматизации
+- `New-ColorScript` - Создать новый colorscript и фрагмент метаданных
 
-Use `Get-Help <CommandName> -Full` for detailed help on each command.
+Используйте `Get-Help <CommandName> -Full` для подробной справки по каждой команде.
 
 ### CACHE SYSTEM
 
-The caching system works automatically:
+Система кэширования работает автоматически:
 
-1. **First Run**: Script executes normally and output is cached
-2. **Subsequent Runs**: Cached output displays instantly (6-19x faster)
-3. **Auto-Refresh**: Cache regenerates when script is modified
+1. **Первый запуск**: Скрипт выполняется нормально и вывод кэшируется
+2. **Последующие запуски**: Кэшированный вывод отображается мгновенно (6-19 раз быстрее)
+3. **Авто-обновление**: Кэш регенерируется при изменении скрипта
 
-**Cache Location**: `$env:APPDATA\ColorScripts-Enhanced\cache`
+**Расположение кэша**: `$env:APPDATA\ColorScripts-Enhanced\cache`
 
-**Cache Benefits**:
-- Instant display of complex colorscripts
-- Reduced CPU usage
-- Consistent performance
-- Works from any directory
+**Преимущества кэша**:
+- Мгновенное отображение сложных colorscripts
+- Сниженное использование CPU
+- Стабильная производительность
+- Работает из любого каталога
 
 ### CONFIGURATION
 
 #### Add to PowerShell Profile
-Display a random colorscript on every terminal launch:
+Отображать случайный colorscript при каждом запуске терминала:
 
 ```powershell
 Add-ColorScriptProfile                 # Import + Show-ColorScript
@@ -116,7 +116,7 @@ Add-ColorScriptProfile -SkipStartupScript
 ```
 
 #### Customize Cache Location
-The cache location is automatically set based on your platform:
+Расположение кэша автоматически устанавливается на основе вашей платформы:
 
 Windows:
 ```powershell
@@ -135,14 +135,14 @@ Linux:
 
 ### NERD FONT GLYPHS
 
-Some scripts display Nerd Font icons (developer glyphs, powerline separators, checkmarks). Install a patched font so those characters render correctly:
+Некоторые скрипты отображают иконки Nerd Font (глифы разработчика, разделители powerline, галочки). Установите патченный шрифт, чтобы эти символы отображались правильно:
 
-1. Download a font from https://www.nerdfonts.com/ (popular choices: Cascadia Code, JetBrainsMono, FiraCode).
-2. Windows: extract the `.zip`, select the `.ttf` files, right-click → **Install for all users**.
-   macOS: `brew install --cask font-caskaydia-cove-nerd-font` or add via Font Book.
-   Linux: copy `.ttf` files to `~/.local/share/fonts` (or `/usr/local/share/fonts`) and run `fc-cache -fv`.
-3. Set your terminal profile to use the installed Nerd Font.
-4. Verify glyphs with:
+1. Скачайте шрифт с https://www.nerdfonts.com/ (популярные варианты: Cascadia Code, JetBrainsMono, FiraCode).
+2. Windows: извлеките `.zip`, выберите файлы `.ttf`, правой кнопкой → **Установить для всех пользователей**.
+   macOS: `brew install --cask font-caskaydia-cove-nerd-font` или добавьте через Font Book.
+   Linux: скопируйте файлы `.ttf` в `~/.local/share/fonts` (или `/usr/local/share/fonts`) и выполните `fc-cache -fv`.
+3. Установите профиль терминала для использования установленного Nerd Font.
+4. Проверьте глифы с помощью:
 
 ```powershell
 Show-ColorScript -Name nerd-font-test
@@ -178,27 +178,27 @@ New-ColorScriptCache -Force
 ### TROUBLESHOOTING
 
 #### Scripts not displaying correctly
-Ensure your terminal supports UTF-8 and ANSI escape codes:
+Убедитесь, что ваш терминал поддерживает UTF-8 и ANSI escape codes:
 ```powershell
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 ```
 
 #### Cache not working
-Clear and rebuild cache:
+Очистите и перестройте кэш:
 ```powershell
 Clear-ColorScriptCache -All
 New-ColorScriptCache
 ```
 
 #### Performance issues
-The first run of each script will be slower as it builds cache. Pre-build all caches:
+Первый запуск каждого скрипта будет медленнее, так как он строит кэш. Предварительно постройте все кэши:
 ```powershell
 New-ColorScriptCache
 ```
 
 ### PERFORMANCE
 
-Typical performance improvements with caching:
+Типичные улучшения производительности с кэшированием:
 
 | Script Type | Without Cache | With Cache | Speedup |
 |------------|---------------|------------|---------|
@@ -208,7 +208,7 @@ Typical performance improvements with caching:
 
 ### SCRIPT CATEGORIES
 
-The module includes scripts in various categories:
+Модуль включает скрипты в различных категориях:
 
 - **Geometric**: mandelbrot-zoom, apollonian-circles, sierpinski-carpet
 - **Nature**: galaxy-spiral, aurora-bands, crystal-drift
@@ -236,14 +236,14 @@ The module includes scripts in various categories:
 ### ADVANCED USAGE
 
 #### Building Cache for Specific Categories
-Cache all scripts in the Geometric category for optimal performance:
+Кэшируйте все скрипты в категории Geometric для оптимальной производительности:
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
 ```
 
 #### Performance Measurement
-Measure the performance improvement from caching:
+Измерьте улучшение производительности от кэширования:
 ```powershell
 # Uncached performance (cold start)
 Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue
@@ -263,7 +263,7 @@ Write-Host "Speedup: $([math]::Round($uncached.TotalMilliseconds / $cached.Total
 ```
 
 #### Automation: Display Different Script Daily
-Set up your profile to show a different script each day:
+Настройте ваш профиль для отображения разных скриптов каждый день:
 ```powershell
 # In your $PROFILE file:
 $seed = (Get-Date).DayOfYear
@@ -273,7 +273,7 @@ Show-ColorScript
 ```
 
 #### Pipeline Operations with Metadata
-Export colorscript metadata for use in other tools:
+Экспортируйте метаданные colorscript для использования в других инструментах:
 ```powershell
 # Export to JSON for web dashboard
 Export-ColorScriptMetadata -Path ./dist/colorscripts.json -IncludeFileInfo
@@ -292,7 +292,7 @@ $scripts |
 ```
 
 #### Cache Management for CI/CD Environments
-Configure and manage cache for automated deployments:
+Настройте и управляйте кэшем для автоматизированных развертываний:
 ```powershell
 # Set temporary cache location for CI/CD
 Set-ColorScriptConfiguration -CachePath $env:TEMP\colorscripts-cache
@@ -307,7 +307,7 @@ Get-ChildItem $cacheDir -Filter "*.cache" | Measure-Object -Sum Length
 ```
 
 #### Filtering and Display Workflows
-Advanced filtering for customized displays:
+Расширенная фильтрация для персонализированного отображения:
 ```powershell
 # Display all recommended scripts with details
 Get-ColorScriptList -Tag Recommended -Detailed
@@ -325,10 +325,10 @@ Export-ColorScriptMetadata -IncludeFileInfo |
 
 ### ENVIRONMENT VARIABLES
 
-The module respects the following environment variables:
+Модуль уважает следующие переменные окружения:
 
-- **COLORSCRIPTS_CACHE**: Override the default cache location
-- **PSModulePath**: Affects where the module is discovered
+- **COLORSCRIPTS_CACHE**: Переопределить расположение кэша по умолчанию
+- **PSModulePath**: Влияет на то, где модуль обнаруживается
 
 ### PERFORMANCE TUNING
 
@@ -340,9 +340,9 @@ The module respects the following environment variables:
 | Complex (200-300ms) | ~300ms | ~16ms | 19x faster |
 
 #### Cache Size Information
-- Average cache file size: 2-50KB per script
-- Total cache size for all scripts: ~2-5MB
-- Cache location: Uses OS-appropriate paths for minimal footprint
+- Средний размер файла кэша: 2-50KB на скрипт
+- Общий размер кэша для всех скриптов: ~2-5MB
+- Расположение кэша: Использует подходящие для ОС пути для минимального размера
 
 ### TROUBLESHOOTING ADVANCED ISSUES
 
@@ -359,7 +359,7 @@ Import-Module "C:\Path\To\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
 ```
 
 #### Cache Corruption
-Clear and rebuild completely:
+Очистите и перестройте полностью:
 ```powershell
 # Remove module from session
 Remove-Module ColorScripts-Enhanced -Force
@@ -373,7 +373,7 @@ New-ColorScriptCache -Force
 ```
 
 #### Performance Degradation
-If performance worsens over time:
+Если производительность ухудшается со временем:
 ```powershell
 # Check cache directory size
 $cacheDir = (Get-ColorScriptConfiguration).Cache.Path
@@ -389,42 +389,42 @@ New-ColorScriptCache
 ### PLATFORM-SPECIFIC NOTES
 
 #### Windows PowerShell 5.1
-- Limited to Windows only
-- Use `powershell.exe` to run scripts
-- Some advanced features may be unavailable
-- Recommended to upgrade to PowerShell 7+
+- Ограничено только Windows
+- Используйте `powershell.exe` для запуска скриптов
+- Некоторые расширенные функции могут быть недоступны
+- Рекомендуется обновление до PowerShell 7+
 
 #### PowerShell 7+ (Cross-Platform)
-- Full support on Windows, macOS, and Linux
-- Use `pwsh` command
-- All features fully functional
-- Recommended for new deployments
+- Полная поддержка на Windows, macOS и Linux
+- Используйте команду `pwsh`
+- Все функции полностью функциональны
+- Рекомендуется для новых развертываний
 
 ### DETAILED COMMAND REFERENCE
 
 #### Core Commands Overview
-The module provides 10 main commands for managing and displaying colorscripts:
+Модуль предоставляет 10 основных команд для управления и отображения colorscripts:
 
 **Display Commands:**
-- `Show-ColorScript` - Display colorscripts with multiple modes (random, named, list, all)
-- `Get-ColorScriptList` - List available colorscripts with detailed metadata
+- `Show-ColorScript` - Отображать colorscripts с множественными режимами (random, named, list, all)
+- `Get-ColorScriptList` - Перечислить доступные colorscripts с подробными метаданными
 
 **Cache Management:**
-- `New-ColorScriptCache` - Build cache files for performance
-- `Clear-ColorScriptCache` - Remove cache files with filtering options
-- `Build-ColorScriptCache` - Alias for New-ColorScriptCache
+- `New-ColorScriptCache` - Построить файлы кэша для производительности
+- `Clear-ColorScriptCache` - Удалить файлы кэша с опциями фильтрации
+- `Build-ColorScriptCache` - Alias для New-ColorScriptCache
 
 **Configuration:**
-- `Get-ColorScriptConfiguration` - Retrieve current configuration settings
-- `Set-ColorScriptConfiguration` - Persist configuration changes
-- `Reset-ColorScriptConfiguration` - Restore factory defaults
+- `Get-ColorScriptConfiguration` - Получить текущие настройки конфигурации
+- `Set-ColorScriptConfiguration` - Сохранить изменения конфигурации
+- `Reset-ColorScriptConfiguration` - Восстановить заводские настройки
 
 **Profile Integration:**
-- `Add-ColorScriptProfile` - Integrate module into PowerShell profile
+- `Add-ColorScriptProfile` - Интегрировать модуль в профиль PowerShell
 
 **Development:**
-- `New-ColorScript` - Scaffold new colorscript template
-- `Export-ColorScriptMetadata` - Export metadata for automation
+- `New-ColorScript` - Создать новый шаблон colorscript
+- `Export-ColorScriptMetadata` - Экспортировать метаданные для автоматизации
 
 #### Command Usage Patterns
 
@@ -590,7 +590,7 @@ Get-ColorScriptList -AsObject |
 ### ADVANCED TOPICS
 
 #### Topic 1: Cache Strategy Selection
-Different caching strategies for different scenarios:
+Различные стратегии кэширования для разных сценариев:
 
 **Full Cache Strategy** (Optimal for Workstations)
 ```powershell
@@ -615,21 +615,21 @@ Show-ColorScript -NoCache
 ```
 
 #### Topic 2: Metadata Organization
-Understanding and organizing colorscripts by metadata:
+Понимание и организация colorscripts по метаданным:
 
-**Categories** - Broad organizational groupings:
-- Geometric: Fractals, mathematical patterns
-- Nature: Landscapes, organic themes
-- Artistic: Creative, abstract designs
-- Gaming: Game-related themes
-- System: OS/technology themed
+**Categories** - Широкие организационные группировки:
+- Geometric: Фракталы, математические паттерны
+- Nature: Ландшафты, органические темы
+- Artistic: Творческие, абстрактные дизайны
+- Gaming: Темы, связанные с играми
+- System: Темы ОС/технологий
 
-**Tags** - Specific descriptors:
-- Recommended: Curated for general use
-- Animated: Moving/changing patterns
-- Colorful: Multi-color palettes
-- Minimal: Simple, clean designs
-- Retro: Classic 80s/90s aesthetics
+**Tags** - Конкретные дескрипторы:
+- Recommended: Кураторские для общего использования
+- Animated: Движущиеся/изменяющиеся паттерны
+- Colorful: Многоцветные палитры
+- Minimal: Простые, чистые дизайны
+- Retro: Классическая эстетика 80-х/90-х
 
 #### Topic 3: Performance Optimization Tips
 ```powershell
@@ -777,54 +777,54 @@ Add-ColorScriptProfile -Force
 ### FAQ
 
 **Q: How many colorscripts are available?**
-A: 450++ built-in scripts across multiple categories and tags
+A: 450++ встроенных скриптов в нескольких категориях и с тегами
 
 **Q: How much disk space does caching use?**
-A: Approximately 2-5MB total for all scripts, about 2-50KB per script
+A: Примерно 2-5MB всего для всех скриптов, около 2-50KB на скрипт
 
 **Q: Can I use colorscripts in scripts/automation?**
-A: Yes, use `-ReturnText` to capture output or `-PassThru` for metadata
+A: Да, используйте `-ReturnText` для захвата вывода или `-PassThru` для метаданных
 
 **Q: How do I create custom colorscripts?**
-A: Use `New-ColorScript` to scaffold a template, then add your ANSI art
+A: Используйте `New-ColorScript` для создания шаблона, затем добавьте ваше ANSI искусство
 
 **Q: What if I don't want colors on startup?**
-A: Use `Add-ColorScriptProfile -SkipStartupScript` to import without auto-display
+A: Используйте `Add-ColorScriptProfile -SkipStartupScript` для импорта без авто-отображения
 
 **Q: Can I use this on macOS/Linux?**
-A: Yes, with PowerShell 7+ which runs cross-platform
+A: Да, с PowerShell 7+, который работает кросс-платформенно
 
 **Q: How do I share colorscripts with colleagues?**
-A: Export metadata with `Export-ColorScriptMetadata` or share script files
+A: Экспортируйте метаданные с `Export-ColorScriptMetadata` или поделитесь файлами скриптов
 
 **Q: Is caching always enabled?**
-A: No, use `-NoCache` to disable caching for development/testing
+A: Нет, используйте `-NoCache` для отключения кэширования при разработке/тестировании
 
 ### BEST PRACTICES
 
-1. **Install from PowerShell Gallery**: Use `Install-Module` for automatic updates
-2. **Add to Profile**: Use `Add-ColorScriptProfile` for automatic startup integration
-3. **Pre-build Cache**: Run `New-ColorScriptCache` after installation for optimal performance
-4. **Use Meaningful Naming**: When creating custom scripts, use descriptive names
-5. **Keep Metadata Updated**: Update ScriptMetadata.psd1 when adding scripts
-6. **Test in Different Terminals**: Verify scripts display correctly across your environments
-7. **Monitor Cache Size**: Periodically check cache directory size and clean if needed
-8. **Use Categories/Tags**: Leverage filtering for faster script discovery
-9. **Document Custom Scripts**: Add descriptions and tags to custom colorscripts
-10. **Backup Configuration**: Export configuration before major changes
+1. **Install from PowerShell Gallery**: Используйте `Install-Module` для автоматических обновлений
+2. **Add to Profile**: Используйте `Add-ColorScriptProfile` для автоматической интеграции запуска
+3. **Pre-build Cache**: Запустите `New-ColorScriptCache` после установки для оптимальной производительности
+4. **Use Meaningful Naming**: При создании пользовательских скриптов используйте описательные имена
+5. **Keep Metadata Updated**: Обновляйте ScriptMetadata.psd1 при добавлении скриптов
+6. **Test in Different Terminals**: Проверяйте, что скрипты отображаются правильно в ваших средах
+7. **Monitor Cache Size**: Периодически проверяйте размер каталога кэша и очищайте при необходимости
+8. **Use Categories/Tags**: Используйте фильтрацию для более быстрого обнаружения скриптов
+9. **Document Custom Scripts**: Добавляйте описания и теги к пользовательским colorscripts
+10. **Backup Configuration**: Экспортируйте конфигурацию перед крупными изменениями
 
 ### VERSION HISTORY
 
 #### Version 2025.10.09
-- Enhanced caching system with OS-wide cache
-- 6-19x performance improvement
-- Centralized cache location in AppData
-- 450++ colorscripts included
-- Full comment-based help documentation
-- Module manifest improvements
-- Advanced configuration management
-- Metadata export capabilities
-- Profile integration helpers
+- Улучшенная система кэширования с кэшем на уровне ОС
+- Улучшение производительности в 6-19 раз
+- Централизованное расположение кэша в AppData
+- Включено 450++ colorscripts
+- Полная документация справки на основе комментариев
+- Улучшения манифеста модуля
+- Расширенное управление конфигурацией
+- Возможности экспорта метаданных
+- Помощники интеграции профиля
 
 ### COPYRIGHT
 

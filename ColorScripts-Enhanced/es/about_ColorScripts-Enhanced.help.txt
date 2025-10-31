@@ -1,0 +1,835 @@
+# ColorScripts-Enhanced Module Help
+
+## about_ColorScripts-Enhanced
+
+### SHORT DESCRIPTION
+Módulo ColorScripts-Enhanced con sistema de caché de alto rendimiento para mostrar arte ANSI hermoso en tu terminal.
+
+### LONG DESCRIPTION
+ColorScripts-Enhanced es un módulo de PowerShell que proporciona una colección de más de 450+ scripts de colores ANSI hermosos para mostrar en la terminal. Cuenta con un sistema de caché inteligente que ofrece mejoras de rendimiento de 6-19x sobre la ejecución tradicional de scripts.
+
+El módulo automáticamente almacena en caché la salida de los scripts en una ubicación centralizada en tu carpeta AppData, permitiendo una visualización instantánea en ejecuciones posteriores. Los archivos de caché se validan y regeneran automáticamente cuando se modifican los scripts fuente.
+
+### FEATURES
+- Más de 450+ scripts de colores pre-hechos hermosos
+- Sistema de caché de alto rendimiento (6-19x más rápido)
+- Ubicación de caché centralizada (funciona desde cualquier directorio)
+- Invalidación automática de caché en cambios de scripts
+- Soporte de codificación UTF-8 para renderizado perfecto
+- Selección aleatoria de scripts de colores
+- Descubrimiento y listado fácil de scripts
+- Ayudante de perfil para integración de inicio de una línea
+- Ayudantes de configuración persistente para comportamiento de caché y inicio
+- Flujos de trabajo de exportación de metadatos y scaffolding para scripts personalizados
+
+### INSTALLATION
+
+#### From PowerShell Gallery (Recommended)
+```powershell
+Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
+```
+
+Agrega el módulo a tu perfil automáticamente:
+
+```powershell
+Add-ColorScriptProfile             # Import + Show-ColorScript
+Add-ColorScriptProfile -SkipStartupScript
+```
+
+#### Manual Installation
+1. Descarga el módulo desde GitHub
+2. Extrae a una ruta de módulo de PowerShell:
+   - Usuario: `$HOME\Documents\PowerShell\Modules\ColorScripts-Enhanced`
+   - Sistema: `C:\Program Files\PowerShell\Modules\ColorScripts-Enhanced`
+3. Importa el módulo:
+   ```powershell
+   Import-Module ColorScripts-Enhanced
+   ```
+
+### QUICK START
+
+Muestra un script de colores aleatorio:
+```powershell
+Show-ColorScript
+# o usa el alias
+scs
+```
+
+Muestra un script de colores específico:
+```powershell
+Show-ColorScript -Name hearts
+scs mandelbrot-zoom
+```
+
+Lista todos los scripts de colores disponibles:
+```powershell
+Show-ColorScript -List
+Get-ColorScriptList
+```
+
+Pre-construye caché para todos los scripts:
+```powershell
+New-ColorScriptCache
+```
+
+### COMMANDS
+
+El módulo exporta los siguientes comandos:
+
+- `Show-ColorScript` - Muestra scripts de colores (alias: scs)
+- `Get-ColorScriptList` - Lista scripts de colores disponibles
+- `New-ColorScriptCache` - Pre-genera archivos de caché
+- `Clear-ColorScriptCache` - Elimina archivos de caché
+- `Add-ColorScriptProfile` - Agrega fragmento de inicio del módulo a un perfil de PowerShell
+- `Get-ColorScriptConfiguration` - Inspecciona valores predeterminados de caché y inicio
+- `Set-ColorScriptConfiguration` - Persiste valores de configuración personalizados
+- `Reset-ColorScriptConfiguration` - Restaura valores predeterminados de configuración
+- `Export-ColorScriptMetadata` - Exporta metadatos de scripts para automatización
+- `New-ColorScript` - Crea un nuevo script de colores y fragmento de metadatos
+
+Usa `Get-Help <CommandName> -Full` para ayuda detallada en cada comando.
+
+### CACHE SYSTEM
+
+El sistema de caché funciona automáticamente:
+
+1. **Primera Ejecución**: El script se ejecuta normalmente y se almacena en caché
+2. **Ejecuciones Posteriores**: La salida en caché se muestra instantáneamente (6-19x más rápido)
+3. **Auto-Actualización**: El caché se regenera cuando se modifica el script
+
+**Ubicación del Caché**: `$env:APPDATA\ColorScripts-Enhanced\cache`
+
+**Beneficios del Caché**:
+- Visualización instantánea de scripts de colores complejos
+- Uso reducido de CPU
+- Rendimiento consistente
+- Funciona desde cualquier directorio
+
+### CONFIGURATION
+
+#### Add to PowerShell Profile
+Muestra un script de colores aleatorio en cada lanzamiento de terminal:
+
+```powershell
+Add-ColorScriptProfile                 # Import + Show-ColorScript
+Add-ColorScriptProfile -SkipStartupScript
+```
+
+#### Customize Cache Location
+La ubicación del caché se establece automáticamente basada en tu plataforma:
+
+Windows:
+```powershell
+$env:APPDATA\ColorScripts-Enhanced\cache
+```
+
+macOS:
+```powershell
+~/Library/Application Support/ColorScripts-Enhanced/cache
+```
+
+Linux:
+```powershell
+~/.cache/ColorScripts-Enhanced
+```
+
+### NERD FONT GLYPHS
+
+Algunos scripts muestran iconos de Nerd Font (glifos de desarrollador, separadores powerline, checkmarks). Instala una fuente parcheada para que esos caracteres se rendericen correctamente:
+
+1. Descarga una fuente desde https://www.nerdfonts.com/ (elecciones populares: Cascadia Code, JetBrainsMono, FiraCode).
+2. Windows: extrae el `.zip`, selecciona los archivos `.ttf`, haz clic derecho → **Instalar para todos los usuarios**.
+   macOS: `brew install --cask font-caskaydia-cove-nerd-font` o agrega vía Font Book.
+   Linux: copia archivos `.ttf` a `~/.local/share/fonts` (o `/usr/local/share/fonts`) y ejecuta `fc-cache -fv`.
+3. Establece el perfil de tu terminal para usar la fuente Nerd Font instalada.
+4. Verifica glifos con:
+
+```powershell
+Show-ColorScript -Name nerd-font-test
+```
+
+### EXAMPLES
+
+#### Example 1: Random Colorscript on Startup
+```powershell
+# En tu archivo $PROFILE:
+Import-Module ColorScripts-Enhanced
+Show-ColorScript
+```
+
+#### Example 2: Daily Different Colorscript
+```powershell
+# Usa la fecha como semilla para script consistente diario
+$seed = (Get-Date).DayOfYear
+Get-Random -SetSeed $seed
+Show-ColorScript
+```
+
+#### Example 3: Build Cache for Favorite Scripts
+```powershell
+New-ColorScriptCache -Name hearts,mandelbrot-zoom,galaxy-spiral
+```
+
+#### Example 4: Force Cache Rebuild
+```powershell
+New-ColorScriptCache -Force
+```
+
+### TROUBLESHOOTING
+
+#### Scripts not displaying correctly
+Asegúrate de que tu terminal soporte UTF-8 y códigos de escape ANSI:
+```powershell
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+```
+
+#### Cache not working
+Limpia y reconstruye el caché:
+```powershell
+Clear-ColorScriptCache -All
+New-ColorScriptCache
+```
+
+#### Performance issues
+La primera ejecución de cada script será más lenta mientras construye caché. Pre-construye todos los cachés:
+```powershell
+New-ColorScriptCache
+```
+
+### PERFORMANCE
+
+Mejoras típicas de rendimiento con caché:
+
+| Tipo de Script | Sin Caché | Con Caché | Aceleración |
+|---------------|-----------|-----------|-------------|
+| Simple | ~50ms | ~8ms | 6x |
+| Medio | ~150ms | ~12ms | 12x |
+| Complejo | ~300ms | ~16ms | 19x |
+
+### SCRIPT CATEGORIES
+
+El módulo incluye scripts en varias categorías:
+
+- **Geometric**: mandelbrot-zoom, apollonian-circles, sierpinski-carpet
+- **Nature**: galaxy-spiral, aurora-bands, crystal-drift
+- **Artistic**: kaleidoscope, rainbow-waves, prismatic-rain
+- **Gaming**: doom, pacman, space-invaders
+- **System**: colortest, nerd-font-test, terminal-benchmark
+- **Logos**: arch, debian, ubuntu, windows
+
+### SEE ALSO
+
+- Repositorio GitHub: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
+- Inspiración original: shell-color-scripts
+- Documentación de PowerShell: https://docs.microsoft.com/powershell/
+
+### KEYWORDS
+- ANSI
+- Terminal
+- Art
+- ASCII
+- Color
+- Scripts
+- Cache
+- Performance
+
+### ADVANCED USAGE
+
+#### Building Cache for Specific Categories
+Almacena en caché todos los scripts en la categoría Geometric para rendimiento óptimo:
+```powershell
+Get-ColorScriptList -Category Geometric -AsObject |
+    ForEach-Object { New-ColorScriptCache -Name $_.Name }
+```
+
+#### Performance Measurement
+Mide la mejora de rendimiento del caché:
+```powershell
+# Rendimiento sin caché (inicio en frío)
+Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue
+$uncached = Measure-Command {
+    Import-Module ColorScripts-Enhanced
+    Show-ColorScript -Name "mandelbrot-zoom" -NoCache
+}
+
+# Rendimiento con caché (inicio en calor)
+$cached = Measure-Command {
+    Show-ColorScript -Name "mandelbrot-zoom"
+}
+
+Write-Host "Sin caché: $($uncached.TotalMilliseconds)ms"
+Write-Host "Con caché: $($cached.TotalMilliseconds)ms"
+Write-Host "Aceleración: $([math]::Round($uncached.TotalMilliseconds / $cached.TotalMilliseconds, 1))x"
+```
+
+#### Automation: Display Different Script Daily
+Configura tu perfil para mostrar un script diferente cada día:
+```powershell
+# En tu archivo $PROFILE:
+$seed = (Get-Date).DayOfYear
+[System.Random]::new($seed).Next()
+Get-Random -SetSeed $seed
+Show-ColorScript
+```
+
+#### Pipeline Operations with Metadata
+Exporta metadatos de colorscript para usar en otras herramientas:
+```powershell
+# Exporta a JSON para dashboard web
+Export-ColorScriptMetadata -Path ./dist/colorscripts.json -IncludeFileInfo
+
+# Cuenta scripts por categoría
+Get-ColorScriptList -AsObject |
+    Group-Object Category |
+    Select-Object Name, Count |
+    Sort-Object Count -Descending
+
+# Encuentra scripts con palabras clave específicas
+$scripts = Get-ColorScriptList -AsObject
+$scripts |
+    Where-Object { $_.Description -match 'fractal|mandelbrot' } |
+    Select-Object Name, Category, Description
+```
+
+#### Cache Management for CI/CD Environments
+Configura y administra caché para despliegues automatizados:
+```powershell
+# Establece ubicación temporal de caché para CI/CD
+Set-ColorScriptConfiguration -CachePath $env:TEMP\colorscripts-cache
+
+# Pre-construye caché para despliegue
+$productionScripts = @('bars', 'arch', 'ubuntu', 'windows', 'rainbow-waves')
+New-ColorScriptCache -Name $productionScripts -Force
+
+# Verifica salud del caché
+$cacheDir = (Get-ColorScriptConfiguration).Cache.Path
+Get-ChildItem $cacheDir -Filter "*.cache" | Measure-Object -Sum Length
+```
+
+#### Filtering and Display Workflows
+Filtrado avanzado para visualizaciones personalizadas:
+```powershell
+# Muestra todos los scripts recomendados con detalles
+Get-ColorScriptList -Tag Recommended -Detailed
+
+# Muestra scripts geométricos con caché deshabilitado para pruebas
+Get-ColorScriptList -Category Geometric -Name "aurora-*" -AsObject |
+    ForEach-Object { Show-ColorScript -Name $_.Name -NoCache }
+
+# Exporta metadatos filtrados por categoría
+Export-ColorScriptMetadata -IncludeFileInfo |
+    Where-Object { $_.Category -eq 'Animated' } |
+    ConvertTo-Json |
+    Out-File "./animated-scripts.json"
+```
+
+### ENVIRONMENT VARIABLES
+
+El módulo respeta las siguientes variables de entorno:
+
+- **COLORSCRIPTS_CACHE**: Sobrescribe la ubicación predeterminada del caché
+- **PSModulePath**: Afecta dónde se descubre el módulo
+
+### PERFORMANCE TUNING
+
+#### Typical Performance Metrics
+| Complejidad del Script | Sin Caché | Con Caché | Mejora |
+|-----------------------|-----------|-----------|--------|
+| Simple (50-100ms) | ~50ms | ~8ms | 6x más rápido |
+| Medio (100-200ms) | ~150ms | ~12ms | 12x más rápido |
+| Complejo (200-300ms) | ~300ms | ~16ms | 19x más rápido |
+
+#### Cache Size Information
+- Tamaño promedio de archivo de caché: 2-50KB por script
+- Tamaño total de caché para todos los scripts: ~2-5MB
+- Ubicación del caché: Usa rutas apropiadas para el SO con huella mínima
+
+### TROUBLESHOOTING ADVANCED ISSUES
+
+#### Module Not Found Error
+```powershell
+# Verifica si el módulo existe
+Get-Module ColorScripts-Enhanced -ListAvailable
+
+# Lista rutas de módulo disponibles
+$env:PSModulePath -split ';'
+
+# Importa desde ruta explícita si es necesario
+Import-Module "C:\Path\To\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
+```
+
+#### Cache Corruption
+Limpia y reconstruye completamente:
+```powershell
+# Elimina módulo de la sesión
+Remove-Module ColorScripts-Enhanced -Force
+
+# Limpia todos los archivos de caché
+Clear-ColorScriptCache -All -Confirm:$false
+
+# Reimporta y reconstruye caché
+Import-Module ColorScripts-Enhanced
+New-ColorScriptCache -Force
+```
+
+#### Performance Degradation
+Si el rendimiento empeora con el tiempo:
+```powershell
+# Verifica tamaño del directorio de caché
+$cacheDir = (Get-ColorScriptConfiguration).Cache.Path
+$size = (Get-ChildItem $cacheDir -Filter "*.cache" |
+    Measure-Object -Sum Length).Sum
+Write-Host "Tamaño del caché: $([math]::Round($size / 1MB, 2)) MB"
+
+# Limpia caché antiguo y reconstruye
+Clear-ColorScriptCache -All
+New-ColorScriptCache
+```
+
+### PLATFORM-SPECIFIC NOTES
+
+#### Windows PowerShell 5.1
+- Limitado solo a Windows
+- Usa `powershell.exe` para ejecutar scripts
+- Algunas características avanzadas pueden no estar disponibles
+- Recomendado actualizar a PowerShell 7+
+
+#### PowerShell 7+ (Cross-Platform)
+- Soporte completo en Windows, macOS y Linux
+- Usa comando `pwsh`
+- Todas las características completamente funcionales
+- Recomendado para nuevos despliegues
+
+### DETAILED COMMAND REFERENCE
+
+#### Core Commands Overview
+El módulo proporciona 10 comandos principales para gestionar y mostrar colorscripts:
+
+**Display Commands:**
+- `Show-ColorScript` - Muestra colorscripts con múltiples modos (aleatorio, nombrado, lista, todos)
+- `Get-ColorScriptList` - Lista colorscripts disponibles con metadatos detallados
+
+**Cache Management:**
+- `New-ColorScriptCache` - Construye archivos de caché para rendimiento
+- `Clear-ColorScriptCache` - Elimina archivos de caché con opciones de filtrado
+- `Build-ColorScriptCache` - Alias para New-ColorScriptCache
+
+**Configuration:**
+- `Get-ColorScriptConfiguration` - Recupera configuraciones actuales
+- `Set-ColorScriptConfiguration` - Persiste cambios de configuración
+- `Reset-ColorScriptConfiguration` - Restaura valores predeterminados de fábrica
+
+**Profile Integration:**
+- `Add-ColorScriptProfile` - Integra módulo en perfil de PowerShell
+
+**Development:**
+- `New-ColorScript` - Crea plantilla de colorscript nuevo
+- `Export-ColorScriptMetadata` - Exporta metadatos para automatización
+
+#### Command Usage Patterns
+
+**Pattern 1: Quick Display**
+```powershell
+Show-ColorScript                    # Colorscript aleatorio
+scs                                 # Usando alias del módulo
+Show-ColorScript -Name aurora       # Script específico
+```
+
+**Pattern 2: Discovery and Listing**
+```powershell
+Get-ColorScriptList                 # Todos los scripts
+Get-ColorScriptList -Detailed       # Con etiquetas y descripciones
+Get-ColorScriptList -Category Nature # Filtrar por categoría
+Get-ColorScriptList -Tag Animated   # Filtrar por etiqueta
+```
+
+**Pattern 3: Performance Optimization**
+```powershell
+New-ColorScriptCache                # Construir todos los cachés
+New-ColorScriptCache -Name bars     # Construir caché específico
+New-ColorScriptCache -Category Geometric  # Construir categoría
+```
+
+**Pattern 4: Cache Maintenance**
+```powershell
+Clear-ColorScriptCache -All         # Eliminar todos los cachés
+Clear-ColorScriptCache -Name "test-*"  # Limpiar patrón
+Clear-ColorScriptCache -Category Demo   # Limpiar por categoría
+```
+
+### DETAILED WORKFLOW EXAMPLES
+
+#### Workflow 1: Initial Setup and Configuration
+```powershell
+# Paso 1: Instalar el módulo
+Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
+
+# Paso 2: Agregar a perfil para inicio automático
+Add-ColorScriptProfile
+
+# Paso 3: Pre-construir caché para rendimiento óptimo
+New-ColorScriptCache
+
+# Paso 4: Verificar configuración
+Get-ColorScriptConfiguration
+```
+
+#### Workflow 2: Daily Use with Rotation
+```powershell
+# En archivo $PROFILE, agrega:
+Import-Module ColorScripts-Enhanced
+
+# Muestra script diferente cada día basado en fecha
+$seed = (Get-Date).DayOfYear
+Get-Random -SetSeed $seed
+Show-ColorScript -Random
+
+# Alternativa: Muestra categoría específica
+Show-ColorScript -Category Geometric -Random
+```
+
+#### Workflow 3: Automation Integration
+```powershell
+# Exporta metadatos para herramientas externas
+$metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
+$metadata | ConvertTo-Json | Out-File "./colorscripts.json"
+
+# Usa en automatización: cicla a través de scripts
+$scripts = Get-ColorScriptList -Tag Recommended -AsObject
+$scripts | ForEach-Object { Show-ColorScript -Name $_.Name; Start-Sleep -Seconds 2 }
+```
+
+#### Workflow 4: Performance Monitoring
+```powershell
+# Mide efectividad del caché
+$uncached = Measure-Command { Show-ColorScript -Name mandelbrot-zoom -NoCache }
+$cached = Measure-Command { Show-ColorScript -Name mandelbrot-zoom }
+
+Write-Host "Sin caché: $($uncached.TotalMilliseconds)ms"
+Write-Host "Con caché: $($cached.TotalMilliseconds)ms"
+Write-Host "Mejora: $([math]::Round($uncached.TotalMilliseconds / $cached.TotalMilliseconds, 1))x"
+```
+
+#### Workflow 5: Customization and Development
+```powershell
+# Crea colorscript personalizado
+New-ColorScript -Name "my-custom-art" -Category "Custom" -Tag "MyTag" -GenerateMetadataSnippet
+
+# Edita el script
+code "$env:USERPROFILE\Documents\PowerShell\Modules\ColorScripts-Enhanced\Scripts\my-custom-art.ps1"
+
+# Agrega metadatos (usa guía de generación)
+# Edita ScriptMetadata.psd1
+
+# Almacena en caché y prueba
+New-ColorScriptCache -Name "my-custom-art" -Force
+Show-ColorScript -Name "my-custom-art"
+```
+
+### INTEGRATION SCENARIOS
+
+#### Scenario 1: Terminal Welcome Screen
+```powershell
+# En perfil:
+$hour = (Get-Date).Hour
+if ($hour -ge 6 -and $hour -lt 12) {
+    Show-ColorScript -Tag "bright,morning" -Random
+} elseif ($hour -ge 12 -and $hour -lt 18) {
+    Show-ColorScript -Category Geometric -Random
+} else {
+    Show-ColorScript -Tag "night,dark" -Random
+}
+```
+
+#### Scenario 2: CI/CD Pipeline
+```powershell
+# Decoración de fase de construcción
+Show-ColorScript -Name "bars" -NoCache  # Visualización rápida sin caché
+New-ColorScriptCache -Category "Build" -Force  # Preparar para siguiente ejecución
+
+# En contexto CI/CD:
+$env:CI = $true
+if ($env:CI) {
+    Show-ColorScript -NoCache  # Evitar caché en entornos efímeros
+}
+```
+
+#### Scenario 3: Administrative Dashboards
+```powershell
+# Muestra colorscripts con tema de sistema
+$os = if ($PSVersionTable.PSVersion.Major -ge 7) { "pwsh" } else { "powershell" }
+Show-ColorScript -Name $os -PassThru | Out-Null
+
+# Muestra información de estado
+Get-ColorScriptList -Tag "system" -AsObject |
+    ForEach-Object { Write-Host "Disponible: $($_.Name)" }
+```
+
+#### Scenario 4: Educational Presentations
+```powershell
+# Exposición interactiva de colorscript
+Show-ColorScript -All -WaitForInput
+# Los usuarios pueden presionar espacio para avanzar, q para salir
+
+# O con categoría específica
+Show-ColorScript -All -Category Abstract -WaitForInput
+```
+
+#### Scenario 5: Multi-User Environment
+```powershell
+# Configuración por usuario
+Set-ColorScriptConfiguration -CachePath "\\shared\cache\$env:USERNAME"
+Set-ColorScriptConfiguration -DefaultScript "team-logo"
+
+# Scripts compartidos con personalización de usuario
+Get-ColorScriptList -AsObject |
+    Where-Object { $_.Tags -contains "shared" } |
+    ForEach-Object { Show-ColorScript -Name $_.Name }
+```
+
+### ADVANCED TOPICS
+
+#### Topic 1: Cache Strategy Selection
+Diferentes estrategias de caché para diferentes escenarios:
+
+**Full Cache Strategy** (Óptimo para Estaciones de Trabajo)
+```powershell
+New-ColorScriptCache              # Almacena en caché todos los 450++ scripts
+# Pros: Rendimiento máximo, visualización instantánea
+# Cons: Usa 2-5MB de espacio en disco
+```
+
+**Selective Cache Strategy** (Óptimo para Portátil/CI)
+```powershell
+Get-ColorScriptList -Tag Recommended -AsObject |
+    ForEach-Object { New-ColorScriptCache -Name $_.Name }
+# Pros: Rendimiento equilibrado y almacenamiento
+# Cons: Requiere más configuración
+```
+
+**No Cache Strategy** (Óptimo para Desarrollo)
+```powershell
+Show-ColorScript -NoCache
+# Pros: Ve cambios de script inmediatamente
+# Cons: Visualización más lenta, más uso de recursos
+```
+
+#### Topic 2: Metadata Organization
+Entendiendo y organizando colorscripts por metadatos:
+
+**Categories** - Agrupaciones organizacionales amplias:
+- Geometric: Fractales, patrones matemáticos
+- Nature: Paisajes, temas orgánicos
+- Artistic: Diseños creativos, abstractos
+- Gaming: Temas relacionados con juegos
+- System: Temas de OS/tecnología
+
+**Tags** - Descriptores específicos:
+- Recommended: Curado para uso general
+- Animated: Patrones en movimiento/cambio
+- Colorful: Paletas multi-color
+- Minimal: Diseños simples, limpios
+- Retro: Estéticas clásicas 80s/90s
+
+#### Topic 3: Performance Optimization Tips
+```powershell
+# Tip 1: Pre-carga scripts usados frecuentemente
+New-ColorScriptCache -Name bars,arch,mandelbrot-zoom,aurora-waves
+
+# Tip 2: Monitorea obsolescencia del caché
+$old = Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter "*.cache" |
+    Where-Object { $_.LastWriteTime -lt (Get-Date).AddMonths(-1) }
+
+# Tip 3: Usa filtrado por categoría para selección más rápida
+Show-ColorScript -Category Geometric  # Más rápido que conjunto completo
+
+# Tip 4: Habilita salida verbosa para depuración
+Show-ColorScript -Name aurora -Verbose
+```
+
+#### Topic 4: Cross-Platform Considerations
+```powershell
+# Específico de Windows Terminal
+if ($env:WT_SESSION) {
+    Show-ColorScript  # Soporte completo de color
+}
+
+# Terminal integrada de VS Code
+if ($env:TERM_PROGRAM -eq "vscode") {
+    Show-ColorScript -Name nerd-font-test  # Soporte de fuente
+}
+
+# Sesión SSH
+if ($env:SSH_CONNECTION) {
+    Show-ColorScript -NoCache  # Evitar E/S de caché de red lenta
+}
+
+# Terminal Linux/macOS
+if ($PSVersionTable.PSVersion.Major -ge 7) {
+    Show-ColorScript -Category Nature  # Usa scripts amigables con Unix
+}
+```
+
+#### Topic 5: Scripting and Automation
+```powershell
+# Crea función reutilizable para saludo diario
+function Show-DailyColorScript {
+    $seed = (Get-Date).DayOfYear
+    Get-Random -SetSeed $seed
+    Show-ColorScript -Random -Category @("Geometric", "Nature") -Random
+}
+
+# Usa en perfil
+Show-DailyColorScript
+
+# Crea función de rotación de scripts
+function Invoke-ColorScriptSlideshow {
+    param(
+        [int]$Interval = 3,
+        [string[]]$Category,
+        [int]$Count
+    )
+
+    $scripts = if ($Category) {
+        Get-ColorScriptList -Category $Category -AsObject
+    } else {
+        Get-ColorScriptList -AsObject
+    }
+
+    $scripts | Select-Object -First $Count | ForEach-Object {
+        Show-ColorScript -Name $_.Name
+        Start-Sleep -Seconds $Interval
+    }
+}
+
+# Uso
+Invoke-ColorScriptSlideshow -Interval 2 -Category Geometric -Count 5
+```
+
+### TROUBLESHOOTING GUIDE
+
+#### Issue 1: Scripts Not Displaying Correctly
+**Symptoms**: Caracteres garbled o colores faltantes
+**Solutions**:
+```powershell
+# Establece codificación UTF-8
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+
+# Verifica que la terminal soporte UTF-8
+Write-Host "Test: ✓ ✗ ◆ ○" -ForegroundColor Green
+
+# Usa prueba de fuente nerd
+Show-ColorScript -Name nerd-font-test
+
+# Si aún está roto, deshabilita caché
+Show-ColorScript -Name yourscript -NoCache
+```
+
+#### Issue 2: Module Import Failures
+**Symptoms**: "Module not found" o errores de importación
+**Solutions**:
+```powershell
+# Verifica si el módulo existe
+Get-Module -ListAvailable | Where-Object Name -like "*Color*"
+
+# Verifica PSModulePath
+$env:PSModulePath -split [System.IO.Path]::PathSeparator
+
+# Reinstala módulo
+Remove-Module ColorScripts-Enhanced
+Uninstall-Module ColorScripts-Enhanced
+Install-Module -Name ColorScripts-Enhanced -Force
+```
+
+#### Issue 3: Cache Not Being Used
+**Symptoms**: Scripts se ejecutan lentamente cada vez
+**Solutions**:
+```powershell
+# Verifica que el caché exista
+$cacheDir = (Get-ColorScriptConfiguration).Cache.Path
+Get-ChildItem $cacheDir -Filter "*.cache" | Measure-Object
+
+# Reconstruye caché
+Remove-Item "$cacheDir\*" -Confirm:$false
+New-ColorScriptCache -Force
+
+# Verifica problemas de ruta de caché
+Get-ColorScriptConfiguration | Select-Object -ExpandProperty Cache
+```
+
+#### Issue 4: Profile Not Running
+**Symptoms**: Colorscript no se muestra en inicio de PowerShell
+**Solutions**:
+```powershell
+# Verifica que el perfil exista
+Test-Path $PROFILE
+
+# Verifica contenido del perfil
+Get-Content $PROFILE | Select-String "ColorScripts"
+
+# Repara perfil
+Add-ColorScriptProfile -Force
+
+# Prueba perfil manualmente
+. $PROFILE
+```
+
+### FAQ
+
+**Q: How many colorscripts are available?**
+A: Más de 450+ scripts integrados en múltiples categorías y etiquetas
+
+**Q: How much disk space does caching use?**
+A: Aproximadamente 2-5MB total para todos los scripts, alrededor de 2-50KB por script
+
+**Q: Can I use colorscripts in scripts/automation?**
+A: Sí, usa `-ReturnText` para capturar salida o `-PassThru` para metadatos
+
+**Q: How do I create custom colorscripts?**
+A: Usa `New-ColorScript` para crear una plantilla, luego agrega tu arte ANSI
+
+**Q: What if I don't want colors on startup?**
+A: Usa `Add-ColorScriptProfile -SkipStartupScript` para importar sin auto-visualización
+
+**Q: Can I use this on macOS/Linux?**
+A: Sí, con PowerShell 7+ que se ejecuta multiplataforma
+
+**Q: How do I share colorscripts with colleagues?**
+A: Exporta metadatos con `Export-ColorScriptMetadata` o comparte archivos de script
+
+**Q: Is caching always enabled?**
+A: No, usa `-NoCache` para deshabilitar caché para desarrollo/pruebas
+
+### BEST PRACTICES
+
+1. **Install from PowerShell Gallery**: Usa `Install-Module` para actualizaciones automáticas
+2. **Add to Profile**: Usa `Add-ColorScriptProfile` para integración de inicio automática
+3. **Pre-build Cache**: Ejecuta `New-ColorScriptCache` después de instalación para rendimiento óptimo
+4. **Use Meaningful Naming**: Al crear scripts personalizados, usa nombres descriptivos
+5. **Keep Metadata Updated**: Actualiza ScriptMetadata.psd1 al agregar scripts
+6. **Test in Different Terminals**: Verifica que los scripts se muestren correctamente en tus entornos
+7. **Monitor Cache Size**: Verifica periódicamente el tamaño del directorio de caché y limpia si es necesario
+8. **Use Categories/Tags**: Aprovecha el filtrado para descubrimiento más rápido de scripts
+9. **Document Custom Scripts**: Agrega descripciones y etiquetas a colorscripts personalizados
+10. **Backup Configuration**: Exporta configuración antes de cambios mayores
+
+### VERSION HISTORY
+
+#### Version 2025.10.09
+- Sistema de caché mejorado con caché OS-wide
+- Mejora de rendimiento 6-19x
+- Ubicación de caché centralizada en AppData
+- Incluidos 450++ colorscripts
+- Documentación completa de ayuda basada en comentarios
+- Mejoras en manifiesto de módulo
+- Gestión avanzada de configuración
+- Capacidades de exportación de metadatos
+- Ayudantes de integración de perfil
+
+### COPYRIGHT
+
+Copyright (c) 2025. All rights reserved.
+
+### LICENSE
+
+Licensed under MIT License. See LICENSE file for details.

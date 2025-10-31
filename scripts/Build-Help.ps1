@@ -68,9 +68,6 @@ $repoRoot = Split-Path -Parent $PSScriptRoot
 if (-not $ModulePath) {
     $ModulePath = Join-Path $repoRoot "ColorScripts-Enhanced"
 }
-if (-not $OutputPath) {
-    $OutputPath = Join-Path $ModulePath "en-US"
-}
 
 $ModuleManifestPath = Get-ChildItem -Path $ModulePath -Filter '*.psd1' -File | Select-Object -First 1
 if (-not $ModuleManifestPath) {
@@ -82,8 +79,19 @@ $moduleData = Import-PowerShellDataFile -Path $ModuleManifestPath
 $moduleGuid = [string]$moduleData.GUID
 $moduleVersion = [string]$moduleData.ModuleVersion
 $moduleName = Split-Path -Path $ModulePath -Leaf
-$uiCulture = 'en-US'
-$cabSourceFolder = Join-Path $ModulePath $uiCulture
+
+# Get all available UI cultures (directories with help content)
+$availableCultures = Get-ChildItem -Path $ModulePath -Directory |
+    Where-Object { $_.Name -match '^[a-z]{2}(-[A-Z]{2})?$' } |
+    ForEach-Object { $_.Name } |
+    Sort-Object
+
+# Default to en-US if no cultures found
+if (-not $availableCultures) {
+    $availableCultures = @('en-US')
+}
+
+Write-Host "`nAvailable UI cultures: $($availableCultures -join ', ')" -ForegroundColor Cyan
 
 $helpInfoUri = [string]$moduleData.HelpInfoURI
 if ([string]::IsNullOrWhiteSpace($helpInfoUri)) {
@@ -136,118 +144,134 @@ if (-not $SkipXmlGeneration -and $hasPlatyPS) {
     Write-Host "`nDetected PlatyPS module: $platyModuleName" -ForegroundColor Yellow
 }
 
-# Ensure output directory exists
-if (-not (Test-Path $OutputPath)) {
-    New-Item -ItemType Directory -Path $OutputPath -Force | Out-Null
-}
-
 if (-not $SkipXmlGeneration) {
-    # Update markdown files from module if requested
-    if ($UpdateMarkdown) {
-        Write-Host "`nUpdating markdown help files from module..." -ForegroundColor Yellow
+    # Process each available culture
+    foreach ($uiCulture in $availableCultures) {
+        $cultureOutputPath = Join-Path $ModulePath $uiCulture
+        $cultureSourceFolder = Join-Path $ModulePath $uiCulture
 
-        try {
-            $escapedModulePath = $ModulePath -replace "'", "''"
-            $escapedOutputPath = $OutputPath -replace "'", "''"
-            $escapedPlatyName = $platyModuleName -replace "'", "''"
+        Write-Host "`nProcessing culture: $uiCulture" -ForegroundColor Cyan
+        Write-Host "  Source: $cultureSourceFolder" -ForegroundColor Gray
+        Write-Host "  Output: $cultureOutputPath" -ForegroundColor Gray
 
-            $updateScript = @"
+        # Check if this culture has help files
+        $hasMarkdownFiles = Get-ChildItem -Path $cultureSourceFolder -Filter '*.md' -ErrorAction SilentlyContinue
+        if (-not $hasMarkdownFiles) {
+            Write-Host "  ⚠ No markdown help files found for culture $uiCulture, skipping..." -ForegroundColor Yellow
+            continue
+        }
+
+        # Update markdown files from module if requested
+        if ($UpdateMarkdown) {
+            Write-Host "  Updating markdown help files from module..." -ForegroundColor Yellow
+
+            try {
+                $escapedModulePath = $ModulePath -replace "'", "''"
+                $escapedCulturePath = $cultureOutputPath -replace "'", "''"
+                $escapedPlatyName = $platyModuleName -replace "'", "''"
+
+                $updateScript = @"
 Import-Module '$escapedModulePath' -Force -ErrorAction Stop
 Import-Module '$escapedPlatyName' -Force -ErrorAction Stop
 
 # Update all markdown help files for the module
-# Note: Update-MarkdownCommandHelp should be called on the directory, not individual files
-Update-MarkdownCommandHelp -Path '$escapedOutputPath' -RefreshModulePage -AlphabeticParamsOrder -UpdateInputOutput -Force
+Update-MarkdownCommandHelp -Path '$escapedCulturePath' -RefreshModulePage -AlphabeticParamsOrder -UpdateInputOutput -Force
 
-Write-Host "Markdown files updated successfully"
+Write-Host "Markdown files updated successfully for $uiCulture"
 "@
 
-            $updateResult = Invoke-HelperPowerShell -ScriptContent $updateScript -Purpose 'markdown help update'
+                $updateResult = Invoke-HelperPowerShell -ScriptContent $updateScript -Purpose 'markdown help update'
 
-            if ($updateResult.ExitCode -ne 0) {
-                throw "Markdown update helper exited with code $($updateResult.ExitCode) : $($updateResult.Output)"
+                if ($updateResult.ExitCode -ne 0) {
+                    throw "Markdown update helper exited with code $($updateResult.ExitCode) : $($updateResult.Output)"
+                }
+
+                if ($updateResult.Output) {
+                    Write-Verbose ($updateResult.Output | Out-String)
+                }
+
+                Get-ChildItem -Path $cultureOutputPath -Filter '*.md' | ForEach-Object {
+                    Write-Host "    Updated: $($_.Name)" -ForegroundColor Gray
+                }
+
+                Write-Host "  ✓ Markdown files updated successfully for $uiCulture" -ForegroundColor Green
             }
-
-            if ($updateResult.Output) {
-                Write-Verbose ($updateResult.Output | Out-String)
+            catch {
+                Write-Host "  ✗ Failed to update markdown files for ${uiCulture}: $_" -ForegroundColor Red
+                Write-Host "    Continuing with existing markdown..." -ForegroundColor Yellow
             }
-
-            Get-ChildItem -Path $OutputPath -Filter '*.md' | ForEach-Object {
-                Write-Host "  Updated: $($_.Name)" -ForegroundColor Gray
-            }
-
-            Write-Host "✓ Markdown files updated successfully" -ForegroundColor Green
         }
-        catch {
-            Write-Host "✗ Failed to update markdown files: $_" -ForegroundColor Red
-            Write-Host "  Continuing with existing markdown...`n" -ForegroundColor Yellow
-        }
-    }
 
-    # Generate MAML from markdown files
-    Write-Host "`nConverting markdown to MAML XML..." -ForegroundColor Yellow
+        # Generate MAML from markdown files
+        Write-Host "  Converting markdown to MAML XML..." -ForegroundColor Yellow
 
-    try {
-        $escapedOutputPath = $OutputPath -replace "'", "''"
-        $escapedPlatyName = $platyModuleName -replace "'", "''"
+        try {
+            $escapedCulturePath = $cultureOutputPath -replace "'", "''"
+            $escapedPlatyName = $platyModuleName -replace "'", "''"
 
-        if ($isModernPlaty) {
-            $mamlScript = @"
+            if ($isModernPlaty) {
+                $mamlScript = @"
 Import-Module '$escapedPlatyName' -Force -ErrorAction Stop
-`$mdFiles = Measure-PlatyPSMarkdown -Path (Join-Path '$escapedOutputPath' '*.md')
+`$mdFiles = Measure-PlatyPSMarkdown -Path (Join-Path '$escapedCulturePath' '*.md')
 `$commandHelpFiles = `$mdFiles | Where-Object { `$_.FileType -like '*CommandHelp*' }
 if (-not `$commandHelpFiles) {
-    throw "No PlatyPS command help markdown files were found in '$escapedOutputPath'."
+    throw "No PlatyPS command help markdown files were found in '$escapedCulturePath'."
 }
 `$commandHelpFiles |
     Import-MarkdownCommandHelp -Path { `$_.FilePath } |
-    Export-MamlCommandHelp -OutputFolder '$escapedOutputPath' -Force
+    Export-MamlCommandHelp -OutputFolder '$escapedCulturePath' -Force
 
-`$nestedHelp = Join-Path '$escapedOutputPath' 'ColorScripts-Enhanced\ColorScripts-Enhanced-help.xml'
-`$targetHelp = Join-Path '$escapedOutputPath' 'ColorScripts-Enhanced-help.xml'
+`$nestedHelp = Join-Path '$escapedCulturePath' 'ColorScripts-Enhanced\ColorScripts-Enhanced-help.xml'
+`$targetHelp = Join-Path '$escapedCulturePath' 'ColorScripts-Enhanced-help.xml'
 if (Test-Path `$nestedHelp) {
     Move-Item -Path `$nestedHelp -Destination `$targetHelp -Force
-    `$nestedDir = Join-Path '$escapedOutputPath' 'ColorScripts-Enhanced'
+    `$nestedDir = Join-Path '$escapedCulturePath' 'ColorScripts-Enhanced'
     if (Test-Path `$nestedDir) {
         Remove-Item -Path `$nestedDir -Recurse -Force
     }
 }
 "@
-        }
-        else {
-            $mamlScript = @"
+            }
+            else {
+                $mamlScript = @"
 Import-Module '$escapedPlatyName' -Force -ErrorAction Stop
-New-ExternalHelp -Path '$escapedOutputPath' -OutputPath '$escapedOutputPath' -Force
+New-ExternalHelp -Path '$escapedCulturePath' -OutputPath '$escapedCulturePath' -Force
 "@
+            }
+
+            $mamlResult = Invoke-HelperPowerShell -ScriptContent $mamlScript -Purpose 'external help generation'
+
+            if ($mamlResult.ExitCode -ne 0) {
+                throw "External help helper exited with code $($mamlResult.ExitCode) : $($mamlResult.Output)"
+            }
+
+            if ($mamlResult.Output) {
+                Write-Verbose ($mamlResult.Output | Out-String)
+            }
+
+            Write-Host "  ✓ External help XML generated successfully for ${uiCulture}" -ForegroundColor Green
+            Write-Host "    Location: $cultureOutputPath\ColorScripts-Enhanced-help.xml" -ForegroundColor Gray
+        }
+        catch {
+            Write-Host "  ✗ Failed to generate help XML for ${uiCulture}: $_" -ForegroundColor Red
+            continue
         }
 
-        $mamlResult = Invoke-HelperPowerShell -ScriptContent $mamlScript -Purpose 'external help generation'
+        # Generate HelpInfo.xml for updatable help
+        Write-Host "  Generating HelpInfo.xml for ${uiCulture}..." -ForegroundColor Yellow
 
-        if ($mamlResult.ExitCode -ne 0) {
-            throw "External help helper exited with code $($mamlResult.ExitCode) : $($mamlResult.Output)"
-        }
+        try {
+            # Create culture-specific HelpInfo URI
+            $cultureHelpInfoUri = $helpInfoUri
+            if ($uiCulture -ne 'en-US') {
+                $cultureHelpInfoUri = $helpInfoUri.Replace('/en_US/', "/$uiCulture/")
+            }
 
-        if ($mamlResult.Output) {
-            Write-Verbose ($mamlResult.Output | Out-String)
-        }
-
-        Write-Host "✓ External help XML generated successfully" -ForegroundColor Green
-        Write-Host "  Location: $OutputPath\ColorScripts-Enhanced-help.xml`n" -ForegroundColor Gray
-    }
-    catch {
-        Write-Host "✗ Failed to generate help XML: $_" -ForegroundColor Red
-        throw
-    }
-
-    # Generate HelpInfo.xml for updatable help
-    Write-Host "Generating HelpInfo.xml..." -ForegroundColor Yellow
-
-    try {
-        # Create the HelpInfo.xml content
-        $helpInfoContent = @"
+            # Create the HelpInfo.xml content
+            $helpInfoContent = @"
 <?xml version="1.0" encoding="utf-8"?>
 <HelpInfo xmlns="http://schemas.microsoft.com/powershell/help/2010/05">
-  <HelpContentURI>$helpInfoUri</HelpContentURI>
+  <HelpContentURI>$cultureHelpInfoUri</HelpContentURI>
   <SupportedUICultures>
     <UICulture>
       <UICultureName>$uiCulture</UICultureName>
@@ -257,27 +281,28 @@ New-ExternalHelp -Path '$escapedOutputPath' -OutputPath '$escapedOutputPath' -Fo
 </HelpInfo>
 "@
 
-        # Write to the output directory with correct naming convention
-        $helpInfoFileName = "{0}_{1}_HelpInfo.xml" -f $moduleName, $moduleGuid
-        $helpInfoPath = Join-Path $OutputPath $helpInfoFileName
+            # Write to the culture directory with correct naming convention
+            $helpInfoFileName = "{0}_{1}_HelpInfo.xml" -f $moduleName, $moduleGuid
+            $helpInfoPath = Join-Path $cultureOutputPath $helpInfoFileName
 
-        # Remove any old HelpInfo files with incorrect names
-        Get-ChildItem -Path $OutputPath -Filter "*_HelpInfo.xml" |
-            Where-Object { $_.Name -ne $helpInfoFileName } |
-                Remove-Item -Force -ErrorAction SilentlyContinue
+            # Remove any old HelpInfo files with incorrect names
+            Get-ChildItem -Path $cultureOutputPath -Filter "*_HelpInfo.xml" |
+                Where-Object { $_.Name -ne $helpInfoFileName } |
+                    Remove-Item -Force -ErrorAction SilentlyContinue
 
-        Set-Content -Path $helpInfoPath -Value $helpInfoContent -Encoding UTF8 -NoNewline
-        Write-Host "✓ HelpInfo.xml generated successfully" -ForegroundColor Green
-        Write-Host "  Location: $helpInfoPath" -ForegroundColor Gray
-        Write-Host "  Version: $moduleVersion`n" -ForegroundColor Gray
-    }
-    catch {
-        Write-Host "✗ Failed to generate HelpInfo.xml: $_" -ForegroundColor Red
-        Write-Host "  Continuing without HelpInfo.xml...`n" -ForegroundColor Yellow
+            Set-Content -Path $helpInfoPath -Value $helpInfoContent -Encoding UTF8 -NoNewline
+            Write-Host "  ✓ HelpInfo.xml generated successfully for ${uiCulture}" -ForegroundColor Green
+            Write-Host "    Location: $helpInfoPath" -ForegroundColor Gray
+            Write-Host "    Version: $moduleVersion" -ForegroundColor Gray
+        }
+        catch {
+            Write-Host "  ✗ Failed to generate HelpInfo.xml for ${uiCulture}: $_" -ForegroundColor Red
+            Write-Host "    Continuing without HelpInfo.xml..." -ForegroundColor Yellow
+        }
     }
 }
 
-# Validate the help
+# Validate the help for all cultures
 Write-Host "Validating help content..." -ForegroundColor Yellow
 
 try {
@@ -296,19 +321,43 @@ try {
         'New-ColorScript'
     )
 
-    Write-Host ""
-    foreach ($cmd in $commands) {
-        $help = Get-Help $cmd -ErrorAction Stop
-        if ($help.Synopsis) {
-            Write-Host "  ✓ Help validated for $cmd" -ForegroundColor Green
+    # Test each culture
+    foreach ($culture in $availableCultures) {
+        Write-Host "`nTesting culture: ${culture}" -ForegroundColor Cyan
+
+        # Set the UI culture for this test
+        $originalCulture = [System.Threading.Thread]::CurrentThread.CurrentUICulture
+        try {
+            [System.Threading.Thread]::CurrentThread.CurrentUICulture = $culture
+
+            $cultureHasHelp = $false
+            foreach ($cmd in $commands) {
+                try {
+                    $help = Get-Help $cmd -ErrorAction Stop
+                    if ($help.Synopsis) {
+                        Write-Host "  ✓ Help validated for $cmd" -ForegroundColor Green
+                        $cultureHasHelp = $true
+                    }
+                    else {
+                        Write-Host "  ✗ Help missing synopsis for $cmd" -ForegroundColor Red
+                    }
+                }
+                catch {
+                    Write-Host "  ✗ Help failed for $cmd : $_" -ForegroundColor Red
+                }
+            }
+
+            if (-not $cultureHasHelp) {
+                Write-Host "  ⚠ No help files found for culture ${culture}" -ForegroundColor Yellow
+            }
         }
-        else {
-            Write-Host "  ✗ Help missing synopsis for $cmd" -ForegroundColor Red
+        finally {
+            [System.Threading.Thread]::CurrentThread.CurrentUICulture = $originalCulture
         }
     }
 
-    # Test about topic
-    Write-Host ""
+    # Test about topic (only in en-US typically)
+    Write-Host "`nTesting about topics..." -ForegroundColor Cyan
     $aboutHelp = Get-Help about_ColorScripts-Enhanced -ErrorAction SilentlyContinue
     if ($aboutHelp) {
         Write-Host "  ✓ about_ColorScripts-Enhanced help topic found" -ForegroundColor Green
