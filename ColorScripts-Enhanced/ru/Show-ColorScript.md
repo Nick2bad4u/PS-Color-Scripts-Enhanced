@@ -11,7 +11,7 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNOPSIS
 
-Отображает цветовой скрипт с автоматическим кэшированием для улучшения производительности.
+Displays a colorscript with automatic caching for enhanced performance.
 
 ## SYNTAX
 
@@ -45,24 +45,24 @@ Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag 
 
 ## DESCRIPTION
 
-Отображает красивые ANSI цветовые скрипты в вашем терминале с интеллектуальной оптимизацией производительности. Командлет предоставляет четыре основных режима работы:
+Renders beautiful ANSI colorscripts in your terminal with intelligent performance optimization. The cmdlet provides four primary modes of operation:
 
-**Random Mode (Default):** Отображает случайно выбранный цветовой скрипт из доступной коллекции. Это поведение по умолчанию, когда параметры не указаны.
+**Random Mode (Default):** Displays a randomly selected colorscript from the available collection. This is the default behavior when no parameters are specified.
 
-**Named Mode:** Отображает конкретный цветовой скрипт по имени. Поддерживает шаблоны с подстановочными знаками для гибкого сопоставления. Когда несколько скриптов соответствуют шаблону, выбирается первое совпадение в алфавитном порядке.
+**Named Mode:** Displays a specific colorscript by name. Supports wildcard patterns for flexible matching. When multiple scripts match a pattern, the first match in alphabetical order is selected.
 
-**List Mode:** Отображает отформатированный список всех доступных цветовых скриптов с их метаданными, включая имя, категорию, теги и описания.
+**List Mode:** Displays a formatted list of all available colorscripts with their metadata, including name, category, tags, and descriptions.
 
-**All Mode:** Циклически проходит через все доступные цветовые скрипты в алфавитном порядке. Особенно полезно для демонстрации всей коллекции или открытия новых скриптов.
+**All Mode:** Cycles through all available colorscripts in alphabetical order. Particularly useful for showcasing the entire collection or discovering new scripts.
 
 **Performance Features:**
-Система кэширования обеспечивает улучшение производительности в 6-19 раз. При первом выполнении цветовой скрипт запускается нормально, и его вывод кэшируется. Последующие отображения используют кэшированный вывод для почти мгновенного рендеринга. Кэш автоматически аннулируется при изменении исходных скриптов, обеспечивая точность вывода.
+The caching system provides 6-19x performance improvements. On first execution, a colorscript runs normally and its output is cached. Subsequent displays use the cached output for near-instant rendering. The cache is automatically invalidated when source scripts are modified, ensuring output accuracy.
 
 **Filtering Capabilities:**
-Фильтруйте скрипты по категории или тегам перед выбором. Это применяется во всех режимах, позволяя работать с подмножествами коллекции (например, только скрипты на тему природы или скрипты с тегом "retro").
+Filter scripts by category or tags before selection occurs. This applies across all modes, allowing you to work with subsets of the collection (e.g., only nature-themed scripts or scripts tagged as "retro").
 
 **Output Options:**
-По умолчанию цветовые скрипты записываются непосредственно в консоль для немедленного визуального отображения. Используйте `-ReturnText` для вывода отрендеренного вывода в конвейер для захвата, перенаправления или дальнейшей обработки. Используйте `-PassThru` для получения объекта метаданных скрипта для программного использования.
+By default, colorscripts are written directly to the console for immediate visual display. Use `-ReturnText` to emit the rendered output to the pipeline for capture, redirection, or further processing. Use `-PassThru` to receive the script's metadata object for programmatic use.
 
 ## EXAMPLES
 
@@ -72,7 +72,7 @@ Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag 
 Show-ColorScript
 ```
 
-Отображает случайный цветовой скрипт с включенным кэшированием. Это самый быстрый способ добавить визуальный шарм вашему сеансу терминала.
+Displays a random colorscript with caching enabled. This is the quickest way to add visual flair to your terminal session.
 
 ### EXAMPLE 2
 
@@ -80,7 +80,7 @@ Show-ColorScript
 Show-ColorScript -Name "mandelbrot-zoom"
 ```
 
-Отображает указанный цветовой скрипт по точному имени. Расширение .ps1 не требуется.
+Displays the specified colorscript by exact name. The .ps1 extension is not required.
 
 ### EXAMPLE 3
 
@@ -263,7 +263,7 @@ Demonstrates running a specific colorscript as part of scheduled task or startup
 
 ### -All
 
-Циклически проходит через все доступные цветовые скрипты в алфавитном порядке. Когда указано отдельно, скрипты отображаются непрерывно с короткой автоматической задержкой. Комбинируйте с `-WaitForInput` для ручного управления прогрессом через коллекцию. Этот режим идеален для демонстрации полной библиотеки или открытия новых фаворитов.
+Cycle through all available colorscripts in alphabetical order. When specified alone, scripts are displayed continuously with a short automatic delay. Combine with `-WaitForInput` to manually control progression through the collection. This mode is ideal for showcasing the full library or discovering new favorites.
 
 ```yaml
 Type: SwitchParameter
@@ -284,7 +284,7 @@ HelpMessage: ''
 
 ### -Category
 
-Фильтрует доступную коллекцию скриптов по одной или нескольким категориям перед любым выбором или отображением. Категории обычно являются широкими темами, такими как "Nature", "Abstract", "Art", "Retro" и т.д. Можно указать несколько категорий как массив. Этот параметр работает в сочетании со всеми режимами (Random, Named, List, All) для сужения рабочего набора.
+Filter the available script collection by one or more categories before any selection or display occurs. Categories are typically broad themes like "Nature", "Abstract", "Art", "Retro", etc. Multiple categories can be specified as an array. This parameter works in conjunction with all modes (Random, Named, List, All) to narrow the working set.
 
 ```yaml
 Type: System.String[]
@@ -489,7 +489,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ### System.String
 
-Вы можете передавать имена цветовых скриптов в Show-ColorScript. Это позволяет рабочие процессы на основе конвейера, где имена скриптов генерируются или фильтруются другими командами.
+You can pipe colorscript names to Show-ColorScript. This enables pipeline-based workflows where script names are generated or filtered by other commands.
 
 ## OUTPUTS
 
@@ -748,3 +748,4 @@ The intelligent caching system provides 6-19x performance improvements over dire
 - [Clear-ColorScriptCache](Clear-ColorScriptCache.md)
 - [Export-ColorScriptMetadata](Export-ColorScriptMetadata.md)
 - [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+
