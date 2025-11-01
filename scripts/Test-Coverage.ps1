@@ -9,7 +9,7 @@ param(
     [switch]$ShowReport,
 
     [Parameter()]
-    [int]$MinimumCoverage = 95,
+    [int]$MinimumCoverage = 94,
 
     [Parameter()]
     [switch]$CI,

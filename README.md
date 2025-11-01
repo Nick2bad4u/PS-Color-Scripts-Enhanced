@@ -43,6 +43,7 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 - [Demo](#demo)
 - [Quick Start](#quick-start-less-than-a-minute)
 - [PowerShell Support](#powershell-support)
+- [Internationalization](#internationalization)
 - [Install a Nerd Font](#install-a-nerd-font-for-custom-glyphs)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -69,6 +70,8 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 🔄 **Auto-Update** - Cache automatically invalidates when scripts change
 
 📍 **Centralized Storage** - Cache stored in `%APPDATA%\ColorScripts-Enhanced\cache`
+
+🌍 **Multilingual Support** - Full internationalization with 10 languages (English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese)
 
 ## Demo
 
@@ -102,6 +105,57 @@ We test every change across Windows, macOS, and Linux. See the full matrix in [d
 | Linux    | ❌ Not available                 | ✅ Unit tests, ScriptAnalyzer                  |
 
 > We intentionally run ScriptAnalyzer only on PowerShell 7.x because the 5.1 engine applies different rules that conflict with modern cross-platform patterns.
+
+## Internationalization
+
+ColorScripts-Enhanced provides **full multilingual support** with automatic language detection based on your system's culture settings. All cmdlet help documentation, error messages, warnings, and user interface text are available in 10 languages:
+
+| Language   | Culture Code | Status |
+| ---------- | ------------ | ------ |
+| English    | en-US        | ✅     |
+| German     | de           | ✅     |
+| Spanish    | es           | ✅     |
+| French     | fr           | ✅     |
+| Italian    | it           | ✅     |
+| Japanese   | ja           | ✅     |
+| Dutch      | nl           | ✅     |
+| Portuguese | pt           | ✅     |
+| Russian    | ru           | ✅     |
+| Chinese    | zh-CN        | ✅     |
+
+### Using Localized Help
+
+The module automatically detects your system's language and displays help in your preferred language:
+
+```powershell
+# View help in your system's language
+Get-Help Show-ColorScript -Full
+
+# Access online help with automatic language detection
+Get-Help Show-ColorScript -Online
+```
+
+The `-Online` parameter uses an intelligent redirect system that:
+- Detects your browser's language settings
+- Automatically displays documentation in your preferred language
+- Falls back to English if your language isn't available
+- Works seamlessly with all 10 supported languages
+
+### Changing Display Language
+
+You can override the automatic detection by setting your PowerShell UI culture:
+
+```powershell
+# Example: Switch to German
+$PSUICulture = 'de'
+Import-Module ColorScripts-Enhanced -Force
+
+# Example: Switch to Japanese
+$PSUICulture = 'ja'
+Import-Module ColorScripts-Enhanced -Force
+```
+
+All module messages, warnings, and error text will appear in the selected language immediately.
 
 ## Install a Nerd Font for Custom Glyphs
 

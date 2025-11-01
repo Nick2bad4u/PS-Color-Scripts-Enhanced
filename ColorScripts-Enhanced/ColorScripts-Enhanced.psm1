@@ -511,7 +511,7 @@ function Initialize-Configuration {
             }
         }
         catch {
-            Write-Warning ($script:Messages.FailedToParseConfigurationFile + "'$script:ConfigurationPath': $($_.Exception.Message). Using defaults.")
+            Write-Warning ($script:Messages.FailedToParseConfigurationFile -f $script:ConfigurationPath, $_.Exception.Message)
             $forceSave = $true
             $raw = $null
         }
@@ -535,7 +535,7 @@ function Get-ColorScriptConfiguration {
     <#
     .EXTERNALHELP ColorScripts-Enhanced-help.xml
     #>
-    [CmdletBinding()]
+    [CmdletBinding(HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration')]
     param(
         [Alias('help')]
         [switch]$h
@@ -554,7 +554,7 @@ function Set-ColorScriptConfiguration {
     <#
     .EXTERNALHELP ColorScripts-Enhanced-help.xml
     #>
-    [CmdletBinding(SupportsShouldProcess = $true)]
+    [CmdletBinding(SupportsShouldProcess = $true, HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration')]
     param(
         [Alias('help')]
         [switch]$h,
@@ -588,7 +588,7 @@ function Set-ColorScriptConfiguration {
         else {
             $resolvedCache = Resolve-CachePath -Path $CachePath
             if (-not $resolvedCache) {
-                throw ($script:Messages.UnableToResolveCachePath + "'$CachePath'.")
+                throw ($script:Messages.UnableToResolveCachePath -f $CachePath)
             }
 
             if (-not (Test-Path -LiteralPath $resolvedCache)) {
@@ -627,7 +627,7 @@ function Reset-ColorScriptConfiguration {
     <#
     .EXTERNALHELP ColorScripts-Enhanced-help.xml
     #>
-    [CmdletBinding(SupportsShouldProcess = $true)]
+    [CmdletBinding(SupportsShouldProcess = $true, HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration')]
     param(
         [Alias('help')]
         [switch]$h,
@@ -1076,7 +1076,7 @@ function Initialize-CacheDirectory {
             $candidatePaths += $configuredPath
         }
         else {
-            Write-Warning ($script:Messages.ConfiguredCachePathInvalid + "'$($configData.Cache.Path)' could not be resolved. Falling back to default locations.")
+            Write-Warning ($script:Messages.ConfiguredCachePathInvalid -f $configData.Cache.Path)
         }
     }
 
@@ -1125,7 +1125,7 @@ function Initialize-CacheDirectory {
             return
         }
         catch {
-            Write-Warning ($script:Messages.UnableToPrepareCacheDirectory + "'$target': $($_.Exception.Message)")
+            Write-Warning ($script:Messages.UnableToPrepareCacheDirectory -f $target, $_.Exception.Message)
         }
     }
 
@@ -2044,6 +2044,9 @@ function Show-ColorScript {
     .SYNOPSIS
         Displays a colorscript with automatic caching.
 
+    .LINK
+        https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript
+
     .DESCRIPTION
         Shows a beautiful ANSI colorscript in your terminal. If no name is specified,
         displays a random script. Uses intelligent caching for 6-19x faster performance.
@@ -2112,7 +2115,7 @@ function Show-ColorScript {
         Show-ColorScript -All -Category Nature -WaitForInput
         Cycles through all nature-themed colorscripts with manual progression.
     #>
-    [CmdletBinding(DefaultParameterSetName = 'Random')]
+    [CmdletBinding(DefaultParameterSetName = 'Random', HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript')]
     [Alias('scs')]
     param(
         [Parameter(ParameterSetName = 'Help')]
@@ -2299,7 +2302,7 @@ function Show-ColorScript {
         $orderedMatches = $records | Sort-Object Name
         if ($orderedMatches.Count -gt 1) {
             $matchedNames = $orderedMatches | Select-Object -ExpandProperty Name
-            Write-Verbose ($script:Messages.MultipleColorscriptsMatched -f $matchedNames, $orderedMatches[0].Name)
+            Write-Verbose ($script:Messages.MultipleColorscriptsMatched -f ($matchedNames -join ', '), $orderedMatches[0].Name)
         }
         $selection = $orderedMatches | Select-Object -First 1
     }
@@ -2326,7 +2329,7 @@ function Show-ColorScript {
             $cacheResult = Build-ScriptCache -ScriptPath $selection.Path
             if (-not $cacheResult.Success) {
                 if ($cacheResult.StdErr) {
-                    Write-Warning $script:Messages.CacheBuildFailedForScript
+                    Write-Warning ($script:Messages.CacheBuildFailedForScript -f $selection.Name, $cacheResult.StdErr.Trim())
                 }
 
                 if ([string]::IsNullOrEmpty($cacheResult.StdOut)) {
@@ -2344,7 +2347,7 @@ function Show-ColorScript {
         $executionResult = Invoke-ColorScriptProcess -ScriptPath $selection.Path
         if (-not $executionResult.Success) {
             $errorMessage = if ($executionResult.StdErr) { $executionResult.StdErr.Trim() } else { "Script exited with code $($executionResult.ExitCode)." }
-            throw ($script:Messages.FailedToExecuteColorscript + "'$($selection.Name)': $errorMessage")
+            throw ($script:Messages.FailedToExecuteColorscript -f $selection.Name, $errorMessage)
         }
 
         $renderedOutput = $executionResult.StdOut
@@ -2392,7 +2395,7 @@ Filter the list to scripts containing one or more metadata tags (case-insensitiv
 #>
 function Get-ColorScriptList {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Structured list is emitted for pipeline consumption.')]
-    [CmdletBinding()]
+    [CmdletBinding(HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList')]
     param(
         [Alias('help')]
         [switch]$h,
@@ -2456,9 +2459,11 @@ function Export-ColorScriptMetadata {
     Attach cache metadata including the cache location, whether a cache file exists, and its timestamp.
     .PARAMETER PassThru
     Return the in-memory objects even when writing to a file.
+    .LINK
+    https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata
     #>
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseSingularNouns', '', Justification = 'Metadata is a collective noun representing the exported dataset.')]
-    [CmdletBinding()]
+    [CmdletBinding(HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata')]
     param(
         [Alias('help')]
         [switch]$h,
@@ -2537,7 +2542,7 @@ function Export-ColorScriptMetadata {
     if ($Path) {
         $resolvedPath = Resolve-CachePath -Path $Path
         if (-not $resolvedPath) {
-            throw ($script:Messages.UnableToResolveOutputPath + "'$Path'.")
+            throw ($script:Messages.UnableToResolveOutputPath -f $Path)
         }
 
         $outputDirectory = Split-Path -Path $resolvedPath -Parent
@@ -2579,7 +2584,7 @@ Limit the selection to scripts containing the specified metadata tags (case-inse
 #>
 function New-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache operation.')]
-    [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
+    [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium', HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache')]
     [Alias('Update-ColorScriptCache')]
     param(
         [Parameter(ParameterSetName = 'Help')]
@@ -2722,7 +2727,7 @@ function New-ColorScriptCache {
                     $resultStatus = if ($buildResult.Success) { 'Updated' } else { 'Failed' }
 
                     if (-not $buildResult.Success -and $buildResult.StdErr) {
-                        Write-Warning $script:Messages.CacheBuildFailedForScript
+                        Write-Warning ($script:Messages.CacheBuildFailedForScript -f $selection.Name, $buildResult.StdErr.Trim())
                     }
 
                     $entry = [pscustomobject]@{
@@ -2823,7 +2828,7 @@ Filter the target scripts by metadata tag before evaluating cache entries.
 #>
 function Clear-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache entry.')]
-    [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
+    [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium', HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache')]
     param(
         [Parameter(ParameterSetName = 'Help')]
         [Alias('help')]
@@ -3117,8 +3122,10 @@ function New-ColorScript {
     Suggested metadata tags for the new script.
     .PARAMETER GenerateMetadataSnippet
     Emit a guidance snippet describing how to update ScriptMetadata.psd1.
+    .LINK
+    https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript
     #>
-    [CmdletBinding(SupportsShouldProcess = $true)]
+    [CmdletBinding(SupportsShouldProcess = $true, HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript')]
     param(
         [Alias('help')]
         [switch]$h,
@@ -3152,7 +3159,7 @@ function New-ColorScript {
     if ($PSBoundParameters.ContainsKey('OutputPath')) {
         $resolvedOutput = Resolve-CachePath -Path $OutputPath
         if (-not $resolvedOutput) {
-            throw ($script:Messages.UnableToResolveOutputPath + "'$OutputPath'.")
+            throw ($script:Messages.UnableToResolveOutputPath -f $OutputPath)
         }
         $targetDirectory = $resolvedOutput
     }
@@ -3232,7 +3239,7 @@ function Add-ColorScriptProfile {
     <#
     .EXTERNALHELP ColorScripts-Enhanced-help.xml
     #>
-    [CmdletBinding(SupportsShouldProcess = $true)]
+    [CmdletBinding(SupportsShouldProcess = $true, HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile')]
     param(
         [Alias('help')]
         [switch]$h,
@@ -3293,7 +3300,7 @@ function Add-ColorScriptProfile {
     if ($PSBoundParameters.ContainsKey('Path')) {
         $profilePath = Resolve-CachePath -Path $Path
         if (-not $profilePath) {
-            throw ($script:Messages.UnableToResolveProfilePath + "'$Path'.")
+            throw ($script:Messages.UnableToResolveProfilePath -f $Path)
         }
     }
     else {

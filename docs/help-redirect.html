@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorScripts-Enhanced Help Redirect</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 2rem auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .message {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        .details {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="spinner"></div>
+        <div class="message">Redirecting to help documentation...</div>
+        <div class="details" id="languageInfo"></div>
+    </div>
+
+    <script>
+        // Get cmdlet name from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const cmdlet = urlParams.get('cmdlet') || 'Show-ColorScript';
+
+        // Map browser languages to PowerShell culture codes
+        const languageMap = {
+            'de': 'de',
+            'de-DE': 'de',
+            'de-AT': 'de',
+            'de-CH': 'de',
+            'es': 'es',
+            'es-ES': 'es',
+            'es-MX': 'es',
+            'es-AR': 'es',
+            'fr': 'fr',
+            'fr-FR': 'fr',
+            'fr-CA': 'fr',
+            'it': 'it',
+            'it-IT': 'it',
+            'ja': 'ja',
+            'ja-JP': 'ja',
+            'nl': 'nl',
+            'nl-NL': 'nl',
+            'nl-BE': 'nl',
+            'pt': 'pt',
+            'pt-PT': 'pt',
+            'pt-BR': 'pt',
+            'ru': 'ru',
+            'ru-RU': 'ru',
+            'zh': 'zh-CN',
+            'zh-CN': 'zh-CN',
+            'zh-Hans': 'zh-CN',
+            'zh-SG': 'zh-CN'
+        };
+
+        // Supported cultures in the module
+        const supportedCultures = ['de', 'en-US', 'es', 'fr', 'it', 'ja', 'nl', 'pt', 'ru', 'zh-CN'];
+
+        // Get user's preferred language
+        function getUserLanguage() {
+            // Try to get from URL parameter first
+            const urlLang = urlParams.get('lang');
+            if (urlLang && supportedCultures.includes(urlLang)) {
+                return urlLang;
+            }
+
+            // Check browser languages
+            const browserLanguages = navigator.languages || [navigator.language || navigator.userLanguage];
+
+            for (const lang of browserLanguages) {
+                // Check exact match first
+                if (supportedCultures.includes(lang)) {
+                    return lang;
+                }
+
+                // Check mapped language
+                const mapped = languageMap[lang];
+                if (mapped && supportedCultures.includes(mapped)) {
+                    return mapped;
+                }
+            }
+
+            // Default to English
+            return 'en-US';
+        }
+
+        // Redirect to the appropriate help page
+        function redirectToHelp() {
+            const culture = getUserLanguage();
+            const baseUrl = 'https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced';
+            const helpUrl = `${baseUrl}/${culture}/${cmdlet}.md`;
+
+            // Show language info
+            document.getElementById('languageInfo').textContent =
+                `Detected language: ${culture} | Cmdlet: ${cmdlet}`;
+
+            // Redirect after a brief delay
+            setTimeout(() => {
+                window.location.href = helpUrl;
+            }, 500);
+        }
+
+        // Run the redirect
+        redirectToHelp();
+    </script>
+</body>
+</html>

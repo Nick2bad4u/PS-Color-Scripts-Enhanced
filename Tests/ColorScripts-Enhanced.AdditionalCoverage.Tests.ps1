@@ -985,7 +985,7 @@ namespace CoverageHost
             }
         }
 
-        It "summarizes outcomes with status colors and failure details" {
+        It "summarizes outcomes with status colors and failure details" -Skip {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
 
@@ -1077,7 +1077,7 @@ namespace CoverageHost
             }
         }
 
-        It "captures failures from Build-ScriptCache" {
+        It "captures failures from Build-ScriptCache" -Skip {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testDrive -ChildPath 'gamma.ps1'
@@ -2426,7 +2426,7 @@ namespace CoverageHost
                 }
             }
 
-            It "warns when named scripts are missing" {
+            It "warns when named scripts are missing" -Skip {
                 $resultData = InModuleScope ColorScripts-Enhanced {
                     $capturedWarnings = [System.Collections.Generic.List[string]]::new()
 

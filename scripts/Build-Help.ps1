@@ -1,4 +1,4 @@
-# Generate External Help XML from Markdown
+﻿# Generate External Help XML from Markdown
 # This script converts markdown help files to MAML XML format
 # Note: Requires platyPS module (optional - install manually if needed)
 
@@ -8,9 +8,6 @@
 param(
     [Parameter()]
     [string]$ModulePath,
-
-    [Parameter()]
-    [string]$OutputPath,
 
     [Parameter()]
     [switch]$SkipXmlGeneration,
@@ -83,8 +80,8 @@ $moduleName = Split-Path -Path $ModulePath -Leaf
 # Get all available UI cultures (directories with help content)
 $availableCultures = Get-ChildItem -Path $ModulePath -Directory |
     Where-Object { $_.Name -match '^[a-z]{2}(-[A-Z]{2})?$' } |
-    ForEach-Object { $_.Name } |
-    Sort-Object
+        ForEach-Object { $_.Name } |
+            Sort-Object
 
 # Default to en-US if no cultures found
 if (-not $availableCultures) {
