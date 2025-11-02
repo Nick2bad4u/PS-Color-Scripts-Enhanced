@@ -42,8 +42,14 @@ $moduleInfo = $ExecutionContext.SessionState.Module
 $moduleRootCandidates = @()
 $moduleRootDebugPath = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath 'cs-module-root-debug.log'
 "--- Import begin: $(Get-Date -Format o) ---" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
-"ModuleInfo.ModuleBase = $($moduleInfo?.ModuleBase)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
-"ModuleInfo.Path = $($moduleInfo?.Path)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+if ($moduleInfo) {
+    "ModuleInfo.ModuleBase = $($moduleInfo.ModuleBase)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+    "ModuleInfo.Path = $($moduleInfo.Path)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+}
+else {
+    "ModuleInfo.ModuleBase = <null>" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+    "ModuleInfo.Path = <null>" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+}
 "PSScriptRoot = $PSScriptRoot" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
 
 if ($moduleInfo) {
@@ -131,53 +137,314 @@ foreach ($cultureName in $cultureFallback) {
 
 $cultureFallback = $cultureFallbackClean
 
-$script:Messages = $null
-$localizedDataLoaded = $false
-$searchedPaths = @()
+$script:EmbeddedDefaultMessages = ConvertFrom-StringData @'
+# ColorScripts-Enhanced Localized Messages
+# English (en-US) - Default Language
 
-foreach ($candidatePath in $moduleRootCandidates) {
-    $searchedPaths += $candidatePath
-    "Evaluating candidate: ${candidatePath}" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+# Error Messages
+UnableToPrepareCacheDirectory = Unable to prepare cache directory '{0}': {1}
+FailedToParseConfigurationFile = Failed to parse configuration file at '{0}': {1}. Using defaults.
+UnableToResolveCachePath = Unable to resolve cache path '{0}'.
+ConfiguredCachePathInvalid = Configured cache path '{0}' could not be resolved. Falling back to default locations.
+UnableToResolveOutputPath = Unable to resolve output path '{0}'.
+UnableToDetermineConfigurationDirectory = Unable to determine configuration directory for ColorScripts-Enhanced.
+ConfigurationRootCouldNotBeResolved = Configuration root could not be resolved.
+UnableToResolveProfilePath = Unable to resolve profile path '{0}'.
+FailedToExecuteColorscript = Failed to execute colorscript '{0}': {1}
+FailedToBuildCacheForScript = Failed to build cache for $($selection.Name).
+CacheBuildFailedForScript = Cache build failed for {0}: {1}
+ScriptAlreadyExists = Script '{0}' already exists. Use -Force to overwrite.
+ProfilePathNotDefinedForScope = Profile path for scope '{0}' is not defined.
+ScriptPathNotFound = Script path not found.
+ScriptExitedWithCode = Script exited with code {0}.
+CacheFileNotFound = Cache file not found.
+NoChangesApplied = No changes applied.
+UnableToRetrieveFileInfo = Unable to retrieve file info for '{0}': {1}
+UnableToReadCacheInfo = Unable to read cache info for '{0}': {1}
 
-    $hasLocalizedFile = $false
-    foreach ($cultureName in $cultureFallback) {
-        $localizedFile = Join-Path -Path $candidatePath -ChildPath (Join-Path -Path $cultureName -ChildPath 'Messages.psd1')
-        if (Test-Path -LiteralPath $localizedFile) {
-            $hasLocalizedFile = $true
-            break
+# Warning Messages
+NoColorscriptsFoundMatchingCriteria = No colorscripts found matching the specified criteria.
+NoScriptsMatchedSpecifiedFilters = No scripts matched the specified filters.
+NoColorscriptsAvailableWithFilters = No colorscripts available with the specified filters.
+NoColorscriptsFoundInScriptsPath = No colorscripts found in $script:ScriptsPath
+NoScriptsSelectedForCacheBuild = No scripts selected for cache build.
+ScriptNotFound = Script not found: {0}
+ColorscriptNotFoundWithFilters = Colorscript '{0}' not found with the specified filters.
+CachePathNotFound = Cache path not found: {0}
+NoCacheFilesFound = No cache files found at {0}.
+ProfileUpdatesNotSupportedInRemote = Profile updates are not supported in remote sessions.
+ScriptSkippedByFilter = Script '{0}' does not satisfy the specified filters and will be skipped.
+
+# Status Messages
+DisplayingColorscripts = `nDisplaying $totalCount colorscripts...
+CacheBuildSummary = `nCache Build Summary:
+FailedScripts = `nFailed scripts:
+TotalScriptsProcessed = `nTotal scripts processed: $totalCount
+DisplayingContinuously = Displaying continuously (Ctrl+C to stop)`n
+FinishedDisplayingAll = Finished displaying all $totalCount colorscripts!
+Quitting = `nQuitting...
+CurrentIndexOfTotal = [$currentIndex/$totalCount]
+FailedScriptDetails =   - $($failure.Name): $($failure.StdErr)
+MultipleColorscriptsMatched = Multiple colorscripts matched the provided name pattern(s): {0}. Displaying '{1}'.
+StatusCached = Cached
+StatusSkippedUpToDate = Skipped (up-to-date)
+StatusSkippedByUser = Skipped by user
+StatusFailed = Failed
+StatusUpToDateSkipped = Up-to-date (skipped)
+
+# Interactive Messages
+PressSpacebarToContinue = Press [Spacebar] to continue to next, [Q] to quit`n
+PressSpacebarForNext = Press [Spacebar] for next, [Q] to quit...
+
+# Success Messages
+ProfileSnippetAdded = [OK] Added ColorScripts-Enhanced startup snippet to $profilePath
+ProfileAlreadyContainsSnippet = Profile already contains ColorScripts-Enhanced snippet.
+ProfileAlreadyImportsModule = Profile already imports ColorScripts-Enhanced.
+ModuleLoadedSuccessfully = ColorScripts-Enhanced module loaded successfully.
+RemoteSessionDetected = Remote session detected.
+ProfileAlreadyConfigured = Profile already configured.
+ProfileSnippetAddedMessage = ColorScripts-Enhanced profile snippet added.
+
+# Help/Instruction Messages
+SpecifyNameToSelectScripts = Specify -Name to select scripts when -All is explicitly disabled.
+SpecifyAllOrNameToClearCache = Specify -All or -Name to clear cache entries.
+UsePassThruForDetailedResults = Use -PassThru to see detailed results`n
+
+# UI Elements
+
+# Miscellaneous
+'@
+
+function Resolve-LocalizedMessagesFile {
+    param(
+        [Parameter(Mandatory)][string]$BaseDirectory,
+        [Parameter(Mandatory)][string[]]$CultureFallback
+    )
+
+    $messagesFileName = 'Messages.psd1'
+
+    $directoryEntries = Get-ChildItem -LiteralPath $BaseDirectory -Directory -ErrorAction SilentlyContinue
+    if (-not $directoryEntries) {
+        $directoryEntries = @()
+    }
+
+    foreach ($cultureName in $CultureFallback) {
+        if ([string]::IsNullOrWhiteSpace($cultureName)) {
+            continue
+        }
+
+        $resolvedDirectory = $null
+        $directCulturePath = Join-Path -Path $BaseDirectory -ChildPath $cultureName
+
+        if (Test-Path -LiteralPath $directCulturePath -PathType Container) {
+            $resolvedResult = Resolve-Path -LiteralPath $directCulturePath -ErrorAction SilentlyContinue
+            if ($resolvedResult) {
+                $resolvedDirectory = $resolvedResult.ProviderPath
+            }
+            else {
+                $resolvedDirectory = $directCulturePath
+            }
+        }
+
+        if (-not $resolvedDirectory) {
+            $matchingDirectory = $null
+            foreach ($entry in $directoryEntries) {
+                if ($entry.Name.Equals($cultureName, [System.StringComparison]::OrdinalIgnoreCase)) {
+                    $matchingDirectory = $entry.FullName
+                    break
+                }
+            }
+
+            if ($matchingDirectory) {
+                $resolvedDirectory = $matchingDirectory
+            }
+        }
+
+        if (-not $resolvedDirectory) {
+            continue
+        }
+
+        $candidateFile = Join-Path -Path $resolvedDirectory -ChildPath $messagesFileName
+
+        if (-not (Test-Path -LiteralPath $candidateFile -PathType Leaf)) {
+            $filesInDirectory = Get-ChildItem -LiteralPath $resolvedDirectory -File -ErrorAction SilentlyContinue
+            if (-not $filesInDirectory) {
+                $filesInDirectory = @()
+            }
+
+            $candidateFile = $null
+            foreach ($fileEntry in $filesInDirectory) {
+                if ($fileEntry.Name.Equals($messagesFileName, [System.StringComparison]::OrdinalIgnoreCase)) {
+                    $candidateFile = $fileEntry.FullName
+                    break
+                }
+            }
+        }
+
+        if ($candidateFile -and (Test-Path -LiteralPath $candidateFile -PathType Leaf)) {
+            $resolvedFile = $candidateFile
+            $resolvedFilePath = Resolve-Path -LiteralPath $candidateFile -ErrorAction SilentlyContinue
+            if ($resolvedFilePath) {
+                $resolvedFile = $resolvedFilePath.ProviderPath
+            }
+
+            return [pscustomobject]@{
+                FilePath    = $resolvedFile
+                CultureName = $cultureName
+            }
         }
     }
 
-    if (-not $hasLocalizedFile) {
-        $rootFallback = Join-Path -Path $candidatePath -ChildPath 'Messages.psd1'
-        if (Test-Path -LiteralPath $rootFallback) {
-            $hasLocalizedFile = $true
-            "Found root fallback at ${rootFallback}" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+    $rootFile = Join-Path -Path $BaseDirectory -ChildPath $messagesFileName
+
+    if (-not (Test-Path -LiteralPath $rootFile -PathType Leaf)) {
+        $rootFiles = Get-ChildItem -LiteralPath $BaseDirectory -File -ErrorAction SilentlyContinue
+        if (-not $rootFiles) {
+            $rootFiles = @()
+        }
+
+        $rootFile = $null
+        foreach ($fileEntry in $rootFiles) {
+            if ($fileEntry.Name.Equals($messagesFileName, [System.StringComparison]::OrdinalIgnoreCase)) {
+                $rootFile = $fileEntry.FullName
+                break
+            }
         }
     }
 
-    if (-not $hasLocalizedFile) {
-        "No localized data found under ${candidatePath}" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
-        continue
+    if ($rootFile -and (Test-Path -LiteralPath $rootFile -PathType Leaf)) {
+        $resolvedRootFile = $rootFile
+        $resolvedRootResult = Resolve-Path -LiteralPath $rootFile -ErrorAction SilentlyContinue
+        if ($resolvedRootResult) {
+            $resolvedRootFile = $resolvedRootResult.ProviderPath
+        }
+
+        return [pscustomobject]@{
+            FilePath    = $resolvedRootFile
+            CultureName = $null
+        }
     }
 
-    try {
-        Import-LocalizedData -BindingVariable "script:Messages" -FileName "Messages" -BaseDirectory $candidatePath -ErrorAction Stop
+    return $null
+}
+
+function Import-LocalizedMessagesFromFile {
+    param(
+        [Parameter(Mandatory)][string]$FilePath
+    )
+
+    if (-not (Test-Path -LiteralPath $FilePath -PathType Leaf)) {
+        throw [System.IO.FileNotFoundException]::new("Localization file '$FilePath' was not found.")
+    }
+
+    $rawContent = Get-Content -LiteralPath $FilePath -Raw -Encoding UTF8 -ErrorAction Stop
+
+    $messagesBody = $null
+    $match = [System.Text.RegularExpressions.Regex]::Match(
+        $rawContent,
+        "ConvertFrom-StringData\s*@'(?<body>.*)'@",
+        [System.Text.RegularExpressions.RegexOptions]::Singleline
+    )
+
+    if ($match.Success) {
+        $messagesBody = $match.Groups['body'].Value
+    }
+
+    if ($messagesBody) {
+        $script:Messages = ConvertFrom-StringData -StringData $messagesBody
+        return
+    }
+
+    $data = Import-PowerShellDataFile -Path $FilePath
+    if ($data -isnot [hashtable]) {
+        throw [System.InvalidOperationException]::new("Localization file '$FilePath' did not return a hashtable.")
+    }
+
+    $script:Messages = $data
+}
+
+function Initialize-ColorScriptsLocalization {
+    param(
+        [Parameter()][string[]]$CandidateRoots,
+        [Parameter()][string[]]$CultureFallbackOverride
+    )
+
+    $pathsToEvaluate = @()
+    if ($CandidateRoots) {
+        $pathsToEvaluate = $CandidateRoots
+    }
+
+    $fallbackCultures = if ($CultureFallbackOverride) { $CultureFallbackOverride } else { $cultureFallback }
+
+    $script:Messages = $null
+    $localizedDataLoaded = $false
+    $searchedPaths = @()
+
+    foreach ($candidatePath in $pathsToEvaluate) {
+        $searchedPaths += $candidatePath
+        "Evaluating candidate: ${candidatePath}" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+
+        $resolvedLocalization = Resolve-LocalizedMessagesFile -BaseDirectory $candidatePath -CultureFallback $fallbackCultures
+
+        if (-not $resolvedLocalization) {
+            "No localized data found under ${candidatePath}" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+            continue
+        }
+
+        $importSucceeded = $true
+        try {
+            Import-LocalizedMessagesFromFile -FilePath $resolvedLocalization.FilePath
+        }
+        catch {
+            $importSucceeded = $false
+            "Localization import failed for ${candidatePath}: $($_.Exception.Message)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+        }
+
+        if (-not $importSucceeded) {
+            continue
+        }
+
         $script:ModuleRoot = $candidatePath
         $localizedDataLoaded = $true
-        "Localization loaded from ${candidatePath}" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+
+        $logMessage = "Resolved localization using file: $($resolvedLocalization.FilePath)"
+        if ($resolvedLocalization.CultureName) {
+            $logMessage += " (culture: $($resolvedLocalization.CultureName))"
+        }
+
+        $logMessage | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+        "Localization loaded from ${candidatePath} (method: direct-file)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
         break
     }
-    catch {
-        "Import-LocalizedData failed for ${candidatePath}: $($_.Exception.Message)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
-        continue
+
+    if (-not $localizedDataLoaded) {
+        $searchedDescription = if ($searchedPaths) { ($searchedPaths -join ', ') } else { '<none>' }
+        "Localization fallback engaged. Searched paths: $searchedDescription" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+
+        $fallbackRoot = $searchedPaths | Where-Object { Test-Path -LiteralPath $_ -PathType Container } | Select-Object -First 1
+        if (-not $fallbackRoot) {
+            $resolvedRoot = Resolve-Path -LiteralPath $PSScriptRoot -ErrorAction SilentlyContinue
+            if ($resolvedRoot) {
+                $fallbackRoot = $resolvedRoot.ProviderPath
+            }
+            else {
+                $fallbackRoot = $PSScriptRoot
+            }
+        }
+
+        $script:ModuleRoot = $fallbackRoot
+        $script:Messages = $script:EmbeddedDefaultMessages.Clone()
+        Write-Warning "Localization resources were not found. Falling back to built-in English messages."
+    }
+
+    [pscustomobject]@{
+        LocalizedDataLoaded = $localizedDataLoaded
+        SearchedPaths       = $searchedPaths
+        ModuleRoot          = $script:ModuleRoot
     }
 }
 
-if (-not $localizedDataLoaded) {
-    $searchedDescription = if ($searchedPaths) { ($searchedPaths -join ', ') } else { '<none>' }
-    throw [System.IO.FileNotFoundException]::new("Cannot find the PowerShell data file 'Messages.psd1'. Searched paths: $searchedDescription")
-}
+$null = Initialize-ColorScriptsLocalization -CandidateRoots ($moduleRootCandidates | Select-Object -Unique)
 
 $script:ScriptsPath = Join-Path -Path $script:ModuleRoot -ChildPath "Scripts"
 $script:MetadataPath = Join-Path -Path $script:ModuleRoot -ChildPath "ScriptMetadata.psd1"

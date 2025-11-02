@@ -7,6 +7,10 @@ Describe "ColorScripts-Enhanced internal coverage" {
         $script:ModuleManifest = Join-Path -Path $script:ModulePath -ChildPath 'ColorScripts-Enhanced.psd1'
         Import-Module $script:ModuleManifest -Force
 
+        InModuleScope ColorScripts-Enhanced {
+            Set-Variable -Name OriginalModuleRoot -Scope Script -Value $script:ModuleRoot
+        }
+
         $script:OriginalIsWindows = $IsWindows
         $script:OriginalIsMacOS = $IsMacOS
         $script:OriginalIsLinux = $IsLinux
@@ -71,6 +75,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             $script:ConfigurationPath = $null
             $script:ConfigurationData = $null
             $script:ConfigurationInitialized = $false
+            Initialize-ColorScriptsLocalization -CandidateRoots ($moduleRootCandidates | Select-Object -Unique) | Out-Null
         }
     }
 
@@ -117,6 +122,144 @@ Describe "ColorScripts-Enhanced internal coverage" {
             InModuleScope ColorScripts-Enhanced {
                 $result = Copy-ColorScriptHashtable $null
                 $result.Keys.Count | Should -Be 0
+            }
+        }
+    }
+
+    Context "Localization resolution" {
+        It "resolves culture directories via enumeration when direct Test-Path fails" {
+            InModuleScope ColorScripts-Enhanced {
+                $baseDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
+                $cultureDir = Join-Path -Path $baseDir -ChildPath 'en-us'
+                $messagesPath = Join-Path -Path $cultureDir -ChildPath 'Messages.psd1'
+
+                New-Item -ItemType Directory -Path $cultureDir -Force | Out-Null
+                Set-Content -LiteralPath $messagesPath -Value "ConvertFrom-StringData @'`nKey = Value`n'@" -Encoding UTF8
+
+                $leafPath = $messagesPath
+                $cultureContainerPath = Join-Path -Path $baseDir -ChildPath 'en-US'
+                Set-Variable -Name LocalizationLeafCheckCount -Scope Script -Value 0
+
+                Mock -CommandName Test-Path -ParameterFilter {
+                    $PathType -eq 'Container' -and $LiteralPath -eq $cultureContainerPath
+                } -MockWith { return $false }
+                Mock -CommandName Test-Path -ParameterFilter {
+                    $PathType -eq 'Leaf' -and $LiteralPath -eq $leafPath
+                } -MockWith {
+                    $count = Get-Variable -Name LocalizationLeafCheckCount -Scope Script -ErrorAction SilentlyContinue
+                    $current = if ($count) { $count.Value } else { 0 }
+                    Set-Variable -Name LocalizationLeafCheckCount -Scope Script -Value ($current + 1)
+                    if ($current -eq 0) { return $false }
+                    return [System.IO.File]::Exists($leafPath)
+                }
+
+                $result = Resolve-LocalizedMessagesFile -BaseDirectory $baseDir -CultureFallback @('en-US')
+
+                $result | Should -Not -BeNullOrEmpty
+                $result.CultureName | Should -Be 'en-US'
+                $resolvedMessagesPath = (Resolve-Path -LiteralPath $messagesPath).ProviderPath
+                $result.FilePath | Should -Be $resolvedMessagesPath
+            }
+        }
+
+        It "falls back to root Messages.psd1 when no culture directory matches" {
+            InModuleScope ColorScripts-Enhanced {
+                $baseDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
+                $rootMessages = Join-Path -Path $baseDir -ChildPath 'Messages.psd1'
+
+                New-Item -ItemType Directory -Path $baseDir -Force | Out-Null
+                Set-Content -LiteralPath $rootMessages -Value "ConvertFrom-StringData @'`nRoot = True`n'@" -Encoding UTF8
+
+                Set-Variable -Name RootLeafCheckCount -Scope Script -Value 0
+
+                Mock -CommandName Test-Path -ParameterFilter {
+                    $PathType -eq 'Leaf' -and $LiteralPath -eq $rootMessages
+                } -MockWith {
+                    $count = Get-Variable -Name RootLeafCheckCount -Scope Script -ErrorAction SilentlyContinue
+                    $current = if ($count) { $count.Value } else { 0 }
+                    Set-Variable -Name RootLeafCheckCount -Scope Script -Value ($current + 1)
+                    if ($current -eq 0) { return $false }
+                    return [System.IO.File]::Exists($rootMessages)
+                }
+
+                $result = Resolve-LocalizedMessagesFile -BaseDirectory $baseDir -CultureFallback @('zz-ZZ')
+
+                $result | Should -Not -BeNullOrEmpty
+                $result.CultureName | Should -Be $null
+                $resolvedMessagesPath = (Resolve-Path -LiteralPath $rootMessages).ProviderPath
+                $result.FilePath | Should -Be $resolvedMessagesPath
+            }
+        }
+
+        It "imports messages from ConvertFrom-StringData payload" {
+            InModuleScope ColorScripts-Enhanced {
+                $baseDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
+                $cultureDir = Join-Path -Path $baseDir -ChildPath 'en-US'
+                $messagesPath = Join-Path -Path $cultureDir -ChildPath 'Messages.psd1'
+
+                New-Item -ItemType Directory -Path $cultureDir -Force | Out-Null
+                Set-Content -LiteralPath $messagesPath -Value "ConvertFrom-StringData @'`nGreeting = Hello`n'@" -Encoding UTF8
+
+                $script:Messages = $null
+
+                Import-LocalizedMessagesFromFile -FilePath $messagesPath
+
+                $script:Messages | Should -Not -BeNullOrEmpty
+                $script:Messages.Greeting | Should -Be 'Hello'
+            }
+        }
+
+        It "imports messages via Import-PowerShellDataFile when no ConvertFrom-StringData block exists" {
+            InModuleScope ColorScripts-Enhanced {
+                $baseDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
+                $messagesPath = Join-Path -Path $baseDir -ChildPath 'Messages.psd1'
+
+                New-Item -ItemType Directory -Path $baseDir -Force | Out-Null
+                Set-Content -LiteralPath $messagesPath -Value "@{ Farewell = 'Goodbye' }" -Encoding UTF8
+
+                $script:Messages = $null
+
+                Import-LocalizedMessagesFromFile -FilePath $messagesPath
+
+                $script:Messages | Should -Not -BeNullOrEmpty
+                $script:Messages.Farewell | Should -Be 'Goodbye'
+            }
+        }
+
+        It "falls back to embedded messages when no localized files exist" {
+            InModuleScope ColorScripts-Enhanced {
+                $baseDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
+                New-Item -ItemType Directory -Path $baseDir -Force | Out-Null
+
+                $result = Initialize-ColorScriptsLocalization -CandidateRoots @($baseDir)
+
+                $result.LocalizedDataLoaded | Should -BeFalse
+                $script:ModuleRoot | Should -Not -BeNullOrEmpty
+                $script:Messages | Should -Not -BeNullOrEmpty
+                $script:Messages.ContainsKey('ModuleLoadedSuccessfully') | Should -BeTrue
+            }
+        }
+
+        It "continues to next candidate when import fails and succeeds on fallback" {
+            InModuleScope ColorScripts-Enhanced {
+                $invalidDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
+                $validDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
+                $invalidMessages = Join-Path -Path $invalidDir -ChildPath 'en-US'
+                $invalidFile = Join-Path -Path $invalidMessages -ChildPath 'Messages.psd1'
+                $validMessages = Join-Path -Path $validDir -ChildPath 'en-US'
+                $validFile = Join-Path -Path $validMessages -ChildPath 'Messages.psd1'
+
+                New-Item -ItemType Directory -Path $invalidMessages -Force | Out-Null
+                Set-Content -LiteralPath $invalidFile -Value "Invalid-Localization" -Encoding UTF8
+
+                New-Item -ItemType Directory -Path $validMessages -Force | Out-Null
+                Set-Content -LiteralPath $validFile -Value "ConvertFrom-StringData @'`nMessage = Hello`n'@" -Encoding UTF8
+
+                $result = Initialize-ColorScriptsLocalization -CandidateRoots @($invalidDir, $validDir)
+
+                $result.LocalizedDataLoaded | Should -BeTrue
+                $result.ModuleRoot | Should -Be $validDir
+                $script:Messages.Message | Should -Be 'Hello'
             }
         }
     }
