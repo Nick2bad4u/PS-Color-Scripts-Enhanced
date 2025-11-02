@@ -4,9 +4,9 @@
 # High-performance colorscripts with intelligent caching
 
 # Module variables
-$script:ModuleRoot = $PSScriptRoot
-$script:ScriptsPath = Join-Path -Path $PSScriptRoot -ChildPath "Scripts"
-$script:MetadataPath = Join-Path -Path $PSScriptRoot -ChildPath "ScriptMetadata.psd1"
+$script:ModuleRoot = $null
+$script:ScriptsPath = $null
+$script:MetadataPath = $null
 $script:MetadataCache = $null
 $script:MetadataLastWriteTime = $null
 $script:PowerShellExecutable = $null
@@ -37,8 +37,125 @@ $script:IsWindows = $IsWindows
 $script:IsMacOS = $IsMacOS
 $script:PowerShellMajorVersion = $PSVersionTable.PSVersion.Major
 
-# Import localized messages
-Import-LocalizedData -BindingVariable "script:Messages" -FileName "Messages" -BaseDirectory $PSScriptRoot
+# Determine the actual module root so that localized resources resolve correctly
+$moduleInfo = $ExecutionContext.SessionState.Module
+$moduleRootCandidates = @()
+
+if ($moduleInfo) {
+    if ($moduleInfo.ModuleBase) {
+        $moduleRootCandidates += $moduleInfo.ModuleBase
+    }
+
+    if ($moduleInfo.Path) {
+        $moduleRootCandidates += (Split-Path -Path $moduleInfo.Path -Parent)
+    }
+}
+
+if ($PSScriptRoot) {
+    $moduleRootCandidates += $PSScriptRoot
+}
+
+$resolvedCandidates = @()
+foreach ($candidate in $moduleRootCandidates) {
+    if (-not $candidate) {
+        continue
+    }
+
+    try {
+        $resolvedCandidate = (Resolve-Path -LiteralPath $candidate -ErrorAction Stop).ProviderPath
+        if ($resolvedCandidate -and ($resolvedCandidates -notcontains $resolvedCandidate)) {
+            $resolvedCandidates += $resolvedCandidate
+        }
+    }
+    catch {
+        continue
+    }
+}
+
+$moduleRootCandidates = $resolvedCandidates
+
+$cultureFallback = @()
+try {
+    $currentCulture = [System.Globalization.CultureInfo]::CurrentUICulture
+}
+catch {
+    $currentCulture = $null
+}
+
+while ($currentCulture -and $currentCulture.Name -and -not ($cultureFallback -contains $currentCulture.Name)) {
+    $cultureFallback += $currentCulture.Name
+    if ($currentCulture.Parent -and $currentCulture.Parent.Name -and $currentCulture.Parent.Name -ne $currentCulture.Name) {
+        $currentCulture = $currentCulture.Parent
+    }
+    else {
+        break
+    }
+}
+
+$cultureFallback += 'en-US'
+$cultureFallback += 'en'
+$cultureFallbackClean = @()
+foreach ($cultureName in $cultureFallback) {
+    if (-not $cultureName) {
+        continue
+    }
+
+    if ([string]::IsNullOrWhiteSpace($cultureName)) {
+        continue
+    }
+
+    if ($cultureFallbackClean -notcontains $cultureName) {
+        $cultureFallbackClean += $cultureName
+    }
+}
+
+$cultureFallback = $cultureFallbackClean
+
+$script:Messages = $null
+$localizedDataLoaded = $false
+$searchedPaths = @()
+
+foreach ($candidatePath in $moduleRootCandidates) {
+    $searchedPaths += $candidatePath
+
+    $hasLocalizedFile = $false
+    foreach ($cultureName in $cultureFallback) {
+        $localizedFile = Join-Path -Path $candidatePath -ChildPath (Join-Path -Path $cultureName -ChildPath 'Messages.psd1')
+        if (Test-Path -LiteralPath $localizedFile) {
+            $hasLocalizedFile = $true
+            break
+        }
+    }
+
+    if (-not $hasLocalizedFile) {
+        $rootFallback = Join-Path -Path $candidatePath -ChildPath 'Messages.psd1'
+        if (Test-Path -LiteralPath $rootFallback) {
+            $hasLocalizedFile = $true
+        }
+    }
+
+    if (-not $hasLocalizedFile) {
+        continue
+    }
+
+    try {
+        Import-LocalizedData -BindingVariable "script:Messages" -FileName "Messages" -BaseDirectory $candidatePath -ErrorAction Stop
+        $script:ModuleRoot = $candidatePath
+        $localizedDataLoaded = $true
+        break
+    }
+    catch {
+        continue
+    }
+}
+
+if (-not $localizedDataLoaded) {
+    $searchedDescription = if ($searchedPaths) { ($searchedPaths -join ', ') } else { '<none>' }
+    throw [System.IO.FileNotFoundException]::new("Cannot find the PowerShell data file 'Messages.psd1'. Searched paths: $searchedDescription")
+}
+
+$script:ScriptsPath = Join-Path -Path $script:ModuleRoot -ChildPath "Scripts"
+$script:MetadataPath = Join-Path -Path $script:ModuleRoot -ChildPath "ScriptMetadata.psd1"
 
 function ConvertFrom-JsonToHashtable {
     <#
