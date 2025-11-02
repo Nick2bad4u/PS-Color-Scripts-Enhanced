@@ -3,6 +3,8 @@ Describe "ColorScripts-Enhanced coverage completion" {
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
         $script:ModuleRoot = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
         $script:ModuleManifest = Join-Path -Path $script:ModuleRoot -ChildPath 'ColorScripts-Enhanced.psd1'
+        $script:OriginalModuleRootOverride = $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT
+        $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT = $script:ModuleRoot
         Import-Module $script:ModuleManifest -Force
         $script:OriginalHome = $HOME
         $script:OriginalEnvHome = $env:HOME
@@ -55,6 +57,13 @@ Describe "ColorScripts-Enhanced coverage completion" {
 
     AfterAll {
         Remove-Module ColorScripts-Enhanced -Force -ErrorAction SilentlyContinue
+
+        if ($null -ne $script:OriginalModuleRootOverride) {
+            $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT = $script:OriginalModuleRootOverride
+        }
+        else {
+            Remove-Item Env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT -ErrorAction SilentlyContinue
+        }
     }
 
     Context "Configuration root platform coverage" {

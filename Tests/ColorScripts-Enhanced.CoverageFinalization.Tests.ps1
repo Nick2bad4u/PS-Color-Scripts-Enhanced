@@ -3,6 +3,8 @@
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
         $script:ModulePath = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
         $script:ModuleManifest = Join-Path -Path $script:ModulePath -ChildPath 'ColorScripts-Enhanced.psd1'
+        $script:OriginalModuleRootOverride = $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT
+        $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT = $script:ModulePath
         Import-Module $script:ModuleManifest -Force
 
         $script:OriginalHome = $HOME
@@ -65,8 +67,14 @@
 
     AfterAll {
         Remove-Module ColorScripts-Enhanced -Force -ErrorAction SilentlyContinue
-    }
 
+        if ($null -ne $script:OriginalModuleRootOverride) {
+            $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT = $script:OriginalModuleRootOverride
+        }
+        else {
+            Remove-Item Env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT -ErrorAction SilentlyContinue
+        }
+    }
     Context "Invoke-ShouldProcess overrides" {
         It "invokes script override when defined" {
             $result = InModuleScope ColorScripts-Enhanced {

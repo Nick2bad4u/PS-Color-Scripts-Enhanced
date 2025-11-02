@@ -3,6 +3,8 @@ Describe "ColorScripts-Enhanced additional coverage" {
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
         $script:ModulePath = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
         $script:ModuleManifest = Join-Path -Path $script:ModulePath -ChildPath 'ColorScripts-Enhanced.psd1'
+        $script:OriginalModuleRootOverride = $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT
+        $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT = $script:ModulePath
         Import-Module $script:ModuleManifest -Force
 
         $script:OriginalCacheDir = InModuleScope ColorScripts-Enhanced { $script:CacheDir }
@@ -395,6 +397,13 @@ namespace CoverageHost
         }
 
         Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue
+
+        if ($null -ne $script:OriginalModuleRootOverride) {
+            $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT = $script:OriginalModuleRootOverride
+        }
+        else {
+            Remove-Item Env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT -ErrorAction SilentlyContinue
+        }
     }
 
     Context "Get-CachedOutput" {

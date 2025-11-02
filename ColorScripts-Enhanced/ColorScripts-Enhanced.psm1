@@ -40,6 +40,11 @@ $script:PowerShellMajorVersion = $PSVersionTable.PSVersion.Major
 # Determine the actual module root so that localized resources resolve correctly
 $moduleInfo = $ExecutionContext.SessionState.Module
 $moduleRootCandidates = @()
+$moduleRootDebugPath = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath 'cs-module-root-debug.log'
+"--- Import begin: $(Get-Date -Format o) ---" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+"ModuleInfo.ModuleBase = $($moduleInfo?.ModuleBase)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+"ModuleInfo.Path = $($moduleInfo?.Path)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+"PSScriptRoot = $PSScriptRoot" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
 
 if ($moduleInfo) {
     if ($moduleInfo.ModuleBase) {
@@ -54,6 +59,20 @@ if ($moduleInfo) {
 if ($PSScriptRoot) {
     $moduleRootCandidates += $PSScriptRoot
 }
+
+$availableModule = Get-Module -ListAvailable -Name 'ColorScripts-Enhanced' | Select-Object -First 1
+if ($availableModule -and $availableModule.ModuleBase) {
+    $moduleRootCandidates += $availableModule.ModuleBase
+    "ListAvailable ModuleBase = $($availableModule.ModuleBase)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+}
+
+$environmentModuleRoot = $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT
+if ($environmentModuleRoot) {
+    $moduleRootCandidates += $environmentModuleRoot
+    "Environment module root = $environmentModuleRoot" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+}
+
+"Initial candidates: $($moduleRootCandidates -join ';')" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
 
 $resolvedCandidates = @()
 foreach ($candidate in $moduleRootCandidates) {
@@ -73,6 +92,7 @@ foreach ($candidate in $moduleRootCandidates) {
 }
 
 $moduleRootCandidates = $resolvedCandidates
+"Resolved candidates: $($moduleRootCandidates -join ';')" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
 
 $cultureFallback = @()
 try {
@@ -117,6 +137,7 @@ $searchedPaths = @()
 
 foreach ($candidatePath in $moduleRootCandidates) {
     $searchedPaths += $candidatePath
+    "Evaluating candidate: ${candidatePath}" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
 
     $hasLocalizedFile = $false
     foreach ($cultureName in $cultureFallback) {
@@ -131,10 +152,12 @@ foreach ($candidatePath in $moduleRootCandidates) {
         $rootFallback = Join-Path -Path $candidatePath -ChildPath 'Messages.psd1'
         if (Test-Path -LiteralPath $rootFallback) {
             $hasLocalizedFile = $true
+            "Found root fallback at ${rootFallback}" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
         }
     }
 
     if (-not $hasLocalizedFile) {
+        "No localized data found under ${candidatePath}" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
         continue
     }
 
@@ -142,9 +165,11 @@ foreach ($candidatePath in $moduleRootCandidates) {
         Import-LocalizedData -BindingVariable "script:Messages" -FileName "Messages" -BaseDirectory $candidatePath -ErrorAction Stop
         $script:ModuleRoot = $candidatePath
         $localizedDataLoaded = $true
+        "Localization loaded from ${candidatePath}" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
         break
     }
     catch {
+        "Import-LocalizedData failed for ${candidatePath}: $($_.Exception.Message)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
         continue
     }
 }
