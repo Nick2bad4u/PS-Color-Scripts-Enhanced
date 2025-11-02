@@ -3,15 +3,15 @@ ConvertFrom-StringData @'
 # German (de) - Deutsch
 
 # Error Messages
-UnableToPrepareCacheDirectory = Cache-Verzeichnis konnte nicht vorbereitet werden 
+UnableToPrepareCacheDirectory = Cache-Verzeichnis konnte nicht vorbereitet werden
 FailedToParseConfigurationFile = Fehler beim Parsen der Konfigurationsdatei unter '{0}': {1}. Verwende Standardeinstellungen.
 UnableToResolveCachePath = Unable to resolve cache path '{0}'.
-ConfiguredCachePathInvalid = Konfigurierter Cache-Pfad 
+ConfiguredCachePathInvalid = Konfigurierter Cache-Pfad
 UnableToResolveOutputPath = Unable to resolve output path '{0}'.
 UnableToDetermineConfigurationDirectory = Konfigurationsverzeichnis für ColorScripts-Enhanced konnte nicht bestimmt werden.
 ConfigurationRootCouldNotBeResolved = Konfigurationsstamm konnte nicht aufgelöst werden.
 UnableToResolveProfilePath = Unable to resolve profile path '{0}'.
-FailedToExecuteColorscript = Colorscript konnte nicht ausgeführt werden 
+FailedToExecuteColorscript = Colorscript konnte nicht ausgeführt werden
 FailedToBuildCacheForScript = Cache für $($selection.Name) konnte nicht erstellt werden.
 CacheBuildFailedForScript = Cache-Erstellung für $($selection.Name) fehlgeschlagen: $($cacheResult.StdErr.Trim())
 ScriptAlreadyExists = Script ''$targetPath'' existiert bereits. Verwenden Sie -Force zum Überschreiben.
@@ -44,7 +44,7 @@ TotalScriptsProcessed = `nInsgesamt verarbeitete Scripts: $totalCount
 DisplayingContinuously = Kontinuierliche Anzeige (Strg+C zum Stoppen)`n
 FinishedDisplayingAll = Alle $totalCount Colorscripts wurden angezeigt!
 Quitting = `nBeende...
-CurrentIndexOfTotal = [$currentIndex/$totalCount] 
+CurrentIndexOfTotal = [$currentIndex/$totalCount]
 FailedScriptDetails =   - $($failure.Name): $($failure.StdErr)
 MultipleColorscriptsMatched = Mehrere Colorscripts entsprachen den bereitgestellten Namensmustern: $($matchedNames -join '', ''). Zeige ''$($orderedMatches[0].Name)'' an.
 StatusCached = Im Cache

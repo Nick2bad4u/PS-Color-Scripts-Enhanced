@@ -3,15 +3,15 @@ ConvertFrom-StringData @'
 # Russian (ru) - Русский
 
 # Error Messages
-UnableToPrepareCacheDirectory = Не удалось подготовить каталог кэша 
+UnableToPrepareCacheDirectory = Не удалось подготовить каталог кэша
 FailedToParseConfigurationFile = Не удалось разобрать файл конфигурации в '{0}': {1}. Используются значения по умолчанию.
 UnableToResolveCachePath = Unable to resolve cache path '{0}'.
-ConfiguredCachePathInvalid = Настроенный путь кэша 
+ConfiguredCachePathInvalid = Настроенный путь кэша
 UnableToResolveOutputPath = Unable to resolve output path '{0}'.
 UnableToDetermineConfigurationDirectory = Не удалось определить каталог конфигурации для ColorScripts-Enhanced.
 ConfigurationRootCouldNotBeResolved = Корень конфигурации не удалось разрешить.
 UnableToResolveProfilePath = Unable to resolve profile path '{0}'.
-FailedToExecuteColorscript = Не удалось выполнить colorscript 
+FailedToExecuteColorscript = Не удалось выполнить colorscript
 FailedToBuildCacheForScript = Не удалось создать кэш для $($selection.Name).
 CacheBuildFailedForScript = Создание кэша не удалось для $($selection.Name): $($cacheResult.StdErr.Trim())
 ScriptAlreadyExists = Скрипт ''$targetPath'' уже существует. Используйте -Force для перезаписи.
@@ -44,7 +44,7 @@ TotalScriptsProcessed = `nВсего обработано скриптов: $tot
 DisplayingContinuously = Отображение непрерывно (Ctrl+C для остановки)`n
 FinishedDisplayingAll = Завершено отображение всех $totalCount colorscripts!
 Quitting = `nВыход...
-CurrentIndexOfTotal = [$currentIndex/$totalCount] 
+CurrentIndexOfTotal = [$currentIndex/$totalCount]
 FailedScriptDetails =   - $($failure.Name): $($failure.StdErr)
 MultipleColorscriptsMatched = Несколько colorscripts соответствуют предоставленному шаблону имени: $($matchedNames -join '', ''). Отображение ''$($orderedMatches[0].Name)''.
 StatusCached = Кэшировано

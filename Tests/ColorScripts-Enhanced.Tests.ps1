@@ -33,9 +33,10 @@ BeforeAll {
         New-Item -ItemType Directory -Path $script:TestConfigRoot -Force | Out-Null
     }
 
-    $ModulePath = Join-Path -Path $PSScriptRoot -ChildPath ".."
-    $ModulePath = Join-Path -Path $ModulePath -ChildPath "ColorScripts-Enhanced"
-    Import-Module $ModulePath -Force
+    $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
+    $script:ModuleRoot = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
+    $moduleManifest = Join-Path -Path $script:ModuleRoot -ChildPath 'ColorScripts-Enhanced.psd1'
+    Import-Module $moduleManifest -Force
 }
 
 Describe "ColorScripts-Enhanced Module" {
@@ -97,9 +98,7 @@ Describe "ColorScripts-Enhanced Module" {
 
     Context "Module Manifest" {
         BeforeAll {
-            $script:ManifestPath = Join-Path -Path $PSScriptRoot -ChildPath ".."
-            $script:ManifestPath = Join-Path -Path $script:ManifestPath -ChildPath "ColorScripts-Enhanced"
-            $script:ManifestPath = Join-Path -Path $script:ManifestPath -ChildPath "ColorScripts-Enhanced.psd1"
+            $script:ManifestPath = Join-Path -Path $script:ModuleRoot -ChildPath 'ColorScripts-Enhanced.psd1'
             $script:Manifest = Test-ModuleManifest $script:ManifestPath -ErrorAction Stop
         }
 
@@ -121,16 +120,12 @@ Describe "ColorScripts-Enhanced Module" {
 
     Context "Scripts Directory" {
         It "Should have Scripts directory" {
-            $scriptsPath = Join-Path -Path $PSScriptRoot -ChildPath ".."
-            $scriptsPath = Join-Path -Path $scriptsPath -ChildPath "ColorScripts-Enhanced"
-            $scriptsPath = Join-Path -Path $scriptsPath -ChildPath "Scripts"
+            $scriptsPath = Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts'
             Test-Path $scriptsPath | Should -Be $true
         }
 
         It "Should contain colorscript files" {
-            $scriptsPath = Join-Path -Path $PSScriptRoot -ChildPath ".."
-            $scriptsPath = Join-Path -Path $scriptsPath -ChildPath "ColorScripts-Enhanced"
-            $scriptsPath = Join-Path -Path $scriptsPath -ChildPath "Scripts"
+            $scriptsPath = Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts'
             $scripts = Get-ChildItem $scriptsPath -Filter "*.ps1"
             $scripts.Count | Should -BeGreaterThan 0
         }
@@ -757,8 +752,8 @@ Describe "Add-ColorScriptProfile Function" {
 Describe "Script Quality" {
     Context "Script Files" {
         BeforeAll {
-            $scriptsPath = "$PSScriptRoot\..\ColorScripts-Enhanced\Scripts"
-            $script:TestScripts = Get-ChildItem $scriptsPath -Filter "*.ps1" | Select-Object -First 5
+            $scriptsPath = Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts'
+            $script:TestScripts = Get-ChildItem $scriptsPath -Filter '*.ps1' | Select-Object -First 5
         }
 
         It "Scripts should use UTF-8 encoding" {
@@ -778,7 +773,7 @@ Describe "Script Quality" {
 
 Describe "Test-AllColorScripts Script" {
     BeforeAll {
-        $script:RunnerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\ColorScripts-Enhanced\Test-AllColorScripts.ps1"
+        $script:RunnerPath = Join-Path -Path $script:ModuleRoot -ChildPath 'Test-AllColorScripts.ps1'
     }
 
     It "Should return structured results for filtered run" {

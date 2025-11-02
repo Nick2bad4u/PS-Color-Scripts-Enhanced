@@ -3,15 +3,15 @@ ConvertFrom-StringData @'
 # Dutch (nl) - Nederlands
 
 # Error Messages
-UnableToPrepareCacheDirectory = Kan cachemap niet voorbereiden 
+UnableToPrepareCacheDirectory = Kan cachemap niet voorbereiden
 FailedToParseConfigurationFile = Fout bij het parseren van het configuratiebestand op '{0}': {1}. Standaardwaarden worden gebruikt.
 UnableToResolveCachePath = Unable to resolve cache path '{0}'.
-ConfiguredCachePathInvalid = Geconfigureerd cachepad 
+ConfiguredCachePathInvalid = Geconfigureerd cachepad
 UnableToResolveOutputPath = Unable to resolve output path '{0}'.
 UnableToDetermineConfigurationDirectory = Kan configuratiemap voor ColorScripts-Enhanced niet bepalen.
 ConfigurationRootCouldNotBeResolved = Configuratiewortel kon niet worden opgelost.
 UnableToResolveProfilePath = Unable to resolve profile path '{0}'.
-FailedToExecuteColorscript = Kan colorscript niet uitvoeren 
+FailedToExecuteColorscript = Kan colorscript niet uitvoeren
 FailedToBuildCacheForScript = Kan cache niet maken voor $($selection.Name).
 CacheBuildFailedForScript = Cache maken mislukt voor $($selection.Name): $($cacheResult.StdErr.Trim())
 ScriptAlreadyExists = Script ''$targetPath'' bestaat al. Gebruik -Force om te overschrijven.
@@ -44,7 +44,7 @@ TotalScriptsProcessed = `nTotaal scripts verwerkt: $totalCount
 DisplayingContinuously = Continu weergeven (Ctrl+C om te stoppen)`n
 FinishedDisplayingAll = Klaar met weergeven van alle $totalCount colorscripts!
 Quitting = `nAfsluiten...
-CurrentIndexOfTotal = [$currentIndex/$totalCount] 
+CurrentIndexOfTotal = [$currentIndex/$totalCount]
 FailedScriptDetails =   - $($failure.Name): $($failure.StdErr)
 MultipleColorscriptsMatched = Meerdere colorscripts kwamen overeen met het opgegeven naam patroon: $($matchedNames -join '', ''). Weergeven van ''$($orderedMatches[0].Name)''.
 StatusCached = Gecached

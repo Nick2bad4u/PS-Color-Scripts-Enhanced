@@ -3,15 +3,15 @@ ConvertFrom-StringData @'
 # Chinese (zh-CN) - 中文（简体）
 
 # Error Messages
-UnableToPrepareCacheDirectory = 无法准备缓存目录 
+UnableToPrepareCacheDirectory = 无法准备缓存目录
 FailedToParseConfigurationFile = 在 '{0}' 解析配置文件失败: {1}。使用默认值。
 UnableToResolveCachePath = Unable to resolve cache path '{0}'.
-ConfiguredCachePathInvalid = 配置的缓存路径 
+ConfiguredCachePathInvalid = 配置的缓存路径
 UnableToResolveOutputPath = Unable to resolve output path '{0}'.
 UnableToDetermineConfigurationDirectory = 无法确定 ColorScripts-Enhanced 的配置目录。
 ConfigurationRootCouldNotBeResolved = 配置根目录无法解析。
 UnableToResolveProfilePath = Unable to resolve profile path '{0}'.
-FailedToExecuteColorscript = 无法执行 colorscript 
+FailedToExecuteColorscript = 无法执行 colorscript
 FailedToBuildCacheForScript = 无法为 $($selection.Name) 构建缓存。
 CacheBuildFailedForScript = 为 $($selection.Name) 构建缓存失败：$($cacheResult.StdErr.Trim())
 ScriptAlreadyExists = 脚本 ''$targetPath'' 已存在。使用 -Force 覆盖。
@@ -44,7 +44,7 @@ TotalScriptsProcessed = `n总共处理的脚本：$totalCount
 DisplayingContinuously = 连续显示（Ctrl+C 停止）`n
 FinishedDisplayingAll = 已完成显示所有 $totalCount 个 colorscripts！
 Quitting = `n正在退出...
-CurrentIndexOfTotal = [$currentIndex/$totalCount] 
+CurrentIndexOfTotal = [$currentIndex/$totalCount]
 FailedScriptDetails =   - $($failure.Name)：$($failure.StdErr)
 MultipleColorscriptsMatched = 多个 colorscripts 与提供的名称模式匹配：$($matchedNames -join ''，'')。正在显示 ''$($orderedMatches[0].Name)''。
 StatusCached = 已缓存

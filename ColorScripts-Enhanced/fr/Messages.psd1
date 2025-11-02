@@ -3,10 +3,10 @@ ConvertFrom-StringData @'
 # Français (fr-FR)
 
 # Error Messages
-UnableToPrepareCacheDirectory = Impossible de préparer le répertoire de cache 
+UnableToPrepareCacheDirectory = Impossible de préparer le répertoire de cache
 FailedToParseConfigurationFile = Échec de l'analyse du fichier de configuration à '{0}': {1}. Utilisation des valeurs par défaut.
 UnableToResolveCachePath = Unable to resolve cache path '{0}'.
-ConfiguredCachePathInvalid = Le chemin du cache configuré 
+ConfiguredCachePathInvalid = Le chemin du cache configuré
 UnableToResolveOutputPath = Unable to resolve output path '{0}'.
 UnableToDetermineConfigurationDirectory = Impossible de déterminer le répertoire de configuration pour ColorScripts-Enhanced.
 ConfigurationRootCouldNotBeResolved = 'La racine de configuration n''a pas pu être résolue.'
@@ -44,7 +44,7 @@ TotalScriptsProcessed = `nTotal des scripts traités: $totalCount
 DisplayingContinuously = Affichage continu (Ctrl+C pour arrêter)`n
 FinishedDisplayingAll = Affichage terminé de tous les $totalCount colorscripts!
 Quitting = `nQuitter...
-CurrentIndexOfTotal = [$currentIndex/$totalCount] 
+CurrentIndexOfTotal = [$currentIndex/$totalCount]
 FailedScriptDetails =   - $($failure.Name): $($failure.StdErr)
 MultipleColorscriptsMatched = Plusieurs colorscripts correspondent aux modèles de nom fournis: $($matchedNames -join '', ''). Affichage de ''$($orderedMatches[0].Name)''.
 StatusCached = Mis en cache

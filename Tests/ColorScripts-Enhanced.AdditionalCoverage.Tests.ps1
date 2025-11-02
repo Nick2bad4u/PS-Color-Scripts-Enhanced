@@ -1,7 +1,9 @@
 Describe "ColorScripts-Enhanced additional coverage" {
     BeforeAll {
-        $script:ModulePath = Join-Path -Path $PSScriptRoot -ChildPath "..\ColorScripts-Enhanced"
-        Import-Module $script:ModulePath -Force
+        $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
+        $script:ModulePath = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
+        $script:ModuleManifest = Join-Path -Path $script:ModulePath -ChildPath 'ColorScripts-Enhanced.psd1'
+        Import-Module $script:ModuleManifest -Force
 
         $script:OriginalCacheDir = InModuleScope ColorScripts-Enhanced { $script:CacheDir }
         $script:OriginalCacheInitialized = InModuleScope ColorScripts-Enhanced { $script:CacheInitialized }

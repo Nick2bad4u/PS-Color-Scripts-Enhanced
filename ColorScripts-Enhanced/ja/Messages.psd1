@@ -3,15 +3,15 @@ ConvertFrom-StringData @'
 # Japanese (ja) - 日本語
 
 # Error Messages
-UnableToPrepareCacheDirectory = キャッシュディレクトリの準備ができませんでした 
+UnableToPrepareCacheDirectory = キャッシュディレクトリの準備ができませんでした
 FailedToParseConfigurationFile = '{0}' で設定ファイルの解析に失敗しました: {1}。デフォルトを使用します。
 UnableToResolveCachePath = Unable to resolve cache path '{0}'.
-ConfiguredCachePathInvalid = 設定されたキャッシュパスが無効です 
+ConfiguredCachePathInvalid = 設定されたキャッシュパスが無効です
 UnableToResolveOutputPath = Unable to resolve output path '{0}'.
 UnableToDetermineConfigurationDirectory = ColorScripts-Enhanced の設定ディレクトリを決定できませんでした。
 ConfigurationRootCouldNotBeResolved = 設定ルートを解決できませんでした。
 UnableToResolveProfilePath = Unable to resolve profile path '{0}'.
-FailedToExecuteColorscript = カラースクリプトの実行に失敗しました 
+FailedToExecuteColorscript = カラースクリプトの実行に失敗しました
 FailedToBuildCacheForScript = $($selection.Name) のキャッシュ構築に失敗しました。
 CacheBuildFailedForScript = $($selection.Name) のキャッシュ構築に失敗しました: $($cacheResult.StdErr.Trim())
 ScriptAlreadyExists = スクリプト ''$targetPath'' は既に存在します。上書きするには -Force を使用してください。
@@ -44,7 +44,7 @@ TotalScriptsProcessed = `n処理されたスクリプトの総数: $totalCount
 DisplayingContinuously = 連続表示中 (停止するには Ctrl+C)`n
 FinishedDisplayingAll = $totalCount 個のすべてのカラースクリプトの表示が完了しました！
 Quitting = `n終了しています...
-CurrentIndexOfTotal = [$currentIndex/$totalCount] 
+CurrentIndexOfTotal = [$currentIndex/$totalCount]
 FailedScriptDetails =   - $($failure.Name): $($failure.StdErr)
 MultipleColorscriptsMatched = 指定された名前パターンに複数のカラースクリプトが一致しました: $($matchedNames -join '', '')。''$($orderedMatches[0].Name)'' を表示します。
 StatusCached = キャッシュ済み
