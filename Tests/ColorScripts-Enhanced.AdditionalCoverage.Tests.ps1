@@ -1158,6 +1158,8 @@ namespace CoverageHost
                 }
 
                 $errorRecord | Should -Not -BeNullOrEmpty
+                $errorRecord.FullyQualifiedErrorId | Should -Match '^ColorScriptsEnhanced.InvalidOutputPath'
+                $errorRecord.CategoryInfo.Category | Should -Be ([System.Management.Automation.ErrorCategory]::InvalidArgument)
                 $errorRecord.Exception.Message | Should -Be "Unable to resolve output path '::invalid::'."
             }
 
@@ -1167,7 +1169,7 @@ namespace CoverageHost
                 $existingPath = Join-Path -Path $targetDir -ChildPath 'duplicate.ps1'
                 Set-Content -LiteralPath $existingPath -Value "Write-Host 'existing'" -Encoding UTF8
 
-                { New-ColorScript -Name 'duplicate' -OutputPath $targetDir } | Should -Throw -ErrorId '*'
+                { New-ColorScript -Name 'duplicate' -OutputPath $targetDir } | Should -Throw -ErrorId 'ColorScriptsEnhanced.ScriptAlreadyExists*'
             }
 
             It "generates metadata snippet with default values" {
@@ -1469,7 +1471,7 @@ namespace CoverageHost
                     }
                     Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith { $null }
 
-                    Should -Throw -ActualValue { Set-ColorScriptConfiguration -CachePath '::invalid::' } -ExpectedMessage "Unable to resolve cache path*"
+                    { Set-ColorScriptConfiguration -CachePath '::invalid::' } | Should -Throw -ErrorId 'ColorScriptsEnhanced.InvalidCachePath*'
                 }
             }
         }
@@ -1530,7 +1532,7 @@ namespace CoverageHost
                         $null
                     }
 
-                    Should -Throw -ActualValue { Add-ColorScriptProfile -Path 'X:\missing\profile.ps1' -Confirm:$false } -ExpectedMessage "Unable to resolve profile path 'X:\missing\profile.ps1'."
+                    { Add-ColorScriptProfile -Path 'X:\missing\profile.ps1' -Confirm:$false } | Should -Throw -ErrorId 'ColorScriptsEnhanced.InvalidProfilePath*'
                 }
             }
 
@@ -1538,7 +1540,7 @@ namespace CoverageHost
                 InModuleScope ColorScripts-Enhanced {
                     Set-Variable -Name PROFILE -Scope Global -Value ([pscustomobject]@{ CurrentUserAllHosts = '' }) -Force
 
-                    Should -Throw -ActualValue { Add-ColorScriptProfile -Confirm:$false } -ExpectedMessage "Profile path for scope 'CurrentUserAllHosts' is not defined."
+                    { Add-ColorScriptProfile -Confirm:$false } | Should -Throw -ErrorId 'ColorScriptsEnhanced.ProfilePathUndefined*'
                 }
             }
 
@@ -2500,11 +2502,11 @@ namespace CoverageHost
                     }
 
                     $capturedOutput = [System.Collections.Generic.List[string]]::new()
-                    Mock -CommandName Write-Host -ModuleName ColorScripts-Enhanced -MockWith {
-                        param($Object, [System.ConsoleColor]$ForegroundColor)
-                        [void]$ForegroundColor
-                        if ($null -ne $Object) {
-                            $null = $capturedOutput.Add([string]$Object)
+                    Mock -CommandName Write-ColorScriptInformation -ModuleName ColorScripts-Enhanced -MockWith {
+                        param($Message, [switch]$Quiet)
+                        $null = $Quiet
+                        if ($null -ne $Message) {
+                            $null = $capturedOutput.Add([string]$Message)
                         }
                     }
 
@@ -2518,7 +2520,7 @@ namespace CoverageHost
 
                 $resultData.Records | Should -HaveCount 1
                 $resultData.Records[0].Tags | Should -Contain 'TagA'
-                ($resultData.Output | Where-Object { $_ -like '*TagA, TagB*' }) | Should -Not -BeNullOrEmpty
+                ($resultData.Output -join [Environment]::NewLine) | Should -Match 'TagA, TagB'
             }
         }
 

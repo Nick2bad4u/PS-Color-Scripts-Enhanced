@@ -22,6 +22,10 @@ CacheFileNotFound = キャッシュファイルが見つかりません。
 NoChangesApplied = 変更が適用されませんでした。
 UnableToRetrieveFileInfo = ''{0}'' のファイル情報を取得できませんでした: {1}
 UnableToReadCacheInfo = ''{0}'' のキャッシュ情報を読み取れませんでした: {1}
+InvalidScriptNameEmpty = Color script name cannot be empty or whitespace.
+InvalidScriptNameCharacters = Color script name '{0}' contains invalid characters.
+InvalidPathValueEmpty = Path value cannot be empty or whitespace.
+InvalidPathValueCharacters = Path '{0}' contains invalid characters.
 
 # Warning Messages
 NoColorscriptsFoundMatchingCriteria = 指定された条件に一致するカラースクリプトが見つかりません。

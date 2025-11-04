@@ -575,4 +575,191 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $result | Should -BeFalse
         }
     }
+
+    Context "Structured error emissions" {
+        It "emits structured error when New-ColorScriptCache lacks selection" {
+            $errorRecord = $null
+            try {
+                New-ColorScriptCache -All:$false
+            }
+            catch {
+                $errorRecord = $_
+            }
+
+            $errorRecord | Should -Not -BeNullOrEmpty
+            $errorRecord.FullyQualifiedErrorId | Should -Match '^ColorScriptsEnhanced.CacheSelectionMissing'
+            $errorRecord.CategoryInfo.Category | Should -Be ([System.Management.Automation.ErrorCategory]::InvalidOperation)
+        }
+
+        It "emits structured error when Clear-ColorScriptCache lacks selection" {
+            $errorRecord = $null
+            try {
+                Clear-ColorScriptCache -Confirm:$false
+            }
+            catch {
+                $errorRecord = $_
+            }
+
+            $errorRecord | Should -Not -BeNullOrEmpty
+            $errorRecord.FullyQualifiedErrorId | Should -Match '^ColorScriptsEnhanced.CacheClearSelectionMissing'
+            $errorRecord.CategoryInfo.Category | Should -Be ([System.Management.Automation.ErrorCategory]::InvalidOperation)
+        }
+
+        It "emits structured error when configuration root cannot be determined" {
+            $errorRecord = InModuleScope ColorScripts-Enhanced {
+                Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith { $null }
+                $script:ConfigurationRoot = $null
+                $captured = $null
+                try {
+                    Get-ColorScriptsConfigurationRoot | Out-Null
+                }
+                catch {
+                    $captured = $_
+                }
+
+                $captured
+            }
+
+            $errorRecord | Should -Not -BeNullOrEmpty
+            $errorRecord.FullyQualifiedErrorId | Should -Match '^ColorScriptsEnhanced.ConfigurationRootUnavailable'
+            $errorRecord.CategoryInfo.Category | Should -Be ([System.Management.Automation.ErrorCategory]::ResourceUnavailable)
+        }
+    }
+
+    Context "Error helper utilities" {
+        It "creates error record with recommended action" {
+            $record = InModuleScope ColorScripts-Enhanced {
+                New-ColorScriptErrorRecord -Message 'sample message' -ErrorId 'ColorScriptsEnhanced.Sample' -Category ([System.Management.Automation.ErrorCategory]::InvalidOperation) -RecommendedAction 'Try again later'
+            }
+
+            $record | Should -Not -BeNullOrEmpty
+            $record.ErrorDetails.Message | Should -Be 'sample message'
+            $record.ErrorDetails.RecommendedAction | Should -Be 'Try again later'
+        }
+
+        It "wraps provided exception when messages differ" {
+            $record = InModuleScope ColorScripts-Enhanced {
+                $inner = [System.Exception]::new('inner')
+                New-ColorScriptErrorRecord -Message 'outer message' -Exception $inner -ErrorId 'ColorScriptsEnhanced.Sample'
+            }
+
+            $record.Exception.Message | Should -Be 'outer message'
+            $record.Exception.InnerException.Message | Should -Be 'inner'
+        }
+
+        It "fills missing error details message" {
+            $record = InModuleScope ColorScripts-Enhanced {
+                $exception = [System.Management.Automation.RuntimeException]::new('kept')
+                $exception.ErrorRecord.ErrorDetails = [System.Management.Automation.ErrorDetails]::new(' ')
+                New-ColorScriptErrorRecord -Message 'kept' -Exception $exception
+            }
+
+            $record.ErrorDetails.Message | Should -Be 'kept'
+        }
+
+        It "initializes error details when only recommended action is provided" {
+            $diagnostics = InModuleScope ColorScripts-Enhanced {
+                $blankException = [System.Management.Automation.RuntimeException]::new('')
+                $result = New-ColorScriptErrorRecord -Message ' ' -Exception $blankException -RecommendedAction 'Check inputs'
+                [pscustomobject]@{
+                    Record             = $result
+                    HasErrorDetails    = $null -ne $result.ErrorDetails
+                    RecommendedAction  = if ($result.ErrorDetails) { $result.ErrorDetails.RecommendedAction } else { $null }
+                    ErrorDetailsMessage = if ($result.ErrorDetails) { $result.ErrorDetails.Message } else { $null }
+                }
+            }
+
+            $diagnostics.HasErrorDetails | Should -BeTrue
+            $diagnostics.RecommendedAction | Should -Be 'Check inputs'
+            $diagnostics.ErrorDetailsMessage | Should -BeNullOrEmpty
+        }
+
+        It "uses default error message when none supplied" {
+            $record = InModuleScope ColorScripts-Enhanced {
+                New-ColorScriptErrorRecord -Message ' ' -ErrorId 'ColorScriptsEnhanced.Sample'
+            }
+
+            $record.ErrorDetails.Message | Should -Be 'An error occurred within ColorScripts-Enhanced.'
+        }
+
+        It "throws error record when cmdlet is absent" {
+            $errorRecord = InModuleScope ColorScripts-Enhanced {
+                $captured = $null
+                try {
+                    Invoke-ColorScriptError -Message 'utility failure'
+                }
+                catch {
+                    $captured = $_
+                }
+
+                $captured
+            }
+
+            $errorRecord | Should -Not -BeNullOrEmpty
+            $errorRecord.FullyQualifiedErrorId | Should -Match '^ColorScriptsEnhanced.RuntimeError'
+            $errorRecord.Exception.Message | Should -Be 'utility failure'
+        }
+    }
+
+    Context "Test-ColorScriptPathValue" {
+        It "throws when value is empty and not allowed" {
+            InModuleScope ColorScripts-Enhanced {
+                { Test-ColorScriptPathValue -Value '' } | Should -Throw -ErrorId '*'
+            }
+        }
+
+        It "returns true when empty value is allowed" {
+            $result = InModuleScope ColorScripts-Enhanced {
+                Test-ColorScriptPathValue -Value '' -AllowEmpty
+            }
+
+            $result | Should -BeTrue
+        }
+
+        It "throws when path contains invalid characters" {
+            InModuleScope ColorScripts-Enhanced {
+                $invalidChar = ([System.IO.Path]::GetInvalidPathChars())[0]
+                $value = "invalid${invalidChar}path"
+                { Test-ColorScriptPathValue -Value $value } | Should -Throw -ErrorId '*'
+            }
+        }
+
+        It "returns true for valid paths" {
+            $result = InModuleScope ColorScripts-Enhanced {
+                Test-ColorScriptPathValue -Value 'C:\Valid\Path.txt'
+            }
+
+            $result | Should -BeTrue
+        }
+    }
+
+    Context "Test-ColorScriptNameValue" {
+        It "throws when name is empty and not allowed" {
+            InModuleScope ColorScripts-Enhanced {
+                { Test-ColorScriptNameValue -Value '' } | Should -Throw -ErrorId '*'
+            }
+        }
+
+        It "returns true when empty is allowed" {
+            $result = InModuleScope ColorScripts-Enhanced {
+                Test-ColorScriptNameValue -Value '' -AllowEmpty
+            }
+
+            $result | Should -BeTrue
+        }
+
+        It "throws when wildcards are disallowed" {
+            InModuleScope ColorScripts-Enhanced {
+                { Test-ColorScriptNameValue -Value 'alpha*' } | Should -Throw -ErrorId '*'
+            }
+        }
+
+        It "allows wildcard characters when permitted" {
+            $result = InModuleScope ColorScripts-Enhanced {
+                Test-ColorScriptNameValue -Value 'alpha*' -AllowWildcard
+            }
+
+            $result | Should -BeTrue
+        }
+    }
 }

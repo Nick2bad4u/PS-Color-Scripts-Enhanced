@@ -930,8 +930,9 @@ Describe "ColorScripts-Enhanced coverage completion" {
                     & $ScriptBlock @Arguments
                 }
                 Mock -CommandName Write-RenderedText -ModuleName ColorScripts-Enhanced -MockWith {
-                    param($Text)
+                    param($Text, $NoAnsiOutput)
                     $script:__RenderedText = $Text
+                    $script:__RenderedNoAnsi = [bool]$NoAnsiOutput
                 }
                 Mock -CommandName Test-ColorScriptTextEmission -ModuleName ColorScripts-Enhanced -MockWith { $false }
 
@@ -939,11 +940,13 @@ Describe "ColorScripts-Enhanced coverage completion" {
                 [pscustomobject]@{
                     Arguments = $script:__CapturedArgs
                     Rendered  = $script:__RenderedText
+                    NoAnsi    = $script:__RenderedNoAnsi
                 }
             }
 
             $captured.Arguments[0] | Should -Be 'cached-content'
             $captured.Rendered | Should -Be 'cached-content'
+            $captured.NoAnsi | Should -BeFalse
         }
     }
 

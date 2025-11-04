@@ -22,6 +22,10 @@ CacheFileNotFound = Cachebestand niet gevonden.
 NoChangesApplied = Geen wijzigingen toegepast.
 UnableToRetrieveFileInfo = Kan bestandsinfo niet ophalen voor ''{0}'': {1}
 UnableToReadCacheInfo = Kan cacheinfo niet lezen voor ''{0}'': {1}
+InvalidScriptNameEmpty = Color script name cannot be empty or whitespace.
+InvalidScriptNameCharacters = Color script name '{0}' contains invalid characters.
+InvalidPathValueEmpty = Path value cannot be empty or whitespace.
+InvalidPathValueCharacters = Path '{0}' contains invalid characters.
 
 # Warning Messages
 NoColorscriptsFoundMatchingCriteria = Geen colorscripts gevonden die overeenkomen met de opgegeven criteria.

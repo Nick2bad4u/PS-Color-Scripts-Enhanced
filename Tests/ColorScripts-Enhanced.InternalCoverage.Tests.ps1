@@ -366,6 +366,44 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
     }
 
+    Context "ConvertFrom-JsonToHashtable" {
+        It "returns hashtable for JSON input" {
+            InModuleScope ColorScripts-Enhanced {
+                $json = '{"Name":"Test","Nested":{"Value":5},"Numbers":[1,2,3]}'
+                $result = ConvertFrom-JsonToHashtable -InputObject $json
+
+                $result | Should -Not -BeNullOrEmpty
+                $result.Name | Should -Be 'Test'
+                $result.Nested.Value | Should -Be 5
+                $result.Numbers[2] | Should -Be 3
+            }
+        }
+
+        It "converts PSCustomObject structures via helper" {
+            InModuleScope ColorScripts-Enhanced {
+                $object = [pscustomobject]@{
+                    Title   = 'Sample'
+                    Details = [pscustomobject]@{
+                        Count = 2
+                    }
+                    Items   = @(
+                        [pscustomobject]@{ Id = 1 }
+                        [pscustomobject]@{ Id = 2 }
+                    )
+                }
+
+                $result = ConvertTo-HashtableInternal $object
+
+                $result | Should -Not -BeNullOrEmpty
+                $result.Title | Should -Be 'Sample'
+                $result.Details.Count | Should -Be 2
+                $result.Items.Count | Should -Be 2
+                $result.Items[0].Id | Should -Be 1
+                $result.Items[1].Id | Should -Be 2
+            }
+        }
+    }
+
     Context "Merge-ColorScriptConfiguration" {
         It "merges nested dictionaries and arrays without mutating base" {
             InModuleScope ColorScripts-Enhanced {
@@ -990,6 +1028,59 @@ Describe "ColorScripts-Enhanced internal coverage" {
                 }
 
                 $writer.ToString() | Should -Match 'Rendered Line'
+            }
+        }
+
+        It "strips ANSI sequences when NoAnsiOutput is specified" {
+            InModuleScope ColorScripts-Enhanced {
+                $original = [Console]::Out
+                $writer = New-Object System.IO.StringWriter
+
+                try {
+                    [Console]::SetOut($writer)
+                    $ansiText = "${([char]27)}[31mColor${([char]27)}[0m"
+                    Write-RenderedText -Text $ansiText -NoAnsiOutput
+                }
+                finally {
+                    [Console]::SetOut($original)
+                }
+
+                $captured = $writer.ToString()
+                $captured | Should -Be "Color$([Environment]::NewLine)"
+                $captured | Should -Not -Match "${([char]27)}\["
+            }
+        }
+
+        It "wraps colored message segments with ANSI when allowed" {
+            InModuleScope ColorScripts-Enhanced {
+                $result = New-ColorScriptAnsiText -Text 'Sample' -Color 'Cyan'
+                $result | Should -Match "${([char]27)}\[36m"
+                $result | Should -Match "${([char]27)}\[0m"
+            }
+        }
+
+        It "omits ANSI sequences when disabled" {
+            InModuleScope ColorScripts-Enhanced {
+                $result = New-ColorScriptAnsiText -Text 'Sample' -Color 'Cyan' -NoAnsiOutput
+                $result | Should -Be 'Sample'
+            }
+        }
+
+        It "respects quiet flag when writing informational messages" {
+            InModuleScope ColorScripts-Enhanced {
+                $script:Captured = @()
+                Mock -CommandName Write-Information -ModuleName ColorScripts-Enhanced -MockWith {
+                    param($MessageData, $Tags, $InformationAction)
+                    $null = $Tags
+                    $null = $InformationAction
+                    $script:Captured += $MessageData
+                }
+
+                Write-ColorScriptInformation -Message 'visible'
+                Write-ColorScriptInformation -Message 'hidden' -Quiet
+
+                $script:Captured | Should -Contain 'visible'
+                $script:Captured | Should -Not -Contain 'hidden'
             }
         }
 

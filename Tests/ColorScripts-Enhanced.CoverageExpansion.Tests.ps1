@@ -325,6 +325,8 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
 
             $caught | Should -Not -BeNullOrEmpty
+            $caught.FullyQualifiedErrorId | Should -Match '^ColorScriptsEnhanced.InvalidOutputPath'
+            $caught.CategoryInfo.Category | Should -Be ([System.Management.Automation.ErrorCategory]::InvalidArgument)
             $caught.Exception.Message | Should -Be "Unable to resolve output path '::invalid::'."
         }
 
@@ -419,6 +421,55 @@ Describe "ColorScripts-Enhanced extended coverage" {
             Test-Path -LiteralPath $targetDir | Should -BeTrue
             Test-Path -LiteralPath $outputPath | Should -BeTrue
             $payload | Should -HaveCount 1
+        }
+
+        It "honors WhatIf when exporting metadata to a file" {
+            $scriptPath = Join-Path -Path $script:ScriptsDir -ChildPath 'export-whatif.ps1'
+            Set-Content -LiteralPath $scriptPath -Value "Write-Output 'whatif'" -Encoding UTF8
+
+            $targetDir = Join-Path -Path $script:TestRoot -ChildPath ([guid]::NewGuid().ToString())
+            $outputPath = Join-Path -Path $targetDir -ChildPath 'metadata.json'
+
+            $result = Export-ColorScriptMetadata -Path $outputPath -PassThru -WhatIf
+
+            $result | Should -Not -BeNullOrEmpty
+            Test-Path -LiteralPath $targetDir | Should -BeFalse
+            Test-Path -LiteralPath $outputPath | Should -BeFalse
+        }
+
+        It "defers export when directory creation is declined" {
+            $scriptPath = Join-Path -Path $script:ScriptsDir -ChildPath 'export-shouldprocess.ps1'
+            Set-Content -LiteralPath $scriptPath -Value "Write-Output 'shouldprocess'" -Encoding UTF8
+
+            $targetDir = Join-Path -Path $script:TestRoot -ChildPath ([guid]::NewGuid().ToString())
+            $outputPath = Join-Path -Path $targetDir -ChildPath 'metadata.json'
+            $callLog = [System.Collections.Generic.List[string]]::new()
+
+            $result = InModuleScope ColorScripts-Enhanced -Parameters @{ Path = $outputPath; Log = $callLog } {
+                param($Path, $Log)
+                $script:ShouldProcessOverride = {
+                    param($cmdlet, $target, $action)
+                    $null = $Log.Add("${action}:${target}")
+                    switch ($action) {
+                        'Create export directory' { return $false }
+                        default { return $true }
+                    }
+                }
+
+                try {
+                    Export-ColorScriptMetadata -Path $Path -PassThru
+                }
+                finally {
+                    $script:ShouldProcessOverride = $null
+                }
+            }
+
+            $result | Should -Not -BeNullOrEmpty
+            $normalizedLog = $callLog | ForEach-Object { $_.ToLowerInvariant() }
+            $normalizedLog | Should -Contain ('export colorscript metadata:{0}' -f $outputPath.ToLowerInvariant())
+            $normalizedLog | Should -Contain ('create export directory:{0}' -f $targetDir.ToLowerInvariant())
+            Test-Path -LiteralPath $targetDir | Should -BeFalse
+            Test-Path -LiteralPath $outputPath | Should -BeFalse
         }
     }
 
@@ -1483,9 +1534,24 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $script:RenderedOutputs = @()
             $script:Warnings = @()
             $script:SleepLog = @()
-            $script:ListParams = $null
+            InModuleScope ColorScripts-Enhanced { $script:ListParams = $null }
+            $script:InfoMessages = @()
+            $script:LastRenderedTextArgs = $null
 
             Mock -CommandName Write-Host -ModuleName ColorScripts-Enhanced -MockWith { } -Verifiable:$false
+            Mock -CommandName Write-Information -ModuleName ColorScripts-Enhanced -MockWith {
+                param(
+                    [object]$MessageData,
+                    [string[]]$Tags,
+                    [System.Management.Automation.ActionPreference]$InformationAction
+                )
+
+                $null = $Tags
+                $null = $InformationAction
+                if ($null -ne $MessageData) {
+                    $script:InfoMessages += [string]$MessageData
+                }
+            }
             Mock -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -MockWith {
                 param($Message)
                 $script:Warnings += $Message
@@ -1497,8 +1563,11 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
             Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { }
             Mock -CommandName Get-ColorScriptList -ModuleName ColorScripts-Enhanced -MockWith {
-                param($Category, $Tag)
-                $script:ListParams = @{ Category = $Category; Tag = $Tag }
+                param()
+                $script:ListParams = @{}
+                foreach ($key in $PSBoundParameters.Keys) {
+                    $script:ListParams[$key] = $PSBoundParameters[$key]
+                }
                 @()
             }
             Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
@@ -1548,17 +1617,31 @@ Describe "ColorScripts-Enhanced extended coverage" {
                 & $ScriptBlock @Arguments
             }
             Mock -CommandName Write-RenderedText -ModuleName ColorScripts-Enhanced -MockWith {
-                param($Text)
-                [void]$Text
-                # Suppress direct console writes during tests; rendered text is captured via Invoke-WithUtf8Encoding mock.
+                param($Text, $NoAnsiOutput)
+                $script:LastRenderedTextArgs = @{
+                    Text         = $Text
+                    NoAnsiOutput = [bool]$NoAnsiOutput
+                }
             }
         }
 
         It "lists scripts when requested" {
             Show-ColorScript -List -Category 'Nature' -Tag 'Bright'
 
-            $script:ListParams.Category | Should -Be 'Nature'
-            $script:ListParams.Tag | Should -Be 'Bright'
+            Assert-MockCalled -CommandName Get-ColorScriptList -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter {
+                ($Category -and $Category.Count -eq 1 -and $Category[0] -eq 'Nature') -and
+                ($Tag -and $Tag.Count -eq 1 -and $Tag[0] -eq 'Bright') -and
+                (-not [bool]$Quiet) -and
+                (-not [bool]$NoAnsiOutput)
+            }
+        }
+
+        It "forwards quiet and no-ANSI flags to list operations" {
+            Show-ColorScript -List -Quiet -NoAnsiOutput
+
+            Assert-MockCalled -CommandName Get-ColorScriptList -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter {
+                [bool]$Quiet -and [bool]$NoAnsiOutput
+            }
         }
 
         It "defaults to the first script when no name is specified" {
@@ -1566,6 +1649,42 @@ Describe "ColorScripts-Enhanced extended coverage" {
 
             Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 1
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'built output'
+        }
+
+        It "emits structured error when cache build produces no output" {
+            Mock -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -MockWith {
+                @{ Success = $false; StdOut = ''; StdErr = ''; ExitCode = 1 }
+            }
+
+            $errorRecord = $null
+            try {
+                Show-ColorScript -Name 'alpha-one' -ErrorAction Stop
+            }
+            catch {
+                $errorRecord = $_
+            }
+
+            $errorRecord | Should -Not -BeNullOrEmpty
+            $errorRecord.FullyQualifiedErrorId | Should -Match '^ColorScriptsEnhanced.CacheBuildFailed'
+            $errorRecord.CategoryInfo.Category | Should -Be ([System.Management.Automation.ErrorCategory]::InvalidOperation)
+        }
+
+        It "emits structured error when process invocation fails" {
+            Mock -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -MockWith {
+                @{ Success = $false; StdOut = ''; StdErr = 'boom'; ExitCode = 9 }
+            }
+
+            $errorRecord = $null
+            try {
+                Show-ColorScript -Name 'alpha-one' -NoCache -ErrorAction Stop
+            }
+            catch {
+                $errorRecord = $_
+            }
+
+            $errorRecord | Should -Not -BeNullOrEmpty
+            $errorRecord.FullyQualifiedErrorId | Should -Match '^ColorScriptsEnhanced.ScriptExecutionFailed'
+            $errorRecord.CategoryInfo.Category | Should -Be ([System.Management.Automation.ErrorCategory]::InvalidOperation)
         }
 
         It "shows command help when requested" {
@@ -1708,6 +1827,35 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $script:RenderedOutputs.Count | Should -BeGreaterThan 0
         }
 
+        It "still displays wait-for-input prompts when quiet" {
+            Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
+                @(
+                    [pscustomobject]@{ Name = 'alpha-one'; Path = 'C:\scripts\alpha-one.ps1' }
+                    [pscustomobject]@{ Name = 'alpha-two'; Path = 'C:\scripts\alpha-two.ps1' }
+                )
+            }
+
+            InModuleScope ColorScripts-Enhanced {
+                $script:ReadKeyQueue = [System.Collections.Generic.Queue[object]]::new()
+                $script:ReadKeyQueue.Enqueue([pscustomobject]@{ VirtualKeyCode = 32; Character = ' ' })
+                $script:ReadKeyQueue.Enqueue([pscustomobject]@{ VirtualKeyCode = 81; Character = 'q' })
+
+                $rawUI = $Host.UI.RawUI
+                $rawUI | Add-Member -MemberType ScriptMethod -Name ReadKey -Force -Value {
+                    param($Options)
+                    $null = $Options
+                    if ($script:ReadKeyQueue.Count -gt 0) {
+                        return $script:ReadKeyQueue.Dequeue()
+                    }
+                    return [pscustomobject]@{ VirtualKeyCode = 81; Character = 'q' }
+                }
+            }
+
+            Show-ColorScript -All -WaitForInput -Quiet
+
+            ($script:InfoMessages | Where-Object { $_ -match 'Press' }) | Should -Not -BeNullOrEmpty
+        }
+
         It "filters all scripts and warns when no matches" {
             Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith { @() }
 
@@ -1744,6 +1892,24 @@ Describe "ColorScripts-Enhanced extended coverage" {
             Show-ColorScript -Random
 
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'random output'
+        }
+
+        It "defaults to ANSI rendering when not disabled" {
+            Show-ColorScript -Name 'alpha-one'
+
+            $script:LastRenderedTextArgs.NoAnsiOutput | Should -BeFalse
+        }
+
+        It "disables ANSI sequences when NoAnsiOutput is specified" {
+            Show-ColorScript -Name 'alpha-one' -NoAnsiOutput
+
+            $script:LastRenderedTextArgs.NoAnsiOutput | Should -BeTrue
+        }
+
+        It "suppresses informational messages when quiet" {
+            Show-ColorScript -All -Quiet
+
+            $script:InfoMessages | Where-Object { $_ -ne '' } | Should -BeNullOrEmpty
         }
 
         It "defaults to the first script when metadata filtering is applied" {

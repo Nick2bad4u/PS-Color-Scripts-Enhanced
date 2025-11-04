@@ -565,6 +565,34 @@ $null = Initialize-ColorScriptsLocalization -CandidateRoots ($moduleRootCandidat
 $script:ScriptsPath = Join-Path -Path $script:ModuleRoot -ChildPath "Scripts"
 $script:MetadataPath = Join-Path -Path $script:ModuleRoot -ChildPath "ScriptMetadata.psd1"
 
+function ConvertTo-HashtableInternal {
+    param([Parameter(ValueFromPipeline)]$InputObject)
+
+    process {
+        if ($null -eq $InputObject) {
+            return $null
+        }
+
+        if ($InputObject -is [System.Collections.IEnumerable] -and $InputObject -isnot [string]) {
+            $collection = @()
+            foreach ($item in $InputObject) {
+                $collection += ConvertTo-HashtableInternal $item
+            }
+            return $collection
+        }
+
+        if ($InputObject -is [PSCustomObject]) {
+            $hash = @{}
+            foreach ($property in $InputObject.PSObject.Properties) {
+                $hash[$property.Name] = ConvertTo-HashtableInternal $property.Value
+            }
+            return $hash
+        }
+
+        return $InputObject
+    }
+}
+
 function ConvertFrom-JsonToHashtable {
     <#
     .SYNOPSIS
@@ -589,38 +617,81 @@ function ConvertFrom-JsonToHashtable {
             return ConvertFrom-Json -InputObject $InputObject -AsHashtable
         }
 
-        # PowerShell 5.1 fallback: Convert PSCustomObject to Hashtable
-        function ConvertTo-HashtableInternal {
-            param([Parameter(ValueFromPipeline)]$InputObject)
-
-            process {
-                if ($null -eq $InputObject) {
-                    return $null
-                }
-
-                if ($InputObject -is [System.Collections.IEnumerable] -and $InputObject -isnot [string]) {
-                    $collection = @()
-                    foreach ($item in $InputObject) {
-                        $collection += ConvertTo-HashtableInternal $item
-                    }
-                    return $collection
-                }
-
-                if ($InputObject -is [PSCustomObject]) {
-                    $hash = @{}
-                    foreach ($property in $InputObject.PSObject.Properties) {
-                        $hash[$property.Name] = ConvertTo-HashtableInternal $property.Value
-                    }
-                    return $hash
-                }
-
-                return $InputObject
-            }
-        }
-
         $obj = ConvertFrom-Json -InputObject $InputObject
         return ConvertTo-HashtableInternal $obj
     }
+}
+
+function Get-ColorScriptAnsiSequence {
+    param([string]$Color)
+
+    if ([string]::IsNullOrWhiteSpace($Color)) {
+        return $null
+    }
+
+    switch ($Color.ToLowerInvariant()) {
+        'cyan' { return "${([char]27)}[36m" }
+        'yellow' { return "${([char]27)}[33m" }
+        'green' { return "${([char]27)}[32m" }
+        'magenta' { return "${([char]27)}[35m" }
+        'darkgray' { return "${([char]27)}[90m" }
+        'red' { return "${([char]27)}[31m" }
+        'blue' { return "${([char]27)}[34m" }
+        default { return $null }
+    }
+}
+
+function New-ColorScriptAnsiText {
+    param(
+        [AllowNull()][string]$Text,
+        [string]$Color,
+        [switch]$NoAnsiOutput
+    )
+
+    $resolvedText = if ($null -ne $Text) { [string]$Text } else { '' }
+
+    if ($NoAnsiOutput) {
+        return $resolvedText
+    }
+
+    $sequence = Get-ColorScriptAnsiSequence -Color $Color
+    if (-not $sequence) {
+        return $resolvedText
+    }
+
+    return "${sequence}${resolvedText}${([char]27)}[0m"
+}
+
+function Remove-ColorScriptAnsiSequence {
+    param([AllowNull()][string]$Text)
+
+    if ($null -eq $Text) {
+        return $Text
+    }
+
+    if (-not $script:AnsiStripRegex) {
+        $pattern = "${([char]27)}\[[0-9;]*[A-Za-z]"
+        $script:AnsiStripRegex = [System.Text.RegularExpressions.Regex]::new(
+            $pattern,
+            [System.Text.RegularExpressions.RegexOptions]::Compiled
+        )
+    }
+
+    return $script:AnsiStripRegex.Replace([string]$Text, '')
+}
+
+function Write-ColorScriptInformation {
+    param(
+        [AllowNull()][string]$Message,
+        [switch]$Quiet
+    )
+
+    if ($Quiet) {
+        return
+    }
+
+    $output = if ($null -ne $Message) { [string]$Message } else { '' }
+    Write-Information -MessageData $output -InformationAction Continue -Tags 'ColorScripts'
 }
 
 function Initialize-SystemDelegateState {
@@ -742,6 +813,7 @@ function Invoke-ShouldProcess {
 function Invoke-FileWriteAllText {
     param(
         [Parameter(Mandatory)]
+        [ValidateScript({ Test-ColorScriptPathValue $_ })]
         [string]$Path,
         [Parameter(Mandatory)]
         [string]$Content,
@@ -966,7 +1038,7 @@ function Get-ColorScriptsConfigurationRoot {
         }
     }
 
-    throw $script:Messages.UnableToDetermineConfigurationDirectory
+    Invoke-ColorScriptError -Message $script:Messages.UnableToDetermineConfigurationDirectory -ErrorId 'ColorScriptsEnhanced.ConfigurationRootUnavailable' -Category ([System.Management.Automation.ErrorCategory]::ResourceUnavailable)
 }
 
 function Save-ColorScriptConfiguration {
@@ -978,7 +1050,7 @@ function Save-ColorScriptConfiguration {
 
     $configRoot = Get-ColorScriptsConfigurationRoot
     if (-not $configRoot) {
-        throw $script:Messages.ConfigurationRootCouldNotBeResolved
+        Invoke-ColorScriptError -Message $script:Messages.ConfigurationRootCouldNotBeResolved -ErrorId 'ColorScriptsEnhanced.ConfigurationRootNotResolved' -Category ([System.Management.Automation.ErrorCategory]::ResourceUnavailable)
     }
 
     $script:ConfigurationPath = Join-Path -Path $configRoot -ChildPath 'config.json'
@@ -1060,6 +1132,7 @@ function Get-ColorScriptConfiguration {
     <#
     .EXTERNALHELP ColorScripts-Enhanced-help.xml
     #>
+    [OutputType([hashtable])]
     [CmdletBinding(HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration')]
     param(
         [Alias('help')]
@@ -1079,6 +1152,7 @@ function Set-ColorScriptConfiguration {
     <#
     .EXTERNALHELP ColorScripts-Enhanced-help.xml
     #>
+    [OutputType([hashtable])]
     [CmdletBinding(SupportsShouldProcess = $true, HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration')]
     param(
         [Alias('help')]
@@ -1086,7 +1160,9 @@ function Set-ColorScriptConfiguration {
 
         [Nullable[bool]]$AutoShowOnImport,
         [Nullable[bool]]$ProfileAutoShow,
+        [ValidateScript({ Test-ColorScriptPathValue $_ -AllowEmpty })]
         [string]$CachePath,
+        [ValidateScript({ Test-ColorScriptNameValue $_ -AllowEmpty })]
         [string]$DefaultScript,
         [switch]$PassThru
     )
@@ -1113,7 +1189,7 @@ function Set-ColorScriptConfiguration {
         else {
             $resolvedCache = Resolve-CachePath -Path $CachePath
             if (-not $resolvedCache) {
-                throw ($script:Messages.UnableToResolveCachePath -f $CachePath)
+                Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveCachePath -f $CachePath) -ErrorId 'ColorScriptsEnhanced.InvalidCachePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $CachePath -Cmdlet $PSCmdlet
             }
 
             if (-not (Test-Path -LiteralPath $resolvedCache)) {
@@ -1152,6 +1228,7 @@ function Reset-ColorScriptConfiguration {
     <#
     .EXTERNALHELP ColorScripts-Enhanced-help.xml
     #>
+    [OutputType([hashtable])]
     [CmdletBinding(SupportsShouldProcess = $true, HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration')]
     param(
         [Alias('help')]
@@ -1251,6 +1328,181 @@ $script:DefaultAutoCategoryRules = @(
 )
 
 #region Helper Functions
+
+function Test-ColorScriptNameValue {
+    param(
+        [Parameter(Mandatory, Position = 0)]
+        [object]$Value,
+        [switch]$AllowWildcard,
+        [switch]$AllowEmpty
+    )
+
+    $stringValue = [string]$Value
+
+    if ([string]::IsNullOrWhiteSpace($stringValue)) {
+        if ($AllowEmpty) {
+            return $true
+        }
+
+        $message = if ($script:Messages -and $script:Messages.ContainsKey('InvalidScriptNameEmpty')) {
+            $script:Messages.InvalidScriptNameEmpty
+        }
+        else {
+            'Color script name cannot be empty or whitespace.'
+        }
+
+        throw [System.Management.Automation.ValidationMetadataException]::new($message)
+    }
+
+    $invalidCharacters = [System.IO.Path]::GetInvalidFileNameChars()
+    if ($AllowWildcard) {
+        $invalidCharacters = [char[]]($invalidCharacters | Where-Object { $_ -ne '*' -and $_ -ne '?' })
+    }
+
+    if ($stringValue.IndexOfAny([char[]]$invalidCharacters) -ge 0) {
+        $characterMessage = if ($script:Messages -and $script:Messages.ContainsKey('InvalidScriptNameCharacters')) {
+            $script:Messages.InvalidScriptNameCharacters -f $stringValue
+        }
+        else {
+            "Color script name '$stringValue' contains invalid characters."
+        }
+
+        throw [System.Management.Automation.ValidationMetadataException]::new($characterMessage)
+    }
+
+    return $true
+}
+
+function Test-ColorScriptPathValue {
+    param(
+        [Parameter(Mandatory, Position = 0)]
+        [object]$Value,
+        [switch]$AllowEmpty
+    )
+
+    $stringValue = [string]$Value
+
+    if ([string]::IsNullOrWhiteSpace($stringValue)) {
+        if ($AllowEmpty) {
+            return $true
+        }
+
+        $emptyMessage = if ($script:Messages -and $script:Messages.ContainsKey('InvalidPathValueEmpty')) {
+            $script:Messages.InvalidPathValueEmpty
+        }
+        else {
+            'Path value cannot be empty or whitespace.'
+        }
+
+        throw [System.Management.Automation.ValidationMetadataException]::new($emptyMessage)
+    }
+
+    $invalidCharacters = [char[]][System.IO.Path]::GetInvalidPathChars()
+
+    if ($stringValue.IndexOfAny($invalidCharacters) -ge 0) {
+        $characterMessage = if ($script:Messages -and $script:Messages.ContainsKey('InvalidPathValueCharacters')) {
+            $script:Messages.InvalidPathValueCharacters -f $stringValue
+        }
+        else {
+            "Path '$stringValue' contains invalid characters."
+        }
+
+        throw [System.Management.Automation.ValidationMetadataException]::new($characterMessage)
+    }
+
+    return $true
+}
+
+function New-ColorScriptErrorRecord {
+    param(
+        [Parameter(Mandatory)]
+        [string]$Message,
+
+        [Parameter()]
+        [string]$ErrorId = 'ColorScriptsEnhanced.RuntimeError',
+
+        [Parameter()]
+        [System.Management.Automation.ErrorCategory]$Category = [System.Management.Automation.ErrorCategory]::InvalidOperation,
+
+        [Parameter()]
+        [object]$TargetObject,
+
+        [Parameter()]
+        [System.Exception]$Exception,
+
+        [Parameter()]
+        [string]$RecommendedAction
+    )
+
+    if (-not [string]::IsNullOrWhiteSpace($Message)) {
+        $effectiveMessage = $Message
+    }
+    elseif ($Exception) {
+        $effectiveMessage = $Exception.Message
+    }
+    else {
+        $effectiveMessage = 'An error occurred within ColorScripts-Enhanced.'
+    }
+
+    if (-not $Exception) {
+        $Exception = [System.Management.Automation.RuntimeException]::new($effectiveMessage)
+    }
+    elseif ($effectiveMessage -and $Exception.Message -ne $effectiveMessage) {
+        $Exception = [System.Management.Automation.RuntimeException]::new($effectiveMessage, $Exception)
+    }
+
+    $errorRecord = [System.Management.Automation.ErrorRecord]::new($Exception, $ErrorId, $Category, $TargetObject)
+
+    if (-not $errorRecord.ErrorDetails) {
+        $errorRecord.ErrorDetails = [System.Management.Automation.ErrorDetails]::new($effectiveMessage)
+    }
+    elseif ($effectiveMessage -and [string]::IsNullOrWhiteSpace($errorRecord.ErrorDetails.Message)) {
+        $errorRecord.ErrorDetails.Message = $effectiveMessage
+    }
+
+    if ($RecommendedAction) {
+        if (-not $errorRecord.ErrorDetails) {
+            $errorRecord.ErrorDetails = [System.Management.Automation.ErrorDetails]::new($effectiveMessage)
+        }
+        $errorRecord.ErrorDetails.RecommendedAction = $RecommendedAction
+    }
+
+    return $errorRecord
+}
+
+function Invoke-ColorScriptError {
+    param(
+        [Parameter(Mandatory)]
+        [string]$Message,
+
+        [Parameter()]
+        [string]$ErrorId = 'ColorScriptsEnhanced.RuntimeError',
+
+        [Parameter()]
+        [System.Management.Automation.ErrorCategory]$Category = [System.Management.Automation.ErrorCategory]::InvalidOperation,
+
+        [Parameter()]
+        [object]$TargetObject,
+
+        [Parameter()]
+        [System.Exception]$Exception,
+
+        [Parameter()]
+        [string]$RecommendedAction,
+
+        [Parameter()]
+        [System.Management.Automation.PSCmdlet]$Cmdlet
+    )
+
+    $errorRecord = New-ColorScriptErrorRecord -Message $Message -ErrorId $ErrorId -Category $Category -TargetObject $TargetObject -Exception $Exception -RecommendedAction $RecommendedAction
+
+    if ($Cmdlet) {
+        $Cmdlet.ThrowTerminatingError($errorRecord)
+    }
+    else {
+        throw $errorRecord
+    }
+}
 
 function Resolve-CachePath {
     param(
@@ -1547,10 +1799,15 @@ function Invoke-WithUtf8Encoding {
 function Write-RenderedText {
     param(
         [AllowNull()]
-        [string]$Text
+        [string]$Text,
+        [switch]$NoAnsiOutput
     )
 
     $outputText = if ($null -ne $Text) { [string]$Text } else { '' }
+
+    if ($NoAnsiOutput) {
+        $outputText = Remove-ColorScriptAnsiSequence -Text $outputText
+    }
 
     try {
         & $script:ConsoleWriteDelegate $outputText
@@ -2245,6 +2502,7 @@ function Get-ColorScriptMetadataTable {
 function Get-ColorScriptEntry {
     param(
         [SupportsWildcards()]
+        [ValidateScript({ Test-ColorScriptNameValue $_ -AllowWildcard })]
         [string[]]$Name,
         [string[]]$Category,
         [string[]]$Tag
@@ -2607,6 +2865,10 @@ function Show-ColorScript {
         Return the selected script metadata in addition to rendering output.
     .PARAMETER ReturnText
         Emit the rendered colorscript as pipeline output instead of writing directly to the console.
+    .PARAMETER Quiet
+        Suppress informational messaging emitted to the information stream while still rendering script output.
+    .PARAMETER NoAnsiOutput
+        Disable ANSI color codes in informational messages and rendered script text for plain-text environments.
 
     .EXAMPLE
         Show-ColorScript
@@ -2640,6 +2902,11 @@ function Show-ColorScript {
         Show-ColorScript -All -Category Nature -WaitForInput
         Cycles through all nature-themed colorscripts with manual progression.
     #>
+    [OutputType([pscustomobject], ParameterSetName = 'List')]
+    [OutputType([pscustomobject], ParameterSetName = 'Named')]
+    [OutputType([pscustomobject], ParameterSetName = 'Random')]
+    [OutputType([string], ParameterSetName = 'Named')]
+    [OutputType([string], ParameterSetName = 'Random')]
     [CmdletBinding(DefaultParameterSetName = 'Random', HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript')]
     [Alias('scs')]
     param(
@@ -2649,6 +2916,7 @@ function Show-ColorScript {
 
         [Parameter(ParameterSetName = 'Named', Position = 0)]
         [SupportsWildcards()]
+        [ValidateScript({ Test-ColorScriptNameValue $_ -AllowWildcard })]
         [string]$Name,
 
         [Parameter(ParameterSetName = 'List')]
@@ -2678,7 +2946,14 @@ function Show-ColorScript {
 
         [Parameter()]
         [Alias('AsString')]
-        [switch]$ReturnText
+        [switch]$ReturnText,
+
+        [Parameter()]
+        [switch]$Quiet,
+
+        [Parameter()]
+        [Alias('NoColor')]
+        [switch]$NoAnsiOutput
     )
 
     # Handle help request
@@ -2687,11 +2962,18 @@ function Show-ColorScript {
         return
     }
 
+    $quietRequested = $Quiet.IsPresent
+    $noAnsiRequested = $NoAnsiOutput.IsPresent
+    $noAnsiRequested = $NoAnsiOutput.IsPresent
+    $noAnsiRequested = $NoAnsiOutput.IsPresent
+
     # Handle list request
     if ($List) {
         $listParams = @{}
         if ($Category) { $listParams.Category = $Category }
         if ($Tag) { $listParams.Tag = $Tag }
+        if ($quietRequested) { $listParams.Quiet = $true }
+        if ($noAnsiRequested) { $listParams.NoAnsiOutput = $true }
         Get-ColorScriptList @listParams
         return
     }
@@ -2717,23 +2999,26 @@ function Show-ColorScript {
         $totalCount = $sortedScripts.Count
         $currentIndex = 0
 
-        Write-Host ($script:Messages.DisplayingColorscripts -f $totalCount) -ForegroundColor Cyan
-        if ($WaitForInput) {
-            Write-Host $script:Messages.PressSpacebarToContinue -ForegroundColor Yellow
-        }
-        else {
-            Write-Host $script:Messages.DisplayingContinuously -ForegroundColor Yellow
-        }
+        $displayingMessage = New-ColorScriptAnsiText -Text ($script:Messages.DisplayingColorscripts -f $totalCount) -Color 'Cyan' -NoAnsiOutput:$noAnsiRequested
+        Write-ColorScriptInformation -Message $displayingMessage -Quiet:$quietRequested
+
+        $modeMessage = if ($WaitForInput) { $script:Messages.PressSpacebarToContinue } else { $script:Messages.DisplayingContinuously }
+        $modeQuiet = if ($WaitForInput) { $false } else { $quietRequested }
+        $modeSegment = New-ColorScriptAnsiText -Text $modeMessage -Color 'Yellow' -NoAnsiOutput:$noAnsiRequested
+        Write-ColorScriptInformation -Message $modeSegment -Quiet:$modeQuiet
 
         foreach ($script in $sortedScripts) {
             $currentIndex++
 
             # Clear screen and show progress
             Clear-Host
-            Write-Host ($script:Messages.CurrentIndexOfTotal -f $currentIndex, $totalCount) -NoNewline -ForegroundColor Green
-            Write-Host $script.Name -ForegroundColor Cyan
-            Write-Host ("=" * 60) -ForegroundColor DarkGray
-            Write-Host ""
+            $progressSegment = New-ColorScriptAnsiText -Text ($script:Messages.CurrentIndexOfTotal -f $currentIndex, $totalCount) -Color 'Green' -NoAnsiOutput:$noAnsiRequested
+            $scriptNameSegment = New-ColorScriptAnsiText -Text $script.Name -Color 'Cyan' -NoAnsiOutput:$noAnsiRequested
+            Write-ColorScriptInformation -Message ("$progressSegment $scriptNameSegment") -Quiet:$quietRequested
+
+            $dividerSegment = New-ColorScriptAnsiText -Text ("=" * 60) -Color 'DarkGray' -NoAnsiOutput:$noAnsiRequested
+            Write-ColorScriptInformation -Message $dividerSegment -Quiet:$quietRequested
+            Write-ColorScriptInformation -Message '' -Quiet:$quietRequested
 
             # Display the colorscript
             $renderedOutput = $null
@@ -2755,15 +3040,16 @@ function Show-ColorScript {
 
             if ($renderedOutput) {
                 Invoke-WithUtf8Encoding -ScriptBlock {
-                    param($text)
-                    Write-RenderedText -Text $text
-                } -Arguments @($renderedOutput)
+                    param($text, $noAnsiOutput)
+                    Write-RenderedText -Text $text -NoAnsiOutput:$noAnsiOutput
+                } -Arguments @($renderedOutput, $noAnsiRequested)
             }
 
             # Wait for input if requested
             if ($WaitForInput -and $currentIndex -lt $totalCount) {
-                Write-Host ""
-                Write-Host $script:Messages.PressSpacebarForNext -NoNewline -ForegroundColor Yellow
+                Write-ColorScriptInformation -Message '' -Quiet:$quietRequested
+                $promptMessage = New-ColorScriptAnsiText -Text $script:Messages.PressSpacebarForNext -Color 'Yellow' -NoAnsiOutput:$noAnsiRequested
+                Write-ColorScriptInformation -Message $promptMessage -Quiet:$false
 
                 $continueLoop = $true
                 while ($continueLoop) {
@@ -2773,11 +3059,12 @@ function Show-ColorScript {
                         $continueLoop = $false
                     }
                     elseif ($key.Character -eq 'q' -or $key.Character -eq 'Q') {
-                        Write-Host $script:Messages.Quitting -ForegroundColor Yellow
+                        $quitMessage = New-ColorScriptAnsiText -Text $script:Messages.Quitting -Color 'Yellow' -NoAnsiOutput:$noAnsiRequested
+                        Write-ColorScriptInformation -Message $quitMessage -Quiet:$false
                         return
                     }
                 }
-                Write-Host "" # Clear the prompt line
+                Write-ColorScriptInformation -Message '' -Quiet:$quietRequested
             }
             elseif (-not $WaitForInput -and $currentIndex -lt $totalCount) {
                 # Small delay between scripts when auto-advancing
@@ -2785,8 +3072,9 @@ function Show-ColorScript {
             }
         }
 
-        Write-Host "`n" -NoNewline
-        Write-Host ($script:Messages.FinishedDisplayingAll -f $totalCount) -ForegroundColor Green
+        Write-ColorScriptInformation -Message '' -Quiet:$quietRequested
+        $completeMessage = New-ColorScriptAnsiText -Text ($script:Messages.FinishedDisplayingAll -f $totalCount) -Color 'Green' -NoAnsiOutput:$noAnsiRequested
+        Write-ColorScriptInformation -Message $completeMessage -Quiet:$quietRequested
         return
     }
 
@@ -2858,7 +3146,7 @@ function Show-ColorScript {
                 }
 
                 if ([string]::IsNullOrEmpty($cacheResult.StdOut)) {
-                    throw $script:Messages.FailedToBuildCacheForScript
+                    Invoke-ColorScriptError -Message $script:Messages.FailedToBuildCacheForScript -ErrorId 'ColorScriptsEnhanced.CacheBuildFailed' -Category ([System.Management.Automation.ErrorCategory]::InvalidOperation) -TargetObject $selection.Name -Cmdlet $PSCmdlet
                 }
 
                 $renderedOutput = $cacheResult.StdOut
@@ -2872,7 +3160,7 @@ function Show-ColorScript {
         $executionResult = Invoke-ColorScriptProcess -ScriptPath $selection.Path
         if (-not $executionResult.Success) {
             $errorMessage = if ($executionResult.StdErr) { $executionResult.StdErr.Trim() } else { "Script exited with code $($executionResult.ExitCode)." }
-            throw ($script:Messages.FailedToExecuteColorscript -f $selection.Name, $errorMessage)
+            Invoke-ColorScriptError -Message ($script:Messages.FailedToExecuteColorscript -f $selection.Name, $errorMessage) -ErrorId 'ColorScriptsEnhanced.ScriptExecutionFailed' -Category ([System.Management.Automation.ErrorCategory]::InvalidOperation) -TargetObject $selection.Name -Cmdlet $PSCmdlet
         }
 
         $renderedOutput = $executionResult.StdOut
@@ -2887,15 +3175,15 @@ function Show-ColorScript {
     $shouldEmitText = Test-ColorScriptTextEmission -ReturnText:$ReturnText.IsPresent -PassThru:$PassThru.IsPresent -PipelineLength $pipelineLength -BoundParameters $boundParameters
 
     Invoke-WithUtf8Encoding -ScriptBlock {
-        param($text, $emitText)
+        param($text, $emitText, $noAnsiOutput)
 
         if ($emitText) {
             Write-Output $text
             return
         }
 
-        Write-RenderedText -Text $text
-    } -Arguments @($renderedOutput, $shouldEmitText)
+        Write-RenderedText -Text $text -NoAnsiOutput:$noAnsiOutput
+    } -Arguments @($renderedOutput, $shouldEmitText, $noAnsiRequested)
 
     if ($PassThru) {
         return $selection
@@ -2917,9 +3205,14 @@ Filter the colorscript list by one or more names. Wildcards are supported and un
 Filter the list to scripts belonging to one or more categories (case-insensitive).
 .PARAMETER Tag
 Filter the list to scripts containing one or more metadata tags (case-insensitive).
+.PARAMETER Quiet
+Suppress the formatted table output while still returning objects when requested.
+.PARAMETER NoAnsiOutput
+Strip ANSI color sequences from formatted output when emitting the table view.
 #>
 function Get-ColorScriptList {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Structured list is emitted for pipeline consumption.')]
+    [OutputType([pscustomobject])]
     [CmdletBinding(HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList')]
     param(
         [Alias('help')]
@@ -2928,15 +3221,20 @@ function Get-ColorScriptList {
         [switch]$AsObject,
         [switch]$Detailed,
         [SupportsWildcards()]
+        [ValidateScript({ Test-ColorScriptNameValue $_ -AllowWildcard })]
         [string[]]$Name,
         [string[]]$Category,
-        [string[]]$Tag
+        [string[]]$Tag,
+        [switch]$Quiet,
+        [switch]$NoAnsiOutput
     )
 
     if ($h) {
         Show-ColorScriptHelp -CommandName 'Get-ColorScriptList'
         return
     }
+
+    $quietRequested = $Quiet.IsPresent
 
     $records = Get-ColorScriptEntry -Category $Category -Tag $Tag | Sort-Object Name
 
@@ -2962,7 +3260,13 @@ function Get-ColorScriptList {
             $records | Select-Object Name, Category
         }
 
-        $table | Format-Table -AutoSize | Out-String | Write-Host
+        if (-not $quietRequested) {
+            $tableOutput = $table | Format-Table -AutoSize | Out-String
+            if ($NoAnsiOutput) {
+                $tableOutput = Remove-ColorScriptAnsiSequence -Text $tableOutput
+            }
+            Write-ColorScriptInformation -Message $tableOutput -Quiet:$false
+        }
     }
 
     return $records
@@ -2988,12 +3292,14 @@ function Export-ColorScriptMetadata {
     https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata
     #>
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseSingularNouns', '', Justification = 'Metadata is a collective noun representing the exported dataset.')]
-    [CmdletBinding(HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata')]
+    [OutputType([pscustomobject])]
+    [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium', HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata')]
     param(
         [Alias('help')]
         [switch]$h,
 
         [Parameter()]
+        [ValidateScript({ Test-ColorScriptPathValue $_ })]
         [string]$Path,
 
         [Parameter()]
@@ -3067,12 +3373,34 @@ function Export-ColorScriptMetadata {
     if ($Path) {
         $resolvedPath = Resolve-CachePath -Path $Path
         if (-not $resolvedPath) {
-            throw ($script:Messages.UnableToResolveOutputPath -f $Path)
+            Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveOutputPath -f $Path) -ErrorId 'ColorScriptsEnhanced.InvalidOutputPath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $Path -Cmdlet $PSCmdlet
+        }
+
+        if (-not (Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $resolvedPath -Action 'Export colorscript metadata')) {
+            if ($PassThru) {
+                return $payload
+            }
+
+            return
         }
 
         $outputDirectory = Split-Path -Path $resolvedPath -Parent
+        $directoryReady = $true
+
         if ($outputDirectory -and -not (Test-Path -LiteralPath $outputDirectory)) {
-            New-Item -ItemType Directory -Path $outputDirectory -Force | Out-Null
+            $directoryReady = Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $outputDirectory -Action 'Create export directory'
+
+            if ($directoryReady) {
+                New-Item -ItemType Directory -Path $outputDirectory -Force | Out-Null
+            }
+        }
+
+        if (-not $directoryReady) {
+            if ($PassThru) {
+                return $payload
+            }
+
+            return
         }
 
         $json = $payload | ConvertTo-Json -Depth 6
@@ -3109,6 +3437,7 @@ Limit the selection to scripts containing the specified metadata tags (case-inse
 #>
 function New-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache operation.')]
+    [OutputType([pscustomobject])]
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium', HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache')]
     [Alias('Update-ColorScriptCache')]
     param(
@@ -3118,6 +3447,7 @@ function New-ColorScriptCache {
 
         [Parameter(ValueFromPipeline, ValueFromPipelineByPropertyName)]
         [SupportsWildcards()]
+        [ValidateScript({ Test-ColorScriptNameValue $_ -AllowWildcard })]
         [string[]]$Name,
 
         [Parameter()]
@@ -3174,7 +3504,7 @@ function New-ColorScriptCache {
             $records = $selection.Records
         }
         elseif ($allExplicitlyDisabled) {
-            throw $script:Messages.SpecifyNameToSelectScripts
+            Invoke-ColorScriptError -Message $script:Messages.SpecifyNameToSelectScripts -ErrorId 'ColorScriptsEnhanced.CacheSelectionMissing' -Category ([System.Management.Automation.ErrorCategory]::InvalidOperation) -Cmdlet $PSCmdlet
         }
         else {
             $records = $filteredRecords
@@ -3353,6 +3683,7 @@ Filter the target scripts by metadata tag before evaluating cache entries.
 #>
 function Clear-ColorScriptCache {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Returns structured pipeline records for each cache entry.')]
+    [OutputType([pscustomobject])]
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium', HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache')]
     param(
         [Parameter(ParameterSetName = 'Help')]
@@ -3367,6 +3698,7 @@ function Clear-ColorScriptCache {
         [switch]$All,
 
         [Parameter()]
+        [ValidateScript({ Test-ColorScriptPathValue $_ })]
         [string]$Path,
 
         [Parameter()]
@@ -3458,7 +3790,7 @@ function Clear-ColorScriptCache {
                 return [pscustomobject[]]@()
             }
 
-            throw $script:Messages.SpecifyAllOrNameToClearCache
+            Invoke-ColorScriptError -Message $script:Messages.SpecifyAllOrNameToClearCache -ErrorId 'ColorScriptsEnhanced.CacheClearSelectionMissing' -Category ([System.Management.Automation.ErrorCategory]::InvalidOperation) -Cmdlet $PSCmdlet
         }
 
         # Lazy initialization: only initialize cache when clearing
@@ -3650,6 +3982,7 @@ function New-ColorScript {
     .LINK
     https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript
     #>
+    [OutputType([pscustomobject])]
     [CmdletBinding(SupportsShouldProcess = $true, HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript')]
     param(
         [Alias('help')]
@@ -3660,6 +3993,7 @@ function New-ColorScript {
         [string]$Name,
 
         [Parameter()]
+        [ValidateScript({ Test-ColorScriptPathValue $_ })]
         [string]$OutputPath,
 
         [Parameter()]
@@ -3684,7 +4018,7 @@ function New-ColorScript {
     if ($PSBoundParameters.ContainsKey('OutputPath')) {
         $resolvedOutput = Resolve-CachePath -Path $OutputPath
         if (-not $resolvedOutput) {
-            throw ($script:Messages.UnableToResolveOutputPath -f $OutputPath)
+            Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveOutputPath -f $OutputPath) -ErrorId 'ColorScriptsEnhanced.InvalidOutputPath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $OutputPath -Cmdlet $PSCmdlet
         }
         $targetDirectory = $resolvedOutput
     }
@@ -3696,7 +4030,7 @@ function New-ColorScript {
     $targetPath = Join-Path -Path $targetDirectory -ChildPath ("{0}.ps1" -f $Name)
 
     if ((Test-Path -LiteralPath $targetPath) -and -not $Force) {
-        throw ($script:Messages.ScriptAlreadyExists -f $targetPath)
+        Invoke-ColorScriptError -Message ($script:Messages.ScriptAlreadyExists -f $targetPath) -ErrorId 'ColorScriptsEnhanced.ScriptAlreadyExists' -Category ([System.Management.Automation.ErrorCategory]::ResourceExists) -TargetObject $targetPath -Cmdlet $PSCmdlet
     }
 
     $template = @'
@@ -3764,6 +4098,7 @@ function Add-ColorScriptProfile {
     <#
     .EXTERNALHELP ColorScripts-Enhanced-help.xml
     #>
+    [OutputType([pscustomobject])]
     [CmdletBinding(SupportsShouldProcess = $true, HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile')]
     param(
         [Alias('help')]
@@ -3774,6 +4109,7 @@ function Add-ColorScriptProfile {
         [string]$Scope = 'CurrentUserAllHosts',
 
         [Parameter()]
+        [ValidateScript({ Test-ColorScriptPathValue $_ })]
         [string]$Path,
 
         [Parameter()]
@@ -3825,13 +4161,13 @@ function Add-ColorScriptProfile {
     if ($PSBoundParameters.ContainsKey('Path')) {
         $profilePath = Resolve-CachePath -Path $Path
         if (-not $profilePath) {
-            throw ($script:Messages.UnableToResolveProfilePath -f $Path)
+            Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveProfilePath -f $Path) -ErrorId 'ColorScriptsEnhanced.InvalidProfilePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $Path -Cmdlet $PSCmdlet
         }
     }
     else {
         $profilePath = $PROFILE.$Scope
         if ([string]::IsNullOrWhiteSpace($profilePath)) {
-            throw ($script:Messages.ProfilePathNotDefinedForScope -f $Scope)
+            Invoke-ColorScriptError -Message ($script:Messages.ProfilePathNotDefinedForScope -f $Scope) -ErrorId 'ColorScriptsEnhanced.ProfilePathUndefined' -Category ([System.Management.Automation.ErrorCategory]::ObjectNotFound) -TargetObject $Scope -Cmdlet $PSCmdlet
         }
 
         $resolvedProfile = Resolve-CachePath -Path $profilePath

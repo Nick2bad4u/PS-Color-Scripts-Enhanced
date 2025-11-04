@@ -22,6 +22,10 @@ CacheFileNotFound = Файл кэша не найден.
 NoChangesApplied = Изменения не применены.
 UnableToRetrieveFileInfo = Не удалось получить информацию о файле ''{0}'': {1}
 UnableToReadCacheInfo = Не удалось прочитать информацию о кэше для ''{0}'': {1}
+InvalidScriptNameEmpty = Color script name cannot be empty or whitespace.
+InvalidScriptNameCharacters = Color script name '{0}' contains invalid characters.
+InvalidPathValueEmpty = Path value cannot be empty or whitespace.
+InvalidPathValueCharacters = Path '{0}' contains invalid characters.
 
 # Warning Messages
 NoColorscriptsFoundMatchingCriteria = Не найдено colorscripts, соответствующих указанным критериям.

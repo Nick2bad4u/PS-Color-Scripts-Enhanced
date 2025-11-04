@@ -22,6 +22,10 @@ CacheFileNotFound = 未找到缓存文件。
 NoChangesApplied = 未应用任何更改。
 UnableToRetrieveFileInfo = 无法检索 ''{0}'' 的文件信息：{1}
 UnableToReadCacheInfo = 无法读取 ''{0}'' 的缓存信息：{1}
+InvalidScriptNameEmpty = Color script name cannot be empty or whitespace.
+InvalidScriptNameCharacters = Color script name '{0}' contains invalid characters.
+InvalidPathValueEmpty = Path value cannot be empty or whitespace.
+InvalidPathValueCharacters = Path '{0}' contains invalid characters.
 
 # Warning Messages
 NoColorscriptsFoundMatchingCriteria = 未找到符合指定条件的 colorscripts。
