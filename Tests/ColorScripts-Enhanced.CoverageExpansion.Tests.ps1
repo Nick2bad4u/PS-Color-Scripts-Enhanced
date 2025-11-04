@@ -1537,6 +1537,8 @@ Describe "ColorScripts-Enhanced extended coverage" {
             InModuleScope ColorScripts-Enhanced { $script:ListParams = $null }
             $script:InfoMessages = @()
             $script:LastRenderedTextArgs = $null
+            $script:RenderedTextCalls = @()
+            $script:InvokeWithUtf8Calls = @()
 
             Mock -CommandName Write-Host -ModuleName ColorScripts-Enhanced -MockWith { } -Verifiable:$false
             Mock -CommandName Write-Information -ModuleName ColorScripts-Enhanced -MockWith {
@@ -1614,14 +1616,42 @@ Describe "ColorScripts-Enhanced extended coverage" {
                     $script:RenderedOutputs += $Arguments[0]
                 }
 
+                $noAnsiArgument = if ($Arguments.Count -ge 3) {
+                    $Arguments[2]
+                }
+                elseif ($Arguments.Count -ge 2) {
+                    $Arguments[1]
+                }
+                else {
+                    $false
+                }
+
+                $callSnapshot = @{
+                    Arguments    = $Arguments
+                    NoAnsiOutput = [bool]$noAnsiArgument
+                }
+
+                if (-not $script:InvokeWithUtf8Calls) {
+                    $script:InvokeWithUtf8Calls = @()
+                }
+
+                $script:InvokeWithUtf8Calls += $callSnapshot
+
                 & $ScriptBlock @Arguments
             }
             Mock -CommandName Write-RenderedText -ModuleName ColorScripts-Enhanced -MockWith {
                 param($Text, $NoAnsiOutput)
-                $script:LastRenderedTextArgs = @{
+                $callRecord = @{
                     Text         = $Text
                     NoAnsiOutput = [bool]$NoAnsiOutput
                 }
+
+                $script:LastRenderedTextArgs = $callRecord
+                if (-not $script:RenderedTextCalls) {
+                    $script:RenderedTextCalls = @()
+                }
+
+                $script:RenderedTextCalls += $callRecord
             }
         }
 
@@ -1797,6 +1827,18 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $script:SleepLog.Count | Should -BeGreaterThan 0
         }
 
+        It "clears the host before each script when cycling all" {
+            Show-ColorScript -All
+
+            Assert-MockCalled -CommandName Clear-Host -ModuleName ColorScripts-Enhanced -Times 2
+        }
+
+        It "skips host clearing when NoClear is specified" {
+            Show-ColorScript -All -NoClear
+
+            Assert-MockCalled -CommandName Clear-Host -ModuleName ColorScripts-Enhanced -Times 0
+        }
+
         It "supports wait-for-input navigation and quit shortcut" {
             Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
                 @(
@@ -1897,13 +1939,13 @@ Describe "ColorScripts-Enhanced extended coverage" {
         It "defaults to ANSI rendering when not disabled" {
             Show-ColorScript -Name 'alpha-one'
 
-            $script:LastRenderedTextArgs.NoAnsiOutput | Should -BeFalse
+            ($script:InvokeWithUtf8Calls | Select-Object -Last 1).NoAnsiOutput | Should -BeFalse
         }
 
         It "disables ANSI sequences when NoAnsiOutput is specified" {
             Show-ColorScript -Name 'alpha-one' -NoAnsiOutput
 
-            $script:LastRenderedTextArgs.NoAnsiOutput | Should -BeTrue
+            ($script:InvokeWithUtf8Calls | Where-Object { $_.NoAnsiOutput }).Count | Should -BeGreaterThan 0
         }
 
         It "suppresses informational messages when quiet" {

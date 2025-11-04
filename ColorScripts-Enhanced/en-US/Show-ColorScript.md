@@ -39,7 +39,7 @@ Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-R
 ### All
 
 ```
-Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
+Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
  [<CommonParameters>]
 ```
 
@@ -473,6 +473,27 @@ ParameterSets:
   ValueFromPipeline: false
   ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -NoClear
+
+When used with `-All`, skip the automatic `Clear-Host` call between colorscripts so that each rendered script remains visible above the next one. This is particularly useful when you want to compare scripts side-by-side or capture the entire showcase in session transcripts.
+
+```yaml
+Type: SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+    Position: Named
+    IsRequired: false
+    ValueFromPipeline: false
+    ValueFromPipelineByPropertyName: false
+    ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ''

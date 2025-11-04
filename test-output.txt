@@ -1,0 +1,14 @@
+
+> ps-color-scripts-enhanced@2025.10.12 test
+> npm run test:custom && npm run test:pester
+
+
+> ps-color-scripts-enhanced@2025.10.12 test:custom
+> pwsh -NoProfile -File ./scripts/Test-Module.ps1
+
+[96m
+=== ColorScripts-Enhanced Module Tests ===
+[39m
+[93mImporting module...[39m
+[33;1mWARNING: Localization resources were not found. Falling back to built-in English messages.[0m
+[91m? Failed to import module: Parameter set cannot be resolved using the specified named parameters. One or more parameters issued cannot be used together or an insufficient number of parameters were provided.[39m
