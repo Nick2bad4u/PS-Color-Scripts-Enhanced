@@ -21,6 +21,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
         $script:OriginalXdgConfig = $env:XDG_CONFIG_HOME
         $script:OriginalHomeEnv = $env:HOME
         $script:OriginalHomeVariable = $HOME
+        $script:OriginalTraceEnv = $env:COLOR_SCRIPTS_ENHANCED_TRACE
 
         $script:TestDriveRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
     }
@@ -56,6 +57,13 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
         if ($null -ne $script:OriginalHomeVariable) {
             Set-Variable -Name HOME -Scope Global -Force -Value $script:OriginalHomeVariable
+        }
+
+        if ($null -eq $script:OriginalTraceEnv) {
+            Remove-Item Env:COLOR_SCRIPTS_ENHANCED_TRACE -ErrorAction SilentlyContinue
+        }
+        else {
+            $env:COLOR_SCRIPTS_ENHANCED_TRACE = $script:OriginalTraceEnv
         }
 
         Set-Variable -Name IsWindows -Scope Global -Force -Value $script:OriginalIsWindows
@@ -261,6 +269,100 @@ Describe "ColorScripts-Enhanced internal coverage" {
                 $result.ModuleRoot | Should -Be $validDir
                 $script:Messages.Message | Should -Be 'Hello'
             }
+        }
+    }
+
+    Context "Module trace configuration" {
+        BeforeEach {
+            Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue
+        }
+
+        AfterEach {
+            Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue
+
+            if ($null -eq $script:OriginalTraceEnv) {
+                Remove-Item Env:COLOR_SCRIPTS_ENHANCED_TRACE -ErrorAction SilentlyContinue
+            }
+            else {
+                $env:COLOR_SCRIPTS_ENHANCED_TRACE = $script:OriginalTraceEnv
+            }
+
+            Import-Module $script:ModuleManifest -Force
+
+            InModuleScope ColorScripts-Enhanced {
+                Set-Variable -Name OriginalModuleRoot -Scope Script -Value $script:ModuleRoot
+            }
+        }
+
+        It "enables verbose trace mode when requested" {
+            $env:COLOR_SCRIPTS_ENHANCED_TRACE = 'true'
+
+            Import-Module $script:ModuleManifest -Force
+
+            InModuleScope ColorScripts-Enhanced {
+                $script:ModuleTraceEnabled | Should -BeTrue
+                $script:ModuleTraceUseVerbose | Should -BeTrue
+                $script:ModuleTraceUseFile | Should -BeFalse
+
+                $previousVerbose = $VerbosePreference
+                try {
+                    $VerbosePreference = 'Continue'
+                    { Write-ModuleTrace 'verbose-message' } | Should -Not -Throw
+                }
+                finally {
+                    $VerbosePreference = $previousVerbose
+                }
+            }
+        }
+
+        It "writes trace output to specified file and supports debug mode" {
+            $tracePath = Join-Path -Path $script:TestDriveRoot -ChildPath 'trace-output.log'
+            $env:COLOR_SCRIPTS_ENHANCED_TRACE = "debug,path:$tracePath"
+
+            Import-Module $script:ModuleManifest -Force
+
+            InModuleScope ColorScripts-Enhanced -ScriptBlock {
+                param($expectedTracePath)
+
+                $script:ModuleTraceEnabled | Should -BeTrue
+                $script:ModuleTraceUseDebug | Should -BeTrue
+                $script:ModuleTraceUseFile | Should -BeTrue
+                $script:ModuleTraceFile | Should -Be $expectedTracePath
+
+                $previousDebug = $DebugPreference
+                try {
+                    $DebugPreference = 'Continue'
+                    { Write-ModuleTrace 'file-message' } | Should -Not -Throw
+                }
+                finally {
+                    $DebugPreference = $previousDebug
+                }
+            } -ArgumentList $tracePath
+
+            Test-Path -LiteralPath $tracePath | Should -BeTrue
+            (Get-Content -LiteralPath $tracePath -Raw) | Should -Match 'file-message'
+        }
+
+        It "treats absolute paths as file trace targets" {
+            $simpleTracePath = Join-Path -Path $script:TestDriveRoot -ChildPath 'simple-trace.log'
+            $env:COLOR_SCRIPTS_ENHANCED_TRACE = $simpleTracePath
+
+            Import-Module $script:ModuleManifest -Force
+
+            $expectedResolvedPath = [System.IO.Path]::GetFullPath($simpleTracePath)
+
+            InModuleScope ColorScripts-Enhanced -ScriptBlock {
+                param($expectedTracePath)
+
+                $script:ModuleTraceEnabled | Should -BeTrue
+                $script:ModuleTraceUseFile | Should -BeTrue
+                $script:ModuleTraceFile | Should -Be $expectedTracePath
+
+                { Write-ModuleTrace 'simple-message' } | Should -Not -Throw
+            } -ArgumentList $expectedResolvedPath
+
+            Test-Path -LiteralPath $simpleTracePath | Should -BeTrue
+            (Get-Content -LiteralPath $simpleTracePath -Raw) | Should -Match 'simple-message'
         }
     }
 

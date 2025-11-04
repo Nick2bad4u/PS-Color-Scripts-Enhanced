@@ -37,20 +37,136 @@ $script:IsWindows = $IsWindows
 $script:IsMacOS = $IsMacOS
 $script:PowerShellMajorVersion = $PSVersionTable.PSVersion.Major
 
+$traceSetting = $env:COLOR_SCRIPTS_ENHANCED_TRACE
+$script:ModuleTraceEnabled = $false
+$script:ModuleTraceUseVerbose = $false
+$script:ModuleTraceUseDebug = $false
+$script:ModuleTraceUseFile = $false
+$script:ModuleTraceFile = $null
+$script:ModuleTraceWriteFailureNotified = $false
+
+if (-not [string]::IsNullOrWhiteSpace($traceSetting)) {
+    $script:ModuleTraceEnabled = $true
+    $tokens = ($traceSetting -split '[,;]') | ForEach-Object { $_.Trim() } | Where-Object { $_ }
+    if (-not $tokens) {
+        $tokens = @($traceSetting.Trim())
+    }
+
+    foreach ($token in $tokens) {
+        switch -Regex ($token) {
+            '^(?i)(1|true|yes|on)$' {
+                $script:ModuleTraceUseVerbose = $true
+                continue
+            }
+            '^(?i)verbose$' {
+                $script:ModuleTraceUseVerbose = $true
+                continue
+            }
+            '^(?i)debug$' {
+                $script:ModuleTraceUseDebug = $true
+                continue
+            }
+            '^(?i)file$' {
+                $script:ModuleTraceUseFile = $true
+                continue
+            }
+            '^(?i)path:(?<path>.+)$' {
+                $script:ModuleTraceUseFile = $true
+                if (-not [string]::IsNullOrWhiteSpace($Matches['path'])) {
+                    $script:ModuleTraceFile = $Matches['path']
+                }
+                continue
+            }
+            default {
+                $resolvedPath = $null
+                try {
+                    $resolvedPath = [System.IO.Path]::GetFullPath($token)
+                }
+                catch {
+                    $resolvedPath = $null
+                }
+
+                if ($resolvedPath -and ($token.Contains('\') -or $token.Contains('/') -or $token -match '^[A-Za-z]:')) {
+                    $script:ModuleTraceUseFile = $true
+                    $script:ModuleTraceFile = $resolvedPath
+                }
+                else {
+                    $script:ModuleTraceUseVerbose = $true
+                }
+            }
+        }
+    }
+}
+
+if ($script:ModuleTraceEnabled) {
+    if (-not ($script:ModuleTraceUseVerbose -or $script:ModuleTraceUseDebug -or $script:ModuleTraceUseFile)) {
+        $script:ModuleTraceUseVerbose = $true
+    }
+
+    if ($script:ModuleTraceUseFile -and -not $script:ModuleTraceFile) {
+        $script:ModuleTraceFile = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath 'cs-module-root-debug.log'
+    }
+
+    if ($script:ModuleTraceUseFile -and $script:ModuleTraceFile) {
+        $traceDirectory = $null
+        try {
+            $traceDirectory = Split-Path -Path $script:ModuleTraceFile -Parent
+            if ($traceDirectory -and -not (Test-Path -LiteralPath $traceDirectory)) {
+                New-Item -ItemType Directory -Path $traceDirectory -Force | Out-Null
+            }
+        }
+        catch {
+            $script:ModuleTraceUseFile = $false
+            if ($traceDirectory) {
+                Write-Verbose ("Unable to prepare trace directory '{0}': {1}" -f $traceDirectory, $_.Exception.Message)
+            }
+        }
+    }
+}
+
+function Write-ModuleTrace {
+    param(
+        [Parameter(Mandatory)][string]$Message
+    )
+
+    if (-not $script:ModuleTraceEnabled) {
+        return
+    }
+
+    if ($script:ModuleTraceUseDebug) {
+        Write-Debug $Message
+    }
+
+    if ($script:ModuleTraceUseVerbose) {
+        Write-Verbose $Message
+    }
+
+    if ($script:ModuleTraceUseFile -and $script:ModuleTraceFile) {
+        try {
+            $Message | Out-File -FilePath $script:ModuleTraceFile -Encoding utf8 -Append
+        }
+        catch {
+            if (-not $script:ModuleTraceWriteFailureNotified) {
+                $script:ModuleTraceWriteFailureNotified = $true
+                Write-Verbose ("Trace logging to '{0}' failed: {1}" -f $script:ModuleTraceFile, $_.Exception.Message)
+            }
+        }
+    }
+}
+
 # Determine the actual module root so that localized resources resolve correctly
 $moduleInfo = $ExecutionContext.SessionState.Module
 $moduleRootCandidates = @()
-$moduleRootDebugPath = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath 'cs-module-root-debug.log'
-"--- Import begin: $(Get-Date -Format o) ---" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+Write-ModuleTrace ("--- Import begin: {0} ---" -f (Get-Date -Format o))
 if ($moduleInfo) {
-    "ModuleInfo.ModuleBase = $($moduleInfo.ModuleBase)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
-    "ModuleInfo.Path = $($moduleInfo.Path)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+    Write-ModuleTrace ("ModuleInfo.ModuleBase = {0}" -f $moduleInfo.ModuleBase)
+    Write-ModuleTrace ("ModuleInfo.Path = {0}" -f $moduleInfo.Path)
 }
 else {
-    "ModuleInfo.ModuleBase = <null>" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
-    "ModuleInfo.Path = <null>" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+    Write-ModuleTrace 'ModuleInfo.ModuleBase = <null>'
+    Write-ModuleTrace 'ModuleInfo.Path = <null>'
 }
-"PSScriptRoot = $PSScriptRoot" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+Write-ModuleTrace ("PSScriptRoot = {0}" -f $PSScriptRoot)
 
 if ($moduleInfo) {
     if ($moduleInfo.ModuleBase) {
@@ -69,16 +185,16 @@ if ($PSScriptRoot) {
 $availableModule = Get-Module -ListAvailable -Name 'ColorScripts-Enhanced' | Select-Object -First 1
 if ($availableModule -and $availableModule.ModuleBase) {
     $moduleRootCandidates += $availableModule.ModuleBase
-    "ListAvailable ModuleBase = $($availableModule.ModuleBase)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+    Write-ModuleTrace ("ListAvailable ModuleBase = {0}" -f $availableModule.ModuleBase)
 }
 
 $environmentModuleRoot = $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT
 if ($environmentModuleRoot) {
     $moduleRootCandidates += $environmentModuleRoot
-    "Environment module root = $environmentModuleRoot" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+    Write-ModuleTrace ("Environment module root = {0}" -f $environmentModuleRoot)
 }
 
-"Initial candidates: $($moduleRootCandidates -join ';')" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+Write-ModuleTrace ("Initial candidates: {0}" -f ($moduleRootCandidates -join ';'))
 
 $resolvedCandidates = @()
 foreach ($candidate in $moduleRootCandidates) {
@@ -98,7 +214,7 @@ foreach ($candidate in $moduleRootCandidates) {
 }
 
 $moduleRootCandidates = $resolvedCandidates
-"Resolved candidates: $($moduleRootCandidates -join ';')" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+Write-ModuleTrace ("Resolved candidates: {0}" -f ($moduleRootCandidates -join ';'))
 
 $cultureFallback = @()
 try {
@@ -382,12 +498,12 @@ function Initialize-ColorScriptsLocalization {
 
     foreach ($candidatePath in $pathsToEvaluate) {
         $searchedPaths += $candidatePath
-        "Evaluating candidate: ${candidatePath}" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+        Write-ModuleTrace ("Evaluating candidate: {0}" -f $candidatePath)
 
         $resolvedLocalization = Resolve-LocalizedMessagesFile -BaseDirectory $candidatePath -CultureFallback $fallbackCultures
 
         if (-not $resolvedLocalization) {
-            "No localized data found under ${candidatePath}" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+            Write-ModuleTrace ("No localized data found under {0}" -f $candidatePath)
             continue
         }
 
@@ -397,7 +513,7 @@ function Initialize-ColorScriptsLocalization {
         }
         catch {
             $importSucceeded = $false
-            "Localization import failed for ${candidatePath}: $($_.Exception.Message)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+            Write-ModuleTrace ("Localization import failed for {0}: {1}" -f $candidatePath, $_.Exception.Message)
         }
 
         if (-not $importSucceeded) {
@@ -412,14 +528,14 @@ function Initialize-ColorScriptsLocalization {
             $logMessage += " (culture: $($resolvedLocalization.CultureName))"
         }
 
-        $logMessage | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
-        "Localization loaded from ${candidatePath} (method: direct-file)" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+        Write-ModuleTrace $logMessage
+        Write-ModuleTrace ("Localization loaded from {0} (method: direct-file)" -f $candidatePath)
         break
     }
 
     if (-not $localizedDataLoaded) {
         $searchedDescription = if ($searchedPaths) { ($searchedPaths -join ', ') } else { '<none>' }
-        "Localization fallback engaged. Searched paths: $searchedDescription" | Out-File -FilePath $moduleRootDebugPath -Encoding utf8 -Append
+        Write-ModuleTrace ("Localization fallback engaged. Searched paths: {0}" -f $searchedDescription)
 
         $fallbackRoot = $searchedPaths | Where-Object { Test-Path -LiteralPath $_ -PathType Container } | Select-Object -First 1
         if (-not $fallbackRoot) {
