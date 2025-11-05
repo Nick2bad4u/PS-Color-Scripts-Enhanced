@@ -26,6 +26,7 @@ Clear-ColorScriptCache [[-Name] <string[]>] [-All] [-WhatIf] [-Confirm] [<Common
 缓存系统存储渲染的 ANSI 输出，以提供近乎即时的显示性能。随着时间的推移，如果源脚本被修改，缓存文件可能会过时，或者您可能出于故障排除目的想要清除缓存。
 
 使用此 cmdlet 的情况：
+
 - 源颜色脚本已被修改
 - 怀疑缓存损坏
 - 您想要确保新鲜执行
@@ -90,15 +91,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: All
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Confirm
@@ -111,20 +112,20 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
 
-指定要从缓存中清除的颜色脚本名称。支持通配符（* 和 ?）进行模式匹配。
+指定要从缓存中清除的颜色脚本名称。支持通配符（\* 和 ?）进行模式匹配。
 
 ```yaml
 Type: System.String[]
@@ -132,15 +133,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: Name
-  Position: 0
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Name
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -153,15 +154,15 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -190,6 +191,7 @@ HelpMessage: ''
 缓存文件存储在模块管理的目录中。使用 `(Get-Module ColorScripts-Enhanced).ModuleBase` 定位模块目录，然后查找缓存子目录。
 
 **何时清除缓存：**
+
 - 修改源颜色脚本文件后
 - 故障排除显示问题时
 - 确保脚本的新鲜执行

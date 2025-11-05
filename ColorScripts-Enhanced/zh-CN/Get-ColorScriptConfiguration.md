@@ -26,6 +26,7 @@ Get-ColorScriptConfiguration [<CommonParameters>]
 配置系统提供持久设置，用于自定义模块的操作。设置存储在用户特定的配置文件中，可以使用 Set-ColorScriptConfiguration 修改。
 
 显示的信息包括：
+
 - 缓存目录位置
 - 性能优化设置
 - 默认显示偏好
@@ -99,6 +100,7 @@ if (Get-ColorScriptConfiguration) {
 **Requires:** PowerShell 5.1 or later
 
 **Configuration Properties:**
+
 - CachePath：存储缓存脚本输出的位置
 - 用于优化的性能设置
 - 默认行为的显示偏好

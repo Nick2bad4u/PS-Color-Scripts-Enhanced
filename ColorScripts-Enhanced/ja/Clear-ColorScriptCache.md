@@ -26,6 +26,7 @@ Clear-ColorScriptCache [[-Name] <string[]>] [-All] [-WhatIf] [-Confirm] [<Common
 キャッシュシステムは、レンダリングされたANSI出力を保存して、ほぼ瞬時の表示パフォーマンスを提供します。時間が経つにつれて、ソーススクリプトが変更された場合、キャッシュファイルが古くなる可能性があります。また、トラブルシューティングのためにキャッシュをクリアしたい場合もあります。
 
 このコマンドレットを使用する状況：
+
 - ソースカラースクリプトが変更された場合
 - キャッシュの破損が疑われる場合
 - 新しい実行を確実にしたい場合
@@ -90,15 +91,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: All
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Confirm
@@ -111,20 +112,20 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
 
-キャッシュからクリアするカラースクリプトの名前を指定します。パターンマッチングのためにワイルドカード（*と?）をサポートします。
+キャッシュからクリアするカラースクリプトの名前を指定します。パターンマッチングのためにワイルドカード（\*と?）をサポートします。
 
 ```yaml
 Type: System.String[]
@@ -132,15 +133,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: Name
-  Position: 0
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Name
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -153,15 +154,15 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -190,6 +191,7 @@ HelpMessage: ''
 キャッシュファイルは、モジュール管理のディレクトリに保存されます。モジュールディレクトリを見つけるには `(Get-Module ColorScripts-Enhanced).ModuleBase` を使用し、cacheサブディレクトリを探してください。
 
 **When to Clear Cache:**
+
 - ソースカラースクリプトファイルを変更した後
 - 表示の問題をトラブルシューティングする場合
 - スクリプトの新しい実行を確実にする場合

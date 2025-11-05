@@ -24,6 +24,7 @@ Set-ColorScriptConfiguration [-CachePath <string>] [-WhatIf] [-Confirm] [<Common
 Atualiza as configurações do ColorScripts-Enhanced com armazenamento persistente. Este cmdlet permite a personalização do comportamento do módulo através de opções configuráveis pelo usuário.
 
 As configurações ajustáveis incluem:
+
 - Localização do diretório de cache
 - Preferências de otimização de desempenho
 - Comportamento de exibição padrão

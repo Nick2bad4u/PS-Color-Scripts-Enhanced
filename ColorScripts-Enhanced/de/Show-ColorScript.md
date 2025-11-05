@@ -127,15 +127,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: All
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Category
@@ -148,15 +148,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -List
@@ -169,20 +169,20 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: List
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: List
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
 
-Der Name des anzuzeigenden Farbskripts (ohne die .ps1-Erweiterung). Unterstützt Platzhaltermuster (* und ?) für flexible Übereinstimmung. Wenn mehrere Skripte einem Platzhaltermuster entsprechen, wird die erste Übereinstimmung in alphabetischer Reihenfolge ausgewählt und angezeigt. Verwenden Sie `-PassThru`, um zu überprüfen, welches Skript bei Verwendung von Platzhaltern ausgewählt wurde.
+Der Name des anzuzeigenden Farbskripts (ohne die .ps1-Erweiterung). Unterstützt Platzhaltermuster (\* und ?) für flexible Übereinstimmung. Wenn mehrere Skripte einem Platzhaltermuster entsprechen, wird die erste Übereinstimmung in alphabetischer Reihenfolge ausgewählt und angezeigt. Verwenden Sie `-PassThru`, um zu überprüfen, welches Skript bei Verwendung von Platzhaltern ausgewählt wurde.
 
 ```yaml
 Type: System.String
@@ -190,15 +190,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: Named
-  Position: 0
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Named
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -NoCache
@@ -211,15 +211,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -PassThru
@@ -232,21 +232,21 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: Random
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
-- Name: Named
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Random
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: Named
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Random
@@ -259,15 +259,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: Random
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Random
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -ReturnText
@@ -279,17 +279,17 @@ Type: System.Management.Automation.SwitchParameter
 DefaultValue: False
 SupportsWildcards: false
 Aliases:
-- AsString
+ - AsString
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -302,15 +302,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WaitForInput
@@ -323,15 +323,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: All
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -371,12 +371,14 @@ Bei Standardbetrieb (ohne `-PassThru` oder `-ReturnText`) wird die Ausgabe direk
 Das intelligente Caching-System bietet 6-19x Leistungsverbesserungen gegenüber direkter Ausführung. Cache-Dateien werden in einem modulverwalteten Verzeichnis gespeichert und werden automatisch ungültig, wenn Quellskripte geändert werden, um Genauigkeit zu gewährleisten.
 
 **Cache Management:**
+
 - Cache-Speicherort: Verwenden Sie `(Get-Module ColorScripts-Enhanced).ModuleBase` und suchen Sie nach dem Cache-Verzeichnis
 - Cache löschen: Verwenden Sie `Clear-ColorScriptCache`, um von Grund auf neu zu erstellen
 - Cache neu erstellen: Verwenden Sie `New-ColorScriptCache`, um den Cache für alle Skripte vorab zu füllen
 - Cache überprüfen: Cache-Dateien sind Klartext und können direkt angezeigt werden
 
 **Tips:**
+
 - Fügen Sie `Show-ColorScript -Random` zu Ihrem PowerShell-Profil hinzu, um bei jedem Sitzungsstart einen farbenfrohen Gruß zu erhalten
 - Verwenden Sie den Modulalias 'scs' für schnellen Zugriff: `scs -Random`
 - Kombinieren Sie Kategorie- und Tag-Filter für präzise Auswahl
@@ -389,14 +391,18 @@ Farbskripte verwenden ANSI-Escape-Sequenzen und werden am besten in Terminals mi
 ## ADVANCED USAGE
 
 #### Building Cache for Specific Categories
+
 Alle Skripte in der Geometric-Kategorie für optimale Leistung cachen:
+
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
 ```
 
 #### Performance Measurement
+
 Messen Sie die Leistungsverbesserung durch Caching:
+
 ```powershell
 # Ungecachte Leistung (Kaltstart)
 Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue
@@ -416,7 +422,9 @@ Write-Host "Speedup: $([math]::Round($uncached.TotalMilliseconds / $cached.Total
 ```
 
 #### Automation: Display Different Script Daily
+
 Richten Sie Ihr Profil ein, um täglich ein anderes Skript anzuzeigen:
+
 ```powershell
 # In Ihrer $PROFILE-Datei:
 $seed = (Get-Date).DayOfYear
@@ -426,7 +434,9 @@ Show-ColorScript
 ```
 
 #### Pipeline Operations with Metadata
+
 Exportieren Sie ColorScript-Metadaten zur Verwendung in anderen Tools:
+
 ```powershell
 # Export nach JSON für Web-Dashboard
 Export-ColorScriptMetadata -Path ./dist/colorscripts.json -IncludeFileInfo
@@ -445,7 +455,9 @@ $scripts |
 ```
 
 #### Cache Management for CI/CD Environments
+
 Konfigurieren und verwalten Sie Cache für automatisierte Bereitstellungen:
+
 ```powershell
 # Temporären Cache-Speicherort für CI/CD festlegen
 Set-ColorScriptConfiguration -CachePath $env:TEMP\colorscripts-cache
@@ -460,7 +472,9 @@ Get-ChildItem $cacheDir -Filter "*.cache" | Measure-Object -Sum Length
 ```
 
 #### Filtering and Display Workflows
+
 Erweiterte Filterung für angepasste Anzeigen:
+
 ```powershell
 # Alle empfohlenen Skripte mit Details anzeigen
 Get-ColorScriptList -Tag Recommended -Detailed
@@ -486,12 +500,14 @@ Export-ColorScriptMetadata -IncludeFileInfo |
 Das intelligente Caching-System bietet 6-19x Leistungsverbesserungen gegenüber direkter Ausführung. Cache-Dateien werden in einem modulverwalteten Verzeichnis gespeichert und werden automatisch ungültig, wenn Quellskripte geändert werden, um Genauigkeit zu gewährleisten.
 
 **Cache Management:**
+
 - Cache-Speicherort: Verwenden Sie `(Get-Module ColorScripts-Enhanced).ModuleBase` und suchen Sie nach dem Cache-Verzeichnis
 - Cache löschen: Verwenden Sie `Clear-ColorScriptCache`, um von Grund auf neu zu erstellen
 - Cache neu erstellen: Verwenden Sie `New-ColorScriptCache`, um den Cache für alle Skripte vorab zu füllen
 - Cache überprüfen: Cache-Dateien sind Klartext und können direkt angezeigt werden
 
 **Advanced Tips:**
+
 - Verwenden Sie `-PassThru`, um Metadaten während der Anzeige für Nachbearbeitung zu erhalten
 - Kombinieren Sie `-ReturnText` mit Pipeline-Befehlen für erweiterte Textmanipulation
 - Verwenden Sie `-NoCache` während der Entwicklung benutzerdefinierter Farbskripte für sofortiges Feedback
@@ -505,32 +521,38 @@ Das intelligente Caching-System bietet 6-19x Leistungsverbesserungen gegenüber 
 
 **Terminal Compatibility Matrix:**
 
-| Terminal | ANSI Support | UTF-8 | Performance | Notes |
-|----------|---------|-------|-----------|-------|
-| Windows Terminal | ✓ Excellent | ✓ Full | Excellent | Recommended |
-| ConEmu | ✓ Good | ✓ Full | Good | Legacy but reliable |
-| VS Code | ✓ Good | ✓ Full | Very Good | Slight rendering delay |
-| PowerShell ISE | ✗ Limited | ✗ Limited | N/A | Not recommended |
-| SSH Terminal | ✓ Varies | ✓ Depends | Varies | Network latency may affect |
-| Windows 10 Console | ✗ No | ✓ Yes | N/A | Not recommended |
+| Terminal           | ANSI Support | UTF-8     | Performance | Notes                      |
+| ------------------ | ------------ | --------- | ----------- | -------------------------- |
+| Windows Terminal   | ✓ Excellent  | ✓ Full    | Excellent   | Recommended                |
+| ConEmu             | ✓ Good       | ✓ Full    | Good        | Legacy but reliable        |
+| VS Code            | ✓ Good       | ✓ Full    | Very Good   | Slight rendering delay     |
+| PowerShell ISE     | ✗ Limited    | ✗ Limited | N/A         | Not recommended            |
+| SSH Terminal       | ✓ Varies     | ✓ Depends | Varies      | Network latency may affect |
+| Windows 10 Console | ✗ No         | ✓ Yes     | N/A         | Not recommended            |
 
 ### TROUBLESHOOTING
 
 #### Scripts not displaying correctly
+
 Stellen Sie sicher, dass Ihr Terminal UTF-8 und ANSI-Escape-Codes unterstützt:
+
 ```powershell
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 ```
 
 #### Cache not working
+
 Cache leeren und neu aufbauen:
+
 ```powershell
 Clear-ColorScriptCache -All
 New-ColorScriptCache
 ```
 
 #### Performance issues
+
 Der erste Lauf jedes Skripts wird langsamer sein, da es den Cache aufbaut. Alle Caches vorab aufbauen:
+
 ```powershell
 New-ColorScriptCache
 ```
@@ -540,10 +562,10 @@ New-ColorScriptCache
 Typische Leistungsverbesserungen mit Caching:
 
 | Script Type | Without Cache | With Cache | Speedup |
-|------------|---------------|------------|---------|
-| Simple | ~50ms | ~8ms | 6x |
-| Medium | ~150ms | ~12ms | 12x |
-| Complex | ~300ms | ~16ms | 19x |
+| ----------- | ------------- | ---------- | ------- |
+| Simple      | ~50ms         | ~8ms       | 6x      |
+| Medium      | ~150ms        | ~12ms      | 12x     |
+| Complex     | ~300ms        | ~16ms      | 19x     |
 
 ### SCRIPT CATEGORIES
 
@@ -566,13 +588,15 @@ Das Modul berücksichtigt die folgenden Umgebungsvariablen:
 ### PERFORMANCE TUNING
 
 #### Typische Leistungsmetriken
-| Skriptkomplexität | Ohne Cache | Mit Cache | Verbesserung |
-|------------------|------------|----------|-------------|
-| Einfach (50-100ms) | ~50ms | ~8ms | 6x schneller |
-| Mittel (100-200ms) | ~150ms | ~12ms | 12x schneller |
-| Komplex (200-300ms) | ~300ms | ~16ms | 19x schneller |
+
+| Skriptkomplexität   | Ohne Cache | Mit Cache | Verbesserung  |
+| ------------------- | ---------- | --------- | ------------- |
+| Einfach (50-100ms)  | ~50ms      | ~8ms      | 6x schneller  |
+| Mittel (100-200ms)  | ~150ms     | ~12ms     | 12x schneller |
+| Komplex (200-300ms) | ~300ms     | ~16ms     | 19x schneller |
 
 #### Cache-Größeninformationen
+
 - Durchschnittliche Cache-Dateigröße: 2-50KB pro Skript
 - Gesamt-Cache-Größe für alle Skripte: ~2-5MB
 - Cache-Speicherort: Verwendet betriebssystemgerechte Pfade für minimalen Fußabdruck
@@ -580,6 +604,7 @@ Das Modul berücksichtigt die folgenden Umgebungsvariablen:
 ### TROUBLESHOOTING ADVANCED ISSUES
 
 #### Modul nicht gefunden Fehler
+
 ```powershell
 # Überprüfen, ob das Modul in PSModulePath ist
 Get-Module ColorScripts-Enhanced -ListAvailable
@@ -592,7 +617,9 @@ Import-Module "C:\Path\To\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
 ```
 
 #### Cache-Korruption
+
 Vollständig löschen und neu aufbauen:
+
 ```powershell
 # Modul aus Sitzung entfernen
 Remove-Module ColorScripts-Enhanced -Force
@@ -606,7 +633,9 @@ New-ColorScriptCache -Force
 ```
 
 #### Leistungsverschlechterung
+
 Wenn die Leistung im Laufe der Zeit schlechter wird:
+
 ```powershell
 # Cache-Verzeichnisgröße überprüfen
 $cacheDir = (Get-ColorScriptConfiguration).Cache.Path
@@ -622,6 +651,7 @@ New-ColorScriptCache
 ### INTEGRATION SCENARIOS
 
 #### Scenario 1: Terminal Welcome Screen
+
 ```powershell
 # Im Profil:
 $hour = (Get-Date).Hour
@@ -635,6 +665,7 @@ if ($hour -ge 6 -and $hour -lt 12) {
 ```
 
 #### Scenario 2: CI/CD Pipeline
+
 ```powershell
 # Build-Phase-Dekoration
 Show-ColorScript -Name "bars" -NoCache  # Schnelle Anzeige ohne Cache
@@ -648,6 +679,7 @@ if ($env:CI) {
 ```
 
 #### Scenario 3: Administrative Dashboards
+
 ```powershell
 # Systemthematische Farbskripte anzeigen
 $os = if ($PSVersionTable.PSVersion.Major -ge 7) { "pwsh" } else { "powershell" }
@@ -659,6 +691,7 @@ Get-ColorScriptList -Tag "system" -AsObject |
 ```
 
 #### Scenario 4: Educational Presentations
+
 ```powershell
 # Interaktive Farbskript-Schau
 Show-ColorScript -All -WaitForInput
@@ -669,6 +702,7 @@ Show-ColorScript -All -Category Abstract -WaitForInput
 ```
 
 #### Scenario 5: Multi-User Environment
+
 ```powershell
 # Pro-Benutzer-Konfiguration
 Set-ColorScriptConfiguration -CachePath "\\shared\cache\$env:USERNAME"
@@ -683,9 +717,11 @@ Get-ColorScriptList -AsObject |
 ### ADVANCED TOPICS
 
 #### Topic 1: Cache Strategy Selection
+
 Verschiedene Caching-Strategien für verschiedene Szenarien:
 
 **Full Cache Strategy** (Optimal for Workstations)
+
 ```powershell
 New-ColorScriptCache              # Cache alle 450++ Skripte
 # Vorteile: Maximale Leistung, sofortige Anzeige
@@ -693,6 +729,7 @@ New-ColorScriptCache              # Cache alle 450++ Skripte
 ```
 
 **Selective Cache Strategy** (Optimal for Portable/CI)
+
 ```powershell
 Get-ColorScriptList -Tag Recommended -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
@@ -701,6 +738,7 @@ Get-ColorScriptList -Tag Recommended -AsObject |
 ```
 
 **No Cache Strategy** (Optimal for Development)
+
 ```powershell
 Show-ColorScript -NoCache
 # Vorteile: Siehe Skriptänderungen sofort
@@ -708,9 +746,11 @@ Show-ColorScript -NoCache
 ```
 
 #### Topic 2: Metadata Organization
+
 Verständnis und Organisation von Farbskripten nach Metadaten:
 
 **Categories** - Breite organisatorische Gruppierungen:
+
 - Geometric: Fraktale, mathematische Muster
 - Nature: Landschaften, organische Themen
 - Artistic: Kreative, abstrakte Designs
@@ -718,6 +758,7 @@ Verständnis und Organisation von Farbskripten nach Metadaten:
 - System: OS/Technologie thematisiert
 
 **Tags** - Spezifische Deskriptoren:
+
 - Recommended: Für allgemeine Verwendung kuratiert
 - Animated: Bewegende/verändernde Muster
 - Colorful: Mehrfarbige Paletten
@@ -725,6 +766,7 @@ Verständnis und Organisation von Farbskripten nach Metadaten:
 - Retro: Klassische 80er/90er Ästhetik
 
 #### Topic 3: Performance Optimization Tips
+
 ```powershell
 # Tipp 1: Häufig verwendete Skripte vorab laden
 New-ColorScriptCache -Name bars,arch,mandelbrot-zoom,aurora-waves
@@ -741,6 +783,7 @@ Show-ColorScript -Name aurora -Verbose
 ```
 
 #### Topic 4: Cross-Platform Considerations
+
 ```powershell
 # Windows Terminal spezifisch
 if ($env:WT_SESSION) {
@@ -764,6 +807,7 @@ if ($PSVersionTable.PSVersion.Major -ge 7) {
 ```
 
 #### Topic 5: Scripting and Automation
+
 ```powershell
 # Erstellen einer wiederverwendbaren Funktion für tägliche Begrüßung
 function Show-DailyColorScript {
@@ -802,8 +846,10 @@ Invoke-ColorScriptSlideshow -Interval 2 -Category Geometric -Count 5
 ### TROUBLESHOOTING GUIDE
 
 #### Issue 1: Scripts Not Displaying Correctly
+
 **Symptome**: Verzerrte Zeichen oder fehlende Farben
 **Lösungen**:
+
 ```powershell
 # UTF-8-Kodierung festlegen
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
@@ -819,8 +865,10 @@ Show-ColorScript -Name yourscript -NoCache
 ```
 
 #### Issue 2: Module Import Failures
+
 **Symptome**: "Modul nicht gefunden" oder Importfehler
 **Lösungen**:
+
 ```powershell
 # Überprüfen, ob Modul existiert
 Get-Module -ListAvailable | Where-Object Name -like "*Color*"
@@ -835,8 +883,10 @@ Install-Module -Name ColorScripts-Enhanced -Force
 ```
 
 #### Issue 3: Cache Not Being Used
+
 **Symptome**: Skripte laufen jedes Mal langsam
 **Lösungen**:
+
 ```powershell
 # Überprüfen, ob Cache existiert
 $cacheDir = (Get-ColorScriptConfiguration).Cache.Path
@@ -851,8 +901,10 @@ Get-ColorScriptConfiguration | Select-Object -ExpandProperty Cache
 ```
 
 #### Issue 4: Profile Not Running
+
 **Symptome**: Farbskript wird beim PowerShell-Start nicht angezeigt
 **Lösungen**:
+
 ```powershell
 # Überprüfen, ob Profil existiert
 Test-Path $PROFILE
@@ -909,6 +961,7 @@ A: Nein, verwenden Sie `-NoCache`, um Caching für Entwicklung/Tests zu deaktivi
 ### VERSION HISTORY
 
 #### Version 2025.10.09
+
 - Verbessertes Caching-System mit OS-weitem Cache
 - 6-19x Leistungsverbesserung
 - Zentralisierter Cache-Speicherort in AppData

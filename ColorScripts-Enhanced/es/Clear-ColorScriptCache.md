@@ -28,7 +28,7 @@ Clear-ColorScriptCache [-Name <String[]>] [-Path <String>] [-DryRun] [-WhatIf] [
  [<CommonParameters>]
 ```
 
-### __AllParameterSets
+### \_\_AllParameterSets
 
 ```
 Clear-ColorScriptCache [[-Name] <string[]>] [[-Path] <string>] [[-Category] <string[]>]
@@ -170,15 +170,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Category
@@ -187,19 +187,19 @@ Filtrar los scripts de destino por categoría antes de evaluar las entradas de c
 
 ```yaml
 Type: System.String[]
-DefaultValue: ''
+DefaultValue: ""
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 2
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 2
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Confirm
@@ -211,17 +211,17 @@ Type: System.Management.Automation.SwitchParameter
 DefaultValue: True
 SupportsWildcards: false
 Aliases:
-- cf
+ - cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -DryRun
@@ -234,15 +234,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
@@ -255,15 +255,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 0
-  IsRequired: false
-  ValueFromPipeline: true
-  ValueFromPipelineByPropertyName: true
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: true
+   ValueFromPipelineByPropertyName: true
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Path
@@ -276,15 +276,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 1
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -293,19 +293,19 @@ Filtrar los scripts de destino por etiqueta de metadatos antes de evaluar las en
 
 ```yaml
 Type: System.String[]
-DefaultValue: ''
+DefaultValue: ""
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 3
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 3
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -317,17 +317,17 @@ Type: System.Management.Automation.SwitchParameter
 DefaultValue: False
 SupportsWildcards: false
 Aliases:
-- wi
+ - wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -367,6 +367,7 @@ Devuelve registros de estado para cada archivo de caché procesado. Cada objeto 
 ### Cache Maintenance Strategies
 
 **Full Cache Rebuild**
+
 ```powershell
 # Refresco completo del caché
 Clear-ColorScriptCache -All -Confirm:$false
@@ -375,6 +376,7 @@ Write-Host "Caché reconstruido exitosamente"
 ```
 
 **Targeted Cache Cleaning**
+
 ```powershell
 # Borrar solo entradas obsoletas
 Clear-ColorScriptCache -Name "deprecated-*", "test-*" -Confirm:$false
@@ -384,6 +386,7 @@ Clear-ColorScriptCache -Name "draft-*" -DryRun
 ```
 
 **Age-Based Cleanup**
+
 ```powershell
 # Borrar archivos de caché de más de 60 días
 $cacheDir = (Get-ColorScriptConfiguration).Cache.Path
@@ -399,6 +402,7 @@ Get-ChildItem $cacheDir -Filter "*.cache" |
 ### Category and Tag Based Cleaning
 
 **Clear by Metadata**
+
 ```powershell
 # Eliminar cachés para categoría experimental
 Clear-ColorScriptCache -Category Experimental -Confirm:$false
@@ -411,6 +415,7 @@ Clear-ColorScriptCache -Category @("Demo", "Test", "Draft") -Confirm:$false
 ```
 
 **Selective Preservation**
+
 ```powershell
 # Mantener solo scripts recomendados, borrar todo lo demás
 $keep = Get-ColorScriptList -Tag Recommended -AsObject | Select-Object -ExpandProperty Name
@@ -423,6 +428,7 @@ $remove | ForEach-Object { Clear-ColorScriptCache -Name $_ -Confirm:$false }
 ### Performance and Reporting
 
 **Cache Usage Analysis**
+
 ```powershell
 # Analizar caché antes de limpieza
 $cacheDir = (Get-ColorScriptConfiguration).Cache.Path
@@ -433,6 +439,7 @@ Write-Host "Tamaño actual del caché: $([math]::Round($before / 1MB, 2)) MB"
 ```
 
 **Cleanup Report**
+
 ```powershell
 # Generar informe de operaciones de limpieza
 $report = Clear-ColorScriptCache -Name "test-*", "debug-*" -Confirm:$false
@@ -442,6 +449,7 @@ $report | Group-Object Status | ForEach-Object {
 ```
 
 **Space Recovery**
+
 ```powershell
 # Calcular espacio en disco liberado
 $before = (Get-ChildItem (Get-ColorScriptConfiguration).Cache.Path -Filter "*.cache" | Measure-Object -Property Length -Sum).Sum
@@ -454,6 +462,7 @@ Write-Host "Liberado: $([math]::Round(($before - $after) / 1MB, 2)) MB"
 ### CI/CD and Deployment
 
 **Pre-Build Cache Cleanup**
+
 ```powershell
 # Construcción limpia: borrar todo el caché antes de reconstruir
 Clear-ColorScriptCache -All -Confirm:$false
@@ -462,6 +471,7 @@ Write-Host "Caché listo para despliegue"
 ```
 
 **Selective Cache Persistence**
+
 ```powershell
 # Mantener scripts de producción, borrar desarrollo
 Clear-ColorScriptCache -Tag "development,experimental" -Confirm:$false
@@ -476,6 +486,7 @@ $toRemove | ForEach-Object { Clear-ColorScriptCache -Name $_ -Confirm:$false }
 ### Troubleshooting
 
 **Verification Workflow**
+
 ```powershell
 # Verificar problemas de caché y corregir
 $problemScripts = Get-ColorScriptList -AsObject |

@@ -25,6 +25,7 @@ Get-ColorScriptList [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>
 Gibt Informationen über verfügbare Farbskripte in der ColorScripts-Enhanced-Sammlung zurück. Standardmäßig wird eine formatierte Tabelle angezeigt, die Skriptnamen, Kategorien und Beschreibungen zeigt. Verwenden Sie `-AsObject`, um strukturierte Objekte für den programmatischen Zugriff zurückzugeben.
 
 Das Cmdlet bietet umfassende Metadaten zu jedem Farbskript, einschließlich:
+
 - Name: Der Skriptbezeichner (ohne .ps1-Erweiterung)
 - Category: Thematische Gruppierung (Nature, Abstract, Geometric, etc.)
 - Tags: Zusätzliche Deskriptoren für Filterung und Entdeckung
@@ -131,15 +132,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Category
@@ -152,20 +153,20 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
 
-Filtert Ergebnisse auf Farbskripte, die einem oder mehreren Namensmustern entsprechen. Unterstützt Platzhalter (* und ?) für flexible Übereinstimmung.
+Filtert Ergebnisse auf Farbskripte, die einem oder mehreren Namensmustern entsprechen. Unterstützt Platzhalter (\* und ?) für flexible Übereinstimmung.
 
 ```yaml
 Type: System.String[]
@@ -173,15 +174,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -194,15 +195,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -235,12 +236,14 @@ Wenn `-AsObject` nicht angegeben ist, wird die Ausgabe direkt an die Konsole ges
 **Requires:** PowerShell 5.1 oder höher
 
 **Metadateneigenschaften:**
+
 - Name: Skriptbezeichner, der von Show-ColorScript verwendet wird
 - Category: Thematische Gruppierung für Organisation
 - Tags: Array von beschreibenden Schlüsselwörtern für Filterung
 - Description: Menschlich lesbare Erklärung des Inhalts
 
 **Verwendungsmuster:**
+
 - Entdeckung: Verfügbare Skripte vor der Auswahl erkunden
 - Filterung: Optionen mithilfe von Kategorien und Tags einschränken
 - Automatisierung: -AsObject für programmatische Skriptauswahl verwenden

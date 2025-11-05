@@ -24,12 +24,14 @@ Add-ColorScriptProfile [[-Scope] <string>] [-WhatIf] [-Confirm] [<CommonParamete
 PowerShell プロファイルに ColorScripts-Enhanced のスタートアップ統合を自動的に追加します。このコマンドレットは、プロファイル ファイルを変更して ColorScripts-Enhanced モジュールをインポートし、オプションでセッション起動時にカラースクリプトを表示します。
 
 このコマンドレットは、すべての標準 PowerShell プロファイル スコープをサポートします：
+
 - CurrentUserCurrentHost: 現在のユーザーと現在のホストのプロファイル
 - CurrentUserAllHosts: すべてのホストで現在のユーザーのプロファイル
 - AllUsersCurrentHost: 現在のホスト上のすべてのユーザーのプロファイル (管理者権限が必要)
 - AllUsersAllHosts: すべてのホストですべてのユーザーのプロファイル (管理者権限が必要)
 
 実行すると、次のスニペットを追加します：
+
 1. ColorScripts-Enhanced モジュールをインポート
 2. オプションで起動時にランダムなカラースクリプトを表示
 3. クイック アクセス用の便利なエイリアスを提供
@@ -90,20 +92,21 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Scope
 
 変更するプロファイル スコープを指定します。有効な値は次のとおりです：
+
 - CurrentUserCurrentHost (デフォルト)
 - CurrentUserAllHosts
 - AllUsersCurrentHost
@@ -115,15 +118,15 @@ DefaultValue: CurrentUserCurrentHost
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -136,15 +139,15 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -173,11 +176,13 @@ HelpMessage: ''
 このコマンドレットは、ColorScripts-Enhanced をインポートし、便利なアクセスを提供するスタートアップ スニペットを追加します。統合は軽量で非破壊的です。
 
 **スコープの考慮事項:**
+
 - CurrentUser スコープは、ユーザー プロファイル ディレクトリのファイルを変更します
 - AllUsers スコープは管理者権限を必要とし、すべてのユーザーに影響します
 - 変更は新しい PowerShell セッションで有効になります
 
 **安全機能:**
+
 - 重複を避けるために既存の統合を確認します
 - 標準の PowerShell プロファイル メカニズムを使用します
 - 安全な操作のための WhatIf および Confirm オプションを提供します

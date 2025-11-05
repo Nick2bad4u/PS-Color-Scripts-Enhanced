@@ -26,6 +26,7 @@ Verwijdert gecachte uitvoerbestanden voor colorscripts om verse uitvoering bij v
 Het cachesysteem slaat gerenderde ANSI-uitvoer op om bijna-instant weergaveprestaties te bieden. Na verloop van tijd kunnen gecachte bestanden verouderd raken als bronscripts worden gewijzigd, of u wilt misschien cache wissen voor probleemoplossing doeleinden.
 
 Gebruik deze cmdlet wanneer:
+
 - Bron colorscripts zijn gewijzigd
 - Cachecorruptie wordt vermoed
 - U wilt verse uitvoering garanderen
@@ -126,7 +127,7 @@ HelpMessage: ''
 
 ### -Name
 
-Specificeert de namen van colorscripts om uit de cache te wissen. Ondersteunt wildcards (* en ?) voor patroonmatching.
+Specificeert de namen van colorscripts om uit de cache te wissen. Ondersteunt wildcards (\* en ?) voor patroonmatching.
 
 ```yaml
 Type: System.String[]
@@ -197,6 +198,7 @@ Deze cmdlet retourneert geen uitvoer naar de pipeline.
 Cachebestanden worden opgeslagen in een module-beheerde directory. Gebruik `(Get-Module ColorScripts-Enhanced).ModuleBase` om de module directory te lokaliseren, zoek dan naar de cache subdirectory.
 
 **Wanneer Cache Wissen:**
+
 - Na het wijzigen van bron colorscript bestanden
 - Bij het oplossen van weergaveproblemen
 - Om verse uitvoering van scripts te garanderen

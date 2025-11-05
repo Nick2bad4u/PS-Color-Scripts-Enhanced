@@ -62,11 +62,11 @@ pwsh -NoProfile -Command "& .\scripts\Test-Coverage.ps1 -CI"
 
 ### Output Files
 
-| File | Format | Purpose |
-|------|--------|---------|
+| File                    | Format    | Purpose                     |
+| ----------------------- | --------- | --------------------------- |
 | `testResults.junit.xml` | NUnit XML | Local testing, Azure DevOps |
-| `testResults.junit.xml` | JUnit XML | **Codecov** (required) |
-| `coverage.xml` | JaCoCo | Code coverage analysis |
+| `testResults.junit.xml` | JUnit XML | **Codecov** (required)      |
+| `coverage.xml`          | JaCoCo    | Code coverage analysis      |
 
 ---
 
@@ -102,9 +102,9 @@ $result | Export-NUnitReport -Path "testResults.junit.xml" -Format NUnit2.5
 - name: Upload to Codecov
   uses: codecov/codecov-action@v3
   with:
-    files: ./coverage.xml
-    test_results_file: ./testResults.junit.xml
-    flags: unittests
+   files: ./coverage.xml
+   test_results_file: ./testResults.junit.xml
+   flags: unittests
 ```
 
 ### Local Testing
@@ -125,6 +125,7 @@ $junit.testsuites
 ### Codecov Not Recognizing Tests
 
 ✅ **Verify file naming** - Must end with `junit.xml`:
+
 ```powershell
 # Correct
 testResults.junit.xml ✓
@@ -135,12 +136,14 @@ test-results.junit.xml ✗
 ```
 
 ✅ **Check XML structure**:
+
 ```powershell
 $xml = [xml](Get-Content testResults.junit.xml)
 $xml.testsuites | Select-Object name, tests, failures, errors, time
 ```
 
 ✅ **Ensure CODECOV_TOKEN is set**:
+
 ```powershell
 $env:CODECOV_TOKEN = "your-token-here"
 ```
@@ -161,6 +164,7 @@ Install-Module -Name Pester -MinimumVersion 5.7.1 -Force
 ### Missing Required Attributes
 
 The conversion automatically adds:
+
 - ✓ `timestamp` - Current date/time
 - ✓ `time` - Test execution duration
 - ✓ `tests` - Total test count
@@ -213,11 +217,13 @@ Write-Host "  Success Rate: $([math]::Round($successRate, 2))%"
 ## Migration from NUnit to JUnit
 
 **Before:**
+
 ```powershell
 $config.TestResult.OutputFormat = 'NUnitXml'
 ```
 
 **After:**
+
 ```powershell
 # Generate both NUnit (for Azure DevOps) and JUnit (for Codecov)
 $result | Export-JUnitReport -Path "testResults.junit.xml"

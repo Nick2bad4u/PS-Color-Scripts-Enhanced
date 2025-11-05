@@ -27,6 +27,7 @@ Vooraf genereert gecachte uitvoer voor colorscripts om optimale prestaties bij e
 Het cachingsysteem biedt 6-19x prestatieverbeteringen. Bij eerste uitvoering draait een colorscript normaal en wordt de uitvoer gecached. Volgende weergaven gebruiken de gecachte uitvoer voor vrijwel directe rendering. De cache wordt automatisch ongeldig gemaakt wanneer bronscripts worden gewijzigd, waardoor uitvoer nauwkeurigheid wordt gegarandeerd.
 
 Gebruik deze cmdlet om:
+
 - Cache voor te bereiden voor veelgebruikte scripts
 - Consistente prestaties over sessies te garanderen
 - Cache voor te verwarmen na module-updates
@@ -125,7 +126,7 @@ HelpMessage: ''
 
 ### -Name
 
-Specificeer colorscript namen om te cachen. Ondersteunt wildcards (* en ?).
+Specificeer colorscript namen om te cachen. Ondersteunt wildcards (\* en ?).
 
 ```yaml
 Type: System.String[]
@@ -221,6 +222,7 @@ Vooraf cachen elimineert uitvoeringstijd bij eerste weergave, waardoor directe v
 Gecachte bestanden worden opgeslagen in module-beheerde directories en automatisch ongeldig gemaakt wanneer bronscripts veranderen. Gebruik Clear-ColorScriptCache om verouderde cache te verwijderen.
 
 **Beste Praktijken:**
+
 - Cache veelgebruikte scripts voor optimale prestaties
 - Gebruik selectieve caching om onnodige verwerking te vermijden
 - Draai na module-updates om cache geldigheid te garanderen

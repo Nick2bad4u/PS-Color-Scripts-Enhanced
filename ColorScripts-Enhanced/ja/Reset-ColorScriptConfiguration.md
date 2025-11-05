@@ -24,12 +24,14 @@ Reset-ColorScriptConfiguration [-WhatIf] [-Confirm] [<CommonParameters>]
 ColorScripts-Enhanced の構成設定をデフォルト値に復元します。このコマンドレットは、すべてのユーザー カスタマイズを削除し、モジュールを元の構成状態に戻します。
 
 リセット操作には以下が含まれます：
+
 - キャッシュ パス設定
 - パフォーマンス設定
 - 表示オプション
 - モジュール動作設定
 
 このコマンドレットは以下の状況で役立ちます：
+
 - 構成が破損した場合
 - デフォルト設定で新しく開始したい場合
 - 構成関連の問題のトラブルシューティング
@@ -85,15 +87,15 @@ DefaultValue: true
 SupportsWildcards: false
 Aliases: cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -106,15 +108,15 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters

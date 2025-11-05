@@ -25,6 +25,7 @@ Export-ColorScriptMetadata [-Path] <string> [[-Format] <string>] [-Category <str
 Exporteert uitgebreide metadata over colorscripts naar externe bestanden voor documentatie, rapportage of integratie met andere tools. Ondersteunt meerdere uitvoerformaten, waaronder JSON, CSV en XML.
 
 De geëxporteerde metadata omvat:
+
 - Scriptnamen en bestandspaden
 - Categorieën en tags
 - Beschrijvingen en metadata
@@ -32,6 +33,7 @@ De geëxporteerde metadata omvat:
 - Cache statusinformatie
 
 Deze cmdlet is nuttig voor:
+
 - Het genereren van documentatie
 - Het maken van inventarissen
 - Integratie met CI/CD systemen
@@ -242,11 +244,13 @@ Deze cmdlet retourneert geen uitvoer naar de pipeline.
 **Vereist:** PowerShell 5.1 of later
 
 **Uitvoerformaten:**
+
 - JSON: Gestructureerde data voor programmatische toegang
 - CSV: Spreadsheet-compatibel formaat
 - XML: Hiërarchische datastructuur
 
 **Gebruikssituaties:**
+
 - Documentatie generatie
 - Inventaris beheer
 - CI/CD integratie

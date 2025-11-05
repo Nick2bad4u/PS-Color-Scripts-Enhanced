@@ -26,6 +26,7 @@ Entfernt zwischengespeicherte Ausgabedateien für ColorScripts, um eine frische 
 Das Cache-System speichert gerenderte ANSI-Ausgaben, um nahezu sofortige Anzeigeleistung zu bieten. Im Laufe der Zeit können zwischengespeicherte Dateien veraltet werden, wenn Quellskripte modifiziert werden, oder Sie möchten den Cache aus Troubleshooting-Gründen löschen.
 
 Verwenden Sie dieses Cmdlet, wenn:
+
 - Quell-ColorScripts modifiziert wurden
 - Cache-Korruption vermutet wird
 - Sie frische Ausführung sicherstellen möchten
@@ -90,15 +91,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: All
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Confirm
@@ -111,20 +112,20 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
 
-Gibt die Namen der ColorScripts an, die aus dem Cache gelöscht werden sollen. Unterstützt Wildcards (* und ?) für Mustervergleich.
+Gibt die Namen der ColorScripts an, die aus dem Cache gelöscht werden sollen. Unterstützt Wildcards (\* und ?) für Mustervergleich.
 
 ```yaml
 Type: System.String[]
@@ -132,15 +133,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: Name
-  Position: 0
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Name
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -153,15 +154,15 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -183,8 +184,6 @@ Dieses Cmdlet akzeptiert keine Eingaben aus der Pipeline.
 
 Dieses Cmdlet gibt keine Ausgaben an die Pipeline zurück.
 
-
-
 ## NOTES
 
 **Author:** Nick
@@ -195,6 +194,7 @@ Dieses Cmdlet gibt keine Ausgaben an die Pipeline zurück.
 Cache-Dateien werden in einem modulverwalteten Verzeichnis gespeichert. Verwenden Sie `(Get-Module ColorScripts-Enhanced).ModuleBase`, um das Modulverzeichnis zu finden, und suchen Sie dann nach dem Cache-Unterverzeichnis.
 
 **Wann Cache löschen:**
+
 - Nach der Modifizierung von Quell-ColorScript-Dateien
 - Bei der Fehlerbehebung von Anzeigeproblemen
 - Um frische Ausführung von Skripten sicherzustellen

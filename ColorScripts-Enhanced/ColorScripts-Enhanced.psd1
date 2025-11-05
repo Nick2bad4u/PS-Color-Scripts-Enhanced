@@ -11,7 +11,7 @@
     RootModule = 'ColorScripts-Enhanced.psm1'
 
     # Version number of this module.
-    ModuleVersion = '2025.11.05.1608'
+    ModuleVersion = '2025.11.05.1634'
 
     # Supported PSEditions
     CompatiblePSEditions = @('Desktop', 'Core')
@@ -211,7 +211,7 @@ PERFECT FOR
 
             # ReleaseNotes of this module
             ReleaseNotes = @'
-Version 2025.11.05.1608:
+Version 2025.11.05.1634:
 - Enhanced caching system with OS-wide cache in AppData
 - 6-19x performance improvement
 - Cache stored in centralized location

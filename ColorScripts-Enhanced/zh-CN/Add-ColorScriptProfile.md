@@ -24,12 +24,14 @@ Add-ColorScriptProfile [[-Scope] <string>] [-WhatIf] [-Confirm] [<CommonParamete
 自动将 ColorScripts-Enhanced 启动集成添加到您的 PowerShell 配置文件中。此 cmdlet 修改您的配置文件以导入 ColorScripts-Enhanced 模块，并在会话启动时可选地显示颜色脚本。
 
 此 cmdlet 支持所有标准 PowerShell 配置文件范围：
+
 - CurrentUserCurrentHost：当前用户和当前主机的配置文件
 - CurrentUserAllHosts：当前用户跨所有主机的配置文件
 - AllUsersCurrentHost：当前主机上所有用户的配置文件（需要管理员权限）
 - AllUsersAllHosts：跨所有主机所有用户的配置文件（需要管理员权限）
 
 执行时，它添加一个代码片段，该片段：
+
 1. 导入 ColorScripts-Enhanced 模块
 2. 可选地在启动时显示随机颜色脚本
 3. 提供便捷的别名以便快速访问
@@ -90,20 +92,21 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Scope
 
 指定要修改的配置文件范围。有效值为：
+
 - CurrentUserCurrentHost（默认）
 - CurrentUserAllHosts
 - AllUsersCurrentHost
@@ -115,15 +118,15 @@ DefaultValue: CurrentUserCurrentHost
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -136,15 +139,15 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -176,11 +179,13 @@ HelpMessage: ''
 此 cmdlet 添加一个启动代码片段，用于导入 ColorScripts-Enhanced 并提供便捷访问。此集成设计为轻量级且非破坏性的。
 
 **范围注意事项：**
+
 - CurrentUser 范围修改您用户配置文件目录中的文件
 - AllUsers 范围需要管理员权限并影响所有用户
 - 更改在新的 PowerShell 会话中生效
 
 **安全功能：**
+
 - 检查现有集成以避免重复
 - 使用标准 PowerShell 配置文件机制
 - 提供 WhatIf 和 Confirm 选项以确保安全操作

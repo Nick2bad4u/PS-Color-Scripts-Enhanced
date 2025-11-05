@@ -52,6 +52,7 @@ If you find documentation gaps add them. If you find out-of-date documentation a
 ### 1. Categorized Report
 
 For each inconsistency provide:
+
 - Relevant file path(s) with concise excerpts.
 - A short description of the issue, including the layer or pattern it affects.
 - A recommended alignment approach grounded in an existing best practice within the repository.
@@ -63,6 +64,7 @@ Rank findings by their risk to stability, potential to introduce bugs, and overa
 ### 3. Improvement Suggestions
 
 Group related findings and outline:
+
 - The preferred approach or exemplar to follow.
 - Ordered steps to realign the affected code.
 - Expected impact across modules, IPC contracts, schemas, or docs.
@@ -70,6 +72,7 @@ Group related findings and outline:
 ### 4. Roadmap
 
 Suggest a staged plan:
+
 - **Quick Wins** – light standardisations with meaningful payoff.
 - **Medium-Term** – coordinated refactors requiring moderate coordination.
 - **Long-Term** – deeper architectural work worth tracking separately.
@@ -85,6 +88,7 @@ Suggest a staged plan:
 ## Fixing Inconsistencies
 
 When addressing identified inconsistencies, follow these steps:
+
 1. **Understand the Context**: Review the relevant code sections to fully grasp the intended functionality and how it fits within the overall architecture.
 2. **Consult Documentation**: Refer to any existing documentation or architectural guidelines to ensure your changes align with established best practices.
 3. **Refactor Thoughtfully**: Make changes that enhance consistency without introducing new issues. Ensure that your refactoring maintains the original functionality.
@@ -96,6 +100,7 @@ When addressing identified inconsistencies, follow these steps:
 ## Examples of Inconsistencies to Look For
 
 Examples of inconsistencies include:
+
 - Different naming conventions for similar functions or variables (e.g., verb-noun patterns, parameter names).
 - Varied approaches to error handling in public cmdlets versus private helpers.
 - Divergent data transformation logic for the same data structure in different functions.

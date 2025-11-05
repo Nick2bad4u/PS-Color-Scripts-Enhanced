@@ -22,7 +22,7 @@ Get-ColorScriptList [-AsObject] [-Detailed] [-Name <String[]>] [-Category <Strin
  [-Tag <String[]>] [<CommonParameters>]
 ```
 
-### __AllParameterSets
+### \_\_AllParameterSets
 
 ```
 Get-ColorScriptList [[-Name] <string[]>] [[-Category] <string[]>] [[-Tag] <string[]>] [-AsObject]
@@ -38,6 +38,7 @@ Par défaut, l'applet de commande affiche un tableau formaté concis montrant le
 Pour les scénarios d'automatisation et programmatiques, le paramètre `-AsObject` retourne les enregistrements de métadonnées brutes en tant qu'objets PowerShell, permettant un traitement supplémentaire via le pipeline. Ces enregistrements incluent des informations complètes telles que le nom, la catégorie, les catégories, les balises, la description et la propriété de métadonnées originale.
 
 Les capacités de filtrage vous permettent de réduire la liste par :
+
 - **Name** : Prend en charge les modèles de caractères génériques (par exemple, `aurora-*`) pour une correspondance flexible
 - **Category** : Filtre par un ou plusieurs noms de catégories (insensible à la casse)
 - **Tag** : Filtre par balises de métadonnées telles que "Recommended" ou "Animated" (insensible à la casse)
@@ -215,15 +216,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Category
@@ -238,15 +239,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 1
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Detailed
@@ -261,15 +262,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
@@ -286,15 +287,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 0
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -309,15 +310,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 2
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 2
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -338,6 +339,7 @@ Cette applet de commande n'accepte pas d'entrée de pipeline.
 ### System.Object
 
 Lorsque `-AsObject` est spécifié, retourne des objets d'enregistrement de métadonnées de scripts de couleurs avec les propriétés suivantes :
+
 - **Name** : L'identifiant du script utilisé avec `Show-ColorScript`
 - **Category** : La catégorie primaire du script
 - **Categories** : Un tableau de toutes les catégories auxquelles le script appartient
@@ -352,6 +354,7 @@ Sans `-AsObject`, l'applet de commande écrit un tableau formaté à l'hôte tou
 ### Dynamic Filtering
 
 **Multi-Criteria Filtering**
+
 ```powershell
 # Find animated scripts that are colorful
 Get-ColorScriptList -AsObject |
@@ -366,6 +369,7 @@ Get-ColorScriptList -Category Nature -AsObject |
 ```
 
 **Fuzzy Matching**
+
 ```powershell
 # Find scripts similar to a name pattern
 $search = "wave"
@@ -377,6 +381,7 @@ Get-ColorScriptList -AsObject |
 ### Data Analysis
 
 **Category Distribution**
+
 ```powershell
 # Analyze how scripts are distributed across categories
 $analysis = Get-ColorScriptList -AsObject |
@@ -387,6 +392,7 @@ $analysis | Sort-Object Count -Descending | Format-Table
 ```
 
 **Tag Frequency Analysis**
+
 ```powershell
 # Determine most common tags
 Get-ColorScriptList -AsObject |
@@ -399,6 +405,7 @@ Get-ColorScriptList -AsObject |
 ### Integration Workflows
 
 **Playlist Creation**
+
 ```powershell
 # Create a "favorite" playlist
 $playlist = Get-ColorScriptList -AsObject |
@@ -414,6 +421,7 @@ $playlist | ForEach-Object {
 ```
 
 **Metadata Export for Web**
+
 ```powershell
 # Export detailed metadata
 $web = Get-ColorScriptList -AsObject |
@@ -424,6 +432,7 @@ $web | Out-File "./scripts.json" -Encoding UTF8
 ```
 
 **Validation and Health Check**
+
 ```powershell
 # Health check on all scripts
 $health = Get-ColorScriptList -AsObject |
@@ -447,6 +456,7 @@ $uncached | Format-Table Name, Category
 ### Query Optimization
 
 **Filter Early**
+
 ```powershell
 # Faster: Filter by category first
 Get-ColorScriptList -Category Geometric -AsObject |
@@ -458,6 +468,7 @@ Get-ColorScriptList -AsObject |
 ```
 
 **Use Appropriate Output Format**
+
 ```powershell
 # For exploration: Detailed display
 Get-ColorScriptList -Detailed

@@ -22,7 +22,7 @@ New-ColorScript [-Name] <String> [-OutputPath <String>] [-Force] [-Category <Str
  [-Tag <String[]>] [-GenerateMetadataSnippet] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-### __AllParameterSets
+### \_\_AllParameterSets
 
 ```
 New-ColorScript [-Name] <string> [[-OutputPath] <string>] [[-Category] <string>] [[-Tag] <string[]>]
@@ -164,15 +164,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 2
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 2
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Confirm
@@ -184,17 +184,17 @@ Type: System.Management.Automation.SwitchParameter
 DefaultValue: False
 SupportsWildcards: false
 Aliases:
-- cf
+ - cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Force
@@ -207,15 +207,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -GenerateMetadataSnippet
@@ -228,15 +228,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
@@ -249,15 +249,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 0
-  IsRequired: true
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 0
+   IsRequired: true
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -OutputPath
@@ -270,15 +270,15 @@ DefaultValue: (module Scripts directory)
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 1
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -291,15 +291,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 3
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 3
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -311,17 +311,17 @@ Type: System.Management.Automation.SwitchParameter
 DefaultValue: False
 SupportsWildcards: false
 Aliases:
-- wi
+ - wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -354,6 +354,7 @@ La cmdlet retourne un objet personnalisé avec les propriétés suivantes :
 **Encodage** : Le squelette est écrit avec un encodage UTF-8 sans marque d'ordre d'octet (BOM), assurant la compatibilité sur différentes plateformes et éditeurs.
 
 **Structure du modèle** : Le modèle généré comprend :
+
 - Un bloc d'aide basé sur des commentaires avec des espaces réservés pour la documentation
 - Un bloc d'exemple d'art ANSI démontrant les séquences de couleurs et le formatage
 - Une structure de script PowerShell appropriée avec des sections claires pour la personnalisation
@@ -361,6 +362,7 @@ La cmdlet retourne un objet personnalisé avec les propriétés suivantes :
 **Intégration des métadonnées** : Bien que la cmdlet puisse générer des conseils de métadonnées, vous devez ajouter manuellement l'extrait à `ScriptMetadata.psd1` pour intégrer pleinement le script dans le système de découverte et de catégorisation du module.
 
 **Flux de travail de développement** :
+
 1. Utilisez `New-ColorScript` pour créer le squelette
 2. Modifiez le fichier .ps1 généré pour ajouter votre art ANSI
 3. Si des conseils de métadonnées ont été générés, copiez-les dans `ScriptMetadata.psd1`
@@ -368,6 +370,7 @@ La cmdlet retourne un objet personnalisé avec les propriétés suivantes :
 5. Testez votre script avec `Show-ColorScript -Name <votre-nom-de-script>`
 
 **Meilleures pratiques** :
+
 - Choisissez des noms descriptifs avec des traits d'union qui indiquent clairement le thème du script
 - Utilisez des valeurs de catégorie cohérentes qui s'alignent avec les scripts existants
 - Appliquez plusieurs balises pour améliorer la découvrabilité

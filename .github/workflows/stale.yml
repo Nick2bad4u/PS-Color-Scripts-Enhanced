@@ -25,32 +25,32 @@
 name: Mark stale issues and pull requests
 
 on:
-  schedule:
-    - cron: "38 7 * * *"
+    schedule:
+        - cron: "38 7 * * *"
 
 permissions:
-  contents: read
+    contents: read
 
 jobs:
-  stale:
-    runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      pull-requests: write
-    concurrency:
-      group: stale-${{ github.ref }}
-      cancel-in-progress: false
+    stale:
+        runs-on: ubuntu-latest
+        permissions:
+            issues: write
+            pull-requests: write
+        concurrency:
+            group: stale-${{ github.ref }}
+            cancel-in-progress: false
 
-    steps:
-      - name: Harden Runner
-        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
-        with:
-          egress-policy: audit
+        steps:
+            - name: Harden Runner
+              uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+              with:
+                  egress-policy: audit
 
-      - uses: actions/stale@5f858e3efba33a5ca4407a664cc011ad407f2008 # v10.1.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          stale-issue-message: "Stale issue"
-          stale-pr-message: "Stale pull request"
-          stale-issue-label: "no-issue-activity"
-          stale-pr-label: "no-pr-activity"
+            - uses: actions/stale@5f858e3efba33a5ca4407a664cc011ad407f2008 # v10.1.0
+              with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: "Stale issue"
+                  stale-pr-message: "Stale pull request"
+                  stale-issue-label: "no-issue-activity"
+                  stale-pr-label: "no-pr-activity"

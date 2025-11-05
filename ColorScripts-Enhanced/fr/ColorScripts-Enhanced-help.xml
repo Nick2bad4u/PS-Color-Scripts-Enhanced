@@ -136,6 +136,7 @@
         </dev:type>
         <maml:description>
           <maml:para>Retourne un objet personnalisé avec les propriétés suivantes :
+
 - **ProfilePath** (string) : Le chemin complet vers le fichier de profil modifié
 - **Changed** (bool) : Si le profil a été réellement modifié
 - **Message** (string) : Un message de statut décrivant le résultat de l'opération</maml:para>
@@ -852,8 +853,10 @@ Clear-ColorScriptCache -Category Geometric,Abstract -DryRun |
     <maml:description>
       <maml:para>La cmdlet `Export-ColorScriptMetadata` compile un inventaire complet de tous les scripts de couleurs dans le catalogue du module et génère un ensemble de données structuré décrivant chaque entrée. Ces métadonnées incluent des informations essentielles telles que les noms des scripts, les catégories, les balises et des enrichissements optionnels.</maml:para>
       <maml:para>Par défaut, la cmdlet retourne des objets PowerShell vers le pipeline. Lorsque le paramètre `-Path` est fourni, elle écrit les métadonnées au format JSON formaté dans le fichier spécifié, créant automatiquement les répertoires parents s'ils n'existent pas.</maml:para>
-      <maml:para>La cmdlet offre deux indicateurs d'enrichissement optionnels : - **IncludeFileInfo** : Ajoute des métadonnées du système de fichiers incluant les chemins complets, les tailles de fichiers (en octets) et les horodatages de dernière modification - **IncludeCacheInfo** : Ajoute des informations liées au cache incluant les chemins des fichiers de cache, le statut d'existence et les horodatages du cache</maml:para>
-      <maml:para>Cette cmdlet est particulièrement utile pour : - Créer de la documentation ou des tableaux de bord montrant tous les scripts de couleurs disponibles - Analyser la couverture du cache et identifier les scripts nécessitant une reconstruction du cache - Alimenter des outils externes ou des pipelines d'automatisation avec des métadonnées - Auditer l'inventaire des scripts de couleurs et le statut du système de fichiers - Générer des rapports sur l'utilisation et l'organisation des scripts de couleurs</maml:para>
+      <maml:para>La cmdlet offre deux indicateurs d'enrichissement optionnels :</maml:para>
+      <maml:para>- **IncludeFileInfo** : Ajoute des métadonnées du système de fichiers incluant les chemins complets, les tailles de fichiers (en octets) et les horodatages de dernière modification - **IncludeCacheInfo** : Ajoute des informations liées au cache incluant les chemins des fichiers de cache, le statut d'existence et les horodatages du cache</maml:para>
+      <maml:para>Cette cmdlet est particulièrement utile pour :</maml:para>
+      <maml:para>- Créer de la documentation ou des tableaux de bord montrant tous les scripts de couleurs disponibles - Analyser la couverture du cache et identifier les scripts nécessitant une reconstruction du cache - Alimenter des outils externes ou des pipelines d'automatisation avec des métadonnées - Auditer l'inventaire des scripts de couleurs et le statut du système de fichiers - Générer des rapports sur l'utilisation et l'organisation des scripts de couleurs</maml:para>
       <maml:para>La sortie est ordonnée de manière cohérente, la rendant adaptée au contrôle de version et aux opérations de diff lors de l'exportation vers JSON.</maml:para>
     </maml:description>
     <command:syntax>
@@ -989,24 +992,29 @@ Lorsque `-IncludeCacheInfo` est spécifié, ces propriétés supplémentaires so
     <maml:alertSet>
       <maml:alert>
         <maml:para>**Considérations de performance :**
+
 - L'ajout de `-IncludeFileInfo` ou `-IncludeCacheInfo` nécessite des opérations d'E/S du système de fichiers et peut impacter les performances lors du traitement de grandes bibliothèques de scripts de couleurs.
 - Pour de grandes exportations, considérez utiliser `-PassThru` avec un filtrage pipeline plutôt que de charger tout en mémoire
 - Les opérations d'exportation évoluent linéairement avec le nombre de scripts
 
 **Gestion du répertoire de cache :**
+
 - La collecte de métadonnées de cache garantit que le répertoire de cache existe avant d'essayer de lire les fichiers de cache.
 - Lorsque les fichiers de cache sont manquants ou indisponibles, la propriété `CacheExists` est définie sur `false` et `CacheLastWriteTime` sur null.
 
 **Gestion d'erreurs :**
+
 - Les erreurs de lecture de métadonnées de fichier sont rapportées via la sortie verbose (`-Verbose`) plutôt que de terminer la cmdlet.
 - Les erreurs de fichiers individuels résultent en des valeurs nulles pour les propriétés affectées tout en permettant à la cmdlet de continuer le traitement des scripts de couleurs restants.
 
 **Format de sortie JSON :**
+
 - Les fichiers JSON sont écrits avec une indentation (profondeur 2) pour la lisibilité humaine.
 - L'encodage de sortie est UTF-8 pour une compatibilité maximale.
 - Les fichiers existants au chemin cible sont écrasés sans invite.
 
 **Meilleures pratiques :**
+
 - Planifier des exportations régulières de métadonnées pour l'audit
 - Versionner vos exportations de métadonnées avec des horodatages
 - Utiliser `-PassThru` pour l'exportation de fichier et le traitement pipeline
@@ -1014,6 +1022,7 @@ Lorsque `-IncludeCacheInfo` est spécifié, ces propriétés supplémentaires so
 - Surveiller la croissance de la taille des fichiers d'exportation au fil du temps
 
 **Cas d'utilisation :**
+
 - Intégration avec des pipelines CI/CD pour la génération de documentation
 - Construction de tableaux de bord web ou de points de terminaison API servant des métadonnées de scripts de couleurs
 - Création de rapports d'inventaire pour de grandes collections de scripts de couleurs
@@ -1267,7 +1276,8 @@ Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
     <maml:description>
       <maml:para>`Get-ColorScriptConfiguration` récupère la configuration effective du module, qui contrôle divers aspects du comportement de ColorScripts-Enhanced. Cela inclut :</maml:para>
       <maml:para>- **Paramètres de cache** : Emplacement où les métadonnées et les index des scripts sont stockés pour l'optimisation des performances - **Comportement de démarrage** : Indicateurs qui contrôlent si les scripts s'exécutent automatiquement au démarrage des sessions PowerShell - **Configuration des chemins** : Répertoires de scripts personnalisés et chemins de recherche - **Préférences d'affichage** : Options de formatage et de sortie par défaut</maml:para>
-      <maml:para>La configuration est assemblée à partir de plusieurs sources par ordre de priorité : 1. Valeurs par défaut intégrées du module (priorité la plus basse) 2. Substitutions utilisateur persistées depuis le fichier de configuration 3. Modifications spécifiques à la session (priorité la plus haute)</maml:para>
+      <maml:para>La configuration est assemblée à partir de plusieurs sources par ordre de priorité :</maml:para>
+      <maml:para>1. Valeurs par défaut intégrées du module (priorité la plus basse) 2. Substitutions utilisateur persistées depuis le fichier de configuration 3. Modifications spécifiques à la session (priorité la plus haute)</maml:para>
       <maml:para>Le fichier de configuration est généralement situé à `%APPDATA%\ColorScripts-Enhanced\config.json` sur Windows ou `~/.config/ColorScripts-Enhanced/config.json` sur les systèmes de type Unix.</maml:para>
       <maml:para>La hashtable retournée est un instantané de l'état actuel de la configuration et peut être inspectée, clonée ou sérialisée en toute sécurité sans affecter la configuration active.</maml:para>
     </maml:description>
@@ -1511,7 +1521,8 @@ Get-ColorScriptConfiguration |
       <maml:para>L'applet de commande `Get-ColorScriptList` récupère et affiche tous les scripts de couleurs inclus dans le module ColorScripts-Enhanced. Elle offre des options de filtrage flexibles et plusieurs formats de sortie pour s'adapter à différents cas d'usage.</maml:para>
       <maml:para>Par défaut, l'applet de commande affiche un tableau formaté concis montrant les noms des scripts et leurs catégories. Le commutateur `-Detailed` étend cette vue pour inclure les balises et les descriptions, fournissant plus de contexte d'un coup d'œil.</maml:para>
       <maml:para>Pour les scénarios d'automatisation et programmatiques, le paramètre `-AsObject` retourne les enregistrements de métadonnées brutes en tant qu'objets PowerShell, permettant un traitement supplémentaire via le pipeline. Ces enregistrements incluent des informations complètes telles que le nom, la catégorie, les catégories, les balises, la description et la propriété de métadonnées originale.</maml:para>
-      <maml:para>Les capacités de filtrage vous permettent de réduire la liste par : - **Name** : Prend en charge les modèles de caractères génériques (par exemple, `aurora-*`) pour une correspondance flexible - **Category** : Filtre par un ou plusieurs noms de catégories (insensible à la casse) - **Tag** : Filtre par balises de métadonnées telles que "Recommended" ou "Animated" (insensible à la casse)</maml:para>
+      <maml:para>Les capacités de filtrage vous permettent de réduire la liste par :</maml:para>
+      <maml:para>- **Name** : Prend en charge les modèles de caractères génériques (par exemple, `aurora-*`) pour une correspondance flexible - **Category** : Filtre par un ou plusieurs noms de catégories (insensible à la casse) - **Tag** : Filtre par balises de métadonnées telles que "Recommended" ou "Animated" (insensible à la casse)</maml:para>
       <maml:para>L'applet de commande valide les modèles de filtre et génère des avertissements pour tout modèle de nom non apparié, vous aidant à identifier les erreurs potentielles ou les scripts manquants.</maml:para>
     </maml:description>
     <command:syntax>
@@ -1664,6 +1675,7 @@ Get-ColorScriptConfiguration |
         </dev:type>
         <maml:description>
           <maml:para>Lorsque `-AsObject` est spécifié, retourne des objets d'enregistrement de métadonnées de scripts de couleurs avec les propriétés suivantes :
+
 - **Name** : L'identifiant du script utilisé avec `Show-ColorScript`
 - **Category** : La catégorie primaire du script
 - **Categories** : Un tableau de toutes les catégories auxquelles le script appartient
@@ -2167,6 +2179,7 @@ if ($missing) {
         <maml:para>**Encodage** : Le squelette est écrit avec un encodage UTF-8 sans marque d'ordre d'octet (BOM), assurant la compatibilité sur différentes plateformes et éditeurs.
 
 **Structure du modèle** : Le modèle généré comprend :
+
 - Un bloc d'aide basé sur des commentaires avec des espaces réservés pour la documentation
 - Un bloc d'exemple d'art ANSI démontrant les séquences de couleurs et le formatage
 - Une structure de script PowerShell appropriée avec des sections claires pour la personnalisation
@@ -2174,6 +2187,7 @@ if ($missing) {
 **Intégration des métadonnées** : Bien que la cmdlet puisse générer des conseils de métadonnées, vous devez ajouter manuellement l'extrait à `ScriptMetadata.psd1` pour intégrer pleinement le script dans le système de découverte et de catégorisation du module.
 
 **Flux de travail de développement** :
+
 1. Utilisez `New-ColorScript` pour créer le squelette
 2. Modifiez le fichier .ps1 généré pour ajouter votre art ANSI
 3. Si des conseils de métadonnées ont été générés, copiez-les dans `ScriptMetadata.psd1`
@@ -2181,6 +2195,7 @@ if ($missing) {
 5. Testez votre script avec `Show-ColorScript -Name &lt;votre-nom-de-script&gt;`
 
 **Meilleures pratiques** :
+
 - Choisissez des noms descriptifs avec des traits d'union qui indiquent clairement le thème du script
 - Utilisez des valeurs de catégorie cohérentes qui s'alignent avec les scripts existants
 - Appliquez plusieurs balises pour améliorer la découvrabilité
@@ -2462,7 +2477,7 @@ The cmdlet intelligently skips scripts whose cache files are already up-to-date 
         <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
           <maml:name>Name</maml:name>
           <maml:description>
-            <maml:para>One or more colorscript names to cache. Supports wildcard patterns (e.g., 'aurora-*', '*-wave'). When this parameter is omitted and no filtering parameters are specified, the cmdlet caches every available script by default.</maml:para>
+            <maml:para>One or more colorscript names to cache. Supports wildcard patterns (e.g., 'aurora-_', '_-wave'). When this parameter is omitted and no filtering parameters are specified, the cmdlet caches every available script by default.</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
         </command:parameter>
@@ -2521,7 +2536,7 @@ The cmdlet intelligently skips scripts whose cache files are already up-to-date 
       <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
         <maml:name>Name</maml:name>
         <maml:description>
-          <maml:para>One or more colorscript names to cache. Supports wildcard patterns (e.g., 'aurora-*', '*-wave'). When this parameter is omitted and no filtering parameters are specified, the cmdlet caches every available script by default.</maml:para>
+          <maml:para>One or more colorscript names to cache. Supports wildcard patterns (e.g., 'aurora-_', '_-wave'). When this parameter is omitted and no filtering parameters are specified, the cmdlet caches every available script by default.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
       </command:parameter>
@@ -2596,6 +2611,7 @@ Cache files are stored in the directory exposed by the module's `CacheDir` varia
 The cmdlet executes each script in an isolated background PowerShell process to capture its output without affecting the current session. This ensures accurate caching of the exact console output that would be displayed when running the script directly.
 
 **Best Practices:**
+
 - Run once after module installation to pre-cache all scripts
 - Use `-Force` only when you need to rebuild all caches
 - Filter by category or tag for faster targeted cache builds
@@ -2607,6 +2623,7 @@ The cmdlet executes each script in an isolated background PowerShell process to 
 **Performance Tip:** Run this cmdlet once after installing or updating the module to pre-cache all scripts for optimal performance.
 
 **Troubleshooting:**
+
 - If cache build fails, check script syntax with `Show-ColorScript -Name scriptname -NoCache`
 - Monitor disk space for cache directory growth
 - Use `-PassThru` to identify which scripts failed building
@@ -3425,7 +3442,7 @@ Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultSc
         <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
           <maml:name>Name</maml:name>
           <maml:description>
-            <maml:para>Le nom du script de couleur à afficher (sans l'extension .ps1). Prend en charge les modèles de caractères génériques (* et ?) pour une correspondance flexible. Lorsque plusieurs scripts correspondent à un modèle de caractères génériques, le premier match dans l'ordre alphabétique est sélectionné et affiché. Utilisez `-PassThru` pour vérifier quel script a été choisi lors de l'utilisation de caractères génériques.</maml:para>
+            <maml:para>Le nom du script de couleur à afficher (sans l'extension .ps1). Prend en charge les modèles de caractères génériques (\* et ?) pour une correspondance flexible. Lorsque plusieurs scripts correspondent à un modèle de caractères génériques, le premier match dans l'ordre alphabétique est sélectionné et affiché. Utilisez `-PassThru` pour vérifier quel script a été choisi lors de l'utilisation de caractères génériques.</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.String</command:parameterValue>
         </command:parameter>
@@ -3567,7 +3584,7 @@ Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultSc
       <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
         <maml:name>Name</maml:name>
         <maml:description>
-          <maml:para>Le nom du script de couleur à afficher (sans l'extension .ps1). Prend en charge les modèles de caractères génériques (* et ?) pour une correspondance flexible. Lorsque plusieurs scripts correspondent à un modèle de caractères génériques, le premier match dans l'ordre alphabétique est sélectionné et affiché. Utilisez `-PassThru` pour vérifier quel script a été choisi lors de l'utilisation de caractères génériques.</maml:para>
+          <maml:para>Le nom du script de couleur à afficher (sans l'extension .ps1). Prend en charge les modèles de caractères génériques (\* et ?) pour une correspondance flexible. Lorsque plusieurs scripts correspondent à un modèle de caractères génériques, le premier match dans l'ordre alphabétique est sélectionné et affiché. Utilisez `-PassThru` pour vérifier quel script a été choisi lors de l'utilisation de caractères génériques.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String</command:parameterValue>
       </command:parameter>
@@ -3660,12 +3677,14 @@ Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultSc
 Le système de mise en cache intelligent fournit des améliorations de performances de 6-19x par rapport à l'exécution directe. Les fichiers de cache sont stockés dans un répertoire géré par le module et sont automatiquement invalidés lorsque les scripts source sont modifiés, assurant l'exactitude.
 
 **Gestion du Cache:**
+
 - Emplacement du cache : Utilisez `(Get-Module ColorScripts-Enhanced).ModuleBase` et cherchez le répertoire de cache
 - Effacer le cache : Utilisez `Clear-ColorScriptCache` pour reconstruire à partir de zéro
 - Reconstruire le cache : Utilisez `New-ColorScriptCache` pour pré-remplir le cache pour tous les scripts
 - Inspecter le cache : Les fichiers de cache sont du texte brut et peuvent être visualisés directement
 
 **Conseils:**
+
 - Ajoutez `Show-ColorScript -Random` à votre profil PowerShell pour un accueil coloré à chaque démarrage de session
 - Utilisez l'alias du module `scs` pour un accès rapide : `scs -Random`
 - Combinez les filtres de catégorie et de balise pour une sélection précise
@@ -3680,6 +3699,7 @@ Les scripts de couleur utilisent des séquences d'échappement ANSI et s'affiche
 ### Filtering Strategies
 
 **Par Combinaison de Catégorie et Balise**
+
 ```powershell
 # Show only geometric colorscripts tagged as minimal
 Show-ColorScript -Category Geometric -Tag minimal -Random
@@ -3692,6 +3712,7 @@ Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
 ```
 
 **Filtrage Dynamique Basé sur l'Heure**
+
 ```powershell
 # Morning: bright colors
 if ((Get-Date).Hour -lt 12) {
@@ -3706,6 +3727,7 @@ else {
 ### Output Capture Patterns
 
 **Sauvegarder pour Visualisation Ultérieure**
+
 ```powershell
 # Save to variable
 $art = Show-ColorScript -Name spectrum -ReturnText
@@ -3716,6 +3738,7 @@ Get-Content "./my-art.ansi" -Raw | Write-Host
 ```
 
 **Créer des Collections Thématiques**
+
 ```powershell
 # Collect all geometric scripts
 $geometric = Get-ColorScriptList -Category Geometric -AsObject
@@ -3730,6 +3753,7 @@ $geometric | ForEach-Object {
 ### Performance Analysis
 
 **Benchmark Complet**
+
 ```powershell
 # Function to benchmark colorscript performance
 function Measure-ColorScriptPerformance {
@@ -3761,6 +3785,7 @@ Get-ColorScriptList -Category Geometric -AsObject |
 ### Terminal Customization
 
 **Terminal-Specific Display**
+
 ```powershell
 # Windows Terminal with ANSI support
 if ($env:WT_SESSION) {
@@ -3786,6 +3811,7 @@ if ($env:ConEmuANSI -eq "ON") {
 ### Automation Integration
 
 **Scheduled Colorscript Rotation**
+
 ```powershell
 # Create scheduled task wrapper
 function Start-ColorScriptSession {
@@ -3808,6 +3834,7 @@ function Start-ColorScriptSession {
 ### Error Handling and Resilience
 
 **Graceful Fallback**
+
 ```powershell
 # Try specific script, fallback to random
 try {
@@ -3819,6 +3846,7 @@ try {
 ```
 
 **Validation Before Display**
+
 ```powershell
 # Verify script exists before displaying
 $scripts = Get-ColorScriptList -AsObject
@@ -3835,6 +3863,7 @@ if ($scriptName -in $scripts.Name) {
 ### Metadata Inspection
 
 **Inspect Before Displaying**
+
 ```powershell
 # Get metadata while displaying
 $metadata = Show-ColorScript -Name aurora-waves -PassThru
@@ -3858,12 +3887,14 @@ if ($metadata.Tags -contains "Animated") {
 Le système de mise en cache intelligent fournit des améliorations de performances de 6-19x par rapport à l'exécution directe. Les fichiers de cache sont stockés dans un répertoire géré par le module et sont automatiquement invalidés lorsque les scripts source sont modifiés, assurant l'exactitude.
 
 **Gestion du Cache :**
+
 - Emplacement du cache : Utilisez `(Get-Module ColorScripts-Enhanced).ModuleBase` et cherchez le répertoire de cache
 - Effacer le cache : Utilisez `Clear-ColorScriptCache` pour reconstruire à partir de zéro
 - Reconstruire le cache : Utilisez `New-ColorScriptCache` pour pré-remplir le cache pour tous les scripts
 - Inspecter le cache : Les fichiers de cache sont du texte brut et peuvent être visualisés directement
 
 **Conseils Avancés :**
+
 - Utilisez `-PassThru` pour obtenir les métadonnées tout en affichant pour le post-traitement
 - Combinez `-ReturnText` avec les commandes de pipeline pour une manipulation avancée du texte
 - Utilisez `-NoCache` pendant le développement de scripts de couleur personnalisés pour un retour immédiat
@@ -3877,14 +3908,14 @@ Le système de mise en cache intelligent fournit des améliorations de performan
 
 **Matrice de Compatibilité Terminal :**
 
-| Terminal | Support ANSI | UTF-8 | Performance | Notes |
-|----------|--------------|-------|-------------|-------|
-| Windows Terminal | ✓ Excellent | ✓ Complet | Excellent | Recommandé |
-| ConEmu | ✓ Bon | ✓ Complet | Bon | Héritage mais fiable |
-| VS Code | ✓ Bon | ✓ Complet | Très Bon | Léger délai de rendu |
-| PowerShell ISE | ✗ Limité | ✗ Limité | N/A | Non recommandé |
-| Terminal SSH | ✓ Varie | ✓ Dépend | Varie | Latence réseau peut affecter |
-| Console Windows 10 | ✗ Aucun | ✓ Oui | N/A | Non recommandé |</maml:para>
+| Terminal           | Support ANSI | UTF-8     | Performance | Notes                        |
+| ------------------ | ------------ | --------- | ----------- | ---------------------------- |
+| Windows Terminal   | ✓ Excellent  | ✓ Complet | Excellent   | Recommandé                   |
+| ConEmu             | ✓ Bon        | ✓ Complet | Bon         | Héritage mais fiable         |
+| VS Code            | ✓ Bon        | ✓ Complet | Très Bon    | Léger délai de rendu         |
+| PowerShell ISE     | ✗ Limité     | ✗ Limité  | N/A         | Non recommandé               |
+| Terminal SSH       | ✓ Varie      | ✓ Dépend  | Varie       | Latence réseau peut affecter |
+| Console Windows 10 | ✗ Aucun      | ✓ Oui     | N/A         | Non recommandé               |</maml:para>
       </maml:alert>
     </maml:alertSet>
     <command:examples>
@@ -3919,7 +3950,7 @@ Show-ColorScript -Name "mandelbrot-zoom"
 Show-ColorScript -Name "aurora-*"
 ```</maml:para>
           <maml:para>&#x80;</maml:para>
-          <maml:para>Affiche le premier script de couleur (alphabétiquement) qui correspond au modèle de caractères génériques "aurora-*". Utile lorsque vous vous souvenez d'une partie du nom d'un script.</maml:para>
+          <maml:para>Affiche le premier script de couleur (alphabétiquement) qui correspond au modèle de caractères génériques "aurora-\*". Utile lorsque vous vous souvenez d'une partie du nom d'un script.</maml:para>
         </maml:introduction>
         <dev:code />
         <dev:remarks />

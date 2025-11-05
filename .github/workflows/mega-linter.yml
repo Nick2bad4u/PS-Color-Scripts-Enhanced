@@ -2,58 +2,58 @@
 name: MegaLinter
 
 on:
-  push:
-  pull_request:
-  workflow_dispatch:
+    push:
+    pull_request:
+    workflow_dispatch:
 
 permissions:
-  contents: read
+    contents: read
 
 concurrency:
-  group: megalinter-${{ github.ref }}
-  cancel-in-progress: false
+    group: megalinter-${{ github.ref }}
+    cancel-in-progress: false
 
 jobs:
-  megalinter:
-    runs-on: ubuntu-latest
+    megalinter:
+        runs-on: ubuntu-latest
 
-    steps:
-      - name: Harden the runner (Audit all outbound calls)
-        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
-        with:
-          egress-policy: audit
+        steps:
+            - name: Harden the runner (Audit all outbound calls)
+              uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+              with:
+                  egress-policy: audit
 
-      - name: Checkout repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+            - name: Checkout repository
+              uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
-      - name: MegaLinter
-        id: megalinter
-        uses: oxsecurity/megalinter@62c799d895af9bcbca5eacfebca29d527f125a57 # v9.1.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DISABLE_LINTERS: SPELL_CSPELL
-          EXCLUDED_DIRECTORIES: libs, tests, screenshots, node_modules, icons
-          SHOW_ELAPSED_TIME: true
-          GITHUB_STATUS_REPORTER: true
-          FILEIO_REPORTER: true
-          GITHUB_COMMENT_REPORTER: true
-          JSON_REPORTER: true
-          JSON_REPORTER_OUTPUT_DETAIL: true
-          MARKDOWN_SUMMARY_REPORTER: true
-          SARIF_REPORTER: true
-          TAP_REPORTER: true
-          TAP_REPORTER_OUTPUT_DETAIL: true
-          DISABLE_ERRORS: true
-          JAVASCRIPT_DEFAULT_STYLE: prettier
-          PRINT_ALL_FILES: true
+            - name: MegaLinter
+              id: megalinter
+              uses: oxsecurity/megalinter@62c799d895af9bcbca5eacfebca29d527f125a57 # v9.1.0
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  DISABLE_LINTERS: SPELL_CSPELL
+                  EXCLUDED_DIRECTORIES: libs, tests, screenshots, node_modules, icons
+                  SHOW_ELAPSED_TIME: true
+                  GITHUB_STATUS_REPORTER: true
+                  FILEIO_REPORTER: true
+                  GITHUB_COMMENT_REPORTER: true
+                  JSON_REPORTER: true
+                  JSON_REPORTER_OUTPUT_DETAIL: true
+                  MARKDOWN_SUMMARY_REPORTER: true
+                  SARIF_REPORTER: true
+                  TAP_REPORTER: true
+                  TAP_REPORTER_OUTPUT_DETAIL: true
+                  DISABLE_ERRORS: true
+                  JAVASCRIPT_DEFAULT_STYLE: prettier
+                  PRINT_ALL_FILES: true
 
-      # Upload MegaLinter artifacts
-      - name: Archive production artifacts
-        if: success() || failure()
-        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
-        with:
-          name: MegaLinter reports
-          path: |
-            megalinter-reports
-            mega-linter.log
-        continue-on-error: true
+            # Upload MegaLinter artifacts
+            - name: Archive production artifacts
+              if: success() || failure()
+              uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+              with:
+                  name: MegaLinter reports
+                  path: |
+                      megalinter-reports
+                      mega-linter.log
+              continue-on-error: true

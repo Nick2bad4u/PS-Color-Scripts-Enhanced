@@ -26,6 +26,7 @@ Remove arquivos de saída em cache para colorscripts para forçar a execução f
 O sistema de cache armazena saída ANSI renderizada para fornecer desempenho de exibição quase instantâneo. Com o tempo, os arquivos em cache podem se tornar desatualizados se os scripts de origem forem modificados, ou você pode querer limpar o cache para fins de solução de problemas.
 
 Use este cmdlet quando:
+
 - Scripts de origem colorscripts foram modificados
 - Corrupção de cache é suspeitada
 - Você deseja garantir execução fresca
@@ -126,7 +127,7 @@ HelpMessage: ''
 
 ### -Name
 
-Especifica os nomes dos colorscripts para limpar do cache. Suporta curingas (* e ?) para correspondência de padrões.
+Especifica os nomes dos colorscripts para limpar do cache. Suporta curingas (\* e ?) para correspondência de padrões.
 
 ```yaml
 Type: System.String[]
@@ -197,6 +198,7 @@ Este cmdlet não retorna saída para o pipeline.
 Os arquivos de cache são armazenados em um diretório gerenciado pelo módulo. Use `(Get-Module ColorScripts-Enhanced).ModuleBase` para localizar o diretório do módulo, então procure o subdiretório de cache.
 
 **Quando Limpar o Cache:**
+
 - Após modificar arquivos de script de origem colorscript
 - Ao solucionar problemas de exibição
 - Para garantir execução fresca dos scripts

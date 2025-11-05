@@ -15,9 +15,7 @@ Recupera as configurações atuais do ColorScripts-Enhanced.
 
 ## SYNTAX
 
-`
-Get-ColorScriptConfiguration [<CommonParameters>]
-`
+`Get-ColorScriptConfiguration [<CommonParameters>]`
 
 ## DESCRIPTION
 
@@ -26,6 +24,7 @@ Exibe as configurações atuais do ColorScripts-Enhanced. Isso inclui caminhos d
 O sistema de configuração fornece configurações persistentes que personalizam a operação do módulo. As configurações são armazenadas em arquivos de configuração específicos do usuário e podem ser modificadas usando Set-ColorScriptConfiguration.
 
 As informações exibidas incluem:
+
 - Localização do diretório de cache
 - Configurações de otimização de desempenho
 - Preferências de exibição padrão
@@ -54,7 +53,9 @@ Exibe a configuração em formato de lista para melhor legibilidade.
 ### EXAMPLE 3
 
 `powershell
+
 # Check cache location
+
 (Get-ColorScriptConfiguration).CachePath
 `
 
@@ -63,9 +64,11 @@ Recupera apenas a configuração do caminho do cache.
 ### EXAMPLE 4
 
 `powershell
+
 # Verify configuration is loaded
+
 if (Get-ColorScriptConfiguration) {
-    Write-Host "Configuration loaded successfully"
+Write-Host "Configuration loaded successfully"
 }
 `
 
@@ -99,6 +102,7 @@ Retorna um objeto personalizado contendo propriedades de configuração.
 **Requires:** PowerShell 5.1 or later
 
 **Propriedades de Configuração:**
+
 - CachePath: Local onde a saída do script em cache é armazenada
 - Configurações de desempenho para otimização
 - Preferências de exibição para comportamento padrão

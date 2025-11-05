@@ -1,44 +1,44 @@
 name: Summarize new issues
 
 on:
-  issues:
-    types: [opened]
+    issues:
+        types: [opened]
 
 permissions:
-  contents: read
+    contents: read
 
 jobs:
-  summary:
-    runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      contents: read
-    concurrency:
-      group: summary-${{ github.ref }}
-      cancel-in-progress: false
+    summary:
+        runs-on: ubuntu-latest
+        permissions:
+            issues: write
+            contents: read
+        concurrency:
+            group: summary-${{ github.ref }}
+            cancel-in-progress: false
 
-    steps:
-      - name: Harden the runner (Audit all outbound calls)
-        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
-        with:
-          egress-policy: audit
+        steps:
+            - name: Harden the runner (Audit all outbound calls)
+              uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+              with:
+                  egress-policy: audit
 
-      - name: Checkout repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+            - name: Checkout repository
+              uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
-      - name: Run AI inference
-        id: inference
-        uses: actions/ai-inference@a1c11829223a786afe3b5663db904a3aa1eac3a2 # v2.0.1
-        with:
-          prompt: |
-            Summarize the following GitHub issue in one paragraph:
-            Title: ${{ github.event.issue.title }}
-            Body: ${{ github.event.issue.body }}
+            - name: Run AI inference
+              id: inference
+              uses: actions/ai-inference@a1c11829223a786afe3b5663db904a3aa1eac3a2 # v2.0.1
+              with:
+                  prompt: |
+                      Summarize the following GitHub issue in one paragraph:
+                      Title: ${{ github.event.issue.title }}
+                      Body: ${{ github.event.issue.body }}
 
-      - name: Comment with AI summary
-        run: |
-          gh issue comment "$ISSUE_NUMBER" --body '${{ steps.inference.outputs.response }}'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
-          RESPONSE: ${{ steps.inference.outputs.response }}
+            - name: Comment with AI summary
+              run: |
+                  gh issue comment "$ISSUE_NUMBER" --body '${{ steps.inference.outputs.response }}'
+              env:
+                  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  ISSUE_NUMBER: ${{ github.event.issue.number }}
+                  RESPONSE: ${{ steps.inference.outputs.response }}

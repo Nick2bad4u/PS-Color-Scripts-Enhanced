@@ -136,6 +136,7 @@ Get-Help Show-ColorScript -Online
 ```
 
 The `-Online` parameter uses an intelligent redirect system that:
+
 - Detects your browser's language settings
 - Automatically displays documentation in your preferred language
 - Falls back to English if your language isn't available
@@ -413,7 +414,7 @@ Show-ColorScript -Name "bars" -NoCache
 | -------------------------------- | ----- | ---------------------------------------------------------------------------------- |
 | `Show-ColorScript`               | `scs` | Display a colorscript                                                              |
 | `Get-ColorScriptList`            | -     | List all available colorscripts                                                    |
-| `New-ColorScriptCache`         | -     | Pre-generate cache files                                                           |
+| `New-ColorScriptCache`           | -     | Pre-generate cache files                                                           |
 | `Clear-ColorScriptCache`         | -     | Remove cache files                                                                 |
 | `Add-ColorScriptProfile`         | -     | Append module startup snippet to your profile                                      |
 | `Get-ColorScriptConfiguration`   | -     | Inspect persisted defaults (cache path, startup behaviour)                         |

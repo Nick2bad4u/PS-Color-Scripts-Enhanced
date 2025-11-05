@@ -88,7 +88,7 @@ Visualizza lo script di colore specificato per nome esatto. L'estensione .ps1 no
 Show-ColorScript -Name "aurora-*"
 ```
 
-Visualizza il primo script di colore (in ordine alfabetico) che corrisponde al pattern con caratteri jolly "aurora-*". Utile quando ricordi parte del nome di uno script.
+Visualizza il primo script di colore (in ordine alfabetico) che corrisponde al pattern con caratteri jolly "aurora-\*". Utile quando ricordi parte del nome di uno script.
 
 ### EXAMPLE 4
 
@@ -271,15 +271,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: All
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Category
@@ -292,15 +292,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -List
@@ -313,20 +313,20 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: List
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: List
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
 
-Il nome dello script di colore da visualizzare (senza l'estensione .ps1). Supporta pattern con caratteri jolly (* e ?) per una corrispondenza flessibile. Quando più script corrispondono a un pattern con caratteri jolly, viene selezionato e visualizzato il primo match in ordine alfabetico. Usa `-PassThru` per verificare quale script è stato scelto quando si utilizzano caratteri jolly.
+Il nome dello script di colore da visualizzare (senza l'estensione .ps1). Supporta pattern con caratteri jolly (\* e ?) per una corrispondenza flessibile. Quando più script corrispondono a un pattern con caratteri jolly, viene selezionato e visualizzato il primo match in ordine alfabetico. Usa `-PassThru` per verificare quale script è stato scelto quando si utilizzano caratteri jolly.
 
 ```yaml
 Type: System.String
@@ -334,15 +334,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: Named
-  Position: 0
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Named
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -NoCache
@@ -355,15 +355,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -PassThru
@@ -376,21 +376,21 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: Random
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
-- Name: Named
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Random
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: Named
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Random
@@ -403,15 +403,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: Random
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Random
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -ReturnText
@@ -423,17 +423,17 @@ Type: System.Management.Automation.SwitchParameter
 DefaultValue: False
 SupportsWildcards: false
 Aliases:
-- AsString
+ - AsString
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -446,15 +446,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WaitForInput
@@ -467,15 +467,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: All
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -515,12 +515,14 @@ Nell'operazione predefinita (senza `-PassThru` o `-ReturnText`), l'output viene 
 Il sistema di caching intelligente fornisce miglioramenti delle prestazioni di 6-19x rispetto all'esecuzione diretta. I file di cache sono memorizzati in una directory gestita dal modulo e vengono invalidati automaticamente quando gli script sorgente vengono modificati, garantendo l'accuratezza.
 
 **Cache Management:**
+
 - Posizione cache: Usa `(Get-Module ColorScripts-Enhanced).ModuleBase` e cerca la directory cache
 - Cancella cache: Usa `Clear-ColorScriptCache` per ricostruire da zero
 - Ricostruisci cache: Usa `New-ColorScriptCache` per pre-popolare la cache per tutti gli script
 - Ispeziona cache: I file di cache sono testo semplice e possono essere visualizzati direttamente
 
 **Tips:**
+
 - Aggiungi `Show-ColorScript -Random` al tuo profilo PowerShell per un saluto colorato ad ogni avvio di sessione
 - Usa l'alias del modulo `scs` per un accesso rapido: `scs -Random`
 - Combina filtri di categoria e tag per una selezione precisa
@@ -535,6 +537,7 @@ Colorscripts use ANSI escape sequences and display best in terminals with full c
 ### Filtering Strategies
 
 **By Category and Tag Combination**
+
 ```powershell
 # Mostra solo gli script di colore geometrici taggati come minimal
 Show-ColorScript -Category Geometric -Tag minimal -Random
@@ -547,6 +550,7 @@ Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
 ```
 
 **Dynamic Filtering Based on Time**
+
 ```powershell
 # Mattina: colori brillanti
 if ((Get-Date).Hour -lt 12) {
@@ -561,6 +565,7 @@ else {
 ### Output Capture Patterns
 
 **Save for Later Viewing**
+
 ```powershell
 # Salva in variabile
 $art = Show-ColorScript -Name spectrum -ReturnText
@@ -571,6 +576,7 @@ Get-Content "./my-art.ansi" -Raw | Write-Host
 ```
 
 **Create Themed Collections**
+
 ```powershell
 # Raccogli tutti gli script geometrici
 $geometric = Get-ColorScriptList -Category Geometric -AsObject
@@ -585,6 +591,7 @@ $geometric | ForEach-Object {
 ### Performance Analysis
 
 **Comprehensive Benchmark**
+
 ```powershell
 # Funzione per misurare le prestazioni degli script di colore
 function Measure-ColorScriptPerformance {
@@ -616,6 +623,7 @@ Get-ColorScriptList -Category Geometric -AsObject |
 ### Terminal Customization
 
 **Terminal-Specific Display**
+
 ```powershell
 # Windows Terminal con supporto ANSI
 if ($env:WT_SESSION) {
@@ -641,6 +649,7 @@ if ($env:ConEmuANSI -eq "ON") {
 ### Automation Integration
 
 **Scheduled Colorscript Rotation**
+
 ```powershell
 # Crea wrapper per task programmato
 function Start-ColorScriptSession {
@@ -663,6 +672,7 @@ function Start-ColorScriptSession {
 ### Error Handling and Resilience
 
 **Graceful Fallback**
+
 ```powershell
 # Prova script specifico, fallback a casuale
 try {
@@ -674,6 +684,7 @@ try {
 ```
 
 **Validation Before Display**
+
 ```powershell
 # Verifica che lo script esista prima di visualizzarlo
 $scripts = Get-ColorScriptList -AsObject
@@ -690,6 +701,7 @@ if ($scriptName -in $scripts.Name) {
 ### Metadata Inspection
 
 **Inspect Before Displaying**
+
 ```powershell
 # Ottieni metadati durante la visualizzazione
 $metadata = Show-ColorScript -Name aurora-waves -PassThru
@@ -713,12 +725,14 @@ if ($metadata.Tags -contains "Animated") {
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
 **Cache Management:**
+
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 **Advanced Tips:**
+
 - Use `-PassThru` to get metadata while displaying for post-processing
 - Combine `-ReturnText` with pipeline commands for advanced text manipulation
 - Use `-NoCache` during development of custom colorscripts for immediate feedback
@@ -732,14 +746,14 @@ The intelligent caching system provides 6-19x performance improvements over dire
 
 **Terminal Compatibility Matrix:**
 
-| Terminal | ANSI Support | UTF-8 | Performance | Notes |
-|----------|---------|-------|-----------|-------|
-| Windows Terminal | ✓ Excellent | ✓ Full | Excellent | Recommended |
-| ConEmu | ✓ Good | ✓ Full | Good | Legacy but reliable |
-| VS Code | ✓ Good | ✓ Full | Very Good | Slight rendering delay |
-| PowerShell ISE | ✗ Limited | ✗ Limited | N/A | Not recommended |
-| SSH Terminal | ✓ Varies | ✓ Depends | Varies | Network latency may affect |
-| Windows 10 Console | ✗ No | ✓ Yes | N/A | Not recommended |
+| Terminal           | ANSI Support | UTF-8     | Performance | Notes                      |
+| ------------------ | ------------ | --------- | ----------- | -------------------------- |
+| Windows Terminal   | ✓ Excellent  | ✓ Full    | Excellent   | Recommended                |
+| ConEmu             | ✓ Good       | ✓ Full    | Good        | Legacy but reliable        |
+| VS Code            | ✓ Good       | ✓ Full    | Very Good   | Slight rendering delay     |
+| PowerShell ISE     | ✗ Limited    | ✗ Limited | N/A         | Not recommended            |
+| SSH Terminal       | ✓ Varies     | ✓ Depends | Varies      | Network latency may affect |
+| Windows 10 Console | ✗ No         | ✓ Yes     | N/A         | Not recommended            |
 
 ## RELATED LINKS
 

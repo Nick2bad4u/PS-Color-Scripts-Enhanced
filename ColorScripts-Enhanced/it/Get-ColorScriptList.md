@@ -25,6 +25,7 @@ Get-ColorScriptList [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>
 Restituisce informazioni sui colorscript disponibili nella raccolta ColorScripts-Enhanced. Per impostazione predefinita, visualizza una tabella formattata che mostra i nomi degli script, le categorie e le descrizioni. Utilizza `-AsObject` per restituire oggetti strutturati per l'accesso programmatico.
 
 Il cmdlet fornisce metadati completi su ciascun colorscript, inclusi:
+
 - Name: L'identificatore dello script (senza estensione .ps1)
 - Category: Raggruppamento tematico (Nature, Abstract, Geometric, ecc.)
 - Tags: Descrittori aggiuntivi per il filtraggio e la scoperta
@@ -131,15 +132,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Category
@@ -152,20 +153,20 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
 
-Filtra i risultati per i colorscript che corrispondono a uno o più pattern di nome. Supporta i caratteri jolly (* e ?) per una corrispondenza flessibile.
+Filtra i risultati per i colorscript che corrispondono a uno o più pattern di nome. Supporta i caratteri jolly (\* e ?) per una corrispondenza flessibile.
 
 ```yaml
 Type: System.String[]
@@ -173,15 +174,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -194,15 +195,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -235,12 +236,14 @@ Quando `-AsObject` non è specificato, l'output viene scritto direttamente nell'
 **Requires:** PowerShell 5.1 or later
 
 **Metadata Properties:**
+
 - Name: Identificatore dello script utilizzato da Show-ColorScript
 - Category: Raggruppamento tematico per l'organizzazione
 - Tags: Array di parole chiave descrittive per il filtraggio
 - Description: Spiegazione leggibile dall'uomo del contenuto
 
 **Usage Patterns:**
+
 - Discovery: Esplora gli script disponibili prima della selezione
 - Filtering: Riduci le opzioni utilizzando categorie e tag
 - Automation: Utilizza -AsObject per la selezione programmatica degli script
@@ -271,6 +274,7 @@ Il modulo include script in varie categorie:
 - PowerShell Documentation: https://docs.microsoft.com/powershell/
 
 ### KEYWORDS
+
 - ANSI
 - Terminal
 - Art
@@ -283,14 +287,18 @@ Il modulo include script in varie categorie:
 ### ADVANCED USAGE
 
 #### Building Cache for Specific Categories
+
 Memorizza nella cache tutti gli script nella categoria Geometric per prestazioni ottimali:
+
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
 ```
 
 #### Performance Measurement
+
 Misura il miglioramento delle prestazioni dalla memorizzazione nella cache:
+
 ```powershell
 # Prestazioni senza cache (avvio a freddo)
 Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue
@@ -310,7 +318,9 @@ Write-Host "Miglioramento: $([math]::Round($uncached.TotalMilliseconds / $cached
 ```
 
 #### Automation: Display Different Script Daily
+
 Configura il tuo profilo per mostrare uno script diverso ogni giorno:
+
 ```powershell
 # Nel tuo file $PROFILE:
 $seed = (Get-Date).DayOfYear
@@ -319,7 +329,9 @@ Show-ColorScript -Random
 ```
 
 #### Pipeline Operations with Metadata
+
 Esporta i metadati dei colorscript per l'uso in altri strumenti:
+
 ```powershell
 # Esporta in JSON per dashboard web
 Export-ColorScriptMetadata -Path ./dist/colorscripts.json -IncludeFileInfo
@@ -330,7 +342,9 @@ $scripts | ForEach-Object { Show-ColorScript -Name $_.Name; Start-Sleep -Seconds
 ```
 
 #### Cache Management for CI/CD Environments
+
 Configura e gestisci la cache per distribuzioni automatizzate:
+
 ```powershell
 # Imposta posizione cache temporanea per CI/CD
 Set-ColorScriptConfiguration -CachePath $env:TEMP\colorscripts-cache
@@ -345,7 +359,9 @@ Get-ChildItem $cacheDir -Filter "*.cache" | Measure-Object -Sum Length
 ```
 
 #### Filtering and Display Workflows
+
 Filtraggio avanzato per display personalizzati:
+
 ```powershell
 # Mostra tutti gli script raccomandati con dettagli
 Get-ColorScriptList -Tag Recommended -Detailed
@@ -364,6 +380,7 @@ Export-ColorScriptMetadata -IncludeFileInfo |
 ### INTEGRATION SCENARIOS
 
 #### Scenario 1: Terminal Welcome Screen
+
 ```powershell
 # Nel profilo:
 $hour = (Get-Date).Hour
@@ -377,6 +394,7 @@ if ($hour -ge 6 -and $hour -lt 12) {
 ```
 
 #### Scenario 2: CI/CD Pipeline
+
 ```powershell
 # Decorazione fase di build
 Show-ColorScript -Name "bars" -NoCache  # Display veloce senza cache
@@ -390,6 +408,7 @@ if ($env:CI) {
 ```
 
 #### Scenario 3: Administrative Dashboards
+
 ```powershell
 # Mostra colorscript a tema sistema
 $os = if ($PSVersionTable.PSVersion.Major -ge 7) { "pwsh" } else { "powershell" }
@@ -401,6 +420,7 @@ Get-ColorScriptList -Tag "system" -AsObject |
 ```
 
 #### Scenario 4: Educational Presentations
+
 ```powershell
 # Mostra colorscript interattiva
 Show-ColorScript -All -WaitForInput
@@ -411,6 +431,7 @@ Show-ColorScript -All -Category Abstract -WaitForInput
 ```
 
 #### Scenario 5: Multi-User Environment
+
 ```powershell
 # Configurazione per utente
 Set-ColorScriptConfiguration -CachePath "\\shared\cache\$env:USERNAME"
@@ -425,9 +446,11 @@ Get-ColorScriptList -AsObject |
 ### ADVANCED TOPICS
 
 #### Topic 1: Cache Strategy Selection
+
 Strategie di caching diverse per scenari diversi:
 
 **Full Cache Strategy** (Ottimale per Workstation)
+
 ```powershell
 New-ColorScriptCache              # Memorizza nella cache tutti i 450++ script
 # Pro: Prestazioni massime, display istantaneo
@@ -435,6 +458,7 @@ New-ColorScriptCache              # Memorizza nella cache tutti i 450++ script
 ```
 
 **Selective Cache Strategy** (Ottimale per Portatile/CI)
+
 ```powershell
 Get-ColorScriptList -Tag Recommended -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
@@ -443,6 +467,7 @@ Get-ColorScriptList -Tag Recommended -AsObject |
 ```
 
 **No Cache Strategy** (Ottimale per Sviluppo)
+
 ```powershell
 Show-ColorScript -NoCache
 # Pro: Vedi le modifiche agli script immediatamente
@@ -450,9 +475,11 @@ Show-ColorScript -NoCache
 ```
 
 #### Topic 2: Metadata Organization
+
 Comprensione e organizzazione dei colorscript per metadati:
 
 **Categories** - Raggruppamenti organizzativi ampi:
+
 - Geometric: Frattali, pattern matematici
 - Nature: Paesaggi, temi organici
 - Artistic: Disegni creativi, astratti
@@ -460,6 +487,7 @@ Comprensione e organizzazione dei colorscript per metadati:
 - System: Temi OS/tecnologia
 
 **Tags** - Descrittori specifici:
+
 - Recommended: Curati per uso generale
 - Animated: Pattern in movimento/cambio
 - Colorful: Palette multicolori
@@ -467,6 +495,7 @@ Comprensione e organizzazione dei colorscript per metadati:
 - Retro: Estetica classica anni 80/90
 
 #### Topic 3: Performance Optimization Tips
+
 ```powershell
 # Suggerimento 1: Pre-carica script frequentemente utilizzati
 New-ColorScriptCache -Name bars,arch,mandelbrot-zoom,aurora-waves
@@ -483,6 +512,7 @@ Show-ColorScript -Name aurora -Verbose
 ```
 
 #### Topic 4: Cross-Platform Considerations
+
 ```powershell
 # Specifico per Windows Terminal
 if ($env:WT_SESSION) {
@@ -506,6 +536,7 @@ if ($PSVersionTable.PSVersion.Major -ge 7) {
 ```
 
 #### Topic 5: Scripting and Automation
+
 ```powershell
 # Crea funzione riutilizzabile per saluto giornaliero
 function Show-DailyColorScript {
@@ -544,8 +575,10 @@ Invoke-ColorScriptSlideshow -Interval 2 -Category Geometric -Count 5
 ### TROUBLESHOOTING GUIDE
 
 #### Issue 1: Scripts Not Displaying Correctly
+
 **Sintomi**: Caratteri confusi o colori mancanti
 **Soluzioni**:
+
 ```powershell
 # Imposta codifica UTF-8
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
@@ -561,8 +594,10 @@ Show-ColorScript -Name yourscript -NoCache
 ```
 
 #### Issue 2: Module Import Failures
+
 **Sintomi**: "Modulo non trovato" o errori di importazione
 **Soluzioni**:
+
 ```powershell
 # Verifica se il modulo esiste
 Get-Module -ListAvailable | Where-Object Name -like "*Color*"
@@ -577,8 +612,10 @@ Install-Module -Name ColorScripts-Enhanced -Force
 ```
 
 #### Issue 3: Cache Not Being Used
+
 **Sintomi**: Gli script vengono eseguiti lentamente ogni volta
 **Soluzioni**:
+
 ```powershell
 # Verifica che la cache esista
 $cacheDir = (Get-ColorScriptConfiguration).Cache.Path
@@ -593,8 +630,10 @@ Get-ColorScriptConfiguration | Select-Object -ExpandProperty Cache
 ```
 
 #### Issue 4: Profile Not Running
+
 **Sintomi**: Colorscript non si mostra all'avvio di PowerShell
 **Soluzioni**:
+
 ```powershell
 # Verifica che il profilo esista
 Test-Path $PROFILE
@@ -658,13 +697,15 @@ Il modulo rispetta le seguenti variabili d'ambiente:
 ### PERFORMANCE TUNING
 
 #### Metriche Prestazionali Tipiche
-| Complessità Script | Senza Cache | Con Cache | Miglioramento |
-|-------------------|-------------|-----------|--------------|
-| Semplice (50-100ms) | ~50ms | ~8ms | 6x più veloce |
-| Medio (100-200ms) | ~150ms | ~12ms | 12x più veloce |
-| Complesso (200-300ms) | ~300ms | ~16ms | 19x più veloce |
+
+| Complessità Script    | Senza Cache | Con Cache | Miglioramento  |
+| --------------------- | ----------- | --------- | -------------- |
+| Semplice (50-100ms)   | ~50ms       | ~8ms      | 6x più veloce  |
+| Medio (100-200ms)     | ~150ms      | ~12ms     | 12x più veloce |
+| Complesso (200-300ms) | ~300ms      | ~16ms     | 19x più veloce |
 
 #### Informazioni sulla Dimensione della Cache
+
 - Dimensione media del file di cache: 2-50KB per script
 - Dimensione totale della cache per tutti gli script: ~2-5MB
 - Posizione della cache: Utilizza percorsi appropriati al sistema operativo per un impatto minimo
@@ -672,6 +713,7 @@ Il modulo rispetta le seguenti variabili d'ambiente:
 ### TROUBLESHOOTING ADVANCED ISSUES
 
 #### Errore Modulo Non Trovato
+
 ```powershell
 # Verifica se il modulo è in PSModulePath
 Get-Module ColorScripts-Enhanced -ListAvailable
@@ -684,7 +726,9 @@ Import-Module "C:\Path\To\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
 ```
 
 #### Corruzione della Cache
+
 Cancella e ricostruisci completamente:
+
 ```powershell
 # Rimuovi il modulo dalla sessione
 Remove-Module ColorScripts-Enhanced -Force
@@ -698,7 +742,9 @@ New-ColorScriptCache -Force
 ```
 
 #### Degradazione delle Prestazioni
+
 Se le prestazioni peggiorano nel tempo:
+
 ```powershell
 # Verifica la dimensione della directory della cache
 $cacheDir = (Get-ColorScriptConfiguration).Cache.Path
@@ -714,12 +760,14 @@ New-ColorScriptCache
 ### PLATFORM-SPECIFIC NOTES
 
 #### Windows PowerShell 5.1
+
 - Limitato solo a Windows
 - Usa `powershell.exe` per eseguire gli script
 - Alcune funzionalità avanzate potrebbero non essere disponibili
 - Si consiglia di aggiornare a PowerShell 7+
 
 #### PowerShell 7+ (Cross-Platform)
+
 - Supporto completo su Windows, macOS e Linux
 - Usa il comando `pwsh`
 - Tutte le funzionalità completamente operative
@@ -728,32 +776,39 @@ New-ColorScriptCache
 ### DETAILED COMMAND REFERENCE
 
 #### Panoramica dei Comandi Principali
+
 Il modulo fornisce 10 comandi principali per gestire e visualizzare i colorscript:
 
 **Comandi di Visualizzazione:**
+
 - `Show-ColorScript` - Visualizza colorscript con molteplici modalità (casuale, denominato, elenco, tutti)
 - `Get-ColorScriptList` - Elenca i colorscript disponibili con metadati dettagliati
 
 **Gestione della Cache:**
+
 - `New-ColorScriptCache` - Costruisce file di cache per le prestazioni
 - `Clear-ColorScriptCache` - Rimuove file di cache con opzioni di filtraggio
 - `Build-ColorScriptCache` - Alias per New-ColorScriptCache
 
 **Configurazione:**
+
 - `Get-ColorScriptConfiguration` - Recupera le impostazioni di configurazione attuali
 - `Set-ColorScriptConfiguration` - Rende persistenti le modifiche alla configurazione
 - `Reset-ColorScriptConfiguration` - Ripristina le impostazioni di fabbrica
 
 **Integrazione del Profilo:**
+
 - `Add-ColorScriptProfile` - Integra il modulo nel profilo PowerShell
 
 **Sviluppo:**
+
 - `New-ColorScript` - Scaffold un nuovo template di colorscript
 - `Export-ColorScriptMetadata` - Esporta metadati per l'automazione
 
 #### Pattern di Utilizzo dei Comandi
 
 **Pattern 1: Visualizzazione Rapida**
+
 ```powershell
 Show-ColorScript                    # Colorscript casuale
 scs                                 # Utilizzo alias del modulo
@@ -761,6 +816,7 @@ Show-ColorScript -Name aurora       # Script specifico
 ```
 
 **Pattern 2: Scoperta e Elenco**
+
 ```powershell
 Get-ColorScriptList                 # Tutti gli script
 Get-ColorScriptList -Detailed       # Con tag e descrizioni
@@ -769,6 +825,7 @@ Get-ColorScriptList -Tag Animated   # Filtra per tag
 ```
 
 **Pattern 3: Ottimizzazione delle Prestazioni**
+
 ```powershell
 New-ColorScriptCache                # Costruisce tutte le cache
 New-ColorScriptCache -Name bars     # Costruisce cache specifica
@@ -776,6 +833,7 @@ New-ColorScriptCache -Category Geometric  # Costruisce categoria
 ```
 
 **Pattern 4: Manutenzione della Cache**
+
 ```powershell
 Clear-ColorScriptCache -All         # Rimuove tutte le cache
 Clear-ColorScriptCache -Name "test-*"  # Cancella pattern
@@ -785,6 +843,7 @@ Clear-ColorScriptCache -Category Demo   # Cancella per categoria
 ### DETAILED WORKFLOW EXAMPLES
 
 #### Workflow 1: Configurazione e Setup Iniziale
+
 ```powershell
 # Passo 1: Installa il modulo
 Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
@@ -800,6 +859,7 @@ Get-ColorScriptConfiguration
 ```
 
 #### Workflow 2: Uso Giornaliero con Rotazione
+
 ```powershell
 # Nel file $PROFILE, aggiungi:
 Import-Module ColorScripts-Enhanced
@@ -814,6 +874,7 @@ Show-ColorScript -Category Geometric -Random
 ```
 
 #### Workflow 3: Integrazione Automazione
+
 ```powershell
 # Esporta metadati per strumenti esterni
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
@@ -825,6 +886,7 @@ $scripts | ForEach-Object { Show-ColorScript -Name $_.Name; Start-Sleep -Seconds
 ```
 
 #### Workflow 4: Monitoraggio delle Prestazioni
+
 ```powershell
 # Misura l'efficacia della cache
 $uncached = Measure-Command { Show-ColorScript -Name mandelbrot-zoom -NoCache }
@@ -836,6 +898,7 @@ Write-Host "Miglioramento: $([math]::Round($uncached.TotalMilliseconds / $cached
 ```
 
 #### Workflow 5: Personalizzazione e Sviluppo
+
 ```powershell
 # Crea colorscript personalizzato
 New-ColorScript -Name "my-custom-art" -Category "Custom" -Tag "MyTag" -GenerateMetadataSnippet

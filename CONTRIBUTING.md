@@ -323,6 +323,7 @@ were updated in certain scenarios.
 **Difficulty**: Easy 🟢
 
 Steps:
+
 1. Create script file in `ColorScripts-Enhanced/Scripts/`
 2. Use lowercase-with-hyphens naming
 3. Add to `ScriptMetadata.psd1`
@@ -330,6 +331,7 @@ Steps:
 5. Submit PR with description
 
 **Requirements**:
+
 - [ ] UTF-8 encoding
 - [ ] ANSI escape sequences for colors
 - [ ] Under 500 lines (prefer smaller)
@@ -338,6 +340,7 @@ Steps:
 - [ ] Comments for complex sections
 
 **Example**:
+
 ```powershell
 # File: ColorScripts-Enhanced/Scripts/my-awesome-art.ps1
 $esc = [char]27
@@ -352,6 +355,7 @@ Write-Host "${red}Beautiful ANSI Art${reset}"
 **Difficulty**: Easy 🟢
 
 When reporting:
+
 1. Use [bug report template](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues/new?template=bug_report.md)
 2. Include:
    - PowerShell version (`$PSVersionTable`)
@@ -365,6 +369,7 @@ When reporting:
 **Difficulty**: Easy 🟢
 
 When requesting:
+
 1. Use [feature request template](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues/new?template=feature_request.md)
 2. Include:
    - Clear description of desired functionality
@@ -377,6 +382,7 @@ When requesting:
 **Difficulty**: Easy 🟢
 
 Areas for improvement:
+
 - [ ] Typo fixes
 - [ ] Clarity improvements
 - [ ] New examples
@@ -388,6 +394,7 @@ Areas for improvement:
 **Difficulty**: Medium 🟡 to Hard 🔴
 
 Examples:
+
 - New cmdlet (Hard 🔴)
 - Bug fix (Medium 🟡)
 - Performance optimization (Medium 🟡 to Hard 🔴)
@@ -395,6 +402,7 @@ Examples:
 - Test additions (Easy 🟢 to Medium 🟡)
 
 For complex changes:
+
 1. Open issue first to discuss approach
 2. Wait for maintainer feedback
 3. Implement with tests
@@ -504,11 +512,11 @@ npm run lint:strict
 
 Test your changes across:
 
-| Platform | PowerShell 5.1 | PowerShell 7.x | Status |
-|----------|---|---|---|
-| Windows | ✅ | ✅ | Required |
-| macOS | ❌ | ✅ | Recommended |
-| Linux | ❌ | ✅ | Recommended |
+| Platform | PowerShell 5.1 | PowerShell 7.x | Status      |
+| -------- | -------------- | -------------- | ----------- |
+| Windows  | ✅             | ✅             | Required    |
+| macOS    | ❌             | ✅             | Recommended |
+| Linux    | ❌             | ✅             | Recommended |
 
 Use GitHub Actions or test locally:
 
@@ -601,12 +609,14 @@ All public functions must have comment-based help:
 ## Approval Process
 
 ### Automatic Checks
+
 - ✅ Tests pass
 - ✅ Linting passes
 - ✅ No security issues
 - ✅ Coverage maintained
 
 ### Manual Review
+
 - Code quality
 - Design appropriateness
 - Documentation completeness
@@ -615,6 +625,7 @@ All public functions must have comment-based help:
 ### Approval Criteria
 
 PR can be merged when:
+
 1. All automatic checks pass
 2. At least one maintainer approves
 3. No requested changes remain
@@ -623,6 +634,7 @@ PR can be merged when:
 ## Recognition
 
 Contributors will be recognized:
+
 - In CHANGELOG.md for each release
 - In [CONTRIBUTORS.md](./docs/CONTRIBUTORS.md)
 - GitHub "Contributors" page
@@ -631,6 +643,7 @@ Contributors will be recognized:
 ## Resources for Contributors
 
 ### Documentation
+
 - [PowerShell Docs](https://docs.microsoft.com/powershell/)
 - [Pester Testing Guide](https://pester.dev/)
 - [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer)
@@ -638,11 +651,13 @@ Contributors will be recognized:
 - [ANSI Conversion Guide](./docs/ANSI-CONVERSION-GUIDE.md)
 
 ### Tools
+
 - [VS Code PowerShell Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 - [Nerd Fonts](https://www.nerdfonts.com/)
 - [git-cliff](https://git-cliff.org/)
 
 ### Community
+
 - [GitHub Discussions](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/discussions)
 - [GitHub Issues](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues)
 - PowerShell Discord (if available)

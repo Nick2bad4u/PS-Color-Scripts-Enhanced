@@ -22,7 +22,7 @@ Get-ColorScriptList [-AsObject] [-Detailed] [-Name <String[]>] [-Category <Strin
  [-Tag <String[]>] [<CommonParameters>]
 ```
 
-### __AllParameterSets
+### \_\_AllParameterSets
 
 ```
 Get-ColorScriptList [[-Name] <string[]>] [[-Category] <string[]>] [[-Tag] <string[]>] [-AsObject]
@@ -38,6 +38,7 @@ By default, the cmdlet displays a concise formatted table showing script names a
 For automation and programmatic scenarios, the `-AsObject` parameter returns the raw metadata records as PowerShell objects, enabling further processing through the pipeline. These records include comprehensive information such as name, category, categories, tags, description, and the original metadata property.
 
 Filtering capabilities allow you to narrow down the list by:
+
 - **Name**: Supports wildcard patterns (e.g., `aurora-*`) for flexible matching
 - **Category**: Filter by one or more category names (case-insensitive)
 - **Tag**: Filter by metadata tags such as "Recommended" or "Animated" (case-insensitive)
@@ -215,15 +216,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Category
@@ -238,15 +239,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 1
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Detailed
@@ -261,15 +262,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
@@ -286,15 +287,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 0
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -309,15 +310,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 2
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 2
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -338,6 +339,7 @@ This cmdlet does not accept pipeline input.
 ### System.Object
 
 When `-AsObject` is specified, returns colorscript metadata record objects with the following properties:
+
 - **Name**: The script identifier used with `Show-ColorScript`
 - **Category**: The primary category of the script
 - **Categories**: An array of all categories the script belongs to
@@ -352,6 +354,7 @@ Without `-AsObject`, the cmdlet writes a formatted table to the host while still
 ### Dynamic Filtering
 
 **Multi-Criteria Filtering**
+
 ```powershell
 # Find animated scripts that are colorful
 Get-ColorScriptList -AsObject |
@@ -366,6 +369,7 @@ Get-ColorScriptList -Category Nature -AsObject |
 ```
 
 **Fuzzy Matching**
+
 ```powershell
 # Find scripts similar to a name pattern
 $search = "wave"
@@ -377,6 +381,7 @@ Get-ColorScriptList -AsObject |
 ### Data Analysis
 
 **Category Distribution**
+
 ```powershell
 # Analyze how scripts are distributed across categories
 $analysis = Get-ColorScriptList -AsObject |
@@ -387,6 +392,7 @@ $analysis | Sort-Object Count -Descending | Format-Table
 ```
 
 **Tag Frequency Analysis**
+
 ```powershell
 # Determine most common tags
 Get-ColorScriptList -AsObject |
@@ -399,6 +405,7 @@ Get-ColorScriptList -AsObject |
 ### Integration Workflows
 
 **Playlist Creation**
+
 ```powershell
 # Create a "favorite" playlist
 $playlist = Get-ColorScriptList -AsObject |
@@ -414,6 +421,7 @@ $playlist | ForEach-Object {
 ```
 
 **Metadata Export for Web**
+
 ```powershell
 # Export detailed metadata
 $web = Get-ColorScriptList -AsObject |
@@ -424,6 +432,7 @@ $web | Out-File "./scripts.json" -Encoding UTF8
 ```
 
 **Validation and Health Check**
+
 ```powershell
 # Health check on all scripts
 $health = Get-ColorScriptList -AsObject |
@@ -447,6 +456,7 @@ $uncached | Format-Table Name, Category
 ### Query Optimization
 
 **Filter Early**
+
 ```powershell
 # Faster: Filter by category first
 Get-ColorScriptList -Category Geometric -AsObject |
@@ -458,6 +468,7 @@ Get-ColorScriptList -AsObject |
 ```
 
 **Use Appropriate Output Format**
+
 ```powershell
 # For exploration: Detailed display
 Get-ColorScriptList -Detailed
@@ -499,4 +510,3 @@ For best results when integrating colorscripts into your PowerShell profile, use
 - [Export-ColorScriptMetadata](Export-ColorScriptMetadata.md)
 - [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
 - [Module Repository](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
-

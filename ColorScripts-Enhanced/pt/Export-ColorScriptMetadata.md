@@ -15,16 +15,15 @@ Exporta metadados de colorscript para vários formatos para uso externo.
 
 ## SYNTAX
 
-`
-Export-ColorScriptMetadata [-Path] <string> [[-Format] <string>] [-Category <string[]>] [-Tag <string[]>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
-`
+`Export-ColorScriptMetadata [-Path] <string> [[-Format] <string>] [-Category <string[]>] [-Tag <string[]>]
+ [-WhatIf] [-Confirm] [<CommonParameters>]`
 
 ## DESCRIPTION
 
 Exporta metadados abrangentes sobre colorscripts para arquivos externos para documentação, relatórios ou integração com outras ferramentas. Suporta vários formatos de saída, incluindo JSON, CSV e XML.
 
 Os metadados exportados incluem:
+
 - Nomes de scripts e caminhos de arquivos
 - Categorias e tags
 - Descrições e metadados
@@ -32,6 +31,7 @@ Os metadados exportados incluem:
 - Informações de status do cache
 
 Este cmdlet é útil para:
+
 - Gerar documentação
 - Criar inventários
 - Integração com sistemas CI/CD
@@ -75,7 +75,9 @@ Exporta colorscripts marcados como "geometric" para JSON.
 ### EXAMPLE 5
 
 `powershell
+
 # Exportar com timestamp
+
 $timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
 Export-ColorScriptMetadata -Path "backup-$timestamp.json"
 `
@@ -94,6 +96,7 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
+
 - Name: (All)
   Position: Named
   IsRequired: false
@@ -101,10 +104,10 @@ ParameterSets:
   ValueFromPipelineByPropertyName: false
   ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ''
-`
+  DontShow: false
+  AcceptedValues: []
+  HelpMessage: ''
+  `
 
 ### -Confirm
 
@@ -116,6 +119,7 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: cf
 ParameterSets:
+
 - Name: (All)
   Position: Named
   IsRequired: false
@@ -123,10 +127,10 @@ ParameterSets:
   ValueFromPipelineByPropertyName: false
   ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ''
-`
+  DontShow: false
+  AcceptedValues: []
+  HelpMessage: ''
+  `
 
 ### -Format
 
@@ -138,6 +142,7 @@ DefaultValue: JSON
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
+
 - Name: (All)
   Position: Named
   IsRequired: false
@@ -145,10 +150,10 @@ ParameterSets:
   ValueFromPipelineByPropertyName: false
   ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ''
-`
+  DontShow: false
+  AcceptedValues: []
+  HelpMessage: ''
+  `
 
 ### -Path
 
@@ -160,6 +165,7 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
+
 - Name: (All)
   Position: 0
   IsRequired: true
@@ -167,10 +173,10 @@ ParameterSets:
   ValueFromPipelineByPropertyName: false
   ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ''
-`
+  DontShow: false
+  AcceptedValues: []
+  HelpMessage: ''
+  `
 
 ### -Tag
 
@@ -182,6 +188,7 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
+
 - Name: (All)
   Position: Named
   IsRequired: false
@@ -189,10 +196,10 @@ ParameterSets:
   ValueFromPipelineByPropertyName: false
   ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ''
-`
+  DontShow: false
+  AcceptedValues: []
+  HelpMessage: ''
+  `
 
 ### -WhatIf
 
@@ -204,6 +211,7 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: wi
 ParameterSets:
+
 - Name: (All)
   Position: Named
   IsRequired: false
@@ -211,10 +219,10 @@ ParameterSets:
   ValueFromPipelineByPropertyName: false
   ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ''
-`
+  DontShow: false
+  AcceptedValues: []
+  HelpMessage: ''
+  `
 
 ### CommonParameters
 
@@ -242,11 +250,13 @@ Este cmdlet não retorna saída para o pipeline.
 **Requer:** PowerShell 5.1 ou posterior
 
 **Formatos de Saída:**
+
 - JSON: Dados estruturados para acesso programático
 - CSV: Formato compatível com planilha
 - XML: Estrutura de dados hierárquica
 
 **Casos de Uso:**
+
 - Geração de documentação
 - Gerenciamento de inventário
 - Integração CI/CD

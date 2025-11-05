@@ -25,6 +25,7 @@ Get-ColorScriptList [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>
 Retorna informações sobre os colorscripts disponíveis na coleção ColorScripts-Enhanced. Por padrão, exibe uma tabela formatada mostrando nomes de scripts, categorias e descrições. Use `-AsObject` para retornar objetos estruturados para acesso programático.
 
 O cmdlet fornece metadados abrangentes sobre cada colorscript, incluindo:
+
 - Nome: O identificador do script (sem extensão .ps1)
 - Categoria: Agrupamento temático (Natureza, Abstrato, Geométrico, etc.)
 - Tags: Descritores adicionais para filtragem e descoberta
@@ -167,7 +168,7 @@ HelpMessage: ''
 
 ### -Name
 
-Filtra resultados para colorscripts correspondendo a um ou mais padrões de nome. Suporta curingas (* e ?) para correspondência flexível.
+Filtra resultados para colorscripts correspondendo a um ou mais padrões de nome. Suporta curingas (\* e ?) para correspondência flexível.
 
 ```yaml
 Type: System.String[]
@@ -239,12 +240,14 @@ Quando `-AsObject` não é especificado, a saída é escrita diretamente no host
 **Requer:** PowerShell 5.1 ou posterior
 
 **Propriedades de Metadados:**
+
 - Nome: Identificador do script usado por Show-ColorScript
 - Categoria: Agrupamento temático para organização
 - Tags: Matriz de palavras-chave descritivas para filtragem
 - Descrição: Explicação legível por humanos do conteúdo
 
 **Padrões de Uso:**
+
 - Descoberta: Explore scripts disponíveis antes da seleção
 - Filtragem: Reduza opções usando categorias e tags
 - Automação: Use -AsObject para seleção programática de scripts

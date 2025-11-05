@@ -37,25 +37,25 @@ name: Labeler
 on: [pull_request_target]
 
 permissions:
-  contents: read
+    contents: read
 
 concurrency:
-  group: labeler-${{ github.ref }}
-  cancel-in-progress: false
+    group: labeler-${{ github.ref }}
+    cancel-in-progress: false
 
 jobs:
-  label:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
+    label:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: read
+            pull-requests: write
 
-    steps:
-      - name: Harden Runner
-        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
-        with:
-          egress-policy: audit
+        steps:
+            - name: Harden Runner
+              uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+              with:
+                  egress-policy: audit
 
-      - uses: actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b # v6.0.1
-        with:
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+            - uses: actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b # v6.0.1
+              with:
+                  repo-token: "${{ secrets.GITHUB_TOKEN }}"

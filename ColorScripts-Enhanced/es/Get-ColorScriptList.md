@@ -22,7 +22,7 @@ Get-ColorScriptList [-AsObject] [-Detailed] [-Name <String[]>] [-Category <Strin
  [-Tag <String[]>] [<CommonParameters>]
 ```
 
-### __AllParameterSets
+### \_\_AllParameterSets
 
 ```
 Get-ColorScriptList [[-Name] <string[]>] [[-Category] <string[]>] [[-Tag] <string[]>] [-AsObject]
@@ -38,6 +38,7 @@ Por defecto, el cmdlet muestra una tabla formateada concisa que muestra los nomb
 Para escenarios de automatización y programáticos, el parámetro `-AsObject` devuelve los registros de metadatos sin procesar como objetos PowerShell, permitiendo un procesamiento adicional a través de la canalización. Estos registros incluyen información completa como nombre, categoría, categorías, etiquetas, descripción y la propiedad de metadatos original.
 
 Las capacidades de filtrado le permiten reducir la lista por:
+
 - **Name**: Soporta patrones de comodín (ej., `aurora-*`) para coincidencia flexible
 - **Category**: Filtrar por uno o más nombres de categoría (sin distinción de mayúsculas y minúsculas)
 - **Tag**: Filtrar por etiquetas de metadatos como "Recommended" o "Animated" (sin distinción de mayúsculas y minúsculas)
@@ -215,15 +216,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Category
@@ -238,15 +239,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 1
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Detailed
@@ -261,15 +262,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
@@ -286,15 +287,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 0
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -309,15 +310,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 2
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 2
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -338,6 +339,7 @@ Este cmdlet no acepta entrada de canalización.
 ### System.Object
 
 Cuando se especifica `-AsObject`, devuelve objetos de registro de metadatos de colorescript con las siguientes propiedades:
+
 - **Name**: El identificador de script usado con `Show-ColorScript`
 - **Category**: La categoría primaria del script
 - **Categories**: Una matriz de todas las categorías a las que pertenece el script
@@ -352,6 +354,7 @@ Sin `-AsObject`, el cmdlet escribe una tabla formateada al host mientras aún de
 ### Dynamic Filtering
 
 **Multi-Criteria Filtering**
+
 ```powershell
 # Find animated scripts that are colorful
 Get-ColorScriptList -AsObject |
@@ -366,6 +369,7 @@ Get-ColorScriptList -Category Nature -AsObject |
 ```
 
 **Fuzzy Matching**
+
 ```powershell
 # Find scripts similar to a name pattern
 $search = "wave"
@@ -377,6 +381,7 @@ Get-ColorScriptList -AsObject |
 ### Data Analysis
 
 **Category Distribution**
+
 ```powershell
 # Analyze how scripts are distributed across categories
 $analysis = Get-ColorScriptList -AsObject |
@@ -387,6 +392,7 @@ $analysis | Sort-Object Count -Descending | Format-Table
 ```
 
 **Tag Frequency Analysis**
+
 ```powershell
 # Determine most common tags
 Get-ColorScriptList -AsObject |
@@ -399,6 +405,7 @@ Get-ColorScriptList -AsObject |
 ### Integration Workflows
 
 **Playlist Creation**
+
 ```powershell
 # Create a "favorite" playlist
 $playlist = Get-ColorScriptList -AsObject |
@@ -414,6 +421,7 @@ $playlist | ForEach-Object {
 ```
 
 **Metadata Export for Web**
+
 ```powershell
 # Export detailed metadata
 $web = Get-ColorScriptList -AsObject |
@@ -424,6 +432,7 @@ $web | Out-File "./scripts.json" -Encoding UTF8
 ```
 
 **Validation and Health Check**
+
 ```powershell
 # Health check on all scripts
 $health = Get-ColorScriptList -AsObject |
@@ -447,6 +456,7 @@ $uncached | Format-Table Name, Category
 ### Query Optimization
 
 **Filter Early**
+
 ```powershell
 # Faster: Filter by category first
 Get-ColorScriptList -Category Geometric -AsObject |
@@ -458,6 +468,7 @@ Get-ColorScriptList -AsObject |
 ```
 
 **Use Appropriate Output Format**
+
 ```powershell
 # For exploration: Detailed display
 Get-ColorScriptList -Detailed

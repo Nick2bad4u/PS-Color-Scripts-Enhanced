@@ -88,7 +88,7 @@ Toont de opgegeven colorscript op exacte naam. De .ps1 extensie is niet vereist.
 Show-ColorScript -Name "aurora-*"
 ```
 
-Toont de eerste colorscript (alfabetisch) die overeenkomt met het wildcard patroon "aurora-*". Nuttig wanneer je een deel van de scriptnaam herinnert.
+Toont de eerste colorscript (alfabetisch) die overeenkomt met het wildcard patroon "aurora-\*". Nuttig wanneer je een deel van de scriptnaam herinnert.
 
 ### EXAMPLE 4
 
@@ -271,15 +271,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: All
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Category
@@ -292,15 +292,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -List
@@ -313,20 +313,20 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: List
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: List
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
 
-De naam van het colorscript om weer te geven (zonder de .ps1 extensie). Ondersteunt wildcard patronen (* en ?) voor flexibele matching. Wanneer meerdere scripts overeenkomen met een wildcard patroon, wordt de eerste match in alfabetische volgorde geselecteerd en weergegeven. Gebruik `-PassThru` om te verifiëren welk script is gekozen bij gebruik van wildcards.
+De naam van het colorscript om weer te geven (zonder de .ps1 extensie). Ondersteunt wildcard patronen (\* en ?) voor flexibele matching. Wanneer meerdere scripts overeenkomen met een wildcard patroon, wordt de eerste match in alfabetische volgorde geselecteerd en weergegeven. Gebruik `-PassThru` om te verifiëren welk script is gekozen bij gebruik van wildcards.
 
 ```yaml
 Type: System.String
@@ -334,15 +334,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: Named
-  Position: 0
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Named
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -NoCache
@@ -355,15 +355,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -PassThru
@@ -376,21 +376,21 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: Random
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
-- Name: Named
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Random
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: Named
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Random
@@ -403,15 +403,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: Random
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Random
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -ReturnText
@@ -423,17 +423,17 @@ Type: System.Management.Automation.SwitchParameter
 DefaultValue: False
 SupportsWildcards: false
 Aliases:
-- AsString
+ - AsString
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -446,15 +446,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WaitForInput
@@ -467,15 +467,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: All
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -515,12 +515,14 @@ In standaardwerking (zonder `-PassThru` of `-ReturnText`), wordt uitvoer direct 
 Het intelligente caching systeem biedt 6-19x prestatieverbeteringen ten opzichte van directe uitvoering. Cache bestanden worden opgeslagen in een module-beheerde directory en worden automatisch ongeldig gemaakt wanneer bronscripts worden gewijzigd, waardoor nauwkeurigheid wordt gegarandeerd.
 
 **Cache Management:**
+
 - Cache locatie: Gebruik `(Get-Module ColorScripts-Enhanced).ModuleBase` en zoek naar de cache directory
 - Cache wissen: Gebruik `Clear-ColorScriptCache` om vanaf nul te herbouwen
 - Cache herbouwen: Gebruik `New-ColorScriptCache` om cache voor alle scripts voor te vullen
 - Cache inspecteren: Cache bestanden zijn platte tekst en kunnen direct worden bekeken
 
 **Tips:**
+
 - Voeg `Show-ColorScript -Random` toe aan uw PowerShell profiel voor een kleurrijke begroeting bij elke sessie start
 - Gebruik de module alias `scs` voor snelle toegang: `scs -Random`
 - Combineer categorie en tag filters voor precieze selectie
@@ -535,6 +537,7 @@ Colorscripts use ANSI escape sequences and display best in terminals with full c
 ### Filtering Strategies
 
 **By Category and Tag Combination**
+
 ```powershell
 # Toon alleen geometrische colorscripts getagd als minimaal
 Show-ColorScript -Category Geometric -Tag minimal -Random
@@ -547,6 +550,7 @@ Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
 ```
 
 **Dynamic Filtering Based on Time**
+
 ```powershell
 # Ochtend: heldere kleuren
 if ((Get-Date).Hour -lt 12) {
@@ -561,6 +565,7 @@ else {
 ### Output Capture Patterns
 
 **Save for Later Viewing**
+
 ```powershell
 # Opslaan in variabele
 $art = Show-ColorScript -Name spectrum -ReturnText
@@ -571,6 +576,7 @@ Get-Content "./my-art.ansi" -Raw | Write-Host
 ```
 
 **Create Themed Collections**
+
 ```powershell
 # Verzamel alle geometrische scripts
 $geometric = Get-ColorScriptList -Category Geometric -AsObject
@@ -585,6 +591,7 @@ $geometric | ForEach-Object {
 ### Performance Analysis
 
 **Comprehensive Benchmark**
+
 ```powershell
 # Functie om colorscript prestaties te benchmarken
 function Measure-ColorScriptPerformance {
@@ -616,6 +623,7 @@ Get-ColorScriptList -Category Geometric -AsObject |
 ### Terminal Customization
 
 **Terminal-Specific Display**
+
 ```powershell
 # Windows Terminal met ANSI ondersteuning
 if ($env:WT_SESSION) {
@@ -641,6 +649,7 @@ if ($env:ConEmuANSI -eq "ON") {
 ### Automation Integration
 
 **Scheduled Colorscript Rotation**
+
 ```powershell
 # Creëer geplande taak wrapper
 function Start-ColorScriptSession {
@@ -663,6 +672,7 @@ function Start-ColorScriptSession {
 ### Error Handling and Resilience
 
 **Graceful Fallback**
+
 ```powershell
 # Probeer specifiek script, fallback naar random
 try {
@@ -674,6 +684,7 @@ try {
 ```
 
 **Validation Before Display**
+
 ```powershell
 # Verificeer script bestaat voordat weergeven
 $scripts = Get-ColorScriptList -AsObject
@@ -690,6 +701,7 @@ if ($scriptName -in $scripts.Name) {
 ### Metadata Inspection
 
 **Inspect Before Displaying**
+
 ```powershell
 # Verkrijg metadata tijdens weergeven
 $metadata = Show-ColorScript -Name aurora-waves -PassThru
@@ -721,6 +733,7 @@ De module bevat scripts in verschillende categorieën:
 - PowerShell Documentation: https://docs.microsoft.com/powershell/
 
 ### KEYWORDS
+
 - ANSI
 - Terminal
 - Art
@@ -733,14 +746,18 @@ De module bevat scripts in verschillende categorieën:
 ### ADVANCED USAGE
 
 #### Building Cache for Specific Categories
+
 Cache alle scripts in de Geometric categorie voor optimale prestaties:
+
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
 ```
 
 #### Performance Measurement
+
 Meet de prestatieverbetering van caching:
+
 ```powershell
 # Uncached prestaties (koude start)
 Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue
@@ -760,7 +777,9 @@ Write-Host "Improvement: $([math]::Round($uncached.TotalMilliseconds / $cached.T
 ```
 
 #### Automation: Display Different Script Daily
+
 Stel uw profiel in om dagelijks een ander script weer te geven:
+
 ```powershell
 # In uw $PROFILE bestand:
 $seed = (Get-Date).DayOfYear
@@ -769,7 +788,9 @@ Show-ColorScript -Random
 ```
 
 #### Pipeline Operations with Metadata
+
 Exporteer colorscript metadata voor gebruik in andere tools:
+
 ```powershell
 # Exporteer naar JSON voor web dashboard
 Export-ColorScriptMetadata -Path ./dist/colorscripts.json -IncludeFileInfo
@@ -780,7 +801,9 @@ $scripts | ForEach-Object { Show-ColorScript -Name $_.Name; Start-Sleep -Seconds
 ```
 
 #### Cache Management for CI/CD Environments
+
 Configureer en beheer cache voor geautomatiseerde deployments:
+
 ```powershell
 # Stel tijdelijke cache locatie in voor CI/CD
 Set-ColorScriptConfiguration -CachePath $env:TEMP\colorscripts-cache
@@ -795,7 +818,9 @@ Get-ChildItem $cacheDir -Filter "*.cache" | Measure-Object -Sum Length
 ```
 
 #### Filtering and Display Workflows
+
 Geavanceerde filtering voor aangepaste weergaven:
+
 ```powershell
 # Toon alle aanbevolen scripts met details
 Get-ColorScriptList -Tag Recommended -Detailed
@@ -814,6 +839,7 @@ Export-ColorScriptMetadata -IncludeFileInfo |
 ### INTEGRATION SCENARIOS
 
 #### Scenario 1: Terminal Welcome Screen
+
 ```powershell
 # In profiel:
 $hour = (Get-Date).Hour
@@ -827,6 +853,7 @@ if ($hour -ge 6 -and $hour -lt 12) {
 ```
 
 #### Scenario 2: CI/CD Pipeline
+
 ```powershell
 # Build fase decoratie
 Show-ColorScript -Name "bars" -NoCache  # Snelle weergave zonder cache
@@ -840,6 +867,7 @@ if ($env:CI) {
 ```
 
 #### Scenario 3: Administrative Dashboards
+
 ```powershell
 # Toon systeem-georiënteerde colorscripts
 $os = if ($PSVersionTable.PSVersion.Major -ge 7) { "pwsh" } else { "powershell" }
@@ -851,6 +879,7 @@ Get-ColorScriptList -Tag "system" -AsObject |
 ```
 
 #### Scenario 4: Educational Presentations
+
 ```powershell
 # Interactieve colorscript showcase
 Show-ColorScript -All -WaitForInput
@@ -861,6 +890,7 @@ Show-ColorScript -All -Category Abstract -WaitForInput
 ```
 
 #### Scenario 5: Multi-User Environment
+
 ```powershell
 # Per-gebruiker configuratie
 Set-ColorScriptConfiguration -CachePath "\\shared\cache\$env:USERNAME"
@@ -875,9 +905,11 @@ Get-ColorScriptList -AsObject |
 ### ADVANCED TOPICS
 
 #### Topic 1: Cache Strategy Selection
+
 Verschillende caching strategieën voor verschillende scenario's:
 
 **Full Cache Strategy** (Optimaal voor Werkstations)
+
 ```powershell
 New-ColorScriptCache              # Cache alle 450++ scripts
 # Voordelen: Maximale prestaties, directe weergave
@@ -885,6 +917,7 @@ New-ColorScriptCache              # Cache alle 450++ scripts
 ```
 
 **Selective Cache Strategy** (Optimaal voor Portable/CI)
+
 ```powershell
 Get-ColorScriptList -Tag Recommended -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
@@ -893,6 +926,7 @@ Get-ColorScriptList -Tag Recommended -AsObject |
 ```
 
 **No Cache Strategy** (Optimaal voor Ontwikkeling)
+
 ```powershell
 Show-ColorScript -NoCache
 # Voordelen: Zie script wijzigingen onmiddellijk
@@ -900,9 +934,11 @@ Show-ColorScript -NoCache
 ```
 
 #### Topic 2: Metadata Organization
+
 Inzicht in en organiseren van colorscripts per metadata:
 
 **Categories** - Brede organisatorische groeperingen:
+
 - Geometric: Fractals, wiskundige patronen
 - Nature: Landschappen, organische thema's
 - Artistic: Creatief, abstracte ontwerpen
@@ -910,6 +946,7 @@ Inzicht in en organiseren van colorscripts per metadata:
 - System: OS/technologie georiënteerd
 
 **Tags** - Specifieke descriptors:
+
 - Recommended: Gecureerd voor algemeen gebruik
 - Animated: Bewegende/veranderende patronen
 - Colorful: Multi-kleur paletten
@@ -917,6 +954,7 @@ Inzicht in en organiseren van colorscripts per metadata:
 - Retro: Klassiek 80s/90s esthetiek
 
 #### Topic 3: Performance Optimization Tips
+
 ```powershell
 # Tip 1: Laad vaak gebruikte scripts voor
 New-ColorScriptCache -Name bars,arch,mandelbrot-zoom,aurora-waves
@@ -933,6 +971,7 @@ Show-ColorScript -Name aurora -Verbose
 ```
 
 #### Topic 4: Cross-Platform Considerations
+
 ```powershell
 # Windows Terminal specifiek
 if ($env:WT_SESSION) {
@@ -956,6 +995,7 @@ if ($PSVersionTable.PSVersion.Major -ge 7) {
 ```
 
 #### Topic 5: Scripting and Automation
+
 ```powershell
 # Creëer herbruikbare functie voor dagelijkse begroeting
 function Show-DailyColorScript {
@@ -994,8 +1034,10 @@ Invoke-ColorScriptSlideshow -Interval 2 -Category Geometric -Count 5
 ### TROUBLESHOOTING GUIDE
 
 #### Issue 1: Scripts Not Displaying Correctly
+
 **Symptomen**: Vervormde karakters of ontbrekende kleuren
 **Oplossingen**:
+
 ```powershell
 # Stel UTF-8 encoding in
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
@@ -1011,8 +1053,10 @@ Show-ColorScript -Name yourscript -NoCache
 ```
 
 #### Issue 2: Module Import Failures
+
 **Symptomen**: "Module niet gevonden" of import fouten
 **Oplossingen**:
+
 ```powershell
 # Controleer of module in PSModulePath staat
 Get-Module ColorScripts-Enhanced -ListAvailable
@@ -1027,8 +1071,10 @@ Install-Module -Name ColorScripts-Enhanced -Force
 ```
 
 #### Issue 3: Cache Not Being Used
+
 **Symptomen**: Scripts draaien langzaam elke keer
 **Oplossingen**:
+
 ```powershell
 # Verificeer cache bestaat
 $cacheDir = (Get-ColorScriptConfiguration).Cache.Path
@@ -1043,8 +1089,10 @@ Get-ColorScriptConfiguration | Select-Object -ExpandProperty Cache
 ```
 
 #### Issue 4: Profile Not Running
+
 **Symptomen**: Colorscript toont niet bij PowerShell opstart
 **Oplossingen**:
+
 ```powershell
 # Verificeer profiel bestaat
 Test-Path $PROFILE
@@ -1108,12 +1156,14 @@ A: Nee, gebruik `-NoCache` om caching uit te schakelen voor ontwikkeling/testen
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
 **Cache Management:**
+
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 **Advanced Tips:**
+
 - Use `-PassThru` to get metadata while displaying for post-processing
 - Combine `-ReturnText` with pipeline commands for advanced text manipulation
 - Use `-NoCache` during development of custom colorscripts for immediate feedback
@@ -1127,14 +1177,14 @@ The intelligent caching system provides 6-19x performance improvements over dire
 
 **Terminal Compatibility Matrix:**
 
-| Terminal | ANSI Support | UTF-8 | Performance | Notes |
-|----------|---------|-------|-----------|-------|
-| Windows Terminal | ✓ Excellent | ✓ Full | Excellent | Recommended |
-| ConEmu | ✓ Good | ✓ Full | Good | Legacy but reliable |
-| VS Code | ✓ Good | ✓ Full | Very Good | Slight rendering delay |
-| PowerShell ISE | ✗ Limited | ✗ Limited | N/A | Not recommended |
-| SSH Terminal | ✓ Varies | ✓ Depends | Varies | Network latency may affect |
-| Windows 10 Console | ✗ No | ✓ Yes | N/A | Not recommended |
+| Terminal           | ANSI Support | UTF-8     | Performance | Notes                      |
+| ------------------ | ------------ | --------- | ----------- | -------------------------- |
+| Windows Terminal   | ✓ Excellent  | ✓ Full    | Excellent   | Recommended                |
+| ConEmu             | ✓ Good       | ✓ Full    | Good        | Legacy but reliable        |
+| VS Code            | ✓ Good       | ✓ Full    | Very Good   | Slight rendering delay     |
+| PowerShell ISE     | ✗ Limited    | ✗ Limited | N/A         | Not recommended            |
+| SSH Terminal       | ✓ Varies     | ✓ Depends | Varies      | Network latency may affect |
+| Windows 10 Console | ✗ No         | ✓ Yes     | N/A         | Not recommended            |
 
 ## RELATED LINKS
 

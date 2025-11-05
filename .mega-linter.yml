@@ -6,15 +6,15 @@ APPLY_FIXES: all
 
 # Activate/deactivate linters
 ENABLE:
-  - MARKDOWN
-  - POWERSHELL
-  - YAML
-  - REPOSITORY
+    - MARKDOWN
+    - POWERSHELL
+    - YAML
+    - REPOSITORY
 
 DISABLE_LINTERS:
-  - SPELL_CSPELL
-  - SPELL_MISSPELL
-  - COPYPASTE_JSCPD
+    - SPELL_CSPELL
+    - SPELL_MISSPELL
+    - COPYPASTE_JSCPD
 
 # PowerShell specific settings
 POWERSHELL_POWERSHELL_CONFIG_FILE: PSScriptAnalyzerSettings.psd1
@@ -58,9 +58,9 @@ FAIL_IF_MISSING_LINTER_IN_FLAVOR: false
 
 # Pre/post commands
 PRE_COMMANDS:
-  - command: echo "Starting MegaLinter for ColorScripts-Enhanced"
-    cwd: workspace
+    - command: echo "Starting MegaLinter for ColorScripts-Enhanced"
+      cwd: workspace
 
 POST_COMMANDS:
-  - command: echo "MegaLinter complete"
-    cwd: workspace
+    - command: echo "MegaLinter complete"
+      cwd: workspace

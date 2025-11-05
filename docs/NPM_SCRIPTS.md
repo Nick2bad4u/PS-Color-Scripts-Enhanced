@@ -108,6 +108,7 @@ npm test
 ```
 
 This runs:
+
 - Module import validation
 - Command export verification
 - Basic functionality tests
@@ -123,6 +124,7 @@ npm run test:pester
 ```
 
 Includes:
+
 - Unit tests for all commands
 - Integration test scenarios
 - Cache behavior validation
@@ -139,6 +141,7 @@ npm run test:coverage
 ```
 
 Generates coverage report showing:
+
 - Statement coverage percentage
 - Branch coverage
 - Function coverage
@@ -187,6 +190,7 @@ npm run lint
 ```
 
 Checks:
+
 - Cmdlet naming conventions
 - Parameter naming
 - Comment-based help quality
@@ -202,6 +206,7 @@ npm run lint:strict
 ```
 
 Use before:
+
 - Pull request submission
 - Release publishing
 - Major commits
@@ -215,6 +220,7 @@ npm run lint:fix
 ```
 
 Auto-fixes:
+
 - Indentation
 - Whitespace
 - Brace placement
@@ -233,10 +239,12 @@ npm run docs:update-counts
 ```
 
 Updates markers like:
+
 - `<!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS -->`
 - `<!-- COLOR_CACHE_TOTAL -->498+<!-- /COLOR_CACHE_TOTAL -->`
 
 Run after:
+
 - Adding new colorscripts
 - Removing scripts
 - Before commits/releases
@@ -250,6 +258,7 @@ npm run docs:validate-links
 ```
 
 Checks:
+
 - Internal file references
 - External URLs
 - Anchor links
@@ -286,6 +295,7 @@ npm run release:verify
 ```
 
 Checks:
+
 - CHANGELOG.md formatting
 - Version consistency
 - Link validity
@@ -302,6 +312,7 @@ npm run verify
 ```
 
 Runs in order:
+
 1. Linting (strict mode)
 2. Documentation validation
 3. Smoke tests
@@ -309,6 +320,7 @@ Runs in order:
 5. Coverage report
 
 **Use this before:**
+
 - Committing to main
 - Creating pull requests
 - Publishing releases
@@ -354,11 +366,13 @@ npm run test:pester -- -Verbose
 ### PowerShell Paths
 
 Scripts automatically detect:
+
 - PowerShell executable location
 - Module path locations
 - Temp directory for test artifacts
 
 Override with:
+
 ```powershell
 $env:PSROOT = "C:\Program Files\PowerShell\7"
 npm run test
@@ -503,6 +517,7 @@ npm run build
 ---
 
 **Last Updated**: October 30, 2025
+
 - `<!-- COLOR_SCRIPT_COUNT -->245<!-- /COLOR_SCRIPT_COUNT -->`
 
 ### `npm run markdown:check`

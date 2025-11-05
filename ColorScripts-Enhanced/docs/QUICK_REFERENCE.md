@@ -13,7 +13,7 @@ Import-Module ColorScripts-Enhanced
 | -------------------------------- | ----- | ------------------------------------ |
 | `Show-ColorScript`               | `scs` | Display colorscripts                 |
 | `Get-ColorScriptList`            | -     | List available scripts               |
-| `New-ColorScriptCache`         | -     | Pre-generate cache                   |
+| `New-ColorScriptCache`           | -     | Pre-generate cache                   |
 | `Clear-ColorScriptCache`         | -     | Remove cache files                   |
 | `Add-ColorScriptProfile`         | -     | Append module import/startup snippet |
 | `Get-ColorScriptConfiguration`   | -     | Inspect persisted defaults           |
@@ -404,26 +404,31 @@ Get-ColorScriptList -AsObject |
 ## Best Practices
 
 ### Installation
+
 - [ ] Use `Install-Module` from PowerShell Gallery when available
 - [ ] Use `-Scope CurrentUser` for user-only installation
 - [ ] Run `New-ColorScriptCache` after installation for optimal performance
 
 ### Daily Use
+
 - [ ] Add `Show-ColorScript` to your profile for a colorful greeting
 - [ ] Use aliases: `scs` instead of `Show-ColorScript`
 - [ ] Try `-Random` mode to discover different scripts
 
 ### Configuration
+
 - [ ] Run `Add-ColorScriptProfile` to add startup integration
 - [ ] Use `Get-ColorScriptConfiguration` to verify settings
 - [ ] Backup configuration with `Export-ColorScriptMetadata`
 
 ### Performance
+
 - [ ] Pre-build cache with `New-ColorScriptCache` after updates
 - [ ] Use `-NoCache` only for script development/testing
 - [ ] Monitor cache size: `$env:APPDATA\ColorScripts-Enhanced\cache`
 
 ### Troubleshooting
+
 - [ ] Verify UTF-8 encoding: `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8`
 - [ ] Check module loads: `Get-Module ColorScripts-Enhanced`
 - [ ] Test cache: `Clear-ColorScriptCache -All; New-ColorScriptCache`
@@ -431,43 +436,44 @@ Get-ColorScriptList -AsObject |
 
 ## Quick Troubleshooting Matrix
 
-| Issue | Check | Solution |
-|-------|-------|----------|
+| Issue               | Check             | Solution                                                   |
+| ------------------- | ----------------- | ---------------------------------------------------------- |
 | Scripts not showing | Terminal encoding | `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8` |
-| Slow first run | Cache missing | `New-ColorScriptCache -Force` |
-| Garbled characters | Font support | Install Nerd Font or try different script |
-| Module not found | Module path | `$env:PSModulePath -split ';'` |
-| Cache errors | Disk space | `Clear-ColorScriptCache -All` |
-| Startup delays | Profile heavy | Use `-SkipStartupScript` option |
+| Slow first run      | Cache missing     | `New-ColorScriptCache -Force`                              |
+| Garbled characters  | Font support      | Install Nerd Font or try different script                  |
+| Module not found    | Module path       | `$env:PSModulePath -split ';'`                             |
+| Cache errors        | Disk space        | `Clear-ColorScriptCache -All`                              |
+| Startup delays      | Profile heavy     | Use `-SkipStartupScript` option                            |
 
 ## Comparison: Commands vs Parameters
 
 ### Display Methods
 
-| Goal | Command | Parameters |
-|------|---------|------------|
-| Random display | `Show-ColorScript` | (none) |
-| Specific script | `Show-ColorScript` | `-Name "bars"` |
-| With caching | `Show-ColorScript` | (default) |
-| Skip cache | `Show-ColorScript` | `-NoCache` |
-| Get metadata | `Show-ColorScript` | `-PassThru` |
-| List view | `Show-ColorScript` | `-List` |
-| Browse all | `Show-ColorScript` | `-All -WaitForInput` |
+| Goal            | Command            | Parameters           |
+| --------------- | ------------------ | -------------------- |
+| Random display  | `Show-ColorScript` | (none)               |
+| Specific script | `Show-ColorScript` | `-Name "bars"`       |
+| With caching    | `Show-ColorScript` | (default)            |
+| Skip cache      | `Show-ColorScript` | `-NoCache`           |
+| Get metadata    | `Show-ColorScript` | `-PassThru`          |
+| List view       | `Show-ColorScript` | `-List`              |
+| Browse all      | `Show-ColorScript` | `-All -WaitForInput` |
 
 ### Filtering Methods
 
-| Goal | Command | Parameters |
-|------|---------|------------|
-| All scripts | `Get-ColorScriptList` | (none) |
-| One category | `Get-ColorScriptList` | `-Category Geometric` |
+| Goal                | Command               | Parameters                   |
+| ------------------- | --------------------- | ---------------------------- |
+| All scripts         | `Get-ColorScriptList` | (none)                       |
+| One category        | `Get-ColorScriptList` | `-Category Geometric`        |
 | Multiple categories | `Get-ColorScriptList` | `-Category Geometric,Nature` |
-| By tag | `Get-ColorScriptList` | `-Tag Recommended` |
-| Object format | `Get-ColorScriptList` | `-AsObject` |
-| Rich details | `Get-ColorScriptList` | `-Detailed` |
+| By tag              | `Get-ColorScriptList` | `-Tag Recommended`           |
+| Object format       | `Get-ColorScriptList` | `-AsObject`                  |
+| Rich details        | `Get-ColorScriptList` | `-Detailed`                  |
 
 ## Learning Paths
 
 ### Path 1: First Time User (10 min)
+
 1. Install: `Install-Module -Name ColorScripts-Enhanced`
 2. Import: `Import-Module ColorScripts-Enhanced`
 3. Try it: `Show-ColorScript`
@@ -475,6 +481,7 @@ Get-ColorScriptList -AsObject |
 5. Setup: `Add-ColorScriptProfile`
 
 ### Path 2: Daily Power User (30 min)
+
 1. Read Basic Commands section
 2. Try Examples section (each example)
 3. Setup profile integration
@@ -482,6 +489,7 @@ Get-ColorScriptList -AsObject |
 5. Test performance improvements
 
 ### Path 3: Advanced User (1 hour)
+
 1. Read Advanced Usage section
 2. Study Best Practices
 3. Try Performance Monitoring
@@ -489,6 +497,7 @@ Get-ColorScriptList -AsObject |
 5. Review CI/CD Integration examples
 
 ### Path 4: Integration & Automation (2 hours)
+
 1. Study all Advanced Usage examples
 2. Review Environment Detection patterns
 3. Study Data Analysis workflows

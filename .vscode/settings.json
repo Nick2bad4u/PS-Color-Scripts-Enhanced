@@ -1,9 +1,9 @@
 {
-  "editor.formatOnSave": false,
-  "powershell.pester.useLegacyCodeLens": false,
-  "chat.todoListTool.writeOnly": true,
-  "github.copilot.chat.executePrompt.enabled": true,
-  "github.copilot.chat.editor.temporalContext.enabled": true,
-  "github.copilot.chat.edits.temporalContext.enabled": true,
-  "github.copilot.chat.languageContext.typescript.items": "fill"
+    "chat.todoListTool.writeOnly": true,
+    "editor.formatOnSave": false,
+    "github.copilot.chat.editor.temporalContext.enabled": true,
+    "github.copilot.chat.edits.temporalContext.enabled": true,
+    "github.copilot.chat.executePrompt.enabled": true,
+    "github.copilot.chat.languageContext.typescript.items": "fill",
+    "powershell.pester.useLegacyCodeLens": false
 }

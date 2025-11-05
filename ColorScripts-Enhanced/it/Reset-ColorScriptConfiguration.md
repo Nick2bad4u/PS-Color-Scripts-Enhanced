@@ -24,12 +24,14 @@ Reset-ColorScriptConfiguration [-WhatIf] [-Confirm] [<CommonParameters>]
 Ripristina le impostazioni di configurazione di ColorScripts-Enhanced ai valori predefiniti. Questo cmdlet rimuove tutte le personalizzazioni dell'utente e riporta il modulo al suo stato di configurazione originale.
 
 Le operazioni di ripristino includono:
+
 - Impostazioni del percorso della cache
 - Preferenze di prestazioni
 - Opzioni di visualizzazione
 - Impostazioni del comportamento del modulo
 
 Questo cmdlet è utile quando:
+
 - La configurazione diventa corrotta
 - Si desidera ricominciare con le impostazioni predefinite
 - Si risolvono problemi relativi alla configurazione
@@ -85,15 +87,15 @@ DefaultValue: true
 SupportsWildcards: false
 Aliases: cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -106,15 +108,15 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters

@@ -23,17 +23,20 @@ npm test
 ### Development Workflow
 
 1. **Smoke Tests** (Quick validation)
+
    ```powershell
    npm test
    ```
 
 2. **Linting** (Code quality)
+
    ```powershell
    npm run lint
    npm run lint:fix  # Auto-fix issues
    ```
 
 3. **Full Test Suite** (Comprehensive)
+
    ```powershell
    npm run test:pester
    ```
@@ -59,12 +62,12 @@ Tests/
 
 ### Test Categories by File
 
-| File | Coverage | Purpose |
-|------|----------|---------|
-| ColorScripts-Enhanced.Tests.ps1 | Main commands | Basic functionality |
-| ColorScripts-Enhanced.Internal.Tests.ps1 | Helper functions | Internal logic |
-| ColorScripts-Enhanced.CoverageCompletion.Tests.ps1 | Edge cases | Complete coverage |
-| ColorScripts-Enhanced.AdditionalCoverage.Tests.ps1 | Advanced scenarios | Extra validation |
+| File                                               | Coverage           | Purpose             |
+| -------------------------------------------------- | ------------------ | ------------------- |
+| ColorScripts-Enhanced.Tests.ps1                    | Main commands      | Basic functionality |
+| ColorScripts-Enhanced.Internal.Tests.ps1           | Helper functions   | Internal logic      |
+| ColorScripts-Enhanced.CoverageCompletion.Tests.ps1 | Edge cases         | Complete coverage   |
+| ColorScripts-Enhanced.AdditionalCoverage.Tests.ps1 | Advanced scenarios | Extra validation    |
 
 ## Writing Custom Tests
 
@@ -120,6 +123,7 @@ Describe 'MyFeature' -Tag 'MyTag' {
 ### Common Test Patterns
 
 **Testing Command Existence**
+
 ```powershell
 It 'should export Show-ColorScript command' {
     Get-Command Show-ColorScript -Module ColorScripts-Enhanced | Should -Not -BeNullOrEmpty
@@ -127,6 +131,7 @@ It 'should export Show-ColorScript command' {
 ```
 
 **Testing Parameter Validation**
+
 ```powershell
 It 'should accept pipeline input' {
     { 'bars' | Show-ColorScript } | Should -Not -Throw
@@ -134,6 +139,7 @@ It 'should accept pipeline input' {
 ```
 
 **Testing File Operations**
+
 ```powershell
 It 'should create cache directory if missing' {
     $cachePath = "$env:APPDATA\ColorScripts-Enhanced\cache"
@@ -145,6 +151,7 @@ It 'should create cache directory if missing' {
 ```
 
 **Testing Performance**
+
 ```powershell
 It 'should improve performance with caching' {
     New-ColorScriptCache -Name 'mandelbrot-zoom' -Force
@@ -243,6 +250,7 @@ $coverage.CodeCoverage |
 ### Test Failures
 
 **Module Import Issues**
+
 ```powershell
 # Ensure clean import
 Remove-Module ColorScripts-Enhanced -Force -ErrorAction SilentlyContinue
@@ -253,12 +261,14 @@ Import-Module .\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1 -Force
 ```
 
 **Syntax Errors in Tests**
+
 ```powershell
 # Validate test file syntax
 [System.Management.Automation.PSParser]::Tokenize((Get-Content ./Tests/MyTest.Tests.ps1), [ref]$null)
 ```
 
 **Pester Configuration**
+
 ```powershell
 # Check Pester version
 Get-Module Pester | Select-Object Version
@@ -424,13 +434,14 @@ Describe 'User Workflow' {
 **Test Framework**: Pester 5.4+
 **Coverage Target**: 90%+
 Invoke-Pester -Path ./Tests -Tag "Show-ColorScript"
-```
+
+````
 
 ### Test Cache Functionality
 
 ```powershell
 Invoke-Pester -Path ./Tests -Tag "Cache"
-```
+````
 
 ### Run Tests with Coverage
 

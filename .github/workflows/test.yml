@@ -1,222 +1,222 @@
 on:
-  push:
-    branches:
-      - main
-      - dev
-  pull_request:
-    branches:
-      - main
-  workflow_dispatch:
+    push:
+        branches:
+            - main
+            - dev
+    pull_request:
+        branches:
+            - main
+    workflow_dispatch:
 
 name: Tests
 
 permissions:
-  contents: read
+    contents: read
 
 jobs:
-  windows-powershell:
-    name: Windows PowerShell 5.1
-    runs-on: windows-latest
-    env:
-      CI: true
-      POWERSHELL_EDITION: Desktop
-      PS_VERSION: 5.1
-    steps:
-      - name: Harden the runner (Audit all outbound calls)
-        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
-        with:
-          egress-policy: audit
+    windows-powershell:
+        name: Windows PowerShell 5.1
+        runs-on: windows-latest
+        env:
+            CI: true
+            POWERSHELL_EDITION: Desktop
+            PS_VERSION: 5.1
+        steps:
+            - name: Harden the runner (Audit all outbound calls)
+              uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+              with:
+                  egress-policy: audit
 
-      - name: Checkout repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+            - name: Checkout repository
+              uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
-      - name: Install dependencies
-        shell: powershell
-        run: |
-          Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-          if (-not (Get-Module -ListAvailable -Name Pester)) {
-              Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
-          }
-          if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
-              Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
-          }
+            - name: Install dependencies
+              shell: powershell
+              run: |
+                  Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+                  if (-not (Get-Module -ListAvailable -Name Pester)) {
+                      Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
+                  }
+                  if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
+                      Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
+                  }
 
-      - name: Run Pester tests with coverage
-        shell: powershell
-        run: |
-          npm run test:coverage -- -CI
+            - name: Run Pester tests with coverage
+              shell: powershell
+              run: |
+                  npm run test:coverage -- -CI
 
-      - name: Upload test results
-        if: always()
-        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
-        with:
-          name: test-results-windows-51
-          path: testResults.junit.xml
+            - name: Upload test results
+              if: always()
+              uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+              with:
+                  name: test-results-windows-51
+                  path: testResults.junit.xml
 
-      - name: Upload coverage results
-        if: always()
-        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
-        with:
-          name: coverage-windows-51
-          path: coverage.xml
+            - name: Upload coverage results
+              if: always()
+              uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+              with:
+                  name: coverage-windows-51
+                  path: coverage.xml
 
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7 # v5.1.2
-        with:
-          files: ./coverage.xml
-          flags: windows-powershell-51
-          name: windows-powershell-51
+            - name: Upload coverage to Codecov
+              uses: codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7 # v5.1.2
+              with:
+                  files: ./coverage.xml
+                  flags: windows-powershell-51
+                  name: windows-powershell-51
 
-      - name: Upload test results to Codecov
-        if: ${{ !cancelled() }}
-        uses: codecov/test-results-action@v1
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./testResults.junit.xml
+            - name: Upload test results to Codecov
+              if: ${{ !cancelled() }}
+              uses: codecov/test-results-action@v1
+              with:
+                  token: ${{ secrets.CODECOV_TOKEN }}
+                  files: ./testResults.junit.xml
 
-      - name: Validate help topics
-        shell: powershell
-        run: |
-          Import-Module ./ColorScripts-Enhanced -Force
-          Get-Help Show-ColorScript
-          Get-Help about_ColorScripts-Enhanced
+            - name: Validate help topics
+              shell: powershell
+              run: |
+                  Import-Module ./ColorScripts-Enhanced -Force
+                  Get-Help Show-ColorScript
+                  Get-Help about_ColorScripts-Enhanced
 
-  pwsh-cross-platform:
-    name: PowerShell 7.5 (${{ matrix.os }})
-    runs-on: ${{ matrix.os }}
-    env:
-      CI: true
-      POWERSHELL_EDITION: Core
-      PS_VERSION: 7.5
-    strategy:
-      fail-fast: false
-      matrix:
-        os:
-          - windows-latest
-          - ubuntu-latest
-          - macos-latest
-    steps:
-      - name: Harden the runner (Audit all outbound calls)
-        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
-        with:
-          egress-policy: audit
+    pwsh-cross-platform:
+        name: PowerShell 7.5 (${{ matrix.os }})
+        runs-on: ${{ matrix.os }}
+        env:
+            CI: true
+            POWERSHELL_EDITION: Core
+            PS_VERSION: 7.5
+        strategy:
+            fail-fast: false
+            matrix:
+                os:
+                    - windows-latest
+                    - ubuntu-latest
+                    - macos-latest
+        steps:
+            - name: Harden the runner (Audit all outbound calls)
+              uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+              with:
+                  egress-policy: audit
 
-      - name: Checkout repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+            - name: Checkout repository
+              uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
-      - name: Verify PowerShell version
-        shell: pwsh
-        run: |
-          $PSVersionTable.PSVersion
-          Write-Host "PowerShell $($PSVersionTable.PSVersion) detected"
+            - name: Verify PowerShell version
+              shell: pwsh
+              run: |
+                  $PSVersionTable.PSVersion
+                  Write-Host "PowerShell $($PSVersionTable.PSVersion) detected"
 
-      - name: Install dependencies
-        shell: pwsh
-        run: |
-          Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-          if (-not (Get-Module -ListAvailable -Name Pester)) {
-              Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
-          }
-          if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
-              Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
-          }
+            - name: Install dependencies
+              shell: pwsh
+              run: |
+                  Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+                  if (-not (Get-Module -ListAvailable -Name Pester)) {
+                      Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
+                  }
+                  if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
+                      Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
+                  }
 
-      - name: Run Pester tests with coverage
-        shell: pwsh
-        run: |
-          npm run test:coverage -- -CI
+            - name: Run Pester tests with coverage
+              shell: pwsh
+              run: |
+                  npm run test:coverage -- -CI
 
-      - name: Upload test results
-        if: always()
-        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
-        with:
-          name: test-results-${{ matrix.os }}-pwsh
-          path: testResults.junit.xml
+            - name: Upload test results
+              if: always()
+              uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+              with:
+                  name: test-results-${{ matrix.os }}-pwsh
+                  path: testResults.junit.xml
 
-      - name: Upload coverage results
-        if: always()
-        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
-        with:
-          name: test-coverage-${{ matrix.os }}-pwsh
-          path: coverage.xml
+            - name: Upload coverage results
+              if: always()
+              uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+              with:
+                  name: test-coverage-${{ matrix.os }}-pwsh
+                  path: coverage.xml
 
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7 # v5.1.2
-        with:
-          files: ./coverage.xml
-          flags: pwsh-${{ matrix.os }}
-          name: pwsh-${{ matrix.os }}
+            - name: Upload coverage to Codecov
+              uses: codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7 # v5.1.2
+              with:
+                  files: ./coverage.xml
+                  flags: pwsh-${{ matrix.os }}
+                  name: pwsh-${{ matrix.os }}
 
-      - name: Upload test results to Codecov
-        if: ${{ !cancelled() }}
-        uses: codecov/test-results-action@v1
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./testResults.junit.xml
+            - name: Upload test results to Codecov
+              if: ${{ !cancelled() }}
+              uses: codecov/test-results-action@v1
+              with:
+                  token: ${{ secrets.CODECOV_TOKEN }}
+                  files: ./testResults.junit.xml
 
-      - name: Run script analyzer
-        shell: pwsh
-        run: |
-          Import-Module PSScriptAnalyzer
-          # Analyze module files (exclude Scripts folder with colorscripts)
-          $modulePath = './ColorScripts-Enhanced'
-          $files = Get-ChildItem -Path $modulePath -File -Recurse -Include *.ps1, *.psm1, *.psd1 |
-              Where-Object { $_.FullName -notlike '*Scripts*' }
+            - name: Run script analyzer
+              shell: pwsh
+              run: |
+                  Import-Module PSScriptAnalyzer
+                  # Analyze module files (exclude Scripts folder with colorscripts)
+                  $modulePath = './ColorScripts-Enhanced'
+                  $files = Get-ChildItem -Path $modulePath -File -Recurse -Include *.ps1, *.psm1, *.psd1 |
+                      Where-Object { $_.FullName -notlike '*Scripts*' }
 
-          $results = @()
-          foreach ($file in $files) {
-              $fileResults = Invoke-ScriptAnalyzer -Path $file.FullName -Settings './PSScriptAnalyzerSettings.psd1' -Severity 'Error','Warning'
-              if ($fileResults) { $results += $fileResults }
-          }
+                  $results = @()
+                  foreach ($file in $files) {
+                      $fileResults = Invoke-ScriptAnalyzer -Path $file.FullName -Settings './PSScriptAnalyzerSettings.psd1' -Severity 'Error','Warning'
+                      if ($fileResults) { $results += $fileResults }
+                  }
 
-          if ($results) {
-              $results | Format-Table -AutoSize
-              throw 'ScriptAnalyzer reported findings in module files.'
-          }
+                  if ($results) {
+                      $results | Format-Table -AutoSize
+                      throw 'ScriptAnalyzer reported findings in module files.'
+                  }
 
-      - name: Validate help topics
-        shell: pwsh
-        run: |
-          Import-Module ./ColorScripts-Enhanced -Force
-          Get-Help Show-ColorScript
-          Get-Help about_ColorScripts-Enhanced
+            - name: Validate help topics
+              shell: pwsh
+              run: |
+                  Import-Module ./ColorScripts-Enhanced -Force
+                  Get-Help Show-ColorScript
+                  Get-Help about_ColorScripts-Enhanced
 
-  pwsh-preview:
-    name: PowerShell 7.5 Preview (ubuntu)
-    runs-on: ubuntu-latest
-    container:
-      image: mcr.microsoft.com/powershell:preview
-    env:
-      CI: true
-      POWERSHELL_EDITION: Core
-      PS_VERSION: preview
-    steps:
-      - name: Harden the runner (Audit all outbound calls)
-        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
-        with:
-          egress-policy: audit
+    pwsh-preview:
+        name: PowerShell 7.5 Preview (ubuntu)
+        runs-on: ubuntu-latest
+        container:
+            image: mcr.microsoft.com/powershell:preview
+        env:
+            CI: true
+            POWERSHELL_EDITION: Core
+            PS_VERSION: preview
+        steps:
+            - name: Harden the runner (Audit all outbound calls)
+              uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+              with:
+                  egress-policy: audit
 
-      - name: Checkout repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+            - name: Checkout repository
+              uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
-      - name: Install PowerShell module dependencies
-        shell: pwsh
-        run: |
-          Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-          if (-not (Get-Module -ListAvailable -Name Pester)) {
-              Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
-          }
-          if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
-              Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
-          }
+            - name: Install PowerShell module dependencies
+              shell: pwsh
+              run: |
+                  Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+                  if (-not (Get-Module -ListAvailable -Name Pester)) {
+                      Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
+                  }
+                  if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
+                      Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
+                  }
 
-      - name: Run smoke tests on preview build
-        shell: pwsh
-        run: |
-          ./scripts/Test-Module.ps1
+            - name: Run smoke tests on preview build
+              shell: pwsh
+              run: |
+                  ./scripts/Test-Module.ps1
 
-      - name: Import module on preview build
-        shell: pwsh
-        run: |
-          Import-Module ./ColorScripts-Enhanced -Force
-          Get-ColorScriptList -AsObject | Select-Object -First 1
+            - name: Import module on preview build
+              shell: pwsh
+              run: |
+                  Import-Module ./ColorScripts-Enhanced -Force
+                  Get-ColorScriptList -AsObject | Select-Object -First 1

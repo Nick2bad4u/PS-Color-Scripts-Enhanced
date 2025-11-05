@@ -24,12 +24,14 @@ Reset-ColorScriptConfiguration [-WhatIf] [-Confirm] [<CommonParameters>]
 恢复 ColorScripts-Enhanced 配置设置到其默认值。此 cmdlet 删除所有用户自定义设置，并将模块返回到其原始配置状态。
 
 重置操作包括：
+
 - 缓存路径设置
 - 性能首选项
 - 显示选项
 - 模块行为设置
 
 此 cmdlet 在以下情况下很有用：
+
 - 配置变得损坏时
 - 您想要使用默认设置重新开始时
 - 排除配置相关问题时
@@ -85,15 +87,15 @@ DefaultValue: true
 SupportsWildcards: false
 Aliases: cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -106,15 +108,15 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters

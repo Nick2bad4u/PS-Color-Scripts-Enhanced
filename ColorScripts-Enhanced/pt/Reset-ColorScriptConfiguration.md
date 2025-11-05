@@ -24,12 +24,14 @@ Reset-ColorScriptConfiguration [-WhatIf] [-Confirm] [<CommonParameters>]
 Restaura as configurações do ColorScripts-Enhanced para seus valores padrão. Este cmdlet remove todas as personalizações do usuário e retorna o módulo ao seu estado de configuração original.
 
 As operações de redefinição incluem:
+
 - Configurações do caminho do cache
 - Preferências de desempenho
 - Opções de exibição
 - Configurações de comportamento do módulo
 
 Este cmdlet é útil quando:
+
 - A configuração se torna corrompida
 - Você deseja começar do zero com configurações padrão
 - Solução de problemas relacionados à configuração

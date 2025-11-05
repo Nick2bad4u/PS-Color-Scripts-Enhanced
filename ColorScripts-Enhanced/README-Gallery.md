@@ -68,7 +68,7 @@ Clear-ColorScriptCache -All
 | -------------------------------- | ----- | --------------------------------------------- |
 | `Show-ColorScript`               | `scs` | Display a colorscript (random or by name)     |
 | `Get-ColorScriptList`            | -     | List all available colorscripts with metadata |
-| `New-ColorScriptCache`         | -     | Pre-generate cache files for faster loading   |
+| `New-ColorScriptCache`           | -     | Pre-generate cache files for faster loading   |
 | `Clear-ColorScriptCache`         | -     | Remove cache files                            |
 | `Add-ColorScriptProfile`         | -     | Add module import to your PowerShell profile  |
 | `Get-ColorScriptConfiguration`   | -     | View current configuration settings           |

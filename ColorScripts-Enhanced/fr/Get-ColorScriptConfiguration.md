@@ -29,6 +29,7 @@ Get-ColorScriptConfiguration [<CommonParameters>]
 - **Préférences d'affichage** : Options de formatage et de sortie par défaut
 
 La configuration est assemblée à partir de plusieurs sources par ordre de priorité :
+
 1. Valeurs par défaut intégrées du module (priorité la plus basse)
 2. Substitutions utilisateur persistées depuis le fichier de configuration
 3. Modifications spécifiques à la session (priorité la plus haute)
@@ -174,6 +175,7 @@ Retourne une hashtable imbriquée contenant la structure suivante :
 ### Analyse et audit de configuration
 
 **Audit complet de configuration**
+
 ```powershell
 # Revue complète de la configuration
 $config = Get-ColorScriptConfiguration
@@ -188,6 +190,7 @@ $config = Get-ColorScriptConfiguration
 ```
 
 **Comparaison avec les valeurs par défaut**
+
 ```powershell
 # Identifier les personnalisations par rapport aux valeurs par défaut
 $current = Get-ColorScriptConfiguration | ConvertTo-Json
@@ -204,6 +207,7 @@ if ($current -ne (Get-Content "./default-config.json")) {
 ### Configuration spécifique à l'environnement
 
 **Détection d'environnement**
+
 ```powershell
 # Détecter l'environnement et rapporter la configuration appropriée
 $config = Get-ColorScriptConfiguration
@@ -222,6 +226,7 @@ Write-Host "Démarrage : $($config.Startup.ProfileAutoShow)"
 ```
 
 **Gestion multi-environnements**
+
 ```powershell
 # Suivre la configuration dans plusieurs environnements
 @(
@@ -236,6 +241,7 @@ Write-Host "Démarrage : $($config.Startup.ProfileAutoShow)"
 ### Validation de configuration
 
 **Vérification de santé**
+
 ```powershell
 # Valider l'intégrité de la configuration
 $config = Get-ColorScriptConfiguration
@@ -250,6 +256,7 @@ $checks | ConvertTo-Json | Write-Host
 ```
 
 **Cohérence de configuration**
+
 ```powershell
 # Vérifier que les paramètres de configuration sont cohérents
 $config = Get-ColorScriptConfiguration
@@ -268,6 +275,7 @@ if ($validSettings.Values -notcontains $false) {
 ### Sauvegarde et récupération de configuration
 
 **Sauvegarder la configuration actuelle**
+
 ```powershell
 # Créer une sauvegarde de configuration
 $config = Get-ColorScriptConfiguration
@@ -281,6 +289,7 @@ $backup | ConvertTo-Json | Out-File "./config-backup-$(Get-Date -Format 'yyyyMMd
 ```
 
 **Migration de configuration**
+
 ```powershell
 # Exporter la configuration pour migration vers un nouveau système
 $config = Get-ColorScriptConfiguration
@@ -299,6 +308,7 @@ $exportConfig | ConvertTo-Json | Out-File "./export-config.json" -Encoding UTF8
 ### Rapport de configuration
 
 **Rapport de configuration**
+
 ```powershell
 # Générer un rapport complet de configuration
 $config = Get-ColorScriptConfiguration
@@ -329,6 +339,7 @@ $report | Out-File "./config-report.md" -Encoding UTF8
 ### Surveillance et détection de dérive
 
 **Détection de dérive de configuration**
+
 ```powershell
 # Surveiller les changements inattendus de configuration
 $configFile = "$env:APPDATA\ColorScripts-Enhanced\config.json"
@@ -341,6 +352,7 @@ if ($current.Cache.Path -ne $lastKnown.Cache.Path) {
 ```
 
 **Audit de configuration programmé**
+
 ```powershell
 # Créer un journal d'audit périodique
 $config = Get-ColorScriptConfiguration

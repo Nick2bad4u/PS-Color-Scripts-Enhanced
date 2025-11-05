@@ -11,7 +11,6 @@ name: "Continue"
 - Locate the next incomplete TODO item (those not marked as done or resolved).
 - If you have any questions or need clarification on any TODO items, document them clearly for further review or stop and ask for assistance.
 - For each incomplete TODO item, proceed systematically:
-
   - Review the context, problem description, and any relevant files mentioned.
   - Assess the current state and any blockers or dependencies.
   - Implement necessary changes, fixes, or features using available tools.

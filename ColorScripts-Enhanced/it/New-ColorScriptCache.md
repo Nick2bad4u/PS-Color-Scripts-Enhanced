@@ -27,6 +27,7 @@ Pre-genera l'output memorizzato nella cache per i colorscript per garantire pres
 Il sistema di caching fornisce miglioramenti delle prestazioni da 6 a 19 volte. Alla prima esecuzione, un colorscript viene eseguito normalmente e il suo output viene memorizzato nella cache. I display successivi utilizzano l'output memorizzato nella cache per un rendering quasi istantaneo. La cache viene invalidata automaticamente quando gli script di origine vengono modificati, garantendo l'accuratezza dell'output.
 
 Utilizza questo cmdlet per:
+
 - Preparare la cache per gli script utilizzati frequentemente
 - Garantire prestazioni coerenti tra le sessioni
 - Pre-riscaldare la cache dopo gli aggiornamenti del modulo
@@ -89,15 +90,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Confirm
@@ -110,20 +111,20 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
 
-Specifica i nomi dei colorscript da memorizzare nella cache. Supporta i caratteri jolly (* e ?).
+Specifica i nomi dei colorscript da memorizzare nella cache. Supporta i caratteri jolly (\* e ?).
 
 ```yaml
 Type: System.String[]
@@ -131,15 +132,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -152,15 +153,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -173,15 +174,15 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -216,6 +217,7 @@ Il pre-caching elimina il tempo di esecuzione al primo display, fornendo feedbac
 I file memorizzati nella cache sono archiviati in directory gestite dal modulo e vengono invalidati automaticamente quando gli script di origine cambiano. Utilizza Clear-ColorScriptCache per rimuovere la cache obsoleta.
 
 **Best Practices:**
+
 - Memorizza nella cache gli script utilizzati frequentemente per prestazioni ottimali
 - Utilizza il caching selettivo per evitare elaborazioni non necessarie
 - Esegui dopo gli aggiornamenti del modulo per garantire la validità della cache

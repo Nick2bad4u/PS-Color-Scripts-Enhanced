@@ -1,352 +1,352 @@
 name: Publish
 
 on:
-  workflow_dispatch:
-    inputs:
-      publishToNuGet:
-        description: "Publish to NuGet.org (PowerShell Gallery uses same feed)"
-        required: false
-        default: "true"
-      publishToGitHub:
-        description: "Publish to GitHub Packages"
-        required: false
-        default: "true"
-      versionOverride:
-        description: "Override module version (optional)"
-        required: false
-        default: ""
-      createRelease:
-        description: "Create GitHub Release"
-        required: false
-        default: "true"
-  release:
-    types: [published]
-  workflow_call:
-    secrets:
-      PSGALLERYAPIKEY:
-        required: false
-      NUGETAPIKEY:
-        required: false
-      PACKAGES_TOKEN:
-        required: false
-  workflow_run:
-    workflows: ["Tests"]
-    types:
-      - completed
-    branches:
-      - main
+    workflow_dispatch:
+        inputs:
+            publishToNuGet:
+                description: "Publish to NuGet.org (PowerShell Gallery uses same feed)"
+                required: false
+                default: "true"
+            publishToGitHub:
+                description: "Publish to GitHub Packages"
+                required: false
+                default: "true"
+            versionOverride:
+                description: "Override module version (optional)"
+                required: false
+                default: ""
+            createRelease:
+                description: "Create GitHub Release"
+                required: false
+                default: "true"
+    release:
+        types: [published]
+    workflow_call:
+        secrets:
+            PSGALLERYAPIKEY:
+                required: false
+            NUGETAPIKEY:
+                required: false
+            PACKAGES_TOKEN:
+                required: false
+    workflow_run:
+        workflows: ["Tests"]
+        types:
+            - completed
+        branches:
+            - main
 
 permissions:
-  contents: write
+    contents: write
 
 jobs:
-  validate-and-publish:
-    name: Validate and Publish
-    runs-on: windows-latest
-    env:
-      PSGALLERYAPIKEY: ${{ secrets.PSGALLERYAPIKEY }}
-      NUGETAPIKEY: ${{ secrets.NUGETAPIKEY }}
-      PACKAGES_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
-      PUBLISH_TO_NUGET_INPUT: ${{ github.event.inputs.publishToNuGet }}
-      PUBLISH_TO_GITHUB_INPUT: ${{ github.event.inputs.publishToGitHub }}
-      CREATE_RELEASE_INPUT: ${{ github.event.inputs.createRelease }}
-    steps:
-      - name: Harden the runner (Audit all outbound calls)
-        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
-        with:
-          egress-policy: audit
+    validate-and-publish:
+        name: Validate and Publish
+        runs-on: windows-latest
+        env:
+            PSGALLERYAPIKEY: ${{ secrets.PSGALLERYAPIKEY }}
+            NUGETAPIKEY: ${{ secrets.NUGETAPIKEY }}
+            PACKAGES_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+            PUBLISH_TO_NUGET_INPUT: ${{ github.event.inputs.publishToNuGet }}
+            PUBLISH_TO_GITHUB_INPUT: ${{ github.event.inputs.publishToGitHub }}
+            CREATE_RELEASE_INPUT: ${{ github.event.inputs.createRelease }}
+        steps:
+            - name: Harden the runner (Audit all outbound calls)
+              uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+              with:
+                  egress-policy: audit
 
-      - name: Checkout
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+            - name: Checkout
+              uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
-      - name: Install quality tools
-        run: |
-          Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-          if (-not (Get-Module -ListAvailable -Name Pester)) {
-              Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
-          }
-          if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
-              Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
-          }
-        shell: pwsh
+            - name: Install quality tools
+              run: |
+                  Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+                  if (-not (Get-Module -ListAvailable -Name Pester)) {
+                      Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
+                  }
+                  if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
+                      Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
+                  }
+              shell: pwsh
 
-      - name: Set up Node
-        id: setup-node
-        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
-        with:
-          node-version: "22"
-          cache: "npm"
+            - name: Set up Node
+              id: setup-node
+              uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
+              with:
+                  node-version: "22"
+                  cache: "npm"
 
-      - name: install dependency
-        run: |
-          npm install -force
-        shell: pwsh
+            - name: install dependency
+              run: |
+                  npm install -force
+              shell: pwsh
 
-      - name: Build latest Manifest Version
-        run: |
-          npm run build
-        shell: pwsh
+            - name: Build latest Manifest Version
+              run: |
+                  npm run build
+              shell: pwsh
 
-      - name: Run Script Analyzer
-        run: |
-          Import-Module PSScriptAnalyzer
-          $settingsPath = Join-Path (Get-Location) 'PSScriptAnalyzerSettings.psd1'
-          $moduleRoot = Join-Path (Get-Location) 'ColorScripts-Enhanced'
-          $moduleFiles = Get-ChildItem -Path $moduleRoot -File -Recurse -Include *.ps1, *.psm1, *.psd1
+            - name: Run Script Analyzer
+              run: |
+                  Import-Module PSScriptAnalyzer
+                  $settingsPath = Join-Path (Get-Location) 'PSScriptAnalyzerSettings.psd1'
+                  $moduleRoot = Join-Path (Get-Location) 'ColorScripts-Enhanced'
+                  $moduleFiles = Get-ChildItem -Path $moduleRoot -File -Recurse -Include *.ps1, *.psm1, *.psd1
 
-          $allFindings = New-Object 'System.Collections.Generic.List[psobject]'
+                  $allFindings = New-Object 'System.Collections.Generic.List[psobject]'
 
-          foreach ($file in $moduleFiles) {
-            $parameters = @{
-              Path        = $file.FullName
-              Severity    = 'Error', 'Warning'
-              ErrorAction = 'Stop'
-            }
+                  foreach ($file in $moduleFiles) {
+                    $parameters = @{
+                      Path        = $file.FullName
+                      Severity    = 'Error', 'Warning'
+                      ErrorAction = 'Stop'
+                    }
 
-            if (Test-Path $settingsPath) {
-              $parameters.Settings = $settingsPath
-            }
+                    if (Test-Path $settingsPath) {
+                      $parameters.Settings = $settingsPath
+                    }
 
-            try {
-              $diagnostics = Invoke-ScriptAnalyzer @parameters
-            }
-            catch {
-              $exception = $_.Exception
-              $isNullReference = $exception -is [System.NullReferenceException] -or ($exception -and $exception.Message -like 'Object reference*')
+                    try {
+                      $diagnostics = Invoke-ScriptAnalyzer @parameters
+                    }
+                    catch {
+                      $exception = $_.Exception
+                      $isNullReference = $exception -is [System.NullReferenceException] -or ($exception -and $exception.Message -like 'Object reference*')
 
-              if ($isNullReference -and $parameters.ContainsKey('Settings')) {
-                Write-Warning "ScriptAnalyzer hit a known issue on '$($file.FullName)' with custom settings. Retrying without settings."
-                $parameters.Remove('Settings')
-                $diagnostics = Invoke-ScriptAnalyzer @parameters
-              }
-              else {
-                throw
-              }
-            }
+                      if ($isNullReference -and $parameters.ContainsKey('Settings')) {
+                        Write-Warning "ScriptAnalyzer hit a known issue on '$($file.FullName)' with custom settings. Retrying without settings."
+                        $parameters.Remove('Settings')
+                        $diagnostics = Invoke-ScriptAnalyzer @parameters
+                      }
+                      else {
+                        throw
+                      }
+                    }
 
-            if ($diagnostics) {
-              foreach ($entry in $diagnostics) {
-                $allFindings.Add($entry) | Out-Null
-              }
-            }
-          }
+                    if ($diagnostics) {
+                      foreach ($entry in $diagnostics) {
+                        $allFindings.Add($entry) | Out-Null
+                      }
+                    }
+                  }
 
-          if ($allFindings.Count -gt 0) {
-            $allFindings | Format-Table -AutoSize
-            throw 'ScriptAnalyzer reported findings.'
-          }
-        shell: pwsh
+                  if ($allFindings.Count -gt 0) {
+                    $allFindings | Format-Table -AutoSize
+                    throw 'ScriptAnalyzer reported findings.'
+                  }
+              shell: pwsh
 
-      - name: Run Pester tests
-        run: |
-          Import-Module Pester
-          $configuration = New-PesterConfiguration
-          $configuration.Run.Path = './Tests'
-          $configuration.Output.Verbosity = 'Detailed'
-          Invoke-Pester -Configuration $configuration
-        shell: pwsh
+            - name: Run Pester tests
+              run: |
+                  Import-Module Pester
+                  $configuration = New-PesterConfiguration
+                  $configuration.Run.Path = './Tests'
+                  $configuration.Output.Verbosity = 'Detailed'
+                  Invoke-Pester -Configuration $configuration
+              shell: pwsh
 
-      - name: Verify manifest version
-        id: manifest
-        shell: pwsh
-        run: |
-          $manifest = Test-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1
-          $version = if ([string]::IsNullOrWhiteSpace('${{ github.event.inputs.versionOverride }}')) {
-              $manifest.Version.ToString()
-          } else {
-              '${{ github.event.inputs.versionOverride }}'
-          }
+            - name: Verify manifest version
+              id: manifest
+              shell: pwsh
+              run: |
+                  $manifest = Test-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1
+                  $version = if ([string]::IsNullOrWhiteSpace('${{ github.event.inputs.versionOverride }}')) {
+                      $manifest.Version.ToString()
+                  } else {
+                      '${{ github.event.inputs.versionOverride }}'
+                  }
 
-          Write-Host "Module version: $version"
-          "version=$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+                  Write-Host "Module version: $version"
+                  "version=$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
 
-          if ('${{ github.event_name }}' -eq 'release') {
-              $tag = '${{ github.event.release.tag_name }}'.TrimStart('v')
-              if ($tag -ne $version) {
-                  throw "Release tag $tag does not match module version $version"
-              }
-          }
+                  if ('${{ github.event_name }}' -eq 'release') {
+                      $tag = '${{ github.event.release.tag_name }}'.TrimStart('v')
+                      if ($tag -ne $version) {
+                          throw "Release tag $tag does not match module version $version"
+                      }
+                  }
 
-      - name: Package module
-        id: package
-        run: |
-          Import-Module PowerShellGet -ErrorAction Stop
+            - name: Package module
+              id: package
+              run: |
+                  Import-Module PowerShellGet -ErrorAction Stop
 
-          $stagingPath = Join-Path $env:RUNNER_TEMP "module-packages"
-          if (Test-Path $stagingPath) {
-              Remove-Item -Path $stagingPath -Recurse -Force
-          }
-          New-Item -ItemType Directory -Path $stagingPath | Out-Null
+                  $stagingPath = Join-Path $env:RUNNER_TEMP "module-packages"
+                  if (Test-Path $stagingPath) {
+                      Remove-Item -Path $stagingPath -Recurse -Force
+                  }
+                  New-Item -ItemType Directory -Path $stagingPath | Out-Null
 
-          $repoName = 'LocalModuleStaging'
-          if (Get-PSRepository -Name $repoName -ErrorAction SilentlyContinue) {
-              Unregister-PSRepository -Name $repoName -ErrorAction SilentlyContinue
-          }
+                  $repoName = 'LocalModuleStaging'
+                  if (Get-PSRepository -Name $repoName -ErrorAction SilentlyContinue) {
+                      Unregister-PSRepository -Name $repoName -ErrorAction SilentlyContinue
+                  }
 
-          Register-PSRepository -Name $repoName -SourceLocation $stagingPath -PublishLocation $stagingPath -InstallationPolicy Trusted
+                  Register-PSRepository -Name $repoName -SourceLocation $stagingPath -PublishLocation $stagingPath -InstallationPolicy Trusted
 
-          $readmePath = Join-Path (Get-Location) 'ColorScripts-Enhanced/README.md'
-          if (-not (Test-Path $readmePath)) {
-              throw "README file not found at $readmePath"
-          }
+                  $readmePath = Join-Path (Get-Location) 'ColorScripts-Enhanced/README.md'
+                  if (-not (Test-Path $readmePath)) {
+                      throw "README file not found at $readmePath"
+                  }
 
-          try {
-              Publish-Module -Path ./ColorScripts-Enhanced -Repository $repoName -NuGetApiKey 'LocalRepositoryKey' -ErrorAction Stop | Out-Null
-          }
-          finally {
-              Unregister-PSRepository -Name $repoName -ErrorAction SilentlyContinue
-          }
+                  try {
+                      Publish-Module -Path ./ColorScripts-Enhanced -Repository $repoName -NuGetApiKey 'LocalRepositoryKey' -ErrorAction Stop | Out-Null
+                  }
+                  finally {
+                      Unregister-PSRepository -Name $repoName -ErrorAction SilentlyContinue
+                  }
 
-          $package = Get-ChildItem -Path $stagingPath -Filter '*.nupkg' | Sort-Object LastWriteTime -Descending | Select-Object -First 1
-          if (-not $package) {
-              throw 'Failed to produce NuGet package for the module.'
-          }
+                  $package = Get-ChildItem -Path $stagingPath -Filter '*.nupkg' | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+                  if (-not $package) {
+                      throw 'Failed to produce NuGet package for the module.'
+                  }
 
-          "packagePath=$($package.FullName)" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
-          "packageName=$($package.Name)" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
-          Write-Host "Packaged module to: $($package.FullName)"
-        shell: pwsh
+                  "packagePath=$($package.FullName)" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+                  "packageName=$($package.Name)" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+                  Write-Host "Packaged module to: $($package.FullName)"
+              shell: pwsh
 
-      - name: Normalize NuGet metadata
-        run: pwsh -NoProfile -File ./scripts/Update-NuGetPackageMetadata.ps1 -PackagePath '${{ steps.package.outputs.packagePath }}'
-        shell: pwsh
+            - name: Normalize NuGet metadata
+              run: pwsh -NoProfile -File ./scripts/Update-NuGetPackageMetadata.ps1 -PackagePath '${{ steps.package.outputs.packagePath }}'
+              shell: pwsh
 
-      - name: Install git-cliff
-        if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
-        run: |
-          Write-Host "Installing git-cliff..."
-          $downloadUrl = "https://github.com/orhun/git-cliff/releases/download/v2.10.1/git-cliff-2.10.1-x86_64-pc-windows-msvc.zip"
-          $zipPath = Join-Path $env:RUNNER_TEMP "git-cliff.zip"
-          $extractPath = Join-Path $env:RUNNER_TEMP "git-cliff"
+            - name: Install git-cliff
+              if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
+              run: |
+                  Write-Host "Installing git-cliff..."
+                  $downloadUrl = "https://github.com/orhun/git-cliff/releases/download/v2.10.1/git-cliff-2.10.1-x86_64-pc-windows-msvc.zip"
+                  $zipPath = Join-Path $env:RUNNER_TEMP "git-cliff.zip"
+                  $extractPath = Join-Path $env:RUNNER_TEMP "git-cliff"
 
-          Invoke-WebRequest -Uri $downloadUrl -OutFile $zipPath
-          Expand-Archive -Path $zipPath -DestinationPath $extractPath -Force
+                  Invoke-WebRequest -Uri $downloadUrl -OutFile $zipPath
+                  Expand-Archive -Path $zipPath -DestinationPath $extractPath -Force
 
-          # The exe might be in the root or in a subdirectory
-          $exePath = Get-ChildItem -Path $extractPath -Filter "git-cliff.exe" -Recurse | Select-Object -First 1 -ExpandProperty FullName
+                  # The exe might be in the root or in a subdirectory
+                  $exePath = Get-ChildItem -Path $extractPath -Filter "git-cliff.exe" -Recurse | Select-Object -First 1 -ExpandProperty FullName
 
-          if (-not $exePath -or -not (Test-Path $exePath)) {
-              Write-Host "Directory structure:"
-              Get-ChildItem -Path $extractPath -Recurse | ForEach-Object { Write-Host $_.FullName }
-              throw "git-cliff.exe not found after extraction"
-          }
+                  if (-not $exePath -or -not (Test-Path $exePath)) {
+                      Write-Host "Directory structure:"
+                      Get-ChildItem -Path $extractPath -Recurse | ForEach-Object { Write-Host $_.FullName }
+                      throw "git-cliff.exe not found after extraction"
+                  }
 
-          $binPath = Split-Path $exePath -Parent
-          Write-Host "Found git-cliff.exe at: $exePath"
+                  $binPath = Split-Path $exePath -Parent
+                  Write-Host "Found git-cliff.exe at: $exePath"
 
-          # Add to PATH for this session
-          $env:PATH = "$binPath;$env:PATH"
-          "PATH=$env:PATH" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+                  # Add to PATH for this session
+                  $env:PATH = "$binPath;$env:PATH"
+                  "PATH=$env:PATH" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
-          Write-Host "git-cliff installed successfully"
-          & $exePath --version
-        shell: pwsh
+                  Write-Host "git-cliff installed successfully"
+                  & $exePath --version
+              shell: pwsh
 
-      - name: Generate release notes
-        if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
-        id: release-notes
-        run: |
-          $version = '${{ steps.manifest.outputs.version }}'
-          Write-Host "Generating release notes for version $version"
+            - name: Generate release notes
+              if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
+              id: release-notes
+              run: |
+                  $version = '${{ steps.manifest.outputs.version }}'
+                  Write-Host "Generating release notes for version $version"
 
-          # Check if the tag exists yet
-          $tagExists = git tag -l "v$version"
+                  # Check if the tag exists yet
+                  $tagExists = git tag -l "v$version"
 
-          if ($tagExists) {
-              # Tag exists, generate notes for latest tag
-              Write-Host "Tag v$version exists, generating notes for latest release"
-              $notes = & pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Latest
-          } else {
-              # Tag doesn't exist yet, generate unreleased notes
-              Write-Host "Tag v$version doesn't exist yet, generating unreleased notes"
-              $notes = & pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Unreleased
-          }
+                  if ($tagExists) {
+                      # Tag exists, generate notes for latest tag
+                      Write-Host "Tag v$version exists, generating notes for latest release"
+                      $notes = & pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Latest
+                  } else {
+                      # Tag doesn't exist yet, generate unreleased notes
+                      Write-Host "Tag v$version doesn't exist yet, generating unreleased notes"
+                      $notes = & pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Unreleased
+                  }
 
-          if ([string]::IsNullOrWhiteSpace($notes)) {
-              Write-Warning "No release notes generated, using fallback"
-              $notes = @"
-          ## Release v$version
+                  if ([string]::IsNullOrWhiteSpace($notes)) {
+                      Write-Warning "No release notes generated, using fallback"
+                      $notes = @"
+                  ## Release v$version
 
-          See [CHANGELOG.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CHANGELOG.md) for full details.
-          "@
-          }
+                  See [CHANGELOG.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CHANGELOG.md) for full details.
+                  "@
+                  }
 
-          # Write to file for GitHub Actions
-          $notesFile = Join-Path $env:RUNNER_TEMP "release-notes.md"
-          Set-Content -Path $notesFile -Value $notes -Encoding UTF8
+                  # Write to file for GitHub Actions
+                  $notesFile = Join-Path $env:RUNNER_TEMP "release-notes.md"
+                  Set-Content -Path $notesFile -Value $notes -Encoding UTF8
 
-          Write-Host "Release notes preview:"
-          Write-Host "------------------------"
-          Write-Host $notes
-          Write-Host "------------------------"
+                  Write-Host "Release notes preview:"
+                  Write-Host "------------------------"
+                  Write-Host $notes
+                  Write-Host "------------------------"
 
-          "notesFile=$notesFile" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
-        shell: pwsh
+                  "notesFile=$notesFile" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+              shell: pwsh
 
-      - name: Create GitHub Release
-        if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
-        uses: ncipollo/release-action@b7eabc95ff50cbeeedec83973935c8f306dfcd0b # v1.20.0
-        with:
-          tag: v${{ steps.manifest.outputs.version }}
-          name: Release v${{ steps.manifest.outputs.version }}
-          bodyFile: ${{ steps.release-notes.outputs.notesFile }}
-          artifacts: ${{ steps.package.outputs.packagePath }}
-          draft: false
-          prerelease: false
-          allowUpdates: true
-          updateOnlyUnreleased: false
-          skipIfReleaseExists: false
+            - name: Create GitHub Release
+              if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
+              uses: ncipollo/release-action@b7eabc95ff50cbeeedec83973935c8f306dfcd0b # v1.20.0
+              with:
+                  tag: v${{ steps.manifest.outputs.version }}
+                  name: Release v${{ steps.manifest.outputs.version }}
+                  bodyFile: ${{ steps.release-notes.outputs.notesFile }}
+                  artifacts: ${{ steps.package.outputs.packagePath }}
+                  draft: false
+                  prerelease: false
+                  allowUpdates: true
+                  updateOnlyUnreleased: false
+                  skipIfReleaseExists: false
 
-      - name: Publish to PowerShell Gallery
-        run: |
-          $packagePath = '${{ steps.package.outputs.packagePath }}'
-          if (-not (Test-Path $packagePath)) {
-              throw "Package not found at $packagePath"
-          }
+            - name: Publish to PowerShell Gallery
+              run: |
+                  $packagePath = '${{ steps.package.outputs.packagePath }}'
+                  if (-not (Test-Path $packagePath)) {
+                      throw "Package not found at $packagePath"
+                  }
 
-          $apiKey = $env:PSGALLERYAPIKEY
-          if ([string]::IsNullOrWhiteSpace($apiKey)) {
-              Write-Host 'No PowerShell Gallery API key provided. Skipping publish.'
-              return
-          }
+                  $apiKey = $env:PSGALLERYAPIKEY
+                  if ([string]::IsNullOrWhiteSpace($apiKey)) {
+                      Write-Host 'No PowerShell Gallery API key provided. Skipping publish.'
+                      return
+                  }
 
-          Write-Host "Publishing $packagePath to PowerShell Gallery"
-          dotnet nuget push $packagePath --api-key $apiKey --source https://www.powershellgallery.com/api/v2/package --skip-duplicate
-        shell: pwsh
+                  Write-Host "Publishing $packagePath to PowerShell Gallery"
+                  dotnet nuget push $packagePath --api-key $apiKey --source https://www.powershellgallery.com/api/v2/package --skip-duplicate
+              shell: pwsh
 
-      - name: Publish to NuGet.org
-        if: ${{ env.NUGETAPIKEY != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_NUGET_INPUT != 'false') }}
-        run: |
-          $packagePath = '${{ steps.package.outputs.packagePath }}'
-          if (-not (Test-Path $packagePath)) {
-              throw "Package not found at $packagePath"
-          }
+            - name: Publish to NuGet.org
+              if: ${{ env.NUGETAPIKEY != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_NUGET_INPUT != 'false') }}
+              run: |
+                  $packagePath = '${{ steps.package.outputs.packagePath }}'
+                  if (-not (Test-Path $packagePath)) {
+                      throw "Package not found at $packagePath"
+                  }
 
-          $apiKey = $env:NUGETAPIKEY
-          if ([string]::IsNullOrWhiteSpace($apiKey)) {
-              Write-Host 'No NuGet.org API key provided. Skipping publish.'
-              return
-          }
+                  $apiKey = $env:NUGETAPIKEY
+                  if ([string]::IsNullOrWhiteSpace($apiKey)) {
+                      Write-Host 'No NuGet.org API key provided. Skipping publish.'
+                      return
+                  }
 
-          Write-Host "Publishing $packagePath to NuGet.org"
-          dotnet nuget push $packagePath --api-key $apiKey --source https://api.nuget.org/v3/index.json --skip-duplicate
-        shell: pwsh
+                  Write-Host "Publishing $packagePath to NuGet.org"
+                  dotnet nuget push $packagePath --api-key $apiKey --source https://api.nuget.org/v3/index.json --skip-duplicate
+              shell: pwsh
 
-      - name: Publish to GitHub Packages
-        if: ${{ env.PACKAGES_TOKEN != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_GITHUB_INPUT != 'false') }}
-        run: |
-          $packagePath = '${{ steps.package.outputs.packagePath }}'
-          if (-not (Test-Path $packagePath)) {
-              throw "Package not found at $packagePath"
-          }
+            - name: Publish to GitHub Packages
+              if: ${{ env.PACKAGES_TOKEN != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_GITHUB_INPUT != 'false') }}
+              run: |
+                  $packagePath = '${{ steps.package.outputs.packagePath }}'
+                  if (-not (Test-Path $packagePath)) {
+                      throw "Package not found at $packagePath"
+                  }
 
-          $token = $env:PACKAGES_TOKEN
-          if ([string]::IsNullOrWhiteSpace($token)) {
-              Write-Host 'No GitHub Packages token provided. Skipping publish.'
-              return
-          }
+                  $token = $env:PACKAGES_TOKEN
+                  if ([string]::IsNullOrWhiteSpace($token)) {
+                      Write-Host 'No GitHub Packages token provided. Skipping publish.'
+                      return
+                  }
 
-          $source = "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json"
-          Write-Host "Publishing $packagePath to GitHub Packages feed $source"
-          dotnet nuget push $packagePath --api-key $token --source $source --skip-duplicate
-        shell: pwsh
+                  $source = "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json"
+                  Write-Host "Publishing $packagePath to GitHub Packages feed $source"
+                  dotnet nuget push $packagePath --api-key $token --source $source --skip-duplicate
+              shell: pwsh

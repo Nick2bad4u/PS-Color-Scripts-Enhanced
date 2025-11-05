@@ -22,7 +22,7 @@ Export-ColorScriptMetadata [-Path <String>] [-IncludeFileInfo] [-IncludeCacheInf
  [<CommonParameters>]
 ```
 
-### __AllParameterSets
+### \_\_AllParameterSets
 
 ```
 Export-ColorScriptMetadata [[-Path] <string>] [-IncludeFileInfo] [-IncludeCacheInfo] [-PassThru]
@@ -36,10 +36,12 @@ Export-ColorScriptMetadata [[-Path] <string>] [-IncludeFileInfo] [-IncludeCacheI
 デフォルトでは、コマンドレットはPowerShellオブジェクトをパイプラインに返します。`-Path` パラメータが指定されると、メタデータをフォーマットされたJSONとして指定されたファイルに書き込み、親ディレクトリが存在しない場合は自動的に作成します。
 
 コマンドレットは2つのオプションのエンリッチメントフラグを提供します：
+
 - **IncludeFileInfo**: フルパス、ファイルサイズ（バイト単位）、最終変更タイムスタンプなどのファイルシステムメタデータを追加します
 - **IncludeCacheInfo**: キャッシュファイルパス、存在ステータス、キャッシュタイムスタンプなどのキャッシュ関連情報を追加します
 
 このコマンドレットは特に以下の用途に役立ちます：
+
 - 利用可能なすべてのカラースクリプトを表示するドキュメントまたはダッシュボードの作成
 - キャッシュカバレッジの分析とキャッシュ再構築が必要なスクリプトの特定
 - 外部ツールまたは自動化パイプラインへのメタデータのフィード
@@ -215,15 +217,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -IncludeFileInfo
@@ -236,15 +238,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -PassThru
@@ -257,15 +259,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Path
@@ -278,15 +280,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: 0
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -329,6 +331,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### Data Analysis and Reporting
 
 **包括的なインベントリレポート**
+
 ```powershell
 # Generate complete inventory with all metadata
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo -PassThru
@@ -345,6 +348,7 @@ $report | ConvertTo-Json | Out-File "./inventory-report.json"
 ```
 
 **カテゴリ分布分析**
+
 ```powershell
 # Analyze distribution across categories
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo
@@ -362,6 +366,7 @@ $categories | Sort-Object Count -Descending | Format-Table
 ```
 
 **キャッシュカバレッジ分析**
+
 ```powershell
 # Identify cache gaps
 $metadata = Export-ColorScriptMetadata -IncludeCacheInfo -PassThru
@@ -378,6 +383,7 @@ $uncached | Select-Object Name, Category | Format-Table
 ### Integration Workflows
 
 **API Response Generation**
+
 ```powershell
 # Build versioned API response
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
@@ -396,6 +402,7 @@ $apiResponse | Out-File "./api/colorscripts-v1.json" -Encoding UTF8
 ```
 
 **Web Gallery Generation**
+
 ```powershell
 # Create interactive HTML gallery
 $metadata = Export-ColorScriptMetadata -Detailed
@@ -423,6 +430,7 @@ $html | Out-File "./gallery.html" -Encoding UTF8
 ```
 
 **Change Tracking**
+
 ```powershell
 # Compare current state with previous export
 Export-ColorScriptMetadata -Path "./metadata-current.json" -IncludeFileInfo
@@ -442,6 +450,7 @@ if ($previous) {
 ### Maintenance and Validation
 
 **Health Check Automation**
+
 ```powershell
 # Validate all scripts and cache status
 $metadata = Export-ColorScriptMetadata -IncludeCacheInfo -IncludeFileInfo -PassThru
@@ -459,6 +468,7 @@ $health | Where-Object { -not $_.FileExists -or -not $_.Cached } | Format-Table
 ```
 
 **Performance Metrics**
+
 ```powershell
 # Export with performance data
 $startTime = Get-Date
@@ -477,6 +487,7 @@ $metrics | ConvertTo-Json | Out-File "./performance.json"
 ### Backup and Disaster Recovery
 
 **Metadata Backup**
+
 ```powershell
 # Create timestamped metadata backup
 $timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
@@ -487,6 +498,7 @@ Get-ChildItem "./backups/metadata-*.json" | Sort-Object Name -Descending | Selec
 ```
 
 **Recovery Validation**
+
 ```powershell
 # Validate backed-up metadata against current state
 $backup = Get-Content "./backups/metadata-latest.json" | ConvertFrom-Json
@@ -501,24 +513,29 @@ if ($missing.Count -gt 0) {
 ## NOTES
 
 **Performance Considerations:**
+
 - Adding `-IncludeFileInfo` or `-IncludeCacheInfo` requires filesystem I/O operations and may impact performance when processing large colorscript libraries.
 - For large exports, consider using `-PassThru` with pipeline filtering rather than loading all in memory
 - Export operations scale linearly with script count
 
 **Cache Directory Management:**
+
 - Cache metadata collection ensures the cache directory exists before attempting to read cache files.
 - When cache files are missing or unavailable, the `CacheExists` property is set to `false` and `CacheLastWriteTime` is set to null.
 
 **Error Handling:**
+
 - File metadata read errors are reported via verbose output (`-Verbose`) rather than terminating the cmdlet.
 - Individual file errors result in null values for the affected properties while allowing the cmdlet to continue processing remaining colorscripts.
 
 **JSON Output Format:**
+
 - JSON files are written with indentation (depth 2) for human readability.
 - The output encoding is UTF-8 for maximum compatibility.
 - Existing files at the target path are overwritten without prompting.
 
 **Best Practices:**
+
 - Schedule regular metadata exports for auditing
 - Version your metadata exports with timestamps
 - Use `-PassThru` for both file export and pipeline processing
@@ -526,6 +543,7 @@ if ($missing.Count -gt 0) {
 - Monitor export file size growth over time
 
 **Use Cases:**
+
 - Integrating with CI/CD pipelines for documentation generation
 - Building web dashboards or API endpoints serving colorscript metadata
 - Creating inventory reports for large colorscript collections

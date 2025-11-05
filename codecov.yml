@@ -97,7 +97,7 @@ coverage:
         - "**/*.yaml"
         - "**/*.json"
         - "**/*.toml"
-        - "**/*.psd1"  # Module manifest, low coverage
+        - "**/*.psd1" # Module manifest, low coverage
         - "package.json"
         - "package-lock.json"
         - "yarn.lock"
@@ -108,14 +108,14 @@ coverage:
 
         # Static assets
         - "assets/**/*"
-        - "**/*.ans"  # ANSI files
-        - "**/*.txt"  # Text files
+        - "**/*.ans" # ANSI files
+        - "**/*.txt" # Text files
 
         # Node modules and dependencies
         - "node_modules/**/*"
 
         # Generated or third-party
-        - "types/**/*"  # Type definitions
+        - "types/**/*" # Type definitions
 
     precision: 2
     range: "60...100" # Realistic range for PowerShell module
@@ -167,7 +167,7 @@ flags:
     module:
         carryforward: true
         ignore:
-            - "Tests/**/*"  # Don't include tests in module coverage
+            - "Tests/**/*" # Don't include tests in module coverage
             - "scripts/**/*"
             - "docs/**/*"
         paths:
@@ -175,7 +175,7 @@ flags:
     tests:
         carryforward: true
         ignore:
-            - "ColorScripts-Enhanced/**/*"  # Don't include module in test coverage
+            - "ColorScripts-Enhanced/**/*" # Don't include module in test coverage
         paths:
             - Tests/
 

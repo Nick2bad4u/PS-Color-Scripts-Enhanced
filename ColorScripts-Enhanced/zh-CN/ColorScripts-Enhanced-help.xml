@@ -11,8 +11,10 @@
     </command:details>
     <maml:description>
       <maml:para>自动将 ColorScripts-Enhanced 启动集成添加到您的 PowerShell 配置文件中。此 cmdlet 修改您的配置文件以导入 ColorScripts-Enhanced 模块，并在会话启动时可选地显示颜色脚本。</maml:para>
-      <maml:para>此 cmdlet 支持所有标准 PowerShell 配置文件范围： - CurrentUserCurrentHost：当前用户和当前主机的配置文件 - CurrentUserAllHosts：当前用户跨所有主机的配置文件 - AllUsersCurrentHost：当前主机上所有用户的配置文件（需要管理员权限） - AllUsersAllHosts：跨所有主机所有用户的配置文件（需要管理员权限）</maml:para>
-      <maml:para>执行时，它添加一个代码片段，该片段： 1. 导入 ColorScripts-Enhanced 模块 2. 可选地在启动时显示随机颜色脚本 3. 提供便捷的别名以便快速访问</maml:para>
+      <maml:para>此 cmdlet 支持所有标准 PowerShell 配置文件范围：</maml:para>
+      <maml:para>- CurrentUserCurrentHost：当前用户和当前主机的配置文件 - CurrentUserAllHosts：当前用户跨所有主机的配置文件 - AllUsersCurrentHost：当前主机上所有用户的配置文件（需要管理员权限） - AllUsersAllHosts：跨所有主机所有用户的配置文件（需要管理员权限）</maml:para>
+      <maml:para>执行时，它添加一个代码片段，该片段：</maml:para>
+      <maml:para>1. 导入 ColorScripts-Enhanced 模块 2. 可选地在启动时显示随机颜色脚本 3. 提供便捷的别名以便快速访问</maml:para>
       <maml:para>此集成设计为非侵入性的，可以通过直接编辑配置文件轻松移除。</maml:para>
     </maml:description>
     <command:syntax>
@@ -21,8 +23,8 @@
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
           <maml:name>Scope</maml:name>
           <maml:description>
-            <maml:para>指定要修改的配置文件范围。有效值为：
-- CurrentUserCurrentHost（默认）
+            <maml:para>指定要修改的配置文件范围。有效值为：</maml:para>
+            <maml:para>- CurrentUserCurrentHost（默认）
 - CurrentUserAllHosts
 - AllUsersCurrentHost
 - AllUsersAllHosts</maml:para>
@@ -35,8 +37,8 @@
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>Scope</maml:name>
         <maml:description>
-          <maml:para>指定要修改的配置文件范围。有效值为：
-- CurrentUserCurrentHost（默认）
+          <maml:para>指定要修改的配置文件范围。有效值为：</maml:para>
+          <maml:para>- CurrentUserCurrentHost（默认）
 - CurrentUserAllHosts
 - AllUsersCurrentHost
 - AllUsersAllHosts</maml:para>
@@ -74,11 +76,13 @@
 此 cmdlet 添加一个启动代码片段，用于导入 ColorScripts-Enhanced 并提供便捷访问。此集成设计为轻量级且非破坏性的。
 
 **范围注意事项：**
+
 - CurrentUser 范围修改您用户配置文件目录中的文件
 - AllUsers 范围需要管理员权限并影响所有用户
 - 更改在新的 PowerShell 会话中生效
 
 **安全功能：**
+
 - 检查现有集成以避免重复
 - 使用标准 PowerShell 配置文件机制
 - 提供 WhatIf 和 Confirm 选项以确保安全操作</maml:para>
@@ -181,7 +185,8 @@ Add-ColorScriptProfile -Confirm
     <maml:description>
       <maml:para>删除颜色脚本的缓存输出文件，以在下次显示时强制执行新鲜执行。此 cmdlet 为单个脚本或批量操作提供目标缓存管理。</maml:para>
       <maml:para>缓存系统存储渲染的 ANSI 输出，以提供近乎即时的显示性能。随着时间的推移，如果源脚本被修改，缓存文件可能会过时，或者您可能出于故障排除目的想要清除缓存。</maml:para>
-      <maml:para>使用此 cmdlet 的情况： - 源颜色脚本已被修改 - 怀疑缓存损坏 - 您想要确保新鲜执行 - 希望释放磁盘空间</maml:para>
+      <maml:para>使用此 cmdlet 的情况：</maml:para>
+      <maml:para>- 源颜色脚本已被修改 - 怀疑缓存损坏 - 您想要确保新鲜执行 - 希望释放磁盘空间</maml:para>
       <maml:para>此 cmdlet 支持目标清除（特定脚本）和批量操作（所有缓存文件）。</maml:para>
     </maml:description>
     <command:syntax>
@@ -200,7 +205,7 @@ Add-ColorScriptProfile -Confirm
       <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
         <maml:name>Name</maml:name>
         <maml:description>
-          <maml:para>指定要从缓存中清除的颜色脚本名称。支持通配符（* 和 ?）进行模式匹配。</maml:para>
+          <maml:para>指定要从缓存中清除的颜色脚本名称。支持通配符（\* 和 ?）进行模式匹配。</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
       </command:parameter>
@@ -235,6 +240,7 @@ Add-ColorScriptProfile -Confirm
 缓存文件存储在模块管理的目录中。使用 `(Get-Module ColorScripts-Enhanced).ModuleBase` 定位模块目录，然后查找缓存子目录。
 
 **何时清除缓存：**
+
 - 修改源颜色脚本文件后
 - 故障排除显示问题时
 - 确保脚本的新鲜执行
@@ -343,8 +349,10 @@ Get-ColorScriptList -Category Nature -AsObject | ForEach-Object {
     </command:details>
     <maml:description>
       <maml:para>将颜色脚本的综合元数据导出到外部文件，用于文档、报告或与其他工具的集成。支持多种输出格式，包括 JSON、CSV 和 XML。</maml:para>
-      <maml:para>导出的元数据包括： - 脚本名称和文件路径 - 类别和标签 - 描述和元数据 - 文件大小和修改日期 - 缓存状态信息</maml:para>
-      <maml:para>此 cmdlet 有助于： - 生成文档 - 创建清单 - 与 CI/CD 系统集成 - 备份和迁移目的 - 分析和报告</maml:para>
+      <maml:para>导出的元数据包括：</maml:para>
+      <maml:para>- 脚本名称和文件路径 - 类别和标签 - 描述和元数据 - 文件大小和修改日期 - 缓存状态信息</maml:para>
+      <maml:para>此 cmdlet 有助于：</maml:para>
+      <maml:para>- 生成文档 - 创建清单 - 与 CI/CD 系统集成 - 备份和迁移目的 - 分析和报告</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -436,11 +444,13 @@ Get-ColorScriptList -Category Nature -AsObject | ForEach-Object {
 **Requires:** PowerShell 5.1 或更高版本
 
 **Output Formats:**
+
 - JSON：用于编程访问的结构化数据
 - CSV：电子表格兼容格式
 - XML：层次数据结构
 
 **Use Cases:**
+
 - 文档生成
 - 清单管理
 - CI/CD 集成
@@ -547,7 +557,8 @@ Export-ColorScriptMetadata -Path "backup-$timestamp.json"
     <maml:description>
       <maml:para>显示 ColorScripts-Enhanced 的当前配置设置。这包括缓存路径、性能设置以及影响模块行为的用户偏好。</maml:para>
       <maml:para>配置系统提供持久设置，用于自定义模块的操作。设置存储在用户特定的配置文件中，可以使用 Set-ColorScriptConfiguration 修改。</maml:para>
-      <maml:para>显示的信息包括： - 缓存目录位置 - 性能优化设置 - 默认显示偏好 - 模块行为设置</maml:para>
+      <maml:para>显示的信息包括：</maml:para>
+      <maml:para>- 缓存目录位置 - 性能优化设置 - 默认显示偏好 - 模块行为设置</maml:para>
       <maml:para>此 cmdlet 对于了解当前模块配置和排除配置相关问题至关重要。</maml:para>
     </maml:description>
     <command:syntax>
@@ -583,6 +594,7 @@ Export-ColorScriptMetadata -Path "backup-$timestamp.json"
 **Requires:** PowerShell 5.1 or later
 
 **Configuration Properties:**
+
 - CachePath：存储缓存脚本输出的位置
 - 用于优化的性能设置
 - 默认行为的显示偏好
@@ -680,7 +692,8 @@ if (Get-ColorScriptConfiguration) {
     </command:details>
     <maml:description>
       <maml:para>返回 ColorScripts-Enhanced 集合中可用颜色脚本的信息。默认情况下，显示一个格式化的表格，显示脚本名称、类别和描述。使用 `-AsObject` 返回结构化对象以进行编程访问。</maml:para>
-      <maml:para>该 cmdlet 提供每个颜色脚本的全面元数据，包括： - 名称：脚本标识符（不带 .ps1 扩展名） - 类别：主题分组（自然、抽象、几何等） - 标签：用于过滤和发现的附加描述符 - 描述：脚本视觉内容的简要说明</maml:para>
+      <maml:para>该 cmdlet 提供每个颜色脚本的全面元数据，包括：</maml:para>
+      <maml:para>- 名称：脚本标识符（不带 .ps1 扩展名） - 类别：主题分组（自然、抽象、几何等） - 标签：用于过滤和发现的附加描述符 - 描述：脚本视觉内容的简要说明</maml:para>
       <maml:para>此 cmdlet 对于探索集合并在使用其他 cmdlet（如 `Show-ColorScript`）之前了解可用选项至关重要。</maml:para>
     </maml:description>
     <command:syntax>
@@ -703,7 +716,7 @@ if (Get-ColorScriptConfiguration) {
         <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
           <maml:name>Name</maml:name>
           <maml:description>
-            <maml:para>将结果过滤为匹配一个或多个名称模式的颜色脚本。支持通配符（* 和 ?）以进行灵活匹配。</maml:para>
+            <maml:para>将结果过滤为匹配一个或多个名称模式的颜色脚本。支持通配符（\* 和 ?）以进行灵活匹配。</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
         </command:parameter>
@@ -734,7 +747,7 @@ if (Get-ColorScriptConfiguration) {
       <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
         <maml:name>Name</maml:name>
         <maml:description>
-          <maml:para>将结果过滤为匹配一个或多个名称模式的颜色脚本。支持通配符（* 和 ?）以进行灵活匹配。</maml:para>
+          <maml:para>将结果过滤为匹配一个或多个名称模式的颜色脚本。支持通配符（\* 和 ?）以进行灵活匹配。</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
       </command:parameter>
@@ -781,12 +794,14 @@ if (Get-ColorScriptConfiguration) {
 **需要：** PowerShell 5.1 或更高版本
 
 **元数据属性：**
+
 - 名称：Show-ColorScript 使用的脚本标识符
 - 类别：用于组织的主题分组
 - 标签：用于过滤的描述性关键字数组
 - 描述：内容的易读说明
 
 **使用模式：**
+
 - 发现：在选择之前探索可用脚本
 - 过滤：使用类别和标签缩小选项范围
 - 自动化：使用 -AsObject 进行编程脚本选择
@@ -954,8 +969,10 @@ Get-ColorScriptList -AsObject | Where-Object {
     </command:details>
     <maml:description>
       <maml:para>创建一个新的颜色脚本文件，具有适当的元数据结构和可选的模板内容。此 cmdlet 提供了一种标准化的方式来创建新的颜色脚本，这些脚本可以无缝集成到 ColorScripts-Enhanced 生态系统中。</maml:para>
-      <maml:para>此 cmdlet 生成： - 一个具有基本结构的新 .ps1 文件 - 用于分类的关联元数据 - 基于所选样式的模板内容 - 适当的文件组织</maml:para>
-      <maml:para>可用的模板包括： - Basic：自定义脚本的最小结构 - Animated：具有定时控制的模板 - Interactive：具有用户输入处理的模板 - Geometric：几何图案的模板 - Nature：自然灵感设计的模板</maml:para>
+      <maml:para>此 cmdlet 生成：</maml:para>
+      <maml:para>- 一个具有基本结构的新 .ps1 文件 - 用于分类的关联元数据 - 基于所选样式的模板内容 - 适当的文件组织</maml:para>
+      <maml:para>可用的模板包括：</maml:para>
+      <maml:para>- Basic：自定义脚本的最小结构 - Animated：具有定时控制的模板 - Interactive：具有用户输入处理的模板 - Geometric：几何图案的模板 - Nature：自然灵感设计的模板</maml:para>
       <maml:para>创建的脚本会自动与模块的缓存和显示系统集成。</maml:para>
     </maml:description>
     <command:syntax>
@@ -1076,6 +1093,7 @@ Get-ColorScriptList -AsObject | Where-Object {
 **Requires:** PowerShell 5.1 或更高版本
 
 **Templates:**
+
 - Basic：自定义脚本的最小结构
 - Animated：具有定时控制的模板
 - Interactive：具有用户输入处理的模板
@@ -1187,7 +1205,8 @@ foreach ($theme in $themes) {
     <maml:description>
       <maml:para>预先生成颜色脚本的缓存输出，以确保首次显示时的最佳性能。此 cmdlet 提前执行颜色脚本并存储其渲染输出，以便即时检索。</maml:para>
       <maml:para>缓存系统通过消除显示时的脚本执行时间，提供 6-19 倍的性能提升。当源脚本被修改时，缓存内容会自动失效。</maml:para>
-      <maml:para>使用此 cmdlet 来： - 为常用脚本准备缓存 - 确保跨会话的一致性能 - 在模块更新后预热缓存 - 优化启动性能</maml:para>
+      <maml:para>使用此 cmdlet 来：</maml:para>
+      <maml:para>- 为常用脚本准备缓存 - 确保跨会话的一致性能 - 在模块更新后预热缓存 - 优化启动性能</maml:para>
       <maml:para>此 cmdlet 支持按名称、类别或标签进行选择性缓存，允许针对性缓存准备。</maml:para>
     </maml:description>
     <command:syntax>
@@ -1203,7 +1222,7 @@ foreach ($theme in $themes) {
         <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
           <maml:name>Name</maml:name>
           <maml:description>
-            <maml:para>指定要缓存的颜色脚本名称。支持通配符（* 和 ?）。</maml:para>
+            <maml:para>指定要缓存的颜色脚本名称。支持通配符（\* 和 ?）。</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
         </command:parameter>
@@ -1227,7 +1246,7 @@ foreach ($theme in $themes) {
       <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
         <maml:name>Name</maml:name>
         <maml:description>
-          <maml:para>指定要缓存的颜色脚本名称。支持通配符（* 和 ?）。</maml:para>
+          <maml:para>指定要缓存的颜色脚本名称。支持通配符（\* 和 ?）。</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
       </command:parameter>
@@ -1272,6 +1291,7 @@ foreach ($theme in $themes) {
 缓存文件存储在模块管理的目录中，当源脚本更改时会自动失效。使用 Clear-ColorScriptCache 删除过时的缓存。
 
 **最佳实践：**
+
 - 为常用脚本缓存以获得最佳性能
 - 使用选择性缓存以避免不必要的处理
 - 在模块更新后运行以确保缓存有效性</maml:para>
@@ -1374,8 +1394,10 @@ New-ColorScriptCache -Category Geometric -Tag minimal
     </command:details>
     <maml:description>
       <maml:para>恢复 ColorScripts-Enhanced 配置设置到其默认值。此 cmdlet 删除所有用户自定义设置，并将模块返回到其原始配置状态。</maml:para>
-      <maml:para>重置操作包括： - 缓存路径设置 - 性能首选项 - 显示选项 - 模块行为设置</maml:para>
-      <maml:para>此 cmdlet 在以下情况下很有用： - 配置变得损坏时 - 您想要使用默认设置重新开始时 - 排除配置相关问题时 - 为干净的模块测试做准备时</maml:para>
+      <maml:para>重置操作包括：</maml:para>
+      <maml:para>- 缓存路径设置 - 性能首选项 - 显示选项 - 模块行为设置</maml:para>
+      <maml:para>此 cmdlet 在以下情况下很有用：</maml:para>
+      <maml:para>- 配置变得损坏时 - 您想要使用默认设置重新开始时 - 排除配置相关问题时 - 为干净的模块测试做准备时</maml:para>
       <maml:para>重置操作默认需要确认，以防止意外数据丢失。</maml:para>
     </maml:description>
     <command:syntax>
@@ -1506,7 +1528,8 @@ Get-ColorScriptConfiguration
     </command:details>
     <maml:description>
       <maml:para>使用持久存储更新 ColorScripts-Enhanced 配置设置。此 cmdlet 允许通过用户可配置选项自定义模块行为。</maml:para>
-      <maml:para>可配置设置包括： - 缓存目录位置 - 性能优化偏好 - 默认显示行为 - 模块操作设置</maml:para>
+      <maml:para>可配置设置包括：</maml:para>
+      <maml:para>- 缓存目录位置 - 性能优化偏好 - 默认显示行为 - 模块操作设置</maml:para>
       <maml:para>更改会自动保存到用户特定的配置文件中，并在 PowerShell 会话之间保持。使用 Get-ColorScriptConfiguration 查看当前设置。</maml:para>
     </maml:description>
     <command:syntax>
@@ -1732,7 +1755,7 @@ Set-ColorScriptConfiguration -CachePath "D:\Cache"
         <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
           <maml:name>Name</maml:name>
           <maml:description>
-            <maml:para>The name of the colorscript to display (without the .ps1 extension). Supports wildcard patterns (* and ?) for flexible matching. When multiple scripts match a wildcard pattern, the first match in alphabetical order is selected and displayed. Use `-PassThru` to verify which script was chosen when using wildcards.</maml:para>
+            <maml:para>The name of the colorscript to display (without the .ps1 extension). Supports wildcard patterns (\* and ?) for flexible matching. When multiple scripts match a wildcard pattern, the first match in alphabetical order is selected and displayed. Use `-PassThru` to verify which script was chosen when using wildcards.</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.String</command:parameterValue>
         </command:parameter>
@@ -1874,7 +1897,7 @@ Set-ColorScriptConfiguration -CachePath "D:\Cache"
       <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
         <maml:name>Name</maml:name>
         <maml:description>
-          <maml:para>The name of the colorscript to display (without the .ps1 extension). Supports wildcard patterns (* and ?) for flexible matching. When multiple scripts match a wildcard pattern, the first match in alphabetical order is selected and displayed. Use `-PassThru` to verify which script was chosen when using wildcards.</maml:para>
+          <maml:para>The name of the colorscript to display (without the .ps1 extension). Supports wildcard patterns (\* and ?) for flexible matching. When multiple scripts match a wildcard pattern, the first match in alphabetical order is selected and displayed. Use `-PassThru` to verify which script was chosen when using wildcards.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String</command:parameterValue>
       </command:parameter>
@@ -1967,12 +1990,14 @@ Set-ColorScriptConfiguration -CachePath "D:\Cache"
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
 **Cache Management:**
+
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 **Tips:**
+
 - Add `Show-ColorScript -Random` to your PowerShell profile for a colorful greeting on each session start
 - Use the module alias `scs` for quick access: `scs -Random`
 - Combine category and tag filters for precise selection
@@ -1987,6 +2012,7 @@ Colorscripts use ANSI escape sequences and display best in terminals with full c
 ### Filtering Strategies
 
 **By Category and Tag Combination**
+
 ```powershell
 # Show only geometric colorscripts tagged as minimal
 Show-ColorScript -Category Geometric -Tag minimal -Random
@@ -1999,6 +2025,7 @@ Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
 ```
 
 **Dynamic Filtering Based on Time**
+
 ```powershell
 # Morning: bright colors
 if ((Get-Date).Hour -lt 12) {
@@ -2013,6 +2040,7 @@ else {
 ### Output Capture Patterns
 
 **Save for Later Viewing**
+
 ```powershell
 # Save to variable
 $art = Show-ColorScript -Name spectrum -ReturnText
@@ -2023,6 +2051,7 @@ Get-Content "./my-art.ansi" -Raw | Write-Host
 ```
 
 **Create Themed Collections**
+
 ```powershell
 # Collect all geometric scripts
 $geometric = Get-ColorScriptList -Category Geometric -AsObject
@@ -2037,6 +2066,7 @@ $geometric | ForEach-Object {
 ### Performance Analysis
 
 **Comprehensive Benchmark**
+
 ```powershell
 # Function to benchmark colorscript performance
 function Measure-ColorScriptPerformance {
@@ -2068,6 +2098,7 @@ Get-ColorScriptList -Category Geometric -AsObject |
 ### Terminal Customization
 
 **Terminal-Specific Display**
+
 ```powershell
 # Windows Terminal with ANSI support
 if ($env:WT_SESSION) {
@@ -2093,6 +2124,7 @@ if ($env:ConEmuANSI -eq "ON") {
 ### Automation Integration
 
 **Scheduled Colorscript Rotation**
+
 ```powershell
 # Create scheduled task wrapper
 function Start-ColorScriptSession {
@@ -2115,6 +2147,7 @@ function Start-ColorScriptSession {
 ### Error Handling and Resilience
 
 **Graceful Fallback**
+
 ```powershell
 # Try specific script, fallback to random
 try {
@@ -2126,6 +2159,7 @@ try {
 ```
 
 **Validation Before Display**
+
 ```powershell
 # Verify script exists before displaying
 $scripts = Get-ColorScriptList -AsObject
@@ -2142,6 +2176,7 @@ if ($scriptName -in $scripts.Name) {
 ### Metadata Inspection
 
 **Inspect Before Displaying**
+
 ```powershell
 # Get metadata while displaying
 $metadata = Show-ColorScript -Name aurora-waves -PassThru
@@ -2165,12 +2200,14 @@ if ($metadata.Tags -contains "Animated") {
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
 **Cache Management:**
+
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 **Advanced Tips:**
+
 - Use `-PassThru` to get metadata while displaying for post-processing
 - Combine `-ReturnText` with pipeline commands for advanced text manipulation
 - Use `-NoCache` during development of custom colorscripts for immediate feedback
@@ -2184,14 +2221,14 @@ The intelligent caching system provides 6-19x performance improvements over dire
 
 **Terminal Compatibility Matrix:**
 
-| Terminal | ANSI Support | UTF-8 | Performance | Notes |
-|----------|---------|-------|-----------|-------|
-| Windows Terminal | ✓ Excellent | ✓ Full | Excellent | Recommended |
-| ConEmu | ✓ Good | ✓ Full | Good | Legacy but reliable |
-| VS Code | ✓ Good | ✓ Full | Very Good | Slight rendering delay |
-| PowerShell ISE | ✗ Limited | ✗ Limited | N/A | Not recommended |
-| SSH Terminal | ✓ Varies | ✓ Depends | Varies | Network latency may affect |
-| Windows 10 Console | ✗ No | ✓ Yes | N/A | Not recommended |</maml:para>
+| Terminal           | ANSI Support | UTF-8     | Performance | Notes                      |
+| ------------------ | ------------ | --------- | ----------- | -------------------------- |
+| Windows Terminal   | ✓ Excellent  | ✓ Full    | Excellent   | Recommended                |
+| ConEmu             | ✓ Good       | ✓ Full    | Good        | Legacy but reliable        |
+| VS Code            | ✓ Good       | ✓ Full    | Very Good   | Slight rendering delay     |
+| PowerShell ISE     | ✗ Limited    | ✗ Limited | N/A         | Not recommended            |
+| SSH Terminal       | ✓ Varies     | ✓ Depends | Varies      | Network latency may affect |
+| Windows 10 Console | ✗ No         | ✓ Yes     | N/A         | Not recommended            |</maml:para>
       </maml:alert>
     </maml:alertSet>
     <command:examples>
@@ -2226,7 +2263,7 @@ Show-ColorScript -Name "mandelbrot-zoom"
 Show-ColorScript -Name "aurora-*"
 ```</maml:para>
           <maml:para>&#x80;</maml:para>
-          <maml:para>显示（按字母顺序）匹配通配符模式"aurora-*"的第一个颜色脚本。当您记住脚本名称的一部分时很有用。</maml:para>
+          <maml:para>显示（按字母顺序）匹配通配符模式"aurora-\*"的第一个颜色脚本。当您记住脚本名称的一部分时很有用。</maml:para>
         </maml:introduction>
         <dev:code />
         <dev:remarks />

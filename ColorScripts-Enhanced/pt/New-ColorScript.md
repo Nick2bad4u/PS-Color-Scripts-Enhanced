@@ -25,12 +25,14 @@ New-ColorScript [-Name] <string> [[-Category] <string>] [[-Tags] <string[]>] [[-
 Cria um novo arquivo de colorscript com estrutura de metadados adequada e conteúdo de template opcional. Este cmdlet fornece uma maneira padronizada de criar novos colorscripts que se integram perfeitamente ao ecossistema ColorScripts-Enhanced.
 
 O cmdlet gera:
+
 - Um novo arquivo .ps1 com estrutura básica
 - Metadados associados para categorização
 - Conteúdo de template baseado no estilo selecionado
 - Organização adequada de arquivos
 
 Templates disponíveis incluem:
+
 - Basic: Estrutura mínima para scripts personalizados
 - Animated: Template com controles de tempo
 - Interactive: Template com tratamento de entrada do usuário
@@ -289,6 +291,7 @@ Retorna um objeto com informações sobre o colorscript criado.
 **Requires:** PowerShell 5.1 ou posterior
 
 **Templates:**
+
 - Basic: Estrutura mínima para scripts personalizados
 - Animated: Template com controles de tempo
 - Interactive: Template com tratamento de entrada do usuário

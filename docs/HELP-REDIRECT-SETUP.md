@@ -46,6 +46,7 @@ https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?c
 ```
 
 For example:
+
 - `Show-ColorScript`: `https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript`
 - `Get-ColorScriptList`: `https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList`
 
@@ -61,18 +62,18 @@ https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?c
 
 The redirect system automatically detects and maps these languages:
 
-| Language | Culture Code | Supported |
-|----------|-------------|-----------|
-| German | de | ✅ |
-| English (US) | en-US | ✅ |
-| Spanish | es | ✅ |
-| French | fr | ✅ |
-| Italian | it | ✅ |
-| Japanese | ja | ✅ |
-| Dutch | nl | ✅ |
-| Portuguese | pt | ✅ |
-| Russian | ru | ✅ |
-| Chinese (Simplified) | zh-CN | ✅ |
+| Language             | Culture Code | Supported |
+| -------------------- | ------------ | --------- |
+| German               | de           | ✅        |
+| English (US)         | en-US        | ✅        |
+| Spanish              | es           | ✅        |
+| French               | fr           | ✅        |
+| Italian              | it           | ✅        |
+| Japanese             | ja           | ✅        |
+| Dutch                | nl           | ✅        |
+| Portuguese           | pt           | ✅        |
+| Russian              | ru           | ✅        |
+| Chinese (Simplified) | zh-CN        | ✅        |
 
 ## Language Detection Logic
 
@@ -88,11 +89,13 @@ The redirect page uses this priority order:
 You can test the redirect system by:
 
 1. **Testing automatic detection**:
+
    ```
    Start-Process "https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript"
    ```
 
 2. **Testing specific language**:
+
    ```
    Start-Process "https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript&lang=fr"
    ```

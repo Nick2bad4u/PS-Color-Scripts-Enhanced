@@ -2,35 +2,35 @@ name: Analyze Repo with git-sizer
 run-name: Analyze Repo with git-sizer - ${{ github.event.inputs.repo }}
 
 on:
-  workflow_dispatch:
-    inputs:
-      repo:
-        description: "Repository to analyze (e.g., https://github.com/owner/repo.git)"
-        required: true
+    workflow_dispatch:
+        inputs:
+            repo:
+                description: "Repository to analyze (e.g., https://github.com/owner/repo.git)"
+                required: true
 
 permissions:
-  contents: read
+    contents: read
 
 jobs:
-  run-git-sizer:
-    name: git-sizer - ${{ github.event.inputs.repo }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Harden the runner (Audit all outbound calls)
-        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
-        with:
-          egress-policy: audit
+    run-git-sizer:
+        name: git-sizer - ${{ github.event.inputs.repo }}
+        runs-on: ubuntu-latest
+        steps:
+            - name: Harden the runner (Audit all outbound calls)
+              uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+              with:
+                  egress-policy: audit
 
-      - name: Checkout code
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+            - name: Checkout code
+              uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
-      - name: Use local git-sizer action
-        id: sizer
-        uses: ChrisCarini/github-git-sizer-action@09eaa4ae73038a5f0bbdc7e7b964f1bf6114c277 # latest
-        with:
-          repo: ${{ github.event.inputs.repo }}
-          flags: "--threshold=0"
+            - name: Use local git-sizer action
+              id: sizer
+              uses: ChrisCarini/github-git-sizer-action@09eaa4ae73038a5f0bbdc7e7b964f1bf6114c277 # latest
+              with:
+                  repo: ${{ github.event.inputs.repo }}
+                  flags: "--threshold=0"
 
-      - name: Print git-sizer output
-        run: |
-          printf "%s\n" "${{ steps.sizer.outputs.result }}"
+            - name: Print git-sizer output
+              run: |
+                  printf "%s\n" "${{ steps.sizer.outputs.result }}"

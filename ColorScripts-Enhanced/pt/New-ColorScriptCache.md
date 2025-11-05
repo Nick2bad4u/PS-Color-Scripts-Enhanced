@@ -27,6 +27,7 @@ Pré-gera saída em cache para colorscripts para garantir desempenho ideal na pr
 O sistema de cache fornece melhorias de desempenho de 6-19x. Na primeira execução, um colorscript é executado normalmente e sua saída é armazenada em cache. Exibições subsequentes usam a saída em cache para renderização quase instantânea. O cache é invalidado automaticamente quando os scripts de origem são modificados, garantindo precisão da saída.
 
 Use este cmdlet para:
+
 - Preparar cache para scripts frequentemente usados
 - Garantir desempenho consistente entre sessões
 - Pré-aquecer cache após atualizações do módulo
@@ -125,7 +126,7 @@ HelpMessage: ''
 
 ### -Name
 
-Especificar nomes de colorscript para cache. Suporta curingas (* e ?).
+Especificar nomes de colorscript para cache. Suporta curingas (\* e ?).
 
 ```yaml
 Type: System.String[]
@@ -221,6 +222,7 @@ Pré-cache elimina o tempo de execução na primeira exibição, fornecendo feed
 Arquivos em cache são armazenados em diretórios gerenciados pelo módulo e automaticamente invalidados quando os scripts de origem mudam. Use Clear-ColorScriptCache para remover cache desatualizado.
 
 **Best Practices:**
+
 - Armazenar em cache scripts frequentemente usados para desempenho ideal
 - Usar cache seletivo para evitar processamento desnecessário
 - Executar após atualizações do módulo para garantir validade do cache

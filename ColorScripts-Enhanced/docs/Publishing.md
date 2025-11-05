@@ -218,6 +218,7 @@ Publish-Module -Path "./ColorScripts-Enhanced" `
 ```
 
 **Verification:**
+
 ```powershell
 # Should appear in PowerShell Gallery after 5-10 minutes
 Find-Module -Name ColorScripts-Enhanced
@@ -402,8 +403,6 @@ gh issue list --label "bug" --state open
 ```
 
 ##
-
-
 
 ## Additional Resources
 

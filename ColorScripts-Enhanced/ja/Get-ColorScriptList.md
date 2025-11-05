@@ -25,6 +25,7 @@ Get-ColorScriptList [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>
 ColorScripts-Enhanced コレクションで利用可能なカラースクリプトに関する情報を返します。デフォルトでは、スクリプト名、カテゴリ、説明を表示したフォーマットされたテーブルを表示します。プログラムによるアクセス用に構造化されたオブジェクトを返すには `-AsObject` を使用します。
 
 このコマンドレットは、各カラースクリプトに関する包括的なメタデータを提供します：
+
 - Name: スクリプト識別子（.ps1 拡張子なし）
 - Category: テーマ別のグループ化（Nature、Abstract、Geometric など）
 - Tags: フィルタリングと発見のための追加記述子
@@ -131,15 +132,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Category
@@ -152,20 +153,20 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
 
-結果を 1 つ以上の名前パターンに一致するカラースクリプトにフィルタリングします。柔軟なマッチングのためにワイルドカード（* と ?）をサポートします。
+結果を 1 つ以上の名前パターンに一致するカラースクリプトにフィルタリングします。柔軟なマッチングのためにワイルドカード（\* と ?）をサポートします。
 
 ```yaml
 Type: System.String[]
@@ -173,15 +174,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -194,15 +195,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -232,12 +233,14 @@ HelpMessage: ''
 **Requires:** PowerShell 5.1 以降
 
 **Metadata Properties:**
+
 - Name: Show-ColorScript で使用されるスクリプト識別子
 - Category: 組織化のためのテーマ別グループ
 - Tags: フィルタリングのための記述キーワードの配列
 - Description: コンテンツの人間が読める説明
 
 **Usage Patterns:**
+
 - Discovery: 選択前に利用可能なスクリプトを探索
 - Filtering: カテゴリとタグを使用してオプションを絞り込む
 - Automation: プログラムによるスクリプト選択のために -AsObject を使用

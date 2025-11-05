@@ -184,15 +184,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: All
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Category
@@ -201,19 +201,19 @@ Limita la selección a scripts que pertenecen a la categoría especificada (sin 
 
 ```yaml
 Type: System.String[]
-DefaultValue: ''
+DefaultValue: ""
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: Named
-  Position: 1
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Named
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Confirm
@@ -222,20 +222,20 @@ Pide confirmación antes de ejecutar el cmdlet. Útil cuando se almacenan en cac
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: ''
+DefaultValue: ""
 SupportsWildcards: false
 Aliases:
-- cf
+ - cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Force
@@ -248,20 +248,20 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
 
-Uno o más nombres de colorescript para almacenar en caché. Admite patrones de comodines (ej. 'aurora-*', '*-wave'). Cuando este parámetro se omite y no se especifican parámetros de filtrado, el cmdlet almacena en caché todos los scripts disponibles por defecto.
+Uno o más nombres de colorescript para almacenar en caché. Admite patrones de comodines (ej. 'aurora-_', '_-wave'). Cuando este parámetro se omite y no se especifican parámetros de filtrado, el cmdlet almacena en caché todos los scripts disponibles por defecto.
 
 ```yaml
 Type: System.String[]
@@ -269,15 +269,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: Named
-  Position: 0
-  IsRequired: false
-  ValueFromPipeline: true
-  ValueFromPipelineByPropertyName: true
-  ValueFromRemainingArguments: false
+ - Name: Named
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: true
+   ValueFromPipelineByPropertyName: true
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -PassThru
@@ -290,15 +290,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -307,19 +307,19 @@ Limita la selección a scripts que contienen las etiquetas de metadatos especifi
 
 ```yaml
 Type: System.String[]
-DefaultValue: ''
+DefaultValue: ""
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: Named
-  Position: 2
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Named
+   Position: 2
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -328,20 +328,20 @@ Muestra qué sucedería si el cmdlet se ejecuta sin realizar realmente las opera
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: ''
+DefaultValue: ""
 SupportsWildcards: false
 Aliases:
-- wi
+ - wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -381,6 +381,7 @@ Sin `-PassThru`, muestra una tabla de resumen concisa en la consola mostrando el
 ### Estrategias de Construcción de Caché
 
 **Caché de Producción Completo**
+
 ```powershell
 # Construir todos los cachés para entorno de producción
 New-ColorScriptCache -Force | Measure-Object
@@ -391,6 +392,7 @@ Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter "*.cache" | Mea
 ```
 
 **Caché de Producción Mínimo**
+
 ```powershell
 # Almacenar en caché solo scripts recomendados para huella mínima
 New-ColorScriptCache -Tag Recommended -PassThru |
@@ -398,6 +400,7 @@ New-ColorScriptCache -Tag Recommended -PassThru |
 ```
 
 **Almacenamiento en Caché de Categoría Selectiva**
+
 ```powershell
 # Almacenar en caché categorías específicas basadas en entorno
 $categories = if ($env:CI) { @("Simple", "Fast") } else { @("*") }
@@ -409,6 +412,7 @@ Get-ColorScriptList -Category $categories -AsObject |
 ### Monitoreo de Rendimiento
 
 **Progreso de Construcción de Caché**
+
 ```powershell
 # Monitorear construcción de caché con progreso
 $scripts = Get-ColorScriptList -AsObject
@@ -426,6 +430,7 @@ Write-Progress -Activity "Building Cache" -Completed
 ```
 
 **Informe de Comparación de Rendimiento**
+
 ```powershell
 # Comparar tiempos de construcción de caché
 $results = @()
@@ -442,6 +447,7 @@ $results | Sort-Object BuildTime -Descending | Format-Table
 ### Mantenimiento y Limpieza
 
 **Reconstrucción de Caché Programada**
+
 ```powershell
 # Reconstruir caché semanalmente
 $lastRun = Get-Item "$env:APPDATA\ColorScripts-Enhanced\cache" | Select-Object -ExpandProperty LastWriteTime
@@ -454,6 +460,7 @@ if ($daysSince -ge 7) {
 ```
 
 **Actualizaciones Selectivas de Caché**
+
 ```powershell
 # Actualizar solo cachés obsoletos
 $scripts = Get-ColorScriptList -AsObject
@@ -468,6 +475,7 @@ $scripts | ForEach-Object {
 ### Integración CI/CD
 
 **Construir Caché en Docker**
+
 ```powershell
 # En Dockerfile o script de construcción
 Import-Module ColorScripts-Enhanced
@@ -476,6 +484,7 @@ Write-Host "✓ Caché de ColorScripts construido"
 ```
 
 **Archivo de Caché para Despliegue**
+
 ```powershell
 # Archivar caché para despliegue
 $cacheDir = "$env:APPDATA\ColorScripts-Enhanced\cache"
@@ -497,6 +506,7 @@ Los archivos de caché se almacenan en el directorio expuesto por la variable `C
 El cmdlet ejecuta cada script en un proceso de PowerShell en segundo plano aislado para capturar su salida sin afectar la sesión actual. Esto asegura el almacenamiento en caché preciso de la salida exacta de la consola que se mostraría al ejecutar el script directamente.
 
 **Mejores Prácticas:**
+
 - Ejecutar una vez después de la instalación del módulo para pre-almacenar en caché todos los scripts
 - Usar `-Force` solo cuando necesites reconstruir todos los cachés
 - Filtrar por categoría o etiqueta para construcciones de caché dirigidas más rápidas
@@ -508,6 +518,7 @@ El cmdlet ejecuta cada script en un proceso de PowerShell en segundo plano aisla
 **Consejo de Rendimiento:** Ejecuta este cmdlet una vez después de instalar o actualizar el módulo para pre-almacenar en caché todos los scripts para un rendimiento óptimo.
 
 **Solución de Problemas:**
+
 - Si la construcción de caché falla, verifica la sintaxis del script con `Show-ColorScript -Name scriptname -NoCache`
 - Monitorea el espacio en disco para el crecimiento del directorio de caché
 - Usa `-PassThru` para identificar qué scripts fallaron en la construcción

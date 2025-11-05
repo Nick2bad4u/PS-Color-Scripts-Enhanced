@@ -24,12 +24,14 @@ Add-ColorScriptProfile [[-Scope] <string>] [-WhatIf] [-Confirm] [<CommonParamete
 Aggiunge automaticamente l'integrazione di avvio ColorScripts-Enhanced al tuo profilo PowerShell. Questo cmdlet modifica i tuoi file di profilo per importare il modulo ColorScripts-Enhanced e opzionalmente visualizzare un colorscript all'avvio della sessione.
 
 Il cmdlet supporta tutti gli ambiti di profilo PowerShell standard:
+
 - CurrentUserCurrentHost: Profilo per l'utente corrente e l'host corrente
 - CurrentUserAllHosts: Profilo per l'utente corrente su tutti gli host
 - AllUsersCurrentHost: Profilo per tutti gli utenti sull'host corrente (richiede admin)
 - AllUsersAllHosts: Profilo per tutti gli utenti su tutti gli host (richiede admin)
 
 Quando eseguito, aggiunge uno snippet che:
+
 1. Importa il modulo ColorScripts-Enhanced
 2. Opzionalmente visualizza un colorscript casuale all'avvio
 3. Fornisce alias utili per l'accesso rapido
@@ -90,20 +92,21 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Scope
 
 Specifica l'ambito del profilo da modificare. I valori validi sono:
+
 - CurrentUserCurrentHost (predefinito)
 - CurrentUserAllHosts
 - AllUsersCurrentHost
@@ -115,15 +118,15 @@ DefaultValue: CurrentUserCurrentHost
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -136,15 +139,15 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -176,11 +179,13 @@ Questo cmdlet non restituisce output alla pipeline.
 Il cmdlet aggiunge uno snippet di avvio che importa ColorScripts-Enhanced e fornisce accesso conveniente. L'integrazione è progettata per essere leggera e non disturbare.
 
 **Considerazioni ambito:**
+
 - Gli ambiti CurrentUser modificano i file nella directory del profilo utente
 - Gli ambiti AllUsers richiedono privilegi di amministratore e influenzano tutti gli utenti
 - Le modifiche hanno effetto nelle nuove sessioni PowerShell
 
 **Funzionalità di sicurezza:**
+
 - Verifica l'integrazione esistente per evitare duplicazioni
 - Utilizza meccanismi di profilo PowerShell standard
 - Fornisce opzioni WhatIf e Confirm per operazioni sicure

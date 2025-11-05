@@ -26,6 +26,7 @@ Rimuove i file di output memorizzati nella cache per i colorscript per forzare u
 Il sistema di cache memorizza l'output ANSI renderizzato per fornire prestazioni di display quasi istantanee. Nel tempo, i file memorizzati nella cache potrebbero diventare obsoleti se gli script sorgente vengono modificati, oppure potresti voler cancellare la cache per scopi di risoluzione problemi.
 
 Utilizza questo cmdlet quando:
+
 - Gli script sorgente dei colorscript sono stati modificati
 - È sospettata una corruzione della cache
 - Vuoi garantire una nuova esecuzione
@@ -90,15 +91,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: All
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Confirm
@@ -111,20 +112,20 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: cf
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
 
-Specifica i nomi dei colorscript da cancellare dalla cache. Supporta wildcard (* e ?) per la corrispondenza di pattern.
+Specifica i nomi dei colorscript da cancellare dalla cache. Supporta wildcard (\* e ?) per la corrispondenza di pattern.
 
 ```yaml
 Type: System.String[]
@@ -132,15 +133,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: Name
-  Position: 0
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: Name
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -WhatIf
@@ -153,15 +154,15 @@ DefaultValue: false
 SupportsWildcards: false
 Aliases: wi
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -193,6 +194,7 @@ Questo cmdlet non restituisce output alla pipeline.
 I file di cache sono memorizzati in una directory gestita dal modulo. Utilizza `(Get-Module ColorScripts-Enhanced).ModuleBase` per localizzare la directory del modulo, quindi cerca la sottodirectory cache.
 
 **Quando Cancellare la Cache:**
+
 - Dopo aver modificato i file degli script sorgente dei colorscript
 - Durante la risoluzione di problemi di display
 - Per garantire una nuova esecuzione degli script

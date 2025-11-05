@@ -24,12 +24,14 @@ Add-ColorScriptProfile [[-Scope] <string>] [-WhatIf] [-Confirm] [<CommonParamete
 Adiciona automaticamente a integração de inicialização do ColorScripts-Enhanced ao seu perfil do PowerShell. Este cmdlet modifica seus arquivos de perfil para importar o módulo ColorScripts-Enhanced e, opcionalmente, exibir um colorscript na inicialização da sessão.
 
 O cmdlet suporta todos os escopos padrão de perfil do PowerShell:
+
 - CurrentUserCurrentHost: Perfil para o usuário atual e host atual
 - CurrentUserAllHosts: Perfil para o usuário atual em todos os hosts
 - AllUsersCurrentHost: Perfil para todos os usuários no host atual (requer admin)
 - AllUsersAllHosts: Perfil para todos os usuários em todos os hosts (requer admin)
 
 Quando executado, adiciona um snippet que:
+
 1. Importa o módulo ColorScripts-Enhanced
 2. Opcionalmente exibe um colorscript aleatório na inicialização
 3. Fornece aliases úteis para acesso rápido
@@ -105,6 +107,7 @@ HelpMessage: ''
 ### -Scope
 
 Especifica o escopo do perfil a modificar. Valores válidos são:
+
 - CurrentUserCurrentHost (padrão)
 - CurrentUserAllHosts
 - AllUsersCurrentHost
@@ -179,11 +182,13 @@ Este cmdlet não retorna saída para o pipeline.
 O cmdlet adiciona um snippet de inicialização que importa o ColorScripts-Enhanced e fornece acesso conveniente. A integração é projetada para ser leve e não disruptiva.
 
 **Considerações de Escopo:**
+
 - Escopos CurrentUser modificam arquivos no diretório de perfil do usuário
 - Escopos AllUsers requerem privilégios de administrador e afetam todos os usuários
 - As alterações entram em vigor em novas sessões do PowerShell
 
 **Recursos de Segurança:**
+
 - Verifica integração existente para evitar duplicação
 - Usa mecanismos padrão de perfil do PowerShell
 - Fornece opções WhatIf e Confirm para operação segura

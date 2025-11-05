@@ -25,6 +25,7 @@ Get-ColorScriptList [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>
 返回 ColorScripts-Enhanced 集合中可用颜色脚本的信息。默认情况下，显示一个格式化的表格，显示脚本名称、类别和描述。使用 `-AsObject` 返回结构化对象以进行编程访问。
 
 该 cmdlet 提供每个颜色脚本的全面元数据，包括：
+
 - 名称：脚本标识符（不带 .ps1 扩展名）
 - 类别：主题分组（自然、抽象、几何等）
 - 标签：用于过滤和发现的附加描述符
@@ -131,15 +132,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Category
@@ -152,20 +153,20 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Name
 
-将结果过滤为匹配一个或多个名称模式的颜色脚本。支持通配符（* 和 ?）以进行灵活匹配。
+将结果过滤为匹配一个或多个名称模式的颜色脚本。支持通配符（\* 和 ?）以进行灵活匹配。
 
 ```yaml
 Type: System.String[]
@@ -173,15 +174,15 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### -Tag
@@ -194,15 +195,15 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-- Name: (All)
-  Position: Named
-  IsRequired: false
-  ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
-  ValueFromRemainingArguments: false
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ''
+HelpMessage: ""
 ```
 
 ### CommonParameters
@@ -232,12 +233,14 @@ HelpMessage: ''
 **需要：** PowerShell 5.1 或更高版本
 
 **元数据属性：**
+
 - 名称：Show-ColorScript 使用的脚本标识符
 - 类别：用于组织的主题分组
 - 标签：用于过滤的描述性关键字数组
 - 描述：内容的易读说明
 
 **使用模式：**
+
 - 发现：在选择之前探索可用脚本
 - 过滤：使用类别和标签缩小选项范围
 - 自动化：使用 -AsObject 进行编程脚本选择

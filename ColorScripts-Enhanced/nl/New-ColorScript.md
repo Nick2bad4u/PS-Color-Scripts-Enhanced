@@ -25,12 +25,14 @@ New-ColorScript [-Name] <string> [[-Category] <string>] [[-Tags] <string[]>] [[-
 Creëert een nieuw colorscript bestand met juiste metadatastructuur en optionele sjablooninhoud. Deze cmdlet biedt een gestandaardiseerde manier om nieuwe colorscripts te maken die naadloos integreren met het ColorScripts-Enhanced ecosysteem.
 
 De cmdlet genereert:
+
 - Een nieuw .ps1 bestand met basisstructuur
 - Geassocieerde metadata voor categorisering
 - Sjablooninhoud gebaseerd op geselecteerde stijl
 - Juiste bestandsorganisatie
 
 Beschikbare sjablonen omvatten:
+
 - Basic: Minimale structuur voor aangepaste scripts
 - Animated: Sjabloon met timing controles
 - Interactive: Sjabloon met gebruikersinvoer afhandeling
@@ -289,6 +291,7 @@ Retourneert een object met informatie over het gemaakte colorscript.
 **Vereist:** PowerShell 5.1 of later
 
 **Sjablonen:**
+
 - Basic: Minimale structuur voor aangepaste scripts
 - Animated: Sjabloon met timing controles
 - Interactive: Sjabloon met gebruikersinvoer afhandeling

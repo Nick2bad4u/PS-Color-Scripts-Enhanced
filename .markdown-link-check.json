@@ -1,76 +1,84 @@
 {
-  "ignorePatterns": [
-    {
-      "pattern": "^https://i\\.imgur\\.com/"
-    },
-    {
-      "pattern": "^https://github\\.com/Nick2bad4u/PS-Color-Scripts-Enhanced"
-    },
-    {
-      "pattern": "^mailto:"
-    },
-    {
-      "pattern": "^deps$"
-    },
-    {
-      "pattern": "^#.*$"
-    },
-    {
-      "pattern": "^https://raw.githubusercontent.com/nick2bad4u/Uptime-Watcher/metrics/"
-    },
-    {
-      "pattern": "^https://localhost"
-    },
-    {
-      "pattern": "^https://127\\.0\\.0\\.1"
-    },
-    {
-      "pattern": "^file://"
-    },
-    {
-      "pattern": "^.*[Cc]hangelog.*$"
-    },
-    {
-      "pattern": "^https://reddit\\.com/"
-    },
-    {
-      "pattern": "^https://www\\.reddit\\.com/"
-    },
-    {
-      "pattern": "^https://discord\\.gg/"
-    },
-    {
-      "pattern": "^https://discordapp\\.com/invite/"
-    },
-    {
-      "pattern": "^https://discord\\.com/invite/"
-    },
-    {
-      "pattern": "^https://www\\.reddit\\.com/r/ANSIart/"
-    }
-  ],
-  "replacementPatterns": [
-    {
-      "pattern": "^/",
-      "replacement": "{{BASEURL}}/"
-    }
-  ],
-  "timeout": "20s",
-  "retryOn429": true,
-  "retryCount": 3,
-  "aliveStatusCodes": [200, 206, 301, 302, 303, 307, 308],
-  "fallbackRetryDelay": "30s",
-  "httpHeaders": [
-    {
-      "headers": {
-        "Accept-Encoding": "zstd, br, gzip, deflate",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-      },
-      "urls": [
-        "https://github.com",
-        "https://api.github.com",
-        "https://raw.githubusercontent.com"
-      ]
-    }
-  ]
+    "aliveStatusCodes": [
+        200,
+        206,
+        301,
+        302,
+        303,
+        307,
+        308
+    ],
+    "fallbackRetryDelay": "30s",
+    "httpHeaders": [
+        {
+            "headers": {
+                "Accept-Encoding": "zstd, br, gzip, deflate",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            },
+            "urls": [
+                "https://github.com",
+                "https://api.github.com",
+                "https://raw.githubusercontent.com"
+            ]
+        }
+    ],
+    "ignorePatterns": [
+        {
+            "pattern": "^https://i\\.imgur\\.com/"
+        },
+        {
+            "pattern": "^https://github\\.com/Nick2bad4u/PS-Color-Scripts-Enhanced"
+        },
+        {
+            "pattern": "^mailto:"
+        },
+        {
+            "pattern": "^deps$"
+        },
+        {
+            "pattern": "^#.*$"
+        },
+        {
+            "pattern": "^https://raw.githubusercontent.com/nick2bad4u/Uptime-Watcher/metrics/"
+        },
+        {
+            "pattern": "^https://localhost"
+        },
+        {
+            "pattern": "^https://127\\.0\\.0\\.1"
+        },
+        {
+            "pattern": "^file://"
+        },
+        {
+            "pattern": "^.*[Cc]hangelog.*$"
+        },
+        {
+            "pattern": "^https://reddit\\.com/"
+        },
+        {
+            "pattern": "^https://www\\.reddit\\.com/"
+        },
+        {
+            "pattern": "^https://discord\\.gg/"
+        },
+        {
+            "pattern": "^https://discordapp\\.com/invite/"
+        },
+        {
+            "pattern": "^https://discord\\.com/invite/"
+        },
+        {
+            "pattern": "^https://www\\.reddit\\.com/r/ANSIart/"
+        }
+    ],
+    "replacementPatterns": [
+        {
+            "pattern": "^/",
+            "replacement": "{{BASEURL}}/"
+        }
+    ],
+    "retryCount": 3,
+    "retryOn429": true,
+    "timeout": "20s"
 }

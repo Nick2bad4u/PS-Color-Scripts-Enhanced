@@ -15,23 +15,27 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 ## Near Term (Next 2-4 releases)
 
 ### Community-Driven Enhancements
+
 - Open slot for community-suggested features
 - Drop suggestions in [Discussions](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/discussions)
 - Vote on preferred features via issue reactions
 
 ### Documentation Improvements
+
 - [ ] Add 10 more detailed example workflows
 - [ ] Create video tutorials for new users
 - [ ] Expand ANSI art creation guide
 - [ ] Add more troubleshooting scenarios
 
 ### Performance Optimization
+
 - [ ] Profile colorscript execution times
 - [ ] Optimize slowest-running scripts
 - [ ] Consider parallel cache building
 - [ ] Measure memory footprint
 
 ### Quality Assurance
+
 - [ ] Expand test coverage to 95%+
 - [ ] Add performance regression tests
 - [ ] Cross-terminal compatibility matrix
@@ -40,24 +44,28 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 ## Mid Term (1-2 Releases, 3-6 months)
 
 ### Script Descriptions & Metadata
+
 - [ ] Expand descriptions for all 498+ scripts
 - [ ] Add richer metadata (author, complexity, performance)
 - [ ] Create searchable index
 - [ ] Build category-based discovery UI
 
 ### Live Preview System
+
 - [ ] Side-by-side ANSI ↔ PowerShell preview
 - [ ] Real-time conversion validation
 - [ ] Performance metrics display
 - [ ] Character encoding verification
 
 ### VS Code Integration
+
 - [ ] Create ColorScripts preview extension
 - [ ] Add terminal task definitions
 - [ ] Implement workspace integration
 - [ ] Cache management from VS Code
 
 ### Configuration Dashboard
+
 - [ ] Web-based configuration UI
 - [ ] Interactive cache management
 - [ ] Performance monitoring
@@ -66,6 +74,7 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 ## Long Term (6-12+ months)
 
 ### Advanced Features
+
 - **Animation Support**
   - Frame-based colorscript sequences
   - Timing controls
@@ -85,6 +94,7 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
   - Zsh completion
 
 ### Cross-Platform Expansion
+
 - **Cross-Repo Synchronization**
   - Sync with upstream DistroTube/shell-color-scripts
   - Auto-merge new contributions
@@ -98,6 +108,7 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
   - Cross-shell compatibility
 
 ### Ecosystem Integration
+
 - **Visual Studio Code Extension**
   - Random colorscript on startup
   - Terminal integration
@@ -119,6 +130,7 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 ## Potential Features (Backlog)
 
 ### User Requests
+
 - [ ] Color scheme selector
 - [ ] Random colorscript on every new terminal
 - [ ] Colorscript favorites/bookmarking
@@ -128,12 +140,14 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 - [ ] Time-based script selection
 
 ### Performance
+
 - [ ] Lazy-load colorscripts
 - [ ] Streaming mode for very large scripts
 - [ ] Memory-efficient caching
 - [ ] Parallel colorscript execution
 
 ### Administrative
+
 - [ ] Group policy support
 - [ ] Organization-wide deployment
 - [ ] Audit logging
@@ -141,6 +155,7 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 - [ ] Update notification system
 
 ### Educational
+
 - [ ] ANSI art creation tutorial series
 - [ ] PowerShell scripting guide
 - [ ] Performance tuning course
@@ -149,12 +164,14 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 ## Research Areas
 
 ### Technical Exploration
+
 - **GPU Rendering**: Leverage GPU for complex colorscripts
 - **WebAssembly**: Port to WASM for browser preview
 - **Machine Learning**: AI-generated colorscripts
 - **Quantum**: Quantum random colorscript selection 🚀
 
 ### Community Building
+
 - **User Survey**: Gather feature requests
 - **Contribution Guide**: Lower barriers to entry
 - **Mentoring Program**: Help new contributors
@@ -163,12 +180,14 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 ## Dependencies & Blockers
 
 ### External Dependencies
+
 - PowerShell team releases (new language features)
 - NuGet/PowerShell Gallery uptime
 - GitHub platform stability
 - Terminal emulator capabilities
 
 ### Known Limitations
+
 - Cross-platform console output differences
 - Font rendering inconsistencies
 - Memory constraints on embedded systems
@@ -177,18 +196,21 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 ## Success Metrics
 
 ### Community Engagement
+
 - [ ] 1,000+ GitHub stars
 - [ ] 50,000+ monthly PowerShell Gallery downloads
 - [ ] 100+ community contributions
 - [ ] Active community forum discussions
 
 ### Quality Targets
+
 - [ ] 95%+ test coverage
 - [ ] <5ms average load time (cached)
 - [ ] 0 critical security issues
 - [ ] 99%+ test pass rate
 
 ### Feature Adoption
+
 - [ ] 75%+ of users enable caching
 - [ ] 50%+ use custom profiles
 - [ ] 10+ community colorscript packs
@@ -226,29 +248,34 @@ Q4 2026+ (Oct+)
 ## How to Participate
 
 ### Suggest Features
+
 - [Discussions](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/discussions) - Feature ideas
 - [Issues](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues/new?template=feature_request.md) - Formal feature requests
 - Voting - React with 👍 to prioritize
 
 ### Contribute Code
+
 - Look for issues tagged `good first issue`
 - Check `help wanted` label
 - Review [Contributing Guide](../CONTRIBUTING.md)
 - Submit PRs with tests and documentation
 
 ### Add Colorscripts
+
 - Create beautiful ANSI art
 - Port from shell-color-scripts
 - Design new original content
 - Test across platforms
 
 ### Improve Documentation
+
 - Fix typos and clarity issues
 - Add examples and guides
 - Create tutorials
 - Share use cases
 
 ### Report Issues
+
 - Test on multiple platforms
 - Provide detailed reproduction steps
 - Include environment details
@@ -273,7 +300,6 @@ Q4 2026+ (Oct+)
 ## Vision Statement
 
 **ColorScripts-Enhanced** aims to be the most comprehensive, performant, and user-friendly collection of ANSI colorscripts available for PowerShell, with a thriving community of contributors and a robust ecosystem of integrations.
-
 
 - Join release coordination by checking the [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ReleaseChecklist.md)
 - If you're interested in owning a roadmap item, comment on the corresponding issue or open a new one describing your plan
