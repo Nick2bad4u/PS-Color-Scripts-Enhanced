@@ -10,6 +10,16 @@ Describe "ColorScripts-Enhanced coverage completion" {
         $script:OriginalEnvHome = $env:HOME
         $script:OriginalTemp = $env:TEMP
         $script:OriginalTmp = $env:TMP
+
+        $script:IsCIEnvironment = $false
+        if (-not [string]::IsNullOrWhiteSpace($env:CI)) {
+            $normalizedCi = $env:CI.Trim()
+            if ([System.String]::Equals($normalizedCi, 'true', [System.StringComparison]::OrdinalIgnoreCase) -or
+                [System.String]::Equals($normalizedCi, '1', [System.StringComparison]::OrdinalIgnoreCase) -or
+                [System.String]::Equals($normalizedCi, 'yes', [System.StringComparison]::OrdinalIgnoreCase)) {
+                $script:IsCIEnvironment = $true
+            }
+        }
     }
 
     AfterEach {
@@ -513,7 +523,7 @@ Describe "ColorScripts-Enhanced coverage completion" {
     }
 
     Context "Initialize-CacheDirectory fallback" {
-        It "creates fallback directory when all candidates fail" -Skip:($env:CI) {
+        It "creates fallback directory when all candidates fail" -Skip:$script:IsCIEnvironment {
             $basePath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
             New-Item -ItemType Directory -Path $basePath -Force | Out-Null
             $originalTemp = $env:TEMP

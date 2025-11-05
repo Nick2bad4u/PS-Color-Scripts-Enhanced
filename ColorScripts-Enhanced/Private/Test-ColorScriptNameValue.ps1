@@ -23,20 +23,38 @@ function Test-ColorScriptNameValue {
         throw [System.Management.Automation.ValidationMetadataException]::new($message)
     }
 
-    $invalidCharacters = [System.IO.Path]::GetInvalidFileNameChars()
-    if ($AllowWildcard) {
-        $invalidCharacters = [char[]]($invalidCharacters | Where-Object { $_ -ne '*' -and $_ -ne '?' })
+    $wildcardCharacters = @([char]'*', [char]'?')
+    $invalidCharacterList = New-Object 'System.Collections.Generic.List[char]'
+    foreach ($character in [System.IO.Path]::GetInvalidFileNameChars()) {
+        $null = $invalidCharacterList.Add($character)
     }
 
-    if ($stringValue.IndexOfAny([char[]]$invalidCharacters) -ge 0) {
+    $throwInvalidCharacter = {
+        param([string]$Name)
+
         $characterMessage = if ($script:Messages -and $script:Messages.ContainsKey('InvalidScriptNameCharacters')) {
-            $script:Messages.InvalidScriptNameCharacters -f $stringValue
+            $script:Messages.InvalidScriptNameCharacters -f $Name
         }
         else {
-            "Color script name '$stringValue' contains invalid characters."
+            "Color script name '$Name' contains invalid characters."
         }
 
         throw [System.Management.Automation.ValidationMetadataException]::new($characterMessage)
+    }
+
+    if ($AllowWildcard) {
+        foreach ($wc in $wildcardCharacters) {
+            $null = $invalidCharacterList.Remove($wc)
+        }
+    }
+    elseif ($stringValue.IndexOfAny([char[]]$wildcardCharacters) -ge 0) {
+        & $throwInvalidCharacter $stringValue
+    }
+
+    $invalidCharacters = $invalidCharacterList.ToArray()
+
+    if ($invalidCharacters -and $stringValue.IndexOfAny($invalidCharacters) -ge 0) {
+        & $throwInvalidCharacter $stringValue
     }
 
     return $true

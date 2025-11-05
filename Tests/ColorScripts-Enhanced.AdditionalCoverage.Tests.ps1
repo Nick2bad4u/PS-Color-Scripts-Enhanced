@@ -11,6 +11,16 @@ Describe "ColorScripts-Enhanced additional coverage" {
         $script:OriginalCacheInitialized = InModuleScope ColorScripts-Enhanced { $script:CacheInitialized }
         $script:OriginalUtf8Encoding = InModuleScope ColorScripts-Enhanced { $script:Utf8NoBomEncoding }
 
+        $script:IsCIEnvironment = $false
+        if (-not [string]::IsNullOrWhiteSpace($env:CI)) {
+            $normalizedCi = $env:CI.Trim()
+            if ([System.String]::Equals($normalizedCi, 'true', [System.StringComparison]::OrdinalIgnoreCase) -or
+                [System.String]::Equals($normalizedCi, '1', [System.StringComparison]::OrdinalIgnoreCase) -or
+                [System.String]::Equals($normalizedCi, 'yes', [System.StringComparison]::OrdinalIgnoreCase)) {
+                $script:IsCIEnvironment = $true
+            }
+        }
+
         if (-not ('CoverageHost.StubHost' -as [type])) {
             Add-Type -TypeDefinition @"
 using System;
@@ -996,7 +1006,7 @@ namespace CoverageHost
             }
         }
 
-        It "summarizes outcomes with status colors and failure details" -Skip:($env:CI) {
+        It "summarizes outcomes with status colors and failure details" -Skip:$script:IsCIEnvironment {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
 
@@ -1090,7 +1100,7 @@ namespace CoverageHost
             }
         }
 
-        It "captures failures from Build-ScriptCache" -Skip:($env:CI) {
+        It "captures failures from Build-ScriptCache" -Skip:$script:IsCIEnvironment {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testDrive -ChildPath 'gamma.ps1'
@@ -2441,7 +2451,7 @@ namespace CoverageHost
                 }
             }
 
-            It "warns when named scripts are missing" -Skip:($env:CI) {
+            It "warns when named scripts are missing" -Skip:$script:IsCIEnvironment {
                 $resultData = InModuleScope ColorScripts-Enhanced {
                     $capturedWarnings = [System.Collections.Generic.List[string]]::new()
 

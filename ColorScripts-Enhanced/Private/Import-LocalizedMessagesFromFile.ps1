@@ -43,6 +43,10 @@ function Import-LocalizedMessagesFromFile {
     $messages = $null
     try {
         $messages = Import-LocalizedData @importParams
+        if ($messages -and $messages -isnot [System.Collections.IDictionary]) {
+            Write-ModuleTrace ("Import-LocalizedData returned unsupported type '{0}' for '{1}' (base '{2}')." -f $messages.GetType().FullName, $fileNameToUse, $baseDirectoryToUse)
+            $messages = $null
+        }
     }
     catch {
         Write-ModuleTrace ("Import-LocalizedData failed for '{0}' (base '{1}'): {2}" -f $fileNameToUse, $baseDirectoryToUse, $_.Exception.Message)
@@ -112,6 +116,12 @@ function Import-LocalizedMessagesFromFile {
     catch {
         Write-ModuleTrace ("Import-PowerShellDataFile failed for '{0}': {1}" -f $finalCandidate, $_.Exception.Message)
         throw
+    }
+
+    if ($messages -isnot [System.Collections.IDictionary]) {
+        $messageType = if ($messages) { $messages.GetType().FullName } else { 'null' }
+        Write-ModuleTrace ("Import-PowerShellDataFile returned unsupported type '{0}' for '{1}'." -f $messageType, $finalCandidate)
+        throw [System.InvalidOperationException]::new("Import-PowerShellDataFile did not produce a dictionary for '$finalCandidate'.")
     }
 
     if (-not $messages) {
