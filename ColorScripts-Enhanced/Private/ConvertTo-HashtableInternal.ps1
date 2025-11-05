@@ -6,6 +6,14 @@ function ConvertTo-HashtableInternal {
             return $null
         }
 
+        if ($InputObject -is [System.Collections.IDictionary]) {
+            $hash = @{}
+            foreach ($entry in $InputObject.GetEnumerator()) {
+                $hash[$entry.Key] = ConvertTo-HashtableInternal $entry.Value
+            }
+            return $hash
+        }
+
         if ($InputObject -is [System.Collections.IEnumerable] -and $InputObject -isnot [string]) {
             $collection = @()
             foreach ($item in $InputObject) {
