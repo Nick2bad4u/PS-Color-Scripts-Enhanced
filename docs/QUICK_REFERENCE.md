@@ -536,7 +536,7 @@ $env:PSModulePath += ";C:\CustomModulePath"
 Get-Module ColorScripts-Enhanced | Select-Object Version
 ```
 
-Current: 2025.10.13
+Current: 2025.11.05
 
 ---
 

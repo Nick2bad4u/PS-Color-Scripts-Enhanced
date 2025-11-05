@@ -143,12 +143,12 @@ Get-Help *ColorScript*
 
 ## Version Information
 
-- **Module Version**: 2025.10.13.1537
-- **Colorscripts**: 245+
+- **Module Version**: 2025.11.05.0244
+- **Colorscripts**: 498+
 - **Functions**: 10
 - **PowerShell**: 5.1+ and 7.0+
 - **Platforms**: Windows, macOS, Linux
 
 ---
 
-_Last updated: October 13, 2025_
+_Last updated: November 5, 2025_

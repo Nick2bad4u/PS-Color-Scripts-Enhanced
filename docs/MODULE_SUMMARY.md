@@ -22,7 +22,7 @@ ColorScripts-Enhanced/
 ### Module Information
 
 - **Name:** ColorScripts-Enhanced
-- **Current Version:** 2025.10.13.1537
+- **Current Version:** 2025.11.05.0244
 - **PowerShell Version:** 5.1+
 - **Colorscripts Included:** <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS -->
 - **Cache Location:** `%APPDATA%\ColorScripts-Enhanced\cache`

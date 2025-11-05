@@ -44,8 +44,21 @@ function Import-LocalizedMessagesFromFile {
     try {
         $messages = Import-LocalizedData @importParams
         if ($messages -and $messages -isnot [System.Collections.IDictionary]) {
-            Write-ModuleTrace ("Import-LocalizedData returned unsupported type '{0}' for '{1}' (base '{2}')." -f $messages.GetType().FullName, $fileNameToUse, $baseDirectoryToUse)
-            $messages = $null
+            Write-ModuleTrace ("Import-LocalizedData returned unsupported type '{0}' for '{1}' (base '{2}'). Attempting conversion." -f $messages.GetType().FullName, $fileNameToUse, $baseDirectoryToUse)
+            try {
+                $converted = ConvertTo-HashtableInternal $messages
+                if ($converted -and $converted -is [System.Collections.IDictionary]) {
+                    $messages = $converted
+                }
+                else {
+                    Write-ModuleTrace ("Conversion of Import-LocalizedData result failed for '{0}' (base '{1}')." -f $fileNameToUse, $baseDirectoryToUse)
+                    $messages = $null
+                }
+            }
+            catch {
+                Write-ModuleTrace ("Conversion of Import-LocalizedData result threw for '{0}' (base '{1}'): {2}" -f $fileNameToUse, $baseDirectoryToUse, $_.Exception.Message)
+                $messages = $null
+            }
         }
     }
     catch {
@@ -118,10 +131,23 @@ function Import-LocalizedMessagesFromFile {
         throw
     }
 
-    if ($messages -isnot [System.Collections.IDictionary]) {
-        $messageType = if ($messages) { $messages.GetType().FullName } else { 'null' }
-        Write-ModuleTrace ("Import-PowerShellDataFile returned unsupported type '{0}' for '{1}'." -f $messageType, $finalCandidate)
-        throw [System.InvalidOperationException]::new("Import-PowerShellDataFile did not produce a dictionary for '$finalCandidate'.")
+    if ($messages -and $messages -isnot [System.Collections.IDictionary]) {
+        $messageType = $messages.GetType().FullName
+        Write-ModuleTrace ("Import-PowerShellDataFile returned unsupported type '{0}' for '{1}'. Attempting conversion." -f $messageType, $finalCandidate)
+        try {
+            $converted = ConvertTo-HashtableInternal $messages
+        }
+        catch {
+            Write-ModuleTrace ("Conversion of Import-PowerShellDataFile result threw for '{0}': {1}" -f $finalCandidate, $_.Exception.Message)
+            throw [System.InvalidOperationException]::new("Import-PowerShellDataFile did not produce a dictionary for '$finalCandidate'.", $_.Exception)
+        }
+
+        if ($converted -and $converted -is [System.Collections.IDictionary]) {
+            $messages = $converted
+        }
+        else {
+            throw [System.InvalidOperationException]::new("Import-PowerShellDataFile did not produce a dictionary for '$finalCandidate'.")
+        }
     }
 
     if (-not $messages) {

@@ -79,6 +79,10 @@ function Add-ColorScriptProfile {
         $profileSpec = $profilePathResolved
     }
     else {
+        if (-not $script:IsWindows -and $profileSpec -match '^[A-Za-z]:') {
+            Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveProfilePath -f $profileSpec) -ErrorId 'ColorScriptsEnhanced.InvalidProfilePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -Cmdlet $PSCmdlet
+        }
+
         if ([System.IO.Path]::IsPathRooted($profileSpec)) {
             Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveProfilePath -f $profileSpec) -ErrorId 'ColorScriptsEnhanced.InvalidProfilePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -Cmdlet $PSCmdlet
         }
