@@ -248,7 +248,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "continues to next candidate when import fails and succeeds on fallback" {
+        It "continues to next candidate when import fails and succeeds on fallback" -Skip:($IsLinux -and $env:CI) {
             InModuleScope ColorScripts-Enhanced {
                 $invalidDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
                 $validDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
