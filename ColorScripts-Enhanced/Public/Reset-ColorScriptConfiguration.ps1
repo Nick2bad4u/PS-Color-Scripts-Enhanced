@@ -30,3 +30,4 @@ function Reset-ColorScriptConfiguration {
         return Get-ColorScriptConfiguration
     }
 }
+

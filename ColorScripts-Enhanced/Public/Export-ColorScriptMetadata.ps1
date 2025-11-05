@@ -141,3 +141,4 @@ function Export-ColorScriptMetadata {
 
     return $payload
 }
+

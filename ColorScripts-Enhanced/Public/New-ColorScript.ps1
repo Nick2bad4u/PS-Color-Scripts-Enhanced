@@ -1,22 +1,35 @@
 function New-ColorScript {
-    [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseShouldProcessForStateChangingFunctions', '', Justification = 'Function implements ShouldProcess manually for enhanced messaging.')]
     [CmdletBinding(SupportsShouldProcess = $true, HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript')]
     param(
+        [Parameter(ParameterSetName = 'Help')]
+        [Parameter(ParameterSetName = 'Scaffold')]
         [Alias('help')]
         [switch]$h,
 
-        [Parameter(Mandatory)]
+        [Parameter(ParameterSetName = 'Scaffold', Mandatory)]
+        [Parameter(ParameterSetName = 'Help')]
         [ValidateScript({ Test-ColorScriptNameValue $_ })]
         [string]$Name,
 
-        [Parameter(Mandatory)]
+        [Parameter(ParameterSetName = 'Scaffold', Mandatory)]
+        [Alias('Destination', 'Path')]
         [ValidateScript({ Test-ColorScriptPathValue $_ })]
-        [string]$Destination,
+        [string]$OutputPath,
 
-        [Parameter()]
-        [switch]$Overwrite,
+        [Parameter(ParameterSetName = 'Scaffold')]
+        [Alias('Overwrite')]
+        [switch]$Force,
 
-        [Parameter()]
+        [Parameter(ParameterSetName = 'Scaffold')]
+        [switch]$GenerateMetadataSnippet,
+
+        [Parameter(ParameterSetName = 'Scaffold')]
+        [string[]]$Category,
+
+        [Parameter(ParameterSetName = 'Scaffold')]
+        [string[]]$Tag,
+
+        [Parameter(ParameterSetName = 'Scaffold')]
         [switch]$OpenInEditor
     )
 
@@ -25,45 +38,89 @@ function New-ColorScript {
         return
     }
 
-    Initialize-Configuration
-
     $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($Name)
-    $targetDirectory = Resolve-CachePath -Path $Destination
-    if (-not $targetDirectory) {
-        Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveDestination -f $Destination) -ErrorId 'ColorScriptsEnhanced.InvalidDestination' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $Destination -Cmdlet $PSCmdlet
+    $resolvedOutput = Resolve-CachePath -Path $OutputPath
+
+    if (-not $resolvedOutput) {
+        Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveOutputPath -f $OutputPath) -ErrorId 'ColorScriptsEnhanced.InvalidOutputPath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $OutputPath -Cmdlet $PSCmdlet
     }
 
-    if (-not (Test-Path -LiteralPath $targetDirectory)) {
-        New-Item -ItemType Directory -Path $targetDirectory -Force | Out-Null
+    if (-not (Test-Path -LiteralPath $resolvedOutput)) {
+        New-Item -ItemType Directory -Path $resolvedOutput -Force | Out-Null
     }
 
-    $targetPath = Join-Path -Path $targetDirectory -ChildPath "$scriptName.ps1"
+    $targetPath = Join-Path -Path $resolvedOutput -ChildPath ("{0}.ps1" -f $scriptName)
 
-    if ((Test-Path -LiteralPath $targetPath) -and -not $Overwrite) {
-        Invoke-ColorScriptError -Message ($script:Messages.ScriptAlreadyExists -f $targetPath) -ErrorId 'ColorScriptsEnhanced.ScriptExists' -Category ([System.Management.Automation.ErrorCategory]::ResourceExists) -TargetObject $targetPath -Cmdlet $PSCmdlet
+    if ((Test-Path -LiteralPath $targetPath) -and -not $Force) {
+        Invoke-ColorScriptError -Message ($script:Messages.ScriptAlreadyExists -f $targetPath) -ErrorId 'ColorScriptsEnhanced.ScriptAlreadyExists' -Category ([System.Management.Automation.ErrorCategory]::ResourceExists) -TargetObject $targetPath -Cmdlet $PSCmdlet
     }
 
-    $template = @(
-        "#!/usr/bin/env pwsh",
-        '',
-        'Write-Output "Hello from your new colorscript!"'
-    )
+    $effectiveCategories = if ($Category) { [string[]]$Category } elseif ($GenerateMetadataSnippet) { @('Custom') } else { @() }
+    $effectiveTags = if ($Tag) { [string[]]$Tag } elseif ($GenerateMetadataSnippet) { @('Custom') } else { @() }
 
-    $content = $template -join [Environment]::NewLine
+    $metadataGuidance = $null
+    $guidanceComment = ''
+    if ($GenerateMetadataSnippet) {
+        $categorySummary = ($effectiveCategories -join ', ')
+        $tagSummary = ($effectiveTags -join ', ')
 
-    if ($PSCmdlet.ShouldProcess($targetPath, 'Create new colorscript')) {
-        [System.IO.File]::WriteAllText($targetPath, $content + [Environment]::NewLine, $script:Utf8NoBomEncoding)
-        Write-Host ($script:Messages.NewColorScriptCreated -f $targetPath) -ForegroundColor Green
+        $quotedTags = if ($effectiveTags.Count -gt 0) { ($effectiveTags | ForEach-Object { "'$_'" }) -join ', ' } else { '' }
 
-        if ($OpenInEditor) {
-            try {
-                Invoke-Item -LiteralPath $targetPath
-            }
-            catch {
-                Write-Warning ($script:Messages.UnableToOpenEditor -f $targetPath, $_.Exception.Message)
-            }
+        $metadataGuidance = @"
+    Add the following entry to ScriptMetadata.psd1:
+
+    Name: $scriptName
+    Category: $categorySummary
+    Tags: $quotedTags
+    "@.Trim()
+
+        $guidanceComment = @"
+<#
+ScriptMetadata Guidance:
+    Name: $scriptName
+    Category: $categorySummary
+        Tags: $quotedTags
+#>
+
+"@
+    }
+
+    $scriptTemplate = @"
+# ColorScripts-Enhanced colorscript scaffold
+[string[]]`$ansiArt = @(
+    'Replace this array with your ANSI art'
+)
+
+foreach (`$line in `$ansiArt) {
+    Write-Host `$line
+}
+"@.TrimEnd()
+
+    $scriptContent = ($guidanceComment + $scriptTemplate).TrimEnd() + [Environment]::NewLine
+
+    $operation = if (Test-Path -LiteralPath $targetPath) { 'Overwrite colorscript file' } else { 'Create colorscript file' }
+
+    if (-not $PSCmdlet.ShouldProcess($targetPath, $operation)) {
+        return
+    }
+
+    [System.IO.File]::WriteAllText($targetPath, $scriptContent, $script:Utf8NoBomEncoding)
+    Reset-ScriptInventoryCache
+
+    if ($OpenInEditor) {
+        try {
+            Invoke-Item -LiteralPath $targetPath
         }
+        catch {
+            Write-Warning "Unable to open editor for ${targetPath}: $($_.Exception.Message)"
+        }
+    }
 
-        return Get-Item -LiteralPath $targetPath
+    return [pscustomobject]@{
+        Name             = $scriptName
+        Path             = $targetPath
+        MetadataGuidance = $metadataGuidance
+        Categories       = $effectiveCategories
+        Tags             = $effectiveTags
     }
 }

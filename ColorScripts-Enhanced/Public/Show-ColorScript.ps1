@@ -96,51 +96,51 @@ function Show-ColorScript {
         [SupportsWildcards()]
         [ValidateScript({ Test-ColorScriptNameValue $_ -AllowWildcard })]
         [ArgumentCompleter({
-            param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
+                param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
 
-            $null = $commandName, $parameterName, $commandAst, $fakeBoundParameters
+                $null = $commandName, $parameterName, $commandAst, $fakeBoundParameters
 
-            try {
-                $records = ColorScripts-Enhanced\Get-ColorScriptList -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue
-            }
-            catch {
-                return
-            }
-
-            $pattern = if ([string]::IsNullOrWhiteSpace($wordToComplete)) {
-                '*'
-            }
-            else {
-                $trimmed = $wordToComplete.Trim([char]0x27, [char]0x22)
-                if ([string]::IsNullOrWhiteSpace($trimmed)) { '*' }
-                elseif ($trimmed -match '[*?]') { $trimmed }
-                else { $trimmed + '*' }
-            }
-
-            $records |
-                Where-Object { $_.Name -and ($_.Name -like $pattern) } |
-                Group-Object -Property Name |
-                Sort-Object -Property Name |
-                ForEach-Object {
-                    $first = $_.Group | Select-Object -First 1
-                    $toolTip = if ($first.Description) {
-                        $first.Description
-                    }
-                    elseif ($first.Category) {
-                        "Category: $($first.Category)"
-                    }
-                    else {
-                        $first.Name
-                    }
-
-                    [System.Management.Automation.CompletionResult]::new(
-                        $first.Name,
-                        $first.Name,
-                        [System.Management.Automation.CompletionResultType]::ParameterValue,
-                        $toolTip
-                    )
+                try {
+                    $records = ColorScripts-Enhanced\Get-ColorScriptList -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue
                 }
-        })]
+                catch {
+                    return
+                }
+
+                $pattern = if ([string]::IsNullOrWhiteSpace($wordToComplete)) {
+                    '*'
+                }
+                else {
+                    $trimmed = $wordToComplete.Trim([char]0x27, [char]0x22)
+                    if ([string]::IsNullOrWhiteSpace($trimmed)) { '*' }
+                    elseif ($trimmed -match '[*?]') { $trimmed }
+                    else { $trimmed + '*' }
+                }
+
+                $records |
+                    Where-Object { $_.Name -and ($_.Name -like $pattern) } |
+                        Group-Object -Property Name |
+                            Sort-Object -Property Name |
+                                ForEach-Object {
+                                    $first = $_.Group | Select-Object -First 1
+                                    $toolTip = if ($first.Description) {
+                                        $first.Description
+                                    }
+                                    elseif ($first.Category) {
+                                        "Category: $($first.Category)"
+                                    }
+                                    else {
+                                        $first.Name
+                                    }
+
+                                    [System.Management.Automation.CompletionResult]::new(
+                                        $first.Name,
+                                        $first.Name,
+                                        [System.Management.Automation.CompletionResultType]::ParameterValue,
+                                        $toolTip
+                                    )
+                                }
+            })]
         [string]$Name,
 
         [Parameter(ParameterSetName = 'List')]
@@ -163,93 +163,89 @@ function Show-ColorScript {
 
         [Parameter()]
         [ArgumentCompleter({
-            param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
+                param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
 
-            $null = $commandName, $parameterName, $commandAst, $fakeBoundParameters
+                $null = $commandName, $parameterName, $commandAst, $fakeBoundParameters
 
-            try {
-                $records = ColorScripts-Enhanced\Get-ColorScriptList -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue
-            }
-            catch {
-                return
-            }
+                try {
+                    $records = ColorScripts-Enhanced\Get-ColorScriptList -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue
+                }
+                catch {
+                    return
+                }
 
-            $pattern = if ([string]::IsNullOrWhiteSpace($wordToComplete)) {
-                '*'
-            }
-            else {
-                $trimmed = $wordToComplete.Trim([char]0x27, [char]0x22)
-                if ([string]::IsNullOrWhiteSpace($trimmed)) { '*' }
-                elseif ($trimmed -match '[*?]') { $trimmed }
-                else { $trimmed + '*' }
-            }
+                $pattern = if ([string]::IsNullOrWhiteSpace($wordToComplete)) {
+                    '*'
+                }
+                else {
+                    $trimmed = $wordToComplete.Trim([char]0x27, [char]0x22)
+                    if ([string]::IsNullOrWhiteSpace($trimmed)) { '*' }
+                    elseif ($trimmed -match '[*?]') { $trimmed }
+                    else { $trimmed + '*' }
+                }
 
-            $values = foreach ($record in $records) {
-                if ($record.Category) { [string]$record.Category }
-                if ($record.Categories) {
-                    foreach ($entry in @($record.Categories)) {
-                        if ($entry) { [string]$entry }
+                $values = foreach ($record in $records) {
+                    if ($record.Category) { [string]$record.Category }
+                    if ($record.Categories) {
+                        foreach ($entry in @($record.Categories)) {
+                            if ($entry) { [string]$entry }
+                        }
                     }
                 }
-            }
 
-            $values |
-                Where-Object { $_ -and ($_ -like $pattern) } |
-                Group-Object |
-                Sort-Object -Property Name |
-                ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new(
-                        $_.Name,
-                        $_.Name,
-                        [System.Management.Automation.CompletionResultType]::ParameterValue,
-                        '{0} script(s)' -f $_.Count
-                    )
-                }
-        })]
+                $values |
+                    Where-Object { $_ -and ($_ -like $pattern) } |
+                        Group-Object |
+                            Sort-Object -Property Name |
+                                ForEach-Object {
+                                    [System.Management.Automation.CompletionResult]::new(
+                                        $_.Name,
+                                        $_.Name,
+                                        [System.Management.Automation.CompletionResultType]::ParameterValue,
+                                        '{0} script(s)' -f $_.Count
+                                    )
+                                }
+            })]
         [string[]]$Category,
 
         [Parameter()]
         [ArgumentCompleter({
-            param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
+                param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
 
-            $null = $commandName, $parameterName, $commandAst, $fakeBoundParameters
+                $null = $commandName, $parameterName, $commandAst, $fakeBoundParameters
 
-            try {
-                $records = ColorScripts-Enhanced\Get-ColorScriptList -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue
-            }
-            catch {
-                return
-            }
-
-            $pattern = if ([string]::IsNullOrWhiteSpace($wordToComplete)) {
-                '*'
-            }
-            else {
-                $trimmed = $wordToComplete.Trim([char]0x27, [char]0x22)
-                if ([string]::IsNullOrWhiteSpace($trimmed)) { '*' }
-                elseif ($trimmed -match '[*?]') { $trimmed }
-                else { $trimmed + '*' }
-            }
-
-            $values = foreach ($record in $records) {
-                foreach ($tag in @($record.Tags)) {
-                    if ($tag) { [string]$tag }
+                try {
+                    $records = ColorScripts-Enhanced\Get-ColorScriptList -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue
                 }
-            }
+                catch {
+                    return
+                }
 
-            $values |
-                Where-Object { $_ -and ($_ -like $pattern) } |
-                Group-Object |
-                Sort-Object -Property Name |
-                ForEach-Object {
+                $pattern = if ([string]::IsNullOrWhiteSpace($wordToComplete)) {
+                    '*'
+                }
+                else {
+                    $trimmed = $wordToComplete.Trim([char]0x27, [char]0x22)
+                    if ([string]::IsNullOrWhiteSpace($trimmed)) { '*' }
+                    elseif ($trimmed -match '[*?]') { $trimmed }
+                    else { $trimmed + '*' }
+                }
+
+                $values = foreach ($record in $records) {
+                    foreach ($tag in @($record.Tags)) {
+                        if ($tag) { [string]$tag }
+                    }
+                }
+
+                foreach ($group in ($values | Where-Object { $_ -and ($_ -like $pattern) } | Group-Object | Sort-Object -Property Name)) {
                     [System.Management.Automation.CompletionResult]::new(
-                        $_.Name,
-                        $_.Name,
+                        $group.Name,
+                        $group.Name,
                         [System.Management.Automation.CompletionResultType]::ParameterValue,
-                        '{0} reference(s)' -f $_.Count
+                        '{0} reference(s)' -f $group.Count
                     )
                 }
-        })]
+            })]
         [string[]]$Tag,
 
         [Parameter(ParameterSetName = 'Named')]
@@ -274,8 +270,6 @@ function Show-ColorScript {
     }
 
     $quietRequested = $Quiet.IsPresent
-    $noAnsiRequested = $NoAnsiOutput.IsPresent
-    $noAnsiRequested = $NoAnsiOutput.IsPresent
     $noAnsiRequested = $NoAnsiOutput.IsPresent
 
     if ($List) {
@@ -489,3 +483,4 @@ function Show-ColorScript {
         return $selection
     }
 }
+

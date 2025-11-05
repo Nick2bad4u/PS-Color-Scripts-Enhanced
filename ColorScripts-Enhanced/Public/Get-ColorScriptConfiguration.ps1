@@ -17,3 +17,4 @@ function Get-ColorScriptConfiguration {
     $data = Copy-ColorScriptHashtable (Get-ConfigurationDataInternal)
     return $data
 }
+

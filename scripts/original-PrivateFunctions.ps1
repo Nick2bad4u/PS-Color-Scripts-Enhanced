@@ -1,189 +1,5 @@
 #region Localization Helpers
 
-function Resolve-LocalizedMessagesFile {
-    param(
-        [Parameter(Mandatory)]
-        [ValidateNotNullOrEmpty()]
-        [string]$BaseDirectory,
-
-        [Parameter()]
-        [ValidateNotNullOrEmpty()]
-        [string]$FileName = 'Messages.psd1',
-
-        [Parameter()]
-        [string[]]$CultureFallback
-    )
-
-    $resolvedBase = $BaseDirectory
-    try {
-        $resolvedBase = (Resolve-Path -LiteralPath $BaseDirectory -ErrorAction Stop).ProviderPath
-    }
-    catch {
-        Write-ModuleTrace ("Resolve-LocalizedMessagesFile base resolution failed for '{0}': {1}" -f $BaseDirectory, $_.Exception.Message)
-    }
-
-    $baseExists = $false
-    try {
-        if (Test-Path -LiteralPath $resolvedBase -PathType Container) {
-            $baseExists = $true
-        }
-    }
-    catch {
-        $baseExists = $false
-    }
-
-    if (-not $baseExists -and [System.IO.Directory]::Exists($resolvedBase)) {
-        $baseExists = $true
-    }
-
-    if (-not $baseExists) {
-        return $null
-    }
-
-    $candidateCultures = New-Object System.Collections.Generic.List[string]
-    if ($CultureFallback -and $CultureFallback.Count -gt 0) {
-        foreach ($culture in $CultureFallback) {
-            if ([string]::IsNullOrWhiteSpace($culture)) { continue }
-            if (-not $candidateCultures.Contains($culture)) {
-                [void]$candidateCultures.Add($culture)
-            }
-        }
-    }
-    else {
-        try {
-            $currentCulture = [System.Globalization.CultureInfo]::CurrentUICulture
-            if ($currentCulture -and $currentCulture.Name -and -not $candidateCultures.Contains($currentCulture.Name)) {
-                [void]$candidateCultures.Add($currentCulture.Name)
-            }
-
-            $parentCulture = $currentCulture.Parent
-            if ($parentCulture -and $parentCulture.Name -and -not $candidateCultures.Contains($parentCulture.Name)) {
-                [void]$candidateCultures.Add($parentCulture.Name)
-            }
-        }
-        catch {
-            Write-ModuleTrace ("Resolve-LocalizedMessagesFile culture discovery failed: {0}" -f $_.Exception.Message)
-        }
-    }
-
-    $candidates = New-Object System.Collections.Generic.List[pscustomobject]
-
-    foreach ($cultureName in $candidateCultures) {
-        if ([string]::IsNullOrWhiteSpace($cultureName)) { continue }
-        $culturePath = Join-Path -Path $resolvedBase -ChildPath $cultureName
-        $effectiveCulturePath = $null
-
-        $cultureExists = $false
-        try {
-            if (Test-Path -LiteralPath $culturePath -PathType Container) {
-                $cultureExists = $true
-            }
-        }
-        catch {
-            $cultureExists = $false
-        }
-
-        if (-not $cultureExists -and [System.IO.Directory]::Exists($culturePath)) {
-            $cultureExists = $true
-        }
-
-        if ($cultureExists) {
-            $effectiveCulturePath = $culturePath
-        }
-        else {
-            try {
-                $directories = Get-ChildItem -Path $resolvedBase -Directory -ErrorAction Stop
-                $matched = $null
-                foreach ($directory in $directories) {
-                    if ([System.String]::Equals($directory.Name, $cultureName, [System.StringComparison]::OrdinalIgnoreCase)) {
-                        $matched = $directory
-                        break
-                    }
-                }
-
-                if ($matched) {
-                    $effectiveCulturePath = $matched.FullName
-                }
-            }
-            catch {
-                Write-ModuleTrace ("Resolve-LocalizedMessagesFile directory enumeration failed for '{0}': {1}" -f $cultureName, $_.Exception.Message)
-            }
-        }
-
-        if ($effectiveCulturePath) {
-            $effectiveExists = $false
-            try {
-                if (Test-Path -LiteralPath $effectiveCulturePath -PathType Container) {
-                    $effectiveExists = $true
-                }
-            }
-            catch {
-                $effectiveExists = $false
-            }
-
-            if (-not $effectiveExists -and [System.IO.Directory]::Exists($effectiveCulturePath)) {
-                $effectiveExists = $true
-            }
-
-            if ($effectiveExists) {
-                $fileCandidate = Join-Path -Path $effectiveCulturePath -ChildPath $FileName
-                $candidateInfo = [pscustomobject]@{
-                    CultureName = $cultureName
-                    FilePath    = $fileCandidate
-                }
-                [void]$candidates.Add($candidateInfo)
-            }
-        }
-    }
-
-    $rootCandidate = Join-Path -Path $resolvedBase -ChildPath $FileName
-    $rootInfo = [pscustomobject]@{
-        CultureName = $null
-        FilePath    = $rootCandidate
-    }
-    [void]$candidates.Add($rootInfo)
-
-    foreach ($candidate in $candidates) {
-        $candidatePath = $candidate.FilePath
-        if (-not $candidatePath) { continue }
-
-        $leafExists = $false
-        if (Test-Path -LiteralPath $candidatePath -PathType Leaf) {
-            $leafExists = $true
-        }
-        else {
-            try {
-                $leafExists = [System.IO.File]::Exists($candidatePath)
-            }
-            catch {
-                $leafExists = $false
-            }
-
-            if (-not $leafExists) {
-                if (Test-Path -LiteralPath $candidatePath -PathType Leaf) {
-                    $leafExists = $true
-                }
-            }
-        }
-
-        if ($leafExists) {
-            try {
-                $candidatePath = (Resolve-Path -LiteralPath $candidatePath -ErrorAction Stop).ProviderPath
-            }
-            catch {
-                Write-ModuleTrace ("Resolve-LocalizedMessagesFile path resolution failed for '{0}': {1}" -f $candidate.FilePath, $_.Exception.Message)
-            }
-
-            return [pscustomobject]@{
-                FilePath    = $candidatePath
-                CultureName = $candidate.CultureName
-            }
-        }
-    }
-
-    return $null
-}
-
 function Import-LocalizedMessagesFromFile {
     [CmdletBinding(DefaultParameterSetName = 'File')]
     param(
@@ -258,35 +74,31 @@ function Import-LocalizedMessagesFromFile {
 
     $source = 'Import-PowerShellDataFile'
 
-    $finalCandidate = $null
+    $candidateFiles = New-Object System.Collections.Generic.List[string]
 
     if ($PSCmdlet.ParameterSetName -eq 'File') {
         if ($resolvedFilePath) {
-            $finalCandidate = $resolvedFilePath
+            [void]$candidateFiles.Add($resolvedFilePath)
         }
-        elseif ($FilePath) {
-            $finalCandidate = $FilePath
+        else {
+            [void]$candidateFiles.Add($FilePath)
         }
     }
     else {
-        $resolutionParams = @{
-            BaseDirectory    = $baseDirectoryToUse
-            FileName         = $fileNameToUse
-            CultureFallback  = $FallbackUICulture
-        }
+        [void]$candidateFiles.Add((Join-Path -Path $baseDirectoryToUse -ChildPath $fileNameToUse))
 
-        if (-not $resolutionParams.CultureFallback) {
-            $resolutionParams.Remove('CultureFallback') | Out-Null
-        }
-
-        $resolution = Resolve-LocalizedMessagesFile @resolutionParams
-        if ($resolution) {
-            $finalCandidate = $resolution.FilePath
-            if ($resolution.CultureName) {
-                $source = '{0}:{1}' -f $source, $resolution.CultureName
+        if ($FallbackUICulture) {
+            foreach ($culture in $FallbackUICulture) {
+                if ([string]::IsNullOrWhiteSpace($culture)) { continue }
+                $culturePath = Join-Path -Path $baseDirectoryToUse -ChildPath $culture
+                [void]$candidateFiles.Add((Join-Path -Path $culturePath -ChildPath $fileNameToUse))
             }
         }
     }
+
+    $finalCandidate = $candidateFiles |
+        Where-Object { $_ -and (Test-Path -LiteralPath $_ -PathType Leaf) } |
+        Select-Object -First 1
 
     if (-not $finalCandidate) {
         throw [System.IO.FileNotFoundException]::new("Localized messages file '$fileNameToUse' could not be located.")
@@ -327,11 +139,8 @@ function Initialize-ColorScriptsLocalization {
         [string[]]$CultureFallbackOverride
     )
 
-    $null = $CandidateRoots
-    $null = $CultureFallbackOverride
-
     return Invoke-ModuleSynchronized $script:LocalizationSyncRoot {
-        if ($script:LocalizationInitialized -and $script:Messages -and -not $CandidateRoots -and -not $CultureFallbackOverride) {
+        if ($script:LocalizationInitialized -and $script:Messages) {
             if (-not $script:LocalizationDetails) {
                 $script:LocalizationDetails = [pscustomobject]@{
                     LocalizedDataLoaded = $true
@@ -365,11 +174,12 @@ function Initialize-ColorScriptsLocalization {
         }
 
         $searchedPaths = New-Object System.Collections.Generic.List[string]
-        $candidatePaths = New-Object System.Collections.Generic.List[string]
+        $resolvedRoot = $null
 
         foreach ($candidate in $uniqueCandidates) {
             if ([string]::IsNullOrWhiteSpace($candidate)) { continue }
             Write-ModuleTrace ("Evaluating localization candidate: {0}" -f $candidate)
+            $null = $searchedPaths.Add($candidate)
 
             $candidatePath = $candidate
             try {
@@ -382,109 +192,75 @@ function Initialize-ColorScriptsLocalization {
                 Write-ModuleTrace ("Localization candidate resolution failed for '{0}': {1}" -f $candidate, $_.Exception.Message)
             }
 
-            if ([System.IO.Directory]::Exists($candidatePath) -or (Test-Path -LiteralPath $candidatePath -PathType Container)) {
-                if (-not $candidatePaths.Contains($candidatePath)) {
-                    [void]$candidatePaths.Add($candidatePath)
-                }
+            if (Test-Path -LiteralPath $candidatePath -PathType Container) {
+                $resolvedRoot = $candidatePath
+                break
             }
         }
 
-        if (-not $candidatePaths.Count) {
+        if (-not $resolvedRoot) {
             Write-ModuleTrace 'No localization candidate paths resolved; falling back to module root discovery.'
-            $fallbackRoot = $null
             if ($PSScriptRoot -and (Test-Path -LiteralPath $PSScriptRoot -PathType Container)) {
                 try {
-                    $fallbackRoot = (Resolve-Path -LiteralPath $PSScriptRoot -ErrorAction Stop).ProviderPath
+                    $resolvedRoot = (Resolve-Path -LiteralPath $PSScriptRoot -ErrorAction Stop).ProviderPath
                 }
                 catch {
-                    $fallbackRoot = $PSScriptRoot
+                    $resolvedRoot = $PSScriptRoot
                 }
             }
             elseif ($script:ModuleRoot) {
-                $fallbackRoot = $script:ModuleRoot
-            }
-
-            if ($fallbackRoot) {
-                [void]$candidatePaths.Add($fallbackRoot)
+                $resolvedRoot = $script:ModuleRoot
             }
         }
 
-        if (-not $candidatePaths.Count) {
+        if (-not $resolvedRoot) {
             throw [System.InvalidOperationException]::new('Unable to resolve a module root for localization resources.')
         }
 
-        $importSucceeded = $false
-        $selectedRoot = $null
-        $source = 'Import-LocalizedData'
-        $filePath = $null
+        $script:ModuleRoot = $resolvedRoot
 
-        foreach ($candidatePath in $candidatePaths) {
-            if ([string]::IsNullOrWhiteSpace($candidatePath)) { continue }
-            $selectedRoot = $candidatePath
-            $null = $searchedPaths.Add($candidatePath)
-
-            $importParams = @{ BaseDirectory = $candidatePath }
-            if ($CultureFallbackOverride -and $CultureFallbackOverride.Count -gt 0) {
-                $importParams['FallbackUICulture'] = $CultureFallbackOverride
-            }
-
-            try {
-                $importResult = Import-LocalizedMessagesFromFile @importParams
-                if ($importResult -and $importResult.Messages) {
-                    $messages = $importResult.Messages
-                    $source = if ($importResult.Source) { $importResult.Source } else { 'Import-LocalizedData' }
-                    $filePath = if ($importResult.FilePath) { $importResult.FilePath } else { $null }
-
-                    $script:Messages = $messages
-                    $script:ModuleRoot = $candidatePath
-                    $script:LocalizationInitialized = $true
-                    $script:LocalizationDetails = [pscustomobject]@{
-                        LocalizedDataLoaded = $true
-                        ModuleRoot          = $candidatePath
-                        SearchedPaths       = $searchedPaths.ToArray()
-                        Source              = $source
-                        FilePath            = $filePath
-                    }
-
-                    if ($filePath) {
-                        Write-ModuleTrace ("Localization resolved via {0} from {1} (file {2})" -f $source, $candidatePath, $filePath)
-                    }
-                    else {
-                        Write-ModuleTrace ("Localization resolved via {0} from {1}" -f $source, $candidatePath)
-                    }
-
-                    $importSucceeded = $true
-                    break
-                }
-            }
-            catch {
-                Write-ModuleTrace ("Localization import failure for '{0}': {1}" -f $candidatePath, $_.Exception.Message)
-            }
+        $importParams = @{
+            BaseDirectory = $resolvedRoot
         }
 
-        if (-not $importSucceeded) {
-            $effectiveRoot = $selectedRoot
-            if (-not $effectiveRoot -and $candidatePaths.Count -gt 0) {
-                $effectiveRoot = $candidatePaths[0]
-            }
-            if (-not $effectiveRoot -and $PSScriptRoot -and (Test-Path -LiteralPath $PSScriptRoot -PathType Container)) {
-                try {
-                    $effectiveRoot = (Resolve-Path -LiteralPath $PSScriptRoot -ErrorAction Stop).ProviderPath
-                }
-                catch {
-                    $effectiveRoot = $PSScriptRoot
-                }
-            }
-            elseif (-not $effectiveRoot -and $script:ModuleRoot) {
-                $effectiveRoot = $script:ModuleRoot
+        if ($CultureFallbackOverride -and $CultureFallbackOverride.Count -gt 0) {
+            $importParams['FallbackUICulture'] = $CultureFallbackOverride
+        }
+
+        try {
+            $importResult = Import-LocalizedMessagesFromFile @importParams
+            if (-not $importResult -or -not $importResult.Messages) {
+                throw [System.InvalidOperationException]::new('Import-LocalizedData returned no data.')
             }
 
-            $script:ModuleRoot = $effectiveRoot
+            $messages = $importResult.Messages
+            $source = if ($importResult.Source) { $importResult.Source } else { 'Import-LocalizedData' }
+            $filePath = if ($importResult.FilePath) { $importResult.FilePath } else { $null }
+
+            $script:Messages = $messages
+            $script:LocalizationInitialized = $true
+            $script:LocalizationDetails = [pscustomobject]@{
+                LocalizedDataLoaded = $true
+                ModuleRoot          = $resolvedRoot
+                SearchedPaths       = $searchedPaths.ToArray()
+                Source              = $source
+                FilePath            = $filePath
+            }
+
+            if ($filePath) {
+                Write-ModuleTrace ("Localization resolved via {0} from {1} (file {2})" -f $source, $resolvedRoot, $filePath)
+            }
+            else {
+                Write-ModuleTrace ("Localization resolved via {0} from {1}" -f $source, $resolvedRoot)
+            }
+        }
+        catch {
+            Write-ModuleTrace ("Localization import failure: {0}" -f $_.Exception.Message)
             $script:Messages = if ($script:EmbeddedDefaultMessages) { $script:EmbeddedDefaultMessages.Clone() } else { @{} }
             $script:LocalizationInitialized = $true
             $script:LocalizationDetails = [pscustomobject]@{
                 LocalizedDataLoaded = $false
-                ModuleRoot          = $effectiveRoot
+                ModuleRoot          = $resolvedRoot
                 SearchedPaths       = $searchedPaths.ToArray()
                 Source              = 'EmbeddedDefaults'
                 FilePath            = $null
@@ -778,7 +554,6 @@ function Invoke-FileWriteAllText {
         [ValidateScript({ Test-ColorScriptPathValue $_ })]
         [string]$Path,
         [Parameter(Mandatory)]
-        [AllowEmptyString()]
         [string]$Content,
         [Parameter(Mandatory)]
         [System.Text.Encoding]$Encoding
@@ -1360,29 +1135,24 @@ function Resolve-CachePath {
 
     $expanded = [System.Environment]::ExpandEnvironmentVariables($Path)
 
-    $homeDirectory = $null
-    try {
+    if ($expanded -and $expanded.StartsWith('~')) {
         $homeDirectory = & $script:GetUserProfilePathDelegate
-    }
-    catch {
-        $homeDirectory = $null
-    }
-
-    if (-not $homeDirectory) {
-        $homeDirectory = $HOME
-    }
-
-    if ($expanded -and $expanded.StartsWith('~') -and $homeDirectory) {
-        if ($expanded.Length -eq 1) {
-            $expanded = $homeDirectory
+        if (-not $homeDirectory) {
+            $homeDirectory = $HOME
         }
-        elseif ($expanded.Length -gt 1 -and ($expanded[1] -eq '/' -or $expanded[1] -eq [char]92)) {
-            $relativeSegment = $expanded.Substring(2)
-            $expanded = if ($relativeSegment) {
-                Join-Path -Path $homeDirectory -ChildPath $relativeSegment
+
+        if ($homeDirectory) {
+            if ($expanded.Length -eq 1) {
+                $expanded = $homeDirectory
             }
-            else {
-                $homeDirectory
+            elseif ($expanded.Length -gt 1 -and ($expanded[1] -eq '/' -or $expanded[1] -eq '\\')) {
+                $relativeSegment = $expanded.Substring(2)
+                $expanded = if ($relativeSegment) {
+                    Join-Path -Path $homeDirectory -ChildPath $relativeSegment
+                }
+                else {
+                    $homeDirectory
+                }
             }
         }
     }
@@ -1462,9 +1232,59 @@ function Get-ColorScriptInventory {
         [switch]$Raw
     )
 
-    $null = $Raw
+    if ($script:ScriptInventoryInitialized -and $script:ScriptInventory) {
+        if ($Raw) {
+            return $script:ScriptInventory
+        }
+
+        if (-not $script:ScriptInventoryRecords) {
+            $script:ScriptInventoryRecords = @(
+                foreach ($file in $script:ScriptInventory) {
+                    [pscustomobject]@{
+                        Name        = $file.BaseName
+                        Path        = $file.FullName
+                        Category    = $null
+                        Categories  = @()
+                        Tags        = @()
+                        Description = $null
+                        Metadata    = $null
+                    }
+                }
+            )
+        }
+
+        return $script:ScriptInventoryRecords
+    }
 
     $result = Invoke-ModuleSynchronized $script:InventorySyncRoot {
+        if ($script:ScriptInventoryInitialized -and $script:ScriptInventory) {
+            if ($Raw) {
+                return $script:ScriptInventory
+            }
+
+            if (-not $script:ScriptInventoryRecords) {
+                $script:ScriptInventoryRecords = @(
+                    foreach ($file in $script:ScriptInventory) {
+                        [pscustomobject]@{
+                            Name        = $file.BaseName
+                            Path        = $file.FullName
+                            Category    = $null
+                            Categories  = @()
+                            Tags        = @()
+                            Description = $null
+                            Metadata    = $null
+                        }
+                    }
+                )
+            }
+
+            if ($Raw) {
+                return $script:ScriptInventory
+            }
+
+            return $script:ScriptInventoryRecords
+        }
+
         $currentStamp = $null
         try {
             $currentStamp = & $script:DirectoryGetLastWriteTimeUtcDelegate $script:ScriptsPath
@@ -1486,43 +1306,13 @@ function Get-ColorScriptInventory {
             $shouldRefresh = $true
         }
 
-        $scriptFiles = $null
-
-        if (-not $shouldRefresh -and $script:ScriptInventoryInitialized -and $currentStamp -eq $script:ScriptInventoryStamp) {
-            $inventoryContainsNonFileInfo = $false
-            if ($script:ScriptInventory) {
-                foreach ($item in $script:ScriptInventory) {
-                    if ($item -isnot [System.IO.FileInfo]) {
-                        $inventoryContainsNonFileInfo = $true
-                        break
-                    }
-                }
-            }
-
-            if (-not $inventoryContainsNonFileInfo) {
-                try {
-                    $probeFiles = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" -File -ErrorAction Stop
-                }
-                catch {
-                    $probeFiles = @()
-                }
-
-                $cachedCount = if ($script:ScriptInventory) { $script:ScriptInventory.Count } else { 0 }
-                if ($probeFiles.Count -ne $cachedCount) {
-                    $shouldRefresh = $true
-                    $scriptFiles = $probeFiles
-                }
-            }
-        }
-
         if ($shouldRefresh) {
-            if (-not $scriptFiles) {
-                try {
-                    $scriptFiles = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" -File -ErrorAction Stop
-                }
-                catch {
-                    $scriptFiles = @()
-                }
+            $scriptFiles = @()
+            try {
+                $scriptFiles = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" -File -ErrorAction Stop
+            }
+            catch {
+                $scriptFiles = @()
             }
 
             $script:ScriptInventory = @($scriptFiles)
@@ -1543,8 +1333,8 @@ function Get-ColorScriptInventory {
             $script:ScriptInventoryInitialized = $true
         }
 
-        if (-not $script:ScriptInventory) {
-            $script:ScriptInventory = @()
+        if ($Raw) {
+            return $script:ScriptInventory
         }
 
         if (-not $script:ScriptInventoryRecords) {
@@ -1561,10 +1351,6 @@ function Get-ColorScriptInventory {
                     }
                 }
             )
-        }
-
-        if ($Raw) {
-            return $script:ScriptInventory
         }
 
         return $script:ScriptInventoryRecords
@@ -2491,33 +2277,6 @@ function Get-CachedOutput {
         [string]$ScriptPath
     )
 
-    if ([string]::IsNullOrWhiteSpace($ScriptPath)) {
-        return [pscustomobject]@{
-            Available     = $false
-            CacheFile     = $null
-            Content       = ''
-            LastWriteTime = $null
-        }
-    }
-
-    if (-not $script:CacheDir) {
-        try {
-            Initialize-CacheDirectory
-        }
-        catch {
-            Write-Verbose "Initialize-CacheDirectory failed: $($_.Exception.Message)"
-        }
-    }
-
-    if (-not $script:CacheDir) {
-        return [pscustomobject]@{
-            Available     = $false
-            CacheFile     = $null
-            Content       = ''
-            LastWriteTime = $null
-        }
-    }
-
     $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($ScriptPath)
     $cacheFile = Join-Path -Path $script:CacheDir -ChildPath ("{0}.cache" -f $scriptName)
 
@@ -2619,7 +2378,7 @@ function Invoke-ColorScriptProcess {
     # Fast in-process execution for cache building
     if ($ForCache) {
         try {
-            $oldLocation = Get-Location -PSProvider FileSystem
+            $oldLocation = Get-Location
             $scriptDirectory = [System.IO.Path]::GetDirectoryName($ScriptPath)
             if ($scriptDirectory) {
                 Set-Location -LiteralPath $scriptDirectory -ErrorAction SilentlyContinue
@@ -2628,7 +2387,7 @@ function Invoke-ColorScriptProcess {
             $scriptContent = & $script:FileReadAllTextDelegate $ScriptPath $script:Utf8NoBomEncoding
             $scriptBlock = [ScriptBlock]::Create($scriptContent)
 
-            $output = & $scriptBlock *>&1 | Out-String
+            $output = & $scriptBlock 2>&1 | Out-String
 
             $result.StdOut = $output
             $result.ExitCode = 0

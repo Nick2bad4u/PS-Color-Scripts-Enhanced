@@ -73,3 +73,4 @@ function Set-ColorScriptConfiguration {
         return Get-ColorScriptConfiguration
     }
 }
+

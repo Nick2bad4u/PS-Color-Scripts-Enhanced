@@ -363,7 +363,7 @@ Export-ModuleMember -Function @(
     'Reset-ColorScriptConfiguration',
     'Export-ColorScriptMetadata',
     'New-ColorScript'
-) -Alias @('scs', 'Update-ColorScriptCache')
+) -Alias @('scs', 'Update-ColorScriptCache', 'Build-ColorScriptCache')
 
 if ($script:Messages -and $script:Messages.ContainsKey('ModuleLoadedSuccessfully')) {
     Write-Verbose $script:Messages.ModuleLoadedSuccessfully
