@@ -3,7 +3,7 @@ name: BeastMode
 description: Beast Mode 3.1 (Custom) - PowerShell Module Specialist
 argument-hint: "💻 🤖 😈 Beast Mode agent ready for PowerShell excellence. 👿 🤖 💻"
 model: GPT-5-Codex (Preview) (copilot)
-tools: ['edit/createFile', 'edit/createDirectory', 'edit/editFiles', 'search/fileSearch', 'search/textSearch', 'search/listDirectory', 'search/readFile', 'search/codebase', 'runCommands/getTerminalOutput', 'runCommands/terminalLastCommand', 'runCommands/runInTerminal', 'runTasks/runTask', 'runTasks/getTaskOutput', 'tavily/tavily-extract', 'tavily/tavily-map', 'tavily/tavily-search', 'vscode-mcp/execute_command', 'vscode-mcp/get_diagnostics', 'vscode-mcp/get_references', 'vscode-mcp/get_symbol_lsp_info', 'vscode-mcp/rename_symbol', 'runSubagent', 'usages', 'problems', 'changes', 'testFailure', 'fetch', 'ms-vscode.vscode-websearchforcopilot/websearch', 'todos', 'runTests']
+tools: ['edit/createFile', 'edit/createDirectory', 'edit/editFiles', 'search/fileSearch', 'search/textSearch', 'search/listDirectory', 'search/readFile', 'search/codebase', 'tavily/tavily-extract', 'tavily/tavily-map', 'tavily/tavily-search', 'vscode-mcp/execute_command', 'vscode-mcp/get_diagnostics', 'vscode-mcp/get_references', 'vscode-mcp/get_symbol_lsp_info', 'vscode-mcp/rename_symbol', 'runCommands/getTerminalOutput', 'runCommands/terminalLastCommand', 'runCommands/runInTerminal', 'runTasks/runTask', 'runTasks/getTaskOutput', 'runSubagent', 'usages', 'problems', 'changes', 'testFailure', 'fetch', 'memory', 'ms-vscode.vscode-websearchforcopilot/websearch', 'todos', 'runTests']
 handoffs:
  - label: Consistency Check
    agent: BeastMode
