@@ -1,20 +1,23 @@
-## [2025.11.2.1947] - 2025-11-02
+## [2025.11.2.2244] - 2025-11-02
 
 
-[[6ded0ac](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/6ded0ac9b35d2e030b72ed9b1f2bc5344c6743bf)...
-[6ded0ac](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/6ded0ac9b35d2e030b72ed9b1f2bc5344c6743bf)]
-([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/6ded0ac9b35d2e030b72ed9b1f2bc5344c6743bf...6ded0ac9b35d2e030b72ed9b1f2bc5344c6743bf))
+[[81844d2](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/81844d2c6c419288b48fb36831872b53e53f37ca)...
+[81844d2](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/81844d2c6c419288b48fb36831872b53e53f37ca)]
+([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/81844d2c6c419288b48fb36831872b53e53f37ca...81844d2c6c419288b48fb36831872b53e53f37ca))
 
 
 ### ≡ƒÆ╝ Other
 
-- ≡ƒÜ£ [refactor] Stabilize module-root resolution and localization loading
- - ≡ƒ¢á∩╕Å [fix] Add Get-Module -ListAvailable (ModuleBase) and respect COLOR_SCRIPTS_ENHANCED_MODULE_ROOT env var as fallback candidates so localized resources resolve from the intended module location
- - ≡ƒô¥ [docs] Add detailed import/debug tracing to a temp cs-module-root-debug.log (captures ModuleInfo, PSScriptRoot, candidate enumeration, found/not-found paths, Import-LocalizedData successes and failures) to aid diagnosis
- - ≡ƒöº [build] [dependency] Update ModuleVersion 2025.11.02.1436 and update ReleaseNotes; sync UICultureVersion entries in localized HelpInfo.xml files
- - ≡ƒº¬ [test] Set and restore COLOR_SCRIPTS_ENHANCED_MODULE_ROOT in tests to force imports from the repo module path and reduce environment-specific flakiness
+- ≡ƒÜ£ [refactor] Stabilize module-root discovery and implement robust localization loader
 
-Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(6ded0ac)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/6ded0ac9b35d2e030b72ed9b1f2bc5344c6743bf)
+ - ≡ƒÜ£ [refactor] Add Resolve-LocalizedMessagesFile, Import-LocalizedMessagesFromFile and Initialize-ColorScriptsLocalization to reliably locate and import Messages.psd1 (culture-folder enumeration, case-insensitive matching, ProviderPath resolution, root fallback).
+ - Γ£¿ [feat] Embed default English messages ($script:EmbeddedDefaultMessages) and fall back gracefully when no localized resources are found; preserve ModuleRoot and emit a warning when falling back.
+ - ≡ƒ¢á∩╕Å [fix] Harden module import tracing and null handling for $moduleInfo; write detailed cs-module-root-debug.log entries for ModuleInfo, PSScriptRoot, candidate evaluation and localization import outcomes.
+ - ≡ƒº¬ [test] Add comprehensive "Localization resolution" unit tests (culture enumeration, root fallback, ConvertFrom-StringData payload import, Import-PowerShellDataFile import, error-recovery path) and initialize localization in test setup; record module root in-module scope for deterministic imports.
+ - ≡ƒöº [build] [dependency] Update ModuleVersion 2025.11.02.1734 and synchronize ReleaseNotes and HelpInfo UICultureVersion entries across localized HelpInfo.xml files.
+ - ≡ƒô¥ [docs] Refresh dist release notes and PowerShellGallery metadata to reflect the localization refactor and version bump.
+
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(81844d2)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/81844d2c6c419288b48fb36831872b53e53f37ca)
 
 
 

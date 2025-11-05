@@ -165,7 +165,7 @@ $manifestParams = @{
     ModuleVersion         = $Version
     Path                  = $manifestPath
     Guid                  = "f77548d7-23eb-48ce-a6e0-f64b4758d995"
-    Author                = "Nick"
+    Author                = "Nick2bad4u"
     CompanyName           = "Community"
     Copyright             = "(c) 2025. All rights reserved."
     RootModule            = "ColorScripts-Enhanced.psm1"
@@ -175,7 +175,7 @@ $manifestParams = @{
     FunctionsToExport     = $functionsToExport
     CmdletsToExport       = @()
     VariablesToExport     = @()
-    AliasesToExport       = @("scs", "Update-ColorScriptCache")
+    AliasesToExport       = @("scs", "Update-ColorScriptCache", "Build-ColorScriptCache")
     Description           = @'
 🎨 ColorScripts-Enhanced: Professional ANSI Art Terminal Experience
 
@@ -416,7 +416,7 @@ $functionsBlock
     VariablesToExport = @()
 
     # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-    AliasesToExport = @('scs', 'Update-ColorScriptCache')
+    AliasesToExport = @('scs', 'Update-ColorScriptCache', 'Build-ColorScriptCache')
 
     # DSC resources to export from this module
     # DscResourcesToExport = @()

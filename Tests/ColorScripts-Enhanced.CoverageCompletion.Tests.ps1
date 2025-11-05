@@ -513,7 +513,7 @@ Describe "ColorScripts-Enhanced coverage completion" {
     }
 
     Context "Initialize-CacheDirectory fallback" {
-        It "creates fallback directory when all candidates fail" -Skip {
+        It "creates fallback directory when all candidates fail" -Skip:($env:CI) {
             $basePath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
             New-Item -ItemType Directory -Path $basePath -Force | Out-Null
             $originalTemp = $env:TEMP
