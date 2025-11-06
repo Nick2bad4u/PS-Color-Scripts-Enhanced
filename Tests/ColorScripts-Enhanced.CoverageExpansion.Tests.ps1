@@ -67,6 +67,8 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $script:ConfigurationData = $null
             $script:ConfigurationInitialized = $false
             $script:CacheInitialized = $false
+            $script:CacheValidationPerformed = $false
+            $script:CacheValidationManualOverride = $false
             AfterEach {
                 if ($null -eq $script:OriginalConfigOverride) {
                     Remove-Item Env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT -ErrorAction SilentlyContinue
@@ -103,6 +105,8 @@ Describe "ColorScripts-Enhanced extended coverage" {
                     $script:ConfigurationData = $null
                     $script:ConfigurationInitialized = $false
                     $script:CacheInitialized = $false
+                    $script:CacheValidationPerformed = $false
+                    $script:CacheValidationManualOverride = $false
                     $script:CacheDir = $null
                     $script:MetadataCache = $null
                     $script:MetadataLastWriteTime = $null

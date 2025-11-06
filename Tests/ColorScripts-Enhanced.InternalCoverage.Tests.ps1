@@ -83,6 +83,8 @@ Describe "ColorScripts-Enhanced internal coverage" {
             $script:ConfigurationPath = $null
             $script:ConfigurationData = $null
             $script:ConfigurationInitialized = $false
+            $script:CacheValidationPerformed = $false
+            $script:CacheValidationManualOverride = $false
             Initialize-ColorScriptsLocalization -CandidateRoots ($moduleRootCandidates | Select-Object -Unique) | Out-Null
         }
     }

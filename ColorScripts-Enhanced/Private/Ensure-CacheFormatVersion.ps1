@@ -2,39 +2,58 @@ if (-not $script:CacheFormatVersion) {
     $script:CacheFormatVersion = 2
 }
 
+if ($null -eq $script:CacheValidationManualOverride) {
+    $script:CacheValidationManualOverride = $false
+}
+
+if ($null -eq $script:CacheValidationPerformed) {
+    $script:CacheValidationPerformed = $false
+}
+
+function Set-CacheValidationOverride {
+    param(
+        [Parameter(Mandatory)]
+        [bool]$Value
+    )
+
+    $script:CacheValidationManualOverride = $Value
+
+    if ($Value) {
+        $script:CacheValidationPerformed = $false
+    }
+}
+
 function Update-CacheFormatVersion {
     param(
         [Parameter(Mandatory)]
         [ValidateNotNullOrEmpty()]
-        [string]$CacheDirectory
+        [string]$CacheDirectory,
+
+        [Parameter(Mandatory)]
+        [ValidateNotNullOrEmpty()]
+        [string]$MetadataFileName
     )
 
     if (-not (Test-Path -LiteralPath $CacheDirectory -PathType Container)) {
         return
     }
 
-    $metadataPath = Join-Path -Path $CacheDirectory -ChildPath 'cache-metadata.json'
-    $currentVersion = $null
+    $metadataPath = Join-Path -Path $CacheDirectory -ChildPath $MetadataFileName
 
-    if (Test-Path -LiteralPath $metadataPath -PathType Leaf) {
-        try {
-            $metadataJson = Get-Content -LiteralPath $metadataPath -Raw
-            if ($metadataJson) {
-                $metadata = ConvertFrom-Json -InputObject $metadataJson -ErrorAction Stop
-                if ($metadata -and $metadata.PSObject.Properties.Match('Version')) {
-                    $currentVersion = [int]$metadata.Version
+    try {
+        Get-ChildItem -LiteralPath $CacheDirectory -Filter 'cache-metadata*.json' -File -ErrorAction Stop |
+            Where-Object { $_.Name -ne $MetadataFileName } |
+                ForEach-Object {
+                    try {
+                        Remove-Item -LiteralPath $_.FullName -Force -ErrorAction Stop
+                    }
+                    catch {
+                        Write-Verbose ("Failed to remove obsolete cache metadata '{0}': {1}" -f $_.FullName, $_.Exception.Message)
+                    }
                 }
-            }
-        }
-        catch {
-            Write-Verbose ("Cache metadata read failed: {0}" -f $_.Exception.Message)
-            $currentVersion = $null
-        }
     }
-
-    $targetVersion = [int]$script:CacheFormatVersion
-    if ($currentVersion -eq $targetVersion) {
-        return
+    catch {
+        Write-Verbose ("Cache metadata cleanup failed: {0}" -f $_.Exception.Message)
     }
 
     try {
@@ -62,7 +81,7 @@ function Update-CacheFormatVersion {
     }
 
     $metadataObject = [pscustomobject]@{
-        Version       = $targetVersion
+        Version       = [int]$script:CacheFormatVersion
         ModuleVersion = $moduleVersion
         UpdatedUtc    = (Get-Date).ToUniversalTime().ToString('o')
     }

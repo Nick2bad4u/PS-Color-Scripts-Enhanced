@@ -71,10 +71,34 @@ function Initialize-CacheDirectory {
 
         $resolvedCacheDir = Resolve-PreferredDirectoryCandidate -CandidatePaths $candidatePaths -OnCreateFailure $onCreateFailure -OnResolutionFailure $onResolutionFailure
 
+        $metadataFileName = 'cache-metadata-v{0}.json' -f $script:CacheFormatVersion
+        $envValidateValue = $env:COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE
+        $forceViaEnv = $false
+        if ($envValidateValue -and $envValidateValue -match '^(1|true|yes)$') {
+            $forceViaEnv = $true
+        }
+
         if ($resolvedCacheDir) {
             $script:CacheDir = $resolvedCacheDir
             $script:CacheInitialized = $true
-            Update-CacheFormatVersion -CacheDirectory $script:CacheDir
+
+            $shouldValidate = $false
+            if ($forceViaEnv -or $script:CacheValidationManualOverride) {
+                $shouldValidate = $true
+            }
+            elseif (-not $script:CacheValidationPerformed) {
+                $metadataPath = Join-Path -Path $script:CacheDir -ChildPath $metadataFileName
+                if (-not (Test-Path -LiteralPath $metadataPath -PathType Leaf)) {
+                    $shouldValidate = $true
+                }
+            }
+
+            if ($shouldValidate) {
+                Update-CacheFormatVersion -CacheDirectory $script:CacheDir -MetadataFileName $metadataFileName
+                $script:CacheValidationPerformed = $true
+            }
+
+            $script:CacheValidationManualOverride = $false
             return
         }
 
@@ -99,6 +123,23 @@ function Initialize-CacheDirectory {
 
         $script:CacheDir = $resolvedFallback
         $script:CacheInitialized = $true
-        Update-CacheFormatVersion -CacheDirectory $script:CacheDir
+
+        $shouldValidateFallback = $false
+        if ($forceViaEnv -or $script:CacheValidationManualOverride) {
+            $shouldValidateFallback = $true
+        }
+        elseif (-not $script:CacheValidationPerformed) {
+            $metadataPath = Join-Path -Path $script:CacheDir -ChildPath $metadataFileName
+            if (-not (Test-Path -LiteralPath $metadataPath -PathType Leaf)) {
+                $shouldValidateFallback = $true
+            }
+        }
+
+        if ($shouldValidateFallback) {
+            Update-CacheFormatVersion -CacheDirectory $script:CacheDir -MetadataFileName $metadataFileName
+            $script:CacheValidationPerformed = $true
+        }
+
+        $script:CacheValidationManualOverride = $false
     }
 }

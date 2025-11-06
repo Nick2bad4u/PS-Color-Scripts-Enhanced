@@ -48,6 +48,9 @@ function Show-ColorScript {
     .PARAMETER NoAnsiOutput
         Disable ANSI color codes in informational messages and rendered script text for plain-text environments.
 
+    .PARAMETER ValidateCache
+        Forces cache validation before rendering. Use when you need to rebuild cached colorscript output manually.
+
     .EXAMPLE
         Show-ColorScript
         Displays a random colorscript.
@@ -261,12 +264,19 @@ function Show-ColorScript {
 
         [Parameter()]
         [Alias('NoColor')]
-        [switch]$NoAnsiOutput
+        [switch]$NoAnsiOutput,
+
+        [Parameter()]
+        [switch]$ValidateCache
     )
 
     if ($h) {
         Show-ColorScriptHelp -CommandName 'Show-ColorScript'
         return
+    }
+
+    if ($ValidateCache) {
+        Set-CacheValidationOverride -Value $true
     }
 
     $quietRequested = $Quiet.IsPresent
@@ -483,4 +493,3 @@ function Show-ColorScript {
         return $selection
     }
 }
-

@@ -12,6 +12,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $script:CacheInitialized = $false
             $script:ConfigurationData = $null
             $script:ConfigurationInitialized = $false
+            $script:CacheValidationPerformed = $false
+            $script:CacheValidationManualOverride = $false
         }
     }
 
