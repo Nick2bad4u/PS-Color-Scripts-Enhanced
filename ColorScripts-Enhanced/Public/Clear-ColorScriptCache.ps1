@@ -459,7 +459,7 @@ function Clear-ColorScriptCache {
 
             $summaryMessage = $formatString -f $summary.Removed, $summary.Missing, $summary.Skipped, $summary.DryRun, $summary.Errors
             $summarySegment = New-ColorScriptAnsiText -Text $summaryMessage -Color 'Cyan' -NoAnsiOutput:$false
-            Write-ColorScriptInformation -Message $summarySegment -Quiet:$false
+            Write-ColorScriptInformation -Message $summarySegment -Quiet:$false -PreferConsole -Color 'Cyan'
         }
 
         return $output

@@ -281,6 +281,7 @@ function Show-ColorScript {
 
     $quietRequested = $Quiet.IsPresent
     $noAnsiRequested = $NoAnsiOutput.IsPresent
+    $preferConsoleOutput = -not $noAnsiRequested
 
     if ($List) {
         $listParams = @{}
@@ -311,12 +312,12 @@ function Show-ColorScript {
         $currentIndex = 0
 
         $displayingMessage = New-ColorScriptAnsiText -Text ($script:Messages.DisplayingColorscripts -f $totalCount) -Color 'Cyan' -NoAnsiOutput:$noAnsiRequested
-        Write-ColorScriptInformation -Message $displayingMessage -Quiet:$quietRequested
+        Write-ColorScriptInformation -Message $displayingMessage -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Cyan'
 
         $modeMessage = if ($WaitForInput) { $script:Messages.PressSpacebarToContinue } else { $script:Messages.DisplayingContinuously }
         $modeQuiet = if ($WaitForInput) { $false } else { $quietRequested }
         $modeSegment = New-ColorScriptAnsiText -Text $modeMessage -Color 'Yellow' -NoAnsiOutput:$noAnsiRequested
-        Write-ColorScriptInformation -Message $modeSegment -Quiet:$modeQuiet
+        Write-ColorScriptInformation -Message $modeSegment -Quiet:$modeQuiet -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Yellow'
 
         foreach ($script in $sortedScripts) {
             $currentIndex++
@@ -326,11 +327,11 @@ function Show-ColorScript {
             }
             $progressSegment = New-ColorScriptAnsiText -Text ($script:Messages.CurrentIndexOfTotal -f $currentIndex, $totalCount) -Color 'Green' -NoAnsiOutput:$noAnsiRequested
             $scriptNameSegment = New-ColorScriptAnsiText -Text $script.Name -Color 'Cyan' -NoAnsiOutput:$noAnsiRequested
-            Write-ColorScriptInformation -Message ("$progressSegment $scriptNameSegment") -Quiet:$quietRequested
+            Write-ColorScriptInformation -Message ("$progressSegment $scriptNameSegment") -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
 
             $dividerSegment = New-ColorScriptAnsiText -Text ("=" * 60) -Color 'DarkGray' -NoAnsiOutput:$noAnsiRequested
-            Write-ColorScriptInformation -Message $dividerSegment -Quiet:$quietRequested
-            Write-ColorScriptInformation -Message '' -Quiet:$quietRequested
+            Write-ColorScriptInformation -Message $dividerSegment -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'DarkGray'
+            Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
 
             $renderedOutput = $null
             if (-not $NoCache) {
@@ -357,9 +358,9 @@ function Show-ColorScript {
             }
 
             if ($WaitForInput -and $currentIndex -lt $totalCount) {
-                Write-ColorScriptInformation -Message '' -Quiet:$quietRequested
+                Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
                 $promptMessage = New-ColorScriptAnsiText -Text $script:Messages.PressSpacebarForNext -Color 'Yellow' -NoAnsiOutput:$noAnsiRequested
-                Write-ColorScriptInformation -Message $promptMessage -Quiet:$false
+                Write-ColorScriptInformation -Message $promptMessage -Quiet:$false -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Yellow'
 
                 $continueLoop = $true
                 while ($continueLoop) {
@@ -369,20 +370,20 @@ function Show-ColorScript {
                     }
                     elseif ($key.Character -eq 'q' -or $key.Character -eq 'Q') {
                         $quitMessage = New-ColorScriptAnsiText -Text $script:Messages.Quitting -Color 'Yellow' -NoAnsiOutput:$noAnsiRequested
-                        Write-ColorScriptInformation -Message $quitMessage -Quiet:$false
+                        Write-ColorScriptInformation -Message $quitMessage -Quiet:$false -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Yellow'
                         return
                     }
                 }
-                Write-ColorScriptInformation -Message '' -Quiet:$quietRequested
+                Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
             }
             elseif (-not $WaitForInput -and $currentIndex -lt $totalCount) {
                 Start-Sleep -Milliseconds 100
             }
         }
 
-        Write-ColorScriptInformation -Message '' -Quiet:$quietRequested
+        Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
         $completeMessage = New-ColorScriptAnsiText -Text ($script:Messages.FinishedDisplayingAll -f $totalCount) -Color 'Green' -NoAnsiOutput:$noAnsiRequested
-        Write-ColorScriptInformation -Message $completeMessage -Quiet:$quietRequested
+        Write-ColorScriptInformation -Message $completeMessage -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Green'
         return
     }
 

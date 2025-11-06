@@ -1086,6 +1086,66 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
+        It "prefers console output when requested" {
+            InModuleScope ColorScripts-Enhanced {
+                $script:RenderedCount = 0
+                $script:InformationCalls = @()
+
+                Mock -CommandName Write-RenderedText -ModuleName ColorScripts-Enhanced -MockWith {
+                    param($Text, $NoAnsiOutput)
+                    $null = $Text
+                    $null = $NoAnsiOutput
+                    $script:RenderedCount++
+                }
+
+                Mock -CommandName Write-Information -ModuleName ColorScripts-Enhanced -MockWith {
+                    param($MessageData, $Tags, $InformationAction)
+                    $script:InformationCalls += [pscustomobject]@{
+                        Message = $MessageData
+                        Action  = $InformationAction
+                    }
+                }
+
+                $ansiSample = "${([char]27)}[36mSample${([char]27)}[0m"
+                Write-ColorScriptInformation -Message $ansiSample -PreferConsole -Color 'Cyan'
+
+                $script:RenderedCount | Should -Be 1
+                $script:InformationCalls | Should -HaveCount 1
+                $script:InformationCalls[0].Action | Should -Be 'SilentlyContinue'
+                $script:InformationCalls[0].Message | Should -Be 'Sample'
+            }
+        }
+
+        It "emits plain text when NoAnsiOutput is specified" {
+            InModuleScope ColorScripts-Enhanced {
+                $script:RenderedCount = 0
+                $script:InformationCalls = @()
+
+                Mock -CommandName Write-RenderedText -ModuleName ColorScripts-Enhanced -MockWith {
+                    param($Text, $NoAnsiOutput)
+                    $null = $Text
+                    $null = $NoAnsiOutput
+                    $script:RenderedCount++
+                }
+
+                Mock -CommandName Write-Information -ModuleName ColorScripts-Enhanced -MockWith {
+                    param($MessageData, $Tags, $InformationAction)
+                    $script:InformationCalls += [pscustomobject]@{
+                        Message = $MessageData
+                        Action  = $InformationAction
+                    }
+                }
+
+                $plainSample = New-ColorScriptAnsiText -Text 'Sample' -Color 'Cyan' -NoAnsiOutput
+                Write-ColorScriptInformation -Message $plainSample -NoAnsiOutput -Color 'Cyan'
+
+                $script:RenderedCount | Should -Be 0
+                $script:InformationCalls | Should -HaveCount 1
+                $script:InformationCalls[0].Message | Should -Be 'Sample'
+                $script:InformationCalls[0].Action | Should -Be 'Continue'
+            }
+        }
+
         It "builds matcher sets and selects records" {
             InModuleScope ColorScripts-Enhanced {
                 $matchers = New-NameMatcherSet -Patterns @('alpha*', 'beta')

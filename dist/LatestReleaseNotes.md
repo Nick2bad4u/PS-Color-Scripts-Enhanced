@@ -4,43 +4,52 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2025.11.6.352] - 2025-11-06
+## [2025.11.6.819] - 2025-11-06
 
 
-[[4deea4a](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/4deea4ab51544020576ac95418b98be43a4472c9)...
-[4deea4a](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/4deea4ab51544020576ac95418b98be43a4472c9)]
-([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/4deea4ab51544020576ac95418b98be43a4472c9...4deea4ab51544020576ac95418b98be43a4472c9))
+[[f8c860b](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/f8c860b175742b74ff7309a2f66ff65a7d2f75a6)...
+[f8c860b](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/f8c860b175742b74ff7309a2f66ff65a7d2f75a6)]
+([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/f8c860b175742b74ff7309a2f66ff65a7d2f75a6...f8c860b175742b74ff7309a2f66ff65a7d2f75a6))
 
 
 ### ≡ƒÆ╝ Other
 
-- Γ£¿ [feat] Add cache-format upgrade workflow, manual validation override, and Show-ColorScript -ValidateCache
- - Γ£¿ Private/Ensure-CacheFormatVersion.ps1: add Set-CacheValidationOverride to let callers force cache validation; setting the override resets $script:CacheValidationPerformed so initialization will re-run validation.
- - Γ£¿ Private/Ensure-CacheFormatVersion.ps1: extend Update-CacheFormatVersion to accept -MetadataFileName and write metadata using [int]$script:CacheFormatVersion (Version, ModuleVersion, UpdatedUtc).
- - Γ£¿ Private/Ensure-CacheFormatVersion.ps1: implement purge of obsolete cache-metadata*.json files (remove files whose name != current MetadataFileName) with robust try/catch and Write-Verbose diagnostics to avoid breaking init on IO/parse failures.
+- Γ£¿ [feat] Add localization-mode selection, on-demand cache validation docs, localized cache-summary rendering, module/help bumps, and tooling updates
 
-≡ƒÜ£ [refactor] Integrate cache validation into initialization and add env override
- - ≡ƒÜ£ Private/Initialize-CacheDirectory.ps1: standardize metadata filename to 'cache-metadata-v{0}.json' and pass that name into Update-CacheFormatVersion.
- - ≡ƒÜ£ Private/Initialize-CacheDirectory.ps1: add support for COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE (accepts 1/true/yes) to force validation via environment.
- - ≡ƒÜ£ Private/Initialize-CacheDirectory.ps1: only run validation when forced (env), when manual override is set, or when validation hasn't been performed and the metadata file is missing; set $script:CacheValidationPerformed = $true after validation and clear the manual override. Apply same logic to the fallback resolution path.
+- Γ£¿ [feat] Runtime localization mode & env parsing
+ - Γ£¿ [ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced).psm1: introduce $script:LocalizationMode and parse COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE (supports 'auto', 'full', 'embedded'); honor legacy toggles COLOR_SCRIPTS_ENHANCED_FORCE_LOCALIZATION and COLOR_SCRIPTS_ENHANCED_PREFER_EMBEDDED_MESSAGES.
+ - Γ£¿ [ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced).psm1: pass -UseDefaultCandidates to Initialize-ColorScriptsLocalization to enable the new fallback behavior when importing localization resources.
 
-Γ£¿ [feat] Public Show-ColorScript: add -ValidateCache switch
- - Γ£¿ Public/Show-ColorScript.ps1: add .PARAMETER ValidateCache documentation and new [switch]$ValidateCache parameter.
- - Γ£¿ Public/Show-ColorScript.ps1: when -ValidateCache is supplied call Set-CacheValidationOverride -Value $true so callers can force cache rebuild/validation before rendering.
+- Γ£¿ [feat] Embedded-defaults preference & PSD1 probing
+ - Γ£¿ Private/Initialize-ColorScriptsLocalization.ps1: add -UseDefaultCandidates switch and $useDefaultCandidatesFlag; compute preferredCulture from CurrentUICulture and implement preferEmbeddedDefaults logic for 'Embedded' and 'Auto'+UseDefaultCandidates flows.
+ - Γ£¿ Private/Initialize-ColorScriptsLocalization.ps1: probe candidatePaths for Messages.psd1 (preferred culture chain + fallback en-US/en) and, when no localized resources exist and embedded defaults are preferred, set $script:Messages to the embedded defaults and populate LocalizationDetails.Source = 'EmbeddedDefaults' (with trace output).
 
-≡ƒöº [build] [dependency] Update module version and release notes header
- - ≡ƒöº [ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)/[ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced).psd1: bump ModuleVersion => '2025.11.05.2125' and update embedded ReleaseNotes header to match the new stamp.
+- ≡ƒ¢á∩╕Å [fix] Localize and ANSI-color cache summaries
+ - ≡ƒ¢á∩╕Å Public/New-ColorScriptCache.ps1 & Public/Clear-ColorScriptCache.ps1: read format strings from $script:Messages.CacheBuildSummaryFormat and CacheClearSummaryFormat (with sane fallbacks), format summary values, build an ANSI-colored summary segment via New-ColorScriptAnsiText (-Color 'Cyan') and pass that segment to Write-ColorScriptInformation for consistent, localizable output.
 
-≡ƒô¥ [docs] Sync localized help UICultureVersion stamps
- - ≡ƒô¥ Update localized HelpInfo.xml files (en-US, de, es, fr, it, ja, nl, pt, ru, zh-CN) to the new UICultureVersion stamp to keep manifest/help metadata consistent with the module bump.
+- ≡ƒô¥ [docs] Document -ValidateCache and localization modes
+ - ≡ƒô¥ README.md, docs/Development.md, docs/MODULE_SUMMARY.md: add usage and guidance for forcing cache validation and for the new localization modes; recommend COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE over legacy toggles.
+ - ≡ƒô¥ en-US/Show-ColorScript.md & en-US help XML: add -ValidateCache parameter docs and guidance to force metadata validation before rendering; show examples and environment-variable usage (COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE).
 
-≡ƒº¬ [test] Initialize cache-validation state in tests
- - ≡ƒº¬ Tests/*: reset $script:CacheValidationPerformed = $false and $script:CacheValidationManualOverride = $false in test setup fixtures (CoverageExpansion, InternalCoverage, TargetedCoverage) so tests run with deterministic cache-validation state.
+- ≡ƒº╣ [chore] Add cache-summary message keys to localized resources
+ - ≡ƒº╣ en-US + localized Messages.psd1 (de, es, fr, it, ja, nl, pt, ru, zh-CN): add CacheBuildSummaryFormat and CacheClearSummaryFormat entries so cache summaries can be localized/overridden via PSD1 files.
 
-≡ƒô¥ [docs] Regenerate packaged release artifacts
- - ≡ƒô¥ dist/LatestReleaseNotes.md & dist/PowerShellGalleryReleaseNotes.md: regenerate release notes header/content to reflect the cache-format workflow, validation changes and module/help version bumps.
+- ≡ƒöº [build] [dependency] Update module manifest and localized help stamps; regenerate release artifacts
+ - ≡ƒöº [ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced).psd1: bump ModuleVersion => '2025.11.06.0250' and update Generated on stamp.
+ - ≡ƒöº localized HelpInfo.xml files (en-US, de, es, fr, it, ja, nl, pt, ru, zh-CN): synchronize UICultureVersion => '2025.11.06.0250'.
+ - ≡ƒöº dist/LatestReleaseNotes.md & dist/PowerShellGalleryReleaseNotes.md: regenerate release headers/content to reflect the changes.
 
-Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(4deea4a)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/4deea4ab51544020576ac95418b98be43a4472c9)
+- ≡ƒöº [build] Formatting/tooling: add PowerShell Prettier plugin
+ - ≡ƒöº .prettierrc: enable "prettier-plugin-powershell" in the plugin list.
+ - ≡ƒöº package.json & package-lock.json: bump prettier-plugin-powershell to ^1.0.5 and update lockfile metadata.
+
+- ≡ƒº¬ [test] Align tests with signature changes
+ - ≡ƒº¬ Tests/[ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced).ModuleImportCoverage.Tests.ps1: update Initialize-ColorScriptsLocalization stubs to accept [switch]$UseDefaultCandidates and null-assign it to keep test stubs compatible with the new signature.
+
+- ≡ƒº╣ [chore] Minor wiring & consistency
+ - ≡ƒº╣ Ensure module import uses the new -UseDefaultCandidates flag so the embedded-defaults preference path is exercised during import initialization.
+
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(f8c860b)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/f8c860b175742b74ff7309a2f66ff65a7d2f75a6)
 
 
 

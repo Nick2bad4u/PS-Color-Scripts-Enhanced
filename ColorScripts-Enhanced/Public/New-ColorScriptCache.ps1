@@ -346,7 +346,7 @@ function New-ColorScriptCache {
 
             $summaryMessage = $formatString -f $summary.Processed, $summary.Updated, $summary.Skipped, $summary.Failed
             $summarySegment = New-ColorScriptAnsiText -Text $summaryMessage -Color 'Cyan' -NoAnsiOutput:$false
-            Write-ColorScriptInformation -Message $summarySegment -Quiet:$false
+            Write-ColorScriptInformation -Message $summarySegment -Quiet:$false -PreferConsole -Color 'Cyan'
         }
 
         if ($PassThru) {

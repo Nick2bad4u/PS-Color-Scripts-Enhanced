@@ -514,6 +514,7 @@ Expect to see icons, checkmarks, and box-drawing characters. If they appear as s
 - Use `New-ColorScriptCache` to warm caches during development
 - Use `Clear-ColorScriptCache` to troubleshoot stale outputs
 - Force validation when diagnosing cache issues with `Show-ColorScript -ValidateCache` or by setting `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE=1`
+- Force ANSI informational summaries in hosts that strip escape sequences by setting `COLOR_SCRIPTS_ENHANCED_FORCE_ANSI=1`; commands still honour `-NoAnsiOutput` when you need plain text
 
 ## Localization Controls
 

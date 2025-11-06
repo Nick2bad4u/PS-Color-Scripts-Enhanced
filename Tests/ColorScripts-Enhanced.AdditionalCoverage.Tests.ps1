@@ -2515,8 +2515,11 @@ namespace CoverageHost
 
                     $capturedOutput = [System.Collections.Generic.List[string]]::new()
                     Mock -CommandName Write-ColorScriptInformation -ModuleName ColorScripts-Enhanced -MockWith {
-                        param($Message, [switch]$Quiet)
+                        param($Message, [switch]$Quiet, [switch]$NoAnsiOutput, [switch]$PreferConsole, [string]$Color)
                         $null = $Quiet
+                        $null = $NoAnsiOutput
+                        $null = $PreferConsole
+                        $null = $Color
                         if ($null -ne $Message) {
                             $null = $capturedOutput.Add([string]$Message)
                         }
