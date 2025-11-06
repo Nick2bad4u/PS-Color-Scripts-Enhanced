@@ -335,8 +335,18 @@ function New-ColorScriptCache {
         Write-Progress -Activity $activity -Completed -Status 'Completed'
 
         if (-not $PassThru -and $summary.Processed -gt 0) {
-            $summaryMessage = "Cache build summary: Processed {0}, Updated {1}, Skipped {2}, Failed {3}" -f $summary.Processed, $summary.Updated, $summary.Skipped, $summary.Failed
-            Write-ColorScriptInformation -Message $summaryMessage -Quiet:$false
+            $formatString = $null
+            if ($script:Messages -and $script:Messages.ContainsKey('CacheBuildSummaryFormat')) {
+                $formatString = $script:Messages.CacheBuildSummaryFormat
+            }
+
+            if ([string]::IsNullOrWhiteSpace($formatString)) {
+                $formatString = 'Cache build summary: Processed {0}, Updated {1}, Skipped {2}, Failed {3}'
+            }
+
+            $summaryMessage = $formatString -f $summary.Processed, $summary.Updated, $summary.Skipped, $summary.Failed
+            $summarySegment = New-ColorScriptAnsiText -Text $summaryMessage -Color 'Cyan' -NoAnsiOutput:$false
+            Write-ColorScriptInformation -Message $summarySegment -Quiet:$false
         }
 
         if ($PassThru) {

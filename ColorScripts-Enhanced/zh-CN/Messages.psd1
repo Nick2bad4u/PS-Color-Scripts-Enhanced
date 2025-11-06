@@ -56,6 +56,8 @@ StatusSkippedUpToDate = 已跳过（最新）
 StatusSkippedByUser = 用户跳过
 StatusFailed = 失败
 StatusUpToDateSkipped = 最新（已跳过）
+CacheBuildSummaryFormat = Cache build summary: Processed {0}, Updated {1}, Skipped {2}, Failed {3}
+CacheClearSummaryFormat = Cache clear summary: Removed {0}, Missing {1}, Skipped {2}, DryRun {3}, Errors {4}
 
 # Interactive Messages
 PressSpacebarToContinue = 按 [空格键] 继续下一个，[Q] 退出`n

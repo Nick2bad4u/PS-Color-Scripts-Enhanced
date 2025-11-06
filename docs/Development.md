@@ -513,6 +513,12 @@ Expect to see icons, checkmarks, and box-drawing characters. If they appear as s
 - Override cache location for testing/CI with `COLOR_SCRIPTS_ENHANCED_CACHE_PATH`
 - Use `New-ColorScriptCache` to warm caches during development
 - Use `Clear-ColorScriptCache` to troubleshoot stale outputs
+- Force validation when diagnosing cache issues with `Show-ColorScript -ValidateCache` or by setting `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE=1`
+
+## Localization Controls
+
+- Auto mode prefers PSD1 resources when available; adjust behavior with `COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE` (`auto`, `full`, `embedded`)
+- Legacy toggle `COLOR_SCRIPTS_ENHANCED_PREFER_EMBEDDED_MESSAGES` remains supported for compatibility, but prefer the consolidated mode variable going forward
 
 ## Branch Policy
 

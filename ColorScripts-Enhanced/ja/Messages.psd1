@@ -56,6 +56,8 @@ StatusSkippedUpToDate = スキップ済み (最新)
 StatusSkippedByUser = ユーザーによりスキップ
 StatusFailed = 失敗
 StatusUpToDateSkipped = 最新 (スキップ済み)
+CacheBuildSummaryFormat = Cache build summary: Processed {0}, Updated {1}, Skipped {2}, Failed {3}
+CacheClearSummaryFormat = Cache clear summary: Removed {0}, Missing {1}, Skipped {2}, DryRun {3}, Errors {4}
 
 # Interactive Messages
 PressSpacebarToContinue = 次に進むには [Spacebar] を押してください、終了するには [Q] を押してください`n

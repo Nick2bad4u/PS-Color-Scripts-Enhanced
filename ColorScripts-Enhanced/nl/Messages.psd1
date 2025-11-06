@@ -56,6 +56,8 @@ StatusSkippedUpToDate = Overgeslagen (bijgewerkt)
 StatusSkippedByUser = Overgeslagen door gebruiker
 StatusFailed = Mislukt
 StatusUpToDateSkipped = Bijgewerkt (overgeslagen)
+CacheBuildSummaryFormat = Cache build summary: Processed {0}, Updated {1}, Skipped {2}, Failed {3}
+CacheClearSummaryFormat = Cache clear summary: Removed {0}, Missing {1}, Skipped {2}, DryRun {3}, Errors {4}
 
 # Interactive Messages
 PressSpacebarToContinue = Druk [Spatiebalk] om door te gaan naar volgende, [Q] om af te sluiten`n

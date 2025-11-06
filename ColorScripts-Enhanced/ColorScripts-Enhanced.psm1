@@ -213,6 +213,23 @@ $cultureFallback += 'en-US'
 $cultureFallback += 'en'
 $cultureFallback = $cultureFallback | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | Select-Object -Unique
 
+$script:LocalizationMode = 'Auto'
+$localizationModeEnv = $env:COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE
+if (-not [string]::IsNullOrWhiteSpace($localizationModeEnv)) {
+    switch -Regex ($localizationModeEnv.Trim()) {
+        '^(?i)(embedded|defaults?)$' { $script:LocalizationMode = 'Embedded'; break }
+        '^(?i)(full|files?|load|disk)$' { $script:LocalizationMode = 'Full'; break }
+        '^(?i)(auto)$' { $script:LocalizationMode = 'Auto'; break }
+        default { $script:LocalizationMode = 'Auto' }
+    }
+}
+elseif ($env:COLOR_SCRIPTS_ENHANCED_FORCE_LOCALIZATION -match '^(?i)(1|true|yes|full)$') {
+    $script:LocalizationMode = 'Full'
+}
+elseif ($env:COLOR_SCRIPTS_ENHANCED_PREFER_EMBEDDED_MESSAGES -match '^(?i)(1|true|yes|embedded)$') {
+    $script:LocalizationMode = 'Embedded'
+}
+
 $script:EmbeddedDefaultMessages = ConvertFrom-StringData @'
 # ColorScripts-Enhanced Localized Messages
 # English (en-US) - Default Language
@@ -267,6 +284,8 @@ StatusSkippedUpToDate = Skipped (up-to-date)
 StatusSkippedByUser = Skipped by user
 StatusFailed = Failed
 StatusUpToDateSkipped = Up-to-date (skipped)
+CacheBuildSummaryFormat = Cache build summary: Processed {0}, Updated {1}, Skipped {2}, Failed {3}
+CacheClearSummaryFormat = Cache clear summary: Removed {0}, Missing {1}, Skipped {2}, DryRun {3}, Errors {4}
 
 # Interactive Messages
 PressSpacebarToContinue = Press [Spacebar] to continue to next, [Q] to quit`n
@@ -307,7 +326,7 @@ else {
     Write-ModuleTrace ("Private script directory '{0}' was not found." -f $privateDirectory)
 }
 
-$localizationResult = Initialize-ColorScriptsLocalization -CandidateRoots ($moduleRootCandidates | Select-Object -Unique) -CultureFallbackOverride $cultureFallback
+$localizationResult = Initialize-ColorScriptsLocalization -CandidateRoots ($moduleRootCandidates | Select-Object -Unique) -CultureFallbackOverride $cultureFallback -UseDefaultCandidates
 if ($localizationResult -and $localizationResult.ModuleRoot) {
     $script:ModuleRoot = $localizationResult.ModuleRoot
 }

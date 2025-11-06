@@ -56,6 +56,8 @@ StatusSkippedUpToDate = Ignoré (à jour)
 StatusSkippedByUser = 'Ignoré par l''utilisateur'
 StatusFailed = Échoué
 StatusUpToDateSkipped = À jour (ignoré)
+CacheBuildSummaryFormat = Cache build summary: Processed {0}, Updated {1}, Skipped {2}, Failed {3}
+CacheClearSummaryFormat = Cache clear summary: Removed {0}, Missing {1}, Skipped {2}, DryRun {3}, Errors {4}
 
 # Interactive Messages
 PressSpacebarToContinue = Appuyez sur [Espace] pour continuer au suivant, [Q] pour quitter`n

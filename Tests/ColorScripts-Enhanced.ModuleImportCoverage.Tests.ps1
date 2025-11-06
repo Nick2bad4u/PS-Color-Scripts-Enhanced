@@ -251,8 +251,9 @@ Describe "ColorScripts-Enhanced module import coverage" {
                 switch ($name) {
                     'Initialize-ColorScriptsLocalization' {
                         $localizationStub = {
-                            param([string[]]$CandidateRoots, [string[]]$CultureFallbackOverride)
+                            param([string[]]$CandidateRoots, [string[]]$CultureFallbackOverride, [switch]$UseDefaultCandidates)
                             $null = $CultureFallbackOverride
+                            $null = $UseDefaultCandidates
                             [pscustomobject]@{
                                 LocalizedDataLoaded = $false
                                 ModuleRoot          = $localizationModuleRoot
@@ -375,8 +376,9 @@ Describe "ColorScripts-Enhanced module import coverage" {
                 switch ($name) {
                     'Initialize-ColorScriptsLocalization' {
                         $localizationStub = {
-                            param([string[]]$CandidateRoots, [string[]]$CultureFallbackOverride)
+                            param([string[]]$CandidateRoots, [string[]]$CultureFallbackOverride, [switch]$UseDefaultCandidates)
                             $null = $CultureFallbackOverride
+                            $null = $UseDefaultCandidates
                             [pscustomobject]@{
                                 LocalizedDataLoaded = $false
                                 ModuleRoot          = $localizationModuleRoot
