@@ -372,12 +372,18 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $scriptPath = Join-Path -Path $script:ScriptsDir -ChildPath 'cacheerr.ps1'
             Set-Content -LiteralPath $scriptPath -Value "Write-Host 'cacheerr'" -Encoding UTF8
 
-            $cachePath = Join-Path -Path $script:CachePath -ChildPath 'cacheerr.cache'
+            $cacheDirectory = InModuleScope ColorScripts-Enhanced {
+                Initialize-CacheDirectory
+                $script:CacheDir
+            }
+
+            $cachePath = Join-Path -Path $cacheDirectory -ChildPath 'cacheerr.cache'
             Set-Content -LiteralPath $cachePath -Value 'cached' -Encoding UTF8
 
-            InModuleScope ColorScripts-Enhanced -Parameters @{ testScriptPath = $scriptPath } {
-                param($testScriptPath)
+            InModuleScope ColorScripts-Enhanced -Parameters @{ testScriptPath = $scriptPath; testCachePath = $cachePath } {
+                param($testScriptPath, $testCachePath)
                 [void]$testScriptPath
+                [void]$testCachePath
                 Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
                     @([pscustomobject]@{
                             Name        = 'cacheerr'

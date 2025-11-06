@@ -74,6 +74,7 @@ function Initialize-CacheDirectory {
         if ($resolvedCacheDir) {
             $script:CacheDir = $resolvedCacheDir
             $script:CacheInitialized = $true
+            Update-CacheFormatVersion -CacheDirectory $script:CacheDir
             return
         }
 
@@ -98,5 +99,6 @@ function Initialize-CacheDirectory {
 
         $script:CacheDir = $resolvedFallback
         $script:CacheInitialized = $true
+        Update-CacheFormatVersion -CacheDirectory $script:CacheDir
     }
 }
