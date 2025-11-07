@@ -52,9 +52,39 @@ $config.Run.Exit = $CI.IsPresent
 
 # Code coverage settings
 $config.CodeCoverage.Enabled = $true
-$config.CodeCoverage.Path = @(
-    (Join-Path $modulePath 'ColorScripts-Enhanced.psm1')
-)
+
+$coverageTargets = @()
+
+$moduleRootFile = Join-Path $modulePath 'ColorScripts-Enhanced.psm1'
+if (Test-Path $moduleRootFile) {
+    $coverageTargets += $moduleRootFile
+}
+
+$installScriptPath = Join-Path $modulePath 'Install.ps1'
+if (Test-Path $installScriptPath) {
+    $coverageTargets += $installScriptPath
+}
+
+foreach ($relativeFolder in @('Public', 'Private')) {
+    $folderPath = Join-Path $modulePath $relativeFolder
+    if (Test-Path $folderPath) {
+        $coverageTargets += Get-ChildItem -Path $folderPath -Filter '*.ps1' -Recurse -File | Select-Object -ExpandProperty FullName
+    }
+}
+
+$coverageTargets = $coverageTargets | Sort-Object -Unique | Where-Object { $_ }
+
+if (-not $coverageTargets) {
+    Write-Warning "No coverage target files found. Falling back to module root file."
+    $coverageTargets = @($moduleRootFile)
+}
+
+Write-Host "Coverage Targets ($($coverageTargets.Count)):" -ForegroundColor Gray
+foreach ($target in $coverageTargets) {
+    Write-Host "  - $target" -ForegroundColor DarkGray
+}
+
+$config.CodeCoverage.Path = $coverageTargets
 $config.CodeCoverage.OutputPath = $coverageOutputPath
 $config.CodeCoverage.OutputFormat = 'JaCoCo'
 $config.CodeCoverage.CoveragePercentTarget = $MinimumCoverage
