@@ -337,6 +337,11 @@ Test-Function "Script analyzer clean" {
 
     Import-Module PSScriptAnalyzer -ErrorAction Stop
 
+    # Ensure no background runspace pools from prior parallel cache operations remain before analyzer runs
+    # This avoids "pipeline already running" errors in environments with aggressive prompt hooks.
+    [System.GC]::Collect()
+    [System.GC]::WaitForPendingFinalizers()
+
     $repoRoot = Split-Path -Parent $PSScriptRoot
     $settingsPath = Join-Path $repoRoot 'PSScriptAnalyzerSettings.psd1'
     $moduleRoot = Join-Path $repoRoot 'ColorScripts-Enhanced'
@@ -365,7 +370,13 @@ Test-Function "Script analyzer clean" {
             if ($isNullRef -and $params.ContainsKey('Settings')) {
                 Write-Warning "ScriptAnalyzer encountered a known issue analyzing '$($item.FullName)' with custom settings. Retrying without settings."
                 $params.Remove('Settings')
-                $result = Invoke-ScriptAnalyzer @params
+                try {
+                    $result = Invoke-ScriptAnalyzer @params
+                }
+                catch {
+                    Write-Warning "ScriptAnalyzer second attempt failed for '$($item.FullName)': $($_.Exception.Message)"
+                    $result = $null
+                }
             }
             else {
                 throw

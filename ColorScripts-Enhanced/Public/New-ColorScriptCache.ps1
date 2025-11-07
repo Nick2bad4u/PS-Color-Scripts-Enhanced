@@ -435,19 +435,77 @@ function New-ColorScriptCache {
 
             if ($pendingCount -gt 0) {
                 Write-Progress -Id $executionProgressId -Activity $activity -Status ("Building 0 of {0}" -f $pendingCount) -PercentComplete 0
+
+                $updateParallelProgress = {
+                    param(
+                        [int]$Completed,
+                        [int]$Total,
+                        [string]$ActivityName,
+                        [int]$ProgressId,
+                        [int]$ActiveCount,
+                        [string]$CurrentName
+                    )
+
+                    $status = "Building {0} of {1}" -f $Completed, $Total
+
+                    if ($ActiveCount -gt 0) {
+                        $status += " (active {0})" -f $ActiveCount
+                    }
+
+                    if (-not [string]::IsNullOrWhiteSpace($CurrentName)) {
+                        $status += ": {0}" -f $CurrentName
+                    }
+
+                    $percent = if ($Total -le 0) { 0 } else { [math]::Min(100, [math]::Max(0, ($Completed / $Total) * 100)) }
+                    Write-Progress -Id $ProgressId -Activity $ActivityName -Status $status -PercentComplete $percent
+                }
                 $moduleManifest = Join-Path -Path $script:ModuleRoot -ChildPath 'ColorScripts-Enhanced.psd1'
                 $initialState = [System.Management.Automation.Runspaces.InitialSessionState]::CreateDefault()
                 $null = $initialState.ImportPSModule(@($moduleManifest))
 
-                $runspacePool = [System.Management.Automation.Runspaces.RunspaceFactory]::CreateRunspacePool(1, $effectiveThrottle, $initialState, $Host)
-                $runspacePool.ApartmentState = [System.Threading.ApartmentState]::MTA
+                # Create a runspace pool robustly across PS versions/hosts.
+                # Prefer using the current host when available; otherwise fall back to overloads without host
+                # and explicitly set min/max runspaces if needed.
+                $runspacePool = $null
+                try {
+                    if ($Host -is [System.Management.Automation.Host.PSHost]) {
+                        $runspacePool = [System.Management.Automation.Runspaces.RunspaceFactory]::CreateRunspacePool(1, $effectiveThrottle, $initialState, $Host)
+                    }
+                }
+                catch {
+                    $runspacePool = $null
+                }
+
+                if (-not $runspacePool) {
+                    try {
+                        $runspacePool = [System.Management.Automation.Runspaces.RunspaceFactory]::CreateRunspacePool(1, $effectiveThrottle, $initialState)
+                    }
+                    catch {
+                        try {
+                            $runspacePool = [System.Management.Automation.Runspaces.RunspaceFactory]::CreateRunspacePool($initialState)
+                            $null = $runspacePool.SetMinRunspaces(1)
+                            $null = $runspacePool.SetMaxRunspaces($effectiveThrottle)
+                        }
+                        catch {
+                            $runspacePool = [System.Management.Automation.Runspaces.RunspaceFactory]::CreateRunspacePool()
+                            $null = $runspacePool.SetMinRunspaces(1)
+                            $null = $runspacePool.SetMaxRunspaces($effectiveThrottle)
+                        }
+                    }
+                }
+
                 $runspacePool.Open()
 
                 $jobList = New-Object 'System.Collections.Generic.List[pscustomobject]'
 
                 $workerScriptBlock = {
                     param($scriptName, $scriptPath)
-                    $moduleInfo = Get-Module -Name 'ColorScripts-Enhanced' -ErrorAction Stop
+                    $moduleInfo = Get-Module -Name 'ColorScripts-Enhanced'
+                    if (-not $moduleInfo) {
+                        Import-Module -Name $using:moduleManifest -Force -ErrorAction Stop
+                        $moduleInfo = Get-Module -Name 'ColorScripts-Enhanced' -ErrorAction Stop
+                    }
+
                     $moduleInfo.Invoke({ param($name, $path) Invoke-ColorScriptCacheOperation -ScriptName $name -ScriptPath $path }, $scriptName, $scriptPath)
                 }
 
@@ -538,13 +596,16 @@ function New-ColorScriptCache {
                             }
                             finally {
                                 $completed++
-                                Write-Progress -Id $executionProgressId -Activity $activity -Status ("Building {0} of {1}: {2}" -f $completed, $pendingCount, $job.Item.Name) -PercentComplete ([math]::Min(100, [math]::Max(0, ($completed / $pendingCount) * 100)))
                                 $job.PowerShell.Dispose()
                                 [void]$jobList.Remove($job)
+                                $activeCount = $jobList.Count
+                                & $updateParallelProgress $completed $pendingCount $activity $executionProgressId $activeCount $job.Item.Name
                             }
                         }
 
                         if (-not $processedThisCycle) {
+                            $activeCount = $jobList.Count
+                            & $updateParallelProgress $completed $pendingCount $activity $executionProgressId $activeCount $null
                             Start-Sleep -Milliseconds 30
                         }
                     }
