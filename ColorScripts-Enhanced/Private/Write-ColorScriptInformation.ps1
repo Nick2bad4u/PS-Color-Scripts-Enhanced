@@ -13,9 +13,10 @@ function Write-ColorScriptInformation {
 
     $output = if ($null -ne $Message) { [string]$Message } else { '' }
 
+    $preferConsoleOutput = $PreferConsole.IsPresent
     $forceAnsiEnv = $env:COLOR_SCRIPTS_ENHANCED_FORCE_ANSI
-    $forceAnsi = $PreferConsole.IsPresent
-    if (-not $forceAnsi -and -not [string]::IsNullOrWhiteSpace($forceAnsiEnv)) {
+    $forceAnsi = $false
+    if (-not [string]::IsNullOrWhiteSpace($forceAnsiEnv)) {
         if ($forceAnsiEnv -match '^(?i)(1|true|yes|force|ansi|color)$') {
             $forceAnsi = $true
         }
@@ -29,55 +30,70 @@ function Write-ColorScriptInformation {
     $wroteToConsole = $false
 
     if (-not $NoAnsiOutput.IsPresent) {
-        $shouldTryConsole = $forceAnsi
+        $shouldUseConsole = $preferConsoleOutput -or $forceAnsi
 
-        if (-not $shouldTryConsole) {
+        if (-not $shouldUseConsole) {
             try {
-                $shouldTryConsole = -not (Test-ConsoleOutputRedirected)
+                $shouldUseConsole = -not (Test-ConsoleOutputRedirected)
             }
             catch {
-                $shouldTryConsole = $false
+                $shouldUseConsole = $false
             }
         }
 
-        if ($shouldTryConsole) {
+        $supportsVirtualTerminal = $true
+        try {
+            $supportsVirtualTerminal = Test-ConsoleSupportsVirtualTerminal
+        }
+        catch {
+            $supportsVirtualTerminal = $false
+        }
+
+        $shouldRenderWithAnsi = $shouldUseConsole -and ($forceAnsi -or $supportsVirtualTerminal)
+
+        if ($shouldUseConsole) {
+            $colorSet = $false
+            $originalColor = $null
+
             try {
-                Write-RenderedText -Text $output -NoAnsiOutput:$false
+                if (-not $shouldRenderWithAnsi -and -not [string]::IsNullOrWhiteSpace($Color)) {
+                    $consoleColor = $null
+                    if ([System.Enum]::TryParse([System.ConsoleColor], $Color, $true, [ref]$consoleColor)) {
+                        $originalColor = [Console]::ForegroundColor
+                        [Console]::ForegroundColor = $consoleColor
+                        $colorSet = $true
+                    }
+                }
+
+                Write-RenderedText -Text $output -NoAnsiOutput:(!$shouldRenderWithAnsi)
                 $wroteToConsole = $true
             }
             catch {
                 $wroteToConsole = $false
+            }
+            finally {
+                if ($colorSet -and $null -ne $originalColor) {
+                    [Console]::ForegroundColor = $originalColor
+                }
             }
         }
 
         if (-not $wroteToConsole -and -not [string]::IsNullOrWhiteSpace($Color)) {
             $consoleColor = $null
             if ([System.Enum]::TryParse([System.ConsoleColor], $Color, $true, [ref]$consoleColor)) {
+                $originalColor = $null
                 try {
                     $originalColor = [Console]::ForegroundColor
                     [Console]::ForegroundColor = $consoleColor
-                    & $script:ConsoleWriteDelegate $sanitizedOutput
-
-                    $requiresNewLine = $true
-                    if ($sanitizedOutput) {
-                        $requiresNewLine = -not $sanitizedOutput.EndsWith("`n")
-                    }
-
-                    if ($requiresNewLine) {
-                        & $script:ConsoleWriteDelegate ([Environment]::NewLine)
-                    }
-
+                    Write-RenderedText -Text $output -NoAnsiOutput
                     $wroteToConsole = $true
                 }
                 catch {
                     $wroteToConsole = $false
                 }
                 finally {
-                    try {
+                    if ($null -ne $originalColor) {
                         [Console]::ForegroundColor = $originalColor
-                    }
-                    catch {
-                        Write-ModuleTrace ("Failed to restore console color: {0}" -f $_.Exception.Message)
                     }
                 }
             }
@@ -85,6 +101,5 @@ function Write-ColorScriptInformation {
     }
 
     $informationAction = if ($wroteToConsole) { 'SilentlyContinue' } else { 'Continue' }
-
     Write-Information -MessageData $sanitizedOutput -InformationAction $informationAction -Tags 'ColorScripts'
 }

@@ -1146,6 +1146,40 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
+        Context "Invoke-ColorScriptCacheOperation" {
+            It "returns success metadata when cache builds succeed" {
+                $tempDir = Join-Path -Path $TestDrive -ChildPath ([guid]::NewGuid())
+                New-Item -ItemType Directory -Path $tempDir | Out-Null
+                $scriptPath = Join-Path -Path $tempDir -ChildPath 'success-script.ps1'
+                Set-Content -LiteralPath $scriptPath -Value 'Write-Output "cached"' -Encoding utf8
+
+                InModuleScope ColorScripts-Enhanced -Parameters @{ tempScriptPath = $scriptPath } {
+                    param($tempScriptPath)
+                    Initialize-CacheDirectory
+                    $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($tempScriptPath)
+                    $result = Invoke-ColorScriptCacheOperation -ScriptName $scriptName -ScriptPath $tempScriptPath
+                    $result.Updated | Should -Be 1
+                    $result.Failed | Should -Be 0
+                    $result.Result.Status | Should -Be 'Updated'
+                    Test-Path -LiteralPath $result.Result.CacheFile | Should -BeTrue
+                }
+            }
+
+            It "returns failure metadata when script execution fails" {
+                $missingPath = Join-Path -Path $TestDrive -ChildPath 'missing-script.ps1'
+
+                InModuleScope ColorScripts-Enhanced -Parameters @{ missingScriptPath = $missingPath } {
+                    param($missingScriptPath)
+                    Initialize-CacheDirectory
+                    $result = Invoke-ColorScriptCacheOperation -ScriptName 'missing-script' -ScriptPath $missingScriptPath
+                    $result.Updated | Should -Be 0
+                    $result.Failed | Should -Be 1
+                    $result.Result.Status | Should -Be 'Failed'
+                    $result.Result.CacheExists | Should -BeFalse
+                }
+            }
+        }
+
         It "builds matcher sets and selects records" {
             InModuleScope ColorScripts-Enhanced {
                 $matchers = New-NameMatcherSet -Patterns @('alpha*', 'beta')

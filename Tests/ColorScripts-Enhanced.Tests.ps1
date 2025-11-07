@@ -594,6 +594,16 @@ Describe "ColorScripts-Enhanced Module" {
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'aurora-storm'
         }
+
+        It "Should support -Parallel with throttle" {
+            $result = New-ColorScriptCache -Name 'bars' -Force -Parallel -ThrottleLimit 2 -PassThru -ErrorAction Stop
+            $result | Should -Not -BeNullOrEmpty
+            ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
+        }
+
+        It "Should accept -Threads alias" {
+            { New-ColorScriptCache -Name 'bars' -Force -Threads 1 -PassThru -ErrorAction Stop | Out-Null } | Should -Not -Throw
+        }
     }
 
     Context "Clear-ColorScriptCache Function" {

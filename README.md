@@ -360,6 +360,16 @@ Import-Module ColorScripts-Enhanced -Force
 
 Use the `-ValidateCache` switch (or the `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` environment variable) whenever you suspect stale cache data or when testing new scripts.
 
+### Accelerate Cache Builds on Multi-Core Systems
+
+Leverage powerful hardware by running cache builds in parallel:
+
+```powershell
+New-ColorScriptCache -All -Parallel -Threads 8
+```
+
+The `-Parallel` switch enables a runspace pool, while `-Threads` (alias for `-ThrottleLimit`) controls the maximum number of concurrent workers. Leave `-Threads` unspecified to default to the number of logical processors. The cmdlet gracefully falls back to sequential execution if multiple runspaces are unavailable.
+
 ### Localization Modes
 
 Auto mode prefers PSD1 resources whenever they exist so you can override English strings without recompiling the module. Fine-tune the behaviour with `COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE`:

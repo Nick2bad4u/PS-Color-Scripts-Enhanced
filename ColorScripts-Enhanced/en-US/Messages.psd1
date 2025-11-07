@@ -39,6 +39,7 @@
     NoCacheFilesFound = "No cache files found at {0}."
     ProfileUpdatesNotSupportedInRemote = "Profile updates are not supported in remote sessions."
     ScriptSkippedByFilter = "Script '{0}' does not satisfy the specified filters and will be skipped."
+    ParallelCacheNotSupported = "Parallel cache building requires PowerShell 7 or later. Falling back to sequential execution."
 
     # Status Messages
     DisplayingColorscripts = "`nDisplaying `$totalCount colorscripts..."

@@ -2396,7 +2396,9 @@ You can target specific scripts by name (wildcards supported) or cache the entir
 
 By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.
 
-The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.</maml:para>
+The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.
+
+For faster rebuilds on multi-core systems, use the `-Parallel` switch together with the `-ThrottleLimit` (or `-Threads`) parameter to control how many workers are scheduled. The cmdlet automatically reverts to sequential execution when parallel runspaces cannot be created on the current host.</maml:para>
       </maml:description>
       <command:verb>New</command:verb>
       <command:noun>ColorScriptCache</command:noun>
@@ -2406,11 +2408,12 @@ The cmdlet intelligently skips scripts whose cache files are already up-to-date 
       <maml:para>You can target specific scripts by name (wildcards supported) or cache the entire collection. When no parameters are specified, the cmdlet defaults to caching all available scripts. You can also filter scripts by category or tag to cache only those that match specific criteria.</maml:para>
       <maml:para>By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.</maml:para>
       <maml:para>The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.</maml:para>
+      <maml:para>For faster rebuilds on multi-core systems, use the `-Parallel` switch together with the `-ThrottleLimit` (or `-Threads`) parameter to control how many workers are scheduled. The cmdlet automatically reverts to sequential execution when parallel runspaces cannot be created on the current host.</maml:para>
       <maml:para>## SYNTAX</maml:para>
       <maml:para>### All</maml:para>
-      <maml:para>``` New-ColorScriptCache [-All] [-Force] [-PassThru] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
+      <maml:para>``` New-ColorScriptCache [-All] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit &lt;Int32&gt;] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
       <maml:para>### Named</maml:para>
-      <maml:para>``` New-ColorScriptCache [-Name &lt;String[]&gt;] [-Category &lt;String[]&gt;] [-Tag &lt;String[]&gt;] [-Force] [-PassThru] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
+      <maml:para>``` New-ColorScriptCache [-Name &lt;String[]&gt;] [-Category &lt;String[]&gt;] [-Tag &lt;String[]&gt;] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit &lt;Int32&gt;] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2812,6 +2815,18 @@ New-ColorScriptCache -Tag Animated -PassThru |
 ```</maml:para>
           <maml:para>&#x80;</maml:para>
           <maml:para>Caches all scripts tagged as animated and shows the count of cached scripts.</maml:para>
+        </maml:introduction>
+        <dev:code />
+        <dev:remarks />
+      </command:example>
+      <command:example>
+        <maml:title>--------- EXAMPLE 14 ---------</maml:title>
+        <maml:introduction>
+          <maml:para>```powershell
+New-ColorScriptCache -All -Parallel -Threads 8
+```</maml:para>
+          <maml:para>&#x80;</maml:para>
+          <maml:para>Build the entire cache using eight worker threads. The cmdlet automatically falls back to sequential execution when parallel jobs are not available on the current host.</maml:para>
         </maml:introduction>
         <dev:code />
         <dev:remarks />

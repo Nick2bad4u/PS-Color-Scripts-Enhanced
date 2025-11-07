@@ -76,7 +76,17 @@ function New-ColorScriptCache {
 
         [Parameter(ParameterSetName = 'Selection')]
         [Parameter(ParameterSetName = 'All')]
-        [string[]]$Tag
+        [string[]]$Tag,
+
+        [Parameter(ParameterSetName = 'Selection')]
+        [Parameter(ParameterSetName = 'All')]
+        [switch]$Parallel,
+
+        [Parameter(ParameterSetName = 'Selection')]
+        [Parameter(ParameterSetName = 'All')]
+        [Alias('Threads')]
+        [ValidateRange(1, 256)]
+        [int]$ThrottleLimit
     )
 
     begin {
@@ -233,106 +243,332 @@ function New-ColorScriptCache {
         }
 
         $total = $candidateRecords.Count
-        $index = 0
         $activity = 'Building colorscript cache'
+        $preparationProgressId = 1
+        $executionProgressId = 2
+        $resultOrder = 0
+        $workQueue = New-Object 'System.Collections.Generic.List[pscustomobject]'
 
-        foreach ($record in $candidateRecords) {
-            $index++
-            $statusPercent = [math]::Min(100, [math]::Max(0, ($index / $total) * 100))
-            $recordObject = if ($record -is [System.Management.Automation.PSObject]) { $record } else { [pscustomobject]$record }
-            $scriptName = [string]$recordObject.Name
-            $scriptPath = [string]$recordObject.Path
-
-            if ([string]::IsNullOrWhiteSpace($scriptName) -or [string]::IsNullOrWhiteSpace($scriptPath)) {
-                continue
-            }
-
-            Write-Progress -Activity $activity -Status ("Processing {0} of {1}: {2}" -f $index, $total, $scriptName) -PercentComplete $statusPercent
-
-            $summary.Processed++
-
-            if (-not $Force) {
-                $cacheEntry = Get-CachedOutput -ScriptPath $scriptPath
-                if ($cacheEntry.Available) {
-                    $summary.Skipped++
-                    $skipRecord = [pscustomobject]@{
-                        Name        = $scriptName
-                        ScriptPath  = $scriptPath
-                        CacheFile   = $cacheEntry.CacheFile
-                        Status      = 'SkippedUpToDate'
-                        Message     = $script:Messages.StatusSkippedUpToDate
-                        CacheExists = $true
-                        ExitCode    = 0
-                        StdOut      = $cacheEntry.Content
-                        StdErr      = ''
-                    }
-                    [void]$results.Add($skipRecord)
-                    continue
-                }
-            }
-
-            if (-not (Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $scriptName -Action 'Build colorscript cache')) {
-                $summary.Skipped++
-
-                $skippedRecord = [pscustomobject]@{
-                    Name        = $scriptName
-                    ScriptPath  = $scriptPath
-                    CacheFile   = $null
-                    Status      = 'SkippedByUser'
-                    Message     = $script:Messages.StatusSkippedByUser
-                    CacheExists = $false
-                    ExitCode    = $null
-                    StdOut      = ''
-                    StdErr      = ''
-                }
-
-                [void]$results.Add($skippedRecord)
-                continue
-            }
-
-            $cacheResult = Build-ScriptCache -ScriptPath $scriptPath
-
-            if ($cacheResult.Success) {
-                $summary.Updated++
-                $resultStatus = 'Updated'
-                $resultMessage = $script:Messages.StatusCached
-                $cacheExists = $true
-            }
-            else {
-                $summary.Failed++
-                $resultStatus = 'Failed'
-                $errorDetail = if ($cacheResult.StdErr) {
-                    $cacheResult.StdErr
-                }
-                elseif ($null -ne $cacheResult.ExitCode) {
-                    ($script:Messages.ScriptExitedWithCode -f $cacheResult.ExitCode)
-                }
-                else {
-                    'Cache build failed.'
-                }
-
-                Write-Warning ("Failed to cache {0}: {1}" -f $scriptName, $errorDetail)
-
-                $resultMessage = $errorDetail
-                $cacheExists = $false
-            }
-
-            $resultRecord = [pscustomobject]@{
-                Name        = if ($cacheResult.ScriptName) { $cacheResult.ScriptName } else { $scriptName }
-                ScriptPath  = $scriptPath
-                CacheFile   = $cacheResult.CacheFile
-                Status      = $resultStatus
-                Message     = $resultMessage
-                CacheExists = $cacheExists
-                ExitCode    = $cacheResult.ExitCode
-                StdOut      = $cacheResult.StdOut
-                StdErr      = $cacheResult.StdErr
-            }
-
-            [void]$results.Add($resultRecord)
+        $parallelRequested = $Parallel.IsPresent -or $PSBoundParameters.ContainsKey('ThrottleLimit')
+        $effectiveThrottle = if ($PSBoundParameters.ContainsKey('ThrottleLimit')) {
+            $ThrottleLimit
+        }
+        else {
+            [System.Math]::Max(1, [Environment]::ProcessorCount)
         }
 
-        Write-Progress -Activity $activity -Completed -Status 'Completed'
+        if ($effectiveThrottle -gt 256) {
+            $effectiveThrottle = 256
+        }
+
+        $useParallel = $parallelRequested -and ($effectiveThrottle -gt 1)
+
+        if ($useParallel -and ($PSVersionTable.PSVersion.Major -lt 7)) {
+            $parallelNotSupportedMessage = if ($script:Messages -and $script:Messages.ContainsKey('ParallelCacheNotSupported')) {
+                $script:Messages.ParallelCacheNotSupported
+            }
+            else {
+                'Parallel cache building requires PowerShell 7 or later. Falling back to sequential execution.'
+            }
+
+            Write-Warning $parallelNotSupportedMessage
+            $useParallel = $false
+        }
+
+        if (-not $useParallel) {
+            $index = 0
+
+            foreach ($record in $candidateRecords) {
+                $index++
+                $statusPercent = [math]::Min(100, [math]::Max(0, ($index / $total) * 100))
+                $recordObject = if ($record -is [System.Management.Automation.PSObject]) { $record } else { [pscustomobject]$record }
+                $scriptName = [string]$recordObject.Name
+                $scriptPath = [string]$recordObject.Path
+
+                if ([string]::IsNullOrWhiteSpace($scriptName) -or [string]::IsNullOrWhiteSpace($scriptPath)) {
+                    continue
+                }
+
+                Write-Progress -Id $executionProgressId -Activity $activity -Status ("Processing {0} of {1}: {2}" -f $index, $total, $scriptName) -PercentComplete $statusPercent
+
+                $summary.Processed++
+
+                if (-not $Force) {
+                    $cacheEntry = Get-CachedOutput -ScriptPath $scriptPath
+                    if ($cacheEntry.Available) {
+                        $summary.Skipped++
+                        $resultOrder++
+                        $skipRecord = [pscustomobject]@{
+                            Order      = $resultOrder
+                            Record     = [pscustomobject]@{
+                                Name        = $scriptName
+                                ScriptPath  = $scriptPath
+                                CacheFile   = $cacheEntry.CacheFile
+                                Status      = 'SkippedUpToDate'
+                                Message     = $script:Messages.StatusSkippedUpToDate
+                                CacheExists = $true
+                                ExitCode    = 0
+                                StdOut      = $cacheEntry.Content
+                                StdErr      = ''
+                            }
+                        }
+                        [void]$results.Add($skipRecord)
+                        continue
+                    }
+                }
+
+                if (-not (Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $scriptName -Action 'Build colorscript cache')) {
+                    $summary.Skipped++
+                    $resultOrder++
+
+                    $skippedRecord = [pscustomobject]@{
+                        Order  = $resultOrder
+                        Record = [pscustomobject]@{
+                            Name        = $scriptName
+                            ScriptPath  = $scriptPath
+                            CacheFile   = $null
+                            Status      = 'SkippedByUser'
+                            Message     = $script:Messages.StatusSkippedByUser
+                            CacheExists = $false
+                            ExitCode    = $null
+                            StdOut      = ''
+                            StdErr      = ''
+                        }
+                    }
+
+                    [void]$results.Add($skippedRecord)
+                    continue
+                }
+
+                $operation = Invoke-ColorScriptCacheOperation -ScriptName $scriptName -ScriptPath $scriptPath
+
+                if ($operation.Warning) {
+                    Write-Warning $operation.Warning
+                }
+
+                $summary.Updated += $operation.Updated
+                $summary.Failed += $operation.Failed
+
+                $resultOrder++
+                [void]$results.Add([pscustomobject]@{
+                        Order  = $resultOrder
+                        Record = $operation.Result
+                    })
+            }
+
+            Write-Progress -Id $executionProgressId -Activity $activity -Completed -Status 'Completed'
+        }
+        else {
+            $prepareIndex = 0
+
+            Write-Progress -Id $preparationProgressId -Activity $activity -Status ("Preparing 0 of {0}" -f $total) -PercentComplete 0
+
+            foreach ($record in $candidateRecords) {
+                $prepareIndex++
+                $statusPercent = [math]::Min(100, [math]::Max(0, ($prepareIndex / $total) * 100))
+                $recordObject = if ($record -is [System.Management.Automation.PSObject]) { $record } else { [pscustomobject]$record }
+                $scriptName = [string]$recordObject.Name
+                $scriptPath = [string]$recordObject.Path
+
+                if ([string]::IsNullOrWhiteSpace($scriptName) -or [string]::IsNullOrWhiteSpace($scriptPath)) {
+                    continue
+                }
+
+                Write-Progress -Id $preparationProgressId -Activity $activity -Status ("Preparing {0} of {1}: {2}" -f $prepareIndex, $total, $scriptName) -PercentComplete $statusPercent
+
+                $summary.Processed++
+
+                if (-not $Force) {
+                    $cacheEntry = Get-CachedOutput -ScriptPath $scriptPath
+                    if ($cacheEntry.Available) {
+                        $summary.Skipped++
+                        $resultOrder++
+                        [void]$results.Add([pscustomobject]@{
+                                Order  = $resultOrder
+                                Record = [pscustomobject]@{
+                                    Name        = $scriptName
+                                    ScriptPath  = $scriptPath
+                                    CacheFile   = $cacheEntry.CacheFile
+                                    Status      = 'SkippedUpToDate'
+                                    Message     = $script:Messages.StatusSkippedUpToDate
+                                    CacheExists = $true
+                                    ExitCode    = 0
+                                    StdOut      = $cacheEntry.Content
+                                    StdErr      = ''
+                                }
+                            })
+                        continue
+                    }
+                }
+
+                if (-not (Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $scriptName -Action 'Build colorscript cache')) {
+                    $summary.Skipped++
+                    $resultOrder++
+                    [void]$results.Add([pscustomobject]@{
+                            Order  = $resultOrder
+                            Record = [pscustomobject]@{
+                                Name        = $scriptName
+                                ScriptPath  = $scriptPath
+                                CacheFile   = $null
+                                Status      = 'SkippedByUser'
+                                Message     = $script:Messages.StatusSkippedByUser
+                                CacheExists = $false
+                                ExitCode    = $null
+                                StdOut      = ''
+                                StdErr      = ''
+                            }
+                        })
+                    continue
+                }
+
+                $resultOrder++
+                [void]$workQueue.Add([pscustomobject]@{
+                        Order = $resultOrder
+                        Name  = $scriptName
+                        Path  = $scriptPath
+                    })
+            }
+
+            $pendingCount = $workQueue.Count
+
+            Write-Progress -Id $preparationProgressId -Activity $activity -Completed -Status 'Preparation complete'
+
+            if ($pendingCount -gt 0) {
+                Write-Progress -Id $executionProgressId -Activity $activity -Status ("Building 0 of {0}" -f $pendingCount) -PercentComplete 0
+                $moduleManifest = Join-Path -Path $script:ModuleRoot -ChildPath 'ColorScripts-Enhanced.psd1'
+                $initialState = [System.Management.Automation.Runspaces.InitialSessionState]::CreateDefault()
+                $null = $initialState.ImportPSModule(@($moduleManifest))
+
+                $runspacePool = [System.Management.Automation.Runspaces.RunspaceFactory]::CreateRunspacePool(1, $effectiveThrottle, $initialState, $Host)
+                $runspacePool.ApartmentState = [System.Threading.ApartmentState]::MTA
+                $runspacePool.Open()
+
+                $jobList = New-Object 'System.Collections.Generic.List[pscustomobject]'
+
+                $workerScriptBlock = {
+                    param($scriptName, $scriptPath)
+                    $moduleInfo = Get-Module -Name 'ColorScripts-Enhanced' -ErrorAction Stop
+                    $moduleInfo.Invoke({ param($name, $path) Invoke-ColorScriptCacheOperation -ScriptName $name -ScriptPath $path }, $scriptName, $scriptPath)
+                }
+
+                try {
+                    foreach ($item in $workQueue) {
+                        $psInstance = [System.Management.Automation.PowerShell]::Create()
+                        $psInstance.RunspacePool = $runspacePool
+                        $null = $psInstance.AddCommand('Microsoft.PowerShell.Core\Invoke-Command')
+                        $null = $psInstance.AddParameter('ScriptBlock', $workerScriptBlock)
+                        $null = $psInstance.AddParameter('ArgumentList', @($item.Name, $item.Path))
+
+                        $asyncResult = $psInstance.BeginInvoke()
+
+                        [void]$jobList.Add([pscustomobject]@{
+                                PowerShell = $psInstance
+                                Async      = $asyncResult
+                                Item       = $item
+                            })
+                    }
+
+                    $completed = 0
+
+                    while ($completed -lt $pendingCount) {
+                        $processedThisCycle = $false
+
+                        foreach ($job in $jobList.ToArray()) {
+                            if (-not $job.Async.IsCompleted) {
+                                continue
+                            }
+
+                            $processedThisCycle = $true
+
+                            try {
+                                $outputCollection = $job.PowerShell.EndInvoke($job.Async)
+                                $operation = if ($outputCollection -and $outputCollection.Count -gt 0) { $outputCollection[0] } else { $null }
+
+                                if ($operation) {
+                                    if ($operation.Warning) {
+                                        Write-Warning $operation.Warning
+                                    }
+
+                                    $summary.Updated += $operation.Updated
+                                    $summary.Failed += $operation.Failed
+
+                                    [void]$results.Add([pscustomobject]@{
+                                            Order  = $job.Item.Order
+                                            Record = $operation.Result
+                                        })
+                                }
+                                else {
+                                    $summary.Failed++
+                                    $failureMessage = 'Cache build failed.'
+                                    Write-Warning ("Failed to cache {0}: {1}" -f $job.Item.Name, $failureMessage)
+                                    [void]$results.Add([pscustomobject]@{
+                                            Order  = $job.Item.Order
+                                            Record = [pscustomobject]@{
+                                                Name        = $job.Item.Name
+                                                ScriptPath  = $job.Item.Path
+                                                CacheFile   = $null
+                                                Status      = 'Failed'
+                                                Message     = $failureMessage
+                                                CacheExists = $false
+                                                ExitCode    = $null
+                                                StdOut      = ''
+                                                StdErr      = ''
+                                            }
+                                        })
+                                }
+                            }
+                            catch {
+                                $summary.Failed++
+                                $errorMessage = $_.Exception.Message
+                                Write-Warning ("Failed to cache {0}: {1}" -f $job.Item.Name, $errorMessage)
+                                [void]$results.Add([pscustomobject]@{
+                                        Order  = $job.Item.Order
+                                        Record = [pscustomobject]@{
+                                            Name        = $job.Item.Name
+                                            ScriptPath  = $job.Item.Path
+                                            CacheFile   = $null
+                                            Status      = 'Failed'
+                                            Message     = $errorMessage
+                                            CacheExists = $false
+                                            ExitCode    = $null
+                                            StdOut      = ''
+                                            StdErr      = $errorMessage
+                                        }
+                                    })
+                            }
+                            finally {
+                                $completed++
+                                Write-Progress -Id $executionProgressId -Activity $activity -Status ("Building {0} of {1}: {2}" -f $completed, $pendingCount, $job.Item.Name) -PercentComplete ([math]::Min(100, [math]::Max(0, ($completed / $pendingCount) * 100)))
+                                $job.PowerShell.Dispose()
+                                [void]$jobList.Remove($job)
+                            }
+                        }
+
+                        if (-not $processedThisCycle) {
+                            Start-Sleep -Milliseconds 30
+                        }
+                    }
+                }
+                finally {
+                    if ($runspacePool) {
+                        $runspacePool.Close()
+                        $runspacePool.Dispose()
+                    }
+                }
+            }
+
+            Write-Progress -Id $executionProgressId -Activity $activity -Completed -Status 'Completed'
+        }
+
+        $finalRecords = @()
+        if ($results.Count -gt 0) {
+            $finalRecords = ($results | Sort-Object Order | ForEach-Object { $_.Record })
+        }
+
+        $summary.Processed = $finalRecords.Count
+        $summary.Updated = ($finalRecords | Where-Object { $_.Status -eq 'Updated' }).Count
+        $summary.Failed = ($finalRecords | Where-Object { $_.Status -eq 'Failed' }).Count
+        $summary.Skipped = ($finalRecords | Where-Object { $_.Status -like 'Skipped*' }).Count
 
         if (-not $PassThru -and $summary.Processed -gt 0) {
             $formatString = $null
@@ -350,7 +586,7 @@ function New-ColorScriptCache {
         }
 
         if ($PassThru) {
-            return $results.ToArray()
+            return $finalRecords
         }
     }
 }
