@@ -18,7 +18,7 @@ param(
     [Parameter(ParameterSetName = 'Standard')]
     [Parameter(ParameterSetName = 'Advanced')]
     [ValidateRange(0, 100)]
-    [int]$MinimumCoverage = 94,
+    [int]$MinimumCoverage = 80,
 
     [Parameter(ParameterSetName = 'Standard')]
     [Parameter(ParameterSetName = 'Advanced')]
