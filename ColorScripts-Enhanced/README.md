@@ -374,7 +374,7 @@ The `-Parallel` switch enables a runspace pool, while `-Threads` (alias for `-Th
 
 Auto mode prefers PSD1 resources whenever they exist so you can override English strings without recompiling the module. Fine-tune the behaviour with `COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE`:
 
-- `auto` *(default)* – load PSD1 files when present, otherwise fall back to embedded messages.
+- `auto` _(default)_ – load PSD1 files when present, otherwise fall back to embedded messages.
 - `full` – always load from disk, even if embedded defaults would succeed.
 - `embedded` – skip PSD1 probes and rely on built-in English messages.
 

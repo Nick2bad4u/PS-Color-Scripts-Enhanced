@@ -1,4 +1,4 @@
-﻿Describe "ColorScripts-Enhanced coverage finalization" {
+﻿Describe 'ColorScripts-Enhanced coverage finalization' {
     BeforeAll {
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
         $script:ModulePath = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
@@ -75,8 +75,8 @@
             Remove-Item Env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT -ErrorAction SilentlyContinue
         }
     }
-    Context "Invoke-ShouldProcess overrides" {
-        It "invokes script override when defined" {
+    Context 'Invoke-ShouldProcess overrides' {
+        It 'invokes script override when defined' {
             $result = InModuleScope ColorScripts-Enhanced {
                 $script:ShouldProcessOverride = {
                     param($cmdlet, $target, $action)
@@ -96,8 +96,8 @@
         }
     }
 
-    Context "Configuration root selection" {
-        It "selects macOS application support directory" -Skip:($PSVersionTable.PSVersion.Major -le 5) {
+    Context 'Configuration root selection' {
+        It 'selects macOS application support directory' -Skip:($PSVersionTable.PSVersion.Major -le 5) {
             $homePath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
             New-Item -ItemType Directory -Path $homePath -Force | Out-Null
 
@@ -109,11 +109,11 @@
                     IsMacOS    = $script:IsMacOS
                     CacheInit  = $script:CacheInitialized
                 }
-                $originalHome     = $HOME
-                $originalEnvHome  = $env:HOME
+                $originalHome = $HOME
+                $originalEnvHome = $env:HOME
                 $originalOverride = $env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT
-                $originalAppData  = $env:APPDATA
-                $originalXdg      = $env:XDG_CONFIG_HOME
+                $originalAppData = $env:APPDATA
+                $originalXdg = $env:XDG_CONFIG_HOME
 
                 try {
                     $script:ConfigurationRoot = $null
@@ -157,9 +157,9 @@
             $result.Result | Should -Be $result.Expected
         }
 
-        It "uses XDG config path when defined" -Skip:($PSVersionTable.PSVersion.Major -le 5) {
+        It 'uses XDG config path when defined' -Skip:($PSVersionTable.PSVersion.Major -le 5) {
             $homePath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
-            $xdgPath  = Join-Path -Path $homePath -ChildPath '.config'
+            $xdgPath = Join-Path -Path $homePath -ChildPath '.config'
             New-Item -ItemType Directory -Path $xdgPath -Force | Out-Null
 
             $result = InModuleScope ColorScripts-Enhanced -Parameters @{ TestHome = $homePath; XdgRoot = $xdgPath } {
@@ -169,11 +169,11 @@
                     IsWindows  = $script:IsWindows
                     IsMacOS    = $script:IsMacOS
                 }
-                $originalHome     = $HOME
-                $originalEnvHome  = $env:HOME
-                $originalXdg      = $env:XDG_CONFIG_HOME
+                $originalHome = $HOME
+                $originalEnvHome = $env:HOME
+                $originalXdg = $env:XDG_CONFIG_HOME
                 $originalOverride = $env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT
-                $originalAppData  = $env:APPDATA
+                $originalAppData = $env:APPDATA
 
                 try {
                     $script:ConfigurationRoot = $null
@@ -216,8 +216,8 @@
         }
     }
 
-    Context "Resolve-CachePath fallbacks" {
-        It "expands tilde using profile delegate" {
+    Context 'Resolve-CachePath fallbacks' {
+        It 'expands tilde using profile delegate' {
             $customHome = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'profile-home'
             New-Item -ItemType Directory -Path $customHome -Force | Out-Null
 
@@ -237,7 +237,7 @@
             $result | Should -Be (Join-Path -Path $customHome -ChildPath 'cache')
         }
 
-        It "logs verbose when rooted evaluation fails" {
+        It 'logs verbose when rooted evaluation fails' {
             $messages = InModuleScope ColorScripts-Enhanced {
                 $original = $script:IsPathRootedDelegate
                 try {
@@ -261,8 +261,8 @@
         }
     }
 
-    Context "Get-ColorScriptInventory refresh scenarios" {
-        It "treats minimum timestamp as null" {
+    Context 'Get-ColorScriptInventory refresh scenarios' {
+        It 'treats minimum timestamp as null' {
             $stamp = InModuleScope ColorScripts-Enhanced {
                 $original = $script:DirectoryGetLastWriteTimeUtcDelegate
                 try {
@@ -279,7 +279,7 @@
             $stamp | Should -BeNullOrEmpty
         }
 
-        It "refreshes inventory when directory timestamp changes" {
+        It 'refreshes inventory when directory timestamp changes' {
             InModuleScope ColorScripts-Enhanced {
                 $original = $script:DirectoryGetLastWriteTimeUtcDelegate
                 try {
@@ -302,8 +302,8 @@
         }
     }
 
-    Context "Get-PowerShellExecutable fallback" {
-        It "falls back to command line when process module is unavailable" {
+    Context 'Get-PowerShellExecutable fallback' {
+        It 'falls back to command line when process module is unavailable' {
             $result = InModuleScope ColorScripts-Enhanced {
                 $script:PowerShellExecutable = $null
                 Mock -CommandName Get-Command -ModuleName ColorScripts-Enhanced -MockWith { $null }
@@ -316,8 +316,8 @@
         }
     }
 
-    Context "Invoke-WithUtf8Encoding verbose coverage" {
-        It "logs verbose when console encoding cannot be read" {
+    Context 'Invoke-WithUtf8Encoding verbose coverage' {
+        It 'logs verbose when console encoding cannot be read' {
             $messages = InModuleScope ColorScripts-Enhanced {
                 $script:IsOutputRedirectedDelegate = { $false }
                 $script:GetConsoleOutputEncodingDelegate = { throw [System.IO.IOException]::new('unavailable') }
@@ -336,7 +336,7 @@
             $messages | Should -Contain 'Console handle unavailable; skipping OutputEncoding change.'
         }
 
-        It "logs verbose when console encoding cannot be restored" {
+        It 'logs verbose when console encoding cannot be restored' {
             $messages = InModuleScope ColorScripts-Enhanced {
                 $script:IsOutputRedirectedDelegate = { $false }
                 $script:GetConsoleOutputEncodingDelegate = { [System.Text.Encoding]::Unicode }
@@ -364,8 +364,8 @@
         }
     }
 
-    Context "Write-RenderedText fallback" {
-        It "writes to pipeline when console output fails" {
+    Context 'Write-RenderedText fallback' {
+        It 'writes to pipeline when console output fails' {
             $result = InModuleScope ColorScripts-Enhanced {
                 $original = $script:ConsoleWriteDelegate
                 try {
@@ -385,8 +385,8 @@
         }
     }
 
-    Context "Initialize-CacheDirectory fallback" {
-        It "creates fallback directory when all candidates fail" {
+    Context 'Initialize-CacheDirectory fallback' {
+        It 'creates fallback directory when all candidates fail' {
             $result = InModuleScope ColorScripts-Enhanced {
                 $script:ConfigurationInitialized = $true
                 $script:ConfigurationRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
@@ -411,8 +411,8 @@
         }
     }
 
-    Context "Metadata normalization coverage" {
-        It "combines manual and automatic metadata values" {
+    Context 'Metadata normalization coverage' {
+        It 'combines manual and automatic metadata values' {
             $root = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
             $scriptsDir = Join-Path -Path $root -ChildPath 'scripts'
             $cacheDir = Join-Path -Path $root -ChildPath 'cache'
@@ -446,11 +446,11 @@
             $result = InModuleScope ColorScripts-Enhanced -Parameters @{ MetaPath = $metadataPath; ScriptPath = $scriptsDir; CachePath = $cacheDir } {
                 param($MetaPath, $ScriptPath, $CachePath)
                 $original = @{
-                    MetadataPath = $script:MetadataPath
-                    ScriptsPath  = $script:ScriptsPath
-                    CacheDir     = $script:CacheDir
-                    CacheInit    = $script:CacheInitialized
-                    MetadataCache = $script:MetadataCache
+                    MetadataPath          = $script:MetadataPath
+                    ScriptsPath           = $script:ScriptsPath
+                    CacheDir              = $script:CacheDir
+                    CacheInit             = $script:CacheInitialized
+                    MetadataCache         = $script:MetadataCache
                     MetadataLastWriteTime = $script:MetadataLastWriteTime
                 }
                 try {
@@ -502,8 +502,8 @@
         }
     }
 
-    Context "Get-CachedOutput coverage" {
-        It "returns placeholder object when cache entry missing" {
+    Context 'Get-CachedOutput coverage' {
+        It 'returns placeholder object when cache entry missing' {
             $missingPath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'missing-script.ps1'
 
             $result = InModuleScope ColorScripts-Enhanced -Parameters @{ ScriptPath = $missingPath } {
@@ -518,8 +518,8 @@
         }
     }
 
-    Context "Invoke-ColorScriptProcess coverage" {
-        It "returns descriptive error when script path missing" {
+    Context 'Invoke-ColorScriptProcess coverage' {
+        It 'returns descriptive error when script path missing' {
             $missingPath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'missing-script.ps1'
 
             $result = InModuleScope ColorScripts-Enhanced -Parameters @{ ScriptPath = $missingPath } {
@@ -532,16 +532,16 @@
         }
     }
 
-    Context "Show-ColorScript selection" {
-        It "selects the first matching script for wildcard names" {
+    Context 'Show-ColorScript selection' {
+        It 'selects the first matching script for wildcard names' {
             $results = Show-ColorScript -Name 'ansi-star-wars-*' -ReturnText -PassThru
             $metadata = $results | Where-Object { $_ -isnot [string] } | Select-Object -First 1
             $metadata.Name | Should -Be 'ansi-star-wars-fil-annie'
         }
     }
 
-    Context "Export-ColorScriptMetadata resilience" {
-        It "logs verbose when cache info cannot be retrieved" {
+    Context 'Export-ColorScriptMetadata resilience' {
+        It 'logs verbose when cache info cannot be retrieved' {
             $outputPath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'metadata.json'
 
             InModuleScope ColorScripts-Enhanced -Parameters @{ OutputPath = $outputPath } {
@@ -587,8 +587,8 @@
         }
     }
 
-    Context "New-ColorScriptCache ShouldProcess" {
-        It "reports skipped status when ShouldProcess declines" {
+    Context 'New-ColorScriptCache ShouldProcess' {
+        It 'reports skipped status when ShouldProcess declines' {
             $result = InModuleScope ColorScripts-Enhanced {
                 $script:CacheDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $script:CacheDir -Force | Out-Null
@@ -610,8 +610,8 @@
         }
     }
 
-    Context "Clear-ColorScriptCache missing entries" {
-        It "adds missing results when cache records are absent" {
+    Context 'Clear-ColorScriptCache missing entries' {
+        It 'adds missing results when cache records are absent' {
             $results = InModuleScope ColorScripts-Enhanced {
                 $script:CacheDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $script:CacheDir -Force | Out-Null
@@ -619,9 +619,9 @@
 
                 Mock -CommandName Select-RecordsByName -ModuleName ColorScripts-Enhanced -MockWith {
                     [pscustomobject]@{
-                        Records = @()
+                        Records         = @()
                         MissingPatterns = @()
-                        MatchMap = @(
+                        MatchMap        = @(
                             [pscustomobject]@{ Pattern = 'ghost'; IsWildcard = $false; Matched = $false; Matches = @() }
                             [pscustomobject]@{ Pattern = 'missing'; IsWildcard = $false; Matched = $true; Matches = @('missing') }
                         )
@@ -637,8 +637,8 @@
         }
     }
 
-    Context "Invoke-ColorScriptsStartup override" {
-        It "continues when override is enabled even if config root fails" {
+    Context 'Invoke-ColorScriptsStartup override' {
+        It 'continues when override is enabled even if config root fails' {
             $result = InModuleScope ColorScripts-Enhanced {
                 $env:CI = 'false'
                 $env:GITHUB_ACTIONS = 'false'

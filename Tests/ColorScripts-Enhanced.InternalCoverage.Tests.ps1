@@ -1,6 +1,6 @@
 # Internal verification tests for ColorScripts-Enhanced private helpers
 
-Describe "ColorScripts-Enhanced internal coverage" {
+Describe 'ColorScripts-Enhanced internal coverage' {
     BeforeAll {
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
         $script:ModulePath = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
@@ -93,8 +93,8 @@ Describe "ColorScripts-Enhanced internal coverage" {
         Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue
     }
 
-    Context "Copy-ColorScriptHashtable" {
-        It "performs deep copy for nested and enumerable values" {
+    Context 'Copy-ColorScriptHashtable' {
+        It 'performs deep copy for nested and enumerable values' {
             InModuleScope ColorScripts-Enhanced {
                 $arrayList = [System.Collections.ArrayList]::new()
                 $arrayList.AddRange(@('a', 'b'))
@@ -128,7 +128,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "returns empty hashtable when source is null" {
+        It 'returns empty hashtable when source is null' {
             InModuleScope ColorScripts-Enhanced {
                 $result = Copy-ColorScriptHashtable $null
                 $result.Keys.Count | Should -Be 0
@@ -136,8 +136,8 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
     }
 
-    Context "Localization resolution" {
-        It "resolves culture directories via enumeration when direct Test-Path fails" {
+    Context 'Localization resolution' {
+        It 'resolves culture directories via enumeration when direct Test-Path fails' {
             InModuleScope ColorScripts-Enhanced {
                 $baseDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
                 $cultureDir = Join-Path -Path $baseDir -ChildPath 'en-us'
@@ -172,7 +172,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "falls back to root Messages.psd1 when no culture directory matches" {
+        It 'falls back to root Messages.psd1 when no culture directory matches' {
             InModuleScope ColorScripts-Enhanced {
                 $baseDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
                 $rootMessages = Join-Path -Path $baseDir -ChildPath 'Messages.psd1'
@@ -201,7 +201,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "imports messages from ConvertFrom-StringData payload" {
+        It 'imports messages from ConvertFrom-StringData payload' {
             InModuleScope ColorScripts-Enhanced {
                 $baseDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
                 $cultureDir = Join-Path -Path $baseDir -ChildPath 'en-US'
@@ -219,7 +219,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "imports messages via Import-PowerShellDataFile when no ConvertFrom-StringData block exists" {
+        It 'imports messages via Import-PowerShellDataFile when no ConvertFrom-StringData block exists' {
             InModuleScope ColorScripts-Enhanced {
                 $baseDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
                 $messagesPath = Join-Path -Path $baseDir -ChildPath 'Messages.psd1'
@@ -236,7 +236,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "falls back to embedded messages when no localized files exist" {
+        It 'falls back to embedded messages when no localized files exist' {
             InModuleScope ColorScripts-Enhanced {
                 $baseDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $baseDir -Force | Out-Null
@@ -250,7 +250,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "continues to next candidate when import fails and succeeds on fallback" -Skip:($IsLinux -and $env:CI) {
+        It 'continues to next candidate when import fails and succeeds on fallback' -Skip:($IsLinux -and $env:CI) {
             InModuleScope ColorScripts-Enhanced {
                 $invalidDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
                 $validDir = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), [System.Guid]::NewGuid().ToString())
@@ -260,7 +260,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
                 $validFile = Join-Path -Path $validMessages -ChildPath 'Messages.psd1'
 
                 New-Item -ItemType Directory -Path $invalidMessages -Force | Out-Null
-                Set-Content -LiteralPath $invalidFile -Value "Invalid-Localization" -Encoding UTF8
+                Set-Content -LiteralPath $invalidFile -Value 'Invalid-Localization' -Encoding UTF8
 
                 New-Item -ItemType Directory -Path $validMessages -Force | Out-Null
                 Set-Content -LiteralPath $validFile -Value "ConvertFrom-StringData @'`nMessage = Hello`n'@" -Encoding UTF8
@@ -274,7 +274,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
     }
 
-    Context "Module trace configuration" {
+    Context 'Module trace configuration' {
         BeforeEach {
             Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue
         }
@@ -296,7 +296,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "enables verbose trace mode when requested" {
+        It 'enables verbose trace mode when requested' {
             $env:COLOR_SCRIPTS_ENHANCED_TRACE = 'true'
 
             Import-Module $script:ModuleManifest -Force
@@ -317,7 +317,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "writes trace output to specified file and supports debug mode" {
+        It 'writes trace output to specified file and supports debug mode' {
             $tracePath = Join-Path -Path $script:TestDriveRoot -ChildPath 'trace-output.log'
             $env:COLOR_SCRIPTS_ENHANCED_TRACE = "debug,path:$tracePath"
 
@@ -345,7 +345,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             (Get-Content -LiteralPath $tracePath -Raw) | Should -Match 'file-message'
         }
 
-        It "treats absolute paths as file trace targets" {
+        It 'treats absolute paths as file trace targets' {
             $simpleTracePath = Join-Path -Path $script:TestDriveRoot -ChildPath 'simple-trace.log'
             $env:COLOR_SCRIPTS_ENHANCED_TRACE = $simpleTracePath
 
@@ -368,8 +368,8 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
     }
 
-    Context "ConvertFrom-JsonToHashtable" {
-        It "returns hashtable for JSON input" {
+    Context 'ConvertFrom-JsonToHashtable' {
+        It 'returns hashtable for JSON input' {
             InModuleScope ColorScripts-Enhanced {
                 $json = '{"Name":"Test","Nested":{"Value":5},"Numbers":[1,2,3]}'
                 $result = ConvertFrom-JsonToHashtable -InputObject $json
@@ -381,7 +381,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "converts PSCustomObject structures via helper" {
+        It 'converts PSCustomObject structures via helper' {
             InModuleScope ColorScripts-Enhanced {
                 $object = [pscustomobject]@{
                     Title   = 'Sample'
@@ -406,8 +406,8 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
     }
 
-    Context "Merge-ColorScriptConfiguration" {
-        It "merges nested dictionaries and arrays without mutating base" {
+    Context 'Merge-ColorScriptConfiguration' {
+        It 'merges nested dictionaries and arrays without mutating base' {
             InModuleScope ColorScripts-Enhanced {
                 $baseArray = [System.Collections.ArrayList]::new()
                 $baseArray.Add('alpha') | Out-Null
@@ -441,7 +441,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "clones override dictionaries and enumerables" {
+        It 'clones override dictionaries and enumerables' {
             InModuleScope ColorScripts-Enhanced {
                 $base = [ordered]@{
                     Settings = @{ Theme = 'Light' }
@@ -466,15 +466,15 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
     }
 
-    Context "Resolve-CachePath" {
-        It "returns null for empty input" {
+    Context 'Resolve-CachePath' {
+        It 'returns null for empty input' {
             InModuleScope ColorScripts-Enhanced {
                 Resolve-CachePath -Path $null | Should -Be $null
                 Resolve-CachePath -Path '   ' | Should -Be $null
             }
         }
 
-        It "expands user profile shortcuts" {
+        It 'expands user profile shortcuts' {
             InModuleScope ColorScripts-Enhanced {
                 $expectedHome = [System.Environment]::GetFolderPath('UserProfile')
                 $resolvedHome = Resolve-CachePath -Path '~'
@@ -485,7 +485,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "resolves relative paths against current location" {
+        It 'resolves relative paths against current location' {
             InModuleScope ColorScripts-Enhanced {
                 Push-Location -LiteralPath 'TestDrive:'
                 try {
@@ -498,13 +498,13 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "returns null when drive qualifier is missing" {
+        It 'returns null when drive qualifier is missing' {
             InModuleScope ColorScripts-Enhanced {
                 Resolve-CachePath -Path 'ZZ:\missing\dir' | Should -Be $null
             }
         }
 
-        It "handles invalid path characters gracefully" {
+        It 'handles invalid path characters gracefully' {
             InModuleScope ColorScripts-Enhanced {
                 $result = Resolve-CachePath -Path 'C:\path|invalid'
                 @($null, 'C:\path|invalid') | Should -Contain $result
@@ -512,8 +512,8 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
     }
 
-    Context "Show-ColorScriptHelp" {
-        It "emits colored sections for help text" {
+    Context 'Show-ColorScriptHelp' {
+        It 'emits colored sections for help text' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Get-Help -ModuleName ColorScripts-Enhanced -MockWith {
                     @(
@@ -547,8 +547,8 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
     }
 
-    Context "Configuration root resolution" {
-        It "honors explicit override path" {
+    Context 'Configuration root resolution' {
+        It 'honors explicit override path' {
             InModuleScope ColorScripts-Enhanced {
                 $root = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 $env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT = $root
@@ -560,7 +560,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "prefers macOS location when platform set to mac" {
+        It 'prefers macOS location when platform set to mac' {
             Set-Variable -Name IsWindows -Scope Global -Force -Value $false
             Set-Variable -Name IsMacOS -Scope Global -Force -Value $true
 
@@ -580,7 +580,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "evaluates XDG config path on linux" {
+        It 'evaluates XDG config path on linux' {
             Set-Variable -Name IsWindows -Scope Global -Force -Value $false
             Set-Variable -Name IsMacOS -Scope Global -Force -Value $false
             Set-Variable -Name IsLinux -Scope Global -Force -Value $true
@@ -595,7 +595,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "falls back to home .config when no XDG path" {
+        It 'falls back to home .config when no XDG path' {
             if ($PSVersionTable.PSEdition -eq 'Desktop') {
                 Set-ItResult -Skipped -Because 'PowerShell 5.1 uses Windows-specific configuration paths.'
                 return
@@ -668,7 +668,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "throws when configuration directories cannot be prepared" {
+        It 'throws when configuration directories cannot be prepared' {
             Set-Variable -Name IsWindows -Scope Global -Force -Value $true
             Set-Variable -Name IsMacOS -Scope Global -Force -Value $false
             Set-Variable -Name IsLinux -Scope Global -Force -Value $false
@@ -707,8 +707,8 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
     }
 
-    Context "Configuration persistence" {
-        It "skips writing when configuration is unchanged" {
+    Context 'Configuration persistence' {
+        It 'skips writing when configuration is unchanged' {
             InModuleScope ColorScripts-Enhanced {
                 $root = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $root -Force | Out-Null
@@ -729,7 +729,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "writes updated configuration when changes are present" {
+        It 'writes updated configuration when changes are present' {
             InModuleScope ColorScripts-Enhanced {
                 $root = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $root -Force | Out-Null
@@ -749,14 +749,14 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "throws when configuration root cannot be resolved" {
+        It 'throws when configuration root cannot be resolved' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Get-ColorScriptsConfigurationRoot -ModuleName ColorScripts-Enhanced -MockWith { $null }
                 { Save-ColorScriptConfiguration -Configuration @{ } } | Should -Throw
             }
         }
 
-        It "reinitializes configuration when JSON cannot be parsed" {
+        It 'reinitializes configuration when JSON cannot be parsed' {
             InModuleScope ColorScripts-Enhanced {
                 $root = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $root -Force | Out-Null
@@ -774,7 +774,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "continues writing when existing file content cannot be read" {
+        It 'continues writing when existing file content cannot be read' {
             InModuleScope ColorScripts-Enhanced {
                 $root = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $root -Force | Out-Null
@@ -794,7 +794,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "invokes help for configuration cmdlets" {
+        It 'invokes help for configuration cmdlets' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced
 
@@ -806,7 +806,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "clears cache path when CachePath is blank" {
+        It 'clears cache path when CachePath is blank' {
             InModuleScope ColorScripts-Enhanced {
                 $root = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $root -Force | Out-Null
@@ -821,14 +821,14 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "throws when cache path cannot be resolved" {
+        It 'throws when cache path cannot be resolved' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith { $null }
                 { Set-ColorScriptConfiguration -CachePath 'ZZ:\invalid' } | Should -Throw
             }
         }
 
-        It "returns updated configuration on reset" {
+        It 'returns updated configuration on reset' {
             InModuleScope ColorScripts-Enhanced {
                 $root = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $root -Force | Out-Null
@@ -841,8 +841,8 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
     }
 
-    Context "Cache directory initialization" {
-        It "uses environment override when resolvable" {
+    Context 'Cache directory initialization' {
+        It 'uses environment override when resolvable' {
             $override = Join-Path $script:TestDriveRoot ('CacheOverride_' + [guid]::NewGuid())
             $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $override
 
@@ -862,7 +862,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "falls back to temp directory when candidates fail" {
+        It 'falls back to temp directory when candidates fail' {
             # Clear all environment overrides so we test the fallback path
             $originalOverride = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
             $originalAppData = $env:APPDATA
@@ -934,8 +934,8 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
     }
 
-    Context "Metadata table caching" {
-        It "loads metadata and reuses cache" {
+    Context 'Metadata table caching' {
+        It 'loads metadata and reuses cache' {
             $cacheRoot = Join-Path $script:TestDriveRoot ('MetaCache_' + [guid]::NewGuid())
             New-Item -ItemType Directory -Path $cacheRoot -Force | Out-Null
 
@@ -958,8 +958,8 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
     }
 
-    Context "Script inventory refresh" {
-        It "refreshes when directory timestamp changes" {
+    Context 'Script inventory refresh' {
+        It 'refreshes when directory timestamp changes' {
             InModuleScope ColorScripts-Enhanced {
                 Reset-ScriptInventoryCache
                 $initial = Get-ColorScriptInventory
@@ -975,8 +975,8 @@ Describe "ColorScripts-Enhanced internal coverage" {
         }
     }
 
-    Context "Utility helpers" {
-        It "evaluates text emission scenarios" {
+    Context 'Utility helpers' {
+        It 'evaluates text emission scenarios' {
             InModuleScope ColorScripts-Enhanced {
                 $isRedirected = [Console]::IsOutputRedirected
 
@@ -988,7 +988,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "prefers pwsh command path when available" {
+        It 'prefers pwsh command path when available' {
             InModuleScope ColorScripts-Enhanced {
                 $script:PowerShellExecutable = $null
                 Mock -CommandName Get-Command -ModuleName ColorScripts-Enhanced -MockWith { [pscustomobject]@{ Path = 'C:\Tools\pwsh.exe' } }
@@ -997,7 +997,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "falls back to current process when pwsh command not found" {
+        It 'falls back to current process when pwsh command not found' {
             InModuleScope ColorScripts-Enhanced {
                 $script:PowerShellExecutable = $null
                 Mock -CommandName Get-Command -ModuleName ColorScripts-Enhanced -MockWith { $null }
@@ -1007,7 +1007,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "invokes scriptblocks with and without arguments" {
+        It 'invokes scriptblocks with and without arguments' {
             InModuleScope ColorScripts-Enhanced {
                 Invoke-WithUtf8Encoding -ScriptBlock { 'no-args' } | Should -Be 'no-args'
                 $sum = Invoke-WithUtf8Encoding -ScriptBlock { param($a, $b) $a + $b } -Arguments @(2, 3)
@@ -1015,7 +1015,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "writes rendered text to the console" {
+        It 'writes rendered text to the console' {
             InModuleScope ColorScripts-Enhanced {
                 $original = [Console]::Out
                 $writer = New-Object System.IO.StringWriter
@@ -1033,7 +1033,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "strips ANSI sequences when NoAnsiOutput is specified" {
+        It 'strips ANSI sequences when NoAnsiOutput is specified' {
             InModuleScope ColorScripts-Enhanced {
                 $original = [Console]::Out
                 $writer = New-Object System.IO.StringWriter
@@ -1053,7 +1053,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "wraps colored message segments with ANSI when allowed" {
+        It 'wraps colored message segments with ANSI when allowed' {
             InModuleScope ColorScripts-Enhanced {
                 $result = New-ColorScriptAnsiText -Text 'Sample' -Color 'Cyan'
                 $result | Should -Match "${([char]27)}\[36m"
@@ -1061,14 +1061,14 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "omits ANSI sequences when disabled" {
+        It 'omits ANSI sequences when disabled' {
             InModuleScope ColorScripts-Enhanced {
                 $result = New-ColorScriptAnsiText -Text 'Sample' -Color 'Cyan' -NoAnsiOutput
                 $result | Should -Be 'Sample'
             }
         }
 
-        It "respects quiet flag when writing informational messages" {
+        It 'respects quiet flag when writing informational messages' {
             InModuleScope ColorScripts-Enhanced {
                 $script:Captured = @()
                 Mock -CommandName Write-Information -ModuleName ColorScripts-Enhanced -MockWith {
@@ -1086,7 +1086,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "prefers console output when requested" {
+        It 'prefers console output when requested' {
             InModuleScope ColorScripts-Enhanced {
                 $script:RenderedCount = 0
                 $script:InformationCalls = @()
@@ -1116,7 +1116,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "emits plain text when NoAnsiOutput is specified" {
+        It 'emits plain text when NoAnsiOutput is specified' {
             InModuleScope ColorScripts-Enhanced {
                 $script:RenderedCount = 0
                 $script:InformationCalls = @()
@@ -1146,8 +1146,8 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        Context "Invoke-ColorScriptCacheOperation" {
-            It "returns success metadata when cache builds succeed" {
+        Context 'Invoke-ColorScriptCacheOperation' {
+            It 'returns success metadata when cache builds succeed' {
                 $tempDir = Join-Path -Path $TestDrive -ChildPath ([guid]::NewGuid())
                 New-Item -ItemType Directory -Path $tempDir | Out-Null
                 $scriptPath = Join-Path -Path $tempDir -ChildPath 'success-script.ps1'
@@ -1165,7 +1165,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
                 }
             }
 
-            It "returns failure metadata when script execution fails" {
+            It 'returns failure metadata when script execution fails' {
                 $missingPath = Join-Path -Path $TestDrive -ChildPath 'missing-script.ps1'
 
                 InModuleScope ColorScripts-Enhanced -Parameters @{ missingScriptPath = $missingPath } {
@@ -1180,7 +1180,7 @@ Describe "ColorScripts-Enhanced internal coverage" {
             }
         }
 
-        It "builds matcher sets and selects records" {
+        It 'builds matcher sets and selects records' {
             InModuleScope ColorScripts-Enhanced {
                 $matchers = New-NameMatcherSet -Patterns @('alpha*', 'beta')
                 $matchers.Count | Should -Be 2

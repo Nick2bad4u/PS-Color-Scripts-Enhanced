@@ -112,11 +112,11 @@ Describe "Copy-ColorScriptHashtable and Merge-ColorScriptConfiguration" {
 #>
 #>
 
-Describe "Show-ColorScriptHelp rendering" {
-    It "Colorizes help sections and metadata" {
+Describe 'Show-ColorScriptHelp rendering' {
+    It 'Colorizes help sections and metadata' {
         InModuleScope ColorScripts-Enhanced {
             Mock -CommandName Get-Help -ModuleName ColorScripts-Enhanced -MockWith {
-                @"
+                @'
 NAME
 Show-ColorScript
 SYNOPSIS
@@ -137,7 +137,7 @@ NOTES
 Additional text
 RELATED LINKS
 https://example.com
-"@
+'@
             }
 
             Mock -CommandName Write-Host -ModuleName ColorScripts-Enhanced -MockWith {
@@ -162,8 +162,8 @@ https://example.com
     }
 }
 
-Describe "Configuration root resolution" {
-    It "Honors explicit configuration override" {
+Describe 'Configuration root resolution' {
+    It 'Honors explicit configuration override' {
         $override = Join-Path $TestDrive 'ConfigOverride'
         $env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT = $override
 
@@ -175,7 +175,7 @@ Describe "Configuration root resolution" {
         }
     }
 
-    It "Builds macOS style path when platform reported as mac" {
+    It 'Builds macOS style path when platform reported as mac' {
         $testRoot = Join-Path $TestDrive 'MacConfig'
         if (-not (Test-Path $testRoot)) { New-Item -ItemType Directory -Path $testRoot | Out-Null }
 
@@ -200,7 +200,7 @@ Describe "Configuration root resolution" {
         }
     }
 
-    It "Falls back to XDG config path on Linux" {
+    It 'Falls back to XDG config path on Linux' {
         $testRoot = Join-Path $TestDrive 'LinuxConfig'
         if (-not (Test-Path $testRoot)) { New-Item -ItemType Directory -Path $testRoot | Out-Null }
 
@@ -220,13 +220,13 @@ Describe "Configuration root resolution" {
     }
 }
 
-Describe "Save and initialize configuration" {
+Describe 'Save and initialize configuration' {
     BeforeEach {
         $script:ConfigRootPath = Join-Path $TestDrive ('ConfigRoot_' + [guid]::NewGuid())
         New-Item -ItemType Directory -Path $script:ConfigRootPath | Out-Null
     }
 
-    It "Skips writing when content unchanged" {
+    It 'Skips writing when content unchanged' {
         InModuleScope ColorScripts-Enhanced {
             $script:ConfigurationRoot = $using:ConfigRootPath
             Mock -CommandName Get-ColorScriptsConfigurationRoot -ModuleName ColorScripts-Enhanced -MockWith { $using:ConfigRootPath }
@@ -246,7 +246,7 @@ Describe "Save and initialize configuration" {
         }
     }
 
-    It "Writes new configuration when content differs" {
+    It 'Writes new configuration when content differs' {
         InModuleScope ColorScripts-Enhanced {
             $script:ConfigurationRoot = $using:ConfigRootPath
             Mock -CommandName Get-ColorScriptsConfigurationRoot -ModuleName ColorScripts-Enhanced -MockWith { $using:ConfigRootPath }
@@ -263,7 +263,7 @@ Describe "Save and initialize configuration" {
         }
     }
 
-    It "Handles invalid JSON on initialization" {
+    It 'Handles invalid JSON on initialization' {
         $configPath = Join-Path $script:ConfigRootPath 'config.json'
         Set-Content -Path $configPath -Value '{not-json' -Encoding UTF8
 
@@ -288,18 +288,18 @@ Describe "Save and initialize configuration" {
     }
 }
 
-Describe "Resolve-CachePath variations" {
+Describe 'Resolve-CachePath variations' {
     InModuleScope ColorScripts-Enhanced {
-        It "Returns null for whitespace input" {
+        It 'Returns null for whitespace input' {
             Resolve-CachePath -Path '' | Should -Be $null
         }
 
-        It "Expands tilde into user profile" {
+        It 'Expands tilde into user profile' {
             $result = Resolve-CachePath -Path '~/subfolder'
             $result | Should -Match 'subfolder'
         }
 
-        It "Resolves relative path against current location" {
+        It 'Resolves relative path against current location' {
             Push-Location $TestDrive
             try {
                 $result = Resolve-CachePath -Path 'relative/path'
@@ -311,7 +311,7 @@ Describe "Resolve-CachePath variations" {
             }
         }
 
-        It "Handles invalid drives gracefully" {
+        It 'Handles invalid drives gracefully' {
             $invalidDrive = 'Z:\does-not-exist\file.txt'
             if (-not (Get-PSDrive -Name 'Z' -ErrorAction SilentlyContinue)) {
                 Resolve-CachePath -Path $invalidDrive | Should -Be $null
@@ -323,7 +323,7 @@ Describe "Resolve-CachePath variations" {
     }
 }
 
-Describe "Initialize-CacheDirectory scenarios" {
+Describe 'Initialize-CacheDirectory scenarios' {
     BeforeEach {
         $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $null
         $env:APPDATA = $script:OriginalAppData
@@ -337,7 +337,7 @@ Describe "Initialize-CacheDirectory scenarios" {
         }
     }
 
-    It "Uses environment override when resolvable" {
+    It 'Uses environment override when resolvable' {
         $override = Join-Path $TestDrive 'CacheOverride'
         $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $override
         $testDrivePath = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
@@ -357,7 +357,7 @@ Describe "Initialize-CacheDirectory scenarios" {
         }
     }
 
-    It "Falls back to temp directory when candidates fail" {
+    It 'Falls back to temp directory when candidates fail' {
         $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = '::invalid::'
         $env:APPDATA = $null
         Set-Variable -Name IsWindows -Value $false -Scope Global -Force
@@ -376,8 +376,8 @@ Describe "Initialize-CacheDirectory scenarios" {
     }
 }
 
-Describe "Metadata table caching" {
-    It "Loads metadata, writes cache, and uses fast path" {
+Describe 'Metadata table caching' {
+    It 'Loads metadata, writes cache, and uses fast path' {
         $cacheRoot = Join-Path $TestDrive ('MetaCache_' + [guid]::NewGuid())
         New-Item -ItemType Directory -Path $cacheRoot | Out-Null
 
@@ -400,8 +400,8 @@ Describe "Metadata table caching" {
     }
 }
 
-Describe "Script inventory refresh" {
-    It "Refreshes when directory timestamp changes" {
+Describe 'Script inventory refresh' {
+    It 'Refreshes when directory timestamp changes' {
         InModuleScope ColorScripts-Enhanced {
             Reset-ScriptInventoryCache
             $initial = Get-ColorScriptInventory

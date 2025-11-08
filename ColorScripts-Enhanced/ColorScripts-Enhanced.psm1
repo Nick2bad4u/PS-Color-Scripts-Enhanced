@@ -143,7 +143,7 @@ function Write-ModuleTrace {
     }
 }
 
-Write-ModuleTrace ("--- Import begin: {0} ---" -f (Get-Date -Format o))
+Write-ModuleTrace ('--- Import begin: {0} ---' -f (Get-Date -Format o))
 
 $moduleInfo = $ExecutionContext.SessionState.Module
 $moduleRootCandidates = @()
@@ -172,7 +172,7 @@ if ($environmentRoot) {
     $moduleRootCandidates += $environmentRoot
 }
 
-Write-ModuleTrace ("Initial module root candidates: {0}" -f ($moduleRootCandidates -join ';'))
+Write-ModuleTrace ('Initial module root candidates: {0}' -f ($moduleRootCandidates -join ';'))
 
 $resolvedCandidates = @()
 foreach ($candidate in $moduleRootCandidates) {
@@ -189,7 +189,7 @@ foreach ($candidate in $moduleRootCandidates) {
 }
 
 $moduleRootCandidates = $resolvedCandidates
-Write-ModuleTrace ("Resolved module root candidates: {0}" -f ($moduleRootCandidates -join ';'))
+Write-ModuleTrace ('Resolved module root candidates: {0}' -f ($moduleRootCandidates -join ';'))
 
 $cultureFallback = @()
 try {
@@ -318,7 +318,7 @@ if (-not $script:DelegateSyncRoot) { $script:DelegateSyncRoot = New-Object Syste
 $privateDirectory = Join-Path -Path $PSScriptRoot -ChildPath 'Private'
 if (Test-Path -LiteralPath $privateDirectory) {
     Get-ChildItem -Path $privateDirectory -Filter '*.ps1' -File | Sort-Object Name | ForEach-Object {
-        Write-ModuleTrace ("Loading private script: {0}" -f $_.Name)
+        Write-ModuleTrace ('Loading private script: {0}' -f $_.Name)
         . $_.FullName
     }
 }
@@ -347,12 +347,12 @@ if ($script:ModuleRoot) {
         }
     }
     catch {
-        Write-ModuleTrace ("Resolve-Path for module root failed: {0}" -f $_.Exception.Message)
+        Write-ModuleTrace ('Resolve-Path for module root failed: {0}' -f $_.Exception.Message)
     }
 
     $script:ScriptsPath = Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts'
     $script:MetadataPath = Join-Path -Path $script:ModuleRoot -ChildPath 'ScriptMetadata.psd1'
-    Write-ModuleTrace ("Module root finalized at {0}" -f $script:ModuleRoot)
+    Write-ModuleTrace ('Module root finalized at {0}' -f $script:ModuleRoot)
 }
 else {
     Write-ModuleTrace 'Module root could not be determined; relative operations may fail.'
@@ -361,7 +361,7 @@ else {
 $publicDirectory = Join-Path -Path $PSScriptRoot -ChildPath 'Public'
 if (Test-Path -LiteralPath $publicDirectory) {
     Get-ChildItem -Path $publicDirectory -Filter '*.ps1' -File | Sort-Object Name | ForEach-Object {
-        Write-ModuleTrace ("Loading public script: {0}" -f $_.Name)
+        Write-ModuleTrace ('Loading public script: {0}' -f $_.Name)
         . $_.FullName
     }
 }
@@ -395,8 +395,8 @@ try {
     Invoke-ColorScriptsStartup
 }
 catch {
-    Write-ModuleTrace ("Startup invocation failure: {0}" -f $_.Exception.Message)
-    Write-Verbose ("Auto-show on import skipped: {0}" -f $_.Exception.Message)
+    Write-ModuleTrace ('Startup invocation failure: {0}' -f $_.Exception.Message)
+    Write-Verbose ('Auto-show on import skipped: {0}' -f $_.Exception.Message)
 }
 
-Write-ModuleTrace ("--- Import complete: {0} ---" -f (Get-Date -Format o))
+Write-ModuleTrace ('--- Import complete: {0} ---' -f (Get-Date -Format o))

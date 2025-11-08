@@ -63,7 +63,7 @@ function Invoke-HelperPowerShell {
 # Set default paths relative to repository root
 $repoRoot = Split-Path -Parent $PSScriptRoot
 if (-not $ModulePath) {
-    $ModulePath = Join-Path $repoRoot "ColorScripts-Enhanced"
+    $ModulePath = Join-Path $repoRoot 'ColorScripts-Enhanced'
 }
 
 $ModuleManifestPath = Get-ChildItem -Path $ModulePath -Filter '*.psd1' -File | Select-Object -First 1
@@ -110,7 +110,7 @@ if (-not (Test-Path $helpPublishRoot)) {
 }
 
 Write-Host "`nColorScripts-Enhanced Help Builder" -ForegroundColor Cyan
-Write-Host "=================================" -ForegroundColor Cyan
+Write-Host '=================================' -ForegroundColor Cyan
 
 # Check if PlatyPS is available (handle legacy and current names)
 $platyModule = Get-Module -ListAvailable -Name 'Microsoft.PowerShell.PlatyPS', 'PlatyPS', 'platyPS' |
@@ -128,8 +128,8 @@ if (-not $hasPlatyPS) {
     Write-Host "`nThe module already has comment-based help that works without platyPS." -ForegroundColor Green
     Write-Host "External XML help is optional and only needed for advanced scenarios.`n" -ForegroundColor Gray
 
-    Write-Host "To install platyPS (optional):" -ForegroundColor Yellow
-    Write-Host "  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass" -ForegroundColor Gray
+    Write-Host 'To install platyPS (optional):' -ForegroundColor Yellow
+    Write-Host '  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass' -ForegroundColor Gray
     Write-Host "  Install-Module -Name Microsoft.PowerShell.PlatyPS -Scope CurrentUser -Force -SkipPublisherCheck`n" -ForegroundColor Gray
 
     Write-Host "Skipping markdown update and XML generation.`n" -ForegroundColor Green
@@ -160,7 +160,7 @@ if (-not $SkipXmlGeneration) {
 
         # Update markdown files from module if requested
         if ($UpdateMarkdown) {
-            Write-Host "  Updating markdown help files from module..." -ForegroundColor Yellow
+            Write-Host '  Updating markdown help files from module...' -ForegroundColor Yellow
 
             try {
                 $escapedModulePath = $ModulePath -replace "'", "''"
@@ -195,12 +195,12 @@ Write-Host "Markdown files updated successfully for $uiCulture"
             }
             catch {
                 Write-Host "  ✗ Failed to update markdown files for ${uiCulture}: $_" -ForegroundColor Red
-                Write-Host "    Continuing with existing markdown..." -ForegroundColor Yellow
+                Write-Host '    Continuing with existing markdown...' -ForegroundColor Yellow
             }
         }
 
         # Generate MAML from markdown files
-        Write-Host "  Converting markdown to MAML XML..." -ForegroundColor Yellow
+        Write-Host '  Converting markdown to MAML XML...' -ForegroundColor Yellow
 
         try {
             $escapedCulturePath = $cultureOutputPath -replace "'", "''"
@@ -279,11 +279,11 @@ New-ExternalHelp -Path '$escapedCulturePath' -OutputPath '$escapedCulturePath' -
 "@
 
             # Write to the culture directory with correct naming convention
-            $helpInfoFileName = "{0}_{1}_HelpInfo.xml" -f $moduleName, $moduleGuid
+            $helpInfoFileName = '{0}_{1}_HelpInfo.xml' -f $moduleName, $moduleGuid
             $helpInfoPath = Join-Path $cultureOutputPath $helpInfoFileName
 
             # Remove any old HelpInfo files with incorrect names
-            Get-ChildItem -Path $cultureOutputPath -Filter "*_HelpInfo.xml" |
+            Get-ChildItem -Path $cultureOutputPath -Filter '*_HelpInfo.xml' |
                 Where-Object { $_.Name -ne $helpInfoFileName } |
                     Remove-Item -Force -ErrorAction SilentlyContinue
 
@@ -294,13 +294,13 @@ New-ExternalHelp -Path '$escapedCulturePath' -OutputPath '$escapedCulturePath' -
         }
         catch {
             Write-Host "  ✗ Failed to generate HelpInfo.xml for ${uiCulture}: $_" -ForegroundColor Red
-            Write-Host "    Continuing without HelpInfo.xml..." -ForegroundColor Yellow
+            Write-Host '    Continuing without HelpInfo.xml...' -ForegroundColor Yellow
         }
     }
 }
 
 # Validate the help for all cultures
-Write-Host "Validating help content..." -ForegroundColor Yellow
+Write-Host 'Validating help content...' -ForegroundColor Yellow
 
 try {
     Import-Module $ModuleManifestPath -Force -ErrorAction Stop
@@ -357,17 +357,17 @@ try {
     Write-Host "`nTesting about topics..." -ForegroundColor Cyan
     $aboutHelp = Get-Help about_ColorScripts-Enhanced -ErrorAction SilentlyContinue
     if ($aboutHelp) {
-        Write-Host "  ✓ about_ColorScripts-Enhanced help topic found" -ForegroundColor Green
+        Write-Host '  ✓ about_ColorScripts-Enhanced help topic found' -ForegroundColor Green
     }
     else {
-        Write-Host "  ⚠ about_ColorScripts-Enhanced help topic not found" -ForegroundColor Yellow
+        Write-Host '  ⚠ about_ColorScripts-Enhanced help topic not found' -ForegroundColor Yellow
     }
 
     Write-Host "`n==================================" -ForegroundColor Cyan
     Write-Host "✓ Help validation complete!`n" -ForegroundColor Green
 
     if ($SkipXmlGeneration) {
-        Write-Host "Note: Using comment-based help (XML generation skipped)" -ForegroundColor Gray
+        Write-Host 'Note: Using comment-based help (XML generation skipped)' -ForegroundColor Gray
         Write-Host "All help commands will work normally with Get-Help.`n" -ForegroundColor Gray
     }
 }

@@ -44,17 +44,17 @@ begin {
     try {
         $nodeVersion = node --version 2>$null
         if (-not $nodeVersion) {
-            throw "Node.js is not installed or not in PATH"
+            throw 'Node.js is not installed or not in PATH'
         }
         Write-Verbose "Using Node.js version: $nodeVersion"
     }
     catch {
-        Write-Error "Node.js is required for this converter. Please install Node.js from https://nodejs.org/"
+        Write-Error 'Node.js is required for this converter. Please install Node.js from https://nodejs.org/'
         return
     }
 
     # Get the converter script path
-    $converterScript = Join-Path $PSScriptRoot "Convert-AnsiToColorScript.js"
+    $converterScript = Join-Path $PSScriptRoot 'Convert-AnsiToColorScript.js'
 
     if (-not (Test-Path $converterScript)) {
         Write-Error "Converter script not found: $converterScript"
@@ -82,7 +82,7 @@ process {
     }
 
     # Run the Node.js converter
-    Write-Verbose "Running Node.js converter..."
+    Write-Verbose 'Running Node.js converter...'
     & node @args
 }
 

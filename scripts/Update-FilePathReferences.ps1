@@ -73,11 +73,11 @@ foreach ($file in $filesToUpdate) {
 
     if ($content -ne $originalContent) {
         Set-Content -Path $fullPath -Value $content -NoNewline -Encoding UTF8
-        Write-Host "  ✓ Updated" -ForegroundColor Green
+        Write-Host '  ✓ Updated' -ForegroundColor Green
         $updatedCount++
     }
     else {
-        Write-Host "  - No changes" -ForegroundColor Gray
+        Write-Host '  - No changes' -ForegroundColor Gray
     }
 }
 

@@ -8,7 +8,7 @@ param(
 )
 
 if ($PSVersionTable.PSVersion.Major -lt 7) {
-    throw "This helper requires PowerShell 7 or later."
+    throw 'This helper requires PowerShell 7 or later.'
 }
 
 if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
@@ -32,8 +32,7 @@ catch {
     throw "Unable to resolve source path '$SourcePath': $($_.Exception.Message)"
 }
 
-$files = Get-ChildItem -Path $SourcePath -File -Recurse -Include '*.ps1', '*.psm1', '*.psd1' |
-    Where-Object { $_.FullName -notmatch '\\Scripts\\' }
+$files = Get-ChildItem -Path $SourcePath -File -Recurse -Include '*.ps1', '*.psm1', '*.psd1'
 
 Write-Host "Analyzing $($files.Count) file(s) with ScriptAnalyzer..." -ForegroundColor Cyan
 
@@ -94,7 +93,7 @@ foreach ($file in $files) {
 
 if ($results) {
     $results | Format-Table -AutoSize
-    throw "ScriptAnalyzer reported issues."
+    throw 'ScriptAnalyzer reported issues.'
 }
 else {
     Write-Host 'No ScriptAnalyzer issues detected.' -ForegroundColor Green

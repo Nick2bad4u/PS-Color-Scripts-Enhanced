@@ -135,7 +135,7 @@ if ($StripHeader) {
     $arguments += 'header'
 }
 
-Write-Verbose ("Running git-cliff with arguments: {0}" -f ($arguments -join ' '))
+Write-Verbose ('Running git-cliff with arguments: {0}' -f ($arguments -join ' '))
 
 # Use Start-Process with proper argument handling for paths with spaces
 try {

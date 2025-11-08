@@ -190,6 +190,8 @@ github_checks:
     annotations: true
 
 parsers:
+    jacoco:
+        partials_as_hits: false # More accurate for PowerShell command coverage
     cobertura:
         handle_missing_conditions: true
         partials_as_hits: false
@@ -203,8 +205,6 @@ parsers:
         enable_partials: true
     v1:
         include_full_missed_files: true
-    jacoco:
-        partials_as_hits: true #false by default
 
 # Modern Slack integration
 slack_app: false # Set to true to enable Codecov Slack App notifications

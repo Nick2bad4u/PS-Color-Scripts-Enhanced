@@ -43,14 +43,42 @@ function Test-ConsoleSupportsVirtualTerminal {
         return $false
     }
 
+    $overrides = $null
+    $useOverrides = $false
+    if ($script:ConsoleNativeOverrides -and ($script:ConsoleNativeOverrides.Enabled -eq $true)) {
+        $overrides = $script:ConsoleNativeOverrides
+        $useOverrides = $true
+    }
+
+    $getStdHandle = if ($useOverrides -and $overrides.GetStdHandle) {
+        $overrides.GetStdHandle
+    }
+    else {
+        { param([int]$handleId) [ColorScriptsEnhanced.ConsoleNative]::GetStdHandle($handleId) }
+    }
+
+    $getConsoleMode = if ($useOverrides -and $overrides.GetConsoleMode) {
+        $overrides.GetConsoleMode
+    }
+    else {
+        { param([IntPtr]$handle, [ref]$mode) [ColorScriptsEnhanced.ConsoleNative]::GetConsoleMode($handle, [ref]$mode) }
+    }
+
+    $setConsoleMode = if ($useOverrides -and $overrides.SetConsoleMode) {
+        $overrides.SetConsoleMode
+    }
+    else {
+        { param([IntPtr]$handle, [int]$mode) [ColorScriptsEnhanced.ConsoleNative]::SetConsoleMode($handle, $mode) }
+    }
+
     try {
-        $handle = [ColorScriptsEnhanced.ConsoleNative]::GetStdHandle($STD_OUTPUT_HANDLE)
+        $handle = & $getStdHandle $STD_OUTPUT_HANDLE
         if ($handle -eq [IntPtr]::Zero) {
             return $false
         }
 
         $mode = 0
-        if (-not [ColorScriptsEnhanced.ConsoleNative]::GetConsoleMode($handle, [ref]$mode)) {
+        if (-not (& $getConsoleMode $handle ([ref]$mode))) {
             return $false
         }
 
@@ -58,9 +86,9 @@ function Test-ConsoleSupportsVirtualTerminal {
             return $true
         }
 
-        if ([ColorScriptsEnhanced.ConsoleNative]::SetConsoleMode($handle, $mode -bor $ENABLE_VIRTUAL_TERMINAL_PROCESSING)) {
+        if (& $setConsoleMode $handle ($mode -bor $ENABLE_VIRTUAL_TERMINAL_PROCESSING)) {
             $updatedMode = 0
-            if ([ColorScriptsEnhanced.ConsoleNative]::GetConsoleMode($handle, [ref]$updatedMode)) {
+            if (& $getConsoleMode $handle ([ref]$updatedMode)) {
                 return (($updatedMode -band $ENABLE_VIRTUAL_TERMINAL_PROCESSING) -ne 0)
             }
         }
