@@ -35,8 +35,12 @@ function Normalize-FileName {
     $normalized = $name.ToLower()
     # Remove common prefixes (ANSI_, ansi-, etc)
     $normalized = $normalized -replace '^ansi[-_]', ''
+    # Remove spaces around hyphens and dashes (e.g., "1998 - 08" -> "1998-08")
+    $normalized = $normalized -replace '\s*-\s*', '-'
     # Replace underscores with hyphens for consistency
     $normalized = $normalized -replace '_', '-'
+    # Remove any remaining spaces
+    $normalized = $normalized -replace '\s+', ''
     return $normalized
 }
 
