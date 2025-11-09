@@ -28,6 +28,18 @@ $colorscriptsPath = Join-Path $repoRoot "ColorScripts-Enhanced\Scripts"
 $unusedAnsiPath = Join-Path $repoRoot "assets\unused-ansi-files"
 $ansiFilesPath = Join-Path $repoRoot "assets\ansi-files"
 
+# Function to normalize filenames for comparison (remove underscores, hyphens, ANSI prefix)
+function Normalize-FileName {
+    param([string]$name)
+    # Convert to lowercase
+    $normalized = $name.ToLower()
+    # Remove common prefixes (ANSI_, ansi-, etc)
+    $normalized = $normalized -replace '^ansi[-_]', ''
+    # Replace underscores with hyphens for consistency
+    $normalized = $normalized -replace '_', '-'
+    return $normalized
+}
+
 # Validate paths exist
 if (-not (Test-Path $colorscriptsPath)) {
     Write-Error "Colorscripts path not found: $colorscriptsPath"
@@ -46,7 +58,7 @@ if (-not (Test-Path $ansiFilesPath)) {
 
 # Get all colorscript names (without extension)
 Write-Host "Scanning colorscripts..." -ForegroundColor Cyan
-$colorscriptNames = @(Get-ChildItem -Path $colorscriptsPath -Filter "*.ps1" | ForEach-Object { $_.BaseName.ToLower() })
+$colorscriptNames = @(Get-ChildItem -Path $colorscriptsPath -Filter "*.ps1" | ForEach-Object { Normalize-FileName $_.BaseName })
 Write-Host "  Found $($colorscriptNames.Count) colorscripts" -ForegroundColor Green
 
 # Get all unused ANSI files
@@ -60,8 +72,8 @@ Write-Host "`nMatching and restoring files..." -ForegroundColor Cyan
 # First pass: count matching files
 $matchingFiles = @()
 foreach ($unusedFile in $unusedFiles) {
-    $unusedBaseName = $unusedFile.BaseName.ToLower()
-    if ($unusedBaseName -in $colorscriptNames) {
+    $normalizedUnusedName = Normalize-FileName $unusedFile.BaseName
+    if ($normalizedUnusedName -in $colorscriptNames) {
         $matchingFiles += $unusedFile
     }
 }
