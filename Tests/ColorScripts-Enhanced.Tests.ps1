@@ -39,52 +39,52 @@ BeforeAll {
     Import-Module $moduleManifest -Force
 }
 
-Describe "ColorScripts-Enhanced Module" {
+Describe 'ColorScripts-Enhanced Module' {
 
-    Context "Module Loading" {
-        It "Should load the module successfully" {
+    Context 'Module Loading' {
+        It 'Should load the module successfully' {
             $module = Get-Module ColorScripts-Enhanced
             $module | Should -Not -BeNullOrEmpty
         }
 
-        It "Should have the correct GUID" {
+        It 'Should have the correct GUID' {
             $module = Get-Module ColorScripts-Enhanced
             $module.GUID | Should -Be 'f77548d7-23eb-48ce-a6e0-f64b4758d995'
         }
 
-        It "Should export Show-ColorScript function" {
+        It 'Should export Show-ColorScript function' {
             $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $module.ExportedFunctions.ContainsKey('Show-ColorScript') | Should -BeTrue
         }
 
-        It "Should export Get-ColorScriptList function" {
+        It 'Should export Get-ColorScriptList function' {
             $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $module.ExportedFunctions.ContainsKey('Get-ColorScriptList') | Should -BeTrue
         }
 
-        It "Should export New-ColorScriptCache function" {
+        It 'Should export New-ColorScriptCache function' {
             $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $module.ExportedFunctions.ContainsKey('New-ColorScriptCache') | Should -BeTrue
         }
 
-        It "Should export Clear-ColorScriptCache function" {
+        It 'Should export Clear-ColorScriptCache function' {
             $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $module.ExportedFunctions.ContainsKey('Clear-ColorScriptCache') | Should -BeTrue
         }
 
-        It "Should export Add-ColorScriptProfile function" {
+        It 'Should export Add-ColorScriptProfile function' {
             $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $module.ExportedFunctions.ContainsKey('Add-ColorScriptProfile') | Should -BeTrue
         }
 
-        It "Should export configuration helpers" {
+        It 'Should export configuration helpers' {
             $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $module.ExportedFunctions.ContainsKey('Get-ColorScriptConfiguration') | Should -BeTrue
             $module.ExportedFunctions.ContainsKey('Set-ColorScriptConfiguration') | Should -BeTrue
             $module.ExportedFunctions.ContainsKey('Reset-ColorScriptConfiguration') | Should -BeTrue
         }
 
-        It "Should export metadata utilities" {
+        It 'Should export metadata utilities' {
             $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $module.ExportedFunctions.ContainsKey('Export-ColorScriptMetadata') | Should -BeTrue
             $module.ExportedFunctions.ContainsKey('New-ColorScript') | Should -BeTrue
@@ -96,93 +96,93 @@ Describe "ColorScripts-Enhanced Module" {
         }
     }
 
-    Context "Module Manifest" {
+    Context 'Module Manifest' {
         BeforeAll {
             $script:ManifestPath = Join-Path -Path $script:ModuleRoot -ChildPath 'ColorScripts-Enhanced.psd1'
             $script:Manifest = Test-ModuleManifest $script:ManifestPath -ErrorAction Stop
         }
 
-        It "Should have a valid manifest" {
+        It 'Should have a valid manifest' {
             $script:Manifest | Should -Not -BeNullOrEmpty
         }
 
-        It "Should support PowerShell 5.1 and Core" {
+        It 'Should support PowerShell 5.1 and Core' {
             $script:Manifest.CompatiblePSEditions | Should -Contain 'Desktop'
             $script:Manifest.CompatiblePSEditions | Should -Contain 'Core'
         }
 
-        It "Should have proper metadata" {
+        It 'Should have proper metadata' {
             $script:Manifest.Author | Should -Not -BeNullOrEmpty
             $script:Manifest.Description | Should -Not -BeNullOrEmpty
             $script:Manifest.ProjectUri | Should -Not -BeNullOrEmpty
         }
     }
 
-    Context "Scripts Directory" {
-        It "Should have Scripts directory" {
+    Context 'Scripts Directory' {
+        It 'Should have Scripts directory' {
             $scriptsPath = Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts'
             Test-Path $scriptsPath | Should -Be $true
         }
 
-        It "Should contain colorscript files" {
+        It 'Should contain colorscript files' {
             $scriptsPath = Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts'
-            $scripts = Get-ChildItem $scriptsPath -Filter "*.ps1"
+            $scripts = Get-ChildItem $scriptsPath -Filter '*.ps1'
             $scripts.Count | Should -BeGreaterThan 0
         }
     }
 
-    Context "Cache System" {
+    Context 'Cache System' {
         BeforeAll {
             # Trigger cache initialization by calling a cache function
             # This initializes $CacheDir in the module scope
-            New-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
+            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
 
             $moduleInstance = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $script:CacheDir = $moduleInstance.SessionState.PSVariable.GetValue('CacheDir')
         }
 
-        It "Should create cache directory" {
+        It 'Should create cache directory' {
             $script:CacheDir | Should -Not -BeNullOrEmpty
             Test-Path $script:CacheDir | Should -Be $true
         }
 
-        It "Should build cache for a script" {
-            $result = New-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+        It 'Should build cache for a script' {
+            $result = New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
 
             $result | Should -Not -BeNullOrEmpty
             $result[0].Status | Should -BeIn @('Updated', 'SkippedUpToDate')
             Test-Path $cacheFile | Should -Be $true
         }
 
-        It "Should build cache for wildcard patterns" {
+        It 'Should build cache for wildcard patterns' {
             $result = New-ColorScriptCache -Name 'aurora-s*' -Force -PassThru -ErrorAction Stop
             $names = $result | Select-Object -ExpandProperty Name
             $names | Should -Contain 'aurora-stream'
             $names | Should -Contain 'aurora-storm'
         }
 
-        It "Should skip cache rebuild when up-to-date" {
-            New-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+        It 'Should skip cache rebuild when up-to-date' {
+            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
             [System.IO.File]::SetLastWriteTime($cacheFile, (Get-Date).AddHours(1))
 
-            $result = New-ColorScriptCache -Name "bars" -PassThru -ErrorAction Stop
+            $result = New-ColorScriptCache -Name 'bars' -PassThru -ErrorAction Stop
             $result[0].Status | Should -Be 'SkippedUpToDate'
         }
 
-        It "Should force cache rebuild even when cache is newer" {
-            New-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+        It 'Should force cache rebuild even when cache is newer' {
+            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
             [System.IO.File]::SetLastWriteTime($cacheFile, (Get-Date).AddHours(1))
 
-            $result = New-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop
+            $result = New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop
             $result[0].Status | Should -Be 'Updated'
         }
 
-        It "Should write UTF-8 cache without BOM" {
-            New-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+        It 'Should write UTF-8 cache without BOM' {
+            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
             $bytes = [System.IO.File]::ReadAllBytes($cacheFile)
 
             if ($bytes.Length -ge 3) {
@@ -192,25 +192,25 @@ Describe "ColorScripts-Enhanced Module" {
             }
         }
 
-        It "Should build cache during first Show-ColorScript invocation" {
-            Clear-ColorScriptCache -Name "bars" -Confirm:$false | Out-Null
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+        It 'Should build cache during first Show-ColorScript invocation' {
+            Clear-ColorScriptCache -Name 'bars' -Confirm:$false | Out-Null
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
             if (Test-Path $cacheFile) {
                 Remove-Item -LiteralPath $cacheFile -Force
             }
 
-            $rendered = Show-ColorScript -Name "bars" -ReturnText -ErrorAction Stop
+            $rendered = Show-ColorScript -Name 'bars' -ReturnText -ErrorAction Stop
 
             Test-Path $cacheFile | Should -Be $true
             $cachedText = [System.IO.File]::ReadAllText($cacheFile)
             $cachedText | Should -Be $rendered
         }
 
-        It "Should cache all scripts when no parameters are provided" {
+        It 'Should cache all scripts when no parameters are provided' {
             $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $originalCacheDir = $module.SessionState.PSVariable.GetValue('CacheDir')
             $originalCacheInitialized = $module.SessionState.PSVariable.GetValue('CacheInitialized')
-            $temporaryCacheDir = Join-Path -Path $TestDrive -ChildPath ("DefaultCache_{0}" -f ([Guid]::NewGuid()))
+            $temporaryCacheDir = Join-Path -Path $TestDrive -ChildPath ('DefaultCache_{0}' -f ([Guid]::NewGuid()))
             if (-not (Test-Path $temporaryCacheDir)) {
                 New-Item -ItemType Directory -Path $temporaryCacheDir -Force | Out-Null
             }
@@ -226,7 +226,7 @@ Describe "ColorScripts-Enhanced Module" {
                 $cacheDir = $module.SessionState.PSVariable.GetValue('CacheDir')
                 [pscustomobject]@{
                     ScriptName = $name
-                    CacheFile  = Join-Path -Path $cacheDir -ChildPath ("{0}.cache" -f $name)
+                    CacheFile  = Join-Path -Path $cacheDir -ChildPath ('{0}.cache' -f $name)
                     Success    = $true
                     ExitCode   = 0
                     StdOut     = ''
@@ -253,16 +253,16 @@ Describe "ColorScripts-Enhanced Module" {
             }
         }
 
-        It "Should render cached output without re-executing the script" {
-            Clear-ColorScriptCache -Name "bars" -Confirm:$false | Out-Null
-            New-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
+        It 'Should render cached output without re-executing the script' {
+            Clear-ColorScriptCache -Name 'bars' -Confirm:$false | Out-Null
+            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
 
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
             Test-Path $cacheFile | Should -Be $true
             $cachedText = [System.IO.File]::ReadAllText($cacheFile)
 
             Mock -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced {
-                throw "Build-ScriptCache should not run when cache is valid."
+                throw 'Build-ScriptCache should not run when cache is valid.'
             }
 
             $stringWriter = $null
@@ -282,7 +282,7 @@ Describe "ColorScripts-Enhanced Module" {
 
             $executionOutput = $null
             try {
-                $executionOutput = Show-ColorScript -Name "bars" -ReturnText -ErrorAction Stop
+                $executionOutput = Show-ColorScript -Name 'bars' -ReturnText -ErrorAction Stop
             }
             finally {
                 if ($consoleRedirected -and $originalOut) {
@@ -307,16 +307,16 @@ Describe "ColorScripts-Enhanced Module" {
             $renderedOutput | Should -BeExactly $cachedText
         }
 
-        It "Should clear specific cache" {
-            New-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
-            $result = Clear-ColorScriptCache -Name "bars" -Confirm:$false
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+        It 'Should clear specific cache' {
+            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
+            $result = Clear-ColorScriptCache -Name 'bars' -Confirm:$false
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
 
             $result[0].Status | Should -BeIn @('Removed', 'Missing')
             Test-Path $cacheFile | Should -Be $false
         }
 
-        It "Should clear caches using wildcard patterns" {
+        It 'Should clear caches using wildcard patterns' {
             New-ColorScriptCache -Name 'aurora-s*' -Force -PassThru -ErrorAction Stop | Out-Null
             $result = Clear-ColorScriptCache -Name 'aurora-s*' -Confirm:$false
             $result | Should -Not -BeNullOrEmpty
@@ -326,24 +326,24 @@ Describe "ColorScripts-Enhanced Module" {
             $result | ForEach-Object { $_.Status | Should -BeIn @('Removed', 'Missing') }
         }
 
-        It "Should support DryRun cache clearing" {
-            New-ColorScriptCache -Name "bars" -Force -PassThru -ErrorAction Stop | Out-Null
-            $dryRun = Clear-ColorScriptCache -Name "bars" -DryRun
+        It 'Should support DryRun cache clearing' {
+            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
+            $dryRun = Clear-ColorScriptCache -Name 'bars' -DryRun
             $dryRun[0].Status | Should -Be 'DryRun'
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath "bars.cache"
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
             Test-Path $cacheFile | Should -Be $true
         }
     }
 
-    Context "Configuration" {
-        It "Should expose default configuration values" {
+    Context 'Configuration' {
+        It 'Should expose default configuration values' {
             $config = Get-ColorScriptConfiguration
             $config.Cache.Path | Should -Be $null
             $config.Startup.AutoShowOnImport | Should -BeFalse
             $config.Startup.ProfileAutoShow | Should -BeTrue
         }
 
-        It "Should update configuration values" {
+        It 'Should update configuration values' {
             $originalEnvCache = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
             try {
                 $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $null
@@ -371,8 +371,8 @@ Describe "ColorScripts-Enhanced Module" {
         }
     }
 
-    Context "Metadata Export" {
-        It "Should export metadata as JSON" {
+    Context 'Metadata Export' {
+        It 'Should export metadata as JSON' {
             $outputPath = Join-Path -Path $script:TestConfigRoot -ChildPath 'metadata.json'
             $records = Export-ColorScriptMetadata -Path $outputPath -IncludeFileInfo -IncludeCacheInfo -PassThru
 
@@ -385,8 +385,8 @@ Describe "ColorScripts-Enhanced Module" {
         }
     }
 
-    Context "Scaffolding" {
-        It "Should scaffold a new colorscript" {
+    Context 'Scaffolding' {
+        It 'Should scaffold a new colorscript' {
             $scaffoldRoot = Join-Path -Path $script:TestConfigRoot -ChildPath 'Scaffold'
             $result = New-ColorScript -Name 'test-script' -OutputPath $scaffoldRoot -Force -GenerateMetadataSnippet -Category 'Test' -Tag 'Sample', 'Demo'
 
@@ -397,37 +397,37 @@ Describe "ColorScripts-Enhanced Module" {
         }
     }
 
-    Context "Show-ColorScript Function" {
-        It "Should have proper help" {
+    Context 'Show-ColorScript Function' {
+        It 'Should have proper help' {
             $help = Get-Help Show-ColorScript
             $help.Synopsis | Should -Not -BeNullOrEmpty
         }
 
-        It "Should support -Name parameter" {
-            { Show-ColorScript -Name "bars" -ErrorAction Stop } | Should -Not -Throw
+        It 'Should support -Name parameter' {
+            { Show-ColorScript -Name 'bars' -ErrorAction Stop } | Should -Not -Throw
         }
 
-        It "Should support -List parameter" {
+        It 'Should support -List parameter' {
             { Show-ColorScript -List -ErrorAction Stop } | Should -Not -Throw
         }
 
-        It "Should support -NoCache parameter" {
-            { Show-ColorScript -Name "bars" -NoCache -ErrorAction Stop } | Should -Not -Throw
+        It 'Should support -NoCache parameter' {
+            { Show-ColorScript -Name 'bars' -NoCache -ErrorAction Stop } | Should -Not -Throw
         }
 
-        It "Should support wildcard Name patterns" {
+        It 'Should support wildcard Name patterns' {
             $record = Show-ColorScript -Name 'aurora-s*' -NoCache -PassThru
             $record | Should -Not -BeNullOrEmpty
             $record.Name | Should -Be 'aurora-storm'
         }
 
-        It "Should handle non-existent script gracefully" {
-            { Show-ColorScript -Name "nonexistent-script-xyz" } | Should -Not -Throw
+        It 'Should handle non-existent script gracefully' {
+            { Show-ColorScript -Name 'nonexistent-script-xyz' } | Should -Not -Throw
         }
     }
 
-    Context "Rendering Helpers" {
-        It "Should append newline when rendered text lacks terminator" {
+    Context 'Rendering Helpers' {
+        It 'Should append newline when rendered text lacks terminator' {
             $stringWriter = New-Object System.IO.StringWriter
             $originalOut = [Console]::Out
 
@@ -448,7 +448,7 @@ Describe "ColorScripts-Enhanced Module" {
             $stringWriter.Dispose()
         }
 
-        It "Should avoid extra newline when output already terminated" {
+        It 'Should avoid extra newline when output already terminated' {
             $stringWriter = New-Object System.IO.StringWriter
             $originalOut = [Console]::Out
 
@@ -470,32 +470,32 @@ Describe "ColorScripts-Enhanced Module" {
         }
     }
 
-    Context "Get-ColorScriptList Function" {
-        It "Should have proper help" {
+    Context 'Get-ColorScriptList Function' {
+        It 'Should have proper help' {
             $help = Get-Help Get-ColorScriptList
             $help.Synopsis | Should -Not -BeNullOrEmpty
         }
 
-        It "Should execute without error" {
+        It 'Should execute without error' {
             { Get-ColorScriptList } | Should -Not -Throw
         }
 
-        It "Should filter by name with wildcards" {
+        It 'Should filter by name with wildcards' {
             $records = Get-ColorScriptList -AsObject -Name 'aurora-s*'
             $records | Should -Not -BeNullOrEmpty
             ($records | Select-Object -ExpandProperty Name) | Should -Contain 'aurora-storm'
         }
     }
 
-    Context "Metadata and Filtering" {
-        It "Should return structured objects when using -AsObject" {
+    Context 'Metadata and Filtering' {
+        It 'Should return structured objects when using -AsObject' {
             $records = Get-ColorScriptList -AsObject
             $records | Should -Not -BeNullOrEmpty
             $records[0] | Should -BeOfType [pscustomobject]
             $records[0].Metadata | Should -Not -BeNullOrEmpty
         }
 
-        It "Should filter by category" {
+        It 'Should filter by category' {
             $records = Get-ColorScriptList -AsObject -Category 'Patterns'
             $records | Should -Not -BeNullOrEmpty
             $records | ForEach-Object {
@@ -503,7 +503,7 @@ Describe "ColorScripts-Enhanced Module" {
             }
         }
 
-        It "Should filter by tag" {
+        It 'Should filter by tag' {
             $records = Get-ColorScriptList -AsObject -Tag 'recommended'
             $records | Should -Not -BeNullOrEmpty
             $records | ForEach-Object {
@@ -511,25 +511,25 @@ Describe "ColorScripts-Enhanced Module" {
             }
         }
 
-        It "Show-ColorScript -PassThru should return metadata" {
+        It 'Show-ColorScript -PassThru should return metadata' {
             $record = Show-ColorScript -Name 'bars' -NoCache -PassThru
             $record.Name | Should -Be 'bars'
             $record.Metadata | Should -Not -BeNullOrEmpty
         }
 
-        It "Should provide metadata for every colorscript" {
+        It 'Should provide metadata for every colorscript' {
             $records = Get-ColorScriptList -AsObject
             $records.Count | Should -BeGreaterThan 0
             $records | ForEach-Object { $_.Metadata | Should -Not -BeNullOrEmpty }
         }
 
-        It "Should not leave any script uncategorized" {
+        It 'Should not leave any script uncategorized' {
             $records = Get-ColorScriptList -AsObject
             $uncategorized = $records | Where-Object { $_.Category -eq 'Uncategorized' }
             $uncategorized | Should -BeNullOrEmpty
         }
 
-        It "Should categorize city-neon as Artistic" {
+        It 'Should categorize city-neon as Artistic' {
             $record = Get-ColorScriptList -AsObject | Where-Object { $_.Name -eq 'city-neon' } | Select-Object -First 1
             $record | Should -Not -BeNullOrEmpty
             $record.Category | Should -Be 'Artistic'
@@ -537,22 +537,22 @@ Describe "ColorScripts-Enhanced Module" {
             $record.Tags | Should -Contain 'Category:Artistic'
         }
 
-        It "Should expose TerminalThemes category" {
+        It 'Should expose TerminalThemes category' {
             $records = Get-ColorScriptList -Category 'TerminalThemes' -AsObject
             ($records | Select-Object -ExpandProperty Name) | Should -Contain 'terminal-glow'
         }
 
-        It "Should expose ASCIIArt category" {
+        It 'Should expose ASCIIArt category' {
             $records = Get-ColorScriptList -Category 'ASCIIArt' -AsObject
             ($records | Select-Object -ExpandProperty Name) | Should -Contain 'thebat'
         }
 
-        It "Should expose Physics category" {
+        It 'Should expose Physics category' {
             $records = Get-ColorScriptList -Category 'Physics' -AsObject
             ($records | Select-Object -ExpandProperty Name) | Should -Contain 'nbody-gravity'
         }
 
-        It "Should add category tags to all scripts" {
+        It 'Should add category tags to all scripts' {
             $records = Get-ColorScriptList -AsObject
             # Every script should have at least one Category:* tag
             foreach ($record in $records) {
@@ -565,28 +565,28 @@ Describe "ColorScripts-Enhanced Module" {
         }
     }
 
-    Context "New-ColorScriptCache Function" {
-        It "Should have proper help" {
+    Context 'New-ColorScriptCache Function' {
+        It 'Should have proper help' {
             $help = Get-Help New-ColorScriptCache
             $help.Synopsis | Should -Not -BeNullOrEmpty
         }
 
-        It "Should support -Name parameter" {
-            { New-ColorScriptCache -Name "bars" -ErrorAction Stop | Out-Null } | Should -Not -Throw
+        It 'Should support -Name parameter' {
+            { New-ColorScriptCache -Name 'bars' -ErrorAction Stop | Out-Null } | Should -Not -Throw
         }
 
-        It "Should support -Force parameter" {
-            { New-ColorScriptCache -Name "bars" -Force -ErrorAction Stop | Out-Null } | Should -Not -Throw
+        It 'Should support -Force parameter' {
+            { New-ColorScriptCache -Name 'bars' -Force -ErrorAction Stop | Out-Null } | Should -Not -Throw
         }
 
-        It "Should accept pipeline input" {
+        It 'Should accept pipeline input' {
             $result = @('bars', 'aurora-storm') | New-ColorScriptCache -Force -PassThru -ErrorAction Stop
             $result | Should -Not -BeNullOrEmpty
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'aurora-storm'
         }
 
-        It "Should accept pipeline objects" {
+        It 'Should accept pipeline objects' {
             $records = Get-ColorScriptList -AsObject -Name 'bars', 'aurora-storm'
             $records | Should -Not -BeNullOrEmpty
             $result = $records | New-ColorScriptCache -Force -PassThru -ErrorAction Stop
@@ -594,24 +594,34 @@ Describe "ColorScripts-Enhanced Module" {
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'aurora-storm'
         }
+
+        It 'Should support -Parallel with throttle' {
+            $result = New-ColorScriptCache -Name 'bars' -Force -Parallel -ThrottleLimit 2 -PassThru -ErrorAction Stop
+            $result | Should -Not -BeNullOrEmpty
+            ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
+        }
+
+        It 'Should accept -Threads alias' {
+            { New-ColorScriptCache -Name 'bars' -Force -Threads 1 -PassThru -ErrorAction Stop | Out-Null } | Should -Not -Throw
+        }
     }
 
-    Context "Clear-ColorScriptCache Function" {
-        It "Should have proper help" {
+    Context 'Clear-ColorScriptCache Function' {
+        It 'Should have proper help' {
             $help = Get-Help Clear-ColorScriptCache
             $help.Synopsis | Should -Not -BeNullOrEmpty
         }
 
-        It "Should support -WhatIf" {
+        It 'Should support -WhatIf' {
             { Clear-ColorScriptCache -All -WhatIf } | Should -Not -Throw
         }
 
         It "Should support -Confirm:$false" {
-            { Clear-ColorScriptCache -Name "bars" -Confirm:$false } | Should -Not -Throw
+            { Clear-ColorScriptCache -Name 'bars' -Confirm:$false } | Should -Not -Throw
         }
 
-        It "Should support custom cache path" {
-            $tempDir = Join-Path ([System.IO.Path]::GetTempPath()) ("ColorScriptsCache_" + [guid]::NewGuid())
+        It 'Should support custom cache path' {
+            $tempDir = Join-Path ([System.IO.Path]::GetTempPath()) ('ColorScriptsCache_' + [guid]::NewGuid())
             $null = New-Item -ItemType Directory -Path $tempDir
             $tempCache = Join-Path $tempDir 'bars.cache'
             Set-Content -Path $tempCache -Value 'cache-data' -Encoding utf8
@@ -626,7 +636,7 @@ Describe "ColorScripts-Enhanced Module" {
             }
         }
 
-        It "Should accept pipeline input" {
+        It 'Should accept pipeline input' {
             New-ColorScriptCache -Name 'bars', 'aurora-storm' -Force -ErrorAction Stop | Out-Null
             $result = @('bars', 'aurora-storm') | Clear-ColorScriptCache -Confirm:$false
             $result | Should -Not -BeNullOrEmpty
@@ -634,7 +644,7 @@ Describe "ColorScripts-Enhanced Module" {
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'aurora-storm'
         }
 
-        It "Should accept pipeline objects" {
+        It 'Should accept pipeline objects' {
             New-ColorScriptCache -Name 'bars', 'aurora-storm' -Force -ErrorAction Stop | Out-Null
             $records = Get-ColorScriptList -AsObject -Name 'bars', 'aurora-storm'
             $records | Should -Not -BeNullOrEmpty
@@ -645,18 +655,18 @@ Describe "ColorScripts-Enhanced Module" {
         }
     }
 
-    Context "Help Documentation" {
-        It "Should have about help topic" {
+    Context 'Help Documentation' {
+        It 'Should have about help topic' {
             $help = Get-Help about_ColorScripts-Enhanced -ErrorAction SilentlyContinue
             $help | Should -Not -BeNullOrEmpty
         }
 
-        It "Show-ColorScript should have examples" {
+        It 'Show-ColorScript should have examples' {
             $help = Get-Help Show-ColorScript -Examples
             $help.Examples | Should -Not -BeNullOrEmpty
         }
 
-        It "All functions should have synopsis" {
+        It 'All functions should have synopsis' {
             $commands = @('Show-ColorScript', 'Get-ColorScriptList', 'New-ColorScriptCache', 'Clear-ColorScriptCache', 'Add-ColorScriptProfile')
             foreach ($cmd in $commands) {
                 $help = Get-Help $cmd
@@ -666,14 +676,14 @@ Describe "ColorScripts-Enhanced Module" {
     }
 }
 
-Describe "Add-ColorScriptProfile Function" {
-    It "Should have proper help" {
+Describe 'Add-ColorScriptProfile Function' {
+    It 'Should have proper help' {
         $help = Get-Help Add-ColorScriptProfile
         $help.Synopsis | Should -Not -BeNullOrEmpty
     }
 
-    It "Should create profile snippet at custom path" {
-        $tempProfile = Join-Path ([System.IO.Path]::GetTempPath()) ("ColorScriptsProfile_" + [guid]::NewGuid() + '.ps1')
+    It 'Should create profile snippet at custom path' {
+        $tempProfile = Join-Path ([System.IO.Path]::GetTempPath()) ('ColorScriptsProfile_' + [guid]::NewGuid() + '.ps1')
         if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
 
         try {
@@ -691,8 +701,8 @@ Describe "Add-ColorScriptProfile Function" {
         }
     }
 
-    It "Should respect SkipStartupScript" {
-        $tempProfile = Join-Path ([System.IO.Path]::GetTempPath()) ("ColorScriptsProfileSkip_" + [guid]::NewGuid() + '.ps1')
+    It 'Should respect SkipStartupScript' {
+        $tempProfile = Join-Path ([System.IO.Path]::GetTempPath()) ('ColorScriptsProfileSkip_' + [guid]::NewGuid() + '.ps1')
         if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
 
         try {
@@ -707,8 +717,8 @@ Describe "Add-ColorScriptProfile Function" {
         }
     }
 
-    It "Should avoid duplicates unless forced" {
-        $tempProfile = Join-Path ([System.IO.Path]::GetTempPath()) ("ColorScriptsProfileDup_" + [guid]::NewGuid() + '.ps1')
+    It 'Should avoid duplicates unless forced' {
+        $tempProfile = Join-Path ([System.IO.Path]::GetTempPath()) ('ColorScriptsProfileDup_' + [guid]::NewGuid() + '.ps1')
         $initialContent = 'Import-Module ColorScripts-Enhanced'
         Set-Content -Path $tempProfile -Value $initialContent -Encoding utf8
 
@@ -731,8 +741,8 @@ Describe "Add-ColorScriptProfile Function" {
         }
     }
 
-    It "Should expand tilde paths" {
-        $uniqueName = "ColorScriptsProfileHome_{0}.ps1" -f ([guid]::NewGuid())
+    It 'Should expand tilde paths' {
+        $uniqueName = 'ColorScriptsProfileHome_{0}.ps1' -f ([guid]::NewGuid())
         $tildePath = "~/$uniqueName"
         $expectedPath = [System.IO.Path]::GetFullPath((Join-Path $HOME $uniqueName))
 
@@ -749,20 +759,20 @@ Describe "Add-ColorScriptProfile Function" {
     }
 }
 
-Describe "Script Quality" {
-    Context "Script Files" {
+Describe 'Script Quality' {
+    Context 'Script Files' {
         BeforeAll {
             $scriptsPath = Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts'
             $script:TestScripts = Get-ChildItem $scriptsPath -Filter '*.ps1' | Select-Object -First 5
         }
 
-        It "Scripts should use UTF-8 encoding" {
+        It 'Scripts should use UTF-8 encoding' {
             foreach ($script in $script:TestScripts) {
                 { Get-Content $script.FullName -ErrorAction Stop } | Should -Not -Throw
             }
         }
 
-        It "Scripts should not reference legacy cache stub" {
+        It 'Scripts should not reference legacy cache stub' {
             foreach ($script in $script:TestScripts) {
                 $content = Get-Content $script.FullName -Raw
                 $content | Should -Not -Match 'ColorScriptCache'
@@ -771,26 +781,26 @@ Describe "Script Quality" {
     }
 }
 
-Describe "Test-AllColorScripts Script" {
+Describe 'Test-AllColorScripts Script' {
     BeforeAll {
         $script:RunnerPath = Join-Path -Path $script:ModuleRoot -ChildPath 'Test-AllColorScripts.ps1'
     }
 
-    It "Should return structured results for filtered run" {
+    It 'Should return structured results for filtered run' {
         $results = & $script:RunnerPath -Filter 'bars' -Delay 0 -SkipErrors
         $results | Should -Not -BeNullOrEmpty
         $results[0].Name | Should -Be 'bars'
         $results[0] | Should -BeOfType [pscustomobject]
     }
 
-    It "Should support parallel execution when available" {
+    It 'Should support parallel execution when available' {
         if ($PSVersionTable.PSVersion.Major -ge 7) {
             $results = & $script:RunnerPath -Filter 'bars' -Delay 0 -SkipErrors -Parallel -ThrottleLimit 1
             $results | Should -Not -BeNullOrEmpty
             $results[0].Name | Should -Be 'bars'
         }
         else {
-            Set-ItResult -Skipped -Because "Parallel mode requires PowerShell 7 or later."
+            Set-ItResult -Skipped -Because 'Parallel mode requires PowerShell 7 or later.'
         }
     }
 }

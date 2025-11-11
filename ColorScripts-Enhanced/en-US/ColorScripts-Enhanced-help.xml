@@ -2396,7 +2396,9 @@ You can target specific scripts by name (wildcards supported) or cache the entir
 
 By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.
 
-The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.</maml:para>
+The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.
+
+For faster rebuilds on multi-core systems, use the `-Parallel` switch together with the `-ThrottleLimit` (or `-Threads`) parameter to control how many workers are scheduled. The cmdlet automatically reverts to sequential execution when parallel runspaces cannot be created on the current host.</maml:para>
       </maml:description>
       <command:verb>New</command:verb>
       <command:noun>ColorScriptCache</command:noun>
@@ -2406,11 +2408,12 @@ The cmdlet intelligently skips scripts whose cache files are already up-to-date 
       <maml:para>You can target specific scripts by name (wildcards supported) or cache the entire collection. When no parameters are specified, the cmdlet defaults to caching all available scripts. You can also filter scripts by category or tag to cache only those that match specific criteria.</maml:para>
       <maml:para>By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.</maml:para>
       <maml:para>The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.</maml:para>
+      <maml:para>For faster rebuilds on multi-core systems, use the `-Parallel` switch together with the `-ThrottleLimit` (or `-Threads`) parameter to control how many workers are scheduled. The cmdlet automatically reverts to sequential execution when parallel runspaces cannot be created on the current host.</maml:para>
       <maml:para>## SYNTAX</maml:para>
       <maml:para>### All</maml:para>
-      <maml:para>``` New-ColorScriptCache [-All] [-Force] [-PassThru] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
+      <maml:para>``` New-ColorScriptCache [-All] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit &lt;Int32&gt;] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
       <maml:para>### Named</maml:para>
-      <maml:para>``` New-ColorScriptCache [-Name &lt;String[]&gt;] [-Category &lt;String[]&gt;] [-Tag &lt;String[]&gt;] [-Force] [-PassThru] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
+      <maml:para>``` New-ColorScriptCache [-Name &lt;String[]&gt;] [-Category &lt;String[]&gt;] [-Tag &lt;String[]&gt;] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit &lt;Int32&gt;] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2812,6 +2815,18 @@ New-ColorScriptCache -Tag Animated -PassThru |
 ```</maml:para>
           <maml:para>&#x80;</maml:para>
           <maml:para>Caches all scripts tagged as animated and shows the count of cached scripts.</maml:para>
+        </maml:introduction>
+        <dev:code />
+        <dev:remarks />
+      </command:example>
+      <command:example>
+        <maml:title>--------- EXAMPLE 14 ---------</maml:title>
+        <maml:introduction>
+          <maml:para>```powershell
+New-ColorScriptCache -All -Parallel -Threads 8
+```</maml:para>
+          <maml:para>&#x80;</maml:para>
+          <maml:para>Build the entire cache using eight worker threads. The cmdlet automatically falls back to sequential execution when parallel jobs are not available on the current host.</maml:para>
         </maml:introduction>
         <dev:code />
         <dev:remarks />
@@ -3380,7 +3395,7 @@ Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultSc
       <maml:para>**Named Mode:** Displays a specific colorscript by name. Supports wildcard patterns for flexible matching. When multiple scripts match a pattern, the first match in alphabetical order is selected.</maml:para>
       <maml:para>**List Mode:** Displays a formatted list of all available colorscripts with their metadata, including name, category, tags, and descriptions.</maml:para>
       <maml:para>**All Mode:** Cycles through all available colorscripts in alphabetical order. Particularly useful for showcasing the entire collection or discovering new scripts.</maml:para>
-      <maml:para>**Performance Features:** The caching system provides 6-19x performance improvements. On first execution, a colorscript runs normally and its output is cached. Subsequent displays use the cached output for near-instant rendering. The cache is automatically invalidated when source scripts are modified, ensuring output accuracy.</maml:para>
+      <maml:para>**Performance Features:** The caching system provides 6-19x performance improvements. On first execution, a colorscript runs normally and its output is cached. Subsequent displays use the cached output for near-instant rendering. The cache is automatically invalidated when source scripts are modified, ensuring output accuracy. Use `-ValidateCache` (or set the `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` environment variable) to force a metadata refresh before rendering when you suspect stale cache content.</maml:para>
       <maml:para>**Filtering Capabilities:** Filter scripts by category or tags before selection occurs. This applies across all modes, allowing you to work with subsets of the collection (e.g., only nature-themed scripts or scripts tagged as "retro").</maml:para>
       <maml:para>**Output Options:** By default, colorscripts are written directly to the console for immediate visual display. Use `-ReturnText` to emit the rendered output to the pipeline for capture, redirection, or further processing. Use `-PassThru` to receive the script's metadata object for programmatic use.</maml:para>
     </maml:description>

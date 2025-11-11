@@ -92,6 +92,8 @@ Reset-ColorScriptConfiguration
 ```
 
 Configuration lives in `%APPDATA%/ColorScripts-Enhanced/config.json` (or the platform equivalent); set `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` to relocate it for portable scenarios.
+Force cache verification when needed with `Show-ColorScript -ValidateCache` or by setting `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE=1` before importing the module.
+Fine-tune localization behaviour through `COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE` (`auto`, `full`, or `embedded`); `COLOR_SCRIPTS_ENHANCED_PREFER_EMBEDDED_MESSAGES` remains available for legacy scripts but is superseded by the consolidated mode variable.
 
 ### 7. Metadata Export
 

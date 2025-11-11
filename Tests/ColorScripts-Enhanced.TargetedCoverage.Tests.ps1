@@ -1,4 +1,4 @@
-Describe "ColorScripts-Enhanced targeted coverage" {
+Describe 'ColorScripts-Enhanced targeted coverage' {
     BeforeAll {
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
         $script:ModuleRoot = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
@@ -12,6 +12,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $script:CacheInitialized = $false
             $script:ConfigurationData = $null
             $script:ConfigurationInitialized = $false
+            $script:CacheValidationPerformed = $false
+            $script:CacheValidationManualOverride = $false
         }
     }
 
@@ -19,8 +21,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         Remove-Module ColorScripts-Enhanced -Force -ErrorAction SilentlyContinue
     }
 
-    Context "Resolve-CachePath fallback scenarios" {
-        It "falls back to HOME when user profile delegate returns null" {
+    Context 'Resolve-CachePath fallback scenarios' {
+        It 'falls back to HOME when user profile delegate returns null' {
             $homeOverride = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
             New-Item -ItemType Directory -Path $homeOverride -Force | Out-Null
 
@@ -46,7 +48,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $paths.Resolved | Should -Be $paths.Expected
         }
 
-        It "returns null when current path delegates fail" {
+        It 'returns null when current path delegates fail' {
             $result = InModuleScope ColorScripts-Enhanced {
                 $originalProvider = $script:GetCurrentProviderPathDelegate
                 $originalDirectory = $script:GetCurrentDirectoryDelegate
@@ -64,7 +66,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $result | Should -Be $null
         }
 
-        It "logs verbose warning when full path resolution fails" {
+        It 'logs verbose warning when full path resolution fails' {
             $result = InModuleScope ColorScripts-Enhanced {
                 $originalFullPath = $script:GetFullPathDelegate
                 try {
@@ -97,8 +99,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Test-ColorScriptTextEmission" {
-        It "returns true when ReturnText is requested" {
+    Context 'Test-ColorScriptTextEmission' {
+        It 'returns true when ReturnText is requested' {
             $result = InModuleScope ColorScripts-Enhanced {
                 Test-ColorScriptTextEmission -ReturnText $true -PassThru $false -PipelineLength 1 -BoundParameters @{}
             }
@@ -106,7 +108,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $result | Should -BeTrue
         }
 
-        It "returns false when PassThru is enabled" {
+        It 'returns false when PassThru is enabled' {
             $result = InModuleScope ColorScripts-Enhanced {
                 Test-ColorScriptTextEmission -ReturnText $false -PassThru $true -PipelineLength 1 -BoundParameters @{}
             }
@@ -123,7 +125,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $result | Should -Be $expected
         }
 
-        It "returns true for pipeline length greater than one" {
+        It 'returns true for pipeline length greater than one' {
             $result = InModuleScope ColorScripts-Enhanced {
                 Test-ColorScriptTextEmission -ReturnText $false -PassThru $false -PipelineLength 2 -BoundParameters @{}
             }
@@ -131,7 +133,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $result | Should -BeTrue
         }
 
-        It "returns true when OutVariable is present" {
+        It 'returns true when OutVariable is present' {
             $bound = @{ OutVariable = 'var' }
             $result = InModuleScope ColorScripts-Enhanced -Parameters @{ bound = $bound } {
                 param($bound)
@@ -141,7 +143,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $result | Should -BeTrue
         }
 
-        It "returns false when no special conditions apply" {
+        It 'returns false when no special conditions apply' {
             $result = InModuleScope ColorScripts-Enhanced {
                 Test-ColorScriptTextEmission -ReturnText $false -PassThru $false -PipelineLength 1 -BoundParameters @{}
             }
@@ -159,8 +161,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Write-RenderedText" {
-        It "appends newline when missing" {
+    Context 'Write-RenderedText' {
+        It 'appends newline when missing' {
             $joined = InModuleScope ColorScripts-Enhanced {
                 $originalDelegate = $script:ConsoleWriteDelegate
                 try {
@@ -182,7 +184,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $joined | Should -Be ('sample' + [Environment]::NewLine)
         }
 
-        It "avoids duplicate newline when text already terminated" {
+        It 'avoids duplicate newline when text already terminated' {
             $joined = InModuleScope ColorScripts-Enhanced {
                 $originalDelegate = $script:ConsoleWriteDelegate
                 try {
@@ -204,7 +206,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $joined | Should -Be "ready`n"
         }
 
-        It "writes newline when input text is null" {
+        It 'writes newline when input text is null' {
             $joined = InModuleScope ColorScripts-Enhanced {
                 $originalDelegate = $script:ConsoleWriteDelegate
                 try {
@@ -227,8 +229,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Invoke-WithUtf8Encoding" {
-        It "switches encoding to UTF-8 and restores original" {
+    Context 'Invoke-WithUtf8Encoding' {
+        It 'switches encoding to UTF-8 and restores original' {
             InModuleScope ColorScripts-Enhanced {
                 $originalIsRedirected = $script:IsOutputRedirectedDelegate
                 $originalGetEncoding = $script:GetConsoleOutputEncodingDelegate
@@ -264,8 +266,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Get-PowerShellExecutable fallback" {
-        It "uses current process module when pwsh is unavailable" {
+    Context 'Get-PowerShellExecutable fallback' {
+        It 'uses current process module when pwsh is unavailable' {
             InModuleScope ColorScripts-Enhanced {
                 $script:PowerShellExecutable = $null
             }
@@ -291,7 +293,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $result | Should -Be $expected
         }
 
-        It "falls back to command line when process access fails" {
+        It 'falls back to command line when process access fails' {
             InModuleScope ColorScripts-Enhanced {
                 $script:PowerShellExecutable = $null
             }
@@ -313,8 +315,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Reset-ScriptInventoryCache" {
-        It "clears cached inventory state" {
+    Context 'Reset-ScriptInventoryCache' {
+        It 'clears cached inventory state' {
             InModuleScope ColorScripts-Enhanced {
                 $script:ScriptInventory = @('item')
                 $script:ScriptInventoryInitialized = $true
@@ -331,8 +333,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Initialize-SystemDelegateState" {
-        It "reinitializes default delegates" {
+    Context 'Initialize-SystemDelegateState' {
+        It 'reinitializes default delegates' {
             $root = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
             $sample = Join-Path -Path $root -ChildPath 'delegate.txt'
             Set-Content -LiteralPath $sample -Value 'Delegate test content' -Encoding UTF8
@@ -396,7 +398,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Clear-ColorScriptCache ShouldProcess" {
+    Context 'Clear-ColorScriptCache ShouldProcess' {
         BeforeEach {
             InModuleScope ColorScripts-Enhanced {
                 $script:CacheDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
@@ -405,7 +407,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             }
         }
 
-        It "marks entries as skipped when ShouldProcess declines" {
+        It 'marks entries as skipped when ShouldProcess declines' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
             }
@@ -423,7 +425,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             Test-Path -LiteralPath $cachePath | Should -BeTrue
         }
 
-        It "returns empty array when clearing all with WhatIf" {
+        It 'returns empty array when clearing all with WhatIf' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
                 Set-Content -LiteralPath (Join-Path -Path $script:CacheDir -ChildPath 'all.cache') -Value 'cached' -Encoding UTF8
@@ -435,8 +437,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Invoke-ColorScriptProcess" {
-        It "captures successful invocation" {
+    Context 'Invoke-ColorScriptProcess' {
+        It 'captures successful invocation' {
             $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
             $scriptPath = Join-Path -Path $testRoot -ChildPath 'invoke-success.ps1'
             Set-Content -LiteralPath $scriptPath -Value "Write-Host 'Success'" -Encoding UTF8
@@ -489,7 +491,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $result.StdErr | Should -Be 'stderr-data'
         }
 
-        It "captures process creation failures" {
+        It 'captures process creation failures' {
             $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
             $scriptPath = Join-Path -Path $testRoot -ChildPath 'invoke-fail.ps1'
             Set-Content -LiteralPath $scriptPath -Value "Write-Host 'Failure'" -Encoding UTF8
@@ -528,8 +530,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Invoke-ColorScriptsStartup verbose handling" {
-        It "logs verbose output when configuration root lookup fails" {
+    Context 'Invoke-ColorScriptsStartup verbose handling' {
+        It 'logs verbose output when configuration root lookup fails' {
             $originalCI = $env:CI
             $originalGitHubActions = $env:GITHUB_ACTIONS
             $env:CI = $null
@@ -559,8 +561,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Test-ConsoleOutputRedirected" {
-        It "returns false when delegate throws" {
+    Context 'Test-ConsoleOutputRedirected' {
+        It 'returns false when delegate throws' {
             $result = InModuleScope ColorScripts-Enhanced {
                 $original = $script:IsOutputRedirectedDelegate
                 try {
@@ -576,8 +578,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Structured error emissions" {
-        It "emits structured error when New-ColorScriptCache lacks selection" {
+    Context 'Structured error emissions' {
+        It 'emits structured error when New-ColorScriptCache lacks selection' {
             $errorRecord = $null
             try {
                 New-ColorScriptCache -All:$false
@@ -591,7 +593,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $errorRecord.CategoryInfo.Category | Should -Be ([System.Management.Automation.ErrorCategory]::InvalidOperation)
         }
 
-        It "emits structured error when Clear-ColorScriptCache lacks selection" {
+        It 'emits structured error when Clear-ColorScriptCache lacks selection' {
             $errorRecord = $null
             try {
                 Clear-ColorScriptCache -Confirm:$false
@@ -605,7 +607,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $errorRecord.CategoryInfo.Category | Should -Be ([System.Management.Automation.ErrorCategory]::InvalidOperation)
         }
 
-        It "emits structured error when configuration root cannot be determined" {
+        It 'emits structured error when configuration root cannot be determined' {
             $errorRecord = InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith { $null }
                 $script:ConfigurationRoot = $null
@@ -626,8 +628,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Error helper utilities" {
-        It "creates error record with recommended action" {
+    Context 'Error helper utilities' {
+        It 'creates error record with recommended action' {
             $record = InModuleScope ColorScripts-Enhanced {
                 New-ColorScriptErrorRecord -Message 'sample message' -ErrorId 'ColorScriptsEnhanced.Sample' -Category ([System.Management.Automation.ErrorCategory]::InvalidOperation) -RecommendedAction 'Try again later'
             }
@@ -637,7 +639,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $record.ErrorDetails.RecommendedAction | Should -Be 'Try again later'
         }
 
-        It "wraps provided exception when messages differ" {
+        It 'wraps provided exception when messages differ' {
             $record = InModuleScope ColorScripts-Enhanced {
                 $inner = [System.Exception]::new('inner')
                 New-ColorScriptErrorRecord -Message 'outer message' -Exception $inner -ErrorId 'ColorScriptsEnhanced.Sample'
@@ -647,7 +649,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $record.Exception.InnerException.Message | Should -Be 'inner'
         }
 
-        It "fills missing error details message" {
+        It 'fills missing error details message' {
             $record = InModuleScope ColorScripts-Enhanced {
                 $exception = [System.Management.Automation.RuntimeException]::new('kept')
                 $exception.ErrorRecord.ErrorDetails = [System.Management.Automation.ErrorDetails]::new(' ')
@@ -657,14 +659,14 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $record.ErrorDetails.Message | Should -Be 'kept'
         }
 
-        It "initializes error details when only recommended action is provided" {
+        It 'initializes error details when only recommended action is provided' {
             $diagnostics = InModuleScope ColorScripts-Enhanced {
                 $blankException = [System.Management.Automation.RuntimeException]::new('')
                 $result = New-ColorScriptErrorRecord -Message ' ' -Exception $blankException -RecommendedAction 'Check inputs'
                 [pscustomobject]@{
-                    Record             = $result
-                    HasErrorDetails    = $null -ne $result.ErrorDetails
-                    RecommendedAction  = if ($result.ErrorDetails) { $result.ErrorDetails.RecommendedAction } else { $null }
+                    Record              = $result
+                    HasErrorDetails     = $null -ne $result.ErrorDetails
+                    RecommendedAction   = if ($result.ErrorDetails) { $result.ErrorDetails.RecommendedAction } else { $null }
                     ErrorDetailsMessage = if ($result.ErrorDetails) { $result.ErrorDetails.Message } else { $null }
                 }
             }
@@ -674,7 +676,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $diagnostics.ErrorDetailsMessage | Should -BeNullOrEmpty
         }
 
-        It "uses default error message when none supplied" {
+        It 'uses default error message when none supplied' {
             $record = InModuleScope ColorScripts-Enhanced {
                 New-ColorScriptErrorRecord -Message ' ' -ErrorId 'ColorScriptsEnhanced.Sample'
             }
@@ -682,7 +684,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $record.ErrorDetails.Message | Should -Be 'An error occurred within ColorScripts-Enhanced.'
         }
 
-        It "throws error record when cmdlet is absent" {
+        It 'throws error record when cmdlet is absent' {
             $errorRecord = InModuleScope ColorScripts-Enhanced {
                 $captured = $null
                 try {
@@ -701,14 +703,14 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Test-ColorScriptPathValue" {
-        It "throws when value is empty and not allowed" {
+    Context 'Test-ColorScriptPathValue' {
+        It 'throws when value is empty and not allowed' {
             InModuleScope ColorScripts-Enhanced {
                 { Test-ColorScriptPathValue -Value '' } | Should -Throw -ErrorId '*'
             }
         }
 
-        It "returns true when empty value is allowed" {
+        It 'returns true when empty value is allowed' {
             $result = InModuleScope ColorScripts-Enhanced {
                 Test-ColorScriptPathValue -Value '' -AllowEmpty
             }
@@ -716,7 +718,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $result | Should -BeTrue
         }
 
-        It "throws when path contains invalid characters" {
+        It 'throws when path contains invalid characters' {
             InModuleScope ColorScripts-Enhanced {
                 $invalidChar = ([System.IO.Path]::GetInvalidPathChars())[0]
                 $value = "invalid${invalidChar}path"
@@ -724,7 +726,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             }
         }
 
-        It "returns true for valid paths" {
+        It 'returns true for valid paths' {
             $result = InModuleScope ColorScripts-Enhanced {
                 Test-ColorScriptPathValue -Value 'C:\Valid\Path.txt'
             }
@@ -733,14 +735,14 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Test-ColorScriptNameValue" {
-        It "throws when name is empty and not allowed" {
+    Context 'Test-ColorScriptNameValue' {
+        It 'throws when name is empty and not allowed' {
             InModuleScope ColorScripts-Enhanced {
                 { Test-ColorScriptNameValue -Value '' } | Should -Throw -ErrorId '*'
             }
         }
 
-        It "returns true when empty is allowed" {
+        It 'returns true when empty is allowed' {
             $result = InModuleScope ColorScripts-Enhanced {
                 Test-ColorScriptNameValue -Value '' -AllowEmpty
             }
@@ -748,13 +750,13 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $result | Should -BeTrue
         }
 
-        It "throws when wildcards are disallowed" {
+        It 'throws when wildcards are disallowed' {
             InModuleScope ColorScripts-Enhanced {
                 { Test-ColorScriptNameValue -Value 'alpha*' } | Should -Throw -ErrorId '*'
             }
         }
 
-        It "allows wildcard characters when permitted" {
+        It 'allows wildcard characters when permitted' {
             $result = InModuleScope ColorScripts-Enhanced {
                 Test-ColorScriptNameValue -Value 'alpha*' -AllowWildcard
             }
@@ -763,8 +765,8 @@ Describe "ColorScripts-Enhanced targeted coverage" {
         }
     }
 
-    Context "Argument completers" {
-        It "suggests colorscript names for partial input" {
+    Context 'Argument completers' {
+        It 'suggests colorscript names for partial input' {
             $matches = InModuleScope ColorScripts-Enhanced {
                 $line = 'Show-ColorScript -Name ba'
                 $completion = [System.Management.Automation.CommandCompletion]::CompleteInput($line, $line.Length, $null)
@@ -774,7 +776,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $matches | Should -Contain 'bars'
         }
 
-        It "suggests categories based on metadata" {
+        It 'suggests categories based on metadata' {
             $matches = InModuleScope ColorScripts-Enhanced {
                 $line = 'Get-ColorScriptList -Category Art'
                 $completion = [System.Management.Automation.CommandCompletion]::CompleteInput($line, $line.Length, $null)
@@ -784,7 +786,7 @@ Describe "ColorScripts-Enhanced targeted coverage" {
             $matches | Should -Contain 'Artistic'
         }
 
-        It "provides tag completions" {
+        It 'provides tag completions' {
             $matches = InModuleScope ColorScripts-Enhanced {
                 $line = 'Show-ColorScript -Tag Category:Pat'
                 $completion = [System.Management.Automation.CommandCompletion]::CompleteInput($line, $line.Length, $null)

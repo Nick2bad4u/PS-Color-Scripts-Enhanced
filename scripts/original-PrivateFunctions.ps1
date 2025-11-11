@@ -98,7 +98,7 @@ function Import-LocalizedMessagesFromFile {
 
     $finalCandidate = $candidateFiles |
         Where-Object { $_ -and (Test-Path -LiteralPath $_ -PathType Leaf) } |
-        Select-Object -First 1
+            Select-Object -First 1
 
     if (-not $finalCandidate) {
         throw [System.IO.FileNotFoundException]::new("Localized messages file '$fileNameToUse' could not be located.")
@@ -178,7 +178,7 @@ function Initialize-ColorScriptsLocalization {
 
         foreach ($candidate in $uniqueCandidates) {
             if ([string]::IsNullOrWhiteSpace($candidate)) { continue }
-            Write-ModuleTrace ("Evaluating localization candidate: {0}" -f $candidate)
+            Write-ModuleTrace ('Evaluating localization candidate: {0}' -f $candidate)
             $null = $searchedPaths.Add($candidate)
 
             $candidatePath = $candidate
@@ -248,14 +248,14 @@ function Initialize-ColorScriptsLocalization {
             }
 
             if ($filePath) {
-                Write-ModuleTrace ("Localization resolved via {0} from {1} (file {2})" -f $source, $resolvedRoot, $filePath)
+                Write-ModuleTrace ('Localization resolved via {0} from {1} (file {2})' -f $source, $resolvedRoot, $filePath)
             }
             else {
-                Write-ModuleTrace ("Localization resolved via {0} from {1}" -f $source, $resolvedRoot)
+                Write-ModuleTrace ('Localization resolved via {0} from {1}' -f $source, $resolvedRoot)
             }
         }
         catch {
-            Write-ModuleTrace ("Localization import failure: {0}" -f $_.Exception.Message)
+            Write-ModuleTrace ('Localization import failure: {0}' -f $_.Exception.Message)
             $script:Messages = if ($script:EmbeddedDefaultMessages) { $script:EmbeddedDefaultMessages.Clone() } else { @{} }
             $script:LocalizationInitialized = $true
             $script:LocalizationDetails = [pscustomobject]@{
@@ -1309,7 +1309,7 @@ function Get-ColorScriptInventory {
         if ($shouldRefresh) {
             $scriptFiles = @()
             try {
-                $scriptFiles = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" -File -ErrorAction Stop
+                $scriptFiles = Get-ChildItem -Path $script:ScriptsPath -Filter '*.ps1' -File -ErrorAction Stop
             }
             catch {
                 $scriptFiles = @()
@@ -2278,7 +2278,7 @@ function Get-CachedOutput {
     )
 
     $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($ScriptPath)
-    $cacheFile = Join-Path -Path $script:CacheDir -ChildPath ("{0}.cache" -f $scriptName)
+    $cacheFile = Join-Path -Path $script:CacheDir -ChildPath ('{0}.cache' -f $scriptName)
 
     try {
         $scriptFileExists = $false
@@ -2419,7 +2419,7 @@ function Invoke-ColorScriptProcess {
         $escapedScriptPath = $ScriptPath.Replace("'", "''")
         $escapedScriptDir = if ($scriptDirectory) { $scriptDirectory.Replace("'", "''") } else { $null }
         $commandBuilder = New-Object System.Text.StringBuilder
-        $null = $commandBuilder.Append("[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; ")
+        $null = $commandBuilder.Append('[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; ')
         if ($escapedScriptDir) {
             $null = $commandBuilder.Append("Set-Location -LiteralPath '$escapedScriptDir'; ")
         }

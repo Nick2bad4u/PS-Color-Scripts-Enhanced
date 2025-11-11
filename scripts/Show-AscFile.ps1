@@ -30,10 +30,10 @@ function Show-AscFile {
         try {
             # Check if file is gzipped (starts with gzip magic bytes)
             $bytes = [System.IO.File]::ReadAllBytes($Path)
-            $content = ""
+            $content = ''
 
             if ($bytes.Length -gt 2 -and $bytes[0] -eq 0x1F -and $bytes[1] -eq 0x8B) {
-                Write-Host "File is gzipped, decompressing..." -ForegroundColor Yellow
+                Write-Host 'File is gzipped, decompressing...' -ForegroundColor Yellow
 
                 $stream = New-Object System.IO.MemoryStream($bytes)
                 $gzip = New-Object System.IO.Compression.GZipStream($stream, [System.IO.Compression.CompressionMode]::Decompress)

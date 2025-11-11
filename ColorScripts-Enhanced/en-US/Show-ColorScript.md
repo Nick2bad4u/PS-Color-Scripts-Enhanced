@@ -19,28 +19,28 @@ Displays a colorscript with automatic caching for enhanced performance.
 
 ```
 Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru]
- [-ReturnText] [<CommonParameters>]
+ [-ReturnText] [-ValidateCache] [<CommonParameters>]
 ```
 
 ### Named
 
 ```
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-PassThru]
- [-ReturnText] [<CommonParameters>]
+ [-ReturnText] [-ValidateCache] [<CommonParameters>]
 ```
 
 ### List
 
 ```
 Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-ReturnText]
- [<CommonParameters>]
+ [-ValidateCache] [<CommonParameters>]
 ```
 
 ### All
 
 ```
 Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
- [<CommonParameters>]
+ [-ValidateCache] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -57,6 +57,7 @@ Renders beautiful ANSI colorscripts in your terminal with intelligent performanc
 
 **Performance Features:**
 The caching system provides 6-19x performance improvements. On first execution, a colorscript runs normally and its output is cached. Subsequent displays use the cached output for near-instant rendering. The cache is automatically invalidated when source scripts are modified, ensuring output accuracy.
+Use `-ValidateCache` (or set the `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` environment variable) to force a metadata refresh before rendering when you suspect stale cache content.
 
 **Filtering Capabilities:**
 Filter scripts by category or tags before selection occurs. This applies across all modes, allowing you to work with subsets of the collection (e.g., only nature-themed scripts or scripts tagged as "retro").
@@ -431,6 +432,27 @@ ParameterSets:
    ValueFromPipeline: false
    ValueFromPipelineByPropertyName: false
    ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -ValidateCache
+
+Force cache validation before rendering the selected colorscript. This switch ensures the module verifies cache metadata on demand—useful when developing new scripts, troubleshooting cache issues, or when running in environments that aggressively clean temporary storage. Equivalent to setting the `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` environment variable for the current session.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+     Position: Named
+     IsRequired: false
+     ValueFromPipeline: false
+     ValueFromPipelineByPropertyName: false
+     ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""

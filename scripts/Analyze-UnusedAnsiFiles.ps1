@@ -77,7 +77,7 @@
 [CmdletBinding()]
 param(
     [Parameter()]
-    [string]$UnusedAnsiPath = ".\assets\unused-ansi-files",
+    [string]$UnusedAnsiPath = '.\assets\unused-ansi-files',
 
     [Parameter()]
     [int]$MaxWidth = 120,
@@ -101,7 +101,7 @@ param(
     [switch]$ConvertToScripts,
 
     [Parameter()]
-    [string]$ConvertOutputDir = ".\ColorScripts-Enhanced\Scripts",
+    [string]$ConvertOutputDir = '.\ColorScripts-Enhanced\Scripts',
 
     [Parameter()]
     [switch]$StripSpaceBackground,
@@ -131,7 +131,7 @@ function Remove-Sauce {
     $sauceIdBytes = $Buffer[$sauceOffset..($sauceOffset + 4)]
     $sauceId = [System.Text.Encoding]::ASCII.GetString($sauceIdBytes)
 
-    if ($sauceId -ne "SAUCE") {
+    if ($sauceId -ne 'SAUCE') {
         return @{
             Buffer = $Buffer
             Sauce  = $null
@@ -158,7 +158,7 @@ function Remove-Sauce {
         if ($commentOffset -ge 0) {
             $commentIdBytes = $Buffer[$commentOffset..($commentOffset + 4)]
             $commentId = [System.Text.Encoding]::ASCII.GetString($commentIdBytes)
-            if ($commentId -eq "COMNT") {
+            if ($commentId -eq 'COMNT') {
                 $trimOffset = $commentOffset
             }
         }
@@ -182,7 +182,7 @@ function Get-AnsiDimension {
         return @{
             Width  = $Sauce.Width
             Height = $Sauce.Height
-            Source = "SAUCE"
+            Source = 'SAUCE'
         }
     }
 
@@ -215,7 +215,7 @@ function Get-AnsiDimension {
         return @{
             Width  = 80
             Height = $estimatedHeight
-            Source = "Calculated (wrapped)"
+            Source = 'Calculated (wrapped)'
         }
     }
 
@@ -236,14 +236,14 @@ function Get-AnsiDimension {
         return @{
             Width  = $maxCol
             Height = $maxRow
-            Source = "Cursor positioning"
+            Source = 'Cursor positioning'
         }
     }
 
     return @{
         Width  = $maxWidth
         Height = $actualHeight
-        Source = "Line analysis"
+        Source = 'Line analysis'
     }
 }
 
@@ -311,10 +311,10 @@ function Test-AnsiFile {
                 FilePath     = $FileInfo.FullName
                 Width        = 0
                 Height       = 0
-                Source       = "Empty file"
+                Source       = 'Empty file'
                 IsNormalSize = $false
                 FileSizeKB   = [Math]::Round($FileInfo.Length / 1KB, 2)
-                Error        = "File appears to be empty"
+                Error        = 'File appears to be empty'
             }
         }
 
@@ -338,10 +338,10 @@ function Test-AnsiFile {
                     FilePath     = $FileInfo.FullName
                     Width        = 0
                     Height       = 0
-                    Source       = "Regular ASCII only"
+                    Source       = 'Regular ASCII only'
                     IsNormalSize = $false
                     FileSizeKB   = [Math]::Round($FileInfo.Length / 1KB, 2)
-                    Error        = "Excluded: Contains only regular ASCII characters"
+                    Error        = 'Excluded: Contains only regular ASCII characters'
                 }
             }
         }
@@ -411,7 +411,7 @@ function Test-AnsiFile {
             FilePath     = $FileInfo.FullName
             Width        = 0
             Height       = 0
-            Source       = "Error"
+            Source       = 'Error'
             IsNormalSize = $false
             FileSizeKB   = if ($FileInfo.Length) { [Math]::Round($FileInfo.Length / 1KB, 2) } else { 0 }
             Error        = $_.Exception.Message
@@ -420,7 +420,7 @@ function Test-AnsiFile {
 }
 
 # Main script execution
-Write-Host "[ANALYZE] Analyzing unused ANSI files for normal terminal sizes..." -ForegroundColor Cyan
+Write-Host '[ANALYZE] Analyzing unused ANSI files for normal terminal sizes...' -ForegroundColor Cyan
 Write-Host "[CRITERIA] Normal size criteria: Width ≤ $MaxWidth columns, Height ≤ $MaxHeight lines" -ForegroundColor Yellow
 
 # Validate input path
@@ -430,7 +430,7 @@ if (-not (Test-Path $UnusedAnsiPath)) {
 }
 
 # Get all .ans files
-$ansiFiles = Get-ChildItem -Path $UnusedAnsiPath -Filter "*.ans" -File
+$ansiFiles = Get-ChildItem -Path $UnusedAnsiPath -Filter '*.ans' -File
 if ($ansiFiles.Count -eq 0) {
     Write-Warning "No .ans files found in $UnusedAnsiPath"
     exit 0
@@ -462,15 +462,15 @@ $convertedCount = 0
 foreach ($file in $ansiFiles) {
     $processedCount++
     if ($processedCount % 50 -eq 0 -or $ShowDetails) {
-        Write-Progress -Activity "Analyzing ANSI files" -Status "Processing $($file.Name)" -PercentComplete (($processedCount / $ansiFiles.Count) * 100)
+        Write-Progress -Activity 'Analyzing ANSI files' -Status "Processing $($file.Name)" -PercentComplete (($processedCount / $ansiFiles.Count) * 100)
     }
 
     $result = Test-AnsiFile -FileInfo $file
     $results += $result
 
     if ($ShowDetails) {
-        $statusColor = if ($result.IsNormalSize) { "Green" } else { "Red" }
-        $status = if ($result.IsNormalSize) { "[OK] NORMAL" } else { "[BIG] OVERSIZED" }
+        $statusColor = if ($result.IsNormalSize) { 'Green' } else { 'Red' }
+        $status = if ($result.IsNormalSize) { '[OK] NORMAL' } else { '[BIG] OVERSIZED' }
 
         Write-Host "$status : $($result.FileName)" -ForegroundColor $statusColor
         Write-Host "   Size: $($result.Width)x$($result.Height) ($($result.Source)) - $($result.FileSizeKB)KB" -ForegroundColor Gray
@@ -497,20 +497,20 @@ foreach ($file in $ansiFiles) {
 
             # Build the node command
             $nodeArgs = @(
-                ".\scripts\Convert-AnsiToColorScript.js"
+                '.\scripts\Convert-AnsiToColorScript.js'
                 $result.FilePath
             )
 
             # Add optional parameters
             if ($StripSpaceBackground) {
-                $nodeArgs += "--strip-space-bg"
+                $nodeArgs += '--strip-space-bg'
             }
 
             # Run the conversion
             $conversionResult = & node $nodeArgs 2>&1
 
             if ($LASTEXITCODE -eq 0) {
-                Write-Host "  -> Converted successfully" -ForegroundColor Green
+                Write-Host '  -> Converted successfully' -ForegroundColor Green
                 $convertedCount++
             }
             else {
@@ -523,17 +523,17 @@ foreach ($file in $ansiFiles) {
     }
 }
 
-Write-Progress -Activity "Analyzing ANSI files" -Completed
+Write-Progress -Activity 'Analyzing ANSI files' -Completed
 
 # Generate summary
 $normalSizeFiles = $results | Where-Object { $_.IsNormalSize -and -not $_.Error }
-$oversizedFiles = $results | Where-Object { -not $_.IsNormalSize -and -not $_.Error -and $_.Source -ne "Regular ASCII only" }
-$asciiOnlyFiles = $results | Where-Object { $_.Source -eq "Regular ASCII only" }
+$oversizedFiles = $results | Where-Object { -not $_.IsNormalSize -and -not $_.Error -and $_.Source -ne 'Regular ASCII only' }
+$asciiOnlyFiles = $results | Where-Object { $_.Source -eq 'Regular ASCII only' }
 $errorFiles = $results | Where-Object { $_.Error }
 
 if ($ShowSummary) {
     Write-Host "`n[SUMMARY] ANALYSIS SUMMARY" -ForegroundColor Cyan
-    Write-Host "==================" -ForegroundColor Cyan
+    Write-Host '==================' -ForegroundColor Cyan
     Write-Host "Total files analyzed: $($results.Count)" -ForegroundColor White
     Write-Host "Normal size files: $($normalSizeFiles.Count)" -ForegroundColor Green
     Write-Host "Oversized files: $($oversizedFiles.Count)" -ForegroundColor Red
@@ -551,8 +551,8 @@ if ($ShowSummary) {
         # Show size distribution
         Write-Host "`n[SIZES] Size Distribution:" -ForegroundColor Cyan
         $sizeGroups = $normalSizeFiles | Group-Object {
-            if ($_.Width -le 80) { "≤80 columns" }
-            elseif ($_.Width -le 100) { "81-100 columns" }
+            if ($_.Width -le 80) { '≤80 columns' }
+            elseif ($_.Width -le 100) { '81-100 columns' }
             else { "101-$MaxWidth columns" }
         }
         foreach ($group in $sizeGroups) {
@@ -560,7 +560,7 @@ if ($ShowSummary) {
         }
     }
     else {
-        Write-Host "  No files found within normal size limits." -ForegroundColor Yellow
+        Write-Host '  No files found within normal size limits.' -ForegroundColor Yellow
     }
 
     if ($oversizedFiles.Count -gt 0) {

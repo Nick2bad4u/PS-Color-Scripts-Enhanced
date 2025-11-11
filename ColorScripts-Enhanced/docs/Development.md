@@ -512,7 +512,15 @@ Expect to see icons, checkmarks, and box-drawing characters. If they appear as s
 - Cache location: `$env:APPDATA\ColorScripts-Enhanced\cache`
 - Override cache location for testing/CI with `COLOR_SCRIPTS_ENHANCED_CACHE_PATH`
 - Use `New-ColorScriptCache` to warm caches during development
+- Use `New-ColorScriptCache -Parallel -Threads <N>` to take advantage of multi-core systems when building large caches
 - Use `Clear-ColorScriptCache` to troubleshoot stale outputs
+- Force validation when diagnosing cache issues with `Show-ColorScript -ValidateCache` or by setting `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE=1`
+- Force ANSI informational summaries in hosts that strip escape sequences by setting `COLOR_SCRIPTS_ENHANCED_FORCE_ANSI=1`; commands still honour `-NoAnsiOutput` when you need plain text
+
+## Localization Controls
+
+- Auto mode prefers PSD1 resources when available; adjust behavior with `COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE` (`auto`, `full`, `embedded`)
+- Legacy toggle `COLOR_SCRIPTS_ENHANCED_PREFER_EMBEDDED_MESSAGES` remains supported for compatibility, but prefer the consolidated mode variable going forward
 
 ## Branch Policy
 

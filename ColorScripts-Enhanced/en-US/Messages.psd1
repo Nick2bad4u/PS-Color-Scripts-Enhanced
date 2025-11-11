@@ -39,6 +39,7 @@
     NoCacheFilesFound = "No cache files found at {0}."
     ProfileUpdatesNotSupportedInRemote = "Profile updates are not supported in remote sessions."
     ScriptSkippedByFilter = "Script '{0}' does not satisfy the specified filters and will be skipped."
+    ParallelCacheNotSupported = "Parallel cache building requires PowerShell 7 or later. Falling back to sequential execution."
 
     # Status Messages
     DisplayingColorscripts = "`nDisplaying `$totalCount colorscripts..."
@@ -56,6 +57,8 @@
     StatusSkippedByUser = "Skipped by user"
     StatusFailed = "Failed"
     StatusUpToDateSkipped = "Up-to-date (skipped)"
+    CacheBuildSummaryFormat = "Cache build summary: Processed {0}, Updated {1}, Skipped {2}, Failed {3}"
+    CacheClearSummaryFormat = "Cache clear summary: Removed {0}, Missing {1}, Skipped {2}, DryRun {3}, Errors {4}"
 
     # Interactive Messages
     PressSpacebarToContinue = "Press [Spacebar] to continue to next, [Q] to quit`n"

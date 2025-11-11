@@ -1,9 +1,8 @@
 function Invoke-ColorScriptProcess {
     <#
     .SYNOPSIS
-        Executes a colorscript and captures its output.
-        For cache building, uses fast in-process execution.
-        For display, can use isolated process if needed.
+        Executes a colorscript and captures its output using an isolated process
+        to preserve ANSI sequences and console rendering fidelity.
     #>
     [CmdletBinding()]
     param(
@@ -28,39 +27,6 @@ function Invoke-ColorScriptProcess {
         return $result
     }
 
-    # Fast in-process execution for cache building
-    if ($ForCache) {
-        try {
-            $oldLocation = Get-Location -PSProvider FileSystem
-            $scriptDirectory = [System.IO.Path]::GetDirectoryName($ScriptPath)
-            if ($scriptDirectory) {
-                Set-Location -LiteralPath $scriptDirectory -ErrorAction SilentlyContinue
-            }
-
-            $scriptContent = & $script:FileReadAllTextDelegate $ScriptPath $script:Utf8NoBomEncoding
-            $scriptBlock = [ScriptBlock]::Create($scriptContent)
-
-            $output = & $scriptBlock *>&1 | Out-String
-
-            $result.StdOut = $output
-            $result.ExitCode = 0
-            $result.Success = $true
-        }
-        catch {
-            $result.StdErr = $_.Exception.Message
-            $result.ExitCode = 1
-            $result.Success = $false
-        }
-        finally {
-            if ($oldLocation) {
-                Set-Location -LiteralPath $oldLocation -ErrorAction SilentlyContinue
-            }
-        }
-
-        return $result
-    }
-
-    # Original isolated process execution for display
     $executable = Get-PowerShellExecutable
     $scriptDirectory = [System.IO.Path]::GetDirectoryName($ScriptPath)
     $process = $null
@@ -85,6 +51,15 @@ function Invoke-ColorScriptProcess {
         $startInfo.RedirectStandardError = $true
         $startInfo.StandardOutputEncoding = [System.Text.Encoding]::UTF8
         $startInfo.StandardErrorEncoding = [System.Text.Encoding]::UTF8
+
+        if ($ForCache) {
+            try {
+                $startInfo.EnvironmentVariables['COLOR_SCRIPTS_ENHANCED_CACHE_BUILD'] = '1'
+            }
+            catch {
+                Write-Verbose ("Unable to set cache build environment variable: {0}" -f $_.Exception.Message)
+            }
+        }
 
         if ($scriptDirectory) {
             $startInfo.WorkingDirectory = $scriptDirectory

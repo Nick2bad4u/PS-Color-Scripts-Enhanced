@@ -68,7 +68,7 @@ Import-Module PSScriptAnalyzer -ErrorAction Stop
 
 $invokeScriptAnalyzerCommand = Get-Command Invoke-ScriptAnalyzer -ErrorAction Stop
 if ($Fix -and -not $invokeScriptAnalyzerCommand.Parameters.ContainsKey('Fix')) {
-    Write-Error "Installed PSScriptAnalyzer version does not support -Fix. Update to 1.21.0 or later."
+    Write-Error 'Installed PSScriptAnalyzer version does not support -Fix. Update to 1.21.0 or later.'
     exit 1
 }
 
@@ -86,7 +86,9 @@ function Invoke-LintPass {
 
     $passResults = @()
     $invokeAnalyzer = {
-        param([hashtable]$AnalyzerParams, [string]$TargetPath)
+        param([hashtable]$AnalyzerParams)
+
+        $TargetPath = $AnalyzerParams.Path
 
         try {
             return Invoke-ScriptAnalyzer @AnalyzerParams
@@ -164,7 +166,7 @@ function Invoke-LintPass {
                     $params.Fix = $true
                 }
                 try {
-                    $result = & $invokeAnalyzer $params $file.FullName
+                    $result = & $invokeAnalyzer $params
                     if ($result) { $passResults += $result }
                 }
                 catch {
@@ -187,7 +189,7 @@ function Invoke-LintPass {
             $params.Fix = $true
         }
         try {
-            $result = & $invokeAnalyzer $params $resolved
+            $result = & $invokeAnalyzer $params
             if ($result) { $passResults += $result }
         }
         catch {
@@ -224,7 +226,7 @@ if (-not $allResults) {
 $allResults | Sort-Object Severity, RuleName | Format-Table -AutoSize
 
 if ($TreatWarningsAsErrors -or ($allResults | Where-Object { $_.Severity -eq 'Error' })) {
-    Write-Error "ScriptAnalyzer violations detected."
+    Write-Error 'ScriptAnalyzer violations detected.'
     exit 1
 }
 

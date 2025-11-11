@@ -1,4 +1,4 @@
-Describe "ColorScripts-Enhanced module import coverage" {
+Describe 'ColorScripts-Enhanced module import coverage' {
     BeforeAll {
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
         $script:ModulePath = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
@@ -56,8 +56,8 @@ Describe "ColorScripts-Enhanced module import coverage" {
         Import-Module $manifestToImport -Force -ErrorAction Stop | Out-Null
     }
 
-    Describe "trace configuration handling" {
-        It "handles whitespace trace tokens by falling back to trimmed value" {
+    Describe 'trace configuration handling' {
+        It 'handles whitespace trace tokens by falling back to trimmed value' {
             Import-ModuleUnderTest -TraceSetting ' , ; '
 
             InModuleScope $script:ModuleName {
@@ -67,7 +67,7 @@ Describe "ColorScripts-Enhanced module import coverage" {
             }
         }
 
-        It "sets verbose and file flags for respective tokens and prepares directories" {
+        It 'sets verbose and file flags for respective tokens and prepares directories' {
             $traceDir = Join-Path -Path (Join-Path -Path $TestDrive -ChildPath 'trace-case') -ChildPath 'nested'
             $traceFile = Join-Path -Path $traceDir -ChildPath 'module-trace.log'
 
@@ -89,7 +89,7 @@ Describe "ColorScripts-Enhanced module import coverage" {
             $state.TraceFile | Should -Be $expectedTraceFile
         }
 
-        It "treats unrecognized token with invalid path characters as verbose fallback" {
+        It 'treats unrecognized token with invalid path characters as verbose fallback' {
             Import-ModuleUnderTest -TraceSetting '::invalid::'
 
             InModuleScope $script:ModuleName {
@@ -97,7 +97,7 @@ Describe "ColorScripts-Enhanced module import coverage" {
             }
         }
 
-        It "treats bare path tokens as file destinations" {
+        It 'treats bare path tokens as file destinations' {
             $rawTrace = Join-Path -Path (Join-Path -Path $TestDrive -ChildPath 'implicit-path') -ChildPath 'trace.log'
 
             Import-ModuleUnderTest -TraceSetting $rawTrace
@@ -114,7 +114,7 @@ Describe "ColorScripts-Enhanced module import coverage" {
             $state.TraceFile | Should -Be $expectedTraceFile
         }
 
-        It "assigns default trace file when only file token is provided" {
+        It 'assigns default trace file when only file token is provided' {
             Import-ModuleUnderTest -TraceSetting 'file'
 
             $state = InModuleScope $script:ModuleName {
@@ -134,7 +134,7 @@ Describe "ColorScripts-Enhanced module import coverage" {
             }
         }
 
-        It "disables file tracing when directory preparation fails" {
+        It 'disables file tracing when directory preparation fails' {
             $availableLetters = (65..90 | ForEach-Object { [char]$_ }) | Where-Object { -not (Get-PSDrive -Name $_ -ErrorAction SilentlyContinue) }
             $targetDrive = if ($availableLetters) { $availableLetters[0] } else { 'Z' }
             $invalidPath = '{0}:\nonexistent\trace.log' -f $targetDrive
@@ -161,7 +161,7 @@ Describe "ColorScripts-Enhanced module import coverage" {
             }
         }
 
-        It "notifies when writing to the trace file fails" {
+        It 'notifies when writing to the trace file fails' {
             $traceTarget = Join-Path -Path $TestDrive -ChildPath 'trace-directory'
             New-Item -Path $traceTarget -ItemType Directory -Force | Out-Null
 
@@ -173,7 +173,7 @@ Describe "ColorScripts-Enhanced module import coverage" {
             }
         }
 
-        It "falls back when module root override cannot be resolved" {
+        It 'falls back when module root override cannot be resolved' {
             $availableLetters = (65..90 | ForEach-Object { [char]$_ }) | Where-Object { -not (Get-PSDrive -Name $_ -ErrorAction SilentlyContinue) }
             $targetDrive = if ($availableLetters) { $availableLetters[0] } else { 'Z' }
             $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT = '{0}:\missing\module-root' -f $targetDrive
@@ -187,8 +187,8 @@ Describe "ColorScripts-Enhanced module import coverage" {
         }
     }
 
-    Describe "missing script directories" {
-        It "imports with fallback when script directories are unavailable" {
+    Describe 'missing script directories' {
+        It 'imports with fallback when script directories are unavailable' {
             Remove-Module -Name $script:ModuleName -Force -ErrorAction SilentlyContinue
 
             $privatePath = Join-Path -Path $script:ModulePath -ChildPath 'Private'
@@ -251,8 +251,9 @@ Describe "ColorScripts-Enhanced module import coverage" {
                 switch ($name) {
                     'Initialize-ColorScriptsLocalization' {
                         $localizationStub = {
-                            param([string[]]$CandidateRoots, [string[]]$CultureFallbackOverride)
+                            param([string[]]$CandidateRoots, [string[]]$CultureFallbackOverride, [switch]$UseDefaultCandidates)
                             $null = $CultureFallbackOverride
+                            $null = $UseDefaultCandidates
                             [pscustomobject]@{
                                 LocalizedDataLoaded = $false
                                 ModuleRoot          = $localizationModuleRoot
@@ -310,7 +311,7 @@ Describe "ColorScripts-Enhanced module import coverage" {
             }
         }
 
-        It "logs when module root resolution fails" {
+        It 'logs when module root resolution fails' {
             Remove-Module -Name $script:ModuleName -Force -ErrorAction SilentlyContinue
 
             $privatePath = Join-Path -Path $script:ModulePath -ChildPath 'Private'
@@ -375,8 +376,9 @@ Describe "ColorScripts-Enhanced module import coverage" {
                 switch ($name) {
                     'Initialize-ColorScriptsLocalization' {
                         $localizationStub = {
-                            param([string[]]$CandidateRoots, [string[]]$CultureFallbackOverride)
+                            param([string[]]$CandidateRoots, [string[]]$CultureFallbackOverride, [switch]$UseDefaultCandidates)
                             $null = $CultureFallbackOverride
+                            $null = $UseDefaultCandidates
                             [pscustomobject]@{
                                 LocalizedDataLoaded = $false
                                 ModuleRoot          = $localizationModuleRoot

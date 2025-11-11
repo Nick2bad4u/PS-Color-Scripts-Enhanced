@@ -127,6 +127,7 @@
         "prettier-plugin-interpolated-html-tags",
         "prettier-plugin-multiline-arrays",
         "prettier-plugin-jsdoc",
+        "prettier-plugin-powershell",
         "prettier-plugin-merge"
     ],
     "printWidth": 80,

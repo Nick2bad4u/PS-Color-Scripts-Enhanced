@@ -1,4 +1,4 @@
-Describe "ColorScripts-Enhanced additional coverage" {
+Describe 'ColorScripts-Enhanced additional coverage' {
     BeforeAll {
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
         $script:ModulePath = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
@@ -22,7 +22,7 @@ Describe "ColorScripts-Enhanced additional coverage" {
         }
 
         if (-not ('CoverageHost.StubHost' -as [type])) {
-            Add-Type -TypeDefinition @"
+            Add-Type -TypeDefinition @'
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -254,7 +254,7 @@ namespace CoverageHost
         public override void SetShouldExit(int exitCode) { }
     }
 }
-"@
+'@
         }
 
         function Invoke-WithCoverageHost {
@@ -416,8 +416,8 @@ namespace CoverageHost
         }
     }
 
-    Context "Get-CachedOutput" {
-        It "returns unavailable when script path is missing" {
+    Context 'Get-CachedOutput' {
+        It 'returns unavailable when script path is missing' {
             InModuleScope ColorScripts-Enhanced {
                 $cacheRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $cacheRoot -Force | Out-Null
@@ -432,7 +432,7 @@ namespace CoverageHost
             }
         }
 
-        It "reports cache path but unavailable when cache is missing" {
+        It 'reports cache path but unavailable when cache is missing' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $cacheRoot = Join-Path -Path $testDrive -ChildPath ([guid]::NewGuid().ToString())
@@ -453,7 +453,7 @@ namespace CoverageHost
             }
         }
 
-        It "invalidates cache when script is newer" {
+        It 'invalidates cache when script is newer' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $cacheRoot = Join-Path -Path $testDrive -ChildPath ([guid]::NewGuid().ToString())
@@ -478,7 +478,7 @@ namespace CoverageHost
             }
         }
 
-        It "returns cached content when cache is up-to-date" {
+        It 'returns cached content when cache is up-to-date' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $cacheRoot = Join-Path -Path $testDrive -ChildPath ([guid]::NewGuid().ToString())
@@ -502,7 +502,7 @@ namespace CoverageHost
             }
         }
 
-        It "handles cache read errors gracefully" {
+        It 'handles cache read errors gracefully' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $cacheRoot = Join-Path -Path $testDrive -ChildPath ([guid]::NewGuid().ToString())
@@ -534,8 +534,8 @@ namespace CoverageHost
         }
     }
 
-    Context "Initialize-CacheDirectory" {
-        It "uses environment override when resolvable" {
+    Context 'Initialize-CacheDirectory' {
+        It 'uses environment override when resolvable' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Initialize-Configuration -ModuleName ColorScripts-Enhanced
 
@@ -556,7 +556,7 @@ namespace CoverageHost
             }
         }
 
-        It "warns when configured cache path cannot be resolved" {
+        It 'warns when configured cache path cannot be resolved' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Initialize-Configuration -ModuleName ColorScripts-Enhanced
 
@@ -586,7 +586,7 @@ namespace CoverageHost
             }
         }
 
-        It "continues with next candidate when override creation fails" {
+        It 'continues with next candidate when override creation fails' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Initialize-Configuration -ModuleName ColorScripts-Enhanced
 
@@ -638,7 +638,7 @@ namespace CoverageHost
 
                 Initialize-CacheDirectory
 
-                Assert-MockCalled -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $Message -like "Unable to prepare cache directory*" }
+                Assert-MockCalled -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $Message -like 'Unable to prepare cache directory*' }
                 (Get-Variable -Name newItemCalls -Scope Script -ValueOnly) | Should -Be 2
                 Test-Path -LiteralPath $script:CacheDir | Should -BeTrue
                 $script:CacheDir | Should -Match ([Regex]::Escape('configured-cache'))
@@ -648,7 +648,7 @@ namespace CoverageHost
         }
     }
 
-    Context "Build-ScriptCache" {
+    Context 'Build-ScriptCache' {
         BeforeEach {
             InModuleScope ColorScripts-Enhanced {
                 $script:CacheDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
@@ -657,7 +657,7 @@ namespace CoverageHost
             }
         }
 
-        It "returns failure when script path is missing" {
+        It 'returns failure when script path is missing' {
             InModuleScope ColorScripts-Enhanced {
                 $missingPath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'missing-script.ps1'
 
@@ -670,7 +670,7 @@ namespace CoverageHost
             }
         }
 
-        It "returns failure when invocation fails" {
+        It 'returns failure when invocation fails' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testDrive -ChildPath 'failing-script.ps1'
@@ -695,13 +695,13 @@ namespace CoverageHost
             }
         }
 
-        It "writes cache when invocation succeeds" {
+        It 'writes cache when invocation succeeds' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testDrive -ChildPath 'successful-script.ps1'
                 Set-Content -Path $scriptPath -Value "Write-Host 'noop'" -Encoding UTF8
 
-                $expectedOutput = "rendered text"
+                $expectedOutput = 'rendered text'
                 $now = (Get-Date).AddMinutes(-5)
                 [System.IO.File]::SetLastWriteTimeUtc($scriptPath, $now)
 
@@ -726,7 +726,7 @@ namespace CoverageHost
             }
         }
 
-        It "populates stderr when exit code indicates failure" {
+        It 'populates stderr when exit code indicates failure' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testDrive -ChildPath 'exit-fail-script.ps1'
@@ -749,7 +749,7 @@ namespace CoverageHost
             }
         }
 
-        It "falls back to non-UTC timestamps when UTC updates fail" {
+        It 'falls back to non-UTC timestamps when UTC updates fail' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testDrive -ChildPath 'utc-fallback-script.ps1'
@@ -786,7 +786,7 @@ namespace CoverageHost
             }
         }
 
-        It "captures write failures as error messages" {
+        It 'captures write failures as error messages' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testDrive -ChildPath 'write-error-script.ps1'
@@ -813,7 +813,7 @@ namespace CoverageHost
         }
     }
 
-    Context "New-ColorScriptCache" {
+    Context 'New-ColorScriptCache' {
         BeforeEach {
             InModuleScope ColorScripts-Enhanced {
                 $script:CacheDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
@@ -822,7 +822,7 @@ namespace CoverageHost
             }
         }
 
-        It "throws when All is explicitly disabled without names" {
+        It 'throws when All is explicitly disabled without names' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
                     $list = [System.Collections.Generic.List[psobject]]::new()
@@ -832,7 +832,7 @@ namespace CoverageHost
                 Should -Throw -ActualValue { New-ColorScriptCache -All:$false } -ExpectedMessage 'Specify -Name to select scripts when -All is explicitly disabled.'
             }
         }
-        It "shows help when requested" {
+        It 'shows help when requested' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced
 
@@ -842,7 +842,7 @@ namespace CoverageHost
             }
         }
 
-        It "returns empty result when no scripts are selected" {
+        It 'returns empty result when no scripts are selected' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith {
                     $script:CacheDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
@@ -858,7 +858,7 @@ namespace CoverageHost
             }
         }
 
-        It "normalizes enumerable results and filters null values" {
+        It 'normalizes enumerable results and filters null values' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith {
@@ -892,7 +892,7 @@ namespace CoverageHost
             }
         }
 
-        It "wraps single record into array when necessary" {
+        It 'wraps single record into array when necessary' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith {
@@ -922,7 +922,7 @@ namespace CoverageHost
             }
         }
 
-        It "warns when named scripts are not found" {
+        It 'warns when named scripts are not found' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith {
@@ -946,12 +946,12 @@ namespace CoverageHost
                 New-ColorScriptCache -Name 'ghost-script'
 
                 $warnings = Get-Variable -Name __missingWarnings -Scope Script -ValueOnly
-                $warnings | Should -Contain "Script not found: ghost-script"
+                $warnings | Should -Contain 'Script not found: ghost-script'
                 Remove-Variable -Name __missingWarnings -Scope Script -ErrorAction SilentlyContinue
             }
         }
 
-        It "skips cache builds when entries are up-to-date" {
+        It 'skips cache builds when entries are up-to-date' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testDrive -ChildPath 'beta.ps1'
@@ -982,7 +982,7 @@ namespace CoverageHost
             }
         }
 
-        It "returns empty result when ShouldProcess declines" {
+        It 'returns empty result when ShouldProcess declines' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testDrive -ChildPath 'decline.ps1'
@@ -1006,7 +1006,7 @@ namespace CoverageHost
             }
         }
 
-        It "summarizes outcomes with status colors and failure details" -Skip:$script:IsCIEnvironment {
+        It 'summarizes outcomes with status colors and failure details' -Skip:$script:IsCIEnvironment {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
 
@@ -1100,7 +1100,7 @@ namespace CoverageHost
             }
         }
 
-        It "captures failures from Build-ScriptCache" -Skip:$script:IsCIEnvironment {
+        It 'captures failures from Build-ScriptCache' -Skip:$script:IsCIEnvironment {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testDrive -ChildPath 'gamma.ps1'
@@ -1140,13 +1140,13 @@ namespace CoverageHost
                 $result | Should -HaveCount 1
                 $result[0].Status | Should -Be 'Failed'
                 $result[0].StdErr | Should -Be 'permission denied'
-                (Get-Variable -Name __failureWarnings -Scope Script -ValueOnly) | Should -Contain "Failed to cache gamma: permission denied"
+                (Get-Variable -Name __failureWarnings -Scope Script -ValueOnly) | Should -Contain 'Failed to cache gamma: permission denied'
                 Remove-Variable -Name __failureWarnings -Scope Script -ErrorAction SilentlyContinue
             }
         }
 
-        Context "New-ColorScript" {
-            It "shows help when requested" {
+        Context 'New-ColorScript' {
+            It 'shows help when requested' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced
 
@@ -1156,7 +1156,7 @@ namespace CoverageHost
                 }
             }
 
-            It "throws when output path cannot be resolved" {
+            It 'throws when output path cannot be resolved' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith { $null }
                 }
@@ -1175,7 +1175,7 @@ namespace CoverageHost
                 $errorRecord.Exception.Message | Should -Be "Unable to resolve output path '::invalid::'."
             }
 
-            It "throws when script exists without force" {
+            It 'throws when script exists without force' {
                 $targetDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
                 $existingPath = Join-Path -Path $targetDir -ChildPath 'duplicate.ps1'
@@ -1184,7 +1184,7 @@ namespace CoverageHost
                 { New-ColorScript -Name 'duplicate' -OutputPath $targetDir } | Should -Throw -ErrorId 'ColorScriptsEnhanced.ScriptAlreadyExists*'
             }
 
-            It "generates metadata snippet with default values" {
+            It 'generates metadata snippet with default values' {
                 $targetDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 Mock -CommandName Reset-ScriptInventoryCache -ModuleName ColorScripts-Enhanced
 
@@ -1193,18 +1193,18 @@ namespace CoverageHost
                 Test-Path -LiteralPath (Join-Path -Path $targetDir -ChildPath 'snippet.ps1') | Should -BeTrue
             }
 
-            It "supplies default metadata snippet values when tags are omitted" {
+            It 'supplies default metadata snippet values when tags are omitted' {
                 $targetDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 Mock -CommandName Reset-ScriptInventoryCache -ModuleName ColorScripts-Enhanced
 
                 $result = New-ColorScript -Name 'guidance' -OutputPath $targetDir -GenerateMetadataSnippet
 
-                $result.MetadataGuidance | Should -Match "Tags:"
+                $result.MetadataGuidance | Should -Match 'Tags:'
                 $result.MetadataGuidance | Should -Match "'Custom'"
             }
         }
 
-        Context "Clear-ColorScriptCache" {
+        Context 'Clear-ColorScriptCache' {
             BeforeEach {
                 InModuleScope ColorScripts-Enhanced {
                     $script:CacheDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
@@ -1213,7 +1213,7 @@ namespace CoverageHost
                 }
             }
 
-            It "throws when no selection is provided" {
+            It 'throws when no selection is provided' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
 
@@ -1221,7 +1221,7 @@ namespace CoverageHost
                 }
             }
 
-            It "warns when cache path cannot be resolved" {
+            It 'warns when cache path cannot be resolved' {
                 InModuleScope ColorScripts-Enhanced {
                     $script:CapturedWarnings = [System.Collections.Generic.List[string]]::new()
                     Mock -CommandName Write-Warning -MockWith {
@@ -1235,11 +1235,11 @@ namespace CoverageHost
                 $result | Should -BeNullOrEmpty
 
                 $capturedWarnings = InModuleScope ColorScripts-Enhanced { $script:CapturedWarnings }
-                $capturedWarnings | Should -Contain "Cache path not found: Z:\nonexistent"
+                $capturedWarnings | Should -Contain 'Cache path not found: Z:\nonexistent'
                 InModuleScope ColorScripts-Enhanced { Remove-Variable -Name CapturedWarnings -Scope Script -ErrorAction SilentlyContinue }
             }
 
-            It "returns missing status for absent cache files" {
+            It 'returns missing status for absent cache files' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
 
@@ -1251,7 +1251,7 @@ namespace CoverageHost
                 }
             }
 
-            It "performs dry run without deleting files" {
+            It 'performs dry run without deleting files' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
 
@@ -1267,7 +1267,7 @@ namespace CoverageHost
                 }
             }
 
-            It "removes cache files when requested" {
+            It 'removes cache files when requested' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
 
@@ -1283,7 +1283,7 @@ namespace CoverageHost
                 }
             }
 
-            It "warns when no cache files exist for -All" {
+            It 'warns when no cache files exist for -All' {
                 $emptyDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $emptyDir -Force | Out-Null
 
@@ -1305,7 +1305,7 @@ namespace CoverageHost
                 InModuleScope ColorScripts-Enhanced { Remove-Variable -Name CapturedWarnings -Scope Script -ErrorAction SilentlyContinue }
             }
 
-            It "reports missing when cache record lacks a file" {
+            It 'reports missing when cache record lacks a file' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
                     Mock -CommandName Get-ChildItem -ModuleName ColorScripts-Enhanced -MockWith {
@@ -1320,7 +1320,7 @@ namespace CoverageHost
                 }
             }
 
-            It "performs dry run for all cache files" {
+            It 'performs dry run for all cache files' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
 
@@ -1338,7 +1338,7 @@ namespace CoverageHost
                 }
             }
 
-            It "captures errors when removal fails" {
+            It 'captures errors when removal fails' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
 
@@ -1357,7 +1357,7 @@ namespace CoverageHost
                 }
             }
 
-            It "applies filters and warns for unmatched names" {
+            It 'applies filters and warns for unmatched names' {
                 InModuleScope ColorScripts-Enhanced {
                     $script:CapturedWarnings = [System.Collections.Generic.List[string]]::new()
 
@@ -1381,7 +1381,7 @@ namespace CoverageHost
                 InModuleScope ColorScripts-Enhanced { Remove-Variable -Name CapturedWarnings -Scope Script -ErrorAction SilentlyContinue }
             }
 
-            It "marks entries as skipped when ShouldProcess declines" {
+            It 'marks entries as skipped when ShouldProcess declines' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
 
@@ -1395,7 +1395,7 @@ namespace CoverageHost
                 }
             }
 
-            It "returns empty array when clearing all and ShouldProcess declines" {
+            It 'returns empty array when clearing all and ShouldProcess declines' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
 
@@ -1411,8 +1411,8 @@ namespace CoverageHost
             }
         }
 
-        Context "Configuration helpers" {
-            It "does not rewrite when configuration is unchanged" {
+        Context 'Configuration helpers' {
+            It 'does not rewrite when configuration is unchanged' {
                 InModuleScope ColorScripts-Enhanced {
                     $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                     $configRoot = Join-Path -Path $testDrive -ChildPath ([guid]::NewGuid().ToString())
@@ -1430,7 +1430,7 @@ namespace CoverageHost
                 }
             }
 
-            It "writes configuration when existing content is unreadable" {
+            It 'writes configuration when existing content is unreadable' {
                 InModuleScope ColorScripts-Enhanced {
                     $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                     $configRoot = Join-Path -Path $testDrive -ChildPath ([guid]::NewGuid().ToString())
@@ -1450,7 +1450,7 @@ namespace CoverageHost
                 }
             }
 
-            It "initializes configuration when file contains whitespace" {
+            It 'initializes configuration when file contains whitespace' {
                 InModuleScope ColorScripts-Enhanced {
                     $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                     $configRoot = Join-Path -Path $testDrive -ChildPath ([guid]::NewGuid().ToString())
@@ -1470,7 +1470,7 @@ namespace CoverageHost
                 }
             }
 
-            It "throws when cache path cannot be resolved" {
+            It 'throws when cache path cannot be resolved' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Get-ColorScriptsConfigurationRoot -ModuleName ColorScripts-Enhanced -MockWith {
                         $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
@@ -1488,14 +1488,14 @@ namespace CoverageHost
             }
         }
 
-        Context "Add-ColorScriptProfile" {
+        Context 'Add-ColorScriptProfile' {
             BeforeEach {
                 InModuleScope ColorScripts-Enhanced {
                     $script:ConfigurationData = @{ Startup = @{ AutoShowOnImport = $true; ProfileAutoShow = $true; DefaultScript = 'bars' }; Cache = @{ Path = $null } }
                 }
             }
 
-            It "shows help when requested" {
+            It 'shows help when requested' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced
 
@@ -1505,7 +1505,7 @@ namespace CoverageHost
                 }
             }
 
-            It "returns remote session response when PSSenderInfo exists" {
+            It 'returns remote session response when PSSenderInfo exists' {
                 Set-Variable -Name PSSenderInfo -Scope Global -Value ([pscustomobject]@{ ApplicationArguments = 'RemoteSession' }) -Force
                 try {
                     $result = Add-ColorScriptProfile -Confirm:$false
@@ -1519,7 +1519,7 @@ namespace CoverageHost
                 }
             }
 
-            It "continues when configuration retrieval fails" {
+            It 'continues when configuration retrieval fails' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Get-ColorScriptConfiguration -ModuleName ColorScripts-Enhanced -MockWith { throw 'config failure' }
 
@@ -1536,7 +1536,7 @@ namespace CoverageHost
                 }
             }
 
-            It "throws when explicit path cannot be resolved" {
+            It 'throws when explicit path cannot be resolved' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith {
                         param($Path)
@@ -1548,7 +1548,7 @@ namespace CoverageHost
                 }
             }
 
-            It "throws when profile scope path is undefined" {
+            It 'throws when profile scope path is undefined' {
                 InModuleScope ColorScripts-Enhanced {
                     Set-Variable -Name PROFILE -Scope Global -Value ([pscustomobject]@{ CurrentUserAllHosts = '' }) -Force
 
@@ -1556,7 +1556,7 @@ namespace CoverageHost
                 }
             }
 
-            It "uses current location for relative profile paths" {
+            It 'uses current location for relative profile paths' {
                 InModuleScope ColorScripts-Enhanced {
                     $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                     Push-Location $testDrive
@@ -1580,7 +1580,7 @@ namespace CoverageHost
                 }
             }
 
-            It "skips adding snippet when already present" {
+            It 'skips adding snippet when already present' {
                 InModuleScope ColorScripts-Enhanced {
                     $profileRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                     New-Item -ItemType Directory -Path $profileRoot -Force | Out-Null
@@ -1598,7 +1598,7 @@ namespace CoverageHost
                 }
             }
 
-            It "forces update to replace existing snippet" {
+            It 'forces update to replace existing snippet' {
                 InModuleScope ColorScripts-Enhanced {
                     $profileRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                     New-Item -ItemType Directory -Path $profileRoot -Force | Out-Null
@@ -1622,7 +1622,7 @@ namespace CoverageHost
                 }
             }
 
-            It "preserves newline style and escapes default script name" {
+            It 'preserves newline style and escapes default script name' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Get-ColorScriptConfiguration -ModuleName ColorScripts-Enhanced -MockWith {
                         @{ Startup = @{ AutoShowOnImport = $true; ProfileAutoShow = $true; DefaultScript = "d'angelo" } }
@@ -1647,7 +1647,7 @@ namespace CoverageHost
             }
         }
 
-        Context "Get-ColorScriptEntry" {
+        Context 'Get-ColorScriptEntry' {
             BeforeEach {
                 InModuleScope ColorScripts-Enhanced {
                     $script:ScriptInventoryInitialized = $true
@@ -1664,7 +1664,7 @@ namespace CoverageHost
                 }
             }
 
-            It "assigns default metadata when none exists" {
+            It 'assigns default metadata when none exists' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Get-ColorScriptMetadataTable -ModuleName ColorScripts-Enhanced -MockWith { @{} }
 
@@ -1679,7 +1679,7 @@ namespace CoverageHost
                 }
             }
 
-            It "filters by category and tag when metadata is present" {
+            It 'filters by category and tag when metadata is present' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Get-ColorScriptMetadataTable -ModuleName ColorScripts-Enhanced -MockWith {
                         @{
@@ -1707,7 +1707,7 @@ namespace CoverageHost
                 }
             }
 
-            It "applies name selection with wildcard patterns" {
+            It 'applies name selection with wildcard patterns' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Get-ColorScriptMetadataTable -ModuleName ColorScripts-Enhanced -MockWith {
                         @{
@@ -1724,7 +1724,7 @@ namespace CoverageHost
             }
         }
 
-        Context "Get-ColorScriptInventory" {
+        Context 'Get-ColorScriptInventory' {
             BeforeEach {
                 InModuleScope ColorScripts-Enhanced {
                     $script:ScriptsPath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
@@ -1736,7 +1736,7 @@ namespace CoverageHost
                 }
             }
 
-            It "builds and caches inventory from script files" {
+            It 'builds and caches inventory from script files' {
                 InModuleScope ColorScripts-Enhanced {
                     $scriptPath = Join-Path -Path $script:ScriptsPath -ChildPath 'sample.ps1'
                     Set-Content -Path $scriptPath -Value "Write-Host 'hi'" -Encoding UTF8
@@ -1754,7 +1754,7 @@ namespace CoverageHost
                 }
             }
 
-            It "returns empty inventory when scripts directory is missing" {
+            It 'returns empty inventory when scripts directory is missing' {
                 InModuleScope ColorScripts-Enhanced {
                     $script:ScriptsPath = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath ([guid]::NewGuid().ToString())
 
@@ -1766,7 +1766,7 @@ namespace CoverageHost
                 }
             }
 
-            It "reconstructs records cache when needed" {
+            It 'reconstructs records cache when needed' {
                 InModuleScope ColorScripts-Enhanced {
                     $scriptPath = Join-Path -Path $script:ScriptsPath -ChildPath 'alpha.ps1'
                     Set-Content -Path $scriptPath -Value "Write-Host 'alpha'" -Encoding UTF8
@@ -1782,7 +1782,7 @@ namespace CoverageHost
                 }
             }
 
-            It "refreshes inventory when directory timestamp changes" {
+            It 'refreshes inventory when directory timestamp changes' {
                 InModuleScope ColorScripts-Enhanced {
                     $initialScript = Join-Path -Path $script:ScriptsPath -ChildPath 'first.ps1'
                     Set-Content -Path $initialScript -Value "Write-Host 'first'" -Encoding UTF8
@@ -1804,7 +1804,7 @@ namespace CoverageHost
                 }
             }
 
-            It "clears cached records when directory changes" {
+            It 'clears cached records when directory changes' {
                 InModuleScope ColorScripts-Enhanced {
                     $scriptPath = Join-Path -Path $script:ScriptsPath -ChildPath 'gamma.ps1'
                     Set-Content -Path $scriptPath -Value "Write-Host 'gamma'" -Encoding UTF8
@@ -1821,8 +1821,8 @@ namespace CoverageHost
             }
         }
 
-        Context "Reset-ScriptInventoryCache" {
-            It "clears script inventory state" {
+        Context 'Reset-ScriptInventoryCache' {
+            It 'clears script inventory state' {
                 InModuleScope ColorScripts-Enhanced {
                     $script:ScriptInventory = @('item')
                     $script:ScriptInventoryStamp = Get-Date
@@ -1839,11 +1839,11 @@ namespace CoverageHost
             }
         }
 
-        Context "Helper wrappers" {
-            It "updates file last write time using wrappers" {
+        Context 'Helper wrappers' {
+            It 'updates file last write time using wrappers' {
                 InModuleScope ColorScripts-Enhanced {
                     $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
-                    $filePath = Join-Path -Path $testRoot -ChildPath ("{0}.txt" -f [guid]::NewGuid())
+                    $filePath = Join-Path -Path $testRoot -ChildPath ('{0}.txt' -f [guid]::NewGuid())
                     Set-Content -LiteralPath $filePath -Value 'timestamps' -Encoding UTF8
 
                     $targetStamp = (Get-Date).AddMinutes(-10)
@@ -1855,12 +1855,12 @@ namespace CoverageHost
                 }
             }
 
-            It "returns empty matcher set when no patterns are provided" {
+            It 'returns empty matcher set when no patterns are provided' {
                 $matchers = InModuleScope ColorScripts-Enhanced { New-NameMatcherSet -Patterns $null }
                 $matchers | Should -BeNullOrEmpty
             }
 
-            It "caches resolved PowerShell executable" {
+            It 'caches resolved PowerShell executable' {
                 InModuleScope ColorScripts-Enhanced {
                     $script:PowerShellExecutable = $null
                 }
@@ -1888,7 +1888,7 @@ namespace CoverageHost
                 }
             }
 
-            It "falls back to current process module when pwsh is unavailable" {
+            It 'falls back to current process module when pwsh is unavailable' {
                 InModuleScope ColorScripts-Enhanced {
                     $script:PowerShellExecutable = $null
                 }
@@ -1918,7 +1918,7 @@ namespace CoverageHost
                 }
             }
 
-            It "falls back to command line arguments when process access fails" {
+            It 'falls back to command line arguments when process access fails' {
                 InModuleScope ColorScripts-Enhanced {
                     $script:PowerShellExecutable = $null
                 }
@@ -1944,8 +1944,8 @@ namespace CoverageHost
             }
         }
 
-        Context "Test-ColorScriptTextEmission" {
-            It "returns true when ReturnText is requested" {
+        Context 'Test-ColorScriptTextEmission' {
+            It 'returns true when ReturnText is requested' {
                 $result = InModuleScope ColorScripts-Enhanced {
                     Test-ColorScriptTextEmission -ReturnText $true -PassThru $false -PipelineLength 1 -BoundParameters @{}
                 }
@@ -1953,7 +1953,7 @@ namespace CoverageHost
                 $result | Should -BeTrue
             }
 
-            It "returns false when PassThru is specified" {
+            It 'returns false when PassThru is specified' {
                 $result = InModuleScope ColorScripts-Enhanced {
                     Test-ColorScriptTextEmission -ReturnText $false -PassThru $true -PipelineLength 1 -BoundParameters @{}
                 }
@@ -1970,7 +1970,7 @@ namespace CoverageHost
                 $result | Should -Be $expected
             }
 
-            It "returns true for pipeline length greater than one" {
+            It 'returns true for pipeline length greater than one' {
                 $result = InModuleScope ColorScripts-Enhanced {
                     Test-ColorScriptTextEmission -ReturnText $false -PassThru $false -PipelineLength 2 -BoundParameters @{}
                 }
@@ -1978,7 +1978,7 @@ namespace CoverageHost
                 $result | Should -BeTrue
             }
 
-            It "returns true when OutVariable is bound" {
+            It 'returns true when OutVariable is bound' {
                 $bound = @{ OutVariable = 'var' }
 
                 $result = InModuleScope ColorScripts-Enhanced -Parameters @{ bound = $bound } {
@@ -1989,7 +1989,7 @@ namespace CoverageHost
                 $result | Should -BeTrue
             }
 
-            It "returns false when no conditions are met" {
+            It 'returns false when no conditions are met' {
                 $result = InModuleScope ColorScripts-Enhanced {
                     Test-ColorScriptTextEmission -ReturnText $false -PassThru $false -PipelineLength 1 -BoundParameters @{}
                 }
@@ -2007,8 +2007,8 @@ namespace CoverageHost
             }
         }
 
-        Context "Write-RenderedText" {
-            It "appends newline when output lacks terminator" {
+        Context 'Write-RenderedText' {
+            It 'appends newline when output lacks terminator' {
                 $result = InModuleScope ColorScripts-Enhanced {
                     $originalDelegate = $script:ConsoleWriteDelegate
                     try {
@@ -2030,7 +2030,7 @@ namespace CoverageHost
                 (-join $result) | Should -Be ('sample' + [Environment]::NewLine)
             }
 
-            It "avoids duplicate newline when text already terminated" {
+            It 'avoids duplicate newline when text already terminated' {
                 $result = InModuleScope ColorScripts-Enhanced {
                     $originalDelegate = $script:ConsoleWriteDelegate
                     try {
@@ -2052,7 +2052,7 @@ namespace CoverageHost
                 (-join $result) | Should -Be "ready`n"
             }
 
-            It "handles null input by writing empty line" {
+            It 'handles null input by writing empty line' {
                 $result = InModuleScope ColorScripts-Enhanced {
                     $originalDelegate = $script:ConsoleWriteDelegate
                     try {
@@ -2075,8 +2075,8 @@ namespace CoverageHost
             }
         }
 
-        Context "Invoke-WithUtf8Encoding" {
-            It "switches encoding to UTF-8 and restores original" {
+        Context 'Invoke-WithUtf8Encoding' {
+            It 'switches encoding to UTF-8 and restores original' {
                 InModuleScope ColorScripts-Enhanced {
                     $originalIsRedirected = $script:IsOutputRedirectedDelegate
                     $originalGetEncoding = $script:GetConsoleOutputEncodingDelegate
@@ -2116,8 +2116,8 @@ namespace CoverageHost
             }
         }
 
-        Context "Resolve-CachePath" {
-            It "returns absolute paths unchanged" {
+        Context 'Resolve-CachePath' {
+            It 'returns absolute paths unchanged' {
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $target = Join-Path -Path $testRoot -ChildPath 'cache-location'
                 New-Item -ItemType Directory -Path $target -Force | Out-Null
@@ -2130,7 +2130,7 @@ namespace CoverageHost
                 $resolved | Should -Be $target
             }
 
-            It "expands tilde to the user profile" {
+            It 'expands tilde to the user profile' {
                 $userProfile = [System.Environment]::GetFolderPath('UserProfile')
                 $resolved = InModuleScope ColorScripts-Enhanced {
                     Resolve-CachePath -Path '~/ColorScripts-Cache'
@@ -2145,7 +2145,7 @@ namespace CoverageHost
                 }
             }
 
-            It "combines relative paths with the current directory" {
+            It 'combines relative paths with the current directory' {
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
 
                 Push-Location $testRoot
@@ -2161,7 +2161,7 @@ namespace CoverageHost
                 $resolved | Should -Be (Join-Path -Path $testRoot -ChildPath 'relative\folder')
             }
 
-            It "uses HOME fallback when profile delegate is null" {
+            It 'uses HOME fallback when profile delegate is null' {
                 $expectedHome = $HOME
 
                 $result = InModuleScope ColorScripts-Enhanced {
@@ -2178,7 +2178,7 @@ namespace CoverageHost
                 $result | Should -Be $expectedHome
             }
 
-            It "returns null when provider and directory delegates fail" {
+            It 'returns null when provider and directory delegates fail' {
                 $result = InModuleScope ColorScripts-Enhanced {
                     $originalProvider = $script:GetCurrentProviderPathDelegate
                     $originalDirectory = $script:GetCurrentDirectoryDelegate
@@ -2197,7 +2197,7 @@ namespace CoverageHost
                 $result | Should -Be $null
             }
 
-            It "logs verbose message when full path resolution fails" {
+            It 'logs verbose message when full path resolution fails' {
                 $resultData = InModuleScope ColorScripts-Enhanced {
                     $originalFullPath = $script:GetFullPathDelegate
                     try {
@@ -2230,7 +2230,7 @@ namespace CoverageHost
             }
         }
 
-        Context "Initialize-CacheDirectory" {
+        Context 'Initialize-CacheDirectory' {
             BeforeEach {
                 InModuleScope ColorScripts-Enhanced {
                     $script:CacheInitialized = $false
@@ -2239,7 +2239,7 @@ namespace CoverageHost
                 }
             }
 
-            It "ignores override when path cannot be resolved" {
+            It 'ignores override when path cannot be resolved' {
                 $capturedVerbose = [System.Collections.Generic.List[string]]::new()
                 $originalOverride = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
                 $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = '~\missing'
@@ -2266,7 +2266,7 @@ namespace CoverageHost
                 ($capturedVerbose | Where-Object { $_ -like 'Ignoring COLOR_SCRIPTS_ENHANCED_CACHE_PATH override*' }) | Should -Not -BeNullOrEmpty
             }
 
-            It "uses macOS cache locations when applicable" -Skip:($PSVersionTable.PSVersion.Major -le 5) {
+            It 'uses macOS cache locations when applicable' -Skip:($PSVersionTable.PSVersion.Major -le 5) {
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $homePath = Join-Path -Path $testRoot -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $homePath -Force | Out-Null
@@ -2308,7 +2308,7 @@ namespace CoverageHost
                 }
             }
 
-            It "uses XDG cache home on non-windows platforms" -Skip:($PSVersionTable.PSVersion.Major -le 5) {
+            It 'uses XDG cache home on non-windows platforms' -Skip:($PSVersionTable.PSVersion.Major -le 5) {
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $xdgPath = Join-Path -Path $testRoot -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $xdgPath -Force | Out-Null
@@ -2351,7 +2351,7 @@ namespace CoverageHost
                 }
             }
 
-            It "creates fallback directory when all candidates fail" {
+            It 'creates fallback directory when all candidates fail' {
                 Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith {
                     param($Path)
                     [void]$Path
@@ -2365,7 +2365,7 @@ namespace CoverageHost
                 }
             }
 
-            It "retains target path when resolution fails" {
+            It 'retains target path when resolution fails' {
                 Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith {
                     param($Path)
                     $Path
@@ -2381,7 +2381,7 @@ namespace CoverageHost
                 }
             }
 
-            It "marks cache as initialized after setup" {
+            It 'marks cache as initialized after setup' {
                 InModuleScope ColorScripts-Enhanced {
                     $script:CacheInitialized = $false
                     $script:CacheDir = $null
@@ -2394,8 +2394,8 @@ namespace CoverageHost
             }
         }
 
-        Context "Select-RecordsByName" {
-            It "returns missing patterns when nothing matches" {
+        Context 'Select-RecordsByName' {
+            It 'returns missing patterns when nothing matches' {
                 $records = @(
                     [pscustomobject]@{ Name = 'alpha' },
                     [pscustomobject]@{ Name = 'beta' }
@@ -2410,7 +2410,7 @@ namespace CoverageHost
                 $result.MissingPatterns | Should -Contain 'gamma'
             }
 
-            It "handles empty name input" {
+            It 'handles empty name input' {
                 $records = @(
                     [pscustomobject]@{ Name = 'alpha' }
                 )
@@ -2424,7 +2424,7 @@ namespace CoverageHost
                 $result.MissingPatterns | Should -BeNullOrEmpty
             }
 
-            It "ignores whitespace-only name patterns" {
+            It 'ignores whitespace-only name patterns' {
                 $records = @(
                     [pscustomobject]@{ Name = 'alpha' },
                     [pscustomobject]@{ Name = 'beta' }
@@ -2440,8 +2440,8 @@ namespace CoverageHost
             }
         }
 
-        Context "Get-ColorScriptList" {
-            It "shows help when requested" {
+        Context 'Get-ColorScriptList' {
+            It 'shows help when requested' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced
 
@@ -2451,7 +2451,7 @@ namespace CoverageHost
                 }
             }
 
-            It "warns when named scripts are missing" -Skip:$script:IsCIEnvironment {
+            It 'warns when named scripts are missing' -Skip:$script:IsCIEnvironment {
                 $resultData = InModuleScope ColorScripts-Enhanced {
                     $capturedWarnings = [System.Collections.Generic.List[string]]::new()
 
@@ -2476,10 +2476,10 @@ namespace CoverageHost
                 }
 
                 $resultData.Records | Should -BeNullOrEmpty
-                ($resultData.Warnings | Where-Object { $_ -like "Script not found: missing" }) | Should -Not -BeNullOrEmpty
+                ($resultData.Warnings | Where-Object { $_ -like 'Script not found: missing' }) | Should -Not -BeNullOrEmpty
             }
 
-            It "warns when filters return no scripts" {
+            It 'warns when filters return no scripts' {
                 $resultData = InModuleScope ColorScripts-Enhanced {
                     $warnings = [System.Collections.Generic.List[string]]::new()
 
@@ -2493,7 +2493,7 @@ namespace CoverageHost
                     $records = Get-ColorScriptList -Category 'none' -AsObject
 
                     [pscustomobject]@{
-                        Records = $records
+                        Records  = $records
                         Warnings = $warnings.ToArray()
                     }
                 }
@@ -2502,7 +2502,7 @@ namespace CoverageHost
                 ($resultData.Warnings | Where-Object { $_ -like 'No colorscripts available*' }) | Should -Not -BeNullOrEmpty
             }
 
-            It "formats detailed output with joined tags" {
+            It 'formats detailed output with joined tags' {
                 $resultData = InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
                         @([pscustomobject]@{
@@ -2515,8 +2515,11 @@ namespace CoverageHost
 
                     $capturedOutput = [System.Collections.Generic.List[string]]::new()
                     Mock -CommandName Write-ColorScriptInformation -ModuleName ColorScripts-Enhanced -MockWith {
-                        param($Message, [switch]$Quiet)
+                        param($Message, [switch]$Quiet, [switch]$NoAnsiOutput, [switch]$PreferConsole, [string]$Color)
                         $null = $Quiet
+                        $null = $NoAnsiOutput
+                        $null = $PreferConsole
+                        $null = $Color
                         if ($null -ne $Message) {
                             $null = $capturedOutput.Add([string]$Message)
                         }
@@ -2536,8 +2539,8 @@ namespace CoverageHost
             }
         }
 
-        Context "Invoke-ColorScriptProcess" {
-            It "returns error when script path is missing" {
+        Context 'Invoke-ColorScriptProcess' {
+            It 'returns error when script path is missing' {
                 $missingPath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'does-not-exist.ps1'
 
                 $result = InModuleScope ColorScripts-Enhanced -Parameters @{ missingPath = $missingPath } {
@@ -2550,7 +2553,7 @@ namespace CoverageHost
                 $result.ScriptName | Should -Be 'does-not-exist'
             }
 
-            It "executes script successfully without mocks" {
+            It 'executes script successfully without mocks' {
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testRoot -ChildPath 'process-real.ps1'
                 Set-Content -LiteralPath $scriptPath -Value "Write-Output 'solid coverage'" -Encoding UTF8
@@ -2565,7 +2568,7 @@ namespace CoverageHost
                 ($result.StdOut.Trim()) | Should -Be 'solid coverage'
             }
 
-            It "executes script successfully with mocked process" {
+            It 'executes script successfully with mocked process' {
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testRoot -ChildPath 'process-success.ps1'
                 Set-Content -LiteralPath $scriptPath -Value "Write-Host 'process success'" -Encoding UTF8
@@ -2578,14 +2581,14 @@ namespace CoverageHost
 
                         if ($TypeName -eq 'System.Diagnostics.ProcessStartInfo') {
                             return [pscustomobject]@{
-                                FileName                = $null
-                                Arguments               = $null
-                                UseShellExecute         = $null
-                                RedirectStandardOutput  = $null
-                                RedirectStandardError   = $null
-                                StandardOutputEncoding  = $null
-                                StandardErrorEncoding   = $null
-                                WorkingDirectory        = $null
+                                FileName               = $null
+                                Arguments              = $null
+                                UseShellExecute        = $null
+                                RedirectStandardOutput = $null
+                                RedirectStandardError  = $null
+                                StandardOutputEncoding = $null
+                                StandardErrorEncoding  = $null
+                                WorkingDirectory       = $null
                             }
                         }
 
@@ -2622,7 +2625,7 @@ namespace CoverageHost
                 $result.StdErr | Should -Be 'stderr-data'
             }
 
-            It "captures process exceptions" {
+            It 'captures process exceptions' {
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testRoot -ChildPath 'process-fail.ps1'
                 Set-Content -LiteralPath $scriptPath -Value "Write-Host 'process fail'" -Encoding UTF8
@@ -2633,14 +2636,14 @@ namespace CoverageHost
                         param($TypeName)
                         if ($TypeName -eq 'System.Diagnostics.ProcessStartInfo') {
                             return [pscustomobject]@{
-                                FileName                = $null
-                                Arguments               = $null
-                                UseShellExecute         = $false
-                                RedirectStandardOutput  = $false
-                                RedirectStandardError   = $false
-                                StandardOutputEncoding  = $null
-                                StandardErrorEncoding   = $null
-                                WorkingDirectory        = $null
+                                FileName               = $null
+                                Arguments              = $null
+                                UseShellExecute        = $false
+                                RedirectStandardOutput = $false
+                                RedirectStandardError  = $false
+                                StandardOutputEncoding = $null
+                                StandardErrorEncoding  = $null
+                                WorkingDirectory       = $null
                             }
                         }
 
@@ -2666,8 +2669,8 @@ namespace CoverageHost
             }
         }
 
-        Context "Invoke-ColorScriptsStartup" {
-            It "forces startup when override is enabled" {
+        Context 'Invoke-ColorScriptsStartup' {
+            It 'forces startup when override is enabled' {
                 $originalOverride = $env:COLOR_SCRIPTS_ENHANCED_AUTOSHOW_ON_IMPORT
                 $originalCI = $env:CI
                 $originalGitHubActions = $env:GITHUB_ACTIONS
@@ -2701,7 +2704,7 @@ namespace CoverageHost
                 }
             }
 
-            It "shows configured default script when auto show is enabled" {
+            It 'shows configured default script when auto show is enabled' {
                 $originalCI = $env:CI
                 $originalGitHubActions = $env:GITHUB_ACTIONS
                 $env:CI = $null
@@ -2735,7 +2738,7 @@ namespace CoverageHost
                 }
             }
 
-            It "falls back to general show when no default script is set" {
+            It 'falls back to general show when no default script is set' {
                 $originalCI = $env:CI
                 $originalGitHubActions = $env:GITHUB_ACTIONS
                 $env:CI = $null
@@ -2781,7 +2784,7 @@ namespace CoverageHost
                 }
             }
 
-            It "logs verbose message when startup handling fails" {
+            It 'logs verbose message when startup handling fails' {
                 $originalCI = $env:CI
                 $originalGitHubActions = $env:GITHUB_ACTIONS
                 $env:CI = $null
@@ -2826,7 +2829,7 @@ namespace CoverageHost
                 }
             }
 
-            It "does not display scripts when auto show is disabled" {
+            It 'does not display scripts when auto show is disabled' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Get-ColorScriptsConfigurationRoot -ModuleName ColorScripts-Enhanced -MockWith { $null }
                     Mock -CommandName Get-ConfigurationDataInternal -ModuleName ColorScripts-Enhanced -MockWith {
@@ -2841,7 +2844,7 @@ namespace CoverageHost
                 }
             }
 
-            It "logs verbose output when configuration root retrieval fails" {
+            It 'logs verbose output when configuration root retrieval fails' {
                 $originalCI = $env:CI
                 $originalGitHubActions = $env:GITHUB_ACTIONS
                 $env:CI = $null
@@ -2873,8 +2876,8 @@ namespace CoverageHost
             }
         }
 
-        Context "Test-ConsoleOutputRedirected" {
-            It "returns false when delegate throws" {
+        Context 'Test-ConsoleOutputRedirected' {
+            It 'returns false when delegate throws' {
                 $result = InModuleScope ColorScripts-Enhanced {
                     $original = $script:IsOutputRedirectedDelegate
                     try {
@@ -2890,8 +2893,8 @@ namespace CoverageHost
             }
         }
 
-        Context "Initialize-SystemDelegateState" {
-            It "restores default delegates and functions" {
+        Context 'Initialize-SystemDelegateState' {
+            It 'restores default delegates and functions' {
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $sampleFile = Join-Path -Path $testRoot -ChildPath 'delegate-check.txt'
                 Set-Content -LiteralPath $sampleFile -Value 'Delegate test content' -Encoding UTF8

@@ -67,12 +67,12 @@ if (-not $PSBoundParameters.ContainsKey('ScriptCount')) {
         throw "Cannot locate Get-ColorScriptCount.ps1 at $counterScript"
     }
 
-    Write-Verbose "Invoking Get-ColorScriptCount.ps1"
+    Write-Verbose 'Invoking Get-ColorScriptCount.ps1'
     $ScriptCount = & $counterScript
 }
 
 if ($ScriptCount -lt 0) {
-    throw "ScriptCount must be non-negative"
+    throw 'ScriptCount must be non-negative'
 }
 
 $plusValue = "${ScriptCount}+"

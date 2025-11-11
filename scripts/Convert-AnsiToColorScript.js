@@ -1073,12 +1073,14 @@ function sanitizeName(name) {
  * }}
  */
 function parseArguments(argv) {
-    const options = /** @type {{
-    columns: number | null;
-    autoWrap: boolean;
-    stripSpaceBackground: boolean;
-    maxHeight: number | null;
-}} */ ({
+    const options = /**
+     * @type {{
+     *     columns: number | null;
+     *     autoWrap: boolean;
+     *     stripSpaceBackground: boolean;
+     *     maxHeight: number | null;
+     * }}
+     */ ({
         columns: null,
         autoWrap: true,
         stripSpaceBackground: false,

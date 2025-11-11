@@ -91,8 +91,8 @@ $psd1Content += "'@`n"
 $psd1Content | Out-File -FilePath $OutputPath -Encoding UTF8 -Force
 
 Write-Host "Extracted $messageCount messages to $OutputPath" -ForegroundColor Green
-Write-Host "Next steps:" -ForegroundColor Cyan
-Write-Host "1. Review and rename keys to be semantic (e.g., ScriptNotFound instead of Msg1)" -ForegroundColor White
-Write-Host "2. Add Import-LocalizedData to your module" -ForegroundColor White
-Write-Host "3. Replace hardcoded strings with localized versions" -ForegroundColor White
-Write-Host "4. Create translations in other language folders" -ForegroundColor White
+Write-Host 'Next steps:' -ForegroundColor Cyan
+Write-Host '1. Review and rename keys to be semantic (e.g., ScriptNotFound instead of Msg1)' -ForegroundColor White
+Write-Host '2. Add Import-LocalizedData to your module' -ForegroundColor White
+Write-Host '3. Replace hardcoded strings with localized versions' -ForegroundColor White
+Write-Host '4. Create translations in other language folders' -ForegroundColor White

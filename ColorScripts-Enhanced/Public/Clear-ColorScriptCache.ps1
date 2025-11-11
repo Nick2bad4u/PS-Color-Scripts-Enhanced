@@ -448,8 +448,18 @@ function Clear-ColorScriptCache {
         $output = $results.ToArray()
 
         if (-not $PassThru) {
-            $summaryMessage = [string]::Format('Cache clear summary – Removed: {0}, Missing: {1}, Skipped: {2}, DryRun: {3}, Errors: {4}', $summary.Removed, $summary.Missing, $summary.Skipped, $summary.DryRun, $summary.Errors)
-            Write-ColorScriptInformation -Message $summaryMessage -Quiet:$false
+            $formatString = $null
+            if ($script:Messages -and $script:Messages.ContainsKey('CacheClearSummaryFormat')) {
+                $formatString = $script:Messages.CacheClearSummaryFormat
+            }
+
+            if ([string]::IsNullOrWhiteSpace($formatString)) {
+                $formatString = 'Cache clear summary: Removed {0}, Missing {1}, Skipped {2}, DryRun {3}, Errors {4}'
+            }
+
+            $summaryMessage = $formatString -f $summary.Removed, $summary.Missing, $summary.Skipped, $summary.DryRun, $summary.Errors
+            $summarySegment = New-ColorScriptAnsiText -Text $summaryMessage -Color 'Cyan' -NoAnsiOutput:$false
+            Write-ColorScriptInformation -Message $summarySegment -Quiet:$false -PreferConsole -Color 'Cyan'
         }
 
         return $output

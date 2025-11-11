@@ -51,7 +51,7 @@ param(
     [switch]$SkipErrors,
 
     [Parameter()]
-    [string]$Filter = "*",
+    [string]$Filter = '*',
 
     [Parameter()]
     [switch]$Parallel,
@@ -141,8 +141,8 @@ function Invoke-ColorScriptRun {
 $runnerDefinition = "function Invoke-ColorScriptRun {`n$((Get-Command Invoke-ColorScriptRun -CommandType Function).Definition)`n}"
 
 Write-Host "`n+====================================================================+" -ForegroundColor Cyan
-Write-Host "|          ColorScripts Enhanced - Test All Scripts                 |" -ForegroundColor Cyan
-Write-Host "+====================================================================+" -ForegroundColor Cyan
+Write-Host '|          ColorScripts Enhanced - Test All Scripts                 |' -ForegroundColor Cyan
+Write-Host '+====================================================================+' -ForegroundColor Cyan
 Write-Host "`nFound $recordCount colorscript(s) to test`n" -ForegroundColor Yellow
 
 $successful = 0
@@ -153,7 +153,7 @@ $initialEap = $ErrorActionPreference
 
 if ($Parallel) {
     if ($PSVersionTable.PSVersion.Major -lt 7) {
-        throw "-Parallel requires PowerShell 7 or later."
+        throw '-Parallel requires PowerShell 7 or later.'
     }
 
     $parallelResults = $records | ForEach-Object -Parallel {
@@ -190,7 +190,7 @@ else {
             Write-Host $record.Name -ForegroundColor White
         }
         Write-Host ('-' * 70) -ForegroundColor DarkGray
-        Write-Host ""
+        Write-Host ''
 
         try {
             $ErrorActionPreference = 'Stop'
@@ -240,13 +240,13 @@ $ErrorActionPreference = $initialEap
 
 Write-Host "`n"
 Write-Host ('=' * 70) -ForegroundColor Cyan
-Write-Host "                         TEST SUMMARY                               " -ForegroundColor Cyan
+Write-Host '                         TEST SUMMARY                               ' -ForegroundColor Cyan
 Write-Host ('=' * 70) -ForegroundColor Cyan
 Write-Host "`nTotal Scripts: " -NoNewline
 Write-Host $recordCount -ForegroundColor White
-Write-Host "Successful:    " -NoNewline
+Write-Host 'Successful:    ' -NoNewline
 Write-Host $successful -ForegroundColor Green
-Write-Host "Failed:        " -NoNewline
+Write-Host 'Failed:        ' -NoNewline
 Write-Host $failed -ForegroundColor $(if ($failed -gt 0) { 'Red' } else { 'Green' })
 
 if ($failedScripts.Count -gt 0) {

@@ -143,7 +143,7 @@ function Write-ModuleTrace {
     }
 }
 
-Write-ModuleTrace ("--- Import begin: {0} ---" -f (Get-Date -Format o))
+Write-ModuleTrace ('--- Import begin: {0} ---' -f (Get-Date -Format o))
 
 $moduleInfo = $ExecutionContext.SessionState.Module
 $moduleRootCandidates = @()
@@ -172,7 +172,7 @@ if ($environmentRoot) {
     $moduleRootCandidates += $environmentRoot
 }
 
-Write-ModuleTrace ("Initial module root candidates: {0}" -f ($moduleRootCandidates -join ';'))
+Write-ModuleTrace ('Initial module root candidates: {0}' -f ($moduleRootCandidates -join ';'))
 
 $resolvedCandidates = @()
 foreach ($candidate in $moduleRootCandidates) {
@@ -189,7 +189,7 @@ foreach ($candidate in $moduleRootCandidates) {
 }
 
 $moduleRootCandidates = $resolvedCandidates
-Write-ModuleTrace ("Resolved module root candidates: {0}" -f ($moduleRootCandidates -join ';'))
+Write-ModuleTrace ('Resolved module root candidates: {0}' -f ($moduleRootCandidates -join ';'))
 
 $cultureFallback = @()
 try {
@@ -212,6 +212,23 @@ while ($currentCulture -and $currentCulture.Name -and -not ($cultureFallback -co
 $cultureFallback += 'en-US'
 $cultureFallback += 'en'
 $cultureFallback = $cultureFallback | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | Select-Object -Unique
+
+$script:LocalizationMode = 'Auto'
+$localizationModeEnv = $env:COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE
+if (-not [string]::IsNullOrWhiteSpace($localizationModeEnv)) {
+    switch -Regex ($localizationModeEnv.Trim()) {
+        '^(?i)(embedded|defaults?)$' { $script:LocalizationMode = 'Embedded'; break }
+        '^(?i)(full|files?|load|disk)$' { $script:LocalizationMode = 'Full'; break }
+        '^(?i)(auto)$' { $script:LocalizationMode = 'Auto'; break }
+        default { $script:LocalizationMode = 'Auto' }
+    }
+}
+elseif ($env:COLOR_SCRIPTS_ENHANCED_FORCE_LOCALIZATION -match '^(?i)(1|true|yes|full)$') {
+    $script:LocalizationMode = 'Full'
+}
+elseif ($env:COLOR_SCRIPTS_ENHANCED_PREFER_EMBEDDED_MESSAGES -match '^(?i)(1|true|yes|embedded)$') {
+    $script:LocalizationMode = 'Embedded'
+}
 
 $script:EmbeddedDefaultMessages = ConvertFrom-StringData @'
 # ColorScripts-Enhanced Localized Messages
@@ -267,6 +284,8 @@ StatusSkippedUpToDate = Skipped (up-to-date)
 StatusSkippedByUser = Skipped by user
 StatusFailed = Failed
 StatusUpToDateSkipped = Up-to-date (skipped)
+CacheBuildSummaryFormat = Cache build summary: Processed {0}, Updated {1}, Skipped {2}, Failed {3}
+CacheClearSummaryFormat = Cache clear summary: Removed {0}, Missing {1}, Skipped {2}, DryRun {3}, Errors {4}
 
 # Interactive Messages
 PressSpacebarToContinue = Press [Spacebar] to continue to next, [Q] to quit`n
@@ -299,7 +318,7 @@ if (-not $script:DelegateSyncRoot) { $script:DelegateSyncRoot = New-Object Syste
 $privateDirectory = Join-Path -Path $PSScriptRoot -ChildPath 'Private'
 if (Test-Path -LiteralPath $privateDirectory) {
     Get-ChildItem -Path $privateDirectory -Filter '*.ps1' -File | Sort-Object Name | ForEach-Object {
-        Write-ModuleTrace ("Loading private script: {0}" -f $_.Name)
+        Write-ModuleTrace ('Loading private script: {0}' -f $_.Name)
         . $_.FullName
     }
 }
@@ -307,7 +326,7 @@ else {
     Write-ModuleTrace ("Private script directory '{0}' was not found." -f $privateDirectory)
 }
 
-$localizationResult = Initialize-ColorScriptsLocalization -CandidateRoots ($moduleRootCandidates | Select-Object -Unique) -CultureFallbackOverride $cultureFallback
+$localizationResult = Initialize-ColorScriptsLocalization -CandidateRoots ($moduleRootCandidates | Select-Object -Unique) -CultureFallbackOverride $cultureFallback -UseDefaultCandidates
 if ($localizationResult -and $localizationResult.ModuleRoot) {
     $script:ModuleRoot = $localizationResult.ModuleRoot
 }
@@ -328,12 +347,12 @@ if ($script:ModuleRoot) {
         }
     }
     catch {
-        Write-ModuleTrace ("Resolve-Path for module root failed: {0}" -f $_.Exception.Message)
+        Write-ModuleTrace ('Resolve-Path for module root failed: {0}' -f $_.Exception.Message)
     }
 
     $script:ScriptsPath = Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts'
     $script:MetadataPath = Join-Path -Path $script:ModuleRoot -ChildPath 'ScriptMetadata.psd1'
-    Write-ModuleTrace ("Module root finalized at {0}" -f $script:ModuleRoot)
+    Write-ModuleTrace ('Module root finalized at {0}' -f $script:ModuleRoot)
 }
 else {
     Write-ModuleTrace 'Module root could not be determined; relative operations may fail.'
@@ -342,7 +361,7 @@ else {
 $publicDirectory = Join-Path -Path $PSScriptRoot -ChildPath 'Public'
 if (Test-Path -LiteralPath $publicDirectory) {
     Get-ChildItem -Path $publicDirectory -Filter '*.ps1' -File | Sort-Object Name | ForEach-Object {
-        Write-ModuleTrace ("Loading public script: {0}" -f $_.Name)
+        Write-ModuleTrace ('Loading public script: {0}' -f $_.Name)
         . $_.FullName
     }
 }
@@ -376,8 +395,8 @@ try {
     Invoke-ColorScriptsStartup
 }
 catch {
-    Write-ModuleTrace ("Startup invocation failure: {0}" -f $_.Exception.Message)
-    Write-Verbose ("Auto-show on import skipped: {0}" -f $_.Exception.Message)
+    Write-ModuleTrace ('Startup invocation failure: {0}' -f $_.Exception.Message)
+    Write-Verbose ('Auto-show on import skipped: {0}' -f $_.Exception.Message)
 }
 
-Write-ModuleTrace ("--- Import complete: {0} ---" -f (Get-Date -Format o))
+Write-ModuleTrace ('--- Import complete: {0} ---' -f (Get-Date -Format o))

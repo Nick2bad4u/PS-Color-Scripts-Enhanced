@@ -1,6 +1,6 @@
 # Additional coverage-oriented tests for ColorScripts-Enhanced public commands
 
-Describe "ColorScripts-Enhanced extended coverage" {
+Describe 'ColorScripts-Enhanced extended coverage' {
     BeforeAll {
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
         $script:ModulePath = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
@@ -67,6 +67,8 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $script:ConfigurationData = $null
             $script:ConfigurationInitialized = $false
             $script:CacheInitialized = $false
+            $script:CacheValidationPerformed = $false
+            $script:CacheValidationManualOverride = $false
             AfterEach {
                 if ($null -eq $script:OriginalConfigOverride) {
                     Remove-Item Env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT -ErrorAction SilentlyContinue
@@ -103,6 +105,8 @@ Describe "ColorScripts-Enhanced extended coverage" {
                     $script:ConfigurationData = $null
                     $script:ConfigurationInitialized = $false
                     $script:CacheInitialized = $false
+                    $script:CacheValidationPerformed = $false
+                    $script:CacheValidationManualOverride = $false
                     $script:CacheDir = $null
                     $script:MetadataCache = $null
                     $script:MetadataLastWriteTime = $null
@@ -149,7 +153,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
         Remove-Module ColorScripts-Enhanced -ErrorAction SilentlyContinue
     }
 
-    Context "Clear-ColorScriptCache" {
+    Context 'Clear-ColorScriptCache' {
         BeforeEach {
             $script:CacheWarnings = @()
             InModuleScope ColorScripts-Enhanced {
@@ -160,7 +164,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith { @() }
         }
 
-        It "shows help when requested" {
+        It 'shows help when requested' {
             Mock -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -MockWith { param($CommandName) $script:HelpCommand = $CommandName }
 
             Clear-ColorScriptCache -h
@@ -168,7 +172,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $script:HelpCommand | Should -Be 'Clear-ColorScriptCache'
         }
 
-        It "throws when neither name nor all is provided" {
+        It 'throws when neither name nor all is provided' {
             $errorRecord = $null
             try {
                 Clear-ColorScriptCache
@@ -181,7 +185,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $errorRecord.Exception.Message | Should -Be 'Specify -All or -Name to clear cache entries.'
         }
 
-        It "removes a specific cache file" {
+        It 'removes a specific cache file' {
             $cacheFile = Join-Path $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH 'alpha.cache'
             Set-Content -LiteralPath $cacheFile -Value 'cached data'
 
@@ -191,7 +195,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $result.Status | Should -Contain 'Removed'
         }
 
-        It "supports dry-run mode" {
+        It 'supports dry-run mode' {
             $cacheFile = Join-Path $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH 'alpha.cache'
             Set-Content -LiteralPath $cacheFile -Value 'cached data'
 
@@ -201,13 +205,13 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $result.Status | Should -Contain 'DryRun'
         }
 
-        It "reports missing cache entries" {
+        It 'reports missing cache entries' {
             $result = Clear-ColorScriptCache -Name 'unknown'
 
             ($result | Where-Object { $_.Name -eq 'unknown' }).Status | Should -Contain 'Missing'
         }
 
-        It "surfaces removal errors" {
+        It 'surfaces removal errors' {
             $cacheFile = Join-Path $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH 'alpha.cache'
             Set-Content -LiteralPath $cacheFile -Value 'cached data'
             Mock -CommandName Remove-Item -ModuleName ColorScripts-Enhanced -MockWith { throw 'remove failure' }
@@ -217,7 +221,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             ($result | Where-Object { $_.Name -eq 'alpha' }).Status | Should -Contain 'Error'
         }
 
-        It "warns when cache path is missing" {
+        It 'warns when cache path is missing' {
             Mock -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -MockWith { param($Message) $script:CacheWarnings += $Message }
             $result = Clear-ColorScriptCache -All -Path (Join-Path $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH 'missing-subdir')
 
@@ -225,7 +229,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $result.Count | Should -Be 0
         }
 
-        It "clears all cache files" {
+        It 'clears all cache files' {
             $alpha = Join-Path $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH 'alpha.cache'
             $beta = Join-Path $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH 'beta.cache'
             Set-Content -LiteralPath $alpha -Value 'alpha'
@@ -238,7 +242,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             ($result | Where-Object { $_.Name -eq 'alpha' }).Status | Should -Contain 'Removed'
         }
 
-        It "warns when clearing all but no files exist" {
+        It 'warns when clearing all but no files exist' {
             Mock -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -MockWith { param($Message) $script:CacheWarnings += $Message }
             Get-ChildItem -LiteralPath $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH -Filter '*.cache' -ErrorAction SilentlyContinue | Remove-Item -Force
 
@@ -248,7 +252,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $result.Count | Should -Be 0
         }
 
-        It "skips entries that do not satisfy filters" {
+        It 'skips entries that do not satisfy filters' {
             Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
                 @([pscustomobject]@{ Name = 'alpha' })
             }
@@ -260,7 +264,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $result.Count | Should -Be 0
         }
 
-        It "selects filtered entries automatically when using -All" {
+        It 'selects filtered entries automatically when using -All' {
             $alpha = Join-Path $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH 'alpha.cache'
             $beta = Join-Path $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH 'beta.cache'
             Set-Content -LiteralPath $alpha -Value 'alpha'
@@ -277,7 +281,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $result.Status | Should -Not -BeNullOrEmpty
         }
 
-        It "warns when filters match no scripts" {
+        It 'warns when filters match no scripts' {
             Mock -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -MockWith { param($Message) $script:CacheWarnings += $Message }
             $result = Clear-ColorScriptCache -Category 'Empty'
 
@@ -285,7 +289,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $result.Count | Should -Be 0
         }
 
-        It "respects -WhatIf by skipping removal" {
+        It 'respects -WhatIf by skipping removal' {
             $cacheFile = Join-Path $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH 'alpha.cache'
             Set-Content -LiteralPath $cacheFile -Value 'alpha'
 
@@ -300,8 +304,8 @@ Describe "ColorScripts-Enhanced extended coverage" {
         }
     }
 
-    Context "Export-ColorScriptMetadata" {
-        It "writes metadata with file and cache details" {
+    Context 'Export-ColorScriptMetadata' {
+        It 'writes metadata with file and cache details' {
             $scriptPath = Join-Path -Path $script:ScriptsDir -ChildPath 'export.ps1'
             Set-Content -LiteralPath $scriptPath -Value "Write-Output 'export'" -Encoding UTF8
 
@@ -313,7 +317,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             Test-Path -LiteralPath $outputFile | Should -BeTrue
         }
 
-        It "throws when the output path is unresolved" {
+        It 'throws when the output path is unresolved' {
             Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith { $null } -ParameterFilter { $Path -eq '::invalid::' }
 
             $caught = $null
@@ -330,7 +334,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $caught.Exception.Message | Should -Be "Unable to resolve output path '::invalid::'."
         }
 
-        It "shows help when requested" {
+        It 'shows help when requested' {
             Mock -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced
 
             Export-ColorScriptMetadata -h
@@ -338,7 +342,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             Assert-MockCalled -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'Export-ColorScriptMetadata' }
         }
 
-        It "continues when file info cannot be retrieved" {
+        It 'continues when file info cannot be retrieved' {
             $unavailablePath = 'Z:\nonexistent\failinfo.ps1'
 
             $capturedVerbose = [System.Collections.Generic.List[string]]::new()
@@ -368,16 +372,22 @@ Describe "ColorScripts-Enhanced extended coverage" {
             ($capturedVerbose | Where-Object { $_ -like "Unable to retrieve file info for 'failinfo'*" }) | Should -Not -BeNullOrEmpty
         }
 
-        It "includes cache metadata when available" {
+        It 'includes cache metadata when available' {
             $scriptPath = Join-Path -Path $script:ScriptsDir -ChildPath 'cacheerr.ps1'
             Set-Content -LiteralPath $scriptPath -Value "Write-Host 'cacheerr'" -Encoding UTF8
 
-            $cachePath = Join-Path -Path $script:CachePath -ChildPath 'cacheerr.cache'
+            $cacheDirectory = InModuleScope ColorScripts-Enhanced {
+                Initialize-CacheDirectory
+                $script:CacheDir
+            }
+
+            $cachePath = Join-Path -Path $cacheDirectory -ChildPath 'cacheerr.cache'
             Set-Content -LiteralPath $cachePath -Value 'cached' -Encoding UTF8
 
-            InModuleScope ColorScripts-Enhanced -Parameters @{ testScriptPath = $scriptPath } {
-                param($testScriptPath)
+            InModuleScope ColorScripts-Enhanced -Parameters @{ testScriptPath = $scriptPath; testCachePath = $cachePath } {
+                param($testScriptPath, $testCachePath)
                 [void]$testScriptPath
+                [void]$testCachePath
                 Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
                     @([pscustomobject]@{
                             Name        = 'cacheerr'
@@ -398,7 +408,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
         }
 
-        It "creates the output directory when exporting to a file" {
+        It 'creates the output directory when exporting to a file' {
             $scriptPath = Join-Path -Path $script:ScriptsDir -ChildPath 'dircreate.ps1'
             Set-Content -LiteralPath $scriptPath -Value "Write-Host 'dircreate'" -Encoding UTF8
 
@@ -423,7 +433,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $payload | Should -HaveCount 1
         }
 
-        It "honors WhatIf when exporting metadata to a file" {
+        It 'honors WhatIf when exporting metadata to a file' {
             $scriptPath = Join-Path -Path $script:ScriptsDir -ChildPath 'export-whatif.ps1'
             Set-Content -LiteralPath $scriptPath -Value "Write-Output 'whatif'" -Encoding UTF8
 
@@ -437,7 +447,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             Test-Path -LiteralPath $outputPath | Should -BeFalse
         }
 
-        It "defers export when directory creation is declined" {
+        It 'defers export when directory creation is declined' {
             $scriptPath = Join-Path -Path $script:ScriptsDir -ChildPath 'export-shouldprocess.ps1'
             Set-Content -LiteralPath $scriptPath -Value "Write-Output 'shouldprocess'" -Encoding UTF8
 
@@ -473,8 +483,8 @@ Describe "ColorScripts-Enhanced extended coverage" {
         }
     }
 
-    Context "Get-ColorScriptMetadataTable" {
-        It "builds metadata from PSD1 and saves JSON cache" {
+    Context 'Get-ColorScriptMetadataTable' {
+        It 'builds metadata from PSD1 and saves JSON cache' {
             $scriptsDir = $script:ScriptsDir
             $metadataPath = $script:MetadataFile
 
@@ -485,7 +495,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
                 Set-Content -LiteralPath $scriptPath -Value "Write-Output '$name'" -Encoding UTF8
             }
 
-            $metadataContent = @"
+            $metadataContent = @'
 @{
     Categories = @{
         Nature  = @('aurora-bands')
@@ -507,7 +517,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
         @{ Category = 'Numeric';   Patterns = '.*123$';  Tags = 'NumberTag' }
     )
 }
-"@
+'@
 
             Set-Content -LiteralPath $metadataPath -Value $metadataContent -Encoding UTF8
 
@@ -527,7 +537,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
         }
 
-        It "returns cached metadata when timestamp is unchanged" {
+        It 'returns cached metadata when timestamp is unchanged' {
             $scriptsDir = $script:ScriptsDir
             $metadataPath = $script:MetadataFile
 
@@ -1301,7 +1311,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
     }
 }
 '@
-            $metadataContent = @"
+            $metadataContent = @'
 @{
     Categories = @{
         Abstract = @('cached')
@@ -1310,7 +1320,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
         cached = 'Initial description'
     }
 }
-"@
+'@
             [System.IO.File]::WriteAllText($metadataPath, $metadataContent, [System.Text.Encoding]::UTF8)
 
             $result = InModuleScope ColorScripts-Enhanced {
@@ -1329,7 +1339,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             [object]::ReferenceEquals($result.Second, $result.First) | Should -BeTrue
         }
 
-        It "loads from JSON cache when in-memory cache is cleared" {
+        It 'loads from JSON cache when in-memory cache is cleared' {
             $scriptsDir = $script:ScriptsDir
             $metadataPath = $script:MetadataFile
 
@@ -1351,7 +1361,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
         }
 
-        It "rebuilds metadata when JSON cache is invalid" {
+        It 'rebuilds metadata when JSON cache is invalid' {
             $scriptsDir = $script:ScriptsDir
             $metadataPath = $script:MetadataFile
 
@@ -1375,7 +1385,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
         }
 
-        It "logs and continues when metadata timestamp cannot be determined" {
+        It 'logs and continues when metadata timestamp cannot be determined' {
             $scriptsDir = $script:ScriptsDir
             $metadataPath = $script:MetadataFile
 
@@ -1396,7 +1406,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
         }
 
-        It "handles missing metadata file using defaults" {
+        It 'handles missing metadata file using defaults' {
             $scriptsDir = $script:ScriptsDir
 
             New-Item -ItemType File -Path (Join-Path -Path $scriptsDir -ChildPath 'fallback.ps1') -Force | Out-Null
@@ -1412,7 +1422,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
         }
 
-        It "continues when JSON cache save fails" {
+        It 'continues when JSON cache save fails' {
             $scriptsDir = $script:ScriptsDir
             $metadataPath = $script:MetadataFile
 
@@ -1431,7 +1441,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
         }
 
-        It "normalizes metadata values expressed as strings" {
+        It 'normalizes metadata values expressed as strings' {
             $scriptsDir = $script:ScriptsDir
             $metadataPath = $script:MetadataFile
 
@@ -1476,7 +1486,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $result.NoMeta.Tags | Should -Contain 'AutoCategorized'
         }
 
-        It "combines manual metadata with automatic category fallbacks" {
+        It 'combines manual metadata with automatic category fallbacks' {
             $scriptsDir = $script:ScriptsDir
             $metadataPath = $script:MetadataFile
 
@@ -1484,7 +1494,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
                 New-Item -ItemType File -Path (Join-Path -Path $scriptsDir -ChildPath "$name.ps1") -Force | Out-Null
             }
 
-            $metadataContent = @"
+            $metadataContent = @'
 @{
     Categories = @{
         Custom = @('solo')
@@ -1501,7 +1511,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
         @{ Category = 'StringCat'; Patterns = 'autostring';    Tags = 'StringTag' }
     )
 }
-"@
+'@
 
             [System.IO.File]::WriteAllText($metadataPath, $metadataContent, [System.Text.Encoding]::UTF8)
 
@@ -1529,7 +1539,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
         }
     }
 
-    Context "Show-ColorScript" {
+    Context 'Show-ColorScript' {
         BeforeEach {
             $script:RenderedOutputs = @()
             $script:Warnings = @()
@@ -1655,7 +1665,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
         }
 
-        It "lists scripts when requested" {
+        It 'lists scripts when requested' {
             Show-ColorScript -List -Category 'Nature' -Tag 'Bright'
 
             Assert-MockCalled -CommandName Get-ColorScriptList -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter {
@@ -1666,7 +1676,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
         }
 
-        It "forwards quiet and no-ANSI flags to list operations" {
+        It 'forwards quiet and no-ANSI flags to list operations' {
             Show-ColorScript -List -Quiet -NoAnsiOutput
 
             Assert-MockCalled -CommandName Get-ColorScriptList -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter {
@@ -1674,14 +1684,14 @@ Describe "ColorScripts-Enhanced extended coverage" {
             }
         }
 
-        It "defaults to the first script when no name is specified" {
+        It 'defaults to the first script when no name is specified' {
             $null = Show-ColorScript
 
             Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 1
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'built output'
         }
 
-        It "emits structured error when cache build produces no output" {
+        It 'emits structured error when cache build produces no output' {
             Mock -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Success = $false; StdOut = ''; StdErr = ''; ExitCode = 1 }
             }
@@ -1699,7 +1709,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $errorRecord.CategoryInfo.Category | Should -Be ([System.Management.Automation.ErrorCategory]::InvalidOperation)
         }
 
-        It "emits structured error when process invocation fails" {
+        It 'emits structured error when process invocation fails' {
             Mock -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Success = $false; StdOut = ''; StdErr = 'boom'; ExitCode = 9 }
             }
@@ -1717,7 +1727,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $errorRecord.CategoryInfo.Category | Should -Be ([System.Management.Automation.ErrorCategory]::InvalidOperation)
         }
 
-        It "shows command help when requested" {
+        It 'shows command help when requested' {
             Mock -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -MockWith {
                 param($CommandName)
                 $script:HelpCalled = $CommandName
@@ -1728,7 +1738,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $script:HelpCalled | Should -Be 'Show-ColorScript'
         }
 
-        It "returns cached output when available and passes through metadata" {
+        It 'returns cached output when available and passes through metadata' {
             Mock -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Available = $true; Content = 'cached output' }
             }
@@ -1747,14 +1757,14 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $result.Name | Should -Be 'alpha-one'
         }
 
-        It "builds cache when cached output is missing" {
+        It 'builds cache when cached output is missing' {
             $null = Show-ColorScript -Name 'alpha-one'
 
             Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 1
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'built output'
         }
 
-        It "falls back to stdout when cache build reports failure" {
+        It 'falls back to stdout when cache build reports failure' {
             Mock -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Success = $false; StdOut = 'fallback output'; StdErr = 'simulated failure'; ExitCode = 1 }
             }
@@ -1765,7 +1775,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'fallback output'
         }
 
-        It "throws when cache build fails without output" {
+        It 'throws when cache build fails without output' {
             Mock -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Success = $false; StdOut = ''; StdErr = ''; ExitCode = 2 }
             }
@@ -1781,7 +1791,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $caught | Should -Not -BeNullOrEmpty
         }
 
-        It "executes script directly when NoCache is specified" {
+        It 'executes script directly when NoCache is specified' {
             Mock -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Success = $true; StdOut = 'direct output'; StdErr = ''; ExitCode = 0 }
             }
@@ -1792,7 +1802,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0
         }
 
-        It "throws when direct execution fails" {
+        It 'throws when direct execution fails' {
             Mock -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Success = $false; StdOut = ''; StdErr = 'runtime error'; ExitCode = 3 }
             }
@@ -1809,7 +1819,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $caught.Exception.Message | Should -Match 'runtime error'
         }
 
-        It "emits rendered text to the pipeline when ReturnText is used" {
+        It 'emits rendered text to the pipeline when ReturnText is used' {
             Mock -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Available = $true; Content = 'pipeline output' }
             }
@@ -1819,7 +1829,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $output | Should -Be 'pipeline output'
         }
 
-        It "cycles through all scripts without waiting for input" {
+        It 'cycles through all scripts without waiting for input' {
             Show-ColorScript -All
 
             Assert-MockCalled -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -Times 1
@@ -1827,19 +1837,19 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $script:SleepLog.Count | Should -BeGreaterThan 0
         }
 
-        It "clears the host before each script when cycling all" {
+        It 'clears the host before each script when cycling all' {
             Show-ColorScript -All
 
             Assert-MockCalled -CommandName Clear-Host -ModuleName ColorScripts-Enhanced -Times 2
         }
 
-        It "skips host clearing when NoClear is specified" {
+        It 'skips host clearing when NoClear is specified' {
             Show-ColorScript -All -NoClear
 
             Assert-MockCalled -CommandName Clear-Host -ModuleName ColorScripts-Enhanced -Times 0
         }
 
-        It "supports wait-for-input navigation and quit shortcut" {
+        It 'supports wait-for-input navigation and quit shortcut' {
             Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
                 @(
                     [pscustomobject]@{ Name = 'alpha-one'; Path = 'C:\scripts\alpha-one.ps1' }
@@ -1869,7 +1879,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $script:RenderedOutputs.Count | Should -BeGreaterThan 0
         }
 
-        It "still displays wait-for-input prompts when quiet" {
+        It 'still displays wait-for-input prompts when quiet' {
             Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
                 @(
                     [pscustomobject]@{ Name = 'alpha-one'; Path = 'C:\scripts\alpha-one.ps1' }
@@ -1898,7 +1908,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             ($script:InfoMessages | Where-Object { $_ -match 'Press' }) | Should -Not -BeNullOrEmpty
         }
 
-        It "filters all scripts and warns when no matches" {
+        It 'filters all scripts and warns when no matches' {
             Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith { @() }
 
             Show-ColorScript -All -Category 'Custom'
@@ -1906,7 +1916,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             ($script:Warnings -join [Environment]::NewLine) | Should -Match 'specified criteria'
         }
 
-        It "uses cached output when cycling all scripts" {
+        It 'uses cached output when cycling all scripts' {
             Mock -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Available = $true; Content = 'all cached output' }
             }
@@ -1916,7 +1926,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'all cached output'
         }
 
-        It "executes all scripts directly when NoCache is set" {
+        It 'executes all scripts directly when NoCache is set' {
             Mock -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Success = $true; StdOut = 'all direct output'; StdErr = ''; ExitCode = 0 }
             }
@@ -1926,7 +1936,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'all direct output'
         }
 
-        It "selects a random script when requested" {
+        It 'selects a random script when requested' {
             Mock -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Available = $true; Content = 'random output' }
             }
@@ -1936,25 +1946,25 @@ Describe "ColorScripts-Enhanced extended coverage" {
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'random output'
         }
 
-        It "defaults to ANSI rendering when not disabled" {
+        It 'defaults to ANSI rendering when not disabled' {
             Show-ColorScript -Name 'alpha-one'
 
             ($script:InvokeWithUtf8Calls | Select-Object -Last 1).NoAnsiOutput | Should -BeFalse
         }
 
-        It "disables ANSI sequences when NoAnsiOutput is specified" {
+        It 'disables ANSI sequences when NoAnsiOutput is specified' {
             Show-ColorScript -Name 'alpha-one' -NoAnsiOutput
 
             ($script:InvokeWithUtf8Calls | Where-Object { $_.NoAnsiOutput }).Count | Should -BeGreaterThan 0
         }
 
-        It "suppresses informational messages when quiet" {
+        It 'suppresses informational messages when quiet' {
             Show-ColorScript -All -Quiet
 
             $script:InfoMessages | Where-Object { $_ -ne '' } | Should -BeNullOrEmpty
         }
 
-        It "defaults to the first script when metadata filtering is applied" {
+        It 'defaults to the first script when metadata filtering is applied' {
             Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
                 @(
                     [pscustomobject]@{
@@ -1987,7 +1997,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'default output'
         }
 
-        It "warns when no scripts are available" {
+        It 'warns when no scripts are available' {
             Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith { @() }
 
             Show-ColorScript
@@ -1995,13 +2005,13 @@ Describe "ColorScripts-Enhanced extended coverage" {
             ($script:Warnings -join [Environment]::NewLine) | Should -Match 'No colorscripts found'
         }
 
-        It "warns when requested names are missing" {
+        It 'warns when requested names are missing' {
             Show-ColorScript -Name 'missing*'
 
             ($script:Warnings -join [Environment]::NewLine) | Should -Match 'missing'
         }
 
-        It "reports exit code when direct execution fails without stderr" {
+        It 'reports exit code when direct execution fails without stderr' {
             Mock -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Success = $false; StdOut = ''; StdErr = ''; ExitCode = 42 }
             }
@@ -2017,7 +2027,7 @@ Describe "ColorScripts-Enhanced extended coverage" {
             $caught.Exception.Message | Should -Match '42'
         }
 
-        It "normalizes null rendered output to empty text" {
+        It 'normalizes null rendered output to empty text' {
             Mock -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Success = $true; StdOut = $null; StdErr = ''; ExitCode = 0 }
             }

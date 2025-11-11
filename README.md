@@ -347,6 +347,39 @@ Clear-ColorScriptCache -Name "aurora-*" -Confirm:$false
 
 > Tip: Set `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` to redirect cache files to a custom directory for CI or ephemeral test runs.
 
+### Validate Cache on Demand
+
+```powershell
+# Rebuild cache metadata before rendering
+Show-ColorScript -Name "bars" -ValidateCache
+
+# Apply validation for the entire session
+$env:COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE = '1'
+Import-Module ColorScripts-Enhanced -Force
+```
+
+Use the `-ValidateCache` switch (or the `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` environment variable) whenever you suspect stale cache data or when testing new scripts.
+
+### Accelerate Cache Builds on Multi-Core Systems
+
+Leverage powerful hardware by running cache builds in parallel:
+
+```powershell
+New-ColorScriptCache -All -Parallel -Threads 8
+```
+
+The `-Parallel` switch enables a runspace pool, while `-Threads` (alias for `-ThrottleLimit`) controls the maximum number of concurrent workers. Leave `-Threads` unspecified to default to the number of logical processors. The cmdlet gracefully falls back to sequential execution if multiple runspaces are unavailable.
+
+### Localization Modes
+
+Auto mode prefers PSD1 resources whenever they exist so you can override English strings without recompiling the module. Fine-tune the behaviour with `COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE`:
+
+- `auto` *(default)* – load PSD1 files when present, otherwise fall back to embedded messages.
+- `full` – always load from disk, even if embedded defaults would succeed.
+- `embedded` – skip PSD1 probes and rely on built-in English messages.
+
+Legacy toggles `COLOR_SCRIPTS_ENHANCED_FORCE_LOCALIZATION` and `COLOR_SCRIPTS_ENHANCED_PREFER_EMBEDDED_MESSAGES` are still honoured, but the consolidated mode variable is recommended.
+
 ### Persist Defaults with Configuration
 
 ```powershell

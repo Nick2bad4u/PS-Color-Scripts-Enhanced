@@ -42,7 +42,7 @@ param(
     [string]$OutputFile,
 
     [Parameter()]
-    [string]$OutputDirectory = ".\ColorScripts-Enhanced\Scripts",
+    [string]$OutputDirectory = '.\ColorScripts-Enhanced\Scripts',
 
     [Parameter()]
     [switch]$AddComment
@@ -106,7 +106,7 @@ process {
         $isLongSingleLine = ($firstLineLength -gt 800) -and ($nonEmptyLines.Count -le 2)
 
         if ($hasCursorPositioning) {
-            Write-Verbose "Detected single-line ANSI file with cursor positioning - converting to multi-line format"
+            Write-Verbose 'Detected single-line ANSI file with cursor positioning - converting to multi-line format'
 
             # Convert cursor positioning to newlines
             # ESC[row;colH or ESC[row;colf moves cursor to position
@@ -186,7 +186,7 @@ process {
             $content = $result.ToString()
         }
         elseif ($isLongSingleLine) {
-            Write-Verbose "Detected 80-column wrapped ANSI file - splitting into multiple lines"
+            Write-Verbose 'Detected 80-column wrapped ANSI file - splitting into multiple lines'
 
             # Get the first line (the one with all the content)
             $firstLine = $nonEmptyLines[0]            # We need to split this line every 80 visible characters while preserving ANSI codes
@@ -267,7 +267,7 @@ process {
             }
 
             if ($hasLongLines) {
-                Write-Verbose "Detected multi-line ANSI file with some long lines - wrapping at 80 columns"
+                Write-Verbose 'Detected multi-line ANSI file with some long lines - wrapping at 80 columns'
 
                 $result = [System.Text.StringBuilder]::new()
                 $lineWidth = 80
@@ -362,7 +362,7 @@ process {
         if ($AddComment) {
             [void]$scriptBuilder.AppendLine("# Converted from: $($ansiFileInfo.Name)")
             [void]$scriptBuilder.AppendLine("# Conversion date: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')")
-            [void]$scriptBuilder.AppendLine("")
+            [void]$scriptBuilder.AppendLine('')
         }
 
         # For PowerShell, we can just use Write-Host with the content directly

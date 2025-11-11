@@ -33,7 +33,7 @@
 param(
     [Parameter(Position = 0)]
     [ValidatePattern('^\d+\.\d+(\.\d+)?(\.\d+)?$')]
-    [string]$Version = (Get-Date).ToString("yyyy.MM.dd.HHmm"),
+    [string]$Version = (Get-Date).ToString('yyyy.MM.dd.HHmm'),
 
     [switch]$SkipReadme,
 
@@ -43,10 +43,10 @@ param(
 $ErrorActionPreference = 'Stop'
 
 # Validate paths
-$modulePath = "./ColorScripts-Enhanced"
-$manifestPath = Join-Path $modulePath "ColorScripts-Enhanced.psd1"
-$readmePath = "./README.md"
-$scriptsPath = Join-Path $modulePath "Scripts"
+$modulePath = './ColorScripts-Enhanced'
+$manifestPath = Join-Path $modulePath 'ColorScripts-Enhanced.psd1'
+$readmePath = './README.md'
+$scriptsPath = Join-Path $modulePath 'Scripts'
 
 Write-Verbose "Building module version: $Version"
 Write-Verbose "Module path: $modulePath"
@@ -59,7 +59,7 @@ if (-not (Test-Path $modulePath)) {
 # Count colorscripts
 $scriptCount = 0
 if (Test-Path $scriptsPath) {
-    $scriptCount = (Get-ChildItem -Path $scriptsPath -Filter "*.ps1" -File).Count
+    $scriptCount = (Get-ChildItem -Path $scriptsPath -Filter '*.ps1' -File).Count
     Write-Verbose "Found $scriptCount colorscripts"
 }
 else {
@@ -70,7 +70,7 @@ else {
 $updateDocsScript = Join-Path -Path $PSScriptRoot -ChildPath 'Update-DocumentationCounts.ps1'
 if (Test-Path -Path $updateDocsScript) {
     try {
-        Write-Verbose "Refreshing documentation script counts"
+        Write-Verbose 'Refreshing documentation script counts'
         & $updateDocsScript -ScriptCount $scriptCount | Out-Null
     }
     catch {
@@ -85,8 +85,8 @@ else {
 if (-not $SkipReadme) {
     if (Test-Path $readmePath) {
         try {
-            Copy-Item -Path $readmePath -Destination (Join-Path $modulePath "README.md") -Force
-            Write-Verbose "README.md copied successfully"
+            Copy-Item -Path $readmePath -Destination (Join-Path $modulePath 'README.md') -Force
+            Write-Verbose 'README.md copied successfully'
         }
         catch {
             Write-Warning "Failed to copy README.md: $_"
@@ -97,11 +97,11 @@ if (-not $SkipReadme) {
     }
 
     # Also copy the Gallery README
-    $galleryReadmePath = "./ColorScripts-Enhanced/README-Gallery.md"
+    $galleryReadmePath = './ColorScripts-Enhanced/README-Gallery.md'
     if (Test-Path $galleryReadmePath) {
         try {
             # It's already in the module directory, just ensure it's there
-            Write-Verbose "Gallery README already in module directory"
+            Write-Verbose 'Gallery README already in module directory'
         }
         catch {
             Write-Warning "Failed to verify Gallery README: $_"
@@ -112,20 +112,20 @@ if (-not $SkipReadme) {
     }
 
     # Copy help documentation files
-    $helpDocsPath = "./docs"
+    $helpDocsPath = './docs'
     if (Test-Path $helpDocsPath) {
-        $helpDestPath = Join-Path $modulePath "docs"
+        $helpDestPath = Join-Path $modulePath 'docs'
         try {
             if (-not (Test-Path $helpDestPath)) {
                 New-Item -Path $helpDestPath -ItemType Directory -Force | Out-Null
             }
 
             # Copy all markdown help files
-            Get-ChildItem -Path $helpDocsPath -Filter "*.md" | ForEach-Object {
+            Get-ChildItem -Path $helpDocsPath -Filter '*.md' | ForEach-Object {
                 Copy-Item -Path $_.FullName -Destination $helpDestPath -Force
                 Write-Verbose "Copied help file: $($_.Name)"
             }
-            Write-Verbose "Help documentation files copied successfully"
+            Write-Verbose 'Help documentation files copied successfully'
         }
         catch {
             Write-Warning "Failed to copy help documentation: $_"
@@ -140,7 +140,7 @@ if (-not $SkipReadme) {
 if (Test-Path $manifestPath) {
     try {
         Remove-Item -Path $manifestPath -Force
-        Write-Verbose "Removed existing manifest"
+        Write-Verbose 'Removed existing manifest'
     }
     catch {
         Write-Warning "Failed to remove existing manifest: $_"
@@ -164,18 +164,18 @@ $functionsToExport = @(
 $manifestParams = @{
     ModuleVersion         = $Version
     Path                  = $manifestPath
-    Guid                  = "f77548d7-23eb-48ce-a6e0-f64b4758d995"
-    Author                = "Nick2bad4u"
-    CompanyName           = "Community"
-    Copyright             = "(c) 2025. All rights reserved."
-    RootModule            = "ColorScripts-Enhanced.psm1"
-    CompatiblePSEditions  = @("Desktop", "Core")
-    PowerShellVersion     = "5.1"
-    ProcessorArchitecture = "None"
+    Guid                  = 'f77548d7-23eb-48ce-a6e0-f64b4758d995'
+    Author                = 'Nick2bad4u'
+    CompanyName           = 'Community'
+    Copyright             = '(c) 2025. All rights reserved.'
+    RootModule            = 'ColorScripts-Enhanced.psm1'
+    CompatiblePSEditions  = @('Desktop', 'Core')
+    PowerShellVersion     = '5.1'
+    ProcessorArchitecture = 'None'
     FunctionsToExport     = $functionsToExport
     CmdletsToExport       = @()
     VariablesToExport     = @()
-    AliasesToExport       = @("scs", "Update-ColorScriptCache", "Build-ColorScriptCache")
+    AliasesToExport       = @('scs', 'Update-ColorScriptCache', 'Build-ColorScriptCache')
     Description           = @'
 🎨 ColorScripts-Enhanced: Professional ANSI Art Terminal Experience
 
@@ -228,18 +228,18 @@ PERFECT FOR
 ✓ DevOps automation
 ✓ Learning ANSI art and terminal graphics
 '@
-    ProjectUri            = "https://github.com/Nick2bad4u/ps-color-scripts-enhanced"
-    IconUri               = "https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/docs/colorscripts-icon.png"
-    Tags                  = @("ColorScripts", "ANSI", "Terminal", "Art", "Cache", "Performance", "PowerShell", "Startup", "Terminal-Startup", "ANSI-Art", "Colorful-Terminal", "PowerShell-Art", "Fancy-Terminal", "Terminal-Enhancement", "Beautiful-Terminal", "Terminal-Colors", "PowerShell-Scripts", "Terminal-Art", "Colorful-Scripts", "Enhanced-Terminal", "Terminal-Visuals", "PowerShell-Module", "Colorful-Output", "Terminal-Themes", "PSEdition_Desktop", "PSEdition_Core", "Windows", "Linux", "MacOS", "Localization", "Internationalization", "Spanish", "Español", "Multilingual")
+    ProjectUri            = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced'
+    IconUri               = 'https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/docs/colorscripts-icon.png'
+    Tags                  = @('ColorScripts', 'ANSI', 'Terminal', 'Art', 'Cache', 'Performance', 'PowerShell', 'Startup', 'Terminal-Startup', 'ANSI-Art', 'Colorful-Terminal', 'PowerShell-Art', 'Fancy-Terminal', 'Terminal-Enhancement', 'Beautiful-Terminal', 'Terminal-Colors', 'PowerShell-Scripts', 'Terminal-Art', 'Colorful-Scripts', 'Enhanced-Terminal', 'Terminal-Visuals', 'PowerShell-Module', 'Colorful-Output', 'Terminal-Themes', 'PSEdition_Desktop', 'PSEdition_Core', 'Windows', 'Linux', 'MacOS', 'Localization', 'Internationalization', 'Spanish', 'Español', 'Multilingual')
     FileList              = @(
-        "ColorScripts-Enhanced.psm1",
-        "ColorScripts-Enhanced.psd1",
-        "README.md",
-        "README-Gallery.md",
-        "ScriptMetadata.psd1",
-        "Install.ps1"
+        'ColorScripts-Enhanced.psm1',
+        'ColorScripts-Enhanced.psd1',
+        'README.md',
+        'README-Gallery.md',
+        'ScriptMetadata.psd1',
+        'Install.ps1'
     )
-    HelpInfoUri           = "https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/ColorScripts-Enhanced/"
+    HelpInfoUri           = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/ColorScripts-Enhanced/'
     ReleaseNotes          = @"
 Version ${Version}:
     - Enhanced caching system with OS-wide cache in AppData
@@ -259,7 +259,7 @@ Version ${Version}:
 # Create the manifest
 try {
     $manifest = New-ModuleManifest @manifestParams
-    Write-Host "✓ Module manifest created successfully" -ForegroundColor Green
+    Write-Host '✓ Module manifest created successfully' -ForegroundColor Green
     Write-Host "  Version: $Version" -ForegroundColor Cyan
     Write-Host "  Path: $manifestPath" -ForegroundColor Cyan
 
@@ -482,7 +482,7 @@ $($releaseNotes.TrimEnd())
 
     # Validate the formatted manifest
     Test-ModuleManifest -Path $manifestPath -ErrorAction Stop | Out-Null
-    Write-Host "✓ Manifest validation passed" -ForegroundColor Green
+    Write-Host '✓ Manifest validation passed' -ForegroundColor Green
 }
 catch {
     Write-Error "Failed to create or validate manifest: $_"
@@ -491,7 +491,7 @@ catch {
 
 # Build help files if not skipped
 if (-not $SkipHelp) {
-    Write-Verbose "Building help files..."
+    Write-Verbose 'Building help files...'
 
     # Ensure a modern PlatyPS module is available
     $platyCandidates = Get-Module -ListAvailable -Name 'Microsoft.PowerShell.PlatyPS', 'PlatyPS', 'platyPS' |
@@ -502,7 +502,7 @@ if (-not $SkipHelp) {
     $requiresInstall = -not $selectedPlaty -or $selectedPlaty.Version.Major -lt 1
 
     if ($requiresInstall) {
-        Write-Host "Installing Microsoft.PowerShell.PlatyPS module..." -ForegroundColor Yellow
+        Write-Host 'Installing Microsoft.PowerShell.PlatyPS module...' -ForegroundColor Yellow
         $installSucceeded = $false
         $installErrors = @()
 
@@ -529,7 +529,7 @@ if (-not $SkipHelp) {
             foreach ($err in $installErrors) {
                 Write-Warning "Failed to install PlatyPS candidate: $err"
             }
-            Write-Host "Skipping help file generation" -ForegroundColor Yellow
+            Write-Host 'Skipping help file generation' -ForegroundColor Yellow
             exit 0
         }
 
@@ -539,16 +539,16 @@ if (-not $SkipHelp) {
     }
 
     if (-not $selectedPlaty) {
-        Write-Warning "No PlatyPS module available after installation. Skipping help file generation."
+        Write-Warning 'No PlatyPS module available after installation. Skipping help file generation.'
         exit 0
     }
 
     # Run Build-Help.ps1 if it exists
-    $buildHelpPath = Join-Path $PSScriptRoot "Build-Help.ps1"
+    $buildHelpPath = Join-Path $PSScriptRoot 'Build-Help.ps1'
     if (Test-Path $buildHelpPath) {
         try {
             & $buildHelpPath -UpdateMarkdown
-            Write-Host "✓ Help files built successfully" -ForegroundColor Green
+            Write-Host '✓ Help files built successfully' -ForegroundColor Green
         }
         catch {
             Write-Warning "Failed to build help files: $_"

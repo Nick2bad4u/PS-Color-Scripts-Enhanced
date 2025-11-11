@@ -3,7 +3,7 @@ document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/New-ColorScriptCache.md
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 11/06/2025
 PlatyPS schema version: 2024-05-01
 ---
 
@@ -23,18 +23,20 @@ By default, the cmdlet displays a concise summary of the caching operation. Use 
 
 The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.
 
+For faster rebuilds on multi-core systems, use the `-Parallel` switch together with the `-ThrottleLimit` (or `-Threads`) parameter to control how many workers are scheduled. The cmdlet automatically reverts to sequential execution when parallel runspaces cannot be created on the current host.
+
 ## SYNTAX
 
 ### All
 
 ```
-New-ColorScriptCache [-All] [-Force] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-All] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Named
 
 ```
-New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## EXAMPLES
@@ -172,6 +174,14 @@ New-ColorScriptCache -Tag Animated -PassThru |
 
 Caches all scripts tagged as animated and shows the count of cached scripts.
 
+### EXAMPLE 14
+
+```powershell
+New-ColorScriptCache -All -Parallel -Threads 8
+```
+
+Build the entire cache using eight worker threads. The cmdlet automatically falls back to sequential execution when parallel jobs are not available on the current host.
+
 ## PARAMETERS
 
 ### -All
@@ -296,6 +306,49 @@ ParameterSets:
    ValueFromPipeline: false
    ValueFromPipelineByPropertyName: false
    ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Parallel
+
+Enable multi-threaded cache building. When specified, the cmdlet executes cache jobs across a runspace pool for faster completion on capable systems. Use in combination with `-ThrottleLimit` (or the `-Threads` alias) to control the number of concurrent workers. If multi-threading cannot be initialized, the cmdlet falls back to sequential execution automatically.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+     Position: Named
+     IsRequired: false
+     ValueFromPipeline: false
+     ValueFromPipelineByPropertyName: false
+     ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -ThrottleLimit
+
+Specifies the maximum number of concurrent cache workers when `-Parallel` is requested. Accepts values from 1 to 256. The default (when omitted) is the number of logical processors on the current machine. The alias `-Threads` is provided for convenience. Values less than or equal to one automatically revert to sequential execution.
+
+```yaml
+Type: System.Int32
+DefaultValue: 0
+SupportsWildcards: false
+Aliases:
+ - Threads
+ParameterSets:
+ - Name: (All)
+     Position: Named
+     IsRequired: false
+     ValueFromPipeline: false
+     ValueFromPipelineByPropertyName: false
+     ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
