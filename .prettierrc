@@ -130,6 +130,7 @@
         "prettier-plugin-powershell",
         "prettier-plugin-merge"
     ],
+    "powershellIndentSize": 4,
     "printWidth": 80,
     "proseWrap": "preserve",
     "quoteProps": "as-needed",
