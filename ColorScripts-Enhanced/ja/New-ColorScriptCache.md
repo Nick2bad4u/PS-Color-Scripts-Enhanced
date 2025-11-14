@@ -3,7 +3,7 @@ document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/ja/New-ColorScriptCache.md
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 11/14/2025
 PlatyPS schema version: 2024-05-01
 ---
 
@@ -15,9 +15,16 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNTAX
 
+### すべて
+
 ```
-New-ColorScriptCache [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>] [-WhatIf] [-Confirm]
- [<CommonParameters>]
+New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+```
+
+### 名前指定
+
+```
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -26,14 +33,55 @@ New-ColorScriptCache [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]
 
 キャッシュシステムは 6-19 倍のパフォーマンス向上を提供します。初回実行時には colorscript が通常通り実行され、その出力がキャッシュされます。以降の表示ではキャッシュされた出力を使用してほぼ瞬時にレンダリングされます。ソーススクリプトが変更されるとキャッシュは自動的に無効化され、出力の正確性が確保されます。
 
+
+### -Quiet
+
+完了時のサマリーメッセージを抑制します。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -NoAnsiOutput
+
+サマリー出力の ANSI カラーを無効にし、プレーンテキストにします。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - NoColor
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
 このコマンドレットを使用して：
 
-- 頻繁に使用するスクリプトのキャッシュを準備
-- セッション間での一貫したパフォーマンスを確保
-- モジュール更新後のキャッシュを事前ウォームアップ
-- 起動パフォーマンスを最適化
 
 このコマンドレットは、名前、カテゴリ、またはタグによる選択的なキャッシュをサポートし、ターゲットを絞ったキャッシュ準備を可能にします。
+
+既定では要約メッセージを表示します。`-PassThru` を指定すると詳細な結果が取得でき、`-Quiet` で要約を抑制し、`-NoAnsiOutput` でANSIカラーを含まないテキストを出力できます。
 
 ## EXAMPLES
 
@@ -110,6 +158,48 @@ Type: System.Management.Automation.SwitchParameter
 DefaultValue: false
 SupportsWildcards: false
 Aliases: cf
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Force
+
+既存のキャッシュが最新でも再生成を強制します。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PassThru
+
+各スクリプトの結果オブジェクトを返します。指定しない場合は要約のみ表示されます。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
 ParameterSets:
  - Name: (All)
    Position: Named

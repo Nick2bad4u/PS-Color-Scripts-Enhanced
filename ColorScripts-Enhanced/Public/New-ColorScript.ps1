@@ -104,7 +104,20 @@ foreach (`$line in `$ansiArt) {
         return
     }
 
-    [System.IO.File]::WriteAllText($targetPath, $scriptContent, $script:Utf8NoBomEncoding)
+    try {
+        Invoke-FileWriteAllText -Path $targetPath -Content $scriptContent -Encoding $script:Utf8NoBomEncoding
+    }
+    catch {
+        $errorTemplate = if ($script:Messages -and $script:Messages.ContainsKey('UnableToWriteColorScriptFile')) {
+            $script:Messages.UnableToWriteColorScriptFile
+        }
+        else {
+            "Unable to write colorscript file '{0}': {1}"
+        }
+
+        $errorMessage = $errorTemplate -f $targetPath, $_.Exception.Message
+        Invoke-ColorScriptError -Message $errorMessage -ErrorId 'ColorScriptsEnhanced.ScriptWriteFailed' -Category ([System.Management.Automation.ErrorCategory]::WriteError) -TargetObject $targetPath -Exception $_.Exception -Cmdlet $PSCmdlet
+    }
     Reset-ScriptInventoryCache
 
     if ($OpenInEditor) {
@@ -112,7 +125,14 @@ foreach (`$line in `$ansiArt) {
             Invoke-Item -LiteralPath $targetPath
         }
         catch {
-            Write-Warning "Unable to open editor for ${targetPath}: $($_.Exception.Message)"
+            $warningTemplate = if ($script:Messages -and $script:Messages.ContainsKey('UnableToOpenEditorForPath')) {
+                $script:Messages.UnableToOpenEditorForPath
+            }
+            else {
+                "Unable to open editor for '{0}': {1}"
+            }
+
+            Write-Warning ($warningTemplate -f $targetPath, $_.Exception.Message)
         }
     }
 

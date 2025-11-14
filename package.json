@@ -38,6 +38,7 @@
   },
   "scripts": {
     "build": "pwsh -NoProfile -File ./scripts/build.ps1 && npm run release:notes && npm run release:notes:latest && npm run verify && npm run test:coverage",
+    "test:linux": "npm run test:coverage",
     "build:help": "pwsh -NoProfile -File ./scripts/Build-Help.ps1 -UpdateMarkdown",
     "build:skip-help": "pwsh -NoProfile -File ./scripts/build.ps1 -SkipHelp",
     "convert": "node ./scripts/Convert-AnsiToColorScript.js --strip-space-bg",

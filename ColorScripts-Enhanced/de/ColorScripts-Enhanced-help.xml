@@ -341,50 +341,210 @@ Add-ColorScriptProfile -SkipStartupScript
       <command:noun>ColorScriptCache</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>Entfernt zwischengespeicherte Ausgabedateien für ColorScripts, um eine frische Ausführung bei der nächsten Anzeige zu erzwingen. Dieses Cmdlet bietet gezieltes Cache-Management für einzelne Skripte oder Massenoperationen.</maml:para>
-      <maml:para>Das Cache-System speichert gerenderte ANSI-Ausgaben, um nahezu sofortige Anzeigeleistung zu bieten. Im Laufe der Zeit können zwischengespeicherte Dateien veraltet werden, wenn Quellskripte modifiziert werden, oder Sie möchten den Cache aus Troubleshooting-Gründen löschen.</maml:para>
-      <maml:para>Verwenden Sie dieses Cmdlet, wenn:</maml:para>
-      <maml:para>- Quell-ColorScripts modifiziert wurden - Cache-Korruption vermutet wird - Sie frische Ausführung sicherstellen möchten - Speicherplatz freigegeben werden soll</maml:para>
-      <maml:para>Das Cmdlet unterstützt sowohl gezieltes Löschen (spezifische Skripte) als auch Massenoperationen (alle zwischengespeicherten Dateien).</maml:para>
+      <maml:para />
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
         <maml:name>Clear-ColorScriptCache</maml:name>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Confirm</maml:name>
+          <maml:description>
+            <maml:para>Fordert Sie zur Bestätigung auf, bevor das Cmdlet ausgeführt wird. Verwenden Sie `-Confirm:$false`, um die Abfrage zu unterdrücken.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>WhatIf</maml:name>
+          <maml:description>
+            <maml:para>Zeigt an, welche Aktionen ausgeführt würden, ohne Änderungen zu übernehmen. Nutzt das integrierte PowerShell-ShouldProcess-Verhalten.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
       </command:syntaxItem>
     </command:syntax>
     <command:parameters>
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>All</maml:name>
         <maml:description>
-          <maml:para>Löscht alle zwischengespeicherten ColorScript-Dateien. Kann nicht mit dem Parameter -Name verwendet werden.</maml:para>
+          <maml:para>Löscht alle zwischengespeicherten ColorScript-Dateien im Zielverzeichnis. Dieser Schalter kann nicht zusammen mit `-Name`, `-Category` oder `-Tag` verwendet werden.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Category</maml:name>
+        <maml:description>
+          <maml:para>Filtert die zu bereinigenden Skripte nach Kategorie. Nur Cache-Dateien von Skripten, die den angegebenen Kategorien entsprechen, werden berücksichtigt. Kann mit `-Tag` kombiniert werden.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Confirm</maml:name>
+        <maml:description>
+          <maml:para>Fordert Sie zur Bestätigung auf, bevor das Cmdlet ausgeführt wird. Verwenden Sie `-Confirm:$false`, um die Abfrage zu unterdrücken.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>DryRun</maml:name>
+        <maml:description>
+          <maml:para>Zeigt an, welche Cache-Dateien gelöscht würden, ohne Änderungen vorzunehmen. Ideal, um Filterkriterien vor dem echten Löschen zu überprüfen.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
       </command:parameter>
       <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
         <maml:name>Name</maml:name>
         <maml:description>
-          <maml:para>Gibt die Namen der ColorScripts an, die aus dem Cache gelöscht werden sollen. Unterstützt Wildcards (\* und ?) für Mustervergleich.</maml:para>
+          <maml:para>Gibt die Namen der ColorScripts (oder Wildcard-Muster) an, deren Cache entfernt werden soll. Akzeptiert Pipelineeingaben und Objekte mit einer `Name`-Eigenschaft.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>NoAnsiOutput</maml:name>
+        <maml:description>
+          <maml:para>Deaktiviert ANSI-Farbcodes in der Zusammenfassung. Praktisch für Konsolen oder Logsysteme, die keine Farben darstellen können.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>PassThru</maml:name>
+        <maml:description>
+          <maml:para>Gibt detaillierte Ergebnisobjekte für jede verarbeitete Cache-Datei zurück. Ohne diesen Schalter wird nur eine farbige Zusammenfassung ausgegeben.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="1" aliases="none">
+        <maml:name>Path</maml:name>
+        <maml:description>
+          <maml:para>Legt ein alternatives Cache-Verzeichnis fest. Standardmäßig verwendet das Cmdlet den vom Modul verwalteten Cachepfad. Nützlich für benutzerdefinierte Speicherorte oder CI/CD-Umgebungen.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.String</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Quiet</maml:name>
+        <maml:description>
+          <maml:para>Unterdrückt die Zusammenfassungsmeldung nach Abschluss der Bereinigung. Warnungen und Fehler werden weiterhin ausgegeben.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Tag</maml:name>
+        <maml:description>
+          <maml:para>Filtert Skripte anhand ihrer Metadaten-Tags, bevor der Cache bereinigt wird. Mehrere Werte (ODER-Filter) sind möglich.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>WhatIf</maml:name>
+        <maml:description>
+          <maml:para>Zeigt an, welche Aktionen ausgeführt würden, ohne Änderungen zu übernehmen. Nutzt das integrierte PowerShell-ShouldProcess-Verhalten.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
       </command:parameter>
     </command:parameters>
     <command:inputTypes>
       <command:inputType>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>System.String</dev:name>
         </dev:type>
         <maml:description>
-          <maml:para>Dieses Cmdlet akzeptiert keine Eingaben aus der Pipeline.</maml:para>
+          <maml:para>Sie können Skriptnamen als Zeichenfolgen per Pipeline übergeben. Jeder Name wird auf zugehörige Cache-Dateien abgebildet.</maml:para>
+        </maml:description>
+      </command:inputType>
+      <command:inputType>
+        <dev:type>
+          <dev:name>System.String</dev:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>Arrays von Namen können ebenfalls übergeben werden, zum Beispiel aus `Get-ColorScriptList`.</maml:para>
+        </maml:description>
+      </command:inputType>
+      <command:inputType>
+        <dev:type>
+          <dev:name>System.Management.Automation.PSObject</dev:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>Objekte mit einer `Name`- oder `ScriptName`-Eigenschaft werden unterstützt. Der Wert wird extrahiert und für die Cache-Bereinigung verwendet.</maml:para>
         </maml:description>
       </command:inputType>
     </command:inputTypes>
     <command:returnValues>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>System.Object</dev:name>
         </dev:type>
         <maml:description>
-          <maml:para>Dieses Cmdlet gibt keine Ausgaben an die Pipeline zurück.</maml:para>
+          <maml:para>Bei Verwendung von `-PassThru` gibt das Cmdlet für jede verarbeitete Cache-Datei ein Objekt mit Status, Skriptnamen, Cachepfad und Meldung zurück. Ohne `-PassThru` wird lediglich eine (optionale) Zusammenfassung geschrieben.
+DefaultValue: false
+SupportsWildcards: false
+Aliases: cf
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Name
+
+Gibt die Namen der ColorScripts an, die aus dem Cache gelöscht werden sollen. Unterstützt Wildcards (\* und ?) für Mustervergleich.
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: true
+Aliases: []
+ParameterSets:
+ - Name: Name
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```</maml:para>
+        </maml:description>
+      </command:returnValue>
+      <command:returnValue>
+        <dev:type>
+          <dev:name>-WhatIf</dev:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>Zeigt, was passieren würde, wenn das Cmdlet ausgeführt wird. Das Cmdlet wird nicht ausgeführt.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: false
+SupportsWildcards: false
+Aliases: wi
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```</maml:para>
+        </maml:description>
+      </command:returnValue>
+      <command:returnValue>
+        <dev:type>
+          <dev:name>CommonParameters</dev:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).</maml:para>
         </maml:description>
       </command:returnValue>
     </command:returnValues>
@@ -408,71 +568,7 @@ Cache-Dateien werden in einem modulverwalteten Verzeichnis gespeichert. Verwende
 Das Löschen des Caches führt dazu, dass Skripte bei der nächsten Anzeige normal ausgeführt werden, was länger dauern kann als die zwischengespeicherte Ausführung. Der Cache wird bei nachfolgenden Anzeigen automatisch neu aufgebaut.</maml:para>
       </maml:alert>
     </maml:alertSet>
-    <command:examples>
-      <command:example>
-        <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name "spectrum"
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Löscht den Cache für das spezifische ColorScript namens "spectrum".</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -All
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Löscht alle zwischengespeicherten ColorScript-Dateien.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name "aurora*", "geometric*"
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Löscht den Cache für ColorScripts, die den angegebenen Wildcard-Mustern entsprechen.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name aurora-waves -WhatIf
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Zeigt, welche Cache-Dateien gelöscht würden, ohne sie tatsächlich zu entfernen.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Clear cache for all scripts in a category
-Get-ColorScriptList -Category Nature -AsObject | ForEach-Object {
-    Clear-ColorScriptCache -Name $_.Name
-}
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Löscht den Cache für alle naturthematischen ColorScripts.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-    </command:examples>
+    <command:examples />
     <command:relatedLinks>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
@@ -1452,196 +1548,6 @@ foreach ($theme in $themes) {
       <maml:navigationLink>
         <maml:linkText>New-ColorScriptCache</maml:linkText>
         <command:uri>New-ColorScriptCache.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Documentation</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
-      </maml:navigationLink>
-    </command:relatedLinks>
-  </command:command>
-  <command:command>
-    <command:details>
-      <command:name>New-ColorScriptCache</command:name>
-      <maml:description>
-        <maml:para>Erstellt Cache für die Leistungsoptimierung von ColorScripts vorab.</maml:para>
-      </maml:description>
-      <command:verb>New</command:verb>
-      <command:noun>ColorScriptCache</command:noun>
-    </command:details>
-    <maml:description>
-      <maml:para>Generiert vorab gecachte Ausgaben für ColorScripts, um optimale Leistung bei der ersten Anzeige zu gewährleisten. Dieses Cmdlet führt ColorScripts im Voraus aus und speichert ihre gerenderten Ausgaben für sofortigen Abruf.</maml:para>
-      <maml:para>Das Caching-System bietet 6-19x Leistungsverbesserungen, indem die Skriptausführungszeit bei der Anzeige eliminiert wird. Gecachte Inhalte werden automatisch ungültig, wenn Quellskripte geändert werden.</maml:para>
-      <maml:para>Verwenden Sie dieses Cmdlet, um:</maml:para>
-      <maml:para>- Cache für häufig verwendete Skripte vorzubereiten - Konsistente Leistung über Sitzungen hinweg zu gewährleisten - Cache nach Modul-Updates vorzuwärmen - Startleistung zu optimieren</maml:para>
-      <maml:para>Das Cmdlet unterstützt selektives Caching nach Name, Kategorie oder Tags, was eine gezielte Cache-Vorbereitung ermöglicht.</maml:para>
-    </maml:description>
-    <command:syntax>
-      <command:syntaxItem>
-        <maml:name>New-ColorScriptCache</maml:name>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-          <maml:name>Category</maml:name>
-          <maml:description>
-            <maml:para>Filtert Skripte zum Cachen nach einer oder mehreren Kategorien.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
-        </command:parameter>
-        <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
-          <maml:name>Name</maml:name>
-          <maml:description>
-            <maml:para>Gibt ColorScript-Namen zum Cachen an. Unterstützt Wildcards (\* und ?).</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
-        </command:parameter>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-          <maml:name>Tag</maml:name>
-          <maml:description>
-            <maml:para>Filtert Skripte zum Cachen nach einem oder mehreren Tags.</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
-        </command:parameter>
-      </command:syntaxItem>
-    </command:syntax>
-    <command:parameters>
-      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-        <maml:name>Category</maml:name>
-        <maml:description>
-          <maml:para>Filtert Skripte zum Cachen nach einer oder mehreren Kategorien.</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
-      </command:parameter>
-      <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
-        <maml:name>Name</maml:name>
-        <maml:description>
-          <maml:para>Gibt ColorScript-Namen zum Cachen an. Unterstützt Wildcards (\* und ?).</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
-      </command:parameter>
-      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-        <maml:name>Tag</maml:name>
-        <maml:description>
-          <maml:para>Filtert Skripte zum Cachen nach einem oder mehreren Tags.</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
-      </command:parameter>
-    </command:parameters>
-    <command:inputTypes>
-      <command:inputType>
-        <dev:type>
-          <dev:name>None</dev:name>
-        </dev:type>
-        <maml:description>
-          <maml:para>Dieses Cmdlet akzeptiert keine Eingaben aus der Pipeline.</maml:para>
-        </maml:description>
-      </command:inputType>
-    </command:inputTypes>
-    <command:returnValues>
-      <command:returnValue>
-        <dev:type>
-          <dev:name>System.Object</dev:name>
-        </dev:type>
-        <maml:description>
-          <maml:para>Gibt Cache-Buildergebnisse mit Erfolg/Fehlerstatus für jedes Skript zurück.</maml:para>
-        </maml:description>
-      </command:returnValue>
-    </command:returnValues>
-    <maml:alertSet>
-      <maml:alert>
-        <maml:para>**Autor:** Nick
-**Modul:** ColorScripts-Enhanced
-**Erfordert:** PowerShell 5.1 oder höher
-
-**Leistungsbeeinflussung:**
-Vorab-Caching eliminiert die Ausführungszeit bei der ersten Anzeige und bietet sofortiges visuelles Feedback. Besonders vorteilhaft für komplexe oder animierte Skripte.
-
-**Cache-Verwaltung:**
-Gecachte Dateien werden in modulverwalteten Verzeichnissen gespeichert und automatisch ungültig gemacht, wenn Quellskripte geändert werden. Verwenden Sie Clear-ColorScriptCache, um veralteten Cache zu entfernen.
-
-**Bewährte Praktiken:**
-
-- Cache häufig verwendete Skripte für optimale Leistung
-- Verwenden Sie selektives Caching, um unnötige Verarbeitung zu vermeiden
-- Führen Sie nach Modul-Updates aus, um die Cache-Gültigkeit zu gewährleisten</maml:para>
-      </maml:alert>
-    </maml:alertSet>
-    <command:examples>
-      <command:example>
-        <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Erstellt Cache für alle verfügbaren ColorScripts vorab.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache -Name "spectrum", "aurora-waves"
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Cached bestimmte ColorScripts nach Namen.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache -Category Nature
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Erstellt Cache für alle naturthematischen ColorScripts vorab.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache -Tag animated
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Cached alle ColorScripts, die als "animated" getaggt sind.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Cache scripts for startup optimization
-New-ColorScriptCache -Category Geometric -Tag minimal
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Bereitet Cache für leichte geometrische Skripte vor, die ideal für schnelle Startanzeigen sind.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-    </command:examples>
-    <command:relatedLinks>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/de/New-ColorScriptCache.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Show-ColorScript</maml:linkText>
-        <command:uri>Show-ColorScript.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Clear-ColorScriptCache</maml:linkText>
-        <command:uri>Clear-ColorScriptCache.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Get-ColorScriptList</maml:linkText>
-        <command:uri>Get-ColorScriptList.md</command:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>Online Documentation</maml:linkText>

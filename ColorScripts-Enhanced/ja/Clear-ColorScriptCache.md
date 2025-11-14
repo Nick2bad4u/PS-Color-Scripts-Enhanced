@@ -1,88 +1,310 @@
----
-document type: cmdlet
-external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/ja/Clear-ColorScriptCache.md
-Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
-PlatyPS schema version: 2024-05-01
----
-
-# Clear-ColorScriptCache
-
-## SYNOPSIS
-
-キャッシュされたカラースクリプトの出力ファイルをクリアします。
-
-## SYNTAX
-
-```
-Clear-ColorScriptCache [[-Name] <string[]>] [-All] [-WhatIf] [-Confirm] [<CommonParameters>]
-```
-
-## DESCRIPTION
-
-カラースクリプトのキャッシュされた出力ファイルを削除し、次回の表示時に新しく実行されるようにします。このコマンドレットは、個別のスクリプトまたは一括操作のためのターゲットキャッシュ管理を提供します。
-
-キャッシュシステムは、レンダリングされたANSI出力を保存して、ほぼ瞬時の表示パフォーマンスを提供します。時間が経つにつれて、ソーススクリプトが変更された場合、キャッシュファイルが古くなる可能性があります。また、トラブルシューティングのためにキャッシュをクリアしたい場合もあります。
-
-このコマンドレットを使用する状況：
-
-- ソースカラースクリプトが変更された場合
-- キャッシュの破損が疑われる場合
-- 新しい実行を確実にしたい場合
-- ディスク容量を解放したい場合
-
-このコマンドレットは、ターゲットクリア（特定のスクリプト）と一括操作（すべてのキャッシュファイル）の両方をサポートします。
-
-## EXAMPLES
-
-### EXAMPLE 1
-
-```powershell
-Clear-ColorScriptCache -Name "spectrum"
-```
-
-"spectrum"という名前の特定のカラースクリプトのキャッシュをクリアします。
-
-### EXAMPLE 2
-
-```powershell
-Clear-ColorScriptCache -All
-```
-
-すべてのキャッシュされたカラースクリプトファイルをクリアします。
-
-### EXAMPLE 3
-
-```powershell
-Clear-ColorScriptCache -Name "aurora*", "geometric*"
-```
-
-指定されたワイルドカードパターンに一致するカラースクリプトのキャッシュをクリアします。
-
-### EXAMPLE 4
-
-```powershell
-Clear-ColorScriptCache -Name aurora-waves -WhatIf
-```
-
-実際に削除せずに、どのキャッシュファイルがクリアされるかを表示します。
-
-### EXAMPLE 5
-
-```powershell
-# Clear cache for all scripts in a category
-Get-ColorScriptList -Category Nature -AsObject | ForEach-Object {
-    Clear-ColorScriptCache -Name $_.Name
-}
-```
-
-自然テーマのすべてのカラースクリプトのキャッシュをクリアします。
-
 ## PARAMETERS
 
 ### -All
 
+対象ディレクトリ内のキャッシュファイルをすべて削除します。`-Name`、`-Category`、`-Tag` とは同時に使用できません。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Category
+
+削除対象をカテゴリでフィルターします。指定したカテゴリに属するスクリプトのキャッシュのみが処理されます。`-Tag` と併用できます。
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Confirm
+
+実行前に確認プロンプトを表示します。`-Confirm:$false` でスキップできます。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - cf
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -DryRun
+
+実際に削除せずに、どのキャッシュファイルが対象になるかを表示します。事前確認に便利です。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Name
+
+削除するカラースクリプト名またはパターンを指定します。パイプライン入力と `Name` プロパティのバインドをサポートし、ワイルドカード (`*`, `?`) を使用できます。
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: true
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: true
+   ValueFromPipelineByPropertyName: true
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: true
+   ValueFromPipelineByPropertyName: true
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -NoAnsiOutput
+
+サマリー出力の ANSI カラーを無効にし、プレーンテキストで表示します。カラー非対応のターミナルやログで有効です。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - NoColor
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PassThru
+
+処理結果の詳細オブジェクトを返します。既定ではサマリーのみが表示されます。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Path
+
+操作対象とする別のキャッシュディレクトリを指定します。カスタムキャッシュや CI/CD 環境で使用します。
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Quiet
+
+処理完了後のサマリーメッセージを抑制します。警告やエラーは引き続き表示されます。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Tag
+
+メタデータのタグで対象をフィルターします。複数指定すると OR 条件で評価されます。
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -WhatIf
+
+実行した場合の結果を表示し、変更は行いません。PowerShell の標準的な ShouldProcess 動作に従います。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - wi
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### CommonParameters
+
+このコマンドレットは、-Debug、-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutBuffer、-OutVariable、-PipelineVariable、-ProgressAction、-Verbose、-WarningAction、-WarningVariable の共通パラメータをサポートします。詳細は [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。
+
+## INPUTS
+
+### System.String
+
+スクリプト名を文字列としてパイプライン入力できます。各名前に対してキャッシュファイルが解決されます。
+
+### System.String[]
+
+複数の名前を含む配列入力もサポートされます。例: `Get-ColorScriptList` の結果。
+
+### System.Management.Automation.PSObject
+
+`Name` または `ScriptName` プロパティを持つオブジェクトをパイプできます。プロパティ値が削除対象として使用されます。
+
+## OUTPUTS
+
+### System.Object
+
+`-PassThru` を指定すると、各キャッシュエントリについて状態・スクリプト名・キャッシュパス・メッセージを含むオブジェクトが返されます。指定しない場合はサマリーのみが出力されます。
 すべてのキャッシュされたカラースクリプトファイルをクリアします。-Nameパラメータと一緒に使用できません。
 
 ```yaml

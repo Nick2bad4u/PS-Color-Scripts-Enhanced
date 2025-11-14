@@ -14,6 +14,9 @@
     FailedToExecuteColorscript = "Failed to execute colorscript '{0}': {1}"
     FailedToBuildCacheForScript = 'Failed to build cache for $($selection.Name).'
     CacheBuildFailedForScript = "Cache build failed for {0}: {1}"
+    CacheBuildGenericFailure = "Cache build failed."
+    CacheOperationWarning = "Failed to cache '{0}': {1}"
+    CacheOperationInitializationFailed = "Unable to initialize the cache directory: {0}"
     ScriptAlreadyExists = "Script '{0}' already exists. Use -Force to overwrite."
     ProfilePathNotDefinedForScope = "Profile path for scope '{0}' is not defined."
     ScriptPathNotFound = "Script path not found."
@@ -22,6 +25,8 @@
     NoChangesApplied = "No changes applied."
     UnableToRetrieveFileInfo = "Unable to retrieve file info for '{0}': {1}"
     UnableToReadCacheInfo = "Unable to read cache info for '{0}': {1}"
+    ProfileSnippetWriteFailed = "Unable to write ColorScripts-Enhanced profile snippet to '{0}': {1}"
+    UnableToWriteColorScriptFile = "Unable to write colorscript file '{0}': {1}"
     InvalidScriptNameEmpty = "Color script name cannot be empty or whitespace."
     InvalidScriptNameCharacters = "Color script name '{0}' contains invalid characters."
     InvalidPathValueEmpty = "Path value cannot be empty or whitespace."
@@ -65,13 +70,14 @@
     PressSpacebarForNext = "Press [Spacebar] for next, [Q] to quit..."
 
     # Success Messages
-    ProfileSnippetAdded = '[OK] Added ColorScripts-Enhanced startup snippet to $profilePath'
+    ProfileSnippetAdded = '[OK] Added ColorScripts-Enhanced startup snippet to {0}'
     ProfileAlreadyContainsSnippet = "Profile already contains ColorScripts-Enhanced snippet."
     ProfileAlreadyImportsModule = "Profile already imports ColorScripts-Enhanced."
     ModuleLoadedSuccessfully = "ColorScripts-Enhanced module loaded successfully."
     RemoteSessionDetected = "Remote session detected."
     ProfileAlreadyConfigured = "Profile already configured."
     ProfileSnippetAddedMessage = "ColorScripts-Enhanced profile snippet added."
+    UnableToOpenEditorForPath = "Unable to open editor for '{0}': {1}"
 
     # Help/Instruction Messages
     SpecifyNameToSelectScripts = "Specify -Name to select scripts when -All is explicitly disabled."

@@ -234,6 +234,9 @@ New-ColorScriptCache
   [-Name <String[]>]    # Specific scripts
   [-All]                # All scripts
   [-Force]              # Rebuild existing cache
+  [-PassThru]           # Return detailed results
+  [-Quiet]              # Suppress summary output
+  [-NoAnsiOutput]       # Disable ANSI in summary
 ```
 
 ### Clear-ColorScriptCache
@@ -244,6 +247,9 @@ Clear-ColorScriptCache
   [-All]                # All cache files
   [-Path <String>]      # Alternate cache root
   [-DryRun]             # Preview deletions
+  [-PassThru]           # Return detailed results
+  [-Quiet]              # Suppress summary output
+  [-NoAnsiOutput]       # Disable ANSI in summary
   [-WhatIf]
   [-Confirm]
 ```

@@ -3,7 +3,7 @@ document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/it/New-ColorScriptCache.md
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 11/14/2025
 PlatyPS schema version: 2024-05-01
 ---
 
@@ -15,9 +15,16 @@ Pre-costruisce la cache per l'ottimizzazione delle prestazioni dei colorscript.
 
 ## SYNTAX
 
+### Tutti
+
 ```
-New-ColorScriptCache [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>] [-WhatIf] [-Confirm]
- [<CommonParameters>]
+New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+```
+
+### Selezionati
+
+```
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -34,6 +41,8 @@ Utilizza questo cmdlet per:
 - Ottimizzare le prestazioni di avvio
 
 Il cmdlet supporta il caching selettivo per nome, categoria o tag, consentendo la preparazione mirata della cache.
+
+Per impostazione predefinita viene mostrato un riepilogo compatto. Usa `-PassThru` per ottenere oggetti dettagliati, `-Quiet` per nascondere il riepilogo o `-NoAnsiOutput` se ti serve testo senza sequenze ANSI.
 
 ## EXAMPLES
 
@@ -122,6 +131,48 @@ AcceptedValues: []
 HelpMessage: ""
 ```
 
+### -Force
+
+Forza la rigenerazione della cache anche se i file correnti sono già aggiornati.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PassThru
+
+Restituisce un oggetto dettagliato per ogni script elaborato. Senza questo parametro viene mostrato solo il riepilogo finale.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
 ### -Name
 
 Specifica i nomi dei colorscript da memorizzare nella cache. Supporta i caratteri jolly (\* e ?).
@@ -152,6 +203,49 @@ Type: System.String[]
 DefaultValue: None
 SupportsWildcards: false
 Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Quiet
+
+Nasconde il messaggio di riepilogo dopo la creazione della cache.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -NoAnsiOutput
+
+Disattiva le sequenze ANSI nel riepilogo finale producendo testo semplice.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - NoColor
 ParameterSets:
  - Name: (All)
    Position: Named

@@ -13,7 +13,10 @@ ConfigurationRootCouldNotBeResolved = Корень конфигурации не
 UnableToResolveProfilePath = Unable to resolve profile path '{0}'.
 FailedToExecuteColorscript = Не удалось выполнить colorscript
 FailedToBuildCacheForScript = Не удалось создать кэш для $($selection.Name).
-CacheBuildFailedForScript = Создание кэша не удалось для $($selection.Name): $($cacheResult.StdErr.Trim())
+CacheBuildFailedForScript = Создать кэш для {0} не удалось: {1}
+CacheBuildGenericFailure = Создание кэша не удалось.
+CacheOperationWarning = Не удалось закэшировать '{0}': {1}
+CacheOperationInitializationFailed = Не удалось инициализировать каталог кэша: {0}
 ScriptAlreadyExists = Скрипт ''$targetPath'' уже существует. Используйте -Force для перезаписи.
 ProfilePathNotDefinedForScope = 'Путь профиля для области ''$Scope'' не определен.'
 ScriptPathNotFound = Путь скрипта не найден.
@@ -22,6 +25,8 @@ CacheFileNotFound = Файл кэша не найден.
 NoChangesApplied = Изменения не применены.
 UnableToRetrieveFileInfo = Не удалось получить информацию о файле ''{0}'': {1}
 UnableToReadCacheInfo = Не удалось прочитать информацию о кэше для ''{0}'': {1}
+ProfileSnippetWriteFailed = Не удалось записать фрагмент профиля ColorScripts-Enhanced в '{0}': {1}
+UnableToWriteColorScriptFile = Не удалось записать файл colorscript '{0}': {1}
 InvalidScriptNameEmpty = Color script name cannot be empty or whitespace.
 InvalidScriptNameCharacters = Color script name '{0}' contains invalid characters.
 InvalidPathValueEmpty = Path value cannot be empty or whitespace.
@@ -64,13 +69,14 @@ PressSpacebarToContinue = Нажмите [Пробел] для продолже�
 PressSpacebarForNext = Нажмите [Пробел] для следующего, [Q] для выхода...
 
 # Success Messages
-ProfileSnippetAdded = [OK] Добавлен фрагмент запуска ColorScripts-Enhanced в $profilePath
+ProfileSnippetAdded = [OK] Добавлен фрагмент запуска ColorScripts-Enhanced в {0}
 ProfileAlreadyContainsSnippet = Профиль уже содержит фрагмент ColorScripts-Enhanced.
 ProfileAlreadyImportsModule = Профиль уже импортирует ColorScripts-Enhanced.
 ModuleLoadedSuccessfully = Модуль ColorScripts-Enhanced успешно загружен.
 RemoteSessionDetected = Обнаружена удаленная сессия.
 ProfileAlreadyConfigured = Профиль уже настроен.
 ProfileSnippetAddedMessage = Фрагмент профиля ColorScripts-Enhanced добавлен.
+UnableToOpenEditorForPath = Не удалось открыть редактор для '{0}': {1}
 
 # Help/Instruction Messages
 SpecifyNameToSelectScripts = Укажите -Name для выбора скриптов, когда -All явно отключен.

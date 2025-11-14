@@ -3,7 +3,7 @@ document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/it/Clear-ColorScriptCache.md
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 11/14/2025
 PlatyPS schema version: 2024-05-01
 ---
 
@@ -15,75 +15,22 @@ Cancella i file di output dei colorscript memorizzati nella cache.
 
 ## SYNTAX
 
+### Tutti
+
 ```
-Clear-ColorScriptCache [[-Name] <string[]>] [-All] [-WhatIf] [-Confirm] [<CommonParameters>]
-```
-
-## DESCRIPTION
-
-Rimuove i file di output memorizzati nella cache per i colorscript per forzare una nuova esecuzione al prossimo display. Questo cmdlet fornisce una gestione mirata della cache per script individuali o operazioni in blocco.
-
-Il sistema di cache memorizza l'output ANSI renderizzato per fornire prestazioni di display quasi istantanee. Nel tempo, i file memorizzati nella cache potrebbero diventare obsoleti se gli script sorgente vengono modificati, oppure potresti voler cancellare la cache per scopi di risoluzione problemi.
-
-Utilizza questo cmdlet quando:
-
-- Gli script sorgente dei colorscript sono stati modificati
-- È sospettata una corruzione della cache
-- Vuoi garantire una nuova esecuzione
-- È desiderato liberare spazio su disco
-
-Il cmdlet supporta sia la cancellazione mirata (script specifici) che operazioni in blocco (tutti i file memorizzati nella cache).
-
-## EXAMPLES
-
-### EXAMPLE 1
-
-```powershell
-Clear-ColorScriptCache -Name "spectrum"
+Clear-ColorScriptCache [-All] [-Path <String>] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-Cancella la cache per il colorscript specifico denominato "spectrum".
+### Selezionati
 
-### EXAMPLE 2
-
-```powershell
-Clear-ColorScriptCache -All
 ```
-
-Cancella tutti i file dei colorscript memorizzati nella cache.
-
-### EXAMPLE 3
-
-```powershell
-Clear-ColorScriptCache -Name "aurora*", "geometric*"
+Clear-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Path <String>] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
-
-Cancella la cache per i colorscript che corrispondono ai pattern di wildcard specificati.
-
-### EXAMPLE 4
-
-```powershell
-Clear-ColorScriptCache -Name aurora-waves -WhatIf
-```
-
-Mostra quali file di cache verrebbero cancellati senza rimuoverli effettivamente.
-
-### EXAMPLE 5
-
-```powershell
-# Clear cache for all scripts in a category
-Get-ColorScriptList -Category Nature -AsObject | ForEach-Object {
-    Clear-ColorScriptCache -Name $_.Name
-}
-```
-
-Cancella la cache per tutti i colorscript a tema natura.
-
 ## PARAMETERS
 
 ### -All
 
-Cancella tutti i file dei colorscript memorizzati nella cache. Non può essere utilizzato con il parametro -Name.
+Cancella tutti i file memorizzati nella cache nel percorso di destinazione. Questo parametro è mutuamente esclusivo con `-Name`, `-Category` e `-Tag`.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -102,18 +49,290 @@ AcceptedValues: []
 HelpMessage: ""
 ```
 
+### -Category
+
+Filtra gli script in base alla categoria prima di valutare i file di cache. Solo i colorscript che appartengono alle categorie specificate verranno considerati per la rimozione. Può essere combinato con `-Tag`.
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
 ### -Confirm
 
-Richiede conferma prima di eseguire il cmdlet.
+Richiede una conferma prima di procedere. Utilizzare `-Confirm:$false` per bypassare il prompt quando l'operazione è prevista.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: false
+DefaultValue: False
 SupportsWildcards: false
-Aliases: cf
+Aliases:
+ - cf
 ParameterSets:
  - Name: (All)
    Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -DryRun
+
+Mostra quali file di cache verrebbero eliminati senza apportare modifiche. Ideale per verificare i criteri di selezione prima della pulizia effettiva.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Name
+
+Specifica i nomi (o pattern con wildcard) dei colorscript di cui eliminare il cache. Accetta input dalla pipeline e oggetti con proprietà `Name`.
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: true
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: true
+   ValueFromPipelineByPropertyName: true
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: true
+   ValueFromPipelineByPropertyName: true
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -NoAnsiOutput
+
+Disattiva le sequenze di colore ANSI nel messaggio di riepilogo, producendo testo semplice per console o sistemi di log che non supportano i colori.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - NoColor
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PassThru
+
+Restituisce oggetti dettagliati per ogni file di cache elaborato. Senza questo switch viene scritto solo un riepilogo.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Path
+
+Specifica una directory cache alternativa. Utile quando si lavora con `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` o con percorsi personalizzati per test e CI/CD.
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Quiet
+
+Nasconde il messaggio finale di riepilogo. Le avvertenze e gli errori vengono comunque emessi.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Tag
+
+Filtra gli script per tag di metadati prima della rimozione. Accetta più valori (logica OR) e può essere combinato con `-Category`.
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -WhatIf
+
+Mostra le azioni che verrebbero eseguite senza applicarle. Utilizza il comportamento standard ShouldProcess di PowerShell.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - wi
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### CommonParameters
+
+Questo cmdlet supporta i parametri comuni: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable, -ProgressAction, -Verbose, -WarningAction e -WarningVariable. Per dettagli consultare [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+
+## INPUTS
+
+### System.String
+
+È possibile passare nomi di script come stringhe tramite pipeline. Ogni nome viene usato per individuare i relativi file di cache.
+
+### System.String[]
+
+Sono supportati anche array di nomi, ad esempio generati da `Get-ColorScriptList`.
+
+### System.Management.Automation.PSObject
+
+Oggetti con proprietà `Name` o `ScriptName` vengono mappati automaticamente ai file di cache da rimuovere.
+
+## OUTPUTS
+
+### System.Object
+
+Con `-PassThru` il cmdlet restituisce per ogni file un oggetto che include stato, percorso del cache, nome dello script e messaggi aggiuntivi. Senza lo switch viene prodotto solo un riepilogo opzionale.
    IsRequired: false
    ValueFromPipeline: false
    ValueFromPipelineByPropertyName: false

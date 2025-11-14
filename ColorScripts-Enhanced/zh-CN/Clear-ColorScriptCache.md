@@ -1,88 +1,310 @@
----
-document type: cmdlet
-external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/zh-CN/Clear-ColorScriptCache.md
-Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
-PlatyPS schema version: 2024-05-01
----
-
-# Clear-ColorScriptCache
-
-## SYNOPSIS
-
-清除缓存的颜色脚本输出文件。
-
-## SYNTAX
-
-```
-Clear-ColorScriptCache [[-Name] <string[]>] [-All] [-WhatIf] [-Confirm] [<CommonParameters>]
-```
-
-## DESCRIPTION
-
-删除颜色脚本的缓存输出文件，以在下次显示时强制执行新鲜执行。此 cmdlet 为单个脚本或批量操作提供目标缓存管理。
-
-缓存系统存储渲染的 ANSI 输出，以提供近乎即时的显示性能。随着时间的推移，如果源脚本被修改，缓存文件可能会过时，或者您可能出于故障排除目的想要清除缓存。
-
-使用此 cmdlet 的情况：
-
-- 源颜色脚本已被修改
-- 怀疑缓存损坏
-- 您想要确保新鲜执行
-- 希望释放磁盘空间
-
-此 cmdlet 支持目标清除（特定脚本）和批量操作（所有缓存文件）。
-
-## EXAMPLES
-
-### EXAMPLE 1
-
-```powershell
-Clear-ColorScriptCache -Name "spectrum"
-```
-
-清除名为 "spectrum" 的特定颜色脚本的缓存。
-
-### EXAMPLE 2
-
-```powershell
-Clear-ColorScriptCache -All
-```
-
-清除所有缓存的颜色脚本文件。
-
-### EXAMPLE 3
-
-```powershell
-Clear-ColorScriptCache -Name "aurora*", "geometric*"
-```
-
-清除与指定通配符模式匹配的颜色脚本的缓存。
-
-### EXAMPLE 4
-
-```powershell
-Clear-ColorScriptCache -Name aurora-waves -WhatIf
-```
-
-显示将清除哪些缓存文件，而不实际删除它们。
-
-### EXAMPLE 5
-
-```powershell
-# Clear cache for all scripts in a category
-Get-ColorScriptList -Category Nature -AsObject | ForEach-Object {
-    Clear-ColorScriptCache -Name $_.Name
-}
-```
-
-清除所有自然主题颜色脚本的缓存。
-
 ## PARAMETERS
 
 ### -All
 
+清除目标目录中的所有缓存文件。不能与 `-Name`、`-Category` 或 `-Tag` 同时使用。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Category
+
+按照分类筛选要清除的脚本。只有属于指定分类的脚本缓存才会被处理，可与 `-Tag` 组合使用。
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Confirm
+
+在执行删除之前提示确认。使用 `-Confirm:$false` 可跳过提示。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - cf
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -DryRun
+
+预览将要删除的内容而不做任何更改，适合在执行前验证条件。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Name
+
+指定要清除缓存的脚本名称或通配符模式。支持管道输入以及具有 `Name` 属性的对象。
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: true
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: true
+   ValueFromPipelineByPropertyName: true
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: true
+   ValueFromPipelineByPropertyName: true
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -NoAnsiOutput
+
+关闭摘要中的 ANSI 颜色序列，输出纯文本。适合不支持颜色的终端或日志系统。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - NoColor
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PassThru
+
+返回每个处理项的详细结果对象，否则仅输出汇总信息。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Path
+
+指定要操作的备用缓存目录，例如用于自定义缓存路径或 CI/CD 场景。
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Quiet
+
+抑制完成后输出的汇总消息，仍然会显示警告和错误。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Tag
+
+按元数据标签筛选要处理的脚本，可提供多个值（采用 OR 逻辑），并可与 `-Category` 组合。
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -WhatIf
+
+显示将要执行的操作而不进行修改，遵循 PowerShell 的标准 ShouldProcess 行为。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - wi
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### CommonParameters
+
+此 cmdlet 支持常用参数：-Debug、-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutBuffer、-OutVariable、-PipelineVariable、-ProgressAction、-Verbose、-WarningAction、-WarningVariable。详见 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216)。
+
+## INPUTS
+
+### System.String
+
+可以将脚本名称作为字符串通过管道传入，每个名称都会映射到对应的缓存文件。
+
+### System.String[]
+
+也可以传入名称数组，例如 `Get-ColorScriptList` 的输出。
+
+### System.Management.Automation.PSObject
+
+带有 `Name` 或 `ScriptName` 属性的对象可通过管道输入，其属性值将用于定位缓存。
+
+## OUTPUTS
+
+### System.Object
+
+指定 `-PassThru` 时，会为每个处理项返回包含状态、缓存路径、脚本名称和消息的对象；否则仅输出可选的汇总信息。
 清除所有缓存的颜色脚本文件。不能与 -Name 参数一起使用。
 
 ```yaml

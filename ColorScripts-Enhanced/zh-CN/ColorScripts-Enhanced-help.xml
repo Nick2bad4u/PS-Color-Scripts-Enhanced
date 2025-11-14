@@ -175,171 +175,6 @@ Add-ColorScriptProfile -Confirm
   </command:command>
   <command:command>
     <command:details>
-      <command:name>Clear-ColorScriptCache</command:name>
-      <maml:description>
-        <maml:para>清除缓存的颜色脚本输出文件。</maml:para>
-      </maml:description>
-      <command:verb>Clear</command:verb>
-      <command:noun>ColorScriptCache</command:noun>
-    </command:details>
-    <maml:description>
-      <maml:para>删除颜色脚本的缓存输出文件，以在下次显示时强制执行新鲜执行。此 cmdlet 为单个脚本或批量操作提供目标缓存管理。</maml:para>
-      <maml:para>缓存系统存储渲染的 ANSI 输出，以提供近乎即时的显示性能。随着时间的推移，如果源脚本被修改，缓存文件可能会过时，或者您可能出于故障排除目的想要清除缓存。</maml:para>
-      <maml:para>使用此 cmdlet 的情况：</maml:para>
-      <maml:para>- 源颜色脚本已被修改 - 怀疑缓存损坏 - 您想要确保新鲜执行 - 希望释放磁盘空间</maml:para>
-      <maml:para>此 cmdlet 支持目标清除（特定脚本）和批量操作（所有缓存文件）。</maml:para>
-    </maml:description>
-    <command:syntax>
-      <command:syntaxItem>
-        <maml:name>Clear-ColorScriptCache</maml:name>
-      </command:syntaxItem>
-    </command:syntax>
-    <command:parameters>
-      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-        <maml:name>All</maml:name>
-        <maml:description>
-          <maml:para>清除所有缓存的颜色脚本文件。不能与 -Name 参数一起使用。</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
-      </command:parameter>
-      <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
-        <maml:name>Name</maml:name>
-        <maml:description>
-          <maml:para>指定要从缓存中清除的颜色脚本名称。支持通配符（\* 和 ?）进行模式匹配。</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
-      </command:parameter>
-    </command:parameters>
-    <command:inputTypes>
-      <command:inputType>
-        <dev:type>
-          <dev:name>None</dev:name>
-        </dev:type>
-        <maml:description>
-          <maml:para>此 cmdlet 不接受来自管道的输入。</maml:para>
-        </maml:description>
-      </command:inputType>
-    </command:inputTypes>
-    <command:returnValues>
-      <command:returnValue>
-        <dev:type>
-          <dev:name>None</dev:name>
-        </dev:type>
-        <maml:description>
-          <maml:para>此 cmdlet 不向管道返回输出。</maml:para>
-        </maml:description>
-      </command:returnValue>
-    </command:returnValues>
-    <maml:alertSet>
-      <maml:alert>
-        <maml:para>**作者：** Nick
-**模块：** ColorScripts-Enhanced
-**需要：** PowerShell 5.1 或更高版本
-
-**缓存位置：**
-缓存文件存储在模块管理的目录中。使用 `(Get-Module ColorScripts-Enhanced).ModuleBase` 定位模块目录，然后查找缓存子目录。
-
-**何时清除缓存：**
-
-- 修改源颜色脚本文件后
-- 故障排除显示问题时
-- 确保脚本的新鲜执行
-- 性能基准测试前
-
-**性能影响：**
-清除缓存将导致脚本在下次显示时正常运行，这可能比缓存执行需要更长的时间。缓存将在后续显示时自动重建。</maml:para>
-      </maml:alert>
-    </maml:alertSet>
-    <command:examples>
-      <command:example>
-        <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name "spectrum"
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>清除名为 "spectrum" 的特定颜色脚本的缓存。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -All
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>清除所有缓存的颜色脚本文件。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name "aurora*", "geometric*"
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>清除与指定通配符模式匹配的颜色脚本的缓存。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name aurora-waves -WhatIf
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>显示将清除哪些缓存文件，而不实际删除它们。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Clear cache for all scripts in a category
-Get-ColorScriptList -Category Nature -AsObject | ForEach-Object {
-    Clear-ColorScriptCache -Name $_.Name
-}
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>清除所有自然主题颜色脚本的缓存。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-    </command:examples>
-    <command:relatedLinks>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/zh-CN/Clear-ColorScriptCache.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Show-ColorScript</maml:linkText>
-        <command:uri>Show-ColorScript.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>New-ColorScriptCache</maml:linkText>
-        <command:uri>New-ColorScriptCache.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Get-ColorScriptConfiguration</maml:linkText>
-        <command:uri>Get-ColorScriptConfiguration.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Documentation</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
-      </maml:navigationLink>
-    </command:relatedLinks>
-  </command:command>
-  <command:command>
-    <command:details>
       <command:name>Export-ColorScriptMetadata</command:name>
       <maml:description>
         <maml:para>将颜色脚本元数据导出到各种格式以供外部使用。</maml:para>
@@ -1205,9 +1040,15 @@ foreach ($theme in $themes) {
     <maml:description>
       <maml:para>预先生成颜色脚本的缓存输出，以确保首次显示时的最佳性能。此 cmdlet 提前执行颜色脚本并存储其渲染输出，以便即时检索。</maml:para>
       <maml:para>缓存系统通过消除显示时的脚本执行时间，提供 6-19 倍的性能提升。当源脚本被修改时，缓存内容会自动失效。</maml:para>
-      <maml:para>使用此 cmdlet 来：</maml:para>
+      <maml:para>### -Quiet</maml:para>
+      <maml:para>抑制缓存构建后的摘要消息。</maml:para>
+      <maml:para>```yaml Type: System.Management.Automation.SwitchParameter DefaultValue: False SupportsWildcards: false Aliases: [] ParameterSets:  - Name: (All)    Position: Named    IsRequired: false    ValueFromPipeline: false    ValueFromPipelineByPropertyName: false    ValueFromRemainingArguments: false DontShow: false AcceptedValues: [] HelpMessage: "" ```</maml:para>
+      <maml:para>### -NoAnsiOutput</maml:para>
+      <maml:para>禁用摘要中的 ANSI 颜色，输出纯文本。</maml:para>
+      <maml:para>```yaml Type: System.Management.Automation.SwitchParameter DefaultValue: False SupportsWildcards: false Aliases:  - NoColor ParameterSets:  - Name: (All)    Position: Named    IsRequired: false    ValueFromPipeline: false    ValueFromPipelineByPropertyName: false    ValueFromRemainingArguments: false DontShow: false AcceptedValues: [] HelpMessage: "" ``` 使用此 cmdlet 来：</maml:para>
       <maml:para>- 为常用脚本准备缓存 - 确保跨会话的一致性能 - 在模块更新后预热缓存 - 优化启动性能</maml:para>
       <maml:para>此 cmdlet 支持按名称、类别或标签进行选择性缓存，允许针对性缓存准备。</maml:para>
+      <maml:para>默认会显示一条简要摘要。使用 `-PassThru` 可返回详细结果对象，`-Quiet` 可抑制摘要，而 `-NoAnsiOutput` 会输出不含 ANSI 颜色的纯文本。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -1219,12 +1060,64 @@ foreach ($theme in $themes) {
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
         </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Force</maml:name>
+          <maml:description>
+            <maml:para>即使现有缓存已最新也强制重新生成。</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
           <maml:name>Name</maml:name>
           <maml:description>
             <maml:para>指定要缓存的颜色脚本名称。支持通配符（\* 和 ?）。</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>PassThru</maml:name>
+          <maml:description>
+            <maml:para>返回每个脚本的详细结果对象。未指定时仅输出摘要。</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Tag</maml:name>
+          <maml:description>
+            <maml:para>按一个或多个标签过滤要缓存的脚本。</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+        </command:parameter>
+      </command:syntaxItem>
+      <command:syntaxItem>
+        <maml:name>New-ColorScriptCache</maml:name>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Category</maml:name>
+          <maml:description>
+            <maml:para>按一个或多个类别过滤要缓存的脚本。</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Force</maml:name>
+          <maml:description>
+            <maml:para>即使现有缓存已最新也强制重新生成。</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Name</maml:name>
+          <maml:description>
+            <maml:para>指定要缓存的颜色脚本名称。支持通配符（\* 和 ?）。</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>PassThru</maml:name>
+          <maml:description>
+            <maml:para>返回每个脚本的详细结果对象。未指定时仅输出摘要。</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
           <maml:name>Tag</maml:name>
@@ -1243,12 +1136,26 @@ foreach ($theme in $themes) {
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
       </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Force</maml:name>
+        <maml:description>
+          <maml:para>即使现有缓存已最新也强制重新生成。</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
       <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
         <maml:name>Name</maml:name>
         <maml:description>
           <maml:para>指定要缓存的颜色脚本名称。支持通配符（\* 和 ?）。</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>PassThru</maml:name>
+        <maml:description>
+          <maml:para>返回每个脚本的详细结果对象。未指定时仅输出摘要。</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
       </command:parameter>
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>Tag</maml:name>

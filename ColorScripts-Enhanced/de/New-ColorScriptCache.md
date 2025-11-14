@@ -3,7 +3,7 @@ document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/de/New-ColorScriptCache.md
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 11/14/2025
 PlatyPS schema version: 2024-05-01
 ---
 
@@ -15,9 +15,16 @@ Erstellt Cache für die Leistungsoptimierung von ColorScripts vorab.
 
 ## SYNTAX
 
+### Alle
+
 ```
-New-ColorScriptCache [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>] [-WhatIf] [-Confirm]
- [<CommonParameters>]
+New-ColorScriptCache [-All] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit <Int32>] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+```
+
+### Benannt
+
+```
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit <Int32>] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -34,6 +41,8 @@ Verwenden Sie dieses Cmdlet, um:
 - Startleistung zu optimieren
 
 Das Cmdlet unterstützt selektives Caching nach Name, Kategorie oder Tags, was eine gezielte Cache-Vorbereitung ermöglicht.
+
+Standardmäßig wird eine zusammenfassende Statusmeldung ausgegeben. Nutzen Sie `-PassThru`, um detaillierte Ergebnisobjekte zu erhalten, `-Quiet`, um die Zusammenfassung zu unterdrücken, oder `-NoAnsiOutput`, um das Resümee ohne ANSI-Farbcodes für Protokolle oder Headless-Umgebungen anzuzeigen.
 
 ## EXAMPLES
 
@@ -86,11 +95,46 @@ Filtert Skripte zum Cachen nach einer oder mehreren Kategorien.
 
 ```yaml
 Type: System.String[]
+## PARAMETERS
+
+### -All
+
+Cachet alle verfügbaren Skripte in einem Durchlauf. Kann nicht zusammen mit `-Name` verwendet werden.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Category
+
+Filtert die zu cachenden Skripte anhand ihrer Kategorien. Mehrere Kategorien können angegeben werden.
+
+```yaml
+Type: System.String[]
 DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
    Position: Named
    IsRequired: false
    ValueFromPipeline: false
@@ -103,15 +147,43 @@ HelpMessage: ""
 
 ### -Confirm
 
-Fordert Sie zur Bestätigung auf, bevor das Cmdlet ausgeführt wird.
+Fordert eine Benutzerbestätigung an, bevor die Cache-Erstellung startet.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: false
+DefaultValue: False
 SupportsWildcards: false
-Aliases: cf
+Aliases:
+ - cf
 ParameterSets:
  - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Force
+
+Erzwingt eine Neuerstellung des Cache selbst dann, wenn bestehende Dateien aktuell sind.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
    Position: Named
    IsRequired: false
    ValueFromPipeline: false
@@ -124,7 +196,7 @@ HelpMessage: ""
 
 ### -Name
 
-Gibt ColorScript-Namen zum Cachen an. Unterstützt Wildcards (\* und ?).
+Definiert die Skriptnamen oder Wildcard-Muster, die gecached werden sollen. Unterstützt Pipelineeingaben und Objekte mit einer `Name`-Eigenschaft.
 
 ```yaml
 Type: System.String[]
@@ -132,7 +204,116 @@ DefaultValue: None
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
- - Name: (All)
+ - Name: Selection
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: true
+   ValueFromPipelineByPropertyName: true
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PassThru
+
+Gibt detaillierte Ergebnisobjekte für jedes Skript an die Pipeline zurück. Ohne diesen Schalter wird nur eine Zusammenfassung geschrieben.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Parallel
+
+Aktiviert parallele Ausführung mit mehreren Runspaces. In Hosts ohne Unterstützung fällt das Cmdlet automatisch auf sequentielle Verarbeitung zurück.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Quiet
+
+Unterdrückt die abschließende Statusmeldung nach dem Cache-Aufbau.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -NoAnsiOutput
+
+Deaktiviert ANSI-Farbsequenzen in der Zusammenfassung und liefert reinen Text.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - NoColor
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
    Position: Named
    IsRequired: false
    ValueFromPipeline: false
@@ -145,7 +326,7 @@ HelpMessage: ""
 
 ### -Tag
 
-Filtert Skripte zum Cachen nach einem oder mehreren Tags.
+Filtert anhand von Tags. Nur Skripte mit passenden Metadaten werden gecached.
 
 ```yaml
 Type: System.String[]
@@ -153,7 +334,41 @@ DefaultValue: None
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -ThrottleLimit
+
+Legt die maximale Anzahl paralleler Worker fest. Gültiger Bereich: 1 bis 256. Aliase: `Threads`.
+
+```yaml
+Type: System.Int32
+DefaultValue: 0
+SupportsWildcards: false
+Aliases:
+ - Threads
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
    Position: Named
    IsRequired: false
    ValueFromPipeline: false
@@ -166,13 +381,14 @@ HelpMessage: ""
 
 ### -WhatIf
 
-Zeigt, was passieren würde, wenn das Cmdlet ausgeführt wird. Das Cmdlet wird nicht ausgeführt.
+Zeigt an, was passieren würde, ohne den Cache tatsächlich zu erstellen.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: false
+DefaultValue: False
 SupportsWildcards: false
-Aliases: wi
+Aliases:
+ - wi
 ParameterSets:
  - Name: (All)
    Position: Named
@@ -187,30 +403,27 @@ HelpMessage: ""
 
 ### CommonParameters
 
-Dieses Cmdlet unterstützt die allgemeinen Parameter: -Debug, -ErrorAction, -ErrorVariable,
--InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. Weitere Informationen finden Sie unter
-[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+Dieses Cmdlet unterstützt die Standardparameter: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable, -ProgressAction, -Verbose, -WarningAction und -WarningVariable. Weitere Informationen finden Sie unter [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
-### None
+### System.String
 
-Dieses Cmdlet akzeptiert keine Eingaben aus der Pipeline.
+Sie können Skriptnamen als Zeichenfolgen per Pipeline übergeben.
+
+### System.String[]
+
+Arrays von Skriptnamen sind ebenfalls erlaubt, z. B. aus `Get-ColorScriptList`.
+
+### System.Management.Automation.PSObject
+
+Objekte mit einer `Name`-Eigenschaft werden automatisch ausgewertet und in die Cache-Warteschlange aufgenommen.
 
 ## OUTPUTS
 
 ### System.Object
 
-Gibt Cache-Buildergebnisse mit Erfolg/Fehlerstatus für jedes Skript zurück.
-
-## NOTES
-
-**Autor:** Nick
-**Modul:** ColorScripts-Enhanced
-**Erfordert:** PowerShell 5.1 oder höher
-
-**Leistungsbeeinflussung:**
+Mit `-PassThru` gibt das Cmdlet strukturierte Objekte mit Status, ExitCode, Cachepfad und Diagnoseinformationen zurück. Ohne den Schalter wird nur eine optionale Zusammenfassung geschrieben.
 Vorab-Caching eliminiert die Ausführungszeit bei der ersten Anzeige und bietet sofortiges visuelles Feedback. Besonders vorteilhaft für komplexe oder animierte Skripte.
 
 **Cache-Verwaltung:**

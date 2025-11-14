@@ -13,7 +13,10 @@ ConfigurationRootCouldNotBeResolved = Configuratiewortel kon niet worden opgelos
 UnableToResolveProfilePath = Unable to resolve profile path '{0}'.
 FailedToExecuteColorscript = Kan colorscript niet uitvoeren
 FailedToBuildCacheForScript = Kan cache niet maken voor $($selection.Name).
-CacheBuildFailedForScript = Cache maken mislukt voor $($selection.Name): $($cacheResult.StdErr.Trim())
+CacheBuildFailedForScript = Cache maken mislukt voor {0}: {1}
+CacheBuildGenericFailure = Cache maken mislukt.
+CacheOperationWarning = Cachen van '{0}' is mislukt: {1}
+CacheOperationInitializationFailed = Cachemap kon niet worden geïnitialiseerd: {0}
 ScriptAlreadyExists = Script ''$targetPath'' bestaat al. Gebruik -Force om te overschrijven.
 ProfilePathNotDefinedForScope = 'Profielpad voor scope ''$Scope'' is niet gedefinieerd.'
 ScriptPathNotFound = Scriptpad niet gevonden.
@@ -22,6 +25,8 @@ CacheFileNotFound = Cachebestand niet gevonden.
 NoChangesApplied = Geen wijzigingen toegepast.
 UnableToRetrieveFileInfo = Kan bestandsinfo niet ophalen voor ''{0}'': {1}
 UnableToReadCacheInfo = Kan cacheinfo niet lezen voor ''{0}'': {1}
+ProfileSnippetWriteFailed = ColorScripts-Enhanced-profielsnippet kon niet naar '{0}' worden geschreven: {1}
+UnableToWriteColorScriptFile = Colorscript-bestand '{0}' kon niet worden geschreven: {1}
 InvalidScriptNameEmpty = Color script name cannot be empty or whitespace.
 InvalidScriptNameCharacters = Color script name '{0}' contains invalid characters.
 InvalidPathValueEmpty = Path value cannot be empty or whitespace.
@@ -64,13 +69,14 @@ PressSpacebarToContinue = Druk [Spatiebalk] om door te gaan naar volgende, [Q] o
 PressSpacebarForNext = Druk [Spatiebalk] voor volgende, [Q] om af te sluiten...
 
 # Success Messages
-ProfileSnippetAdded = [OK] ColorScripts-Enhanced opstartsnippet toegevoegd aan $profilePath
+ProfileSnippetAdded = [OK] ColorScripts-Enhanced opstartsnippet toegevoegd aan {0}
 ProfileAlreadyContainsSnippet = Profiel bevat al ColorScripts-Enhanced snippet.
 ProfileAlreadyImportsModule = Profiel importeert al ColorScripts-Enhanced.
 ModuleLoadedSuccessfully = ColorScripts-Enhanced module succesvol geladen.
 RemoteSessionDetected = Externe sessie gedetecteerd.
 ProfileAlreadyConfigured = Profiel al geconfigureerd.
 ProfileSnippetAddedMessage = ColorScripts-Enhanced profiel snippet toegevoegd.
+UnableToOpenEditorForPath = Kon editor niet openen voor '{0}': {1}
 
 # Help/Instruction Messages
 SpecifyNameToSelectScripts = Geef -Name op om scripts te selecteren wanneer -All expliciet is uitgeschakeld.

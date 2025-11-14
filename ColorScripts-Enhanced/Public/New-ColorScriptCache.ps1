@@ -86,7 +86,16 @@ function New-ColorScriptCache {
         [Parameter(ParameterSetName = 'All')]
         [Alias('Threads')]
         [ValidateRange(1, 256)]
-        [int]$ThrottleLimit
+        [int]$ThrottleLimit,
+
+        [Parameter(ParameterSetName = 'Selection')]
+        [Parameter(ParameterSetName = 'All')]
+        [switch]$Quiet,
+
+        [Parameter(ParameterSetName = 'Selection')]
+        [Parameter(ParameterSetName = 'All')]
+        [Alias('NoColor')]
+        [switch]$NoAnsiOutput
     )
 
     begin {
@@ -96,6 +105,9 @@ function New-ColorScriptCache {
         $nameSet = $null
         $collectedNames = $null
         $addName = $null
+        $quietRequested = $Quiet.IsPresent
+        $noAnsiRequested = $NoAnsiOutput.IsPresent
+        $preferConsoleOutput = -not $noAnsiRequested
 
         if ($h) {
             Show-ColorScriptHelp -CommandName 'New-ColorScriptCache'
@@ -642,8 +654,8 @@ function New-ColorScriptCache {
             }
 
             $summaryMessage = $formatString -f $summary.Processed, $summary.Updated, $summary.Skipped, $summary.Failed
-            $summarySegment = New-ColorScriptAnsiText -Text $summaryMessage -Color 'Cyan' -NoAnsiOutput:$false
-            Write-ColorScriptInformation -Message $summarySegment -Quiet:$false -PreferConsole -Color 'Cyan'
+            $summarySegment = New-ColorScriptAnsiText -Text $summaryMessage -Color 'Cyan' -NoAnsiOutput:$noAnsiRequested
+            Write-ColorScriptInformation -Message $summarySegment -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Cyan'
         }
 
         if ($PassThru) {

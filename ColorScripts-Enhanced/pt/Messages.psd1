@@ -13,7 +13,10 @@ ConfigurationRootCouldNotBeResolved = A raiz da configuração não pôde ser re
 UnableToResolveProfilePath = Unable to resolve profile path '{0}'.
 FailedToExecuteColorscript = Falha ao executar o colorscript
 FailedToBuildCacheForScript = Falha ao criar cache para $($selection.Name).
-CacheBuildFailedForScript = Criação de cache falhou para $($selection.Name): $($cacheResult.StdErr.Trim())
+CacheBuildFailedForScript = Criação de cache falhou para {0}: {1}
+CacheBuildGenericFailure = Falha na criação do cache.
+CacheOperationWarning = Falha ao armazenar em cache '{0}': {1}
+CacheOperationInitializationFailed = Não foi possível inicializar o diretório de cache: {0}
 ScriptAlreadyExists = Script ''$targetPath'' já existe. Use -Force para sobrescrever.
 ProfilePathNotDefinedForScope = 'Caminho do perfil para o escopo ''$Scope'' não está definido.'
 ScriptPathNotFound = Caminho do script não encontrado.
@@ -22,6 +25,8 @@ CacheFileNotFound = Arquivo de cache não encontrado.
 NoChangesApplied = Nenhuma alteração aplicada.
 UnableToRetrieveFileInfo = Não foi possível recuperar informações do arquivo ''{0}'': {1}
 UnableToReadCacheInfo = Não foi possível ler informações do cache para ''{0}'': {1}
+ProfileSnippetWriteFailed = Não foi possível gravar o snippet de perfil ColorScripts-Enhanced em '{0}': {1}
+UnableToWriteColorScriptFile = Não foi possível gravar o arquivo de colorscript '{0}': {1}
 InvalidScriptNameEmpty = Color script name cannot be empty or whitespace.
 InvalidScriptNameCharacters = Color script name '{0}' contains invalid characters.
 InvalidPathValueEmpty = Path value cannot be empty or whitespace.
@@ -64,13 +69,14 @@ PressSpacebarToContinue = Pressione [Espaço] para continuar para o próximo, [Q
 PressSpacebarForNext = Pressione [Espaço] para próximo, [Q] para sair...
 
 # Success Messages
-ProfileSnippetAdded = [OK] Adicionado snippet de inicialização ColorScripts-Enhanced ao $profilePath
+ProfileSnippetAdded = [OK] Adicionado snippet de inicialização ColorScripts-Enhanced ao {0}
 ProfileAlreadyContainsSnippet = Perfil já contém snippet ColorScripts-Enhanced.
 ProfileAlreadyImportsModule = Perfil já importa ColorScripts-Enhanced.
 ModuleLoadedSuccessfully = Módulo ColorScripts-Enhanced carregado com sucesso.
 RemoteSessionDetected = Sessão remota detectada.
 ProfileAlreadyConfigured = Perfil já configurado.
 ProfileSnippetAddedMessage = Snippet de perfil ColorScripts-Enhanced adicionado.
+UnableToOpenEditorForPath = Não foi possível abrir o editor para '{0}': {1}
 
 # Help/Instruction Messages
 SpecifyNameToSelectScripts = Especifique -Name para selecionar scripts quando -All estiver explicitamente desabilitado.

@@ -24,10 +24,11 @@ function Reset-ColorScriptConfiguration {
         Save-ColorScriptConfiguration -Configuration $script:ConfigurationData -Force
         $script:CacheInitialized = $false
         $script:CacheDir = $null
+        $script:CacheValidationPerformed = $false
+        $script:CacheValidationManualOverride = $false
     }
 
     if ($PassThru) {
         return Get-ColorScriptConfiguration
     }
 }
-

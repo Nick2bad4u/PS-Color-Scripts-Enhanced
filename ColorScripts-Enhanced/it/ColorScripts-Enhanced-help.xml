@@ -183,50 +183,221 @@ Add-ColorScriptProfile -Confirm
       <command:noun>ColorScriptCache</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>Rimuove i file di output memorizzati nella cache per i colorscript per forzare una nuova esecuzione al prossimo display. Questo cmdlet fornisce una gestione mirata della cache per script individuali o operazioni in blocco.</maml:para>
-      <maml:para>Il sistema di cache memorizza l'output ANSI renderizzato per fornire prestazioni di display quasi istantanee. Nel tempo, i file memorizzati nella cache potrebbero diventare obsoleti se gli script sorgente vengono modificati, oppure potresti voler cancellare la cache per scopi di risoluzione problemi.</maml:para>
-      <maml:para>Utilizza questo cmdlet quando:</maml:para>
-      <maml:para>- Gli script sorgente dei colorscript sono stati modificati - È sospettata una corruzione della cache - Vuoi garantire una nuova esecuzione - È desiderato liberare spazio su disco</maml:para>
-      <maml:para>Il cmdlet supporta sia la cancellazione mirata (script specifici) che operazioni in blocco (tutti i file memorizzati nella cache).</maml:para>
+      <maml:para />
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
         <maml:name>Clear-ColorScriptCache</maml:name>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Confirm</maml:name>
+          <maml:description>
+            <maml:para>Richiede una conferma prima di procedere. Utilizzare `-Confirm:$false` per bypassare il prompt quando l'operazione è prevista.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>WhatIf</maml:name>
+          <maml:description>
+            <maml:para>Mostra le azioni che verrebbero eseguite senza applicarle. Utilizza il comportamento standard ShouldProcess di PowerShell.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+      </command:syntaxItem>
+      <command:syntaxItem>
+        <maml:name>Clear-ColorScriptCache</maml:name>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Confirm</maml:name>
+          <maml:description>
+            <maml:para>Richiede una conferma prima di procedere. Utilizzare `-Confirm:$false` per bypassare il prompt quando l'operazione è prevista.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>WhatIf</maml:name>
+          <maml:description>
+            <maml:para>Mostra le azioni che verrebbero eseguite senza applicarle. Utilizza il comportamento standard ShouldProcess di PowerShell.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
       </command:syntaxItem>
     </command:syntax>
     <command:parameters>
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>All</maml:name>
         <maml:description>
-          <maml:para>Cancella tutti i file dei colorscript memorizzati nella cache. Non può essere utilizzato con il parametro -Name.</maml:para>
+          <maml:para>Cancella tutti i file memorizzati nella cache nel percorso di destinazione. Questo parametro è mutuamente esclusivo con `-Name`, `-Category` e `-Tag`.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Category</maml:name>
+        <maml:description>
+          <maml:para>Filtra gli script in base alla categoria prima di valutare i file di cache. Solo i colorscript che appartengono alle categorie specificate verranno considerati per la rimozione. Può essere combinato con `-Tag`.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Confirm</maml:name>
+        <maml:description>
+          <maml:para>Richiede una conferma prima di procedere. Utilizzare `-Confirm:$false` per bypassare il prompt quando l'operazione è prevista.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>DryRun</maml:name>
+        <maml:description>
+          <maml:para>Mostra quali file di cache verrebbero eliminati senza apportare modifiche. Ideale per verificare i criteri di selezione prima della pulizia effettiva.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
       </command:parameter>
       <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
         <maml:name>Name</maml:name>
         <maml:description>
-          <maml:para>Specifica i nomi dei colorscript da cancellare dalla cache. Supporta wildcard (\* e ?) per la corrispondenza di pattern.</maml:para>
+          <maml:para>Specifica i nomi (o pattern con wildcard) dei colorscript di cui eliminare il cache. Accetta input dalla pipeline e oggetti con proprietà `Name`.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>NoAnsiOutput</maml:name>
+        <maml:description>
+          <maml:para>Disattiva le sequenze di colore ANSI nel messaggio di riepilogo, producendo testo semplice per console o sistemi di log che non supportano i colori.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>PassThru</maml:name>
+        <maml:description>
+          <maml:para>Restituisce oggetti dettagliati per ogni file di cache elaborato. Senza questo switch viene scritto solo un riepilogo.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="1" aliases="none">
+        <maml:name>Path</maml:name>
+        <maml:description>
+          <maml:para>Specifica una directory cache alternativa. Utile quando si lavora con `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` o con percorsi personalizzati per test e CI/CD.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.String</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Quiet</maml:name>
+        <maml:description>
+          <maml:para>Nasconde il messaggio finale di riepilogo. Le avvertenze e gli errori vengono comunque emessi.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Tag</maml:name>
+        <maml:description>
+          <maml:para>Filtra gli script per tag di metadati prima della rimozione. Accetta più valori (logica OR) e può essere combinato con `-Category`.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>WhatIf</maml:name>
+        <maml:description>
+          <maml:para>Mostra le azioni che verrebbero eseguite senza applicarle. Utilizza il comportamento standard ShouldProcess di PowerShell.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
       </command:parameter>
     </command:parameters>
     <command:inputTypes>
       <command:inputType>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>System.String</dev:name>
         </dev:type>
         <maml:description>
-          <maml:para>Questo cmdlet non accetta input dalla pipeline.</maml:para>
+          <maml:para>È possibile passare nomi di script come stringhe tramite pipeline. Ogni nome viene usato per individuare i relativi file di cache.</maml:para>
+        </maml:description>
+      </command:inputType>
+      <command:inputType>
+        <dev:type>
+          <dev:name>System.String</dev:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>Sono supportati anche array di nomi, ad esempio generati da `Get-ColorScriptList`.</maml:para>
+        </maml:description>
+      </command:inputType>
+      <command:inputType>
+        <dev:type>
+          <dev:name>System.Management.Automation.PSObject</dev:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>Oggetti con proprietà `Name` o `ScriptName` vengono mappati automaticamente ai file di cache da rimuovere.</maml:para>
         </maml:description>
       </command:inputType>
     </command:inputTypes>
     <command:returnValues>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>System.Object</dev:name>
         </dev:type>
         <maml:description>
-          <maml:para>Questo cmdlet non restituisce output alla pipeline.</maml:para>
+          <maml:para>Con `-PassThru` il cmdlet restituisce per ogni file un oggetto che include stato, percorso del cache, nome dello script e messaggi aggiuntivi. Senza lo switch viene prodotto solo un riepilogo opzionale.
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Name
+
+Specifica i nomi dei colorscript da cancellare dalla cache. Supporta wildcard (\* e ?) per la corrispondenza di pattern.
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: true
+Aliases: []
+ParameterSets:
+ - Name: Name
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```</maml:para>
+        </maml:description>
+      </command:returnValue>
+      <command:returnValue>
+        <dev:type>
+          <dev:name>-WhatIf</dev:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>Mostra cosa accadrebbe se il cmdlet viene eseguito. Il cmdlet non viene eseguito.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: false
+SupportsWildcards: false
+Aliases: wi
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```</maml:para>
+        </maml:description>
+      </command:returnValue>
+      <command:returnValue>
+        <dev:type>
+          <dev:name>CommonParameters</dev:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>Questo cmdlet supporta i parametri comuni: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. Per ulteriori informazioni, vedere
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).</maml:para>
         </maml:description>
       </command:returnValue>
     </command:returnValues>
@@ -250,71 +421,7 @@ I file di cache sono memorizzati in una directory gestita dal modulo. Utilizza `
 La cancellazione della cache causerà l'esecuzione normale degli script al prossimo display, che potrebbe richiedere più tempo rispetto all'esecuzione memorizzata nella cache. La cache verrà ricostruita automaticamente ai display successivi.</maml:para>
       </maml:alert>
     </maml:alertSet>
-    <command:examples>
-      <command:example>
-        <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name "spectrum"
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Cancella la cache per il colorscript specifico denominato "spectrum".</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -All
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Cancella tutti i file dei colorscript memorizzati nella cache.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name "aurora*", "geometric*"
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Cancella la cache per i colorscript che corrispondono ai pattern di wildcard specificati.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name aurora-waves -WhatIf
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Mostra quali file di cache verrebbero cancellati senza rimuoverli effettivamente.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Clear cache for all scripts in a category
-Get-ColorScriptList -Category Nature -AsObject | ForEach-Object {
-    Clear-ColorScriptCache -Name $_.Name
-}
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Cancella la cache per tutti i colorscript a tema natura.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-    </command:examples>
+    <command:examples />
     <command:relatedLinks>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
@@ -1316,6 +1423,7 @@ foreach ($theme in $themes) {
       <maml:para>Utilizza questo cmdlet per:</maml:para>
       <maml:para>- Preparare la cache per gli script utilizzati frequentemente - Garantire prestazioni coerenti tra le sessioni - Pre-riscaldare la cache dopo gli aggiornamenti del modulo - Ottimizzare le prestazioni di avvio</maml:para>
       <maml:para>Il cmdlet supporta il caching selettivo per nome, categoria o tag, consentendo la preparazione mirata della cache.</maml:para>
+      <maml:para>Per impostazione predefinita viene mostrato un riepilogo compatto. Usa `-PassThru` per ottenere oggetti dettagliati, `-Quiet` per nascondere il riepilogo o `-NoAnsiOutput` se ti serve testo senza sequenze ANSI.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -1327,12 +1435,92 @@ foreach ($theme in $themes) {
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
         </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Force</maml:name>
+          <maml:description>
+            <maml:para>Forza la rigenerazione della cache anche se i file correnti sono già aggiornati.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
           <maml:name>Name</maml:name>
           <maml:description>
             <maml:para>Specifica i nomi dei colorscript da memorizzare nella cache. Supporta i caratteri jolly (\* e ?).</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>NoAnsiOutput</maml:name>
+          <maml:description>
+            <maml:para>Disattiva le sequenze ANSI nel riepilogo finale producendo testo semplice.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>PassThru</maml:name>
+          <maml:description>
+            <maml:para>Restituisce un oggetto dettagliato per ogni script elaborato. Senza questo parametro viene mostrato solo il riepilogo finale.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Quiet</maml:name>
+          <maml:description>
+            <maml:para>Nasconde il messaggio di riepilogo dopo la creazione della cache.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Tag</maml:name>
+          <maml:description>
+            <maml:para>Filtra gli script da memorizzare nella cache per uno o più tag.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+        </command:parameter>
+      </command:syntaxItem>
+      <command:syntaxItem>
+        <maml:name>New-ColorScriptCache</maml:name>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Category</maml:name>
+          <maml:description>
+            <maml:para>Filtra gli script da memorizzare nella cache per una o più categorie.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Force</maml:name>
+          <maml:description>
+            <maml:para>Forza la rigenerazione della cache anche se i file correnti sono già aggiornati.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Name</maml:name>
+          <maml:description>
+            <maml:para>Specifica i nomi dei colorscript da memorizzare nella cache. Supporta i caratteri jolly (\* e ?).</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>NoAnsiOutput</maml:name>
+          <maml:description>
+            <maml:para>Disattiva le sequenze ANSI nel riepilogo finale producendo testo semplice.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>PassThru</maml:name>
+          <maml:description>
+            <maml:para>Restituisce un oggetto dettagliato per ogni script elaborato. Senza questo parametro viene mostrato solo il riepilogo finale.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>Quiet</maml:name>
+          <maml:description>
+            <maml:para>Nasconde il messaggio di riepilogo dopo la creazione della cache.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
           <maml:name>Tag</maml:name>
@@ -1351,12 +1539,40 @@ foreach ($theme in $themes) {
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
       </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Force</maml:name>
+        <maml:description>
+          <maml:para>Forza la rigenerazione della cache anche se i file correnti sono già aggiornati.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
       <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
         <maml:name>Name</maml:name>
         <maml:description>
           <maml:para>Specifica i nomi dei colorscript da memorizzare nella cache. Supporta i caratteri jolly (\* e ?).</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>NoAnsiOutput</maml:name>
+        <maml:description>
+          <maml:para>Disattiva le sequenze ANSI nel riepilogo finale producendo testo semplice.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>PassThru</maml:name>
+        <maml:description>
+          <maml:para>Restituisce un oggetto dettagliato per ogni script elaborato. Senza questo parametro viene mostrato solo il riepilogo finale.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Quiet</maml:name>
+        <maml:description>
+          <maml:para>Nasconde il messaggio di riepilogo dopo la creazione della cache.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
       </command:parameter>
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>Tag</maml:name>

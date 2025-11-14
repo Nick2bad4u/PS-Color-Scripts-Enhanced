@@ -345,6 +345,7 @@ Add-ColorScriptProfile -SkipStartupScript
       <maml:para>You can delete cache files selectively using the `-Name` parameter with wildcard patterns, or remove all cache files at once with the `-All` parameter. The cmdlet also supports filtering by `-Category` and `-Tag` to target specific subsets of cached scripts.</maml:para>
       <maml:para>Unmatched script names report a `Missing` status in the results. Use `-DryRun` to preview removal actions without modifying the filesystem, and `-Path` to target an alternate cache directory (useful for custom cache configurations or CI/CD environments).</maml:para>
       <maml:para>Cache files are automatically regenerated the next time `Show-ColorScript` executes the corresponding script.</maml:para>
+      <maml:para>For automation scenarios, combine `-PassThru` to capture structured results, `-Quiet` to suppress the summary message, or `-NoAnsiOutput` to emit plain-text summaries without ANSI color codes.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2394,7 +2395,7 @@ if ("Retro" -in $categories) {
 
 You can target specific scripts by name (wildcards supported) or cache the entire collection. When no parameters are specified, the cmdlet defaults to caching all available scripts. You can also filter scripts by category or tag to cache only those that match specific criteria.
 
-By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.
+By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams. Combine `-Quiet` to suppress the summary entirely or `-NoAnsiOutput` to emit plain-text summaries without ANSI color codes for environments that do not support them.
 
 The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.
 
@@ -2406,14 +2407,14 @@ For faster rebuilds on multi-core systems, use the `-Parallel` switch together w
     <maml:description>
       <maml:para>`New-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 encoding (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript` by eliminating the need to re-execute scripts. You can also use the alias `Update-ColorScriptCache` to invoke this cmdlet.</maml:para>
       <maml:para>You can target specific scripts by name (wildcards supported) or cache the entire collection. When no parameters are specified, the cmdlet defaults to caching all available scripts. You can also filter scripts by category or tag to cache only those that match specific criteria.</maml:para>
-      <maml:para>By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.</maml:para>
+      <maml:para>By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams. Combine `-Quiet` to suppress the summary entirely or `-NoAnsiOutput` to emit plain-text summaries without ANSI color codes for environments that do not support them.</maml:para>
       <maml:para>The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.</maml:para>
       <maml:para>For faster rebuilds on multi-core systems, use the `-Parallel` switch together with the `-ThrottleLimit` (or `-Threads`) parameter to control how many workers are scheduled. The cmdlet automatically reverts to sequential execution when parallel runspaces cannot be created on the current host.</maml:para>
       <maml:para>## SYNTAX</maml:para>
       <maml:para>### All</maml:para>
-      <maml:para>``` New-ColorScriptCache [-All] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit &lt;Int32&gt;] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
+      <maml:para>``` New-ColorScriptCache [-All] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit &lt;Int32&gt;] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
       <maml:para>### Named</maml:para>
-      <maml:para>``` New-ColorScriptCache [-Name &lt;String[]&gt;] [-Category &lt;String[]&gt;] [-Tag &lt;String[]&gt;] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit &lt;Int32&gt;] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
+      <maml:para>``` New-ColorScriptCache [-Name &lt;String[]&gt;] [-Category &lt;String[]&gt;] [-Tag &lt;String[]&gt;] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit &lt;Int32&gt;] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>

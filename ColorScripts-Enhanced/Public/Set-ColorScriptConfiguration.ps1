@@ -51,6 +51,8 @@ function Set-ColorScriptConfiguration {
 
         $script:CacheInitialized = $false
         $script:CacheDir = $null
+        $script:CacheValidationPerformed = $false
+        $script:CacheValidationManualOverride = $false
     }
 
     if ($PSBoundParameters.ContainsKey('DefaultScript')) {
@@ -73,4 +75,3 @@ function Set-ColorScriptConfiguration {
         return Get-ColorScriptConfiguration
     }
 }
-

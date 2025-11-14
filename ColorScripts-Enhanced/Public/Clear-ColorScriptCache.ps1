@@ -34,7 +34,16 @@ function Clear-ColorScriptCache {
 
         [Parameter(ParameterSetName = 'Selection')]
         [Parameter(ParameterSetName = 'All')]
-        [switch]$PassThru
+        [switch]$PassThru,
+
+        [Parameter(ParameterSetName = 'Selection')]
+        [Parameter(ParameterSetName = 'All')]
+        [switch]$Quiet,
+
+        [Parameter(ParameterSetName = 'Selection')]
+        [Parameter(ParameterSetName = 'All')]
+        [Alias('NoColor')]
+        [switch]$NoAnsiOutput
     )
 
     begin {
@@ -104,6 +113,9 @@ function Clear-ColorScriptCache {
         }
 
         $requestedNames = $collectedNames.ToArray()
+        $quietRequested = $Quiet.IsPresent
+        $noAnsiRequested = $NoAnsiOutput.IsPresent
+        $preferConsoleOutput = -not $noAnsiRequested
 
         if (-not $All -and -not $Category -and -not $Tag -and $requestedNames.Count -eq 0) {
             Invoke-ColorScriptError -Message $script:Messages.SpecifyAllOrNameToClearCache -ErrorId 'ColorScriptsEnhanced.CacheClearSelectionMissing' -Category ([System.Management.Automation.ErrorCategory]::InvalidOperation) -Cmdlet $PSCmdlet
@@ -458,8 +470,8 @@ function Clear-ColorScriptCache {
             }
 
             $summaryMessage = $formatString -f $summary.Removed, $summary.Missing, $summary.Skipped, $summary.DryRun, $summary.Errors
-            $summarySegment = New-ColorScriptAnsiText -Text $summaryMessage -Color 'Cyan' -NoAnsiOutput:$false
-            Write-ColorScriptInformation -Message $summarySegment -Quiet:$false -PreferConsole -Color 'Cyan'
+            $summarySegment = New-ColorScriptAnsiText -Text $summaryMessage -Color 'Cyan' -NoAnsiOutput:$noAnsiRequested
+            Write-ColorScriptInformation -Message $summarySegment -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Cyan'
         }
 
         return $output

@@ -3,7 +3,7 @@ document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/es/Clear-ColorScriptCache.md
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 11/14/2025
 PlatyPS schema version: 2024-05-01
 ---
 
@@ -18,13 +18,13 @@ Eliminar archivos de salida de colorescript en caché.
 ### All
 
 ```
-Clear-ColorScriptCache [-All] [-Path <String>] [-DryRun] [-WhatIf] [-Confirm] [<CommonParameters>]
+Clear-ColorScriptCache [-All] [-Path <String>] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Named
 
 ```
-Clear-ColorScriptCache [-Name <String[]>] [-Path <String>] [-DryRun] [-WhatIf] [-Confirm]
+Clear-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Path <String>] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm]
  [<CommonParameters>]
 ```
 
@@ -32,7 +32,7 @@ Clear-ColorScriptCache [-Name <String[]>] [-Path <String>] [-DryRun] [-WhatIf] [
 
 ```
 Clear-ColorScriptCache [[-Name] <string[]>] [[-Path] <string>] [[-Category] <string[]>]
- [[-Tag] <string[]>] [-All] [-DryRun] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [[-Tag] <string[]>] [-All] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -44,6 +44,8 @@ Puede eliminar archivos de caché de forma selectiva utilizando el parámetro `-
 Los nombres de script no coincidentes reportan un estado `Missing` en los resultados. Use `-DryRun` para previsualizar acciones de eliminación sin modificar el sistema de archivos, y `-Path` para apuntar a un directorio de caché alternativo (útil para configuraciones de caché personalizadas o entornos CI/CD).
 
 Los archivos de caché se regeneran automáticamente la próxima vez que `Show-ColorScript` ejecute el script correspondiente.
+
+Para escenarios de automatización, combine `-PassThru` para capturar resultados detallados, `-Quiet` para silenciar el resumen final o `-NoAnsiOutput` para emitir texto sin secuencias ANSI en consolas que no admiten color.
 
 ## EXAMPLES
 
@@ -176,6 +178,70 @@ ParameterSets:
    ValueFromPipeline: false
    ValueFromPipelineByPropertyName: false
    ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PassThru
+
+Devuelve objetos de resultado detallados para cada archivo de caché procesado. Sin este modificador, solo se emite un mensaje de resumen. Cada registro incluye el nombre del script, la ruta del archivo de caché, el estado y cualquier mensaje asociado.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+     Position: Named
+     IsRequired: false
+     ValueFromPipeline: false
+     ValueFromPipelineByPropertyName: false
+     ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Quiet
+
+Suprime el mensaje de resumen emitido después de completar la limpieza de caché. Resulta útil en automatizaciones donde solo se deben mostrar advertencias, errores u objetos retornados por `-PassThru`.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+     Position: Named
+     IsRequired: false
+     ValueFromPipeline: false
+     ValueFromPipelineByPropertyName: false
+     ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -NoAnsiOutput
+
+Desactiva las secuencias de color ANSI en el mensaje de resumen, de modo que la salida sea texto plano. Ideal para consolas o registradores que no admiten coloreado.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - NoColor
+ParameterSets:
+ - Name: (All)
+     Position: Named
+     IsRequired: false
+     ValueFromPipeline: false
+     ValueFromPipelineByPropertyName: false
+     ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""

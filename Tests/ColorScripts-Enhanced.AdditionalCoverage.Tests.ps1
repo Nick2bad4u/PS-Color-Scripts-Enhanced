@@ -1140,7 +1140,14 @@ namespace CoverageHost
                 $result | Should -HaveCount 1
                 $result[0].Status | Should -Be 'Failed'
                 $result[0].StdErr | Should -Be 'permission denied'
-                (Get-Variable -Name __failureWarnings -Scope Script -ValueOnly) | Should -Contain 'Failed to cache gamma: permission denied'
+                $expectedWarning = if ($script:Messages -and $script:Messages.ContainsKey('CacheOperationWarning')) {
+                    $script:Messages.CacheOperationWarning -f 'gamma', 'permission denied'
+                }
+                else {
+                    'Failed to cache gamma: permission denied'
+                }
+
+                (Get-Variable -Name __failureWarnings -Scope Script -ValueOnly) | Should -Contain $expectedWarning
                 Remove-Variable -Name __failureWarnings -Scope Script -ErrorAction SilentlyContinue
             }
         }

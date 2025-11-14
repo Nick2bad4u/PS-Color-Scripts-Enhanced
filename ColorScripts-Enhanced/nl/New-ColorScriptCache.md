@@ -3,7 +3,7 @@ document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/nl/New-ColorScriptCache.md
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 11/14/2025
 PlatyPS schema version: 2024-05-01
 ---
 
@@ -15,9 +15,16 @@ Vooraf bouwt cache op voor optimalisatie van colorscript prestaties.
 
 ## SYNTAX
 
+### Alles
+
 ```
-New-ColorScriptCache [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>] [-WhatIf] [-Confirm]
- [<CommonParameters>]
+New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+```
+
+### Geselecteerd
+
+```
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -26,6 +33,49 @@ Vooraf genereert gecachte uitvoer voor colorscripts om optimale prestaties bij e
 
 Het cachingsysteem biedt 6-19x prestatieverbeteringen. Bij eerste uitvoering draait een colorscript normaal en wordt de uitvoer gecached. Volgende weergaven gebruiken de gecachte uitvoer voor vrijwel directe rendering. De cache wordt automatisch ongeldig gemaakt wanneer bronscripts worden gewijzigd, waardoor uitvoer nauwkeurigheid wordt gegarandeerd.
 
+
+### -Quiet
+
+Onderdrukt het samenvattende bericht na afloop.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -NoAnsiOutput
+
+Schakelt ANSI-kleuren in de samenvatting uit en geeft vlakke tekst.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - NoColor
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
 Gebruik deze cmdlet om:
 
 - Cache voor te bereiden voor veelgebruikte scripts
@@ -34,6 +84,8 @@ Gebruik deze cmdlet om:
 - Opstartprestaties te optimaliseren
 
 De cmdlet ondersteunt selectieve caching op naam, categorie of tags, waardoor gerichte cachevoorbereiding mogelijk is.
+
+Standaard verschijnt een korte samenvatting. Gebruik `-PassThru` voor gedetailleerde objecten, `-Quiet` om de samenvatting te verbergen of `-NoAnsiOutput` voor tekst zonder ANSI-kleurcodes.
 
 ## EXAMPLES
 
@@ -122,6 +174,48 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ''
+
+### -Force
+
+Forceert een rebuild, zelfs wanneer bestaande cachebestanden actueel zijn.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PassThru
+
+Retourneert gedetailleerde resultaatobjecten voor elk script. Zonder deze schakelaar wordt alleen een samenvatting weergegeven.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
 ```
 
 ### -Name

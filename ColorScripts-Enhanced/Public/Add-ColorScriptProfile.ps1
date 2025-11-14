@@ -247,9 +247,30 @@ function Add-ColorScriptProfile {
             $updatedContent = $snippet
         }
 
-        [System.IO.File]::WriteAllText($profileSpec, $updatedContent + $newline, $script:Utf8NoBomEncoding)
+        try {
+            Invoke-FileWriteAllText -Path $profileSpec -Content ($updatedContent + $newline) -Encoding $script:Utf8NoBomEncoding
+        }
+        catch {
+            $errorTemplate = if ($script:Messages -and $script:Messages.ContainsKey('ProfileSnippetWriteFailed')) {
+                $script:Messages.ProfileSnippetWriteFailed
+            }
+            else {
+                "Unable to write ColorScripts-Enhanced profile snippet to '{0}': {1}"
+            }
 
-        Write-Host ($script:Messages.ProfileSnippetAdded -f $profileSpec) -ForegroundColor Green
+            $errorMessage = $errorTemplate -f $profileSpec, $_.Exception.Message
+            Invoke-ColorScriptError -Message $errorMessage -ErrorId 'ColorScriptsEnhanced.ProfileWriteFailed' -Category ([System.Management.Automation.ErrorCategory]::WriteError) -TargetObject $profileSpec -Exception $_.Exception -Cmdlet $PSCmdlet
+        }
+
+        $infoTemplate = if ($script:Messages -and $script:Messages.ContainsKey('ProfileSnippetAdded')) {
+            $script:Messages.ProfileSnippetAdded
+        }
+        else {
+            '[OK] Added ColorScripts-Enhanced startup snippet to {0}'
+        }
+
+        $infoMessage = $infoTemplate -f $profileSpec
+        Write-ColorScriptInformation -Message $infoMessage -PreferConsole -Color 'Green'
 
         return [pscustomobject]@{
             Path    = $profileSpec

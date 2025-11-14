@@ -3,7 +3,7 @@ document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/pt/New-ColorScriptCache.md
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 11/14/2025
 PlatyPS schema version: 2024-05-01
 ---
 
@@ -15,9 +15,16 @@ Pré-constrói cache para otimização de desempenho do colorscript.
 
 ## SYNTAX
 
+### Todos
+
 ```
-New-ColorScriptCache [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>] [-WhatIf] [-Confirm]
- [<CommonParameters>]
+New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+```
+
+### Selecionados
+
+```
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -26,6 +33,49 @@ Pré-gera saída em cache para colorscripts para garantir desempenho ideal na pr
 
 O sistema de cache fornece melhorias de desempenho de 6-19x. Na primeira execução, um colorscript é executado normalmente e sua saída é armazenada em cache. Exibições subsequentes usam a saída em cache para renderização quase instantânea. O cache é invalidado automaticamente quando os scripts de origem são modificados, garantindo precisão da saída.
 
+
+### -Quiet
+
+Oculta a mensagem de resumo após a execução.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -NoAnsiOutput
+
+Desativa sequências ANSI no resumo, emitindo texto simples (útil para logs sem suporte a cores).
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - NoColor
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
 Use este cmdlet para:
 
 - Preparar cache para scripts frequentemente usados
@@ -34,6 +84,8 @@ Use este cmdlet para:
 - Otimizar desempenho de inicialização
 
 O cmdlet suporta cache seletivo por nome, categoria ou tags, permitindo preparação de cache direcionada.
+
+Por padrão, um resumo compacto é exibido. Use `-PassThru` para retornar objetos detalhados, `-Quiet` para ocultar o resumo ou `-NoAnsiOutput` para gerar texto sem sequências ANSI.
 
 ## EXAMPLES
 
@@ -122,6 +174,48 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ''
+
+### -Force
+
+Força a reconstrução da cache mesmo quando os arquivos existentes já estão atualizados.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PassThru
+
+Retorna objetos detalhados para cada script processado. Sem este parâmetro somente o resumo é exibido.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
 ```
 
 ### -Name

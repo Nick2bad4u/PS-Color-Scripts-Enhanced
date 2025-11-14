@@ -345,6 +345,7 @@ Add-ColorScriptProfile -SkipStartupScript
       <maml:para>Vous pouvez supprimer les fichiers cache de manière sélective en utilisant le paramètre `-Name` avec des modèles de caractères génériques, ou supprimer tous les fichiers cache à la fois avec le paramètre `-All`. Le cmdlet prend également en charge le filtrage par `-Category` et `-Tag` pour cibler des sous-ensembles spécifiques de scripts mis en cache.</maml:para>
       <maml:para>Les noms de script non appariés signalent un statut `Missing` dans les résultats. Utilisez `-DryRun` pour prévisualiser les actions de suppression sans modifier le système de fichiers, et `-Path` pour cibler un répertoire cache alternatif (utile pour les configurations cache personnalisées ou les environnements CI/CD).</maml:para>
       <maml:para>Les fichiers cache sont automatiquement régénérés la prochaine fois que `Show-ColorScript` exécute le script correspondant.</maml:para>
+      <maml:para>Pour les scénarios d'automatisation, associez `-PassThru` afin de capturer des résultats détaillés, `-Quiet` pour masquer le message récapitulatif final ou `-NoAnsiOutput` pour produire un résumé sans séquences ANSI lorsque la console ne prend pas en charge les couleurs.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2396,6 +2397,9 @@ You can target specific scripts by name (wildcards supported) or cache the entir
 
 By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.
 
+Combinez `-Quiet` pour masquer ce résumé ou `-NoAnsiOutput` pour produire un texte sans séquences ANSI lorsque la console ne gère pas les couleurs.
+
+
 The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.</maml:para>
       </maml:description>
       <command:verb>New</command:verb>
@@ -2405,12 +2409,13 @@ The cmdlet intelligently skips scripts whose cache files are already up-to-date 
       <maml:para>`New-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 encoding (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript` by eliminating the need to re-execute scripts. You can also use the alias `Update-ColorScriptCache` to invoke this cmdlet.</maml:para>
       <maml:para>You can target specific scripts by name (wildcards supported) or cache the entire collection. When no parameters are specified, the cmdlet defaults to caching all available scripts. You can also filter scripts by category or tag to cache only those that match specific criteria.</maml:para>
       <maml:para>By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.</maml:para>
+      <maml:para>Combinez `-Quiet` pour masquer ce résumé ou `-NoAnsiOutput` pour produire un texte sans séquences ANSI lorsque la console ne gère pas les couleurs.</maml:para>
       <maml:para>The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.</maml:para>
       <maml:para>## SYNTAX</maml:para>
       <maml:para>### All</maml:para>
-      <maml:para>``` New-ColorScriptCache [-All] [-Force] [-PassThru] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
+      <maml:para>``` New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
       <maml:para>### Named</maml:para>
-      <maml:para>``` New-ColorScriptCache [-Name &lt;String[]&gt;] [-Category &lt;String[]&gt;] [-Tag &lt;String[]&gt;] [-Force] [-PassThru] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
+      <maml:para>``` New-ColorScriptCache [-Name &lt;String[]&gt;] [-Category &lt;String[]&gt;] [-Tag &lt;String[]&gt;] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;] ```</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>

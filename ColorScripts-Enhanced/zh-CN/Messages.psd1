@@ -13,7 +13,10 @@ ConfigurationRootCouldNotBeResolved = 配置根目录无法解析。
 UnableToResolveProfilePath = Unable to resolve profile path '{0}'.
 FailedToExecuteColorscript = 无法执行 colorscript
 FailedToBuildCacheForScript = 无法为 $($selection.Name) 构建缓存。
-CacheBuildFailedForScript = 为 $($selection.Name) 构建缓存失败：$($cacheResult.StdErr.Trim())
+CacheBuildFailedForScript = 为 {0} 构建缓存失败：{1}
+CacheBuildGenericFailure = 缓存构建失败。
+CacheOperationWarning = 缓存 '{0}' 时失败：{1}
+CacheOperationInitializationFailed = 无法初始化缓存目录：{0}
 ScriptAlreadyExists = 脚本 ''$targetPath'' 已存在。使用 -Force 覆盖。
 ProfilePathNotDefinedForScope = '作用域 ''$Scope'' 的配置文件路径未定义。'
 ScriptPathNotFound = 未找到脚本路径。
@@ -22,6 +25,8 @@ CacheFileNotFound = 未找到缓存文件。
 NoChangesApplied = 未应用任何更改。
 UnableToRetrieveFileInfo = 无法检索 ''{0}'' 的文件信息：{1}
 UnableToReadCacheInfo = 无法读取 ''{0}'' 的缓存信息：{1}
+ProfileSnippetWriteFailed = 无法将 ColorScripts-Enhanced 配置文件片段写入 '{0}'：{1}
+UnableToWriteColorScriptFile = 无法写入 colorscript 文件 '{0}'：{1}
 InvalidScriptNameEmpty = Color script name cannot be empty or whitespace.
 InvalidScriptNameCharacters = Color script name '{0}' contains invalid characters.
 InvalidPathValueEmpty = Path value cannot be empty or whitespace.
@@ -64,13 +69,14 @@ PressSpacebarToContinue = 按 [空格键] 继续下一个，[Q] 退出`n
 PressSpacebarForNext = 按 [空格键] 下一个，[Q] 退出...
 
 # Success Messages
-ProfileSnippetAdded = [OK] 已将 ColorScripts-Enhanced 启动片段添加到 $profilePath
+ProfileSnippetAdded = [OK] 已将 ColorScripts-Enhanced 启动片段添加到 {0}
 ProfileAlreadyContainsSnippet = 配置文件已包含 ColorScripts-Enhanced 片段。
 ProfileAlreadyImportsModule = 配置文件已导入 ColorScripts-Enhanced。
 ModuleLoadedSuccessfully = ColorScripts-Enhanced 模块已成功加载。
 RemoteSessionDetected = 检测到远程会话。
 ProfileAlreadyConfigured = 配置文件已配置。
 ProfileSnippetAddedMessage = 已添加 ColorScripts-Enhanced 配置文件片段。
+UnableToOpenEditorForPath = 无法打开 '{0}' 的编辑器：{1}
 
 # Help/Instruction Messages
 SpecifyNameToSelectScripts = 当明确禁用 -All 时，指定 -Name 来选择脚本。

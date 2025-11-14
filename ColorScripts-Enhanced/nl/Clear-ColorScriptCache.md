@@ -1,88 +1,310 @@
----
-document type: cmdlet
-external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/nl/Clear-ColorScriptCache.md
-Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
-PlatyPS schema version: 2024-05-01
----
-
-# Clear-ColorScriptCache
-
-## SYNOPSIS
-
-Wisht de cache van colorscript uitvoerbestanden.
-
-## SYNTAX
-
-```
-Clear-ColorScriptCache [[-Name] <string[]>] [-All] [-WhatIf] [-Confirm] [<CommonParameters>]
-```
-
-## DESCRIPTION
-
-Verwijdert gecachte uitvoerbestanden voor colorscripts om verse uitvoering bij volgende weergave te forceren. Deze cmdlet biedt gerichte cachebeheer voor individuele scripts of bulkbewerkingen.
-
-Het cachesysteem slaat gerenderde ANSI-uitvoer op om bijna-instant weergaveprestaties te bieden. Na verloop van tijd kunnen gecachte bestanden verouderd raken als bronscripts worden gewijzigd, of u wilt misschien cache wissen voor probleemoplossing doeleinden.
-
-Gebruik deze cmdlet wanneer:
-
-- Bron colorscripts zijn gewijzigd
-- Cachecorruptie wordt vermoed
-- U wilt verse uitvoering garanderen
-- Vrijmaken van schijfruimte gewenst is
-
-De cmdlet ondersteunt zowel gerichte wissen (specifieke scripts) als bulkbewerkingen (alle gecachte bestanden).
-
-## EXAMPLES
-
-### EXAMPLE 1
-
-```powershell
-Clear-ColorScriptCache -Name "spectrum"
-```
-
-Wisht de cache voor de specifieke colorscript genaamd "spectrum".
-
-### EXAMPLE 2
-
-```powershell
-Clear-ColorScriptCache -All
-```
-
-Wisht alle gecachte colorscript bestanden.
-
-### EXAMPLE 3
-
-```powershell
-Clear-ColorScriptCache -Name "aurora*", "geometric*"
-```
-
-Wisht cache voor colorscripts die overeenkomen met de opgegeven wildcardpatronen.
-
-### EXAMPLE 4
-
-```powershell
-Clear-ColorScriptCache -Name aurora-waves -WhatIf
-```
-
-Toont welke cachebestanden zouden worden gewist zonder ze daadwerkelijk te verwijderen.
-
-### EXAMPLE 5
-
-```powershell
-# Clear cache for all scripts in a category
-Get-ColorScriptList -Category Nature -AsObject | ForEach-Object {
-    Clear-ColorScriptCache -Name $_.Name
-}
-```
-
-Wisht cache voor alle natuur-georiënteerde colorscripts.
-
 ## PARAMETERS
 
 ### -All
 
+Wist alle cachebestanden in de doelmap. Dit kan niet worden gecombineerd met `-Name`, `-Category` of `-Tag`.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Category
+
+Filtert de doel scripts op categorie. Alleen scripts binnen de opgegeven categorieën worden voor verwijdering in aanmerking genomen. Combineerbaar met `-Tag`.
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Confirm
+
+Vraagt om bevestiging voordat de verwijdering wordt uitgevoerd. Gebruik `-Confirm:$false` om dit te onderdrukken.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - cf
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -DryRun
+
+Toont welke bestanden verwijderd zouden worden zonder veranderingen aan te brengen. Handig voor validatie.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Name
+
+Namen of wildcardpatronen van scripts waarvan de cache moet worden gewist. Ondersteunt pijplijninvoer en objecten met een `Name`-eigenschap.
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: true
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: true
+   ValueFromPipelineByPropertyName: true
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: 0
+   IsRequired: false
+   ValueFromPipeline: true
+   ValueFromPipelineByPropertyName: true
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -NoAnsiOutput
+
+Schakelt ANSI-kleuren uit in de samenvatting zodat er platte tekst overblijft. Handig voor logverzamelaars zonder kleurondersteuning.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - NoColor
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PassThru
+
+Retourneert gedetailleerde resultaatobjecten voor elke cache-invoer. Zonder deze schakelaar wordt alleen een samenvattend bericht weergegeven.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Path
+
+Geeft een alternatieve cachemap op. Gebruik dit voor aangepaste locaties of CI/CD-scenario's.
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: 1
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Quiet
+
+Onderdrukt het samenvattende bericht na afloop. Waarschuwingen en fouten blijven zichtbaar.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -Tag
+
+Filtert op metadatatags voordat cachebestanden worden beoordeeld. Meerdere waarden zijn toegestaan en worden als OF-voorwaarde behandeld.
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -WhatIf
+
+Toont welke acties zouden plaatsvinden zonder wijzigingen door te voeren. Gebruikt het standaard ShouldProcess-gedrag van PowerShell.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+ - wi
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### CommonParameters
+
+Deze cmdlet ondersteunt de algemene parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable, -ProgressAction, -Verbose, -WarningAction en -WarningVariable. Zie [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216) voor meer informatie.
+
+## INPUTS
+
+### System.String
+
+Scriptnamen kunnen als strings via de pijplijn worden doorgegeven. Elke naam wordt gebruikt om het cachebestand te vinden.
+
+### System.String[]
+
+Arrays met meerdere namen worden ondersteund, bijvoorbeeld uit `Get-ColorScriptList`.
+
+### System.Management.Automation.PSObject
+
+Objecten met een `Name`- of `ScriptName`-eigenschap worden ondersteund; de waarde wordt gebruikt om de cache te wissen.
+
+## OUTPUTS
+
+### System.Object
+
+Met `-PassThru` retourneert de cmdlet objecten met status, cachepad, scriptnaam en bericht. Zonder deze schakelaar wordt alleen een optionele samenvatting weergegeven.
 Wisht alle gecachte colorscript bestanden. Kan niet gebruikt worden met -Name parameter.
 
 ```yaml

@@ -13,7 +13,10 @@ ConfigurationRootCouldNotBeResolved = 設定ルートを解決できませんで
 UnableToResolveProfilePath = Unable to resolve profile path '{0}'.
 FailedToExecuteColorscript = カラースクリプトの実行に失敗しました
 FailedToBuildCacheForScript = $($selection.Name) のキャッシュ構築に失敗しました。
-CacheBuildFailedForScript = $($selection.Name) のキャッシュ構築に失敗しました: $($cacheResult.StdErr.Trim())
+CacheBuildFailedForScript = {0} のキャッシュ構築に失敗しました: {1}
+CacheBuildGenericFailure = キャッシュ構築に失敗しました。
+CacheOperationWarning = '{0}' のキャッシュ処理に失敗しました: {1}
+CacheOperationInitializationFailed = キャッシュディレクトリを初期化できませんでした: {0}
 ScriptAlreadyExists = スクリプト ''$targetPath'' は既に存在します。上書きするには -Force を使用してください。
 ProfilePathNotDefinedForScope = 'スコープ ''$Scope'' のプロファイルパスが定義されていません。'
 ScriptPathNotFound = スクリプトパスが見つかりません。
@@ -22,6 +25,8 @@ CacheFileNotFound = キャッシュファイルが見つかりません。
 NoChangesApplied = 変更が適用されませんでした。
 UnableToRetrieveFileInfo = ''{0}'' のファイル情報を取得できませんでした: {1}
 UnableToReadCacheInfo = ''{0}'' のキャッシュ情報を読み取れませんでした: {1}
+ProfileSnippetWriteFailed = ColorScripts-Enhanced プロファイルスニペットを '{0}' に書き込めませんでした: {1}
+UnableToWriteColorScriptFile = カラースクリプトファイル '{0}' に書き込めませんでした: {1}
 InvalidScriptNameEmpty = Color script name cannot be empty or whitespace.
 InvalidScriptNameCharacters = Color script name '{0}' contains invalid characters.
 InvalidPathValueEmpty = Path value cannot be empty or whitespace.
@@ -64,13 +69,14 @@ PressSpacebarToContinue = 次に進むには [Spacebar] を押してください
 PressSpacebarForNext = 次へ進むには [Spacebar] を押してください、終了するには [Q] を押してください...
 
 # Success Messages
-ProfileSnippetAdded = [OK] ColorScripts-Enhanced スタートアップスニペットを $profilePath に追加しました
+ProfileSnippetAdded = [OK] ColorScripts-Enhanced スタートアップスニペットを {0} に追加しました
 ProfileAlreadyContainsSnippet = プロファイルには既に ColorScripts-Enhanced スニペットが含まれています。
 ProfileAlreadyImportsModule = プロファイルは既に ColorScripts-Enhanced をインポートしています。
 ModuleLoadedSuccessfully = ColorScripts-Enhanced モジュールが正常に読み込まれました。
 RemoteSessionDetected = リモートセッションが検出されました。
 ProfileAlreadyConfigured = プロファイルは既に設定されています。
 ProfileSnippetAddedMessage = ColorScripts-Enhanced プロファイルスニペットが追加されました。
+UnableToOpenEditorForPath = '{0}' のエディターを開けませんでした: {1}
 
 # Help/Instruction Messages
 SpecifyNameToSelectScripts = -All が明示的に無効化されている場合、スクリプトを選択するには -Name を指定してください。
