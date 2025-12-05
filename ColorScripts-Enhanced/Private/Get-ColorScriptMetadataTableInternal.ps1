@@ -72,7 +72,24 @@ function Get-ColorScriptMetadataTableInternal {
     $data = $null
 
     if (Test-Path $script:MetadataPath) {
-        $data = Import-PowerShellDataFile -Path $script:MetadataPath
+        try {
+            # Prefer Import-PowerShellDataFile for strict, data-only loading
+            $data = Import-PowerShellDataFile -Path $script:MetadataPath -ErrorAction Stop
+        }
+        catch {
+            Write-Verbose "Import-PowerShellDataFile failed for ScriptMetadata.psd1, falling back to dot-sourcing: $($_.Exception.Message)"
+
+            try {
+                # Fallback: dot-source the file so very large or complex data sets (like
+                # extensive Pokémon lists) can still be loaded without Import-PowerShellDataFile
+                # rejecting them as dynamic expressions.
+                $data = . $script:MetadataPath
+            }
+            catch {
+                Write-Verbose "Dot-sourcing ScriptMetadata.psd1 also failed, metadata will be empty: $($_.Exception.Message)"
+                $data = $null
+            }
+        }
 
         if ($data -is [hashtable]) {
             $internal = New-Object 'System.Collections.Generic.Dictionary[string, hashtable]' ([System.StringComparer]::OrdinalIgnoreCase)

@@ -39,6 +39,10 @@ function Show-ColorScript {
         Filter the available script set by one or more categories before selection occurs.
     .PARAMETER Tag
         Filter the available script set by tag metadata (case-insensitive).
+    .PARAMETER ExcludeCategory
+        Exclude scripts from one or more categories. Use this to filter out large collections like Pokemon scripts.
+    .PARAMETER ExcludePokemon
+        Shorthand for -ExcludeCategory Pokemon. Excludes all Pokemon colorscripts from selection.
     .PARAMETER PassThru
         Return the selected script metadata in addition to rendering output.
     .PARAMETER ReturnText
@@ -82,6 +86,14 @@ function Show-ColorScript {
     .EXAMPLE
         Show-ColorScript -All -Category Nature -WaitForInput
         Cycles through all nature-themed colorscripts with manual progression.
+
+    .EXAMPLE
+        Show-ColorScript -ExcludePokemon
+        Displays a random colorscript that is not a Pokemon.
+
+    .EXAMPLE
+        Show-ColorScript -ExcludeCategory Pokemon,Gaming
+        Displays a random colorscript excluding Pokemon and Gaming categories.
     #>
     [OutputType([pscustomobject], ParameterSetName = 'List')]
     [OutputType([pscustomobject], ParameterSetName = 'Named')]
@@ -251,6 +263,56 @@ function Show-ColorScript {
             })]
         [string[]]$Tag,
 
+        [Parameter()]
+        [ArgumentCompleter({
+                param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
+
+                $null = $commandName, $parameterName, $commandAst, $fakeBoundParameters
+
+                try {
+                    $records = ColorScripts-Enhanced\Get-ColorScriptList -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue
+                }
+                catch {
+                    return
+                }
+
+                $pattern = if ([string]::IsNullOrWhiteSpace($wordToComplete)) {
+                    '*'
+                }
+                else {
+                    $trimmed = $wordToComplete.Trim([char]0x27, [char]0x22)
+                    if ([string]::IsNullOrWhiteSpace($trimmed)) { '*' }
+                    elseif ($trimmed -match '[*?]') { $trimmed }
+                    else { $trimmed + '*' }
+                }
+
+                $values = foreach ($record in $records) {
+                    if ($record.Category) { [string]$record.Category }
+                    if ($record.Categories) {
+                        foreach ($entry in @($record.Categories)) {
+                            if ($entry) { [string]$entry }
+                        }
+                    }
+                }
+
+                $values |
+                    Where-Object { $_ -and ($_ -like $pattern) } |
+                        Group-Object |
+                            Sort-Object -Property Name |
+                                ForEach-Object {
+                                    [System.Management.Automation.CompletionResult]::new(
+                                        $_.Name,
+                                        $_.Name,
+                                        [System.Management.Automation.CompletionResultType]::ParameterValue,
+                                        '{0} script(s)' -f $_.Count
+                                    )
+                                }
+            })]
+        [string[]]$ExcludeCategory,
+
+        [Parameter()]
+        [switch]$ExcludePokemon,
+
         [Parameter(ParameterSetName = 'Named')]
         [Parameter(ParameterSetName = 'Random')]
         [switch]$PassThru,
@@ -283,23 +345,109 @@ function Show-ColorScript {
     $noAnsiRequested = $NoAnsiOutput.IsPresent
     $preferConsoleOutput = -not $noAnsiRequested
 
+    # Fast-path scenario: only excluding Pokémon, with no other
+    # metadata-dependent filters. In this case we can avoid building
+    # the full metadata table and instead filter directly by a cached
+    # set of Pokémon script names.
+    $isSimplePokemonExclude = $ExcludePokemon.IsPresent -and
+        (-not $ExcludeCategory -or $ExcludeCategory.Count -eq 0) -and
+        -not $Category -and
+        -not $Tag -and
+        -not $All -and
+        -not $List -and
+        -not $PassThru.IsPresent -and
+        -not $Name
+
+    $preloadedRecords = $null
+
+    # Normalize excluded categories
+    $effectiveExcludeCategories = @()
+    if ($ExcludeCategory) {
+        $effectiveExcludeCategories += $ExcludeCategory
+    }
+    if ($ExcludePokemon) {
+        $effectiveExcludeCategories += 'Pokemon'
+    }
+
+    $excludeCategorySet = @()
+    if ($effectiveExcludeCategories.Count -gt 0) {
+        $excludeCategorySet = $effectiveExcludeCategories |
+            Where-Object { -not [string]::IsNullOrWhiteSpace($_) } |
+                ForEach-Object { $_.ToLowerInvariant() }
+    }
+
+    if ($isSimplePokemonExclude) {
+        $inventory = Get-ColorScriptInventory
+
+        if (-not $inventory -or $inventory.Count -eq 0) {
+            Write-Warning ($script:Messages.NoColorscriptsFoundInScriptsPath -f $script:ScriptsPath)
+            return
+        }
+
+        $pokemonSet = Get-PokemonScriptNameSet
+
+        if ($pokemonSet -and $pokemonSet.Count -gt 0) {
+            $preloadedRecords = $inventory | Where-Object {
+                -not $pokemonSet.Contains($_.Name) -and -not $pokemonSet.Contains($_.BaseName)
+            }
+        }
+        else {
+            # If we cannot resolve any Pokémon names, fall back to the
+            # unfiltered inventory rather than blocking the command.
+            $preloadedRecords = $inventory
+        }
+
+        if (-not $preloadedRecords -or $preloadedRecords.Count -eq 0) {
+            Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria
+            return
+        }
+    }
+
     if ($List) {
         $listParams = @{}
         if ($Category) { $listParams.Category = $Category }
         if ($Tag) { $listParams.Tag = $Tag }
         if ($quietRequested) { $listParams.Quiet = $true }
         if ($noAnsiRequested) { $listParams.NoAnsiOutput = $true }
-        Get-ColorScriptList @listParams
+
+        $list = Get-ColorScriptList @listParams
+
+        if ($excludeCategorySet.Count -gt 0) {
+            $list = $list | Where-Object {
+                $recordCategories = @($_.Category) + $_.Categories
+                $recordCategories = $recordCategories |
+                    Where-Object { $_ } |
+                        ForEach-Object { $_.ToLowerInvariant() }
+                -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
+            }
+        }
+
+        $list
         return
     }
 
     if ($All) {
-        $needsMetadata = ($Category -and $Category.Count -gt 0) -or ($Tag -and $Tag.Count -gt 0)
+        $needsMetadata = (
+            ($Category -and $Category.Count -gt 0) -or
+            ($Tag -and $Tag.Count -gt 0) -or
+            ($excludeCategorySet.Count -gt 0)
+        )
+
         $allScripts = if ($needsMetadata) {
             Get-ColorScriptEntry -Category $Category -Tag $Tag
         }
         else {
             Get-ColorScriptInventory
+        }
+
+        if ($excludeCategorySet.Count -gt 0 -and $needsMetadata) {
+            $allScripts = $allScripts | Where-Object {
+                $recordCategories = @($_.Category) + $_.Categories
+                $recordCategories = $recordCategories |
+                    Where-Object { $_ } |
+                        ForEach-Object { $_.ToLowerInvariant() }
+                -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
+            }
         }
 
         if (-not $allScripts -or $allScripts.Count -eq 0) {
@@ -387,13 +535,24 @@ function Show-ColorScript {
         return
     }
 
-    $needsMetadata = ($Category -and $Category.Count -gt 0) -or ($Tag -and $Tag.Count -gt 0) -or $PassThru.IsPresent
-
-    $records = if ($needsMetadata) {
-        Get-ColorScriptEntry -Category $Category -Tag $Tag
+    if ($preloadedRecords) {
+        $needsMetadata = $false
+        $records = $preloadedRecords
     }
     else {
-        Get-ColorScriptInventory
+        $needsMetadata = (
+            ($Category -and $Category.Count -gt 0) -or
+            ($Tag -and $Tag.Count -gt 0) -or
+            $PassThru.IsPresent -or
+            ($excludeCategorySet.Count -gt 0)
+        )
+
+        $records = if ($needsMetadata) {
+            Get-ColorScriptEntry -Category $Category -Tag $Tag
+        }
+        else {
+            Get-ColorScriptInventory
+        }
     }
 
     if (-not $records -or $records.Count -eq 0) {
@@ -409,6 +568,21 @@ function Show-ColorScript {
 
         $records = $selectionResult.Records
         if (-not $records -or $records.Count -eq 0) {
+            return
+        }
+    }
+
+    if ($excludeCategorySet.Count -gt 0 -and $needsMetadata) {
+        $records = $records | Where-Object {
+            $recordCategories = @($_.Category) + $_.Categories
+            $recordCategories = $recordCategories |
+                Where-Object { $_ } |
+                    ForEach-Object { $_.ToLowerInvariant() }
+            -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
+        }
+
+        if (-not $records -or $records.Count -eq 0) {
+            Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria
             return
         }
     }

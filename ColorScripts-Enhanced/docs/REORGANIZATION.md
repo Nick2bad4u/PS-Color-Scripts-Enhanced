@@ -56,13 +56,13 @@ The following files contain references to moved files and need to be updated:
 - `README.md` - Multiple references to scripts
 - `ColorScripts-Enhanced/README.md` - Multiple references to scripts
 - `CONTRIBUTING.md` - References to Test-Module.ps1, Lint-Module.ps1, build.ps1
-- `docs/Development.md` - References to all moved scripts
-- `docs/Publishing.md` - References to build.ps1, Lint-Module.ps1, Test-Module.ps1
+- `docs/DEVELOPMENT.md` - References to all moved scripts
+- `docs/PUBLISHING.md` - References to build.ps1, Lint-Module.ps1, Test-Module.ps1
 - `docs/QUICK_REFERENCE.md` - References to conversion scripts and lint scripts
 - `docs/ANSI-CONVERSION-GUIDE.md` - Many references to Convert-AnsiToColorScript.ps1
 - `docs/MODULE_SUMMARY.md` - References to Lint-Module.ps1
 - `docs/ROADMAP.md` - References to Get-ColorScriptCount.ps1
-- `docs/ReleaseChecklist.md` - References to build.ps1
+- `docs/RELEASE_CHECKLIST.md` - References to build.ps1
 - `docs/POWERSHELL-VERSIONS.md` - References to Test-Module.ps1
 - `docs/examples/ansi-conversion/README.md` - References to converter scripts
 - `docs/examples/ansi-conversion/Split-SampleAnsi.ps1` - Needs converter reference update

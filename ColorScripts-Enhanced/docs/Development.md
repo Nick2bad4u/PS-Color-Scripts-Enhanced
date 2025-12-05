@@ -536,7 +536,7 @@ Expect to see icons, checkmarks, and box-drawing characters. If they appear as s
 
 ## Helpful Links
 
-- [Publishing Guide](Publishing.md)
-- [Release Checklist](ReleaseChecklist.md)
+- [Publishing Guide](PUBLISHING.md)
+- [Release Checklist](RELEASE_CHECKLIST.md)
 - [Contributing Guidelines](../CONTRIBUTING.md)
 - [PowerShell Module Best Practices](https://learn.microsoft.com/en-us/powershell/gallery/concepts/publishing-guidelines?view=powershellget-3.x)

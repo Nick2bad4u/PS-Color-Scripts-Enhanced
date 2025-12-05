@@ -26,14 +26,14 @@
 - `` `n `` = newline
 - `` `r `` = carriage return
 
-```powershell
-# ❌ WRONG - The `b gets escaped
-"${white}`[${brightred}`bug${white}`]"
-# Output: "[ug]" - the 'b' disappears!
+  ```powershell
+  # ❌ WRONG - The `b gets escaped
+  "${white}`[${brightred}`bug${white}`]"
+  # Output: "[ug]" - the 'b' disappears!
 
-# ✅ CORRECT - Use reset to separate
-"${white}[$reset${brightred}bug$reset${white}]"
-```
+  # ✅ CORRECT - Use reset to separate
+  "${white}[$reset${brightred}bug$reset${white}]"
+  ```
 
 ### 3. **Dollar Sign Escaping**
 
@@ -74,15 +74,15 @@
 - Better control over color transitions
 - **RECOMMENDED for complex ASCII art**
 
-```powershell
-# ❌ Problematic Here-String
-Write-Host @"
-${gray}Text${red}`$`$`$${gray}More
-"@
+  ```powershell
+  # ❌ Problematic Here-String
+  Write-Host @"
+  ${gray}Text${red}`$`$`$${gray}More
+  "@
 
-# ✅ Better approach - Individual lines
-Write-Host "${gray}Text$reset$red`$`$`$$reset${gray}More$reset"
-```
+  # ✅ Better approach - Individual lines
+  Write-Host "${gray}Text$reset$red`$`$`$$reset${gray}More$reset"
+  ```
 
 ### 6. **The Reset Pattern**
 
@@ -111,7 +111,7 @@ Characters that need escaping in double-quoted strings:
 
 ## IMPORTANT - Backslash is NOT an escape character in PowerShell
 
-Unlike many other languages, backslash (`\`) is a literal character in PowerShell, NOT an escape character. The backtick (`` ` ``) is PowerShell's escape character.
+Unlike most other languages, backslash (`\`) is a literal character in PowerShell, NOT an escape character. The backtick (`` ` ``) is PowerShell's escape character.
 
 ```powershell
 # ✅ CORRECT - Backslash is literal, no escaping needed

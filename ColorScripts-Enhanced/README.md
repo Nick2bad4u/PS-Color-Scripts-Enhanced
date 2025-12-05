@@ -490,12 +490,12 @@ Get-Help about_ColorScripts-Enhanced
 
 ### Developer Documentation
 
-- [Development Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Development.md)
+- [Development Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/DEVELOPMENT.md)
 - [Testing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/TESTING.md)
 - [Linting Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/LINTING.md)
 - [npm Scripts Reference](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/NPM_SCRIPTS.md)
-- [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Publishing.md)
-- [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ReleaseChecklist.md)
+- [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/PUBLISHING.md)
+- [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/RELEASE_CHECKLIST.md)
 
 ### Project Information
 
@@ -749,9 +749,9 @@ See [CHANGELOG.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/
 - 🌈 [ANSI Color Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-COLOR-GUIDE.md)
 - 🧰 [ANSI Conversion Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-CONVERSION-GUIDE.md)
 - 📋 [Module Summary](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/MODULE_SUMMARY.md)
-- 🔧 [Development Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Development.md)
-- 📦 [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Publishing.md)
-- ✅ [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ReleaseChecklist.md)
+- 🔧 [Development Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/DEVELOPMENT.md)
+- 📦 [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/PUBLISHING.md)
+- ✅ [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/RELEASE_CHECKLIST.md)
 - 🤝 [Contributing Guidelines](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CONTRIBUTING.md)
 - 🛡️ [Security Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/SECURITY.md)
 - 🙌 [Code of Conduct](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CODE_OF_CONDUCT.md)

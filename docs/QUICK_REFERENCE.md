@@ -555,7 +555,7 @@ Current: 2025.11.05
 
 ---
 
-_For detailed documentation, use: `Get-Help about_ColorScripts-Enhanced`_
+**Tip:** For detailed documentation, use: `Get-Help about_ColorScripts-Enhanced`
 
 **Last Updated**: October 30, 2025
 **Status**: ✅ Production Ready

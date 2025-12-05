@@ -90,13 +90,13 @@ You can test the redirect system by:
 
 1. **Testing automatic detection**:
 
-   ```
+   ```powershell
    Start-Process "https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript"
    ```
 
 2. **Testing specific language**:
 
-   ```
+   ```powershell
    Start-Process "https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript&lang=fr"
    ```
 
@@ -131,7 +131,7 @@ You can test the redirect system by:
 
 - Ensure `help-redirect.html` is in the `docs/` folder
 - Verify GitHub Pages is set to deploy from `docs/` folder or `/` (root)
-- Wait a few minutes for GitHub Pages to rebuild
+- Wait a couple of minutes for GitHub Pages to rebuild
 
 ## Maintenance
 

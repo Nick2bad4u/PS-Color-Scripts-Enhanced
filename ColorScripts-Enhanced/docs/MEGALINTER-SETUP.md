@@ -100,9 +100,9 @@ gh issue comment "$ISSUE_NUMBER" --body '${{ steps.inference.outputs.response }}
 - 📖 [Quick Start Guide](QUICKSTART.md)
 - 📘 [Quick Reference](QUICKREFERENCE.md)
 - 📋 [Module Summary](MODULE_SUMMARY.md)
-- 🔧 [Development Guide](docs/Development.md)
-- 📦 [Publishing Guide](docs/Publishing.md)
-- ✅ [Release Checklist](docs/ReleaseChecklist.md)
+- 🔧 [Development Guide](docs/DEVELOPMENT.md)
+- 📦 [Publishing Guide](docs/PUBLISHING.md)
+- ✅ [Release Checklist](docs/RELEASE_CHECKLIST.md)
 - 🤝 [Contributing Guidelines](CONTRIBUTING.md)
 - 🔄 [Changelog](CHANGELOG.md)
 ```

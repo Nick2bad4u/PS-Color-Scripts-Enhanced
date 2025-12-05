@@ -402,8 +402,6 @@ gh issue list --label "v2025.10.30" --state open
 gh issue list --label "bug" --state open
 ```
 
-##
-
 ## Additional Resources
 
 - PowerShell Gallery Publishing Docs: <https://learn.microsoft.com/en-us/powershell/gallery/how-to/publishing-packages/publishing-a-package?view=powershellget-3.x>

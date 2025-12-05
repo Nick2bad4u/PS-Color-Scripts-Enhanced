@@ -301,7 +301,7 @@ Q4 2026+ (Oct+)
 
 **ColorScripts-Enhanced** aims to be the most comprehensive, performant, and user-friendly collection of ANSI colorscripts available for PowerShell, with a thriving community of contributors and a robust ecosystem of integrations.
 
-- Join release coordination by checking the [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ReleaseChecklist.md)
+- Join release coordination by checking the [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/RELEASE_CHECKLIST.md)
 - If you're interested in owning a roadmap item, comment on the corresponding issue or open a new one describing your plan
 
 We review the roadmap during each release cycle and adjust priorities based on user impact, maintenance effort, and community interest.

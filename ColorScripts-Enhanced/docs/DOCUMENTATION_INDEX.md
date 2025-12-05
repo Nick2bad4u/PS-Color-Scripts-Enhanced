@@ -52,7 +52,7 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 
 | Document                               | Description                                        |
 | -------------------------------------- | -------------------------------------------------- |
-| [Development.md](Development.md)       | Local development setup, tooling, and workflows    |
+| [DEVELOPMENT.md](DEVELOPMENT.md)       | Local development setup, tooling, and workflows    |
 | [TESTING.md](TESTING.md)               | Testing procedures and test suite documentation    |
 | [LINTING.md](LINTING.md)               | Code quality standards and linting guide           |
 | [NPM_SCRIPTS.md](NPM_SCRIPTS.md)       | Reference for all npm scripts available            |
@@ -63,8 +63,8 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 
 | Document                                   | Description                                                      |
 | ------------------------------------------ | ---------------------------------------------------------------- |
-| [Publishing.md](Publishing.md)             | Publishing to PowerShell Gallery, NuGet.org, and GitHub Packages |
-| [ReleaseChecklist.md](ReleaseChecklist.md) | Step-by-step release checklist with git-cliff integration        |
+| [PUBLISHING.md](PUBLISHING.md)             | Publishing to PowerShell Gallery, NuGet.org, and GitHub Packages |
+| [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) | Step-by-step release checklist with git-cliff integration        |
 | [CHANGELOG.md](../CHANGELOG.md)            | Complete project changelog                                       |
 
 ### Project Management

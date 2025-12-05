@@ -216,7 +216,9 @@ Write-Host "  Success Rate: $([math]::Round($successRate, 2))%"
 
 ## Migration from NUnit to JUnit
 
-## Before
+The migration from NUnit to JUnit format was necessary for Codecov compatibility.
+
+### Before
 
 ```powershell
 $config.TestResult.OutputFormat = 'NUnitXml'

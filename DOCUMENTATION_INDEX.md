@@ -329,7 +329,7 @@ Start Here:
 - Filter by tag - `Get-ColorScriptList` Example 5
 - Pattern matching - `Get-ColorScriptList` ADVANCED
 
-### ⚡ Performance
+### ⚡ Performance Optimization
 
 - Cache benefits - `about_ColorScripts` PERFORMANCE TUNING
 - Build cache - `New-ColorScriptCache` Examples 1-2

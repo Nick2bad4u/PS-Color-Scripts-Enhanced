@@ -55,6 +55,9 @@ Get-ColorScriptList
 # Filter by category
 Get-ColorScriptList -Category Patterns
 Get-ColorScriptList -Tag Recommended
+
+# Exclude all Pokémon scripts
+Show-ColorScript -ExcludePokemon
 ```
 
 ## ⚡ Boost Performance with Caching
@@ -155,12 +158,12 @@ Get-Module ColorScripts-Enhanced -ListAvailable
 <details>
 <summary><b>🛠️ Developer Documentation</b></summary>
 
-- [Development Guide](docs/Development.md)
+- [Development Guide](docs/DEVELOPMENT.md)
 - [Testing Guide](docs/TESTING.md)
 - [Linting Guide](docs/LINTING.md)
 - [npm Scripts Reference](docs/NPM_SCRIPTS.md)
-- [Publishing Guide](docs/Publishing.md)
-- [Release Checklist](docs/ReleaseChecklist.md)
+- [Publishing Guide](docs/PUBLISHING.md)
+- [Release Checklist](docs/RELEASE_CHECKLIST.md)
 - [ANSI Conversion Guide](docs/ANSI-CONVERSION-GUIDE.md)
 
 </details>
