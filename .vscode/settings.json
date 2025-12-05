@@ -5,5 +5,14 @@
     "github.copilot.chat.edits.temporalContext.enabled": true,
     "github.copilot.chat.executePrompt.enabled": true,
     "github.copilot.chat.languageContext.typescript.items": "fill",
-    "powershell.pester.useLegacyCodeLens": false
+    "powershell.pester.useLegacyCodeLens": false,
+    "[plaintext]": {
+        "files.encoding": "utf8"
+    },
+    "files.associations": {
+        "**/assets/pokemon-colorscripts/*": "plaintext",
+        "**/assets/ansi-files/*": "plaintext",
+        "**/assets/oversized-colorscripts/*": "plaintext"
+    },
+    "files.autoGuessEncoding": false
 }

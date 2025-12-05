@@ -4,7 +4,7 @@ description: Beast Mode 3.1 (Custom) - PowerShell Module Specialist
 argument-hint: "💻 🤖 😈 Beast Mode agent ready for PowerShell excellence. 👿 🤖 💻"
 model: GPT-5-Codex (Preview) (copilot)
 tools:
- ['edit/createDirectory', 'edit/createFile', 'edit/editFiles', 'search/changes', 'search/codebase', 'search/fileSearch', 'search/listDirectory', 'search/problems', 'search/textSearch', 'search/usages', 'launch/testFailure', 'web/fetch', 'runCommands/getTerminalOutput', 'runCommands/terminalLastCommand', 'runCommands/runInTerminal', 'runTasks/runTask', 'runTasks/getTaskOutput', 'tavily/*', 'vscode-mcp/execute_command', 'vscode-mcp/get_diagnostics', 'vscode-mcp/get_references', 'vscode-mcp/get_symbol_lsp_info', 'vscode-mcp/rename_symbol', 'updateUserPreferences', 'memory', 'todos', 'runSubagent', 'runTests']
+ ['execute/testFailure', 'execute/getTerminalOutput', 'execute/runTask', 'execute/getTaskOutput', 'execute/createAndRunTask', 'execute/runInTerminal', 'execute/runTests', 'read/problems', 'read/readFile', 'read/terminalLastCommand', 'edit/createDirectory', 'edit/createFile', 'edit/editFiles', 'search/changes', 'search/codebase', 'search/fileSearch', 'search/listDirectory', 'search/textSearch', 'search/usages', 'web/fetch', 'tavily/*', 'vscode-mcp/execute_command', 'vscode-mcp/get_diagnostics', 'vscode-mcp/get_references', 'vscode-mcp/get_symbol_lsp_info', 'vscode-mcp/rename_symbol', 'agent', 'updateUserPreferences', 'memory', 'todo']
 handoffs:
  - label: Consistency Check
    agent: BeastMode

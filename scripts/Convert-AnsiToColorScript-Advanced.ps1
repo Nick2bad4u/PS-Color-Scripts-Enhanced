@@ -11,6 +11,7 @@
     - Cursor movement (ESC[nA, ESC[nB, ESC[nC, ESC[nD)
     - Complex color and style codes
     - CP437 extended ASCII characters
+    - UTF-8 encoded files (e.g., Pokemon colorscripts)
 
 .PARAMETER AnsiFile
     Path to the ANSI art file (.ans)
@@ -19,6 +20,15 @@
     Optional path for the output PowerShell script
     If not specified, uses ColorScripts-Enhanced/Scripts/<name>.ps1
 
+.PARAMETER Encoding
+    Input file encoding. Use 'cp437' (default) for traditional ANSI art,
+    or 'utf8' for Unicode files like Pokemon colorscripts.
+    Valid values: cp437, utf8
+
+.PARAMETER Passthrough
+    Skip terminal emulation and wrap content directly. Use this for
+    pre-formatted files that already have proper line breaks (like Pokemon colorscripts).
+
 .EXAMPLE
     .\Convert-AnsiToColorScript-Advanced.ps1 -AnsiFile "artwork.ans"
 
@@ -26,7 +36,10 @@
     .\Convert-AnsiToColorScript-Advanced.ps1 -AnsiFile "complex.ans" -OutputFile "custom.ps1"
 
 .EXAMPLE
-    Get-Item *.ans | .\Convert-AnsiToColorScript-Advanced.ps1
+    .\Convert-AnsiToColorScript-Advanced.ps1 -AnsiFile "pikachu" -Encoding utf8 -Passthrough
+
+.EXAMPLE
+    Get-ChildItem .\assets\pokemon-colorscripts\* | .\Convert-AnsiToColorScript-Advanced.ps1 -Encoding utf8 -Passthrough
 #>
 
 [CmdletBinding()]
@@ -36,7 +49,14 @@ param(
     [string]$AnsiFile,
 
     [Parameter(Mandatory = $false)]
-    [string]$OutputFile
+    [string]$OutputFile,
+
+    [Parameter(Mandatory = $false)]
+    [ValidateSet('cp437', 'utf8')]
+    [string]$Encoding = 'cp437',
+
+    [Parameter(Mandatory = $false)]
+    [switch]$Passthrough
 )
 
 begin {
@@ -75,7 +95,13 @@ process {
     $ansiFileInfo = Get-Item $AnsiFile
 
     # Build command arguments
-    $args = @($converterScript, $ansiFileInfo.FullName)
+    $args = @($converterScript, "--encoding=$Encoding")
+
+    if ($Passthrough) {
+        $args += '--passthrough'
+    }
+
+    $args += $ansiFileInfo.FullName
 
     if ($OutputFile) {
         $args += $OutputFile

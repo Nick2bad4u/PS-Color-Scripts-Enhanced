@@ -1068,6 +1068,8 @@ function sanitizeName(name) {
  *         autoWrap: boolean;
  *         stripSpaceBackground: boolean;
  *         maxHeight: number | null;
+ *         encoding: string;
+ *         passthrough: boolean;
  *     };
  *     positional: string[];
  * }}
@@ -1079,12 +1081,16 @@ function parseArguments(argv) {
      *     autoWrap: boolean;
      *     stripSpaceBackground: boolean;
      *     maxHeight: number | null;
+     *     encoding: string;
+     *     passthrough: boolean;
      * }}
      */ ({
         columns: null,
         autoWrap: true,
         stripSpaceBackground: false,
         maxHeight: null,
+        encoding: "cp437",
+        passthrough: false,
     });
     /** @type {string[]} */
     const positional = [];
@@ -1114,6 +1120,19 @@ function parseArguments(argv) {
             options.stripSpaceBackground = true;
         } else if (arg === "--keep-space-bg") {
             options.stripSpaceBackground = false;
+        } else if (arg.startsWith("--encoding=")) {
+            const enc = arg.split("=")[1].toLowerCase();
+            if (enc === "utf8" || enc === "utf-8") {
+                options.encoding = "utf8";
+            } else if (enc === "cp437" || enc === "437") {
+                options.encoding = "cp437";
+            } else {
+                options.encoding = enc;
+            }
+        } else if (arg === "--utf8" || arg === "--utf-8") {
+            options.encoding = "utf8";
+        } else if (arg === "--passthrough" || arg === "--simple" || arg === "--raw") {
+            options.passthrough = true;
         } else {
             positional.push(arg);
         }
@@ -1123,13 +1142,17 @@ function parseArguments(argv) {
 
 /**
  * @param {string} filePath
+ * @param {string} [encoding="cp437"] - Encoding to use (cp437 for ANSI art, utf8 for Unicode)
  *
  * @returns {{ content: string; sauce: SauceRecord | null }}
  */
-function readAnsiFile(filePath) {
+function readAnsiFile(filePath, encoding = "cp437") {
     const raw = fs.readFileSync(filePath);
     const { buffer, sauce } = stripSauce(raw);
-    const content = iconv.decode(buffer, "cp437");
+    // For UTF-8, read as string directly; for others, use iconv
+    const content = encoding === "utf8"
+        ? buffer.toString("utf8")
+        : iconv.decode(buffer, encoding);
     return { content, sauce };
 }
 
@@ -1171,6 +1194,15 @@ function main(argv = process.argv.slice(2)) {
         console.error(
             "  --max-height=<n>   Split output into multiple files every <n> lines."
         );
+        console.error(
+            "  --encoding=<enc>   Input file encoding (cp437 for ANSI art, utf8 for Unicode)."
+        );
+        console.error(
+            "  --utf8             Shorthand for --encoding=utf8 (for Pokemon colorscripts)."
+        );
+        console.error(
+            "  --passthrough      Skip terminal emulation, wrap content directly (for pre-formatted files)."
+        );
         process.exit(1);
     }
 
@@ -1186,8 +1218,30 @@ function main(argv = process.argv.slice(2)) {
         );
 
     try {
-        console.log(`Reading ANSI file: ${ansiFile}`);
-        const { content, sauce } = readAnsiFile(ansiFile);
+        console.log(`Reading ANSI file: ${ansiFile} (encoding: ${options.encoding})`);
+        const { content, sauce } = readAnsiFile(ansiFile, options.encoding);
+
+        const header = `# Converted from: ${path.basename(ansiFile)}\n# Conversion date: ${new Date().toISOString()}\n`;
+
+        const outputDir = path.dirname(outputFile);
+        if (!fs.existsSync(outputDir)) {
+            fs.mkdirSync(outputDir, { recursive: true });
+        }
+
+        // Passthrough mode - skip terminal emulation, wrap content directly
+        if (options.passthrough) {
+            console.log("Using passthrough mode (no terminal emulation)...");
+            // Remove trailing newlines and ensure clean content
+            const cleanContent = content.replace(/[\r\n]+$/, "");
+            const ps1Content = `${header}\nWrite-Host @"\n${cleanContent}\n"@\n`;
+            fs.writeFileSync(outputFile, ps1Content, "utf8");
+            console.log(
+                `✓ Converted: ${path.basename(ansiFile)} → ${path.basename(outputFile)}`
+            );
+            console.log(`  Output: ${outputFile}`);
+            console.log("\n✓ Conversion complete!");
+            return;
+        }
 
         const terminalColumns =
             options.columns ||
@@ -1212,13 +1266,6 @@ function main(argv = process.argv.slice(2)) {
             content,
             terminalOptions
         );
-
-        const header = `# Converted from: ${path.basename(ansiFile)}\n# Conversion date: ${new Date().toISOString()}\n`;
-
-        const outputDir = path.dirname(outputFile);
-        if (!fs.existsSync(outputDir)) {
-            fs.mkdirSync(outputDir, { recursive: true });
-        }
 
         // Split output if max-height is specified
         if (options.maxHeight && lines.length > options.maxHeight) {
