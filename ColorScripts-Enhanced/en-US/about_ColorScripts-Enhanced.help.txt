@@ -217,6 +217,13 @@ The module includes scripts in various categories:
 - **System**: colortest, nerd-font-test, terminal-benchmark
 - **Logos**: arch, debian, ubuntu, windows
 
+Additional collections can be added via metadata. For example, Pokémon colorscripts can be grouped
+under the `Pokemon` category in `ScriptMetadata.psd1` and then excluded with:
+
+```powershell
+Show-ColorScript -ExcludePokemon
+```
+
 ### SEE ALSO
 
 - GitHub Repository: https://github.com/Nick2bad4u/ps-color-scripts-enhanced

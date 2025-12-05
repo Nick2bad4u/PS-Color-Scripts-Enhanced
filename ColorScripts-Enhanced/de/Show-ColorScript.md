@@ -18,21 +18,24 @@ Zeigt ein Farbskript mit automatischem Caching für verbesserte Leistung an.
 ### Random (Default)
 
 ```text
-Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru]
+Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
+ [-ExcludeCategory <String[]>] [-ExcludePokemon] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### Named
 
 ```text
-Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-PassThru]
+Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
+ [-ExcludeCategory <String[]>] [-ExcludePokemon] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### List
 
 ```text
-Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-ReturnText]
+Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
+ [-ExcludeCategory <String[]>] [-ExcludePokemon] [-ReturnText]
  [<CommonParameters>]
 ```
 
@@ -40,6 +43,7 @@ Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-R
 
 ```text
 Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
+ [-ExcludeCategory <String[]>] [-ExcludePokemon]
  [<CommonParameters>]
 ```
 

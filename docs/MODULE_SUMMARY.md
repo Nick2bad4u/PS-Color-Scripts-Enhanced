@@ -41,6 +41,7 @@ Show-ColorScript -Name "bars"       # Specific colorscript
 scs hearts                          # Using alias
 Show-ColorScript -List              # List all available
 Show-ColorScript -Name "bars" -NoCache  # Bypass cache
+Show-ColorScript -ExcludePokemon    # Random colorscript excluding Pokémon category
 ```
 
 ### 2. Get-ColorScriptList

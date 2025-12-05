@@ -345,21 +345,6 @@ function Show-ColorScript {
     $noAnsiRequested = $NoAnsiOutput.IsPresent
     $preferConsoleOutput = -not $noAnsiRequested
 
-    # Fast-path scenario: only excluding Pokémon, with no other
-    # metadata-dependent filters. In this case we can avoid building
-    # the full metadata table and instead filter directly by a cached
-    # set of Pokémon script names.
-    $isSimplePokemonExclude = $ExcludePokemon.IsPresent -and
-        (-not $ExcludeCategory -or $ExcludeCategory.Count -eq 0) -and
-        -not $Category -and
-        -not $Tag -and
-        -not $All -and
-        -not $List -and
-        -not $PassThru.IsPresent -and
-        -not $Name
-
-    $preloadedRecords = $null
-
     # Normalize excluded categories
     $effectiveExcludeCategories = @()
     if ($ExcludeCategory) {
@@ -374,33 +359,6 @@ function Show-ColorScript {
         $excludeCategorySet = $effectiveExcludeCategories |
             Where-Object { -not [string]::IsNullOrWhiteSpace($_) } |
                 ForEach-Object { $_.ToLowerInvariant() }
-    }
-
-    if ($isSimplePokemonExclude) {
-        $inventory = Get-ColorScriptInventory
-
-        if (-not $inventory -or $inventory.Count -eq 0) {
-            Write-Warning ($script:Messages.NoColorscriptsFoundInScriptsPath -f $script:ScriptsPath)
-            return
-        }
-
-        $pokemonSet = Get-PokemonScriptNameSet
-
-        if ($pokemonSet -and $pokemonSet.Count -gt 0) {
-            $preloadedRecords = $inventory | Where-Object {
-                -not $pokemonSet.Contains($_.Name) -and -not $pokemonSet.Contains($_.BaseName)
-            }
-        }
-        else {
-            # If we cannot resolve any Pokémon names, fall back to the
-            # unfiltered inventory rather than blocking the command.
-            $preloadedRecords = $inventory
-        }
-
-        if (-not $preloadedRecords -or $preloadedRecords.Count -eq 0) {
-            Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria
-            return
-        }
     }
 
     if ($List) {
@@ -535,24 +493,18 @@ function Show-ColorScript {
         return
     }
 
-    if ($preloadedRecords) {
-        $needsMetadata = $false
-        $records = $preloadedRecords
+    $needsMetadata = (
+        ($Category -and $Category.Count -gt 0) -or
+        ($Tag -and $Tag.Count -gt 0) -or
+        $PassThru.IsPresent -or
+        ($excludeCategorySet.Count -gt 0)
+    )
+
+    $records = if ($needsMetadata) {
+        Get-ColorScriptEntry -Category $Category -Tag $Tag
     }
     else {
-        $needsMetadata = (
-            ($Category -and $Category.Count -gt 0) -or
-            ($Tag -and $Tag.Count -gt 0) -or
-            $PassThru.IsPresent -or
-            ($excludeCategorySet.Count -gt 0)
-        )
-
-        $records = if ($needsMetadata) {
-            Get-ColorScriptEntry -Category $Category -Tag $Tag
-        }
-        else {
-            Get-ColorScriptInventory
-        }
+        Get-ColorScriptInventory
     }
 
     if (-not $records -or $records.Count -eq 0) {

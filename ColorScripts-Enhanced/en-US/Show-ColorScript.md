@@ -18,21 +18,24 @@ Displays a colorscript with automatic caching for enhanced performance.
 ### Random (Default)
 
 ```text
-Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru]
+Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
+ [-ExcludeCategory <String[]>] [-ExcludePokemon] [-PassThru]
  [-ReturnText] [-ValidateCache] [<CommonParameters>]
 ```
 
 ### Named
 
 ```text
-Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-PassThru]
+Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
+ [-ExcludeCategory <String[]>] [-ExcludePokemon] [-PassThru]
  [-ReturnText] [-ValidateCache] [<CommonParameters>]
 ```
 
 ### List
 
 ```text
-Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-ReturnText]
+Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
+ [-ExcludeCategory <String[]>] [-ExcludePokemon] [-ReturnText]
  [-ValidateCache] [<CommonParameters>]
 ```
 
@@ -40,6 +43,7 @@ Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-R
 
 ```text
 Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
+ [-ExcludeCategory <String[]>] [-ExcludePokemon]
  [-ValidateCache] [<CommonParameters>]
 ```
 
@@ -260,6 +264,22 @@ if (Test-Path $scriptPath) {
 
 Demonstrates running a specific colorscript as part of scheduled task or startup automation.
 
+### EXAMPLE 21
+
+```powershell
+Show-ColorScript -ExcludePokemon
+```
+
+Displays a random colorscript while excluding all scripts in the `Pokemon` category. Useful when you have a large Pokémon collection installed but want non-Pokémon art for daily use.
+
+### EXAMPLE 22
+
+```powershell
+Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming
+```
+
+Displays a random colorscript while excluding both the `Pokemon` and `Gaming` categories. Combine with `-Category` or `-Tag` to further refine the selection.
+
 ## PARAMETERS
 
 ### -All
@@ -299,6 +319,27 @@ ParameterSets:
    ValueFromPipeline: false
    ValueFromPipelineByPropertyName: false
    ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -ExcludeCategory
+
+Exclude scripts from one or more categories before selection occurs. For example, use `-ExcludeCategory Pokemon` to avoid all Pokémon scripts, or specify multiple categories such as `-ExcludeCategory Pokemon,Gaming`. Works in all modes (Random, Named, List, All) and combines with `-Category` and `-Tag` filters.
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+     Position: Named
+     IsRequired: false
+     ValueFromPipeline: false
+     ValueFromPipelineByPropertyName: false
+     ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
@@ -389,6 +430,27 @@ ParameterSets:
    ValueFromPipeline: false
    ValueFromPipelineByPropertyName: false
    ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -ExcludePokemon
+
+Shorthand for `-ExcludeCategory Pokemon`. Excludes all Pokémon colorscripts from selection across all modes (Random, Named, List, All). This parameter is convenient when you want non-Pokémon art while still keeping the Pokémon collection installed.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+     Position: Named
+     IsRequired: false
+     ValueFromPipeline: false
+     ValueFromPipelineByPropertyName: false
+     ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""

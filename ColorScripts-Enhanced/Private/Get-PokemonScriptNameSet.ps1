@@ -1,50 +1,12 @@
-function Get-PokemonScriptNameSet {
-    [CmdletBinding()]
-    param()
+<#
+    NOTE: This file is intentionally a no-op stub.
 
-    # Cache per-module to avoid repeated parsing
-    if ($script:PokemonScriptNameSet -is [System.Collections.Generic.HashSet[string]]) {
-        return $script:PokemonScriptNameSet
-    }
+    Earlier versions experimented with a custom Get-PokemonScriptNameSet
+    helper to parse ScriptMetadata.psd1 directly for Pokémon names. The
+    current implementation no longer uses this helper; Pokémon scripts are
+    handled via normal metadata categories using Import-PowerShellDataFile
+    with -SkipLimitCheck.
 
-    $nameMatches = @()
-
-    if ($script:MetadataPath -and (Test-Path -LiteralPath $script:MetadataPath)) {
-        try {
-            $raw = Get-Content -LiteralPath $script:MetadataPath -Raw -ErrorAction Stop
-            if (-not [string]::IsNullOrWhiteSpace($raw)) {
-                # Extract the body of the Pokemon category array: Pokemon = @(...)
-                $regex = [System.Text.RegularExpressions.Regex]::new(
-                    'Pokemon\s*=\s*@\((?<body>.*?)\)',
-                    [System.Text.RegularExpressions.RegexOptions]::Singleline
-                )
-
-                $match = $regex.Match($raw)
-                if ($match.Success) {
-                    $body = $match.Groups['body'].Value
-                    # Capture all single-quoted string literals inside the body
-                    $nameMatches = [System.Text.RegularExpressions.Regex]::Matches(
-                        $body,
-                        "'([^']+)'"
-                    )
-                }
-            }
-        }
-        catch {
-            # If anything goes wrong, fall back to an empty set rather than failing the caller
-            $nameMatches = @()
-        }
-    }
-
-    $set = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
-
-    foreach ($m in $nameMatches) {
-        $value = $m.Groups[1].Value
-        if (-not [string]::IsNullOrWhiteSpace($value)) {
-            $null = $set.Add($value)
-        }
-    }
-
-    $script:PokemonScriptNameSet = $set
-    return $set
-}
+    The file is retained (empty) only to avoid breaking any external tooling
+    that might scan the Private folder for file presence.
+#>

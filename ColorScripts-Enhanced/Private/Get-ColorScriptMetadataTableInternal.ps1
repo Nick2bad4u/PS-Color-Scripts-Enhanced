@@ -72,23 +72,29 @@ function Get-ColorScriptMetadataTableInternal {
     $data = $null
 
     if (Test-Path $script:MetadataPath) {
+        # Import ScriptMetadata.psd1 as a pure data file. On newer
+        # PowerShell versions, use -SkipLimitCheck so large, static
+        # datasets (like the full Pokémon category list) are loaded
+        # without being rejected by size/complexity heuristics.
+        $importParams = @{ Path = $script:MetadataPath }
+
         try {
-            # Prefer Import-PowerShellDataFile for strict, data-only loading
-            $data = Import-PowerShellDataFile -Path $script:MetadataPath -ErrorAction Stop
+            $command = Get-Command -Name Import-PowerShellDataFile -ErrorAction SilentlyContinue
+            if ($command -and $command.Parameters.ContainsKey('SkipLimitCheck')) {
+                $importParams['SkipLimitCheck'] = $true
+            }
         }
         catch {
-            Write-Verbose "Import-PowerShellDataFile failed for ScriptMetadata.psd1, falling back to dot-sourcing: $($_.Exception.Message)"
+            # If we cannot inspect parameters, just fall back to the
+            # basic call without SkipLimitCheck.
+        }
 
-            try {
-                # Fallback: dot-source the file so very large or complex data sets (like
-                # extensive Pokémon lists) can still be loaded without Import-PowerShellDataFile
-                # rejecting them as dynamic expressions.
-                $data = . $script:MetadataPath
-            }
-            catch {
-                Write-Verbose "Dot-sourcing ScriptMetadata.psd1 also failed, metadata will be empty: $($_.Exception.Message)"
-                $data = $null
-            }
+        try {
+            $data = Import-PowerShellDataFile @importParams
+        }
+        catch {
+            Write-Verbose ("Import-PowerShellDataFile failed for ScriptMetadata.psd1: {0}" -f $_.Exception.Message)
+            $data = $null
         }
 
         if ($data -is [hashtable]) {

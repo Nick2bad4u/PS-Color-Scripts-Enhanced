@@ -18,21 +18,24 @@ Affiche un script de couleur avec mise en cache automatique pour des performance
 ### Random (Default)
 
 ```text
-Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru]
+Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
+ [-ExcludeCategory <String[]>] [-ExcludePokemon] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### Named
 
 ```text
-Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-PassThru]
+Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
+ [-ExcludeCategory <String[]>] [-ExcludePokemon] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### List
 
 ```text
-Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-ReturnText]
+Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
+ [-ExcludeCategory <String[]>] [-ExcludePokemon] [-ReturnText]
  [<CommonParameters>]
 ```
 
@@ -40,6 +43,7 @@ Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-R
 
 ```text
 Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
+ [-ExcludeCategory <String[]>] [-ExcludePokemon]
  [<CommonParameters>]
 ```
 
@@ -55,13 +59,13 @@ Affiche de beaux scripts de couleur ANSI dans votre terminal avec optimisation i
 
 **Mode Tout :** Parcourt tous les scripts de couleur disponibles dans l'ordre alphabétique. Particulièrement utile pour présenter l'ensemble de la collection ou découvrir de nouveaux scripts.
 
-## Fonctionnalités de Performance 
+## Fonctionnalités de Performance
 Le système de mise en cache fournit des améliorations de performances de 6-19x. Lors de la première exécution, un script de couleur s'exécute normalement et sa sortie est mise en cache. Les affichages suivants utilisent la sortie mise en cache pour un rendu quasi-instantané. Le cache est automatiquement invalidé lorsque les scripts source sont modifiés, assurant l'exactitude de la sortie.
 
-## Capacités de Filtrage 
+## Capacités de Filtrage
 Filtrez les scripts par catégorie ou balises avant que la sélection ne se produise. Cela s'applique à tous les modes, vous permettant de travailler avec des sous-ensembles de la collection (par exemple, seulement les scripts thématiques sur la nature ou balisés comme "rétro").
 
-## Options de Sortie 
+## Options de Sortie
 Par défaut, les scripts de couleur sont écrits directement dans la console pour un affichage visuel immédiat. Utilisez `-ReturnText` pour émettre la sortie rendue vers le pipeline pour capture, redirection ou traitement ultérieur. Utilisez `-PassThru` pour recevoir l'objet de métadonnées du script pour une utilisation programmatique.
 
 ## EXAMPLES
@@ -731,7 +735,7 @@ Le système de mise en cache intelligent fournit des améliorations de performan
 - Reconstruire le cache : Utilisez `New-ColorScriptCache` pour pré-remplir le cache pour tous les scripts
 - Inspecter le cache : Les fichiers de cache sont du texte brut et peuvent être visualisés directement
 
-## Conseils Avancés 
+## Conseils Avancés
 
 - Utilisez `-PassThru` pour obtenir les métadonnées tout en affichant pour le post-traitement
 - Combinez `-ReturnText` avec les commandes de pipeline pour une manipulation avancée du texte
@@ -744,7 +748,7 @@ Le système de mise en cache intelligent fournit des améliorations de performan
 - Utilisez des variables d'environnement pour personnaliser le comportement par environnement
 - Implémentez la gestion d'erreur pour les scénarios d'affichage automatisés
 
-## Matrice de Compatibilité Terminal 
+## Matrice de Compatibilité Terminal
 
 | Terminal           | Support ANSI | UTF-8     | Performance | Notes                        |
 | ------------------ | ------------ | --------- | ----------- | ---------------------------- |

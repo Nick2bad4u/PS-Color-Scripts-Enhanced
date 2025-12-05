@@ -37,6 +37,7 @@ scs
 ```powershell
 Show-ColorScript -Name hearts
 scs mandelbrot-zoom
+Show-ColorScript -ExcludePokemon     # Random, excluding Pokémon scripts
 ```
 
 ### List All Scripts
