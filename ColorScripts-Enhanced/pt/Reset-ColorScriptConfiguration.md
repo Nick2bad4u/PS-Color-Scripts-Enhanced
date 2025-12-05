@@ -15,7 +15,7 @@ Redefine a configuração do ColorScripts-Enhanced para os valores padrão.
 
 ## SYNTAX
 
-```
+```text
 Reset-ColorScriptConfiguration [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -136,7 +136,7 @@ Este cmdlet não aceita entrada do pipeline.
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 Este cmdlet não retorna saída para o pipeline.
 
@@ -146,13 +146,13 @@ Este cmdlet não retorna saída para o pipeline.
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Escopo da Redefinição:**
+## Escopo da Redefinição
 Redefine todas as configurações configuráveis pelo usuário para os padrões do módulo. Isso inclui caminhos de cache, configurações de desempenho e preferências de exibição.
 
-**Segurança de Dados:**
+## Segurança de Dados
 A redefinição da configuração não afeta a saída do script em cache ou colorscripts criados pelo usuário. Apenas as configurações são afetadas.
 
-**Recuperação:**
+## Recuperação
 Após a redefinição, use Set-ColorScriptConfiguration para reaplicar configurações personalizadas, se necessário.
 
 ## RELATED LINKS

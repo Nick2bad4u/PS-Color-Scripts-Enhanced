@@ -17,28 +17,28 @@ Toont een colorscript met automatische caching voor verbeterde prestaties.
 
 ### Random (Default)
 
-```
+```text
 Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### Named
 
-```
+```text
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### List
 
-```
+```text
 Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-ReturnText]
  [<CommonParameters>]
 ```
 
 ### All
 
-```
+```text
 Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
  [<CommonParameters>]
 ```
@@ -55,13 +55,13 @@ Render mooie ANSI colorscripts in je terminal met intelligente prestatie-optimal
 
 **All Mode:** Cycli door alle beschikbare colorscripts in alfabetische volgorde. Bijzonder nuttig voor het tonen van de gehele collectie of het ontdekken van nieuwe scripts.
 
-**Performance Features:**
+## Performance Features
 Het caching systeem biedt 6-19x prestatieverbeteringen. Bij eerste uitvoering wordt een colorscript normaal uitgevoerd en wordt de uitvoer gecached. Volgende weergaven gebruiken de gecachte uitvoer voor bijna-instant rendering. De cache wordt automatisch ongeldig gemaakt wanneer bronscripts worden gewijzigd, waardoor uitvoer nauwkeurigheid wordt gegarandeerd.
 
-**Filtering Capabilities:**
+## Filtering Capabilities
 Filter scripts op categorie of tags voordat selectie plaatsvindt. Dit geldt voor alle modi, waardoor je kunt werken met subsets van de collectie (bijv. alleen natuur-georiënteerde scripts of scripts getagd als "retro").
 
-**Output Options:**
+## Output Options
 Standaard worden colorscripts direct naar de console geschreven voor onmiddellijke visuele weergave. Gebruik `-ReturnText` om de gerenderde uitvoer naar de pipeline te emitteren voor capture, redirection of verdere verwerking. Gebruik `-PassThru` om het metadata object van het script te ontvangen voor programmatisch gebruik.
 
 ## EXAMPLES
@@ -497,7 +497,7 @@ U kunt colorscript-namen naar Show-ColorScript pipen. Dit maakt pipeline-gebasee
 
 Wanneer `-PassThru` is opgegeven, retourneert het geselecteerde colorscript's metadata object met eigenschappen zoals Name, Path, Category, Tags, en Description.
 
-### System.String
+### System.String (2)
 
 Wanneer `-ReturnText` is opgegeven, emitteert de gerenderde colorscript als een string naar de pipeline. Deze string bevat alle ANSI escape sequences voor juiste kleurweergave wanneer weergegeven in een compatibele terminal.
 
@@ -511,17 +511,17 @@ In standaardwerking (zonder `-PassThru` of `-ReturnText`), wordt uitvoer direct 
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance
 Het intelligente caching systeem biedt 6-19x prestatieverbeteringen ten opzichte van directe uitvoering. Cache bestanden worden opgeslagen in een module-beheerde directory en worden automatisch ongeldig gemaakt wanneer bronscripts worden gewijzigd, waardoor nauwkeurigheid wordt gegarandeerd.
 
-**Cache Management:**
+## Cache Management
 
 - Cache locatie: Gebruik `(Get-Module ColorScripts-Enhanced).ModuleBase` en zoek naar de cache directory
 - Cache wissen: Gebruik `Clear-ColorScriptCache` om vanaf nul te herbouwen
 - Cache herbouwen: Gebruik `New-ColorScriptCache` om cache voor alle scripts voor te vullen
 - Cache inspecteren: Cache bestanden zijn platte tekst en kunnen direct worden bekeken
 
-**Tips:**
+## Tips
 
 - Voeg `Show-ColorScript -Random` toe aan uw PowerShell profiel voor een kleurrijke begroeting bij elke sessie start
 - Gebruik de module alias `scs` voor snelle toegang: `scs -Random`
@@ -529,14 +529,14 @@ Het intelligente caching systeem biedt 6-19x prestatieverbeteringen ten opzichte
 - Gebruik `-List` om nieuwe scripts te ontdekken en over hun thema's te leren
 - De `-All -WaitForInput` combinatie is perfect voor het presenteren van de collectie aan anderen
 
-**Compatibility:**
+## Compatibility
 Colorscripts use ANSI escape sequences and display best in terminals with full color support, such as Windows Terminal, ConEmu, or modern Unix terminals.
 
 ## ADVANCED USAGE
 
 ### Filtering Strategies
 
-**By Category and Tag Combination**
+## By Category and Tag Combination
 
 ```powershell
 # Toon alleen geometrische colorscripts getagd als minimaal
@@ -549,7 +549,7 @@ Show-ColorScript -Category Nature -Tag Recommended -Random
 Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
 ```
 
-**Dynamic Filtering Based on Time**
+## Dynamic Filtering Based on Time
 
 ```powershell
 # Ochtend: heldere kleuren
@@ -564,7 +564,7 @@ else {
 
 ### Output Capture Patterns
 
-**Save for Later Viewing**
+## Save for Later Viewing
 
 ```powershell
 # Opslaan in variabele
@@ -575,7 +575,7 @@ $art | Out-File "./my-art.ansi" -Encoding UTF8
 Get-Content "./my-art.ansi" -Raw | Write-Host
 ```
 
-**Create Themed Collections**
+## Create Themed Collections
 
 ```powershell
 # Verzamel alle geometrische scripts
@@ -590,7 +590,7 @@ $geometric | ForEach-Object {
 
 ### Performance Analysis
 
-**Comprehensive Benchmark**
+## Comprehensive Benchmark
 
 ```powershell
 # Functie om colorscript prestaties te benchmarken
@@ -622,7 +622,7 @@ Get-ColorScriptList -Category Geometric -AsObject |
 
 ### Terminal Customization
 
-**Terminal-Specific Display**
+## Terminal-Specific Display
 
 ```powershell
 # Windows Terminal met ANSI ondersteuning
@@ -648,7 +648,7 @@ if ($env:ConEmuANSI -eq "ON") {
 
 ### Automation Integration
 
-**Scheduled Colorscript Rotation**
+## Scheduled Colorscript Rotation
 
 ```powershell
 # Creëer geplande taak wrapper
@@ -671,7 +671,7 @@ function Start-ColorScriptSession {
 
 ### Error Handling and Resilience
 
-**Graceful Fallback**
+## Graceful Fallback
 
 ```powershell
 # Probeer specifiek script, fallback naar random
@@ -683,7 +683,7 @@ try {
 }
 ```
 
-**Validation Before Display**
+## Validation Before Display
 
 ```powershell
 # Verificeer script bestaat voordat weergeven
@@ -700,7 +700,7 @@ if ($scriptName -in $scripts.Name) {
 
 ### Metadata Inspection
 
-**Inspect Before Displaying**
+## Inspect Before Displaying
 
 ```powershell
 # Verkrijg metadata tijdens weergeven
@@ -743,7 +743,7 @@ De module bevat scripts in verschillende categorieën:
 - Cache
 - Performance
 
-### ADVANCED USAGE
+### ADVANCED USAGE (2)
 
 #### Building Cache for Specific Categories
 
@@ -1109,28 +1109,28 @@ Add-ColorScriptProfile -Force
 
 ### FAQ
 
-**Q: Hoeveel colorscripts zijn beschikbaar?**
+## Q: Hoeveel colorscripts zijn beschikbaar
 A: 450++ ingebouwde scripts over meerdere categorieën en tags
 
-**Q: Hoeveel schijfruimte gebruikt caching?**
+## Q: Hoeveel schijfruimte gebruikt caching
 A: Ongeveer 2-5MB totaal voor alle scripts, ongeveer 2-50KB per script
 
-**Q: Kan ik colorscripts gebruiken in scripts/automtisering?**
+## Q: Kan ik colorscripts gebruiken in scripts/automtisering
 A: Ja, gebruik `-ReturnText` om uitvoer vast te leggen of `-PassThru` voor metadata
 
-**Q: Hoe creëer ik aangepaste colorscripts?**
+## Q: Hoe creëer ik aangepaste colorscripts
 A: Gebruik `New-ColorScript` om een sjabloon te scaffolden, voeg dan uw ANSI kunst toe
 
-**Q: Wat als ik geen kleuren wil bij opstart?**
+## Q: Wat als ik geen kleuren wil bij opstart
 A: Gebruik `Add-ColorScriptProfile -SkipStartupScript` om te importeren zonder auto-weergave
 
-**Q: Kan ik dit gebruiken op macOS/Linux?**
+## Q: Kan ik dit gebruiken op macOS/Linux
 A: Ja, met PowerShell 7+ die cross-platform draait
 
-**Q: Hoe deel ik colorscripts met collega's?**
+## Q: Hoe deel ik colorscripts met collega's
 A: Exporteer metadata met `Export-ColorScriptMetadata` of deel script bestanden
 
-**Q: Is caching altijd ingeschakeld?**
+## Q: Is caching altijd ingeschakeld
 A: Nee, gebruik `-NoCache` om caching uit te schakelen voor ontwikkeling/testen
 
 ### BEST PRACTICES
@@ -1146,23 +1146,23 @@ A: Nee, gebruik `-NoCache` om caching uit te schakelen voor ontwikkeling/testen
 9. **Documenteer Aangepaste Scripts**: Voeg beschrijvingen en tags toe aan aangepaste colorscripts
 10. **Backup Configuratie**: Exporteer configuratie voordat grote wijzigingen
 
-## NOTES
+## NOTES (2)
 
 **Author:** Nick
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance (2)
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
-**Cache Management:**
+## Cache Management (2)
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
-**Advanced Tips:**
+## Advanced Tips
 
 - Use `-PassThru` to get metadata while displaying for post-processing
 - Combine `-ReturnText` with pipeline commands for advanced text manipulation
@@ -1175,7 +1175,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 - Use environment variables to customize behavior per environment
 - Implement error handling for automated display scenarios
 
-**Terminal Compatibility Matrix:**
+## Terminal Compatibility Matrix
 
 | Terminal           | ANSI Support | UTF-8     | Performance | Notes                      |
 | ------------------ | ------------ | --------- | ----------- | -------------------------- |

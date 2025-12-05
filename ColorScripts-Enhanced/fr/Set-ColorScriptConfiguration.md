@@ -17,14 +17,14 @@ Persiste les modifications apportées au cache et à la configuration de démarr
 
 ### Default (Default)
 
-```
+```text
 Set-ColorScriptConfiguration [-AutoShowOnImport <Boolean>] [-ProfileAutoShow <Boolean>]
  [-CachePath <String>] [-DefaultScript <String>] [-PassThru] [<CommonParameters>]
 ```
 
 ### \_\_AllParameterSets
 
-```
+```text
 Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <bool>]
  [[-CachePath] <string>] [[-DefaultScript] <string>] [-PassThru] [<CommonParameters>]
 ```
@@ -33,7 +33,7 @@ Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <b
 
 `Set-ColorScriptConfiguration` fournit un moyen persistant de personnaliser le comportement et l'emplacement de stockage du module ColorScripts-Enhanced. Cette cmdlet met à jour le fichier de configuration du module, vous permettant de contrôler divers aspects du rendu et du stockage des scripts.
 
-**Capacités clés :**
+## Capacités clés 
 
 - **Relocalisation du cache** : Déplacez le cache des couleurscripts vers un répertoire personnalisé, utile pour les partages réseau, les lecteurs plus rapides ou les emplacements de stockage centralisés.
 - **Comportement d'auto-import** : Contrôlez si un couleurscript s'affiche automatiquement lorsque le module est importé pour la première fois dans votre session PowerShell.
@@ -222,7 +222,7 @@ Cette cmdlet n'accepte pas d'entrée pipeline.
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 Par défaut, cette cmdlet ne produit aucune sortie.
 
@@ -232,23 +232,23 @@ Lorsque `-PassThru` est spécifié, retourne une hashtable contenant la configur
 
 ## NOTES
 
-**Emplacement du fichier de configuration :**
+## Emplacement du fichier de configuration 
 
 Les modifications de configuration sont persistées dans un fichier JSON ou XML stocké dans un répertoire de données d'application spécifique à la plateforme. Utilisez `Get-ColorScriptConfiguration` pour afficher le chemin racine de configuration actuel. La variable d'environnement `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` peut remplacer l'emplacement par défaut du répertoire de configuration si elle est définie avant l'import du module.
 
-**Valeurs par défaut de la plateforme :**
+## Valeurs par défaut de la plateforme 
 
 - **Windows** : `$env:LOCALAPPDATA\ColorScripts-Enhanced`
 - **Linux/macOS** : `~/.config/ColorScripts-Enhanced` ou `$XDG_CONFIG_HOME/ColorScripts-Enhanced`
 
-**Meilleures pratiques :**
+## Meilleures pratiques 
 
 - Testez les modifications de chemin de cache dans un environnement non-production d'abord, surtout lors de l'utilisation d'emplacements réseau.
 - Utilisez `-PassThru` lors du scripting pour valider les mises à jour de configuration par programme.
 - Envisagez de définir `AutoShowOnImport:$false` dans les scripts automatisés ou les pipelines CI/CD pour éviter une sortie visuelle inattendue.
 - Documentez les configurations personnalisées dans les environnements d'équipe pour assurer un comportement cohérent entre les utilisateurs.
 
-**Permissions :**
+## Permissions 
 
 Assurez-vous d'avoir des permissions d'écriture sur le répertoire de configuration. Sur les systèmes partagés, les modifications de configuration n'affectent que le profil de l'utilisateur actuel, sauf si elles sont remplacées par des variables d'environnement pointant vers des emplacements partagés.
 

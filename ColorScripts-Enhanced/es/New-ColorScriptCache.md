@@ -29,13 +29,13 @@ El cmdlet omite inteligentemente los scripts cuyos archivos de caché ya están 
 
 ### All
 
-```
+```text
 New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Named
 
-```
+```text
 New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -425,7 +425,7 @@ Sin `-PassThru`, muestra una tabla de resumen concisa en la consola mostrando el
 
 ### Estrategias de Construcción de Caché
 
-**Caché de Producción Completo**
+## Caché de Producción Completo
 
 ```powershell
 # Construir todos los cachés para entorno de producción
@@ -436,7 +436,7 @@ Write-Host "Caché construido exitosamente"
 Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter "*.cache" | Measure-Object
 ```
 
-**Caché de Producción Mínimo**
+## Caché de Producción Mínimo
 
 ```powershell
 # Almacenar en caché solo scripts recomendados para huella mínima
@@ -444,7 +444,7 @@ New-ColorScriptCache -Tag Recommended -PassThru |
     Select-Object Name, Status, CacheFile
 ```
 
-**Almacenamiento en Caché de Categoría Selectiva**
+## Almacenamiento en Caché de Categoría Selectiva
 
 ```powershell
 # Almacenar en caché categorías específicas basadas en entorno
@@ -456,7 +456,7 @@ Get-ColorScriptList -Category $categories -AsObject |
 
 ### Monitoreo de Rendimiento
 
-**Progreso de Construcción de Caché**
+## Progreso de Construcción de Caché
 
 ```powershell
 # Monitorear construcción de caché con progreso
@@ -474,7 +474,7 @@ $scripts | ForEach-Object {
 Write-Progress -Activity "Building Cache" -Completed
 ```
 
-**Informe de Comparación de Rendimiento**
+## Informe de Comparación de Rendimiento
 
 ```powershell
 # Comparar tiempos de construcción de caché
@@ -491,7 +491,7 @@ $results | Sort-Object BuildTime -Descending | Format-Table
 
 ### Mantenimiento y Limpieza
 
-**Reconstrucción de Caché Programada**
+## Reconstrucción de Caché Programada
 
 ```powershell
 # Reconstruir caché semanalmente
@@ -504,7 +504,7 @@ if ($daysSince -ge 7) {
 }
 ```
 
-**Actualizaciones Selectivas de Caché**
+## Actualizaciones Selectivas de Caché
 
 ```powershell
 # Actualizar solo cachés obsoletos
@@ -519,7 +519,7 @@ $scripts | ForEach-Object {
 
 ### Integración CI/CD
 
-**Construir Caché en Docker**
+## Construir Caché en Docker
 
 ```powershell
 # En Dockerfile o script de construcción
@@ -528,7 +528,7 @@ New-ColorScriptCache -Force | Out-Null
 Write-Host "✓ Caché de ColorScripts construido"
 ```
 
-**Archivo de Caché para Despliegue**
+## Archivo de Caché para Despliegue
 
 ```powershell
 # Archivar caché para despliegue
@@ -550,7 +550,7 @@ Los archivos de caché se almacenan en el directorio expuesto por la variable `C
 
 El cmdlet ejecuta cada script en un proceso de PowerShell en segundo plano aislado para capturar su salida sin afectar la sesión actual. Esto asegura el almacenamiento en caché preciso de la salida exacta de la consola que se mostraría al ejecutar el script directamente.
 
-**Mejores Prácticas:**
+## Mejores Prácticas
 
 - Ejecutar una vez después de la instalación del módulo para pre-almacenar en caché todos los scripts
 - Usar `-Force` solo cuando necesites reconstruir todos los cachés
@@ -562,7 +562,7 @@ El cmdlet ejecuta cada script en un proceso de PowerShell en segundo plano aisla
 
 **Consejo de Rendimiento:** Ejecuta este cmdlet una vez después de instalar o actualizar el módulo para pre-almacenar en caché todos los scripts para un rendimiento óptimo.
 
-**Solución de Problemas:**
+## Solución de Problemas
 
 - Si la construcción de caché falla, verifica la sintaxis del script con `Show-ColorScript -Name scriptname -NoCache`
 - Monitorea el espacio en disco para el crecimiento del directorio de caché

@@ -15,7 +15,7 @@ Creëert een nieuw colorscript met metadata en sjabloonstructuur.
 
 ## SYNTAX
 
-```
+```text
 New-ColorScript [-Name] <string> [[-Category] <string>] [[-Tags] <string[]>] [[-Description] <string>]
  [-Path <string>] [-Template <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
@@ -290,7 +290,7 @@ Retourneert een object met informatie over het gemaakte colorscript.
 **Module:** ColorScripts-Enhanced
 **Vereist:** PowerShell 5.1 of later
 
-**Sjablonen:**
+## Sjablonen
 
 - Basic: Minimale structuur voor aangepaste scripts
 - Animated: Sjabloon met timing controles
@@ -298,7 +298,7 @@ Retourneert een object met informatie over het gemaakte colorscript.
 - Geometric: Sjabloon voor geometrische patronen
 - Nature: Sjabloon voor natuur-geïnspireerde ontwerpen
 
-**Bestandsstructuur:**
+## Bestandsstructuur
 Gemaakte scripts volgen de standaardorganisatie van de module en integreren automatisch met caching- en weergavesystemen.
 
 ## RELATED LINKS

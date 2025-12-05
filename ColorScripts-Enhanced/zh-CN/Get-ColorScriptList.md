@@ -15,7 +15,7 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNTAX
 
-```
+```powershell
 Get-ColorScriptList [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>] [-AsObject]
  [<CommonParameters>]
 ```
@@ -222,7 +222,7 @@ HelpMessage: ""
 
 指定 `-AsObject` 时，返回具有 Name、Category、Tags 和 Description 属性的自定义对象。
 
-### None
+### None (2)
 
 未指定 `-AsObject` 时，输出直接写入控制台主机。
 
@@ -232,14 +232,14 @@ HelpMessage: ""
 **模块：** ColorScripts-Enhanced
 **需要：** PowerShell 5.1 或更高版本
 
-**元数据属性：**
+## 元数据属性：
 
 - 名称：Show-ColorScript 使用的脚本标识符
 - 类别：用于组织的主题分组
 - 标签：用于过滤的描述性关键字数组
 - 描述：内容的易读说明
 
-**使用模式：**
+## 使用模式：
 
 - 发现：在选择之前探索可用脚本
 - 过滤：使用类别和标签缩小选项范围

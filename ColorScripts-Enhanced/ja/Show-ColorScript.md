@@ -17,28 +17,28 @@ PlatyPS schema version: 2024-05-01
 
 ### Random (Default)
 
-```
+```text
 Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### Named
 
-```
+```text
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### List
 
-```
+```text
 Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-ReturnText]
  [<CommonParameters>]
 ```
 
 ### All
 
-```
+```text
 Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
  [<CommonParameters>]
 ```
@@ -55,13 +55,13 @@ Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag 
 
 **All Mode:** アルファベット順ですべての利用可能なカラースクリプトを循環します。特に、コレクション全体を展示したり、新しいスクリプトを発見したりするのに便利です。
 
-**Performance Features:**
+## Performance Features
 キャッシングシステムは6-19倍のパフォーマンス向上を提供します。最初の実行では、カラースクリプトが通常通り実行され、その出力がキャッシュされます。その後の表示では、キャッシュされた出力を使用してほぼ瞬時にレンダリングされます。ソーススクリプトが変更されるとキャッシュが自動的に無効化され、出力の正確性が確保されます。
 
-**Filtering Capabilities:**
+## Filtering Capabilities
 選択が発生する前に、カテゴリまたはタグでスクリプトをフィルタリングします。これはすべてのモードに適用され、コレクションのサブセット（例: 自然テーマのスクリプトのみ、または「retro」としてタグ付けされたスクリプト）で作業できます。
 
-**Output Options:**
+## Output Options
 デフォルトでは、カラースクリプトは即時の視覚表示のためにコンソールに直接書き込まれます。`-ReturnText`を使用して、レンダリングされた出力をパイプラインに送信し、キャプチャ、リダイレクト、またはさらなる処理を行います。`-PassThru`を使用して、スクリプトのメタデータオブジェクトをプログラムで使用するために受け取ります。
 
 ## EXAMPLES
@@ -494,7 +494,7 @@ Show-ColorScript にカラースクリプト名をパイプできます。これ
 
 `-PassThru` が指定された場合、選択されたカラースクリプトのメタデータオブジェクトを返します。このオブジェクトには、Name、Path、Category、Tags、Description などのプロパティが含まれます。
 
-### System.String
+### System.String (2)
 
 `-ReturnText` が指定された場合、レンダリングされたカラースクリプトを文字列としてパイプラインに送信します。この文字列には、互換性のあるターミナルで表示されたときに適切な色でレンダリングするためのすべての ANSI エスケープシーケンスが含まれます。
 
@@ -508,17 +508,17 @@ Show-ColorScript にカラースクリプト名をパイプできます。これ
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance
 インテリジェントなキャッシングシステムは、直接実行よりも6-19倍のパフォーマンス向上を提供します。キャッシュファイルはモジュール管理ディレクトリに保存され、ソーススクリプトが変更されると自動的に無効化され、正確性が確保されます。
 
-**Cache Management:**
+## Cache Management
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
-**Tips:**
+## Tips
 
 - Add `Show-ColorScript -Random` to your PowerShell profile for a colorful greeting on each session start
 - Use the module alias `scs` for quick access: `scs -Random`
@@ -526,14 +526,14 @@ Show-ColorScript にカラースクリプト名をパイプできます。これ
 - Use `-List` to discover new scripts and learn about their themes
 - The `-All -WaitForInput` combination is perfect for presenting the collection to others
 
-**Compatibility:**
+## Compatibility
 Colorscripts use ANSI escape sequences and display best in terminals with full color support, such as Windows Terminal, ConEmu, or modern Unix terminals.
 
 ## ADVANCED USAGE
 
 ### Filtering Strategies
 
-**By Category and Tag Combination**
+## By Category and Tag Combination
 
 ```powershell
 # 最小限としてタグ付けされた幾何学カラースクリプトのみを表示
@@ -546,7 +546,7 @@ Show-ColorScript -Category Nature -Tag Recommended -Random
 Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
 ```
 
-**Dynamic Filtering Based on Time**
+## Dynamic Filtering Based on Time
 
 ```powershell
 # 朝: 明るい色
@@ -561,7 +561,7 @@ else {
 
 ### Output Capture Patterns
 
-**Save for Later Viewing**
+## Save for Later Viewing
 
 ```powershell
 # 変数に保存
@@ -572,7 +572,7 @@ $art | Out-File "./my-art.ansi" -Encoding UTF8
 Get-Content "./my-art.ansi" -Raw | Write-Host
 ```
 
-**Create Themed Collections**
+## Create Themed Collections
 
 ```powershell
 # すべての幾何学スクリプトを収集
@@ -587,7 +587,7 @@ $geometric | ForEach-Object {
 
 ### Performance Analysis
 
-**Comprehensive Benchmark**
+## Comprehensive Benchmark
 
 ```powershell
 # カラースクリプトのパフォーマンスをベンチマークする関数
@@ -619,7 +619,7 @@ Get-ColorScriptList -Category Geometric -AsObject |
 
 ### Terminal Customization
 
-**Terminal-Specific Display**
+## Terminal-Specific Display
 
 ```powershell
 # ANSIサポート付きWindows Terminal
@@ -645,7 +645,7 @@ if ($env:ConEmuANSI -eq "ON") {
 
 ### Automation Integration
 
-**Scheduled Colorscript Rotation**
+## Scheduled Colorscript Rotation
 
 ```powershell
 # スケジュールされたタスクラッパーを作成
@@ -668,7 +668,7 @@ function Start-ColorScriptSession {
 
 ### Error Handling and Resilience
 
-**Graceful Fallback**
+## Graceful Fallback
 
 ```powershell
 # 特定のスクリプトを試し、ランダムにフォールバック
@@ -680,7 +680,7 @@ try {
 }
 ```
 
-**Validation Before Display**
+## Validation Before Display
 
 ```powershell
 # 表示前にスクリプトが存在することを確認
@@ -697,7 +697,7 @@ if ($scriptName -in $scripts.Name) {
 
 ### Metadata Inspection
 
-**Inspect Before Displaying**
+## Inspect Before Displaying
 
 ```powershell
 # 表示中にメタデータを取得
@@ -712,23 +712,23 @@ if ($metadata.Tags -contains "Animated") {
 }
 ```
 
-## NOTES
+## NOTES (2)
 
 **Author:** Nick
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance (2)
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
-**Cache Management:**
+## Cache Management (2)
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
-**Advanced Tips:**
+## Advanced Tips
 
 - Use `-PassThru` to get metadata while displaying for post-processing
 - Combine `-ReturnText` with pipeline commands for advanced text manipulation
@@ -741,7 +741,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 - Use environment variables to customize behavior per environment
 - Implement error handling for automated display scenarios
 
-**Terminal Compatibility Matrix:**
+## Terminal Compatibility Matrix
 
 | Terminal           | ANSI Support | UTF-8     | Performance | Notes                      |
 | ------------------ | ------------ | --------- | ----------- | -------------------------- |

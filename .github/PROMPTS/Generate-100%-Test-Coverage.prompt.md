@@ -108,7 +108,7 @@ name: "Generate-Test-Coverage"
 - `Should -BeOfType`: Type validation
 - Many more available - see [Pester Assertions](https://pester.dev/docs/assertions/)
 
-## Common Pester Patterns:
+## Common Pester Patterns
 
 - **Core Testing:** `Describe`, `Context`, `It`, `Should`
 - **Setup/Teardown:** `BeforeAll`, `AfterAll`, `BeforeEach`, `AfterEach`

@@ -34,7 +34,7 @@ Coverage is automatically collected and uploaded to Codecov on every push via Gi
 
 - **Online**: [Codecov Dashboard](https://codecov.io/gh/Nick2bad4u/ps-color-scripts-enhanced)
 - **Local HTML**: Open `coverage-report/index.html` after running with `-ShowReport`
-- **Badge**: ![codecov](https://codecov.io/gh/Nick2bad4u/ps-color-scripts-enhanced/branch/main/graph/badge.svg)
+- **Badge**: ![codecov.](https://codecov.io/gh/Nick2bad4u/ps-color-scripts-enhanced/branch/main/graph/badge.svg)
 
 ## Coverage Targets
 

@@ -17,13 +17,13 @@ Vooraf bouwt cache op voor optimalisatie van colorscript prestaties.
 
 ### Alles
 
-```
+```text
 New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Geselecteerd
 
-```
+```text
 New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -194,7 +194,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -PassThru
 
@@ -215,7 +215,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 ```
 
 ### -Name
@@ -309,13 +309,13 @@ Retourneert cache bouwresultaten met succes/mislukking status voor elk script.
 **Module:** ColorScripts-Enhanced
 **Vereist:** PowerShell 5.1 of later
 
-**Prestatie Impact:**
+## Prestatie Impact
 Vooraf cachen elimineert uitvoeringstijd bij eerste weergave, waardoor directe visuele feedback wordt geboden. Bijzonder nuttig voor complexe of geanimeerde scripts.
 
-**Cache Beheer:**
+## Cache Beheer
 Gecachte bestanden worden opgeslagen in module-beheerde directories en automatisch ongeldig gemaakt wanneer bronscripts veranderen. Gebruik Clear-ColorScriptCache om verouderde cache te verwijderen.
 
-**Beste Praktijken:**
+## Beste Praktijken
 
 - Cache veelgebruikte scripts voor optimale prestaties
 - Gebruik selectieve caching om onnodige verwerking te vermijden

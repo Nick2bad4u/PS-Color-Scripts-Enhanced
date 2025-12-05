@@ -15,7 +15,7 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNTAX
 
-```
+```powershell
 Get-ColorScriptConfiguration [<CommonParameters>]
 ```
 
@@ -99,14 +99,14 @@ if (Get-ColorScriptConfiguration) {
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Configuration Properties:**
+## Configuration Properties
 
 - CachePath：存储缓存脚本输出的位置
 - 用于优化的性能设置
 - 默认行为的显示偏好
 - 模块特定的配置选项
 
-**Configuration Location:**
+## Configuration Location
 设置存储在用户特定的配置文件中。使用标准的 PowerShell 配置机制来实现持久性。
 
 ## RELATED LINKS

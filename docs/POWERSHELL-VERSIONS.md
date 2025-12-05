@@ -50,7 +50,7 @@ This module supports both **Windows PowerShell 5.1** and **PowerShell 7.x** acro
 
 ### Platform Detection Variables
 
-**PowerShell 7.x only:**
+## PowerShell 7.x only
 
 ```powershell
 $IsWindows  # True on Windows
@@ -58,7 +58,7 @@ $IsMacOS    # True on macOS
 $IsLinux    # True on Linux
 ```
 
-**PowerShell 5.1 fallback:**
+## PowerShell 5.1 fallback
 
 ```powershell
 if ($PSVersionTable.PSVersion.Major -le 5) {
@@ -68,7 +68,7 @@ if ($PSVersionTable.PSVersion.Major -le 5) {
 
 ### Join-Path Behavior
 
-**PowerShell 5.1:**
+## PowerShell 5.1
 
 ```powershell
 # ❌ This fails in 5.1
@@ -79,7 +79,7 @@ $path = Join-Path -Path $root -ChildPath "folder1"
 $path = Join-Path -Path $path -ChildPath "folder2"
 ```
 
-**PowerShell 7.x:**
+## PowerShell 7.x
 
 ```powershell
 # ✅ Both work in 7.x

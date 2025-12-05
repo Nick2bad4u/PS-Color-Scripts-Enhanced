@@ -4,7 +4,7 @@ This document outlines local development practices for the **ColorScripts-Enhanc
 
 ## Repository Layout
 
-```
+```powershell
 ColorScripts-Enhanced/    # Module root (manifest + .psm1 + scripts)
 Scripts/                  # <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscript files
 Tests/                    # Pester test suite
@@ -372,9 +372,9 @@ Before submitting a pull request:
 - [Pester Testing](https://pester.dev/)
 - [ANSI Escape Codes](https://en.wikipedia.org/wiki/ANSI_escape_code)
 
-## Repository Layout
+## Repository Layout (2)
 
-```
+```powershell
 ColorScripts-Enhanced/
 ├── ColorScripts-Enhanced.psd1     # Module manifest
 ├── ColorScripts-Enhanced.psm1     # Main implementation
@@ -500,7 +500,7 @@ Expect to see icons, checkmarks, and box-drawing characters. If they appear as s
 - Respect the caching mechanism (do not bypass unless necessary)
 - Keep scripts idempotent and avoid side effects outside terminal output
 
-## Testing Strategy
+## Testing Strategy (2)
 
 - Unit tests validate exported commands and manifest integrity
 - Smoke tests ensure caching pipeline works end-to-end

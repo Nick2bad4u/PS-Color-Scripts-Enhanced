@@ -184,8 +184,8 @@ Add-ColorScriptProfile -Scope CurrentUserCurrentHost
 
 ## Performance Tips
 
-- **First Run**: ~50-300ms (builds cache)
-- **Cached Run**: ~8-16ms (6-19x faster!)
+- **First Run**: \~50-300ms (builds cache)
+- **Cached Run**: \~8-16ms (6-19x faster!)
 - **Pre-build cache**: `New-ColorScriptCache`
 - **Cache location**: `$env:APPDATA\ColorScripts-Enhanced\cache`
 
@@ -409,7 +409,7 @@ Get-ColorScriptList -AsObject |
 
 ## Best Practices
 
-### Installation
+### Installation (2)
 
 - [ ] Use `Install-Module` from PowerShell Gallery when available
 - [ ] Use `-Scope CurrentUser` for user-only installation
@@ -433,7 +433,7 @@ Get-ColorScriptList -AsObject |
 - [ ] Use `-NoCache` only for script development/testing
 - [ ] Monitor cache size: `$env:APPDATA\ColorScripts-Enhanced\cache`
 
-### Troubleshooting
+### Troubleshooting (2)
 
 - [ ] Verify UTF-8 encoding: `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8`
 - [ ] Check module loads: `Get-Module ColorScripts-Enhanced`
@@ -535,14 +535,14 @@ $env:PSModulePath += ";C:\CustomModulePath"
 - **Full Help**: `Get-Help about_ColorScripts-Enhanced`
 - **Command Help**: `Get-Help Show-ColorScript -Full`
 - **Examples**: `Get-Help Show-ColorScript -Examples`
-- **GitHub**: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
-- **Issues**: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues
+- **GitHub**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced>
+- **Issues**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues>
 - **Documentation**: `./docs/` folder in repository
 
 ## Links
 
-- **GitHub**: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
-- **Issues**: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues
+- **GitHub**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced>
+- **Issues**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues>
 - **License**: MIT
 
 ## Version

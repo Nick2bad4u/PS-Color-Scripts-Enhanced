@@ -17,14 +17,14 @@ Persist changes to the ColorScripts-Enhanced cache and startup configuration.
 
 ### Default (Default)
 
-```
+```text
 Set-ColorScriptConfiguration [-AutoShowOnImport <Boolean>] [-ProfileAutoShow <Boolean>]
  [-CachePath <String>] [-DefaultScript <String>] [-PassThru] [<CommonParameters>]
 ```
 
 ### \_\_AllParameterSets
 
-```
+```text
 Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <bool>]
  [[-CachePath] <string>] [[-DefaultScript] <string>] [-PassThru] [<CommonParameters>]
 ```
@@ -33,7 +33,7 @@ Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <b
 
 `Set-ColorScriptConfiguration` provides a persistent way to customize the behavior and storage location of the ColorScripts-Enhanced module. This cmdlet updates the module's configuration file, allowing you to control various aspects of script rendering and storage.
 
-**Key capabilities:**
+## Key capabilities
 
 - **Cache relocation**: Move the colorscript cache to a custom directory, useful for network shares, faster drives, or centralized storage locations.
 - **Auto-import behavior**: Control whether a colorscript automatically displays when the module is first imported into your PowerShell session.
@@ -222,7 +222,7 @@ This cmdlet does not accept pipeline input.
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 By default, this cmdlet produces no output.
 
@@ -232,23 +232,23 @@ When `-PassThru` is specified, returns a hashtable containing the complete updat
 
 ## NOTES
 
-**Configuration file location:**
+## Configuration file location
 
 Configuration changes are persisted to a JSON or XML file stored in a platform-specific application data directory. Use `Get-ColorScriptConfiguration` to view the current configuration root path. The environment variable `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` can override the default configuration directory location if set before module import.
 
-**Platform defaults:**
+## Platform defaults
 
 - **Windows**: `$env:LOCALAPPDATA\ColorScripts-Enhanced`
 - **Linux/macOS**: `~/.config/ColorScripts-Enhanced` or `$XDG_CONFIG_HOME/ColorScripts-Enhanced`
 
-**Best practices:**
+## Best practices
 
 - Test cache path changes in a non-production environment first, especially when using network locations.
 - Use `-PassThru` when scripting to validate configuration updates programmatically.
 - Consider setting `AutoShowOnImport:$false` in automated scripts or CI/CD pipelines to avoid unexpected visual output.
 - Document custom configurations in team environments to ensure consistent behavior across users.
 
-**Permissions:**
+## Permissions
 
 Ensure you have write permissions to the configuration directory. On shared systems, configuration changes affect only the current user's profile unless overridden with environment variables pointing to shared locations.
 

@@ -50,7 +50,7 @@ npm test
 
 ### Structure
 
-```
+```powershell
 Tests/
 ├── ColorScripts-Enhanced.Tests.ps1                      # Core functionality
 ├── ColorScripts-Enhanced.Internal.Tests.ps1             # Internal functions
@@ -122,7 +122,7 @@ Describe 'MyFeature' -Tag 'MyTag' {
 
 ### Common Test Patterns
 
-**Testing Command Existence**
+## Testing Command Existence
 
 ```powershell
 It 'should export Show-ColorScript command' {
@@ -130,7 +130,7 @@ It 'should export Show-ColorScript command' {
 }
 ```
 
-**Testing Parameter Validation**
+## Testing Parameter Validation
 
 ```powershell
 It 'should accept pipeline input' {
@@ -138,7 +138,7 @@ It 'should accept pipeline input' {
 }
 ```
 
-**Testing File Operations**
+## Testing File Operations
 
 ```powershell
 It 'should create cache directory if missing' {
@@ -150,7 +150,7 @@ It 'should create cache directory if missing' {
 }
 ```
 
-**Testing Performance**
+## Testing Performance
 
 ```powershell
 It 'should improve performance with caching' {
@@ -249,7 +249,7 @@ $coverage.CodeCoverage |
 
 ### Test Failures
 
-**Module Import Issues**
+## Module Import Issues
 
 ```powershell
 # Ensure clean import
@@ -260,14 +260,14 @@ Import-Module .\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1 -Force
 .\ColorScripts-Enhanced\ColorScripts-Enhanced.psm1 | Out-Null
 ```
 
-**Syntax Errors in Tests**
+## Syntax Errors in Tests
 
 ```powershell
 # Validate test file syntax
 [System.Management.Automation.PSParser]::Tokenize((Get-Content ./Tests/MyTest.Tests.ps1), [ref]$null)
 ```
 
-**Pester Configuration**
+## Pester Configuration
 
 ```powershell
 # Check Pester version
@@ -445,13 +445,13 @@ Invoke-Pester -Path ./Tests -Tag "Cache"
 
 ### Run Tests with Coverage
 
-```powershell
+````powershell
 $configuration = New-PesterConfiguration
 $configuration.Run.Path = './Tests'
 $configuration.CodeCoverage.Enabled = $true
 $configuration.CodeCoverage.Path = './ColorScripts-Enhanced/*.ps*1'
 Invoke-Pester -Configuration $configuration
-```
+```powershell
 
 ## PowerShell Version Testing
 
@@ -459,13 +459,13 @@ Invoke-Pester -Configuration $configuration
 
 ```powershell
 powershell.exe -Command "& .\scripts\Test-Module.ps1"
-```
+```powershell
 
 ### Test on PowerShell 7+
 
 ```powershell
 pwsh -Command "& .\scripts\Test-Module.ps1"
-```
+```text
 
 ### Test All Colorscripts
 
@@ -473,13 +473,13 @@ Run every colorscript to ensure they execute without errors:
 
 ```powershell
 .\ColorScripts-Enhanced\Test-AllColorScripts.ps1
-```
+```text
 
 Or using npm:
 
 ```powershell
 npm run scripts:test-all
-```
+```powershell
 
 ## Linting
 
@@ -496,7 +496,7 @@ Install requirements:
 ```powershell
 Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
 Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
-```
+```powershell
 
 ## Writing New Tests
 
@@ -521,10 +521,11 @@ Describe 'New-Command' {
         { New-Command -Parameter InvalidValue } | Should -Throw
     }
 }
-```
+```text
 
 ## See Also
 
 - [Development Guide](Development.md) - Complete development workflow
 - [Linting Guide](LINTING.md) - Code quality standards
 - [Contributing Guidelines](../CONTRIBUTING.md) - How to contribute
+````

@@ -17,13 +17,13 @@ Pre-costruisce la cache per l'ottimizzazione delle prestazioni dei colorscript.
 
 ### Tutti
 
-```
+```text
 New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Selezionati
 
-```
+```text
 New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -304,13 +304,13 @@ Restituisce i risultati della costruzione della cache con lo stato di successo/f
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance Impact:**
+## Performance Impact
 Il pre-caching elimina il tempo di esecuzione al primo display, fornendo feedback visivo istantaneo. Particolarmente benefico per script complessi o animati.
 
-**Cache Management:**
+## Cache Management
 I file memorizzati nella cache sono archiviati in directory gestite dal modulo e vengono invalidati automaticamente quando gli script di origine cambiano. Utilizza Clear-ColorScriptCache per rimuovere la cache obsoleta.
 
-**Best Practices:**
+## Best Practices
 
 - Memorizza nella cache gli script utilizzati frequentemente per prestazioni ottimali
 - Utilizza il caching selettivo per evitare elaborazioni non necessarie

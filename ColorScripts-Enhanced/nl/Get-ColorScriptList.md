@@ -15,7 +15,7 @@ Haalt een lijst op van beschikbare colorscripts met hun metadata.
 
 ## SYNTAX
 
-```
+```powershell
 Get-ColorScriptList [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>] [-AsObject]
  [<CommonParameters>]
 ```
@@ -229,7 +229,7 @@ Deze cmdlet accepteert geen invoer van de pipeline.
 
 Wanneer `-AsObject` is opgegeven, retourneert het aangepaste objecten met Name, Category, Tags en Description eigenschappen.
 
-### None
+### None (2)
 
 Wanneer `-AsObject` niet is opgegeven, wordt de uitvoer direct naar de consolehost geschreven.
 
@@ -239,14 +239,14 @@ Wanneer `-AsObject` niet is opgegeven, wordt de uitvoer direct naar de consoleho
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 of later
 
-**Metadata Properties:**
+## Metadata Properties
 
 - Name: Scriptidentificatie gebruikt door Show-ColorScript
 - Category: Thematische groepering voor organisatie
 - Tags: Array van beschrijvende trefwoorden voor filtering
 - Description: Menselijk leesbare uitleg van inhoud
 
-**Usage Patterns:**
+## Usage Patterns
 
 - Discovery: Verken beschikbare scripts voordat selectie
 - Filtering: Beperk opties met behulp van categorieën en tags

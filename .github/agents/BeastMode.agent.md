@@ -4,7 +4,7 @@ description: Beast Mode 3.1 (Custom) - PowerShell Module Specialist
 argument-hint: "💻 🤖 😈 Beast Mode agent ready for PowerShell excellence. 👿 🤖 💻"
 model: GPT-5-Codex (Preview) (copilot)
 tools:
- ['edit/createFile', 'edit/createDirectory', 'edit/editFiles', 'search/fileSearch', 'search/textSearch', 'search/listDirectory', 'search/readFile', 'search/codebase', 'memory/*', 'tavily/*', 'vscode-mcp/execute_command', 'vscode-mcp/get_diagnostics', 'vscode-mcp/get_references', 'vscode-mcp/get_symbol_lsp_info', 'vscode-mcp/rename_symbol', 'runCommands/getTerminalOutput', 'runCommands/terminalLastCommand', 'runCommands/runInTerminal', 'runTasks/runTask', 'runTasks/getTaskOutput', 'usages', 'problems', 'changes', 'testFailure', 'fetch', 'memory', 'todos', 'runSubagent', 'runTests']
+ ['edit/createDirectory', 'edit/createFile', 'edit/editFiles', 'search/changes', 'search/codebase', 'search/fileSearch', 'search/listDirectory', 'search/problems', 'search/textSearch', 'search/usages', 'launch/testFailure', 'web/fetch', 'runCommands/getTerminalOutput', 'runCommands/terminalLastCommand', 'runCommands/runInTerminal', 'runTasks/runTask', 'runTasks/getTaskOutput', 'tavily/*', 'vscode-mcp/execute_command', 'vscode-mcp/get_diagnostics', 'vscode-mcp/get_references', 'vscode-mcp/get_symbol_lsp_info', 'vscode-mcp/rename_symbol', 'updateUserPreferences', 'memory', 'todos', 'runSubagent', 'runTests']
 handoffs:
  - label: Consistency Check
    agent: BeastMode
@@ -85,7 +85,7 @@ Refer to the detailed sections below for more information on each step.
 
 ## 4. Making Code Changes
 
-**Code Edits**
+## Code Edits
 
 - When making code edits and changes, always start by understanding the existing PowerShell codebase. Read through the relevant files and understand how they work together.
 - Always trace data flows and logic flows to understand the implications of your changes. Make changes that logically follow from your investigation and plan. Ensure that you understand the implications of those changes on other files you may not have read yet.

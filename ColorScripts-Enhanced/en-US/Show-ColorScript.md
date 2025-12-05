@@ -17,28 +17,28 @@ Displays a colorscript with automatic caching for enhanced performance.
 
 ### Random (Default)
 
-```
+```text
 Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru]
  [-ReturnText] [-ValidateCache] [<CommonParameters>]
 ```
 
 ### Named
 
-```
+```text
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-PassThru]
  [-ReturnText] [-ValidateCache] [<CommonParameters>]
 ```
 
 ### List
 
-```
+```text
 Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-ReturnText]
  [-ValidateCache] [<CommonParameters>]
 ```
 
 ### All
 
-```
+```text
 Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
  [-ValidateCache] [<CommonParameters>]
 ```
@@ -55,14 +55,14 @@ Renders beautiful ANSI colorscripts in your terminal with intelligent performanc
 
 **All Mode:** Cycles through all available colorscripts in alphabetical order. Particularly useful for showcasing the entire collection or discovering new scripts.
 
-**Performance Features:**
+## Performance Features
 The caching system provides 6-19x performance improvements. On first execution, a colorscript runs normally and its output is cached. Subsequent displays use the cached output for near-instant rendering. The cache is automatically invalidated when source scripts are modified, ensuring output accuracy.
 Use `-ValidateCache` (or set the `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` environment variable) to force a metadata refresh before rendering when you suspect stale cache content.
 
-**Filtering Capabilities:**
+## Filtering Capabilities
 Filter scripts by category or tags before selection occurs. This applies across all modes, allowing you to work with subsets of the collection (e.g., only nature-themed scripts or scripts tagged as "retro").
 
-**Output Options:**
+## Output Options
 By default, colorscripts are written directly to the console for immediate visual display. Use `-ReturnText` to emit the rendered output to the pipeline for capture, redirection, or further processing. Use `-PassThru` to receive the script's metadata object for programmatic use.
 
 ## EXAMPLES
@@ -540,7 +540,7 @@ You can pipe colorscript names to Show-ColorScript. This enables pipeline-based 
 
 When `-PassThru` is specified, returns the selected colorscript's metadata object containing properties like Name, Path, Category, Tags, and Description.
 
-### System.String
+### System.String (2)
 
 When `-ReturnText` is specified, emits the rendered colorscript as a string to the pipeline. This string contains all ANSI escape sequences for proper color rendering when displayed in a compatible terminal.
 
@@ -554,17 +554,17 @@ In default operation (without `-PassThru` or `-ReturnText`), output is written d
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
-**Cache Management:**
+## Cache Management
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
-**Tips:**
+## Tips
 
 - Add `Show-ColorScript -Random` to your PowerShell profile for a colorful greeting on each session start
 - Use the module alias `scs` for quick access: `scs -Random`
@@ -572,14 +572,14 @@ The intelligent caching system provides 6-19x performance improvements over dire
 - Use `-List` to discover new scripts and learn about their themes
 - The `-All -WaitForInput` combination is perfect for presenting the collection to others
 
-**Compatibility:**
+## Compatibility
 Colorscripts use ANSI escape sequences and display best in terminals with full color support, such as Windows Terminal, ConEmu, or modern Unix terminals.
 
 ## ADVANCED USAGE
 
 ### Filtering Strategies
 
-**By Category and Tag Combination**
+## By Category and Tag Combination
 
 ```powershell
 # Show only geometric colorscripts tagged as minimal
@@ -592,7 +592,7 @@ Show-ColorScript -Category Nature -Tag Recommended -Random
 Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
 ```
 
-**Dynamic Filtering Based on Time**
+## Dynamic Filtering Based on Time
 
 ```powershell
 # Morning: bright colors
@@ -607,7 +607,7 @@ else {
 
 ### Output Capture Patterns
 
-**Save for Later Viewing**
+## Save for Later Viewing
 
 ```powershell
 # Save to variable
@@ -618,7 +618,7 @@ $art | Out-File "./my-art.ansi" -Encoding UTF8
 Get-Content "./my-art.ansi" -Raw | Write-Host
 ```
 
-**Create Themed Collections**
+## Create Themed Collections
 
 ```powershell
 # Collect all geometric scripts
@@ -633,7 +633,7 @@ $geometric | ForEach-Object {
 
 ### Performance Analysis
 
-**Comprehensive Benchmark**
+## Comprehensive Benchmark
 
 ```powershell
 # Function to benchmark colorscript performance
@@ -665,7 +665,7 @@ Get-ColorScriptList -Category Geometric -AsObject |
 
 ### Terminal Customization
 
-**Terminal-Specific Display**
+## Terminal-Specific Display
 
 ```powershell
 # Windows Terminal with ANSI support
@@ -691,7 +691,7 @@ if ($env:ConEmuANSI -eq "ON") {
 
 ### Automation Integration
 
-**Scheduled Colorscript Rotation**
+## Scheduled Colorscript Rotation
 
 ```powershell
 # Create scheduled task wrapper
@@ -714,7 +714,7 @@ function Start-ColorScriptSession {
 
 ### Error Handling and Resilience
 
-**Graceful Fallback**
+## Graceful Fallback
 
 ```powershell
 # Try specific script, fallback to random
@@ -726,7 +726,7 @@ try {
 }
 ```
 
-**Validation Before Display**
+## Validation Before Display
 
 ```powershell
 # Verify script exists before displaying
@@ -743,7 +743,7 @@ if ($scriptName -in $scripts.Name) {
 
 ### Metadata Inspection
 
-**Inspect Before Displaying**
+## Inspect Before Displaying
 
 ```powershell
 # Get metadata while displaying
@@ -758,23 +758,23 @@ if ($metadata.Tags -contains "Animated") {
 }
 ```
 
-## NOTES
+## NOTES (2)
 
 **Author:** Nick
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance (2)
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
-**Cache Management:**
+## Cache Management (2)
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
-**Advanced Tips:**
+## Advanced Tips
 
 - Use `-PassThru` to get metadata while displaying for post-processing
 - Combine `-ReturnText` with pipeline commands for advanced text manipulation
@@ -787,7 +787,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 - Use environment variables to customize behavior per environment
 - Implement error handling for automated display scenarios
 
-**Terminal Compatibility Matrix:**
+## Terminal Compatibility Matrix
 
 | Terminal           | ANSI Support | UTF-8     | Performance | Notes                      |
 | ------------------ | ------------ | --------- | ----------- | -------------------------- |

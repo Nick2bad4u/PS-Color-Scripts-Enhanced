@@ -239,7 +239,7 @@ Este cmdlet não aceita entrada do pipeline.
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 Este cmdlet não retorna saída para o pipeline.
 
@@ -249,13 +249,13 @@ Este cmdlet não retorna saída para o pipeline.
 **Módulo:** ColorScripts-Enhanced
 **Requer:** PowerShell 5.1 ou posterior
 
-**Formatos de Saída:**
+## Formatos de Saída
 
 - JSON: Dados estruturados para acesso programático
 - CSV: Formato compatível com planilha
 - XML: Estrutura de dados hierárquica
 
-**Casos de Uso:**
+## Casos de Uso
 
 - Geração de documentação
 - Gerenciamento de inventário

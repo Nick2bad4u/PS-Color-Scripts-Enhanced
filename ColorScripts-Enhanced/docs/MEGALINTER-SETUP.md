@@ -9,7 +9,7 @@
 - ✅ Properly categorizes commits with emojis
 - ✅ Generates clean, formatted changelogs
 
-**Test Command:**
+## Test Command
 
 ```powershell
 npx git-cliff --config cliff.toml --unreleased
@@ -19,7 +19,7 @@ npx git-cliff --config cliff.toml --unreleased
 
 ### 2. MegaLinter Configuration (`.mega-linter.yml`)
 
-**Created comprehensive configuration:**
+## Created comprehensive configuration
 
 - ✅ Validates module structure
 - ✅ Lints PowerShell code (`.ps1`, `.psm1`, `.psd1`)
@@ -34,7 +34,7 @@ npx git-cliff --config cliff.toml --unreleased
 - ✅ Excludes CHANGELOG.md from duplicate heading checks
 - ✅ Notes that ScriptAnalyzer now runs only on PowerShell 7 runners (Windows PowerShell 5.1 executes tests without analyzer to avoid false positives)
 
-**Key Settings:**
+## Key Settings
 
 ```yaml
 POWERSHELL_POWERSHELL_CONFIG_FILE: PSScriptAnalyzerSettings.psd1
@@ -47,7 +47,7 @@ REPOSITORY_CHECKOV_ARGUMENTS: "--framework github_actions --skip-check CKV_GHA_7
 
 ### 3. Markdown Linting (`.markdownlint.json`)
 
-**Created configuration to allow:**
+## Created configuration to allow
 
 - ✅ MD024: Duplicate headings in different sections
 - ✅ MD033: HTML tags (for images/videos)
@@ -59,7 +59,7 @@ REPOSITORY_CHECKOV_ARGUMENTS: "--framework github_actions --skip-check CKV_GHA_7
 
 ### 4. Markdown Link Checking (`.markdown-link-check.json`)
 
-**Configured to:**
+## Configured to
 
 - ✅ Ignore imgur.com links (demo videos)
 - ✅ Ignore GitHub repository links (to avoid rate limits)
@@ -70,7 +70,7 @@ REPOSITORY_CHECKOV_ARGUMENTS: "--framework github_actions --skip-check CKV_GHA_7
 
 ### 5. Shellcheck Issue (`.github/workflows/summary.yml`)
 
-**Fixed:**
+## Fixed
 
 ```yaml
 # Before (SC2086 warning)
@@ -84,7 +84,7 @@ gh issue comment "$ISSUE_NUMBER" --body '${{ steps.inference.outputs.response }}
 
 ### 6. README.md Updates
 
-**Fixed:**
+## Fixed (2)
 
 - ✅ Changed from H2 to H1 for main heading (MD041)
 - ✅ Added proper Credits section at top
@@ -92,7 +92,7 @@ gh issue comment "$ISSUE_NUMBER" --body '${{ steps.inference.outputs.response }}
 - ✅ Added reference to CHANGELOG.md
 - ✅ Fixed relative links to documentation
 
-**New Documentation Links Section:**
+## New Documentation Links Section
 
 ```markdown
 ## Documentation
@@ -111,7 +111,7 @@ gh issue comment "$ISSUE_NUMBER" --body '${{ steps.inference.outputs.response }}
 
 ### 7. GitHub Packages Publishing (`.github/workflows/publish.yml`)
 
-**Fixed authentication issue:**
+## Fixed authentication issue
 
 - ✅ Removed broken GitHub Packages publish step
 - ✅ Added informative message about limitation
@@ -123,7 +123,7 @@ gh issue comment "$ISSUE_NUMBER" --body '${{ steps.inference.outputs.response }}
 
 ### 8. Feature Request Template
 
-**Fixed:**
+## Fixed (3)
 
 ```markdown
 # Before
@@ -183,9 +183,9 @@ The `updateChangeLogs.yml` workflow is properly configured:
 - ✅ Adds check run status
 - ✅ Generates summary
 
-**Trigger manually:**
+## Trigger manually
 
-```
+```text
 Actions > Update ChangeLogs > Run workflow
 ```
 
@@ -207,7 +207,7 @@ The following warnings are **expected and safe to ignore**:
 
 **Warning:** `CKV_GHA_7` - workflow_dispatch inputs not empty
 
-**Workflows affected:**
+## Workflows affected
 
 - `git-sizer-dispatch.yml` - Needs repo input
 - `publish.yml` - Needs publish options
@@ -256,7 +256,7 @@ REPOSITORY_CHECKOV_ARGUMENTS: "--skip-check CKV_GHA_7,CKV2_GHA_1"
 
 ## 🎯 Summary
 
-**Status: ✅ FULLY CONFIGURED**
+## Status: ✅ FULLY CONFIGURED
 
 All MegaLinter and git-cliff issues resolved:
 
@@ -268,7 +268,7 @@ All MegaLinter and git-cliff issues resolved:
 - ✅ GitHub Packages publish issue resolved
 - ✅ All documentation linked correctly
 
-**Next Steps:**
+## Next Steps
 
 1. Commit all changes
 2. Push to GitHub

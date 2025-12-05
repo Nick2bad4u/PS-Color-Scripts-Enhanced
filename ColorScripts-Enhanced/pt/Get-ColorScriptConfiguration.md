@@ -101,14 +101,14 @@ Retorna um objeto personalizado contendo propriedades de configuração.
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Propriedades de Configuração:**
+## Propriedades de Configuração
 
 - CachePath: Local onde a saída do script em cache é armazenada
 - Configurações de desempenho para otimização
 - Preferências de exibição para comportamento padrão
 - Opções de configuração específicas do módulo
 
-**Localização da Configuração:**
+## Localização da Configuração
 As configurações são armazenadas em arquivos de configuração específicos do usuário. Use mecanismos de configuração padrão do PowerShell para persistência.
 
 ## RELATED LINKS

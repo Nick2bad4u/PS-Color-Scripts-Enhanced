@@ -17,14 +17,14 @@ Persistir cambios en la caché y configuración de inicio de ColorScripts-Enhanc
 
 ### Default (Default)
 
-```
+```text
 Set-ColorScriptConfiguration [-AutoShowOnImport <Boolean>] [-ProfileAutoShow <Boolean>]
  [-CachePath <String>] [-DefaultScript <String>] [-PassThru] [<CommonParameters>]
 ```
 
 ### \_\_AllParameterSets
 
-```
+```text
 Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <bool>]
  [[-CachePath] <string>] [[-DefaultScript] <string>] [-PassThru] [<CommonParameters>]
 ```
@@ -33,7 +33,7 @@ Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <b
 
 `Set-ColorScriptConfiguration` proporciona una forma persistente de personalizar el comportamiento y la ubicación de almacenamiento del módulo ColorScripts-Enhanced. Este cmdlet actualiza el archivo de configuración del módulo, permitiéndole controlar varios aspectos de la representación y almacenamiento de scripts.
 
-**Capacidades clave:**
+## Capacidades clave
 
 - **Reubicación de caché**: Mueva la caché de colorscript a un directorio personalizado, útil para acciones compartidas de red, unidades más rápidas o ubicaciones de almacenamiento centralizadas.
 - **Comportamiento de autoimportación**: Controle si un colorscript se muestra automáticamente cuando el módulo se importa por primera vez en su sesión de PowerShell.
@@ -222,7 +222,7 @@ Este cmdlet no acepta entrada de canalización.
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 Por defecto, este cmdlet no produce salida.
 
@@ -232,23 +232,23 @@ Cuando se especifica `-PassThru`, devuelve una hashtable que contiene la configu
 
 ## NOTES
 
-**Ubicación del archivo de configuración:**
+## Ubicación del archivo de configuración
 
 Los cambios de configuración se persisten en un archivo JSON o XML almacenado en un directorio de datos de aplicación específico de la plataforma. Use `Get-ColorScriptConfiguration` para ver la ruta raíz de configuración actual. La variable de entorno `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` puede anular la ubicación predeterminada del directorio de configuración si se establece antes de importar el módulo.
 
-**Valores predeterminados de plataforma:**
+## Valores predeterminados de plataforma
 
 - **Windows**: `$env:LOCALAPPDATA\ColorScripts-Enhanced`
 - **Linux/macOS**: `~/.config/ColorScripts-Enhanced` o `$XDG_CONFIG_HOME/ColorScripts-Enhanced`
 
-**Mejores prácticas:**
+## Mejores prácticas
 
 - Pruebe cambios de ruta de caché en un entorno no productivo primero, especialmente cuando use ubicaciones de red.
 - Use `-PassThru` al escribir scripts para validar actualizaciones de configuración programáticamente.
 - Considere establecer `AutoShowOnImport:$false` en scripts automatizados o canalizaciones CI/CD para evitar salida visual inesperada.
 - Documente configuraciones personalizadas en entornos de equipo para asegurar comportamiento consistente entre usuarios.
 
-**Permisos:**
+## Permisos
 
 Asegúrese de tener permisos de escritura en el directorio de configuración. En sistemas compartidos, los cambios de configuración afectan solo el perfil del usuario actual a menos que se anulen con variables de entorno que apunten a ubicaciones compartidas.
 

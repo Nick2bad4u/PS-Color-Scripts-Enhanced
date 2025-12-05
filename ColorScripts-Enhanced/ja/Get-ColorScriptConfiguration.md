@@ -15,7 +15,7 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNTAX
 
-```
+```powershell
 Get-ColorScriptConfiguration [<CommonParameters>]
 ```
 
@@ -99,14 +99,14 @@ if (Get-ColorScriptConfiguration) {
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**構成プロパティ:**
+## 構成プロパティ
 
 - CachePath: キャッシュされたスクリプト出力が保存される場所
 - 最適化のためのパフォーマンス設定
 - デフォルト動作の表示設定
 - モジュール固有の構成オプション
 
-**構成の場所:**
+## 構成の場所
 設定はユーザー固有の構成ファイルに保存されます。永続性のために標準の PowerShell 構成メカニズムを使用します。
 
 ## RELATED LINKS

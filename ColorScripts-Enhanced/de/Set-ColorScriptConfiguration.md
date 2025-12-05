@@ -15,7 +15,7 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNTAX
 
-```
+```text
 Set-ColorScriptConfiguration [-CachePath <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -158,7 +158,7 @@ Dieses Cmdlet akzeptiert keine Eingabe aus der Pipeline.
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 Dieses Cmdlet gibt keine Ausgabe an die Pipeline zurück.
 
@@ -168,13 +168,13 @@ Dieses Cmdlet gibt keine Ausgabe an die Pipeline zurück.
 **Modul:** ColorScripts-Enhanced
 **Erfordert:** PowerShell 5.1 oder höher
 
-**Konfigurationspersistenz:**
+## Konfigurationspersistenz
 Einstellungen werden automatisch in benutzerspezifischen Konfigurationsdateien gespeichert und bleiben über PowerShell-Sitzungen hinweg erhalten.
 
-**Pfadauflösung:**
+## Pfadauflösung
 Cache-Pfade unterstützen Umgebungsvariablen, relative Pfade und standardmäßige PowerShell-Pfadnotation.
 
-**Validierung:**
+## Validierung
 Konfigurationsänderungen werden vor der Anwendung validiert, um ungültige Einstellungen zu verhindern.
 
 ## RELATED LINKS

@@ -15,7 +15,7 @@ Haalt de huidige ColorScripts-Enhanced module configuratie-instellingen op.
 
 ## SYNTAX
 
-```
+```powershell
 Get-ColorScriptConfiguration [<CommonParameters>]
 ```
 
@@ -174,7 +174,7 @@ Retourneert een geneste hashtable met de volgende structuur:
 
 ### Configuration Analysis and Auditing
 
-**Full Configuration Audit**
+## Full Configuration Audit
 
 ```powershell
 # Comprehensive configuration review
@@ -189,7 +189,7 @@ $config = Get-ColorScriptConfiguration
 } | Format-List
 ```
 
-**Comparison with Defaults**
+## Comparison with Defaults
 
 ```powershell
 # Identify customizations from defaults
@@ -206,7 +206,7 @@ if ($current -ne (Get-Content "./default-config.json")) {
 
 ### Environment-Specific Configuration
 
-**Environment Detection**
+## Environment Detection
 
 ```powershell
 # Detect environment and report appropriate config
@@ -225,7 +225,7 @@ Write-Host "Cache: $($config.Cache.Path)"
 Write-Host "Startup: $($config.Startup.ProfileAutoShow)"
 ```
 
-**Multi-Environment Management**
+## Multi-Environment Management
 
 ```powershell
 # Track configuration across environments
@@ -240,7 +240,7 @@ Write-Host "Startup: $($config.Startup.ProfileAutoShow)"
 
 ### Configuration Validation
 
-**Health Check**
+## Health Check
 
 ```powershell
 # Validate configuration integrity
@@ -255,7 +255,7 @@ $checks = @{
 $checks | ConvertTo-Json | Write-Host
 ```
 
-**Configuration Consistency**
+## Configuration Consistency
 
 ```powershell
 # Verify configuration settings are consistent
@@ -274,7 +274,7 @@ if ($validSettings.Values -notcontains $false) {
 
 ### Configuration Backup and Recovery
 
-**Backup Current Configuration**
+## Backup Current Configuration
 
 ```powershell
 # Create configuration backup
@@ -288,7 +288,7 @@ $backup = @{
 $backup | ConvertTo-Json | Out-File "./config-backup-$(Get-Date -Format 'yyyyMMdd-HHmmss').json"
 ```
 
-**Configuration Migration**
+## Configuration Migration
 
 ```powershell
 # Export configuration for migration to new system
@@ -307,7 +307,7 @@ $exportConfig | ConvertTo-Json | Out-File "./export-config.json" -Encoding UTF8
 
 ### Configuration Reporting
 
-**Configuration Report**
+## Configuration Report
 
 ```powershell
 # Generate comprehensive configuration report
@@ -338,7 +338,7 @@ $report | Out-File "./config-report.md" -Encoding UTF8
 
 ### Monitoring and Drift Detection
 
-**Configuration Drift Detection**
+## Configuration Drift Detection
 
 ```powershell
 # Monitor for unexpected configuration changes
@@ -351,7 +351,7 @@ if ($current.Cache.Path -ne $lastKnown.Cache.Path) {
 }
 ```
 
-**Scheduled Configuration Audit**
+## Scheduled Configuration Audit
 
 ```powershell
 # Create periodic audit log

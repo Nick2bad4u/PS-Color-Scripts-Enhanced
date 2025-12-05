@@ -19,7 +19,7 @@ Hängt den Import des ColorScripts-Enhanced-Moduls (und optional Show-ColorScrip
 
 ### \_\_AllParameterSets
 
-```
+```text
 Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-Force]
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```

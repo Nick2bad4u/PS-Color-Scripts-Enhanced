@@ -409,7 +409,7 @@ Get-ColorScriptList -AsObject |
 
 ## Best Practices
 
-### Installation
+### Installation (2)
 
 - [ ] Use `Install-Module` from PowerShell Gallery when available
 - [ ] Use `-Scope CurrentUser` for user-only installation
@@ -433,7 +433,7 @@ Get-ColorScriptList -AsObject |
 - [ ] Use `-NoCache` only for script development/testing
 - [ ] Monitor cache size: `$env:APPDATA\ColorScripts-Enhanced\cache`
 
-### Troubleshooting
+### Troubleshooting (2)
 
 - [ ] Verify UTF-8 encoding: `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8`
 - [ ] Check module loads: `Get-Module ColorScripts-Enhanced`

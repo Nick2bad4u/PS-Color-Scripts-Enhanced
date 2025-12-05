@@ -17,13 +17,13 @@ Herstel de ColorScripts-Enhanced configuratie naar zijn standaardwaarden.
 
 ### Default (Default)
 
-```
+```text
 Reset-ColorScriptConfiguration [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### \_\_AllParameterSets
 
-```
+```text
 Reset-ColorScriptConfiguration [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -197,7 +197,7 @@ Het configuratiebestand wordt opgeslagen onder de directory die wordt opgelost d
 
 De omgevingsvariabele `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` kan de standaardlocatie overschrijven indien ingesteld voordat de module wordt geïmporteerd.
 
-**Belangrijke overwegingen:**
+## Belangrijke overwegingen
 
 - De resetbewerking is onmiddellijk en kan niet automatisch ongedaan worden gemaakt
 - Alle aangepaste kleurenscriptpaden, cachelocaties of opstartgedragingen zullen verloren gaan
@@ -205,7 +205,7 @@ De omgevingsvariabele `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` kan de standaardlocat
 - De module moet schrijfrechten hebben voor de configuratiedirectory
 - Andere PowerShell-sessies die de module gebruiken zullen de wijzigingen zien na hun volgende configuratieherlaad
 
-**Standaardwaarden hersteld:**
+## Standaardwaarden hersteld
 
 - CachePath: Platformspecifieke standaard cachedirectory
 - RunOnStartup: `$false`

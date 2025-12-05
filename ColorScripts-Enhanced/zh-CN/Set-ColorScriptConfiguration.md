@@ -15,7 +15,7 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNTAX
 
-```
+```text
 Set-ColorScriptConfiguration [-CachePath <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -155,7 +155,7 @@ HelpMessage: ""
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 此 cmdlet 不向管道返回输出。
 
@@ -165,13 +165,13 @@ HelpMessage: ""
 **模块：** ColorScripts-Enhanced
 **需要：** PowerShell 5.1 或更高版本
 
-**配置持久性：**
+## 配置持久性：
 设置会自动保存到用户特定的配置文件中，并在 PowerShell 会话之间保持。
 
-**路径解析：**
+## 路径解析：
 缓存路径支持环境变量、相对路径和标准 PowerShell 路径表示法。
 
-**验证：**
+## 验证：
 配置更改在应用之前会进行验证，以防止无效设置。
 
 ## RELATED LINKS

@@ -107,7 +107,7 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | ------------------------------------------ | ---------------------------------------- |
 | [MEGALINTER-SETUP.md](MEGALINTER-SETUP.md) | MegaLinter configuration and usage guide |
 
-## Need Help?
+## Need Help
 
 ### Using PowerShell Help System
 

@@ -17,14 +17,14 @@ PlatyPS schema version: 2024-05-01
 
 ### Default (Default)
 
-```
+```text
 Export-ColorScriptMetadata [-Path <String>] [-IncludeFileInfo] [-IncludeCacheInfo] [-PassThru]
  [<CommonParameters>]
 ```
 
 ### \_\_AllParameterSets
 
-```
+```text
 Export-ColorScriptMetadata [[-Path] <string>] [-IncludeFileInfo] [-IncludeCacheInfo] [-PassThru]
  [<CommonParameters>]
 ```
@@ -330,7 +330,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ### Data Analysis and Reporting
 
-**包括的なインベントリレポート**
+## 包括的なインベントリレポート
 
 ```powershell
 # Generate complete inventory with all metadata
@@ -347,7 +347,7 @@ $report = @{
 $report | ConvertTo-Json | Out-File "./inventory-report.json"
 ```
 
-**カテゴリ分布分析**
+## カテゴリ分布分析
 
 ```powershell
 # Analyze distribution across categories
@@ -365,7 +365,7 @@ $categories = $metadata | Group-Object Category | ForEach-Object {
 $categories | Sort-Object Count -Descending | Format-Table
 ```
 
-**キャッシュカバレッジ分析**
+## キャッシュカバレッジ分析
 
 ```powershell
 # Identify cache gaps
@@ -382,7 +382,7 @@ $uncached | Select-Object Name, Category | Format-Table
 
 ### Integration Workflows
 
-**API Response Generation**
+## API Response Generation
 
 ```powershell
 # Build versioned API response
@@ -401,7 +401,7 @@ $apiResponse = @{
 $apiResponse | Out-File "./api/colorscripts-v1.json" -Encoding UTF8
 ```
 
-**Web Gallery Generation**
+## Web Gallery Generation
 
 ```powershell
 # Create interactive HTML gallery
@@ -429,7 +429,7 @@ $html += "</body></html>"
 $html | Out-File "./gallery.html" -Encoding UTF8
 ```
 
-**Change Tracking**
+## Change Tracking
 
 ```powershell
 # Compare current state with previous export
@@ -449,7 +449,7 @@ if ($previous) {
 
 ### Maintenance and Validation
 
-**Health Check Automation**
+## Health Check Automation
 
 ```powershell
 # Validate all scripts and cache status
@@ -467,7 +467,7 @@ $health = $metadata | ForEach-Object {
 $health | Where-Object { -not $_.FileExists -or -not $_.Cached } | Format-Table
 ```
 
-**Performance Metrics**
+## Performance Metrics
 
 ```powershell
 # Export with performance data
@@ -486,7 +486,7 @@ $metrics | ConvertTo-Json | Out-File "./performance.json"
 
 ### Backup and Disaster Recovery
 
-**Metadata Backup**
+## Metadata Backup
 
 ```powershell
 # Create timestamped metadata backup
@@ -497,7 +497,7 @@ Export-ColorScriptMetadata -Path "./backups/metadata-$timestamp.json" -IncludeFi
 Get-ChildItem "./backups/metadata-*.json" | Sort-Object Name -Descending | Select-Object -Skip 5 | Remove-Item
 ```
 
-**Recovery Validation**
+## Recovery Validation
 
 ```powershell
 # Validate backed-up metadata against current state
@@ -512,29 +512,29 @@ if ($missing.Count -gt 0) {
 
 ## NOTES
 
-**Performance Considerations:**
+## Performance Considerations
 
 - Adding `-IncludeFileInfo` or `-IncludeCacheInfo` requires filesystem I/O operations and may impact performance when processing large colorscript libraries.
 - For large exports, consider using `-PassThru` with pipeline filtering rather than loading all in memory
 - Export operations scale linearly with script count
 
-**Cache Directory Management:**
+## Cache Directory Management
 
 - Cache metadata collection ensures the cache directory exists before attempting to read cache files.
 - When cache files are missing or unavailable, the `CacheExists` property is set to `false` and `CacheLastWriteTime` is set to null.
 
-**Error Handling:**
+## Error Handling
 
 - File metadata read errors are reported via verbose output (`-Verbose`) rather than terminating the cmdlet.
 - Individual file errors result in null values for the affected properties while allowing the cmdlet to continue processing remaining colorscripts.
 
-**JSON Output Format:**
+## JSON Output Format
 
 - JSON files are written with indentation (depth 2) for human readability.
 - The output encoding is UTF-8 for maximum compatibility.
 - Existing files at the target path are overwritten without prompting.
 
-**Best Practices:**
+## Best Practices
 
 - Schedule regular metadata exports for auditing
 - Version your metadata exports with timestamps
@@ -542,7 +542,7 @@ if ($missing.Count -gt 0) {
 - Store backups in version control or backup systems
 - Monitor export file size growth over time
 
-**Use Cases:**
+## Use Cases
 
 - Integrating with CI/CD pipelines for documentation generation
 - Building web dashboards or API endpoints serving colorscript metadata

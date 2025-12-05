@@ -69,6 +69,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
 #### Modifying Module Code
 
 1. **Fork the repository**
+
 2. **Create a feature branch**
 
    ```powershell
@@ -208,7 +209,7 @@ Before submitting:
 
 ## Project Structure
 
-```
+```powershell
 ps-color-scripts-enhanced/
 ├── ColorScripts-Enhanced/
 │   ├── ColorScripts-Enhanced.psd1    # Module manifest
@@ -279,7 +280,7 @@ ps-color-scripts-enhanced/
 
 We follow [Conventional Commits](https://www.conventionalcommits.org/):
 
-```
+```text
 type(scope): subject
 
 body
@@ -300,7 +301,7 @@ footer
 
 ### Examples
 
-```
+```text
 feat(cache): add parallel cache building
 
 Implemented multi-threaded cache generation
@@ -309,7 +310,7 @@ for improved performance on large collections.
 Closes #456
 ```
 
-```
+```text
 fix(caching): resolve cache invalidation bug
 
 Cache was not invalidating when scripts
@@ -514,9 +515,9 @@ Test your changes across:
 
 | Platform | PowerShell 5.1 | PowerShell 7.x | Status      |
 | -------- | -------------- | -------------- | ----------- |
-| Windows  | ✅             | ✅             | Required    |
-| macOS    | ❌             | ✅             | Recommended |
-| Linux    | ❌             | ✅             | Recommended |
+| Windows  | ✅              | ✅              | Required    |
+| macOS    | ❌              | ✅              | Recommended |
+| Linux    | ❌              | ✅              | Recommended |
 
 Use GitHub Actions or test locally:
 
@@ -642,7 +643,7 @@ Contributors will be recognized:
 
 ## Resources for Contributors
 
-### Documentation
+### Documentation (2)
 
 - [PowerShell Docs](https://docs.microsoft.com/powershell/)
 - [Pester Testing Guide](https://pester.dev/)
@@ -681,7 +682,7 @@ Example: `2025.10.09.1625`
 - **DD**: Day (01-31)
 - **BuildNumber**: Sequential number for multiple releases per day
 
-## Questions?
+## Questions
 
 - 📖 Check [README.md](./README.md)
 - 📚 Review [docs/](./docs/) folder
@@ -695,6 +696,6 @@ By contributing, you agree your contributions will be licensed under the [MIT Li
 
 ---
 
-## Thank You!
+## Thank You
 
 Your contributions make ColorScripts-Enhanced better for the entire PowerShell community! 🎨✨

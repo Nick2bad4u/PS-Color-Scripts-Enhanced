@@ -325,7 +325,7 @@ AcceptedValues: []
 HelpMessage: ''
 ```
 
-### -Confirm
+### -Confirm (2)
 
 Vraagt om bevestiging voordat de cmdlet wordt uitgevoerd.
 
@@ -347,7 +347,7 @@ AcceptedValues: []
 HelpMessage: ''
 ```
 
-### -Name
+### -Name (2)
 
 Specificeert de namen van colorscripts om uit de cache te wissen. Ondersteunt wildcards (\* en ?) voor patroonmatching.
 
@@ -369,7 +369,7 @@ AcceptedValues: []
 HelpMessage: ''
 ```
 
-### -WhatIf
+### -WhatIf (2)
 
 Toont wat er zou gebeuren als de cmdlet wordt uitgevoerd. De cmdlet wordt niet uitgevoerd.
 
@@ -391,22 +391,22 @@ AcceptedValues: []
 HelpMessage: ''
 ```
 
-### CommonParameters
+### CommonParameters (2)
 
 Deze cmdlet ondersteunt de algemene parameters: -Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
 -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. Voor meer informatie, zie
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
-## INPUTS
+## INPUTS (2)
 
 ### None
 
 Deze cmdlet accepteert geen invoer van de pipeline.
 
-## OUTPUTS
+## OUTPUTS (2)
 
-### None
+### None (2)
 
 Deze cmdlet retourneert geen uitvoer naar de pipeline.
 
@@ -416,17 +416,17 @@ Deze cmdlet retourneert geen uitvoer naar de pipeline.
 **Module:** ColorScripts-Enhanced
 **Vereist:** PowerShell 5.1 of later
 
-**Cache Locatie:**
+## Cache Locatie
 Cachebestanden worden opgeslagen in een module-beheerde directory. Gebruik `(Get-Module ColorScripts-Enhanced).ModuleBase` om de module directory te lokaliseren, zoek dan naar de cache subdirectory.
 
-**Wanneer Cache Wissen:**
+## Wanneer Cache Wissen
 
 - Na het wijzigen van bron colorscript bestanden
 - Bij het oplossen van weergaveproblemen
 - Om verse uitvoering van scripts te garanderen
 - Voor prestatiebenchmarking
 
-**Prestatie Impact:**
+## Prestatie Impact
 Het wissen van cache zal ervoor zorgen dat scripts normaal worden uitgevoerd bij volgende weergave, wat langer kan duren dan gecachte uitvoering. Cache zal automatisch worden herbouwd bij volgende weergaven.
 
 ## RELATED LINKS

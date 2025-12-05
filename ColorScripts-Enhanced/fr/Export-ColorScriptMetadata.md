@@ -17,14 +17,14 @@ Exporte des métadonnées complètes pour tous les scripts de couleurs au format
 
 ### Default (Default)
 
-```
+```text
 Export-ColorScriptMetadata [-Path <String>] [-IncludeFileInfo] [-IncludeCacheInfo] [-PassThru]
  [<CommonParameters>]
 ```
 
 ### \_\_AllParameterSets
 
-```
+```text
 Export-ColorScriptMetadata [[-Path] <string>] [-IncludeFileInfo] [-IncludeCacheInfo] [-PassThru]
  [<CommonParameters>]
 ```
@@ -330,7 +330,7 @@ Lorsque `-IncludeCacheInfo` est spécifié, ces propriétés supplémentaires so
 
 ### Analyse de données et rapports
 
-**Rapport d'inventaire complet**
+## Rapport d'inventaire complet
 
 ```powershell
 # Générer un inventaire complet avec toutes les métadonnées
@@ -347,7 +347,7 @@ $report = @{
 $report | ConvertTo-Json | Out-File "./inventory-report.json"
 ```
 
-**Analyse de distribution par catégories**
+## Analyse de distribution par catégories
 
 ```powershell
 # Analyser la distribution dans les catégories
@@ -365,7 +365,7 @@ $categories = $metadata | Group-Object Category | ForEach-Object {
 $categories | Sort-Object Count -Descending | Format-Table
 ```
 
-**Analyse de couverture du cache**
+## Analyse de couverture du cache
 
 ```powershell
 # Identifier les lacunes du cache
@@ -382,7 +382,7 @@ $uncached | Select-Object Name, Category | Format-Table
 
 ### Workflows d'intégration
 
-**Génération de réponse API**
+## Génération de réponse API
 
 ```powershell
 # Construire une réponse API versionnée
@@ -401,7 +401,7 @@ $apiResponse = @{
 $apiResponse | Out-File "./api/colorscripts-v1.json" -Encoding UTF8
 ```
 
-**Génération de galerie web**
+## Génération de galerie web
 
 ```powershell
 # Créer une galerie HTML interactive
@@ -429,7 +429,7 @@ $html += "</body></html>"
 $html | Out-File "./gallery.html" -Encoding UTF8
 ```
 
-**Suivi des changements**
+## Suivi des changements
 
 ```powershell
 # Comparer l'état actuel avec une exportation précédente
@@ -449,7 +449,7 @@ if ($previous) {
 
 ### Maintenance et validation
 
-**Automatisation de vérification de santé**
+## Automatisation de vérification de santé
 
 ```powershell
 # Valider tous les scripts et le statut du cache
@@ -467,7 +467,7 @@ $health = $metadata | ForEach-Object {
 $health | Where-Object { -not $_.FileExists -or -not $_.Cached } | Format-Table
 ```
 
-**Métriques de performance**
+## Métriques de performance
 
 ```powershell
 # Exporter avec des données de performance
@@ -486,7 +486,7 @@ $metrics | ConvertTo-Json | Out-File "./performance.json"
 
 ### Sauvegarde et récupération après sinistre
 
-**Sauvegarde de métadonnées**
+## Sauvegarde de métadonnées
 
 ```powershell
 # Créer une sauvegarde de métadonnées horodatée
@@ -497,7 +497,7 @@ Export-ColorScriptMetadata -Path "./backups/metadata-$timestamp.json" -IncludeFi
 Get-ChildItem "./backups/metadata-*.json" | Sort-Object Name -Descending | Select-Object -Skip 5 | Remove-Item
 ```
 
-**Validation de récupération**
+## Validation de récupération
 
 ```powershell
 # Valider les métadonnées sauvegardées par rapport à l'état actuel
@@ -512,29 +512,29 @@ if ($missing.Count -gt 0) {
 
 ## NOTES
 
-**Considérations de performance :**
+## Considérations de performance 
 
 - L'ajout de `-IncludeFileInfo` ou `-IncludeCacheInfo` nécessite des opérations d'E/S du système de fichiers et peut impacter les performances lors du traitement de grandes bibliothèques de scripts de couleurs.
 - Pour de grandes exportations, considérez utiliser `-PassThru` avec un filtrage pipeline plutôt que de charger tout en mémoire
 - Les opérations d'exportation évoluent linéairement avec le nombre de scripts
 
-**Gestion du répertoire de cache :**
+## Gestion du répertoire de cache 
 
 - La collecte de métadonnées de cache garantit que le répertoire de cache existe avant d'essayer de lire les fichiers de cache.
 - Lorsque les fichiers de cache sont manquants ou indisponibles, la propriété `CacheExists` est définie sur `false` et `CacheLastWriteTime` sur null.
 
-**Gestion d'erreurs :**
+## Gestion d'erreurs 
 
 - Les erreurs de lecture de métadonnées de fichier sont rapportées via la sortie verbose (`-Verbose`) plutôt que de terminer la cmdlet.
 - Les erreurs de fichiers individuels résultent en des valeurs nulles pour les propriétés affectées tout en permettant à la cmdlet de continuer le traitement des scripts de couleurs restants.
 
-**Format de sortie JSON :**
+## Format de sortie JSON 
 
 - Les fichiers JSON sont écrits avec une indentation (profondeur 2) pour la lisibilité humaine.
 - L'encodage de sortie est UTF-8 pour une compatibilité maximale.
 - Les fichiers existants au chemin cible sont écrasés sans invite.
 
-**Meilleures pratiques :**
+## Meilleures pratiques 
 
 - Planifier des exportations régulières de métadonnées pour l'audit
 - Versionner vos exportations de métadonnées avec des horodatages
@@ -542,7 +542,7 @@ if ($missing.Count -gt 0) {
 - Stocker les sauvegardes dans des systèmes de contrôle de version ou de sauvegarde
 - Surveiller la croissance de la taille des fichiers d'exportation au fil du temps
 
-**Cas d'utilisation :**
+## Cas d'utilisation 
 
 - Intégration avec des pipelines CI/CD pour la génération de documentation
 - Construction de tableaux de bord web ou de points de terminaison API servant des métadonnées de scripts de couleurs

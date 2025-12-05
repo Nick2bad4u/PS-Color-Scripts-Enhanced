@@ -217,7 +217,7 @@ Publish-Module -Path "./ColorScripts-Enhanced" `
     -Repository PSGallery
 ```
 
-**Verification:**
+## Verification
 
 ```powershell
 # Should appear in PowerShell Gallery after 5-10 minutes
@@ -281,7 +281,7 @@ gh workflow run publish.yml `
 gh run list --workflow=publish.yml
 ```
 
-## Versioning Strategy
+## Versioning Strategy (2)
 
 ### Date-Based Versioning
 
@@ -328,7 +328,7 @@ npm run release:verify
 
 ## Post-Publishing Tasks
 
-### Verification
+### Verification (2)
 
 ```powershell
 # Wait 5-10 minutes for gallery sync

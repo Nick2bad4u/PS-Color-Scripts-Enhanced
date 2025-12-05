@@ -17,13 +17,13 @@ Erstellt Cache für die Leistungsoptimierung von ColorScripts vorab.
 
 ### Alle
 
-```
+```text
 New-ColorScriptCache [-All] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit <Int32>] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Benannt
 
-```
+```text
 New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit <Int32>] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -116,7 +116,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -Category
 
@@ -143,7 +143,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -Confirm
 
@@ -165,7 +165,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -Force
 
@@ -192,7 +192,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -Name
 
@@ -213,7 +213,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -PassThru
 
@@ -240,7 +240,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```js
 
 ### -Parallel
 
@@ -267,7 +267,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -Quiet
 
@@ -294,7 +294,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -NoAnsiOutput
 
@@ -322,7 +322,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -Tag
 
@@ -349,7 +349,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -ThrottleLimit
 
@@ -377,7 +377,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -WhatIf
 
@@ -399,7 +399,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```powershell
 
 ### CommonParameters
 

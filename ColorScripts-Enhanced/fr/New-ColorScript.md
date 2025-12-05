@@ -17,14 +17,14 @@ Crée un nouveau fichier colorscript et émet éventuellement des conseils de m�
 
 ### Default (Default)
 
-```
+```text
 New-ColorScript [-Name] <String> [-OutputPath <String>] [-Force] [-Category <String>]
  [-Tag <String[]>] [-GenerateMetadataSnippet] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### \_\_AllParameterSets
 
-```
+```text
 New-ColorScript [-Name] <string> [[-OutputPath] <string>] [[-Category] <string>] [[-Tag] <string[]>]
  [-Force] [-GenerateMetadataSnippet] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```

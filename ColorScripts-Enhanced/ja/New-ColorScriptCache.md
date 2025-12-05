@@ -17,13 +17,13 @@ PlatyPS schema version: 2024-05-01
 
 ### すべて
 
-```
+```text
 New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### 名前指定
 
-```
+```text
 New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -297,13 +297,13 @@ HelpMessage: ""
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 以降
 
-**Performance Impact:**
+## Performance Impact
 事前キャッシュにより、初回表示時の実行時間が排除され、即時の視覚フィードバックが提供されます。特に複雑またはアニメーションスクリプトに有益です。
 
-**Cache Management:**
+## Cache Management
 キャッシュファイルはモジュール管理ディレクトリに保存され、ソーススクリプトが変更されると自動的に無効化されます。古いキャッシュを削除するには Clear-ColorScriptCache を使用します。
 
-**Best Practices:**
+## Best Practices
 
 - 最適なパフォーマンスのために頻繁に使用するスクリプトをキャッシュ
 - 不必要な処理を避けるために選択的なキャッシュを使用

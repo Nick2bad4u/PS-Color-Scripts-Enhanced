@@ -10,7 +10,7 @@
 
 ### Core Module Help
 
-- **about_ColorScripts-Enhanced.help.txt** (24.9 KB)
+- **about\_ColorScripts-Enhanced.help.txt** (24.9 KB)
   - SHORT DESCRIPTION
   - LONG DESCRIPTION
   - FEATURES
@@ -25,7 +25,7 @@
   - TROUBLESHOOTING ADVANCED ISSUES
   - PLATFORM-SPECIFIC NOTES
   - VERSION HISTORY
-  - FAQ (8 Q&As)
+  - FAQ (8 Q\&As)
   - BEST PRACTICES (10 items)
 
 ### Command Documentation
@@ -251,7 +251,7 @@ Start Here:
 | Advanced filtering | Get-ColorScriptList          | ADVANCED    | 1-3         |
 | Cache analysis     | Export-ColorScriptMetadata   | ADVANCED    | 2-4         |
 | Config management  | Get-ColorScriptConfiguration | ADVANCED    | 1-3         |
-| CI/CD setup        | about_ColorScripts           | INTEGRATION | 2           |
+| CI/CD setup        | about\_ColorScripts          | INTEGRATION | 2           |
 | Performance tuning | Show-ColorScript             | ADVANCED    | Performance |
 | Error recovery     | Clear-ColorScriptCache       | ADVANCED    | 6-7         |
 | Automation         | New-ColorScriptCache         | ADVANCED    | 3-4         |
@@ -262,7 +262,7 @@ Start Here:
 
 ### Path 1: Get Started (20 min)
 
-```
+```powershell
 1. Read: about_ColorScripts → QUICK START
 2. Try: Show-ColorScript.md → Example 1
 3. Run: Show-ColorScript
@@ -272,7 +272,7 @@ Start Here:
 
 ### Path 2: Daily Usage (45 min)
 
-```
+```powershell
 1. Read: Show-ColorScript.md → Examples 1-7
 2. Read: Get-ColorScriptList.md → Examples 1-5
 3. Try: Cache building (New-ColorScriptCache Examples 1-2)
@@ -282,7 +282,7 @@ Start Here:
 
 ### Path 3: Advanced Usage (2 hours)
 
-```
+```text
 1. Study: ADVANCED USAGE PATTERNS (all 6 cmdlets)
 2. Review: Integration scenarios (about_ColorScripts)
 3. Implement: Custom patterns from examples
@@ -292,7 +292,7 @@ Start Here:
 
 ### Path 4: Production Deployment (4 hours)
 
-```
+```powershell
 1. Plan: Cache strategy (about_ColorScripts ADVANCED TOPICS)
 2. Configure: Environment setup (Get-ColorScriptConfiguration)
 3. Automate: Deployment workflow (New-ColorScriptCache ADVANCED)
@@ -302,7 +302,7 @@ Start Here:
 
 ### Path 5: Troubleshooting (1 hour)
 
-```
+```text
 1. Identify: Issue type (TROUBLESHOOTING sections)
 2. Diagnose: Health checks (validation examples)
 3. Fix: Resolution steps (error handling examples)
@@ -395,7 +395,7 @@ Start Here:
 
 ### By Expertise Level
 
-```
+```text
 Beginner:   QUICK START → Examples 1-5 → Try commands → Practice
 Intermediate: FEATURES → Examples 1-10 → Integrate → Customize
 Advanced:   ADVANCED USAGE → INTEGRATION SCENARIOS → Deep dive
@@ -404,7 +404,7 @@ Expert:     All sections → Contribute → Share patterns
 
 ### By Goal
 
-```
+```text
 Install & Run:      QUICK START → Examples 1 → Done
 Daily Use:          QUICK START → Examples 1-5 → Setup profile
 Optimize:           ADVANCED USAGE → Performance section → Implement
@@ -416,27 +416,27 @@ Troubleshoot:       TROUBLESHOOTING GUIDE → Error handling → Fix
 
 ## 🎯 What's Where
 
-### Finding answers to common questions:
+### Finding answers to common questions
 
-**"How do I...?"**
+## "How do I...?"
 
 - See examples section (Examples 1-15)
 - Check QUICK START for basic tasks
 - Look in ADVANCED USAGE for complex scenarios
 
-**"When should I...?"**
+## "When should I...?"
 
 - Check BEST PRACTICES section
 - Read PERFORMANCE TUNING
 - Review INTEGRATION SCENARIOS
 
-**"Why is it...?"**
+## "Why is it...?"
 
 - Read DESCRIPTION section
 - Check PERFORMANCE TUNING
 - Review TROUBLESHOOTING GUIDE
 
-**"Can I...?"**
+## "Can I...?"
 
 - Check PARAMETERS section
 - Review SYNTAX variations
@@ -456,7 +456,7 @@ Get-Help *ColorScript*
 
 ### Online Resources
 
-- GitHub: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
+- GitHub: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced>
 - Issues: GitHub Issues
 - Discussions: GitHub Discussions
 
@@ -528,12 +528,12 @@ Using this documentation, you should be able to:
 
 | For             | File                         | Section               |
 | --------------- | ---------------------------- | --------------------- |
-| Quick Start     | about_ColorScripts           | QUICK START           |
+| Quick Start     | about\_ColorScripts          | QUICK START           |
 | Examples        | Show-ColorScript             | EXAMPLES 1-5          |
 | Advanced        | Show-ColorScript             | ADVANCED USAGE        |
-| CI/CD           | about_ColorScripts           | INTEGRATION SCENARIOS |
-| Troubleshooting | about_ColorScripts           | TROUBLESHOOTING GUIDE |
-| Performance     | about_ColorScripts           | PERFORMANCE TUNING    |
+| CI/CD           | about\_ColorScripts          | INTEGRATION SCENARIOS |
+| Troubleshooting | about\_ColorScripts          | TROUBLESHOOTING GUIDE |
+| Performance     | about\_ColorScripts          | PERFORMANCE TUNING    |
 | Configuration   | Get-ColorScriptConfiguration | Full documentation    |
 | Best Practices  | All files                    | BEST PRACTICES        |
 

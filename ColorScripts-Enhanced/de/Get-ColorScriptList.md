@@ -15,7 +15,7 @@ Ruft eine Liste der verfügbaren Farbskripte mit ihren Metadaten ab.
 
 ## SYNTAX
 
-```
+```powershell
 Get-ColorScriptList [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>] [-AsObject]
  [<CommonParameters>]
 ```
@@ -225,7 +225,7 @@ Dieses Cmdlet akzeptiert keine Eingabe aus der Pipeline.
 
 Wenn `-AsObject` angegeben ist, werden benutzerdefinierte Objekte mit Name-, Category-, Tags- und Description-Eigenschaften zurückgegeben.
 
-### None
+### None (2)
 
 Wenn `-AsObject` nicht angegeben ist, wird die Ausgabe direkt an die Konsole geschrieben.
 
@@ -235,14 +235,14 @@ Wenn `-AsObject` nicht angegeben ist, wird die Ausgabe direkt an die Konsole ges
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 oder höher
 
-**Metadateneigenschaften:**
+## Metadateneigenschaften
 
 - Name: Skriptbezeichner, der von Show-ColorScript verwendet wird
 - Category: Thematische Gruppierung für Organisation
 - Tags: Array von beschreibenden Schlüsselwörtern für Filterung
 - Description: Menschlich lesbare Erklärung des Inhalts
 
-**Verwendungsmuster:**
+## Verwendungsmuster
 
 - Entdeckung: Verfügbare Skripte vor der Auswahl erkunden
 - Filterung: Optionen mithilfe von Kategorien und Tags einschränken

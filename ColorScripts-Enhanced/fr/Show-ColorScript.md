@@ -17,28 +17,28 @@ Affiche un script de couleur avec mise en cache automatique pour des performance
 
 ### Random (Default)
 
-```
+```text
 Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### Named
 
-```
+```text
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### List
 
-```
+```text
 Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-ReturnText]
  [<CommonParameters>]
 ```
 
 ### All
 
-```
+```text
 Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
  [<CommonParameters>]
 ```
@@ -55,13 +55,13 @@ Affiche de beaux scripts de couleur ANSI dans votre terminal avec optimisation i
 
 **Mode Tout :** Parcourt tous les scripts de couleur disponibles dans l'ordre alphabétique. Particulièrement utile pour présenter l'ensemble de la collection ou découvrir de nouveaux scripts.
 
-**Fonctionnalités de Performance :**
+## Fonctionnalités de Performance 
 Le système de mise en cache fournit des améliorations de performances de 6-19x. Lors de la première exécution, un script de couleur s'exécute normalement et sa sortie est mise en cache. Les affichages suivants utilisent la sortie mise en cache pour un rendu quasi-instantané. Le cache est automatiquement invalidé lorsque les scripts source sont modifiés, assurant l'exactitude de la sortie.
 
-**Capacités de Filtrage :**
+## Capacités de Filtrage 
 Filtrez les scripts par catégorie ou balises avant que la sélection ne se produise. Cela s'applique à tous les modes, vous permettant de travailler avec des sous-ensembles de la collection (par exemple, seulement les scripts thématiques sur la nature ou balisés comme "rétro").
 
-**Options de Sortie :**
+## Options de Sortie 
 Par défaut, les scripts de couleur sont écrits directement dans la console pour un affichage visuel immédiat. Utilisez `-ReturnText` pour émettre la sortie rendue vers le pipeline pour capture, redirection ou traitement ultérieur. Utilisez `-PassThru` pour recevoir l'objet de métadonnées du script pour une utilisation programmatique.
 
 ## EXAMPLES
@@ -497,7 +497,7 @@ Vous pouvez canaliser les noms de scripts de couleur vers Show-ColorScript. Cela
 
 Lorsque `-PassThru` est spécifié, retourne l'objet de métadonnées du script de couleur sélectionné contenant des propriétés comme Name, Path, Category, Tags et Description.
 
-### System.String
+### System.String (2)
 
 Lorsque `-ReturnText` est spécifié, émet le script de couleur rendu comme une chaîne vers le pipeline. Cette chaîne contient toutes les séquences d'échappement ANSI pour un rendu coloré approprié lorsqu'elle est affichée dans un terminal compatible.
 
@@ -511,17 +511,17 @@ En opération par défaut (sans `-PassThru` ou `-ReturnText`), la sortie est éc
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 ou ultérieur
 
-**Performance:**
+## Performance
 Le système de mise en cache intelligent fournit des améliorations de performances de 6-19x par rapport à l'exécution directe. Les fichiers de cache sont stockés dans un répertoire géré par le module et sont automatiquement invalidés lorsque les scripts source sont modifiés, assurant l'exactitude.
 
-**Gestion du Cache:**
+## Gestion du Cache
 
 - Emplacement du cache : Utilisez `(Get-Module ColorScripts-Enhanced).ModuleBase` et cherchez le répertoire de cache
 - Effacer le cache : Utilisez `Clear-ColorScriptCache` pour reconstruire à partir de zéro
 - Reconstruire le cache : Utilisez `New-ColorScriptCache` pour pré-remplir le cache pour tous les scripts
 - Inspecter le cache : Les fichiers de cache sont du texte brut et peuvent être visualisés directement
 
-**Conseils:**
+## Conseils
 
 - Ajoutez `Show-ColorScript -Random` à votre profil PowerShell pour un accueil coloré à chaque démarrage de session
 - Utilisez l'alias du module `scs` pour un accès rapide : `scs -Random`
@@ -529,14 +529,14 @@ Le système de mise en cache intelligent fournit des améliorations de performan
 - Utilisez `-List` pour découvrir de nouveaux scripts et apprendre leurs thèmes
 - La combinaison `-All -WaitForInput` est parfaite pour présenter la collection à d'autres
 
-**Compatibilité:**
+## Compatibilité
 Les scripts de couleur utilisent des séquences d'échappement ANSI et s'affichent mieux dans les terminaux avec un support couleur complet, tels que Windows Terminal, ConEmu ou terminaux Unix modernes.
 
 ## ADVANCED USAGE
 
 ### Filtering Strategies
 
-**Par Combinaison de Catégorie et Balise**
+## Par Combinaison de Catégorie et Balise
 
 ```powershell
 # Show only geometric colorscripts tagged as minimal
@@ -549,7 +549,7 @@ Show-ColorScript -Category Nature -Tag Recommended -Random
 Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
 ```
 
-**Filtrage Dynamique Basé sur l'Heure**
+## Filtrage Dynamique Basé sur l'Heure
 
 ```powershell
 # Morning: bright colors
@@ -564,7 +564,7 @@ else {
 
 ### Output Capture Patterns
 
-**Sauvegarder pour Visualisation Ultérieure**
+## Sauvegarder pour Visualisation Ultérieure
 
 ```powershell
 # Save to variable
@@ -575,7 +575,7 @@ $art | Out-File "./my-art.ansi" -Encoding UTF8
 Get-Content "./my-art.ansi" -Raw | Write-Host
 ```
 
-**Créer des Collections Thématiques**
+## Créer des Collections Thématiques
 
 ```powershell
 # Collect all geometric scripts
@@ -590,7 +590,7 @@ $geometric | ForEach-Object {
 
 ### Performance Analysis
 
-**Benchmark Complet**
+## Benchmark Complet
 
 ```powershell
 # Function to benchmark colorscript performance
@@ -622,7 +622,7 @@ Get-ColorScriptList -Category Geometric -AsObject |
 
 ### Terminal Customization
 
-**Terminal-Specific Display**
+## Terminal-Specific Display
 
 ```powershell
 # Windows Terminal with ANSI support
@@ -648,7 +648,7 @@ if ($env:ConEmuANSI -eq "ON") {
 
 ### Automation Integration
 
-**Scheduled Colorscript Rotation**
+## Scheduled Colorscript Rotation
 
 ```powershell
 # Create scheduled task wrapper
@@ -671,7 +671,7 @@ function Start-ColorScriptSession {
 
 ### Error Handling and Resilience
 
-**Graceful Fallback**
+## Graceful Fallback
 
 ```powershell
 # Try specific script, fallback to random
@@ -683,7 +683,7 @@ try {
 }
 ```
 
-**Validation Before Display**
+## Validation Before Display
 
 ```powershell
 # Verify script exists before displaying
@@ -700,7 +700,7 @@ if ($scriptName -in $scripts.Name) {
 
 ### Metadata Inspection
 
-**Inspect Before Displaying**
+## Inspect Before Displaying
 
 ```powershell
 # Get metadata while displaying
@@ -715,23 +715,23 @@ if ($metadata.Tags -contains "Animated") {
 }
 ```
 
-## NOTES
+## NOTES (2)
 
 **Auteur :** Nick
 **Module :** ColorScripts-Enhanced
 **Requiert :** PowerShell 5.1 ou ultérieur
 
-**Performance :**
+## Performance (2)
 Le système de mise en cache intelligent fournit des améliorations de performances de 6-19x par rapport à l'exécution directe. Les fichiers de cache sont stockés dans un répertoire géré par le module et sont automatiquement invalidés lorsque les scripts source sont modifiés, assurant l'exactitude.
 
-**Gestion du Cache :**
+## Gestion du Cache (2)
 
 - Emplacement du cache : Utilisez `(Get-Module ColorScripts-Enhanced).ModuleBase` et cherchez le répertoire de cache
 - Effacer le cache : Utilisez `Clear-ColorScriptCache` pour reconstruire à partir de zéro
 - Reconstruire le cache : Utilisez `New-ColorScriptCache` pour pré-remplir le cache pour tous les scripts
 - Inspecter le cache : Les fichiers de cache sont du texte brut et peuvent être visualisés directement
 
-**Conseils Avancés :**
+## Conseils Avancés 
 
 - Utilisez `-PassThru` pour obtenir les métadonnées tout en affichant pour le post-traitement
 - Combinez `-ReturnText` avec les commandes de pipeline pour une manipulation avancée du texte
@@ -744,7 +744,7 @@ Le système de mise en cache intelligent fournit des améliorations de performan
 - Utilisez des variables d'environnement pour personnaliser le comportement par environnement
 - Implémentez la gestion d'erreur pour les scénarios d'affichage automatisés
 
-**Matrice de Compatibilité Terminal :**
+## Matrice de Compatibilité Terminal 
 
 | Terminal           | Support ANSI | UTF-8     | Performance | Notes                        |
 | ------------------ | ------------ | --------- | ----------- | ---------------------------- |

@@ -15,7 +15,7 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNTAX
 
-```
+```text
 Add-ColorScriptProfile [[-Scope] <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -165,7 +165,7 @@ HelpMessage: ""
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 此 cmdlet 不向管道返回输出。
 
@@ -175,16 +175,16 @@ HelpMessage: ""
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 或更高版本
 
-**配置文件集成：**
+## 配置文件集成：
 此 cmdlet 添加一个启动代码片段，用于导入 ColorScripts-Enhanced 并提供便捷访问。此集成设计为轻量级且非破坏性的。
 
-**范围注意事项：**
+## 范围注意事项：
 
 - CurrentUser 范围修改您用户配置文件目录中的文件
 - AllUsers 范围需要管理员权限并影响所有用户
 - 更改在新的 PowerShell 会话中生效
 
-**安全功能：**
+## 安全功能：
 
 - 检查现有集成以避免重复
 - 使用标准 PowerShell 配置文件机制

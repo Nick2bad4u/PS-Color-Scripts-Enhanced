@@ -15,7 +15,7 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNTAX
 
-```
+```text
 Reset-ColorScriptConfiguration [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -131,7 +131,7 @@ HelpMessage: ""
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 此 cmdlet 不返回输出到管道。
 
@@ -141,13 +141,13 @@ HelpMessage: ""
 **模块：** ColorScripts-Enhanced
 **需要：** PowerShell 5.1 或更高版本
 
-**重置范围：**
+## 重置范围：
 重置所有用户可配置设置到模块默认值。这包括缓存路径、性能设置和显示首选项。
 
-**数据安全：**
+## 数据安全：
 配置重置不会影响缓存的脚本输出或用户创建的颜色脚本。只影响配置设置。
 
-**恢复：**
+## 恢复：
 重置后，如果需要，使用 Set-ColorScriptConfiguration 重新应用自定义设置。
 
 ## RELATED LINKS

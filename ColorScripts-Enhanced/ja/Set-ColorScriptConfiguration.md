@@ -15,7 +15,7 @@ ColorScripts-Enhanced の構成設定を変更します。
 
 ## SYNTAX
 
-```
+```text
 Set-ColorScriptConfiguration [-CachePath <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -155,7 +155,7 @@ HelpMessage: ""
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 このコマンドレットは、パイプラインに出力を返しません。
 
@@ -165,13 +165,13 @@ HelpMessage: ""
 **モジュール:** ColorScripts-Enhanced
 **要件:** PowerShell 5.1 以降
 
-**構成の永続性:**
+## 構成の永続性
 設定は自動的にユーザー固有の構成ファイルに保存され、PowerShell セッション間で保持されます。
 
-**パスの解決:**
+## パスの解決
 キャッシュパスは環境変数、相対パス、標準の PowerShell パス表記をサポートします。
 
-**検証:**
+## 検証
 無効な設定を防ぐために、構成変更は適用前に検証されます。
 
 ## RELATED LINKS

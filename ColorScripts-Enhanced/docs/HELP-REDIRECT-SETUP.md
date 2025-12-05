@@ -33,7 +33,7 @@ We created a smart redirect page (`help-redirect.html`) that:
 
 GitHub Pages will deploy automatically (usually takes 1-2 minutes). You'll see a message like:
 
-```
+```text
 Your site is live at https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/
 ```
 
@@ -41,7 +41,7 @@ Your site is live at https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/
 
 The redirect URL format is:
 
-```
+```text
 https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=<CmdletName>
 ```
 
@@ -54,7 +54,7 @@ For example:
 
 Users can override automatic detection by adding `&lang=<culture>`:
 
-```
+```text
 https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript&lang=fr
 ```
 
@@ -146,7 +146,7 @@ When adding a new language:
 
 If you prefer direct GitHub links without redirect, you can use:
 
-```
+```text
 https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Show-ColorScript.md
 ```
 

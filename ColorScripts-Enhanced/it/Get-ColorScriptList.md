@@ -15,7 +15,7 @@ Recupera un elenco di colorscript disponibili con i relativi metadati.
 
 ## SYNTAX
 
-```
+```powershell
 Get-ColorScriptList [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>] [-AsObject]
  [<CommonParameters>]
 ```
@@ -225,7 +225,7 @@ Questo cmdlet non accetta input dalla pipeline.
 
 Quando `-AsObject` è specificato, restituisce oggetti personalizzati con le proprietà Name, Category, Tags e Description.
 
-### None
+### None (2)
 
 Quando `-AsObject` non è specificato, l'output viene scritto direttamente nell'host della console.
 
@@ -235,14 +235,14 @@ Quando `-AsObject` non è specificato, l'output viene scritto direttamente nell'
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Metadata Properties:**
+## Metadata Properties
 
 - Name: Identificatore dello script utilizzato da Show-ColorScript
 - Category: Raggruppamento tematico per l'organizzazione
 - Tags: Array di parole chiave descrittive per il filtraggio
 - Description: Spiegazione leggibile dall'uomo del contenuto
 
-**Usage Patterns:**
+## Usage Patterns
 
 - Discovery: Esplora gli script disponibili prima della selezione
 - Filtering: Riduci le opzioni utilizzando categorie e tag
@@ -650,28 +650,28 @@ Add-ColorScriptProfile -Force
 
 ### FAQ
 
-**Q: Quanti colorscript sono disponibili?**
+## Q: Quanti colorscript sono disponibili
 A: 450++ script integrati in molteplici categorie e tag
 
-**Q: Quanto spazio su disco utilizza la cache?**
+## Q: Quanto spazio su disco utilizza la cache
 A: Circa 2-5MB totali per tutti gli script, circa 2-50KB per script
 
-**Q: Posso usare i colorscript negli script/automazione?**
+## Q: Posso usare i colorscript negli script/automazione
 A: Sì, usa `-ReturnText` per catturare l'output o `-PassThru` per metadati
 
-**Q: Come creo colorscript personalizzati?**
+## Q: Come creo colorscript personalizzati
 A: Usa `New-ColorScript` per scaffoldare un template, poi aggiungi la tua arte ANSI
 
-**Q: Cosa faccio se non voglio colori all'avvio?**
+## Q: Cosa faccio se non voglio colori all'avvio
 A: Usa `Add-ColorScriptProfile -SkipStartupScript` per importare senza auto-display
 
-**Q: Posso usarlo su macOS/Linux?**
+## Q: Posso usarlo su macOS/Linux
 A: Sì, con PowerShell 7+ che funziona cross-platform
 
-**Q: Come condivido i colorscript con colleghi?**
+## Q: Come condivido i colorscript con colleghi
 A: Esporta metadati con `Export-ColorScriptMetadata` o condividi file script
 
-**Q: La cache è sempre abilitata?**
+## Q: La cache è sempre abilitata
 A: No, usa `-NoCache` per disabilitare la cache per sviluppo/test
 
 ### BEST PRACTICES
@@ -779,35 +779,35 @@ New-ColorScriptCache
 
 Il modulo fornisce 10 comandi principali per gestire e visualizzare i colorscript:
 
-**Comandi di Visualizzazione:**
+## Comandi di Visualizzazione
 
 - `Show-ColorScript` - Visualizza colorscript con molteplici modalità (casuale, denominato, elenco, tutti)
 - `Get-ColorScriptList` - Elenca i colorscript disponibili con metadati dettagliati
 
-**Gestione della Cache:**
+## Gestione della Cache
 
 - `New-ColorScriptCache` - Costruisce file di cache per le prestazioni
 - `Clear-ColorScriptCache` - Rimuove file di cache con opzioni di filtraggio
 - `Build-ColorScriptCache` - Alias per New-ColorScriptCache
 
-**Configurazione:**
+## Configurazione
 
 - `Get-ColorScriptConfiguration` - Recupera le impostazioni di configurazione attuali
 - `Set-ColorScriptConfiguration` - Rende persistenti le modifiche alla configurazione
 - `Reset-ColorScriptConfiguration` - Ripristina le impostazioni di fabbrica
 
-**Integrazione del Profilo:**
+## Integrazione del Profilo
 
 - `Add-ColorScriptProfile` - Integra il modulo nel profilo PowerShell
 
-**Sviluppo:**
+## Sviluppo
 
 - `New-ColorScript` - Scaffold un nuovo template di colorscript
 - `Export-ColorScriptMetadata` - Esporta metadati per l'automazione
 
 #### Pattern di Utilizzo dei Comandi
 
-**Pattern 1: Visualizzazione Rapida**
+## Pattern 1: Visualizzazione Rapida
 
 ```powershell
 Show-ColorScript                    # Colorscript casuale
@@ -815,7 +815,7 @@ scs                                 # Utilizzo alias del modulo
 Show-ColorScript -Name aurora       # Script specifico
 ```
 
-**Pattern 2: Scoperta e Elenco**
+## Pattern 2: Scoperta e Elenco
 
 ```powershell
 Get-ColorScriptList                 # Tutti gli script
@@ -824,7 +824,7 @@ Get-ColorScriptList -Category Nature # Filtra per categoria
 Get-ColorScriptList -Tag Animated   # Filtra per tag
 ```
 
-**Pattern 3: Ottimizzazione delle Prestazioni**
+## Pattern 3: Ottimizzazione delle Prestazioni
 
 ```powershell
 New-ColorScriptCache                # Costruisce tutte le cache
@@ -832,7 +832,7 @@ New-ColorScriptCache -Name bars     # Costruisce cache specifica
 New-ColorScriptCache -Category Geometric  # Costruisce categoria
 ```
 
-**Pattern 4: Manutenzione della Cache**
+## Pattern 4: Manutenzione della Cache
 
 ```powershell
 Clear-ColorScriptCache -All         # Rimuove tutte le cache

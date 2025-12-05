@@ -17,7 +17,7 @@ Löscht zwischengespeicherte ColorScript-Ausgabedateien.
 
 ### Alle
 
-```
+```text
 Clear-ColorScriptCache [-All] [-Path <String>] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 ## PARAMETERS
@@ -340,7 +340,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -Name
 
@@ -361,7 +361,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```js
 
 ### -WhatIf
 
@@ -382,7 +382,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```powershell
 
 ### CommonParameters
 

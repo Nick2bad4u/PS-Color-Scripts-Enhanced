@@ -19,7 +19,7 @@ Voegt de ColorScripts-Enhanced module import toe (en optioneel Show-ColorScript)
 
 ### \_\_AllParameterSets
 
-```
+```text
 Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-Force]
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```

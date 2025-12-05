@@ -17,14 +17,14 @@ Lists available colorscripts with optional filtering and rich metadata output.
 
 ### Default (Default)
 
-```
+```powershell
 Get-ColorScriptList [-AsObject] [-Detailed] [-Name <String[]>] [-Category <String[]>]
  [-Tag <String[]>] [<CommonParameters>]
 ```
 
 ### \_\_AllParameterSets
 
-```
+```powershell
 Get-ColorScriptList [[-Name] <string[]>] [[-Category] <string[]>] [[-Tag] <string[]>] [-AsObject]
  [-Detailed] [<CommonParameters>]
 ```
@@ -353,7 +353,7 @@ Without `-AsObject`, the cmdlet writes a formatted table to the host while still
 
 ### Dynamic Filtering
 
-**Multi-Criteria Filtering**
+## Multi-Criteria Filtering
 
 ```powershell
 # Find animated scripts that are colorful
@@ -368,7 +368,7 @@ Get-ColorScriptList -Category Nature -AsObject |
     Where-Object { $_.Tags -notcontains 'Simple' }
 ```
 
-**Fuzzy Matching**
+## Fuzzy Matching
 
 ```powershell
 # Find scripts similar to a name pattern
@@ -380,7 +380,7 @@ Get-ColorScriptList -AsObject |
 
 ### Data Analysis
 
-**Category Distribution**
+## Category Distribution
 
 ```powershell
 # Analyze how scripts are distributed across categories
@@ -391,7 +391,7 @@ $analysis = Get-ColorScriptList -AsObject |
 $analysis | Sort-Object Count -Descending | Format-Table
 ```
 
-**Tag Frequency Analysis**
+## Tag Frequency Analysis
 
 ```powershell
 # Determine most common tags
@@ -404,7 +404,7 @@ Get-ColorScriptList -AsObject |
 
 ### Integration Workflows
 
-**Playlist Creation**
+## Playlist Creation
 
 ```powershell
 # Create a "favorite" playlist
@@ -420,7 +420,7 @@ $playlist | ForEach-Object {
 }
 ```
 
-**Metadata Export for Web**
+## Metadata Export for Web
 
 ```powershell
 # Export detailed metadata
@@ -431,7 +431,7 @@ $web = Get-ColorScriptList -AsObject |
 $web | Out-File "./scripts.json" -Encoding UTF8
 ```
 
-**Validation and Health Check**
+## Validation and Health Check
 
 ```powershell
 # Health check on all scripts
@@ -455,7 +455,7 @@ $uncached | Format-Table Name, Category
 
 ### Query Optimization
 
-**Filter Early**
+## Filter Early
 
 ```powershell
 # Faster: Filter by category first
@@ -467,7 +467,7 @@ Get-ColorScriptList -AsObject |
     Where-Object { $_.Category -eq "Geometric" -and $_.Name -like "*spiral*" }
 ```
 
-**Use Appropriate Output Format**
+## Use Appropriate Output Format
 
 ```powershell
 # For exploration: Detailed display

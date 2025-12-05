@@ -15,7 +15,7 @@ Exportiert Colorscript-Metadaten in verschiedene Formate für die externe Verwen
 
 ## SYNTAX
 
-```
+```text
 Export-ColorScriptMetadata [-Path] <string> [[-Format] <string>] [-Category <string[]>] [-Tag <string[]>]
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
@@ -227,7 +227,7 @@ Dieses Cmdlet akzeptiert keine Eingabe aus der Pipeline.
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 Dieses Cmdlet gibt keine Ausgabe an die Pipeline zurück.
 
@@ -237,13 +237,13 @@ Dieses Cmdlet gibt keine Ausgabe an die Pipeline zurück.
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 oder höher
 
-**Ausgabeformate:**
+## Ausgabeformate
 
 - JSON: Strukturierte Daten für programmatischen Zugriff
 - CSV: Tabellenkalkulationskompatibles Format
 - XML: Hierarchische Datenstruktur
 
-**Anwendungsfälle:**
+## Anwendungsfälle
 
 - Dokumentationsgenerierung
 - Inventarverwaltung

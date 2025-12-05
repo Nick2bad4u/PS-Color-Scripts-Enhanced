@@ -15,7 +15,7 @@ Aggiunge l'integrazione ColorScripts-Enhanced ai file di profilo PowerShell.
 
 ## SYNTAX
 
-```
+```text
 Add-ColorScriptProfile [[-Scope] <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -165,7 +165,7 @@ Questo cmdlet non accetta input dalla pipeline.
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 Questo cmdlet non restituisce output alla pipeline.
 
@@ -175,16 +175,16 @@ Questo cmdlet non restituisce output alla pipeline.
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 o successivo
 
-**Integrazione profilo:**
+## Integrazione profilo
 Il cmdlet aggiunge uno snippet di avvio che importa ColorScripts-Enhanced e fornisce accesso conveniente. L'integrazione è progettata per essere leggera e non disturbare.
 
-**Considerazioni ambito:**
+## Considerazioni ambito
 
 - Gli ambiti CurrentUser modificano i file nella directory del profilo utente
 - Gli ambiti AllUsers richiedono privilegi di amministratore e influenzano tutti gli utenti
 - Le modifiche hanno effetto nelle nuove sessioni PowerShell
 
-**Funzionalità di sicurezza:**
+## Funzionalità di sicurezza
 
 - Verifica l'integrazione esistente per evitare duplicazioni
 - Utilizza meccanismi di profilo PowerShell standard

@@ -17,14 +17,14 @@ Exporta metadatos completos para todos los colorescripts a formato JSON o emite 
 
 ### Default (Default)
 
-```
+```text
 Export-ColorScriptMetadata [-Path <String>] [-IncludeFileInfo] [-IncludeCacheInfo] [-PassThru]
  [<CommonParameters>]
 ```
 
 ### \_\_AllParameterSets
 
-```
+```text
 Export-ColorScriptMetadata [[-Path] <string>] [-IncludeFileInfo] [-IncludeCacheInfo] [-PassThru]
  [<CommonParameters>]
 ```
@@ -330,7 +330,7 @@ Cuando se especifica `-IncludeCacheInfo`, se incluyen estas propiedades adiciona
 
 ### Data Analysis and Reporting
 
-**Comprehensive Inventory Report**
+## Comprehensive Inventory Report
 
 ```powershell
 # Generate complete inventory with all metadata
@@ -347,7 +347,7 @@ $report = @{
 $report | ConvertTo-Json | Out-File "./inventory-report.json"
 ```
 
-**Category Distribution Analysis**
+## Category Distribution Analysis
 
 ```powershell
 # Analyze distribution across categories
@@ -365,7 +365,7 @@ $categories = $metadata | Group-Object Category | ForEach-Object {
 $categories | Sort-Object Count -Descending | Format-Table
 ```
 
-**Cache Coverage Analysis**
+## Cache Coverage Analysis
 
 ```powershell
 # Identify cache gaps
@@ -382,7 +382,7 @@ $uncached | Select-Object Name, Category | Format-Table
 
 ### Integration Workflows
 
-**API Response Generation**
+## API Response Generation
 
 ```powershell
 # Build versioned API response
@@ -401,7 +401,7 @@ $apiResponse = @{
 $apiResponse | Out-File "./api/colorscripts-v1.json" -Encoding UTF8
 ```
 
-**Web Gallery Generation**
+## Web Gallery Generation
 
 ```powershell
 # Create interactive HTML gallery
@@ -429,7 +429,7 @@ $html += "</body></html>"
 $html | Out-File "./gallery.html" -Encoding UTF8
 ```
 
-**Change Tracking**
+## Change Tracking
 
 ```powershell
 # Compare current state with previous export
@@ -449,7 +449,7 @@ if ($previous) {
 
 ### Maintenance and Validation
 
-**Health Check Automation**
+## Health Check Automation
 
 ```powershell
 # Validate all scripts and cache status
@@ -467,7 +467,7 @@ $health = $metadata | ForEach-Object {
 $health | Where-Object { -not $_.FileExists -or -not $_.Cached } | Format-Table
 ```
 
-**Performance Metrics**
+## Performance Metrics
 
 ```powershell
 # Export with performance data
@@ -486,7 +486,7 @@ $metrics | ConvertTo-Json | Out-File "./performance.json"
 
 ### Backup and Disaster Recovery
 
-**Metadata Backup**
+## Metadata Backup
 
 ```powershell
 # Create timestamped metadata backup
@@ -497,7 +497,7 @@ Export-ColorScriptMetadata -Path "./backups/metadata-$timestamp.json" -IncludeFi
 Get-ChildItem "./backups/metadata-*.json" | Sort-Object Name -Descending | Select-Object -Skip 5 | Remove-Item
 ```
 
-**Recovery Validation**
+## Recovery Validation
 
 ```powershell
 # Validate backed-up metadata against current state
@@ -512,29 +512,29 @@ if ($missing.Count -gt 0) {
 
 ## NOTES
 
-**Performance Considerations:**
+## Performance Considerations
 
 - Agregar `-IncludeFileInfo` o `-IncludeCacheInfo` requiere operaciones de I/O del sistema de archivos y puede impactar el rendimiento al procesar bibliotecas grandes de colorescripts.
 - Para exportaciones grandes, considere usar `-PassThru` con filtrado de pipeline en lugar de cargar todo en memoria
 - Las operaciones de exportación escalan linealmente con el conteo de scripts
 
-**Cache Directory Management:**
+## Cache Directory Management
 
 - La recopilación de metadatos de caché asegura que el directorio de caché exista antes de intentar leer archivos de caché.
 - Cuando los archivos de caché faltan o no están disponibles, la propiedad `CacheExists` se establece en `false` y `CacheLastWriteTime` se establece en null.
 
-**Error Handling:**
+## Error Handling
 
 - Los errores de lectura de metadatos de archivo se reportan a través de salida detallada (`-Verbose`) en lugar de terminar el cmdlet.
 - Los errores de archivos individuales resultan en valores nulos para las propiedades afectadas mientras permiten que el cmdlet continúe procesando los colorescripts restantes.
 
-**JSON Output Format:**
+## JSON Output Format
 
 - Los archivos JSON se escriben con sangría (profundidad 2) para legibilidad humana.
 - La codificación de salida es UTF-8 para máxima compatibilidad.
 - Los archivos existentes en la ruta de destino se sobrescriben sin preguntar.
 
-**Best Practices:**
+## Best Practices
 
 - Programe exportaciones regulares de metadatos para auditoría
 - Versione sus exportaciones de metadatos con marcas de tiempo
@@ -542,7 +542,7 @@ if ($missing.Count -gt 0) {
 - Almacene copias de seguridad en sistemas de control de versiones o respaldo
 - Monitoree el crecimiento del tamaño de archivo de exportación con el tiempo
 
-**Use Cases:**
+## Use Cases
 
 - Integración con pipelines de CI/CD para generación de documentación
 - Construcción de dashboards web o endpoints de API que sirvan metadatos de colorescripts

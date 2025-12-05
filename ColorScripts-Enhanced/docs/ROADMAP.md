@@ -218,7 +218,7 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 
 ## Timeline Estimate
 
-```
+```text
 Q4 2025 (Oct-Dec)
 ├── Documentation expansion ✅
 ├── Community feature collection

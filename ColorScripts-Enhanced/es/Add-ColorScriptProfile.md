@@ -18,7 +18,7 @@ Agrega la importación del módulo ColorScripts-Enhanced (y opcionalmente Show-C
 
 ### \_\_AllParameterSets
 
-```
+```text
 Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-Force]
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```

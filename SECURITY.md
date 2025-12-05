@@ -4,16 +4,16 @@
 
 We actively support the latest version of ColorScripts-Enhanced.
 
-| Version  | Supported          |
-| -------- | ------------------ |
-| Latest   | :white_check_mark: |
-| < Latest | :x:                |
+| Version  | Supported            |
+| -------- | -------------------- |
+| Latest   | :white\_check\_mark: |
+| < Latest | :x:                  |
 
 ## Reporting a Vulnerability
 
 If you discover a security vulnerability within ColorScripts-Enhanced, please send an email to the repository owner or open a private security advisory on GitHub.
 
-**Please do not open public issues for security vulnerabilities.**
+## Please do not open public issues for security vulnerabilities
 
 ### What to Include
 

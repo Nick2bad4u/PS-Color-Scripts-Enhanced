@@ -89,7 +89,7 @@ Apply ScriptAnalyzer fixes where possible, then rerun lint:
 npm run lint:fix
 ```
 
-### `npm run build:help`
+### `npm run build:help` (2)
 
 Generate external help XML from markdown:
 
@@ -97,9 +97,9 @@ Generate external help XML from markdown:
 npm run build:help
 ```
 
-## Testing
+## Testing (2)
 
-### `npm test`
+### `npm test` (2)
 
 Execute the smoke-test harness (`Test-Module.ps1`):
 
@@ -115,7 +115,7 @@ This runs:
 - ScriptAnalyzer compliance check
 - Help documentation availability
 
-### `npm run test:pester`
+### `npm run test:pester` (2)
 
 Run the full Pester test suite in `./Tests`:
 
@@ -179,9 +179,9 @@ $VerbosePreference = 'SilentlyContinue'
 Invoke-Pester -Path ./Tests -OutputFile testResults.junit.xml -OutputFormat JUnitXml
 ```
 
-## Linting
+## Linting (2)
 
-### `npm run lint`
+### `npm run lint` (2)
 
 Run ScriptAnalyzer against the module:
 
@@ -197,7 +197,7 @@ Checks:
 - Code style consistency
 - Security concerns
 
-### `npm run lint:strict`
+### `npm run lint:strict` (2)
 
 Run lint with tests included and warnings treated as errors:
 
@@ -211,7 +211,7 @@ Use before:
 - Release publishing
 - Major commits
 
-### `npm run lint:fix`
+### `npm run lint:fix` (2)
 
 Apply ScriptAnalyzer fixes where possible, then rerun lint:
 
@@ -303,7 +303,7 @@ Checks:
 
 ## Verification
 
-### `npm run verify`
+### `npm run verify` (2)
 
 Run comprehensive verification including strict linting, markdown checks, and all tests:
 
@@ -319,7 +319,7 @@ Runs in order:
 4. Full Pester tests
 5. Coverage report
 
-**Use this before:**
+## Use this before
 
 - Committing to main
 - Creating pull requests
@@ -614,7 +614,7 @@ npm run scripts:test-all
 
 ## Release Notes
 
-### `npm run release:notes`
+### `npm run release:notes` (2)
 
 Generate unreleased notes (stripped header) for PowerShell Gallery publishing:
 
@@ -624,7 +624,7 @@ npm run release:notes
 
 Output: `dist/PowerShellGalleryReleaseNotes.md`
 
-### `npm run release:notes:latest`
+### `npm run release:notes:latest` (2)
 
 Generate the most recent tagged release notes:
 
@@ -634,7 +634,7 @@ npm run release:notes:latest
 
 Output: `dist/LatestReleaseNotes.md`
 
-### `npm run release:verify`
+### `npm run release:verify` (2)
 
 Validate CHANGELOG.md against the module manifest and git-cliff configuration:
 
@@ -665,7 +665,7 @@ npm run verify
 npm run build
 ```
 
-## CI/CD Integration
+## CI/CD Integration (2)
 
 The GitHub Actions workflows use these npm scripts:
 

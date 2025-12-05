@@ -15,7 +15,7 @@ Erstellt ein neues Farbscript mit Metadaten und Vorlagenstruktur.
 
 ## SYNTAX
 
-```
+```text
 New-ColorScript [-Name] <string> [[-Category] <string>] [[-Tags] <string[]>] [[-Description] <string>]
  [-Path <string>] [-Template <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
@@ -282,7 +282,7 @@ Gibt ein Objekt mit Informationen über das erstellte Farbscript zurück.
 **Modul:** ColorScripts-Enhanced
 **Erfordert:** PowerShell 5.1 oder höher
 
-**Vorlagen:**
+## Vorlagen
 
 - Basic: Minimale Struktur für benutzerdefinierte Skripte
 - Animated: Vorlage mit Zeitsteuerungen
@@ -290,7 +290,7 @@ Gibt ein Objekt mit Informationen über das erstellte Farbscript zurück.
 - Geometric: Vorlage für geometrische Muster
 - Nature: Vorlage für naturinspirierte Designs
 
-**Dateistruktur:**
+## Dateistruktur
 Erstellte Skripte folgen der Standardorganisation des Moduls und integrieren sich automatisch in die Caching- und Anzeigesysteme.
 
 ## RELATED LINKS

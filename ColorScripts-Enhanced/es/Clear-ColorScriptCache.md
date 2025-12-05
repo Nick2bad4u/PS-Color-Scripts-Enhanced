@@ -17,20 +17,20 @@ Eliminar archivos de salida de colorescript en caché.
 
 ### All
 
-```
+```text
 Clear-ColorScriptCache [-All] [-Path <String>] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Named
 
-```
+```text
 Clear-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Path <String>] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm]
  [<CommonParameters>]
 ```
 
 ### \_\_AllParameterSets
 
-```
+```text
 Clear-ColorScriptCache [[-Name] <string[]>] [[-Path] <string>] [[-Category] <string[]>]
  [[-Tag] <string[]>] [-All] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
@@ -432,7 +432,7 @@ Devuelve registros de estado para cada archivo de caché procesado. Cada objeto 
 
 ### Cache Maintenance Strategies
 
-**Full Cache Rebuild**
+## Full Cache Rebuild
 
 ```powershell
 # Refresco completo del caché
@@ -441,7 +441,7 @@ New-ColorScriptCache -Force
 Write-Host "Caché reconstruido exitosamente"
 ```
 
-**Targeted Cache Cleaning**
+## Targeted Cache Cleaning
 
 ```powershell
 # Borrar solo entradas obsoletas
@@ -451,7 +451,7 @@ Clear-ColorScriptCache -Name "deprecated-*", "test-*" -Confirm:$false
 Clear-ColorScriptCache -Name "draft-*" -DryRun
 ```
 
-**Age-Based Cleanup**
+## Age-Based Cleanup
 
 ```powershell
 # Borrar archivos de caché de más de 60 días
@@ -467,7 +467,7 @@ Get-ChildItem $cacheDir -Filter "*.cache" |
 
 ### Category and Tag Based Cleaning
 
-**Clear by Metadata**
+## Clear by Metadata
 
 ```powershell
 # Eliminar cachés para categoría experimental
@@ -480,7 +480,7 @@ Clear-ColorScriptCache -Tag deprecated -Confirm:$false
 Clear-ColorScriptCache -Category @("Demo", "Test", "Draft") -Confirm:$false
 ```
 
-**Selective Preservation**
+## Selective Preservation
 
 ```powershell
 # Mantener solo scripts recomendados, borrar todo lo demás
@@ -493,7 +493,7 @@ $remove | ForEach-Object { Clear-ColorScriptCache -Name $_ -Confirm:$false }
 
 ### Performance and Reporting
 
-**Cache Usage Analysis**
+## Cache Usage Analysis
 
 ```powershell
 # Analizar caché antes de limpieza
@@ -504,7 +504,7 @@ Clear-ColorScriptCache -Category Demo -DryRun
 Write-Host "Tamaño actual del caché: $([math]::Round($before / 1MB, 2)) MB"
 ```
 
-**Cleanup Report**
+## Cleanup Report
 
 ```powershell
 # Generar informe de operaciones de limpieza
@@ -514,7 +514,7 @@ $report | Group-Object Status | ForEach-Object {
 }
 ```
 
-**Space Recovery**
+## Space Recovery
 
 ```powershell
 # Calcular espacio en disco liberado
@@ -527,7 +527,7 @@ Write-Host "Liberado: $([math]::Round(($before - $after) / 1MB, 2)) MB"
 
 ### CI/CD and Deployment
 
-**Pre-Build Cache Cleanup**
+## Pre-Build Cache Cleanup
 
 ```powershell
 # Construcción limpia: borrar todo el caché antes de reconstruir
@@ -536,7 +536,7 @@ New-ColorScriptCache -Tag Recommended -Force
 Write-Host "Caché listo para despliegue"
 ```
 
-**Selective Cache Persistence**
+## Selective Cache Persistence
 
 ```powershell
 # Mantener scripts de producción, borrar desarrollo
@@ -551,7 +551,7 @@ $toRemove | ForEach-Object { Clear-ColorScriptCache -Name $_ -Confirm:$false }
 
 ### Troubleshooting
 
-**Verification Workflow**
+## Verification Workflow
 
 ```powershell
 # Verificar problemas de caché y corregir
@@ -593,7 +593,7 @@ El filtrado por `-Category` o `-Tag` requiere que los scripts tengan metadatos a
 - Programe limpiezas automatizadas durante ventanas de mantenimiento
 - Pruebe operaciones de limpieza en no producción primero
 
-### Troubleshooting
+### Troubleshooting (2)
 
 - **"No cache files found"**: Use `-AsObject` para verificar qué scripts tienen cachés
 - **"Permission denied"**: Verifique el acceso de escritura al directorio de caché

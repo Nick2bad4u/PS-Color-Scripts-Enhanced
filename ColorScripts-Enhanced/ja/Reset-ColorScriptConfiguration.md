@@ -15,7 +15,7 @@ ColorScripts-Enhanced の構成をデフォルト値にリセットします。
 
 ## SYNTAX
 
-```
+```text
 Reset-ColorScriptConfiguration [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -131,7 +131,7 @@ HelpMessage: ""
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 このコマンドレットは、パイプラインに出力を返しません。
 
@@ -141,13 +141,13 @@ HelpMessage: ""
 **モジュール:** ColorScripts-Enhanced
 **要件:** PowerShell 5.1 以降
 
-**リセット範囲:**
+## リセット範囲
 すべてのユーザー構成可能な設定をモジュールのデフォルトにリセットします。これには、キャッシュ パス、パフォーマンス設定、表示設定が含まれます。
 
-**データ安全性:**
+## データ安全性
 構成のリセットは、キャッシュされたスクリプト出力やユーザー作成の colorscripts に影響しません。構成設定のみが影響を受けます。
 
-**回復:**
+## 回復
 リセット後、必要に応じて Set-ColorScriptConfiguration を使用してカスタム設定を再適用します。
 
 ## RELATED LINKS

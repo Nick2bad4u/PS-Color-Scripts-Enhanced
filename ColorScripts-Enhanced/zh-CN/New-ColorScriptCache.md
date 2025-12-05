@@ -17,13 +17,13 @@ PlatyPS schema version: 2024-05-01
 
 ### 全部
 
-```
+```text
 New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### 指定
 
-```
+```text
 New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -301,13 +301,13 @@ HelpMessage: ""
 **模块：** ColorScripts-Enhanced
 **要求：** PowerShell 5.1 或更高版本
 
-**性能影响：**
+## 性能影响：
 预缓存消除了首次显示时的执行时间，提供即时视觉反馈。对复杂或动画脚本特别有益。
 
-**缓存管理：**
+## 缓存管理：
 缓存文件存储在模块管理的目录中，当源脚本更改时会自动失效。使用 Clear-ColorScriptCache 删除过时的缓存。
 
-**最佳实践：**
+## 最佳实践：
 
 - 为常用脚本缓存以获得最佳性能
 - 使用选择性缓存以避免不必要的处理

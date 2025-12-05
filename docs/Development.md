@@ -4,7 +4,7 @@ This document outlines local development practices for the **ColorScripts-Enhanc
 
 ## Repository Layout
 
-```
+```powershell
 ColorScripts-Enhanced/    # Module root (manifest + .psm1 + scripts)
 Scripts/                  # <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscript files
 Tests/                    # Pester test suite
@@ -372,9 +372,9 @@ Before submitting a pull request:
 - [Pester Testing](https://pester.dev/)
 - [ANSI Escape Codes](https://en.wikipedia.org/wiki/ANSI_escape_code)
 
-## Repository Layout
+## Repository Layout (2)
 
-```
+```powershell
 ColorScripts-Enhanced/
 ├── ColorScripts-Enhanced.psd1     # Module manifest
 ├── ColorScripts-Enhanced.psm1     # Main implementation
@@ -391,23 +391,23 @@ ColorScripts-Enhanced/
 ---
 
 **Last Updated**: October 30, 2025
-| `npm run lint:strict` | Run lint with `-IncludeTests` and `-TreatWarningsAsErrors`. |
-| `npm run lint:fix` | Attempt auto-fixes, then rerun lint. |
-| `npm test` | Execute the smoke-test harness (`Test-Module.ps1`). |
-| `npm run test:pester` | Run the full Pester suite from `./Tests`. |
-| `npm run docs:update-counts` | Call `Update-DocumentationCounts.ps1` to sync README markers. |
-| `npm run package:metadata -- --PackagePath <nupkg>` | Run `Update-NuGetPackageMetadata.ps1` to embed README/license/icon before pushing. |
-| `npm run scripts:convert -- <ansi-file>` | Convert ANSI artwork via the Node-based converter. |
-| `npm run scripts:convert:ps -- <ansi-file>` | Convert ANSI artwork using the PowerShell helper script. |
-| `npm run scripts:convert:advanced` | Launch the advanced ANSI conversion workflow in PowerShell. |
-| `npm run scripts:split -- <file> [options]` | Split tall ANSI or PowerShell scripts into manageable slices. |
-| `npm run scripts:test-all` | Run `Test-AllColorScripts.ps1` across the entire library. |
-| `npm run scripts:format` | Run Invoke-Formatter across every colorscript in `ColorScripts-Enhanced/Scripts`. |
-| `npm run release:notes` | Generate unreleased release notes using git-cliff (PowerShell Gallery snippet). |
-| `npm run release:notes:latest` | Generate release notes for the most recent tag. |
-| `npm run release:verify` | Ensure CHANGELOG.md aligns with the manifest version and git-cliff output. |
-| `npm run markdown:check` | Run markdown-link-check across every `.md` file in the repo. |
-| `npm run verify` | Run strict lint, link checks, smoke tests, and the full Pester suite. |
+\| `npm run lint:strict` | Run lint with `-IncludeTests` and `-TreatWarningsAsErrors`. |
+\| `npm run lint:fix` | Attempt auto-fixes, then rerun lint. |
+\| `npm test` | Execute the smoke-test harness (`Test-Module.ps1`). |
+\| `npm run test:pester` | Run the full Pester suite from `./Tests`. |
+\| `npm run docs:update-counts` | Call `Update-DocumentationCounts.ps1` to sync README markers. |
+\| `npm run package:metadata -- --PackagePath <nupkg>` | Run `Update-NuGetPackageMetadata.ps1` to embed README/license/icon before pushing. |
+\| `npm run scripts:convert -- <ansi-file>` | Convert ANSI artwork via the Node-based converter. |
+\| `npm run scripts:convert:ps -- <ansi-file>` | Convert ANSI artwork using the PowerShell helper script. |
+\| `npm run scripts:convert:advanced` | Launch the advanced ANSI conversion workflow in PowerShell. |
+\| `npm run scripts:split -- <file> [options]` | Split tall ANSI or PowerShell scripts into manageable slices. |
+\| `npm run scripts:test-all` | Run `Test-AllColorScripts.ps1` across the entire library. |
+\| `npm run scripts:format` | Run Invoke-Formatter across every colorscript in `ColorScripts-Enhanced/Scripts`. |
+\| `npm run release:notes` | Generate unreleased release notes using git-cliff (PowerShell Gallery snippet). |
+\| `npm run release:notes:latest` | Generate release notes for the most recent tag. |
+\| `npm run release:verify` | Ensure CHANGELOG.md aligns with the manifest version and git-cliff output. |
+\| `npm run markdown:check` | Run markdown-link-check across every `.md` file in the repo. |
+\| `npm run verify` | Run strict lint, link checks, smoke tests, and the full Pester suite. |
 
 > `npm run release:*` commands require the [git-cliff](https://github.com/orhun/git-cliff) CLI in your `PATH`.
 
@@ -500,7 +500,7 @@ Expect to see icons, checkmarks, and box-drawing characters. If they appear as s
 - Respect the caching mechanism (do not bypass unless necessary)
 - Keep scripts idempotent and avoid side effects outside terminal output
 
-## Testing Strategy
+## Testing Strategy (2)
 
 - Unit tests validate exported commands and manifest integrity
 - Smoke tests ensure caching pipeline works end-to-end

@@ -17,13 +17,13 @@ Restaurar la configuración de ColorScripts-Enhanced a sus valores predeterminad
 
 ### Default (Default)
 
-```
+```text
 Reset-ColorScriptConfiguration [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### \_\_AllParameterSets
 
-```
+```text
 Reset-ColorScriptConfiguration [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -197,7 +197,7 @@ El archivo de configuración se almacena en el directorio resuelto por `Get-Colo
 
 La variable de entorno `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` puede anular la ubicación predeterminada si se establece antes de la importación del módulo.
 
-**Consideraciones importantes:**
+## Consideraciones importantes
 
 - La operación de restablecimiento es inmediata y no se puede deshacer automáticamente
 - Se perderán todas las rutas de script de color personalizadas, ubicaciones de caché o comportamientos de inicio
@@ -205,7 +205,7 @@ La variable de entorno `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` puede anular la ubic
 - El módulo debe tener permisos de escritura en el directorio de configuración
 - Otras sesiones de PowerShell que usan el módulo verán los cambios después de su próxima recarga de configuración
 
-**Valores predeterminados restaurados:**
+## Valores predeterminados restaurados
 
 - CachePath: Directorio de caché predeterminado específico de la plataforma
 - RunOnStartup: `$false`

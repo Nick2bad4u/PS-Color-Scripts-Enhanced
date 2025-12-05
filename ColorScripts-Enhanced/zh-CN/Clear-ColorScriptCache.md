@@ -324,7 +324,7 @@ AcceptedValues: []
 HelpMessage: ""
 ```
 
-### -Confirm
+### -Confirm (2)
 
 运行 cmdlet 之前提示您确认。
 
@@ -345,7 +345,7 @@ AcceptedValues: []
 HelpMessage: ""
 ```
 
-### -Name
+### -Name (2)
 
 指定要从缓存中清除的颜色脚本名称。支持通配符（\* 和 ?）进行模式匹配。
 
@@ -366,7 +366,7 @@ AcceptedValues: []
 HelpMessage: ""
 ```
 
-### -WhatIf
+### -WhatIf (2)
 
 显示 cmdlet 运行时会发生什么。cmdlet 不会运行。
 
@@ -387,19 +387,19 @@ AcceptedValues: []
 HelpMessage: ""
 ```
 
-### CommonParameters
+### CommonParameters (2)
 
 此 cmdlet 支持通用参数：-Debug、-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutBuffer、-OutVariable、-PipelineVariable、-ProgressAction、-Verbose、-WarningAction 和 -WarningVariable。有关更多信息，请参阅 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216)。
 
-## INPUTS
+## INPUTS (2)
 
 ### None
 
 此 cmdlet 不接受来自管道的输入。
 
-## OUTPUTS
+## OUTPUTS (2)
 
-### None
+### None (2)
 
 此 cmdlet 不向管道返回输出。
 
@@ -409,17 +409,17 @@ HelpMessage: ""
 **模块：** ColorScripts-Enhanced
 **需要：** PowerShell 5.1 或更高版本
 
-**缓存位置：**
+## 缓存位置：
 缓存文件存储在模块管理的目录中。使用 `(Get-Module ColorScripts-Enhanced).ModuleBase` 定位模块目录，然后查找缓存子目录。
 
-**何时清除缓存：**
+## 何时清除缓存：
 
 - 修改源颜色脚本文件后
 - 故障排除显示问题时
 - 确保脚本的新鲜执行
 - 性能基准测试前
 
-**性能影响：**
+## 性能影响：
 清除缓存将导致脚本在下次显示时正常运行，这可能比缓存执行需要更长的时间。缓存将在后续显示时自动重建。
 
 ## RELATED LINKS

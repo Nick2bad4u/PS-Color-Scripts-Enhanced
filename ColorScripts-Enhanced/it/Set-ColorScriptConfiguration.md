@@ -15,7 +15,7 @@ Modifica le impostazioni di configurazione di ColorScripts-Enhanced.
 
 ## SYNTAX
 
-```
+```text
 Set-ColorScriptConfiguration [-CachePath <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -158,7 +158,7 @@ Questo cmdlet non accetta input dalla pipeline.
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 Questo cmdlet non restituisce output alla pipeline.
 
@@ -168,13 +168,13 @@ Questo cmdlet non restituisce output alla pipeline.
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 o versioni successive
 
-**Persistenza della configurazione:**
+## Persistenza della configurazione
 Le impostazioni vengono automaticamente salvate nei file di configurazione specifici dell'utente e persistono tra le sessioni PowerShell.
 
-**Risoluzione del percorso:**
+## Risoluzione del percorso
 I percorsi della cache supportano variabili d'ambiente, percorsi relativi e notazione standard di PowerShell.
 
-**Convalida:**
+## Convalida
 Le modifiche alla configurazione vengono convalidate prima dell'applicazione per prevenire impostazioni non valide.
 
 ## RELATED LINKS

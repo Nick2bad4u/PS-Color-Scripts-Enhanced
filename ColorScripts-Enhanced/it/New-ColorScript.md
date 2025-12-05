@@ -15,7 +15,7 @@ Crea un nuovo colorscript con metadati e struttura del template.
 
 ## SYNTAX
 
-```
+```text
 New-ColorScript [-Name] <string> [[-Category] <string>] [[-Tags] <string[]>] [[-Description] <string>]
  [-Path <string>] [-Template <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
@@ -282,7 +282,7 @@ Restituisce un oggetto con informazioni sul colorscript creato.
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Templates:**
+## Templates
 
 - Basic: Struttura minima per script personalizzati
 - Animated: Template con controlli di temporizzazione
@@ -290,7 +290,7 @@ Restituisce un oggetto con informazioni sul colorscript creato.
 - Geometric: Template per pattern geometrici
 - Nature: Template per design ispirati alla natura
 
-**File Structure:**
+## File Structure
 Gli script creati seguono l'organizzazione standard del modulo e si integrano automaticamente con i sistemi di caching e visualizzazione.
 
 ## RELATED LINKS

@@ -15,7 +15,7 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNTAX
 
-```
+```text
 Export-ColorScriptMetadata [-Path] <string> [[-Format] <string>] [-Category <string[]>] [-Tag <string[]>]
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
@@ -224,7 +224,7 @@ HelpMessage: ""
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 此 cmdlet 不向管道返回输出。
 
@@ -234,13 +234,13 @@ HelpMessage: ""
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 或更高版本
 
-**Output Formats:**
+## Output Formats
 
 - JSON：用于编程访问的结构化数据
 - CSV：电子表格兼容格式
 - XML：层次数据结构
 
-**Use Cases:**
+## Use Cases
 
 - 文档生成
 - 清单管理

@@ -29,13 +29,13 @@ The cmdlet intelligently skips scripts whose cache files are already up-to-date 
 
 ### All
 
-```
+```text
 New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Named
 
-```
+```text
 New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -425,7 +425,7 @@ Without `-PassThru`, displays a concise summary table to the console showing the
 
 ### Cache Building Strategies
 
-**Full Production Cache**
+## Full Production Cache
 
 ```powershell
 # Build all caches for production environment
@@ -436,7 +436,7 @@ Write-Host "Cache built successfully"
 Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter "*.cache" | Measure-Object
 ```
 
-**Minimal Production Cache**
+## Minimal Production Cache
 
 ```powershell
 # Cache only recommended scripts for minimal footprint
@@ -444,7 +444,7 @@ New-ColorScriptCache -Tag Recommended -PassThru |
     Select-Object Name, Status, CacheFile
 ```
 
-**Selective Category Caching**
+## Selective Category Caching
 
 ```powershell
 # Cache specific categories based on environment
@@ -456,7 +456,7 @@ Get-ColorScriptList -Category $categories -AsObject |
 
 ### Performance Monitoring
 
-**Cache Building Progress**
+## Cache Building Progress
 
 ```powershell
 # Monitor cache building with progress
@@ -474,7 +474,7 @@ $scripts | ForEach-Object {
 Write-Progress -Activity "Building Cache" -Completed
 ```
 
-**Performance Comparison Report**
+## Performance Comparison Report
 
 ```powershell
 # Compare cache building times
@@ -491,7 +491,7 @@ $results | Sort-Object BuildTime -Descending | Format-Table
 
 ### Maintenance and Cleanup
 
-**Scheduled Cache Rebuild**
+## Scheduled Cache Rebuild
 
 ```powershell
 # Rebuild cache weekly
@@ -504,7 +504,7 @@ if ($daysSince -ge 7) {
 }
 ```
 
-**Selective Cache Updates**
+## Selective Cache Updates
 
 ```powershell
 # Update only stale caches
@@ -519,7 +519,7 @@ $scripts | ForEach-Object {
 
 ### CI/CD Integration
 
-**Build Cache in Docker**
+## Build Cache in Docker
 
 ```powershell
 # In Dockerfile or build script
@@ -528,7 +528,7 @@ New-ColorScriptCache -Force | Out-Null
 Write-Host "✓ ColorScripts cache built"
 ```
 
-**Cache Archive for Deployment**
+## Cache Archive for Deployment
 
 ```powershell
 # Archive cache for deployment
@@ -550,7 +550,7 @@ Cache files are stored in the directory exposed by the module's `CacheDir` varia
 
 The cmdlet executes each script in an isolated background PowerShell process to capture its output without affecting the current session. This ensures accurate caching of the exact console output that would be displayed when running the script directly.
 
-**Best Practices:**
+## Best Practices
 
 - Run once after module installation to pre-cache all scripts
 - Use `-Force` only when you need to rebuild all caches
@@ -562,7 +562,7 @@ The cmdlet executes each script in an isolated background PowerShell process to 
 
 **Performance Tip:** Run this cmdlet once after installing or updating the module to pre-cache all scripts for optimal performance.
 
-**Troubleshooting:**
+## Troubleshooting
 
 - If cache build fails, check script syntax with `Show-ColorScript -Name scriptname -NoCache`
 - Monitor disk space for cache directory growth

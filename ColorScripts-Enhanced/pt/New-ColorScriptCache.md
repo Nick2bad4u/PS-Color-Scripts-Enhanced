@@ -17,13 +17,13 @@ Pré-constrói cache para otimização de desempenho do colorscript.
 
 ### Todos
 
-```
+```text
 New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Selecionados
 
-```
+```text
 New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -194,7 +194,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -PassThru
 
@@ -215,7 +215,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 ```
 
 ### -Name
@@ -309,13 +309,13 @@ Retorna resultados de construção de cache com status de sucesso/falha para cad
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance Impact:**
+## Performance Impact
 Pré-cache elimina o tempo de execução na primeira exibição, fornecendo feedback visual instantâneo. Particularmente benéfico para scripts complexos ou animados.
 
-**Cache Management:**
+## Cache Management
 Arquivos em cache são armazenados em diretórios gerenciados pelo módulo e automaticamente invalidados quando os scripts de origem mudam. Use Clear-ColorScriptCache para remover cache desatualizado.
 
-**Best Practices:**
+## Best Practices
 
 - Armazenar em cache scripts frequentemente usados para desempenho ideal
 - Usar cache seletivo para evitar processamento desnecessário

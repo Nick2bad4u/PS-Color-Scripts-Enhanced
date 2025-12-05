@@ -15,7 +15,7 @@ Setzt die ColorScripts-Enhanced-Konfiguration auf Standardwerte zurück.
 
 ## SYNTAX
 
-```
+```text
 Reset-ColorScriptConfiguration [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -134,7 +134,7 @@ Dieses Cmdlet akzeptiert keine Eingabe aus der Pipeline.
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 Dieses Cmdlet gibt keine Ausgabe an die Pipeline zurück.
 
@@ -144,13 +144,13 @@ Dieses Cmdlet gibt keine Ausgabe an die Pipeline zurück.
 **Modul:** ColorScripts-Enhanced
 **Erfordert:** PowerShell 5.1 oder höher
 
-**Zurücksetzungsbereich:**
+## Zurücksetzungsbereich
 Setzt alle benutzerkonfigurierbaren Einstellungen auf Modulstandards zurück. Dies umfasst Cache-Pfade, Leistungseinstellungen und Anzeigepräferenzen.
 
-**Datensicherheit:**
+## Datensicherheit
 Die Konfigurationszurücksetzung wirkt sich nicht auf zwischengespeicherte Skriptausgaben oder benutzererstellte Farbskripte aus. Nur Konfigurationseinstellungen sind betroffen.
 
-**Wiederherstellung:**
+## Wiederherstellung
 Nach der Zurücksetzung verwenden Sie Set-ColorScriptConfiguration, um benutzerdefinierte Einstellungen bei Bedarf erneut anzuwenden.
 
 ## RELATED LINKS

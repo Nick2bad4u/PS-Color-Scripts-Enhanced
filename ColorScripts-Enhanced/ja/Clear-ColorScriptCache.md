@@ -324,7 +324,7 @@ AcceptedValues: []
 HelpMessage: ""
 ```
 
-### -Confirm
+### -Confirm (2)
 
 コマンドレットを実行する前に確認を求めます。
 
@@ -345,7 +345,7 @@ AcceptedValues: []
 HelpMessage: ""
 ```
 
-### -Name
+### -Name (2)
 
 キャッシュからクリアするカラースクリプトの名前を指定します。パターンマッチングのためにワイルドカード（\*と?）をサポートします。
 
@@ -366,7 +366,7 @@ AcceptedValues: []
 HelpMessage: ""
 ```
 
-### -WhatIf
+### -WhatIf (2)
 
 コマンドレットを実行した場合に何が起こるかを表示します。コマンドレットは実行されません。
 
@@ -387,19 +387,19 @@ AcceptedValues: []
 HelpMessage: ""
 ```
 
-### CommonParameters
+### CommonParameters (2)
 
 このコマンドレットは、-Debug、-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutBuffer、-OutVariable、-PipelineVariable、-ProgressAction、-Verbose、-WarningAction、および -WarningVariable の共通パラメータをサポートします。詳細については、[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。
 
-## INPUTS
+## INPUTS (2)
 
 ### None
 
 このコマンドレットは、パイプラインからの入力を受信しません。
 
-## OUTPUTS
+## OUTPUTS (2)
 
-### None
+### None (2)
 
 このコマンドレットは、パイプラインに出力を返しません。
 
@@ -409,17 +409,17 @@ HelpMessage: ""
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Cache Location:**
+## Cache Location
 キャッシュファイルは、モジュール管理のディレクトリに保存されます。モジュールディレクトリを見つけるには `(Get-Module ColorScripts-Enhanced).ModuleBase` を使用し、cacheサブディレクトリを探してください。
 
-**When to Clear Cache:**
+## When to Clear Cache
 
 - ソースカラースクリプトファイルを変更した後
 - 表示の問題をトラブルシューティングする場合
 - スクリプトの新しい実行を確実にする場合
 - パフォーマンスベンチマークの前
 
-**Performance Impact:**
+## Performance Impact
 キャッシュをクリアすると、次回の表示時にスクリプトが通常実行され、キャッシュされた実行よりも時間がかかる可能性があります。キャッシュは後続の表示で自動的に再構築されます。
 
 ## RELATED LINKS

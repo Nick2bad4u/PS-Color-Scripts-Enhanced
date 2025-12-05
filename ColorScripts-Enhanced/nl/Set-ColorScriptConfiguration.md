@@ -15,7 +15,7 @@ Wijzigt de configuratie-instellingen van ColorScripts-Enhanced.
 
 ## SYNTAX
 
-```
+```text
 Set-ColorScriptConfiguration [-CachePath <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -161,7 +161,7 @@ Deze cmdlet accepteert geen invoer van de pipeline.
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 Deze cmdlet retourneert geen uitvoer naar de pipeline.
 
@@ -171,13 +171,13 @@ Deze cmdlet retourneert geen uitvoer naar de pipeline.
 **Module:** ColorScripts-Enhanced
 **Vereist:** PowerShell 5.1 of later
 
-**Configuratie Persistentie:**
+## Configuratie Persistentie
 Instellingen worden automatisch opgeslagen in gebruikersspecifieke configuratiebestanden en blijven bestaan over PowerShell sessies heen.
 
-**Pad Resolutie:**
+## Pad Resolutie
 Cache paden ondersteunen omgevingsvariabelen, relatieve paden, en standaard PowerShell pad notatie.
 
-**Validatie:**
+## Validatie
 Configuratiewijzigingen worden gevalideerd voordat toepassing om ongeldige instellingen te voorkomen.
 
 ## RELATED LINKS

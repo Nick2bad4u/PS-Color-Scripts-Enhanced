@@ -15,7 +15,7 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNTAX
 
-```
+```text
 New-ColorScript [-Name] <string> [[-Category] <string>] [[-Tags] <string[]>] [[-Description] <string>]
  [-Path <string>] [-Template <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
@@ -282,7 +282,7 @@ HelpMessage: ""
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 或更高版本
 
-**Templates:**
+## Templates
 
 - Basic：自定义脚本的最小结构
 - Animated：具有定时控制的模板
@@ -290,7 +290,7 @@ HelpMessage: ""
 - Geometric：几何图案的模板
 - Nature：自然灵感设计的模板
 
-**File Structure:**
+## File Structure
 创建的脚本遵循模块的标准组织，并自动与缓存和显示系统集成。
 
 ## RELATED LINKS

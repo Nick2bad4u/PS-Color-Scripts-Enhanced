@@ -15,7 +15,7 @@ Ruft die aktuellen Konfigurationseinstellungen des ColorScripts-Enhanced-Moduls 
 
 ## SYNTAX
 
-```
+```powershell
 Get-ColorScriptConfiguration [<CommonParameters>]
 ```
 
@@ -174,7 +174,7 @@ Gibt eine verschachtelte Hashtabelle zurück, die die folgende Struktur enthält
 
 ### Konfigurationsanalyse und Auditing
 
-**Vollständiges Konfigurationsaudit**
+## Vollständiges Konfigurationsaudit
 
 ```powershell
 # Umfassende Konfigurationsüberprüfung
@@ -189,7 +189,7 @@ $config = Get-ColorScriptConfiguration
 } | Format-List
 ```
 
-**Vergleich mit Standards**
+## Vergleich mit Standards
 
 ```powershell
 # Identifizieren von Anpassungen von Standards
@@ -206,7 +206,7 @@ if ($current -ne (Get-Content "./default-config.json")) {
 
 ### Umgebungsspezifische Konfiguration
 
-**Umgebungserkennung**
+## Umgebungserkennung
 
 ```powershell
 # Umgebung erkennen und entsprechende Konfiguration melden
@@ -225,7 +225,7 @@ Write-Host "Cache: $($config.Cache.Path)"
 Write-Host "Startup: $($config.Startup.ProfileAutoShow)"
 ```
 
-**Multi-Umgebungsverwaltung**
+## Multi-Umgebungsverwaltung
 
 ```powershell
 # Konfiguration über Umgebungen hinweg verfolgen
@@ -240,7 +240,7 @@ Write-Host "Startup: $($config.Startup.ProfileAutoShow)"
 
 ### Konfigurationsvalidierung
 
-**Gesundheitsprüfung**
+## Gesundheitsprüfung
 
 ```powershell
 # Konfigurationsintegrität validieren
@@ -255,7 +255,7 @@ $checks = @{
 $checks | ConvertTo-Json | Write-Host
 ```
 
-**Konfigurationskonsistenz**
+## Konfigurationskonsistenz
 
 ```powershell
 # Überprüfen, ob Konfigurationseinstellungen konsistent sind
@@ -274,7 +274,7 @@ if ($validSettings.Values -notcontains $false) {
 
 ### Konfigurationssicherung und Wiederherstellung
 
-**Aktuelle Konfiguration sichern**
+## Aktuelle Konfiguration sichern
 
 ```powershell
 # Konfigurationssicherung erstellen
@@ -288,7 +288,7 @@ $backup = @{
 $backup | ConvertTo-Json | Out-File "./config-backup-$(Get-Date -Format 'yyyyMMdd-HHmmss').json"
 ```
 
-**Konfigurationsmigration**
+## Konfigurationsmigration
 
 ```powershell
 # Konfiguration für Migration auf neues System exportieren
@@ -307,7 +307,7 @@ $exportConfig | ConvertTo-Json | Out-File "./export-config.json" -Encoding UTF8
 
 ### Konfigurationsberichterstellung
 
-**Konfigurationsbericht**
+## Konfigurationsbericht
 
 ```powershell
 # Umfassenden Konfigurationsbericht generieren
@@ -338,7 +338,7 @@ $report | Out-File "./config-report.md" -Encoding UTF8
 
 ### Überwachung und Drift-Erkennung
 
-**Konfigurationsdrift-Erkennung**
+## Konfigurationsdrift-Erkennung
 
 ```powershell
 # Überwachen auf unerwartete Konfigurationsänderungen
@@ -351,7 +351,7 @@ if ($current.Cache.Path -ne $lastKnown.Cache.Path) {
 }
 ```
 
-**Geplante Konfigurationsaudit**
+## Geplante Konfigurationsaudit
 
 ```powershell
 # Periodisches Audit-Log erstellen

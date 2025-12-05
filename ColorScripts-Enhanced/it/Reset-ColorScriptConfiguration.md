@@ -15,7 +15,7 @@ Ripristina la configurazione di ColorScripts-Enhanced ai valori predefiniti.
 
 ## SYNTAX
 
-```
+```text
 Reset-ColorScriptConfiguration [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -134,7 +134,7 @@ Questo cmdlet non accetta input dalla pipeline.
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 Questo cmdlet non restituisce output alla pipeline.
 
@@ -144,13 +144,13 @@ Questo cmdlet non restituisce output alla pipeline.
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 o versioni successive
 
-**Ambito del ripristino:**
+## Ambito del ripristino
 Ripristina tutte le impostazioni configurabili dall'utente ai valori predefiniti del modulo. Ciò include percorsi della cache, impostazioni di prestazioni e preferenze di visualizzazione.
 
-**Sicurezza dei dati:**
+## Sicurezza dei dati
 Il ripristino della configurazione non influisce sull'output degli script memorizzati nella cache o sui colorscript creati dall'utente. Solo le impostazioni di configurazione sono interessate.
 
-**Ripristino:**
+## Ripristino
 Dopo il ripristino, utilizzare Set-ColorScriptConfiguration per riapplicare le impostazioni personalizzate se necessario.
 
 ## RELATED LINKS

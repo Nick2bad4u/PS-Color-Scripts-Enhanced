@@ -4,32 +4,32 @@
 
 <!-- Download & Version Badges -->
 
-[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/ColorScripts-Enhanced?logo=powershell&label=PSGallery)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
-[![PowerShell Gallery Downloads](https://img.shields.io/powershellgallery/dt/ColorScripts-Enhanced?logo=powershell&label=Downloads)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
-[![NuGet Version](https://img.shields.io/nuget/v/ColorScripts-Enhanced?logo=nuget&label=NuGet)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
-[![NuGet Downloads](https://img.shields.io/nuget/dt/ColorScripts-Enhanced?logo=nuget&label=Downloads)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
-[![GitHub Release](https://img.shields.io/github/v/release/Nick2bad4u/ps-color-scripts-enhanced?logo=github&label=Release)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/releases/latest)
+[![PowerShell Gallery Version.](https://img.shields.io/powershellgallery/v/ColorScripts-Enhanced?logo=powershell&label=PSGallery)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
+[![PowerShell Gallery Downloads.](https://img.shields.io/powershellgallery/dt/ColorScripts-Enhanced?logo=powershell&label=Downloads)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
+[![NuGet Version.](https://img.shields.io/nuget/v/ColorScripts-Enhanced?logo=nuget&label=NuGet)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
+[![NuGet Downloads.](https://img.shields.io/nuget/dt/ColorScripts-Enhanced?logo=nuget&label=Downloads)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
+[![GitHub Release.](https://img.shields.io/github/v/release/Nick2bad4u/ps-color-scripts-enhanced?logo=github&label=Release)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/releases/latest)
 
 <!-- CI/CD & Quality Badges -->
 
-[![Tests](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml)
-[![codecov](https://codecov.io/gh/Nick2bad4u/PS-Color-Scripts-Enhanced/branch/main/graph/badge.svg?token=9qPuQCcXen)](https://codecov.io/gh/Nick2bad4u/PS-Color-Scripts-Enhanced)
-[![Publish](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/badge)](https://scorecard.dev/viewer/?uri=github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)
-[![Dependency Review](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Nick2bad4u/PS-Color-Scripts-Enhanced)
+[![Tests.](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml)
+[![codecov.](https://codecov.io/gh/Nick2bad4u/PS-Color-Scripts-Enhanced/branch/main/graph/badge.svg?token=9qPuQCcXen)](https://codecov.io/gh/Nick2bad4u/PS-Color-Scripts-Enhanced)
+[![Publish.](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/publish.yml)
+[![OpenSSF Scorecard.](https://api.scorecard.dev/projects/github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/badge)](https://scorecard.dev/viewer/?uri=github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)
+[![Dependency Review.](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/actions/workflows/dependency-review.yml)
+[![Ask DeepWiki.](https://deepwiki.com/badge.svg)](https://deepwiki.com/Nick2bad4u/PS-Color-Scripts-Enhanced)
 
 <!-- Platform & Compatibility -->
 
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue?logo=windows-terminal)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
-[![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B%20%7C%207.0%2B-blue.svg?logo=powershell)](https://github.com/PowerShell/PowerShell)
-[![Code Size](https://img.shields.io/github/languages/code-size/Nick2bad4u/ps-color-scripts-enhanced?logo=github)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
-[![Repo Stars](https://img.shields.io/github/stars/Nick2bad4u/ps-color-scripts-enhanced?style=social)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/stargazers)
+[![Platform.](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue?logo=windows-terminal)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+[![PowerShell.](https://img.shields.io/badge/PowerShell-5.1%2B%20%7C%207.0%2B-blue.svg?logo=powershell)](https://github.com/PowerShell/PowerShell)
+[![Code Size.](https://img.shields.io/github/languages/code-size/Nick2bad4u/ps-color-scripts-enhanced?logo=github)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+[![Repo Stars.](https://img.shields.io/github/stars/Nick2bad4u/ps-color-scripts-enhanced?style=social)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/stargazers)
 
 <!-- License & Contributing -->
 
-[![License: UnLicense](https://img.shields.io/badge/License-UnLicense-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![License: UnLicense.](https://img.shields.io/badge/License-UnLicense-yellow.svg)](LICENSE)
+[![PRs Welcome.](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 A high-performance PowerShell module for displaying beautiful ANSI colorscripts in your terminal with intelligent caching for 6-19x faster load times.
 
@@ -77,11 +77,11 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 
 ColorScripts-Enhanced Demo: <https://i.imgur.com/FCjqkxn.mp4>
 
-**Open in new tab since video is too large for github**
+## Open in new tab since video is too large for github
 
-![ColorScripts-Example-1](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-1.png) ![ColorScripts-Example-2](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-2.png) ![ColorScripts-Example-3](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-3.png)
+![ColorScripts-Example-1.](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-1.png) ![ColorScripts-Example-2.](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-2.png) ![ColorScripts-Example-3.](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-3.png)
 
-**+ <!-- COLOR_SCRIPT_COUNT_MINUS_IMAGES -->495<!-- /COLOR_SCRIPT_COUNT_MINUS_IMAGES --> more colorscripts available!**
+## + <!-- COLOR_SCRIPT_COUNT_MINUS_IMAGES -->495<!-- /COLOR_SCRIPT_COUNT_MINUS_IMAGES --> more colorscripts available
 
 ## Quick Start (Less Than a Minute)
 
@@ -374,7 +374,7 @@ The `-Parallel` switch enables a runspace pool, while `-Threads` (alias for `-Th
 
 Auto mode prefers PSD1 resources whenever they exist so you can override English strings without recompiling the module. Fine-tune the behaviour with `COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE`:
 
-- `auto` *(default)* – load PSD1 files when present, otherwise fall back to embedded messages.
+- `auto` _(default)_ – load PSD1 files when present, otherwise fall back to embedded messages.
 - `full` – always load from disk, even if embedded defaults would succeed.
 - `embedded` – skip PSD1 probes and rely on built-in English messages.
 
@@ -549,21 +549,21 @@ For development-specific tasks, see the [Developer Documentation](#developer-doc
 
 The module stores cached output in platform-specific directories:
 
-**Windows:**
+## Windows
 
-```
+```text
 C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\cache\
 ```
 
-**macOS:**
+## macOS
 
-```
+```text
 ~/Library/Application Support/ColorScripts-Enhanced/cache/
 ```
 
-**Linux:**
+## Linux
 
-```
+```text
 ~/.cache/ColorScripts-Enhanced/
 ```
 
@@ -703,7 +703,7 @@ Show-ColorScript -Name nerd-font-test
 
 ## Architecture
 
-```
+```powershell
 ColorScripts-Enhanced/
 ├── ColorScripts-Enhanced.psd1    # Module manifest
 ├── ColorScripts-Enhanced.psm1    # Main module file
@@ -721,7 +721,7 @@ ColorScripts-Enhanced/
     └── ... (<!-- COLOR_CACHE_TOTAL -->498+<!-- /COLOR_CACHE_TOTAL --> total)
 ```
 
-## Contributing
+## Contributing (2)
 
 Contributions welcome! When adding new colorscripts:
 
@@ -743,7 +743,7 @@ See [CHANGELOG.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/
 
 **2025.10.12** - Cross-platform support, enhanced caching, and <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts
 
-## Documentation
+## Documentation (2)
 
 - 📖 [Quick Start & Reference](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/QUICK_REFERENCE.md)
 - 🌈 [ANSI Color Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-COLOR-GUIDE.md)
@@ -797,7 +797,7 @@ For support options, response targets, and contact channels, review the [Support
 
 **Enjoy the colors and scripts!** 🌈✨
 
-**ANSI art sourced from:**
+## ANSI art sourced from
 
 - [DistroTube's shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts)
 

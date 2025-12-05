@@ -15,7 +15,7 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNTAX
 
-```
+```powershell
 Get-ColorScriptList [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>] [-AsObject]
  [<CommonParameters>]
 ```
@@ -222,7 +222,7 @@ HelpMessage: ""
 
 `-AsObject` が指定された場合、Name、Category、Tags、Description プロパティを持つカスタムオブジェクトを返します。
 
-### None
+### None (2)
 
 `-AsObject` が指定されていない場合、出力はコンソールホストに直接書き込まれます。
 
@@ -232,14 +232,14 @@ HelpMessage: ""
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 以降
 
-**Metadata Properties:**
+## Metadata Properties
 
 - Name: Show-ColorScript で使用されるスクリプト識別子
 - Category: 組織化のためのテーマ別グループ
 - Tags: フィルタリングのための記述キーワードの配列
 - Description: コンテンツの人間が読める説明
 
-**Usage Patterns:**
+## Usage Patterns
 
 - Discovery: 選択前に利用可能なスクリプトを探索
 - Filtering: カテゴリとタグを使用してオプションを絞り込む

@@ -17,13 +17,13 @@ Cancella i file di output dei colorscript memorizzati nella cache.
 
 ### Tutti
 
-```
+```text
 Clear-ColorScriptCache [-All] [-Path <String>] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Selezionati
 
-```
+```text
 Clear-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Path <String>] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 ## PARAMETERS
@@ -340,7 +340,7 @@ Con `-PassThru` il cmdlet restituisce per ogni file un oggetto che include stato
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```text
 
 ### -Name
 
@@ -361,7 +361,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```js
 
 ### -WhatIf
 
@@ -382,7 +382,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```
+```powershell
 
 ### CommonParameters
 

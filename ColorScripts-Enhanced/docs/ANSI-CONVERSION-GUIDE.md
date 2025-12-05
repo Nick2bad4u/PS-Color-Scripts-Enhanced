@@ -75,21 +75,21 @@ Some ANSI files don't use traditional newlines. The converter automatically dete
 
 Files that use cursor positioning commands instead of newlines:
 
-**Before (single-line with positioning):**
+## Before (single-line with positioning)
 
-```
+```text
 ESC[1;1HRed TextESC[2;1HGreen TextESC[3;1HBlue Text
 ```
 
-**After (multi-line with newlines):**
+## After (multi-line with newlines)
 
-```
+```text
 Red Text
 Green Text
 Blue Text
 ```
 
-**Supported cursor commands:**
+## Supported cursor commands
 
 - `ESC[row;colH` or `ESC[row;colf` - Move cursor to position
 - `ESC[nB` - Move cursor down n lines
@@ -99,15 +99,15 @@ Blue Text
 
 Files where all content is on one long line meant to wrap every 80 visible characters:
 
-**Before (single long line):**
+## Before (single long line)
 
-```
+```text
 ████████...████ ▄▄ ▄▄▄...▄▄ ██ ██ ▀ ▄...▄ ▀ ██...
 ```
 
-**After (split at 80 columns):**
+## After (split at 80 columns)
 
-```
+```text
 ████████...████
 ██ ▄▄ ▄▄▄...▄▄ ██
 ██ ▀ ▄...▄ ▀ ██
@@ -117,17 +117,17 @@ Files where all content is on one long line meant to wrap every 80 visible chara
 
 Files with multiple lines where **some** individual lines exceed 80 characters:
 
-**Before (mixed line lengths):**
+## Before (mixed line lengths)
 
-```
+```text
 Normal line (75 chars)
 Very long line exceeding 80 chars that needs wrapping... (160 chars)
 Another normal line (60 chars)
 ```
 
-**After (long lines split at 80):**
+## After (long lines split at 80)
 
-```
+```text
 Normal line (75 chars)
 Very long line exceeding 80 chars that needs wrapping... (first 80)
 (continuation of long line)
@@ -185,7 +185,7 @@ This happens when ANSI files using CP437 (DOS) encoding are incorrectly read as 
 .\Convert-AnsiToColorScript.ps1 -AnsiFile "yourfile.ans" -OutputFile "yourfile.ps1"
 ```
 
-**Why this happens:**
+## Why this happens
 
 - Traditional ANSI art uses **Code Page 437 (CP437)** encoding
 - CP437 includes special box-drawing characters in bytes 128-255
@@ -285,7 +285,7 @@ node scripts/Split-AnsiFile.js .\ColorScripts-Enhanced\Scripts\we-acidtrip.ps1 -
 node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --every=160
 ```
 
-**Options:**
+## Options
 
 - `--auto` - Adds breaks where large blank gaps exist
 - `--heights` / `--breaks` - Enforce manual cut points

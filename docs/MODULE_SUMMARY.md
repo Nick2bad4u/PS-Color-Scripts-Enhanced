@@ -8,7 +8,7 @@ Successfully created a complete, professional PowerShell module called **ColorSc
 
 ### Module Structure
 
-```
+```powershell
 ColorScripts-Enhanced/
 ├── ColorScripts-Enhanced.psd1     # Module manifest
 ├── ColorScripts-Enhanced.psm1     # Main module code
@@ -255,7 +255,7 @@ Add-ColorScriptProfile -SkipStartupScript
 
 ### Cache Location
 
-```
+```text
 C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\
 └── cache/
     ├── bars.cache
@@ -345,7 +345,7 @@ scs galaxy-spiral
 
 ### ColorScripts-Enhanced.psm1 (Module Code)
 
-- Main module logic (~2,650 lines)
+- Main module logic (\~2,650 lines)
 - Caching engine
 - Configuration management
 - Public cmdlets (10 functions)

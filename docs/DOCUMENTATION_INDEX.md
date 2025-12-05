@@ -5,7 +5,7 @@ Complete guide to all documentation files in this repository.
 ## Quick Links
 
 - **Getting Started**: [README.md](../README.md)
-- **Quick Reference**: [QUICK_REFERENCE.md](QUICK_REFERENCE.md)
+- **Quick Reference**: [QUICK\_REFERENCE.md](QUICK_REFERENCE.md)
 - **Contributing**: [CONTRIBUTING.md](../CONTRIBUTING.md)
 - **License**: [LICENSE](../LICENSE)
 
@@ -17,7 +17,7 @@ Complete guide to all documentation files in this repository.
 | --------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | [README.md](../README.md)                                             | Main project documentation with installation, usage, and examples |
 | [ColorScripts-Enhanced/README.md](../ColorScripts-Enhanced/README.md) | Module-specific documentation (identical to main README)          |
-| [QUICK_REFERENCE.md](QUICK_REFERENCE.md)                              | Command reference and common usage patterns                       |
+| [QUICK\_REFERENCE.md](QUICK_REFERENCE.md)                             | Command reference and common usage patterns                       |
 
 ### Command Help
 
@@ -36,7 +36,7 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | `Export-ColorScriptMetadata`     | [Export-ColorScriptMetadata.md](../ColorScripts-Enhanced/en-US/Export-ColorScriptMetadata.md)         |
 | `New-ColorScript`                | [New-ColorScript.md](../ColorScripts-Enhanced/en-US/New-ColorScript.md)                               |
 
-**Module Help**: [about_ColorScripts-Enhanced.help.txt](../ColorScripts-Enhanced/en-US/about_ColorScripts-Enhanced.help.txt)
+**Module Help**: [about\_ColorScripts-Enhanced.help.txt](../ColorScripts-Enhanced/en-US/about_ColorScripts-Enhanced.help.txt)
 
 ### Technical Guides
 
@@ -50,14 +50,14 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 
 ### Development Workflow
 
-| Document                               | Description                                        |
-| -------------------------------------- | -------------------------------------------------- |
-| [Development.md](Development.md)       | Local development setup, tooling, and workflows    |
-| [TESTING.md](TESTING.md)               | Testing procedures and test suite documentation    |
-| [LINTING.md](LINTING.md)               | Code quality standards and linting guide           |
-| [NPM_SCRIPTS.md](NPM_SCRIPTS.md)       | Reference for all npm scripts available            |
-| [MODULE_SUMMARY.md](MODULE_SUMMARY.md) | Complete module implementation overview            |
-| [CONTRIBUTING.md](../CONTRIBUTING.md)  | How to contribute code, scripts, and documentation |
+| Document                                | Description                                        |
+| --------------------------------------- | -------------------------------------------------- |
+| [Development.md](Development.md)        | Local development setup, tooling, and workflows    |
+| [TESTING.md](TESTING.md)                | Testing procedures and test suite documentation    |
+| [LINTING.md](LINTING.md)                | Code quality standards and linting guide           |
+| [NPM\_SCRIPTS.md](NPM_SCRIPTS.md)       | Reference for all npm scripts available            |
+| [MODULE\_SUMMARY.md](MODULE_SUMMARY.md) | Complete module implementation overview            |
+| [CONTRIBUTING.md](../CONTRIBUTING.md)   | How to contribute code, scripts, and documentation |
 
 ### Release & Publishing
 
@@ -78,11 +78,11 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 
 ## Repository Policies
 
-| Document                                    | Description                                 |
-| ------------------------------------------- | ------------------------------------------- |
-| [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md) | Community code of conduct                   |
-| [SECURITY.md](../SECURITY.md)               | Security policy and vulnerability reporting |
-| [LICENSE](../LICENSE)                       | MIT License terms                           |
+| Document                                      | Description                                 |
+| --------------------------------------------- | ------------------------------------------- |
+| [CODE\_OF\_CONDUCT.md](../CODE_OF_CONDUCT.md) | Community code of conduct                   |
+| [SECURITY.md](../SECURITY.md)                 | Security policy and vulnerability reporting |
+| [LICENSE](../LICENSE)                         | MIT License terms                           |
 
 ## Configuration Files
 
@@ -107,7 +107,7 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | ------------------------------------------ | ---------------------------------------- |
 | [MEGALINTER-SETUP.md](MEGALINTER-SETUP.md) | MegaLinter configuration and usage guide |
 
-## Need Help?
+## Need Help
 
 ### Using PowerShell Help System
 
@@ -137,7 +137,7 @@ Get-Help *ColorScript*
 
 ### Other Resources
 
-- **Quick answers**: [QUICK_REFERENCE.md](QUICK_REFERENCE.md)
+- **Quick answers**: [QUICK\_REFERENCE.md](QUICK_REFERENCE.md)
 - **Issues**: [GitHub Issues](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues)
 - **Support**: [SUPPORT.md](SUPPORT.md)
 

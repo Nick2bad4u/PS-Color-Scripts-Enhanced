@@ -15,7 +15,7 @@ Récupère les paramètres de configuration actuels du module ColorScripts-Enhan
 
 ## SYNTAX
 
-```
+```powershell
 Get-ColorScriptConfiguration [<CommonParameters>]
 ```
 
@@ -174,7 +174,7 @@ Retourne une hashtable imbriquée contenant la structure suivante :
 
 ### Analyse et audit de configuration
 
-**Audit complet de configuration**
+## Audit complet de configuration
 
 ```powershell
 # Revue complète de la configuration
@@ -189,7 +189,7 @@ $config = Get-ColorScriptConfiguration
 } | Format-List
 ```
 
-**Comparaison avec les valeurs par défaut**
+## Comparaison avec les valeurs par défaut
 
 ```powershell
 # Identifier les personnalisations par rapport aux valeurs par défaut
@@ -206,7 +206,7 @@ if ($current -ne (Get-Content "./default-config.json")) {
 
 ### Configuration spécifique à l'environnement
 
-**Détection d'environnement**
+## Détection d'environnement
 
 ```powershell
 # Détecter l'environnement et rapporter la configuration appropriée
@@ -225,7 +225,7 @@ Write-Host "Cache : $($config.Cache.Path)"
 Write-Host "Démarrage : $($config.Startup.ProfileAutoShow)"
 ```
 
-**Gestion multi-environnements**
+## Gestion multi-environnements
 
 ```powershell
 # Suivre la configuration dans plusieurs environnements
@@ -240,7 +240,7 @@ Write-Host "Démarrage : $($config.Startup.ProfileAutoShow)"
 
 ### Validation de configuration
 
-**Vérification de santé**
+## Vérification de santé
 
 ```powershell
 # Valider l'intégrité de la configuration
@@ -255,7 +255,7 @@ $checks = @{
 $checks | ConvertTo-Json | Write-Host
 ```
 
-**Cohérence de configuration**
+## Cohérence de configuration
 
 ```powershell
 # Vérifier que les paramètres de configuration sont cohérents
@@ -274,7 +274,7 @@ if ($validSettings.Values -notcontains $false) {
 
 ### Sauvegarde et récupération de configuration
 
-**Sauvegarder la configuration actuelle**
+## Sauvegarder la configuration actuelle
 
 ```powershell
 # Créer une sauvegarde de configuration
@@ -288,7 +288,7 @@ $backup = @{
 $backup | ConvertTo-Json | Out-File "./config-backup-$(Get-Date -Format 'yyyyMMdd-HHmmss').json"
 ```
 
-**Migration de configuration**
+## Migration de configuration
 
 ```powershell
 # Exporter la configuration pour migration vers un nouveau système
@@ -307,7 +307,7 @@ $exportConfig | ConvertTo-Json | Out-File "./export-config.json" -Encoding UTF8
 
 ### Rapport de configuration
 
-**Rapport de configuration**
+## Rapport de configuration (2)
 
 ```powershell
 # Générer un rapport complet de configuration
@@ -338,7 +338,7 @@ $report | Out-File "./config-report.md" -Encoding UTF8
 
 ### Surveillance et détection de dérive
 
-**Détection de dérive de configuration**
+## Détection de dérive de configuration
 
 ```powershell
 # Surveiller les changements inattendus de configuration
@@ -351,7 +351,7 @@ if ($current.Cache.Path -ne $lastKnown.Cache.Path) {
 }
 ```
 
-**Audit de configuration programmé**
+## Audit de configuration programmé
 
 ```powershell
 # Créer un journal d'audit périodique

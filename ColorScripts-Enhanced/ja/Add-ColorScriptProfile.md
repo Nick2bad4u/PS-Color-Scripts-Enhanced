@@ -15,7 +15,7 @@ PowerShell プロファイル ファイルに ColorScripts-Enhanced 統合を追
 
 ## SYNTAX
 
-```
+```text
 Add-ColorScriptProfile [[-Scope] <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -162,7 +162,7 @@ HelpMessage: ""
 
 ## OUTPUTS
 
-### None
+### None (2)
 
 このコマンドレットは、パイプラインに出力を返しません。
 
@@ -172,16 +172,16 @@ HelpMessage: ""
 **モジュール:** ColorScripts-Enhanced
 **要件:** PowerShell 5.1 以降
 
-**プロファイル統合:**
+## プロファイル統合
 このコマンドレットは、ColorScripts-Enhanced をインポートし、便利なアクセスを提供するスタートアップ スニペットを追加します。統合は軽量で非破壊的です。
 
-**スコープの考慮事項:**
+## スコープの考慮事項
 
 - CurrentUser スコープは、ユーザー プロファイル ディレクトリのファイルを変更します
 - AllUsers スコープは管理者権限を必要とし、すべてのユーザーに影響します
 - 変更は新しい PowerShell セッションで有効になります
 
-**安全機能:**
+## 安全機能
 
 - 重複を避けるために既存の統合を確認します
 - 標準の PowerShell プロファイル メカニズムを使用します

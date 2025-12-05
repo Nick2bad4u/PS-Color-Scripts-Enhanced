@@ -89,7 +89,7 @@ Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(a491
 ([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/a665ad64f8eae2582e08e8607c15407f8498677d...a665ad64f8eae2582e08e8607c15407f8498677d))
 
 
-### ≡ƒÆ╝ Other
+### ≡ƒÆ╝ Other (2)
 
 - Γ£¿ [feat] Update module version and localization support
  - Update module version to 2025.11.08.1041 in module manifest

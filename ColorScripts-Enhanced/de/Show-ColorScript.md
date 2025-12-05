@@ -17,28 +17,28 @@ Zeigt ein Farbskript mit automatischem Caching für verbesserte Leistung an.
 
 ### Random (Default)
 
-```
+```text
 Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### Named
 
-```
+```text
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### List
 
-```
+```text
 Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-ReturnText]
  [<CommonParameters>]
 ```
 
 ### All
 
-```
+```text
 Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
  [<CommonParameters>]
 ```
@@ -55,13 +55,13 @@ Rendert schöne ANSI-Farbskripte in Ihrem Terminal mit intelligenter Leistungsop
 
 **All Mode:** Durchläuft alle verfügbaren Farbskripte in alphabetischer Reihenfolge. Besonders nützlich, um die gesamte Sammlung zu präsentieren oder neue Skripte zu entdecken.
 
-**Performance Features:**
+## Performance Features
 Das Caching-System bietet 6-19x Leistungsverbesserungen. Bei der ersten Ausführung läuft ein Farbskript normal und seine Ausgabe wird zwischengespeichert. Nachfolgende Anzeigen verwenden die zwischengespeicherte Ausgabe für nahezu sofortiges Rendering. Der Cache wird automatisch ungültig, wenn Quellskripte geändert werden, um Ausgabegenauigkeit zu gewährleisten.
 
-**Filtering Capabilities:**
+## Filtering Capabilities
 Filtern Sie Skripte nach Kategorie oder Tags vor der Auswahl. Dies gilt für alle Modi und ermöglicht die Arbeit mit Teilmengen der Sammlung (z. B. nur naturthematische Skripte oder Skripte, die als "retro" getaggt sind).
 
-**Output Options:**
+## Output Options
 Standardmäßig werden Farbskripte direkt in die Konsole geschrieben für sofortige visuelle Anzeige. Verwenden Sie `-ReturnText`, um die gerenderte Ausgabe an die Pipeline zu senden, um sie zu erfassen, umzuleiten oder weiterzuverarbeiten. Verwenden Sie `-PassThru`, um das Metadatenobjekt des Skripts für programmatische Verwendung zu erhalten.
 
 ## NERD FONT GLYPHS
@@ -353,7 +353,7 @@ Sie können Farbskriptnamen an Show-ColorScript weiterleiten. Dies ermöglicht p
 
 Wenn `-PassThru` angegeben ist, wird das Metadatenobjekt des ausgewählten Farbskripts zurückgegeben, das Eigenschaften wie Name, Pfad, Kategorie, Tags und Beschreibung enthält.
 
-### System.String
+### System.String (2)
 
 Wenn `-ReturnText` angegeben ist, wird das gerenderte Farbskript als Zeichenfolge an die Pipeline ausgegeben. Diese Zeichenfolge enthält alle ANSI-Escape-Sequenzen für korrekte Farbdarstellung bei Anzeige in einem kompatiblen Terminal.
 
@@ -367,17 +367,17 @@ Bei Standardbetrieb (ohne `-PassThru` oder `-ReturnText`) wird die Ausgabe direk
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance
 Das intelligente Caching-System bietet 6-19x Leistungsverbesserungen gegenüber direkter Ausführung. Cache-Dateien werden in einem modulverwalteten Verzeichnis gespeichert und werden automatisch ungültig, wenn Quellskripte geändert werden, um Genauigkeit zu gewährleisten.
 
-**Cache Management:**
+## Cache Management
 
 - Cache-Speicherort: Verwenden Sie `(Get-Module ColorScripts-Enhanced).ModuleBase` und suchen Sie nach dem Cache-Verzeichnis
 - Cache löschen: Verwenden Sie `Clear-ColorScriptCache`, um von Grund auf neu zu erstellen
 - Cache neu erstellen: Verwenden Sie `New-ColorScriptCache`, um den Cache für alle Skripte vorab zu füllen
 - Cache überprüfen: Cache-Dateien sind Klartext und können direkt angezeigt werden
 
-**Tips:**
+## Tips
 
 - Fügen Sie `Show-ColorScript -Random` zu Ihrem PowerShell-Profil hinzu, um bei jedem Sitzungsstart einen farbenfrohen Gruß zu erhalten
 - Verwenden Sie den Modulalias 'scs' für schnellen Zugriff: `scs -Random`
@@ -385,7 +385,7 @@ Das intelligente Caching-System bietet 6-19x Leistungsverbesserungen gegenüber 
 - Verwenden Sie `-List`, um neue Skripte zu entdecken und mehr über ihre Themen zu erfahren
 - Die Kombination `-All -WaitForInput` ist perfekt, um die Sammlung anderen zu präsentieren
 
-**Compatibility:**
+## Compatibility
 Farbskripte verwenden ANSI-Escape-Sequenzen und werden am besten in Terminals mit voller Farbuntersützung angezeigt, wie Windows Terminal, ConEmu oder moderne Unix-Terminals.
 
 ## ADVANCED USAGE
@@ -490,23 +490,23 @@ Export-ColorScriptMetadata -IncludeFileInfo |
     Out-File "./animated-scripts.json"
 ```
 
-## NOTES
+## NOTES (2)
 
 **Author:** Nick
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance (2)
 Das intelligente Caching-System bietet 6-19x Leistungsverbesserungen gegenüber direkter Ausführung. Cache-Dateien werden in einem modulverwalteten Verzeichnis gespeichert und werden automatisch ungültig, wenn Quellskripte geändert werden, um Genauigkeit zu gewährleisten.
 
-**Cache Management:**
+## Cache Management (2)
 
 - Cache-Speicherort: Verwenden Sie `(Get-Module ColorScripts-Enhanced).ModuleBase` und suchen Sie nach dem Cache-Verzeichnis
 - Cache löschen: Verwenden Sie `Clear-ColorScriptCache`, um von Grund auf neu zu erstellen
 - Cache neu erstellen: Verwenden Sie `New-ColorScriptCache`, um den Cache für alle Skripte vorab zu füllen
 - Cache überprüfen: Cache-Dateien sind Klartext und können direkt angezeigt werden
 
-**Advanced Tips:**
+## Advanced Tips
 
 - Verwenden Sie `-PassThru`, um Metadaten während der Anzeige für Nachbearbeitung zu erhalten
 - Kombinieren Sie `-ReturnText` mit Pipeline-Befehlen für erweiterte Textmanipulation
@@ -519,7 +519,7 @@ Das intelligente Caching-System bietet 6-19x Leistungsverbesserungen gegenüber 
 - Verwenden Sie Umgebungsvariablen, um das Verhalten pro Umgebung anzuzupassen
 - Implementieren Sie Fehlerbehandlung für automatisierte Anzeigeszenarien
 
-**Terminal Compatibility Matrix:**
+## Terminal Compatibility Matrix
 
 | Terminal           | ANSI Support | UTF-8     | Performance | Notes                      |
 | ------------------ | ------------ | --------- | ----------- | -------------------------- |
@@ -557,7 +557,7 @@ Der erste Lauf jedes Skripts wird langsamer sein, da es den Cache aufbaut. Alle 
 New-ColorScriptCache
 ```
 
-### PERFORMANCE
+### PERFORMANCE (3)
 
 Typische Leistungsverbesserungen mit Caching:
 
@@ -921,28 +921,28 @@ Add-ColorScriptProfile -Force
 
 ### FAQ
 
-**Q: Wie viele Farbskripte sind verfügbar?**
+## Q: Wie viele Farbskripte sind verfügbar
 A: 450++ eingebaute Skripte über mehrere Kategorien und Tags
 
-**Q: Wie viel Festplattenspeicher verwendet das Caching?**
+## Q: Wie viel Festplattenspeicher verwendet das Caching
 A: Ungefähr 2-5MB insgesamt für alle Skripte, etwa 2-50KB pro Skript
 
-**Q: Kann ich Farbskripte in Skripten/Automatisierung verwenden?**
+## Q: Kann ich Farbskripte in Skripten/Automatisierung verwenden
 A: Ja, verwenden Sie `-ReturnText`, um Ausgabe zu erfassen oder `-PassThru` für Metadaten
 
-**Q: Wie erstelle ich benutzerdefinierte Farbskripte?**
+## Q: Wie erstelle ich benutzerdefinierte Farbskripte
 A: Verwenden Sie `New-ColorScript`, um eine Vorlage zu scaffolden, dann fügen Sie Ihre ANSI-Kunst hinzu
 
-**Q: Was, wenn ich beim Start keine Farben möchte?**
+## Q: Was, wenn ich beim Start keine Farben möchte
 A: Verwenden Sie `Add-ColorScriptProfile -SkipStartupScript`, um zu importieren ohne automatische Anzeige
 
-**Q: Kann ich das auf macOS/Linux verwenden?**
+## Q: Kann ich das auf macOS/Linux verwenden
 A: Ja, mit PowerShell 7+ das plattformübergreifend läuft
 
-**Q: Wie teile ich Farbskripte mit Kollegen?**
+## Q: Wie teile ich Farbskripte mit Kollegen
 A: Exportieren Sie Metadaten mit `Export-ColorScriptMetadata` oder teilen Sie Skriptdateien
 
-**Q: Ist Caching immer aktiviert?**
+## Q: Ist Caching immer aktiviert
 A: Nein, verwenden Sie `-NoCache`, um Caching für Entwicklung/Tests zu deaktivieren
 
 ### BEST PRACTICES

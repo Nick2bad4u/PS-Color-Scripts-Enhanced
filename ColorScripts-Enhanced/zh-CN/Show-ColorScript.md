@@ -17,28 +17,28 @@ PlatyPS schema version: 2024-05-01
 
 ### Random (Default)
 
-```
+```text
 Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### Named
 
-```
+```text
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
 ### List
 
-```
+```text
 Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>] [-ReturnText]
  [<CommonParameters>]
 ```
 
 ### All
 
-```
+```text
 Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
  [<CommonParameters>]
 ```
@@ -55,13 +55,13 @@ Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag 
 
 **全部模式：** 按字母顺序循环显示所有可用颜色脚本。特别适用于展示整个集合或发现新脚本。
 
-**性能特性：**
+## 性能特性：
 缓存系统提供 6-19 倍的性能改进。首次执行时，颜色脚本正常运行，其输出被缓存。随后显示使用缓存输出，实现近乎瞬时的渲染。当源脚本被修改时，缓存会自动失效，确保输出准确性。
 
-**过滤功能：**
+## 过滤功能：
 在选择发生之前按类别或标签过滤脚本。这适用于所有模式，允许您处理集合的子集（例如，仅限自然主题的脚本或标记为"retro"的脚本）。
 
-**输出选项：**
+## 输出选项：
 默认情况下，颜色脚本直接写入控制台以实现即时视觉显示。使用 `-ReturnText` 将渲染输出作为字符串发送到管道以进行捕获、重定向或进一步处理。使用 `-PassThru` 接收脚本的元数据对象以进行编程使用。
 
 ## EXAMPLES
@@ -497,7 +497,7 @@ You can pipe colorscript names to Show-ColorScript. This enables pipeline-based 
 
 When `-PassThru` is specified, returns the selected colorscript's metadata object containing properties like Name, Path, Category, Tags, and Description.
 
-### System.String
+### System.String (2)
 
 When `-ReturnText` is specified, emits the rendered colorscript as a string to the pipeline. This string contains all ANSI escape sequences for proper color rendering when displayed in a compatible terminal.
 
@@ -511,17 +511,17 @@ In default operation (without `-PassThru` or `-ReturnText`), output is written d
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
-**Cache Management:**
+## Cache Management
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
-**Tips:**
+## Tips
 
 - Add `Show-ColorScript -Random` to your PowerShell profile for a colorful greeting on each session start
 - Use the module alias `scs` for quick access: `scs -Random`
@@ -529,14 +529,14 @@ The intelligent caching system provides 6-19x performance improvements over dire
 - Use `-List` to discover new scripts and learn about their themes
 - The `-All -WaitForInput` combination is perfect for presenting the collection to others
 
-**Compatibility:**
+## Compatibility
 Colorscripts use ANSI escape sequences and display best in terminals with full color support, such as Windows Terminal, ConEmu, or modern Unix terminals.
 
 ## ADVANCED USAGE
 
 ### Filtering Strategies
 
-**By Category and Tag Combination**
+## By Category and Tag Combination
 
 ```powershell
 # Show only geometric colorscripts tagged as minimal
@@ -549,7 +549,7 @@ Show-ColorScript -Category Nature -Tag Recommended -Random
 Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
 ```
 
-**Dynamic Filtering Based on Time**
+## Dynamic Filtering Based on Time
 
 ```powershell
 # Morning: bright colors
@@ -564,7 +564,7 @@ else {
 
 ### Output Capture Patterns
 
-**Save for Later Viewing**
+## Save for Later Viewing
 
 ```powershell
 # Save to variable
@@ -575,7 +575,7 @@ $art | Out-File "./my-art.ansi" -Encoding UTF8
 Get-Content "./my-art.ansi" -Raw | Write-Host
 ```
 
-**Create Themed Collections**
+## Create Themed Collections
 
 ```powershell
 # Collect all geometric scripts
@@ -590,7 +590,7 @@ $geometric | ForEach-Object {
 
 ### Performance Analysis
 
-**Comprehensive Benchmark**
+## Comprehensive Benchmark
 
 ```powershell
 # Function to benchmark colorscript performance
@@ -622,7 +622,7 @@ Get-ColorScriptList -Category Geometric -AsObject |
 
 ### Terminal Customization
 
-**Terminal-Specific Display**
+## Terminal-Specific Display
 
 ```powershell
 # Windows Terminal with ANSI support
@@ -648,7 +648,7 @@ if ($env:ConEmuANSI -eq "ON") {
 
 ### Automation Integration
 
-**Scheduled Colorscript Rotation**
+## Scheduled Colorscript Rotation
 
 ```powershell
 # Create scheduled task wrapper
@@ -671,7 +671,7 @@ function Start-ColorScriptSession {
 
 ### Error Handling and Resilience
 
-**Graceful Fallback**
+## Graceful Fallback
 
 ```powershell
 # Try specific script, fallback to random
@@ -683,7 +683,7 @@ try {
 }
 ```
 
-**Validation Before Display**
+## Validation Before Display
 
 ```powershell
 # Verify script exists before displaying
@@ -700,7 +700,7 @@ if ($scriptName -in $scripts.Name) {
 
 ### Metadata Inspection
 
-**Inspect Before Displaying**
+## Inspect Before Displaying
 
 ```powershell
 # Get metadata while displaying
@@ -715,23 +715,23 @@ if ($metadata.Tags -contains "Animated") {
 }
 ```
 
-## NOTES
+## NOTES (2)
 
 **Author:** Nick
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance (2)
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
-**Cache Management:**
+## Cache Management (2)
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
-**Advanced Tips:**
+## Advanced Tips
 
 - Use `-PassThru` to get metadata while displaying for post-processing
 - Combine `-ReturnText` with pipeline commands for advanced text manipulation
@@ -744,7 +744,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 - Use environment variables to customize behavior per environment
 - Implement error handling for automated display scenarios
 
-**Terminal Compatibility Matrix:**
+## Terminal Compatibility Matrix
 
 | Terminal           | ANSI Support | UTF-8     | Performance | Notes                      |
 | ------------------ | ------------ | --------- | ----------- | -------------------------- |

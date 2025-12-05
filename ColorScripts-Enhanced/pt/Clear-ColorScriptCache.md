@@ -325,7 +325,7 @@ AcceptedValues: []
 HelpMessage: ''
 ```
 
-### -Confirm
+### -Confirm (2)
 
 Solicita confirmação antes de executar o cmdlet.
 
@@ -347,7 +347,7 @@ AcceptedValues: []
 HelpMessage: ''
 ```
 
-### -Name
+### -Name (2)
 
 Especifica os nomes dos colorscripts para limpar do cache. Suporta curingas (\* e ?) para correspondência de padrões.
 
@@ -369,7 +369,7 @@ AcceptedValues: []
 HelpMessage: ''
 ```
 
-### -WhatIf
+### -WhatIf (2)
 
 Mostra o que aconteceria se o cmdlet fosse executado. O cmdlet não é executado.
 
@@ -391,22 +391,22 @@ AcceptedValues: []
 HelpMessage: ''
 ```
 
-### CommonParameters
+### CommonParameters (2)
 
 Este cmdlet suporta os parâmetros comuns: -Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
 -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. Para mais informações, consulte
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
-## INPUTS
+## INPUTS (2)
 
 ### None
 
 Este cmdlet não aceita entrada do pipeline.
 
-## OUTPUTS
+## OUTPUTS (2)
 
-### None
+### None (2)
 
 Este cmdlet não retorna saída para o pipeline.
 
@@ -416,17 +416,17 @@ Este cmdlet não retorna saída para o pipeline.
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 ou posterior
 
-**Localização do Cache:**
+## Localização do Cache
 Os arquivos de cache são armazenados em um diretório gerenciado pelo módulo. Use `(Get-Module ColorScripts-Enhanced).ModuleBase` para localizar o diretório do módulo, então procure o subdiretório de cache.
 
-**Quando Limpar o Cache:**
+## Quando Limpar o Cache
 
 - Após modificar arquivos de script de origem colorscript
 - Ao solucionar problemas de exibição
 - Para garantir execução fresca dos scripts
 - Antes de benchmarking de desempenho
 
-**Impacto no Desempenho:**
+## Impacto no Desempenho
 Limpar o cache fará com que os scripts sejam executados normalmente na próxima exibição, o que pode levar mais tempo do que a execução em cache. O cache será reconstruído automaticamente em exibições subsequentes.
 
 ## RELATED LINKS
