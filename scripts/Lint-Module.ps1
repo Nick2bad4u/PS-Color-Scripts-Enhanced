@@ -17,8 +17,9 @@ param(
     [switch]$Fix
 )
 
+$repoRoot = Split-Path -Parent $PSScriptRoot
+
 if (-not $PSBoundParameters.ContainsKey('Path')) {
-    $repoRoot = Split-Path -Parent $PSScriptRoot
     $moduleRoot = Join-Path $repoRoot 'ColorScripts-Enhanced'
     $Path = @(
         Join-Path $moduleRoot 'ColorScripts-Enhanced.psm1'
@@ -65,6 +66,20 @@ if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
 }
 
 Import-Module PSScriptAnalyzer -ErrorAction Stop
+
+# Ensure Pester is available when linting tests so ScriptAnalyzer can
+# resolve Describe/Context/It/Should/etc. without throwing
+# CommandNotFoundException during analysis. This prevents the
+# "ScriptAnalyzer hit a CommandNotFoundException" warnings that were
+# plaguing test linting.
+if ($IncludeTests) {
+    if (-not (Get-Module -ListAvailable -Name Pester)) {
+        Write-Error "Pester module not installed. Run 'Install-Module Pester -Scope CurrentUser'."
+        exit 1
+    }
+
+    Import-Module Pester -ErrorAction Stop
+}
 
 $invokeScriptAnalyzerCommand = Get-Command Invoke-ScriptAnalyzer -ErrorAction Stop
 if ($Fix -and -not $invokeScriptAnalyzerCommand.Parameters.ContainsKey('Fix')) {
