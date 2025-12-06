@@ -95,7 +95,11 @@ function New-ColorScriptCache {
         [Parameter(ParameterSetName = 'Selection')]
         [Parameter(ParameterSetName = 'All')]
         [Alias('NoColor')]
-        [switch]$NoAnsiOutput
+        [switch]$NoAnsiOutput,
+
+        [Parameter(ParameterSetName = 'Selection')]
+        [Parameter(ParameterSetName = 'All')]
+        [switch]$IncludePokemon
     )
 
     begin {
@@ -108,6 +112,8 @@ function New-ColorScriptCache {
         $quietRequested = $Quiet.IsPresent
         $noAnsiRequested = $NoAnsiOutput.IsPresent
         $preferConsoleOutput = -not $noAnsiRequested
+        $pokemonNameSet = $null
+        $filterPokemon = -not $IncludePokemon
 
         if ($h) {
             Show-ColorScriptHelp -CommandName 'New-ColorScriptCache'
@@ -150,6 +156,23 @@ function New-ColorScriptCache {
         if ($PSBoundParameters.ContainsKey('Name') -and $Name) {
             foreach ($value in $Name) {
                 & $addName $value
+            }
+        }
+
+        if ($filterPokemon) {
+            try {
+                $pokemonRecords = @(Get-ColorScriptList -Category @('Pokemon', 'ShinyPokemon') -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue)
+                if ($pokemonRecords -and $pokemonRecords.Count -gt 0) {
+                    $pokemonNameSet = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
+                    foreach ($record in $pokemonRecords) {
+                        if ($record -and $record.Name) {
+                            [void]$pokemonNameSet.Add([string]$record.Name)
+                        }
+                    }
+                }
+            }
+            catch {
+                Write-Verbose ("Failed to build Pokemon exclusion list: {0}" -f $_.Exception.Message)
             }
         }
     }
@@ -244,6 +267,14 @@ function New-ColorScriptCache {
         }
 
         $candidateRecords = @($candidateRecords | Where-Object { $_ })
+
+        if ($filterPokemon -and $pokemonNameSet -and $pokemonNameSet.Count -gt 0) {
+            $candidateRecords = $candidateRecords | Where-Object {
+                $name = $_.Name
+                if (-not $name) { return $true }
+                -not $pokemonNameSet.Contains([string]$name)
+            }
+        }
 
         if (-not $candidateRecords -or $candidateRecords.Count -eq 0) {
             Write-Warning $script:Messages.NoScriptsSelectedForCacheBuild

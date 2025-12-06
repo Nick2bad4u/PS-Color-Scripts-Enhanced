@@ -18,13 +18,13 @@ Erstellt Cache für die Leistungsoptimierung von ColorScripts vorab.
 ### Alle
 
 ```text
-New-ColorScriptCache [-All] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit <Int32>] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-All] [-IncludePokemon] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit <Int32>] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Benannt
 
 ```text
-New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit <Int32>] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-IncludePokemon] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit <Int32>] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -306,6 +306,33 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases:
  - NoColor
+ParameterSets:
+ - Name: Selection
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+ - Name: All
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```text
+
+### -IncludePokemon
+
+Bezieht alle Pokémon-Skripte (Standard und Shiny) in den Cacheaufbau ein. Standardmäßig werden Pokémon-Skripte ausgeschlossen; verwenden Sie `-IncludePokemon`, um sie einzubeziehen. Hinweis: Dieser Schalter ersetzt das ältere `-ExcludePokemon` — die Bedeutung wurde durch Refactoring umgekehrt (jetzt opt-in).
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
 ParameterSets:
  - Name: Selection
    Position: Named

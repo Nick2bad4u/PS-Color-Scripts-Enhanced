@@ -20,7 +20,7 @@ Hängt den Import des ColorScripts-Enhanced-Moduls (und optional Show-ColorScrip
 ### \_\_AllParameterSets
 
 ```text
-Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-Force]
+Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon] [-Force]
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -148,6 +148,16 @@ Add-ColorScriptProfile -SkipStartupScript
 # Show-ColorScript
 ```
 
+### EXAMPLE 11
+
+Pokémon beim Start automatisch ausschließen:
+
+```powershell
+Add-ColorScriptProfile -IncludePokemon
+```
+
+Dadurch wird `Show-ColorScript -IncludePokemon` (in einem try/catch) zum Profil hinzugefügt, sodass beim Start Pokémon-Skripte angezeigt werden können.
+
 ## PARAMETERS
 
 ### -Confirm
@@ -264,6 +274,28 @@ HelpMessage: ""
 ```yaml
 Type: System.Management.Automation.SwitchParameter
 DefaultValue: ""
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+
+```
+
+### -IncludePokemon
+
+Fügt dem generierten `Show-ColorScript`-Aufruf den Schalter `-IncludePokemon` hinzu, damit beim Start Pokémon-Colorscripts angezeigt werden können. Wird ignoriert, wenn `-SkipStartupScript` verwendet wird.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:

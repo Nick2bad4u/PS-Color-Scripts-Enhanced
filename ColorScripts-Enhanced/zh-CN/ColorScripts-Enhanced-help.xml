@@ -59,7 +59,7 @@
     <command:returnValues>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>None (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>此 cmdlet 不向管道返回输出。</maml:para>
@@ -72,16 +72,16 @@
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 或更高版本
 
-**配置文件集成：**
+## 配置文件集成：
 此 cmdlet 添加一个启动代码片段，用于导入 ColorScripts-Enhanced 并提供便捷访问。此集成设计为轻量级且非破坏性的。
 
-**范围注意事项：**
+## 范围注意事项：
 
 - CurrentUser 范围修改您用户配置文件目录中的文件
 - AllUsers 范围需要管理员权限并影响所有用户
 - 更改在新的 PowerShell 会话中生效
 
-**安全功能：**
+## 安全功能：
 
 - 检查现有集成以避免重复
 - 使用标准 PowerShell 配置文件机制
@@ -265,7 +265,7 @@ Add-ColorScriptProfile -Confirm
     <command:returnValues>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>None (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>此 cmdlet 不向管道返回输出。</maml:para>
@@ -278,13 +278,13 @@ Add-ColorScriptProfile -Confirm
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 或更高版本
 
-**Output Formats:**
+## Output Formats
 
 - JSON：用于编程访问的结构化数据
 - CSV：电子表格兼容格式
 - XML：层次数据结构
 
-**Use Cases:**
+## Use Cases
 
 - 文档生成
 - 清单管理
@@ -428,14 +428,14 @@ Export-ColorScriptMetadata -Path "backup-$timestamp.json"
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Configuration Properties:**
+## Configuration Properties
 
 - CachePath：存储缓存脚本输出的位置
 - 用于优化的性能设置
 - 默认行为的显示偏好
 - 模块特定的配置选项
 
-**Configuration Location:**
+## Configuration Location
 设置存储在用户特定的配置文件中。使用标准的 PowerShell 配置机制来实现持久性。</maml:para>
       </maml:alert>
     </maml:alertSet>
@@ -615,7 +615,7 @@ if (Get-ColorScriptConfiguration) {
       </command:returnValue>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>None (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>未指定 `-AsObject` 时，输出直接写入控制台主机。</maml:para>
@@ -628,14 +628,14 @@ if (Get-ColorScriptConfiguration) {
 **模块：** ColorScripts-Enhanced
 **需要：** PowerShell 5.1 或更高版本
 
-**元数据属性：**
+## 元数据属性：
 
 - 名称：Show-ColorScript 使用的脚本标识符
 - 类别：用于组织的主题分组
 - 标签：用于过滤的描述性关键字数组
 - 描述：内容的易读说明
 
-**使用模式：**
+## 使用模式：
 
 - 发现：在选择之前探索可用脚本
 - 过滤：使用类别和标签缩小选项范围
@@ -927,7 +927,7 @@ Get-ColorScriptList -AsObject | Where-Object {
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 或更高版本
 
-**Templates:**
+## Templates
 
 - Basic：自定义脚本的最小结构
 - Animated：具有定时控制的模板
@@ -935,7 +935,7 @@ Get-ColorScriptList -AsObject | Where-Object {
 - Geometric：几何图案的模板
 - Nature：自然灵感设计的模板
 
-**File Structure:**
+## File Structure
 创建的脚本遵循模块的标准组织，并自动与缓存和显示系统集成。</maml:para>
       </maml:alert>
     </maml:alertSet>
@@ -1046,6 +1046,9 @@ foreach ($theme in $themes) {
       <maml:para>### -NoAnsiOutput</maml:para>
       <maml:para>禁用摘要中的 ANSI 颜色，输出纯文本。</maml:para>
       <maml:para>```yaml Type: System.Management.Automation.SwitchParameter DefaultValue: False SupportsWildcards: false Aliases:  - NoColor ParameterSets:  - Name: (All)    Position: Named    IsRequired: false    ValueFromPipeline: false    ValueFromPipelineByPropertyName: false    ValueFromRemainingArguments: false DontShow: false AcceptedValues: [] HelpMessage: "" ``` 使用此 cmdlet 来：</maml:para>
+      <maml:para>### -IncludePokemon</maml:para>
+      <maml:para>在构建缓存时包含所有宝可梦脚本（普通与闪光版本）。默认情况下，宝可梦脚本将被跳过；使用 `-IncludePokemon` 将它们包含到缓存构建中。注意：此参数替换了旧的 `-ExcludePokemon`，在重构期间逻辑被反转（现在为 opt-in）。</maml:para>
+      <maml:para>```yaml Type: System.Management.Automation.SwitchParameter DefaultValue: False SupportsWildcards: false Aliases: [] ParameterSets:  - Name: (All)    Position: Named    IsRequired: false    ValueFromPipeline: false    ValueFromPipelineByPropertyName: false    ValueFromRemainingArguments: false DontShow: false AcceptedValues: [] HelpMessage: "" ```</maml:para>
       <maml:para>- 为常用脚本准备缓存 - 确保跨会话的一致性能 - 在模块更新后预热缓存 - 优化启动性能</maml:para>
       <maml:para>此 cmdlet 支持按名称、类别或标签进行选择性缓存，允许针对性缓存准备。</maml:para>
       <maml:para>默认会显示一条简要摘要。使用 `-PassThru` 可返回详细结果对象，`-Quiet` 可抑制摘要，而 `-NoAnsiOutput` 会输出不含 ANSI 颜色的纯文本。</maml:para>
@@ -1191,13 +1194,13 @@ foreach ($theme in $themes) {
 **模块：** ColorScripts-Enhanced
 **要求：** PowerShell 5.1 或更高版本
 
-**性能影响：**
+## 性能影响：
 预缓存消除了首次显示时的执行时间，提供即时视觉反馈。对复杂或动画脚本特别有益。
 
-**缓存管理：**
+## 缓存管理：
 缓存文件存储在模块管理的目录中，当源脚本更改时会自动失效。使用 Clear-ColorScriptCache 删除过时的缓存。
 
-**最佳实践：**
+## 最佳实践：
 
 - 为常用脚本缓存以获得最佳性能
 - 使用选择性缓存以避免不必要的处理
@@ -1326,7 +1329,7 @@ New-ColorScriptCache -Category Geometric -Tag minimal
     <command:returnValues>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>None (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>此 cmdlet 不返回输出到管道。</maml:para>
@@ -1339,13 +1342,13 @@ New-ColorScriptCache -Category Geometric -Tag minimal
 **模块：** ColorScripts-Enhanced
 **需要：** PowerShell 5.1 或更高版本
 
-**重置范围：**
+## 重置范围：
 重置所有用户可配置设置到模块默认值。这包括缓存路径、性能设置和显示首选项。
 
-**数据安全：**
+## 数据安全：
 配置重置不会影响缓存的脚本输出或用户创建的颜色脚本。只影响配置设置。
 
-**恢复：**
+## 恢复：
 重置后，如果需要，使用 Set-ColorScriptConfiguration 重新应用自定义设置。</maml:para>
       </maml:alert>
     </maml:alertSet>
@@ -1473,7 +1476,7 @@ Get-ColorScriptConfiguration
     <command:returnValues>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>None (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>此 cmdlet 不向管道返回输出。</maml:para>
@@ -1486,13 +1489,13 @@ Get-ColorScriptConfiguration
 **模块：** ColorScripts-Enhanced
 **需要：** PowerShell 5.1 或更高版本
 
-**配置持久性：**
+## 配置持久性：
 设置会自动保存到用户特定的配置文件中，并在 PowerShell 会话之间保持。
 
-**路径解析：**
+## 路径解析：
 缓存路径支持环境变量、相对路径和标准 PowerShell 路径表示法。
 
-**验证：**
+## 验证：
 配置更改在应用之前会进行验证，以防止无效设置。</maml:para>
       </maml:alert>
     </maml:alertSet>
@@ -1600,9 +1603,9 @@ Set-ColorScriptConfiguration -CachePath "D:\Cache"
       <maml:para>**命名模式：** 按名称显示特定的颜色脚本。支持通配符模式以实现灵活匹配。当多个脚本匹配模式时，按字母顺序选择第一个匹配项。</maml:para>
       <maml:para>**列表模式：** 显示所有可用颜色脚本的格式化列表及其元数据，包括名称、类别、标签和描述。</maml:para>
       <maml:para>**全部模式：** 按字母顺序循环显示所有可用颜色脚本。特别适用于展示整个集合或发现新脚本。</maml:para>
-      <maml:para>**性能特性：** 缓存系统提供 6-19 倍的性能改进。首次执行时，颜色脚本正常运行，其输出被缓存。随后显示使用缓存输出，实现近乎瞬时的渲染。当源脚本被修改时，缓存会自动失效，确保输出准确性。</maml:para>
-      <maml:para>**过滤功能：** 在选择发生之前按类别或标签过滤脚本。这适用于所有模式，允许您处理集合的子集（例如，仅限自然主题的脚本或标记为"retro"的脚本）。</maml:para>
-      <maml:para>**输出选项：** 默认情况下，颜色脚本直接写入控制台以实现即时视觉显示。使用 `-ReturnText` 将渲染输出作为字符串发送到管道以进行捕获、重定向或进一步处理。使用 `-PassThru` 接收脚本的元数据对象以进行编程使用。</maml:para>
+      <maml:para>## 性能特性： 缓存系统提供 6-19 倍的性能改进。首次执行时，颜色脚本正常运行，其输出被缓存。随后显示使用缓存输出，实现近乎瞬时的渲染。当源脚本被修改时，缓存会自动失效，确保输出准确性。</maml:para>
+      <maml:para>## 过滤功能： 在选择发生之前按类别或标签过滤脚本。这适用于所有模式，允许您处理集合的子集（例如，仅限自然主题的脚本或标记为"retro"的脚本）。</maml:para>
+      <maml:para>## 输出选项： 默认情况下，颜色脚本直接写入控制台以实现即时视觉显示。使用 `-ReturnText` 将渲染输出作为字符串发送到管道以进行捕获、重定向或进一步处理。使用 `-PassThru` 接收脚本的元数据对象以进行编程使用。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -1872,7 +1875,7 @@ Set-ColorScriptConfiguration -CachePath "D:\Cache"
       </command:returnValue>
       <command:returnValue>
         <dev:type>
-          <dev:name>System.String</dev:name>
+          <dev:name>System.String (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>When `-ReturnText` is specified, emits the rendered colorscript as a string to the pipeline. This string contains all ANSI escape sequences for proper color rendering when displayed in a compatible terminal.</maml:para>
@@ -1893,17 +1896,17 @@ Set-ColorScriptConfiguration -CachePath "D:\Cache"
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
-**Cache Management:**
+## Cache Management
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
-**Tips:**
+## Tips
 
 - Add `Show-ColorScript -Random` to your PowerShell profile for a colorful greeting on each session start
 - Use the module alias `scs` for quick access: `scs -Random`
@@ -1911,14 +1914,14 @@ The intelligent caching system provides 6-19x performance improvements over dire
 - Use `-List` to discover new scripts and learn about their themes
 - The `-All -WaitForInput` combination is perfect for presenting the collection to others
 
-**Compatibility:**
+## Compatibility
 Colorscripts use ANSI escape sequences and display best in terminals with full color support, such as Windows Terminal, ConEmu, or modern Unix terminals.
 
 ## ADVANCED USAGE
 
 ### Filtering Strategies
 
-**By Category and Tag Combination**
+## By Category and Tag Combination
 
 ```powershell
 # Show only geometric colorscripts tagged as minimal
@@ -1931,7 +1934,7 @@ Show-ColorScript -Category Nature -Tag Recommended -Random
 Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
 ```
 
-**Dynamic Filtering Based on Time**
+## Dynamic Filtering Based on Time
 
 ```powershell
 # Morning: bright colors
@@ -1946,7 +1949,7 @@ else {
 
 ### Output Capture Patterns
 
-**Save for Later Viewing**
+## Save for Later Viewing
 
 ```powershell
 # Save to variable
@@ -1957,7 +1960,7 @@ $art | Out-File "./my-art.ansi" -Encoding UTF8
 Get-Content "./my-art.ansi" -Raw | Write-Host
 ```
 
-**Create Themed Collections**
+## Create Themed Collections
 
 ```powershell
 # Collect all geometric scripts
@@ -1972,7 +1975,7 @@ $geometric | ForEach-Object {
 
 ### Performance Analysis
 
-**Comprehensive Benchmark**
+## Comprehensive Benchmark
 
 ```powershell
 # Function to benchmark colorscript performance
@@ -2004,7 +2007,7 @@ Get-ColorScriptList -Category Geometric -AsObject |
 
 ### Terminal Customization
 
-**Terminal-Specific Display**
+## Terminal-Specific Display
 
 ```powershell
 # Windows Terminal with ANSI support
@@ -2030,7 +2033,7 @@ if ($env:ConEmuANSI -eq "ON") {
 
 ### Automation Integration
 
-**Scheduled Colorscript Rotation**
+## Scheduled Colorscript Rotation
 
 ```powershell
 # Create scheduled task wrapper
@@ -2053,7 +2056,7 @@ function Start-ColorScriptSession {
 
 ### Error Handling and Resilience
 
-**Graceful Fallback**
+## Graceful Fallback
 
 ```powershell
 # Try specific script, fallback to random
@@ -2065,7 +2068,7 @@ try {
 }
 ```
 
-**Validation Before Display**
+## Validation Before Display
 
 ```powershell
 # Verify script exists before displaying
@@ -2082,7 +2085,7 @@ if ($scriptName -in $scripts.Name) {
 
 ### Metadata Inspection
 
-**Inspect Before Displaying**
+## Inspect Before Displaying
 
 ```powershell
 # Get metadata while displaying
@@ -2097,23 +2100,23 @@ if ($metadata.Tags -contains "Animated") {
 }
 ```
 
-## NOTES
+## NOTES (2)
 
 **Author:** Nick
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance (2)
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
-**Cache Management:**
+## Cache Management (2)
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
-**Advanced Tips:**
+## Advanced Tips
 
 - Use `-PassThru` to get metadata while displaying for post-processing
 - Combine `-ReturnText` with pipeline commands for advanced text manipulation
@@ -2126,7 +2129,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 - Use environment variables to customize behavior per environment
 - Implement error handling for automated display scenarios
 
-**Terminal Compatibility Matrix:**
+## Terminal Compatibility Matrix
 
 | Terminal           | ANSI Support | UTF-8     | Performance | Notes                      |
 | ------------------ | ------------ | --------- | ----------- | -------------------------- |

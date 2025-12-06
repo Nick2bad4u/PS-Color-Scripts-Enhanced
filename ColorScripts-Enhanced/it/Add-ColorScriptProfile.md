@@ -16,7 +16,8 @@ Aggiunge l'integrazione ColorScripts-Enhanced ai file di profilo PowerShell.
 ## SYNTAX
 
 ```text
-Add-ColorScriptProfile [[-Scope] <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
+Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon] [-Force]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -46,39 +47,15 @@ L'integrazione è progettata per essere non intrusiva e può essere facilmente r
 Add-ColorScriptProfile
 ```
 
-Aggiunge l'integrazione ColorScripts-Enhanced al tuo profilo predefinito (CurrentUserCurrentHost).
+Aggiunge lo snippet ColorScripts-Enhanced al profilo predefinito.
 
 ### EXAMPLE 2
 
 ```powershell
-Add-ColorScriptProfile -Scope CurrentUserAllHosts
+Add-ColorScriptProfile -Scope CurrentUserAllHosts -IncludePokemon
 ```
 
-Aggiunge l'integrazione al tuo profilo che si applica a tutti gli host PowerShell per l'utente corrente.
-
-### EXAMPLE 3
-
-```powershell
-Add-ColorScriptProfile -Scope AllUsersCurrentHost
-```
-
-Aggiunge l'integrazione al profilo per tutti gli utenti sull'host corrente (richiede privilegi di amministratore).
-
-### EXAMPLE 4
-
-```powershell
-Add-ColorScriptProfile -WhatIf
-```
-
-Mostra quali modifiche verrebbero apportate al tuo profilo senza applicarle effettivamente.
-
-### EXAMPLE 5
-
-```powershell
-Add-ColorScriptProfile -Confirm
-```
-
-Richiede conferma prima di modificare il tuo profilo.
+Aggiunge lo snippet a tutti gli host per l'utente corrente e configura `Show-ColorScript -IncludePokemon`.
 
 ## PARAMETERS
 
@@ -112,22 +89,22 @@ Specifica l'ambito del profilo da modificare. I valori validi sono:
 - AllUsersCurrentHost
 - AllUsersAllHosts
 
-```yaml
-Type: System.String
-DefaultValue: CurrentUserCurrentHost
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
+  ```yaml
+  Type: System.String
+  DefaultValue: CurrentUserCurrentHost
+  SupportsWildcards: false
+  Aliases: []
+  ParameterSets:
+   - Name: (All)
+     Position: Named
+     IsRequired: false
+     ValueFromPipeline: false
+     ValueFromPipelineByPropertyName: false
+     ValueFromRemainingArguments: false
+  DontShow: false
+  AcceptedValues: []
+  HelpMessage: ""
+  ```
 
 ### -WhatIf
 
@@ -156,32 +133,6 @@ Questo cmdlet supporta i parametri comuni: -Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
 -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. Per ulteriori informazioni, vedere
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
-
-## INPUTS
-
-### None
-
-Questo cmdlet non accetta input dalla pipeline.
-
-## OUTPUTS
-
-### None (2)
-
-Questo cmdlet non restituisce output alla pipeline.
-
-## NOTES
-
-**Author:** Nick
-**Module:** ColorScripts-Enhanced
-**Requires:** PowerShell 5.1 o successivo
-
-## Integrazione profilo
-Il cmdlet aggiunge uno snippet di avvio che importa ColorScripts-Enhanced e fornisce accesso conveniente. L'integrazione è progettata per essere leggera e non disturbare.
-
-## Considerazioni ambito
-
-- Gli ambiti CurrentUser modificano i file nella directory del profilo utente
-- Gli ambiti AllUsers richiedono privilegi di amministratore e influenzano tutti gli utenti
 - Le modifiche hanno effetto nelle nuove sessioni PowerShell
 
 ## Funzionalità di sicurezza
@@ -196,3 +147,4 @@ Il cmdlet aggiunge uno snippet di avvio che importa ColorScripts-Enhanced e forn
 - [Set-ColorScriptConfiguration](Set-ColorScriptConfiguration.md)
 - [Show-ColorScript](Show-ColorScript.md)
 - [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+

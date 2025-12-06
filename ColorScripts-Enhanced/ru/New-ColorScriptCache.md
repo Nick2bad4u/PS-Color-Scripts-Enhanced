@@ -30,13 +30,13 @@ The cmdlet intelligently skips scripts whose cache files are already up-to-date 
 ### All
 
 ```text
-New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-All] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Named
 
 ```text
-New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## EXAMPLES
@@ -320,6 +320,27 @@ ParameterSets:
    ValueFromPipeline: true
    ValueFromPipelineByPropertyName: true
    ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -IncludePokemon
+
+Включает все скрипты Pokémon (обычные и shiny) при построении кеша. По умолчанию скрипты Pokémon пропускаются; используйте `-IncludePokemon`, чтобы включить их. Примечание: этот параметр заменяет старый `-ExcludePokemon` — логика была инвертирована при рефакторинге (теперь opt-in).
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+     Position: Named
+     IsRequired: false
+     ValueFromPipeline: false
+     ValueFromPipelineByPropertyName: false
+     ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""

@@ -288,7 +288,7 @@ const remarkConfig = {
 
         // File naming conventions
         [ "remark-lint-no-file-name-irregular-characters", /[^-._\dA-Za-z]/ ], // Allow underscores in filenames
-        [ "remark-lint-no-file-name-mixed-case", true ], // Enforce lowercase/kebab-case style filenames
+        [ "remark-lint-no-file-name-mixed-case", false ], // Allow mixed case filenames for localized help files
         [ "remark-lint-no-file-name-articles", true ], // Avoid leading articles in filenames
         [ "remark-lint-no-file-name-consecutive-dashes", true ], // Prevent accidental double dashes
         [ "remark-lint-no-file-name-outer-dashes", true ], // Guard against leading/trailing dashes

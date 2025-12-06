@@ -221,7 +221,7 @@ Additional collections can be added via metadata. For example, Pokémon colorscr
 under the `Pokemon` category in `ScriptMetadata.psd1` and then excluded with:
 
 ```powershell
-Show-ColorScript -ExcludePokemon
+Show-ColorScript -IncludePokemon
 ```
 
 ### SEE ALSO
@@ -840,3 +840,4 @@ Copyright (c) 2025. All rights reserved.
 ### LICENSE
 
 Licensed under MIT License. See LICENSE file for details.
+

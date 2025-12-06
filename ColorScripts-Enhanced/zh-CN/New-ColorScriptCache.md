@@ -18,13 +18,13 @@ PlatyPS schema version: 2024-05-01
 ### 全部
 
 ```text
-New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-All] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### 指定
 
 ```text
-New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -77,6 +77,28 @@ AcceptedValues: []
 HelpMessage: ""
 ```
 使用此 cmdlet 来：
+
+### -IncludePokemon
+
+在构建缓存时包含所有宝可梦脚本（普通与闪光版本）。默认情况下，宝可梦脚本将被跳过；使用 `-IncludePokemon` 将它们包含到缓存构建中。注意：此参数替换了旧的 `-ExcludePokemon`，在重构期间逻辑被反转（现在为 opt-in）。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
 
 - 为常用脚本准备缓存
 - 确保跨会话的一致性能

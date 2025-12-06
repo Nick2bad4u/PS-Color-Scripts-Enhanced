@@ -18,13 +18,13 @@ Pre-costruisce la cache per l'ottimizzazione delle prestazioni dei colorscript.
 ### Tutti
 
 ```text
-New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-All] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Selezionati
 
 ```text
-New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -134,6 +134,27 @@ HelpMessage: ""
 ### -Force
 
 Forza la rigenerazione della cache anche se i file correnti sono già aggiornati.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -IncludePokemon
+
+Include tutti i colorscript Pokémon (versioni standard e shiny) nella generazione della cache. Per impostazione predefinita i colorscript Pokémon vengono ignorati; usa `-IncludePokemon` per includerli. Nota: questo parametro sostituisce il vecchio `-ExcludePokemon` — la logica è stata invertita durante il refactor (ora opt-in).
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter

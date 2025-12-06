@@ -20,7 +20,7 @@ Voegt de ColorScripts-Enhanced module import toe (en optioneel Show-ColorScript)
 ### \_\_AllParameterSets
 
 ```text
-Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-Force]
+Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon] [-Force]
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -340,3 +340,4 @@ Als u verhoogde permissies nodig heeft om een AllUsers profiel te wijzigen, zorg
 - [New-ColorScriptCache](./New-ColorScriptCache.md)
 - [Clear-ColorScriptCache](./Clear-ColorScriptCache.md)
 - [GitHub Repository](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+

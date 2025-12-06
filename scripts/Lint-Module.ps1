@@ -112,6 +112,7 @@ function Invoke-LintPass {
             $exception = $_.Exception
             $isNullRef = $exception -is [System.NullReferenceException] -or ($exception -and $exception.Message -like 'Object reference*')
             $isCommandNotFound = $exception -is [System.Management.Automation.CommandNotFoundException] -or ($exception -and $exception.Message -like "The term '*'' is not recognized*")
+            $isDynamicModuleLimit = $exception -is [System.InvalidOperationException] -and ($exception.Message -like 'You cannot have more than one dynamic module*')
 
             if ($AnalyzerParams.ContainsKey('Settings') -and $SettingsFile -and $isNullRef) {
                 Write-Warning "ScriptAnalyzer encountered a known issue analyzing '$TargetPath' with custom settings. Retrying without settings."
@@ -147,6 +148,11 @@ function Invoke-LintPass {
 
             if ($isCommandNotFound) {
                 Write-Warning "ScriptAnalyzer hit a CommandNotFoundException for '$TargetPath'. Skipping this file."
+                return @()
+            }
+
+            if ($isDynamicModuleLimit) {
+                Write-Warning "ScriptAnalyzer hit the dynamic module limit for '$TargetPath'. Skipping this file."
                 return @()
             }
 
@@ -231,7 +237,7 @@ if ($Fix) {
     Write-Host 'Re-running analyzer to verify...' -ForegroundColor Cyan
 }
 
-$allResults = Invoke-LintPass -FixMode:$false -SettingsFile $settingsPath
+$allResults = Invoke-LintPass -FixMode $false -SettingsFile $settingsPath
 
 if (-not $allResults) {
     Write-Host '✓ ScriptAnalyzer reported no issues.' -ForegroundColor Green

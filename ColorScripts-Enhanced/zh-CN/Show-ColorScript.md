@@ -19,7 +19,7 @@ PlatyPS schema version: 2024-05-01
 
 ```text
 Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
- [-ExcludeCategory <String[]>] [-ExcludePokemon] [-PassThru]
+ [-ExcludeCategory <String[]>] [-IncludePokemon] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
@@ -27,7 +27,7 @@ Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
 
 ```text
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <String[]>] [-ExcludePokemon] [-PassThru]
+ [-ExcludeCategory <String[]>] [-IncludePokemon] [-PassThru]
  [-ReturnText] [<CommonParameters>]
 ```
 
@@ -35,7 +35,7 @@ Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <str
 
 ```text
 Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <String[]>] [-ExcludePokemon] [-ReturnText]
+ [-ExcludeCategory <String[]>] [-IncludePokemon] [-ReturnText]
  [<CommonParameters>]
 ```
 
@@ -43,7 +43,7 @@ Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```text
 Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
- [-ExcludeCategory <String[]>] [-ExcludePokemon]
+ [-ExcludeCategory <String[]>] [-IncludePokemon]
  [<CommonParameters>]
 ```
 
@@ -766,3 +766,4 @@ The intelligent caching system provides 6-19x performance improvements over dire
 - [Clear-ColorScriptCache](Clear-ColorScriptCache.md)
 - [Export-ColorScriptMetadata](Export-ColorScriptMetadata.md)
 - [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+

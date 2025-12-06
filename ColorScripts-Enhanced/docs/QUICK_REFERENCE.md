@@ -37,6 +37,7 @@ scs
 ```powershell
 Show-ColorScript -Name hearts
 scs mandelbrot-zoom
+Show-ColorScript -IncludePokemon     # Random, including Pokémon scripts
 ```
 
 ### List All Scripts
@@ -184,8 +185,8 @@ Add-ColorScriptProfile -Scope CurrentUserCurrentHost
 
 ## Performance Tips
 
-- **First Run**: ~50-300ms (builds cache)
-- **Cached Run**: ~8-16ms (6-19x faster!)
+- **First Run**: \~50-300ms (builds cache)
+- **Cached Run**: \~8-16ms (6-19x faster!)
 - **Pre-build cache**: `New-ColorScriptCache`
 - **Cache location**: `$env:APPDATA\ColorScripts-Enhanced\cache`
 
@@ -535,14 +536,14 @@ $env:PSModulePath += ";C:\CustomModulePath"
 - **Full Help**: `Get-Help about_ColorScripts-Enhanced`
 - **Command Help**: `Get-Help Show-ColorScript -Full`
 - **Examples**: `Get-Help Show-ColorScript -Examples`
-- **GitHub**: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
-- **Issues**: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues
+- **GitHub**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced>
+- **Issues**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues>
 - **Documentation**: `./docs/` folder in repository
 
 ## Links
 
-- **GitHub**: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
-- **Issues**: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues
+- **GitHub**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced>
+- **Issues**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues>
 - **License**: MIT
 
 ## Version
@@ -555,7 +556,7 @@ Current: 2025.11.05
 
 ---
 
-_For detailed documentation, use: `Get-Help about_ColorScripts-Enhanced`_
+**Tip:** For detailed documentation, use: `Get-Help about_ColorScripts-Enhanced`
 
 **Last Updated**: October 30, 2025
 **Status**: ✅ Production Ready

@@ -42,6 +42,64 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
+function Update-DocRelativeLink {
+    param([Parameter(Mandatory = $true)][string]$Path)
+
+    if (-not (Test-Path -LiteralPath $Path)) {
+        return
+    }
+
+    $content = Get-Content -LiteralPath $Path -Raw -Encoding UTF8
+    $updated = $content
+
+    $updated = $updated -replace '\]\((\.\./)', '](../../'
+    $updated = $updated -replace '(?m)(^\s*\[[^\]]+\]:\s*)(\.\./)', '$1../../'
+    $updated = $updated -replace '(src\s*=\s*")\.\./', '$1../../'
+    $updated = $updated -replace "(src\s*=\s*')\.\./", '$1../../'
+    $updated = $updated -replace '(href\s*=\s*")\.\./', '$1../../'
+    $updated = $updated -replace "(href\s*=\s*')\.\./", '$1../../'
+
+    if ($updated -ne $content) {
+        Set-Content -LiteralPath $Path -Value $updated -Encoding UTF8
+    }
+}
+
+function Copy-DocumentationTree {
+    param(
+        [Parameter(Mandatory = $true)][string]$SourcePath,
+        [Parameter(Mandatory = $true)][string]$DestinationPath
+    )
+
+    if (-not (Test-Path -LiteralPath $SourcePath)) {
+        return
+    }
+
+    $sourceResolved = (Resolve-Path -LiteralPath $SourcePath).Path
+    $destinationResolved = [System.IO.Path]::GetFullPath((Join-Path -Path (Get-Location) -ChildPath $DestinationPath))
+
+    if (Test-Path -LiteralPath $destinationResolved) {
+        Remove-Item -LiteralPath $destinationResolved -Recurse -Force
+    }
+
+    New-Item -ItemType Directory -Path $destinationResolved -Force | Out-Null
+
+    Get-ChildItem -LiteralPath $sourceResolved -Recurse -File | ForEach-Object {
+        $relativePath = $_.FullName.Substring($sourceResolved.Length).TrimStart([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar)
+        $targetPath = Join-Path -Path $destinationResolved -ChildPath $relativePath
+        $targetDirectory = Split-Path -Path $targetPath -Parent
+
+        if (-not (Test-Path -LiteralPath $targetDirectory)) {
+            New-Item -ItemType Directory -Path $targetDirectory -Force | Out-Null
+        }
+
+        Copy-Item -LiteralPath $_.FullName -Destination $targetPath -Force
+
+        if ($_.Extension -ieq '.md') {
+            Update-DocRelativeLink -Path $targetPath
+        }
+    }
+}
+
 # Validate paths
 $modulePath = './ColorScripts-Enhanced'
 $manifestPath = Join-Path $modulePath 'ColorScripts-Enhanced.psd1'
@@ -116,16 +174,8 @@ if (-not $SkipReadme) {
     if (Test-Path $helpDocsPath) {
         $helpDestPath = Join-Path $modulePath 'docs'
         try {
-            if (-not (Test-Path $helpDestPath)) {
-                New-Item -Path $helpDestPath -ItemType Directory -Force | Out-Null
-            }
-
-            # Copy all markdown help files
-            Get-ChildItem -Path $helpDocsPath -Filter '*.md' | ForEach-Object {
-                Copy-Item -Path $_.FullName -Destination $helpDestPath -Force
-                Write-Verbose "Copied help file: $($_.Name)"
-            }
-            Write-Verbose 'Help documentation files copied successfully'
+            Copy-DocumentationTree -SourcePath $helpDocsPath -DestinationPath $helpDestPath
+            Write-Verbose 'Help documentation files copied with adjusted links'
         }
         catch {
             Write-Warning "Failed to copy help documentation: $_"

@@ -142,7 +142,7 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 ### Performance
 
 - [ ] Lazy-load colorscripts
-- [ ] Streaming mode for very large scripts
+- [ ] Streaming mode for large scripts
 - [ ] Memory-efficient caching
 - [ ] Parallel colorscript execution
 
@@ -191,7 +191,7 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 - Cross-platform console output differences
 - Font rendering inconsistencies
 - Memory constraints on embedded systems
-- Performance on very slow network drives
+- Performance on slow network drives
 
 ## Success Metrics
 
@@ -257,7 +257,7 @@ Q4 2026+ (Oct+)
 
 - Look for issues tagged `good first issue`
 - Check `help wanted` label
-- Review [Contributing Guide](../CONTRIBUTING.md)
+- Review [Contributing Guide](../../CONTRIBUTING.md)
 - Submit PRs with tests and documentation
 
 ### Add Colorscripts
@@ -305,3 +305,4 @@ Q4 2026+ (Oct+)
 - If you're interested in owning a roadmap item, comment on the corresponding issue or open a new one describing your plan
 
 We review the roadmap during each release cycle and adjust priorities based on user impact, maintenance effort, and community interest.
+

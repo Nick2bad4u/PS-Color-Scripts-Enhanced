@@ -687,7 +687,7 @@ Describe 'Add-ColorScriptProfile Function' {
         if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
 
         try {
-            $result = Add-ColorScriptProfile -Path $tempProfile
+            $result = Add-ColorScriptProfile -Path $tempProfile -SkipPokemonPrompt -SkipCacheBuild
             $result.Changed | Should -BeTrue
 
             Test-Path $tempProfile | Should -BeTrue
@@ -706,11 +706,28 @@ Describe 'Add-ColorScriptProfile Function' {
         if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
 
         try {
-            Add-ColorScriptProfile -Path $tempProfile -SkipStartupScript | Out-Null
+            Add-ColorScriptProfile -Path $tempProfile -SkipStartupScript -SkipPokemonPrompt -SkipCacheBuild | Out-Null
 
             $content = Get-Content $tempProfile -Raw
             $content | Should -Match 'Import-Module\s+ColorScripts-Enhanced'
             $content | Should -Not -Match 'Show-ColorScript'
+        }
+        finally {
+            if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
+        }
+    }
+
+    It 'Should honor IncludePokemon switch and wrap startup in try/catch' {
+        $tempProfile = Join-Path ([System.IO.Path]::GetTempPath()) ('ColorScriptsProfileExclude_' + [guid]::NewGuid() + '.ps1')
+        if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
+
+        try {
+            Add-ColorScriptProfile -Path $tempProfile -IncludePokemon -SkipPokemonPrompt -SkipCacheBuild | Out-Null
+
+            $content = Get-Content $tempProfile -Raw
+            $content | Should -Match 'try\s*\{'
+            $content | Should -Match 'Show-ColorScript.*-IncludePokemon'
+            $content | Should -Match 'catch\s*\{'
         }
         finally {
             if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
@@ -723,13 +740,13 @@ Describe 'Add-ColorScriptProfile Function' {
         Set-Content -Path $tempProfile -Value $initialContent -Encoding utf8
 
         try {
-            $result = Add-ColorScriptProfile -Path $tempProfile
+            $result = Add-ColorScriptProfile -Path $tempProfile -SkipPokemonPrompt -SkipCacheBuild
             $result.Changed | Should -BeFalse
 
             $content = Get-Content $tempProfile -Raw
             ($content -split [Environment]::NewLine | Where-Object { $_ -match 'Import-Module\s+ColorScripts-Enhanced' }).Count | Should -Be 1
 
-            $forceResult = Add-ColorScriptProfile -Path $tempProfile -Force
+            $forceResult = Add-ColorScriptProfile -Path $tempProfile -Force -SkipPokemonPrompt -SkipCacheBuild
             $forceResult.Changed | Should -BeTrue
 
             $updatedContent = Get-Content $tempProfile -Raw
@@ -749,7 +766,7 @@ Describe 'Add-ColorScriptProfile Function' {
         if (Test-Path $expectedPath) { Remove-Item $expectedPath -Force }
 
         try {
-            $result = Add-ColorScriptProfile -Path $tildePath -SkipStartupScript -Force
+            $result = Add-ColorScriptProfile -Path $tildePath -SkipStartupScript -Force -SkipPokemonPrompt -SkipCacheBuild
             $result.Path | Should -Be $expectedPath
             Test-Path $expectedPath | Should -BeTrue
         }

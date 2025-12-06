@@ -26,18 +26,18 @@
 - `` `n `` = newline
 - `` `r `` = carriage return
 
-```powershell
-# ❌ WRONG - The `b gets escaped
-"${white}`[${brightred}`bug${white}`]"
-# Output: "[ug]" - the 'b' disappears!
+  ```powershell
+  # ❌ WRONG - The `b gets escaped
+  "${white}`[${brightred}`bug${white}`]"
+  # Output: "[ug]" - the 'b' disappears!
 
-# ✅ CORRECT - Use reset to separate
-"${white}[$reset${brightred}bug$reset${white}]"
-```
+  # ✅ CORRECT - Use reset to separate
+  "${white}[$reset${brightred}bug$reset${white}]"
+  ```
 
 ### 3. **Dollar Sign Escaping**
 
-**Problem:** Dollar signs ($) need to be escaped with backticks, but this creates alignment issues.
+**Problem:** Dollar signs (\$) need to be escaped with backticks, but this creates alignment issues.
 
 ```powershell
 # ❌ WRONG - Literal $ interpreted as variable
@@ -74,15 +74,15 @@
 - Better control over color transitions
 - **RECOMMENDED for complex ASCII art**
 
-```powershell
-# ❌ Problematic Here-String
-Write-Host @"
-${gray}Text${red}`$`$`$${gray}More
-"@
+  ```powershell
+  # ❌ Problematic Here-String
+  Write-Host @"
+  ${gray}Text${red}`$`$`$${gray}More
+  "@
 
-# ✅ Better approach - Individual lines
-Write-Host "${gray}Text$reset$red`$`$`$$reset${gray}More$reset"
-```
+  # ✅ Better approach - Individual lines
+  Write-Host "${gray}Text$reset$red`$`$`$$reset${gray}More$reset"
+  ```
 
 ### 6. **The Reset Pattern**
 
@@ -111,7 +111,7 @@ Characters that need escaping in double-quoted strings:
 
 ## IMPORTANT - Backslash is NOT an escape character in PowerShell
 
-Unlike many other languages, backslash (`\`) is a literal character in PowerShell, NOT an escape character. The backtick (`` ` ``) is PowerShell's escape character.
+Unlike most other languages, backslash (`\`) is a literal character in PowerShell, NOT an escape character. The backtick (`` ` ``) is PowerShell's escape character.
 
 ```powershell
 # ✅ CORRECT - Backslash is literal, no escaping needed
@@ -132,8 +132,8 @@ Write-Host "`$dollar"           # Outputs: $dollar
 ## Common Pattern Mistakes
 
 - `\`` - This is backslash + escaped-backtick (outputs: \`)
-- `\.` - This is just backslash + period (outputs: \.)
-- `\-` - This is just backslash + dash (outputs: \-)
+- `\.` - This is just backslash + period (outputs: .)
+- `\-` - This is just backslash + dash (outputs: -)
 
 ## When working with ASCII art containing backslashes
 
@@ -157,15 +157,15 @@ Write-Host "\``*TP*"  # This is backslash + escaped-backtick - WRONG!
 Write-Host "``*TP*"  # Outputs: `*TP*
 ```
 
-## Common Mistakes with Backslash-Backtick (`\```)
+## Common Mistakes with Backslash-Backtick (\`\`\`\`)
 
-The pattern `\``` appears to work but causes subtle parser errors:
+The pattern \`\`\`\` appears to work but causes subtle parser errors:
 
-- `\``` means: backslash + backtick-escape-for-backtick
+- \`\`\`\` means: backslash + backtick-escape-for-backtick
 - This creates ambiguous parsing situations
 - Can cause "Unexpected token" errors at seemingly random positions
 
-## Always use double-backtick (` `` `) for literal backticks, never `\```
+## Always use double-backtick (` `` `) for literal backticks, never \`\`\`\`
 
 ```powershell
 # ❌ WRONG - All of these use incorrect \` pattern
@@ -199,11 +199,11 @@ $reset = "$esc[0m"
 If output is misaligned:
 
 1. **Check for escape sequence bugs** - Look for backtick before b, d, t, n, r
-2. **Verify dollar escaping** - Each $ should be `` `$ ``
-3. **Test color boundaries** - Add $reset between color changes
+2. **Verify dollar escaping** - Each $ should be `` `$ \`\`
+3. **Test color boundaries** - Add \$reset between color changes
 4. **Count visible characters** - ANSI codes don't count toward width
 5. **Test line by line** - Comment out lines to isolate the problem
-6. **Compare character-by-character** - Count $ symbols, spaces, and special characters against original
+6. **Compare character-by-character** - Count \$ symbols, spaces, and special characters against original
 7. **Watch for incorrect backslash escaping** - Don't use `` \` `` when you mean `\.` or `\-`
 
 ## Character Counting Tips
@@ -256,7 +256,7 @@ Write-Host "${gray}            .sd$red`$`$`$`$`$`$`$$reset${gray}P^*^T${reset}$r
 | Color transitions  | `$red$$$${gray}P`  | `$red`$`$`$$reset${gray}P` |
 | Complex strings    | Here-string        | Write-Host lines           |
 | Backslash escaping | ``\`.`` or ``\`-`` | `\.` or `\-`               |
-| Missing dollars    | Count mismatch     | Count each $ in original   |
+| Missing dollars    | Count mismatch     | Count each \$ in original  |
 
 ## Testing Checklist
 
@@ -266,9 +266,9 @@ Write-Host "${gray}            .sd$red`$`$`$`$`$`$`$$reset${gray}P^*^T${reset}$r
 - [ ] Confirm colors appear as intended
 - [ ] Test with cache disabled
 - [ ] Compare output character-by-character with original ASCII
-- [ ] Count $ symbols in each line matches original exactly
+- [ ] Count \$ symbols in each line matches original exactly
 - [ ] Verify backslashes are literal (not escaped with backtick)
-- [ ] Check that color transitions use $reset properly
+- [ ] Check that color transitions use \$reset properly
 - [ ] Ensure no accidental escape sequences (`` `b ``, `` `d ``, `` `n ``, `` `r ``, `` `t ``)
 
 ---

@@ -42,7 +42,7 @@ We welcome contributions from the community! Contributors will be listed here as
 4. **Improve Documentation:** Clarify usage, add examples, fix typos
 5. **Test Across Platforms:** Verify functionality on different operating systems
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md) for detailed guidelines.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md) for detailed guidelines.
 
 ## Special Thanks
 
@@ -57,4 +57,5 @@ This project maintains attribution to its original creators while continuing to 
 
 ---
 
-**Want to see your name here?** Contribute to the project! Check out our [Contributing Guidelines](../CONTRIBUTING.md).
+**Want to see your name here?** Contribute to the project! Check out our [Contributing Guidelines](../../CONTRIBUTING.md).
+

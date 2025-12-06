@@ -18,13 +18,13 @@ Vooraf bouwt cache op voor optimalisatie van colorscript prestaties.
 ### Alles
 
 ```text
-New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-All] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Geselecteerd
 
 ```text
-New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -65,6 +65,26 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases:
  - NoColor
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+### -IncludePokemon
+
+Voegt alle Pokémon-scripts (normale en shiny varianten) toe aan de cacheopbouw. Standaard worden Pokémon-scripts overgeslagen; gebruik `-IncludePokemon` om ze op te nemen. Opmerking: deze parameter vervangt de oudere `-ExcludePokemon` — de semantiek is tijdens een refactor omgekeerd (nu opt-in).
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
 ParameterSets:
  - Name: (All)
    Position: Named
@@ -128,7 +148,7 @@ Cachet alle colorscripts getagd als "animated".
 New-ColorScriptCache -Category Geometric -Tag minimal
 ```
 
-Bereidt cache voor voor lichtgewicht geometrische scripts ideaal voor snelle opstartweergaven.
+Bereidt cache voor lichtgewicht geometrische scripts ideaal voor snelle opstartweergaven.
 
 ## PARAMETERS
 

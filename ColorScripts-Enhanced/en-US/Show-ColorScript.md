@@ -1,4 +1,4 @@
-﻿---
+---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Show-ColorScript.md
@@ -19,7 +19,7 @@ Displays a colorscript with automatic caching for enhanced performance.
 
 ```text
 Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
- [-ExcludeCategory <String[]>] [-ExcludePokemon] [-PassThru]
+ [-ExcludeCategory <String[]>] [-IncludePokemon] [-PassThru]
  [-ReturnText] [-ValidateCache] [<CommonParameters>]
 ```
 
@@ -27,7 +27,7 @@ Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
 
 ```text
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <String[]>] [-ExcludePokemon] [-PassThru]
+ [-ExcludeCategory <String[]>] [-IncludePokemon] [-PassThru]
  [-ReturnText] [-ValidateCache] [<CommonParameters>]
 ```
 
@@ -35,7 +35,7 @@ Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <str
 
 ```text
 Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <String[]>] [-ExcludePokemon] [-ReturnText]
+ [-ExcludeCategory <String[]>] [-IncludePokemon] [-ReturnText]
  [-ValidateCache] [<CommonParameters>]
 ```
 
@@ -43,7 +43,7 @@ Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
 
 ```text
 Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
- [-ExcludeCategory <String[]>] [-ExcludePokemon]
+ [-ExcludeCategory <String[]>] [-IncludePokemon]
  [-ValidateCache] [<CommonParameters>]
 ```
 
@@ -267,10 +267,10 @@ Demonstrates running a specific colorscript as part of scheduled task or startup
 ### EXAMPLE 21
 
 ```powershell
-Show-ColorScript -ExcludePokemon
+Show-ColorScript -IncludePokemon
 ```
 
-Displays a random colorscript while excluding all scripts in the `Pokemon` category. Useful when you have a large Pokémon collection installed but want non-Pokémon art for daily use.
+Displays a random colorscript including scripts in the `Pokemon` category. Useful when you want Pokémon art included in your random selection.
 
 ### EXAMPLE 22
 
@@ -435,9 +435,9 @@ AcceptedValues: []
 HelpMessage: ""
 ```
 
-### -ExcludePokemon
+### -IncludePokemon
 
-Shorthand for `-ExcludeCategory Pokemon`. Excludes all Pokémon colorscripts from selection across all modes (Random, Named, List, All). This parameter is convenient when you want non-Pokémon art while still keeping the Pokémon collection installed.
+Opt-in flag to include Pokémon colorscripts in the selection. When omitted, Pokémon scripts are filtered out automatically (default). Note: this replaces the older `-ExcludePokemon` parameter — the refactor inverted semantics so you now opt-in to show Pokémon scripts instead of opting out.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter

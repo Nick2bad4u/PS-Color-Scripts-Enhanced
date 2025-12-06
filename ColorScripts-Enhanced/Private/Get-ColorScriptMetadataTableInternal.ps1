@@ -13,6 +13,44 @@ function Get-ColorScriptMetadataTableInternal {
         return $script:MetadataCache
     }
 
+    $convertToMetadataObject = {
+        param($source)
+
+        if ($source -is [pscustomobject]) {
+            return $source
+        }
+
+        $categoryValue = $null
+        $categoriesValue = @()
+        $tagsValue = @()
+        $descriptionValue = $null
+
+        if ($source -is [hashtable]) {
+            if ($source.ContainsKey('Category')) {
+                $categoryValue = [string]$source['Category']
+            }
+
+            if ($source.ContainsKey('Categories')) {
+                $categoriesValue = @($source['Categories']) | Where-Object { -not [string]::IsNullOrWhiteSpace($_) }
+            }
+
+            if ($source.ContainsKey('Tags')) {
+                $tagsValue = @($source['Tags']) | Where-Object { -not [string]::IsNullOrWhiteSpace($_) }
+            }
+
+            if ($source.ContainsKey('Description')) {
+                $descriptionValue = [string]$source['Description']
+            }
+        }
+
+        [pscustomobject]@{
+            Category    = $categoryValue
+            Categories  = $categoriesValue
+            Tags        = $tagsValue
+            Description = $descriptionValue
+        }
+    }
+
     $binaryCachePath = $null
     if ($script:CacheInitialized -and $script:CacheDir) {
         $binaryCachePath = Join-Path -Path $script:CacheDir -ChildPath 'metadata.cache.json'
@@ -26,7 +64,7 @@ function Get-ColorScriptMetadataTableInternal {
 
                     $loadedStore = New-Object 'System.Collections.Generic.Dictionary[string, object]' ([System.StringComparer]::OrdinalIgnoreCase)
                     foreach ($key in $cachedHash.Keys) {
-                        $loadedStore[$key] = $cachedHash[$key]
+                        $loadedStore[$key] = & $convertToMetadataObject $cachedHash[$key]
                     }
 
                     $script:MetadataCache = $loadedStore
@@ -85,8 +123,7 @@ function Get-ColorScriptMetadataTableInternal {
             }
         }
         catch {
-            # If we cannot inspect parameters, just fall back to the
-            # basic call without SkipLimitCheck.
+            Write-Verbose "Unable to inspect Import-PowerShellDataFile parameters. Continuing without SkipLimitCheck. Error: $($_.Exception.Message)"
         }
 
         try {

@@ -4,11 +4,11 @@
 
 <!-- Download & Version Badges -->
 
-[![PowerShell Gallery Version.](https://img.shields.io/powershellgallery/v/ColorScripts-Enhanced?logo=powershell&label=PSGallery)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
-[![PowerShell Gallery Downloads.](https://img.shields.io/powershellgallery/dt/ColorScripts-Enhanced?logo=powershell&label=Downloads)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
-[![NuGet Version.](https://img.shields.io/nuget/v/ColorScripts-Enhanced?logo=nuget&label=NuGet)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
-[![NuGet Downloads.](https://img.shields.io/nuget/dt/ColorScripts-Enhanced?logo=nuget&label=Downloads)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
-[![GitHub Release.](https://img.shields.io/github/v/release/Nick2bad4u/ps-color-scripts-enhanced?logo=github&label=Release)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/releases/latest)
+[![PowerShell Gallery Version.](https://img.shields.io/powershellgallery/v/ColorScripts-Enhanced?logo=powershell\&label=PSGallery)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
+[![PowerShell Gallery Downloads.](https://img.shields.io/powershellgallery/dt/ColorScripts-Enhanced?logo=powershell\&label=Downloads)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
+[![NuGet Version.](https://img.shields.io/nuget/v/ColorScripts-Enhanced?logo=nuget\&label=NuGet)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
+[![NuGet Downloads.](https://img.shields.io/nuget/dt/ColorScripts-Enhanced?logo=nuget\&label=Downloads)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
+[![GitHub Release.](https://img.shields.io/github/v/release/Nick2bad4u/ps-color-scripts-enhanced?logo=github\&label=Release)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/releases/latest)
 
 <!-- CI/CD & Quality Badges -->
 
@@ -37,776 +37,206 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
   <img src="assets/ColorScripts-Mascot-Dark.jpeg" alt="ColorScripts mascot" width="60%" />
 </p>
 
-## Table of Contents
+![Examples.](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-1.png)
 
-- [Features](#features)
-- [Demo](#demo)
-- [Quick Start](#quick-start-less-than-a-minute)
-- [PowerShell Support](#powershell-support)
-- [Internationalization](#internationalization)
-- [Install a Nerd Font](#install-a-nerd-font-for-custom-glyphs)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Performance](#performance)
-- [Available Colorscripts](#available-colorscripts)
-- [Commands](#commands)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Support](#support)
+## ✨ Features
 
-## Features
+- **<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
+- **6-19x Faster** — Intelligent caching drops load times to 5-20ms
+- **Cross-Platform** — Works on Windows, macOS, and Linux
+- **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
+- **Easy to Use** — Simple commands with tab completion
 
-✨ **<!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Beautiful Colorscripts** - Extensive collection of ANSI art
-
-⚡ **Intelligent Caching** - 6-19x performance improvement (5-20ms load times)
-
-🌐 **OS-Wide Cache** - Consistent caching across all terminal sessions
-
-🎯 **Simple API** - Easy-to-use cmdlets with tab completion
-
-⚙️ **Configurable Defaults** - Persist cache locations and startup behaviour via module configuration
-
-🔄 **Auto-Update** - Cache automatically invalidates when scripts change
-
-📍 **Centralized Storage** - Cache stored in `%APPDATA%\ColorScripts-Enhanced\cache`
-
-🌍 **Multilingual Support** - Full internationalization with 10 languages (English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese)
-
-## Demo
-
-ColorScripts-Enhanced Demo: <https://i.imgur.com/FCjqkxn.mp4>
-
-## Open in new tab since video is too large for github
-
-![ColorScripts-Example-1.](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-1.png) ![ColorScripts-Example-2.](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-2.png) ![ColorScripts-Example-3.](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-3.png)
-
-## + <!-- COLOR_SCRIPT_COUNT_MINUS_IMAGES -->495<!-- /COLOR_SCRIPT_COUNT_MINUS_IMAGES --> more colorscripts available
-
-## Quick Start (Less Than a Minute)
+## 🚀 Quick Start
 
 ```powershell
+# Install from PowerShell Gallery
 Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
+
+# Import and display a random colorscript
 Import-Module ColorScripts-Enhanced
-Add-ColorScriptProfile              # Optional: add to profile immediately
 Show-ColorScript
-```
 
-> Requires PowerShell 5.1 or later. PowerShell 7.4+ recommended for best performance and PSResourceGet support.
-
-## PowerShell Support
-
-We test every change across Windows, macOS, and Linux. See the full matrix in [docs/POWERSHELL-VERSIONS.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/POWERSHELL-VERSIONS.md).
-
-| Platform | PowerShell 5.1                   | PowerShell 7.x                                 |
-| -------- | -------------------------------- | ---------------------------------------------- |
-| Windows  | ✅ Unit tests, module validation | ✅ Unit tests, ScriptAnalyzer, help validation |
-| macOS    | ❌ Not available                 | ✅ Unit tests, ScriptAnalyzer                  |
-| Linux    | ❌ Not available                 | ✅ Unit tests, ScriptAnalyzer                  |
-
-> We intentionally run ScriptAnalyzer only on PowerShell 7.x because the 5.1 engine applies different rules that conflict with modern cross-platform patterns.
-
-## Internationalization
-
-ColorScripts-Enhanced provides **full multilingual support** with automatic language detection based on your system's culture settings. All cmdlet help documentation, error messages, warnings, and user interface text are available in 10 languages:
-
-| Language   | Culture Code | Status |
-| ---------- | ------------ | ------ |
-| English    | en-US        | ✅     |
-| German     | de           | ✅     |
-| Spanish    | es           | ✅     |
-| French     | fr           | ✅     |
-| Italian    | it           | ✅     |
-| Japanese   | ja           | ✅     |
-| Dutch      | nl           | ✅     |
-| Portuguese | pt           | ✅     |
-| Russian    | ru           | ✅     |
-| Chinese    | zh-CN        | ✅     |
-
-### Using Localized Help
-
-The module automatically detects your system's language and displays help in your preferred language:
-
-```powershell
-# View help in your system's language
-Get-Help Show-ColorScript -Full
-
-# Access online help with automatic language detection
-Get-Help Show-ColorScript -Online
-```
-
-The `-Online` parameter uses an intelligent redirect system that:
-
-- Detects your browser's language settings
-- Automatically displays documentation in your preferred language
-- Falls back to English if your language isn't available
-- Works seamlessly with all 10 supported languages
-
-### Changing Display Language
-
-You can override the automatic detection by setting your PowerShell UI culture:
-
-```powershell
-# Example: Switch to German
-$PSUICulture = 'de'
-Import-Module ColorScripts-Enhanced -Force
-
-# Example: Switch to Japanese
-$PSUICulture = 'ja'
-Import-Module ColorScripts-Enhanced -Force
-```
-
-All module messages, warnings, and error text will appear in the selected language immediately.
-
-## Install a Nerd Font for Custom Glyphs
-
-Several scripts display Nerd Font icons (powerline separators, dev icons, logos). Without a Nerd Font, those glyphs render as blank boxes. Pick one of the patched fonts from [nerdfonts.com](https://www.nerdfonts.com/) and set it as your terminal font:
-
-1. **Download** a font (e.g., _Cascadia Code_, _FiraCode_, _JetBrainsMono_) from the [Nerd Fonts releases](https://github.com/ryanoasis/nerd-fonts/releases).
-2. **Install on Windows**: extract the `.zip`, select the `.ttf` files, right-click → **Install for all users**. **macOS**: `brew install --cask font-caskaydia-cove-nerd-font` (or double-click in Font Book). **Linux**: copy the `.ttf` files to `~/.local/share/fonts` (or `/usr/local/share/fonts`), then run `fc-cache -fv`.
-3. **Update your terminal** (Windows Terminal, VS Code, Alacritty, etc.) to use the installed Nerd Font for each profile.
-4. **Verify** by running:
-
-```powershell
-Show-ColorScript -Name nerd-font-test
-```
-
-The script will render checkmarks and dev icons when the font is configured correctly.
-
-## Installation
-
-### Option 1: PowerShell Gallery (Recommended)
-
-The module is published to the PowerShell Gallery, making installation a single command:
-
-```powershell
-# PowerShellGet (Windows PowerShell 5.1 / PowerShell 7)
-Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
-
-# PSResourceGet (PowerShell 7.4+)
-Install-PSResource -Name ColorScripts-Enhanced -Scope CurrentUser
-
-# Update to latest release later
-Update-Module ColorScripts-Enhanced
-```
-
-> 💡 Tip: Set `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` if your environment restricts script execution during installation.
-
-### Option 2: GitHub Packages (Optional)
-
-If you prefer GitHub Packages (for private mirrors or enterprise environments):
-
-```powershell
-$owner  = 'Nick2bad4u'
-$source = "https://nuget.pkg.github.com/$owner/index.json"
-
-Register-PSRepository -Name ColorScriptsEnhanced-GitHub -SourceLocation $source -PublishLocation $source -InstallationPolicy Trusted -PackageManagementProvider NuGet
-Install-Module -Name ColorScripts-Enhanced -Repository ColorScriptsEnhanced-GitHub -Scope CurrentUser
-```
-
-Authenticate with a GitHub PAT (Package Read scope) if prompted.
-
-### Option 3: Manual Installation
-
-1. Copy the `ColorScripts-Enhanced` folder to one of your PowerShell module paths:
-
-```powershell
-# See available module paths
-$env:PSModulePath -split ';'
-
-# Recommended location (user-specific)
-$modulePath = "$env:USERPROFILE\Documents\PowerShell\Modules\ColorScripts-Enhanced"
-
-# Copy the module folder to the destination
-Copy-Item -Path ".\ColorScripts-Enhanced" -Destination $modulePath -Recurse -Force
-```
-
-1. Import the module:
-
-```powershell
-Import-Module ColorScripts-Enhanced
-```
-
-1. (Optional) Add to your PowerShell profile for automatic loading:
-
-```powershell
-Add-Content -Path $PROFILE.CurrentUserAllHosts -Value "Import-Module ColorScripts-Enhanced"
-```
-
-Alternatively, run `Add-ColorScriptProfile -Scope CurrentUserAllHosts -SkipStartupScript` after importing the module.
-
-### Option 4: Quick Test (Without Installation)
-
-```powershell
-Import-Module ".\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1"
-```
-
-### (Optional) Add to Your PowerShell Profile
-
-Use the built-in helper to import the module (and optionally display a random colorscript) at shell startup:
-
-```powershell
+# Add to your profile (optional - shows colorscript on every terminal open)
 Add-ColorScriptProfile
 ```
 
-Key options:
+> Requires PowerShell 5.1+. PowerShell 7+ recommended for best performance.
 
-- `Add-ColorScriptProfile -SkipStartupScript` -- import the module without showing a script on launch.
-- `Add-ColorScriptProfile -Scope CurrentUserCurrentHost` -- limit to the current host (e.g., just VS Code).
-- `Add-ColorScriptProfile -Path .\MyCustomProfile.ps1` -- target an explicit profile file.
-
-## Usage
-
-### Display a Random Colorscript
+## 📖 Basic Usage
 
 ```powershell
+# Show a random colorscript
 Show-ColorScript
-# or use the alias
-scs
-```
+scs                          # shorthand alias
 
-### Display a Specific Colorscript
-
-```powershell
+# Show a specific colorscript
 Show-ColorScript -Name "mandelbrot-zoom"
-# or
-scs mandelbrot-zoom
-```
+scs pikachu
 
-```powershell
-# Use wildcards to target a family of scripts
-Show-ColorScript -Name "aurora-*"
-```
-
-### List All Available Colorscripts
-
-```powershell
+# List all available colorscripts
 Show-ColorScript -List
-# or
 Get-ColorScriptList
-```
 
-```powershell
-# Return objects for automation
-$scripts = Get-ColorScriptList -AsObject
-$scripts | Select-Object Name, Category, Tags | Format-Table
-
-# Show additional metadata in the table view
-Get-ColorScriptList -Detailed
-```
-
-### Filter by Category or Tag
-
-```powershell
-# All pattern-based scripts
+# Filter by category
 Get-ColorScriptList -Category Patterns
+Get-ColorScriptList -Tag Recommended
 
-# Recommended scripts surfaced by metadata
-Get-ColorScriptList -Tag Recommended -Detailed
-
-# Display a random recommended script and return its metadata
-Show-ColorScript -Tag Recommended -PassThru
+# Include Pokémon scripts (opt-in)
+Show-ColorScript -IncludePokemon
 ```
 
-### Build Cache for Faster Performance
+## ⚡ Boost Performance with Caching
 
 ```powershell
-# Cache all colorscripts (recommended)
+# Build cache for all scripts (recommended after install)
 New-ColorScriptCache
 
-# Cache specific colorscripts
-New-ColorScriptCache -Name "bars","hearts","arch"
-
-# Force rebuild cache
+# Rebuild cache if scripts seem stale
 New-ColorScriptCache -Force
 
-# Cache every script whose name starts with "aurora-"
-New-ColorScriptCache -Name "aurora-*"
-```
+# Include Pokémon scripts when building the cache
+New-ColorScriptCache -IncludePokemon
 
-> `New-ColorScriptCache` caches the entire library by default, so specifying `-All` is optional. Use `-PassThru` when you need per-script status objects. Without it you'll just see the concise on-screen summary.
-
-### Clear Cache
-
-```powershell
-# Clear all cache files
+# Clear cache if needed
 Clear-ColorScriptCache -All
-
-# Clear specific cache
-Clear-ColorScriptCache -Name "mandelbrot-zoom"
-
-# Preview what would be deleted (no files removed)
-Clear-ColorScriptCache -Name "mandelbrot-zoom" -DryRun
-
-# Clear caches in an alternate location
-Clear-ColorScriptCache -Name "mandelbrot-zoom" -Path 'C:/temp/colorscripts-cache'
-
-# Remove all caches that match a wildcard pattern
-Clear-ColorScriptCache -Name "aurora-*" -Confirm:$false
 ```
 
-> Tip: Set `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` to redirect cache files to a custom directory for CI or ephemeral test runs.
+## 🎨 Examples
 
-### Validate Cache on Demand
+**Add a colorscript to your terminal startup:**
 
 ```powershell
-# Rebuild cache metadata before rendering
-Show-ColorScript -Name "bars" -ValidateCache
-
-# Apply validation for the entire session
-$env:COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE = '1'
-Import-Module ColorScripts-Enhanced -Force
-```
-
-Use the `-ValidateCache` switch (or the `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` environment variable) whenever you suspect stale cache data or when testing new scripts.
-
-### Accelerate Cache Builds on Multi-Core Systems
-
-Leverage powerful hardware by running cache builds in parallel:
-
-```powershell
-New-ColorScriptCache -All -Parallel -Threads 8
-```
-
-The `-Parallel` switch enables a runspace pool, while `-Threads` (alias for `-ThrottleLimit`) controls the maximum number of concurrent workers. Leave `-Threads` unspecified to default to the number of logical processors. The cmdlet gracefully falls back to sequential execution if multiple runspaces are unavailable.
-
-### Localization Modes
-
-Auto mode prefers PSD1 resources whenever they exist so you can override English strings without recompiling the module. Fine-tune the behaviour with `COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE`:
-
-- `auto` _(default)_ – load PSD1 files when present, otherwise fall back to embedded messages.
-- `full` – always load from disk, even if embedded defaults would succeed.
-- `embedded` – skip PSD1 probes and rely on built-in English messages.
-
-Legacy toggles `COLOR_SCRIPTS_ENHANCED_FORCE_LOCALIZATION` and `COLOR_SCRIPTS_ENHANCED_PREFER_EMBEDDED_MESSAGES` are still honoured, but the consolidated mode variable is recommended.
-
-### Persist Defaults with Configuration
-
-```powershell
-# Inspect current configuration (cache path, startup behaviour)
-Get-ColorScriptConfiguration
-
-# Persist a custom cache path and disable automatic profile startup
-Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -ProfileAutoShow:$false
-
-# Reset everything to defaults
-Reset-ColorScriptConfiguration
-```
-
-Configuration is stored in `%APPDATA%/ColorScripts-Enhanced/config.json` (or the equivalent on macOS/Linux). Set `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` to redirect the configuration location for portable or CI scenarios.
-
-### Export Metadata for External Tools
-
-```powershell
-# Emit metadata objects to the pipeline
-$metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
-
-# Persist a JSON snapshot for front-end tooling
-Export-ColorScriptMetadata -Path ./dist/colorscripts-metadata.json -IncludeFileInfo
-```
-
-Metadata includes categories, tags, descriptions, script paths, and optional cache details--perfect for building dashboards, search interfaces, or gallery listings.
-
-### Scaffold a New Colorscript
-
-```powershell
-# Create a new colorscript skeleton in the Scripts directory
-$scaffold = New-ColorScript -Name 'my-awesome-script' -GenerateMetadataSnippet -Category 'Artistic' -Tag 'Custom','Demo'
-
-# Inspect metadata guidance for ScriptMetadata.psd1 updates
-$scaffold.MetadataGuidance
-```
-
-The scaffolded script includes a UTF-8 template with placeholders so you can paste ANSI art directly. The optional metadata guidance hints at how to categorise the new script in `ScriptMetadata.psd1`.
-
-### Bypass Cache (Force Fresh Execution)
-
-```powershell
-Show-ColorScript -Name "bars" -NoCache
-```
-
-### Test the Entire Collection
-
-```powershell
-# Sequential run with metadata-rich summary results
-.\ColorScripts-Enhanced\Test-AllColorScripts.ps1 -Filter 'bars' -Delay 0 -SkipErrors
-
-# Parallel run (PowerShell 7+) for faster CI coverage
-.\ColorScripts-Enhanced\Test-AllColorScripts.ps1 -Parallel -SkipErrors -ThrottleLimit 4
-```
-
-### Lint with PowerShell 7
-
-```powershell
-.\scripts\Lint-PS7.ps1
-```
-
-## Commands
-
-| Command                          | Alias | Description                                                                        |
-| -------------------------------- | ----- | ---------------------------------------------------------------------------------- |
-| `Show-ColorScript`               | `scs` | Display a colorscript                                                              |
-| `Get-ColorScriptList`            | -     | List all available colorscripts                                                    |
-| `New-ColorScriptCache`           | -     | Pre-generate cache files                                                           |
-| `Clear-ColorScriptCache`         | -     | Remove cache files                                                                 |
-| `Add-ColorScriptProfile`         | -     | Append module startup snippet to your profile                                      |
-| `Get-ColorScriptConfiguration`   | -     | Inspect persisted defaults (cache path, startup behaviour)                         |
-| `Set-ColorScriptConfiguration`   | -     | Update configuration values and immediately persist them                           |
-| `Reset-ColorScriptConfiguration` | -     | Restore configuration to factory defaults                                          |
-| `Export-ColorScriptMetadata`     | -     | Export metadata and cache info as JSON for external tooling                        |
-| `New-ColorScript`                | -     | Scaffold a new colorscript skeleton with metadata guidance                         |
-| `Install.ps1`                    | -     | Optional local installer with `-AddToProfile`, `-SkipStartupScript`, `-BuildCache` |
-
-### Getting Help
-
-PowerShell uses the `Get-Help` cmdlet for command documentation. Traditional CLI flags like `--help` or `-h` will not work.
-
-```powershell
-# Get basic help
-Get-Help Show-ColorScript
-
-# Get detailed help with examples
-Get-Help Show-ColorScript -Full
-
-# Get only examples
-Get-Help Show-ColorScript -Examples
-
-# Get help for a specific parameter
-Get-Help Show-ColorScript -Parameter Name
-
-# Module help
-Get-Help about_ColorScripts-Enhanced
-```
-
-## Documentation
-
-### User Documentation
-
-- [Quick Start & Reference](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/QUICK_REFERENCE.md)
-- [ANSI Color Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-COLOR-GUIDE.md)
-- [ANSI Conversion Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-CONVERSION-GUIDE.md)
-- [ANSI Conversion Examples](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/examples/ansi-conversion/README.md)
-- [Module Summary](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/MODULE_SUMMARY.md)
-
-### Developer Documentation
-
-- [Development Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/DEVELOPMENT.md)
-- [Testing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/TESTING.md)
-- [Linting Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/LINTING.md)
-- [npm Scripts Reference](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/NPM_SCRIPTS.md)
-- [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/PUBLISHING.md)
-- [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/RELEASE_CHECKLIST.md)
-
-### Project Information
-
-- [Support Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/SUPPORT.md)
-- [Code of Conduct](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CODE_OF_CONDUCT.md)
-- [Security Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/SECURITY.md)
-- [Project Roadmap](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ROADMAP.md)
-- [Documentation Index](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/DOCUMENTATION_INDEX.md)
-
-## Contributing
-
-We welcome contributions! Please review [CONTRIBUTING.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CONTRIBUTING.md) for:
-
-- Development setup and workflow
-- Coding standards and best practices
-- How to submit pull requests
-- Testing requirements
-
-For development-specific tasks, see the [Developer Documentation](#developer-documentation) section above.
-
-## Performance
-
-### Before Caching
-
-- Simple scripts: 30-50ms
-- Complex scripts: 200-400ms
-
-### After Caching
-
-- All scripts: 5-20ms
-- **Improvement: 6-19x faster!**
-
-### Example Performance Gains
-
-| Script          | Without Cache | With Cache | Speedup |
-| --------------- | ------------- | ---------- | ------- |
-| bars            | 31ms          | 5ms        | **6x**  |
-| gradient-bars   | 65ms          | 8ms        | **8x**  |
-| mandelbrot-zoom | 365ms         | 19ms       | **19x** |
-
-## Cache System
-
-### How It Works
-
-1. **First Run**: Script executes normally and output is cached
-2. **Subsequent Runs**: Cached output is displayed instantly
-3. **Auto-Invalidation**: Cache updates when source script changes
-4. **OS-Wide**: Single cache location works from any directory
-
-### Cache Location
-
-The module stores cached output in platform-specific directories:
-
-## Windows
-
-```text
-C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\cache\
-```
-
-## macOS
-
-```text
-~/Library/Application Support/ColorScripts-Enhanced/cache/
-```
-
-## Linux
-
-```text
-~/.cache/ColorScripts-Enhanced/
-```
-
-To find your cache location programmatically:
-
-```powershell
-# Windows
-$env:APPDATA\ColorScripts-Enhanced\cache
-
-# macOS
-~/Library/Application Support/ColorScripts-Enhanced/cache
-
-# Linux
-~/.cache/ColorScripts-Enhanced
-```
-
-### Cache Files
-
-- One `.cache` file per colorscript
-- Contains pre-rendered ANSI output
-- Average size: ~20KB per file
-- Total size: ~4.9MB for <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> scripts
-
-## Examples
-
-### Add to PowerShell Profile
-
-Display a random colorscript every time you open PowerShell:
-
-```powershell
-# Edit your profile
-notepad $PROFILE.CurrentUserAllHosts
-
-# Add this line:
+# Option 1: Use the built-in helper
+Add-ColorScriptProfile
+
+# Option 2: Manually edit your profile
+notepad $PROFILE
+# Add these lines:
 Import-Module ColorScripts-Enhanced
 Show-ColorScript
+
+# Option 3: Always include Pokémon art
+Add-ColorScriptProfile -IncludePokemon -SkipPokemonPrompt
 ```
 
-### Create Custom Alias
+**Create a custom alias:**
 
 ```powershell
-# Add to profile
 Set-Alias -Name cs -Value Show-ColorScript
 ```
 
-### Build Cache on Module Import
+## 🔧 Commands Reference
+
+| Command | Alias | Description |
+|---------|-------|-------------|
+| `Show-ColorScript` | `scs` | Display a colorscript (random or by name) |
+| `Get-ColorScriptList` | — | List available colorscripts |
+| `New-ColorScriptCache` | — | Build cache for faster performance |
+| `Clear-ColorScriptCache` | — | Remove cached files |
+| `Add-ColorScriptProfile` | — | Add module to your PowerShell profile |
+
+**Get help for any command:**
 
 ```powershell
-# Add to profile after Import-Module
-Import-Module ColorScripts-Enhanced
-New-ColorScriptCache
+Get-Help Show-ColorScript -Examples
 ```
 
-## Available Colorscripts
+## 🔤 Nerd Font Support
 
-The module includes <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts including:
+Some colorscripts use special glyphs that require a [Nerd Font](https://www.nerdfonts.com/). If you see boxes instead of icons:
 
-- **Fractals**: mandelbrot-zoom, julia-morphing, barnsley-fern, koch-snowflake
-- **Patterns**: kaleidoscope, wave-pattern, rainbow-waves, gradient-bars
-- **Characters**: pacman, space-invaders, tux, darthvader
-- **Nature**: galaxy-spiral, aurora-storm, crystal-grid, nebula
-- **Mathematical**: fibonacci-spiral, penrose-quasicrystal, hilbert-spectrum
-- And many more!
+1. Download a Nerd Font (e.g., CascadiaCode, FiraCode, JetBrainsMono)
+2. Install the font and set it as your terminal font
+3. Test with: `Show-ColorScript -Name nerd-font-test`
 
-Use `Show-ColorScript -List` to see all available scripts.
+## 🐛 Troubleshooting
 
-## Troubleshooting
-
-### Cache Not Working
-
+**Colorscript not displaying correctly?**
 ```powershell
-# Rebuild cache
-New-ColorScriptCache -Force
-
-# Check cache location
-explorer "$env:APPDATA\ColorScripts-Enhanced\cache"
-```
-
-### Cache Files Locked or Refusing to Delete
-
-```powershell
-# Preview what would be removed without touching the filesystem
-Clear-ColorScriptCache -Name 'bars' -DryRun
-
-# Force deletion after closing terminals that might hold locks
-Clear-ColorScriptCache -Name 'bars' -Confirm:$false
-```
-
-If a cache file stays locked, close any terminals showing the script, then retry the commands above. As a last resort, specify `-Path` with a custom cache root and move the cache elsewhere.
-
-### Module Not Found
-
-```powershell
-# Verify module path
-Get-Module ColorScripts-Enhanced -ListAvailable
-
-# Check PSModulePath
-$env:PSModulePath -split ';'
-```
-
-### Colorscript Not Displaying
-
-```powershell
-# Try without cache
 Show-ColorScript -Name "scriptname" -NoCache
-
-# Check if script exists
-Get-ColorScriptList
 ```
 
-### Icons or glyphs show as squares
-
+**Cache seems stale?**
 ```powershell
-# Confirm Nerd Font installation
-Show-ColorScript -Name nerd-font-test
-
-# If icons are missing:
-# 1\. Install a Nerd Font from https://www.nerdfonts.com/
-# 2\. Set your terminal profile to use the installed font
-# 3\. Restart the terminal session
+New-ColorScriptCache -Force
 ```
 
-## Requirements
-
-- **PowerShell:** 5.1 or higher (PowerShell 7+ recommended)
-- **Operating System:**
-  - Windows 10/11
-  - macOS 10.13+
-  - Linux (Ubuntu, Debian, Fedora, etc.)
-
-- **Terminal:** ANSI-capable terminal
-  - Windows: Windows Terminal, VS Code Terminal, ConEmu
-  - macOS: Terminal.app, iTerm2, VS Code Terminal
-  - Linux: GNOME Terminal, Konsole, xterm, VS Code Terminal
-
-- **Optional:** Nerd Font for glyph-heavy scripts like `nerd-font-test`
-
-## Architecture
-
+**Module not found?**
 ```powershell
-ColorScripts-Enhanced/
-├── ColorScripts-Enhanced.psd1    # Module manifest
-├── ColorScripts-Enhanced.psm1    # Main module file
-├── Scripts/                       # Colorscript files
-│   ├── bars.ps1
-│   ├── hearts.ps1
-│   ├── mandelbrot-zoom.ps1
-│   └── ... (<!-- COLOR_CACHE_TOTAL -->498+<!-- /COLOR_CACHE_TOTAL --> total)
-└── README.md                      # This file
-
-%APPDATA%/ColorScripts-Enhanced/
-└── cache/                         # Cache files
-    ├── bars.cache
-    ├── hearts.cache
-    └── ... (<!-- COLOR_CACHE_TOTAL -->498+<!-- /COLOR_CACHE_TOTAL --> total)
+Get-Module ColorScripts-Enhanced -ListAvailable
 ```
 
-## Contributing (2)
+## 📋 Requirements
 
-Contributions welcome! When adding new colorscripts:
-
-1. Place `.ps1` file in `Scripts/` directory
-2. Use ANSI escape codes for colors
-3. Keep output concise (fits in standard terminal)
-4. Test with `Show-ColorScript -Name "yourscript" -NoCache`
-5. Build cache with `New-ColorScriptCache -Name "yourscript"`
-
-## License
-
-UnLicense License – see [LICENSE](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/LICENSE) file for details
-
-## Version History
-
-See [CHANGELOG.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CHANGELOG.md) for detailed version history and release notes.
-
-### Latest Release
-
-**2025.10.12** - Cross-platform support, enhanced caching, and <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts
-
-## Documentation (2)
-
-- 📖 [Quick Start & Reference](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/QUICK_REFERENCE.md)
-- 🌈 [ANSI Color Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-COLOR-GUIDE.md)
-- 🧰 [ANSI Conversion Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-CONVERSION-GUIDE.md)
-- 📋 [Module Summary](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/MODULE_SUMMARY.md)
-- 🔧 [Development Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/DEVELOPMENT.md)
-- 📦 [Publishing Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/PUBLISHING.md)
-- ✅ [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/RELEASE_CHECKLIST.md)
-- 🤝 [Contributing Guidelines](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CONTRIBUTING.md)
-- 🛡️ [Security Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/SECURITY.md)
-- 🙌 [Code of Conduct](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CODE_OF_CONDUCT.md)
-- 🧭 [Project Roadmap](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ROADMAP.md)
-- 💬 [Support Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/SUPPORT.md)
-- 🔄 [Changelog](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CHANGELOG.md)
-
-## CI/CD & Workflows
-
-- ⚙️ [Test Workflow](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/test.yml)
-- � [Code Coverage](https://codecov.io/gh/Nick2bad4u/ps-color-scripts-enhanced) - Automated via Codecov
-- �📦 [Publish Workflow](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/workflows/publish.yml)
-- 🤖 [Dependabot Updates](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/.github/dependabot.yml)
-
-## Testing
-
-This module uses [Pester](https://pester.dev/) for testing with code coverage tracking:
-
-```powershell
-# Run all tests
-npm run test
-
-# Run tests with coverage report
-npm run test:coverage
-
-# Generate HTML coverage report (requires ReportGenerator)
-npm run test:coverage:report
-
-# Run tests directly with Pester
-Invoke-Pester -Path ./Tests
-
-# Run with coverage using the script
-./scripts/Test-Coverage.ps1 -ShowReport
-```
-
-Coverage reports are automatically uploaded to [Codecov](https://codecov.io/gh/Nick2bad4u/ps-color-scripts-enhanced) on every push.
-
-## Support
-
-For support options, response targets, and contact channels, review the [Support Policy](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/SUPPORT.md). Bug reports and feature ideas live in the [issue tracker](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues).
+- **PowerShell:** 5.1+ (7+ recommended)
+- **OS:** Windows 10/11, macOS 10.13+, or Linux
+- **Terminal:** Any ANSI-capable terminal (Windows Terminal, VS Code, iTerm2, etc.)
 
 ---
 
-**Enjoy the colors and scripts!** 🌈✨
+## 📚 More Information
 
-## ANSI art sourced from
+<details>
+<summary><b>📖 User Documentation</b></summary>
 
-- [DistroTube's shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts)
+- [Quick Reference Guide](docs/QUICK_REFERENCE.md)
+- [ANSI Color Guide](docs/ANSI-COLOR-GUIDE.md)
+- [Module Summary](docs/MODULE_SUMMARY.md)
+- [Changelog](CHANGELOG.md)
 
-- [Scott McKendry's ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts)
+</details>
 
-- [16colo.rs](https://16colo.rs/)
+<details>
+<summary><b>🛠️ Developer Documentation</b></summary>
 
-- [ArtScene Textfiles](http://artscene.textfiles.com/artpacks/)
+- [Development Guide](docs/DEVELOPMENT.md)
+- [Testing Guide](docs/TESTING.md)
+- [Linting Guide](docs/LINTING.md)
+- [npm Scripts Reference](docs/NPM_SCRIPTS.md)
+- [Publishing Guide](docs/PUBLISHING.md)
+- [Release Checklist](docs/RELEASE_CHECKLIST.md)
+- [ANSI Conversion Guide](docs/ANSI-CONVERSION-GUIDE.md)
 
-- [r/ANSIart](https://www.reddit.com/r/ANSIart/)
+</details>
 
-- [Sixteen Colors Facebook](https://www.facebook.com/sixteencolors/)
+<details>
+<summary><b>🤝 Contributing & Community</b></summary>
+
+- [Contributing Guidelines](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Security Policy](SECURITY.md)
+- [Support Policy](docs/SUPPORT.md)
+- [Project Roadmap](docs/ROADMAP.md)
+
+</details>
+
+<details>
+<summary><b>🔄 CI/CD & Quality</b></summary>
+
+[![Tests.](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml)
+[![Codecov.](https://codecov.io/gh/Nick2bad4u/PS-Color-Scripts-Enhanced/branch/main/graph/badge.svg)](https://codecov.io/gh/Nick2bad4u/PS-Color-Scripts-Enhanced)
+[![OpenSSF Scorecard.](https://api.scorecard.dev/projects/github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/badge)](https://scorecard.dev/viewer/?uri=github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)
+
+- [Test Workflow](.github/workflows/test.yml)
+- [Publish Workflow](.github/workflows/publish.yml)
+
+</details>
+
+---
+
+## 🙏 Credits
+
+Built upon the work of:
+- [Derek Taylor (DistroTube)](https://gitlab.com/dwt1/shell-color-scripts) — Original shell-color-scripts
+- [Scott McKendry](https://github.com/scottmckendry/ps-color-scripts) — PowerShell port
+
+ANSI art sourced from [16colo.rs](https://16colo.rs/), [ArtScene](http://artscene.textfiles.com/artpacks/), and [r/ANSIart](https://www.reddit.com/r/ANSIart/).
+
+## 📄 License
+
+[Unlicense](LICENSE) — Public domain. Do whatever you want with it.
+
+---
+
+**Enjoy the colors!** 🌈✨

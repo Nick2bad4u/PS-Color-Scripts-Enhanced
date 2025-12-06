@@ -1,4 +1,4 @@
-function Show-ColorScript {
+﻿function Show-ColorScript {
     <#
     .SYNOPSIS
         Displays a colorscript with automatic caching.
@@ -41,8 +41,9 @@ function Show-ColorScript {
         Filter the available script set by tag metadata (case-insensitive).
     .PARAMETER ExcludeCategory
         Exclude scripts from one or more categories. Use this to filter out large collections like Pokemon scripts.
-    .PARAMETER ExcludePokemon
-        Shorthand for -ExcludeCategory Pokemon. Excludes all Pokemon colorscripts from selection.
+    .PARAMETER IncludePokemon
+        Opt-in flag to include Pokemon colorscripts in the random selection.
+        When omitted, Pokemon scripts are filtered out automatically.
     .PARAMETER PassThru
         Return the selected script metadata in addition to rendering output.
     .PARAMETER ReturnText
@@ -88,12 +89,12 @@ function Show-ColorScript {
         Cycles through all nature-themed colorscripts with manual progression.
 
     .EXAMPLE
-        Show-ColorScript -ExcludePokemon
-        Displays a random colorscript that is not a Pokemon.
+        Show-ColorScript -IncludePokemon
+        Displays a random colorscript including Pokemon scripts.
 
     .EXAMPLE
         Show-ColorScript -ExcludeCategory Pokemon,Gaming
-        Displays a random colorscript excluding Pokemon and Gaming categories.
+        Displays a random colorscript. By default Pokémon scripts are excluded; use -IncludePokemon to include them.
     #>
     [OutputType([pscustomobject], ParameterSetName = 'List')]
     [OutputType([pscustomobject], ParameterSetName = 'Named')]
@@ -311,7 +312,7 @@ function Show-ColorScript {
         [string[]]$ExcludeCategory,
 
         [Parameter()]
-        [switch]$ExcludePokemon,
+        [switch]$IncludePokemon,
 
         [Parameter(ParameterSetName = 'Named')]
         [Parameter(ParameterSetName = 'Random')]
@@ -345,13 +346,23 @@ function Show-ColorScript {
     $noAnsiRequested = $NoAnsiOutput.IsPresent
     $preferConsoleOutput = -not $noAnsiRequested
 
+    $filterPokemon = -not $IncludePokemon
+
     # Normalize excluded categories
     $effectiveExcludeCategories = @()
     if ($ExcludeCategory) {
         $effectiveExcludeCategories += $ExcludeCategory
     }
-    if ($ExcludePokemon) {
-        $effectiveExcludeCategories += 'Pokemon'
+    if ($filterPokemon) {
+        # Exclude all Pokemon scripts based on the metadata-driven categories.
+        # Today, ScriptMetadata.psd1 assigns:
+        #   - Regular Pokemon:    Category/Categories contains 'Pokemon'
+        #   - Shiny Pokemon:      Category/Categories contains 'ShinyPokemon'
+        # The newer logical group name 'PokemonShiny' does not appear in
+        # Category/Categories, so relying on it alone will never match.
+        # To be robust we exclude all three identifiers in case future
+        # metadata adds the consolidated name as well.
+        $effectiveExcludeCategories += 'Pokemon', 'ShinyPokemon', 'PokemonShiny'
     }
 
     $excludeCategorySet = @()
@@ -361,12 +372,32 @@ function Show-ColorScript {
                 ForEach-Object { $_.ToLowerInvariant() }
     }
 
+    # Build a concrete name set for all Pokemon scripts so that
+    # the default exclusion can filter by name as well as by category. This makes
+    # the behavior robust even if category wiring changes.
+    $pokemonNameSet = @()
+    if ($filterPokemon) {
+        try {
+            $pokemonRecords = Get-ColorScriptList -Category @('Pokemon', 'ShinyPokemon') -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue
+            if ($pokemonRecords) {
+                $pokemonNameSet = $pokemonRecords |
+                    Where-Object { $_.Name } |
+                        Select-Object -ExpandProperty Name -Unique
+            }
+        }
+        catch {
+            Write-Verbose ("Unable to build Pokemon exclusion list via Get-ColorScriptList: {0}" -f $_.Exception.Message)
+            # If we cannot resolve the Pokemon lists for any reason, fall
+            # back to category-based exclusion only.
+        }
+    }
+
     if ($List) {
         $listParams = @{}
         if ($Category) { $listParams.Category = $Category }
         if ($Tag) { $listParams.Tag = $Tag }
-        if ($quietRequested) { $listParams.Quiet = $true }
-        if ($noAnsiRequested) { $listParams.NoAnsiOutput = $true }
+        if ($quietRequested) { $listParams.Quiet = [System.Management.Automation.SwitchParameter]$true }
+        if ($noAnsiRequested) { $listParams.NoAnsiOutput = [System.Management.Automation.SwitchParameter]$true }
 
         $list = Get-ColorScriptList @listParams
 
@@ -376,247 +407,265 @@ function Show-ColorScript {
                 $recordCategories = $recordCategories |
                     Where-Object { $_ } |
                         ForEach-Object { $_.ToLowerInvariant() }
-                -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
+
+                        -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
+                    }
+                }
+
+                if ($pokemonNameSet.Count -gt 0) {
+                    $list = $list | Where-Object { $pokemonNameSet -notcontains $_.Name }
+                }
+
+                return $list
             }
-        }
 
-        $list
-        return
-    }
+            if ($All) {
+                $needsMetadata = (
+                    ($Category -and $Category.Count -gt 0) -or
+                    ($Tag -and $Tag.Count -gt 0) -or
+                    ($excludeCategorySet.Count -gt 0)
+                )
 
-    if ($All) {
-        $needsMetadata = (
-            ($Category -and $Category.Count -gt 0) -or
-            ($Tag -and $Tag.Count -gt 0) -or
-            ($excludeCategorySet.Count -gt 0)
-        )
-
-        $allScripts = if ($needsMetadata) {
-            Get-ColorScriptEntry -Category $Category -Tag $Tag
-        }
-        else {
-            Get-ColorScriptInventory
-        }
-
-        if ($excludeCategorySet.Count -gt 0 -and $needsMetadata) {
-            $allScripts = $allScripts | Where-Object {
-                $recordCategories = @($_.Category) + $_.Categories
-                $recordCategories = $recordCategories |
-                    Where-Object { $_ } |
-                        ForEach-Object { $_.ToLowerInvariant() }
-                -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
-            }
-        }
-
-        if (-not $allScripts -or $allScripts.Count -eq 0) {
-            Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria
-            return
-        }
-
-        $sortedScripts = $allScripts | Sort-Object Name
-        $totalCount = $sortedScripts.Count
-        $currentIndex = 0
-
-        $displayingMessage = New-ColorScriptAnsiText -Text ($script:Messages.DisplayingColorscripts -f $totalCount) -Color 'Cyan' -NoAnsiOutput:$noAnsiRequested
-        Write-ColorScriptInformation -Message $displayingMessage -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Cyan'
-
-        $modeMessage = if ($WaitForInput) { $script:Messages.PressSpacebarToContinue } else { $script:Messages.DisplayingContinuously }
-        $modeQuiet = if ($WaitForInput) { $false } else { $quietRequested }
-        $modeSegment = New-ColorScriptAnsiText -Text $modeMessage -Color 'Yellow' -NoAnsiOutput:$noAnsiRequested
-        Write-ColorScriptInformation -Message $modeSegment -Quiet:$modeQuiet -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Yellow'
-
-        foreach ($script in $sortedScripts) {
-            $currentIndex++
-
-            if (-not $NoClear) {
-                Clear-Host
-            }
-            $progressSegment = New-ColorScriptAnsiText -Text ($script:Messages.CurrentIndexOfTotal -f $currentIndex, $totalCount) -Color 'Green' -NoAnsiOutput:$noAnsiRequested
-            $scriptNameSegment = New-ColorScriptAnsiText -Text $script.Name -Color 'Cyan' -NoAnsiOutput:$noAnsiRequested
-            Write-ColorScriptInformation -Message ("$progressSegment $scriptNameSegment") -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
-
-            $dividerSegment = New-ColorScriptAnsiText -Text ("=" * 60) -Color 'DarkGray' -NoAnsiOutput:$noAnsiRequested
-            Write-ColorScriptInformation -Message $dividerSegment -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'DarkGray'
-            Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
-
-            $renderedOutput = $null
-            if (-not $NoCache) {
-                Initialize-CacheDirectory
-                $cacheState = Get-CachedOutput -ScriptPath $script.Path
-                if ($cacheState.Available) {
-                    $renderedOutput = $cacheState.Content
+                $allScripts = if ($needsMetadata) {
+                    Get-ColorScriptEntry -Category $Category -Tag $Tag
                 }
                 else {
-                    $cacheResult = Build-ScriptCache -ScriptPath $script.Path
-                    $renderedOutput = $cacheResult.StdOut
+                    Get-ColorScriptInventory
                 }
-            }
-            else {
-                $executionResult = Invoke-ColorScriptProcess -ScriptPath $script.Path
-                $renderedOutput = $executionResult.StdOut
-            }
 
-            if ($renderedOutput) {
-                Invoke-WithUtf8Encoding -ScriptBlock {
-                    param($text, $noAnsiOutput)
-                    Write-RenderedText -Text $text -NoAnsiOutput:$noAnsiOutput
-                } -Arguments @($renderedOutput, $noAnsiRequested)
-            }
+                if ($excludeCategorySet.Count -gt 0 -and $needsMetadata) {
+                    $allScripts = $allScripts | Where-Object {
+                        $recordCategories = @($_.Category) + $_.Categories
+                        $recordCategories = $recordCategories |
+                            Where-Object { $_ } |
+                                ForEach-Object { $_.ToLowerInvariant() }
 
-            if ($WaitForInput -and $currentIndex -lt $totalCount) {
-                Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
-                $promptMessage = New-ColorScriptAnsiText -Text $script:Messages.PressSpacebarForNext -Color 'Yellow' -NoAnsiOutput:$noAnsiRequested
-                Write-ColorScriptInformation -Message $promptMessage -Quiet:$false -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Yellow'
+                                -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
+                            }
+                        }
 
-                $continueLoop = $true
-                while ($continueLoop) {
-                    $key = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
-                    if ($key.VirtualKeyCode -eq 32) {
-                        $continueLoop = $false
-                    }
-                    elseif ($key.Character -eq 'q' -or $key.Character -eq 'Q') {
-                        $quitMessage = New-ColorScriptAnsiText -Text $script:Messages.Quitting -Color 'Yellow' -NoAnsiOutput:$noAnsiRequested
-                        Write-ColorScriptInformation -Message $quitMessage -Quiet:$false -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Yellow'
+                        if ($pokemonNameSet.Count -gt 0) {
+                            $allScripts = $allScripts | Where-Object { $pokemonNameSet -notcontains $_.Name }
+                        }
+
+                        if (-not $allScripts -or $allScripts.Count -eq 0) {
+                            Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria
+                            return
+                        }
+
+                        $sortedScripts = $allScripts | Sort-Object Name
+                        $totalCount = $sortedScripts.Count
+                        $currentIndex = 0
+
+                        $displayingMessage = New-ColorScriptAnsiText -Text ($script:Messages.DisplayingColorscripts -f $totalCount) -Color 'Cyan' -NoAnsiOutput:$noAnsiRequested
+                        Write-ColorScriptInformation -Message $displayingMessage -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Cyan'
+
+                        $modeMessage = if ($WaitForInput) { $script:Messages.PressSpacebarToContinue } else { $script:Messages.DisplayingContinuously }
+                        $modeQuiet = if ($WaitForInput) { $false } else { $quietRequested }
+                        $modeSegment = New-ColorScriptAnsiText -Text $modeMessage -Color 'Yellow' -NoAnsiOutput:$noAnsiRequested
+                        Write-ColorScriptInformation -Message $modeSegment -Quiet:$modeQuiet -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Yellow'
+
+                        foreach ($script in $sortedScripts) {
+                            $currentIndex++
+
+                            if (-not $NoClear) {
+                                Clear-Host
+                            }
+                            $progressSegment = New-ColorScriptAnsiText -Text ($script:Messages.CurrentIndexOfTotal -f $currentIndex, $totalCount) -Color 'Green' -NoAnsiOutput:$noAnsiRequested
+                            $scriptNameSegment = New-ColorScriptAnsiText -Text $script.Name -Color 'Cyan' -NoAnsiOutput:$noAnsiRequested
+                            Write-ColorScriptInformation -Message ("$progressSegment $scriptNameSegment") -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
+
+                            $dividerSegment = New-ColorScriptAnsiText -Text ('=' * 60) -Color 'DarkGray' -NoAnsiOutput:$noAnsiRequested
+                            Write-ColorScriptInformation -Message $dividerSegment -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'DarkGray'
+                            Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
+
+                            $renderedOutput = $null
+                            if (-not $NoCache) {
+                                Initialize-CacheDirectory
+                                $cacheState = Get-CachedOutput -ScriptPath $script.Path
+                                if ($cacheState.Available) {
+                                    $renderedOutput = $cacheState.Content
+                                }
+                                else {
+                                    $cacheResult = Build-ScriptCache -ScriptPath $script.Path
+                                    $renderedOutput = $cacheResult.StdOut
+                                }
+                            }
+                            else {
+                                $executionResult = Invoke-ColorScriptProcess -ScriptPath $script.Path
+                                $renderedOutput = $executionResult.StdOut
+                            }
+
+                            if ($renderedOutput) {
+                                Invoke-WithUtf8Encoding -ScriptBlock {
+                                    param($text, $noAnsiOutput)
+                                    Write-RenderedText -Text $text -NoAnsiOutput:$noAnsiOutput
+                                } -Arguments @($renderedOutput, $noAnsiRequested)
+                            }
+
+                            if ($WaitForInput -and $currentIndex -lt $totalCount) {
+                                Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
+                                $promptMessage = New-ColorScriptAnsiText -Text $script:Messages.PressSpacebarForNext -Color 'Yellow' -NoAnsiOutput:$noAnsiRequested
+                                Write-ColorScriptInformation -Message $promptMessage -Quiet:$false -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Yellow'
+
+                                $continueLoop = $true
+                                while ($continueLoop) {
+                                    $key = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
+                                    if ($key.VirtualKeyCode -eq 32) {
+                                        $continueLoop = $false
+                                    }
+                                    elseif ($key.Character -eq 'q' -or $key.Character -eq 'Q') {
+                                        $quitMessage = New-ColorScriptAnsiText -Text $script:Messages.Quitting -Color 'Yellow' -NoAnsiOutput:$noAnsiRequested
+                                        Write-ColorScriptInformation -Message $quitMessage -Quiet:$false -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Yellow'
+                                        return
+                                    }
+                                }
+                                Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
+                            }
+                            elseif (-not $WaitForInput -and $currentIndex -lt $totalCount) {
+                                Start-Sleep -Milliseconds 100
+                            }
+                        }
+
+                        Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
+                        $completeMessage = New-ColorScriptAnsiText -Text ($script:Messages.FinishedDisplayingAll -f $totalCount) -Color 'Green' -NoAnsiOutput:$noAnsiRequested
+                        Write-ColorScriptInformation -Message $completeMessage -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Green'
                         return
                     }
-                }
-                Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
-            }
-            elseif (-not $WaitForInput -and $currentIndex -lt $totalCount) {
-                Start-Sleep -Milliseconds 100
-            }
-        }
 
-        Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
-        $completeMessage = New-ColorScriptAnsiText -Text ($script:Messages.FinishedDisplayingAll -f $totalCount) -Color 'Green' -NoAnsiOutput:$noAnsiRequested
-        Write-ColorScriptInformation -Message $completeMessage -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Green'
-        return
-    }
+                    $needsMetadata = (
+                        ($Category -and $Category.Count -gt 0) -or
+                        ($Tag -and $Tag.Count -gt 0) -or
+                        $PassThru.IsPresent -or
+                        ($excludeCategorySet.Count -gt 0)
+                    )
 
-    $needsMetadata = (
-        ($Category -and $Category.Count -gt 0) -or
-        ($Tag -and $Tag.Count -gt 0) -or
-        $PassThru.IsPresent -or
-        ($excludeCategorySet.Count -gt 0)
-    )
+                    $records = if ($needsMetadata) {
+                        Get-ColorScriptEntry -Category $Category -Tag $Tag
+                    }
+                    else {
+                        Get-ColorScriptInventory
+                    }
 
-    $records = if ($needsMetadata) {
-        Get-ColorScriptEntry -Category $Category -Tag $Tag
-    }
-    else {
-        Get-ColorScriptInventory
-    }
+                    if (-not $records -or $records.Count -eq 0) {
+                        Write-Warning ($script:Messages.NoColorscriptsFoundInScriptsPath -f $script:ScriptsPath)
+                        return
+                    }
 
-    if (-not $records -or $records.Count -eq 0) {
-        Write-Warning ($script:Messages.NoColorscriptsFoundInScriptsPath -f $script:ScriptsPath)
-        return
-    }
+                    if ($Name) {
+                        $selectionResult = Select-RecordsByName -Records $records -Name $Name
+                        foreach ($pattern in $selectionResult.MissingPatterns) {
+                            Write-Warning ($script:Messages.ColorscriptNotFoundWithFilters -f $pattern)
+                        }
 
-    if ($Name) {
-        $selectionResult = Select-RecordsByName -Records $records -Name $Name
-        foreach ($pattern in $selectionResult.MissingPatterns) {
-            Write-Warning ($script:Messages.ColorscriptNotFoundWithFilters -f $pattern)
-        }
+                        $records = $selectionResult.Records
+                        if (-not $records -or $records.Count -eq 0) {
+                            return
+                        }
+                    }
 
-        $records = $selectionResult.Records
-        if (-not $records -or $records.Count -eq 0) {
-            return
-        }
-    }
+                    if ($excludeCategorySet.Count -gt 0 -and $needsMetadata) {
+                        $records = $records | Where-Object {
+                            $recordCategories = @($_.Category) + $_.Categories
+                            $recordCategories = $recordCategories |
+                                Where-Object { $_ } |
+                                    ForEach-Object { $_.ToLowerInvariant() }
+                                    -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
+                                }
 
-    if ($excludeCategorySet.Count -gt 0 -and $needsMetadata) {
-        $records = $records | Where-Object {
-            $recordCategories = @($_.Category) + $_.Categories
-            $recordCategories = $recordCategories |
-                Where-Object { $_ } |
-                    ForEach-Object { $_.ToLowerInvariant() }
-            -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
-        }
+                                if (-not $records -or $records.Count -eq 0) {
+                                    Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria
+                                    return
+                                }
+                            }
 
-        if (-not $records -or $records.Count -eq 0) {
-            Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria
-            return
-        }
-    }
+                            if ($pokemonNameSet.Count -gt 0) {
+                                $records = $records | Where-Object { $pokemonNameSet -notcontains $_.Name }
 
-    $useRandom = $Random -or $PSCmdlet.ParameterSetName -eq 'Random'
+                                if (-not $records -or $records.Count -eq 0) {
+                                    Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria
+                                    return
+                                }
+                            }
 
-    $selection = $null
+                            $useRandom = $Random -or $PSCmdlet.ParameterSetName -eq 'Random'
 
-    if ($Name) {
-        $orderedMatches = $records | Sort-Object Name
-        if ($orderedMatches.Count -gt 1) {
-            $matchedNames = $orderedMatches | Select-Object -ExpandProperty Name
-            Write-Verbose ($script:Messages.MultipleColorscriptsMatched -f ($matchedNames -join ', '), $orderedMatches[0].Name)
-        }
-        $selection = $orderedMatches | Select-Object -First 1
-    }
-    elseif ($useRandom) {
-        $rng = [System.Random]::new()
-        $index = $rng.Next($records.Count)
-        $selection = $records[$index]
-    }
-    else {
-        $selection = $records | Select-Object -First 1
-    }
+                            $selection = $null
 
-    $renderedOutput = $null
+                            if ($Name) {
+                                $orderedMatches = $records | Sort-Object Name
+                                if ($orderedMatches.Count -gt 1) {
+                                    $matchedNames = $orderedMatches | Select-Object -ExpandProperty Name
+                                    Write-Verbose ($script:Messages.MultipleColorscriptsMatched -f ($matchedNames -join ', '), $orderedMatches[0].Name)
+                                }
+                                $selection = $orderedMatches | Select-Object -First 1
+                            }
+                            elseif ($useRandom) {
+                                $rng = [System.Random]::new()
+                                $index = $rng.Next($records.Count)
+                                $selection = $records[$index]
+                            }
+                            else {
+                                $selection = $records | Select-Object -First 1
+                            }
 
-    if (-not $NoCache) {
-        Initialize-CacheDirectory
+                            $renderedOutput = $null
 
-        $cacheState = Get-CachedOutput -ScriptPath $selection.Path
-        if ($cacheState.Available) {
-            $renderedOutput = $cacheState.Content
-        }
-        else {
-            $cacheResult = Build-ScriptCache -ScriptPath $selection.Path
-            if (-not $cacheResult.Success) {
-                if ($cacheResult.StdErr) {
-                    Write-Warning ($script:Messages.CacheBuildFailedForScript -f $selection.Name, $cacheResult.StdErr.Trim())
-                }
+                            if (-not $NoCache) {
+                                Initialize-CacheDirectory
 
-                if ([string]::IsNullOrEmpty($cacheResult.StdOut)) {
-                    Invoke-ColorScriptError -Message $script:Messages.FailedToBuildCacheForScript -ErrorId 'ColorScriptsEnhanced.CacheBuildFailed' -Category ([System.Management.Automation.ErrorCategory]::InvalidOperation) -TargetObject $selection.Name -Cmdlet $PSCmdlet
-                }
+                                $cacheState = Get-CachedOutput -ScriptPath $selection.Path
+                                if ($cacheState.Available) {
+                                    $renderedOutput = $cacheState.Content
+                                }
+                                else {
+                                    $cacheResult = Build-ScriptCache -ScriptPath $selection.Path
+                                    if (-not $cacheResult.Success) {
+                                        if ($cacheResult.StdErr) {
+                                            Write-Warning ($script:Messages.CacheBuildFailedForScript -f $selection.Name, $cacheResult.StdErr.Trim())
+                                        }
 
-                $renderedOutput = $cacheResult.StdOut
-            }
-            else {
-                $renderedOutput = $cacheResult.StdOut
-            }
-        }
-    }
-    else {
-        $executionResult = Invoke-ColorScriptProcess -ScriptPath $selection.Path
-        if (-not $executionResult.Success) {
-            $errorMessage = if ($executionResult.StdErr) { $executionResult.StdErr.Trim() } else { "Script exited with code $($executionResult.ExitCode)." }
-            Invoke-ColorScriptError -Message ($script:Messages.FailedToExecuteColorscript -f $selection.Name, $errorMessage) -ErrorId 'ColorScriptsEnhanced.ScriptExecutionFailed' -Category ([System.Management.Automation.ErrorCategory]::InvalidOperation) -TargetObject $selection.Name -Cmdlet $PSCmdlet
-        }
+                                        if ([string]::IsNullOrEmpty($cacheResult.StdOut)) {
+                                            Invoke-ColorScriptError -Message $script:Messages.FailedToBuildCacheForScript -ErrorId 'ColorScriptsEnhanced.CacheBuildFailed' -Category ([System.Management.Automation.ErrorCategory]::InvalidOperation) -TargetObject $selection.Name -Cmdlet $PSCmdlet
+                                        }
 
-        $renderedOutput = $executionResult.StdOut
-    }
+                                        $renderedOutput = $cacheResult.StdOut
+                                    }
+                                    else {
+                                        $renderedOutput = $cacheResult.StdOut
+                                    }
+                                }
+                            }
+                            else {
+                                $executionResult = Invoke-ColorScriptProcess -ScriptPath $selection.Path
+                                if (-not $executionResult.Success) {
+                                    $errorMessage = if ($executionResult.StdErr) { $executionResult.StdErr.Trim() } else { "Script exited with code $($executionResult.ExitCode)." }
+                                    Invoke-ColorScriptError -Message ($script:Messages.FailedToExecuteColorscript -f $selection.Name, $errorMessage) -ErrorId 'ColorScriptsEnhanced.ScriptExecutionFailed' -Category ([System.Management.Automation.ErrorCategory]::InvalidOperation) -TargetObject $selection.Name -Cmdlet $PSCmdlet
+                                }
 
-    if ($null -eq $renderedOutput) {
-        $renderedOutput = ''
-    }
+                                $renderedOutput = $executionResult.StdOut
+                            }
 
-    $boundParameters = $PSCmdlet.MyInvocation.BoundParameters
-    $pipelineLength = $PSCmdlet.MyInvocation.PipelineLength
-    $shouldEmitText = Test-ColorScriptTextEmission -ReturnText:$ReturnText.IsPresent -PassThru:$PassThru.IsPresent -PipelineLength $pipelineLength -BoundParameters $boundParameters
+                            if ($null -eq $renderedOutput) {
+                                $renderedOutput = ''
+                            }
 
-    Invoke-WithUtf8Encoding -ScriptBlock {
-        param($text, $emitText, $noAnsiOutput)
+                            $boundParameters = $PSCmdlet.MyInvocation.BoundParameters
+                            $pipelineLength = $PSCmdlet.MyInvocation.PipelineLength
+                            $shouldEmitText = Test-ColorScriptTextEmission -ReturnText:$ReturnText.IsPresent -PassThru:$PassThru.IsPresent -PipelineLength $pipelineLength -BoundParameters $boundParameters
 
-        if ($emitText) {
-            Write-Output $text
-            return
-        }
+                            Invoke-WithUtf8Encoding -ScriptBlock {
+                                param($text, $emitText, $noAnsiOutput)
 
-        Write-RenderedText -Text $text -NoAnsiOutput:$noAnsiOutput
-    } -Arguments @($renderedOutput, $shouldEmitText, $noAnsiRequested)
+                                if ($emitText) {
+                                    Write-Output $text
+                                    return
+                                }
 
-    if ($PassThru) {
-        return $selection
-    }
-}
+                                Write-RenderedText -Text $text -NoAnsiOutput:$noAnsiOutput
+                            } -Arguments @($renderedOutput, $shouldEmitText, $noAnsiRequested)
+
+                            if ($PassThru) {
+                                return $selection
+                            }
+                        }

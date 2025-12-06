@@ -59,7 +59,7 @@
     <command:returnValues>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>None (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>このコマンドレットは、パイプラインに出力を返しません。</maml:para>
@@ -72,16 +72,16 @@
 **モジュール:** ColorScripts-Enhanced
 **要件:** PowerShell 5.1 以降
 
-**プロファイル統合:**
+## プロファイル統合
 このコマンドレットは、ColorScripts-Enhanced をインポートし、便利なアクセスを提供するスタートアップ スニペットを追加します。統合は軽量で非破壊的です。
 
-**スコープの考慮事項:**
+## スコープの考慮事項
 
 - CurrentUser スコープは、ユーザー プロファイル ディレクトリのファイルを変更します
 - AllUsers スコープは管理者権限を必要とし、すべてのユーザーに影響します
 - 変更は新しい PowerShell セッションで有効になります
 
-**安全機能:**
+## 安全機能
 
 - 重複を避けるために既存の統合を確認します
 - 標準の PowerShell プロファイル メカニズムを使用します
@@ -323,29 +323,29 @@ Add-ColorScriptProfile -Confirm
     </command:returnValues>
     <maml:alertSet>
       <maml:alert>
-        <maml:para>**Performance Considerations:**
+        <maml:para>## Performance Considerations
 
 - Adding `-IncludeFileInfo` or `-IncludeCacheInfo` requires filesystem I/O operations and may impact performance when processing large colorscript libraries.
 - For large exports, consider using `-PassThru` with pipeline filtering rather than loading all in memory
 - Export operations scale linearly with script count
 
-**Cache Directory Management:**
+## Cache Directory Management
 
 - Cache metadata collection ensures the cache directory exists before attempting to read cache files.
 - When cache files are missing or unavailable, the `CacheExists` property is set to `false` and `CacheLastWriteTime` is set to null.
 
-**Error Handling:**
+## Error Handling
 
 - File metadata read errors are reported via verbose output (`-Verbose`) rather than terminating the cmdlet.
 - Individual file errors result in null values for the affected properties while allowing the cmdlet to continue processing remaining colorscripts.
 
-**JSON Output Format:**
+## JSON Output Format
 
 - JSON files are written with indentation (depth 2) for human readability.
 - The output encoding is UTF-8 for maximum compatibility.
 - Existing files at the target path are overwritten without prompting.
 
-**Best Practices:**
+## Best Practices
 
 - Schedule regular metadata exports for auditing
 - Version your metadata exports with timestamps
@@ -353,7 +353,7 @@ Add-ColorScriptProfile -Confirm
 - Store backups in version control or backup systems
 - Monitor export file size growth over time
 
-**Use Cases:**
+## Use Cases
 
 - Integrating with CI/CD pipelines for documentation generation
 - Building web dashboards or API endpoints serving colorscript metadata
@@ -644,14 +644,14 @@ Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**構成プロパティ:**
+## 構成プロパティ
 
 - CachePath: キャッシュされたスクリプト出力が保存される場所
 - 最適化のためのパフォーマンス設定
 - デフォルト動作の表示設定
 - モジュール固有の構成オプション
 
-**構成の場所:**
+## 構成の場所
 設定はユーザー固有の構成ファイルに保存されます。永続性のために標準の PowerShell 構成メカニズムを使用します。</maml:para>
       </maml:alert>
     </maml:alertSet>
@@ -831,7 +831,7 @@ if (Get-ColorScriptConfiguration) {
       </command:returnValue>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>None (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>`-AsObject` が指定されていない場合、出力はコンソールホストに直接書き込まれます。</maml:para>
@@ -844,14 +844,14 @@ if (Get-ColorScriptConfiguration) {
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 以降
 
-**Metadata Properties:**
+## Metadata Properties
 
 - Name: Show-ColorScript で使用されるスクリプト識別子
 - Category: 組織化のためのテーマ別グループ
 - Tags: フィルタリングのための記述キーワードの配列
 - Description: コンテンツの人間が読める説明
 
-**Usage Patterns:**
+## Usage Patterns
 
 - Discovery: 選択前に利用可能なスクリプトを探索
 - Filtering: カテゴリとタグを使用してオプションを絞り込む
@@ -1143,7 +1143,7 @@ Get-ColorScriptList -AsObject | Where-Object {
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 以降
 
-**Templates:**
+## Templates
 
 - Basic: カスタムスクリプトのための最小構造
 - Animated: タイミングコントロールを持つテンプレート
@@ -1151,7 +1151,7 @@ Get-ColorScriptList -AsObject | Where-Object {
 - Geometric: 幾何学パターンのためのテンプレート
 - Nature: 自然に着想を得たデザインのためのテンプレート
 
-**File Structure:**
+## File Structure
 作成されたスクリプトはモジュールの標準組織に従い、キャッシュおよび表示システムに自動的に統合されます。</maml:para>
       </maml:alert>
     </maml:alertSet>
@@ -1256,7 +1256,9 @@ foreach ($theme in $themes) {
     <maml:description>
       <maml:para>初回表示時の最適なパフォーマンスを確保するために、colorscripts のキャッシュ出力を事前生成します。このコマンドレットは colorscripts を事前に実行し、レンダリングされた出力を保存して即時取得できるようにします。</maml:para>
       <maml:para>キャッシュシステムは 6-19 倍のパフォーマンス向上を提供します。初回実行時には colorscript が通常通り実行され、その出力がキャッシュされます。以降の表示ではキャッシュされた出力を使用してほぼ瞬時にレンダリングされます。ソーススクリプトが変更されるとキャッシュは自動的に無効化され、出力の正確性が確保されます。</maml:para>
-      <maml:para>### -Quiet</maml:para>
+      <maml:para>### -IncludePokemon</maml:para>
+      <maml:para>キャッシュのビルドにポケモン（通常および色違い）を含めます。デフォルトではポケモンのスクリプトは除外されています。ポケモンを含めるには `-IncludePokemon` を使用してください。注: このパラメーターは以前の `-ExcludePokemon` を置き換え、リファクタにより意味が反転しています（現在はオプトイン）。</maml:para>
+      <maml:para>```yaml Type: System.Management.Automation.SwitchParameter DefaultValue: False SupportsWildcards: false Aliases: [] ParameterSets:  - Name: (All)      Position: Named      IsRequired: false      ValueFromPipeline: false      ValueFromPipelineByPropertyName: false      ValueFromRemainingArguments: false DontShow: false AcceptedValues: [] HelpMessage: "" ``` ### -Quiet</maml:para>
       <maml:para>完了時のサマリーメッセージを抑制します。</maml:para>
       <maml:para>```yaml Type: System.Management.Automation.SwitchParameter DefaultValue: False SupportsWildcards: false Aliases: [] ParameterSets:  - Name: (All)    Position: Named    IsRequired: false    ValueFromPipeline: false    ValueFromPipelineByPropertyName: false    ValueFromRemainingArguments: false DontShow: false AcceptedValues: [] HelpMessage: "" ```</maml:para>
       <maml:para>### -NoAnsiOutput</maml:para>
@@ -1406,13 +1408,13 @@ foreach ($theme in $themes) {
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 以降
 
-**Performance Impact:**
+## Performance Impact
 事前キャッシュにより、初回表示時の実行時間が排除され、即時の視覚フィードバックが提供されます。特に複雑またはアニメーションスクリプトに有益です。
 
-**Cache Management:**
+## Cache Management
 キャッシュファイルはモジュール管理ディレクトリに保存され、ソーススクリプトが変更されると自動的に無効化されます。古いキャッシュを削除するには Clear-ColorScriptCache を使用します。
 
-**Best Practices:**
+## Best Practices
 
 - 最適なパフォーマンスのために頻繁に使用するスクリプトをキャッシュ
 - 不必要な処理を避けるために選択的なキャッシュを使用
@@ -1541,7 +1543,7 @@ New-ColorScriptCache -Category Geometric -Tag minimal
     <command:returnValues>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>None (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>このコマンドレットは、パイプラインに出力を返しません。</maml:para>
@@ -1554,13 +1556,13 @@ New-ColorScriptCache -Category Geometric -Tag minimal
 **モジュール:** ColorScripts-Enhanced
 **要件:** PowerShell 5.1 以降
 
-**リセット範囲:**
+## リセット範囲
 すべてのユーザー構成可能な設定をモジュールのデフォルトにリセットします。これには、キャッシュ パス、パフォーマンス設定、表示設定が含まれます。
 
-**データ安全性:**
+## データ安全性
 構成のリセットは、キャッシュされたスクリプト出力やユーザー作成の colorscripts に影響しません。構成設定のみが影響を受けます。
 
-**回復:**
+## 回復
 リセット後、必要に応じて Set-ColorScriptConfiguration を使用してカスタム設定を再適用します。</maml:para>
       </maml:alert>
     </maml:alertSet>
@@ -1688,7 +1690,7 @@ Get-ColorScriptConfiguration
     <command:returnValues>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>None (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>このコマンドレットは、パイプラインに出力を返しません。</maml:para>
@@ -1701,13 +1703,13 @@ Get-ColorScriptConfiguration
 **モジュール:** ColorScripts-Enhanced
 **要件:** PowerShell 5.1 以降
 
-**構成の永続性:**
+## 構成の永続性
 設定は自動的にユーザー固有の構成ファイルに保存され、PowerShell セッション間で保持されます。
 
-**パスの解決:**
+## パスの解決
 キャッシュパスは環境変数、相対パス、標準の PowerShell パス表記をサポートします。
 
-**検証:**
+## 検証
 無効な設定を防ぐために、構成変更は適用前に検証されます。</maml:para>
       </maml:alert>
     </maml:alertSet>
@@ -1815,9 +1817,9 @@ Set-ColorScriptConfiguration -CachePath "D:\Cache"
       <maml:para>**Named Mode:** 名前で特定のカラースクリプトを表示します。柔軟なマッチングのためのワイルドカードパターンをサポートします。複数のスクリプトがパターンに一致する場合、アルファベット順で最初の一致が選択されます。</maml:para>
       <maml:para>**List Mode:** 名前、カテゴリ、タグ、説明などのメタデータを含む、利用可能なすべてのカラースクリプトのフォーマットされたリストを表示します。</maml:para>
       <maml:para>**All Mode:** アルファベット順ですべての利用可能なカラースクリプトを循環します。特に、コレクション全体を展示したり、新しいスクリプトを発見したりするのに便利です。</maml:para>
-      <maml:para>**Performance Features:** キャッシングシステムは6-19倍のパフォーマンス向上を提供します。最初の実行では、カラースクリプトが通常通り実行され、その出力がキャッシュされます。その後の表示では、キャッシュされた出力を使用してほぼ瞬時にレンダリングされます。ソーススクリプトが変更されるとキャッシュが自動的に無効化され、出力の正確性が確保されます。</maml:para>
-      <maml:para>**Filtering Capabilities:** 選択が発生する前に、カテゴリまたはタグでスクリプトをフィルタリングします。これはすべてのモードに適用され、コレクションのサブセット（例: 自然テーマのスクリプトのみ、または「retro」としてタグ付けされたスクリプト）で作業できます。</maml:para>
-      <maml:para>**Output Options:** デフォルトでは、カラースクリプトは即時の視覚表示のためにコンソールに直接書き込まれます。`-ReturnText`を使用して、レンダリングされた出力をパイプラインに送信し、キャプチャ、リダイレクト、またはさらなる処理を行います。`-PassThru`を使用して、スクリプトのメタデータオブジェクトをプログラムで使用するために受け取ります。</maml:para>
+      <maml:para>## Performance Features キャッシングシステムは6-19倍のパフォーマンス向上を提供します。最初の実行では、カラースクリプトが通常通り実行され、その出力がキャッシュされます。その後の表示では、キャッシュされた出力を使用してほぼ瞬時にレンダリングされます。ソーススクリプトが変更されるとキャッシュが自動的に無効化され、出力の正確性が確保されます。</maml:para>
+      <maml:para>## Filtering Capabilities 選択が発生する前に、カテゴリまたはタグでスクリプトをフィルタリングします。これはすべてのモードに適用され、コレクションのサブセット（例: 自然テーマのスクリプトのみ、または「retro」としてタグ付けされたスクリプト）で作業できます。</maml:para>
+      <maml:para>## Output Options デフォルトでは、カラースクリプトは即時の視覚表示のためにコンソールに直接書き込まれます。`-ReturnText`を使用して、レンダリングされた出力をパイプラインに送信し、キャプチャ、リダイレクト、またはさらなる処理を行います。`-PassThru`を使用して、スクリプトのメタデータオブジェクトをプログラムで使用するために受け取ります。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2087,7 +2089,7 @@ Set-ColorScriptConfiguration -CachePath "D:\Cache"
       </command:returnValue>
       <command:returnValue>
         <dev:type>
-          <dev:name>System.String</dev:name>
+          <dev:name>System.String (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>`-ReturnText` が指定された場合、レンダリングされたカラースクリプトを文字列としてパイプラインに送信します。この文字列には、互換性のあるターミナルで表示されたときに適切な色でレンダリングするためのすべての ANSI エスケープシーケンスが含まれます。</maml:para>
@@ -2108,17 +2110,17 @@ Set-ColorScriptConfiguration -CachePath "D:\Cache"
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance
 インテリジェントなキャッシングシステムは、直接実行よりも6-19倍のパフォーマンス向上を提供します。キャッシュファイルはモジュール管理ディレクトリに保存され、ソーススクリプトが変更されると自動的に無効化され、正確性が確保されます。
 
-**Cache Management:**
+## Cache Management
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
-**Tips:**
+## Tips
 
 - Add `Show-ColorScript -Random` to your PowerShell profile for a colorful greeting on each session start
 - Use the module alias `scs` for quick access: `scs -Random`
@@ -2126,14 +2128,14 @@ Set-ColorScriptConfiguration -CachePath "D:\Cache"
 - Use `-List` to discover new scripts and learn about their themes
 - The `-All -WaitForInput` combination is perfect for presenting the collection to others
 
-**Compatibility:**
+## Compatibility
 Colorscripts use ANSI escape sequences and display best in terminals with full color support, such as Windows Terminal, ConEmu, or modern Unix terminals.
 
 ## ADVANCED USAGE
 
 ### Filtering Strategies
 
-**By Category and Tag Combination**
+## By Category and Tag Combination
 
 ```powershell
 # 最小限としてタグ付けされた幾何学カラースクリプトのみを表示
@@ -2146,7 +2148,7 @@ Show-ColorScript -Category Nature -Tag Recommended -Random
 Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
 ```
 
-**Dynamic Filtering Based on Time**
+## Dynamic Filtering Based on Time
 
 ```powershell
 # 朝: 明るい色
@@ -2161,7 +2163,7 @@ else {
 
 ### Output Capture Patterns
 
-**Save for Later Viewing**
+## Save for Later Viewing
 
 ```powershell
 # 変数に保存
@@ -2172,7 +2174,7 @@ $art | Out-File "./my-art.ansi" -Encoding UTF8
 Get-Content "./my-art.ansi" -Raw | Write-Host
 ```
 
-**Create Themed Collections**
+## Create Themed Collections
 
 ```powershell
 # すべての幾何学スクリプトを収集
@@ -2187,7 +2189,7 @@ $geometric | ForEach-Object {
 
 ### Performance Analysis
 
-**Comprehensive Benchmark**
+## Comprehensive Benchmark
 
 ```powershell
 # カラースクリプトのパフォーマンスをベンチマークする関数
@@ -2219,7 +2221,7 @@ Get-ColorScriptList -Category Geometric -AsObject |
 
 ### Terminal Customization
 
-**Terminal-Specific Display**
+## Terminal-Specific Display
 
 ```powershell
 # ANSIサポート付きWindows Terminal
@@ -2245,7 +2247,7 @@ if ($env:ConEmuANSI -eq "ON") {
 
 ### Automation Integration
 
-**Scheduled Colorscript Rotation**
+## Scheduled Colorscript Rotation
 
 ```powershell
 # スケジュールされたタスクラッパーを作成
@@ -2268,7 +2270,7 @@ function Start-ColorScriptSession {
 
 ### Error Handling and Resilience
 
-**Graceful Fallback**
+## Graceful Fallback
 
 ```powershell
 # 特定のスクリプトを試し、ランダムにフォールバック
@@ -2280,7 +2282,7 @@ try {
 }
 ```
 
-**Validation Before Display**
+## Validation Before Display
 
 ```powershell
 # 表示前にスクリプトが存在することを確認
@@ -2297,7 +2299,7 @@ if ($scriptName -in $scripts.Name) {
 
 ### Metadata Inspection
 
-**Inspect Before Displaying**
+## Inspect Before Displaying
 
 ```powershell
 # 表示中にメタデータを取得
@@ -2312,23 +2314,23 @@ if ($metadata.Tags -contains "Animated") {
 }
 ```
 
-## NOTES
+## NOTES (2)
 
 **Author:** Nick
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance (2)
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
-**Cache Management:**
+## Cache Management (2)
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
-**Advanced Tips:**
+## Advanced Tips
 
 - Use `-PassThru` to get metadata while displaying for post-processing
 - Combine `-ReturnText` with pipeline commands for advanced text manipulation
@@ -2341,7 +2343,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 - Use environment variables to customize behavior per environment
 - Implement error handling for automated display scenarios
 
-**Terminal Compatibility Matrix:**
+## Terminal Compatibility Matrix
 
 | Terminal           | ANSI Support | UTF-8     | Performance | Notes                      |
 | ------------------ | ------------ | --------- | ----------- | -------------------------- |

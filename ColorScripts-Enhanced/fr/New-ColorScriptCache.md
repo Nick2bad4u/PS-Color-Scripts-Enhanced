@@ -1,4 +1,4 @@
-﻿---
+---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/New-ColorScriptCache.md
@@ -31,13 +31,13 @@ The cmdlet intelligently skips scripts whose cache files are already up-to-date 
 ### All
 
 ```text
-New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-All] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Named
 
 ```text
-New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## EXAMPLES
@@ -281,6 +281,26 @@ ParameterSets:
    ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
+### -IncludePokemon
+
+Inclut tous les scripts Pokémon (versions classiques et shiny) lors de la génération du cache. Par défaut, les scripts Pokémon sont ignorés ; utilisez `-IncludePokemon` pour les inclure. Remarque : ce paramètre remplace l'ancien `-ExcludePokemon` — la logique a été inversée lors du refactor (désormais opt-in).
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+     Position: Named
+     IsRequired: false
+     ValueFromPipeline: false
+     ValueFromPipelineByPropertyName: false
+     ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
 HelpMessage: ""
 ```
 
@@ -321,6 +341,27 @@ ParameterSets:
    ValueFromPipeline: true
    ValueFromPipelineByPropertyName: true
    ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -IncludePokemon
+
+Inclut tous les scripts Pokémon (versions classiques et shiny) lors de la génération du cache. Par défaut, les scripts Pokémon sont ignorés ; utilisez `-IncludePokemon` pour les inclure. Remarque : ce paramètre remplace l'ancien `-ExcludePokemon` — la logique a été inversée lors du refactor (désormais opt-in).
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+     Position: Named
+     IsRequired: false
+     ValueFromPipeline: false
+     ValueFromPipelineByPropertyName: false
+     ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""

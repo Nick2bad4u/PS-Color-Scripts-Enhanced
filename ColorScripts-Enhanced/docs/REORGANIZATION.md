@@ -59,7 +59,7 @@ The following files contain references to moved files and need to be updated:
 - `docs/DEVELOPMENT.md` - References to all moved scripts
 - `docs/PUBLISHING.md` - References to build.ps1, Lint-Module.ps1, Test-Module.ps1
 - `docs/QUICK_REFERENCE.md` - References to conversion scripts and lint scripts
-- `docs/ANSI-CONVERSION-GUIDE.md` - Many references to Convert-AnsiToColorScript.ps1
+ - `docs/ANSI-CONVERSION-GUIDE.md` - Numerous references to Convert-AnsiToColorScript.ps1
 - `docs/MODULE_SUMMARY.md` - References to Lint-Module.ps1
 - `docs/ROADMAP.md` - References to Get-ColorScriptCount.ps1
 - `docs/RELEASE_CHECKLIST.md` - References to build.ps1

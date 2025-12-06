@@ -18,13 +18,13 @@ Pré-constrói cache para otimização de desempenho do colorscript.
 ### Todos
 
 ```text
-New-ColorScriptCache [-All] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-All] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Selecionados
 
 ```text
-New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -76,6 +76,28 @@ DontShow: false
 AcceptedValues: []
 HelpMessage: ""
 ```
+
+### -IncludePokemon
+
+Inclui todos os scripts de Pokémon (normais e shiny) na construção do cache. Por padrão, os scripts de Pokémon são ignorados; use `-IncludePokemon` para incluí-los. Observação: este parâmetro substitui o antigo `-ExcludePokemon` — a lógica foi invertida durante o refactor (agora opt-in).
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
 Use este cmdlet para:
 
 - Preparar cache para scripts frequentemente usados

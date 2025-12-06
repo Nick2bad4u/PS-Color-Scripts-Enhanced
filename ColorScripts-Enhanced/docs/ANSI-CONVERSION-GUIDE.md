@@ -95,7 +95,7 @@ Blue Text
 - `ESC[nB` - Move cursor down n lines
 - `ESC[nC` - Move cursor forward n columns
 
-#### Format 2: 80-Column Wrapped
+### Format 2: 80-Column Wrapped
 
 Files where all content is on one long line meant to wrap every 80 visible characters:
 
@@ -113,7 +113,7 @@ Files where all content is on one long line meant to wrap every 80 visible chara
 ██ ▀ ▄...▄ ▀ ██
 ```
 
-#### Format 3: Mixed Format (Some Lines Need Wrapping)
+### Format 3: Mixed Format (Some Lines Need Wrapping)
 
 Files with multiple lines where **some** individual lines exceed 80 characters:
 

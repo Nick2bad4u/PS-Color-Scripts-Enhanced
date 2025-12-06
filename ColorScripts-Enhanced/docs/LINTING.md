@@ -56,7 +56,7 @@ For PowerShell 7 specific linting:
 
 ## PSScriptAnalyzer Settings
 
-The project uses custom ScriptAnalyzer rules defined in [`PSScriptAnalyzerSettings.psd1`](../PSScriptAnalyzerSettings.psd1).
+The project uses custom ScriptAnalyzer rules defined in [`PSScriptAnalyzerSettings.psd1`](../../PSScriptAnalyzerSettings.psd1).
 
 ### Key Rules
 
@@ -67,7 +67,7 @@ The project uses custom ScriptAnalyzer rules defined in [`PSScriptAnalyzerSettin
 - **PSUseConsistentIndentation** - 4 spaces, no tabs
 - **PSUseConsistentWhitespace** - Consistent spacing around operators
 
-See the [PSScriptAnalyzerSettings.psd1](../PSScriptAnalyzerSettings.psd1) file for the complete ruleset.
+See the [PSScriptAnalyzerSettings.psd1](../../PSScriptAnalyzerSettings.psd1) file for the complete ruleset.
 
 ## What Gets Linted
 
@@ -176,7 +176,7 @@ Linting is automatically run in GitHub Actions:
 2. **Strict Mode** - Treats warnings as errors in CI
 3. **Cross-Platform** - Validates on Windows, Linux, and macOS
 
-See [`.github/workflows/test.yml`](../.github/workflows/test.yml) for CI configuration.
+See [`.github/workflows/test.yml`](../../.github/workflows/test.yml) for CI configuration.
 
 ## Pre-Commit Linting
 
@@ -212,5 +212,6 @@ The linting rules may evolve as the project grows. When updating rules:
 
 - [Testing Guide](TESTING.md) - Testing procedures
 - [Development Guide](Development.md) - Complete development workflow
-- [Contributing Guidelines](../CONTRIBUTING.md) - How to contribute
+- [Contributing Guidelines](../../CONTRIBUTING.md) - How to contribute
 - [PSScriptAnalyzer Documentation](https://github.com/PowerShell/PSScriptAnalyzer) - Official docs
+

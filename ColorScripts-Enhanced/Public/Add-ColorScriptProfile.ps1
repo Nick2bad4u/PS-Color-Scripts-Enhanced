@@ -16,6 +16,12 @@ function Add-ColorScriptProfile {
 
         [switch]$SkipStartupScript,
 
+        [switch]$IncludePokemon,
+
+        [switch]$SkipPokemonPrompt,
+
+        [switch]$SkipCacheBuild,
+
         [switch]$Force
     )
 
@@ -190,6 +196,43 @@ function Add-ColorScriptProfile {
         }
     }
 
+    $includePokemonChoice = $IncludePokemon.IsPresent
+    $promptedForPokemon = $false
+    $cacheBuilt = $false
+
+    if ($profileAutoShow) {
+        $shouldPromptForPokemon = -not $SkipPokemonPrompt.IsPresent -and -not $PSBoundParameters.ContainsKey('IncludePokemon') -and -not $PSBoundParameters.ContainsKey('ProfilePath')
+
+        if ($shouldPromptForPokemon) {
+            $shouldPromptForPokemon = $true
+            try {
+                $shouldPromptForPokemon = -not [Console]::IsInputRedirected
+            }
+            catch {
+                $shouldPromptForPokemon = $false
+            }
+
+            if ($shouldPromptForPokemon) {
+                $prompt = 'Include Pokémon colorscripts on startup? (y/N)'
+                $response = Read-Host -Prompt $prompt
+                $promptedForPokemon = $true
+                if ($response -match '^(?i)y(?:es)?$') {
+                    $includePokemonChoice = $true
+                }
+                else {
+                    $includePokemonChoice = $false
+                }
+            }
+        }
+    }
+    else {
+        $includePokemonChoice = $false
+    }
+
+    if (-not $profileAutoShow -and $IncludePokemon) {
+        Write-Verbose 'IncludePokemon was specified but AutoShow is disabled. The switch has no effect.'
+    }
+
     $snippetLines = [System.Collections.Generic.List[string]]::new()
     [void]$snippetLines.Add("# Added by ColorScripts-Enhanced on $timestamp")
     [void]$snippetLines.Add('Import-Module ColorScripts-Enhanced')
@@ -197,11 +240,22 @@ function Add-ColorScriptProfile {
     if ($profileAutoShow) {
         if (-not [string]::IsNullOrWhiteSpace($defaultScriptName)) {
             $safeName = $defaultScriptName -replace "'", "''"
-            [void]$snippetLines.Add("Show-ColorScript -Name '$safeName'")
+            $showCommand = "Show-ColorScript -Name '$safeName'"
         }
         else {
-            [void]$snippetLines.Add('Show-ColorScript')
+            $showCommand = 'Show-ColorScript'
         }
+
+        if ($includePokemonChoice) {
+            $showCommand += ' -IncludePokemon'
+        }
+
+        [void]$snippetLines.Add('try {')
+        [void]$snippetLines.Add("    $showCommand")
+        [void]$snippetLines.Add('}')
+        [void]$snippetLines.Add('catch {')
+        [void]$snippetLines.Add('    Write-Warning "ColorScripts-Enhanced startup snippet failed: $($_.Exception.Message)"')
+        [void]$snippetLines.Add('}')
     }
 
     $snippet = ($snippetLines.ToArray() -join $newline)
@@ -212,9 +266,11 @@ function Add-ColorScriptProfile {
         if (-not $Force) {
             Write-Verbose $script:Messages.ProfileAlreadyContainsSnippet
             return [pscustomobject]@{
-                Path    = $profileSpec
-                Changed = $false
-                Message = $script:Messages.ProfileAlreadyConfigured
+                Path           = $profileSpec
+                Changed        = $false
+                Message        = $script:Messages.ProfileAlreadyConfigured
+                IncludePokemon = $includePokemonChoice
+                CacheBuilt     = $false
             }
         }
 
@@ -226,9 +282,11 @@ function Add-ColorScriptProfile {
     if (-not $Force -and $existingContent -match $importPattern) {
         Write-Verbose $script:Messages.ProfileAlreadyImportsModule
         return [pscustomobject]@{
-            Path    = $profileSpec
-            Changed = $false
-            Message = $script:Messages.ProfileAlreadyConfigured
+            Path           = $profileSpec
+            Changed        = $false
+            Message        = $script:Messages.ProfileAlreadyConfigured
+            IncludePokemon = $includePokemonChoice
+            CacheBuilt     = $false
         }
     }
 
@@ -272,10 +330,29 @@ function Add-ColorScriptProfile {
         $infoMessage = $infoTemplate -f $profileSpec
         Write-ColorScriptInformation -Message $infoMessage -PreferConsole -Color 'Green'
 
+        if ($profileAutoShow -and -not $SkipCacheBuild) {
+            if ($PSCmdlet.ShouldProcess('ColorScripts cache', 'Build Colorscript cache for startup snippet')) {
+                try {
+                    $cacheParams = @{ }
+                    if ($includePokemonChoice) {
+                        $cacheParams.IncludePokemon = $true
+                    }
+
+                    ColorScripts-Enhanced\New-ColorScriptCache -All @cacheParams | Out-Null
+                    $cacheBuilt = $true
+                }
+                catch {
+                    Write-Verbose ("New-ColorScriptCache warm-up failed: {0}" -f $_.Exception.Message)
+                }
+            }
+        }
+
         return [pscustomobject]@{
-            Path    = $profileSpec
-            Changed = $true
-            Message = $script:Messages.ProfileSnippetAddedMessage
+            Path           = $profileSpec
+            Changed        = $true
+            Message        = $script:Messages.ProfileSnippetAddedMessage
+            IncludePokemon = $includePokemonChoice
+            CacheBuilt     = $cacheBuilt
         }
     }
 }

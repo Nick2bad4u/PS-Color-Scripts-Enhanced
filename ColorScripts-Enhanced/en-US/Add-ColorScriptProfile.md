@@ -1,4 +1,4 @@
-﻿---
+---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/Add-ColorScriptProfile.md
@@ -20,7 +20,7 @@ Appends the ColorScripts-Enhanced module import (and optionally Show-ColorScript
 ### \_\_AllParameterSets
 
 ```text
-Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-Force]
+Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon] [-Force]
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -148,6 +148,16 @@ Add-ColorScriptProfile -SkipStartupScript
 # Show-ColorScript
 ```
 
+### EXAMPLE 11
+
+Automatically skip Pokémon scripts when showing startup art:
+
+```powershell
+Add-ColorScriptProfile -IncludePokemon
+```
+
+This appends `Show-ColorScript -IncludePokemon` (wrapped in a protective try/catch) to the profile so launch art may include Pokémon scripts.
+
 ## PARAMETERS
 
 ### -Confirm
@@ -273,6 +283,28 @@ ParameterSets:
    ValueFromPipeline: false
    ValueFromPipelineByPropertyName: false
    ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+
+```
+
+### -IncludePokemon
+
+Add `-IncludePokemon` to the generated `Show-ColorScript` call so that Pokémon colorscripts are included on startup when present. Ignored when `-SkipStartupScript` is used.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""

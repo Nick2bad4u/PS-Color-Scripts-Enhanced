@@ -15,7 +15,7 @@ ColorScripts-Enhanced/
 ├── Install.ps1                    # Installation script
 ├── README.md                      # Comprehensive documentation
     ├── ... (additional scripts)
-    └── ... (<!-- COLOR_SCRIPT_COUNT -->498<!-- /COLOR_SCRIPT_COUNT --> total)
+    └── ... (<!-- COLOR_SCRIPT_COUNT -->3156<!-- /COLOR_SCRIPT_COUNT --> total)
 ├── Test-AllColorScripts.ps1
 ```
 
@@ -24,7 +24,7 @@ ColorScripts-Enhanced/
 - **Name:** ColorScripts-Enhanced
 - **Current Version:** 2025.11.05.0244
 - **PowerShell Version:** 5.1+
-- **Colorscripts Included:** <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS -->
+- **Colorscripts Included:** <!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS -->
 - **Cache Location:** `%APPDATA%\ColorScripts-Enhanced\cache`
 - **Exported Functions:** 10
 - **Alias:** scs → Show-ColorScript
@@ -41,6 +41,7 @@ Show-ColorScript -Name "bars"       # Specific colorscript
 scs hearts                          # Using alias
 Show-ColorScript -List              # List all available
 Show-ColorScript -Name "bars" -NoCache  # Bypass cache
+Show-ColorScript -IncludePokemon    # Random colorscript including Pokémon category
 ```
 
 ### 2. Get-ColorScriptList
@@ -261,7 +262,7 @@ C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\
     ├── bars.cache
     ├── hearts.cache
     ├── mandelbrot-zoom.cache
-    └── ... (<!-- COLOR_CACHE_TOTAL -->498+<!-- /COLOR_CACHE_TOTAL --> total)
+    └── ... (<!-- COLOR_CACHE_TOTAL -->3156+<!-- /COLOR_CACHE_TOTAL --> total)
 ```
 
 ## Testing Performed
@@ -345,7 +346,7 @@ scs galaxy-spiral
 
 ### ColorScripts-Enhanced.psm1 (Module Code)
 
-- Main module logic (~2,650 lines)
+- Main module logic (\~2,650 lines)
 - Caching engine
 - Configuration management
 - Public cmdlets (10 functions)
@@ -368,7 +369,7 @@ scs galaxy-spiral
 - Troubleshooting
 - Architecture details
 
-### Scripts/ (<!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts)
+### Scripts/ (<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts)
 
 - All original colorscripts
 - Unchanged from source artwork
@@ -469,7 +470,7 @@ Users with the original ps-color-scripts can migrate:
 **ColorScripts-Enhanced** is a complete, professional PowerShell module that:
 
 ✅ Centralized cache location for all terminals
-✅ Provides <!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> beautiful colorscripts
+✅ Provides <!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> beautiful colorscripts
 ✅ Cross-platform support (Windows, macOS, Linux)
 ✅ Offers 6-19x performance improvement
 ✅ Uses clean, intuitive API

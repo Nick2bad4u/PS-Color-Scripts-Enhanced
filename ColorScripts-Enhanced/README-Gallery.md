@@ -8,7 +8,7 @@ Display beautiful ANSI colorscripts in your terminal with intelligent caching fo
 
 ## Features
 
-- ✨ **<!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** - Extensive ANSI art collection across 15+ categories
+- ✨ **<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** - Extensive ANSI art collection across 15+ categories
 - ⚡ **6-19x Faster** - Intelligent caching (5-20ms vs 50-300ms load times)
 - 🌐 **Cross-Platform** - Fully tested on Windows, macOS, and Linux
 - 🎯 **Simple API** - Easy cmdlets with full tab completion
@@ -202,3 +202,4 @@ MIT - See [LICENSE](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob
 ---
 
 **Tip**: Run `Get-ColorScriptList | Select-Object -First 10` to preview your first 10 scripts!
+

@@ -1,4 +1,4 @@
-﻿---
+---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/fr/Add-ColorScriptProfile.md
@@ -20,7 +20,7 @@ Ajoute l'importation du module ColorScripts-Enhanced (et éventuellement Show-Co
 ### \_\_AllParameterSets
 
 ```text
-Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-Force]
+Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon] [-Force]
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -148,6 +148,16 @@ Add-ColorScriptProfile -SkipStartupScript
 # Show-ColorScript
 ```
 
+### EXAMPLE 11
+
+Ignorer automatiquement les scripts Pokémon au démarrage :
+
+```powershell
+Add-ColorScriptProfile -IncludePokemon
+```
+
+Ceci ajoute `Show-ColorScript -IncludePokemon` (entouré d'un try/catch) à votre profil afin que les scripts Pokémon puissent être inclus au démarrage.
+
 ## PARAMETERS
 
 ### -Confirm
@@ -160,6 +170,28 @@ DefaultValue: ""
 SupportsWildcards: false
 Aliases:
  - cf
+ParameterSets:
+ - Name: (All)
+   Position: Named
+   IsRequired: false
+   ValueFromPipeline: false
+   ValueFromPipelineByPropertyName: false
+   ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+
+```
+
+### -IncludePokemon
+
+Ajoute `-IncludePokemon` à l'appel généré de `Show-ColorScript` pour permettre l'affichage des scripts Pokémon au démarrage. Ignoré lorsque `-SkipStartupScript` est utilisé.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
 ParameterSets:
  - Name: (All)
    Position: Named

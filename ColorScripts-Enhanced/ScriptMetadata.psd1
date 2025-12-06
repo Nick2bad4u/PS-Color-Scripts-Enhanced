@@ -125,7 +125,7 @@
         #   Import-Module ColorScripts-Enhanced -Force
         #
         # Once populated, you can use:
-        #   Show-ColorScript -ExcludePokemon
+        #   Show-ColorScript -IncludePokemon
         #   Show-ColorScript -Category Pokemon
         #   Get-ColorScriptList -Category Pokemon
         Pokemon         = @(
@@ -3860,3 +3860,4 @@
         'zo-acid'                       = 'Acid-style artwork by ZO.'
     }
 }
+

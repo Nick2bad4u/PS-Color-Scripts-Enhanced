@@ -295,7 +295,7 @@ Invoke-Pester -Path ./Tests -TestNameFilter '*performance*' -Verbose
 ### Test Writing
 
 - ✅ **One assertion per test** - Single clear failure point
-- ✅ **Descriptive names** - Clearly state what is being tested
+- ✅ **Descriptive names** - State what is being tested
 - ✅ **Cleanup properly** - Use AfterAll/AfterEach blocks
 - ✅ **Test in isolation** - No dependencies between tests
 - ✅ **Realistic scenarios** - Test actual usage patterns
@@ -433,15 +433,20 @@ Describe 'User Workflow' {
 **Last Updated**: October 30, 2025
 **Test Framework**: Pester 5.4+
 **Coverage Target**: 90%+
-Invoke-Pester -Path ./Tests -Tag "Show-ColorScript"
 
-````
+## Quick Test Commands
+
+### Test Show-ColorScript
+
+```powershell
+Invoke-Pester -Path ./Tests -Tag "Show-ColorScript"
+```
 
 ### Test Cache Functionality
 
 ```powershell
 Invoke-Pester -Path ./Tests -Tag "Cache"
-````
+```
 
 ### Run Tests with Coverage
 
@@ -451,7 +456,7 @@ $configuration.Run.Path = './Tests'
 $configuration.CodeCoverage.Enabled = $true
 $configuration.CodeCoverage.Path = './ColorScripts-Enhanced/*.ps*1'
 Invoke-Pester -Configuration $configuration
-```powershell
+```
 
 ## PowerShell Version Testing
 
@@ -459,13 +464,13 @@ Invoke-Pester -Configuration $configuration
 
 ```powershell
 powershell.exe -Command "& .\scripts\Test-Module.ps1"
-```powershell
+```
 
 ### Test on PowerShell 7+
 
 ```powershell
 pwsh -Command "& .\scripts\Test-Module.ps1"
-```text
+```
 
 ### Test All Colorscripts
 
@@ -527,4 +532,6 @@ Describe 'New-Command' {
 
 - [Development Guide](Development.md) - Complete development workflow
 - [Linting Guide](LINTING.md) - Code quality standards
-- [Contributing Guidelines](../CONTRIBUTING.md) - How to contribute
+- [Contributing Guidelines](../../CONTRIBUTING.md) - How to contribute
+````
+

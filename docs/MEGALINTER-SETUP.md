@@ -25,7 +25,7 @@ npx git-cliff --config cliff.toml --unreleased
 - ✅ Lints PowerShell code (`.ps1`, `.psm1`, `.psd1`)
 - ✅ Checks Markdown formatting
 - ✅ Validates JSON and YAML files
-- ✅ Excludes `Scripts/` folder from PowerShell linting (<!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts)
+- ✅ Excludes `Scripts/` folder from PowerShell linting (<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts)
 - ✅ Runs ScriptAnalyzer on module code only
 - ✅ Generates detailed reports
 - ✅ Uses custom `PSScriptAnalyzerSettings.psd1`
@@ -281,3 +281,4 @@ All MegaLinter and git-cliff issues resolved:
 - [git-cliff Documentation](https://git-cliff.org/)
 - [Conventional Commits](https://www.conventionalcommits.org/)
 - [Markdown Lint Rules](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)
+

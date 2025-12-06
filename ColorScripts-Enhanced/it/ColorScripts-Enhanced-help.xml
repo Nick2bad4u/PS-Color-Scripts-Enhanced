@@ -20,72 +20,14 @@
     <command:syntax>
       <command:syntaxItem>
         <maml:name>Add-ColorScriptProfile</maml:name>
-        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-          <maml:name>Scope</maml:name>
-          <maml:description>
-            <maml:para>Specifica l'ambito del profilo da modificare. I valori validi sono:</maml:para>
-            <maml:para>- CurrentUserCurrentHost (predefinito)
-- CurrentUserAllHosts
-- AllUsersCurrentHost
-- AllUsersAllHosts</maml:para>
-          </maml:description>
-          <command:parameterValue required="false" variableLength="true">System.String</command:parameterValue>
-        </command:parameter>
       </command:syntaxItem>
     </command:syntax>
-    <command:parameters>
-      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
-        <maml:name>Scope</maml:name>
-        <maml:description>
-          <maml:para>Specifica l'ambito del profilo da modificare. I valori validi sono:</maml:para>
-          <maml:para>- CurrentUserCurrentHost (predefinito)
-- CurrentUserAllHosts
-- AllUsersCurrentHost
-- AllUsersAllHosts</maml:para>
-        </maml:description>
-        <command:parameterValue required="false" variableLength="true">System.String</command:parameterValue>
-      </command:parameter>
-    </command:parameters>
-    <command:inputTypes>
-      <command:inputType>
-        <dev:type>
-          <dev:name>None</dev:name>
-        </dev:type>
-        <maml:description>
-          <maml:para>Questo cmdlet non accetta input dalla pipeline.</maml:para>
-        </maml:description>
-      </command:inputType>
-    </command:inputTypes>
-    <command:returnValues>
-      <command:returnValue>
-        <dev:type>
-          <dev:name>None</dev:name>
-        </dev:type>
-        <maml:description>
-          <maml:para>Questo cmdlet non restituisce output alla pipeline.</maml:para>
-        </maml:description>
-      </command:returnValue>
-    </command:returnValues>
+    <command:parameters />
+    <command:inputTypes />
+    <command:returnValues />
     <maml:alertSet>
       <maml:alert>
-        <maml:para>**Author:** Nick
-**Module:** ColorScripts-Enhanced
-**Requires:** PowerShell 5.1 o successivo
-
-**Integrazione profilo:**
-Il cmdlet aggiunge uno snippet di avvio che importa ColorScripts-Enhanced e fornisce accesso conveniente. L'integrazione è progettata per essere leggera e non disturbare.
-
-**Considerazioni ambito:**
-
-- Gli ambiti CurrentUser modificano i file nella directory del profilo utente
-- Gli ambiti AllUsers richiedono privilegi di amministratore e influenzano tutti gli utenti
-- Le modifiche hanno effetto nelle nuove sessioni PowerShell
-
-**Funzionalità di sicurezza:**
-
-- Verifica l'integrazione esistente per evitare duplicazioni
-- Utilizza meccanismi di profilo PowerShell standard
-- Fornisce opzioni WhatIf e Confirm per operazioni sicure</maml:para>
+        <maml:para />
       </maml:alert>
     </maml:alertSet>
     <command:examples>
@@ -96,7 +38,7 @@ Il cmdlet aggiunge uno snippet di avvio che importa ColorScripts-Enhanced e forn
 Add-ColorScriptProfile
 ```</maml:para>
           <maml:para>&#x80;</maml:para>
-          <maml:para>Aggiunge l'integrazione ColorScripts-Enhanced al tuo profilo predefinito (CurrentUserCurrentHost).</maml:para>
+          <maml:para>Aggiunge lo snippet ColorScripts-Enhanced al profilo predefinito.</maml:para>
         </maml:introduction>
         <dev:code />
         <dev:remarks />
@@ -105,46 +47,10 @@ Add-ColorScriptProfile
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
         <maml:introduction>
           <maml:para>```powershell
-Add-ColorScriptProfile -Scope CurrentUserAllHosts
+Add-ColorScriptProfile -Scope CurrentUserAllHosts -IncludePokemon
 ```</maml:para>
           <maml:para>&#x80;</maml:para>
-          <maml:para>Aggiunge l'integrazione al tuo profilo che si applica a tutti gli host PowerShell per l'utente corrente.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Add-ColorScriptProfile -Scope AllUsersCurrentHost
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Aggiunge l'integrazione al profilo per tutti gli utenti sull'host corrente (richiede privilegi di amministratore).</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Add-ColorScriptProfile -WhatIf
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Mostra quali modifiche verrebbero apportate al tuo profilo senza applicarle effettivamente.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
-      </command:example>
-      <command:example>
-        <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Add-ColorScriptProfile -Confirm
-```</maml:para>
-          <maml:para>&#x80;</maml:para>
-          <maml:para>Richiede conferma prima di modificare il tuo profilo.</maml:para>
+          <maml:para>Aggiunge lo snippet a tutti gli host per l'utente corrente e configura `Show-ColorScript -IncludePokemon`.</maml:para>
         </maml:introduction>
         <dev:code />
         <dev:remarks />
@@ -326,99 +232,10 @@ Add-ColorScriptProfile -Confirm
         </maml:description>
       </command:inputType>
     </command:inputTypes>
-    <command:returnValues>
-      <command:returnValue>
-        <dev:type>
-          <dev:name>System.Object</dev:name>
-        </dev:type>
-        <maml:description>
-          <maml:para>Con `-PassThru` il cmdlet restituisce per ogni file un oggetto che include stato, percorso del cache, nome dello script e messaggi aggiuntivi. Senza lo switch viene prodotto solo un riepilogo opzionale.
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-
-### -Name
-
-Specifica i nomi dei colorscript da cancellare dalla cache. Supporta wildcard (\* e ?) per la corrispondenza di pattern.
-
-```yaml
-Type: System.String[]
-DefaultValue: None
-SupportsWildcards: true
-Aliases: []
-ParameterSets:
- - Name: Name
-   Position: 0
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```</maml:para>
-        </maml:description>
-      </command:returnValue>
-      <command:returnValue>
-        <dev:type>
-          <dev:name>-WhatIf</dev:name>
-        </dev:type>
-        <maml:description>
-          <maml:para>Mostra cosa accadrebbe se il cmdlet viene eseguito. Il cmdlet non viene eseguito.
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: false
-SupportsWildcards: false
-Aliases: wi
-ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```</maml:para>
-        </maml:description>
-      </command:returnValue>
-      <command:returnValue>
-        <dev:type>
-          <dev:name>CommonParameters</dev:name>
-        </dev:type>
-        <maml:description>
-          <maml:para>Questo cmdlet supporta i parametri comuni: -Debug, -ErrorAction, -ErrorVariable,
--InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. Per ulteriori informazioni, vedere
-[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).</maml:para>
-        </maml:description>
-      </command:returnValue>
-    </command:returnValues>
+    <command:returnValues />
     <maml:alertSet>
       <maml:alert>
-        <maml:para>**Author:** Nick
-**Module:** ColorScripts-Enhanced
-**Requires:** PowerShell 5.1 o successivo
-
-**Posizione Cache:**
-I file di cache sono memorizzati in una directory gestita dal modulo. Utilizza `(Get-Module ColorScripts-Enhanced).ModuleBase` per localizzare la directory del modulo, quindi cerca la sottodirectory cache.
-
-**Quando Cancellare la Cache:**
-
-- Dopo aver modificato i file degli script sorgente dei colorscript
-- Durante la risoluzione di problemi di display
-- Per garantire una nuova esecuzione degli script
-- Prima del benchmarking delle prestazioni
-
-**Impatto sulle Prestazioni:**
-La cancellazione della cache causerà l'esecuzione normale degli script al prossimo display, che potrebbe richiedere più tempo rispetto all'esecuzione memorizzata nella cache. La cache verrà ricostruita automaticamente ai display successivi.</maml:para>
+        <maml:para />
       </maml:alert>
     </maml:alertSet>
     <command:examples />
@@ -426,22 +243,6 @@ La cancellazione della cache causerà l'esecuzione normale degli script al pross
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
         <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/it/Clear-ColorScriptCache.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Show-ColorScript</maml:linkText>
-        <command:uri>Show-ColorScript.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>New-ColorScriptCache</maml:linkText>
-        <command:uri>New-ColorScriptCache.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Get-ColorScriptConfiguration</maml:linkText>
-        <command:uri>Get-ColorScriptConfiguration.md</command:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Documentation</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</command:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -537,7 +338,7 @@ La cancellazione della cache causerà l'esecuzione normale degli script al pross
     <command:returnValues>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>None (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>Questo cmdlet non restituisce output alla pipeline.</maml:para>
@@ -550,13 +351,13 @@ La cancellazione della cache causerà l'esecuzione normale degli script al pross
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 o successivo
 
-**Formati di Output:**
+## Formati di Output
 
 - JSON: Dati strutturati per accesso programmatico
 - CSV: Formato compatibile con fogli di calcolo
 - XML: Struttura dati gerarchica
 
-**Casi d'Uso:**
+## Casi d'Uso
 
 - Generazione di documentazione
 - Gestione dell'inventario
@@ -995,7 +796,7 @@ Get-ColorScriptConfiguration |
       </command:returnValue>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>None (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>Quando `-AsObject` non è specificato, l'output viene scritto direttamente nell'host della console.</maml:para>
@@ -1008,14 +809,14 @@ Get-ColorScriptConfiguration |
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Metadata Properties:**
+## Metadata Properties
 
 - Name: Identificatore dello script utilizzato da Show-ColorScript
 - Category: Raggruppamento tematico per l'organizzazione
 - Tags: Array di parole chiave descrittive per il filtraggio
 - Description: Spiegazione leggibile dall'uomo del contenuto
 
-**Usage Patterns:**
+## Usage Patterns
 
 - Discovery: Esplora gli script disponibili prima della selezione
 - Filtering: Riduci le opzioni utilizzando categorie e tag
@@ -1307,7 +1108,7 @@ Get-ColorScriptList -AsObject | Where-Object {
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Templates:**
+## Templates
 
 - Basic: Struttura minima per script personalizzati
 - Animated: Template con controlli di temporizzazione
@@ -1315,7 +1116,7 @@ Get-ColorScriptList -AsObject | Where-Object {
 - Geometric: Template per pattern geometrici
 - Nature: Template per design ispirati alla natura
 
-**File Structure:**
+## File Structure
 Gli script creati seguono l'organizzazione standard del modulo e si integrano automaticamente con i sistemi di caching e visualizzazione.</maml:para>
       </maml:alert>
     </maml:alertSet>
@@ -1442,6 +1243,13 @@ foreach ($theme in $themes) {
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
         </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>IncludePokemon</maml:name>
+          <maml:description>
+            <maml:para>Esclude tutti i colorscript Pokémon (versioni standard e shiny) durante la generazione della cache. Utile per preriscaldare tutte le altre categorie ignorando la collezione Pokémon.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
           <maml:name>Name</maml:name>
           <maml:description>
@@ -1494,6 +1302,13 @@ foreach ($theme in $themes) {
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
         </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+          <maml:name>IncludePokemon</maml:name>
+          <maml:description>
+            <maml:para>Esclude tutti i colorscript Pokémon (versioni standard e shiny) durante la generazione della cache. Utile per preriscaldare tutte le altre categorie ignorando la collezione Pokémon.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+        </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="Named" aliases="none">
           <maml:name>Name</maml:name>
           <maml:description>
@@ -1543,6 +1358,13 @@ foreach ($theme in $themes) {
         <maml:name>Force</maml:name>
         <maml:description>
           <maml:para>Forza la rigenerazione della cache anche se i file correnti sono già aggiornati.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>IncludePokemon</maml:name>
+        <maml:description>
+          <maml:para>Esclude tutti i colorscript Pokémon (versioni standard e shiny) durante la generazione della cache. Utile per preriscaldare tutte le altre categorie ignorando la collezione Pokémon.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
       </command:parameter>
@@ -1608,13 +1430,13 @@ foreach ($theme in $themes) {
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance Impact:**
+## Performance Impact
 Il pre-caching elimina il tempo di esecuzione al primo display, fornendo feedback visivo istantaneo. Particolarmente benefico per script complessi o animati.
 
-**Cache Management:**
+## Cache Management
 I file memorizzati nella cache sono archiviati in directory gestite dal modulo e vengono invalidati automaticamente quando gli script di origine cambiano. Utilizza Clear-ColorScriptCache per rimuovere la cache obsoleta.
 
-**Best Practices:**
+## Best Practices
 
 - Memorizza nella cache gli script utilizzati frequentemente per prestazioni ottimali
 - Utilizza il caching selettivo per evitare elaborazioni non necessarie
@@ -1743,7 +1565,7 @@ New-ColorScriptCache -Category Geometric -Tag minimal
     <command:returnValues>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>None (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>Questo cmdlet non restituisce output alla pipeline.</maml:para>
@@ -1756,13 +1578,13 @@ New-ColorScriptCache -Category Geometric -Tag minimal
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 o versioni successive
 
-**Ambito del ripristino:**
+## Ambito del ripristino
 Ripristina tutte le impostazioni configurabili dall'utente ai valori predefiniti del modulo. Ciò include percorsi della cache, impostazioni di prestazioni e preferenze di visualizzazione.
 
-**Sicurezza dei dati:**
+## Sicurezza dei dati
 Il ripristino della configurazione non influisce sull'output degli script memorizzati nella cache o sui colorscript creati dall'utente. Solo le impostazioni di configurazione sono interessate.
 
-**Ripristino:**
+## Ripristino
 Dopo il ripristino, utilizzare Set-ColorScriptConfiguration per riapplicare le impostazioni personalizzate se necessario.</maml:para>
       </maml:alert>
     </maml:alertSet>
@@ -1890,7 +1712,7 @@ Get-ColorScriptConfiguration
     <command:returnValues>
       <command:returnValue>
         <dev:type>
-          <dev:name>None</dev:name>
+          <dev:name>None (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>Questo cmdlet non restituisce output alla pipeline.</maml:para>
@@ -1903,13 +1725,13 @@ Get-ColorScriptConfiguration
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 o versioni successive
 
-**Persistenza della configurazione:**
+## Persistenza della configurazione
 Le impostazioni vengono automaticamente salvate nei file di configurazione specifici dell'utente e persistono tra le sessioni PowerShell.
 
-**Risoluzione del percorso:**
+## Risoluzione del percorso
 I percorsi della cache supportano variabili d'ambiente, percorsi relativi e notazione standard di PowerShell.
 
-**Convalida:**
+## Convalida
 Le modifiche alla configurazione vengono convalidate prima dell'applicazione per prevenire impostazioni non valide.</maml:para>
       </maml:alert>
     </maml:alertSet>
@@ -2017,9 +1839,9 @@ Set-ColorScriptConfiguration -CachePath "D:\Cache"
       <maml:para>**Named Mode:** Visualizza uno specifico script di colore per nome. Supporta pattern con caratteri jolly per una corrispondenza flessibile. Quando più script corrispondono a un pattern, viene selezionato il primo match in ordine alfabetico.</maml:para>
       <maml:para>**List Mode:** Visualizza una lista formattata di tutti gli script di colore disponibili con i loro metadati, inclusi nome, categoria, tag e descrizioni.</maml:para>
       <maml:para>**All Mode:** Scorre attraverso tutti gli script di colore disponibili in ordine alfabetico. Particolarmente utile per mostrare l'intera collezione o scoprire nuovi script.</maml:para>
-      <maml:para>**Performance Features:** Il sistema di caching fornisce miglioramenti delle prestazioni di 6-19x. Alla prima esecuzione, uno script di colore viene eseguito normalmente e il suo output viene memorizzato nella cache. Le visualizzazioni successive utilizzano l'output memorizzato nella cache per un rendering quasi istantaneo. La cache viene invalidata automaticamente quando gli script sorgente vengono modificati, garantendo l'accuratezza dell'output.</maml:para>
-      <maml:para>**Filtering Capabilities:** Filtra gli script per categoria o tag prima che avvenga la selezione. Questo si applica attraverso tutte le modalità, permettendo di lavorare con sottoinsiemi della collezione (ad esempio, solo script a tema natura o script taggati come "retro").</maml:para>
-      <maml:para>**Output Options:** Per impostazione predefinita, gli script di colore vengono scritti direttamente nella console per una visualizzazione visiva immediata. Usa `-ReturnText` per emettere l'output renderizzato nella pipeline per cattura, reindirizzamento o ulteriore elaborazione. Usa `-PassThru` per ricevere l'oggetto metadati dello script per uso programmatico.</maml:para>
+      <maml:para>## Performance Features Il sistema di caching fornisce miglioramenti delle prestazioni di 6-19x. Alla prima esecuzione, uno script di colore viene eseguito normalmente e il suo output viene memorizzato nella cache. Le visualizzazioni successive utilizzano l'output memorizzato nella cache per un rendering quasi istantaneo. La cache viene invalidata automaticamente quando gli script sorgente vengono modificati, garantendo l'accuratezza dell'output.</maml:para>
+      <maml:para>## Filtering Capabilities Filtra gli script per categoria o tag prima che avvenga la selezione. Questo si applica attraverso tutte le modalità, permettendo di lavorare con sottoinsiemi della collezione (ad esempio, solo script a tema natura o script taggati come "retro").</maml:para>
+      <maml:para>## Output Options Per impostazione predefinita, gli script di colore vengono scritti direttamente nella console per una visualizzazione visiva immediata. Usa `-ReturnText` per emettere l'output renderizzato nella pipeline per cattura, reindirizzamento o ulteriore elaborazione. Usa `-PassThru` per ricevere l'oggetto metadati dello script per uso programmatico.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2289,7 +2111,7 @@ Set-ColorScriptConfiguration -CachePath "D:\Cache"
       </command:returnValue>
       <command:returnValue>
         <dev:type>
-          <dev:name>System.String</dev:name>
+          <dev:name>System.String (2)</dev:name>
         </dev:type>
         <maml:description>
           <maml:para>Quando viene specificato `-ReturnText`, emette lo script di colore renderizzato come stringa nella pipeline. Questa stringa contiene tutte le sequenze di escape ANSI per il corretto rendering dei colori quando visualizzata in un terminale compatibile.</maml:para>
@@ -2310,17 +2132,17 @@ Set-ColorScriptConfiguration -CachePath "D:\Cache"
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance
 Il sistema di caching intelligente fornisce miglioramenti delle prestazioni di 6-19x rispetto all'esecuzione diretta. I file di cache sono memorizzati in una directory gestita dal modulo e vengono invalidati automaticamente quando gli script sorgente vengono modificati, garantendo l'accuratezza.
 
-**Cache Management:**
+## Cache Management
 
 - Posizione cache: Usa `(Get-Module ColorScripts-Enhanced).ModuleBase` e cerca la directory cache
 - Cancella cache: Usa `Clear-ColorScriptCache` per ricostruire da zero
 - Ricostruisci cache: Usa `New-ColorScriptCache` per pre-popolare la cache per tutti gli script
 - Ispeziona cache: I file di cache sono testo semplice e possono essere visualizzati direttamente
 
-**Tips:**
+## Tips
 
 - Aggiungi `Show-ColorScript -Random` al tuo profilo PowerShell per un saluto colorato ad ogni avvio di sessione
 - Usa l'alias del modulo `scs` per un accesso rapido: `scs -Random`
@@ -2328,14 +2150,14 @@ Il sistema di caching intelligente fornisce miglioramenti delle prestazioni di 6
 - Usa `-List` per scoprire nuovi script e imparare sui loro temi
 - La combinazione `-All -WaitForInput` è perfetta per presentare la collezione ad altri
 
-**Compatibility:**
+## Compatibility
 Colorscripts use ANSI escape sequences and display best in terminals with full color support, such as Windows Terminal, ConEmu, or modern Unix terminals.
 
 ## ADVANCED USAGE
 
 ### Filtering Strategies
 
-**By Category and Tag Combination**
+## By Category and Tag Combination
 
 ```powershell
 # Mostra solo gli script di colore geometrici taggati come minimal
@@ -2348,7 +2170,7 @@ Show-ColorScript -Category Nature -Tag Recommended -Random
 Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
 ```
 
-**Dynamic Filtering Based on Time**
+## Dynamic Filtering Based on Time
 
 ```powershell
 # Mattina: colori brillanti
@@ -2363,7 +2185,7 @@ else {
 
 ### Output Capture Patterns
 
-**Save for Later Viewing**
+## Save for Later Viewing
 
 ```powershell
 # Salva in variabile
@@ -2374,7 +2196,7 @@ $art | Out-File "./my-art.ansi" -Encoding UTF8
 Get-Content "./my-art.ansi" -Raw | Write-Host
 ```
 
-**Create Themed Collections**
+## Create Themed Collections
 
 ```powershell
 # Raccogli tutti gli script geometrici
@@ -2389,7 +2211,7 @@ $geometric | ForEach-Object {
 
 ### Performance Analysis
 
-**Comprehensive Benchmark**
+## Comprehensive Benchmark
 
 ```powershell
 # Funzione per misurare le prestazioni degli script di colore
@@ -2421,7 +2243,7 @@ Get-ColorScriptList -Category Geometric -AsObject |
 
 ### Terminal Customization
 
-**Terminal-Specific Display**
+## Terminal-Specific Display
 
 ```powershell
 # Windows Terminal con supporto ANSI
@@ -2447,7 +2269,7 @@ if ($env:ConEmuANSI -eq "ON") {
 
 ### Automation Integration
 
-**Scheduled Colorscript Rotation**
+## Scheduled Colorscript Rotation
 
 ```powershell
 # Crea wrapper per task programmato
@@ -2470,7 +2292,7 @@ function Start-ColorScriptSession {
 
 ### Error Handling and Resilience
 
-**Graceful Fallback**
+## Graceful Fallback
 
 ```powershell
 # Prova script specifico, fallback a casuale
@@ -2482,7 +2304,7 @@ try {
 }
 ```
 
-**Validation Before Display**
+## Validation Before Display
 
 ```powershell
 # Verifica che lo script esista prima di visualizzarlo
@@ -2499,7 +2321,7 @@ if ($scriptName -in $scripts.Name) {
 
 ### Metadata Inspection
 
-**Inspect Before Displaying**
+## Inspect Before Displaying
 
 ```powershell
 # Ottieni metadati durante la visualizzazione
@@ -2514,23 +2336,23 @@ if ($metadata.Tags -contains "Animated") {
 }
 ```
 
-## NOTES
+## NOTES (2)
 
 **Author:** Nick
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-**Performance:**
+## Performance (2)
 The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
 
-**Cache Management:**
+## Cache Management (2)
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
 - Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
 - Inspect cache: Cache files are plain text and can be viewed directly
 
-**Advanced Tips:**
+## Advanced Tips
 
 - Use `-PassThru` to get metadata while displaying for post-processing
 - Combine `-ReturnText` with pipeline commands for advanced text manipulation
@@ -2543,7 +2365,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 - Use environment variables to customize behavior per environment
 - Implement error handling for automated display scenarios
 
-**Terminal Compatibility Matrix:**
+## Terminal Compatibility Matrix
 
 | Terminal           | ANSI Support | UTF-8     | Performance | Notes                      |
 | ------------------ | ------------ | --------- | ----------- | -------------------------- |
