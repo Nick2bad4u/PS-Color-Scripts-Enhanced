@@ -1,4 +1,4 @@
-﻿# ColorScripts-Enhanced Module Tests
+# ColorScripts-Enhanced Module Tests
 # Run this to validate module functionality
 
 #Requires -Version 5.1

@@ -1575,7 +1575,15 @@ Describe 'ColorScripts-Enhanced extended coverage' {
             }
             Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { }
             Mock -CommandName Get-ColorScriptList -ModuleName ColorScripts-Enhanced -MockWith {
-                param()
+                param(
+                    [switch]$AsObject,
+                    [switch]$Detailed,
+                    [string[]]$Name,
+                    [string[]]$Category,
+                    [string[]]$Tag,
+                    [switch]$Quiet,
+                    [switch]$NoAnsiOutput
+                )
                 $script:ListParams = @{}
                 foreach ($key in $PSBoundParameters.Keys) {
                     $script:ListParams[$key] = $PSBoundParameters[$key]

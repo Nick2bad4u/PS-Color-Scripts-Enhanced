@@ -190,4 +190,3 @@ function Get-ColorScriptList {
 
     return $records
 }
-

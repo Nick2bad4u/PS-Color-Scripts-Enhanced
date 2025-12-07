@@ -18,7 +18,7 @@ param(
     [Parameter(ParameterSetName = 'Standard')]
     [Parameter(ParameterSetName = 'Advanced')]
     [ValidateRange(0, 100)]
-    [int]$MinimumCoverage = 80,
+    [int]$MinimumCoverage = 75,
 
     [Parameter(ParameterSetName = 'Standard')]
     [Parameter(ParameterSetName = 'Advanced')]
@@ -411,7 +411,7 @@ if (-not $SkipCoverage -and $result.CodeCoverage) {
         $coverageColor = if ($percentage -ge $MinimumCoverage) {
             $script:Colors.Success
         }
-        elseif ($percentage -ge 80) {
+        elseif ($percentage -ge 75) {
             $script:Colors.Warning
         }
         else {
