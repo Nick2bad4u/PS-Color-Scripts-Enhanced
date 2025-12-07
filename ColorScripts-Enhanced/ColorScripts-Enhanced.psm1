@@ -39,6 +39,8 @@ $script:DefaultConfiguration = @{
 $script:IsWindows = $IsWindows
 $script:IsMacOS = $IsMacOS
 $script:PowerShellMajorVersion = $PSVersionTable.PSVersion.Major
+$script:PokemonNameSetCache = $null
+$script:PokemonNameSetCacheStamp = $null
 
 $traceSetting = $env:COLOR_SCRIPTS_ENHANCED_TRACE
 $script:ModuleTraceEnabled = $false

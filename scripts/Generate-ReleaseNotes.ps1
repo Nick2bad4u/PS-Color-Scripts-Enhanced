@@ -86,7 +86,23 @@ $cliffConfig = Join-Path -Path $repoRoot -ChildPath 'cliff.toml'
 
 # Try to find git-cliff executable
 $gitCliffExe = $null
+$candidateBins = @()
 $gitCliffCmd = Get-Command git-cliff -ErrorAction SilentlyContinue
+
+if (-not $gitCliffCmd) {
+    # Augment PATH with common npm global locations when running in NoProfile contexts (e.g., npm scripts)
+    if ($env:APPDATA) { $candidateBins += (Join-Path $env:APPDATA 'npm') }
+    if ($env:LOCALAPPDATA) { $candidateBins += (Join-Path $env:LOCALAPPDATA 'npm') }
+    if ($env:ProgramFiles) { $candidateBins += (Join-Path $env:ProgramFiles 'nodejs') }
+
+    foreach ($bin in $candidateBins | Where-Object { $_ -and (Test-Path $_) }) {
+        if (-not ($env:PATH -split ';' | Where-Object { $_ -ieq $bin })) {
+            $env:PATH = "$bin;$($env:PATH)"
+        }
+    }
+
+    $gitCliffCmd = Get-Command git-cliff -ErrorAction SilentlyContinue
+}
 
 if ($gitCliffCmd) {
     if ($gitCliffCmd.Source -match '\.exe$') {
@@ -103,11 +119,46 @@ if ($gitCliffCmd) {
         }
         else {
             # Try node_modules path
-            $nodeModulesPath = Join-Path (Split-Path $npmBinPath -Parent) 'git-cliff-windows-x64\bin\git-cliff.exe'
+            $nodeModulesRoot = Join-Path $npmBinPath 'node_modules'
+            $nodeModulesPath = Join-Path $nodeModulesRoot 'git-cliff-windows-x64\bin\git-cliff.exe'
             if (Test-Path $nodeModulesPath) {
                 $gitCliffExe = $nodeModulesPath
             }
+            else {
+                # npm global layout with nested git-cliff\node_modules\git-cliff-windows-x64
+                $nestedPath = Join-Path $nodeModulesRoot 'git-cliff\node_modules\git-cliff-windows-x64\bin\git-cliff.exe'
+                if (Test-Path $nestedPath) {
+                    $gitCliffExe = $nestedPath
+                }
+                elseif (-not $gitCliffExe) {
+                    # Last-resort: search a few levels under the npm bin directory for git-cliff.exe
+                    $found = Get-ChildItem -Path $npmBinPath -Recurse -Filter 'git-cliff.exe' -ErrorAction SilentlyContinue | Select-Object -First 1
+                    if ($found) {
+                        $gitCliffExe = $found.FullName
+                    }
+                }
+            }
         }
+    }
+}
+
+# Fallback: search common locations for git-cliff shims if still unresolved
+if (-not $gitCliffExe -or -not (Test-Path $gitCliffExe)) {
+    $searchFiles = @('git-cliff.exe', 'git-cliff.cmd', 'git-cliff.ps1')
+    $searchDirs = @($npmBinPath, $nodeModulesRoot)
+    $searchDirs += $candidateBins
+    $searchDirs += ($env:PATH -split ';' | Where-Object { $_ })
+    $searchDirs = $searchDirs | Where-Object { $_ } | Select-Object -Unique
+
+    foreach ($dir in $searchDirs) {
+        foreach ($file in $searchFiles) {
+            $candidate = Join-Path $dir $file
+            if (Test-Path -LiteralPath $candidate) {
+                $gitCliffExe = $candidate
+                break
+            }
+        }
+        if ($gitCliffExe) { break }
     }
 }
 
@@ -137,17 +188,32 @@ if ($StripHeader) {
 
 Write-Verbose ('Running git-cliff with arguments: {0}' -f ($arguments -join ' '))
 
+    $gitCliffCommand = $gitCliffExe
+$gitCliffBootstrapArgs = @()
+if ($gitCliffExe -like '*.ps1') {
+    $pwshCmd = (Get-Command pwsh -ErrorAction SilentlyContinue)
+    if ($pwshCmd -and (Test-Path -LiteralPath $pwshCmd.Source)) {
+        $gitCliffCommand = $pwshCmd.Source
+    }
+    else {
+        $gitCliffCommand = 'pwsh'
+    }
+        $gitCliffBootstrapArgs = @('-NoProfile', '-File', $gitCliffExe)
+}
+
 # Use Start-Process with proper argument handling for paths with spaces
 try {
     $processInfo = New-Object System.Diagnostics.ProcessStartInfo
-    $processInfo.FileName = $gitCliffExe
+        $processInfo.FileName = $gitCliffCommand
     $processInfo.RedirectStandardOutput = $true
     $processInfo.RedirectStandardError = $true
+        $processInfo.StandardOutputEncoding = [System.Text.UTF8Encoding]::new($false)
+        $processInfo.StandardErrorEncoding = [System.Text.UTF8Encoding]::new($false)
     $processInfo.UseShellExecute = $false
     $processInfo.CreateNoWindow = $true
 
     # Add arguments one by one to avoid quoting issues
-    foreach ($arg in $arguments) {
+        foreach ($arg in @($gitCliffBootstrapArgs + $arguments)) {
         $processInfo.ArgumentList.Add($arg)
     }
 

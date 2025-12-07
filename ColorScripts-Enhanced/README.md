@@ -118,6 +118,13 @@ Show-ColorScript
 
 # Option 3: Always include Pokémon art
 Add-ColorScriptProfile -IncludePokemon -SkipPokemonPrompt
+
+# Pokémon are opt-in by default
+- The module filters Pokémon colorscripts by default to keep startup lean.
+- Opt in with `-IncludePokemon` on `Show-ColorScript`, `New-ColorScriptCache`, or `Add-ColorScriptProfile`.
+- Direct Pokémon names always work (e.g., `Show-ColorScript -Name Pikachu`) even without `-IncludePokemon`.
+
+# Tip: If Pokémon are filtered by default, specifying a Pokémon script by name still works (e.g., `Show-ColorScript -Name Pikachu`).
 ```
 
 **Create a custom alias:**

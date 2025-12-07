@@ -20,6 +20,9 @@ function Add-ColorScriptProfile {
 
         [switch]$SkipPokemonPrompt,
 
+        [ValidateSet('Y', 'N', 'Yes', 'No')]
+        [string]$PokemonPromptResponse,
+
         [switch]$SkipCacheBuild,
 
         [switch]$Force
@@ -196,12 +199,80 @@ function Add-ColorScriptProfile {
         }
     }
 
-    $includePokemonChoice = $IncludePokemon.IsPresent
+    $explicitPokemonResponse = $null
+    if ($PSBoundParameters.ContainsKey('PokemonPromptResponse') -and $PokemonPromptResponse) {
+        switch ($PokemonPromptResponse.ToLowerInvariant()) {
+            'y' { $explicitPokemonResponse = $true }
+            'yes' { $explicitPokemonResponse = $true }
+            'n' { $explicitPokemonResponse = $false }
+            'no' { $explicitPokemonResponse = $false }
+        }
+    }
+
+    if ($null -eq $explicitPokemonResponse) {
+        $envPromptResponse = [Environment]::GetEnvironmentVariable('COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE')
+        if (-not [string]::IsNullOrWhiteSpace($envPromptResponse)) {
+            switch ($envPromptResponse.ToLowerInvariant()) {
+                'y' { $explicitPokemonResponse = $true }
+                'yes' { $explicitPokemonResponse = $true }
+                'n' { $explicitPokemonResponse = $false }
+                'no' { $explicitPokemonResponse = $false }
+            }
+        }
+    }
+
+    if ($null -eq $explicitPokemonResponse) {
+        try {
+            $globalPrompt = Get-Variable -Name ColorScriptsEnhancedPokemonPromptResponse -Scope Global -ValueOnly -ErrorAction Stop
+            if (-not [string]::IsNullOrWhiteSpace([string]$globalPrompt)) {
+                switch ([string]$globalPrompt.ToLowerInvariant()) {
+                    'y' { $explicitPokemonResponse = $true }
+                    'yes' { $explicitPokemonResponse = $true }
+                    'n' { $explicitPokemonResponse = $false }
+                    'no' { $explicitPokemonResponse = $false }
+                }
+            }
+        }
+        catch {
+            Write-Verbose 'Global Pokemon prompt response override not defined.'
+        }
+    }
+
+    if ($null -eq $explicitPokemonResponse -and $PSBoundParameters.ContainsKey('Confirm') -and ($PSBoundParameters['Confirm'] -eq $false)) {
+        $explicitPokemonResponse = $false
+    }
+
+    $includePokemonChoice = if ($PSBoundParameters.ContainsKey('IncludePokemon')) {
+        $IncludePokemon.IsPresent
+    }
+    elseif ($null -ne $explicitPokemonResponse) {
+        $explicitPokemonResponse
+    }
+    else {
+        $false
+    }
+
+    # If the user explicitly passed -IncludePokemon, force opt-in regardless of config defaults.
+    if ($IncludePokemon.IsPresent) {
+        $includePokemonChoice = $true
+    }
+
     $promptedForPokemon = $false
     $cacheBuilt = $false
 
     if ($profileAutoShow) {
-        $shouldPromptForPokemon = -not $SkipPokemonPrompt.IsPresent -and -not $PSBoundParameters.ContainsKey('IncludePokemon') -and -not $PSBoundParameters.ContainsKey('ProfilePath')
+        $hasExplicitProfilePath = (
+            $PSBoundParameters.ContainsKey('ProfilePath') -or
+            $PSBoundParameters.ContainsKey('Path') -or
+            (-not [string]::IsNullOrWhiteSpace($ProfilePath))
+        )
+
+        $shouldPromptForPokemon = (
+            -not $SkipPokemonPrompt.IsPresent -and
+            -not $PSBoundParameters.ContainsKey('IncludePokemon') -and
+            ($null -eq $explicitPokemonResponse) -and
+            -not $hasExplicitProfilePath
+        )
 
         if ($shouldPromptForPokemon) {
             $shouldPromptForPokemon = $true
@@ -224,9 +295,77 @@ function Add-ColorScriptProfile {
                 }
             }
         }
+        elseif ($null -ne $explicitPokemonResponse -and -not $IncludePokemon.IsPresent) {
+            $includePokemonChoice = $explicitPokemonResponse
+        }
     }
     else {
         $includePokemonChoice = $false
+    }
+
+    $skipCacheBuildRequested = $SkipCacheBuild.IsPresent
+    if (-not $skipCacheBuildRequested) {
+        $envSkipCache = [Environment]::GetEnvironmentVariable('COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD')
+        if (-not [string]::IsNullOrWhiteSpace($envSkipCache)) {
+            switch ($envSkipCache.ToLowerInvariant()) {
+                { $_ -in @('1', 'true', 'yes', 'y') } { $skipCacheBuildRequested = $true }
+            }
+        }
+    }
+
+    if (-not $skipCacheBuildRequested) {
+        try {
+            $globalSkipCache = Get-Variable -Name ColorScriptsEnhancedSkipCacheBuild -Scope Global -ValueOnly -ErrorAction Stop
+            if ($globalSkipCache) {
+                $skipCacheBuildRequested = $true
+            }
+        }
+        catch {
+            Write-Verbose 'Global cache skip override not defined.'
+        }
+    }
+
+    if (-not $skipCacheBuildRequested) {
+        $profileFullPath = $null
+        try {
+            $providerPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($profileSpec)
+        }
+        catch {
+            $providerPath = $profileSpec
+        }
+
+        try {
+            $profileFullPath = [System.IO.Path]::GetFullPath($providerPath)
+        }
+        catch {
+            $profileFullPath = $providerPath
+        }
+
+        try {
+            $tempRoot = [System.IO.Path]::GetFullPath([System.IO.Path]::GetTempPath())
+        }
+        catch {
+            $tempRoot = [System.IO.Path]::GetTempPath()
+        }
+
+        if ($profileFullPath -and $tempRoot) {
+            $isUnderTemp = $false
+            try {
+                $relative = [System.IO.Path]::GetRelativePath($tempRoot, $profileFullPath)
+                if (-not [string]::IsNullOrWhiteSpace($relative) -and -not $relative.StartsWith('..', [System.StringComparison]::Ordinal)) {
+                    $isUnderTemp = $true
+                }
+            }
+            catch {
+                if ($profileFullPath.StartsWith($tempRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
+                    $isUnderTemp = $true
+                }
+            }
+
+            if ($isUnderTemp) {
+                $skipCacheBuildRequested = $true
+            }
+        }
     }
 
     if (-not $profileAutoShow -and $IncludePokemon) {
@@ -330,7 +469,7 @@ function Add-ColorScriptProfile {
         $infoMessage = $infoTemplate -f $profileSpec
         Write-ColorScriptInformation -Message $infoMessage -PreferConsole -Color 'Green'
 
-        if ($profileAutoShow -and -not $SkipCacheBuild) {
+        if ($profileAutoShow -and -not $skipCacheBuildRequested) {
             if ($PSCmdlet.ShouldProcess('ColorScripts cache', 'Build Colorscript cache for startup snippet')) {
                 try {
                     $cacheParams = @{ }

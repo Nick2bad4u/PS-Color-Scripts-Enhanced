@@ -19,8 +19,9 @@ Agrega la importación del módulo ColorScripts-Enhanced (y opcionalmente Show-C
 ### \_\_AllParameterSets
 
 ```text
-Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon] [-Force]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon]
+ [-SkipPokemonPrompt] [-PokemonPromptResponse <string>] [-SkipCacheBuild] [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## ALIASES
@@ -304,6 +305,74 @@ ParameterSets:
    ValueFromPipeline: false
    ValueFromPipelineByPropertyName: false
    ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -SkipPokemonPrompt
+
+Omite el mensaje interactivo que pregunta si se deben incluir scripts de Pokémon al inicio.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PokemonPromptResponse
+
+Responde por adelantado al aviso de Pokémon (Y/Yes o N/No). También respeta la variable de entorno
+`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` y la variable global
+`$Global:ColorScriptsEnhancedPokemonPromptResponse`.
+
+```yaml
+Type: System.String
+DefaultValue: ""
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -SkipCacheBuild
+
+Impide el precalentamiento del caché al agregar el perfil. También respeta la variable de entorno
+`COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD` y la variable global
+`$Global:ColorScriptsEnhancedSkipCacheBuild`. Se omite automáticamente si la ruta del perfil está bajo
+el directorio temporal.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""

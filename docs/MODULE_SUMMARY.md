@@ -42,6 +42,7 @@ scs hearts                          # Using alias
 Show-ColorScript -List              # List all available
 Show-ColorScript -Name "bars" -NoCache  # Bypass cache
 Show-ColorScript -IncludePokemon    # Random colorscript including Pokémon category
+# Direct Pokémon names bypass the default filter (e.g., `Show-ColorScript -Name Pikachu`).
 ```
 
 ### 2. Get-ColorScriptList
@@ -80,6 +81,8 @@ Add-ColorScriptProfile                                # Import + Show-ColorScrip
 Add-ColorScriptProfile -SkipStartupScript             # Import only
 Add-ColorScriptProfile -Scope CurrentUserCurrentHost  # Limit to current host
 Add-ColorScriptProfile -Path .\MyProfile.ps1 -Force  # Custom profile
+Add-ColorScriptProfile -PokemonPromptResponse N       # Auto-answer Pokémon prompt
+Add-ColorScriptProfile -SkipCacheBuild                # Add profile without pre-warming caches
 ```
 
 ### 6. Get-ColorScriptConfiguration / Set-ColorScriptConfiguration / Reset-ColorScriptConfiguration

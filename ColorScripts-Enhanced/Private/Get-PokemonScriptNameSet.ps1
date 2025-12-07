@@ -1,12 +1,55 @@
-<#
-    NOTE: This file is intentionally a no-op stub.
+function Get-PokemonScriptNameSet {
+    $metadataPath = $script:MetadataPath
+    if (-not $metadataPath -or -not (Test-Path -LiteralPath $metadataPath)) {
+        return $null
+    }
 
-    Earlier versions experimented with a custom Get-PokemonScriptNameSet
-    helper to parse ScriptMetadata.psd1 directly for Pokémon names. The
-    current implementation no longer uses this helper; Pokémon scripts are
-    handled via normal metadata categories using Import-PowerShellDataFile
-    with -SkipLimitCheck.
+    $timestamp = $null
+    try {
+        $timestamp = (Get-Item -LiteralPath $metadataPath -ErrorAction Stop).LastWriteTimeUtc
+    }
+    catch {
+        $timestamp = $null
+    }
 
-    The file is retained (empty) only to avoid breaking any external tooling
-    that might scan the Private folder for file presence.
-#>
+    if ($script:PokemonNameSetCache -and $script:PokemonNameSetCacheStamp -and $timestamp -eq $script:PokemonNameSetCacheStamp) {
+        return $script:PokemonNameSetCache
+    }
+
+    $nameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+    $importParams = @{ Path = $metadataPath }
+    $command = $null
+    try {
+        $command = Get-Command -Name 'Import-PowerShellDataFile' -ErrorAction SilentlyContinue
+    }
+    catch {
+        $command = $null
+    }
+
+    if ($command -and $command.Parameters.ContainsKey('SkipLimitCheck')) {
+        $importParams['SkipLimitCheck'] = $true
+    }
+
+    try {
+        $metadata = Import-PowerShellDataFile @importParams
+    }
+    catch {
+        return $null
+    }
+
+    if ($metadata -and $metadata.Categories -is [hashtable]) {
+        foreach ($category in @('Pokemon', 'ShinyPokemon')) {
+            if ($metadata.Categories.ContainsKey($category)) {
+                foreach ($entry in @($metadata.Categories[$category])) {
+                    if (-not [string]::IsNullOrWhiteSpace($entry)) {
+                        [void]$nameSet.Add([string]$entry)
+                    }
+                }
+            }
+        }
+    }
+
+    $script:PokemonNameSetCache = $nameSet
+    $script:PokemonNameSetCacheStamp = $timestamp
+    return $nameSet
+}

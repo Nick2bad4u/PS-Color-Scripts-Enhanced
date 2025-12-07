@@ -38,6 +38,7 @@ scs
 Show-ColorScript -Name hearts
 scs mandelbrot-zoom
 Show-ColorScript -IncludePokemon     # Random, including Pokémon scripts
+# Direct Pokémon names bypass the default filter (e.g., `Show-ColorScript -Name Pikachu`)
 ```
 
 ### List All Scripts
@@ -262,6 +263,9 @@ Add-ColorScriptProfile
   [-Scope <String>]           # Profile scope (default CurrentUserAllHosts)
   [-Path <String>]            # Explicit profile path
   [-SkipStartupScript]        # Only add Import-Module line
+  [-IncludePokemon]           # Opt-in to Pokémon at startup
+  [-PokemonPromptResponse <Y|N>] # Pre-answer Pokémon prompt (also respects env/global overrides)
+  [-SkipCacheBuild]           # Do not pre-warm caches when adding the profile
   [-Force]                    # Append even if import already exists
   [-WhatIf]
   [-Confirm]

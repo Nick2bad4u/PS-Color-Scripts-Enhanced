@@ -235,7 +235,7 @@ Describe 'ColorScripts-Enhanced Module' {
             }
 
             try {
-                $result = New-ColorScriptCache -PassThru -ErrorAction Stop
+                $result = New-ColorScriptCache -IncludePokemon -PassThru -ErrorAction Stop
                 $result | Should -Not -BeNullOrEmpty
 
                 $expectedCount = (Get-ColorScriptList -AsObject).Count

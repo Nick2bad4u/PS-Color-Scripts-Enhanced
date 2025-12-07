@@ -16,7 +16,9 @@ PlatyPS schema version: 2024-05-01
 ## SYNTAX
 
 ```text
-Add-ColorScriptProfile [[-Scope] <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
+Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon]
+ [-SkipPokemonPrompt] [-PokemonPromptResponse <string>] [-SkipCacheBuild] [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -145,6 +147,72 @@ ParameterSets:
    ValueFromPipeline: false
    ValueFromPipelineByPropertyName: false
    ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -SkipPokemonPrompt
+
+跳过启动时是否包含宝可梦脚本的提示。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PokemonPromptResponse
+
+预先回答宝可梦提示（Y/Yes 或 N/No）。同时尊重环境变量
+`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` 和全局变量
+`$Global:ColorScriptsEnhancedPokemonPromptResponse`。
+
+```yaml
+Type: System.String
+DefaultValue: ""
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -SkipCacheBuild
+
+在更新配置文件时跳过缓存预热。也尊重环境变量 `COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD` 和全局变量
+`$Global:ColorScriptsEnhancedSkipCacheBuild`。如果配置文件路径位于临时目录下，会自动跳过。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""

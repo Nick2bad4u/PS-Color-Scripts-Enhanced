@@ -10,7 +10,7 @@ param(
     [string]$OutputDirectory = './dist/examples/we-ACiDTrip'
 )
 
-$scriptRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+$scriptRoot = Split-Path -Path $MyInvocation.MyCommand.Path -Parent
 $repoRoot = [System.IO.Path]::GetFullPath((Join-Path -Path $scriptRoot -ChildPath '..'))
 $repoRoot = [System.IO.Path]::GetFullPath((Join-Path -Path $repoRoot -ChildPath '..'))
 

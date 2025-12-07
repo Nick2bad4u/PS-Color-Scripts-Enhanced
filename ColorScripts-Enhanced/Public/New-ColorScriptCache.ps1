@@ -115,6 +115,31 @@ function New-ColorScriptCache {
         $pokemonNameSet = $null
         $filterPokemon = -not $IncludePokemon
 
+        # If the user explicitly specified categories that include Pokemon, treat that as an
+        # implicit opt-in to Pokémon scripts so users can request them directly with
+        # -Category Pokemon or -Category ShinyPokemon without -IncludePokemon.
+        if ($PSBoundParameters.ContainsKey('Category') -and $Category -and $Category.Count -gt 0 -and $filterPokemon) {
+            $normalizedCategories = $Category | Where-Object { $_ } | ForEach-Object { ([string]$_).Trim().ToLowerInvariant().Replace(' ', '') }
+            $pokemonIdentifiers = @('pokemon', 'shinypokemon', 'pokemonshiny')
+            if ($normalizedCategories | Where-Object { $pokemonIdentifiers -contains $_ }) {
+                $filterPokemon = $false
+            }
+        }
+
+        # If specific script names are requested and any are Pokémon scripts, include them even when
+        # Pokémon are normally filtered out by default.
+        if ($filterPokemon -and $PSBoundParameters.ContainsKey('Name') -and $Name) {
+            $pokemonNames = Get-PokemonScriptNameSet
+            if ($pokemonNames -and $pokemonNames.Count -gt 0) {
+                foreach ($requested in @($Name | Where-Object { $_ })) {
+                    if ($pokemonNames.Contains([string]$requested)) {
+                        $filterPokemon = $false
+                        break
+                    }
+                }
+            }
+        }
+
         if ($h) {
             Show-ColorScriptHelp -CommandName 'New-ColorScriptCache'
             $helpRequested = $true
@@ -160,19 +185,10 @@ function New-ColorScriptCache {
         }
 
         if ($filterPokemon) {
-            try {
-                $pokemonRecords = @(Get-ColorScriptList -Category @('Pokemon', 'ShinyPokemon') -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue)
-                if ($pokemonRecords -and $pokemonRecords.Count -gt 0) {
-                    $pokemonNameSet = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
-                    foreach ($record in $pokemonRecords) {
-                        if ($record -and $record.Name) {
-                            [void]$pokemonNameSet.Add([string]$record.Name)
-                        }
-                    }
-                }
-            }
-            catch {
-                Write-Verbose ("Failed to build Pokemon exclusion list: {0}" -f $_.Exception.Message)
+            $pokemonNameSet = Get-PokemonScriptNameSet
+            if (-not ($pokemonNameSet -and $pokemonNameSet.Count -gt 0)) {
+                Write-Verbose 'Unable to build Pokemon exclusion list from metadata.'
+                $pokemonNameSet = $null
             }
         }
     }

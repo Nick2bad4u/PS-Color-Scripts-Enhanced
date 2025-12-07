@@ -20,8 +20,9 @@ Appends the ColorScripts-Enhanced module import (and optionally Show-ColorScript
 ### \_\_AllParameterSets
 
 ```text
-Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon] [-Force]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon]
+ [-SkipPokemonPrompt] [-PokemonPromptResponse <string>] [-SkipCacheBuild] [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## ALIASES
@@ -292,6 +293,74 @@ HelpMessage: ""
 ### -IncludePokemon
 
 Add `-IncludePokemon` to the generated `Show-ColorScript` call so that Pokémon colorscripts are included on startup when present. Ignored when `-SkipStartupScript` is used.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -SkipPokemonPrompt
+
+Skip the interactive prompt that asks whether to include Pokémon colorscripts on startup.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PokemonPromptResponse
+
+Pre-answer the Pokémon inclusion prompt. Accepts Y/Yes or N/No. Also honors the environment variable
+`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` and the global variable
+`$Global:ColorScriptsEnhancedPokemonPromptResponse`.
+
+```yaml
+Type: System.String
+DefaultValue: ""
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -SkipCacheBuild
+
+Suppress the cache pre-warm that normally runs when the startup snippet is added. Also respects the
+environment variable `COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD` and the global variable
+`$Global:ColorScriptsEnhancedSkipCacheBuild`. Cache warm-up is automatically skipped when the profile
+path is under the system temp directory.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter

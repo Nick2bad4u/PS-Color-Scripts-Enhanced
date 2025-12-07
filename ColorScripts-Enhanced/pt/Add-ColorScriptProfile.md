@@ -16,7 +16,9 @@ Adiciona integração do ColorScripts-Enhanced aos arquivos de perfil do PowerSh
 ## SYNTAX
 
 ```text
-Add-ColorScriptProfile [[-Scope] <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
+Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon]
+ [-SkipPokemonPrompt] [-PokemonPromptResponse <string>] [-SkipCacheBuild] [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -151,6 +153,74 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ''
+```
+
+### -SkipPokemonPrompt
+
+Ignora o prompt que pergunta se deve incluir scripts de Pokémon na inicialização.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PokemonPromptResponse
+
+Responde antecipadamente ao prompt de Pokémon (Y/Yes ou N/No). Também respeita a variável de ambiente
+`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` e a variável global
+`$Global:ColorScriptsEnhancedPokemonPromptResponse`.
+
+```yaml
+Type: System.String
+DefaultValue: ""
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -SkipCacheBuild
+
+Evita o pré-aquecimento do cache ao atualizar o perfil. Também respeita a variável de ambiente
+`COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD` e a variável global
+`$Global:ColorScriptsEnhancedSkipCacheBuild`. É automaticamente ignorado quando o caminho do perfil está
+sob o diretório temporário.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
 ```
 
 ### CommonParameters

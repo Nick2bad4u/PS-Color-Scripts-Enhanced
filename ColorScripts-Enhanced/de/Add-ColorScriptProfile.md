@@ -20,8 +20,9 @@ Hängt den Import des ColorScripts-Enhanced-Moduls (und optional Show-ColorScrip
 ### \_\_AllParameterSets
 
 ```text
-Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon] [-Force]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon]
+ [-SkipPokemonPrompt] [-PokemonPromptResponse <string>] [-SkipCacheBuild] [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## ALIASES
@@ -305,6 +306,74 @@ ParameterSets:
    ValueFromPipeline: false
    ValueFromPipelineByPropertyName: false
    ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -SkipPokemonPrompt
+
+Skippt die Rückfrage, ob Pokémon-Colorscripts beim Start eingeschlossen werden sollen.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PokemonPromptResponse
+
+Vorb eantwortet die Pokémon-Abfrage (Y/Yes oder N/No). Unterstützt auch die Umgebungsvariable
+`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` und die globale Variable
+`$Global:ColorScriptsEnhancedPokemonPromptResponse`.
+
+```yaml
+Type: System.String
+DefaultValue: ""
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -SkipCacheBuild
+
+Unterdrückt das Aufwärmen des Caches, wenn das Profil aktualisiert wird. Respektiert auch die
+Umgebungsvariable `COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD` und die globale Variable
+`$Global:ColorScriptsEnhancedSkipCacheBuild`. Wird automatisch übersprungen, wenn der Profilpfad unter
+dem temporären Verzeichnis liegt.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""

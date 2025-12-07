@@ -1246,7 +1246,7 @@ foreach ($theme in $themes) {
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
           <maml:name>IncludePokemon</maml:name>
           <maml:description>
-            <maml:para>Esclude tutti i colorscript Pokémon (versioni standard e shiny) durante la generazione della cache. Utile per preriscaldare tutte le altre categorie ignorando la collezione Pokémon.</maml:para>
+            <maml:para>Include tutti i colorscript Pokémon (versioni standard e shiny) nella generazione della cache. Per impostazione predefinita i colorscript Pokémon vengono ignorati; usa `-IncludePokemon` per includerli. Nota: questo parametro sostituisce il vecchio `-ExcludePokemon` — la logica è stata invertita durante il refactor (ora opt-in).</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
         </command:parameter>
@@ -1305,7 +1305,7 @@ foreach ($theme in $themes) {
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
           <maml:name>IncludePokemon</maml:name>
           <maml:description>
-            <maml:para>Esclude tutti i colorscript Pokémon (versioni standard e shiny) durante la generazione della cache. Utile per preriscaldare tutte le altre categorie ignorando la collezione Pokémon.</maml:para>
+            <maml:para>Include tutti i colorscript Pokémon (versioni standard e shiny) nella generazione della cache. Per impostazione predefinita i colorscript Pokémon vengono ignorati; usa `-IncludePokemon` per includerli. Nota: questo parametro sostituisce il vecchio `-ExcludePokemon` — la logica è stata invertita durante il refactor (ora opt-in).</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
         </command:parameter>
@@ -1364,7 +1364,7 @@ foreach ($theme in $themes) {
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>IncludePokemon</maml:name>
         <maml:description>
-          <maml:para>Esclude tutti i colorscript Pokémon (versioni standard e shiny) durante la generazione della cache. Utile per preriscaldare tutte le altre categorie ignorando la collezione Pokémon.</maml:para>
+          <maml:para>Include tutti i colorscript Pokémon (versioni standard e shiny) nella generazione della cache. Per impostazione predefinita i colorscript Pokémon vengono ignorati; usa `-IncludePokemon` per includerli. Nota: questo parametro sostituisce il vecchio `-ExcludePokemon` — la logica è stata invertita durante il refactor (ora opt-in).</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
       </command:parameter>

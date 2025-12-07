@@ -20,8 +20,9 @@ Voegt de ColorScripts-Enhanced module import toe (en optioneel Show-ColorScript)
 ### \_\_AllParameterSets
 
 ```text
-Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon] [-Force]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon]
+ [-SkipPokemonPrompt] [-PokemonPromptResponse <string>] [-SkipCacheBuild] [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## ALIASES
@@ -300,6 +301,74 @@ AcceptedValues: []
 HelpMessage: ""
 ```
 
+### -SkipPokemonPrompt
+
+Slaat de prompt over die vraagt of Pokémon-scripts moeten worden opgenomen bij opstarten.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PokemonPromptResponse
+
+Beantwoordt de Pokémon-vraag vooraf (Y/Yes of N/No). Ondersteunt ook de omgevingsvariabele
+`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` en de globale variabele
+`$Global:ColorScriptsEnhancedPokemonPromptResponse`.
+
+```yaml
+Type: System.String
+DefaultValue: ""
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -SkipCacheBuild
+
+Slaat het vooraf opbouwen van de cache over wanneer het profiel wordt bijgewerkt. Ondersteunt ook de
+omgevingsvariabele `COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD` en de globale variabele
+`$Global:ColorScriptsEnhancedSkipCacheBuild`. Dit wordt automatisch overgeslagen wanneer het profielpad
+onder de tijdelijke map valt.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
 ### CommonParameters
 
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
@@ -340,4 +409,3 @@ Als u verhoogde permissies nodig heeft om een AllUsers profiel te wijzigen, zorg
 - [New-ColorScriptCache](./New-ColorScriptCache.md)
 - [Clear-ColorScriptCache](./Clear-ColorScriptCache.md)
 - [GitHub Repository](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
-

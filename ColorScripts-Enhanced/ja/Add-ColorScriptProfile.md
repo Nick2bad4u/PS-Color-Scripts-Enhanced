@@ -16,7 +16,9 @@ PowerShell プロファイル ファイルに ColorScripts-Enhanced 統合を追
 ## SYNTAX
 
 ```text
-Add-ColorScriptProfile [[-Scope] <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
+Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon]
+ [-SkipPokemonPrompt] [-PokemonPromptResponse <string>] [-SkipCacheBuild] [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -145,6 +147,74 @@ ParameterSets:
    ValueFromPipeline: false
    ValueFromPipelineByPropertyName: false
    ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -SkipPokemonPrompt
+
+起動時にポケモンを含めるかどうかのプロンプトをスキップします。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -PokemonPromptResponse
+
+ポケモン プロンプトへの事前回答 (Y/Yes または N/No)。環境変数
+`COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` とグローバル変数
+`$Global:ColorScriptsEnhancedPokemonPromptResponse` も参照します。
+
+```yaml
+Type: System.String
+DefaultValue: ""
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ""
+```
+
+### -SkipCacheBuild
+
+プロファイル追加時のキャッシュ事前構築を抑止します。環境変数
+`COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD` とグローバル変数
+`$Global:ColorScriptsEnhancedSkipCacheBuild` を考慮します。プロファイル パスが Temp 配下の場
+合、自動的にスキップされます。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+  - Name: (All)
+      Position: Named
+      IsRequired: false
+      ValueFromPipeline: false
+      ValueFromPipelineByPropertyName: false
+      ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""

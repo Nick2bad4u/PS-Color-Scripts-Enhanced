@@ -1802,6 +1802,31 @@ Describe 'ColorScripts-Enhanced extended coverage' {
             Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0
         }
 
+        It 'shows Pokemon when Category Pokemon is specified (implicitly includes Pokemon)' {
+            InModuleScope ColorScripts-Enhanced {
+                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                    [pscustomobject]@{
+                        Name       = 'bulbasaur'
+                        Path       = 'C:\scripts\bulbasaur.ps1'
+                        Category   = 'Pokemon'
+                        Categories = @('Pokemon')
+                        Tags       = @()
+                        Metadata   = $null
+                    }
+                }
+
+                # Ensure caching is mocked so command won't fail
+                Mock -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -MockWith {
+                    @{ Success = $true; StdOut = 'built output'; StdErr = ''; ExitCode = 0 }
+                }
+
+                $result = Show-ColorScript -Category Pokemon -PassThru -ErrorAction Stop
+
+                $result | Should -Not -BeNullOrEmpty
+                $result.Category | Should -Be 'Pokemon'
+            }
+        }
+
         It 'throws when direct execution fails' {
             Mock -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -MockWith {
                 @{ Success = $false; StdOut = ''; StdErr = 'runtime error'; ExitCode = 3 }

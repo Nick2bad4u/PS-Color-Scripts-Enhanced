@@ -7,7 +7,7 @@ param(
     [string]$OutputPath = './dist/examples/DEL-FLAG.ps1'
 )
 
-$scriptRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+$scriptRoot = Split-Path -Path $MyInvocation.MyCommand.Path -Parent
 $repoRoot = [System.IO.Path]::GetFullPath((Join-Path -Path $scriptRoot -ChildPath '..'))
 $repoRoot = [System.IO.Path]::GetFullPath((Join-Path -Path $repoRoot -ChildPath '..'))
 $ansiFull = Resolve-Path -LiteralPath (Join-Path -Path $repoRoot -ChildPath $AnsiPath)

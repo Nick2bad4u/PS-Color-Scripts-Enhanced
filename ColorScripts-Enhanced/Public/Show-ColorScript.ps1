@@ -1,4 +1,4 @@
-﻿function Show-ColorScript {
+function Show-ColorScript {
     <#
     .SYNOPSIS
         Displays a colorscript with automatic caching.
@@ -41,9 +41,8 @@
         Filter the available script set by tag metadata (case-insensitive).
     .PARAMETER ExcludeCategory
         Exclude scripts from one or more categories. Use this to filter out large collections like Pokemon scripts.
-    .PARAMETER IncludePokemon
-        Opt-in flag to include Pokemon colorscripts in the random selection.
-        When omitted, Pokemon scripts are filtered out automatically.
+    .PARAMETER ExcludePokemon
+        Shorthand for -ExcludeCategory Pokemon. Excludes all Pokemon colorscripts from selection.
     .PARAMETER PassThru
         Return the selected script metadata in addition to rendering output.
     .PARAMETER ReturnText
@@ -89,12 +88,12 @@
         Cycles through all nature-themed colorscripts with manual progression.
 
     .EXAMPLE
-        Show-ColorScript -IncludePokemon
-        Displays a random colorscript including Pokemon scripts.
+        Show-ColorScript -ExcludePokemon
+        Displays a random colorscript that is not a Pokemon.
 
     .EXAMPLE
         Show-ColorScript -ExcludeCategory Pokemon,Gaming
-        Displays a random colorscript. By default Pokémon scripts are excluded; use -IncludePokemon to include them.
+        Displays a random colorscript excluding Pokemon and Gaming categories.
     #>
     [OutputType([pscustomobject], ParameterSetName = 'List')]
     [OutputType([pscustomobject], ParameterSetName = 'Named')]
@@ -312,7 +311,7 @@
         [string[]]$ExcludeCategory,
 
         [Parameter()]
-        [switch]$IncludePokemon,
+        [switch]$ExcludePokemon,
 
         [Parameter(ParameterSetName = 'Named')]
         [Parameter(ParameterSetName = 'Random')]
@@ -346,23 +345,13 @@
     $noAnsiRequested = $NoAnsiOutput.IsPresent
     $preferConsoleOutput = -not $noAnsiRequested
 
-    $filterPokemon = -not $IncludePokemon
-
     # Normalize excluded categories
     $effectiveExcludeCategories = @()
     if ($ExcludeCategory) {
         $effectiveExcludeCategories += $ExcludeCategory
     }
-    if ($filterPokemon) {
-        # Exclude all Pokemon scripts based on the metadata-driven categories.
-        # Today, ScriptMetadata.psd1 assigns:
-        #   - Regular Pokemon:    Category/Categories contains 'Pokemon'
-        #   - Shiny Pokemon:      Category/Categories contains 'ShinyPokemon'
-        # The newer logical group name 'PokemonShiny' does not appear in
-        # Category/Categories, so relying on it alone will never match.
-        # To be robust we exclude all three identifiers in case future
-        # metadata adds the consolidated name as well.
-        $effectiveExcludeCategories += 'Pokemon', 'ShinyPokemon', 'PokemonShiny'
+    if ($ExcludePokemon) {
+        $effectiveExcludeCategories += 'Pokemon'
     }
 
     $excludeCategorySet = @()
@@ -372,23 +361,17 @@
                 ForEach-Object { $_.ToLowerInvariant() }
     }
 
-    # Build a concrete name set for all Pokemon scripts so that
-    # the default exclusion can filter by name as well as by category. This makes
-    # the behavior robust even if category wiring changes.
-    $pokemonNameSet = @()
-    if ($filterPokemon) {
-        try {
-            $pokemonRecords = Get-ColorScriptList -Category @('Pokemon', 'ShinyPokemon') -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue
-            if ($pokemonRecords) {
-                $pokemonNameSet = $pokemonRecords |
-                    Where-Object { $_.Name } |
-                        Select-Object -ExpandProperty Name -Unique
+    # If a specific script name is requested and it is a Pokémon script, do not exclude it even if
+    # Pokémon categories are filtered elsewhere.
+    if ($PSBoundParameters.ContainsKey('Name') -and $Name) {
+        $pokemonNames = Get-PokemonScriptNameSet
+        if ($pokemonNames -and $pokemonNames.Count -gt 0) {
+            foreach ($requested in @($Name | Where-Object { $_ })) {
+                if ($pokemonNames.Contains([string]$requested)) {
+                    $excludeCategorySet = $excludeCategorySet | Where-Object { $_ -notin @('pokemon', 'shinypokemon', 'pokemonshiny') }
+                    break
+                }
             }
-        }
-        catch {
-            Write-Verbose ("Unable to build Pokemon exclusion list via Get-ColorScriptList: {0}" -f $_.Exception.Message)
-            # If we cannot resolve the Pokemon lists for any reason, fall
-            # back to category-based exclusion only.
         }
     }
 
@@ -396,27 +379,27 @@
         $listParams = @{}
         if ($Category) { $listParams.Category = $Category }
         if ($Tag) { $listParams.Tag = $Tag }
-        if ($quietRequested) { $listParams.Quiet = [System.Management.Automation.SwitchParameter]$true }
-        if ($noAnsiRequested) { $listParams.NoAnsiOutput = [System.Management.Automation.SwitchParameter]$true }
+        if ($quietRequested) { $listParams.Quiet = $true }
+        if ($noAnsiRequested) { $listParams.NoAnsiOutput = $true }
 
-        $list = Get-ColorScriptList @listParams
+        $listRecords = Get-ColorScriptList @listParams
 
         if ($excludeCategorySet.Count -gt 0) {
-            $list = $list | Where-Object {
+            $listRecords = $listRecords | Where-Object {
                 $recordCategories = @($_.Category) + $_.Categories
                 $recordCategories = $recordCategories |
                     Where-Object { $_ } |
                         ForEach-Object { $_.ToLowerInvariant() }
-
                         -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
                     }
                 }
 
                 if ($pokemonNameSet.Count -gt 0) {
-                    $list = $list | Where-Object { $pokemonNameSet -notcontains $_.Name }
+                    $listRecords = $listRecords | Where-Object { $pokemonNameSet -notcontains $_.Name }
                 }
 
-                return $list
+                $listRecords
+                return
             }
 
             if ($All) {
@@ -439,13 +422,8 @@
                         $recordCategories = $recordCategories |
                             Where-Object { $_ } |
                                 ForEach-Object { $_.ToLowerInvariant() }
-
                                 -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
                             }
-                        }
-
-                        if ($pokemonNameSet.Count -gt 0) {
-                            $allScripts = $allScripts | Where-Object { $pokemonNameSet -notcontains $_.Name }
                         }
 
                         if (-not $allScripts -or $allScripts.Count -eq 0) {
@@ -475,7 +453,7 @@
                             $scriptNameSegment = New-ColorScriptAnsiText -Text $script.Name -Color 'Cyan' -NoAnsiOutput:$noAnsiRequested
                             Write-ColorScriptInformation -Message ("$progressSegment $scriptNameSegment") -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
 
-                            $dividerSegment = New-ColorScriptAnsiText -Text ('=' * 60) -Color 'DarkGray' -NoAnsiOutput:$noAnsiRequested
+                            $dividerSegment = New-ColorScriptAnsiText -Text ("=" * 60) -Color 'DarkGray' -NoAnsiOutput:$noAnsiRequested
                             Write-ColorScriptInformation -Message $dividerSegment -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'DarkGray'
                             Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
 
@@ -572,15 +550,6 @@
                                     ForEach-Object { $_.ToLowerInvariant() }
                                     -not ($recordCategories | Where-Object { $excludeCategorySet -contains $_ })
                                 }
-
-                                if (-not $records -or $records.Count -eq 0) {
-                                    Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria
-                                    return
-                                }
-                            }
-
-                            if ($pokemonNameSet.Count -gt 0) {
-                                $records = $records | Where-Object { $pokemonNameSet -notcontains $_.Name }
 
                                 if (-not $records -or $records.Count -eq 0) {
                                     Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria

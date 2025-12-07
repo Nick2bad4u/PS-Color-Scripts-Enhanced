@@ -278,7 +278,7 @@ Test-Function 'Add-ColorScriptProfile creates snippet' {
     if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
 
     try {
-        $result = Add-ColorScriptProfile -Path $tempProfile
+        $result = Add-ColorScriptProfile -Path $tempProfile -PokemonPromptResponse N -SkipCacheBuild
         if (-not $result.Changed) { throw 'Profile not updated' }
 
         $content = Get-Content $tempProfile -Raw
@@ -299,7 +299,7 @@ Test-Function 'Add-ColorScriptProfile SkipStartupScript' {
     if (Test-Path $tempProfile) { Remove-Item $tempProfile -Force }
 
     try {
-        Add-ColorScriptProfile -Path $tempProfile -SkipStartupScript | Out-Null
+        Add-ColorScriptProfile -Path $tempProfile -SkipStartupScript -SkipCacheBuild -PokemonPromptResponse N | Out-Null
         $content = Get-Content $tempProfile -Raw
         if ($content -notmatch 'Import-Module\s+ColorScripts-Enhanced') {
             throw 'Import line missing'
@@ -321,7 +321,7 @@ Test-Function 'Add-ColorScriptProfile expands tilde' {
     if (Test-Path $expectedPath) { Remove-Item $expectedPath -Force }
 
     try {
-        $result = Add-ColorScriptProfile -Path $tildePath -SkipStartupScript -Force
+        $result = Add-ColorScriptProfile -Path $tildePath -SkipStartupScript -SkipCacheBuild -PokemonPromptResponse N -Force
         if ($result.Path -ne $expectedPath) { throw 'Path not expanded as expected' }
         if (-not (Test-Path $expectedPath)) { throw 'Profile file not created' }
     }

@@ -19,14 +19,14 @@ function Get-ModuleInstallRoot {
 
     if ($AllUsersScope) {
         if ($PROFILE.AllUsersAllHosts) {
-            return Split-Path -Parent $PROFILE.AllUsersAllHosts
+            return Split-Path -Path $PROFILE.AllUsersAllHosts -Parent
         }
 
         return $paths | Where-Object { $_ -notlike "*$HOME*" } | Select-Object -First 1
     }
 
     if ($PROFILE.CurrentUserAllHosts) {
-        return Split-Path -Parent $PROFILE.CurrentUserAllHosts
+        return Split-Path -Path $PROFILE.CurrentUserAllHosts -Parent
     }
 
     $userHome = [Environment]::GetFolderPath('UserProfile')

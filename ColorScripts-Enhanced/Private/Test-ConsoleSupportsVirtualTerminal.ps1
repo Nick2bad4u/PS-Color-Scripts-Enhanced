@@ -10,44 +10,53 @@ function Test-ConsoleSupportsVirtualTerminal {
     $ENABLE_VIRTUAL_TERMINAL_PROCESSING = 0x0004
     $STD_OUTPUT_HANDLE = -11
 
-    if (-not $script:DelegateSyncRoot) {
-        $script:DelegateSyncRoot = New-Object System.Object
-    }
-
-    try {
-        Invoke-ModuleSynchronized $script:DelegateSyncRoot {
-            if (-not ('ColorScriptsEnhanced.ConsoleNative' -as [Type])) {
-                $typeDefinition = @(
-                    'using System;',
-                    'using System.Runtime.InteropServices;',
-                    '',
-                    'namespace ColorScriptsEnhanced {',
-                    '    internal static class ConsoleNative {',
-                    '        [DllImport("kernel32.dll", SetLastError = true)]',
-                    '        internal static extern IntPtr GetStdHandle(int nStdHandle);',
-                    '',
-                    '        [DllImport("kernel32.dll", SetLastError = true)]',
-                    '        internal static extern bool GetConsoleMode(IntPtr hConsoleHandle, out int lpMode);',
-                    '',
-                    '        [DllImport("kernel32.dll", SetLastError = true)]',
-                    '        internal static extern bool SetConsoleMode(IntPtr hConsoleHandle, int dwMode);',
-                    '    }',
-                    '}'
-                ) -join [Environment]::NewLine
-
-                Add-Type -TypeDefinition $typeDefinition -ErrorAction Stop
-            }
-        }
-    }
-    catch {
-        return $false
-    }
-
     $overrides = $null
     $useOverrides = $false
     if ($script:ConsoleNativeOverrides -and ($script:ConsoleNativeOverrides.Enabled -eq $true)) {
         $overrides = $script:ConsoleNativeOverrides
         $useOverrides = $true
+    }
+
+    if (-not $script:DelegateSyncRoot) {
+        $script:DelegateSyncRoot = New-Object System.Object
+    }
+
+    if (-not $useOverrides) {
+        try {
+            Invoke-ModuleSynchronized $script:DelegateSyncRoot {
+                if (-not ('ColorScriptsEnhanced.ConsoleNative' -as [Type])) {
+                    $typeDefinition = @(
+                        'using System;',
+                        'using System.Runtime.InteropServices;',
+                        '',
+                        'namespace ColorScriptsEnhanced {',
+                        '    internal static class ConsoleNative {',
+                        '        [DllImport("kernel32.dll", SetLastError = true)]',
+                        '        internal static extern IntPtr GetStdHandle(int nStdHandle);',
+                        '',
+                        '        [DllImport("kernel32.dll", SetLastError = true)]',
+                        '        internal static extern bool GetConsoleMode(IntPtr hConsoleHandle, out int lpMode);',
+                        '',
+                        '        [DllImport("kernel32.dll", SetLastError = true)]',
+                        '        internal static extern bool SetConsoleMode(IntPtr hConsoleHandle, int dwMode);',
+                        '    }',
+                        '}'
+                    ) -join [Environment]::NewLine
+
+                    Add-Type -TypeDefinition $typeDefinition -ErrorAction Stop
+                }
+            }
+        }
+        catch {
+            return $false
+        }
+
+        # If the native helper type is still unavailable (for example, Add-Type is blocked
+        # in constrained environments), fall back to reporting no VT support instead of
+        # throwing when invoking the delegate accessors below.
+        if (-not ('ColorScriptsEnhanced.ConsoleNative' -as [Type])) {
+            return $false
+        }
     }
 
     $getStdHandle = if ($useOverrides -and $overrides.GetStdHandle) {

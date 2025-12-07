@@ -1,3 +1,6 @@
+$PSDefaultParameterValues['Add-ColorScriptProfile:SkipPokemonPrompt'] = $true
+$PSDefaultParameterValues['Add-ColorScriptProfile:SkipCacheBuild'] = $true
+$PSDefaultParameterValues['Add-ColorScriptProfile:PokemonPromptResponse'] = 'N'
 Describe 'ColorScripts-Enhanced additional coverage' {
     BeforeAll {
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
@@ -982,6 +985,47 @@ namespace CoverageHost
             }
         }
 
+        It 'builds caches for Pokemon when Category Pokemon is specified (implicitly includes Pokemon)' {
+            InModuleScope ColorScripts-Enhanced {
+                $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
+                Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith {
+                    $script:CacheDir = Join-Path -Path $testDrive -ChildPath 'cache-pokemon'
+                    New-Item -ItemType Directory -Path $script:CacheDir -Force | Out-Null
+                    $script:CacheInitialized = $true
+                }
+
+                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                    [pscustomobject]@{
+                        Name = 'bulbasaur'
+                        Path = Join-Path $testDrive 'bulbasaur.ps1'
+                        Category = 'Pokemon'
+                        Categories = @('Pokemon')
+                        Tags = @()
+                        Metadata = $null
+                    }
+                }
+
+                Set-Content -Path (Join-Path $testDrive 'bulbasaur.ps1') -Value "Write-Host 'poke'" -Encoding UTF8
+
+                Mock -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -MockWith {
+                    [pscustomobject]@{
+                        CacheFile = Join-Path $script:CacheDir 'bulbasaur.cache'
+                        ExitCode  = 0
+                        StdOut    = 'cached'
+                        StdErr    = ''
+                        Success   = $true
+                        Name      = 'bulbasaur'
+                    }
+                }
+
+                $result = New-ColorScriptCache -Category Pokemon -PassThru
+
+                $result | Should -Not -BeNullOrEmpty
+                $result | Should -HaveCount 1
+                $result[0].Name | Should -Be 'bulbasaur'
+            }
+        }
+
         It 'returns empty result when ShouldProcess declines' {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
@@ -1515,7 +1559,7 @@ namespace CoverageHost
             It 'returns remote session response when PSSenderInfo exists' {
                 Set-Variable -Name PSSenderInfo -Scope Global -Value ([pscustomobject]@{ ApplicationArguments = 'RemoteSession' }) -Force
                 try {
-                    $result = Add-ColorScriptProfile -Confirm:$false
+                    $result = Add-ColorScriptProfile -Confirm:$false -SkipCacheBuild
 
                     $result.Path | Should -Be $null
                     $result.Changed | Should -BeFalse
@@ -1536,7 +1580,7 @@ namespace CoverageHost
 
                     Set-Variable -Name PROFILE -Scope Global -Value ([pscustomobject]@{ CurrentUserAllHosts = $profilePath }) -Force
 
-                    Add-ColorScriptProfile -Confirm:$false -Verbose
+                    Add-ColorScriptProfile -Confirm:$false -SkipCacheBuild -Verbose
 
                     Test-Path -LiteralPath $profilePath | Should -BeTrue
                     (Get-Content -LiteralPath $profilePath -Raw) | Should -Match 'Import-Module ColorScripts-Enhanced'
@@ -1551,7 +1595,7 @@ namespace CoverageHost
                         $null
                     }
 
-                    { Add-ColorScriptProfile -Path 'X:\missing\profile.ps1' -Confirm:$false } | Should -Throw -ErrorId 'ColorScriptsEnhanced.InvalidProfilePath*'
+                    { Add-ColorScriptProfile -Path 'X:\missing\profile.ps1' -Confirm:$false -SkipCacheBuild } | Should -Throw -ErrorId 'ColorScriptsEnhanced.InvalidProfilePath*'
                 }
             }
 
@@ -1559,7 +1603,7 @@ namespace CoverageHost
                 InModuleScope ColorScripts-Enhanced {
                     Set-Variable -Name PROFILE -Scope Global -Value ([pscustomobject]@{ CurrentUserAllHosts = '' }) -Force
 
-                    { Add-ColorScriptProfile -Confirm:$false } | Should -Throw -ErrorId 'ColorScriptsEnhanced.ProfilePathUndefined*'
+                    { Add-ColorScriptProfile -Confirm:$false -SkipCacheBuild } | Should -Throw -ErrorId 'ColorScriptsEnhanced.ProfilePathUndefined*'
                 }
             }
 
@@ -1576,7 +1620,7 @@ namespace CoverageHost
 
                         Set-Variable -Name PROFILE -Scope Global -Value ([pscustomobject]@{ CurrentUserAllHosts = 'profiles\profile.ps1' }) -Force
 
-                        Add-ColorScriptProfile -Confirm:$false
+                        Add-ColorScriptProfile -Confirm:$false -SkipCacheBuild
 
                         $resolved = Join-Path -Path $testDrive -ChildPath 'profiles\profile.ps1'
                         Test-Path -LiteralPath $resolved | Should -BeTrue
@@ -1598,7 +1642,7 @@ namespace CoverageHost
 
                     Set-Variable -Name PROFILE -Scope Global -Value ([pscustomobject]@{ CurrentUserAllHosts = $profilePath }) -Force
 
-                    $result = Add-ColorScriptProfile -Confirm:$false
+                    $result = Add-ColorScriptProfile -Confirm:$false -SkipCacheBuild
 
                     $result.Changed | Should -BeFalse
                     $result.Message | Should -Match 'already configured'
@@ -1621,7 +1665,7 @@ namespace CoverageHost
 
                     Set-Variable -Name PROFILE -Scope Global -Value ([pscustomobject]@{ CurrentUserAllHosts = $profilePath }) -Force
 
-                    $result = Add-ColorScriptProfile -Force -Confirm:$false
+                    $result = Add-ColorScriptProfile -Force -Confirm:$false -SkipCacheBuild
 
                     $result.Changed | Should -BeTrue
                     $content = Get-Content -LiteralPath $profilePath -Raw
@@ -1643,7 +1687,7 @@ namespace CoverageHost
 
                     Set-Variable -Name PROFILE -Scope Global -Value ([pscustomobject]@{ CurrentUserAllHosts = $profilePath }) -Force
 
-                    $result = Add-ColorScriptProfile -Confirm:$false
+                    $result = Add-ColorScriptProfile -Confirm:$false -SkipCacheBuild
 
                     $result.Changed | Should -BeTrue
                     $content = Get-Content -LiteralPath $profilePath -Raw
