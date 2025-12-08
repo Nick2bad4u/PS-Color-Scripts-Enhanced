@@ -52,6 +52,9 @@
                 $cachePath = Join-Path $root 'bars.cache'
                 Set-Content -Path $cachePath -Value 'precache' -Encoding utf8
                 (Get-Item $cachePath).LastWriteTimeUtc = (Get-Date).ToUniversalTime().AddMinutes(10)
+                $barsScript = Join-Path -Path (Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts') -ChildPath 'bars.ps1'
+                $signature = Get-FileContentSignature -Path $barsScript -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName 'bars' -Signature $signature -CacheFile $cachePath
                 $res = New-ColorScriptCache -Name 'bars' -PassThru
                 $rec = $res | Where-Object Name -EQ 'bars' | Select-Object -First 1
                 $rec.Status | Should -Be 'SkippedUpToDate'

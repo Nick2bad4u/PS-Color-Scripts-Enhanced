@@ -14,6 +14,7 @@ function Build-ScriptCache {
 
     $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($ScriptPath)
     $cacheFile = Join-Path $script:CacheDir "$scriptName.cache"
+    Remove-CacheEntryMetadataFile -ScriptName $scriptName
 
     $result = [pscustomobject]@{
         ScriptName = $scriptName
@@ -46,10 +47,23 @@ function Build-ScriptCache {
                 $scriptLastWrite = Get-FileLastWriteTime -Path $ScriptPath
                 Set-FileLastWriteTime -Path $cacheFile -Timestamp $scriptLastWrite
             }
+
+            $signature = Get-FileContentSignature -Path $ScriptPath -IncludeHash
+            Write-CacheEntryMetadataFile -ScriptName $scriptName -Signature $signature -CacheFile $cacheFile
             $result.Success = $true
         }
         catch {
             $result.StdErr = $_.Exception.Message
+            try {
+                if (Test-Path -LiteralPath $cacheFile -PathType Leaf) {
+                    Remove-Item -LiteralPath $cacheFile -Force -ErrorAction Stop
+                }
+            }
+            catch {
+                Write-Verbose ("Failed to remove incomplete cache '{0}': {1}" -f $cacheFile, $_.Exception.Message)
+            }
+
+            Remove-CacheEntryMetadataFile -ScriptName $scriptName
         }
     }
     elseif (-not $result.StdErr) {

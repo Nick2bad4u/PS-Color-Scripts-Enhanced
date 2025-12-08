@@ -70,6 +70,20 @@ function Update-CacheFormatVersion {
         Write-Verbose ("Cache purge enumeration failed: {0}" -f $_.Exception.Message)
     }
 
+    try {
+        Get-ChildItem -LiteralPath $CacheDirectory -Filter ('*{0}' -f $script:CacheEntryMetadataExtension) -File -ErrorAction Stop | ForEach-Object {
+            try {
+                Remove-Item -LiteralPath $_.FullName -Force -ErrorAction Stop
+            }
+            catch {
+                Write-Verbose ("Failed to remove cache metadata file '{0}': {1}" -f $_.FullName, $_.Exception.Message)
+            }
+        }
+    }
+    catch {
+        Write-Verbose ("Cache metadata purge enumeration failed: {0}" -f $_.Exception.Message)
+    }
+
     $moduleVersion = $null
     try {
         if ($ExecutionContext.SessionState -and $ExecutionContext.SessionState.Module) {

@@ -164,8 +164,10 @@ Describe 'ColorScripts-Enhanced Module' {
 
         It 'Should skip cache rebuild when up-to-date' {
             New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
-            [System.IO.File]::SetLastWriteTime($cacheFile, (Get-Date).AddHours(1))
+            $barsScript = Join-Path -Path (Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts') -ChildPath 'bars.ps1'
+            if (Test-Path -LiteralPath $barsScript) {
+                [System.IO.File]::SetLastWriteTimeUtc($barsScript, (Get-Date).AddHours(1))
+            }
 
             $result = New-ColorScriptCache -Name 'bars' -PassThru -ErrorAction Stop
             $result[0].Status | Should -Be 'SkippedUpToDate'
@@ -173,8 +175,6 @@ Describe 'ColorScripts-Enhanced Module' {
 
         It 'Should force cache rebuild even when cache is newer' {
             New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
-            [System.IO.File]::SetLastWriteTime($cacheFile, (Get-Date).AddHours(1))
 
             $result = New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop
             $result[0].Status | Should -Be 'Updated'

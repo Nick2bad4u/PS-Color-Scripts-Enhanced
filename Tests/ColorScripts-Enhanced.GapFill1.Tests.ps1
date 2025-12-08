@@ -61,22 +61,24 @@ Describe 'Gap-filler coverage for cache and output helpers' {
             }
         }
 
-        It 'returns stale when script newer than cache and available when fresh' {
+        It 'returns stale when script content changes and available when metadata matches' {
             InModuleScope ColorScripts-Enhanced -Parameters @{ root = $script:CacheRoot } {
                 param($root)
                 $scriptPath = Join-Path $root 'fresh.ps1'
                 $cachePath = Join-Path $root 'fresh.cache'
                 Set-Content -Path $scriptPath -Value 'Write-Host ok' -Encoding utf8
                 Set-Content -Path $cachePath -Value 'cached' -Encoding utf8
-                # Make cache older
-                (Get-Item $cachePath).LastWriteTimeUtc = (Get-Date).ToUniversalTime().AddMinutes(-5)
-                (Get-Item $scriptPath).LastWriteTimeUtc = (Get-Date).ToUniversalTime()
+                $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($scriptPath)
+                $signature = Get-FileContentSignature -Path $scriptPath -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName $scriptName -Signature $signature -CacheFile $cachePath
 
+                Add-Content -Path $scriptPath -Value '# changed' -Encoding utf8
                 $stale = Get-CachedOutput -ScriptPath $scriptPath
                 $stale.Available | Should -BeFalse
 
-                # Make cache newer
-                (Get-Item $cachePath).LastWriteTimeUtc = (Get-Date).ToUniversalTime().AddMinutes(5)
+                $updatedSignature = Get-FileContentSignature -Path $scriptPath -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName $scriptName -Signature $updatedSignature -CacheFile $cachePath
+
                 $content = Get-CachedOutput -ScriptPath $scriptPath
                 $content.Available | Should -BeTrue
                 $content.Content.Trim() | Should -Be 'cached'
@@ -90,6 +92,9 @@ Describe 'Gap-filler coverage for cache and output helpers' {
                 Set-Content -Path $scriptPath -Value 'noop' -Encoding utf8
                 $cachePath = Join-Path $root 'throwing.cache'
                 Set-Content -Path $cachePath -Value 'data' -Encoding utf8
+                $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($scriptPath)
+                $signature = Get-FileContentSignature -Path $scriptPath -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName $scriptName -Signature $signature -CacheFile $cachePath
 
                 $oldExists = $script:FileExistsDelegate
                 $oldRead = $script:FileReadAllTextDelegate

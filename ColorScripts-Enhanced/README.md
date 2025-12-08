@@ -41,11 +41,18 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 
 ## ✨ Features
 
-- **<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
-- **6-19x Faster** — Intelligent caching drops load times to 5-20ms
-- **Cross-Platform** — Works on Windows, macOS, and Linux
-- **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
-- **Easy to Use** — Simple commands with tab completion
+- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
+- ⚡ **6-19x Faster** — Intelligent caching drops load times to 5-20ms
+- 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
+- ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
+- 🖌️ **500+ Custom Made Colorscripts** — Exclusive original designs
+- 🐾 **2500~ Pokémon ColorScripts** — Opt-in Pokémon-themed colorscripts
+  * Note: Pokémon art is filtered by default to keep load times fast. Opt in with `-IncludePokemon` on relevant commands.
+- 🌍 **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
+- 🧩 **Easy to Use** — Simple commands with tab completion
+- 🗄️ **Centralized Cache** — OS-wide in `AppData/ColorScripts-Enhanced/cache`
+- 🔄 **Auto-Update** — Cache invalidates automatically when scripts change
+- 📚 **Complete Help** — Full comment-based help for all commands
 
 ## 🚀 Quick Start
 
@@ -238,7 +245,7 @@ Built upon the work of:
 - [Derek Taylor (DistroTube)](https://gitlab.com/dwt1/shell-color-scripts) — Original shell-color-scripts
 - [Scott McKendry](https://github.com/scottmckendry/ps-color-scripts) — PowerShell port
 
-ANSI art sourced from [16colo.rs](https://16colo.rs/), [ArtScene](http://artscene.textfiles.com/artpacks/), and [r/ANSIart](https://www.reddit.com/r/ANSIart/).
+ANSI art sourced from [16colo.rs](https://16colo.rs/), [ArtScene](http://artscene.textfiles.com/artpacks/), [r/ANSIart](https://www.reddit.com/r/ANSIart/), [Pokemon-Colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts), and more artists.
 
 ## 📄 License
 

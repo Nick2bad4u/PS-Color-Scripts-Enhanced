@@ -8,14 +8,18 @@ Display beautiful ANSI colorscripts in your terminal with intelligent caching fo
 
 ## Features
 
-- ✨ **<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** - Extensive ANSI art collection across 15+ categories
-- ⚡ **6-19x Faster** - Intelligent caching (5-20ms vs 50-300ms load times)
-- 🌐 **Cross-Platform** - Fully tested on Windows, macOS, and Linux
-- 🎯 **Simple API** - Easy cmdlets with full tab completion
-- ⚙️ **Configurable** - Persist cache location, startup behavior, and defaults
-- 📍 **Centralized Cache** - OS-wide in `AppData/ColorScripts-Enhanced/cache`
-- 🔄 **Auto-Update** - Cache invalidates automatically when scripts change
-- 📚 **Complete Help** - Full comment-based help for all 10 commands
+- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
+- ⚡ **6-19x Faster** — Intelligent caching drops load times to 5-20ms
+- 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
+- ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
+- 🖌️ **500+ Custom Made Colorscripts** — Exclusive original designs
+- 🐾 **2500~ Pokémon ColorScripts** — Opt-in Pokémon-themed colorscripts
+  * Note: Pokémon art is filtered by default to keep load times fast. Opt in with `-IncludePokemon` on relevant commands.
+- 🌍 **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
+- 🧩 **Easy to Use** — Simple commands with tab completion
+- 🗄️ **Centralized Cache** — OS-wide in `AppData/ColorScripts-Enhanced/cache`
+- 🔄 **Auto-Update** — Cache invalidates automatically when scripts change
+- 📚 **Complete Help** — Full comment-based help for all commands
 
 ## Quick Start
 
@@ -25,10 +29,13 @@ Install-Module ColorScripts-Enhanced -Scope CurrentUser
 
 # Import and display a random colorscript
 Import-Module ColorScripts-Enhanced
-Show-ColorScript  # Alias: scs
+Show-ColorScript # Shows a random colorscript
+scs -IncludePokemon # Alias: scs with Pokémon art
 
 # Add to your PowerShell profile for automatic startup
 Add-ColorScriptProfile
+# Add to your PowerShell profile for automatic startup with Pokémon art
+Add-ColorScriptProfile -IncludePokemon -SkipPokemonPrompt
 ```
 
 **Requires**: PowerShell 5.1+ or PowerShell 7.0+
@@ -49,14 +56,12 @@ Get-ColorScriptList
 # Filter by category
 Get-ColorScriptList -Category Geometric
 
-# Show detailed metadata
-Get-ColorScriptList -Detailed
-
 # Build cache for faster loading (6-19x improvement)
 New-ColorScriptCache
 
-# Build cache for specific scripts only
-New-ColorScriptCache -Name bars,hearts,arch
+# Opt-in to Pokémon art for display + cache
+Show-ColorScript -IncludePokemon
+New-ColorScriptCache -IncludePokemon
 
 # Clear cache when needed
 Clear-ColorScriptCache -All
@@ -76,26 +81,6 @@ Clear-ColorScriptCache -All
 | `Reset-ColorScriptConfiguration` | -     | Restore default configuration                 |
 | `Export-ColorScriptMetadata`     | -     | Export script metadata as JSON                |
 | `New-ColorScript`                | -     | Create a new colorscript template             |
-
-## Configuration
-
-Persist preferences across sessions:
-
-```powershell
-# View current configuration
-Get-ColorScriptConfiguration
-
-# Set custom cache path and disable auto-show
-Set-ColorScriptConfiguration -CachePath 'D:\Cache\ColorScripts' -ProfileAutoShow:$false
-
-# Set default colorscript for startup
-Set-ColorScriptConfiguration -DefaultScript 'galaxy-spiral'
-
-# Reset to defaults
-Reset-ColorScriptConfiguration
-```
-
-Configuration stored in `AppData/ColorScripts-Enhanced/config.json`.
 
 ## Getting Help
 
@@ -202,4 +187,3 @@ MIT - See [LICENSE](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob
 ---
 
 **Tip**: Run `Get-ColorScriptList | Select-Object -First 10` to preview your first 10 scripts!
-

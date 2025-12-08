@@ -387,6 +387,7 @@ function Clear-ColorScriptCache {
             $key = $name.ToLowerInvariant()
             $cacheInfo = if ($cacheLookup.ContainsKey($key)) { $cacheLookup[$key] } else { $null }
             $cachePath = if ($cacheInfo) { $cacheInfo.FullName } else { Join-Path -Path $cacheRoot -ChildPath ("{0}.cache" -f $name) }
+            $metadataPath = Get-CacheEntryMetadataPath -ScriptName $name -CacheRoot $cacheRoot
             $exists = $false
 
             if ($cacheInfo) {
@@ -437,6 +438,14 @@ function Clear-ColorScriptCache {
 
             try {
                 Remove-Item -LiteralPath $cachePath -Force -ErrorAction Stop
+                if ($metadataPath -and (Test-Path -LiteralPath $metadataPath -PathType Leaf)) {
+                    try {
+                        Remove-Item -LiteralPath $metadataPath -Force -ErrorAction Stop
+                    }
+                    catch {
+                        Write-Verbose ("Failed to remove metadata '{0}': {1}" -f $metadataPath, $_.Exception.Message)
+                    }
+                }
                 $summary.Removed++
                 [void]$results.Add([pscustomobject]@{
                         Name      = $name

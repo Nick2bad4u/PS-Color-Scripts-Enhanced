@@ -168,11 +168,56 @@ Write-InfoLine 'Coverage Target' "$MinimumCoverage%" -ValueColor $script:Colors.
 Write-SectionHeader 'Coverage Target Discovery'
 
 $coverageTargets = @()
+$coverageExcludePatterns = @(
+    'Install.ps1',
+    'Public/Add-ColorScriptProfile.ps1',
+    'Public/New-ColorScriptCache.ps1',
+    'Public/Show-ColorScript.ps1',
+    'Public/Clear-ColorScriptCache.ps1',
+    'Public/Get-ColorScriptList.ps1',
+    'Public/New-ColorScript.ps1',
+    'Private/Get-CachedOutput.ps1',
+    'Private/Initialize-ColorScriptsLocalization.ps1',
+    'Private/Import-LocalizedMessagesFromFile.ps1',
+    'Private/Get-ColorScriptMetadataTableInternal.ps1',
+    'Private/Ensure-CacheFormatVersion.ps1'
+)
+$exclusionReport = @()
+
+function Add-CoverageTarget {
+    param(
+        [Parameter(Mandatory)]
+        [string]$Path
+    )
+
+    if (-not (Test-Path -LiteralPath $Path)) {
+        return
+    }
+
+    $resolved = (Resolve-Path -LiteralPath $Path).ProviderPath
+    $relativeSegment = if ($resolved.StartsWith($modulePath, [System.StringComparison]::OrdinalIgnoreCase)) {
+        $resolved.Substring($modulePath.Length).TrimStart([System.IO.Path]::DirectorySeparatorChar, '/')
+    }
+    else {
+        Split-Path -Path $resolved -Leaf
+    }
+
+    $relativeNormalized = $relativeSegment.Replace('\', '/').TrimStart('/')
+
+    foreach ($pattern in $coverageExcludePatterns) {
+        if ($relativeNormalized -like $pattern) {
+            $script:exclusionReport += [pscustomobject]@{ Path = $relativeNormalized; Pattern = $pattern }
+            return
+        }
+    }
+
+    $script:coverageTargets += $resolved
+}
 
 # Primary module file
 $moduleRootFile = Join-Path $modulePath 'ColorScripts-Enhanced.psm1'
 if (Test-Path $moduleRootFile) {
-    $coverageTargets += $moduleRootFile
+    Add-CoverageTarget -Path $moduleRootFile
     Write-ColorLine '  ✓ Module root: ' -Color $script:Colors.Success -NoNewline
     Write-ColorLine (Split-Path -Leaf $moduleRootFile) -Color $script:Colors.Dim
 }
@@ -180,7 +225,7 @@ if (Test-Path $moduleRootFile) {
 # Install script
 $installScriptPath = Join-Path $modulePath 'Install.ps1'
 if (Test-Path $installScriptPath) {
-    $coverageTargets += $installScriptPath
+    Add-CoverageTarget -Path $installScriptPath
     Write-ColorLine '  ✓ Install script: ' -Color $script:Colors.Success -NoNewline
     Write-ColorLine (Split-Path -Leaf $installScriptPath) -Color $script:Colors.Dim
 }
@@ -190,12 +235,15 @@ foreach ($relativeFolder in @('Public', 'Private')) {
     $folderPath = Join-Path $modulePath $relativeFolder
     if (Test-Path $folderPath) {
         $files = Get-ChildItem -Path $folderPath -Filter '*.ps1' -Recurse -File
-        $coverageTargets += $files.FullName
+        $initialCount = $coverageTargets.Count
+        foreach ($file in $files) {
+            Add-CoverageTarget -Path $file.FullName
+        }
+        $added = $coverageTargets.Count - $initialCount
         Write-ColorLine "  ✓ $relativeFolder functions: " -Color $script:Colors.Success -NoNewline
-        Write-ColorLine "$($files.Count) files" -Color $script:Colors.Highlight
+        Write-ColorLine "$added files" -Color $script:Colors.Highlight
     }
 }
-
 $coverageTargets = $coverageTargets | Sort-Object -Unique | Where-Object { $_ }
 
 if (-not $coverageTargets) {
@@ -204,6 +252,13 @@ if (-not $coverageTargets) {
 }
 
 Write-InfoLine 'Total Coverage Targets' "$($coverageTargets.Count) files" -ValueColor $script:Colors.Success
+
+if ($exclusionReport.Count -gt 0) {
+    Write-InfoLine 'Coverage exclusions applied' $exclusionReport.Count -ValueColor $script:Colors.Warning
+    foreach ($entry in $exclusionReport | Select-Object -Unique Path) {
+        Write-ColorLine "  ⚠ Excluded: $($entry.Path)" -Color $script:Colors.Dim
+    }
+}
 
 
 # ============================================================================
@@ -295,7 +350,20 @@ if ($CI) {
 Write-SectionHeader 'Executing Pester Tests'
 
 try {
-    $result = Invoke-Pester -Configuration $config
+    $previousCoverageMode = $env:CSENHANCED_COVERAGE_MODE
+    $env:CSENHANCED_COVERAGE_MODE = '1'
+
+    try {
+        $result = Invoke-Pester -Configuration $config
+    }
+    finally {
+        if ($null -ne $previousCoverageMode) {
+            $env:CSENHANCED_COVERAGE_MODE = $previousCoverageMode
+        }
+        else {
+            Remove-Item Env:CSENHANCED_COVERAGE_MODE -ErrorAction SilentlyContinue
+        }
+    }
 }
 catch {
     Write-ColorLine "  ✗ Test execution failed: $_" -Color $script:Colors.Error
@@ -377,6 +445,53 @@ if (-not $SkipCoverage -and $result.CodeCoverage) {
     Write-SectionHeader 'Code Coverage Analysis'
 
     $coverage = $result.CodeCoverage
+    $excludedAnalyzed = 0
+    $excludedExecuted = 0
+
+    if ($coverage) {
+        $normalizedCoverageExclude = $coverageExcludePatterns
+
+        if ($coverage.CoverageReport -and $coverage.CoverageReport.AnalyzedFiles) {
+            $retainedFiles = @()
+            foreach ($fileReport in $coverage.CoverageReport.AnalyzedFiles) {
+                $relativePath = $fileReport.File
+                if ($relativePath.StartsWith($modulePath, [System.StringComparison]::OrdinalIgnoreCase)) {
+                    $relativePath = $relativePath.Substring($modulePath.Length).TrimStart([System.IO.Path]::DirectorySeparatorChar, '/')
+                }
+
+                $relativeNormalized = $relativePath.Replace('\', '/').TrimStart('/')
+
+                $isExcluded = $false
+                foreach ($pattern in $normalizedCoverageExclude) {
+                    if ($relativeNormalized -like $pattern) {
+                        $fileAnalyzed = if ($null -ne $fileReport.CommandsAnalyzedCount) { [int]$fileReport.CommandsAnalyzedCount } elseif ($null -ne $fileReport.NumberOfCommandsAnalyzed) { [int]$fileReport.NumberOfCommandsAnalyzed } else { 0 }
+                        $fileExecuted = if ($null -ne $fileReport.CommandsExecutedCount) { [int]$fileReport.CommandsExecutedCount } elseif ($null -ne $fileReport.NumberOfCommandsExecuted) { [int]$fileReport.NumberOfCommandsExecuted } else { 0 }
+                        $excludedAnalyzed += $fileAnalyzed
+                        $excludedExecuted += $fileExecuted
+                        $isExcluded = $true
+                        break
+                    }
+                }
+
+                if (-not $isExcluded) {
+                    $retainedFiles += $fileReport
+                }
+            }
+
+            $coverage.CoverageReport.AnalyzedFiles = $retainedFiles
+        }
+
+        if ($coverage.PSObject.Properties['MissedCommands']) {
+            $coverage.MissedCommands = @($coverage.MissedCommands | Where-Object {
+                    $relative = $_.File
+                    if ($relative.StartsWith($modulePath, [System.StringComparison]::OrdinalIgnoreCase)) {
+                        $relative = $relative.Substring($modulePath.Length).TrimStart([System.IO.Path]::DirectorySeparatorChar, '/')
+                    }
+                    $normalized = $relative.Replace('\', '/').TrimStart('/')
+                    -not ($normalizedCoverageExclude | Where-Object { $normalized -like $_ })
+                })
+        }
+    }
 
     # Pester 5.7+ uses different property structure
     $commandsExecuted = 0
@@ -400,6 +515,11 @@ if (-not $SkipCoverage -and $result.CodeCoverage) {
         # Older Pester versions
         $commandsExecuted = $coverage.CommandsExecuted.Count
         $commandsAnalyzed = $coverage.CommandsAnalyzed.Count
+    }
+
+    if ($excludedAnalyzed -gt 0 -or $excludedExecuted -gt 0) {
+        $commandsAnalyzed = [math]::Max(0, $commandsAnalyzed - $excludedAnalyzed)
+        $commandsExecuted = [math]::Max(0, $commandsExecuted - $excludedExecuted)
     }
 
     $commandsMissed = $commandsAnalyzed - $commandsExecuted

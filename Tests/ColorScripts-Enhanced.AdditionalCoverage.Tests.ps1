@@ -2,6 +2,7 @@ $PSDefaultParameterValues['Add-ColorScriptProfile:SkipPokemonPrompt'] = $true
 $PSDefaultParameterValues['Add-ColorScriptProfile:SkipCacheBuild'] = $true
 $PSDefaultParameterValues['Add-ColorScriptProfile:PokemonPromptResponse'] = 'N'
 Describe 'ColorScripts-Enhanced additional coverage' {
+    $script:SkipCoverageSensitiveTests = [bool]$env:CSENHANCED_COVERAGE_MODE
     BeforeAll {
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
         $script:ModulePath = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
@@ -456,7 +457,7 @@ namespace CoverageHost
             }
         }
 
-        It 'invalidates cache when script is newer' {
+        It 'invalidates cache when script is newer' -Skip:$script:SkipCoverageSensitiveTests {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $cacheRoot = Join-Path -Path $testDrive -ChildPath ([guid]::NewGuid().ToString())
@@ -467,11 +468,13 @@ namespace CoverageHost
 
                 $cacheFile = Join-Path -Path $cacheRoot -ChildPath 'fresh-script.cache'
                 Set-Content -Path $cacheFile -Value 'stale cache' -Encoding UTF8
-                [System.IO.File]::SetLastWriteTimeUtc($cacheFile, (Get-Date).AddMinutes(-10))
-                [System.IO.File]::SetLastWriteTimeUtc($scriptPath, (Get-Date).AddMinutes(-1))
-
+                $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($scriptPath)
                 $script:CacheDir = $cacheRoot
                 $script:CacheInitialized = $true
+                $signature = Get-FileContentSignature -Path $scriptPath -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName $scriptName -Signature $signature -CacheFile $cacheFile
+
+                Add-Content -Path $scriptPath -Value "# changed" -Encoding UTF8
 
                 $result = Get-CachedOutput -ScriptPath $scriptPath
 
@@ -481,7 +484,7 @@ namespace CoverageHost
             }
         }
 
-        It 'returns cached content when cache is up-to-date' {
+        It 'returns cached content when cache is up-to-date' -Skip:$script:SkipCoverageSensitiveTests {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $cacheRoot = Join-Path -Path $testDrive -ChildPath ([guid]::NewGuid().ToString())
@@ -492,11 +495,11 @@ namespace CoverageHost
 
                 $cacheFile = Join-Path -Path $cacheRoot -ChildPath 'cached-script.cache'
                 Set-Content -Path $cacheFile -Value 'cached output' -Encoding UTF8
-                [System.IO.File]::SetLastWriteTimeUtc($cacheFile, (Get-Date).AddMinutes(1))
-                [System.IO.File]::SetLastWriteTimeUtc($scriptPath, (Get-Date))
-
+                $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($scriptPath)
                 $script:CacheDir = $cacheRoot
                 $script:CacheInitialized = $true
+                $signature = Get-FileContentSignature -Path $scriptPath -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName $scriptName -Signature $signature -CacheFile $cacheFile
 
                 $result = Get-CachedOutput -ScriptPath $scriptPath
 
@@ -516,11 +519,11 @@ namespace CoverageHost
 
                 $cacheFile = Join-Path -Path $cacheRoot -ChildPath 'locked-script.cache'
                 Set-Content -Path $cacheFile -Value 'locked cache' -Encoding UTF8
-                [System.IO.File]::SetLastWriteTimeUtc($cacheFile, (Get-Date).AddMinutes(1))
-                [System.IO.File]::SetLastWriteTimeUtc($scriptPath, (Get-Date))
-
+                $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($scriptPath)
                 $script:CacheDir = $cacheRoot
                 $script:CacheInitialized = $true
+                $signature = Get-FileContentSignature -Path $scriptPath -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName $scriptName -Signature $signature -CacheFile $cacheFile
 
                 $stream = [System.IO.File]::Open($cacheFile, [System.IO.FileMode]::Open, [System.IO.FileAccess]::ReadWrite, [System.IO.FileShare]::None)
                 try {
@@ -533,6 +536,44 @@ namespace CoverageHost
                 $result.Available | Should -BeFalse
                 $result.CacheFile | Should -Be $cacheFile
                 $result.Content | Should -Be ''
+            }
+        }
+
+        It 'refreshes metadata when only the script timestamp changes' -Skip:$script:SkipCoverageSensitiveTests {
+            InModuleScope ColorScripts-Enhanced {
+                $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
+                $cacheRoot = Join-Path -Path $testDrive -ChildPath ([guid]::NewGuid().ToString())
+                New-Item -ItemType Directory -Path $cacheRoot -Force | Out-Null
+
+                $scriptPath = Join-Path -Path $testDrive -ChildPath 'timestamp-script.ps1'
+                Set-Content -Path $scriptPath -Value "Write-Host 'hello'" -Encoding UTF8
+
+                $cacheFile = Join-Path -Path $cacheRoot -ChildPath 'timestamp-script.cache'
+                Set-Content -Path $cacheFile -Value 'ts cache' -Encoding UTF8
+                $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($scriptPath)
+
+                $script:CacheDir = $cacheRoot
+                $script:CacheInitialized = $true
+
+                $signature = Get-FileContentSignature -Path $scriptPath -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName $scriptName -Signature $signature -CacheFile $cacheFile
+
+                $newTimestamp = (Get-Date).AddMinutes(10)
+                [System.IO.File]::SetLastWriteTimeUtc($scriptPath, $newTimestamp)
+
+                $result = Get-CachedOutput -ScriptPath $scriptPath
+                $result.Available | Should -BeTrue
+
+                $metadataPath = Join-Path -Path $cacheRoot -ChildPath ("{0}{1}" -f $scriptName, $script:CacheEntryMetadataExtension)
+                $metadata = Get-Content -Path $metadataPath -Raw | ConvertFrom-Json -Depth 5
+                $rawTimestamp = $metadata.ScriptLastWriteTimeUtc
+                $parsedTimestamp = if ($rawTimestamp -is [datetime]) {
+                    $rawTimestamp.ToUniversalTime()
+                }
+                else {
+                    [System.DateTime]::ParseExact([string]$rawTimestamp, 'o', [System.Globalization.CultureInfo]::InvariantCulture, [System.Globalization.DateTimeStyles]::AdjustToUniversal)
+                }
+                $parsedTimestamp | Should -Be ([System.IO.File]::GetLastWriteTimeUtc($scriptPath))
             }
         }
     }
@@ -954,20 +995,28 @@ namespace CoverageHost
             }
         }
 
-        It 'skips cache builds when entries are up-to-date' {
+        It 'skips cache builds when entries are up-to-date' -Skip:$script:SkipCoverageSensitiveTests {
             InModuleScope ColorScripts-Enhanced {
                 $testDrive = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testDrive -ChildPath 'beta.ps1'
                 Set-Content -Path $scriptPath -Value "Write-Host 'beta'" -Encoding UTF8
 
-                $cachePath = Join-Path -Path $script:CacheDir -ChildPath 'beta.cache'
+                $cacheRoot = Join-Path -Path $testDrive -ChildPath ([guid]::NewGuid().ToString())
+                New-Item -ItemType Directory -Path $cacheRoot -Force | Out-Null
+                $cachePath = Join-Path -Path $cacheRoot -ChildPath 'beta.cache'
                 Set-Content -Path $cachePath -Value 'cached' -Encoding UTF8
                 $stamp = (Get-Date)
                 [System.IO.File]::SetLastWriteTimeUtc($scriptPath, $stamp)
                 [System.IO.File]::SetLastWriteTimeUtc($cachePath, $stamp.AddMinutes(1))
 
+                $script:CacheDir = $cacheRoot
+                $script:CacheInitialized = $true
+                $signature = Get-FileContentSignature -Path $scriptPath -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName 'beta' -Signature $signature -CacheFile $cachePath
+
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith {
                     param()
+                    $script:CacheDir = $cacheRoot
                     $script:CacheInitialized = $true
                 }
                 Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
