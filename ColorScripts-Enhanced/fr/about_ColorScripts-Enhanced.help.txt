@@ -832,4 +832,4 @@ Copyright (c) 2025. Tous droits réservés.
 
 ### LICENSE
 
-Sous licence MIT. Voir le fichier LICENSE pour plus de détails.
+Sous licence Unlicense. Voir le fichier LICENSE pour plus de détails.

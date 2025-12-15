@@ -207,4 +207,4 @@ Copyright (c) 2025. Alle rechten voorbehouden.
 
 ### LICENSE
 
-Gelicentieerd onder MIT-licentie. Zie LICENSE-bestand voor details.
+Gelicentieerd onder Unlicense-licentie. Zie LICENSE-bestand voor details.

@@ -271,6 +271,34 @@ function Get-CachedOutput {
             }
         }
 
+        # Migration/robustness:
+        # Historically cache files were backdated to the script's LastWriteTimeUtc. That makes
+        # *.cache appear old even when they are valid and recently used/validated, and can cause
+        # external cleanup tools to delete *.cache while leaving *.cacheinfo behind.
+        # If we detect that legacy stamp, touch the cache file to 'now' once.
+        try {
+            if ($cacheLastWrite -and $scriptLastWriteUtc -and ($cacheLastWrite -eq $scriptLastWriteUtc)) {
+                $nowUtc = (Get-Date).ToUniversalTime()
+                try {
+                    Set-FileLastWriteTimeUtc -Path $cacheFile -Timestamp $nowUtc
+                    $cacheLastWrite = $nowUtc
+                }
+                catch {
+                    try {
+                        $nowLocal = Get-Date
+                        Set-FileLastWriteTime -Path $cacheFile -Timestamp $nowLocal
+                        $cacheLastWrite = $nowLocal.ToUniversalTime()
+                    }
+                    catch {
+                        Write-Verbose ("Failed to touch cache file timestamp for {0}: {1}" -f $cacheFile, $_.Exception.Message)
+                    }
+                }
+            }
+        }
+        catch {
+            Write-Verbose ("Cache timestamp migration check failed for {0}: {1}" -f $cacheFile, $_.Exception.Message)
+        }
+
         $content = & $script:FileReadAllTextDelegate $cacheFile $script:Utf8NoBomEncoding
 
         return [pscustomobject]@{

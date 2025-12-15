@@ -548,7 +548,7 @@ $env:PSModulePath += ";C:\CustomModulePath"
 
 - **GitHub**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced>
 - **Issues**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues>
-- **License**: MIT
+- **License**: Unlicense
 
 ## Version
 

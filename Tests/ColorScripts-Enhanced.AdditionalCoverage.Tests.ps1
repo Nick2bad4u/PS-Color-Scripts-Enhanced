@@ -766,7 +766,7 @@ namespace CoverageHost
                 $result.CacheFile | Should -Not -BeNullOrEmpty
                 Test-Path -LiteralPath $result.CacheFile | Should -BeTrue
                 (Get-Content -LiteralPath $result.CacheFile -Raw) | Should -Be $expectedOutput
-                [System.IO.File]::GetLastWriteTimeUtc($result.CacheFile) | Should -Be ([System.IO.File]::GetLastWriteTimeUtc($scriptPath))
+                [System.IO.File]::GetLastWriteTimeUtc($result.CacheFile) | Should -BeGreaterThan ([System.IO.File]::GetLastWriteTimeUtc($scriptPath))
             }
         }
 
@@ -812,9 +812,7 @@ namespace CoverageHost
 
                 Set-Variable -Name __fallbackTriggered -Scope Script -Value $false
 
-                Mock -CommandName Get-FileLastWriteTimeUtc -ModuleName ColorScripts-Enhanced -MockWith { throw 'utc not available' }
                 Mock -CommandName Set-FileLastWriteTimeUtc -ModuleName ColorScripts-Enhanced -MockWith { throw 'set utc failed' }
-                Mock -CommandName Get-FileLastWriteTime -ModuleName ColorScripts-Enhanced -MockWith { (Get-Date).AddMinutes(-3) }
                 Mock -CommandName Set-FileLastWriteTime -ModuleName ColorScripts-Enhanced -MockWith {
                     param($Path, $Timestamp)
                     [void]$Path

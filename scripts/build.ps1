@@ -494,10 +494,10 @@ $tagsBlock
             )
 
             # A URL to the license for this module.
-            LicenseUri = 'https://licenses.nuget.org/MIT'
+            LicenseUri = 'https://licenses.nuget.org/Unlicense'
 
             # License expression or path to license file
-            License = 'MIT'
+            License = 'Unlicense'
 
             # A URL to the main website for this project.
             ProjectUri = '$projectUri'

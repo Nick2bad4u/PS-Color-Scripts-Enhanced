@@ -982,7 +982,7 @@ Copyright (c) 2025. Alle Rechte vorbehalten.
 
 ### LICENSE
 
-Lizenziert unter MIT-Lizenz. Siehe LICENSE-Datei für Details.
+Lizenziert unter Unlicense-Lizenz. Siehe LICENSE-Datei für Details.
 
 ## RELATED LINKS
 
@@ -991,4 +991,3 @@ Lizenziert unter MIT-Lizenz. Siehe LICENSE-Datei für Details.
 - [Clear-ColorScriptCache](Clear-ColorScriptCache.md)
 - [Export-ColorScriptMetadata](Export-ColorScriptMetadata.md)
 - [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
-

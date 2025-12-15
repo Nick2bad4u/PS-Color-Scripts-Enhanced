@@ -82,7 +82,7 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | --------------------------------------------- | ------------------------------------------- |
 | [CODE\_OF\_CONDUCT.md](../CODE_OF_CONDUCT.md) | Community code of conduct                   |
 | [SECURITY.md](../SECURITY.md)                 | Security policy and vulnerability reporting |
-| [LICENSE](../LICENSE)                         | MIT License terms                           |
+| [LICENSE](../LICENSE)                         | Unlicense License terms                           |
 
 ## Configuration Files
 

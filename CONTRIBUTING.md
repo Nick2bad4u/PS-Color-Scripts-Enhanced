@@ -237,7 +237,7 @@ ps-color-scripts-enhanced/
 ├── README.md                          # Main documentation
 ├── RELEASENOTES.md                    # Version history
 ├── CONTRIBUTING.md                    # This file
-├── LICENSE                            # MIT License
+├── LICENSE                            # Unlicense License
 └── .gitignore                         # Git ignore rules
 ```
 
@@ -692,7 +692,7 @@ Example: `2025.10.09.1625`
 
 ## License
 
-By contributing, you agree your contributions will be licensed under the [MIT License](./LICENSE).
+By contributing, you agree your contributions will be licensed under the [Unlicense License](./LICENSE).
 
 ---
 

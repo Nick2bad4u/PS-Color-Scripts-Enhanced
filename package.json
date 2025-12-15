@@ -23,7 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/Nick2bad4u/ps-color-scripts-enhanced.git"
   },
-  "license": "MIT",
+  "license": "Unlicense",
   "author": "Nick2bad4u",
   "type": "commonjs",
   "main": "scripts/Convert-AnsiToColorScript.js",

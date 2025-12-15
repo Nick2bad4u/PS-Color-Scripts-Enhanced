@@ -140,11 +140,11 @@ try {
     }
 
     $licenseNode = Get-OrCreateNode -Parent $metadataNode -Name 'license' -Manager $nsMgr -NamespaceUri $namespaceUri
-    $licenseNode.InnerText = 'MIT'
+    $licenseNode.InnerText = 'Unlicense'
     $licenseNode.SetAttribute('type', 'expression')
 
     $licenseUrlNode = Get-OrCreateNode -Parent $metadataNode -Name 'licenseUrl' -Manager $nsMgr -NamespaceUri $namespaceUri
-    $licenseUrlNode.InnerText = 'https://licenses.nuget.org/MIT'
+    $licenseUrlNode.InnerText = 'https://licenses.nuget.org/Unlicense'
 
     $iconNode = Get-OrCreateNode -Parent $metadataNode -Name 'icon' -Manager $nsMgr -NamespaceUri $namespaceUri
     $iconNode.InnerText = 'icon.png'

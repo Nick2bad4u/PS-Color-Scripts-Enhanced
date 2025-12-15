@@ -40,12 +40,12 @@ function Build-ScriptCache {
             Invoke-FileWriteAllText -Path $cacheFile -Content $execution.StdOut -Encoding $script:Utf8NoBomEncoding
 
             try {
-                $scriptLastWrite = Get-FileLastWriteTimeUtc -Path $ScriptPath
-                Set-FileLastWriteTimeUtc -Path $cacheFile -Timestamp $scriptLastWrite
+                $cacheStamp = (Get-Date).ToUniversalTime()
+                Set-FileLastWriteTimeUtc -Path $cacheFile -Timestamp $cacheStamp
             }
             catch {
-                $scriptLastWrite = Get-FileLastWriteTime -Path $ScriptPath
-                Set-FileLastWriteTime -Path $cacheFile -Timestamp $scriptLastWrite
+                $cacheStamp = Get-Date
+                Set-FileLastWriteTime -Path $cacheFile -Timestamp $cacheStamp
             }
 
             $signature = Get-FileContentSignature -Path $ScriptPath -IncludeHash

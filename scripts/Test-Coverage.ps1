@@ -71,6 +71,15 @@ $originalEAP = $ErrorActionPreference
 $ErrorActionPreference = 'Stop'
 $startTime = Get-Date
 
+# IMPORTANT:
+# Coverage runs execute tests that may clear/rebuild caches. Never touch the user's real
+# %APPDATA%\ColorScripts-Enhanced cache during coverage.
+$coverageRunRoot = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath ('ColorScripts-Enhanced-Coverage-' + [guid]::NewGuid().ToString('N'))
+$env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = Join-Path -Path $coverageRunRoot -ChildPath 'cache'
+$env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT = Join-Path -Path $coverageRunRoot -ChildPath 'config'
+New-Item -ItemType Directory -Path $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH -Force | Out-Null
+New-Item -ItemType Directory -Path $env:COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT -Force | Out-Null
+
 # Colors for output (CI-friendly)
 $script:Colors = @{
     Header    = 'Cyan'

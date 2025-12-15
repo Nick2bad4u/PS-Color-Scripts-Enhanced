@@ -11,7 +11,7 @@
     RootModule = 'ColorScripts-Enhanced.psm1'
 
     # Version number of this module.
-    ModuleVersion = '2025.12.15.1153'
+    ModuleVersion = '2025.12.15.1730'
 
     # Supported PSEditions
     CompatiblePSEditions = @('Desktop', 'Core')
@@ -198,10 +198,10 @@ PERFECT FOR
             )
 
             # A URL to the license for this module.
-            LicenseUri = 'https://licenses.nuget.org/MIT'
+            LicenseUri = 'https://licenses.nuget.org/Unlicense'
 
             # License expression or path to license file
-            License = 'MIT'
+            License = 'Unlicense'
 
             # A URL to the main website for this project.
             ProjectUri = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced'
@@ -211,7 +211,7 @@ PERFECT FOR
 
             # ReleaseNotes of this module
             ReleaseNotes = @'
-Version 2025.12.15.1153:
+Version 2025.12.15.1730:
 - Enhanced caching system with OS-wide cache in AppData
 - 6-19x performance improvement
 - Cache stored in centralized location
