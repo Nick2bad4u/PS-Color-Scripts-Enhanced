@@ -49,6 +49,7 @@ $script:ModuleTraceUseDebug = $false
 $script:ModuleTraceUseFile = $false
 $script:ModuleTraceFile = $null
 $script:ModuleTraceWriteFailureNotified = $false
+$script:ModuleTraceStopwatch = $null
 
 if (-not [string]::IsNullOrWhiteSpace($traceSetting)) {
     $script:ModuleTraceEnabled = $true
@@ -112,6 +113,8 @@ if ($script:ModuleTraceEnabled) {
             Write-Verbose ("Unable to prepare trace directory '{0}': {1}" -f $script:ModuleTraceFile, $_.Exception.Message)
         }
     }
+
+    $script:ModuleTraceStopwatch = [System.Diagnostics.Stopwatch]::StartNew()
 }
 
 function Write-ModuleTrace {
@@ -124,17 +127,22 @@ function Write-ModuleTrace {
         return
     }
 
+    $messageToWrite = $Message
+    if ($script:ModuleTraceStopwatch) {
+        $messageToWrite = ('{0,6}ms | {1}' -f $script:ModuleTraceStopwatch.ElapsedMilliseconds, $Message)
+    }
+
     if ($script:ModuleTraceUseDebug) {
-        Write-Debug $Message
+        Write-Debug $messageToWrite
     }
 
     if ($script:ModuleTraceUseVerbose) {
-        Write-Verbose $Message
+        Write-Verbose $messageToWrite
     }
 
     if ($script:ModuleTraceUseFile -and $script:ModuleTraceFile) {
         try {
-            $Message | Out-File -FilePath $script:ModuleTraceFile -Encoding utf8 -Append
+            $messageToWrite | Out-File -FilePath $script:ModuleTraceFile -Encoding utf8 -Append
         }
         catch {
             if (-not $script:ModuleTraceWriteFailureNotified) {
@@ -148,52 +156,67 @@ function Write-ModuleTrace {
 Write-ModuleTrace ('--- Import begin: {0} ---' -f (Get-Date -Format o))
 
 $moduleInfo = $ExecutionContext.SessionState.Module
-$moduleRootCandidates = @()
 
-if ($moduleInfo) {
-    if ($moduleInfo.ModuleBase) {
-        $moduleRootCandidates += $moduleInfo.ModuleBase
-    }
-
-    if ($moduleInfo.Path) {
-        $moduleRootCandidates += (Split-Path -Path $moduleInfo.Path -Parent)
-    }
+$moduleRootCandidates = New-Object System.Collections.Generic.List[string]
+$environmentRoot = $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT
+if (-not [string]::IsNullOrWhiteSpace($environmentRoot)) {
+    $null = $moduleRootCandidates.Add($environmentRoot)
 }
 
 if ($PSScriptRoot) {
-    $moduleRootCandidates += $PSScriptRoot
+    $null = $moduleRootCandidates.Add($PSScriptRoot)
 }
 
-$availableModule = Get-Module -ListAvailable -Name 'ColorScripts-Enhanced' | Select-Object -First 1
-if ($availableModule -and $availableModule.ModuleBase) {
-    $moduleRootCandidates += $availableModule.ModuleBase
-}
-
-$environmentRoot = $env:COLOR_SCRIPTS_ENHANCED_MODULE_ROOT
-if ($environmentRoot) {
-    $moduleRootCandidates += $environmentRoot
-}
-
-Write-ModuleTrace ('Initial module root candidates: {0}' -f ($moduleRootCandidates -join ';'))
-
-$resolvedCandidates = @()
-foreach ($candidate in $moduleRootCandidates) {
-    if ([string]::IsNullOrWhiteSpace($candidate)) { continue }
-    try {
-        $resolvedCandidate = (Resolve-Path -LiteralPath $candidate -ErrorAction Stop).ProviderPath
-        if ($resolvedCandidate -and ($resolvedCandidates -notcontains $resolvedCandidate)) {
-            $resolvedCandidates += $resolvedCandidate
-        }
+if ($moduleInfo) {
+    if ($moduleInfo.ModuleBase) {
+        $null = $moduleRootCandidates.Add($moduleInfo.ModuleBase)
     }
-    catch {
+
+    if ($moduleInfo.Path) {
+        $null = $moduleRootCandidates.Add((Split-Path -Path $moduleInfo.Path -Parent))
+    }
+}
+
+$uniqueModuleRootCandidates = New-Object System.Collections.Generic.List[string]
+$moduleRootSeen = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+foreach ($candidate in $moduleRootCandidates) {
+    if ([string]::IsNullOrWhiteSpace($candidate)) {
         continue
     }
+
+    if ($moduleRootSeen.Add($candidate)) {
+        $null = $uniqueModuleRootCandidates.Add($candidate)
+    }
 }
 
-$moduleRootCandidates = $resolvedCandidates
-Write-ModuleTrace ('Resolved module root candidates: {0}' -f ($moduleRootCandidates -join ';'))
+$moduleRootCandidates = $uniqueModuleRootCandidates.ToArray()
+Write-ModuleTrace ('Module root candidates: {0}' -f ($moduleRootCandidates -join ';'))
 
-$cultureFallback = @()
+$script:ModuleRoot = $null
+foreach ($candidate in $moduleRootCandidates) {
+    $resolvedCandidate = $candidate
+    try {
+        $resolvedCandidate = (Resolve-Path -LiteralPath $candidate -ErrorAction Stop).ProviderPath
+    }
+    catch {
+        $resolvedCandidate = $candidate
+    }
+
+    if ($resolvedCandidate -and (Test-Path -LiteralPath $resolvedCandidate -PathType Container)) {
+        $script:ModuleRoot = $resolvedCandidate
+        break
+    }
+}
+
+if (-not $script:ModuleRoot -and $PSScriptRoot) {
+    $script:ModuleRoot = $PSScriptRoot
+}
+
+$selectedModuleRoot = if ($script:ModuleRoot) { $script:ModuleRoot } else { 'n/a' }
+Write-ModuleTrace ('Module root candidate selected: {0}' -f $selectedModuleRoot)
+
+$cultureFallback = New-Object System.Collections.Generic.List[string]
+$cultureSeen = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
 try {
     $currentCulture = [System.Globalization.CultureInfo]::CurrentUICulture
 }
@@ -201,8 +224,11 @@ catch {
     $currentCulture = $null
 }
 
-while ($currentCulture -and $currentCulture.Name -and -not ($cultureFallback -contains $currentCulture.Name)) {
-    $cultureFallback += $currentCulture.Name
+while ($currentCulture -and $currentCulture.Name -and -not [string]::IsNullOrWhiteSpace($currentCulture.Name)) {
+    if ($cultureSeen.Add($currentCulture.Name)) {
+        $null = $cultureFallback.Add($currentCulture.Name)
+    }
+
     if ($currentCulture.Parent -and $currentCulture.Parent.Name -and $currentCulture.Parent.Name -ne $currentCulture.Name) {
         $currentCulture = $currentCulture.Parent
     }
@@ -211,9 +237,13 @@ while ($currentCulture -and $currentCulture.Name -and -not ($cultureFallback -co
     }
 }
 
-$cultureFallback += 'en-US'
-$cultureFallback += 'en'
-$cultureFallback = $cultureFallback | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | Select-Object -Unique
+foreach ($fallbackCulture in @('en-US', 'en')) {
+    if ($cultureSeen.Add($fallbackCulture)) {
+        $null = $cultureFallback.Add($fallbackCulture)
+    }
+}
+
+$cultureFallback = $cultureFallback.ToArray()
 
 $script:LocalizationMode = 'Auto'
 $localizationModeEnv = $env:COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE
@@ -325,26 +355,24 @@ if (-not $script:DelegateSyncRoot) { $script:DelegateSyncRoot = New-Object Syste
 
 $privateDirectory = Join-Path -Path $PSScriptRoot -ChildPath 'Private'
 if (Test-Path -LiteralPath $privateDirectory) {
-    Get-ChildItem -Path $privateDirectory -Filter '*.ps1' -File | Sort-Object Name | ForEach-Object {
-        Write-ModuleTrace ('Loading private script: {0}' -f $_.Name)
-        . $_.FullName
+    $privateScripts = [System.IO.Directory]::GetFiles($privateDirectory, '*.ps1')
+    [System.Array]::Sort($privateScripts, [System.StringComparer]::OrdinalIgnoreCase)
+    foreach ($scriptPath in $privateScripts) {
+        Write-ModuleTrace ('Loading private script: {0}' -f ([System.IO.Path]::GetFileName($scriptPath)))
+        . $scriptPath
     }
 }
 else {
     Write-ModuleTrace ("Private script directory '{0}' was not found." -f $privateDirectory)
 }
 
-$localizationResult = Initialize-ColorScriptsLocalization -CandidateRoots ($moduleRootCandidates | Select-Object -Unique) -CultureFallbackOverride $cultureFallback -UseDefaultCandidates
+$localizationResult = Initialize-ColorScriptsLocalization -CultureFallbackOverride $cultureFallback -UseDefaultCandidates
 if ($localizationResult -and $localizationResult.ModuleRoot) {
     $script:ModuleRoot = $localizationResult.ModuleRoot
 }
-elseif (-not $script:ModuleRoot) {
-    if ($PSScriptRoot) {
-        $script:ModuleRoot = $PSScriptRoot
-    }
-    elseif ($moduleInfo -and $moduleInfo.ModuleBase) {
-        $script:ModuleRoot = $moduleInfo.ModuleBase
-    }
+
+if (-not $script:ModuleRoot -and $PSScriptRoot) {
+    $script:ModuleRoot = $PSScriptRoot
 }
 
 if ($script:ModuleRoot) {
@@ -368,9 +396,11 @@ else {
 
 $publicDirectory = Join-Path -Path $PSScriptRoot -ChildPath 'Public'
 if (Test-Path -LiteralPath $publicDirectory) {
-    Get-ChildItem -Path $publicDirectory -Filter '*.ps1' -File | Sort-Object Name | ForEach-Object {
-        Write-ModuleTrace ('Loading public script: {0}' -f $_.Name)
-        . $_.FullName
+    $publicScripts = [System.IO.Directory]::GetFiles($publicDirectory, '*.ps1')
+    [System.Array]::Sort($publicScripts, [System.StringComparer]::OrdinalIgnoreCase)
+    foreach ($scriptPath in $publicScripts) {
+        Write-ModuleTrace ('Loading public script: {0}' -f ([System.IO.Path]::GetFileName($scriptPath)))
+        . $scriptPath
     }
 }
 else {

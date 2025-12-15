@@ -1,6 +1,22 @@
 function Get-ColorScriptsConfigurationRoot {
+    param(
+        [switch]$NoCreate
+    )
+
     if ($script:ConfigurationRoot) {
-        return $script:ConfigurationRoot
+        # The configuration directory can be deleted between calls (especially in tests that
+        # use transient temp roots). If the cached directory no longer exists, clear the cache
+        # and resolve/create again.
+        try {
+            if (Test-Path -LiteralPath $script:ConfigurationRoot -PathType Container) {
+                return $script:ConfigurationRoot
+            }
+        }
+        catch {
+            # Fall through
+        }
+
+        $script:ConfigurationRoot = $null
     }
 
     $candidates = @()
@@ -32,6 +48,37 @@ function Get-ColorScriptsConfigurationRoot {
     }
 
     $candidates = @($candidates | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
+
+    if ($NoCreate) {
+        foreach ($candidate in $candidates) {
+            $resolvedCandidate = $null
+            try {
+                $resolvedCandidate = Resolve-CachePath -Path $candidate
+            }
+            catch {
+                $resolvedCandidate = $null
+            }
+
+            if (-not $resolvedCandidate) {
+                continue
+            }
+
+            if (Test-Path -LiteralPath $resolvedCandidate -PathType Container) {
+                try {
+                    $resolvedCandidate = (Resolve-Path -LiteralPath $resolvedCandidate -ErrorAction Stop).ProviderPath
+                }
+                catch {
+                    # Keep original
+                }
+
+                # Important: do not cache $script:ConfigurationRoot in probe mode.
+                # Tests (and some callers) use transient temp roots which may be deleted later.
+                return $resolvedCandidate
+            }
+        }
+
+        return $null
+    }
 
     $createDirectoryAction = {
         param($path)

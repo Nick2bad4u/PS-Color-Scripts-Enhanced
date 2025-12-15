@@ -497,6 +497,16 @@
                                 else {
                                     $cacheResult = Build-ScriptCache -ScriptPath $script.Path
                                     $renderedOutput = $cacheResult.StdOut
+
+                                    if ($cacheResult -and $cacheResult.Success -and $script:CacheDir) {
+                                        try {
+                                            $metadataFileName = 'cache-metadata-v{0}.json' -f $script:CacheFormatVersion
+                                            Write-CacheMetadataFile -CacheDirectory $script:CacheDir -MetadataFileName $metadataFileName
+                                        }
+                                        catch {
+                                            Write-Verbose ("Cache metadata update failed: {0}" -f $_.Exception.Message)
+                                        }
+                                    }
                                 }
                             }
                             else {
@@ -652,6 +662,16 @@
                                     }
                                     else {
                                         $renderedOutput = $cacheResult.StdOut
+
+                                        if ($script:CacheDir) {
+                                            try {
+                                                $metadataFileName = 'cache-metadata-v{0}.json' -f $script:CacheFormatVersion
+                                                Write-CacheMetadataFile -CacheDirectory $script:CacheDir -MetadataFileName $metadataFileName
+                                            }
+                                            catch {
+                                                Write-Verbose ("Cache metadata update failed: {0}" -f $_.Exception.Message)
+                                            }
+                                        }
                                     }
                                 }
                             }

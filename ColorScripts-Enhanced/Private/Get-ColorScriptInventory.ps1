@@ -6,6 +6,40 @@ function Get-ColorScriptInventory {
     $null = $Raw
 
     $result = Invoke-ModuleSynchronized $script:InventorySyncRoot {
+        $getScriptFiles = {
+            param(
+                [Parameter(Mandatory)]
+                [string]$Path
+            )
+
+            try {
+                if ([string]::IsNullOrWhiteSpace($Path)) {
+                    return @()
+                }
+
+                if (-not (Test-Path -LiteralPath $Path -PathType Container)) {
+                    return @()
+                }
+
+                $files = New-Object 'System.Collections.Generic.List[System.IO.FileInfo]'
+                foreach ($filePath in [System.IO.Directory]::EnumerateFiles($Path, '*.ps1', [System.IO.SearchOption]::TopDirectoryOnly)) {
+                    if (-not [string]::IsNullOrWhiteSpace($filePath)) {
+                        $null = $files.Add([System.IO.FileInfo]$filePath)
+                    }
+                }
+
+                return $files.ToArray()
+            }
+            catch {
+                try {
+                    return @(Get-ChildItem -Path $Path -Filter '*.ps1' -File -ErrorAction Stop)
+                }
+                catch {
+                    return @()
+                }
+            }
+        }
+
         $currentStamp = $null
         try {
             $currentStamp = & $script:DirectoryGetLastWriteTimeUtcDelegate $script:ScriptsPath
@@ -41,12 +75,7 @@ function Get-ColorScriptInventory {
             }
 
             if (-not $inventoryContainsNonFileInfo) {
-                try {
-                    $probeFiles = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" -File -ErrorAction Stop
-                }
-                catch {
-                    $probeFiles = @()
-                }
+                $probeFiles = & $getScriptFiles $script:ScriptsPath
 
                 $cachedCount = if ($script:ScriptInventory) { $script:ScriptInventory.Count } else { 0 }
                 if ($probeFiles.Count -ne $cachedCount) {
@@ -58,12 +87,7 @@ function Get-ColorScriptInventory {
 
         if ($shouldRefresh) {
             if (-not $scriptFiles) {
-                try {
-                    $scriptFiles = Get-ChildItem -Path $script:ScriptsPath -Filter "*.ps1" -File -ErrorAction Stop
-                }
-                catch {
-                    $scriptFiles = @()
-                }
+                $scriptFiles = & $getScriptFiles $script:ScriptsPath
             }
 
             $script:ScriptInventory = @($scriptFiles)

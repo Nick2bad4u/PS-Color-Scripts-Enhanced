@@ -37,21 +37,50 @@ function Invoke-ColorScriptsStartup {
 
         $configRoot = $null
         try {
-            $configRoot = Get-ColorScriptsConfigurationRoot
+            # Import-time optimization: when startup is NOT forced, do not create the configuration
+            # directory just to determine whether startup is enabled.
+            if ($overrideEnabled) {
+                $configRoot = Get-ColorScriptsConfigurationRoot
+            }
+            else {
+                $configRoot = Get-ColorScriptsConfigurationRoot -NoCreate
+            }
         }
         catch {
             Write-Verbose "Unable to locate configuration root: $($_.Exception.Message)"
             if (-not $overrideEnabled) {
                 return
             }
+
+            $configRoot = $null
         }
 
         $configPath = if ($configRoot) { Join-Path -Path $configRoot -ChildPath 'config.json' } else { $null }
-        if (-not $overrideEnabled -and $configPath -and -not (Test-Path -LiteralPath $configPath)) {
-            return
+
+        if (-not $overrideEnabled) {
+            if (-not $configPath -or -not (Test-Path -LiteralPath $configPath -PathType Leaf)) {
+                return
+            }
         }
 
-        $configuration = Get-ConfigurationDataInternal
+        $configuration = $null
+        if ($overrideEnabled) {
+            # Preserve legacy behavior: override forces startup and should still honor DefaultScript
+            # from the configuration provider (even if config.json is not present).
+            try {
+                $configuration = Get-ConfigurationDataInternal
+            }
+            catch {
+                $configuration = $script:DefaultConfiguration
+            }
+        }
+        elseif ($configPath -and (Test-Path -LiteralPath $configPath -PathType Leaf)) {
+            $configuration = Get-ConfigurationDataInternal
+        }
+        else {
+            $configuration = $script:DefaultConfiguration
+        }
+
         if (-not $configuration.Startup.AutoShowOnImport -and -not $overrideEnabled) {
             return
         }

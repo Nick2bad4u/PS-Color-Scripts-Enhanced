@@ -91,10 +91,25 @@ function Initialize-CacheDirectory {
                 if (-not (Test-Path -LiteralPath $metadataPath -PathType Leaf)) {
                     $shouldValidate = $true
                 }
+                else {
+                    # If cache entries were updated more recently than the metadata marker, refresh the marker.
+                    # This avoids confusing scenarios where cache-metadata-v*.json appears stale even though
+                    # new *.cache files exist.
+                    try {
+                        $dirStamp = & $script:DirectoryGetLastWriteTimeUtcDelegate $script:CacheDir
+                        $metaStamp = & $script:FileGetLastWriteTimeUtcDelegate $metadataPath
+                        if ($dirStamp -and $metaStamp -and ($dirStamp -gt $metaStamp)) {
+                            $shouldValidate = $true
+                        }
+                    }
+                    catch {
+                        # Ignore stamp comparison failures
+                    }
+                }
             }
 
             if ($shouldValidate) {
-                Update-CacheFormatVersion -CacheDirectory $script:CacheDir -MetadataFileName $metadataFileName
+                Write-CacheMetadataFile -CacheDirectory $script:CacheDir -MetadataFileName $metadataFileName
                 $script:CacheValidationPerformed = $true
             }
 
@@ -136,7 +151,7 @@ function Initialize-CacheDirectory {
         }
 
         if ($shouldValidateFallback) {
-            Update-CacheFormatVersion -CacheDirectory $script:CacheDir -MetadataFileName $metadataFileName
+            Write-CacheMetadataFile -CacheDirectory $script:CacheDir -MetadataFileName $metadataFileName
             $script:CacheValidationPerformed = $true
         }
 

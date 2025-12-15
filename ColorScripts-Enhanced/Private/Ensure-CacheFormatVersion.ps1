@@ -110,3 +110,77 @@ function Update-CacheFormatVersion {
         Write-Verbose ("Cache metadata write failed: {0}" -f $_.Exception.Message)
     }
 }
+
+function Write-CacheMetadataFile {
+    <#
+    .SYNOPSIS
+        Ensures the cache metadata file exists and is up-to-date without purging cache entries.
+
+    .DESCRIPTION
+        Update-CacheFormatVersion is intentionally destructive (it removes cache entries) and is
+        only appropriate when the on-disk cache format changes.
+
+        Most callers (Import/Show/New-ColorScriptCache) only need a lightweight marker file to
+        indicate the current cache format version and the last time the cache directory was
+        validated/used. This function writes that file and removes obsolete metadata files, but
+        does NOT delete any *.cache or *.cacheinfo files.
+    #>
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)]
+        [ValidateNotNullOrEmpty()]
+        [string]$CacheDirectory,
+
+        [Parameter(Mandatory)]
+        [ValidateNotNullOrEmpty()]
+        [string]$MetadataFileName
+    )
+
+    if (-not (Test-Path -LiteralPath $CacheDirectory -PathType Container)) {
+        return
+    }
+
+    $metadataPath = Join-Path -Path $CacheDirectory -ChildPath $MetadataFileName
+
+    try {
+        Get-ChildItem -LiteralPath $CacheDirectory -Filter 'cache-metadata*.json' -File -ErrorAction Stop |
+            Where-Object { $_.Name -ne $MetadataFileName } |
+                ForEach-Object {
+                    try {
+                        Remove-Item -LiteralPath $_.FullName -Force -ErrorAction Stop
+                    }
+                    catch {
+                        Write-Verbose ("Failed to remove obsolete cache metadata '{0}': {1}" -f $_.FullName, $_.Exception.Message)
+                    }
+                }
+    }
+    catch {
+        Write-Verbose ("Cache metadata cleanup failed: {0}" -f $_.Exception.Message)
+    }
+
+    $moduleVersion = $null
+    try {
+        if ($ExecutionContext.SessionState -and $ExecutionContext.SessionState.Module) {
+            $moduleVersion = $ExecutionContext.SessionState.Module.Version.ToString()
+        }
+    }
+    catch {
+        $moduleVersion = $null
+    }
+
+    $metadataObject = [pscustomobject]@{
+        Version       = [int]$script:CacheFormatVersion
+        ModuleVersion = $moduleVersion
+        UpdatedUtc    = (Get-Date).ToUniversalTime().ToString('o')
+    }
+
+    $metadataJson = $metadataObject | ConvertTo-Json -Depth 3
+    $encoding = New-Object System.Text.UTF8Encoding($false)
+
+    try {
+        [System.IO.File]::WriteAllText($metadataPath, $metadataJson, $encoding)
+    }
+    catch {
+        Write-Verbose ("Cache metadata write failed: {0}" -f $_.Exception.Message)
+    }
+}

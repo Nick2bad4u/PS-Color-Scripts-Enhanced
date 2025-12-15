@@ -30,7 +30,8 @@ Describe 'Cache metadata coverage' {
             $missing = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'missing.bin'
             InModuleScope ColorScripts-Enhanced -Parameters @{ path = $missing } {
                 param($path)
-                { Get-FileContentSignature -Path $path } | Should -Throw -ExceptionType ([System.IO.FileNotFoundException])
+                $targetPath = $path
+                { Get-FileContentSignature -Path $targetPath } | Should -Throw -ExceptionType ([System.IO.FileNotFoundException])
             }
         }
     }
@@ -452,6 +453,39 @@ Describe 'Cache metadata coverage' {
             Test-Path -LiteralPath $cachePath | Should -BeFalse
             Test-Path -LiteralPath $metadataPath | Should -BeFalse
             Test-Path -LiteralPath (Join-Path -Path $cacheRoot -ChildPath 'cache-metadata-v1.json') | Should -BeTrue
+        }
+    }
+
+    Context 'Initialize-CacheDirectory validation is non-destructive' {
+        It 'does not delete existing cache entries when validation is requested' {
+            $cacheRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'CacheValidation'
+            New-Item -ItemType Directory -Path $cacheRoot -Force | Out-Null
+
+            $cachePath = Join-Path -Path $cacheRoot -ChildPath 'alpha.cache'
+            $cacheInfoPath = Join-Path -Path $cacheRoot -ChildPath 'alpha.cacheinfo'
+            Set-Content -LiteralPath $cachePath -Value 'cached output'
+            Set-Content -LiteralPath $cacheInfoPath -Value '{"Version":1}'
+
+            InModuleScope ColorScripts-Enhanced -Parameters @{ root = $cacheRoot; cachePath = $cachePath; cacheInfoPath = $cacheInfoPath } {
+                param($root, $cachePath, $cacheInfoPath)
+
+                $script:CacheDir = $null
+                $script:CacheInitialized = $false
+                $script:CacheValidationManualOverride = $true
+                $script:CacheValidationPerformed = $false
+
+                # Bypass configuration file reads and force the cache path to the test drive.
+                $script:ConfigurationInitialized = $true
+                $script:ConfigurationData = @{ Cache = @{ Path = $root } }
+
+                Initialize-CacheDirectory
+
+                Test-Path -LiteralPath $cachePath -PathType Leaf | Should -BeTrue
+                Test-Path -LiteralPath $cacheInfoPath -PathType Leaf | Should -BeTrue
+
+                $expectedMeta = Join-Path -Path $root -ChildPath ('cache-metadata-v{0}.json' -f $script:CacheFormatVersion)
+                Test-Path -LiteralPath $expectedMeta -PathType Leaf | Should -BeTrue
+            }
         }
     }
 }

@@ -233,22 +233,23 @@ $manifestParams = @{
 
 A powerful PowerShell module that brings beautiful ANSI art colorscripts to your terminal with enterprise-grade performance. Choose from $scriptCount stunning visual scripts and enjoy lightning-fast loading with intelligent caching.
 
+✨ FEATURES
+patterns, characters, nature scenes, and more
+- ⚡ **6-19x Faster** — Intelligent caching drops load times to 5-20ms
+- 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
+- ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
+- 🖌️ **500+ Custom Made Colorscripts** — Exclusive original designs
+- 🐾 **2500~ Pokémon ColorScripts** — Opt-in Pokémon-themed colorscripts
+  * Note: Pokémon art is filtered by default to keep load times fast. Opt in with `-IncludePokemon` on relevant commands.
+- 🌍 **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
+- 🧩 **Easy to Use** — Simple commands with tab completion
+- 🗄️ **Centralized Cache** — OS-wide in `AppData/ColorScripts-Enhanced/cache`
+- 🔄 **Auto-Update** — Cache invalidates automatically when scripts change
+- 📚 **Complete Help** — Full comment-based help for all commands
+
 ⚡ PERFORMANCE BOOST
 • 6-19x faster performance with smart caching
 • 5-20ms average load time (cached)
-• OS-wide cache across all terminal sessions
-• Automatic cache invalidation on script updates
-
-✨ FEATURES
-• $scriptCount beautiful colorscripts included
-• Professional-grade ANSI art collection
-• Cross-platform support (Windows, macOS, Linux)
-• PowerShell 5.1+ and PowerShell 7+ compatible
-• Tab completion and intelligent parameter handling
-• Centralized cache in AppData/ColorScripts-Enhanced
-• Configuration persistence for user preferences
-• Rich metadata and script discovery
-• 🌍 Internationalization: English & Spanish support
 
 🚀 QUICK START
 Display random art: Show-ColorScript (or use alias: scs)

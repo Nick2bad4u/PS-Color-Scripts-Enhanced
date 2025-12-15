@@ -690,6 +690,18 @@ function New-ColorScriptCache {
         $summary.Failed = ($finalRecords | Where-Object { $_.Status -eq 'Failed' }).Count
         $summary.Skipped = ($finalRecords | Where-Object { $_.Status -like 'Skipped*' }).Count
 
+        # Keep cache directory metadata aligned with actual updates.
+        # This marker is used for format/version tracking and should reflect recent cache activity.
+        if ($summary.Updated -gt 0 -and $script:CacheDir) {
+            try {
+                $metadataFileName = 'cache-metadata-v{0}.json' -f $script:CacheFormatVersion
+                Write-CacheMetadataFile -CacheDirectory $script:CacheDir -MetadataFileName $metadataFileName
+            }
+            catch {
+                Write-Verbose ("Cache metadata update failed: {0}" -f $_.Exception.Message)
+            }
+        }
+
         if (-not $PassThru -and $summary.Processed -gt 0) {
             $formatString = $null
             if ($script:Messages -and $script:Messages.ContainsKey('CacheBuildSummaryFormat')) {
