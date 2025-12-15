@@ -4,6 +4,35 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2025.12.15.2238] - 2025-12-15
+
+
+[[9e991ef](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/9e991efb1a8b0481599abdf4c2267c8f1d09acc5)...
+[9e991ef](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/9e991efb1a8b0481599abdf4c2267c8f1d09acc5)]
+([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/9e991efb1a8b0481599abdf4c2267c8f1d09acc5...9e991efb1a8b0481599abdf4c2267c8f1d09acc5))
+
+
+### 💼 Other
+
+- 🔧 [build] Update license information across the project
+
+ - 📝 Update PowerShellGalleryReleaseNotes.md to reflect the new version '2025.12.15.1707' and change license from MIT to Unlicense.
+ - 📝 Modify DOCUMENTATION_INDEX.md to update license terms from MIT to Unlicense.
+ - 📝 Change PUBLISHING.md to reflect the Unlicense license expression and its corresponding license URL.
+ - 📝 Update QUICK_REFERENCE.md to indicate the project is now under the Unlicense.
+ - 🔧 Update package.json to set the license field to Unlicense.
+ - 🛠️ Enhance Test-Coverage.ps1 to ensure coverage runs do not affect the user's real cache.
+ - 🛠️ Modify Test-Module.ps1 to ensure tests run in isolated environments without affecting user data.
+ - 🛠️ Update Update-NuGetPackageMetadata.ps1 to set the license to Unlicense in the NuGet metadata.
+ - 🔧 Change build.ps1 to update the license URI and expression to Unlicense.
+
+Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(9e991ef)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/9e991efb1a8b0481599abdf4c2267c8f1d09acc5)
+
+
+
+
+
+
 ## [2025.12.15.1707] - 2025-12-15
 
 
