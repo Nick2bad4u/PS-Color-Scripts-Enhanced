@@ -106,7 +106,7 @@ function Initialize-ColorScriptsLocalization {
                         }
                     }
                     catch {
-                        # Fall back to the regular discovery/import logic
+                        Write-ModuleTrace ("Explicit root localization import failed for '{0}': {1}" -f $resolvedExplicitRoot, $_.Exception.Message)
                     }
                 }
             }
@@ -135,7 +135,7 @@ function Initialize-ColorScriptsLocalization {
                     $moduleRootCandidate = (Resolve-Path -LiteralPath $moduleRootCandidate -ErrorAction Stop).ProviderPath
                 }
                 catch {
-                    # Keep original path
+                    Write-ModuleTrace ("Embedded defaults module root resolution failed for '{0}': {1}" -f $moduleRootCandidate, $_.Exception.Message)
                 }
             }
 

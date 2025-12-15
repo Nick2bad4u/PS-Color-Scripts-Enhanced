@@ -103,7 +103,7 @@ function Initialize-CacheDirectory {
                         }
                     }
                     catch {
-                        # Ignore stamp comparison failures
+                        Write-ModuleTrace ("Cache metadata stamp comparison failed: {0}" -f $_.Exception.Message)
                     }
                 }
             }

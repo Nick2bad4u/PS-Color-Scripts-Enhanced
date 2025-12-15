@@ -13,7 +13,7 @@ function Get-ColorScriptsConfigurationRoot {
             }
         }
         catch {
-            # Fall through
+            Write-Verbose ("Cached configuration root validation failed: {0}" -f $_.Exception.Message)
         }
 
         $script:ConfigurationRoot = $null
@@ -56,6 +56,7 @@ function Get-ColorScriptsConfigurationRoot {
                 $resolvedCandidate = Resolve-CachePath -Path $candidate
             }
             catch {
+                Write-Verbose ("Configuration root probe resolution failed for '{0}': {1}" -f $candidate, $_.Exception.Message)
                 $resolvedCandidate = $null
             }
 
@@ -68,7 +69,7 @@ function Get-ColorScriptsConfigurationRoot {
                     $resolvedCandidate = (Resolve-Path -LiteralPath $resolvedCandidate -ErrorAction Stop).ProviderPath
                 }
                 catch {
-                    # Keep original
+                    Write-Verbose ("Configuration root probe path normalization failed for '{0}': {1}" -f $resolvedCandidate, $_.Exception.Message)
                 }
 
                 # Important: do not cache $script:ConfigurationRoot in probe mode.
