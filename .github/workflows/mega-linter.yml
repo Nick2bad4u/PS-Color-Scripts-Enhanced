@@ -24,11 +24,11 @@ jobs:
                   egress-policy: audit
 
             - name: Checkout repository
-              uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+              uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
             - name: MegaLinter
               id: megalinter
-              uses: oxsecurity/megalinter@55a59b24a441e0e1943080d4a512d827710d4a9d # v9.2.0
+              uses: oxsecurity/megalinter@8fbdead70d1409964ab3d5afa885e18ee85388bb # v9.4.0
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   DISABLE_LINTERS: SPELL_CSPELL
@@ -50,7 +50,7 @@ jobs:
             # Upload MegaLinter artifacts
             - name: Archive production artifacts
               if: success() || failure()
-              uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
+              uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
               with:
                   name: MegaLinter reports
                   path: |
