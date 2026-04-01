@@ -61,7 +61,7 @@ jobs:
                   path: coverage.xml
 
             - name: Upload coverage to Codecov
-              uses: codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de # v5.1.2
+              uses: codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2 # v5.1.2
               with:
                   files: ./coverage.xml
                   flags: windows-powershell-51
@@ -141,7 +141,7 @@ jobs:
                   path: coverage.xml
 
             - name: Upload coverage to Codecov
-              uses: codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de # v5.1.2
+              uses: codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2 # v5.1.2
               with:
                   files: ./coverage.xml
                   flags: pwsh-${{ matrix.os }}
