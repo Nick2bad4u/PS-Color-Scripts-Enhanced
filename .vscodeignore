@@ -1,0 +1,48 @@
+# VS Code ignore file - Excludes files from VS Code workspace indexing and analysis
+
+# Node modules
+node_modules/
+**/node_modules/
+**/node_modules/**
+
+# Build outputs
+dist/
+out/
+build/
+release/
+coverage/
+
+# Cache directories
+.cache/
+.vscode-test/
+.nyc_output/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript declaration files from node_modules
+node_modules/**/*.d.ts
+**/node_modules/**/*.d.ts
+
+# Specific problematic packages
+node_modules/@typescript-eslint/
+node_modules/@types/
+node_modules/typescript/
+
+# Keep Cache Folder and Temp Folder
+!cache/.gitkeep
+!temp/.gitkeep
+
+!docs/docusaurus/static/.well-known/appspecific/com.chrome.devtools.json

@@ -1,0 +1,90 @@
+{
+  "badgeTemplate": "[![All Contributors.](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors-)",
+  "commit": false,
+  "commitConvention": "gitmoji",
+  "commitType": "docs",
+  "contributors": [
+    {
+      "avatar_url": "https://avatars.githubusercontent.com/u/20943337?v=4",
+      "contributions": [
+        "bug",
+        "code",
+        "doc",
+        "ideas",
+        "infra",
+        "maintenance",
+        "review",
+        "test",
+        "tool"
+      ],
+      "login": "Nick2bad4u",
+      "name": "Nick2bad4u",
+      "profile": "https://github.com/Nick2bad4u"
+    },
+    {
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "contributions": [
+        "infra",
+        "security"
+      ],
+      "login": "dependabot[bot]",
+      "name": "dependabot[bot]",
+      "profile": "https://github.com/apps/dependabot"
+    },
+    {
+      "login": "step-security-bot",
+      "name": "StepSecurity Bot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89328645?v=4",
+      "profile": "https://www.stepsecurity.io/",
+      "contributions": [
+        "security",
+        "infra",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "snyk-bot",
+      "name": "Snyk bot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "profile": "https://snyk.io/",
+      "contributions": [
+        "security",
+        "infra",
+        "maintenance",
+        "review"
+      ]
+    },
+    {
+      "login": "scottmckendry",
+      "name": "Scott McKendry",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39483124?v=4",
+      "profile": "https://scottmckendry.tech/",
+      "contributions": [
+        "bug",
+        "code",
+        "design",
+        "doc",
+        "example",
+        "infra",
+        "maintenance",
+        "platform",
+        "plugin",
+        "review",
+        "tutorial"
+      ]
+    }
+  ],
+  "contributorsPerLine": 4,
+  "contributorsSortAlphabetically": true,
+  "files": [
+    "README.md",
+    "CONTRIBUTORS.md"
+  ],
+  "imageSize": 80,
+  "linkToUsage": false,
+  "projectName": "ps-color-scripts-enhanced",
+  "projectOwner": "Nick2bad4u",
+  "repoHost": "https://github.com",
+  "repoType": "github",
+  "skipCi": true
+}
