@@ -1,6 +1,7 @@
 {
   "name": "ps-color-scripts-enhanced",
   "version": "2025.11.15",
+  "private": true,
   "description": "Enhanced PowerShell ColorScripts with high-performance caching system. Display beautiful ANSI art in your terminal with 6-19x faster load times. 498+ colorscripts included.",
   "keywords": [
     "powershell",
@@ -40,6 +41,10 @@
     "build": "pwsh -NoProfile -File ./scripts/build.ps1 && npm run release:notes && npm run release:notes:latest && npm run verify && npm run test:coverage",
     "build:help": "pwsh -NoProfile -File ./scripts/Build-Help.ps1 -UpdateMarkdown",
     "build:skip-help": "pwsh -NoProfile -File ./scripts/build.ps1 -SkipHelp",
+    "contrib": "all-contributors",
+    "contrib:add": "all-contributors add",
+    "contrib:check": "all-contributors check",
+    "contrib:generate": "all-contributors generate",
     "convert": "node ./scripts/Convert-AnsiToColorScript.js --strip-space-bg",
     "docs:update-counts": "pwsh -NoProfile -File ./scripts/Update-DocumentationCounts.ps1",
     "lint": "pwsh -NoProfile -File ./scripts/Lint-Module.ps1",
@@ -79,7 +84,8 @@
     "test:coverage:report": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1 -ShowReport",
     "test:custom": "pwsh -NoProfile -File ./scripts/Test-Module.ps1",
     "test:linux": "npm run test:coverage",
-    "test:pester": "pwsh -NoProfile -Command \"Invoke-Pester -Path ./Tests\" -Output Minimal",
+    "test:pester": "pwsh -NoProfile -Command \"Import-Module Pester -MinimumVersion 5.0.0 -Force -ErrorAction Stop; $config = New-PesterConfiguration; $config.Run.Path = './Tests'; $config.Output.Verbosity = 'Minimal'; $result = Invoke-Pester -Configuration $config; if ($result.FailedCount -gt 0) { exit 1 }\"",
+    "update-deps": "npx ncu -i --install never && node ./scripts/sync-node-version-files.mjs && npm install --force",
     "verify": "npm run lint:fix && npm run readme:check",
     "verify:strict": "npm run lint:strict:fix && npm run readme:check"
   },
