@@ -320,7 +320,7 @@ npx git-cliff --unreleased
 npx git-cliff --tag v2025.10.30
 
 # Generate full changelog
-npx git-cliff --latest > CHANGELOG.md
+npx git-cliff > CHANGELOG.md
 
 # Validate changelog
 npm run release:verify
