@@ -96,13 +96,13 @@ Show-ColorScript -Name nerd-font-test
 | Purpose                                | Local Var                                    | GitHub Secret                     |
 | -------------------------------------- | -------------------------------------------- | --------------------------------- |
 | PowerShell Gallery / NuGet.org API key | `$env:PSGALLERYAPIKEY` or `$env:NUGETAPIKEY` | `PSGALLERYAPIKEY` / `NUGETAPIKEY` |
-| GitHub Packages PAT override           | `$env:PACKAGES_TOKEN`                        | `PACKAGES_TOKEN`                  |
+| Local GitHub Packages PAT              | `$env:PACKAGES_TOKEN`                        | Not used by the publish workflow  |
 
 ## GitHub Packages (Optional)
 
 GitHub Packages provides a private or public NuGet feed.
 
-The GitHub Actions publish workflow uses the repository `GITHUB_TOKEN` by default and grants it `packages: write`. Keep `PACKAGES_TOKEN` only when publishing outside Actions or when a separate PAT is intentionally required.
+The GitHub Actions publish workflow uses the repository `GITHUB_TOKEN` and grants it `packages: write`. Use `PACKAGES_TOKEN` only when publishing from a local shell or another system outside this workflow.
 
 ```powershell
 $owner = 'Nick2bad4u'
