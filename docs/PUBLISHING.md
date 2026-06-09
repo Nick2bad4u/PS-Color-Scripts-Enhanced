@@ -6,7 +6,7 @@ This document describes how to publish the **ColorScripts-Enhanced** PowerShell 
 
 - PowerShell 5.1 or later (PowerShell 7.4 recommended)
 - PowerShellGet 2.2+ or PSResourceGet 1.0+
-- A GitHub personal access token (PAT) if pushing to GitHub Packages (use Package `read:packages`/`write:packages` scopes)
+- A GitHub personal access token (PAT) only for local GitHub Packages pushes or cross-repository package writes (use Package `read:packages`/`write:packages` scopes)
 - API keys for public repositories (PowerShell Gallery / NuGet.org)
 
 ## Versioning Strategy
@@ -93,23 +93,25 @@ Show-ColorScript -Name nerd-font-test
 
 ## Secrets & Environment Variables
 
-| Purpose                                | Local Var                                        | GitHub Secret                         |
-| -------------------------------------- | ------------------------------------------------ | ------------------------------------- |
-| PowerShell Gallery / NuGet.org API key | `$env:PSGALLERY_API_KEY` or `$env:NUGET_API_KEY` | `PSGALLERY_API_KEY` / `NUGET_API_KEY` |
-| GitHub Packages PAT                    | `$env:PACKAGES_TOKEN`                            | `PACKAGES_TOKEN`                      |
+| Purpose                                | Local Var                                    | GitHub Secret                     |
+| -------------------------------------- | -------------------------------------------- | --------------------------------- |
+| PowerShell Gallery / NuGet.org API key | `$env:PSGALLERYAPIKEY` or `$env:NUGETAPIKEY` | `PSGALLERYAPIKEY` / `NUGETAPIKEY` |
+| GitHub Packages PAT override           | `$env:PACKAGES_TOKEN`                        | `PACKAGES_TOKEN`                  |
 
 ## GitHub Packages (Optional)
 
 GitHub Packages provides a private or public NuGet feed.
+
+The GitHub Actions publish workflow uses the repository `GITHUB_TOKEN` by default and grants it `packages: write`. Keep `PACKAGES_TOKEN` only when publishing outside Actions or when a separate PAT is intentionally required.
 
 ```powershell
 $owner = 'Nick2bad4u'
 $source = "https://nuget.pkg.github.com/$owner/index.json"
 Register-PSRepository -Name GitHub -SourceLocation $source -PublishLocation $source -InstallationPolicy Trusted -PackageManagementProvider NuGet
 Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:PACKAGES_TOKEN -Repository GitHub
+```
 
 > **Tip:** When you stage the package locally before pushing to GitHub Packages, run `Update-NuGetPackageMetadata.ps1` against the resulting `.nupkg` so the README, license, and icon are embedded.
-```
 
 ### Installing from GitHub Packages
 

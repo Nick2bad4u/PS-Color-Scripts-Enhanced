@@ -14,5 +14,9 @@
         "**/assets/ansi-files/*": "plaintext",
         "**/assets/oversized-colorscripts/*": "plaintext"
     },
-    "files.autoGuessEncoding": false
+    "files.autoGuessEncoding": false,
+    "sonarlint.connectedMode.project": {
+        "connectionId": "nick2bad4u",
+        "projectKey": "Nick2bad4u_PS-Color-Scripts-Enhanced"
+    }
 }

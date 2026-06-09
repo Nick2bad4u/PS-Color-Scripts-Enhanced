@@ -38,6 +38,7 @@ on:
 
 permissions:
     contents: write
+    packages: write
 
 jobs:
     validate-and-publish:
@@ -46,7 +47,7 @@ jobs:
         env:
             PSGALLERYAPIKEY: ${{ secrets.PSGALLERYAPIKEY }}
             NUGETAPIKEY: ${{ secrets.NUGETAPIKEY }}
-            PACKAGES_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+            PACKAGES_TOKEN: ${{ secrets.PACKAGES_TOKEN || github.token }}
             PUBLISH_TO_NUGET_INPUT: ${{ github.event.inputs.publishToNuGet }}
             PUBLISH_TO_GITHUB_INPUT: ${{ github.event.inputs.publishToGitHub }}
             CREATE_RELEASE_INPUT: ${{ github.event.inputs.createRelease }}
