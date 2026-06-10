@@ -7,10 +7,6 @@ on:
                 description: "Publish to NuGet.org (PowerShell Gallery uses same feed)"
                 required: false
                 default: "true"
-            publishToGitHub:
-                description: "Publish to GitHub Packages"
-                required: false
-                default: "true"
             versionOverride:
                 description: "Override module version (optional)"
                 required: false
@@ -27,8 +23,6 @@ on:
                 required: false
             NUGETAPIKEY:
                 required: false
-            PACKAGES_TOKEN:
-                required: false
     workflow_run:
         workflows: ["Tests"]
         types:
@@ -38,7 +32,6 @@ on:
 
 permissions:
     contents: write
-    packages: write
 
 jobs:
     validate-and-publish:
@@ -47,9 +40,7 @@ jobs:
         env:
             PSGALLERYAPIKEY: ${{ secrets.PSGALLERYAPIKEY }}
             NUGETAPIKEY: ${{ secrets.NUGETAPIKEY }}
-            PACKAGES_TOKEN: ${{ github.token }}
             PUBLISH_TO_NUGET_INPUT: ${{ github.event.inputs.publishToNuGet }}
-            PUBLISH_TO_GITHUB_INPUT: ${{ github.event.inputs.publishToGitHub }}
             CREATE_RELEASE_INPUT: ${{ github.event.inputs.createRelease }}
         steps:
             - name: Harden the runner (Audit all outbound calls)
@@ -332,23 +323,4 @@ jobs:
 
                   Write-Host "Publishing $packagePath to NuGet.org"
                   dotnet nuget push $packagePath --api-key $apiKey --source https://api.nuget.org/v3/index.json --skip-duplicate
-              shell: pwsh
-
-            - name: Publish to GitHub Packages
-              if: ${{ env.PACKAGES_TOKEN != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_GITHUB_INPUT != 'false') }}
-              run: |
-                  $packagePath = '${{ steps.package.outputs.packagePath }}'
-                  if (-not (Test-Path $packagePath)) {
-                      throw "Package not found at $packagePath"
-                  }
-
-                  $token = $env:PACKAGES_TOKEN
-                  if ([string]::IsNullOrWhiteSpace($token)) {
-                      Write-Host 'No GitHub Packages token provided. Skipping publish.'
-                      return
-                  }
-
-                  $source = "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json"
-                  Write-Host "Publishing $packagePath to GitHub Packages feed $source"
-                  dotnet nuget push $packagePath --api-key $token --source $source --skip-duplicate
               shell: pwsh
