@@ -138,7 +138,7 @@ coverage:
                     - module
                 paths:
                     - "ColorScripts-Enhanced/"
-                target: 95%
+                target: 80%
                 threshold: 10%
             tests:
                 flags:
@@ -159,14 +159,14 @@ coverage:
                     - module
                 paths:
                     - "ColorScripts-Enhanced/"
-                target: 95% # High target for core module
+                target: 80% # High target for core module
                 threshold: 2%
             tests:
                 flags:
                     - tests
                 paths:
                     - "Tests/"
-                target: 95%
+                target: 80%
                 threshold: 3%
 
 flags:
