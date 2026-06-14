@@ -87,7 +87,8 @@
     "test:pester": "pwsh -NoProfile -Command \"Import-Module Pester -MinimumVersion 5.0.0 -Force -ErrorAction Stop; $config = New-PesterConfiguration; $config.Run.Path = './Tests'; $config.Output.Verbosity = 'Minimal'; $result = Invoke-Pester -Configuration $config; if ($result.FailedCount -gt 0) { exit 1 }\"",
     "update-deps": "npx ncu -i --install never && node ./scripts/sync-node-version-files.mjs && npm install --force",
     "verify": "npm run lint:fix && npm run readme:check",
-    "verify:strict": "npm run lint:strict:fix && npm run readme:check"
+    "verify:strict": "npm run lint:strict:fix && npm run readme:check",
+    "update-actions": "npx actions-up --yes --style sha"
   },
   "dependencies": {
     "git-cliff": "^2.12.0",
