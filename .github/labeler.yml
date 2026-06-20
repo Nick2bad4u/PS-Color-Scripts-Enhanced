@@ -1,0 +1,191 @@
+# yaml-language-server: $schema=https://www.schemastore.org/pull-request-labeler.json
+#
+# =============================================================================
+# PR Labeler Configuration + Label Bootstrap Helper
+# =============================================================================
+#
+# This file configures automatic PR labeling rules (GitHub Action / labeler).
+# It also serves as the *source of label names* if you choose.
+#
+# -----------------------------------------------------------------------------
+# Bootstrap labels (GitHub CLI)
+# -----------------------------------------------------------------------------
+# Sync-GitHub-Label.ps1 -SourceRepo "Nick2bad4u/eslint-plugin-typefest"
+# Script is in: $PSScriptRoot\Sync-GitHub-Label.ps1
+# =============================================================================
+CI/CD:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/workflows/**"
+          - ".github/actions/**"
+          - ".github/*.yml"
+          - ".github/*.yaml"
+
+breaking change:
+  - body:
+      - pattern: "(?i)breaking change"
+      - pattern: "(?i)breaking"
+      - pattern: "(?i)major version"
+  - title:
+      - pattern: "(?i)breaking"
+      - pattern: "(?i)major"
+
+bug:
+  - body:
+      - pattern: "(?i)\\b(fix|fixes|bug|error|issue)\\b"
+  - title:
+      - pattern: "(?i)\\b(fix|bug|hotfix|patch)\\b"
+
+build:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "dist/**/*"
+          - "plugin.mjs"
+          - "plugin.d.mts"
+          - "scripts/**/*"
+          - "tsconfig.build.json"
+          - "vite.config.ts"
+  - title:
+      - pattern: "(?i)build"
+      - pattern: "(?i)bundle"
+      - pattern: "(?i)compile"
+
+configuration:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "*.config.{js,ts,json}"
+          - "*.json"
+          - "*.yml"
+          - "*.yaml"
+          - ".eslint*"
+          - ".prettier*"
+          - ".github/labeler.yml"
+          - "ActionLintConfig.yaml"
+          - "cliff.toml"
+          - "knip.config.ts"
+          - "node.config.json"
+          - "stryker.config.mjs"
+          - "tsconfig*.json"
+          - "vite.config.ts"
+
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "package.json"
+          - "package-lock.json"
+          - "**/package.json"
+
+documentation:
+  - body:
+      - pattern: "(?i)documentation"
+      - pattern: "(?i)readme"
+      - pattern: "(?i)docs"
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.md"
+          - "docs/**/*"
+          - "README*"
+          - "CHANGELOG.md"
+          - "RELEASING.md"
+  - title:
+      - pattern: "(?i)docs"
+      - pattern: "(?i)documentation"
+      - pattern: "(?i)readme"
+
+enhancement:
+  - body:
+      - pattern: "(?i)feature"
+      - pattern: "(?i)enhancement"
+      - pattern: "(?i)improve"
+      - pattern: "(?i)add"
+  - title:
+      - pattern: "(?i)feat"
+      - pattern: "(?i)feature"
+      - pattern: "(?i)enhancement"
+      - pattern: "(?i)improve"
+
+good first issue:
+  - body:
+      - pattern: "(?i)good first issue"
+      - pattern: "(?i)beginner friendly"
+      - pattern: "(?i)easy"
+  - title:
+      - pattern: "(?i)good first issue"
+      - pattern: "(?i)beginner"
+      - pattern: "(?i)starter"
+
+help wanted:
+  - body:
+      - pattern: "(?i)help wanted"
+      - pattern: "(?i)looking for help"
+      - pattern: "(?i)assistance needed"
+  - title:
+      - pattern: "(?i)help wanted"
+      - pattern: "(?i)help"
+
+performance:
+  - body:
+      - pattern: "(?i)performance"
+      - pattern: "(?i)optimize"
+      - pattern: "(?i)faster"
+      - pattern: "(?i)speed"
+      - pattern: "(?i)memory"
+  - title:
+      - pattern: "(?i)perf"
+      - pattern: "(?i)performance"
+      - pattern: "(?i)optimize"
+      - pattern: "(?i)speed"
+
+refactor:
+  - body:
+      - pattern: "(?i)refactor"
+      - pattern: "(?i)cleanup"
+      - pattern: "(?i)code quality"
+      - pattern: "(?i)restructure"
+  - title:
+      - pattern: "(?i)refactor"
+      - pattern: "(?i)refactoring"
+      - pattern: "(?i)cleanup"
+      - pattern: "(?i)clean"
+
+rules:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/rules/**/*.ts"
+          - "src/_internal/**/*.ts"
+          - "src/plugin.ts"
+
+security:
+  - body:
+      - pattern: "(?i)security"
+      - pattern: "(?i)vulnerability"
+      - pattern: "(?i)exploit"
+      - pattern: "(?i)cve"
+  - title:
+      - pattern: "(?i)security"
+      - pattern: "(?i)vuln"
+      - pattern: "(?i)cve"
+
+style:
+  - body:
+      - pattern: "(?i)formatting"
+      - pattern: "(?i)style"
+      - pattern: "(?i)linting"
+      - pattern: "(?i)prettier"
+      - pattern: "(?i)eslint"
+  - title:
+      - pattern: "(?i)style"
+      - pattern: "(?i)formatting"
+      - pattern: "(?i)lint"
+
+testing:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.test.{js,ts,tsx}"
+          - "**/*.spec.{js,ts,tsx}"
+          - "test/**/*"
+          - "__tests__/**/*"
+  - title:
+      - pattern: "(?i)test"
+      - pattern: "(?i)tests"
+      - pattern: "(?i)testing"
