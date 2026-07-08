@@ -453,3 +453,5 @@ testResults.xml
 testResults.nunit.xml
 !Tests
 todo.md
+.lychee.report.md
+.lycheecache

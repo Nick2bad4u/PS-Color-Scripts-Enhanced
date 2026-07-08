@@ -1,0 +1,6 @@
+Format,Files analyzed,Total lines,Total tokens,Clones found,Duplicated lines,Duplicated tokens
+javascript,1,416,711,0,0,0
+powershell,3248,100248,20335390,255,5539,314568
+txt,11,8720,58671,42,4141,25773
+yaml,4,306,847,0,0,0
+Total:,3264,109690,20395619,297,9680,340341

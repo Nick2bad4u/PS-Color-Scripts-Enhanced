@@ -57,15 +57,15 @@ jobs:
                   cache: npm
                   cache-dependency-path: package-lock.json
 
-            - name: Install git-cliff
+            - name: Install dependencies
               shell: pwsh
-              run: npm install -g git-cliff
+              run: npm ci --force
 
             - name: Generate CHANGELOG.md files (With verbose logging)
               shell: pwsh
               run: |
                   echo "Generating changelogs with git-cliff..."
-                  npx git-cliff --config cliff.toml --verbose --output CHANGELOG.md
+                  npm run --silent changelog:generate -- --verbose
                   Get-ChildItem -Name
 
             - name: Create Pull Request for changelogs
