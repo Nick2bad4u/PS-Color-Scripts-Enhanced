@@ -23,27 +23,17 @@ on:
                 required: false
             NUGETAPIKEY:
                 required: false
-    workflow_run:
-        workflows: ["Tests"]
-        types:
-            - completed
-        branches:
-            - main
 
 permissions:
     contents: write
 
 concurrency:
-    group: publish-${{ github.event.workflow_run.head_sha || github.sha }}
+    group: publish-${{ github.sha }}
     cancel-in-progress: true
 
 jobs:
     validate-and-publish:
         name: Validate and Publish
-        if: >-
-            ${{ github.event_name != 'workflow_run' ||
-            (github.event.workflow_run.conclusion == 'success' &&
-            github.event.workflow_run.head_sha == github.sha) }}
         runs-on: windows-latest
         env:
             PSGALLERYAPIKEY: ${{ secrets.PSGALLERYAPIKEY }}
@@ -59,7 +49,7 @@ jobs:
             - name: Checkout
               uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
               with:
-                  ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+                  ref: ${{ github.sha }}
 
             - name: Install quality tools
               run: |
@@ -218,7 +208,7 @@ jobs:
               if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
               run: |
                   Write-Host "Installing git-cliff..."
-                  $downloadUrl = "https://github.com/orhun/git-cliff/releases/download/v2.10.1/git-cliff-2.10.1-x86_64-pc-windows-msvc.zip"
+                  $downloadUrl = "https://github.com/orhun/git-cliff/releases/download/v2.13.1/git-cliff-2.13.1-x86_64-pc-windows-msvc.zip"
                   $zipPath = Join-Path $env:RUNNER_TEMP "git-cliff.zip"
                   $extractPath = Join-Path $env:RUNNER_TEMP "git-cliff"
 
