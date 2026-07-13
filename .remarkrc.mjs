@@ -14,16 +14,15 @@
  */
 // @ts-check
 
+import { createConfig } from "remark-config-nick2bad4u";
+
 // Type definitions for remark configuration
 /** @typedef {import("unified").Preset} Preset */
 /** @typedef {import("unified").Plugin} Plugin */
 /** @typedef {import("mdast").Root} Root */
 /** @typedef {import("vfile").VFile} VFile */
 /**
- * @typedef {string
- *     | Plugin
- *     | Preset
- *     | [string | Plugin | Preset, ...unknown[]]} PluginEntry
+ * @typedef {string | Plugin | Preset | [string | Plugin | Preset, ...unknown[]]} PluginEntry
  */
 
 // Imported plugin types - these plugins don't typically export specific option types
@@ -198,8 +197,8 @@ const remarkConfig = {
         ],
 
         // Blockquote structure and directive hygiene
-        [ "remark-lint-blockquote-indentation", true ], // Keep whitespace after `>` markers consistent
-        [ "remark-lint-no-blockquote-without-marker", true ], // Avoid stray blank lines inside blockquotes
+        ["remark-lint-blockquote-indentation", true], // Keep whitespace after `>` markers consistent
+        ["remark-lint-no-blockquote-without-marker", true], // Avoid stray blank lines inside blockquotes
         "remark-lint-directive-attribute-sort",
         "remark-lint-directive-collapsed-attribute",
         "remark-lint-directive-quote-style",
@@ -208,46 +207,46 @@ const remarkConfig = {
 
         // Link and reference validation
         /** @type {[string, LinkTitleStyleOptions]} */
-        [ "remark-lint-link-title-style", '"' ], // Consistent link titles
+        ["remark-lint-link-title-style", '"'], // Consistent link titles
         "remark-lint-no-reference-like-url", // Prevent reference-style URLs without definitions
-        [ "remark-lint-definition-case", true ], // Keep reference labels lowercase
-        [ "remark-lint-definition-sort", true ], // Maintain alphabetical definition order
-        [ "remark-lint-final-definition", true ], // Require definitions at the end of files
-        [ "remark-lint-media-style", "consistent" ], // Detect initial link style and enforce it across the file
-        [ "remark-lint-no-unneeded-full-reference-image", true ], // Collapse redundant full reference images
-        [ "remark-lint-no-unneeded-full-reference-link", true ], // Collapse redundant full reference links
-        [ "remark-lint-no-unused-definitions", true ], // Remove unused reference definitions
+        ["remark-lint-definition-case", true], // Keep reference labels lowercase
+        ["remark-lint-definition-sort", true], // Maintain alphabetical definition order
+        ["remark-lint-final-definition", true], // Require definitions at the end of files
+        ["remark-lint-media-style", "consistent"], // Detect initial link style and enforce it across the file
+        ["remark-lint-no-unneeded-full-reference-image", true], // Collapse redundant full reference images
+        ["remark-lint-no-unneeded-full-reference-link", true], // Collapse redundant full reference links
+        ["remark-lint-no-unused-definitions", true], // Remove unused reference definitions
 
         // Basic formatting rules
-        [ "remark-lint-final-newline", true ], // Ensure final newline
-        [ "remark-lint-no-tabs", true ], // Prevent tab characters
-        [ "remark-lint-hard-break-spaces", true ], // Enforce proper line breaks
-        [ "remark-lint-linebreak-style", "consistent" ], // Normalize files across OSes
-        [ "remark-lint-no-missing-blank-lines", false ], // Disabled: blank-line handling is delegated to Prettier and other rules
-        [ "remark-lint-no-paragraph-content-indent", true ], // Disallow unintended paragraph indentation
+        ["remark-lint-final-newline", true], // Ensure final newline
+        ["remark-lint-no-tabs", true], // Prevent tab characters
+        ["remark-lint-hard-break-spaces", true], // Enforce proper line breaks
+        ["remark-lint-linebreak-style", "consistent"], // Normalize files across OSes
+        ["remark-lint-no-missing-blank-lines", false], // Disabled: blank-line handling is delegated to Prettier and other rules
+        ["remark-lint-no-paragraph-content-indent", true], // Disallow unintended paragraph indentation
 
         // List and heading formatting
         /** @type {[string, OrderedListMarkerValueOptions]} */
-        [ "remark-lint-ordered-list-marker-value", "ordered" ], // Enforce incremental numbering (1, 2, 3, etc.)
-        [ "remark-lint-ordered-list-marker-style", "." ], // Prefer `1.` list markers for readability
-        [ "remark-lint-list-item-indent", "one" ], // Match our single-space indent preference
-        [ "remark-lint-no-multiple-toplevel-headings", false ], // Allow multiple top-level headings per file
-        [ "remark-lint-no-consecutive-blank-lines", true ], // Prevent multiple blank lines
-        [ "remark-lint-no-duplicate-definitions", true ], // Prevent duplicate link definitions
-        [ "remark-lint-definition-spacing", true ], // Enforce spacing in link definitions
-        [ "remark-lint-first-heading-level", 1 ], // Ensure documents start with an H1 for consistency
-        [ "remark-lint-no-duplicate-headings", true ], // Catch repeated headings in entire doc
-        [ "remark-lint-no-duplicate-headings-in-section", true ], // Catch repeated headings per section
-        [ "remark-lint-no-emphasis-as-heading", true ], // Prevent emphasis masquerading as headings
-        [ "remark-lint-no-heading-content-indent", true ], // Keep heading text flush with hashes
-        [ "remark-lint-no-heading-indent", true ], // Disallow leading indentation before headings
-        [ "remark-lint-no-heading-like-paragraph", true ], // Detect invalid deep heading markers
-        [ "remark-lint-no-empty-sections", true ], // Require every heading to introduce content
+        ["remark-lint-ordered-list-marker-value", "ordered"], // Enforce incremental numbering (1, 2, 3, etc.)
+        ["remark-lint-ordered-list-marker-style", "."], // Prefer `1.` list markers for readability
+        ["remark-lint-list-item-indent", "one"], // Match our single-space indent preference
+        ["remark-lint-no-multiple-toplevel-headings", false], // Allow multiple top-level headings per file
+        ["remark-lint-no-consecutive-blank-lines", true], // Prevent multiple blank lines
+        ["remark-lint-no-duplicate-definitions", true], // Prevent duplicate link definitions
+        ["remark-lint-definition-spacing", true], // Enforce spacing in link definitions
+        ["remark-lint-first-heading-level", 1], // Ensure documents start with an H1 for consistency
+        ["remark-lint-no-duplicate-headings", true], // Catch repeated headings in entire doc
+        ["remark-lint-no-duplicate-headings-in-section", true], // Catch repeated headings per section
+        ["remark-lint-no-emphasis-as-heading", true], // Prevent emphasis masquerading as headings
+        ["remark-lint-no-heading-content-indent", true], // Keep heading text flush with hashes
+        ["remark-lint-no-heading-indent", true], // Disallow leading indentation before headings
+        ["remark-lint-no-heading-like-paragraph", true], // Detect invalid deep heading markers
+        ["remark-lint-no-empty-sections", true], // Require every heading to introduce content
 
         // Table formatting
-        [ "remark-lint-table-pipe-alignment", true ], // Enforce table pipe alignment
-        [ "remark-lint-no-hidden-table-cell", true ], // Prevent invisible overflow cells in tables
-        [ "remark-lint-list-item-bullet-indent", true ], // Prevent list markers from being indented
+        ["remark-lint-table-pipe-alignment", true], // Enforce table pipe alignment
+        ["remark-lint-no-hidden-table-cell", true], // Prevent invisible overflow cells in tables
+        ["remark-lint-list-item-bullet-indent", true], // Prevent list markers from being indented
         "remark-lint-list-item-content-indent", // Keep list item content aligned with the first child
 
         // Task list formatting
@@ -259,24 +258,24 @@ const remarkConfig = {
                 unchecked: " ",
             },
         ], // Normalize task list checkbox characters
-        [ "remark-lint-checkbox-content-indent", true ], // Prevent excessive spacing after checkboxes
+        ["remark-lint-checkbox-content-indent", true], // Prevent excessive spacing after checkboxes
 
         // Code block formatting
         /** @type {[string, FencedCodeFlagOptions]} */
-        [ "remark-lint-fenced-code-flag", { allowEmpty: false } ], // Require language flag on fenced code blocks
+        ["remark-lint-fenced-code-flag", { allowEmpty: false }], // Require language flag on fenced code blocks
         /** @type {[string, CodeBlockStyleOptions]} */
-        [ "remark-lint-code-block-style", "fenced" ], // Prefer fenced code blocks
+        ["remark-lint-code-block-style", "fenced"], // Prefer fenced code blocks
         /** @type {[string, FencedCodeMarkerOptions]} */
-        [ "remark-lint-fenced-code-marker", "`" ], // Use backticks for fenced code blocks
+        ["remark-lint-fenced-code-marker", "`"], // Use backticks for fenced code blocks
         /** @type {[string, FencedCodeFlagCaseOptions]} */
-        [ "remark-lint-fenced-code-flag-case", { case: "lower" } ], // Normalize language identifiers for Prettier compatibility
+        ["remark-lint-fenced-code-flag-case", { case: "lower" }], // Normalize language identifiers for Prettier compatibility
         "remark-lint-code-block-split-list", // Prevent poorly indented code fences from breaking list structure
 
         // Heading and rule formatting
         /** @type {[string, HeadingStyleOptions]} */
-        [ "remark-lint-heading-style", "atx" ], // Enforce ATX-style headings without closing hashes
+        ["remark-lint-heading-style", "atx"], // Enforce ATX-style headings without closing hashes
         /** @type {[string, RuleStyleOptions]} */
-        [ "remark-lint-rule-style", "***" ], // Standardize thematic breaks to match Prettier output
+        ["remark-lint-rule-style", "***"], // Standardize thematic breaks to match Prettier output
 
         // Shell and reference formatting
         "remark-lint-no-shell-dollars", // Avoid $ prefixes on every shell command line
@@ -284,37 +283,37 @@ const remarkConfig = {
         "remark-lint-no-shortcut-reference-link", // Require full reference-style links
         "remark-lint-no-table-indentation", // Prevent tables from being indented
         "remark-lint-table-pipes", // Require opening/closing pipes on GFM tables
-        [ "remark-lint-no-html", false ], // We rely on inline HTML for badges and layout snippets
+        ["remark-lint-no-html", false], // We rely on inline HTML for badges and layout snippets
 
         // File naming conventions
-        [ "remark-lint-no-file-name-irregular-characters", /[^-._\dA-Za-z]/ ], // Allow underscores in filenames
-        [ "remark-lint-no-file-name-mixed-case", false ], // Allow mixed case filenames for localized help files
-        [ "remark-lint-no-file-name-articles", true ], // Avoid leading articles in filenames
-        [ "remark-lint-no-file-name-consecutive-dashes", true ], // Prevent accidental double dashes
-        [ "remark-lint-no-file-name-outer-dashes", true ], // Guard against leading/trailing dashes
+        ["remark-lint-no-file-name-irregular-characters", /[^-._\dA-Za-z]/], // Allow underscores in filenames
+        ["remark-lint-no-file-name-mixed-case", false], // Allow mixed case filenames for localized help files
+        ["remark-lint-no-file-name-articles", true], // Avoid leading articles in filenames
+        ["remark-lint-no-file-name-consecutive-dashes", true], // Prevent accidental double dashes
+        ["remark-lint-no-file-name-outer-dashes", true], // Guard against leading/trailing dashes
         /** @type {[string, FileExtensionOptions]} */
         [
             "remark-lint-file-extension",
-            { allowExtensionless: false, extensions: [ "mdx", "md" ] },
+            { allowExtensionless: false, extensions: ["mdx", "md"] },
         ], // Allow .mdx files
 
         // Lenient settings for project-specific needs
-        [ "remark-lint-maximum-line-length", 5000 ], // Allow longer lines
-        [ "remark-lint-maximum-heading-length", 120 ], // Allow longer headings
-        [ "remark-lint-heading-capitalization", false ], // Disable heading capitalization enforcement
-        [ "remark-lint-list-item-spacing", true ], // More lenient about list spacing
+        ["remark-lint-maximum-line-length", 5000], // Allow longer lines
+        ["remark-lint-maximum-heading-length", 120], // Allow longer headings
+        ["remark-lint-heading-capitalization", false], // Disable heading capitalization enforcement
+        ["remark-lint-list-item-spacing", true], // More lenient about list spacing
 
         // Emphasis and style preferences
         /** @type {[string, EmphasisMarkerOptions]} */
-        [ "remark-lint-emphasis-marker", "consistent" ], // Allow * or _ but require per-file consistency
-        [ "remark-lint-strikethrough-marker", "consistent" ], // Keep ~~ delimiters uniform
+        ["remark-lint-emphasis-marker", "consistent"], // Allow * or _ but require per-file consistency
+        ["remark-lint-strikethrough-marker", "consistent"], // Keep ~~ delimiters uniform
         /** @type {[string, StrongMarkerOptions]} */
-        [ "remark-lint-strong-marker", "*" ], // Prefer double asterisk for strong emphasis
+        ["remark-lint-strong-marker", "*"], // Prefer double asterisk for strong emphasis
         /** @type {[string, UnorderedListMarkerStyleOptions]} */
-        [ "remark-lint-unordered-list-marker-style", "-" ], // Prefer hyphen list markers to match Prettier
-        [ "remark-lint-no-literal-urls", false ], // Allow bare URLs for now
-        [ "remark-lint-no-heading-punctuation", /[!,.;]/u ], // Disallow headings ending with ! , . or ;
-        [ "remark-lint-table-cell-padding", false ], // Don't require padded table cells
+        ["remark-lint-unordered-list-marker-style", "-"], // Prefer hyphen list markers to match Prettier
+        ["remark-lint-no-literal-urls", false], // Allow bare URLs for now
+        ["remark-lint-no-heading-punctuation", /[!,.;]/u], // Disallow headings ending with ! , . or ;
+        ["remark-lint-table-cell-padding", false], // Don't require padded table cells
 
         // URL and link validation
         "remark-lint-no-duplicate-defined-urls", // Prevent duplicate definitions that share URLs
@@ -367,12 +366,12 @@ const remarkConfig = {
         // MDX-specific rules (only apply to MDX files)
         "remark-lint-mdx-jsx-attribute-sort", // Keep props sorted using default alphabetical order
         /** @type {[string, QuoteStyle]} */
-        [ "remark-lint-mdx-jsx-quote-style", '"' ], // Use double quotes in JSX
-        [ "remark-lint-mdx-jsx-self-close", true ], // Enforce self-closing tags
-        [ "remark-lint-mdx-jsx-no-void-children", true ], // Prevent children on void elements
-        [ "remark-lint-mdx-jsx-shorthand-attribute", true ], // Prefer JSX shorthand for booleans
+        ["remark-lint-mdx-jsx-quote-style", '"'], // Use double quotes in JSX
+        ["remark-lint-mdx-jsx-self-close", true], // Enforce self-closing tags
+        ["remark-lint-mdx-jsx-no-void-children", true], // Prevent children on void elements
+        ["remark-lint-mdx-jsx-shorthand-attribute", true], // Prefer JSX shorthand for booleans
         "remark-lint-mdx-jsx-unique-attribute-name", // Avoid duplicate attribute names in MDX elements
-        [ "remark-lint-no-undefined-references", false ], // Allow undefined references in MDX
+        ["remark-lint-no-undefined-references", false], // Allow undefined references in MDX
 
         // Prettier integration for consistent formatting
         "remark-preset-prettier",
@@ -413,4 +412,17 @@ const remarkConfig = {
     },
 };
 
-export default remarkConfig;
+const config = createConfig(remarkConfig);
+
+export default {
+    ...config,
+    plugins: config.plugins.map((entry) =>
+        Array.isArray(entry)
+            ? [
+                  entry[0],
+                  ...entry.slice(1).map((options) => structuredClone(options)),
+              ]
+            : entry
+    ),
+    settings: structuredClone(config.settings),
+};

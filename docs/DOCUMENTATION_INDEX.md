@@ -61,11 +61,11 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 
 ### Release & Publishing
 
-| Document                                   | Description                                                      |
-| ------------------------------------------ | ---------------------------------------------------------------- |
-| [PUBLISHING.md](PUBLISHING.md)             | Publishing to PowerShell Gallery, NuGet.org, and GitHub Packages |
+| Document                                     | Description                                                      |
+| -------------------------------------------- | ---------------------------------------------------------------- |
+| [PUBLISHING.md](PUBLISHING.md)               | Publishing to PowerShell Gallery, NuGet.org, and GitHub Packages |
 | [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) | Step-by-step release checklist with git-cliff integration        |
-| [CHANGELOG.md](../CHANGELOG.md)            | Complete project changelog                                       |
+| [CHANGELOG.md](../CHANGELOG.md)              | Complete project changelog                                       |
 
 ### Project Management
 
@@ -74,7 +74,6 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | [ROADMAP.md](ROADMAP.md)           | Project roadmap and planned features            |
 | [SUPPORT.md](SUPPORT.md)           | Support channels and response time expectations |
 | [CONTRIBUTORS.md](CONTRIBUTORS.md) | List of project contributors                    |
-| [todo.md](../todo.md)              | Development tasks and action items              |
 
 ## Repository Policies
 
@@ -82,16 +81,16 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | --------------------------------------------- | ------------------------------------------- |
 | [CODE\_OF\_CONDUCT.md](../CODE_OF_CONDUCT.md) | Community code of conduct                   |
 | [SECURITY.md](../SECURITY.md)                 | Security policy and vulnerability reporting |
-| [LICENSE](../LICENSE)                         | Unlicense License terms                           |
+| [LICENSE](../LICENSE)                         | Unlicense License terms                     |
 
 ## Configuration Files
 
-| File                                                              | Purpose                                          |
-| ----------------------------------------------------------------- | ------------------------------------------------ |
-| [cliff.toml](../cliff.toml)                                       | git-cliff configuration for changelog generation |
-| [PSScriptAnalyzerSettings.psd1](../PSScriptAnalyzerSettings.psd1) | ScriptAnalyzer rules and settings                |
-| [package.json](../package.json)                                   | npm scripts and Node.js dependencies             |
-| [.github/workflows/](../.github/workflows/)                       | GitHub Actions CI/CD workflows                   |
+| File                                                                                                     | Purpose                                          |
+| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| [Shared git-cliff config](https://github.com/Nick2bad4u/gitcliff-config-nick2bad4u/blob/main/cliff.toml) | git-cliff configuration for changelog generation |
+| [PSScriptAnalyzerSettings.psd1](../PSScriptAnalyzerSettings.psd1)                                        | ScriptAnalyzer rules and settings                |
+| [package.json](../package.json)                                                                          | npm scripts and Node.js dependencies             |
+| [.github/workflows/](../.github/workflows/)                                                              | GitHub Actions CI/CD workflows                   |
 
 ## Example Files
 

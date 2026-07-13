@@ -82,7 +82,7 @@ function Resolve-ReleasePath {
 
 $scriptRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repoRoot = Resolve-Path -LiteralPath (Join-Path -Path $scriptRoot -ChildPath '..')
-$cliffConfig = Join-Path -Path $repoRoot -ChildPath 'cliff.toml'
+$cliffConfig = Join-Path -Path $repoRoot -ChildPath 'node_modules/gitcliff-config-nick2bad4u/cliff.toml'
 
 # Try to find git-cliff executable
 $gitCliffExe = $null
@@ -173,6 +173,8 @@ if (-not (Test-Path -LiteralPath $cliffConfig)) {
 $arguments = @()
 $arguments += '--config'
 $arguments += $cliffConfig
+$arguments += '--github-repo'
+$arguments += 'Nick2bad4u/PS-Color-Scripts-Enhanced'
 
 if ($Unreleased) {
     $arguments += '--unreleased'

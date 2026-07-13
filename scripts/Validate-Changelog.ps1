@@ -43,9 +43,6 @@ if (-not (Test-Path -LiteralPath $generateNotesScript)) {
 }
 
 $latestNotes = & $generateNotesScript -Latest -PassThru
-if ($LASTEXITCODE -ne 0) {
-    throw 'git-cliff failed to generate latest release notes.'
-}
 
 $latestNotes = ($latestNotes | Out-String).Trim()
 if (-not $latestNotes) {

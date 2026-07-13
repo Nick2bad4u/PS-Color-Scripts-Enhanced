@@ -1,0 +1,9 @@
+{
+    "extends": "npm-package-json-lint-config-nick2bad4u",
+    "rules": {
+        "require-contributors": "off",
+        "require-engines": "off",
+        "require-files": "off",
+        "require-types": "off"
+    }
+}
