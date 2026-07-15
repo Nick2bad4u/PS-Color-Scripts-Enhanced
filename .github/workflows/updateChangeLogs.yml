@@ -62,6 +62,8 @@ jobs:
               run: npm ci --force
 
             - name: Generate CHANGELOG.md files (With verbose logging)
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               shell: pwsh
               run: |
                   echo "Generating changelogs with git-cliff..."

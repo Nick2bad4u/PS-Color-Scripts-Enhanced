@@ -299,7 +299,7 @@ Each output chunk is normalized with a trailing `ESC[0m` so the terminal resets 
 
 The repository includes additional helpers for developers:
 
-- **`Generate-ReleaseNotes.ps1`** - Wraps git-cliff to build PowerShell Gallery release notes
+- **`npm run release:notes`** - Invokes git-cliff directly to build PowerShell Gallery release notes
 - **`Validate-Changelog.ps1`** - Checks CHANGELOG.md matches manifest version
 - **`Invoke-MarkdownLinkCheck.ps1`** - Validates all markdown links
 

@@ -50,6 +50,8 @@ jobs:
               uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
               with:
                   ref: ${{ github.sha }}
+                  fetch-depth: 0
+                  fetch-tags: true
 
             - name: Install quality tools
               run: |
@@ -204,55 +206,115 @@ jobs:
               run: pwsh -NoProfile -File ./scripts/Update-NuGetPackageMetadata.ps1 -PackagePath '${{ steps.package.outputs.packagePath }}'
               shell: pwsh
 
-            - name: Install git-cliff
-              if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
+            - name: Prepare expected release tag for non-release runs
+              if: ${{ github.event_name != 'release' && (github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false') }}
+              env:
+                  EXPECTED_TAG: v${{ steps.manifest.outputs.version }}
               run: |
-                  Write-Host "Installing git-cliff..."
-                  $downloadUrl = "https://github.com/orhun/git-cliff/releases/download/v2.13.1/git-cliff-2.13.1-x86_64-pc-windows-msvc.zip"
-                  $zipPath = Join-Path $env:RUNNER_TEMP "git-cliff.zip"
-                  $extractPath = Join-Path $env:RUNNER_TEMP "git-cliff"
+                  $ErrorActionPreference = 'Stop'
+                  $expectedTag = $env:EXPECTED_TAG
 
-                  Invoke-WebRequest -Uri $downloadUrl -OutFile $zipPath
-                  Expand-Archive -Path $zipPath -DestinationPath $extractPath -Force
-
-                  # The exe might be in the root or in a subdirectory
-                  $exePath = Get-ChildItem -Path $extractPath -Filter "git-cliff.exe" -Recurse | Select-Object -First 1 -ExpandProperty FullName
-
-                  if (-not $exePath -or -not (Test-Path $exePath)) {
-                      Write-Host "Directory structure:"
-                      Get-ChildItem -Path $extractPath -Recurse | ForEach-Object { Write-Host $_.FullName }
-                      throw "git-cliff.exe not found after extraction"
+                  if ([string]::IsNullOrWhiteSpace($expectedTag)) {
+                      Write-Output '::error::The manifest version step did not provide an expected tag.'
+                      exit 1
                   }
 
-                  $binPath = Split-Path $exePath -Parent
-                  Write-Host "Found git-cliff.exe at: $exePath"
+                  git fetch --tags --force
+                  if ($LASTEXITCODE -ne 0) {
+                      Write-Output '::error::Failed to fetch release tags before preparing the expected tag.'
+                      exit 1
+                  }
 
-                  # Add to PATH for this session
-                  $env:PATH = "$binPath;$env:PATH"
-                  "PATH=$env:PATH" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+                  git show-ref --verify --quiet "refs/tags/$expectedTag"
+                  if ($LASTEXITCODE -eq 0) {
+                      Write-Output "::error::Expected release tag $expectedTag already exists; refusing to replace it during this release."
+                      exit 1
+                  }
+                  if ($LASTEXITCODE -ne 1) {
+                      Write-Output "::error::Unable to determine whether expected release tag $expectedTag already exists."
+                      exit 1
+                  }
 
-                  Write-Host "git-cliff installed successfully"
-                  & $exePath --version
+                  git tag -- $expectedTag HEAD
+                  if ($LASTEXITCODE -ne 0) {
+                      Write-Output "::error::Failed to create expected release tag $expectedTag at HEAD."
+                      exit 1
+                  }
+              shell: pwsh
+
+            - name: Validate expected release tag
+              if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
+              env:
+                  EXPECTED_TAG: v${{ steps.manifest.outputs.version }}
+              run: |
+                  $ErrorActionPreference = 'Stop'
+                  $expectedTag = $env:EXPECTED_TAG
+
+                  if ([string]::IsNullOrWhiteSpace($expectedTag)) {
+                      Write-Output '::error::The manifest version step did not provide an expected tag.'
+                      exit 1
+                  }
+
+                  $tagRef = "refs/tags/$expectedTag"
+                  git show-ref --verify --quiet $tagRef
+                  if ($LASTEXITCODE -ne 0) {
+                      Write-Output "::error::Expected release tag $expectedTag does not exist in the local checkout."
+                      exit 1
+                  }
+
+                  $tagCommit = (git rev-parse "${tagRef}^{commit}").Trim()
+                  if ($LASTEXITCODE -ne 0) {
+                      Write-Output "::error::Unable to resolve expected release tag $expectedTag to a commit."
+                      exit 1
+                  }
+
+                  $headCommit = (git rev-parse HEAD).Trim()
+                  if ($LASTEXITCODE -ne 0) {
+                      Write-Output '::error::Unable to resolve the current HEAD commit.'
+                      exit 1
+                  }
+
+                  if ($tagCommit -cne $headCommit) {
+                      Write-Output "::error::Expected release tag $expectedTag points to $tagCommit, but HEAD is $headCommit."
+                      exit 1
+                  }
+
+                  $headTags = @(git tag --points-at HEAD --sort=refname)
+                  if ($LASTEXITCODE -ne 0) {
+                      Write-Output '::error::Unable to list tags that point at HEAD.'
+                      exit 1
+                  }
+
+                  if ($headTags.Count -ne 1 -or $headTags[0] -cne $expectedTag) {
+                      $foundTags = if ($headTags.Count -eq 0) { '<none>' } else { $headTags -join ', ' }
+                      Write-Output "::error::HEAD must have exactly the expected release tag $expectedTag; found: $foundTags."
+                      exit 1
+                  }
               shell: pwsh
 
             - name: Generate release notes
               if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
               id: release-notes
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               run: |
                   $version = '${{ steps.manifest.outputs.version }}'
                   Write-Host "Generating release notes for version $version"
 
-                  # Check if the tag exists yet
-                  $tagExists = git tag -l "v$version"
+                  $notesFile = Join-Path $env:RUNNER_TEMP "release-notes.md"
+                  npx git-cliff `
+                      --config node_modules/gitcliff-config-nick2bad4u/cliff.toml `
+                      --github-repo Nick2bad4u/PS-Color-Scripts-Enhanced `
+                      --current `
+                      --output $notesFile
+                  if ($LASTEXITCODE -ne 0) {
+                      throw "git-cliff failed to generate release notes for v$version."
+                  }
 
-                  if ($tagExists) {
-                      # Tag exists, generate notes for latest tag
-                      Write-Host "Tag v$version exists, generating notes for latest release"
-                      $notes = & pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Latest
+                  $notes = if (Test-Path -LiteralPath $notesFile) {
+                      Get-Content -LiteralPath $notesFile -Raw
                   } else {
-                      # Tag doesn't exist yet, generate unreleased notes
-                      Write-Host "Tag v$version doesn't exist yet, generating unreleased notes"
-                      $notes = & pwsh -NoProfile -File ./scripts/Generate-ReleaseNotes.ps1 -Unreleased
+                      ''
                   }
 
                   if ([string]::IsNullOrWhiteSpace($notes)) {
@@ -262,11 +324,8 @@ jobs:
 
                   See [CHANGELOG.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CHANGELOG.md) for full details.
                   "@
+                      Set-Content -LiteralPath $notesFile -Value $notes -Encoding UTF8
                   }
-
-                  # Write to file for GitHub Actions
-                  $notesFile = Join-Path $env:RUNNER_TEMP "release-notes.md"
-                  Set-Content -Path $notesFile -Value $notes -Encoding UTF8
 
                   Write-Host "Release notes preview:"
                   Write-Host "------------------------"
@@ -281,6 +340,7 @@ jobs:
               uses: ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd # v1.21.0
               with:
                   tag: v${{ steps.manifest.outputs.version }}
+                  commit: ${{ github.sha }}
                   name: Release v${{ steps.manifest.outputs.version }}
                   bodyFile: ${{ steps.release-notes.outputs.notesFile }}
                   artifacts: ${{ steps.package.outputs.packagePath }}

@@ -37,12 +37,18 @@ if (-not $gitCliff) {
     throw "git-cliff CLI is required. Install via 'cargo install git-cliff' or download from https://github.com/orhun/git-cliff/releases."
 }
 
-$generateNotesScript = Join-Path -Path $scriptRoot -ChildPath 'Generate-ReleaseNotes.ps1'
-if (-not (Test-Path -LiteralPath $generateNotesScript)) {
-    throw "Generate-ReleaseNotes.ps1 was not found at '$generateNotesScript'."
+$cliffConfig = Join-Path -Path $repoRoot -ChildPath 'node_modules/gitcliff-config-nick2bad4u/cliff.toml'
+if (-not (Test-Path -LiteralPath $cliffConfig)) {
+    throw "Unable to locate cliff configuration at '$cliffConfig'."
 }
 
-$latestNotes = & $generateNotesScript -Latest -PassThru
+$latestNotes = & $gitCliff.Source `
+    --config $cliffConfig `
+    --github-repo 'Nick2bad4u/PS-Color-Scripts-Enhanced' `
+    --latest
+if ($LASTEXITCODE -ne 0) {
+    throw "git-cliff failed to generate release notes for the latest tag (exit code $LASTEXITCODE)."
+}
 
 $latestNotes = ($latestNotes | Out-String).Trim()
 if (-not $latestNotes) {
@@ -56,7 +62,7 @@ if (-not [System.Text.RegularExpressions.Regex]::IsMatch($changelogContent, $ver
 }
 
 if ($changelogContent.IndexOf($latestNotes, [System.StringComparison]::OrdinalIgnoreCase) -lt 0) {
-    throw 'CHANGELOG.md is not aligned with the latest git-cliff output. Run npm run release:notes and commit the result.'
+    throw 'CHANGELOG.md is not aligned with the latest git-cliff output. Run npm run release:notes:latest and commit the result.'
 }
 
 Write-Host "✓ CHANGELOG.md validated for version $moduleVersion" -ForegroundColor Green

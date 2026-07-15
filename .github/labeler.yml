@@ -60,7 +60,6 @@ configuration:
           - ".eslint*"
           - ".prettier*"
           - ".github/labeler.yml"
-          - "ActionLintConfig.yaml"
           - "cliff.toml"
           - "knip.config.ts"
           - "node.config.json"
