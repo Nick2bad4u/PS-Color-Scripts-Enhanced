@@ -409,7 +409,7 @@
                 }
 
                 if ($pokemonNameSet -and $pokemonNameSet.Count -gt 0) {
-                    $listRecords = $listRecords | Where-Object { $pokemonNameSet -notcontains $_.Name }
+                    $listRecords = $listRecords | Where-Object { -not $pokemonNameSet.Contains([string]$_.Name) }
                 }
 
                 if (-not $listRecords -or $listRecords.Count -eq 0) {
@@ -454,7 +454,7 @@
                         }
 
                         if ($pokemonNameSet -and $pokemonNameSet.Count -gt 0) {
-                            $allScripts = $allScripts | Where-Object { $pokemonNameSet -notcontains $_.Name }
+                            $allScripts = $allScripts | Where-Object { -not $pokemonNameSet.Contains([string]$_.Name) }
                         }
 
                         if (-not $allScripts -or $allScripts.Count -eq 0) {
@@ -556,8 +556,7 @@
                         ($Category -and $Category.Count -gt 0) -or
                         ($Tag -and $Tag.Count -gt 0) -or
                         $PassThru.IsPresent -or
-                        ($excludeCategorySet.Count -gt 0) -or
-                        ($PSBoundParameters.ContainsKey('Name') -and $Name)
+                        ($excludeCategorySet.Count -gt 0)
                     )
 
                     $records = if ($needsMetadata) {
@@ -574,7 +573,7 @@
 
                     # Apply Pokémon exclusion when needed
                     if ($pokemonNameSet -and $pokemonNameSet.Count -gt 0) {
-                        $records = $records | Where-Object { $pokemonNameSet -notcontains $_.Name }
+                        $records = $records | Where-Object { -not $pokemonNameSet.Contains([string]$_.Name) }
                     }
 
                     if (-not $records -or $records.Count -eq 0) {
@@ -610,7 +609,7 @@
                             }
 
                             if ($pokemonNameSet -and $pokemonNameSet.Count -gt 0) {
-                                $records = $records | Where-Object { $pokemonNameSet -notcontains $_.Name }
+                                $records = $records | Where-Object { -not $pokemonNameSet.Contains([string]$_.Name) }
 
                                 if (-not $records -or $records.Count -eq 0) {
                                     Write-Warning $script:Messages.NoColorscriptsFoundMatchingCriteria

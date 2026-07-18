@@ -441,7 +441,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
         It 'captures successful invocation' {
             $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
             $scriptPath = Join-Path -Path $testRoot -ChildPath 'invoke-success.ps1'
-            Set-Content -LiteralPath $scriptPath -Value "Write-Host 'Success'" -Encoding UTF8
+            Set-Content -LiteralPath $scriptPath -Value '$message = ''Success''; Write-Host $message' -Encoding UTF8
 
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Get-PowerShellExecutable -ModuleName ColorScripts-Enhanced -MockWith { 'pwsh' }
@@ -494,7 +494,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
         It 'captures process creation failures' {
             $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
             $scriptPath = Join-Path -Path $testRoot -ChildPath 'invoke-fail.ps1'
-            Set-Content -LiteralPath $scriptPath -Value "Write-Host 'Failure'" -Encoding UTF8
+            Set-Content -LiteralPath $scriptPath -Value '$message = ''Failure''; Write-Host $message' -Encoding UTF8
 
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Get-PowerShellExecutable -ModuleName ColorScripts-Enhanced -MockWith { 'pwsh' }

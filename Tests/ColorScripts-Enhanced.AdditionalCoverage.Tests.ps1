@@ -2668,10 +2668,30 @@ namespace CoverageHost
                 ($result.StdOut.Trim()) | Should -Be 'solid coverage'
             }
 
+            It 'captures dynamic Write-Host output without ConsoleHost ANSI rendering' {
+                $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
+                $scriptPath = Join-Path -Path $testRoot -ChildPath 'process-write-host.ps1'
+                $source = @'
+$escape = [char]27
+Write-Host -NoNewline "$escape[31mred"
+Write-Host "$escape[0m text"
+'@
+                [System.IO.File]::WriteAllText($scriptPath, $source, [System.Text.UTF8Encoding]::new($false))
+
+                $result = InModuleScope ColorScripts-Enhanced -Parameters @{ scriptPath = $scriptPath } {
+                    param($scriptPath)
+                    Invoke-ColorScriptProcess -ScriptPath $scriptPath
+                }
+
+                $result.Success | Should -BeTrue
+                $result.StdErr | Should -BeExactly ''
+                $result.StdOut | Should -BeExactly ('red text' + [Environment]::NewLine)
+            }
+
             It 'executes script successfully with mocked process' {
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testRoot -ChildPath 'process-success.ps1'
-                Set-Content -LiteralPath $scriptPath -Value "Write-Host 'process success'" -Encoding UTF8
+                Set-Content -LiteralPath $scriptPath -Value '$message = ''process success''; Write-Host $message' -Encoding UTF8
 
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Get-PowerShellExecutable -ModuleName ColorScripts-Enhanced -MockWith { 'pwsh' }
@@ -2728,7 +2748,7 @@ namespace CoverageHost
             It 'captures process exceptions' {
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testRoot -ChildPath 'process-fail.ps1'
-                Set-Content -LiteralPath $scriptPath -Value "Write-Host 'process fail'" -Encoding UTF8
+                Set-Content -LiteralPath $scriptPath -Value '$message = ''process fail''; Write-Host $message' -Encoding UTF8
 
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Get-PowerShellExecutable -ModuleName ColorScripts-Enhanced -MockWith { 'pwsh' }

@@ -166,9 +166,81 @@ Describe 'Selective colorscript output caching' {
         }
     }
 
+    Context 'Static execution fast path' {
+        It 'extracts a literal Write-Host payload without launching another PowerShell process' {
+            $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
+            $scriptPath = Join-Path -Path $testRoot -ChildPath 'literal-static.ps1'
+            $escape = [char]27
+            $renderedText = "$escape[38;2;10;20;30mfast static output$escape[0m"
+            $source = @(
+                'Write-Host @"'
+                $renderedText
+                '"@'
+            ) -join [Environment]::NewLine
+            [System.IO.File]::WriteAllText($scriptPath, $source, [System.Text.UTF8Encoding]::new($false))
+
+            $result = InModuleScope ColorScripts-Enhanced -Parameters @{ path = $scriptPath } {
+                param($path)
+
+                Mock -CommandName Get-PowerShellExecutable -ModuleName ColorScripts-Enhanced -MockWith {
+                    throw 'A literal static script must not launch PowerShell.'
+                }
+
+                $invocation = Invoke-ColorScriptProcess -ScriptPath $path
+                Assert-MockCalled -CommandName Get-PowerShellExecutable -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                $invocation
+            }
+
+            $result.Success | Should -BeTrue
+            $result.ExitCode | Should -Be 0
+            $result.StdErr | Should -BeExactly ''
+            $result.StdOut | Should -BeExactly ('fast static output' + [Environment]::NewLine)
+        }
+
+        It 'fails closed for interpolated and multi-statement scripts' {
+            $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
+            $interpolatedPath = Join-Path -Path $testRoot -ChildPath 'interpolated.ps1'
+            $multiStatementPath = Join-Path -Path $testRoot -ChildPath 'multi-statement.ps1'
+            Set-Content -LiteralPath $interpolatedPath -Value '$value = ''dynamic''; Write-Host $value' -Encoding UTF8
+            Set-Content -LiteralPath $multiStatementPath -Value 'Write-Host ''first''; Write-Host ''second''' -Encoding UTF8
+
+            $availability = InModuleScope ColorScripts-Enhanced -Parameters @{
+                interpolatedPath   = $interpolatedPath
+                multiStatementPath = $multiStatementPath
+            } {
+                param($interpolatedPath, $multiStatementPath)
+
+                [pscustomobject]@{
+                    Interpolated = (Get-StaticColorScriptOutput -ScriptPath $interpolatedPath).Available
+                    Multiple     = (Get-StaticColorScriptOutput -ScriptPath $multiStatementPath).Available
+                }
+            }
+
+            $availability.Interpolated | Should -BeFalse
+            $availability.Multiple | Should -BeFalse
+        }
+    }
+
     Context 'Display routing' {
         It 'executes static output directly and never consults a legacy cache' {
             $result = InModuleScope ColorScripts-Enhanced {
+                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                    throw 'Name-only selection must not build the metadata table.'
+                }
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
+                    $records = @(
+                        [pscustomobject]@{
+                            Name        = '1998-01-fev-ice'
+                            Path        = '1998-01-fev-ice.ps1'
+                            Category    = $null
+                            Categories  = @()
+                            Tags        = @()
+                            Description = $null
+                            Metadata    = $null
+                        }
+                    )
+                    Write-Output -NoEnumerate -InputObject $records
+                }
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith {
                     throw 'Static output must not initialize the cache.'
                 }
@@ -188,6 +260,7 @@ Describe 'Selective colorscript output caching' {
                 Assert-MockCalled -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
                 Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
                 Assert-MockCalled -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
+                Assert-MockCalled -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
                 $text
             }
 
