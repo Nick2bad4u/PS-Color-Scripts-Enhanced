@@ -47,7 +47,7 @@ jobs:
             - name: Run Pester tests with coverage
               shell: powershell
               run: |
-                  npm run test:coverage -- -CI
+                  npm run test:coverage:ci
 
             - name: Upload test results
               if: always()
@@ -127,7 +127,7 @@ jobs:
             - name: Run Pester tests with coverage
               shell: pwsh
               run: |
-                  npm run test:coverage -- -CI
+                  npm run test:coverage:ci
 
             - name: Upload test results
               if: always()
