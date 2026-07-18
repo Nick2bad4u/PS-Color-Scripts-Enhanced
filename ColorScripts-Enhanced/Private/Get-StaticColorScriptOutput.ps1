@@ -55,11 +55,11 @@ function Get-StaticColorScriptOutput {
         }
 
         $argument = $command.CommandElements[1]
-        $isStaticString = (
-            $argument -is [System.Management.Automation.Language.StringConstantExpressionAst] -or
-            ($argument -is [System.Management.Automation.Language.ExpandableStringExpressionAst] -and
-                $argument.NestedExpressions.Count -eq 0)
-        )
+        $isStringConstant = $argument -is [System.Management.Automation.Language.StringConstantExpressionAst]
+        $isStaticExpandableString = (
+            $argument -is [System.Management.Automation.Language.ExpandableStringExpressionAst] -and
+            $argument.NestedExpressions.Count -eq 0)
+        $isStaticString = $isStringConstant -or $isStaticExpandableString
 
         if (-not $isStaticString) {
             return $notAvailable
