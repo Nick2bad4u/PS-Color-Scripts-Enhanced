@@ -20,7 +20,8 @@ function Get-ColorScriptCacheableNameSet {
     if ($script:CacheableScriptNameSet -and
         $script:CachePolicyLastWriteTime -and
         $policyLastWriteTime -eq $script:CachePolicyLastWriteTime) {
-        return , $script:CacheableScriptNameSet
+        Write-Output -NoEnumerate -InputObject $script:CacheableScriptNameSet
+        return
     }
 
     $nameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
@@ -46,7 +47,7 @@ function Get-ColorScriptCacheableNameSet {
     $script:CacheableScriptNameSet = $nameSet
     $script:CachePolicyLastWriteTime = $policyLastWriteTime
 
-    return , $script:CacheableScriptNameSet
+    Write-Output -NoEnumerate -InputObject $script:CacheableScriptNameSet
 }
 
 function Test-ColorScriptRequiresCache {
