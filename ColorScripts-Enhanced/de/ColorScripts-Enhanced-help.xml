@@ -1482,8 +1482,8 @@ foreach ($theme in $themes) {
       <command:noun>ColorScriptCache</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>Generiert vorab gecachte Ausgaben für ColorScripts, um optimale Leistung bei der ersten Anzeige zu gewährleisten. Dieses Cmdlet führt ColorScripts im Voraus aus und speichert ihre gerenderten Ausgaben für sofortigen Abruf.</maml:para>
-      <maml:para>Das Caching-System bietet 6-19x Leistungsverbesserungen, indem die Skriptausführungszeit bei der Anzeige eliminiert wird. Gecachte Inhalte werden automatisch ungültig, wenn Quellskripte geändert werden.</maml:para>
+      <maml:para>Generiert vorab gecachte Ausgaben für rechenintensive ColorScripts, um optimale Leistung bei der ersten Anzeige zu gewährleisten. Nur die in `CachePolicy.psd1` aufgeführten Renderer werden ausgeführt und gespeichert. Statische und nicht aufgeführte Skripte werden mit `SkippedNotRequired` übersprungen; veraltete Cachedateien für diese Skripte werden entfernt.</maml:para>
+      <maml:para>Das Caching-System bietet 6-19x Leistungsverbesserungen für ausgewählte Renderer. Gecachte Inhalte werden automatisch ungültig, wenn Quellskripte geändert werden. `-Force` erstellt nur berechtigte Cacheeinträge neu und überschreibt niemals die Richtlinie.</maml:para>
       <maml:para>Verwenden Sie dieses Cmdlet, um:</maml:para>
       <maml:para>- Cache für häufig verwendete Skripte vorzubereiten - Konsistente Leistung über Sitzungen hinweg zu gewährleisten - Cache nach Modul-Updates vorzuwärmen - Startleistung zu optimieren</maml:para>
       <maml:para>Das Cmdlet unterstützt selektives Caching nach Name, Kategorie oder Tags, was eine gezielte Cache-Vorbereitung ermöglicht.</maml:para>
@@ -1492,14 +1492,339 @@ foreach ($theme in $themes) {
     <command:syntax>
       <command:syntaxItem>
         <maml:name>New-ColorScriptCache</maml:name>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>All</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>IncludePokemon</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>Force</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>PassThru</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>Parallel</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="Threads">
+          <maml:name>ThrottleLimit</maml:name>
+          <maml:description />
+          <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
+          <dev:type>
+            <maml:name>System.Int32</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>Quiet</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>NoAnsiOutput</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>WhatIf</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>Confirm</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
       </command:syntaxItem>
       <command:syntaxItem>
         <maml:name>New-ColorScriptCache</maml:name>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>Name</maml:name>
+          <maml:description />
+          <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
+          <dev:type>
+            <maml:name>System.String[]</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>Category</maml:name>
+          <maml:description />
+          <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
+          <dev:type>
+            <maml:name>System.String[]</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>Tag</maml:name>
+          <maml:description />
+          <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
+          <dev:type>
+            <maml:name>System.String[]</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>IncludePokemon</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>Force</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>PassThru</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>Parallel</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="Threads">
+          <maml:name>ThrottleLimit</maml:name>
+          <maml:description />
+          <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
+          <dev:type>
+            <maml:name>System.Int32</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>Quiet</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>NoAnsiOutput</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>WhatIf</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>Confirm</maml:name>
+          <maml:description />
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          </dev:type>
+        </command:parameter>
       </command:syntaxItem>
     </command:syntax>
-    <command:parameters />
-    <command:inputTypes />
-    <command:returnValues />
+    <command:parameters>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>All</maml:name>
+        <maml:description>
+          <maml:para>Wertet alle verfügbaren Skripte gegen die Cache-Richtlinie aus. Nur ausgewählte Skripte werden gecached; statische und nicht aufgeführte Skripte werden übersprungen. Kann nicht zusammen mit `-Name` verwendet werden.</maml:para>
+        </maml:description>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Category</maml:name>
+        <maml:description>
+          <maml:para>Filtert die zu cachenden Skripte anhand ihrer Kategorien. Mehrere Kategorien können angegeben werden.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="true">System.String[]</command:parameterValue>
+        <dev:type>
+          <maml:name>System.String[]</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="cf">
+        <maml:name>Confirm</maml:name>
+        <maml:description>
+          <maml:para>Fordert eine Benutzerbestätigung an, bevor die Cache-Erstellung startet.</maml:para>
+        </maml:description>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Force</maml:name>
+        <maml:description>
+          <maml:para>Erzwingt eine Neuerstellung berechtigter Cacheeinträge selbst dann, wenn bestehende Dateien aktuell sind. Die Cache-Richtlinie wird nicht überschrieben.</maml:para>
+        </maml:description>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>IncludePokemon</maml:name>
+        <maml:description>
+          <maml:para>Bezieht alle Pokémon-Skripte (Standard und Shiny) in den Cacheaufbau ein. Standardmäßig werden Pokémon-Skripte ausgeschlossen; verwenden Sie `-IncludePokemon`, um sie einzubeziehen. Hinweis: Dieser Schalter ersetzt das ältere `-ExcludePokemon` — die Bedeutung wurde durch Refactoring umgekehrt (jetzt opt-in).</maml:para>
+        </maml:description>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="true (ByValue, ByPropertyName)" position="0" aliases="none">
+        <maml:name>Name</maml:name>
+        <maml:description>
+          <maml:para>Definiert die Skriptnamen oder Wildcard-Muster, die gecached werden sollen. Unterstützt Pipelineeingaben und Objekte mit einer `Name`-Eigenschaft.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="true">System.String[]</command:parameterValue>
+        <dev:type>
+          <maml:name>System.String[]</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="NoColor">
+        <maml:name>NoAnsiOutput</maml:name>
+        <maml:description>
+          <maml:para>Deaktiviert ANSI-Farbsequenzen in der Zusammenfassung und liefert reinen Text.</maml:para>
+        </maml:description>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Parallel</maml:name>
+        <maml:description>
+          <maml:para>Aktiviert parallele Ausführung mit mehreren Runspaces. In Hosts ohne Unterstützung fällt das Cmdlet automatisch auf sequentielle Verarbeitung zurück.</maml:para>
+        </maml:description>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>PassThru</maml:name>
+        <maml:description>
+          <maml:para>Gibt detaillierte Ergebnisobjekte für jedes Skript an die Pipeline zurück. Ohne diesen Schalter wird nur eine Zusammenfassung geschrieben.</maml:para>
+        </maml:description>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Quiet</maml:name>
+        <maml:description>
+          <maml:para>Unterdrückt die abschließende Statusmeldung nach dem Cache-Aufbau.</maml:para>
+        </maml:description>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
+        <maml:name>Tag</maml:name>
+        <maml:description>
+          <maml:para>Filtert anhand von Tags. Nur Skripte mit passenden Metadaten werden gecached.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="true">System.String[]</command:parameterValue>
+        <dev:type>
+          <maml:name>System.String[]</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="Threads">
+        <maml:name>ThrottleLimit</maml:name>
+        <maml:description>
+          <maml:para>Legt die maximale Anzahl paralleler Worker fest. Gültiger Bereich: 1 bis 256. Aliase: `Threads`.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="true">System.Int32</command:parameterValue>
+        <dev:type>
+          <maml:name>System.Int32</maml:name>
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="wi">
+        <maml:name>WhatIf</maml:name>
+        <maml:description>
+          <maml:para>Zeigt an, was passieren würde, ohne den Cache tatsächlich zu erstellen.</maml:para>
+        </maml:description>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+        </dev:type>
+      </command:parameter>
+    </command:parameters>
+    <command:inputTypes>
+      <command:inputType>
+        <dev:type>
+          <maml:name>System.String</maml:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>Sie können Skriptnamen als Zeichenfolgen per Pipeline übergeben.</maml:para>
+        </maml:description>
+      </command:inputType>
+      <command:inputType>
+        <dev:type>
+          <maml:name>System.String[]</maml:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>Arrays von Skriptnamen sind ebenfalls erlaubt, z. B. aus `Get-ColorScriptList`.</maml:para>
+        </maml:description>
+      </command:inputType>
+      <command:inputType>
+        <dev:type>
+          <maml:name>System.Management.Automation.PSObject</maml:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>Objekte mit einer `Name`-Eigenschaft werden automatisch ausgewertet und in die Cache-Warteschlange aufgenommen.</maml:para>
+        </maml:description>
+      </command:inputType>
+    </command:inputTypes>
+    <command:returnValues>
+      <command:returnValue>
+        <dev:type>
+          <maml:name>System.Object</maml:name>
+        </dev:type>
+        <maml:description>
+          <maml:para>Mit `-PassThru` gibt das Cmdlet strukturierte Objekte mit Status, ExitCode, Cachepfad und Diagnoseinformationen zurück. Ohne den Schalter wird nur eine optionale Zusammenfassung geschrieben.
+Vorab-Caching eliminiert die Ausführungszeit bei der ersten Anzeige und bietet sofortiges visuelles Feedback. Besonders vorteilhaft für komplexe oder animierte Skripte.
+
+**Cache-Verwaltung:**
+Gecachte Dateien werden in modulverwalteten Verzeichnissen gespeichert und automatisch ungültig gemacht, wenn Quellskripte geändert werden. Verwenden Sie Clear-ColorScriptCache, um veralteten Cache zu entfernen.
+
+**Bewährte Praktiken:**
+
+- Cache häufig verwendete Skripte für optimale Leistung
+- Verwenden Sie selektives Caching, um unnötige Verarbeitung zu vermeiden
+- Führen Sie nach Modul-Updates aus, um die Cache-Gültigkeit zu gewährleisten</maml:para>
+        </maml:description>
+      </command:returnValue>
+    </command:returnValues>
     <maml:alertSet>
       <maml:alert>
         <maml:para />
@@ -1513,7 +1838,7 @@ foreach ($theme in $themes) {
 New-ColorScriptCache
 ```</maml:para>
           <maml:para>&#x80;</maml:para>
-          <maml:para>Erstellt Cache für alle verfügbaren ColorScripts vorab.</maml:para>
+          <maml:para>Wertet alle verfügbaren ColorScripts aus und erstellt nur für die durch `CachePolicy.psd1` ausgewählten Renderer Cacheeinträge.</maml:para>
         </maml:introduction>
         <dev:code />
         <dev:remarks />
@@ -1537,7 +1862,7 @@ New-ColorScriptCache -Name "spectrum", "aurora-waves"
 New-ColorScriptCache -Category Nature
 ```</maml:para>
           <maml:para>&#x80;</maml:para>
-          <maml:para>Erstellt Cache für alle naturthematischen ColorScripts vorab.</maml:para>
+          <maml:para>Wertet alle naturthematischen ColorScripts aus und erstellt Cacheeinträge nur für berechtigte Renderer.</maml:para>
         </maml:introduction>
         <dev:code />
         <dev:remarks />
@@ -1549,7 +1874,7 @@ New-ColorScriptCache -Category Nature
 New-ColorScriptCache -Tag animated
 ```</maml:para>
           <maml:para>&#x80;</maml:para>
-          <maml:para>Cached alle ColorScripts, die als "animated" getaggt sind.</maml:para>
+          <maml:para>Wertet alle als "animated" getaggten ColorScripts aus und cached nur berechtigte Renderer.</maml:para>
         </maml:introduction>
         <dev:code />
         <dev:remarks />
@@ -1571,7 +1896,23 @@ New-ColorScriptCache -Category Geometric -Tag minimal
     <command:relatedLinks>
       <maml:navigationLink>
         <maml:linkText>Online Version</maml:linkText>
-        <command:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/de/New-ColorScriptCache.md</command:uri>
+        <maml:uri>https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/de/New-ColorScriptCache.md</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>Show-ColorScript</maml:linkText>
+        <maml:uri>Show-ColorScript.md</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>Clear-ColorScriptCache</maml:linkText>
+        <maml:uri>Clear-ColorScriptCache.md</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>Get-ColorScriptList</maml:linkText>
+        <maml:uri>Get-ColorScriptList.md</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>Online Documentation</maml:linkText>
+        <maml:uri>https://github.com/Nick2bad4u/ps-color-scripts-enhanced</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -2194,7 +2535,7 @@ Das intelligente Caching-System bietet 6-19x Leistungsverbesserungen gegenüber 
 
 - Cache-Speicherort: Verwenden Sie `(Get-Module ColorScripts-Enhanced).ModuleBase` und suchen Sie nach dem Cache-Verzeichnis
 - Cache löschen: Verwenden Sie `Clear-ColorScriptCache`, um von Grund auf neu zu erstellen
-- Cache neu erstellen: Verwenden Sie `New-ColorScriptCache`, um den Cache für alle Skripte vorab zu füllen
+- Cache neu erstellen: Verwenden Sie `New-ColorScriptCache`, um richtlinienausgewählte Renderer vorab zu cachen
 - Cache überprüfen: Cache-Dateien sind Klartext und können direkt angezeigt werden
 
 ## Tips
@@ -2212,7 +2553,7 @@ Farbskripte verwenden ANSI-Escape-Sequenzen und werden am besten in Terminals mi
 
 #### Building Cache for Specific Categories
 
-Alle Skripte in der Geometric-Kategorie für optimale Leistung cachen:
+Skripte in der Geometric-Kategorie auswerten und die richtlinienausgewählten Renderer cachen:
 
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
@@ -2323,7 +2664,7 @@ Das intelligente Caching-System bietet 6-19x Leistungsverbesserungen gegenüber 
 
 - Cache-Speicherort: Verwenden Sie `(Get-Module ColorScripts-Enhanced).ModuleBase` und suchen Sie nach dem Cache-Verzeichnis
 - Cache löschen: Verwenden Sie `Clear-ColorScriptCache`, um von Grund auf neu zu erstellen
-- Cache neu erstellen: Verwenden Sie `New-ColorScriptCache`, um den Cache für alle Skripte vorab zu füllen
+- Cache neu erstellen: Verwenden Sie `New-ColorScriptCache`, um richtlinienausgewählte Renderer vorab zu cachen
 - Cache überprüfen: Cache-Dateien sind Klartext und können direkt angezeigt werden
 
 ## Advanced Tips
@@ -2418,7 +2759,7 @@ Das Modul berücksichtigt die folgenden Umgebungsvariablen:
 #### Cache-Größeninformationen
 
 - Durchschnittliche Cache-Dateigröße: 2-50KB pro Skript
-- Gesamt-Cache-Größe für alle Skripte: ~2-5MB
+- Gesamt-Cache-Größe der richtlinienausgewählten Renderer: abhängig von ihrer Ausgabe
 - Cache-Speicherort: Verwendet betriebssystemgerechte Pfade für minimalen Fußabdruck
 
 ### TROUBLESHOOTING ADVANCED ISSUES
@@ -2540,12 +2881,12 @@ Get-ColorScriptList -AsObject |
 
 Verschiedene Caching-Strategien für verschiedene Szenarien:
 
-**Full Cache Strategy** (Optimal for Workstations)
+**Policy-Selected Cache Strategy** (Optimal for Workstations)
 
 ```powershell
-New-ColorScriptCache              # Cache alle 450++ Skripte
+New-ColorScriptCache              # Alle richtlinienausgewählten Caches erstellen
 # Vorteile: Maximale Leistung, sofortige Anzeige
-# Nachteile: Verwendet 2-5MB Festplattenspeicher
+# Nachteil: Der Speicherbedarf hängt von der richtlinienausgewählten gerenderten Ausgabe ab
 ```
 
 **Selective Cache Strategy** (Optimal for Portable/CI)
@@ -2745,7 +3086,7 @@ Add-ColorScriptProfile -Force
 A: 450++ eingebaute Skripte über mehrere Kategorien und Tags
 
 ## Q: Wie viel Festplattenspeicher verwendet das Caching
-A: Ungefähr 2-5MB insgesamt für alle Skripte, etwa 2-50KB pro Skript
+A: Die Gesamtgröße hängt von der Ausgabe der in `CachePolicy.psd1` ausgewählten Renderer ab
 
 ## Q: Kann ich Farbskripte in Skripten/Automatisierung verwenden
 A: Ja, verwenden Sie `-ReturnText`, um Ausgabe zu erfassen oder `-PassThru` für Metadaten

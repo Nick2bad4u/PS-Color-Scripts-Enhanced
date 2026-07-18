@@ -29,9 +29,9 @@ New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>]
 
 ## DESCRIPTION
 
-Generiert vorab gecachte Ausgaben für ColorScripts, um optimale Leistung bei der ersten Anzeige zu gewährleisten. Dieses Cmdlet führt ColorScripts im Voraus aus und speichert ihre gerenderten Ausgaben für sofortigen Abruf.
+Generiert vorab gecachte Ausgaben für rechenintensive ColorScripts, um optimale Leistung bei der ersten Anzeige zu gewährleisten. Nur die in `CachePolicy.psd1` aufgeführten Renderer werden ausgeführt und gespeichert. Statische und nicht aufgeführte Skripte werden mit `SkippedNotRequired` übersprungen; veraltete Cachedateien für diese Skripte werden entfernt.
 
-Das Caching-System bietet 6-19x Leistungsverbesserungen, indem die Skriptausführungszeit bei der Anzeige eliminiert wird. Gecachte Inhalte werden automatisch ungültig, wenn Quellskripte geändert werden.
+Das Caching-System bietet 6-19x Leistungsverbesserungen für ausgewählte Renderer. Gecachte Inhalte werden automatisch ungültig, wenn Quellskripte geändert werden. `-Force` erstellt nur berechtigte Cacheeinträge neu und überschreibt niemals die Richtlinie.
 
 Verwenden Sie dieses Cmdlet, um:
 
@@ -52,7 +52,7 @@ Standardmäßig wird eine zusammenfassende Statusmeldung ausgegeben. Nutzen Sie 
 New-ColorScriptCache
 ```
 
-Erstellt Cache für alle verfügbaren ColorScripts vorab.
+Wertet alle verfügbaren ColorScripts aus und erstellt nur für die durch `CachePolicy.psd1` ausgewählten Renderer Cacheeinträge.
 
 ### EXAMPLE 2
 
@@ -68,7 +68,7 @@ Cached bestimmte ColorScripts nach Namen.
 New-ColorScriptCache -Category Nature
 ```
 
-Erstellt Cache für alle naturthematischen ColorScripts vorab.
+Wertet alle naturthematischen ColorScripts aus und erstellt Cacheeinträge nur für berechtigte Renderer.
 
 ### EXAMPLE 4
 
@@ -76,7 +76,7 @@ Erstellt Cache für alle naturthematischen ColorScripts vorab.
 New-ColorScriptCache -Tag animated
 ```
 
-Cached alle ColorScripts, die als "animated" getaggt sind.
+Wertet alle als "animated" getaggten ColorScripts aus und cached nur berechtigte Renderer.
 
 ### EXAMPLE 5
 
@@ -89,17 +89,9 @@ Bereitet Cache für leichte geometrische Skripte vor, die ideal für schnelle St
 
 ## PARAMETERS
 
-### -Category
-
-Filtert Skripte zum Cachen nach einer oder mehreren Kategorien.
-
-```yaml
-Type: System.String[]
-## PARAMETERS
-
 ### -All
 
-Cachet alle verfügbaren Skripte in einem Durchlauf. Kann nicht zusammen mit `-Name` verwendet werden.
+Wertet alle verfügbaren Skripte gegen die Cache-Richtlinie aus. Nur ausgewählte Skripte werden gecached; statische und nicht aufgeführte Skripte werden übersprungen. Kann nicht zusammen mit `-Name` verwendet werden.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -116,7 +108,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
+```
 
 ### -Category
 
@@ -143,7 +135,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
+```
 
 ### -Confirm
 
@@ -165,11 +157,11 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
+```
 
 ### -Force
 
-Erzwingt eine Neuerstellung des Cache selbst dann, wenn bestehende Dateien aktuell sind.
+Erzwingt eine Neuerstellung berechtigter Cacheeinträge selbst dann, wenn bestehende Dateien aktuell sind. Die Cache-Richtlinie wird nicht überschrieben.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -192,7 +184,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
+```
 
 ### -Name
 
@@ -213,7 +205,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
+```
 
 ### -PassThru
 
@@ -240,7 +232,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```js
+```
 
 ### -Parallel
 
@@ -267,7 +259,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
+```
 
 ### -Quiet
 
@@ -294,7 +286,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
+```
 
 ### -NoAnsiOutput
 
@@ -322,7 +314,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
+```
 
 ### -IncludePokemon
 
@@ -349,7 +341,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
+```
 
 ### -Tag
 
@@ -376,7 +368,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
+```
 
 ### -ThrottleLimit
 
@@ -404,7 +396,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
+```
 
 ### -WhatIf
 
@@ -426,7 +418,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```powershell
+```
 
 ### CommonParameters
 

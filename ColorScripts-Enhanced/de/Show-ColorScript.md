@@ -378,7 +378,7 @@ Das intelligente Caching-System bietet 6-19x Leistungsverbesserungen gegenüber 
 
 - Cache-Speicherort: Verwenden Sie `(Get-Module ColorScripts-Enhanced).ModuleBase` und suchen Sie nach dem Cache-Verzeichnis
 - Cache löschen: Verwenden Sie `Clear-ColorScriptCache`, um von Grund auf neu zu erstellen
-- Cache neu erstellen: Verwenden Sie `New-ColorScriptCache`, um den Cache für alle Skripte vorab zu füllen
+- Cache neu erstellen: Verwenden Sie `New-ColorScriptCache`, um richtlinienausgewählte Renderer vorab zu cachen
 - Cache überprüfen: Cache-Dateien sind Klartext und können direkt angezeigt werden
 
 ## Tips
@@ -396,7 +396,7 @@ Farbskripte verwenden ANSI-Escape-Sequenzen und werden am besten in Terminals mi
 
 #### Building Cache for Specific Categories
 
-Alle Skripte in der Geometric-Kategorie für optimale Leistung cachen:
+Skripte in der Geometric-Kategorie auswerten und die richtlinienausgewählten Renderer cachen:
 
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
@@ -507,7 +507,7 @@ Das intelligente Caching-System bietet 6-19x Leistungsverbesserungen gegenüber 
 
 - Cache-Speicherort: Verwenden Sie `(Get-Module ColorScripts-Enhanced).ModuleBase` und suchen Sie nach dem Cache-Verzeichnis
 - Cache löschen: Verwenden Sie `Clear-ColorScriptCache`, um von Grund auf neu zu erstellen
-- Cache neu erstellen: Verwenden Sie `New-ColorScriptCache`, um den Cache für alle Skripte vorab zu füllen
+- Cache neu erstellen: Verwenden Sie `New-ColorScriptCache`, um richtlinienausgewählte Renderer vorab zu cachen
 - Cache überprüfen: Cache-Dateien sind Klartext und können direkt angezeigt werden
 
 ## Advanced Tips
@@ -602,7 +602,7 @@ Das Modul berücksichtigt die folgenden Umgebungsvariablen:
 #### Cache-Größeninformationen
 
 - Durchschnittliche Cache-Dateigröße: 2-50KB pro Skript
-- Gesamt-Cache-Größe für alle Skripte: ~2-5MB
+- Gesamt-Cache-Größe der richtlinienausgewählten Renderer: abhängig von ihrer Ausgabe
 - Cache-Speicherort: Verwendet betriebssystemgerechte Pfade für minimalen Fußabdruck
 
 ### TROUBLESHOOTING ADVANCED ISSUES
@@ -727,9 +727,9 @@ Verschiedene Caching-Strategien für verschiedene Szenarien:
 **Full Cache Strategy** (Optimal for Workstations)
 
 ```powershell
-New-ColorScriptCache              # Cache alle 450++ Skripte
+New-ColorScriptCache              # Alle richtlinienausgewählten Caches erstellen
 # Vorteile: Maximale Leistung, sofortige Anzeige
-# Nachteile: Verwendet 2-5MB Festplattenspeicher
+# Nachteil: Der Speicherbedarf hängt von der richtlinienausgewählten gerenderten Ausgabe ab
 ```
 
 **Selective Cache Strategy** (Optimal for Portable/CI)
@@ -929,7 +929,7 @@ Add-ColorScriptProfile -Force
 A: 450++ eingebaute Skripte über mehrere Kategorien und Tags
 
 ## Q: Wie viel Festplattenspeicher verwendet das Caching
-A: Ungefähr 2-5MB insgesamt für alle Skripte, etwa 2-50KB pro Skript
+A: Die Gesamtgröße hängt von der Ausgabe der in `CachePolicy.psd1` ausgewählten Renderer ab
 
 ## Q: Kann ich Farbskripte in Skripten/Automatisierung verwenden
 A: Ja, verwenden Sie `-ReturnText`, um Ausgabe zu erfassen oder `-PassThru` für Metadaten

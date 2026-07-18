@@ -67,7 +67,7 @@ Show-ColorScript -List
 Get-ColorScriptList
 ```
 
-Pré-construire le cache pour tous les scripts :
+Pré-construire le cache pour tous les moteurs de rendu sélectionnés par `CachePolicy.psd1` :
 ```powershell
 New-ColorScriptCache
 ```
@@ -93,7 +93,7 @@ Utilisez `Get-Help <CommandName> -Full` pour une aide détaillée sur chaque com
 
 Le système de cache fonctionne automatiquement :
 
-1. **Première exécution** : Le script s'exécute normalement et la sortie est mise en cache
+1. **Première exécution** : Un moteur de rendu sélectionné par `CachePolicy.psd1` s'exécute et sa sortie est mise en cache ; les scripts statiques s'exécutent directement
 2. **Exécutions suivantes** : La sortie mise en cache s'affiche instantanément (6-19x plus rapide)
 3. **Actualisation automatique** : Le cache se régénère lorsque le script est modifié
 
@@ -191,7 +191,7 @@ New-ColorScriptCache
 ```
 
 #### Problèmes de performance
-La première exécution de chaque script sera plus lente car elle construit le cache. Pré-construisez tous les caches :
+La première exécution d'un moteur de rendu sélectionné sera plus lente pendant la création de son cache. Pré-construisez tous les caches sélectionnés par la politique :
 ```powershell
 New-ColorScriptCache
 ```
@@ -236,7 +236,7 @@ Le module comprend des scripts dans diverses catégories :
 ### ADVANCED USAGE
 
 #### Construire le cache pour des catégories spécifiques
-Mettez en cache tous les scripts de la catégorie Géométrique pour des performances optimales :
+Évaluez les scripts de la catégorie Géométrique et mettez en cache les moteurs de rendu sélectionnés par la politique :
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
@@ -340,8 +340,8 @@ Le module respecte les variables d'environnement suivantes :
 | Complexe (200-300ms) | ~300ms | ~16ms | 19x plus rapide |
 
 #### Informations sur la taille du cache
-- Taille moyenne du fichier de cache : 2-50KB par script
-- Taille totale du cache pour tous les scripts : ~2-5MB
+- Taille moyenne du fichier de cache : 2-50KB par moteur de rendu sélectionné
+- Taille totale du cache des moteurs de rendu sélectionnés : dépend de leur sortie
 - Emplacement du cache : Utilise des chemins appropriés au système d'exploitation pour un encombrement minimal
 
 ### TROUBLESHOOTING ADVANCED ISSUES
@@ -445,7 +445,7 @@ Get-ColorScriptList -Tag Animated   # Filtrer par tag
 
 **Modèle 3 : Optimisation des performances**
 ```powershell
-New-ColorScriptCache                # Mettre en cache tous les scripts
+New-ColorScriptCache                # Créer tous les caches sélectionnés par la politique
 New-ColorScriptCache -Name bars     # Mettre en cache un script spécifique
 New-ColorScriptCache -Category Geometric  # Mettre en cache une catégorie
 ```
@@ -592,11 +592,11 @@ Get-ColorScriptList -AsObject |
 #### Sujet 1 : Sélection de stratégie de cache
 Différentes stratégies de mise en cache pour différents scénarios :
 
-**Stratégie de cache complet** (Optimale pour les stations de travail)
+**Stratégie de cache sélectionnée par la politique** (Optimale pour les stations de travail)
 ```powershell
-New-ColorScriptCache              # Mettre en cache tous les 450++ scripts
+New-ColorScriptCache              # Mettre en cache les moteurs de rendu sélectionnés par la politique
 # Avantages : Performance maximale, affichage instantané
-# Inconvénients : Utilise 2-5MB d'espace disque
+# Inconvénient : L'espace disque dépend de la sortie rendue sélectionnée par la politique
 ```
 
 **Stratégie de cache sélectif** (Optimale pour Portable/CI)
@@ -780,7 +780,7 @@ Add-ColorScriptProfile -Force
 R : 450++ scripts intégrés dans plusieurs catégories et tags
 
 **Q : Quelle quantité d'espace disque la mise en cache utilise-t-elle ?**
-R : Environ 2-5MB au total pour tous les scripts, environ 2-50KB par script
+R : La taille totale dépend de la sortie rendue des scripts sélectionnés dans `CachePolicy.psd1`
 
 **Q : Puis-je utiliser les scripts de couleurs dans des scripts/automatisation ?**
 R : Oui, utilisez `-ReturnText` pour capturer la sortie ou `-PassThru` pour les métadonnées

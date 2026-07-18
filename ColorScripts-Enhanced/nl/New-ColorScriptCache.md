@@ -29,9 +29,9 @@ New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>]
 
 ## DESCRIPTION
 
-Vooraf genereert gecachte uitvoer voor colorscripts om optimale prestaties bij eerste weergave te garanderen. Deze cmdlet voert colorscripts vooraf uit en slaat hun gerenderde uitvoer op voor directe ophalen.
+Genereert vooraf gecachte uitvoer voor rekenintensieve colorscripts. Alleen renderers in `CachePolicy.psd1` worden uitgevoerd en opgeslagen. Statische of niet-vermelde scripts worden overgeslagen met status `SkippedNotRequired`; hun verouderde cachebestanden worden verwijderd.
 
-Het cachingsysteem biedt 6-19x prestatieverbeteringen. Bij eerste uitvoering draait een colorscript normaal en wordt de uitvoer gecached. Volgende weergaven gebruiken de gecachte uitvoer voor vrijwel directe rendering. De cache wordt automatisch ongeldig gemaakt wanneer bronscripts worden gewijzigd, waardoor uitvoer nauwkeurigheid wordt gegarandeerd.
+Het cachingsysteem biedt 6-19x prestatieverbeteringen voor geselecteerde renderers. De cache wordt automatisch ongeldig wanneer bronscripts wijzigen. `-Force` bouwt alleen geschikte cache-items opnieuw en negeert het beleid nooit.
 
 
 ### -Quiet
@@ -115,7 +115,7 @@ Standaard verschijnt een korte samenvatting. Gebruik `-PassThru` voor gedetaille
 New-ColorScriptCache
 ```
 
-Vooraf bouwt cache op voor alle beschikbare colorscripts.
+Evalueert alle beschikbare colorscripts en bouwt alleen cache op voor renderers die door `CachePolicy.psd1` zijn geselecteerd.
 
 ### EXAMPLE 2
 
@@ -131,7 +131,7 @@ Cachet specifieke colorscripts op naam.
 New-ColorScriptCache -Category Nature
 ```
 
-Vooraf bouwt cache op voor alle natuur-georiënteerde colorscripts.
+Evalueert alle natuur-georiënteerde colorscripts en cachet alleen geschikte renderers.
 
 ### EXAMPLE 4
 
@@ -139,7 +139,7 @@ Vooraf bouwt cache op voor alle natuur-georiënteerde colorscripts.
 New-ColorScriptCache -Tag animated
 ```
 
-Cachet alle colorscripts getagd als "animated".
+Evalueert alle colorscripts met de tag "animated" en cachet alleen geschikte renderers.
 
 ### EXAMPLE 5
 
@@ -167,7 +167,6 @@ ParameterSets:
   IsRequired: false
   ValueFromPipeline: false
   ValueFromPipelineByPropertyName: false
-  ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
@@ -189,15 +188,15 @@ ParameterSets:
   IsRequired: false
   ValueFromPipeline: false
   ValueFromPipelineByPropertyName: false
-  ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ''
+```
 
 ### -Force
 
-Forceert een rebuild, zelfs wanneer bestaande cachebestanden actueel zijn.
+Forceert een rebuild van geschikte cache-items, zelfs wanneer bestaande bestanden actueel zijn, zonder `CachePolicy.psd1` te negeren.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -214,7 +213,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
+```
 
 ### -PassThru
 
@@ -235,7 +234,6 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
 ```
 
 ### -Name
@@ -252,7 +250,6 @@ ParameterSets:
   Position: Named
   IsRequired: false
   ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
   ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
 DontShow: false
@@ -275,7 +272,6 @@ ParameterSets:
   IsRequired: false
   ValueFromPipeline: false
   ValueFromPipelineByPropertyName: false
-  ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
@@ -296,7 +292,6 @@ ParameterSets:
   Position: Named
   IsRequired: false
   ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
   ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
 DontShow: false

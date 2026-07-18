@@ -519,7 +519,7 @@ Show-ColorScript にカラースクリプト名をパイプできます。これ
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
-- Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
+- Rebuild cache: Use `New-ColorScriptCache` to pre-populate policy-selected computational renderers
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 ## Tips
@@ -729,7 +729,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
-- Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
+- Rebuild cache: Use `New-ColorScriptCache` to pre-populate policy-selected computational renderers
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 ## Advanced Tips

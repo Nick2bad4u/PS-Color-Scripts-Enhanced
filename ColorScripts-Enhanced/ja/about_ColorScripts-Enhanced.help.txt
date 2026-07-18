@@ -70,7 +70,7 @@ Show-ColorScript -List
 Get-ColorScriptList
 ```
 
-すべてのスクリプトのキャッシュを事前構築：
+`CachePolicy.psd1` で選択されたすべてのレンダラーのキャッシュを事前構築：
 
 ```powershell
 New-ColorScriptCache
@@ -97,7 +97,7 @@ New-ColorScriptCache
 
 キャッシュシステムは自動的に動作します：
 
-1. **初回実行**: スクリプトが通常実行され、出力がキャッシュされます
+1. **初回実行**: `CachePolicy.psd1` で選択されたレンダラーが実行され、その出力がキャッシュされます。静的スクリプトは直接実行されます
 2. **後続実行**: キャッシュされた出力が即時表示されます (6-19倍高速)
 3. **自動更新**: スクリプトが変更されたときにキャッシュが再生成されます
 
@@ -195,7 +195,7 @@ New-ColorScriptCache
 ```
 
 #### パフォーマンスの問題
-各スクリプトの初回実行はキャッシュ構築のため遅くなります。すべてのキャッシュを事前構築してください：
+選択されたレンダラーの初回実行はキャッシュ構築のため遅くなります。ポリシーで選択されたすべてのキャッシュを事前構築してください：
 ```powershell
 New-ColorScriptCache
 ```
@@ -240,7 +240,7 @@ New-ColorScriptCache
 ### ADVANCED USAGE
 
 #### Building Cache for Specific Categories
-最適なパフォーマンスのためにGeometricカテゴリのすべてのスクリプトをキャッシュします：
+Geometric カテゴリを評価し、ポリシーで選択されたレンダラーをキャッシュします：
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
@@ -345,7 +345,7 @@ Export-ColorScriptMetadata -IncludeFileInfo |
 
 #### キャッシュサイズ情報
 - 平均キャッシュファイルサイズ: スクリプトあたり2-50KB
-- すべてのスクリプトの合計キャッシュサイズ: ~2-5MB
+- 選択されたレンダラーの合計キャッシュサイズ: レンダリング出力によって異なります
 - キャッシュ場所: 最小限のフットプリントのためにOS適切なパスを使用
 
 ### TROUBLESHOOTING ADVANCED ISSUES
@@ -449,7 +449,7 @@ Get-ColorScriptList -Tag Animated   # タグでフィルタ
 
 **パターン3: パフォーマンス最適化**
 ```powershell
-New-ColorScriptCache                # すべてのキャッシュを構築
+New-ColorScriptCache                # ポリシーで選択されたすべてのキャッシュを構築
 New-ColorScriptCache -Name bars     # 特定のキャッシュを構築
 New-ColorScriptCache -Category Geometric  # カテゴリを構築
 ```
@@ -596,11 +596,11 @@ Get-ColorScriptList -AsObject |
 #### Topic 1: Cache Strategy Selection
 異なるシナリオのための異なるキャッシュ戦略：
 
-**Full Cache Strategy** (Optimal for Workstations)
+**Policy-Selected Cache Strategy** (Optimal for Workstations)
 ```powershell
-New-ColorScriptCache              # すべての450++スクリプトをキャッシュ
+New-ColorScriptCache              # ポリシーで選択されたレンダラーをキャッシュ
 # 利点: 最大のパフォーマンス、即時表示
-# 欠点: 2-5MBのディスクスペースを使用
+# 欠点: ディスク使用量はポリシーで選択されたレンダリング出力によって異なります
 ```
 
 **Selective Cache Strategy** (Optimal for Portable/CI)
@@ -784,7 +784,7 @@ Add-ColorScriptProfile -Force
 A: 複数のカテゴリとタグにわたる450++の組み込みスクリプト
 
 **Q: How much disk space does caching use?**
-A: すべてのスクリプトで合計約2-5MB、スクリプトあたり約2-50KB
+A: 合計サイズは `CachePolicy.psd1` で選択されたスクリプトのレンダリング出力によって異なります
 
 **Q: Can I use colorscripts in scripts/automation?**
 A: はい、出力をキャプチャするには`-ReturnText`を使用、メタデータには`-PassThru`

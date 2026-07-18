@@ -522,7 +522,7 @@ Il sistema di caching intelligente fornisce miglioramenti delle prestazioni di 6
 
 - Posizione cache: Usa `(Get-Module ColorScripts-Enhanced).ModuleBase` e cerca la directory cache
 - Cancella cache: Usa `Clear-ColorScriptCache` per ricostruire da zero
-- Ricostruisci cache: Usa `New-ColorScriptCache` per pre-popolare la cache per tutti gli script
+- Ricostruisci cache: Usa `New-ColorScriptCache` per pre-popolare la cache dei renderer selezionati dalla policy
 - Ispeziona cache: I file di cache sono testo semplice e possono essere visualizzati direttamente
 
 ## Tips
@@ -732,7 +732,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
-- Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
+- Rebuild cache: Use `New-ColorScriptCache` to pre-populate policy-selected computational renderers
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 ## Advanced Tips

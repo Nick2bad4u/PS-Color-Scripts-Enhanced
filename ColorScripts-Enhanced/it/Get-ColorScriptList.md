@@ -288,7 +288,7 @@ Il modulo include script in varie categorie:
 
 #### Building Cache for Specific Categories
 
-Memorizza nella cache tutti gli script nella categoria Geometric per prestazioni ottimali:
+Valuta gli script nella categoria Geometric e memorizza nella cache i renderer selezionati dalla policy:
 
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
@@ -454,7 +454,7 @@ Strategie di caching diverse per scenari diversi:
 ```powershell
 New-ColorScriptCache              # Memorizza nella cache tutti i 450++ script
 # Pro: Prestazioni massime, display istantaneo
-# Contro: Utilizza 2-5MB di spazio su disco
+# Contro: Lo spazio su disco dipende dall'output renderizzato selezionato dalla policy
 ```
 
 **Selective Cache Strategy** (Ottimale per Portatile/CI)
@@ -654,7 +654,7 @@ Add-ColorScriptProfile -Force
 A: 450++ script integrati in molteplici categorie e tag
 
 ## Q: Quanto spazio su disco utilizza la cache
-A: Circa 2-5MB totali per tutti gli script, circa 2-50KB per script
+A: La dimensione totale dipende dall'output dei renderer selezionati in `CachePolicy.psd1`
 
 ## Q: Posso usare i colorscript negli script/automazione
 A: Sì, usa `-ReturnText` per catturare l'output o `-PassThru` per metadati
@@ -707,7 +707,7 @@ Il modulo rispetta le seguenti variabili d'ambiente:
 #### Informazioni sulla Dimensione della Cache
 
 - Dimensione media del file di cache: 2-50KB per script
-- Dimensione totale della cache per tutti gli script: ~2-5MB
+- Dimensione totale della cache per i renderer selezionati: dipende dal loro output
 - Posizione della cache: Utilizza percorsi appropriati al sistema operativo per un impatto minimo
 
 ### TROUBLESHOOTING ADVANCED ISSUES

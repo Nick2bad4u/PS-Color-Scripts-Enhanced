@@ -522,7 +522,7 @@ Het intelligente caching systeem biedt 6-19x prestatieverbeteringen ten opzichte
 
 - Cache locatie: Gebruik `(Get-Module ColorScripts-Enhanced).ModuleBase` en zoek naar de cache directory
 - Cache wissen: Gebruik `Clear-ColorScriptCache` om vanaf nul te herbouwen
-- Cache herbouwen: Gebruik `New-ColorScriptCache` om cache voor alle scripts voor te vullen
+- Cache herbouwen: Gebruik `New-ColorScriptCache` om door het beleid geselecteerde renderers vooraf te cachen
 - Cache inspecteren: Cache bestanden zijn platte tekst en kunnen direct worden bekeken
 
 ## Tips
@@ -751,7 +751,7 @@ De module bevat scripts in verschillende categorieën:
 
 #### Building Cache for Specific Categories
 
-Cache alle scripts in de Geometric categorie voor optimale prestaties:
+Evalueer scripts in de categorie Geometric en cache de door het beleid geselecteerde renderers:
 
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
@@ -915,9 +915,9 @@ Verschillende caching strategieën voor verschillende scenario's:
 **Full Cache Strategy** (Optimaal voor Werkstations)
 
 ```powershell
-New-ColorScriptCache              # Cache alle 450++ scripts
+New-ColorScriptCache              # Cache door het beleid geselecteerde scripts
 # Voordelen: Maximale prestaties, directe weergave
-# Nadelen: Gebruikt 2-5MB schijfruimte
+# Nadeel: Het schijfgebruik hangt af van de door het beleid geselecteerde gerenderde uitvoer
 ```
 
 **Selective Cache Strategy** (Optimaal voor Portable/CI)
@@ -1117,7 +1117,7 @@ Add-ColorScriptProfile -Force
 A: 450++ ingebouwde scripts over meerdere categorieën en tags
 
 ## Q: Hoeveel schijfruimte gebruikt caching
-A: Ongeveer 2-5MB totaal voor alle scripts, ongeveer 2-50KB per script
+A: De totale grootte hangt af van de uitvoer van de renderers die in `CachePolicy.psd1` zijn geselecteerd
 
 ## Q: Kan ik colorscripts gebruiken in scripts/automtisering
 A: Ja, gebruik `-ReturnText` om uitvoer vast te leggen of `-PassThru` voor metadata
@@ -1163,7 +1163,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
-- Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
+- Rebuild cache: Use `New-ColorScriptCache` to pre-populate policy-selected computational renderers
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 ## Advanced Tips

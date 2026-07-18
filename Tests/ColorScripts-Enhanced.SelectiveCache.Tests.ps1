@@ -49,6 +49,34 @@ Describe 'Selective colorscript output caching' {
         }
     }
 
+    Context 'Localized cache help' {
+        It 'keeps every localized help surface synchronized with the cache policy' {
+            $localizedCultures = @('de', 'es', 'fr', 'it', 'ja', 'nl', 'pt', 'ru', 'zh-CN')
+
+            foreach ($culture in $localizedCultures) {
+                $cultureRoot = Join-Path -Path $script:ModuleRoot -ChildPath $culture
+                $markdownPath = Join-Path -Path $cultureRoot -ChildPath 'New-ColorScriptCache.md'
+                $aboutPath = Join-Path -Path $cultureRoot -ChildPath 'about_ColorScripts-Enhanced.help.txt'
+                $mamlPath = Join-Path -Path $cultureRoot -ChildPath 'ColorScripts-Enhanced-help.xml'
+
+                $markdown = Get-Content -LiteralPath $markdownPath -Raw
+                $aboutHelp = Get-Content -LiteralPath $aboutPath -Raw
+                [xml]$maml = Get-Content -LiteralPath $mamlPath -Raw
+                $namespaceManager = [System.Xml.XmlNamespaceManager]::new($maml.NameTable)
+                $namespaceManager.AddNamespace('command', 'http://schemas.microsoft.com/maml/dev/command/2004/10')
+                $cacheCommands = @($maml.SelectNodes(
+                        '//command:command[command:details/command:name="New-ColorScriptCache"]',
+                        $namespaceManager
+                    ))
+
+                $markdown | Should -Match 'CachePolicy\.psd1' -Because "$culture Markdown help must explain the selective cache policy"
+                $aboutHelp | Should -Match 'CachePolicy\.psd1' -Because "$culture conceptual help must explain the selective cache policy"
+                $cacheCommands | Should -HaveCount 1 -Because "$culture MAML must contain New-ColorScriptCache exactly once"
+                $cacheCommands[0].OuterXml | Should -Match 'CachePolicy\.psd1' -Because "$culture MAML must explain the selective cache policy"
+            }
+        }
+    }
+
     Context 'Cache creation' {
         It 'skips static output even with Force and removes a legacy entry' {
             $result = InModuleScope ColorScripts-Enhanced {

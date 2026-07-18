@@ -1038,8 +1038,8 @@ foreach ($theme in $themes) {
       <command:noun>ColorScriptCache</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>预先生成颜色脚本的缓存输出，以确保首次显示时的最佳性能。此 cmdlet 提前执行颜色脚本并存储其渲染输出，以便即时检索。</maml:para>
-      <maml:para>缓存系统通过消除显示时的脚本执行时间，提供 6-19 倍的性能提升。当源脚本被修改时，缓存内容会自动失效。</maml:para>
+      <maml:para>预先生成计算开销较大的颜色脚本的缓存输出。仅执行并保存 `CachePolicy.psd1` 中列出的渲染器。静态或未列出的脚本会以 `SkippedNotRequired` 状态跳过，并删除其过时缓存。</maml:para>
+      <maml:para>缓存系统为选定的渲染器提供 6-19 倍的性能提升。当源脚本被修改时，缓存内容会自动失效。`-Force` 只重建符合条件的缓存，且不会绕过缓存策略。</maml:para>
       <maml:para>### -Quiet</maml:para>
       <maml:para>抑制缓存构建后的摘要消息。</maml:para>
       <maml:para>```yaml Type: System.Management.Automation.SwitchParameter DefaultValue: False SupportsWildcards: false Aliases: [] ParameterSets:  - Name: (All)    Position: Named    IsRequired: false    ValueFromPipeline: false    ValueFromPipelineByPropertyName: false    ValueFromRemainingArguments: false DontShow: false AcceptedValues: [] HelpMessage: "" ```</maml:para>
@@ -1066,7 +1066,7 @@ foreach ($theme in $themes) {
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
           <maml:name>Force</maml:name>
           <maml:description>
-            <maml:para>即使现有缓存已最新也强制重新生成。</maml:para>
+            <maml:para>即使现有缓存已是最新状态，也强制重新生成符合条件的缓存，但不会绕过 `CachePolicy.psd1`。</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
         </command:parameter>
@@ -1104,7 +1104,7 @@ foreach ($theme in $themes) {
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
           <maml:name>Force</maml:name>
           <maml:description>
-            <maml:para>即使现有缓存已最新也强制重新生成。</maml:para>
+            <maml:para>即使现有缓存已是最新状态，也强制重新生成符合条件的缓存，但不会绕过 `CachePolicy.psd1`。</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
         </command:parameter>
@@ -1142,7 +1142,7 @@ foreach ($theme in $themes) {
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="Named" aliases="none">
         <maml:name>Force</maml:name>
         <maml:description>
-          <maml:para>即使现有缓存已最新也强制重新生成。</maml:para>
+          <maml:para>即使现有缓存已是最新状态，也强制重新生成符合条件的缓存，但不会绕过 `CachePolicy.psd1`。</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.Management.Automation.SwitchParameter</command:parameterValue>
       </command:parameter>
@@ -1215,7 +1215,7 @@ foreach ($theme in $themes) {
 New-ColorScriptCache
 ```</maml:para>
           <maml:para>&#x80;</maml:para>
-          <maml:para>预构建所有可用颜色脚本的缓存。</maml:para>
+          <maml:para>评估所有可用颜色脚本，并且只缓存 `CachePolicy.psd1` 选定的渲染器。</maml:para>
         </maml:introduction>
         <dev:code />
         <dev:remarks />
@@ -1239,7 +1239,7 @@ New-ColorScriptCache -Name "spectrum", "aurora-waves"
 New-ColorScriptCache -Category Nature
 ```</maml:para>
           <maml:para>&#x80;</maml:para>
-          <maml:para>预构建所有自然主题颜色脚本的缓存。</maml:para>
+          <maml:para>评估所有自然主题颜色脚本，并且只缓存符合条件的渲染器。</maml:para>
         </maml:introduction>
         <dev:code />
         <dev:remarks />
@@ -1251,7 +1251,7 @@ New-ColorScriptCache -Category Nature
 New-ColorScriptCache -Tag animated
 ```</maml:para>
           <maml:para>&#x80;</maml:para>
-          <maml:para>缓存所有标记为 "animated" 的颜色脚本。</maml:para>
+          <maml:para>评估所有标记为 "animated" 的颜色脚本，并且只缓存符合条件的渲染器。</maml:para>
         </maml:introduction>
         <dev:code />
         <dev:remarks />
@@ -1903,7 +1903,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
-- Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
+- Rebuild cache: Use `New-ColorScriptCache` to pre-populate policy-selected computational renderers
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 ## Tips
@@ -2113,7 +2113,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
-- Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
+- Rebuild cache: Use `New-ColorScriptCache` to pre-populate policy-selected computational renderers
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 ## Advanced Tips

@@ -15,15 +15,15 @@ Pre-construir o refrescar archivos de caché de colorescript para una renderizac
 
 ## DESCRIPTION
 
-`New-ColorScriptCache` ejecuta colorescripts en una instancia de PowerShell en segundo plano y guarda la salida renderizada usando codificación UTF-8 (sin BOM). El contenido en caché acelera drásticamente las llamadas subsiguientes a `Show-ColorScript` al eliminar la necesidad de re-ejecutar scripts. También puedes usar el alias `Update-ColorScriptCache` para invocar este cmdlet.
+`New-ColorScriptCache` ejecuta colorescripts computacionalmente costosos en una instancia de PowerShell en segundo plano y guarda la salida renderizada usando codificación UTF-8 (sin BOM). Los scripts de salida estática se ejecutan directamente y nunca crean archivos de caché. También puedes usar el alias `Update-ColorScriptCache` para invocar este cmdlet.
 
-Puedes apuntar a scripts específicos por nombre (se admiten comodines) o almacenar en caché toda la colección. Cuando no se especifican parámetros, el cmdlet por defecto almacena en caché todos los scripts disponibles. También puedes filtrar scripts por categoría o etiqueta para almacenar en caché solo aquellos que coincidan con criterios específicos.
+Puedes seleccionar scripts por nombre (se admiten comodines), categoría o etiqueta. Cuando no se especifican parámetros, el cmdlet evalúa la colección completa, pero solo genera caché para los scripts incluidos en `CachePolicy.psd1`. Los scripts no incluidos devuelven el estado `SkippedNotRequired` con `-PassThru`, y se eliminan sus archivos de caché obsoletos.
 
 Por defecto, el cmdlet muestra un resumen conciso de la operación de almacenamiento en caché. Usa `-PassThru` para devolver objetos de resultado detallados para cada script, que puedes inspeccionar programáticamente para el estado, salida estándar y flujos de error.
 
 Combina `-Quiet` para silenciar el resumen o `-NoAnsiOutput` para producir texto sin secuencias ANSI en terminales o registros que no admiten color.
 
-El cmdlet omite inteligentemente los scripts cuyos archivos de caché ya están actualizados a menos que especifiques el parámetro `-Force` para reconstruir todos los cachés independientemente de su estado actual.
+El cmdlet omite los scripts cuyos archivos de caché ya están actualizados a menos que especifiques `-Force`. `-Force` reconstruye las entradas elegibles, pero nunca ignora la política de caché.
 
 ## SYNTAX
 
@@ -47,7 +47,7 @@ New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>]
 New-ColorScriptCache
 ```
 
-Calienta el caché para cada script que se incluye con el módulo. Este es el comportamiento por defecto cuando no se especifican parámetros.
+Evalúa todos los scripts incluidos con el módulo y prepara únicamente los renderizadores computacionales seleccionados por la política. Este es el comportamiento por defecto cuando no se especifican parámetros.
 
 ### EXAMPLE 2
 
@@ -55,7 +55,7 @@ Calienta el caché para cada script que se incluye con el módulo. Este es el co
 New-ColorScriptCache -Name bars, 'aurora-*'
 ```
 
-Almacena en caché una mezcla de coincidencias exactas y comodines. El cmdlet procesará el script 'bars' y todos los scripts cuyos nombres comiencen con 'aurora-'.
+Evalúa una mezcla de coincidencias exactas y comodines. Solo se generan las coincidencias incluidas en `CachePolicy.psd1`; las demás informan `SkippedNotRequired` con `-PassThru`.
 
 ### EXAMPLE 3
 
@@ -71,7 +71,7 @@ Fuerza una reconstrucción del caché de 'mandelbrot-zoom' incluso si está actu
 New-ColorScriptCache -Category 'Animation' -PassThru
 ```
 
-Almacena en caché todos los scripts en la categoría 'Animation' y devuelve resultados detallados para cada operación.
+Evalúa los scripts de la categoría 'Animation', almacena en caché los renderizadores elegibles y devuelve resultados detallados para cada coincidencia.
 
 ### EXAMPLE 5
 
@@ -79,7 +79,7 @@ Almacena en caché todos los scripts en la categoría 'Animation' y devuelve res
 New-ColorScriptCache -Tag 'geometric', 'colorful' -Force
 ```
 
-Reconstruye cachés para todos los scripts etiquetados con 'geometric' o 'colorful', forzando la regeneración incluso si los cachés están actuales.
+Reconstruye las cachés elegibles de los scripts etiquetados con 'geometric' o 'colorful', forzando la regeneración aunque estén actualizadas.
 
 ### EXAMPLE 6
 
@@ -87,7 +87,7 @@ Reconstruye cachés para todos los scripts etiquetados con 'geometric' o 'colorf
 Get-ColorScriptList | Where-Object Category -eq 'Classic' | New-ColorScriptCache -PassThru
 ```
 
-Ejemplo de pipeline: recupera todos los scripts clásicos y los almacena en caché, devolviendo resultados detallados.
+Ejemplo de pipeline: recupera todos los scripts clásicos, almacena en caché los renderizadores seleccionados por la política y devuelve un resultado por cada coincidencia.
 
 ### EXAMPLE 7
 
@@ -166,19 +166,19 @@ Identifica cualquier fallo de almacenamiento en caché filtrando por códigos de
 ### EXAMPLE 13
 
 ```powershell
-# Almacenar en caché todos los scripts animados
+# Almacenar en caché los scripts animados elegibles
 New-ColorScriptCache -Tag Animated -PassThru |
     Measure-Object |
     Select-Object @{N='ScriptsCached'; E={$_.Count}}
 ```
 
-Almacena en caché todos los scripts etiquetados como animados y muestra el conteo de scripts en caché.
+Almacena en caché los scripts elegibles etiquetados como animados y muestra el conteo de entradas actualizadas.
 
 ## PARAMETERS
 
 ### -All
 
-Almacena en caché cada script disponible. Cuando se omite y no se proporcionan nombres, todos los scripts se almacenan en caché por defecto. Este parámetro es útil cuando quieres ser explícito sobre almacenar en caché todos los scripts.
+Evalúa cada script disponible contra la política de caché. Solo se almacenan los scripts seleccionados; los scripts estáticos y no incluidos se omiten.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -306,7 +306,7 @@ HelpMessage: ""
 
 ### -Force
 
-Reconstruye archivos de caché incluso cuando el caché existente es más nuevo que la fuente del script. Esto es útil cuando quieres asegurar que todos los cachés se regeneren, como después de actualizaciones del módulo o cuando se solucionan problemas de renderización.
+Reconstruye archivos de caché elegibles incluso cuando el caché existente es más nuevo que la fuente del script. No ignora `CachePolicy.psd1`.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -327,7 +327,7 @@ HelpMessage: ""
 
 ### -Name
 
-Uno o más nombres de colorescript para almacenar en caché. Admite patrones de comodines (ej. 'aurora-_', '_-wave'). Cuando este parámetro se omite y no se especifican parámetros de filtrado, el cmdlet almacena en caché todos los scripts disponibles por defecto.
+Uno o más nombres de colorescript para evaluar. Admite patrones de comodines (ej. 'aurora-_', '_-wave'). Cuando este parámetro se omite y no se especifican filtros, el cmdlet evalúa todos los scripts, pero solo almacena los seleccionados por `CachePolicy.psd1`.
 
 ```yaml
 Type: System.String[]
@@ -446,10 +446,10 @@ Sin `-PassThru`, muestra una tabla de resumen concisa en la consola mostrando el
 
 ### Estrategias de Construcción de Caché
 
-## Caché de Producción Completo
+## Caché de Producción Seleccionado por Política
 
 ```powershell
-# Construir todos los cachés para entorno de producción
+# Construir todas las cachés elegibles para el entorno de producción
 New-ColorScriptCache -Force | Measure-Object
 Write-Host "Caché construido exitosamente"
 
@@ -573,15 +573,15 @@ El cmdlet ejecuta cada script en un proceso de PowerShell en segundo plano aisla
 
 ## Mejores Prácticas
 
-- Ejecutar una vez después de la instalación del módulo para pre-almacenar en caché todos los scripts
-- Usar `-Force` solo cuando necesites reconstruir todos los cachés
+- Ejecutar una vez después de la instalación del módulo para pre-almacenar los renderizadores computacionales
+- Usar `-Force` solo cuando necesites reconstruir todas las cachés elegibles
 - Filtrar por categoría o etiqueta para construcciones de caché dirigidas más rápidas
 - Monitorear tiempos de construcción para identificar scripts de renderización lenta
 - Programar reconstrucciones periódicas para mantener el caché actual
 - Usar `-PassThru` en automatización para reportes de estado detallados
 - Considerar usar `-WhatIf` antes de operaciones de caché grandes
 
-**Consejo de Rendimiento:** Ejecuta este cmdlet una vez después de instalar o actualizar el módulo para pre-almacenar en caché todos los scripts para un rendimiento óptimo.
+**Consejo de Rendimiento:** Ejecuta este cmdlet una vez después de instalar o actualizar el módulo para pre-almacenar los renderizadores seleccionados por `CachePolicy.psd1`.
 
 ## Solución de Problemas
 

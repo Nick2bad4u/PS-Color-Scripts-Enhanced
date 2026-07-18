@@ -29,9 +29,9 @@ New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>]
 
 ## DESCRIPTION
 
-预先生成颜色脚本的缓存输出，以确保首次显示时的最佳性能。此 cmdlet 提前执行颜色脚本并存储其渲染输出，以便即时检索。
+预先生成计算开销较大的颜色脚本的缓存输出。仅执行并保存 `CachePolicy.psd1` 中列出的渲染器。静态或未列出的脚本会以 `SkippedNotRequired` 状态跳过，并删除其过时缓存。
 
-缓存系统通过消除显示时的脚本执行时间，提供 6-19 倍的性能提升。当源脚本被修改时，缓存内容会自动失效。
+缓存系统为选定的渲染器提供 6-19 倍的性能提升。当源脚本被修改时，缓存内容会自动失效。`-Force` 只重建符合条件的缓存，且不会绕过缓存策略。
 
 
 ### -Quiet
@@ -117,7 +117,7 @@ HelpMessage: ""
 New-ColorScriptCache
 ```
 
-预构建所有可用颜色脚本的缓存。
+评估所有可用颜色脚本，并且只缓存 `CachePolicy.psd1` 选定的渲染器。
 
 ### EXAMPLE 2
 
@@ -133,7 +133,7 @@ New-ColorScriptCache -Name "spectrum", "aurora-waves"
 New-ColorScriptCache -Category Nature
 ```
 
-预构建所有自然主题颜色脚本的缓存。
+评估所有自然主题颜色脚本，并且只缓存符合条件的渲染器。
 
 ### EXAMPLE 4
 
@@ -141,7 +141,7 @@ New-ColorScriptCache -Category Nature
 New-ColorScriptCache -Tag animated
 ```
 
-缓存所有标记为 "animated" 的颜色脚本。
+评估所有标记为 "animated" 的颜色脚本，并且只缓存符合条件的渲染器。
 
 ### EXAMPLE 5
 
@@ -198,7 +198,7 @@ HelpMessage: ""
 
 ### -Force
 
-即使现有缓存已最新也强制重新生成。
+即使现有缓存已是最新状态，也强制重新生成符合条件的缓存，但不会绕过 `CachePolicy.psd1`。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter

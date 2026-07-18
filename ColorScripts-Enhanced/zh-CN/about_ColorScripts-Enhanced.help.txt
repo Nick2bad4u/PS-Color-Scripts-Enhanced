@@ -67,7 +67,7 @@ Show-ColorScript -List
 Get-ColorScriptList
 ```
 
-为所有脚本预构建缓存：
+为 `CachePolicy.psd1` 选定的所有渲染器预构建缓存：
 ```powershell
 New-ColorScriptCache
 ```
@@ -93,7 +93,7 @@ New-ColorScriptCache
 
 缓存系统自动工作：
 
-1. **首次运行**：脚本正常执行并缓存输出
+1. **首次运行**：执行 `CachePolicy.psd1` 选定的渲染器并缓存其输出；静态脚本直接执行
 2. **后续运行**：缓存输出即时显示（6-19 倍更快）
 3. **自动刷新**：脚本修改时缓存重新生成
 
@@ -191,7 +191,7 @@ New-ColorScriptCache
 ```
 
 #### Performance issues
-每个脚本的首次运行会较慢，因为它正在构建缓存。预构建所有缓存：
+选定渲染器的首次运行会因构建缓存而较慢。请预构建策略选定的所有缓存：
 ```powershell
 New-ColorScriptCache
 ```
@@ -236,7 +236,7 @@ New-ColorScriptCache
 ### ADVANCED USAGE
 
 #### Building Cache for Specific Categories
-为最佳性能缓存 Geometric 类别中的所有脚本：
+评估 Geometric 类别中的脚本，并缓存策略选定的渲染器：
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
@@ -340,8 +340,8 @@ Export-ColorScriptMetadata -IncludeFileInfo |
 | Complex (200-300ms) | ~300ms | ~16ms | 19x faster |
 
 #### Cache Size Information
-- 平均缓存文件大小：每个脚本 2-50KB
-- 所有脚本的总缓存大小：~2-5MB
+- 平均缓存文件大小：每个选定渲染器 2-50KB
+- 选定渲染器的总缓存大小：取决于其输出
 - 缓存位置：使用适合 OS 的路径以最小化占用空间
 
 ### TROUBLESHOOTING ADVANCED ISSUES
@@ -445,7 +445,7 @@ Get-ColorScriptList -Tag Animated   # Filter by tag
 
 **Pattern 3: Performance Optimization**
 ```powershell
-New-ColorScriptCache                # Build all caches
+New-ColorScriptCache                # 构建策略选定的所有缓存
 New-ColorScriptCache -Name bars     # Build specific cache
 New-ColorScriptCache -Category Geometric  # Build category
 ```
@@ -592,11 +592,11 @@ Get-ColorScriptList -AsObject |
 #### Topic 1: Cache Strategy Selection
 不同场景的不同缓存策略：
 
-**Full Cache Strategy** (Optimal for Workstations)
+**Policy-Selected Cache Strategy** (Optimal for Workstations)
 ```powershell
-New-ColorScriptCache              # Cache all 450++ scripts
+New-ColorScriptCache              # Build all policy-selected caches
 # Pros: Maximum performance, instant display
-# Cons: Uses 2-5MB disk space
+# Cons: Disk usage depends on policy-selected rendered output
 ```
 
 **Selective Cache Strategy** (Optimal for Portable/CI)
@@ -780,7 +780,7 @@ Add-ColorScriptProfile -Force
 A: 450++ 个内置脚本跨越多个类别和标签
 
 **Q: How much disk space does caching use?**
-A: 所有脚本总共大约 2-5MB，每个脚本约 2-50KB
+A: 总大小取决于 `CachePolicy.psd1` 所选脚本的渲染输出
 
 **Q: Can I use colorscripts in scripts/automation?**
 A: 是的，使用 `-ReturnText` 捕获输出或 `-PassThru` 获取元数据

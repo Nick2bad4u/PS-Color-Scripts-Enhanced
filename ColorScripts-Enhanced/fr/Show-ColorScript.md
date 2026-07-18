@@ -522,7 +522,7 @@ Le système de mise en cache intelligent fournit des améliorations de performan
 
 - Emplacement du cache : Utilisez `(Get-Module ColorScripts-Enhanced).ModuleBase` et cherchez le répertoire de cache
 - Effacer le cache : Utilisez `Clear-ColorScriptCache` pour reconstruire à partir de zéro
-- Reconstruire le cache : Utilisez `New-ColorScriptCache` pour pré-remplir le cache pour tous les scripts
+- Reconstruire le cache : Utilisez `New-ColorScriptCache` pour pré-remplir le cache des moteurs de rendu sélectionnés par la politique
 - Inspecter le cache : Les fichiers de cache sont du texte brut et peuvent être visualisés directement
 
 ## Conseils
@@ -732,7 +732,7 @@ Le système de mise en cache intelligent fournit des améliorations de performan
 
 - Emplacement du cache : Utilisez `(Get-Module ColorScripts-Enhanced).ModuleBase` et cherchez le répertoire de cache
 - Effacer le cache : Utilisez `Clear-ColorScriptCache` pour reconstruire à partir de zéro
-- Reconstruire le cache : Utilisez `New-ColorScriptCache` pour pré-remplir le cache pour tous les scripts
+- Reconstruire le cache : Utilisez `New-ColorScriptCache` pour pré-remplir le cache des moteurs de rendu sélectionnés par la politique
 - Inspecter le cache : Les fichiers de cache sont du texte brut et peuvent être visualisés directement
 
 ## Conseils Avancés

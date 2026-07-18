@@ -29,9 +29,9 @@ New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>]
 
 ## DESCRIPTION
 
-初回表示時の最適なパフォーマンスを確保するために、colorscripts のキャッシュ出力を事前生成します。このコマンドレットは colorscripts を事前に実行し、レンダリングされた出力を保存して即時取得できるようにします。
+計算コストの高い colorscripts のキャッシュ出力を事前生成します。`CachePolicy.psd1` に記載されたレンダラーだけが実行および保存されます。静的または未登録のスクリプトは `SkippedNotRequired` としてスキップされ、それらの古いキャッシュは削除されます。
 
-キャッシュシステムは 6-19 倍のパフォーマンス向上を提供します。初回実行時には colorscript が通常通り実行され、その出力がキャッシュされます。以降の表示ではキャッシュされた出力を使用してほぼ瞬時にレンダリングされます。ソーススクリプトが変更されるとキャッシュは自動的に無効化され、出力の正確性が確保されます。
+キャッシュシステムは選択されたレンダラーに 6-19 倍のパフォーマンス向上を提供します。ソーススクリプトが変更されるとキャッシュは自動的に無効化されます。`-Force` を指定してもキャッシュポリシーは上書きされません。
 
 
 ### -IncludePokemon
@@ -111,7 +111,7 @@ HelpMessage: ""
 New-ColorScriptCache
 ```
 
-利用可能なすべての colorscripts のキャッシュを事前構築します。
+利用可能なすべての colorscripts を評価し、`CachePolicy.psd1` で選択されたレンダラーだけをキャッシュします。
 
 ### EXAMPLE 2
 
@@ -127,7 +127,7 @@ New-ColorScriptCache -Name "spectrum", "aurora-waves"
 New-ColorScriptCache -Category Nature
 ```
 
-自然テーマのすべての colorscripts のキャッシュを事前構築します。
+自然テーマのすべての colorscripts を評価し、対象となるレンダラーだけをキャッシュします。
 
 ### EXAMPLE 4
 
@@ -135,7 +135,7 @@ New-ColorScriptCache -Category Nature
 New-ColorScriptCache -Tag animated
 ```
 
-"animated" としてタグ付けされたすべての colorscripts をキャッシュします。
+"animated" としてタグ付けされたすべての colorscripts を評価し、対象となるレンダラーだけをキャッシュします。
 
 ### EXAMPLE 5
 
@@ -192,7 +192,7 @@ HelpMessage: ""
 
 ### -Force
 
-既存のキャッシュが最新でも再生成を強制します。
+既存のキャッシュが最新でも対象となるキャッシュの再生成を強制します。キャッシュポリシーは上書きされません。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter

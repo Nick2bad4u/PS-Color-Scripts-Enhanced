@@ -29,9 +29,9 @@ New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>]
 
 ## DESCRIPTION
 
-Pre-genera l'output memorizzato nella cache per i colorscript per garantire prestazioni ottimali al primo display. Questo cmdlet esegue i colorscript in anticipo e memorizza il loro output renderizzato per il recupero istantaneo.
+Pre-genera l'output memorizzato nella cache per i colorscript computazionalmente costosi. Vengono eseguiti e salvati solo i renderer elencati in `CachePolicy.psd1`; gli script statici o non elencati vengono ignorati con stato `SkippedNotRequired` e le relative cache obsolete vengono rimosse.
 
-Il sistema di caching fornisce miglioramenti delle prestazioni da 6 a 19 volte. Alla prima esecuzione, un colorscript viene eseguito normalmente e il suo output viene memorizzato nella cache. I display successivi utilizzano l'output memorizzato nella cache per un rendering quasi istantaneo. La cache viene invalidata automaticamente quando gli script di origine vengono modificati, garantendo l'accuratezza dell'output.
+Il sistema di caching fornisce miglioramenti delle prestazioni da 6 a 19 volte per i renderer selezionati. La cache viene invalidata automaticamente quando gli script di origine vengono modificati. `-Force` ricostruisce solo le cache idonee e non ignora mai la policy.
 
 Utilizza questo cmdlet per:
 
@@ -52,7 +52,7 @@ Per impostazione predefinita viene mostrato un riepilogo compatto. Usa `-PassThr
 New-ColorScriptCache
 ```
 
-Pre-costruisce la cache per tutti i colorscript disponibili.
+Valuta tutti i colorscript disponibili e pre-costruisce la cache solo per i renderer selezionati da `CachePolicy.psd1`.
 
 ### EXAMPLE 2
 
@@ -68,7 +68,7 @@ Memorizza nella cache colorscript specifici per nome.
 New-ColorScriptCache -Category Nature
 ```
 
-Pre-costruisce la cache per tutti i colorscript a tema natura.
+Valuta tutti i colorscript a tema natura e memorizza nella cache solo i renderer idonei.
 
 ### EXAMPLE 4
 
@@ -76,7 +76,7 @@ Pre-costruisce la cache per tutti i colorscript a tema natura.
 New-ColorScriptCache -Tag animated
 ```
 
-Memorizza nella cache tutti i colorscript taggati come "animated".
+Valuta tutti i colorscript taggati come "animated" e memorizza nella cache solo i renderer idonei.
 
 ### EXAMPLE 5
 
@@ -133,7 +133,7 @@ HelpMessage: ""
 
 ### -Force
 
-Forza la rigenerazione della cache anche se i file correnti sono già aggiornati.
+Forza la rigenerazione delle cache idonee anche se i file correnti sono già aggiornati, senza ignorare `CachePolicy.psd1`.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter

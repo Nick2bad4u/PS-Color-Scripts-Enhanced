@@ -29,9 +29,9 @@ New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>]
 
 ## DESCRIPTION
 
-Pré-gera saída em cache para colorscripts para garantir desempenho ideal na primeira exibição. Este cmdlet executa colorscripts antecipadamente e armazena sua saída renderizada para recuperação instantânea.
+Pré-gera saída em cache para colorscripts computacionalmente caros. Apenas os renderizadores listados em `CachePolicy.psd1` são executados e armazenados. Scripts estáticos ou não listados são ignorados com o estado `SkippedNotRequired`, e seus caches obsoletos são removidos.
 
-O sistema de cache fornece melhorias de desempenho de 6-19x. Na primeira execução, um colorscript é executado normalmente e sua saída é armazenada em cache. Exibições subsequentes usam a saída em cache para renderização quase instantânea. O cache é invalidado automaticamente quando os scripts de origem são modificados, garantindo precisão da saída.
+O sistema de cache fornece melhorias de desempenho de 6-19x para os renderizadores selecionados. O cache é invalidado automaticamente quando os scripts de origem são modificados. `-Force` reconstrói apenas entradas elegíveis e nunca substitui a política.
 
 
 ### -Quiet
@@ -117,7 +117,7 @@ Por padrão, um resumo compacto é exibido. Use `-PassThru` para retornar objeto
 New-ColorScriptCache
 ```
 
-Pré-constrói cache para todos os colorscripts disponíveis.
+Avalia todos os colorscripts disponíveis e pré-constrói cache apenas para os renderizadores selecionados por `CachePolicy.psd1`.
 
 ### EXAMPLE 2
 
@@ -133,7 +133,7 @@ Armazena em cache colorscripts específicos por nome.
 New-ColorScriptCache -Category Nature
 ```
 
-Pré-constrói cache para todos os colorscripts temáticos da natureza.
+Avalia todos os colorscripts com tema de natureza e armazena em cache apenas os renderizadores elegíveis.
 
 ### EXAMPLE 4
 
@@ -141,7 +141,7 @@ Pré-constrói cache para todos os colorscripts temáticos da natureza.
 New-ColorScriptCache -Tag animated
 ```
 
-Armazena em cache todos os colorscripts marcados como "animados".
+Avalia todos os colorscripts marcados como "animados" e armazena em cache apenas os renderizadores elegíveis.
 
 ### EXAMPLE 5
 
@@ -169,7 +169,6 @@ ParameterSets:
   IsRequired: false
   ValueFromPipeline: false
   ValueFromPipelineByPropertyName: false
-  ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
@@ -191,15 +190,15 @@ ParameterSets:
   IsRequired: false
   ValueFromPipeline: false
   ValueFromPipelineByPropertyName: false
-  ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
 HelpMessage: ''
+```
 
 ### -Force
 
-Força a reconstrução da cache mesmo quando os arquivos existentes já estão atualizados.
+Força a reconstrução das entradas de cache elegíveis mesmo quando já estão atualizadas, sem ignorar `CachePolicy.psd1`.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -216,7 +215,7 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
+```
 
 ### -PassThru
 
@@ -237,7 +236,6 @@ ParameterSets:
 DontShow: false
 AcceptedValues: []
 HelpMessage: ""
-```text
 ```
 
 ### -Name
@@ -254,7 +252,6 @@ ParameterSets:
   Position: Named
   IsRequired: false
   ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
   ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
 DontShow: false
@@ -277,7 +274,6 @@ ParameterSets:
   IsRequired: false
   ValueFromPipeline: false
   ValueFromPipelineByPropertyName: false
-  ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
@@ -298,7 +294,6 @@ ParameterSets:
   Position: Named
   IsRequired: false
   ValueFromPipeline: false
-  ValueFromPipelineByPropertyName: false
   ValueFromPipelineByPropertyName: false
   ValueFromRemainingArguments: false
 DontShow: false

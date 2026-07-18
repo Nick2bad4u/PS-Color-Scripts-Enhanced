@@ -67,7 +67,7 @@ Show-ColorScript -List
 Get-ColorScriptList
 ```
 
-Bouw cache vooraf voor alle scripts:
+Bouw cache vooraf voor alle door `CachePolicy.psd1` geselecteerde renderers:
 ```powershell
 New-ColorScriptCache
 ```
@@ -93,7 +93,7 @@ Gebruik `Get-Help <CommandName> -Full` voor gedetailleerde hulp bij elk commando
 
 Het cachesysteem werkt automatisch:
 
-1. **First Run**: Script wordt normaal uitgevoerd en uitvoer wordt gecached
+1. **Eerste uitvoering**: Een door `CachePolicy.psd1` geselecteerde renderer wordt uitgevoerd en de uitvoer wordt gecached; statische scripts draaien direct
 2. **Subsequent Runs**: Gecachte uitvoer wordt direct weergegeven (6-19x sneller)
 3. **Auto-Refresh**: Cache wordt opnieuw gegenereerd wanneer script wordt gewijzigd
 
@@ -191,7 +191,7 @@ New-ColorScriptCache
 ```
 
 #### Performance issues
-De eerste uitvoering van elk script zal langzamer zijn omdat het cache opbouwt. Bouw alle caches vooraf op:
+De eerste uitvoering van een geselecteerde renderer is langzamer terwijl de cache wordt opgebouwd. Bouw alle door het beleid geselecteerde caches vooraf op:
 ```powershell
 New-ColorScriptCache
 ```
@@ -236,7 +236,7 @@ The module includes scripts in various categories:
 ### ADVANCED USAGE
 
 #### Building Cache for Specific Categories
-Cache all scripts in the Geometric category for optimal performance:
+Evaluate scripts in the Geometric category and cache the policy-selected renderers:
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
@@ -340,8 +340,8 @@ De module respecteert de volgende omgevingsvariabelen:
 | Complex (200-300ms) | ~300ms | ~16ms | 19x sneller |
 
 #### Cache Grootte Informatie
-- Gemiddelde cache bestandsgrootte: 2-50KB per script
-- Totale cachegrootte voor alle scripts: ~2-5MB
+- Gemiddelde cachebestandsgrootte: 2-50KB per geselecteerde renderer
+- Totale cachegrootte voor geselecteerde renderers: afhankelijk van hun uitvoer
 - Cachelocatie: Gebruikt OS-geschikte paden voor minimale voetafdruk
 
 ### TROUBLESHOOTING ADVANCED ISSUES
@@ -445,7 +445,7 @@ Get-ColorScriptList -Tag Animated   # Filter op tag
 
 **Patroon 3: Prestatieoptimalisatie**
 ```powershell
-New-ColorScriptCache                # Bouw alle caches
+New-ColorScriptCache                # Bouw alle door het beleid geselecteerde caches
 New-ColorScriptCache -Name bars     # Bouw specifieke cache
 New-ColorScriptCache -Category Geometric  # Bouw categorie
 ```
@@ -592,11 +592,11 @@ Get-ColorScriptList -AsObject |
 #### Topic 1: Cache Strategy Selection
 Different caching strategies for different scenarios:
 
-**Full Cache Strategy** (Optimal for Workstations)
+**Policy-Selected Cache Strategy** (Optimal for Workstations)
 ```powershell
-New-ColorScriptCache              # Cache all 450++ scripts
+New-ColorScriptCache              # Build all policy-selected caches
 # Pros: Maximum performance, instant display
-# Cons: Uses 2-5MB disk space
+# Cons: Disk usage depends on policy-selected rendered output
 ```
 
 **Selective Cache Strategy** (Optimal for Portable/CI)
@@ -780,7 +780,7 @@ Add-ColorScriptProfile -Force
 A: 450++ built-in scripts across multiple categories and tags
 
 **Q: How much disk space does caching use?**
-A: Approximately 2-5MB total for all scripts, about 2-50KB per script
+A: The total size depends on the rendered output of scripts selected in `CachePolicy.psd1`
 
 **Q: Can I use colorscripts in scripts/automation?**
 A: Yes, use `-ReturnText` to capture output or `-PassThru` for metadata
