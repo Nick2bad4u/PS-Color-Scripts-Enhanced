@@ -215,7 +215,7 @@ if (-not `$commandHelpFiles) {
     throw "No PlatyPS command help markdown files were found in '$escapedCulturePath'."
 }
 `$commandHelpFiles |
-    Import-MarkdownCommandHelp -Path { `$_.FilePath } |
+    ForEach-Object { Import-MarkdownCommandHelp -Path `$_.FilePath } |
     Export-MamlCommandHelp -OutputFolder '$escapedCulturePath' -Force
 
 `$nestedHelp = Join-Path '$escapedCulturePath' 'ColorScripts-Enhanced\ColorScripts-Enhanced-help.xml'

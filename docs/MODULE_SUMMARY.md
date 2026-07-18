@@ -33,7 +33,7 @@ ColorScripts-Enhanced/
 
 ### 1. Show-ColorScript (Alias: scs)
 
-Main command to display colorscripts with automatic caching.
+Main command to display colorscripts with selective caching for expensive renderers.
 
 ```powershell
 Show-ColorScript                    # Random colorscript
@@ -55,12 +55,13 @@ Get-ColorScriptList
 
 ### 3. New-ColorScriptCache
 
-Pre-generates cache files for faster performance.
+Pre-generates cache files for policy-selected computational renderers. Static output scripts are skipped.
 
 ```powershell
-New-ColorScriptCache                      # Cache all scripts (default)
-New-ColorScriptCache -Name "bars","hearts" # Cache specific
-New-ColorScriptCache -Force               # Force rebuild
+New-ColorScriptCache                              # Cache all eligible scripts (default)
+New-ColorScriptCache -Name "penrose-quasicrystal" # Cache one eligible renderer
+New-ColorScriptCache -Name "bars" -PassThru       # Reports SkippedNotRequired
+New-ColorScriptCache -Force                       # Force eligible rebuilds
 ```
 
 ### 4. Clear-ColorScriptCache

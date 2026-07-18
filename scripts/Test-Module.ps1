@@ -115,7 +115,7 @@ try {
 
         Invoke-SmokeTest -Name 'Cache build + clear (isolated path)' -Action {
             Clear-ColorScriptCache -All -Confirm:$false -ErrorAction Stop
-            New-ColorScriptCache -Name 'bars' -ErrorAction Stop | Out-Null
+            New-ColorScriptCache -Name 'aurora-bands' -ErrorAction Stop | Out-Null
         }
     }
 }

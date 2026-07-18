@@ -17,16 +17,26 @@ function Build-ScriptCache {
     Remove-CacheEntryMetadataFile -ScriptName $scriptName
 
     $result = [pscustomobject]@{
-        ScriptName = $scriptName
-        CacheFile  = $cacheFile
-        Success    = $false
-        ExitCode   = $null
-        StdOut     = ''
-        StdErr     = ''
+        ScriptName    = $scriptName
+        CacheFile     = $cacheFile
+        CacheRequired = $true
+        CacheCreated  = $false
+        Success       = $false
+        ExitCode      = $null
+        StdOut        = ''
+        StdErr        = ''
     }
 
     if (-not [System.IO.File]::Exists($ScriptPath)) {
         $result.StdErr = $script:Messages.ScriptPathNotFound
+        return $result
+    }
+
+    if (-not (Test-ColorScriptRequiresCache -ScriptPath $ScriptPath)) {
+        $cleanup = Remove-ColorScriptCacheEntry -ScriptName $scriptName
+        $result.CacheFile = if ($cleanup.CacheExists) { $cleanup.CacheFile } else { $null }
+        $result.CacheRequired = $false
+        $result.Success = $true
         return $result
     }
 
@@ -50,6 +60,7 @@ function Build-ScriptCache {
 
             $signature = Get-FileContentSignature -Path $ScriptPath -IncludeHash
             Write-CacheEntryMetadataFile -ScriptName $scriptName -Signature $signature -CacheFile $cacheFile
+            $result.CacheCreated = $true
             $result.Success = $true
         }
         catch {

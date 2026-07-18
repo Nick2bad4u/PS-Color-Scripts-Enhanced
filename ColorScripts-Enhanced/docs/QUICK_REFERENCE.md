@@ -58,17 +58,17 @@ Get-ColorScriptList -Tag Recommended
 ### Build Cache for Fast Loading
 
 ```powershell
-# Cache all scripts
+# Build all policy-selected caches
 New-ColorScriptCache
 
-# Cache specific scripts
-New-ColorScriptCache -Name hearts,bars,arch
+# Cache specific computational renderers
+New-ColorScriptCache -Name penrose-quasicrystal,perlin-clouds,aurora-bands
 
 # Force rebuild
 New-ColorScriptCache -Force
 ```
 
-> Running `New-ColorScriptCache` without parameters caches the entire collection (the same as using `-All`).
+> Running `New-ColorScriptCache` without parameters evaluates the entire collection but only caches scripts selected by `CachePolicy.psd1`. Static output scripts are skipped.
 
 ### Clear Cache
 
@@ -186,9 +186,10 @@ Add-ColorScriptProfile -Scope CurrentUserCurrentHost
 
 ## Performance Tips
 
-- **First Run**: \~50-300ms (builds cache)
-- **Cached Run**: \~8-16ms (6-19x faster!)
-- **Pre-build cache**: `New-ColorScriptCache`
+- **Static output**: Runs directly without cache I/O
+- **First eligible run**: Renders and builds a cache entry
+- **Cached eligible run**: Reuses rendered output
+- **Pre-build eligible caches**: `New-ColorScriptCache`
 - **Cache location**: `$env:APPDATA\ColorScripts-Enhanced\cache`
 
 ## Script Categories
@@ -338,17 +339,17 @@ Test-Path "~/Library/Application Support/ColorScripts-Enhanced/cache"
 # Linux:
 Test-Path "~/.cache/ColorScripts-Enhanced"
 
-# Rebuild specific cache
-New-ColorScriptCache -Name bars -Force
+# Rebuild a specific eligible cache
+New-ColorScriptCache -Name penrose-quasicrystal -Force
 ```
 
 ### Performance issues
 
 ```powershell
-# Pre-build all caches (one-time)
+# Pre-build all policy-selected caches (one-time)
 New-ColorScriptCache
 
-# Verify cache exists
+# Inspect generated cache entries
 Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" | Measure-Object
 ```
 
@@ -382,7 +383,7 @@ Export-ColorScriptMetadata -Path "./scripts.json" -IncludeFileInfo
 # Pre-build cache for container deployment
 New-ColorScriptCache -Force
 
-# Verify all scripts are cached
+# Verify policy-selected cache entries
 $cached = @(Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter *.cache)
 Write-Host "✓ Cached: $($cached.Count) scripts"
 ```

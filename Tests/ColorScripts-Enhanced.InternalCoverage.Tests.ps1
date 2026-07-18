@@ -1150,7 +1150,7 @@ Describe 'ColorScripts-Enhanced internal coverage' {
             It 'returns success metadata when cache builds succeed' {
                 $tempDir = Join-Path -Path $TestDrive -ChildPath ([guid]::NewGuid())
                 New-Item -ItemType Directory -Path $tempDir | Out-Null
-                $scriptPath = Join-Path -Path $tempDir -ChildPath 'success-script.ps1'
+                $scriptPath = Join-Path -Path $tempDir -ChildPath 'penrose-quasicrystal.ps1'
                 Set-Content -LiteralPath $scriptPath -Value 'Write-Output "cached"' -Encoding utf8
 
                 InModuleScope ColorScripts-Enhanced -Parameters @{ tempScriptPath = $scriptPath } {

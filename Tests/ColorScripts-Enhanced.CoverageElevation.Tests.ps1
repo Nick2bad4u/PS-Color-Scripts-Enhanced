@@ -90,13 +90,13 @@ Describe 'ColorScripts-Enhanced coverage elevation for public cmdlets' {
 
         It 'runs minimal parallel path with -Parallel and small throttle' {
             # Limit candidate set with a narrow wildcard and use -Parallel
-            $records = Get-ColorScriptList -AsObject -Name 'bars'
+            $records = Get-ColorScriptList -AsObject -Name 'aurora-bands'
             $records | New-ColorScriptCache -Parallel -ThrottleLimit 2 -Force -PassThru | Should -Not -BeNullOrEmpty
         }
 
         It 'shows warning for unknown name and proceeds with known names' {
-            $res = New-ColorScriptCache -Name 'bars', 'does-not-exist-xyz' -PassThru -Force
-            $res | Where-Object Name -EQ 'bars' | Should -Not -BeNullOrEmpty
+            $res = New-ColorScriptCache -Name 'aurora-bands', 'does-not-exist-xyz' -PassThru -Force
+            $res | Where-Object Name -EQ 'aurora-bands' | Should -Not -BeNullOrEmpty
         }
     }
 

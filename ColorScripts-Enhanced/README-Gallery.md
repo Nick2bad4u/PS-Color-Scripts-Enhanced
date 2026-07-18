@@ -56,12 +56,11 @@ Get-ColorScriptList
 # Filter by category
 Get-ColorScriptList -Category Geometric
 
-# Build cache for faster loading (6-19x improvement)
+# Build caches for computationally expensive renderers
 New-ColorScriptCache
 
-# Opt-in to Pokémon art for display + cache
+# Opt in to Pokémon art for display
 Show-ColorScript -IncludePokemon
-New-ColorScriptCache -IncludePokemon
 
 # Clear cache when needed
 Clear-ColorScriptCache -All
@@ -104,7 +103,8 @@ Get-Help about_ColorScripts-Enhanced
 
 Experience dramatic speed improvements:
 
-- **First run (no cache)**: 50-300ms - Executes script and builds cache
+- **First run (cacheable scripts)**: 50-300ms - Executes the renderer and builds its cache
+- **Static output scripts**: Execute directly without creating cache files
 - **Cached run**: 5-20ms - Loads pre-rendered output instantly
 - **Improvement**: 6-19x faster!
 - **Cache location**: `$env:APPDATA\ColorScripts-Enhanced\cache` (Windows)

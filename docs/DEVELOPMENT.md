@@ -171,11 +171,14 @@ function Show-ColorScript {
 
 The caching system works by:
 
-1. **Execution**: Script runs in isolated PowerShell process
-2. **Capture**: Output captured to cache file
-3. **Storage**: Cache stored in AppData with timestamp
-4. **Validation**: Compares script mtime with cache mtime
-5. **Retrieval**: Direct file read on subsequent calls
+1. **Policy**: `CachePolicy.psd1` opts in computationally expensive renderers
+2. **Execution**: Eligible scripts run in an isolated PowerShell process
+3. **Capture**: Eligible output is captured to a cache file
+4. **Storage**: Cache is stored in AppData with content-signature metadata
+5. **Validation**: Source length, timestamp, and SHA-256 metadata are validated
+6. **Retrieval**: Valid cached output is read on subsequent calls; unlisted scripts execute directly
+
+When adding a script, list it in `CachePolicy.psd1` only when rendering performs meaningful computation or other repeatable setup whose cost outweighs cache I/O. Literal/static output scripts should remain unlisted. Add or update selective-cache tests whenever the policy changes.
 
    ```powershell
    # Study the cache implementation

@@ -1541,6 +1541,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
 
     Context 'Show-ColorScript' {
         BeforeEach {
+            Mock -CommandName Test-ColorScriptRequiresCache -ModuleName ColorScripts-Enhanced -MockWith { $true }
             $script:RenderedOutputs = @()
             $script:Warnings = @()
             $script:SleepLog = @()

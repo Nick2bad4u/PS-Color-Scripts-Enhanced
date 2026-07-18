@@ -19,6 +19,12 @@
         Remove-Module ColorScripts-Enhanced -Force -ErrorAction SilentlyContinue
     }
 
+    BeforeEach {
+        InModuleScope ColorScripts-Enhanced {
+            Mock -CommandName Test-ColorScriptRequiresCache -ModuleName ColorScripts-Enhanced -MockWith { $true }
+        }
+    }
+
     Context 'Help and validation' {
         It 'invokes Show-ColorScriptHelp when -h is provided' {
             InModuleScope ColorScripts-Enhanced {

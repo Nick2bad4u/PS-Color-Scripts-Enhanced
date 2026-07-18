@@ -135,7 +135,7 @@ Describe 'ColorScripts-Enhanced Module' {
         BeforeAll {
             # Trigger cache initialization by calling a cache function
             # This initializes $CacheDir in the module scope
-            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
+            New-ColorScriptCache -Name 'aurora-bands' -Force -PassThru -ErrorAction Stop | Out-Null
 
             $moduleInstance = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $script:CacheDir = $moduleInstance.SessionState.PSVariable.GetValue('CacheDir')
@@ -147,8 +147,8 @@ Describe 'ColorScripts-Enhanced Module' {
         }
 
         It 'Should build cache for a script' {
-            $result = New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
+            $result = New-ColorScriptCache -Name 'aurora-bands' -Force -PassThru -ErrorAction Stop
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'aurora-bands.cache'
 
             $result | Should -Not -BeNullOrEmpty
             $result[0].Status | Should -BeIn @('Updated', 'SkippedUpToDate')
@@ -163,26 +163,22 @@ Describe 'ColorScripts-Enhanced Module' {
         }
 
         It 'Should skip cache rebuild when up-to-date' {
-            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
-            $barsScript = Join-Path -Path (Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts') -ChildPath 'bars.ps1'
-            if (Test-Path -LiteralPath $barsScript) {
-                [System.IO.File]::SetLastWriteTimeUtc($barsScript, (Get-Date).AddHours(1))
-            }
+            New-ColorScriptCache -Name 'aurora-bands' -Force -PassThru -ErrorAction Stop | Out-Null
 
-            $result = New-ColorScriptCache -Name 'bars' -PassThru -ErrorAction Stop
+            $result = New-ColorScriptCache -Name 'aurora-bands' -PassThru -ErrorAction Stop
             $result[0].Status | Should -Be 'SkippedUpToDate'
         }
 
         It 'Should force cache rebuild even when cache is newer' {
-            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
+            New-ColorScriptCache -Name 'aurora-bands' -Force -PassThru -ErrorAction Stop | Out-Null
 
-            $result = New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop
+            $result = New-ColorScriptCache -Name 'aurora-bands' -Force -PassThru -ErrorAction Stop
             $result[0].Status | Should -Be 'Updated'
         }
 
         It 'Should write UTF-8 cache without BOM' {
-            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
+            New-ColorScriptCache -Name 'aurora-bands' -Force -PassThru -ErrorAction Stop | Out-Null
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'aurora-bands.cache'
             $bytes = [System.IO.File]::ReadAllBytes($cacheFile)
 
             if ($bytes.Length -ge 3) {
@@ -193,20 +189,20 @@ Describe 'ColorScripts-Enhanced Module' {
         }
 
         It 'Should build cache during first Show-ColorScript invocation' {
-            Clear-ColorScriptCache -Name 'bars' -Confirm:$false | Out-Null
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
+            Clear-ColorScriptCache -Name 'aurora-bands' -Confirm:$false | Out-Null
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'aurora-bands.cache'
             if (Test-Path $cacheFile) {
                 Remove-Item -LiteralPath $cacheFile -Force
             }
 
-            $rendered = Show-ColorScript -Name 'bars' -ReturnText -ErrorAction Stop
+            $rendered = Show-ColorScript -Name 'aurora-bands' -ReturnText -ErrorAction Stop
 
             Test-Path $cacheFile | Should -Be $true
             $cachedText = [System.IO.File]::ReadAllText($cacheFile)
             $cachedText | Should -Be $rendered
         }
 
-        It 'Should cache all scripts when no parameters are provided' {
+        It 'Should process all scripts but build only policy-selected caches by default' {
             $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $originalCacheDir = $module.SessionState.PSVariable.GetValue('CacheDir')
             $originalCacheInitialized = $module.SessionState.PSVariable.GetValue('CacheInitialized')
@@ -239,9 +235,11 @@ Describe 'ColorScripts-Enhanced Module' {
                 $result | Should -Not -BeNullOrEmpty
 
                 $expectedCount = (Get-ColorScriptList -AsObject).Count
+                $expectedCacheCount = (Import-PowerShellDataFile (Join-Path -Path $script:ModuleRoot -ChildPath 'CachePolicy.psd1')).CacheableScripts.Count
                 $result.Count | Should -Be $expectedCount
+                ($result | Where-Object Status -EQ 'SkippedNotRequired').Count | Should -Be ($expectedCount - $expectedCacheCount)
 
-                Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times $expectedCount -Exactly
+                Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times $expectedCacheCount -Exactly
             }
             finally {
                 $module.SessionState.PSVariable.Set('CacheDir', $originalCacheDir)
@@ -254,10 +252,10 @@ Describe 'ColorScripts-Enhanced Module' {
         }
 
         It 'Should render cached output without re-executing the script' {
-            Clear-ColorScriptCache -Name 'bars' -Confirm:$false | Out-Null
-            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
+            Clear-ColorScriptCache -Name 'aurora-bands' -Confirm:$false | Out-Null
+            New-ColorScriptCache -Name 'aurora-bands' -Force -PassThru -ErrorAction Stop | Out-Null
 
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'aurora-bands.cache'
             Test-Path $cacheFile | Should -Be $true
             $cachedText = [System.IO.File]::ReadAllText($cacheFile)
 
@@ -282,7 +280,7 @@ Describe 'ColorScripts-Enhanced Module' {
 
             $executionOutput = $null
             try {
-                $executionOutput = Show-ColorScript -Name 'bars' -ReturnText -ErrorAction Stop
+                $executionOutput = Show-ColorScript -Name 'aurora-bands' -ReturnText -ErrorAction Stop
             }
             finally {
                 if ($consoleRedirected -and $originalOut) {
@@ -308,9 +306,9 @@ Describe 'ColorScripts-Enhanced Module' {
         }
 
         It 'Should clear specific cache' {
-            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
-            $result = Clear-ColorScriptCache -Name 'bars' -Confirm:$false
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
+            New-ColorScriptCache -Name 'aurora-bands' -Force -PassThru -ErrorAction Stop | Out-Null
+            $result = Clear-ColorScriptCache -Name 'aurora-bands' -Confirm:$false
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'aurora-bands.cache'
 
             $result[0].Status | Should -BeIn @('Removed', 'Missing')
             Test-Path $cacheFile | Should -Be $false
@@ -327,10 +325,10 @@ Describe 'ColorScripts-Enhanced Module' {
         }
 
         It 'Should support DryRun cache clearing' {
-            New-ColorScriptCache -Name 'bars' -Force -PassThru -ErrorAction Stop | Out-Null
-            $dryRun = Clear-ColorScriptCache -Name 'bars' -DryRun
+            New-ColorScriptCache -Name 'aurora-bands' -Force -PassThru -ErrorAction Stop | Out-Null
+            $dryRun = Clear-ColorScriptCache -Name 'aurora-bands' -DryRun
             $dryRun[0].Status | Should -Be 'DryRun'
-            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'bars.cache'
+            $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'aurora-bands.cache'
             Test-Path $cacheFile | Should -Be $true
         }
     }
@@ -596,9 +594,9 @@ Describe 'ColorScripts-Enhanced Module' {
         }
 
         It 'Should support -Parallel with throttle' {
-            $result = New-ColorScriptCache -Name 'bars' -Force -Parallel -ThrottleLimit 2 -PassThru -ErrorAction Stop
+            $result = New-ColorScriptCache -Name 'aurora-bands' -Force -Parallel -ThrottleLimit 2 -PassThru -ErrorAction Stop
             $result | Should -Not -BeNullOrEmpty
-            ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
+            ($result | Select-Object -ExpandProperty Name) | Should -Contain 'aurora-bands'
         }
 
         It 'Should accept -Threads alias' {

@@ -287,6 +287,7 @@ PERFECT FOR
         'ColorScripts-Enhanced.psd1',
         'README.md',
         'README-Gallery.md',
+        'CachePolicy.psd1',
         'ScriptMetadata.psd1',
         'Install.ps1'
     )
@@ -481,6 +482,7 @@ $functionsBlock
         'ColorScripts-Enhanced.psd1'
         'README.md'
         'README-Gallery.md'
+        'CachePolicy.psd1'
         'ScriptMetadata.psd1'
         'Install.ps1'
     )

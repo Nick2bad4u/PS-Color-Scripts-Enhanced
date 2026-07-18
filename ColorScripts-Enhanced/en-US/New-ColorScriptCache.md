@@ -15,15 +15,15 @@ Pre-build or refresh colorscript cache files for faster rendering.
 
 ## DESCRIPTION
 
-`New-ColorScriptCache` executes colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 encoding (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript` by eliminating the need to re-execute scripts. You can also use the alias `Update-ColorScriptCache` to invoke this cmdlet.
+`New-ColorScriptCache` executes computationally expensive colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 encoding (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript` by eliminating repeated rendering work. Static output scripts execute directly and never create cache files. You can also use the alias `Update-ColorScriptCache` to invoke this cmdlet.
 
-You can target specific scripts by name (wildcards supported) or cache the entire collection. When no parameters are specified, the cmdlet defaults to caching all available scripts. You can also filter scripts by category or tag to cache only those that match specific criteria.
+You can target scripts by name (wildcards supported), category, or tag. When no parameters are specified, the cmdlet evaluates the full collection but builds only the scripts listed in `CachePolicy.psd1`. Unlisted scripts are returned with the `SkippedNotRequired` status when `-PassThru` is used, and any obsolete cache files for those scripts are removed.
 
 By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams. Combine `-Quiet` to suppress the summary entirely or `-NoAnsiOutput` to emit plain-text summaries without ANSI color codes for environments that do not support them.
 
-The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter to rebuild all caches regardless of their current state.
+The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify the `-Force` parameter. `-Force` rebuilds eligible cache entries but never overrides the cache policy.
 
-For faster rebuilds on multi-core systems, use the `-Parallel` switch together with the `-ThrottleLimit` (or `-Threads`) parameter to control how many workers are scheduled. The cmdlet automatically reverts to sequential execution when parallel runspaces cannot be created on the current host.
+For faster rebuilds on multi-core systems, use the `-Parallel` switch together with the `-ThrottleLimit` (or `-Threads`) parameter to control the worker count. The cmdlet automatically reverts to sequential execution when parallel runspaces cannot be created on the current host.
 
 ## SYNTAX
 
@@ -47,15 +47,15 @@ New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>]
 New-ColorScriptCache
 ```
 
-Warm the cache for every script that ships with the module. This is the default behavior when no parameters are specified.
+Evaluate every script that ships with the module and warm only the policy-selected computational renderers. This is the default behavior when no parameters are specified.
 
 ### EXAMPLE 2
 
 ```powershell
-New-ColorScriptCache -Name bars, 'aurora-*'
+New-ColorScriptCache -Name penrose-quasicrystal, 'aurora-*'
 ```
 
-Cache a mix of exact and wildcard matches. The cmdlet will process the 'bars' script and all scripts whose names start with 'aurora-'.
+Cache a mix of exact and wildcard matches. Only matches included in `CachePolicy.psd1` are built; other matches report `SkippedNotRequired` with `-PassThru`.
 
 ### EXAMPLE 3
 
@@ -71,7 +71,7 @@ Force a rebuild of the 'mandelbrot-zoom' cache even if it's up-to-date, and exam
 New-ColorScriptCache -Category 'Animation' -PassThru
 ```
 
-Cache all scripts in the 'Animation' category and return detailed results for each operation.
+Evaluate scripts in the 'Animation' category, cache eligible renderers, and return detailed results for every match.
 
 ### EXAMPLE 5
 
@@ -79,7 +79,7 @@ Cache all scripts in the 'Animation' category and return detailed results for ea
 New-ColorScriptCache -Tag 'geometric', 'colorful' -Force
 ```
 
-Rebuild caches for all scripts tagged with either 'geometric' or 'colorful', forcing regeneration even if caches are current.
+Rebuild eligible caches for scripts tagged with either 'geometric' or 'colorful', forcing regeneration even if caches are current.
 
 ### EXAMPLE 6
 
@@ -87,7 +87,7 @@ Rebuild caches for all scripts tagged with either 'geometric' or 'colorful', for
 Get-ColorScriptList | Where-Object Category -eq 'Classic' | New-ColorScriptCache -PassThru
 ```
 
-Pipeline example: retrieve all classic scripts and cache them, returning detailed results.
+Pipeline example: evaluate all classic scripts, cache any policy-selected renderers, and return a result for every match.
 
 ### EXAMPLE 7
 
@@ -99,17 +99,17 @@ $after = @(Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter "*.c
 Write-Host "Cached scripts: $before -> $after"
 ```
 
-Measures the cache growth by counting cache files before and after the operation.
+Measures cache growth by counting policy-selected cache files before and after the operation.
 
 ### EXAMPLE 8
 
 ```powershell
-# Build cache for frequently used scripts only
-$frequentScripts = @('bars', 'arch', 'mandelbrot-zoom', 'aurora-waves', 'galaxy-spiral')
+# Build cache for frequently used computational renderers
+$frequentScripts = @('mandelbrot-zoom', 'penrose-quasicrystal', 'aurora-waves', 'galaxy-spiral')
 New-ColorScriptCache -Name $frequentScripts -PassThru | Format-Table Name, Status, ExitCode
 ```
 
-Caches only the most frequently accessed scripts for faster performance in production.
+Builds caches for the listed scripts that are eligible under `CachePolicy.psd1`; unlisted names are skipped.
 
 ### EXAMPLE 9
 
@@ -155,24 +155,25 @@ Caches recommended scripts and exports the results to a deployment manifest.
 ### EXAMPLE 12
 
 ```powershell
-# Verify cache was built successfully
+# Find cache build failures
 New-ColorScriptCache -Name "mandelbrot-zoom" -Force -PassThru |
-    Where-Object { $_.ExitCode -ne 0 } |
+    Where-Object Status -eq 'Failed' |
     Select-Object Name, StdErr
 ```
 
-Identifies any caching failures by filtering for non-zero exit codes.
+Identifies caching failures without treating policy skips as errors.
 
 ### EXAMPLE 13
 
 ```powershell
-# Cache all animated scripts
+# Cache eligible animated scripts
 New-ColorScriptCache -Tag Animated -PassThru |
+    Where-Object Status -in 'Created', 'Updated' |
     Measure-Object |
     Select-Object @{N='ScriptsCached'; E={$_.Count}}
 ```
 
-Caches all scripts tagged as animated and shows the count of cached scripts.
+Caches eligible scripts tagged as animated and shows the count of updated cache entries.
 
 ### EXAMPLE 14
 
@@ -180,13 +181,13 @@ Caches all scripts tagged as animated and shows the count of cached scripts.
 New-ColorScriptCache -All -Parallel -Threads 8
 ```
 
-Build the entire cache using eight worker threads. The cmdlet automatically falls back to sequential execution when parallel jobs are not available on the current host.
+Build all policy-selected caches using eight worker threads. The cmdlet automatically falls back to sequential execution when parallel jobs are not available on the current host.
 
 ## PARAMETERS
 
 ### -All
 
-Cache every available script. When omitted and no names are supplied, all scripts are cached by default. This parameter is useful when you want to be explicit about caching all scripts.
+Evaluate every available script against the cache policy. Only policy-selected scripts are cached; static and unlisted scripts are skipped.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -250,7 +251,7 @@ HelpMessage: ""
 
 ### -Force
 
-Rebuild cache files even when the existing cache is newer than the script source. This is useful when you want to ensure all caches are regenerated, such as after module updates or when troubleshooting rendering issues.
+Rebuild eligible cache files even when the existing cache is newer than the script source. This does not override cache eligibility for static or unlisted scripts.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -271,7 +272,7 @@ HelpMessage: ""
 
 ### -Name
 
-One or more colorscript names to cache. Supports wildcard patterns (e.g., 'aurora-_', '_-wave'). When this parameter is omitted and no filtering parameters are specified, the cmdlet caches every available script by default.
+One or more colorscript names to evaluate for caching. Supports wildcard patterns (e.g., 'aurora-*', '*-wave'). Matching scripts are cached only when listed in `CachePolicy.psd1`. When this parameter is omitted and no filtering parameters are specified, every available script is evaluated and unlisted scripts are skipped.
 
 ```yaml
 Type: System.String[]
@@ -399,7 +400,7 @@ HelpMessage: ""
 
 ### -IncludePokemon
 
-Include Pokémon (regular and shiny) in the cache build. Pokémon scripts are skipped by default; use `-IncludePokemon` to include them. Note: this replaces the older `-ExcludePokemon` parameter — semantics were inverted during a refactor and the flag is now opt-in.
+Include Pokémon (regular and shiny) in the evaluated selection. Pokémon scripts that are not present in `CachePolicy.psd1` report `SkippedNotRequired` and are not cached.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -500,7 +501,7 @@ Without `-PassThru`, displays a concise summary table to the console showing the
 ## Full Production Cache
 
 ```powershell
-# Build all caches for production environment
+# Build all policy-selected caches for a production environment
 New-ColorScriptCache -Force | Measure-Object
 Write-Host "Cache built successfully"
 
@@ -620,19 +621,19 @@ Write-Host "Cache archived: $archive"
 
 Cache files are stored in the directory exposed by the module's `CacheDir` variable (typically within the module's data directory). A successful build sets the cache file's timestamp to match the script's last write time, enabling subsequent runs to skip unchanged scripts efficiently.
 
-The cmdlet executes each script in an isolated background PowerShell process to capture its output without affecting the current session. This ensures accurate caching of the exact console output that would be displayed when running the script directly.
+The cmdlet executes each eligible script in an isolated background PowerShell process to capture its output without affecting the current session. Static and unlisted scripts are not executed by this cmdlet.
 
 ## Best Practices
 
-- Run once after module installation to pre-cache all scripts
-- Use `-Force` only when you need to rebuild all caches
+- Run once after module installation to pre-cache computational renderers
+- Use `-Force` only when you need to rebuild all eligible caches
 - Filter by category or tag for faster targeted cache builds
 - Monitor build times to identify slow-rendering scripts
 - Schedule periodic rebuilds to keep cache current
 - Use `-PassThru` in automation for detailed status reporting
 - Consider using `-WhatIf` before large cache operations
 
-**Performance Tip:** Run this cmdlet once after installing or updating the module to pre-cache all scripts for optimal performance.
+**Performance Tip:** Run this cmdlet once after installing or updating the module to pre-cache the computational renderers selected by `CachePolicy.psd1`.
 
 ## Troubleshooting
 

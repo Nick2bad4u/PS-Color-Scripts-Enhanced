@@ -11,7 +11,7 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNOPSIS
 
-Displays a colorscript with automatic caching for enhanced performance.
+Displays a colorscript with selective caching for expensive renderers.
 
 ## SYNTAX
 
@@ -60,7 +60,7 @@ Renders beautiful ANSI colorscripts in your terminal with intelligent performanc
 **All Mode:** Cycles through all available colorscripts in alphabetical order. Particularly useful for showcasing the entire collection or discovering new scripts.
 
 ## Performance Features
-The caching system provides 6-19x performance improvements. On first execution, a colorscript runs normally and its output is cached. Subsequent displays use the cached output for near-instant rendering. The cache is automatically invalidated when source scripts are modified, ensuring output accuracy.
+The caching system targets only computational renderers listed in `CachePolicy.psd1`. Their first execution is cached and subsequent displays use the validated rendered output. Static and unlisted scripts execute directly without reading or creating cache files.
 Use `-ValidateCache` (or set the `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` environment variable) to force a metadata refresh before rendering when you suspect stale cache content.
 
 ## Filtering Capabilities
@@ -389,7 +389,7 @@ HelpMessage: ""
 
 ### -NoCache
 
-Bypass the caching system and execute the colorscript directly. This forces fresh execution and can be useful when testing script modifications, debugging, or when cache corruption is suspected. Without this switch, cached output is used when available for optimal performance.
+Bypass the caching system and execute the colorscript directly. This forces fresh execution for policy-selected renderers and is useful when testing script modifications, debugging, or investigating cache corruption. Static and unlisted scripts already execute directly.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -623,7 +623,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
-- Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
+- Rebuild cache: Use `New-ColorScriptCache` to pre-populate policy-selected renderers
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 ## Tips
@@ -833,7 +833,7 @@ The intelligent caching system provides 6-19x performance improvements over dire
 
 - Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
 - Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
-- Rebuild cache: Use `New-ColorScriptCache` to pre-populate cache for all scripts
+- Rebuild cache: Use `New-ColorScriptCache` to pre-populate policy-selected renderers
 - Inspect cache: Cache files are plain text and can be viewed directly
 
 ## Advanced Tips

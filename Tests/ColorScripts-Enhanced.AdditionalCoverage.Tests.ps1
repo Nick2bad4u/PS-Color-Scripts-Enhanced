@@ -698,6 +698,7 @@ namespace CoverageHost
                 $script:CacheDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $script:CacheDir -Force | Out-Null
                 $script:CacheInitialized = $true
+                Mock -CommandName Test-ColorScriptRequiresCache -ModuleName ColorScripts-Enhanced -MockWith { $true }
             }
         }
 
@@ -861,6 +862,7 @@ namespace CoverageHost
                 $script:CacheDir = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $script:CacheDir -Force | Out-Null
                 $script:CacheInitialized = $true
+                Mock -CommandName Test-ColorScriptRequiresCache -ModuleName ColorScripts-Enhanced -MockWith { $true }
             }
         }
 

@@ -6,9 +6,9 @@
 Enhanced PowerShell ColorScripts with high-performance caching system for displaying beautiful ANSI art in your terminal.
 
 ### LONG DESCRIPTION
-ColorScripts-Enhanced is a PowerShell module that provides a collection of 450++ beautiful ANSI colorscripts for terminal display. It features an intelligent caching system that provides 6-19x performance improvements over traditional script execution.
+ColorScripts-Enhanced is a PowerShell module that provides a collection of 450++ beautiful ANSI colorscripts for terminal display. It selectively caches computationally expensive renderers while executing static artwork directly.
 
-The module automatically caches script output to a centralized location in your AppData folder, enabling instant display on subsequent runs. Cache files are automatically validated and regenerated when source scripts are modified.
+Policy-selected output is cached in a centralized location in your AppData folder, enabling instant display on subsequent runs. Cache files are automatically validated and regenerated when source scripts are modified. Static and unlisted scripts do not create cache entries.
 
 ### FEATURES
 - 450++ beautiful pre-made colorscripts
@@ -67,7 +67,7 @@ Show-ColorScript -List
 Get-ColorScriptList
 ```
 
-Pre-build cache for all scripts:
+Pre-build caches for all policy-selected renderers:
 ```powershell
 New-ColorScriptCache
 ```
@@ -91,11 +91,12 @@ Use `Get-Help <CommandName> -Full` for detailed help on each command.
 
 ### CACHE SYSTEM
 
-The caching system works automatically:
+The caching system works automatically for scripts listed in `CachePolicy.psd1`:
 
-1. **First Run**: Script executes normally and output is cached
-2. **Subsequent Runs**: Cached output displays instantly (6-19x faster)
-3. **Auto-Refresh**: Cache regenerates when script is modified
+1. **Eligibility**: Static and unlisted scripts execute directly without cache I/O
+2. **First Eligible Run**: A computational renderer executes and its output is cached
+3. **Subsequent Eligible Runs**: Valid cached output displays immediately
+4. **Auto-Refresh**: Cache regenerates when an eligible script is modified
 
 **Cache Location**: `$env:APPDATA\ColorScripts-Enhanced\cache`
 
@@ -191,7 +192,7 @@ New-ColorScriptCache
 ```
 
 #### Performance issues
-The first run of each script will be slower as it builds cache. Pre-build all caches:
+Policy-selected computational renderers are slower on their first run while the cache is built. Static output scripts run directly. Pre-build eligible caches:
 ```powershell
 New-ColorScriptCache
 ```
@@ -243,7 +244,7 @@ Show-ColorScript -IncludePokemon
 ### ADVANCED USAGE
 
 #### Building Cache for Specific Categories
-Cache all scripts in the Geometric category for optimal performance:
+Evaluate scripts in the Geometric category and cache the policy-selected renderers:
 ```powershell
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
@@ -347,8 +348,8 @@ The module respects the following environment variables:
 | Complex (200-300ms) | ~300ms | ~16ms | 19x faster |
 
 #### Cache Size Information
-- Average cache file size: 2-50KB per script
-- Total cache size for all scripts: ~2-5MB
+- Average cache file size varies with each selected renderer
+- Total cache size depends on the scripts selected in `CachePolicy.psd1`
 - Cache location: Uses OS-appropriate paths for minimal footprint
 
 ### TROUBLESHOOTING ADVANCED ISSUES
@@ -452,9 +453,9 @@ Get-ColorScriptList -Tag Animated   # Filter by tag
 
 **Pattern 3: Performance Optimization**
 ```powershell
-New-ColorScriptCache                # Build all caches
-New-ColorScriptCache -Name bars     # Build specific cache
-New-ColorScriptCache -Category Geometric  # Build category
+New-ColorScriptCache                # Build all policy-selected caches
+New-ColorScriptCache -Name penrose-quasicrystal # Build a specific eligible cache
+New-ColorScriptCache -Category Geometric  # Build eligible caches in a category
 ```
 
 **Pattern 4: Cache Maintenance**
@@ -599,19 +600,18 @@ Get-ColorScriptList -AsObject |
 #### Topic 1: Cache Strategy Selection
 Different caching strategies for different scenarios:
 
-**Full Cache Strategy** (Optimal for Workstations)
+**Eligible Cache Strategy** (Default)
 ```powershell
-New-ColorScriptCache              # Cache all 450++ scripts
-# Pros: Maximum performance, instant display
-# Cons: Uses 2-5MB disk space
+New-ColorScriptCache              # Cache computational renderers only
+# Pros: Avoids cache overhead for static art
+# Cons: Policy changes require updating CachePolicy.psd1
 ```
 
-**Selective Cache Strategy** (Optimal for Portable/CI)
+**Filtered Eligible Cache Strategy** (Portable/CI)
 ```powershell
 Get-ColorScriptList -Tag Recommended -AsObject |
     ForEach-Object { New-ColorScriptCache -Name $_.Name }
-# Pros: Balanced performance and storage
-# Cons: Requires more setup
+# Only policy-selected matches are cached
 ```
 
 **No Cache Strategy** (Optimal for Development)
@@ -787,7 +787,7 @@ Add-ColorScriptProfile -Force
 A: 450++ built-in scripts across multiple categories and tags
 
 **Q: How much disk space does caching use?**
-A: Approximately 2-5MB total for all scripts, about 2-50KB per script
+A: It depends on the rendered output of the policy-selected scripts; static output scripts are not cached
 
 **Q: Can I use colorscripts in scripts/automation?**
 A: Yes, use `-ReturnText` to capture output or `-PassThru` for metadata

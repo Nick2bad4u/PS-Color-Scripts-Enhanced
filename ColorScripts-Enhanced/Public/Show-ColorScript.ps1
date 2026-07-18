@@ -1,14 +1,15 @@
 ﻿function Show-ColorScript {
     <#
     .SYNOPSIS
-        Displays a colorscript with automatic caching.
+        Displays a colorscript with selective caching for expensive renderers.
 
     .LINK
         https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript
 
     .DESCRIPTION
         Shows a beautiful ANSI colorscript in your terminal. If no name is specified,
-        displays a random script. Uses intelligent caching for 6-19x faster performance.
+        displays a random script. Computational renderers use validated output caching, while
+        static and unlisted scripts execute directly.
         Name values accept wildcards; when multiple scripts match the provided pattern, the first
         alphabetical match is displayed and can be inspected with -PassThru.
 
@@ -488,7 +489,7 @@
                             Write-ColorScriptInformation -Message '' -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput
 
                             $renderedOutput = $null
-                            if (-not $NoCache) {
+                            if (-not $NoCache -and (Test-ColorScriptRequiresCache -ScriptPath $script.Path)) {
                                 Initialize-CacheDirectory
                                 $cacheState = Get-CachedOutput -ScriptPath $script.Path
                                 if ($cacheState.Available) {
@@ -640,7 +641,7 @@
 
                             $renderedOutput = $null
 
-                            if (-not $NoCache) {
+                            if (-not $NoCache -and (Test-ColorScriptRequiresCache -ScriptPath $selection.Path)) {
                                 Initialize-CacheDirectory
 
                                 $cacheState = Get-CachedOutput -ScriptPath $selection.Path

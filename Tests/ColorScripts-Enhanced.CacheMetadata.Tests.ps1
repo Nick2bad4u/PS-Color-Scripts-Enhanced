@@ -108,6 +108,12 @@ Describe 'Cache metadata coverage' {
     }
 
     Context 'Build-ScriptCache metadata integration' {
+        BeforeEach {
+            InModuleScope ColorScripts-Enhanced {
+                Mock -CommandName Test-ColorScriptRequiresCache -ModuleName ColorScripts-Enhanced -MockWith { $true }
+            }
+        }
+
         It 'writes cache metadata when build succeeds' {
             $cacheRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'CacheBuildSuccess'
             New-Item -ItemType Directory -Path $cacheRoot -Force | Out-Null

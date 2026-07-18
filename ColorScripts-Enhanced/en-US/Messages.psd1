@@ -59,6 +59,7 @@
     MultipleColorscriptsMatched = "Multiple colorscripts matched the provided name pattern(s): {0}. Displaying '{1}'."
     StatusCached = "Cached"
     StatusSkippedUpToDate = "Skipped (up-to-date)"
+    StatusSkippedNotRequired = "Skipped (caching not required)"
     StatusSkippedByUser = "Skipped by user"
     StatusFailed = "Failed"
     StatusUpToDateSkipped = "Up-to-date (skipped)"

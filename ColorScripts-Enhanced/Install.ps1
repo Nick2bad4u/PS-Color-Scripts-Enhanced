@@ -177,10 +177,10 @@ function Invoke-ColorScriptsEnhancedInstall {
         Write-Host '  Show-ColorScript             # Display a random colorscript'
         Write-Host '  scs mandelbrot-zoom          # Display a specific colorscript'
         Write-Host '  Get-ColorScriptList          # List all scripts'
-        Write-Host '  New-ColorScriptCache         # Pre-build caches (defaults to all)'
+        Write-Host '  New-ColorScriptCache         # Pre-build policy-selected caches'
 
         if (-not $BuildCache) {
-            Write-Host "Tip: Run 'New-ColorScriptCache' to prime caches (equivalent to -All)." -ForegroundColor Cyan
+            Write-Host "Tip: Run 'New-ColorScriptCache' to prime policy-selected computational renderers." -ForegroundColor Cyan
         }
 
         [pscustomobject]@{

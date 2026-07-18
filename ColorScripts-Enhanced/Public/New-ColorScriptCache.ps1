@@ -307,6 +307,12 @@ function New-ColorScriptCache {
         $executionProgressId = 2
         $resultOrder = 0
         $workQueue = New-Object 'System.Collections.Generic.List[pscustomobject]'
+        $notRequiredMessage = if ($script:Messages -and $script:Messages.ContainsKey('StatusSkippedNotRequired')) {
+            $script:Messages.StatusSkippedNotRequired
+        }
+        else {
+            'Skipped (caching not required)'
+        }
 
         $parallelRequested = $Parallel.IsPresent -or $PSBoundParameters.ContainsKey('ThrottleLimit')
         $effectiveThrottle = if ($PSBoundParameters.ContainsKey('ThrottleLimit')) {
@@ -351,6 +357,27 @@ function New-ColorScriptCache {
                 Write-Progress -Id $executionProgressId -Activity $activity -Status ("Processing {0} of {1}: {2}" -f $index, $total, $scriptName) -PercentComplete $statusPercent
 
                 $summary.Processed++
+
+                if (-not (Test-ColorScriptRequiresCache -ScriptPath $scriptPath)) {
+                    $cleanup = Remove-ColorScriptCacheEntry -ScriptName $scriptName
+                    $summary.Skipped++
+                    $resultOrder++
+                    [void]$results.Add([pscustomobject]@{
+                            Order  = $resultOrder
+                            Record = [pscustomobject]@{
+                                Name        = $scriptName
+                                ScriptPath  = $scriptPath
+                                CacheFile   = if ($cleanup.CacheExists) { $cleanup.CacheFile } else { $null }
+                                Status      = 'SkippedNotRequired'
+                                Message     = $notRequiredMessage
+                                CacheExists = $cleanup.CacheExists
+                                ExitCode    = $null
+                                StdOut      = ''
+                                StdErr      = ''
+                            }
+                        })
+                    continue
+                }
 
                 if (-not $Force) {
                     $cacheEntry = Get-CachedOutput -ScriptPath $scriptPath
@@ -436,6 +463,27 @@ function New-ColorScriptCache {
                 Write-Progress -Id $preparationProgressId -Activity $activity -Status ("Preparing {0} of {1}: {2}" -f $prepareIndex, $total, $scriptName) -PercentComplete $statusPercent
 
                 $summary.Processed++
+
+                if (-not (Test-ColorScriptRequiresCache -ScriptPath $scriptPath)) {
+                    $cleanup = Remove-ColorScriptCacheEntry -ScriptName $scriptName
+                    $summary.Skipped++
+                    $resultOrder++
+                    [void]$results.Add([pscustomobject]@{
+                            Order  = $resultOrder
+                            Record = [pscustomobject]@{
+                                Name        = $scriptName
+                                ScriptPath  = $scriptPath
+                                CacheFile   = if ($cleanup.CacheExists) { $cleanup.CacheFile } else { $null }
+                                Status      = 'SkippedNotRequired'
+                                Message     = $notRequiredMessage
+                                CacheExists = $cleanup.CacheExists
+                                ExitCode    = $null
+                                StdOut      = ''
+                                StdErr      = ''
+                            }
+                        })
+                    continue
+                }
 
                 if (-not $Force) {
                     $cacheEntry = Get-CachedOutput -ScriptPath $scriptPath

@@ -58,6 +58,63 @@ function Remove-CacheEntryMetadataFile {
     }
 }
 
+function Remove-ColorScriptCacheEntry {
+    <#
+    .SYNOPSIS
+        Removes the rendered output and metadata files for one colorscript cache entry.
+    #>
+    [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Low')]
+    [OutputType([pscustomobject])]
+    param(
+        [Parameter(Mandatory)]
+        [ValidateNotNullOrEmpty()]
+        [string]$ScriptName,
+
+        [Parameter()]
+        [string]$CacheRoot
+    )
+
+    $root = if ($PSBoundParameters.ContainsKey('CacheRoot') -and $CacheRoot) { $CacheRoot } else { $script:CacheDir }
+    if (-not $root) {
+        return [pscustomobject]@{
+            CacheFile     = $null
+            CacheExists   = $false
+            MetadataFile  = $null
+            MetadataExists = $false
+        }
+    }
+
+    $cachePath = Join-Path -Path $root -ChildPath ("{0}.cache" -f $ScriptName)
+    $metadataPath = Get-CacheEntryMetadataPath -ScriptName $ScriptName -CacheRoot $root
+    $cacheExists = Test-Path -LiteralPath $cachePath -PathType Leaf
+    $metadataExists = $metadataPath -and (Test-Path -LiteralPath $metadataPath -PathType Leaf)
+    $shouldRemove = $cacheExists -or $metadataExists
+
+    if ($shouldRemove) {
+        $shouldRemove = Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $ScriptName -Action 'Remove obsolete colorscript cache'
+    }
+
+    if ($shouldRemove -and $cacheExists) {
+        try {
+            Remove-Item -LiteralPath $cachePath -Force -ErrorAction Stop
+        }
+        catch {
+            Write-Verbose ("Failed to remove cache file '{0}': {1}" -f $cachePath, $_.Exception.Message)
+        }
+    }
+
+    if ($shouldRemove -and $metadataExists) {
+        Remove-CacheEntryMetadataFile -ScriptName $ScriptName -CacheRoot $root
+    }
+
+    return [pscustomobject]@{
+        CacheFile      = $cachePath
+        CacheExists    = Test-Path -LiteralPath $cachePath -PathType Leaf
+        MetadataFile   = $metadataPath
+        MetadataExists = $metadataPath -and (Test-Path -LiteralPath $metadataPath -PathType Leaf)
+    }
+}
+
 function Write-CacheEntryMetadataFile {
     [CmdletBinding()]
     param(

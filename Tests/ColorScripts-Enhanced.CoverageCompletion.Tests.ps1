@@ -924,6 +924,7 @@ Describe 'ColorScripts-Enhanced coverage completion' {
                 $recordsToUse = $recs
                 Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith { $recordsToUse }
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { }
+                Mock -CommandName Test-ColorScriptRequiresCache -ModuleName ColorScripts-Enhanced -MockWith { $true }
                 Mock -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -MockWith {
                     [pscustomobject]@{
                         Available     = $true

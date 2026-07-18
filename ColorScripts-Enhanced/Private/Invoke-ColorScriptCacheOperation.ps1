@@ -71,7 +71,17 @@ function Invoke-ColorScriptCacheOperation {
         }
     }
 
-    if ($cacheResult.Success) {
+    if ($cacheResult.PSObject.Properties['CacheRequired'] -and -not $cacheResult.CacheRequired) {
+        $status = 'SkippedNotRequired'
+        $message = if ($script:Messages -and $script:Messages.ContainsKey('StatusSkippedNotRequired')) {
+            $script:Messages.StatusSkippedNotRequired
+        }
+        else {
+            'Skipped (caching not required)'
+        }
+        $cacheExists = $false
+    }
+    elseif ($cacheResult.Success) {
         $updated = 1
         $status = 'Updated'
         $message = $script:Messages.StatusCached

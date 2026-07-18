@@ -96,14 +96,14 @@ Show-ColorScript -IncludePokemon
 ## ⚡ Boost Performance with Caching
 
 ```powershell
-# Build cache for all scripts (recommended after install)
+# Build caches only for computationally expensive renderers
 New-ColorScriptCache
 
 # Rebuild cache if scripts seem stale
 New-ColorScriptCache -Force
 
-# Include Pokémon scripts when building the cache
-New-ColorScriptCache -IncludePokemon
+# Inspect scripts skipped because caching is unnecessary
+New-ColorScriptCache -Name bars -PassThru
 
 # Clear cache if needed
 Clear-ColorScriptCache -All
@@ -146,7 +146,7 @@ Set-Alias -Name cs -Value Show-ColorScript
 |---------|-------|-------------|
 | `Show-ColorScript` | `scs` | Display a colorscript (random or by name) |
 | `Get-ColorScriptList` | — | List available colorscripts |
-| `New-ColorScriptCache` | — | Build cache for faster performance |
+| `New-ColorScriptCache` | — | Build caches for policy-selected computational scripts |
 | `Clear-ColorScriptCache` | — | Remove cached files |
 | `Add-ColorScriptProfile` | — | Add module to your PowerShell profile |
 

@@ -28,8 +28,8 @@
 
 <!-- License & Contributing -->
 
-[![License: UnLicense.](https://img.shields.io/badge/License-UnLicense-yellow.svg)](LICENSE)
-[![PRs Welcome.](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![License: UnLicense.](https://img.shields.io/badge/License-UnLicense-yellow.svg)](../LICENSE)
+[![PRs Welcome.](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../CONTRIBUTING.md)
 
 A high-performance PowerShell module for displaying beautiful ANSI colorscripts in your terminal with intelligent caching for 6-19x faster load times.
 
@@ -96,14 +96,14 @@ Show-ColorScript -IncludePokemon
 ## ⚡ Boost Performance with Caching
 
 ```powershell
-# Build cache for all scripts (recommended after install)
+# Build caches only for computationally expensive renderers
 New-ColorScriptCache
 
 # Rebuild cache if scripts seem stale
 New-ColorScriptCache -Force
 
-# Include Pokémon scripts when building the cache
-New-ColorScriptCache -IncludePokemon
+# Inspect scripts skipped because caching is unnecessary
+New-ColorScriptCache -Name bars -PassThru
 
 # Clear cache if needed
 Clear-ColorScriptCache -All
@@ -146,7 +146,7 @@ Set-Alias -Name cs -Value Show-ColorScript
 |---------|-------|-------------|
 | `Show-ColorScript` | `scs` | Display a colorscript (random or by name) |
 | `Get-ColorScriptList` | — | List available colorscripts |
-| `New-ColorScriptCache` | — | Build cache for faster performance |
+| `New-ColorScriptCache` | — | Build caches for policy-selected computational scripts |
 | `Clear-ColorScriptCache` | — | Remove cached files |
 | `Add-ColorScriptProfile` | — | Add module to your PowerShell profile |
 
@@ -197,7 +197,7 @@ Get-Module ColorScripts-Enhanced -ListAvailable
 - [Quick Reference Guide](docs/QUICK_REFERENCE.md)
 - [ANSI Color Guide](docs/ANSI-COLOR-GUIDE.md)
 - [Module Summary](docs/MODULE_SUMMARY.md)
-- [Changelog](CHANGELOG.md)
+- [Changelog](../CHANGELOG.md)
 
 </details>
 
@@ -217,9 +217,9 @@ Get-Module ColorScripts-Enhanced -ListAvailable
 <details>
 <summary><b>🤝 Contributing & Community</b></summary>
 
-- [Contributing Guidelines](CONTRIBUTING.md)
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Security Policy](SECURITY.md)
+- [Contributing Guidelines](../CONTRIBUTING.md)
+- [Code of Conduct](../CODE_OF_CONDUCT.md)
+- [Security Policy](../SECURITY.md)
 - [Support Policy](docs/SUPPORT.md)
 - [Project Roadmap](docs/ROADMAP.md)
 
@@ -232,8 +232,8 @@ Get-Module ColorScripts-Enhanced -ListAvailable
 [![Codecov.](https://codecov.io/gh/Nick2bad4u/PS-Color-Scripts-Enhanced/branch/main/graph/badge.svg)](https://codecov.io/gh/Nick2bad4u/PS-Color-Scripts-Enhanced)
 [![OpenSSF Scorecard.](https://api.scorecard.dev/projects/github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/badge)](https://scorecard.dev/viewer/?uri=github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)
 
-- [Test Workflow](.github/workflows/test.yml)
-- [Publish Workflow](.github/workflows/publish.yml)
+- [Test Workflow](../.github/workflows/test.yml)
+- [Publish Workflow](../.github/workflows/publish.yml)
 
 </details>
 
@@ -249,7 +249,7 @@ ANSI art sourced from [16colo.rs](https://16colo.rs/), [ArtScene](http://artscen
 
 ## 📄 License
 
-[Unlicense](LICENSE) — Public domain. Do whatever you want with it.
+[Unlicense](../LICENSE) — Public domain. Do whatever you want with it.
 
 ---
 
