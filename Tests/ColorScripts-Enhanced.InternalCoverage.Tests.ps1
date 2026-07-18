@@ -1040,7 +1040,7 @@ Describe 'ColorScripts-Enhanced internal coverage' {
 
                 try {
                     [Console]::SetOut($writer)
-                    $ansiText = "${([char]27)}[31mColor${([char]27)}[0m"
+                    $ansiText = "$([char]27)[31mColor$([char]27)[0m"
                     Write-RenderedText -Text $ansiText -NoAnsiOutput
                 }
                 finally {
@@ -1049,15 +1049,15 @@ Describe 'ColorScripts-Enhanced internal coverage' {
 
                 $captured = $writer.ToString()
                 $captured | Should -Be "Color$([Environment]::NewLine)"
-                $captured | Should -Not -Match "${([char]27)}\["
+                $captured | Should -Not -Match "$([char]27)\["
             }
         }
 
         It 'wraps colored message segments with ANSI when allowed' {
             InModuleScope ColorScripts-Enhanced {
                 $result = New-ColorScriptAnsiText -Text 'Sample' -Color 'Cyan'
-                $result | Should -Match "${([char]27)}\[36m"
-                $result | Should -Match "${([char]27)}\[0m"
+                $result | Should -Match "$([char]27)\[36m"
+                $result | Should -Match "$([char]27)\[0m"
             }
         }
 
@@ -1106,7 +1106,7 @@ Describe 'ColorScripts-Enhanced internal coverage' {
                     }
                 }
 
-                $ansiSample = "${([char]27)}[36mSample${([char]27)}[0m"
+                $ansiSample = "$([char]27)[36mSample$([char]27)[0m"
                 Write-ColorScriptInformation -Message $ansiSample -PreferConsole -Color 'Cyan'
 
                 $script:RenderedCount | Should -Be 1

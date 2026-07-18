@@ -16,5 +16,5 @@ function New-ColorScriptAnsiText {
         return $resolvedText
     }
 
-    return "${sequence}${resolvedText}${([char]27)}[0m"
+    return "${sequence}${resolvedText}$([char]27)[0m"
 }

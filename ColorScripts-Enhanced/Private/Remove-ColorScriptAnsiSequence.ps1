@@ -6,7 +6,7 @@ function Remove-ColorScriptAnsiSequence {
     }
 
     if (-not $script:AnsiStripRegex) {
-        $pattern = "${([char]27)}\[[0-9;]*[A-Za-z]"
+        $pattern = "$([char]27)\[[0-9;]*[A-Za-z]"
         $script:AnsiStripRegex = [System.Text.RegularExpressions.Regex]::new(
             $pattern,
             [System.Text.RegularExpressions.RegexOptions]::Compiled
