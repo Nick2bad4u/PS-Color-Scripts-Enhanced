@@ -1,5 +1,8 @@
 name: Publish
 
+env:
+    PESTER_VERSION: "5.8.0"
+
 on:
     workflow_dispatch:
         inputs:
@@ -56,8 +59,8 @@ jobs:
             - name: Install quality tools
               run: |
                   Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-                  if (-not (Get-Module -ListAvailable -Name Pester)) {
-                      Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
+                  if (-not (Get-Module -ListAvailable -Name Pester | Where-Object Version -EQ $env:PESTER_VERSION)) {
+                      Install-Module -Name Pester -RequiredVersion $env:PESTER_VERSION -Force -SkipPublisherCheck
                   }
                   if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
                       Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
@@ -72,9 +75,9 @@ jobs:
                   cache: npm
                   cache-dependency-path: package-lock.json
 
-            - name: install dependency
+            - name: Install dependencies
               run: |
-                  npm install -force
+                  npm ci --force
               shell: pwsh
 
             - name: Build latest Manifest Version
@@ -134,11 +137,7 @@ jobs:
 
             - name: Run Pester tests
               run: |
-                  Import-Module Pester
-                  $configuration = New-PesterConfiguration
-                  $configuration.Run.Path = './Tests'
-                  $configuration.Output.Verbosity = 'Detailed'
-                  Invoke-Pester -Configuration $configuration
+                  npm run test:pester
               shell: pwsh
 
             - name: Verify manifest version

@@ -1,7 +1,7 @@
 # ============================================================================
 # PS-Color-Scripts-Enhanced - Modern Coverage Analysis
 # ============================================================================
-# Powered by Pester 5.7+ with advanced coverage tracking and beautiful output
+# Powered by Pester 5.8.0 with advanced coverage tracking and beautiful output
 # Supports: JaCoCo format, HTML reports, GitHub Actions, Azure DevOps
 # Updated: January 2025
 # ============================================================================
@@ -123,19 +123,20 @@ function Write-InfoLine {
 # PESTER MODULE VALIDATION
 # ============================================================================
 
-Write-SectionHeader 'Pester 5.7+ Detection & Installation'
+Write-SectionHeader 'Pester 5.8.0 Detection & Installation'
 
+$pesterRequiredVersion = [version]'5.8.0'
 $pesterModule = Get-Module -ListAvailable -Name Pester |
-    Where-Object { $_.Version -ge '5.7.0' } |
+    Where-Object { $_.Version -eq $pesterRequiredVersion } |
         Sort-Object Version -Descending |
             Select-Object -First 1
 
 if (-not $pesterModule) {
-    Write-ColorLine '  ⚠ Pester 5.7+ not found. Installing latest version...' -Color $script:Colors.Warning
+    Write-ColorLine "  ⚠ Pester $pesterRequiredVersion not found. Installing the required version..." -Color $script:Colors.Warning
     try {
-        Install-Module -Name Pester -MinimumVersion 5.7.0 -Force -SkipPublisherCheck -Scope CurrentUser -AllowClobber
+        Install-Module -Name Pester -RequiredVersion $pesterRequiredVersion -Force -SkipPublisherCheck -Scope CurrentUser -AllowClobber
         $pesterModule = Get-Module -ListAvailable -Name Pester |
-            Where-Object { $_.Version -ge '5.7.0' } |
+            Where-Object { $_.Version -eq $pesterRequiredVersion } |
                 Select-Object -First 1
         Write-ColorLine "  ✓ Installed Pester $($pesterModule.Version)" -Color $script:Colors.Success
     }
@@ -148,7 +149,7 @@ else {
     Write-ColorLine "  ✓ Found Pester $($pesterModule.Version)" -Color $script:Colors.Success
 }
 
-Import-Module Pester -MinimumVersion 5.7.0 -Force -PassThru | Out-Null
+Import-Module Pester -RequiredVersion $pesterRequiredVersion -Force -PassThru | Out-Null
 
 # ============================================================================
 # PATH CONFIGURATION
@@ -271,16 +272,16 @@ if ($exclusionReport.Count -gt 0) {
 
 
 # ============================================================================
-# PESTER CONFIGURATION (Pester 5.7.1 Modern Settings)
+# PESTER CONFIGURATION (Pester 5.8.0)
 # ============================================================================
 
-Write-SectionHeader 'Pester Configuration (v5.7.1 Modern Features)'
+Write-SectionHeader 'Pester Configuration (v5.8.0)'
 
 $config = New-PesterConfiguration
 
 # === Run Configuration ===
 $config.Run.Path = $testsPath
-$config.Run.Exit = $CI.IsPresent
+$config.Run.Exit = $false
 $config.Run.PassThru = $true
 $config.Run.SkipRun = $false
 $config.Run.TestExtension = '.Tests.ps1'
@@ -766,13 +767,15 @@ if ($PassThru) {
     return $result
 }
 
-if ($CI) {
-    # Exit with proper code for CI
-    $exitCode = if ($result.FailedCount -gt 0) { 1 }
-    elseif (-not $SkipCoverage -and $percentage -lt $MinimumCoverage) { 1 }
-    else { 0 }
+$exitCode = if ($result.FailedCount -gt 0) { 1 }
+elseif (-not $SkipCoverage -and $percentage -lt $MinimumCoverage) { 1 }
+else { 0 }
 
+if ($CI) {
     Write-ColorLine "`n  Exit Code: $exitCode" -Color $(if ($exitCode -eq 0) { $script:Colors.Success } else { $script:Colors.Error })
+}
+
+if ($exitCode -ne 0) {
     exit $exitCode
 }
 

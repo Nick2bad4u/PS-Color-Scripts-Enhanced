@@ -84,7 +84,7 @@
     "test:coverage:report": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1 -ShowReport",
     "test:custom": "pwsh -NoProfile -File ./scripts/Test-Module.ps1",
     "test:linux": "npm run test:coverage",
-    "test:pester": "pwsh -NoProfile -Command \"Import-Module Pester -MinimumVersion 5.0.0 -Force -ErrorAction Stop; $config = New-PesterConfiguration; $config.Run.Path = './Tests'; $config.Output.Verbosity = 'Minimal'; $result = Invoke-Pester -Configuration $config; if ($result.FailedCount -gt 0) { exit 1 }\"",
+    "test:pester": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1 -SkipCoverage -Verbosity Minimal",
     "update-deps": "npx ncu --configFileName .ncurc.json --configFilePath node_modules/ncu-config-nick2bad4u && node ./scripts/sync-node-version-files.mjs && npm install --force",
     "verify": "npm run lint:fix && npm run readme:check",
     "verify:strict": "npm run lint:strict:fix && npm run readme:check",

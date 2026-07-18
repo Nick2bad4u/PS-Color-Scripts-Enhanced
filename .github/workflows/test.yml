@@ -10,6 +10,9 @@ on:
 
 name: Tests
 
+env:
+    PESTER_VERSION: "5.8.0"
+
 permissions:
     contents: read
 
@@ -34,8 +37,8 @@ jobs:
               shell: powershell
               run: |
                   Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-                  if (-not (Get-Module -ListAvailable -Name Pester)) {
-                      Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
+                  if (-not (Get-Module -ListAvailable -Name Pester | Where-Object Version -EQ $env:PESTER_VERSION)) {
+                      Install-Module -Name Pester -RequiredVersion $env:PESTER_VERSION -Force -SkipPublisherCheck
                   }
                   if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
                       Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
@@ -114,8 +117,8 @@ jobs:
               shell: pwsh
               run: |
                   Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-                  if (-not (Get-Module -ListAvailable -Name Pester)) {
-                      Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
+                  if (-not (Get-Module -ListAvailable -Name Pester | Where-Object Version -EQ $env:PESTER_VERSION)) {
+                      Install-Module -Name Pester -RequiredVersion $env:PESTER_VERSION -Force -SkipPublisherCheck
                   }
                   if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
                       Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
@@ -203,8 +206,8 @@ jobs:
               shell: pwsh
               run: |
                   Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-                  if (-not (Get-Module -ListAvailable -Name Pester)) {
-                      Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
+                  if (-not (Get-Module -ListAvailable -Name Pester | Where-Object Version -EQ $env:PESTER_VERSION)) {
+                      Install-Module -Name Pester -RequiredVersion $env:PESTER_VERSION -Force -SkipPublisherCheck
                   }
                   if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
                       Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
