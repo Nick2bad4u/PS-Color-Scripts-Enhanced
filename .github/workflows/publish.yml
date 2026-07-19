@@ -39,6 +39,7 @@ jobs:
         name: Validate and Publish
         runs-on: windows-latest
         env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             PSGALLERYAPIKEY: ${{ secrets.PSGALLERYAPIKEY }}
             NUGETAPIKEY: ${{ secrets.NUGETAPIKEY }}
             PUBLISH_TO_NUGET_INPUT: ${{ github.event.inputs.publishToNuGet }}
