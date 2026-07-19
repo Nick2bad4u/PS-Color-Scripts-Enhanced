@@ -13,6 +13,7 @@ Describe 'Static colorscript output extraction' {
     Context 'Supported static subset' {
         It 'evaluates assigned ANSI values, interpolation, concatenation, and sequential output exactly' {
             $scriptPath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'static-subset.ps1'
+            $unicodeMarker = [string][char]0x25AC
             $source = @(
                 '$esc = [char]27'
                 '$red = "$esc[31m"'
@@ -20,7 +21,7 @@ Describe 'Static colorscript output extraction' {
                 '$line = "${RED}red$($reset)"'
                 '$copy = $line'
                 '$tail = ''done'' + ''?'''
-                'Write-Host "$copy▬"'
+                ('Write-Host "$copy{0}"' -f $unicodeMarker)
                 'Write-Host'
                 'Write-Host $tail'
             ) -join [Environment]::NewLine
@@ -33,7 +34,7 @@ Describe 'Static colorscript output extraction' {
 
             $escape = [char]27
             $expected = @(
-                "$escape[31mred$escape[0m▬"
+                "$escape[31mred$escape[0m$unicodeMarker"
                 [Environment]::NewLine
                 [Environment]::NewLine
                 'done?'
