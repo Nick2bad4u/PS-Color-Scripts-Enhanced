@@ -237,27 +237,27 @@ Describe 'Selective colorscript output caching' {
             $result.StdOut | Should -BeExactly ($renderedText + [Environment]::NewLine)
         }
 
-        It 'fails closed for interpolated and multi-statement scripts' {
-            $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
-            $interpolatedPath = Join-Path -Path $testRoot -ChildPath 'interpolated.ps1'
-            $multiStatementPath = Join-Path -Path $testRoot -ChildPath 'multi-statement.ps1'
-            Set-Content -LiteralPath $interpolatedPath -Value '$value = ''dynamic''; Write-Host $value' -Encoding UTF8
-            Set-Content -LiteralPath $multiStatementPath -Value 'Write-Host ''first''; Write-Host ''second''' -Encoding UTF8
+        It 'extracts the Debian variable pattern without launching another PowerShell process' {
+            $debianPath = Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts/debian.ps1'
 
-            $availability = InModuleScope ColorScripts-Enhanced -Parameters @{
-                interpolatedPath   = $interpolatedPath
-                multiStatementPath = $multiStatementPath
+            $result = InModuleScope ColorScripts-Enhanced -Parameters @{
+                path = $debianPath
             } {
-                param($interpolatedPath, $multiStatementPath)
+                param($path)
 
-                [pscustomobject]@{
-                    Interpolated = (Get-StaticColorScriptOutput -ScriptPath $interpolatedPath).Available
-                    Multiple     = (Get-StaticColorScriptOutput -ScriptPath $multiStatementPath).Available
+                Mock -CommandName Get-PowerShellExecutable -ModuleName ColorScripts-Enhanced -MockWith {
+                    throw 'The static Debian script must not launch PowerShell.'
                 }
+
+                $invocation = Invoke-ColorScriptProcess -ScriptPath $path
+                Should-Invoke -CommandName Get-PowerShellExecutable -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                $invocation
             }
 
-            $availability.Interpolated | Should -BeFalse
-            $availability.Multiple | Should -BeFalse
+            $result.Success | Should -BeTrue
+            $result.ExitCode | Should -Be 0
+            $result.StdErr | Should -BeExactly ''
+            $result.StdOut | Should -Match ([regex]::Escape("$([char]27)[31m"))
         }
     }
 

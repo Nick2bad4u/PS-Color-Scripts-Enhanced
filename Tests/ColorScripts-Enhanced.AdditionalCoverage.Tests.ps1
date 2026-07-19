@@ -2800,7 +2800,7 @@ Write-Host "$escape[0m text"
 
                 $result = InModuleScope ColorScripts-Enhanced -Parameters @{ scriptPath = $scriptPath } {
                     param($scriptPath)
-                    Invoke-ColorScriptProcess -ScriptPath $scriptPath
+                    Invoke-ColorScriptProcess -ScriptPath $scriptPath -ForCache
                 }
 
                 $result.Success | Should -BeTrue
@@ -2844,7 +2844,7 @@ Write-Host "$escape[0m text"
 
                 $result = InModuleScope ColorScripts-Enhanced -Parameters @{ scriptPath = $scriptPath } {
                     param($scriptPath)
-                    Invoke-ColorScriptProcess -ScriptPath $scriptPath
+                    Invoke-ColorScriptProcess -ScriptPath $scriptPath -ForCache
                 }
 
                 $result.Success | Should -BeFalse

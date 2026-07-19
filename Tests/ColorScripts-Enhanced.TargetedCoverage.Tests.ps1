@@ -483,7 +483,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
 
             $result = InModuleScope ColorScripts-Enhanced -Parameters @{ path = $scriptPath } {
                 param($path)
-                Invoke-ColorScriptProcess -ScriptPath $path
+                Invoke-ColorScriptProcess -ScriptPath $path -ForCache
             }
 
             $result.Success | Should -BeTrue
@@ -522,7 +522,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
 
             $result = InModuleScope ColorScripts-Enhanced -Parameters @{ path = $scriptPath } {
                 param($path)
-                Invoke-ColorScriptProcess -ScriptPath $path
+                Invoke-ColorScriptProcess -ScriptPath $path -ForCache
             }
 
             $result.Success | Should -BeFalse
