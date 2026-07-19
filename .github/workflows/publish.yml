@@ -81,8 +81,28 @@ jobs:
               shell: pwsh
 
             - name: Build latest Manifest Version
+              env:
+                  VERSION_OVERRIDE: ${{ github.event.inputs.versionOverride }}
               run: |
-                  npm run build
+                  if ([string]::IsNullOrWhiteSpace($env:VERSION_OVERRIDE)) {
+                      npm run build
+                      if ($LASTEXITCODE -ne 0) {
+                          throw "Build failed with exit code $LASTEXITCODE."
+                      }
+                  }
+                  else {
+                      pwsh -NoProfile -File ./scripts/build.ps1 -Version $env:VERSION_OVERRIDE
+                      if ($LASTEXITCODE -ne 0) {
+                          throw "Versioned module build failed with exit code $LASTEXITCODE."
+                      }
+
+                      foreach ($scriptName in @('release:notes', 'release:notes:latest', 'verify', 'test:coverage')) {
+                          npm run $scriptName
+                          if ($LASTEXITCODE -ne 0) {
+                              throw "npm run $scriptName failed with exit code $LASTEXITCODE."
+                          }
+                      }
+                  }
               shell: pwsh
 
             - name: Run Script Analyzer
@@ -142,13 +162,15 @@ jobs:
 
             - name: Verify manifest version
               id: manifest
+              env:
+                  VERSION_OVERRIDE: ${{ github.event.inputs.versionOverride }}
               shell: pwsh
               run: |
                   $manifest = Test-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1
-                  $version = if ([string]::IsNullOrWhiteSpace('${{ github.event.inputs.versionOverride }}')) {
-                      $manifest.Version.ToString()
-                  } else {
-                      '${{ github.event.inputs.versionOverride }}'
+                  $version = $manifest.Version.ToString()
+
+                  if (-not [string]::IsNullOrWhiteSpace($env:VERSION_OVERRIDE) -and $env:VERSION_OVERRIDE -cne $version) {
+                      throw "Requested version override $($env:VERSION_OVERRIDE) does not match built manifest version $version."
                   }
 
                   Write-Host "Module version: $version"
