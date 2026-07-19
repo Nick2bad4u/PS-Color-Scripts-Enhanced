@@ -45,7 +45,7 @@
             }
         }
 
-        It 'skips up-to-date when cache metadata is fresh without reading cached content' {
+        It 'skips up-to-date when cache is fresh and returns cached content' {
             InModuleScope ColorScripts-Enhanced -Parameters @{ root = $script:CacheRoot } {
                 param($root)
                 # Prepare a fresh cache file newer than the script source
@@ -58,7 +58,7 @@
                 $res = New-ColorScriptCache -Name 'aurora-bands' -PassThru
                 $rec = $res | Where-Object Name -EQ 'aurora-bands' | Select-Object -First 1
                 $rec.Status | Should -Be 'SkippedUpToDate'
-                $rec.StdOut | Should -BeNullOrEmpty
+                $rec.StdOut | Should -Match '^precache'
             }
         }
     }
