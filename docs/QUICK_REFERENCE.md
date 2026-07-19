@@ -68,7 +68,7 @@ New-ColorScriptCache -Name penrose-quasicrystal,perlin-clouds,aurora-bands
 New-ColorScriptCache -Force
 ```
 
-> Running `New-ColorScriptCache` without parameters evaluates the entire collection but only caches scripts selected by `CachePolicy.psd1`. Static output scripts are skipped.
+> Running `New-ColorScriptCache` without parameters resolves only the scripts selected by `CachePolicy.psd1`; it does not enumerate or display all 3,000+ scripts. Exact names also use a direct lookup. Wildcard, category, and tag selections enumerate only when their matching semantics require it.
 
 ### Clear Cache
 
@@ -95,6 +95,8 @@ Get-ColorScriptConfiguration
 Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -ProfileAutoShow:$false
 Reset-ColorScriptConfiguration
 ```
+
+The build summary prints the effective cache directory. Each cached renderer stores its output as `<name>.cache` and its validation sidecar as `<name>.cacheinfo` in that same directory. Sidecars are not rendered output; if a payload is missing, the next build regenerates it. `Clear-ColorScriptCache -All` removes complete entries and orphaned sidecars.
 
 ### Export Metadata
 
@@ -239,7 +241,7 @@ New-ColorScriptCache
   [-All]                # All scripts
   [-Force]              # Rebuild existing cache
   [-PassThru]           # Return detailed results
-  [-Quiet]              # Suppress summary output
+  [-Quiet]              # Suppress progress and summary output
   [-NoAnsiOutput]       # Disable ANSI in summary
 ```
 

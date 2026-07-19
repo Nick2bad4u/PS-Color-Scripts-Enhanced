@@ -62,6 +62,7 @@ StatusSkippedByUser = Vom Benutzer übersprungen
 StatusFailed = Fehlgeschlagen
 StatusUpToDateSkipped = Aktuell (übersprungen)
 CacheBuildSummaryFormat = Cache build summary: Processed {0}, Updated {1}, Skipped {2}, Failed {3}
+CacheDirectoryFormat = Cache directory: {0}
 CacheClearSummaryFormat = Cache clear summary: Removed {0}, Missing {1}, Skipped {2}, DryRun {3}, Errors {4}
 
 # Interactive Messages

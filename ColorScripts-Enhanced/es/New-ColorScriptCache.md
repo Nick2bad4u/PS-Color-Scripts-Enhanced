@@ -327,7 +327,7 @@ HelpMessage: ""
 
 ### -Name
 
-Uno o más nombres de colorescript para evaluar. Admite patrones de comodines (ej. 'aurora-_', '_-wave'). Cuando este parámetro se omite y no se especifican filtros, el cmdlet evalúa todos los scripts, pero solo almacena los seleccionados por `CachePolicy.psd1`.
+Uno o más nombres de colorescript para evaluar. Admite patrones de comodines (por ejemplo, `aurora-*` y `*-wave`). Cuando se omiten este parámetro y todos los filtros, solo se resuelven y evalúan las entradas de `CachePolicy.psd1`.
 
 ```yaml
 Type: System.String[]

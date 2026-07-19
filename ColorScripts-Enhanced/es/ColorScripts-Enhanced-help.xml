@@ -2509,7 +2509,7 @@ El cmdlet omite los scripts cuyos archivos de caché ya están actualizados a me
         <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
           <maml:name>Name</maml:name>
           <maml:description>
-            <maml:para>Uno o más nombres de colorescript para evaluar. Admite patrones de comodines (ej. 'aurora-_', '_-wave'). Cuando este parámetro se omite y no se especifican filtros, el cmdlet evalúa todos los scripts, pero solo almacena los seleccionados por `CachePolicy.psd1`.</maml:para>
+            <maml:para>Uno o más nombres de colorescript para evaluar. Admite patrones de comodines (ej. 'aurora-*', '*-wave'). Cuando se omiten este parámetro y todos los filtros, solo se resuelven y evalúan las entradas de `CachePolicy.psd1`.</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
         </command:parameter>
@@ -2568,7 +2568,7 @@ El cmdlet omite los scripts cuyos archivos de caché ya están actualizados a me
       <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
         <maml:name>Name</maml:name>
         <maml:description>
-          <maml:para>Uno o más nombres de colorescript para evaluar. Admite patrones de comodines (ej. 'aurora-_', '_-wave'). Cuando este parámetro se omite y no se especifican filtros, el cmdlet evalúa todos los scripts, pero solo almacena los seleccionados por `CachePolicy.psd1`.</maml:para>
+          <maml:para>Uno o más nombres de colorescript para evaluar. Admite patrones de comodines (ej. 'aurora-*', '*-wave'). Cuando se omiten este parámetro y todos los filtros, solo se resuelven y evalúan las entradas de `CachePolicy.psd1`.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
       </command:parameter>

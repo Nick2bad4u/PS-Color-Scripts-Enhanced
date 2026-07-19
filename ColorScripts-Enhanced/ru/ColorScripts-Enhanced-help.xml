@@ -2481,7 +2481,7 @@ The cmdlet intelligently skips scripts whose cache files are already up-to-date 
         <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
           <maml:name>Name</maml:name>
           <maml:description>
-            <maml:para>One or more colorscript names to evaluate. Supports wildcard patterns (e.g., 'aurora-_', '_-wave'). When this parameter is omitted and no filters are specified, the cmdlet evaluates every script but caches only entries selected by `CachePolicy.psd1`.</maml:para>
+            <maml:para>One or more colorscript names to evaluate. Supports wildcard patterns (e.g., 'aurora-*', '*-wave'). When this parameter and all filters are omitted, only `CachePolicy.psd1` entries are resolved and evaluated.</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
         </command:parameter>
@@ -2540,7 +2540,7 @@ The cmdlet intelligently skips scripts whose cache files are already up-to-date 
       <command:parameter required="false" variableLength="false" globbing="true" pipelineInput="false" position="0" aliases="none">
         <maml:name>Name</maml:name>
         <maml:description>
-          <maml:para>One or more colorscript names to evaluate. Supports wildcard patterns (e.g., 'aurora-_', '_-wave'). When this parameter is omitted and no filters are specified, the cmdlet evaluates every script but caches only entries selected by `CachePolicy.psd1`.</maml:para>
+          <maml:para>One or more colorscript names to evaluate. Supports wildcard patterns (e.g., 'aurora-*', '*-wave'). When this parameter and all filters are omitted, only `CachePolicy.psd1` entries are resolved and evaluated.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="true">System.String[]</command:parameterValue>
       </command:parameter>

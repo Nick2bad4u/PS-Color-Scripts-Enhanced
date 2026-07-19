@@ -17,7 +17,7 @@ Pre-build or refresh colorscript cache files for faster rendering.
 
 `New-ColorScriptCache` executes computationally expensive colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 encoding (without BOM). Static output scripts execute directly and never create cache files. You can also use the alias `Update-ColorScriptCache` to invoke this cmdlet.
 
-You can target scripts by name (wildcards supported), category, or tag. When no parameters are specified, the cmdlet evaluates the full collection but builds only the scripts listed in `CachePolicy.psd1`. Unlisted scripts return `SkippedNotRequired` with `-PassThru`, and their obsolete cache files are removed.
+You can target scripts by name (wildcards supported), category, or tag. With no selection parameters, the cmdlet resolves `CachePolicy.psd1` entries directly without enumerating the full collection. Unlisted scripts return `SkippedNotRequired` only when selected explicitly.
 
 By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.
 
@@ -47,7 +47,7 @@ New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>]
 New-ColorScriptCache
 ```
 
-Evaluate every script that ships with the module and warm only the policy-selected computational renderers. This is the default behavior when no parameters are specified.
+Resolve and warm only the policy-selected computational renderers without enumerating every script that ships with the module. This is the default behavior when no parameters are specified.
 
 ### EXAMPLE 2
 
@@ -178,7 +178,7 @@ Caches eligible scripts tagged as animated and shows the count of updated cache 
 
 ### -All
 
-Evaluate every available script against the cache policy. Only policy-selected scripts are cached; static and unlisted scripts are skipped.
+Resolve every cache-policy entry directly. Only policy-selected scripts are processed; the full colorscript inventory is not enumerated.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -306,7 +306,7 @@ HelpMessage: ""
 
 ### -Name
 
-One or more colorscript names to evaluate. Supports wildcard patterns (e.g., 'aurora-_', '_-wave'). When this parameter is omitted and no filters are specified, the cmdlet evaluates every script but caches only entries selected by `CachePolicy.psd1`.
+One or more colorscript names to evaluate. Supports wildcard patterns (for example, `aurora-*` and `*-wave`). When this parameter and all filters are omitted, only `CachePolicy.psd1` entries are resolved and evaluated.
 
 ```yaml
 Type: System.String[]
