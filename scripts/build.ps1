@@ -531,6 +531,9 @@ $($releaseNotes.TrimEnd())
 }
 "@
 
+    # Interpolated blocks can carry a different newline style than this here-string.
+    # Normalize the final manifest so ScriptAnalyzer's formatting pass can process it.
+    $manifestContent = [regex]::Replace($manifestContent, '\r\n?|\n', [Environment]::NewLine)
     Set-Content -Path $manifestPath -Value $manifestContent -Encoding UTF8
 
     # Validate the formatted manifest

@@ -66,16 +66,16 @@ if (-not $ModulePath) {
     $ModulePath = Join-Path $repoRoot 'ColorScripts-Enhanced'
 }
 
-$ModuleManifestPath = Get-ChildItem -Path $ModulePath -Filter '*.psd1' -File | Select-Object -First 1
-if (-not $ModuleManifestPath) {
-    throw "Module manifest (*.psd1) not found in $ModulePath."
+$moduleName = Split-Path -Path $ModulePath -Leaf
+$ModuleManifestPath = Join-Path -Path $ModulePath -ChildPath ("{0}.psd1" -f $moduleName)
+if (-not (Test-Path -LiteralPath $ModuleManifestPath -PathType Leaf)) {
+    throw "Module manifest '$ModuleManifestPath' was not found."
 }
-$ModuleManifestPath = $ModuleManifestPath.FullName
+$ModuleManifestPath = (Get-Item -LiteralPath $ModuleManifestPath).FullName
 
 $moduleData = Import-PowerShellDataFile -Path $ModuleManifestPath
 $moduleGuid = [string]$moduleData.GUID
 $moduleVersion = [string]$moduleData.ModuleVersion
-$moduleName = Split-Path -Path $ModulePath -Leaf
 
 # Get all available UI cultures (directories with help content)
 $availableCultures = Get-ChildItem -Path $ModulePath -Directory |
