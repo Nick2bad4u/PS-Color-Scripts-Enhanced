@@ -87,7 +87,7 @@ Describe 'Cache metadata coverage' {
             }
 
             $metadataPath = Join-Path -Path $cacheRoot -ChildPath 'delta.cacheinfo'
-            $metadata = Get-Content -LiteralPath $metadataPath -Raw | ConvertFrom-Json -Depth 5
+            $metadata = Get-Content -LiteralPath $metadataPath -Raw | ConvertFrom-Json
             $metadata.ScriptHash | Should -Be 'abc123'
             $metadata.ScriptLength | Should -Be 42
             $metadata.ModuleVersion | Should -Be '9.9.9'
@@ -97,13 +97,77 @@ Describe 'Cache metadata coverage' {
                 $rawTimestamp.ToUniversalTime()
             }
             elseif (-not [string]::IsNullOrWhiteSpace($rawTimestamp)) {
-                [datetime]::ParseExact([string]$rawTimestamp, 'o', [System.Globalization.CultureInfo]::InvariantCulture)
+                [datetime]::ParseExact([string]$rawTimestamp, 'o', [System.Globalization.CultureInfo]::InvariantCulture).ToUniversalTime()
             }
             else {
                 $null
             }
 
             $parsedTimestamp | Should -Be ($signature.LastWriteTimeUtc.ToUniversalTime())
+        }
+
+        It 'serializes the same cache entry across module runspaces' {
+            $cacheRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'CacheEntryLock'
+            $logPath = Join-Path -Path $cacheRoot -ChildPath 'critical-sections.log'
+            New-Item -ItemType Directory -Path $cacheRoot -Force | Out-Null
+
+            $worker = {
+                param($moduleManifest, $root, $log, $label)
+
+                Import-Module -Name $moduleManifest -Force
+                $module = Get-Module -Name ColorScripts-Enhanced -ErrorAction Stop
+                $module.Invoke({
+                        param($cacheRootPath, $logFilePath, $workerLabel)
+
+                        Invoke-WithColorScriptCacheEntryLock -CacheRoot $cacheRootPath -ScriptName 'shared' -Operation {
+                            param($targetLog, $targetLabel)
+
+                            Add-Content -LiteralPath $targetLog -Value ("{0}-start" -f $targetLabel)
+                            Start-Sleep -Milliseconds 250
+                            Add-Content -LiteralPath $targetLog -Value ("{0}-end" -f $targetLabel)
+                        } -ArgumentList @($logFilePath, $workerLabel)
+                    }, $root, $log, $label)
+            }
+
+            $pool = [System.Management.Automation.Runspaces.RunspaceFactory]::CreateRunspacePool(1, 2)
+            $pool.Open()
+            $workers = @()
+
+            try {
+                foreach ($label in 'first', 'second') {
+                    $powerShell = [System.Management.Automation.PowerShell]::Create()
+                    $powerShell.RunspacePool = $pool
+                    $null = $powerShell.AddScript($worker.ToString())
+                    $null = $powerShell.AddArgument($script:ModuleManifest)
+                    $null = $powerShell.AddArgument($cacheRoot)
+                    $null = $powerShell.AddArgument($logPath)
+                    $null = $powerShell.AddArgument($label)
+                    $workers += [pscustomobject]@{
+                        PowerShell = $powerShell
+                        Async      = $powerShell.BeginInvoke()
+                    }
+                }
+
+                foreach ($activeWorker in $workers) {
+                    $null = $activeWorker.PowerShell.EndInvoke($activeWorker.Async)
+                    $activeWorker.PowerShell.HadErrors | Should -BeFalse
+                }
+            }
+            finally {
+                foreach ($activeWorker in $workers) {
+                    $activeWorker.PowerShell.Dispose()
+                }
+                $pool.Close()
+                $pool.Dispose()
+            }
+
+            $lines = @(Get-Content -LiteralPath $logPath)
+            $lines | Should -HaveCount 4
+            $lines[0] | Should -Match '^(first|second)-start$'
+            $lines[1] | Should -Be ($lines[0] -replace '-start$', '-end')
+            $lines[2] | Should -Match '^(first|second)-start$'
+            $lines[2] | Should -Not -Be $lines[0]
+            $lines[3] | Should -Be ($lines[2] -replace '-start$', '-end')
         }
     }
 
@@ -133,7 +197,7 @@ Describe 'Cache metadata coverage' {
                 [pscustomobject]@{
                     Result = $result
                     MetadataExists = Test-Path -LiteralPath $metadataPath
-                    Metadata = if (Test-Path -LiteralPath $metadataPath) { Get-Content -LiteralPath $metadataPath -Raw | ConvertFrom-Json -Depth 5 } else { $null }
+                    Metadata = if (Test-Path -LiteralPath $metadataPath) { Get-Content -LiteralPath $metadataPath -Raw | ConvertFrom-Json } else { $null }
                 }
             }
 
@@ -229,6 +293,34 @@ Describe 'Cache metadata coverage' {
 
             $info.Updated | Should -Be 1
             $info.Result.Status | Should -Be 'Updated'
+            $info.Result.CacheExists | Should -BeTrue
+        }
+
+        It 'rechecks freshness after acquiring the entry lock' {
+            $info = InModuleScope ColorScripts-Enhanced -Parameters @{ moduleRoot = $script:ModuleRootPath } {
+                param($moduleRoot)
+                . (Join-Path -Path $moduleRoot -ChildPath 'Private/Invoke-ColorScriptCacheOperation.ps1')
+                Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced
+                Mock -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -MockWith {
+                    [pscustomobject]@{
+                        Available = $true
+                        CacheFile = Join-Path $script:CacheDir 'shared.cache'
+                        Content   = 'built by another process'
+                    }
+                }
+                Mock -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -MockWith {
+                    throw 'A cache that became current while waiting for the lock must not rebuild.'
+                }
+
+                $operation = Invoke-ColorScriptCacheOperation -ScriptName 'shared' -ScriptPath 'TestDrive:\shared.ps1'
+                Should-Invoke -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
+                Should-Invoke -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                $operation
+            }
+
+            $info.Updated | Should -Be 0
+            $info.Failed | Should -Be 0
+            $info.Result.Status | Should -Be 'SkippedUpToDate'
             $info.Result.CacheExists | Should -BeTrue
         }
 

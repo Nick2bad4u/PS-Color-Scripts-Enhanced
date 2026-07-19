@@ -14,6 +14,7 @@ $script:Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding($false)
 $script:CacheDir = $null
 $script:CacheInitialized = $false
 $script:CacheableScriptNameSet = $null
+$script:CacheablePokemonScriptNameSet = $null
 $script:CachePolicyLastWriteTime = $null
 $script:ScriptInventory = $null
 $script:ScriptInventoryStamp = $null

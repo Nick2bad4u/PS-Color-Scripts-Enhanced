@@ -9,12 +9,14 @@ function Build-ScriptCache {
     [OutputType([pscustomobject])]
     param(
         [Parameter(Mandatory)]
-        [string]$ScriptPath
+        [string]$ScriptPath,
+
+        [Parameter(DontShow)]
+        [switch]$LockAlreadyHeld
     )
 
     $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($ScriptPath)
     $cacheFile = Join-Path $script:CacheDir "$scriptName.cache"
-    Remove-CacheEntryMetadataFile -ScriptName $scriptName
 
     $result = [pscustomobject]@{
         ScriptName    = $scriptName
@@ -32,54 +34,66 @@ function Build-ScriptCache {
         return $result
     }
 
-    if (-not (Test-ColorScriptRequiresCache -ScriptPath $ScriptPath)) {
-        $cleanup = Remove-ColorScriptCacheEntry -ScriptName $scriptName
-        $result.CacheFile = if ($cleanup.CacheExists) { $cleanup.CacheFile } else { $null }
-        $result.CacheRequired = $false
-        $result.Success = $true
-        return $result
-    }
+    $operation = {
+        param($lockedScriptPath, $lockedScriptName, $lockedCacheFile, $lockedResult)
 
-    $execution = Invoke-ColorScriptProcess -ScriptPath $ScriptPath -ForCache
-    $result.ExitCode = $execution.ExitCode
-    $result.StdOut = $execution.StdOut
-    $result.StdErr = $execution.StdErr
+        Remove-CacheEntryMetadataFile -ScriptName $lockedScriptName
 
-    if ($execution.Success) {
-        try {
-            Invoke-FileWriteAllText -Path $cacheFile -Content $execution.StdOut -Encoding $script:Utf8NoBomEncoding
-
-            try {
-                $cacheStamp = (Get-Date).ToUniversalTime()
-                Set-FileLastWriteTimeUtc -Path $cacheFile -Timestamp $cacheStamp
-            }
-            catch {
-                $cacheStamp = Get-Date
-                Set-FileLastWriteTime -Path $cacheFile -Timestamp $cacheStamp
-            }
-
-            $signature = Get-FileContentSignature -Path $ScriptPath -IncludeHash
-            Write-CacheEntryMetadataFile -ScriptName $scriptName -Signature $signature -CacheFile $cacheFile
-            $result.CacheCreated = $true
-            $result.Success = $true
+        if (-not (Test-ColorScriptRequiresCache -ScriptPath $lockedScriptPath)) {
+            $cleanup = Remove-ColorScriptCacheEntry -ScriptName $lockedScriptName
+            $lockedResult.CacheFile = if ($cleanup.CacheExists) { $cleanup.CacheFile } else { $null }
+            $lockedResult.CacheRequired = $false
+            $lockedResult.Success = $true
+            return $lockedResult
         }
-        catch {
-            $result.StdErr = $_.Exception.Message
+
+        $execution = Invoke-ColorScriptProcess -ScriptPath $lockedScriptPath -ForCache
+        $lockedResult.ExitCode = $execution.ExitCode
+        $lockedResult.StdOut = $execution.StdOut
+        $lockedResult.StdErr = $execution.StdErr
+
+        if ($execution.Success) {
             try {
-                if (Test-Path -LiteralPath $cacheFile -PathType Leaf) {
-                    Remove-Item -LiteralPath $cacheFile -Force -ErrorAction Stop
+                Invoke-FileWriteAllText -Path $lockedCacheFile -Content $execution.StdOut -Encoding $script:Utf8NoBomEncoding
+
+                try {
+                    $cacheStamp = (Get-Date).ToUniversalTime()
+                    Set-FileLastWriteTimeUtc -Path $lockedCacheFile -Timestamp $cacheStamp
                 }
+                catch {
+                    $cacheStamp = Get-Date
+                    Set-FileLastWriteTime -Path $lockedCacheFile -Timestamp $cacheStamp
+                }
+
+                $signature = Get-FileContentSignature -Path $lockedScriptPath -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName $lockedScriptName -Signature $signature -CacheFile $lockedCacheFile
+                $lockedResult.CacheCreated = $true
+                $lockedResult.Success = $true
             }
             catch {
-                Write-Verbose ("Failed to remove incomplete cache '{0}': {1}" -f $cacheFile, $_.Exception.Message)
+                $lockedResult.StdErr = $_.Exception.Message
+                try {
+                    if (Test-Path -LiteralPath $lockedCacheFile -PathType Leaf) {
+                        Remove-Item -LiteralPath $lockedCacheFile -Force -ErrorAction Stop
+                    }
+                }
+                catch {
+                    Write-Verbose ("Failed to remove incomplete cache '{0}': {1}" -f $lockedCacheFile, $_.Exception.Message)
+                }
+
+                Remove-CacheEntryMetadataFile -ScriptName $lockedScriptName
             }
-
-            Remove-CacheEntryMetadataFile -ScriptName $scriptName
         }
-    }
-    elseif (-not $result.StdErr) {
-        $result.StdErr = ($script:Messages.ScriptExitedWithCode -f $execution.ExitCode)
+        elseif (-not $lockedResult.StdErr) {
+            $lockedResult.StdErr = ($script:Messages.ScriptExitedWithCode -f $execution.ExitCode)
+        }
+
+        return $lockedResult
     }
 
-    return $result
+    if ($LockAlreadyHeld) {
+        return & $operation $ScriptPath $scriptName $cacheFile $result
+    }
+
+    return Invoke-WithColorScriptCacheEntryLock -CacheRoot $script:CacheDir -ScriptName $scriptName -Operation $operation -ArgumentList @($ScriptPath, $scriptName, $cacheFile, $result)
 }

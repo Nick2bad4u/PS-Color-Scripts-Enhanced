@@ -17,6 +17,7 @@ Describe 'Selective colorscript output caching' {
 
             $policy.CacheableScripts.Count | Should -BeGreaterThan 0
             $uniqueNames | Should -HaveCount $policy.CacheableScripts.Count
+            $policy.CacheablePokemonScripts | Should -BeNullOrEmpty
 
             foreach ($scriptName in $policy.CacheableScripts) {
                 $scriptPath = Join-Path -Path $script:ModuleRoot -ChildPath ("Scripts/{0}.ps1" -f $scriptName)
@@ -32,7 +33,9 @@ Describe 'Selective colorscript output caching' {
                     Static    = Test-ColorScriptRequiresCache -ScriptPath (Join-Path -Path $root -ChildPath 'Scripts/1998-01-fev-ice.ps1')
                     Bars      = Test-ColorScriptRequiresCache -ScriptPath (Join-Path -Path $root -ChildPath 'Scripts/bars.ps1')
                     Benchmark = Test-ColorScriptRequiresCache -ScriptPath (Join-Path -Path $root -ChildPath 'Scripts/terminal-benchmark.ps1')
+                    Cats      = Test-ColorScriptRequiresCache -ScriptPath (Join-Path -Path $root -ChildPath 'Scripts/cats.ps1')
                     IsoCubes  = Test-ColorScriptRequiresCache -ScriptPath (Join-Path -Path $root -ChildPath 'Scripts/iso-cubes.ps1')
+                    NerdFont  = Test-ColorScriptRequiresCache -ScriptPath (Join-Path -Path $root -ChildPath 'Scripts/nerd-font-glyphs.ps1')
                     Penrose   = Test-ColorScriptRequiresCache -ScriptPath (Join-Path -Path $root -ChildPath 'Scripts/penrose-quasicrystal.ps1')
                     Perlin    = Test-ColorScriptRequiresCache -ScriptPath (Join-Path -Path $root -ChildPath 'Scripts/perlin-clouds.ps1')
                     Unknown   = Test-ColorScriptRequiresCache -ScriptPath (Join-Path -Path $root -ChildPath 'Scripts/custom-unlisted.ps1')
@@ -42,7 +45,9 @@ Describe 'Selective colorscript output caching' {
             $classification.Static | Should -BeFalse
             $classification.Bars | Should -BeFalse
             $classification.Benchmark | Should -BeFalse
+            $classification.Cats | Should -BeTrue
             $classification.IsoCubes | Should -BeTrue
+            $classification.NerdFont | Should -BeTrue
             $classification.Penrose | Should -BeTrue
             $classification.Perlin | Should -BeTrue
             $classification.Unknown | Should -BeFalse
@@ -135,7 +140,7 @@ Describe 'Selective colorscript output caching' {
                 }
 
                 $record = New-ColorScriptCache -Name '1998-01-fev-ice' -Force -Parallel -ThrottleLimit 2 -PassThru
-                Assert-MockCalled -CommandName Invoke-ColorScriptCacheOperation -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                Should-Invoke -CommandName Invoke-ColorScriptCacheOperation -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
                 $record
             }
 
@@ -155,7 +160,7 @@ Describe 'Selective colorscript output caching' {
                 $script:CacheInitialized = $true
                 $build = Build-ScriptCache -ScriptPath (Join-Path -Path $root -ChildPath 'Scripts/1998-01-fev-ice.ps1')
 
-                Assert-MockCalled -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                Should-Invoke -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
                 $build
             }
 
@@ -187,7 +192,7 @@ Describe 'Selective colorscript output caching' {
                 }
 
                 $invocation = Invoke-ColorScriptProcess -ScriptPath $path
-                Assert-MockCalled -CommandName Get-PowerShellExecutable -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                Should-Invoke -CommandName Get-PowerShellExecutable -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
                 $invocation
             }
 
@@ -228,18 +233,15 @@ Describe 'Selective colorscript output caching' {
                     throw 'Name-only selection must not build the metadata table.'
                 }
                 Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
-                    $records = @(
-                        [pscustomobject]@{
-                            Name        = '1998-01-fev-ice'
-                            Path        = '1998-01-fev-ice.ps1'
-                            Category    = $null
-                            Categories  = @()
-                            Tags        = @()
-                            Description = $null
-                            Metadata    = $null
-                        }
-                    )
-                    Write-Output -NoEnumerate -InputObject $records
+                    [pscustomobject]@{
+                        Name        = '1998-01-fev-ice'
+                        Path        = '1998-01-fev-ice.ps1'
+                        Category    = $null
+                        Categories  = @()
+                        Tags        = @()
+                        Description = $null
+                        Metadata    = $null
+                    }
                 }
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith {
                     throw 'Static output must not initialize the cache.'
@@ -256,11 +258,11 @@ Describe 'Selective colorscript output caching' {
 
                 $text = Show-ColorScript -Name '1998-01-fev-ice' -ReturnText -Quiet
 
-                Assert-MockCalled -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
-                Assert-MockCalled -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
-                Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
-                Assert-MockCalled -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
-                Assert-MockCalled -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                Should-Invoke -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                Should-Invoke -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                Should-Invoke -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                Should-Invoke -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
+                Should-Invoke -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
                 $text
             }
 
@@ -282,10 +284,10 @@ Describe 'Selective colorscript output caching' {
 
                 $text = Show-ColorScript -Name 'penrose-quasicrystal' -ReturnText -Quiet
 
-                Assert-MockCalled -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
-                Assert-MockCalled -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
-                Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
-                Assert-MockCalled -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                Should-Invoke -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
+                Should-Invoke -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
+                Should-Invoke -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                Should-Invoke -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
                 $text
             }
 

@@ -91,6 +91,7 @@ Clear-ColorScriptCache -Name hearts -Path 'C:/temp/colorscripts-cache'
 
 ```powershell
 Get-ColorScriptConfiguration
+(Get-ColorScriptConfiguration).Cache.EffectivePath
 Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -ProfileAutoShow:$false
 Reset-ColorScriptConfiguration
 ```

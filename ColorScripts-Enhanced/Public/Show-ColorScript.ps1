@@ -559,12 +559,14 @@
                         ($excludeCategorySet.Count -gt 0)
                     )
 
-                    $records = if ($needsMetadata) {
-                        Get-ColorScriptEntry -Category $Category -Tag $Tag
-                    }
-                    else {
-                        Get-ColorScriptInventory
-                    }
+                    $records = @(
+                        if ($needsMetadata) {
+                            Get-ColorScriptEntry -Category $Category -Tag $Tag
+                        }
+                        else {
+                            Get-ColorScriptInventory
+                        }
+                    )
 
                     if (-not $records -or $records.Count -eq 0) {
                         Write-Warning ($script:Messages.NoColorscriptsFoundInScriptsPath -f $script:ScriptsPath)

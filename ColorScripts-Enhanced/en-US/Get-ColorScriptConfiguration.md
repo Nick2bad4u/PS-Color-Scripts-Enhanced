@@ -23,7 +23,7 @@ Get-ColorScriptConfiguration [<CommonParameters>]
 
 `Get-ColorScriptConfiguration` retrieves the effective module configuration, which controls various aspects of ColorScripts-Enhanced behavior. This includes:
 
-- **Cache Settings**: Location where script metadata and indexes are stored for performance optimization
+- **Cache Settings**: The configured override and resolved effective cache directory
 - **Startup Behavior**: Flags that control whether scripts run automatically when PowerShell sessions start
 - **Path Configuration**: Custom script directories and search paths
 - **Display Preferences**: Default formatting and output options
@@ -60,10 +60,12 @@ Serializes the configuration to JSON format for logging, debugging, or exporting
 
 ```powershell
 $config = Get-ColorScriptConfiguration
-$config.Cache.Location
+$config.Cache.EffectivePath
 ```
 
-Retrieves the configuration and accesses the cache location path directly from the hashtable.
+Retrieves the resolved cache directory. `Cache.Path` remains the optional user-configured override;
+`Cache.EffectivePath` shows the directory the module actually uses after platform defaults and
+environment overrides are applied.
 
 ### EXAMPLE 4
 
@@ -104,6 +106,8 @@ if ($config.Cache.Path) {
 } else {
     Write-Host "Using default cache path"
 }
+
+Write-Host "Effective cache path: $($config.Cache.EffectivePath)"
 ```
 
 Determines whether a custom cache path is configured vs using module defaults.
@@ -162,8 +166,8 @@ This cmdlet does not accept pipeline input.
 Returns a nested hashtable containing the following structure:
 
 - **Cache** (Hashtable): Cache-related settings
-  - **Location** (String): Path to the cache directory
-  - **Enabled** (Boolean): Whether caching is active
+  - **Path** (String): Optional persisted cache path override
+  - **EffectivePath** (String): Resolved cache directory currently used by the module
 - **Startup** (Hashtable): Startup behavior settings
   - **Enabled** (Boolean): Whether scripts run on session start
   - **ScriptName** (String): Name of the default startup script

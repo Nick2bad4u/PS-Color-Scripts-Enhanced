@@ -126,18 +126,9 @@ function New-ColorScriptCache {
             }
         }
 
-        # If specific script names are requested and any are Pokémon scripts, include them even when
-        # Pokémon are normally filtered out by default.
+        # Explicit names always win over the default Pokémon exclusion.
         if ($filterPokemon -and $PSBoundParameters.ContainsKey('Name') -and $Name) {
-            $pokemonNames = Get-PokemonScriptNameSet
-            if ($pokemonNames -and $pokemonNames.Count -gt 0) {
-                foreach ($requested in @($Name | Where-Object { $_ })) {
-                    if ($pokemonNames.Contains([string]$requested)) {
-                        $filterPokemon = $false
-                        break
-                    }
-                }
-            }
+            $filterPokemon = $false
         }
 
         if ($h) {
@@ -185,9 +176,8 @@ function New-ColorScriptCache {
         }
 
         if ($filterPokemon) {
-            $pokemonNameSet = Get-PokemonScriptNameSet
+            $pokemonNameSet = Get-ColorScriptCacheablePokemonNameSet
             if (-not ($pokemonNameSet -and $pokemonNameSet.Count -gt 0)) {
-                Write-Verbose 'Unable to build Pokemon exclusion list from metadata.'
                 $pokemonNameSet = $null
             }
         }
@@ -234,8 +224,15 @@ function New-ColorScriptCache {
         $requestedNames = $collectedNames
         $allRecords = @()
 
+        $metadataFiltersRequested = ($Category -and $Category.Count -gt 0) -or ($Tag -and $Tag.Count -gt 0)
+
         try {
-            $allRecords = @(Get-ColorScriptEntry -Category $Category -Tag $Tag)
+            $allRecords = if ($metadataFiltersRequested) {
+                @(Get-ColorScriptEntry -Category $Category -Tag $Tag)
+            }
+            else {
+                @(Get-ColorScriptInventory)
+            }
         }
         catch {
             Write-Verbose ("Get-ColorScriptEntry failed: {0}" -f $_.Exception.Message)
@@ -290,6 +287,16 @@ function New-ColorScriptCache {
                 if (-not $name) { return $true }
                 -not $pokemonNameSet.Contains([string]$name)
             }
+        }
+
+        # Implicit bulk selections should only process the curated cache policy. Explicit names
+        # retain the SkippedNotRequired result so callers can discover that a requested static
+        # script intentionally executes directly.
+        if ($requestedNames.Count -eq 0 -and -not $metadataFiltersRequested) {
+            $cacheableNameSet = Get-ColorScriptCacheableNameSet
+            $candidateRecords = @($candidateRecords | Where-Object {
+                    $_.Name -and $cacheableNameSet.Contains([string]$_.Name)
+                })
         }
 
         if (-not $candidateRecords -or $candidateRecords.Count -eq 0) {
@@ -426,7 +433,7 @@ function New-ColorScriptCache {
                     continue
                 }
 
-                $operation = Invoke-ColorScriptCacheOperation -ScriptName $scriptName -ScriptPath $scriptPath
+                $operation = Invoke-ColorScriptCacheOperation -ScriptName $scriptName -ScriptPath $scriptPath -Force:$Force.IsPresent
 
                 if ($operation.Warning) {
                     Write-Warning $operation.Warning
@@ -606,14 +613,14 @@ function New-ColorScriptCache {
                 $jobList = New-Object 'System.Collections.Generic.List[pscustomobject]'
 
                 $workerScriptBlock = {
-                    param($scriptName, $scriptPath)
+                    param($scriptName, $scriptPath, $forceRebuild)
                     $moduleInfo = Get-Module -Name 'ColorScripts-Enhanced'
                     if (-not $moduleInfo) {
                         Import-Module -Name $using:moduleManifest -Force -ErrorAction Stop
                         $moduleInfo = Get-Module -Name 'ColorScripts-Enhanced' -ErrorAction Stop
                     }
 
-                    $moduleInfo.Invoke({ param($name, $path) Invoke-ColorScriptCacheOperation -ScriptName $name -ScriptPath $path }, $scriptName, $scriptPath)
+                    $moduleInfo.Invoke({ param($name, $path, $force) Invoke-ColorScriptCacheOperation -ScriptName $name -ScriptPath $path -Force:$force }, $scriptName, $scriptPath, $forceRebuild)
                 }
 
                 try {
@@ -622,7 +629,7 @@ function New-ColorScriptCache {
                         $psInstance.RunspacePool = $runspacePool
                         $null = $psInstance.AddCommand('Microsoft.PowerShell.Core\Invoke-Command')
                         $null = $psInstance.AddParameter('ScriptBlock', $workerScriptBlock)
-                        $null = $psInstance.AddParameter('ArgumentList', @($item.Name, $item.Path))
+                        $null = $psInstance.AddParameter('ArgumentList', @($item.Name, $item.Path, $Force.IsPresent))
 
                         $asyncResult = $psInstance.BeginInvoke()
 

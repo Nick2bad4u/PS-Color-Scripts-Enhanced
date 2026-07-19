@@ -31,8 +31,8 @@
                 Mock -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced
                 New-ColorScriptCache -h
-                Assert-MockCalled Show-ColorScriptHelp -Times 1 -Exactly
-                Assert-MockCalled Initialize-CacheDirectory -Times 0 -Exactly
+                Should-Invoke Show-ColorScriptHelp -Times 1 -Exactly
+                Should-Invoke Initialize-CacheDirectory -Times 0 -Exactly
             }
         }
 
@@ -56,7 +56,7 @@
         It 'skips cached entries and respects ShouldProcess opt-out' {
             $result = InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced
-                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheTestRecords }
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheTestRecords }
                 $script:CacheResponses = @(
                     [pscustomobject]@{ Available = $true; CacheFile = 'alpha.cache'; Content = 'cached-alpha' },
                     [pscustomobject]@{ Available = $false; CacheFile = 'beta.cache'; Content = '' }
@@ -98,7 +98,7 @@
         It 'builds caches, emits warnings, and summarizes results' {
             $result = InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced
-                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheTestRecords }
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheTestRecords }
                 Mock -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -MockWith { [pscustomobject]@{ Available = $false; CacheFile = $null; Content = '' } }
                 $script:ShouldProcessResponses = @( $true, $true )
                 $script:ShouldProcessIndex = 0
@@ -166,6 +166,35 @@
             $result.ShouldProcess | Should -Be 2
             $result.Warnings | Should -Contain 'alpha warning'
             $result.SummaryMessage | Should -Match 'Processed 2'
+        }
+
+        It 'uses the lightweight inventory and filters bulk builds to the cache policy' {
+            $result = InModuleScope ColorScripts-Enhanced {
+                Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced
+                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                    throw 'Bulk cache builds without metadata filters must not build the metadata table.'
+                }
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
+                    @(
+                        [pscustomobject]@{ Name = 'aurora-bands'; Path = 'TestDrive:\aurora-bands.ps1' },
+                        [pscustomobject]@{ Name = 'bars'; Path = 'TestDrive:\bars.ps1' }
+                    )
+                }
+                Mock -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -MockWith {
+                    [pscustomobject]@{ Available = $true; CacheFile = 'aurora-bands.cache'; Content = 'cached' }
+                }
+
+                $output = @(New-ColorScriptCache -All -PassThru)
+
+                Should-Invoke -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                Should-Invoke -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
+                Should-Invoke -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
+                $output
+            }
+
+            $result | Should -HaveCount 1
+            $result[0].Name | Should -Be 'aurora-bands'
+            $result[0].Status | Should -Be 'SkippedUpToDate'
         }
     }
 }

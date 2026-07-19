@@ -1,4 +1,8 @@
 @{
+    # Pokémon colorscripts are static today, so none require output caching. Keep this separate
+    # from the full metadata catalog so cache builds can apply their default exclusion cheaply.
+    CacheablePokemonScripts = @()
+
     # Output caching is opt-in. These scripts perform substantial rendering work (nested loops,
     # mathematical transforms, or helper-function-heavy generation) instead of emitting static art.
     # Keep this list intentional: cheap output scripts should execute directly.
@@ -16,6 +20,7 @@
         'block-test'
         'boids-flock'
         'braid-resonance'
+        'cats'
         'chromatic-lorenz'
         'chrono-tilt'
         'circle-packing'
@@ -75,6 +80,7 @@
         'nbody-gravity'
         'nebula'
         'nebula-lights'
+        'nerd-font-glyphs'
         'newton-basins'
         'particle-field'
         'penrose-quasicrystal'

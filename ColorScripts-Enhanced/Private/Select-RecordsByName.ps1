@@ -6,14 +6,12 @@ function Select-RecordsByName {
         [string[]]$Name
     )
 
-    $recordList = New-Object 'System.Collections.Generic.List[object]'
-    foreach ($record in $Records) {
-        $null = $recordList.Add($record)
-    }
-
-    $selectedNames = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
-
     if (-not $Name -or $Name.Count -eq 0) {
+        $recordList = New-Object 'System.Collections.Generic.List[object]'
+        foreach ($record in $Records) {
+            $null = $recordList.Add($record)
+        }
+
         return [pscustomobject]@{
             Records         = $recordList.ToArray()
             MissingPatterns = @()
@@ -28,7 +26,64 @@ function Select-RecordsByName {
         }
     }
 
+    $selectedNames = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
     $selected = New-Object 'System.Collections.Generic.List[object]'
+    $containsWildcard = @($matchers | Where-Object IsWildcard).Count -gt 0
+
+    if (-not $containsWildcard) {
+        $remainingMatchers = $matchers.Count
+
+        foreach ($record in $Records) {
+            if (-not ($record.PSObject.Properties.Name -contains 'Name')) {
+                continue
+            }
+
+            $candidateName = [string]$record.Name
+            $recordMatched = $false
+
+            foreach ($matcher in $matchers) {
+                if ($matcher.Matched) {
+                    continue
+                }
+
+                if ([System.String]::Equals($candidateName, [string]$matcher.Matcher, [System.StringComparison]::OrdinalIgnoreCase)) {
+                    $matcher.Matched = $true
+                    $remainingMatchers--
+                    $null = $matcher.Matches.Add($candidateName)
+                    $recordMatched = $true
+                }
+            }
+
+            if ($recordMatched -and $selectedNames.Add($candidateName)) {
+                $null = $selected.Add($record)
+            }
+
+            if ($remainingMatchers -eq 0) {
+                break
+            }
+        }
+
+        $missing = $matchers | Where-Object { -not $_.Matched } | ForEach-Object { $_.Pattern }
+        $matchMap = $matchers | ForEach-Object {
+            [pscustomobject]@{
+                Pattern    = $_.Pattern
+                IsWildcard = $_.IsWildcard
+                Matched    = $_.Matched
+                Matches    = $_.Matches.ToArray()
+            }
+        }
+
+        return [pscustomobject]@{
+            Records         = $selected.ToArray()
+            MissingPatterns = [string[]]$missing
+            MatchMap        = $matchMap
+        }
+    }
+
+    $recordList = New-Object 'System.Collections.Generic.List[object]'
+    foreach ($record in $Records) {
+        $null = $recordList.Add($record)
+    }
 
     foreach ($record in $recordList) {
         if (-not ($record.PSObject.Properties.Name -contains 'Name')) {

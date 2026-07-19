@@ -63,28 +63,6 @@ function Get-ColorScriptInventory {
 
         $scriptFiles = $null
 
-        if (-not $shouldRefresh -and $script:ScriptInventoryInitialized -and $currentStamp -eq $script:ScriptInventoryStamp) {
-            $inventoryContainsNonFileInfo = $false
-            if ($script:ScriptInventory) {
-                foreach ($item in $script:ScriptInventory) {
-                    if ($item -isnot [System.IO.FileInfo]) {
-                        $inventoryContainsNonFileInfo = $true
-                        break
-                    }
-                }
-            }
-
-            if (-not $inventoryContainsNonFileInfo) {
-                $probeFiles = & $getScriptFiles $script:ScriptsPath
-
-                $cachedCount = if ($script:ScriptInventory) { $script:ScriptInventory.Count } else { 0 }
-                if ($probeFiles.Count -ne $cachedCount) {
-                    $shouldRefresh = $true
-                    $scriptFiles = $probeFiles
-                }
-            }
-        }
-
         if ($shouldRefresh) {
             if (-not $scriptFiles) {
                 $scriptFiles = & $getScriptFiles $script:ScriptsPath

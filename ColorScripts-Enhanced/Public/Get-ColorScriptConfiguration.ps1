@@ -15,6 +15,19 @@ function Get-ColorScriptConfiguration {
     }
 
     $data = Copy-ColorScriptHashtable (Get-ConfigurationDataInternal)
+
+    try {
+        Initialize-CacheDirectory
+    }
+    catch {
+        Write-Verbose ("Unable to resolve the effective cache path: {0}" -f $_.Exception.Message)
+    }
+
+    if (-not $data.Cache) {
+        $data.Cache = @{}
+    }
+    $data.Cache.EffectivePath = $script:CacheDir
+
     return $data
 }
 

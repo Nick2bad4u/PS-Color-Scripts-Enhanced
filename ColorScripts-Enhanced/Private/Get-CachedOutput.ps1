@@ -87,7 +87,7 @@ function Get-CachedOutput {
         try {
             $metadataContent = & $script:FileReadAllTextDelegate $metadataPath $script:Utf8NoBomEncoding
             if (-not [string]::IsNullOrWhiteSpace($metadataContent)) {
-                $metadata = $metadataContent | ConvertFrom-Json -Depth 5
+                $metadata = $metadataContent | ConvertFrom-Json
             }
         }
         catch {
@@ -166,6 +166,7 @@ function Get-CachedOutput {
                     'o',
                     [System.Globalization.CultureInfo]::InvariantCulture,
                     [System.Globalization.DateTimeStyles]::AdjustToUniversal)
+                $metadataLastWriteUtc = $metadataLastWriteUtc.ToUniversalTime()
             }
             catch {
                 $metadataLastWriteUtc = $null
@@ -190,22 +191,22 @@ function Get-CachedOutput {
         $cacheGeneratedUtc = if ($metadata.PSObject.Properties['CacheGeneratedUtc']) { [string]$metadata.CacheGeneratedUtc } else { $null }
         $storedModuleVersion = if ($metadata.PSObject.Properties['ModuleVersion']) { [string]$metadata.ModuleVersion } else { $null }
 
+        $algorithmNormalized = $metadataHashAlgorithm.ToUpperInvariant()
+        if ($algorithmNormalized -ne 'SHA256') {
+            return [pscustomobject]@{
+                Available     = $false
+                CacheFile     = $cacheFile
+                Content       = ''
+                LastWriteTime = $cacheLastWrite
+            }
+        }
+
         $contentValidated = $false
         if ($metadataLastWriteUtc -and ($scriptLastWriteUtc -eq $metadataLastWriteUtc)) {
             $contentValidated = $true
         }
         else {
             if ([string]::IsNullOrWhiteSpace($metadataHash)) {
-                return [pscustomobject]@{
-                    Available     = $false
-                    CacheFile     = $cacheFile
-                    Content       = ''
-                    LastWriteTime = $cacheLastWrite
-                }
-            }
-
-            $algorithmNormalized = $metadataHashAlgorithm.ToUpperInvariant()
-            if ($algorithmNormalized -ne 'SHA256') {
                 return [pscustomobject]@{
                     Available     = $false
                     CacheFile     = $cacheFile

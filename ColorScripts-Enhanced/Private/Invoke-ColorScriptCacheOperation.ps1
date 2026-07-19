@@ -2,7 +2,8 @@ function Invoke-ColorScriptCacheOperation {
     [CmdletBinding()]
     param(
         [Parameter(Mandatory)][string]$ScriptName,
-        [Parameter(Mandatory)][string]$ScriptPath
+        [Parameter(Mandatory)][string]$ScriptPath,
+        [switch]$Force
     )
 
     $resultRecord = $null
@@ -55,7 +56,30 @@ function Invoke-ColorScriptCacheOperation {
     }
 
     try {
-        $cacheResult = Build-ScriptCache -ScriptPath $ScriptPath
+        $buildOperation = {
+            param($lockedScriptName, $lockedScriptPath, $forceRebuild)
+
+            if (-not $forceRebuild) {
+                $currentEntry = Get-CachedOutput -ScriptPath $lockedScriptPath
+                if ($currentEntry.Available) {
+                    return [pscustomobject]@{
+                        ScriptName         = $lockedScriptName
+                        CacheFile          = $currentEntry.CacheFile
+                        CacheRequired      = $true
+                        CacheCreated       = $false
+                        CacheAlreadyCurrent = $true
+                        Success            = $true
+                        ExitCode           = 0
+                        StdOut             = $currentEntry.Content
+                        StdErr             = ''
+                    }
+                }
+            }
+
+            Build-ScriptCache -ScriptPath $lockedScriptPath -LockAlreadyHeld
+        }
+
+        $cacheResult = Invoke-WithColorScriptCacheEntryLock -CacheRoot $script:CacheDir -ScriptName $ScriptName -Operation $buildOperation -ArgumentList @($ScriptName, $ScriptPath, $Force.IsPresent)
     }
     catch {
         if (-not $script:CacheDir) {
@@ -71,7 +95,12 @@ function Invoke-ColorScriptCacheOperation {
         }
     }
 
-    if ($cacheResult.PSObject.Properties['CacheRequired'] -and -not $cacheResult.CacheRequired) {
+    if ($cacheResult.PSObject.Properties['CacheAlreadyCurrent'] -and $cacheResult.CacheAlreadyCurrent) {
+        $status = 'SkippedUpToDate'
+        $message = $script:Messages.StatusSkippedUpToDate
+        $cacheExists = $true
+    }
+    elseif ($cacheResult.PSObject.Properties['CacheRequired'] -and -not $cacheResult.CacheRequired) {
         $status = 'SkippedNotRequired'
         $message = if ($script:Messages -and $script:Messages.ContainsKey('StatusSkippedNotRequired')) {
             $script:Messages.StatusSkippedNotRequired

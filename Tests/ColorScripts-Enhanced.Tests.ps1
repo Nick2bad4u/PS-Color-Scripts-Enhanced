@@ -202,7 +202,7 @@ Describe 'ColorScripts-Enhanced Module' {
             $cachedText | Should -Be $rendered
         }
 
-        It 'Should process all scripts but build only policy-selected caches by default' {
+        It 'Should process only policy-selected caches by default' {
             $module = Get-Module ColorScripts-Enhanced -ErrorAction Stop
             $originalCacheDir = $module.SessionState.PSVariable.GetValue('CacheDir')
             $originalCacheInitialized = $module.SessionState.PSVariable.GetValue('CacheInitialized')
@@ -234,12 +234,11 @@ Describe 'ColorScripts-Enhanced Module' {
                 $result = New-ColorScriptCache -IncludePokemon -PassThru -ErrorAction Stop
                 $result | Should -Not -BeNullOrEmpty
 
-                $expectedCount = (Get-ColorScriptList -AsObject).Count
                 $expectedCacheCount = (Import-PowerShellDataFile (Join-Path -Path $script:ModuleRoot -ChildPath 'CachePolicy.psd1')).CacheableScripts.Count
-                $result.Count | Should -Be $expectedCount
-                ($result | Where-Object Status -EQ 'SkippedNotRequired').Count | Should -Be ($expectedCount - $expectedCacheCount)
+                $result.Count | Should -Be $expectedCacheCount
+                ($result | Where-Object Status -EQ 'SkippedNotRequired').Count | Should -Be 0
 
-                Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times $expectedCacheCount -Exactly
+                Should-Invoke -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times $expectedCacheCount -Exactly
             }
             finally {
                 $module.SessionState.PSVariable.Set('CacheDir', $originalCacheDir)
@@ -288,7 +287,7 @@ Describe 'ColorScripts-Enhanced Module' {
                 }
             }
 
-            Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+            Should-Invoke -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
 
             if ($consoleRedirected -and $stringWriter) {
                 $stringWriter.Flush()
@@ -337,6 +336,7 @@ Describe 'ColorScripts-Enhanced Module' {
         It 'Should expose default configuration values' {
             $config = Get-ColorScriptConfiguration
             $config.Cache.Path | Should -Be $null
+            $config.Cache.EffectivePath | Should -Not -BeNullOrEmpty
             $config.Startup.AutoShowOnImport | Should -BeFalse
             $config.Startup.ProfileAutoShow | Should -BeTrue
         }
@@ -352,6 +352,7 @@ Describe 'ColorScripts-Enhanced Module' {
 
                 $resolved = Resolve-Path -LiteralPath $customCache
                 $result.Cache.Path | Should -Be $resolved.ProviderPath
+                $result.Cache.EffectivePath | Should -Be $resolved.ProviderPath
                 $result.Startup.AutoShowOnImport | Should -BeTrue
                 $result.Startup.ProfileAutoShow | Should -BeFalse
                 $result.Startup.DefaultScript | Should -Be 'bars'
