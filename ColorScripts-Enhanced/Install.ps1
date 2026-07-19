@@ -1,4 +1,4 @@
-# ColorScripts-Enhanced Installation Script
+﻿# ColorScripts-Enhanced Installation Script
 
 [CmdletBinding(SupportsShouldProcess = $true)]
 param(

@@ -1757,8 +1757,8 @@ namespace CoverageHost
                     }
                     $script:ScriptInventoryStamp = $stamp
                     $script:ScriptInventory = @(
-                        [pscustomobject]@{ BaseName = 'nebula'; FullName = 'nebula.ps1' },
-                        [pscustomobject]@{ BaseName = 'aurora'; FullName = 'aurora.ps1' }
+                        [System.IO.FileInfo](Join-Path -Path $script:ScriptsPath -ChildPath 'nebula.ps1'),
+                        [System.IO.FileInfo](Join-Path -Path $script:ScriptsPath -ChildPath 'aurora.ps1')
                     )
                     $script:ScriptInventoryRecords = $null
                 }
