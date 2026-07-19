@@ -27,6 +27,16 @@ function Write-ColorScriptInformation {
         $sanitizedOutput = $output
     }
 
+    $consoleColor = $null
+    if (-not [string]::IsNullOrWhiteSpace($Color)) {
+        try {
+            $consoleColor = [System.ConsoleColor][System.Enum]::Parse([System.ConsoleColor], $Color, $true)
+        }
+        catch {
+            $consoleColor = $null
+        }
+    }
+
     $wroteToConsole = $false
 
     if (-not $NoAnsiOutput.IsPresent) {
@@ -56,13 +66,10 @@ function Write-ColorScriptInformation {
             $originalColor = $null
 
             try {
-                if (-not $shouldRenderWithAnsi -and -not [string]::IsNullOrWhiteSpace($Color)) {
-                    $consoleColor = $null
-                    if ([System.Enum]::TryParse([System.ConsoleColor], $Color, $true, [ref]$consoleColor)) {
-                        $originalColor = [Console]::ForegroundColor
-                        [Console]::ForegroundColor = $consoleColor
-                        $colorSet = $true
-                    }
+                if (-not $shouldRenderWithAnsi -and $null -ne $consoleColor) {
+                    $originalColor = [Console]::ForegroundColor
+                    [Console]::ForegroundColor = $consoleColor
+                    $colorSet = $true
                 }
 
                 Write-RenderedText -Text $output -NoAnsiOutput:(!$shouldRenderWithAnsi)
@@ -78,23 +85,20 @@ function Write-ColorScriptInformation {
             }
         }
 
-        if (-not $wroteToConsole -and -not [string]::IsNullOrWhiteSpace($Color)) {
-            $consoleColor = $null
-            if ([System.Enum]::TryParse([System.ConsoleColor], $Color, $true, [ref]$consoleColor)) {
-                $originalColor = $null
-                try {
-                    $originalColor = [Console]::ForegroundColor
-                    [Console]::ForegroundColor = $consoleColor
-                    Write-RenderedText -Text $output -NoAnsiOutput
-                    $wroteToConsole = $true
-                }
-                catch {
-                    $wroteToConsole = $false
-                }
-                finally {
-                    if ($null -ne $originalColor) {
-                        [Console]::ForegroundColor = $originalColor
-                    }
+        if (-not $wroteToConsole -and $null -ne $consoleColor) {
+            $originalColor = $null
+            try {
+                $originalColor = [Console]::ForegroundColor
+                [Console]::ForegroundColor = $consoleColor
+                Write-RenderedText -Text $output -NoAnsiOutput
+                $wroteToConsole = $true
+            }
+            catch {
+                $wroteToConsole = $false
+            }
+            finally {
+                if ($null -ne $originalColor) {
+                    [Console]::ForegroundColor = $originalColor
                 }
             }
         }

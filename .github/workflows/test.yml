@@ -11,7 +11,7 @@ on:
 name: Tests
 
 env:
-    PESTER_VERSION: "5.8.0"
+    PESTER_VERSION: "6.0.1"
 
 permissions:
     contents: read
@@ -47,7 +47,7 @@ jobs:
             - name: Run Pester tests with coverage
               shell: powershell
               run: |
-                  npm run test:coverage:ci
+                  ./scripts/Test-Coverage.ps1 -CI -Verbosity Minimal
 
             - name: Upload test results
               if: always()

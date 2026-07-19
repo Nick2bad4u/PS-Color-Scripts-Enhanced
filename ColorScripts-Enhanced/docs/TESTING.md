@@ -430,8 +430,8 @@ Describe 'User Workflow' {
 
 ---
 
-**Last Updated**: October 30, 2025
-**Test Framework**: Pester 5.4+
+**Last Updated**: July 19, 2026
+**Test Framework**: Pester 6.0.1
 **Coverage Target**: 90%+
 
 ## Quick Test Commands
@@ -476,7 +476,7 @@ pwsh -Command "& .\scripts\Test-Module.ps1"
 
 Run every colorscript to ensure they execute without errors:
 
-```powershell
+````powershell
 .\ColorScripts-Enhanced\Test-AllColorScripts.ps1
 ```text
 
@@ -492,14 +492,14 @@ See [LINTING.md](LINTING.md) for code quality and linting procedures.
 
 ## Test Requirements
 
-- **Pester** 5.4.0 or later
+- **Pester** 6.0.1
 - **PSScriptAnalyzer** for code analysis
 - PowerShell 5.1+ or PowerShell 7.0+
 
 Install requirements:
 
 ```powershell
-Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
+Install-Module -Name Pester -RequiredVersion 6.0.1 -Force -SkipPublisherCheck
 Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
 ```powershell
 
@@ -534,4 +534,3 @@ Describe 'New-Command' {
 - [Linting Guide](LINTING.md) - Code quality standards
 - [Contributing Guidelines](../../CONTRIBUTING.md) - How to contribute
 ````
-

@@ -683,14 +683,14 @@ The npm scripts require:
 
 Developer-specific PowerShell modules:
 
-- **Pester** 5.4.0+ (for testing)
+- **Pester** 6.0.1 (for testing)
 - **PSScriptAnalyzer** (for linting)
 - **platyPS** (optional, for help generation)
 
 Install PowerShell modules:
 
 ```powershell
-Install-Module -Name Pester -MinimumVersion 5.4.0 -Force -SkipPublisherCheck
+Install-Module -Name Pester -RequiredVersion 6.0.1 -Force -SkipPublisherCheck
 Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
 Install-Module -Name platyPS -Force -SkipPublisherCheck  # Optional
 ```

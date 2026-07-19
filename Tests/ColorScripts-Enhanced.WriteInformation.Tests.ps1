@@ -12,8 +12,8 @@ Describe 'Write-ColorScriptInformation coverage' {
             Mock -CommandName Remove-ColorScriptAnsiSequence -ModuleName ColorScripts-Enhanced
             Mock -CommandName Write-Information -ModuleName ColorScripts-Enhanced
             Write-ColorScriptInformation -Message 'Hello' -Quiet
-            Assert-MockCalled Remove-ColorScriptAnsiSequence -Times 0 -Exactly
-            Assert-MockCalled Write-Information -Times 0 -Exactly
+            Should-Invoke Remove-ColorScriptAnsiSequence -Times 0 -Exactly
+            Should-Invoke Write-Information -Times 0 -Exactly
         }
     }
 
@@ -52,7 +52,7 @@ Describe 'Write-ColorScriptInformation coverage' {
 
             Write-ColorScriptInformation -Message "`e[32mGreen`e[0m" -NoAnsiOutput
 
-            Assert-MockCalled Write-RenderedText -Times 0 -Exactly
+            Should-Invoke Write-RenderedText -Times 0 -Exactly
             $script:NI.Message | Should -Be "`e[32mGreen`e[0m"
             $script:NI.Action | Should -Be 'Continue'
             Remove-Variable -Name NI -Scope Script -ErrorAction SilentlyContinue

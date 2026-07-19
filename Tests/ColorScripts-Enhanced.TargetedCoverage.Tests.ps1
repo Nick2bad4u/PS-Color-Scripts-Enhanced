@@ -767,33 +767,33 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
 
     Context 'Argument completers' {
         It 'suggests colorscript names for partial input' {
-            $matches = InModuleScope ColorScripts-Enhanced {
+            $completionMatches = InModuleScope ColorScripts-Enhanced {
                 $line = 'Show-ColorScript -Name ba'
                 $completion = [System.Management.Automation.CommandCompletion]::CompleteInput($line, $line.Length, $null)
                 @($completion.CompletionMatches | ForEach-Object { $_.CompletionText })
             }
 
-            $matches | Should -Contain 'bars'
+            $completionMatches | Should -Contain 'bars'
         }
 
         It 'suggests categories based on metadata' {
-            $matches = InModuleScope ColorScripts-Enhanced {
+            $completionMatches = InModuleScope ColorScripts-Enhanced {
                 $line = 'Get-ColorScriptList -Category Art'
                 $completion = [System.Management.Automation.CommandCompletion]::CompleteInput($line, $line.Length, $null)
                 @($completion.CompletionMatches | ForEach-Object { $_.CompletionText })
             }
 
-            $matches | Should -Contain 'Artistic'
+            $completionMatches | Should -Contain 'Artistic'
         }
 
         It 'provides tag completions' {
-            $matches = InModuleScope ColorScripts-Enhanced {
+            $completionMatches = InModuleScope ColorScripts-Enhanced {
                 $line = 'Show-ColorScript -Tag Category:Pat'
                 $completion = [System.Management.Automation.CommandCompletion]::CompleteInput($line, $line.Length, $null)
                 @($completion.CompletionMatches | ForEach-Object { $_.CompletionText })
             }
 
-            $matches | Should -Contain 'Category:Patterns'
+            $completionMatches | Should -Contain 'Category:Patterns'
         }
     }
 }

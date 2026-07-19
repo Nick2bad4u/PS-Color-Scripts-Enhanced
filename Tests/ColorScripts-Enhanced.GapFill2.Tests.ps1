@@ -25,7 +25,7 @@
                 $messages = [System.Collections.Generic.List[string]]::new()
                 Mock -CommandName Write-ColorScriptInformation -ModuleName ColorScripts-Enhanced -MockWith { param($Message, $Quiet) $null = $messages.Add([string]$Message) }
                 Get-ColorScriptList -Name 'bars' -Detailed -NoAnsiOutput | Out-Null
-                Assert-MockCalled Write-ColorScriptInformation -Times 1 -Exactly
+                Should-Invoke Write-ColorScriptInformation -Times 1 -Exactly
                 ($messages | Select-Object -First 1) | Should -Match 'Name'
             }
         }

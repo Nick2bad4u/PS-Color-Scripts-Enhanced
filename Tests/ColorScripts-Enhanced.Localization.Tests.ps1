@@ -61,9 +61,7 @@ Describe 'ColorScripts-Enhanced localization initialization' {
 
     Context 'Import-LocalizedMessagesFromFile variations' {
         It 'imports from direct file path and records resolved path' {
-            $result = InModuleScope ColorScripts-Enhanced -Parameters @{ moduleRoot = $script:ModuleRootPath } {
-                param($moduleRoot)
-                . (Join-Path -Path $moduleRoot -ChildPath 'Private/Import-LocalizedMessagesFromFile.ps1')
+            $result = InModuleScope ColorScripts-Enhanced {
                 $filePath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'Messages.psd1'
                 "@{ Greeting = 'Hello' }" | Set-Content -LiteralPath $filePath -Encoding utf8
                 Import-LocalizedMessagesFromFile -FilePath $filePath
@@ -74,9 +72,7 @@ Describe 'ColorScripts-Enhanced localization initialization' {
         }
 
         It 'falls back to Import-PowerShellDataFile when Import-LocalizedData fails' {
-            $result = InModuleScope ColorScripts-Enhanced -Parameters @{ moduleRoot = $script:ModuleRootPath } {
-                param($moduleRoot)
-                . (Join-Path -Path $moduleRoot -ChildPath 'Private/Import-LocalizedMessagesFromFile.ps1')
+            $result = InModuleScope ColorScripts-Enhanced {
                 $root = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $root -Force | Out-Null
                 $messagesPath = Join-Path -Path $root -ChildPath 'Messages.psd1'
@@ -90,9 +86,7 @@ Describe 'ColorScripts-Enhanced localization initialization' {
         }
 
         It 'converts non-dictionary results when Import-PowerShellDataFile succeeds' {
-            $result = InModuleScope ColorScripts-Enhanced -Parameters @{ moduleRoot = $script:ModuleRootPath } {
-                param($moduleRoot)
-                . (Join-Path -Path $moduleRoot -ChildPath 'Private/Import-LocalizedMessagesFromFile.ps1')
+            $result = InModuleScope ColorScripts-Enhanced {
                 $root = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
                 New-Item -ItemType Directory -Path $root -Force | Out-Null
                 $messagesPath = Join-Path -Path $root -ChildPath 'Messages.psd1'

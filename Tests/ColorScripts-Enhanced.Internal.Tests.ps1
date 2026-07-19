@@ -148,13 +148,13 @@ https://example.com
 
             Show-ColorScriptHelp -CommandName 'Show-ColorScript'
 
-            Assert-MockCalled -CommandName Get-Help -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
-            Assert-MockCalled -CommandName Write-Host -ModuleName ColorScripts-Enhanced -Times 1 -AtLeast -ParameterFilter { $ForegroundColor -eq 'Cyan' }
-            Assert-MockCalled -CommandName Write-Host -ModuleName ColorScripts-Enhanced -Times 1 -AtLeast -ParameterFilter { $ForegroundColor -eq 'Yellow' }
-            Assert-MockCalled -CommandName Write-Host -ModuleName ColorScripts-Enhanced -Times 1 -AtLeast -ParameterFilter { $ForegroundColor -eq 'Green' }
-            Assert-MockCalled -CommandName Write-Host -ModuleName ColorScripts-Enhanced -Times 1 -AtLeast -ParameterFilter { $ForegroundColor -eq 'Magenta' }
-            Assert-MockCalled -CommandName Write-Host -ModuleName ColorScripts-Enhanced -Times 1 -AtLeast -ParameterFilter { $ForegroundColor -eq 'DarkGray' }
-            Assert-MockCalled -CommandName Write-Host -ModuleName ColorScripts-Enhanced -Times 1 -AtLeast -ParameterFilter { $null -eq $ForegroundColor }
+            Should-Invoke -CommandName Get-Help -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
+            Should-Invoke -CommandName Write-Host -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $ForegroundColor -eq 'Cyan' }
+            Should-Invoke -CommandName Write-Host -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $ForegroundColor -eq 'Yellow' }
+            Should-Invoke -CommandName Write-Host -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $ForegroundColor -eq 'Green' }
+            Should-Invoke -CommandName Write-Host -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $ForegroundColor -eq 'Magenta' }
+            Should-Invoke -CommandName Write-Host -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $ForegroundColor -eq 'DarkGray' }
+            Should-Invoke -CommandName Write-Host -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $null -eq $ForegroundColor }
 
             Remove-Mock -CommandName Get-Help -ModuleName ColorScripts-Enhanced
             Remove-Mock -CommandName Write-Host -ModuleName ColorScripts-Enhanced
@@ -277,7 +277,7 @@ Describe 'Save and initialize configuration' {
 
             Initialize-Configuration
 
-            Assert-MockCalled -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -Times 1 -AtLeast
+            Should-Invoke -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -Times 1
             Test-Path $configPath | Should -BeTrue
             $content = Get-Content -Path $configPath -Raw
             $content | Should -Match 'AutoShowOnImport'

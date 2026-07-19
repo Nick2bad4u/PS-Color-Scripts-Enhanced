@@ -60,7 +60,7 @@ Describe 'ColorScripts-Enhanced coverage elevation for public cmdlets' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Write-ColorScriptInformation -ModuleName ColorScripts-Enhanced -MockWith { param($Message, $Quiet) $null = $Quiet; $script:last = $Message }
                 $null = Get-ColorScriptList -Name 'bars'
-                Assert-MockCalled Write-ColorScriptInformation -Times 1 -Exactly
+                Should-Invoke Write-ColorScriptInformation -Times 1 -Exactly
             }
         }
     }

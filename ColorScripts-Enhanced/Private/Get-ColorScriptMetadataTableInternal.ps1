@@ -115,11 +115,13 @@ function Get-ColorScriptMetadataTableInternal {
         # datasets (like the full Pokémon category list) are loaded
         # without being rejected by size/complexity heuristics.
         $importParams = @{ Path = $script:MetadataPath }
+        $supportsSkipLimitCheck = $false
 
         try {
             $command = Get-Command -Name Import-PowerShellDataFile -ErrorAction SilentlyContinue
             if ($command -and $command.Parameters.ContainsKey('SkipLimitCheck')) {
                 $importParams['SkipLimitCheck'] = $true
+                $supportsSkipLimitCheck = $true
             }
         }
         catch {
@@ -127,7 +129,16 @@ function Get-ColorScriptMetadataTableInternal {
         }
 
         try {
-            $data = Import-PowerShellDataFile @importParams
+            if ($supportsSkipLimitCheck) {
+                $data = Import-PowerShellDataFile @importParams
+            }
+            else {
+                # Windows PowerShell 5.1 cannot bypass Import-PowerShellDataFile's limit for
+                # this large package-owned data file. Evaluating the trusted module asset keeps
+                # the advertised Desktop compatibility without accepting any user-supplied path.
+                $metadataSource = [System.IO.File]::ReadAllText($script:MetadataPath)
+                $data = & ([scriptblock]::Create($metadataSource))
+            }
         }
         catch {
             Write-Verbose ("Import-PowerShellDataFile failed for ScriptMetadata.psd1: {0}" -f $_.Exception.Message)

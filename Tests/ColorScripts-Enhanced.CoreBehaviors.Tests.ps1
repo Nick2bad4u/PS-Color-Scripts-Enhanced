@@ -30,8 +30,8 @@ Describe 'Core behaviors: information, config save, cache versioning, install' {
                 Mock -CommandName Write-RenderedText -ModuleName ColorScripts-Enhanced -MockWith { }
                 Mock -CommandName Write-Information -ModuleName ColorScripts-Enhanced -MockWith { }
                 Write-ColorScriptInformation -Message 'hello' -Quiet
-                Assert-MockCalled Write-RenderedText -Times 0
-                Assert-MockCalled Write-Information -Times 0
+                Should-Invoke Write-RenderedText -Times 0
+                Should-Invoke Write-Information -Times 0
             }
         }
 
@@ -45,7 +45,7 @@ Describe 'Core behaviors: information, config save, cache versioning, install' {
                 $infoCalls = [System.Collections.Generic.List[hashtable]]::new()
                 Mock -CommandName Write-Information -ModuleName ColorScripts-Enhanced -MockWith { param([object]$MessageData, [string]$InformationAction) $null = $infoCalls.Add(@{ msg = $MessageData; act = $InformationAction }) }
                 Write-ColorScriptInformation -Message $msg -PreferConsole -Color 'Yellow'
-                Assert-MockCalled Write-RenderedText -Times 1 -Exactly
+                Should-Invoke Write-RenderedText -Times 1 -Exactly
                 $infoCalls.Count | Should -Be 1
                 ($infoCalls[0].act) | Should -Be 'SilentlyContinue'
                 ($infoCalls[0].msg) | Should -Not -Match '\x1b\['
@@ -62,7 +62,7 @@ Describe 'Core behaviors: information, config save, cache versioning, install' {
                 $infoCalls = [System.Collections.Generic.List[hashtable]]::new()
                 Mock -CommandName Write-Information -ModuleName ColorScripts-Enhanced -MockWith { param([object]$MessageData, [string]$InformationAction) $null = $infoCalls.Add(@{ msg = $MessageData; act = $InformationAction }) }
                 Write-ColorScriptInformation -Message $msg -Color 'Cyan' -NoAnsiOutput
-                Assert-MockCalled Write-RenderedText -Times 0
+                Should-Invoke Write-RenderedText -Times 0
                 $infoCalls.Count | Should -Be 1
                 ($infoCalls[0].act) | Should -Be 'Continue'
                 ($infoCalls[0].msg) | Should -Match '\x1b\['
@@ -78,10 +78,10 @@ Describe 'Core behaviors: information, config save, cache versioning, install' {
                 # First invocation (forced) should write
                 Mock -CommandName Set-Content -ModuleName ColorScripts-Enhanced -MockWith { }
                 Save-ColorScriptConfiguration -Configuration $config -Force
-                Assert-MockCalled Set-Content -Times 1 -Exactly
+                Should-Invoke Set-Content -Times 1 -Exactly
                 # Second invocation without Force and with identical ExistingContent should early-return (no extra calls)
                 Save-ColorScriptConfiguration -Configuration $config -ExistingContent $json
-                Assert-MockCalled Set-Content -Times 1 -Exactly
+                Should-Invoke Set-Content -Times 1 -Exactly
             }
         }
     }

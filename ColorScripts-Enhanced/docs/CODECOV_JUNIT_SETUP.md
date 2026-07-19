@@ -7,7 +7,7 @@ ColorScripts-Enhanced now generates **Codecov-compatible JUnit XML test results*
 ### Key Points
 
 - **NUnit XML** (Pester's default) → **JUnit XML** (Codecov's requirement)
-- **Pester v5.7.1+** includes `Export-JUnitReport` command
+- **Pester 6.0.1** includes the `Export-JUnitReport` command
 - **Automatic conversion** during CI test runs
 - **Codecov-ready format** with all required fields
 
@@ -150,7 +150,7 @@ $env:CODECOV_TOKEN = "your-token-here"
 
 ### Export-JUnitReport Not Found
 
-Ensure Pester v5.7.1+ is installed:
+Ensure the project's pinned Pester 6.0.1 release is installed:
 
 ```powershell
 # Check version
@@ -158,7 +158,7 @@ $pesterModule = Get-Module -ListAvailable -Name Pester
 $pesterModule | Select-Object Name, Version
 
 # Update if needed
-Install-Module -Name Pester -MinimumVersion 5.7.1 -Force
+Install-Module -Name Pester -RequiredVersion 6.0.1 -Force
 ```
 
 ### Missing Required Attributes
@@ -244,7 +244,7 @@ $result | Export-JUnitReport -Path "testResults.junit.xml"
 ## Summary
 
 ✅ **Automatic JUnit XML generation** for Codecov
-✅ **Pester v5.7.1+ built-in support**
+✅ **Pester 6.0.1 built-in support**
 ✅ **CI-friendly format** with all required fields
 ✅ **Easy troubleshooting** with XML validation
 ✅ **Multiple format support** (NUnit + JUnit)

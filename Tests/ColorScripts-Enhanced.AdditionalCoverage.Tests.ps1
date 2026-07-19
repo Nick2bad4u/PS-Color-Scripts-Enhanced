@@ -565,7 +565,7 @@ namespace CoverageHost
                 $result.Available | Should -BeTrue
 
                 $metadataPath = Join-Path -Path $cacheRoot -ChildPath ("{0}{1}" -f $scriptName, $script:CacheEntryMetadataExtension)
-                $metadata = Get-Content -Path $metadataPath -Raw | ConvertFrom-Json -Depth 5
+                $metadata = Get-Content -Path $metadataPath -Raw | ConvertFrom-Json
                 $rawTimestamp = $metadata.ScriptLastWriteTimeUtc
                 $parsedTimestamp = if ($rawTimestamp -is [datetime]) {
                     $rawTimestamp.ToUniversalTime()
@@ -682,7 +682,7 @@ namespace CoverageHost
 
                 Initialize-CacheDirectory
 
-                Assert-MockCalled -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $Message -like 'Unable to prepare cache directory*' }
+                Should-Invoke -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $Message -like 'Unable to prepare cache directory*' }
                 (Get-Variable -Name newItemCalls -Scope Script -ValueOnly) | Should -Be 2
                 Test-Path -LiteralPath $script:CacheDir | Should -BeTrue
                 $script:CacheDir | Should -Match ([Regex]::Escape('configured-cache'))
@@ -868,7 +868,7 @@ namespace CoverageHost
 
         It 'throws when All is explicitly disabled without names' {
             InModuleScope ColorScripts-Enhanced {
-                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
                     $list = [System.Collections.Generic.List[psobject]]::new()
                     , $list
                 }
@@ -882,7 +882,7 @@ namespace CoverageHost
 
                 New-ColorScriptCache -h
 
-                Assert-MockCalled -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'New-ColorScriptCache' }
+                Should-Invoke -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'New-ColorScriptCache' }
             }
         }
 
@@ -911,7 +911,7 @@ namespace CoverageHost
                     $script:CacheInitialized = $true
                 }
 
-                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
                     $list = [System.Collections.ArrayList]::new()
                     $null = $list.Add($null)
                     $null = $list.Add([pscustomobject]@{ Name = 'enum-test'; Path = Join-Path $testDrive 'enum-test.ps1' })
@@ -929,7 +929,7 @@ namespace CoverageHost
                 }
                 Mock -CommandName Write-Progress -ModuleName ColorScripts-Enhanced
 
-                $result = New-ColorScriptCache -PassThru
+                $result = New-ColorScriptCache -Name 'enum-test' -PassThru
 
                 $result | Should -HaveCount 1
                 $result[0].Name | Should -Be 'enum-test'
@@ -944,7 +944,7 @@ namespace CoverageHost
                     New-Item -ItemType Directory -Path $script:CacheDir -Force | Out-Null
                     $script:CacheInitialized = $true
                 }
-                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
                     [pscustomobject]@{ Name = 'single-test'; Path = Join-Path $testDrive 'single-test.ps1' }
                 }
                 Set-Content -Path (Join-Path $testDrive 'single-test.ps1') -Value "Write-Host 'test'" -Encoding UTF8
@@ -959,7 +959,7 @@ namespace CoverageHost
                 }
                 Mock -CommandName Write-Progress -ModuleName ColorScripts-Enhanced
 
-                $result = New-ColorScriptCache -PassThru
+                $result = New-ColorScriptCache -Name 'single-test' -PassThru
 
                 $result | Should -HaveCount 1
                 $result[0].Status | Should -Be 'Updated'
@@ -976,7 +976,7 @@ namespace CoverageHost
                     $script:CacheInitialized = $true
                 }
 
-                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
                     $list = [System.Collections.Generic.List[psobject]]::new()
                     , $list
                 }
@@ -1019,7 +1019,7 @@ namespace CoverageHost
                     $script:CacheDir = $cacheRoot
                     $script:CacheInitialized = $true
                 }
-                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
                     $list = [System.Collections.Generic.List[psobject]]::new()
                     $null = $list.Add([pscustomobject]@{ Name = 'beta'; Path = $scriptPath })
                     , $list
@@ -1087,7 +1087,7 @@ namespace CoverageHost
                     New-Item -ItemType Directory -Path $script:CacheDir -Force | Out-Null
                 }
 
-                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
                     @([pscustomobject]@{ Name = 'decline'; Path = $scriptPath })
                 }
 
@@ -1117,7 +1117,7 @@ namespace CoverageHost
                 $brokenScript = Join-Path -Path $testDrive -ChildPath 'broken.ps1'
                 Set-Content -Path $brokenScript -Value "Write-Host 'broken'" -Encoding UTF8
 
-                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
                     @(
                         [pscustomobject]@{ Name = 'skip'; Path = $skipScript },
                         [pscustomobject]@{ Name = 'fresh'; Path = $freshScript },
@@ -1188,7 +1188,7 @@ namespace CoverageHost
                 # The current implementation outputs a simple summary message
                 ($messages | Where-Object { $_ -like '*Cache build summary*' }) | Should -Not -BeNullOrEmpty
                 # Should have called Write-Warning for the failed script
-                Assert-MockCalled -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $Message -like 'Failed to cache*' }
+                Should-Invoke -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $Message -like 'Failed to cache*' }
                 Remove-Variable -Name __summaryMessages -Scope Script -ErrorAction SilentlyContinue
             }
         }
@@ -1203,7 +1203,7 @@ namespace CoverageHost
                     param()
                     $script:CacheInitialized = $true
                 }
-                Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
                     $list = [System.Collections.Generic.List[psobject]]::new()
                     $null = $list.Add([pscustomobject]@{ Name = 'gamma'; Path = $scriptPath })
                     , $list
@@ -1252,7 +1252,7 @@ namespace CoverageHost
 
                     New-ColorScript -Name 'demo' -h
 
-                    Assert-MockCalled -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'New-ColorScript' }
+                    Should-Invoke -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'New-ColorScript' }
                 }
             }
 
@@ -1601,7 +1601,7 @@ namespace CoverageHost
 
                     Add-ColorScriptProfile -h
 
-                    Assert-MockCalled -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'Add-ColorScriptProfile' }
+                    Should-Invoke -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'Add-ColorScriptProfile' }
                 }
             }
 
@@ -1981,7 +1981,7 @@ namespace CoverageHost
 
                 $first | Should -Be 'C:\Program Files\PowerShell\7\pwsh.exe'
                 $second | Should -Be $first
-                Assert-MockCalled -CommandName Get-Command -ModuleName ColorScripts-Enhanced -Times 1
+                Should-Invoke -CommandName Get-Command -ModuleName ColorScripts-Enhanced -Times 1
 
                 InModuleScope ColorScripts-Enhanced {
                     $script:PowerShellExecutable = $null
@@ -2547,7 +2547,7 @@ namespace CoverageHost
 
                     Get-ColorScriptList -h
 
-                    Assert-MockCalled -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'Get-ColorScriptList' }
+                    Should-Invoke -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'Get-ColorScriptList' }
                 }
             }
 
@@ -2832,7 +2832,7 @@ Write-Host "$escape[0m text"
 
                         Invoke-ColorScriptsStartup
 
-                        Assert-MockCalled -CommandName Show-ColorScript -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $Name -eq 'demo-script' }
+                        Should-Invoke -CommandName Show-ColorScript -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $Name -eq 'demo-script' }
                     }
                 }
                 finally {
@@ -2867,7 +2867,7 @@ Write-Host "$escape[0m text"
 
                         Invoke-ColorScriptsStartup
 
-                        Assert-MockCalled -CommandName Show-ColorScript -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $Name -eq 'galaxy' }
+                        Should-Invoke -CommandName Show-ColorScript -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $Name -eq 'galaxy' }
                     }
                 }
                 finally {
@@ -2978,7 +2978,7 @@ Write-Host "$escape[0m text"
 
                     Invoke-ColorScriptsStartup
 
-                    Assert-MockCalled -CommandName Show-ColorScript -ModuleName ColorScripts-Enhanced -Times 0
+                    Should-Invoke -CommandName Show-ColorScript -ModuleName ColorScripts-Enhanced -Times 0
                 }
             }
 

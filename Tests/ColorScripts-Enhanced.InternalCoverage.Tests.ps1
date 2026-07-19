@@ -150,6 +150,16 @@ Describe 'ColorScripts-Enhanced internal coverage' {
                 $cultureContainerPath = Join-Path -Path $baseDir -ChildPath 'en-US'
                 Set-Variable -Name LocalizationLeafCheckCount -Scope Script -Value 0
 
+                Mock -CommandName Test-Path -MockWith {
+                    $targetPath = if ($null -ne $LiteralPath) { $LiteralPath } else { $Path }
+                    if ($PathType -eq 'Container') {
+                        return [System.IO.Directory]::Exists([string]$targetPath)
+                    }
+                    if ($PathType -eq 'Leaf') {
+                        return [System.IO.File]::Exists([string]$targetPath)
+                    }
+                    return [System.IO.File]::Exists([string]$targetPath) -or [System.IO.Directory]::Exists([string]$targetPath)
+                }
                 Mock -CommandName Test-Path -ParameterFilter {
                     $PathType -eq 'Container' -and $LiteralPath -eq $cultureContainerPath
                 } -MockWith { return $false }
@@ -182,6 +192,16 @@ Describe 'ColorScripts-Enhanced internal coverage' {
 
                 Set-Variable -Name RootLeafCheckCount -Scope Script -Value 0
 
+                Mock -CommandName Test-Path -MockWith {
+                    $targetPath = if ($null -ne $LiteralPath) { $LiteralPath } else { $Path }
+                    if ($PathType -eq 'Container') {
+                        return [System.IO.Directory]::Exists([string]$targetPath)
+                    }
+                    if ($PathType -eq 'Leaf') {
+                        return [System.IO.File]::Exists([string]$targetPath)
+                    }
+                    return [System.IO.File]::Exists([string]$targetPath) -or [System.IO.Directory]::Exists([string]$targetPath)
+                }
                 Mock -CommandName Test-Path -ParameterFilter {
                     $PathType -eq 'Leaf' -and $LiteralPath -eq $rootMessages
                 } -MockWith {
@@ -542,7 +562,7 @@ Describe 'ColorScripts-Enhanced internal coverage' {
 
                 Show-ColorScriptHelp -CommandName 'Show-ColorScript'
 
-                Assert-MockCalled -CommandName Get-Help -ModuleName ColorScripts-Enhanced -Times 1
+                Should-Invoke -CommandName Get-Help -ModuleName ColorScripts-Enhanced -Times 1
             }
         }
     }
@@ -781,15 +801,15 @@ Describe 'ColorScripts-Enhanced internal coverage' {
 
                 Mock -CommandName Get-ColorScriptsConfigurationRoot -ModuleName ColorScripts-Enhanced -MockWith { $root }
 
-                $path = Join-Path -Path $root -ChildPath 'config.json'
-                Set-Content -Path $path -Value '{}' -Encoding UTF8
+                $configPath = Join-Path -Path $root -ChildPath 'config.json'
+                Set-Content -Path $configPath -Value '{}' -Encoding UTF8
 
-                Mock -CommandName Get-Content -ModuleName ColorScripts-Enhanced -ParameterFilter { $LiteralPath -eq $path } -MockWith { throw 'cannot read' }
+                Mock -CommandName Get-Content -ModuleName ColorScripts-Enhanced -MockWith { throw 'cannot read' }
 
                 $updated = @{ Cache = @{ Path = 'C:\Cache' } }
                 Save-ColorScriptConfiguration -Configuration $updated
 
-                $written = Get-Content -LiteralPath $path -Raw
+                $written = [System.IO.File]::ReadAllText($configPath)
                 $written | Should -Match '"Cache"'
             }
         }
@@ -802,7 +822,7 @@ Describe 'ColorScripts-Enhanced internal coverage' {
                 Set-ColorScriptConfiguration -Help
                 Reset-ColorScriptConfiguration -Help
 
-                Assert-MockCalled -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 3
+                Should-Invoke -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 3
             }
         }
 
@@ -886,8 +906,21 @@ Describe 'ColorScripts-Enhanced internal coverage' {
                     }
 
                     # Mock to make all candidates fail to create directories
+                    Mock -CommandName Test-Path -ModuleName ColorScripts-Enhanced -MockWith {
+                        $targetPath = if ($null -ne $LiteralPath) { $LiteralPath } else { $Path }
+                        if ($PathType -eq 'Container') {
+                            return [System.IO.Directory]::Exists([string]$targetPath)
+                        }
+                        if ($PathType -eq 'Leaf') {
+                            return [System.IO.File]::Exists([string]$targetPath)
+                        }
+                        return [System.IO.File]::Exists([string]$targetPath) -or [System.IO.Directory]::Exists([string]$targetPath)
+                    }
                     Mock -CommandName Test-Path -ModuleName ColorScripts-Enhanced -MockWith { $false } -ParameterFilter {
                         $LiteralPath -match 'cache|Cache|CACHE'
+                    }
+                    Mock -CommandName New-Item -ModuleName ColorScripts-Enhanced -MockWith {
+                        [System.IO.Directory]::CreateDirectory([string]$Path)
                     }
                     Mock -CommandName New-Item -ModuleName ColorScripts-Enhanced -MockWith {
                         throw 'simulated failure'

@@ -53,13 +53,6 @@ $Path = $Path | Where-Object { $_ } | Sort-Object -Unique
 
 Write-Verbose "Linting paths: $($Path -join ', ')"
 
-if ($IncludeTests) {
-    $testPath = Join-Path $repoRoot 'Tests'
-    if (-not ($Path | Where-Object { $_ -eq $testPath })) {
-        $Path += $testPath
-    }
-}
-
 if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
     Write-Error "PSScriptAnalyzer module not installed. Run 'Install-Module PSScriptAnalyzer -Scope CurrentUser'."
     exit 1
@@ -73,12 +66,13 @@ Import-Module PSScriptAnalyzer -ErrorAction Stop
 # "ScriptAnalyzer hit a CommandNotFoundException" warnings that were
 # plaguing test linting.
 if ($IncludeTests) {
-    if (-not (Get-Module -ListAvailable -Name Pester)) {
-        Write-Error "Pester module not installed. Run 'Install-Module Pester -Scope CurrentUser'."
+    $pesterRequiredVersion = [version]'6.0.1'
+    if (-not (Get-Module -ListAvailable -Name Pester | Where-Object Version -EQ $pesterRequiredVersion)) {
+        Write-Error "Pester $pesterRequiredVersion is not installed. Run 'Install-Module Pester -RequiredVersion $pesterRequiredVersion -Scope CurrentUser'."
         exit 1
     }
 
-    Import-Module Pester -ErrorAction Stop
+    Import-Module Pester -RequiredVersion $pesterRequiredVersion -ErrorAction Stop
 }
 
 $invokeScriptAnalyzerCommand = Get-Command Invoke-ScriptAnalyzer -ErrorAction Stop
@@ -183,6 +177,12 @@ function Invoke-LintPass {
                 if ($SettingsFile) {
                     $params.Settings = $SettingsFile
                 }
+                if ($IncludeTests -and $file.FullName.StartsWith($testRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
+                    # PSUseCorrectCasing dereferences null command metadata for Pester 6 DSL
+                    # commands. Mock callback parameters also intentionally mirror command
+                    # signatures even when a scenario uses only a subset of them.
+                    $params.ExcludeRule = @('PSUseCorrectCasing', 'PSReviewUnusedParameter')
+                }
                 if ($FixMode) {
                     $params.Fix = $true
                 }
@@ -205,6 +205,9 @@ function Invoke-LintPass {
         }
         if ($SettingsFile) {
             $params.Settings = $SettingsFile
+        }
+        if ($IncludeTests -and $resolved.StartsWith($testRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
+            $params.ExcludeRule = @('PSUseCorrectCasing', 'PSReviewUnusedParameter')
         }
         if ($FixMode) {
             $params.Fix = $true

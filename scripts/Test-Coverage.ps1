@@ -1,7 +1,7 @@
 # ============================================================================
 # PS-Color-Scripts-Enhanced - Modern Coverage Analysis
 # ============================================================================
-# Powered by Pester 5.8.0 with advanced coverage tracking and beautiful output
+# Powered by Pester 6.0.1 with advanced coverage tracking and beautiful output
 # Supports: JaCoCo format, HTML reports, GitHub Actions, Azure DevOps
 # Updated: January 2025
 # ============================================================================
@@ -123,9 +123,9 @@ function Write-InfoLine {
 # PESTER MODULE VALIDATION
 # ============================================================================
 
-Write-SectionHeader 'Pester 5.8.0 Detection & Installation'
+Write-SectionHeader 'Pester 6.0.1 Detection & Installation'
 
-$pesterRequiredVersion = [version]'5.8.0'
+$pesterRequiredVersion = [version]'6.0.1'
 $pesterModule = Get-Module -ListAvailable -Name Pester |
     Where-Object { $_.Version -eq $pesterRequiredVersion } |
         Sort-Object Version -Descending |
@@ -161,6 +161,20 @@ $modulePath = Join-Path $repoRoot 'ColorScripts-Enhanced'
 $coverageOutputPath = Join-Path $repoRoot 'coverage.xml'
 $coverageReportPath = Join-Path $repoRoot 'coverage-report'
 $testResultPath = Join-Path $repoRoot 'testResults.junit.xml'
+
+# Remove stale generated reports before Pester opens its output writers. This both prevents
+# old results from being mistaken for the current run and surfaces file-lock problems before
+# the test suite spends several minutes executing.
+$generatedReportPaths = @($testResultPath)
+if (-not $SkipCoverage) {
+    $generatedReportPaths = @($coverageOutputPath) + $generatedReportPaths
+}
+
+foreach ($generatedReportPath in $generatedReportPaths) {
+    if (Test-Path -LiteralPath $generatedReportPath) {
+        Remove-Item -LiteralPath $generatedReportPath -Force -ErrorAction Stop
+    }
+}
 
 Write-SectionHeader 'Configuration'
 Write-InfoLine 'Repository Root' $repoRoot -ValueColor $script:Colors.Info
@@ -272,10 +286,10 @@ if ($exclusionReport.Count -gt 0) {
 
 
 # ============================================================================
-# PESTER CONFIGURATION (Pester 5.8.0)
+# PESTER CONFIGURATION (Pester 6.0.1)
 # ============================================================================
 
-Write-SectionHeader 'Pester Configuration (v5.8.0)'
+Write-SectionHeader 'Pester Configuration (v6.0.1)'
 
 $config = New-PesterConfiguration
 
@@ -304,7 +318,7 @@ if (-not $SkipCoverage) {
     $config.CodeCoverage.OutputEncoding = 'UTF8'
     $config.CodeCoverage.CoveragePercentTarget = $MinimumCoverage
 
-    # Modern coverage options (Pester 5.3+)
+    # Pester 6 coverage options
     $config.CodeCoverage.RecursePaths = $false  # Avoid double-counting in nested modules
     $config.CodeCoverage.UseBreakpoints = if ($UseBreakpoints) { $true } else { $false }
     $config.CodeCoverage.SingleHitBreakpoints = $true  # Faster coverage collection
@@ -320,7 +334,7 @@ else {
     Write-ColorLine '  ⚠ Coverage collection disabled' -Color $script:Colors.Warning
 }
 
-# === Output Configuration (Pester 5.7) ===
+# === Output Configuration (Pester 6) ===
 $config.Output.Verbosity = $Verbosity
 $config.Output.StackTraceVerbosity = 'Filtered'  # Clean stack traces
 $config.Output.CIFormat = 'Auto'  # Auto-detect GitHub Actions / Azure DevOps
@@ -448,7 +462,7 @@ if ($result.FailedCount -gt 0) {
 }
 
 # ============================================================================
-# CODE COVERAGE ANALYSIS (Modern Pester 5.3+ Properties)
+# CODE COVERAGE ANALYSIS (Pester 6 Properties)
 # ============================================================================
 
 if (-not $SkipCoverage -and $result.CodeCoverage) {
@@ -503,11 +517,11 @@ if (-not $SkipCoverage -and $result.CodeCoverage) {
         }
     }
 
-    # Pester 5.7+ uses different property structure
+    # Pester result objects have used multiple coverage property structures.
     $commandsExecuted = 0
     $commandsAnalyzed = 0
 
-    # Try direct properties first (Pester 5.7+)
+    # Prefer the direct properties exposed by current Pester versions.
     if ($null -ne $coverage.CommandsExecutedCount -and $null -ne $coverage.CommandsAnalyzedCount) {
         $commandsExecuted = $coverage.CommandsExecutedCount
         $commandsAnalyzed = $coverage.CommandsAnalyzedCount
@@ -517,12 +531,12 @@ if (-not $SkipCoverage -and $result.CodeCoverage) {
         $commandsAnalyzed = $coverage.NumberOfCommandsAnalyzed
     }
     elseif ($coverage.CoverageReport) {
-        # Modern Pester 5.3+
+        # Coverage report property fallback
         $commandsExecuted = $coverage.CoverageReport.CommandsExecutedCount
         $commandsAnalyzed = $coverage.CoverageReport.CommandsAnalyzedCount
     }
     elseif ($coverage.CommandsExecuted -and $coverage.CommandsAnalyzed) {
-        # Older Pester versions
+        # Legacy result property fallback
         $commandsExecuted = $coverage.CommandsExecuted.Count
         $commandsAnalyzed = $coverage.CommandsAnalyzed.Count
     }
@@ -559,7 +573,7 @@ if (-not $SkipCoverage -and $result.CodeCoverage) {
         Write-ColorLine '  Missed Commands: ' -Color $script:Colors.Info -NoNewline
         Write-ColorLine $commandsMissed.ToString() -Color $(if ($commandsMissed -gt 0) { $script:Colors.Warning } else { $script:Colors.Success })
 
-        # Per-file coverage breakdown (Modern Pester 5.3+)
+        # Per-file coverage breakdown
         if ($coverage.CoverageReport -and $coverage.CoverageReport.AnalyzedFiles -and -not $CI) {
             Write-ColorLine "`n  📊 Per-File Coverage (Bottom 20):" -Color $script:Colors.Highlight
             Write-ColorLine ('  {0,-50} {1,10} {2,10} {3,12}' -f 'File', 'Coverage', 'Hit/Total', 'Status') -Color $script:Colors.Dim

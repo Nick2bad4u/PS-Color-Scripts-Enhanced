@@ -417,7 +417,7 @@ ColorScripts-Enhanced/
 
 ```powershell
 Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-Install-Module Pester -MinimumVersion 5.4.0 -Force
+Install-Module Pester -RequiredVersion 6.0.1 -Force
 Install-Module PSScriptAnalyzer -Force
 ```
 
@@ -540,5 +540,3 @@ Expect to see icons, checkmarks, and box-drawing characters. If they appear as s
 - [Release Checklist](RELEASE_CHECKLIST.md)
 - [Contributing Guidelines](../../CONTRIBUTING.md)
 - [PowerShell Module Best Practices](https://learn.microsoft.com/en-us/powershell/gallery/concepts/publishing-guidelines?view=powershellget-3.x)
-
-

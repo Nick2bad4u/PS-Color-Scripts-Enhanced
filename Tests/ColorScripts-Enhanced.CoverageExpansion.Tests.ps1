@@ -318,7 +318,13 @@ Describe 'ColorScripts-Enhanced extended coverage' {
         }
 
         It 'throws when the output path is unresolved' {
-            Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith { $null } -ParameterFilter { $Path -eq '::invalid::' }
+            Mock -CommandName Resolve-CachePath -ModuleName ColorScripts-Enhanced -MockWith {
+                if ($Path -eq '::invalid::') {
+                    return $null
+                }
+
+                return $Path
+            }
 
             $caught = $null
             try {
@@ -339,7 +345,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
 
             Export-ColorScriptMetadata -h
 
-            Assert-MockCalled -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'Export-ColorScriptMetadata' }
+            Should-Invoke -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter { $CommandName -eq 'Export-ColorScriptMetadata' }
         }
 
         It 'continues when file info cannot be retrieved' {
@@ -881,7 +887,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
                 }
 
                 $state.Value | Should -BeTrue
-                Assert-MockCalled -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Console handle unavailable; skipping*' } -Times 1
+                Should-Invoke -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Console handle unavailable; skipping*' } -Times 1
             }
             finally {
                 InModuleScope ColorScripts-Enhanced -Parameters @{ isDel = $originalIsRedirected; getDel = $originalGetEncoding; setDel = $originalSetEncoding } {
@@ -921,7 +927,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
                     Invoke-WithUtf8Encoding -ScriptBlock { 'ok' } | Out-Null
                 }
 
-                Assert-MockCalled -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Console handle unavailable; unable to restore*' } -Times 1
+                Should-Invoke -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Console handle unavailable; unable to restore*' } -Times 1
             }
             finally {
                 InModuleScope ColorScripts-Enhanced -Parameters @{ isDel = $originalIsRedirected; getDel = $originalGetEncoding; setDel = $originalSetEncoding } {
@@ -954,7 +960,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
                 }
 
                 $result | Should -Be 'hello'
-                Assert-MockCalled -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Console handle unavailable during cached render*' } -Times 1
+                Should-Invoke -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Console handle unavailable during cached render*' } -Times 1
             }
             finally {
                 InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
@@ -1018,7 +1024,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
 
                 $result.Available | Should -BeFalse
                 $result.CacheFile | Should -Be (Join-Path -Path (Get-Variable -Name '__CoverageCachePath' -Scope Global -ValueOnly) -ChildPath 'alpha.cache')
-                Assert-MockCalled -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Cache read error*' } -Times 1
+                Should-Invoke -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Cache read error*' } -Times 1
             }
             finally {
                 InModuleScope ColorScripts-Enhanced -Parameters @{ delegate = $originalDelegate } {
@@ -1227,7 +1233,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
                 Initialize-CacheDirectory
             }
 
-            Assert-MockCalled -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Ignoring COLOR_SCRIPTS_ENHANCED_CACHE_PATH override*' } -Times 1
+            Should-Invoke -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Ignoring COLOR_SCRIPTS_ENHANCED_CACHE_PATH override*' } -Times 1
 
             $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $originalOverride
         }
@@ -1246,7 +1252,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
                 Initialize-CacheDirectory
             }
 
-            Assert-MockCalled -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Configured cache path*could not be resolved*' } -Times 1
+            Should-Invoke -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Configured cache path*could not be resolved*' } -Times 1
 
             InModuleScope ColorScripts-Enhanced {
                 $script:ConfigurationData = $null
@@ -1268,7 +1274,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
                 }
             }
 
-            Assert-MockCalled -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Skipping cache candidate*' } -Times 1
+            Should-Invoke -CommandName Write-Verbose -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Skipping cache candidate*' } -Times 1
         }
 
         It "warns when candidate directory creation fails" {
@@ -1287,7 +1293,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
                 Initialize-CacheDirectory
             }
 
-            Assert-MockCalled -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Unable to prepare cache directory*' } -Times 1
+            Should-Invoke -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -ParameterFilter { $Message -like 'Unable to prepare cache directory*' } -Times 1
 
             Remove-Mock -CommandName New-Item -ModuleName ColorScripts-Enhanced
             $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $originalOverride
@@ -1677,7 +1683,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
         It 'lists scripts when requested' {
             Show-ColorScript -List -Category 'Nature' -Tag 'Bright'
 
-            Assert-MockCalled -CommandName Get-ColorScriptList -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter {
+            Should-Invoke -CommandName Get-ColorScriptList -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter {
                 ($Category -and $Category.Count -eq 1 -and $Category[0] -eq 'Nature') -and
                 ($Tag -and $Tag.Count -eq 1 -and $Tag[0] -eq 'Bright') -and
                 (-not [bool]$Quiet) -and
@@ -1688,7 +1694,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
         It 'forwards quiet and no-ANSI flags to list operations' {
             Show-ColorScript -List -Quiet -NoAnsiOutput
 
-            Assert-MockCalled -CommandName Get-ColorScriptList -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter {
+            Should-Invoke -CommandName Get-ColorScriptList -ModuleName ColorScripts-Enhanced -Times 1 -ParameterFilter {
                 [bool]$Quiet -and [bool]$NoAnsiOutput
             }
         }
@@ -1696,7 +1702,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
         It 'defaults to the first script when no name is specified' {
             $null = Show-ColorScript
 
-            Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 1
+            Should-Invoke -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 1
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'built output'
         }
 
@@ -1761,7 +1767,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
                 $VerbosePreference = $originalVerbose
             }
 
-            Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0
+            Should-Invoke -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'cached output'
             $result.Name | Should -Be 'alpha-one'
         }
@@ -1769,7 +1775,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
         It 'builds cache when cached output is missing' {
             $null = Show-ColorScript -Name 'alpha-one'
 
-            Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 1
+            Should-Invoke -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 1
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'built output'
         }
 
@@ -1808,7 +1814,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
             $null = Show-ColorScript -Name 'alpha-one' -NoCache
 
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'direct output'
-            Assert-MockCalled -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0
+            Should-Invoke -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0
         }
 
         It 'shows Pokemon when Category Pokemon is specified (implicitly includes Pokemon)' {
@@ -1866,7 +1872,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
         It 'cycles through all scripts without waiting for input' {
             Show-ColorScript -All
 
-            Assert-MockCalled -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -Times 1
+            Should-Invoke -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -Times 1
             ($script:RenderedOutputs | Select-Object -First 1) | Should -Be 'built output'
             $script:SleepLog.Count | Should -BeGreaterThan 0
         }
@@ -1874,13 +1880,13 @@ Describe 'ColorScripts-Enhanced extended coverage' {
         It 'clears the host before each script when cycling all' {
             Show-ColorScript -All
 
-            Assert-MockCalled -CommandName Clear-Host -ModuleName ColorScripts-Enhanced -Times 2
+            Should-Invoke -CommandName Clear-Host -ModuleName ColorScripts-Enhanced -Times 2
         }
 
         It 'skips host clearing when NoClear is specified' {
             Show-ColorScript -All -NoClear
 
-            Assert-MockCalled -CommandName Clear-Host -ModuleName ColorScripts-Enhanced -Times 0
+            Should-Invoke -CommandName Clear-Host -ModuleName ColorScripts-Enhanced -Times 0
         }
 
         It 'supports wait-for-input navigation and quit shortcut' {

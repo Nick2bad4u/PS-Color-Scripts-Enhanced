@@ -1,7 +1,7 @@
 name: Publish
 
 env:
-    PESTER_VERSION: "5.8.0"
+    PESTER_VERSION: "6.0.1"
 
 on:
     workflow_dispatch:

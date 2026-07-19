@@ -580,7 +580,7 @@
                 $data = Export-ColorScriptMetadata -IncludeCacheInfo
                 $json = $data | ConvertTo-Json -Depth 6
                 [System.IO.File]::WriteAllText($OutputPath, $json, [System.Text.Encoding]::UTF8)
-                Assert-MockCalled Write-Verbose -Exactly 1 -Scope It -ParameterFilter { $Message -like 'Unable to read cache info*' }
+                Should-Invoke Write-Verbose -Times 1 -Exactly -Scope It -ParameterFilter { $Message -like 'Unable to read cache info*' }
             }
 
             Test-Path -LiteralPath $outputPath | Should -BeTrue

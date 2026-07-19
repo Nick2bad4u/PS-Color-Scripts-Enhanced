@@ -55,7 +55,7 @@ function Invoke-ColorScriptsEnhancedInstall {
         throw 'Unable to determine module installation path.'
     }
 
-    if ($AllUsers -and $PSVersionTable.PSEdition -eq 'Desktop') {
+    if ($AllUsers -and $PSVersionTable.PSEdition -eq 'Desktop' -and -not $WhatIfPreference) {
         $principal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
         if (-not $principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
             throw 'AllUsers installation requires Administrator privileges.'

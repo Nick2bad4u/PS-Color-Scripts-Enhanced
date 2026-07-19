@@ -26,7 +26,7 @@
                 Mock -CommandName Show-ColorScriptHelp -ModuleName ColorScripts-Enhanced
                 $result = Get-ColorScriptList -h
                 $result | Should -BeNullOrEmpty
-                Assert-MockCalled Show-ColorScriptHelp -Times 1 -Exactly
+                Should-Invoke Show-ColorScriptHelp -Times 1 -Exactly
             }
         }
 
@@ -38,8 +38,8 @@
 
                 $result = Get-ColorScriptList -Name 'bars' -Detailed -NoAnsiOutput
                 $result | Should -Not -BeNullOrEmpty
-                Assert-MockCalled Remove-ColorScriptAnsiSequence -Times 1
-                Assert-MockCalled Write-ColorScriptInformation -Times 1
+                Should-Invoke Remove-ColorScriptAnsiSequence -Times 1
+                Should-Invoke Write-ColorScriptInformation -Times 1
                 $script:LastMessage | Should -Match 'bars'
 
                 Remove-Variable -Name LastMessage -Scope Script -ErrorAction SilentlyContinue
@@ -52,7 +52,7 @@
                 Mock -CommandName Write-ColorScriptInformation -ModuleName ColorScripts-Enhanced
                 $result = Get-ColorScriptList -Name 'aurora-waves' -AsObject -Quiet
                 $result | Should -HaveCount 1
-                Assert-MockCalled Write-ColorScriptInformation -Times 0 -Exactly
+                Should-Invoke Write-ColorScriptInformation -Times 0 -Exactly
             }
         }
     }

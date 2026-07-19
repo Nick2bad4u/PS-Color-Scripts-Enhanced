@@ -890,6 +890,16 @@ Describe 'ColorScripts-Enhanced coverage completion' {
                         }
                     }
 
+                    Mock -CommandName Test-Path -ModuleName ColorScripts-Enhanced -MockWith {
+                        $targetPath = if ($null -ne $LiteralPath) { $LiteralPath } else { $Path }
+                        if ($PathType -eq 'Container') {
+                            return [System.IO.Directory]::Exists([string]$targetPath)
+                        }
+                        if ($PathType -eq 'Leaf') {
+                            return [System.IO.File]::Exists([string]$targetPath)
+                        }
+                        return [System.IO.File]::Exists([string]$targetPath) -or [System.IO.Directory]::Exists([string]$targetPath)
+                    }
                     Mock -CommandName Test-Path -ModuleName ColorScripts-Enhanced -ParameterFilter { $LiteralPath -like '*missing.cache' } -MockWith { $false }
                     Mock -CommandName Test-Path -ModuleName ColorScripts-Enhanced -ParameterFilter { $LiteralPath -like '*error.cache' } -MockWith { $true }
                     Mock -CommandName Remove-Item -ModuleName ColorScripts-Enhanced -ParameterFilter { $LiteralPath -like '*error.cache' } -MockWith {
