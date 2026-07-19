@@ -25,6 +25,24 @@ Describe 'Selective colorscript output caching' {
             }
         }
 
+        It 'resolves cache-policy records without initializing the full inventory' {
+            $records = InModuleScope ColorScripts-Enhanced {
+                $script:ScriptInventoryInitialized = $false
+                $script:ScriptInventory = $null
+                $script:ScriptInventoryRecords = $null
+
+                $resolved = @(Get-ColorScriptCachePolicyRecords)
+                [pscustomobject]@{
+                    Records              = $resolved
+                    InventoryInitialized = $script:ScriptInventoryInitialized
+                }
+            }
+
+            $policy = Import-PowerShellDataFile (Join-Path -Path $script:ModuleRoot -ChildPath 'CachePolicy.psd1')
+            $records.Records | Should -HaveCount $policy.CacheableScripts.Count
+            $records.InventoryInitialized | Should -BeFalse
+        }
+
         It 'excludes static output and includes the computational examples' {
             $classification = InModuleScope ColorScripts-Enhanced -Parameters @{ root = $script:ModuleRoot } {
                 param($root)
@@ -172,6 +190,23 @@ Describe 'Selective colorscript output caching' {
     }
 
     Context 'Static execution fast path' {
+        It 'resolves an exact bundled name without enumerating the full inventory' {
+            $result = InModuleScope ColorScripts-Enhanced {
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
+                    throw 'An exact bundled name must not enumerate all colorscripts.'
+                }
+                Mock -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -MockWith {
+                    [pscustomobject]@{ Success = $true; StdOut = 'direct exact output'; StdErr = ''; ExitCode = 0 }
+                }
+
+                $text = Show-ColorScript -Name 'bars' -NoCache -ReturnText -Quiet
+                Should-Invoke -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
+                $text
+            }
+
+            $result | Should -BeExactly 'direct exact output'
+        }
+
         It 'extracts a literal Write-Host payload without launching another PowerShell process' {
             $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
             $scriptPath = Join-Path -Path $testRoot -ChildPath 'literal-static.ps1'

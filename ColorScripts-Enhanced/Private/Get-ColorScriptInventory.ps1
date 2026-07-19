@@ -1,3 +1,59 @@
+function New-ColorScriptInventoryRecord {
+    param(
+        [Parameter(Mandatory)]
+        [System.IO.FileInfo]$File
+    )
+
+    return [pscustomobject]@{
+        Name        = $File.BaseName
+        Path        = $File.FullName
+        Category    = $null
+        Categories  = @()
+        Tags        = @()
+        Description = $null
+        Metadata    = $null
+    }
+}
+
+function Get-ColorScriptExactNameRecord {
+    param(
+        [Parameter(Mandatory)]
+        [string]$Name
+    )
+
+    if ([string]::IsNullOrWhiteSpace($Name) -or
+        [System.Management.Automation.WildcardPattern]::ContainsWildcardCharacters($Name)) {
+        return $null
+    }
+
+    $candidatePath = Join-Path -Path $script:ScriptsPath -ChildPath ("{0}.ps1" -f $Name)
+    if (-not [System.IO.File]::Exists($candidatePath)) {
+        return $null
+    }
+
+    return New-ColorScriptInventoryRecord -File ([System.IO.FileInfo]$candidatePath)
+}
+
+function Get-ColorScriptCachePolicyRecords {
+    $cacheableNames = Get-ColorScriptCacheableNameSet
+    if (-not $cacheableNames -or $cacheableNames.Count -eq 0) {
+        return @()
+    }
+
+    $records = New-Object 'System.Collections.Generic.List[object]'
+    foreach ($scriptName in @($cacheableNames | Sort-Object)) {
+        $record = Get-ColorScriptExactNameRecord -Name $scriptName
+        if ($record) {
+            $null = $records.Add($record)
+        }
+        else {
+            Write-Verbose ("Skipping missing cache-policy script '{0}'." -f $scriptName)
+        }
+    }
+
+    return $records.ToArray()
+}
+
 function Get-ColorScriptInventory {
     param(
         [switch]$Raw
@@ -71,15 +127,7 @@ function Get-ColorScriptInventory {
             $script:ScriptInventory = @($scriptFiles)
             $script:ScriptInventoryRecords = @(
                 foreach ($file in $scriptFiles) {
-                    [pscustomobject]@{
-                        Name        = $file.BaseName
-                        Path        = $file.FullName
-                        Category    = $null
-                        Categories  = @()
-                        Tags        = @()
-                        Description = $null
-                        Metadata    = $null
-                    }
+                    New-ColorScriptInventoryRecord -File $file
                 }
             )
             $script:ScriptInventoryStamp = $currentStamp
@@ -93,15 +141,7 @@ function Get-ColorScriptInventory {
         if (-not $script:ScriptInventoryRecords) {
             $script:ScriptInventoryRecords = @(
                 foreach ($file in $script:ScriptInventory) {
-                    [pscustomobject]@{
-                        Name        = $file.BaseName
-                        Path        = $file.FullName
-                        Category    = $null
-                        Categories  = @()
-                        Tags        = @()
-                        Description = $null
-                        Metadata    = $null
-                    }
+                    New-ColorScriptInventoryRecord -File $file
                 }
             )
         }

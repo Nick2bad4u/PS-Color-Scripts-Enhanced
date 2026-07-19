@@ -7,7 +7,9 @@ function Get-CachedOutput {
     [OutputType([pscustomobject])]
     param(
         [Parameter(Mandatory)]
-        [string]$ScriptPath
+        [string]$ScriptPath,
+
+        [switch]$MetadataOnly
     )
 
     if ([string]::IsNullOrWhiteSpace($ScriptPath)) {
@@ -66,6 +68,7 @@ function Get-CachedOutput {
         }
 
         if (-not (Test-Path -LiteralPath $cacheFile)) {
+            Remove-CachedOutputMemoryEntry -CacheFile $cacheFile
             return [pscustomobject]@{
                 Available     = $false
                 CacheFile     = $cacheFile
@@ -75,12 +78,59 @@ function Get-CachedOutput {
         }
 
         if (-not $metadataPath -or -not (Test-Path -LiteralPath $metadataPath -PathType Leaf)) {
+            Remove-CachedOutputMemoryEntry -CacheFile $cacheFile
             return [pscustomobject]@{
                 Available     = $false
                 CacheFile     = $cacheFile
                 Content       = ''
                 LastWriteTime = $null
             }
+        }
+
+        $fileSnapshot = Get-CachedOutputFileSnapshot -ScriptPath $ScriptPath -CacheFile $cacheFile -MetadataPath $metadataPath
+        if (-not $fileSnapshot) {
+            Remove-CachedOutputMemoryEntry -CacheFile $cacheFile
+            return [pscustomobject]@{
+                Available     = $false
+                CacheFile     = $cacheFile
+                Content       = ''
+                LastWriteTime = $null
+            }
+        }
+
+        $memoryEntry = Get-CachedOutputMemoryEntry -CacheFile $cacheFile
+        if ($memoryEntry) {
+            if (Test-CachedOutputMemoryEntryCurrent -Entry $memoryEntry -Snapshot $fileSnapshot) {
+                if ($MetadataOnly) {
+                    return [pscustomobject]@{
+                        Available     = $true
+                        CacheFile     = $cacheFile
+                        Content       = ''
+                        LastWriteTime = $fileSnapshot.CacheInfo.LastWriteTimeUtc
+                    }
+                }
+
+                if ($memoryEntry.ContentLoaded) {
+                    return [pscustomobject]@{
+                        Available     = $true
+                        CacheFile     = $cacheFile
+                        Content       = [string]$memoryEntry.Content
+                        LastWriteTime = $fileSnapshot.CacheInfo.LastWriteTimeUtc
+                    }
+                }
+
+                $memoryContent = & $script:FileReadAllTextDelegate $cacheFile $script:Utf8NoBomEncoding
+                Set-CachedOutputMemoryEntry -CacheFile $cacheFile -ScriptPath $ScriptPath -MetadataPath $metadataPath -ScriptInfo $fileSnapshot.ScriptInfo -CacheInfo $fileSnapshot.CacheInfo -MetadataInfo $fileSnapshot.MetadataInfo -ContentLoaded $true -Content $memoryContent
+
+                return [pscustomobject]@{
+                    Available     = $true
+                    CacheFile     = $cacheFile
+                    Content       = $memoryContent
+                    LastWriteTime = $fileSnapshot.CacheInfo.LastWriteTimeUtc
+                }
+            }
+
+            Remove-CachedOutputMemoryEntry -CacheFile $cacheFile
         }
 
         $metadata = $null
@@ -300,7 +350,17 @@ function Get-CachedOutput {
             Write-Verbose ("Cache timestamp migration check failed for {0}: {1}" -f $cacheFile, $_.Exception.Message)
         }
 
-        $content = & $script:FileReadAllTextDelegate $cacheFile $script:Utf8NoBomEncoding
+        $content = if ($MetadataOnly) {
+            ''
+        }
+        else {
+            & $script:FileReadAllTextDelegate $cacheFile $script:Utf8NoBomEncoding
+        }
+
+        $validatedSnapshot = Get-CachedOutputFileSnapshot -ScriptPath $ScriptPath -CacheFile $cacheFile -MetadataPath $metadataPath
+        if ($validatedSnapshot) {
+            Set-CachedOutputMemoryEntry -CacheFile $cacheFile -ScriptPath $ScriptPath -MetadataPath $metadataPath -ScriptInfo $validatedSnapshot.ScriptInfo -CacheInfo $validatedSnapshot.CacheInfo -MetadataInfo $validatedSnapshot.MetadataInfo -ContentLoaded (-not $MetadataOnly.IsPresent) -Content $content
+        }
 
         return [pscustomobject]@{
             Available     = $true

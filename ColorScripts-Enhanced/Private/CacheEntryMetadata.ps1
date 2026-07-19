@@ -46,6 +46,12 @@ function Remove-CacheEntryMetadataFile {
         return
     }
 
+    $root = if ($PSBoundParameters.ContainsKey('CacheRoot') -and $CacheRoot) { $CacheRoot } else { $script:CacheDir }
+    if ($root) {
+        $cacheFile = Join-Path -Path $root -ChildPath ("{0}.cache" -f ([string]$ScriptName).Trim())
+        Remove-CachedOutputMemoryEntry -CacheFile $cacheFile
+    }
+
     if (-not (Test-Path -LiteralPath $metadataPath -PathType Leaf)) {
         return
     }
@@ -92,6 +98,10 @@ function Remove-ColorScriptCacheEntry {
 
     if ($shouldRemove) {
         $shouldRemove = Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $ScriptName -Action 'Remove obsolete colorscript cache'
+    }
+
+    if ($shouldRemove) {
+        Remove-CachedOutputMemoryEntry -CacheFile $cachePath
     }
 
     if ($shouldRemove -and $cacheExists) {
@@ -145,6 +155,7 @@ function Write-CacheEntryMetadataFile {
     if (-not $metadataPath) {
         return
     }
+    Remove-CachedOutputMemoryEntry -CacheFile $CacheFile
 
     $nowUtc = (Get-Date).ToUniversalTime()
     $generatedUtc = if ([string]::IsNullOrWhiteSpace($CacheGeneratedUtc)) { $nowUtc.ToString('o') } else { $CacheGeneratedUtc }

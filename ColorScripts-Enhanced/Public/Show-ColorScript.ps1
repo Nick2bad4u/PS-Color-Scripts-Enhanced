@@ -559,14 +559,24 @@
                         ($excludeCategorySet.Count -gt 0)
                     )
 
-                    $records = @(
-                        if ($needsMetadata) {
-                            Get-ColorScriptEntry -Category $Category -Tag $Tag
+                    $records = @()
+                    if ($needsMetadata) {
+                        $records = @(Get-ColorScriptEntry -Category $Category -Tag $Tag)
+                    }
+                    elseif ($Name -and -not [System.Management.Automation.WildcardPattern]::ContainsWildcardCharacters($Name)) {
+                        $exactRecord = Get-ColorScriptExactNameRecord -Name $Name
+                        if ($exactRecord) {
+                            $records = @($exactRecord)
                         }
                         else {
-                            Get-ColorScriptInventory
+                            # Preserve case-insensitive matching on case-sensitive filesystems and the
+                            # established warning behavior by falling back to the complete inventory.
+                            $records = @(Get-ColorScriptInventory)
                         }
-                    )
+                    }
+                    else {
+                        $records = @(Get-ColorScriptInventory)
+                    }
 
                     if (-not $records -or $records.Count -eq 0) {
                         Write-Warning ($script:Messages.NoColorscriptsFoundInScriptsPath -f $script:ScriptsPath)

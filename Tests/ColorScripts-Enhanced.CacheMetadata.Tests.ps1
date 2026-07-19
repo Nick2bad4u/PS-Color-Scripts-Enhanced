@@ -313,7 +313,7 @@ Describe 'Cache metadata coverage' {
                 }
 
                 $operation = Invoke-ColorScriptCacheOperation -ScriptName 'shared' -ScriptPath 'TestDrive:\shared.ps1'
-                Should-Invoke -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
+                Should-Invoke -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -Times 1 -Exactly -ParameterFilter { -not $MetadataOnly }
                 Should-Invoke -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
                 $operation
             }
@@ -322,6 +322,7 @@ Describe 'Cache metadata coverage' {
             $info.Failed | Should -Be 0
             $info.Result.Status | Should -Be 'SkippedUpToDate'
             $info.Result.CacheExists | Should -BeTrue
+            $info.Result.StdOut | Should -BeExactly 'built by another process'
         }
 
         It 'captures exceptions from Build-ScriptCache and reports failure' {
@@ -385,6 +386,195 @@ Describe 'Cache metadata coverage' {
 
             $result.Available | Should -BeTrue
             $result.Content.Trim() | Should -Be 'cached ok'
+        }
+
+        It 'validates freshness without reading the cache payload in metadata-only mode' {
+            $result = InModuleScope ColorScripts-Enhanced {
+                $cacheRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
+                New-Item -ItemType Directory -Path $cacheRoot -Force | Out-Null
+                $scriptPath = Join-Path -Path $cacheRoot -ChildPath 'metadata-only.ps1'
+                $cacheFile = Join-Path -Path $cacheRoot -ChildPath 'metadata-only.cache'
+                Set-Content -LiteralPath $scriptPath -Value "Write-Host 'ok'" -Encoding UTF8
+                Set-Content -LiteralPath $cacheFile -Value ('payload' * 1024) -Encoding UTF8
+
+                $script:CacheDir = $cacheRoot
+                $script:CacheInitialized = $true
+                $signature = Get-FileContentSignature -Path $scriptPath -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName 'metadata-only' -Signature $signature -CacheFile $cacheFile
+
+                $originalReadDelegate = $script:FileReadAllTextDelegate
+                $script:CacheReadPaths = [System.Collections.Generic.List[string]]::new()
+                $script:FileReadAllTextDelegate = {
+                    param($path, $encoding)
+                    $null = $script:CacheReadPaths.Add($path)
+                    [System.IO.File]::ReadAllText($path, $encoding)
+                }
+
+                try {
+                    $entry = Get-CachedOutput -ScriptPath $scriptPath -MetadataOnly
+                    [pscustomobject]@{
+                        Entry      = $entry
+                        CacheFile  = $cacheFile
+                        ReadPaths  = $script:CacheReadPaths.ToArray()
+                    }
+                }
+                finally {
+                    $script:FileReadAllTextDelegate = $originalReadDelegate
+                    Remove-Variable -Name CacheReadPaths -Scope Script -ErrorAction SilentlyContinue
+                }
+            }
+
+            $result.Entry.Available | Should -BeTrue
+            $result.Entry.Content | Should -BeExactly ''
+            $result.ReadPaths | Should -Not -Contain $result.CacheFile
+            $result.ReadPaths | Should -HaveCount 1
+        }
+
+        It 'reuses memoized content while script, payload, and sidecar stamps are unchanged' {
+            $result = InModuleScope ColorScripts-Enhanced {
+                $cacheRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
+                New-Item -ItemType Directory -Path $cacheRoot -Force | Out-Null
+                $scriptPath = Join-Path -Path $cacheRoot -ChildPath 'memoized.ps1'
+                $cacheFile = Join-Path -Path $cacheRoot -ChildPath 'memoized.cache'
+                Set-Content -LiteralPath $scriptPath -Value "Write-Host 'ok'" -Encoding UTF8
+                Set-Content -LiteralPath $cacheFile -Value 'cached once' -Encoding UTF8
+
+                $script:CacheDir = $cacheRoot
+                $script:CacheInitialized = $true
+                Reset-CachedOutputMemory
+                $signature = Get-FileContentSignature -Path $scriptPath -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName 'memoized' -Signature $signature -CacheFile $cacheFile
+
+                $originalReadDelegate = $script:FileReadAllTextDelegate
+                $script:CacheReadPaths = [System.Collections.Generic.List[string]]::new()
+                $script:FileReadAllTextDelegate = {
+                    param($path, $encoding)
+                    $null = $script:CacheReadPaths.Add($path)
+                    [System.IO.File]::ReadAllText($path, $encoding)
+                }
+
+                try {
+                    $first = Get-CachedOutput -ScriptPath $scriptPath
+                    $readsAfterFirst = $script:CacheReadPaths.Count
+                    $second = Get-CachedOutput -ScriptPath $scriptPath
+
+                    [pscustomobject]@{
+                        First           = $first
+                        Second          = $second
+                        ReadsAfterFirst = $readsAfterFirst
+                        ReadPaths       = $script:CacheReadPaths.ToArray()
+                        CacheFile       = $cacheFile
+                    }
+                }
+                finally {
+                    $script:FileReadAllTextDelegate = $originalReadDelegate
+                    Reset-CachedOutputMemory
+                    Remove-Variable -Name CacheReadPaths -Scope Script -ErrorAction SilentlyContinue
+                }
+            }
+
+            $result.First.Content.Trim() | Should -BeExactly 'cached once'
+            $result.Second.Content | Should -BeExactly $result.First.Content
+            $result.ReadsAfterFirst | Should -Be 2
+            $result.ReadPaths | Should -HaveCount 2
+            @($result.ReadPaths | Where-Object { $_ -eq $result.CacheFile }) | Should -HaveCount 1
+        }
+
+        It 'invalidates memoized content when the cache payload changes' {
+            $result = InModuleScope ColorScripts-Enhanced {
+                $cacheRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
+                New-Item -ItemType Directory -Path $cacheRoot -Force | Out-Null
+                $scriptPath = Join-Path -Path $cacheRoot -ChildPath 'changed-cache.ps1'
+                $cacheFile = Join-Path -Path $cacheRoot -ChildPath 'changed-cache.cache'
+                Set-Content -LiteralPath $scriptPath -Value "Write-Host 'ok'" -Encoding UTF8
+                Set-Content -LiteralPath $cacheFile -Value 'first payload' -Encoding UTF8
+
+                $script:CacheDir = $cacheRoot
+                $script:CacheInitialized = $true
+                Reset-CachedOutputMemory
+                $signature = Get-FileContentSignature -Path $scriptPath -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName 'changed-cache' -Signature $signature -CacheFile $cacheFile
+
+                $originalReadDelegate = $script:FileReadAllTextDelegate
+                $script:CacheReadPaths = [System.Collections.Generic.List[string]]::new()
+                $script:FileReadAllTextDelegate = {
+                    param($path, $encoding)
+                    $null = $script:CacheReadPaths.Add($path)
+                    [System.IO.File]::ReadAllText($path, $encoding)
+                }
+
+                try {
+                    $first = Get-CachedOutput -ScriptPath $scriptPath
+                    Set-Content -LiteralPath $cacheFile -Value 'replacement payload with a different length' -Encoding UTF8
+                    [System.IO.File]::SetLastWriteTimeUtc($cacheFile, (Get-Date).ToUniversalTime().AddMinutes(1))
+                    $second = Get-CachedOutput -ScriptPath $scriptPath
+
+                    [pscustomobject]@{
+                        First     = $first
+                        Second    = $second
+                        ReadPaths = $script:CacheReadPaths.ToArray()
+                        CacheFile = $cacheFile
+                    }
+                }
+                finally {
+                    $script:FileReadAllTextDelegate = $originalReadDelegate
+                    Reset-CachedOutputMemory
+                    Remove-Variable -Name CacheReadPaths -Scope Script -ErrorAction SilentlyContinue
+                }
+            }
+
+            $result.First.Content.Trim() | Should -BeExactly 'first payload'
+            $result.Second.Content.Trim() | Should -BeExactly 'replacement payload with a different length'
+            $result.ReadPaths | Should -HaveCount 4
+            @($result.ReadPaths | Where-Object { $_ -eq $result.CacheFile }) | Should -HaveCount 2
+        }
+
+        It 'loads only the payload after a metadata-only validation warms memory' {
+            $result = InModuleScope ColorScripts-Enhanced {
+                $cacheRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath ([guid]::NewGuid().ToString())
+                New-Item -ItemType Directory -Path $cacheRoot -Force | Out-Null
+                $scriptPath = Join-Path -Path $cacheRoot -ChildPath 'metadata-warm.ps1'
+                $cacheFile = Join-Path -Path $cacheRoot -ChildPath 'metadata-warm.cache'
+                $metadataFile = Join-Path -Path $cacheRoot -ChildPath 'metadata-warm.cacheinfo'
+                Set-Content -LiteralPath $scriptPath -Value "Write-Host 'ok'" -Encoding UTF8
+                Set-Content -LiteralPath $cacheFile -Value 'payload after metadata' -Encoding UTF8
+
+                $script:CacheDir = $cacheRoot
+                $script:CacheInitialized = $true
+                Reset-CachedOutputMemory
+                $signature = Get-FileContentSignature -Path $scriptPath -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName 'metadata-warm' -Signature $signature -CacheFile $cacheFile
+
+                $originalReadDelegate = $script:FileReadAllTextDelegate
+                $script:CacheReadPaths = [System.Collections.Generic.List[string]]::new()
+                $script:FileReadAllTextDelegate = {
+                    param($path, $encoding)
+                    $null = $script:CacheReadPaths.Add($path)
+                    [System.IO.File]::ReadAllText($path, $encoding)
+                }
+
+                try {
+                    $metadataOnly = Get-CachedOutput -ScriptPath $scriptPath -MetadataOnly
+                    $full = Get-CachedOutput -ScriptPath $scriptPath
+                    [pscustomobject]@{
+                        MetadataOnly = $metadataOnly
+                        Full         = $full
+                        ReadPaths    = $script:CacheReadPaths.ToArray()
+                        CacheFile    = $cacheFile
+                        MetadataFile = $metadataFile
+                    }
+                }
+                finally {
+                    $script:FileReadAllTextDelegate = $originalReadDelegate
+                    Reset-CachedOutputMemory
+                    Remove-Variable -Name CacheReadPaths -Scope Script -ErrorAction SilentlyContinue
+                }
+            }
+
+            $result.MetadataOnly.Content | Should -BeExactly ''
+            $result.Full.Content.Trim() | Should -BeExactly 'payload after metadata'
+            @($result.ReadPaths | Where-Object { $_ -eq $result.MetadataFile }) | Should -HaveCount 1
+            @($result.ReadPaths | Where-Object { $_ -eq $result.CacheFile }) | Should -HaveCount 1
         }
 
         It 'returns unavailable when cache directory initialization fails' {

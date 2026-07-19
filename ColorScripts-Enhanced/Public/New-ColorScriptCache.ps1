@@ -225,9 +225,40 @@ function New-ColorScriptCache {
         $allRecords = @()
 
         $metadataFiltersRequested = ($Category -and $Category.Count -gt 0) -or ($Tag -and $Tag.Count -gt 0)
+        $implicitPolicySelection = $requestedNames.Count -eq 0 -and -not $metadataFiltersRequested
+        $directNameRecords = $null
+
+        if ($requestedNames.Count -gt 0 -and -not $metadataFiltersRequested) {
+            $allNamesAreExact = $true
+            $resolvedExactRecords = New-Object 'System.Collections.Generic.List[object]'
+            foreach ($requestedName in $requestedNames) {
+                if ([System.Management.Automation.WildcardPattern]::ContainsWildcardCharacters($requestedName)) {
+                    $allNamesAreExact = $false
+                    break
+                }
+
+                $record = Get-ColorScriptExactNameRecord -Name $requestedName
+                if (-not $record) {
+                    $allNamesAreExact = $false
+                    break
+                }
+
+                $null = $resolvedExactRecords.Add($record)
+            }
+
+            if ($allNamesAreExact -and $resolvedExactRecords.Count -eq $requestedNames.Count) {
+                $directNameRecords = $resolvedExactRecords.ToArray()
+            }
+        }
 
         try {
-            $allRecords = if ($metadataFiltersRequested) {
+            $allRecords = if ($directNameRecords) {
+                @($directNameRecords)
+            }
+            elseif ($implicitPolicySelection) {
+                @(Get-ColorScriptCachePolicyRecords)
+            }
+            elseif ($metadataFiltersRequested) {
                 @(Get-ColorScriptEntry -Category $Category -Tag $Tag)
             }
             else {
@@ -287,16 +318,6 @@ function New-ColorScriptCache {
                 if (-not $name) { return $true }
                 -not $pokemonNameSet.Contains([string]$name)
             }
-        }
-
-        # Implicit bulk selections should only process the curated cache policy. Explicit names
-        # retain the SkippedNotRequired result so callers can discover that a requested static
-        # script intentionally executes directly.
-        if ($requestedNames.Count -eq 0 -and -not $metadataFiltersRequested) {
-            $cacheableNameSet = Get-ColorScriptCacheableNameSet
-            $candidateRecords = @($candidateRecords | Where-Object {
-                    $_.Name -and $cacheableNameSet.Contains([string]$_.Name)
-                })
         }
 
         if (-not $candidateRecords -or $candidateRecords.Count -eq 0) {
@@ -361,11 +382,13 @@ function New-ColorScriptCache {
                     continue
                 }
 
-                Write-Progress -Id $executionProgressId -Activity $activity -Status ("Processing {0} of {1}: {2}" -f $index, $total, $scriptName) -PercentComplete $statusPercent
+                if (-not $quietRequested) {
+                    Write-Progress -Id $executionProgressId -Activity $activity -Status ("Processing {0} of {1}: {2}" -f $index, $total, $scriptName) -PercentComplete $statusPercent
+                }
 
                 $summary.Processed++
 
-                if (-not (Test-ColorScriptRequiresCache -ScriptPath $scriptPath)) {
+                if (-not $implicitPolicySelection -and -not (Test-ColorScriptRequiresCache -ScriptPath $scriptPath)) {
                     $cleanup = Remove-ColorScriptCacheEntry -ScriptName $scriptName
                     $summary.Skipped++
                     $resultOrder++
@@ -387,7 +410,7 @@ function New-ColorScriptCache {
                 }
 
                 if (-not $Force) {
-                    $cacheEntry = Get-CachedOutput -ScriptPath $scriptPath
+                    $cacheEntry = Get-CachedOutput -ScriptPath $scriptPath -MetadataOnly:(-not $PassThru.IsPresent)
                     if ($cacheEntry.Available) {
                         $summary.Skipped++
                         $resultOrder++
@@ -449,12 +472,16 @@ function New-ColorScriptCache {
                     })
             }
 
-            Write-Progress -Id $executionProgressId -Activity $activity -Completed -Status 'Completed'
+            if (-not $quietRequested) {
+                Write-Progress -Id $executionProgressId -Activity $activity -Completed -Status 'Completed'
+            }
         }
         else {
             $prepareIndex = 0
 
-            Write-Progress -Id $preparationProgressId -Activity $activity -Status ("Preparing 0 of {0}" -f $total) -PercentComplete 0
+            if (-not $quietRequested) {
+                Write-Progress -Id $preparationProgressId -Activity $activity -Status ("Preparing 0 of {0}" -f $total) -PercentComplete 0
+            }
 
             foreach ($record in $candidateRecords) {
                 $prepareIndex++
@@ -467,11 +494,13 @@ function New-ColorScriptCache {
                     continue
                 }
 
-                Write-Progress -Id $preparationProgressId -Activity $activity -Status ("Preparing {0} of {1}: {2}" -f $prepareIndex, $total, $scriptName) -PercentComplete $statusPercent
+                if (-not $quietRequested) {
+                    Write-Progress -Id $preparationProgressId -Activity $activity -Status ("Preparing {0} of {1}: {2}" -f $prepareIndex, $total, $scriptName) -PercentComplete $statusPercent
+                }
 
                 $summary.Processed++
 
-                if (-not (Test-ColorScriptRequiresCache -ScriptPath $scriptPath)) {
+                if (-not $implicitPolicySelection -and -not (Test-ColorScriptRequiresCache -ScriptPath $scriptPath)) {
                     $cleanup = Remove-ColorScriptCacheEntry -ScriptName $scriptName
                     $summary.Skipped++
                     $resultOrder++
@@ -493,7 +522,7 @@ function New-ColorScriptCache {
                 }
 
                 if (-not $Force) {
-                    $cacheEntry = Get-CachedOutput -ScriptPath $scriptPath
+                    $cacheEntry = Get-CachedOutput -ScriptPath $scriptPath -MetadataOnly:(-not $PassThru.IsPresent)
                     if ($cacheEntry.Available) {
                         $summary.Skipped++
                         $resultOrder++
@@ -545,10 +574,14 @@ function New-ColorScriptCache {
 
             $pendingCount = $workQueue.Count
 
-            Write-Progress -Id $preparationProgressId -Activity $activity -Completed -Status 'Preparation complete'
+            if (-not $quietRequested) {
+                Write-Progress -Id $preparationProgressId -Activity $activity -Completed -Status 'Preparation complete'
+            }
 
             if ($pendingCount -gt 0) {
-                Write-Progress -Id $executionProgressId -Activity $activity -Status ("Building 0 of {0}" -f $pendingCount) -PercentComplete 0
+                if (-not $quietRequested) {
+                    Write-Progress -Id $executionProgressId -Activity $activity -Status ("Building 0 of {0}" -f $pendingCount) -PercentComplete 0
+                }
 
                 $updateParallelProgress = {
                     param(
@@ -571,7 +604,9 @@ function New-ColorScriptCache {
                     }
 
                     $percent = if ($Total -le 0) { 0 } else { [math]::Min(100, [math]::Max(0, ($Completed / $Total) * 100)) }
-                    Write-Progress -Id $ProgressId -Activity $ActivityName -Status $status -PercentComplete $percent
+                    if (-not $quietRequested) {
+                        Write-Progress -Id $ProgressId -Activity $ActivityName -Status $status -PercentComplete $percent
+                    }
                 }
                 $moduleManifest = Join-Path -Path $script:ModuleRoot -ChildPath 'ColorScripts-Enhanced.psd1'
                 $initialState = [System.Management.Automation.Runspaces.InitialSessionState]::CreateDefault()
@@ -624,25 +659,55 @@ function New-ColorScriptCache {
                 }
 
                 try {
-                    foreach ($item in $workQueue) {
-                        $psInstance = [System.Management.Automation.PowerShell]::Create()
-                        $psInstance.RunspacePool = $runspacePool
-                        $null = $psInstance.AddCommand('Microsoft.PowerShell.Core\Invoke-Command')
-                        $null = $psInstance.AddParameter('ScriptBlock', $workerScriptBlock)
-                        $null = $psInstance.AddParameter('ArgumentList', @($item.Name, $item.Path, $Force.IsPresent))
-
-                        $asyncResult = $psInstance.BeginInvoke()
-
-                        [void]$jobList.Add([pscustomobject]@{
-                                PowerShell = $psInstance
-                                Async      = $asyncResult
-                                Item       = $item
-                            })
-                    }
-
+                    $nextWorkIndex = 0
                     $completed = 0
 
                     while ($completed -lt $pendingCount) {
+                        # Keep only the configured number of live pipelines. Creating one
+                        # PowerShell instance for every policy entry up front needlessly retains
+                        # runspace state and can overwhelm hosts when the cache policy grows.
+                        while ($nextWorkIndex -lt $pendingCount -and $jobList.Count -lt $effectiveThrottle) {
+                            $item = $workQueue[$nextWorkIndex]
+                            $nextWorkIndex++
+                            $psInstance = [System.Management.Automation.PowerShell]::Create()
+                            try {
+                                $psInstance.RunspacePool = $runspacePool
+                                $null = $psInstance.AddCommand('Microsoft.PowerShell.Core\Invoke-Command')
+                                $null = $psInstance.AddParameter('ScriptBlock', $workerScriptBlock)
+                                $null = $psInstance.AddParameter('ArgumentList', @($item.Name, $item.Path, $Force.IsPresent))
+
+                                $asyncResult = $psInstance.BeginInvoke()
+
+                                [void]$jobList.Add([pscustomobject]@{
+                                        PowerShell = $psInstance
+                                        Async      = $asyncResult
+                                        Item       = $item
+                                    })
+                            }
+                            catch {
+                                $psInstance.Dispose()
+                                $summary.Failed++
+                                $completed++
+                                $errorMessage = $_.Exception.Message
+                                Write-Warning ("Failed to queue cache worker for {0}: {1}" -f $item.Name, $errorMessage)
+                                [void]$results.Add([pscustomobject]@{
+                                        Order  = $item.Order
+                                        Record = [pscustomobject]@{
+                                            Name        = $item.Name
+                                            ScriptPath  = $item.Path
+                                            CacheFile   = $null
+                                            Status      = 'Failed'
+                                            Message     = $errorMessage
+                                            CacheExists = $false
+                                            ExitCode    = $null
+                                            StdOut      = ''
+                                            StdErr      = $errorMessage
+                                        }
+                                    })
+                                & $updateParallelProgress $completed $pendingCount $activity $executionProgressId $jobList.Count $item.Name
+                            }
+                        }
+
                         $processedThisCycle = $false
 
                         foreach ($job in $jobList.ToArray()) {
@@ -732,7 +797,9 @@ function New-ColorScriptCache {
                 }
             }
 
-            Write-Progress -Id $executionProgressId -Activity $activity -Completed -Status 'Completed'
+            if (-not $quietRequested) {
+                Write-Progress -Id $executionProgressId -Activity $activity -Completed -Status 'Completed'
+            }
         }
 
         $finalRecords = @()
@@ -768,6 +835,13 @@ function New-ColorScriptCache {
             }
 
             $summaryMessage = $formatString -f $summary.Processed, $summary.Updated, $summary.Skipped, $summary.Failed
+            $cacheDirectoryFormat = if ($script:Messages -and $script:Messages.ContainsKey('CacheDirectoryFormat')) {
+                $script:Messages.CacheDirectoryFormat
+            }
+            else {
+                'Cache directory: {0}'
+            }
+            $summaryMessage = $summaryMessage + [Environment]::NewLine + ($cacheDirectoryFormat -f $script:CacheDir)
             $summarySegment = New-ColorScriptAnsiText -Text $summaryMessage -Color 'Cyan' -NoAnsiOutput:$noAnsiRequested
             Write-ColorScriptInformation -Message $summarySegment -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Cyan'
         }

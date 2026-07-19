@@ -16,6 +16,7 @@ $script:CacheInitialized = $false
 $script:CacheableScriptNameSet = $null
 $script:CacheablePokemonScriptNameSet = $null
 $script:CachePolicyLastWriteTime = $null
+$script:CachedOutputMemory = $null
 $script:ScriptInventory = $null
 $script:ScriptInventoryStamp = $null
 $script:ScriptInventoryInitialized = $false
@@ -326,6 +327,7 @@ StatusSkippedByUser = Skipped by user
 StatusFailed = Failed
 StatusUpToDateSkipped = Up-to-date (skipped)
 CacheBuildSummaryFormat = Cache build summary: Processed {0}, Updated {1}, Skipped {2}, Failed {3}
+CacheDirectoryFormat = Cache directory: {0}
 CacheClearSummaryFormat = Cache clear summary: Removed {0}, Missing {1}, Skipped {2}, DryRun {3}, Errors {4}
 
 # Interactive Messages
@@ -353,6 +355,7 @@ UsePassThruForDetailedResults = Use -PassThru to see detailed results`n
 if (-not $script:LocalizationSyncRoot) { $script:LocalizationSyncRoot = New-Object System.Object }
 if (-not $script:ConfigurationSyncRoot) { $script:ConfigurationSyncRoot = New-Object System.Object }
 if (-not $script:CacheSyncRoot) { $script:CacheSyncRoot = New-Object System.Object }
+if (-not $script:CachedOutputMemorySyncRoot) { $script:CachedOutputMemorySyncRoot = New-Object System.Object }
 if (-not $script:MetadataSyncRoot) { $script:MetadataSyncRoot = New-Object System.Object }
 if (-not $script:InventorySyncRoot) { $script:InventorySyncRoot = New-Object System.Object }
 if (-not $script:DelegateSyncRoot) { $script:DelegateSyncRoot = New-Object System.Object }

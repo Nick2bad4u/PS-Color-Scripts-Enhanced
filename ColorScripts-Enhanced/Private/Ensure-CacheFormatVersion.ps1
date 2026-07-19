@@ -84,6 +84,8 @@ function Update-CacheFormatVersion {
         Write-Verbose ("Cache metadata purge enumeration failed: {0}" -f $_.Exception.Message)
     }
 
+    Reset-CachedOutputMemory
+
     $moduleVersion = $null
     try {
         if ($ExecutionContext.SessionState -and $ExecutionContext.SessionState.Module) {

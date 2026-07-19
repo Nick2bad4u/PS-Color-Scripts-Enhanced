@@ -149,6 +149,8 @@ function Clear-ColorScriptCache {
         }
 
         $cacheInventory = @(Get-ChildItem -Path $cacheRoot -Filter '*.cache' -File -ErrorAction SilentlyContinue)
+        $cacheMetadataInventory = @(Get-ChildItem -Path $cacheRoot -Filter ('*{0}' -f $script:CacheEntryMetadataExtension) -File -ErrorAction SilentlyContinue)
+        $cacheEntryInventory = @($cacheInventory + $cacheMetadataInventory | Sort-Object -Property BaseName -Unique)
         $cacheLookup = @{}
 
         foreach ($file in $cacheInventory) {
@@ -159,7 +161,7 @@ function Clear-ColorScriptCache {
         }
 
         $metadataRecords = @()
-        $needMetadata = $All -or $requestedNames.Count -gt 0 -or $Category -or $Tag
+        $needMetadata = $Category -or $Tag
 
         if ($needMetadata) {
             try {
@@ -175,6 +177,13 @@ function Clear-ColorScriptCache {
                 return @()
             }
         }
+        else {
+            $metadataRecords = @(
+                foreach ($entry in $cacheEntryInventory) {
+                    [pscustomobject]@{ Name = $entry.BaseName }
+                }
+            )
+        }
 
         $metadataLookup = @{}
         foreach ($record in $metadataRecords) {
@@ -185,12 +194,10 @@ function Clear-ColorScriptCache {
         }
 
         $missingEntries = [System.Collections.Generic.List[psobject]]::new()
-        $selectedRecords = $metadataRecords
         $selection = $null
 
         if ($requestedNames.Count -gt 0) {
             $selection = Select-RecordsByName -Records $metadataRecords -Name $requestedNames
-            $selectedRecords = if ($selection.Records) { $selection.Records } else { @() }
 
             if ($selection.MatchMap) {
                 foreach ($map in $selection.MatchMap) {
@@ -234,18 +241,18 @@ function Clear-ColorScriptCache {
         }
 
         if ($All) {
-            if ($cacheInventory.Count -eq 0) {
+            if ($cacheEntryInventory.Count -eq 0) {
                 Write-Warning ($script:Messages.NoCacheFilesFound -f $cacheRoot)
                 return @()
             }
 
-            $selectedFiles = $cacheInventory
+            $selectedFiles = $cacheEntryInventory
 
             if ($requestedNames.Count -gt 0) {
                 $matchedFiles = [System.Collections.Generic.List[System.IO.FileInfo]]::new()
 
                 foreach ($pattern in $requestedNames) {
-                    $patternMatches = $cacheInventory | Where-Object { $_.BaseName -like $pattern }
+                    $patternMatches = $cacheEntryInventory | Where-Object { $_.BaseName -like $pattern }
 
                     if ($patternMatches) {
                         foreach ($match in $patternMatches) {
@@ -388,20 +395,23 @@ function Clear-ColorScriptCache {
             $cacheInfo = if ($cacheLookup.ContainsKey($key)) { $cacheLookup[$key] } else { $null }
             $cachePath = if ($cacheInfo) { $cacheInfo.FullName } else { Join-Path -Path $cacheRoot -ChildPath ("{0}.cache" -f $name) }
             $metadataPath = Get-CacheEntryMetadataPath -ScriptName $name -CacheRoot $cacheRoot
-            $exists = $false
+            $cacheExists = $false
 
             if ($cacheInfo) {
-                $exists = Test-Path -LiteralPath $cacheInfo.FullName
+                $cacheExists = Test-Path -LiteralPath $cacheInfo.FullName
 
-                if (-not $exists) {
+                if (-not $cacheExists) {
                     $cacheInfo = $null
                     $cachePath = Join-Path -Path $cacheRoot -ChildPath ("{0}.cache" -f $name)
                 }
             }
 
             if (-not $cacheInfo) {
-                $exists = Test-Path -LiteralPath $cachePath
+                $cacheExists = Test-Path -LiteralPath $cachePath
             }
+
+            $metadataExists = $metadataPath -and (Test-Path -LiteralPath $metadataPath -PathType Leaf)
+            $exists = $cacheExists -or $metadataExists
 
             if (-not $exists) {
                 $summary.Missing++
@@ -425,7 +435,8 @@ function Clear-ColorScriptCache {
                 continue
             }
 
-            if (-not (Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $cachePath -Action 'Clear colorscript cache file')) {
+            $removalTarget = if ($cacheExists) { $cachePath } else { $metadataPath }
+            if (-not (Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $removalTarget -Action 'Clear colorscript cache entry')) {
                 $summary.Skipped++
                 [void]$results.Add([pscustomobject]@{
                         Name      = $name
@@ -437,15 +448,27 @@ function Clear-ColorScriptCache {
             }
 
             try {
-                Remove-Item -LiteralPath $cachePath -Force -ErrorAction Stop
-                if ($metadataPath -and (Test-Path -LiteralPath $metadataPath -PathType Leaf)) {
-                    try {
+                if ($cacheExists) {
+                    Remove-Item -LiteralPath $cachePath -Force -ErrorAction Stop
+                }
+
+                if ($metadataExists) {
+                    if ($cacheExists) {
+                        try {
+                            Remove-Item -LiteralPath $metadataPath -Force -ErrorAction Stop
+                        }
+                        catch {
+                            Write-Verbose ("Failed to remove metadata '{0}': {1}" -f $metadataPath, $_.Exception.Message)
+                        }
+                    }
+                    else {
+                        # A metadata-only entry is the primary removal target. Surface a
+                        # deletion failure instead of incorrectly reporting it as removed.
                         Remove-Item -LiteralPath $metadataPath -Force -ErrorAction Stop
                     }
-                    catch {
-                        Write-Verbose ("Failed to remove metadata '{0}': {1}" -f $metadataPath, $_.Exception.Message)
-                    }
                 }
+
+                Remove-CachedOutputMemoryEntry -CacheFile $cachePath
                 $summary.Removed++
                 [void]$results.Add([pscustomobject]@{
                         Name      = $name

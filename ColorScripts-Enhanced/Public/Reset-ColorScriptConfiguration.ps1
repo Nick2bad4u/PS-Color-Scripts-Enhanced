@@ -26,6 +26,7 @@ function Reset-ColorScriptConfiguration {
         $script:CacheDir = $null
         $script:CacheValidationPerformed = $false
         $script:CacheValidationManualOverride = $false
+        Reset-CachedOutputMemory
     }
 
     if ($PassThru) {

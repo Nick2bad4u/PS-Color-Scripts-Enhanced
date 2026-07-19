@@ -1342,8 +1342,12 @@ namespace CoverageHost
             It 'returns missing status for absent cache files' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
+                    Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
+                        throw 'Name-only cache clearing must not initialize the full metadata table.'
+                    }
 
                     $result = Clear-ColorScriptCache -Name 'ghost-script'
+                    Should-Invoke -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
 
                     $result | Should -HaveCount 1
                     $result[0].Status | Should -Be 'Missing'
@@ -1403,6 +1407,47 @@ namespace CoverageHost
                 $capturedWarnings = InModuleScope ColorScripts-Enhanced { $script:CapturedWarnings }
                 $capturedWarnings | Should -Contain "No cache files found at $resolvedDir."
                 InModuleScope ColorScripts-Enhanced { Remove-Variable -Name CapturedWarnings -Scope Script -ErrorAction SilentlyContinue }
+            }
+
+            It 'removes orphaned cache metadata during an all-entry clear' {
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
+                    Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith { @() }
+
+                    $metadataPath = Join-Path -Path $script:CacheDir -ChildPath 'orphaned.cacheinfo'
+                    Set-Content -LiteralPath $metadataPath -Value '{"Version":1}' -Encoding UTF8
+
+                    $records = @(Clear-ColorScriptCache -All -Confirm:$false)
+                    [pscustomobject]@{
+                        Records        = $records
+                        MetadataExists = Test-Path -LiteralPath $metadataPath -PathType Leaf
+                    }
+                }
+
+                $result.Records | Should -HaveCount 1
+                $result.Records[0].Name | Should -BeExactly 'orphaned'
+                $result.Records[0].Status | Should -BeExactly 'Removed'
+                $result.MetadataExists | Should -BeFalse
+            }
+
+            It 'reports an error when orphaned cache metadata cannot be removed' {
+                $result = InModuleScope ColorScripts-Enhanced {
+                    Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
+
+                    $metadataPath = Join-Path -Path $script:CacheDir -ChildPath 'blocked-orphan.cacheinfo'
+                    Set-Content -LiteralPath $metadataPath -Value '{"Version":1}' -Encoding UTF8
+
+                    Mock -CommandName Remove-Item -ModuleName ColorScripts-Enhanced -MockWith {
+                        throw [System.IO.IOException]::new('metadata delete denied')
+                    }
+
+                    @(Clear-ColorScriptCache -All -Confirm:$false)
+                }
+
+                $result | Should -HaveCount 1
+                $result[0].Name | Should -BeExactly 'blocked-orphan'
+                $result[0].Status | Should -BeExactly 'Error'
+                $result[0].Message | Should -Match 'metadata delete denied'
             }
 
             It 'reports missing when cache record lacks a file' {
