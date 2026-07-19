@@ -256,7 +256,7 @@ function New-ColorScriptCache {
                 @($directNameRecords)
             }
             elseif ($implicitPolicySelection) {
-                @(Get-ColorScriptCachePolicyRecords)
+                @(Get-ColorScriptCachePolicyRecord)
             }
             elseif ($metadataFiltersRequested) {
                 @(Get-ColorScriptEntry -Category $Category -Tag $Tag)

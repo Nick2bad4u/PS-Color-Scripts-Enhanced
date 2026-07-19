@@ -31,7 +31,7 @@ Describe 'Selective colorscript output caching' {
                 $script:ScriptInventory = $null
                 $script:ScriptInventoryRecords = $null
 
-                $resolved = @(Get-ColorScriptCachePolicyRecords)
+                $resolved = @(Get-ColorScriptCachePolicyRecord)
                 [pscustomobject]@{
                     Records              = $resolved
                     InventoryInitialized = $script:ScriptInventoryInitialized

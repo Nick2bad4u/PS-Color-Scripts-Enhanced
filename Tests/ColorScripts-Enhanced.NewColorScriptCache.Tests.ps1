@@ -215,7 +215,7 @@
                 Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
                     throw 'Implicit cache builds must not enumerate the complete script inventory.'
                 }
-                Mock -CommandName Get-ColorScriptCachePolicyRecords -ModuleName ColorScripts-Enhanced -MockWith {
+                Mock -CommandName Get-ColorScriptCachePolicyRecord -ModuleName ColorScripts-Enhanced -MockWith {
                     @([pscustomobject]@{ Name = 'aurora-bands'; Path = 'TestDrive:\aurora-bands.ps1' })
                 }
                 Mock -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -MockWith {
@@ -226,7 +226,7 @@
 
                 Should-Invoke -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
                 Should-Invoke -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
-                Should-Invoke -CommandName Get-ColorScriptCachePolicyRecords -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
+                Should-Invoke -CommandName Get-ColorScriptCachePolicyRecord -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
                 Should-Invoke -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -Times 1 -Exactly -ParameterFilter { -not $MetadataOnly }
                 $output
             }

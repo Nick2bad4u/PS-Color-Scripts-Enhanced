@@ -34,7 +34,7 @@ function Get-ColorScriptExactNameRecord {
     return New-ColorScriptInventoryRecord -File ([System.IO.FileInfo]$candidatePath)
 }
 
-function Get-ColorScriptCachePolicyRecords {
+function Get-ColorScriptCachePolicyRecord {
     $cacheableNames = Get-ColorScriptCacheableNameSet
     if (-not $cacheableNames -or $cacheableNames.Count -eq 0) {
         return @()
