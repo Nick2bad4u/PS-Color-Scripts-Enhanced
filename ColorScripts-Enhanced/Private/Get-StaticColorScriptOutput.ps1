@@ -65,9 +65,9 @@ function Get-StaticColorScriptOutput {
             return $notAvailable
         }
 
-        # Redirected Write-Host output is normalized to plain text by the isolated PowerShell
-        # process. Apply the same normalization here without paying its per-sequence rendering cost.
-        $content = Remove-ColorScriptAnsiSequence -Text ([string]$argument.SafeGetValue())
+        # Preserve the literal ANSI payload. The public rendering boundary is responsible for
+        # removing it only when the caller explicitly requests -NoAnsiOutput.
+        $content = [string]$argument.SafeGetValue()
         return [pscustomobject]@{
             Available = $true
             Content   = $content + [Environment]::NewLine

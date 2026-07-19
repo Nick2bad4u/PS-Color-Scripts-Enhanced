@@ -194,7 +194,7 @@ Describe 'Selective colorscript output caching' {
             $result.Success | Should -BeTrue
             $result.ExitCode | Should -Be 0
             $result.StdErr | Should -BeExactly ''
-            $result.StdOut | Should -BeExactly ('fast static output' + [Environment]::NewLine)
+            $result.StdOut | Should -BeExactly ($renderedText + [Environment]::NewLine)
         }
 
         It 'fails closed for interpolated and multi-statement scripts' {

@@ -2668,7 +2668,7 @@ namespace CoverageHost
                 ($result.StdOut.Trim()) | Should -Be 'solid coverage'
             }
 
-            It 'captures dynamic Write-Host output without ConsoleHost ANSI rendering' {
+            It 'preserves ANSI in dynamic Write-Host output without ConsoleHost rendering' {
                 $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
                 $scriptPath = Join-Path -Path $testRoot -ChildPath 'process-write-host.ps1'
                 $source = @'
@@ -2685,7 +2685,25 @@ Write-Host "$escape[0m text"
 
                 $result.Success | Should -BeTrue
                 $result.StdErr | Should -BeExactly ''
-                $result.StdOut | Should -BeExactly ('red text' + [Environment]::NewLine)
+                $escape = [string][char]27
+                $result.StdOut | Should -BeExactly ("$escape[31mred$escape[0m text" + [Environment]::NewLine)
+            }
+
+            It 'preserves foreground and background Write-Host colors as ANSI' {
+                $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
+                $scriptPath = Join-Path -Path $testRoot -ChildPath 'process-write-host-colors.ps1'
+                $source = 'Write-Host ''colored text'' -ForegroundColor Cyan -BackgroundColor DarkBlue'
+                [System.IO.File]::WriteAllText($scriptPath, $source, [System.Text.UTF8Encoding]::new($false))
+
+                $result = InModuleScope ColorScripts-Enhanced -Parameters @{ scriptPath = $scriptPath } {
+                    param($scriptPath)
+                    Invoke-ColorScriptProcess -ScriptPath $scriptPath
+                }
+
+                $escape = [string][char]27
+                $result.Success | Should -BeTrue
+                $result.StdErr | Should -BeExactly ''
+                $result.StdOut | Should -BeExactly ("$escape[96;44mcolored text$escape[0m" + [Environment]::NewLine)
             }
 
             It 'executes script successfully with mocked process' {
