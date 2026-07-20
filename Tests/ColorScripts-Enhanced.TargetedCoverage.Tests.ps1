@@ -437,7 +437,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
         }
     }
 
-    Context 'Invoke-ColorScriptProcess' {
+    Context 'Invoke-ColorScriptChildProcess' {
         It 'captures successful invocation' {
             $testRoot = (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath
             $scriptPath = Join-Path -Path $testRoot -ChildPath 'invoke-success.ps1'
@@ -453,6 +453,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
                                 FileName               = $null
                                 Arguments              = $null
                                 UseShellExecute        = $null
+                                CreateNoWindow         = $null
                                 RedirectStandardOutput = $null
                                 RedirectStandardError  = $null
                                 StandardOutputEncoding = $null
@@ -483,7 +484,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
 
             $result = InModuleScope ColorScripts-Enhanced -Parameters @{ path = $scriptPath } {
                 param($path)
-                Invoke-ColorScriptProcess -ScriptPath $path -ForCache
+                Invoke-ColorScriptChildProcess -ScriptPath $path -ForCache
             }
 
             $result.Success | Should -BeTrue
@@ -506,6 +507,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
                                 FileName               = $null
                                 Arguments              = $null
                                 UseShellExecute        = $null
+                                CreateNoWindow         = $null
                                 RedirectStandardOutput = $null
                                 RedirectStandardError  = $null
                                 StandardOutputEncoding = $null
@@ -522,7 +524,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
 
             $result = InModuleScope ColorScripts-Enhanced -Parameters @{ path = $scriptPath } {
                 param($path)
-                Invoke-ColorScriptProcess -ScriptPath $path -ForCache
+                Invoke-ColorScriptChildProcess -ScriptPath $path -ForCache
             }
 
             $result.Success | Should -BeFalse

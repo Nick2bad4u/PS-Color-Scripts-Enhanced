@@ -169,16 +169,18 @@ function Show-ColorScript {
 
 ### Cache System Architecture
 
-The caching system works by:
+The rendering and caching system works by:
 
-1. **Policy**: `CachePolicy.psd1` opts in computationally expensive renderers
-2. **Execution**: Eligible scripts run in an isolated PowerShell process
-3. **Capture**: Eligible output is captured to a cache file
-4. **Storage**: Cache is stored in AppData with content-signature metadata
-5. **Validation**: Source length, timestamp, and SHA-256 metadata are validated
-6. **Retrieval**: Valid cached output is read on subsequent calls; unlisted scripts execute directly
+1. **Static extraction**: bundled deterministic art is read without executing script code
+2. **Dynamic policy**: `DynamicRenderPolicy.psd1` explicitly identifies the small set of intentionally variable renderers
+3. **Isolated execution**: trusted bundled dynamic renderers run in fresh in-process runspaces; unknown custom scripts retain a child-process boundary
+4. **Cache policy**: `CachePolicy.psd1` opts in only expensive dynamic renderers
+5. **Storage**: cached output is stored in AppData with content-signature metadata
+6. **Validation**: source length, timestamp, and SHA-256 metadata are validated before reuse
 
-When adding a script, list it in `CachePolicy.psd1` only when rendering performs meaningful computation or other repeatable setup whose cost outweighs cache I/O. Literal/static output scripts should remain unlisted. Add or update selective-cache tests whenever the policy changes.
+When adding deterministic generated art, run `./scripts/Convert-DeterministicColorScripts.ps1` to audit all candidates, then rerun it with `-Apply`. The converter renders each candidate repeatedly in an isolated temporary directory, rejects unstable output, verifies the generated static source, and updates `Tests/Fixtures/FlattenedColorScriptBaselines.psd1`.
+
+Only scripts whose output genuinely changes with time, randomness, live measurements, or another changing input belong in `DynamicRenderPolicy.psd1`. Add one of those names to `CachePolicy.psd1` only when its render cost outweighs cache I/O. The corpus and routing tests fail if a bundled script falls outside this boundary.
 
 ```powershell
 # Study the cache implementation

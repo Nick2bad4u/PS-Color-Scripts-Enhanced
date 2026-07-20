@@ -1,17 +1,27 @@
-$T = 'gYw'   # The test text
+# Generated from verified deterministic output by scripts/Convert-DeterministicColorScripts.ps1.
 $esc = [char]27
+$sp = ' '
 
-Write-Host
-Write-Host "                 40m     41m     42m     43m     44m     45m     46m     47m"
-$FGsArray = @('    m', '   1m', '  30m', '1;90m', '  31m', '1;91m', '  32m', '1;92m', '  33m', '1;93m', '  34m', '1;94m', '  35m', '1;95m', '  36m', '1;96m', '  37m', '1;97m')
+Write-Host @"
 
-foreach ($FGs in $FGsArray) {
-    $FG = $FGs.Trim()
-    Write-Host -NoNewline " $FGs $esc[$FG  $T  "
-    $BGArray = @('40m', '41m', '42m', '43m', '44m', '45m', '46m', '47m')
-    foreach ($BG in $BGArray) {
-        Write-Host -NoNewline "$esc[$FG$esc[$BG   $T  $esc[0m"
-    }
-    Write-Host
-}
-Write-Host
+                 40m     41m     42m     43m     44m     45m     46m     47m
+     m $esc[m  gYw  $esc[m$esc[40m   gYw  $esc[0m$esc[m$esc[41m   gYw  $esc[0m$esc[m$esc[42m   gYw  $esc[0m$esc[m$esc[43m   gYw  $esc[0m$esc[m$esc[44m   gYw  $esc[0m$esc[m$esc[45m   gYw  $esc[0m$esc[m$esc[46m   gYw  $esc[0m$esc[m$esc[47m   gYw  $esc[0m
+    1m $esc[1m  gYw  $esc[1m$esc[40m   gYw  $esc[0m$esc[1m$esc[41m   gYw  $esc[0m$esc[1m$esc[42m   gYw  $esc[0m$esc[1m$esc[43m   gYw  $esc[0m$esc[1m$esc[44m   gYw  $esc[0m$esc[1m$esc[45m   gYw  $esc[0m$esc[1m$esc[46m   gYw  $esc[0m$esc[1m$esc[47m   gYw  $esc[0m
+   30m $esc[30m  gYw  $esc[30m$esc[40m   gYw  $esc[0m$esc[30m$esc[41m   gYw  $esc[0m$esc[30m$esc[42m   gYw  $esc[0m$esc[30m$esc[43m   gYw  $esc[0m$esc[30m$esc[44m   gYw  $esc[0m$esc[30m$esc[45m   gYw  $esc[0m$esc[30m$esc[46m   gYw  $esc[0m$esc[30m$esc[47m   gYw  $esc[0m
+ 1;90m $esc[1;90m  gYw  $esc[1;90m$esc[40m   gYw  $esc[0m$esc[1;90m$esc[41m   gYw  $esc[0m$esc[1;90m$esc[42m   gYw  $esc[0m$esc[1;90m$esc[43m   gYw  $esc[0m$esc[1;90m$esc[44m   gYw  $esc[0m$esc[1;90m$esc[45m   gYw  $esc[0m$esc[1;90m$esc[46m   gYw  $esc[0m$esc[1;90m$esc[47m   gYw  $esc[0m
+   31m $esc[31m  gYw  $esc[31m$esc[40m   gYw  $esc[0m$esc[31m$esc[41m   gYw  $esc[0m$esc[31m$esc[42m   gYw  $esc[0m$esc[31m$esc[43m   gYw  $esc[0m$esc[31m$esc[44m   gYw  $esc[0m$esc[31m$esc[45m   gYw  $esc[0m$esc[31m$esc[46m   gYw  $esc[0m$esc[31m$esc[47m   gYw  $esc[0m
+ 1;91m $esc[1;91m  gYw  $esc[1;91m$esc[40m   gYw  $esc[0m$esc[1;91m$esc[41m   gYw  $esc[0m$esc[1;91m$esc[42m   gYw  $esc[0m$esc[1;91m$esc[43m   gYw  $esc[0m$esc[1;91m$esc[44m   gYw  $esc[0m$esc[1;91m$esc[45m   gYw  $esc[0m$esc[1;91m$esc[46m   gYw  $esc[0m$esc[1;91m$esc[47m   gYw  $esc[0m
+   32m $esc[32m  gYw  $esc[32m$esc[40m   gYw  $esc[0m$esc[32m$esc[41m   gYw  $esc[0m$esc[32m$esc[42m   gYw  $esc[0m$esc[32m$esc[43m   gYw  $esc[0m$esc[32m$esc[44m   gYw  $esc[0m$esc[32m$esc[45m   gYw  $esc[0m$esc[32m$esc[46m   gYw  $esc[0m$esc[32m$esc[47m   gYw  $esc[0m
+ 1;92m $esc[1;92m  gYw  $esc[1;92m$esc[40m   gYw  $esc[0m$esc[1;92m$esc[41m   gYw  $esc[0m$esc[1;92m$esc[42m   gYw  $esc[0m$esc[1;92m$esc[43m   gYw  $esc[0m$esc[1;92m$esc[44m   gYw  $esc[0m$esc[1;92m$esc[45m   gYw  $esc[0m$esc[1;92m$esc[46m   gYw  $esc[0m$esc[1;92m$esc[47m   gYw  $esc[0m
+   33m $esc[33m  gYw  $esc[33m$esc[40m   gYw  $esc[0m$esc[33m$esc[41m   gYw  $esc[0m$esc[33m$esc[42m   gYw  $esc[0m$esc[33m$esc[43m   gYw  $esc[0m$esc[33m$esc[44m   gYw  $esc[0m$esc[33m$esc[45m   gYw  $esc[0m$esc[33m$esc[46m   gYw  $esc[0m$esc[33m$esc[47m   gYw  $esc[0m
+ 1;93m $esc[1;93m  gYw  $esc[1;93m$esc[40m   gYw  $esc[0m$esc[1;93m$esc[41m   gYw  $esc[0m$esc[1;93m$esc[42m   gYw  $esc[0m$esc[1;93m$esc[43m   gYw  $esc[0m$esc[1;93m$esc[44m   gYw  $esc[0m$esc[1;93m$esc[45m   gYw  $esc[0m$esc[1;93m$esc[46m   gYw  $esc[0m$esc[1;93m$esc[47m   gYw  $esc[0m
+   34m $esc[34m  gYw  $esc[34m$esc[40m   gYw  $esc[0m$esc[34m$esc[41m   gYw  $esc[0m$esc[34m$esc[42m   gYw  $esc[0m$esc[34m$esc[43m   gYw  $esc[0m$esc[34m$esc[44m   gYw  $esc[0m$esc[34m$esc[45m   gYw  $esc[0m$esc[34m$esc[46m   gYw  $esc[0m$esc[34m$esc[47m   gYw  $esc[0m
+ 1;94m $esc[1;94m  gYw  $esc[1;94m$esc[40m   gYw  $esc[0m$esc[1;94m$esc[41m   gYw  $esc[0m$esc[1;94m$esc[42m   gYw  $esc[0m$esc[1;94m$esc[43m   gYw  $esc[0m$esc[1;94m$esc[44m   gYw  $esc[0m$esc[1;94m$esc[45m   gYw  $esc[0m$esc[1;94m$esc[46m   gYw  $esc[0m$esc[1;94m$esc[47m   gYw  $esc[0m
+   35m $esc[35m  gYw  $esc[35m$esc[40m   gYw  $esc[0m$esc[35m$esc[41m   gYw  $esc[0m$esc[35m$esc[42m   gYw  $esc[0m$esc[35m$esc[43m   gYw  $esc[0m$esc[35m$esc[44m   gYw  $esc[0m$esc[35m$esc[45m   gYw  $esc[0m$esc[35m$esc[46m   gYw  $esc[0m$esc[35m$esc[47m   gYw  $esc[0m
+ 1;95m $esc[1;95m  gYw  $esc[1;95m$esc[40m   gYw  $esc[0m$esc[1;95m$esc[41m   gYw  $esc[0m$esc[1;95m$esc[42m   gYw  $esc[0m$esc[1;95m$esc[43m   gYw  $esc[0m$esc[1;95m$esc[44m   gYw  $esc[0m$esc[1;95m$esc[45m   gYw  $esc[0m$esc[1;95m$esc[46m   gYw  $esc[0m$esc[1;95m$esc[47m   gYw  $esc[0m
+   36m $esc[36m  gYw  $esc[36m$esc[40m   gYw  $esc[0m$esc[36m$esc[41m   gYw  $esc[0m$esc[36m$esc[42m   gYw  $esc[0m$esc[36m$esc[43m   gYw  $esc[0m$esc[36m$esc[44m   gYw  $esc[0m$esc[36m$esc[45m   gYw  $esc[0m$esc[36m$esc[46m   gYw  $esc[0m$esc[36m$esc[47m   gYw  $esc[0m
+ 1;96m $esc[1;96m  gYw  $esc[1;96m$esc[40m   gYw  $esc[0m$esc[1;96m$esc[41m   gYw  $esc[0m$esc[1;96m$esc[42m   gYw  $esc[0m$esc[1;96m$esc[43m   gYw  $esc[0m$esc[1;96m$esc[44m   gYw  $esc[0m$esc[1;96m$esc[45m   gYw  $esc[0m$esc[1;96m$esc[46m   gYw  $esc[0m$esc[1;96m$esc[47m   gYw  $esc[0m
+   37m $esc[37m  gYw  $esc[37m$esc[40m   gYw  $esc[0m$esc[37m$esc[41m   gYw  $esc[0m$esc[37m$esc[42m   gYw  $esc[0m$esc[37m$esc[43m   gYw  $esc[0m$esc[37m$esc[44m   gYw  $esc[0m$esc[37m$esc[45m   gYw  $esc[0m$esc[37m$esc[46m   gYw  $esc[0m$esc[37m$esc[47m   gYw  $esc[0m
+ 1;97m $esc[1;97m  gYw  $esc[1;97m$esc[40m   gYw  $esc[0m$esc[1;97m$esc[41m   gYw  $esc[0m$esc[1;97m$esc[42m   gYw  $esc[0m$esc[1;97m$esc[43m   gYw  $esc[0m$esc[1;97m$esc[44m   gYw  $esc[0m$esc[1;97m$esc[45m   gYw  $esc[0m$esc[1;97m$esc[46m   gYw  $esc[0m$esc[1;97m$esc[47m   gYw  $esc[0m
+
+"@

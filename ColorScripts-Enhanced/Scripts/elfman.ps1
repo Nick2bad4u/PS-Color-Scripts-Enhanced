@@ -1,20 +1,14 @@
+# Generated from verified deterministic output by scripts/Convert-DeterministicColorScripts.ps1.
 $esc = [char]27
-$whitefbright = "$esc[97m"
-$cyanb = "$esc[46m"
-$blackb = "$esc[40m"
-$boldon = "$esc[1m"
-$blackf = "$esc[30m"
-$redf = "$esc[31m"
-$redb = "$esc[41m"
-$reset = "$esc[0m"
+$sp = ' '
 
 Write-Host @"
-$boldon$whitefbright    ▄▄▄${reset}
-$boldon$whitefbright ▄█████▄▄ ${reset}
-$boldon$whitefbright███$cyanb▀▀▀▀$blackb▀$cyanb▀$blackb▀$cyanb▀${reset}
-$boldon$whitefbright███$cyanb▄   $boldoff$blackf▀ ▀${reset}$cyanf▀${reset}
-$boldon$whitefbright ▄$cyanb  ${reset}$boldon$whitefbright█████▄ $boldoff$redf█▄${reset}
-$boldoff$redf▀▀${reset}$boldon$redb$whitefbright▄$cyanb▄   $redb▄▄▄${reset}$boldoff$redf▀██▀${reset}
-$boldon$whitefbright ██▀▀▀██▀  $boldoff$redf▀${reset}
-$boldon$whitefbright ▀▀▀▀ ▀▀▀▀${reset}
+$esc[1m$esc[97m    ▄▄▄$esc[0m
+$esc[1m$esc[97m ▄█████▄▄ $esc[0m
+$esc[1m$esc[97m███$esc[46m▀▀▀▀$esc[40m▀$esc[46m▀$esc[40m▀$esc[46m▀$esc[0m
+$esc[1m$esc[97m███$esc[46m▄   $esc[30m▀ ▀$esc[0m▀$esc[0m
+$esc[1m$esc[97m ▄$esc[46m  $esc[0m$esc[1m$esc[97m█████▄ $esc[31m█▄$esc[0m
+$esc[31m▀▀$esc[0m$esc[1m$esc[41m$esc[97m▄$esc[46m▄   $esc[41m▄▄▄$esc[0m$esc[31m▀██▀$esc[0m
+$esc[1m$esc[97m ██▀▀▀██▀  $esc[31m▀$esc[0m
+$esc[1m$esc[97m ▀▀▀▀ ▀▀▀▀$esc[0m
 "@

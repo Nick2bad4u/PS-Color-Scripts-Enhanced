@@ -39,7 +39,7 @@
         It 'skips by user when ShouldProcess declines for a targeted name' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Invoke-ShouldProcess -ModuleName ColorScripts-Enhanced -MockWith { $false }
-                $res = New-ColorScriptCache -Name 'aurora-bands' -PassThru -Force
+                $res = New-ColorScriptCache -Name 'Galaxy' -PassThru -Force
                 $res | Should -Not -BeNullOrEmpty
                 ($res | Select-Object -First 1).Status | Should -Be 'SkippedByUser'
             }
@@ -49,14 +49,14 @@
             InModuleScope ColorScripts-Enhanced -Parameters @{ root = $script:CacheRoot } {
                 param($root)
                 # Prepare a fresh cache file newer than the script source
-                $cachePath = Join-Path $root 'aurora-bands.cache'
+                $cachePath = Join-Path $root 'Galaxy.cache'
                 Set-Content -Path $cachePath -Value 'precache' -Encoding utf8
                 (Get-Item $cachePath).LastWriteTimeUtc = (Get-Date).ToUniversalTime().AddMinutes(10)
-                $auroraBandsScript = Join-Path -Path (Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts') -ChildPath 'aurora-bands.ps1'
-                $signature = Get-FileContentSignature -Path $auroraBandsScript -IncludeHash
-                Write-CacheEntryMetadataFile -ScriptName 'aurora-bands' -Signature $signature -CacheFile $cachePath
-                $res = New-ColorScriptCache -Name 'aurora-bands' -PassThru
-                $rec = $res | Where-Object Name -EQ 'aurora-bands' | Select-Object -First 1
+                $galaxyScript = Join-Path -Path (Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts') -ChildPath 'Galaxy.ps1'
+                $signature = Get-FileContentSignature -Path $galaxyScript -IncludeHash
+                Write-CacheEntryMetadataFile -ScriptName 'Galaxy' -Signature $signature -CacheFile $cachePath
+                $res = New-ColorScriptCache -Name 'Galaxy' -PassThru
+                $rec = $res | Where-Object Name -CEQ 'Galaxy' | Select-Object -First 1
                 $rec.Status | Should -Be 'SkippedUpToDate'
                 $rec.StdOut.Trim() | Should -BeExactly 'precache'
             }

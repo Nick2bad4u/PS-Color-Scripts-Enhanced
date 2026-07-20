@@ -52,7 +52,17 @@ By participating in this project, you agree to maintain a respectful and inclusi
    - Add comments for complex sections
    - Test on multiple terminals
 
-4. **Test your script**
+4. **Classify the renderer**
+
+   - Deterministic generated art should be flattened with
+     `./scripts/Convert-DeterministicColorScripts.ps1 -Name my-cool-script -Apply`.
+     The converter renders twice in isolation and refuses unstable output.
+   - Add a script to `DynamicRenderPolicy.psd1` only when its output intentionally depends on
+     time, randomness, live measurements, or another changing input.
+   - Add an expensive dynamic renderer to `CachePolicy.psd1` when reusing its output is preferable
+     to regenerating it on every display.
+
+5. **Test your script**
 
    ```powershell
    # Test direct execution
@@ -61,7 +71,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
    # Test via module
    Show-ColorScript -Name my-cool-script
 
-   # Test caching
+   # Test caching (dynamic policy entries only)
    New-ColorScriptCache -Name my-cool-script
    Show-ColorScript -Name my-cool-script
    ```

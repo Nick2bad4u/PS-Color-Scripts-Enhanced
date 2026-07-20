@@ -94,6 +94,77 @@ Describe 'Static colorscript output extraction' {
     }
 
     Context 'Bundled-script regressions' {
+        BeforeAll {
+            $baselinePath = Join-Path -Path $script:RepoRoot -ChildPath 'Tests/Fixtures/FlattenedColorScriptBaselines.psd1'
+            $baseline = Import-PowerShellDataFile -Path $baselinePath
+            $encoding = [System.Text.UTF8Encoding]::new($false)
+            $script:BundledCorpusAudit = InModuleScope ColorScripts-Enhanced -Parameters @{
+                root     = $script:ModuleRoot
+                baseline = $baseline
+                encoding = $encoding
+            } {
+                param($root, $baseline, $encoding)
+
+                $scriptFiles = @(Get-ChildItem -LiteralPath (Join-Path -Path $root -ChildPath 'Scripts') -Filter '*.ps1' -File)
+                $availableCount = 0
+                $unavailableNames = [System.Collections.Generic.List[string]]::new()
+                $baselineFailures = [System.Collections.Generic.List[object]]::new()
+                $baselineChecked = 0
+
+                foreach ($scriptFile in $scriptFiles) {
+                    $static = Get-StaticColorScriptOutput -ScriptPath $scriptFile.FullName
+                    if ($static.Available) {
+                        $availableCount++
+                    }
+                    else {
+                        $unavailableNames.Add($scriptFile.BaseName)
+                    }
+
+                    if (-not $baseline.Scripts.ContainsKey($scriptFile.BaseName)) {
+                        continue
+                    }
+
+                    $baselineChecked++
+                    $normalized = $static.Content.Replace("`r`n", "`n").Replace("`r", "`n")
+                    $sha256 = [System.Security.Cryptography.SHA256]::Create()
+                    try {
+                        $hash = ([System.BitConverter]::ToString(
+                                $sha256.ComputeHash($encoding.GetBytes($normalized))
+                            )).Replace('-', '')
+                    }
+                    finally {
+                        $sha256.Dispose()
+                    }
+
+                    $expected = $baseline.Scripts[$scriptFile.BaseName]
+                    if (-not $static.Available -or
+                        $hash -cne $expected.Sha256 -or
+                        $encoding.GetByteCount($normalized) -ne $expected.Utf8Bytes) {
+                        $baselineFailures.Add([pscustomobject]@{
+                                Name      = $scriptFile.BaseName
+                                Available = $static.Available
+                                Sha256    = $hash
+                                Utf8Bytes = $encoding.GetByteCount($normalized)
+                            })
+                    }
+                }
+
+                $dynamicPolicy = Import-PowerShellDataFile -Path (Join-Path -Path $root -ChildPath 'DynamicRenderPolicy.psd1')
+                [pscustomobject]@{
+                    Total              = $scriptFiles.Count
+                    Available          = $availableCount
+                    Unavailable        = $scriptFiles.Count - $availableCount
+                    UnavailableNames   = @($unavailableNames | Sort-Object)
+                    DynamicPolicyNames = @($dynamicPolicy.DynamicScripts | Sort-Object)
+                    BaselineSchema     = $baseline.SchemaVersion
+                    BaselineLineEndings = $baseline.LineEndings
+                    BaselineCount      = $baseline.Scripts.Count
+                    BaselineChecked    = $baselineChecked
+                    BaselineFailures   = $baselineFailures.ToArray()
+                }
+            }
+        }
+
         It 'matches isolated PowerShell execution byte-for-byte for <Name>' -ForEach @(
             @{ Name = 'debian' }
             @{ Name = 'bars' }
@@ -118,34 +189,55 @@ Describe 'Static colorscript output extraction' {
             $comparison.Static.Content | Should -BeExactly $comparison.Child.StdOut
         }
 
-        It 'locks the current corpus classification and known unsafe exceptions' {
-            $classification = InModuleScope ColorScripts-Enhanced -Parameters @{ root = $script:ModuleRoot } {
+        It 'matches every generated deterministic-output baseline' {
+            $script:BundledCorpusAudit.BaselineSchema | Should -Be 1
+            $script:BundledCorpusAudit.BaselineLineEndings | Should -BeExactly 'LF'
+            $script:BundledCorpusAudit.BaselineCount | Should -Be 134
+            $script:BundledCorpusAudit.BaselineChecked | Should -Be 134
+            @($script:BundledCorpusAudit.BaselineFailures) | Should -BeNullOrEmpty
+        }
+
+        It 'locks the corpus to static output plus the explicit dynamic policy' {
+            $script:BundledCorpusAudit.Total | Should -Be 3156
+            $script:BundledCorpusAudit.Available | Should -Be 3139
+            $script:BundledCorpusAudit.Unavailable | Should -Be 17
+            Compare-Object $script:BundledCorpusAudit.DynamicPolicyNames $script:BundledCorpusAudit.UnavailableNames | Should -BeNullOrEmpty
+        }
+
+        It 'preserves repaired special-script output without executable side effects' {
+            $result = InModuleScope ColorScripts-Enhanced -Parameters @{ root = $script:ModuleRoot } {
                 param($root)
 
-                $scriptFiles = @(Get-ChildItem -LiteralPath (Join-Path -Path $root -ChildPath 'Scripts') -Filter '*.ps1' -File)
-                $available = @($scriptFiles | Where-Object {
-                        (Get-StaticColorScriptOutput -ScriptPath $_.FullName).Available
-                    })
-                $exceptions = foreach ($name in @('elfman', 'panes', 'syl-k7')) {
-                    $path = Join-Path -Path $root -ChildPath ("Scripts/{0}.ps1" -f $name)
-                    [pscustomobject]@{
-                        Name      = $name
-                        Available = (Get-StaticColorScriptOutput -ScriptPath $path).Available
-                    }
+                $sylResults = foreach ($path in Get-ChildItem -LiteralPath (Join-Path $root 'Scripts') -Filter 'syl-*.ps1') {
+                    Get-StaticColorScriptOutput -ScriptPath $path.FullName
                 }
+                $kevinPath = Join-Path $root 'Scripts/kevin-woods.ps1'
+                $kevinSource = [System.IO.File]::ReadAllText($kevinPath)
+                $kevin = Get-StaticColorScriptOutput -ScriptPath $kevinPath
+                $rainbow = Get-StaticColorScriptOutput -ScriptPath (Join-Path $root 'Scripts/pukeskull-rainbow.ps1')
 
                 [pscustomobject]@{
-                    Total       = $scriptFiles.Count
-                    Available   = $available.Count
-                    Unavailable = $scriptFiles.Count - $available.Count
-                    Exceptions  = @($exceptions)
+                    SylAvailable       = @($sylResults | Where-Object Available).Count
+                    SylWithAnsi        = @($sylResults | Where-Object { $_.Content.Contains([string][char]27) }).Count
+                    SylWithSignatures  = @($sylResults | Where-Object { $_.Content -cmatch '\$[yY][lL]' }).Count
+                    KevinAvailable     = $kevin.Available
+                    KevinOccurrences   = ([regex]::Matches($kevin.Content, 'Kevin Woods:')).Count
+                    KevinHasAnsi       = $kevin.Content.Contains([string][char]27)
+                    KevinHasStateCalls = $kevinSource -match 'Add-Type|Kernel32|SetConsoleMode|GetConsoleMode'
+                    RainbowAvailable   = $rainbow.Available
+                    RainbowColors      = ([regex]::Matches($rainbow.Content, [regex]::Escape([string][char]27) + '\[[^m]*m')).Count
                 }
             }
 
-            $classification.Total | Should -Be 3156
-            $classification.Available | Should -Be 2995
-            $classification.Unavailable | Should -Be 161
-            @($classification.Exceptions | Where-Object Available).Count | Should -Be 0
+            $result.SylAvailable | Should -Be 8
+            $result.SylWithAnsi | Should -Be 8
+            $result.SylWithSignatures | Should -Be 8
+            $result.KevinAvailable | Should -BeTrue
+            $result.KevinOccurrences | Should -Be 1
+            $result.KevinHasAnsi | Should -BeTrue
+            $result.KevinHasStateCalls | Should -BeFalse
+            $result.RainbowAvailable | Should -BeTrue
+            $result.RainbowColors | Should -BeGreaterThan 20
         }
     }
 }

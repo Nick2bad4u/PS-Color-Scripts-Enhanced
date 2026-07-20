@@ -1,91 +1,53 @@
-# Block Test - Shows various block characters and shading patterns
-
+# Generated from verified deterministic output by scripts/Convert-DeterministicColorScripts.ps1.
 $esc = [char]27
+$sp = ' '
 
-Write-Host "`n  BLOCK CHARACTERS & SHADING PATTERNS`n" -ForegroundColor Cyan
+Write-Host @"
+$esc[96m
+  BLOCK CHARACTERS & SHADING PATTERNS
+$esc[0m
+  Full Blocks (█) - Color Spectrum:
+  $esc[38;2;128;238;18m█$esc[0m$esc[38;2;141;231;12m█$esc[0m$esc[38;2;153;223;8m█$esc[0m$esc[38;2;166;214;4m█$esc[0m$esc[38;2;177;205;2m█$esc[0m$esc[38;2;189;194;1m█$esc[0m$esc[38;2;200;183;1m█$esc[0m$esc[38;2;210;171;3m█$esc[0m$esc[38;2;219;159;6m█$esc[0m$esc[38;2;227;147;10m█$esc[0m$esc[38;2;235;134;15m█$esc[0m$esc[38;2;241;121;21m█$esc[0m$esc[38;2;246;109;29m█$esc[0m$esc[38;2;250;96;37m█$esc[0m$esc[38;2;253;84;47m█$esc[0m$esc[38;2;255;72;57m█$esc[0m$esc[38;2;255;61;68m█$esc[0m$esc[38;2;254;51;79m█$esc[0m$esc[38;2;252;41;91m█$esc[0m$esc[38;2;248;32;103m█$esc[0m$esc[38;2;243;25;116m█$esc[0m$esc[38;2;238;18;129m█$esc[0m$esc[38;2;231;12;141m█$esc[0m$esc[38;2;223;7;154m█$esc[0m$esc[38;2;214;4;166m█$esc[0m$esc[38;2;204;2;178m█$esc[0m$esc[38;2;193;1;189m█$esc[0m$esc[38;2;182;1;200m█$esc[0m$esc[38;2;171;3;210m█$esc[0m$esc[38;2;158;6;220m█$esc[0m$esc[38;2;146;10;228m█$esc[0m$esc[38;2;133;15;235m█$esc[0m$esc[38;2;121;22;241m█$esc[0m$esc[38;2;108;29;247m█$esc[0m$esc[38;2;96;38;251m█$esc[0m$esc[38;2;83;47;253m█$esc[0m$esc[38;2;72;57;255m█$esc[0m$esc[38;2;61;68;255m█$esc[0m$esc[38;2;50;80;254m█$esc[0m$esc[38;2;41;92;252m█$esc[0m$esc[38;2;32;104;248m█$esc[0m$esc[38;2;24;117;243m█$esc[0m$esc[38;2;17;129;237m█$esc[0m$esc[38;2;12;142;230m█$esc[0m$esc[38;2;7;155;222m█$esc[0m$esc[38;2;4;167;213m█$esc[0m$esc[38;2;2;179;204m█$esc[0m$esc[38;2;1;190;193m█$esc[0m$esc[38;2;1;201;182m█$esc[0m$esc[38;2;3;211;170m█$esc[0m$esc[38;2;6;220;158m█$esc[0m$esc[38;2;10;228;145m█$esc[0m$esc[38;2;16;236;133m█$esc[0m$esc[38;2;22;242;120m█$esc[0m$esc[38;2;30;247;107m█$esc[0m$esc[38;2;38;251;95m█$esc[0m$esc[38;2;48;253;83m█$esc[0m$esc[38;2;58;255;71m█$esc[0m$esc[38;2;69;255;60m█$esc[0m$esc[38;2;81;254;50m█$esc[0m$esc[38;2;93;251;40m█$esc[0m$esc[38;2;105;248;31m█$esc[0m$esc[38;2;117;243;24m█$esc[0m$esc[38;2;130;237;17m█$esc[0m$esc[38;2;143;230;11m█$esc[0m$esc[38;2;155;222;7m█$esc[0m$esc[38;2;168;213;4m█$esc[0m$esc[38;2;179;203;2m█$esc[0m$esc[38;2;191;192;1m█$esc[0m$esc[38;2;201;181;2m█$esc[0m$esc[38;2;211;169;3m█$esc[0m$esc[38;2;221;157;6m█$esc[0m$esc[38;2;229;145;11m█$esc[0m$esc[38;2;236;132;16m█$esc[0m$esc[38;2;242;119;23m█$esc[0m$esc[38;2;247;107;30m█$esc[0m$esc[38;2;251;94;39m█$esc[0m$esc[38;2;253;82;48m█$esc[0m$esc[38;2;255;71;59m█$esc[0m$esc[38;2;255;60;70m█$esc[0m$esc[38;2;254;49;81m█$esc[0m$esc[38;2;251;40;93m█$esc[0m$esc[38;2;247;31;105m█$esc[0m$esc[38;2;243;23;118m█$esc[0m$esc[38;2;237;17;131m█$esc[0m$esc[38;2;229;11;143m█$esc[0m$esc[38;2;221;7;156m█$esc[0m$esc[38;2;212;4;168m█$esc[0m$esc[38;2;202;2;180m█$esc[0m$esc[38;2;192;1;191m█$esc[0m$esc[38;2;180;2;202m█$esc[0m$esc[38;2;169;3;212m█$esc[0m$esc[38;2;156;7;221m█$esc[0m$esc[38;2;144;11;229m█$esc[0m$esc[38;2;131;16;236m█$esc[0m$esc[38;2;118;23;242m█$esc[0m$esc[38;2;106;31;247m█$esc[0m$esc[38;2;93;39;251m█$esc[0m$esc[38;2;81;49;254m█$esc[0m$esc[38;2;70;59;255m█$esc[0m
 
-# Full blocks with colors
-Write-Host "  Full Blocks (█) - Color Spectrum:"
-Write-Host -NoNewline "  "
-for ($i = 0; $i -lt 100; $i++) {
-    $r = [int](128 + 127 * [math]::Sin($i * 0.1))
-    $g = [int](128 + 127 * [math]::Sin($i * 0.1 + 2.094))
-    $b = [int](128 + 127 * [math]::Sin($i * 0.1 + 4.188))
-    Write-Host -NoNewline "$esc[38;2;$r;$g;${b}m█$esc[0m"
-}
-Write-Host "`n"
+  Shading Gradient Levels:
+  Full:    ████████████████████████████████████████
+  Dark:    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  Medium:  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+  Light:   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Dots:    ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙
 
-# Shading gradients
-Write-Host "  Shading Gradient Levels:"
-Write-Host "  Full:    ████████████████████████████████████████"
-Write-Host "  Dark:    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓"
-Write-Host "  Medium:  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒"
-Write-Host "  Light:   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░"
-Write-Host "  Dots:    ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙"
-Write-Host ""
+  Smooth Gradient (5 levels):
+               ░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█████████████
 
-# Smooth gradient using all shades
-Write-Host "  Smooth Gradient (5 levels):"
-Write-Host -NoNewline "  "
-for ($i = 0; $i -lt 100; $i++) {
-    $level = [int](($i / 99.0) * 4)
-    $chars = @(' ', '░', '▒', '▓', '█')
-    Write-Host -NoNewline $chars[$level]
-}
-Write-Host "`n"
+  Colored Shading Patterns:
+  Red to Black:     $esc[38;2;255;0;0m█$esc[0m$esc[38;2;251;0;0m█$esc[0m$esc[38;2;246;0;0m█$esc[0m$esc[38;2;242;0;0m█$esc[0m$esc[38;2;238;0;0m█$esc[0m$esc[38;2;233;0;0m█$esc[0m$esc[38;2;229;0;0m█$esc[0m$esc[38;2;225;0;0m█$esc[0m$esc[38;2;220;0;0m█$esc[0m$esc[38;2;216;0;0m█$esc[0m$esc[38;2;212;0;0m█$esc[0m$esc[38;2;207;0;0m█$esc[0m$esc[38;2;203;0;0m█$esc[0m$esc[38;2;199;0;0m█$esc[0m$esc[38;2;194;0;0m█$esc[0m$esc[38;2;190;0;0m█$esc[0m$esc[38;2;186;0;0m█$esc[0m$esc[38;2;182;0;0m█$esc[0m$esc[38;2;177;0;0m█$esc[0m$esc[38;2;173;0;0m█$esc[0m$esc[38;2;169;0;0m█$esc[0m$esc[38;2;164;0;0m█$esc[0m$esc[38;2;160;0;0m█$esc[0m$esc[38;2;156;0;0m█$esc[0m$esc[38;2;151;0;0m█$esc[0m$esc[38;2;147;0;0m█$esc[0m$esc[38;2;143;0;0m█$esc[0m$esc[38;2;138;0;0m█$esc[0m$esc[38;2;134;0;0m█$esc[0m$esc[38;2;130;0;0m█$esc[0m$esc[38;2;125;0;0m█$esc[0m$esc[38;2;121;0;0m█$esc[0m$esc[38;2;117;0;0m█$esc[0m$esc[38;2;112;0;0m█$esc[0m$esc[38;2;108;0;0m█$esc[0m$esc[38;2;104;0;0m█$esc[0m$esc[38;2;99;0;0m█$esc[0m$esc[38;2;95;0;0m█$esc[0m$esc[38;2;91;0;0m█$esc[0m$esc[38;2;86;0;0m█$esc[0m$esc[38;2;82;0;0m█$esc[0m$esc[38;2;78;0;0m█$esc[0m$esc[38;2;73;0;0m█$esc[0m$esc[38;2;69;0;0m█$esc[0m$esc[38;2;65;0;0m█$esc[0m$esc[38;2;61;0;0m█$esc[0m$esc[38;2;56;0;0m█$esc[0m$esc[38;2;52;0;0m█$esc[0m$esc[38;2;48;0;0m█$esc[0m$esc[38;2;43;0;0m█$esc[0m$esc[38;2;39;0;0m█$esc[0m$esc[38;2;35;0;0m█$esc[0m$esc[38;2;30;0;0m█$esc[0m$esc[38;2;26;0;0m█$esc[0m$esc[38;2;22;0;0m█$esc[0m$esc[38;2;17;0;0m█$esc[0m$esc[38;2;13;0;0m█$esc[0m$esc[38;2;9;0;0m█$esc[0m$esc[38;2;4;0;0m█$esc[0m$esc[38;2;0;0;0m█$esc[0m
+  Green to Black:   $esc[38;2;0;255;0m█$esc[0m$esc[38;2;0;251;0m█$esc[0m$esc[38;2;0;246;0m█$esc[0m$esc[38;2;0;242;0m█$esc[0m$esc[38;2;0;238;0m█$esc[0m$esc[38;2;0;233;0m█$esc[0m$esc[38;2;0;229;0m█$esc[0m$esc[38;2;0;225;0m█$esc[0m$esc[38;2;0;220;0m█$esc[0m$esc[38;2;0;216;0m█$esc[0m$esc[38;2;0;212;0m█$esc[0m$esc[38;2;0;207;0m█$esc[0m$esc[38;2;0;203;0m█$esc[0m$esc[38;2;0;199;0m█$esc[0m$esc[38;2;0;194;0m█$esc[0m$esc[38;2;0;190;0m█$esc[0m$esc[38;2;0;186;0m█$esc[0m$esc[38;2;0;182;0m█$esc[0m$esc[38;2;0;177;0m█$esc[0m$esc[38;2;0;173;0m█$esc[0m$esc[38;2;0;169;0m█$esc[0m$esc[38;2;0;164;0m█$esc[0m$esc[38;2;0;160;0m█$esc[0m$esc[38;2;0;156;0m█$esc[0m$esc[38;2;0;151;0m█$esc[0m$esc[38;2;0;147;0m█$esc[0m$esc[38;2;0;143;0m█$esc[0m$esc[38;2;0;138;0m█$esc[0m$esc[38;2;0;134;0m█$esc[0m$esc[38;2;0;130;0m█$esc[0m$esc[38;2;0;125;0m█$esc[0m$esc[38;2;0;121;0m█$esc[0m$esc[38;2;0;117;0m█$esc[0m$esc[38;2;0;112;0m█$esc[0m$esc[38;2;0;108;0m█$esc[0m$esc[38;2;0;104;0m█$esc[0m$esc[38;2;0;99;0m█$esc[0m$esc[38;2;0;95;0m█$esc[0m$esc[38;2;0;91;0m█$esc[0m$esc[38;2;0;86;0m█$esc[0m$esc[38;2;0;82;0m█$esc[0m$esc[38;2;0;78;0m█$esc[0m$esc[38;2;0;73;0m█$esc[0m$esc[38;2;0;69;0m█$esc[0m$esc[38;2;0;65;0m█$esc[0m$esc[38;2;0;61;0m█$esc[0m$esc[38;2;0;56;0m█$esc[0m$esc[38;2;0;52;0m█$esc[0m$esc[38;2;0;48;0m█$esc[0m$esc[38;2;0;43;0m█$esc[0m$esc[38;2;0;39;0m█$esc[0m$esc[38;2;0;35;0m█$esc[0m$esc[38;2;0;30;0m█$esc[0m$esc[38;2;0;26;0m█$esc[0m$esc[38;2;0;22;0m█$esc[0m$esc[38;2;0;17;0m█$esc[0m$esc[38;2;0;13;0m█$esc[0m$esc[38;2;0;9;0m█$esc[0m$esc[38;2;0;4;0m█$esc[0m$esc[38;2;0;0;0m█$esc[0m
+  Blue to Black:    $esc[38;2;0;0;255m█$esc[0m$esc[38;2;0;0;251m█$esc[0m$esc[38;2;0;0;246m█$esc[0m$esc[38;2;0;0;242m█$esc[0m$esc[38;2;0;0;238m█$esc[0m$esc[38;2;0;0;233m█$esc[0m$esc[38;2;0;0;229m█$esc[0m$esc[38;2;0;0;225m█$esc[0m$esc[38;2;0;0;220m█$esc[0m$esc[38;2;0;0;216m█$esc[0m$esc[38;2;0;0;212m█$esc[0m$esc[38;2;0;0;207m█$esc[0m$esc[38;2;0;0;203m█$esc[0m$esc[38;2;0;0;199m█$esc[0m$esc[38;2;0;0;194m█$esc[0m$esc[38;2;0;0;190m█$esc[0m$esc[38;2;0;0;186m█$esc[0m$esc[38;2;0;0;182m█$esc[0m$esc[38;2;0;0;177m█$esc[0m$esc[38;2;0;0;173m█$esc[0m$esc[38;2;0;0;169m█$esc[0m$esc[38;2;0;0;164m█$esc[0m$esc[38;2;0;0;160m█$esc[0m$esc[38;2;0;0;156m█$esc[0m$esc[38;2;0;0;151m█$esc[0m$esc[38;2;0;0;147m█$esc[0m$esc[38;2;0;0;143m█$esc[0m$esc[38;2;0;0;138m█$esc[0m$esc[38;2;0;0;134m█$esc[0m$esc[38;2;0;0;130m█$esc[0m$esc[38;2;0;0;125m█$esc[0m$esc[38;2;0;0;121m█$esc[0m$esc[38;2;0;0;117m█$esc[0m$esc[38;2;0;0;112m█$esc[0m$esc[38;2;0;0;108m█$esc[0m$esc[38;2;0;0;104m█$esc[0m$esc[38;2;0;0;99m█$esc[0m$esc[38;2;0;0;95m█$esc[0m$esc[38;2;0;0;91m█$esc[0m$esc[38;2;0;0;86m█$esc[0m$esc[38;2;0;0;82m█$esc[0m$esc[38;2;0;0;78m█$esc[0m$esc[38;2;0;0;73m█$esc[0m$esc[38;2;0;0;69m█$esc[0m$esc[38;2;0;0;65m█$esc[0m$esc[38;2;0;0;61m█$esc[0m$esc[38;2;0;0;56m█$esc[0m$esc[38;2;0;0;52m█$esc[0m$esc[38;2;0;0;48m█$esc[0m$esc[38;2;0;0;43m█$esc[0m$esc[38;2;0;0;39m█$esc[0m$esc[38;2;0;0;35m█$esc[0m$esc[38;2;0;0;30m█$esc[0m$esc[38;2;0;0;26m█$esc[0m$esc[38;2;0;0;22m█$esc[0m$esc[38;2;0;0;17m█$esc[0m$esc[38;2;0;0;13m█$esc[0m$esc[38;2;0;0;9m█$esc[0m$esc[38;2;0;0;4m█$esc[0m$esc[38;2;0;0;0m█$esc[0m
+  Cyan to Black:    $esc[38;2;0;255;255m█$esc[0m$esc[38;2;0;251;251m█$esc[0m$esc[38;2;0;246;246m█$esc[0m$esc[38;2;0;242;242m█$esc[0m$esc[38;2;0;238;238m█$esc[0m$esc[38;2;0;233;233m█$esc[0m$esc[38;2;0;229;229m█$esc[0m$esc[38;2;0;225;225m█$esc[0m$esc[38;2;0;220;220m█$esc[0m$esc[38;2;0;216;216m█$esc[0m$esc[38;2;0;212;212m█$esc[0m$esc[38;2;0;207;207m█$esc[0m$esc[38;2;0;203;203m█$esc[0m$esc[38;2;0;199;199m█$esc[0m$esc[38;2;0;194;194m█$esc[0m$esc[38;2;0;190;190m█$esc[0m$esc[38;2;0;186;186m█$esc[0m$esc[38;2;0;182;182m█$esc[0m$esc[38;2;0;177;177m█$esc[0m$esc[38;2;0;173;173m█$esc[0m$esc[38;2;0;169;169m█$esc[0m$esc[38;2;0;164;164m█$esc[0m$esc[38;2;0;160;160m█$esc[0m$esc[38;2;0;156;156m█$esc[0m$esc[38;2;0;151;151m█$esc[0m$esc[38;2;0;147;147m█$esc[0m$esc[38;2;0;143;143m█$esc[0m$esc[38;2;0;138;138m█$esc[0m$esc[38;2;0;134;134m█$esc[0m$esc[38;2;0;130;130m█$esc[0m$esc[38;2;0;125;125m█$esc[0m$esc[38;2;0;121;121m█$esc[0m$esc[38;2;0;117;117m█$esc[0m$esc[38;2;0;112;112m█$esc[0m$esc[38;2;0;108;108m█$esc[0m$esc[38;2;0;104;104m█$esc[0m$esc[38;2;0;99;99m█$esc[0m$esc[38;2;0;95;95m█$esc[0m$esc[38;2;0;91;91m█$esc[0m$esc[38;2;0;86;86m█$esc[0m$esc[38;2;0;82;82m█$esc[0m$esc[38;2;0;78;78m█$esc[0m$esc[38;2;0;73;73m█$esc[0m$esc[38;2;0;69;69m█$esc[0m$esc[38;2;0;65;65m█$esc[0m$esc[38;2;0;61;61m█$esc[0m$esc[38;2;0;56;56m█$esc[0m$esc[38;2;0;52;52m█$esc[0m$esc[38;2;0;48;48m█$esc[0m$esc[38;2;0;43;43m█$esc[0m$esc[38;2;0;39;39m█$esc[0m$esc[38;2;0;35;35m█$esc[0m$esc[38;2;0;30;30m█$esc[0m$esc[38;2;0;26;26m█$esc[0m$esc[38;2;0;22;22m█$esc[0m$esc[38;2;0;17;17m█$esc[0m$esc[38;2;0;13;13m█$esc[0m$esc[38;2;0;9;9m█$esc[0m$esc[38;2;0;4;4m█$esc[0m$esc[38;2;0;0;0m█$esc[0m
+  Magenta to Black: $esc[38;2;255;0;255m█$esc[0m$esc[38;2;251;0;251m█$esc[0m$esc[38;2;246;0;246m█$esc[0m$esc[38;2;242;0;242m█$esc[0m$esc[38;2;238;0;238m█$esc[0m$esc[38;2;233;0;233m█$esc[0m$esc[38;2;229;0;229m█$esc[0m$esc[38;2;225;0;225m█$esc[0m$esc[38;2;220;0;220m█$esc[0m$esc[38;2;216;0;216m█$esc[0m$esc[38;2;212;0;212m█$esc[0m$esc[38;2;207;0;207m█$esc[0m$esc[38;2;203;0;203m█$esc[0m$esc[38;2;199;0;199m█$esc[0m$esc[38;2;194;0;194m█$esc[0m$esc[38;2;190;0;190m█$esc[0m$esc[38;2;186;0;186m█$esc[0m$esc[38;2;182;0;182m█$esc[0m$esc[38;2;177;0;177m█$esc[0m$esc[38;2;173;0;173m█$esc[0m$esc[38;2;169;0;169m█$esc[0m$esc[38;2;164;0;164m█$esc[0m$esc[38;2;160;0;160m█$esc[0m$esc[38;2;156;0;156m█$esc[0m$esc[38;2;151;0;151m█$esc[0m$esc[38;2;147;0;147m█$esc[0m$esc[38;2;143;0;143m█$esc[0m$esc[38;2;138;0;138m█$esc[0m$esc[38;2;134;0;134m█$esc[0m$esc[38;2;130;0;130m█$esc[0m$esc[38;2;125;0;125m█$esc[0m$esc[38;2;121;0;121m█$esc[0m$esc[38;2;117;0;117m█$esc[0m$esc[38;2;112;0;112m█$esc[0m$esc[38;2;108;0;108m█$esc[0m$esc[38;2;104;0;104m█$esc[0m$esc[38;2;99;0;99m█$esc[0m$esc[38;2;95;0;95m█$esc[0m$esc[38;2;91;0;91m█$esc[0m$esc[38;2;86;0;86m█$esc[0m$esc[38;2;82;0;82m█$esc[0m$esc[38;2;78;0;78m█$esc[0m$esc[38;2;73;0;73m█$esc[0m$esc[38;2;69;0;69m█$esc[0m$esc[38;2;65;0;65m█$esc[0m$esc[38;2;61;0;61m█$esc[0m$esc[38;2;56;0;56m█$esc[0m$esc[38;2;52;0;52m█$esc[0m$esc[38;2;48;0;48m█$esc[0m$esc[38;2;43;0;43m█$esc[0m$esc[38;2;39;0;39m█$esc[0m$esc[38;2;35;0;35m█$esc[0m$esc[38;2;30;0;30m█$esc[0m$esc[38;2;26;0;26m█$esc[0m$esc[38;2;22;0;22m█$esc[0m$esc[38;2;17;0;17m█$esc[0m$esc[38;2;13;0;13m█$esc[0m$esc[38;2;9;0;9m█$esc[0m$esc[38;2;4;0;4m█$esc[0m$esc[38;2;0;0;0m█$esc[0m
 
-# Colored shading patterns
-Write-Host "  Colored Shading Patterns:"
-$patterns = @(
-    @("Red to Black", @(255, 0, 0)),
-    @("Green to Black", @(0, 255, 0)),
-    @("Blue to Black", @(0, 0, 255)),
-    @("Cyan to Black", @(0, 255, 255)),
-    @("Magenta to Black", @(255, 0, 255))
-)
+  Half Block Characters:
+  Upper Half:  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+  Lower Half:  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+  Left Half:   ▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌
+  Right Half:  ▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐
 
-foreach ($p in $patterns) {
-    Write-Host -NoNewline "  $($p[0]):".PadRight(20)
-    $baseColor = $p[1]
-    for ($i = 0; $i -lt 60; $i++) {
-        $t = 1.0 - ($i / 59.0)
-        $r = [int]($baseColor[0] * $t)
-        $g = [int]($baseColor[1] * $t)
-        $b = [int]($baseColor[2] * $t)
-        Write-Host -NoNewline "$esc[38;2;$r;$g;${b}m█$esc[0m"
-    }
-    Write-Host ""
-}
-Write-Host ""
+  Quarter & Partial Blocks:
+  ▘▝▀▖▌▞▛▗▚▐▜▄▙▟█  ▏▎▍▌▋▊▉█  ▁▂▃▄▅▆▇█  ▔▀
 
-# Half blocks
-Write-Host "  Half Block Characters:"
-Write-Host "  Upper Half:  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀"
-Write-Host "  Lower Half:  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄"
-Write-Host "  Left Half:   ▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌"
-Write-Host "  Right Half:  ▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐"
-Write-Host ""
+  Block Patterns:
+  Checkerboard: ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀
+                 ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄
+  Diagonal:     ▟▀▜▖▗▛▄▙  ▞▀▚▌▐▞▄▚  ▛▀▀▜▙▄▄▟
+  Mixed:        ▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓
 
-# Quarter blocks
-Write-Host "  Quarter & Partial Blocks:"
-Write-Host "  ▘▝▀▖▌▞▛▗▚▐▜▄▙▟█  ▏▎▍▌▋▊▉█  ▁▂▃▄▅▆▇█  ▔▀"
-Write-Host ""
+  3D Effect using Shading:
+  ░░▒▒▓▓██████████████████▓▓▒▒░░
+  ░▒▓███████████████████████▓▒░
+  ▒▓██████████████████████████▓▒
+  ▓████████████████████████████▓
+  ▒▓██████████████████████████▓▒
+  ░▒▓███████████████████████▓▒░
+  ░░▒▒▓▓██████████████████▓▓▒▒░░
 
-# Patterns
-Write-Host "  Block Patterns:"
-Write-Host "  Checkerboard: ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀"
-Write-Host "                 ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄"
-Write-Host "  Diagonal:     ▟▀▜▖▗▛▄▙  ▞▀▚▌▐▞▄▚  ▛▀▀▜▙▄▄▟"
-Write-Host "  Mixed:        ▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓"
-Write-Host ""
-
-# 3D-ish effect
-Write-Host "  3D Effect using Shading:"
-Write-Host "  ░░▒▒▓▓██████████████████▓▓▒▒░░"
-Write-Host "  ░▒▓███████████████████████▓▒░"
-Write-Host "  ▒▓██████████████████████████▓▒"
-Write-Host "  ▓████████████████████████████▓"
-Write-Host "  ▒▓██████████████████████████▓▒"
-Write-Host "  ░▒▓███████████████████████▓▒░"
-Write-Host "  ░░▒▒▓▓██████████████████▓▓▒▒░░"
-Write-Host ""
+"@

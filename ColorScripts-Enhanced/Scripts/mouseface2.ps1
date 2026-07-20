@@ -1,26 +1,11 @@
+# Generated from verified deterministic output by scripts/Convert-DeterministicColorScripts.ps1.
 $esc = [char]27
-
-$redf = "$esc[31m"
-$greenf = "$esc[32m"
-$yellowf = "$esc[33m"
-$bluef = "$esc[34m"
-$purplef = "$esc[35m"
-$cyanf = "$esc[36m"
-
-$redfbright = "$esc[91m"
-$greenfbright = "$esc[92m"
-$yellowfbright = "$esc[93m"
-$bluefbright = "$esc[94m"
-$purplefbright = "$esc[95m"
-$cyanfbright = "$esc[96m"
-
-$boldon = "$esc[1m"
-$reset = "$esc[0m"
+$sp = ' '
 
 Write-Host @"
-$boldon$redfbright   ██     ██ $reset $boldon$greenfbright   ██     ██ $reset $boldon$yellowfbright   ██     ██ $reset $boldon$bluefbright   ██     ██ $reset $boldon$purplefbright   ██     ██ $reset $boldon$cyanfbright   ██     ██ $reset
-$boldon$redfbright  █$whitef ■$reset$boldon$redfbright█   █$whitef■$reset$boldon$redfbright █$reset $boldon$greenfbright  █$whitef ■$reset$boldon$greenfbright█   █$whitef■$reset$boldon$greenfbright █$reset $boldon$yellowfbright  █$whitef ■$reset$boldon$yellowfbright█   █$whitef■$reset$boldon$yellowfbright █$reset $boldon$bluefbright  █$whitef ■$reset$boldon$bluefbright█   █$whitef■$reset$boldon$bluefbright █$reset $boldon$purplefbright  █$whitef ■$reset$boldon$purplefbright█   █$whitef■$reset$boldon$purplefbright █$reset $boldon$cyanfbright  █$whitef ■$reset$boldon$cyanfbright█   █$whitef■$reset$boldon$cyanfbright █$reset
-$redf   █ █   █ █ $reset $greenf   █ █   █ █ $reset $yellowf   █ █   █ █ $reset $bluef   █ █   █ █ $reset $purplef   █ █   █ █ $reset $cyanf   █ █   █ █ $reset
-$redf     █ █ █   $reset $greenf     █ █ █   $reset $yellowf     █ █ █   $reset $bluef     █ █ █   $reset $purplef     █ █ █   $reset $cyanf     █ █ █   $reset
-$redf      =■=    $reset $greenf      =■=    $reset $yellowf      =■=    $reset $bluef      =■=    $reset $purplef      =■=    $reset $cyanf      =■=    $reset
+$esc[1m$esc[91m   ██     ██ $esc[0m $esc[1m$esc[92m   ██     ██ $esc[0m $esc[1m$esc[93m   ██     ██ $esc[0m $esc[1m$esc[94m   ██     ██ $esc[0m $esc[1m$esc[95m   ██     ██ $esc[0m $esc[1m$esc[96m   ██     ██ $esc[0m
+$esc[1m$esc[91m  █ ■$esc[0m$esc[1m$esc[91m█   █■$esc[0m$esc[1m$esc[91m █$esc[0m $esc[1m$esc[92m  █ ■$esc[0m$esc[1m$esc[92m█   █■$esc[0m$esc[1m$esc[92m █$esc[0m $esc[1m$esc[93m  █ ■$esc[0m$esc[1m$esc[93m█   █■$esc[0m$esc[1m$esc[93m █$esc[0m $esc[1m$esc[94m  █ ■$esc[0m$esc[1m$esc[94m█   █■$esc[0m$esc[1m$esc[94m █$esc[0m $esc[1m$esc[95m  █ ■$esc[0m$esc[1m$esc[95m█   █■$esc[0m$esc[1m$esc[95m █$esc[0m $esc[1m$esc[96m  █ ■$esc[0m$esc[1m$esc[96m█   █■$esc[0m$esc[1m$esc[96m █$esc[0m
+$esc[31m   █ █   █ █ $esc[0m $esc[32m   █ █   █ █ $esc[0m $esc[33m   █ █   █ █ $esc[0m $esc[34m   █ █   █ █ $esc[0m $esc[35m   █ █   █ █ $esc[0m $esc[36m   █ █   █ █ $esc[0m
+$esc[31m     █ █ █   $esc[0m $esc[32m     █ █ █   $esc[0m $esc[33m     █ █ █   $esc[0m $esc[34m     █ █ █   $esc[0m $esc[35m     █ █ █   $esc[0m $esc[36m     █ █ █   $esc[0m
+$esc[31m      =■=    $esc[0m $esc[32m      =■=    $esc[0m $esc[33m      =■=    $esc[0m $esc[34m      =■=    $esc[0m $esc[35m      =■=    $esc[0m $esc[36m      =■=    $esc[0m
 "@

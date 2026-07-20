@@ -115,7 +115,15 @@ try {
 
         Invoke-SmokeTest -Name 'Cache build + clear (isolated path)' -Action {
             Clear-ColorScriptCache -All -Confirm:$false -ErrorAction Stop
-            New-ColorScriptCache -Name 'aurora-bands' -ErrorAction Stop | Out-Null
+            $build = New-ColorScriptCache -Name 'Galaxy' -Force -PassThru -ErrorAction Stop
+            if ($build.Status -ne 'Updated' -or -not $build.CacheExists) {
+                throw "Dynamic cache build did not create an entry (status: $($build.Status))."
+            }
+
+            $clear = Clear-ColorScriptCache -Name 'Galaxy' -Confirm:$false -ErrorAction Stop
+            if ($clear.Status -ne 'Removed') {
+                throw "Dynamic cache clear did not remove the entry (status: $($clear.Status))."
+            }
         }
     }
 }

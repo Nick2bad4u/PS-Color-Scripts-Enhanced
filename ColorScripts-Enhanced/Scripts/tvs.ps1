@@ -1,18 +1,12 @@
+# Generated from verified deterministic output by scripts/Convert-DeterministicColorScripts.ps1.
 $esc = [char]27
-$reset = "$esc[0m"
-
-$f1 = "$esc[30m"
-$f2 = "$esc[31m"
-$f3 = "$esc[32m"
-$f4 = "$esc[33m"
-$f5 = "$esc[34m"
-$f6 = "$esc[35m"
+$sp = ' '
 
 Write-Host @"
-$f1 ▀▄   ▄▀  $f2 ▀▄   ▄▀  $f3 ▀▄   ▄▀  $f4 ▀▄   ▄▀  $f5 ▀▄   ▄▀  $f6 ▀▄   ▄▀
-$f1 ▄▄█▄█▄▄  $f2 ▄▄█▄█▄▄  $f3 ▄▄█▄█▄▄  $f4 ▄▄█▄█▄▄  $f5 ▄▄█▄█▄▄  $f6 ▄▄█▄█▄▄
-$f1█$w██████$f1██ $f2█$w██████$f2██ $f3█$w██████$f3██ $f4█$w██████$f4██ $f5█$w██████$f5██ $f6█$w██████$f6██
-$f1█$w██████$f1██ $f2█$w██████$f2██ $f3█$w██████$f3██ $f4█$w██████$f4██ $f5█$w██████$f5██ $f6█$w██████$f6██
-$f1█$w██████$f1██ $f2█$w██████$f2██ $f3█$w██████$f3██ $f4█$w██████$f4██ $f5█$w██████$f5██ $f6█$w██████$f6██
-$f1 ▀▀▀▀▀▀▀  $f2 ▀▀▀▀▀▀▀  $f3 ▀▀▀▀▀▀▀  $f4 ▀▀▀▀▀▀▀  $f5 ▀▀▀▀▀▀▀  $f6 ▀▀▀▀▀▀▀  $reset
+$esc[30m ▀▄   ▄▀  $esc[31m ▀▄   ▄▀  $esc[32m ▀▄   ▄▀  $esc[33m ▀▄   ▄▀  $esc[34m ▀▄   ▄▀  $esc[35m ▀▄   ▄▀
+$esc[30m ▄▄█▄█▄▄  $esc[31m ▄▄█▄█▄▄  $esc[32m ▄▄█▄█▄▄  $esc[33m ▄▄█▄█▄▄  $esc[34m ▄▄█▄█▄▄  $esc[35m ▄▄█▄█▄▄
+$esc[30m███████$esc[30m██ $esc[31m███████$esc[31m██ $esc[32m███████$esc[32m██ $esc[33m███████$esc[33m██ $esc[34m███████$esc[34m██ $esc[35m███████$esc[35m██
+$esc[30m███████$esc[30m██ $esc[31m███████$esc[31m██ $esc[32m███████$esc[32m██ $esc[33m███████$esc[33m██ $esc[34m███████$esc[34m██ $esc[35m███████$esc[35m██
+$esc[30m███████$esc[30m██ $esc[31m███████$esc[31m██ $esc[32m███████$esc[32m██ $esc[33m███████$esc[33m██ $esc[34m███████$esc[34m██ $esc[35m███████$esc[35m██
+$esc[30m ▀▀▀▀▀▀▀  $esc[31m ▀▀▀▀▀▀▀  $esc[32m ▀▀▀▀▀▀▀  $esc[33m ▀▀▀▀▀▀▀  $esc[34m ▀▀▀▀▀▀▀  $esc[35m ▀▀▀▀▀▀▀  $esc[0m
 "@

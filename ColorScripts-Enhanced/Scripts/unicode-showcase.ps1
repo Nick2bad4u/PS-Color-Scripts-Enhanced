@@ -1,71 +1,47 @@
-# Unicode Showcase - Beautiful display of various Unicode glyphs and symbols
-
+# Generated from verified deterministic output by scripts/Convert-DeterministicColorScripts.ps1.
 $esc = [char]27
+$sp = ' '
 
-function Color {
-    param(
-        [int]$r,
-        [int]$g,
-        [int]$b,
-        [string]$text
-    )
-    "$esc[38;2;$r;$g;${b}m$text$esc[0m"
-}
+Write-Host @"
 
-Write-Host -Object ""
-Write-Host -Object (Color -r 100 -g 200 -b 255 -text "  ╔═══════════════════════════════════════════════════════════════╗")
-Write-Host -Object ((Color -r 100 -g 200 -b 255 -text "  ║") + (Color -r 255 -g 255 -b 150 -text "          UNICODE GLYPH SHOWCASE - Terminal Art Symbols") + (Color -r 100 -g 200 -b 255 -text "        ║"))
-Write-Host -Object (Color -r 100 -g 200 -b 255 -text "  ╚═══════════════════════════════════════════════════════════════╝")
-Write-Host -Object ""
+$esc[38;2;100;200;255m  ╔═══════════════════════════════════════════════════════════════╗$esc[0m
+$esc[38;2;100;200;255m  ║$esc[0m$esc[38;2;255;255;150m          UNICODE GLYPH SHOWCASE - Terminal Art Symbols$esc[0m$esc[38;2;100;200;255m        ║$esc[0m
+$esc[38;2;100;200;255m  ╚═══════════════════════════════════════════════════════════════╝$esc[0m
 
-# Box Drawing
-Write-Host -Object (Color -r 150 -g 150 -b 255 -text "  Box Drawing:")
-Write-Host -Object "    ┌─┬─┐  ╔═╦═╗  ╒═╤═╕  ╓─╥─╖  ▗▄▄▖  ▛▀▀▜"
-Write-Host -Object "    │ │ │  ║ ║ ║  │ │ │  ║ ║ ║  ▐▌▐▌  ▌  ▐"
-Write-Host -Object "    ├─┼─┤  ╠═╬═╣  ╞═╪═╡  ╟─╫─╢  ▐▌▐▌  ▙▄▄▟"
-Write-Host -Object "    │ │ │  ║ ║ ║  │ │ │  ║ ║ ║  ▝▀▀▘  ▌  ▐"
-Write-Host -Object "    └─┴─┘  ╚═╩═╝  ╘═╧═╛  ╙─╨─╜        ▀▀▀▀"
-Write-Host -Object ""
+$esc[38;2;150;150;255m  Box Drawing:$esc[0m
+    ┌─┬─┐  ╔═╦═╗  ╒═╤═╕  ╓─╥─╖  ▗▄▄▖  ▛▀▀▜
+    │ │ │  ║ ║ ║  │ │ │  ║ ║ ║  ▐▌▐▌  ▌  ▐
+    ├─┼─┤  ╠═╬═╣  ╞═╪═╡  ╟─╫─╢  ▐▌▐▌  ▙▄▄▟
+    │ │ │  ║ ║ ║  │ │ │  ║ ║ ║  ▝▀▀▘  ▌  ▐
+    └─┴─┘  ╚═╩═╝  ╘═╧═╛  ╙─╨─╜        ▀▀▀▀
 
-# Geometric Shapes
-Write-Host -Object (Color -r 255 -g 150 -b 150 -text "  Geometric Shapes:")
-Write-Host -Object "    ● ◉ ○ ◌ ◍ ◎ ◐ ◑ ◒ ◓ ◔ ◕ ◖ ◗ ◘ ◙ ◚ ◛ ◜ ◝ ◞ ◟"
-Write-Host -Object "    ■ □ ▢ ▣ ▤ ▥ ▦ ▧ ▨ ▩ ▪ ▫ ▬ ▭ ▮ ▯ ▰ ▱ ◆ ◇ ◈"
-Write-Host -Object "    ▲ △ ▴ ▵ ▶ ▷ ▸ ▹ ► ▻ ▼ ▽ ▾ ▿ ◀ ◁ ◂ ◃ ◄ ◅"
-Write-Host -Object ""
+$esc[38;2;255;150;150m  Geometric Shapes:$esc[0m
+    ● ◉ ○ ◌ ◍ ◎ ◐ ◑ ◒ ◓ ◔ ◕ ◖ ◗ ◘ ◙ ◚ ◛ ◜ ◝ ◞ ◟
+    ■ □ ▢ ▣ ▤ ▥ ▦ ▧ ▨ ▩ ▪ ▫ ▬ ▭ ▮ ▯ ▰ ▱ ◆ ◇ ◈
+    ▲ △ ▴ ▵ ▶ ▷ ▸ ▹ ► ▻ ▼ ▽ ▾ ▿ ◀ ◁ ◂ ◃ ◄ ◅
 
-# Arrows
-Write-Host -Object (Color -r 150 -g 255 -b 150 -text "  Arrows & Directions:")
-Write-Host -Object "    ← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ ↚ ↛ ↜ ↝ ↞ ↟ ↠ ↡ ↢ ↣"
-Write-Host -Object "    ⇐ ⇑ ⇒ ⇓ ⇔ ⇕ ⇖ ⇗ ⇘ ⇙ ⇚ ⇛ ⇜ ⇝ ⇞ ⇟ ⇠ ⇡ ⇢ ⇣"
-Write-Host -Object "    ➔ ➘ ➙ ➚ ➛ ➜ ➝ ➞ ➟ ➠ ➡ ➢ ➣ ➤ ➥ ➦ ➧ ➨ ➩ ➪"
-Write-Host -Object ""
+$esc[38;2;150;255;150m  Arrows & Directions:$esc[0m
+    ← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ ↚ ↛ ↜ ↝ ↞ ↟ ↠ ↡ ↢ ↣
+    ⇐ ⇑ ⇒ ⇓ ⇔ ⇕ ⇖ ⇗ ⇘ ⇙ ⇚ ⇛ ⇜ ⇝ ⇞ ⇟ ⇠ ⇡ ⇢ ⇣
+    ➔ ➘ ➙ ➚ ➛ ➜ ➝ ➞ ➟ ➠ ➡ ➢ ➣ ➤ ➥ ➦ ➧ ➨ ➩ ➪
 
-# Stars & Symbols
-Write-Host -Object (Color -r 255 -g 255 -b 100 -text "  Stars & Celestial:")
-Write-Host -Object "    ★ ☆ ✦ ✧ ✨ ✩ ✪ ✫ ✬ ✭ ✮ ✯ ✰ ✱ ✲ ✳ ✴ ✵ ✶ ✷ ✸ ✹"
-Write-Host -Object "    ❋ ❊ ❉ ❈ ❇ ❆ ❅ ❄ ❃ ❂ ❁ ❀ ✿ ✾ ✽ ✼ ✻ ✺ ✹ ✸"
-Write-Host -Object ""
+$esc[38;2;255;255;100m  Stars & Celestial:$esc[0m
+    ★ ☆ ✦ ✧ ✨ ✩ ✪ ✫ ✬ ✭ ✮ ✯ ✰ ✱ ✲ ✳ ✴ ✵ ✶ ✷ ✸ ✹
+    ❋ ❊ ❉ ❈ ❇ ❆ ❅ ❄ ❃ ❂ ❁ ❀ ✿ ✾ ✽ ✼ ✻ ✺ ✹ ✸
 
-# Musical
-Write-Host -Object (Color -r 200 -g 150 -b 255 -text "  Musical Notes:")
-Write-Host -Object "    ♩ ♪ ♫ ♬ ♭ ♮ ♯ 𝄞 𝄢 𝄫 𝄪 𝅗𝅥 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅯 𝅘𝅥𝅰 𝅘𝅥𝅱 𝅘𝅥𝅲"
-Write-Host -Object ""
+$esc[38;2;200;150;255m  Musical Notes:$esc[0m
+    ♩ ♪ ♫ ♬ ♭ ♮ ♯ 𝄞 𝄢 𝄫 𝄪 𝅗𝅥 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅯 𝅘𝅥𝅰 𝅘𝅥𝅱 𝅘𝅥𝅲
 
-# Technical & Math
-Write-Host -Object (Color -r 100 -g 255 -b 200 -text "  Math & Technical:")
-Write-Host -Object "    ± × ÷ ≠ ≈ ≡ ∞ ∫ ∂ √ ∛ ∜ ≤ ≥ ∈ ∉ ∋ ∩ ∪ ⊂ ⊃"
-Write-Host -Object "    α β γ δ ε ζ η θ λ μ π ρ σ τ φ χ ψ ω Σ Δ Ω"
-Write-Host -Object ""
+$esc[38;2;100;255;200m  Math & Technical:$esc[0m
+    ± × ÷ ≠ ≈ ≡ ∞ ∫ ∂ √ ∛ ∜ ≤ ≥ ∈ ∉ ∋ ∩ ∪ ⊂ ⊃
+    α β γ δ ε ζ η θ λ μ π ρ σ τ φ χ ψ ω Σ Δ Ω
 
-# Playing Cards & Games
-Write-Host -Object (Color -r 255 -g 100 -b 100 -text "  Cards & Games:")
-Write-Host -Object "    ♠ ♣ ♥ ♦ ♤ ♧ ♡ ♢ 🂡 🂢 🂣 🂤 🂥 🂦 🂧 🂨 🂩 🂪 🂫"
-Write-Host -Object "    ☰ ☱ ☲ ☳ ☴ ☵ ☶ ☷ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅"
-Write-Host -Object ""
+$esc[38;2;255;100;100m  Cards & Games:$esc[0m
+    ♠ ♣ ♥ ♦ ♤ ♧ ♡ ♢ 🂡 🂢 🂣 🂤 🂥 🂦 🂧 🂨 🂩 🂪 🂫
+    ☰ ☱ ☲ ☳ ☴ ☵ ☶ ☷ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅
 
-# Braille Patterns
-Write-Host -Object (Color -r 200 -g 200 -b 200 -text "  Braille Patterns (Sample):")
-Write-Host -Object "    ⠀⠁⠂⠃⠄⠅⠆⠇⠈⠉⠊⠋⠌⠍⠎⠏⠐⠑⠒⠓⠔⠕⠖⠗⠘⠙⠚⠛⠜⠝⠞⠟⠠⠡⠢⠣⠤⠥⠦⠧⠨⠩⠪⠫⠬⠭⠮⠯"
-Write-Host -Object "    ⡀⡁⡂⡃⡄⡅⡆⡇⡈⡉⡊⡋⡌⡍⡎⡏⡐⡑⡒⡓⡔⡕⡖⡗⡘⡙⡚⡛⡜⡝⡞⡟⡠⡡⡢⡣⡤⡥⡦⡧⡨⡩⡪⡫⡬⡭⡮⡯"
-Write-Host -Object ""
+$esc[38;2;200;200;200m  Braille Patterns (Sample):$esc[0m
+    ⠀⠁⠂⠃⠄⠅⠆⠇⠈⠉⠊⠋⠌⠍⠎⠏⠐⠑⠒⠓⠔⠕⠖⠗⠘⠙⠚⠛⠜⠝⠞⠟⠠⠡⠢⠣⠤⠥⠦⠧⠨⠩⠪⠫⠬⠭⠮⠯
+    ⡀⡁⡂⡃⡄⡅⡆⡇⡈⡉⡊⡋⡌⡍⡎⡏⡐⡑⡒⡓⡔⡕⡖⡗⡘⡙⡚⡛⡜⡝⡞⡟⡠⡡⡢⡣⡤⡥⡦⡧⡨⡩⡪⡫⡬⡭⡮⡯
+
+"@

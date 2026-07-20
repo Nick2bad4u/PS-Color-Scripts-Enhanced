@@ -1,26 +1,11 @@
+# Generated from verified deterministic output by scripts/Convert-DeterministicColorScripts.ps1.
 $esc = [char]27
+$sp = ' '
 
+Write-Host @"
 
-$boldon = "$esc[1m"
-$reset = "$esc[0m"
-
-# Cat design (single column)
-$cat = @(
-    "  /\_/\  ",
-    " ( o.o ) ",
-    "  > ^ <  "
-)
-
-# 6 colors: Red, Yellow, Cyan, Green, Magenta, Blue
-$colors = @(31, 33, 36, 32, 35, 34)
-
-Write-Host
-for ($row = 0; $row -lt $cat.Count; $row++) {
-    $line = ""
-    for ($col = 0; $col -lt 6; $col++) {
-        $color = $colors[$col]
-        $line += "$esc[${color}m$($cat[$row])$reset "
-    }
-    Write-Host "$boldon$line"
-}
-Write-Host "$reset"
+$esc[1m$esc[31m  /\_/\  $esc[0m $esc[33m  /\_/\  $esc[0m $esc[36m  /\_/\  $esc[0m $esc[32m  /\_/\  $esc[0m $esc[35m  /\_/\  $esc[0m $esc[34m  /\_/\  $esc[0m$sp
+$esc[1m$esc[31m ( o.o ) $esc[0m $esc[33m ( o.o ) $esc[0m $esc[36m ( o.o ) $esc[0m $esc[32m ( o.o ) $esc[0m $esc[35m ( o.o ) $esc[0m $esc[34m ( o.o ) $esc[0m$sp
+$esc[1m$esc[31m  > ^ <  $esc[0m $esc[33m  > ^ <  $esc[0m $esc[36m  > ^ <  $esc[0m $esc[32m  > ^ <  $esc[0m $esc[35m  > ^ <  $esc[0m $esc[34m  > ^ <  $esc[0m$sp
+$esc[0m
+"@

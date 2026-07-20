@@ -1,41 +1,21 @@
+# Generated from verified deterministic output by scripts/Convert-DeterministicColorScripts.ps1.
 $esc = [char]27
+$sp = ' '
 
-# Colors - Using a vibrant palette
-$c1 = "$esc[38;5;196m"  # Bright red
-$c2 = "$esc[38;5;208m"  # Orange
-$c3 = "$esc[38;5;226m"  # Yellow
-$c4 = "$esc[38;5;46m"   # Bright green
-$c5 = "$esc[38;5;45m"   # Cyan
-$c6 = "$esc[38;5;93m"   # Purple
+Write-Host @"
 
-# Bright variants
-$cb1 = "$esc[38;5;203m" # Light red
-$cb2 = "$esc[38;5;215m" # Light orange
-$cb3 = "$esc[38;5;229m" # Light yellow
-$cb4 = "$esc[38;5;120m" # Light green
-$cb5 = "$esc[38;5;87m"  # Light cyan
-$cb6 = "$esc[38;5;141m" # Light purple
+$esc[38;5;196m     /\\     $esc[38;5;208m     /\\     $esc[38;5;226m     /\\     $esc[38;5;46m     /\\     $esc[38;5;45m     /\\     $esc[38;5;93m     /\\     $esc[0m
+$esc[38;5;196m    /  \\    $esc[38;5;208m    /  \\    $esc[38;5;226m    /  \\    $esc[38;5;46m    /  \\    $esc[38;5;45m    /  \\    $esc[38;5;93m    /  \\    $esc[0m
+$esc[38;5;196m   /    \\   $esc[38;5;208m   /    \\   $esc[38;5;226m   /    \\   $esc[38;5;46m   /    \\   $esc[38;5;45m   /    \\   $esc[38;5;93m   /    \\   $esc[0m
+$esc[38;5;196m  /      \\  $esc[38;5;208m  /      \\  $esc[38;5;226m  /      \\  $esc[38;5;46m  /      \\  $esc[38;5;45m  /      \\  $esc[38;5;93m  /      \\  $esc[0m
+$esc[38;5;196m /        \\ $esc[38;5;208m /        \\ $esc[38;5;226m /        \\ $esc[38;5;46m /        \\ $esc[38;5;45m /        \\ $esc[38;5;93m /        \\ $esc[0m
+$esc[38;5;196m/__________\\$esc[38;5;208m/__________\\$esc[38;5;226m/__________\\$esc[38;5;46m/__________\\$esc[38;5;45m/__________\\$esc[38;5;93m/__________\\$esc[0m
 
-$rst = "$esc[0m"
-
-$lines = @(
-    "",
-    "$c1     /\\     $c2     /\\     $c3     /\\     $c4     /\\     $c5     /\\     $c6     /\\     $rst",
-    "$c1    /  \\    $c2    /  \\    $c3    /  \\    $c4    /  \\    $c5    /  \\    $c6    /  \\    $rst",
-    "$c1   /    \\   $c2   /    \\   $c3   /    \\   $c4   /    \\   $c5   /    \\   $c6   /    \\   $rst",
-    "$c1  /      \\  $c2  /      \\  $c3  /      \\  $c4  /      \\  $c5  /      \\  $c6  /      \\  $rst",
-    "$c1 /        \\ $c2 /        \\ $c3 /        \\ $c4 /        \\ $c5 /        \\ $c6 /        \\ $rst",
-    "$c1/__________\\$c2/__________\\$c3/__________\\$c4/__________\\$c5/__________\\$c6/__________\\$rst",
-    "",
-    "$cb1     /\\     $cb2     /\\     $cb3     /\\     $cb4     /\\     $cb5     /\\     $cb6     /\\     $rst",
-    "$cb1    /  \\    $cb2    /  \\    $cb3    /  \\    $cb4    /  \\    $cb5    /  \\    $cb6    /  \\    $rst",
-    "$cb1   /    \\   $cb2   /    \\   $cb3   /    \\   $cb4   /    \\   $cb5   /    \\   $cb6   /    \\   $rst",
-    "$cb1  /      \\  $cb2  /      \\  $cb3  /      \\  $cb4  /      \\  $cb5  /      \\  $cb6  /      \\  $rst",
-    "$cb1 /        \\ $cb2 /        \\ $cb3 /        \\ $cb4 /        \\ $cb5 /        \\ $cb6 /        \\ $rst",
-    "$cb1/__________\\$cb2/__________\\$cb3/__________\\$cb4/__________\\$cb5/__________\\$cb6/__________\\$rst",
-    "$rst"
-)
-
-foreach ($line in $lines) {
-    Write-Host $line
-}
+$esc[38;5;203m     /\\     $esc[38;5;215m     /\\     $esc[38;5;229m     /\\     $esc[38;5;120m     /\\     $esc[38;5;87m     /\\     $esc[38;5;141m     /\\     $esc[0m
+$esc[38;5;203m    /  \\    $esc[38;5;215m    /  \\    $esc[38;5;229m    /  \\    $esc[38;5;120m    /  \\    $esc[38;5;87m    /  \\    $esc[38;5;141m    /  \\    $esc[0m
+$esc[38;5;203m   /    \\   $esc[38;5;215m   /    \\   $esc[38;5;229m   /    \\   $esc[38;5;120m   /    \\   $esc[38;5;87m   /    \\   $esc[38;5;141m   /    \\   $esc[0m
+$esc[38;5;203m  /      \\  $esc[38;5;215m  /      \\  $esc[38;5;229m  /      \\  $esc[38;5;120m  /      \\  $esc[38;5;87m  /      \\  $esc[38;5;141m  /      \\  $esc[0m
+$esc[38;5;203m /        \\ $esc[38;5;215m /        \\ $esc[38;5;229m /        \\ $esc[38;5;120m /        \\ $esc[38;5;87m /        \\ $esc[38;5;141m /        \\ $esc[0m
+$esc[38;5;203m/__________\\$esc[38;5;215m/__________\\$esc[38;5;229m/__________\\$esc[38;5;120m/__________\\$esc[38;5;87m/__________\\$esc[38;5;141m/__________\\$esc[0m
+$esc[0m
+"@

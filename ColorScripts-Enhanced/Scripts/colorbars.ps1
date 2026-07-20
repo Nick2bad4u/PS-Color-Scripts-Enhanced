@@ -1,29 +1,29 @@
+# Generated from verified deterministic output by scripts/Convert-DeterministicColorScripts.ps1.
 $esc = [char]27
+$sp = ' '
 
-Write-Host
+Write-Host @"
 
-for ($y = 0; $y -le 13; $y++) {
-    Write-Host -NoNewline "           "
-    foreach ($color in 7, 3, 6, 2, 5, 1, 4) {
-        Write-Host -NoNewline "$($esc)[48;5;${color}m        "
-    }
-    Write-Host "$($esc)[0m"
-}
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;7m        $esc[48;5;3m        $esc[48;5;6m        $esc[48;5;2m        $esc[48;5;5m        $esc[48;5;1m        $esc[48;5;4m        $esc[0m
+           $esc[48;5;4m        $esc[48;5;0m        $esc[48;5;5m        $esc[48;5;0m        $esc[48;5;6m        $esc[48;5;0m        $esc[48;5;7m        $esc[0m
+           $esc[48;5;4m        $esc[48;5;0m        $esc[48;5;5m        $esc[48;5;0m        $esc[48;5;6m        $esc[48;5;0m        $esc[48;5;7m        $esc[0m
+           $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[0m
+           $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[0m
+           $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[0m
+           $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[0m
+           $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;4m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;7m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;5m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[48;5;0m  $esc[0m
 
-for ($y = 0; $y -le 1; $y++) {
-    Write-Host -NoNewline "           "
-    foreach ($color in 4, 0, 5, 0, 6, 0, 7) {
-        Write-Host -NoNewline "$($esc)[48;5;${color}m        "
-    }
-    Write-Host "$($esc)[0m"
-}
-
-for ($y = 0; $y -le 4; $y++) {
-    Write-Host -NoNewline "           "
-    foreach ($color in 4, 4, 4, 4, 4, 7, 7, 7, 7, 7, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) {
-        Write-Host -NoNewline "$($esc)[48;5;${color}m  "
-    }
-    Write-Host "$($esc)[0m"
-}
-
-Write-Host
+"@

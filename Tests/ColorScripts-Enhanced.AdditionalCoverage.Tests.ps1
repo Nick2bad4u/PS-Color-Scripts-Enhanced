@@ -2767,6 +2767,7 @@ Write-Host "$escape[0m text"
                                 FileName               = $null
                                 Arguments              = $null
                                 UseShellExecute        = $null
+                                CreateNoWindow         = $null
                                 RedirectStandardOutput = $null
                                 RedirectStandardError  = $null
                                 StandardOutputEncoding = $null
@@ -2800,7 +2801,7 @@ Write-Host "$escape[0m text"
 
                 $result = InModuleScope ColorScripts-Enhanced -Parameters @{ scriptPath = $scriptPath } {
                     param($scriptPath)
-                    Invoke-ColorScriptProcess -ScriptPath $scriptPath -ForCache
+                    Invoke-ColorScriptChildProcess -ScriptPath $scriptPath -ForCache
                 }
 
                 $result.Success | Should -BeTrue
@@ -2822,6 +2823,7 @@ Write-Host "$escape[0m text"
                                 FileName               = $null
                                 Arguments              = $null
                                 UseShellExecute        = $false
+                                CreateNoWindow         = $false
                                 RedirectStandardOutput = $false
                                 RedirectStandardError  = $false
                                 StandardOutputEncoding = $null
@@ -2844,7 +2846,7 @@ Write-Host "$escape[0m text"
 
                 $result = InModuleScope ColorScripts-Enhanced -Parameters @{ scriptPath = $scriptPath } {
                     param($scriptPath)
-                    Invoke-ColorScriptProcess -ScriptPath $scriptPath -ForCache
+                    Invoke-ColorScriptChildProcess -ScriptPath $scriptPath -ForCache
                 }
 
                 $result.Success | Should -BeFalse

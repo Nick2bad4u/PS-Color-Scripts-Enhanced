@@ -13,10 +13,13 @@ Describe 'Selective colorscript output caching' {
     Context 'Cache policy' {
         It 'contains a unique, resolvable set of explicitly cacheable scripts' {
             $policy = Import-PowerShellDataFile (Join-Path -Path $script:ModuleRoot -ChildPath 'CachePolicy.psd1')
+            $dynamicPolicy = Import-PowerShellDataFile (Join-Path -Path $script:ModuleRoot -ChildPath 'DynamicRenderPolicy.psd1')
             $uniqueNames = @($policy.CacheableScripts | Sort-Object -Unique)
+            $unexpectedStaticNames = @($policy.CacheableScripts | Where-Object { $_ -notin $dynamicPolicy.DynamicScripts })
 
-            $policy.CacheableScripts.Count | Should -BeGreaterThan 0
+            $policy.CacheableScripts | Should -HaveCount 15
             $uniqueNames | Should -HaveCount $policy.CacheableScripts.Count
+            $unexpectedStaticNames | Should -BeNullOrEmpty
             $policy.CacheablePokemonScripts | Should -BeNullOrEmpty
 
             foreach ($scriptName in $policy.CacheableScripts) {
@@ -43,7 +46,7 @@ Describe 'Selective colorscript output caching' {
             $records.InventoryInitialized | Should -BeFalse
         }
 
-        It 'excludes static output and includes the computational examples' {
+        It 'excludes flattened output and includes only expensive live examples' {
             $classification = InModuleScope ColorScripts-Enhanced -Parameters @{ root = $script:ModuleRoot } {
                 param($root)
 
@@ -63,10 +66,10 @@ Describe 'Selective colorscript output caching' {
             $classification.Static | Should -BeFalse
             $classification.Bars | Should -BeFalse
             $classification.Benchmark | Should -BeFalse
-            $classification.Cats | Should -BeTrue
-            $classification.IsoCubes | Should -BeTrue
+            $classification.Cats | Should -BeFalse
+            $classification.IsoCubes | Should -BeFalse
             $classification.NerdFont | Should -BeTrue
-            $classification.Penrose | Should -BeTrue
+            $classification.Penrose | Should -BeFalse
             $classification.Perlin | Should -BeTrue
             $classification.Unknown | Should -BeFalse
         }
@@ -304,11 +307,11 @@ Describe 'Selective colorscript output caching' {
             $result | Should -BeExactly 'direct static output'
         }
 
-        It 'retains the cache path for computational output' {
+        It 'retains the cache path for expensive dynamic output' {
             $result = InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced
                 Mock -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -MockWith {
-                    [pscustomobject]@{ Available = $true; Content = 'cached penrose output' }
+                    [pscustomobject]@{ Available = $true; Content = 'cached perlin output' }
                 }
                 Mock -CommandName Build-ScriptCache -ModuleName ColorScripts-Enhanced -MockWith {
                     throw 'An available cache must not be rebuilt.'
@@ -317,7 +320,7 @@ Describe 'Selective colorscript output caching' {
                     throw 'A cache hit must not execute the script.'
                 }
 
-                $text = Show-ColorScript -Name 'penrose-quasicrystal' -ReturnText -Quiet
+                $text = Show-ColorScript -Name 'perlin-clouds' -ReturnText -Quiet
 
                 Should-Invoke -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
                 Should-Invoke -CommandName Get-CachedOutput -ModuleName ColorScripts-Enhanced -Times 1 -Exactly
@@ -326,7 +329,7 @@ Describe 'Selective colorscript output caching' {
                 $text
             }
 
-            $result | Should -BeExactly 'cached penrose output'
+            $result | Should -BeExactly 'cached perlin output'
         }
     }
 }

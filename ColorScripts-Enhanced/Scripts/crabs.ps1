@@ -1,28 +1,13 @@
+# Generated from verified deterministic output by scripts/Convert-DeterministicColorScripts.ps1.
 $esc = [char]27
+$sp = ' '
 
+Write-Host @"
 
-$boldon = "$esc[1m"
-$reset = "$esc[0m"
-
-# Crab design (single column)
-$crab = @(
-    "░░▄█▀▀▀░░░░░░░░▀▀▀█▄  ",
-    "▄███▄▄░░▀▄██▄▀░░▄▄███▄",
-    "▀██▄▄▄▄████████▄▄▄▄██▀",
-    "░░▄▄▄▄██████████▄▄▄▄  ",
-    "░▐▐▀▐▀░▀██████▀░▀▌▀▌▌ "
-)
-
-# 6 colors: Red, Yellow, Cyan, Green, Magenta, Blue
-$colors = @(31, 33, 36, 32, 35, 34)
-
-Write-Host
-for ($row = 0; $row -lt $crab.Count; $row++) {
-    $line = ""
-    for ($col = 0; $col -lt 6; $col++) {
-        $color = $colors[$col]
-        $line += "$esc[${color}m$($crab[$row])$reset "
-    }
-    Write-Host "$boldon$line"
-}
-Write-Host "$reset"
+$esc[1m$esc[31m░░▄█▀▀▀░░░░░░░░▀▀▀█▄  $esc[0m $esc[33m░░▄█▀▀▀░░░░░░░░▀▀▀█▄  $esc[0m $esc[36m░░▄█▀▀▀░░░░░░░░▀▀▀█▄  $esc[0m $esc[32m░░▄█▀▀▀░░░░░░░░▀▀▀█▄  $esc[0m $esc[35m░░▄█▀▀▀░░░░░░░░▀▀▀█▄  $esc[0m $esc[34m░░▄█▀▀▀░░░░░░░░▀▀▀█▄  $esc[0m$sp
+$esc[1m$esc[31m▄███▄▄░░▀▄██▄▀░░▄▄███▄$esc[0m $esc[33m▄███▄▄░░▀▄██▄▀░░▄▄███▄$esc[0m $esc[36m▄███▄▄░░▀▄██▄▀░░▄▄███▄$esc[0m $esc[32m▄███▄▄░░▀▄██▄▀░░▄▄███▄$esc[0m $esc[35m▄███▄▄░░▀▄██▄▀░░▄▄███▄$esc[0m $esc[34m▄███▄▄░░▀▄██▄▀░░▄▄███▄$esc[0m$sp
+$esc[1m$esc[31m▀██▄▄▄▄████████▄▄▄▄██▀$esc[0m $esc[33m▀██▄▄▄▄████████▄▄▄▄██▀$esc[0m $esc[36m▀██▄▄▄▄████████▄▄▄▄██▀$esc[0m $esc[32m▀██▄▄▄▄████████▄▄▄▄██▀$esc[0m $esc[35m▀██▄▄▄▄████████▄▄▄▄██▀$esc[0m $esc[34m▀██▄▄▄▄████████▄▄▄▄██▀$esc[0m$sp
+$esc[1m$esc[31m░░▄▄▄▄██████████▄▄▄▄  $esc[0m $esc[33m░░▄▄▄▄██████████▄▄▄▄  $esc[0m $esc[36m░░▄▄▄▄██████████▄▄▄▄  $esc[0m $esc[32m░░▄▄▄▄██████████▄▄▄▄  $esc[0m $esc[35m░░▄▄▄▄██████████▄▄▄▄  $esc[0m $esc[34m░░▄▄▄▄██████████▄▄▄▄  $esc[0m$sp
+$esc[1m$esc[31m░▐▐▀▐▀░▀██████▀░▀▌▀▌▌ $esc[0m $esc[33m░▐▐▀▐▀░▀██████▀░▀▌▀▌▌ $esc[0m $esc[36m░▐▐▀▐▀░▀██████▀░▀▌▀▌▌ $esc[0m $esc[32m░▐▐▀▐▀░▀██████▀░▀▌▀▌▌ $esc[0m $esc[35m░▐▐▀▐▀░▀██████▀░▀▌▀▌▌ $esc[0m $esc[34m░▐▐▀▐▀░▀██████▀░▀▌▀▌▌ $esc[0m$sp
+$esc[0m
+"@

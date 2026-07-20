@@ -153,6 +153,7 @@ PERFECT FOR
         'README.md'
         'README-Gallery.md'
         'CachePolicy.psd1'
+        'DynamicRenderPolicy.psd1'
         'ScriptMetadata.psd1'
         'Install.ps1'
     )

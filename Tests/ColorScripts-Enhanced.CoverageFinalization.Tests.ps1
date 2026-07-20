@@ -601,7 +601,7 @@
                     if ($action -like 'Build cache for*') { $true } else { $false }
                 }
 
-                New-ColorScriptCache -Name 'aurora-bands' -PassThru
+                New-ColorScriptCache -Name 'Galaxy' -PassThru
             }
 
             $resultArray = @($result)

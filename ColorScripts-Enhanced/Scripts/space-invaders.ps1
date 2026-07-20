@@ -1,39 +1,24 @@
+# Generated from verified deterministic output by scripts/Convert-DeterministicColorScripts.ps1.
 $esc = [char]27
-
-$f1 = "$esc[30m"
-$f2 = "$esc[31m"
-$f3 = "$esc[32m"
-$f4 = "$esc[33m"
-$f5 = "$esc[34m"
-$f6 = "$esc[35m"
-
-$fbright1 = "$esc[90m"
-$fbright2 = "$esc[91m"
-$fbright3 = "$esc[92m"
-$fbright4 = "$esc[93m"
-$fbright5 = "$esc[94m"
-$fbright6 = "$esc[95m"
-
-$bld = "$esc[1m"
-$rst = "$esc[0m"
+$sp = ' '
 
 Write-Host @"
- $f1  ▀▄   ▄▀     $f2 ▄▄▄████▄▄▄    $f3  ▄██▄     $f4  ▀▄   ▄▀     $f5 ▄▄▄████▄▄▄    $f6  ▄██▄  $rst
- $f1 ▄█▀███▀█▄    $f2███▀▀██▀▀███   $f3▄█▀██▀█▄   $f4 ▄█▀███▀█▄    $f5███▀▀██▀▀███   $f6▄█▀██▀█▄$rst
- $f1█▀███████▀█   $f2▀▀███▀▀███▀▀   $f3▀█▀██▀█▀   $f4█▀███████▀█   $f5▀▀███▀▀███▀▀   $f6▀█▀██▀█▀$rst
- $f1▀ ▀▄▄ ▄▄▀ ▀   $f2 ▀█▄ ▀▀ ▄█▀    $f3▀▄    ▄▀   $f4▀ ▀▄▄ ▄▄▀ ▀   $f5 ▀█▄ ▀▀ ▄█▀    $f6▀▄    ▄▀$rst
+ $esc[30m  ▀▄   ▄▀     $esc[31m ▄▄▄████▄▄▄    $esc[32m  ▄██▄     $esc[33m  ▀▄   ▄▀     $esc[34m ▄▄▄████▄▄▄    $esc[35m  ▄██▄  $esc[0m
+ $esc[30m ▄█▀███▀█▄    $esc[31m███▀▀██▀▀███   $esc[32m▄█▀██▀█▄   $esc[33m ▄█▀███▀█▄    $esc[34m███▀▀██▀▀███   $esc[35m▄█▀██▀█▄$esc[0m
+ $esc[30m█▀███████▀█   $esc[31m▀▀███▀▀███▀▀   $esc[32m▀█▀██▀█▀   $esc[33m█▀███████▀█   $esc[34m▀▀███▀▀███▀▀   $esc[35m▀█▀██▀█▀$esc[0m
+ $esc[30m▀ ▀▄▄ ▄▄▀ ▀   $esc[31m ▀█▄ ▀▀ ▄█▀    $esc[32m▀▄    ▄▀   $esc[33m▀ ▀▄▄ ▄▄▀ ▀   $esc[34m ▀█▄ ▀▀ ▄█▀    $esc[35m▀▄    ▄▀$esc[0m
 
- $bld$fbright1▄ ▀▄   ▄▀ ▄   $fbright2 ▄▄▄████▄▄▄    $fbright3  ▄██▄     $fbright4▄ ▀▄   ▄▀ ▄   $fbright5 ▄▄▄████▄▄▄    $fbright6  ▄██▄  $rst
- $bld$fbright1█▄█▀███▀█▄█   $fbright2███▀▀██▀▀███   $fbright3▄█▀██▀█▄   $fbright4█▄█▀███▀█▄█   $fbright5███▀▀██▀▀███   $fbright6▄█▀██▀█▄$rst
- $bld$fbright1▀█████████▀   $fbright2▀▀▀██▀▀██▀▀▀   $fbright3▀▀█▀▀█▀▀   $fbright4▀█████████▀   $fbright5▀▀▀██▀▀██▀▀▀   $fbright6▀▀█▀▀█▀▀$rst
- $bld$fbright1 ▄▀     ▀▄    $fbright2▄▄▀▀ ▀▀ ▀▀▄▄   $fbright3▄▀▄▀▀▄▀▄   $fbright4 ▄▀     ▀▄    $fbright5▄▄▀▀ ▀▀ ▀▀▄▄   $fbright6▄▀▄▀▀▄▀▄$rst
+ $esc[1m$esc[90m▄ ▀▄   ▄▀ ▄   $esc[91m ▄▄▄████▄▄▄    $esc[92m  ▄██▄     $esc[93m▄ ▀▄   ▄▀ ▄   $esc[94m ▄▄▄████▄▄▄    $esc[95m  ▄██▄  $esc[0m
+ $esc[1m$esc[90m█▄█▀███▀█▄█   $esc[91m███▀▀██▀▀███   $esc[92m▄█▀██▀█▄   $esc[93m█▄█▀███▀█▄█   $esc[94m███▀▀██▀▀███   $esc[95m▄█▀██▀█▄$esc[0m
+ $esc[1m$esc[90m▀█████████▀   $esc[91m▀▀▀██▀▀██▀▀▀   $esc[92m▀▀█▀▀█▀▀   $esc[93m▀█████████▀   $esc[94m▀▀▀██▀▀██▀▀▀   $esc[95m▀▀█▀▀█▀▀$esc[0m
+ $esc[1m$esc[90m ▄▀     ▀▄    $esc[91m▄▄▀▀ ▀▀ ▀▀▄▄   $esc[92m▄▀▄▀▀▄▀▄   $esc[93m ▄▀     ▀▄    $esc[94m▄▄▀▀ ▀▀ ▀▀▄▄   $esc[95m▄▀▄▀▀▄▀▄$esc[0m
 
 
-                                     $f7▌$rst
+                                     ▌$esc[0m
 
-                                   $f7▌$rst
+                                   ▌$esc[0m
 
-                              $f7    ▄█▄    $rst
-                              $f7▄█████████▄$rst
-                              $f7▀▀▀▀▀▀▀▀▀▀▀$rst
+                                  ▄█▄    $esc[0m
+                              ▄█████████▄$esc[0m
+                              ▀▀▀▀▀▀▀▀▀▀▀$esc[0m
 "@
