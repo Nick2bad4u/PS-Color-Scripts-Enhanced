@@ -92,7 +92,14 @@ jobs:
                       }
                   }
                   else {
-                      pwsh -NoProfile -File ./scripts/build.ps1 -Version $env:VERSION_OVERRIDE
+                      try {
+                          $normalizedVersionOverride = ([version]$env:VERSION_OVERRIDE).ToString()
+                      }
+                      catch {
+                          throw "Invalid version override '$($env:VERSION_OVERRIDE)': $($_.Exception.Message)"
+                      }
+
+                      pwsh -NoProfile -File ./scripts/build.ps1 -Version $normalizedVersionOverride
                       if ($LASTEXITCODE -ne 0) {
                           throw "Versioned module build failed with exit code $LASTEXITCODE."
                       }
@@ -170,8 +177,17 @@ jobs:
                   $manifest = Test-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1
                   $version = $manifest.Version.ToString()
 
-                  if (-not [string]::IsNullOrWhiteSpace($env:VERSION_OVERRIDE) -and $env:VERSION_OVERRIDE -cne $version) {
-                      throw "Requested version override $($env:VERSION_OVERRIDE) does not match built manifest version $version."
+                  if (-not [string]::IsNullOrWhiteSpace($env:VERSION_OVERRIDE)) {
+                      try {
+                          $requestedVersion = ([version]$env:VERSION_OVERRIDE).ToString()
+                      }
+                      catch {
+                          throw "Invalid version override '$($env:VERSION_OVERRIDE)': $($_.Exception.Message)"
+                      }
+
+                      if ($requestedVersion -cne $version) {
+                          throw "Requested version override $requestedVersion does not match built manifest version $version."
+                      }
                   }
 
                   Write-Host "Module version: $version"
