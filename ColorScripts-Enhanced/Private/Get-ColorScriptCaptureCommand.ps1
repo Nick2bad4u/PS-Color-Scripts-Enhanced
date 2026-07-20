@@ -66,7 +66,11 @@ function Write-Host {
             ''
         }
         else {
-            [string]::Join([string]$Separator, $Object)
+            # Windows PowerShell 5.1 binds comma-separated remaining arguments as one nested
+            # Object[]; PowerShell 7 binds the same call as individual objects. Enumerating once
+            # normalizes both shapes to the native Write-Host result before applying -Separator.
+            $__cseHostObjects = @($Object | ForEach-Object { $_ })
+            [string]::Join([string]$Separator, [object[]]$__cseHostObjects)
         }
         $null = $__cseOutputBuilder.Append($__cseText)
 
