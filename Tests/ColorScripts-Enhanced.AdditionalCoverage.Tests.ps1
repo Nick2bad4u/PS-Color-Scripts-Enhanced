@@ -1540,7 +1540,7 @@ namespace CoverageHost
                 }
             }
 
-            It 'returns empty array when clearing all and ShouldProcess declines' {
+            It 'reports skipped entries when clearing all and ShouldProcess declines' {
                 InModuleScope ColorScripts-Enhanced {
                     Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
 
@@ -1550,7 +1550,8 @@ namespace CoverageHost
 
                 $result = Clear-ColorScriptCache -All -WhatIf
 
-                $result | Should -BeNullOrEmpty
+                $result | Should -HaveCount 1
+                $result[0].Status | Should -Be 'SkippedByUser'
                 $cacheRoot = InModuleScope ColorScripts-Enhanced { $script:CacheDir }
                 Test-Path -LiteralPath (Join-Path -Path $cacheRoot -ChildPath 'all.cache') | Should -BeTrue
             }
@@ -1786,7 +1787,7 @@ namespace CoverageHost
                     $result.Changed | Should -BeTrue
                     $content = Get-Content -LiteralPath $profilePath -Raw
                     $content | Should -Match "Show-ColorScript -Name 'd''angelo'"
-                    $content | Should -Match "Write-Host 'Existing content'`n`n# Added by ColorScripts-Enhanced"
+                    $content | Should -Match "Write-Host 'Existing content'`n`n# BEGIN ColorScripts-Enhanced managed block"
                     $content | Should -Not -Match "`r`n"
                 }
             }

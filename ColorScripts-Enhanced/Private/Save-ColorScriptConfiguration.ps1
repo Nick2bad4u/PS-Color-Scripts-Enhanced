@@ -30,11 +30,7 @@ function Save-ColorScriptConfiguration {
                 return
             }
         }
-        elseif (-not (Test-Path -LiteralPath $script:ConfigurationPath)) {
-        }
-        else {
-        }
     }
 
-    Set-Content -Path $script:ConfigurationPath -Value ($json + [Environment]::NewLine) -Encoding UTF8
+    Invoke-FileWriteAllText -Path $script:ConfigurationPath -Content ($json + [Environment]::NewLine) -Encoding $script:Utf8NoBomEncoding
 }

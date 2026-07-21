@@ -1,4 +1,4 @@
-function Add-ColorScriptProfile {
+﻿function Add-ColorScriptProfile {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseShouldProcessForStateChangingFunctions', '', Justification = 'Function already implements explicit ShouldProcess semantics.')]
     [CmdletBinding(SupportsShouldProcess = $true, HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile')]
     param(
@@ -121,10 +121,6 @@ function Add-ColorScriptProfile {
     }
 
     $profileDirectory = [System.IO.Path]::GetDirectoryName($profileSpec)
-    if (-not [string]::IsNullOrWhiteSpace($profileDirectory) -and -not (Test-Path -LiteralPath $profileDirectory)) {
-        New-Item -ItemType Directory -Path $profileDirectory -Force | Out-Null
-    }
-
     $existingContent = ''
     if (Test-Path -LiteralPath $profileSpec) {
         $existingContent = Get-Content -LiteralPath $profileSpec -Raw
@@ -373,6 +369,7 @@ function Add-ColorScriptProfile {
     }
 
     $snippetLines = [System.Collections.Generic.List[string]]::new()
+    [void]$snippetLines.Add('# BEGIN ColorScripts-Enhanced managed block')
     [void]$snippetLines.Add("# Added by ColorScripts-Enhanced on $timestamp")
     [void]$snippetLines.Add('Import-Module ColorScripts-Enhanced')
 
@@ -396,12 +393,24 @@ function Add-ColorScriptProfile {
         [void]$snippetLines.Add('    Write-Warning "ColorScripts-Enhanced startup snippet failed: $($_.Exception.Message)"')
         [void]$snippetLines.Add('}')
     }
+    [void]$snippetLines.Add('# END ColorScripts-Enhanced managed block')
 
     $snippet = ($snippetLines.ToArray() -join $newline)
     $updatedContent = $existingContent
 
-    $snippetPattern = '(?ms)^# Added by ColorScripts-Enhanced.*?(?:\r?\n){2}'
-    if ($updatedContent -match $snippetPattern) {
+    $managedSnippetPattern = '(?ms)^# BEGIN ColorScripts-Enhanced managed block\s*\r?\n.*?^# END ColorScripts-Enhanced managed block\s*(?:\r?\n)?'
+    $legacySnippetPattern = '(?ms)^# Added by ColorScripts-Enhanced[^\r\n]*(?:\r?\n)Import-Module\s+ColorScripts-Enhanced\b[^\r\n]*(?:(?:\r?\n)(?:Show-ColorScript|scs)\b[^\r\n]*|(?:\r?\n)try\s*\{(?:\r?\n)[ \t]+[^\r\n]*(?:\r?\n)\}(?:\r?\n)catch\s*\{(?:\r?\n)[ \t]+[^\r\n]*(?:\r?\n)\})?(?:\r?\n){0,2}'
+    $existingSnippetPattern = if ($updatedContent -match $managedSnippetPattern) {
+        $managedSnippetPattern
+    }
+    elseif ($updatedContent -match $legacySnippetPattern) {
+        $legacySnippetPattern
+    }
+    else {
+        $null
+    }
+
+    if ($existingSnippetPattern) {
         if (-not $Force) {
             Write-Verbose $script:Messages.ProfileAlreadyContainsSnippet
             return [pscustomobject]@{
@@ -413,7 +422,7 @@ function Add-ColorScriptProfile {
             }
         }
 
-        $updatedContent = [System.Text.RegularExpressions.Regex]::Replace($updatedContent, $snippetPattern, '', 'MultiLine')
+        $updatedContent = [System.Text.RegularExpressions.Regex]::Replace($updatedContent, $existingSnippetPattern, '')
     }
 
     $importPattern = '(?mi)^\s*Import-Module\s+ColorScripts-Enhanced\b.*$'
@@ -431,8 +440,6 @@ function Add-ColorScriptProfile {
 
     if ($Force) {
         $updatedContent = [System.Text.RegularExpressions.Regex]::Replace($updatedContent, $importPattern + '(?:\r?\n)?', '', 'Multiline')
-        $showPattern = '(?mi)^\s*(Show-ColorScript|scs)\b.*(?:\r?\n)?'
-        $updatedContent = [System.Text.RegularExpressions.Regex]::Replace($updatedContent, $showPattern, '', 'Multiline')
     }
 
     if ($PSCmdlet.ShouldProcess($profileSpec, 'Add ColorScripts-Enhanced profile snippet')) {
@@ -445,6 +452,10 @@ function Add-ColorScriptProfile {
         }
 
         try {
+            if (-not [string]::IsNullOrWhiteSpace($profileDirectory) -and -not (Test-Path -LiteralPath $profileDirectory -PathType Container)) {
+                New-Item -ItemType Directory -Path $profileDirectory -Force -ErrorAction Stop | Out-Null
+            }
+
             Invoke-FileWriteAllText -Path $profileSpec -Content ($updatedContent + $newline) -Encoding $script:Utf8NoBomEncoding
         }
         catch {

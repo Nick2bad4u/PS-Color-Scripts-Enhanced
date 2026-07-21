@@ -37,7 +37,10 @@ function Import-LocalizedMessagesFromFile {
     }
 
     if ($FallbackUICulture) {
-        $importParams['FallbackUICulture'] = $FallbackUICulture
+        # Import-LocalizedData accepts one UICulture and performs parent-culture
+        # fallback itself. It has no FallbackUICulture parameter in Windows
+        # PowerShell 5.1 or current PowerShell releases.
+        $importParams['UICulture'] = $FallbackUICulture[0]
     }
 
     $messages = $null

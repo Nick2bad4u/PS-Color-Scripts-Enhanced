@@ -10,6 +10,7 @@ $script:ScriptsPath = $null
 $script:MetadataPath = $null
 $script:MetadataCache = $null
 $script:MetadataLastWriteTime = $null
+$script:MetadataInventoryLastWriteTime = $null
 $script:Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding($false)
 $script:CacheDir = $null
 $script:CacheInitialized = $false
@@ -42,8 +43,16 @@ $script:DefaultConfiguration = @{
     }
 }
 
-$script:IsWindows = $IsWindows
-$script:IsMacOS = $IsMacOS
+if ($PSVersionTable.PSVersion.Major -le 5) {
+    # Windows PowerShell 5.1 only runs on Windows and does not define the
+    # cross-platform automatic variables introduced in PowerShell Core.
+    $script:IsWindows = $true
+    $script:IsMacOS = $false
+}
+else {
+    $script:IsWindows = [bool](Get-Variable -Name IsWindows -ValueOnly -ErrorAction SilentlyContinue)
+    $script:IsMacOS = [bool](Get-Variable -Name IsMacOS -ValueOnly -ErrorAction SilentlyContinue)
+}
 $script:PowerShellMajorVersion = $PSVersionTable.PSVersion.Major
 $script:PokemonNameSetCache = $null
 $script:PokemonNameSetCacheStamp = $null

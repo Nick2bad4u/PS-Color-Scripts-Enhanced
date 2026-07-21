@@ -153,9 +153,9 @@ function Invoke-ColorScriptsEnhancedInstall {
 
         $cacheResults = @()
         if ($BuildCache) {
-            if ($PSCmdlet.ShouldProcess('ColorScripts-Enhanced cache', 'Build caches for all scripts')) {
+            if ($PSCmdlet.ShouldProcess('ColorScripts-Enhanced cache', 'Build caches for eligible scripts')) {
                 Write-Host ''
-                Write-Host 'Building cache for all colorscripts...' -ForegroundColor Cyan
+                Write-Host 'Building cache for eligible colorscripts...' -ForegroundColor Cyan
                 $cacheResults = New-ColorScriptCache -ErrorAction Stop
                 $successCount = ($cacheResults | Where-Object { $_.Status -in @('Updated', 'SkippedUpToDate') }).Count
                 $failureCount = ($cacheResults | Where-Object { $_.Status -eq 'Failed' }).Count

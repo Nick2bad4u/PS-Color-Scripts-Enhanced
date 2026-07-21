@@ -16,7 +16,7 @@ function Reset-ColorScriptConfiguration {
         return
     }
 
-    $configRoot = Get-ColorScriptsConfigurationRoot
+    $configRoot = Get-ColorScriptsConfigurationRoot -NoCreate
     $configPath = Join-Path -Path $configRoot -ChildPath 'config.json'
 
     if ($PSCmdlet.ShouldProcess($configPath, 'Reset ColorScripts-Enhanced configuration')) {

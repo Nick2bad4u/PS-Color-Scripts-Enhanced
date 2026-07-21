@@ -353,43 +353,6 @@ function Clear-ColorScriptCache {
             Skipped = 0
         }
 
-        $overallAllowed = $true
-        if (-not $DryRun) {
-            $overallAllowed = Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $cacheRoot -Action 'Clear cache'
-        }
-
-        if (-not $overallAllowed) {
-            if ($All) {
-                return @()
-            }
-
-            foreach ($name in $targetNames) {
-                $cachePath = Join-Path -Path $cacheRoot -ChildPath ("{0}.cache" -f $name)
-                $exists = Test-Path -LiteralPath $cachePath
-
-                if ($exists) {
-                    $summary.Skipped++
-                    [void]$results.Add([pscustomobject]@{
-                            Name      = $name
-                            CacheFile = $cachePath
-                            Status    = 'SkippedByUser'
-                            Message   = ''
-                        })
-                }
-                else {
-                    $summary.Missing++
-                    [void]$results.Add([pscustomobject]@{
-                            Name      = $name
-                            CacheFile = $cachePath
-                            Status    = 'Missing'
-                            Message   = $script:Messages.CacheFileNotFound
-                        })
-                }
-            }
-
-            return $results.ToArray()
-        }
-
         foreach ($name in $targetNames) {
             $key = $name.ToLowerInvariant()
             $cacheInfo = if ($cacheLookup.ContainsKey($key)) { $cacheLookup[$key] } else { $null }

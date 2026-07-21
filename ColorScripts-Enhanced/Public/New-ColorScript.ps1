@@ -45,10 +45,6 @@ function New-ColorScript {
         Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveOutputPath -f $OutputPath) -ErrorId 'ColorScriptsEnhanced.InvalidOutputPath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $OutputPath -Cmdlet $PSCmdlet
     }
 
-    if (-not (Test-Path -LiteralPath $resolvedOutput)) {
-        New-Item -ItemType Directory -Path $resolvedOutput -Force | Out-Null
-    }
-
     $targetPath = Join-Path -Path $resolvedOutput -ChildPath ("{0}.ps1" -f $scriptName)
 
     if ((Test-Path -LiteralPath $targetPath) -and -not $Force) {
@@ -105,6 +101,10 @@ foreach (`$line in `$ansiArt) {
     }
 
     try {
+        if (-not (Test-Path -LiteralPath $resolvedOutput -PathType Container)) {
+            New-Item -ItemType Directory -Path $resolvedOutput -Force -ErrorAction Stop | Out-Null
+        }
+
         Invoke-FileWriteAllText -Path $targetPath -Content $scriptContent -Encoding $script:Utf8NoBomEncoding
     }
     catch {

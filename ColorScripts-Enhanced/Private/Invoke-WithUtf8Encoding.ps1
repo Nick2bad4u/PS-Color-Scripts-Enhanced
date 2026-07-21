@@ -7,7 +7,7 @@ function Invoke-WithUtf8Encoding {
     $originalEncoding = $null
     $encodingChanged = $false
 
-    if (-not (& $script:IsOutputRedirectedDelegate)) {
+    if (-not (Test-ConsoleOutputRedirected)) {
         try {
             $originalEncoding = & $script:GetConsoleOutputEncodingDelegate
             if ($originalEncoding -and $originalEncoding.WebName -ne 'utf-8') {
@@ -15,10 +15,10 @@ function Invoke-WithUtf8Encoding {
                 $encodingChanged = $true
             }
         }
-        catch [System.IO.IOException] {
+        catch {
             $originalEncoding = $null
             $encodingChanged = $false
-            Write-Verbose 'Console handle unavailable; skipping OutputEncoding change.'
+            Write-Verbose ("Unable to change the console output encoding: {0}" -f $_.Exception.Message)
         }
     }
 
@@ -34,8 +34,8 @@ function Invoke-WithUtf8Encoding {
             try {
                 & $script:SetConsoleOutputEncodingDelegate $originalEncoding
             }
-            catch [System.IO.IOException] {
-                Write-Verbose 'Console handle unavailable; unable to restore OutputEncoding.'
+            catch {
+                Write-Verbose ("Unable to restore the console output encoding: {0}" -f $_.Exception.Message)
             }
         }
     }

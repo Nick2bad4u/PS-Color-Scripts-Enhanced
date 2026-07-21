@@ -6,7 +6,8 @@ function Invoke-ColorScriptProcess {
     .DESCRIPTION
         Statically extractable scripts are returned without execution. Explicitly allowlisted
         bundled dynamic scripts run in an isolated in-process runspace. Unknown or custom scripts
-        retain a child-process boundary because a runspace is not a security boundary.
+        retain a child-process boundary to prevent session-state leakage. Neither a runspace nor a
+        child process is a security sandbox; colorscripts execute with the current user's access.
     #>
     [CmdletBinding()]
     [OutputType([pscustomobject])]

@@ -52,7 +52,7 @@ Describe 'Core behaviors: information, config save, cache versioning, install' {
             }
         }
 
-        It 'does not strip ANSI when -NoAnsiOutput is present and falls back color path when console not preferred' {
+        It 'strips ANSI when -NoAnsiOutput is present and falls back to the information stream' {
             InModuleScope ColorScripts-Enhanced {
                 $esc = [char]27
                 $msg = "${esc}[31mred${esc}[0m"
@@ -65,7 +65,7 @@ Describe 'Core behaviors: information, config save, cache versioning, install' {
                 Should-Invoke Write-RenderedText -Times 0
                 $infoCalls.Count | Should -Be 1
                 ($infoCalls[0].act) | Should -Be 'Continue'
-                ($infoCalls[0].msg) | Should -Match '\x1b\['
+                ($infoCalls[0].msg) | Should -Be 'red'
             }
         }
     }
@@ -76,12 +76,12 @@ Describe 'Core behaviors: information, config save, cache versioning, install' {
                 $config = @{ Cache = @{ Path = $script:CacheDir }; Startup = @{ AutoShowOnImport = $false; ProfileAutoShow = $true; DefaultScript = 'bars' } }
                 $json = ($config | ConvertTo-Json -Depth 6).TrimEnd("`r", "`n")
                 # First invocation (forced) should write
-                Mock -CommandName Set-Content -ModuleName ColorScripts-Enhanced -MockWith { }
+                Mock -CommandName Invoke-FileWriteAllText -ModuleName ColorScripts-Enhanced -MockWith { }
                 Save-ColorScriptConfiguration -Configuration $config -Force
-                Should-Invoke Set-Content -Times 1 -Exactly
+                Should-Invoke Invoke-FileWriteAllText -Times 1 -Exactly
                 # Second invocation without Force and with identical ExistingContent should early-return (no extra calls)
                 Save-ColorScriptConfiguration -Configuration $config -ExistingContent $json
-                Should-Invoke Set-Content -Times 1 -Exactly
+                Should-Invoke Invoke-FileWriteAllText -Times 1 -Exactly
             }
         }
     }

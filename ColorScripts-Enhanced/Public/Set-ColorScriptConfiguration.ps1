@@ -22,7 +22,9 @@ function Set-ColorScriptConfiguration {
         return
     }
 
-    $data = Get-ConfigurationDataInternal
+    $data = Copy-ColorScriptHashtable (Get-ConfigurationDataInternal)
+    $cacheDirectoryToCreate = $null
+    $cachePathChanged = $false
 
     if ($PSBoundParameters.ContainsKey('AutoShowOnImport')) {
         $data.Startup.AutoShowOnImport = [bool]$AutoShowOnImport
@@ -43,17 +45,13 @@ function Set-ColorScriptConfiguration {
             }
 
             if (-not (Test-Path -LiteralPath $resolvedCache)) {
-                New-Item -ItemType Directory -Path $resolvedCache -Force | Out-Null
+                $cacheDirectoryToCreate = $resolvedCache
             }
 
             $data.Cache.Path = $resolvedCache
         }
 
-        $script:CacheInitialized = $false
-        $script:CacheDir = $null
-        $script:CacheValidationPerformed = $false
-        $script:CacheValidationManualOverride = $false
-        Reset-CachedOutputMemory
+        $cachePathChanged = $true
     }
 
     if ($PSBoundParameters.ContainsKey('DefaultScript')) {
@@ -65,11 +63,24 @@ function Set-ColorScriptConfiguration {
         }
     }
 
-    $configRoot = Get-ColorScriptsConfigurationRoot
+    $configRoot = Get-ColorScriptsConfigurationRoot -NoCreate
     $configPath = Join-Path -Path $configRoot -ChildPath 'config.json'
 
     if ($PSCmdlet.ShouldProcess($configPath, 'Update ColorScripts-Enhanced configuration')) {
+        if ($cacheDirectoryToCreate) {
+            New-Item -ItemType Directory -Path $cacheDirectoryToCreate -Force -ErrorAction Stop | Out-Null
+        }
+
         Save-ColorScriptConfiguration -Configuration $data -Force
+        $script:ConfigurationData = $data
+
+        if ($cachePathChanged) {
+            $script:CacheInitialized = $false
+            $script:CacheDir = $null
+            $script:CacheValidationPerformed = $false
+            $script:CacheValidationManualOverride = $false
+            Reset-CachedOutputMemory
+        }
     }
 
     if ($PassThru) {

@@ -280,7 +280,8 @@ Describe 'Save and initialize configuration' {
             Should-Invoke -CommandName Write-Warning -ModuleName ColorScripts-Enhanced -Times 1
             Test-Path $configPath | Should -BeTrue
             $content = Get-Content -Path $configPath -Raw
-            $content | Should -Match 'AutoShowOnImport'
+            $content.Trim() | Should -Be '{not-json'
+            $script:ConfigurationData.Startup.AutoShowOnImport | Should -BeFalse
 
             Remove-Mock -CommandName Get-ColorScriptsConfigurationRoot -ModuleName ColorScripts-Enhanced
             Remove-Mock -CommandName Write-Warning -ModuleName ColorScripts-Enhanced

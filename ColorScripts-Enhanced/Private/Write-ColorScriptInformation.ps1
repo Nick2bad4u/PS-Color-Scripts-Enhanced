@@ -23,9 +23,6 @@ function Write-ColorScriptInformation {
     }
 
     $sanitizedOutput = Remove-ColorScriptAnsiSequence -Text $output
-    if ($NoAnsiOutput.IsPresent) {
-        $sanitizedOutput = $output
-    }
 
     $consoleColor = $null
     if (-not [string]::IsNullOrWhiteSpace($Color)) {

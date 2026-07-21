@@ -333,7 +333,7 @@
                 $script:__VerboseMessages.ToArray()
             }
 
-            $messages | Should -Contain 'Console handle unavailable; skipping OutputEncoding change.'
+            $messages | Should -Contain 'Unable to change the console output encoding: unavailable'
         }
 
         It 'logs verbose when console encoding cannot be restored' {
@@ -360,7 +360,7 @@
                 $script:__VerboseMessages.ToArray()
             }
 
-            $messages | Should -Contain 'Console handle unavailable; unable to restore OutputEncoding.'
+            $messages | Should -Contain 'Unable to restore the console output encoding: restore failure'
         }
     }
 

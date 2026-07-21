@@ -5,4 +5,10 @@ function Reset-ScriptInventoryCache {
         $script:ScriptInventoryInitialized = $false
         $script:ScriptInventoryRecords = $null
     }
+
+    Invoke-ModuleSynchronized $script:MetadataSyncRoot {
+        $script:MetadataCache = $null
+        $script:MetadataLastWriteTime = $null
+        $script:MetadataInventoryLastWriteTime = $null
+    }
 }

@@ -18,7 +18,7 @@ function Export-ColorScriptMetadata {
     https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata
     #>
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseSingularNouns', '', Justification = 'Metadata is a collective noun representing the exported dataset.')]
-    [OutputType([pscustomobject])]
+    [OutputType([pscustomobject[]], [object[]])]
     [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium', HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata')]
     param(
         [Alias('help')]
@@ -44,57 +44,57 @@ function Export-ColorScriptMetadata {
     }
 
     $records = Get-ColorScriptEntry | Sort-Object Name
-    Initialize-CacheDirectory
+    if ($IncludeCacheInfo) {
+        Initialize-CacheDirectory
+    }
 
-    $payload = @()
-
-    foreach ($record in $records) {
-        $entry = [ordered]@{
-            Name        = $record.Name
-            Category    = $record.Category
-            Categories  = [string[]]$record.Categories
-            Tags        = [string[]]$record.Tags
-            Description = $record.Description
-        }
-
-        if ($IncludeFileInfo) {
-            try {
-                $fileInfo = Get-Item -LiteralPath $record.Path -ErrorAction Stop
-                $entry['ScriptPath'] = $fileInfo.FullName
-                $entry['ScriptSizeBytes'] = [int64]$fileInfo.Length
-                $entry['ScriptLastWriteTimeUtc'] = $fileInfo.LastWriteTimeUtc
+    [pscustomobject[]]$payload = @(foreach ($record in $records) {
+            $entry = [ordered]@{
+                Name        = $record.Name
+                Category    = $record.Category
+                Categories  = [string[]]$record.Categories
+                Tags        = [string[]]$record.Tags
+                Description = $record.Description
             }
-            catch {
-                $entry['ScriptPath'] = $record.Path
-                $entry['ScriptSizeBytes'] = $null
-                $entry['ScriptLastWriteTimeUtc'] = $null
-                Write-Verbose ($script:Messages.UnableToRetrieveFileInfo -f $record.Name, $_.Exception.Message)
-            }
-        }
 
-        if ($IncludeCacheInfo) {
-            $cacheFile = if ($script:CacheDir) { Join-Path -Path $script:CacheDir -ChildPath "$( $record.Name ).cache" } else { $null }
-            $cacheExists = $false
-            $cacheTimestamp = $null
-
-            if ($cacheFile -and (Test-Path -LiteralPath $cacheFile)) {
-                $cacheExists = $true
+            if ($IncludeFileInfo) {
                 try {
-                    $cacheInfo = Get-Item -LiteralPath $cacheFile -ErrorAction Stop
-                    $cacheTimestamp = $cacheInfo.LastWriteTimeUtc
+                    $fileInfo = Get-Item -LiteralPath $record.Path -ErrorAction Stop
+                    $entry['ScriptPath'] = $fileInfo.FullName
+                    $entry['ScriptSizeBytes'] = [int64]$fileInfo.Length
+                    $entry['ScriptLastWriteTimeUtc'] = $fileInfo.LastWriteTimeUtc
                 }
                 catch {
-                    Write-Verbose ($script:Messages.UnableToReadCacheInfo -f $record.Name, $_.Exception.Message)
+                    $entry['ScriptPath'] = $record.Path
+                    $entry['ScriptSizeBytes'] = $null
+                    $entry['ScriptLastWriteTimeUtc'] = $null
+                    Write-Verbose ($script:Messages.UnableToRetrieveFileInfo -f $record.Name, $_.Exception.Message)
                 }
             }
 
-            $entry['CachePath'] = $cacheFile
-            $entry['CacheExists'] = $cacheExists
-            $entry['CacheLastWriteTimeUtc'] = $cacheTimestamp
-        }
+            if ($IncludeCacheInfo) {
+                $cacheFile = if ($script:CacheDir) { Join-Path -Path $script:CacheDir -ChildPath "$( $record.Name ).cache" } else { $null }
+                $cacheExists = $false
+                $cacheTimestamp = $null
 
-        $payload += [pscustomobject]$entry
-    }
+                if ($cacheFile -and (Test-Path -LiteralPath $cacheFile)) {
+                    $cacheExists = $true
+                    try {
+                        $cacheInfo = Get-Item -LiteralPath $cacheFile -ErrorAction Stop
+                        $cacheTimestamp = $cacheInfo.LastWriteTimeUtc
+                    }
+                    catch {
+                        Write-Verbose ($script:Messages.UnableToReadCacheInfo -f $record.Name, $_.Exception.Message)
+                    }
+                }
+
+                $entry['CachePath'] = $cacheFile
+                $entry['CacheExists'] = $cacheExists
+                $entry['CacheLastWriteTimeUtc'] = $cacheTimestamp
+            }
+
+            [pscustomobject]$entry
+        })
 
     if ($Path) {
         $resolvedPath = Resolve-CachePath -Path $Path

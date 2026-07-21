@@ -15,11 +15,16 @@ function ConvertTo-HashtableInternal {
         }
 
         if ($InputObject -is [System.Collections.IEnumerable] -and $InputObject -isnot [string]) {
-            $collection = @()
+            $collection = New-Object 'System.Collections.Generic.List[object]'
             foreach ($item in $InputObject) {
-                $collection += ConvertTo-HashtableInternal $item
+                $convertedItem = ConvertTo-HashtableInternal $item
+                $null = $collection.Add($convertedItem)
             }
-            return $collection
+
+            # Preserve nested JSON array boundaries instead of allowing PowerShell's pipeline
+            # enumeration to flatten every child collection into its parent.
+            Write-Output -NoEnumerate -InputObject $collection.ToArray()
+            return
         }
 
         if ($InputObject -is [PSCustomObject]) {

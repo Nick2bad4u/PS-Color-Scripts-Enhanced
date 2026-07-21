@@ -71,11 +71,12 @@ function Get-ColorScriptsConfigurationRoot {
                 catch {
                     Write-Verbose ("Configuration root probe path normalization failed for '{0}': {1}" -f $resolvedCandidate, $_.Exception.Message)
                 }
-
-                # Important: do not cache $script:ConfigurationRoot in probe mode.
-                # Tests (and some callers) use transient temp roots which may be deleted later.
-                return $resolvedCandidate
             }
+
+            # Preserve candidate priority even when the preferred location does not yet
+            # exist. Probe mode reports where a later approved write will occur without
+            # creating or caching the directory.
+            return $resolvedCandidate
         }
 
         return $null

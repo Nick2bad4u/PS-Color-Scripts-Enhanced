@@ -1,12 +1,12 @@
 function Invoke-ColorScriptChildProcess {
     <#
     .SYNOPSIS
-        Executes an untrusted or custom colorscript in a separate PowerShell process.
+        Executes an unknown or custom colorscript in a separate PowerShell process.
 
     .DESCRIPTION
-        A process boundary remains the safe fallback for scripts outside the bundled dynamic
-        policy. Bundled static scripts never reach this function, and explicitly trusted dynamic
-        scripts use an isolated in-process runspace instead.
+        A process boundary prevents colorscript functions, variables, aliases, and location
+        changes from leaking into the caller. It is not a security sandbox: the child process has
+        the same operating-system permissions as the current user.
     #>
     [CmdletBinding()]
     param(
@@ -81,9 +81,27 @@ function Invoke-ColorScriptChildProcess {
         $process.StartInfo = $startInfo
         $null = $process.Start()
 
-        $output = $process.StandardOutput.ReadToEnd()
-        $errorOutput = $process.StandardError.ReadToEnd()
+        # Drain both redirected streams concurrently. Reading one stream to completion before the
+        # other can deadlock when a renderer fills the second process pipe.
+        $supportsAsyncRead = (
+            $process.StandardOutput.PSObject.Methods['ReadToEndAsync'] -and
+            $process.StandardError.PSObject.Methods['ReadToEndAsync'])
+        if ($supportsAsyncRead) {
+            $outputTask = $process.StandardOutput.ReadToEndAsync()
+            $errorTask = $process.StandardError.ReadToEndAsync()
+        }
+
         $process.WaitForExit()
+
+        if ($supportsAsyncRead) {
+            $output = $outputTask.GetAwaiter().GetResult()
+            $errorOutput = $errorTask.GetAwaiter().GetResult()
+        }
+        else {
+            # Test doubles and older custom stream implementations may expose only ReadToEnd.
+            $output = $process.StandardOutput.ReadToEnd()
+            $errorOutput = $process.StandardError.ReadToEnd()
+        }
 
         $result.ExitCode = $process.ExitCode
         $result.StdOut = $output

@@ -53,7 +53,7 @@ Describe 'Write-ColorScriptInformation coverage' {
             Write-ColorScriptInformation -Message "`e[32mGreen`e[0m" -NoAnsiOutput
 
             Should-Invoke Write-RenderedText -Times 0 -Exactly
-            $script:NI.Message | Should -Be "`e[32mGreen`e[0m"
+            $script:NI.Message | Should -Be 'sanitized'
             $script:NI.Action | Should -Be 'Continue'
             Remove-Variable -Name NI -Scope Script -ErrorAction SilentlyContinue
         }

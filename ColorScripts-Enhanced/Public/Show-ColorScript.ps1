@@ -499,6 +499,16 @@
                                     $cacheResult = Build-ScriptCache -ScriptPath $script.Path
                                     $renderedOutput = $cacheResult.StdOut
 
+                                    if (-not $cacheResult.Success) {
+                                        $cacheError = if ($cacheResult.StdErr) {
+                                            $cacheResult.StdErr.Trim()
+                                        }
+                                        else {
+                                            $script:Messages.CacheBuildGenericFailure
+                                        }
+                                        Write-Warning ($script:Messages.CacheBuildFailedForScript -f $script.Name, $cacheError)
+                                    }
+
                                     if ($cacheResult -and $cacheResult.Success -and $script:CacheDir) {
                                         try {
                                             $metadataFileName = 'cache-metadata-v{0}.json' -f $script:CacheFormatVersion
@@ -513,6 +523,15 @@
                             else {
                                 $executionResult = Invoke-ColorScriptProcess -ScriptPath $script.Path
                                 $renderedOutput = $executionResult.StdOut
+                                if (-not $executionResult.Success) {
+                                    $executionError = if ($executionResult.StdErr) {
+                                        $executionResult.StdErr.Trim()
+                                    }
+                                    else {
+                                        $script:Messages.ScriptExitedWithCode -f $executionResult.ExitCode
+                                    }
+                                    Write-Warning ($script:Messages.FailedToExecuteColorscript -f $script.Name, $executionError)
+                                }
                             }
 
                             if ($renderedOutput) {
@@ -642,8 +661,7 @@
                                 $selection = $orderedMatches | Select-Object -First 1
                             }
                             elseif ($useRandom) {
-                                $rng = [System.Random]::new()
-                                $index = $rng.Next($records.Count)
+                                $index = Get-Random -Minimum 0 -Maximum $records.Count
                                 $selection = $records[$index]
                             }
                             else {

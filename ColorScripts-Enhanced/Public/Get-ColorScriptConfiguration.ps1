@@ -16,18 +16,37 @@ function Get-ColorScriptConfiguration {
 
     $data = Copy-ColorScriptHashtable (Get-ConfigurationDataInternal)
 
-    try {
-        Initialize-CacheDirectory
-    }
-    catch {
-        Write-Verbose ("Unable to resolve the effective cache path: {0}" -f $_.Exception.Message)
-    }
-
     if (-not $data.Cache) {
         $data.Cache = @{}
     }
-    $data.Cache.EffectivePath = $script:CacheDir
+
+    $effectiveCachePath = $script:CacheDir
+    if (-not $effectiveCachePath) {
+        $candidatePath = if (-not [string]::IsNullOrWhiteSpace($env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH)) {
+            $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
+        }
+        elseif ($data.Cache.Path) {
+            $data.Cache.Path
+        }
+        elseif ($script:IsWindows -and $env:APPDATA) {
+            Join-Path -Path (Join-Path -Path $env:APPDATA -ChildPath 'ColorScripts-Enhanced') -ChildPath 'cache'
+        }
+        elseif ($script:IsMacOS -and $HOME) {
+            $macApplicationSupport = Join-Path -Path (Join-Path -Path $HOME -ChildPath 'Library') -ChildPath 'Application Support'
+            Join-Path -Path (Join-Path -Path $macApplicationSupport -ChildPath 'ColorScripts-Enhanced') -ChildPath 'cache'
+        }
+        elseif ($HOME) {
+            $xdgCache = if ($env:XDG_CACHE_HOME) { $env:XDG_CACHE_HOME } else { Join-Path -Path $HOME -ChildPath '.cache' }
+            Join-Path -Path $xdgCache -ChildPath 'ColorScripts-Enhanced'
+        }
+        else {
+            Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath 'ColorScripts-Enhanced'
+        }
+
+        $effectiveCachePath = Resolve-CachePath -Path $candidatePath
+    }
+
+    $data.Cache.EffectivePath = $effectiveCachePath
 
     return $data
 }
-

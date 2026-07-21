@@ -1,4 +1,4 @@
-function Get-ColorScriptMetadataTableInternal {
+﻿function Get-ColorScriptMetadataTableInternal {
     $currentTimestamp = $null
     if (Test-Path $script:MetadataPath) {
         try {
@@ -9,7 +9,21 @@ function Get-ColorScriptMetadataTableInternal {
         }
     }
 
-    if ($script:MetadataCache -and $script:MetadataLastWriteTime -and $currentTimestamp -eq $script:MetadataLastWriteTime) {
+    $currentInventoryTimestamp = $null
+    try {
+        $currentInventoryTimestamp = & $script:DirectoryGetLastWriteTimeUtcDelegate $script:ScriptsPath
+        if ($currentInventoryTimestamp -eq [datetime]::MinValue) {
+            $currentInventoryTimestamp = $null
+        }
+    }
+    catch {
+        Write-Verbose ("Unable to determine colorscript inventory timestamp: {0}" -f $_.Exception.Message)
+    }
+
+    if ($script:MetadataCache -and
+        $script:MetadataLastWriteTime -and
+        $currentTimestamp -eq $script:MetadataLastWriteTime -and
+        $currentInventoryTimestamp -eq $script:MetadataInventoryLastWriteTime) {
         return $script:MetadataCache
     }
 
@@ -58,7 +72,9 @@ function Get-ColorScriptMetadataTableInternal {
         if ($binaryCachePath -and (Test-Path -LiteralPath $binaryCachePath)) {
             try {
                 $cacheFileInfo = Get-Item -LiteralPath $binaryCachePath -ErrorAction Stop
-                if ($cacheFileInfo.LastWriteTimeUtc -ge $currentTimestamp) {
+                $metadataIsCurrent = -not $currentTimestamp -or $cacheFileInfo.LastWriteTimeUtc -ge $currentTimestamp
+                $inventoryIsCurrent = -not $currentInventoryTimestamp -or $cacheFileInfo.LastWriteTimeUtc -ge $currentInventoryTimestamp
+                if ($metadataIsCurrent -and $inventoryIsCurrent) {
                     $jsonData = Get-Content -LiteralPath $binaryCachePath -Raw -ErrorAction Stop
                     $cachedHash = ConvertFrom-JsonToHashtable -InputObject $jsonData
 
@@ -69,6 +85,7 @@ function Get-ColorScriptMetadataTableInternal {
 
                     $script:MetadataCache = $loadedStore
                     $script:MetadataLastWriteTime = $currentTimestamp
+                    $script:MetadataInventoryLastWriteTime = $currentInventoryTimestamp
                     Write-Verbose 'Loaded metadata from JSON cache (fast path)'
                     return $script:MetadataCache
                 }
@@ -492,11 +509,12 @@ function Get-ColorScriptMetadataTableInternal {
 
     $script:MetadataCache = $store
     $script:MetadataLastWriteTime = $currentTimestamp
+    $script:MetadataInventoryLastWriteTime = $currentInventoryTimestamp
 
     if ($binaryCachePath) {
         try {
             $jsonData = $store | ConvertTo-Json -Depth 10 -Compress
-            Set-Content -Path $binaryCachePath -Value $jsonData -Encoding UTF8 -ErrorAction Stop
+            Invoke-FileWriteAllText -Path $binaryCachePath -Content $jsonData -Encoding $script:Utf8NoBomEncoding
             Write-Verbose 'Saved metadata to JSON cache for faster future loads'
         }
         catch {

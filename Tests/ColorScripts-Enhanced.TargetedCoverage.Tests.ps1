@@ -235,6 +235,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
                 $originalIsRedirected = $script:IsOutputRedirectedDelegate
                 $originalGetEncoding = $script:GetConsoleOutputEncodingDelegate
                 $originalSetEncoding = $script:SetConsoleOutputEncodingDelegate
+                $originalConsoleEncoding = [Console]::OutputEncoding
 
                 try {
                     $script:IsOutputRedirectedDelegate = { $false }
@@ -258,6 +259,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
                     $setEncodings | Should -Contain ([Console]::OutputEncoding.WebName)
                 }
                 finally {
+                    [Console]::OutputEncoding = $originalConsoleEncoding
                     $script:IsOutputRedirectedDelegate = $originalIsRedirected
                     $script:GetConsoleOutputEncodingDelegate = $originalGetEncoding
                     $script:SetConsoleOutputEncodingDelegate = $originalSetEncoding
@@ -425,7 +427,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
             Test-Path -LiteralPath $cachePath | Should -BeTrue
         }
 
-        It 'returns empty array when clearing all with WhatIf' {
+        It 'reports skipped entries when clearing all with WhatIf' {
             InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
                 Set-Content -LiteralPath (Join-Path -Path $script:CacheDir -ChildPath 'all.cache') -Value 'cached' -Encoding UTF8
@@ -433,7 +435,8 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
 
             $result = Clear-ColorScriptCache -All -WhatIf
 
-            $result | Should -BeNullOrEmpty
+            $result | Should -HaveCount 1
+            $result[0].Status | Should -Be 'SkippedByUser'
         }
     }
 

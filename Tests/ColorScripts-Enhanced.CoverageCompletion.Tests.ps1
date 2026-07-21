@@ -409,7 +409,7 @@ Describe 'ColorScripts-Enhanced coverage completion' {
                 }
             }
 
-            ($messages | Where-Object { $_ -like 'Console handle unavailable; skipping OutputEncoding change*' }) | Should -Not -BeNullOrEmpty
+            ($messages | Where-Object { $_ -like 'Unable to change the console output encoding: no console*' }) | Should -Not -BeNullOrEmpty
         }
 
         It 'logs verbose when output encoding cannot be restored' {
@@ -458,7 +458,7 @@ Describe 'ColorScripts-Enhanced coverage completion' {
                 }
             }
             $messages.Calls | Should -Contain 'restore'
-            ($messages.Messages | Where-Object { $_ -like 'Console handle unavailable; unable to restore OutputEncoding*' }) | Should -Not -BeNullOrEmpty
+            ($messages.Messages | Where-Object { $_ -like 'Unable to restore the console output encoding: restore failure*' }) | Should -Not -BeNullOrEmpty
         }
     }
 
@@ -835,8 +835,7 @@ Describe 'ColorScripts-Enhanced coverage completion' {
                     $script:CacheInitialized = $true
                     $script:ShouldProcessEvaluator = {
                         param($cmdlet, $target, $action)
-                        if ($action -eq 'Clear cache') { return $false }
-                        if ($action -like 'Clear * cache file(s)') { return $true }
+                        if ($action -eq 'Clear colorscript cache entry') { return $false }
                         $cmdlet.ShouldProcess($target, $action)
                     }
 
