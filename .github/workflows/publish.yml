@@ -2,6 +2,8 @@ name: Publish
 
 env:
     PESTER_VERSION: "6.0.1"
+    PSSCRIPTANALYZER_VERSION: "1.25.0"
+    PLATYPS_VERSION: "1.0.2"
 
 on:
     workflow_dispatch:
@@ -65,8 +67,11 @@ jobs:
                   if (-not (Get-Module -ListAvailable -Name Pester | Where-Object Version -EQ $env:PESTER_VERSION)) {
                       Install-Module -Name Pester -RequiredVersion $env:PESTER_VERSION -Force -SkipPublisherCheck
                   }
-                  if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
-                      Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
+                  if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer | Where-Object Version -EQ $env:PSSCRIPTANALYZER_VERSION)) {
+                      Install-Module -Name PSScriptAnalyzer -RequiredVersion $env:PSSCRIPTANALYZER_VERSION -Force -SkipPublisherCheck
+                  }
+                  if (-not (Get-Module -ListAvailable -Name Microsoft.PowerShell.PlatyPS | Where-Object Version -EQ $env:PLATYPS_VERSION)) {
+                      Install-Module -Name Microsoft.PowerShell.PlatyPS -RequiredVersion $env:PLATYPS_VERSION -Force -SkipPublisherCheck
                   }
               shell: pwsh
 
