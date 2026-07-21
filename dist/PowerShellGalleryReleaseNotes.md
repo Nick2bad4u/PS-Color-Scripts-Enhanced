@@ -75,6 +75,12 @@ Make changelog validation tag-aware and document the reproducible versioned rele
 ### 👷 CI/CD
 
 
+- [`fd19bd8`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/fd19bd84c6df97841616d6dec764e07bc54dbad2 "Diff: 1 file, +22 | -0") — 👷 [ci] Install ANSI runtime dependencies for Pester <sub><em>(1 file, +22, -0)</em></sub>
+
+Install the locked production-only Node.js dependency set in the Windows PowerShell and cross-platform PowerShell jobs. This lets repository-script tests execute the ANSI converter in the same clean environment used by GitHub Actions.
+
+
+
 - [`250f6d8`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/250f6d87b75189581a3b03823b4c1f38bd7e80a5 "Diff: 19 files, +1287 | -3595") — 👷 [ci] Make release validation deterministic <sub><em>(19 files, +1287, -3595)</em></sub>
 
 👷 [ci] Normalize versioned builds across release triggers, reuse the repository analyzer entry point, and keep verification non-mutating.
