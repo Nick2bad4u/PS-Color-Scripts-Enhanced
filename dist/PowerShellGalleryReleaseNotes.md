@@ -37,6 +37,17 @@
 
 
 
+### 🛡️ Security
+
+
+- [`a1682f0`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/a1682f0b0d4d847b75320910887d045c1bcb1fc7 "Diff: 6 files, +179 | -534") — 🔒 [security] Remove vulnerable build dependencies <sub><em>(6 files, +179, -534)</em></sub>
+
+Replace the unmaintained frontmatter validator and enforce patched adm-zip and esbuild versions so a clean npm audit reports zero findings.
+
+Scope publish write access to the release job and replace flagged SAUCE padding regexes with bounded linear parsing plus regression coverage.
+
+
+
 ### 📝 Documentation
 
 
