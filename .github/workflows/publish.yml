@@ -28,7 +28,7 @@ on:
                 required: false
 
 permissions:
-    contents: write
+    contents: read
 
 concurrency:
     group: publish-${{ github.sha }}
@@ -37,6 +37,8 @@ concurrency:
 jobs:
     validate-and-publish:
         name: Validate and Publish
+        permissions:
+            contents: write
         runs-on: windows-latest
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

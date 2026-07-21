@@ -352,7 +352,7 @@ const remarkConfig = {
         // Frontmatter validation
         /** @type {[string, FrontmatterSchemaOptions]} */
         [
-            "remark-lint-frontmatter-schema",
+            "remark-lint-frontmatter-validation",
             {
                 schemas: {
                     "config/schemas/doc-frontmatter.schema.json": [

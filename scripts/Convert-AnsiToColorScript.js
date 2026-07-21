@@ -267,6 +267,22 @@ function diffAttrs(prev, next) {
 }
 
 /**
+ * Remove SAUCE field padding without deleting embedded null bytes from a
+ * malformed-but-readable record.
+ *
+ * @param {string} value
+ *
+ * @returns {string}
+ */
+function trimTrailingNulls(value) {
+    let end = value.length;
+    while (end > 0 && value.charCodeAt(end - 1) === 0) {
+        end -= 1;
+    }
+    return value.slice(0, end);
+}
+
+/**
  * @param {Buffer} buffer
  *
  * @returns {SauceRecord}
@@ -274,21 +290,15 @@ function diffAttrs(prev, next) {
 function parseSauceRecord(buffer) {
     return {
         version: buffer.subarray(5, 7).toString("ascii"),
-        title: buffer
-            .subarray(7, 42)
-            .toString("ascii")
-            .replace(/\0+$/, "")
-            .trim(),
-        author: buffer
-            .subarray(42, 62)
-            .toString("ascii")
-            .replace(/\0+$/, "")
-            .trim(),
-        group: buffer
-            .subarray(62, 82)
-            .toString("ascii")
-            .replace(/\0+$/, "")
-            .trim(),
+        title: trimTrailingNulls(
+            buffer.subarray(7, 42).toString("ascii")
+        ).trim(),
+        author: trimTrailingNulls(
+            buffer.subarray(42, 62).toString("ascii")
+        ).trim(),
+        group: trimTrailingNulls(
+            buffer.subarray(62, 82).toString("ascii")
+        ).trim(),
         date: buffer.subarray(82, 90).toString("ascii"),
         fileSize: buffer.readUInt32LE(90),
         dataType: buffer.readUInt8(94),

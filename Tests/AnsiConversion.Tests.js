@@ -225,6 +225,7 @@ test("stripSauce removes EOF before a valid COMNT block", () => {
     comment.write("COMNT", 0, "ascii");
     const sauce = Buffer.alloc(128);
     sauce.write("SAUCE00", 0, "ascii");
+    sauce.write("A\0B", 7, "ascii");
     sauce.writeUInt32LE(1, 90);
     sauce.writeUInt8(1, 104);
 
@@ -232,6 +233,7 @@ test("stripSauce removes EOF before a valid COMNT block", () => {
 
     assert.deepEqual([...result.buffer], [0x41]);
     assert.equal(result.sauce?.comments, 1);
+    assert.equal(result.sauce?.title, "A\0B");
 });
 
 test("source metadata comments sanitize controls and preserve SAUCE provenance", () => {
