@@ -37,8 +37,8 @@ If applicable, add screenshots or paste terminal output to help explain your pro
 ### Environment
 
 - **OS**: [e.g., Windows 11, Ubuntu 22.04, macOS 14]
-- **PowerShell Version**: [e.g., 5.1, 7.4, 7.5] (Run `$PSVersionTable.PSVersion` to check)
-- **Module Version**: [e.g., 2025.10.09.2330] (Run `(Get-Module ColorScripts-Enhanced).Version` to check)
+- **PowerShell Version**: [paste the exact 5.1 or 7.x value] (Run `$PSVersionTable.PSVersion` to check)
+- **Module Version**: [paste the exact `YYYY.M.D.Revision` value] (Run `(Get-Module ColorScripts-Enhanced).Version` to check)
 - **Terminal**: [e.g., Windows Terminal, VS Code, PowerShell ISE, iTerm2]
 
 ### Colorscript Name (if applicable)

@@ -1,57 +1,90 @@
 <#
 .SYNOPSIS
-    Build script for ColorScripts-Enhanced PowerShell module.
+    Validate and assemble the ColorScripts-Enhanced module.
 
 .DESCRIPTION
-    Generates a module manifest with version information and copies required files.
-    Supports both automatic timestamp-based versioning and manual semantic versioning.
+    Treats the checked-in module manifest as the authoritative package metadata,
+    refreshes documentation counts, copies repository documentation into the
+    module package, optionally updates ModuleVersion, and validates the result.
+    The build never installs dependencies or changes execution policy.
 
 .PARAMETER Version
-    Module version. If not specified, uses timestamp format (yyyy.MM.dd.HHmm).
-    Can be semantic version like "1.0.0" or timestamp format.
+    Optional module version to write to the checked-in manifest. When omitted,
+    the existing ModuleVersion is preserved.
 
 .PARAMETER SkipReadme
-    Skip copying README.md to the module directory.
+    Skip copying the root README and documentation tree into the module folder.
 
 .PARAMETER SkipHelp
-    Skip building help files for the module.
+    Skip the external-help generation step.
 
 .EXAMPLE
-    .\build.ps1
-    Builds with automatic timestamp version.
+    .\scripts\build.ps1 -SkipHelp
+    Builds the module without changing its version or generating external help.
 
 .EXAMPLE
-    .\build.ps1 -Version "1.0.0"
-    Builds with specific semantic version.
-
-.EXAMPLE
-    .\build.ps1 -Version "2025.10.09.1622" -Verbose
-    Builds with specific timestamp version and verbose output.
+    .\scripts\build.ps1 -Version 1.2.3
+    Updates only ModuleVersion, then performs the normal build validation.
 #>
+
+#Requires -Version 5.1
 
 [CmdletBinding()]
 param(
     [Parameter(Position = 0)]
-    [ValidatePattern('^\d+\.\d+(\.\d+)?(\.\d+)?$')]
-    [string]$Version = (Get-Date).ToString('yyyy.MM.dd.HHmm'),
+    [ValidatePattern('^\d+\.\d+(?:\.\d+)?(?:\.\d+)?$')]
+    [string]$Version,
 
+    [Parameter()]
     [switch]$SkipReadme,
 
+    [Parameter()]
     [switch]$SkipHelp
 )
 
+Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
+$utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+$utf8WithBom = New-Object System.Text.UTF8Encoding($true)
+$repoRoot = Split-Path -Path $PSScriptRoot -Parent
+$modulePath = Join-Path -Path $repoRoot -ChildPath 'ColorScripts-Enhanced'
+$manifestPath = Join-Path -Path $modulePath -ChildPath 'ColorScripts-Enhanced.psd1'
+$scriptsPath = Join-Path -Path $modulePath -ChildPath 'Scripts'
+
+function Write-TextFileUtf8NoBom {
+    param(
+        [Parameter(Mandatory)]
+        [string]$LiteralPath,
+
+        [Parameter(Mandatory)]
+        [AllowEmptyString()]
+        [string]$Content
+    )
+
+    [System.IO.File]::WriteAllText($LiteralPath, $Content, $utf8NoBom)
+}
+
+function Write-TextFileUtf8Bom {
+    param(
+        [Parameter(Mandatory)]
+        [string]$LiteralPath,
+
+        [Parameter(Mandatory)]
+        [AllowEmptyString()]
+        [string]$Content
+    )
+
+    [System.IO.File]::WriteAllText($LiteralPath, $Content, $utf8WithBom)
+}
 
 function Update-DocRelativeLink {
-    param([Parameter(Mandatory = $true)][string]$Path)
+    param(
+        [Parameter(Mandatory)]
+        [string]$LiteralPath
+    )
 
-    if (-not (Test-Path -LiteralPath $Path)) {
-        return
-    }
-
-    $content = Get-Content -LiteralPath $Path -Raw -Encoding UTF8
+    $content = [System.IO.File]::ReadAllText($LiteralPath)
     $updated = $content
-
     $updated = $updated -replace '\]\((\.\./)', '](../../'
     $updated = $updated -replace '(?m)(^\s*\[[^\]]+\]:\s*)(\.\./)', '$1../../'
     $updated = $updated -replace '(src\s*=\s*")\.\./', '$1../../'
@@ -59,560 +92,183 @@ function Update-DocRelativeLink {
     $updated = $updated -replace '(href\s*=\s*")\.\./', '$1../../'
     $updated = $updated -replace "(href\s*=\s*')\.\./", '$1../../'
 
-    if ($updated -ne $content) {
-        Set-Content -LiteralPath $Path -Value $updated -Encoding UTF8
+    if ($updated -cne $content) {
+        Write-TextFileUtf8NoBom -LiteralPath $LiteralPath -Content $updated
+    }
+}
+
+function Update-PackagedReadmeLink {
+    param(
+        [Parameter(Mandatory)]
+        [string]$LiteralPath
+    )
+
+    $content = [System.IO.File]::ReadAllText($LiteralPath)
+    $updated = $content
+    $repositoryBlobBase = 'https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/'
+    foreach ($repositoryPath in @(
+            'LICENSE',
+            'CONTRIBUTING.md',
+            'CHANGELOG.md',
+            'CODE_OF_CONDUCT.md',
+            'SECURITY.md',
+            '.github/workflows/test.yml',
+            '.github/workflows/publish.yml')) {
+        $updated = $updated.Replace("]($repositoryPath)", "]($repositoryBlobBase$repositoryPath)")
+    }
+
+    $mascotPath = 'assets/ColorScripts-Mascot-Dark.jpeg'
+    $mascotUri = 'https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/main/assets/ColorScripts-Mascot-Dark.jpeg'
+    $updated = $updated.Replace("]($mascotPath)", "]($mascotUri)")
+    $updated = $updated.Replace("src=`"$mascotPath`"", "src=`"$mascotUri`"")
+
+    if ($updated -cne $content) {
+        Write-TextFileUtf8NoBom -LiteralPath $LiteralPath -Content $updated
     }
 }
 
 function Copy-DocumentationTree {
     param(
-        [Parameter(Mandatory = $true)][string]$SourcePath,
-        [Parameter(Mandatory = $true)][string]$DestinationPath
+        [Parameter(Mandatory)]
+        [string]$SourcePath,
+
+        [Parameter(Mandatory)]
+        [string]$DestinationPath
     )
 
-    if (-not (Test-Path -LiteralPath $SourcePath)) {
-        return
+    if (-not (Test-Path -LiteralPath $SourcePath -PathType Container)) {
+        throw "Documentation directory not found: $SourcePath"
     }
 
-    $sourceResolved = (Resolve-Path -LiteralPath $SourcePath).Path
-    $destinationResolved = [System.IO.Path]::GetFullPath((Join-Path -Path (Get-Location) -ChildPath $DestinationPath))
-
-    if (Test-Path -LiteralPath $destinationResolved) {
-        Remove-Item -LiteralPath $destinationResolved -Recurse -Force
+    $destinationFullPath = [System.IO.Path]::GetFullPath($DestinationPath).TrimEnd(
+        [System.IO.Path]::DirectorySeparatorChar,
+        [System.IO.Path]::AltDirectorySeparatorChar)
+    $expectedDestination = [System.IO.Path]::GetFullPath(
+        (Join-Path -Path $modulePath -ChildPath 'docs')).TrimEnd(
+        [System.IO.Path]::DirectorySeparatorChar,
+        [System.IO.Path]::AltDirectorySeparatorChar)
+    $pathComparison = if ([System.IO.Path]::DirectorySeparatorChar -eq '\') {
+        [System.StringComparison]::OrdinalIgnoreCase
+    }
+    else {
+        [System.StringComparison]::Ordinal
+    }
+    if (-not $destinationFullPath.Equals($expectedDestination, $pathComparison)) {
+        throw "Refusing to replace unexpected documentation destination: $destinationFullPath"
     }
 
-    New-Item -ItemType Directory -Path $destinationResolved -Force | Out-Null
+    if (Test-Path -LiteralPath $destinationFullPath -PathType Container) {
+        Remove-Item -LiteralPath $destinationFullPath -Recurse -Force -ErrorAction Stop
+    }
+    New-Item -ItemType Directory -Path $destinationFullPath -Force -ErrorAction Stop | Out-Null
 
-    Get-ChildItem -LiteralPath $sourceResolved -Recurse -File | ForEach-Object {
-        $relativePath = $_.FullName.Substring($sourceResolved.Length).TrimStart([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar)
-        $targetPath = Join-Path -Path $destinationResolved -ChildPath $relativePath
+    $sourceResolved = (Resolve-Path -LiteralPath $SourcePath -ErrorAction Stop).ProviderPath.TrimEnd(
+        [System.IO.Path]::DirectorySeparatorChar,
+        [System.IO.Path]::AltDirectorySeparatorChar)
+
+    foreach ($sourceFile in Get-ChildItem -LiteralPath $sourceResolved -Recurse -File) {
+        # Agent instruction files configure repository tooling and are not
+        # end-user module documentation.
+        if ($sourceFile.Name -ieq 'AGENTS.md') {
+            continue
+        }
+
+        $relativePath = $sourceFile.FullName.Substring($sourceResolved.Length).TrimStart(
+            [System.IO.Path]::DirectorySeparatorChar,
+            [System.IO.Path]::AltDirectorySeparatorChar)
+        $targetPath = Join-Path -Path $destinationFullPath -ChildPath $relativePath
         $targetDirectory = Split-Path -Path $targetPath -Parent
 
-        if (-not (Test-Path -LiteralPath $targetDirectory)) {
-            New-Item -ItemType Directory -Path $targetDirectory -Force | Out-Null
+        if (-not (Test-Path -LiteralPath $targetDirectory -PathType Container)) {
+            New-Item -ItemType Directory -Path $targetDirectory -Force -ErrorAction Stop | Out-Null
         }
 
-        Copy-Item -LiteralPath $_.FullName -Destination $targetPath -Force
-
-        if ($_.Extension -ieq '.md') {
-            Update-DocRelativeLink -Path $targetPath
+        Copy-Item -LiteralPath $sourceFile.FullName -Destination $targetPath -Force -ErrorAction Stop
+        if ($sourceFile.Extension -ieq '.md') {
+            Update-DocRelativeLink -LiteralPath $targetPath
         }
     }
 }
 
-# Validate paths
-$modulePath = './ColorScripts-Enhanced'
-$manifestPath = Join-Path $modulePath 'ColorScripts-Enhanced.psd1'
-$readmePath = './README.md'
-$scriptsPath = Join-Path $modulePath 'Scripts'
+function Set-ManifestModuleVersion {
+    param(
+        [Parameter(Mandatory)]
+        [string]$LiteralPath,
 
-Write-Verbose "Building module version: $Version"
-Write-Verbose "Module path: $modulePath"
+        [Parameter(Mandatory)]
+        [string]$NewVersion
+    )
 
-# Ensure module directory exists
-if (-not (Test-Path $modulePath)) {
+    $content = [System.IO.File]::ReadAllText($LiteralPath)
+    $pattern = "(?m)^(?<prefix>\s*ModuleVersion\s*=\s*)'[^']+'(?<suffix>\s*(?:#.*)?)$"
+    $versionMatches = [regex]::Matches($content, $pattern)
+    if ($versionMatches.Count -ne 1) {
+        throw "Expected exactly one single-quoted ModuleVersion entry in '$LiteralPath'; found $($versionMatches.Count)."
+    }
+
+    $updated = [regex]::Replace(
+        $content,
+        $pattern,
+        ('$1''' + $NewVersion + '''$2'))
+    # The manifest contains non-ASCII metadata and must remain readable by
+    # Windows PowerShell 5.1, which requires a BOM for UTF-8 source files.
+    Write-TextFileUtf8Bom -LiteralPath $LiteralPath -Content $updated
+}
+
+if (-not (Test-Path -LiteralPath $modulePath -PathType Container)) {
     throw "Module directory not found: $modulePath"
 }
+if (-not (Test-Path -LiteralPath $manifestPath -PathType Leaf)) {
+    throw "Module manifest not found: $manifestPath"
+}
+if (-not (Test-Path -LiteralPath $scriptsPath -PathType Container)) {
+    throw "Colorscript directory not found: $scriptsPath"
+}
 
-# Count colorscripts
-$scriptCount = 0
-if (Test-Path $scriptsPath) {
-    $scriptCount = (Get-ChildItem -Path $scriptsPath -Filter '*.ps1' -File).Count
-    Write-Verbose "Found $scriptCount colorscripts"
+$existingManifest = Import-PowerShellDataFile -Path $manifestPath -ErrorAction Stop
+$effectiveVersion = if ($PSBoundParameters.ContainsKey('Version')) {
+    Set-ManifestModuleVersion -LiteralPath $manifestPath -NewVersion $Version
+    $Version
 }
 else {
-    Write-Warning "Scripts directory not found: $scriptsPath"
+    [string]$existingManifest.ModuleVersion
 }
 
-# Update documentation markers to reflect the current script count before copying
+$scriptCount = @(Get-ChildItem -LiteralPath $scriptsPath -Filter '*.ps1' -File).Count
 $updateDocsScript = Join-Path -Path $PSScriptRoot -ChildPath 'Update-DocumentationCounts.ps1'
-if (Test-Path -Path $updateDocsScript) {
-    try {
-        Write-Verbose 'Refreshing documentation script counts'
-        & $updateDocsScript -ScriptCount $scriptCount | Out-Null
-    }
-    catch {
-        Write-Warning "Failed to refresh documentation counts: $_"
-    }
+if (-not (Test-Path -LiteralPath $updateDocsScript -PathType Leaf)) {
+    throw "Documentation count updater not found: $updateDocsScript"
 }
-else {
-    Write-Verbose "Documentation count updater not found at: $updateDocsScript"
-}
+& $updateDocsScript -ScriptCount $scriptCount
 
-# Copy README if it exists and not skipped
 if (-not $SkipReadme) {
-    if (Test-Path $readmePath) {
-        try {
-            Copy-Item -Path $readmePath -Destination (Join-Path $modulePath 'README.md') -Force
-            Write-Verbose 'README.md copied successfully'
-        }
-        catch {
-            Write-Warning "Failed to copy README.md: $_"
-        }
+    $readmePath = Join-Path -Path $repoRoot -ChildPath 'README.md'
+    $moduleReadmePath = Join-Path -Path $modulePath -ChildPath 'README.md'
+    if (-not (Test-Path -LiteralPath $readmePath -PathType Leaf)) {
+        throw "Repository README not found: $readmePath"
     }
-    else {
-        Write-Warning "README.md not found at: $readmePath"
-    }
+    Copy-Item -LiteralPath $readmePath -Destination $moduleReadmePath -Force -ErrorAction Stop
+    Update-PackagedReadmeLink -LiteralPath $moduleReadmePath
 
-    # Also copy the Gallery README
-    $galleryReadmePath = './ColorScripts-Enhanced/README-Gallery.md'
-    if (Test-Path $galleryReadmePath) {
-        try {
-            # It's already in the module directory, just ensure it's there
-            Write-Verbose 'Gallery README already in module directory'
-        }
-        catch {
-            Write-Warning "Failed to verify Gallery README: $_"
-        }
-    }
-    else {
-        Write-Warning "Gallery README not found at: $galleryReadmePath"
-    }
-
-    # Copy help documentation files
-    $helpDocsPath = './docs'
-    if (Test-Path $helpDocsPath) {
-        $helpDestPath = Join-Path $modulePath 'docs'
-        try {
-            Copy-DocumentationTree -SourcePath $helpDocsPath -DestinationPath $helpDestPath
-            Write-Verbose 'Help documentation files copied with adjusted links'
-        }
-        catch {
-            Write-Warning "Failed to copy help documentation: $_"
-        }
-    }
-    else {
-        Write-Verbose "Help docs directory not found at: $helpDocsPath"
-    }
+    Copy-DocumentationTree `
+        -SourcePath (Join-Path -Path $repoRoot -ChildPath 'docs') `
+        -DestinationPath (Join-Path -Path $modulePath -ChildPath 'docs')
 }
 
-# Remove existing manifest
-if (Test-Path $manifestPath) {
-    try {
-        Remove-Item -Path $manifestPath -Force
-        Write-Verbose 'Removed existing manifest'
-    }
-    catch {
-        Write-Warning "Failed to remove existing manifest: $_"
-    }
+$validatedManifest = Test-ModuleManifest -Path $manifestPath -ErrorAction Stop
+if ([string]$validatedManifest.Version -ne $effectiveVersion) {
+    throw "Manifest validation returned version '$($validatedManifest.Version)' instead of '$effectiveVersion'."
 }
 
-# Create manifest parameters
-$functionsToExport = @(
-    'Show-ColorScript'
-    'Get-ColorScriptList'
-    'New-ColorScriptCache'
-    'Clear-ColorScriptCache'
-    'Add-ColorScriptProfile'
-    'Get-ColorScriptConfiguration'
-    'Set-ColorScriptConfiguration'
-    'Reset-ColorScriptConfiguration'
-    'Export-ColorScriptMetadata'
-    'New-ColorScript'
-)
-
-$manifestParams = @{
-    ModuleVersion         = $Version
-    Path                  = $manifestPath
-    Guid                  = 'f77548d7-23eb-48ce-a6e0-f64b4758d995'
-    Author                = 'Nick2bad4u'
-    CompanyName           = 'Community'
-    Copyright             = '(c) 2025. All rights reserved.'
-    RootModule            = 'ColorScripts-Enhanced.psm1'
-    CompatiblePSEditions  = @('Desktop', 'Core')
-    PowerShellVersion     = '5.1'
-    ProcessorArchitecture = 'None'
-    FunctionsToExport     = $functionsToExport
-    CmdletsToExport       = @()
-    VariablesToExport     = @()
-    AliasesToExport       = @('scs', 'Update-ColorScriptCache', 'Build-ColorScriptCache')
-    Description           = @'
-🎨 ColorScripts-Enhanced: Professional ANSI Art Terminal Experience
-
-![ColorScripts Mascot](https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/assets/ColorScripts-Mascot-Dark.jpeg)
-
-A powerful PowerShell module that brings beautiful ANSI art colorscripts to your terminal with enterprise-grade performance. Choose from $scriptCount stunning visual scripts and enjoy lightning-fast loading with intelligent caching.
-
-✨ FEATURES
-patterns, characters, nature scenes, and more
-- ⚡ **6-19x Faster** — Intelligent caching drops load times to 5-20ms
-- 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
-- ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
-- 🖌️ **500+ Custom Made Colorscripts** — Exclusive original designs
-- 🐾 **2500~ Pokémon ColorScripts** — Opt-in Pokémon-themed colorscripts
-  * Note: Pokémon art is filtered by default to keep load times fast. Opt in with `-IncludePokemon` on relevant commands.
-- 🌍 **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
-- 🧩 **Easy to Use** — Simple commands with tab completion
-- 🗄️ **Centralized Cache** — OS-wide in `AppData/ColorScripts-Enhanced/cache`
-- 🔄 **Auto-Update** — Cache invalidates automatically when scripts change
-- 📚 **Complete Help** — Full comment-based help for all commands
-
-⚡ PERFORMANCE BOOST
-• 6-19x faster performance with smart caching
-• 5-20ms average load time (cached)
-
-🚀 QUICK START
-Display random art: Show-ColorScript (or use alias: scs)
-List available scripts: Get-ColorScriptList
-Pre-build cache: New-ColorScriptCache
-
-📖 DOCUMENTATION
-Full guide: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
-Issues & Discussions: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues
-
-COMMANDS INCLUDED
-• Show-ColorScript - Display colorscripts with caching
-• Get-ColorScriptList - Browse available scripts
-• New-ColorScriptCache - Pre-generate cache for speed
-• Clear-ColorScriptCache - Manage cache storage
-• Add-ColorScriptProfile - Integrate into PowerShell profile
-• Get-ColorScriptConfiguration - View settings
-• Set-ColorScriptConfiguration - Persist preferences
-• Export-ColorScriptMetadata - Export script metadata
-• New-ColorScript - Create new colorscripts
-
-PERFECT FOR
-✓ Making your terminal visually stunning
-✓ Terminal startup customization
-✓ System administration dashboards
-✓ Development environments
-✓ DevOps automation
-✓ Learning ANSI art and terminal graphics
-'@
-    ProjectUri            = 'https://github.com/Nick2bad4u/ps-color-scripts-enhanced'
-    IconUri               = 'https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/docs/colorscripts-icon.png'
-    Tags                  = @('ColorScripts', 'ANSI', 'Terminal', 'Art', 'Cache', 'Performance', 'PowerShell', 'Startup', 'Terminal-Startup', 'ANSI-Art', 'Colorful-Terminal', 'PowerShell-Art', 'Fancy-Terminal', 'Terminal-Enhancement', 'Beautiful-Terminal', 'Terminal-Colors', 'PowerShell-Scripts', 'Terminal-Art', 'Colorful-Scripts', 'Enhanced-Terminal', 'Terminal-Visuals', 'PowerShell-Module', 'Colorful-Output', 'Terminal-Themes', 'PSEdition_Desktop', 'PSEdition_Core', 'Windows', 'Linux', 'MacOS', 'Localization', 'Internationalization', 'Spanish', 'Español', 'Multilingual')
-    FileList              = @(
-        'ColorScripts-Enhanced.psm1',
-        'ColorScripts-Enhanced.psd1',
-        'README.md',
-        'README-Gallery.md',
-        'CachePolicy.psd1',
-        'DynamicRenderPolicy.psd1',
-        'ScriptMetadata.psd1',
-        'Install.ps1'
-    )
-    HelpInfoUri           = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/ColorScripts-Enhanced/'
-    ReleaseNotes          = @"
-Version ${Version}:
-    - Enhanced caching system with OS-wide cache in AppData
-    - 6-19x performance improvement
-    - Cache stored in centralized location
-    - Works from any directory
-    - $scriptCount beautiful colorscripts included
-    - Full comment-based help documentation
-    - Scripts optimized for performance and visual quality
-    - Cross-platform support (Windows, Linux, macOS)
-    - PowerShell 5.1+ and PowerShell Core 7+ compatible
-    - 🌍 Internationalization: English & Spanish, and more support
-"@
-    PassThru              = $true
-}
-
-# Create the manifest
-try {
-    $manifest = New-ModuleManifest @manifestParams
-    Write-Host '✓ Module manifest created successfully' -ForegroundColor Green
-    Write-Host "  Version: $Version" -ForegroundColor Cyan
-    Write-Host "  Path: $manifestPath" -ForegroundColor Cyan
-
-    # Reformat manifest for consistent indentation and style expected by PSScriptAnalyzer
-    $generatedOn = (Get-Date).ToString('M/d/yyyy')
-    $projectUri = $manifestParams.ProjectUri
-    $tagIndent = ' ' * 16
-    $tagsBlock = ($manifestParams.Tags | ForEach-Object { "$tagIndent'$_'" }) -join [Environment]::NewLine
-    $functionIndent = ' ' * 8
-    $functionsBlock = ($functionsToExport | ForEach-Object { "$functionIndent'$_'" }) -join [Environment]::NewLine
-    $releaseNotes = @"
-Version ${Version}:
-- Enhanced caching system with OS-wide cache in AppData
-- 6-19x performance improvement
-- Cache stored in centralized location
-- Works from any directory
-- $scriptCount beautiful colorscripts included
-- Full comment-based help documentation
-- Scripts optimized for performance and visual quality
-- Cross-platform support (Windows, Linux, macOS)
-- PowerShell 5.1+ and PowerShell Core 7+ compatible
-- 🌍 Internationalization: English & Spanish, and more support
-"@
-
-    $manifestContent = @"
-#
-# Module manifest for module 'ColorScripts-Enhanced'
-#
-# Generated by: Nick2bad4u
-#
-# Generated on: $generatedOn
-#
-
-@{
-    # Script module or binary module file associated with this manifest.
-    RootModule = 'ColorScripts-Enhanced.psm1'
-
-    # Version number of this module.
-    ModuleVersion = '$Version'
-
-    # Supported PSEditions
-    CompatiblePSEditions = @('Desktop', 'Core')
-
-    # ID used to uniquely identify this module
-    GUID = 'f77548d7-23eb-48ce-a6e0-f64b4758d995'
-
-    # Author of this module
-    Author = 'Nick2bad4u'
-
-    # Company or vendor of this module
-    CompanyName = 'Community'
-
-    # Copyright statement for this module
-    Copyright = '(c) 2025. All rights reserved.'
-
-    # Description of the functionality provided by this module
-    Description = @'
-🎨 ColorScripts-Enhanced: Professional ANSI Art Terminal Experience
-
-![ColorScripts Mascot](https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/assets/ColorScripts-Mascot-Dark.jpeg)
-
-A powerful PowerShell module that brings beautiful ANSI art colorscripts to your terminal with enterprise-grade performance. Choose from $scriptCount stunning visual scripts and enjoy lightning-fast loading with intelligent caching.
-
-⚡ PERFORMANCE BOOST
-• 6-19x faster performance with smart caching
-• 5-20ms average load time (cached)
-• OS-wide cache across all terminal sessions
-• Automatic cache invalidation on script updates
-
-✨ FEATURES
-• $scriptCount beautiful colorscripts included
-• Professional-grade ANSI art collection
-• Cross-platform support (Windows, macOS, Linux)
-• PowerShell 5.1+ and PowerShell 7+ compatible
-• Tab completion and intelligent parameter handling
-• Centralized cache in AppData/ColorScripts-Enhanced
-• Configuration persistence for user preferences
-• Rich metadata and script discovery
-
-🚀 QUICK START
-Display random art: Show-ColorScript (or use alias: scs)
-List available scripts: Get-ColorScriptList
-Pre-build cache: New-ColorScriptCache
-
-📖 DOCUMENTATION
-Full guide: https://github.com/Nick2bad4u/ps-color-scripts-enhanced
-Issues & Discussions: https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues
-
-COMMANDS INCLUDED
-• Show-ColorScript - Display colorscripts with caching
-• Get-ColorScriptList - Browse available scripts
-• New-ColorScriptCache - Pre-generate cache for speed
-• Clear-ColorScriptCache - Manage cache storage
-• Add-ColorScriptProfile - Integrate into PowerShell profile
-• Get-ColorScriptConfiguration - View settings
-• Set-ColorScriptConfiguration - Persist preferences
-• Export-ColorScriptMetadata - Export script metadata
-• New-ColorScript - Create new colorscripts
-
-PERFECT FOR
-✓ Making your terminal visually stunning
-✓ Terminal startup customization
-✓ System administration dashboards
-✓ Development environments
-✓ DevOps automation
-✓ Learning ANSI art and terminal graphics
-'@
-
-    # Minimum version of the PowerShell engine required by this module
-    PowerShellVersion = '5.1'
-
-    # Name of the PowerShell host required by this module
-    # PowerShellHostName = ''
-
-    # Minimum version of the PowerShell host required by this module
-    # PowerShellHostVersion = ''
-
-    # Minimum version of Microsoft .NET Framework required by this module. This prerequisite is valid for the PowerShell Desktop edition only.
-    # DotNetFrameworkVersion = ''
-
-    # Minimum version of the common language runtime (CLR) required by this module. This prerequisite is valid for the PowerShell Desktop edition only.
-    # ClrVersion = ''
-
-    # Processor architecture (None, X86, Amd64) required by this module
-    ProcessorArchitecture = 'None'
-
-    # Modules that must be imported into the global environment prior to importing this module
-    # RequiredModules = @()
-
-    # Assemblies that must be loaded prior to importing this module
-    # RequiredAssemblies = @()
-
-    # Script files (.ps1) that are run in the caller's environment prior to importing this module.
-    # ScriptsToProcess = @()
-
-    # Type files (.ps1xml) to be loaded when importing this module
-    # TypesToProcess = @()
-
-    # Format files (.ps1xml) to be loaded when importing this module
-    # FormatsToProcess = @()
-
-    # Modules to import as nested modules of the module specified in RootModule/ModuleToProcess
-    # NestedModules = @()
-
-    # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-    FunctionsToExport = @(
-$functionsBlock
-    )
-
-    # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
-    CmdletsToExport = @()
-
-    # Variables to export from this module
-    VariablesToExport = @()
-
-    # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-    AliasesToExport = @('scs', 'Update-ColorScriptCache', 'Build-ColorScriptCache')
-
-    # DSC resources to export from this module
-    # DscResourcesToExport = @()
-
-    # List of all modules packaged with this module
-    # ModuleList = @()
-
-    # List of all files packaged with this module
-    FileList = @(
-        'ColorScripts-Enhanced.psm1'
-        'ColorScripts-Enhanced.psd1'
-        'README.md'
-        'README-Gallery.md'
-        'CachePolicy.psd1'
-        'DynamicRenderPolicy.psd1'
-        'ScriptMetadata.psd1'
-        'Install.ps1'
-    )
-
-    # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
-    PrivateData = @{
-        PSData = @{
-            # Tags applied to this module. These help with module discovery in online galleries.
-            Tags = @(
-$tagsBlock
-            )
-
-            # A URL to the license for this module.
-            LicenseUri = 'https://licenses.nuget.org/Unlicense'
-
-            # License expression or path to license file
-            License = 'Unlicense'
-
-            # A URL to the main website for this project.
-            ProjectUri = '$projectUri'
-
-            # A URL to an icon representing this module.
-            IconUri = 'https://raw.githubusercontent.com/Nick2bad4u/ps-color-scripts-enhanced/main/docs/colorscripts-icon.png'
-
-            # ReleaseNotes of this module
-            ReleaseNotes = @'
-$($releaseNotes.TrimEnd())
-'@
-
-            # Prerelease string of this module
-            # Prerelease = ''
-
-            # Flag to indicate whether the module requires explicit user acceptance for install/update/save
-            RequireLicenseAcceptance = `$false
-
-            # External dependent modules of this module
-            # ExternalModuleDependencies = @()
-        }
-    }
-
-    # HelpInfo URI of this module
-    HelpInfoURI = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/ColorScripts-Enhanced/'
-
-    # Default prefix for commands exported from this module. Override the default prefix using Import-Module -Prefix.
-    # DefaultCommandPrefix = ''
-}
-"@
-
-    # Interpolated blocks can carry a different newline style than this here-string.
-    # Normalize the final manifest so ScriptAnalyzer's formatting pass can process it.
-    $manifestContent = [regex]::Replace($manifestContent, '\r\n?|\n', [Environment]::NewLine)
-    Set-Content -Path $manifestPath -Value $manifestContent -Encoding UTF8
-
-    # Validate the formatted manifest
-    Test-ModuleManifest -Path $manifestPath -ErrorAction Stop | Out-Null
-    Write-Host '✓ Manifest validation passed' -ForegroundColor Green
-}
-catch {
-    Write-Error "Failed to create or validate manifest: $_"
-    exit 1
-}
-
-# Build help files if not skipped
 if (-not $SkipHelp) {
-    Write-Verbose 'Building help files...'
-
-    # Ensure a modern PlatyPS module is available
-    $platyCandidates = Get-Module -ListAvailable -Name 'Microsoft.PowerShell.PlatyPS', 'PlatyPS', 'platyPS' |
-        Sort-Object -Property Version -Descending
-
-    $selectedPlaty = $platyCandidates | Select-Object -First 1
-
-    $requiresInstall = -not $selectedPlaty -or $selectedPlaty.Version.Major -lt 1
-
-    if ($requiresInstall) {
-        Write-Host 'Installing Microsoft.PowerShell.PlatyPS module...' -ForegroundColor Yellow
-        $installSucceeded = $false
-        $installErrors = @()
-
-        foreach ($candidateName in @('Microsoft.PowerShell.PlatyPS', 'platyPS')) {
-            try {
-                $currentPolicy = Get-ExecutionPolicy -Scope Process
-                Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
-                Install-Module -Name $candidateName -Force -SkipPublisherCheck -Scope CurrentUser -AllowClobber
-                $installSucceeded = $true
-                Write-Host "✓ $candidateName installed successfully" -ForegroundColor Green
-                break
-            }
-            catch {
-                $installErrors += $_
-            }
-            finally {
-                if ($currentPolicy) {
-                    Set-ExecutionPolicy -ExecutionPolicy $currentPolicy -Scope Process -Force
-                }
-            }
-        }
-
-        if (-not $installSucceeded) {
-            foreach ($err in $installErrors) {
-                Write-Warning "Failed to install PlatyPS candidate: $err"
-            }
-            Write-Host 'Skipping help file generation' -ForegroundColor Yellow
-            exit 0
-        }
-
-        $platyCandidates = Get-Module -ListAvailable -Name 'Microsoft.PowerShell.PlatyPS', 'PlatyPS', 'platyPS' |
-            Sort-Object -Property Version -Descending
-        $selectedPlaty = $platyCandidates | Select-Object -First 1
+    $buildHelpPath = Join-Path -Path $PSScriptRoot -ChildPath 'Build-Help.ps1'
+    if (-not (Test-Path -LiteralPath $buildHelpPath -PathType Leaf)) {
+        throw "Help builder not found: $buildHelpPath"
     }
-
-    if (-not $selectedPlaty) {
-        Write-Warning 'No PlatyPS module available after installation. Skipping help file generation.'
-        exit 0
-    }
-
-    # Run Build-Help.ps1 if it exists
-    $buildHelpPath = Join-Path $PSScriptRoot 'Build-Help.ps1'
-    if (Test-Path $buildHelpPath) {
-        try {
-            & $buildHelpPath -UpdateMarkdown
-            Write-Host '✓ Help files built successfully' -ForegroundColor Green
-        }
-        catch {
-            Write-Warning "Failed to build help files: $_"
-        }
-    }
-    else {
-        Write-Warning "Build-Help.ps1 not found at: $buildHelpPath"
-    }
+    & $buildHelpPath -UpdateMarkdown
 }
+
+Write-Host 'Module build validation passed.' -ForegroundColor Green
+Write-Host "  Version:      $effectiveVersion" -ForegroundColor Cyan
+Write-Host "  Colorscripts: $scriptCount" -ForegroundColor Cyan
+Write-Host "  Manifest:     $manifestPath" -ForegroundColor Cyan

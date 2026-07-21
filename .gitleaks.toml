@@ -5,12 +5,9 @@ title = "Nick2bad4u shared Gitleaks configuration"
 [extend]
     path = "node_modules/gitleaks-config-nick2bad4u/gitleaks.toml"
 
-[[allowlists]]
-    description = "Ignore local scratch command output"
+# Keep the legacy singular table until the reusable workflow's bundled Gitleaks version is
+# new enough for the v8.25+ `[[allowlists]]` syntax used by the shared configuration.
+[allowlist]
+    description = "Ignore local scratch output and obvious non-secret placeholders"
     paths       = [ '''^temp/''' ]
-
-[[allowlists]]
-    description = "Ignore documented non-secret publishing placeholders"
-    targetRules = [ "nick2bad4u-sensitive-env-vars" ]
-    regexTarget = "secret"
     regexes     = [ '''^(?:Read-Host|required|your-token-here)$''' ]

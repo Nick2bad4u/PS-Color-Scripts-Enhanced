@@ -81,86 +81,46 @@ jobs:
                   npm ci --force
               shell: pwsh
 
-            - name: Build latest Manifest Version
+            - name: Build module
               env:
+                  EVENT_NAME: ${{ github.event_name }}
+                  RELEASE_TAG: ${{ github.event.release.tag_name }}
                   VERSION_OVERRIDE: ${{ github.event.inputs.versionOverride }}
               run: |
-                  if ([string]::IsNullOrWhiteSpace($env:VERSION_OVERRIDE)) {
-                      npm run build
-                      if ($LASTEXITCODE -ne 0) {
-                          throw "Build failed with exit code $LASTEXITCODE."
-                      }
+                  $requestedVersion = if ($env:EVENT_NAME -eq 'release') {
+                      $env:RELEASE_TAG -replace '^[vV]', ''
                   }
                   else {
+                      $env:VERSION_OVERRIDE
+                  }
+
+                  $buildArguments = @('-NoProfile', '-File', './scripts/build.ps1')
+                  if (-not [string]::IsNullOrWhiteSpace($requestedVersion)) {
                       try {
-                          $normalizedVersionOverride = ([version]$env:VERSION_OVERRIDE).ToString()
+                          $normalizedVersion = ([version]$requestedVersion).ToString()
                       }
                       catch {
-                          throw "Invalid version override '$($env:VERSION_OVERRIDE)': $($_.Exception.Message)"
+                          throw "Invalid requested version '$requestedVersion': $($_.Exception.Message)"
                       }
 
-                      pwsh -NoProfile -File ./scripts/build.ps1 -Version $normalizedVersionOverride
+                      $buildArguments += '-Version', $normalizedVersion
+                  }
+
+                  pwsh @buildArguments
+                  if ($LASTEXITCODE -ne 0) {
+                      throw "Module build failed with exit code $LASTEXITCODE."
+                  }
+
+                  foreach ($scriptName in @('release:notes', 'release:notes:latest', 'verify', 'test:conversion', 'test:coverage')) {
+                      npm run $scriptName
                       if ($LASTEXITCODE -ne 0) {
-                          throw "Versioned module build failed with exit code $LASTEXITCODE."
-                      }
-
-                      foreach ($scriptName in @('release:notes', 'release:notes:latest', 'verify', 'test:coverage')) {
-                          npm run $scriptName
-                          if ($LASTEXITCODE -ne 0) {
-                              throw "npm run $scriptName failed with exit code $LASTEXITCODE."
-                          }
+                          throw "npm run $scriptName failed with exit code $LASTEXITCODE."
                       }
                   }
               shell: pwsh
 
             - name: Run Script Analyzer
-              run: |
-                  Import-Module PSScriptAnalyzer
-                  $settingsPath = Join-Path (Get-Location) 'PSScriptAnalyzerSettings.psd1'
-                  $moduleRoot = Join-Path (Get-Location) 'ColorScripts-Enhanced'
-                  $moduleFiles = Get-ChildItem -Path $moduleRoot -File -Recurse -Include *.ps1, *.psm1, *.psd1
-
-                  $allFindings = New-Object 'System.Collections.Generic.List[psobject]'
-
-                  foreach ($file in $moduleFiles) {
-                    $parameters = @{
-                      Path        = $file.FullName
-                      Severity    = 'Error', 'Warning'
-                      ErrorAction = 'Stop'
-                    }
-
-                    if (Test-Path $settingsPath) {
-                      $parameters.Settings = $settingsPath
-                    }
-
-                    try {
-                      $diagnostics = Invoke-ScriptAnalyzer @parameters
-                    }
-                    catch {
-                      $exception = $_.Exception
-                      $isNullReference = $exception -is [System.NullReferenceException] -or ($exception -and $exception.Message -like 'Object reference*')
-
-                      if ($isNullReference -and $parameters.ContainsKey('Settings')) {
-                        Write-Warning "ScriptAnalyzer hit a known issue on '$($file.FullName)' with custom settings. Retrying without settings."
-                        $parameters.Remove('Settings')
-                        $diagnostics = Invoke-ScriptAnalyzer @parameters
-                      }
-                      else {
-                        throw
-                      }
-                    }
-
-                    if ($diagnostics) {
-                      foreach ($entry in $diagnostics) {
-                        $allFindings.Add($entry) | Out-Null
-                      }
-                    }
-                  }
-
-                  if ($allFindings.Count -gt 0) {
-                    $allFindings | Format-Table -AutoSize
-                    throw 'ScriptAnalyzer reported findings.'
-                  }
+              run: pwsh -NoProfile -File ./scripts/Lint-Module.ps1 -TreatWarningsAsErrors
               shell: pwsh
 
             - name: Run Pester tests

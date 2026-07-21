@@ -17,7 +17,8 @@
     Examples: 'abra*', 'pokemon-*'
 
 .PARAMETER SkipExisting
-    If specified, skips scripts that already have a Pokemon name.
+    Retained for command-line compatibility. Existing Pokemon labels are always
+    left unchanged, whether or not this switch is specified.
 
 .EXAMPLE
     # Process all Pokemon scripts
@@ -28,7 +29,7 @@
     .\Add-PokemonNames.ps1 -Filter 'abra*'
 
 .EXAMPLE
-    # Process all scripts, skip ones already updated
+    # Compatibility form; existing labels are always left unchanged
     .\Add-PokemonNames.ps1 -SkipExisting
 #>
 
@@ -45,7 +46,7 @@ $colorSchemes = @{
     'clefairy' = @('165;115;49', '214;140;132', '255;189;165', '214;140;132', '165;115;49')
 }
 
-function Get-ValidPokemonNames {
+function Get-ValidPokemonName {
     <#
     .SYNOPSIS
         Get list of valid Pokemon names from the pokemon-colorscripts directory.
@@ -111,7 +112,7 @@ function Test-IsPokemonScript {
     return $false
 }
 
-function Get-DominantColors {
+function Get-DominantColor {
     <#
     .SYNOPSIS
         Extract the most used colors from a Pokemon script.
@@ -121,15 +122,15 @@ function Get-DominantColors {
 
     # Find all RGB color codes in format 38;2;R;G;B or 48;2;R;G;B
     $rgbPattern = '\[?38;2;(\d+;\d+;\d+)'
-    $matches = [regex]::Matches($ScriptContent, $rgbPattern)
+    $rgbMatches = [regex]::Matches($ScriptContent, $rgbPattern)
 
-    if ($matches.Count -eq 0) {
+    if ($rgbMatches.Count -eq 0) {
         return @('200;100;100', '150;150;150', '100;100;100')  # Fallback colors
     }
 
     # Count color frequencies, filtering out very dark colors
     $colorFreq = @{}
-    foreach ($match in $matches) {
+    foreach ($match in $rgbMatches) {
         $color = $match.Groups[1].Value
         $rgb = $color -split ';'
         $r = [int]$rgb[0]
@@ -226,7 +227,7 @@ function Add-PokemonNameToScript {
 
         # Check if already has Pokemon name (comprehensive check)
         if ($content -match '\[38;2.*Pokemon:' -or $content -match 'Pokemon:\s+\w' -or $content -match '^Pokemon:' -or $content -match '\nPokemon:') {
-            Write-Host "  ⊘ Skipped (already has Pokemon name): $([System.IO.Path]::GetFileName($ScriptPath))" -ForegroundColor Yellow
+            Write-Host "  [SKIP] Already has Pokemon name: $([System.IO.Path]::GetFileName($ScriptPath))" -ForegroundColor Yellow
             return $false
         }
 
@@ -243,11 +244,11 @@ function Add-PokemonNameToScript {
 
         # Write back to file
         [System.IO.File]::WriteAllText($ScriptPath, $newContent)
-        Write-Host "  ✓ Updated: $([System.IO.Path]::GetFileName($ScriptPath))" -ForegroundColor Green
+        Write-Host "  [OK] Updated: $([System.IO.Path]::GetFileName($ScriptPath))" -ForegroundColor Green
         return $true
     }
     catch {
-        Write-Host "  ✗ Error processing $([System.IO.Path]::GetFileName($ScriptPath)): $_" -ForegroundColor Red
+        Write-Host "  [ERROR] Failed to process $([System.IO.Path]::GetFileName($ScriptPath)): $_" -ForegroundColor Red
         return $false
     }
 }
@@ -264,7 +265,11 @@ try {
 
     # Get valid Pokemon names from the pokemon-colorscripts directory
     Write-Host "Loading valid Pokemon names from: $PokemonListPath" -ForegroundColor Gray
-    $validPokemonNames = Get-ValidPokemonNames -PokemonListPath $PokemonListPath
+    $validPokemonNames = Get-ValidPokemonName -PokemonListPath $PokemonListPath
+
+    if ($SkipExisting) {
+        Write-Verbose 'Existing Pokemon labels are always left unchanged; -SkipExisting is retained for command-line compatibility.'
+    }
 
     if ($null -ne $validPokemonNames) {
         Write-Host "Found $($validPokemonNames.Count) valid Pokemon names" -ForegroundColor Gray
@@ -277,9 +282,11 @@ try {
     # Filter out non-Pokemon scripts and scripts not in the valid list
     $scripts = $scripts | Where-Object {
         $name = $_.Name
-        $isNonGeneric = $name -notmatch '^\d+' -and `
-                       $name -ne '00default.ps1' -and `
-                       $name -ne 'Test-AllColorScripts.ps1'
+        $isNonGeneric = (
+            $name -notmatch '^\d+' -and
+            $name -ne '00default.ps1' -and
+            $name -ne 'Test-AllColorScripts.ps1'
+        )
 
         $isValidPokemon = Test-IsPokemonScript -Filename $name -ValidPokemonNames $validPokemonNames
 
@@ -299,7 +306,7 @@ try {
 
         # Get dominant colors from the script
         $content = Get-Content $script.FullName -Raw
-        $colors = Get-DominantColors $content
+        $colors = Get-DominantColor -ScriptContent $content
 
         $result = Add-PokemonNameToScript -ScriptPath $script.FullName -PokemonName $pokemonName -Colors $colors
 
@@ -321,9 +328,9 @@ try {
     }
 
     Write-Host ""
-    Write-Host "=" * 60 -ForegroundColor Cyan
+    Write-Host -Object ('=' * 60) -ForegroundColor Cyan
     Write-Host "Processing Complete!" -ForegroundColor Green
-    Write-Host "=" * 60 -ForegroundColor Cyan
+    Write-Host -Object ('=' * 60) -ForegroundColor Cyan
     Write-Host "Processed: $processed" -ForegroundColor Green
     Write-Host "Skipped:   $skipped" -ForegroundColor Yellow
     Write-Host "Errors:    $errors" -ForegroundColor Red

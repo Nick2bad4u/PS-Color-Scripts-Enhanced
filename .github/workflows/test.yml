@@ -17,13 +17,45 @@ permissions:
     contents: read
 
 jobs:
+    ansi-conversion:
+        name: ANSI conversion safety (${{ matrix.os }})
+        runs-on: ${{ matrix.os }}
+        strategy:
+            fail-fast: false
+            matrix:
+                os:
+                    - windows-latest
+                    - ubuntu-latest
+                    - macos-latest
+        steps:
+            - name: Harden the runner (Audit all outbound calls)
+              uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
+              with:
+                  egress-policy: audit
+
+            - name: Checkout repository
+              uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+            - name: Set up Node.js
+              uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+              with:
+                  node-version-file: .node-version
+                  cache: npm
+                  cache-dependency-path: package-lock.json
+
+            - name: Install Node.js dependencies
+              shell: pwsh
+              run: npm ci --force
+
+            - name: Run ANSI conversion tests
+              shell: pwsh
+              run: npm run test:conversion
+
     windows-powershell:
         name: Windows PowerShell 5.1
         runs-on: windows-latest
         env:
             CI: true
-            POWERSHELL_EDITION: Desktop
-            PS_VERSION: 5.1
         steps:
             - name: Harden the runner (Audit all outbound calls)
               uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
@@ -85,12 +117,10 @@ jobs:
                   Get-Help about_ColorScripts-Enhanced
 
     pwsh-cross-platform:
-        name: PowerShell 7.5 (${{ matrix.os }})
+        name: PowerShell 7 (${{ matrix.os }})
         runs-on: ${{ matrix.os }}
         env:
             CI: true
-            POWERSHELL_EDITION: Core
-            PS_VERSION: 7.5
         strategy:
             fail-fast: false
             matrix:
@@ -185,14 +215,12 @@ jobs:
                   Get-Help about_ColorScripts-Enhanced
 
     pwsh-preview:
-        name: PowerShell 7.5 Preview (ubuntu)
+        name: PowerShell Preview (ubuntu)
         runs-on: ubuntu-latest
         container:
             image: mcr.microsoft.com/powershell:preview
         env:
             CI: true
-            POWERSHELL_EDITION: Core
-            PS_VERSION: preview
         steps:
             - name: Harden the runner (Audit all outbound calls)
               uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4

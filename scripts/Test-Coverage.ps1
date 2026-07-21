@@ -123,7 +123,7 @@ function Write-InfoLine {
 # PESTER MODULE VALIDATION
 # ============================================================================
 
-Write-SectionHeader 'Pester 6.0.1 Detection & Installation'
+Write-SectionHeader 'Pester 6.0.1 Detection'
 
 $pesterRequiredVersion = [version]'6.0.1'
 $pesterModule = Get-Module -ListAvailable -Name Pester |
@@ -132,18 +132,7 @@ $pesterModule = Get-Module -ListAvailable -Name Pester |
             Select-Object -First 1
 
 if (-not $pesterModule) {
-    Write-ColorLine "  ⚠ Pester $pesterRequiredVersion not found. Installing the required version..." -Color $script:Colors.Warning
-    try {
-        Install-Module -Name Pester -RequiredVersion $pesterRequiredVersion -Force -SkipPublisherCheck -Scope CurrentUser -AllowClobber
-        $pesterModule = Get-Module -ListAvailable -Name Pester |
-            Where-Object { $_.Version -eq $pesterRequiredVersion } |
-                Select-Object -First 1
-        Write-ColorLine "  ✓ Installed Pester $($pesterModule.Version)" -Color $script:Colors.Success
-    }
-    catch {
-        Write-ColorLine "  ✗ Failed to install Pester: $_" -Color $script:Colors.Error
-        exit 1
-    }
+    throw "Pester $pesterRequiredVersion is required. Install it explicitly with 'Install-Module Pester -RequiredVersion $pesterRequiredVersion -Scope CurrentUser'."
 }
 else {
     Write-ColorLine "  ✓ Found Pester $($pesterModule.Version)" -Color $script:Colors.Success

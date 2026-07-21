@@ -1,8 +1,23 @@
-#requires -Version 5.1
+<#
+.SYNOPSIS
+    Run PSScriptAnalyzer against the module and optional repository tooling.
+
+.DESCRIPTION
+    Analyzes every PowerShell source file that implements the module, including
+    Public and Private functions. Repository maintenance scripts and Pester tests
+    can be opted in separately. The bundled ANSI-art scripts are data assets and
+    are intentionally excluded from the default implementation lint pass.
+#>
+
+#Requires -Version 5.1
+
 [CmdletBinding()]
 param(
     [Parameter()]
     [string[]]$Path,
+
+    [Parameter()]
+    [string]$SettingsPath,
 
     [Parameter()]
     [switch]$IncludeTests,
@@ -14,245 +29,410 @@ param(
     [switch]$TreatWarningsAsErrors,
 
     [Parameter()]
-    [switch]$Fix
+    [switch]$Fix,
+
+    [Parameter()]
+    [ValidateRange(1, 16)]
+    [int]$AnalyzerThrottleLimit = 4,
+
+    [Parameter()]
+    [ValidateRange(30, 600)]
+    [int]$AnalyzerTimeoutSeconds = 120
 )
 
-$repoRoot = Split-Path -Parent $PSScriptRoot
+Set-StrictMode -Version Latest
+$ErrorActionPreference = 'Stop'
+$repoRoot = Split-Path -Path $PSScriptRoot -Parent
+$moduleRoot = Join-Path -Path $repoRoot -ChildPath 'ColorScripts-Enhanced'
+$testRoot = Join-Path -Path $repoRoot -ChildPath 'Tests'
 
-if (-not $PSBoundParameters.ContainsKey('Path')) {
-    $moduleRoot = Join-Path $repoRoot 'ColorScripts-Enhanced'
-    $Path = @(
-        Join-Path $moduleRoot 'ColorScripts-Enhanced.psm1'
-        Join-Path $moduleRoot 'ColorScripts-Enhanced.psd1'
-        Join-Path $moduleRoot 'Install.ps1'
-        Join-Path $PSScriptRoot 'Test-Module.ps1'
-        Join-Path $PSScriptRoot 'Build-Help.ps1'
-        Join-Path $PSScriptRoot 'Lint-Module.ps1'
-        Join-Path $PSScriptRoot 'build.ps1'
-        Join-Path $PSScriptRoot 'Get-ColorScriptCount.ps1'
-        Join-Path $PSScriptRoot 'Update-DocumentationCounts.ps1'
-    )
+if (-not $PSBoundParameters.ContainsKey('SettingsPath')) {
+    $SettingsPath = Join-Path -Path $repoRoot -ChildPath 'PSScriptAnalyzerSettings.psd1'
+}
+if (-not (Test-Path -LiteralPath $SettingsPath -PathType Leaf)) {
+    throw "PSScriptAnalyzer settings file not found: $SettingsPath"
+}
 
-    if ($IncludeScripts) {
-        $scriptsDir = Join-Path $moduleRoot 'Scripts'
-        if (Test-Path $scriptsDir) {
-            $Path += $scriptsDir
+$analyzerModule = Get-Module -ListAvailable -Name PSScriptAnalyzer |
+    Sort-Object -Property Version -Descending |
+        Select-Object -First 1
+if (-not $analyzerModule) {
+    throw "PSScriptAnalyzer is required. Install it with 'Install-Module PSScriptAnalyzer -Scope CurrentUser'."
+}
+Import-Module -Name $analyzerModule.Path -Force -ErrorAction Stop
+
+if ($IncludeTests) {
+    $requiredPesterVersion = [version]'6.0.1'
+    $pesterModule = Get-Module -ListAvailable -Name Pester |
+        Where-Object Version -EQ $requiredPesterVersion |
+            Select-Object -First 1
+    if (-not $pesterModule) {
+        throw "Pester $requiredPesterVersion is required to analyze tests. Install it with 'Install-Module Pester -RequiredVersion $requiredPesterVersion -Scope CurrentUser'."
+    }
+    Import-Module -Name $pesterModule.Path -Force -ErrorAction Stop
+}
+
+$invokeAnalyzerCommand = Get-Command -Name Invoke-ScriptAnalyzer -ErrorAction Stop
+if ($Fix -and -not $invokeAnalyzerCommand.Parameters.ContainsKey('Fix')) {
+    throw 'The installed PSScriptAnalyzer version does not support -Fix.'
+}
+
+$analyzerSettings = Import-PowerShellDataFile -LiteralPath $SettingsPath
+$disabledRules = @(
+    $analyzerSettings.Rules.Keys |
+        Where-Object {
+            $ruleSettings = $analyzerSettings.Rules[$_]
+            $ruleSettings -is [System.Collections.IDictionary] -and $ruleSettings.Contains('Enable') -and -not [bool]$ruleSettings.Enable
         }
-    }
+)
+$configuredExcludedRules = @($analyzerSettings.ExcludeRules) + $disabledRules
+$analyzerRuleNames = @(
+    Get-ScriptAnalyzerRule |
+        Where-Object RuleName -NotIn $configuredExcludedRules |
+            Select-Object -ExpandProperty RuleName -Unique |
+                Sort-Object
+)
+if ($analyzerRuleNames.Count -eq 0) {
+    throw "PSScriptAnalyzer did not expose any enabled rules for settings file '$SettingsPath'."
 }
 
-if ($IncludeTests) {
-    $testRoot = Join-Path $repoRoot 'Tests'
-    if (Test-Path $testRoot) {
-        $testFiles = Get-ChildItem -Path $testRoot -File -Recurse -Include *.ps1
-        $Path += $testFiles.FullName
-    }
-}
+# PSScriptAnalyzer 1.25 can throw an internal NullReferenceException when every
+# built-in rule is invoked in one pass on PowerShell 7.6. Splitting the exact
+# enabled rule set into two disjoint passes preserves coverage while avoiding
+# that analyzer defect. Each pass also runs in a fresh process below so a
+# failed analyzer state cannot contaminate subsequent files.
+$ruleGroupBoundary = [int][Math]::Ceiling($analyzerRuleNames.Count / 2)
+$analyzerRuleGroups = @(
+    [string]::Join(',', @($analyzerRuleNames[0..($ruleGroupBoundary - 1)]))
+    [string]::Join(',', @($analyzerRuleNames[$ruleGroupBoundary..($analyzerRuleNames.Count - 1)]))
+) | Where-Object { $_ }
 
-$Path = $Path | Where-Object { $_ } | Sort-Object -Unique
-
-Write-Verbose "Linting paths: $($Path -join ', ')"
-
-if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
-    Write-Error "PSScriptAnalyzer module not installed. Run 'Install-Module PSScriptAnalyzer -Scope CurrentUser'."
-    exit 1
-}
-
-Import-Module PSScriptAnalyzer -ErrorAction Stop
-
-# Ensure Pester is available when linting tests so ScriptAnalyzer can
-# resolve Describe/Context/It/Should/etc. without throwing
-# CommandNotFoundException during analysis. This prevents the
-# "ScriptAnalyzer hit a CommandNotFoundException" warnings that were
-# plaguing test linting.
-if ($IncludeTests) {
-    $pesterRequiredVersion = [version]'6.0.1'
-    if (-not (Get-Module -ListAvailable -Name Pester | Where-Object Version -EQ $pesterRequiredVersion)) {
-        Write-Error "Pester $pesterRequiredVersion is not installed. Run 'Install-Module Pester -RequiredVersion $pesterRequiredVersion -Scope CurrentUser'."
-        exit 1
-    }
-
-    Import-Module Pester -RequiredVersion $pesterRequiredVersion -ErrorAction Stop
-}
-
-$invokeScriptAnalyzerCommand = Get-Command Invoke-ScriptAnalyzer -ErrorAction Stop
-if ($Fix -and -not $invokeScriptAnalyzerCommand.Parameters.ContainsKey('Fix')) {
-    Write-Error 'Installed PSScriptAnalyzer version does not support -Fix. Update to 1.21.0 or later.'
-    exit 1
-}
-
-$settingsPath = Join-Path $repoRoot 'PSScriptAnalyzerSettings.psd1'
-if (-not (Test-Path $settingsPath)) {
-    Write-Warning "Settings file not found at $settingsPath. Using default analyzer rules."
-    $settingsPath = $null
-}
-
-function Invoke-LintPass {
+function Add-PowerShellFile {
     param(
-        [bool]$FixMode,
-        [string]$SettingsFile
+        [Parameter(Mandatory)]
+        [AllowEmptyCollection()]
+        [System.Collections.Generic.HashSet[string]]$Destination,
+
+        [Parameter(Mandatory)]
+        [string[]]$InputPath
     )
 
-    $passResults = @()
-    $invokeAnalyzer = {
-        param([hashtable]$AnalyzerParams)
-
-        $TargetPath = $AnalyzerParams.Path
-
-        try {
-            return Invoke-ScriptAnalyzer @AnalyzerParams
-        }
-        catch {
-            $exception = $_.Exception
-            $isNullRef = $exception -is [System.NullReferenceException] -or ($exception -and $exception.Message -like 'Object reference*')
-            $isCommandNotFound = $exception -is [System.Management.Automation.CommandNotFoundException] -or ($exception -and $exception.Message -like "The term '*'' is not recognized*")
-            $isDynamicModuleLimit = $exception -is [System.InvalidOperationException] -and ($exception.Message -like 'You cannot have more than one dynamic module*')
-
-            if ($AnalyzerParams.ContainsKey('Settings') -and $SettingsFile -and $isNullRef) {
-                Write-Warning "ScriptAnalyzer encountered a known issue analyzing '$TargetPath' with custom settings. Retrying without settings."
-                $fallback = @{}
-                foreach ($key in $AnalyzerParams.Keys) {
-                    if ($key -ne 'Settings') {
-                        $fallback[$key] = $AnalyzerParams[$key]
-                    }
-                }
-                if (-not $fallback.ContainsKey('ErrorAction')) {
-                    $fallback.ErrorAction = 'Stop'
-                }
-
-                try {
-                    return Invoke-ScriptAnalyzer @fallback
-                }
-                catch {
-                    $fallbackException = $_.Exception
-                    $fallbackNullRef = $fallbackException -is [System.NullReferenceException] -or ($fallbackException -and $fallbackException.Message -like 'Object reference*')
-                    if ($fallbackNullRef) {
-                        Write-Warning "ScriptAnalyzer continues to hit a NullReferenceException for '$TargetPath'. Skipping this file."
-                        return @()
-                    }
-
-                    throw
-                }
-            }
-
-            if ($isNullRef) {
-                Write-Warning "ScriptAnalyzer hit a NullReferenceException for '$TargetPath'. Skipping this file."
-                return @()
-            }
-
-            if ($isCommandNotFound) {
-                Write-Warning "ScriptAnalyzer hit a CommandNotFoundException for '$TargetPath'. Skipping this file."
-                return @()
-            }
-
-            if ($isDynamicModuleLimit) {
-                Write-Warning "ScriptAnalyzer hit the dynamic module limit for '$TargetPath'. Skipping this file."
-                return @()
-            }
-
-            throw
-        }
-    }
-
-    foreach ($target in $Path) {
-        if (-not (Test-Path $target)) {
-            Write-Warning "Skipping missing path: $target"
-            continue
+    foreach ($candidate in $InputPath) {
+        if (-not (Test-Path -LiteralPath $candidate)) {
+            throw "Lint target not found: $candidate"
         }
 
-        $resolved = (Resolve-Path $target).ProviderPath
-        $item = Get-Item $resolved
-
+        $item = Get-Item -LiteralPath $candidate -ErrorAction Stop
         if ($item.PSIsContainer) {
-            $files = Get-ChildItem -Path $resolved -File -Recurse -Include *.ps1, *.psm1, *.psd1
-            if (-not $IncludeScripts) {
-                $files = $files | Where-Object { $_.FullName -notlike '*\\Scripts\\*' }
-            }
-            foreach ($file in $files) {
-                $params = @{
-                    Severity    = @('Error', 'Warning')
-                    Path        = $file.FullName
-                    ErrorAction = 'Stop'
-                }
-                if ($SettingsFile) {
-                    $params.Settings = $SettingsFile
-                }
-                if ($IncludeTests -and $file.FullName.StartsWith($testRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
-                    # PSUseCorrectCasing dereferences null command metadata for Pester 6 DSL
-                    # commands. Mock callback parameters also intentionally mirror command
-                    # signatures even when a scenario uses only a subset of them.
-                    $params.ExcludeRule = @('PSUseCorrectCasing', 'PSReviewUnusedParameter')
-                }
-                if ($FixMode) {
-                    $params.Fix = $true
-                }
-                try {
-                    $result = & $invokeAnalyzer $params
-                    if ($result) { $passResults += $result }
-                }
-                catch {
-                    Write-Error "ScriptAnalyzer failed for path '$($file.FullName)': $_"
-                    exit 1
+            foreach ($file in Get-ChildItem -LiteralPath $item.FullName -Recurse -File) {
+                if ($file.Extension -in @('.ps1', '.psm1', '.psd1')) {
+                    [void]$Destination.Add($file.FullName)
                 }
             }
-            continue
         }
-
-        $params = @{
-            Severity    = @('Error', 'Warning')
-            Path        = $resolved
-            ErrorAction = 'Stop'
-        }
-        if ($SettingsFile) {
-            $params.Settings = $SettingsFile
-        }
-        if ($IncludeTests -and $resolved.StartsWith($testRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
-            $params.ExcludeRule = @('PSUseCorrectCasing', 'PSReviewUnusedParameter')
-        }
-        if ($FixMode) {
-            $params.Fix = $true
-        }
-        try {
-            $result = & $invokeAnalyzer $params
-            if ($result) { $passResults += $result }
-        }
-        catch {
-            Write-Error "ScriptAnalyzer failed for path '$target': $_"
-            exit 1
+        elseif ($item.Extension -in @('.ps1', '.psm1', '.psd1')) {
+            [void]$Destination.Add($item.FullName)
         }
     }
-
-    return $passResults
 }
 
-$allResults = @()
+function Start-AnalyzerJobForFile {
+    param(
+        [Parameter(Mandatory)]
+        [string]$LiteralPath,
+
+        [Parameter(Mandatory)]
+        [bool]$FixMode,
+
+        [Parameter(Mandatory)]
+        [string]$IncludedRules
+    )
+
+    $analyzerJobScript = {
+        param(
+            [string]$AnalyzerModulePath,
+            [string]$AnalyzerSettingsPath,
+            [string]$FilePath,
+            [bool]$ApplyFixes,
+            [string]$RulesToInclude
+        )
+
+        $ErrorActionPreference = 'Stop'
+        try {
+            Import-Module -Name $AnalyzerModulePath -Force -ErrorAction Stop
+            $parameters = @{
+                Path        = $FilePath
+                Settings    = $AnalyzerSettingsPath
+                Severity    = @('Error', 'Warning')
+                IncludeRule = @($RulesToInclude -split ',')
+                ErrorAction = 'Stop'
+            }
+            if ($ApplyFixes) {
+                $parameters.Fix = $true
+            }
+
+            $diagnostics = @(
+                Invoke-ScriptAnalyzer @parameters |
+                    ForEach-Object {
+                        [pscustomobject]@{
+                            ScriptPath = [string]$_.ScriptPath
+                            Line       = [int]$_.Line
+                            Column     = [int]$_.Column
+                            Severity   = [string]$_.Severity
+                            RuleName   = [string]$_.RuleName
+                            Message    = [string]$_.Message
+                        }
+                    }
+            )
+
+            @{
+                Success      = $true
+                FilePath     = $FilePath
+                Diagnostics  = $diagnostics
+                ErrorType    = $null
+                ErrorMessage = $null
+            } | ConvertTo-Json -Depth 5 -Compress
+        }
+        catch {
+            @{
+                Success      = $false
+                FilePath     = $FilePath
+                Diagnostics  = @()
+                ErrorType    = $_.Exception.GetType().FullName
+                ErrorMessage = $_.Exception.Message
+            } | ConvertTo-Json -Depth 5 -Compress
+        }
+    }
+
+    Start-Job -ScriptBlock $analyzerJobScript -ArgumentList @(
+        $analyzerModule.Path,
+        $SettingsPath,
+        $LiteralPath,
+        $FixMode,
+        $IncludedRules)
+}
+
+function Invoke-AnalyzerBatch {
+    param(
+        [Parameter(Mandatory)]
+        [string[]]$LiteralPath,
+
+        [Parameter(Mandatory)]
+        [bool]$FixMode
+    )
+
+    $pending = New-Object 'System.Collections.Generic.Queue[object]'
+    foreach ($filePath in $LiteralPath) {
+        $excludedRules = if ($IncludeTests -and $filePath.StartsWith($testRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
+            # Pester 6 DSL discovery and signature-compatible mock callbacks
+            # produce false positives under these two analyzer rules.
+            @('PSUseCorrectCasing', 'PSReviewUnusedParameter')
+        }
+        else {
+            @()
+        }
+
+        foreach ($ruleGroup in $analyzerRuleGroups) {
+            $includedRules = @(
+                $ruleGroup -split ',' |
+                    Where-Object { $_ -and $_ -notin $excludedRules }
+            )
+            if ($includedRules.Count -eq 0) {
+                continue
+            }
+
+            $pending.Enqueue([pscustomobject]@{
+                    FilePath     = $filePath
+                    IncludedRules = [string]::Join(',', $includedRules)
+                    Attempt      = 1
+                    Retried      = $false
+                })
+        }
+    }
+
+    $active = @{}
+    $diagnostics = New-Object 'System.Collections.Generic.List[object]'
+    $throttleLimit = if ($FixMode) { 1 } else { $AnalyzerThrottleLimit }
+    try {
+        while ($pending.Count -gt 0 -or $active.Count -gt 0) {
+            while ($pending.Count -gt 0) {
+                if ($active.Count -ge $throttleLimit) {
+                    break
+                }
+
+                $retryInProgress = @($active.Values | Where-Object Attempt -GT 1).Count -gt 0
+                $nextAttemptIsRetry = $pending.Peek().Attempt -gt 1
+                if ($retryInProgress -or ($nextAttemptIsRetry -and $active.Count -gt 0)) {
+                    break
+                }
+
+                $workItem = $pending.Dequeue()
+                $job = Start-AnalyzerJobForFile `
+                    -LiteralPath $workItem.FilePath `
+                    -FixMode $FixMode `
+                    -IncludedRules $workItem.IncludedRules
+                $active[$job.Id] = [pscustomobject]@{
+                    Job           = $job
+                    FilePath      = $workItem.FilePath
+                    IncludedRules = $workItem.IncludedRules
+                    Attempt       = $workItem.Attempt
+                    Retried       = $workItem.Retried
+                    StartedAt     = [datetime]::UtcNow
+                }
+            }
+
+            if ($active.Count -eq 0) {
+                continue
+            }
+
+            $null = Wait-Job -Job @($active.Values.Job) -Any -Timeout 1
+            foreach ($jobId in @($active.Keys)) {
+                $context = $active[$jobId]
+                $job = $context.Job
+                $timedOut = $job.State -eq 'Running' -and ([datetime]::UtcNow - $context.StartedAt).TotalSeconds -ge $AnalyzerTimeoutSeconds
+                if ($job.State -eq 'Running' -and -not $timedOut) {
+                    continue
+                }
+
+                $failureMessage = $null
+                $response = $null
+                if ($timedOut) {
+                    Stop-Job -Job $job -ErrorAction SilentlyContinue
+                    $failureMessage = "analysis timed out after $AnalyzerTimeoutSeconds seconds"
+                }
+                else {
+                    $jobOutput = @(
+                        Receive-Job -Job $job `
+                            -ErrorAction SilentlyContinue `
+                            -WarningAction SilentlyContinue `
+                            -InformationAction SilentlyContinue
+                    )
+                    $jsonResponse = $jobOutput |
+                        Where-Object { $_ -is [string] -and $_.TrimStart().StartsWith('{') } |
+                            Select-Object -Last 1
+                    if ($jsonResponse) {
+                        try {
+                            $response = $jsonResponse | ConvertFrom-Json -ErrorAction Stop
+                        }
+                        catch {
+                            $failureMessage = "returned invalid analyzer response: $($_.Exception.Message)"
+                        }
+                    }
+                    elseif ($job.State -eq 'Failed' -and $job.ChildJobs[0].JobStateInfo.Reason) {
+                        $failureMessage = $job.ChildJobs[0].JobStateInfo.Reason.Message
+                    }
+                    else {
+                        $failureMessage = 'returned no analyzer response'
+                    }
+                }
+
+                Remove-Job -Job $job -Force -ErrorAction SilentlyContinue
+                $active.Remove($jobId)
+
+                if ($response -and -not $response.Success) {
+                    $failureMessage = '{0}: {1}' -f $response.ErrorType, $response.ErrorMessage
+                }
+
+                if ($failureMessage) {
+                    $failedRules = @($context.IncludedRules -split ',' | Where-Object { $_ })
+                    if ($failedRules.Count -gt 1) {
+                        $splitBoundary = [int][Math]::Ceiling($failedRules.Count / 2)
+                        $splitGroups = @(
+                            [string]::Join(',', @($failedRules[0..($splitBoundary - 1)]))
+                            [string]::Join(',', @($failedRules[$splitBoundary..($failedRules.Count - 1)]))
+                        ) | Where-Object { $_ }
+
+                        Write-Warning "PSScriptAnalyzer failed for '$($context.FilePath)' with $($failedRules.Count) rules ($failureMessage); splitting that rule set into smaller isolated passes."
+                        foreach ($splitGroup in $splitGroups) {
+                            $pending.Enqueue([pscustomobject]@{
+                                    FilePath      = $context.FilePath
+                                    IncludedRules = $splitGroup
+                                    Attempt       = $context.Attempt + 1
+                                    Retried       = $false
+                                })
+                        }
+                        continue
+                    }
+
+                    if (-not $context.Retried) {
+                        Write-Warning "PSScriptAnalyzer failed for '$($context.FilePath)' with rule '$($failedRules[0])' ($failureMessage); retrying that rule once in a fresh process."
+                        $pending.Enqueue([pscustomobject]@{
+                                FilePath      = $context.FilePath
+                                IncludedRules = $context.IncludedRules
+                                Attempt       = $context.Attempt + 1
+                                Retried       = $true
+                            })
+                        continue
+                    }
+
+                    throw "PSScriptAnalyzer could not analyze '$($context.FilePath)' with rule '$($failedRules[0])' after two isolated attempts: $failureMessage"
+                }
+
+                foreach ($diagnostic in @($response.Diagnostics)) {
+                    [void]$diagnostics.Add($diagnostic)
+                }
+            }
+        }
+    }
+    finally {
+        foreach ($context in @($active.Values)) {
+            Stop-Job -Job $context.Job -ErrorAction SilentlyContinue
+            Remove-Job -Job $context.Job -Force -ErrorAction SilentlyContinue
+        }
+    }
+
+    return $diagnostics.ToArray()
+}
+
+$fileSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+if ($PSBoundParameters.ContainsKey('Path')) {
+    Add-PowerShellFile -Destination $fileSet -InputPath $Path
+}
+else {
+    $moduleTargets = @(
+        Get-ChildItem -LiteralPath $moduleRoot -File |
+            Where-Object { $_.Extension -in @('.ps1', '.psm1', '.psd1') } |
+                Select-Object -ExpandProperty FullName
+        Join-Path -Path $moduleRoot -ChildPath 'Public'
+        Join-Path -Path $moduleRoot -ChildPath 'Private'
+    )
+    Add-PowerShellFile -Destination $fileSet -InputPath $moduleTargets
+}
+
+if ($IncludeScripts) {
+    Add-PowerShellFile -Destination $fileSet -InputPath @($PSScriptRoot)
+}
+if ($IncludeTests -and -not $PSBoundParameters.ContainsKey('Path')) {
+    Add-PowerShellFile -Destination $fileSet -InputPath @($testRoot)
+}
+
+$files = @($fileSet | Sort-Object)
+Write-Host "Analyzing $($files.Count) PowerShell file(s)..." -ForegroundColor Cyan
 
 if ($Fix) {
-    Write-Host 'Applying ScriptAnalyzer fixes...' -ForegroundColor Cyan
-    $fixResults = Invoke-LintPass -FixMode $true -SettingsFile $settingsPath
-    $fixedCount = ($fixResults | Measure-Object).Count
-    if ($fixedCount -gt 0) {
-        Write-Host "✓ Applied fixes or attempted fixes for $fixedCount diagnostic record(s)." -ForegroundColor Green
-    }
-    else {
-        Write-Host 'No auto-fixable issues detected.' -ForegroundColor Yellow
-    }
-    Write-Host 'Re-running analyzer to verify...' -ForegroundColor Cyan
+    $null = Invoke-AnalyzerBatch -LiteralPath $files -FixMode $true
 }
 
-$allResults = Invoke-LintPass -FixMode $false -SettingsFile $settingsPath
-
-if (-not $allResults) {
-    Write-Host '✓ ScriptAnalyzer reported no issues.' -ForegroundColor Green
-    exit 0
+$results = [System.Collections.Generic.List[object]]::new()
+foreach ($diagnostic in Invoke-AnalyzerBatch -LiteralPath $files -FixMode $false) {
+    [void]$results.Add($diagnostic)
 }
 
-$allResults | Sort-Object Severity, RuleName | Format-Table -AutoSize
-
-if ($TreatWarningsAsErrors -or ($allResults | Where-Object { $_.Severity -eq 'Error' })) {
-    Write-Error 'ScriptAnalyzer violations detected.'
-    exit 1
+if ($results.Count -eq 0) {
+    Write-Host 'PSScriptAnalyzer reported no issues.' -ForegroundColor Green
+    return
 }
 
-Write-Warning 'ScriptAnalyzer reported warnings. Review the output above.'
-exit 0
+$results | Sort-Object -Property ScriptPath, Line, Column, RuleName | Format-Table -AutoSize
+$hasErrors = @($results | Where-Object Severity -EQ 'Error').Count -gt 0
+$hasWarnings = @($results | Where-Object Severity -EQ 'Warning').Count -gt 0
+if ($hasErrors -or ($TreatWarningsAsErrors -and $hasWarnings)) {
+    throw "PSScriptAnalyzer reported $($results.Count) error/warning diagnostic(s)."
+}
+
+if ($hasWarnings) {
+    Write-Warning "PSScriptAnalyzer reported $(@($results | Where-Object Severity -EQ 'Warning').Count) warning diagnostic(s)."
+}
+else {
+    Write-Host "PSScriptAnalyzer reported only $($results.Count) informational diagnostic(s)." -ForegroundColor Green
+}

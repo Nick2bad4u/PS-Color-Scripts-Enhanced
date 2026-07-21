@@ -61,7 +61,7 @@ function Invoke-HelperPowerShell {
 }
 
 # Set default paths relative to repository root
-$repoRoot = Split-Path -Parent $PSScriptRoot
+$repoRoot = Split-Path -Path $PSScriptRoot -Parent
 if (-not $ModulePath) {
     $ModulePath = Join-Path $repoRoot 'ColorScripts-Enhanced'
 }
@@ -124,17 +124,16 @@ $platyModuleName = if ($platyModule) { $platyModule.Name } else { 'Microsoft.Pow
 $isModernPlaty = $platyModuleName -eq 'Microsoft.PowerShell.PlatyPS'
 
 if (-not $hasPlatyPS) {
-    Write-Host "`nplatyPS module is not installed." -ForegroundColor Yellow
-    Write-Host "`nThe module already has comment-based help that works without platyPS." -ForegroundColor Green
-    Write-Host "External XML help is optional and only needed for advanced scenarios.`n" -ForegroundColor Gray
+    if ($UpdateMarkdown -or -not $SkipXmlGeneration) {
+        throw @'
+Microsoft.PowerShell.PlatyPS is required to update Markdown or generate external help.
+Install a trusted release explicitly, then rerun the command:
+  Install-Module -Name Microsoft.PowerShell.PlatyPS -Scope CurrentUser
+Use -SkipXmlGeneration without -UpdateMarkdown only when you intend to validate existing help.
+'@
+    }
 
-    Write-Host 'To install platyPS (optional):' -ForegroundColor Yellow
-    Write-Host '  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass' -ForegroundColor Gray
-    Write-Host "  Install-Module -Name Microsoft.PowerShell.PlatyPS -Scope CurrentUser -Force -SkipPublisherCheck`n" -ForegroundColor Gray
-
-    Write-Host "Skipping markdown update and XML generation.`n" -ForegroundColor Green
-    $SkipXmlGeneration = $true
-    $UpdateMarkdown = $false
+    Write-Verbose 'Microsoft.PowerShell.PlatyPS is unavailable; validating existing help only.'
 }
 
 if (-not $SkipXmlGeneration -and $hasPlatyPS) {
@@ -166,16 +165,33 @@ if (-not $SkipXmlGeneration) {
                 $escapedModulePath = $ModulePath -replace "'", "''"
                 $escapedCulturePath = $cultureOutputPath -replace "'", "''"
                 $escapedPlatyName = $platyModuleName -replace "'", "''"
+                $escapedManifestPath = $ModuleManifestPath -replace "'", "''"
+                $syncHelpPath = Join-Path -Path $PSScriptRoot -ChildPath 'Sync-HelpMetadata.ps1'
+                if ($isModernPlaty -and -not (Test-Path -LiteralPath $syncHelpPath -PathType Leaf)) {
+                    throw "Cannot locate the metadata synchronization script at '$syncHelpPath'."
+                }
+                $escapedSyncHelpPath = $syncHelpPath -replace "'", "''"
 
-                $updateScript = @"
+                if ($isModernPlaty) {
+                    $updateScript = @"
 Import-Module '$escapedModulePath' -Force -ErrorAction Stop
 Import-Module '$escapedPlatyName' -Force -ErrorAction Stop
 
-# Update all markdown help files for the module
+& '$escapedSyncHelpPath' -ModuleManifestPath '$escapedManifestPath' -CulturePath '$escapedCulturePath' -Culture '$uiCulture' -PlatyModuleName '$escapedPlatyName'
+
+Write-Host "Markdown files updated successfully for $uiCulture"
+"@
+                }
+                else {
+                    $updateScript = @"
+Import-Module '$escapedModulePath' -Force -ErrorAction Stop
+Import-Module '$escapedPlatyName' -Force -ErrorAction Stop
+
 Update-MarkdownCommandHelp -Path '$escapedCulturePath' -RefreshModulePage -AlphabeticParamsOrder -UpdateInputOutput -Force
 
 Write-Host "Markdown files updated successfully for $uiCulture"
 "@
+                }
 
                 $updateResult = Invoke-HelperPowerShell -ScriptContent $updateScript -Purpose 'markdown help update'
 
@@ -194,9 +210,18 @@ Write-Host "Markdown files updated successfully for $uiCulture"
                 Write-Host "  ✓ Markdown files updated successfully for $uiCulture" -ForegroundColor Green
             }
             catch {
-                Write-Host "  ✗ Failed to update markdown files for ${uiCulture}: $_" -ForegroundColor Red
-                Write-Host '    Continuing with existing markdown...' -ForegroundColor Yellow
+                throw "Failed to update markdown files for ${uiCulture}: $($_.Exception.Message)"
             }
+        }
+
+        $templateMarkers = @(
+            Get-ChildItem -LiteralPath $cultureOutputPath -Filter '*.md' -File |
+                Select-String -SimpleMatch '{{'
+        )
+        if ($templateMarkers.Count -gt 0) {
+            $locations = $templateMarkers |
+                ForEach-Object { '{0}:{1}' -f $_.Path, $_.LineNumber }
+            throw "Unresolved PlatyPS template markers remain for ${uiCulture}: $($locations -join ', ')"
         }
 
         # Generate MAML from markdown files
@@ -227,6 +252,16 @@ if (Test-Path `$nestedHelp) {
         Remove-Item -Path `$nestedDir -Recurse -Force
     }
 }
+
+if (-not (Test-Path -LiteralPath `$targetHelp -PathType Leaf)) {
+    throw "PlatyPS did not generate the expected MAML file '`$targetHelp'."
+}
+
+`$maml = [xml](Get-Content -LiteralPath `$targetHelp -Raw -ErrorAction Stop)
+`$mamlCommandCount = @(`$maml.SelectNodes("//*[local-name()='command' and namespace-uri()='http://schemas.microsoft.com/maml/dev/command/2004/10']")).Count
+if (`$mamlCommandCount -ne `$commandHelpFiles.Count) {
+    throw "Generated MAML contains `$mamlCommandCount commands; expected `$(`$commandHelpFiles.Count)."
+}
 "@
             }
             else {
@@ -250,8 +285,7 @@ New-ExternalHelp -Path '$escapedCulturePath' -OutputPath '$escapedCulturePath' -
             Write-Host "    Location: $cultureOutputPath\ColorScripts-Enhanced-help.xml" -ForegroundColor Gray
         }
         catch {
-            Write-Host "  ✗ Failed to generate help XML for ${uiCulture}: $_" -ForegroundColor Red
-            continue
+            throw "Failed to generate help XML for ${uiCulture}: $($_.Exception.Message)"
         }
 
         # Generate HelpInfo.xml for updatable help
@@ -293,8 +327,7 @@ New-ExternalHelp -Path '$escapedCulturePath' -OutputPath '$escapedCulturePath' -
             Write-Host "    Version: $moduleVersion" -ForegroundColor Gray
         }
         catch {
-            Write-Host "  ✗ Failed to generate HelpInfo.xml for ${uiCulture}: $_" -ForegroundColor Red
-            Write-Host '    Continuing without HelpInfo.xml...' -ForegroundColor Yellow
+            throw "Failed to generate HelpInfo.xml for ${uiCulture}: $($_.Exception.Message)"
         }
     }
 }

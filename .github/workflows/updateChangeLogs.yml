@@ -11,16 +11,17 @@ concurrency:
     group: update-changelogs-${{ github.ref }}
     cancel-in-progress: true
 
-permissions:
-    contents: write
-    pull-requests: write
-    actions: write
-    checks: write
-    issues: write
-    statuses: write
+permissions: {}
 
 jobs:
     update_changelogs:
+        if: >-
+            github.event_name == 'workflow_dispatch' ||
+            github.event.workflow_run.conclusion == 'success'
+        permissions:
+            checks: write
+            contents: write
+            pull-requests: write
         runs-on: windows-latest
         steps:
             - name: Harden the runner (Audit all outbound calls)
@@ -39,16 +40,21 @@ jobs:
                   GH_TOKEN: ${{ github.token }}
               shell: pwsh
               run: |
+                  $headSha = (git rev-parse HEAD).Trim()
+                  if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($headSha)) {
+                      throw 'Unable to resolve the checked-out commit for the changelog check run.'
+                  }
+
                   $checkId = gh api -X POST -H "Accept: application/vnd.github+json" `
                     -H "X-GitHub-Api-Version: 2022-11-28" `
                     -f name='Update ChangeLogs' `
-                    -f head_sha='${{ github.sha }}' `
+                    -f head_sha="$headSha" `
                     -f status='in_progress' `
                     -f 'output[title]=Update ChangeLogs' `
                     -f 'output[summary]=Changelog update in progress' `
                     --jq '.id' `
-                    /repos/${{ github.repository }}/check-runs
-                  echo "CHECKID=$checkId" | Out-File -FilePath $env:GITHUB_ENV -Append
+                    "/repos/$env:GITHUB_REPOSITORY/check-runs"
+                  "CHECKID=$checkId" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
             - name: Set up Node.js
               uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
@@ -98,7 +104,7 @@ jobs:
                   '@
                   $body | gh api -X PATCH -H "Accept: application/vnd.github+json" `
                     -H "X-GitHub-Api-Version: 2022-11-28" `
-                    /repos/${{ github.repository }}/check-runs/$env:CHECKID --input -
+                    "/repos/$env:GITHUB_REPOSITORY/check-runs/$env:CHECKID" --input -
 
             - name: Complete Check Run
               if: always()
@@ -106,18 +112,31 @@ jobs:
                   GH_TOKEN: ${{ github.token }}
               shell: pwsh
               run: |
-                  $body = @'
-                  {
-                    "conclusion": "success",
-                    "output": {
-                      "title": "Update ChangeLogs",
-                      "summary": "Changelog update workflow completed successfully."
-                    }
+                  if ([string]::IsNullOrWhiteSpace($env:CHECKID)) {
+                      Write-Warning 'No changelog check run was created; there is nothing to complete.'
+                      return
                   }
-                  '@
+
+                  $jobStatus = '${{ job.status }}'
+                  $conclusion = if ($jobStatus -eq 'success') { 'success' } else { 'failure' }
+                  $summary = if ($conclusion -eq 'success') {
+                      'Changelog update workflow completed successfully.'
+                  }
+                  else {
+                      "Changelog update workflow finished with job status '$jobStatus'."
+                  }
+
+                  $body = @{
+                      conclusion = $conclusion
+                      output = @{
+                          title = 'Update ChangeLogs'
+                          summary = $summary
+                      }
+                  } | ConvertTo-Json -Depth 3
+
                   $body | gh api -X PATCH -H "Accept: application/vnd.github+json" `
                     -H "X-GitHub-Api-Version: 2022-11-28" `
-                    /repos/${{ github.repository }}/check-runs/$env:CHECKID --input -
+                    "/repos/$env:GITHUB_REPOSITORY/check-runs/$env:CHECKID" --input -
 
             - name: Add Job Summary
               if: always()
@@ -125,6 +144,6 @@ jobs:
               run: |
                   Add-Content -Path $env:GITHUB_STEP_SUMMARY "## 📝 Changelog Update Workflow Summary"
                   Add-Content -Path $env:GITHUB_STEP_SUMMARY "- CHANGELOG.md files were generated or updated in the repository and subfolders."
-                  Add-Content -Path $env:GITHUB_STEP_SUMMARY "- A pull request was created or updated with the new changelogs."
-                  Add-Content -Path $env:GITHUB_STEP_SUMMARY "- Check runs were updated to reflect the workflow status."
+                  Add-Content -Path $env:GITHUB_STEP_SUMMARY "- Any resulting changes were offered to the changelog pull request action."
+                  Add-Content -Path $env:GITHUB_STEP_SUMMARY "- The check run reflects the workflow's actual result."
                   Add-Content -Path $env:GITHUB_STEP_SUMMARY "- Workflow completed with status: ${{ job.status }}."

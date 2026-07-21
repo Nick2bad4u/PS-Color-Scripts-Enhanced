@@ -3,9 +3,10 @@
     Run markdown-link-check across repository markdown files.
 
 .DESCRIPTION
-    Uses npx to run markdown-link-check@3.12.2 against every Markdown file in the repository,
-    excluding node_modules and the .git directory. The script honours the optional configuration
-    file specified via -ConfigPath (defaults to ./.markdown-link-check.json).
+    Uses npx to run markdown-link-check@3.12.2 against end-user Markdown files in the repository.
+    It excludes generated, temporary, editor, dependency, and agent-instruction paths. The script
+    honours the optional configuration file specified via -ConfigPath (defaults to
+    ./.markdown-link-check.json).
 
 .PARAMETER ConfigPath
     Optional path to the markdown-link-check configuration file.
@@ -73,9 +74,11 @@ if ($ConfigPath) {
 if (-not $Paths) {
     $Paths = Get-ChildItem -Path $repoRoot -Filter '*.md' -File -Recurse | Where-Object {
         $relativePath = $_.FullName.Substring($repoRoot.Path.Length)
+        $_.Name -ine 'AGENTS.md' -and
         $relativePath -notmatch '^[\\/]node_modules[\\/]' -and
         $relativePath -notmatch '^[\\/]\.git[\\/]' -and
         $relativePath -notmatch '^[\\/]dist[\\/]' -and
+        $relativePath -notmatch '^[\\/]temp[\\/]' -and
         $relativePath -notmatch '^[\\/]\.vscode[\\/]' -and
         $relativePath -notmatch '^[\\/]\.idea[\\/]' -and
         $relativePath -notmatch '^[\\/]\.github[\\/]' -and
@@ -104,7 +107,7 @@ foreach ($file in $Paths) {
     }
     $arguments += $file
 
-    Write-Host "🔗 Checking $file" -ForegroundColor Cyan
+    Write-Host "[LINK] Checking $file" -ForegroundColor Cyan
 
     # Suppress Node.js deprecation warnings
     $env:NODE_NO_WARNINGS = '1'
@@ -117,4 +120,4 @@ foreach ($file in $Paths) {
     }
 }
 
-Write-Host '✅ Markdown links validated.' -ForegroundColor Green
+Write-Host '[OK] Markdown links validated.' -ForegroundColor Green
