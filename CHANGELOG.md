@@ -50,6 +50,12 @@ Restore the module's modern-PowerShell-first child renderer contract. Windows Po
 ### 🛡️ Security
 
 
+- [`d8a3806`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/d8a380693a82f8652255757ff601c2abed4ef0a6 "Diff: 2 files, +22 | -1") — 🔒 [security] Remove SAUCE font regex backtracking <sub><em>(2 files, +22, -1)</em></sub>
+
+Parse the fixed-width SAUCE font field with a direct null-terminator lookup instead of a potentially quadratic regular expression. Cover null, padded, and unterminated fields explicitly.
+
+
+
 - [`a1682f0`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/a1682f0b0d4d847b75320910887d045c1bcb1fc7 "Diff: 6 files, +179 | -534") — 🔒 [security] Remove vulnerable build dependencies <sub><em>(6 files, +179, -534)</em></sub>
 
 Replace the unmaintained frontmatter validator and enforce patched adm-zip and esbuild versions so a clean npm audit reports zero findings.
