@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Analyzes unused ANSI files to identify those with normal terminal sizes.
 
@@ -32,7 +32,7 @@
     Show detailed information for each file analyzed.
 
 .PARAMETER ShowSummary
-    Show only a summary of results. Default is true.
+    Show a summary of results when specified.
 
 .PARAMETER ConvertToScripts
     Automatically convert normal-sized files to PowerShell ColorScripts using Convert-AnsiToColorScript.js.
@@ -74,10 +74,10 @@
     Analyzes files but excludes those with more than 50 visible text characters (like artist info cards).
 #>
 
-[CmdletBinding()]
+[CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
 param(
     [Parameter()]
-    [string]$UnusedAnsiPath = '.\assets\unused-ansi-files',
+    [string]$UnusedAnsiPath = (Join-Path -Path (Split-Path -Parent $PSScriptRoot) -ChildPath 'assets/unused-ansi-files'),
 
     [Parameter()]
     [int]$MaxWidth = 120,
@@ -101,7 +101,10 @@ param(
     [switch]$ConvertToScripts,
 
     [Parameter()]
-    [string]$ConvertOutputDir = '.\ColorScripts-Enhanced\Scripts',
+    [string]$ConvertOutputDir = (Join-Path -Path (Split-Path -Parent $PSScriptRoot) -ChildPath 'ColorScripts-Enhanced/Scripts'),
+
+    [Parameter()]
+    [switch]$Force,
 
     [Parameter()]
     [switch]$StripSpaceBackground,
@@ -113,7 +116,18 @@ param(
     [int]$AsciiCharLimit = 0
 )
 
-$ErrorActionPreference = 'Continue'
+Set-StrictMode -Version Latest
+$ErrorActionPreference = 'Stop'
+
+$converterPath = Join-Path -Path $PSScriptRoot -ChildPath 'Convert-AnsiToColorScript.js'
+if (-not (Test-Path -LiteralPath $converterPath -PathType Leaf)) {
+    throw "ANSI converter not found: $converterPath"
+}
+$nodeCommand = Get-Command -Name node -CommandType Application -ErrorAction SilentlyContinue |
+    Select-Object -First 1
+if (-not $nodeCommand) {
+    throw 'Node.js is required to analyze ANSI terminal dimensions accurately.'
+}
 
 # Helper function to strip SAUCE metadata (similar to JavaScript version)
 function Remove-Sauce {
@@ -164,8 +178,13 @@ function Remove-Sauce {
         }
     }
 
+    if ($trimOffset -gt 0 -and $Buffer[$trimOffset - 1] -eq 0x1A) {
+        $trimOffset--
+    }
+
+    $contentBuffer = if ($trimOffset -gt 0) { $Buffer[0..($trimOffset - 1)] } else { [byte[]]@() }
     return @{
-        Buffer = $Buffer[0..($trimOffset - 1)]
+        Buffer = $contentBuffer
         Sauce  = $sauce
     }
 }
@@ -173,12 +192,12 @@ function Remove-Sauce {
 # Helper function to calculate actual terminal dimensions
 function Get-AnsiDimension {
     param(
-        [string]$Content,
+        [System.IO.FileInfo]$FileInfo,
         [hashtable]$Sauce
     )
 
     # If SAUCE provides dimensions and they seem reasonable, use them
-    if ($Sauce -and $Sauce.Width -gt 0 -and $Sauce.Height -gt 0 -and $Sauce.Width -le 300 -and $Sauce.Height -le 200) {
+    if ($Sauce -and $Sauce.Width -gt 0 -and $Sauce.Height -gt 0 -and $Sauce.Width -le 2048 -and $Sauce.Height -le 8192) {
         return @{
             Width  = $Sauce.Width
             Height = $Sauce.Height
@@ -186,64 +205,50 @@ function Get-AnsiDimension {
         }
     }
 
-    # Calculate dimensions by analyzing content
-    $lines = $Content -split '[\r\n]+'
-    $maxWidth = 0
-    $actualHeight = 0
-
-    foreach ($line in $lines) {
-        if ([string]::IsNullOrWhiteSpace($line)) {
-            continue
+    # Use the same bounded terminal emulator that performs conversion. Regex
+    # heuristics cannot correctly account for cursor movement, overwrites, tabs,
+    # erases, or wrapping and therefore misclassify real ANSI art.
+    # Native stdout decoding follows the process-wide console encoding in both
+    # Windows PowerShell and PowerShell 7. Pin it for this invocation so a caller
+    # that previously selected UTF-16 cannot turn the ASCII JSON prefix `{` + `"`
+    # into U+227B and make ConvertFrom-Json fail.
+    $utf8Encoding = New-Object System.Text.UTF8Encoding($false)
+    $originalOutputEncoding = $OutputEncoding
+    $originalConsoleEncoding = $null
+    $consoleEncodingChanged = $false
+    try {
+        try {
+            $originalConsoleEncoding = [Console]::OutputEncoding
+            [Console]::OutputEncoding = $utf8Encoding
+            $consoleEncodingChanged = $true
+        }
+        catch {
+            Write-Verbose "Unable to set the console output encoding for ANSI analysis: $($_.Exception.Message)"
         }
 
-        $actualHeight++
-
-        # Remove ANSI escape sequences to get visible character count
-        # This regex matches: ESC[ followed by any number of digits, semicolons, or other parameters, ending with a letter
-        $visibleLine = $line -replace '\x1b\[[0-9;]*[a-zA-Z]', ''
-        $visibleLength = $visibleLine.Length
-
-        if ($visibleLength -gt $maxWidth) {
-            $maxWidth = $visibleLength
+        $OutputEncoding = $utf8Encoding
+        $analysisOutput = @(& $nodeCommand.Source $converterPath '--analyze-json' '--encoding=cp437' '--' $FileInfo.FullName 2>&1)
+    }
+    finally {
+        $OutputEncoding = $originalOutputEncoding
+        if ($consoleEncodingChanged) {
+            try {
+                [Console]::OutputEncoding = $originalConsoleEncoding
+            }
+            catch {
+                Write-Verbose "Unable to restore the console output encoding after ANSI analysis: $($_.Exception.Message)"
+            }
         }
     }
 
-    # Handle single-line files that might need wrapping
-    if ($actualHeight -eq 1 -and $maxWidth -gt 160) {
-        # Likely needs to be wrapped at 80 columns
-        $estimatedHeight = [Math]::Ceiling($maxWidth / 80.0)
-        return @{
-            Width  = 80
-            Height = $estimatedHeight
-            Source = 'Calculated (wrapped)'
-        }
+    if ($LASTEXITCODE -ne 0) {
+        throw "ANSI dimension analysis failed for '$($FileInfo.FullName)': $($analysisOutput -join [Environment]::NewLine)"
     }
-
-    # Check for cursor positioning that might indicate single-line format
-    if ($Content -match '\x1b\[\d+;\d+[Hf]') {
-        # Parse cursor positions to determine dimensions
-        $maxRow = 1
-        $maxCol = 1
-
-        $cursorMatches = [regex]::Matches($Content, '\x1b\[(\d+);(\d+)[Hf]')
-        foreach ($match in $cursorMatches) {
-            $row = [int]$match.Groups[1].Value
-            $col = [int]$match.Groups[2].Value
-            if ($row -gt $maxRow) { $maxRow = $row }
-            if ($col -gt $maxCol) { $maxCol = $col }
-        }
-
-        return @{
-            Width  = $maxCol
-            Height = $maxRow
-            Source = 'Cursor positioning'
-        }
-    }
-
+    $analysis = $analysisOutput -join [Environment]::NewLine | ConvertFrom-Json -ErrorAction Stop
     return @{
-        Width  = $maxWidth
-        Height = $actualHeight
-        Source = 'Line analysis'
+        Width  = [int]$analysis.width
+        Height = [int]$analysis.height
+        Source = 'Terminal emulation'
     }
 }
 
@@ -254,7 +259,7 @@ function Get-AsciiCharCount {
     )
 
     # Remove ANSI escape sequences first
-    $cleanContent = $Content -replace '\x1b\[[0-9;]*[a-zA-Z]', ''
+    $cleanContent = $Content -replace '\x1b\[[0-?]*[ -/]*[@-~]', ''
 
     # Count different types of characters
     $extendedAsciiCount = 0      # Box drawing, special chars (128-255)
@@ -265,8 +270,9 @@ function Get-AsciiCharCount {
     for ($i = 0; $i -lt $cleanContent.Length; $i++) {
         $charCode = [int][char]$cleanContent[$i]
 
-        # Check for extended ASCII (128-255) - used in box drawing, etc.
-        if ($charCode -ge 128 -and $charCode -le 255) {
+        # CP437 box/block characters decode to Unicode code points such as
+        # U+2500 and U+2588, not to the original byte values 128-255.
+        if ($charCode -gt 127 -and -not [char]::IsWhiteSpace($cleanContent[$i])) {
             $hasExtendedAscii = $true
             $extendedAsciiCount++
         }
@@ -285,13 +291,21 @@ function Get-AsciiCharCount {
         VisibleTextCount   = $visibleTextCount
         WhitespaceCount    = $whitespaceCount
         HasExtendedAscii   = $hasExtendedAscii
-        TotalAsciiChars    = $asciiCount + $regularAsciiOnlyCount
+        TotalAsciiChars    = $extendedAsciiCount + $visibleTextCount
     }
 }
 # Main analysis function
 function Test-AnsiFile {
     param(
-        [System.IO.FileInfo]$FileInfo
+        [System.IO.FileInfo]$FileInfo,
+
+        [int]$MaximumWidth,
+
+        [int]$MaximumHeight,
+
+        [switch]$ExcludePlainAscii,
+
+        [int]$MaximumAsciiCharacters
     )
 
     try {
@@ -319,7 +333,7 @@ function Test-AnsiFile {
         }
 
         # Check for regular ASCII characters if exclusion flag is set
-        if ($ExcludeRegularAscii) {
+        if ($ExcludePlainAscii) {
             $hasExtendedAscii = $false
             $hasAnsiEscapes = $content -match '\x1b\['
 
@@ -347,14 +361,14 @@ function Test-AnsiFile {
         }
 
         # Calculate dimensions
-        $dimensions = Get-AnsiDimension -Content $content -Sauce $result.Sauce
+        $dimensions = Get-AnsiDimension -FileInfo $FileInfo -Sauce $result.Sauce
 
         # Check ASCII character limit if specified
-        if ($AsciiCharLimit -ge 0 -and $ExcludeRegularAscii) {
+        if ($MaximumAsciiCharacters -ge 0 -and $ExcludePlainAscii) {
             $asciiInfo = Get-AsciiCharCount -Content $content
 
             # If limit is 0, exclude files with significant text but little art
-            if ($AsciiCharLimit -eq 0) {
+            if ($MaximumAsciiCharacters -eq 0) {
                 # Exclude if file has lots of text but very few extended ASCII art characters
                 # This filters out info cards, copyright notices, etc.
                 $artToTextRatio = if ($asciiInfo.VisibleTextCount -gt 0) {
@@ -377,7 +391,7 @@ function Test-AnsiFile {
                 }
             }
             # Otherwise use the explicit limit
-            elseif ($asciiInfo.VisibleTextCount -gt $AsciiCharLimit) {
+            elseif ($asciiInfo.VisibleTextCount -gt $MaximumAsciiCharacters) {
                 return [PSCustomObject]@{
                     FileName     = $FileInfo.Name
                     FilePath     = $FileInfo.FullName
@@ -386,13 +400,13 @@ function Test-AnsiFile {
                     Source       = $dimensions.Source
                     IsNormalSize = $false
                     FileSizeKB   = [Math]::Round($FileInfo.Length / 1KB, 2)
-                    Error        = "Excluded: Contains $($asciiInfo.VisibleTextCount) visible text chars (limit: $AsciiCharLimit)"
+                    Error        = "Excluded: Contains $($asciiInfo.VisibleTextCount) visible text chars (limit: $MaximumAsciiCharacters)"
                 }
             }
         }
 
         # Determine if it's within normal terminal size
-        $isNormalSize = $dimensions.Width -le $MaxWidth -and $dimensions.Height -le $MaxHeight
+        $isNormalSize = $dimensions.Width -le $MaximumWidth -and $dimensions.Height -le $MaximumHeight
 
         return [PSCustomObject]@{
             FileName     = $FileInfo.Name
@@ -424,13 +438,13 @@ Write-Host '[ANALYZE] Analyzing unused ANSI files for normal terminal sizes...' 
 Write-Host "[CRITERIA] Normal size criteria: Width ≤ $MaxWidth columns, Height ≤ $MaxHeight lines" -ForegroundColor Yellow
 
 # Validate input path
-if (-not (Test-Path $UnusedAnsiPath)) {
+if (-not (Test-Path -LiteralPath $UnusedAnsiPath -PathType Container)) {
     Write-Error "Path not found: $UnusedAnsiPath"
     exit 1
 }
 
 # Get all .ans files
-$ansiFiles = Get-ChildItem -Path $UnusedAnsiPath -Filter '*.ans' -File
+$ansiFiles = @(Get-ChildItem -LiteralPath $UnusedAnsiPath -Filter '*.ans' -File)
 if ($ansiFiles.Count -eq 0) {
     Write-Warning "No .ans files found in $UnusedAnsiPath"
     exit 0
@@ -438,26 +452,11 @@ if ($ansiFiles.Count -eq 0) {
 
 Write-Host "[FILES] Found $($ansiFiles.Count) ANSI files to analyze..." -ForegroundColor Green
 
-# Create output folder if specified
-if ($CopyToFolder) {
-    if (-not (Test-Path $CopyToFolder)) {
-        New-Item -ItemType Directory -Path $CopyToFolder -Force | Out-Null
-        Write-Host "[FOLDER] Created output folder: $CopyToFolder" -ForegroundColor Green
-    }
-}
-
-# Create conversion output directory if needed
-if ($ConvertToScripts) {
-    if (-not (Test-Path $ConvertOutputDir)) {
-        New-Item -ItemType Directory -Path $ConvertOutputDir -Force | Out-Null
-        Write-Host "[FOLDER] Created conversion output folder: $ConvertOutputDir" -ForegroundColor Green
-    }
-}
-
 # Analyze each file
 $results = @()
 $processedCount = 0
 $convertedCount = 0
+$conversionFailureCount = 0
 
 foreach ($file in $ansiFiles) {
     $processedCount++
@@ -465,7 +464,14 @@ foreach ($file in $ansiFiles) {
         Write-Progress -Activity 'Analyzing ANSI files' -Status "Processing $($file.Name)" -PercentComplete (($processedCount / $ansiFiles.Count) * 100)
     }
 
-    $result = Test-AnsiFile -FileInfo $file
+    $analysisParameters = @{
+        FileInfo               = $file
+        MaximumWidth           = $MaxWidth
+        MaximumHeight          = $MaxHeight
+        ExcludePlainAscii      = $ExcludeRegularAscii
+        MaximumAsciiCharacters = $AsciiCharLimit
+    }
+    $result = Test-AnsiFile @analysisParameters
     $results += $result
 
     if ($ShowDetails) {
@@ -483,7 +489,17 @@ foreach ($file in $ansiFiles) {
     # Copy file if it meets criteria
     if ($CopyToFolder -and $result.IsNormalSize -and -not $result.Error) {
         try {
-            Copy-Item -Path $result.FilePath -Destination $CopyToFolder -Force
+            $copyTarget = Join-Path -Path $CopyToFolder -ChildPath $result.FileName
+            if ((Test-Path -LiteralPath $copyTarget -PathType Leaf) -and -not $Force) {
+                Write-Warning "Skipping existing copy target '$copyTarget'. Use -Force to replace it."
+                continue
+            }
+            if ($PSCmdlet.ShouldProcess($copyTarget, 'Copy normal-sized ANSI file')) {
+                if (-not (Test-Path -LiteralPath $CopyToFolder -PathType Container)) {
+                    New-Item -ItemType Directory -Path $CopyToFolder -Force -ErrorAction Stop | Out-Null
+                }
+                Copy-Item -LiteralPath $result.FilePath -Destination $copyTarget -Force:$Force -ErrorAction Stop
+            }
         }
         catch {
             Write-Warning "Failed to copy $($result.FileName): $_"
@@ -493,12 +509,29 @@ foreach ($file in $ansiFiles) {
     # Convert file if it meets criteria and conversion is requested
     if ($ConvertToScripts -and $result.IsNormalSize -and -not $result.Error) {
         try {
+            $baseName = [System.IO.Path]::GetFileNameWithoutExtension($result.FileName).ToLowerInvariant()
+            $baseName = $baseName -replace '[^a-z0-9]', '-' -replace '-+', '-' -replace '^-|-$', ''
+            if ([string]::IsNullOrWhiteSpace($baseName)) {
+                Write-Warning "Skipping '$($result.FileName)' because its name cannot form a safe colorscript filename."
+                $conversionFailureCount++
+                continue
+            }
+            $outputPath = Join-Path -Path $ConvertOutputDir -ChildPath ($baseName + '.ps1')
+
+            if ((Test-Path -LiteralPath $outputPath -PathType Leaf) -and -not $Force) {
+                Write-Warning "Skipping existing conversion output '$outputPath'. Use -Force to replace it."
+                continue
+            }
+            if (-not $PSCmdlet.ShouldProcess($outputPath, "Convert '$($result.FileName)' to a colorscript")) {
+                continue
+            }
+
             Write-Host "Converting: $($result.FileName)" -ForegroundColor Yellow
 
-            # Build the node command
             $nodeArgs = @(
-                '.\scripts\Convert-AnsiToColorScript.js'
+                $converterPath
                 $result.FilePath
+                $outputPath
             )
 
             # Add optional parameters
@@ -507,7 +540,7 @@ foreach ($file in $ansiFiles) {
             }
 
             # Run the conversion
-            $conversionResult = & node $nodeArgs 2>&1
+            $conversionResult = & $nodeCommand.Source $nodeArgs 2>&1
 
             if ($LASTEXITCODE -eq 0) {
                 Write-Host '  -> Converted successfully' -ForegroundColor Green
@@ -515,10 +548,12 @@ foreach ($file in $ansiFiles) {
             }
             else {
                 Write-Warning "  -> Conversion failed: $conversionResult"
+                $conversionFailureCount++
             }
         }
         catch {
             Write-Warning "Failed to convert $($result.FileName): $_"
+            $conversionFailureCount++
         }
     }
 }
@@ -584,8 +619,10 @@ if ($ShowSummary) {
 # Save to CSV if requested
 if ($OutputCsv) {
     try {
-        $results | Export-Csv -Path $OutputCsv -NoTypeInformation -Encoding UTF8
-        Write-Host "`n[SAVED] Results saved to: $OutputCsv" -ForegroundColor Cyan
+        if ($PSCmdlet.ShouldProcess($OutputCsv, 'Export ANSI analysis results')) {
+            $results | Export-Csv -LiteralPath $OutputCsv -NoTypeInformation -Encoding UTF8
+            Write-Host "`n[SAVED] Results saved to: $OutputCsv" -ForegroundColor Cyan
+        }
     }
     catch {
         Write-Error "Failed to save CSV: $_"
@@ -603,3 +640,7 @@ if ($ConvertToScripts) {
 }
 
 Write-Host "`n[COMPLETE] Analysis complete!" -ForegroundColor Green
+
+if ($conversionFailureCount -gt 0) {
+    throw "$conversionFailureCount ANSI file conversion(s) failed."
+}

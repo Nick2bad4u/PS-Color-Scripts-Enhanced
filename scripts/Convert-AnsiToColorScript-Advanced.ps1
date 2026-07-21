@@ -1,117 +1,137 @@
 <#
 .SYNOPSIS
-    Advanced ANSI to PowerShell ColorScript Converter (Node.js-based)
+    Convert ANSI art through the shared Node.js terminal emulator.
 
 .DESCRIPTION
-    Uses a proper ANSI parser via Node.js to handle complex ANSI art files
-    with advanced cursor positioning and escape sequences.
-
-    This converter handles:
-    - Cursor positioning (ESC[row;colH, ESC[row;colf)
-    - Cursor movement (ESC[nA, ESC[nB, ESC[nC, ESC[nD)
-    - Complex color and style codes
-    - CP437 extended ASCII characters
-    - UTF-8 encoded files (e.g., Pokemon colorscripts)
+    Exposes input-encoding and passthrough controls while retaining literal-path,
+    overwrite, ShouldProcess, pipeline, and Windows PowerShell 5.1 safeguards.
 
 .PARAMETER AnsiFile
-    Path to the ANSI art file (.ans)
+    Literal path to the ANSI art input.
 
 .PARAMETER OutputFile
-    Optional path for the output PowerShell script
-    If not specified, uses ColorScripts-Enhanced/Scripts/<name>.ps1
+    Optional output path. Omit for pipeline input to derive one name per source.
 
 .PARAMETER Encoding
-    Input file encoding. Use 'cp437' (default) for traditional ANSI art,
-    or 'utf8' for Unicode files like Pokemon colorscripts.
-    Valid values: cp437, utf8
+    Source encoding: cp437 or utf8.
 
 .PARAMETER Passthrough
-    Skip terminal emulation and wrap content directly. Use this for
-    pre-formatted files that already have proper line breaks (like Pokemon colorscripts).
+    Preserve already-formatted line layout without terminal emulation.
 
-.EXAMPLE
-    .\Convert-AnsiToColorScript-Advanced.ps1 -AnsiFile "artwork.ans"
-
-.EXAMPLE
-    .\Convert-AnsiToColorScript-Advanced.ps1 -AnsiFile "complex.ans" -OutputFile "custom.ps1"
-
-.EXAMPLE
-    .\Convert-AnsiToColorScript-Advanced.ps1 -AnsiFile "pikachu" -Encoding utf8 -Passthrough
-
-.EXAMPLE
-    Get-ChildItem .\assets\pokemon-colorscripts\* | .\Convert-AnsiToColorScript-Advanced.ps1 -Encoding utf8 -Passthrough
+.PARAMETER Force
+    Replace an existing output file.
 #>
 
-[CmdletBinding()]
+#Requires -Version 5.1
+
+[CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
 param(
-    [Parameter(Mandatory = $true, ValueFromPipeline = $true, ValueFromPipelineByPropertyName = $true)]
+    [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName)]
     [Alias('FullName', 'Path')]
     [string]$AnsiFile,
 
-    [Parameter(Mandatory = $false)]
+    [Parameter()]
     [string]$OutputFile,
 
-    [Parameter(Mandatory = $false)]
+    [Parameter()]
     [ValidateSet('cp437', 'utf8')]
     [string]$Encoding = 'cp437',
 
-    [Parameter(Mandatory = $false)]
-    [switch]$Passthrough
+    [Parameter()]
+    [switch]$Passthrough,
+
+    [Parameter()]
+    [switch]$Force
 )
 
 begin {
-    # Check if Node.js is installed
-    try {
-        $nodeVersion = node --version 2>$null
-        if (-not $nodeVersion) {
-            throw 'Node.js is not installed or not in PATH'
+    Set-StrictMode -Version Latest
+    $ErrorActionPreference = 'Stop'
+    $processedItemCount = 0
+    $repoRoot = Split-Path -Path $PSScriptRoot -Parent
+    $defaultOutputDirectory = Join-Path -Path $repoRoot -ChildPath 'ColorScripts-Enhanced/Scripts'
+    $converterPath = Join-Path -Path $PSScriptRoot -ChildPath 'Convert-AnsiToColorScript.js'
+    if (-not (Test-Path -LiteralPath $converterPath -PathType Leaf)) {
+        throw "Converter script not found: $converterPath"
+    }
+    $nodeCommand = Get-Command -Name node -CommandType Application -ErrorAction SilentlyContinue |
+        Select-Object -First 1
+    if (-not $nodeCommand) {
+        throw 'Node.js is required. Install a supported release from https://nodejs.org/.'
+    }
+
+    function Invoke-AdvancedAnsiConversion {
+        [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
+        param(
+            [Parameter(Mandatory)]
+            [string]$InputPath,
+
+            [Parameter()]
+            [string]$RequestedOutputFile
+        )
+
+        $resolvedInput = (Resolve-Path -LiteralPath $InputPath -ErrorAction Stop).ProviderPath
+        $inputInfo = Get-Item -LiteralPath $resolvedInput -ErrorAction Stop
+        if ($inputInfo.PSIsContainer) {
+            throw "ANSI input must be a file: $resolvedInput"
         }
-        Write-Verbose "Using Node.js version: $nodeVersion"
-    }
-    catch {
-        Write-Error 'Node.js is required for this converter. Please install Node.js from https://nodejs.org/'
-        return
-    }
 
-    # Get the converter script path
-    $converterScript = Join-Path $PSScriptRoot 'Convert-AnsiToColorScript.js'
+        $targetOutput = if ($RequestedOutputFile) {
+            if ([System.IO.Path]::IsPathRooted($RequestedOutputFile)) {
+                [System.IO.Path]::GetFullPath($RequestedOutputFile)
+            }
+            else {
+                $currentDirectory = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath('.')
+                [System.IO.Path]::GetFullPath((Join-Path -Path $currentDirectory -ChildPath $RequestedOutputFile))
+            }
+        }
+        else {
+            $baseName = [System.IO.Path]::GetFileNameWithoutExtension($inputInfo.Name).ToLowerInvariant()
+            $baseName = $baseName -replace '[^a-z0-9]', '-' -replace '-+', '-' -replace '^-|-$', ''
+            if ([string]::IsNullOrWhiteSpace($baseName)) {
+                throw "Input file '$($inputInfo.Name)' does not produce a safe colorscript name."
+            }
+            Join-Path -Path $defaultOutputDirectory -ChildPath ($baseName + '.ps1')
+        }
 
-    if (-not (Test-Path $converterScript)) {
-        Write-Error "Converter script not found: $converterScript"
-        return
+        if ((Test-Path -LiteralPath $targetOutput -PathType Leaf) -and -not $Force) {
+            throw "Output file already exists: $targetOutput. Use -Force to replace it."
+        }
+        if (-not $PSCmdlet.ShouldProcess($targetOutput, "Convert '$($inputInfo.Name)' to a colorscript")) {
+            return
+        }
+
+        $nodeArguments = @($converterPath, "--encoding=$Encoding")
+        if ($Passthrough) {
+            $nodeArguments += '--passthrough'
+        }
+        if ($Force) {
+            $nodeArguments += '--force'
+        }
+        $nodeArguments += @($inputInfo.FullName, $targetOutput)
+
+        $converterOutput = @(& $nodeCommand.Source @nodeArguments 2>&1)
+        if ($LASTEXITCODE -ne 0) {
+            throw "ANSI conversion failed for '$($inputInfo.FullName)': $($converterOutput -join [Environment]::NewLine)"
+        }
+        foreach ($line in $converterOutput) {
+            Write-Verbose ([string]$line)
+        }
+
+        Get-Item -LiteralPath $targetOutput -ErrorAction Stop
     }
 }
 
 process {
-    # Resolve to full path
-    $AnsiFile = Resolve-Path $AnsiFile -ErrorAction Stop
-
-    # Validate input file
-    if (-not (Test-Path $AnsiFile)) {
-        Write-Error "ANSI file not found: $AnsiFile"
-        return
+    $processedItemCount++
+    if ($processedItemCount -gt 1 -and $PSBoundParameters.ContainsKey('OutputFile')) {
+        throw 'OutputFile cannot be reused for multiple pipeline inputs. Omit it to derive one output name per input.'
     }
-
-    $ansiFileInfo = Get-Item $AnsiFile
-
-    # Build command arguments
-    $args = @($converterScript, "--encoding=$Encoding")
-
-    if ($Passthrough) {
-        $args += '--passthrough'
-    }
-
-    $args += $ansiFileInfo.FullName
-
-    if ($OutputFile) {
-        $args += $OutputFile
-    }
-
-    # Run the Node.js converter
-    Write-Verbose 'Running Node.js converter...'
-    & node @args
+    Invoke-AdvancedAnsiConversion -InputPath $AnsiFile -RequestedOutputFile $OutputFile
 }
 
 end {
-    # Nothing to do
+    if ($processedItemCount -eq 0) {
+        Invoke-AdvancedAnsiConversion -InputPath $AnsiFile -RequestedOutputFile $OutputFile
+    }
 }

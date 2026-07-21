@@ -8,6 +8,13 @@ const AnsiParser = require("node-ansiparser");
 
 const ESC = "\x1b";
 const DEFAULT_COLUMNS = 80;
+const MAX_INPUT_BYTES = 32 * 1024 * 1024;
+// These limits sit above the largest checked-in ANSI asset (1450x4641) while
+// preventing hostile cursor coordinates from driving billion-element loops.
+const MAX_TERMINAL_COLUMNS = 2048;
+const MAX_TERMINAL_ROWS = 8192;
+const MAX_TERMINAL_CELLS = 2_000_000;
+const MAX_CSI_PARAMETER = 10_000;
 
 /**
  * @typedef {"basic" | "bright" | "palette" | "rgb"} ColorMode
@@ -59,6 +66,7 @@ const DEFAULT_COLUMNS = 80;
  * @property {boolean} [autoWrap]
  * @property {boolean} [stripSpaceBackground]
  * @property {number} [maxHeight]
+ * @property {boolean} [iceColors]
  */
 
 /**
@@ -79,6 +87,7 @@ const DEFAULT_COLUMNS = 80;
  * @property {number} comments
  * @property {number} flags
  * @property {Buffer} tInfoS
+ * @property {string[]} commentLines
  */
 
 /**
@@ -291,6 +300,7 @@ function parseSauceRecord(buffer) {
         comments: buffer.readUInt8(104),
         flags: buffer.readUInt8(105),
         tInfoS: buffer.subarray(106, 128),
+        commentLines: [],
     };
 }
 
@@ -330,8 +340,24 @@ function stripSauce(buffer) {
                 .toString("ascii");
             if (commentId === "COMNT") {
                 trimOffset = commentOffset;
+                for (let index = 0; index < sauce.comments; index += 1) {
+                    const lineOffset = commentOffset + 5 + index * 64;
+                    const commentLine = iconv
+                        .decode(buffer.subarray(lineOffset, lineOffset + 64), "cp437")
+                        .replace(/\0+$/, "")
+                        .trimEnd();
+                    if (commentLine) {
+                        sauce.commentLines.push(commentLine);
+                    }
+                }
             }
         }
+    }
+
+    // A DOS 0x1A end-of-file marker commonly precedes COMNT/SAUCE metadata.
+    // It is metadata framing, not artwork; preserve any SUB bytes elsewhere.
+    if (trimOffset > 0 && buffer[trimOffset - 1] === 0x1a) {
+        trimOffset -= 1;
     }
 
     return {
@@ -346,23 +372,41 @@ class TerminalEmulator {
      */
     constructor(options = {}) {
         const opts = options || {};
-        this.columns =
-            typeof opts.columns === "number" && opts.columns > 0
-                ? opts.columns
-                : DEFAULT_COLUMNS;
+        const requestedColumns =
+            typeof opts.columns === "number" ? opts.columns : DEFAULT_COLUMNS;
+        if (
+            !Number.isSafeInteger(requestedColumns) ||
+            requestedColumns <= 0 ||
+            requestedColumns > MAX_TERMINAL_COLUMNS
+        ) {
+            throw new RangeError(
+                `Terminal columns must be between 1 and ${MAX_TERMINAL_COLUMNS}.`
+            );
+        }
+        this.columns = requestedColumns;
         this.autoWrap = opts.autoWrap !== undefined ? opts.autoWrap : true;
+        this.clampAtRightMargin = false;
+        this.wrapPending = false;
         /** @type {Map<number, TerminalRow>} */
         this.rows = new Map();
         this.cursorX = 0;
         this.cursorY = 0;
         this.currentAttrs = createDefaultAttrs();
-        /** @type {{ x: number; y: number; attrs: CellAttributes }} */
-        this.savedCursor = { x: 0, y: 0, attrs: createDefaultAttrs() };
+        /** @type {{ x: number; y: number; attrs: CellAttributes; iceBackground: boolean }} */
+        this.savedCursor = {
+            x: 0,
+            y: 0,
+            attrs: createDefaultAttrs(),
+            iceBackground: false,
+        };
         /** @type {Record<string, unknown>[]} */
         this.warnings = [];
         this.maxRow = 0;
         this.maxCol = 0;
         this.stripSpaceBackground = opts.stripSpaceBackground === true;
+        this.iceColors = opts.iceColors === true;
+        this.iceBackground = false;
+        this.writtenCellCount = 0;
     }
 
     /**
@@ -384,13 +428,14 @@ class TerminalEmulator {
             x: this.cursorX,
             y: this.cursorY,
             attrs: cloneAttrs(this.currentAttrs),
+            iceBackground: this.iceBackground,
         };
     }
 
     restoreCursor() {
-        this.cursorX = this.savedCursor.x;
-        this.cursorY = this.savedCursor.y;
+        this.setCursor(this.savedCursor.x, this.savedCursor.y);
         this.currentAttrs = cloneAttrs(this.savedCursor.attrs);
+        this.iceBackground = this.savedCursor.iceBackground;
     }
 
     /**
@@ -398,8 +443,29 @@ class TerminalEmulator {
      * @param {number} y
      */
     setCursor(x, y) {
-        this.cursorX = Math.max(0, x);
-        this.cursorY = Math.max(0, y);
+        this.assertCursorPosition(x, y);
+        this.cursorX = x;
+        this.cursorY = y;
+        this.wrapPending = false;
+    }
+
+    /**
+     * @param {number} x
+     * @param {number} y
+     */
+    assertCursorPosition(x, y) {
+        if (
+            !Number.isSafeInteger(x) ||
+            !Number.isSafeInteger(y) ||
+            x < 0 ||
+            y < 0 ||
+            x >= MAX_TERMINAL_COLUMNS ||
+            y >= MAX_TERMINAL_ROWS
+        ) {
+            throw new RangeError(
+                `ANSI cursor position exceeds the supported ${MAX_TERMINAL_COLUMNS}x${MAX_TERMINAL_ROWS} terminal bounds.`
+            );
+        }
     }
 
     /**
@@ -409,7 +475,19 @@ class TerminalEmulator {
         if (ch === "\0") {
             return;
         }
+        if (this.autoWrap && this.wrapPending) {
+            this.setCursor(0, this.cursorY + 1);
+        }
+        this.assertCursorPosition(this.cursorX, this.cursorY);
         const row = this.ensureRow(this.cursorY);
+        if (!row.cells.has(this.cursorX)) {
+            this.writtenCellCount += 1;
+            if (this.writtenCellCount > MAX_TERMINAL_CELLS) {
+                throw new RangeError(
+                    `ANSI input exceeds the ${MAX_TERMINAL_CELLS} rendered-cell limit.`
+                );
+            }
+        }
         row.cells.set(this.cursorX, {
             char: ch,
             attrs: cloneAttrs(this.currentAttrs),
@@ -426,11 +504,13 @@ class TerminalEmulator {
 
         this.cursorX += 1;
         if (this.autoWrap && this.columns && this.cursorX >= this.columns) {
-            this.cursorX = 0;
-            this.cursorY += 1;
-            if (this.cursorY > this.maxRow) {
-                this.maxRow = this.cursorY;
-            }
+            this.cursorX = this.columns - 1;
+            this.wrapPending = true;
+        } else if (
+            this.clampAtRightMargin &&
+            this.cursorX >= this.columns
+        ) {
+            this.cursorX = this.columns - 1;
         }
     }
 
@@ -472,6 +552,7 @@ class TerminalEmulator {
     }
 
     backspace() {
+        this.wrapPending = false;
         if (this.cursorX > 0) {
             this.cursorX -= 1;
         }
@@ -490,7 +571,7 @@ class TerminalEmulator {
      */
     lineFeed(count) {
         const step = count || 1;
-        this.cursorY += step;
+        this.setCursor(this.cursorX, this.cursorY + step);
         if (this.cursorY > this.maxRow) {
             this.maxRow = this.cursorY;
         }
@@ -498,6 +579,7 @@ class TerminalEmulator {
 
     carriageReturn() {
         this.cursorX = 0;
+        this.wrapPending = false;
     }
 
     /**
@@ -505,10 +587,20 @@ class TerminalEmulator {
      */
     insertCharacters(count) {
         const n = Math.max(1, count || 1);
+        if (this.cursorX + n > MAX_TERMINAL_COLUMNS) {
+            throw new RangeError(
+                `ANSI insert operation exceeds the supported ${MAX_TERMINAL_COLUMNS}-column terminal bound.`
+            );
+        }
         const row = this.ensureRow(this.cursorY);
         const updated = new Map();
         for (const [col, cell] of row.cells.entries()) {
             if (col >= this.cursorX) {
+                if (col + n >= MAX_TERMINAL_COLUMNS) {
+                    throw new RangeError(
+                        `ANSI insert operation exceeds the supported ${MAX_TERMINAL_COLUMNS}-column terminal bound.`
+                    );
+                }
                 updated.set(col + n, cell);
             } else {
                 updated.set(col, cell);
@@ -519,6 +611,12 @@ class TerminalEmulator {
                 char: " ",
                 attrs: cloneAttrs(this.currentAttrs),
             });
+        }
+        this.writtenCellCount += n;
+        if (this.writtenCellCount > MAX_TERMINAL_CELLS) {
+            throw new RangeError(
+                `ANSI input exceeds the ${MAX_TERMINAL_CELLS} rendered-cell limit.`
+            );
         }
         row.cells = updated;
         row.maxCol = Math.max(row.maxCol, this.cursorX + n - 1);
@@ -554,6 +652,21 @@ class TerminalEmulator {
     insertLines(count) {
         const n = Math.max(1, count || 1);
         const affectedRows = [...this.rows.keys()].sort((a, b) => b - a);
+        const highestAffectedRow = affectedRows.find(
+            (rowIndex) => rowIndex >= this.cursorY
+        );
+        const highestResultingRow =
+            highestAffectedRow === undefined
+                ? this.cursorY + n - 1
+                : Math.max(
+                      highestAffectedRow + n,
+                      this.cursorY + n - 1
+                  );
+        if (highestResultingRow >= MAX_TERMINAL_ROWS) {
+            throw new RangeError(
+                `ANSI insert operation exceeds the supported ${MAX_TERMINAL_ROWS}-row terminal bound.`
+            );
+        }
         affectedRows.forEach((rowIndex) => {
             if (rowIndex >= this.cursorY) {
                 const row = this.rows.get(rowIndex);
@@ -594,21 +707,26 @@ class TerminalEmulator {
      * @param {number} [mode]
      */
     eraseInLine(mode) {
-        const row = this.rows.get(this.cursorY);
-        if (!row) {
-            return;
-        }
-        const start = mode === 1 ? 0 : this.cursorX;
-        const end = mode === 0 ? row.maxCol : this.cursorX;
-        if (mode === 2) {
-            row.cells.clear();
-            row.maxCol = -1;
-        } else {
-            for (let col = start; col <= end; col += 1) {
-                row.cells.delete(col);
+        const row = this.ensureRow(this.cursorY);
+        const start = mode === 1 || mode === 2 ? 0 : this.cursorX;
+        const end = mode === 0 || mode === 2
+            ? this.columns - 1
+            : this.cursorX;
+        for (let col = start; col <= end; col += 1) {
+            if (!row.cells.has(col)) {
+                this.writtenCellCount += 1;
+                if (this.writtenCellCount > MAX_TERMINAL_CELLS) {
+                    throw new RangeError(
+                        `ANSI input exceeds the ${MAX_TERMINAL_CELLS} rendered-cell limit.`
+                    );
+                }
             }
-            this.recalculateRowBounds(this.cursorY);
+            row.cells.set(col, {
+                char: " ",
+                attrs: cloneAttrs(this.currentAttrs),
+            });
         }
+        this.recalculateRowBounds(this.cursorY);
     }
 
     /**
@@ -617,9 +735,6 @@ class TerminalEmulator {
     eraseInDisplay(mode) {
         if (mode === 2) {
             this.rows.clear();
-            this.cursorX = 0;
-            this.cursorY = 0;
-            this.currentAttrs = createDefaultAttrs();
             this.maxRow = 0;
             this.maxCol = 0;
             return;
@@ -651,6 +766,7 @@ class TerminalEmulator {
             switch (code) {
                 case 0:
                     this.currentAttrs = createDefaultAttrs();
+                    this.iceBackground = false;
                     break;
                 case 1:
                     this.currentAttrs.bold = true;
@@ -665,7 +781,17 @@ class TerminalEmulator {
                     this.currentAttrs.underline = true;
                     break;
                 case 5:
-                    this.currentAttrs.blink = true;
+                    if (this.iceColors) {
+                        this.iceBackground = true;
+                        if (this.currentAttrs.bg?.mode === "basic") {
+                            this.currentAttrs.bg = {
+                                mode: "bright",
+                                value: this.currentAttrs.bg.value,
+                            };
+                        }
+                    } else {
+                        this.currentAttrs.blink = true;
+                    }
                     break;
                 case 7:
                     this.currentAttrs.inverse = true;
@@ -688,6 +814,7 @@ class TerminalEmulator {
                     break;
                 case 25:
                     this.currentAttrs.blink = false;
+                    this.iceBackground = false;
                     break;
                 case 27:
                     this.currentAttrs.inverse = false;
@@ -755,7 +882,7 @@ class TerminalEmulator {
                         };
                     } else if (code >= 40 && code <= 47) {
                         this.currentAttrs.bg = {
-                            mode: "basic",
+                            mode: this.iceBackground ? "bright" : "basic",
                             value: code - 40,
                         };
                     } else if (code >= 100 && code <= 107) {
@@ -777,6 +904,18 @@ class TerminalEmulator {
      */
     applyCsi(collected, params, flag) {
         const values = params.length ? params : [0];
+        if (
+            values.some(
+                (value) =>
+                    !Number.isSafeInteger(value) ||
+                    value < 0 ||
+                    value > MAX_CSI_PARAMETER
+            )
+        ) {
+            throw new RangeError(
+                `ANSI CSI parameter exceeds the supported maximum of ${MAX_CSI_PARAMETER}.`
+            );
+        }
         /**
          * @param {number} index
          * @param {number} fallback
@@ -789,30 +928,46 @@ class TerminalEmulator {
         };
         switch (flag) {
             case "A":
-                this.cursorY = Math.max(0, this.cursorY - getParam(0, 1));
+                this.setCursor(
+                    this.cursorX,
+                    Math.max(0, this.cursorY - getParam(0, 1))
+                );
                 break;
             case "B":
-                this.cursorY += getParam(0, 1);
+                this.setCursor(
+                    this.cursorX,
+                    this.cursorY + getParam(0, 1)
+                );
                 if (this.cursorY > this.maxRow) {
                     this.maxRow = this.cursorY;
                 }
                 break;
             case "C":
-                this.cursorX += getParam(0, 1);
+                this.setCursor(
+                    this.cursorX + getParam(0, 1),
+                    this.cursorY
+                );
                 break;
             case "D":
-                this.cursorX = Math.max(0, this.cursorX - getParam(0, 1));
+                this.setCursor(
+                    Math.max(0, this.cursorX - getParam(0, 1)),
+                    this.cursorY
+                );
                 break;
             case "E":
-                this.cursorY += getParam(0, 1);
-                this.cursorX = 0;
+                this.setCursor(0, this.cursorY + getParam(0, 1));
                 break;
             case "F":
-                this.cursorY = Math.max(0, this.cursorY - getParam(0, 1));
-                this.cursorX = 0;
+                this.setCursor(
+                    0,
+                    Math.max(0, this.cursorY - getParam(0, 1))
+                );
                 break;
             case "G":
-                this.cursorX = Math.max(0, getParam(0, 1) - 1);
+                this.setCursor(
+                    Math.max(0, getParam(0, 1) - 1),
+                    this.cursorY
+                );
                 break;
             case "H":
             case "f": {
@@ -840,13 +995,76 @@ class TerminalEmulator {
                 this.insertCharacters(values[0]);
                 break;
             case "S":
-                this.cursorY = Math.max(0, this.cursorY - values[0]);
-                break;
             case "T":
-                this.cursorY += values[0];
+                // SU/SD scroll display contents; treating them as cursor motion
+                // silently corrupts layouts. Preserve an explicit warning until
+                // full scrolling-region emulation is implemented.
+                this.warnings.push({
+                    type: "CSI",
+                    collected,
+                    params: [...values],
+                    flag,
+                });
                 break;
             case "m":
                 this.applySgr(values);
+                break;
+            case "t":
+                // PabloDraw emits a four-parameter RGB extension:
+                // CSI 0;R;G;B t for background and CSI 1;R;G;B t for foreground.
+                // Other CSI t shapes are standard window-manipulation commands
+                // or malformed input and remain unsupported.
+                if (
+                    params.length === 4 &&
+                    (params[0] === 0 || params[0] === 1) &&
+                    params.slice(1).every((value) => value <= 255)
+                ) {
+                    const color = {
+                        mode: "rgb",
+                        r: params[1],
+                        g: params[2],
+                        b: params[3],
+                    };
+                    if (params[0] === 0) {
+                        this.currentAttrs.bg = color;
+                    } else {
+                        this.currentAttrs.fg = color;
+                    }
+                    break;
+                }
+                this.warnings.push({
+                    type: "CSI",
+                    collected,
+                    params: [...values],
+                    flag,
+                });
+                break;
+            case "h":
+            case "l":
+                if (
+                    collected === "?" &&
+                    params.length === 1 &&
+                    (params[0] === 7 || params[0] === 33)
+                ) {
+                    const enabled = flag === "h";
+                    if (params[0] === 7) {
+                        this.autoWrap = enabled;
+                        this.clampAtRightMargin = !enabled;
+                        this.wrapPending = false;
+                    } else {
+                        this.iceColors = enabled;
+                        if (!enabled) {
+                            this.iceBackground = false;
+                        }
+                    }
+                    break;
+                }
+                this.warnings.push({
+                    type: "CSI",
+                    collected,
+                    params: [...values],
+                    flag,
+                });
                 break;
             case "s":
                 this.saveCursor();
@@ -885,13 +1103,17 @@ class TerminalEmulator {
                 this.carriageReturn();
                 break;
             case "M":
-                this.cursorY = Math.max(0, this.cursorY - 1);
+                this.setCursor(
+                    this.cursorX,
+                    Math.max(0, this.cursorY - 1)
+                );
                 break;
             case "c":
                 this.rows.clear();
                 this.cursorX = 0;
                 this.cursorY = 0;
                 this.currentAttrs = createDefaultAttrs();
+                this.iceBackground = false;
                 this.maxRow = 0;
                 this.maxCol = 0;
                 break;
@@ -1060,6 +1282,95 @@ function sanitizeName(name) {
 }
 
 /**
+ * Restrict generated comment metadata to one printable line so a hostile file
+ * name cannot terminate the comment and inject PowerShell source.
+ *
+ * @param {string} value
+ *
+ * @returns {string}
+ */
+function sanitizePowerShellComment(value) {
+    return String(value)
+        .replace(/[\r\n\u0085\u2028\u2029]+/g, " ")
+        .replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/g, "?");
+}
+
+/**
+ * Build non-executable source-provenance comments for generated colorscripts.
+ *
+ * @param {string} sourceName
+ * @param {string} sourceEncoding
+ * @param {SauceRecord | null} sauce
+ *
+ * @returns {string}
+ */
+function buildSourceMetadataHeader(sourceName, sourceEncoding, sauce) {
+    const lines = [
+        `# Converted from: ${sanitizePowerShellComment(sourceName)}`,
+        `# Source encoding: ${sanitizePowerShellComment(sourceEncoding)}`,
+    ];
+    if (sauce) {
+        const metadata = [
+            ["Title", sauce.title],
+            ["Author", sauce.author],
+            ["Group", sauce.group],
+            ["Date", sauce.date],
+            ["Dimensions", `${sauce.tInfo1 || "unknown"}x${sauce.tInfo2 || "unknown"}`],
+            ["Font", getSauceFontName(sauce)],
+            ["Comments", sauce.commentLines.join(" | ")],
+        ];
+        for (const [label, value] of metadata) {
+            if (value) {
+                lines.push(
+                    `# SAUCE ${label}: ${sanitizePowerShellComment(value)}`
+                );
+            }
+        }
+    }
+    return `${lines.join("\n")}\n`;
+}
+
+/**
+ * Serialize display text as a literal PowerShell expression.
+ *
+ * Single-quoted PowerShell strings do not expand dollar signs, subexpressions,
+ * or backticks. Doubling embedded apostrophes is the only escaping required,
+ * and ordinary quoted strings can safely span lines (including a line that is
+ * equal to a here-string terminator).
+ *
+ * @param {string} content
+ *
+ * @returns {string}
+ */
+function serializePowerShellStringLiteral(content) {
+    return `'${content.replace(/'/g, "''")}'`;
+}
+
+/**
+ * Build the executable portion of a generated colorscript without allowing
+ * ANSI-art text to become PowerShell source code.
+ *
+ * @param {string} content
+ *
+ * @returns {string}
+ */
+function buildPowerShellOutput(content) {
+    return `Write-Host ${serializePowerShellStringLiteral(content)}\n`;
+}
+
+/**
+ * Write generated PowerShell with a UTF-8 BOM. Windows PowerShell 5.1 treats
+ * BOM-less script files as the active ANSI code page, corrupting Unicode art.
+ *
+ * @param {string} filePath
+ * @param {string} content
+ */
+function writePowerShellFile(filePath, content) {
+    const source = content.startsWith("\ufeff") ? content : `\ufeff${content}`;
+    fs.writeFileSync(filePath, source, "utf8");
+}
+
+/**
  * @param {string[]} argv
  *
  * @returns {{
@@ -1070,6 +1381,8 @@ function sanitizeName(name) {
  *         maxHeight: number | null;
  *         encoding: string;
  *         passthrough: boolean;
+ *         force: boolean;
+ *         analyzeJson: boolean;
  *     };
  *     positional: string[];
  * }}
@@ -1083,6 +1396,8 @@ function parseArguments(argv) {
      *     maxHeight: number | null;
      *     encoding: string;
      *     passthrough: boolean;
+     *     force: boolean;
+     *     analyzeJson: boolean;
      * }}
      */ ({
         columns: null,
@@ -1091,10 +1406,22 @@ function parseArguments(argv) {
         maxHeight: null,
         encoding: "cp437",
         passthrough: false,
+        force: false,
+        analyzeJson: false,
     });
     /** @type {string[]} */
     const positional = [];
+    let optionsEnded = false;
     for (const arg of argv) {
+        if (!optionsEnded && arg === "--") {
+            optionsEnded = true;
+            continue;
+        }
+        if (optionsEnded) {
+            positional.push(arg);
+            continue;
+        }
+
         if (arg.startsWith("--columns=")) {
             const value = parseInt(arg.split("=")[1], 10);
             if (!Number.isNaN(value) && value > 0) {
@@ -1133,6 +1460,12 @@ function parseArguments(argv) {
             options.encoding = "utf8";
         } else if (arg === "--passthrough" || arg === "--simple" || arg === "--raw") {
             options.passthrough = true;
+        } else if (arg === "--force") {
+            options.force = true;
+        } else if (arg === "--analyze-json") {
+            options.analyzeJson = true;
+        } else if (arg.startsWith("--")) {
+            throw new Error(`Unknown option: ${arg}`);
         } else {
             positional.push(arg);
         }
@@ -1147,13 +1480,36 @@ function parseArguments(argv) {
  * @returns {{ content: string; sauce: SauceRecord | null }}
  */
 function readAnsiFile(filePath, encoding = "cp437") {
+    const fileSize = fs.statSync(filePath).size;
+    if (fileSize > MAX_INPUT_BYTES) {
+        throw new RangeError(
+            `ANSI input exceeds the ${MAX_INPUT_BYTES}-byte safety limit.`
+        );
+    }
     const raw = fs.readFileSync(filePath);
+    if (raw.length > MAX_INPUT_BYTES) {
+        throw new RangeError(
+            `ANSI input exceeds the ${MAX_INPUT_BYTES}-byte safety limit.`
+        );
+    }
     const { buffer, sauce } = stripSauce(raw);
     // For UTF-8, read as string directly; for others, use iconv
     const content = encoding === "utf8"
         ? buffer.toString("utf8")
         : iconv.decode(buffer, encoding);
     return { content, sauce };
+}
+
+/**
+ * @param {SauceRecord | null} sauce
+ *
+ * @returns {string}
+ */
+function getSauceFontName(sauce) {
+    if (!sauce) {
+        return "";
+    }
+    return sauce.tInfoS.toString("ascii").replace(/\0.*$/, "").trim();
 }
 
 /**
@@ -1203,25 +1559,60 @@ function main(argv = process.argv.slice(2)) {
         console.error(
             "  --passthrough      Skip terminal emulation, wrap content directly (for pre-formatted files)."
         );
+        console.error(
+            "  --force            Replace existing output files."
+        );
         process.exit(1);
     }
 
     const ansiFile = positional[0];
-    const outputFile =
-        positional[1] ||
-        path.join(
-            __dirname,
-            "..",
-            "ColorScripts-Enhanced",
-            "Scripts",
-            `${sanitizeName(path.basename(ansiFile, path.extname(ansiFile)))}.ps1`
+    const sanitizedBaseName = sanitizeName(
+        path.basename(ansiFile, path.extname(ansiFile))
+    );
+    if (!sanitizedBaseName) {
+        throw new Error(
+            `Input filename cannot form a safe colorscript name: ${path.basename(ansiFile)}`
         );
+    }
+    const outputFile = positional[1] || path.join(
+        __dirname,
+        "..",
+        "ColorScripts-Enhanced",
+        "Scripts",
+        `${sanitizedBaseName}.ps1`
+    );
 
     try {
+        if (options.analyzeJson) {
+            if (positional.length !== 1) {
+                throw new Error("--analyze-json requires exactly one ANSI input file.");
+            }
+            const { content, sauce } = readAnsiFile(ansiFile, options.encoding);
+            const terminalColumns =
+                options.columns ||
+                (sauce && sauce.tInfo1 ? sauce.tInfo1 : DEFAULT_COLUMNS);
+            const { warnings, terminal } = convertAnsiToPs1(content, {
+                columns: terminalColumns,
+                autoWrap: options.autoWrap,
+                stripSpaceBackground: options.stripSpaceBackground,
+                iceColors: Boolean(sauce && (sauce.flags & 1)),
+            });
+            process.stdout.write(JSON.stringify({
+                width: terminal.writtenCellCount > 0 ? terminal.maxCol + 1 : 0,
+                height: terminal.maxRow + 1,
+                warnings,
+            }));
+            return { terminal, warnings };
+        }
+
         console.log(`Reading ANSI file: ${ansiFile} (encoding: ${options.encoding})`);
         const { content, sauce } = readAnsiFile(ansiFile, options.encoding);
 
-        const header = `# Converted from: ${path.basename(ansiFile)}\n# Conversion date: ${new Date().toISOString()}\n`;
+        const header = `${buildSourceMetadataHeader(
+            path.basename(ansiFile),
+            options.encoding,
+            sauce
+        )}# Conversion date: ${new Date().toISOString()}\n`;
 
         const outputDir = path.dirname(outputFile);
         if (!fs.existsSync(outputDir)) {
@@ -1233,8 +1624,13 @@ function main(argv = process.argv.slice(2)) {
             console.log("Using passthrough mode (no terminal emulation)...");
             // Remove trailing newlines and ensure clean content
             const cleanContent = content.replace(/[\r\n]+$/, "");
-            const ps1Content = `${header}\nWrite-Host @"\n${cleanContent}\n"@\n`;
-            fs.writeFileSync(outputFile, ps1Content, "utf8");
+            const ps1Content = `${header}\n${buildPowerShellOutput(cleanContent)}`;
+            if (fs.existsSync(outputFile) && !options.force) {
+                throw new Error(
+                    `Output file already exists: ${outputFile}. Use --force to replace it.`
+                );
+            }
+            writePowerShellFile(outputFile, ps1Content);
             console.log(
                 `✓ Converted: ${path.basename(ansiFile)} → ${path.basename(outputFile)}`
             );
@@ -1250,7 +1646,18 @@ function main(argv = process.argv.slice(2)) {
             columns: terminalColumns,
             autoWrap: options.autoWrap,
             stripSpaceBackground: options.stripSpaceBackground,
+            iceColors: Boolean(sauce && (sauce.flags & 1)),
         };
+
+        const sauceFontName = getSauceFontName(sauce);
+        if (
+            sauceFontName &&
+            !/(?:IBM|CP[ -]?437|VGA|EGA)/i.test(sauceFontName)
+        ) {
+            console.warn(
+                `Warning: SAUCE declares font "${sanitizePowerShellComment(sauceFontName)}"; CP437 decoding may not reproduce its glyphs exactly.`
+            );
+        }
 
         console.log(
             `Using terminal width: ${terminalOptions.autoWrap ? terminalColumns : "no wrap"}`
@@ -1280,14 +1687,25 @@ function main(argv = process.argv.slice(2)) {
             );
             const ext = path.extname(outputFile);
 
-            chunks.forEach((chunk, index) => {
-                const chunkFile = path.join(
-                    outputDir,
-                    `${baseName}-${index + 1}${ext}`
+            const chunkFiles = chunks.map((unusedChunk, index) =>
+                path.join(outputDir, `${baseName}-${index + 1}${ext}`)
+            );
+            if (!options.force) {
+                const existingFile = chunkFiles.find((filePath) =>
+                    fs.existsSync(filePath)
                 );
+                if (existingFile) {
+                    throw new Error(
+                        `Output file already exists: ${existingFile}. Use --force to replace it.`
+                    );
+                }
+            }
+
+            chunks.forEach((chunk, index) => {
+                const chunkFile = chunkFiles[index];
                 const convertedContent = chunk.join("\n");
-                const ps1Content = `${header}# Part ${index + 1} of ${chunks.length}\n\nWrite-Host @"\n${convertedContent}\n"@\n`;
-                fs.writeFileSync(chunkFile, ps1Content, "utf8");
+                const ps1Content = `${header}# Part ${index + 1} of ${chunks.length}\n\n${buildPowerShellOutput(convertedContent)}`;
+                writePowerShellFile(chunkFile, ps1Content);
                 console.log(
                     `✓ Created part ${index + 1}/${chunks.length}: ${path.basename(chunkFile)}`
                 );
@@ -1299,8 +1717,13 @@ function main(argv = process.argv.slice(2)) {
         } else {
             // Single file output
             const convertedContent = lines.join("\n");
-            const ps1Content = `${header}\nWrite-Host @"\n${convertedContent}\n"@\n`;
-            fs.writeFileSync(outputFile, ps1Content, "utf8");
+            const ps1Content = `${header}\n${buildPowerShellOutput(convertedContent)}`;
+            if (fs.existsSync(outputFile) && !options.force) {
+                throw new Error(
+                    `Output file already exists: ${outputFile}. Use --force to replace it.`
+                );
+            }
+            writePowerShellFile(outputFile, ps1Content);
             console.log(
                 `✓ Converted: ${path.basename(ansiFile)} → ${path.basename(outputFile)}`
             );
@@ -1336,7 +1759,16 @@ module.exports = {
     convertAnsiToPs1,
     parseArguments,
     sanitizeName,
+    sanitizePowerShellComment,
+    buildSourceMetadataHeader,
+    serializePowerShellStringLiteral,
+    buildPowerShellOutput,
+    writePowerShellFile,
+    getSauceFontName,
     main,
     createDefaultAttrs,
     stripSauce,
+    MAX_INPUT_BYTES,
+    MAX_TERMINAL_COLUMNS,
+    MAX_TERMINAL_ROWS,
 };

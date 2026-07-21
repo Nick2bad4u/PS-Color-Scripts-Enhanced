@@ -51,7 +51,6 @@ function Show-AscFile {
             # Clear screen and display the art
             Clear-Host
             Write-Host $content
-
         }
         catch {
             Write-Error "Failed to read file '$Path': $_"

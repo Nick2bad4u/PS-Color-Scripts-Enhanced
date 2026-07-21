@@ -1,4 +1,4 @@
-#Requires -Version 5.1
+﻿#Requires -Version 5.1
 
 <#
 .SYNOPSIS
@@ -24,12 +24,12 @@ param()
 $repoRoot = (Get-Item $PSScriptRoot).Parent.FullName
 
 # Define paths
-$colorscriptsPath = Join-Path $repoRoot "ColorScripts-Enhanced\Scripts"
-$unusedAnsiPath = Join-Path $repoRoot "assets\unused-ansi-files"
-$ansiFilesPath = Join-Path $repoRoot "assets\ansi-files"
+$colorscriptsPath = Join-Path $repoRoot 'ColorScripts-Enhanced/Scripts'
+$unusedAnsiPath = Join-Path $repoRoot 'assets/unused-ansi-files'
+$ansiFilesPath = Join-Path $repoRoot 'assets/ansi-files'
 
 # Function to normalize filenames for comparison (remove underscores, hyphens, ANSI prefix)
-function Normalize-FileName {
+function ConvertTo-NormalizedFileName {
     param([string]$name)
     # Convert to lowercase
     $normalized = $name.ToLower()
@@ -45,29 +45,29 @@ function Normalize-FileName {
 }
 
 # Validate paths exist
-if (-not (Test-Path $colorscriptsPath)) {
+if (-not (Test-Path -LiteralPath $colorscriptsPath -PathType Container)) {
     Write-Error "Colorscripts path not found: $colorscriptsPath"
     exit 1
 }
 
-if (-not (Test-Path $unusedAnsiPath)) {
+if (-not (Test-Path -LiteralPath $unusedAnsiPath -PathType Container)) {
     Write-Error "Unused ANSI files path not found: $unusedAnsiPath"
     exit 1
 }
 
-if (-not (Test-Path $ansiFilesPath)) {
+if (-not (Test-Path -LiteralPath $ansiFilesPath -PathType Container)) {
     Write-Error "ANSI files path not found: $ansiFilesPath"
     exit 1
 }
 
 # Get all colorscript names (without extension)
 Write-Host "Scanning colorscripts..." -ForegroundColor Cyan
-$colorscriptNames = @(Get-ChildItem -Path $colorscriptsPath -Filter "*.ps1" | ForEach-Object { Normalize-FileName $_.BaseName })
+$colorscriptNames = @(Get-ChildItem -LiteralPath $colorscriptsPath -Filter '*.ps1' -File | ForEach-Object { ConvertTo-NormalizedFileName $_.BaseName })
 Write-Host "  Found $($colorscriptNames.Count) colorscripts" -ForegroundColor Green
 
 # Get all unused ANSI files
 Write-Host "`nScanning unused ANSI files..." -ForegroundColor Cyan
-$unusedFiles = @(Get-ChildItem -Path $unusedAnsiPath -Filter "*.ans")
+$unusedFiles = @(Get-ChildItem -LiteralPath $unusedAnsiPath -Filter '*.ans' -File)
 Write-Host "  Found $($unusedFiles.Count) unused ANSI files" -ForegroundColor Green
 
 # Compare and move matching files
@@ -76,7 +76,7 @@ Write-Host "`nMatching and restoring files..." -ForegroundColor Cyan
 # First pass: count matching files
 $matchingFiles = @()
 foreach ($unusedFile in $unusedFiles) {
-    $normalizedUnusedName = Normalize-FileName $unusedFile.BaseName
+    $normalizedUnusedName = ConvertTo-NormalizedFileName $unusedFile.BaseName
     if ($normalizedUnusedName -in $colorscriptNames) {
         $matchingFiles += $unusedFile
     }
@@ -86,27 +86,38 @@ Write-Host "  Found $($matchingFiles.Count) matching file(s) to process" -Foregr
 
 $movedCount = 0
 $skipCount = 0
+$plannedCount = 0
+$conflictCount = 0
 
 # Second pass: process matching files
 foreach ($unusedFile in $matchingFiles) {
     $destPath = Join-Path $ansiFilesPath $unusedFile.Name
 
     # Check if file already exists at destination
-    if (Test-Path $destPath) {
-        Write-Host "  ⚠ Skipping $($unusedFile.Name) - already exists in ansi-files" -ForegroundColor Yellow
+    if (Test-Path -LiteralPath $destPath -PathType Leaf) {
+        $sourceHash = (Get-FileHash -LiteralPath $unusedFile.FullName -Algorithm SHA256).Hash
+        $destinationHash = (Get-FileHash -LiteralPath $destPath -Algorithm SHA256).Hash
+        if ($sourceHash -ne $destinationHash) {
+            Write-Warning "Name collision has different content; preserving both files: $($unusedFile.Name)"
+            $conflictCount++
+        }
+        else {
+            Write-Host "  [SKIP] Identical file already exists: $($unusedFile.Name)" -ForegroundColor Yellow
+        }
         $skipCount++
         continue
     }
 
     # Move the file
+    $plannedCount++
     if ($PSCmdlet.ShouldProcess($unusedFile.FullName, "Move to ansi-files")) {
         try {
-            Move-Item -Path $unusedFile.FullName -Destination $destPath -ErrorAction Stop
-            Write-Host "  ✓ Moved: $($unusedFile.Name)" -ForegroundColor Green
+            Move-Item -LiteralPath $unusedFile.FullName -Destination $destPath -ErrorAction Stop
+            Write-Host "  [OK] Moved: $($unusedFile.Name)" -ForegroundColor Green
             $movedCount++
         }
         catch {
-            Write-Error "  ✗ Failed to move $($unusedFile.Name): $_"
+            Write-Error "  [FAIL] Failed to move $($unusedFile.Name): $_"
         }
     }
 }
@@ -120,20 +131,25 @@ Write-Host "  Unused ANSI files:     $($unusedFiles.Count)"
 Write-Host "  Matching files found:  $($matchingFiles.Count)"
 Write-Host "  Files restored:        $movedCount" -ForegroundColor Green
 Write-Host "  Files skipped:         $skipCount" -ForegroundColor Yellow
+Write-Host "  Content conflicts:     $conflictCount" -ForegroundColor Yellow
 Write-Host ""
 
 if ($matchingFiles.Count -eq 0) {
-    Write-Host "ℹ No matching files found" -ForegroundColor Gray
+    Write-Host '[INFO] No matching files found' -ForegroundColor Gray
 }
-elseif ($PSCmdlet.ShouldProcess("dummy", "Simulate") -eq $false) {
-    Write-Host "✓ WhatIf mode: Would restore $movedCount file(s)" -ForegroundColor Cyan
+elseif ($WhatIfPreference) {
+    Write-Host "[INFO] WhatIf mode: Would restore $plannedCount file(s)" -ForegroundColor Cyan
 }
 elseif ($movedCount -gt 0) {
-    Write-Host "✓ Restoration complete!" -ForegroundColor Green
+    Write-Host '[OK] Restoration complete!' -ForegroundColor Green
 }
 elseif ($skipCount -gt 0) {
-    Write-Host "⚠ No files moved (all matching files already exist)" -ForegroundColor Yellow
+    Write-Host '[SKIP] No files moved (all matching files already exist)' -ForegroundColor Yellow
 }
 else {
-    Write-Host "ℹ No files processed" -ForegroundColor Gray
+    Write-Host '[INFO] No files processed' -ForegroundColor Gray
+}
+
+if ($conflictCount -gt 0) {
+    throw "$conflictCount same-name ANSI file collision(s) have different content."
 }
