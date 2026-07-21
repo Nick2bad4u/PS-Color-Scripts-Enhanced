@@ -5,7 +5,8 @@ Use this checklist to produce a production-ready release of **ColorScripts-Enhan
 ## 1. Pre-flight Checks
 
 - [ ] Review `CHANGELOG.md` and ensure the latest changes are documented.
-- [ ] Generate release notes with git-cliff: `npm run release:notes:latest`
+- [ ] Prepend the versioned changelog entry with git-cliff: `npx git-cliff --config node_modules/gitcliff-config-nick2bad4u/cliff.toml --github-repo Nick2bad4u/PS-Color-Scripts-Enhanced --unreleased --tag v<version> --prepend CHANGELOG.md`
+- [ ] Refresh the Gallery release-note snippet with `npm run release:notes`.
 - [ ] Verify release notes align with git-cliff output: `npm run release:verify`
 - [ ] Confirm `README.md` and documentation reflect the latest behavior.
 - [ ] Verify module metadata (`ColorScripts-Enhanced.psd1`) including `ModuleVersion` and `Description`.

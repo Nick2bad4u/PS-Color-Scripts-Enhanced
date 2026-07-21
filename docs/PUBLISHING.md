@@ -135,7 +135,7 @@ Publish-Module -Path ./ColorScripts-Enhanced -Repository MyCompanyFeed
 ## Release Workflow Summary
 
 1. Refresh release notes with `npm run release:notes` (PowerShell Gallery snippet) and sync the changelog with `npm run release:verify` (requires `git-cliff`).
-2. Update the changelog (`CHANGELOG.md`) and release notes (`RELEASENOTES.md`) if additional polish is needed.
+2. Update the changelog (`CHANGELOG.md`) and generated notes under `dist/` if additional polish is needed.
 3. Run `Test-Module.ps1` locally (includes lint step).
 4. Run `Lint-Module.ps1 -IncludeTests -TreatWarningsAsErrors` if not already covered.
 5. Commit and push changes.

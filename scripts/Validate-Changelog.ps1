@@ -42,27 +42,50 @@ if (-not (Test-Path -LiteralPath $cliffConfig)) {
     throw "Unable to locate cliff configuration at '$cliffConfig'."
 }
 
-$latestNotes = & $gitCliff.Source `
-    --config $cliffConfig `
-    --github-repo 'Nick2bad4u/PS-Color-Scripts-Enhanced' `
-    --latest
-if ($LASTEXITCODE -ne 0) {
-    throw "git-cliff failed to generate release notes for the latest tag (exit code $LASTEXITCODE)."
+$tagName = "v$moduleVersion"
+$tagRef = "refs/tags/$tagName"
+& git show-ref --verify --quiet $tagRef
+$tagExists = $LASTEXITCODE -eq 0
+
+$gitCliffArguments = @(
+    '--config', $cliffConfig,
+    '--github-repo', 'Nick2bad4u/PS-Color-Scripts-Enhanced',
+    '--strip', 'all'
+)
+if ($tagExists) {
+    $gitCliffArguments += '--current'
+}
+else {
+    $gitCliffArguments += '--unreleased', '--tag', $tagName
 }
 
-$latestNotes = ($latestNotes | Out-String).Trim()
-if (-not $latestNotes) {
-    throw 'git-cliff returned empty release notes for the latest tag.'
+$currentNotes = & $gitCliff.Source @gitCliffArguments
+if ($LASTEXITCODE -ne 0) {
+    throw "git-cliff failed to generate release notes for $tagName (exit code $LASTEXITCODE)."
+}
+
+$currentNotes = ($currentNotes | Out-String).Trim()
+if (-not $currentNotes) {
+    throw "git-cliff returned empty release notes for $tagName."
 }
 
 $changelogContent = Get-Content -LiteralPath $changelogPath -Raw
-$versionHeadingPattern = "^##\s+\[$([regex]::Escape($moduleVersion))\]"
-if (-not [System.Text.RegularExpressions.Regex]::IsMatch($changelogContent, $versionHeadingPattern, [System.Text.RegularExpressions.RegexOptions]::Multiline)) {
+$normalizedChangelogContent = $changelogContent -replace "\r\n?", "`n"
+$escapedVersion = [regex]::Escape($moduleVersion)
+$versionHeadingPatterns = @(
+    "^##\s+\[$escapedVersion\]",
+    "^##\s+✨\s+What's Changed in v?$escapedVersion\s*$"
+)
+$hasVersionHeading = $versionHeadingPatterns | Where-Object {
+    [System.Text.RegularExpressions.Regex]::IsMatch($changelogContent, $_, [System.Text.RegularExpressions.RegexOptions]::Multiline)
+} | Select-Object -First 1
+if (-not $hasVersionHeading) {
     throw "CHANGELOG.md does not contain an entry for version $moduleVersion."
 }
 
-if ($changelogContent.IndexOf($latestNotes, [System.StringComparison]::OrdinalIgnoreCase) -lt 0) {
-    throw 'CHANGELOG.md is not aligned with the latest git-cliff output. Run npm run release:notes:latest and commit the result.'
+$normalizedCurrentNotes = $currentNotes -replace "\r\n?", "`n"
+if ($normalizedChangelogContent.IndexOf($normalizedCurrentNotes, [System.StringComparison]::OrdinalIgnoreCase) -lt 0) {
+    throw "CHANGELOG.md is not aligned with $tagName. Regenerate it with git-cliff --unreleased --tag $tagName --prepend CHANGELOG.md and commit the result."
 }
 
 Write-Host "✓ CHANGELOG.md validated for version $moduleVersion" -ForegroundColor Green
