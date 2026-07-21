@@ -87,6 +87,12 @@ Make changelog validation tag-aware and document the reproducible versioned rele
 ### 👷 CI/CD
 
 
+- [`fffde8e`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/fffde8ebec2f47f80ca337092ec5765971ee954c "Diff: 1 file, +7 | -2") — 👷 [ci] Install pinned help tooling for releases <sub><em>(1 file, +7, -2)</em></sub>
+
+Install Microsoft.PowerShell.PlatyPS 1.0.2 before the release build generates localized MAML help, and pin PSScriptAnalyzer 1.25.0 alongside the existing Pester pin.
+
+
+
 - [`fd19bd8`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/fd19bd84c6df97841616d6dec764e07bc54dbad2 "Diff: 1 file, +22 | -0") — 👷 [ci] Install ANSI runtime dependencies for Pester <sub><em>(1 file, +22, -0)</em></sub>
 
 Install the locked production-only Node.js dependency set in the Windows PowerShell and cross-platform PowerShell jobs. This lets repository-script tests execute the ANSI converter in the same clean environment used by GitHub Actions.
