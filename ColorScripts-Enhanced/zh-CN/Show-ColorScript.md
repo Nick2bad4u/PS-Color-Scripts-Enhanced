@@ -674,4 +674,5 @@ In default operation (without `-PassThru` or `-ReturnText`), output is written d
 
 ## RELATED LINKS
 
-- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
+

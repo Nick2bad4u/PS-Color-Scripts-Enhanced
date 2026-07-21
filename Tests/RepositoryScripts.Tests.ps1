@@ -129,4 +129,27 @@ Describe 'Release lint wiring' {
                 -AnalyzerTimeoutSeconds 60
         } | Should -Not -Throw
     }
+
+    It 'keeps one canonical online link in every localized help topic' {
+        $cultureNames = @('de', 'en-US', 'es', 'fr', 'it', 'ja', 'nl', 'pt', 'ru', 'zh-CN')
+
+        foreach ($cultureName in $cultureNames) {
+            $culturePath = Join-Path -Path $script:RepoRoot -ChildPath "ColorScripts-Enhanced/$cultureName"
+            foreach ($markdownPath in Get-ChildItem -LiteralPath $culturePath -Filter '*.md' -File) {
+                $content = Get-Content -LiteralPath $markdownPath.FullName -Raw
+                @([regex]::Matches($content, '(?m)^- \[Online Version\]\(')).Count | Should -Be 1 -Because $markdownPath.FullName
+                $content | Should -Not -Match '(?m)^- \[\]\(' -Because $markdownPath.FullName
+            }
+
+            $mamlPath = Join-Path -Path $culturePath -ChildPath 'ColorScripts-Enhanced-help.xml'
+            [xml]$maml = Get-Content -LiteralPath $mamlPath -Raw
+            $commandNodes = @($maml.SelectNodes("//*[local-name()='command' and namespace-uri()='http://schemas.microsoft.com/maml/dev/command/2004/10']"))
+            $commandNodes.Count | Should -Be 10 -Because $mamlPath
+            foreach ($commandNode in $commandNodes) {
+                $links = @($commandNode.SelectNodes("./*[local-name()='relatedLinks']/*[local-name()='navigationLink']"))
+                $links.Count | Should -Be 1 -Because $mamlPath
+                $links[0].SelectSingleNode("./*[local-name()='linkText']").InnerText | Should -Be 'Online Version' -Because $mamlPath
+            }
+        }
+    }
 }

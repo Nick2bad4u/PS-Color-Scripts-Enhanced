@@ -674,4 +674,5 @@ Nell'operazione predefinita (senza `-PassThru` o `-ReturnText`), l'output viene 
 
 ## RELATED LINKS
 
-- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
+

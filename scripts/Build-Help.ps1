@@ -60,6 +60,51 @@ function Invoke-HelperPowerShell {
     }
 }
 
+function Remove-DuplicateMamlRelatedLink {
+    param(
+        [Parameter(Mandatory)]
+        [string]$LiteralPath
+    )
+
+    $document = New-Object System.Xml.XmlDocument
+    $document.PreserveWhitespace = $true
+    $document.Load($LiteralPath)
+    $removedCount = 0
+
+    foreach ($commandNode in $document.SelectNodes("//*[local-name()='command' and namespace-uri()='http://schemas.microsoft.com/maml/dev/command/2004/10']")) {
+        $seenLinks = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::Ordinal)
+        $links = @($commandNode.SelectNodes("./*[local-name()='relatedLinks']/*[local-name()='navigationLink']"))
+        foreach ($link in $links) {
+            $textNode = $link.SelectSingleNode("./*[local-name()='linkText']")
+            $uriNode = $link.SelectSingleNode("./*[local-name()='uri']")
+            $text = if ($textNode) { $textNode.InnerText.Trim() } else { '' }
+            $uri = if ($uriNode) { $uriNode.InnerText.Trim() } else { '' }
+            $key = '{0}|{1}' -f $text, $uri
+
+            if ([string]::IsNullOrWhiteSpace($uri) -or -not $seenLinks.Add($key)) {
+                [void]$link.ParentNode.RemoveChild($link)
+                $removedCount++
+            }
+        }
+    }
+
+    if ($removedCount -gt 0) {
+        $writerSettings = New-Object System.Xml.XmlWriterSettings
+        $writerSettings.Encoding = New-Object System.Text.UTF8Encoding($false)
+        $writerSettings.Indent = $false
+        $writerSettings.NewLineHandling = [System.Xml.NewLineHandling]::None
+        $writer = [System.Xml.XmlWriter]::Create($LiteralPath, $writerSettings)
+        try {
+            $document.Save($writer)
+        }
+        finally {
+            $writer.Dispose()
+        }
+    }
+
+    return $removedCount
+}
+
 # Set default paths relative to repository root
 $repoRoot = Split-Path -Path $PSScriptRoot -Parent
 if (-not $ModulePath) {
@@ -279,6 +324,12 @@ New-ExternalHelp -Path '$escapedCulturePath' -OutputPath '$escapedCulturePath' -
 
             if ($mamlResult.Output) {
                 Write-Verbose ($mamlResult.Output | Out-String)
+            }
+
+            $targetHelpPath = Join-Path -Path $cultureOutputPath -ChildPath 'ColorScripts-Enhanced-help.xml'
+            $removedRelatedLinkCount = Remove-DuplicateMamlRelatedLink -LiteralPath $targetHelpPath
+            if ($removedRelatedLinkCount -gt 0) {
+                Write-Verbose "Removed $removedRelatedLinkCount duplicate or empty MAML related link(s) for $uiCulture."
             }
 
             Write-Host "  ✓ External help XML generated successfully for ${uiCulture}" -ForegroundColor Green

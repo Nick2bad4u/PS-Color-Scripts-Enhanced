@@ -674,4 +674,5 @@ In standaardwerking (zonder `-PassThru` of `-ReturnText`), wordt uitvoer direct 
 
 ## RELATED LINKS
 
-- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
+

@@ -697,4 +697,4 @@ Install-Module -Name platyPS -Force -SkipPublisherCheck  # Optional
 - [Development Guide](DEVELOPMENT.md) - Complete development workflow
 - [Testing Guide](TESTING.md) - Testing procedures
 - [Linting Guide](LINTING.md) - Code quality standards
-- [Publishing Guide](Publishing.md) - Release and publishing process
+- [Publishing Guide](PUBLISHING.md) - Release and publishing process

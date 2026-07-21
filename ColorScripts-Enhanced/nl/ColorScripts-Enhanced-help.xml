@@ -264,11 +264,11 @@ Als u verhoogde permissies nodig heeft om een AllUsers profiel te wijzigen, zorg
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
         <maml:introduction>
           <maml:para>Voeg toe aan het profiel van de huidige gebruiker voor alle hosts (standaard gedrag).</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>```powershell
 Add-ColorScriptProfile
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Dit voegt zowel de module import als de `Show-ColorScript` aanroep toe aan `$PROFILE.CurrentUserAllHosts`.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -278,11 +278,11 @@ Add-ColorScriptProfile
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
         <maml:introduction>
           <maml:para>Voeg toe aan het profiel van de huidige gebruiker voor alleen de huidige host, zonder het opstart script.</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>```powershell
 Add-ColorScriptProfile -Scope CurrentUserCurrentHost -SkipStartupScript
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Dit voegt alleen de `Import-Module ColorScripts-Enhanced` regel toe aan het huidige host profiel.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -292,11 +292,11 @@ Add-ColorScriptProfile -Scope CurrentUserCurrentHost -SkipStartupScript
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
         <maml:introduction>
           <maml:para>Voeg toe aan een aangepast profiel pad met omgevingsvariabele uitbreiding.</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>```powershell
 Add-ColorScriptProfile -Path "$env:USERPROFILE\Documents\CustomProfile.ps1"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Dit target een specifiek profielbestand buiten de standaard PowerShell profiel locaties.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -306,11 +306,11 @@ Add-ColorScriptProfile -Path "$env:USERPROFILE\Documents\CustomProfile.ps1"
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
         <maml:introduction>
           <maml:para>Forceer het opnieuw toevoegen van de snippet, zelfs als deze al bestaat.</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>```powershell
 Add-ColorScriptProfile -Force
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Dit voegt de snippet opnieuw toe, zelfs als het profiel al een import statement bevat voor ColorScripts-Enhanced.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -320,7 +320,7 @@ Add-ColorScriptProfile -Force
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
         <maml:introduction>
           <maml:para>Setup op een nieuwe machine - maak profiel aan indien nodig en voeg ColorScripts toe aan alle hosts.</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>```powershell
 $profileExists = Test-Path $PROFILE.CurrentUserAllHosts
 if (-not $profileExists) {
@@ -337,7 +337,7 @@ Write-Host "Profile configured! Restart your terminal to see colorscripts on sta
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
         <maml:introduction>
           <maml:para>Voeg toe met een specifiek kleuren script voor weergave (handmatig toevoegen na deze opdracht):</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>```powershell
 Add-ColorScriptProfile -SkipStartupScript
 # Then manually edit $PROFILE to add:
@@ -351,7 +351,7 @@ Add-ColorScriptProfile -SkipStartupScript
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
         <maml:introduction>
           <maml:para>Verificeer dat profiel correct is toegevoegd:</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>```powershell
 Add-ColorScriptProfile
 Get-Content $PROFILE.CurrentUserAllHosts | Select-String "ColorScripts-Enhanced"
@@ -364,11 +364,11 @@ Get-Content $PROFILE.CurrentUserAllHosts | Select-String "ColorScripts-Enhanced"
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
         <maml:introduction>
           <maml:para>Voeg toe aan specifiek profiel scope gericht op huidige host alleen:</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>```powershell
 # For Windows Terminal or ConEmu only
 Add-ColorScriptProfile -Scope CurrentUserCurrentHost</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para># For all PowerShell hosts (ISE, VSCode, Console)
 Add-ColorScriptProfile -Scope CurrentUserAllHosts
 ```</maml:para>
@@ -380,11 +380,11 @@ Add-ColorScriptProfile -Scope CurrentUserAllHosts
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
         <maml:introduction>
           <maml:para>Relatieve paden en tilde uitbreiding gebruiken:</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>```powershell
 # Using tilde expansion for home directory
 Add-ColorScriptProfile -Path "~/Documents/PowerShell/profile.ps1"</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para># Using current directory relative path
 Add-ColorScriptProfile -Path ".\my-profile.ps1"
 ```</maml:para>
@@ -396,7 +396,7 @@ Add-ColorScriptProfile -Path ".\my-profile.ps1"
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
         <maml:introduction>
           <maml:para>Toon dagelijks verschillend kleuren script door aangepaste logica toe te voegen:</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>```powershell
 Add-ColorScriptProfile -SkipStartupScript
 # Then add this to $PROFILE manually:
@@ -414,46 +414,7 @@ Add-ColorScriptProfile -SkipStartupScript
         <maml:linkText>Online Version</maml:linkText>
         <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile</maml:uri>
       </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText />
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile</maml:uri>
-      </maml:navigationLink>
+      
     </command:relatedLinks>
   </command:command>
   <command:command>
@@ -854,7 +815,7 @@ Filtering by `-Category` or `-Tag` requires that the scripts have associated met
           <maml:para>```powershell
 Clear-ColorScriptCache -All -Confirm:$false
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Removes every cache file in the default cache directory without prompting for confirmation. This is useful for completely refreshing the cache after module updates or when troubleshooting display issues.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -866,7 +827,7 @@ Clear-ColorScriptCache -All -Confirm:$false
           <maml:para>```powershell
 Clear-ColorScriptCache -Name 'aurora-*' -DryRun
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Previews which aurora-themed cache files would be removed without actually deleting them. The output shows the cache files that match the pattern, allowing you to verify the selection before committing to the deletion.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -878,7 +839,7 @@ Clear-ColorScriptCache -Name 'aurora-*' -DryRun
           <maml:para>```powershell
 Clear-ColorScriptCache -Name Galaxy -Path $env:TEMP -Confirm:$false
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Clears the cache file for the eligible 'Galaxy' renderer from a custom directory under TEMP. This is useful when testing `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` or another isolated cache location.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -890,7 +851,7 @@ Clear-ColorScriptCache -Name Galaxy -Path $env:TEMP -Confirm:$false
           <maml:para>```powershell
 Clear-ColorScriptCache -Category Animation -WhatIf
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Shows what would happen if all cache files for scripts in the Animation category were removed. The `-WhatIf` parameter prevents actual deletion and displays the intended actions.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -902,7 +863,7 @@ Clear-ColorScriptCache -Category Animation -WhatIf
           <maml:para>```powershell
 Get-ColorScriptList -Tag retro | Clear-ColorScriptCache -DryRun
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Uses pipeline input to preview the removal of cache files for all scripts tagged as 'retro'. Combines filtering by tag with a dry-run preview before committing to the deletion.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -914,7 +875,7 @@ Get-ColorScriptList -Tag retro | Clear-ColorScriptCache -DryRun
           <maml:para>```powershell
 Clear-ColorScriptCache -Name 'test-*', 'demo-*' -Confirm:$false
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Removes cache files for all scripts whose names begin with 'test-' or 'demo-' without confirmation. Multiple wildcard patterns can be specified as an array.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -929,7 +890,7 @@ Clear-ColorScriptCache -All -Confirm:$false
 New-ColorScriptCache -PassThru | Measure-Object
 Write-Host "Cache rebuilt successfully"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Performs a complete cache refresh by clearing all and rebuilding, then shows statistics.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -949,7 +910,7 @@ Get-ChildItem $cacheDir -Filter "*.cache" |
     }
 Write-Host "Old cache files cleaned"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Removes cache files that haven't been updated in more than 30 days.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -966,7 +927,7 @@ Clear-ColorScriptCache -Category Geometric -Confirm:$false
 $afterCount = @(Get-ChildItem $cacheDir -Filter "*.cache" -ErrorAction SilentlyContinue).Count
 Write-Host "Cleared $($beforeCount - $afterCount) geometric cache files"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Shows statistics about cache clearing operations.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -982,7 +943,7 @@ Clear-ColorScriptCache -Name $scriptName -Confirm:$false
 New-ColorScriptCache -Name $scriptName -Force
 Show-ColorScript -Name $scriptName
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Clears and rebuilds cache for a single script, then displays it for verification.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -997,7 +958,7 @@ Clear-ColorScriptCache -Category Geometric,Abstract -DryRun |
     Select-Object CacheFile |
     Measure-Object
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Shows how many cache files would be deleted if filtering by multiple categories.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1009,46 +970,7 @@ Clear-ColorScriptCache -Category Geometric,Abstract -DryRun |
         <maml:linkText>Online Version</maml:linkText>
         <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache</maml:uri>
       </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText />
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
+      
     </command:relatedLinks>
   </command:command>
   <command:command>
@@ -1232,7 +1154,7 @@ When `-IncludeCacheInfo` is specified, these additional properties are included:
           <maml:para>```powershell
 Export-ColorScriptMetadata
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Exports basic metadata for all colorscripts to the pipeline without file or cache information.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1244,7 +1166,7 @@ Export-ColorScriptMetadata
           <maml:para>```powershell
 Export-ColorScriptMetadata -IncludeFileInfo
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Returns objects that include file system details (full path, size, and last write time) for each colorscript.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1256,7 +1178,7 @@ Export-ColorScriptMetadata -IncludeFileInfo
           <maml:para>```powershell
 Export-ColorScriptMetadata -Path './dist/colorscripts.json'
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Generates a JSON file containing basic metadata and writes it to the `dist` directory, creating the folder if it doesn't exist.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1268,7 +1190,7 @@ Export-ColorScriptMetadata -Path './dist/colorscripts.json'
           <maml:para>```powershell
 Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeFileInfo -IncludeCacheInfo
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Generates a comprehensive JSON file with enriched metadata including both file system and cache information, writing it to the `dist` directory.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1280,7 +1202,7 @@ Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeFileInfo -In
           <maml:para>```powershell
 Export-ColorScriptMetadata -Path './dist/colorscripts.json' -PassThru | Where-Object { -not $_.CacheExists }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Writes the metadata file and also returns the objects to the pipeline, enabling queries that identify scripts without cache files.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1292,7 +1214,7 @@ Export-ColorScriptMetadata -Path './dist/colorscripts.json' -PassThru | Where-Ob
           <maml:para>```powershell
 Export-ColorScriptMetadata -IncludeFileInfo | Group-Object Category | Select-Object Name, Count
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Groups colorscripts by category and displays counts, useful for analyzing the distribution of scripts across categories.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1306,7 +1228,7 @@ $metadata = Export-ColorScriptMetadata -IncludeFileInfo
 $totalSize = ($metadata | Measure-Object -Property FileSize -Sum).Sum
 Write-Host "Total size of all colorscripts: $($totalSize / 1KB) KB"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Calculates the total disk space used by all colorscript files.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1328,7 +1250,7 @@ $stats = @{
 }
 $stats | ConvertTo-Json | Out-File "./colorscripts-stats.json"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Generates a comprehensive statistics report including cache coverage and sizes.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1345,7 +1267,7 @@ $new = $current | Where-Object { $_.Name -notin $previous.Name }
 $removed = $previous | Where-Object { $_.Name -notin $current.Name }
 Write-Host "New scripts: $($new.Count) | Removed scripts: $($removed.Count)"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Compares current metadata with a previous version to identify changes.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1365,7 +1287,7 @@ $apiResponse = @{
 } | ConvertTo-Json -Depth 5
 $apiResponse | Out-File "./api/colorscripts.json" -Encoding UTF8
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Generates API-ready JSON with versioning and timestamp information.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1383,7 +1305,7 @@ if ($uncached.Count -gt 0) {
     New-ColorScriptCache -Name $uncached
 }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Identifies and rebuilds cache for scripts that don't have cache files.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1408,7 +1330,7 @@ foreach ($script in $metadata) {
 $html += "&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"
 $html | Out-File "./gallery.html" -Encoding UTF8
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Creates an HTML gallery page listing all available colorscripts.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1425,7 +1347,7 @@ Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
     Group-Object { $_.Name } |
     ForEach-Object { Write-Host "$($_.Name): $(($_.Group | Measure-Object FileSize -Average).Average) bytes avg" }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Tracks file size changes for individual scripts over multiple exports.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1437,10 +1359,7 @@ Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
         <maml:linkText>Online Version</maml:linkText>
         <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata</maml:uri>
       </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText />
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata</maml:uri>
-      </maml:navigationLink>
+      
     </command:relatedLinks>
   </command:command>
   <command:command>
@@ -1542,7 +1461,7 @@ Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
           <maml:para>```powershell
 Get-ColorScriptConfiguration
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont de huidige configuratie met behulp van de standaard tabelweergave, met alle cache- en opstartinstellingen.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1554,7 +1473,7 @@ Get-ColorScriptConfiguration
           <maml:para>```powershell
 Get-ColorScriptConfiguration | ConvertTo-Json -Depth 4
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Serialiseert de configuratie naar JSON-formaat voor logging, debugging of exporteren naar andere tools.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1567,7 +1486,7 @@ Get-ColorScriptConfiguration | ConvertTo-Json -Depth 4
 $config = Get-ColorScriptConfiguration
 $config.Cache.Location
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Haalt de configuratie op en opent het cachelocatiepad direct vanuit de hashtable.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1582,7 +1501,7 @@ if ($config.Startup.Enabled) {
     Write-Host "Startup scripts are enabled"
 }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Controleert of opstartscripts zijn ingeschakeld in de huidige configuratie.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1594,7 +1513,7 @@ if ($config.Startup.Enabled) {
           <maml:para>```powershell
 Get-ColorScriptConfiguration | Format-List *
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont alle configuratie-eigenschappen in een gedetailleerde lijstindeling voor uitgebreide inspectie.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1609,7 +1528,7 @@ Write-Host "Cache Path: $($config.Cache.Path)"
 Write-Host "Profile Auto-Show: $($config.Startup.ProfileAutoShow)"
 Write-Host "Default Script: $($config.Startup.DefaultScript)"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Extraheert en toont specifieke configuratie-eigenschappen voor audit- of scriptingdoeleinden.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1626,7 +1545,7 @@ if ($config.Cache.Path) {
     Write-Host "Using default cache path"
 }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Bepaalt of een aangepast cachepad is geconfigureerd versus het gebruik van module-standaardwaarden.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1639,7 +1558,7 @@ if ($config.Cache.Path) {
 Export-ColorScriptMetadata | ConvertTo-Json -Depth 5 |
     Out-File -FilePath "./backup-config.json" -Encoding UTF8
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Maakt een back-up van de huidige configuratie naar een JSON-bestand voor archivering of disaster recovery.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1654,7 +1573,7 @@ $current = Get-ColorScriptConfiguration
 Reset-ColorScriptConfiguration -WhatIf
 # Review the -WhatIf output to see what would change
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Vergelijkt huidige configuratie met module-standaardwaarden om aangepaste instellingen te identificeren.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1670,7 +1589,7 @@ Get-ColorScriptConfiguration |
     Format-List |
     Out-File "./config-snapshot.txt" -Append
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Creëert tijdstempel-momentopnamen van configuratie voor het volgen van veranderingen in de tijd.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1682,46 +1601,7 @@ Get-ColorScriptConfiguration |
         <maml:linkText>Online Version</maml:linkText>
         <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration</maml:uri>
       </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText />
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
+      
     </command:relatedLinks>
   </command:command>
   <command:command>
@@ -1922,7 +1802,7 @@ Get-ColorScriptConfiguration |
           <maml:para>```powershell
 Get-ColorScriptList
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont een geformatteerde tabel van alle beschikbare colorscripts met hun metadata.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1934,7 +1814,7 @@ Get-ColorScriptList
           <maml:para>```powershell
 Get-ColorScriptList -Category Nature
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont alleen colorscripts die gecategoriseerd zijn als "Nature".</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1946,7 +1826,7 @@ Get-ColorScriptList -Category Nature
           <maml:para>```powershell
 Get-ColorScriptList -Tag geometric -AsObject
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Retourneert colorscripts die getagd zijn als "geometric" als objecten voor verdere verwerking.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1958,7 +1838,7 @@ Get-ColorScriptList -Tag geometric -AsObject
           <maml:para>```powershell
 Get-ColorScriptList -Name "aurora*" | Format-Table Name, Category, Tags
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont colorscripts die overeenkomen met het wildcardpatroon met geselecteerde eigenschappen.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1970,7 +1850,7 @@ Get-ColorScriptList -Name "aurora*" | Format-Table Name, Category, Tags
           <maml:para>```powershell
 Get-ColorScriptList -AsObject | Where-Object { $_.Tags -contains 'animated' }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Vindt alle geanimeerde colorscripts met behulp van objectfiltering.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1982,7 +1862,7 @@ Get-ColorScriptList -AsObject | Where-Object { $_.Tags -contains 'animated' }
           <maml:para>```powershell
 Get-ColorScriptList -Category Abstract,Geometric | Measure-Object
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Telt colorscripts in Abstract of Geometric categorieën.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -1994,7 +1874,7 @@ Get-ColorScriptList -Category Abstract,Geometric | Measure-Object
           <maml:para>```powershell
 Get-ColorScriptList -Tag retro | Select-Object Name, Description
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont namen en beschrijvingen van retro-stijl colorscripts.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2007,7 +1887,7 @@ Get-ColorScriptList -Tag retro | Select-Object Name, Description
 # Get random script from specific category
 Get-ColorScriptList -Category Nature -AsObject | Get-Random | Select-Object -ExpandProperty Name
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Selecteert een willekeurige natuur-geïnspireerde colorscriptnaam.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2020,7 +1900,7 @@ Get-ColorScriptList -Category Nature -AsObject | Get-Random | Select-Object -Exp
 # Export script inventory to CSV
 Get-ColorScriptList -AsObject | Export-Csv -Path "colorscripts.csv" -NoTypeInformation
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Exporteert complete scriptmetadata naar een CSV-bestand.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2035,7 +1915,7 @@ Get-ColorScriptList -AsObject | Where-Object {
     $_.Category -eq 'Geometric' -and $_.Tags -contains 'colorful'
 }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Vindt geometrische colorscripts die ook getagd zijn als kleurrijk.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2047,46 +1927,7 @@ Get-ColorScriptList -AsObject | Where-Object {
         <maml:linkText>Online Version</maml:linkText>
         <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList</maml:uri>
       </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText />
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList</maml:uri>
-      </maml:navigationLink>
+      
     </command:relatedLinks>
   </command:command>
   <command:command>
@@ -2372,7 +2213,7 @@ Get-ColorScriptList -AsObject | Where-Object {
           <maml:para>```powershell
 New-ColorScript -Name 'my-spectrum' -GenerateMetadataSnippet -Category 'Artistic' -Tag 'Custom','Demo'
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Creates `my-spectrum.ps1` in the module's `Scripts` directory and returns a PowerShell object containing the file path and a metadata snippet. The snippet shows how to add an entry to `ScriptMetadata.psd1` with the 'Artistic' category and tags 'Custom' and 'Demo'.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2384,7 +2225,7 @@ New-ColorScript -Name 'my-spectrum' -GenerateMetadataSnippet -Category 'Artistic
           <maml:para>```powershell
 New-ColorScript -Name 'holiday-banner' -OutputPath '~/Dev/colorscripts' -Force
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Generates the scaffold under a custom directory (`~/Dev/colorscripts`), creating the directory if it doesn't exist. If a file named `holiday-banner.ps1` already exists in that location, it will be overwritten due to the `-Force` switch.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2397,7 +2238,7 @@ New-ColorScript -Name 'holiday-banner' -OutputPath '~/Dev/colorscripts' -Force
 $result = New-ColorScript -Name 'retro-wave' -Category 'Retro' -Tag '80s','Neon' -GenerateMetadataSnippet
 $result.MetadataGuidance | Set-Clipboard
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Creates a new colorscript and copies the metadata guidance to the clipboard, making it easy to paste into `ScriptMetadata.psd1`.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2409,7 +2250,7 @@ $result.MetadataGuidance | Set-Clipboard
           <maml:para>```powershell
 New-ColorScript -Name 'test-pattern' -OutputPath '.\temp' -WhatIf
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Shows what would happen when creating a test pattern script in the `.\temp` directory without actually creating the file. Useful for validating paths and names before execution.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2426,7 +2267,7 @@ foreach ($name in $scriptNames) {
 }
 Write-Host "Created $($scriptNames.Count) colorscript templates"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Creates multiple colorscript templates in batch for a project.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2440,7 +2281,7 @@ Write-Host "Created $($scriptNames.Count) colorscript templates"
 $scaffold = New-ColorScript -Name "my-art" -Category "Artistic" -GenerateMetadataSnippet
 code $scaffold.Path  # Opens in VS Code
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Creates a colorscript and opens it immediately in the default editor for editing.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2457,7 +2298,7 @@ Write-Host "Path: $($newScript.Path)"
 Write-Host "Metadata guidance ready in clipboard"
 $newScript.MetadataGuidance | Set-Clipboard
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Creates a colorscript with metadata guidance automatically copied to clipboard.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2478,7 +2319,7 @@ foreach ($name in $invalidNames) {
     }
 }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Demonstrates naming convention validation for colorscripts.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2493,7 +2334,7 @@ $portableDir = Join-Path $PSScriptRoot "colorscripts"
 $scaffold = New-ColorScript -Name "portable-art" -OutputPath $portableDir -GenerateMetadataSnippet
 Write-Host "Created portable colorscript at: $($scaffold.Path)"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Creates colorscripts in a portable location relative to the current script.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2511,7 +2352,7 @@ if ("Retro" -in $categories) {
     Write-Warning "Retro category not found"
 }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Validates that a category exists before creating a new colorscript.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2523,46 +2364,7 @@ if ("Retro" -in $categories) {
         <maml:linkText>Online Version</maml:linkText>
         <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript</maml:uri>
       </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText />
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript</maml:uri>
-      </maml:navigationLink>
+      
     </command:relatedLinks>
   </command:command>
   <command:command>
@@ -2962,7 +2764,7 @@ if ("Retro" -in $categories) {
           <maml:para>```powershell
 New-ColorScriptCache
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Evalueert alle beschikbare colorscripts en bouwt alleen cache op voor renderers die door `CachePolicy.psd1` zijn geselecteerd.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2974,7 +2776,7 @@ New-ColorScriptCache
           <maml:para>```powershell
 New-ColorScriptCache -Name "Galaxy", "rose-curves"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Cachet specifieke colorscripts op naam.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2986,7 +2788,7 @@ New-ColorScriptCache -Name "Galaxy", "rose-curves"
           <maml:para>```powershell
 New-ColorScriptCache -Category Nature
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Evalueert alle natuur-georiënteerde colorscripts en cachet alleen geschikte renderers.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -2998,7 +2800,7 @@ New-ColorScriptCache -Category Nature
           <maml:para>```powershell
 New-ColorScriptCache -Tag animated
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Evalueert alle colorscripts met de tag "animated" en cachet alleen geschikte renderers.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -3011,7 +2813,7 @@ New-ColorScriptCache -Tag animated
 # Cache scripts for startup optimization
 New-ColorScriptCache -Category Geometric -Tag minimal
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Bereidt cache voor lichtgewicht geometrische scripts ideaal voor snelle opstartweergaven.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -3023,46 +2825,7 @@ New-ColorScriptCache -Category Geometric -Tag minimal
         <maml:linkText>Online Version</maml:linkText>
         <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache</maml:uri>
       </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText />
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache</maml:uri>
-      </maml:navigationLink>
+      
     </command:relatedLinks>
   </command:command>
   <command:command>
@@ -3188,7 +2951,7 @@ De omgevingsvariabele `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` kan de standaardlocat
           <maml:para>```powershell
 Reset-ColorScriptConfiguration -Confirm:$false
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Herstelt de configuratie zonder om bevestiging te vragen. Dit is nuttig in geautomatiseerde scripts of wanneer u zeker bent over het resetten naar standaardwaarden.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -3200,7 +2963,7 @@ Reset-ColorScriptConfiguration -Confirm:$false
           <maml:para>```powershell
 Reset-ColorScriptConfiguration -PassThru
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Herstelt de configuratie en retourneert de resulterende hashtabel voor inspectie, zodat u de standaardwaarden kunt verifiëren.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -3214,7 +2977,7 @@ Reset-ColorScriptConfiguration -PassThru
 $backup = Get-ColorScriptConfiguration
 Reset-ColorScriptConfiguration -WhatIf
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Gebruikt `-WhatIf` om de resetbewerking te bekijken zonder deze daadwerkelijk uit te voeren, na het back-uppen van de huidige configuratie.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -3226,7 +2989,7 @@ Reset-ColorScriptConfiguration -WhatIf
           <maml:para>```powershell
 Reset-ColorScriptConfiguration -Verbose
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Herstelt de configuratie met uitgebreide uitvoer om gedetailleerde informatie over de bewerking te zien.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -3242,7 +3005,7 @@ Clear-ColorScriptCache -All -Confirm:$false
 New-ColorScriptCache
 Write-Host "Module reset to factory defaults!"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Voert een complete fabrieksreset uit inclusief configuratie, cache en het opnieuw opbouwen van de cache.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -3260,7 +3023,7 @@ if ($config.Cache.Path -match "AppData|\.config") {
     Write-Host "Configuration reset but using custom path: $($config.Cache.Path)"
 }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Herstelt en verifieert dat de configuratie is hersteld naar standaardwaarden door het cachepad te controleren.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -3272,46 +3035,7 @@ if ($config.Cache.Path -match "AppData|\.config") {
         <maml:linkText>Online Version</maml:linkText>
         <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration</maml:uri>
       </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText />
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
+      
     </command:relatedLinks>
   </command:command>
   <command:command>
@@ -3509,7 +3233,7 @@ if ($config.Cache.Path -match "AppData|\.config") {
           <maml:para>```powershell
 Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -AutoShowOnImport:$true -ProfileAutoShow:$false -DefaultScript 'bars'
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Moves the cache to `D:/Temp/ColorScriptsCache`, enables automatic display on module import, disables profile auto-show, and sets `bars` as the default script.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -3521,7 +3245,7 @@ Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -AutoShowOnI
           <maml:para>```powershell
 Set-ColorScriptConfiguration -DefaultScript '' -PassThru
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Clears the default script and returns the resulting configuration object, allowing you to verify that the setting was removed.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -3533,7 +3257,7 @@ Set-ColorScriptConfiguration -DefaultScript '' -PassThru
           <maml:para>```powershell
 Set-ColorScriptConfiguration -CachePath "$env:TEMP\ColorScripts" -PassThru | Format-List
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Relocates the cache to the Windows TEMP directory and displays the full updated configuration in list format. Useful for temporary testing scenarios.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -3545,7 +3269,7 @@ Set-ColorScriptConfiguration -CachePath "$env:TEMP\ColorScripts" -PassThru | For
           <maml:para>```powershell
 Set-ColorScriptConfiguration -AutoShowOnImport:$false
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Disables automatic colorscript rendering when the module loads. Useful if you prefer manual control over when scripts are displayed.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -3557,7 +3281,7 @@ Set-ColorScriptConfiguration -AutoShowOnImport:$false
           <maml:para>```powershell
 Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultScript 'crunch'
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Sets a Linux/macOS-style cache path using tilde expansion and configures 'crunch' as the default script for all operations.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -3569,46 +3293,7 @@ Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultSc
         <maml:linkText>Online Version</maml:linkText>
         <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration</maml:uri>
       </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText>Online Version</maml:linkText>
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText />
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration</maml:uri>
-      </maml:navigationLink>
+      
     </command:relatedLinks>
   </command:command>
   <command:command>
@@ -4250,7 +3935,7 @@ Use when you need to rebuild cached colorscript output manually.</maml:para>
           <maml:para>```powershell
 Show-ColorScript
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont een willekeurige colorscript met caching ingeschakeld. Dit is de snelste manier om visuele flair toe te voegen aan je terminal sessie.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4262,7 +3947,7 @@ Show-ColorScript
           <maml:para>```powershell
 Show-ColorScript -Name "mandelbrot-zoom"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont de opgegeven colorscript op exacte naam. De .ps1 extensie is niet vereist.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4274,7 +3959,7 @@ Show-ColorScript -Name "mandelbrot-zoom"
           <maml:para>```powershell
 Show-ColorScript -Name "aurora-*"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont de eerste colorscript (alfabetisch) die overeenkomt met het wildcard patroon "aurora-\*". Nuttig wanneer je een deel van de scriptnaam herinnert.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4286,7 +3971,7 @@ Show-ColorScript -Name "aurora-*"
           <maml:para>```powershell
 scs hearts
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Gebruikt de module alias 'scs' voor snelle toegang tot de hearts colorscript. Aliassen bieden handige snelkoppelingen voor frequent gebruik.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4298,7 +3983,7 @@ scs hearts
           <maml:para>```powershell
 Show-ColorScript -List
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Lijst alle beschikbare colorscripts met hun metadata in een geformatteerde tabel. Helpt bij het ontdekken van beschikbare scripts en hun attributen.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4310,7 +3995,7 @@ Show-ColorScript -List
           <maml:para>```powershell
 Show-ColorScript -Name arch -NoCache
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont de arch colorscript zonder cache te gebruiken, waardoor verse uitvoering wordt geforceerd. Nuttig tijdens ontwikkeling of bij het oplossen van cache problemen.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4322,7 +4007,7 @@ Show-ColorScript -Name arch -NoCache
           <maml:para>```powershell
 Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont een willekeurige natuur-georiënteerde script en captureert het metadata object voor verdere inspectie of verwerking.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4334,7 +4019,7 @@ Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category
           <maml:para>```powershell
 Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Render de colorscript en slaat de uitvoer op in een tekstbestand. De gerenderde ANSI codes worden behouden, waardoor het bestand later met juiste kleuren kan worden weergegeven.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4346,7 +4031,7 @@ Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt
           <maml:para>```powershell
 Show-ColorScript -All
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont alle colorscripts in alfabetische volgorde met een korte automatische vertraging tussen elk. Perfect voor een visuele showcase van de gehele collectie.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4358,7 +4043,7 @@ Show-ColorScript -All
           <maml:para>```powershell
 Show-ColorScript -All -WaitForInput
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont alle colorscripts één voor één, pauzerend na elk. Druk op spatiebalk om door te gaan naar het volgende script, of druk op 'q' om de reeks vroegtijdig te beëindigen.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4370,7 +4055,7 @@ Show-ColorScript -All -WaitForInput
           <maml:para>```powershell
 Show-ColorScript -All -Category Nature -WaitForInput
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Cycli door alle natuur-georiënteerde colorscripts met handmatige voortgang. Combineert filtering met interactieve browsing voor een curatieve ervaring.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4382,7 +4067,7 @@ Show-ColorScript -All -Category Nature -WaitForInput
           <maml:para>```powershell
 Show-ColorScript -Tag retro,geometric -Random
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont een willekeurige colorscript die zowel "retro" als "geometric" tags heeft. Tag filtering maakt precieze subset selectie mogelijk.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4394,7 +4079,7 @@ Show-ColorScript -Tag retro,geometric -Random
           <maml:para>```powershell
 Show-ColorScript -List -Category Art,Abstract
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Lijst alleen colorscripts gecategoriseerd als "Art" of "Abstract", helpt bij het ontdekken van scripts binnen specifieke thema's.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4409,7 +4094,7 @@ $uncached = Measure-Command { Show-ColorScript -Name spectrum -NoCache }
 $cached = Measure-Command { Show-ColorScript -Name spectrum }
 Write-Host "Uncached: $($uncached.TotalMilliseconds)ms | Cached: $($cached.TotalMilliseconds)ms | Speedup: $([math]::Round($uncached.TotalMilliseconds / $cached.TotalMilliseconds, 1))x"
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Demonstreert de prestatieverbetering die caching biedt door uitvoeringstijd te meten.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4424,7 +4109,7 @@ $seed = (Get-Date).DayOfYear
 Get-Random -SetSeed $seed
 Show-ColorScript -Random -PassThru | Select-Object Name
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont een consistente maar verschillende colorscript elke dag gebaseerd op de datum.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4437,11 +4122,11 @@ Show-ColorScript -Random -PassThru | Select-Object Name
 # Exporteer gerenderde colorscript naar bestand voor delen
 Show-ColorScript -Name "aurora-waves" -ReturnText |
     Out-File -FilePath "./aurora.ansi" -Encoding UTF8</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para># Later, toon het opgeslagen bestand
 Get-Content "./aurora.ansi" -Raw | Write-Host
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Slaat een gerenderde colorscript op in een bestand dat later kan worden weergegeven of gedeeld met anderen.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4458,7 +4143,7 @@ Get-ColorScriptList -Category Geometric -AsObject |
         Start-Sleep -Seconds 3
     }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont automatisch een reeks geometrische colorscripts met 3-seconden vertragingen tussen elk.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4476,7 +4161,7 @@ try {
     Show-ColorScript  # Fallback naar random
 }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Demonstreert foutafhandeling wanneer een niet-bestaand script wordt opgevraagd.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4493,7 +4178,7 @@ if ($env:CI) {
     Show-ColorScript  # Willekeurige weergave voor interactief gebruik
 }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Toont hoe verschillende colorscripts conditioneel weer te geven in CI/CD omgevingen vs. interactieve sessies.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4511,7 +4196,7 @@ if (Test-Path $scriptPath) {
     Show-ColorScript -Name mandelbrot-zoom
 }
 ```</maml:para>
-          <maml:para>&#x80;</maml:para>
+          <maml:para></maml:para>
           <maml:para>Demonstreert het uitvoeren van een specifieke colorscript als deel van geplande taak of startup automatisering.</maml:para>
         </maml:introduction>
         <dev:code />
@@ -4523,10 +4208,7 @@ if (Test-Path $scriptPath) {
         <maml:linkText>Online Version</maml:linkText>
         <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript</maml:uri>
       </maml:navigationLink>
-      <maml:navigationLink>
-        <maml:linkText />
-        <maml:uri>https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript</maml:uri>
-      </maml:navigationLink>
+      
     </command:relatedLinks>
   </command:command>
 </helpItems>

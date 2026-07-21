@@ -325,6 +325,18 @@ try {
         }
         $mergedContent = Set-MarkdownSection -Content $mergedContent -Heading 'ALIASES' -Body $aliasDescription
 
+        $helpUri = [string]$command.HelpUri
+        if (-not [string]::IsNullOrWhiteSpace($helpUri)) {
+            # PlatyPS can import related links from the existing external-help XML and then
+            # append CommandInfo.HelpUri again. Replacing this generated section makes help
+            # builds idempotent and prevents another duplicate on every regeneration.
+            $relatedLinks = '- [Online Version]({0})' -f $helpUri
+            $mergedContent = Set-MarkdownSection `
+                -Content $mergedContent `
+                -Heading 'RELATED LINKS' `
+                -Body $relatedLinks
+        }
+
         [System.IO.File]::WriteAllText($existingPath, $mergedContent, $utf8NoBom)
     }
 }

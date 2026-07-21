@@ -395,4 +395,5 @@ Cuando se especifica `-IncludeCacheInfo`, se incluyen estas propiedades adiciona
 
 ## RELATED LINKS
 
-- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata)
+
