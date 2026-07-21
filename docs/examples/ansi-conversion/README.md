@@ -14,7 +14,7 @@ This folder provides turnkey scripts that demonstrate how to use the repository 
 
 - Converts `assets/ansi-files/DEL-FLAG.ANS` into a new PowerShell script under `dist/examples/` (safe scratch location).
 - Demonstrates how to call `Convert-AnsiToColorScript.js` with explicit input/output arguments.
-- Produces a UTF-8 (no BOM) PowerShell script ready for testing with `Test-AllColorScripts.ps1`.
+- Produces a UTF-8-with-BOM PowerShell script so Unicode art also decodes correctly in Windows PowerShell 5.1.
 
 Run it from the repository root:
 

@@ -1,10 +1,12 @@
-﻿---
+---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/fr/Export-ColorScriptMetadata.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata
+Locale: fr
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: Export-ColorScriptMetadata
 ---
 
 # Export-ColorScriptMetadata
@@ -15,19 +17,16 @@ Exporte des métadonnées complètes pour tous les scripts de couleurs au format
 
 ## SYNTAX
 
-### Default (Default)
+### __AllParameterSets
 
-```text
-Export-ColorScriptMetadata [-Path <String>] [-IncludeFileInfo] [-IncludeCacheInfo] [-PassThru]
- [<CommonParameters>]
+```
+Export-ColorScriptMetadata [[-Path] <string>] [-h] [-IncludeFileInfo] [-IncludeCacheInfo]
+ [-PassThru] [-WhatIf] [-Confirm]
 ```
 
-### \_\_AllParameterSets
+## ALIASES
 
-```text
-Export-ColorScriptMetadata [[-Path] <string>] [-IncludeFileInfo] [-IncludeCacheInfo] [-PassThru]
- [<CommonParameters>]
-```
+This command has no aliases.
 
 ## DESCRIPTION
 
@@ -207,6 +206,50 @@ Suit les changements de taille de fichier pour des scripts individuels sur plusi
 
 ## PARAMETERS
 
+### -Confirm
+
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- cf
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -h
+
+Affiche l'aide détaillée de cette commande sans effectuer l'opération.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+- help
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
 ### -IncludeCacheInfo
 
 Augmente chaque enregistrement avec des métadonnées de cache, incluant le chemin du fichier de cache, si un fichier de cache existe, et son horodatage de dernière modification. Ceci est utile pour identifier les scripts qui peuvent nécessiter une régénération du cache ou analyser la couverture du cache dans la bibliothèque de scripts de couleurs.
@@ -217,15 +260,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -IncludeFileInfo
@@ -238,15 +281,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -PassThru
@@ -259,15 +302,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Path
@@ -276,26 +319,48 @@ Spécifie le chemin du fichier de destination pour l'exportation JSON. Prend en 
 
 ```yaml
 Type: System.String
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 0
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 0
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -WhatIf
+
+Runs the command in a mode that only reports what would happen without performing the actions.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- wi
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-Cette cmdlet prend en charge les paramètres communs : -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction et -WarningVariable. Pour plus d'informations, voir
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -326,234 +391,8 @@ Lorsque `-IncludeCacheInfo` est spécifié, ces propriétés supplémentaires so
 - **CacheExists** : Booléen indiquant si un fichier de cache existe
 - **CacheLastWriteTime** : Horodatage de la modification du fichier de cache (null si le cache n'existe pas)
 
-## ADVANCED USAGE PATTERNS
-
-### Analyse de données et rapports
-
-## Rapport d'inventaire complet
-
-```powershell
-# Générer un inventaire complet avec toutes les métadonnées
-$metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo -PassThru
-
-$report = @{
-    TotalScripts = $metadata.Count
-    Categories = ($metadata | Select-Object -ExpandProperty Category -Unique).Count
-    TotalFileSize = ($metadata | Measure-Object -Property FileSize -Sum).Sum
-    CachedScripts = ($metadata | Where-Object { $_.CacheExists }).Count
-    CacheSize = ($metadata | Where-Object { $_.CacheExists } | Measure-Object -Property CacheFileSize -Sum).Sum
-}
-
-$report | ConvertTo-Json | Out-File "./inventory-report.json"
-```
-
-## Analyse de distribution par catégories
-
-```powershell
-# Analyser la distribution dans les catégories
-$metadata = Export-ColorScriptMetadata -IncludeFileInfo
-
-$categories = $metadata | Group-Object Category | ForEach-Object {
-    [PSCustomObject]@{
-        Category = $_.Name
-        Count = $_.Count
-        TotalSize = ($_.Group | Measure-Object FileSize -Sum).Sum
-        AverageSize = [math]::Round(($_.Group | Measure-Object FileSize -Average).Average, 0)
-    }
-}
-
-$categories | Sort-Object Count -Descending | Format-Table
-```
-
-## Analyse de couverture du cache
-
-```powershell
-# Identifier les lacunes du cache
-$metadata = Export-ColorScriptMetadata -IncludeCacheInfo -PassThru
-
-$uncached = $metadata | Where-Object { -not $_.CacheExists }
-$cached = $metadata | Where-Object { $_.CacheExists }
-
-Write-Host "Couverture du cache : $([math]::Round($cached.Count / $metadata.Count * 100, 1))%"
-Write-Host "Scripts sans cache : $($uncached.Count)"
-
-$uncached | Select-Object Name, Category | Format-Table
-```
-
-### Workflows d'intégration
-
-## Génération de réponse API
-
-```powershell
-# Construire une réponse API versionnée
-$metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
-$apiResponse = @{
-    version = (Get-Module ColorScripts-Enhanced | Select-Object -ExpandProperty Version).ToString()
-    timestamp = (Get-Date -Format 'o')
-    scriptCount = $metadata.Count
-    scripts = $metadata | Select-Object Name, Category, Tags, Description
-    cacheStats = @{
-        cached = ($metadata | Where-Object CacheExists).Count
-        total = $metadata.Count
-    }
-} | ConvertTo-Json -Depth 5
-
-$apiResponse | Out-File "./api/colorscripts-v1.json" -Encoding UTF8
-```
-
-## Génération de galerie web
-
-```powershell
-# Créer une galerie HTML interactive
-$metadata = Export-ColorScriptMetadata -Detailed
-
-$html = @"
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Galerie ColorScripts-Enhanced</title>
-    <style>
-        body { font-family: Arial; margin: 20px; }
-        .script { border: 1px solid #ccc; padding: 10px; margin: 10px 0; }
-    </style>
-</head>
-<body>
-<h1>ColorScripts-Enhanced - $($metadata.Count) Scripts</h1>
-"@
-
-$metadata | ForEach-Object {
-    $html += "<div class='script'><strong>$($_.Name)</strong> [$($_.Category)]<br/>Tags: $(($_.Tags -join ', '))</div>`n"
-}
-
-$html += "</body></html>"
-$html | Out-File "./gallery.html" -Encoding UTF8
-```
-
-## Suivi des changements
-
-```powershell
-# Comparer l'état actuel avec une exportation précédente
-Export-ColorScriptMetadata -Path "./metadata-current.json" -IncludeFileInfo
-
-$current = Get-Content "./metadata-current.json" | ConvertFrom-Json
-$previous = Get-Content "./metadata-previous.json" -ErrorAction SilentlyContinue | ConvertFrom-Json
-
-if ($previous) {
-    $added = $current | Where-Object { $_.Name -notin $previous.Name }
-    $removed = $previous | Where-Object { $_.Name -notin $current.Name }
-
-    Write-Host "Ajoutés : $($added.Count) scripts"
-    Write-Host "Supprimés : $($removed.Count) scripts"
-}
-```
-
-### Maintenance et validation
-
-## Automatisation de vérification de santé
-
-```powershell
-# Valider tous les scripts et le statut du cache
-$metadata = Export-ColorScriptMetadata -IncludeCacheInfo -IncludeFileInfo -PassThru
-
-$health = $metadata | ForEach-Object {
-    @{
-        Name = $_.Name
-        FileExists = Test-Path $_.FilePath
-        Cached = $_.CacheExists
-        FileAge = if (Test-Path $_.FilePath) { (Get-Date) - (Get-Item $_.FilePath).LastWriteTime } else { $null }
-    }
-}
-
-$health | Where-Object { -not $_.FileExists -or -not $_.Cached } | Format-Table
-```
-
-## Métriques de performance
-
-```powershell
-# Exporter avec des données de performance
-$startTime = Get-Date
-$metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
-
-$metrics = @{
-    ExportTime = ((Get-Date) - $startTime).TotalMilliseconds
-    ScriptCount = $metadata.Count
-    TotalFileSize = ($metadata | Measure-Object FileSize -Sum).Sum
-    CacheHitRate = ($metadata | Where-Object CacheExists).Count / $metadata.Count
-}
-
-$metrics | ConvertTo-Json | Out-File "./performance.json"
-```
-
-### Sauvegarde et récupération après sinistre
-
-## Sauvegarde de métadonnées
-
-```powershell
-# Créer une sauvegarde de métadonnées horodatée
-$timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
-Export-ColorScriptMetadata -Path "./backups/metadata-$timestamp.json" -IncludeFileInfo -IncludeCacheInfo
-
-# Garder seulement les 5 dernières sauvegardes
-Get-ChildItem "./backups/metadata-*.json" | Sort-Object Name -Descending | Select-Object -Skip 5 | Remove-Item
-```
-
-## Validation de récupération
-
-```powershell
-# Valider les métadonnées sauvegardées par rapport à l'état actuel
-$backup = Get-Content "./backups/metadata-latest.json" | ConvertFrom-Json
-$current = Export-ColorScriptMetadata -PassThru
-
-$missing = $backup | Where-Object { $_.Name -notin $current.Name }
-if ($missing.Count -gt 0) {
-    Write-Warning "Manquant dans l'actuel : $($missing.Count) scripts"
-}
-```
-
 ## NOTES
-
-## Considérations de performance 
-
-- L'ajout de `-IncludeFileInfo` ou `-IncludeCacheInfo` nécessite des opérations d'E/S du système de fichiers et peut impacter les performances lors du traitement de grandes bibliothèques de scripts de couleurs.
-- Pour de grandes exportations, considérez utiliser `-PassThru` avec un filtrage pipeline plutôt que de charger tout en mémoire
-- Les opérations d'exportation évoluent linéairement avec le nombre de scripts
-
-## Gestion du répertoire de cache 
-
-- La collecte de métadonnées de cache garantit que le répertoire de cache existe avant d'essayer de lire les fichiers de cache.
-- Lorsque les fichiers de cache sont manquants ou indisponibles, la propriété `CacheExists` est définie sur `false` et `CacheLastWriteTime` sur null.
-
-## Gestion d'erreurs 
-
-- Les erreurs de lecture de métadonnées de fichier sont rapportées via la sortie verbose (`-Verbose`) plutôt que de terminer la cmdlet.
-- Les erreurs de fichiers individuels résultent en des valeurs nulles pour les propriétés affectées tout en permettant à la cmdlet de continuer le traitement des scripts de couleurs restants.
-
-## Format de sortie JSON 
-
-- Les fichiers JSON sont écrits avec une indentation (profondeur 2) pour la lisibilité humaine.
-- L'encodage de sortie est UTF-8 pour une compatibilité maximale.
-- Les fichiers existants au chemin cible sont écrasés sans invite.
-
-## Meilleures pratiques 
-
-- Planifier des exportations régulières de métadonnées pour l'audit
-- Versionner vos exportations de métadonnées avec des horodatages
-- Utiliser `-PassThru` pour l'exportation de fichier et le traitement pipeline
-- Stocker les sauvegardes dans des systèmes de contrôle de version ou de sauvegarde
-- Surveiller la croissance de la taille des fichiers d'exportation au fil du temps
-
-## Cas d'utilisation 
-
-- Intégration avec des pipelines CI/CD pour la génération de documentation
-- Construction de tableaux de bord web ou de points de terminaison API servant des métadonnées de scripts de couleurs
-- Création de rapports d'inventaire pour de grandes collections de scripts de couleurs
-- Identification des scripts nécessitant une régénération de cache
-- Suivi des changements et maintenance des journaux d'audit
 
 ## RELATED LINKS
 
-- [New-ColorScriptCache](New-ColorScriptCache.md)
-- [Get-ColorScriptList](Get-ColorScriptList.md)
-- [Clear-ColorScriptCache](Clear-ColorScriptCache.md)
-- [Show-ColorScript](Show-ColorScript.md)
-- [Get-ColorScriptConfiguration](Get-ColorScriptConfiguration.md)
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata)

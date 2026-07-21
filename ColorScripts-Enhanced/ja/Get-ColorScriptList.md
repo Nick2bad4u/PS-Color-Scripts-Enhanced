@@ -1,10 +1,12 @@
 ---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/ja/Get-ColorScriptList.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList
+Locale: ja
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: Get-ColorScriptList
 ---
 
 # Get-ColorScriptList
@@ -15,10 +17,16 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNTAX
 
-```powershell
-Get-ColorScriptList [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>] [-AsObject]
- [<CommonParameters>]
+### __AllParameterSets
+
 ```
+Get-ColorScriptList [[-Name] <string[]>] [[-Category] <string[]>] [[-Tag] <string[]>] [-h]
+ [-AsObject] [-Detailed] [-Quiet] [-NoAnsiOutput]
+```
+
+## ALIASES
+
+This command has no aliases.
 
 ## DESCRIPTION
 
@@ -128,19 +136,19 @@ Get-ColorScriptList -AsObject | Where-Object {
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Category
@@ -149,19 +157,62 @@ HelpMessage: ""
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 1
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -Detailed
+
+Displays an expanded formatted view that includes descriptions and additional metadata.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -h
+
+操作を実行せずに、このコマンドの詳細なヘルプを表示します。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- help
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Name
@@ -170,19 +221,61 @@ HelpMessage: ""
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 0
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -NoAnsiOutput
+
+プレーンテキスト環境向けに、情報メッセージと描画出力の ANSI 装飾を無効にします。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Quiet
+
+コマンドの出力やエラーを維持したまま、情報メッセージを抑制します。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Tag
@@ -191,24 +284,27 @@ HelpMessage: ""
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 2
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-このコマンドレットは共通パラメータをサポートします：-Debug、-ErrorAction、-ErrorVariable、-InformationAction、-InformationVariable、-OutBuffer、-OutVariable、-PipelineVariable、-ProgressAction、-Verbose、-WarningAction、-WarningVariable。詳細については、[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216) を参照してください。
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -232,23 +328,15 @@ HelpMessage: ""
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 以降
 
-## Metadata Properties
-
-- Name: Show-ColorScript で使用されるスクリプト識別子
-- Category: 組織化のためのテーマ別グループ
-- Tags: フィルタリングのための記述キーワードの配列
-- Description: コンテンツの人間が読める説明
-
-## Usage Patterns
-
-- Discovery: 選択前に利用可能なスクリプトを探索
-- Filtering: カテゴリとタグを使用してオプションを絞り込む
-- Automation: プログラムによるスクリプト選択のために -AsObject を使用
-- Inventory: ドキュメントまたはレポートのためのメタデータをエクスポート
-
 ## RELATED LINKS
 
-- [Show-ColorScript](Show-ColorScript.md)
-- [New-ColorScriptCache](New-ColorScriptCache.md)
-- [Export-ColorScriptMetadata](Export-ColorScriptMetadata.md)
-- [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)

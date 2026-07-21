@@ -1,10 +1,12 @@
 ---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/de/Get-ColorScriptList.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList
+Locale: de
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: Get-ColorScriptList
 ---
 
 # Get-ColorScriptList
@@ -15,10 +17,16 @@ Ruft eine Liste der verfügbaren Farbskripte mit ihren Metadaten ab.
 
 ## SYNTAX
 
-```powershell
-Get-ColorScriptList [[-Name] <string[]>] [-Category <string[]>] [-Tag <string[]>] [-AsObject]
- [<CommonParameters>]
+### __AllParameterSets
+
 ```
+Get-ColorScriptList [[-Name] <string[]>] [[-Category] <string[]>] [[-Tag] <string[]>] [-h]
+ [-AsObject] [-Detailed] [-Quiet] [-NoAnsiOutput]
+```
+
+## ALIASES
+
+This command has no aliases.
 
 ## DESCRIPTION
 
@@ -128,19 +136,19 @@ Gibt Farbskriptinformationen als strukturierte Objekte zurück, anstatt eine for
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Category
@@ -149,19 +157,65 @@ Filtert Ergebnisse auf Farbskripte, die zu einer oder mehreren angegebenen Kateg
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 1
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -Detailed
+
+Includes additional columns (tags and description) when rendering the formatted table view.
+This provides more comprehensive information about each script at a glance.
+
+Without this switch, only the name and primary category are displayed in the table output.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -h
+
+Zeigt die ausführliche Hilfe für diesen Befehl an, ohne den Vorgang auszuführen.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- help
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Name
@@ -170,19 +224,61 @@ Filtert Ergebnisse auf Farbskripte, die einem oder mehreren Namensmustern entspr
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 0
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -NoAnsiOutput
+
+Deaktiviert ANSI-Formatierung in Informationsmeldungen und gerenderter Ausgabe für reine Textumgebungen.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Quiet
+
+Unterdrückt Informationsmeldungen, ohne Befehlsausgaben und Fehler zu unterdrücken.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Tag
@@ -191,26 +287,26 @@ Filtert Ergebnisse auf Farbskripte, die mit einem oder mehreren angegebenen Tags
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 2
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-Dieses Cmdlet unterstützt die allgemeinen Parameter: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. Weitere Informationen finden Sie unter
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -235,23 +331,14 @@ Wenn `-AsObject` nicht angegeben ist, wird die Ausgabe direkt an die Konsole ges
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 oder höher
 
-## Metadateneigenschaften
-
-- Name: Skriptbezeichner, der von Show-ColorScript verwendet wird
-- Category: Thematische Gruppierung für Organisation
-- Tags: Array von beschreibenden Schlüsselwörtern für Filterung
-- Description: Menschlich lesbare Erklärung des Inhalts
-
-## Verwendungsmuster
-
-- Entdeckung: Verfügbare Skripte vor der Auswahl erkunden
-- Filterung: Optionen mithilfe von Kategorien und Tags einschränken
-- Automatisierung: -AsObject für programmatische Skriptauswahl verwenden
-- Inventar: Metadaten für Dokumentation oder Berichterstellung exportieren
-
 ## RELATED LINKS
 
-- [Show-ColorScript](Show-ColorScript.md)
-- [New-ColorScriptCache](New-ColorScriptCache.md)
-- [Export-ColorScriptMetadata](Export-ColorScriptMetadata.md)
-- [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)

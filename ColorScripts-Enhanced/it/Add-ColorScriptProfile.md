@@ -1,10 +1,12 @@
 ---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/it/Add-ColorScriptProfile.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile
+Locale: it
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: Add-ColorScriptProfile
 ---
 
 # Add-ColorScriptProfile
@@ -15,11 +17,17 @@ Aggiunge l'integrazione ColorScripts-Enhanced ai file di profilo PowerShell.
 
 ## SYNTAX
 
-```text
-Add-ColorScriptProfile [[-Scope] <string>] [[-Path] <string>] [-h] [-SkipStartupScript] [-IncludePokemon]
- [-SkipPokemonPrompt] [-PokemonPromptResponse <string>] [-SkipCacheBuild] [-Force] [-WhatIf] [-Confirm]
- [<CommonParameters>]
+### __AllParameterSets
+
 ```
+Add-ColorScriptProfile [[-ProfilePath] <string>] [[-DefaultStartupScript] <string>]
+ [[-PokemonPromptResponse] <string>] [-h] [-AutoShow] [-SkipStartupScript] [-IncludePokemon]
+ [-SkipPokemonPrompt] [-SkipCacheBuild] [-Force] [-WhatIf] [-Confirm]
+```
+
+## ALIASES
+
+This command has no aliases.
 
 ## DESCRIPTION
 
@@ -60,93 +68,132 @@ Aggiunge lo snippet a tutti gli host per l'utente corrente e configura `Show-Col
 
 ## PARAMETERS
 
+### -AutoShow
+
+Controls whether the managed profile block displays a colorscript after importing the module.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
 ### -Confirm
 
 Richiede conferma prima di eseguire il cmdlet.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: false
+DefaultValue: ''
 SupportsWildcards: false
-Aliases: cf
+Aliases:
+- cf
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
-### -Scope
+### -DefaultStartupScript
 
-Specifica l'ambito del profilo da modificare. I valori validi sono:
-
-- CurrentUserCurrentHost (predefinito)
-- CurrentUserAllHosts
-- AllUsersCurrentHost
-- AllUsersAllHosts
-
-  ```yaml
-  Type: System.String
-  DefaultValue: CurrentUserCurrentHost
-  SupportsWildcards: false
-  Aliases: []
-  ParameterSets:
-   - Name: (All)
-     Position: Named
-     IsRequired: false
-     ValueFromPipeline: false
-     ValueFromPipelineByPropertyName: false
-     ValueFromRemainingArguments: false
-  DontShow: false
-  AcceptedValues: []
-  HelpMessage: ""
-  ```
-
-### -WhatIf
-
-Mostra cosa accadrebbe se il cmdlet viene eseguito. Il cmdlet non viene eseguito.
+Specifies the colorscript name written to the managed profile block for startup display.
 
 ```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: false
-SupportsWildcards: false
-Aliases: wi
-ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-
-### -SkipPokemonPrompt
-
-Ignora il prompt che chiede se includere i colorscript Pokémon all'avvio.
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+Type: System.String
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-  - Name: (All)
-      Position: Named
-      IsRequired: false
-      ValueFromPipeline: false
-      ValueFromPipelineByPropertyName: false
-      ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 1
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -Force
+
+Updates the managed profile block without removing unrelated profile content.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -h
+
+Visualizza la guida dettagliata del comando senza eseguire l'operazione.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- help
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -IncludePokemon
+
+Allows Pokemon-themed scripts when the managed profile block displays a random colorscript.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -PokemonPromptResponse
@@ -157,19 +204,41 @@ Risponde in anticipo al prompt Pokémon (Y/Yes o N/No). Supporta la variabile di
 
 ```yaml
 Type: System.String
-DefaultValue: ""
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-  - Name: (All)
-      Position: Named
-      IsRequired: false
-      ValueFromPipeline: false
-      ValueFromPipelineByPropertyName: false
-      ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 2
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -ProfilePath
+
+Specifies the PowerShell profile file to update. The Path alias is also accepted.
+
+```yaml
+Type: System.String
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- Path
+ParameterSets:
+- Name: (All)
+  Position: 0
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -SkipCacheBuild
@@ -181,38 +250,128 @@ si trova sotto la cartella temporanea.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
-  - Name: (All)
-      Position: Named
-      IsRequired: false
-      ValueFromPipeline: false
-      ValueFromPipelineByPropertyName: false
-      ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -SkipPokemonPrompt
+
+Ignora il prompt che chiede se includere i colorscript Pokémon all'avvio.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -SkipStartupScript
+
+Adds the module import but omits the startup Show-ColorScript invocation.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -WhatIf
+
+Runs the command in a mode that only reports what would happen without performing the actions.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- wi
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-Questo cmdlet supporta i parametri comuni: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. Per ulteriori informazioni, vedere
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
-- Le modifiche hanno effetto nelle nuove sessioni PowerShell
 
-## Funzionalità di sicurezza
+## INPUTS
 
-- Verifica l'integrazione esistente per evitare duplicazioni
-- Utilizza meccanismi di profilo PowerShell standard
-- Fornisce opzioni WhatIf e Confirm per operazioni sicure
+### None
+
+This cmdlet does not accept pipeline input.
+
+## OUTPUTS
+
+### System.Object
+
+Returns a custom object with the following properties:
+
+- **ProfilePath** (string): The full path to the modified profile file
+- **Changed** (bool): Whether the profile was actually modified
+- **Message** (string): A status message describing the operation result
+
+## NOTES
+
+**Author:** Nick
+**Module:** ColorScripts-Enhanced
+**Requires:** PowerShell 5.1 or later
+
+The profile file is created automatically if it does not exist, including any necessary parent directories.
+Duplicate imports are detected and suppressed unless `-Force` is used.
+
+If you need elevated permissions to modify an AllUsers profile, ensure you run PowerShell as Administrator.
 
 ## RELATED LINKS
 
-- [Get-ColorScriptConfiguration](Get-ColorScriptConfiguration.md)
-- [Set-ColorScriptConfiguration](Set-ColorScriptConfiguration.md)
-- [Show-ColorScript](Show-ColorScript.md)
-- [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)

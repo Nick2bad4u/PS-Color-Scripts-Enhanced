@@ -1,10 +1,12 @@
 ---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/it/New-ColorScript.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript
+Locale: it
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: New-ColorScript
 ---
 
 # New-ColorScript
@@ -15,10 +17,22 @@ Crea un nuovo colorscript con metadati e struttura del template.
 
 ## SYNTAX
 
-```text
-New-ColorScript [-Name] <string> [[-Category] <string>] [[-Tags] <string[]>] [[-Description] <string>]
- [-Path <string>] [-Template <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
+### Scaffold
+
 ```
+New-ColorScript -Name <string> -OutputPath <string> [-h] [-Force] [-GenerateMetadataSnippet]
+ [-Category <string[]>] [-Tag <string[]>] [-OpenInEditor] [-WhatIf] [-Confirm]
+```
+
+### Help
+
+```
+New-ColorScript [-h] [-Name <string>] [-WhatIf] [-Confirm]
+```
+
+## ALIASES
+
+This command has no aliases.
 
 ## DESCRIPTION
 
@@ -94,20 +108,20 @@ Crea più colorscript a tema natura.
 Specifica la categoria per il nuovo colorscript. Le categorie aiutano a organizzare gli script tematicamente.
 
 ```yaml
-Type: System.String
-DefaultValue: None
+Type: System.String[]
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 1
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: Scaffold
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Confirm
@@ -116,40 +130,91 @@ Richiede conferma prima di eseguire il cmdlet.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: false
+DefaultValue: ''
 SupportsWildcards: false
-Aliases: cf
+Aliases:
+- cf
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
-### -Description
+### -Force
 
-Fornisce una descrizione per il colorscript che spiega il suo contenuto visivo.
+Overwrites an existing colorscript file at the resolved output path.
 
 ```yaml
-Type: System.String
-DefaultValue: None
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- Overwrite
+ParameterSets:
+- Name: Scaffold
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -GenerateMetadataSnippet
+
+Includes metadata guidance for adding the new script to ScriptMetadata.psd1.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 3
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: Scaffold
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -h
+
+Visualizza la guida dettagliata del comando senza eseguire l'operazione.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- help
+ParameterSets:
+- Name: Scaffold
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Help
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Name
@@ -158,82 +223,90 @@ Il nome del nuovo colorscript (senza estensione .ps1).
 
 ```yaml
 Type: System.String
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 0
-   IsRequired: true
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: Help
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Scaffold
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
-### -Path
+### -OpenInEditor
 
-Specifica la directory dove verrà creato il colorscript.
+Opens the generated colorscript with the command configured by the environment when creation succeeds.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: Scaffold
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -OutputPath
+
+Specifies the target directory or .ps1 file path for the generated colorscript.
 
 ```yaml
 Type: System.String
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
-Aliases: []
+Aliases:
+- Destination
+- Path
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: Scaffold
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
-### -Tags
+### -Tag
 
-Specifica i tag per il colorscript. I tag forniscono opzioni aggiuntive di categorizzazione e filtraggio.
+Specifies metadata tags to include in the generated metadata guidance.
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 2
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: Scaffold
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
-```
-
-### -Template
-
-Specifica il template da usare per il nuovo colorscript. Template disponibili: Basic, Animated, Interactive, Geometric, Nature.
-
-```yaml
-Type: System.String
-DefaultValue: Basic
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -WhatIf
@@ -242,26 +315,27 @@ Mostra cosa accadrebbe se il cmdlet viene eseguito. Il cmdlet non viene eseguito
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: false
+DefaultValue: ''
 SupportsWildcards: false
-Aliases: wi
+Aliases:
+- wi
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-Questo cmdlet supporta i parametri comuni: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, e -WarningVariable. Per ulteriori informazioni, vedere
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -282,20 +356,15 @@ Restituisce un oggetto con informazioni sul colorscript creato.
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-## Templates
-
-- Basic: Struttura minima per script personalizzati
-- Animated: Template con controlli di temporizzazione
-- Interactive: Template con gestione input utente
-- Geometric: Template per pattern geometrici
-- Nature: Template per design ispirati alla natura
-
-## File Structure
-Gli script creati seguono l'organizzazione standard del modulo e si integrano automaticamente con i sistemi di caching e visualizzazione.
-
 ## RELATED LINKS
 
-- [Show-ColorScript](Show-ColorScript.md)
-- [Get-ColorScriptList](Get-ColorScriptList.md)
-- [New-ColorScriptCache](New-ColorScriptCache.md)
-- [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)

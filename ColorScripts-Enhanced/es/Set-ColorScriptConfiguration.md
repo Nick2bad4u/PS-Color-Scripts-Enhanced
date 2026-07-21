@@ -1,10 +1,12 @@
-﻿---
+---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/es/Set-ColorScriptConfiguration.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration
+Locale: es
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: Set-ColorScriptConfiguration
 ---
 
 # Set-ColorScriptConfiguration
@@ -15,36 +17,20 @@ Persistir cambios en la caché y configuración de inicio de ColorScripts-Enhanc
 
 ## SYNTAX
 
-### Default (Default)
+### __AllParameterSets
 
-```text
-Set-ColorScriptConfiguration [-AutoShowOnImport <Boolean>] [-ProfileAutoShow <Boolean>]
- [-CachePath <String>] [-DefaultScript <String>] [-PassThru] [<CommonParameters>]
 ```
-
-### \_\_AllParameterSets
-
-```text
 Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <bool>]
- [[-CachePath] <string>] [[-DefaultScript] <string>] [-PassThru] [<CommonParameters>]
+ [[-CachePath] <string>] [[-DefaultScript] <string>] [-h] [-PassThru] [-WhatIf] [-Confirm]
 ```
+
+## ALIASES
+
+This command has no aliases.
 
 ## DESCRIPTION
 
 `Set-ColorScriptConfiguration` proporciona una forma persistente de personalizar el comportamiento y la ubicación de almacenamiento del módulo ColorScripts-Enhanced. Este cmdlet actualiza el archivo de configuración del módulo, permitiéndole controlar varios aspectos de la representación y almacenamiento de scripts.
-
-## Capacidades clave
-
-- **Reubicación de caché**: Mueva la caché de colorscript a un directorio personalizado, útil para acciones compartidas de red, unidades más rápidas o ubicaciones de almacenamiento centralizadas.
-- **Comportamiento de autoimportación**: Controle si un colorscript se muestra automáticamente cuando el módulo se importa por primera vez en su sesión de PowerShell.
-- **Integración de perfil**: Configure ajustes predeterminados para `Add-ColorScriptProfile` para simplificar la configuración del perfil.
-- **Selección de script predeterminado**: Establezca un colorscript preferido que se utilizará cuando no se solicite un script específico.
-
-Cualquier ruta de directorio proporcionada para `-CachePath` se crea automáticamente si no existe. El cmdlet admite expansión de variables de entorno, expansión de directorio de inicio tilde (`~`), y rutas absolutas y relativas. Proporcionar una cadena vacía (`''`) a `-CachePath` o `-DefaultScript` borra el valor almacenado y revierte a los valores predeterminados del módulo.
-
-Los cambios realizados con este cmdlet surten efecto inmediatamente para nuevas operaciones, pero pueden no afectar los datos de caché ya cargados hasta que el módulo se reimporte o PowerShell se reinicie.
-
-Cuando se especifica `-PassThru`, el cmdlet devuelve el objeto de configuración actualizado, facilitando la verificación de cambios o el encadenamiento de operaciones adicionales.
 
 ## EXAMPLES
 
@@ -96,19 +82,19 @@ Habilitar o deshabilitar la representación automática de un colorscript cuando
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
-DefaultValue: (no change)
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 0
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 0
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -CachePath
@@ -121,19 +107,41 @@ Si el directorio especificado no existe, se creará automáticamente con permiso
 
 ```yaml
 Type: System.String
-DefaultValue: (no change)
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 2
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 2
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -Confirm
+
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- cf
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -DefaultScript
@@ -146,19 +154,41 @@ El script especificado debe existir en el directorio de scripts del módulo para
 
 ```yaml
 Type: System.String
-DefaultValue: (no change)
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 3
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 3
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -h
+
+Muestra la ayuda detallada de este comando sin realizar la operación.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- help
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -PassThru
@@ -169,19 +199,19 @@ Devuelve el objeto de configuración actualizado después de realizar cambios. S
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -ProfileAutoShow
@@ -192,26 +222,48 @@ Esta configuración solo afecta el código de perfil recién generado; las modif
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
-DefaultValue: (no change)
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 1
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 1
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -WhatIf
+
+Runs the command in a mode that only reports what would happen without performing the actions.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- wi
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-Este cmdlet admite los parámetros comunes: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, y -WarningVariable. Para más información, consulte
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -232,29 +284,19 @@ Cuando se especifica `-PassThru`, devuelve una hashtable que contiene la configu
 
 ## NOTES
 
-## Ubicación del archivo de configuración
-
-Los cambios de configuración se persisten en un archivo JSON o XML almacenado en un directorio de datos de aplicación específico de la plataforma. Use `Get-ColorScriptConfiguration` para ver la ruta raíz de configuración actual. La variable de entorno `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` puede anular la ubicación predeterminada del directorio de configuración si se establece antes de importar el módulo.
-
-## Valores predeterminados de plataforma
-
-- **Windows**: `$env:LOCALAPPDATA\ColorScripts-Enhanced`
-- **Linux/macOS**: `~/.config/ColorScripts-Enhanced` o `$XDG_CONFIG_HOME/ColorScripts-Enhanced`
-
-## Mejores prácticas
-
-- Pruebe cambios de ruta de caché en un entorno no productivo primero, especialmente cuando use ubicaciones de red.
-- Use `-PassThru` al escribir scripts para validar actualizaciones de configuración programáticamente.
-- Considere establecer `AutoShowOnImport:$false` en scripts automatizados o canalizaciones CI/CD para evitar salida visual inesperada.
-- Documente configuraciones personalizadas en entornos de equipo para asegurar comportamiento consistente entre usuarios.
-
-## Permisos
-
-Asegúrese de tener permisos de escritura en el directorio de configuración. En sistemas compartidos, los cambios de configuración afectan solo el perfil del usuario actual a menos que se anulen con variables de entorno que apunten a ubicaciones compartidas.
+Configuration is persisted only after validation and confirmation succeed.
+`-WhatIf` performs no filesystem writes.
+Use `Get-ColorScriptConfiguration` to inspect the effective values and storage paths after the operation.
 
 ## RELATED LINKS
 
-- [Get-ColorScriptConfiguration](Get-ColorScriptConfiguration.md)
-- [Reset-ColorScriptConfiguration](Reset-ColorScriptConfiguration.md)
-- [Add-ColorScriptProfile](Add-ColorScriptProfile.md)
-- [Show-ColorScript](Show-ColorScript.md)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)

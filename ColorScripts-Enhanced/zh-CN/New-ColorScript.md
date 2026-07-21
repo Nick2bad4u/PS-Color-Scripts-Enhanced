@@ -1,10 +1,12 @@
 ---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/zh-CN/New-ColorScript.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript
+Locale: zh-CN
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: New-ColorScript
 ---
 
 # New-ColorScript
@@ -15,10 +17,22 @@ PlatyPS schema version: 2024-05-01
 
 ## SYNTAX
 
-```text
-New-ColorScript [-Name] <string> [[-Category] <string>] [[-Tags] <string[]>] [[-Description] <string>]
- [-Path <string>] [-Template <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
+### Scaffold
+
 ```
+New-ColorScript -Name <string> -OutputPath <string> [-h] [-Force] [-GenerateMetadataSnippet]
+ [-Category <string[]>] [-Tag <string[]>] [-OpenInEditor] [-WhatIf] [-Confirm]
+```
+
+### Help
+
+```
+New-ColorScript [-h] [-Name <string>] [-WhatIf] [-Confirm]
+```
+
+## ALIASES
+
+This command has no aliases.
 
 ## DESCRIPTION
 
@@ -94,20 +108,20 @@ foreach ($theme in $themes) {
 指定新颜色脚本的类别。类别有助于按主题组织脚本。
 
 ```yaml
-Type: System.String
-DefaultValue: None
+Type: System.String[]
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 1
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: Scaffold
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Confirm
@@ -116,40 +130,91 @@ HelpMessage: ""
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: false
+DefaultValue: ''
 SupportsWildcards: false
-Aliases: cf
+Aliases:
+- cf
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
-### -Description
+### -Force
 
-为颜色脚本提供描述，解释其视觉内容。
+Overwrites an existing colorscript file at the resolved output path.
 
 ```yaml
-Type: System.String
-DefaultValue: None
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- Overwrite
+ParameterSets:
+- Name: Scaffold
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -GenerateMetadataSnippet
+
+Includes metadata guidance for adding the new script to ScriptMetadata.psd1.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 3
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: Scaffold
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -h
+
+显示此命令的详细帮助，而不执行操作。
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- help
+ParameterSets:
+- Name: Scaffold
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Help
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Name
@@ -158,82 +223,90 @@ HelpMessage: ""
 
 ```yaml
 Type: System.String
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 0
-   IsRequired: true
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: Help
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Scaffold
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
-### -Path
+### -OpenInEditor
 
-指定将创建颜色脚本的目录。
+Opens the generated colorscript with the command configured by the environment when creation succeeds.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: Scaffold
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -OutputPath
+
+Specifies the target directory or .ps1 file path for the generated colorscript.
 
 ```yaml
 Type: System.String
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
-Aliases: []
+Aliases:
+- Destination
+- Path
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: Scaffold
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
-### -Tags
+### -Tag
 
-指定颜色脚本的标签。标签提供额外的分类和过滤选项。
+Specifies metadata tags to include in the generated metadata guidance.
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 2
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: Scaffold
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
-```
-
-### -Template
-
-指定用于新颜色脚本的模板。可用模板：Basic、Animated、Interactive、Geometric、Nature。
-
-```yaml
-Type: System.String
-DefaultValue: Basic
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -WhatIf
@@ -242,27 +315,28 @@ HelpMessage: ""
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: false
+DefaultValue: ''
 SupportsWildcards: false
-Aliases: wi
+Aliases:
+- wi
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-此 cmdlet 支持通用参数：-Debug、-ErrorAction、-ErrorVariable、
--InformationAction、-InformationVariable、-OutBuffer、-OutVariable、-PipelineVariable、
--ProgressAction、-Verbose、-WarningAction 和 -WarningVariable。有关更多信息，请参见
-[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216)。
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -282,20 +356,15 @@ HelpMessage: ""
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 或更高版本
 
-## Templates
-
-- Basic：自定义脚本的最小结构
-- Animated：具有定时控制的模板
-- Interactive：具有用户输入处理的模板
-- Geometric：几何图案的模板
-- Nature：自然灵感设计的模板
-
-## File Structure
-创建的脚本遵循模块的标准组织，并自动与缓存和显示系统集成。
-
 ## RELATED LINKS
 
-- [Show-ColorScript](Show-ColorScript.md)
-- [Get-ColorScriptList](Get-ColorScriptList.md)
-- [New-ColorScriptCache](New-ColorScriptCache.md)
-- [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)

@@ -35,7 +35,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
 1. **Create the script file**
    - Place in `ColorScripts-Enhanced/Scripts/`
    - Use lowercase-with-hyphens naming: `my-cool-script.ps1`
-   - Include proper UTF-8 encoding
+   - Save `.ps1` files as UTF-8; include a BOM when non-ASCII content must run in Windows PowerShell 5.1
 
 2. **Script structure**
 
@@ -47,7 +47,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
 
 3. **Follow guidelines**
    - Use ANSI escape codes for colors: `$esc = [char]27`
-   - Support UTF-8 encoding
+   - Keep text and escape sequences valid when the generated `.ps1` is decoded as UTF-8 (the converters add a BOM for Windows PowerShell 5.1)
    - Keep scripts under 500 lines when possible
    - Add comments for complex sections
    - Test on multiple terminals
@@ -210,7 +210,7 @@ Before submitting:
 - [ ] Tested on PowerShell 5.1 and 7.x
 - [ ] Tested on Windows Terminal
 - [ ] Verified glyph-heavy scripts render with a Nerd Font (`Show-ColorScript -Name nerd-font-test`)
-- [ ] UTF-8 encoding verified
+- [ ] Generated or hand-authored `.ps1` files are UTF-8 and use a BOM when required by Windows PowerShell 5.1; source `.ANS` files were decoded using their actual encoding (normally CP437 for traditional DOS/BBS art)
 - [ ] `Lint-Module.ps1 -IncludeTests -TreatWarningsAsErrors` passes
 - [ ] Pester tests pass (`Invoke-Pester -Path ./Tests`)
 - [ ] No breaking changes (or documented if required)
@@ -343,7 +343,7 @@ Steps:
 
 **Requirements**:
 
-- [ ] UTF-8 encoding
+- [ ] Generated `.ps1` uses UTF-8 with a BOM for Windows PowerShell 5.1; any source `.ANS` encoding was selected explicitly
 - [ ] ANSI escape sequences for colors
 - [ ] Under 500 lines (prefer smaller)
 - [ ] No external dependencies
@@ -669,7 +669,7 @@ Contributors will be recognized:
 
 ### Community
 
-- [GitHub Discussions](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/discussions)
+- [Feature requests](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues/new?template=feature_request.md)
 - [GitHub Issues](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues)
 - PowerShell Discord (if available)
 
@@ -683,14 +683,14 @@ Contributors will be recognized:
 
 ## Version Numbering
 
-Format: `YYYY.MM.DD.BuildNumber`
+Format: `YYYY.M.D.Revision`
 
-Example: `2025.10.09.1625`
+Example shape: `2030.1.2.3`
 
 - **YYYY**: Year
-- **MM**: Month (01-12)
-- **DD**: Day (01-31)
-- **BuildNumber**: Sequential number for multiple releases per day
+- **M**: Month (1-12)
+- **D**: Day (1-31)
+- **Revision**: Build or release revision for that date
 
 ## Questions
 

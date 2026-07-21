@@ -1,51 +1,65 @@
 ---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/it/Show-ColorScript.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript
+Locale: it
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: Show-ColorScript
 ---
 
 # Show-ColorScript
 
 ## SYNOPSIS
 
-Visualizza uno script di colore con caching automatico per prestazioni migliorate.
+Visualizza un colorscript e usa la cache selettiva solo per i renderer costosi.
 
 ## SYNTAX
 
 ### Random (Default)
 
-```text
-Show-ColorScript [-Random] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
- [-ExcludeCategory <String[]>] [-IncludePokemon] [-PassThru]
- [-ReturnText] [<CommonParameters>]
+```
+Show-ColorScript [-Random] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
+ [-ValidateCache]
+```
+
+### Help
+
+```
+Show-ColorScript [-h] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-Quiet] [-NoAnsiOutput]
+ [-ValidateCache]
 ```
 
 ### Named
 
-```text
+```
 Show-ColorScript [[-Name] <string>] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <String[]>] [-IncludePokemon] [-PassThru]
- [-ReturnText] [<CommonParameters>]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-PassThru] [-ReturnText] [-Quiet] [-NoAnsiOutput]
+ [-ValidateCache]
 ```
 
 ### List
 
-```text
+```
 Show-ColorScript [-List] [-NoCache] [-Category <string[]>] [-Tag <string[]>]
- [-ExcludeCategory <String[]>] [-IncludePokemon] [-ReturnText]
- [<CommonParameters>]
+ [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-Quiet] [-NoAnsiOutput]
+ [-ValidateCache]
 ```
 
 ### All
 
-```text
-Show-ColorScript [-All] [-WaitForInput] [-NoCache] [-Category <String[]>] [-Tag <String[]>]
- [-ExcludeCategory <String[]>] [-IncludePokemon]
- [<CommonParameters>]
 ```
+Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <string[]>]
+ [-Tag <string[]>] [-ExcludeCategory <string[]>] [-IncludePokemon] [-ReturnText] [-Quiet]
+ [-NoAnsiOutput] [-ValidateCache]
+```
+
+## ALIASES
+
+- `scs`
 
 ## DESCRIPTION
 
@@ -58,15 +72,6 @@ Rendering di bellissimi script di colore ANSI nel tuo terminale con ottimizzazio
 **List Mode:** Visualizza una lista formattata di tutti gli script di colore disponibili con i loro metadati, inclusi nome, categoria, tag e descrizioni.
 
 **All Mode:** Scorre attraverso tutti gli script di colore disponibili in ordine alfabetico. Particolarmente utile per mostrare l'intera collezione o scoprire nuovi script.
-
-## Performance Features
-Il sistema di caching fornisce miglioramenti delle prestazioni di 6-19x. Alla prima esecuzione, uno script di colore viene eseguito normalmente e il suo output viene memorizzato nella cache. Le visualizzazioni successive utilizzano l'output memorizzato nella cache per un rendering quasi istantaneo. La cache viene invalidata automaticamente quando gli script sorgente vengono modificati, garantendo l'accuratezza dell'output.
-
-## Filtering Capabilities
-Filtra gli script per categoria o tag prima che avvenga la selezione. Questo si applica attraverso tutte le modalità, permettendo di lavorare con sottoinsiemi della collezione (ad esempio, solo script a tema natura o script taggati come "retro").
-
-## Output Options
-Per impostazione predefinita, gli script di colore vengono scritti direttamente nella console per una visualizzazione visiva immediata. Usa `-ReturnText` per emettere l'output renderizzato nella pipeline per cattura, reindirizzamento o ulteriore elaborazione. Usa `-PassThru` per ricevere l'oggetto metadati dello script per uso programmatico.
 
 ## EXAMPLES
 
@@ -270,20 +275,20 @@ Dimostra l'esecuzione di uno specifico script di colore come parte di un task pr
 Scorre attraverso tutti gli script di colore disponibili in ordine alfabetico. Quando specificato da solo, gli script vengono visualizzati continuamente con un breve ritardo automatico. Combina con `-WaitForInput` per controllare manualmente la progressione attraverso la collezione. Questa modalità è ideale per mostrare l'intera libreria o scoprire nuovi preferiti.
 
 ```yaml
-Type: SwitchParameter
+Type: System.Management.Automation.SwitchParameter
 DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: All
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Category
@@ -292,19 +297,85 @@ Filtra la collezione di script disponibili per una o più categorie prima che av
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -ExcludeCategory
+
+Exclude scripts from one or more categories.
+Use this to filter out large collections like Pokemon scripts.
+
+```yaml
+Type: System.String[]
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -h
+
+Visualizza la guida dettagliata del comando senza eseguire l'operazione.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+- help
+ParameterSets:
+- Name: Help
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -IncludePokemon
+
+Opt-in flag to include Pokemon colorscripts in the random selection.
+When omitted, Pokemon scripts are filtered out automatically.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -List
@@ -317,15 +388,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: List
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: List
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Name
@@ -334,19 +405,41 @@ Il nome dello script di colore da visualizzare (senza l'estensione .ps1). Suppor
 
 ```yaml
 Type: System.String
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
- - Name: Named
-   Position: 0
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: Named
+  Position: 0
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -NoAnsiOutput
+
+Disabilita la formattazione ANSI nei messaggi informativi e nell'output renderizzato per gli ambienti di solo testo.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+- NoColor
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -NoCache
@@ -359,15 +452,36 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -NoClear
+
+When cycling through scripts with -All, skip clearing the host between displays so prior output remains visible.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -PassThru
@@ -380,21 +494,42 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: Random
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
- - Name: Named
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: Random
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Named
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -Quiet
+
+Nasconde i messaggi informativi senza sopprimere l'output del comando o gli errori.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Random
@@ -407,15 +542,15 @@ DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: Random
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: Random
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -ReturnText
@@ -427,17 +562,17 @@ Type: System.Management.Automation.SwitchParameter
 DefaultValue: False
 SupportsWildcards: false
 Aliases:
- - AsString
+- AsString
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Tag
@@ -446,19 +581,41 @@ Filtra la collezione di script disponibili per tag di metadati (case-insensitive
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -ValidateCache
+
+Forces cache validation before rendering.
+Use when you need to rebuild cached colorscript output manually.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -WaitForInput
@@ -466,20 +623,20 @@ HelpMessage: ""
 Quando utilizzato con `-All`, mette in pausa dopo aver visualizzato ogni script di colore e attende l'input dell'utente prima di procedere. Premi la barra spaziatrice per avanzare al prossimo script nella sequenza. Premi 'q' per uscire dalla sequenza presto e tornare al prompt. Questo fornisce un'esperienza di navigazione interattiva attraverso l'intera collezione.
 
 ```yaml
-Type: SwitchParameter
+Type: System.Management.Automation.SwitchParameter
 DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: All
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### CommonParameters
@@ -515,255 +672,6 @@ Nell'operazione predefinita (senza `-PassThru` o `-ReturnText`), l'output viene 
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 or later
 
-## Performance
-Il sistema di caching intelligente fornisce miglioramenti delle prestazioni di 6-19x rispetto all'esecuzione diretta. I file di cache sono memorizzati in una directory gestita dal modulo e vengono invalidati automaticamente quando gli script sorgente vengono modificati, garantendo l'accuratezza.
-
-## Cache Management
-
-- Posizione cache: Usa `(Get-Module ColorScripts-Enhanced).ModuleBase` e cerca la directory cache
-- Cancella cache: Usa `Clear-ColorScriptCache` per ricostruire da zero
-- Ricostruisci cache: Usa `New-ColorScriptCache` per pre-popolare la cache dei renderer selezionati dalla policy
-- Ispeziona cache: I file di cache sono testo semplice e possono essere visualizzati direttamente
-
-## Tips
-
-- Aggiungi `Show-ColorScript -Random` al tuo profilo PowerShell per un saluto colorato ad ogni avvio di sessione
-- Usa l'alias del modulo `scs` per un accesso rapido: `scs -Random`
-- Combina filtri di categoria e tag per una selezione precisa
-- Usa `-List` per scoprire nuovi script e imparare sui loro temi
-- La combinazione `-All -WaitForInput` è perfetta per presentare la collezione ad altri
-
-## Compatibility
-Colorscripts use ANSI escape sequences and display best in terminals with full color support, such as Windows Terminal, ConEmu, or modern Unix terminals.
-
-## ADVANCED USAGE
-
-### Filtering Strategies
-
-## By Category and Tag Combination
-
-```powershell
-# Mostra solo gli script di colore geometrici taggati come minimal
-Show-ColorScript -Category Geometric -Tag minimal -Random
-
-# Mostra solo gli script di colore raccomandati dalla categoria natura
-Show-ColorScript -Category Nature -Tag Recommended -Random
-
-# Visualizza più categorie con tag specifico
-Show-ColorScript -Category Geometric,Abstract -Tag colorful -Random
-```
-
-## Dynamic Filtering Based on Time
-
-```powershell
-# Mattina: colori brillanti
-if ((Get-Date).Hour -lt 12) {
-    Show-ColorScript -Tag bright,colorful -Random
-}
-# Sera: palette più scure
-else {
-    Show-ColorScript -Tag dark,minimal -Random
-}
-```
-
-### Output Capture Patterns
-
-## Save for Later Viewing
-
-```powershell
-# Salva in variabile
-$art = Show-ColorScript -Name spectrum -ReturnText
-$art | Out-File "./my-art.ansi" -Encoding UTF8
-
-# Visualizza successivamente
-Get-Content "./my-art.ansi" -Raw | Write-Host
-```
-
-## Create Themed Collections
-
-```powershell
-# Raccogli tutti gli script geometrici
-$geometric = Get-ColorScriptList -Category Geometric -AsObject
-
-# Salva ciascuno
-$geometric | ForEach-Object {
-    Show-ColorScript -Name $_.Name -ReturnText |
-        Out-File "./collection/$($_.Name).ansi" -Encoding UTF8
-}
-```
-
-### Performance Analysis
-
-## Comprehensive Benchmark
-
-```powershell
-# Funzione per misurare le prestazioni degli script di colore
-function Measure-ColorScriptPerformance {
-    param([string]$Name)
-
-    # Riscaldamento cache
-    Show-ColorScript -Name $Name | Out-Null
-
-    # Prestazioni con cache
-    $cached = Measure-Command { Show-ColorScript -Name $Name }
-
-    # Prestazioni senza cache
-    Clear-ColorScriptCache -Name $Name -Confirm:$false
-    $uncached = Measure-Command { Show-ColorScript -Name $Name -NoCache }
-
-    [PSCustomObject]@{
-        Script = $Name
-        Cached = $cached.TotalMilliseconds
-        Uncached = $uncached.TotalMilliseconds
-        Improvement = [math]::Round($uncached.TotalMilliseconds / $cached.TotalMilliseconds, 2)
-    }
-}
-
-# Testa più script
-Get-ColorScriptList -Category Geometric -AsObject |
-    ForEach-Object { Measure-ColorScriptPerformance -Name $_.Name }
-```
-
-### Terminal Customization
-
-## Terminal-Specific Display
-
-```powershell
-# Windows Terminal con supporto ANSI
-if ($env:WT_SESSION) {
-    Show-ColorScript -Category Abstract -Random  # Colori massimi
-}
-
-# Terminale VS Code
-if ($env:TERM_PROGRAM -eq "vscode") {
-    Show-ColorScript -Tag simple  # Evita rendering complesso
-}
-
-# Sessione SSH (potenzialmente limitata)
-if ($env:SSH_CONNECTION) {
-    Show-ColorScript -NoCache -Category Simple  # Overhead minimo
-}
-
-# Terminale ConEmu
-if ($env:ConEmuANSI -eq "ON") {
-    Show-ColorScript -Random  # Supporto ANSI completo
-}
-```
-
-### Automation Integration
-
-## Scheduled Colorscript Rotation
-
-```powershell
-# Crea wrapper per task programmato
-function Start-ColorScriptSession {
-    param(
-        [int]$MaxScripts = 5,
-        [string[]]$Categories = @("Geometric", "Nature"),
-        [int]$DelaySeconds = 2
-    )
-
-    Get-ColorScriptList -Category $Categories -AsObject |
-        Select-Object -First $MaxScripts |
-        ForEach-Object {
-            Write-Host "`n=== $($_.Name) ($($_.Category)) ===" -ForegroundColor Cyan
-            Show-ColorScript -Name $_.Name
-            Start-Sleep -Seconds $DelaySeconds
-        }
-}
-```
-
-### Error Handling and Resilience
-
-## Graceful Fallback
-
-```powershell
-# Prova script specifico, fallback a casuale
-try {
-    Show-ColorScript -Name "specific-script" -ErrorAction Stop
-} catch {
-    Write-Warning "Script specifico non trovato, mostra casuale"
-    Show-ColorScript -Random
-}
-```
-
-## Validation Before Display
-
-```powershell
-# Verifica che lo script esista prima di visualizzarlo
-$scripts = Get-ColorScriptList -AsObject
-$scriptName = "aurora-waves"
-
-if ($scriptName -in $scripts.Name) {
-    Show-ColorScript -Name $scriptName
-} else {
-    Write-Error "$scriptName non trovato"
-    Get-ColorScriptList | Out-Host
-}
-```
-
-### Metadata Inspection
-
-## Inspect Before Displaying
-
-```powershell
-# Ottieni metadati durante la visualizzazione
-$metadata = Show-ColorScript -Name aurora-waves -PassThru
-
-Write-Host "`nDettagli Script:`n"
-$metadata | Select-Object Name, Category, Tags, Description | Format-List
-
-# Usa metadati per decisioni
-if ($metadata.Tags -contains "Animated") {
-    Write-Host "Questo è uno script animato"
-}
-```
-
-## NOTES (2)
-
-**Author:** Nick
-**Module:** ColorScripts-Enhanced
-**Requires:** PowerShell 5.1 or later
-
-## Performance (2)
-The intelligent caching system provides 6-19x performance improvements over direct execution. Cache files are stored in a module-managed directory and are automatically invalidated when source scripts are modified, ensuring accuracy.
-
-## Cache Management (2)
-
-- Cache location: Use `(Get-Module ColorScripts-Enhanced).ModuleBase` and look for the cache directory
-- Clear cache: Use `Clear-ColorScriptCache` to rebuild from scratch
-- Rebuild cache: Use `New-ColorScriptCache` to pre-populate policy-selected computational renderers
-- Inspect cache: Cache files are plain text and can be viewed directly
-
-## Advanced Tips
-
-- Use `-PassThru` to get metadata while displaying for post-processing
-- Combine `-ReturnText` with pipeline commands for advanced text manipulation
-- Use `-NoCache` during development of custom colorscripts for immediate feedback
-- Filter by multiple categories/tags for more precise selection
-- Store frequently-used scripts in variables for quick access
-- Use `-List` with `-Category` and `-Tag` to explore available content
-- Monitor cache hits with performance measurements
-- Consider terminal capabilities when selecting scripts
-- Use environment variables to customize behavior per environment
-- Implement error handling for automated display scenarios
-
-## Terminal Compatibility Matrix
-
-| Terminal           | ANSI Support | UTF-8     | Performance | Notes                      |
-| ------------------ | ------------ | --------- | ----------- | -------------------------- |
-| Windows Terminal   | ✓ Excellent  | ✓ Full    | Excellent   | Recommended                |
-| ConEmu             | ✓ Good       | ✓ Full    | Good        | Legacy but reliable        |
-| VS Code            | ✓ Good       | ✓ Full    | Very Good   | Slight rendering delay     |
-| PowerShell ISE     | ✗ Limited    | ✗ Limited | N/A         | Not recommended            |
-| SSH Terminal       | ✓ Varies     | ✓ Depends | Varies      | Network latency may affect |
-| Windows 10 Console | ✗ No         | ✓ Yes     | N/A         | Not recommended            |
-
 ## RELATED LINKS
 
-- [Get-ColorScriptList](Get-ColorScriptList.md)
-- [New-ColorScriptCache](New-ColorScriptCache.md)
-- [Clear-ColorScriptCache](Clear-ColorScriptCache.md)
-- [Export-ColorScriptMetadata](Export-ColorScriptMetadata.md)
-- [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
-
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)

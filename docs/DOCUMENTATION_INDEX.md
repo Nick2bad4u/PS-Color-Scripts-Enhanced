@@ -132,7 +132,7 @@ Get-Help about_ColorScripts-Enhanced
 Get-Help *ColorScript*
 ```
 
-**Note**: Traditional CLI flags like `Show-ColorScript --help`, `-h`, or `-?` will not work. Use `Get-Help` instead.
+**Note**: Every exported command accepts `-h` (alias `-help`) for concise command help. Use `Get-Help` for PowerShell's detailed, example, and parameter views; GNU-style `--help` is not the documented interface.
 
 ### Other Resources
 
@@ -142,12 +142,13 @@ Get-Help *ColorScript*
 
 ## Version Information
 
-- **Module Version**: 2025.11.05.0244
-- **Colorscripts**: 498+
+- **Module Version**: `2026.7.20.35` in the checked-in manifest (the manifest is the source of truth)
+- **Colorscripts**: 3156
+- **Policy-selected cacheable renderers**: 15
 - **Functions**: 10
 - **PowerShell**: 5.1+ and 7.0+
 - **Platforms**: Windows, macOS, Linux
 
 ---
 
-_Last updated: November 5, 2025_
+_Last reviewed: July 20, 2026_

@@ -33,10 +33,10 @@ if (-not (Test-Path -LiteralPath $outDir)) {
 Write-Host "Splitting $ansiFull into $outDir (every $Every rows, auto break detection enabled)" -ForegroundColor Cyan
 
 $arguments = @(
-    $ansiFull,
-    '--every', $Every,
-    '--auto',
-    '--output', $outDir
+    $ansiFull
+    "--every=$Every"
+    '--auto'
+    "--output-dir=$outDir"
 )
 
 & $node.Source $splitter @arguments
@@ -44,5 +44,5 @@ if ($LASTEXITCODE -ne 0) {
     throw "Split failed with exit code $LASTEXITCODE."
 }
 
-Write-Host "✓ Slices written to $outDir" -ForegroundColor Green
+Write-Host "[OK] Slices written to $outDir" -ForegroundColor Green
 Write-Host 'Convert each slice with Convert-AnsiToColorScript.js or the companion sample script.'

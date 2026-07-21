@@ -211,7 +211,6 @@ The linting rules may evolve as the project grows. When updating rules:
 ## See Also
 
 - [Testing Guide](TESTING.md) - Testing procedures
-- [Development Guide](Development.md) - Complete development workflow
+- [Development Guide](DEVELOPMENT.md) - Complete development workflow
 - [Contributing Guidelines](../../CONTRIBUTING.md) - How to contribute
 - [PSScriptAnalyzer Documentation](https://github.com/PowerShell/PSScriptAnalyzer) - Official docs
-

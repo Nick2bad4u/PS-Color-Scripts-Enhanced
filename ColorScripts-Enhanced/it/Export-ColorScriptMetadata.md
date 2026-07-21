@@ -1,10 +1,12 @@
 ---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/it/Export-ColorScriptMetadata.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata
+Locale: it
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: Export-ColorScriptMetadata
 ---
 
 # Export-ColorScriptMetadata
@@ -15,10 +17,16 @@ Esporta i metadati dei colorscript in vari formati per uso esterno.
 
 ## SYNTAX
 
-```text
-Export-ColorScriptMetadata [-Path] <string> [[-Format] <string>] [-Category <string[]>] [-Tag <string[]>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+### __AllParameterSets
+
 ```
+Export-ColorScriptMetadata [[-Path] <string>] [-h] [-IncludeFileInfo] [-IncludeCacheInfo]
+ [-PassThru] [-WhatIf] [-Confirm]
+```
+
+## ALIASES
+
+This command has no aliases.
 
 ## DESCRIPTION
 
@@ -86,67 +94,111 @@ Crea un backup con timestamp di tutti i metadati.
 
 ## PARAMETERS
 
-### -Category
-
-Filtra gli script esportati per una o più categorie prima dell'esportazione.
-
-```yaml
-Type: System.String[]
-DefaultValue: None
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-
 ### -Confirm
 
 Richiede conferma prima di eseguire il cmdlet.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: false
+DefaultValue: ''
 SupportsWildcards: false
-Aliases: cf
+Aliases:
+- cf
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
-### -Format
+### -h
 
-Specifica il formato di output. I valori validi sono JSON, CSV e XML.
+Visualizza la guida dettagliata del comando senza eseguire l'operazione.
 
 ```yaml
-Type: System.String
-DefaultValue: JSON
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases:
+- help
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -IncludeCacheInfo
+
+Attach cache metadata including the cache location, whether a cache file exists, and its timestamp.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -IncludeFileInfo
+
+Attach file system information (full path, file size, and last write time) for each colorscript.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -PassThru
+
+Return the in-memory objects even when writing to a file.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: False
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Path
@@ -155,40 +207,19 @@ Specifica il percorso dove verrà salvato il file dei metadati esportati.
 
 ```yaml
 Type: System.String
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 0
-   IsRequired: true
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 0
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
-```
-
-### -Tag
-
-Filtra gli script esportati per uno o più tag prima dell'esportazione.
-
-```yaml
-Type: System.String[]
-DefaultValue: None
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -WhatIf
@@ -197,26 +228,27 @@ Mostra cosa accadrebbe se il cmdlet venisse eseguito. Il cmdlet non viene esegui
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: false
+DefaultValue: ''
 SupportsWildcards: false
-Aliases: wi
+Aliases:
+- wi
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-Questo cmdlet supporta i parametri comuni: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. Per ulteriori informazioni, vedere
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -237,23 +269,6 @@ Questo cmdlet non restituisce output alla pipeline.
 **Module:** ColorScripts-Enhanced
 **Requires:** PowerShell 5.1 o successivo
 
-## Formati di Output
-
-- JSON: Dati strutturati per accesso programmatico
-- CSV: Formato compatibile con fogli di calcolo
-- XML: Struttura dati gerarchica
-
-## Casi d'Uso
-
-- Generazione di documentazione
-- Gestione dell'inventario
-- Integrazione CI/CD
-- Backup e ripristino
-- Analisi e reporting
-
 ## RELATED LINKS
 
-- [Get-ColorScriptList](Get-ColorScriptList.md)
-- [Show-ColorScript](Show-ColorScript.md)
-- [New-ColorScriptCache](New-ColorScriptCache.md)
-- [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata)

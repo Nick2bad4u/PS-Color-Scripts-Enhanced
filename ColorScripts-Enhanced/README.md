@@ -1,6 +1,6 @@
 # ColorScripts-Enhanced PowerShell Module
 
-> **Credits:** This project owes its existence to the foundational work of two developers. The beautiful ANSI art scripts were originally created and/or sourced by Derek Taylor (DistroTube) in his project [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts). The collection was then ported to PowerShell by Scott McKendry as [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts). `ColorScripts-Enhanced` builds upon their efforts by introducing a high-performance caching system, PowerShell Cross-Platform support on Linux and Mac, an expanded command set, and a formal module structure.
+> **Credits:** This project owes its existence to the foundational work of two developers. The ANSI art scripts were originally created and/or collected by Derek Taylor (DistroTube) in [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts), then ported to PowerShell by Scott McKendry as [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts). `ColorScripts-Enhanced` builds on their work with selective output caching for expensive renderers, cross-platform support, an expanded command set, and a formal module structure.
 
 <!-- Download & Version Badges -->
 
@@ -24,17 +24,17 @@
 [![Platform.](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue?logo=windows-terminal)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
 [![PowerShell.](https://img.shields.io/badge/PowerShell-5.1%2B%20%7C%207.0%2B-blue.svg?logo=powershell)](https://github.com/PowerShell/PowerShell)
 [![Code Size.](https://img.shields.io/github/languages/code-size/Nick2bad4u/ps-color-scripts-enhanced?logo=github)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
-[![Repo Stars.](https://img.shields.io/github/stars/Nick2bad4u/ps-color-scripts-enhanced?style=social)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/stargazers)
+[![Repo Stars.](https://img.shields.io/github/stars/Nick2bad4u/ps-color-scripts-enhanced?style=social)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)
 
 <!-- License & Contributing -->
 
-[![License: UnLicense.](https://img.shields.io/badge/License-UnLicense-yellow.svg)](../LICENSE)
-[![PRs Welcome.](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../CONTRIBUTING.md)
+[![License: UnLicense.](https://img.shields.io/badge/License-UnLicense-yellow.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/LICENSE)
+[![PRs Welcome.](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/CONTRIBUTING.md)
 
-A high-performance PowerShell module for displaying beautiful ANSI colorscripts in your terminal with intelligent caching for 6-19x faster load times.
+A cross-platform PowerShell module for discovering and displaying ANSI colorscripts, with selective output caching for renderers that are expensive to regenerate.
 
 <p align="center">
-  <img src="assets/ColorScripts-Mascot-Dark.jpeg" alt="ColorScripts mascot" width="60%" />
+  <img src="https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/main/assets/ColorScripts-Mascot-Dark.jpeg" alt="ColorScripts mascot" width="60%" />
 </p>
 
 ![Examples.](https://raw.githubusercontent.com/Nick2bad4u/PS-Color-Scripts-Enhanced/refs/heads/main/assets/ColorScript-example-1.png)
@@ -42,10 +42,10 @@ A high-performance PowerShell module for displaying beautiful ANSI colorscripts 
 ## ✨ Features
 
 - 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
-- ⚡ **6-19x Faster** — Intelligent caching drops load times to 5-20ms
+- ⚡ **Selective Caching** — Reuses output for the 15 computational renderers listed in `CachePolicy.psd1`; static scripts execute directly
 - 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
 - ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
-- 🖌️ **500+ Custom Made Colorscripts** — Exclusive original designs
+- **Rich Metadata** — Filter the catalog by name, category, and tag or export it as structured data
 - 🐾 **2500~ Pokémon ColorScripts** — Opt-in Pokémon-themed colorscripts
   * Note: Pokémon art is filtered by default to keep load times fast. Opt in with `-IncludePokemon` on relevant commands.
 - 🌍 **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
@@ -197,7 +197,7 @@ Get-Module ColorScripts-Enhanced -ListAvailable
 - [Quick Reference Guide](docs/QUICK_REFERENCE.md)
 - [ANSI Color Guide](docs/ANSI-COLOR-GUIDE.md)
 - [Module Summary](docs/MODULE_SUMMARY.md)
-- [Changelog](../CHANGELOG.md)
+- [Changelog](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/CHANGELOG.md)
 
 </details>
 
@@ -217,9 +217,9 @@ Get-Module ColorScripts-Enhanced -ListAvailable
 <details>
 <summary><b>🤝 Contributing & Community</b></summary>
 
-- [Contributing Guidelines](../CONTRIBUTING.md)
-- [Code of Conduct](../CODE_OF_CONDUCT.md)
-- [Security Policy](../SECURITY.md)
+- [Contributing Guidelines](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/CONTRIBUTING.md)
+- [Code of Conduct](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/CODE_OF_CONDUCT.md)
+- [Security Policy](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/SECURITY.md)
 - [Support Policy](docs/SUPPORT.md)
 - [Project Roadmap](docs/ROADMAP.md)
 
@@ -232,8 +232,8 @@ Get-Module ColorScripts-Enhanced -ListAvailable
 [![Codecov.](https://codecov.io/gh/Nick2bad4u/PS-Color-Scripts-Enhanced/branch/main/graph/badge.svg)](https://codecov.io/gh/Nick2bad4u/PS-Color-Scripts-Enhanced)
 [![OpenSSF Scorecard.](https://api.scorecard.dev/projects/github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/badge)](https://scorecard.dev/viewer/?uri=github.com/Nick2bad4u/PS-Color-Scripts-Enhanced)
 
-- [Test Workflow](../.github/workflows/test.yml)
-- [Publish Workflow](../.github/workflows/publish.yml)
+- [Test Workflow](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/.github/workflows/test.yml)
+- [Publish Workflow](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/.github/workflows/publish.yml)
 
 </details>
 
@@ -245,12 +245,46 @@ Built upon the work of:
 - [Derek Taylor (DistroTube)](https://gitlab.com/dwt1/shell-color-scripts) — Original shell-color-scripts
 - [Scott McKendry](https://github.com/scottmckendry/ps-color-scripts) — PowerShell port
 
-ANSI art sourced from [16colo.rs](https://16colo.rs/), [ArtScene](http://artscene.textfiles.com/artpacks/), [r/ANSIart](https://www.reddit.com/r/ANSIart/), [Pokemon-Colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts), and more artists.
+The collection incorporates art from upstream projects and public archives, including [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts), [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts), [16colo.rs](https://16colo.rs/), [ArtScene](http://artscene.textfiles.com/artpacks/), and [Pokemon-Colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts). Those sources may contain work by individual artists whose terms differ from the archive or project that distributes it.
 
 ## 📄 License
 
-[Unlicense](../LICENSE) — Public domain. Do whatever you want with it.
+Project-authored code is provided under the [Unlicense](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/LICENSE). Third-party ANSI art and other incorporated works remain subject to their original authors' rights and source terms; the repository license does not relicense those works.
+
+The current catalog predates complete per-file provenance records. New imports should record the source URL, artist or pack attribution, and applicable license or permission so a future `THIRD_PARTY_NOTICES` inventory can be complete.
 
 ---
 
 **Enjoy the colors!** 🌈✨
+
+## Contributors ✨
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors.](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/Nick2bad4u"><img src="https://avatars.githubusercontent.com/u/20943337?v=4?s=80" width="80px;" alt="Nick2bad4u"/><br /><sub><b>Nick2bad4u</b></sub></a><br /><a href="https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues?q=author%3ANick2bad4u" title="Bug reports">🐛</a> <a href="https://github.com/Nick2bad4u/ps-color-scripts-enhanced/commits?author=Nick2bad4u" title="Code">💻</a> <a href="https://github.com/Nick2bad4u/ps-color-scripts-enhanced/commits?author=Nick2bad4u" title="Documentation">📖</a> <a href="#ideas-Nick2bad4u" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Nick2bad4u" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Nick2bad4u" title="Maintenance">🚧</a> <a href="https://github.com/Nick2bad4u/ps-color-scripts-enhanced/pulls?q=is%3Apr+reviewed-by%3ANick2bad4u" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/Nick2bad4u/ps-color-scripts-enhanced/commits?author=Nick2bad4u" title="Tests">⚠️</a> <a href="#tool-Nick2bad4u" title="Tools">🔧</a></td>
+      <td align="center" valign="top" width="25%"><a href="https://scottmckendry.tech/"><img src="https://avatars.githubusercontent.com/u/39483124?v=4?s=80" width="80px;" alt="Scott McKendry"/><br /><sub><b>Scott McKendry</b></sub></a><br /><a href="https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues?q=author%3Ascottmckendry" title="Bug reports">🐛</a> <a href="https://github.com/Nick2bad4u/ps-color-scripts-enhanced/commits?author=scottmckendry" title="Code">💻</a> <a href="#design-scottmckendry" title="Design">🎨</a> <a href="https://github.com/Nick2bad4u/ps-color-scripts-enhanced/commits?author=scottmckendry" title="Documentation">📖</a> <a href="#example-scottmckendry" title="Examples">💡</a> <a href="#infra-scottmckendry" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-scottmckendry" title="Maintenance">🚧</a> <a href="#platform-scottmckendry" title="Packaging/porting to new platform">📦</a> <a href="#plugin-scottmckendry" title="Plugin/utility libraries">🔌</a> <a href="https://github.com/Nick2bad4u/ps-color-scripts-enhanced/pulls?q=is%3Apr+reviewed-by%3Ascottmckendry" title="Reviewed Pull Requests">👀</a> <a href="#tutorial-scottmckendry" title="Tutorials">✅</a></td>
+      <td align="center" valign="top" width="25%"><a href="https://snyk.io/"><img src="https://avatars.githubusercontent.com/u/19733683?v=4?s=80" width="80px;" alt="Snyk bot"/><br /><sub><b>Snyk bot</b></sub></a><br /><a href="#security-snyk-bot" title="Security">🛡️</a> <a href="#infra-snyk-bot" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-snyk-bot" title="Maintenance">🚧</a> <a href="https://github.com/Nick2bad4u/ps-color-scripts-enhanced/pulls?q=is%3Apr+reviewed-by%3Asnyk-bot" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="25%"><a href="https://www.stepsecurity.io/"><img src="https://avatars.githubusercontent.com/u/89328645?v=4?s=80" width="80px;" alt="StepSecurity Bot"/><br /><sub><b>StepSecurity Bot</b></sub></a><br /><a href="#security-step-security-bot" title="Security">🛡️</a> <a href="#infra-step-security-bot" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-step-security-bot" title="Maintenance">🚧</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/apps/dependabot"><img src="https://avatars.githubusercontent.com/in/29110?v=4?s=80" width="80px;" alt="dependabot[bot]"/><br /><sub><b>dependabot[bot]</b></sub></a><br /><a href="#infra-dependabot[bot]" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#security-dependabot[bot]" title="Security">🛡️</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

@@ -1,10 +1,12 @@
-﻿---
+---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/es/Clear-ColorScriptCache.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache
+Locale: es
 Module Name: ColorScripts-Enhanced
-ms.date: 11/14/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: Clear-ColorScriptCache
 ---
 
 # Clear-ColorScriptCache
@@ -15,25 +17,29 @@ Eliminar archivos de salida de colorescript en caché.
 
 ## SYNTAX
 
+### Selection (Default)
+
+```
+Clear-ColorScriptCache [-Name <string[]>] [-Category <string[]>] [-Tag <string[]>] [-Path <string>]
+ [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm]
+```
+
+### Help
+
+```
+Clear-ColorScriptCache [-h] [-WhatIf] [-Confirm]
+```
+
 ### All
 
-```text
-Clear-ColorScriptCache [-All] [-Path <String>] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
+```
+Clear-ColorScriptCache [-Name <string[]>] [-Category <string[]>] [-Tag <string[]>] [-Path <string>]
+ [-All] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm]
 ```
 
-### Named
+## ALIASES
 
-```text
-Clear-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-Path <String>] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm]
- [<CommonParameters>]
-```
-
-### \_\_AllParameterSets
-
-```text
-Clear-ColorScriptCache [[-Name] <string[]>] [[-Path] <string>] [[-Category] <string[]>]
- [[-Tag] <string[]>] [-All] [-DryRun] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
-```
+This command has no aliases.
 
 ## DESCRIPTION
 
@@ -68,7 +74,7 @@ Previsualiza qué archivos de caché con tema aurora se eliminarían sin elimina
 ### EXAMPLE 3
 
 ```powershell
-Clear-ColorScriptCache -Name bars -Path $env:TEMP -Confirm:$false
+Clear-ColorScriptCache -Name Galaxy -Path $env:TEMP -Confirm:$false
 ```
 
 Borra el archivo de caché para el script 'bars' desde un directorio de caché personalizado ubicado en la carpeta TEMP. Esto es útil cuando se trabaja con la variable de entorno `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` o probando ubicaciones de caché alternativas.
@@ -168,83 +174,19 @@ Eliminar todos los archivos de caché en el directorio de destino. Este parámet
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
-```
-
-### -PassThru
-
-Devuelve objetos de resultado detallados para cada archivo de caché procesado. Sin este modificador, solo se emite un mensaje de resumen. Cada registro incluye el nombre del script, la ruta del archivo de caché, el estado y cualquier mensaje asociado.
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-     Position: Named
-     IsRequired: false
-     ValueFromPipeline: false
-     ValueFromPipelineByPropertyName: false
-     ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-
-### -Quiet
-
-Suprime el mensaje de resumen emitido después de completar la limpieza de caché. Resulta útil en automatizaciones donde solo se deben mostrar advertencias, errores u objetos retornados por `-PassThru`.
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-     Position: Named
-     IsRequired: false
-     ValueFromPipeline: false
-     ValueFromPipelineByPropertyName: false
-     ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-
-### -NoAnsiOutput
-
-Desactiva las secuencias de color ANSI en el mensaje de resumen, de modo que la salida sea texto plano. Ideal para consolas o registradores que no admiten coloreado.
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
-SupportsWildcards: false
-Aliases:
- - NoColor
-ParameterSets:
- - Name: (All)
-     Position: Named
-     IsRequired: false
-     ValueFromPipeline: false
-     ValueFromPipelineByPropertyName: false
-     ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Category
@@ -253,19 +195,25 @@ Filtrar los scripts de destino por categoría antes de evaluar las entradas de c
 
 ```yaml
 Type: System.String[]
-DefaultValue: ""
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 2
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Confirm
@@ -274,20 +222,20 @@ Solicita confirmación antes de ejecutar el cmdlet. De forma predeterminada, est
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: True
+DefaultValue: ''
 SupportsWildcards: false
 Aliases:
- - cf
+- cf
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -DryRun
@@ -296,19 +244,47 @@ Previsualizar acciones de eliminación sin eliminar ningún archivo. El cmdlet m
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -h
+
+Muestra la ayuda detallada de este comando sin realizar la operación.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- help
+ParameterSets:
+- Name: Help
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Name
@@ -317,19 +293,80 @@ Nombres o patrones de comodín que identifican archivos de caché para eliminar.
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 0
-   IsRequired: false
-   ValueFromPipeline: true
-   ValueFromPipelineByPropertyName: true
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -NoAnsiOutput
+
+Desactiva las secuencias de color ANSI en el mensaje de resumen, de modo que la salida sea texto plano. Ideal para consolas o registradores que no admiten coloreado.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- NoColor
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -PassThru
+
+Devuelve objetos de resultado detallados para cada archivo de caché procesado. Sin este modificador, solo se emite un mensaje de resumen. Cada registro incluye el nombre del script, la ruta del archivo de caché, el estado y cualquier mensaje asociado.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Path
@@ -338,19 +375,52 @@ Directorio de caché alternativo para operar. Por defecto, la ruta de caché est
 
 ```yaml
 Type: System.String
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 1
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -Quiet
+
+Suprime el mensaje de resumen emitido después de completar la limpieza de caché. Resulta útil en automatizaciones donde solo se deben mostrar advertencias, errores u objetos retornados por `-PassThru`.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Tag
@@ -359,19 +429,25 @@ Filtrar los scripts de destino por etiqueta de metadatos antes de evaluar las en
 
 ```yaml
 Type: System.String[]
-DefaultValue: ""
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 3
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -WhatIf
@@ -380,27 +456,27 @@ Muestra qué sucedería si se ejecuta el cmdlet sin ejecutar realmente la operac
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases:
- - wi
+- wi
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-Este cmdlet admite los parámetros comunes: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, y -WarningVariable. Para más información, consulte
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -427,145 +503,6 @@ Devuelve registros de estado para cada archivo de caché procesado. Cada objeto 
 - **CacheFile**: La ruta completa al archivo de caché que se procesó
 - **Message**: Texto descriptivo que explica el resultado de la operación
 - **ScriptName**: El nombre del script asociado con el archivo de caché
-
-## ADVANCED USAGE PATTERNS
-
-### Cache Maintenance Strategies
-
-## Full Cache Rebuild
-
-```powershell
-# Refresco completo del caché
-Clear-ColorScriptCache -All -Confirm:$false
-New-ColorScriptCache -Force
-Write-Host "Caché reconstruido exitosamente"
-```
-
-## Targeted Cache Cleaning
-
-```powershell
-# Borrar solo entradas obsoletas
-Clear-ColorScriptCache -Name "deprecated-*", "test-*" -Confirm:$false
-
-# Verificar qué se eliminaría primero
-Clear-ColorScriptCache -Name "draft-*" -DryRun
-```
-
-## Age-Based Cleanup
-
-```powershell
-# Borrar archivos de caché de más de 60 días
-$cacheDir = (Get-ColorScriptConfiguration).Cache.Path
-$cutoffDate = (Get-Date).AddDays(-60)
-
-Get-ChildItem $cacheDir -Filter "*.cache" |
-    Where-Object { $_.LastWriteTime -lt $cutoffDate } |
-    ForEach-Object {
-        Clear-ColorScriptCache -Name $_.BaseName -Confirm:$false
-    }
-```
-
-### Category and Tag Based Cleaning
-
-## Clear by Metadata
-
-```powershell
-# Eliminar cachés para categoría experimental
-Clear-ColorScriptCache -Category Experimental -Confirm:$false
-
-# Borrar etiqueta obsoleta
-Clear-ColorScriptCache -Tag deprecated -Confirm:$false
-
-# Borrar múltiples categorías a la vez
-Clear-ColorScriptCache -Category @("Demo", "Test", "Draft") -Confirm:$false
-```
-
-## Selective Preservation
-
-```powershell
-# Mantener solo scripts recomendados, borrar todo lo demás
-$keep = Get-ColorScriptList -Tag Recommended -AsObject | Select-Object -ExpandProperty Name
-$all = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Name
-$remove = $all | Where-Object { $_ -notin $keep }
-
-$remove | ForEach-Object { Clear-ColorScriptCache -Name $_ -Confirm:$false }
-```
-
-### Performance and Reporting
-
-## Cache Usage Analysis
-
-```powershell
-# Analizar caché antes de limpieza
-$cacheDir = (Get-ColorScriptConfiguration).Cache.Path
-$before = (Get-ChildItem $cacheDir -Filter "*.cache" | Measure-Object -Property Length -Sum).Sum
-
-Clear-ColorScriptCache -Category Demo -DryRun
-Write-Host "Tamaño actual del caché: $([math]::Round($before / 1MB, 2)) MB"
-```
-
-## Cleanup Report
-
-```powershell
-# Generar informe de operaciones de limpieza
-$report = Clear-ColorScriptCache -Name "test-*", "debug-*" -Confirm:$false
-$report | Group-Object Status | ForEach-Object {
-    Write-Host "$($_.Name): $($_.Count) elementos"
-}
-```
-
-## Space Recovery
-
-```powershell
-# Calcular espacio en disco liberado
-$before = (Get-ChildItem (Get-ColorScriptConfiguration).Cache.Path -Filter "*.cache" | Measure-Object -Property Length -Sum).Sum
-Clear-ColorScriptCache -All -Confirm:$false
-$after = (Get-ChildItem (Get-ColorScriptConfiguration).Cache.Path -Filter "*.cache" -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum).Sum
-
-Write-Host "Liberado: $([math]::Round(($before - $after) / 1MB, 2)) MB"
-```
-
-### CI/CD and Deployment
-
-## Pre-Build Cache Cleanup
-
-```powershell
-# Construcción limpia: borrar todo el caché antes de reconstruir
-Clear-ColorScriptCache -All -Confirm:$false
-New-ColorScriptCache -Tag Recommended -Force
-Write-Host "Caché listo para despliegue"
-```
-
-## Selective Cache Persistence
-
-```powershell
-# Mantener scripts de producción, borrar desarrollo
-Clear-ColorScriptCache -Tag "development,experimental" -Confirm:$false
-
-# Preservar caché para scripts críticos
-$critical = @("bars", "arch", "mandelbrot-zoom")
-$scripts = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Name
-$toRemove = $scripts | Where-Object { $_ -notin $critical }
-$toRemove | ForEach-Object { Clear-ColorScriptCache -Name $_ -Confirm:$false }
-```
-
-### Troubleshooting
-
-## Verification Workflow
-
-```powershell
-# Verificar problemas de caché y corregir
-$problemScripts = Get-ColorScriptList -AsObject |
-    Where-Object {
-        -not (Test-Path "$env:APPDATA\ColorScripts-Enhanced\cache\$($_.Name).cache")
-    }
-
-Write-Host "Scripts sin caché: $($problemScripts.Count)"
-$problemScripts | ForEach-Object {
-    Write-Host "Reconstruyendo: $($_.Name)"
-    New-ColorScriptCache -Name $_.Name -Force
-}
-```
 
 ## NOTES
 
@@ -601,8 +538,13 @@ El filtrado por `-Category` o `-Tag` requiere que los scripts tengan metadatos a
 
 ## RELATED LINKS
 
-- [Show-ColorScript](Show-ColorScript.md)
-- [New-ColorScriptCache](New-ColorScriptCache.md)
-- [Get-ColorScriptList](Get-ColorScriptList.md)
-- [Get-ColorScriptConfiguration](Get-ColorScriptConfiguration.md)
-- [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)

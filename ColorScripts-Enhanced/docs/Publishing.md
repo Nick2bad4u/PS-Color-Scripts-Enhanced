@@ -6,7 +6,7 @@ This document describes how to publish the **ColorScripts-Enhanced** PowerShell 
 
 - PowerShell 5.1 or later (PowerShell 7.4 recommended)
 - PowerShellGet 2.2+ or PSResourceGet 1.0+
-- A GitHub personal access token (PAT) if pushing to GitHub Packages (use Package `read:packages`/`write:packages` scopes)
+- A GitHub personal access token (PAT) only for local GitHub Packages pushes or cross-repository package writes (use Package `read:packages`/`write:packages` scopes)
 - API keys for public repositories (PowerShell Gallery / NuGet.org)
 
 ## Versioning Strategy
@@ -93,23 +93,25 @@ Show-ColorScript -Name nerd-font-test
 
 ## Secrets & Environment Variables
 
-| Purpose                                | Local Var                                        | GitHub Secret                         |
-| -------------------------------------- | ------------------------------------------------ | ------------------------------------- |
-| PowerShell Gallery / NuGet.org API key | `$env:PSGALLERY_API_KEY` or `$env:NUGET_API_KEY` | `PSGALLERY_API_KEY` / `NUGET_API_KEY` |
-| GitHub Packages PAT                    | `$env:PACKAGES_TOKEN`                            | `PACKAGES_TOKEN`                      |
+| Purpose                                | Local Var                                    | GitHub Secret                     |
+| -------------------------------------- | -------------------------------------------- | --------------------------------- |
+| PowerShell Gallery / NuGet.org API key | `$env:PSGALLERYAPIKEY` or `$env:NUGETAPIKEY` | `PSGALLERYAPIKEY` / `NUGETAPIKEY` |
+| Local GitHub Packages PAT              | `$env:PACKAGES_TOKEN`                        | Not used by the publish workflow  |
 
 ## GitHub Packages (Optional)
 
 GitHub Packages provides a private or public NuGet feed.
+
+The GitHub Actions publish workflow uses the repository `GITHUB_TOKEN` and grants it `packages: write`. Use `PACKAGES_TOKEN` only when publishing from a local shell or another system outside this workflow.
 
 ```powershell
 $owner = 'Nick2bad4u'
 $source = "https://nuget.pkg.github.com/$owner/index.json"
 Register-PSRepository -Name GitHub -SourceLocation $source -PublishLocation $source -InstallationPolicy Trusted -PackageManagementProvider NuGet
 Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:PACKAGES_TOKEN -Repository GitHub
+```
 
 > **Tip:** When you stage the package locally before pushing to GitHub Packages, run `Update-NuGetPackageMetadata.ps1` against the resulting `.nupkg` so the README, license, and icon are embedded.
-```
 
 ### Installing from GitHub Packages
 
@@ -137,7 +139,7 @@ Publish-Module -Path ./ColorScripts-Enhanced -Repository MyCompanyFeed
 3. Run `Test-Module.ps1` locally (includes lint step).
 4. Run `Lint-Module.ps1 -IncludeTests -TreatWarningsAsErrors` if not already covered.
 5. Commit and push changes.
-6. Create a GitHub release with tag matching the manifest version (e.g., `v2025.10.09.1700`).
+6. Create a GitHub release with a tag matching the manifest version (for example, `v2026.7.20.35`).
 7. Trigger the **Publish** GitHub Actions workflow via release or manual dispatch.
 8. Confirm module availability in the target gallery.
 
@@ -150,7 +152,8 @@ Publish-Module -Path ./ColorScripts-Enhanced -Repository MyCompanyFeed
 
 ## Pre-Publishing Checklist
 
-- [ ] All tests pass (`npm run verify`)
+- [ ] Aggregate build and tests pass (`npm run build`)
+- [ ] Non-mutating verification passes (`npm run verify`)
 - [ ] Linting clean (`npm run lint`)
 - [ ] Documentation updated
 - [ ] Version bumped (`.psd1` manifest)
@@ -320,7 +323,7 @@ npx git-cliff --unreleased
 npx git-cliff --tag v2025.10.30
 
 # Generate full changelog
-npx git-cliff --latest > CHANGELOG.md
+npx git-cliff > CHANGELOG.md
 
 # Validate changelog
 npm run release:verify

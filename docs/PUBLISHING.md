@@ -139,7 +139,7 @@ Publish-Module -Path ./ColorScripts-Enhanced -Repository MyCompanyFeed
 3. Run `Test-Module.ps1` locally (includes lint step).
 4. Run `Lint-Module.ps1 -IncludeTests -TreatWarningsAsErrors` if not already covered.
 5. Commit and push changes.
-6. Create a GitHub release with tag matching the manifest version (e.g., `v2025.10.09.1700`).
+6. Create a GitHub release with a tag matching the manifest version (for example, `v2026.7.20.35`).
 7. Trigger the **Publish** GitHub Actions workflow via release or manual dispatch.
 8. Confirm module availability in the target gallery.
 
@@ -152,7 +152,8 @@ Publish-Module -Path ./ColorScripts-Enhanced -Repository MyCompanyFeed
 
 ## Pre-Publishing Checklist
 
-- [ ] All tests pass (`npm run verify`)
+- [ ] Aggregate build and tests pass (`npm run build`)
+- [ ] Non-mutating verification passes (`npm run verify`)
 - [ ] Linting clean (`npm run lint`)
 - [ ] Documentation updated
 - [ ] Version bumped (`.psd1` manifest)

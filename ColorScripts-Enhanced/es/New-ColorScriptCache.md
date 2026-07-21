@@ -1,10 +1,12 @@
 ---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/es/New-ColorScriptCache.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache
+Locale: es
 Module Name: ColorScripts-Enhanced
-ms.date: 11/14/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: New-ColorScriptCache
 ---
 
 # New-ColorScriptCache
@@ -12,6 +14,34 @@ PlatyPS schema version: 2024-05-01
 ## SYNOPSIS
 
 Pre-construir o refrescar archivos de caché de colorescript para una renderización más rápida.
+
+## SYNTAX
+
+### Selection (Default)
+
+```
+New-ColorScriptCache [-Name <string[]>] [-Force] [-PassThru] [-Category <string[]>]
+ [-Tag <string[]>] [-Parallel] [-ThrottleLimit <int>] [-Quiet] [-NoAnsiOutput] [-IncludePokemon]
+ [-WhatIf] [-Confirm]
+```
+
+### Help
+
+```
+New-ColorScriptCache [-h] [-WhatIf] [-Confirm]
+```
+
+### All
+
+```
+New-ColorScriptCache [-All] [-Force] [-PassThru] [-Category <string[]>] [-Tag <string[]>]
+ [-Parallel] [-ThrottleLimit <int>] [-Quiet] [-NoAnsiOutput] [-IncludePokemon] [-WhatIf] [-Confirm]
+```
+
+## ALIASES
+
+- `Build-ColorScriptCache`
+- `Update-ColorScriptCache`
 
 ## DESCRIPTION
 
@@ -24,20 +54,6 @@ Por defecto, el cmdlet muestra un resumen conciso de la operación de almacenami
 Combina `-Quiet` para silenciar el resumen o `-NoAnsiOutput` para producir texto sin secuencias ANSI en terminales o registros que no admiten color.
 
 El cmdlet omite los scripts cuyos archivos de caché ya están actualizados a menos que especifiques `-Force`. `-Force` reconstruye las entradas elegibles, pero nunca ignora la política de caché.
-
-## SYNTAX
-
-### All
-
-```text
-New-ColorScriptCache [-All] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
-```
-
-### Named
-
-```text
-New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-IncludePokemon] [-Force] [-PassThru] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
-```
 
 ## EXAMPLES
 
@@ -52,7 +68,7 @@ Evalúa todos los scripts incluidos con el módulo y prepara únicamente los ren
 ### EXAMPLE 2
 
 ```powershell
-New-ColorScriptCache -Name bars, 'aurora-*'
+New-ColorScriptCache -Name Galaxy, 'rose-*'
 ```
 
 Evalúa una mezcla de coincidencias exactas y comodines. Solo se generan las coincidencias incluidas en `CachePolicy.psd1`; las demás informan `SkippedNotRequired` con `-PassThru`.
@@ -60,10 +76,10 @@ Evalúa una mezcla de coincidencias exactas y comodines. Solo se generan las coi
 ### EXAMPLE 3
 
 ```powershell
-New-ColorScriptCache -Name mandelbrot-zoom -Force -PassThru | Format-List
+New-ColorScriptCache -Name Galaxy -Force -PassThru | Format-List
 ```
 
-Fuerza una reconstrucción del caché de 'mandelbrot-zoom' incluso si está actualizado, y examina el objeto de resultado detallado.
+Fuerza una reconstrucción del caché de 'Galaxy' incluso si está actualizado, y examina el objeto de resultado detallado.
 
 ### EXAMPLE 4
 
@@ -105,7 +121,7 @@ Mide el crecimiento del caché contando archivos de caché antes y después de l
 
 ```powershell
 # Construir caché para scripts usados frecuentemente solo
-$frequentScripts = @('bars', 'arch', 'mandelbrot-zoom', 'aurora-waves', 'galaxy-spiral')
+$frequentScripts = @('bars', 'arch', 'Galaxy', 'aurora-waves', 'galaxy-spiral')
 New-ColorScriptCache -Name $frequentScripts -PassThru | Format-Table Name, Status, ExitCode
 ```
 
@@ -156,7 +172,7 @@ Almacena en caché scripts recomendados y exporta los resultados a un manifiesto
 
 ```powershell
 # Verificar que el caché se construyó exitosamente
-New-ColorScriptCache -Name "mandelbrot-zoom" -Force -PassThru |
+New-ColorScriptCache -Name "Galaxy" -Force -PassThru |
     Where-Object { $_.ExitCode -ne 0 } |
     Select-Object Name, StdErr
 ```
@@ -182,19 +198,19 @@ Evalúa cada script disponible contra la política de caché. Solo se almacenan 
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: All
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Category
@@ -203,83 +219,25 @@ Limita la selección a scripts que pertenecen a la categoría especificada (sin 
 
 ```yaml
 Type: System.String[]
-DefaultValue: ""
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: Named
-   Position: 1
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
-```
-
-### -Quiet
-
-Suprime el mensaje resumido al final de la operación. Advertencias y errores continúan mostrándose.
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-     Position: Named
-     IsRequired: false
-     ValueFromPipeline: false
-     ValueFromPipelineByPropertyName: false
-     ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-
-### -NoAnsiOutput
-
-Desactiva las secuencias ANSI en el resumen, generando texto plano ideal para registros o consolas sin soporte de color.
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
-SupportsWildcards: false
-Aliases:
- - NoColor
-ParameterSets:
- - Name: (All)
-     Position: Named
-     IsRequired: false
-     ValueFromPipeline: false
-     ValueFromPipelineByPropertyName: false
-     ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-
-### -IncludePokemon
-
-Incluye todos los scripts de Pokémon (regulares y shiny) en la compilación del caché. Por defecto, los scripts de Pokémon se omiten; usa `-IncludePokemon` para incluirlos. Nota: este parámetro reemplaza al antiguo `-ExcludePokemon` — la lógica se invirtió durante el refactor (ahora opt-in).
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-     Position: Named
-     IsRequired: false
-     ValueFromPipeline: false
-     ValueFromPipelineByPropertyName: false
-     ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Confirm
@@ -288,20 +246,20 @@ Pide confirmación antes de ejecutar el cmdlet. Útil cuando se almacenan en cac
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: ""
+DefaultValue: ''
 SupportsWildcards: false
 Aliases:
- - cf
+- cf
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Force
@@ -310,19 +268,74 @@ Reconstruye archivos de caché elegibles incluso cuando el caché existente es m
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -h
+
+Muestra la ayuda detallada de este comando sin realizar la operación.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- help
+ParameterSets:
+- Name: Help
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -IncludePokemon
+
+Incluye todos los scripts de Pokémon (regulares y shiny) en la compilación del caché. Por defecto, los scripts de Pokémon se omiten; usa `-IncludePokemon` para incluirlos. Nota: este parámetro reemplaza al antiguo `-ExcludePokemon` — la lógica se invirtió durante el refactor (ahora opt-in).
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Name
@@ -331,19 +344,74 @@ Uno o más nombres de colorescript para evaluar. Admite patrones de comodines (p
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
- - Name: Named
-   Position: 0
-   IsRequired: false
-   ValueFromPipeline: true
-   ValueFromPipelineByPropertyName: true
-   ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -NoAnsiOutput
+
+Desactiva las secuencias ANSI en el resumen, generando texto plano ideal para registros o consolas sin soporte de color.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- NoColor
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Parallel
+
+Builds eligible cache entries concurrently. Unsupported hosts fall back to sequential execution.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -PassThru
@@ -352,19 +420,52 @@ Devuelve objetos de resultado detallados para cada operación de caché. Por def
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -Quiet
+
+Suprime el mensaje resumido al final de la operación. Advertencias y errores continúan mostrándose.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Tag
@@ -373,19 +474,53 @@ Limita la selección a scripts que contienen las etiquetas de metadatos especifi
 
 ```yaml
 Type: System.String[]
-DefaultValue: ""
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: Named
-   Position: 2
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -ThrottleLimit
+
+Sets the maximum number of concurrent cache workers. Threads is an alias for this parameter.
+
+```yaml
+Type: System.Int32
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- Threads
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -WhatIf
@@ -394,27 +529,27 @@ Muestra qué sucedería si el cmdlet se ejecuta sin realizar realmente las opera
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: ""
+DefaultValue: ''
 SupportsWildcards: false
 Aliases:
- - wi
+- wi
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### CommonParameters
 
-Este cmdlet admite los parámetros comunes: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction y -WarningVariable. Para más información, vea
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -442,124 +577,6 @@ Cuando se especifica `-PassThru`, devuelve un objeto personalizado para cada scr
 
 Sin `-PassThru`, muestra una tabla de resumen concisa en la consola mostrando el número de scripts almacenados en caché, omitidos y fallidos.
 
-## ADVANCED USAGE PATTERNS
-
-### Estrategias de Construcción de Caché
-
-## Caché de Producción Seleccionado por Política
-
-```powershell
-# Construir todas las cachés elegibles para el entorno de producción
-New-ColorScriptCache -Force | Measure-Object
-Write-Host "Caché construido exitosamente"
-
-# Verificar que los archivos de caché existen
-Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter "*.cache" | Measure-Object
-```
-
-## Caché de Producción Mínimo
-
-```powershell
-# Almacenar en caché solo scripts recomendados para huella mínima
-New-ColorScriptCache -Tag Recommended -PassThru |
-    Select-Object Name, Status, CacheFile
-```
-
-## Almacenamiento en Caché de Categoría Selectiva
-
-```powershell
-# Almacenar en caché categorías específicas basadas en entorno
-$categories = if ($env:CI) { @("Simple", "Fast") } else { @("*") }
-
-Get-ColorScriptList -Category $categories -AsObject |
-    ForEach-Object { New-ColorScriptCache -Name $_.Name }
-```
-
-### Monitoreo de Rendimiento
-
-## Progreso de Construcción de Caché
-
-```powershell
-# Monitorear construcción de caché con progreso
-$scripts = Get-ColorScriptList -AsObject
-$total = $scripts.Count
-$counter = 0
-
-$scripts | ForEach-Object {
-    $counter++
-    Write-Progress -Activity "Building Cache" `
-                   -Status $_.Name `
-                   -PercentComplete (($counter / $total) * 100)
-    New-ColorScriptCache -Name $_.Name | Out-Null
-}
-Write-Progress -Activity "Building Cache" -Completed
-```
-
-## Informe de Comparación de Rendimiento
-
-```powershell
-# Comparar tiempos de construcción de caché
-$results = @()
-Get-ColorScriptList -Category Geometric -AsObject | ForEach-Object {
-    $time = Measure-Command { New-ColorScriptCache -Name $_.Name -Force } | Select-Object -ExpandProperty TotalMilliseconds
-    $results += [PSCustomObject]@{
-        Script = $_.Name
-        BuildTime = [math]::Round($time, 2)
-    }
-}
-$results | Sort-Object BuildTime -Descending | Format-Table
-```
-
-### Mantenimiento y Limpieza
-
-## Reconstrucción de Caché Programada
-
-```powershell
-# Reconstruir caché semanalmente
-$lastRun = Get-Item "$env:APPDATA\ColorScripts-Enhanced\cache" | Select-Object -ExpandProperty LastWriteTime
-$daysSince = ((Get-Date) - $lastRun).Days
-
-if ($daysSince -ge 7) {
-    Write-Host "Reconstruyendo caché..."
-    New-ColorScriptCache -Force
-}
-```
-
-## Actualizaciones Selectivas de Caché
-
-```powershell
-# Actualizar solo cachés obsoletos
-$scripts = Get-ColorScriptList -AsObject
-$scripts | ForEach-Object {
-    $cacheFile = "$env:APPDATA\ColorScripts-Enhanced\cache\$($_.Name).cache"
-    if (-not (Test-Path $cacheFile) -or (Get-Item $cacheFile).LastWriteTime -lt (Get-Date).AddDays(-30)) {
-        New-ColorScriptCache -Name $_.Name -PassThru
-    }
-}
-```
-
-### Integración CI/CD
-
-## Construir Caché en Docker
-
-```powershell
-# En Dockerfile o script de construcción
-Import-Module ColorScripts-Enhanced
-New-ColorScriptCache -Force | Out-Null
-Write-Host "✓ Caché de ColorScripts construido"
-```
-
-## Archivo de Caché para Despliegue
-
-```powershell
-# Archivar caché para despliegue
-$cacheDir = "$env:APPDATA\ColorScripts-Enhanced\cache"
-$archive = "./colorscripts-cache.zip"
-
-Compress-Archive -Path "$cacheDir\*" -DestinationPath $archive -Force
-Write-Host "Caché archivado: $archive"
-```
-
 ## NOTES
 
 **Author:** Nick
@@ -571,29 +588,15 @@ Los archivos de caché se almacenan en el directorio expuesto por la variable `C
 
 El cmdlet ejecuta cada script en un proceso de PowerShell en segundo plano aislado para capturar su salida sin afectar la sesión actual. Esto asegura el almacenamiento en caché preciso de la salida exacta de la consola que se mostraría al ejecutar el script directamente.
 
-## Mejores Prácticas
-
-- Ejecutar una vez después de la instalación del módulo para pre-almacenar los renderizadores computacionales
-- Usar `-Force` solo cuando necesites reconstruir todas las cachés elegibles
-- Filtrar por categoría o etiqueta para construcciones de caché dirigidas más rápidas
-- Monitorear tiempos de construcción para identificar scripts de renderización lenta
-- Programar reconstrucciones periódicas para mantener el caché actual
-- Usar `-PassThru` en automatización para reportes de estado detallados
-- Considerar usar `-WhatIf` antes de operaciones de caché grandes
-
-**Consejo de Rendimiento:** Ejecuta este cmdlet una vez después de instalar o actualizar el módulo para pre-almacenar los renderizadores seleccionados por `CachePolicy.psd1`.
-
-## Solución de Problemas
-
-- Si la construcción de caché falla, verifica la sintaxis del script con `Show-ColorScript -Name scriptname -NoCache`
-- Monitorea el espacio en disco para el crecimiento del directorio de caché
-- Usa `-PassThru` para identificar qué scripts fallaron en la construcción
-- Limpia y reconstruye si el caché se corrompe: `Clear-ColorScriptCache -All; New-ColorScriptCache`
-
 ## RELATED LINKS
 
-- [Show-ColorScript](Show-ColorScript.md)
-- [Clear-ColorScriptCache](Clear-ColorScriptCache.md)
-- [Get-ColorScriptList](Get-ColorScriptList.md)
-- [Get-ColorScriptConfiguration](Get-ColorScriptConfiguration.md)
-- [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)

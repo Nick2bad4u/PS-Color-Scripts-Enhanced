@@ -12,7 +12,7 @@
     ConfigurationRootCouldNotBeResolved = "Configuration root could not be resolved."
     UnableToResolveProfilePath = "Unable to resolve profile path '{0}'."
     FailedToExecuteColorscript = "Failed to execute colorscript '{0}': {1}"
-    FailedToBuildCacheForScript = 'Failed to build cache for $($selection.Name).'
+    FailedToBuildCacheForScript = "Failed to build the colorscript cache."
     CacheBuildFailedForScript = "Cache build failed for {0}: {1}"
     CacheBuildGenericFailure = "Cache build failed."
     CacheOperationWarning = "Failed to cache '{0}': {1}"
@@ -36,7 +36,7 @@
     NoColorscriptsFoundMatchingCriteria = "No colorscripts found matching the specified criteria."
     NoScriptsMatchedSpecifiedFilters = "No scripts matched the specified filters."
     NoColorscriptsAvailableWithFilters = "No colorscripts available with the specified filters."
-    NoColorscriptsFoundInScriptsPath = 'No colorscripts found in $script:ScriptsPath'
+    NoColorscriptsFoundInScriptsPath = "No colorscripts found in scripts path '{0}'."
     NoScriptsSelectedForCacheBuild = "No scripts selected for cache build."
     ScriptNotFound = "Script not found: {0}"
     ColorscriptNotFoundWithFilters = "Colorscript '{0}' not found with the specified filters."
@@ -47,15 +47,15 @@
     ParallelCacheNotSupported = "Parallel cache building requires PowerShell 7 or later. Falling back to sequential execution."
 
     # Status Messages
-    DisplayingColorscripts = "`nDisplaying `$totalCount colorscripts..."
+    DisplayingColorscripts = "`nDisplaying {0} colorscripts..."
     CacheBuildSummary = "`nCache Build Summary:"
     FailedScripts = "`nFailed scripts:"
-    TotalScriptsProcessed = "`nTotal scripts processed: `$totalCount"
+    TotalScriptsProcessed = "`nTotal scripts processed: {0}"
     DisplayingContinuously = "Displaying continuously (Ctrl+C to stop)`n"
-    FinishedDisplayingAll = "Finished displaying all `$totalCount colorscripts!"
+    FinishedDisplayingAll = "Finished displaying all {0} colorscripts!"
     Quitting = "`nQuitting..."
-    CurrentIndexOfTotal = "[`$currentIndex/`$totalCount]"
-    FailedScriptDetails = '  - $($failure.Name): $($failure.StdErr)'
+    CurrentIndexOfTotal = "[{0}/{1}]"
+    FailedScriptDetails = "  - {0}: {1}"
     MultipleColorscriptsMatched = "Multiple colorscripts matched the provided name pattern(s): {0}. Displaying '{1}'."
     StatusCached = "Cached"
     StatusSkippedUpToDate = "Skipped (up-to-date)"

@@ -41,7 +41,7 @@ npm test
    npm run test:pester
    ```
 
-4. **Complete Verification** (Pre-commit)
+4. **Module Lint and Gallery README Verification** (Pre-commit)
    ```powershell
    npm run verify
    ```
@@ -142,10 +142,10 @@ It 'should accept pipeline input' {
 
 ```powershell
 It 'should create cache directory if missing' {
-    $cachePath = "$env:APPDATA\ColorScripts-Enhanced\cache"
-    if (Test-Path $cachePath) { Remove-Item $cachePath -Recurse -Force }
+    $cachePath = Join-Path $TestDrive 'cache'
+    $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $cachePath
 
-    New-ColorScriptCache -Name 'bars' -Force
+    New-ColorScriptCache -Name 'Galaxy' -Force
     Test-Path $cachePath | Should -Be $true
 }
 ```
@@ -153,14 +153,18 @@ It 'should create cache directory if missing' {
 ## Testing Performance
 
 ```powershell
-It 'should improve performance with caching' {
-    New-ColorScriptCache -Name 'mandelbrot-zoom' -Force
+It 'should build and reuse an eligible cache entry' {
+    $build = New-ColorScriptCache -Name 'Galaxy' -Force -PassThru
+    $build.Status | Should -BeIn 'Updated', 'SkippedUpToDate'
 
-    $uncached = Measure-Command { Show-ColorScript -Name 'mandelbrot-zoom' -NoCache }
-    $cached = Measure-Command { Show-ColorScript -Name 'mandelbrot-zoom' }
+    $uncached = 1..5 | ForEach-Object { (Measure-Command { Show-ColorScript -Name 'Galaxy' -NoCache }).TotalMilliseconds }
+    $cached = 1..5 | ForEach-Object { (Measure-Command { Show-ColorScript -Name 'Galaxy' }).TotalMilliseconds }
 
-    $improvement = $uncached.TotalMilliseconds / $cached.TotalMilliseconds
-    $improvement | Should -BeGreaterThan 1  # Cache should be faster
+    # Record distributions for review; do not assert a fixed speedup on shared CI hosts.
+    [PSCustomObject]@{
+        UncachedAverageMs = ($uncached | Measure-Object -Average).Average
+        CachedAverageMs = ($cached | Measure-Object -Average).Average
+    } | Write-Information
 }
 ```
 
@@ -358,7 +362,7 @@ Describe 'MyTest' {
 # Create performance baseline
 function Test-ColorScriptPerformance {
     param(
-        [string[]]$ScriptNames = @('bars', 'hearts', 'mandelbrot-zoom'),
+        [string[]]$ScriptNames = @('Galaxy', 'rose-curves', 'wave-interference'),
         [switch]$SkipCache
     )
 
@@ -530,7 +534,7 @@ Describe 'New-Command' {
 
 ## See Also
 
-- [Development Guide](Development.md) - Complete development workflow
+- [Development Guide](DEVELOPMENT.md) - Complete development workflow
 - [Linting Guide](LINTING.md) - Code quality standards
 - [Contributing Guidelines](../../CONTRIBUTING.md) - How to contribute
 ````

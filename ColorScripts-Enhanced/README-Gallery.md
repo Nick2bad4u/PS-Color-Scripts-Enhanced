@@ -1,68 +1,53 @@
 # ColorScripts-Enhanced PowerShell Module
 
-> **Credits:** Built upon [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts) by Derek Taylor and [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts) by Scott McKendry. Enhanced with high-performance caching, configuration management, and full cross-platform support.
+> **Credits:** Built upon [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts) by Derek Taylor and [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts) by Scott McKendry. Enhanced with selective output caching, configuration management, and cross-platform support.
 
 [![PowerShell Gallery.](https://img.shields.io/powershellgallery/v/ColorScripts-Enhanced?logo=powershell)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced) [![Downloads.](https://img.shields.io/powershellgallery/dt/ColorScripts-Enhanced?logo=powershell)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced) [![NuGet.](https://img.shields.io/nuget/v/ColorScripts-Enhanced?logo=nuget)](https://www.nuget.org/packages/ColorScripts-Enhanced/) [![Tests.](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml) [![License.](https://img.shields.io/badge/License-Unlicense-yellow.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/LICENSE)
 
-Display beautiful ANSI colorscripts in your terminal with intelligent caching for **6-19x faster load times**. Perfect for terminal customization and visual appeal!
+Discover and display ANSI colorscripts in PowerShell. Static scripts execute directly, while policy-selected computational renderers can reuse validated output.
 
 ## Features
 
 - 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
-- ⚡ **6-19x Faster** — Intelligent caching drops load times to 5-20ms
+- ⚡ **Selective Caching** — Reuses output for the 15 expensive renderers listed in `CachePolicy.psd1`
 - 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
 - ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
-- 🖌️ **500+ Custom Made Colorscripts** — Exclusive original designs
+- **Rich Metadata** — Filter by name, category, and tag or export structured catalog data
 - 🐾 **2500~ Pokémon ColorScripts** — Opt-in Pokémon-themed colorscripts
   * Note: Pokémon art is filtered by default to keep load times fast. Opt in with `-IncludePokemon` on relevant commands.
 - 🌍 **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
-- 🧩 **Easy to Use** — Simple commands with tab completion
-- 🗄️ **Centralized Cache** — OS-wide in `AppData/ColorScripts-Enhanced/cache`
+- 🗄️ **Platform-Aware Storage** — Query or configure the effective cache path
 - 🔄 **Auto-Update** — Cache invalidates automatically when scripts change
-- 📚 **Complete Help** — Full comment-based help for all commands
 
 ## Quick Start
 
 ```powershell
-# Install from PowerShell Gallery
 Install-Module ColorScripts-Enhanced -Scope CurrentUser
 
-# Import and display a random colorscript
 Import-Module ColorScripts-Enhanced
 Show-ColorScript # Shows a random colorscript
 scs -IncludePokemon # Alias: scs with Pokémon art
 
-# Add to your PowerShell profile for automatic startup
 Add-ColorScriptProfile
-# Add to your PowerShell profile for automatic startup with Pokémon art
 Add-ColorScriptProfile -IncludePokemon -SkipPokemonPrompt
 ```
-
-**Requires**: PowerShell 5.1+ or PowerShell 7.0+
 
 ## Basic Usage
 
 ```powershell
-# Display a random colorscript
 Show-ColorScript  # or alias: scs
 
-# Display specific colorscript by name
 Show-ColorScript -Name hearts
 scs mandelbrot-zoom
 
-# List all available colorscripts
 Get-ColorScriptList
 
-# Filter by category
 Get-ColorScriptList -Category Geometric
 
-# Build caches for computationally expensive renderers
 New-ColorScriptCache
 
-# Opt in to Pokémon art for display
 Show-ColorScript -IncludePokemon
 
-# Clear cache when needed
 Clear-ColorScriptCache -All
 ```
 
@@ -72,7 +57,7 @@ Clear-ColorScriptCache -All
 | -------------------------------- | ----- | --------------------------------------------- |
 | `Show-ColorScript`               | `scs` | Display a colorscript (random or by name)     |
 | `Get-ColorScriptList`            | -     | List all available colorscripts with metadata |
-| `New-ColorScriptCache`           | -     | Pre-generate cache files for faster loading   |
+| `New-ColorScriptCache`           | -     | Build caches for policy-selected renderers    |
 | `Clear-ColorScriptCache`         | -     | Remove cache files                            |
 | `Add-ColorScriptProfile`         | -     | Add module import to your PowerShell profile  |
 | `Get-ColorScriptConfiguration`   | -     | View current configuration settings           |
@@ -83,7 +68,7 @@ Clear-ColorScriptCache -All
 
 ## Getting Help
 
-PowerShell uses the `Get-Help` cmdlet (not `--help` flags):
+PowerShell uses `Get-Help` for detailed help. Every exported command also accepts `-h` (alias `-help`) for a concise view:
 
 ```powershell
 # Get detailed help with examples
@@ -101,15 +86,13 @@ Get-Help about_ColorScripts-Enhanced
 
 ## Performance
 
-Experience dramatic speed improvements:
+Caching is deliberately narrow:
 
-- **First run (cacheable scripts)**: 50-300ms - Executes the renderer and builds its cache
-- **Static output scripts**: Execute directly without creating cache files
-- **Cached run**: 5-20ms - Loads pre-rendered output instantly
-- **Improvement**: 6-19x faster!
-- **Cache location**: `$env:APPDATA\ColorScripts-Enhanced\cache` (Windows)
-  - macOS: `~/Library/Application Support/ColorScripts-Enhanced/cache`
-  - Linux: `~/.cache/ColorScripts-Enhanced`
+- Static output scripts execute directly without creating cache files.
+- The 15 renderers in `CachePolicy.psd1` are eligible for output caching.
+- Cache entries are invalidated when relevant source or policy metadata changes.
+- Performance depends on the renderer, host, filesystem, and terminal; no fixed multiplier is guaranteed.
+- Query `(Get-ColorScriptConfiguration).Cache.EffectivePath` for the effective cache location.
 
 ## Profile Integration
 
@@ -122,8 +105,8 @@ Add-ColorScriptProfile
 # Import only (no automatic display)
 Add-ColorScriptProfile -SkipStartupScript
 
-# Target a specific profile scope
-Add-ColorScriptProfile -Scope CurrentUserCurrentHost
+# Target a specific profile file
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost
 
 # Use custom profile path
 Add-ColorScriptProfile -Path $PROFILE.CurrentUserAllHosts
@@ -171,19 +154,15 @@ Show-ColorScript -Name hearts -NoCache
 
 - [Quick Reference Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/QUICK_REFERENCE.md)
 - [ANSI Conversion Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/ANSI-CONVERSION-GUIDE.md)
-- [Development Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/Development.md)
+- [Development Guide](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/DEVELOPMENT.md)
 - [Issue Tracker](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues)
 
 ## Contributing
 
-Contributions welcome! Submit colorscripts, report bugs, or suggest features.
+Submit colorscripts, report bugs, or suggest features.
 
 [CONTRIBUTING.md](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/CONTRIBUTING.md)
 
 ## License
 
-Unlicense - See [LICENSE](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/LICENSE)
-
----
-
-**Tip**: Run `Get-ColorScriptList | Select-Object -First 10` to preview your first 10 scripts!
+Project-authored code uses the [Unlicense](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/LICENSE). Incorporated third-party art remains subject to its original authors' rights and source terms.

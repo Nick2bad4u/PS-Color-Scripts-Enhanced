@@ -1,494 +1,177 @@
-# ColorScripts-Enhanced Module - Complete Implementation Summary
+# ColorScripts-Enhanced Module Summary
 
-## Mission Accomplished! ✅
+ColorScripts-Enhanced is a cross-platform PowerShell module for discovering, displaying, creating, and managing ANSI colorscripts. The checked-in module targets Windows PowerShell 5.1 and PowerShell 7.x on Windows, macOS, and Linux.
 
-Successfully created a complete, professional PowerShell module called **ColorScripts-Enhanced** with high-performance caching and a clean API.
+## Current Checkout
 
-## What Was Created
+| Property | Value |
+| -------- | ----- |
+| Manifest version | `2026.7.20.35` |
+| Colorscript files | <!-- COLOR_SCRIPT_COUNT -->3156<!-- /COLOR_SCRIPT_COUNT --> |
+| Dynamic renderers | 17 entries in `DynamicRenderPolicy.psd1` |
+| Cacheable renderers | <!-- COLOR_CACHE_TOTAL -->15<!-- /COLOR_CACHE_TOTAL --> entries in `CachePolicy.psd1` |
+| Exported functions | 10 |
+| Primary alias | `scs` -> `Show-ColorScript` |
+| Minimum PowerShell | 5.1 |
 
-### Module Structure
-
-```powershell
-ColorScripts-Enhanced/
-├── ColorScripts-Enhanced.psd1     # Module manifest
-├── ColorScripts-Enhanced.psm1     # Main module code
-├── Install.ps1                    # Installation script
-├── README.md                      # Comprehensive documentation
-    ├── ... (additional scripts)
-    └── ... (<!-- COLOR_SCRIPT_COUNT -->3156<!-- /COLOR_SCRIPT_COUNT --> total)
-├── Test-AllColorScripts.ps1
-```
-
-### Module Information
-
-- **Name:** ColorScripts-Enhanced
-- **Current Version:** 2025.11.05.0244
-- **PowerShell Version:** 5.1+
-- **Colorscripts Included:** <!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS -->
-- **Cache Location:** `%APPDATA%\ColorScripts-Enhanced\cache`
-- **Exported Functions:** 10
-- **Alias:** scs → Show-ColorScript
+The manifest and policy data files are the authoritative sources for version and policy counts. Run `npm run docs:update-counts` after changing the script inventory or cache policy.
 
 ## Public Commands
 
-### 1. Show-ColorScript (Alias: scs)
+| Command | Purpose |
+| ------- | ------- |
+| `Show-ColorScript` | Display a random or named colorscript, list names, and optionally bypass or validate cache state. |
+| `Get-ColorScriptList` | Query scripts by name, category, or tag. |
+| `New-ColorScriptCache` | Build output caches only for renderers selected by `CachePolicy.psd1`. |
+| `Clear-ColorScriptCache` | Remove named cache entries or all module cache data. |
+| `Add-ColorScriptProfile` | Add an idempotent module startup block to a selected PowerShell profile. |
+| `Get-ColorScriptConfiguration` | Read the effective persistent configuration. |
+| `Set-ColorScriptConfiguration` | Persist supported configuration values. |
+| `Reset-ColorScriptConfiguration` | Restore the default persistent configuration. |
+| `Export-ColorScriptMetadata` | Export catalog metadata, optionally including file or cache information. |
+| `New-ColorScript` | Create a UTF-8 colorscript scaffold and optional metadata guidance. |
 
-Main command to display colorscripts with selective caching for expensive renderers.
+Every exported command accepts `-h` (alias `-help`) for concise command help. Use `Get-Help <command> -Full` for the complete localized help topic.
 
-```powershell
-Show-ColorScript                    # Random colorscript
-Show-ColorScript -Name "bars"       # Specific colorscript
-scs hearts                          # Using alias
-Show-ColorScript -List              # List all available
-Show-ColorScript -Name "bars" -NoCache  # Bypass cache
-Show-ColorScript -IncludePokemon    # Random colorscript including Pokémon category
-# Direct Pokémon names bypass the default filter (e.g., `Show-ColorScript -Name Pikachu`).
-```
-
-### 2. Get-ColorScriptList
-
-Lists all available colorscripts in a formatted view.
-
-```powershell
-Get-ColorScriptList
-```
-
-### 3. New-ColorScriptCache
-
-Pre-generates cache files for policy-selected computational renderers. Static output scripts are skipped.
-
-```powershell
-New-ColorScriptCache                              # Cache all eligible scripts (default)
-New-ColorScriptCache -Name "penrose-quasicrystal" # Cache one eligible renderer
-New-ColorScriptCache -Name "bars" -PassThru       # Reports SkippedNotRequired
-New-ColorScriptCache -Force                       # Force eligible rebuilds
-```
-
-### 4. Clear-ColorScriptCache
-
-Removes cache files.
-
-```powershell
-Clear-ColorScriptCache -All                 # Clear all cache
-Clear-ColorScriptCache -Name "bars"         # Clear specific
-```
-
-### 5. Add-ColorScriptProfile
-
-Appends the module import (and optional startup script) to a PowerShell profile.
-
-```powershell
-Add-ColorScriptProfile                                # Import + Show-ColorScript
-Add-ColorScriptProfile -SkipStartupScript             # Import only
-Add-ColorScriptProfile -Scope CurrentUserCurrentHost  # Limit to current host
-Add-ColorScriptProfile -Path .\MyProfile.ps1 -Force  # Custom profile
-Add-ColorScriptProfile -PokemonPromptResponse N       # Auto-answer Pokémon prompt
-Add-ColorScriptProfile -SkipCacheBuild                # Add profile without pre-warming caches
-```
-
-### 6. Get-ColorScriptConfiguration / Set-ColorScriptConfiguration / Reset-ColorScriptConfiguration
-
-Read and persist module defaults such as cache location, startup behaviour, and the default script shown by `Add-ColorScriptProfile` or module import.
-
-```powershell
-Get-ColorScriptConfiguration
-Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -ProfileAutoShow:$false -DefaultScript 'bars'
-Reset-ColorScriptConfiguration
-```
-
-Configuration lives in `%APPDATA%/ColorScripts-Enhanced/config.json` (or the platform equivalent); set `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` to relocate it for portable scenarios.
-Force cache verification when needed with `Show-ColorScript -ValidateCache` or by setting `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE=1` before importing the module.
-Fine-tune localization behaviour through `COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE` (`auto`, `full`, or `embedded`); `COLOR_SCRIPTS_ENHANCED_PREFER_EMBEDDED_MESSAGES` remains available for legacy scripts but is superseded by the consolidated mode variable.
-
-### 7. Metadata Export
-
-Exports metadata—including categories, tags, descriptions, file info, and optional cache state—for every script. Ideal for building dashboards or integrating with external tooling.
-
-```powershell
-# Basic export
-Export-ColorScriptMetadata
-
-# Export with file information
-Export-ColorScriptMetadata -IncludeFileInfo
-
-# Export with cache information
-Export-ColorScriptMetadata -IncludeCacheInfo
-
-# Save to file for external tools
-Export-ColorScriptMetadata -Path ./dist/colorscripts-metadata.json -IncludeFileInfo
-
-# Full metadata export
-Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo -PassThru | ConvertTo-Json | Out-File metadata.json
-```
-
-### 8. New-ColorScript
-
-Creates a UTF-8 scaffold for a new colorscript and optionally emits metadata guidance so you can update `ScriptMetadata.psd1` immediately.
-
-```powershell
-# Create basic scaffold
-$scaffold = New-ColorScript -Name 'my-awesome-script'
-
-# Create with metadata guidance
-$scaffold = New-ColorScript -Name 'my-awesome-script' -GenerateMetadataSnippet
-
-# Create with category and tags
-$scaffold = New-ColorScript -Name 'my-awesome-script' -Category 'Artistic' -Tag 'Custom','Demo'
-
-# Use in workflow
-$scaffold = New-ColorScript -Name 'my-awesome-script' -GenerateMetadataSnippet
-code $scaffold.Path
-$scaffold.MetadataGuidance
-```
-
-### 9. Add-ColorScriptProfile
-
-Integrates the module into your PowerShell profile for automatic startup.
-
-```powershell
-# Add with startup script
-Add-ColorScriptProfile
-
-# Add without startup display
-Add-ColorScriptProfile -SkipStartupScript
-
-# Add to specific profile
-Add-ColorScriptProfile -Scope CurrentUserCurrentHost
-
-# Add with custom path
-Add-ColorScriptProfile -Path .\MyProfile.ps1 -Force
-```
-
-### 10. Get-ColorScriptConfiguration / Set-ColorScriptConfiguration / Reset-ColorScriptConfiguration
-
-Manage persistent configuration settings.
-
-```powershell
-# View current configuration
-Get-ColorScriptConfiguration
-
-# Customize settings
-Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -ProfileAutoShow:$false
-
-# Restore defaults
-Reset-ColorScriptConfiguration
-```
-
-## Installation
-
-### Quick Install
+## Quick Start
 
 ```powershell
 Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
 Import-Module ColorScripts-Enhanced
-Add-ColorScriptProfile -SkipStartupScript
+
+# Display a random script.
+Show-ColorScript
+
+# Display a named script.
+Show-ColorScript -Name bars
+
+# Browse the catalog.
+Get-ColorScriptList -Category Patterns
+
+# Opt in to Pokemon-themed scripts during random selection.
+Show-ColorScript -IncludePokemon
 ```
 
-### Manual Install
+Pokémon-themed scripts are excluded from random selection by default. A directly requested Pokémon script name still works without `-IncludePokemon`.
+
+## Selective Cache Model
+
+Most of the catalog is static output and executes directly. Caching every static file would add invalidation, storage, and synchronization cost without a meaningful benefit.
+
+The module therefore uses explicit policies:
+
+- `DynamicRenderPolicy.psd1` identifies scripts whose output intentionally varies.
+- `CachePolicy.psd1` selects the expensive renderers whose output is suitable for reuse.
+- deterministic generated renderers should be flattened with `scripts/Convert-DeterministicColorScripts.ps1` instead of added to the runtime cache.
+- live or intentionally variable renderers remain uncached when reuse would defeat their purpose.
+
+Common cache operations:
 
 ```powershell
-# Copy to modules directory
-Copy-Item -Path ".\ColorScripts-Enhanced" -Destination "$HOME\Documents\PowerShell\Modules\" -Recurse
+# Build every policy-selected cache entry.
+New-ColorScriptCache -All
 
-# Import module
-Import-Module ColorScripts-Enhanced
+# Build one eligible entry.
+New-ColorScriptCache -Name Galaxy
 
-# Add to profile (optional)
-Add-ColorScriptProfile -SkipStartupScript
+# A static script reports that caching is not required.
+New-ColorScriptCache -Name bars -PassThru
+
+# Remove all cache data.
+Clear-ColorScriptCache -All
 ```
 
-## Key Features
+Cache locations are platform-specific. Query the effective path instead of assuming `%APPDATA%`:
 
-### ✅ Professional Module Structure
+```powershell
+Get-ColorScriptConfiguration | Select-Object CachePath
+```
 
-- Standard PowerShell module format (`.psd1` + `.psm1`)
-- Proper manifest with metadata
-- Version control ready
-- Gallery-ready structure
+## Configuration
 
-### ✅ High-Performance Caching
+```powershell
+# Inspect effective settings.
+Get-ColorScriptConfiguration
 
-- **6-19x faster** than non-cached execution
-- OS-wide cache in AppData
-- Automatic cache invalidation
-- Smart cache validation
+# Persist selected defaults.
+Set-ColorScriptConfiguration `
+    -CachePath 'D:\ColorScriptsCache' `
+    -ProfileAutoShow:$false `
+    -DefaultScript bars
 
-### ✅ Clean API
+# Restore defaults.
+Reset-ColorScriptConfiguration
+```
 
-- Well-documented cmdlets
-- Help content with examples
-- Tab completion support
-- Intuitive parameter names
+Configuration is stored under the platform-appropriate user data directory. Set `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` before importing the module to relocate configuration for portable or isolated scenarios.
 
-### ✅ User-Friendly
+Advanced compatibility controls include:
 
-- Simple installation script
-- Comprehensive README
-- Colorful console output
-- Verbose logging support
-- Dedicated Nerd Font installation guidance so glyph-heavy scripts render correctly
+- `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE=1` to request cache validation.
+- `COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE` with `auto`, `full`, or `embedded`.
+- `COLOR_SCRIPTS_ENHANCED_PREFER_EMBEDDED_MESSAGES` for legacy compatibility; the consolidated localization mode supersedes it.
 
-## Performance Results
+## Metadata and Script Creation
 
-| Script          | Without Cache | With Cache | Improvement |
-| --------------- | ------------- | ---------- | ----------- |
-| bars            | 31ms          | 13ms       | **2.4x**    |
-| hearts          | 40ms          | 15ms       | **2.7x**    |
-| mandelbrot-zoom | 365ms         | 18ms       | **20x**     |
-| galaxy-spiral   | 250ms         | 16ms       | **15x**     |
+```powershell
+# Export catalog metadata to JSON.
+Export-ColorScriptMetadata `
+    -Path ./dist/colorscripts-metadata.json `
+    -IncludeFileInfo `
+    -IncludeCacheInfo
 
-## Cache System Architecture
+# Create a script and metadata guidance.
+$script = New-ColorScript `
+    -Name my-awesome-script `
+    -Category Artistic `
+    -Tag Custom,Demo `
+    -GenerateMetadataSnippet
 
-### How It Works
+$script.Path
+$script.MetadataGuidance
+```
 
-1. **First Call:** `Show-ColorScript -Name "bars"`
-   - Checks cache → Not found
-   - Executes script directly
-   - Saves output to cache
-   - Displays output
+Generated `.ps1` files use UTF-8 with a BOM for Windows PowerShell 5.1 compatibility. Traditional source `.ANS` files are commonly CP437, so source decoding and generated-file encoding must be handled separately. See [ANSI-CONVERSION-GUIDE.md](ANSI-CONVERSION-GUIDE.md).
 
-2. **Subsequent Calls:** `Show-ColorScript -Name "bars"`
-   - Checks cache → Found & valid
-   - Displays cached output instantly
-   - **10-20x faster!**
-
-### Cache Validation
-
-- Compares script modification time vs cache time
-- Auto-invalidates if script is newer
-- Rebuilds cache automatically when needed
-
-### Cache Location
+## Repository Layout
 
 ```text
-C:\Users\[Username]\AppData\Roaming\ColorScripts-Enhanced\
-└── cache/
-    ├── bars.cache
-    ├── hearts.cache
-    ├── mandelbrot-zoom.cache
-    └── ... (<!-- COLOR_CACHE_TOTAL -->3156+<!-- /COLOR_CACHE_TOTAL --> total)
+ColorScripts-Enhanced/
+|-- ColorScripts-Enhanced.psd1       # Manifest and public exports
+|-- ColorScripts-Enhanced.psm1       # Module loader
+|-- CachePolicy.psd1                 # Output-cache allowlist
+|-- DynamicRenderPolicy.psd1         # Intentionally variable renderers
+|-- ScriptMetadata.psd1              # Catalog metadata
+|-- Public/                          # Exported command implementations
+|-- Private/                         # Internal helpers
+|-- Scripts/                         # Colorscript files
+|-- en-US/, de/, es/, fr/, it/, ...  # Localized help and messages
+`-- docs/                             # Packaged documentation
 ```
 
-## Testing Performed
-
-✅ Module loads correctly
-✅ All 10 functions export properly
-✅ Alias 'scs' works
-✅ 245 colorscripts execute
-✅ Caching system functional
-✅ Cache validation works
-✅ Configuration persistence works
-✅ Performance improvement verified (6-19x faster)
-✅ Install script tested
-✅ Cross-platform testing (Windows/Linux/macOS)
-✅ ScriptAnalyzer lint (`Lint-Module.ps1`) clean
-✅ Auto-fix option (`Lint-Module.ps1 -Fix`) applies formatter-driven corrections
-✅ Pester test suite passes (76 tests)
-✅ Help documentation complete for all commands
-
-## Usage Examples
-
-### Display Random Colorscript on Startup
-
-Add to your PowerShell profile:
+Generated MAML help is committed alongside its Markdown source. Update both with:
 
 ```powershell
-Import-Module ColorScripts-Enhanced
-Show-ColorScript
+pwsh -NoProfile -File ./scripts/Build-Help.ps1 -UpdateMarkdown
 ```
 
-### Create Custom Function
+The help build requires `Microsoft.PowerShell.PlatyPS`; missing tooling or metadata synchronization failures are terminating errors.
+
+## Validation
+
+Use the repository gates rather than relying on old benchmark or test-count claims:
 
 ```powershell
-function Cool-Terminal {
-    New-ColorScriptCache
-    Show-ColorScript -Name "mandelbrot-zoom"
-}
+npm run verify
+npm run test:pester
+npm run lint:strict
+npm run docs:validate-links
 ```
 
-### List and Select
+The CI strategy covers Windows PowerShell 5.1, the runner-provided current PowerShell 7.x on Windows/macOS/Linux, and the current PowerShell preview on Linux. See [POWERSHELL-VERSIONS.md](POWERSHELL-VERSIONS.md).
 
-```powershell
-Get-ColorScriptList
-scs galaxy-spiral
-```
+## Licensing and Provenance
 
-## Advantages Over Original
+Project-authored code is provided under the repository [Unlicense](../LICENSE). Incorporated ANSI art may have different authors and source terms; availability in an archive does not make a work public domain. Preserve source, author/pack attribution, and license or permission records for new imports.
 
-### vs. ps-color-scripts Repository
-
-| Feature         | Original          | ColorScripts-Enhanced |
-| --------------- | ----------------- | --------------------- |
-| Structure       | Loose scripts     | PowerShell Module     |
-| Caching         | Basic             | Advanced (6-19x)      |
-| Cache Location  | Local folder      | OS-wide AppData       |
-| API             | Script invocation | Cmdlets               |
-| Installation    | Manual            | `Install.ps1`         |
-| Help            | README only       | Get-Help support      |
-| Tab Completion  | No                | Yes                   |
-| Version Control | N/A               | Module versioning     |
-
-### vs. shell-color-scripts (Bash Original)
-
-| Feature     | Bash Version    | ColorScripts-Enhanced |
-| ----------- | --------------- | --------------------- |
-| Platform    | Linux/Unix      | Windows PowerShell    |
-| Caching     | None            | High-performance      |
-| Integration | Terminal config | PowerShell module     |
-| API         | Bash script     | PowerShell cmdlets    |
-| Speed       | Fast            | **6-19x faster**      |
-
-## File Breakdown
-
-### ColorScripts-Enhanced.psd1 (Module Manifest)
-
-- Module metadata
-- Version information
-- Exported functions
-- Dependencies
-- Gallery information
-
-### ColorScripts-Enhanced.psm1 (Module Code)
-
-- Main module logic (\~2,650 lines)
-- Caching engine
-- Configuration management
-- Public cmdlets (10 functions)
-- Helper functions
-- Export declarations
-- Export declarations
-
-### Install.ps1 (Installation Script)
-
-- Automated installation
-- Profile integration
-- Cache building
-- User-friendly prompts
-
-### README.md (Documentation)
-
-- Complete usage guide
-- Installation instructions
-- Examples
-- Troubleshooting
-- Architecture details
-
-### Scripts/ (<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts)
-
-- All original colorscripts
-- Unchanged from source artwork
-- No module stubs required; scripts execute directly
-- Fully compatible with module-managed caching
-
-## Distribution Options
-
-### Option 1: PowerShell Gallery
-
-Can be published to PowerShell Gallery:
-
-```powershell
-Publish-Module -Path ".\ColorScripts-Enhanced" -NuGetApiKey "your-key"
-```
-
-Then users install with:
-
-```powershell
-Install-Module -Name ColorScripts-Enhanced
-```
-
-### Option 2: GitHub Release
-
-Package as `.zip` for GitHub releases:
-
-```powershell
-Compress-Archive -Path ".\ColorScripts-Enhanced" -DestinationPath "ColorScripts-Enhanced-v1.0.0.zip"
-```
-
-### Option 3: Manual Distribution
-
-Share the folder directly - users run `Install.ps1`
-
-## Future Enhancement Ideas
-
-1. **Color Themes:** Support for different color schemes
-2. **Animation Support:** Animated colorscripts
-3. **Custom Scripts:** Easy way to add user scripts
-4. **Configuration:** User preferences file
-5. **Terminal Detection:** Auto-adjust for terminal capabilities
-6. **Parallel Caching:** Multi-threaded cache building
-7. **Compression:** Compress cache files to save space
-8. **Analytics:** Track popular scripts
-9. **Auto-Update:** Check for new colorscripts online
-10. **Preview Mode:** Small preview before full display
-
-## Migration from Original
-
-Users with the original ps-color-scripts can migrate:
-
-1. Install ColorScripts-Enhanced
-2. Remove old scripts from profile
-3. Add `Import-Module ColorScripts-Enhanced`
-4. Optionally delete old ps-color-scripts folder
-
-## Maintenance
-
-### Adding New Colorscripts
-
-1. Add `.ps1` file to `Scripts/` folder
-2. Ensure it has the cache check line
-3. Run `New-ColorScriptCache -Name "newscript"`
-4. Test with `Show-ColorScript -Name "newscript"`
-
-### Updating Module Version
-
-1. Update version in `.psd1` manifest
-2. Update `ReleaseNotes` in `.psd1`
-3. Update README.md
-4. Rebuild cache if needed
-
-## Technical Details
-
-### Module Loading
-
-- Imports on demand
-- Lazy loading of scripts
-- Minimal startup overhead
-- Verbose logging available
-
-### Error Handling
-
-- Try/catch blocks
-- Graceful degradation
-- Informative error messages
-- Warning for non-critical issues
-
-### Compatibility
-
-- Works with Windows PowerShell 5.1
-- Works with PowerShell 7+
-- Compatible with Windows Terminal
-- Compatible with VS Code terminal
-
-## Conclusion
-
-**ColorScripts-Enhanced** is a complete, professional PowerShell module that:
-
-✅ Centralized cache location for all terminals
-✅ Provides <!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> beautiful colorscripts
-✅ Cross-platform support (Windows, macOS, Linux)
-✅ Offers 6-19x performance improvement
-✅ Uses clean, intuitive API
-✅ Includes comprehensive documentation
-✅ Has easy installation
-✅ Follows PowerShell best practices
-✅ Is production-ready
-
-The module is ready for:
-
-- Personal use
-- Distribution
-- PowerShell Gallery publication
-- GitHub release
-- Enterprise deployment
-
-**Status: COMPLETE AND PRODUCTION READY** 🎉
+For usage details, start with the [README](../README.md), [Quick Reference](QUICK_REFERENCE.md), and the command's `Get-Help` topic.

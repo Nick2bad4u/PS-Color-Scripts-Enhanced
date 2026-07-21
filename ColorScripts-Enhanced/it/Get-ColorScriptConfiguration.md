@@ -1,10 +1,12 @@
 ---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/it/Get-ColorScriptConfiguration.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration
+Locale: it
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: Get-ColorScriptConfiguration
 ---
 
 # Get-ColorScriptConfiguration
@@ -15,9 +17,15 @@ Recupera le impostazioni di configurazione correnti del modulo ColorScripts-Enha
 
 ## SYNTAX
 
-```powershell
-Get-ColorScriptConfiguration [<CommonParameters>]
+### __AllParameterSets
+
 ```
+Get-ColorScriptConfiguration [-h]
+```
+
+## ALIASES
+
+This command has no aliases.
 
 ## DESCRIPTION
 
@@ -142,11 +150,33 @@ Crea snapshot con timestamp della configurazione per tracciare le modifiche nel 
 
 ## PARAMETERS
 
+### -h
+
+Visualizza la guida dettagliata del comando senza eseguire l'operazione.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- help
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
 ### CommonParameters
 
-Questo cmdlet supporta i parametri comuni: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, e -WarningVariable. Per ulteriori informazioni, vedere
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -169,202 +199,6 @@ Restituisce un hashtable nidificato contenente la seguente struttura:
   - **ScriptName** (String): Nome dello script di avvio predefinito
 - **Paths** (Array): Percorsi di ricerca script aggiuntivi
 - **Display** (Hashtable): Preferenze di formattazione dell'output
-
-## PATTERN DI UTILIZZO AVANZATO
-
-### Analisi e Audit della Configurazione
-
-## Audit Completo della Configurazione
-
-```powershell
-# Revisione completa della configurazione
-$config = Get-ColorScriptConfiguration
-
-[PSCustomObject]@{
-    CachePath = $config.Cache.Path
-    CacheEnabled = $config.Cache.Enabled
-    CacheSize = (Get-ChildItem $config.Cache.Path -Filter "*.cache" -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum).Sum
-    StartupEnabled = $config.Startup.ProfileAutoShow
-    DefaultScript = $config.DefaultScript
-} | Format-List
-```
-
-## Confronto con i Valori Predefiniti
-
-```powershell
-# Identifica personalizzazioni dai valori predefiniti
-$current = Get-ColorScriptConfiguration | ConvertTo-Json
-
-# Esporta per confronto
-$current | Out-File "./current-config.json"
-
-# Verifica personalizzazioni
-if ($current -ne (Get-Content "./default-config.json")) {
-    Write-Host "✓ Configurazione personalizzata rilevata"
-}
-```
-
-### Configurazione Specifica dell'Ambiente
-
-## Rilevamento Ambiente
-
-```powershell
-# Rileva ambiente e riporta configurazione appropriata
-$config = Get-ColorScriptConfiguration
-
-$environment = switch ($true) {
-    ($env:CI) { "CI/CD" }
-    ($env:SSH_CONNECTION) { "Sessione SSH" }
-    ($env:WT_SESSION) { "Windows Terminal" }
-    ($env:TERM_PROGRAM) { "$env:TERM_PROGRAM" }
-    default { "Locale" }
-}
-
-Write-Host "Ambiente: $environment"
-Write-Host "Cache: $($config.Cache.Path)"
-Write-Host "Avvio: $($config.Startup.ProfileAutoShow)"
-```
-
-## Gestione Multi-Ambiente
-
-```powershell
-# Traccia configurazione attraverso ambienti
-@(
-    [PSCustomObject]@{ Environment = "Locale"; Config = Get-ColorScriptConfiguration }
-    [PSCustomObject]@{ Environment = "CI"; Config = Invoke-Command -ComputerName ci-server { Get-ColorScriptConfiguration } }
-) | ForEach-Object {
-    Write-Host "=== $($_.Environment) ==="
-    $_.Config | Select-Object -ExpandProperty Cache | Format-Table
-}
-```
-
-### Validazione della Configurazione
-
-## Controllo Integrità
-
-```powershell
-# Valida integrità della configurazione
-$config = Get-ColorScriptConfiguration
-
-$checks = @{
-    CachePathExists = Test-Path $config.Cache.Path
-    CachePathWritable = Test-Path $config.Cache.Path -PathType Container
-    CacheFilesPresent = (Get-ChildItem $config.Cache.Path -Filter "*.cache" -ErrorAction SilentlyContinue).Count -gt 0
-}
-
-$checks | ConvertTo-Json | Write-Host
-```
-
-## Coerenza della Configurazione
-
-```powershell
-# Verifica che le impostazioni di configurazione siano coerenti
-$config = Get-ColorScriptConfiguration
-
-$validSettings = @{
-    CacheEnabled = $config.Cache.Enabled -is [bool]
-    PathIsString = $config.Cache.Path -is [string]
-    CachePathNotEmpty = -not [string]::IsNullOrEmpty($config.Cache.Path)
-}
-
-if ($validSettings.Values -notcontains $false) {
-    Write-Host "✓ La configurazione è valida"
-}
-```
-
-### Backup e Ripristino della Configurazione
-
-## Backup Configurazione Corrente
-
-```powershell
-# Crea backup della configurazione
-$config = Get-ColorScriptConfiguration
-$backup = @{
-    Timestamp = Get-Date
-    Configuration = $config
-    ModuleVersion = (Get-Module ColorScripts-Enhanced | Select-Object -ExpandProperty Version)
-}
-
-$backup | ConvertTo-Json | Out-File "./config-backup-$(Get-Date -Format 'yyyyMMdd-HHmmss').json"
-```
-
-## Migrazione Configurazione
-
-```powershell
-# Esporta configurazione per migrazione a nuovo sistema
-$config = Get-ColorScriptConfiguration
-
-$exportConfig = @{
-    CachePath = $config.Cache.Path
-    Startup = $config.Startup
-    Customizations = @{
-        # Aggiungi eventuali impostazioni personalizzate
-    }
-}
-
-$exportConfig | ConvertTo-Json | Out-File "./export-config.json" -Encoding UTF8
-```
-
-### Reporting della Configurazione
-
-## Report Configurazione
-
-```powershell
-# Genera report completo della configurazione
-$config = Get-ColorScriptConfiguration
-
-$report = @"
-# Report Configurazione ColorScripts-Enhanced
-Generato: $(Get-Date)
-
-## Impostazioni Cache
-- Percorso: $($config.Cache.Path)
-- Abilitato: $($config.Cache.Enabled)
-- Dimensione: $([math]::Round((Get-ChildItem $($config.Cache.Path) -Filter "*.cache" -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum).Sum / 1MB, 2)) MB
-- File: $(Get-ChildItem $($config.Cache.Path) -Filter "*.cache" -ErrorAction SilentlyContinue | Measure-Object | Select-Object -ExpandProperty Count)
-
-## Impostazioni Avvio
-- Auto-Mostra Profilo: $($config.Startup.ProfileAutoShow)
-- Script Predefinito: $($config.DefaultScript)
-
-## Ambiente
-- Versione Modulo: $(Get-Module ColorScripts-Enhanced | Select-Object -ExpandProperty Version)
-- Versione PowerShell: $($PSVersionTable.PSVersion)
-- OS: $(if ($PSVersionTable.Platform) { $PSVersionTable.Platform } else { "Windows" })
-"@
-
-$report | Out-File "./config-report.md" -Encoding UTF8
-```
-
-### Monitoraggio e Rilevamento Deriva
-
-## Rilevamento Deriva Configurazione
-
-```powershell
-# Monitora modifiche di configurazione inaspettate
-$configFile = "$env:APPDATA\ColorScripts-Enhanced\config.json"
-$current = Get-ColorScriptConfiguration
-$lastKnown = Get-Content $configFile -ErrorAction SilentlyContinue | ConvertFrom-Json
-
-if ($current.Cache.Path -ne $lastKnown.Cache.Path) {
-    Write-Warning "Il percorso cache è cambiato: $($lastKnown.Cache.Path) -> $($current.Cache.Path)"
-}
-```
-
-## Audit Configurazione Programmato
-
-```powershell
-# Crea log audit periodico
-$config = Get-ColorScriptConfiguration
-$snapshot = @{
-    Timestamp = Get-Date -Format 'o'
-    CachePath = $config.Cache.Path
-    CacheSize = (Get-ChildItem $config.Cache.Path -Filter "*.cache" -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum).Sum
-    ScriptCount = (Get-ColorScriptList -AsObject).Count
-}
-
-$snapshot | ConvertTo-Json | Out-File "./audit-log-$(Get-Date -Format 'yyyyMMdd').json" -Append -Encoding UTF8
-```
 
 ## NOTES
 
@@ -390,8 +224,13 @@ $snapshot | ConvertTo-Json | Out-File "./audit-log-$(Get-Date -Format 'yyyyMMdd'
 
 ## RELATED LINKS
 
-- [Set-ColorScriptConfiguration](Set-ColorScriptConfiguration.md)
-- [Reset-ColorScriptConfiguration](Reset-ColorScriptConfiguration.md)
-- [Show-ColorScript](Show-ColorScript.md)
-- [Get-ColorScriptList](Get-ColorScriptList.md)
-- [Export-ColorScriptMetadata](Export-ColorScriptMetadata.md)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)

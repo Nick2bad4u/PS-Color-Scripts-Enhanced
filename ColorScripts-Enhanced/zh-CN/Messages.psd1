@@ -1,69 +1,71 @@
-ConvertFrom-StringData @'
+﻿ConvertFrom-StringData @'
 # ColorScripts-Enhanced Localized Messages
 # Chinese (zh-CN) - 中文（简体）
 
 # Error Messages
-UnableToPrepareCacheDirectory = 无法准备缓存目录
+UnableToPrepareCacheDirectory = 无法准备缓存目录“{0}”：{1}
 FailedToParseConfigurationFile = 在 '{0}' 解析配置文件失败: {1}。使用默认值。
-UnableToResolveCachePath = Unable to resolve cache path '{0}'.
-ConfiguredCachePathInvalid = 配置的缓存路径
-UnableToResolveOutputPath = Unable to resolve output path '{0}'.
+UnableToResolveCachePath = 无法解析缓存路径“{0}”。
+ConfiguredCachePathInvalid = 无法解析配置的缓存路径“{0}”。将使用默认位置。
+UnableToResolveOutputPath = 无法解析输出路径“{0}”。
 UnableToDetermineConfigurationDirectory = 无法确定 ColorScripts-Enhanced 的配置目录。
 ConfigurationRootCouldNotBeResolved = 配置根目录无法解析。
-UnableToResolveProfilePath = Unable to resolve profile path '{0}'.
-FailedToExecuteColorscript = 无法执行 colorscript
-FailedToBuildCacheForScript = 无法为 $($selection.Name) 构建缓存。
+UnableToResolveProfilePath = 无法解析配置文件路径“{0}”。
+FailedToExecuteColorscript = 无法执行 colorscript“{0}”：{1}
+FailedToBuildCacheForScript = 无法构建 colorscript 缓存。
 CacheBuildFailedForScript = 为 {0} 构建缓存失败：{1}
 CacheBuildGenericFailure = 缓存构建失败。
 CacheOperationWarning = 缓存 '{0}' 时失败：{1}
 CacheOperationInitializationFailed = 无法初始化缓存目录：{0}
-ScriptAlreadyExists = 脚本 ''$targetPath'' 已存在。使用 -Force 覆盖。
-ProfilePathNotDefinedForScope = '作用域 ''$Scope'' 的配置文件路径未定义。'
+ScriptAlreadyExists = 脚本“{0}”已存在。使用 -Force 覆盖。
+ProfilePathNotDefinedForScope = 未定义作用域“{0}”的配置文件路径。
 ScriptPathNotFound = 未找到脚本路径。
 ScriptExitedWithCode = 脚本以代码 {0} 退出。
 CacheFileNotFound = 未找到缓存文件。
 NoChangesApplied = 未应用任何更改。
-UnableToRetrieveFileInfo = 无法检索 ''{0}'' 的文件信息：{1}
-UnableToReadCacheInfo = 无法读取 ''{0}'' 的缓存信息：{1}
+UnableToRetrieveFileInfo = 无法检索 '{0}' 的文件信息：{1}
+UnableToReadCacheInfo = 无法读取 '{0}' 的缓存信息：{1}
 ProfileSnippetWriteFailed = 无法将 ColorScripts-Enhanced 配置文件片段写入 '{0}'：{1}
 UnableToWriteColorScriptFile = 无法写入 colorscript 文件 '{0}'：{1}
-InvalidScriptNameEmpty = Color script name cannot be empty or whitespace.
-InvalidScriptNameCharacters = Color script name '{0}' contains invalid characters.
-InvalidPathValueEmpty = Path value cannot be empty or whitespace.
-InvalidPathValueCharacters = Path '{0}' contains invalid characters.
+InvalidScriptNameEmpty = Colorscript 名称不能为空或只包含空白字符。
+InvalidScriptNameCharacters = Colorscript 名称“{0}”包含无效字符。
+InvalidPathValueEmpty = 路径不能为空或只包含空白字符。
+InvalidPathValueCharacters = 路径“{0}”包含无效字符。
 
 # Warning Messages
 NoColorscriptsFoundMatchingCriteria = 未找到符合指定条件的 colorscripts。
 NoScriptsMatchedSpecifiedFilters = 没有脚本符合指定的过滤器。
 NoColorscriptsAvailableWithFilters = 使用指定的过滤器没有可用的 colorscripts。
-NoColorscriptsFoundInScriptsPath = 在 $script:ScriptsPath 中未找到 colorscripts
+NoColorscriptsFoundInScriptsPath = 在脚本路径“{0}”中未找到 colorscripts。
 NoScriptsSelectedForCacheBuild = 没有选择用于缓存构建的脚本。
-ScriptNotFound = 未找到脚本：$pattern
-ColorscriptNotFoundWithFilters = '使用指定的过滤器未找到 colorscript ''{0}''。'
-CachePathNotFound = 未找到缓存路径：$targetRoot
-NoCacheFilesFound = 在 $targetRoot 处未找到缓存文件。
+ScriptNotFound = 未找到脚本：{0}
+ColorscriptNotFoundWithFilters = '使用指定的过滤器未找到 colorscript '{0}'。'
+CachePathNotFound = 未找到缓存路径：{0}
+NoCacheFilesFound = 在 {0} 中未找到缓存文件。
 ProfileUpdatesNotSupportedInRemote = 远程会话中不支持配置文件更新。
-ScriptSkippedByFilter = '脚本 ''$skipped'' 不满足指定的过滤器，将被跳过。'
+ScriptSkippedByFilter = 脚本“{0}”不满足指定的筛选条件，将被跳过。
+ParallelCacheNotSupported = 并行构建缓存需要 PowerShell 7 或更高版本。将改用顺序执行。
 
 # Status Messages
-DisplayingColorscripts = `n正在显示 $totalCount 个 colorscripts...
+DisplayingColorscripts = `n正在显示 {0} 个 colorscripts...
 CacheBuildSummary = `n缓存构建摘要：
 FailedScripts = `n失败的脚本：
-TotalScriptsProcessed = `n总共处理的脚本：$totalCount
+TotalScriptsProcessed = `n已处理脚本总数：{0}
 DisplayingContinuously = 连续显示（Ctrl+C 停止）`n
-FinishedDisplayingAll = 已完成显示所有 $totalCount 个 colorscripts！
+FinishedDisplayingAll = 已完成显示全部 {0} 个 colorscripts！
 Quitting = `n正在退出...
-CurrentIndexOfTotal = [$currentIndex/$totalCount]
-FailedScriptDetails =   - $($failure.Name)：$($failure.StdErr)
-MultipleColorscriptsMatched = 多个 colorscripts 与提供的名称模式匹配：$($matchedNames -join ''，'')。正在显示 ''$($orderedMatches[0].Name)''。
+CurrentIndexOfTotal = [{0}/{1}]
+FailedScriptDetails =   - {0}：{1}
+MultipleColorscriptsMatched = 多个 colorscripts 与提供的名称模式匹配：{0}。正在显示“{1}”。
 StatusCached = 已缓存
 StatusSkippedUpToDate = 已跳过（最新）
+StatusSkippedNotRequired = 已跳过（无需缓存）
 StatusSkippedByUser = 用户跳过
 StatusFailed = 失败
 StatusUpToDateSkipped = 最新（已跳过）
-CacheBuildSummaryFormat = Cache build summary: Processed {0}, Updated {1}, Skipped {2}, Failed {3}
-CacheDirectoryFormat = Cache directory: {0}
-CacheClearSummaryFormat = Cache clear summary: Removed {0}, Missing {1}, Skipped {2}, DryRun {3}, Errors {4}
+CacheBuildSummaryFormat = 缓存构建摘要：已处理 {0}，已更新 {1}，已跳过 {2}，失败 {3}
+CacheDirectoryFormat = 缓存目录：{0}
+CacheClearSummaryFormat = 缓存清理摘要：已删除 {0}，缺失 {1}，已跳过 {2}，试运行 {3}，错误 {4}
 
 # Interactive Messages
 PressSpacebarToContinue = 按 [空格键] 继续下一个，[Q] 退出`n

@@ -13,18 +13,18 @@ Complete guide to all documentation files in this repository.
 
 ### Installation & Setup
 
-| Document                                                                 | Description                                                       |
-| ------------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| Document                                                              | Description                                                       |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | [README.md](../../README.md)                                             | Main project documentation with installation, usage, and examples |
 | [ColorScripts-Enhanced/README.md](../../ColorScripts-Enhanced/README.md) | Module-specific documentation (identical to main README)          |
-| [QUICK\_REFERENCE.md](QUICK_REFERENCE.md)                                | Command reference and common usage patterns                       |
+| [QUICK\_REFERENCE.md](QUICK_REFERENCE.md)                             | Command reference and common usage patterns                       |
 
 ### Command Help
 
 All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 
-| Command                          | Help File                                                                                                |
-| -------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Command                          | Help File                                                                                             |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | `Show-ColorScript`               | [Show-ColorScript.md](../../ColorScripts-Enhanced/en-US/Show-ColorScript.md)                             |
 | `Get-ColorScriptList`            | [Get-ColorScriptList.md](../../ColorScripts-Enhanced/en-US/Get-ColorScriptList.md)                       |
 | `New-ColorScriptCache`           | [New-ColorScriptCache.md](../../ColorScripts-Enhanced/en-US/New-ColorScriptCache.md)                     |
@@ -50,14 +50,14 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 
 ### Development Workflow
 
-| Document                                 | Description                                        |
-| ---------------------------------------- | -------------------------------------------------- |
-| [DEVELOPMENT.md](DEVELOPMENT.md)         | Local development setup, tooling, and workflows    |
-| [TESTING.md](TESTING.md)                 | Testing procedures and test suite documentation    |
-| [LINTING.md](LINTING.md)                 | Code quality standards and linting guide           |
-| [NPM\_SCRIPTS.md](NPM_SCRIPTS.md)        | Reference for all npm scripts available            |
-| [MODULE\_SUMMARY.md](MODULE_SUMMARY.md)  | Complete module implementation overview            |
-| [CONTRIBUTING.md](../../CONTRIBUTING.md) | How to contribute code, scripts, and documentation |
+| Document                                | Description                                        |
+| --------------------------------------- | -------------------------------------------------- |
+| [DEVELOPMENT.md](DEVELOPMENT.md)        | Local development setup, tooling, and workflows    |
+| [TESTING.md](TESTING.md)                | Testing procedures and test suite documentation    |
+| [LINTING.md](LINTING.md)                | Code quality standards and linting guide           |
+| [NPM\_SCRIPTS.md](NPM_SCRIPTS.md)       | Reference for all npm scripts available            |
+| [MODULE\_SUMMARY.md](MODULE_SUMMARY.md) | Complete module implementation overview            |
+| [CONTRIBUTING.md](../../CONTRIBUTING.md)   | How to contribute code, scripts, and documentation |
 
 ### Release & Publishing
 
@@ -65,7 +65,7 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | -------------------------------------------- | ---------------------------------------------------------------- |
 | [PUBLISHING.md](PUBLISHING.md)               | Publishing to PowerShell Gallery, NuGet.org, and GitHub Packages |
 | [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) | Step-by-step release checklist with git-cliff integration        |
-| [CHANGELOG.md](../../CHANGELOG.md)           | Complete project changelog                                       |
+| [CHANGELOG.md](../../CHANGELOG.md)              | Complete project changelog                                       |
 
 ### Project Management
 
@@ -77,8 +77,8 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 
 ## Repository Policies
 
-| Document                                         | Description                                 |
-| ------------------------------------------------ | ------------------------------------------- |
+| Document                                      | Description                                 |
+| --------------------------------------------- | ------------------------------------------- |
 | [CODE\_OF\_CONDUCT.md](../../CODE_OF_CONDUCT.md) | Community code of conduct                   |
 | [SECURITY.md](../../SECURITY.md)                 | Security policy and vulnerability reporting |
 | [LICENSE](../../LICENSE)                         | Unlicense License terms                     |
@@ -88,15 +88,15 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | File                                                                                                     | Purpose                                          |
 | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
 | [Shared git-cliff config](https://github.com/Nick2bad4u/gitcliff-config-nick2bad4u/blob/main/cliff.toml) | git-cliff configuration for changelog generation |
-| [PSScriptAnalyzerSettings.psd1](../../PSScriptAnalyzerSettings.psd1)                                     | ScriptAnalyzer rules and settings                |
-| [package.json](../../package.json)                                                                       | npm scripts and Node.js dependencies             |
-| [.github/workflows/](../../.github/workflows/)                                                           | GitHub Actions CI/CD workflows                   |
+| [PSScriptAnalyzerSettings.psd1](../../PSScriptAnalyzerSettings.psd1)                                        | ScriptAnalyzer rules and settings                |
+| [package.json](../../package.json)                                                                          | npm scripts and Node.js dependencies             |
+| [.github/workflows/](../../.github/workflows/)                                                              | GitHub Actions CI/CD workflows                   |
 
 ## Example Files
 
-| Location                                                            | Description                                              |
-| ------------------------------------------------------------------- | -------------------------------------------------------- |
-| [docs/examples/ansi-conversion/](./examples/ansi-conversion/)       | ANSI art conversion examples and samples                 |
+| Location                                                         | Description                                              |
+| ---------------------------------------------------------------- | -------------------------------------------------------- |
+| [docs/examples/ansi-conversion/](./examples/ansi-conversion/)    | ANSI art conversion examples and samples                 |
 | [assets/ansi-files/](../../assets/ansi-files/)                      | Source ANSI art files for conversion                     |
 | [docs/oversized-colorscripts/](../../assets/oversized-colorscripts) | Large colorscripts that don't fit in main Scripts folder |
 
@@ -132,7 +132,7 @@ Get-Help about_ColorScripts-Enhanced
 Get-Help *ColorScript*
 ```
 
-**Note**: Traditional CLI flags like `Show-ColorScript --help`, `-h`, or `-?` will not work. Use `Get-Help` instead.
+**Note**: Every exported command accepts `-h` (alias `-help`) for concise command help. Use `Get-Help` for PowerShell's detailed, example, and parameter views; GNU-style `--help` is not the documented interface.
 
 ### Other Resources
 
@@ -142,12 +142,13 @@ Get-Help *ColorScript*
 
 ## Version Information
 
-- **Module Version**: 2025.11.05.0244
-- **Colorscripts**: 498+
+- **Module Version**: `2026.7.20.35` in the checked-in manifest (the manifest is the source of truth)
+- **Colorscripts**: 3156
+- **Policy-selected cacheable renderers**: 15
 - **Functions**: 10
 - **PowerShell**: 5.1+ and 7.0+
 - **Platforms**: Windows, macOS, Linux
 
 ---
 
-_Last updated: November 5, 2025_
+_Last reviewed: July 20, 2026_

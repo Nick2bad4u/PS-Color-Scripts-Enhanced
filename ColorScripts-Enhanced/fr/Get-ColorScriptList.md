@@ -1,10 +1,12 @@
-﻿---
+---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/fr/Get-ColorScriptList.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList
+Locale: fr
 Module Name: ColorScripts-Enhanced
-ms.date: 10/26/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: Get-ColorScriptList
 ---
 
 # Get-ColorScriptList
@@ -15,19 +17,16 @@ Liste les scripts de couleurs disponibles avec filtrage optionnel et sortie de m
 
 ## SYNTAX
 
-### Default (Default)
+### __AllParameterSets
 
-```powershell
-Get-ColorScriptList [-AsObject] [-Detailed] [-Name <String[]>] [-Category <String[]>]
- [-Tag <String[]>] [<CommonParameters>]
+```
+Get-ColorScriptList [[-Name] <string[]>] [[-Category] <string[]>] [[-Tag] <string[]>] [-h]
+ [-AsObject] [-Detailed] [-Quiet] [-NoAnsiOutput]
 ```
 
-### \_\_AllParameterSets
+## ALIASES
 
-```powershell
-Get-ColorScriptList [[-Name] <string[]>] [[-Category] <string[]>] [[-Tag] <string[]>] [-AsObject]
- [-Detailed] [<CommonParameters>]
-```
+This command has no aliases.
 
 ## DESCRIPTION
 
@@ -212,19 +211,19 @@ Lorsque ce commutateur est spécifié, vous pouvez utiliser des applets de comma
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Category
@@ -235,19 +234,19 @@ Les catégories communes incluent : Patterns, Geometric, Abstract, Nature, Anima
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 1
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 1
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Detailed
@@ -258,19 +257,41 @@ Sans ce commutateur, seuls le nom et la catégorie primaire sont affichés dans 
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -h
+
+Affiche l'aide détaillée de cette commande sans effectuer l'opération.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- help
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Name
@@ -283,19 +304,61 @@ Vous pouvez spécifier des noms exacts ou utiliser des modèles comme `aurora-*`
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: true
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 0
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 0
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -NoAnsiOutput
+
+Désactive la mise en forme ANSI dans les messages d'information et la sortie rendue pour les environnements en texte brut.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Quiet
+
+Supprime les messages d'information sans masquer la sortie de la commande ni les erreurs.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Tag
@@ -306,19 +369,19 @@ Les balises communes incluent : Recommended, Animated, Colorful, Minimal, Retro,
 
 ```yaml
 Type: System.String[]
-DefaultValue: None
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: 2
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: 2
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### CommonParameters
@@ -349,137 +412,6 @@ Lorsque `-AsObject` est spécifié, retourne des objets d'enregistrement de mét
 
 Sans `-AsObject`, l'applet de commande écrit un tableau formaté à l'hôte tout en retournant les objets d'enregistrement pour un traitement de pipeline potentiel.
 
-## ADVANCED USAGE PATTERNS
-
-### Dynamic Filtering
-
-## Multi-Criteria Filtering
-
-```powershell
-# Find animated scripts that are colorful
-Get-ColorScriptList -AsObject |
-    Where-Object {
-        $_.Tags -contains 'Animated' -and
-        $_.Tags -contains 'Colorful'
-    }
-
-# Find scripts in Nature category but exclude simple ones
-Get-ColorScriptList -Category Nature -AsObject |
-    Where-Object { $_.Tags -notcontains 'Simple' }
-```
-
-## Fuzzy Matching
-
-```powershell
-# Find scripts similar to a name pattern
-$search = "wave"
-Get-ColorScriptList -AsObject |
-    Where-Object { $_.Name -like "*$search*" } |
-    Select-Object Name, Category
-```
-
-### Data Analysis
-
-## Category Distribution
-
-```powershell
-# Analyze how scripts are distributed across categories
-$analysis = Get-ColorScriptList -AsObject |
-    Group-Object Category |
-    Select-Object @{N='Category'; E={$_.Name}}, @{N='Count'; E={$_.Count}}, @{N='Percentage'; E={[math]::Round($_.Count / (Get-ColorScriptList -AsObject).Count * 100)}}
-
-$analysis | Sort-Object Count -Descending | Format-Table
-```
-
-## Tag Frequency Analysis
-
-```powershell
-# Determine most common tags
-Get-ColorScriptList -AsObject |
-    ForEach-Object { $_.Tags } |
-    Group-Object |
-    Sort-Object Count -Descending |
-    Format-Table Name, Count
-```
-
-### Integration Workflows
-
-## Playlist Creation
-
-```powershell
-# Create a "favorite" playlist
-$playlist = Get-ColorScriptList -AsObject |
-    Where-Object { $_.Tags -contains 'Recommended' } |
-    Select-Object -ExpandProperty Name
-
-# Display playlist
-$playlist | ForEach-Object {
-    Write-Host "Showing: $_"
-    Show-ColorScript -Name $_
-    Start-Sleep -Seconds 2
-}
-```
-
-## Metadata Export for Web
-
-```powershell
-# Export detailed metadata
-$web = Get-ColorScriptList -AsObject |
-    Select-Object Name, Category, Tags, Description |
-    ConvertTo-Json
-
-$web | Out-File "./scripts.json" -Encoding UTF8
-```
-
-## Validation and Health Check
-
-```powershell
-# Health check on all scripts
-$health = Get-ColorScriptList -AsObject |
-    ForEach-Object {
-        $cached = Test-Path "$env:APPDATA\ColorScripts-Enhanced\cache\$($_.Name).cache"
-        [PSCustomObject]@{
-            Name = $_.Name
-            Category = $_.Category
-            Cached = $cached
-            TagCount = $_.Tags.Count
-        }
-    }
-
-$uncached = @($health | Where-Object { -not $_.Cached })
-Write-Host "Scripts without cache: $($uncached.Count)"
-$uncached | Format-Table Name, Category
-```
-
-## PERFORMANCE CONSIDERATIONS
-
-### Query Optimization
-
-## Filter Early
-
-```powershell
-# Faster: Filter by category first
-Get-ColorScriptList -Category Geometric -AsObject |
-    Where-Object { $_.Name -like "*spiral*" }
-
-# Slower: Get all then filter
-Get-ColorScriptList -AsObject |
-    Where-Object { $_.Category -eq "Geometric" -and $_.Name -like "*spiral*" }
-```
-
-## Use Appropriate Output Format
-
-```powershell
-# For exploration: Detailed display
-Get-ColorScriptList -Detailed
-
-# For automation: Object format
-Get-ColorScriptList -AsObject
-
-# For piping: AsObject to pipeline
-Get-ColorScriptList -AsObject | ForEach-Object { ... }
-```
-
 ## NOTES
 
 **Author** : Nick
@@ -505,8 +437,13 @@ Pour de meilleurs résultats lors de l'intégration de scripts de couleurs dans 
 
 ## RELATED LINKS
 
-- [Show-ColorScript](Show-ColorScript.md)
-- [New-ColorScriptCache](New-ColorScriptCache.md)
-- [Export-ColorScriptMetadata](Export-ColorScriptMetadata.md)
-- [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
-- [Module Repository](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)

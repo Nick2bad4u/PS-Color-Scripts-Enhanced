@@ -5,9 +5,9 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 ## Current Status: Mature & Stable ✅
 
 - ✅ Core module functionality complete
-- ✅ High-performance caching system operational
+- ✅ Selective output caching for expensive renderers operational
 - ✅ Cross-platform support verified (Windows, macOS, Linux)
-- ✅ 498+ colorscripts included and tested
+- ✅ 3156 colorscripts included
 - ✅ Comprehensive documentation
 - ✅ Automated testing and CI/CD
 - ✅ PowerShell Gallery publishing
@@ -17,7 +17,7 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 ### Community-Driven Enhancements
 
 - Open slot for community-suggested features
-- Drop suggestions in [Discussions](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/discussions)
+- Submit suggestions with the [feature request form](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues/new?template=feature_request.md)
 - Vote on preferred features via issue reactions
 
 ### Documentation Improvements
@@ -45,7 +45,7 @@ The roadmap highlights short-, medium-, and long-term priorities for ColorScript
 
 ### Script Descriptions & Metadata
 
-- [ ] Expand descriptions for all 498+ scripts
+- [ ] Expand descriptions across the full 3156-script catalog
 - [ ] Add richer metadata (author, complexity, performance)
 - [ ] Create searchable index
 - [ ] Build category-based discovery UI
@@ -249,7 +249,7 @@ Q4 2026+ (Oct+)
 
 ### Suggest Features
 
-- [Discussions](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/discussions) - Feature ideas
+- [Feature requests](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues/new?template=feature_request.md) - Feature ideas
 - [Issues](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues/new?template=feature_request.md) - Formal feature requests
 - Voting - React with 👍 to prioritize
 
@@ -305,4 +305,3 @@ Q4 2026+ (Oct+)
 - If you're interested in owning a roadmap item, comment on the corresponding issue or open a new one describing your plan
 
 We review the roadmap during each release cycle and adjust priorities based on user impact, maintenance effort, and community interest.
-

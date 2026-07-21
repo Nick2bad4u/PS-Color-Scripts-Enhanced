@@ -280,7 +280,7 @@ The project uses automated testing across:
 
 - **Windows PowerShell 5.1** - Legacy compatibility
 - **PowerShell 7.x** - Cross-platform
-- **PowerShell 7.5 Preview** - Future compatibility
+- **PowerShell Preview** - Early compatibility coverage for the next PowerShell release
 
 See `.github/workflows/` for implementation details.
 
@@ -412,7 +412,7 @@ ColorScripts-Enhanced/
 \| `npm run release:notes:latest` | Generate release notes for the most recent tag. |
 \| `npm run release:verify` | Ensure CHANGELOG.md aligns with the manifest version and git-cliff output. |
 \| `npm run markdown:check` | Run markdown-link-check across every `.md` file in the repo. |
-\| `npm run verify` | Run strict lint, link checks, smoke tests, and the full Pester suite. |
+\| `npm run verify` | Run non-mutating module lint and validate the PowerShell Gallery README size. |
 
 > `npm run release:*` commands require the [git-cliff](https://github.com/orhun/git-cliff) CLI in your `PATH`.
 
@@ -463,7 +463,7 @@ pwsh -NoProfile -Command "& .\scripts\Lint-PS7.ps1"  # PowerShell 7 only
 ### Add a New Colorscript
 
 1. Create `ColorScripts-Enhanced/Scripts/<name>.ps1`
-2. Use UTF-8 encoding without BOM
+2. Use UTF-8; include a BOM when non-ASCII content must run in Windows PowerShell 5.1
 3. Test via `Show-ColorScript -Name <name>`
 4. Add to `ScriptMetadata.psd1` if needed (category/difficulty)
 5. Update docs/tests as appropriate and run lint/tests before committing
@@ -509,15 +509,15 @@ Expect to see icons, checkmarks, and box-drawing characters. If they appear as s
 
 - Unit tests validate exported commands and manifest integrity
 - Smoke tests ensure caching pipeline works end-to-end
-- GitHub Actions runs tests on Windows PowerShell 5.1 and PowerShell 7.4 across OSes
+- GitHub Actions runs tests on Windows PowerShell 5.1, the runner-provided current PowerShell 7.x across operating systems, and the current preview channel on Linux
 - Script analyzer enforces formatting and style guidelines
 
 ## Working with the Cache
 
-- Cache location: `$env:APPDATA\ColorScripts-Enhanced\cache`
+- Cache location: query `(Get-ColorScriptConfiguration).Cache.EffectivePath` because the default is platform-specific
 - Override cache location for testing/CI with `COLOR_SCRIPTS_ENHANCED_CACHE_PATH`
 - Use `New-ColorScriptCache` to warm caches during development
-- Use `New-ColorScriptCache -Parallel -Threads <N>` to take advantage of multi-core systems when building large caches
+- Use `New-ColorScriptCache -Parallel -ThrottleLimit <N>` to control concurrent cache workers (`-Threads` is an alias)
 - Use `Clear-ColorScriptCache` to troubleshoot stale outputs
 - Force validation when diagnosing cache issues with `Show-ColorScript -ValidateCache` or by setting `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE=1`
 - Force ANSI informational summaries in hosts that strip escape sequences by setting `COLOR_SCRIPTS_ENHANCED_FORCE_ANSI=1`; commands still honour `-NoAnsiOutput` when you need plain text

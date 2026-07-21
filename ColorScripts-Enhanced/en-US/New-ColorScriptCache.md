@@ -1,10 +1,12 @@
 ---
 document type: cmdlet
 external help file: ColorScripts-Enhanced-help.xml
-HelpUri: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/ColorScripts-Enhanced/en-US/New-ColorScriptCache.md
+HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache
+Locale: en-US
 Module Name: ColorScripts-Enhanced
-ms.date: 11/14/2025
+ms.date: 07/20/2026
 PlatyPS schema version: 2024-05-01
+title: New-ColorScriptCache
 ---
 
 # New-ColorScriptCache
@@ -12,6 +14,34 @@ PlatyPS schema version: 2024-05-01
 ## SYNOPSIS
 
 Pre-build or refresh colorscript cache files for faster rendering.
+
+## SYNTAX
+
+### Selection (Default)
+
+```
+New-ColorScriptCache [-Name <string[]>] [-Force] [-PassThru] [-Category <string[]>]
+ [-Tag <string[]>] [-Parallel] [-ThrottleLimit <int>] [-Quiet] [-NoAnsiOutput] [-IncludePokemon]
+ [-WhatIf] [-Confirm]
+```
+
+### Help
+
+```
+New-ColorScriptCache [-h] [-WhatIf] [-Confirm]
+```
+
+### All
+
+```
+New-ColorScriptCache [-All] [-Force] [-PassThru] [-Category <string[]>] [-Tag <string[]>]
+ [-Parallel] [-ThrottleLimit <int>] [-Quiet] [-NoAnsiOutput] [-IncludePokemon] [-WhatIf] [-Confirm]
+```
+
+## ALIASES
+
+- `Build-ColorScriptCache`
+- `Update-ColorScriptCache`
 
 ## DESCRIPTION
 
@@ -27,20 +57,6 @@ Both files live in `(Get-ColorScriptConfiguration).Cache.EffectivePath`. The `.c
 
 For faster rebuilds on multi-core systems, use the `-Parallel` switch together with the `-ThrottleLimit` (or `-Threads`) parameter to control the worker count. The cmdlet automatically reverts to sequential execution when parallel runspaces cannot be created on the current host.
 
-## SYNTAX
-
-### All
-
-```text
-New-ColorScriptCache [-All] [-IncludePokemon] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit <Int32>] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
-```
-
-### Named
-
-```text
-New-ColorScriptCache [-Name <String[]>] [-Category <String[]>] [-Tag <String[]>] [-IncludePokemon] [-Force] [-PassThru] [-Parallel] [-ThrottleLimit <Int32>] [-Quiet] [-NoAnsiOutput] [-WhatIf] [-Confirm] [<CommonParameters>]
-```
-
 ## EXAMPLES
 
 ### EXAMPLE 1
@@ -54,7 +70,7 @@ Resolve and warm only the policy-selected computational renderers without enumer
 ### EXAMPLE 2
 
 ```powershell
-New-ColorScriptCache -Name penrose-quasicrystal, 'aurora-*'
+New-ColorScriptCache -Name Galaxy, 'rose-*'
 ```
 
 Cache a mix of exact and wildcard matches. Only matches included in `CachePolicy.psd1` are built; other matches report `SkippedNotRequired` with `-PassThru`.
@@ -62,10 +78,10 @@ Cache a mix of exact and wildcard matches. Only matches included in `CachePolicy
 ### EXAMPLE 3
 
 ```powershell
-New-ColorScriptCache -Name mandelbrot-zoom -Force -PassThru | Format-List
+New-ColorScriptCache -Name Galaxy -Force -PassThru | Format-List
 ```
 
-Force a rebuild of the 'mandelbrot-zoom' cache even if it's up-to-date, and examine the detailed result object.
+Force a rebuild of the eligible 'Galaxy' cache even if it is up to date, and examine the detailed result object.
 
 ### EXAMPLE 4
 
@@ -108,7 +124,7 @@ Measures cache growth by counting policy-selected cache files before and after t
 
 ```powershell
 # Build cache for frequently used computational renderers
-$frequentScripts = @('mandelbrot-zoom', 'penrose-quasicrystal', 'aurora-waves', 'galaxy-spiral')
+$frequentScripts = @('Galaxy', 'rose-curves', 'wave-interference')
 New-ColorScriptCache -Name $frequentScripts -PassThru | Format-Table Name, Status, ExitCode
 ```
 
@@ -151,7 +167,7 @@ Caches recommended scripts and exports the results to a deployment manifest.
 
 ```powershell
 # Find cache build failures
-New-ColorScriptCache -Name "mandelbrot-zoom" -Force -PassThru |
+New-ColorScriptCache -Name "Galaxy" -Force -PassThru |
     Where-Object Status -eq 'Failed' |
     Select-Object Name, StdErr
 ```
@@ -186,19 +202,19 @@ Resolve every cache-policy entry directly. Only policy-selected scripts are proc
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: All
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Category
@@ -207,19 +223,25 @@ Limit the selection to scripts that belong to the specified category (case-insen
 
 ```yaml
 Type: System.String[]
-DefaultValue: ""
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: Named
-   Position: 1
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Confirm
@@ -228,20 +250,20 @@ Prompts you for confirmation before running the cmdlet. Useful when caching a la
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: ""
+DefaultValue: ''
 SupportsWildcards: false
 Aliases:
- - cf
+- cf
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -Force
@@ -250,147 +272,47 @@ Rebuild eligible cache files even when the existing cache is newer than the scri
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
-### -Name
+### -h
 
-One or more colorscript names to evaluate for caching. Supports wildcard patterns (for example, `aurora-*` and `*-wave`). Matching scripts are cached only when listed in `CachePolicy.psd1`. When this parameter and all filters are omitted, only policy entries are resolved and evaluated.
-
-```yaml
-Type: System.String[]
-DefaultValue: None
-SupportsWildcards: true
-Aliases: []
-ParameterSets:
- - Name: Named
-   Position: 0
-   IsRequired: false
-   ValueFromPipeline: true
-   ValueFromPipelineByPropertyName: true
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-
-### -PassThru
-
-Return detailed result objects for each cache operation. By default, only a summary is displayed. The result objects include properties such as Name, Status, CacheFile, ExitCode, StdOut, and StdErr, allowing for programmatic inspection of the caching process.
+Displays detailed help for this command without performing the operation.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-
-### -Parallel
-
-Enable multi-threaded cache building. When specified, the cmdlet executes cache jobs across a runspace pool for faster completion on capable systems. Use in combination with `-ThrottleLimit` (or the `-Threads` alias) to control the number of concurrent workers. If multi-threading cannot be initialized, the cmdlet falls back to sequential execution automatically.
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-     Position: Named
-     IsRequired: false
-     ValueFromPipeline: false
-     ValueFromPipelineByPropertyName: false
-     ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-
-### -ThrottleLimit
-
-Specifies the maximum number of concurrent cache workers when `-Parallel` is requested. Accepts values from 1 to 256. The default (when omitted) is the number of logical processors on the current machine. The alias `-Threads` is provided for convenience. Values less than or equal to one automatically revert to sequential execution.
-
-```yaml
-Type: System.Int32
-DefaultValue: 0
+DefaultValue: ''
 SupportsWildcards: false
 Aliases:
- - Threads
+- help
 ParameterSets:
- - Name: (All)
-     Position: Named
-     IsRequired: false
-     ValueFromPipeline: false
-     ValueFromPipelineByPropertyName: false
-     ValueFromRemainingArguments: false
+- Name: Help
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
-```
-
-### -Quiet
-
-Suppress per-script progress and informational summary output. Use this switch when you only want structured output (via `-PassThru`) or when automation scenarios should silence informational messages while still surfacing warnings and errors.
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-     Position: Named
-     IsRequired: false
-     ValueFromPipeline: false
-     ValueFromPipelineByPropertyName: false
-     ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-
-### -NoAnsiOutput
-
-Disable ANSI color sequences in informational output. This is useful in environments that do not render ANSI escape codes (such as some CI/CD logs) while still preserving colored output when desired.
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
-SupportsWildcards: false
-Aliases:
- - NoColor
-ParameterSets:
- - Name: (All)
-     Position: Named
-     IsRequired: false
-     ValueFromPipeline: false
-     ValueFromPipelineByPropertyName: false
-     ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### -IncludePokemon
@@ -399,19 +321,155 @@ Include Pokémon (regular and shiny) in the evaluated selection. Pokémon script
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: (All)
-     Position: Named
-     IsRequired: false
-     ValueFromPipeline: false
-     ValueFromPipelineByPropertyName: false
-     ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -Name
+
+One or more colorscript names to evaluate for caching. Supports wildcard patterns (for example, `aurora-*` and `*-wave`). Matching scripts are cached only when listed in `CachePolicy.psd1`. When this parameter and all filters are omitted, only policy entries are resolved and evaluated.
+
+```yaml
+Type: System.String[]
+DefaultValue: ''
+SupportsWildcards: true
+Aliases: []
+ParameterSets:
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -NoAnsiOutput
+
+Disable ANSI color sequences in informational output. This is useful in environments that do not render ANSI escape codes (such as some CI/CD logs) while still preserving colored output when desired.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- NoColor
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Parallel
+
+Enable multi-threaded cache building. When specified, the cmdlet executes cache jobs across a runspace pool for faster completion on capable systems. Use in combination with `-ThrottleLimit` (or the `-Threads` alias) to control the number of concurrent workers. If multi-threading cannot be initialized, the cmdlet falls back to sequential execution automatically.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -PassThru
+
+Return detailed result objects for each cache operation. By default, only a summary is displayed. The result objects include properties such as Name, Status, CacheFile, ExitCode, StdOut, and StdErr, allowing for programmatic inspection of the caching process.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Quiet
+
+Suppress per-script progress and informational summary output. Use this switch when you only want structured output (via `-PassThru`) or when automation scenarios should silence informational messages while still surfacing warnings and errors.
+
+```yaml
+Type: System.Management.Automation.SwitchParameter
+DefaultValue: ''
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Tag
@@ -420,19 +478,53 @@ Limit the selection to scripts containing the specified metadata tags (case-inse
 
 ```yaml
 Type: System.String[]
-DefaultValue: ""
+DefaultValue: ''
 SupportsWildcards: false
 Aliases: []
 ParameterSets:
- - Name: Named
-   Position: 2
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
+```
+
+### -ThrottleLimit
+
+Specifies the maximum number of concurrent cache workers when `-Parallel` is requested. Accepts values from 1 to 256. The default (when omitted) is the number of logical processors on the current machine. The alias `-Threads` is provided for convenience. Values less than or equal to one automatically revert to sequential execution.
+
+```yaml
+Type: System.Int32
+DefaultValue: ''
+SupportsWildcards: false
+Aliases:
+- Threads
+ParameterSets:
+- Name: All
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: Selection
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -WhatIf
@@ -441,20 +533,20 @@ Shows what would happen if the cmdlet runs without actually performing the cachi
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-DefaultValue: ""
+DefaultValue: ''
 SupportsWildcards: false
 Aliases:
- - wi
+- wi
 ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
 DontShow: false
 AcceptedValues: []
-HelpMessage: ""
+HelpMessage: ''
 ```
 
 ### CommonParameters
@@ -489,124 +581,6 @@ When `-PassThru` is specified, returns a custom object for each processed script
 
 Without `-PassThru`, displays a concise summary table to the console showing the number of scripts cached, skipped, and failed.
 
-## ADVANCED USAGE PATTERNS
-
-### Cache Building Strategies
-
-## Full Production Cache
-
-```powershell
-# Build all policy-selected caches for a production environment
-New-ColorScriptCache -Force | Measure-Object
-Write-Host "Cache built successfully"
-
-# Verify cache files exist
-Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter "*.cache" | Measure-Object
-```
-
-## Minimal Production Cache
-
-```powershell
-# Cache only recommended scripts for minimal footprint
-New-ColorScriptCache -Tag Recommended -PassThru |
-    Select-Object Name, Status, CacheFile
-```
-
-## Selective Category Caching
-
-```powershell
-# Cache specific categories based on environment
-$categories = if ($env:CI) { @("Simple", "Fast") } else { @("*") }
-
-Get-ColorScriptList -Category $categories -AsObject |
-    ForEach-Object { New-ColorScriptCache -Name $_.Name }
-```
-
-### Performance Monitoring
-
-## Cache Building Progress
-
-```powershell
-# Monitor cache building with progress
-$scripts = Get-ColorScriptList -AsObject
-$total = $scripts.Count
-$counter = 0
-
-$scripts | ForEach-Object {
-    $counter++
-    Write-Progress -Activity "Building Cache" `
-                   -Status $_.Name `
-                   -PercentComplete (($counter / $total) * 100)
-    New-ColorScriptCache -Name $_.Name | Out-Null
-}
-Write-Progress -Activity "Building Cache" -Completed
-```
-
-## Performance Comparison Report
-
-```powershell
-# Compare cache building times
-$results = @()
-Get-ColorScriptList -Category Geometric -AsObject | ForEach-Object {
-    $time = Measure-Command { New-ColorScriptCache -Name $_.Name -Force } | Select-Object -ExpandProperty TotalMilliseconds
-    $results += [PSCustomObject]@{
-        Script = $_.Name
-        BuildTime = [math]::Round($time, 2)
-    }
-}
-$results | Sort-Object BuildTime -Descending | Format-Table
-```
-
-### Maintenance and Cleanup
-
-## Scheduled Cache Rebuild
-
-```powershell
-# Rebuild cache weekly
-$lastRun = Get-Item "$env:APPDATA\ColorScripts-Enhanced\cache" | Select-Object -ExpandProperty LastWriteTime
-$daysSince = ((Get-Date) - $lastRun).Days
-
-if ($daysSince -ge 7) {
-    Write-Host "Rebuilding cache..."
-    New-ColorScriptCache -Force
-}
-```
-
-## Selective Cache Updates
-
-```powershell
-# Update only stale caches
-$scripts = Get-ColorScriptList -AsObject
-$scripts | ForEach-Object {
-    $cacheFile = "$env:APPDATA\ColorScripts-Enhanced\cache\$($_.Name).cache"
-    if (-not (Test-Path $cacheFile) -or (Get-Item $cacheFile).LastWriteTime -lt (Get-Date).AddDays(-30)) {
-        New-ColorScriptCache -Name $_.Name -PassThru
-    }
-}
-```
-
-### CI/CD Integration
-
-## Build Cache in Docker
-
-```powershell
-# In Dockerfile or build script
-Import-Module ColorScripts-Enhanced
-New-ColorScriptCache -Force | Out-Null
-Write-Host "✓ ColorScripts cache built"
-```
-
-## Cache Archive for Deployment
-
-```powershell
-# Archive cache for deployment
-$cacheDir = "$env:APPDATA\ColorScripts-Enhanced\cache"
-$archive = "./colorscripts-cache.zip"
-
-Compress-Archive -Path "$cacheDir\*" -DestinationPath $archive -Force
-Write-Host "Cache archived: $archive"
-```
-
 ## NOTES
 
 **Author:** Nick
@@ -618,29 +592,14 @@ Cache files are stored in the directory exposed by the module's `CacheDir` varia
 
 The cmdlet executes each eligible script in an isolated background PowerShell process to capture its output without affecting the current session. Static and unlisted scripts are not executed by this cmdlet.
 
-## Best Practices
-
-- Run once after module installation to pre-cache computational renderers
-- Use `-Force` only when you need to rebuild all eligible caches
-- Filter by category or tag for faster targeted cache builds
-- Monitor build times to identify slow-rendering scripts
-- Schedule periodic rebuilds to keep cache current
-- Use `-PassThru` in automation for detailed status reporting
-- Consider using `-WhatIf` before large cache operations
-
-**Performance Tip:** Run this cmdlet once after installing or updating the module to pre-cache the computational renderers selected by `CachePolicy.psd1`.
-
-## Troubleshooting
-
-- If cache build fails, check script syntax with `Show-ColorScript -Name scriptname -NoCache`
-- Monitor disk space for cache directory growth
-- Use `-PassThru` to identify which scripts failed building
-- Clear and rebuild if cache becomes corrupted: `Clear-ColorScriptCache -All; New-ColorScriptCache`
-
 ## RELATED LINKS
 
-- [Show-ColorScript](Show-ColorScript.md)
-- [Clear-ColorScriptCache](Clear-ColorScriptCache.md)
-- [Get-ColorScriptList](Get-ColorScriptList.md)
-- [Get-ColorScriptConfiguration](Get-ColorScriptConfiguration.md)
-- [Online Documentation](https://github.com/Nick2bad4u/ps-color-scripts-enhanced)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)

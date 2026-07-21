@@ -22,7 +22,7 @@ This project is built on the shoulders of giants and benefits from contributions
 
 - **Role:** Primary maintainer and developer
 - **Contributions:**
-  - High-performance caching system (6-19x faster load times)
+  - Selective output caching for expensive computational renderers
   - Cross-platform support (Windows, macOS, Linux)
   - Expanded command set and module structure
   - ANSI conversion and splitting utilities
@@ -58,4 +58,3 @@ This project maintains attribution to its original creators while continuing to 
 ---
 
 **Want to see your name here?** Contribute to the project! Check out our [Contributing Guidelines](../../CONTRIBUTING.md).
-

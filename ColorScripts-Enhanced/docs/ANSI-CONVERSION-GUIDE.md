@@ -159,8 +159,10 @@ Get-ChildItem "*.ans" | ForEach-Object {
 ### Example 3: Preview Before Converting
 
 ```powershell
-# View the ANSI file first (in PowerShell 7+)
-Get-Content "art.ans" -Raw | Write-Host
+# Traditional .ANS files normally use CP437, not the platform's default text encoding.
+$bytes = [System.IO.File]::ReadAllBytes((Resolve-Path "art.ans"))
+$cp437 = [System.Text.Encoding]::GetEncoding(437)
+$cp437.GetString($bytes) | Write-Host
 
 # If it looks good, convert it
 .\Convert-AnsiToColorScript.ps1 -AnsiFile "art.ans"
@@ -168,11 +170,11 @@ Get-Content "art.ans" -Raw | Write-Host
 
 ## Tips
 
-1. **Preview ANSI files** - Use `Get-Content -Raw | Write-Host` to preview first
-2. **UTF-8 Encoding** - Make sure your ANSI files are UTF-8 encoded
-3. **File Naming** - The script auto-converts names to PowerShell conventions
-4. **Batch Processing** - Use pipeline for converting multiple files
-5. **Test Output** - Run the generated .ps1 file to verify it looks correct
+1. **Choose the source encoding deliberately** - Traditional DOS/BBS `.ANS` art normally uses CP437. Use UTF-8 only when the source is known to be Unicode.
+2. **Use the advanced converter when needed** - `Convert-AnsiToColorScript-Advanced.ps1` defaults to `-Encoding cp437` and accepts `-Encoding utf8` for known UTF-8 input.
+3. **Inspect generated code** - Review a generated `.ps1` before executing art obtained from an untrusted source.
+4. **File Naming** - The converter normalizes names to lowercase PowerShell script names.
+5. **Generated Encoding** - Generated `.ps1` files use UTF-8 with a BOM so non-ASCII art is decoded correctly by Windows PowerShell 5.1. This is separate from the encoding of the source `.ANS` file.
 
 ## Troubleshooting
 
@@ -190,7 +192,8 @@ This happens when ANSI files using CP437 (DOS) encoding are incorrectly read as 
 - Traditional ANSI art uses **Code Page 437 (CP437)** encoding
 - CP437 includes special box-drawing characters in bytes 128-255
 - These characters must be properly converted to Unicode for PowerShell
-- The converter now automatically handles this conversion
+- The standard converter always decodes source bytes as CP437
+- The advanced converter lets you select `cp437` or `utf8` explicitly
 
 ### Colors Look Wrong
 
@@ -213,13 +216,25 @@ This happens when ANSI files using CP437 (DOS) encoding are incorrectly read as 
 
 Popular sources for ANSI art files:
 
-- 16colo.rs - Large collection of ANSI/ASCII art
-- textfiles.com - Vintage BBS art archives
+- [16colo.rs](https://16colo.rs/) - Large historical ANSI/ASCII art archive
+- [textfiles.com](http://artscene.textfiles.com/artpacks/) - Vintage BBS art packs
 - ANSI art communities and forums
 - Convert your own images using tools like:
   - img2txt (libcaca)
   - jp2a
   - ascii-image-converter
+
+Archive availability does not imply that every work is public domain or compatible with this project's license. Record the source URL, artist/pack attribution, and applicable license or permission for every imported file.
+
+### Collections to Evaluate
+
+These repositories are useful candidates for a future, provenance-aware import. They should not be copied wholesale without per-file review, deduplication, rendering tests, and attribution records.
+
+| Collection | Approximate size | Repository license | Integration note |
+| ---------- | ---------------- | ------------------ | ---------------- |
+| [jifunks/botany](https://github.com/jifunks/botany) | 71 plant scenes | ISC | Small text scenes; verify each asset's authorship and rendering before conversion. |
+| [info-mono/os-ansi](https://github.com/info-mono/os-ansi) | 36 OS-themed scenes | ISC | Likely straightforward to adapt after duplicate and terminal-width checks. |
+| [HyFetch](https://github.com/hykilpikonna/hyfetch) | Many distro logos | MIT | Uses application-specific templates/placeholders, so it needs a purpose-built importer rather than raw `.ANS` conversion. |
 
 ## After Conversion
 
@@ -227,8 +242,10 @@ Once converted, your scripts will:
 
 1. Be automatically discovered by `Get-ColorScriptList`
 2. Work with `Show-ColorScript -Name your-script`
-3. Be cached for fast loading with `New-ColorScriptCache`
-4. Support all ColorScripts-Enhanced features
+3. Execute directly by default, like other static colorscripts
+4. Support discovery, metadata, filtering, and display through ColorScripts-Enhanced
+
+Only expensive renderers explicitly listed in `CachePolicy.psd1` use output caching. Do not add a static converted artwork to that policy merely because it is frequently displayed.
 
 ## Example Workflow
 
@@ -240,10 +257,7 @@ Once converted, your scripts will:
 # 3. Test it
 Show-ColorScript -Name cool-art
 
-# 4. Build cache for performance
-New-ColorScriptCache -Name cool-art
-
-# 5. List all your scripts
+# 4. List your script
 Get-ColorScriptList -Name cool-art
 ```
 
@@ -259,7 +273,7 @@ Import-Module ColorScripts-Enhanced
 Show-ColorScript -Name dragon
 
 # Add to your profile for startup
-Add-ColorScriptProfile -ScriptName dragon
+Add-ColorScriptProfile -DefaultStartupScript dragon
 ```
 
 ## Advanced Utilities

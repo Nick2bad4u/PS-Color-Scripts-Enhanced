@@ -57,7 +57,7 @@ npm run test:pester
 
 ### `npm run verify`
 
-Run comprehensive verification including strict linting, markdown checks, and all tests:
+Run non-mutating module lint and validate the PowerShell Gallery README size:
 
 ```powershell
 npm run verify
@@ -240,8 +240,8 @@ npm run docs:update-counts
 
 Updates markers like:
 
-- `<!-- COLOR_SCRIPT_COUNT_PLUS -->498+<!-- /COLOR_SCRIPT_COUNT_PLUS -->`
-- `<!-- COLOR_CACHE_TOTAL -->498+<!-- /COLOR_CACHE_TOTAL -->`
+- `<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS -->` for the installed script inventory
+- `<!-- COLOR_CACHE_TOTAL -->15<!-- /COLOR_CACHE_TOTAL -->` for the renderers selected by `CachePolicy.psd1`
 
 Run after:
 
@@ -305,7 +305,7 @@ Checks:
 
 ### `npm run verify` (2)
 
-Run comprehensive verification including strict linting, markdown checks, and all tests:
+Run non-mutating module lint and validate the PowerShell Gallery README size:
 
 ```powershell
 npm run verify
@@ -313,17 +313,14 @@ npm run verify
 
 Runs in order:
 
-1. Linting (strict mode)
-2. Documentation validation
-3. Smoke tests
-4. Full Pester tests
-5. Coverage report
+1. Module linting without modifying source files
+2. PowerShell Gallery README size validation
 
 ## Use this before
 
 - Committing to main
 - Creating pull requests
-- Publishing releases
+- Preparing a broader build or release validation run
 
 ## Utility Scripts
 
@@ -425,8 +422,8 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
 ### Parallel Execution
 
 ```powershell
-# Run tests in parallel (PowerShell 7+)
-npm run test:pester -- -Parallel -ThrottleLimit 4
+# Exercise the colorscript corpus in parallel (PowerShell 7+)
+pwsh -NoProfile -File ./ColorScripts-Enhanced/Test-AllColorScripts.ps1 -Parallel -ThrottleLimit 4
 ```
 
 ### Faster Linting
@@ -518,7 +515,7 @@ npm run build
 
 **Last Updated**: October 30, 2025
 
-- `<!-- COLOR_SCRIPT_COUNT -->245<!-- /COLOR_SCRIPT_COUNT -->`
+- `<!-- COLOR_SCRIPT_COUNT -->3156<!-- /COLOR_SCRIPT_COUNT -->`
 
 ### `npm run markdown:check`
 
@@ -697,7 +694,7 @@ Install-Module -Name platyPS -Force -SkipPublisherCheck  # Optional
 
 ## See Also
 
-- [Development Guide](Development.md) - Complete development workflow
+- [Development Guide](DEVELOPMENT.md) - Complete development workflow
 - [Testing Guide](TESTING.md) - Testing procedures
 - [Linting Guide](LINTING.md) - Code quality standards
 - [Publishing Guide](Publishing.md) - Release and publishing process

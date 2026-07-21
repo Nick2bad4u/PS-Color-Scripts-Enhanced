@@ -13,7 +13,8 @@ Use this checklist to produce a production-ready release of **ColorScripts-Enhan
 
 ## 2. Quality Gates
 
-- [ ] Run `npm run verify` (strict linting + markdown checks + all tests).
+- [ ] Run `npm run build` for the aggregate build, conversion, lint, README, and coverage gates.
+- [ ] Run `npm run verify` for the non-mutating module lint and Gallery README size checks.
 - [ ] Alternatively run individual checks:
   - [ ] `npm test` - Smoke tests with ScriptAnalyzer
   - [ ] `npm run test:pester` - Full Pester test suite

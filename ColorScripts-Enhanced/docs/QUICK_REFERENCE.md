@@ -62,7 +62,7 @@ Get-ColorScriptList -Tag Recommended
 New-ColorScriptCache
 
 # Cache specific computational renderers
-New-ColorScriptCache -Name penrose-quasicrystal,perlin-clouds,aurora-bands
+New-ColorScriptCache -Name Galaxy,perlin-clouds,rose-curves
 
 # Force rebuild
 New-ColorScriptCache -Force
@@ -77,14 +77,14 @@ New-ColorScriptCache -Force
 Clear-ColorScriptCache -All
 
 # Clear specific cache
-Clear-ColorScriptCache -Name hearts
+Clear-ColorScriptCache -Name Galaxy
 
 # Preview without deleting
 Clear-ColorScriptCache -All -WhatIf
 
 # Dry run or alternate cache root
-Clear-ColorScriptCache -Name hearts -DryRun
-Clear-ColorScriptCache -Name hearts -Path 'C:/temp/colorscripts-cache'
+Clear-ColorScriptCache -Name Galaxy -DryRun
+Clear-ColorScriptCache -Name Galaxy -Path 'C:/temp/colorscripts-cache'
 ```
 
 ### Persist Defaults with Configuration
@@ -176,7 +176,7 @@ Add to your PowerShell profile (`$PROFILE`):
 ```powershell
 Add-ColorScriptProfile                     # Import + Show-ColorScript
 Add-ColorScriptProfile -SkipStartupScript  # Import only
-Add-ColorScriptProfile -Scope CurrentUserCurrentHost
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost
 ```
 
 ## Nerd Font Glyphs
@@ -332,18 +332,12 @@ New-ColorScriptCache
 ### Cache not working
 
 ```powershell
-# Check cache location
-# Windows:
-Test-Path "$env:APPDATA\ColorScripts-Enhanced\cache"
-
-# macOS:
-Test-Path "~/Library/Application Support/ColorScripts-Enhanced/cache"
-
-# Linux:
-Test-Path "~/.cache/ColorScripts-Enhanced"
+# Check the effective platform-specific cache location
+$cachePath = (Get-ColorScriptConfiguration).Cache.EffectivePath
+Test-Path -LiteralPath $cachePath
 
 # Rebuild a specific eligible cache
-New-ColorScriptCache -Name penrose-quasicrystal -Force
+New-ColorScriptCache -Name Galaxy -Force
 ```
 
 ### Performance issues
@@ -353,7 +347,7 @@ New-ColorScriptCache -Name penrose-quasicrystal -Force
 New-ColorScriptCache
 
 # Inspect generated cache entries
-Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" | Measure-Object
+Get-ChildItem (Get-ColorScriptConfiguration).Cache.EffectivePath | Measure-Object
 ```
 
 ## Advanced Usage
@@ -362,9 +356,12 @@ Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" | Measure-Object
 
 ```powershell
 # Measure cache benefit
-$uncached = Measure-Command { Show-ColorScript -Name mandelbrot-zoom -NoCache }
-$cached = Measure-Command { Show-ColorScript -Name mandelbrot-zoom }
-Write-Host "Improvement: $([math]::Round($uncached.TotalMilliseconds / $cached.TotalMilliseconds, 1))x"
+$uncached = 1..5 | ForEach-Object { (Measure-Command { Show-ColorScript -Name Galaxy -NoCache }).TotalMilliseconds }
+$cached = 1..5 | ForEach-Object { (Measure-Command { Show-ColorScript -Name Galaxy }).TotalMilliseconds }
+[PSCustomObject]@{
+    UncachedAverageMs = ($uncached | Measure-Object -Average).Average
+    CachedAverageMs = ($cached | Measure-Object -Average).Average
+}
 ```
 
 ### Batch Automation
@@ -440,7 +437,7 @@ Get-ColorScriptList -AsObject |
 
 - [ ] Pre-build cache with `New-ColorScriptCache` after updates
 - [ ] Use `-NoCache` only for script development/testing
-- [ ] Monitor cache size: `$env:APPDATA\ColorScripts-Enhanced\cache`
+- [ ] Monitor cache size: `Get-ChildItem (Get-ColorScriptConfiguration).Cache.EffectivePath`
 
 ### Troubleshooting (2)
 
@@ -454,7 +451,7 @@ Get-ColorScriptList -AsObject |
 | Issue               | Check             | Solution                                                   |
 | ------------------- | ----------------- | ---------------------------------------------------------- |
 | Scripts not showing | Terminal encoding | `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8` |
-| Slow first run      | Cache missing     | `New-ColorScriptCache -Force`                              |
+| Eligible renderer repeatedly regenerates | Cache missing or stale | `New-ColorScriptCache -Force -PassThru`       |
 | Garbled characters  | Font support      | Install Nerd Font or try different script                  |
 | Module not found    | Module path       | `$env:PSModulePath -split ';'`                             |
 | Cache errors        | Disk space        | `Clear-ColorScriptCache -All`                              |
@@ -560,11 +557,11 @@ $env:PSModulePath += ";C:\CustomModulePath"
 Get-Module ColorScripts-Enhanced | Select-Object Version
 ```
 
-Current: 2025.11.05
+The installed version is reported from the module manifest; do not copy a hard-coded version from this guide.
 
 ---
 
 **Tip:** For detailed documentation, use: `Get-Help about_ColorScripts-Enhanced`
 
-**Last Updated**: October 30, 2025
+**Last Reviewed**: July 20, 2026
 **Status**: ✅ Production Ready

@@ -30,9 +30,15 @@ if (-not (Test-Path -LiteralPath $converter)) {
 
 Write-Host "Converting $ansiFull to $outputFull" -ForegroundColor Cyan
 
-& $node.Source $converter $ansiFull '--output' $outputFull '--encoding' 'utf8'
+$arguments = @(
+    '--encoding=cp437'
+    $ansiFull
+    $outputFull
+)
+
+& $node.Source $converter @arguments
 if ($LASTEXITCODE -ne 0) {
     throw "Conversion failed with exit code $LASTEXITCODE."
 }
 
-Write-Host '✓ Conversion complete. Preview the generated script with Show-ColorScript or the Test-All harness.' -ForegroundColor Green
+Write-Host '[OK] Conversion complete. Preview the generated script with Show-ColorScript or the Test-All harness.' -ForegroundColor Green

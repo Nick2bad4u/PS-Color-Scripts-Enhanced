@@ -19,7 +19,7 @@ This module supports both **Windows PowerShell 5.1** and **PowerShell 7.x** acro
 ### PowerShell 7.x (Core Edition)
 
 - **Platforms:** Windows, macOS, Linux
-- **Runtime:** .NET Core / .NET 5+
+- **Runtime:** Modern .NET
 - **Status:** Active development
 - **Cross-platform:** True cross-platform support
 - **Use Case:** Modern, cross-platform scenarios
@@ -30,12 +30,13 @@ This module supports both **Windows PowerShell 5.1** and **PowerShell 7.x** acro
 
 ### ✅ What We Test
 
-| Platform | PowerShell Version | Reason                 |
-| -------- | ------------------ | ---------------------- |
-| Windows  | 5.1 (Desktop)      | Legacy Windows support |
-| Windows  | 7.5 (Core)         | Modern Windows         |
-| macOS    | 7.5 (Core)         | Mac support            |
-| Linux    | 7.5 (Core)         | Linux support          |
+| Platform | PowerShell version | Reason                                      |
+| -------- | ------------------ | ------------------------------------------- |
+| Windows  | 5.1 (Desktop)      | Minimum supported Windows PowerShell        |
+| Windows  | Current 7.x        | Runner-provided stable PowerShell           |
+| macOS    | Current 7.x        | Runner-provided stable PowerShell           |
+| Linux    | Current 7.x        | Runner-provided stable PowerShell           |
+| Linux    | Current preview    | Early compatibility with the next release   |
 
 ### ❌ What We DON'T Test
 
@@ -149,9 +150,11 @@ pwsh -Command "& .\scripts\Test-Module.ps1"
 
 ### CI/CD Testing
 
-- **Windows runners:** Test both 5.1 and 7.x
-- **macOS runners:** Test 7.x only (5.1 not available)
-- **Linux runners:** Test 7.x only (5.1 not available)
+- **Windows runners:** Test Windows PowerShell 5.1 and the runner's current stable PowerShell 7.x
+- **macOS runners:** Test the runner's current stable PowerShell 7.x
+- **Linux runners:** Test the runner's current stable PowerShell 7.x and the current preview channel
+
+The workflow intentionally follows maintained stable and preview channels instead of pinning this guide to a minor version that will drift.
 
 ---
 
