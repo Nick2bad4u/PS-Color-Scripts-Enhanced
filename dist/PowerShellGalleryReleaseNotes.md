@@ -1,74 +1,89 @@
-## [2025.12.15.2238] - 2025-12-15
+## ✨ What's Changed in v2026.7.20.2250
 
-
-[[9e991ef](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/9e991efb1a8b0481599abdf4c2267c8f1d09acc5)...
-[9e991ef](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/9e991efb1a8b0481599abdf4c2267c8f1d09acc5)]
-([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/9e991efb1a8b0481599abdf4c2267c8f1d09acc5...9e991efb1a8b0481599abdf4c2267c8f1d09acc5))
-
-
-### 💼 Other
-
-- 🔧 [build] Update license information across the project
-
- - 📝 Update PowerShellGalleryReleaseNotes.md to reflect the new version '2025.12.15.1707' and change license from MIT to Unlicense.
- - 📝 Modify DOCUMENTATION_INDEX.md to update license terms from MIT to Unlicense.
- - 📝 Change PUBLISHING.md to reflect the Unlicense license expression and its corresponding license URL.
- - 📝 Update QUICK_REFERENCE.md to indicate the project is now under the Unlicense.
- - 🔧 Update package.json to set the license field to Unlicense.
- - 🛠️ Enhance Test-Coverage.ps1 to ensure coverage runs do not affect the user's real cache.
- - 🛠️ Modify Test-Module.ps1 to ensure tests run in isolated environments without affecting user data.
- - 🛠️ Update Update-NuGetPackageMetadata.ps1 to set the license to Unlicense in the NuGet metadata.
- - 🔧 Change build.ps1 to update the license URI and expression to Unlicense.
-
-Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(9e991ef)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/9e991efb1a8b0481599abdf4c2267c8f1d09acc5)
+- <b>Commit Range: ➡️</b> [`v2026.7...v2026.7`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/v2026.7.20.35...v2026.7.20.2250 "View full commit range on GitHub")
 
 
 
+### 🛠️ Bug Fixes
+
+
+- [`890804b`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/890804b38696953116f2d8af2b495842bf9e44f8 "Diff: 116 files, +1691 | -5251") — 🛠️ [fix] Make localized help builds idempotent <sub><em>(116 files, +1691, -5251)</em></sub>
+
+🛠️ [fix] Replace generated related-link sections with one canonical HelpUri and collapse duplicate or empty MAML navigation links after PlatyPS export.
+
+🧪 [test] Verify every translated Markdown topic and MAML command exposes exactly one online link and prove consecutive help builds are byte-stable.
+
+📝 [docs] Normalize packaged documentation casing so copied cross-platform links resolve on case-sensitive filesystems.
 
 
 
-## [2025.12.15.1707] - 2025-12-15
+- [`11c9f4c`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/11c9f4c3102ef94f25f682aa111135593f3e027e "Diff: 11 files, +1548 | -1918") — 🛠️ [fix] Make ANSI conversion terminal-aware <sub><em>(11 files, +1548, -1918)</em></sub>
 
+🛠️ [fix] Decode legacy art safely, emulate cursor movement, split compound canvases deterministically, and preserve PowerShell-safe output across converters.
 
-[[ae15c97](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/ae15c97423e180fdbbdd93e482f04371a13e2404)...
-[efff7d3](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/efff7d34b3d9072df1ea78f4545edc1bc986ce53)]
-([compare](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/ae15c97423e180fdbbdd93e482f04371a13e2404...efff7d34b3d9072df1ea78f4545edc1bc986ce53))
+🧹 [chore] Remove duplicate source artifacts only after byte-aware comparison and retain the usable Megajoint segment already in the module catalog.
 
-
-### 💼 Other
-
-- 🔧 [build] Update module version and localization info
-
- - 🔧 Update ModuleVersion to '2025.12.15.1153' in [ColorScripts-Enhanced](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced).psd1
- - 📝 Update ReleaseNotes to reflect changes in version 2025.12.15.1153
- - 🛠️ Enhance error handling in Get-ColorScriptsConfigurationRoot with verbose messages for cached configuration root validation
- - 🛠️ Improve error handling in Initialize-CacheDirectory with detailed trace for cache metadata stamp comparison failures
- - 🛠️ Add verbose logging in Initialize-ColorScriptsLocalization for explicit root localization import failures
- - 🌍 Update HelpInfo.xml files for multiple languages to reflect the new version '2025.12.15.1153'
-
-Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(efff7d3)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/efff7d34b3d9072df1ea78f4545edc1bc986ce53)
-
-
-- ✨ [feat] Enhance cache metadata management and script inventory retrieval
-
- - 📝 Add Write-CacheMetadataFile function to manage cache metadata files without purging cache entries.
- - 🔧 Update Initialize-CacheDirectory to refresh metadata marker based on cache entries' timestamps.
- - ⚡ Improve Get-ColorScriptInventory by introducing a new internal function to retrieve script files more reliably.
- - 🛠️ Modify Get-ColorScriptsConfigurationRoot to allow non-destructive validation and prevent cache directory creation if not needed.
- - 🔄 Update New-ColorScriptCache and Show-ColorScript to ensure cache metadata is updated after cache operations.
- - 🧪 Add tests to ensure cache entries are preserved during validation and that metadata files are correctly created and updated.
- - 🌍 Update localization help files for multiple languages to reflect the latest version.
-
-Signed-off-by: Nick2bad4u <20943337+Nick2bad4u@users.noreply.github.com> [`(ae15c97)`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/ae15c97423e180fdbbdd93e482f04371a13e2404)
+🧪 [test] Add Node coverage for SGR state, cursor controls, CP437 input, Unicode escaping, malformed sequences, and splitter boundaries.
 
 
 
+- [`1898573`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/1898573e8576b869ffd9ea575e54d5194d9fb75e "Diff: 32 files, +396 | -273") — 🛠️ [fix] Harden module state and process handling <sub><em>(32 files, +396, -273)</em></sub>
+
+🛠️ [fix] Make configuration getters side-effect free, defer approved writes, preserve malformed files, and keep cache and metadata state coherent.
+
+🛠️ [fix] Drain child-process streams without deadlocks, report renderer failures, and keep Windows PowerShell platform detection explicit.
+
+🧪 [test] Cover WhatIf behavior, transient configuration paths, profile ownership, large redirected streams, and updated internal contracts.
 
 
 
-## Contributors
-Thanks to all the [contributors](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/graphs/contributors) for their hard work!
-## License
-This project is licensed under the [Unlicense License](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/LICENSE)
-*This changelog was automatically generated with [git-cliff](https://github.com/orhun/git-cliff).*
+### 📝 Documentation
 
+
+- [`8d26887`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/8d26887057dabc465a36d8070e6a29a57e1797aa "Diff: 177 files, +43125 | -39030") — 📝 [docs] Synchronize help and collection guidance <sub><em>(177 files, +43125, -39030)</em></sub>
+
+📝 [docs] Regenerate Markdown and MAML help for all ten cultures from corrected command metadata and align translated messages with the current module behavior.
+
+📝 [docs] Replace stale cache, platform, testing, versioning, and publishing claims; fix case-sensitive links; and keep the Gallery README below its strict size threshold.
+
+📝 [docs] Document terminal-aware ANSI conversion, duplicate handling, and additional source collections including 16colo.rs, Textfiles art packs, botany, os-ansi, and hyfetch.
+
+
+
+### 🧹 Chores
+
+
+- [`a0f1e64`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/a0f1e6427670b68e081f1cc50868cab4a07d8e43 "Diff: 15 files, +51 | -26") — 🔖 [chore] Prepare version 2026.7.20.2250 <sub><em>(15 files, +51, -26)</em></sub>
+
+Update the module and localized help metadata to the release candidate version.
+
+Make changelog validation tag-aware and document the reproducible versioned release-note workflow.
+
+
+
+### 👷 CI/CD
+
+
+- [`250f6d8`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/250f6d87b75189581a3b03823b4c1f38bd7e80a5 "Diff: 19 files, +1287 | -3595") — 👷 [ci] Make release validation deterministic <sub><em>(19 files, +1287, -3595)</em></sub>
+
+👷 [ci] Normalize versioned builds across release triggers, reuse the repository analyzer entry point, and keep verification non-mutating.
+
+🛠️ [fix] Isolate flaky PSScriptAnalyzer passes with bounded adaptive subdivision while preserving every enabled rule and failing closed on persistent errors.
+
+🧪 [test] Add release-wiring and maintenance-script regressions, strengthen coverage output handling, and remove the obsolete private-function snapshot.
+
+
+
+
+
+
+
+
+> [!NOTE]
+> **Release comparison**: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/v2026.7.20.35...v2026.7.20.2250
+
+
+## ⭐ Contributors
+Thanks to anyone who has 🧑‍💻 [contributed](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/graphs/contributors).
+
+*This changelog was automatically generated with ⛰️ [git-cliff](https://github.com/orhun/git-cliff).*
