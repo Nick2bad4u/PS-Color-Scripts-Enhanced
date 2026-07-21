@@ -1519,7 +1519,13 @@ function getSauceFontName(sauce) {
     if (!sauce) {
         return "";
     }
-    return sauce.tInfoS.toString("ascii").replace(/\0.*$/, "").trim();
+
+    const field = sauce.tInfoS.toString("ascii");
+    const terminatorIndex = field.indexOf("\0");
+    return (terminatorIndex === -1
+        ? field
+        : field.slice(0, terminatorIndex)
+    ).trim();
 }
 
 /**

@@ -11,6 +11,7 @@ const {
     buildPowerShellOutput,
     buildSourceMetadataHeader,
     convertAnsiToPs1,
+    getSauceFontName,
     MAX_TERMINAL_COLUMNS,
     readAnsiFile,
     stripSauce,
@@ -268,6 +269,20 @@ test("source metadata comments sanitize controls and preserve SAUCE provenance",
     assert.match(header, /# SAUCE Font: IBM VGA/);
     assert.match(header, /# SAUCE Comments: Comment second line/);
     assert.equal(header.split("\n").some((line) => line === "Write-Error injected"), false);
+});
+
+test("SAUCE font names stop at the first null terminator without regex backtracking", () => {
+    assert.equal(getSauceFontName(null), "");
+    assert.equal(
+        getSauceFontName({ tInfoS: Buffer.from("  IBM VGA  ", "ascii") }),
+        "IBM VGA"
+    );
+    assert.equal(
+        getSauceFontName({
+            tInfoS: Buffer.from("IBM VGA\0ignored metadata", "ascii"),
+        }),
+        "IBM VGA"
+    );
 });
 
 test("iCE background intensity survives cursor save and restore", () => {
