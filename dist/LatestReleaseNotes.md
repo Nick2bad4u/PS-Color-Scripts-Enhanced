@@ -11,6 +11,12 @@
 ### 🛠️ Bug Fixes
 
 
+- [`24a4119`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/24a4119c217a3cdaee3e43e9154f418aec24919e "Diff: 1 file, +6 | -20") — 🛠️ [fix] Prefer pwsh for redirected color capture <sub><em>(1 file, +6, -20)</em></sub>
+
+Restore the module's modern-PowerShell-first child renderer contract. Windows PowerShell serializes redirected host records as CLIXML, so using it while pwsh is available corrupts captured output and cache comparisons.
+
+
+
 - [`890804b`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/890804b38696953116f2d8af2b495842bf9e44f8 "Diff: 116 files, +1691 | -5251") — 🛠️ [fix] Make localized help builds idempotent <sub><em>(116 files, +1691, -5251)</em></sub>
 
 🛠️ [fix] Replace generated related-link sections with one canonical HelpUri and collapse duplicate or empty MAML navigation links after PlatyPS export.
