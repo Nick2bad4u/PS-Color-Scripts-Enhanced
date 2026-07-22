@@ -221,7 +221,8 @@ Describe 'Curated ANSI artwork provenance' {
             foreach ($path in $paths) {
                 $result = Get-StaticColorScriptOutput -ScriptPath $path
                 $plainText = $result.Content -replace ([char]27 + '\[[0-?]*[ -/]*[@-~]'), ''
-                $normalizedPlainText = $plainText.TrimEnd([char[]]"`r`n") -replace "`r`n?", "`n"
+                # Ignore blank display margins when measuring the artwork itself.
+                $normalizedPlainText = $plainText.Trim([char[]]"`r`n") -replace "`r`n?", "`n"
                 $lines = @($normalizedPlainText -split "`n")
                 [pscustomobject]@{
                     Name   = [System.IO.Path]::GetFileNameWithoutExtension($path)

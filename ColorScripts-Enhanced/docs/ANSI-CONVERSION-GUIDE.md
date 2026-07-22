@@ -64,7 +64,7 @@ Passthrough preserves the decoded source byte-for-byte inside one safe PowerShel
 
 1. **Reads the ANSI file** - Uses CP437 (DOS/OEM) encoding to properly handle box-drawing and extended ASCII characters
 2. **Converts to Unicode** - Preserves all ANSI escape sequences and special characters
-3. **Wraps in PowerShell** - Creates a script using `Write-Host @"..."@` syntax
+3. **Wraps in PowerShell** - Creates a script using a safe, single-quoted multiline `Write-Host` literal. Terminal-emulated art starts below the opening quote so it has a leading display margin; passthrough output remains byte-exact.
 4. **Saves to Scripts folder** - Automatically places in ColorScripts-Enhanced/Scripts
 5. **Auto-naming** - Converts filename to lowercase with hyphens (PowerShell convention)
 

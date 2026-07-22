@@ -7,7 +7,8 @@
 # Source Attribution: Roy/SAC aka Carsten Cumbrowski
 # Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
 
-Write-Host ' [1;30m▄[0m      [1;34m·[0m                [1;34m·    [0;1;30m░[0m                      [1;30m░[0m                 [1;30m▀[0m
+Write-Host '
+ [1;30m▄[0m      [1;34m·[0m                [1;34m·    [0;1;30m░[0m                      [1;30m░[0m                 [1;30m▀[0m
 [1;30m   ▄[0m        [1m·[0m         [1m·[0m       [1;30m▒   [0;1m·[0m            [1;34m·   [0;1m· [0;1;30m▒[0m        [1;34m·[0m     [1;30m▄▀   [0;1m·[0m
 [1m  [0;1;30m▄ ▀▄  ▀[0m      [1;34m·   [0;31m░[0m      [1;30m▀ ▄█▓▄▄▄ ▄  [0;1;34m·  [0;31m░[0m        [1;30m▀▄▄▓ ▄   [0;1m·    [0;1;30m░▀▄▀[0m        [1;34m·[0m
       [1;30m▀▄▓▄  ▄[0;1m·   [0;31m░▒▓░ ░  [0;1;30m▀░▀█▓▄▀ ▄   [0;31m░ ░▒▓░  [0;1m· [0;1;30m▀ ▀▓▀ ▄  [0;1;34m·[0m      [1;30m▄██▄[0m     [1;30m▀    [0;1m·[0m

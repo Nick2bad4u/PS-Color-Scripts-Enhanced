@@ -1430,13 +1430,21 @@ function serializePowerShellStringLiteral(content) {
  * ANSI-art text to become PowerShell source code.
  *
  * @param {string} content
- * @param {boolean} [noNewline]
+ * @param {{
+ *     noNewline?: boolean;
+ *     startOnNewLine?: boolean;
+ * }} [options]
  *
  * @returns {string}
  */
-function buildPowerShellOutput(content, noNewline = false) {
+function buildPowerShellOutput(
+    content,
+    { noNewline = false, startOnNewLine = false } = {}
+) {
+    const outputContent =
+        startOnNewLine && !/^\r?\n/u.test(content) ? `\n${content}` : content;
     const noNewlineArgument = noNewline ? " -NoNewline" : "";
-    return `Write-Host ${serializePowerShellStringLiteral(content)}${noNewlineArgument}\n`;
+    return `Write-Host ${serializePowerShellStringLiteral(outputContent)}${noNewlineArgument}\n`;
 }
 
 /**
@@ -1789,7 +1797,7 @@ function main(argv = process.argv.slice(2)) {
             console.log("Using passthrough mode (no terminal emulation)...");
             // Preserve the pre-formatted stream exactly. Write-Host's default newline would add
             // bytes that are not present in the source, so passthrough output uses -NoNewline.
-            const ps1Content = `${header}\n${buildPowerShellOutput(content, true)}`;
+            const ps1Content = `${header}\n${buildPowerShellOutput(content, { noNewline: true })}`;
             if (fs.existsSync(outputFile) && !options.force) {
                 throw new Error(
                     `Output file already exists: ${outputFile}. Use --force to replace it.`
@@ -1869,7 +1877,7 @@ function main(argv = process.argv.slice(2)) {
             chunks.forEach((chunk, index) => {
                 const chunkFile = chunkFiles[index];
                 const convertedContent = chunk.join("\n");
-                const ps1Content = `${header}# Part ${index + 1} of ${chunks.length}\n\n${buildPowerShellOutput(convertedContent)}`;
+                const ps1Content = `${header}# Part ${index + 1} of ${chunks.length}\n\n${buildPowerShellOutput(convertedContent, { startOnNewLine: true })}`;
                 writePowerShellFile(chunkFile, ps1Content);
                 console.log(
                     `✓ Created part ${index + 1}/${chunks.length}: ${path.basename(chunkFile)}`
@@ -1882,7 +1890,7 @@ function main(argv = process.argv.slice(2)) {
         } else {
             // Single file output
             const convertedContent = lines.join("\n");
-            const ps1Content = `${header}\n${buildPowerShellOutput(convertedContent)}`;
+            const ps1Content = `${header}\n${buildPowerShellOutput(convertedContent, { startOnNewLine: true })}`;
             if (fs.existsSync(outputFile) && !options.force) {
                 throw new Error(
                     `Output file already exists: ${outputFile}. Use --force to replace it.`

@@ -89,6 +89,19 @@ test("generated output treats hostile ANSI text as data", () => {
     assert.equal(fs.existsSync(sentinel), false);
 });
 
+test("terminal-emulated output starts artwork below Write-Host", () => {
+    assert.equal(
+        buildPowerShellOutput("art", { startOnNewLine: true }),
+        "Write-Host '\nart'\n"
+    );
+    assert.equal(
+        buildPowerShellOutput("\nalready separated", {
+            startOnNewLine: true,
+        }),
+        "Write-Host '\nalready separated'\n"
+    );
+});
+
 test("passthrough preserves sequential ANSI colors, line endings, and apostrophes", () => {
     const directory = createTemporaryDirectory();
     const inputPath = path.join(directory, "botany-like.ansi");
@@ -174,7 +187,7 @@ test("PowerShell converter emits safe PS5.1-compatible scripts", () => {
             ]
         );
         runPowerShell(outputPath).forEach((stdout) =>
-            assert.equal(stdout, `${payload}\n`)
+            assert.equal(stdout, `\n${payload}\n`)
         );
     }
     assert.equal(fs.existsSync(sentinel), false);
@@ -259,7 +272,7 @@ test("advanced PowerShell converter forwards encoding options on both engines", 
             `${executable}: ${conversion.error?.message || conversion.stderr || conversion.stdout}`
         );
         runPowerShell(outputPath).forEach((stdout) =>
-            assert.equal(stdout, "snow: 雪\n")
+            assert.equal(stdout, "\nsnow: 雪\n")
         );
         const generatedSource = fs.readFileSync(outputPath, "utf8");
         assert.match(
@@ -311,10 +324,14 @@ test("splitter writes and reads the safe literal format", () => {
         baseInfo
     );
 
-    assert.deepEqual(extractLinesFromPs1(scriptPath), [...lines, "\u001b[0m"]);
+    assert.deepEqual(extractLinesFromPs1(scriptPath), [
+        "",
+        ...lines,
+        "\u001b[0m",
+    ]);
     const outputs = runPowerShell(scriptPath);
     outputs.forEach((stdout) =>
-        assert.equal(stdout, `${lines.join("\n")}\n\u001b[0m\n`)
+        assert.equal(stdout, `\n${lines.join("\n")}\n\u001b[0m\n`)
     );
     assert.deepEqual(
         fs.readFileSync(scriptPath),

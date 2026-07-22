@@ -390,7 +390,7 @@ function writeChunkPs1(outputPath, chunk, baseInfo) {
         ).trimEnd(),
         `# Lines: ${chunk.start + 1}-${chunk.end}`,
     ].join("\n");
-    const body = `${header}\n\n${buildPowerShellOutput(normalized)}`;
+    const body = `${header}\n\n${buildPowerShellOutput(normalized, { startOnNewLine: true })}`;
     writePowerShellFile(outputPath, body);
 }
 
