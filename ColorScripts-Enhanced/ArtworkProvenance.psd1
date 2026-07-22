@@ -9,7 +9,7 @@
             Attribution     = 'Jacob Funke (jifunks)'
             License         = 'ISC'
             LicenseEvidence = 'ThirdPartyNotices/botany-ISC.txt'
-            Selection       = 'Seventeen visually distinct mature stage-3 plants selected from 72 ANSI scenes.'
+            Selection       = 'Seventeen visually distinct flowering final-stage (*3.ansi) plants selected from 72 ANSI scenes.'
             Transformation  = 'Decoded as UTF-8 and preserved byte-for-byte in passthrough mode because the files are already formatted sequential ANSI streams.'
         }
 
@@ -21,8 +21,30 @@
             Attribution     = 'Joe Schillinger and NNBnh; logo source credited upstream to Ufetch by Jschx'
             License         = 'ISC'
             LicenseEvidence = 'ThirdPartyNotices/os-ansi-ISC.txt'
-            Selection       = 'Eight distinctive logos selected from 36 files after rendered-content comparison.'
+            Selection       = 'Two genuinely multicolor logos selected from 36 files after rendered-content comparison; 34 monochrome or duotone files were rejected.'
             Transformation  = 'Decoded as UTF-8 and preserved in passthrough mode because the LF-only files are already formatted terminal streams.'
+        }
+
+        'asciiville' = @{
+            DisplayName     = 'Asciiville'
+            ProjectUrl      = 'https://github.com/doctorfree/Asciiville'
+            Revision        = '49f6289d511033b8ded1bd8d38f60c4bc5fd0301'
+            Attribution     = 'Ronald Record'
+            License         = 'MIT'
+            LicenseEvidence = 'ThirdPartyNotices/asciiville-MIT.txt'
+            Selection       = 'One project-authored 67-column rainbow wordmark selected from 946 files; image-derived and ambiguously licensed galleries were rejected.'
+            Transformation  = 'Decoded as UTF-8 and preserved byte-for-byte in passthrough mode because LF-only line breaks are part of the intended four-row layout.'
+        }
+
+        'durdraw' = @{
+            DisplayName     = 'Durdraw examples'
+            ProjectUrl      = 'https://github.com/durdraw/durdraw'
+            Revision        = 'cf63d7445c00c5db1ee2dd28df8325649045b803'
+            Attribution     = 'Durdraw contributors (copyright Sam Foster); upstream artwork filename credits indyz'
+            License         = 'BSD-3-Clause'
+            LicenseEvidence = 'ThirdPartyNotices/durdraw-BSD-3-Clause.txt'
+            Selection       = 'One native 80-by-32 multicolor ANSI stream imported; animated .dur examples require a dedicated frame-aware parser.'
+            Transformation  = 'Decoded as UTF-8 and preserved byte-for-byte in passthrough mode because the source is already a complete SGR-only ANSI stream.'
         }
 
         'roy-sac' = @{
@@ -31,14 +53,15 @@
             ArchiveUrl           = 'https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP'
             ArchiveSha256        = '8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc'
             Attribution          = 'Roy/SAC aka Carsten Cumbrowski'
-            License              = 'LicenseRef-Roy-SAC-Public-Domain'
-            LicenseEvidence      = 'ThirdPartyNotices/roy-sac-public-domain.txt'
+            License              = 'FAL-1.3'
+            LicenseEvidence      = 'ThirdPartyNotices/roy-sac-FAL-1.3.txt'
             PublicDomainEvidence = @(
                 'https://www.roysac.com/blog/2006/07/important-decision-made-regarding-my-text-art/'
-                'https://www.roysac.com/blog/2008/08/copyleft-vs-public-domain/'
+                'https://www.roysac.com/roy_ansishow.html'
             )
-            Selection            = 'Five polished works selected from 183 Roy-authored ANSI files after rendered previews and size checks.'
-            Transformation       = 'Decoded as CP437 and flattened through the bounded ANSI terminal emulator; valid SAUCE metadata was retained in comments.'
+            CopyleftEvidence      = 'https://www.roysac.com/blog/2008/08/copyleft-vs-public-domain/'
+            Selection            = 'Thirty-five polished Roy-authored works selected after rendered preview, multicolor, provenance, duplicate, and terminal-size review; oversized works are split into numbered row segments.'
+            Transformation       = 'Decoded as CP437 and flattened through the bounded ANSI terminal emulator; valid SAUCE metadata was retained, and oversized works were divided at reviewed row boundaries.'
         }
     }
 
@@ -180,69 +203,362 @@
             ConversionMode = 'Passthrough'
         }
 
-        'os-ansi-alpine' = @{
+        'os-ansi-centos' = @{
             Collection     = 'os-ansi'
-            SourceFile     = 'alpine.ansi'
-            SourceUrl      = 'https://raw.githubusercontent.com/info-mono/os-ansi/64449ace20798a2149eeb527e5cd16428f0b45e5/alpine.ansi'
-            SourceSha256   = 'b95c0f4381e0f43240e27cf433d2e1552c874880450749b0d470a17f0fb08a48'
+            SourceFile     = 'centos.ansi'
+            SourceUrl      = 'https://raw.githubusercontent.com/info-mono/os-ansi/64449ace20798a2149eeb527e5cd16428f0b45e5/centos.ansi'
+            SourceSha256   = '8a63d9cadc931afa901e6facf2e9b336133fefaaf5c4a33e87027eb269b4a4a1'
             InputEncoding  = 'utf8'
             ConversionMode = 'Passthrough'
         }
-        'os-ansi-freebsd' = @{
+        'os-ansi-macos' = @{
             Collection     = 'os-ansi'
-            SourceFile     = 'freebsd.ansi'
-            SourceUrl      = 'https://raw.githubusercontent.com/info-mono/os-ansi/64449ace20798a2149eeb527e5cd16428f0b45e5/freebsd.ansi'
-            SourceSha256   = 'fd17eaee8524ac47a4b6aaa95cbf7d05501e386629fdd0817c5528d076873ea1'
+            SourceFile     = 'macos.ansi'
+            SourceUrl      = 'https://raw.githubusercontent.com/info-mono/os-ansi/64449ace20798a2149eeb527e5cd16428f0b45e5/macos.ansi'
+            SourceSha256   = 'c4c03388dd24aa7d9b5b63026702bbbb23beade6ea4ff97cfc4493254da540c7'
             InputEncoding  = 'utf8'
             ConversionMode = 'Passthrough'
         }
-        'os-ansi-guix' = @{
-            Collection     = 'os-ansi'
-            SourceFile     = 'guix.ansi'
-            SourceUrl      = 'https://raw.githubusercontent.com/info-mono/os-ansi/64449ace20798a2149eeb527e5cd16428f0b45e5/guix.ansi'
-            SourceSha256   = 'fd16e9eaade5a0b1cb67a1d675e74dd5e2b7279a7d6a369e5710d4225beb485b'
+        'asciiville-wordmark' = @{
+            Collection     = 'asciiville'
+            SourceFile     = 'art/asciiville.asc'
+            SourceUrl      = 'https://raw.githubusercontent.com/doctorfree/Asciiville/49f6289d511033b8ded1bd8d38f60c4bc5fd0301/art/asciiville.asc'
+            SourceSha256   = '5168a8d94f8cc7cbbb810951c390e50d8617448ad224e39733bd80c13d3cb0ba'
             InputEncoding  = 'utf8'
             ConversionMode = 'Passthrough'
         }
-        'os-ansi-haiku' = @{
-            Collection     = 'os-ansi'
-            SourceFile     = 'haiku.ansi'
-            SourceUrl      = 'https://raw.githubusercontent.com/info-mono/os-ansi/64449ace20798a2149eeb527e5cd16428f0b45e5/haiku.ansi'
-            SourceSha256   = 'f8cbe9e5c78b0b82aa1e56e9e921d4f7240e16624f0c6bf5574d18a44b39bca6'
+
+        'durdraw-indyz-kali' = @{
+            Collection     = 'durdraw'
+            SourceFile     = 'examples/indyz-kali.utf8.ans'
+            SourceUrl      = 'https://raw.githubusercontent.com/durdraw/durdraw/cf63d7445c00c5db1ee2dd28df8325649045b803/examples/indyz-kali.utf8.ans'
+            SourceSha256   = 'f7d3a9abc3adb84f1512561a3ac483eace743856b69fbff76fc8b53dbf340f66'
             InputEncoding  = 'utf8'
             ConversionMode = 'Passthrough'
         }
-        'os-ansi-nixos' = @{
-            Collection     = 'os-ansi'
-            SourceFile     = 'nixos.ansi'
-            SourceUrl      = 'https://raw.githubusercontent.com/info-mono/os-ansi/64449ace20798a2149eeb527e5cd16428f0b45e5/nixos.ansi'
-            SourceSha256   = '96bdbfd9b59dd84a687e73438cd7c3a6c8024c521af6537dac4a2080f3a286ec'
-            InputEncoding  = 'utf8'
-            ConversionMode = 'Passthrough'
+
+        'roy-sac-500n' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0395/ROY-500N.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0395/ROY-500N.ANS'
+            SourceRevision = 'archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425'
+            SourceSha256   = '278fa5e2c20fbd3f7bc6446834dc12b0edb2c362f365a5632a8e35a47d3fab08'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
         }
-        'os-ansi-openbsd' = @{
-            Collection     = 'os-ansi'
-            SourceFile     = 'openbsd.ansi'
-            SourceUrl      = 'https://raw.githubusercontent.com/info-mono/os-ansi/64449ace20798a2149eeb527e5cd16428f0b45e5/openbsd.ansi'
-            SourceSha256   = '4351b7bbb8224b70d45ec1c27481fe4b06ac4337d76c28e780930d9c7d2da2bc'
-            InputEncoding  = 'utf8'
-            ConversionMode = 'Passthrough'
+        'roy-sac-biza' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0396a/ROY-BIZA.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0396a/ROY-BIZA.ANS'
+            SourceRevision = 'archive-sha256:c3d9b108bac9f368f69bc8e60a13ba1af3964411e19719c53ca175ef47f6be86'
+            SourceSha256   = '93038afb037fbd6dd61e79eb72ee356f0c892ad5001963fa62d0d3ebabc5a784'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
         }
-        'os-ansi-popos' = @{
-            Collection     = 'os-ansi'
-            SourceFile     = 'popos.ansi'
-            SourceUrl      = 'https://raw.githubusercontent.com/info-mono/os-ansi/64449ace20798a2149eeb527e5cd16428f0b45e5/popos.ansi'
-            SourceSha256   = 'a0e398d22ed8a06551675b481f7bf09fe7471e34da12ba3c68f5b91f7653fa6c'
-            InputEncoding  = 'utf8'
-            ConversionMode = 'Passthrough'
+        'roy-sac-bj' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0695a/ROY-BJ.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0695a/ROY-BJ.ANS'
+            SourceRevision = 'archive-sha256:fdb220fd949148b42f901401233ee5917f0ab0d506d9b91fc04ce4bed204f9b8'
+            SourceSha256   = '43fc956a17b083ed09d113685089b3ac8fd6098e0f0b3707ccd133c611cbdf62'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
         }
-        'os-ansi-void' = @{
-            Collection     = 'os-ansi'
-            SourceFile     = 'void.ansi'
-            SourceUrl      = 'https://raw.githubusercontent.com/info-mono/os-ansi/64449ace20798a2149eeb527e5cd16428f0b45e5/void.ansi'
-            SourceSha256   = '0256261465e72935254f54ba69171110d740aac4f7a20e0f84b41fea4550c50f'
-            InputEncoding  = 'utf8'
-            ConversionMode = 'Passthrough'
+        'roy-sac-blh2' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac1296/ROY-BLH2.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac1296/ROY-BLH2.ANS'
+            SourceRevision = 'archive-sha256:c85a4096950740daf891e591a7227b3738f0676b5756c32fe6c534f5c1bf43cd'
+            SourceSha256   = 'ff03d8775b267d5b1238aac22f1232cd076fc36b5add8a3c77bf52fd172419cd'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-cshe' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0398/ROY-CSHE.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0398/ROY-CSHE.ANS'
+            SourceRevision = 'archive-sha256:5deb0c572555b712853a4e44d44a0abdfad1e60e47bfcff7ce192c9fa583bdec'
+            SourceSha256   = 'eebaea8a83a30b88528d1bfaced5a96e52e98e1933e87376573cc292b050e3d2'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-dnxa' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0396a/ROY-DNXA.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0396a/ROY-DNXA.ANS'
+            SourceRevision = 'archive-sha256:c3d9b108bac9f368f69bc8e60a13ba1af3964411e19719c53ca175ef47f6be86'
+            SourceSha256   = 'd6462994d24ce3da44c11c6189a8d5ad94cf5b32847eadd428a363988bb77a48'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-drow' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0997/ROY-DROW.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0997/ROY-DROW.ANS'
+            SourceRevision = 'archive-sha256:da5320832895c3901d4f15edb6d72c8cae3759c8058411ecb6a63c5962f374c9'
+            SourceSha256   = '07b933c7d0d0b41e5b96a84a4e2352e2d7b65da99327ac43b5eab95177e461c1'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-ds-part01' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac1294/ROY-DS.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac1294/ROY-DS.ANS'
+            SourceRevision = 'archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f'
+            SourceSha256   = 'a32f5a27974c0fb843751a2b34e078fb36ad73287abe531600da02dd400697d8'
+            SourceRows     = '1-33'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-ds-part02' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac1294/ROY-DS.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac1294/ROY-DS.ANS'
+            SourceRevision = 'archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f'
+            SourceSha256   = 'a32f5a27974c0fb843751a2b34e078fb36ad73287abe531600da02dd400697d8'
+            SourceRows     = '34-65'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-ed1' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0397b/ROY-ED1.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0397b/ROY-ED1.ANS'
+            SourceRevision = 'archive-sha256:4675e986db6899c1d9bb95711f69cdb168742dca5b3bf60822d0bd9e3e64898a'
+            SourceSha256   = '1f34ef423308da444c347c502d6666e2e4884f26fd14a9f33a16d146e45af47a'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-fh' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0698/ROY-FH.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0698/ROY-FH.ANS'
+            SourceRevision = 'archive-sha256:3ad60d24dadce29394a34ab0bc7060bed41c9764a3ef5a1e4b7bb7b85284a7ac'
+            SourceSha256   = '7d50efa037a2956f34468e232a33beec49f4b74b046cfeb2000000d294c46e1f'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-fun' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0395/ROY-FUN.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0395/ROY-FUN.ANS'
+            SourceRevision = 'archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425'
+            SourceSha256   = '3336364bc118b333d2899abba9ca7ffe7e9816a648cd0d6486b982c79e2bbef8'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-hoe' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0995/ROY-HOE.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0995/ROY-HOE.ANS'
+            SourceRevision = 'archive-sha256:cc360b79185ba045775293710395ac2d0a043a893088560f3313eb0514dcb071'
+            SourceSha256   = 'c4fcd877177092fc29805e74b9423dac373e651186e3ad7cf3cefbf15bc274a2'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-hype' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0396a/ROY-HYPE.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0396a/ROY-HYPE.ANS'
+            SourceRevision = 'archive-sha256:c3d9b108bac9f368f69bc8e60a13ba1af3964411e19719c53ca175ef47f6be86'
+            SourceSha256   = '7b739201d2b66f85547ba958d9630267f97ff1953f17cce4a3afd42ff308e8cb'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-kit' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0397b/ROY-KIT.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0397b/ROY-KIT.ANS'
+            SourceRevision = 'archive-sha256:4675e986db6899c1d9bb95711f69cdb168742dca5b3bf60822d0bd9e3e64898a'
+            SourceSha256   = '55568fd0050c5d8061a14f12a22aa1864ea4268498ce0cde2c4a0e73c28c4f62'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-lala' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0995/ROY-LALA.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0995/ROY-LALA.ANS'
+            SourceRevision = 'archive-sha256:cc360b79185ba045775293710395ac2d0a043a893088560f3313eb0514dcb071'
+            SourceSha256   = '94d81605fd6f5dfebc3417fc32355a5c9b5749549231f8a47e1bc10e0ffb925b'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-lod' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac1297b/ROY-LOD.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac1297b/ROY-LOD.ANS'
+            SourceRevision = 'archive-sha256:e4c35a24ffc69bcc579de5fc26d58b207367560ff74b93ff41cdf43e1a9c1c22'
+            SourceSha256   = '5838f0a36cd08ee92ff5b1ddac3db86aa1a5b81e22f7cb857ae33166d1b03331'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-lsd3' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0695a/ROY-LSD3.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0695a/ROY-LSD3.ANS'
+            SourceRevision = 'archive-sha256:fdb220fd949148b42f901401233ee5917f0ab0d506d9b91fc04ce4bed204f9b8'
+            SourceSha256   = '0d81ae7c8bbdd1db6c5e9741a6a7a9c65bf158c36c2208cee53f26a1fa7348ab'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-m8' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac1297b/ROY-M8.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac1297b/ROY-M8.ANS'
+            SourceRevision = 'archive-sha256:e4c35a24ffc69bcc579de5fc26d58b207367560ff74b93ff41cdf43e1a9c1c22'
+            SourceSha256   = '50a5229d056a2f9a9e040c75990d207ae7a46387091a14c2d4eb2ed1aa35b337'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-maze' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0398/ROY-MAZE.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0398/ROY-MAZE.ANS'
+            SourceRevision = 'archive-sha256:5deb0c572555b712853a4e44d44a0abdfad1e60e47bfcff7ce192c9fa583bdec'
+            SourceSha256   = 'f5ed7ec6966eaf35a8f882d8c692a3d8f9048c184ca4cb66bc1c7233627435b0'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-obs' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac1294/ROY-OBS.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac1294/ROY-OBS.ANS'
+            SourceRevision = 'archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f'
+            SourceSha256   = 'ce60b80ec187b81380218be4395ad9c13b9ef9d8251cc6055d70a0e08ce3b6d2'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-outb' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0995/ROY-OUTB.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0995/ROY-OUTB.ANS'
+            SourceRevision = 'archive-sha256:cc360b79185ba045775293710395ac2d0a043a893088560f3313eb0514dcb071'
+            SourceSha256   = '25162b7057cc2f80fda4f309ddc736d002606f954c074908c2dc76291ec14750'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-pc1-part01' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0395/ROY-PC1.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0395/ROY-PC1.ANS'
+            SourceRevision = 'archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425'
+            SourceSha256   = 'b823bdacce5d24d70985f7694503b3bdfd98d75eac9110af79c20d1c277968a9'
+            SourceRows     = '1-44'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-pc1-part02' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0395/ROY-PC1.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0395/ROY-PC1.ANS'
+            SourceRevision = 'archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425'
+            SourceSha256   = 'b823bdacce5d24d70985f7694503b3bdfd98d75eac9110af79c20d1c277968a9'
+            SourceRows     = '45-83'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-pc1-part03' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0395/ROY-PC1.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0395/ROY-PC1.ANS'
+            SourceRevision = 'archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425'
+            SourceSha256   = 'b823bdacce5d24d70985f7694503b3bdfd98d75eac9110af79c20d1c277968a9'
+            SourceRows     = '84-122'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-ph' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0997/ROY-PH.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0997/ROY-PH.ANS'
+            SourceRevision = 'archive-sha256:da5320832895c3901d4f15edb6d72c8cae3759c8058411ecb6a63c5962f374c9'
+            SourceSha256   = 'cb4e67de4ccdfcf93303cac7bbce6d38178dfdf3d3a866c1f5f7d36fe8fd4b77'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-rav1' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0395/ROY-RAV1.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0395/ROY-RAV1.ANS'
+            SourceRevision = 'archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425'
+            SourceSha256   = '66b9b0470807772dc5c6bd76b6f07f0c7f8b1d9b3246e661ef6db2635ce2d022'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-rav2' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0395/ROY-RAV2.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0395/ROY-RAV2.ANS'
+            SourceRevision = 'archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425'
+            SourceSha256   = '5972fabbee62c53585fefe8812df4e33d761bdcc92d43513019c4e6308eed9d0'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-shlg' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0395/ROY-SHLG.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0395/ROY-SHLG.ANS'
+            SourceRevision = 'archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425'
+            SourceSha256   = 'ae42ca154b474994da325145f7fc44518e64587f1b1cdafbf65762c244f51612'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-tdt' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0998b/ROY-TDT.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0998b/ROY-TDT.ANS'
+            SourceRevision = 'archive-sha256:19c53dfc47387efbbd82613dca5be9c93436f5cc68bae78cca35e6d1a766cbaa'
+            SourceSha256   = '1439e06a8a0f3e69309e54d12f107e3bb19593bab6e0eeeead5ec8e6dda9310f'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-tdu-part01' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0395/ROY-TDU.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0395/ROY-TDU.ANS'
+            SourceRevision = 'archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425'
+            SourceSha256   = 'f6a581cd3525cfb3d632f1dd7046aed725d671dc8839fe1bb488cdbb9ecc2f1a'
+            SourceRows     = '1-44'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-tdu-part02' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0395/ROY-TDU.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0395/ROY-TDU.ANS'
+            SourceRevision = 'archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425'
+            SourceSha256   = 'f6a581cd3525cfb3d632f1dd7046aed725d671dc8839fe1bb488cdbb9ecc2f1a'
+            SourceRows     = '45-83'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-tdu-part03' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0395/ROY-TDU.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0395/ROY-TDU.ANS'
+            SourceRevision = 'archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425'
+            SourceSha256   = 'f6a581cd3525cfb3d632f1dd7046aed725d671dc8839fe1bb488cdbb9ecc2f1a'
+            SourceRows     = '84-122'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-tga' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac0396a/ROY-TGA.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac0396a/ROY-TGA.ANS'
+            SourceRevision = 'archive-sha256:c3d9b108bac9f368f69bc8e60a13ba1af3964411e19719c53ca175ef47f6be86'
+            SourceSha256   = '2c47f45cdaaf81775397e5f95bcf8332eaa9afcace90548cb554bf533c078846'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
+        }
+        'roy-sac-trsi' = @{
+            Collection     = 'roy-sac'
+            SourceFile     = 'sac1294/ROY-TRSI.ANS'
+            SourceUrl      = 'https://16colo.rs/pack/sac1294/ROY-TRSI.ANS'
+            SourceRevision = 'archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f'
+            SourceSha256   = 'fe62af5c5c52ce9e02cc34cf006778fabfc6346212bbf36f8811dcf3a39e9499'
+            InputEncoding  = 'cp437'
+            ConversionMode = 'TerminalEmulation'
         }
 
         'roy-sac-dgzn' = @{

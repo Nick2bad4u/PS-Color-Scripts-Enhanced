@@ -95,8 +95,48 @@
             'prism-diagonals',
             'sdf-neon-orb',
             'starlit-plaza',
+            'asciiville-wordmark',
+            'durdraw-indyz-kali',
+            'roy-sac-500n',
+            'roy-sac-biza',
+            'roy-sac-bj',
+            'roy-sac-blh2',
+            'roy-sac-cshe',
+            'roy-sac-dgzn',
+            'roy-sac-dimx',
+            'roy-sac-dnxa',
+            'roy-sac-drow',
+            'roy-sac-ds-part01',
+            'roy-sac-ds-part02',
+            'roy-sac-ed1',
             'roy-sac-faith',
+            'roy-sac-fh',
+            'roy-sac-fun',
+            'roy-sac-hoe',
+            'roy-sac-hype',
+            'roy-sac-kit',
+            'roy-sac-lala',
+            'roy-sac-lod',
+            'roy-sac-lsd3',
+            'roy-sac-m8',
+            'roy-sac-maze',
+            'roy-sac-obs',
+            'roy-sac-os-amiga-new',
+            'roy-sac-outb',
+            'roy-sac-pc1-part01',
+            'roy-sac-pc1-part02',
+            'roy-sac-pc1-part03',
+            'roy-sac-ph',
+            'roy-sac-rav1',
+            'roy-sac-rav2',
+            'roy-sac-shlg',
             'roy-sac-sky',
+            'roy-sac-tdt',
+            'roy-sac-tdu-part01',
+            'roy-sac-tdu-part02',
+            'roy-sac-tdu-part03',
+            'roy-sac-tga',
+            'roy-sac-trsi',
             'wave-interference',
             'waveform-spectra',
             'wavelet-ridges',
@@ -2827,14 +2867,8 @@
             'rgb-spectrum',
             'awk-rgb-test',
             'spectrum',
-            'os-ansi-alpine',
-            'os-ansi-freebsd',
-            'os-ansi-guix',
-            'os-ansi-haiku',
-            'os-ansi-nixos',
-            'os-ansi-openbsd',
-            'os-ansi-popos',
-            'os-ansi-void',
+            'os-ansi-centos',
+            'os-ansi-macos',
             'roy-sac-os-amiga-new'
         )
 
@@ -2844,16 +2878,46 @@
             'manjaro',
             'kaisen',
             'us-tuxedomask-1',
-            'os-ansi-alpine',
-            'os-ansi-freebsd',
-            'os-ansi-guix',
-            'os-ansi-haiku',
-            'os-ansi-nixos',
-            'os-ansi-openbsd',
-            'os-ansi-popos',
-            'os-ansi-void',
+            'os-ansi-centos',
+            'os-ansi-macos',
+            'asciiville-wordmark',
+            'durdraw-indyz-kali',
+            'roy-sac-500n',
+            'roy-sac-biza',
+            'roy-sac-blh2',
+            'roy-sac-cshe',
             'roy-sac-dgzn',
-            'roy-sac-dimx'
+            'roy-sac-dimx',
+            'roy-sac-dnxa',
+            'roy-sac-drow',
+            'roy-sac-ds-part01',
+            'roy-sac-ds-part02',
+            'roy-sac-ed1',
+            'roy-sac-fh',
+            'roy-sac-fun',
+            'roy-sac-hype',
+            'roy-sac-kit',
+            'roy-sac-lala',
+            'roy-sac-lod',
+            'roy-sac-lsd3',
+            'roy-sac-m8',
+            'roy-sac-maze',
+            'roy-sac-obs',
+            'roy-sac-os-amiga-new',
+            'roy-sac-outb',
+            'roy-sac-pc1-part01',
+            'roy-sac-pc1-part02',
+            'roy-sac-pc1-part03',
+            'roy-sac-ph',
+            'roy-sac-rav1',
+            'roy-sac-rav2',
+            'roy-sac-shlg',
+            'roy-sac-tdt',
+            'roy-sac-tdu-part01',
+            'roy-sac-tdu-part02',
+            'roy-sac-tdu-part03',
+            'roy-sac-tga',
+            'roy-sac-trsi'
         )
 
         Patterns        = @(
@@ -2989,19 +3053,50 @@
             'botany-palm',
             'botany-snapdragon',
             'botany-sunflower',
-            'os-ansi-alpine',
-            'os-ansi-freebsd',
-            'os-ansi-guix',
-            'os-ansi-haiku',
-            'os-ansi-nixos',
-            'os-ansi-openbsd',
-            'os-ansi-popos',
-            'os-ansi-void',
+            'os-ansi-centos',
+            'os-ansi-macos',
+            'asciiville-wordmark',
+            'durdraw-indyz-kali',
+            'roy-sac-500n',
+            'roy-sac-biza',
+            'roy-sac-bj',
+            'roy-sac-blh2',
+            'roy-sac-cshe',
             'roy-sac-dgzn',
             'roy-sac-dimx',
+            'roy-sac-dnxa',
+            'roy-sac-drow',
+            'roy-sac-ds-part01',
+            'roy-sac-ds-part02',
+            'roy-sac-ed1',
             'roy-sac-faith',
+            'roy-sac-fh',
+            'roy-sac-fun',
+            'roy-sac-hoe',
+            'roy-sac-hype',
+            'roy-sac-kit',
+            'roy-sac-lala',
+            'roy-sac-lod',
+            'roy-sac-lsd3',
+            'roy-sac-m8',
+            'roy-sac-maze',
+            'roy-sac-obs',
             'roy-sac-os-amiga-new',
-            'roy-sac-sky'
+            'roy-sac-outb',
+            'roy-sac-pc1-part01',
+            'roy-sac-pc1-part02',
+            'roy-sac-pc1-part03',
+            'roy-sac-ph',
+            'roy-sac-rav1',
+            'roy-sac-rav2',
+            'roy-sac-shlg',
+            'roy-sac-sky',
+            'roy-sac-tdt',
+            'roy-sac-tdu-part01',
+            'roy-sac-tdu-part02',
+            'roy-sac-tdu-part03',
+            'roy-sac-tga',
+            'roy-sac-trsi'
         )
 
         RGB             = @(
@@ -3319,36 +3414,67 @@
         'thisisfine'                    = @('ASCIIArt', 'Meme', 'Funny')
 
         # Curated ANSI collections
-        'botany-agave'                  = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-baobab'                 = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-brugmansia'             = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-cactus'                 = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-columbine'              = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-daffodil'               = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-fern'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-ficus'                  = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-flytrap'                = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-hemp'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-iris'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-jadeplant'              = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-lithops'                = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-moss'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-palm'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-snapdragon'             = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'botany-sunflower'              = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
-        'os-ansi-alpine'                = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'Linux', 'OSAnsi')
-        'os-ansi-freebsd'               = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'BSD', 'OSAnsi')
-        'os-ansi-guix'                  = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'Linux', 'OSAnsi')
-        'os-ansi-haiku'                 = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'Haiku', 'OSAnsi')
-        'os-ansi-nixos'                 = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'Linux', 'OSAnsi')
-        'os-ansi-openbsd'               = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'BSD', 'OSAnsi')
-        'os-ansi-popos'                 = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'Linux', 'OSAnsi')
-        'os-ansi-void'                  = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'Linux', 'OSAnsi')
-        'roy-sac-dgzn'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'PublicDomain')
-        'roy-sac-dimx'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'PublicDomain')
-        'roy-sac-faith'                 = @('ANSI', 'ASCIIArt', 'Illustration', 'BBS', 'RoySAC', 'PublicDomain')
-        'roy-sac-os-amiga-new'          = @('ANSI', 'ASCIIArt', 'Amiga', 'BBS', 'RoySAC', 'PublicDomain')
-        'roy-sac-sky'                   = @('ANSI', 'ASCIIArt', 'Illustration', 'BBS', 'RoySAC', 'PublicDomain')
+        'botany-agave'                  = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-baobab'                 = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-brugmansia'             = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-cactus'                 = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-columbine'              = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-daffodil'               = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-fern'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-ficus'                  = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-flytrap'                = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-hemp'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-iris'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-jadeplant'              = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-lithops'                = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-moss'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-palm'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-snapdragon'             = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'botany-sunflower'              = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Flowering')
+        'os-ansi-centos'                = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'Linux', 'OSAnsi', 'CentOS')
+        'os-ansi-macos'                 = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'macOS', 'OSAnsi', 'Apple')
+        'asciiville-wordmark'           = @('ANSI', 'ASCIIArt', 'Logo', 'Wordmark', 'Asciiville', 'MIT', 'TrueColor')
+        'durdraw-indyz-kali'            = @('ANSI', 'ASCIIArt', 'Logo', 'Linux', 'Kali', 'Durdraw', 'BSD3Clause')
+        'roy-sac-500n'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-biza'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-bj'                    = @('ANSI', 'ASCIIArt', 'Portrait', 'DarkKnight', 'RoySAC', 'FAL13')
+        'roy-sac-blh2'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-cshe'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-dgzn'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-dimx'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-dnxa'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-drow'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-ds-part01'             = @('ANSI', 'ASCIIArt', 'BBS', 'RoySAC', 'FAL13', 'SplitPart', 'DesertStorm')
+        'roy-sac-ds-part02'             = @('ANSI', 'ASCIIArt', 'BBS', 'RoySAC', 'FAL13', 'SplitPart', 'DesertStorm')
+        'roy-sac-ed1'                   = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-faith'                 = @('ANSI', 'ASCIIArt', 'Illustration', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-fh'                    = @('ANSI', 'ASCIIArt', 'Logo', 'Swan', 'RoySAC', 'FAL13')
+        'roy-sac-fun'                   = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-hoe'                   = @('ANSI', 'ASCIIArt', 'Portrait', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-hype'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-kit'                   = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-lala'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-lod'                   = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-lsd3'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-m8'                    = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-maze'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-obs'                   = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-os-amiga-new'          = @('ANSI', 'ASCIIArt', 'Amiga', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-outb'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-pc1-part01'            = @('ANSI', 'ASCIIArt', 'BBS', 'RoySAC', 'FAL13', 'SplitPart', 'ParkCentral')
+        'roy-sac-pc1-part02'            = @('ANSI', 'ASCIIArt', 'BBS', 'RoySAC', 'FAL13', 'SplitPart', 'ParkCentral')
+        'roy-sac-pc1-part03'            = @('ANSI', 'ASCIIArt', 'BBS', 'RoySAC', 'FAL13', 'SplitPart', 'ParkCentral')
+        'roy-sac-ph'                    = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-rav1'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-rav2'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-shlg'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-sky'                   = @('ANSI', 'ASCIIArt', 'Illustration', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-tdt'                   = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-tdu-part01'            = @('ANSI', 'ASCIIArt', 'BBS', 'RoySAC', 'FAL13', 'SplitPart', 'DigitalUnderground')
+        'roy-sac-tdu-part02'            = @('ANSI', 'ASCIIArt', 'BBS', 'RoySAC', 'FAL13', 'SplitPart', 'DigitalUnderground')
+        'roy-sac-tdu-part03'            = @('ANSI', 'ASCIIArt', 'BBS', 'RoySAC', 'FAL13', 'SplitPart', 'DigitalUnderground')
+        'roy-sac-tga'                   = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
+        'roy-sac-trsi'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'FAL13')
 
         # Mathematical & Physics
         'newton-basins'                 = @('Math', 'Fractal', 'ComplexPlane', 'Advanced')
@@ -3651,36 +3777,67 @@
         'nerd-font-glyphs'              = 'Collection of useful Nerd Font icons and symbols.'
 
         # Curated ANSI collections
-        'botany-agave'                  = "Mature agave scene from Jacob Funke's botany terminal garden."
-        'botany-baobab'                 = "Mature baobab scene from Jacob Funke's botany terminal garden."
-        'botany-brugmansia'             = "Mature brugmansia scene from Jacob Funke's botany terminal garden."
-        'botany-cactus'                 = "Mature cactus scene from Jacob Funke's botany terminal garden."
-        'botany-columbine'              = "Mature columbine scene from Jacob Funke's botany terminal garden."
-        'botany-daffodil'               = "Mature daffodil scene from Jacob Funke's botany terminal garden."
-        'botany-fern'                   = "Mature fern scene from Jacob Funke's botany terminal garden."
-        'botany-ficus'                  = "Mature ficus scene from Jacob Funke's botany terminal garden."
-        'botany-flytrap'                = "Mature Venus flytrap scene from Jacob Funke's botany terminal garden."
-        'botany-hemp'                   = "Mature hemp scene from Jacob Funke's botany terminal garden."
-        'botany-iris'                   = "Mature iris scene from Jacob Funke's botany terminal garden."
-        'botany-jadeplant'              = "Mature jade plant scene from Jacob Funke's botany terminal garden."
-        'botany-lithops'                = "Mature lithops scene from Jacob Funke's botany terminal garden."
-        'botany-moss'                   = "Mature moss scene from Jacob Funke's botany terminal garden."
-        'botany-palm'                   = "Mature palm scene from Jacob Funke's botany terminal garden."
-        'botany-snapdragon'             = "Mature snapdragon scene from Jacob Funke's botany terminal garden."
-        'botany-sunflower'              = "Mature sunflower scene from Jacob Funke's botany terminal garden."
-        'os-ansi-alpine'                = 'Compact Alpine Linux logo from the os-ansi collection.'
-        'os-ansi-freebsd'               = 'Compact FreeBSD logo from the os-ansi collection.'
-        'os-ansi-guix'                  = 'Compact GNU Guix logo from the os-ansi collection.'
-        'os-ansi-haiku'                 = 'Compact Haiku logo from the os-ansi collection.'
-        'os-ansi-nixos'                 = 'Compact NixOS logo from the os-ansi collection.'
-        'os-ansi-openbsd'               = 'Compact OpenBSD logo from the os-ansi collection.'
-        'os-ansi-popos'                 = 'Compact Pop!_OS logo from the os-ansi collection.'
-        'os-ansi-void'                  = 'Compact Void Linux logo from the os-ansi collection.'
+        'botany-agave'                  = "Flowering agave scene from Jacob Funke's botany terminal garden."
+        'botany-baobab'                 = "Flowering baobab scene from Jacob Funke's botany terminal garden."
+        'botany-brugmansia'             = "Flowering brugmansia scene from Jacob Funke's botany terminal garden."
+        'botany-cactus'                 = "Flowering cactus scene from Jacob Funke's botany terminal garden."
+        'botany-columbine'              = "Flowering columbine scene from Jacob Funke's botany terminal garden."
+        'botany-daffodil'               = "Flowering daffodil scene from Jacob Funke's botany terminal garden."
+        'botany-fern'                   = "Flowering fern scene from Jacob Funke's botany terminal garden."
+        'botany-ficus'                  = "Flowering ficus scene from Jacob Funke's botany terminal garden."
+        'botany-flytrap'                = "Flowering Venus flytrap scene from Jacob Funke's botany terminal garden."
+        'botany-hemp'                   = "Flowering hemp scene from Jacob Funke's botany terminal garden."
+        'botany-iris'                   = "Flowering iris scene from Jacob Funke's botany terminal garden."
+        'botany-jadeplant'              = "Flowering jade plant scene from Jacob Funke's botany terminal garden."
+        'botany-lithops'                = "Flowering lithops scene from Jacob Funke's botany terminal garden."
+        'botany-moss'                   = "Flowering moss scene from Jacob Funke's botany terminal garden."
+        'botany-palm'                   = "Flowering palm scene from Jacob Funke's botany terminal garden."
+        'botany-snapdragon'             = "Flowering snapdragon scene from Jacob Funke's botany terminal garden."
+        'botany-sunflower'              = "Flowering sunflower scene from Jacob Funke's botany terminal garden."
+        'os-ansi-centos'                = 'Compact multicolor CentOS logo from the os-ansi collection.'
+        'os-ansi-macos'                 = 'Compact rainbow Apple logo for macOS from the os-ansi collection.'
+        'asciiville-wordmark'           = 'Compact nine-color rainbow Asciiville wordmark by Ronald Record.'
+        'durdraw-indyz-kali'            = 'Detailed 80-column multicolor Kali composition from the Durdraw examples.'
+        'roy-sac-500n'                  = '500 Nations BBS logo artwork by Roy/SAC.'
+        'roy-sac-biza'                  = 'Bizarre logo artwork by Roy/SAC.'
+        'roy-sac-bj'                    = 'Detailed Dark Knight portrait artwork by Roy/SAC.'
+        'roy-sac-blh2'                  = 'Multicolor BBS logo artwork identified as ROY-BLH2.'
+        'roy-sac-cshe'                  = 'Chaos Engine logo artwork by Roy/SAC.'
         'roy-sac-dgzn'                  = 'Digital Zone BBS logo artwork by Roy/SAC.'
         'roy-sac-dimx'                  = 'Dream Station BBS composition by Roy/SAC.'
+        'roy-sac-dnxa'                  = 'Dynasty logo artwork by Roy/SAC.'
+        'roy-sac-drow'                  = 'Multicolor BBS logo artwork identified as ROY-DROW.'
+        'roy-sac-ds-part01'             = 'Desert Storm logon artwork by Roy/SAC, rows 1-33 of 65.'
+        'roy-sac-ds-part02'             = 'Desert Storm logon artwork by Roy/SAC, rows 34-65 of 65.'
+        'roy-sac-ed1'                   = 'Multicolor BBS logo artwork identified as ROY-ED1.'
         'roy-sac-faith'                 = 'Detailed Faith illustration by Roy/SAC.'
+        'roy-sac-fh'                    = 'Multicolor swan emblem artwork by Roy/SAC.'
+        'roy-sac-fun'                   = 'Funtopia public-domain-board logo artwork by Roy/SAC.'
+        'roy-sac-hoe'                   = 'Hell-themed portrait and logo composition by Roy/SAC.'
+        'roy-sac-hype'                  = 'Hype logo artwork by Roy/SAC.'
+        'roy-sac-kit'                   = 'Kitten logo artwork by Roy/SAC.'
+        'roy-sac-lala'                  = 'Go Go Logo design by Roy/SAC.'
+        'roy-sac-lod'                   = 'Multicolor BBS logo artwork identified as ROY-LOD.'
+        'roy-sac-lsd3'                  = 'Light Speed Distributors logo artwork by Roy/SAC.'
+        'roy-sac-m8'                    = 'Multicolor BBS logo artwork identified as ROY-M8.'
+        'roy-sac-maze'                  = 'Maze logo artwork by Roy/SAC.'
+        'roy-sac-obs'                   = 'Obsession logo artwork by Roy/SAC.'
         'roy-sac-os-amiga-new'          = 'Old-school Amiga computer composition by Roy/SAC.'
+        'roy-sac-outb'                  = 'Outbreak logo artwork by Roy/SAC.'
+        'roy-sac-pc1-part01'            = 'Park Central composition by Roy/SAC, rows 1-44 of 122.'
+        'roy-sac-pc1-part02'            = 'Park Central composition by Roy/SAC, rows 45-83 of 122.'
+        'roy-sac-pc1-part03'            = 'Park Central composition by Roy/SAC, rows 84-122 of 122.'
+        'roy-sac-ph'                    = 'Purple Haze logo artwork by Roy/SAC.'
+        'roy-sac-rav1'                  = 'Rave Net logo artwork by Roy/SAC, first design.'
+        'roy-sac-rav2'                  = 'Rave Net logo artwork by Roy/SAC, second design.'
+        'roy-sac-shlg'                  = 'Shogunat logon matrix artwork by Roy/SAC.'
         'roy-sac-sky'                   = 'Skylight BBS potion-themed composition by Roy/SAC.'
+        'roy-sac-tdt'                   = 'The Dark Tide logo artwork by Roy/SAC.'
+        'roy-sac-tdu-part01'            = 'The Digital Underground logon by Roy/SAC, rows 1-44 of 122.'
+        'roy-sac-tdu-part02'            = 'The Digital Underground logon by Roy/SAC, rows 45-83 of 122.'
+        'roy-sac-tdu-part03'            = 'The Digital Underground logon by Roy/SAC, rows 84-122 of 122.'
+        'roy-sac-tga'                   = 'The Gemini Alliance logo artwork by Roy/SAC.'
+        'roy-sac-trsi'                  = 'TRSI logo artwork by Roy/SAC.'
 
         # Terminal Themes
         'terminal'                      = 'Default terminal theme with balanced colors.'

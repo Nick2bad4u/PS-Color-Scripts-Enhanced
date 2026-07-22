@@ -1,2 +1,11 @@
 # Botany scripts embed byte-exact ANSI source data, including CRLFs and trailing spaces.
 ColorScripts-Enhanced/Scripts/botany-*.ps1 -text whitespace=-blank-at-eol
+
+# os-ansi scripts embed LF-only terminal streams whose line-feed behavior affects geometry.
+ColorScripts-Enhanced/Scripts/os-ansi-*.ps1 -text whitespace=-blank-at-eol
+
+# The Asciiville wordmark is also an LF-only preformatted terminal stream.
+ColorScripts-Enhanced/Scripts/asciiville-*.ps1 -text whitespace=-blank-at-eol
+
+# Durdraw's native ANSI example is an LF-only 80-column stream.
+ColorScripts-Enhanced/Scripts/durdraw-*.ps1 -text whitespace=-blank-at-eol

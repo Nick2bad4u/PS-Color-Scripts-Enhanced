@@ -5,7 +5,7 @@ Describe 'Curated ANSI artwork provenance' {
         $script:ScriptsRoot = Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts'
         $script:ProvenancePath = Join-Path -Path $script:ModuleRoot -ChildPath 'ArtworkProvenance.psd1'
         $script:Provenance = Import-PowerShellDataFile -Path $script:ProvenancePath
-        $script:ImportedPrefixes = @('botany-', 'os-ansi-', 'roy-sac-')
+        $script:ImportedPrefixes = @('asciiville-', 'botany-', 'durdraw-', 'os-ansi-', 'roy-sac-')
         $script:ImportedScriptFiles = @(Get-ChildItem -LiteralPath $script:ScriptsRoot -File -Filter '*.ps1' | Where-Object {
                 $name = $_.BaseName
                 @($script:ImportedPrefixes | Where-Object { $name.StartsWith($_, [System.StringComparison]::OrdinalIgnoreCase) }).Count -gt 0
@@ -19,9 +19,9 @@ Describe 'Curated ANSI artwork provenance' {
 
     It 'declares a valid collection for every imported script without orphan mappings' {
         $script:Provenance.SchemaVersion | Should -Be 1
-        @($script:Provenance.Collections.Keys) | Should -HaveCount 3
-        @($script:Provenance.Scripts.Keys) | Should -HaveCount 30
-        $script:ImportedScriptFiles | Should -HaveCount 30
+        @($script:Provenance.Collections.Keys) | Should -HaveCount 5
+        @($script:Provenance.Scripts.Keys) | Should -HaveCount 61
+        $script:ImportedScriptFiles | Should -HaveCount 61
 
         $mappedNames = @($script:Provenance.Scripts.Keys | Sort-Object)
         $checkedInNames = @($script:ImportedScriptFiles.BaseName | Sort-Object)
@@ -44,7 +44,10 @@ Describe 'Curated ANSI artwork provenance' {
             $collection = $script:Provenance.Collections[$entry.Collection]
             $scriptPath = Join-Path -Path $script:ScriptsRoot -ChildPath "$scriptName.ps1"
             $contents = [System.IO.File]::ReadAllText($scriptPath)
-            $revision = if ($null -ne $collection.Revision) {
+            $revision = if ($null -ne $entry.SourceRevision) {
+                $entry.SourceRevision
+            }
+            elseif ($null -ne $collection.Revision) {
                 $collection.Revision
             }
             else {
@@ -56,6 +59,9 @@ Describe 'Curated ANSI artwork provenance' {
             $contents | Should -Match ([regex]::Escape("# Source SHA-256: $($entry.SourceSha256)"))
             $contents | Should -Match ([regex]::Escape("# Source License: $($collection.License)"))
             $contents | Should -Match ([regex]::Escape("# Source Attribution: $($collection.Attribution)"))
+            if ($null -ne $entry.SourceRows) {
+                $contents | Should -Match ([regex]::Escape("# Lines: $($entry.SourceRows)"))
+            }
             $contents | Should -Not -Match '# Conversion date:'
         }
     }
@@ -69,6 +75,24 @@ Describe 'Curated ANSI artwork provenance' {
         }
     }
 
+    It 'keeps every Roy derivative under an explicit file-scoped FAL-1.3 boundary' {
+        $royCollection = $script:Provenance.Collections['roy-sac']
+        $royCollection.License | Should -Be 'FAL-1.3'
+        $royCollection.LicenseEvidence | Should -Be 'ThirdPartyNotices/roy-sac-FAL-1.3.txt'
+
+        $rootLicense = [System.IO.File]::ReadAllText((Join-Path -Path $script:RepoRoot -ChildPath 'LICENSE'))
+        $rootLicense | Should -Match ([regex]::Escape('ColorScripts-Enhanced/Scripts/roy-sac-*.ps1'))
+        $rootLicense | Should -Match 'Free Art License 1\.3'
+
+        foreach ($scriptName in @($script:Provenance.Scripts.Keys | Where-Object { $_.StartsWith('roy-sac-', [System.StringComparison]::Ordinal) })) {
+            $scriptPath = Join-Path -Path $script:ScriptsRoot -ChildPath "$scriptName.ps1"
+            $contents = [System.IO.File]::ReadAllText($scriptPath)
+            $contents | Should -Match '# Source License: FAL-1\.3'
+            $contents | Should -Match '# Source Attribution: Roy/SAC aka Carsten Cumbrowski'
+            $contents | Should -Match '# Source Modification: '
+        }
+    }
+
     It 'keeps deterministic imports outside dynamic and cache policy' {
         $dynamic = Import-PowerShellDataFile -Path (Join-Path -Path $script:ModuleRoot -ChildPath 'DynamicRenderPolicy.psd1')
         $cache = Import-PowerShellDataFile -Path (Join-Path -Path $script:ModuleRoot -ChildPath 'CachePolicy.psd1')
@@ -79,12 +103,16 @@ Describe 'Curated ANSI artwork provenance' {
         }
     }
 
-    It 'preserves each botany ANSI source byte-for-byte as one safe PowerShell literal' {
+    It 'preserves every passthrough ANSI source byte-for-byte as one safe PowerShell literal' {
         $sha256 = [System.Security.Cryptography.SHA256]::Create()
         try {
-            foreach ($scriptName in @($script:Provenance.Scripts.Keys | Where-Object { $_.StartsWith('botany-', [System.StringComparison]::Ordinal) })) {
+            $passthroughNames = @($script:Provenance.Scripts.Keys | Where-Object {
+                    $script:Provenance.Scripts[$_].ConversionMode -eq 'Passthrough'
+                })
+            $passthroughNames | Should -Not -BeNullOrEmpty
+
+            foreach ($scriptName in $passthroughNames) {
                 $entry = $script:Provenance.Scripts[$scriptName]
-                $entry.ConversionMode | Should -Be 'Passthrough'
 
                 $scriptPath = Join-Path -Path $script:ScriptsRoot -ChildPath "$scriptName.ps1"
                 $source = [System.IO.File]::ReadAllText($scriptPath, [System.Text.Encoding]::UTF8)
@@ -103,14 +131,16 @@ Describe 'Curated ANSI artwork provenance' {
                             $node.GetCommandName() -eq 'Write-Host'
                         }, $true))
                 $commands | Should -HaveCount 1
-                $commands[0].CommandElements | Should -HaveCount 3 -Because "'$scriptName' must contain one artwork literal and the required -NoNewline switch"
+                $commands[0].CommandElements.Count | Should -BeIn @(2, 3) -Because "'$scriptName' must contain exactly one artwork literal and may use -NoNewline when the source has no final line break"
 
                 $payload = $commands[0].CommandElements[1]
                 $payload | Should -BeOfType ([System.Management.Automation.Language.StringConstantExpressionAst])
-                $noNewline = $commands[0].CommandElements[2]
-                $noNewline | Should -BeOfType ([System.Management.Automation.Language.CommandParameterAst])
-                $noNewline.ParameterName | Should -Be 'NoNewline'
-                $noNewline.Argument | Should -BeNullOrEmpty
+                if ($commands[0].CommandElements.Count -eq 3) {
+                    $noNewline = $commands[0].CommandElements[2]
+                    $noNewline | Should -BeOfType ([System.Management.Automation.Language.CommandParameterAst])
+                    $noNewline.ParameterName | Should -Be 'NoNewline'
+                    $noNewline.Argument | Should -BeNullOrEmpty
+                }
                 $payloadBytes = [System.Text.Encoding]::UTF8.GetBytes($payload.Value)
                 $payloadHash = [System.BitConverter]::ToString(
                     $sha256.ComputeHash($payloadBytes)
@@ -169,8 +199,40 @@ Describe 'Curated ANSI artwork provenance' {
             }
         }
 
-        @($results) | Should -HaveCount 30
+        @($results) | Should -HaveCount 61
         @($results | Where-Object { -not $_.Available -or $_.Length -eq 0 -or -not $_.HasEscape }) | Should -BeNullOrEmpty
+    }
+
+    It 'keeps the os-ansi import limited to the audited multicolor sources' {
+        $osAnsiNames = @($script:Provenance.Scripts.Keys | Where-Object {
+                $script:Provenance.Scripts[$_].Collection -eq 'os-ansi'
+            } | Sort-Object)
+
+        $osAnsiNames | Should -HaveCount 2
+        $osAnsiNames | Should -Be @('os-ansi-centos', 'os-ansi-macos')
+    }
+
+    It 'keeps every curated import within reviewed terminal-friendly geometry' {
+        $dimensions = InModuleScope ColorScripts-Enhanced -Parameters @{
+            paths = @($script:ImportedScriptFiles.FullName)
+        } {
+            param($paths)
+
+            foreach ($path in $paths) {
+                $result = Get-StaticColorScriptOutput -ScriptPath $path
+                $plainText = $result.Content -replace ([char]27 + '\[[0-?]*[ -/]*[@-~]'), ''
+                $normalizedPlainText = $plainText.TrimEnd([char[]]"`r`n") -replace "`r`n?", "`n"
+                $lines = @($normalizedPlainText -split "`n")
+                [pscustomobject]@{
+                    Name   = [System.IO.Path]::GetFileNameWithoutExtension($path)
+                    Width  = [int]($lines | ForEach-Object { $_.Length } | Measure-Object -Maximum).Maximum
+                    Height = $lines.Count
+                }
+            }
+        }
+
+        @($dimensions | Where-Object { $_.Width -gt 120 -or $_.Height -gt 50 }) |
+            Should -BeNullOrEmpty -Because 'oversized artwork must be split without reflowing or squishing it'
     }
 
     It 'does not contain duplicate rendered output within the imported set' {

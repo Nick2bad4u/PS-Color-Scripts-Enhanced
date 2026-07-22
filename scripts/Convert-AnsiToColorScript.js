@@ -98,6 +98,7 @@ const MAX_CSI_PARAMETER = 10_000;
  * @property {string | null} sha256
  * @property {string | null} license
  * @property {string | null} attribution
+ * @property {string | null} modification
  */
 
 /**
@@ -1333,6 +1334,7 @@ function buildSourceMetadataHeader(
         ["SHA-256", provenance.sha256],
         ["License", provenance.license],
         ["Attribution", provenance.attribution],
+        ["Modification", provenance.modification],
     ];
     for (const [label, value] of sourceMetadata) {
         if (value) {
@@ -1496,6 +1498,7 @@ function parseArguments(argv) {
                 sha256: null,
                 license: null,
                 attribution: null,
+                modification: null,
             },
         });
     /** @type {string[]} */
@@ -1585,6 +1588,12 @@ function parseArguments(argv) {
             options.sourceProvenance.attribution = validateSourceMetadataValue(
                 arg.slice("--source-attribution=".length),
                 "Source attribution",
+                1024
+            );
+        } else if (arg.startsWith("--source-modification=")) {
+            options.sourceProvenance.modification = validateSourceMetadataValue(
+                arg.slice("--source-modification=".length),
+                "Source modification",
                 1024
             );
         } else if (arg.startsWith("--")) {
@@ -1704,6 +1713,9 @@ function main(argv = process.argv.slice(2)) {
         );
         console.error(
             "  --source-attribution=<text> Embed the artwork attribution."
+        );
+        console.error(
+            "  --source-modification=<text> Describe how the source artwork was modified."
         );
         process.exit(1);
     }

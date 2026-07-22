@@ -3,8 +3,9 @@
 # Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
 # Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
 # Source SHA-256: 3e160713c19211ecd322dcf5fd6a4a0acf559a4ae63abb260f422adf3de3ceb9
-# Source License: LicenseRef-Roy-SAC-Public-Domain
+# Source License: FAL-1.3
 # Source Attribution: Roy/SAC aka Carsten Cumbrowski
+# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
 # SAUCE Title: Faith
 # SAUCE Author: Roy
 # SAUCE Group: SAC

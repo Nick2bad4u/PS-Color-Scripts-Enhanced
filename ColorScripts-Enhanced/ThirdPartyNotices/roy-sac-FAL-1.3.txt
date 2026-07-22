@@ -1,0 +1,49 @@
+Roy/SAC ANSI artwork - Free Art License 1.3 notice
+
+Original author: Roy/SAC, aka Carsten Cumbrowski
+Original gallery: https://www.roysac.com/roy_ansishow.html
+License: Free Art License 1.3 (SPDX identifier FAL-1.3)
+Official license text: https://artlibre.org/licence/lal/en/
+
+Scope
+-----
+
+Every independently accessible file matching
+ColorScripts-Enhanced/Scripts/roy-sac-*.ps1 is a modified Roy/SAC artwork
+licensed under FAL-1.3. Each file header identifies the exact original ANSI
+file, its source location or source archive, a SHA-256 checksum, the original
+author, the applicable license, and the modification performed. The repository
+root LICENSE expressly excludes these files from its Unlicense grant.
+
+Modifications
+-------------
+
+ColorScripts-Enhanced contributors decoded the original CP437 ANSI streams,
+rendered cursor and SGR operations through the repository's bounded terminal
+emulator, and stored the resulting rows in safe PowerShell string literals.
+Oversized works may be divided into separately accessible, numbered row
+segments; those files identify their original row ranges. No authorship claim
+is made over Roy's original artwork.
+
+License chronology and conservative treatment
+----------------------------------------------
+
+Roy published a public-domain dedication in 2006 and his current gallery again
+states that his ANSI and ASCII works are public domain. In 2008, however, he
+announced a change to Free Art License 1.3 and requested copyleft treatment for
+copies and derivatives. This repository follows the stricter 2008 statement
+for every converted Roy artwork.
+
+2006 statement:
+https://www.roysac.com/blog/2006/07/important-decision-made-regarding-my-text-art/
+
+2008 FAL/copyleft statement:
+https://www.roysac.com/blog/2008/08/copyleft-vs-public-domain/
+
+Current gallery statement:
+https://www.roysac.com/roy_ansishow.html
+
+FAL-1.3 permits incorporation of an independently accessible licensed work in
+a larger work. The license requirements remain attached to each Roy artwork;
+they do not change the license of the surrounding module code or unrelated
+artwork.

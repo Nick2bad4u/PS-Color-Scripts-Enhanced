@@ -9,6 +9,8 @@ const {
     readAnsiFile,
     convertAnsiToPs1,
     sanitizeName,
+    validateSourceMetadataValue,
+    validateSourceUrl,
     buildSourceMetadataHeader,
     buildPowerShellOutput,
     writePowerShellFile,
@@ -26,6 +28,7 @@ const DEFAULT_OUTPUT_DIR = path.join(
  * @typedef {Object} SplitOptions
  *
  * @property {string} outputDir
+ * @property {string | null} outputBase
  * @property {number | null} columns
  * @property {number[]} heights
  * @property {number[]} breaks
@@ -39,6 +42,14 @@ const DEFAULT_OUTPUT_DIR = path.join(
  * @property {number | null} segmentEvery
  * @property {"cp437" | "utf8" | null} encoding
  * @property {boolean} force
+ * @property {{
+ *     url: string | null;
+ *     revision: string | null;
+ *     sha256: string | null;
+ *     license: string | null;
+ *     attribution: string | null;
+ *     modification: string | null;
+ * }} sourceProvenance
  */
 
 /**
@@ -73,6 +84,7 @@ function parseArguments(argv) {
     /** @type {SplitOptions} */
     const options = {
         outputDir: DEFAULT_OUTPUT_DIR,
+        outputBase: null,
         columns: null,
         heights: [],
         breaks: [],
@@ -86,6 +98,14 @@ function parseArguments(argv) {
         segmentEvery: null,
         encoding: null,
         force: false,
+        sourceProvenance: {
+            url: null,
+            revision: null,
+            sha256: null,
+            license: null,
+            attribution: null,
+            modification: null,
+        },
     };
     /** @type {string[]} */
     const positional = [];
@@ -102,6 +122,16 @@ function parseArguments(argv) {
         }
         if (arg.startsWith("--output-dir=")) {
             options.outputDir = path.resolve(arg.split("=")[1]);
+        } else if (arg.startsWith("--output-base=")) {
+            const outputBase = sanitizeName(
+                arg.slice("--output-base=".length)
+            );
+            if (!outputBase) {
+                throw new Error(
+                    "Output base must contain at least one safe filename character."
+                );
+            }
+            options.outputBase = outputBase;
         } else if (arg.startsWith("--columns=")) {
             const value = parseInt(arg.split("=")[1], 10);
             if (!Number.isNaN(value) && value > 0) {
@@ -155,6 +185,42 @@ function parseArguments(argv) {
             options.stripSpaceBackground = false;
         } else if (arg === "--force") {
             options.force = true;
+        } else if (arg.startsWith("--source-url=")) {
+            options.sourceProvenance.url = validateSourceUrl(
+                arg.slice("--source-url=".length)
+            );
+        } else if (arg.startsWith("--source-revision=")) {
+            options.sourceProvenance.revision = validateSourceMetadataValue(
+                arg.slice("--source-revision=".length),
+                "Source revision",
+                256
+            );
+        } else if (arg.startsWith("--source-sha256=")) {
+            const value = arg.slice("--source-sha256=".length);
+            if (!/^[a-f\d]{64}$/iu.test(value)) {
+                throw new Error(
+                    "Source SHA-256 must contain exactly 64 hexadecimal characters."
+                );
+            }
+            options.sourceProvenance.sha256 = value.toLowerCase();
+        } else if (arg.startsWith("--source-license=")) {
+            options.sourceProvenance.license = validateSourceMetadataValue(
+                arg.slice("--source-license=".length),
+                "Source license",
+                256
+            );
+        } else if (arg.startsWith("--source-attribution=")) {
+            options.sourceProvenance.attribution = validateSourceMetadataValue(
+                arg.slice("--source-attribution=".length),
+                "Source attribution",
+                1024
+            );
+        } else if (arg.startsWith("--source-modification=")) {
+            options.sourceProvenance.modification = validateSourceMetadataValue(
+                arg.slice("--source-modification=".length),
+                "Source modification",
+                1024
+            );
         } else if (arg.startsWith("--")) {
             throw new Error(`Unknown option: ${arg}`);
         } else {
@@ -300,6 +366,14 @@ function ensureTrailingReset(content) {
  *     sourceName: string;
  *     sourceEncoding?: string;
  *     sauce?: object | null;
+ *     sourceProvenance?: {
+ *         url?: string | null;
+ *         revision?: string | null;
+ *         sha256?: string | null;
+ *         license?: string | null;
+ *         attribution?: string | null;
+ *         modification?: string | null;
+ *     };
  * }} baseInfo
  *
  * @returns {void}
@@ -311,7 +385,8 @@ function writeChunkPs1(outputPath, chunk, baseInfo) {
         buildSourceMetadataHeader(
             baseInfo.sourceName,
             baseInfo.sourceEncoding || "unknown",
-            baseInfo.sauce || null
+            baseInfo.sauce || null,
+            baseInfo.sourceProvenance || {}
         ).trimEnd(),
         `# Lines: ${chunk.start + 1}-${chunk.end}`,
     ].join("\n");
@@ -375,6 +450,9 @@ function main(argv = process.argv.slice(2)) {
             "  --output-dir=<path>        Where to place the generated files (default: module scripts dir)"
         );
         console.error(
+            "  --output-base=<name>       Override the generated part filename prefix"
+        );
+        console.error(
             "  --format=ps1|ansi          Output format (default: ps1)"
         );
         console.error(
@@ -412,6 +490,24 @@ function main(argv = process.argv.slice(2)) {
         );
         console.error(
             "  --force                    Replace existing output files"
+        );
+        console.error(
+            "  --source-url=<url>         Embed the original artwork URL in each part"
+        );
+        console.error(
+            "  --source-revision=<id>     Embed the source revision or archive identifier"
+        );
+        console.error(
+            "  --source-sha256=<hash>     Embed the original artwork SHA-256"
+        );
+        console.error(
+            "  --source-license=<id>      Embed the source license identifier"
+        );
+        console.error(
+            "  --source-attribution=<text> Embed source attribution in each part"
+        );
+        console.error(
+            "  --source-modification=<text> Describe source modifications in each part"
         );
         process.exit(1);
     }
@@ -466,9 +562,9 @@ function main(argv = process.argv.slice(2)) {
         process.exit(1);
     }
 
-    const baseName = sanitizeName(
-        path.basename(ansiPath, path.extname(ansiPath))
-    );
+    const baseName =
+        options.outputBase ||
+        sanitizeName(path.basename(ansiPath, path.extname(ansiPath)));
     if (!baseName) {
         throw new Error(
             `Input filename cannot form a safe colorscript name: ${path.basename(ansiPath)}`
@@ -518,6 +614,7 @@ function main(argv = process.argv.slice(2)) {
                 sourceName: path.basename(ansiPath),
                 sourceEncoding,
                 sauce,
+                sourceProvenance: options.sourceProvenance,
             });
         }
         console.log(`  → ${outputPath}`);

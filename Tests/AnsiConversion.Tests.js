@@ -21,6 +21,7 @@ const {
 } = require("../scripts/Convert-AnsiToColorScript.js");
 const {
     extractLinesFromPs1,
+    parseArguments: parseSplitArguments,
     writeChunkPs1,
     writeChunkAnsi,
 } = require("../scripts/Split-AnsiFile.js");
@@ -246,6 +247,8 @@ test("advanced PowerShell converter forwards encoding options on both engines", 
                 "ISC",
                 "-SourceAttribution",
                 "Example Artist",
+                "-SourceModification",
+                "Decoded as UTF-8 and wrapped in a safe PowerShell literal.",
             ],
             { encoding: "utf8" }
         );
@@ -267,6 +270,10 @@ test("advanced PowerShell converter forwards encoding options on both engines", 
         assert.match(generatedSource, /# Source SHA-256: a{64}/);
         assert.match(generatedSource, /# Source License: ISC/);
         assert.match(generatedSource, /# Source Attribution: Example Artist/);
+        assert.match(
+            generatedSource,
+            /# Source Modification: Decoded as UTF-8 and wrapped in a safe PowerShell literal\./
+        );
     }
 });
 
@@ -281,20 +288,27 @@ test("splitter writes and reads the safe literal format", () => {
         "'@",
         "tail  ",
     ];
+    const baseInfo = {
+        sourceName: `art.ans\nSet-Content -LiteralPath '${sentinel}' -Value pwned`,
+        sourceProvenance: {
+            url: "https://example.test/art.ans",
+            revision: "archive-2026.07",
+            sha256: "a".repeat(64),
+            license: "ISC",
+            attribution: "Example Artist",
+            modification: "Converted to a safe PowerShell literal and split by rendered rows.",
+        },
+    };
 
     writeChunkPs1(
         scriptPath,
         { start: 0, end: lines.length, lines },
-        {
-            sourceName: `art.ans\nSet-Content -LiteralPath '${sentinel}' -Value pwned`,
-        }
+        baseInfo
     );
     writeChunkPs1(
         repeatedScriptPath,
         { start: 0, end: lines.length, lines },
-        {
-            sourceName: `art.ans\nSet-Content -LiteralPath '${sentinel}' -Value pwned`,
-        }
+        baseInfo
     );
 
     assert.deepEqual(extractLinesFromPs1(scriptPath), [...lines, "\u001b[0m"]);
@@ -305,6 +319,16 @@ test("splitter writes and reads the safe literal format", () => {
     assert.deepEqual(
         fs.readFileSync(scriptPath),
         fs.readFileSync(repeatedScriptPath)
+    );
+    const generatedSource = fs.readFileSync(scriptPath, "utf8");
+    assert.match(generatedSource, /# Source URL: https:\/\/example\.test\/art\.ans/);
+    assert.match(generatedSource, /# Source Revision: archive-2026\.07/);
+    assert.match(generatedSource, /# Source SHA-256: a{64}/);
+    assert.match(generatedSource, /# Source License: ISC/);
+    assert.match(generatedSource, /# Source Attribution: Example Artist/);
+    assert.match(
+        generatedSource,
+        /# Source Modification: Converted to a safe PowerShell literal and split by rendered rows\./
     );
     assert.equal(fs.existsSync(sentinel), false);
 });
@@ -386,7 +410,7 @@ test("source metadata comments sanitize controls and preserve SAUCE provenance",
     );
 });
 
-test("source provenance options validate and normalize untrusted metadata", () => {
+test("converter and splitter provenance options validate and normalize metadata", () => {
     const sha256 = "ABCDEF0123456789".repeat(4);
     const { options } = parseArguments([
         "--source-url=https://example.test/art.ans?download=1",
@@ -394,6 +418,7 @@ test("source provenance options validate and normalize untrusted metadata", () =
         `--source-sha256=${sha256}`,
         "--source-license=LicenseRef-Public-Domain",
         "--source-attribution=Roy/SAC aka Carsten Cumbrowski",
+        "--source-modification=Decoded from CP437 and flattened through terminal emulation.",
         "--",
         "art.ans",
     ]);
@@ -404,7 +429,21 @@ test("source provenance options validate and normalize untrusted metadata", () =
         sha256: sha256.toLowerCase(),
         license: "LicenseRef-Public-Domain",
         attribution: "Roy/SAC aka Carsten Cumbrowski",
+        modification: "Decoded from CP437 and flattened through terminal emulation.",
     });
+    const splitOptions = parseSplitArguments([
+        "--output-base=ROY-SAC-PC1",
+        "--source-url=https://example.test/art.ans?download=1",
+        "--source-revision=release/2026.07",
+        `--source-sha256=${sha256}`,
+        "--source-license=LicenseRef-Public-Domain",
+        "--source-attribution=Roy/SAC aka Carsten Cumbrowski",
+        "--source-modification=Decoded from CP437 and flattened through terminal emulation.",
+        "--",
+        "art.ans",
+    ]).options;
+    assert.deepEqual(splitOptions.sourceProvenance, options.sourceProvenance);
+    assert.equal(splitOptions.outputBase, "roy-sac-pc1");
     assert.throws(
         () => parseArguments(["--source-url=file:///tmp/art.ans"]),
         /absolute HTTP or HTTPS URL/
@@ -416,6 +455,14 @@ test("source provenance options validate and normalize untrusted metadata", () =
     assert.throws(
         () => parseArguments(["--source-sha256=abc123"]),
         /exactly 64 hexadecimal characters/
+    );
+    assert.throws(
+        () => parseSplitArguments(["--source-sha256=abc123"]),
+        /exactly 64 hexadecimal characters/
+    );
+    assert.throws(
+        () => parseSplitArguments(["--output-base=---"]),
+        /at least one safe filename character/
     );
 });
 

@@ -33,6 +33,9 @@
 .PARAMETER SourceAttribution
     Artist or collection attribution for the original artwork.
 
+.PARAMETER SourceModification
+    Description of the transformation applied to the source artwork.
+
 .PARAMETER Force
     Replace an existing output file.
 #>
@@ -74,6 +77,10 @@ param(
     [Parameter()]
     [ValidateLength(1, 1024)]
     [string]$SourceAttribution,
+
+    [Parameter()]
+    [ValidateLength(1, 1024)]
+    [string]$SourceModification,
 
     [Parameter()]
     [switch]$Force
@@ -157,6 +164,9 @@ begin {
         }
         if (-not [string]::IsNullOrWhiteSpace($SourceAttribution)) {
             $nodeArguments += '--source-attribution=' + $SourceAttribution
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceModification)) {
+            $nodeArguments += '--source-modification=' + $SourceModification
         }
         $nodeArguments += @($inputInfo.FullName, $targetOutput)
 

@@ -3,8 +3,9 @@
 # Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
 # Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
 # Source SHA-256: acd1755ac10c8d9cc10e824a544c8ad5bb249f7ae363c9393f1f10e63377ff83
-# Source License: LicenseRef-Roy-SAC-Public-Domain
+# Source License: FAL-1.3
 # Source Attribution: Roy/SAC aka Carsten Cumbrowski
+# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
 
 Write-Host ' [1;30m▄[0m      [1;34m·[0m                [1;34m·    [0;1;30m░[0m                      [1;30m░[0m                 [1;30m▀[0m
 [1;30m   ▄[0m        [1m·[0m         [1m·[0m       [1;30m▒   [0;1m·[0m            [1;34m·   [0;1m· [0;1;30m▒[0m        [1;34m·[0m     [1;30m▄▀   [0;1m·[0m
