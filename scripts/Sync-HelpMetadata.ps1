@@ -81,8 +81,9 @@ $parameterTranslations = @{
     }
 }
 
-# English fallback text is intentional: a correct description is preferable to shipping a
-# translated package with a PlatyPS template marker. Existing localized prose still wins.
+# These English fallbacks are used only for en-US. Non-English topics must provide localized
+# prose or an explicit entry in $parameterTranslations; silently copying English text would
+# make a generated help package look complete while leaving it partially untranslated.
 $parameterFallbacks = @{
     'Add-ColorScriptProfile' = @{
         AutoShow             = 'Controls whether the managed profile block displays a colorscript after importing the module.'
@@ -104,7 +105,7 @@ $parameterFallbacks = @{
         Force                   = 'Overwrites an existing colorscript file at the resolved output path.'
         GenerateMetadataSnippet = 'Includes metadata guidance for adding the new script to ScriptMetadata.psd1.'
         OpenInEditor            = 'Opens the generated colorscript with the command configured by the environment when creation succeeds.'
-        OutputPath              = 'Specifies the target directory or .ps1 file path for the generated colorscript.'
+        OutputPath              = 'Specifies the mandatory target directory. The command creates <Name>.ps1 within this directory.'
         Tag                     = 'Specifies metadata tags to include in the generated metadata guidance.'
     }
     'Reset-ColorScriptConfiguration' = @{
@@ -121,6 +122,173 @@ $parameterFallbacks = @{
 $commonParameterFallbacks = @{
     WhatIf = 'Shows what would happen if the command ran. No files or persistent configuration are changed.'
 }
+
+# These culture-specific descriptions encode command contracts that previously drifted across
+# translated topics. They intentionally override preserved prose with an accurate translation.
+$authoritativeParameterDescriptions = @{
+    'en-US' = @{
+        'Add-ColorScriptProfile' = @{
+            Force = 'Updates recognized ColorScripts-Enhanced profile content while preserving unrelated profile lines. It does not deliberately append duplicate managed blocks.'
+        }
+        'New-ColorScript' = @{
+            OutputPath = 'Specifies the mandatory target directory. The command creates <Name>.ps1 within this directory.'
+        }
+    }
+    de      = @{
+        'Add-ColorScriptProfile' = @{
+            Force = 'Aktualisiert erkannte ColorScripts-Enhanced-Profilinhalte und behält dabei nicht zugehörige Profilzeilen bei. Es werden nicht absichtlich doppelte verwaltete Blöcke angefügt.'
+        }
+        'New-ColorScript' = @{
+            OutputPath = 'Gibt das obligatorische Zielverzeichnis an. Der Befehl erstellt in diesem Verzeichnis <Name>.ps1.'
+        }
+    }
+    es      = @{
+        'Add-ColorScriptProfile' = @{
+            Force = 'Actualiza el contenido reconocido de ColorScripts-Enhanced en el perfil y conserva las líneas no relacionadas. No agrega deliberadamente bloques administrados duplicados.'
+        }
+        'New-ColorScript' = @{
+            OutputPath = 'Especifica el directorio de destino obligatorio. El comando crea <Name>.ps1 dentro de este directorio.'
+        }
+    }
+    fr      = @{
+        'Add-ColorScriptProfile' = @{
+            Force = 'Met à jour le contenu ColorScripts-Enhanced reconnu dans le profil tout en conservant les lignes sans rapport. Il ne crée pas volontairement de blocs gérés en double.'
+        }
+        'New-ColorScript' = @{
+            OutputPath = 'Spécifie le répertoire cible obligatoire. La commande crée <Name>.ps1 dans ce répertoire.'
+        }
+    }
+    it      = @{
+        'Add-ColorScriptProfile' = @{
+            Force = 'Aggiorna il contenuto ColorScripts-Enhanced riconosciuto nel profilo, conservando le righe non correlate. Non aggiunge intenzionalmente blocchi gestiti duplicati.'
+        }
+        'New-ColorScript' = @{
+            OutputPath = 'Specifica la directory di destinazione obbligatoria. Il comando crea <Name>.ps1 in questa directory.'
+        }
+    }
+    ja      = @{
+        'Add-ColorScriptProfile' = @{
+            Force = '関連のないプロファイル行を保持しながら、認識された ColorScripts-Enhanced のプロファイル内容を更新します。管理対象ブロックを意図的に重複して追加することはありません。'
+        }
+        'New-ColorScript' = @{
+            OutputPath = '必須の出力先ディレクトリを指定します。このコマンドは、そのディレクトリ内に <Name>.ps1 を作成します。'
+        }
+    }
+    nl      = @{
+        'Add-ColorScriptProfile' = @{
+            Force = 'Werkt herkende ColorScripts-Enhanced-profielinhoud bij en behoudt niet-gerelateerde profielregels. Er worden niet opzettelijk dubbele beheerde blokken toegevoegd.'
+        }
+        'New-ColorScript' = @{
+            OutputPath = 'Geeft de verplichte doelmap op. De opdracht maakt <Name>.ps1 in deze map.'
+        }
+    }
+    pt      = @{
+        'Add-ColorScriptProfile' = @{
+            Force = 'Atualiza o conteúdo reconhecido do ColorScripts-Enhanced no perfil, preservando as linhas não relacionadas. Não acrescenta deliberadamente blocos geridos duplicados.'
+        }
+        'New-ColorScript' = @{
+            OutputPath = 'Especifica o diretório de destino obrigatório. O comando cria <Name>.ps1 nesse diretório.'
+        }
+    }
+    ru      = @{
+        'Add-ColorScriptProfile' = @{
+            Force = 'Обновляет распознанное содержимое ColorScripts-Enhanced в профиле, сохраняя несвязанные строки. Команда намеренно не добавляет повторяющиеся управляемые блоки.'
+        }
+        'New-ColorScript' = @{
+            OutputPath = 'Задает обязательный целевой каталог. Команда создает в нем файл <Name>.ps1.'
+        }
+    }
+    'zh-CN' = @{
+        'Add-ColorScriptProfile' = @{
+            Force = '更新配置文件中识别出的 ColorScripts-Enhanced 内容，同时保留不相关的行。此参数不会故意追加重复的托管块。'
+        }
+        'New-ColorScript' = @{
+            OutputPath = '指定必需的目标目录。该命令会在此目录中创建 <Name>.ps1。'
+        }
+    }
+}
+
+$localizedMetadataText = @{
+    'en-US' = @{
+        NoAliases                     = 'This command has no aliases.'
+        OnlineVersion                 = 'Online Version'
+        CommonParametersIntro         = 'This cmdlet supports the common parameters:'
+        CommonParametersMoreInfo      = 'For more information, see'
+        CommonParametersLinkSuffix    = '.'
+    }
+    de      = @{
+        NoAliases                     = 'Dieser Befehl hat keine Aliase.'
+        OnlineVersion                 = 'Onlineversion'
+        CommonParametersIntro         = 'Dieses Cmdlet unterstützt die allgemeinen Parameter:'
+        CommonParametersMoreInfo      = 'Weitere Informationen finden Sie unter'
+        CommonParametersLinkSuffix    = '.'
+    }
+    es      = @{
+        NoAliases                     = 'Este comando no tiene alias.'
+        OnlineVersion                 = 'Versión en línea'
+        CommonParametersIntro         = 'Este cmdlet admite los parámetros comunes:'
+        CommonParametersMoreInfo      = 'Para obtener más información, consulte'
+        CommonParametersLinkSuffix    = '.'
+    }
+    fr      = @{
+        NoAliases                     = 'Cette commande ne possède aucun alias.'
+        OnlineVersion                 = 'Version en ligne'
+        CommonParametersIntro         = 'Cette applet de commande prend en charge les paramètres communs :'
+        CommonParametersMoreInfo      = 'Pour plus d''informations, consultez'
+        CommonParametersLinkSuffix    = '.'
+    }
+    it      = @{
+        NoAliases                     = 'Questo comando non ha alias.'
+        OnlineVersion                 = 'Versione online'
+        CommonParametersIntro         = 'Questo cmdlet supporta i parametri comuni:'
+        CommonParametersMoreInfo      = 'Per ulteriori informazioni, vedere'
+        CommonParametersLinkSuffix    = '.'
+    }
+    ja      = @{
+        NoAliases                     = 'このコマンドにはエイリアスがありません。'
+        OnlineVersion                 = 'オンライン バージョン'
+        CommonParametersIntro         = 'このコマンドレットは、次の共通パラメーターをサポートします:'
+        CommonParametersMoreInfo      = '詳細については、次を参照してください:'
+        CommonParametersLinkSuffix    = '。'
+    }
+    nl      = @{
+        NoAliases                     = 'Deze opdracht heeft geen aliassen.'
+        OnlineVersion                 = 'Onlineversie'
+        CommonParametersIntro         = 'Deze cmdlet ondersteunt de algemene parameters:'
+        CommonParametersMoreInfo      = 'Zie voor meer informatie'
+        CommonParametersLinkSuffix    = '.'
+    }
+    pt      = @{
+        NoAliases                     = 'Este comando não tem aliases.'
+        OnlineVersion                 = 'Versão online'
+        CommonParametersIntro         = 'Este cmdlet suporta os parâmetros comuns:'
+        CommonParametersMoreInfo      = 'Para obter mais informações, consulte'
+        CommonParametersLinkSuffix    = '.'
+    }
+    ru      = @{
+        NoAliases                     = 'У этой команды нет псевдонимов.'
+        OnlineVersion                 = 'Онлайн-версия'
+        CommonParametersIntro         = 'Этот командлет поддерживает следующие общие параметры:'
+        CommonParametersMoreInfo      = 'Дополнительные сведения см. в разделе'
+        CommonParametersLinkSuffix    = '.'
+    }
+    'zh-CN' = @{
+        NoAliases                     = '此命令没有别名。'
+        OnlineVersion                 = '在线版本'
+        CommonParametersIntro         = '此 cmdlet 支持以下常用参数：'
+        CommonParametersMoreInfo      = '有关详细信息，请参阅'
+        CommonParametersLinkSuffix    = '。'
+    }
+}
+
+if (-not $parameterTranslations.ContainsKey($Culture) -or
+    -not $authoritativeParameterDescriptions.ContainsKey($Culture) -or
+    -not $localizedMetadataText.ContainsKey($Culture)) {
+    throw "Culture '$Culture' does not have complete help synchronization metadata."
+}
+
+$cultureAuthoritativeDescriptions = $authoritativeParameterDescriptions[$Culture]
+$cultureMetadataText = $localizedMetadataText[$Culture]
 
 function Get-MarkdownParameterDescriptionTable {
     param([Parameter(Mandatory)][string]$Path)
@@ -197,6 +365,24 @@ function Set-MarkdownParameterDescription {
         }, 1)
 }
 
+function Set-MarkdownCommonParametersDescription {
+    param(
+        [Parameter(Mandatory)][string]$Content,
+        [Parameter(Mandatory)][string]$Description
+    )
+
+    $pattern = '(?ms)(^### CommonParameters\s*\r?\n).*?(?=^## |\z)'
+    if (-not [regex]::IsMatch($Content, $pattern)) {
+        throw 'Generated help does not contain the expected CommonParameters subsection.'
+    }
+
+    $replacementDescription = $Description.Trim()
+    return [regex]::Replace($Content, $pattern, [System.Text.RegularExpressions.MatchEvaluator] {
+            param($match)
+            return $match.Groups[1].Value.TrimEnd() + "`r`n`r`n$replacementDescription`r`n`r`n"
+        }, 1)
+}
+
 Import-Module -Name $ModuleManifestPath -Force -ErrorAction Stop
 Import-Module -Name $PlatyModuleName -Force -ErrorAction Stop
 
@@ -259,20 +445,35 @@ try {
 
                 foreach ($heading in @('SYNOPSIS', 'DESCRIPTION', 'EXAMPLES', 'INPUTS', 'OUTPUTS', 'NOTES')) {
                     $localizedSection = Get-MarkdownSection -Content $existingContent -Heading $heading
+                    $englishSection = if ($englishContent) {
+                        Get-MarkdownSection -Content $englishContent -Heading $heading
+                    }
+                    else {
+                        $null
+                    }
+
                     if (-not [string]::IsNullOrWhiteSpace($localizedSection) -and
                         $localizedSection -notmatch '\{\{') {
                         $mergedContent = Set-MarkdownSection -Content $mergedContent -Heading $heading -Body $localizedSection
                     }
-                    elseif ($englishContent) {
-                        $englishSection = Get-MarkdownSection -Content $englishContent -Heading $heading
+                    elseif ($Culture -eq 'en-US' -and $englishContent) {
                         if (-not [string]::IsNullOrWhiteSpace($englishSection) -and
                             $englishSection -notmatch '\{\{') {
                             $mergedContent = Set-MarkdownSection -Content $mergedContent -Heading $heading -Body $englishSection
                         }
                     }
+                    elseif ($Culture -ne 'en-US' -and
+                        (-not [string]::IsNullOrWhiteSpace($englishSection) -or
+                        -not [string]::IsNullOrWhiteSpace($localizedSection))) {
+                        throw "Localized section '$heading' is missing or incomplete in '$existingPath'."
+                    }
                 }
             }
             catch {
+                if ($Culture -ne 'en-US') {
+                    throw
+                }
+
                 Write-Warning "Reconstructed incomplete help topic '$existingPath' from module metadata."
             }
 
@@ -282,7 +483,11 @@ try {
         $translations = $parameterTranslations[$Culture]
         foreach ($parameter in $command.Parameters.Values) {
             $description = $null
-            if ($parameterDescriptions.ContainsKey($parameter.Name) -and
+            if ($cultureAuthoritativeDescriptions.ContainsKey($command.Name) -and
+                $cultureAuthoritativeDescriptions[$command.Name].ContainsKey($parameter.Name)) {
+                $description = $cultureAuthoritativeDescriptions[$command.Name][$parameter.Name]
+            }
+            elseif ($parameterDescriptions.ContainsKey($parameter.Name) -and
                 -not [string]::IsNullOrWhiteSpace($parameterDescriptions[$parameter.Name]) -and
                 $parameterDescriptions[$parameter.Name] -notmatch '\{\{') {
                 $description = $parameterDescriptions[$parameter.Name]
@@ -290,14 +495,16 @@ try {
             elseif ($translations -and $translations.ContainsKey($parameter.Name)) {
                 $description = $translations[$parameter.Name]
             }
-            elseif ($parameterFallbacks.ContainsKey($command.Name) -and
+            elseif ($Culture -eq 'en-US' -and
+                $parameterFallbacks.ContainsKey($command.Name) -and
                 $parameterFallbacks[$command.Name].ContainsKey($parameter.Name)) {
                 $description = $parameterFallbacks[$command.Name][$parameter.Name]
             }
-            elseif ($commonParameterFallbacks.ContainsKey($parameter.Name)) {
+            elseif ($Culture -eq 'en-US' -and $commonParameterFallbacks.ContainsKey($parameter.Name)) {
                 $description = $commonParameterFallbacks[$parameter.Name]
             }
-            elseif ($englishParameterDescriptions.ContainsKey($parameter.Name) -and
+            elseif ($Culture -eq 'en-US' -and
+                $englishParameterDescriptions.ContainsKey($parameter.Name) -and
                 $englishParameterDescriptions[$parameter.Name] -notmatch '\{\{') {
                 $description = $englishParameterDescriptions[$parameter.Name]
             }
@@ -308,7 +515,24 @@ try {
                     -ParameterName $parameter.Name `
                     -Description $description
             }
+            elseif ($Culture -ne 'en-US' -and
+                $mergedContent -match ('(?m)^### -{0}\s*$' -f [regex]::Escape($parameter.Name))) {
+                throw "Localized description for parameter '$($parameter.Name)' is missing in '$existingPath'."
+            }
         }
+
+        $commonParametersDescription = @(
+            $cultureMetadataText.CommonParametersIntro
+            '-Debug, -ErrorAction, -ErrorVariable,'
+            '-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,'
+            '-ProgressAction, -Verbose, -WarningAction, -WarningVariable'
+            $cultureMetadataText.CommonParametersMoreInfo
+            ('[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216){0}' -f
+            $cultureMetadataText.CommonParametersLinkSuffix)
+        ) -join "`r`n"
+        $mergedContent = Set-MarkdownCommonParametersDescription `
+            -Content $mergedContent `
+            -Description $commonParametersDescription
 
         $commandAliases = New-Object 'System.Collections.Generic.List[string]'
         foreach ($alias in Get-Alias -ErrorAction SilentlyContinue) {
@@ -321,7 +545,7 @@ try {
             ($commandAliases | ForEach-Object { '- `{0}`' -f $_ }) -join "`r`n"
         }
         else {
-            'This command has no aliases.'
+            $cultureMetadataText.NoAliases
         }
         $mergedContent = Set-MarkdownSection -Content $mergedContent -Heading 'ALIASES' -Body $aliasDescription
 
@@ -330,7 +554,7 @@ try {
             # PlatyPS can import related links from the existing external-help XML and then
             # append CommandInfo.HelpUri again. Replacing this generated section makes help
             # builds idempotent and prevents another duplicate on every regeneration.
-            $relatedLinks = '- [Online Version]({0})' -f $helpUri
+            $relatedLinks = '- [{0}]({1})' -f $cultureMetadataText.OnlineVersion, $helpUri
             $mergedContent = Set-MarkdownSection `
                 -Content $mergedContent `
                 -Heading 'RELATED LINKS' `

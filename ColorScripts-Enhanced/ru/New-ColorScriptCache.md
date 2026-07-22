@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache
 Locale: ru
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: New-ColorScriptCache
 ---
@@ -13,7 +13,7 @@ title: New-ColorScriptCache
 
 ## SYNOPSIS
 
-Pre-build or refresh colorscript cache files for faster rendering.
+Предварительно создает или обновляет кэш только для ресурсоемких рендереров, выбранных в CachePolicy.psd1.
 
 ## SYNTAX
 
@@ -45,15 +45,17 @@ New-ColorScriptCache [-All] [-Force] [-PassThru] [-Category <string[]>] [-Tag <s
 
 ## DESCRIPTION
 
-`New-ColorScriptCache` executes computationally expensive colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 encoding (without BOM). Static output scripts execute directly and never create cache files. You can also use the alias `Update-ColorScriptCache` to invoke this cmdlet.
+`New-ColorScriptCache` визуализирует выбранные политикой вычислительные цветовые скрипты и сохраняет их вывод в UTF-8 без BOM. Подходящие встроенные рендереры используют изолированный путь выполнения модуля; параллельные рабочие процессы доступны в PowerShell 7 и более поздних версиях. Статически извлекаемые встроенные скрипты не подлежат кэшированию и не создают файлы кэша. Псевдонимы: `Update-ColorScriptCache` и `Build-ColorScriptCache`.
 
-You can target scripts by name (wildcards supported), category, or tag. With no selection parameters, the cmdlet resolves `CachePolicy.psd1` entries directly without enumerating the full collection. Unlisted scripts return `SkippedNotRequired` only when selected explicitly.
+Вы можете ориентировать сценарии по имени (поддерживаются подстановочные знаки), категории или тегу. Если параметры не указаны, командлет разрешает имена в `CachePolicy.psd1` напрямую, а не перечисляет всю коллекцию. Точные связанные имена также используют прямой поиск файлов. Запросы подстановочных знаков, категорий и тегов перечисляются только тогда, когда этого требует их соответствующая семантика. Явные сценарии, не включенные в список, возвращаются со статусом `SkippedNotRequired` при использовании `-PassThru`, а все устаревшие файлы кэша для этих сценариев удаляются.
 
-By default, the cmdlet displays a concise summary of the caching operation. Use `-PassThru` to return detailed result objects for each script, which you can inspect programmatically for status, standard output, and error streams.
+По умолчанию командлет отображает ход выполнения, а также краткую сводку операции кэширования и эффективный каталог кэша. Используйте `-PassThru` для возврата подробных объектов результатов для каждого сценария, которые вы можете проверить программно на предмет статуса, стандартного вывода и потоков ошибок. Объедините `-Quiet`, чтобы полностью подавить ход выполнения и сводку, или `-NoAnsiOutput`, чтобы выводить сводки в виде обычного текста без цветовых кодов ANSI для сред, которые их не поддерживают.
 
-Combine `-Quiet` to suppress the summary or `-NoAnsiOutput` to emit plain-text messages when ANSI color codes are not desired.
+Командлет разумно пропускает сценарии, файлы кэша которых уже обновлены, если вы не укажете параметр `-Force`. Повторные сборки проверяют небольшой вспомогательный компонент `<name>.cacheinfo` без загрузки визуализированных полезных данных `<name>.cache`. `-Force` перестраивает подходящие записи кэша, но никогда не отменяет политику кэширования.
 
-The cmdlet intelligently skips scripts whose cache files are already up-to-date unless you specify `-Force`. `-Force` rebuilds eligible cache entries but never overrides the cache policy.
+Оба файла находятся в `(Get-ColorScriptConfiguration).Cache.EffectivePath`. Файл `.cache` содержит визуализированный вывод терминала; `.cacheinfo` содержит только метаданные проверки. Вспомогательный файл без полезной нагрузки не является пригодной записью кэша и восстанавливается при следующей сборке. `Clear-ColorScriptCache -All` удаляет полные записи и потерянные вспомогательные файлы.
+
+Для более быстрого перестроения в многоядерных системах используйте переключатель `-Parallel` вместе с параметром `-ThrottleLimit` (или `-Threads`) для управления количеством рабочих процессов. Командлет автоматически возвращается к последовательному выполнению, когда на текущем хосте невозможно создать параллельные пространства выполнения.
 
 ## EXAMPLES
 
@@ -63,7 +65,7 @@ The cmdlet intelligently skips scripts whose cache files are already up-to-date 
 New-ColorScriptCache
 ```
 
-Resolve and warm only the policy-selected computational renderers without enumerating every script that ships with the module. This is the default behavior when no parameters are specified.
+Решите и прогрейте только те вычислительные средства визуализации, которые выбраны политикой, без перечисления каждого сценария, поставляемого с модулем. Это поведение по умолчанию, когда параметры не указаны.
 
 ### EXAMPLE 2
 
@@ -71,7 +73,7 @@ Resolve and warm only the policy-selected computational renderers without enumer
 New-ColorScriptCache -Name Galaxy, 'rose-*'
 ```
 
-Evaluate a mix of exact and wildcard matches. Only matches included in `CachePolicy.psd1` are built; other matches report `SkippedNotRequired` with `-PassThru`.
+Кэшируйте сочетание точных и подстановочных совпадений. Создаются только совпадения, включенные в `CachePolicy.psd1`; отчет о других совпадениях `SkippedNotRequired` с `-PassThru`.
 
 ### EXAMPLE 3
 
@@ -79,15 +81,15 @@ Evaluate a mix of exact and wildcard matches. Only matches included in `CachePol
 New-ColorScriptCache -Name Galaxy -Force -PassThru | Format-List
 ```
 
-Force a rebuild of the 'Galaxy' cache even if it's up-to-date, and examine the detailed result object.
+Принудительно перестройте подходящий кэш «Галактики», даже если он обновлен, и изучите подробный объект результата.
 
 ### EXAMPLE 4
 
 ```powershell
-New-ColorScriptCache -Category 'Animation' -PassThru
+New-ColorScriptCache -Category 'Mathematical' -PassThru
 ```
 
-Evaluate scripts in the 'Animation' category, cache eligible renderers, and return detailed results for every match.
+Оценивайте сценарии в категории `Mathematical`, кэшируйте подходящие средства визуализации и возвращайте подробные результаты для каждого совпадения.
 
 ### EXAMPLE 5
 
@@ -95,106 +97,105 @@ Evaluate scripts in the 'Animation' category, cache eligible renderers, and retu
 New-ColorScriptCache -Tag 'geometric', 'colorful' -Force
 ```
 
-Rebuild eligible caches for scripts tagged with either 'geometric' or 'colorful', forcing regeneration even if caches are current.
+Перестройте подходящие кеши для сценариев, помеченных как «геометрические» или «красочные», принудительно выполняя регенерацию, даже если кеши являются текущими.
 
 ### EXAMPLE 6
 
 ```powershell
-Get-ColorScriptList | Where-Object Category -eq 'Classic' | New-ColorScriptCache -PassThru
+Get-ColorScriptList -Category Mathematical -AsObject | New-ColorScriptCache -PassThru
 ```
 
-Pipeline example: evaluate all classic scripts, cache any policy-selected renderers, and return a result for every match.
+Пример конвейера: оценка сценариев в категории `Mathematical`, кэширование всех выбранных политикой средств визуализации и возврат результата для каждого совпадения.
 
 ### EXAMPLE 7
 
 ```powershell
-# Check cache statistics after building
-$before = @(Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter "*.cache" -ErrorAction SilentlyContinue).Count
+# Проверьте статистику кэша после сборки
+$cachePath = (Get-ColorScriptConfiguration).Cache.EffectivePath
+$before = @(Get-ChildItem $cachePath -Filter "*.cache" -ErrorAction SilentlyContinue).Count
 New-ColorScriptCache
-$after = @(Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter "*.cache").Count
-Write-Host "Cached scripts: $before -> $after"
+$after = @(Get-ChildItem $cachePath -Filter "*.cache").Count
+Write-Host "Кэшированные скрипты: $before -> $after."
 ```
 
-Measures the cache growth by counting cache files before and after the operation.
+Измеряет рост кэша путем подсчета выбранных политикой файлов кэша до и после операции.
 
 ### EXAMPLE 8
 
 ```powershell
-# Build cache for frequently used scripts only
-$frequentScripts = @('bars', 'arch', 'Galaxy', 'aurora-waves', 'galaxy-spiral')
+# Создайте кеш для часто используемых вычислительных средств визуализации.
+$frequentScripts = @('Galaxy', 'rose-curves', 'wave-interference')
 New-ColorScriptCache -Name $frequentScripts -PassThru | Format-Table Name, Status, ExitCode
 ```
 
-Caches only the most frequently accessed scripts for faster performance in production.
+Создает кэши для перечисленных скриптов, подходящих под `CachePolicy.psd1`; имена, не включенные в список, пропускаются.
 
 ### EXAMPLE 9
 
 ```powershell
-# Monitor cache building with progress tracking
-$scripts = Get-ColorScriptList -AsObject
-$total = $scripts.Count
-$current = 0
-$scripts | ForEach-Object {
-    $current++
-    Write-Progress -Activity "Building cache" -Status $_.Name -PercentComplete (($current / $total) * 100)
-    New-ColorScriptCache -Name $_.Name | Out-Null
-}
-Write-Progress -Activity "Building cache" -Completed
+# Используйте встроенный дисплей прогресса на уровне политики.
+New-ColorScriptCache -All
 ```
 
-Provides visual progress feedback while building the cache.
+Показывает встроенный прогресс для выбранных политикой средств визуализации без повторного выполнения всех доступных сценариев вручную.
 
 ### EXAMPLE 10
 
 ```powershell
-# Schedule cache rebuild on module load
-# Add to PowerShell profile:
+# При необходимости добавьте отсутствующие или устаревшие записи политики из профиля PowerShell.
 Import-Module ColorScripts-Enhanced
-if ((Get-Date).Day % 7 -eq 0) {  # Weekly rebuild
-    New-ColorScriptCache -Force | Out-Null
-}
+New-ColorScriptCache -Quiet
 ```
 
-Automatically rebuilds cache weekly when the module loads.
+Проверяет выбранные политикой записи при загрузке профиля и создает только отсутствующие или устаревшие записи. Пропустите этот шаг профиля, если работа с кэшем при запуске не требуется.
 
 ### EXAMPLE 11
 
 ```powershell
-# Cache specific category for deployment
-New-ColorScriptCache -Category 'Recommended' -Force -PassThru |
+# Перестройте каждую запись, выбранную политикой, для развертывания.
+New-ColorScriptCache -All -Force -PassThru |
     Select-Object Name, Status |
     Export-Csv "./cache-deployment.csv"
 ```
 
-Caches recommended scripts and exports the results to a deployment manifest.
+Перестраивает каждую запись кэша, выбранную политикой, и экспортирует статусы в манифест развертывания.
 
 ### EXAMPLE 12
 
 ```powershell
-# Verify cache was built successfully
+# Найдите ошибки построения кэша
 New-ColorScriptCache -Name "Galaxy" -Force -PassThru |
-    Where-Object { $_.ExitCode -ne 0 } |
+    Where-Object Status -eq 'Failed' |
     Select-Object Name, StdErr
 ```
 
-Identifies any caching failures by filtering for non-zero exit codes.
+Выявляет сбои кэширования, не рассматривая пропуски политики как ошибки.
 
 ### EXAMPLE 13
 
 ```powershell
-# Cache eligible animated scripts
-New-ColorScriptCache -Tag Animated -PassThru |
+# Подсчитать выбранные политикой записи, обновленные в результате этого запуска
+New-ColorScriptCache -All -PassThru |
+    Where-Object Status -eq 'Updated' |
     Measure-Object |
     Select-Object @{N='ScriptsCached'; E={$_.Count}}
 ```
 
-Caches eligible scripts tagged as animated and shows the count of updated cache entries.
+Проверяет каждую запись, выбранную политикой, и показывает, сколько полезных данных кэша было обновлено в результате этого запуска.
+
+### EXAMPLE 14
+
+```powershell
+New-ColorScriptCache -All -Parallel -Threads 8
+```
+
+Создайте все выбранные политикой кэши, используя восемь рабочих потоков. Командлет автоматически возвращается к последовательному выполнению, когда параллельные задания недоступны на текущем хосте.
 
 ## PARAMETERS
 
 ### -All
 
-Resolve every cache-policy entry directly. Only policy-selected scripts are processed; the full colorscript inventory is not enumerated.
+Разрешите каждую запись политики кэширования напрямую. Обрабатываются только сценарии, выбранные политикой; полный инвентарь цветных сценариев не перечисляется.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -215,7 +216,7 @@ HelpMessage: ''
 
 ### -Category
 
-Limit the selection to scripts that belong to the specified category (case-insensitive). Multiple values are treated as an OR filter, meaning scripts matching any of the specified categories will be cached.
+Фильтрует оцениваемые скрипты по категориям метаданных (без учета регистра). Несколько значений обрабатываются как фильтр ИЛИ. Кэшируются только совпадения, разрешенные `CachePolicy.psd1`; отчет о других совпадениях `SkippedNotRequired` с `-PassThru`.
 
 ```yaml
 Type: System.String[]
@@ -242,7 +243,7 @@ HelpMessage: ''
 
 ### -Confirm
 
-Prompts you for confirmation before running the cmdlet. Useful when caching a large number of scripts or when using `-Force` to prevent accidental cache regeneration.
+Запрашивает подтверждение перед запуском командлета. Полезно при кэшировании большого количества скриптов или при использовании `-Force` для предотвращения случайной регенерации кэша.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -264,7 +265,7 @@ HelpMessage: ''
 
 ### -Force
 
-Rebuild eligible cache files even when the existing cache is newer than the script source. This does not override `CachePolicy.psd1`.
+Перестройте подходящие записи кэша, даже если их метаданные проверки `.cacheinfo` говорят, что они актуальны. Это не отменяет `CachePolicy.psd1`.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -291,7 +292,7 @@ HelpMessage: ''
 
 ### -h
 
-Показывает подробную справку по команде, не выполняя операцию.
+Отображает подробную справку по этой команде без выполнения операции.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -313,7 +314,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Включает все скрипты Pokémon (обычные и shiny) при построении кеша. По умолчанию скрипты Pokémon пропускаются; используйте `-IncludePokemon`, чтобы включить их. Примечание: этот параметр заменяет старый `-ExcludePokemon` — логика была инвертирована при рефакторинге (теперь opt-in).
+Расширяет выбор подходящих вариантов для оценки сценариев покемонов. Он не отменяет `CachePolicy.psd1`; только имена покемонов, перечисленные в `CacheablePokemonScripts`, могут быть кэшированы, и этот список в настоящее время пуст.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -340,7 +341,7 @@ HelpMessage: ''
 
 ### -Name
 
-One or more colorscript names to evaluate. Supports wildcard patterns (for example, `aurora-*` and `*-wave`). When this parameter and all filters are omitted, only `CachePolicy.psd1` entries are resolved and evaluated.
+Одно или несколько имен цветовых сценариев для проверки кэширования. Поддерживает шаблоны подстановочных знаков (например, `aurora-*` и `*-wave`). Соответствующие сценарии кэшируются только в том случае, если они указаны в `CachePolicy.psd1`. Если этот параметр и все фильтры опущены, разрешаются и оцениваются только записи политики.
 
 ```yaml
 Type: System.String[]
@@ -361,7 +362,7 @@ HelpMessage: ''
 
 ### -NoAnsiOutput
 
-Disable ANSI color in the summary output so that plain text is produced instead.
+Отключите последовательность цветов ANSI при выводе информации. Это полезно в средах, которые не отображают escape-коды ANSI (например, некоторые журналы CI/CD), сохраняя при этом цветной вывод, когда это необходимо.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -389,7 +390,7 @@ HelpMessage: ''
 
 ### -Parallel
 
-Builds eligible cache entries concurrently. Unsupported hosts fall back to sequential execution.
+Включите многопоточное построение кэша. Если этот параметр указан, командлет выполняет задания кэширования в пуле пространства выполнения для более быстрого завершения на соответствующих системах. Используйте в сочетании с `-ThrottleLimit` (или псевдонимом `-Threads`), чтобы контролировать количество одновременно работающих рабочих процессов. Если многопоточность не может быть инициализирована, командлет автоматически возвращается к последовательному выполнению.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -416,7 +417,7 @@ HelpMessage: ''
 
 ### -PassThru
 
-Return detailed result objects for each cache operation. By default, only a summary is displayed. The result objects include properties such as Name, Status, CacheFile, ExitCode, StdOut, and StdErr, allowing for programmatic inspection of the caching process.
+Возвращайте подробные объекты результатов для каждой операции кэша. По умолчанию отображается только сводка. Объекты результатов включают такие свойства, как Name, Status, CacheFile, ExitCode, StdOut и StdErr, позволяющие программно проверять процесс кэширования.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -443,7 +444,7 @@ HelpMessage: ''
 
 ### -Quiet
 
-Suppress the summary message at the end of the cache build.
+Подавить выполнение каждого сценария и вывод сводной информации. Используйте этот переключатель, когда вам нужен только структурированный вывод (через `-PassThru`) или когда сценарии автоматизации должны заглушать информационные сообщения, сохраняя при этом предупреждения и ошибки.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -470,7 +471,7 @@ HelpMessage: ''
 
 ### -Tag
 
-Limit the selection to scripts containing the specified metadata tags (case-insensitive). Multiple values are treated as an OR filter, caching scripts that match any of the specified tags.
+Фильтрует оцениваемые сценарии по тегу метаданных (без учета регистра). Несколько значений обрабатываются как фильтр ИЛИ. Кэшируются только совпадения, разрешенные `CachePolicy.psd1`; отчет о других совпадениях `SkippedNotRequired` с `-PassThru`.
 
 ```yaml
 Type: System.String[]
@@ -497,7 +498,7 @@ HelpMessage: ''
 
 ### -ThrottleLimit
 
-Sets the maximum number of concurrent cache workers. Threads is an alias for this parameter.
+Указывает максимальное количество одновременных рабочих кэшей при запросе `-Parallel`. Принимает значения от 1 до 256. Значение по умолчанию (если опущено) — это количество логических процессоров на текущей машине. Псевдоним `-Threads` предоставлен для удобства. Значения меньше или равные единице автоматически возвращаются к последовательному выполнению.
 
 ```yaml
 Type: System.Int32
@@ -525,7 +526,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Shows what would happen if the cmdlet runs without actually performing the caching operations. Useful for previewing which scripts would be cached before committing to the operation.
+Показывает, что произойдет, если командлет запустится без фактического выполнения операций кэширования. Полезно для предварительного просмотра сценариев, которые будут кэшированы, перед выполнением операции.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -547,48 +548,53 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Этот командлет поддерживает следующие общие параметры:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Дополнительные сведения см. в разделе
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### System.String
 
-You can pipe script names to this cmdlet. Each string is treated as a potential script name and supports wildcard matching.
+В этот командлет можно передать имена сценариев. Каждая строка рассматривается как потенциальное имя сценария и поддерживает сопоставление с подстановочными знаками.
 
 ### System.String[]
 
-You can pipe an array of script names or metadata records with a `Name` property to this cmdlet for batch processing.
+Вы можете передать массив имен сценариев или записей метаданных со свойством `Name` в этот командлет для пакетной обработки.
 
 ## OUTPUTS
 
 ### System.Object
 
-When `-PassThru` is specified, returns a custom object for each processed script containing the following properties:
+Если указан `-PassThru`, для каждого обработанного сценария возвращается пользовательский объект, содержащий следующие свойства:
 
-- **Name**: The colorscript name
-- **Status**: Success, Skipped, or Failed
-- **CacheFile**: Full path to the generated cache file
-- **ExitCode**: The exit code from the script execution (0 indicates success)
-- **StdOut**: Standard output captured during script execution
-- **StdErr**: Standard error output captured during script execution
+- **Name**: название цветового сценария.
+- **ScriptPath**: полный путь к исходному цветовому сценарию.
+- **CacheFile**: полный путь к созданному файлу кэша.
+- **Status**: `Updated`, `SkippedUpToDate`, `SkippedNotRequired`, `SkippedByUser` или `Failed`.
+- **Message**: локализованная информация о статусе.
+- **CacheExists**: существует ли после операции необработанный файл полезной нагрузки .cache. Значение не указывает на допустимость по политике, действительность или актуальность кэша
+- **ExitCode**: код завершения выполнения сценария (0 указывает на успех).
+- **StdOut**: стандартный вывод, записываемый во время выполнения сценария.
+- **StdErr**: стандартный вывод ошибок, фиксируемый во время выполнения сценария.
 
-Without `-PassThru`, displays a concise summary table to the console showing the number of scripts cached, skipped, and failed.
+Без `-PassThru` записывает краткую информационную сводку, содержащую количество обработанных, обновленных, пропущенных и неудачных операций, а также эффективный каталог кэша.
 
 ## NOTES
 
-**Author:** Nick
-**Module:** ColorScripts-Enhanced
+**Автор:** Ник
+**Модуль:** ColorScripts-Enhanced
 
-**Aliases:** This cmdlet can also be called using the alias `Update-ColorScriptCache`, which is useful for scripts that refresh existing caches.
+**Псевдонимы**: `Update-ColorScriptCache` и `Build-ColorScriptCache`.
 
-Cache files are stored in the directory exposed by the module's `CacheDir` variable (typically within the module's data directory). A successful build sets the cache file's timestamp to match the script's last write time, enabling subsequent runs to skip unchanged scripts efficiently.
+Файлы кэша хранятся под `(Get-ColorScriptConfiguration).Cache.EffectivePath`. Подписи источника и политики в сопутствующих метаданных используются для определения того, остается ли запись актуальной.
 
-The cmdlet executes each script in an isolated background PowerShell process to capture its output without affecting the current session. This ensures accurate caching of the exact console output that would be displayed when running the script directly.
+Командлет кэширует только те средства визуализации, которые требуют выполнения и разрешены политикой кэширования. Явные статические или не включенные в список сценарии обозначаются как `SkippedNotRequired`, а устаревшие записи удаляются.
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Онлайн-версия](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
 

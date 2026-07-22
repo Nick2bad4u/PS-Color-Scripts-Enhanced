@@ -4,17 +4,18 @@
 
 [![PowerShell Gallery.](https://img.shields.io/powershellgallery/v/ColorScripts-Enhanced?logo=powershell)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced) [![Downloads.](https://img.shields.io/powershellgallery/dt/ColorScripts-Enhanced?logo=powershell)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced) [![NuGet.](https://img.shields.io/nuget/v/ColorScripts-Enhanced?logo=nuget)](https://www.nuget.org/packages/ColorScripts-Enhanced/) [![Tests.](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml/badge.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/actions/workflows/test.yml) [![License.](https://img.shields.io/badge/License-Unlicense-yellow.svg)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/LICENSE)
 
-Discover and display ANSI colorscripts in PowerShell. Static scripts execute directly, while policy-selected computational renderers can reuse validated output.
+Discover and display ANSI colorscripts in PowerShell. Deterministic bundled scripts render in-process, while policy-selected computational renderers can reuse validated output.
 
 ## Features
 
-- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
+- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->3186+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
 - ⚡ **Selective Caching** — Reuses output for the 15 expensive renderers listed in `CachePolicy.psd1`
 - 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
 - ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
 - **Rich Metadata** — Filter by name, category, and tag or export structured catalog data
-- 🐾 **2500~ Pokémon ColorScripts** — Opt-in Pokémon-themed colorscripts
-  * Note: Pokémon art is filtered by default to keep load times fast. Opt in with `-IncludePokemon` on relevant commands.
+- 🐾 **Thousands of Pokémon ColorScripts** — Pokémon and shiny-Pokémon collections are available by explicit opt-in
+
+  Pokémon art is filtered by default to keep routine inventory and random selection lean. Opt in with `-IncludePokemon` on relevant commands.
 - 🌍 **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
 - 🗄️ **Platform-Aware Storage** — Query or configure the effective cache path
 - 🔄 **Auto-Update** — Cache invalidates automatically when scripts change
@@ -57,7 +58,7 @@ Clear-ColorScriptCache -All
 | -------------------------------- | ----- | --------------------------------------------- |
 | `Show-ColorScript`               | `scs` | Display a colorscript (random or by name)     |
 | `Get-ColorScriptList`            | -     | List all available colorscripts with metadata |
-| `New-ColorScriptCache`           | -     | Build caches for policy-selected renderers    |
+| `New-ColorScriptCache`           | `Update-ColorScriptCache`, `Build-ColorScriptCache` | Build caches for policy-selected renderers |
 | `Clear-ColorScriptCache`         | -     | Remove cache files                            |
 | `Add-ColorScriptProfile`         | -     | Add module import to your PowerShell profile  |
 | `Get-ColorScriptConfiguration`   | -     | View current configuration settings           |
@@ -88,7 +89,7 @@ Get-Help about_ColorScripts-Enhanced
 
 Caching is deliberately narrow:
 
-- Static output scripts execute directly without creating cache files.
+- Deterministic bundled scripts render in-process without creating cache files.
 - The 15 renderers in `CachePolicy.psd1` are eligible for output caching.
 - Cache entries are invalidated when relevant source or policy metadata changes.
 - Performance depends on the renderer, host, filesystem, and terminal; no fixed multiplier is guaranteed.
@@ -128,7 +129,7 @@ Export-ColorScriptMetadata -Path ./metadata.json
 
 ```powershell
 # Scaffold a new colorscript with metadata
-$scaffold = New-ColorScript -Name 'my-art' -Category 'Custom' -GenerateMetadataSnippet
+$scaffold = New-ColorScript -Name 'my-art' -OutputPath ./Scripts -Category 'Custom' -GenerateMetadataSnippet
 
 # Open in your editor
 code $scaffold.Path
@@ -165,4 +166,4 @@ Submit colorscripts, report bugs, or suggest features.
 
 ## License
 
-Project-authored code uses the [Unlicense](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/LICENSE). Incorporated third-party art remains subject to its original authors' rights and source terms.
+Project-authored code uses the [Unlicense](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/LICENSE). Incorporated third-party art remains subject to its original authors' rights and source terms. See the repository's [artwork-source and provenance notes](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/README.md#artwork-sources-and-provenance) for reviewed sources, per-file records, and preserved notices.

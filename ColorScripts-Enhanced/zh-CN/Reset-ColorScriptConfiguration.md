@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration
 Locale: zh-CN
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Reset-ColorScriptConfiguration
 ---
@@ -13,7 +13,7 @@ title: Reset-ColorScriptConfiguration
 
 ## SYNOPSIS
 
-重置 ColorScripts-Enhanced 配置为默认值。
+将 ColorScripts-Enhanced 配置恢复为其默认值。
 
 ## SYNTAX
 
@@ -25,63 +25,82 @@ Reset-ColorScriptConfiguration [-h] [-PassThru] [-WhatIf] [-Confirm]
 
 ## ALIASES
 
-This command has no aliases.
+此命令没有别名。
 
 ## DESCRIPTION
 
-恢复 ColorScripts-Enhanced 配置设置到其默认值。此 cmdlet 删除所有用户自定义设置，并将模块返回到其原始配置状态。
+`Reset-ColorScriptConfiguration` 用内置默认值替换持久配置，并重置模块的内存缓存状态。执行时，此 cmdlet：
 
-重置操作包括：
+- 清除配置的缓存路径覆盖，以便使用有效的平台默认值
+- 恢复 `AutoShowOnImport`、`ProfileAutoShow` 和 `DefaultScript`
+- 将默认配置写入 `config.json`
+- 清除内存缓存/配置状态，以便后续操作使用重置值
 
-- 缓存路径设置
-- 性能首选项
-- 显示选项
-- 模块行为设置
+此 cmdlet 支持 `-WhatIf` 和 `-Confirm` 参数，因为它通过覆盖配置文件来执行破坏性操作。重置操作无法自动撤消，因此用户应考虑在继续之前使用 `Get-ColorScriptConfiguration` 备份当前配置。
 
-此 cmdlet 在以下情况下很有用：
-
-- 配置变得损坏时
-- 您想要使用默认设置重新开始时
-- 排除配置相关问题时
-- 为干净的模块测试做准备时
-
-重置操作默认需要确认，以防止意外数据丢失。
+重置完成后，使用 `-PassThru` 参数立即检查新恢复的默认设置。
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 
 ```powershell
-Reset-ColorScriptConfiguration
+Reset-ColorScriptConfiguration -Confirm:$false
 ```
 
-重置所有配置设置到默认值，并显示确认提示。
+重置配置而不提示确认。这在自动化脚本中或当您确定要重置为默认值时非常有用。
 
 ### EXAMPLE 2
 
 ```powershell
-Reset-ColorScriptConfiguration -Confirm:$false
+Reset-ColorScriptConfiguration -PassThru
 ```
 
-在不显示确认提示的情况下重置配置。
+重置配置并返回生成的哈希表以供检查，从而允许您验证默认值。
 
 ### EXAMPLE 3
 
 ```powershell
+# 重置前备份当前配置
+$backup = Get-ColorScriptConfiguration
 Reset-ColorScriptConfiguration -WhatIf
 ```
 
-显示 cmdlet 运行时会发生什么，而不应用它们。
+备份当前配置后，使用 `-WhatIf` 预览重置操作而不实际执行它。
 
 ### EXAMPLE 4
 
 ```powershell
-# 重置并验证
-Reset-ColorScriptConfiguration
-Get-ColorScriptConfiguration
+Reset-ColorScriptConfiguration -Verbose
 ```
 
-重置配置并显示新的默认设置。
+使用详细输出重置配置以查看有关操作的详细信息。
+
+### EXAMPLE 5
+
+```powershell
+# 重置配置并清除缓存以完全恢复出厂设置
+Reset-ColorScriptConfiguration -Confirm:$false
+Clear-ColorScriptCache -All -Confirm:$false
+New-ColorScriptCache
+Write-Host "模块重置为出厂默认设置！"
+```
+
+执行完整的出厂重置，包括配置、缓存和重建缓存。
+
+### EXAMPLE 6
+
+```powershell
+# 验证重置是否成功
+$config = Reset-ColorScriptConfiguration -PassThru
+if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
+    Write-Host "配置成功重置为平台默认值"
+} else {
+    Write-Host "配置重置但使用自定义路径：$($config.Cache.Path)"
+}
+```
+
+重置并验证持久缓存覆盖是否为空以及有效的平台路径是否可用。
 
 ## PARAMETERS
 
@@ -109,7 +128,7 @@ HelpMessage: ''
 
 ### -h
 
-显示此命令的详细帮助，而不执行操作。
+显示该命令的详细帮助而不执行操作。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -131,7 +150,7 @@ HelpMessage: ''
 
 ### -PassThru
 
-Returns the effective default configuration after the reset succeeds.
+重置完成后返回更新的配置对象。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -152,7 +171,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-显示 cmdlet 运行时会发生什么。Cmdlet 不会运行。
+显示如果 cmdlet 运行而不实际执行重置操作会发生什么情况。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -174,30 +193,35 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+此 cmdlet 支持以下常用参数：
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
-[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+有关详细信息，请参阅
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216)。
 
 ## INPUTS
 
 ### None
 
-此 cmdlet 不接受来自管道的输入。
+此 cmdlet 不接受管道输入。
 
 ## OUTPUTS
 
-### None (2)
+### System.Collections.Hashtable
 
-此 cmdlet 不返回输出到管道。
+当指定 `-PassThru` 时返回。
 
 ## NOTES
 
-**作者：** Nick
-**模块：** ColorScripts-Enhanced
-**需要：** PowerShell 5.1 或更高版本
+配置文件存放在`Get-ColorScriptConfiguration`解析的目录下。默认情况下，此位置是特定于平台的：
+
+- **Windows**：`$env:APPDATA\ColorScripts-Enhanced`
+- **Linux/macOS**：`$HOME/.config/ColorScripts-Enhanced`
+
+如果在模块导入之前设置，环境变量 `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` 可以覆盖默认位置。
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration)
+- [在线版本](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration)
 

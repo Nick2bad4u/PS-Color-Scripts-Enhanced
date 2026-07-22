@@ -1,700 +1,141 @@
 # npm Scripts Reference
 
-This document describes the npm scripts available for ColorScripts-Enhanced development and maintenance.
+`package.json` is the source of truth for executable definitions. Run these commands from the repository root after `npm ci`.
 
-> **Note:** These npm scripts are for **development and repository maintenance only**. End-users do not need Node.js or npm to use the PowerShell module.
+## Primary Workflows
 
-## Build & Release
+| Command                  | Purpose |
+| ------------------------ | ------- |
+| `npm run build`          | Build the module, generate release notes, run conversion checks, verify lint/README, and run coverage |
+| `npm run build:skip-help` | Run `scripts/build.ps1 -SkipHelp` |
+| `npm run verify`         | Run non-mutating module lint and the gallery README size check |
+| `npm run verify:strict`  | Include tests in strict ScriptAnalyzer validation, then check gallery README size |
+| `npm test`               | Run Node ANSI-conversion tests, the custom module harness, and the Pester suite |
+| `npm run lint`           | Run the normal PowerShell lint entry point |
+| `npm run lint:strict`    | Analyze module and tests, treating warnings as errors |
 
-### `npm run build`
+`npm run build` updates generated artifacts. Review the worktree after running it. For quick, non-mutating validation use `npm run verify`; it does not run the test suite.
 
-Build the module manifest and refresh documentation counts.
+## Build and Documentation
+
+| Command                       | Purpose |
+| ----------------------------- | ------- |
+| `npm run build:help`          | Synchronize Markdown help metadata and generate culture-specific MAML/HelpInfo |
+| `npm run docs:update-counts`  | Refresh script, cache-policy, dynamic-policy, and module-version markers |
+| `npm run markdown:check`      | Run the repository Markdown link-check wrapper |
+| `npm run readme:check`        | Check the PowerShell Gallery README size |
+| `npm run readme:check:strict` | Apply the strict gallery README size limit |
+| `npm run package:metadata -- --PackagePath <file>` | Normalize a staged NuGet package's README, license, icon, and metadata |
+
+The repository does not define a `docs:validate-links` script. Use `npm run markdown:check`.
+
+## Tests and Coverage
+
+| Command                            | Purpose |
+| ---------------------------------- | ------- |
+| `npm run test:conversion`         | Run `Tests/AnsiConversion.Tests.js` with Node's test runner |
+| `npm run test:custom`             | Run `scripts/Test-Module.ps1` |
+| `npm run test:pester`             | Run Pester through `Test-Coverage.ps1 -SkipCoverage` |
+| `npm run test:coverage`           | Run Pester with normal coverage output |
+| `npm run test:coverage:ci`        | Run the CI coverage configuration |
+| `npm run test:coverage:detailed`  | Run coverage with detailed Pester output |
+| `npm run test:coverage:diagnostic` | Run coverage with diagnostic output |
+| `npm run test:coverage:minimal`   | Run coverage with minimal output |
+| `npm run test:coverage:none`      | Suppress Pester console detail while collecting coverage |
+| `npm run test:coverage:report`    | Run coverage and open/show the report |
+| `npm run test:linux`              | Alias for the normal coverage run |
+
+For a focused Pester file, call the pinned runner directly:
 
 ```powershell
-npm run build
+pwsh -NoProfile -Command "Invoke-Pester -Path ./Tests/RepositoryScripts.Tests.ps1"
 ```
 
-This script:
+## Lint and Static Analysis
 
-- Updates the module manifest with version and metadata
-- Refreshes script count markers in documentation
-- Generates release notes
-- Runs verification checks
+| Command                     | Purpose |
+| --------------------------- | ------- |
+| `npm run lint:fix`          | Apply supported module lint fixes |
+| `npm run lint:strict:fix`   | Apply supported fixes while including tests and treating warnings as errors |
+| `npm run lint:scripts`      | Analyze repository scripts and treat warnings as errors |
+| `npm run lint:scripts:fix`  | Apply supported fixes to repository scripts |
+| `npm run lint:ps7`          | Run the PowerShell 7-specific analyzer |
+| `npm run lint:remark`       | Lint Markdown with remark |
+| `npm run lint:remark:fix`   | Apply remark formatting fixes |
+| `npm run lint:gitleaks`     | Scan the repository with the shared gitleaks config |
+| `npm run lint:jscpd`        | Check copy/paste duplication |
+| `npm run lint:lychee`       | Check links with the shared lychee config |
+| `npm run lint:lychee:smoke` | Dump/check the README link input set |
+| `npm run lint:package-json` | Lint package metadata |
+| `npm run lint:yamllint`     | Lint YAML with `.yamllint` |
 
-### `npm run build:skip-help`
+Some linters require separately installed CLIs. The Node-backed commands use the versions in `package-lock.json`.
 
-Build without regenerating help files (faster):
+## ANSI Collection Maintenance
+
+| Command                          | Purpose |
+| -------------------------------- | ------- |
+| `npm run convert -- <args>`      | Convert ANSI with `--strip-space-bg` enabled |
+| `npm run scripts:convert -- <args>` | Run the Node ANSI converter |
+| `npm run scripts:convert:ps -- <args>` | Run the PowerShell converter |
+| `npm run scripts:convert:ps:skip -- <args>` | Run the PowerShell converter with space-background stripping |
+| `npm run scripts:convert:advanced` | Launch the advanced PowerShell conversion workflow |
+| `npm run scripts:split -- <args>` | Split ANSI or converted PowerShell art |
+| `npm run scripts:count`          | Count bundled `.ps1` colorscripts |
+| `npm run scripts:format`         | Format bundled colorscripts |
+| `npm run scripts:test-all`       | Execute the full colorscript collection harness |
+| `npm run scripts:check-dupes`    | Report duplicate ANSI inputs without modifying files |
+| `npm run scripts:remove-dupes`   | Run the duplicate remover with confirmation |
+
+Pass script arguments after `--`, for example:
 
 ```powershell
-npm run build:skip-help
+npm run scripts:split -- ./art.ans --auto --dry-run
 ```
 
-### `npm run build:help`
+## Changelog and Release Notes
 
-Generate external help XML from markdown:
+| Command                         | Purpose |
+| ------------------------------- | ------- |
+| `npm run changelog:generate`    | Regenerate `CHANGELOG.md` with git-cliff |
+| `npm run changelog:preview`     | Preview unreleased changes |
+| `npm run changelog:release-notes` | Print the current tagged release range |
+| `npm run release:notes`         | Write unreleased PowerShell Gallery notes to `dist/` |
+| `npm run release:notes:latest`  | Write the latest tagged release notes to `dist/` |
+| `npm run release:verify`        | Validate changelog/release-note alignment with the manifest and tags |
+
+Release-note commands depend on local tags. Fetch tags before investigating stale output.
+
+## Repository Maintenance
+
+| Command                 | Purpose |
+| ----------------------- | ------- |
+| `npm run sort-package`  | Sort `package.json` |
+| `npm run update-actions` | Update pinned GitHub Actions SHAs |
+| `npm run update-deps`   | Run the shared npm-check-updates config, sync Node version files, and reinstall |
+| `npm run contrib`       | Run all-contributors |
+| `npm run contrib:add`   | Add a contributor |
+| `npm run contrib:check` | Validate contributor metadata |
+| `npm run contrib:generate` | Regenerate contributor content |
+
+## Recommended Sequences
+
+During implementation:
 
 ```powershell
+npm run lint
+npm run test:conversion
+npm run test:pester
+```
+
+Before a pull request:
+
+```powershell
+npm run docs:update-counts
 npm run build:help
-```
-
-## Testing
-
-### `npm test`
-
-Execute the smoke-test harness (`Test-Module.ps1`):
-
-```powershell
-npm test
-```
-
-### `npm run test:pester`
-
-Run the full Pester test suite in `./Tests`:
-
-```powershell
-npm run test:pester
-```
-
-### `npm run verify`
-
-Run non-mutating module lint and validate the PowerShell Gallery README size:
-
-```powershell
-npm run verify
-```
-
-## Linting
-
-### `npm run lint`
-
-Run ScriptAnalyzer against the module:
-
-```powershell
-npm run lint
-```
-
-### `npm run lint:strict`
-
-Run lint with tests included and warnings treated as errors:
-
-```powershell
-npm run lint:strict
-```
-
-### `npm run lint:fix`
-
-Apply ScriptAnalyzer fixes where possible, then rerun lint:
-
-```powershell
-npm run lint:fix
-```
-
-### `npm run build:help` (2)
-
-Generate external help XML from markdown:
-
-```powershell
-npm run build:help
-```
-
-## Testing (2)
-
-### `npm test` (2)
-
-Execute the smoke-test harness (`Test-Module.ps1`):
-
-```powershell
-npm test
-```
-
-This runs:
-
-- Module import validation
-- Command export verification
-- Basic functionality tests
-- ScriptAnalyzer compliance check
-- Help documentation availability
-
-### `npm run test:pester` (2)
-
-Run the full Pester test suite in `./Tests`:
-
-```powershell
-npm run test:pester
-```
-
-Includes:
-
-- Unit tests for all commands
-- Integration test scenarios
-- Cache behavior validation
-- Configuration persistence tests
-- Error handling tests
-- Performance tests
-
-### `npm run test:coverage`
-
-Run tests with code coverage analysis:
-
-```powershell
-npm run test:coverage
-```
-
-Generates coverage report showing:
-
-- Statement coverage percentage
-- Branch coverage
-- Function coverage
-- Line coverage
-
-## Advanced Test Workflows
-
-### Test Specific File
-
-```powershell
-# Run individual test file
-Invoke-Pester -Path ./Tests/Show-ColorScript.Tests.ps1
-```
-
-### Test Specific Function
-
-```powershell
-# Test only caching functionality
-Invoke-Pester -Path ./Tests -TestNameFilter '*cache*'
-```
-
-### Test with Verbose Output
-
-```powershell
-# See detailed test execution
-$VerbosePreference = 'Continue'
-npm run test:pester
-$VerbosePreference = 'SilentlyContinue'
-```
-
-### Generate Test Report
-
-```powershell
-# Generate XML report for CI
-Invoke-Pester -Path ./Tests -OutputFile testResults.junit.xml -OutputFormat JUnitXml
-```
-
-## Linting (2)
-
-### `npm run lint` (2)
-
-Run ScriptAnalyzer against the module:
-
-```powershell
-npm run lint
-```
-
-Checks:
-
-- Cmdlet naming conventions
-- Parameter naming
-- Comment-based help quality
-- Code style consistency
-- Security concerns
-
-### `npm run lint:strict` (2)
-
-Run lint with tests included and warnings treated as errors:
-
-```powershell
-npm run lint:strict
-```
-
-Use before:
-
-- Pull request submission
-- Release publishing
-- Major commits
-
-### `npm run lint:fix` (2)
-
-Apply ScriptAnalyzer fixes where possible, then rerun lint:
-
-```powershell
-npm run lint:fix
-```
-
-Auto-fixes:
-
-- Indentation
-- Whitespace
-- Brace placement
-- Some code style issues
-
-Then reruns linting to verify all issues are resolved.
-
-## Documentation
-
-### `npm run docs:update-counts`
-
-Synchronize script-count markers across all documentation files:
-
-```powershell
-npm run docs:update-counts
-```
-
-Updates markers like:
-
-- `<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS -->` for the installed script inventory
-- `<!-- COLOR_CACHE_TOTAL -->15<!-- /COLOR_CACHE_TOTAL -->` for the renderers selected by `CachePolicy.psd1`
-
-Run after:
-
-- Adding new colorscripts
-- Removing scripts
-- Before commits/releases
-
-### `npm run docs:validate-links`
-
-Validate all markdown links:
-
-```powershell
-npm run docs:validate-links
-```
-
-Checks:
-
-- Internal file references
-- External URLs
-- Anchor links
-- Image references
-
-Fix broken links before publishing.
-
-## Release & Publishing
-
-### `npm run release:notes`
-
-Generate release notes using git-cliff:
-
-```powershell
-npm run release:notes
-```
-
-Outputs changelog from git history using conventional commits.
-
-### `npm run release:notes:latest`
-
-Generate only the latest version notes:
-
-```powershell
-npm run release:notes:latest
-```
-
-### `npm run release:verify`
-
-Verify release notes format:
-
-```powershell
-npm run release:verify
-```
-
-Checks:
-
-- CHANGELOG.md formatting
-- Version consistency
-- Link validity
-- Duplicate sections
-
-## Verification
-
-### `npm run verify` (2)
-
-Run non-mutating module lint and validate the PowerShell Gallery README size:
-
-```powershell
-npm run verify
-```
-
-Runs in order:
-
-1. Module linting without modifying source files
-2. PowerShell Gallery README size validation
-
-## Use this before
-
-- Committing to main
-- Creating pull requests
-- Preparing a broader build or release validation run
-
-## Utility Scripts
-
-### Manual npm Script Inspection
-
-View all available scripts:
-
-```powershell
-npm run
-```
-
-Or view the `package.json` file:
-
-```powershell
-Get-Content package.json | ConvertFrom-Json | Select-Object -ExpandProperty scripts
-```
-
-## Chaining Commands
-
-### Run multiple scripts in sequence
-
-```powershell
-npm run lint && npm test && npm run docs:update-counts
-```
-
-### Run scripts with arguments
-
-Pass arguments to scripts using `--`:
-
-```powershell
-# Run linter with specific file
-npm run lint -- .\ColorScripts-Enhanced\ColorScripts-Enhanced.psm1
-
-# Run Pester with verbose
-npm run test:pester -- -Verbose
-```
-
-## Environment Variables
-
-### PowerShell Paths
-
-Scripts automatically detect:
-
-- PowerShell executable location
-- Module path locations
-- Temp directory for test artifacts
-
-Override with:
-
-```powershell
-$env:PSROOT = "C:\Program Files\PowerShell\7"
-npm run test
-```
-
-### Test Configuration
-
-```powershell
-# Run tests with specific settings
-$env:PESTER_VERBOSITY = 'Detailed'
-npm run test:pester
-```
-
-## Troubleshooting npm Scripts
-
-### Script Won't Run
-
-```powershell
-# Ensure Node.js is installed
-node --version
-npm --version
-
-# Reinstall dependencies
-npm install
-
-# Clear cache
-npm cache clean --force
-```
-
-### PowerShell Execution Issues
-
-```powershell
-# Set execution policy if needed
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-
-# Or run with bypass flag
-npm test
-```
-
-### Permission Errors
-
-```powershell
-# Run PowerShell as Administrator if needed
-# Or use Process scope (temporary)
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
-```
-
-## Performance Optimization
-
-### Parallel Execution
-
-```powershell
-# Exercise the colorscript corpus in parallel (PowerShell 7+)
-pwsh -NoProfile -File ./ColorScripts-Enhanced/Test-AllColorScripts.ps1 -Parallel -ThrottleLimit 4
-```
-
-### Faster Linting
-
-```powershell
-# Skip test linting for faster feedback
-npm run lint
-# (vs. npm run lint:strict which includes tests)
-```
-
-### Selective Testing
-
-```powershell
-# Test only modified files
-npm test
-# (faster than full suite)
-```
-
-## CI/CD Integration
-
-These scripts are used in GitHub Actions workflows:
-
-- `.github/workflows/test.yml` - Uses `npm test` and `npm run test:pester`
-- `.github/workflows/publish.yml` - Uses `npm run build` and release scripts
-- `.github/workflows/lint.yml` - Uses `npm run lint:strict`
-
-See `.github/workflows/` for complete automation details.
-
-## Daily Development Workflow
-
-### Quick Development Loop
-
-```powershell
-# 1. Make code changes
-
-# 2. Quick test
-npm test
-
-# 3. Full validation before commit
-npm run verify
-
-# 4. Commit if all pass
-git commit -am "feat: your change"
-```
-
-### Before Pull Request
-
-```powershell
-# Complete validation suite
-npm run verify
-
-# Check documentation counts
-npm run docs:update-counts
-
-# Validate release notes
-npm run release:verify
-
-# Then push to GitHub
-git push origin feature-branch
-```
-
-### Before Release
-
-```powershell
-# Full verification
-npm run verify
-
-# Update documentation
-npm run docs:update-counts
-
-# Generate release notes
-npm run release:notes:latest
-
-# Build
-npm run build
-
-# Then publish via GitHub Actions
-```
-
-## Reference
-
-- **Build Script**: `scripts/build.ps1`
-- **Test Harness**: `scripts/Test-Module.ps1`
-- **Linter**: `scripts/Lint-Module.ps1`
-- **Documentation Script**: `scripts/Update-DocumentationCounts.ps1`
-- **Package Config**: `package.json`
-
----
-
-**Last Updated**: October 30, 2025
-
-- `<!-- COLOR_SCRIPT_COUNT -->3156<!-- /COLOR_SCRIPT_COUNT -->`
-
-### `npm run markdown:check`
-
-Run `markdown-link-check` across all repository documentation:
-
-```powershell
 npm run markdown:check
-```
-
-### `npm run readme:check`
-
-Check if the PowerShell Gallery README is within the 8KB size limit:
-
-```powershell
-npm run readme:check
-```
-
-### `npm run readme:check:strict`
-
-Strict README size check that fails if over limit:
-
-```powershell
-npm run readme:check:strict
-```
-
-## Package Management
-
-### `npm run package:metadata`
-
-Inject README/license/icon metadata into a generated package before publishing:
-
-```powershell
-npm run package:metadata -- --PackagePath path/to/package.nupkg
-```
-
-## ColorScript Utilities
-
-### `npm run scripts:convert`
-
-Convert an ANSI file into a PowerShell colorscript (Node-based converter):
-
-```powershell
-npm run scripts:convert -- path/to/artwork.ans
-```
-
-### `npm run scripts:convert:ps`
-
-Convert using the PowerShell converter:
-
-```powershell
-npm run scripts:convert:ps
-```
-
-### `npm run scripts:convert:advanced`
-
-Convert using the advanced PowerShell converter with enhanced features:
-
-```powershell
-npm run scripts:convert:advanced
-```
-
-### `npm run scripts:split`
-
-Split a tall ANSI or PowerShell script into multiple chunks:
-
-```powershell
-npm run scripts:split -- file.ans --max-height 50
-```
-
-### `npm run scripts:format`
-
-Format and standardize colorscript files:
-
-```powershell
-npm run scripts:format
-```
-
-### `npm run scripts:count`
-
-Count the total number of colorscripts:
-
-```powershell
-npm run scripts:count
-```
-
-### `npm run scripts:test-all`
-
-Execute every colorscript to validate they all work:
-
-```powershell
-npm run scripts:test-all
-```
-
-## Release Notes
-
-### `npm run release:notes` (2)
-
-Generate unreleased notes (stripped header) for PowerShell Gallery publishing:
-
-```powershell
-npm run release:notes
-```
-
-Output: `dist/PowerShellGalleryReleaseNotes.md`
-
-### `npm run release:notes:latest` (2)
-
-Generate the most recent tagged release notes:
-
-```powershell
-npm run release:notes:latest
-```
-
-Output: `dist/LatestReleaseNotes.md`
-
-### `npm run release:verify` (2)
-
-Validate CHANGELOG.md against the module manifest and git-cliff configuration:
-
-```powershell
-npm run release:verify
-```
-
-## Development Workflow
-
-Typical development workflow using npm scripts:
-
-```powershell
-# 1. Make changes to module code
-
-# 2. Update documentation counts
-npm run docs:update-counts
-
-# 3. Run linting with auto-fix
-npm run lint:fix
-
-# 4. Run tests
+npm run verify:strict
 npm test
-
-# 5. Run full verification
-npm run verify
-
-# 6. Build module
-npm run build
 ```
 
-## CI/CD Integration (2)
-
-The GitHub Actions workflows use these npm scripts:
-
-- **Test Workflow** - `npm test`, `npm run lint:strict`
-- **Publish Workflow** - `npm run build`, `npm run release:notes`
-- **Link Check** - `npm run markdown:check`
-
-## Requirements
-
-The npm scripts require:
-
-- **Node.js** 18+ (for ANSI conversion scripts)
-- **PowerShell** 5.1+ or PowerShell 7.0+
-- **npm** dependencies installed (`npm install`)
-
-Developer-specific PowerShell modules:
-
-- **Pester** 6.0.1 (for testing)
-- **PSScriptAnalyzer** (for linting)
-- **platyPS** (optional, for help generation)
-
-Install PowerShell modules:
-
-```powershell
-Install-Module -Name Pester -RequiredVersion 6.0.1 -Force -SkipPublisherCheck
-Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
-Install-Module -Name platyPS -Force -SkipPublisherCheck  # Optional
-```
-
-## See Also
-
-- [Development Guide](DEVELOPMENT.md) - Complete development workflow
-- [Testing Guide](TESTING.md) - Testing procedures
-- [Linting Guide](LINTING.md) - Code quality standards
-- [Publishing Guide](PUBLISHING.md) - Release and publishing process
+Before a release, also run `npm run release:verify` and follow [PUBLISHING.md](PUBLISHING.md).

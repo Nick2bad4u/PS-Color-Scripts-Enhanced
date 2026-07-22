@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration
 Locale: zh-CN
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Set-ColorScriptConfiguration
 ---
@@ -13,7 +13,7 @@ title: Set-ColorScriptConfiguration
 
 ## SYNOPSIS
 
-修改 ColorScripts-Enhanced 配置设置。
+保留对 ColorScripts-Enhanced 缓存和启动配置的更改。
 
 ## SYNTAX
 
@@ -26,72 +26,59 @@ Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <b
 
 ## ALIASES
 
-This command has no aliases.
+此命令没有别名。
 
 ## DESCRIPTION
 
-使用持久存储更新 ColorScripts-Enhanced 配置设置。此 cmdlet 允许通过用户可配置选项自定义模块行为。
-
-可配置设置包括：
-
-- 缓存目录位置
-- 性能优化偏好
-- 默认显示行为
-- 模块操作设置
-
-更改会自动保存到用户特定的配置文件中，并在 PowerShell 会话之间保持。使用 Get-ColorScriptConfiguration 查看当前设置。
+`Set-ColorScriptConfiguration` 提供了一种持久的方法来自定义 ColorScripts-Enhanced 模块的行为和存储位置。此 cmdlet 更新模块的配置文件，允许您控制脚本呈现和存储的各个方面。
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 
 ```powershell
-Set-ColorScriptConfiguration -CachePath "C:\MyCache"
+Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -AutoShowOnImport:$true -ProfileAutoShow:$false -DefaultScript 'bars'
 ```
 
-设置自定义缓存目录路径。
+将缓存移至 `D:/Temp/ColorScriptsCache`，启用模块导入时自动显示，禁用配置文件自动显示，并将 `bars` 设置为默认脚本。
 
 ### EXAMPLE 2
 
 ```powershell
-Set-ColorScriptConfiguration -CachePath $env:TEMP
+Set-ColorScriptConfiguration -DefaultScript '' -PassThru
 ```
 
-使用系统临时目录进行缓存存储。
+清除默认脚本并返回生成的配置对象，以便您验证设置是否已删除。
 
 ### EXAMPLE 3
 
 ```powershell
-Set-ColorScriptConfiguration -CachePath "~/.colorscript-cache"
+Set-ColorScriptConfiguration -CachePath "$env:TEMP\ColorScripts" -PassThru | Format-List
 ```
 
-使用 Unix 风格的主目录表示法设置缓存路径。
+将缓存重新定位到 Windows TEMP 目录并以列表格式显示完整更新的配置。对于临时测试场景很有用。
 
 ### EXAMPLE 4
 
 ```powershell
-Set-ColorScriptConfiguration -WhatIf
+Set-ColorScriptConfiguration -AutoShowOnImport:$false
 ```
 
-显示 cmdlet 运行时会发生什么，而不实际运行 cmdlet。
+模块加载时禁用自动颜色脚本渲染。如果您更喜欢手动控制脚本的显示时间，这很有用。
 
 ### EXAMPLE 5
 
 ```powershell
-# 备份当前配置，修改，然后在需要时恢复
-$currentConfig = Get-ColorScriptConfiguration
-Set-ColorScriptConfiguration -CachePath "D:\Cache"
-# ... 测试新配置 ...
-# Set-ColorScriptConfiguration -CachePath $currentConfig.CachePath
+Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultScript 'crunch'
 ```
 
-演示配置备份和恢复。
+使用波浪号扩展设置 Linux/macOS 样式的缓存路径，并将“crunch”配置为所有操作的默认脚本。
 
 ## PARAMETERS
 
 ### -AutoShowOnImport
 
-Controls whether importing the module automatically displays a colorscript.
+导入模块时启用或禁用颜色脚本的自动渲染。启用后 (`$true`)，模块导入后会立即显示彩色脚本，提供即时视觉反馈。禁用 (`$false`) 时，脚本仅在显式调用时显示。如果未指定，则现有设置保持不变。
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
@@ -112,7 +99,11 @@ HelpMessage: ''
 
 ### -CachePath
 
-指定存储颜色脚本缓存文件的目录路径。
+指定存储渲染后的 `.cache` 有效负载和 `.cacheinfo` 验证伴随元数据文件的目录。源颜色脚本和模块元数据保留在已安装的模块中。支持绝对路径、相对路径（从当前位置解析）、环境变量（例如 `$env:USERPROFILE`）和波形符（`~`）扩展。
+
+如果指定的目录不存在，则会自动创建并具有适当的权限。提供空字符串 (`''`) 以清除自定义路径并恢复到特定于平台的默认位置。如果未指定，则保留现有的缓存路径设置。
+
+**注意**：更改缓存路径不会自动迁移现有的缓存文件。您可能需要手动复制文件或允许重新生成它们。
 
 ```yaml
 Type: System.String
@@ -133,7 +124,7 @@ HelpMessage: ''
 
 ### -Confirm
 
-在运行 cmdlet 之前提示您确认。
+在运行 cmdlet 之前提示您进行确认。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -155,7 +146,11 @@ HelpMessage: ''
 
 ### -DefaultScript
 
-Specifies the default colorscript used by startup and profile integration.
+设置或清除配置文件助手、自动显示功能以及命令中未明确指定脚本时使用的默认颜色脚本名称。这应该与不带扩展名的脚本文件的基本名称匹配（例如 `'bars'`，而不是 `'bars.ps1'`）。
+
+提供一个空字符串 (`''`) 以删除存储的默认值，恢复到模块级默认行为（通常是随机选择）。当省略此参数时，当前默认脚本设置不变。
+
+指定的脚本必须存在于模块的脚本目录中才能成功使用。
 
 ```yaml
 Type: System.String
@@ -176,7 +171,7 @@ HelpMessage: ''
 
 ### -h
 
-显示此命令的详细帮助，而不执行操作。
+显示该命令的详细帮助而不执行操作。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -198,7 +193,9 @@ HelpMessage: ''
 
 ### -PassThru
 
-Returns the effective configuration after the requested changes succeed.
+进行更改后返回更新的配置对象。如果没有此开关，cmdlet 将静默运行（无输出）。返回的对象具有与 `Get-ColorScriptConfiguration` 相同的结构，可以检查、存储或通过管道传输到其他 cmdlet 以进行进一步处理。
+
+对于验证、记录或链接配置命令很有用。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -219,7 +216,9 @@ HelpMessage: ''
 
 ### -ProfileAutoShow
 
-Controls whether profile integration displays a colorscript after importing the module.
+控制 `Add-ColorScriptProfile` 生成的配置文件片段是否包含自动 `Show-ColorScript` 调用。当 `$true` 时，配置文件代码将在每次 shell 启动时显示彩色脚本。当 `$false` 时，配置文件将加载模块，但不会自动显示脚本。
+
+该设置仅影响新生成的配置文件代码；现有的配置文件修改不会自动更新。省略此参数将使当前设置保持不变。
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
@@ -240,7 +239,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-显示 cmdlet 运行时会发生什么。cmdlet 不会运行。
+在仅报告将发生的情况而不执行操作的模式下运行命令。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -262,30 +261,34 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+此 cmdlet 支持以下常用参数：
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
-[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+有关详细信息，请参阅
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216)。
 
 ## INPUTS
 
 ### None
 
-此 cmdlet 不接受来自管道的输入。
+此 cmdlet 不接受管道输入。
 
 ## OUTPUTS
 
 ### None (2)
 
-此 cmdlet 不向管道返回输出。
+默认情况下，此 cmdlet 不产生输出。
+
+### System.Collections.Hashtable
+
+当指定 `-PassThru` 时，返回由 `Get-ColorScriptConfiguration` 生成的嵌套哈希表：缓存值位于 `Cache` 下，启动值位于 `Startup` 下。
 
 ## NOTES
 
-**作者：** Nick
-**模块：** ColorScripts-Enhanced
-**需要：** PowerShell 5.1 或更高版本
+仅当验证和确认成功后，配置才会保留。 `-WhatIf` 不执行文件系统写入操作。使用`Get-ColorScriptConfiguration`查看操作后的有效值和存储路径。
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [在线版本](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
 

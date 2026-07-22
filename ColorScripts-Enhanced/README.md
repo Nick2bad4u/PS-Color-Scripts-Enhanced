@@ -41,18 +41,19 @@ A cross-platform PowerShell module for discovering and displaying ANSI colorscri
 
 ## ✨ Features
 
-- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
-- ⚡ **Selective Caching** — Reuses output for the 15 computational renderers listed in `CachePolicy.psd1`; static scripts execute directly
+- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->3186+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
+- ⚡ **Selective Caching** — Reuses output for the 15 computational renderers listed in `CachePolicy.psd1`; deterministic bundled scripts render in-process
 - 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
 - ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
 - **Rich Metadata** — Filter the catalog by name, category, and tag or export it as structured data
-- 🐾 **2500~ Pokémon ColorScripts** — Opt-in Pokémon-themed colorscripts
-  * Note: Pokémon art is filtered by default to keep load times fast. Opt in with `-IncludePokemon` on relevant commands.
+- 🐾 **Thousands of Pokémon ColorScripts** — Pokémon and shiny-Pokémon collections are available by explicit opt-in
+
+  Pokémon art is filtered by default to keep routine inventory and random selection lean. Opt in with `-IncludePokemon` on relevant commands.
 - 🌍 **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
 - 🧩 **Easy to Use** — Simple commands with tab completion
-- 🗄️ **Centralized Cache** — OS-wide in `AppData/ColorScripts-Enhanced/cache`
+- 🗄️ **Platform-Aware Cache** — Query `(Get-ColorScriptConfiguration).Cache.EffectivePath` for the user-scoped location
 - 🔄 **Auto-Update** — Cache invalidates automatically when scripts change
-- 📚 **Complete Help** — Full comment-based help for all commands
+- 📚 **Localized External Help** — Markdown and generated MAML topics for all 10 public commands in 10 cultures
 
 ## 🚀 Quick Start
 
@@ -125,14 +126,13 @@ Show-ColorScript
 
 # Option 3: Always include Pokémon art
 Add-ColorScriptProfile -IncludePokemon -SkipPokemonPrompt
+```
 
-# Pokémon are opt-in by default
+Pokémon are opt-in by default:
+
 - The module filters Pokémon colorscripts by default to keep startup lean.
 - Opt in with `-IncludePokemon` on `Show-ColorScript`, `New-ColorScriptCache`, or `Add-ColorScriptProfile`.
 - Direct Pokémon names always work (e.g., `Show-ColorScript -Name Pikachu`) even without `-IncludePokemon`.
-
-# Tip: If Pokémon are filtered by default, specifying a Pokémon script by name still works (e.g., `Show-ColorScript -Name Pikachu`).
-```
 
 **Create a custom alias:**
 
@@ -142,13 +142,18 @@ Set-Alias -Name cs -Value Show-ColorScript
 
 ## 🔧 Commands Reference
 
-| Command | Alias | Description |
-|---------|-------|-------------|
-| `Show-ColorScript` | `scs` | Display a colorscript (random or by name) |
-| `Get-ColorScriptList` | — | List available colorscripts |
-| `New-ColorScriptCache` | — | Build caches for policy-selected computational scripts |
-| `Clear-ColorScriptCache` | — | Remove cached files |
-| `Add-ColorScriptProfile` | — | Add module to your PowerShell profile |
+| Command                          | Alias                                               | Description                                      |
+| -------------------------------- | --------------------------------------------------- | ------------------------------------------------ |
+| `Show-ColorScript`               | `scs`                                               | Render, list, or browse colorscripts             |
+| `Get-ColorScriptList`            | —                                                   | Query colorscript inventory records              |
+| `New-ColorScriptCache`           | `Update-ColorScriptCache`, `Build-ColorScriptCache` | Build policy-selected cache entries              |
+| `Clear-ColorScriptCache`         | —                                                   | Remove selected cache entries                    |
+| `Add-ColorScriptProfile`         | —                                                   | Add a managed module profile block               |
+| `Get-ColorScriptConfiguration`   | —                                                   | Read effective configuration                     |
+| `Set-ColorScriptConfiguration`   | —                                                   | Persist cache and startup preferences            |
+| `Reset-ColorScriptConfiguration` | —                                                   | Restore built-in configuration defaults          |
+| `Export-ColorScriptMetadata`     | —                                                   | Return metadata objects or write JSON            |
+| `New-ColorScript`                | —                                                   | Scaffold a UTF-8 colorscript file                |
 
 **Get help for any command:**
 
@@ -184,7 +189,7 @@ Get-Module ColorScripts-Enhanced -ListAvailable
 ## 📋 Requirements
 
 - **PowerShell:** 5.1+ (7+ recommended)
-- **OS:** Windows 10/11, macOS 10.13+, or Linux
+- **OS:** Windows, macOS, or Linux on a PowerShell-supported platform
 - **Terminal:** Any ANSI-capable terminal (Windows Terminal, VS Code, iTerm2, etc.)
 
 ---
@@ -245,13 +250,15 @@ Built upon the work of:
 - [Derek Taylor (DistroTube)](https://gitlab.com/dwt1/shell-color-scripts) — Original shell-color-scripts
 - [Scott McKendry](https://github.com/scottmckendry/ps-color-scripts) — PowerShell port
 
-The collection incorporates art from upstream projects and public archives, including [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts), [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts), [16colo.rs](https://16colo.rs/), [ArtScene](http://artscene.textfiles.com/artpacks/), and [Pokemon-Colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts). Those sources may contain work by individual artists whose terms differ from the archive or project that distributes it.
+The collection incorporates art from upstream projects and reviewed archives, including [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts), [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts), [Pokemon-Colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts), [16colo.rs](https://16colo.rs/), [ArtScene](http://artscene.textfiles.com/artpacks/), [botany](https://github.com/jifunks/botany), [os-ansi](https://codeberg.org/NNB/os-ansi), and the [Roy/SAC ANSI gallery](https://www.roysac.com/roy_ansishow.html). Those sources may contain work by individual artists whose terms differ from the archive or project that distributes it.
 
 ## 📄 License
 
 Project-authored code is provided under the [Unlicense](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/LICENSE). Third-party ANSI art and other incorporated works remain subject to their original authors' rights and source terms; the repository license does not relicense those works.
 
-The current catalog predates complete per-file provenance records. New imports should record the source URL, artist or pack attribution, and applicable license or permission so a future `THIRD_PARTY_NOTICES` inventory can be complete.
+### Artwork Sources and Provenance
+
+New curated imports are mapped in [ArtworkProvenance.psd1](ArtworkProvenance.psd1), with preserved evidence under [ThirdPartyNotices](ThirdPartyNotices/) and browsing/licensing context in the [Artwork Sources guide](docs/ARTWORK_SOURCES.md). The older catalog predates complete per-file provenance records; missing historical attribution must not be replaced with guesses.
 
 ---
 

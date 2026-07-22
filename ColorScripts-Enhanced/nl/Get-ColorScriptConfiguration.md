@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration
 Locale: nl
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Get-ColorScriptConfiguration
 ---
@@ -13,7 +13,7 @@ title: Get-ColorScriptConfiguration
 
 ## SYNOPSIS
 
-Haalt de huidige ColorScripts-Enhanced module configuratie-instellingen op.
+Haalt de huidige configuratie-instellingen van de ColorScripts-Enhanced-module op.
 
 ## SYNTAX
 
@@ -25,26 +25,24 @@ Get-ColorScriptConfiguration [-h]
 
 ## ALIASES
 
-This command has no aliases.
+Deze opdracht heeft geen aliassen.
 
 ## DESCRIPTION
 
-`Get-ColorScriptConfiguration` haalt de effectieve moduleconfiguratie op, die verschillende aspecten van ColorScripts-Enhanced gedrag controleert. Dit omvat:
+`Get-ColorScriptConfiguration` retourneert een kopie van de effectieve moduleconfiguratie. Het huidige schema bevat:
 
-- **Cache-instellingen**: Locatie waar scriptmetadata en indexen worden opgeslagen voor prestatie-optimalisatie
-- **Opstartgedrag**: Vlaggen die controleren of scripts automatisch worden uitgevoerd wanneer PowerShell-sessies starten
-- **Padconfiguratie**: Aangepaste scriptmappen en zoekpaden
-- **Weergavevoorkeuren**: Standaard opmaak- en uitvoeropties
+- **Cache-instellingen**: de geconfigureerde overschrijving en opgeloste effectieve cachemap
+- **Opstartgedrag**: `AutoShowOnImport`, `ProfileAutoShow` en `DefaultScript`
 
-De configuratie wordt samengesteld uit meerdere bronnen in volgorde van prioriteit:
+De configuratie is samengesteld uit meerdere bronnen in volgorde van prioriteit:
 
-1. Ingebouwde module-standaardwaarden (laagste prioriteit)
+1. Standaardinstellingen ingebouwde module (laagste prioriteit)
 2. Aanhoudende gebruikersoverschrijvingen uit het configuratiebestand
-3. Sessiespecifieke wijzigingen (hoogste prioriteit)
+3. `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` voor het geretourneerde effectieve cachepad
 
 Het configuratiebestand bevindt zich doorgaans op `%APPDATA%\ColorScripts-Enhanced\config.json` op Windows of `~/.config/ColorScripts-Enhanced/config.json` op Unix-achtige systemen.
 
-De geretourneerde hashtable is een momentopname van de huidige configuratiestatus en kan veilig worden geïnspecteerd, gekloond of geserialiseerd zonder de actieve configuratie te beïnvloeden.
+De geretourneerde hashtabel is een momentopname van de huidige configuratiestatus en kan veilig worden geïnspecteerd, gekloond of geserialiseerd zonder de actieve configuratie te beïnvloeden.
 
 ## EXAMPLES
 
@@ -54,7 +52,7 @@ De geretourneerde hashtable is een momentopname van de huidige configuratiestatu
 Get-ColorScriptConfiguration
 ```
 
-Toont de huidige configuratie met behulp van de standaard tabelweergave, met alle cache- en opstartinstellingen.
+Toont de huidige configuratie met behulp van de standaardtabelweergave, met alle cache- en opstartinstellingen.
 
 ### EXAMPLE 2
 
@@ -62,23 +60,25 @@ Toont de huidige configuratie met behulp van de standaard tabelweergave, met all
 Get-ColorScriptConfiguration | ConvertTo-Json -Depth 4
 ```
 
-Serialiseert de configuratie naar JSON-formaat voor logging, debugging of exporteren naar andere tools.
+Serialiseert de configuratie naar JSON-indeling voor logboekregistratie, foutopsporing of export naar andere tools.
 
 ### EXAMPLE 3
 
 ```powershell
 $config = Get-ColorScriptConfiguration
-$config.Cache.Location
+$config.Cache.EffectivePath
 ```
 
-Haalt de configuratie op en opent het cachelocatiepad direct vanuit de hashtable.
+Haalt de opgeloste cachemap op. `Cache.Path` blijft de optionele, door de gebruiker geconfigureerde override;
+`Cache.EffectivePath` toont de map die de module daadwerkelijk gebruikt na de standaardinstellingen van het platform en
+omgevingsoverschrijvingen worden toegepast.
 
 ### EXAMPLE 4
 
 ```powershell
 $config = Get-ColorScriptConfiguration
-if ($config.Startup.Enabled) {
-    Write-Host "Startup scripts are enabled"
+if ($config.Startup.AutoShowOnImport) {
+    Write-Host "Opstartscripts zijn ingeschakeld"
 }
 ```
 
@@ -90,69 +90,72 @@ Controleert of opstartscripts zijn ingeschakeld in de huidige configuratie.
 Get-ColorScriptConfiguration | Format-List *
 ```
 
-Toont alle configuratie-eigenschappen in een gedetailleerde lijstindeling voor uitgebreide inspectie.
+Toont alle configuratie-eigenschappen in een gedetailleerd lijstformaat voor uitgebreide inspectie.
 
 ### EXAMPLE 6
 
 ```powershell
 $config = Get-ColorScriptConfiguration
-Write-Host "Cache Path: $($config.Cache.Path)"
-Write-Host "Profile Auto-Show: $($config.Startup.ProfileAutoShow)"
-Write-Host "Default Script: $($config.Startup.DefaultScript)"
+Write-Host "Cachepad: $($config.Cache.Path)"
+Write-Host "Automatische profielweergave: $($config.Startup.ProfileAutoShow)"
+Write-Host "Standaardscript: $($config.Startup.DefaultScript)"
 ```
 
-Extraheert en toont specifieke configuratie-eigenschappen voor audit- of scriptingdoeleinden.
+Extraheert en toont specifieke configuratie-eigenschappen voor audit- of scriptdoeleinden.
 
 ### EXAMPLE 7
 
 ```powershell
 $config = Get-ColorScriptConfiguration
 if ($config.Cache.Path) {
-    Write-Host "Custom cache path configured: $($config.Cache.Path)"
+    Write-Host "Aangepast cachepad geconfigureerd: $($config.Cache.Path)"
 } else {
-    Write-Host "Using default cache path"
+    Write-Host "Standaardcachepad wordt gebruikt"
 }
+
+Write-Host "Effectief cachepad: $($config.Cache.EffectivePath)"
 ```
 
-Bepaalt of een aangepast cachepad is geconfigureerd versus het gebruik van module-standaardwaarden.
+Bepaalt of een aangepast cachepad is geconfigureerd versus het gebruik van modulestandaarden.
 
 ### EXAMPLE 8
 
 ```powershell
-Export-ColorScriptMetadata | ConvertTo-Json -Depth 5 |
+$config = Get-ColorScriptConfiguration
+$config | ConvertTo-Json -Depth 5 |
     Out-File -FilePath "./backup-config.json" -Encoding UTF8
 ```
 
-Maakt een back-up van de huidige configuratie naar een JSON-bestand voor archivering of disaster recovery.
+Maakt een back-up van de huidige configuratie naar een JSON-bestand voor archivering of noodherstel.
 
 ### EXAMPLE 9
 
 ```powershell
-# Compare current config with defaults
+# Vergelijk de huidige configuratie met de standaardwaarden
 $current = Get-ColorScriptConfiguration
 Reset-ColorScriptConfiguration -WhatIf
-# Review the -WhatIf output to see what would change
+# Bekijk de -WhatIf-uitvoer om te zien wat er zou veranderen
 ```
 
-Vergelijkt huidige configuratie met module-standaardwaarden om aangepaste instellingen te identificeren.
+Vergelijkt de huidige configuratie met de standaardinstellingen van de module om aangepaste instellingen te identificeren.
 
 ### EXAMPLE 10
 
 ```powershell
-# Monitor configuration changes across sessions
+# Controleer configuratiewijzigingen tussen sessies
 Get-ColorScriptConfiguration |
     Select-Object Cache, Startup |
     Format-List |
     Out-File "./config-snapshot.txt" -Append
 ```
 
-Creëert tijdstempel-momentopnamen van configuratie voor het volgen van veranderingen in de tijd.
+Creëert momentopnamen van de configuratie met tijdstempel om wijzigingen in de loop van de tijd bij te houden.
 
 ## PARAMETERS
 
 ### -h
 
-Toont gedetailleerde hulp voor deze opdracht zonder de bewerking uit te voeren.
+Geeft gedetailleerde hulp weer voor deze opdracht zonder de bewerking uit te voeren.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -174,55 +177,56 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Deze cmdlet ondersteunt de algemene parameters:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Zie voor meer informatie
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
 
-Deze cmdlet accepteert geen pipeline-invoer.
+Deze cmdlet accepteert geen pijplijninvoer.
 
 ## OUTPUTS
 
 ### System.Collections.Hashtable
 
-Retourneert een geneste hashtable met de volgende structuur:
+Retourneert een geneste hashtabel met de volgende structuur:
 
-- **Cache** (Hashtable): Cache-gerelateerde instellingen
-  - **Location** (String): Pad naar de cachemap
-  - **Enabled** (Boolean): Of caching actief is
-- **Startup** (Hashtable): Opstartgedrag-instellingen
-  - **Enabled** (Boolean): Of scripts worden uitgevoerd bij sessiestart
-  - **ScriptName** (String): Naam van het standaard opstartscript
-- **Paths** (Array): Extra scriptzoekpaden
-- **Display** (Hashtable): Uitvoervormgevingsvoorkeuren
+- **Cache** (hashtabel): cachegerelateerde instellingen
+  - **Path** (String): Optionele overschrijving van het persistente cachepad
+  - **EffectivePath** (String): Vastgestelde cachemap die momenteel door de module wordt gebruikt
+- **Startup** (hashtabel): instellingen voor opstartgedrag
+  - **AutoShowOnImport** (Boolean): Of import het opstartweergavegedrag aanroept
+  - **ProfileAutoShow** (Boolean): Standaard keuze voor automatische weergave voor beheerde profielblokken
+  - **DefaultScript** (String): Optioneel benoemde startup colorscript
 
 ## NOTES
 
-**Module Initialisatie**: De configuratie wordt automatisch geïnitialiseerd wanneer de ColorScripts-Enhanced module wordt geladen. Deze cmdlet haalt de huidige in-memory configuratiestatus op.
+**Module-initialisatie**: de configuratie wordt automatisch geïnitialiseerd wanneer de ColorScripts-Enhanced-module wordt geladen. Met deze cmdlet wordt de huidige configuratiestatus in het geheugen opgehaald.
 
-**Geen Wijzigingen**: Het aanroepen van deze cmdlet is alleen-lezen en wijzigt geen aangehouden instellingen of de actieve configuratie.
+**Geen wijzigingen**: het aanroepen van deze cmdlet is alleen-lezen en wijzigt geen blijvende instellingen of de actieve configuratie.
 
-**Thread Veiligheid**: De geretourneerde hashtable is een kopie van de configuratie, waardoor het veilig is voor gelijktijdige toegang en wijziging zonder de interne status van de module te beïnvloeden.
+**Thread Safety**: De geretourneerde hashtabel is een kopie van de configuratie, waardoor deze veilig is voor gelijktijdige toegang en wijziging zonder de interne status van de module te beïnvloeden.
 
-**Prestaties**: Configuratie-opvraging is lichtgewicht en geschikt voor frequente aanroepen, aangezien het de gecachte in-memory configuratie retourneert in plaats van van schijf te lezen.
+**Performance**: Het ophalen van configuraties is lichtgewicht en geschikt voor frequente oproepen, omdat het de in de cache opgeslagen configuratie in het geheugen retourneert in plaats van vanaf schijf te lezen.
 
-**Configuratiebestand Formaat**: De aangehouden configuratie gebruikt JSON-formaat met UTF-8 codering. Handmatig bewerken wordt ondersteund maar niet aanbevolen; gebruik `Set-ColorScriptConfiguration` in plaats daarvan.
+**Configuratiebestandsindeling**: de blijvende configuratie gebruikt de JSON-indeling met UTF-8-codering. Handmatig bewerken wordt ondersteund, maar wordt niet aanbevolen; gebruik in plaats daarvan `Set-ColorScriptConfiguration`.
 
-### Beste Praktijken
+### Beste praktijken
 
-- Query configuratie eenmaal en hergebruik het resultaat
-- Valideer configuratie voordat u waarden gebruikt
-- Monitor configuratie voor drift in de tijd
-- Houd configuratieback-ups in versiebeheer
-- Documenteer eventuele aanpassingen aan configuratie
-- Test configuratiewijzigingen eerst in niet-productie
-- Gebruik configuratie-auditlogs voor compliance
+- Configuratie één keer opvragen en het resultaat opnieuw gebruiken
+- Valideer de configuratie voordat u waarden gebruikt
+- Controleer de configuratie op drift in de loop van de tijd
+- Bewaar back-ups alleen waar ze geen machinespecifieke paden of privégegevens kunnen vrijgeven
+- Documenteer eventuele aanpassingen aan de configuratie
+- Test configuratiewijzigingen eerst in niet-productieomgeving
+- Gebruik configuratie-auditlogboeken voor compliance
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
+- [Onlineversie](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
 

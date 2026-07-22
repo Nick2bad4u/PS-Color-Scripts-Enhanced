@@ -53,7 +53,24 @@
             'cosmic-mandala',
             'lunar-orbit',
             'twilight-dunes',
-            'sunrise-lattice'
+            'sunrise-lattice',
+            'botany-agave',
+            'botany-baobab',
+            'botany-brugmansia',
+            'botany-cactus',
+            'botany-columbine',
+            'botany-daffodil',
+            'botany-fern',
+            'botany-ficus',
+            'botany-flytrap',
+            'botany-hemp',
+            'botany-iris',
+            'botany-jadeplant',
+            'botany-lithops',
+            'botany-moss',
+            'botany-palm',
+            'botany-snapdragon',
+            'botany-sunflower'
         )
 
         Artistic        = @(
@@ -78,6 +95,8 @@
             'prism-diagonals',
             'sdf-neon-orb',
             'starlit-plaza',
+            'roy-sac-faith',
+            'roy-sac-sky',
             'wave-interference',
             'waveform-spectra',
             'wavelet-ridges',
@@ -2807,7 +2826,16 @@
             'nerd-font-glyphs',
             'rgb-spectrum',
             'awk-rgb-test',
-            'spectrum'
+            'spectrum',
+            'os-ansi-alpine',
+            'os-ansi-freebsd',
+            'os-ansi-guix',
+            'os-ansi-haiku',
+            'os-ansi-nixos',
+            'os-ansi-openbsd',
+            'os-ansi-popos',
+            'os-ansi-void',
+            'roy-sac-os-amiga-new'
         )
 
         Logos           = @(
@@ -2815,7 +2843,17 @@
             'debian',
             'manjaro',
             'kaisen',
-            'us-tuxedomask-1'
+            'us-tuxedomask-1',
+            'os-ansi-alpine',
+            'os-ansi-freebsd',
+            'os-ansi-guix',
+            'os-ansi-haiku',
+            'os-ansi-nixos',
+            'os-ansi-openbsd',
+            'os-ansi-popos',
+            'os-ansi-void',
+            'roy-sac-dgzn',
+            'roy-sac-dimx'
         )
 
         Patterns        = @(
@@ -2933,7 +2971,37 @@
             'arrows',
             'fade',
             'illumina',
-            'pixel-falls'
+            'pixel-falls',
+            'botany-agave',
+            'botany-baobab',
+            'botany-brugmansia',
+            'botany-cactus',
+            'botany-columbine',
+            'botany-daffodil',
+            'botany-fern',
+            'botany-ficus',
+            'botany-flytrap',
+            'botany-hemp',
+            'botany-iris',
+            'botany-jadeplant',
+            'botany-lithops',
+            'botany-moss',
+            'botany-palm',
+            'botany-snapdragon',
+            'botany-sunflower',
+            'os-ansi-alpine',
+            'os-ansi-freebsd',
+            'os-ansi-guix',
+            'os-ansi-haiku',
+            'os-ansi-nixos',
+            'os-ansi-openbsd',
+            'os-ansi-popos',
+            'os-ansi-void',
+            'roy-sac-dgzn',
+            'roy-sac-dimx',
+            'roy-sac-faith',
+            'roy-sac-os-amiga-new',
+            'roy-sac-sky'
         )
 
         RGB             = @(
@@ -3250,6 +3318,38 @@
         'dna'                           = @('ASCIIArt', 'Science', 'Biology')
         'thisisfine'                    = @('ASCIIArt', 'Meme', 'Funny')
 
+        # Curated ANSI collections
+        'botany-agave'                  = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-baobab'                 = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-brugmansia'             = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-cactus'                 = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-columbine'              = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-daffodil'               = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-fern'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-ficus'                  = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-flytrap'                = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-hemp'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-iris'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-jadeplant'              = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-lithops'                = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-moss'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-palm'                   = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-snapdragon'             = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'botany-sunflower'              = @('ANSI', 'ASCIIArt', 'Nature', 'Plant', 'Botany', 'Mature')
+        'os-ansi-alpine'                = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'Linux', 'OSAnsi')
+        'os-ansi-freebsd'               = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'BSD', 'OSAnsi')
+        'os-ansi-guix'                  = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'Linux', 'OSAnsi')
+        'os-ansi-haiku'                 = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'Haiku', 'OSAnsi')
+        'os-ansi-nixos'                 = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'Linux', 'OSAnsi')
+        'os-ansi-openbsd'               = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'BSD', 'OSAnsi')
+        'os-ansi-popos'                 = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'Linux', 'OSAnsi')
+        'os-ansi-void'                  = @('ANSI', 'ASCIIArt', 'Logo', 'OperatingSystem', 'Linux', 'OSAnsi')
+        'roy-sac-dgzn'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'PublicDomain')
+        'roy-sac-dimx'                  = @('ANSI', 'ASCIIArt', 'Logo', 'BBS', 'RoySAC', 'PublicDomain')
+        'roy-sac-faith'                 = @('ANSI', 'ASCIIArt', 'Illustration', 'BBS', 'RoySAC', 'PublicDomain')
+        'roy-sac-os-amiga-new'          = @('ANSI', 'ASCIIArt', 'Amiga', 'BBS', 'RoySAC', 'PublicDomain')
+        'roy-sac-sky'                   = @('ANSI', 'ASCIIArt', 'Illustration', 'BBS', 'RoySAC', 'PublicDomain')
+
         # Mathematical & Physics
         'newton-basins'                 = @('Math', 'Fractal', 'ComplexPlane', 'Advanced')
         'fourier-epicycles'             = @('Math', 'Animation', 'Physics')
@@ -3549,6 +3649,38 @@
         'terminal-benchmark'            = 'Performance benchmark for terminal rendering speed.'
         'spectrum'                      = 'Full color spectrum display.'
         'nerd-font-glyphs'              = 'Collection of useful Nerd Font icons and symbols.'
+
+        # Curated ANSI collections
+        'botany-agave'                  = "Mature agave scene from Jacob Funke's botany terminal garden."
+        'botany-baobab'                 = "Mature baobab scene from Jacob Funke's botany terminal garden."
+        'botany-brugmansia'             = "Mature brugmansia scene from Jacob Funke's botany terminal garden."
+        'botany-cactus'                 = "Mature cactus scene from Jacob Funke's botany terminal garden."
+        'botany-columbine'              = "Mature columbine scene from Jacob Funke's botany terminal garden."
+        'botany-daffodil'               = "Mature daffodil scene from Jacob Funke's botany terminal garden."
+        'botany-fern'                   = "Mature fern scene from Jacob Funke's botany terminal garden."
+        'botany-ficus'                  = "Mature ficus scene from Jacob Funke's botany terminal garden."
+        'botany-flytrap'                = "Mature Venus flytrap scene from Jacob Funke's botany terminal garden."
+        'botany-hemp'                   = "Mature hemp scene from Jacob Funke's botany terminal garden."
+        'botany-iris'                   = "Mature iris scene from Jacob Funke's botany terminal garden."
+        'botany-jadeplant'              = "Mature jade plant scene from Jacob Funke's botany terminal garden."
+        'botany-lithops'                = "Mature lithops scene from Jacob Funke's botany terminal garden."
+        'botany-moss'                   = "Mature moss scene from Jacob Funke's botany terminal garden."
+        'botany-palm'                   = "Mature palm scene from Jacob Funke's botany terminal garden."
+        'botany-snapdragon'             = "Mature snapdragon scene from Jacob Funke's botany terminal garden."
+        'botany-sunflower'              = "Mature sunflower scene from Jacob Funke's botany terminal garden."
+        'os-ansi-alpine'                = 'Compact Alpine Linux logo from the os-ansi collection.'
+        'os-ansi-freebsd'               = 'Compact FreeBSD logo from the os-ansi collection.'
+        'os-ansi-guix'                  = 'Compact GNU Guix logo from the os-ansi collection.'
+        'os-ansi-haiku'                 = 'Compact Haiku logo from the os-ansi collection.'
+        'os-ansi-nixos'                 = 'Compact NixOS logo from the os-ansi collection.'
+        'os-ansi-openbsd'               = 'Compact OpenBSD logo from the os-ansi collection.'
+        'os-ansi-popos'                 = 'Compact Pop!_OS logo from the os-ansi collection.'
+        'os-ansi-void'                  = 'Compact Void Linux logo from the os-ansi collection.'
+        'roy-sac-dgzn'                  = 'Digital Zone BBS logo artwork by Roy/SAC.'
+        'roy-sac-dimx'                  = 'Dream Station BBS composition by Roy/SAC.'
+        'roy-sac-faith'                 = 'Detailed Faith illustration by Roy/SAC.'
+        'roy-sac-os-amiga-new'          = 'Old-school Amiga computer composition by Roy/SAC.'
+        'roy-sac-sky'                   = 'Skylight BBS potion-themed composition by Roy/SAC.'
 
         # Terminal Themes
         'terminal'                      = 'Default terminal theme with balanced colors.'

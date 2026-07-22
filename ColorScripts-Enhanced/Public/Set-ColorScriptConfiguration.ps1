@@ -44,7 +44,11 @@ function Set-ColorScriptConfiguration {
                 Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveCachePath -f $CachePath) -ErrorId 'ColorScriptsEnhanced.InvalidCachePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $CachePath -Cmdlet $PSCmdlet
             }
 
-            if (-not (Test-Path -LiteralPath $resolvedCache)) {
+            if (Test-Path -LiteralPath $resolvedCache -PathType Leaf) {
+                Invoke-ColorScriptError -Message ($script:Messages.ConfiguredCachePathInvalid -f $CachePath) -ErrorId 'ColorScriptsEnhanced.InvalidCachePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $CachePath -Cmdlet $PSCmdlet
+            }
+
+            if (-not (Test-Path -LiteralPath $resolvedCache -PathType Container)) {
                 $cacheDirectoryToCreate = $resolvedCache
             }
 

@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList
 Locale: ru
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Get-ColorScriptList
 ---
@@ -13,7 +13,7 @@ title: Get-ColorScriptList
 
 ## SYNOPSIS
 
-Lists available colorscripts with optional filtering and rich metadata output.
+Перечисляет доступные цветовые сценарии с дополнительной фильтрацией и выводом расширенных метаданных.
 
 ## SYNTAX
 
@@ -26,23 +26,23 @@ Get-ColorScriptList [[-Name] <string[]>] [[-Category] <string[]>] [[-Tag] <strin
 
 ## ALIASES
 
-This command has no aliases.
+У этой команды нет псевдонимов.
 
 ## DESCRIPTION
 
-The `Get-ColorScriptList` cmdlet retrieves and displays all colorscripts packaged with the ColorScripts-Enhanced module. It provides flexible filtering options and multiple output formats to suit different use cases.
+Командлет `Get-ColorScriptList` извлекает и отображает все цветовые сценарии, упакованные с помощью модуля ColorScripts-Enhanced. Он предоставляет гибкие возможности фильтрации и несколько форматов вывода для различных случаев использования.
 
-By default, the cmdlet displays a concise formatted table showing script names and categories. The `-Detailed` switch expands this view to include tags and descriptions, providing more context at a glance.
+По умолчанию командлет отображает краткую форматированную таблицу, показывающую имена и категории сценариев. Переключатель `-Detailed` расширяет это представление, включив в него теги и описания, предоставляя больше контекста.
 
-For automation and programmatic scenarios, the `-AsObject` parameter returns the raw metadata records as PowerShell objects, enabling further processing through the pipeline. These records include comprehensive information such as name, category, categories, tags, description, and the original metadata property.
+Командлет всегда возвращает записи метаданных в конвейер успеха. Без `-AsObject` он также записывает форматированное представление хоста; `-AsObject` подавляет форматирование хоста для чистой автоматизации. Записи включают имя, путь, категорию, категории, теги, описание и исходное свойство метаданных.
 
-Filtering capabilities allow you to narrow down the list by:
+Возможности фильтрации позволяют сузить список по:
 
-- **Name**: Supports wildcard patterns (e.g., `aurora-*`) for flexible matching
-- **Category**: Filter by one or more category names (case-insensitive)
-- **Tag**: Filter by metadata tags such as "Recommended" or "Animated" (case-insensitive)
+- **Name**: поддерживает шаблоны подстановочных знаков (например, `aurora-*`) для гибкого сопоставления.
+- **Category**: фильтрация по одному или нескольким названиям категорий (без учета регистра).
+- **Tag**: фильтрация по тегам метаданных, например «Рекомендуется» или «Анимированный» (без учета регистра).
 
-The cmdlet validates filter patterns and generates warnings for any unmatched name patterns, helping you identify potential typos or missing scripts.
+Командлет проверяет шаблоны фильтров и генерирует предупреждения для любых несовпадающих шаблонов имен, помогая выявить потенциальные опечатки или отсутствующие сценарии.
 
 ## EXAMPLES
 
@@ -52,7 +52,7 @@ The cmdlet validates filter patterns and generates warnings for any unmatched na
 Get-ColorScriptList
 ```
 
-Displays all available colorscripts in a compact table format showing the name and category of each script.
+Отображает все доступные цветовые сценарии в компактном табличном формате с указанием имени и категории каждого сценария.
 
 ### EXAMPLE 2
 
@@ -60,7 +60,7 @@ Displays all available colorscripts in a compact table format showing the name a
 Get-ColorScriptList -Detailed
 ```
 
-Shows all colorscripts with additional columns including tags and descriptions for a comprehensive overview.
+Показывает все цветовые сценарии с дополнительными столбцами, включая теги и описания, для более полного обзора.
 
 ### EXAMPLE 3
 
@@ -68,7 +68,7 @@ Shows all colorscripts with additional columns including tags and descriptions f
 Get-ColorScriptList -Detailed -Category Patterns
 ```
 
-Displays only scripts in the "Patterns" category with full metadata including tags and descriptions.
+Отображает только скрипты из категории «Шаблоны» с полными метаданными, включая теги и описания.
 
 ### EXAMPLE 4
 
@@ -76,7 +76,7 @@ Displays only scripts in the "Patterns" category with full metadata including ta
 Get-ColorScriptList -AsObject -Name 'aurora-*' | Select-Object Name, Tags
 ```
 
-Returns structured objects for every script whose name matches the wildcard pattern, then selects only the Name and Tags properties for display.
+Возвращает структурированные объекты для каждого скрипта, имя которого соответствует шаблону подстановочных знаков, а затем выбирает для отображения только свойства Name и Tags.
 
 ### EXAMPLE 5
 
@@ -84,7 +84,7 @@ Returns structured objects for every script whose name matches the wildcard patt
 Get-ColorScriptList -AsObject -Tag Recommended | Sort-Object Name
 ```
 
-Retrieves all scripts tagged as "Recommended" and sorts them alphabetically by name. Useful for finding curated scripts suitable for profile integration.
+Извлекает все сценарии, помеченные как «Рекомендуемые», и сортирует их в алфавитном порядке по имени. Полезно для поиска тщательно подобранных скриптов, подходящих для интеграции профиля.
 
 ### EXAMPLE 6
 
@@ -92,7 +92,7 @@ Retrieves all scripts tagged as "Recommended" and sorts them alphabetically by n
 Get-ColorScriptList -AsObject -Category Geometric,Abstract | Where-Object { $_.Tags -contains 'Colorful' }
 ```
 
-Combines category and tag filtering to find scripts that are both in the Geometric or Abstract categories and tagged as Colorful.
+Сочетает фильтрацию по категориям и тегам для поиска сценариев, которые относятся к категориям «Геометрический» или «Абстрактный» и помечены как «Цветные».
 
 ### EXAMPLE 7
 
@@ -100,59 +100,59 @@ Combines category and tag filtering to find scripts that are both in the Geometr
 Get-ColorScriptList -Name blocks,pipes,matrix -AsObject | ForEach-Object { Show-ColorScript -Name $_.Name }
 ```
 
-Retrieves specific named scripts and executes each one in sequence, demonstrating pipeline integration with `Show-ColorScript`.
+Извлекает определенные именованные сценарии и последовательно выполняет каждый из них, демонстрируя интеграцию конвейера с `Show-ColorScript`.
 
 ### EXAMPLE 8
 
 ```powershell
-# Count scripts by category for inventory purposes
+# Подсчитайте сценарии по категориям для целей инвентаризации.
 Get-ColorScriptList -AsObject |
     Group-Object Category |
     Select-Object Name, Count |
     Sort-Object Count -Descending
 ```
 
-Provides a summary of how many colorscripts exist in each category.
+Предоставляет сводную информацию о том, сколько цветовых сценариев существует в каждой категории.
 
 ### EXAMPLE 9
 
 ```powershell
-# Find scripts with specific keywords in description
+# Найдите скрипты с определенными ключевыми словами в описании.
 $scripts = Get-ColorScriptList -AsObject
 $scripts |
     Where-Object { $_.Description -match 'fractal|mandelbrot' } |
     Select-Object Name, Category, Description
 ```
 
-Searches for scripts based on their description content using pattern matching.
+Ищет сценарии на основе их описания с использованием сопоставления с образцом.
 
 ### EXAMPLE 10
 
 ```powershell
-# Export to CSV for external tool processing
+# Экспорт в CSV для обработки внешним инструментом.
 Get-ColorScriptList -AsObject -Detailed |
     Select-Object Name, Category, Tags, Description |
     Export-Csv -Path "./colorscripts-inventory.csv" -NoTypeInformation
 ```
 
-Exports the complete colorscript inventory to CSV format for use in spreadsheet applications.
+Экспортирует полный набор цветов в формат CSV для использования в приложениях для работы с электронными таблицами.
 
 ### EXAMPLE 11
 
 ```powershell
-# Check for scripts without specific category
+# Проверьте сценарии без определенной категории
 $allScripts = Get-ColorScriptList -AsObject
 $uncategorized = $allScripts | Where-Object { -not $_.Category }
-Write-Host "Uncategorized scripts: $($uncategorized.Count)"
+Write-Host "Скрипты без категорий: $($uncategorized.Count)"
 $uncategorized | Select-Object Name
 ```
 
-Identifies scripts that are missing category metadata.
+Определяет сценарии, в которых отсутствуют метаданные категории.
 
 ### EXAMPLE 12
 
 ```powershell
-# Build cache for filtered scripts
+# Создайте кеш для отфильтрованных скриптов.
 Get-ColorScriptList -Tag Recommended -AsObject |
     ForEach-Object {
         New-ColorScriptCache -Name $_.Name -PassThru
@@ -160,54 +160,54 @@ Get-ColorScriptList -Tag Recommended -AsObject |
     Format-Table Name, Status
 ```
 
-Caches only the recommended scripts and shows the results of the caching operation.
+Оценивает сценарии с тегом `Recommended`; Создаются только средства визуализации, соответствующие политике кэширования, а другие записи сообщают `SkippedNotRequired`.
 
 ### EXAMPLE 13
 
 ```powershell
-# Create a formatted report of all geometric scripts
+# Создайте форматированный отчет обо всех геометрических сценариях.
 Get-ColorScriptList -Category Geometric -Detailed |
     Out-String |
     Tee-Object -FilePath "./geometric-report.txt"
 ```
 
-Generates and saves a detailed report of geometric category colorscripts to a file.
+Создает и сохраняет подробный отчет о цветовых сценариях геометрических категорий в файл.
 
 ### EXAMPLE 14
 
 ```powershell
-# Find the first script matching a pattern for quick display
+# Найдите первый скрипт, соответствующий шаблону, для быстрого отображения.
 $script = Get-ColorScriptList -Name "aurora-*" -AsObject | Select-Object -First 1
 if ($script) {
     Show-ColorScript -Name $script.Name -PassThru
 }
 ```
 
-Quickly displays the first matching script based on a wildcard pattern.
+Быстро отображает первый соответствующий сценарий на основе шаблона подстановочных знаков.
 
 ### EXAMPLE 15
 
 ```powershell
-# Verify all referenced scripts exist before running automation
+# Прежде чем запускать автоматизацию, убедитесь, что все указанные сценарии существуют.
 $requiredScripts = @("bars", "arch", "mandelbrot-zoom")
 $available = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Name
 $missing = $requiredScripts | Where-Object { $_ -notin $available }
 if ($missing) {
-    Write-Warning "Missing scripts: $($missing -join ', ')"
+    Write-Warning "Отсутствующие скрипты: $($missing -join ', ')"
 } else {
-    Write-Host "All required scripts are available"
+    Write-Host "Все необходимые скрипты имеются."
 }
 ```
 
-Validates that all required scripts exist before automation runs.
+Проверяет наличие всех необходимых сценариев перед запуском автоматизации.
 
 ## PARAMETERS
 
 ### -AsObject
 
-Returns raw metadata record objects instead of rendering a formatted table to the host. This enables pipeline processing and programmatic manipulation of the colorscript metadata.
+Возвращает объекты записей необработанных метаданных вместо отображения отформатированной таблицы на хосте. Это обеспечивает конвейерную обработку и программное манипулирование метаданными цветового сценария.
 
-When this switch is specified, you can use standard PowerShell cmdlets like `Where-Object`, `Select-Object`, `Sort-Object`, and `ForEach-Object` to further process the results.
+Если указан этот параметр, вы можете использовать стандартные командлеты PowerShell, такие как `Where-Object`, `Select-Object`, `Sort-Object` и `ForEach-Object`, для дальнейшей обработки результатов.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -228,9 +228,9 @@ HelpMessage: ''
 
 ### -Category
 
-Filters the list to include only scripts belonging to one or more specified categories. Category matching is case-insensitive.
+Фильтрует список, чтобы включить только скрипты, принадлежащие одной или нескольким указанным категориям. Сопоставление категорий не учитывает регистр.
 
-Common categories include: Patterns, Geometric, Abstract, Nature, Animated, Text, Retro, and more. You can specify multiple categories to broaden your search.
+Общие категории включают в себя: «Узоры», «Геометрика», «Абстракция», «Природа», «Анимация», «Текст», «Ретро» и другие. Вы можете указать несколько категорий, чтобы расширить поиск.
 
 ```yaml
 Type: System.String[]
@@ -251,9 +251,9 @@ HelpMessage: ''
 
 ### -Detailed
 
-Includes additional columns (tags and description) when rendering the formatted table view. This provides more comprehensive information about each script at a glance.
+Включает дополнительные столбцы (теги и описание) при отрисовке форматированного табличного представления. Это позволяет с первого взгляда получить более полную информацию о каждом сценарии.
 
-Without this switch, only the name and primary category are displayed in the table output.
+Без этого переключателя в выходных таблицах отображаются только имя и основная категория.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -274,7 +274,7 @@ HelpMessage: ''
 
 ### -h
 
-Показывает подробную справку по команде, не выполняя операцию.
+Отображает подробную справку по этой команде без выполнения операции.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -296,11 +296,11 @@ HelpMessage: ''
 
 ### -Name
 
-Filters the colorscript list by one or more script names. Supports wildcard characters (`*` and `?`) for flexible pattern matching.
+Фильтрует список цветовых сценариев по одному или нескольким именам сценариев. Поддерживает подстановочные знаки (`*` и `?`) для гибкого сопоставления с образцом.
 
-If a specified pattern does not match any scripts, a warning is generated to help identify potential issues. Name matching is case-insensitive.
+Если указанный шаблон не соответствует ни одному сценарию, генерируется предупреждение, помогающее выявить потенциальные проблемы. Сопоставление имен не учитывает регистр.
 
-You can specify exact names or use patterns like `aurora-*` to match multiple related scripts.
+Вы можете указать точные имена или использовать шаблоны, например `aurora-*`, для сопоставления нескольких связанных сценариев.
 
 ```yaml
 Type: System.String[]
@@ -321,7 +321,7 @@ HelpMessage: ''
 
 ### -NoAnsiOutput
 
-Отключает оформление ANSI в информационных сообщениях и отображаемом выводе для текстовых сред.
+Отключает стиль ANSI в информационных сообщениях и отображаемый вывод для сред с обычным текстом.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -342,7 +342,7 @@ HelpMessage: ''
 
 ### -Quiet
 
-Подавляет информационные сообщения, сохраняя вывод команды и ошибки.
+Подавляет информационные сообщения, сохраняя при этом вывод команды и ошибки.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -363,9 +363,9 @@ HelpMessage: ''
 
 ### -Tag
 
-Filters the list to include only scripts containing one or more specified metadata tags. Tag matching is case-insensitive.
+Фильтрует список, чтобы включить только сценарии, содержащие один или несколько указанных тегов метаданных. Сопоставление тегов не учитывает регистр.
 
-Common tags include: Recommended, Animated, Colorful, Minimal, Retro, Complex, Simple, and more. Tags help categorize scripts by visual style, complexity, or use case.
+Общие теги включают: «Рекомендуемый», «Анимированный», «Красочный», «Минимальный», «Ретро», «Сложный», «Простой» и другие. Теги помогают классифицировать сценарии по визуальному стилю, сложности или варианту использования.
 
 ```yaml
 Type: System.String[]
@@ -386,56 +386,58 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Этот командлет поддерживает следующие общие параметры:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Дополнительные сведения см. в разделе
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
 
-This cmdlet does not accept pipeline input.
+Этот командлет не принимает входные данные конвейера.
 
 ## OUTPUTS
 
 ### System.Object
 
-When `-AsObject` is specified, returns colorscript metadata record objects with the following properties:
+Возвращает объекты записей метаданных цветовых сценариев со следующими свойствами:
 
-- **Name**: The script identifier used with `Show-ColorScript`
-- **Category**: The primary category of the script
-- **Categories**: An array of all categories the script belongs to
-- **Tags**: An array of metadata tags describing the script
-- **Description**: A human-readable description of the script's visual output
-- **Metadata**: The original metadata object containing all raw script information
+- **Name**: идентификатор сценария, используемый с `Show-ColorScript`.
+- **Path**: полный исходный путь.
+- **Category**: основная категория сценария.
+- **Categories**: массив всех категорий, к которым принадлежит скрипт.
+- **Tags**: массив тегов метаданных, описывающих скрипт.
+- **Description**: удобочитаемое описание визуального вывода сценария.
+- **Metadata**: исходный объект метаданных, содержащий всю необработанную информацию о сценарии.
 
-Without `-AsObject`, the cmdlet writes a formatted table to the host while still returning the record objects for potential pipeline processing.
+Без `-AsObject` командлет записывает на хост отформатированную таблицу, при этом возвращая объекты записи для потенциальной конвейерной обработки.
 
 ## NOTES
 
-**Author**: Nick
-**Module**: ColorScripts-Enhanced
-**Version**: 1.0
+**Автор**: Ник
+**Модуль**: ColorScripts-Enhanced
 
-The returned metadata records provide comprehensive information for both display and automation purposes. The `Name` property can be used directly with the `Show-ColorScript` cmdlet to execute specific scripts.
+Возвращенные записи метаданных предоставляют исчерпывающую информацию как для отображения, так и для целей автоматизации. Свойство `Name` можно использовать непосредственно с командлетом `Show-ColorScript` для выполнения определенных сценариев.
 
-All filtering operations (Name, Category, Tag) are case-insensitive and can be combined to create powerful queries. When using wildcards in the `-Name` parameter, unmatched patterns generate warnings to help with troubleshooting.
+Все операции фильтрации (имя, категория, тег) не чувствительны к регистру и могут быть объединены для создания эффективных запросов. При использовании подстановочных знаков в параметре `-Name` несовпадающие шаблоны генерируют предупреждения, помогающие устранить неполадки.
 
-For best results when integrating colorscripts into your PowerShell profile, use the `-Tag Recommended` filter to identify curated scripts suitable for startup display.
+Для достижения наилучших результатов при интеграции цветовых сценариев в профиль PowerShell используйте фильтр `-Tag Recommended`, чтобы определить тщательно подобранные сценарии, подходящие для отображения при запуске.
 
-### Best Practices
+### Рекомендации
 
-- Always use `-AsObject` when you need to filter or manipulate results programmatically
-- Use `-Detailed` when exploring interactively to see tags and descriptions
-- Combine multiple filters for precise queries
-- Export metadata periodically to track changes over time
-- Use result objects for automation rather than parsing text output
-- Consider performance when running queries repeatedly (cache results if possible)
-- Leverage Group-Object for analysis and reporting
-- Use Where-Object for complex filtering logic
+– Всегда используйте `-AsObject`, когда вам нужно программно фильтровать или манипулировать результатами.
+– Используйте `-Detailed` при интерактивном просмотре, чтобы увидеть теги и описания.
+- Объедините несколько фильтров для точных запросов
+- Периодически экспортируйте метаданные, чтобы отслеживать изменения с течением времени.
+- Используйте объекты результатов для автоматизации, а не для анализа текстового вывода.
+– Учитывайте производительность при повторном выполнении запросов (по возможности кэшируйте результаты).
+- Использование группового объекта для анализа и отчетности.
+- Используйте Where-Object для сложной логики фильтрации.
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Онлайн-версия](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
 

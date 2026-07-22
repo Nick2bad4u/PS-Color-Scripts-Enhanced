@@ -189,6 +189,31 @@ Describe 'Dynamic colorscript rendering' {
             Get-Variable -Name CseRunspaceLeak -Scope Global -ErrorAction SilentlyContinue | Should -BeNullOrEmpty
         }
 
+        It 'preserves interleaved success-stream and host-output ordering in both isolation routes' {
+            $scriptPath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'interleaved.ps1'
+            $source = @(
+                "Write-Output 'before'"
+                "Write-Host 'middle'"
+                "Write-Output 'after'"
+            ) -join [Environment]::NewLine
+            [System.IO.File]::WriteAllText($scriptPath, $source, [System.Text.UTF8Encoding]::new($false))
+
+            $results = InModuleScope ColorScripts-Enhanced -Parameters @{ path = $scriptPath } {
+                param($path)
+
+                [pscustomobject]@{
+                    InProcess = Invoke-ColorScriptInProcess -ScriptPath $path
+                    Child     = Invoke-ColorScriptChildProcess -ScriptPath $path
+                }
+            }
+
+            $expected = @('before', 'middle', 'after', '') -join [Environment]::NewLine
+            $results.InProcess.Success | Should -BeTrue
+            $results.InProcess.StdOut | Should -BeExactly $expected
+            $results.Child.Success | Should -BeTrue
+            $results.Child.StdOut | Should -BeExactly $expected
+        }
+
         It 'returns a failed result for errors raised inside the isolated runspace' {
             $scriptPath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'failure.ps1'
             [System.IO.File]::WriteAllText(

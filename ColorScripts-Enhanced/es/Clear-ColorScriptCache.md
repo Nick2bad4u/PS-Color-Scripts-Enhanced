@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache
 Locale: es
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Clear-ColorScriptCache
 ---
@@ -13,7 +13,7 @@ title: Clear-ColorScriptCache
 
 ## SYNOPSIS
 
-Eliminar archivos de salida de colorescript en caché.
+Elimine los archivos de salida script de colores almacenados en caché.
 
 ## SYNTAX
 
@@ -39,19 +39,19 @@ Clear-ColorScriptCache [-Name <string[]>] [-Category <string[]>] [-Tag <string[]
 
 ## ALIASES
 
-This command has no aliases.
+Este comando no tiene alias.
 
 ## DESCRIPTION
 
-El cmdlet `Clear-ColorScriptCache` elimina archivos de salida en caché generados por el módulo ColorScripts-Enhanced. Los archivos de caché almacenan la salida de script pre-renderizada para mejorar el rendimiento durante invocaciones posteriores.
+El cmdlet `Clear-ColorScriptCache` elimina los archivos de salida almacenados en caché generados por el módulo ColorScripts-Enhanced. Cada entrada consta de una carga útil `<name>.cache` representada y un sidecar de validación `<name>.cacheinfo` en el directorio de caché efectivo.
 
-Puede eliminar archivos de caché de forma selectiva utilizando el parámetro `-Name` con patrones de comodín, o eliminar todos los archivos de caché a la vez con el parámetro `-All`. El cmdlet también admite el filtrado por `-Category` y `-Tag` para apuntar a subconjuntos específicos de scripts en caché.
+Puede eliminar entradas de caché de forma selectiva utilizando el parámetro `-Name` con patrones comodín, o eliminar todas las entradas a la vez con el parámetro `-All`. `-All` también elimina sidecars huérfanos cuya carga útil fue eliminada. El cmdlet admite el filtrado por `-Category` y `-Tag` para apuntar a subconjuntos específicos de scripts almacenados en caché.
 
-Los nombres de script no coincidentes reportan un estado `Missing` en los resultados. Use `-DryRun` para previsualizar acciones de eliminación sin modificar el sistema de archivos, y `-Path` para apuntar a un directorio de caché alternativo (útil para configuraciones de caché personalizadas o entornos CI/CD).
+Los nombres script no coincidentes informan un estado `Missing` en los resultados. Utilice `-DryRun` para obtener una vista previa de las acciones de eliminación sin modificar el sistema de archivos y `-Path` para apuntar a un directorio de caché alternativo (útil para configuraciones de caché personalizadas o entornos CI/CD).
 
-Los archivos de caché se regeneran automáticamente la próxima vez que `Show-ColorScript` ejecute el script correspondiente.
+Las entradas de caché elegibles se regeneran cuando se muestra el representador seleccionado por política correspondiente o se invoca `New-ColorScriptCache`. El paquete determinista scripts se procesa en proceso y no crea entradas de caché.
 
-Para escenarios de automatización, combine `-PassThru` para capturar resultados detallados, `-Quiet` para silenciar el resumen final o `-NoAnsiOutput` para emitir texto sin secuencias ANSI en consolas que no admiten color.
+Para escenarios de automatización, combine `-PassThru` para capturar resultados estructurados, `-Quiet` para suprimir el mensaje de resumen o `-NoAnsiOutput` para emitir resúmenes de texto sin formato sin códigos de color ANSI.
 
 ## EXAMPLES
 
@@ -61,7 +61,7 @@ Para escenarios de automatización, combine `-PassThru` para capturar resultados
 Clear-ColorScriptCache -All -Confirm:$false
 ```
 
-Elimina todos los archivos de caché en el directorio de caché predeterminado sin solicitar confirmación. Esto es útil para refrescar completamente el caché después de actualizaciones del módulo o al solucionar problemas de visualización.
+Elimina todos los archivos de caché en el directorio de caché predeterminado sin solicitar confirmación. Esto es útil para actualizar completamente el caché después de las actualizaciones del módulo o al solucionar problemas de visualización.
 
 ### EXAMPLE 2
 
@@ -69,7 +69,7 @@ Elimina todos los archivos de caché en el directorio de caché predeterminado s
 Clear-ColorScriptCache -Name 'aurora-*' -DryRun
 ```
 
-Previsualiza qué archivos de caché con tema aurora se eliminarían sin eliminarlos realmente. La salida muestra los archivos de caché que coinciden con el patrón, permitiendo verificar la selección antes de confirmar la eliminación.
+Muestra una vista previa de qué archivos de caché con temas de auroras se eliminarían sin eliminarlos realmente. El resultado muestra los archivos de caché que coinciden con el patrón, lo que le permite verificar la selección antes de comprometerse a eliminarlos.
 
 ### EXAMPLE 3
 
@@ -77,15 +77,15 @@ Previsualiza qué archivos de caché con tema aurora se eliminarían sin elimina
 Clear-ColorScriptCache -Name Galaxy -Path $env:TEMP -Confirm:$false
 ```
 
-Borra el archivo de caché para el script 'bars' desde un directorio de caché personalizado ubicado en la carpeta TEMP. Esto es útil cuando se trabaja con la variable de entorno `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` o probando ubicaciones de caché alternativas.
+Borra el archivo de caché para el procesador 'Galaxy' elegible de un directorio personalizado en TEMP. Esto resulta útil al probar `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` u otra ubicación de caché aislada.
 
 ### EXAMPLE 4
 
 ```powershell
-Clear-ColorScriptCache -Category Animation -WhatIf
+Clear-ColorScriptCache -Category Mathematical -WhatIf
 ```
 
-Muestra qué sucedería si se eliminaran todos los archivos de caché para scripts en la categoría Animation. El parámetro `-WhatIf` evita la eliminación real y muestra las acciones previstas.
+Muestra lo que sucedería si se eliminaran los archivos de caché de scripts en la categoría `Mathematical`. El parámetro `-WhatIf` impide la eliminación.
 
 ### EXAMPLE 5
 
@@ -93,7 +93,7 @@ Muestra qué sucedería si se eliminaran todos los archivos de caché para scrip
 Get-ColorScriptList -Tag retro | Clear-ColorScriptCache -DryRun
 ```
 
-Utiliza entrada de canalización para previsualizar la eliminación de archivos de caché para todos los scripts etiquetados como 'retro'. Combina el filtrado por etiqueta con una previsualización de ejecución en seco antes de confirmar la eliminación.
+Utiliza la entrada de canalización para obtener una vista previa de la eliminación de archivos de caché para todos los scripts etiquetados como 'retro'. Combina el filtrado por etiqueta con una vista previa de prueba antes de comprometerse con la eliminación.
 
 ### EXAMPLE 6
 
@@ -101,76 +101,76 @@ Utiliza entrada de canalización para previsualizar la eliminación de archivos 
 Clear-ColorScriptCache -Name 'test-*', 'demo-*' -Confirm:$false
 ```
 
-Elimina archivos de caché para todos los scripts cuyos nombres comiencen con 'test-' o 'demo-' sin confirmación. Se pueden especificar múltiples patrones de comodín como una matriz.
+Elimina los archivos de caché de todos los scripts cuyos nombres comienzan con 'test-' o 'demo-' sin confirmación. Se pueden especificar varios patrones comodín como una matriz.
 
 ### EXAMPLE 7
 
 ```powershell
-# Limpiar caché y reconstruir para optimización
+# Eliminar los archivos de caché y reconstruir las entradas seleccionadas por la directiva
 Clear-ColorScriptCache -All -Confirm:$false
 New-ColorScriptCache -PassThru | Measure-Object
-Write-Host "Caché reconstruido exitosamente"
+Write-Host "La caché se reconstruyó correctamente"
 ```
 
-Realiza un refresco completo del caché eliminando todo y reconstruyendo, luego muestra estadísticas.
+Elimina todas las cargas de caché, reconstruye las entradas seleccionadas por la directiva de caché dinámica y muestra estadísticas de esas entradas reconstruidas.
 
 ### EXAMPLE 8
 
 ```powershell
 # Borrar entradas de caché antiguas de más de 30 días
-$cacheDir = "$env:APPDATA\ColorScripts-Enhanced\cache"
+$cacheDir = (Get-ColorScriptConfiguration).Cache.EffectivePath
 $thirtyDaysAgo = (Get-Date).AddDays(-30)
 Get-ChildItem $cacheDir -Filter "*.cache" |
     Where-Object { $_.LastWriteTime -lt $thirtyDaysAgo } |
     ForEach-Object {
         Clear-ColorScriptCache -Name $_.BaseName -Confirm:$false
     }
-Write-Host "Archivos de caché antiguos limpiados"
+Write-Host "Se limpiaron los archivos de caché antiguos"
 ```
 
-Elimina archivos de caché que no se han actualizado en más de 30 días.
+Elimina los archivos de caché que no se han actualizado en más de 30 días.
 
 ### EXAMPLE 9
 
 ```powershell
 # Informe de gestión de caché
-$cacheDir = "$env:APPDATA\ColorScripts-Enhanced\cache"
+$cacheDir = (Get-ColorScriptConfiguration).Cache.EffectivePath
 $beforeCount = @(Get-ChildItem $cacheDir -Filter "*.cache" -ErrorAction SilentlyContinue).Count
 Clear-ColorScriptCache -Category Geometric -Confirm:$false
 $afterCount = @(Get-ChildItem $cacheDir -Filter "*.cache" -ErrorAction SilentlyContinue).Count
-Write-Host "Borrados $($beforeCount - $afterCount) archivos de caché geométricos"
+Write-Host "Se borraron $($beforeCount - $afterCount) archivos de caché geométricos"
 ```
 
-Muestra estadísticas sobre operaciones de borrado de caché.
+Muestra estadísticas sobre las operaciones de borrado de caché.
 
 ### EXAMPLE 10
 
 ```powershell
-# Solución de problemas - borrar y reconstruir script específico
-$scriptName = "mandelbrot-zoom"
+# Solución de problemas: borre y reconstruya script específico
+$scriptName = "Galaxy"
 Clear-ColorScriptCache -Name $scriptName -Confirm:$false
 New-ColorScriptCache -Name $scriptName -Force
 Show-ColorScript -Name $scriptName
 ```
 
-Borra y reconstruye el caché para un script único, luego lo muestra para verificación.
+Borra y reconstruye la caché de un renderizador elegible según la política y luego lo muestra para verificar el resultado.
 
 ### EXAMPLE 11
 
 ```powershell
 # Filtrar por múltiples categorías
-Clear-ColorScriptCache -Category Geometric,Abstract -DryRun |
+Clear-ColorScriptCache -Category Geometric,Abstract -DryRun -PassThru |
     Select-Object CacheFile |
     Measure-Object
 ```
 
-Muestra cuántos archivos de caché se eliminarían si se filtra por múltiples categorías.
+Muestra cuántos archivos de caché se eliminarían si se filtraran por varias categorías.
 
 ## PARAMETERS
 
 ### -All
 
-Eliminar todos los archivos de caché en el directorio de destino. Este parámetro es mutuamente exclusivo con `-Name`, `-Category` y `-Tag`. Cuando se especifica, todos los parámetros de filtrado se ignoran y se borra todo el caché.
+Seleccione cada entrada de caché en el directorio de destino. `-Category` y `-Tag` pueden restringir aún más el conjunto de parámetros de selección total; `-Name` pertenece al conjunto de parámetros de selección.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -191,7 +191,7 @@ HelpMessage: ''
 
 ### -Category
 
-Filtrar los scripts de destino por categoría antes de evaluar las entradas de caché. Solo se considerarán para eliminación los archivos de caché de scripts que coincidan con las categorías especificadas. Acepta una matriz de nombres de categoría y se puede combinar con `-Tag` para un filtrado más preciso.
+Filtre el scripts de destino por categoría antes de evaluar las entradas de la caché. Solo se considerarán para su eliminación los archivos de caché de scripts que coincidan con las categorías especificadas. Acepta una variedad de nombres de categorías y se puede combinar con `-Tag` para un filtrado más preciso.
 
 ```yaml
 Type: System.String[]
@@ -218,7 +218,7 @@ HelpMessage: ''
 
 ### -Confirm
 
-Solicita confirmación antes de ejecutar el cmdlet. De forma predeterminada, esto está habilitado para evitar la eliminación accidental de archivos de caché. Use `-Confirm:$false` para omitir la solicitud de confirmación.
+Le solicita confirmación antes de ejecutar el cmdlet. De forma predeterminada, esto está habilitado para evitar la eliminación accidental de archivos de caché. Utilice `-Confirm:$false` para omitir el mensaje de confirmación.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -240,7 +240,7 @@ HelpMessage: ''
 
 ### -DryRun
 
-Previsualizar acciones de eliminación sin eliminar ningún archivo. El cmdlet mostrará qué archivos de caché se eliminarían pero no modificará el sistema de archivos. Esto es útil para verificar sus criterios de selección antes de confirmar la eliminación.
+Obtenga una vista previa de las acciones de eliminación sin eliminar ningún archivo. El cmdlet mostrará qué archivos de caché se eliminarán pero no modificará el sistema de archivos. Esto es útil para verificar sus criterios de selección antes de comprometerse con la eliminación.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -267,7 +267,7 @@ HelpMessage: ''
 
 ### -h
 
-Muestra la ayuda detallada de este comando sin realizar la operación.
+Muestra ayuda detallada para este comando sin realizar la operación.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -289,7 +289,7 @@ HelpMessage: ''
 
 ### -Name
 
-Nombres o patrones de comodín que identifican archivos de caché para eliminar. Acepta entrada de canalización y enlace de propiedad de objetos con una propiedad `Name`. Los caracteres comodín (`*`, `?`) son compatibles para la coincidencia de patrones. Mutuamente exclusivo con `-All`.
+Nombres o patrones de comodines que identifican los archivos de caché que se eliminarán. Acepta entradas de canalización y enlaces de propiedades de objetos con una propiedad `Name`. Se admiten caracteres comodín (`*`, `?`) para la coincidencia de patrones. Mutuamente excluyentes con `-All`.
 
 ```yaml
 Type: System.String[]
@@ -316,7 +316,7 @@ HelpMessage: ''
 
 ### -NoAnsiOutput
 
-Desactiva las secuencias de color ANSI en el mensaje de resumen, de modo que la salida sea texto plano. Ideal para consolas o registradores que no admiten coloreado.
+Deshabilite las secuencias de colores ANSI en la salida de resumen. Esto es útil para consolas o procesadores de registros que no interpretan el estilo ANSI, asegurando que el texto del resumen permanezca legible en texto plano.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -344,7 +344,7 @@ HelpMessage: ''
 
 ### -PassThru
 
-Devuelve objetos de resultado detallados para cada archivo de caché procesado. Sin este modificador, solo se emite un mensaje de resumen. Cada registro incluye el nombre del script, la ruta del archivo de caché, el estado y cualquier mensaje asociado.
+Devuelve objetos de resultados detallados para cada entrada de caché procesada. Sin este modificador, el cmdlet solo escribe un mensaje de resumen. Cada registro de paso incluye el nombre script, la ruta del archivo de caché, el estado y cualquier texto de error asociado para su posterior inspección o generación de informes.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -371,7 +371,7 @@ HelpMessage: ''
 
 ### -Path
 
-Directorio de caché alternativo para operar. Por defecto, la ruta de caché estándar del módulo si no se especifica. Use este parámetro cuando trabaje con ubicaciones de caché personalizadas configuradas mediante la variable de entorno `COLOR_SCRIPTS_ENHANCED_CACHE_PATH`, o al gestionar archivos de caché en directorios alternativos para pruebas o propósitos CI/CD.
+Directorio de caché alternativo para operar. El valor predeterminado es la ruta de caché estándar del módulo si no se especifica. Utilice este parámetro cuando trabaje con ubicaciones de caché personalizadas configuradas a través de la variable de entorno `COLOR_SCRIPTS_ENHANCED_CACHE_PATH`, o cuando administre archivos de caché en directorios alternativos para fines de prueba o CI/CD.
 
 ```yaml
 Type: System.String
@@ -398,7 +398,7 @@ HelpMessage: ''
 
 ### -Quiet
 
-Suprime el mensaje de resumen emitido después de completar la limpieza de caché. Resulta útil en automatizaciones donde solo se deben mostrar advertencias, errores u objetos retornados por `-PassThru`.
+Suprime el mensaje de resumen emitido una vez completada la eliminación de la caché. Utilice este modificador cuando se ejecute en contextos de automatización silenciosos donde solo se deben producir resultados estructurados (como registros, advertencias o errores `-PassThru`).
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -425,7 +425,7 @@ HelpMessage: ''
 
 ### -Tag
 
-Filtrar los scripts de destino por etiqueta de metadatos antes de evaluar las entradas de caché. Solo se considerarán para eliminación los archivos de caché de scripts con etiquetas coincidentes. Acepta una matriz de nombres de etiqueta y se puede combinar con `-Category` para un control más granular sobre qué archivos de caché se apuntan.
+Filtre el scripts de destino por etiqueta de metadatos antes de evaluar las entradas de la caché. Solo se considerarán para su eliminación los archivos de caché de scripts con etiquetas coincidentes. Acepta una variedad de nombres de etiquetas y se puede combinar con `-Category` para obtener un control más detallado sobre a qué archivos de caché se dirigen.
 
 ```yaml
 Type: System.String[]
@@ -452,7 +452,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Muestra qué sucedería si se ejecuta el cmdlet sin ejecutar realmente la operación. El cmdlet muestra las acciones que realizaría pero no modifica el sistema de archivos. Este es un parámetro común estándar de PowerShell que funciona de manera similar a `-DryRun` pero sigue las convenciones integradas de PowerShell.
+Muestra lo que sucedería si el cmdlet se ejecuta sin ejecutar realmente la operación. El cmdlet muestra las acciones que realizaría pero no modifica el sistema de archivos. Este es un parámetro común estándar del PowerShell que funciona de manera similar al `-DryRun` pero sigue las convenciones integradas del PowerShell.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -474,69 +474,71 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Este cmdlet admite los parámetros comunes:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Para obtener más información, consulte
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### System.String
 
-Puede canalizar nombres de script a este cmdlet. Cada nombre se evaluará para la eliminación de archivos de caché según los parámetros especificados.
+Puede canalizar nombres script a este cmdlet. Cada nombre será evaluado para eliminar el archivo de caché según los parámetros especificados.
 
 ### System.String[]
 
-Puede canalizar una matriz de nombres de script a este cmdlet. Esto es particularmente útil cuando se combina con `Get-ColorScriptList` para filtrar scripts por varios criterios antes de borrar sus cachés.
+Puede canalizar una serie de nombres script a este cmdlet. Esto es particularmente útil cuando se combina con `Get-ColorScriptList` para filtrar scripts según varios criterios antes de borrar sus cachés.
 
 ### System.Management.Automation.PSObject
 
-Puede canalizar objetos con una propiedad `Name` a este cmdlet. El cmdlet extraerá el valor de la propiedad `Name` y lo usará para identificar archivos de caché para eliminación.
+Puede canalizar objetos con una propiedad `Name` a este cmdlet. El cmdlet extraerá el valor de la propiedad `Name` y lo utilizará para identificar los archivos de caché que se van a eliminar.
 
 ## OUTPUTS
 
 ### System.Object
 
-Devuelve registros de estado para cada archivo de caché procesado. Cada objeto de salida contiene las siguientes propiedades:
+Con `-PassThru`, devuelve un registro de estado por cada archivo de caché procesado. Cada objeto de salida contiene las siguientes propiedades:
 
-- **Status**: El resultado de la operación (`Removed`, `Missing`, `DryRun` o `Error`)
-- **CacheFile**: La ruta completa al archivo de caché que se procesó
-- **Message**: Texto descriptivo que explica el resultado de la operación
-- **ScriptName**: El nombre del script asociado con el archivo de caché
+- **Status**: El resultado de la operación (`Removed`, `Missing`, `DryRun`, `SkippedByUser` o `Error`)
+- **CacheFile**: la ruta completa al archivo de caché que se procesó
+- **Message**: Texto descriptivo explicando el resultado de la operación.
+- **Name**: El nombre del script asociado con el archivo de caché.
 
 ## NOTES
 
-**Author**: Nick
-**Module**: ColorScripts-Enhanced
+**Autor**: Nick
+**Módulo**: ColorScripts-Enhanced
 
-Los archivos de caché se almacenan con una extensión `.cache` en el directorio de caché del módulo. Cada archivo de caché corresponde a un solo colorescript y contiene la salida ANSI pre-renderizada.
+Los archivos de caché se almacenan con una extensión `.cache` en el directorio de caché del módulo. Cada archivo de caché corresponde a un único script de colores y contiene la salida ANSI pre-renderizada.
 
-Los archivos de caché se regeneran automáticamente la próxima vez que `Show-ColorScript` ejecute el script correspondiente. Esta regeneración ocurre de manera transparente y no requiere intervención manual.
+Las entradas de caché elegibles se regeneran cuando se muestra el representador seleccionado por política correspondiente o se invoca `New-ColorScriptCache`. El paquete determinista scripts se procesa en proceso y no crea entradas de caché.
 
-La ruta de caché predeterminada se expone a través de la variable `$CacheDir` del módulo y se puede anular usando la variable de entorno `COLOR_SCRIPTS_ENHANCED_CACHE_PATH`.
+Consulte `(Get-ColorScriptConfiguration).Cache.EffectivePath` para conocer la ruta efectiva predeterminada. Se puede anular con configuración persistente o `COLOR_SCRIPTS_ENHANCED_CACHE_PATH`; `-Path` apunta a un directorio diferente para una invocación.
 
-Cuando se usa `-DryRun` o `-WhatIf`, el cmdlet aún validará que el directorio de caché exista y reportará cualquier problema, pero no realizará eliminaciones.
+Cuando se utiliza `-DryRun` o `-WhatIf`, el cmdlet seguirá validando que el directorio de caché existe e informará cualquier problema, pero no realizará ninguna eliminación.
 
-El filtrado por `-Category` o `-Tag` requiere que los scripts tengan metadatos asociados. Los scripts sin metadatos no coincidirán con estos filtros.
+El filtrado por `-Category` o `-Tag` requiere que el scripts tenga metadatos asociados. Scripts sin metadatos no coincidirá con estos filtros.
 
-### Best Practices
+### Buenas prácticas
 
-- Siempre use `-DryRun` o `-WhatIf` antes de operaciones destructivas
-- Use `-Confirm:$false` solo cuando esté seguro de la operación
-- Archive el caché antes de operaciones de limpieza importantes para recuperación
-- Monitoree el espacio en disco regularmente para el crecimiento del caché
-- Use limpieza selectiva en lugar de borrado completo cuando sea posible
-- Mantenga un registro de scripts críticos que no deberían borrarse
-- Programe limpiezas automatizadas durante ventanas de mantenimiento
-- Pruebe operaciones de limpieza en no producción primero
+- Utilice siempre `-DryRun` o `-WhatIf` antes de operaciones destructivas.
+- Utilice `-Confirm:$false` sólo cuando esté seguro del funcionamiento
+- Archivar caché antes de operaciones importantes de limpieza para recuperación
+- Supervise el espacio en disco con regularidad para ver el crecimiento de la caché
+- Utilice limpieza selectiva en lugar de limpieza completa cuando sea posible
+- Realice un seguimiento de los scripts críticos que no deben borrarse
+- Programe limpiezas automatizadas durante las ventanas de mantenimiento
+- Probar primero las operaciones de limpieza en áreas no productivas.
 
-### Troubleshooting (2)
+### Solución de problemas (2)
 
-- **"No cache files found"**: Use `-AsObject` para verificar qué scripts tienen cachés
-- **"Permission denied"**: Verifique el acceso de escritura al directorio de caché
-- **"Cache not regenerating"**: Los scripts pueden tener problemas de renderizado; pruebe con `-NoCache`
+- **"No se encontraron archivos de caché"**: Inspeccione `(Get-ColorScriptConfiguration).Cache.EffectivePath` y use `Export-ColorScriptMetadata -IncludeCacheInfo` para verificar el estado del caché
+- **"Permiso denegado"**: verifique el acceso de escritura al directorio de caché
+- **"La caché no se regenera"**: los scripts pueden tener problemas de renderizado; pruebe con `-NoCache`
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)
+- [Versión en línea](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)
 

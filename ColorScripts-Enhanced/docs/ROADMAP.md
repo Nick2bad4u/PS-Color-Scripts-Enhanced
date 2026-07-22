@@ -1,307 +1,75 @@
 # Project Roadmap
 
-The roadmap highlights short-, medium-, and long-term priorities for ColorScripts-Enhanced. Priorities may change as community feedback comes in. If you would like to help with an item, please open an issue or discussion first so we can coordinate.
+ColorScripts-Enhanced is a mature module and a large, curated ANSI-art collection. The roadmap is intentionally maintenance-oriented: repository issues and release plans determine sequencing, and this document does not promise dates.
 
-## Current Status: Mature & Stable ✅
+## Current Baseline
 
-- ✅ Core module functionality complete
-- ✅ Selective output caching for expensive renderers operational
-- ✅ Cross-platform support verified (Windows, macOS, Linux)
-- ✅ 3156 colorscripts included
-- ✅ Comprehensive documentation
-- ✅ Automated testing and CI/CD
-- ✅ PowerShell Gallery publishing
+- <!-- COLOR_SCRIPT_COUNT -->3186<!-- /COLOR_SCRIPT_COUNT --> bundled colorscripts with metadata-backed discovery
+- 10 public commands and three aliases
+- Windows PowerShell 5.1 and PowerShell 7+ support on Windows, macOS, and Linux
+- Static extraction for deterministic bundled art
+- Explicit dynamic-render and selective-cache policies
+- Parallel cache building on PowerShell 7+
+- User-scoped configuration and managed profile integration
+- 10 runtime-message and external-help cultures
+- ANSI conversion, splitting, duplicate detection, corpus validation, and release automation
 
-## Near Term (Next 2-4 releases)
+## Active Maintenance Priorities
 
-### Community-Driven Enhancements
+### Collection Quality
 
-- Open slot for community-suggested features
-- Submit suggestions with the [feature request form](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues/new?template=feature_request.md)
-- Vote on preferred features via issue reactions
+- Continue locating responsibly distributable ANSI-art collections.
+- Preserve source attribution and record provenance for imported art.
+- Reject duplicate, corrupted, unsafe, or terminal-hostile files before conversion.
+- Split oversized art only when the visual composition remains useful.
+- Expand useful metadata and descriptions without inventing authorship or licensing claims.
 
-### Documentation Improvements
+### PowerShell Quality
 
-- [ ] Add 10 more detailed example workflows
-- [ ] Create video tutorials for new users
-- [ ] Expand ANSI art creation guide
-- [ ] Add more troubleshooting scenarios
+- Keep public commands idiomatic across PowerShell 5.1 and 7+.
+- Maintain exact parameter-set, pipeline, `ShouldProcess`, output-object, and external-help contracts.
+- Keep deterministic bundled scripts on the static extraction path.
+- Add a renderer to `DynamicRenderPolicy.psd1` only when its output genuinely changes.
+- Add a dynamic renderer to `CachePolicy.psd1` only when its render cost justifies cache I/O.
 
-### Performance Optimization
+### Help and Localization
 
-- [ ] Profile colorscript execution times
-- [ ] Optimize slowest-running scripts
-- [ ] Consider parallel cache building
-- [ ] Measure memory footprint
+- Keep all 10 culture packages structurally synchronized with the exported command surface.
+- Replace remaining inherited English prose with reviewed translations.
+- Keep Markdown help as the editable source and regenerate MAML with the pinned PlatyPS workflow.
+- Prevent examples, output properties, aliases, and environment-variable names from drifting.
 
-### Quality Assurance
+### Testing and Release Reliability
 
-- [ ] Expand test coverage to 95%+
-- [ ] Add performance regression tests
-- [ ] Cross-terminal compatibility matrix
-- [ ] Font rendering validation
+- Preserve Windows PowerShell 5.1 and cross-platform PowerShell 7 coverage.
+- Expand behavior-focused tests around profile editing, configuration, static extraction, dynamic execution, and cache invalidation.
+- Keep generated documentation, package metadata, changelog ranges, and manifest versions reproducible.
+- Continue dependency, supply-chain, secret, and static-analysis maintenance without weakening gates.
 
-## Mid Term (1-2 Releases, 3-6 months)
+## Candidate Enhancements
 
-### Script Descriptions & Metadata
+These are candidates, not commitments:
 
-- [ ] Expand descriptions across the full 3156-script catalog
-- [ ] Add richer metadata (author, complexity, performance)
-- [ ] Create searchable index
-- [ ] Build category-based discovery UI
+- richer gallery/search tooling over exported metadata;
+- better preview and visual-QA tooling for converted ANSI art;
+- additional terminal and font compatibility fixtures;
+- contributor-facing provenance templates for art imports;
+- clearer reporting for partial translations;
+- performance benchmarks that measure real renderer/cache paths without claiming universal multipliers.
 
-### Live Preview System
+## Contribution Guidance
 
-- [ ] Side-by-side ANSI ↔ PowerShell preview
-- [ ] Real-time conversion validation
-- [ ] Performance metrics display
-- [ ] Character encoding verification
+Before implementing a roadmap item, open or locate a repository issue so scope and ownership are clear. Changes should include focused tests, accurate help/docs, and evidence that the behavior works on its supported PowerShell editions.
 
-### VS Code Integration
+Useful starting points:
 
-- [ ] Create ColorScripts preview extension
-- [ ] Add terminal task definitions
-- [ ] Implement workspace integration
-- [ ] Cache management from VS Code
+- [Contributing Guide](../../CONTRIBUTING.md)
+- [Development Guide](DEVELOPMENT.md)
+- [Testing Guide](TESTING.md)
+- [ANSI Conversion Guide](ANSI-CONVERSION-GUIDE.md)
+- [Release Checklist](RELEASE_CHECKLIST.md)
+- [Issue tracker](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues)
 
-### Configuration Dashboard
+---
 
-- [ ] Web-based configuration UI
-- [ ] Interactive cache management
-- [ ] Performance monitoring
-- [ ] Export/import settings
-
-## Long Term (6-12+ months)
-
-### Advanced Features
-
-- **Animation Support**
-  - Frame-based colorscript sequences
-  - Timing controls
-  - Loop configuration
-  - Performance optimization
-
-- **Custom Script Packages**
-  - Create curated packs (Classic ANSI, Modern Logos, etc.)
-  - Separate installable modules
-  - Community submission process
-  - Version management
-
-- **Terminal Plugins**
-  - Windows Terminal extension
-  - Nushell integration
-  - Fish shell plugin
-  - Zsh completion
-
-### Cross-Platform Expansion
-
-- **Cross-Repo Synchronization**
-  - Sync with upstream DistroTube/shell-color-scripts
-  - Auto-merge new contributions
-  - Conflict resolution workflow
-  - Regular sync cycles
-
-- **Alternative Shell Support**
-  - Bash/Zsh integration
-  - Nushell native support
-  - Elvish language bindings
-  - Cross-shell compatibility
-
-### Ecosystem Integration
-
-- **Visual Studio Code Extension**
-  - Random colorscript on startup
-  - Terminal integration
-  - Keybindings
-  - Configuration UI
-
-- **Developer Tools**
-  - Colorscript scaffolding helper
-  - Validation toolkit
-  - Performance analyzer
-  - Batch converter
-
-- **Cloud/Container Support**
-  - Docker image with ColorScripts-Enhanced
-  - Container initialization script
-  - Kubernetes manifest examples
-  - CI/CD pipeline templates
-
-## Potential Features (Backlog)
-
-### User Requests
-
-- [ ] Color scheme selector
-- [ ] Random colorscript on every new terminal
-- [ ] Colorscript favorites/bookmarking
-- [ ] Share colorscripts via URL
-- [ ] Community gallery/showcase
-- [ ] Automatic daily rotation
-- [ ] Time-based script selection
-
-### Performance
-
-- [ ] Lazy-load colorscripts
-- [ ] Streaming mode for large scripts
-- [ ] Memory-efficient caching
-- [ ] Parallel colorscript execution
-
-### Administrative
-
-- [ ] Group policy support
-- [ ] Organization-wide deployment
-- [ ] Audit logging
-- [ ] License compliance tracking
-- [ ] Update notification system
-
-### Educational
-
-- [ ] ANSI art creation tutorial series
-- [ ] PowerShell scripting guide
-- [ ] Performance tuning course
-- [ ] Caching best practices
-
-## Research Areas
-
-### Technical Exploration
-
-- **GPU Rendering**: Leverage GPU for complex colorscripts
-- **WebAssembly**: Port to WASM for browser preview
-- **Machine Learning**: AI-generated colorscripts
-- **Quantum**: Quantum random colorscript selection 🚀
-
-### Community Building
-
-- **User Survey**: Gather feature requests
-- **Contribution Guide**: Lower barriers to entry
-- **Mentoring Program**: Help new contributors
-- **Showcase**: Feature community creations
-
-## Dependencies & Blockers
-
-### External Dependencies
-
-- PowerShell team releases (new language features)
-- NuGet/PowerShell Gallery uptime
-- GitHub platform stability
-- Terminal emulator capabilities
-
-### Known Limitations
-
-- Cross-platform console output differences
-- Font rendering inconsistencies
-- Memory constraints on embedded systems
-- Performance on slow network drives
-
-## Success Metrics
-
-### Community Engagement
-
-- [ ] 1,000+ GitHub stars
-- [ ] 50,000+ monthly PowerShell Gallery downloads
-- [ ] 100+ community contributions
-- [ ] Active community forum discussions
-
-### Quality Targets
-
-- [ ] 95%+ test coverage
-- [ ] <5ms average load time (cached)
-- [ ] 0 critical security issues
-- [ ] 99%+ test pass rate
-
-### Feature Adoption
-
-- [ ] 75%+ of users enable caching
-- [ ] 50%+ use custom profiles
-- [ ] 10+ community colorscript packs
-- [ ] 5+ third-party extensions
-
-## Timeline Estimate
-
-```text
-Q4 2025 (Oct-Dec)
-├── Documentation expansion ✅
-├── Community feature collection
-└── Performance benchmarking
-
-Q1 2026 (Jan-Mar)
-├── Script metadata enrichment
-├── Performance optimizations
-└── Extended test coverage
-
-Q2 2026 (Apr-Jun)
-├── VS Code integration
-├── Live preview system
-└── Configuration dashboard
-
-Q3 2026 (Jul-Sep)
-├── Animation support
-├── Custom script packages
-└── Terminal plugins
-
-Q4 2026+ (Oct+)
-├── Ecosystem expansion
-├── Advanced features
-└── Community partnerships
-```
-
-## How to Participate
-
-### Suggest Features
-
-- [Feature requests](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues/new?template=feature_request.md) - Feature ideas
-- [Issues](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues/new?template=feature_request.md) - Formal feature requests
-- Voting - React with 👍 to prioritize
-
-### Contribute Code
-
-- Look for issues tagged `good first issue`
-- Check `help wanted` label
-- Review [Contributing Guide](../../CONTRIBUTING.md)
-- Submit PRs with tests and documentation
-
-### Add Colorscripts
-
-- Create beautiful ANSI art
-- Port from shell-color-scripts
-- Design new original content
-- Test across platforms
-
-### Improve Documentation
-
-- Fix typos and clarity issues
-- Add examples and guides
-- Create tutorials
-- Share use cases
-
-### Report Issues
-
-- Test on multiple platforms
-- Provide detailed reproduction steps
-- Include environment details
-- Help troubleshoot solutions
-
-## Funding & Support
-
-- 💖 Starring the repository helps visibility
-- 🐛 Quality bug reports are valuable
-- 🎨 Sharing colorscripts builds community
-- 📖 Documentation help is appreciated
-- 💡 Feature feedback guides development
-
-## Related Projects
-
-- [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts) - Original Bash version
-- [ps-color-scripts](https://github.com/scottmckendry/ps-color-scripts) - Original PS port
-- [Nerd Fonts](https://www.nerdfonts.com/) - Icon support
-- [Pester](https://pester.dev/) - PowerShell testing
-- [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) - Code quality
-
-## Vision Statement
-
-**ColorScripts-Enhanced** aims to be the most comprehensive, performant, and user-friendly collection of ANSI colorscripts available for PowerShell, with a thriving community of contributors and a robust ecosystem of integrations.
-
-- Join release coordination by checking the [Release Checklist](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/blob/main/docs/RELEASE_CHECKLIST.md)
-- If you're interested in owning a roadmap item, comment on the corresponding issue or open a new one describing your plan
-
-We review the roadmap during each release cycle and adjust priorities based on user impact, maintenance effort, and community interest.
+_Last reviewed: July 21, 2026_

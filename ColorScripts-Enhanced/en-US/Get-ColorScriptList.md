@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList
 Locale: en-US
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Get-ColorScriptList
 ---
@@ -34,7 +34,7 @@ The `Get-ColorScriptList` cmdlet retrieves and displays all colorscripts package
 
 By default, the cmdlet displays a concise formatted table showing script names and categories. The `-Detailed` switch expands this view to include tags and descriptions, providing more context at a glance.
 
-For automation and programmatic scenarios, the `-AsObject` parameter returns the raw metadata records as PowerShell objects, enabling further processing through the pipeline. These records include comprehensive information such as name, category, categories, tags, description, and the original metadata property.
+The cmdlet always returns metadata records to the success pipeline. Without `-AsObject`, it also writes a formatted host view; `-AsObject` suppresses that host formatting for clean automation. Records include name, path, category, categories, tags, description, and the original metadata property.
 
 Filtering capabilities allow you to narrow down the list by:
 
@@ -160,7 +160,7 @@ Get-ColorScriptList -Tag Recommended -AsObject |
     Format-Table Name, Status
 ```
 
-Caches only the recommended scripts and shows the results of the caching operation.
+Evaluates scripts tagged `Recommended`; only cache-policy-eligible renderers are built and other records report `SkippedNotRequired`.
 
 ### EXAMPLE 13
 
@@ -386,9 +386,11 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -401,9 +403,10 @@ This cmdlet does not accept pipeline input.
 
 ### System.Object
 
-When `-AsObject` is specified, returns colorscript metadata record objects with the following properties:
+Returns colorscript metadata record objects with the following properties:
 
 - **Name**: The script identifier used with `Show-ColorScript`
+- **Path**: The full source path
 - **Category**: The primary category of the script
 - **Categories**: An array of all categories the script belongs to
 - **Tags**: An array of metadata tags describing the script
@@ -416,7 +419,6 @@ Without `-AsObject`, the cmdlet writes a formatted table to the host while still
 
 **Author**: Nick
 **Module**: ColorScripts-Enhanced
-**Version**: 1.0
 
 The returned metadata records provide comprehensive information for both display and automation purposes. The `Name` property can be used directly with the `Show-ColorScript` cmdlet to execute specific scripts.
 

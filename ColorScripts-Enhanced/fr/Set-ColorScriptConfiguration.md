@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration
 Locale: fr
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Set-ColorScriptConfiguration
 ---
@@ -13,7 +13,7 @@ title: Set-ColorScriptConfiguration
 
 ## SYNOPSIS
 
-Persiste les modifications apportées au cache et à la configuration de démarrage de ColorScripts-Enhanced.
+Conserver les modifications apportées au cache ColorScripts-Enhanced et à la configuration de démarrage.
 
 ## SYNTAX
 
@@ -26,11 +26,11 @@ Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <b
 
 ## ALIASES
 
-This command has no aliases.
+Cette commande ne possède aucun alias.
 
 ## DESCRIPTION
 
-`Set-ColorScriptConfiguration` fournit un moyen persistant de personnaliser le comportement et l'emplacement de stockage du module ColorScripts-Enhanced. Cette cmdlet met à jour le fichier de configuration du module, vous permettant de contrôler divers aspects du rendu et du stockage des scripts.
+`Set-ColorScriptConfiguration` fournit un moyen persistant de personnaliser le comportement et l'emplacement de stockage du module ColorScripts-Enhanced. Cette applet de commande met à jour le fichier de configuration du module, vous permettant de contrôler divers aspects du rendu et du stockage des scripts.
 
 ## EXAMPLES
 
@@ -40,7 +40,7 @@ This command has no aliases.
 Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -AutoShowOnImport:$true -ProfileAutoShow:$false -DefaultScript 'bars'
 ```
 
-Déplace le cache vers `D:/Temp/ColorScriptsCache`, active l'affichage automatique lors de l'import du module, désactive l'auto-affichage du profil, et définit `bars` comme script par défaut.
+Déplace le cache vers `D:/Temp/ColorScriptsCache`, active l'affichage automatique lors de l'importation de module, désactive l'affichage automatique du profil et définit `bars` comme script par défaut.
 
 ### EXAMPLE 2
 
@@ -48,7 +48,7 @@ Déplace le cache vers `D:/Temp/ColorScriptsCache`, active l'affichage automatiq
 Set-ColorScriptConfiguration -DefaultScript '' -PassThru
 ```
 
-Efface le script par défaut et retourne l'objet de configuration résultant, vous permettant de vérifier que le paramètre a été supprimé.
+Efface le script par défaut et renvoie l'objet de configuration résultant, vous permettant de vérifier que le paramètre a été supprimé.
 
 ### EXAMPLE 3
 
@@ -56,7 +56,7 @@ Efface le script par défaut et retourne l'objet de configuration résultant, vo
 Set-ColorScriptConfiguration -CachePath "$env:TEMP\ColorScripts" -PassThru | Format-List
 ```
 
-Relocalise le cache vers le répertoire TEMP de Windows et affiche la configuration mise à jour complète en format liste. Utile pour les scénarios de test temporaires.
+Déplace le cache vers le répertoire Windows TEMP et affiche la configuration complète mise à jour sous forme de liste. Utile pour les scénarios de tests temporaires.
 
 ### EXAMPLE 4
 
@@ -64,7 +64,7 @@ Relocalise le cache vers le répertoire TEMP de Windows et affiche la configurat
 Set-ColorScriptConfiguration -AutoShowOnImport:$false
 ```
 
-Désactive le rendu automatique des couleurscripts lors du chargement du module. Utile si vous préférez un contrôle manuel sur le moment où les scripts sont affichés.
+Désactive le rendu automatique script de couleurs lors du chargement du module. Utile si vous préférez un contrôle manuel sur le moment où les scripts sont affichés.
 
 ### EXAMPLE 5
 
@@ -72,13 +72,13 @@ Désactive le rendu automatique des couleurscripts lors du chargement du module.
 Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultScript 'crunch'
 ```
 
-Définit un chemin de cache de style Linux/macOS en utilisant l'expansion tilde et configure 'crunch' comme script par défaut pour toutes les opérations.
+Définit un chemin de cache de style Linux/macOS à l'aide de l'extension tilde et configure 'crunch' comme script par défaut pour toutes les opérations.
 
 ## PARAMETERS
 
 ### -AutoShowOnImport
 
-Active ou désactive le rendu automatique d'un couleurscript lorsque le module est importé. Lorsqu'il est activé (`$true`), un couleurscript s'affiche immédiatement lors de l'import du module, fournissant un retour visuel instantané. Lorsqu'il est désactivé (`$false`), les scripts ne s'affichent que lorsqu'ils sont explicitement invoqués. Si non spécifié, le paramètre existant reste inchangé.
+Activez ou désactivez le rendu automatique d'un script de couleurs lorsque le module est importé. Lorsqu'il est activé (`$true`), un script de couleurs s'affiche immédiatement lors de l'importation du module, fournissant un retour visuel instantané. Lorsqu'ils sont désactivés (`$false`), les scripts s'affichent uniquement lorsqu'ils sont explicitement invoqués. S’il n’est pas spécifié, le paramètre existant reste inchangé.
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
@@ -99,11 +99,11 @@ HelpMessage: ''
 
 ### -CachePath
 
-Spécifie le répertoire où les fichiers et métadonnées des couleurscripts sont stockés. Prend en charge les chemins absolus, les chemins relatifs (résolus à partir de l'emplacement actuel), les variables d'environnement (par exemple, `$env:USERPROFILE`), et l'expansion tilde (`~`) pour le répertoire d'accueil.
+Spécifie le répertoire dans lequel les charges utiles `.cache` rendues et les fichiers annexes de validation `.cacheinfo` sont stockés. Les scripts de couleurs sources et les métadonnées du module restent dans le module installé. Prend en charge les chemins absolus, les chemins relatifs (résolus à partir de l'emplacement actuel), les variables d'environnement (par exemple, `$env:USERPROFILE`) et l'expansion du tilde (`~`).
 
-Si le répertoire spécifié n'existe pas, il sera créé automatiquement avec les permissions appropriées. Fournissez une chaîne vide (`''`) pour effacer le chemin personnalisé et revenir à l'emplacement par défaut spécifique à la plateforme. Lorsqu'il n'est pas spécifié, le paramètre de chemin de cache existant est préservé.
+Si le répertoire spécifié n'existe pas, il sera créé automatiquement avec les autorisations appropriées. Fournissez un string (`''`) vide pour effacer le chemin personnalisé et revenir à l'emplacement par défaut spécifique à la plate-forme. Lorsqu'il n'est pas spécifié, le paramètre de chemin de cache existant est conservé.
 
-**Note** : Changer le chemin de cache ne migre pas automatiquement les fichiers mis en cache existants. Vous devrez peut-être copier manuellement les fichiers ou les laisser se régénérer.
+**Note** : la modification du chemin du cache ne migre pas automatiquement les fichiers mis en cache existants. Vous devrez peut-être copier manuellement les fichiers ou autoriser leur régénération.
 
 ```yaml
 Type: System.String
@@ -124,7 +124,7 @@ HelpMessage: ''
 
 ### -Confirm
 
-Prompts you for confirmation before running the cmdlet.
+Vous demande une confirmation avant d’exécuter l’applet de commande.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -146,11 +146,11 @@ HelpMessage: ''
 
 ### -DefaultScript
 
-Définit ou efface le nom du couleurscript par défaut utilisé par les assistants de profil, les fonctionnalités d'auto-affichage, et lorsqu'aucun script n'est explicitement spécifié dans les commandes. Cela doit correspondre au nom de base d'un fichier script sans extension (par exemple, `'bars'`, pas `'bars.ps1'`).
+Définit ou efface le nom script de couleurs par défaut utilisé par les assistants de profil, les fonctionnalités d'affichage automatique et lorsqu'aucun script n'est explicitement spécifié dans les commandes. Cela doit correspondre au nom de base d'un fichier de script sans extension (par exemple, `'bars'`, et non `'bars.ps1'`).
 
-Fournissez une chaîne vide (`''`) pour supprimer le défaut stocké, revenant au comportement par défaut du module (généralement une sélection aléatoire). Lorsque ce paramètre est omis, le paramètre de script par défaut actuel reste inchangé.
+Fournissez un string (`''`) vide pour supprimer la valeur par défaut stockée, en revenant au comportement par défaut au niveau du module (généralement une sélection aléatoire). Lorsque ce paramètre est omis, le paramètre de script par défaut actuel reste inchangé.
 
-Le script spécifié doit exister dans le répertoire des scripts du module pour être utilisé avec succès.
+Le script spécifié doit exister dans le répertoire de script du module pour être utilisé avec succès.
 
 ```yaml
 Type: System.String
@@ -171,7 +171,7 @@ HelpMessage: ''
 
 ### -h
 
-Affiche l'aide détaillée de cette commande sans effectuer l'opération.
+Affiche une aide détaillée pour cette commande sans effectuer l'opération.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -193,9 +193,9 @@ HelpMessage: ''
 
 ### -PassThru
 
-Retourne l'objet de configuration mis à jour après avoir effectué les modifications. Sans ce commutateur, la cmdlet fonctionne silencieusement (aucune sortie). L'objet retourné a la même structure que `Get-ColorScriptConfiguration` et peut être inspecté, stocké ou redirigé vers d'autres cmdlets pour un traitement supplémentaire.
+Renvoie l'objet de configuration mis à jour après avoir apporté des modifications. Sans ce commutateur, l’applet de commande fonctionne silencieusement (aucune sortie). L'objet renvoyé a la même structure que `Get-ColorScriptConfiguration` et peut être inspecté, stocké ou redirigé vers d'autres applets de commande pour un traitement ultérieur.
 
-Utile pour la vérification, la journalisation ou l'enchaînement de commandes de configuration.
+Utile pour la vérification, la journalisation ou le chaînage des commandes de configuration.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -216,9 +216,9 @@ HelpMessage: ''
 
 ### -ProfileAutoShow
 
-Contrôle si les extraits de profil générés par `Add-ColorScriptProfile` incluent une invocation automatique de `Show-ColorScript`. Lorsque `$true`, le code de profil affichera un couleurscript à chaque démarrage du shell. Lorsque `$false`, le profil chargera le module mais n'affichera pas automatiquement les scripts.
+Contrôle si les extraits de profil générés par `Add-ColorScriptProfile` incluent une invocation automatique de `Show-ColorScript`. Lorsque `$true`, le code de profil affichera un script de couleurs à chaque démarrage du shell. Lorsque `$false`, le profil chargera le module mais pas les scripts d'affichage automatique.
 
-Ce paramètre n'affecte que le code de profil nouvellement généré ; les modifications de profil existantes ne sont pas automatiquement mises à jour. Omettre ce paramètre laisse le paramètre actuel inchangé.
+Ce paramètre affecte uniquement le code de profil nouvellement généré ; les modifications de profil existantes ne sont pas automatiquement mises à jour. L'omission de ce paramètre laisse le paramètre actuel inchangé.
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
@@ -239,7 +239,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Runs the command in a mode that only reports what would happen without performing the actions.
+Exécute la commande dans un mode qui rapporte uniquement ce qui se passerait sans effectuer les actions.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -261,34 +261,34 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Cette applet de commande prend en charge les paramètres communs :
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Pour plus d'informations, consultez
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
 
-Cette cmdlet n'accepte pas d'entrée pipeline.
+Cette applet de commande n'accepte pas les entrées de pipeline.
 
 ## OUTPUTS
 
 ### None (2)
 
-Par défaut, cette cmdlet ne produit aucune sortie.
+Par défaut, cette applet de commande ne produit aucune sortie.
 
 ### System.Collections.Hashtable
 
-Lorsque `-PassThru` est spécifié, retourne une hashtable contenant la configuration complète mise à jour. La structure correspond à la sortie de `Get-ColorScriptConfiguration`, avec des clés telles que `CachePath`, `AutoShowOnImport`, `ProfileAutoShow`, et `DefaultScript`.
+Lorsque `-PassThru` est spécifié, renvoie la table de hachage imbriquée produite par `Get-ColorScriptConfiguration` : les valeurs du cache se trouvent sous `Cache` et les valeurs de démarrage sous `Startup`.
 
 ## NOTES
 
-Configuration is persisted only after validation and confirmation succeed.
-`-WhatIf` performs no filesystem writes.
-Use `Get-ColorScriptConfiguration` to inspect the effective values and storage paths after the operation.
+La configuration est conservée uniquement après la réussite de la validation et de la confirmation. `-WhatIf` n'effectue aucune écriture sur le système de fichiers. Utilisez `Get-ColorScriptConfiguration` pour inspecter les valeurs effectives et les chemins de stockage après l'opération.
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [Version en ligne](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
 

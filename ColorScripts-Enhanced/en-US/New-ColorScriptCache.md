@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache
 Locale: en-US
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: New-ColorScriptCache
 ---
@@ -45,7 +45,7 @@ New-ColorScriptCache [-All] [-Force] [-PassThru] [-Category <string[]>] [-Tag <s
 
 ## DESCRIPTION
 
-`New-ColorScriptCache` executes computationally expensive colorscripts in a background PowerShell instance and saves the rendered output using UTF-8 encoding (without BOM). Cached content dramatically speeds up subsequent calls to `Show-ColorScript` by eliminating repeated rendering work. Static output scripts execute directly and never create cache files. You can also use the alias `Update-ColorScriptCache` to invoke this cmdlet.
+`New-ColorScriptCache` renders policy-selected computational colorscripts and saves their output as UTF-8 without BOM. Eligible bundled renderers use the module's isolated execution path; parallel workers are available on PowerShell 7+. Deterministic bundled scripts render in-process and never create cache files. The aliases are `Update-ColorScriptCache` and `Build-ColorScriptCache`.
 
 You can target scripts by name (wildcards supported), category, or tag. When no parameters are specified, the cmdlet resolves the names in `CachePolicy.psd1` directly instead of enumerating the full collection. Exact bundled names also use a direct file lookup. Wildcard, category, and tag requests enumerate only when their matching semantics require it. Explicit unlisted scripts are returned with the `SkippedNotRequired` status when `-PassThru` is used, and any obsolete cache files for those scripts are removed.
 
@@ -86,10 +86,10 @@ Force a rebuild of the eligible 'Galaxy' cache even if it is up to date, and exa
 ### EXAMPLE 4
 
 ```powershell
-New-ColorScriptCache -Category 'Animation' -PassThru
+New-ColorScriptCache -Category 'Mathematical' -PassThru
 ```
 
-Evaluate scripts in the 'Animation' category, cache eligible renderers, and return detailed results for every match.
+Evaluate scripts in the `Mathematical` category, cache eligible renderers, and return detailed results for every match.
 
 ### EXAMPLE 5
 
@@ -102,10 +102,10 @@ Rebuild eligible caches for scripts tagged with either 'geometric' or 'colorful'
 ### EXAMPLE 6
 
 ```powershell
-Get-ColorScriptList | Where-Object Category -eq 'Classic' | New-ColorScriptCache -PassThru
+Get-ColorScriptList -Category Mathematical -AsObject | New-ColorScriptCache -PassThru
 ```
 
-Pipeline example: evaluate all classic scripts, cache any policy-selected renderers, and return a result for every match.
+Pipeline example: evaluate scripts in the `Mathematical` category, cache any policy-selected renderers, and return a result for every match.
 
 ### EXAMPLE 7
 
@@ -142,26 +142,23 @@ Shows built-in progress for policy-selected renderers without manually iterating
 ### EXAMPLE 10
 
 ```powershell
-# Schedule cache rebuild on module load
-# Add to PowerShell profile:
+# Optionally prime missing or stale policy entries from a PowerShell profile.
 Import-Module ColorScripts-Enhanced
-if ((Get-Date).Day % 7 -eq 0) {  # Weekly rebuild
-    New-ColorScriptCache -Force | Out-Null
-}
+New-ColorScriptCache -Quiet
 ```
 
-Automatically rebuilds cache weekly when the module loads.
+Checks policy-selected entries when the profile loads and builds only missing or stale entries. Omit this profile step when startup cache work is not wanted.
 
 ### EXAMPLE 11
 
 ```powershell
-# Cache specific category for deployment
-New-ColorScriptCache -Category 'Recommended' -Force -PassThru |
+# Rebuild every policy-selected entry for deployment
+New-ColorScriptCache -All -Force -PassThru |
     Select-Object Name, Status |
     Export-Csv "./cache-deployment.csv"
 ```
 
-Caches recommended scripts and exports the results to a deployment manifest.
+Rebuilds every policy-selected cache entry and exports the statuses to a deployment manifest.
 
 ### EXAMPLE 12
 
@@ -177,14 +174,14 @@ Identifies caching failures without treating policy skips as errors.
 ### EXAMPLE 13
 
 ```powershell
-# Cache eligible animated scripts
-New-ColorScriptCache -Tag Animated -PassThru |
-    Where-Object Status -in 'Created', 'Updated' |
+# Count policy-selected entries updated by this run
+New-ColorScriptCache -All -PassThru |
+    Where-Object Status -eq 'Updated' |
     Measure-Object |
     Select-Object @{N='ScriptsCached'; E={$_.Count}}
 ```
 
-Caches eligible scripts tagged as animated and shows the count of updated cache entries.
+Checks every policy-selected entry and shows how many cache payloads were updated by this run.
 
 ### EXAMPLE 14
 
@@ -219,7 +216,7 @@ HelpMessage: ''
 
 ### -Category
 
-Limit the selection to scripts that belong to the specified category (case-insensitive). Multiple values are treated as an OR filter, meaning scripts matching any of the specified categories will be cached.
+Filters evaluated scripts by metadata category (case-insensitive). Multiple values are treated as an OR filter. Only matches allowed by `CachePolicy.psd1` are cached; other matches report `SkippedNotRequired` with `-PassThru`.
 
 ```yaml
 Type: System.String[]
@@ -268,7 +265,7 @@ HelpMessage: ''
 
 ### -Force
 
-Rebuild eligible cache files even when the existing cache is newer than the script source. This does not override cache eligibility for static or unlisted scripts.
+Rebuild eligible cache entries even when their `.cacheinfo` validation metadata says they are current. This does not override `CachePolicy.psd1`.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -317,7 +314,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Include Pokémon (regular and shiny) in the evaluated selection. Pokémon scripts that are not present in `CachePolicy.psd1` report `SkippedNotRequired` and are not cached.
+Broadens eligible selection to evaluate Pokémon scripts. It does not override `CachePolicy.psd1`; only Pokémon names listed in `CacheablePokemonScripts` can be cached, and that list is currently empty.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -474,7 +471,7 @@ HelpMessage: ''
 
 ### -Tag
 
-Limit the selection to scripts containing the specified metadata tags (case-insensitive). Multiple values are treated as an OR filter, caching scripts that match any of the specified tags.
+Filters evaluated scripts by metadata tag (case-insensitive). Multiple values are treated as an OR filter. Only matches allowed by `CachePolicy.psd1` are cached; other matches report `SkippedNotRequired` with `-PassThru`.
 
 ```yaml
 Type: System.String[]
@@ -551,9 +548,11 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -573,24 +572,27 @@ You can pipe an array of script names or metadata records with a `Name` property
 When `-PassThru` is specified, returns a custom object for each processed script containing the following properties:
 
 - **Name**: The colorscript name
-- **Status**: Success, Skipped, or Failed
+- **ScriptPath**: Full path to the source colorscript
 - **CacheFile**: Full path to the generated cache file
+- **Status**: `Updated`, `SkippedUpToDate`, `SkippedNotRequired`, `SkippedByUser`, or `Failed`
+- **Message**: Localized status detail
+- **CacheExists**: Whether an output cache exists after the operation
 - **ExitCode**: The exit code from the script execution (0 indicates success)
 - **StdOut**: Standard output captured during script execution
 - **StdErr**: Standard error output captured during script execution
 
-Without `-PassThru`, displays a concise summary table to the console showing the number of scripts cached, skipped, and failed.
+Without `-PassThru`, writes a concise informational summary containing processed, updated, skipped, and failed counts plus the effective cache directory.
 
 ## NOTES
 
 **Author:** Nick
 **Module:** ColorScripts-Enhanced
 
-**Aliases:** This cmdlet can also be called using the alias `Update-ColorScriptCache`, which is useful for scripts that refresh existing caches.
+**Aliases:** `Update-ColorScriptCache` and `Build-ColorScriptCache`.
 
-Cache files are stored in the directory exposed by the module's `CacheDir` variable (typically within the module's data directory). A successful build sets the cache file's timestamp to match the script's last write time, enabling subsequent runs to skip unchanged scripts efficiently.
+Cache files are stored under `(Get-ColorScriptConfiguration).Cache.EffectivePath`. Source and policy signatures in companion metadata are used to determine whether an entry remains current.
 
-The cmdlet executes each eligible script in an isolated background PowerShell process to capture its output without affecting the current session. Static and unlisted scripts are not executed by this cmdlet.
+The cmdlet caches only renderers that require execution and are allowed by the cache policy. Explicit static or unlisted scripts are reported as `SkippedNotRequired` and obsolete entries are removed.
 
 ## RELATED LINKS
 

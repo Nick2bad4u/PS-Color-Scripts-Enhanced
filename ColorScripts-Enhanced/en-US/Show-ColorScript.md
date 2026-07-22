@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript
 Locale: en-US
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Show-ColorScript
 ---
@@ -69,7 +69,7 @@ Renders beautiful ANSI colorscripts in your terminal with intelligent performanc
 
 **Named Mode:** Displays a specific colorscript by name. Supports wildcard patterns for flexible matching. When multiple scripts match a pattern, the first match in alphabetical order is selected.
 
-**List Mode:** Displays a formatted list of all available colorscripts with their metadata, including name, category, tags, and descriptions.
+**List Mode:** Displays a compact table containing colorscript names and primary categories. Use `Get-ColorScriptList -AsObject` for complete metadata records.
 
 **All Mode:** Cycles through all available colorscripts in alphabetical order. Particularly useful for showcasing the entire collection or discovering new scripts.
 
@@ -81,7 +81,7 @@ Renders beautiful ANSI colorscripts in your terminal with intelligent performanc
 Show-ColorScript
 ```
 
-Displays a random colorscript. Static scripts execute directly; eligible computational renderers can use validated output caching.
+Displays a random colorscript. Deterministic bundled scripts render in-process; eligible computational renderers can reuse validated cached output.
 
 ### EXAMPLE 2
 
@@ -113,15 +113,15 @@ Uses the module's alias 'scs' for quick access to the hearts colorscript. Aliase
 Show-ColorScript -List
 ```
 
-Lists all available colorscripts with their metadata in a formatted table. Helpful for discovering available scripts and their attributes.
+Lists available colorscripts by name and primary category. Helpful for quick discovery.
 
 ### EXAMPLE 6
 
 ```powershell
-Show-ColorScript -Name arch -NoCache
+Show-ColorScript -Name Galaxy -NoCache
 ```
 
-Displays the arch colorscript without using cache, forcing fresh execution. Useful during development or when troubleshooting cache issues.
+Displays the eligible Galaxy renderer without reading cached output, forcing a fresh isolated render. Useful when testing renderer changes or investigating cache corruption.
 
 ### EXAMPLE 7
 
@@ -169,12 +169,12 @@ Cycles through all nature-themed colorscripts with manual progression. Combines 
 Show-ColorScript -Tag retro,geometric -Random
 ```
 
-Displays a random colorscript that has both "retro" and "geometric" tags. Tag filtering enables precise subset selection.
+Displays a random colorscript that has either the "retro" or "geometric" tag. Multiple tag values use any-match semantics.
 
 ### EXAMPLE 13
 
 ```powershell
-Show-ColorScript -List -Category Art,Abstract
+Show-ColorScript -List -Category Artistic,Abstract
 ```
 
 Lists only colorscripts categorized as "Art" or "Abstract", helping you discover scripts within specific themes.
@@ -184,7 +184,7 @@ Lists only colorscripts categorized as "Art" or "Abstract", helping you discover
 ```powershell
 # Inspect cache eligibility and build status for a policy-selected renderer.
 New-ColorScriptCache -Name Galaxy -Force -PassThru |
-    Select-Object Name, Status, CachePath
+    Select-Object Name, Status, CacheFile
 Show-ColorScript -Name Galaxy
 ```
 
@@ -246,7 +246,7 @@ Demonstrates error handling when requesting a script that doesn't exist.
 ```powershell
 # Build automation integration
 if ($env:CI) {
-    Show-ColorScript -Name "nerd-font-test" -NoCache
+    Show-ColorScript -Name "Galaxy" -NoCache
 } else {
     Show-ColorScript  # Random display for interactive use
 }
@@ -458,7 +458,7 @@ HelpMessage: ''
 
 ### -NoCache
 
-Bypass the caching system and execute the colorscript directly. This forces fresh execution for policy-selected renderers and is useful when testing script modifications, debugging, or investigating cache corruption. Static and unlisted scripts already execute directly.
+Bypasses validated cache reads for policy-selected renderers and forces a fresh isolated render. This is useful when testing renderer changes or investigating cache corruption. Deterministic bundled scripts and unlisted or custom scripts already bypass the cache; bundled deterministic content still renders in-process.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -612,7 +612,7 @@ HelpMessage: ''
 
 ### -ValidateCache
 
-Force cache validation before rendering the selected colorscript. This switch ensures the module verifies cache metadata on demand—useful when developing new scripts, troubleshooting cache issues, or when running in environments that aggressively clean temporary storage. Equivalent to setting the `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` environment variable for the current session.
+Refreshes the module-level cache metadata marker before rendering, including when the cache directory was already initialized in the current module session. It does not rebuild output cache entries or replace normal per-entry validation. Setting `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` to `1`, `true`, or `yes` requests the same refresh during cache initialization.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -654,16 +654,18 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
-### System.String
+### None
 
-You can pipe colorscript names to Show-ColorScript. This enables pipeline-based workflows where script names are generated or filtered by other commands.
+This cmdlet does not accept pipeline input. Pipe inventory records into `ForEach-Object` and call `Show-ColorScript -Name $_.Name` when composing a pipeline.
 
 ## OUTPUTS
 

@@ -8,8 +8,9 @@
 
     .DESCRIPTION
         Shows a beautiful ANSI colorscript in your terminal. If no name is specified,
-        displays a random script. Computational renderers use validated output caching, while
-        static and unlisted scripts execute directly.
+        displays a random script. Policy-selected computational renderers can use validated output
+        caching. Deterministic bundled output is statically extracted and rendered in-process without
+        executing script code; unknown or custom non-static scripts retain a child-process boundary.
         Name values accept wildcards; when multiple scripts match the provided pattern, the first
         alphabetical match is displayed and can be inspected with -PassThru.
 
@@ -33,7 +34,8 @@
         Press 'q' to quit early.
 
     .PARAMETER NoCache
-        Bypass cache and execute script directly.
+        Bypass validated cache reads for policy-selected renderers and request a fresh isolated render.
+        This does not change deterministic bundled static extraction or custom-script isolation.
     .PARAMETER NoClear
         When cycling through scripts with -All, skip clearing the host between displays so prior output remains visible.
     .PARAMETER Category
@@ -55,7 +57,9 @@
         Disable ANSI color codes in informational messages and rendered script text for plain-text environments.
 
     .PARAMETER ValidateCache
-        Forces cache validation before rendering. Use when you need to rebuild cached colorscript output manually.
+        Refresh the module-level cache metadata marker before rendering, including when the cache
+        directory is already initialized. This does not rebuild output cache entries or replace
+        normal per-entry validation.
 
     .EXAMPLE
         Show-ColorScript
@@ -340,7 +344,7 @@
     }
 
     if ($ValidateCache) {
-        Set-CacheValidationOverride -Value $true
+        Initialize-CacheDirectory -RefreshMetadata
     }
 
     $quietRequested = [bool]$Quiet
@@ -727,7 +731,14 @@
                                 param($text, $emitText, $noAnsiOutput)
 
                                 if ($emitText) {
-                                    Write-Output $text
+                                    $textToEmit = if ($noAnsiOutput) {
+                                        Remove-ColorScriptAnsiSequence -Text $text
+                                    }
+                                    else {
+                                        $text
+                                    }
+
+                                    Write-Output $textToEmit
                                     return
                                 }
 

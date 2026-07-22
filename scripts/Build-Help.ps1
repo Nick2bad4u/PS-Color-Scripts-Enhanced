@@ -40,10 +40,13 @@ function Invoke-HelperPowerShell {
         throw "Unable to locate a PowerShell executable for $Purpose."
     }
 
-    $tempScript = [System.IO.Path]::ChangeExtension([System.IO.Path]::GetTempFileName(), '.ps1')
+    $tempScript = Join-Path `
+        -Path ([System.IO.Path]::GetTempPath()) `
+        -ChildPath ("colorscripts-help-{0}.ps1" -f [guid]::NewGuid())
 
     try {
-        Set-Content -Path $tempScript -Value $ScriptContent -Encoding UTF8
+        $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+        [System.IO.File]::WriteAllText($tempScript, $ScriptContent, $utf8NoBom)
 
         $psArgs = @('-NoLogo', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $tempScript)
         $output = & $psExe @psArgs 2>&1
@@ -56,7 +59,7 @@ function Invoke-HelperPowerShell {
         }
     }
     finally {
-        Remove-Item -Path $tempScript -Force -ErrorAction SilentlyContinue
+        Remove-Item -LiteralPath $tempScript -Force -ErrorAction SilentlyContinue
     }
 }
 
@@ -74,15 +77,24 @@ function Remove-DuplicateMamlRelatedLink {
     foreach ($commandNode in $document.SelectNodes("//*[local-name()='command' and namespace-uri()='http://schemas.microsoft.com/maml/dev/command/2004/10']")) {
         $seenLinks = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::Ordinal)
         $links = @($commandNode.SelectNodes("./*[local-name()='relatedLinks']/*[local-name()='navigationLink']"))
-        foreach ($link in $links) {
-            $textNode = $link.SelectSingleNode("./*[local-name()='linkText']")
+        # PlatyPS emits CommandInfo.HelpUri first and then appends the Markdown link. Walk in
+        # reverse so duplicate URIs retain the explicitly localized Markdown label.
+        for ($linkIndex = $links.Count - 1; $linkIndex -ge 0; $linkIndex--) {
+            $link = $links[$linkIndex]
             $uriNode = $link.SelectSingleNode("./*[local-name()='uri']")
-            $text = if ($textNode) { $textNode.InnerText.Trim() } else { '' }
             $uri = if ($uriNode) { $uriNode.InnerText.Trim() } else { '' }
-            $key = '{0}|{1}' -f $text, $uri
 
-            if ([string]::IsNullOrWhiteSpace($uri) -or -not $seenLinks.Add($key)) {
+            if ([string]::IsNullOrWhiteSpace($uri) -or -not $seenLinks.Add($uri)) {
+                $precedingWhitespace = $link.PreviousSibling
                 [void]$link.ParentNode.RemoveChild($link)
+                if ($precedingWhitespace -and
+                    $precedingWhitespace.NodeType -in @(
+                        [System.Xml.XmlNodeType]::Whitespace,
+                        [System.Xml.XmlNodeType]::SignificantWhitespace
+                    ) -and
+                    [string]::IsNullOrWhiteSpace($precedingWhitespace.Value)) {
+                    [void]$precedingWhitespace.ParentNode.RemoveChild($precedingWhitespace)
+                }
                 $removedCount++
             }
         }
@@ -118,12 +130,12 @@ if (-not (Test-Path -LiteralPath $ModuleManifestPath -PathType Leaf)) {
 }
 $ModuleManifestPath = (Get-Item -LiteralPath $ModuleManifestPath).FullName
 
-$moduleData = Import-PowerShellDataFile -Path $ModuleManifestPath
+$moduleData = Import-PowerShellDataFile -LiteralPath $ModuleManifestPath
 $moduleGuid = [string]$moduleData.GUID
 $moduleVersion = [string]$moduleData.ModuleVersion
 
 # Get all available UI cultures (directories with help content)
-$availableCultures = Get-ChildItem -Path $ModulePath -Directory |
+$availableCultures = Get-ChildItem -LiteralPath $ModulePath -Directory |
     Where-Object { $_.Name -match '^[a-z]{2}(-[A-Z]{2})?$' } |
         ForEach-Object { $_.Name } |
             Sort-Object
@@ -196,7 +208,7 @@ if (-not $SkipXmlGeneration) {
         Write-Host "  Output: $cultureOutputPath" -ForegroundColor Gray
 
         # Check if this culture has help files
-        $hasMarkdownFiles = Get-ChildItem -Path $cultureSourceFolder -Filter '*.md' -ErrorAction SilentlyContinue
+        $hasMarkdownFiles = Get-ChildItem -LiteralPath $cultureSourceFolder -Filter '*.md' -ErrorAction SilentlyContinue
         if (-not $hasMarkdownFiles) {
             Write-Host "  ⚠ No markdown help files found for culture $uiCulture, skipping..." -ForegroundColor Yellow
             continue
@@ -248,7 +260,7 @@ Write-Host "Markdown files updated successfully for $uiCulture"
                     Write-Verbose ($updateResult.Output | Out-String)
                 }
 
-                Get-ChildItem -Path $cultureOutputPath -Filter '*.md' | ForEach-Object {
+                Get-ChildItem -LiteralPath $cultureOutputPath -Filter '*.md' | ForEach-Object {
                     Write-Host "    Updated: $($_.Name)" -ForegroundColor Gray
                 }
 
@@ -368,7 +380,7 @@ New-ExternalHelp -Path '$escapedCulturePath' -OutputPath '$escapedCulturePath' -
             $helpInfoPath = Join-Path $cultureOutputPath $helpInfoFileName
 
             # Remove any old HelpInfo files with incorrect names
-            Get-ChildItem -Path $cultureOutputPath -Filter '*_HelpInfo.xml' |
+            Get-ChildItem -LiteralPath $cultureOutputPath -Filter '*_HelpInfo.xml' |
                 Where-Object { $_.Name -ne $helpInfoFileName } |
                     Remove-Item -Force -ErrorAction SilentlyContinue
 

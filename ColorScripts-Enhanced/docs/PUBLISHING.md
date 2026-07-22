@@ -1,412 +1,177 @@
 # Publishing Guide
 
-This document describes how to publish the **ColorScripts-Enhanced** PowerShell module to different package galleries.
+This guide documents the repository's current release pipeline for **ColorScripts-Enhanced**. The PowerShell Gallery is the primary destination; NuGet.org is optional. The workflow does not publish to GitHub Packages.
 
-## Prerequisites
+## Release Contract
 
-- PowerShell 5.1 or later (PowerShell 7.4 recommended)
-- PowerShellGet 2.2+ or PSResourceGet 1.0+
-- A GitHub personal access token (PAT) only for local GitHub Packages pushes or cross-repository package writes (use Package `read:packages`/`write:packages` scopes)
-- API keys for public repositories (PowerShell Gallery / NuGet.org)
+- The manifest uses a four-part date-based version: `yyyy.MM.dd.HHmm`.
+- A release tag must be exactly `v<ModuleVersion>` and point to the commit being published.
+- Published package versions are immutable. Increment the manifest version before publishing another build.
+- The package is built from `ColorScripts-Enhanced/`, normalized to include its README, license, and icon, and attached to the GitHub release.
 
-## Versioning Strategy
+The current manifest version is <!-- COLOR_MODULE_VERSION -->`2026.7.20.2250`<!-- /COLOR_MODULE_VERSION -->.
 
-- The module manifest uses a date-based version (`yyyy.MM.dd.HHmm`).
-- When publishing a public build, ensure the manifest `ModuleVersion` matches the release tag.
-- Update the version automatically using `build.ps1 -Version <value>` or via `Update-ModuleManifest`.
+## Automated Publishing
 
-## Automated Publishing (GitHub Actions)
+`.github/workflows/publish.yml` is the source of truth. It can be invoked by:
 
-The `.github/workflows/publish.yml` workflow automates the entire publish process:
+- publishing a GitHub release;
+- a manual `workflow_dispatch`; or
+- another workflow through `workflow_call`.
 
-1. **Build & Test** - Runs ScriptAnalyzer and Pester tests
-2. **Package** - Creates the `.nupkg` file
-3. **Normalize Metadata** - Embeds README, LICENSE, and icon; sets licenseUrl
-4. **Generate Release Notes** - Uses git-cliff to create changelog from commits
-5. **Create GitHub Release** - Publishes release with:
-   - git-cliff generated changelog in release body
-   - `.nupkg` file attached as release asset
-   - Automatic version tagging
-6. **Publish to Galleries** - Pushes to PowerShell Gallery, NuGet.org, and GitHub Packages
+The workflow:
 
-The workflow can be triggered:
+1. installs the pinned PowerShell and Node.js tooling;
+2. builds the module and runs release-note, verification, conversion, coverage, ScriptAnalyzer, and Pester checks;
+3. verifies that the requested version and release tag match the built manifest;
+4. creates and normalizes a `.nupkg` package;
+5. generates release notes with git-cliff;
+6. creates or updates the GitHub release when requested;
+7. publishes to the PowerShell Gallery when `PSGALLERYAPIKEY` is available; and
+8. optionally publishes to NuGet.org when `NUGETAPIKEY` is available and `publishToNuGet` is not `false`.
 
-- Manually via `workflow_dispatch` with customizable options
-- Automatically when tests pass on the main branch
+### Manual Inputs
 
-### Manual Trigger Options
+| Input              | Default | Effect                                      |
+| ------------------ | ------- | ------------------------------------------- |
+| `publishToNuGet`   | `true`  | Enables the optional NuGet.org publish step |
+| `versionOverride`  | empty   | Overrides the version passed to `build.ps1` |
+| `createRelease`    | `true`  | Creates or updates the GitHub release       |
 
-When manually triggering the publish workflow, you can control:
+The workflow does not define a `publishToGitHub` input or push to GitHub Packages.
 
-- `publishToNuGet` - Publish to NuGet.org (default: true)
-- `publishToGitHub` - Publish to GitHub Packages (default: true)
-- `versionOverride` - Override the manifest version
-- `createRelease` - Create a GitHub release (default: true)
+### Required Secrets
 
-The workflow installs git-cliff automatically and generates release notes for the current version, which are then displayed in the GitHub release.
+| Secret            | Purpose                                                    |
+| ----------------- | ---------------------------------------------------------- |
+| `PSGALLERYAPIKEY` | Publishes the normalized package to PowerShell Gallery     |
+| `NUGETAPIKEY`     | Publishes the same package to NuGet.org when enabled       |
 
-## PowerShell Gallery / NuGet.org
+Both are optional for reusable-workflow calls. A missing key causes its corresponding publish step to skip; it does not turn validation into a failure.
 
-The PowerShell Gallery is built on top of NuGet feeds. Publishing to the Gallery or to NuGet.org uses the same API key.
-
-```powershell
-# Publish to the PowerShell Gallery (NuGet.org)
-Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:PSGALLERY_API_KEY -Verbose
-```
-
-PowerShellGet versions prior to 2.2.6 do not embed README or license assets automatically. When you stage the package locally with `Publish-Module` (for example by targeting a temporary repository), run the metadata normalizer before pushing:
+### Manual Dispatch
 
 ```powershell
-pwsh -NoProfile -File ./scripts/Update-NuGetPackageMetadata.ps1 -PackagePath 'C:\path\to\ColorScripts-Enhanced.<version>.nupkg'
-dotnet nuget push 'C:\path\to\ColorScripts-Enhanced.<version>.nupkg' --api-key $env:PSGALLERY_API_KEY --source https://www.powershellgallery.com/api/v2/package
-```
-
-The GitHub publish workflow runs this script automatically.
-
-> **Note:** NuGet.org expects packages that declare the `Unlicense` license expression to also expose `https://licenses.nuget.org/Unlicense` via `licenseUrl`. The normalization script sets this automatically so older NuGet clients render the license correctly.
-
-### Getting an API Key
-
-1. Create an account at <https://www.powershellgallery.com>.
-2. Generate an API key from your profile.
-3. Store the key securely (e.g., GitHub secret `PSGALLERY_API_KEY`).
-4. Ensure `README.md` is present in the module root (`ColorScripts-Enhanced/README.md`). The metadata normalization script bundles this file (along with `LICENSE` and the icon) into the staged `.nupkg` prior to publishing.
-
-### Testing Before Publishing
-
-```powershell
-# Verify manifest
-Test-ModuleManifest .\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1
-
-# Run automated tests
-pwsh -NoProfile -Command "Invoke-Pester -Path ./Tests"
-
-# Run lint (treat warnings as errors)
-pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
-
-# Apply auto-fixable ScriptAnalyzer rules (optional)
-pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -Fix
-
-# Verify Nerd Font glyphs render correctly
-Show-ColorScript -Name nerd-font-test
-```
-
-## Secrets & Environment Variables
-
-| Purpose                                | Local Var                                    | GitHub Secret                     |
-| -------------------------------------- | -------------------------------------------- | --------------------------------- |
-| PowerShell Gallery / NuGet.org API key | `$env:PSGALLERYAPIKEY` or `$env:NUGETAPIKEY` | `PSGALLERYAPIKEY` / `NUGETAPIKEY` |
-| Local GitHub Packages PAT              | `$env:PACKAGES_TOKEN`                        | Not used by the publish workflow  |
-
-## GitHub Packages (Optional)
-
-GitHub Packages provides a private or public NuGet feed.
-
-The GitHub Actions publish workflow uses the repository `GITHUB_TOKEN` and grants it `packages: write`. Use `PACKAGES_TOKEN` only when publishing from a local shell or another system outside this workflow.
-
-```powershell
-$owner = 'Nick2bad4u'
-$source = "https://nuget.pkg.github.com/$owner/index.json"
-Register-PSRepository -Name GitHub -SourceLocation $source -PublishLocation $source -InstallationPolicy Trusted -PackageManagementProvider NuGet
-Publish-Module -Path ./ColorScripts-Enhanced -NuGetApiKey $env:PACKAGES_TOKEN -Repository GitHub
-```
-
-> **Tip:** When you stage the package locally before pushing to GitHub Packages, run `Update-NuGetPackageMetadata.ps1` against the resulting `.nupkg` so the README, license, and icon are embedded.
-
-### Installing from GitHub Packages
-
-```powershell
-$source = "https://nuget.pkg.github.com/Nick2bad4u/index.json"
-Register-PSRepository -Name ColorScriptsEnhanced-GitHub -SourceLocation $source -InstallationPolicy Trusted -PackageManagementProvider NuGet
-Install-Module -Name ColorScripts-Enhanced -Repository ColorScriptsEnhanced-GitHub
-```
-
-## Azure Artifacts / Private Feeds
-
-For enterprise environments you can host the module in Azure Artifacts or any NuGet-compatible feed:
-
-```powershell
-Register-PSRepository -Name MyCompanyFeed -SourceLocation 'https://pkgs.dev.azure.com/<org>/<project>/_packaging/<feed>/nuget/v2' -InstallationPolicy Trusted -Credential (Get-Credential)
-Publish-Module -Path ./ColorScripts-Enhanced -Repository MyCompanyFeed
-
-> **Tip:** Normalize staged packages with `Update-NuGetPackageMetadata.ps1` before pushing them to your private feed to ensure gallery-friendly metadata.
-```
-
-## Release Workflow Summary
-
-1. Refresh release notes with `npm run release:notes` (PowerShell Gallery snippet) and sync the changelog with `npm run release:verify` (requires `git-cliff`).
-2. Update the changelog (`CHANGELOG.md`) and generated notes under `dist/` if additional polish is needed.
-3. Run `Test-Module.ps1` locally (includes lint step).
-4. Run `Lint-Module.ps1 -IncludeTests -TreatWarningsAsErrors` if not already covered.
-5. Commit and push changes.
-6. Create a GitHub release with a tag matching the manifest version (for example, `v2026.7.20.35`).
-7. Trigger the **Publish** GitHub Actions workflow via release or manual dispatch.
-8. Confirm module availability in the target gallery.
-
-## Troubleshooting
-
-- **Version conflict**: Increment `ModuleVersion` if a package with the same version exists.
-- **Authentication failure**: Regenerate API token and check secrets configuration.
-- **Missing dependencies**: Ensure PowerShellGet/PSResourceGet is updated on host machine.
-- **Changelog mismatch**: Always update documentation before publishing.
-
-## Pre-Publishing Checklist
-
-- [ ] Aggregate build and tests pass (`npm run build`)
-- [ ] Non-mutating verification passes (`npm run verify`)
-- [ ] Linting clean (`npm run lint`)
-- [ ] Documentation updated
-- [ ] Version bumped (`.psd1` manifest)
-- [ ] CHANGELOG.md updated
-- [ ] Release notes generated
-- [ ] Tested locally on Windows/Mac/Linux
-
-## Local Publishing Workflow
-
-### Step 1: Validate Package
-
-```powershell
-# Test manifest
-Test-ModuleManifest -Path ColorScripts-Enhanced/ColorScripts-Enhanced.psd1
-
-# Verify module loads
-Remove-Module ColorScripts-Enhanced -Force -ErrorAction SilentlyContinue
-Import-Module ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1 -Verbose
-
-# Check all commands export
-Get-Command -Module ColorScripts-Enhanced | Select-Object Name
-```
-
-### Step 2: Create Package
-
-```powershell
-# Using automatic publish workflow (recommended)
-# Trigger via GitHub Actions interface or:
+# Validate, package, create the release, and publish where keys are configured.
 gh workflow run publish.yml --ref main
 
-# Manual packaging (optional)
-Compress-Archive -Path "./ColorScripts-Enhanced" -DestinationPath "./dist/ColorScripts-Enhanced-v1.0.0.zip"
-```
-
-### Step 3: Test Package Installation
-
-```powershell
-# PowerShell Gallery (simulate)
-Save-Module -Name ColorScripts-Enhanced -Path "./test-install"
-
-# Test load
-Import-Module "./test-install/ColorScripts-Enhanced"
-
-# Verify functionality
-Show-ColorScript -Name bars
-Get-ColorScriptList
-```
-
-## Publishing to Different Galleries
-
-### PowerShell Gallery (Primary)
-
-```powershell
-# Publish via GitHub Actions (automatic)
-# OR manually if needed:
-
-$nugetApiKey = Read-Host "Enter NuGet API key" -AsSecureString
-$nugetApiKeyPlain = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto(
-    [System.Runtime.InteropServices.Marshal]::SecureStringToCoTaskMemUnicode($nugetApiKey)
-)
-
-Publish-Module -Path "./ColorScripts-Enhanced" `
-    -NuGetApiKey $nugetApiKeyPlain `
-    -Repository PSGallery
-```
-
-## Verification
-
-```powershell
-# Should appear in PowerShell Gallery after 5-10 minutes
-Find-Module -Name ColorScripts-Enhanced
-```
-
-### NuGet.org
-
-```powershell
-# Publish directly to NuGet
-dotnet nuget push "./dist/ColorScripts-Enhanced.*.nupkg" `
-    -k $nugetApiKey `
-    -s https://api.nuget.org/v3/index.json
-```
-
-### GitHub Packages
-
-```powershell
-# Register GitHub package source
-$owner = 'Nick2bad4u'
-$source = "https://nuget.pkg.github.com/$owner/index.json"
-
-Register-PSRepository -Name ColorScriptsEnhanced-GitHub `
-    -SourceLocation $source `
-    -PublishLocation $source `
-    -InstallationPolicy Trusted
-
-# Publish
-Publish-Module -Path "./ColorScripts-Enhanced" `
-    -Repository ColorScriptsEnhanced-GitHub `
-    -NuGetApiKey $githubToken
-```
-
-## Automated Publishing Workflow
-
-### GitHub Actions Execution
-
-The `.github/workflows/publish.yml` workflow:
-
-1. **Validates** - Runs smoke tests and linting
-2. **Builds** - Creates .nupkg package
-3. **Normalizes** - Embeds README, LICENSE, icon
-4. **Generates** - Creates changelog using git-cliff
-5. **Releases** - Creates GitHub release with changelog
-6. **Publishes** - Pushes to configured galleries
-
-### Manual Workflow Trigger
-
-```powershell
-# Via GitHub CLI
-gh workflow run publish.yml
-
-# With options
-gh workflow run publish.yml `
-    -f publishToNuGet=true `
-    -f publishToGitHub=true `
+# Skip NuGet.org and use an explicit module version.
+gh workflow run publish.yml --ref main `
+    -f publishToNuGet=false `
     -f createRelease=true `
-    -f versionOverride="2025.10.30.1200"
+    -f versionOverride='2026.7.20.2250'
 
-# Check status
 gh run list --workflow=publish.yml
 ```
 
-## Versioning Strategy (2)
+Do not supply a version override that differs from the intended release tag. The workflow rejects mismatches.
 
-### Date-Based Versioning
+## Local Pre-Publish Validation
 
-Format: `yyyy.MM.dd.HHmm`
-
-Example: `2025.10.30.1247`
+From the repository root:
 
 ```powershell
-# Generate version automatically
-$version = (Get-Date -Format "yyyy.MM.dd.HHmm")
-Write-Host "Version: $version"
-```
-
-### Updating Version
-
-```powershell
-# Method 1: Direct update
-$manifestPath = "./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1"
-$version = "2025.10.30.1247"
-
-Update-ModuleManifest -Path $manifestPath -ModuleVersion $version
-
-# Method 2: Via build script
-.\scripts\build.ps1 -Version $version
-```
-
-## Release Notes Generation
-
-### Using git-cliff
-
-```powershell
-# Generate release notes for latest version
-npx git-cliff --unreleased
-
-# Generate for specific version
-npx git-cliff --tag v2025.10.30
-
-# Generate full changelog
-npx git-cliff > CHANGELOG.md
-
-# Validate changelog
+Test-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1
+npm ci
+npm run verify
+npm run test
+npm run lint
 npm run release:verify
 ```
 
-## Post-Publishing Tasks
+`npm run build` is the aggregate build and release-readiness command. It performs generated-file updates, so review the resulting diff before committing it.
 
-### Verification (2)
-
-```powershell
-# Wait 5-10 minutes for gallery sync
-
-# Check PowerShell Gallery
-Find-Module -Name ColorScripts-Enhanced | Select-Object Version
-
-# Test installation
-Install-Module -Name ColorScripts-Enhanced -Force -Verbose
-
-# Verify functionality
-Import-Module ColorScripts-Enhanced
-Show-ColorScript
-```
-
-### Announcement
-
-- [ ] Update GitHub releases page
-- [ ] Post to PowerShell community forums
-- [ ] Update project website
-- [ ] Announce on social media (optional)
-- [ ] Update documentation links
-
-## Troubleshooting Publication
-
-### Publish Fails
-
-**Issue**: Module won't publish to gallery
+To inspect command exports after validation:
 
 ```powershell
-# Check manifest syntax
-Test-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1
-
-# Validate version format
-# Should be: Major.Minor.Patch or date-based (2025.10.30)
-# NOT: year.month.day.minute with too many parts
-
-# Correct format if needed
-Update-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1 `
-    -ModuleVersion "2025.10.30"
+Remove-Module ColorScripts-Enhanced -Force -ErrorAction SilentlyContinue
+Import-Module ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1 -Force
+Get-Command -Module ColorScripts-Enhanced | Sort-Object Name
 ```
 
-**Issue**: "Already published" error
+## Local Packaging and Publishing
+
+The supported release path is the GitHub workflow. If local publishing is necessary, use a temporary PowerShell repository to create the package, then run the same metadata normalizer used in CI before pushing it.
 
 ```powershell
-# Increment version and retry
-Update-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1 `
-    -ModuleVersion "2025.10.31"
+$stagingPath = Join-Path $env:TEMP 'ColorScripts-Enhanced-packages'
+New-Item -ItemType Directory -Path $stagingPath -Force | Out-Null
+
+Register-PSRepository `
+    -Name LocalModuleStaging `
+    -SourceLocation $stagingPath `
+    -PublishLocation $stagingPath `
+    -InstallationPolicy Trusted
+
+try {
+    Publish-Module `
+        -Path ./ColorScripts-Enhanced `
+        -Repository LocalModuleStaging `
+        -NuGetApiKey LocalRepositoryKey
+}
+finally {
+    Unregister-PSRepository -Name LocalModuleStaging -ErrorAction SilentlyContinue
+}
+
+$package = Get-ChildItem -LiteralPath $stagingPath -Filter '*.nupkg' |
+    Sort-Object LastWriteTimeUtc -Descending |
+    Select-Object -First 1
+
+pwsh -NoProfile -File ./scripts/Update-NuGetPackageMetadata.ps1 `
+    -PackagePath $package.FullName
 ```
 
-## Monitoring After Release
-
-### Track Downloads
+Push the normalized package only after inspecting it:
 
 ```powershell
-# Check PowerShell Gallery stats
-# https://www.powershellgallery.com/packages/ColorScripts-Enhanced
+dotnet nuget push $package.FullName `
+    --api-key $env:PSGALLERYAPIKEY `
+    --source https://www.powershellgallery.com/api/v2/package `
+    --skip-duplicate
 
-# Track downloads programmatically
-$info = Invoke-RestMethod -Uri "https://www.powershellgallery.com/api/v2/Packages?`$filter=Id eq 'ColorScripts-Enhanced'" -ErrorAction SilentlyContinue
-$info.Entry | Select-Object Title, Version, @{N='Downloads'; E={$_.Properties.DownloadCount}}
+# Optional second destination.
+dotnet nuget push $package.FullName `
+    --api-key $env:NUGETAPIKEY `
+    --source https://api.nuget.org/v3/index.json `
+    --skip-duplicate
 ```
 
-### Track Issues
+Avoid converting a secure string back to plaintext in managed memory merely to pass an API key. Prefer a short-lived environment variable supplied by the local secret manager or CI environment.
+
+## Release Checklist
+
+- [ ] The worktree contains only intentional release changes.
+- [ ] `ModuleVersion` is the version being released.
+- [ ] `npm run verify`, `npm run test`, `npm run lint`, and `npm run release:verify` pass.
+- [ ] Generated help, documentation counts, changelog, and release notes are current.
+- [ ] A `v<ModuleVersion>` tag does not already exist for another commit.
+- [ ] Repository secrets use the exact names `PSGALLERYAPIKEY` and `NUGETAPIKEY`.
+- [ ] The GitHub release contains the normalized `.nupkg` asset.
+- [ ] The new version is visible in each selected public gallery.
+
+## Post-Publish Verification
 
 ```powershell
-# Monitor GitHub issues for post-release problems
-gh issue list --label "v2025.10.30" --state open
+Find-Module -Name ColorScripts-Enhanced -Repository PSGallery |
+    Select-Object Name, Version, PublishedDate
 
-# Track bug reports
-gh issue list --label "bug" --state open
+$testInstallRoot = Join-Path $env:TEMP 'ColorScripts-Enhanced-install-test'
+Save-Module -Name ColorScripts-Enhanced -Repository PSGallery -Path $testInstallRoot
 ```
 
-## Additional Resources
+Use an isolated PowerShell process or module path for installation checks so an already imported development checkout cannot mask a packaging problem.
 
-- PowerShell Gallery Publishing Docs: <https://learn.microsoft.com/en-us/powershell/gallery/how-to/publishing-packages/publishing-a-package?view=powershellget-3.x>
-- PSResourceGet Guide: <https://learn.microsoft.com/en-us/powershell/gallery/overview?view=powershellget-3.x>
-- GitHub Packages with PowerShell: <https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-nuget-registry>
+## Troubleshooting
+
+- **Version rejected:** confirm the value parses as `[version]`. Four-part date versions such as `2026.7.20.2250` are valid.
+- **Release tag mismatch:** the tag without its leading `v` must exactly equal the built manifest version and resolve to the published commit.
+- **Duplicate package:** increment `ModuleVersion`; gallery versions cannot be replaced.
+- **Publish step skipped:** verify the exact secret name and that the API key is visible to the invoking workflow.
+- **Package metadata missing:** run `scripts/Update-NuGetPackageMetadata.ps1` against the staged package before pushing.
+- **Release notes mismatch:** fetch tags and run `npm run release:verify`; release notes use git-cliff's `--current` range.
+
+## References
+
+- [PowerShell Gallery package publishing](https://learn.microsoft.com/powershell/gallery/how-to/publishing-packages/publishing-a-package)
+- [PowerShell repositories](https://learn.microsoft.com/powershell/gallery/how-to/working-with-local-psrepositories)
+- [NuGet push command](https://learn.microsoft.com/nuget/reference/cli-reference/cli-ref-push)

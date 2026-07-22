@@ -1,0 +1,2 @@
+# Botany scripts embed byte-exact ANSI source data, including CRLFs and trailing spaces.
+ColorScripts-Enhanced/Scripts/botany-*.ps1 -text whitespace=-blank-at-eol

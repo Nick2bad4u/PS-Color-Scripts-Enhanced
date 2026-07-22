@@ -20,6 +20,14 @@
     Optional explicit count of policy-selected cacheable renderers. When omitted, the script reads
     CachePolicy.psd1 and counts the unique names in CacheableScripts and CacheablePokemonScripts.
 
+.PARAMETER DynamicCount
+    Optional explicit count of intentionally dynamic renderers. When omitted, the script reads
+    DynamicRenderPolicy.psd1 and counts the unique names in DynamicScripts.
+
+.PARAMETER ModuleVersion
+    Optional explicit module version. When omitted, the script reads ModuleVersion from the checked-in
+    ColorScripts-Enhanced.psd1 manifest.
+
 .PARAMETER Files
     Paths to the markdown files that should be updated. Paths are resolved relative to the repository root when
     they are not already absolute. Non-existent files are ignored with a verbose notice.
@@ -35,6 +43,8 @@
         <!-- COLOR_SCRIPT_COUNT_PLUS -->   -> {count}+ (text with trailing plus)
         <!-- COLOR_SCRIPT_COUNT_MINUS_IMAGES --> -> {max(count - ImagesShown, 0)}
         <!-- COLOR_CACHE_TOTAL -->         -> {cache count} (policy-selected cacheable renderers)
+        <!-- COLOR_DYNAMIC_TOTAL -->       -> {dynamic count} (intentionally variable renderers)
+        <!-- COLOR_MODULE_VERSION -->      -> {module manifest version}
         <!-- COLOR_SCRIPT_COUNT -->        -> {count} (exact numeric)
     Additional markers can be added by extending the $replacements dictionary.
 #>
@@ -52,6 +62,13 @@ param(
     [int]$CacheCount,
 
     [Parameter()]
+    [ValidateRange(0, [int]::MaxValue)]
+    [int]$DynamicCount,
+
+    [Parameter()]
+    [string]$ModuleVersion,
+
+    [Parameter()]
     [string[]]$Files = @(
         'README.md',
         'ColorScripts-Enhanced/README.md',
@@ -61,11 +78,17 @@ param(
         'docs/DEVELOPMENT.md',
         'docs/NPM_SCRIPTS.md',
         'docs/QUICK_REFERENCE.md',
+        'docs/DOCUMENTATION_INDEX.md',
+        'docs/PUBLISHING.md',
+        'docs/ROADMAP.md',
         'ColorScripts-Enhanced/docs/MODULE_SUMMARY.md',
         'ColorScripts-Enhanced/docs/MEGALINTER-SETUP.md',
         'ColorScripts-Enhanced/docs/DEVELOPMENT.md',
         'ColorScripts-Enhanced/docs/NPM_SCRIPTS.md',
-        'ColorScripts-Enhanced/docs/QUICK_REFERENCE.md'
+        'ColorScripts-Enhanced/docs/QUICK_REFERENCE.md',
+        'ColorScripts-Enhanced/docs/DOCUMENTATION_INDEX.md',
+        'ColorScripts-Enhanced/docs/PUBLISHING.md',
+        'ColorScripts-Enhanced/docs/ROADMAP.md'
     )
 )
 
@@ -104,15 +127,45 @@ if (-not $PSBoundParameters.ContainsKey('CacheCount')) {
     $CacheCount = $cacheNames.Count
 }
 
+if (-not $PSBoundParameters.ContainsKey('DynamicCount')) {
+    $dynamicPolicyPath = Join-Path -Path $repoRoot -ChildPath 'ColorScripts-Enhanced/DynamicRenderPolicy.psd1'
+    if (-not (Test-Path -LiteralPath $dynamicPolicyPath -PathType Leaf)) {
+        throw "Cannot locate DynamicRenderPolicy.psd1 at $dynamicPolicyPath"
+    }
+
+    $dynamicPolicy = Import-PowerShellDataFile -LiteralPath $dynamicPolicyPath -ErrorAction Stop
+    $dynamicNames = @($dynamicPolicy.DynamicScripts | Where-Object {
+            $_ -is [string] -and -not [string]::IsNullOrWhiteSpace($_)
+        } | Sort-Object -Unique)
+    $DynamicCount = $dynamicNames.Count
+}
+
+if (-not $PSBoundParameters.ContainsKey('ModuleVersion')) {
+    $manifestPath = Join-Path -Path $repoRoot -ChildPath 'ColorScripts-Enhanced/ColorScripts-Enhanced.psd1'
+    if (-not (Test-Path -LiteralPath $manifestPath -PathType Leaf)) {
+        throw "Cannot locate the module manifest at $manifestPath"
+    }
+
+    $manifest = Import-PowerShellDataFile -LiteralPath $manifestPath -ErrorAction Stop
+    $ModuleVersion = [string]$manifest.ModuleVersion
+}
+
+if ([string]::IsNullOrWhiteSpace($ModuleVersion)) {
+    throw 'ModuleVersion must not be empty'
+}
+
 $plusValue = "${ScriptCount}+"
 $minusValue = [math]::Max($ScriptCount - $ImagesShown, 0).ToString()
 $cacheValue = $CacheCount.ToString()
+$dynamicValue = $DynamicCount.ToString()
 $exactValue = $ScriptCount.ToString()
 
 $replacements = @{
     'COLOR_SCRIPT_COUNT_PLUS'         = $plusValue
     'COLOR_SCRIPT_COUNT_MINUS_IMAGES' = $minusValue
     'COLOR_CACHE_TOTAL'               = $cacheValue
+    'COLOR_DYNAMIC_TOTAL'             = $dynamicValue
+    'COLOR_MODULE_VERSION'            = "``$ModuleVersion``"
     'COLOR_SCRIPT_COUNT'              = $exactValue
 }
 

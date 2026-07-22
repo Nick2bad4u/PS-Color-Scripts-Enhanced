@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList
 Locale: es
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Get-ColorScriptList
 ---
@@ -13,7 +13,7 @@ title: Get-ColorScriptList
 
 ## SYNOPSIS
 
-Lista los colorescripts disponibles con filtrado opcional y salida de metadatos rica.
+Listas scripts de colores disponibles con filtrado opcional y salida de metadatos enriquecidos.
 
 ## SYNTAX
 
@@ -26,23 +26,23 @@ Get-ColorScriptList [[-Name] <string[]>] [[-Category] <string[]>] [[-Tag] <strin
 
 ## ALIASES
 
-This command has no aliases.
+Este comando no tiene alias.
 
 ## DESCRIPTION
 
-El cmdlet `Get-ColorScriptList` recupera y muestra todos los colorescripts empaquetados con el módulo ColorScripts-Enhanced. Proporciona opciones de filtrado flexibles y múltiples formatos de salida para adaptarse a diferentes casos de uso.
+El cmdlet `Get-ColorScriptList` recupera y muestra todos los scripts de colores empaquetados con el módulo ColorScripts-Enhanced. Proporciona opciones de filtrado flexibles y múltiples formatos de salida para adaptarse a diferentes casos de uso.
 
-Por defecto, el cmdlet muestra una tabla formateada concisa que muestra los nombres de los scripts y las categorías. El interruptor `-Detailed` expande esta vista para incluir etiquetas y descripciones, proporcionando más contexto de un vistazo.
+De forma predeterminada, el cmdlet muestra una tabla formateada concisa que muestra los nombres y categorías de script. El conmutador `-Detailed` amplía esta vista para incluir etiquetas y descripciones, lo que proporciona más contexto de un vistazo.
 
-Para escenarios de automatización y programáticos, el parámetro `-AsObject` devuelve los registros de metadatos sin procesar como objetos PowerShell, permitiendo un procesamiento adicional a través de la canalización. Estos registros incluyen información completa como nombre, categoría, categorías, etiquetas, descripción y la propiedad de metadatos original.
+El cmdlet siempre devuelve registros de metadatos a la canalización exitosa. Sin `-AsObject`, también escribe una vista de host formateada; `-AsObject` suprime ese formato de host para una automatización limpia. Los registros incluyen nombre, ruta, categoría, categorías, etiquetas, descripción y la propiedad de metadatos original.
 
 Las capacidades de filtrado le permiten reducir la lista por:
 
-- **Name**: Soporta patrones de comodín (ej., `aurora-*`) para coincidencia flexible
-- **Category**: Filtrar por uno o más nombres de categoría (sin distinción de mayúsculas y minúsculas)
-- **Tag**: Filtrar por etiquetas de metadatos como "Recommended" o "Animated" (sin distinción de mayúsculas y minúsculas)
+- **Name**: Admite patrones comodín (p. ej., `aurora-*`) para una coincidencia flexible
+- **Category**: Filtrar por uno o más nombres de categoría (no distingue entre mayúsculas y minúsculas)
+- **Tag**: filtrar por etiquetas de metadatos como "Recommended" o "Animated" (no distingue entre mayúsculas y minúsculas)
 
-El cmdlet valida los patrones de filtro y genera advertencias para cualquier patrón de nombre no coincidente, ayudándole a identificar posibles errores tipográficos o scripts faltantes.
+El cmdlet valida los patrones de filtro y genera advertencias para cualquier patrón de nombre que no coincida, lo que le ayuda a identificar posibles errores tipográficos o scripts faltantes.
 
 ## EXAMPLES
 
@@ -52,7 +52,7 @@ El cmdlet valida los patrones de filtro y genera advertencias para cualquier pat
 Get-ColorScriptList
 ```
 
-Muestra todos los colorescripts disponibles en un formato de tabla compacta mostrando el nombre y la categoría de cada script.
+Muestra todos los scripts de colores disponibles en un formato de tabla compacta que muestra el nombre y la categoría de cada script.
 
 ### EXAMPLE 2
 
@@ -60,7 +60,7 @@ Muestra todos los colorescripts disponibles en un formato de tabla compacta most
 Get-ColorScriptList -Detailed
 ```
 
-Muestra todos los colorescripts con columnas adicionales incluyendo etiquetas y descripciones para una visión general completa.
+Muestra todos los scripts de colores con columnas adicionales que incluyen etiquetas y descripciones para una descripción general completa.
 
 ### EXAMPLE 3
 
@@ -68,7 +68,7 @@ Muestra todos los colorescripts con columnas adicionales incluyendo etiquetas y 
 Get-ColorScriptList -Detailed -Category Patterns
 ```
 
-Muestra solo los scripts en la categoría "Patterns" con metadatos completos incluyendo etiquetas y descripciones.
+Muestra solo scripts en la categoría "Patterns" con metadatos completos que incluyen etiquetas y descripciones.
 
 ### EXAMPLE 4
 
@@ -76,7 +76,7 @@ Muestra solo los scripts en la categoría "Patterns" con metadatos completos inc
 Get-ColorScriptList -AsObject -Name 'aurora-*' | Select-Object Name, Tags
 ```
 
-Devuelve objetos estructurados para cada script cuyo nombre coincide con el patrón de comodín, luego selecciona solo las propiedades Name y Tags para mostrar.
+Devuelve objetos estructurados para cada script cuyo nombre coincida con el patrón comodín y luego selecciona solo las propiedades Name y Tags para su visualización.
 
 ### EXAMPLE 5
 
@@ -84,7 +84,7 @@ Devuelve objetos estructurados para cada script cuyo nombre coincide con el patr
 Get-ColorScriptList -AsObject -Tag Recommended | Sort-Object Name
 ```
 
-Recupera todos los scripts etiquetados como "Recommended" y los ordena alfabéticamente por nombre. Útil para encontrar scripts curados adecuados para la integración de perfil.
+Recupera todos los scripts etiquetados como "Recommended" y los ordena alfabéticamente por nombre. Útil para encontrar scripts seleccionado adecuado para la integración de perfiles.
 
 ### EXAMPLE 6
 
@@ -92,7 +92,7 @@ Recupera todos los scripts etiquetados como "Recommended" y los ordena alfabéti
 Get-ColorScriptList -AsObject -Category Geometric,Abstract | Where-Object { $_.Tags -contains 'Colorful' }
 ```
 
-Combina el filtrado de categoría y etiqueta para encontrar scripts que están tanto en las categorías Geometric o Abstract como etiquetados como Colorful.
+Combina el filtrado de categorías y etiquetas para encontrar scripts que estén en las categorías Geométrica o Abstracta y etiquetados como Colorido.
 
 ### EXAMPLE 7
 
@@ -100,59 +100,59 @@ Combina el filtrado de categoría y etiqueta para encontrar scripts que están t
 Get-ColorScriptList -Name blocks,pipes,matrix -AsObject | ForEach-Object { Show-ColorScript -Name $_.Name }
 ```
 
-Recupera scripts nombrados específicos y ejecuta cada uno en secuencia, demostrando la integración de canalización con `Show-ColorScript`.
+Recupera un nombre específico scripts y ejecuta cada uno en secuencia, lo que demuestra la integración de la canalización con `Show-ColorScript`.
 
 ### EXAMPLE 8
 
 ```powershell
-# Count scripts by category for inventory purposes
+# Cuente scripts por categoría para fines de inventario
 Get-ColorScriptList -AsObject |
     Group-Object Category |
     Select-Object Name, Count |
     Sort-Object Count -Descending
 ```
 
-Proporciona un resumen de cuántos colorescripts existen en cada categoría.
+Proporciona un resumen de cuántos scripts de colores existen en cada categoría.
 
 ### EXAMPLE 9
 
 ```powershell
-# Find scripts with specific keywords in description
+# Encuentre scripts con palabras clave específicas en la descripción
 $scripts = Get-ColorScriptList -AsObject
 $scripts |
     Where-Object { $_.Description -match 'fractal|mandelbrot' } |
     Select-Object Name, Category, Description
 ```
 
-Busca scripts basados en el contenido de su descripción usando coincidencia de patrones.
+Busca scripts según el contenido de su descripción mediante la coincidencia de patrones.
 
 ### EXAMPLE 10
 
 ```powershell
-# Export to CSV for external tool processing
+# Exportar a CSV para procesamiento de herramientas externas
 Get-ColorScriptList -AsObject -Detailed |
     Select-Object Name, Category, Tags, Description |
     Export-Csv -Path "./colorscripts-inventory.csv" -NoTypeInformation
 ```
 
-Exporta el inventario completo de colorescripts a formato CSV para uso en aplicaciones de hoja de cálculo.
+Exporta el inventario completo de script de colores a formato CSV para usarlo en aplicaciones de hojas de cálculo.
 
 ### EXAMPLE 11
 
 ```powershell
-# Check for scripts without specific category
+# Consultar por scripts sin categoría específica
 $allScripts = Get-ColorScriptList -AsObject
 $uncategorized = $allScripts | Where-Object { -not $_.Category }
-Write-Host "Uncategorized scripts: $($uncategorized.Count)"
+Write-Host "Scripts sin categoría: $($uncategorized.Count)"
 $uncategorized | Select-Object Name
 ```
 
-Identifica scripts que carecen de metadatos de categoría.
+Identifica scripts a los que les faltan metadatos de categoría.
 
 ### EXAMPLE 12
 
 ```powershell
-# Build cache for filtered scripts
+# Construir caché para scripts filtrado
 Get-ColorScriptList -Tag Recommended -AsObject |
     ForEach-Object {
         New-ColorScriptCache -Name $_.Name -PassThru
@@ -160,54 +160,54 @@ Get-ColorScriptList -Tag Recommended -AsObject |
     Format-Table Name, Status
 ```
 
-Almacena en caché solo los scripts recomendados y muestra los resultados de la operación de almacenamiento en caché.
+Evalúa scripts etiquetado como `Recommended`; solo se crean renderizadores elegibles para la política de caché y otros registros informan `SkippedNotRequired`.
 
 ### EXAMPLE 13
 
 ```powershell
-# Create a formatted report of all geometric scripts
+# Cree un informe formateado de todos los scripts geométricos.
 Get-ColorScriptList -Category Geometric -Detailed |
     Out-String |
     Tee-Object -FilePath "./geometric-report.txt"
 ```
 
-Genera y guarda un informe detallado de colorescripts de categoría geométrica en un archivo.
+Genera y guarda un informe detallado de la categoría geométrica scripts de colores en un archivo.
 
 ### EXAMPLE 14
 
 ```powershell
-# Find the first script matching a pattern for quick display
+# Encuentre el primer script que coincida con un patrón para una visualización rápida
 $script = Get-ColorScriptList -Name "aurora-*" -AsObject | Select-Object -First 1
 if ($script) {
     Show-ColorScript -Name $script.Name -PassThru
 }
 ```
 
-Muestra rápidamente el primer script coincidente basado en un patrón de comodín.
+Muestra rápidamente el primer script coincidente según un patrón comodín.
 
 ### EXAMPLE 15
 
 ```powershell
-# Verify all referenced scripts exist before running automation
+# Verifique que todos los scripts a los que se hace referencia existan antes de ejecutar la automatización
 $requiredScripts = @("bars", "arch", "mandelbrot-zoom")
 $available = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Name
 $missing = $requiredScripts | Where-Object { $_ -notin $available }
 if ($missing) {
-    Write-Warning "Missing scripts: $($missing -join ', ')"
+    Write-Warning "Scripts que faltan: $($missing -join ', ')"
 } else {
-    Write-Host "All required scripts are available"
+    Write-Host "Todos los scripts necesarios están disponibles"
 }
 ```
 
-Valida que todos los scripts requeridos existan antes de ejecutar la automatización.
+Valida que todos los scripts requeridos existan antes de que se ejecute la automatización.
 
 ## PARAMETERS
 
 ### -AsObject
 
-Devuelve objetos de registro de metadatos sin procesar en lugar de renderizar una tabla formateada al host. Esto permite el procesamiento de canalización y la manipulación programática de los metadatos de colorescript.
+Devuelve objetos de registro de metadatos sin procesar en lugar de representar una tabla formateada al host. Esto permite el procesamiento de canalizaciones y la manipulación programática de los metadatos script de colores.
 
-Cuando se especifica este interruptor, puede usar cmdlets estándar de PowerShell como `Where-Object`, `Select-Object`, `Sort-Object` y `ForEach-Object` para procesar aún más los resultados.
+Cuando se especifica este modificador, puede usar cmdlets PowerShell estándar como `Where-Object`, `Select-Object`, `Sort-Object` y `ForEach-Object` para procesar aún más los resultados.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -228,9 +228,9 @@ HelpMessage: ''
 
 ### -Category
 
-Filtra la lista para incluir solo scripts pertenecientes a una o más categorías especificadas. La coincidencia de categoría no distingue mayúsculas y minúsculas.
+Filtra la lista para incluir solo scripts que pertenece a una o más categorías especificadas. La coincidencia Category no distingue entre mayúsculas y minúsculas.
 
-Las categorías comunes incluyen: Patterns, Geometric, Abstract, Nature, Animated, Text, Retro, y más. Puede especificar múltiples categorías para ampliar su búsqueda.
+Las categorías comunes incluyen: Patrones, Geométrico, Abstracto, Naturaleza, Animado, Texto, Retro y más. Puede especificar varias categorías para ampliar su búsqueda.
 
 ```yaml
 Type: System.String[]
@@ -251,9 +251,9 @@ HelpMessage: ''
 
 ### -Detailed
 
-Incluye columnas adicionales (etiquetas y descripción) al renderizar la vista de tabla formateada. Esto proporciona información más completa sobre cada script de un vistazo.
+Incluye columnas adicionales (etiquetas y descripción) al representar la vista de tabla formateada. Esto proporciona información más completa sobre cada script de un vistazo.
 
-Sin este interruptor, solo se muestran el nombre y la categoría primaria en la salida de tabla.
+Sin este modificador, solo se muestran el nombre y la categoría principal en el resultado de la tabla.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -274,7 +274,7 @@ HelpMessage: ''
 
 ### -h
 
-Muestra la ayuda detallada de este comando sin realizar la operación.
+Muestra ayuda detallada para este comando sin realizar la operación.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -296,11 +296,11 @@ HelpMessage: ''
 
 ### -Name
 
-Filtra la lista de colorescripts por uno o más nombres de script. Soporta caracteres comodín (`*` y `?`) para coincidencia de patrones flexible.
+Filtra la lista script de colores por uno o más nombres script. Admite caracteres comodín (`*` y `?`) para una coincidencia de patrones flexible.
 
-Si un patrón especificado no coincide con ningún script, se genera una advertencia para ayudar a identificar posibles problemas. La coincidencia de nombre no distingue mayúsculas y minúsculas.
+Si un patrón especificado no coincide con ningún scripts, se genera una advertencia para ayudar a identificar problemas potenciales. La coincidencia Name no distingue entre mayúsculas y minúsculas.
 
-Puede especificar nombres exactos o usar patrones como `aurora-*` para coincidir con múltiples scripts relacionados.
+Puede especificar nombres exactos o utilizar patrones como `aurora-*` para hacer coincidir varios scripts relacionados.
 
 ```yaml
 Type: System.String[]
@@ -321,7 +321,7 @@ HelpMessage: ''
 
 ### -NoAnsiOutput
 
-Desactiva el formato ANSI en los mensajes informativos y la salida renderizada para entornos de texto sin formato.
+Deshabilita el estilo ANSI en mensajes informativos y resultados renderizados para entornos de texto sin formato.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -342,7 +342,7 @@ HelpMessage: ''
 
 ### -Quiet
 
-Suprime los mensajes informativos sin ocultar la salida del comando ni los errores.
+Suprime los mensajes informativos y al mismo tiempo preserva los resultados y los errores de los comandos.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -363,9 +363,9 @@ HelpMessage: ''
 
 ### -Tag
 
-Filtra la lista para incluir solo scripts que contengan una o más etiquetas de metadatos especificadas. La coincidencia de etiqueta no distingue mayúsculas y minúsculas.
+Filtra la lista para incluir solo scripts que contiene una o más etiquetas de metadatos especificadas. La coincidencia de etiquetas no distingue entre mayúsculas y minúsculas.
 
-Las etiquetas comunes incluyen: Recommended, Animated, Colorful, Minimal, Retro, Complex, Simple, y más. Las etiquetas ayudan a categorizar scripts por estilo visual, complejidad o caso de uso.
+Las etiquetas comunes incluyen: Recomendado, Animado, Colorido, Mínimo, Retro, Complejo, Simple y más. Tags ayuda a categorizar scripts por estilo visual, complejidad o caso de uso.
 
 ```yaml
 Type: System.String[]
@@ -386,56 +386,58 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Este cmdlet admite los parámetros comunes:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Para obtener más información, consulte
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
 
-Este cmdlet no acepta entrada de canalización.
+Este cmdlet no acepta entradas de canalización.
 
 ## OUTPUTS
 
 ### System.Object
 
-Cuando se especifica `-AsObject`, devuelve objetos de registro de metadatos de colorescript con las siguientes propiedades:
+Devuelve objetos de registro de metadatos script de colores con las siguientes propiedades:
 
-- **Name**: El identificador de script usado con `Show-ColorScript`
-- **Category**: La categoría primaria del script
-- **Categories**: Una matriz de todas las categorías a las que pertenece el script
-- **Tags**: Una matriz de etiquetas de metadatos que describen el script
-- **Description**: Una descripción legible por humanos de la salida visual del script
-- **Metadata**: El objeto de metadatos original que contiene toda la información sin procesar del script
+- **Name**: El identificador script utilizado con `Show-ColorScript`
+- **Path**: la ruta de origen completa
+- **Category**: La categoría principal del script
+- **Categories**: una variedad de todas las categorías a las que pertenece el script
+- **Tags**: una serie de etiquetas de metadatos que describen el script
+- **Description**: una descripción legible por humanos de la salida visual del script.
+- **Metadata**: el objeto de metadatos original que contiene toda la información sin procesar de script.
 
-Sin `-AsObject`, el cmdlet escribe una tabla formateada al host mientras aún devuelve los objetos de registro para procesamiento potencial de canalización.
+Sin `-AsObject`, el cmdlet escribe una tabla formateada en el host y al mismo tiempo devuelve los objetos de registro para un posible procesamiento de canalización.
 
 ## NOTES
 
-**Author**: Nick
-**Module**: ColorScripts-Enhanced
-**Version**: 1.0
+**Autor**: Nick
+**Módulo**: ColorScripts-Enhanced
 
-Los registros de metadatos devueltos proporcionan información completa para fines de visualización y automatización. La propiedad `Name` se puede usar directamente con el cmdlet `Show-ColorScript` para ejecutar scripts específicos.
+Los registros de metadatos devueltos proporcionan información completa tanto para fines de visualización como de automatización. La propiedad `Name` se puede usar directamente con el cmdlet `Show-ColorScript` para ejecutar scripts específico.
 
-Todas las operaciones de filtrado (Name, Category, Tag) no distinguen mayúsculas y minúsculas y se pueden combinar para crear consultas poderosas. Al usar comodines en el parámetro `-Name`, los patrones no coincidentes generan advertencias para ayudar con la resolución de problemas.
+Todas las operaciones de filtrado (Name, Category, Etiqueta) no distinguen entre mayúsculas y minúsculas y se pueden combinar para crear consultas potentes. Cuando se utilizan comodines en el parámetro `-Name`, los patrones no coincidentes generan advertencias para ayudar con la resolución de problemas.
 
-Para mejores resultados al integrar colorescripts en su perfil de PowerShell, use el filtro `-Tag Recommended` para identificar scripts curados adecuados para la visualización de inicio.
+Para obtener mejores resultados al integrar scripts de colores en su perfil PowerShell, utilice el filtro `-Tag Recommended` para identificar el scripts seleccionado adecuado para la visualización de inicio.
 
-### Best Practices
+### Buenas prácticas
 
-- Siempre use `-AsObject` cuando necesite filtrar o manipular resultados programáticamente
-- Use `-Detailed` cuando explore interactivamente para ver etiquetas y descripciones
+- Utilice siempre `-AsObject` cuando necesite filtrar o manipular resultados mediante programación
+- Utilice `-Detailed` cuando explore de forma interactiva para ver etiquetas y descripciones.
 - Combine múltiples filtros para consultas precisas
-- Exporte metadatos periódicamente para rastrear cambios con el tiempo
-- Use objetos de resultado para automatización en lugar de analizar salida de texto
-- Considere el rendimiento al ejecutar consultas repetidamente (almacene en caché resultados si es posible)
-- Aproveche Group-Object para análisis y reportes
-- Use Where-Object para lógica de filtrado compleja
+- Exportar metadatos periódicamente para realizar un seguimiento de los cambios a lo largo del tiempo.
+- Utilice objetos de resultados para la automatización en lugar de analizar la salida de texto
+- Considere el rendimiento al ejecutar consultas repetidamente (guarde los resultados en caché si es posible)
+- Aproveche Group-Object para análisis e informes
+- Utilice Where-Object para lógica de filtrado compleja
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
+- [Versión en línea](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptList)
 

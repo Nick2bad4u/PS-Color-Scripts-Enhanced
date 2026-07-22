@@ -13,8 +13,10 @@ const {
     convertAnsiToPs1,
     getSauceFontName,
     MAX_TERMINAL_COLUMNS,
+    parseArguments,
     readAnsiFile,
     stripSauce,
+    trimSauceTextField,
     writePowerShellFile,
 } = require("../scripts/Convert-AnsiToColorScript.js");
 const {
@@ -47,7 +49,13 @@ function runPowerShell(scriptPath) {
     return getPowerShellExecutables().map((executable) => {
         const result = spawnSync(
             executable,
-            ["-NoLogo", "-NoProfile", "-NonInteractive", "-File", scriptPath],
+            [
+                "-NoLogo",
+                "-NoProfile",
+                "-NonInteractive",
+                "-File",
+                scriptPath,
+            ],
             { encoding: "utf8", cwd: path.dirname(scriptPath) }
         );
 
@@ -67,7 +75,7 @@ test("generated output treats hostile ANSI text as data", () => {
         "$env:TEMP ${HOME}",
         `$(Set-Content -LiteralPath '${sentinel}' -Value pwned)`,
         "`n `\" quoted ' apostrophe",
-        "\"@",
+        '"@',
         "'@",
         "\u001b[31mUnicode: café 雪\u001b[0m  ",
     ].join("\n");
@@ -78,6 +86,42 @@ test("generated output treats hostile ANSI text as data", () => {
     const outputs = runPowerShell(scriptPath);
     outputs.forEach((stdout) => assert.equal(stdout, `${payload}\n`));
     assert.equal(fs.existsSync(sentinel), false);
+});
+
+test("passthrough preserves sequential ANSI colors, line endings, and apostrophes", () => {
+    const directory = createTemporaryDirectory();
+    const inputPath = path.join(directory, "botany-like.ansi");
+    const outputPath = path.join(directory, "botany-like.ps1");
+    const payload = `${[
+        "\u001b[38;5;7m  \u001b[38;5;3moo\u001b[38;5;2m|",
+        "\u001b[38;5;7m  '  `  \u001b[38;5;8m ",
+        "\u001b[0m",
+    ].join("\r\n")}\r\n`;
+    fs.writeFileSync(inputPath, payload, "utf8");
+
+    const conversion = spawnSync(
+        process.execPath,
+        [
+            path.join(__dirname, "../scripts/Convert-AnsiToColorScript.js"),
+            "--utf8",
+            "--passthrough",
+            inputPath,
+            outputPath,
+        ],
+        { encoding: "utf8" }
+    );
+
+    assert.equal(
+        conversion.status,
+        0,
+        conversion.error?.message || conversion.stderr || conversion.stdout
+    );
+    assert.match(fs.readFileSync(outputPath, "utf8"), /  ''  `/u);
+
+    const expected = payload.replace(/\r\n/g, "\n");
+    runPowerShell(outputPath).forEach((stdout) =>
+        assert.equal(stdout, expected)
+    );
 });
 
 test("PowerShell converter emits safe PS5.1-compatible scripts", () => {
@@ -104,7 +148,10 @@ test("PowerShell converter emits safe PS5.1-compatible scripts", () => {
                 "-NoProfile",
                 "-NonInteractive",
                 "-File",
-                path.join(__dirname, "../scripts/Convert-AnsiToColorScript.ps1"),
+                path.join(
+                    __dirname,
+                    "../scripts/Convert-AnsiToColorScript.ps1"
+                ),
                 "-AnsiFile",
                 inputPath,
                 "-OutputFile",
@@ -117,11 +164,14 @@ test("PowerShell converter emits safe PS5.1-compatible scripts", () => {
             0,
             `${executable}: ${conversion.error?.message || conversion.stderr || conversion.stdout}`
         );
-        assert.deepEqual([...fs.readFileSync(outputPath).subarray(0, 3)], [
-            0xef,
-            0xbb,
-            0xbf,
-        ]);
+        assert.deepEqual(
+            [...fs.readFileSync(outputPath).subarray(0, 3)],
+            [
+                0xef,
+                0xbb,
+                0xbf,
+            ]
+        );
         runPowerShell(outputPath).forEach((stdout) =>
             assert.equal(stdout, `${payload}\n`)
         );
@@ -144,7 +194,13 @@ test("PowerShell converter derives one output name per pipeline item", () => {
     const command = `Get-Item -LiteralPath ${quote(firstInput)},${quote(secondInput)} | & ${quote(converter)} -OutputDirectory ${quote(outputDirectory)} -Confirm:$false`;
     const conversion = spawnSync(
         process.platform === "win32" ? "pwsh.exe" : "pwsh",
-        ["-NoLogo", "-NoProfile", "-NonInteractive", "-Command", command],
+        [
+            "-NoLogo",
+            "-NoProfile",
+            "-NonInteractive",
+            "-Command",
+            command,
+        ],
         { encoding: "utf8" }
     );
 
@@ -180,6 +236,16 @@ test("advanced PowerShell converter forwards encoding options on both engines", 
                 outputPath,
                 "-Encoding",
                 "utf8",
+                "-SourceUrl",
+                "https://example.test/art/unicode.ans",
+                "-SourceRevision",
+                "release-2026.07",
+                "-SourceSha256",
+                "a".repeat(64),
+                "-SourceLicense",
+                "ISC",
+                "-SourceAttribution",
+                "Example Artist",
             ],
             { encoding: "utf8" }
         );
@@ -192,6 +258,15 @@ test("advanced PowerShell converter forwards encoding options on both engines", 
         runPowerShell(outputPath).forEach((stdout) =>
             assert.equal(stdout, "snow: 雪\n")
         );
+        const generatedSource = fs.readFileSync(outputPath, "utf8");
+        assert.match(
+            generatedSource,
+            /# Source URL: https:\/\/example\.test\/art\/unicode\.ans/
+        );
+        assert.match(generatedSource, /# Source Revision: release-2026\.07/);
+        assert.match(generatedSource, /# Source SHA-256: a{64}/);
+        assert.match(generatedSource, /# Source License: ISC/);
+        assert.match(generatedSource, /# Source Attribution: Example Artist/);
     }
 });
 
@@ -199,7 +274,13 @@ test("splitter writes and reads the safe literal format", () => {
     const directory = createTemporaryDirectory();
     const sentinel = path.join(directory, "comment-injected.txt");
     const scriptPath = path.join(directory, "split.ps1");
-    const lines = ["$env:PATH", "$(throw 'must not execute')", "'@", "tail  "];
+    const repeatedScriptPath = path.join(directory, "split-repeated.ps1");
+    const lines = [
+        "$env:PATH",
+        "$(throw 'must not execute')",
+        "'@",
+        "tail  ",
+    ];
 
     writeChunkPs1(
         scriptPath,
@@ -208,14 +289,22 @@ test("splitter writes and reads the safe literal format", () => {
             sourceName: `art.ans\nSet-Content -LiteralPath '${sentinel}' -Value pwned`,
         }
     );
+    writeChunkPs1(
+        repeatedScriptPath,
+        { start: 0, end: lines.length, lines },
+        {
+            sourceName: `art.ans\nSet-Content -LiteralPath '${sentinel}' -Value pwned`,
+        }
+    );
 
-    assert.deepEqual(extractLinesFromPs1(scriptPath), [
-        ...lines,
-        "\u001b[0m",
-    ]);
+    assert.deepEqual(extractLinesFromPs1(scriptPath), [...lines, "\u001b[0m"]);
     const outputs = runPowerShell(scriptPath);
     outputs.forEach((stdout) =>
         assert.equal(stdout, `${lines.join("\n")}\n\u001b[0m\n`)
+    );
+    assert.deepEqual(
+        fs.readFileSync(scriptPath),
+        fs.readFileSync(repeatedScriptPath)
     );
     assert.equal(fs.existsSync(sentinel), false);
 });
@@ -230,11 +319,22 @@ test("stripSauce removes EOF before a valid COMNT block", () => {
     sauce.writeUInt32LE(1, 90);
     sauce.writeUInt8(1, 104);
 
-    const result = stripSauce(Buffer.concat([content, comment, sauce]));
+    const result = stripSauce(
+        Buffer.concat([
+            content,
+            comment,
+            sauce,
+        ])
+    );
 
     assert.deepEqual([...result.buffer], [0x41]);
     assert.equal(result.sauce?.comments, 1);
     assert.equal(result.sauce?.title, "A\0B");
+});
+
+test("SAUCE text fields remove null-before-space padding without deleting embedded nulls", () => {
+    assert.equal(trimSauceTextField("Faith\0        "), "Faith");
+    assert.equal(trimSauceTextField("A\0B        "), "A\0B");
 });
 
 test("source metadata comments sanitize controls and preserve SAUCE provenance", () => {
@@ -260,7 +360,14 @@ test("source metadata comments sanitize controls and preserve SAUCE provenance",
     const header = buildSourceMetadataHeader(
         "source.ans\nWrite-Error injected",
         "cp437",
-        sauce
+        sauce,
+        {
+            url: "https://example.test/source.ans\nWrite-Error provenance",
+            revision: "abc123",
+            sha256: "b".repeat(64),
+            license: "ISC",
+            attribution: "Artist\r\nInjected line",
+        }
     );
 
     assert.match(header, /# Converted from: source\.ans Write-Error injected/);
@@ -268,7 +375,93 @@ test("source metadata comments sanitize controls and preserve SAUCE provenance",
     assert.match(header, /# SAUCE Dimensions: 80x25/);
     assert.match(header, /# SAUCE Font: IBM VGA/);
     assert.match(header, /# SAUCE Comments: Comment second line/);
-    assert.equal(header.split("\n").some((line) => line === "Write-Error injected"), false);
+    assert.match(
+        header,
+        /# Source URL: https:\/\/example\.test\/source\.ans Write-Error provenance/
+    );
+    assert.match(header, /# Source Attribution: Artist Injected line/);
+    assert.equal(
+        header.split("\n").some((line) => line === "Write-Error injected"),
+        false
+    );
+});
+
+test("source provenance options validate and normalize untrusted metadata", () => {
+    const sha256 = "ABCDEF0123456789".repeat(4);
+    const { options } = parseArguments([
+        "--source-url=https://example.test/art.ans?download=1",
+        "--source-revision=release/2026.07",
+        `--source-sha256=${sha256}`,
+        "--source-license=LicenseRef-Public-Domain",
+        "--source-attribution=Roy/SAC aka Carsten Cumbrowski",
+        "--",
+        "art.ans",
+    ]);
+
+    assert.deepEqual(options.sourceProvenance, {
+        url: "https://example.test/art.ans?download=1",
+        revision: "release/2026.07",
+        sha256: sha256.toLowerCase(),
+        license: "LicenseRef-Public-Domain",
+        attribution: "Roy/SAC aka Carsten Cumbrowski",
+    });
+    assert.throws(
+        () => parseArguments(["--source-url=file:///tmp/art.ans"]),
+        /absolute HTTP or HTTPS URL/
+    );
+    assert.throws(
+        () => parseArguments(["--source-revision=main\ninjected"]),
+        /single printable line/
+    );
+    assert.throws(
+        () => parseArguments(["--source-sha256=abc123"]),
+        /exactly 64 hexadecimal characters/
+    );
+});
+
+test("identical ANSI input and options produce byte-identical scripts", () => {
+    const directory = createTemporaryDirectory();
+    const inputPath = path.join(directory, "deterministic.ansi");
+    const firstOutput = path.join(directory, "first.ps1");
+    const secondOutput = path.join(directory, "second.ps1");
+    const converter = path.join(
+        __dirname,
+        "../scripts/Convert-AnsiToColorScript.js"
+    );
+    fs.writeFileSync(inputPath, "\u001b[32mrepeatable\u001b[0m\r\n", "utf8");
+    const commonArguments = [
+        converter,
+        "--encoding=utf8",
+        "--source-url=https://example.test/deterministic.ansi",
+        `--source-sha256=${"c".repeat(64)}`,
+    ];
+
+    for (const outputPath of [firstOutput, secondOutput]) {
+        const conversion = spawnSync(
+            process.execPath,
+            [
+                ...commonArguments,
+                "--",
+                inputPath,
+                outputPath,
+            ],
+            { encoding: "utf8" }
+        );
+        assert.equal(
+            conversion.status,
+            0,
+            conversion.error?.message || conversion.stderr || conversion.stdout
+        );
+    }
+
+    assert.deepEqual(
+        fs.readFileSync(firstOutput),
+        fs.readFileSync(secondOutput)
+    );
+    assert.doesNotMatch(
+        fs.readFileSync(firstOutput, "utf8"),
+        /Conversion date:/
+    );
 });
 
 test("SAUCE font names stop at the first null terminator without regex backtracking", () => {
@@ -364,7 +557,11 @@ test("DEC autowrap and PabloDraw iCE modes honor private toggles", () => {
     );
     assert.deepEqual(ice.lines, ["\u001b[101mI\u001b[0mN"]);
     assert.deepEqual(
-        [...disabledAutowrap.warnings, ...enabledAutowrap.warnings, ...ice.warnings],
+        [
+            ...disabledAutowrap.warnings,
+            ...enabledAutowrap.warnings,
+            ...ice.warnings,
+        ],
         []
     );
 });
@@ -417,14 +614,26 @@ test("analysis CLI reports cells written after cursor positioning", () => {
 });
 
 test("stripSauce removes only the metadata-adjacent DOS EOF marker", () => {
-    const content = Buffer.from([0x41, 0x1a, 0x42, 0x1a]);
+    const content = Buffer.from([
+        0x41,
+        0x1a,
+        0x42,
+        0x1a,
+    ]);
     const sauce = Buffer.alloc(128);
     sauce.write("SAUCE00", 0, "ascii");
     sauce.writeUInt32LE(3, 90);
 
     const result = stripSauce(Buffer.concat([content, sauce]));
 
-    assert.deepEqual([...result.buffer], [0x41, 0x1a, 0x42]);
+    assert.deepEqual(
+        [...result.buffer],
+        [
+            0x41,
+            0x1a,
+            0x42,
+        ]
+    );
     assert.ok(result.sauce);
 });
 
@@ -453,16 +662,8 @@ test("ANSI split output preserves the selected source encoding", () => {
     const cp437Path = path.join(directory, "cp437.ans");
     const utf8Path = path.join(directory, "utf8.ans");
 
-    writeChunkAnsi(
-        cp437Path,
-        { start: 0, end: 1, lines: ["café ░"] },
-        "cp437"
-    );
-    writeChunkAnsi(
-        utf8Path,
-        { start: 0, end: 1, lines: ["snow 雪"] },
-        "utf8"
-    );
+    writeChunkAnsi(cp437Path, { start: 0, end: 1, lines: ["café ░"] }, "cp437");
+    writeChunkAnsi(utf8Path, { start: 0, end: 1, lines: ["snow 雪"] }, "utf8");
 
     assert.equal(readAnsiFile(cp437Path, "cp437").content, "café ░\n\u001b[0m");
     assert.equal(readAnsiFile(utf8Path, "utf8").content, "snow 雪\n\u001b[0m");
@@ -470,19 +671,27 @@ test("ANSI split output preserves the selected source encoding", () => {
 
 test("converter and splitter reject unknown options and unsafe overwrites", () => {
     assert.deepEqual(
-        require("../scripts/Convert-AnsiToColorScript.js").parseArguments(["--", "--utf8"]).positional,
+        require("../scripts/Convert-AnsiToColorScript.js").parseArguments([
+            "--",
+            "--utf8",
+        ]).positional,
         ["--utf8"]
     );
     assert.deepEqual(
-        require("../scripts/Split-AnsiFile.js").parseArguments(["--", "--utf8"]).positional,
+        require("../scripts/Split-AnsiFile.js").parseArguments(["--", "--utf8"])
+            .positional,
         ["--utf8"]
     );
     assert.throws(
-        () => require("../scripts/Convert-AnsiToColorScript.js").parseArguments(["--typo"]),
+        () =>
+            require("../scripts/Convert-AnsiToColorScript.js").parseArguments([
+                "--typo",
+            ]),
         /Unknown option/
     );
     assert.throws(
-        () => require("../scripts/Split-AnsiFile.js").parseArguments(["--typo"]),
+        () =>
+            require("../scripts/Split-AnsiFile.js").parseArguments(["--typo"]),
         /Unknown option/
     );
 

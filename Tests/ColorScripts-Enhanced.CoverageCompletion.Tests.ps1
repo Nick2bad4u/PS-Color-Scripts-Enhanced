@@ -839,7 +839,7 @@ Describe 'ColorScripts-Enhanced coverage completion' {
                         $cmdlet.ShouldProcess($target, $action)
                     }
 
-                    Clear-ColorScriptCache -Name @('ghost', 'sample')
+                    Clear-ColorScriptCache -Name @('ghost', 'sample') -PassThru
                 }
                 finally {
                     $script:ShouldProcessEvaluator = $originalState.Evaluator
@@ -905,7 +905,7 @@ Describe 'ColorScripts-Enhanced coverage completion' {
                         throw [System.IO.IOException]::new('remove failure')
                     }
 
-                    Clear-ColorScriptCache -Name @('ghost', 'missing', 'error')
+                    Clear-ColorScriptCache -Name @('ghost', 'missing', 'error') -PassThru
                 }
                 finally {
                     $script:ShouldProcessEvaluator = $originalState.Evaluator

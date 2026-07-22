@@ -136,10 +136,7 @@ function parseArguments(argv) {
             options.inputFormat = "ps1";
         } else if (arg === "--input=ansi") {
             options.inputFormat = "ansi";
-        } else if (
-            arg === "--encoding=cp437" ||
-            arg === "--encoding=437"
-        ) {
+        } else if (arg === "--encoding=cp437" || arg === "--encoding=437") {
             options.encoding = "cp437";
         } else if (
             arg === "--encoding=utf8" ||
@@ -299,7 +296,11 @@ function ensureTrailingReset(content) {
 /**
  * @param {string} outputPath
  * @param {Chunk} chunk
- * @param {{ sourceName: string; sourceEncoding?: string; sauce?: object | null }} baseInfo
+ * @param {{
+ *     sourceName: string;
+ *     sourceEncoding?: string;
+ *     sauce?: object | null;
+ * }} baseInfo
  *
  * @returns {void}
  */
@@ -313,7 +314,6 @@ function writeChunkPs1(outputPath, chunk, baseInfo) {
             baseInfo.sauce || null
         ).trimEnd(),
         `# Lines: ${chunk.start + 1}-${chunk.end}`,
-        `# Generated: ${new Date().toISOString()}`,
     ].join("\n");
     const body = `${header}\n\n${buildPowerShellOutput(normalized)}`;
     writePowerShellFile(outputPath, body);
@@ -431,8 +431,8 @@ function main(argv = process.argv.slice(2)) {
     /** @type {string[]} */
     let lines;
     let sauce = null;
-    const sourceEncoding = options.encoding ||
-        (inputFormat === "ansi" ? "cp437" : "utf8");
+    const sourceEncoding =
+        options.encoding || (inputFormat === "ansi" ? "cp437" : "utf8");
 
     if (inputFormat === "ps1") {
         if (options.stripSpaceBackground) {
@@ -451,7 +451,7 @@ function main(argv = process.argv.slice(2)) {
         const terminalOptions = {
             columns: columns || undefined,
             stripSpaceBackground: options.stripSpaceBackground,
-            iceColors: Boolean(sauce && (sauce.flags & 1)),
+            iceColors: Boolean(sauce && sauce.flags & 1),
         };
 
         const converted = convertAnsiToPs1(content, terminalOptions);

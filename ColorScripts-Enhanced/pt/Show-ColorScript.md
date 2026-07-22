@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript
 Locale: pt
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Show-ColorScript
 ---
@@ -13,7 +13,7 @@ title: Show-ColorScript
 
 ## SYNOPSIS
 
-Mostra um colorscript e usa cache seletivo apenas para renderizadores dispendiosos.
+Exibe um colorscript com cache seletivo para renderizadores caros.
 
 ## SYNTAX
 
@@ -63,15 +63,15 @@ Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <string
 
 ## DESCRIPTION
 
-Renders beautiful ANSI colorscripts in your terminal with intelligent performance optimization. The cmdlet provides four primary modes of operation:
+Renderiza lindos ANSI colorscripts em seu terminal com otimização de desempenho inteligente. O cmdlet fornece quatro modos principais de operação:
 
-**Random Mode (Default):** Displays a randomly selected colorscript from the available collection. This is the default behavior when no parameters are specified.
+**Modo aleatório (padrão):** Exibe um colorscript selecionado aleatoriamente da coleção disponível. Este é o comportamento padrão quando nenhum parâmetro é especificado.
 
-**Named Mode:** Displays a specific colorscript by name. Supports wildcard patterns for flexible matching. When multiple scripts match a pattern, the first match in alphabetical order is selected.
+**Modo Nomeado:** Exibe um colorscript específico por nome. Suporta padrões curinga para correspondência flexível. Quando vários scripts correspondem a um padrão, a primeira correspondência em ordem alfabética é selecionada.
 
-**List Mode:** Displays a formatted list of all available colorscripts with their metadata, including name, category, tags, and descriptions.
+**Modo de lista:** Exibe uma tabela compacta contendo nomes colorscript e categorias primárias. Use `Get-ColorScriptList -AsObject` para registros completos de metadados.
 
-**All Mode:** Cycles through all available colorscripts in alphabetical order. Particularly useful for showcasing the entire collection or discovering new scripts.
+**Todos os modos:** Percorre todos os colorscripts disponíveis em ordem alfabética. Particularmente útil para mostrar toda a coleção ou descobrir novos roteiros.
 
 ## EXAMPLES
 
@@ -81,7 +81,7 @@ Renders beautiful ANSI colorscripts in your terminal with intelligent performanc
 Show-ColorScript
 ```
 
-Mostra um colorscript aleatório. Scripts estáticos são executados diretamente; renderizadores computacionais elegíveis podem reutilizar uma saída validada.
+Exibe um colorscript aleatório. Scripts agrupados determinísticos são renderizados em processo; renderizadores computacionais qualificados podem reutilizar a saída em cache validada.
 
 ### EXAMPLE 2
 
@@ -89,7 +89,7 @@ Mostra um colorscript aleatório. Scripts estáticos são executados diretamente
 Show-ColorScript -Name "mandelbrot-zoom"
 ```
 
-Displays the specified colorscript by exact name. The .ps1 extension is not required.
+Exibe o colorscript especificado pelo nome exato. A extensão .ps1 não é necessária.
 
 ### EXAMPLE 3
 
@@ -97,7 +97,7 @@ Displays the specified colorscript by exact name. The .ps1 extension is not requ
 Show-ColorScript -Name "aurora-*"
 ```
 
-Displays the first colorscript (alphabetically) that matches the wildcard pattern "aurora-\*". Useful when you remember part of a script's name.
+Exibe o primeiro colorscript (em ordem alfabética) que corresponde ao padrão curinga "aurora-\*". Útil quando você lembra parte do nome de um script.
 
 ### EXAMPLE 4
 
@@ -105,7 +105,7 @@ Displays the first colorscript (alphabetically) that matches the wildcard patter
 scs hearts
 ```
 
-Uses the module's alias 'scs' for quick access to the hearts colorscript. Aliases provide convenient shortcuts for frequent use.
+Usa o alias do módulo 'scs' para acesso rápido aos corações colorscript. Os aliases fornecem atalhos convenientes para uso frequente.
 
 ### EXAMPLE 5
 
@@ -113,15 +113,15 @@ Uses the module's alias 'scs' for quick access to the hearts colorscript. Aliase
 Show-ColorScript -List
 ```
 
-Lists all available colorscripts with their metadata in a formatted table. Helpful for discovering available scripts and their attributes.
+Lista colorscripts disponível por nome e categoria primária. Útil para descoberta rápida.
 
 ### EXAMPLE 6
 
 ```powershell
-Show-ColorScript -Name arch -NoCache
+Show-ColorScript -Name Galaxy -NoCache
 ```
 
-Displays the arch colorscript without using cache, forcing fresh execution. Useful during development or when troubleshooting cache issues.
+Exibe o renderizador Galaxy elegível sem ler a saída em cache, forçando uma nova renderização isolada. Útil ao testar alterações no renderizador ou investigar corrupção de cache.
 
 ### EXAMPLE 7
 
@@ -129,7 +129,7 @@ Displays the arch colorscript without using cache, forcing fresh execution. Usef
 Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category
 ```
 
-Displays a random nature-themed script and captures its metadata object for further inspection or processing.
+Exibe um script aleatório com tema natural e captura seu objeto de metadados para inspeção ou processamento adicional.
 
 ### EXAMPLE 8
 
@@ -137,7 +137,7 @@ Displays a random nature-themed script and captures its metadata object for furt
 Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt
 ```
 
-Renders the colorscript and saves the output to a text file. The rendered ANSI codes are preserved, allowing the file to be displayed later with proper coloring.
+Renderiza o colorscript e salva a saída em um arquivo de texto. Os códigos ANSI renderizados são preservados, permitindo que o arquivo seja exibido posteriormente com a coloração adequada.
 
 ### EXAMPLE 9
 
@@ -145,7 +145,7 @@ Renders the colorscript and saves the output to a text file. The rendered ANSI c
 Show-ColorScript -All
 ```
 
-Displays all colorscripts in alphabetical order with a brief automatic delay between each. Perfect for a visual showcase of the entire collection.
+Exibe todos os colorscripts em ordem alfabética com um breve atraso automático entre cada um. Perfeito para uma vitrine visual de toda a coleção.
 
 ### EXAMPLE 10
 
@@ -153,7 +153,7 @@ Displays all colorscripts in alphabetical order with a brief automatic delay bet
 Show-ColorScript -All -WaitForInput
 ```
 
-Displays all colorscripts one at a time, pausing after each. Press spacebar to advance to the next script, or press 'q' to quit the sequence early.
+Exibe todos os colorscripts, um de cada vez, pausando após cada um. Pressione a barra de espaço para avançar para o próximo script ou pressione 'q' para encerrar a sequência antecipadamente.
 
 ### EXAMPLE 11
 
@@ -161,7 +161,7 @@ Displays all colorscripts one at a time, pausing after each. Press spacebar to a
 Show-ColorScript -All -Category Nature -WaitForInput
 ```
 
-Cycles through all nature-themed colorscripts with manual progression. Combines filtering with interactive browsing for a curated experience.
+Percorre todos os colorscripts com tema natural com progressão manual. Combina filtragem com navegação interativa para uma experiência selecionada.
 
 ### EXAMPLE 12
 
@@ -169,55 +169,55 @@ Cycles through all nature-themed colorscripts with manual progression. Combines 
 Show-ColorScript -Tag retro,geometric -Random
 ```
 
-Displays a random colorscript that has both "retro" and "geometric" tags. Tag filtering enables precise subset selection.
+Exibe um colorscript aleatório que possui a tag "retro" ou "geometric". Vários valores de tag usam semântica de qualquer correspondência.
 
 ### EXAMPLE 13
 
 ```powershell
-Show-ColorScript -List -Category Art,Abstract
+Show-ColorScript -List -Category Artistic,Abstract
 ```
 
-Lists only colorscripts categorized as "Art" or "Abstract", helping you discover scripts within specific themes.
+Lista apenas colorscripts categorizados como "Art" ou "Abstract", ajudando você a descobrir scripts dentro de temas específicos.
 
 ### EXAMPLE 14
 
 ```powershell
-# Measure performance improvement from caching
-$uncached = Measure-Command { Show-ColorScript -Name spectrum -NoCache }
-$cached = Measure-Command { Show-ColorScript -Name spectrum }
-Write-Host "Uncached: $($uncached.TotalMilliseconds)ms | Cached: $($cached.TotalMilliseconds)ms | Speedup: $([math]::Round($uncached.TotalMilliseconds / $cached.TotalMilliseconds, 1))x"
+# Inspecione a elegibilidade do cache e o status de build de um renderizador selecionado por política.
+New-ColorScriptCache -Name Galaxy -Force -PassThru |
+    Select-Object Name, Status, CacheFile
+Show-ColorScript -Name Galaxy
 ```
 
-Demonstrates the performance improvement that caching provides by measuring execution time.
+Constrói e inspeciona uma entrada de cache para um renderizador qualificado sem reivindicar um multiplicador de desempenho independente da máquina.
 
 ### EXAMPLE 15
 
 ```powershell
-# Set up daily rotation of different colorscripts
+# Configure a rotação diária de diferentes colorscripts
 $seed = (Get-Date).DayOfYear
 Get-Random -SetSeed $seed
 Show-ColorScript -Random -PassThru | Select-Object Name
 ```
 
-Displays a consistent but different colorscript each day based on the date.
+Exibe um colorscript consistente, mas diferente a cada dia com base na data.
 
 ### EXAMPLE 16
 
 ```powershell
-# Export rendered colorscript to file for sharing
+# Exporte colorscript renderizado para arquivo para compartilhamento
 Show-ColorScript -Name "aurora-waves" -ReturnText |
     Out-File -FilePath "./aurora.ansi" -Encoding UTF8
 
-# Later, display the saved file
+# Mais tarde, exiba o arquivo salvo
 Get-Content "./aurora.ansi" -Raw | Write-Host
 ```
 
-Saves a rendered colorscript to a file that can be displayed later or shared with others.
+Salva um colorscript renderizado em um arquivo que pode ser exibido posteriormente ou compartilhado com outras pessoas.
 
 ### EXAMPLE 17
 
 ```powershell
-# Create a slideshow of geometric colorscripts
+# Crie uma apresentação de slides de colorscripts geométrico
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object {
         Show-ColorScript -Name $_.Name
@@ -225,39 +225,39 @@ Get-ColorScriptList -Category Geometric -AsObject |
     }
 ```
 
-Automatically displays a sequence of geometric colorscripts with 3-second delays between each.
+Exibe automaticamente uma sequência de colorscripts geométricos com atrasos de 3 segundos entre cada um.
 
 ### EXAMPLE 18
 
 ```powershell
-# Error handling example
+# Exemplo de tratamento de erros
 try {
     Show-ColorScript -Name "nonexistent-script" -ErrorAction Stop
 } catch {
-    Write-Warning "Script not found: $_"
-    Show-ColorScript  # Fallback to random
+    Write-Warning "Script não encontrado: $_"
+    Show-ColorScript  # Fallback para aleatório
 }
 ```
 
-Demonstrates error handling when requesting a script that doesn't exist.
+Demonstra tratamento de erros ao solicitar um script que não existe.
 
 ### EXAMPLE 19
 
 ```powershell
-# Build automation integration
+# Construir integração de automação
 if ($env:CI) {
-    Show-ColorScript -Name "nerd-font-test" -NoCache
+    Show-ColorScript -Name "Galaxy" -NoCache
 } else {
-    Show-ColorScript  # Random display for interactive use
+    Show-ColorScript  # Exibição aleatória para uso interativo
 }
 ```
 
-Shows how to conditionally display different colorscripts in CI/CD environments vs. interactive sessions.
+Mostra como exibir condicionalmente diferentes colorscripts em ambientes CI/CD versus sessões interativas.
 
 ### EXAMPLE 20
 
 ```powershell
-# Scheduled task for terminal greeting
+# Tarefa agendada para saudação do terminal
 $scriptPath = "$(Get-Module ColorScripts-Enhanced).ModuleBase\Scripts\mandelbrot-zoom.ps1"
 if (Test-Path $scriptPath) {
     & $scriptPath
@@ -266,13 +266,29 @@ if (Test-Path $scriptPath) {
 }
 ```
 
-Demonstrates running a specific colorscript as part of scheduled task or startup automation.
+Demonstra a execução de um colorscript específico como parte de uma tarefa agendada ou automação de inicialização.
+
+### EXAMPLE 21
+
+```powershell
+Show-ColorScript -IncludePokemon
+```
+
+Exibe um colorscript aleatório incluindo scripts na categoria `Pokemon`. Útil quando você deseja incluir arte de Pokémon em sua seleção aleatória.
+
+### EXAMPLE 22
+
+```powershell
+Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming
+```
+
+Exibe um colorscript aleatório, excluindo as categorias `Pokemon` e `Gaming`. Combine com `-Category` ou `-Tag` para refinar ainda mais a seleção.
 
 ## PARAMETERS
 
 ### -All
 
-Cycle through all available colorscripts in alphabetical order. When specified alone, scripts are displayed continuously with a short automatic delay. Combine with `-WaitForInput` to manually control progression through the collection. This mode is ideal for showcasing the full library or discovering new favorites.
+Percorra todos os colorscripts disponíveis em ordem alfabética. Quando especificados sozinhos, os scripts são exibidos continuamente com um pequeno atraso automático. Combine com `-WaitForInput` para controlar manualmente a progressão na coleção. Este modo é ideal para exibir a biblioteca completa ou descobrir novos favoritos.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -293,7 +309,7 @@ HelpMessage: ''
 
 ### -Category
 
-Filter the available script collection by one or more categories before any selection or display occurs. Categories are typically broad themes like "Nature", "Abstract", "Art", "Retro", etc. Multiple categories can be specified as an array. This parameter works in conjunction with all modes (Random, Named, List, All) to narrow the working set.
+Filtre a coleção de scripts disponíveis por uma ou mais categorias antes de ocorrer qualquer seleção ou exibição. As categorias são normalmente temas amplos como "Natureza", "Abstrato", "Arte", "Retrô" etc. Múltiplas categorias podem ser especificadas como uma matriz. Este parâmetro funciona em conjunto com todos os modos (Aleatório, Nomeado, Lista, Todos) para restringir o conjunto de trabalho.
 
 ```yaml
 Type: System.String[]
@@ -314,8 +330,7 @@ HelpMessage: ''
 
 ### -ExcludeCategory
 
-Exclude scripts from one or more categories.
-Use this to filter out large collections like Pokemon scripts.
+Exclua scripts de uma ou mais categorias antes que a seleção ocorra. Por exemplo, use `-ExcludeCategory Pokemon` para evitar todos os scripts Pokémon ou especifique várias categorias, como `-ExcludeCategory Pokemon,Gaming`. Funciona em todos os modos (Aleatório, Nomeado, Lista, Todos) e combina com os filtros `-Category` e `-Tag`.
 
 ```yaml
 Type: System.String[]
@@ -336,7 +351,7 @@ HelpMessage: ''
 
 ### -h
 
-Exibe a ajuda detalhada deste comando sem executar a operação.
+Exibe ajuda detalhada para este comando sem executar a operação.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -358,8 +373,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Opt-in flag to include Pokemon colorscripts in the random selection.
-When omitted, Pokemon scripts are filtered out automatically.
+Sinalizador de ativação para incluir Pokémon colorscripts na seleção. Quando omitido, os scripts Pokémon são filtrados automaticamente (padrão). Observação: isso substitui o parâmetro `-ExcludePokemon` mais antigo — a refatoração inverteu a semântica, então agora você pode optar por mostrar scripts Pokémon em vez de cancelar.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -380,7 +394,7 @@ HelpMessage: ''
 
 ### -List
 
-Display a formatted list of all available colorscripts with their associated metadata. The output includes script name, category, tags, and description. This is useful for exploring available options and understanding the collection's organization. Can be combined with `-Category` or `-Tag` to list only filtered subsets.
+Exiba uma lista formatada de todos os colorscripts disponíveis com seus metadados associados. A saída inclui nome do script, categoria, tags e descrição. Isto é útil para explorar as opções disponíveis e compreender a organização da coleção. Pode ser combinado com `-Category` ou `-Tag` para listar apenas subconjuntos filtrados.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -401,7 +415,7 @@ HelpMessage: ''
 
 ### -Name
 
-The name of the colorscript to display (without the .ps1 extension). Supports wildcard patterns (\* and ?) for flexible matching. When multiple scripts match a wildcard pattern, the first match in alphabetical order is selected and displayed. Use `-PassThru` to verify which script was chosen when using wildcards.
+O nome do colorscript a ser exibido (sem a extensão .ps1). Suporta padrões curinga (\* e?) para correspondência flexível. Quando vários scripts correspondem a um padrão curinga, a primeira correspondência em ordem alfabética é selecionada e exibida. Use `-PassThru` para verificar qual script foi escolhido ao usar curingas.
 
 ```yaml
 Type: System.String
@@ -422,7 +436,7 @@ HelpMessage: ''
 
 ### -NoAnsiOutput
 
-Desativa a formatação ANSI nas mensagens informativas e na saída renderizada para ambientes de texto simples.
+Desativa o estilo ANSI em mensagens informativas e saída renderizada para ambientes de texto simples.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -444,7 +458,7 @@ HelpMessage: ''
 
 ### -NoCache
 
-Bypass the caching system and execute the colorscript directly. This forces fresh execution and can be useful when testing script modifications, debugging, or when cache corruption is suspected. Without this switch, cached output is used when available for optimal performance.
+Ignora leituras de cache validadas para renderizadores selecionados por política e força uma nova renderização isolada. Isso é útil ao testar alterações no renderizador ou investigar corrupção de cache. Scripts agrupados determinísticos e scripts não listados ou personalizados já ignoram o cache; o conteúdo determinístico agrupado ainda é renderizado em processo.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -465,7 +479,7 @@ HelpMessage: ''
 
 ### -NoClear
 
-When cycling through scripts with -All, skip clearing the host between displays so prior output remains visible.
+Quando usado com `-All`, ignore a chamada automática `Clear-Host` entre colorscripts para que cada script renderizado permaneça visível acima do próximo. Isso é particularmente útil quando você deseja comparar scripts lado a lado ou capturar todo o mostruário em transcrições de sessões.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -486,7 +500,7 @@ HelpMessage: ''
 
 ### -PassThru
 
-Return the selected colorscript's metadata object to the pipeline in addition to displaying the colorscript. The metadata object contains properties like Name, Path, Category, Tags, and Description. This enables programmatic access to script information for filtering, logging, or further processing while still rendering the visual output.
+Retorne o objeto de metadados do colorscript selecionado para o pipeline, além de exibir o colorscript. O objeto de metadados contém propriedades como Nome, Path, Categoria, Tags e Descrição. Isso permite acesso programático às informações do script para filtragem, registro ou processamento adicional enquanto ainda renderiza a saída visual.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -513,7 +527,7 @@ HelpMessage: ''
 
 ### -Quiet
 
-Suprime mensagens informativas sem ocultar a saída do comando nem os erros.
+Suprime mensagens informativas enquanto preserva a saída de comandos e erros.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -534,7 +548,7 @@ HelpMessage: ''
 
 ### -Random
 
-Explicitly request a random colorscript selection. This is the default behavior when no name is specified, so this switch is primarily useful for clarity in scripts or when you want to be explicit about the selection mode. Can be combined with `-Category` or `-Tag` to randomize within a filtered subset.
+Solicite explicitamente uma seleção aleatória de colorscript. Este é o comportamento padrão quando nenhum nome é especificado, portanto, essa opção é útil principalmente para maior clareza em scripts ou quando você deseja ser explícito sobre o modo de seleção. Pode ser combinado com `-Category` ou `-Tag` para randomizar dentro de um subconjunto filtrado.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -555,7 +569,7 @@ HelpMessage: ''
 
 ### -ReturnText
 
-Emit the rendered colorscript as a string to the PowerShell pipeline instead of writing directly to the console host. This allows the output to be captured in a variable, redirected to a file, or piped to other commands. The output retains all ANSI escape sequences, so it will display with proper colors when later written to a compatible terminal.
+Emita o colorscript renderizado como string para o pipeline PowerShell em vez de gravar diretamente no host do console. Isso permite que a saída seja capturada em uma variável, redirecionada para um arquivo ou canalizada para outros comandos. A saída retém todas as sequências de escape ANSI, portanto, será exibida com as cores adequadas quando for gravada posteriormente em um terminal compatível.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -577,7 +591,7 @@ HelpMessage: ''
 
 ### -Tag
 
-Filter the available script collection by metadata tags (case-insensitive). Tags are more specific descriptors than categories, such as "geometric", "retro", "animated", "minimal", etc. Multiple tags can be specified as an array. Scripts matching any of the specified tags will be included in the working set before selection occurs.
+Filtre a coleção de scripts disponíveis por tags de metadados (sem distinção entre maiúsculas e minúsculas). Tags são descritores mais específicos do que categorias, como "geométrico", "retro", "animado", "mínimo", etc. Várias tags podem ser especificadas como uma matriz. Os scripts que correspondam a qualquer uma das tags especificadas serão incluídos no conjunto de trabalho antes que a seleção ocorra.
 
 ```yaml
 Type: System.String[]
@@ -598,8 +612,7 @@ HelpMessage: ''
 
 ### -ValidateCache
 
-Forces cache validation before rendering.
-Use when you need to rebuild cached colorscript output manually.
+Atualiza o marcador de metadados do cache no nível do módulo antes da renderização, inclusive quando o diretório de cache já foi inicializado na sessão atual do módulo. Ele não reconstrói entradas do cache de saída nem substitui a validação normal por entrada. Definir `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` como `1`, `true` ou `yes` solicita a mesma atualização durante a inicialização do cache.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -620,7 +633,7 @@ HelpMessage: ''
 
 ### -WaitForInput
 
-When used with `-All`, pause after displaying each colorscript and wait for user input before proceeding. Press the spacebar to advance to the next script in the sequence. Press 'q' to quit the sequence early and return to the prompt. This provides an interactive browsing experience through the entire collection.
+Quando usado com `-All`, faça uma pausa após exibir cada colorscript e aguarde a entrada do usuário antes de continuar. Pressione a barra de espaço para avançar para o próximo script na sequência. Pressione 'q' para sair da sequência mais cedo e retornar ao prompt. Isso proporciona uma experiência de navegação interativa por toda a coleção.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -641,38 +654,40 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Este cmdlet suporta os parâmetros comuns:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Para obter mais informações, consulte
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
-### System.String
+### None
 
-You can pipe colorscript names to Show-ColorScript. This enables pipeline-based workflows where script names are generated or filtered by other commands.
+Este cmdlet não aceita entrada de pipeline. Canalize registros de inventário para `ForEach-Object` e chame `Show-ColorScript -Name $_.Name` ao compor um pipeline.
 
 ## OUTPUTS
 
 ### System.Object
 
-When `-PassThru` is specified, returns the selected colorscript's metadata object containing properties like Name, Path, Category, Tags, and Description.
+Quando `-PassThru` é especificado, retorna o objeto de metadados do colorscript selecionado contendo propriedades como Nome, Path, Categoria, Tags e Descrição.
 
 ### System.String (2)
 
-When `-ReturnText` is specified, emits the rendered colorscript as a string to the pipeline. This string contains all ANSI escape sequences for proper color rendering when displayed in a compatible terminal.
+Quando `-ReturnText` é especificado, emite o colorscript renderizado como string para o pipeline. Este string contém todas as sequências de escape ANSI para renderização de cores adequada quando exibido em um terminal compatível.
 
 ### None
 
-In default operation (without `-PassThru` or `-ReturnText`), output is written directly to the console host and nothing is returned to the pipeline.
+Na operação padrão (sem `-PassThru` ou `-ReturnText`), a saída é gravada diretamente no host do console e nada é retornado ao pipeline.
 
 ## NOTES
 
-**Author:** Nick
-**Module:** ColorScripts-Enhanced
-**Requires:** PowerShell 5.1 or later
+**Autor:** Nick
+**Módulo:** ColorScripts-Enhanced
+**Requer:** PowerShell 5.1 ou posterior
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
+- [Versão online](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
 

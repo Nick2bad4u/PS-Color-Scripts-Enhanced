@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache
 Locale: fr
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Clear-ColorScriptCache
 ---
@@ -13,7 +13,7 @@ title: Clear-ColorScriptCache
 
 ## SYNOPSIS
 
-Supprimer les fichiers de sortie de script de couleur mis en cache.
+Supprimez les fichiers de sortie script de couleurs mis en cache.
 
 ## SYNTAX
 
@@ -39,19 +39,19 @@ Clear-ColorScriptCache [-Name <string[]>] [-Category <string[]>] [-Tag <string[]
 
 ## ALIASES
 
-This command has no aliases.
+Cette commande ne possède aucun alias.
 
 ## DESCRIPTION
 
-Le cmdlet `Clear-ColorScriptCache` supprime les fichiers de sortie mis en cache générés par le module ColorScripts-Enhanced. Les fichiers cache stockent la sortie de script pré-rendue pour améliorer les performances lors des invocations ultérieures.
+L'applet de commande `Clear-ColorScriptCache` supprime les fichiers de sortie mis en cache générés par le module ColorScripts-Enhanced. Chaque entrée se compose d'une charge utile `<name>.cache` rendue et d'un fichier annexe de validation `<name>.cacheinfo` dans le répertoire de cache effectif.
 
-Vous pouvez supprimer les fichiers cache de manière sélective en utilisant le paramètre `-Name` avec des modèles de caractères génériques, ou supprimer tous les fichiers cache à la fois avec le paramètre `-All`. Le cmdlet prend également en charge le filtrage par `-Category` et `-Tag` pour cibler des sous-ensembles spécifiques de scripts mis en cache.
+Vous pouvez supprimer les entrées du cache de manière sélective à l'aide du paramètre `-Name` avec des modèles de caractères génériques, ou supprimer toutes les entrées en même temps avec le paramètre `-All`. `-All` supprime également les fichiers annexes orphelins dont la charge utile a été supprimée. L'applet de commande prend en charge le filtrage par `-Category` et `-Tag` pour cibler des sous-ensembles spécifiques de scripts mis en cache.
 
-Les noms de script non appariés signalent un statut `Missing` dans les résultats. Utilisez `-DryRun` pour prévisualiser les actions de suppression sans modifier le système de fichiers, et `-Path` pour cibler un répertoire cache alternatif (utile pour les configurations cache personnalisées ou les environnements CI/CD).
+Les noms de script sans correspondance signalent un statut `Missing` dans les résultats. Utilisez `-DryRun` pour prévisualiser les actions de suppression sans modifier le système de fichiers et `-Path` pour cibler un autre répertoire de cache (utile pour les configurations de cache personnalisées ou les environnements CI/CD).
 
-Les fichiers cache sont automatiquement régénérés la prochaine fois que `Show-ColorScript` exécute le script correspondant.
+Les entrées de cache éligibles sont régénérées lorsque le moteur de rendu sélectionné par la stratégie correspondante est affiché ou que `New-ColorScriptCache` est invoqué. Les scripts groupés déterministes s'affichent en cours de processus et ne créent pas d'entrées de cache.
 
-Pour les scénarios d'automatisation, associez `-PassThru` afin de capturer des résultats détaillés, `-Quiet` pour masquer le message récapitulatif final ou `-NoAnsiOutput` pour produire un résumé sans séquences ANSI lorsque la console ne prend pas en charge les couleurs.
+Pour les scénarios d'automatisation, combinez `-PassThru` pour capturer des résultats structurés, `-Quiet` pour supprimer le message récapitulatif ou `-NoAnsiOutput` pour émettre des résumés en texte brut sans codes couleur ANSI.
 
 ## EXAMPLES
 
@@ -61,7 +61,7 @@ Pour les scénarios d'automatisation, associez `-PassThru` afin de capturer des 
 Clear-ColorScriptCache -All -Confirm:$false
 ```
 
-Supprime tous les fichiers cache dans le répertoire cache par défaut sans demander de confirmation. Ceci est utile pour actualiser complètement le cache après les mises à jour du module ou lors du dépannage des problèmes d'affichage.
+Supprime tous les fichiers de cache du répertoire de cache par défaut sans demander de confirmation. Ceci est utile pour actualiser complètement le cache après les mises à jour du module ou lors du dépannage des problèmes d'affichage.
 
 ### EXAMPLE 2
 
@@ -69,7 +69,7 @@ Supprime tous les fichiers cache dans le répertoire cache par défaut sans dema
 Clear-ColorScriptCache -Name 'aurora-*' -DryRun
 ```
 
-Prévisualise les fichiers cache thématiques aurora qui seraient supprimés sans les supprimer réellement. La sortie montre les fichiers cache qui correspondent au modèle, vous permettant de vérifier la sélection avant de procéder à la suppression.
+Prévisualise les fichiers de cache sur le thème des aurores qui seraient supprimés sans les supprimer réellement. La sortie affiche les fichiers de cache qui correspondent au modèle, vous permettant de vérifier la sélection avant de procéder à la suppression.
 
 ### EXAMPLE 3
 
@@ -77,15 +77,15 @@ Prévisualise les fichiers cache thématiques aurora qui seraient supprimés san
 Clear-ColorScriptCache -Name Galaxy -Path $env:TEMP -Confirm:$false
 ```
 
-Efface le fichier cache pour le script 'bars' d'un répertoire cache personnalisé situé dans le dossier TEMP. Ceci est utile lorsque vous travaillez avec la variable d'environnement `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` ou que vous testez des emplacements cache alternatifs.
+Efface le fichier cache du moteur de rendu 'Galaxy' éligible à partir d'un répertoire personnalisé sous TEMP. Ceci est utile lors du test de `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` ou d’un autre emplacement de cache isolé.
 
 ### EXAMPLE 4
 
 ```powershell
-Clear-ColorScriptCache -Category Animation -WhatIf
+Clear-ColorScriptCache -Category Mathematical -WhatIf
 ```
 
-Montre ce qui se passerait si tous les fichiers cache pour les scripts de la catégorie Animation étaient supprimés. Le paramètre `-WhatIf` empêche la suppression réelle et affiche les actions prévues.
+Montre ce qui se passerait si les fichiers de cache des scripts de la catégorie `Mathematical` étaient supprimés. Le paramètre `-WhatIf` empêche la suppression.
 
 ### EXAMPLE 5
 
@@ -93,7 +93,7 @@ Montre ce qui se passerait si tous les fichiers cache pour les scripts de la cat
 Get-ColorScriptList -Tag retro | Clear-ColorScriptCache -DryRun
 ```
 
-Utilise l'entrée pipeline pour prévisualiser la suppression des fichiers cache pour tous les scripts étiquetés comme 'retro'. Combine le filtrage par étiquette avec une prévisualisation dry-run avant de procéder à la suppression.
+Utilise l'entrée du pipeline pour prévisualiser la suppression des fichiers de cache pour tous les scripts marqués 'retro'. Combine le filtrage par balise avec un aperçu à sec avant de s'engager dans la suppression.
 
 ### EXAMPLE 6
 
@@ -101,76 +101,76 @@ Utilise l'entrée pipeline pour prévisualiser la suppression des fichiers cache
 Clear-ColorScriptCache -Name 'test-*', 'demo-*' -Confirm:$false
 ```
 
-Supprime les fichiers cache pour tous les scripts dont les noms commencent par 'test-' ou 'demo-' sans confirmation. Plusieurs modèles de caractères génériques peuvent être spécifiés sous forme de tableau.
+Supprime les fichiers cache de tous les scripts dont les noms commencent par 'test-' ou 'demo-' sans confirmation. Plusieurs modèles de caractères génériques peuvent être spécifiés sous forme de tableau.
 
 ### EXAMPLE 7
 
 ```powershell
-# Nettoyer le cache et le reconstruire pour l'optimisation
+# Supprimer les fichiers de cache et reconstruire les entrées sélectionnées par la stratégie
 Clear-ColorScriptCache -All -Confirm:$false
 New-ColorScriptCache -PassThru | Measure-Object
-Write-Host "Cache reconstruit avec succès"
+Write-Host "Le cache a été reconstruit correctement"
 ```
 
-Effectue un rafraîchissement complet du cache en effaçant tout et en reconstruisant, puis affiche les statistiques.
+Supprime toutes les charges utiles du cache, reconstruit les entrées sélectionnées par la stratégie de cache dynamique, puis affiche des statistiques sur ces entrées reconstruites.
 
 ### EXAMPLE 8
 
 ```powershell
 # Effacer les anciennes entrées de cache datant de plus de 30 jours
-$cacheDir = "$env:APPDATA\ColorScripts-Enhanced\cache"
+$cacheDir = (Get-ColorScriptConfiguration).Cache.EffectivePath
 $thirtyDaysAgo = (Get-Date).AddDays(-30)
 Get-ChildItem $cacheDir -Filter "*.cache" |
     Where-Object { $_.LastWriteTime -lt $thirtyDaysAgo } |
     ForEach-Object {
         Clear-ColorScriptCache -Name $_.BaseName -Confirm:$false
     }
-Write-Host "Anciens fichiers cache nettoyés"
+Write-Host "Les anciens fichiers de cache ont été nettoyés"
 ```
 
-Supprime les fichiers cache qui n'ont pas été mis à jour depuis plus de 30 jours.
+Supprime les fichiers de cache qui n'ont pas été mis à jour depuis plus de 30 jours.
 
 ### EXAMPLE 9
 
 ```powershell
 # Rapport de gestion du cache
-$cacheDir = "$env:APPDATA\ColorScripts-Enhanced\cache"
+$cacheDir = (Get-ColorScriptConfiguration).Cache.EffectivePath
 $beforeCount = @(Get-ChildItem $cacheDir -Filter "*.cache" -ErrorAction SilentlyContinue).Count
 Clear-ColorScriptCache -Category Geometric -Confirm:$false
 $afterCount = @(Get-ChildItem $cacheDir -Filter "*.cache" -ErrorAction SilentlyContinue).Count
-Write-Host "Effacé $($beforeCount - $afterCount) fichiers cache géométriques"
+Write-Host "$($beforeCount - $afterCount) fichiers de cache géométriques ont été supprimés"
 ```
 
-Affiche les statistiques sur les opérations de nettoyage du cache.
+Affiche des statistiques sur les opérations de suppression du cache.
 
 ### EXAMPLE 10
 
 ```powershell
 # Dépannage - effacer et reconstruire un script spécifique
-$scriptName = "mandelbrot-zoom"
+$scriptName = "Galaxy"
 Clear-ColorScriptCache -Name $scriptName -Confirm:$false
 New-ColorScriptCache -Name $scriptName -Force
 Show-ColorScript -Name $scriptName
 ```
 
-Efface et reconstruit le cache pour un script unique, puis l'affiche pour vérification.
+Efface et reconstruit le cache d'un moteur de rendu éligible selon la stratégie, puis l'affiche pour vérification.
 
 ### EXAMPLE 11
 
 ```powershell
 # Filtrer par plusieurs catégories
-Clear-ColorScriptCache -Category Geometric,Abstract -DryRun |
+Clear-ColorScriptCache -Category Geometric,Abstract -DryRun -PassThru |
     Select-Object CacheFile |
     Measure-Object
 ```
 
-Montre combien de fichiers cache seraient supprimés si on filtre par plusieurs catégories.
+Affiche combien de fichiers de cache seraient supprimés en cas de filtrage par plusieurs catégories.
 
 ## PARAMETERS
 
 ### -All
 
-Supprime tous les fichiers cache dans le répertoire cible. Ce paramètre est mutuellement exclusif avec `-Name`, `-Category` et `-Tag`. Lorsqu'il est spécifié, tous les paramètres de filtrage sont ignorés et le cache entier est effacé.
+Sélectionnez chaque entrée de cache dans le répertoire cible. `-Category` et `-Tag` peuvent restreindre davantage le jeu de paramètres de sélection totale ; `-Name` appartient plutôt au jeu de paramètres de sélection.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -191,7 +191,7 @@ HelpMessage: ''
 
 ### -Category
 
-Filtre les scripts cibles par catégorie avant d'évaluer les entrées cache. Seuls les fichiers cache pour les scripts correspondant aux catégories spécifiées seront considérés pour la suppression. Accepte un tableau de noms de catégories et peut être combiné avec `-Tag` pour un filtrage plus précis.
+Filtrez les scripts cibles par catégorie avant d'évaluer les entrées du cache. Seuls les fichiers cache des scripts correspondant aux catégories spécifiées seront pris en compte pour la suppression. Accepte un tableau de noms de catégories et peut être combiné avec `-Tag` pour un filtrage plus précis.
 
 ```yaml
 Type: System.String[]
@@ -218,7 +218,7 @@ HelpMessage: ''
 
 ### -Confirm
 
-Demande une confirmation avant d'exécuter le cmdlet. Par défaut, ceci est activé pour éviter la suppression accidentelle de fichiers cache. Utilisez `-Confirm:$false` pour contourner l'invite de confirmation.
+Vous demande une confirmation avant d’exécuter l’applet de commande. Par défaut, cette option est activée pour empêcher la suppression accidentelle des fichiers de cache. Utilisez `-Confirm:$false` pour contourner l'invite de confirmation.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -240,7 +240,7 @@ HelpMessage: ''
 
 ### -DryRun
 
-Prévisualise les actions de suppression sans supprimer aucun fichier. Le cmdlet affichera les fichiers cache qui seraient supprimés mais ne modifiera pas le système de fichiers. Ceci est utile pour vérifier vos critères de sélection avant de procéder à la suppression.
+Prévisualisez les actions de suppression sans supprimer aucun fichier. L'applet de commande affichera les fichiers de cache qui seraient supprimés mais ne modifiera pas le système de fichiers. Ceci est utile pour vérifier vos critères de sélection avant de vous engager dans la suppression.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -267,7 +267,7 @@ HelpMessage: ''
 
 ### -h
 
-Affiche l'aide détaillée de cette commande sans effectuer l'opération.
+Affiche une aide détaillée pour cette commande sans effectuer l'opération.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -289,7 +289,7 @@ HelpMessage: ''
 
 ### -Name
 
-Noms ou modèles de caractères génériques identifiant les fichiers cache à supprimer. Accepte l'entrée pipeline et la liaison de propriété à partir d'objets avec une propriété `Name`. Les caractères génériques (`*`, `?`) sont pris en charge pour la correspondance de modèles. Mutuellement exclusif avec `-All`.
+Noms ou modèles génériques identifiant les fichiers de cache à supprimer. Accepte l'entrée de pipeline et la liaison de propriété à partir d'objets avec une propriété `Name`. Les caractères génériques (`*`, `?`) sont pris en charge pour la correspondance de modèles. Mutuellement exclusif avec `-All`.
 
 ```yaml
 Type: System.String[]
@@ -316,7 +316,7 @@ HelpMessage: ''
 
 ### -NoAnsiOutput
 
-Désactive les séquences de couleur ANSI dans le message de synthèse afin de produire un texte brut. Idéal pour les consoles ou collecteurs de journaux qui ne gèrent pas les couleurs.
+Désactivez les séquences de couleurs ANSI dans la sortie récapitulative. Ceci est utile pour les consoles ou les processeurs de journaux qui n'interprètent pas le style ANSI, garantissant que le texte récapitulatif reste lisible en texte brut.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -344,7 +344,7 @@ HelpMessage: ''
 
 ### -PassThru
 
-Renvoie des objets de résultat détaillant chaque fichier cache traité. Sans ce commutateur, seul un message récapitulatif est émis. Les enregistrements retournés incluent le nom du script, le chemin du cache, l'état et tout message associé.
+Renvoie des objets de résultat détaillés pour chaque entrée de cache traitée. Sans ce commutateur, l’applet de commande écrit uniquement un message récapitulatif. Chaque enregistrement direct comprend le nom du script, le chemin du fichier cache, l'état et tout texte d'erreur associé pour une inspection ou un rapport plus approfondi.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -371,7 +371,7 @@ HelpMessage: ''
 
 ### -Path
 
-Répertoire cache alternatif à utiliser. Par défaut, le chemin cache standard du module si non spécifié. Utilisez ce paramètre lorsque vous travaillez avec des emplacements cache personnalisés définis via la variable d'environnement `COLOR_SCRIPTS_ENHANCED_CACHE_PATH`, ou lorsque vous gérez des fichiers cache dans des répertoires alternatifs pour les tests ou les environnements CI/CD.
+Répertoire de cache alternatif sur lequel opérer. La valeur par défaut est le chemin de cache standard du module s'il n'est pas spécifié. Utilisez ce paramètre lorsque vous travaillez avec des emplacements de cache personnalisés définis via la variable d'environnement `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` ou lors de la gestion des fichiers de cache dans des répertoires alternatifs à des fins de test ou à des fins CI/CD.
 
 ```yaml
 Type: System.String
@@ -398,7 +398,7 @@ HelpMessage: ''
 
 ### -Quiet
 
-Supprime le message de synthèse affiché après la suppression du cache. Utile dans les automatisations où seules les alertes, erreurs ou objets retournés par `-PassThru` doivent apparaître.
+Supprimez le message récapitulatif émis une fois la suppression du cache terminée. Utilisez ce commutateur lors de l'exécution dans des contextes d'automatisation silencieux où seule une sortie structurée (telle que des enregistrements `-PassThru`, des avertissements ou des erreurs) doit être produite.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -425,7 +425,7 @@ HelpMessage: ''
 
 ### -Tag
 
-Filtre les scripts cibles par étiquette de métadonnées avant d'évaluer les entrées cache. Seuls les fichiers cache pour les scripts avec des étiquettes correspondantes seront considérés pour la suppression. Accepte un tableau de noms d'étiquettes et peut être combiné avec `-Category` pour un contrôle plus granulaire sur les fichiers cache ciblés.
+Filtrez les scripts cibles par balise de métadonnées avant d'évaluer les entrées du cache. Seuls les fichiers cache des scripts avec les balises correspondantes seront pris en compte pour la suppression. Accepte un tableau de noms de balises et peut être combiné avec `-Category` pour un contrôle plus granulaire sur les fichiers de cache ciblés.
 
 ```yaml
 Type: System.String[]
@@ -452,7 +452,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Montre ce qui se passerait si le cmdlet s'exécute sans exécuter réellement l'opération. Le cmdlet affiche les actions qu'il effectuerait mais ne modifie pas le système de fichiers. Ceci est un paramètre commun PowerShell standard qui fonctionne de manière similaire à `-DryRun` mais suit les conventions intégrées de PowerShell.
+Montre ce qui se passerait si l’applet de commande s’exécutait sans réellement exécuter l’opération. L'applet de commande affiche les actions qu'elle effectuerait mais ne modifie pas le système de fichiers. Il s'agit d'un paramètre commun standard du PowerShell qui fonctionne de manière similaire au `-DryRun` mais suit les conventions intégrées du PowerShell.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -474,69 +474,71 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Cette applet de commande prend en charge les paramètres communs :
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Pour plus d'informations, consultez
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### System.String
 
-Vous pouvez diriger les noms de script vers ce cmdlet. Chaque nom sera évalué pour la suppression de fichier cache en fonction des paramètres spécifiés.
+Vous pouvez rediriger les noms de script vers cette applet de commande. Chaque nom sera évalué pour la suppression du fichier cache en fonction des paramètres spécifiés.
 
 ### System.String[]
 
-Vous pouvez diriger un tableau de noms de script vers ce cmdlet. Ceci est particulièrement utile lorsque vous combinez avec `Get-ColorScriptList` pour filtrer les scripts selon divers critères avant d'effacer leurs caches.
+Vous pouvez rediriger un tableau de noms de script vers cette applet de commande. Ceci est particulièrement utile en combinaison avec `Get-ColorScriptList` pour filtrer les scripts selon divers critères avant de vider leurs caches.
 
 ### System.Management.Automation.PSObject
 
-Vous pouvez diriger des objets avec une propriété `Name` vers ce cmdlet. Le cmdlet extraira la valeur de la propriété `Name` et l'utilisera pour identifier les fichiers cache à supprimer.
+Vous pouvez rediriger des objets avec une propriété `Name` vers cette applet de commande. L'applet de commande extraira la valeur de la propriété `Name` et l'utilisera pour identifier les fichiers de cache à supprimer.
 
 ## OUTPUTS
 
 ### System.Object
 
-Retourne des enregistrements de statut pour chaque fichier cache traité. Chaque objet de sortie contient les propriétés suivantes :
+Avec `-PassThru`, renvoie un enregistrement d'état pour chaque fichier de cache traité. Chaque objet de sortie contient les propriétés suivantes :
 
-- **Status** : Le résultat de l'opération (`Removed`, `Missing`, `DryRun` ou `Error`)
+- **Status** : Le résultat de l'opération (`Removed`, `Missing`, `DryRun`, `SkippedByUser` ou `Error`)
 - **CacheFile** : Le chemin complet vers le fichier cache qui a été traité
 - **Message** : Texte descriptif expliquant le résultat de l'opération
-- **ScriptName** : Le nom du script associé au fichier cache
+- **Name** : Le nom du script associé au fichier cache
 
 ## NOTES
 
-**Author** : Nick
-**Module** : ColorScripts-Enhanced
+**Auteur** : Nick
+**Module** : ColorScripts-Enhanced
 
-Les fichiers cache sont stockés avec une extension `.cache` dans le répertoire cache du module. Chaque fichier cache correspond à un seul colorscript et contient la sortie ANSI pré-rendue.
+Les fichiers cache sont stockés avec une extension `.cache` dans le répertoire cache du module. Chaque fichier cache correspond à un seul script de couleurs et contient la sortie ANSI pré-rendue.
 
-Les fichiers cache sont automatiquement régénérés la prochaine fois que `Show-ColorScript` exécute le script correspondant. Cette régénération se produit de manière transparente et ne nécessite pas d'intervention manuelle.
+Les entrées de cache éligibles sont régénérées lorsque le moteur de rendu sélectionné par la stratégie correspondante est affiché ou que `New-ColorScriptCache` est invoqué. Les scripts groupés déterministes s'affichent en cours de processus et ne créent pas d'entrées de cache.
 
-Le chemin cache par défaut est exposé via la variable `$CacheDir` du module et peut être remplacé en utilisant la variable d'environnement `COLOR_SCRIPTS_ENHANCED_CACHE_PATH`.
+Recherchez `(Get-ColorScriptConfiguration).Cache.EffectivePath` pour connaître le chemin effectif par défaut. Il peut être remplacé par une configuration persistante ou `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` ; `-Path` cible un répertoire différent pour un appel.
 
-Lorsque vous utilisez `-DryRun` ou `-WhatIf`, le cmdlet validera toujours que le répertoire cache existe et signalera tout problème, mais n'effectuera aucune suppression.
+Lors de l'utilisation de `-DryRun` ou `-WhatIf`, l'applet de commande validera toujours que le répertoire de cache existe et signalera tout problème, mais n'effectuera aucune suppression.
 
-Le filtrage par `-Category` ou `-Tag` nécessite que les scripts aient des métadonnées associées. Les scripts sans métadonnées ne correspondront pas à ces filtres.
+Le filtrage par `-Category` ou `-Tag` nécessite que les scripts soient associés à des métadonnées. Les scripts sans métadonnées ne correspondront pas à ces filtres.
 
-### Best Practices
+### Bonnes pratiques
 
-- Utilisez toujours `-DryRun` ou `-WhatIf` avant les opérations destructives
-- Utilisez `-Confirm:$false` uniquement lorsque vous êtes certain de l'opération
-- Archivez le cache avant les opérations de nettoyage majeures pour la récupération
+- Utilisez toujours `-DryRun` ou `-WhatIf` avant les opérations destructrices
+- Utilisez `-Confirm:$false` uniquement lorsque vous êtes certain du fonctionnement
+- Archiver le cache avant les opérations de nettoyage majeures pour la récupération
 - Surveillez régulièrement l'espace disque pour la croissance du cache
-- Utilisez le nettoyage sélectif plutôt que l'effacement complet lorsque possible
-- Gardez une trace des scripts critiques qui ne devraient pas être effacés
-- Planifiez des nettoyages automatisés pendant les fenêtres de maintenance
-- Testez les opérations de nettoyage en non-production d'abord
+- Utiliser le nettoyage sélectif au lieu du nettoyage complet lorsque cela est possible
+- Gardez une trace des scripts critiques qui ne doivent pas être effacés
+- Planifier des nettoyages automatisés pendant les fenêtres de maintenance
+- Tester d'abord les opérations de nettoyage en hors-production
 
-### Troubleshooting (2)
+### Dépannage (2)
 
-- **"Aucun fichier cache trouvé"** : Utilisez `-AsObject` pour vérifier quels scripts ont des caches
-- **"Permission refusée"** : Vérifiez l'accès en écriture au répertoire cache
-- **"Cache ne se régénère pas"** : Les scripts peuvent avoir des problèmes de rendu ; testez avec `-NoCache`
+- **"Aucun fichier de cache trouvé"** : Inspectez `(Get-ColorScriptConfiguration).Cache.EffectivePath` et utilisez `Export-ColorScriptMetadata -IncludeCacheInfo` pour vérifier l'état du cache
+- **"Autorisation refusée"** : vérifiez l'accès en écriture au répertoire de cache
+- **"Le cache ne se régénère pas"** : les scripts peuvent avoir des problèmes de rendu ; testez avec `-NoCache`
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)
+- [Version en ligne](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache)
 

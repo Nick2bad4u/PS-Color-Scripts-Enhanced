@@ -90,6 +90,45 @@ Describe 'PowerShell best-practice regressions' {
         $content | Should -Match "Show-ColorScript -Name 'user-owned'"
     }
 
+    It 'preserves a user-owned module import when forcing a managed profile refresh' {
+        $profilePath = Join-Path -Path $TestDrive -ChildPath 'profile-with-user-import.ps1'
+        $userImport = 'Import-Module ColorScripts-Enhanced -Verbose # user-owned'
+        [System.IO.File]::WriteAllText(
+            $profilePath,
+            $userImport + [Environment]::NewLine,
+            (New-Object System.Text.UTF8Encoding($false)))
+
+        Add-ColorScriptProfile -ProfilePath $profilePath -SkipCacheBuild -SkipPokemonPrompt -Force -Confirm:$false | Out-Null
+
+        $content = Get-Content -LiteralPath $profilePath -Raw
+        $content | Should -Match ([regex]::Escape($userImport))
+        ([regex]::Matches($content, '# BEGIN ColorScripts-Enhanced managed block')).Count | Should -Be 1
+    }
+
+    It 'strips ANSI from pipeline text when ReturnText and NoAnsiOutput are combined' {
+        $text = Show-ColorScript -Name 'bars' -ReturnText -NoAnsiOutput
+
+        $text | Should -Not -Match ([regex]::Escape([string][char]27))
+        $text | Should -Not -BeNullOrEmpty
+    }
+
+    It 'does not create a cache directory during a cache-build WhatIf' {
+        $cacheRoot = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
+
+        $result = New-ColorScriptCache -Name 'perlin-clouds' -Force -WhatIf -PassThru
+
+        Test-Path -LiteralPath $cacheRoot | Should -BeFalse
+        $result.Status | Should -Be 'SkippedByUser'
+    }
+
+    It 'rejects an existing file as a configured cache directory' {
+        $cacheFile = Join-Path -Path $TestDrive -ChildPath 'not-a-directory'
+        [System.IO.File]::WriteAllText($cacheFile, 'keep', (New-Object System.Text.UTF8Encoding($false)))
+
+        { Set-ColorScriptConfiguration -CachePath $cacheFile -Confirm:$false } | Should -Throw
+        Get-Content -LiteralPath $cacheFile -Raw | Should -BeExactly 'keep'
+    }
+
     It 'drains large child-process output and error streams without deadlocking' {
         $scriptPath = Join-Path -Path $TestDrive -ChildPath 'large-stderr.ps1'
         [System.IO.File]::WriteAllText(

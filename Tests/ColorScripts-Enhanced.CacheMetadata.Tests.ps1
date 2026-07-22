@@ -745,6 +745,26 @@ Describe 'Cache metadata coverage' {
     }
 
     Context 'Initialize-CacheDirectory validation is non-destructive' {
+        It 'refreshes module metadata when the cache directory is already initialized' {
+            InModuleScope ColorScripts-Enhanced {
+                $script:CacheDir = 'TestDrive:\InitializedCache'
+                $script:CacheInitialized = $true
+                $script:CacheValidationPerformed = $false
+                $script:CacheValidationManualOverride = $true
+
+                Mock -CommandName Write-CacheMetadataFile -ModuleName ColorScripts-Enhanced
+
+                Initialize-CacheDirectory -RefreshMetadata
+
+                Should-Invoke -CommandName Write-CacheMetadataFile -ModuleName ColorScripts-Enhanced -Times 1 -Exactly -ParameterFilter {
+                    $CacheDirectory -eq 'TestDrive:\InitializedCache' -and
+                    $MetadataFileName -eq ('cache-metadata-v{0}.json' -f $script:CacheFormatVersion)
+                }
+                $script:CacheValidationPerformed | Should -BeTrue
+                $script:CacheValidationManualOverride | Should -BeFalse
+            }
+        }
+
         It 'does not delete existing cache entries when validation is requested' {
             $cacheRoot = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'CacheValidation'
             New-Item -ItemType Directory -Path $cacheRoot -Force | Out-Null

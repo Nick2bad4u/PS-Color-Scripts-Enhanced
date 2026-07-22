@@ -26,7 +26,7 @@ function Get-ColorScriptDynamicNameSet {
     $nameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
     if ($policyLastWriteTime) {
         try {
-            $policy = Import-PowerShellDataFile -Path $policyPath -ErrorAction Stop
+            $policy = Import-PowerShellDataFile -LiteralPath $policyPath -ErrorAction Stop
             if ($policy -is [hashtable] -and
                 $policy.DynamicScripts -isnot [string] -and
                 $policy.DynamicScripts -is [System.Collections.IEnumerable]) {
@@ -72,34 +72,5 @@ function Test-ColorScriptIsTrustedDynamic {
         return $false
     }
 
-    try {
-        $actualItem = Get-Item -LiteralPath $ScriptPath -Force -ErrorAction Stop
-        $expectedPath = Join-Path -Path $script:ScriptsPath -ChildPath ($scriptName + '.ps1')
-        $expectedItem = Get-Item -LiteralPath $expectedPath -Force -ErrorAction Stop
-
-        if ($actualItem.PSIsContainer -or $expectedItem.PSIsContainer) {
-            return $false
-        }
-
-        $reparsePoint = [System.IO.FileAttributes]::ReparsePoint
-        if (($actualItem.Attributes -band $reparsePoint) -ne 0 -or
-            ($expectedItem.Attributes -band $reparsePoint) -ne 0) {
-            return $false
-        }
-
-        $actualPath = (Resolve-Path -LiteralPath $actualItem.FullName -ErrorAction Stop).ProviderPath
-        $expectedResolvedPath = (Resolve-Path -LiteralPath $expectedItem.FullName -ErrorAction Stop).ProviderPath
-        $comparison = if ([System.IO.Path]::DirectorySeparatorChar -eq '\') {
-            [System.StringComparison]::OrdinalIgnoreCase
-        }
-        else {
-            [System.StringComparison]::Ordinal
-        }
-
-        return [string]::Equals($actualPath, $expectedResolvedPath, $comparison)
-    }
-    catch {
-        Write-Verbose ("Unable to validate dynamic colorscript path '{0}': {1}" -f $ScriptPath, $_.Exception.Message)
-        return $false
-    }
+    return Test-ColorScriptIsBundledPath -ScriptPath $ScriptPath -ScriptName $scriptName
 }

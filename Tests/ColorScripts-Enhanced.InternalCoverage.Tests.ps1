@@ -1181,16 +1181,17 @@ Describe 'ColorScripts-Enhanced internal coverage' {
 
         Context 'Invoke-ColorScriptCacheOperation' {
             It 'returns success metadata when cache builds succeed' {
-                $tempDir = Join-Path -Path $TestDrive -ChildPath ([guid]::NewGuid())
-                New-Item -ItemType Directory -Path $tempDir | Out-Null
-                $scriptPath = Join-Path -Path $tempDir -ChildPath 'Galaxy.ps1'
-                Set-Content -LiteralPath $scriptPath -Value 'Write-Output "cached"' -Encoding utf8
+                $cacheRoot = Join-Path -Path $TestDrive -ChildPath ('CacheOperation_' + [guid]::NewGuid())
+                New-Item -ItemType Directory -Path $cacheRoot | Out-Null
 
-                InModuleScope ColorScripts-Enhanced -Parameters @{ tempScriptPath = $scriptPath } {
-                    param($tempScriptPath)
-                    Initialize-CacheDirectory
-                    $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($tempScriptPath)
-                    $result = Invoke-ColorScriptCacheOperation -ScriptName $scriptName -ScriptPath $tempScriptPath
+                InModuleScope ColorScripts-Enhanced -Parameters @{ cacheRoot = $cacheRoot } {
+                    param($cacheRoot)
+
+                    $script:CacheDir = $cacheRoot
+                    $script:CacheInitialized = $true
+                    $scriptName = 'Galaxy'
+                    $scriptPath = Join-Path -Path $script:ScriptsPath -ChildPath "$scriptName.ps1"
+                    $result = Invoke-ColorScriptCacheOperation -ScriptName $scriptName -ScriptPath $scriptPath -Force
                     $result.Updated | Should -Be 1
                     $result.Failed | Should -Be 0
                     $result.Result.Status | Should -Be 'Updated'

@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript
 Locale: zh-CN
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Show-ColorScript
 ---
@@ -13,7 +13,7 @@ title: Show-ColorScript
 
 ## SYNOPSIS
 
-使用自动缓存显示颜色脚本以增强性能。
+显示带有选择性缓存的彩色脚本，用于昂贵的渲染器。
 
 ## SYNTAX
 
@@ -63,15 +63,17 @@ Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <string
 
 ## DESCRIPTION
 
-在您的终端中渲染美丽的 ANSI 颜色脚本，具有智能性能优化。该 cmdlet 提供四种主要操作模式：
+在终端中渲染 ANSI 颜色脚本，并且只对高开销渲染器应用选择性性能优化。该 cmdlet 提供四种主要操作模式：
 
-**随机模式（默认）：** 从可用集合中显示随机选择的颜色脚本。当未指定参数时，这是默认行为。
+**随机模式（默认）：** 显示从可用集合中随机选择的颜色脚本。这是未指定参数时的默认行为。
 
-**命名模式：** 按名称显示特定的颜色脚本。支持通配符模式以实现灵活匹配。当多个脚本匹配模式时，按字母顺序选择第一个匹配项。
+**命名模式：** 按名称显示特定的颜色脚本。支持通配符模式，灵活匹配。当多个脚本与某个模式匹配时，将选择按字母顺序排列的第一个匹配项。
 
-**列表模式：** 显示所有可用颜色脚本的格式化列表及其元数据，包括名称、类别、标签和描述。
+**列表模式：** 显示包含颜色脚本名称和主要类别的紧凑表格。使用 `Get-ColorScriptList -AsObject` 获取完整的元数据记录。
 
-**全部模式：** 按字母顺序循环显示所有可用颜色脚本。特别适用于展示整个集合或发现新脚本。
+**所有模式：** 按字母顺序循环显示所有可用的颜色脚本。对于展示整个集合或发现新脚本特别有用。
+
+对于可静态提取的捆绑脚本，模块通过范围受限且失败时拒绝处理的 AST 求值器获取输出，而不执行脚本。明确列入允许列表的捆绑动态脚本在隔离的进程内运行空间中执行。未知或自定义脚本在子进程中执行，以防止会话状态泄漏。运行空间和子进程都不是安全沙箱；脚本以当前用户的权限运行。
 
 ## EXAMPLES
 
@@ -81,7 +83,7 @@ Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <string
 Show-ColorScript
 ```
 
-显示启用缓存的随机颜色脚本。这是为您的终端会话添加视觉风格的最快方法。
+显示随机颜色脚本。可静态提取的捆绑脚本无需执行即可获取输出；合格的计算型渲染器可以重用经过验证的缓存输出。
 
 ### EXAMPLE 2
 
@@ -97,7 +99,7 @@ Show-ColorScript -Name "mandelbrot-zoom"
 Show-ColorScript -Name "aurora-*"
 ```
 
-显示（按字母顺序）匹配通配符模式"aurora-\*"的第一个颜色脚本。当您记住脚本名称的一部分时很有用。
+显示与通配符模式“aurora-\*”匹配的第一个颜色脚本（按字母顺序）。当您记住脚本名称的一部分时很有用。
 
 ### EXAMPLE 4
 
@@ -105,7 +107,7 @@ Show-ColorScript -Name "aurora-*"
 scs hearts
 ```
 
-使用模块的别名 'scs' 快速访问 hearts 颜色脚本。别名提供频繁使用的便捷快捷方式。
+使用模块的别名“scs”快速访问红心颜色脚本。别名为频繁使用提供了方便的快捷方式。
 
 ### EXAMPLE 5
 
@@ -113,15 +115,15 @@ scs hearts
 Show-ColorScript -List
 ```
 
-以格式化表格列出所有可用颜色脚本及其元数据。有助于发现可用脚本及其属性。
+按名称和主要类别列出可用的颜色脚本。有助于快速发现。
 
 ### EXAMPLE 6
 
 ```powershell
-Show-ColorScript -Name arch -NoCache
+Show-ColorScript -Name Galaxy -NoCache
 ```
 
-不使用缓存显示 arch 颜色脚本，强制新鲜执行。在开发期间或排除缓存问题时很有用。
+显示符合条件的 Galaxy 渲染器，而不读取缓存的输出，强制进行新的隔离渲染。在测试渲染器更改或调查缓存损坏时很有用。
 
 ### EXAMPLE 7
 
@@ -129,7 +131,7 @@ Show-ColorScript -Name arch -NoCache
 Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category
 ```
 
-显示随机自然主题脚本并捕获其元数据对象以进行进一步检查或处理。
+显示随机的自然主题脚本并捕获其元数据对象以供进一步检查或处理。
 
 ### EXAMPLE 8
 
@@ -137,7 +139,7 @@ Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category
 Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt
 ```
 
-渲染颜色脚本并将其输出保存到文本文件中。渲染的 ANSI 代码被保留，允许稍后显示文件时具有正确的着色。
+渲染颜色脚本并将输出保存到文本文件。渲染的 ANSI 代码将被保留，以便稍后以适当的颜色显示文件。
 
 ### EXAMPLE 9
 
@@ -145,7 +147,7 @@ Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt
 Show-ColorScript -All
 ```
 
-按字母顺序显示所有颜色脚本，每个之间有短暂的自动延迟。非常适合整个集合的视觉展示。
+按字母顺序显示所有颜色脚本，每个颜色脚本之间有短暂的自动延迟。非常适合整个系列的视觉展示。
 
 ### EXAMPLE 10
 
@@ -153,7 +155,7 @@ Show-ColorScript -All
 Show-ColorScript -All -WaitForInput
 ```
 
-一次显示一个颜色脚本，每个后暂停。按空格键前进到下一个脚本，或按 'q' 提前退出序列。
+一次显示一个所有颜色脚本，每个颜色脚本后暂停。按空格键前进到下一个脚本，或按“q”提前退出序列。
 
 ### EXAMPLE 11
 
@@ -161,7 +163,7 @@ Show-ColorScript -All -WaitForInput
 Show-ColorScript -All -Category Nature -WaitForInput
 ```
 
-使用手动进度循环显示所有自然主题颜色脚本。将过滤与交互式浏览相结合以获得定制体验。
+通过手动进度循环浏览所有以自然为主题的颜色脚本。将过滤与交互式浏览相结合，提供精心策划的体验。
 
 ### EXAMPLE 12
 
@@ -169,55 +171,55 @@ Show-ColorScript -All -Category Nature -WaitForInput
 Show-ColorScript -Tag retro,geometric -Random
 ```
 
-显示具有"retro"和"geometric"标签的随机颜色脚本。标签过滤启用精确子集选择。
+显示带有“复古”或“几何”标签的随机颜色脚本。多个标签值使用任意匹配语义。
 
 ### EXAMPLE 13
 
 ```powershell
-Show-ColorScript -List -Category Art,Abstract
+Show-ColorScript -List -Category Artistic,Abstract
 ```
 
-仅列出分类为"Art"或"Abstract"的颜色脚本，帮助您发现特定主题中的脚本。
+仅列出分类为“艺术”或“抽象”的彩色脚本，帮助您发现特定主题内的脚本。
 
 ### EXAMPLE 14
 
 ```powershell
-# Measure performance improvement from caching
-$uncached = Measure-Command { Show-ColorScript -Name spectrum -NoCache }
-$cached = Measure-Command { Show-ColorScript -Name spectrum }
-Write-Host "Uncached: $($uncached.TotalMilliseconds)ms | Cached: $($cached.TotalMilliseconds)ms | Speedup: $([math]::Round($uncached.TotalMilliseconds / $cached.TotalMilliseconds, 1))x"
+# 检查策略选择的渲染器的缓存资格和构建状态。
+New-ColorScriptCache -Name Galaxy -Force -PassThru |
+    Select-Object Name, Status, CacheFile
+Show-ColorScript -Name Galaxy
 ```
 
-通过测量执行时间演示缓存提供的性能改进。
+构建并检查符合条件的渲染器的缓存条目，而无需声明独立于机器的性能乘数。
 
 ### EXAMPLE 15
 
 ```powershell
-# Set up daily rotation of different colorscripts
+# 设置不同颜色脚本的每日轮换
 $seed = (Get-Date).DayOfYear
 Get-Random -SetSeed $seed
 Show-ColorScript -Random -PassThru | Select-Object Name
 ```
 
-根据日期显示一致但不同的颜色脚本每天。
+每天根据日期显示一致但不同的颜色脚本。
 
 ### EXAMPLE 16
 
 ```powershell
-# Export rendered colorscript to file for sharing
+# 将渲染的颜色脚本导出到文件以供共享
 Show-ColorScript -Name "aurora-waves" -ReturnText |
     Out-File -FilePath "./aurora.ansi" -Encoding UTF8
 
-# Later, display the saved file
+# 稍后显示保存的文件
 Get-Content "./aurora.ansi" -Raw | Write-Host
 ```
 
-将渲染的颜色脚本保存到文件中，可以稍后显示或与他人共享。
+将渲染的颜色脚本保存到文件中，以便稍后显示或与其他人共享。
 
 ### EXAMPLE 17
 
 ```powershell
-# Create a slideshow of geometric colorscripts
+# 创建几何彩色脚本的幻灯片
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object {
         Show-ColorScript -Name $_.Name
@@ -225,39 +227,39 @@ Get-ColorScriptList -Category Geometric -AsObject |
     }
 ```
 
-Automatically displays a sequence of geometric colorscripts with 3-second delays between each.
+自动显示一系列几何彩色脚本，每个几何彩色脚本之间有 3 秒的延迟。
 
 ### EXAMPLE 18
 
 ```powershell
-# Error handling example
+# 错误处理示例
 try {
     Show-ColorScript -Name "nonexistent-script" -ErrorAction Stop
 } catch {
-    Write-Warning "Script not found: $_"
-    Show-ColorScript  # Fallback to random
+    Write-Warning "未找到脚本：$_"
+    Show-ColorScript  # 回退到随机
 }
 ```
 
-Demonstrates error handling when requesting a script that doesn't exist.
+演示请求不存在的脚本时的错误处理。
 
 ### EXAMPLE 19
 
 ```powershell
-# Build automation integration
+# 构建自动化集成
 if ($env:CI) {
-    Show-ColorScript -Name "nerd-font-test" -NoCache
+    Show-ColorScript -Name "Galaxy" -NoCache
 } else {
-    Show-ColorScript  # Random display for interactive use
+    Show-ColorScript  # 随机显示供交互使用
 }
 ```
 
-Shows how to conditionally display different colorscripts in CI/CD environments vs. interactive sessions.
+展示如何在 CI/CD 环境与交互式会话中有条件地显示不同的颜色脚本。
 
 ### EXAMPLE 20
 
 ```powershell
-# Scheduled task for terminal greeting
+# 终端问候定时任务
 $scriptPath = "$(Get-Module ColorScripts-Enhanced).ModuleBase\Scripts\mandelbrot-zoom.ps1"
 if (Test-Path $scriptPath) {
     & $scriptPath
@@ -266,13 +268,29 @@ if (Test-Path $scriptPath) {
 }
 ```
 
-Demonstrates running a specific colorscript as part of scheduled task or startup automation.
+演示作为计划任务或启动自动化的一部分运行特定的颜色脚本。
+
+### EXAMPLE 21
+
+```powershell
+Show-ColorScript -IncludePokemon
+```
+
+显示随机颜色脚本，包括 `Pokemon` 类别中的脚本。当您希望将神奇宝贝艺术包含在随机选择中时很有用。
+
+### EXAMPLE 22
+
+```powershell
+Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming
+```
+
+显示随机颜色脚本，同时排除 `Pokemon` 和 `Gaming` 类别。与 `-Category` 或 `-Tag` 结合以进一步细化选择。
 
 ## PARAMETERS
 
 ### -All
 
-Cycle through all available colorscripts in alphabetical order. When specified alone, scripts are displayed continuously with a short automatic delay. Combine with `-WaitForInput` to manually control progression through the collection. This mode is ideal for showcasing the full library or discovering new favorites.
+按字母顺序循环浏览所有可用的颜色脚本。单独指定时，脚本会连续显示，并带有短暂的自动延迟。与 `-WaitForInput` 结合使用可手动控制集合的进度。此模式非常适合展示完整的图书馆或发现新的收藏夹。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -293,7 +311,7 @@ HelpMessage: ''
 
 ### -Category
 
-Filter the available script collection by one or more categories before any selection or display occurs. Categories are typically broad themes like "Nature", "Abstract", "Art", "Retro", etc. Multiple categories can be specified as an array. This parameter works in conjunction with all modes (Random, Named, List, All) to narrow the working set.
+在进行任何选择或显示之前，按一个或多个类别过滤可用脚本集合。类别通常是广泛的主题，如“自然”、“抽象”、“艺术”、“复古”等。可以将多个类别指定为数组。此参数与所有模式（随机、命名、列表、全部）结合使用，以缩小工作集范围。
 
 ```yaml
 Type: System.String[]
@@ -314,8 +332,7 @@ HelpMessage: ''
 
 ### -ExcludeCategory
 
-Exclude scripts from one or more categories.
-Use this to filter out large collections like Pokemon scripts.
+在进行选择之前，从一个或多个类别中排除脚本。例如，使用 `-ExcludeCategory Pokemon` 来避免所有神奇宝贝脚本，或指定多个类别，例如 `-ExcludeCategory Pokemon,Gaming`。适用于所有模式（随机、命名、列表、全部），并与 `-Category` 和 `-Tag` 过滤器结合使用。
 
 ```yaml
 Type: System.String[]
@@ -336,7 +353,7 @@ HelpMessage: ''
 
 ### -h
 
-显示此命令的详细帮助，而不执行操作。
+显示该命令的详细帮助而不执行操作。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -358,8 +375,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Opt-in flag to include Pokemon colorscripts in the random selection.
-When omitted, Pokemon scripts are filtered out automatically.
+选择加入标记以在选择中包含神奇宝贝彩色脚本。省略时，神奇宝贝脚本会自动过滤掉（默认）。注意：这取代了旧的 `-ExcludePokemon` 参数 - 重构反向语义，因此您现在选择显示 Pokémon 脚本而不是选择退出。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -380,7 +396,7 @@ HelpMessage: ''
 
 ### -List
 
-Display a formatted list of all available colorscripts with their associated metadata. The output includes script name, category, tags, and description. This is useful for exploring available options and understanding the collection's organization. Can be combined with `-Category` or `-Tag` to list only filtered subsets.
+显示所有可用颜色脚本及其关联元数据的格式化列表。输出包括脚本名称、类别、标签和描述。这对于探索可用选项和了解集合的组织很有用。可以与 `-Category` 或 `-Tag` 结合使用以仅列出过滤的子集。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -401,7 +417,7 @@ HelpMessage: ''
 
 ### -Name
 
-The name of the colorscript to display (without the .ps1 extension). Supports wildcard patterns (\* and ?) for flexible matching. When multiple scripts match a wildcard pattern, the first match in alphabetical order is selected and displayed. Use `-PassThru` to verify which script was chosen when using wildcards.
+要显示的颜色脚本的名称（不带 .ps1 扩展名）。支持通配符模式（\* 和 ?）以实现灵活匹配。当多个脚本与通配符模式匹配时，将选择并显示按字母顺序排列的第一个匹配项。使用 `-PassThru` 验证使用通配符时选择了哪个脚本。
 
 ```yaml
 Type: System.String
@@ -422,7 +438,7 @@ HelpMessage: ''
 
 ### -NoAnsiOutput
 
-为纯文本环境禁用信息性消息和渲染输出中的 ANSI 样式。
+在纯文本环境的信息消息和渲染输出中禁用 ANSI 样式。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -444,7 +460,7 @@ HelpMessage: ''
 
 ### -NoCache
 
-Bypass the caching system and execute the colorscript directly. This forces fresh execution and can be useful when testing script modifications, debugging, or when cache corruption is suspected. Without this switch, cached output is used when available for optimal performance.
+绕过策略选定渲染器的已验证缓存读取，并强制执行新的隔离渲染。这适用于测试渲染器更改或调查缓存损坏。可静态提取的捆绑脚本、策略之外的脚本以及自定义脚本本来就不使用缓存。可静态提取的捆绑内容仍然无需执行脚本即可获取。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -465,7 +481,7 @@ HelpMessage: ''
 
 ### -NoClear
 
-When cycling through scripts with -All, skip clearing the host between displays so prior output remains visible.
+与 `-All` 一起使用时，跳过颜色脚本之间的自动 `Clear-Host` 调用，以便每个渲染的脚本在下一个脚本之上保持可见。当您想要并排比较脚本或捕获会话记录中的整个展示时，这特别有用。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -486,7 +502,7 @@ HelpMessage: ''
 
 ### -PassThru
 
-Return the selected colorscript's metadata object to the pipeline in addition to displaying the colorscript. The metadata object contains properties like Name, Path, Category, Tags, and Description. This enables programmatic access to script information for filtering, logging, or further processing while still rendering the visual output.
+除了显示颜色脚本之外，还将所选颜色脚本的元数据对象返回到管道。元数据对象包含名称、路径、类别、标签和描述等属性。这使得能够以编程方式访问脚本信息以进行过滤、记录或进一步处理，同时仍然呈现视觉输出。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -513,7 +529,7 @@ HelpMessage: ''
 
 ### -Quiet
 
-禁止显示信息性消息，但保留命令输出和错误。
+抑制信息性消息，同时保留命令输出和错误。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -534,7 +550,7 @@ HelpMessage: ''
 
 ### -Random
 
-Explicitly request a random colorscript selection. This is the default behavior when no name is specified, so this switch is primarily useful for clarity in scripts or when you want to be explicit about the selection mode. Can be combined with `-Category` or `-Tag` to randomize within a filtered subset.
+明确请求随机颜色脚本选择。这是未指定名称时的默认行为，因此此开关主要用于使脚本清晰或当您想要明确选择模式时。可以与 `-Category` 或 `-Tag` 结合使用，在过滤的子集中进行随机化。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -555,7 +571,7 @@ HelpMessage: ''
 
 ### -ReturnText
 
-Emit the rendered colorscript as a string to the PowerShell pipeline instead of writing directly to the console host. This allows the output to be captured in a variable, redirected to a file, or piped to other commands. The output retains all ANSI escape sequences, so it will display with proper colors when later written to a compatible terminal.
+将渲染的颜色脚本作为字符串发送到 PowerShell 管道，而不是直接写入控制台主机。这允许将输出捕获在变量中、重定向到文件或通过管道传输到其他命令。输出保留所有 ANSI 转义序列，因此当稍后写入兼容终端时，它将以正确的颜色显示。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -577,7 +593,7 @@ HelpMessage: ''
 
 ### -Tag
 
-Filter the available script collection by metadata tags (case-insensitive). Tags are more specific descriptors than categories, such as "geometric", "retro", "animated", "minimal", etc. Multiple tags can be specified as an array. Scripts matching any of the specified tags will be included in the working set before selection occurs.
+按元数据标签过滤可用脚本集合（不区分大小写）。标签是比类别更具体的描述符，例如“几何”、“复古”、“动画”、“最小”等。多个标签可以指定为一个数组。在选择发生之前，与任何指定标签匹配的脚本将包含在工作集中。
 
 ```yaml
 Type: System.String[]
@@ -598,8 +614,7 @@ HelpMessage: ''
 
 ### -ValidateCache
 
-Forces cache validation before rendering.
-Use when you need to rebuild cached colorscript output manually.
+在渲染之前刷新模块级缓存元数据标记，包括当缓存目录已在当前模块会话中初始化时。它不会重建输出缓存条目或替换正常的每条目验证。将 `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` 设置为 `1`、`true` 或 `yes` 会在缓存初始化期间请求相同的刷新。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -620,7 +635,7 @@ HelpMessage: ''
 
 ### -WaitForInput
 
-When used with `-All`, pause after displaying each colorscript and wait for user input before proceeding. Press the spacebar to advance to the next script in the sequence. Press 'q' to quit the sequence early and return to the prompt. This provides an interactive browsing experience through the entire collection.
+与 `-All` 一起使用时，在显示每个颜色脚本后暂停并等待用户输入，然后再继续。按空格键前进到序列中的下一个脚本。按“q”提前退出序列并返回到提示符。这为整个集合提供了交互式浏览体验。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -641,38 +656,40 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+此 cmdlet 支持以下常用参数：
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
-[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+有关详细信息，请参阅
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216)。
 
 ## INPUTS
 
-### System.String
+### None
 
-You can pipe colorscript names to Show-ColorScript. This enables pipeline-based workflows where script names are generated or filtered by other commands.
+此 cmdlet 不接受管道输入。将库存记录通过管道传输到 `ForEach-Object` 中，并在构建管道时调用 `Show-ColorScript -Name $_.Name` 。
 
 ## OUTPUTS
 
 ### System.Object
 
-When `-PassThru` is specified, returns the selected colorscript's metadata object containing properties like Name, Path, Category, Tags, and Description.
+指定 `-PassThru` 时，返回所选颜色脚本的元数据对象，其中包含名称、路径、类别、标签和描述等属性。
 
 ### System.String (2)
 
-When `-ReturnText` is specified, emits the rendered colorscript as a string to the pipeline. This string contains all ANSI escape sequences for proper color rendering when displayed in a compatible terminal.
+当指定 `-ReturnText` 时，将渲染的颜色脚本作为字符串发送到管道。该字符串包含所有 ANSI 转义序列，以便在兼容终端中显示时正确呈现颜色。
 
 ### None
 
-In default operation (without `-PassThru` or `-ReturnText`), output is written directly to the console host and nothing is returned to the pipeline.
+在默认操作中（没有 `-PassThru` 或 `-ReturnText`），输出直接写入控制台主机，并且不会将任何内容返回到管道。
 
 ## NOTES
 
-**Author:** Nick
-**Module:** ColorScripts-Enhanced
-**Requires:** PowerShell 5.1 or later
+**作者：** 尼克
+**模块：** ColorScripts-Enhanced
+**需要：** PowerShell 5.1 或更高版本
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
+- [在线版本](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
 

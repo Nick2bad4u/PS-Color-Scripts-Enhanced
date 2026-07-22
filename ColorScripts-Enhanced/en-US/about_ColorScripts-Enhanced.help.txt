@@ -5,13 +5,14 @@ SHORT DESCRIPTION
     Discover and display ANSI colorscripts in PowerShell.
 
 LONG DESCRIPTION
-    ColorScripts-Enhanced is a cross-platform PowerShell module containing 3156
-    colorscripts. It supports Windows PowerShell 5.1 and PowerShell 7.x on
+    ColorScripts-Enhanced is a cross-platform PowerShell module containing
+    thousands of colorscripts. It supports Windows PowerShell 5.1 and PowerShell 7.x on
     Windows, macOS, and Linux.
 
-    Most colorscripts are static and execute directly. Output caching is limited
-    to the 15 expensive renderers selected by CachePolicy.psd1. Intentionally
-    live renderers remain uncached when reuse would change their behavior.
+    Most bundled colorscripts contain deterministic static content and render in-process
+    without starting a child PowerShell process. Output caching is limited to the small set
+    of expensive renderers selected by CachePolicy.psd1. Intentionally live renderers remain
+    uncached when reuse would change their behavior.
 
 BASIC USAGE
     Import-Module ColorScripts-Enhanced

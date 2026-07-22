@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Clear-ColorScriptCache
 Locale: en-US
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Clear-ColorScriptCache
 ---
@@ -49,7 +49,7 @@ You can delete cache entries selectively using the `-Name` parameter with wildca
 
 Unmatched script names report a `Missing` status in the results. Use `-DryRun` to preview removal actions without modifying the filesystem, and `-Path` to target an alternate cache directory (useful for custom cache configurations or CI/CD environments).
 
-Eligible entries are regenerated the next time the corresponding renderer is shown or `New-ColorScriptCache` is invoked. Static scripts execute directly and do not create cache entries.
+Eligible cache entries are regenerated when the corresponding policy-selected renderer is shown or `New-ColorScriptCache` is invoked. Deterministic bundled scripts render in-process and do not create cache entries.
 
 For automation scenarios, combine `-PassThru` to capture structured results, `-Quiet` to suppress the summary message, or `-NoAnsiOutput` to emit plain-text summaries without ANSI color codes.
 
@@ -82,10 +82,10 @@ Clears the cache file for the eligible 'Galaxy' renderer from a custom directory
 ### EXAMPLE 4
 
 ```powershell
-Clear-ColorScriptCache -Category Animation -WhatIf
+Clear-ColorScriptCache -Category Mathematical -WhatIf
 ```
 
-Shows what would happen if all cache files for scripts in the Animation category were removed. The `-WhatIf` parameter prevents actual deletion and displays the intended actions.
+Shows what would happen if cache files for scripts in the `Mathematical` category were removed. The `-WhatIf` parameter prevents deletion.
 
 ### EXAMPLE 5
 
@@ -106,19 +106,19 @@ Removes cache files for all scripts whose names begin with 'test-' or 'demo-' wi
 ### EXAMPLE 7
 
 ```powershell
-# Clean cache and rebuild for optimization
+# Clean existing cache files and rebuild policy-selected entries
 Clear-ColorScriptCache -All -Confirm:$false
 New-ColorScriptCache -PassThru | Measure-Object
 Write-Host "Cache rebuilt successfully"
 ```
 
-Performs a complete cache refresh by clearing all and rebuilding, then shows statistics.
+Clears all cache payloads, rebuilds the entries selected by the dynamic-cache policy, and then shows statistics for those rebuilt entries.
 
 ### EXAMPLE 8
 
 ```powershell
 # Clear old cache entries older than 30 days
-$cacheDir = "$env:APPDATA\ColorScripts-Enhanced\cache"
+$cacheDir = (Get-ColorScriptConfiguration).Cache.EffectivePath
 $thirtyDaysAgo = (Get-Date).AddDays(-30)
 Get-ChildItem $cacheDir -Filter "*.cache" |
     Where-Object { $_.LastWriteTime -lt $thirtyDaysAgo } |
@@ -134,7 +134,7 @@ Removes cache files that haven't been updated in more than 30 days.
 
 ```powershell
 # Cache management report
-$cacheDir = "$env:APPDATA\ColorScripts-Enhanced\cache"
+$cacheDir = (Get-ColorScriptConfiguration).Cache.EffectivePath
 $beforeCount = @(Get-ChildItem $cacheDir -Filter "*.cache" -ErrorAction SilentlyContinue).Count
 Clear-ColorScriptCache -Category Geometric -Confirm:$false
 $afterCount = @(Get-ChildItem $cacheDir -Filter "*.cache" -ErrorAction SilentlyContinue).Count
@@ -147,19 +147,19 @@ Shows statistics about cache clearing operations.
 
 ```powershell
 # Troubleshooting - clear and rebuild specific script
-$scriptName = "mandelbrot-zoom"
+$scriptName = "Galaxy"
 Clear-ColorScriptCache -Name $scriptName -Confirm:$false
 New-ColorScriptCache -Name $scriptName -Force
 Show-ColorScript -Name $scriptName
 ```
 
-Clears and rebuilds cache for a single script, then displays it for verification.
+Clears and rebuilds the cache for one policy-eligible renderer, then displays it for verification.
 
 ### EXAMPLE 11
 
 ```powershell
 # Filter by multiple categories
-Clear-ColorScriptCache -Category Geometric,Abstract -DryRun |
+Clear-ColorScriptCache -Category Geometric,Abstract -DryRun -PassThru |
     Select-Object CacheFile |
     Measure-Object
 ```
@@ -170,7 +170,7 @@ Shows how many cache files would be deleted if filtering by multiple categories.
 
 ### -All
 
-Remove every cache file in the target directory. This parameter is mutually exclusive with `-Name`, `-Category`, and `-Tag`. When specified, all filtering parameters are ignored and the entire cache is cleared.
+Select every cache entry in the target directory. `-Category` and `-Tag` can further restrict the all-selection parameter set; `-Name` belongs to the selection parameter set instead.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -474,9 +474,11 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -497,12 +499,12 @@ You can pipe objects with a `Name` property to this cmdlet. The cmdlet will extr
 
 ### System.Object
 
-Returns status records for each processed cache file. Each output object contains the following properties:
+With `-PassThru`, returns a status record for each processed cache file. Each output object contains the following properties:
 
-- **Status**: The result of the operation (`Removed`, `Missing`, `DryRun`, or `Error`)
+- **Status**: The result of the operation (`Removed`, `Missing`, `DryRun`, `SkippedByUser`, or `Error`)
 - **CacheFile**: The full path to the cache file that was processed
 - **Message**: Descriptive text explaining the outcome of the operation
-- **ScriptName**: The name of the script associated with the cache file
+- **Name**: The name of the script associated with the cache file
 
 ## NOTES
 
@@ -511,9 +513,9 @@ Returns status records for each processed cache file. Each output object contain
 
 Cache files are stored with a `.cache` extension in the module's cache directory. Each cache file corresponds to a single colorscript and contains the pre-rendered ANSI output.
 
-Eligible entries are regenerated when the corresponding renderer is shown or `New-ColorScriptCache` is invoked. Static scripts execute directly and do not create cache entries.
+Eligible cache entries are regenerated when the corresponding policy-selected renderer is shown or `New-ColorScriptCache` is invoked. Deterministic bundled scripts render in-process and do not create cache entries.
 
-The default cache path is exposed via the module's `$CacheDir` variable and can be overridden using the `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` environment variable.
+Query `(Get-ColorScriptConfiguration).Cache.EffectivePath` for the default effective path. It can be overridden with persisted configuration or `COLOR_SCRIPTS_ENHANCED_CACHE_PATH`; `-Path` targets a different directory for one invocation.
 
 When using `-DryRun` or `-WhatIf`, the cmdlet will still validate that the cache directory exists and report any issues, but will not perform any deletions.
 
@@ -532,7 +534,7 @@ Filtering by `-Category` or `-Tag` requires that the scripts have associated met
 
 ### Troubleshooting (2)
 
-- **"No cache files found"**: Use `-AsObject` to verify which scripts have caches
+- **"No cache files found"**: Inspect `(Get-ColorScriptConfiguration).Cache.EffectivePath` and use `Export-ColorScriptMetadata -IncludeCacheInfo` to verify cache state
 - **"Permission denied"**: Verify write access to cache directory
 - **"Cache not regenerating"**: Scripts may have rendering issues; test with `-NoCache`
 

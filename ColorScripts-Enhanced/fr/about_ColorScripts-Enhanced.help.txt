@@ -2,17 +2,18 @@ SUJET
     about_ColorScripts-Enhanced
 
 DESCRIPTION COURTE
-    Rechercher et afficher des colorscripts ANSI dans PowerShell.
+    Rechercher et afficher des scripts de couleurs ANSI dans PowerShell.
 
 DESCRIPTION DETAILLEE
     ColorScripts-Enhanced est un module PowerShell multiplateforme comprenant
-    3156 colorscripts. Il prend en charge Windows PowerShell 5.1 et PowerShell 7.x
+    des milliers de scripts de couleurs. Il prend en charge Windows PowerShell 5.1 et PowerShell 7.x
     sous Windows, macOS et Linux.
 
-    La plupart des colorscripts sont statiques et s'executent directement. La
-    mise en cache de la sortie est limitee aux 15 moteurs couteux selectionnes
-    dans CachePolicy.psd1. Les moteurs qui doivent rester actuels ne sont pas mis
-    en cache lorsque la reutilisation modifierait leur comportement.
+    La plupart des scripts de couleurs fournis contiennent un contenu statique deterministe et sont
+    rendus dans le processus actif, sans demarrer de processus PowerShell enfant. La mise en
+    cache de la sortie est limitee au petit ensemble de moteurs couteux selectionnes dans
+    CachePolicy.psd1. Les moteurs qui doivent rester actuels ne sont pas mis en cache lorsque
+    la reutilisation modifierait leur comportement.
 
 UTILISATION DE BASE
     Import-Module ColorScripts-Enhanced
@@ -25,7 +26,7 @@ UTILISATION DE BASE
 
 COMMANDES
     Show-ColorScript
-        Affiche un colorscript aleatoire ou nomme. Alias : scs.
+        Affiche un script de couleurs aleatoire ou nomme. Alias : scs.
 
     Get-ColorScriptList
         Recherche les scripts par nom, categorie ou etiquette.

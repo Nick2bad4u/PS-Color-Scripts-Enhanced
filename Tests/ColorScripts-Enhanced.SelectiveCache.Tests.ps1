@@ -73,6 +73,48 @@ Describe 'Selective colorscript output caching' {
             $classification.Perlin | Should -BeTrue
             $classification.Unknown | Should -BeFalse
         }
+
+        It 'does not grant cache eligibility to an allowlisted filename outside the bundled directory' {
+            $externalPath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'perlin-clouds.ps1'
+            Copy-Item -LiteralPath (Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts/perlin-clouds.ps1') -Destination $externalPath
+
+            $isCacheable = InModuleScope ColorScripts-Enhanced -Parameters @{ path = $externalPath } {
+                param($path)
+                Test-ColorScriptRequiresCache -ScriptPath $path
+            }
+
+            $isCacheable | Should -BeFalse
+        }
+
+        It 'fails closed when the cache policy uses scalar strings instead of collections' {
+            $result = InModuleScope ColorScripts-Enhanced {
+                $script:CacheableScriptNameSet = $null
+                $script:CacheablePokemonScriptNameSet = $null
+                $script:CachePolicyLastWriteTime = $null
+
+                try {
+                    Mock -CommandName Import-PowerShellDataFile -ModuleName ColorScripts-Enhanced -MockWith {
+                        @{
+                            CacheableScripts        = 'perlin-clouds'
+                            CacheablePokemonScripts = 'pokemon'
+                        }
+                    }
+
+                    [pscustomobject]@{
+                        Cacheable = (Get-ColorScriptCacheableNameSet).Count
+                        Pokemon   = (Get-ColorScriptCacheablePokemonNameSet).Count
+                    }
+                }
+                finally {
+                    $script:CacheableScriptNameSet = $null
+                    $script:CacheablePokemonScriptNameSet = $null
+                    $script:CachePolicyLastWriteTime = $null
+                }
+            }
+
+            $result.Cacheable | Should -Be 0
+            $result.Pokemon | Should -Be 0
+        }
     }
 
     Context 'Localized cache help' {
@@ -265,7 +307,7 @@ Describe 'Selective colorscript output caching' {
     }
 
     Context 'Display routing' {
-        It 'executes static output directly and never consults a legacy cache' {
+        It 'routes static output through in-process extraction without consulting persistent cache' {
             $result = InModuleScope ColorScripts-Enhanced {
                 Mock -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -MockWith {
                     throw 'Name-only selection must not build the metadata table.'
@@ -291,7 +333,7 @@ Describe 'Selective colorscript output caching' {
                     throw 'Static output must not build cached content.'
                 }
                 Mock -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -MockWith {
-                    [pscustomobject]@{ Success = $true; StdOut = 'direct static output'; StdErr = ''; ExitCode = 0 }
+                    [pscustomobject]@{ Success = $true; StdOut = 'in-process static output'; StdErr = ''; ExitCode = 0 }
                 }
 
                 $text = Show-ColorScript -Name '1998-01-fev-ice' -ReturnText -Quiet
@@ -304,7 +346,36 @@ Describe 'Selective colorscript output caching' {
                 $text
             }
 
-            $result | Should -BeExactly 'direct static output'
+            $result | Should -BeExactly 'in-process static output'
+        }
+
+        It 'refreshes module cache metadata when ValidateCache is explicitly requested' {
+            $result = InModuleScope ColorScripts-Enhanced {
+                Mock -CommandName Get-ColorScriptInventory -ModuleName ColorScripts-Enhanced -MockWith {
+                    [pscustomobject]@{
+                        Name        = '1998-01-fev-ice'
+                        Path        = '1998-01-fev-ice.ps1'
+                        Category    = $null
+                        Categories  = @()
+                        Tags        = @()
+                        Description = $null
+                        Metadata    = $null
+                    }
+                }
+                Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced
+                Mock -CommandName Invoke-ColorScriptProcess -ModuleName ColorScripts-Enhanced -MockWith {
+                    [pscustomobject]@{ Success = $true; StdOut = 'validated static output'; StdErr = ''; ExitCode = 0 }
+                }
+
+                $text = Show-ColorScript -Name '1998-01-fev-ice' -ValidateCache -ReturnText -Quiet
+
+                Should-Invoke -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -Times 1 -Exactly -ParameterFilter {
+                    $RefreshMetadata
+                }
+                $text
+            }
+
+            $result | Should -BeExactly 'validated static output'
         }
 
         It 'retains the cache path for expensive dynamic output' {

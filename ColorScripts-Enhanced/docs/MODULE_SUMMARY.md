@@ -6,9 +6,9 @@ ColorScripts-Enhanced is a cross-platform PowerShell module for discovering, dis
 
 | Property | Value |
 | -------- | ----- |
-| Manifest version | `2026.7.20.35` |
-| Colorscript files | <!-- COLOR_SCRIPT_COUNT -->3156<!-- /COLOR_SCRIPT_COUNT --> |
-| Dynamic renderers | 17 entries in `DynamicRenderPolicy.psd1` |
+| Manifest version | <!-- COLOR_MODULE_VERSION -->`2026.7.20.2250`<!-- /COLOR_MODULE_VERSION --> |
+| Colorscript files | <!-- COLOR_SCRIPT_COUNT -->3186<!-- /COLOR_SCRIPT_COUNT --> |
+| Dynamic renderers | <!-- COLOR_DYNAMIC_TOTAL -->17<!-- /COLOR_DYNAMIC_TOTAL --> entries in `DynamicRenderPolicy.psd1` |
 | Cacheable renderers | <!-- COLOR_CACHE_TOTAL -->15<!-- /COLOR_CACHE_TOTAL --> entries in `CachePolicy.psd1` |
 | Exported functions | 10 |
 | Primary alias | `scs` -> `Show-ColorScript` |
@@ -56,7 +56,7 @@ Pokémon-themed scripts are excluded from random selection by default. A directl
 
 ## Selective Cache Model
 
-Most of the catalog is static output and executes directly. Caching every static file would add invalidation, storage, and synchronization cost without a meaningful benefit.
+Most of the catalog is deterministic bundled output that is statically extracted and rendered in-process without executing script code. Caching every static file would add invalidation, storage, and synchronization cost without a meaningful benefit.
 
 The module therefore uses explicit policies:
 
@@ -84,7 +84,7 @@ Clear-ColorScriptCache -All
 Cache locations are platform-specific. Query the effective path instead of assuming `%APPDATA%`:
 
 ```powershell
-Get-ColorScriptConfiguration | Select-Object CachePath
+(Get-ColorScriptConfiguration).Cache.EffectivePath
 ```
 
 ## Configuration
@@ -123,6 +123,7 @@ Export-ColorScriptMetadata `
 # Create a script and metadata guidance.
 $script = New-ColorScript `
     -Name my-awesome-script `
+    -OutputPath ./ColorScripts-Enhanced/Scripts `
     -Category Artistic `
     -Tag Custom,Demo `
     -GenerateMetadataSnippet
@@ -131,7 +132,7 @@ $script.Path
 $script.MetadataGuidance
 ```
 
-Generated `.ps1` files use UTF-8 with a BOM for Windows PowerShell 5.1 compatibility. Traditional source `.ANS` files are commonly CP437, so source decoding and generated-file encoding must be handled separately. See [ANSI-CONVERSION-GUIDE.md](ANSI-CONVERSION-GUIDE.md).
+Generated `.ps1` files use UTF-8 without a byte-order mark (BOM). Traditional source `.ANS` files are commonly CP437, so source decoding and generated-file encoding must be handled separately. See [ANSI-CONVERSION-GUIDE.md](ANSI-CONVERSION-GUIDE.md).
 
 ## Repository Layout
 
@@ -165,13 +166,13 @@ Use the repository gates rather than relying on old benchmark or test-count clai
 npm run verify
 npm run test:pester
 npm run lint:strict
-npm run docs:validate-links
+npm run markdown:check
 ```
 
 The CI strategy covers Windows PowerShell 5.1, the runner-provided current PowerShell 7.x on Windows/macOS/Linux, and the current PowerShell preview on Linux. See [POWERSHELL-VERSIONS.md](POWERSHELL-VERSIONS.md).
 
 ## Licensing and Provenance
 
-Project-authored code is provided under the repository [Unlicense](../../LICENSE). Incorporated ANSI art may have different authors and source terms; availability in an archive does not make a work public domain. Preserve source, author/pack attribution, and license or permission records for new imports.
+Project-authored code is provided under the repository [Unlicense](../../LICENSE). Incorporated ANSI art may have different authors and source terms; availability in an archive does not make a work public domain. New curated imports are recorded in [ArtworkProvenance.psd1](../../ColorScripts-Enhanced/ArtworkProvenance.psd1) with evidence under [ThirdPartyNotices](../../ColorScripts-Enhanced/ThirdPartyNotices/); see [Artwork Sources](ARTWORK_SOURCES.md) for the reviewed collections and import rules.
 
 For usage details, start with the [README](../../README.md), [Quick Reference](QUICK_REFERENCE.md), and the command's `Get-Help` topic.

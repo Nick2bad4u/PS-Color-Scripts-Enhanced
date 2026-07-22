@@ -363,18 +363,23 @@ if ($CI) {
 Write-SectionHeader 'Executing Pester Tests'
 
 try {
-    $previousCoverageMode = $env:CSENHANCED_COVERAGE_MODE
-    $env:CSENHANCED_COVERAGE_MODE = '1'
+    $coverageModeChanged = -not $SkipCoverage.IsPresent
+    if ($coverageModeChanged) {
+        $previousCoverageMode = $env:CSENHANCED_COVERAGE_MODE
+        $env:CSENHANCED_COVERAGE_MODE = '1'
+    }
 
     try {
         $result = Invoke-Pester -Configuration $config
     }
     finally {
-        if ($null -ne $previousCoverageMode) {
-            $env:CSENHANCED_COVERAGE_MODE = $previousCoverageMode
-        }
-        else {
-            Remove-Item Env:CSENHANCED_COVERAGE_MODE -ErrorAction SilentlyContinue
+        if ($coverageModeChanged) {
+            if ($null -ne $previousCoverageMode) {
+                $env:CSENHANCED_COVERAGE_MODE = $previousCoverageMode
+            }
+            else {
+                Remove-Item Env:CSENHANCED_COVERAGE_MODE -ErrorAction SilentlyContinue
+            }
         }
     }
 }

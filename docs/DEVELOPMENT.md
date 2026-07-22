@@ -1,547 +1,183 @@
 # Development Guide
 
-This document outlines local development practices for the **ColorScripts-Enhanced** PowerShell module.
+This guide describes the current repository workflow. `package.json`, the module manifest, policy data files, tests, and GitHub Actions workflows are the executable sources of truth.
 
 ## Repository Layout
 
-```powershell
-ColorScripts-Enhanced/    # Module root (manifest + .psm1 + scripts)
-Scripts/                  # <!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscript files
-Tests/                    # Pester test suite
-Build-Help.ps1            # Optional help generator (comment-based help already available)
-build.ps1                 # Module build helper
-PSScriptAnalyzerSettings.psd1  # Script analyzer ruleset
-Test-Module.ps1           # Smoke-test harness used during development
+```text
+ColorScripts-Enhanced/
+├── ColorScripts-Enhanced.psd1       # Manifest and exported surface
+├── ColorScripts-Enhanced.psm1       # Module bootstrap
+├── Public/                          # 10 exported functions
+├── Private/                         # Internal helpers
+├── Scripts/                         # Bundled colorscripts
+├── ScriptMetadata.psd1              # Inventory metadata
+├── CachePolicy.psd1                 # Expensive dynamic renderers eligible for cache
+├── DynamicRenderPolicy.psd1         # Intentionally variable renderers
+├── ArtworkProvenance.psd1           # Provenance for new curated imports
+├── ThirdPartyNotices/               # Preserved licensing/permission evidence
+└── <culture>/                       # Messages, Markdown help, MAML, HelpInfo, about topic
+Tests/                               # Pester and Node tests
+scripts/                             # Build, lint, conversion, help, and release utilities
+assets/ansi-files/                   # Source ANSI assets retained for conversion/provenance
+docs/                                # Repository documentation
 ```
 
-## Local Development Setup
+## Prerequisites
 
-### Prerequisites
+- PowerShell 7 for normal development; Windows PowerShell 5.1 remains a supported runtime and CI target.
+- The Node.js version in `.node-version` (currently 25.8.1).
+- npm dependencies installed from `package-lock.json`.
+- Pester 6.0.1 and PSScriptAnalyzer for local PowerShell validation.
+- Microsoft.PowerShell.PlatyPS 1.0.2 when regenerating help.
 
-- **PowerShell 7.4+** recommended (5.1 supported for testing)
-- **Node.js 18+** (for ANSI conversion scripts)
-- **Nerd Font** (for testing glyph-heavy scripts)
-- **Git** for version control
-
-### Quick Setup
+Install dependencies and run the primary gates:
 
 ```powershell
-# Clone the repository
-git clone https://github.com/Nick2bad4u/ps-color-scripts-enhanced.git
-cd ps-color-scripts-enhanced
-
-# Install dependencies
-npm install
-
-# Run initial tests
-npm run build
+npm ci
+npm run verify
 npm test
 ```
 
-### Development Workflow
+Use `npm ci --force` only where the checked-in workflow requires it; do not casually regenerate the lockfile.
+
+## Branches and Scope
+
+Create focused branches using `type/description`, for example:
 
 ```powershell
-# 1. Create feature branch
-git checkout -b feature/your-feature
-
-# 2. Make changes and test
-npm run lint
-npm test
-
-# 3. Update documentation
-npm run docs:update-counts
-
-# 4. Commit with conventional commits
-git commit -m "feat: add new colorscript"
-git push origin feature/your-feature
-
-# 5. Create pull request
+git switch -c docs/help-contracts
 ```
 
-## Adding New Colorscripts
+Preserve unrelated work in a dirty tree. Generated files belong in the same logical change as their editable source when the repository checks them in.
 
-### Step 1: Create the Script File
+## Module Changes
+
+Public functions live under `ColorScripts-Enhanced/Public/`; internal helpers live under `Private/`. The module bootstrap dot-sources them and the manifest explicitly declares exported functions and aliases.
+
+When changing a public command:
+
+1. Design parameter sets, positional behavior, aliases, pipeline binding, `SupportsShouldProcess`, and output records deliberately.
+2. Keep Windows PowerShell 5.1 syntax compatibility unless the code is explicitly gated to PowerShell 7.
+3. Add focused Pester coverage for success, no-op, error, pipeline, `-WhatIf`, and cross-platform paths as applicable.
+4. Update the English and translated Markdown help contracts.
+5. Run `npm run build:help` and review all generated MAML/HelpInfo changes.
+6. Verify the manifest and exported aliases remain synchronized.
+
+External help is authoritative for public commands. Public function source should use `.EXTERNALHELP ColorScripts-Enhanced-help.xml`; do not maintain a second divergent comment-help narrative.
+
+## Colorscript Execution Model
+
+The collection has three routes:
+
+1. deterministic bundled scripts are statically extracted without executing their PowerShell;
+2. names in `DynamicRenderPolicy.psd1` are allowed to execute because their output genuinely varies; and
+3. only expensive dynamic names in `CachePolicy.psd1` persist output caches.
+
+Do not add deterministic art to either policy merely because its AST is complicated. Use the repository conversion/audit utilities and update `Tests/Fixtures/FlattenedColorScriptBaselines.psd1` when a verified deterministic conversion requires it.
+
+Query the real cache directory:
 
 ```powershell
-# File: ColorScripts-Enhanced/Scripts/my-awesome-script.ps1
-$esc = [char]27
-$reset = "$esc[0m"
-$red = "$esc[38;2;238;0;0m"
-
-Write-Host "${red}Your ASCII art here$reset"
+$cachePath = (Get-ColorScriptConfiguration).Cache.EffectivePath
 ```
 
-### Step 2: Update Metadata
+For isolated development, set `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` before import. Use `Show-ColorScript -ValidateCache` or `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE=1` only when on-demand validation is needed.
 
-Edit `ColorScripts-Enhanced/ScriptMetadata.psd1`:
+## Adding ANSI Artwork
+
+Read [ANSI-CONVERSION-GUIDE.md](ANSI-CONVERSION-GUIDE.md) and [ARTWORK_SOURCES.md](ARTWORK_SOURCES.md) before importing third-party art.
+
+A new import must have:
+
+- a canonical source and pinned revision/archive hash;
+- source-file hash, encoding, artist/pack attribution, and license or permission;
+- preserved evidence under `ColorScripts-Enhanced/ThirdPartyNotices/`;
+- a provenance mapping in `ArtworkProvenance.psd1`;
+- duplicate, dimension, encoding, deterministic-conversion, metadata, and rendering validation.
+
+Typical commands:
 
 ```powershell
-@{
-    'my-awesome-script' = @{
-        Category = 'Artistic'
-        Tags = @('Custom', 'Demo', 'Colorful')
-        Description = 'Beautiful artistic composition'
-    }
-}
+node scripts/Convert-AnsiToColorScript.js ./art.ans
+node scripts/Split-AnsiFile.js ./art.ans --auto --dry-run
+npm run scripts:check-dupes
+npm run test:conversion
 ```
 
-### Step 3: Test
+Traditional DOS/BBS art is commonly CP437. Do not assume UTF-8 and do not infer redistribution rights from archive availability.
+
+## Creating a Project-Authored Script
 
 ```powershell
-# Direct test
-& .\ColorScripts-Enhanced\Scripts\my-awesome-script.ps1
-
-# Via module
-Show-ColorScript -Name my-awesome-script
-
-# With caching
-New-ColorScriptCache -Name my-awesome-script
-Show-ColorScript -Name my-awesome-script
+$scaffold = New-ColorScript `
+    -Name my-awesome-script `
+    -OutputPath ./ColorScripts-Enhanced/Scripts `
+    -GenerateMetadataSnippet `
+    -Category Custom `
+    -Tag Custom
 ```
 
-## Editing Module Code
+Replace the placeholder art, add deliberate metadata to `ScriptMetadata.psd1`, and test direct and module rendering. The scaffold is UTF-8 without BOM. A BOM is still appropriate for a hand-authored Windows PowerShell 5.1 script only when its source contains non-ASCII text that 5.1 must decode reliably.
 
-### Structure Overview
+## Help and Localization
 
-- **ColorScripts-Enhanced.psd1** - Module manifest (metadata)
-- **ColorScripts-Enhanced.psm1** - Main module implementation
-- **Install.ps1** - Installation helper
-- **Tests/** - Pester test suite
-- **scripts/** - Development utilities
-
-### Making Changes
-
-1. **Edit the main module** (`ColorScripts-Enhanced.psm1`)
-2. **Add function help** (comment-based help in code)
-3. **Update version** in `.psd1` manifest
-4. **Run linting**:
-   ```powershell
-   npm run lint
-   npm run lint:fix  # Apply auto-fixes
-   ```
-5. **Run tests**:
-   ```powershell
-   npm test
-   npm run test:pester
-   ```
-
-### Code Style Guidelines
-
-- **Naming**: Use PascalCase for functions, camelCase for variables
-- **Indentation**: 4 spaces (no tabs)
-- **Comments**: XML comment-based help on all public functions
-- **Errors**: Use proper try/catch with specific error messages
-- **Type**: Use type annotations where appropriate
-
-Example:
+Editable sources are the culture Markdown topics and `Messages.psd1` files. Generated outputs are the culture MAML and HelpInfo XML files.
 
 ```powershell
-<#
-.SYNOPSIS
-    Brief description
-
-.DESCRIPTION
-    Detailed description
-
-.PARAMETER Name
-    Parameter description
-
-.EXAMPLE
-    Show-ColorScript -Name "bars"
-
-.LINK
-    Get-Help about_ColorScripts-Enhanced
-#>
-function Show-ColorScript {
-    [CmdletBinding()]
-    param(
-        [Parameter(ValueFromPipeline)]
-        [string]$Name
-    )
-
-    process {
-        # Implementation here
-    }
-}
+npm run build:help
+npm run markdown:check
 ```
 
-## Advanced Development Topics
+All runtime resource files must have exact key parity with `en-US/Messages.psd1` and compatible composite-format placeholders. Keep syntax, command/parameter names, literal accepted values, output property names, and environment-variable names unlocalized.
 
-### Cache System Architecture
+See [LOCALIZATION_GUIDE.md](LOCALIZATION_GUIDE.md) for fallback modes and translation review requirements.
 
-The rendering and caching system works by:
-
-1. **Static extraction**: bundled deterministic art is read without executing script code
-2. **Dynamic policy**: `DynamicRenderPolicy.psd1` explicitly identifies the small set of intentionally variable renderers
-3. **Isolated execution**: trusted bundled dynamic renderers run in fresh in-process runspaces; unknown custom scripts retain a child-process boundary
-4. **Cache policy**: `CachePolicy.psd1` opts in only expensive dynamic renderers
-5. **Storage**: cached output is stored in AppData with content-signature metadata
-6. **Validation**: source length, timestamp, and SHA-256 metadata are validated before reuse
-
-When adding deterministic generated art, run `./scripts/Convert-DeterministicColorScripts.ps1` to audit all candidates, then rerun it with `-Apply`. The converter renders each candidate repeatedly in an isolated temporary directory, rejects unstable output, verifies the generated static source, and updates `Tests/Fixtures/FlattenedColorScriptBaselines.psd1`.
-
-Only scripts whose output genuinely changes with time, randomness, live measurements, or another changing input belong in `DynamicRenderPolicy.psd1`. Add one of those names to `CachePolicy.psd1` only when its render cost outweighs cache I/O. The corpus and routing tests fail if a bundled script falls outside this boundary.
+## Validation Commands
 
 ```powershell
-# Study the cache implementation
-code ColorScripts-Enhanced/ColorScripts-Enhanced.psm1
-# Search for: function New-ColorScriptCache
-```
-
-### Performance Optimization
-
-Measure script performance:
-
-```powershell
-# Profile a colorscript
-Measure-Command { & .\ColorScripts-Enhanced\Scripts\mandelbrot-zoom.ps1 }
-
-# Compare cached vs uncached
-$uncached = Measure-Command { Show-ColorScript -Name mandelbrot-zoom -NoCache }
-$cached = Measure-Command { Show-ColorScript -Name mandelbrot-zoom }
-Write-Host "Improvement: $([math]::Round($uncached.TotalMilliseconds / $cached.TotalMilliseconds, 1))x"
-```
-
-### Debugging Tips
-
-```powershell
-# Enable verbose output
-$VerbosePreference = 'Continue'
-Show-ColorScript -Verbose
-
-# Debug cache operations
-Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" | Format-Table
-
-# Test configuration
-Get-ColorScriptConfiguration | ConvertTo-Json
-
-# Trace script execution
-Set-PSDebug -Trace 1
-& .\ColorScripts-Enhanced\Scripts\my-script.ps1
-Set-PSDebug -Trace 0
-```
-
-## Testing Strategy
-
-### Test Categories
-
-1. **Smoke Tests** - Quick module validation
-2. **Unit Tests** - Individual function testing
-3. **Integration Tests** - Multi-component workflows
-4. **Performance Tests** - Cache effectiveness
-5. **Compatibility Tests** - Cross-platform validation
-
-### Writing Tests
-
-```powershell
-# File: Tests/Show-ColorScript.Tests.ps1
-Describe 'Show-ColorScript' {
-    BeforeAll {
-        Import-Module .\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1 -Force
-    }
-
-    Context 'Basic Functionality' {
-        It 'should display random colorscript' {
-            { Show-ColorScript } | Should -Not -Throw
-        }
-
-        It 'should display specific colorscript' {
-            { Show-ColorScript -Name 'bars' } | Should -Not -Throw
-        }
-    }
-
-    Context 'Caching' {
-        It 'should create cache file' {
-            New-ColorScriptCache -Name 'test-script' -Force
-            Test-Path "$env:APPDATA\ColorScripts-Enhanced\cache\test-script.cache" | Should -Be $true
-        }
-    }
-}
-```
-
-### Running Tests
-
-```powershell
-# Run all tests
-npm run test:pester
-
-# Run specific test file
-Invoke-Pester -Path ./Tests/Show-ColorScript.Tests.ps1
-
-# With coverage report
-Invoke-Pester -Path ./Tests -CodeCoverage ColorScripts-Enhanced/ColorScripts-Enhanced.psm1
-```
-
-## CI/CD Insights
-
-### GitHub Actions Workflow
-
-The project uses automated testing across:
-
-- **Windows PowerShell 5.1** - Legacy compatibility
-- **PowerShell 7.x** - Cross-platform
-- **PowerShell Preview** - Early compatibility coverage for the next PowerShell release
-
-See `.github/workflows/` for implementation details.
-
-### Local CI Simulation
-
-```powershell
-# Run the same tests as CI
+# Fast non-mutating checks
 npm run verify
 
-# Or individually:
-npm run lint:strict
+# Strict PowerShell analysis, including tests
+npm run verify:strict
+
+# Node conversion, custom harness, and Pester
 npm test
-npm run test:pester
+
+# Help and documentation
+npm run build:help
+npm run docs:update-counts
+npm run markdown:check
+
+# Release alignment
+npm run release:verify
 ```
 
-## Performance Considerations
-
-### Optimization Areas
-
-1. **Cache Building** - Parallelize if building 500+ scripts
-2. **Module Loading** - Lazy-load large collections
-3. **String Handling** - Use here-strings for large outputs
-4. **File I/O** - Buffer cache reads for faster access
-
-### Benchmarking
-
-```powershell
-# Create performance baseline
-$baseline = @()
-Get-ChildItem .\ColorScripts-Enhanced\Scripts -Filter *.ps1 | ForEach-Object {
-    $time = Measure-Command { & $_.FullName } | Select-Object -ExpandProperty TotalMilliseconds
-    $baseline += @{ Script = $_.BaseName; Time = $time }
-}
-
-# Compare after changes
-$baseline | Where-Object { $_.Time -gt 100 } | Format-Table  # Scripts taking >100ms
-```
-
-## Troubleshooting Development Issues
-
-### Module Won't Load
-
-```powershell
-# Check for syntax errors
-[System.Management.Automation.PSParser]::Tokenize((Get-Content .\ColorScripts-Enhanced.psm1), [ref]$null)
-
-# Reload module
-Remove-Module ColorScripts-Enhanced -Force -ErrorAction SilentlyContinue
-Import-Module .\ColorScripts-Enhanced -Verbose
-```
-
-### Tests Failing
-
-```powershell
-# Check test environment
-Get-Module ColorScripts-Enhanced
-Get-ExecutionPolicy
-$PSVersionTable
-
-# Run single test in verbose mode
-Invoke-Pester -Path ./Tests/Show-ColorScript.Tests.ps1 -Verbose
-```
-
-### Cache Issues
-
-```powershell
-# Clear all cache
-Clear-ColorScriptCache -All -Confirm:$false
-
-# Rebuild
-New-ColorScriptCache -Force
-
-# Verify
-Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" | Measure-Object
-```
-
-## Contributing Checklist
-
-Before submitting a pull request:
-
-- [ ] All tests pass: `npm run verify`
-- [ ] Linting clean: `npm run lint`
-- [ ] Help documentation updated
-- [ ] Version bumped if necessary
-- [ ] CHANGELOG.md updated
-- [ ] Documentation counts refreshed: `npm run docs:update-counts`
-- [ ] Commit messages follow conventional commits
-- [ ] Changes tested locally on multiple platforms
-
-## Resources
-
-- [PowerShell Docs](https://docs.microsoft.com/powershell/)
-- [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer)
-- [Pester Testing](https://pester.dev/)
-- [ANSI Escape Codes](https://en.wikipedia.org/wiki/ANSI_escape_code)
-
-## Repository Layout (2)
-
-```powershell
-ColorScripts-Enhanced/
-├── ColorScripts-Enhanced.psd1     # Module manifest
-├── ColorScripts-Enhanced.psm1     # Main implementation
-├── Install.ps1                    # Installation helper
-├── README.md                      # Main documentation
-├── ScriptMetadata.psd1           # Metadata for all colorscripts
-├── Scripts/                       # <!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscript files
-├── Tests/                         # Pester test suite
-├── docs/                          # Extended documentation
-├── scripts/                       # Development utilities
-└── .github/                       # GitHub Actions workflows
-```
-
----
-
-**Last Updated**: October 30, 2025
-\| `npm run lint:strict` | Run lint with `-IncludeTests` and `-TreatWarningsAsErrors`. |
-\| `npm run lint:fix` | Attempt auto-fixes, then rerun lint. |
-\| `npm test` | Execute the smoke-test harness (`Test-Module.ps1`). |
-\| `npm run test:pester` | Run the full Pester suite from `./Tests`. |
-\| `npm run docs:update-counts` | Call `Update-DocumentationCounts.ps1` to sync README markers. |
-\| `npm run package:metadata -- --PackagePath <nupkg>` | Run `Update-NuGetPackageMetadata.ps1` to embed README/license/icon before pushing. |
-\| `npm run scripts:convert -- <ansi-file>` | Convert ANSI artwork via the Node-based converter. |
-\| `npm run scripts:convert:ps -- <ansi-file>` | Convert ANSI artwork using the PowerShell helper script. |
-\| `npm run scripts:convert:advanced` | Launch the advanced ANSI conversion workflow in PowerShell. |
-\| `npm run scripts:split -- <file> [options]` | Split tall ANSI or PowerShell scripts into manageable slices. |
-\| `npm run scripts:test-all` | Run `Test-AllColorScripts.ps1` across the entire library. |
-\| `npm run scripts:format` | Run Invoke-Formatter across every colorscript in `ColorScripts-Enhanced/Scripts`. |
-\| `npm run release:notes` | Generate unreleased release notes using git-cliff (PowerShell Gallery snippet). |
-\| `npm run release:notes:latest` | Generate release notes for the most recent tag. |
-\| `npm run release:verify` | Ensure CHANGELOG.md aligns with the manifest version and git-cliff output. |
-\| `npm run markdown:check` | Run markdown-link-check across every `.md` file in the repo. |
-\| `npm run verify` | Run non-mutating module lint and validate the PowerShell Gallery README size. |
-
-> `npm run release:*` commands require the [git-cliff](https://github.com/orhun/git-cliff) CLI in your `PATH`.
-
-## Common Tasks
-
-### Install Dependencies
-
-```powershell
-Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-Install-Module Pester -RequiredVersion 6.0.1 -Force
-Install-Module PSScriptAnalyzer -Force
-```
-
-### Run Tests
-
-```powershell
-pwsh -NoProfile -Command "& .\scripts\Test-Module.ps1"
-Invoke-Pester -Path ./Tests
-```
-
-`Test-Module.ps1` now validates exported commands, runs ScriptAnalyzer (warnings treated as failures), and exercises profile helpers.
-
-### Lint Source
-
-```powershell
-pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1"
-pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
-pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -Fix
-pwsh -NoProfile -Command "& .\scripts\Lint-PS7.ps1"  # PowerShell 7 only
-```
-
-### Build Manifest
-
-```powershell
-# Timestamp version automatically
-.\build.ps1
-
-# Semantic version
-.\build.ps1 -Version 1.2.0 -Verbose
-```
-
-### Generate Help (Optional)
-
-```powershell
-.\Build-Help.ps1
-```
-
-### Add a New Colorscript
-
-1. Create `ColorScripts-Enhanced/Scripts/<name>.ps1`
-2. Use UTF-8; include a BOM when non-ASCII content must run in Windows PowerShell 5.1
-3. Test via `Show-ColorScript -Name <name>`
-4. Add to `ScriptMetadata.psd1` if needed (category/difficulty)
-5. Update docs/tests as appropriate and run lint/tests before committing
-
-> Tip: Reuse `Add-ColorScriptProfile` when scripts need to manipulate PowerShell profiles to avoid duplicating logic.
-
-### Work with External ANSI Art
-
-```powershell
-# Convert an ANSI file to a colorscript
-node scripts/Convert-AnsiToColorScript.js .\art.ans
-
-# Split extremely tall ANSI art into multiple chunks
-node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --auto --heights=320,320
-
-# Or split a converted colorscript directly
-node scripts/Split-AnsiFile.js .\ColorScripts-Enhanced\Scripts\we-acidtrip.ps1 --input=ps1 --breaks=360,720
-
-# Uniform slices every 120 rows
-node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --every=120
-```
-
-`Split-AnsiFile.js` accepts `--breaks` for absolute cut rows, `--heights` for sequential segment sizes, `--every` for evenly spaced slices, `--auto` to detect large blank bands, and `--format=ansi` when you want raw `.ANS` slices instead of `.ps1` wrappers. Use `--input=ps1` when splitting an existing colorscript; `--strip-space-bg` only applies when the input is an ANSI file.
-
-### Verify Nerd Font Rendering
-
-```powershell
-Show-ColorScript -Name nerd-font-test
-```
-
-Expect to see icons, checkmarks, and box-drawing characters. If they appear as squares, install a Nerd Font and set it as your terminal font (see README or Quick Reference for OS-specific steps).
+See [NPM_SCRIPTS.md](NPM_SCRIPTS.md) for the complete command inventory. `npm run build` is an aggregate command that updates generated outputs; review its diff.
 
 ## Coding Standards
 
-- Follow PowerShell naming conventions (Verb-Noun)
-- Export functions explicitly in the manifest and via `Export-ModuleMember`
-- Always include comment-based help for public functions
-- Prefer `Write-Verbose`/`Write-Warning` over `Write-Host` except when rendering colorscripts
-- Respect the caching mechanism (do not bypass unless necessary)
-- Keep scripts idempotent and avoid side effects outside terminal output
+- Use approved PowerShell verbs and singular nouns unless an intentional analyzer suppression explains the public contract.
+- Prefer `-LiteralPath` for already-resolved paths.
+- Use terminating errors with stable error IDs for command failures.
+- Use `Write-Verbose`, `Write-Warning`, and the module's information helpers appropriately; reserve direct host rendering for visual output.
+- Respect `ShouldProcess` for persistent changes and test `-WhatIf`.
+- Return stable structured records for automation.
+- Use UTF-8 intentionally and preserve cross-edition behavior.
+- Keep scripts deterministic, idempotent, and scoped to their documented targets.
+- Do not weaken lint or tests to make a change pass.
 
-## Testing Strategy (2)
+## Pull Request Checklist
 
-- Unit tests validate exported commands and manifest integrity
-- Smoke tests ensure caching pipeline works end-to-end
-- GitHub Actions runs tests on Windows PowerShell 5.1, the runner-provided current PowerShell 7.x across operating systems, and the current preview channel on Linux
-- Script analyzer enforces formatting and style guidelines
+- [ ] Scope is focused and unrelated work is preserved.
+- [ ] Behavior and edge cases have tests.
+- [ ] Public help, localized structure, and output properties match the implementation.
+- [ ] Generated help/counts are current.
+- [ ] Provenance/notices are complete for imported art.
+- [ ] `npm run verify:strict`, relevant tests, and `git diff --check` pass.
+- [ ] Version/changelog changes are included only when the release workflow requires them.
 
-## Working with the Cache
+---
 
-- Cache location: query `(Get-ColorScriptConfiguration).Cache.EffectivePath` because the default is platform-specific
-- Override cache location for testing/CI with `COLOR_SCRIPTS_ENHANCED_CACHE_PATH`
-- Use `New-ColorScriptCache` to warm caches during development
-- Use `New-ColorScriptCache -Parallel -ThrottleLimit <N>` to control concurrent cache workers (`-Threads` is an alias)
-- Use `Clear-ColorScriptCache` to troubleshoot stale outputs
-- Force validation when diagnosing cache issues with `Show-ColorScript -ValidateCache` or by setting `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE=1`
-- Force ANSI informational summaries in hosts that strip escape sequences by setting `COLOR_SCRIPTS_ENHANCED_FORCE_ANSI=1`; commands still honour `-NoAnsiOutput` when you need plain text
-
-## Localization Controls
-
-- Auto mode prefers PSD1 resources when available; adjust behavior with `COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE` (`auto`, `full`, `embedded`)
-- Legacy toggle `COLOR_SCRIPTS_ENHANCED_PREFER_EMBEDDED_MESSAGES` remains supported for compatibility, but prefer the consolidated mode variable going forward
-
-## Branch Policy
-
-- `main` — stable branch, protected by CI
-- `dev` — optional integration branch for new features
-- Feature branches should include tests and documentation updates
-
-## Commit Guidelines
-
-- Conventional style preferred (`feat:`, `fix:`, `chore:`, `docs:`)
-- Include issue references where applicable
-- Keep commits focused and reversible
-
-## Helpful Links
-
-- [Publishing Guide](PUBLISHING.md)
-- [Release Checklist](RELEASE_CHECKLIST.md)
-- [Contributing Guidelines](../CONTRIBUTING.md)
-- [PowerShell Module Best Practices](https://learn.microsoft.com/en-us/powershell/gallery/concepts/publishing-guidelines?view=powershellget-3.x)
+_Last reviewed: July 21, 2026_

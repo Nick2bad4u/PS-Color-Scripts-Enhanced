@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile
 Locale: zh-CN
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Add-ColorScriptProfile
 ---
@@ -13,7 +13,7 @@ title: Add-ColorScriptProfile
 
 ## SYNOPSIS
 
-将 ColorScripts-Enhanced 集成添加到 PowerShell 配置文件中。
+在 PowerShell 配置文件中添加或更新托管 ColorScripts-Enhanced 启动块。
 
 ## SYNTAX
 
@@ -27,74 +27,137 @@ Add-ColorScriptProfile [[-ProfilePath] <string>] [[-DefaultStartupScript] <strin
 
 ## ALIASES
 
-This command has no aliases.
+此命令没有别名。
 
 ## DESCRIPTION
 
-自动将 ColorScripts-Enhanced 启动集成添加到您的 PowerShell 配置文件中。此 cmdlet 修改您的配置文件以导入 ColorScripts-Enhanced 模块，并在会话启动时可选地显示颜色脚本。
+将托管启动块添加到选定的 PowerShell 配置文件。该块导入 ColorScripts-Enhanced，并可以在导入后调用 `Show-ColorScript`。 `-SkipStartupScript` 写入仅导入块。
 
-此 cmdlet 支持所有标准 PowerShell 配置文件范围：
+当省略 `-ProfilePath` 时，该命令优先选择 `$PROFILE.CurrentUserAllHosts`，否则使用第一个定义的配置文件路径。需要时会创建配置文件和缺失的父目录。
 
-- CurrentUserCurrentHost：当前用户和当前主机的配置文件
-- CurrentUserAllHosts：当前用户跨所有主机的配置文件
-- AllUsersCurrentHost：当前主机上所有用户的配置文件（需要管理员权限）
-- AllUsersAllHosts：跨所有主机所有用户的配置文件（需要管理员权限）
+现有的托管或旧版 ColorScripts-Enhanced 块将被替换而不是重复。如果配置文件已导入托管块外部的模块，则该命令将使其保持不变，除非指定 `-Force`。 `-Force` 允许替换已识别的模块内容，同时保留不相关的配置文件内容。
 
-执行时，它添加一个代码片段，该片段：
-
-1. 导入 ColorScripts-Enhanced 模块
-2. 可选地在启动时显示随机颜色脚本
-3. 提供便捷的别名以便快速访问
-
-此集成设计为非侵入性的，可以通过直接编辑配置文件轻松移除。
+生成的启动行为是通过显式参数和持久配置解析的。 `-AutoShow` 明确启用显示，`-DefaultStartupScript` 选择命名脚本，并且可以直接提供神奇宝贝包含或通过交互式提示及其记录的覆盖来解决。除非使用 `-SkipCacheBuild`，否则该命令可以在更新配置文件后预热策略选择的缓存条目。
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 
+添加到所有主机的当前用户配置文件（默认行为）。
+
 ```powershell
 Add-ColorScriptProfile
 ```
 
-将 ColorScripts-Enhanced 集成添加到您的默认配置文件（CurrentUserCurrentHost）。
+这会将模块导入和 `Show-ColorScript` 调用添加到 `$PROFILE.CurrentUserAllHosts` 中。
 
 ### EXAMPLE 2
 
+仅添加到当前主机的当前用户配置文件，而不添加启动脚本。
+
 ```powershell
-Add-ColorScriptProfile -Scope CurrentUserAllHosts
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost -SkipStartupScript
 ```
 
-将集成添加到适用于当前用户所有 PowerShell 主机的配置文件中。
+这会将仅导入的托管块添加到当前主机配置文件中。
 
 ### EXAMPLE 3
 
+添加到具有环境变量扩展的自定义配置文件路径。
+
 ```powershell
-Add-ColorScriptProfile -Scope AllUsersCurrentHost
+Add-ColorScriptProfile -Path "$env:USERPROFILE\Documents\CustomProfile.ps1"
 ```
 
-将集成添加到当前主机上所有用户的配置文件中（需要管理员权限）。
+这针对的是标准 PowerShell 配置文件位置之外的特定配置文件。
 
 ### EXAMPLE 4
 
+强制重新添加片段，即使它已经存在。
+
 ```powershell
-Add-ColorScriptProfile -WhatIf
+Add-ColorScriptProfile -Force
 ```
 
-显示运行 cmdlet 时会发生什么，而不实际运行 cmdlet。
+这会更新已识别的 ColorScripts-Enhanced 配置文件内容，同时保留不相关的配置文件行。
 
 ### EXAMPLE 5
 
+在新计算机上进行设置 - 如果需要，创建配置文件并将 ColorScript 添加到所有主机。
+
 ```powershell
-Add-ColorScriptProfile -Confirm
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserAllHosts -Confirm:$false
+Write-Host "配置文件已配置！重新启动终端以在启动时查看颜色脚本。"
 ```
 
-在修改您的配置文件之前提示确认。
+### EXAMPLE 6
+
+添加特定的颜色脚本以用于启动显示：
+
+```powershell
+Add-ColorScriptProfile -DefaultStartupScript mandelbrot-zoom -AutoShow
+```
+
+### EXAMPLE 7
+
+验证配置文件是否已正确添加：
+
+```powershell
+Add-ColorScriptProfile
+Get-Content $PROFILE.CurrentUserAllHosts | Select-String "ColorScripts-Enhanced"
+```
+
+### EXAMPLE 8
+
+明确以当前主机或所有主机配置文件为目标：
+
+```powershell
+# 仅适用于 Windows 终端或 ConEmu
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost
+
+# 对于所有 PowerShell 主机（ISE、VSCode、控制台）
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserAllHosts
+```
+
+### EXAMPLE 9
+
+使用相对路径和波形符扩展：
+
+```powershell
+# 对主目录使用波形符扩展
+Add-ColorScriptProfile -Path "~/Documents/PowerShell/profile.ps1"
+
+# 使用当前目录相对路径
+Add-ColorScriptProfile -Path ".\my-profile.ps1"
+```
+
+### EXAMPLE 10
+
+通过添加自定义逻辑显示每日不同的颜色脚本：
+
+```powershell
+Add-ColorScriptProfile -SkipStartupScript
+# 然后手动将其添加到 $PROFILE 中：
+# $seed = (Get-Date).DayOfYear
+# Get-Random -SetSeed $seed
+# Show-ColorScript
+```
+
+### EXAMPLE 11
+
+显示启动艺术时自动跳过神奇宝贝脚本：
+
+```powershell
+Add-ColorScriptProfile -IncludePokemon
+```
+
+这会将 `Show-ColorScript -IncludePokemon` （包装在保护性的 try/catch 中）附加到配置文件中，因此启动艺术可能包括 Pokémon 脚本。
 
 ## PARAMETERS
 
 ### -AutoShow
 
-Controls whether the managed profile block displays a colorscript after importing the module.
+控制托管配置文件块在导入模块后是否显示颜色脚本。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -137,7 +200,7 @@ HelpMessage: ''
 
 ### -DefaultStartupScript
 
-Specifies the colorscript name written to the managed profile block for startup display.
+指定写入托管配置文件块以供启动显示的颜色脚本名称。
 
 ```yaml
 Type: System.String
@@ -158,7 +221,7 @@ HelpMessage: ''
 
 ### -Force
 
-Updates the managed profile block without removing unrelated profile content.
+更新配置文件中识别出的 ColorScripts-Enhanced 内容，同时保留不相关的行。此参数不会故意追加重复的托管块。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -179,7 +242,7 @@ HelpMessage: ''
 
 ### -h
 
-显示此命令的详细帮助，而不执行操作。
+显示此 cmdlet 的帮助信息。相当于使用 `Get-Help Add-ColorScriptProfile`。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -201,7 +264,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Allows Pokemon-themed scripts when the managed profile block displays a random colorscript.
+将 `-IncludePokemon` 添加到生成的 `Show-ColorScript` 调用中，以便在启动时包含 Pokémon 颜色脚本（如果存在）。使用 `-SkipStartupScript` 时被忽略。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -222,7 +285,7 @@ HelpMessage: ''
 
 ### -PokemonPromptResponse
 
-预先回答宝可梦提示（Y/Yes 或 N/No）。同时尊重环境变量
+预先回答神奇宝贝包含提示。接受 Y/是或 N/否。还尊重环境变量
 `COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` 和全局变量
 `$Global:ColorScriptsEnhancedPokemonPromptResponse`。
 
@@ -245,7 +308,7 @@ HelpMessage: ''
 
 ### -ProfilePath
 
-Specifies the PowerShell profile file to update. The Path alias is also accepted.
+指定要更新的 PowerShell 配置文件。路径别名也被接受。
 
 ```yaml
 Type: System.String
@@ -267,8 +330,11 @@ HelpMessage: ''
 
 ### -SkipCacheBuild
 
-在更新配置文件时跳过缓存预热。也尊重环境变量 `COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD` 和全局变量
-`$Global:ColorScriptsEnhancedSkipCacheBuild`。如果配置文件路径位于临时目录下，会自动跳过。
+抑制可选的缓存预热。仅当解决 `ProfileAutoShow` 时才会尝试预热
+设置已启用，缓存构建未以其他方式禁用，目标配置文件位于
+系统临时目录，且该操作经过`ShouldProcess`批准。该命令还尊重
+环境变量 `COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD` 和全局变量
+`$Global:ColorScriptsEnhancedSkipCacheBuild`。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -289,7 +355,7 @@ HelpMessage: ''
 
 ### -SkipPokemonPrompt
 
-跳过启动时是否包含宝可梦脚本的提示。
+跳过启动时询问是否包含 Pokémon 颜色脚本的交互式提示。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -310,7 +376,7 @@ HelpMessage: ''
 
 ### -SkipStartupScript
 
-Adds the module import but omits the startup Show-ColorScript invocation.
+跳过将 `Show-ColorScript` 添加到配置文件。仅附加 `Import-Module ColorScripts-Enhanced` 行。如果您想手动控制颜色脚本的显示时间，请使用此选项。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -331,7 +397,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-显示运行 cmdlet 时会发生什么。cmdlet 不会运行。
+显示 cmdlet 运行时会发生什么情况。该 cmdlet 未运行。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -353,30 +419,42 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+此 cmdlet 支持以下常用参数：
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
-[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+有关详细信息，请参阅
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216)。
 
 ## INPUTS
 
 ### None
 
-此 cmdlet 不接受来自管道的输入。
+此 cmdlet 不接受管道输入。
 
 ## OUTPUTS
 
-### None (2)
+### System.Object
 
-此 cmdlet 不向管道返回输出。
+返回具有以下属性的自定义对象：
+
+- **Path**（字符串）：所选配置文件的完整路径
+- **Changed** (bool)：配置文件是否实际被修改
+- **Message**（字符串）：描述操作结果的状态消息
+- **IncludePokemon** (bool)：启动 Pokémon 包含选项
+- **CacheBuilt** (bool): 可选的缓存预热是否完成
 
 ## NOTES
 
-**Author:** Nick
-**Module:** ColorScripts-Enhanced
-**Requires:** PowerShell 5.1 或更高版本
+**作者：** 尼克
+
+**模块：** ColorScripts-Enhanced
+
+**需要：** PowerShell 5.1 或更高版本
+
+如果配置文件不存在，则会自动创建，包括必要的父目录。该命令管理用户提供的文件路径；它不公开单独的范围选择器。
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)
+- [在线版本](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)
 

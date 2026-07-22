@@ -57,6 +57,20 @@ Describe 'Static colorscript output extraction' {
             $result.Available | Should -BeTrue
             $result.Content | Should -BeExactly ([string][char]65535 + [Environment]::NewLine)
         }
+
+        It 'preserves Write-Host -NoNewline output without introducing a synthetic line break' {
+            $scriptPath = Join-Path -Path (Resolve-Path -LiteralPath 'TestDrive:\').ProviderPath -ChildPath 'no-newline.ps1'
+            $source = 'Write-Host ''exact payload'' -NoNewline'
+            [System.IO.File]::WriteAllText($scriptPath, $source, [System.Text.UTF8Encoding]::new($false))
+
+            $result = InModuleScope ColorScripts-Enhanced -Parameters @{ path = $scriptPath } {
+                param($path)
+                Get-StaticColorScriptOutput -ScriptPath $path
+            }
+
+            $result.Available | Should -BeTrue
+            $result.Content | Should -BeExactly 'exact payload'
+        }
     }
 
     Context 'Fail-closed boundary' {
@@ -198,8 +212,8 @@ Describe 'Static colorscript output extraction' {
         }
 
         It 'locks the corpus to static output plus the explicit dynamic policy' {
-            $script:BundledCorpusAudit.Total | Should -Be 3156
-            $script:BundledCorpusAudit.Available | Should -Be 3139
+            $script:BundledCorpusAudit.Total | Should -Be 3186
+            $script:BundledCorpusAudit.Available | Should -Be 3169
             $script:BundledCorpusAudit.Unavailable | Should -Be 17
             Compare-Object $script:BundledCorpusAudit.DynamicPolicyNames $script:BundledCorpusAudit.UnavailableNames | Should -BeNullOrEmpty
         }

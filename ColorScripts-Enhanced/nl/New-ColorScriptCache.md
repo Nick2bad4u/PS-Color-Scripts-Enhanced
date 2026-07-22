@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache
 Locale: nl
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: New-ColorScriptCache
 ---
@@ -13,7 +13,7 @@ title: New-ColorScriptCache
 
 ## SYNOPSIS
 
-Vooraf bouwt cache op voor optimalisatie van colorscript prestaties.
+Bouw colorscript-cachebestanden vooraf op of vernieuw ze voor snellere weergave.
 
 ## SYNTAX
 
@@ -45,83 +45,17 @@ New-ColorScriptCache [-All] [-Force] [-PassThru] [-Category <string[]>] [-Tag <s
 
 ## DESCRIPTION
 
-Genereert vooraf gecachte uitvoer voor rekenintensieve colorscripts. Alleen renderers in `CachePolicy.psd1` worden uitgevoerd en opgeslagen. Statische of niet-vermelde scripts worden overgeslagen met status `SkippedNotRequired`; hun verouderde cachebestanden worden verwijderd.
+`New-ColorScriptCache` rendert door het beleid geselecteerde computationele colorscripts en slaat de uitvoer ervan op als UTF-8 zonder BOM. Geschikte gebundelde renderers gebruiken het geïsoleerde uitvoeringspad van de module; parallelle werkers zijn beschikbaar op PowerShell 7+. Deterministische gebundelde scripts worden in-process weergegeven en creëren nooit cachebestanden. De aliassen zijn `Update-ColorScriptCache` en `Build-ColorScriptCache`.
 
-Het cachingsysteem bewaart alleen uitvoer voor renderers die in `CachePolicy.psd1` zijn geselecteerd. De cache wordt automatisch ongeldig wanneer bronscripts wijzigen. `-Force` bouwt alleen geschikte cache-items opnieuw en negeert het beleid nooit. Er wordt geen vaste prestatiefactor gegarandeerd.
+U kunt scripts targeten op naam (jokertekens ondersteund), categorie of tag. Als er geen parameters zijn opgegeven, worden de namen in `CachePolicy.psd1` rechtstreeks door de cmdlet omgezet in plaats van dat de volledige verzameling wordt opgesomd. Exacte gebundelde namen gebruiken ook een directe bestandszoekopdracht. Wildcard-, categorie- en tagverzoeken worden alleen opgesomd als hun overeenkomende semantiek dit vereist. Expliciete niet-vermelde scripts worden geretourneerd met de status `SkippedNotRequired` wanneer `-PassThru` wordt gebruikt, en alle verouderde cachebestanden voor die scripts worden verwijderd.
 
+Standaard geeft de cmdlet de voortgang weer, plus een beknopte samenvatting van de cachingbewerking en de effectieve cachemap. Gebruik `-PassThru` om gedetailleerde resultaatobjecten voor elk script te retourneren, die u programmatisch kunt inspecteren op status, standaarduitvoer en foutstromen. Combineer `-Quiet` om de voortgang en de samenvatting volledig te onderdrukken, of `-NoAnsiOutput` om samenvattingen in platte tekst uit te zenden zonder ANSI-kleurcodes voor omgevingen die deze niet ondersteunen.
 
-### -Quiet
+De cmdlet slaat op intelligente wijze scripts over waarvan de cachebestanden al up-to-date zijn, tenzij u de parameter `-Force` opgeeft. Herhaalde cacheopbouwbewerkingen valideren het kleine begeleidende metadatabestand `<name>.cacheinfo` zonder de weergegeven `<name>.cache`-lading te laden. `-Force` herbouwt in aanmerking komende cachegegevens, maar overschrijft nooit het cachebeleid.
 
-Onderdrukt het samenvattende bericht na afloop.
+Beide bestanden bevinden zich in `(Get-ColorScriptConfiguration).Cache.EffectivePath`. Het `.cache`-bestand bevat gerenderde terminaluitvoer; `.cacheinfo` bevat alleen validatiemetagegevens. Een begeleidend metadatabestand zonder lading is geen bruikbaar cache-item en wordt bij de volgende cacheopbouw gerepareerd. `Clear-ColorScriptCache -All` verwijdert volledige vermeldingen en verweesde begeleidende metadatabestanden.
 
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-
-### -NoAnsiOutput
-
-Schakelt ANSI-kleuren in de samenvatting uit en geeft vlakke tekst.
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
-SupportsWildcards: false
-Aliases:
- - NoColor
-ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-### -IncludePokemon
-
-Voegt alle Pokémon-scripts (normale en shiny varianten) toe aan de cacheopbouw. Standaard worden Pokémon-scripts overgeslagen; gebruik `-IncludePokemon` om ze op te nemen. Opmerking: deze parameter vervangt de oudere `-ExcludePokemon` — de semantiek is tijdens een refactor omgekeerd (nu opt-in).
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-DefaultValue: False
-SupportsWildcards: false
-Aliases: []
-ParameterSets:
- - Name: (All)
-   Position: Named
-   IsRequired: false
-   ValueFromPipeline: false
-   ValueFromPipelineByPropertyName: false
-   ValueFromRemainingArguments: false
-DontShow: false
-AcceptedValues: []
-HelpMessage: ""
-```
-Gebruik deze cmdlet om:
-
-- Cache voor te bereiden voor veelgebruikte scripts
-- Consistente prestaties over sessies te garanderen
-- Cache voor te verwarmen na module-updates
-- Opstartprestaties te optimaliseren
-
-De cmdlet ondersteunt selectieve caching op naam, categorie of tags, waardoor gerichte cachevoorbereiding mogelijk is.
-
-Standaard verschijnt een korte samenvatting. Gebruik `-PassThru` voor gedetailleerde objecten, `-Quiet` om de samenvatting te verbergen of `-NoAnsiOutput` voor tekst zonder ANSI-kleurcodes.
+Voor snellere reconstructies op multi-coresystemen gebruikt u de `-Parallel`-switch samen met de parameter `-ThrottleLimit` (of `-Threads`) om het aantal werknemers te controleren. De cmdlet keert automatisch terug naar sequentiële uitvoering wanneer er geen parallelle runspaces kunnen worden gemaakt op de huidige host.
 
 ## EXAMPLES
 
@@ -131,46 +65,137 @@ Standaard verschijnt een korte samenvatting. Gebruik `-PassThru` voor gedetaille
 New-ColorScriptCache
 ```
 
-Evalueert alle beschikbare colorscripts en bouwt alleen cache op voor renderers die door `CachePolicy.psd1` zijn geselecteerd.
+Alleen de door het beleid geselecteerde computationele renderers oplossen en opwarmen zonder elk script op te sommen dat bij de module wordt geleverd. Dit is het standaardgedrag als er geen parameters zijn opgegeven.
 
 ### EXAMPLE 2
 
 ```powershell
-New-ColorScriptCache -Name "Galaxy", "rose-curves"
+New-ColorScriptCache -Name Galaxy, 'rose-*'
 ```
 
-Cachet specifieke colorscripts op naam.
+Cache een mix van exacte overeenkomsten en jokertekens. Er worden alleen wedstrijden uit `CachePolicy.psd1` gebouwd; andere wedstrijden rapporteren `SkippedNotRequired` met `-PassThru`.
 
 ### EXAMPLE 3
 
 ```powershell
-New-ColorScriptCache -Category Nature
+New-ColorScriptCache -Name Galaxy -Force -PassThru | Format-List
 ```
 
-Evalueert alle natuur-georiënteerde colorscripts en cachet alleen geschikte renderers.
+Forceer een herbouw van de in aanmerking komende 'Galaxy'-cache, zelfs als deze up-to-date is, en onderzoek het gedetailleerde resultaatobject.
 
 ### EXAMPLE 4
 
 ```powershell
-New-ColorScriptCache -Tag animated
+New-ColorScriptCache -Category 'Mathematical' -PassThru
 ```
 
-Evalueert alle colorscripts met de tag "animated" en cachet alleen geschikte renderers.
+Evalueer scripts in de categorie `Mathematical`, cache geschikte renderers en retourneer gedetailleerde resultaten voor elke overeenkomst.
 
 ### EXAMPLE 5
 
 ```powershell
-# Cache scripts for startup optimization
-New-ColorScriptCache -Category Geometric -Tag minimal
+New-ColorScriptCache -Tag 'geometric', 'colorful' -Force
 ```
 
-Bereidt cache voor lichtgewicht geometrische scripts ideaal voor snelle opstartweergaven.
+Herbouw in aanmerking komende caches voor scripts die zijn getagd met 'geometric' of 'colorful', waardoor regeneratie wordt afgedwongen, zelfs als de caches actueel zijn.
+
+### EXAMPLE 6
+
+```powershell
+Get-ColorScriptList -Category Mathematical -AsObject | New-ColorScriptCache -PassThru
+```
+
+Pijplijnvoorbeeld: evalueer scripts in de categorie `Mathematical`, cache alle door beleid geselecteerde renderers en retourneer een resultaat voor elke overeenkomst.
+
+### EXAMPLE 7
+
+```powershell
+# Controleer cachestatistieken na het bouwen
+$cachePath = (Get-ColorScriptConfiguration).Cache.EffectivePath
+$before = @(Get-ChildItem $cachePath -Filter "*.cache" -ErrorAction SilentlyContinue).Count
+New-ColorScriptCache
+$after = @(Get-ChildItem $cachePath -Filter "*.cache").Count
+Write-Host "Scripts in cache: $before -> $after"
+```
+
+Meet de cachegroei door door beleid geselecteerde cachebestanden voor en na de bewerking te tellen.
+
+### EXAMPLE 8
+
+```powershell
+# Bouw cache voor veelgebruikte computationele renderers
+$frequentScripts = @('Galaxy', 'rose-curves', 'wave-interference')
+New-ColorScriptCache -Name $frequentScripts -PassThru | Format-Table Name, Status, ExitCode
+```
+
+Bouwt caches voor de vermelde scripts die in aanmerking komen onder `CachePolicy.psd1`; niet-vermelde namen worden overgeslagen.
+
+### EXAMPLE 9
+
+```powershell
+# Gebruik de ingebouwde beleidsgerichte voortgangsweergave
+New-ColorScriptCache -All
+```
+
+Toont de ingebouwde voortgang voor door beleid geselecteerde renderers zonder alle beschikbare scripts handmatig te herhalen.
+
+### EXAMPLE 10
+
+```powershell
+# Optioneel kunt u ontbrekende of verouderde beleidsvermeldingen uit een PowerShell-profiel primen.
+Import-Module ColorScripts-Enhanced
+New-ColorScriptCache -Quiet
+```
+
+Controleert door het beleid geselecteerde vermeldingen wanneer het profiel wordt geladen en bouwt alleen ontbrekende of verouderde vermeldingen op. Sla deze profielstap over als opstartcachewerk niet gewenst is.
+
+### EXAMPLE 11
+
+```powershell
+# Bouw elk door beleid geselecteerd item opnieuw op voor implementatie
+New-ColorScriptCache -All -Force -PassThru |
+    Select-Object Name, Status |
+    Export-Csv "./cache-deployment.csv"
+```
+
+Bouwt elk door beleid geselecteerd cache-item opnieuw op en exporteert de statussen naar een implementatiemanifest.
+
+### EXAMPLE 12
+
+```powershell
+# Zoek fouten bij het bouwen van de cache
+New-ColorScriptCache -Name "Galaxy" -Force -PassThru |
+    Where-Object Status -eq 'Failed' |
+    Select-Object Name, StdErr
+```
+
+Identificeert caching-fouten zonder het overslaan van beleid als fouten te behandelen.
+
+### EXAMPLE 13
+
+```powershell
+# Tel door het beleid geselecteerde vermeldingen die door deze uitvoering zijn bijgewerkt
+New-ColorScriptCache -All -PassThru |
+    Where-Object Status -eq 'Updated' |
+    Measure-Object |
+    Select-Object @{N='ScriptsCached'; E={$_.Count}}
+```
+
+Controleert elk door het beleid geselecteerd item en laat zien hoeveel cachepayloads er tijdens deze run zijn bijgewerkt.
+
+### EXAMPLE 14
+
+```powershell
+New-ColorScriptCache -All -Parallel -Threads 8
+```
+
+Bouw alle door het beleid geselecteerde caches met behulp van acht werkthreads. De cmdlet valt automatisch terug naar sequentiële uitvoering wanneer parallelle taken niet beschikbaar zijn op de huidige host.
 
 ## PARAMETERS
 
 ### -All
 
-Processes every renderer selected by CachePolicy.psd1 without enumerating the full static script inventory.
+Los elke cachebeleidsinvoer rechtstreeks op. Alleen door beleid geselecteerde scripts worden verwerkt; de volledige colorscript-inventaris wordt niet opgesomd.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -191,7 +216,7 @@ HelpMessage: ''
 
 ### -Category
 
-Filter scripts om te cachen op een of meer categorieën.
+Filtert geëvalueerde scripts op metadatacategorie (niet hoofdlettergevoelig). Meerdere waarden worden behandeld als een OF-filter. Alleen door `CachePolicy.psd1` toegestane overeenkomsten worden in de cache opgeslagen; andere wedstrijden rapporteren `SkippedNotRequired` met `-PassThru`.
 
 ```yaml
 Type: System.String[]
@@ -218,7 +243,7 @@ HelpMessage: ''
 
 ### -Confirm
 
-Vraagt om bevestiging voordat de cmdlet wordt uitgevoerd.
+Vraagt u om bevestiging voordat u de cmdlet uitvoert. Handig bij het cachen van een groot aantal scripts of bij gebruik van `-Force` om onbedoelde cacheregeneratie te voorkomen.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -240,7 +265,7 @@ HelpMessage: ''
 
 ### -Force
 
-Forceert een rebuild van geschikte cache-items, zelfs wanneer bestaande bestanden actueel zijn, zonder `CachePolicy.psd1` te negeren.
+Herbouw in aanmerking komende cache-items, zelfs als hun `.cacheinfo`-validatiemetagegevens aangeven dat ze actueel zijn. Dit heeft geen voorrang op `CachePolicy.psd1`.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -267,7 +292,7 @@ HelpMessage: ''
 
 ### -h
 
-Toont gedetailleerde hulp voor deze opdracht zonder de bewerking uit te voeren.
+Geeft gedetailleerde hulp weer voor deze opdracht zonder de bewerking uit te voeren.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -289,7 +314,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Voegt alle Pokémon-scripts (normale en shiny varianten) toe aan de cacheopbouw. Standaard worden Pokémon-scripts overgeslagen; gebruik `-IncludePokemon` om ze op te nemen. Opmerking: deze parameter vervangt de oudere `-ExcludePokemon` — de semantiek is tijdens een refactor omgekeerd (nu opt-in).
+Verbreedt de in aanmerking komende selectie om Pokémon-scripts te evalueren. Het heeft geen voorrang op `CachePolicy.psd1`; alleen Pokémon-namen uit `CacheablePokemonScripts` kunnen in de cache worden opgeslagen, en die lijst is momenteel leeg.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -316,7 +341,7 @@ HelpMessage: ''
 
 ### -Name
 
-Specificeer colorscript namen om te cachen. Ondersteunt wildcards (\* en ?).
+Een of meer colorscript-namen die moeten worden geëvalueerd voor caching. Ondersteunt jokertekenpatronen (bijvoorbeeld `aurora-*` en `*-wave`). Overeenkomende scripts worden alleen in de cache opgeslagen als ze worden vermeld in `CachePolicy.psd1`. Wanneer deze parameter en alle filters worden weggelaten, worden alleen beleidsitems omgezet en geëvalueerd.
 
 ```yaml
 Type: System.String[]
@@ -337,7 +362,7 @@ HelpMessage: ''
 
 ### -NoAnsiOutput
 
-Schakelt ANSI-kleuren in de samenvatting uit en geeft vlakke tekst.
+Schakel ANSI-kleurreeksen uit in informatieve uitvoer. Dit is handig in omgevingen waarin ANSI-escape-codes niet worden weergegeven (zoals sommige CI/CD-logboeken), terwijl de gekleurde uitvoer desgewenst toch behouden blijft.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -365,7 +390,7 @@ HelpMessage: ''
 
 ### -Parallel
 
-Builds eligible cache entries concurrently. Unsupported hosts fall back to sequential execution.
+Schakel het bouwen van caches met meerdere threads in. Indien opgegeven, voert de cmdlet cachetaken uit in een runspace-pool, voor een snellere voltooiing op geschikte systemen. Gebruik in combinatie met `-ThrottleLimit` (of de alias `-Threads`) om het aantal gelijktijdige werknemers te beheren. Als multi-threading niet kan worden geïnitialiseerd, valt de cmdlet automatisch terug naar sequentiële uitvoering.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -392,7 +417,7 @@ HelpMessage: ''
 
 ### -PassThru
 
-Retourneert gedetailleerde resultaatobjecten voor elk script. Zonder deze schakelaar wordt alleen een samenvatting weergegeven.
+Retourneer gedetailleerde resultaatobjecten voor elke cachebewerking. Standaard wordt alleen een samenvatting weergegeven. De resultaatobjecten bevatten eigenschappen zoals Name, Status, CacheFile, ExitCode, StdOut en StdErr, waardoor programmatische inspectie van het cachingproces mogelijk is.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -419,7 +444,7 @@ HelpMessage: ''
 
 ### -Quiet
 
-Onderdrukt het samenvattende bericht na afloop.
+Onderdruk de voortgang per script en de uitvoer van informatieve samenvattingen. Gebruik deze schakelaar wanneer u alleen gestructureerde uitvoer wilt (via `-PassThru`) of wanneer automatiseringsscenario's informatieve berichten moeten dempen terwijl er nog steeds waarschuwingen en fouten naar boven komen.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -446,7 +471,7 @@ HelpMessage: ''
 
 ### -Tag
 
-Filter scripts om te cachen op een of meer tags.
+Filtert geëvalueerde scripts op metadatatag (niet hoofdlettergevoelig). Meerdere waarden worden behandeld als een OF-filter. Alleen door `CachePolicy.psd1` toegestane overeenkomsten worden in de cache opgeslagen; andere wedstrijden rapporteren `SkippedNotRequired` met `-PassThru`.
 
 ```yaml
 Type: System.String[]
@@ -473,7 +498,7 @@ HelpMessage: ''
 
 ### -ThrottleLimit
 
-Sets the maximum number of concurrent cache workers. Threads is an alias for this parameter.
+Specificeert het maximale aantal gelijktijdige cachewerknemers wanneer `-Parallel` wordt aangevraagd. Accepteert waarden van 1 tot 256. De standaardwaarde (indien weggelaten) is het aantal logische processors op de huidige machine. Voor het gemak wordt de alias `-Threads` verstrekt. Waarden kleiner dan of gelijk aan één keren automatisch terug naar sequentiële uitvoering.
 
 ```yaml
 Type: System.Int32
@@ -501,7 +526,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Toont wat er zou gebeuren als de cmdlet draait. De cmdlet wordt niet uitgevoerd.
+Laat zien wat er zou gebeuren als de cmdlet wordt uitgevoerd zonder de cachebewerkingen daadwerkelijk uit te voeren. Handig om een ​​voorbeeld te bekijken van welke scripts in de cache worden opgeslagen voordat u de bewerking uitvoert.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -523,30 +548,53 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Deze cmdlet ondersteunt de algemene parameters:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Zie voor meer informatie
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
-### None
+### System.String
 
-Deze cmdlet accepteert geen invoer van de pipeline.
+U kunt scriptnamen naar deze cmdlet doorsturen. Elke string wordt behandeld als een potentiële scriptnaam en ondersteunt jokertekens.
+
+### System.String[]
+
+U kunt een array met scriptnamen of metagegevensrecords met de eigenschap `Name` naar deze cmdlet doorsturen voor batchverwerking.
 
 ## OUTPUTS
 
 ### System.Object
 
-Retourneert cache bouwresultaten met succes/mislukking status voor elk script.
+Wanneer `-PassThru` is opgegeven, wordt voor elk verwerkt script een aangepast object geretourneerd met de volgende eigenschappen:
+
+- **Name**: de colorscript-naam
+- **ScriptPath**: volledig pad naar de bron colorscript
+- **CacheFile**: volledig pad naar het gegenereerde cachebestand
+- **Status**: `Updated`, `SkippedUpToDate`, `SkippedNotRequired`, `SkippedByUser` of `Failed`
+- **Message**: gelokaliseerd statusdetail
+- **CacheExists**: of er na de bewerking een uitvoercache bestaat
+- **ExitCode**: de afsluitcode van de scriptuitvoering (0 geeft succes aan)
+- **StdOut**: standaarduitvoer vastgelegd tijdens scriptuitvoering
+- **StdErr**: standaardfoutuitvoer vastgelegd tijdens scriptuitvoering
+
+Schrijft zonder `-PassThru` een beknopte informatieve samenvatting met verwerkte, bijgewerkte, overgeslagen en mislukte tellingen plus de effectieve cachemap.
 
 ## NOTES
 
 **Auteur:** Nick
 **Module:** ColorScripts-Enhanced
-**Vereist:** PowerShell 5.1 of later
+
+**Aliassen:** `Update-ColorScriptCache` en `Build-ColorScriptCache`.
+
+Cachebestanden worden opgeslagen onder `(Get-ColorScriptConfiguration).Cache.EffectivePath`. Bron- en beleidshandtekeningen in begeleidende metadata worden gebruikt om te bepalen of een item actueel blijft.
+
+De cmdlet slaat alleen renderers op in de cache die uitvoering vereisen en die zijn toegestaan door het cachebeleid. Expliciete statische of niet-vermelde scripts worden gerapporteerd als `SkippedNotRequired` en verouderde vermeldingen worden verwijderd.
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
+- [Onlineversie](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScriptCache)
 

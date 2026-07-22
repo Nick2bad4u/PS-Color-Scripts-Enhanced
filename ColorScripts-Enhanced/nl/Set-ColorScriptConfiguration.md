@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration
 Locale: nl
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Set-ColorScriptConfiguration
 ---
@@ -13,7 +13,7 @@ title: Set-ColorScriptConfiguration
 
 ## SYNOPSIS
 
-Persist changes to the ColorScripts-Enhanced cache and startup configuration.
+Houd wijzigingen in de ColorScripts-Enhanced-cache en opstartconfiguratie vol.
 
 ## SYNTAX
 
@@ -26,11 +26,11 @@ Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <b
 
 ## ALIASES
 
-This command has no aliases.
+Deze opdracht heeft geen aliassen.
 
 ## DESCRIPTION
 
-`Set-ColorScriptConfiguration` provides a persistent way to customize the behavior and storage location of the ColorScripts-Enhanced module. This cmdlet updates the module's configuration file, allowing you to control various aspects of script rendering and storage.
+`Set-ColorScriptConfiguration` biedt een permanente manier om het gedrag en de opslaglocatie van de ColorScripts-Enhanced-module aan te passen. Met deze cmdlet wordt het configuratiebestand van de module bijgewerkt, zodat u verschillende aspecten van scriptweergave en -opslag kunt beheren.
 
 ## EXAMPLES
 
@@ -40,7 +40,7 @@ This command has no aliases.
 Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -AutoShowOnImport:$true -ProfileAutoShow:$false -DefaultScript 'bars'
 ```
 
-Moves the cache to `D:/Temp/ColorScriptsCache`, enables automatic display on module import, disables profile auto-show, and sets `bars` as the default script.
+Verplaatst de cache naar `D:/Temp/ColorScriptsCache`, schakelt automatische weergave in bij het importeren van modules, schakelt automatisch weergeven van profielen uit en stelt `bars` in als het standaardscript.
 
 ### EXAMPLE 2
 
@@ -48,7 +48,7 @@ Moves the cache to `D:/Temp/ColorScriptsCache`, enables automatic display on mod
 Set-ColorScriptConfiguration -DefaultScript '' -PassThru
 ```
 
-Clears the default script and returns the resulting configuration object, allowing you to verify that the setting was removed.
+Wist het standaardscript en retourneert het resulterende configuratieobject, zodat u kunt verifiëren dat de instelling is verwijderd.
 
 ### EXAMPLE 3
 
@@ -56,7 +56,7 @@ Clears the default script and returns the resulting configuration object, allowi
 Set-ColorScriptConfiguration -CachePath "$env:TEMP\ColorScripts" -PassThru | Format-List
 ```
 
-Relocates the cache to the Windows TEMP directory and displays the full updated configuration in list format. Useful for temporary testing scenarios.
+Verplaatst de cache naar de Windows TEMP-map en geeft de volledige bijgewerkte configuratie weer in lijstindeling. Handig voor tijdelijke testscenario's.
 
 ### EXAMPLE 4
 
@@ -64,7 +64,7 @@ Relocates the cache to the Windows TEMP directory and displays the full updated 
 Set-ColorScriptConfiguration -AutoShowOnImport:$false
 ```
 
-Disables automatic colorscript rendering when the module loads. Useful if you prefer manual control over when scripts are displayed.
+Schakelt de automatische weergave van colorscript uit wanneer de module wordt geladen. Handig als u liever handmatige controle heeft dan wanneer scripts worden weergegeven.
 
 ### EXAMPLE 5
 
@@ -72,13 +72,13 @@ Disables automatic colorscript rendering when the module loads. Useful if you pr
 Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultScript 'crunch'
 ```
 
-Sets a Linux/macOS-style cache path using tilde expansion and configures 'crunch' as the default script for all operations.
+Stelt een cachepad in Linux/macOS-stijl in met behulp van tilde-uitbreiding en configureert 'crunch' als het standaardscript voor alle bewerkingen.
 
 ## PARAMETERS
 
 ### -AutoShowOnImport
 
-Controls whether importing the module automatically displays a colorscript.
+Schakel de automatische weergave van een colorscript in of uit wanneer de module wordt geïmporteerd. Indien ingeschakeld (`$true`), wordt er onmiddellijk na het importeren van de module een colorscript weergegeven, waardoor direct visuele feedback wordt gegeven. Indien uitgeschakeld (`$false`), worden scripts alleen weergegeven als ze expliciet worden aangeroepen. Indien niet gespecificeerd, blijft de bestaande instelling ongewijzigd.
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
@@ -99,7 +99,11 @@ HelpMessage: ''
 
 ### -CachePath
 
-Specificeert het directory pad waar colorscript cache bestanden worden opgeslagen.
+Specificeert de map waar de weergegeven `.cache`-payloads en begeleidende `.cacheinfo`-validatiemetadatabestanden worden opgeslagen. Broncolorscripts en modulemetadata blijven in de geïnstalleerde module. Ondersteunt absolute paden, relatieve paden (opgelost vanaf de huidige locatie), omgevingsvariabelen (bijvoorbeeld `$env:USERPROFILE`) en tilde-uitbreiding (`~`).
+
+Als de opgegeven map niet bestaat, wordt deze automatisch aangemaakt met de juiste machtigingen. Geef een lege string (`''`) op om het aangepaste pad te wissen en terug te keren naar de platformspecifieke standaardlocatie. Als u dit niet opgeeft, blijft de bestaande cachepadinstelling behouden.
+
+**Note**: Als u het cachepad wijzigt, worden bestaande bestanden in de cache niet automatisch gemigreerd. Mogelijk moet u bestanden handmatig kopiëren of toestaan ​​dat ze opnieuw worden gegenereerd.
 
 ```yaml
 Type: System.String
@@ -120,7 +124,7 @@ HelpMessage: ''
 
 ### -Confirm
 
-Vraagt om bevestiging voordat de cmdlet wordt uitgevoerd.
+Vraagt u om bevestiging voordat u de cmdlet uitvoert.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -142,7 +146,11 @@ HelpMessage: ''
 
 ### -DefaultScript
 
-Specifies the default colorscript used by startup and profile integration.
+Stelt de standaard colorscript-naam in of wist deze die wordt gebruikt door profielhelpers, functies voor automatisch weergeven en wanneer er geen script expliciet is opgegeven in opdrachten. Dit moet overeenkomen met de basisnaam van een scriptbestand zonder extensie (bijvoorbeeld `'bars'`, niet `'bars.ps1'`).
+
+Geef een lege string (`''`) op om de opgeslagen standaard te verwijderen en terug te keren naar het standaardgedrag op moduleniveau (doorgaans willekeurige selectie). Wanneer deze parameter wordt weggelaten, blijft de huidige standaardscriptinstelling ongewijzigd.
+
+Om succesvol te kunnen worden gebruikt, moet het opgegeven script in de scriptdirectory van de module voorkomen.
 
 ```yaml
 Type: System.String
@@ -163,7 +171,7 @@ HelpMessage: ''
 
 ### -h
 
-Toont gedetailleerde hulp voor deze opdracht zonder de bewerking uit te voeren.
+Geeft gedetailleerde hulp weer voor deze opdracht zonder de bewerking uit te voeren.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -185,7 +193,9 @@ HelpMessage: ''
 
 ### -PassThru
 
-Returns the effective configuration after the requested changes succeed.
+Retourneert het bijgewerkte configuratieobject na het aanbrengen van wijzigingen. Zonder deze schakeloptie werkt de cmdlet op de achtergrond (geen uitvoer). Het geretourneerde object heeft dezelfde structuur als `Get-ColorScriptConfiguration` en kan worden geïnspecteerd, opgeslagen of doorgesluisd naar andere cmdlets voor verdere verwerking.
+
+Handig voor verificatie, logboekregistratie of het koppelen van configuratieopdrachten.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -206,7 +216,9 @@ HelpMessage: ''
 
 ### -ProfileAutoShow
 
-Controls whether profile integration displays a colorscript after importing the module.
+Bepaalt of profielfragmenten die door `Add-ColorScriptProfile` worden gegenereerd, een automatische `Show-ColorScript`-aanroep bevatten. Wanneer `$true` wordt weergegeven, geeft de profielcode bij elke shell-start een colorscript weer. Wanneer `$false` wordt geladen, laadt het profiel de module, maar worden de scripts niet automatisch weergegeven.
+
+Deze instelling heeft alleen invloed op de nieuw gegenereerde profielcode; bestaande profielwijzigingen worden niet automatisch bijgewerkt. Als u deze parameter weglaat, blijft de huidige instelling ongewijzigd.
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
@@ -227,7 +239,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Toont wat er zou gebeuren als de cmdlet wordt uitgevoerd. De cmdlet wordt niet uitgevoerd.
+Voert de opdracht uit in een modus die alleen rapporteert wat er zou gebeuren zonder de acties uit te voeren.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -249,32 +261,34 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Deze cmdlet ondersteunt de algemene parameters:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Zie voor meer informatie
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
 
-This cmdlet does not accept pipeline input.
+Deze cmdlet accepteert geen pijplijninvoer.
 
 ## OUTPUTS
 
 ### None (2)
 
-By default, this cmdlet produces no output.
+Standaard produceert deze cmdlet geen uitvoer.
 
 ### System.Collections.Hashtable
 
-When `-PassThru` is specified, returns a hashtable containing the complete updated configuration. The structure matches the output of `Get-ColorScriptConfiguration`, with keys such as `CachePath`, `AutoShowOnImport`, `ProfileAutoShow`, and `DefaultScript`.
+Wanneer `-PassThru` is opgegeven, wordt de geneste hashtabel geretourneerd die is geproduceerd door `Get-ColorScriptConfiguration`: cachewaarden bevinden zich onder `Cache` en opstartwaarden bevinden zich onder `Startup`.
 
 ## NOTES
 
-Configuration is persisted only after validation and confirmation succeed. `-WhatIf` performs no filesystem writes. Use `Get-ColorScriptConfiguration` to inspect the effective values and storage paths after the operation.
+De configuratie blijft alleen behouden nadat de validatie en bevestiging zijn geslaagd. `-WhatIf` voert geen bestandssysteemschrijfbewerkingen uit. Gebruik `Get-ColorScriptConfiguration` om na de bewerking de effectieve waarden en opslagpaden te inspecteren.
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [Onlineversie](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
 

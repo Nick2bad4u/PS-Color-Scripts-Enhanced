@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration
 Locale: pt
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Reset-ColorScriptConfiguration
 ---
@@ -13,7 +13,7 @@ title: Reset-ColorScriptConfiguration
 
 ## SYNOPSIS
 
-Restore the ColorScripts-Enhanced configuration to its default values.
+Restaure a configuração do ColorScripts-Enhanced para seus valores padrão.
 
 ## SYNTAX
 
@@ -25,20 +25,20 @@ Reset-ColorScriptConfiguration [-h] [-PassThru] [-WhatIf] [-Confirm]
 
 ## ALIASES
 
-This command has no aliases.
+Este comando não tem aliases.
 
 ## DESCRIPTION
 
-`Reset-ColorScriptConfiguration` clears all persisted configuration overrides and restores the module to its factory defaults. When executed, this cmdlet:
+`Reset-ColorScriptConfiguration` substitui a configuração persistente pelos padrões integrados e redefine o estado do cache na memória do módulo. Quando executado, este cmdlet:
 
-- Removes all custom configuration settings from the configuration file
-- Resets the cache path to the platform-specific default location
-- Restores all startup flags (RunOnStartup, RandomOnStartup, etc.) to their original values
-- Preserves the configuration file structure while clearing user customizations
+- Limpa a substituição do caminho de cache configurado para que o padrão de plataforma efetivo seja usado
+- Restaura `AutoShowOnImport`, `ProfileAutoShow` e `DefaultScript`
+- Grava a configuração padrão em `config.json`
+- Limpa o estado de cache/configuração da memória para que as operações subsequentes usem os valores redefinidos
 
-This cmdlet supports `-WhatIf` and `-Confirm` parameters because it performs a destructive operation by overwriting the configuration file. The reset operation cannot be undone automatically, so users should consider backing up their current configuration using `Get-ColorScriptConfiguration` before proceeding.
+Este cmdlet oferece suporte aos parâmetros `-WhatIf` e `-Confirm` porque executa uma operação destrutiva ao substituir o arquivo de configuração. A operação de redefinição não pode ser desfeita automaticamente, portanto, os usuários devem considerar fazer backup de sua configuração atual usando `Get-ColorScriptConfiguration` antes de continuar.
 
-Use the `-PassThru` parameter to immediately inspect the newly restored default settings after the reset completes.
+Use o parâmetro `-PassThru` para inspecionar imediatamente as configurações padrão recém-restauradas após a conclusão da redefinição.
 
 ## EXAMPLES
 
@@ -48,7 +48,7 @@ Use the `-PassThru` parameter to immediately inspect the newly restored default 
 Reset-ColorScriptConfiguration -Confirm:$false
 ```
 
-Resets the configuration without prompting for confirmation. This is useful in automated scripts or when you're certain about resetting to defaults.
+Redefine a configuração sem solicitar confirmação. Isso é útil em scripts automatizados ou quando você tem certeza de redefinir os padrões.
 
 ### EXAMPLE 2
 
@@ -56,17 +56,17 @@ Resets the configuration without prompting for confirmation. This is useful in a
 Reset-ColorScriptConfiguration -PassThru
 ```
 
-Resets the configuration and returns the resulting hashtable for inspection, allowing you to verify the default values.
+Redefine a configuração e retorna a tabela hash resultante para inspeção, permitindo verificar os valores padrão.
 
 ### EXAMPLE 3
 
 ```powershell
-# Backup current configuration before resetting
+# Faça backup da configuração atual antes de redefinir
 $backup = Get-ColorScriptConfiguration
 Reset-ColorScriptConfiguration -WhatIf
 ```
 
-Uses `-WhatIf` to preview the reset operation without actually executing it, after backing up the current configuration.
+Usa `-WhatIf` para visualizar a operação de redefinição sem realmente executá-la, após fazer backup da configuração atual.
 
 ### EXAMPLE 4
 
@@ -74,33 +74,33 @@ Uses `-WhatIf` to preview the reset operation without actually executing it, aft
 Reset-ColorScriptConfiguration -Verbose
 ```
 
-Resets the configuration with verbose output to see detailed information about the operation.
+Redefine a configuração com saída detalhada para ver informações detalhadas sobre a operação.
 
 ### EXAMPLE 5
 
 ```powershell
-# Reset configuration and clear cache for complete factory reset
+# Redefina a configuração e limpe o cache para uma redefinição completa de fábrica
 Reset-ColorScriptConfiguration -Confirm:$false
 Clear-ColorScriptCache -All -Confirm:$false
 New-ColorScriptCache
-Write-Host "Module reset to factory defaults!"
+Write-Host "Módulo restaurado aos padrões de fábrica."
 ```
 
-Performs a complete factory reset including configuration, cache, and rebuilding the cache.
+Executa uma redefinição de fábrica completa, incluindo configuração, cache e reconstrução do cache.
 
 ### EXAMPLE 6
 
 ```powershell
-# Verify reset was successful
+# Verifique se a redefinição foi bem-sucedida
 $config = Reset-ColorScriptConfiguration -PassThru
-if ($config.Cache.Path -match "AppData|\.config") {
-    Write-Host "Configuration successfully reset to platform default"
+if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
+    Write-Host "Configuração restaurada ao padrão da plataforma"
 } else {
-    Write-Host "Configuration reset but using custom path: $($config.Cache.Path)"
+    Write-Host "Configuração restaurada, mas usando um caminho personalizado: $($config.Cache.Path)"
 }
 ```
 
-Resets and verifies that the configuration was restored to defaults by checking the cache path.
+Redefine e verifica se a substituição do cache persistente está vazia e se um caminho de plataforma efetivo está disponível.
 
 ## PARAMETERS
 
@@ -128,7 +128,7 @@ HelpMessage: ''
 
 ### -h
 
-Exibe a ajuda detalhada deste comando sem executar a operação.
+Exibe ajuda detalhada para este comando sem executar a operação.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -150,7 +150,7 @@ HelpMessage: ''
 
 ### -PassThru
 
-Returns the effective default configuration after the reset succeeds.
+Retorne o objeto de configuração atualizado após a conclusão da redefinição.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -171,7 +171,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Mostra o que aconteceria se o cmdlet fosse executado. O cmdlet não é executado.
+Mostra o que aconteceria se o cmdlet fosse executado sem realmente executar a operação de redefinição.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -193,33 +193,35 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Este cmdlet suporta os parâmetros comuns:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Para obter mais informações, consulte
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
 
-This cmdlet does not accept pipeline input.
+Este cmdlet não aceita entrada de pipeline.
 
 ## OUTPUTS
 
 ### System.Collections.Hashtable
 
-Returned when `-PassThru` is specified.
+Retornado quando `-PassThru` é especificado.
 
 ## NOTES
 
-The configuration file is stored under the directory resolved by `Get-ColorScriptConfiguration`. By default, this location is platform-specific:
+O arquivo de configuração é armazenado no diretório resolvido por `Get-ColorScriptConfiguration`. Por padrão, este local é específico da plataforma:
 
-- **Windows**: `$env:LOCALAPPDATA\ColorScripts-Enhanced`
+- **Windows**: `$env:APPDATA\ColorScripts-Enhanced`
 - **Linux/macOS**: `$HOME/.config/ColorScripts-Enhanced`
 
-The environment variable `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` can override the default location if set before module import.
+A variável de ambiente `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` pode substituir o local padrão se for definida antes da importação do módulo.
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration)
+- [Versão online](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration)
 

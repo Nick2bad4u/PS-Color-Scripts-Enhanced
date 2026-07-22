@@ -91,6 +91,16 @@ const MAX_CSI_PARAMETER = 10_000;
  */
 
 /**
+ * @typedef {Object} SourceProvenance
+ *
+ * @property {string | null} url
+ * @property {string | null} revision
+ * @property {string | null} sha256
+ * @property {string | null} license
+ * @property {string | null} attribution
+ */
+
+/**
  * @returns {CellAttributes}
  */
 function createDefaultAttrs() {
@@ -283,6 +293,19 @@ function trimTrailingNulls(value) {
 }
 
 /**
+ * Normalize fixed-width SAUCE text fields. Some producers place a null byte
+ * before their space padding, so whitespace must be removed before the final
+ * trailing-null pass. Nulls embedded within meaningful text remain intact.
+ *
+ * @param {string} value
+ *
+ * @returns {string}
+ */
+function trimSauceTextField(value) {
+    return trimTrailingNulls(value.trim()).trimEnd();
+}
+
+/**
  * @param {Buffer} buffer
  *
  * @returns {SauceRecord}
@@ -290,15 +313,9 @@ function trimTrailingNulls(value) {
 function parseSauceRecord(buffer) {
     return {
         version: buffer.subarray(5, 7).toString("ascii"),
-        title: trimTrailingNulls(
-            buffer.subarray(7, 42).toString("ascii")
-        ).trim(),
-        author: trimTrailingNulls(
-            buffer.subarray(42, 62).toString("ascii")
-        ).trim(),
-        group: trimTrailingNulls(
-            buffer.subarray(62, 82).toString("ascii")
-        ).trim(),
+        title: trimSauceTextField(buffer.subarray(7, 42).toString("ascii")),
+        author: trimSauceTextField(buffer.subarray(42, 62).toString("ascii")),
+        group: trimSauceTextField(buffer.subarray(62, 82).toString("ascii")),
         date: buffer.subarray(82, 90).toString("ascii"),
         fileSize: buffer.readUInt32LE(90),
         dataType: buffer.readUInt8(94),
@@ -353,7 +370,10 @@ function stripSauce(buffer) {
                 for (let index = 0; index < sauce.comments; index += 1) {
                     const lineOffset = commentOffset + 5 + index * 64;
                     const commentLine = iconv
-                        .decode(buffer.subarray(lineOffset, lineOffset + 64), "cp437")
+                        .decode(
+                            buffer.subarray(lineOffset, lineOffset + 64),
+                            "cp437"
+                        )
                         .replace(/\0+$/, "")
                         .trimEnd();
                     if (commentLine) {
@@ -402,7 +422,12 @@ class TerminalEmulator {
         this.cursorX = 0;
         this.cursorY = 0;
         this.currentAttrs = createDefaultAttrs();
-        /** @type {{ x: number; y: number; attrs: CellAttributes; iceBackground: boolean }} */
+        /** @type {{
+    x: number;
+    y: number;
+    attrs: CellAttributes;
+    iceBackground: boolean;
+}} */
         this.savedCursor = {
             x: 0,
             y: 0,
@@ -516,10 +541,7 @@ class TerminalEmulator {
         if (this.autoWrap && this.columns && this.cursorX >= this.columns) {
             this.cursorX = this.columns - 1;
             this.wrapPending = true;
-        } else if (
-            this.clampAtRightMargin &&
-            this.cursorX >= this.columns
-        ) {
+        } else if (this.clampAtRightMargin && this.cursorX >= this.columns) {
             this.cursorX = this.columns - 1;
         }
     }
@@ -668,10 +690,7 @@ class TerminalEmulator {
         const highestResultingRow =
             highestAffectedRow === undefined
                 ? this.cursorY + n - 1
-                : Math.max(
-                      highestAffectedRow + n,
-                      this.cursorY + n - 1
-                  );
+                : Math.max(highestAffectedRow + n, this.cursorY + n - 1);
         if (highestResultingRow >= MAX_TERMINAL_ROWS) {
             throw new RangeError(
                 `ANSI insert operation exceeds the supported ${MAX_TERMINAL_ROWS}-row terminal bound.`
@@ -719,9 +738,7 @@ class TerminalEmulator {
     eraseInLine(mode) {
         const row = this.ensureRow(this.cursorY);
         const start = mode === 1 || mode === 2 ? 0 : this.cursorX;
-        const end = mode === 0 || mode === 2
-            ? this.columns - 1
-            : this.cursorX;
+        const end = mode === 0 || mode === 2 ? this.columns - 1 : this.cursorX;
         for (let col = start; col <= end; col += 1) {
             if (!row.cells.has(col)) {
                 this.writtenCellCount += 1;
@@ -944,19 +961,13 @@ class TerminalEmulator {
                 );
                 break;
             case "B":
-                this.setCursor(
-                    this.cursorX,
-                    this.cursorY + getParam(0, 1)
-                );
+                this.setCursor(this.cursorX, this.cursorY + getParam(0, 1));
                 if (this.cursorY > this.maxRow) {
                     this.maxRow = this.cursorY;
                 }
                 break;
             case "C":
-                this.setCursor(
-                    this.cursorX + getParam(0, 1),
-                    this.cursorY
-                );
+                this.setCursor(this.cursorX + getParam(0, 1), this.cursorY);
                 break;
             case "D":
                 this.setCursor(
@@ -968,16 +979,10 @@ class TerminalEmulator {
                 this.setCursor(0, this.cursorY + getParam(0, 1));
                 break;
             case "F":
-                this.setCursor(
-                    0,
-                    Math.max(0, this.cursorY - getParam(0, 1))
-                );
+                this.setCursor(0, Math.max(0, this.cursorY - getParam(0, 1)));
                 break;
             case "G":
-                this.setCursor(
-                    Math.max(0, getParam(0, 1) - 1),
-                    this.cursorY
-                );
+                this.setCursor(Math.max(0, getParam(0, 1) - 1), this.cursorY);
                 break;
             case "H":
             case "f": {
@@ -1113,10 +1118,7 @@ class TerminalEmulator {
                 this.carriageReturn();
                 break;
             case "M":
-                this.setCursor(
-                    this.cursorX,
-                    Math.max(0, this.cursorY - 1)
-                );
+                this.setCursor(this.cursorX, Math.max(0, this.cursorY - 1));
                 break;
             case "c":
                 this.rows.clear();
@@ -1311,21 +1313,44 @@ function sanitizePowerShellComment(value) {
  * @param {string} sourceName
  * @param {string} sourceEncoding
  * @param {SauceRecord | null} sauce
+ * @param {Partial<SourceProvenance>} [provenance]
  *
  * @returns {string}
  */
-function buildSourceMetadataHeader(sourceName, sourceEncoding, sauce) {
+function buildSourceMetadataHeader(
+    sourceName,
+    sourceEncoding,
+    sauce,
+    provenance = {}
+) {
     const lines = [
         `# Converted from: ${sanitizePowerShellComment(sourceName)}`,
         `# Source encoding: ${sanitizePowerShellComment(sourceEncoding)}`,
     ];
+    const sourceMetadata = [
+        ["URL", provenance.url],
+        ["Revision", provenance.revision],
+        ["SHA-256", provenance.sha256],
+        ["License", provenance.license],
+        ["Attribution", provenance.attribution],
+    ];
+    for (const [label, value] of sourceMetadata) {
+        if (value) {
+            lines.push(
+                `# Source ${label}: ${sanitizePowerShellComment(value)}`
+            );
+        }
+    }
     if (sauce) {
         const metadata = [
             ["Title", sauce.title],
             ["Author", sauce.author],
             ["Group", sauce.group],
             ["Date", sauce.date],
-            ["Dimensions", `${sauce.tInfo1 || "unknown"}x${sauce.tInfo2 || "unknown"}`],
+            [
+                "Dimensions",
+                `${sauce.tInfo1 || "unknown"}x${sauce.tInfo2 || "unknown"}`,
+            ],
             ["Font", getSauceFontName(sauce)],
             ["Comments", sauce.commentLines.join(" | ")],
         ];
@@ -1338,6 +1363,48 @@ function buildSourceMetadataHeader(sourceName, sourceEncoding, sauce) {
         }
     }
     return `${lines.join("\n")}\n`;
+}
+
+/**
+ * Validate optional provenance values before embedding them in generated
+ * source. Metadata remains Unicode-friendly, but must be a bounded single
+ * line.
+ *
+ * @param {string} value
+ * @param {string} label
+ * @param {number} maxLength
+ *
+ * @returns {string}
+ */
+function validateSourceMetadataValue(value, label, maxLength) {
+    if (!value || value.length > maxLength) {
+        throw new Error(
+            `${label} must contain between 1 and ${maxLength} characters.`
+        );
+    }
+    if (/\r|\n|\u0085|\u2028|\u2029|[\u0000-\u001f\u007f]/u.test(value)) {
+        throw new Error(`${label} must be a single printable line.`);
+    }
+    return value;
+}
+
+/**
+ * @param {string} value
+ *
+ * @returns {string}
+ */
+function validateSourceUrl(value) {
+    const validated = validateSourceMetadataValue(value, "Source URL", 2048);
+    let parsed;
+    try {
+        parsed = new URL(validated);
+    } catch {
+        throw new Error("Source URL must be an absolute HTTP or HTTPS URL.");
+    }
+    if (parsed.protocol !== "http:" && parsed.protocol !== "https:") {
+        throw new Error("Source URL must be an absolute HTTP or HTTPS URL.");
+    }
+    return validated;
 }
 
 /**
@@ -1361,11 +1428,13 @@ function serializePowerShellStringLiteral(content) {
  * ANSI-art text to become PowerShell source code.
  *
  * @param {string} content
+ * @param {boolean} [noNewline]
  *
  * @returns {string}
  */
-function buildPowerShellOutput(content) {
-    return `Write-Host ${serializePowerShellStringLiteral(content)}\n`;
+function buildPowerShellOutput(content, noNewline = false) {
+    const noNewlineArgument = noNewline ? " -NoNewline" : "";
+    return `Write-Host ${serializePowerShellStringLiteral(content)}${noNewlineArgument}\n`;
 }
 
 /**
@@ -1393,32 +1462,42 @@ function writePowerShellFile(filePath, content) {
  *         passthrough: boolean;
  *         force: boolean;
  *         analyzeJson: boolean;
+ *         sourceProvenance: SourceProvenance;
  *     };
  *     positional: string[];
  * }}
  */
 function parseArguments(argv) {
-    const options = /**
-     * @type {{
-     *     columns: number | null;
-     *     autoWrap: boolean;
-     *     stripSpaceBackground: boolean;
-     *     maxHeight: number | null;
-     *     encoding: string;
-     *     passthrough: boolean;
-     *     force: boolean;
-     *     analyzeJson: boolean;
-     * }}
-     */ ({
-        columns: null,
-        autoWrap: true,
-        stripSpaceBackground: false,
-        maxHeight: null,
-        encoding: "cp437",
-        passthrough: false,
-        force: false,
-        analyzeJson: false,
-    });
+    const options =
+        /**
+         * @type {{
+         *     columns: number | null;
+         *     autoWrap: boolean;
+         *     stripSpaceBackground: boolean;
+         *     maxHeight: number | null;
+         *     encoding: string;
+         *     passthrough: boolean;
+         *     force: boolean;
+         *     analyzeJson: boolean;
+         *     sourceProvenance: SourceProvenance;
+         * }}
+         */ ({
+            columns: null,
+            autoWrap: true,
+            stripSpaceBackground: false,
+            maxHeight: null,
+            encoding: "cp437",
+            passthrough: false,
+            force: false,
+            analyzeJson: false,
+            sourceProvenance: {
+                url: null,
+                revision: null,
+                sha256: null,
+                license: null,
+                attribution: null,
+            },
+        });
     /** @type {string[]} */
     const positional = [];
     let optionsEnded = false;
@@ -1468,12 +1547,46 @@ function parseArguments(argv) {
             }
         } else if (arg === "--utf8" || arg === "--utf-8") {
             options.encoding = "utf8";
-        } else if (arg === "--passthrough" || arg === "--simple" || arg === "--raw") {
+        } else if (
+            arg === "--passthrough" ||
+            arg === "--simple" ||
+            arg === "--raw"
+        ) {
             options.passthrough = true;
         } else if (arg === "--force") {
             options.force = true;
         } else if (arg === "--analyze-json") {
             options.analyzeJson = true;
+        } else if (arg.startsWith("--source-url=")) {
+            options.sourceProvenance.url = validateSourceUrl(
+                arg.slice("--source-url=".length)
+            );
+        } else if (arg.startsWith("--source-revision=")) {
+            options.sourceProvenance.revision = validateSourceMetadataValue(
+                arg.slice("--source-revision=".length),
+                "Source revision",
+                256
+            );
+        } else if (arg.startsWith("--source-sha256=")) {
+            const value = arg.slice("--source-sha256=".length);
+            if (!/^[a-f\d]{64}$/iu.test(value)) {
+                throw new Error(
+                    "Source SHA-256 must contain exactly 64 hexadecimal characters."
+                );
+            }
+            options.sourceProvenance.sha256 = value.toLowerCase();
+        } else if (arg.startsWith("--source-license=")) {
+            options.sourceProvenance.license = validateSourceMetadataValue(
+                arg.slice("--source-license=".length),
+                "Source license",
+                256
+            );
+        } else if (arg.startsWith("--source-attribution=")) {
+            options.sourceProvenance.attribution = validateSourceMetadataValue(
+                arg.slice("--source-attribution=".length),
+                "Source attribution",
+                1024
+            );
         } else if (arg.startsWith("--")) {
             throw new Error(`Unknown option: ${arg}`);
         } else {
@@ -1485,7 +1598,8 @@ function parseArguments(argv) {
 
 /**
  * @param {string} filePath
- * @param {string} [encoding="cp437"] - Encoding to use (cp437 for ANSI art, utf8 for Unicode)
+ * @param {string} [encoding="cp437"] - Encoding to use (cp437 for ANSI art,
+ *   utf8 for Unicode) Default is `"cp437"`
  *
  * @returns {{ content: string; sauce: SauceRecord | null }}
  */
@@ -1504,9 +1618,10 @@ function readAnsiFile(filePath, encoding = "cp437") {
     }
     const { buffer, sauce } = stripSauce(raw);
     // For UTF-8, read as string directly; for others, use iconv
-    const content = encoding === "utf8"
-        ? buffer.toString("utf8")
-        : iconv.decode(buffer, encoding);
+    const content =
+        encoding === "utf8"
+            ? buffer.toString("utf8")
+            : iconv.decode(buffer, encoding);
     return { content, sauce };
 }
 
@@ -1522,9 +1637,8 @@ function getSauceFontName(sauce) {
 
     const field = sauce.tInfoS.toString("ascii");
     const terminatorIndex = field.indexOf("\0");
-    return (terminatorIndex === -1
-        ? field
-        : field.slice(0, terminatorIndex)
+    return (
+        terminatorIndex === -1 ? field : field.slice(0, terminatorIndex)
     ).trim();
 }
 
@@ -1573,10 +1687,23 @@ function main(argv = process.argv.slice(2)) {
             "  --utf8             Shorthand for --encoding=utf8 (for Pokemon colorscripts)."
         );
         console.error(
-            "  --passthrough      Skip terminal emulation, wrap content directly (for pre-formatted files)."
+            "  --passthrough      Preserve a pre-formatted decoded stream byte-for-byte without terminal emulation."
+        );
+        console.error("  --force            Replace existing output files.");
+        console.error(
+            "  --source-url=<url> Embed the original artwork URL in a comment."
         );
         console.error(
-            "  --force            Replace existing output files."
+            "  --source-revision=<revision> Embed the source revision or archive identifier."
+        );
+        console.error(
+            "  --source-sha256=<hash> Embed the original artwork SHA-256."
+        );
+        console.error(
+            "  --source-license=<license> Embed the artwork license identifier."
+        );
+        console.error(
+            "  --source-attribution=<text> Embed the artwork attribution."
         );
         process.exit(1);
     }
@@ -1590,18 +1717,22 @@ function main(argv = process.argv.slice(2)) {
             `Input filename cannot form a safe colorscript name: ${path.basename(ansiFile)}`
         );
     }
-    const outputFile = positional[1] || path.join(
-        __dirname,
-        "..",
-        "ColorScripts-Enhanced",
-        "Scripts",
-        `${sanitizedBaseName}.ps1`
-    );
+    const outputFile =
+        positional[1] ||
+        path.join(
+            __dirname,
+            "..",
+            "ColorScripts-Enhanced",
+            "Scripts",
+            `${sanitizedBaseName}.ps1`
+        );
 
     try {
         if (options.analyzeJson) {
             if (positional.length !== 1) {
-                throw new Error("--analyze-json requires exactly one ANSI input file.");
+                throw new Error(
+                    "--analyze-json requires exactly one ANSI input file."
+                );
             }
             const { content, sauce } = readAnsiFile(ansiFile, options.encoding);
             const terminalColumns =
@@ -1611,36 +1742,42 @@ function main(argv = process.argv.slice(2)) {
                 columns: terminalColumns,
                 autoWrap: options.autoWrap,
                 stripSpaceBackground: options.stripSpaceBackground,
-                iceColors: Boolean(sauce && (sauce.flags & 1)),
+                iceColors: Boolean(sauce && sauce.flags & 1),
             });
-            process.stdout.write(JSON.stringify({
-                width: terminal.writtenCellCount > 0 ? terminal.maxCol + 1 : 0,
-                height: terminal.maxRow + 1,
-                warnings,
-            }));
+            process.stdout.write(
+                JSON.stringify({
+                    width:
+                        terminal.writtenCellCount > 0 ? terminal.maxCol + 1 : 0,
+                    height: terminal.maxRow + 1,
+                    warnings,
+                })
+            );
             return { terminal, warnings };
         }
 
-        console.log(`Reading ANSI file: ${ansiFile} (encoding: ${options.encoding})`);
+        console.log(
+            `Reading ANSI file: ${ansiFile} (encoding: ${options.encoding})`
+        );
         const { content, sauce } = readAnsiFile(ansiFile, options.encoding);
 
-        const header = `${buildSourceMetadataHeader(
+        const header = buildSourceMetadataHeader(
             path.basename(ansiFile),
             options.encoding,
-            sauce
-        )}# Conversion date: ${new Date().toISOString()}\n`;
+            sauce,
+            options.sourceProvenance
+        );
 
         const outputDir = path.dirname(outputFile);
         if (!fs.existsSync(outputDir)) {
             fs.mkdirSync(outputDir, { recursive: true });
         }
 
-        // Passthrough mode - skip terminal emulation, wrap content directly
+        // Passthrough mode - skip terminal emulation and preserve the decoded stream exactly.
         if (options.passthrough) {
             console.log("Using passthrough mode (no terminal emulation)...");
-            // Remove trailing newlines and ensure clean content
-            const cleanContent = content.replace(/[\r\n]+$/, "");
-            const ps1Content = `${header}\n${buildPowerShellOutput(cleanContent)}`;
+            // Preserve the pre-formatted stream exactly. Write-Host's default newline would add
+            // bytes that are not present in the source, so passthrough output uses -NoNewline.
+            const ps1Content = `${header}\n${buildPowerShellOutput(content, true)}`;
             if (fs.existsSync(outputFile) && !options.force) {
                 throw new Error(
                     `Output file already exists: ${outputFile}. Use --force to replace it.`
@@ -1662,7 +1799,7 @@ function main(argv = process.argv.slice(2)) {
             columns: terminalColumns,
             autoWrap: options.autoWrap,
             stripSpaceBackground: options.stripSpaceBackground,
-            iceColors: Boolean(sauce && (sauce.flags & 1)),
+            iceColors: Boolean(sauce && sauce.flags & 1),
         };
 
         const sauceFontName = getSauceFontName(sauce);
@@ -1776,6 +1913,9 @@ module.exports = {
     parseArguments,
     sanitizeName,
     sanitizePowerShellComment,
+    trimSauceTextField,
+    validateSourceMetadataValue,
+    validateSourceUrl,
     buildSourceMetadataHeader,
     serializePowerShellStringLiteral,
     buildPowerShellOutput,

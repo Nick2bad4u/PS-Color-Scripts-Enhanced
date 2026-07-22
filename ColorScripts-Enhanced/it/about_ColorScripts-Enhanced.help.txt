@@ -5,14 +5,15 @@ DESCRIZIONE BREVE
     Trova e visualizza colorscript ANSI in PowerShell.
 
 DESCRIZIONE DETTAGLIATA
-    ColorScripts-Enhanced e un modulo PowerShell multipiattaforma con 3156
+    ColorScripts-Enhanced è un modulo PowerShell multipiattaforma con migliaia di
     colorscript. Supporta Windows PowerShell 5.1 e PowerShell 7.x in Windows,
     macOS e Linux.
 
-    La maggior parte dei colorscript e statica e viene eseguita direttamente. La
-    cache dell'output e limitata ai 15 renderer costosi selezionati in
-    CachePolicy.psd1. I renderer che devono mostrare dati correnti restano fuori
-    dalla cache quando il riuso ne modificherebbe il comportamento.
+    La maggior parte dei colorscript inclusi contiene contenuto statico deterministico e
+    viene renderizzata nel processo corrente, senza avviare un processo PowerShell figlio.
+    La cache dell'output è limitata al piccolo insieme di renderer costosi selezionati in
+    CachePolicy.psd1. I renderer che devono mostrare dati correnti restano fuori dalla cache
+    quando il riuso ne modificherebbe il comportamento.
 
 UTILIZZO DI BASE
     Import-Module ColorScripts-Enhanced
@@ -20,7 +21,7 @@ UTILIZZO DI BASE
     Show-ColorScript -Name bars
     Get-ColorScriptList -Category Patterns
 
-    Gli script Pokemon sono esclusi per impostazione predefinita dalla selezione
+    Gli script Pokémon sono esclusi per impostazione predefinita dalla selezione
     casuale. Usa -IncludePokemon per includerli. Un nome richiesto direttamente
     continua a funzionare.
 
@@ -67,7 +68,7 @@ GUIDA E VERSIONE
     Get-Help Show-ColorScript -Examples
     Get-Module ColorScripts-Enhanced | Select-Object Version
 
-    Il manifesto del modulo e la fonte autorevole della versione.
+    Il manifesto del modulo è la fonte autorevole della versione.
 
 CODIFICA E PROVENIENZA
     Gli script PowerShell generati usano UTF-8. I file .ANS tradizionali usano

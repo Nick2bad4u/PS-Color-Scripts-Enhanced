@@ -16,7 +16,22 @@
     Source encoding: cp437 or utf8.
 
 .PARAMETER Passthrough
-    Preserve already-formatted line layout without terminal emulation.
+    Preserve an already-formatted decoded stream byte-for-byte without terminal emulation.
+
+.PARAMETER SourceUrl
+    Absolute HTTP or HTTPS URL for the original artwork.
+
+.PARAMETER SourceRevision
+    Source commit, tag, release, or archive identifier.
+
+.PARAMETER SourceSha256
+    SHA-256 of the original artwork file.
+
+.PARAMETER SourceLicense
+    License or public-domain identifier for the original artwork.
+
+.PARAMETER SourceAttribution
+    Artist or collection attribution for the original artwork.
 
 .PARAMETER Force
     Replace an existing output file.
@@ -39,6 +54,26 @@ param(
 
     [Parameter()]
     [switch]$Passthrough,
+
+    [Parameter()]
+    [ValidateScript({ $_.IsAbsoluteUri -and $_.Scheme -in @('http', 'https') })]
+    [uri]$SourceUrl,
+
+    [Parameter()]
+    [ValidateLength(1, 256)]
+    [string]$SourceRevision,
+
+    [Parameter()]
+    [ValidatePattern('^[a-fA-F0-9]{64}$')]
+    [string]$SourceSha256,
+
+    [Parameter()]
+    [ValidateLength(1, 256)]
+    [string]$SourceLicense,
+
+    [Parameter()]
+    [ValidateLength(1, 1024)]
+    [string]$SourceAttribution,
 
     [Parameter()]
     [switch]$Force
@@ -107,6 +142,21 @@ begin {
         }
         if ($Force) {
             $nodeArguments += '--force'
+        }
+        if ($null -ne $SourceUrl) {
+            $nodeArguments += '--source-url=' + $SourceUrl.AbsoluteUri
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceRevision)) {
+            $nodeArguments += '--source-revision=' + $SourceRevision
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceSha256)) {
+            $nodeArguments += '--source-sha256=' + $SourceSha256
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceLicense)) {
+            $nodeArguments += '--source-license=' + $SourceLicense
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceAttribution)) {
+            $nodeArguments += '--source-attribution=' + $SourceAttribution
         }
         $nodeArguments += @($inputInfo.FullName, $targetOutput)
 

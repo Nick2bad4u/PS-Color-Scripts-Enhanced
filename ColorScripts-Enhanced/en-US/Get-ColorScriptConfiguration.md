@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration
 Locale: en-US
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Get-ColorScriptConfiguration
 ---
@@ -29,18 +29,16 @@ This command has no aliases.
 
 ## DESCRIPTION
 
-`Get-ColorScriptConfiguration` retrieves the effective module configuration, which controls various aspects of ColorScripts-Enhanced behavior. This includes:
+`Get-ColorScriptConfiguration` returns a copy of the effective module configuration. The current schema contains:
 
 - **Cache Settings**: The configured override and resolved effective cache directory
-- **Startup Behavior**: Flags that control whether scripts run automatically when PowerShell sessions start
-- **Path Configuration**: Custom script directories and search paths
-- **Display Preferences**: Default formatting and output options
+- **Startup Behavior**: `AutoShowOnImport`, `ProfileAutoShow`, and `DefaultScript`
 
 The configuration is assembled from multiple sources in order of precedence:
 
 1. Built-in module defaults (lowest priority)
 2. Persisted user overrides from the configuration file
-3. Session-specific modifications (highest priority)
+3. `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` for the returned effective cache path
 
 The configuration file is typically located at `%APPDATA%\ColorScripts-Enhanced\config.json` on Windows or `~/.config/ColorScripts-Enhanced/config.json` on Unix-like systems.
 
@@ -79,7 +77,7 @@ environment overrides are applied.
 
 ```powershell
 $config = Get-ColorScriptConfiguration
-if ($config.Startup.Enabled) {
+if ($config.Startup.AutoShowOnImport) {
     Write-Host "Startup scripts are enabled"
 }
 ```
@@ -123,7 +121,8 @@ Determines whether a custom cache path is configured vs using module defaults.
 ### EXAMPLE 8
 
 ```powershell
-Export-ColorScriptMetadata | ConvertTo-Json -Depth 5 |
+$config = Get-ColorScriptConfiguration
+$config | ConvertTo-Json -Depth 5 |
     Out-File -FilePath "./backup-config.json" -Encoding UTF8
 ```
 
@@ -178,9 +177,11 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -199,10 +200,9 @@ Returns a nested hashtable containing the following structure:
   - **Path** (String): Optional persisted cache path override
   - **EffectivePath** (String): Resolved cache directory currently used by the module
 - **Startup** (Hashtable): Startup behavior settings
-  - **Enabled** (Boolean): Whether scripts run on session start
-  - **ScriptName** (String): Name of the default startup script
-- **Paths** (Array): Additional script search paths
-- **Display** (Hashtable): Output formatting preferences
+  - **AutoShowOnImport** (Boolean): Whether import invokes startup display behavior
+  - **ProfileAutoShow** (Boolean): Default auto-show choice for managed profile blocks
+  - **DefaultScript** (String): Optional named startup colorscript
 
 ## NOTES
 
@@ -221,7 +221,7 @@ Returns a nested hashtable containing the following structure:
 - Query configuration once and reuse the result
 - Validate configuration before using values
 - Monitor configuration for drift over time
-- Keep configuration backups in version control
+- Keep backups only where they cannot expose machine-specific paths or private data
 - Document any customizations made to configuration
 - Test configuration changes in non-production first
 - Use configuration audit logs for compliance

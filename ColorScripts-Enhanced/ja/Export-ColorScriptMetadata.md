@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata
 Locale: ja
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Export-ColorScriptMetadata
 ---
@@ -13,7 +13,7 @@ title: Export-ColorScriptMetadata
 
 ## SYNOPSIS
 
-すべてのカラースクリプトの包括的なメタデータをJSON形式でエクスポートするか、パイプラインに構造化されたオブジェクトを出力します。
+すべてのカラースクリプトの包括的なメタデータを JSON 形式でエクスポートするか、構造化オブジェクトをパイプラインに出力します。
 
 ## SYNTAX
 
@@ -26,28 +26,28 @@ Export-ColorScriptMetadata [[-Path] <string>] [-h] [-IncludeFileInfo] [-IncludeC
 
 ## ALIASES
 
-This command has no aliases.
+このコマンドにはエイリアスがありません。
 
 ## DESCRIPTION
 
-`Export-ColorScriptMetadata` コマンドレットは、モジュールのカタログ内のすべてのカラースクリプトの包括的なインベントリをコンパイルし、各エントリを記述する構造化されたデータセットを生成します。このメタデータには、スクリプト名、カテゴリ、タグ、およびオプションのエンリッチメントなどの重要な情報が含まれます。
+`Export-ColorScriptMetadata` コマンドレットは、モジュールのカタログ内のすべてのカラースクリプトの包括的なインベントリをコンパイルし、各エントリを説明する構造化データセットを生成します。このメタデータには、スクリプト名、カテゴリ、タグ、オプションのエンリッチメントなどの重要な情報が含まれています。
 
-デフォルトでは、コマンドレットはPowerShellオブジェクトをパイプラインに返します。`-Path` パラメータが指定されると、メタデータをフォーマットされたJSONとして指定されたファイルに書き込み、親ディレクトリが存在しない場合は自動的に作成します。
+デフォルトでは、コマンドレットは PowerShell オブジェクトをパイプラインに返します。 `-Path` パラメーターを指定すると、メタデータがフォーマットされた JSON として指定されたファイルに書き込まれ、親ディレクトリが存在しない場合は自動的に作成されます。
 
-コマンドレットは2つのオプションのエンリッチメントフラグを提供します：
+このコマンドレットには、次の 2 つのオプションのエンリッチメント フラグが用意されています。
 
-- **IncludeFileInfo**: フルパス、ファイルサイズ（バイト単位）、最終変更タイムスタンプなどのファイルシステムメタデータを追加します
-- **IncludeCacheInfo**: キャッシュファイルパス、存在ステータス、キャッシュタイムスタンプなどのキャッシュ関連情報を追加します
+- **IncludeFileInfo**: フル パス、ファイル サイズ (バイト単位)、最終変更タイムスタンプなどのファイル システム メタデータを追加します。
+- **IncludeCacheInfo**: キャッシュ ファイル パス、存在ステータス、キャッシュ タイムスタンプなどのキャッシュ関連情報を追加します。
 
-このコマンドレットは特に以下の用途に役立ちます：
+このコマンドレットは、以下の場合に特に役立ちます。
 
-- 利用可能なすべてのカラースクリプトを表示するドキュメントまたはダッシュボードの作成
-- キャッシュカバレッジの分析とキャッシュ再構築が必要なスクリプトの特定
-- 外部ツールまたは自動化パイプラインへのメタデータのフィード
-- カラースクリプトインベントリとファイルシステムステータスの監査
-- カラースクリプトの使用と組織に関するレポートの生成
+- 利用可能なすべてのカラースクリプトを示すドキュメントまたはダッシュボードを作成する
+- 未処理のキャッシュ ペイロード ファイルの存在とタイムスタンプのレポート
+- メタデータを外部ツールまたは自動化パイプラインにフィードする
+- カラースクリプトのインベントリとファイル システムのステータスを監査する
+- カラースクリプトの使用法と構成に関するレポートの生成
 
-出力は一貫して順序付けられているため、JSONにエクスポートされた場合、バージョン管理と差分操作に適しています。
+出力の順序は一貫しているため、JSON にエクスポートするときのバージョン管理や diff 操作に適しています。
 
 ## EXAMPLES
 
@@ -57,7 +57,7 @@ This command has no aliases.
 Export-ColorScriptMetadata
 ```
 
-ファイルまたはキャッシュ情報なしで、すべてのカラースクリプトの基本メタデータをパイプラインにエクスポートします。
+すべてのカラースクリプトの基本メタデータを、ファイルまたはキャッシュ情報なしでパイプラインにエクスポートします。
 
 ### EXAMPLE 2
 
@@ -65,7 +65,7 @@ Export-ColorScriptMetadata
 Export-ColorScriptMetadata -IncludeFileInfo
 ```
 
-各カラースクリプトのファイルシステム詳細（フルパス、サイズ、最終書き込み時間）を含むオブジェクトを返します。
+各カラースクリプトのファイル システムの詳細 (フル パス、サイズ、最終書き込み時刻) を含むオブジェクトを返します。
 
 ### EXAMPLE 3
 
@@ -73,7 +73,7 @@ Export-ColorScriptMetadata -IncludeFileInfo
 Export-ColorScriptMetadata -Path './dist/colorscripts.json'
 ```
 
-基本メタデータを含むJSONファイルを生成し、`dist` ディレクトリに書き込み、フォルダが存在しない場合は作成します。
+基本的なメタデータを含む JSON ファイルを生成し、それを `dist` ディレクトリに書き込み、フォルダーが存在しない場合は作成します。
 
 ### EXAMPLE 4
 
@@ -81,15 +81,15 @@ Export-ColorScriptMetadata -Path './dist/colorscripts.json'
 Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeFileInfo -IncludeCacheInfo
 ```
 
-ファイルシステムとキャッシュ情報の両方を含む包括的なメタデータを含むJSONファイルを生成し、`dist` ディレクトリに書き込みます。
+ファイル システムとキャッシュ情報の両方を含む強化されたメタデータを含む包括的な JSON ファイルを生成し、`dist` ディレクトリに書き込みます。
 
 ### EXAMPLE 5
 
 ```powershell
-Export-ColorScriptMetadata -Path './dist/colorscripts.json' -PassThru | Where-Object { -not $_.CacheExists }
+Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeCacheInfo -PassThru | Where-Object { -not $_.CacheExists }
 ```
 
-メタデータファイルを書き込み、オブジェクトもパイプラインに返し、キャッシュファイルのないスクリプトを特定するクエリを有効にします。
+メタデータ ファイルを書き込み、生の `.cache` ペイロードが存在しないレコードを返します。これはファイルの占有のみを報告し、キャッシュの適格性、有効性、または最新性は報告しません。
 
 ### EXAMPLE 6
 
@@ -97,53 +97,51 @@ Export-ColorScriptMetadata -Path './dist/colorscripts.json' -PassThru | Where-Ob
 Export-ColorScriptMetadata -IncludeFileInfo | Group-Object Category | Select-Object Name, Count
 ```
 
-カラースクリプトをカテゴリでグループ化し、カウントを表示します。スクリプトのカテゴリ間分布を分析するのに役立ちます。
+カラースクリプトをカテゴリ別にグループ化し、数を表示します。これは、カテゴリ間のスクリプトの分布を分析するのに役立ちます。
 
 ### EXAMPLE 7
 
 ```powershell
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo
-$totalSize = ($metadata | Measure-Object -Property FileSize -Sum).Sum
-Write-Host "Total size of all colorscripts: $($totalSize / 1KB) KB"
+$totalSize = ($metadata | Measure-Object -Property ScriptSizeBytes -Sum).Sum
+Write-Host "すべてのカラースクリプトの合計サイズ: $($totalSize / 1KB) KB"
 ```
 
-すべてのカラースクリプトファイルが使用する合計ディスク容量を計算します。
+すべてのカラースクリプト ファイルによって使用される合計ディスク容量を計算します。
 
 ### EXAMPLE 8
 
 ```powershell
-# Generate statistics and save report
+# 統計を生成してレポートを保存する
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
 $stats = @{
     TotalScripts = $metadata.Count
     Categories = ($metadata | Select-Object -ExpandProperty Category -Unique).Count
-    CachedScripts = ($metadata | Where-Object CacheExists).Count
-    TotalFileSize = ($metadata | Measure-Object FileSize -Sum).Sum
-    TotalCacheSize = ($metadata | Where-Object CacheExists |
-        Measure-Object CacheFileSize -Sum).Sum
+    CachePayloadFiles = ($metadata | Where-Object CacheExists).Count
+    TotalScriptSizeBytes = ($metadata | Measure-Object ScriptSizeBytes -Sum).Sum
 }
 $stats | ConvertTo-Json | Out-File "./colorscripts-stats.json"
 ```
 
-キャッシュカバレッジとサイズを含む包括的な統計レポートを生成します。
+インベントリ統計を生成し、生の `.cache` ペイロード ファイルをカウントします。ペイロードの存在は、キャッシュの適格性、有効性、最新性のチェックではありません。
 
 ### EXAMPLE 9
 
 ```powershell
-# Export and compare with previous backup
+# エクスポートして以前のバックアップと比較する
 $current = Export-ColorScriptMetadata -Path "./current-metadata.json" -IncludeFileInfo -PassThru
 $previous = Get-Content "./previous-metadata.json" | ConvertFrom-Json
 $new = $current | Where-Object { $_.Name -notin $previous.Name }
 $removed = $previous | Where-Object { $_.Name -notin $current.Name }
-Write-Host "New scripts: $($new.Count) | Removed scripts: $($removed.Count)"
+Write-Host "新しいスクリプト: $($new.Count) | 削除されたスクリプト: $($removed.Count)"
 ```
 
-現在のメタデータを以前のバージョンと比較して変更を特定します。
+現在のメタデータを以前のバージョンと比較して、変更を特定します。
 
 ### EXAMPLE 10
 
 ```powershell
-# Build API response for web dashboard
+# Web ダッシュボードの API レスポンスを構築する
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
 $apiResponse = @{
     version = (Get-Module ColorScripts-Enhanced | Select-Object Version).Version.ToString()
@@ -154,26 +152,22 @@ $apiResponse = @{
 $apiResponse | Out-File "./api/colorscripts.json" -Encoding UTF8
 ```
 
-バージョン情報とタイムスタンプを含むAPI対応のJSONを生成します。
+バージョン管理とタイムスタンプ情報を含む API 対応の JSON を生成します。
 
 ### EXAMPLE 11
 
 ```powershell
-# Find scripts with missing cache for batch rebuild
-$metadata = Export-ColorScriptMetadata -IncludeCacheInfo -AsObject
-$uncached = $metadata | Where-Object { -not $_.CacheExists } | Select-Object -ExpandProperty Name
-if ($uncached.Count -gt 0) {
-    Write-Host "Rebuilding cache for $($uncached.Count) scripts..."
-    New-ColorScriptCache -Name $uncached
-}
+# ポリシーで選択されたすべてのキャッシュ エントリを構築または検証し、ステータスを確認します。
+$results = New-ColorScriptCache -All -PassThru
+$results | Group-Object Status | Select-Object Name, Count
 ```
 
-キャッシュファイルのないスクリプトを特定し、バッチで再構築します。
+キャッシュ ポリシーを信頼できる情報源として使用し、対象となるエントリが更新されたか、すでに最新であるか、スキップされたか、失敗したかを報告します。
 
 ### EXAMPLE 12
 
 ```powershell
-# Create HTML gallery from metadata
+# メタデータから HTML ギャラリーを作成する
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo
 $html = @"
 <html>
@@ -189,26 +183,26 @@ $html += "</ul></body></html>"
 $html | Out-File "./gallery.html" -Encoding UTF8
 ```
 
-利用可能なすべてのカラースクリプトをリストしたHTMLギャラリーページを作成します。
+利用可能なすべてのカラースクリプトをリストする HTML ギャラリー ページを作成します。
 
 ### EXAMPLE 13
 
 ```powershell
-# Monitor script sizes over time
+# スクリプトのサイズを経時的に監視する
 Export-ColorScriptMetadata -Path "./logs/metadata-$(Get-Date -Format 'yyyyMMdd').json" -IncludeFileInfo
 Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
     ForEach-Object { Get-Content $_ | ConvertFrom-Json } |
     Group-Object { $_.Name } |
-    ForEach-Object { Write-Host "$($_.Name): $(($_.Group | Measure-Object FileSize -Average).Average) bytes avg" }
+    ForEach-Object { Write-Host "$($_.Name): $(($_.Group | Measure-Object ScriptSizeBytes -Average).Average) bytes avg" }
 ```
 
-複数のエクスポートにわたって個々のスクリプトのファイルサイズの変化を追跡します。
+複数のエクスポートにわたる個々のスクリプトのファイル サイズの変更を追跡します。
 
 ## PARAMETERS
 
 ### -Confirm
 
-Prompts you for confirmation before running the cmdlet.
+コマンドレットを実行する前に確認を求めるメッセージが表示されます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -252,7 +246,7 @@ HelpMessage: ''
 
 ### -IncludeCacheInfo
 
-各レコードにキャッシュメタデータを追加します。これにはキャッシュファイルパス、キャッシュファイルが存在するかどうか、および最終変更タイムスタンプが含まれます。これは、キャッシュ再生成が必要なスクリプトを特定したり、カラースクリプトライブラリ全体のキャッシュカバレッジを分析したりするのに役立ちます。
+生の `.cache` ペイロード パス、ファイル存在フラグ、および最終書き込みタイムスタンプを各レコードに追加します。これらのフィールドは、キャッシュ ポリシーの適格性、`.cacheinfo` サイドカーの存在、有効性、または最新性を報告しません。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -273,7 +267,7 @@ HelpMessage: ''
 
 ### -IncludeFileInfo
 
-各レコードにファイルシステム詳細（フルパス、バイト単位のサイズ、最終書き込み時間）を追加します。ファイルメタデータを読み取れない場合（権限や欠落ファイルによる）、エラーは詳細出力経由でログされ、影響を受けるプロパティはnull値に設定されます。このスイッチは、ファイルサイズと変更日付を監査するのに役立ちます。
+各レコードにファイル システムの詳細 (フル パス、バイト単位のサイズ、最終書き込み時刻) が含まれます。ファイルのメタデータを読み取れない場合 (権限またはファイルの欠落により)、詳細出力を介してエラーが記録され、影響を受けるプロパティは null 値に設定されます。このスイッチは、ファイル サイズと変更日を監査する場合に役立ちます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -294,7 +288,7 @@ HelpMessage: ''
 
 ### -PassThru
 
-`-Path` パラメータが指定された場合でも、メタデータオブジェクトをパイプラインに返します。これにより、ファイルを保存し、単一のコマンドでオブジェクトに対して追加の処理やフィルタリングを実行できます。このスイッチがない場合、`-Path` を指定するとパイプライン出力が抑制されます。
+`-Path` パラメーターが指定されている場合でも、メタデータ オブジェクトをパイプラインに返します。これにより、メタデータをファイルに保存することと、オブジェクトに対して追加の処理やフィルタリングを 1 つのコマンドで実行することができます。このスイッチを使用しない場合、`-Path` を指定するとパイプライン出力が抑制されます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -315,7 +309,7 @@ HelpMessage: ''
 
 ### -Path
 
-JSONエクスポートの宛先ファイルパスを指定します。相対パス、絶対パス、環境変数（例: `$env:TEMP\metadata.json`）、チルダ展開（例: `~/Documents/metadata.json`）をサポートします。親ディレクトリは存在しない場合に自動的に作成されます。このパラメータを省略すると、コマンドレットはファイルを書き込まずにオブジェクトをパイプラインに直接出力します。JSON出力は読みやすさのためにインデント付きでフォーマットされます。
+JSON エクスポートの宛先ファイル パスを指定します。相対パス、絶対パス、環境変数 (例: `$env:TEMP\metadata.json`)、およびチルダ展開 (例: `~/Documents/metadata.json`) をサポートします。親ディレクトリが存在しない場合は、自動的に作成されます。このパラメーターを省略すると、コマンドレットはオブジェクトをファイルに書き込む代わりにパイプラインに直接出力します。 JSON 出力は、読みやすくするためにインデントを使用してフォーマットされています。
 
 ```yaml
 Type: System.String
@@ -336,7 +330,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Runs the command in a mode that only reports what would happen without performing the actions.
+アクションを実行せずに、何が起こるかを報告するだけのモードでコマンドを実行します。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -358,42 +352,46 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+このコマンドレットは、次の共通パラメーターをサポートします:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
-[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+詳細については、次を参照してください:
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216)。
 
 ## INPUTS
 
 ### None
 
-このコマンドレットはパイプラインからの入力を許可しません。
+このコマンドレットはパイプライン入力を受け入れません。
 
 ## OUTPUTS
 
 ### System.Management.Automation.PSCustomObject
 
-`-Path` が指定されていない場合、または `-PassThru` が使用されている場合、コマンドレットは各カラースクリプトを表すカスタムオブジェクトを返します。各オブジェクトには以下の基本プロパティがあります：
+`-Path` が指定されていない場合、または `-PassThru` が使用されている場合、コマンドレットはカスタム オブジェクトを返します。各オブジェクトは、次の基本プロパティを持つ単一のカラースクリプトを表します。
 
-- **Name**: 拡張子なしのカラースクリプトのファイル名
-- **Category**: 組織化カテゴリ（例: "nature", "abstract", "geometric"）
-- **Tags**: フィルタリングと検索のための記述タグの配列
+- **Name**: 拡張子を除いたカラースクリプトのファイル名
+- **Category**: 主要な組織カテゴリ
+- **Categories**: 割り当てられたすべてのカテゴリ
+- **Tags**: フィルタリングと検索のための説明的なタグの配列
+- **Description**: メタデータの説明
 
-`-IncludeFileInfo` が指定されている場合、以下の追加プロパティが含まれます：
+`-IncludeFileInfo` を指定すると、次の追加プロパティが含まれます。
 
-- **FilePath**: スクリプトファイルへのフルファイルシステムパス
-- **FileSize**: バイト単位のサイズ（ファイルにアクセスできない場合はnull）
-- **LastWriteTime**: 最終変更のタイムスタンプ（利用できない場合はnull）
+- **ScriptPath**: スクリプト ファイルへの完全なファイルシステム パス
+- **ScriptSizeBytes**: バイト単位のサイズ (ファイルにアクセスできない場合は null)
+- **ScriptLastWriteTimeUtc**: 最終変更の UTC タイムスタンプ (使用できない場合は null)
 
-`-IncludeCacheInfo` が指定されている場合、以下の追加プロパティが含まれます：
+`-IncludeCacheInfo` を指定すると、次の追加プロパティが含まれます。
 
-- **CachePath**: 対応するキャッシュファイルへのフルパス
-- **CacheExists**: キャッシュファイルが存在するかどうかを示すブール値
-- **CacheLastWriteTime**: キャッシュファイルの変更タイムスタンプ（キャッシュが存在しない場合はnull）
+- **CachePath**: 対応するキャッシュ ファイルへのフル パス
+- **CacheExists**: 生の .cache ペイロード ファイルが存在するかどうかを示すブール値。ポリシー上の適格性、有効性、最新性を示す値ではありません
+- **CacheLastWriteTimeUtc**: キャッシュ ファイル変更の UTC タイムスタンプ (キャッシュが存在しない場合は null)
 
 ## NOTES
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata)
+- [オンライン バージョン](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata)
 

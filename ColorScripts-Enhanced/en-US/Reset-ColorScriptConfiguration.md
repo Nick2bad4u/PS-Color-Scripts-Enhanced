@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Reset-ColorScriptConfiguration
 Locale: en-US
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Reset-ColorScriptConfiguration
 ---
@@ -29,12 +29,12 @@ This command has no aliases.
 
 ## DESCRIPTION
 
-`Reset-ColorScriptConfiguration` clears all persisted configuration overrides and restores the module to its factory defaults. When executed, this cmdlet:
+`Reset-ColorScriptConfiguration` replaces the persisted configuration with the built-in defaults and resets the module's in-memory cache state. When executed, this cmdlet:
 
-- Removes all custom configuration settings from the configuration file
-- Resets the cache path to the platform-specific default location
-- Restores all startup flags (RunOnStartup, RandomOnStartup, etc.) to their original values
-- Preserves the configuration file structure while clearing user customizations
+- Clears the configured cache-path override so the effective platform default is used
+- Restores `AutoShowOnImport`, `ProfileAutoShow`, and `DefaultScript`
+- Writes the default configuration to `config.json`
+- Clears in-memory cache/configuration state so subsequent operations use the reset values
 
 This cmdlet supports `-WhatIf` and `-Confirm` parameters because it performs a destructive operation by overwriting the configuration file. The reset operation cannot be undone automatically, so users should consider backing up their current configuration using `Get-ColorScriptConfiguration` before proceeding.
 
@@ -93,14 +93,14 @@ Performs a complete factory reset including configuration, cache, and rebuilding
 ```powershell
 # Verify reset was successful
 $config = Reset-ColorScriptConfiguration -PassThru
-if ($config.Cache.Path -match "AppData|\.config") {
+if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
     Write-Host "Configuration successfully reset to platform default"
 } else {
     Write-Host "Configuration reset but using custom path: $($config.Cache.Path)"
 }
 ```
 
-Resets and verifies that the configuration was restored to defaults by checking the cache path.
+Resets and verifies that the persisted cache override is empty and an effective platform path is available.
 
 ## PARAMETERS
 
@@ -193,9 +193,11 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -214,7 +216,7 @@ Returned when `-PassThru` is specified.
 
 The configuration file is stored under the directory resolved by `Get-ColorScriptConfiguration`. By default, this location is platform-specific:
 
-- **Windows**: `$env:LOCALAPPDATA\ColorScripts-Enhanced`
+- **Windows**: `$env:APPDATA\ColorScripts-Enhanced`
 - **Linux/macOS**: `$HOME/.config/ColorScripts-Enhanced`
 
 The environment variable `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` can override the default location if set before module import.

@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration
 Locale: ru
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Get-ColorScriptConfiguration
 ---
@@ -13,7 +13,7 @@ title: Get-ColorScriptConfiguration
 
 ## SYNOPSIS
 
-Retrieves the current ColorScripts-Enhanced module configuration settings.
+Получает текущие настройки конфигурации модуля ColorScripts-Enhanced.
 
 ## SYNTAX
 
@@ -25,26 +25,24 @@ Get-ColorScriptConfiguration [-h]
 
 ## ALIASES
 
-This command has no aliases.
+У этой команды нет псевдонимов.
 
 ## DESCRIPTION
 
-`Get-ColorScriptConfiguration` retrieves the effective module configuration, which controls various aspects of ColorScripts-Enhanced behavior. This includes:
+`Get-ColorScriptConfiguration` возвращает копию действующей конфигурации модуля. Текущая схема содержит:
 
-- **Cache Settings**: Location where script metadata and indexes are stored for performance optimization
-- **Startup Behavior**: Flags that control whether scripts run automatically when PowerShell sessions start
-- **Path Configuration**: Custom script directories and search paths
-- **Display Preferences**: Default formatting and output options
+- **Настройки кэша**: настроенный переопределенный и разрешенный эффективный каталог кэша.
+- **Поведение при запуске**: `AutoShowOnImport`, `ProfileAutoShow` и `DefaultScript`.
 
-The configuration is assembled from multiple sources in order of precedence:
+Конфигурация собирается из нескольких источников в порядке приоритета:
 
-1. Built-in module defaults (lowest priority)
-2. Persisted user overrides from the configuration file
-3. Session-specific modifications (highest priority)
+1. Настройки встроенного модуля по умолчанию (самый низкий приоритет)
+2. Сохраняемые пользовательские переопределения из файла конфигурации.
+3. `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` для возвращаемого эффективного пути к кэшу.
 
-The configuration file is typically located at `%APPDATA%\ColorScripts-Enhanced\config.json` on Windows or `~/.config/ColorScripts-Enhanced/config.json` on Unix-like systems.
+Файл конфигурации обычно находится по адресу `%APPDATA%\ColorScripts-Enhanced\config.json` в Windows или `~/.config/ColorScripts-Enhanced/config.json` в Unix-подобных системах.
 
-The returned hashtable is a snapshot of the current configuration state and can be safely inspected, cloned, or serialized without affecting the active configuration.
+Возвращенная хэш-таблица представляет собой снимок текущего состояния конфигурации, и ее можно безопасно проверять, клонировать или сериализовать, не затрагивая активную конфигурацию.
 
 ## EXAMPLES
 
@@ -54,7 +52,7 @@ The returned hashtable is a snapshot of the current configuration state and can 
 Get-ColorScriptConfiguration
 ```
 
-Displays the current configuration using the default table view, showing all cache and startup settings.
+Отображает текущую конфигурацию с использованием табличного представления по умолчанию, показывая все параметры кэша и запуска.
 
 ### EXAMPLE 2
 
@@ -62,27 +60,29 @@ Displays the current configuration using the default table view, showing all cac
 Get-ColorScriptConfiguration | ConvertTo-Json -Depth 4
 ```
 
-Serializes the configuration to JSON format for logging, debugging, or exporting to other tools.
+Сериализует конфигурацию в формат JSON для ведения журнала, отладки или экспорта в другие инструменты.
 
 ### EXAMPLE 3
 
 ```powershell
 $config = Get-ColorScriptConfiguration
-$config.Cache.Location
+$config.Cache.EffectivePath
 ```
 
-Retrieves the configuration and accesses the cache location path directly from the hashtable.
+Получает разрешенный каталог кэша. `Cache.Path` остается необязательным переопределением, настраиваемым пользователем;
+`Cache.EffectivePath` показывает каталог, который модуль фактически использует после настроек платформы по умолчанию и
+применяются переопределения среды.
 
 ### EXAMPLE 4
 
 ```powershell
 $config = Get-ColorScriptConfiguration
-if ($config.Startup.Enabled) {
-    Write-Host "Startup scripts are enabled"
+if ($config.Startup.AutoShowOnImport) {
+    Write-Host "Сценарии запуска включены"
 }
 ```
 
-Checks whether startup scripts are enabled in the current configuration.
+Проверяет, включены ли сценарии запуска в текущей конфигурации.
 
 ### EXAMPLE 5
 
@@ -90,69 +90,72 @@ Checks whether startup scripts are enabled in the current configuration.
 Get-ColorScriptConfiguration | Format-List *
 ```
 
-Displays all configuration properties in a detailed list format for comprehensive inspection.
+Отображает все свойства конфигурации в формате подробного списка для всесторонней проверки.
 
 ### EXAMPLE 6
 
 ```powershell
 $config = Get-ColorScriptConfiguration
-Write-Host "Cache Path: $($config.Cache.Path)"
-Write-Host "Profile Auto-Show: $($config.Startup.ProfileAutoShow)"
-Write-Host "Default Script: $($config.Startup.DefaultScript)"
+Write-Host "Путь к кэшу: $($config.Cache.Path)"
+Write-Host "Автопоказ профиля: $($config.Startup.ProfileAutoShow)"
+Write-Host "Скрипт по умолчанию: $($config.Startup.DefaultScript)"
 ```
 
-Extracts and displays specific configuration properties for auditing or scripting purposes.
+Извлекает и отображает определенные свойства конфигурации для целей аудита или сценариев.
 
 ### EXAMPLE 7
 
 ```powershell
 $config = Get-ColorScriptConfiguration
 if ($config.Cache.Path) {
-    Write-Host "Custom cache path configured: $($config.Cache.Path)"
+    Write-Host "Настроен пользовательский путь кеширования: $($config.Cache.Path)."
 } else {
-    Write-Host "Using default cache path"
+    Write-Host "Использование пути к кэшу по умолчанию"
 }
+
+Write-Host "Эффективный путь кеширования: $($config.Cache.EffectivePath)."
 ```
 
-Determines whether a custom cache path is configured vs using module defaults.
+Определяет, настроен ли пользовательский путь кеширования или используются значения модуля по умолчанию.
 
 ### EXAMPLE 8
 
 ```powershell
-Export-ColorScriptMetadata | ConvertTo-Json -Depth 5 |
+$config = Get-ColorScriptConfiguration
+$config | ConvertTo-Json -Depth 5 |
     Out-File -FilePath "./backup-config.json" -Encoding UTF8
 ```
 
-Backs up the current configuration to a JSON file for archival or disaster recovery.
+Создает резервную копию текущей конфигурации в файл JSON для архивирования или аварийного восстановления.
 
 ### EXAMPLE 9
 
 ```powershell
-# Compare current config with defaults
+# Сравните текущую конфигурацию со значениями по умолчанию
 $current = Get-ColorScriptConfiguration
 Reset-ColorScriptConfiguration -WhatIf
-# Review the -WhatIf output to see what would change
+# Просмотрите выходные данные -WhatIf, чтобы узнать, что изменится.
 ```
 
-Compares current configuration with module defaults to identify custom settings.
+Сравнивает текущую конфигурацию со значениями модуля по умолчанию для определения пользовательских настроек.
 
 ### EXAMPLE 10
 
 ```powershell
-# Monitor configuration changes across sessions
+# Отслеживание изменений конфигурации между сеансами
 Get-ColorScriptConfiguration |
     Select-Object Cache, Startup |
     Format-List |
     Out-File "./config-snapshot.txt" -Append
 ```
 
-Creates timestamped snapshots of configuration for tracking changes over time.
+Создает снимки конфигурации с отметкой времени для отслеживания изменений с течением времени.
 
 ## PARAMETERS
 
 ### -h
 
-Показывает подробную справку по команде, не выполняя операцию.
+Отображает подробную справку по этой команде без выполнения операции.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -174,55 +177,56 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Этот командлет поддерживает следующие общие параметры:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Дополнительные сведения см. в разделе
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
 
-This cmdlet does not accept pipeline input.
+Этот командлет не принимает входные данные конвейера.
 
 ## OUTPUTS
 
 ### System.Collections.Hashtable
 
-Returns a nested hashtable containing the following structure:
+Возвращает вложенную хеш-таблицу, содержащую следующую структуру:
 
-- **Cache** (Hashtable): Cache-related settings
-  - **Location** (String): Path to the cache directory
-  - **Enabled** (Boolean): Whether caching is active
-- **Startup** (Hashtable): Startup behavior settings
-  - **Enabled** (Boolean): Whether scripts run on session start
-  - **ScriptName** (String): Name of the default startup script
-- **Paths** (Array): Additional script search paths
-- **Display** (Hashtable): Output formatting preferences
+- **Cache** (хэш-таблица): настройки, связанные с кешем.
+- **Path** (строка): необязательное переопределение пути к постоянному кэшу.
+- **EffectivePath** (String): разрешенный каталог кэша, используемый в данный момент модулем.
+- **Startup** (хэш-таблица): настройки поведения при запуске.
+- **AutoShowOnImport** (логическое значение): вызывает ли импорт поведение отображения при запуске.
+- **ProfileAutoShow** (логическое значение): выбор автоматического отображения по умолчанию для блоков управляемого профиля.
+- **DefaultScript** (строка): необязательный именованный цветовой сценарий запуска.
 
 ## NOTES
 
-**Module Initialization**: The configuration is initialized automatically when the ColorScripts-Enhanced module loads. This cmdlet retrieves the current in-memory configuration state.
+**Инициализация модуля**: конфигурация инициализируется автоматически при загрузке модуля ColorScripts-Enhanced. Этот командлет извлекает текущее состояние конфигурации в памяти.
 
-**No Modifications**: Calling this cmdlet is read-only and does not modify any persisted settings or the active configuration.
+**Без изменений**: вызов этого командлета доступен только для чтения и не изменяет никакие сохраненные параметры или активную конфигурацию.
 
-**Thread Safety**: The returned hashtable is a copy of the configuration, making it safe for concurrent access and modification without affecting the module's internal state.
+**Потокобезопасность**: возвращаемая хэш-таблица представляет собой копию конфигурации, что делает ее безопасной для одновременного доступа и изменения, не затрагивая внутреннее состояние модуля.
 
-**Performance**: Configuration retrieval is lightweight and suitable for frequent calls, as it returns the cached in-memory configuration rather than reading from disk.
+**Производительность**: получение конфигурации является упрощенным и подходит для частых вызовов, поскольку возвращает кэшированную конфигурацию в памяти, а не считывает с диска.
 
-**Configuration File Format**: The persisted configuration uses JSON format with UTF-8 encoding. Manual editing is supported but not recommended; use `Set-ColorScriptConfiguration` instead.
+**Формат файла конфигурации**. Сохраняемая конфигурация использует формат JSON с кодировкой UTF-8. Редактирование вручную поддерживается, но не рекомендуется; вместо этого используйте `Set-ColorScriptConfiguration`.
 
-### Best Practices
+### Рекомендации
 
-- Query configuration once and reuse the result
-- Validate configuration before using values
-- Monitor configuration for drift over time
-- Keep configuration backups in version control
-- Document any customizations made to configuration
-- Test configuration changes in non-production first
-- Use configuration audit logs for compliance
+- Запросить конфигурацию один раз и повторно использовать результат
+- Проверка конфигурации перед использованием значений.
+- Мониторинг конфигурации на предмет дрейфа с течением времени
+- Сохраняйте резервные копии только там, где они не могут раскрыть пути, специфичные для машины, или личные данные.
+- Документируйте любые изменения, внесенные в конфигурацию.
+- Сначала протестируйте изменения конфигурации в непроизводственной среде.
+- Используйте журналы аудита конфигурации для обеспечения соответствия.
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
+- [Онлайн-версия](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
 

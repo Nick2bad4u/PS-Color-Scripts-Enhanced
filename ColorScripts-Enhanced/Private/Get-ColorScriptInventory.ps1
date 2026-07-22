@@ -88,7 +88,7 @@ function Get-ColorScriptInventory {
             }
             catch {
                 try {
-                    return @(Get-ChildItem -Path $Path -Filter '*.ps1' -File -ErrorAction Stop)
+                    return @(Get-ChildItem -LiteralPath $Path -Filter '*.ps1' -File -ErrorAction Stop)
                 }
                 catch {
                     return @()

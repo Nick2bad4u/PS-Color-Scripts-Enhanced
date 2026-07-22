@@ -123,7 +123,9 @@
     $profileDirectory = [System.IO.Path]::GetDirectoryName($profileSpec)
     $existingContent = ''
     if (Test-Path -LiteralPath $profileSpec) {
-        $existingContent = Get-Content -LiteralPath $profileSpec -Raw
+        # The module writes profiles as UTF-8 without a BOM. Windows PowerShell 5.1 otherwise
+        # interprets that format using the active ANSI code page on the next update.
+        $existingContent = Get-Content -LiteralPath $profileSpec -Raw -Encoding UTF8 -ErrorAction Stop
     }
 
     $newline = if ($existingContent -match "`r`n") {
@@ -353,7 +355,13 @@
                 }
             }
             catch {
-                if ($profileFullPath.StartsWith($tempRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
+                $normalizedTempRoot = $tempRoot.TrimEnd(
+                    [System.IO.Path]::DirectorySeparatorChar,
+                    [System.IO.Path]::AltDirectorySeparatorChar
+                )
+                $tempPrefix = $normalizedTempRoot + [System.IO.Path]::DirectorySeparatorChar
+                if ([string]::Equals($profileFullPath, $normalizedTempRoot, [System.StringComparison]::OrdinalIgnoreCase) -or
+                    $profileFullPath.StartsWith($tempPrefix, [System.StringComparison]::OrdinalIgnoreCase)) {
                     $isUnderTemp = $true
                 }
             }
@@ -438,8 +446,14 @@
         }
     }
 
-    if ($Force) {
-        $updatedContent = [System.Text.RegularExpressions.Regex]::Replace($updatedContent, $importPattern + '(?:\r?\n)?', '', 'Multiline')
+    # A user-owned import outside the managed block remains authoritative. When
+    # refreshing with -Force, keep that line and avoid adding a duplicate import
+    # inside the generated block.
+    if ($Force -and $updatedContent -match $importPattern) {
+        $snippet = [System.Text.RegularExpressions.Regex]::Replace(
+            $snippet,
+            '(?mi)^Import-Module\s+ColorScripts-Enhanced\b[^\r\n]*(?:\r?\n)?',
+            '')
     }
 
     if ($PSCmdlet.ShouldProcess($profileSpec, 'Add ColorScripts-Enhanced profile snippet')) {

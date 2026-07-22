@@ -17,7 +17,7 @@ function Get-PokemonScriptNameSet {
     }
 
     $nameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
-    $importParams = @{ Path = $metadataPath }
+    $importParams = @{ LiteralPath = $metadataPath }
     $command = $null
     try {
         $command = Get-Command -Name 'Import-PowerShellDataFile' -ErrorAction SilentlyContinue

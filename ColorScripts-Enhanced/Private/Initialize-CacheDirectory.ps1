@@ -1,10 +1,25 @@
 function Initialize-CacheDirectory {
-    if ($script:CacheInitialized -and $script:CacheDir) {
+    param(
+        [switch]$ReadOnly,
+
+        [switch]$RefreshMetadata
+    )
+
+    if ($script:CacheInitialized -and $script:CacheDir -and -not $RefreshMetadata) {
         return
     }
 
+    $shouldRemainReadOnly = $ReadOnly.IsPresent
+
     Invoke-ModuleSynchronized $script:CacheSyncRoot {
         if ($script:CacheInitialized -and $script:CacheDir) {
+            if ($RefreshMetadata) {
+                $metadataFileName = 'cache-metadata-v{0}.json' -f $script:CacheFormatVersion
+                Write-CacheMetadataFile -CacheDirectory $script:CacheDir -MetadataFileName $metadataFileName
+                $script:CacheValidationPerformed = $true
+                $script:CacheValidationManualOverride = $false
+            }
+
             return
         }
 
@@ -58,6 +73,33 @@ function Initialize-CacheDirectory {
 
         $candidatePaths = @($candidatePaths | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
 
+        if ($shouldRemainReadOnly) {
+            foreach ($candidatePath in $candidatePaths) {
+                $resolvedCandidate = Resolve-CachePath -Path $candidatePath
+                if (-not $resolvedCandidate -or (Test-Path -LiteralPath $resolvedCandidate -PathType Leaf)) {
+                    continue
+                }
+
+                if (Test-Path -LiteralPath $resolvedCandidate -PathType Container) {
+                    try {
+                        $resolvedCandidate = (Resolve-Path -LiteralPath $resolvedCandidate -ErrorAction Stop).ProviderPath
+                    }
+                    catch {
+                        Write-ModuleTrace ("Read-only cache path normalization failed for '{0}': {1}" -f $resolvedCandidate, $_.Exception.Message)
+                    }
+                }
+
+                # Record the effective target for cache probes and WhatIf result objects without
+                # marking initialization complete. A later approved mutation will still perform
+                # normal directory creation and metadata validation.
+                $script:CacheDir = $resolvedCandidate
+                return
+            }
+
+            $script:CacheDir = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath 'ColorScripts-Enhanced'
+            return
+        }
+
         $onCreateFailure = {
             param($target, $errorRecord)
             $message = if ($errorRecord -and $errorRecord.Exception) { $errorRecord.Exception.Message } elseif ($errorRecord) { $errorRecord.ToString() } else { 'unknown reason' }
@@ -83,7 +125,7 @@ function Initialize-CacheDirectory {
             $script:CacheInitialized = $true
 
             $shouldValidate = $false
-            if ($forceViaEnv -or $script:CacheValidationManualOverride) {
+            if ($RefreshMetadata -or $forceViaEnv -or $script:CacheValidationManualOverride) {
                 $shouldValidate = $true
             }
             elseif (-not $script:CacheValidationPerformed) {
@@ -140,7 +182,7 @@ function Initialize-CacheDirectory {
         $script:CacheInitialized = $true
 
         $shouldValidateFallback = $false
-        if ($forceViaEnv -or $script:CacheValidationManualOverride) {
+        if ($RefreshMetadata -or $forceViaEnv -or $script:CacheValidationManualOverride) {
             $shouldValidateFallback = $true
         }
         elseif (-not $script:CacheValidationPerformed) {

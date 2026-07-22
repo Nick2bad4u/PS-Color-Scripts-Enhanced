@@ -11,7 +11,8 @@ function Export-ColorScriptMetadata {
     .PARAMETER IncludeFileInfo
     Attach file system information (full path, file size, and last write time) for each colorscript.
     .PARAMETER IncludeCacheInfo
-    Attach cache metadata including the cache location, whether a cache file exists, and its timestamp.
+    Attach the raw .cache payload path, file-presence flag, and last-write timestamp. These fields do
+    not report cache-policy eligibility, .cacheinfo sidecar presence, validity, or currentness.
     .PARAMETER PassThru
     Return the in-memory objects even when writing to a file.
     .LINK
@@ -117,7 +118,7 @@ function Export-ColorScriptMetadata {
             $directoryReady = Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $outputDirectory -Action 'Create export directory'
 
             if ($directoryReady) {
-                New-Item -ItemType Directory -Path $outputDirectory -Force | Out-Null
+                New-Item -ItemType Directory -Path $outputDirectory -Force -ErrorAction Stop | Out-Null
             }
         }
 
@@ -130,7 +131,7 @@ function Export-ColorScriptMetadata {
         }
 
         $json = $payload | ConvertTo-Json -Depth 6
-        Set-Content -Path $resolvedPath -Value ($json + [Environment]::NewLine) -Encoding UTF8
+        Invoke-FileWriteAllText -Path $resolvedPath -Content ($json + [Environment]::NewLine) -Encoding $script:Utf8NoBomEncoding
 
         if ($PassThru) {
             return $payload

@@ -29,8 +29,10 @@ function Get-ColorScriptCacheableNameSet {
 
     if ($policyLastWriteTime) {
         try {
-            $policy = Import-PowerShellDataFile -Path $policyPath -ErrorAction Stop
-            if ($policy -is [hashtable] -and $policy.CacheableScripts -is [System.Collections.IEnumerable]) {
+            $policy = Import-PowerShellDataFile -LiteralPath $policyPath -ErrorAction Stop
+            if ($policy -is [hashtable] -and
+                $policy.CacheableScripts -isnot [string] -and
+                $policy.CacheableScripts -is [System.Collections.IEnumerable]) {
                 foreach ($scriptName in $policy.CacheableScripts) {
                     $name = [string]$scriptName
                     if (-not [string]::IsNullOrWhiteSpace($name)) {
@@ -39,7 +41,9 @@ function Get-ColorScriptCacheableNameSet {
                 }
             }
 
-            if ($policy -is [hashtable] -and $policy.CacheablePokemonScripts -is [System.Collections.IEnumerable]) {
+            if ($policy -is [hashtable] -and
+                $policy.CacheablePokemonScripts -isnot [string] -and
+                $policy.CacheablePokemonScripts -is [System.Collections.IEnumerable]) {
                 foreach ($scriptName in $policy.CacheablePokemonScripts) {
                     $name = [string]$scriptName
                     if (-not [string]::IsNullOrWhiteSpace($name) -and $nameSet.Contains($name)) {
@@ -49,7 +53,8 @@ function Get-ColorScriptCacheableNameSet {
             }
         }
         catch {
-            # A missing or invalid policy must never broaden caching. Direct execution is the safe fallback.
+            # A missing or invalid policy must never broaden caching. The normal non-cache rendering
+            # boundary remains the safe fallback for the script type.
             Write-Verbose ("Unable to load cache policy '{0}': {1}" -f $policyPath, $_.Exception.Message)
         }
     }
@@ -81,8 +86,9 @@ function Test-ColorScriptRequiresCache {
 
     .DESCRIPTION
         The policy intentionally opts in computational renderers whose loops, math, and helper
-        functions make repeated execution expensive. Static output scripts and unknown custom
-        scripts execute directly and do not create cache entries.
+        functions make repeated rendering expensive. Deterministic bundled output is statically
+        extracted in-process, while unknown custom non-static scripts retain child-process isolation;
+        neither path creates persistent cache entries unless explicitly selected by policy.
     #>
     [CmdletBinding()]
     [OutputType([bool])]
@@ -101,5 +107,9 @@ function Test-ColorScriptRequiresCache {
     }
 
     $cacheableNames = Get-ColorScriptCacheableNameSet
-    return $cacheableNames.Contains($scriptName)
+    if (-not $cacheableNames.Contains($scriptName)) {
+        return $false
+    }
+
+    return Test-ColorScriptIsBundledPath -ScriptPath $ScriptPath -ScriptName $scriptName
 }

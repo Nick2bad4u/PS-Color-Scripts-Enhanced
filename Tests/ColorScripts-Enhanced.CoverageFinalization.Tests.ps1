@@ -628,7 +628,7 @@
                     }
                 }
 
-                Clear-ColorScriptCache -Name @('ghost', 'missing')
+                Clear-ColorScriptCache -Name @('ghost', 'missing') -PassThru
             }
 
             $results | Should -HaveCount 2

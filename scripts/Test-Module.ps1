@@ -120,7 +120,7 @@ try {
                 throw "Dynamic cache build did not create an entry (status: $($build.Status))."
             }
 
-            $clear = Clear-ColorScriptCache -Name 'Galaxy' -Confirm:$false -ErrorAction Stop
+            $clear = Clear-ColorScriptCache -Name 'Galaxy' -Confirm:$false -PassThru -ErrorAction Stop
             if ($clear.Status -ne 'Removed') {
                 throw "Dynamic cache clear did not remove the entry (status: $($clear.Status))."
             }

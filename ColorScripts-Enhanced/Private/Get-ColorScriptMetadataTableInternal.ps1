@@ -1,6 +1,6 @@
 ﻿function Get-ColorScriptMetadataTableInternal {
     $currentTimestamp = $null
-    if (Test-Path $script:MetadataPath) {
+    if (Test-Path -LiteralPath $script:MetadataPath) {
         try {
             $currentTimestamp = (Get-Item -LiteralPath $script:MetadataPath).LastWriteTimeUtc
         }
@@ -75,7 +75,7 @@
                 $metadataIsCurrent = -not $currentTimestamp -or $cacheFileInfo.LastWriteTimeUtc -ge $currentTimestamp
                 $inventoryIsCurrent = -not $currentInventoryTimestamp -or $cacheFileInfo.LastWriteTimeUtc -ge $currentInventoryTimestamp
                 if ($metadataIsCurrent -and $inventoryIsCurrent) {
-                    $jsonData = Get-Content -LiteralPath $binaryCachePath -Raw -ErrorAction Stop
+                    $jsonData = Get-Content -LiteralPath $binaryCachePath -Raw -Encoding UTF8 -ErrorAction Stop
                     $cachedHash = ConvertFrom-JsonToHashtable -InputObject $jsonData
 
                     $loadedStore = New-Object 'System.Collections.Generic.Dictionary[string, object]' ([System.StringComparer]::OrdinalIgnoreCase)
@@ -126,12 +126,12 @@
 
     $data = $null
 
-    if (Test-Path $script:MetadataPath) {
+    if (Test-Path -LiteralPath $script:MetadataPath) {
         # Import ScriptMetadata.psd1 as a pure data file. On newer
         # PowerShell versions, use -SkipLimitCheck so large, static
         # datasets (like the full Pokémon category list) are loaded
         # without being rejected by size/complexity heuristics.
-        $importParams = @{ Path = $script:MetadataPath }
+        $importParams = @{ LiteralPath = $script:MetadataPath }
         $supportsSkipLimitCheck = $false
 
         try {

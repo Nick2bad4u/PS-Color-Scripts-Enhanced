@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript
 Locale: nl
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: New-ColorScript
 ---
@@ -13,7 +13,7 @@ title: New-ColorScript
 
 ## SYNOPSIS
 
-Scaffold a new colorscript file and optionally emit metadata guidance.
+Creëer een nieuw colorscript-bestand en zend optioneel metadatabegeleiding uit.
 
 ## SYNTAX
 
@@ -32,27 +32,27 @@ New-ColorScript [-h] [-Name <string>] [-WhatIf] [-Confirm]
 
 ## ALIASES
 
-This command has no aliases.
+Deze opdracht heeft geen aliassen.
 
 ## DESCRIPTION
 
-The `New-ColorScript` cmdlet creates a complete colorscript skeleton that serves as a foundation for developing custom ANSI art scripts. The generated file includes a pre-formatted template with ANSI escape sequence examples, proper UTF-8 encoding without a byte-order mark (BOM), and optional metadata guidance for integration with the module's metadata system.
+De cmdlet `New-ColorScript` maakt een minimale colorscript-scaffold met daarin een string-array en een lus die elke regel schrijft. Het bestand is gecodeerd als UTF-8 zonder bytevolgordemarkering (BOM). Optionele richtlijnen voor metagegevens kunnen als commentaar in het gegenereerde bestand worden opgenomen en in het resultaatobject worden geretourneerd.
 
-By default, the script is written into the module's `Scripts` directory, ensuring it can be automatically discovered by the module's script enumeration functions. However, the `-OutputPath` parameter allows targeting any custom directory for development or testing purposes.
+Zowel `-Name` als `-OutputPath` zijn verplicht bij het steigeren. `-OutputPath` identificeert een map; de opdracht maakt de map aan wanneer dat nodig is en schrijft daarin `<Name>.ps1`.
 
-Script names must follow PowerShell naming conventions: they must begin with an alphanumeric character and may include underscores or hyphens. The `.ps1` extension is automatically appended if not provided. Existing files are protected from accidental overwrites unless the `-Force` switch is explicitly specified.
+Scriptnamen moeten de naamgevingsconventies van PowerShell volgen: ze moeten beginnen met een alfanumeriek teken en mogen onderstrepingstekens of koppeltekens bevatten. De `.ps1`-extensie wordt automatisch toegevoegd als deze niet is opgegeven. Bestaande bestanden zijn beschermd tegen onbedoelde overschrijvingen, tenzij de schakeloptie `-Force` expliciet is opgegeven.
 
-When combined with the `-GenerateMetadataSnippet` parameter, the cmdlet produces ready-to-use PowerShell code that demonstrates how to register the new script in `ScriptMetadata.psd1`. This guidance includes the category and tag values specified through the respective parameters, streamlining the process of integrating custom scripts into the module's organizational structure.
+In combinatie met `-GenerateMetadataSnippet` retourneert de cmdlet richtlijnen die de vermelding beschrijven die moet worden toegevoegd aan `ScriptMetadata.psd1`. De opgegeven categorie- en tagwaarden worden ook geretourneerd als arrays op het resultaatobject.
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 
 ```powershell
-New-ColorScript -Name 'my-spectrum' -GenerateMetadataSnippet -Category 'Artistic' -Tag 'Custom','Demo'
+New-ColorScript -Name 'my-spectrum' -OutputPath ./ColorScripts-Enhanced/Scripts -GenerateMetadataSnippet -Category 'Artistic' -Tag 'Custom','Demo'
 ```
 
-Creates `my-spectrum.ps1` in the module's `Scripts` directory and returns a PowerShell object containing the file path and a metadata snippet. The snippet shows how to add an entry to `ScriptMetadata.psd1` with the 'Artistic' category and tags 'Custom' and 'Demo'.
+Creëert `my-spectrum.ps1` in de gevraagde map en retourneert een object met het bestandspad en de metagegevens.
 
 ### EXAMPLE 2
 
@@ -60,16 +60,16 @@ Creates `my-spectrum.ps1` in the module's `Scripts` directory and returns a Powe
 New-ColorScript -Name 'holiday-banner' -OutputPath '~/Dev/colorscripts' -Force
 ```
 
-Generates the scaffold under a custom directory (`~/Dev/colorscripts`), creating the directory if it doesn't exist. If a file named `holiday-banner.ps1` already exists in that location, it will be overwritten due to the `-Force` switch.
+Genereert de steiger onder een aangepaste map (`~/Dev/colorscripts`), waarbij de map wordt gemaakt als deze niet bestaat. Als er al een bestand met de naam `holiday-banner.ps1` op die locatie bestaat, wordt dit overschreven vanwege de `-Force`-switch.
 
 ### EXAMPLE 3
 
 ```powershell
-$result = New-ColorScript -Name 'retro-wave' -Category 'Retro' -Tag '80s','Neon' -GenerateMetadataSnippet
+$result = New-ColorScript -Name 'retro-wave' -OutputPath ./ColorScripts-Enhanced/Scripts -Category 'Artistic' -Tag '80s','Neon' -GenerateMetadataSnippet
 $result.MetadataGuidance | Set-Clipboard
 ```
 
-Creates a new colorscript and copies the metadata guidance to the clipboard, making it easy to paste into `ScriptMetadata.psd1`.
+Creëert een nieuwe colorscript en kopieert de metagegevens naar het klembord, zodat u deze eenvoudig in `ScriptMetadata.psd1` kunt plakken.
 
 ### EXAMPLE 4
 
@@ -77,91 +77,90 @@ Creates a new colorscript and copies the metadata guidance to the clipboard, mak
 New-ColorScript -Name 'test-pattern' -OutputPath '.\temp' -WhatIf
 ```
 
-Shows what would happen when creating a test pattern script in the `.\temp` directory without actually creating the file. Useful for validating paths and names before execution.
+Laat zien wat er zou gebeuren bij het maken van een testpatroonscript in de map `.\temp` zonder het bestand daadwerkelijk te maken. Handig voor het valideren van paden en namen vóór uitvoering.
 
 ### EXAMPLE 5
 
 ```powershell
-# Create multiple colorscripts for a project
+# Maak meerdere colorscripts voor een project
 $scriptNames = @("company-logo", "team-banner", "status-display")
 foreach ($name in $scriptNames) {
     New-ColorScript -Name $name -Category "Corporate" -Tag "Custom" -OutputPath ".\src" | Out-Null
 }
-Write-Host "Created $($scriptNames.Count) colorscript templates"
+Write-Host "$($scriptNames.Count) colorscript-sjablonen gemaakt"
 ```
 
-Creates multiple colorscript templates in batch for a project.
+Creëert meerdere colorscript-sjablonen in batch voor een project.
 
 ### EXAMPLE 6
 
 ```powershell
-# Create and immediately open in editor
-$scaffold = New-ColorScript -Name "my-art" -Category "Artistic" -GenerateMetadataSnippet
-code $scaffold.Path  # Opens in VS Code
+# Maak en open onmiddellijk in de editor
+New-ColorScript -Name "my-art" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Artistic" -GenerateMetadataSnippet -OpenInEditor
 ```
 
-Creates a colorscript and opens it immediately in the default editor for editing.
+Creëert een colorscript en vraagt de geregistreerde handler van het platform om deze te openen.
 
 ### EXAMPLE 7
 
 ```powershell
-# Create with full workflow automation
-$newScript = New-ColorScript -Name "interactive-demo" -Category "Educational" -Tag "Interactive","Demo" -GenerateMetadataSnippet
-Write-Host "Created: $($newScript.ScriptName)"
-Write-Host "Path: $($newScript.Path)"
-Write-Host "Metadata guidance ready in clipboard"
+# Creëer met volledige workflowautomatisering
+$newScript = New-ColorScript -Name "interactive-demo" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Custom" -Tag "Interactive","Demo" -GenerateMetadataSnippet
+Write-Host "Gemaakt: $($newScript.Name)"
+Write-Host "Pad: $($newScript.Path)"
+Write-Host "Metadata-aanwijzingen naar het klembord gekopieerd"
 $newScript.MetadataGuidance | Set-Clipboard
 ```
 
-Creates a colorscript with metadata guidance automatically copied to clipboard.
+Creëert een colorscript met metadatabegeleiding die automatisch naar het klembord wordt gekopieerd.
 
 ### EXAMPLE 8
 
 ```powershell
-# Verify script name conventions
-$validName = "my-awesome-script"
-$invalidNames = @("123start", "-invalid", "_underscore-only")
+# Controleer de naamconventies van scripts
+$validName = "123-start"
+$invalidNames = @("-invalid", "_underscore-only", "contains space")
 foreach ($name in $invalidNames) {
     try {
-        New-ColorScript -Name $name -WhatIf -ErrorAction Stop
+        New-ColorScript -Name $name -OutputPath ./temp -WhatIf -ErrorAction Stop
     } catch {
-        Write-Warning "Invalid name '$name': $_"
+        Write-Warning "Ongeldige naam '$name': $_"
     }
 }
 ```
 
-Demonstrates naming convention validation for colorscripts.
+Demonstreert naamgevingsconventievalidatie voor colorscripts.
 
 ### EXAMPLE 9
 
 ```powershell
-# Create in portable location for distribution
+# Creëer op een draagbare locatie voor distributie
 $portableDir = Join-Path $PSScriptRoot "colorscripts"
 $scaffold = New-ColorScript -Name "portable-art" -OutputPath $portableDir -GenerateMetadataSnippet
-Write-Host "Created portable colorscript at: $($scaffold.Path)"
+Write-Host "Draagbare colorscript gemaakt in: $($scaffold.Path)"
 ```
 
-Creates colorscripts in a portable location relative to the current script.
+Creëert colorscripts op een draagbare locatie relatief aan het huidige script.
 
 ### EXAMPLE 10
 
 ```powershell
-# Create with category and tag validation
+# Creëer met categorie- en tagvalidatie
 $categories = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Category -Unique
 if ("Retro" -in $categories) {
-    New-ColorScript -Name "retro-party" -Category "Retro" -Tag "Fun","Social"
+    New-ColorScript -Name "retro-party" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Artistic" -Tag "Fun","Social"
 } else {
-    Write-Warning "Retro category not found"
+    Write-Warning "Categorie Retro niet gevonden"
 }
 ```
 
-Validates that a category exists before creating a new colorscript.
+Valideert dat een categorie bestaat voordat een nieuwe colorscript wordt gemaakt.
 
 ## PARAMETERS
 
 ### -Category
 
-Specificeert de categorie voor het nieuwe colorscript. Categorieën helpen scripts thematisch te organiseren.
+Specificeert een of meer categorieën die met de steiger worden geretourneerd en zijn opgenomen in richtlijnen voor metagegevens. Waarden moeten overeenkomen met de categorieën die al in `ScriptMetadata.psd1` worden gebruikt.
 
 ```yaml
 Type: System.String[]
@@ -182,7 +181,7 @@ HelpMessage: ''
 
 ### -Confirm
 
-Vraagt om bevestiging voordat de cmdlet wordt uitgevoerd.
+Vraagt u om bevestiging voordat u de cmdlet uitvoert.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -204,7 +203,7 @@ HelpMessage: ''
 
 ### -Force
 
-Overwrites an existing colorscript file at the resolved output path.
+Overschrijft het doelbestand als dit al bestaat. Zonder deze schakeloptie wordt de cmdlet beëindigd met een fout als er op de doellocatie een bestand met dezelfde naam wordt gevonden. Wees voorzichtig bij het gebruik om gegevensverlies te voorkomen.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -226,7 +225,7 @@ HelpMessage: ''
 
 ### -GenerateMetadataSnippet
 
-Includes metadata guidance for adding the new script to ScriptMetadata.psd1.
+Bevat een begeleidingsfragment in de uitvoer dat laat zien hoe u het nieuwe script in `ScriptMetadata.psd1` registreert. Het fragment gebruikt de waarden uit de parameters `-Category` en `-Tag`, indien opgegeven. Dit is met name handig voor het behouden van consistente metagegevens voor alle colorscripts in de module.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -247,7 +246,7 @@ HelpMessage: ''
 
 ### -h
 
-Toont gedetailleerde hulp voor deze opdracht zonder de bewerking uit te voeren.
+Geeft gedetailleerde hulp weer voor deze opdracht zonder de bewerking uit te voeren.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -275,7 +274,7 @@ HelpMessage: ''
 
 ### -Name
 
-De naam van het nieuwe colorscript (zonder .ps1 extensie).
+Specificeert de naam van de nieuwe colorscript. De naam moet beginnen met een alfanumeriek teken en mag onderstrepingstekens of koppeltekens bevatten. De `.ps1`-extensie wordt automatisch toegevoegd als deze niet is opgenomen. Deze naam wordt gebruikt als de bestandsnaam en moet een beschrijving zijn van de inhoud of het thema van het script.
 
 ```yaml
 Type: System.String
@@ -302,7 +301,7 @@ HelpMessage: ''
 
 ### -OpenInEditor
 
-Opens the generated colorscript with the command configured by the environment when creation succeeds.
+Opent de gegenereerde colorscript met de opdracht die door de omgeving is geconfigureerd wanneer het maken is gelukt.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -323,7 +322,7 @@ HelpMessage: ''
 
 ### -OutputPath
 
-Specifies the target directory or .ps1 file path for the generated colorscript.
+Geeft de verplichte doelmap op. De opdracht maakt <Name>.ps1 in deze map.
 
 ```yaml
 Type: System.String
@@ -346,7 +345,7 @@ HelpMessage: ''
 
 ### -Tag
 
-Specifies metadata tags to include in the generated metadata guidance.
+Specificeert een of meer metadatatags voor de colorscript. Tags biedt aanvullende classificatie buiten de primaire categorie en is handig voor filteren en zoeken. Veelgebruikte tags zijn themadescriptors zoals 'Minimal', 'Colorful', 'Animated', technologiereferenties zoals 'Matrix', 'ASCII', of contextuele markeringen zoals 'Holiday', 'Season'. Er kunnen meerdere tags worden opgegeven als een door komma's gescheiden array.
 
 ```yaml
 Type: System.String[]
@@ -367,7 +366,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Toont wat er zou gebeuren als de cmdlet wordt uitgevoerd. De cmdlet wordt niet uitgevoerd.
+Laat zien wat er zou gebeuren als de cmdlet wordt uitgevoerd zonder daadwerkelijk enige actie uit te voeren. Toont het bestandspad dat zou worden aangemaakt en eventuele validatiecontroles die zouden worden uitgevoerd. De cmdlet maakt geen bestanden of mappen wanneer deze schakeloptie is opgegeven.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -389,57 +388,58 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Deze cmdlet ondersteunt de algemene parameters:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Zie voor meer informatie
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
 
-You cannot pipe objects to this cmdlet.
+U kunt geen objecten naar deze cmdlet doorsluizen.
 
 ## OUTPUTS
 
 ### System.Management.Automation.PSCustomObject
 
-The cmdlet returns a custom object with the following properties:
+De cmdlet retourneert een aangepast object met de volgende eigenschappen:
 
-- **ScriptName**: The name of the created colorscript (including .ps1 extension)
-- **Path**: The full path to the generated file
-- **Category**: The category value that was specified (if any)
-- **Tags**: The array of tag values that were specified (if any)
-- **MetadataGuidance**: The metadata snippet text (only when -GenerateMetadataSnippet is used)
+- **Name**: de naam colorscript zonder de extensie `.ps1`
+- **Path**: het volledige pad naar het gegenereerde bestand
+- **Categories**: de array met categoriewaarden die is opgegeven (indien aanwezig)
+- **Tags**: de reeks tagwaarden die zijn opgegeven (indien aanwezig)
+- **MetadataGuidance**: de tekst van het metadatafragment (alleen als -GenerateMetadataSnippet wordt gebruikt)
 
 ## NOTES
 
-**Encoding**: The scaffold is written with UTF-8 encoding without a byte-order mark (BOM), ensuring compatibility across different platforms and editors.
+**Codering**: De scaffold is geschreven met UTF-8-codering zonder een byte-ordermarkering (BOM), waardoor compatibiliteit tussen verschillende platforms en editors wordt gegarandeerd.
 
-**Template Structure**: The generated template includes:
+**Sjabloonstructuur**: De gegenereerde sjabloon omvat:
 
-- A comment-based help block with placeholders for documentation
-- An ANSI art sample block demonstrating color sequences and formatting
-- Proper PowerShell script structure with clear sections for customization
+- Een steigercommentaar
+- Een tijdelijke aanduiding voor de string-array voor de art
+- Een lus die elke regel schrijft met `Write-Host`
 
-**Metadata Integration**: While the cmdlet can generate metadata guidance, you must manually add the snippet to `ScriptMetadata.psd1` to fully integrate the script into the module's discovery and categorization system.
+**Metadata-integratie**: hoewel de cmdlet richtlijnen voor metagegevens kan genereren, moet u het fragment handmatig toevoegen aan `ScriptMetadata.psd1` om het script volledig te integreren in het detectie- en categorisatiesysteem van de module.
 
-**Development Workflow**:
+**Ontwikkelingsworkflow**:
 
-1. Use `New-ColorScript` to create the scaffold
-2. Edit the generated .ps1 file to add your ANSI art
-3. If metadata guidance was generated, copy it to `ScriptMetadata.psd1`
-4. Run `New-ColorScriptCache` to rebuild the module's cache
-5. Test your script with `Show-ColorScript -Name <your-script-name>`
+1. Gebruik `New-ColorScript` om de steiger te maken
+2. Bewerk het gegenereerde .ps1-bestand om uw ANSI-kunst toe te voegen
+3. Als er metadatarichtlijnen zijn gegenereerd, kopieer deze dan naar `ScriptMetadata.psd1`
+4. Test uw script met `Show-ColorScript -Name <your-script-name>`
 
-**Best Practices**:
+**Beste praktijken**:
 
-- Choose descriptive, hyphenated names that clearly indicate the script's theme
-- Use consistent category values that align with existing scripts
-- Apply multiple tags to improve discoverability
-- Test scripts in different terminal environments to ensure compatibility
+- Kies beschrijvende namen met koppeltekens die duidelijk het thema van het script aangeven
+- Gebruik consistente categoriewaarden die aansluiten bij bestaande scripts
+- Pas meerdere tags toe om de vindbaarheid te verbeteren
+- Testscripts in verschillende terminalomgevingen om compatibiliteit te garanderen
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [Onlineversie](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
 

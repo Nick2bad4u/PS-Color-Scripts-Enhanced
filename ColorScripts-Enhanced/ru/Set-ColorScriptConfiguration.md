@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration
 Locale: ru
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Set-ColorScriptConfiguration
 ---
@@ -13,7 +13,7 @@ title: Set-ColorScriptConfiguration
 
 ## SYNOPSIS
 
-Persist changes to the ColorScripts-Enhanced cache and startup configuration.
+Сохранять изменения в кэше ColorScripts-Enhanced и конфигурации запуска.
 
 ## SYNTAX
 
@@ -26,11 +26,11 @@ Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <b
 
 ## ALIASES
 
-This command has no aliases.
+У этой команды нет псевдонимов.
 
 ## DESCRIPTION
 
-`Set-ColorScriptConfiguration` provides a persistent way to customize the behavior and storage location of the ColorScripts-Enhanced module. This cmdlet updates the module's configuration file, allowing you to control various aspects of script rendering and storage.
+`Set-ColorScriptConfiguration` предоставляет постоянный способ настройки поведения и места хранения модуля ColorScripts-Enhanced. Этот командлет обновляет файл конфигурации модуля, позволяя вам контролировать различные аспекты отрисовки и хранения скриптов.
 
 ## EXAMPLES
 
@@ -40,7 +40,7 @@ This command has no aliases.
 Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -AutoShowOnImport:$true -ProfileAutoShow:$false -DefaultScript 'bars'
 ```
 
-Moves the cache to `D:/Temp/ColorScriptsCache`, enables automatic display on module import, disables profile auto-show, and sets `bars` as the default script.
+Перемещает кеш в `D:/Temp/ColorScriptsCache`, включает автоматическое отображение при импорте модуля, отключает автоматическое отображение профиля и устанавливает `bars` в качестве сценария по умолчанию.
 
 ### EXAMPLE 2
 
@@ -48,7 +48,7 @@ Moves the cache to `D:/Temp/ColorScriptsCache`, enables automatic display on mod
 Set-ColorScriptConfiguration -DefaultScript '' -PassThru
 ```
 
-Clears the default script and returns the resulting configuration object, allowing you to verify that the setting was removed.
+Очищает сценарий по умолчанию и возвращает результирующий объект конфигурации, позволяя вам убедиться, что параметр был удален.
 
 ### EXAMPLE 3
 
@@ -56,7 +56,7 @@ Clears the default script and returns the resulting configuration object, allowi
 Set-ColorScriptConfiguration -CachePath "$env:TEMP\ColorScripts" -PassThru | Format-List
 ```
 
-Relocates the cache to the Windows TEMP directory and displays the full updated configuration in list format. Useful for temporary testing scenarios.
+Перемещает кэш в каталог Windows TEMP и отображает полную обновленную конфигурацию в формате списка. Полезно для временных сценариев тестирования.
 
 ### EXAMPLE 4
 
@@ -64,7 +64,7 @@ Relocates the cache to the Windows TEMP directory and displays the full updated 
 Set-ColorScriptConfiguration -AutoShowOnImport:$false
 ```
 
-Disables automatic colorscript rendering when the module loads. Useful if you prefer manual control over when scripts are displayed.
+Отключает автоматический рендеринг цветового сценария при загрузке модуля. Полезно, если вы предпочитаете вручную контролировать отображение сценариев.
 
 ### EXAMPLE 5
 
@@ -72,13 +72,13 @@ Disables automatic colorscript rendering when the module loads. Useful if you pr
 Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultScript 'crunch'
 ```
 
-Sets a Linux/macOS-style cache path using tilde expansion and configures 'crunch' as the default script for all operations.
+Устанавливает путь к кэшу в стиле Linux/macOS с использованием расширения тильды и настраивает «crunch» в качестве сценария по умолчанию для всех операций.
 
 ## PARAMETERS
 
 ### -AutoShowOnImport
 
-Enable or disable automatic rendering of a colorscript when the module is imported. When enabled (`$true`), a colorscript displays immediately upon module import, providing instant visual feedback. When disabled (`$false`), scripts only display when explicitly invoked. If not specified, the existing setting remains unchanged.
+Включите или отключите автоматическую отрисовку цветового сценария при импорте модуля. Если этот параметр включен (`$true`), цветовой сценарий отображается сразу после импорта модуля, обеспечивая мгновенную визуальную обратную связь. Если этот параметр отключен (`$false`), сценарии отображаются только при явном вызове. Если не указано, существующая настройка остается неизменной.
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
@@ -99,11 +99,11 @@ HelpMessage: ''
 
 ### -CachePath
 
-Specifies the directory where colorscript files and metadata are stored. Supports absolute paths, relative paths (resolved from the current location), environment variables (e.g., `$env:USERPROFILE`), and tilde (`~`) expansion for the home directory.
+Указывает каталог, в котором хранятся визуализированные полезные данные `.cache` и дополнительные файлы проверки `.cacheinfo`. Исходные цветовые сценарии и метаданные модуля остаются в установленном модуле. Поддерживает абсолютные пути, относительные пути (разрешенные из текущего местоположения), переменные среды (например, `$env:USERPROFILE`) и расширение тильды (`~`).
 
-If the specified directory does not exist, it will be created automatically with appropriate permissions. Provide an empty string (`''`) to clear the custom path and revert to the platform-specific default location. When left unspecified, the existing cache path setting is preserved.
+Если указанный каталог не существует, он будет создан автоматически с соответствующими разрешениями. Укажите пустую строку (`''`), чтобы очистить пользовательский путь и вернуться к расположению по умолчанию для конкретной платформы. Если не указать существующий путь к кэшу, сохраняется.
 
-**Note**: Changing the cache path does not automatically migrate existing cached files. You may need to manually copy files or allow them to be regenerated.
+**Примечание**. Изменение пути к кэшу не приводит к автоматическому переносу существующих кэшированных файлов. Возможно, вам придется скопировать файлы вручную или разрешить их повторное создание.
 
 ```yaml
 Type: System.String
@@ -124,7 +124,7 @@ HelpMessage: ''
 
 ### -Confirm
 
-Prompts you for confirmation before running the cmdlet.
+Запрашивает подтверждение перед запуском командлета.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -146,11 +146,11 @@ HelpMessage: ''
 
 ### -DefaultScript
 
-Sets or clears the default colorscript name used by profile helpers, auto-show features, and when no script is explicitly specified in commands. This should match the base name of a script file without extension (e.g., `'bars'`, not `'bars.ps1'`).
+Устанавливает или очищает имя цветового сценария по умолчанию, используемое помощниками профиля, функциями автоматического отображения, а также когда сценарий явно не указан в командах. Оно должно соответствовать базовому имени файла сценария без расширения (например, `'bars'`, а не `'bars.ps1'`).
 
-Provide an empty string (`''`) to remove the stored default, reverting to module-level default behavior (typically random selection). When this parameter is omitted, the current default script setting is unchanged.
+Укажите пустую строку (`''`), чтобы удалить сохраненное значение по умолчанию и вернуться к поведению по умолчанию на уровне модуля (обычно случайный выбор). Если этот параметр опущен, текущая настройка сценария по умолчанию не изменяется.
 
-The specified script must exist in the module's script directory to be used successfully.
+Для успешного использования указанный сценарий должен существовать в каталоге сценариев модуля.
 
 ```yaml
 Type: System.String
@@ -171,7 +171,7 @@ HelpMessage: ''
 
 ### -h
 
-Показывает подробную справку по команде, не выполняя операцию.
+Отображает подробную справку по этой команде без выполнения операции.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -193,9 +193,9 @@ HelpMessage: ''
 
 ### -PassThru
 
-Returns the updated configuration object after making changes. Without this switch, the cmdlet operates silently (no output). The returned object has the same structure as `Get-ColorScriptConfiguration` and can be inspected, stored, or piped to other cmdlets for further processing.
+Возвращает обновленный объект конфигурации после внесения изменений. Без этого переключателя командлет работает автоматически (без вывода). Возвращенный объект имеет ту же структуру, что и `Get-ColorScriptConfiguration`, и его можно проверять, сохранять или передавать другим командлетам для дальнейшей обработки.
 
-Useful for verification, logging, or chaining configuration commands.
+Полезно для проверки, регистрации или объединения команд конфигурации.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -216,9 +216,9 @@ HelpMessage: ''
 
 ### -ProfileAutoShow
 
-Controls whether profile snippets generated by `Add-ColorScriptProfile` include an automatic `Show-ColorScript` invocation. When `$true`, the profile code will display a colorscript on every shell startup. When `$false`, the profile will load the module but not auto-display scripts.
+Определяет, включают ли фрагменты профиля, созданные `Add-ColorScriptProfile`, автоматический вызов `Show-ColorScript`. Если `$true`, код профиля будет отображать цветной сценарий при каждом запуске оболочки. Если `$false`, профиль будет загружать модуль, но не сценарии автоматического отображения.
 
-This setting only affects newly generated profile code; existing profile modifications are not automatically updated. Omitting this parameter leaves the current setting unchanged.
+Этот параметр влияет только на вновь созданный код профиля; существующие изменения профиля не обновляются автоматически. Если опустить этот параметр, текущая настройка останется неизменной.
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
@@ -239,7 +239,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Runs the command in a mode that only reports what would happen without performing the actions.
+Запускает команду в режиме, который сообщает только о том, что произойдет, без выполнения действий.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -261,32 +261,34 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Этот командлет поддерживает следующие общие параметры:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Дополнительные сведения см. в разделе
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
 
-This cmdlet does not accept pipeline input.
+Этот командлет не принимает входные данные конвейера.
 
 ## OUTPUTS
 
 ### None (2)
 
-By default, this cmdlet produces no output.
+По умолчанию этот командлет не выдает никаких результатов.
 
 ### System.Collections.Hashtable
 
-When `-PassThru` is specified, returns a hashtable containing the complete updated configuration. The structure matches the output of `Get-ColorScriptConfiguration`, with keys such as `CachePath`, `AutoShowOnImport`, `ProfileAutoShow`, and `DefaultScript`.
+Если указан `-PassThru`, возвращается вложенная хеш-таблица, созданная `Get-ColorScriptConfiguration`: значения кэша находятся под `Cache`, а значения запуска — под `Startup`.
 
 ## NOTES
 
-Configuration is persisted only after validation and confirmation succeed. `-WhatIf` performs no filesystem writes. Use `Get-ColorScriptConfiguration` to inspect the effective values and storage paths after the operation.
+Конфигурация сохраняется только после успешной проверки и подтверждения. `-WhatIf` не выполняет запись в файловую систему. Используйте `Get-ColorScriptConfiguration` для проверки действующих значений и путей хранения после операции.
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [Онлайн-версия](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
 

@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration
 Locale: de
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Get-ColorScriptConfiguration
 ---
@@ -25,26 +25,24 @@ Get-ColorScriptConfiguration [-h]
 
 ## ALIASES
 
-This command has no aliases.
+Dieser Befehl hat keine Aliase.
 
 ## DESCRIPTION
 
-`Get-ColorScriptConfiguration` ruft die effektive Modulkonfiguration ab, die verschiedene Aspekte des ColorScripts-Enhanced-Verhaltens steuert. Dies umfasst:
+`Get-ColorScriptConfiguration` gibt eine Kopie der effektiven Modulkonfiguration zurück. Das aktuelle Schema enthält:
 
-- **Cache-Einstellungen**: Ort, an dem Skriptmetadaten und Indizes für Leistungsoptimierung gespeichert werden
-- **Startverhalten**: Flags, die steuern, ob Skripte automatisch beim Start von PowerShell-Sitzungen ausgeführt werden
-- **Pfadkonfiguration**: Benutzerdefinierte Skriptverzeichnisse und Suchpfade
-- **Anzeigepräferenzen**: Standardformatierungs- und Ausgabeoptionen
+- **Cache-Einstellungen**: Das konfigurierte außer Kraft gesetzte und aufgelöste effektive Cache-Verzeichnis
+- **Startverhalten**: `AutoShowOnImport`, `ProfileAutoShow` und `DefaultScript`
 
-Die Konfiguration wird aus mehreren Quellen in der Reihenfolge der Priorität zusammengestellt:
+Die Konfiguration wird aus mehreren Quellen in der Reihenfolge ihrer Priorität zusammengestellt:
 
-1. Eingebaute Modulstandards (niedrigste Priorität)
-2. Persistierte Benutzerüberschreibungen aus der Konfigurationsdatei
-3. Sitzungsspezifische Änderungen (höchste Priorität)
+1. Standardeinstellungen des integrierten Moduls (niedrigste Priorität)
+2. Persistente Benutzerüberschreibungen aus der Konfigurationsdatei
+3. `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` für den zurückgegebenen effektiven Cache-Pfad
 
-Die Konfigurationsdatei befindet sich typischerweise unter `%APPDATA%\ColorScripts-Enhanced\config.json` unter Windows oder `~/.config/ColorScripts-Enhanced/config.json` unter Unix-ähnlichen Systemen.
+Die Konfigurationsdatei befindet sich normalerweise unter `%APPDATA%\ColorScripts-Enhanced\config.json` unter Windows oder unter `~/.config/ColorScripts-Enhanced/config.json` auf Unix-ähnlichen Systemen.
 
-Die zurückgegebene Hashtabelle ist eine Momentaufnahme des aktuellen Konfigurationszustands und kann sicher inspiziert, geklont oder serialisiert werden, ohne die aktive Konfiguration zu beeinflussen.
+Die zurückgegebene Hashtabelle ist eine Momentaufnahme des aktuellen Konfigurationsstatus und kann sicher überprüft, geklont oder serialisiert werden, ohne die aktive Konfiguration zu beeinträchtigen.
 
 ## EXAMPLES
 
@@ -54,7 +52,7 @@ Die zurückgegebene Hashtabelle ist eine Momentaufnahme des aktuellen Konfigurat
 Get-ColorScriptConfiguration
 ```
 
-Zeigt die aktuelle Konfiguration mit der standardmäßigen Tabellenansicht an, die alle Cache- und Starteinstellungen zeigt.
+Zeigt die aktuelle Konfiguration in der Standardtabellenansicht an und zeigt alle Cache- und Starteinstellungen an.
 
 ### EXAMPLE 2
 
@@ -62,27 +60,29 @@ Zeigt die aktuelle Konfiguration mit der standardmäßigen Tabellenansicht an, d
 Get-ColorScriptConfiguration | ConvertTo-Json -Depth 4
 ```
 
-Serialisiert die Konfiguration in das JSON-Format für Protokollierung, Debugging oder Export in andere Tools.
+Serialisiert die Konfiguration zum Protokollieren, Debuggen oder Exportieren in andere Tools in das JSON-Format.
 
 ### EXAMPLE 3
 
 ```powershell
 $config = Get-ColorScriptConfiguration
-$config.Cache.Location
+$config.Cache.EffectivePath
 ```
 
-Ruft die Konfiguration ab und greift direkt auf den Cache-Speicherortpfad aus der Hashtabelle zu.
+Ruft das aufgelöste Cache-Verzeichnis ab. `Cache.Path` bleibt die optionale, vom Benutzer konfigurierte Überschreibung;
+`Cache.EffectivePath` zeigt das Verzeichnis an, das das Modul nach den Plattformstandards und tatsächlich verwendet
+Umgebungsüberschreibungen werden angewendet.
 
 ### EXAMPLE 4
 
 ```powershell
 $config = Get-ColorScriptConfiguration
-if ($config.Startup.Enabled) {
-    Write-Host "Startup scripts are enabled"
+if ($config.Startup.AutoShowOnImport) {
+    Write-Host "Startskripte sind aktiviert"
 }
 ```
 
-Überprüft, ob Starts-Skripte in der aktuellen Konfiguration aktiviert sind.
+Überprüft, ob Startskripte in der aktuellen Konfiguration aktiviert sind.
 
 ### EXAMPLE 5
 
@@ -90,69 +90,72 @@ if ($config.Startup.Enabled) {
 Get-ColorScriptConfiguration | Format-List *
 ```
 
-Zeigt alle Konfigurationseigenschaften in einem detaillierten Listenformat für umfassende Inspektion an.
+Zeigt alle Konfigurationseigenschaften in einem detaillierten Listenformat für eine umfassende Überprüfung an.
 
 ### EXAMPLE 6
 
 ```powershell
 $config = Get-ColorScriptConfiguration
-Write-Host "Cache Path: $($config.Cache.Path)"
-Write-Host "Profile Auto-Show: $($config.Startup.ProfileAutoShow)"
-Write-Host "Default Script: $($config.Startup.DefaultScript)"
+Write-Host "Cachepfad: $($config.Cache.Path)"
+Write-Host "Automatische Profilanzeige: $($config.Startup.ProfileAutoShow)"
+Write-Host "Standardskript: $($config.Startup.DefaultScript)"
 ```
 
-Extrahiert und zeigt spezifische Konfigurationseigenschaften für Auditing oder Scripting-Zwecke an.
+Extrahiert und zeigt bestimmte Konfigurationseigenschaften für Überwachungs- oder Skripterstellungszwecke an.
 
 ### EXAMPLE 7
 
 ```powershell
 $config = Get-ColorScriptConfiguration
 if ($config.Cache.Path) {
-    Write-Host "Custom cache path configured: $($config.Cache.Path)"
+    Write-Host "Benutzerdefinierter Cachepfad konfiguriert: $($config.Cache.Path)"
 } else {
-    Write-Host "Using default cache path"
+    Write-Host "Der Standard-Cachepfad wird verwendet"
 }
+
+Write-Host "Effektiver Cachepfad: $($config.Cache.EffectivePath)"
 ```
 
-Bestimmt, ob ein benutzerdefinierter Cache-Pfad konfiguriert ist, im Vergleich zur Verwendung von Modulstandards.
+Bestimmt, ob ein benutzerdefinierter Cache-Pfad konfiguriert ist oder Modulstandards verwendet.
 
 ### EXAMPLE 8
 
 ```powershell
-Export-ColorScriptMetadata | ConvertTo-Json -Depth 5 |
+$config = Get-ColorScriptConfiguration
+$config | ConvertTo-Json -Depth 5 |
     Out-File -FilePath "./backup-config.json" -Encoding UTF8
 ```
 
-Sichert die aktuelle Konfiguration in einer JSON-Datei für Archivierung oder Disaster Recovery.
+Sichert die aktuelle Konfiguration zur Archivierung oder Notfallwiederherstellung in einer JSON-Datei.
 
 ### EXAMPLE 9
 
 ```powershell
-# Compare current config with defaults
+# Vergleichen Sie die aktuelle Konfiguration mit den Standardeinstellungen
 $current = Get-ColorScriptConfiguration
 Reset-ColorScriptConfiguration -WhatIf
-# Review the -WhatIf output to see what would change
+# Überprüfen Sie die -WhatIf-Ausgabe, um zu sehen, was sich ändern würde
 ```
 
-Vergleicht die aktuelle Konfiguration mit Modulstandards, um benutzerdefinierte Einstellungen zu identifizieren.
+Vergleicht die aktuelle Konfiguration mit den Modulstandards, um benutzerdefinierte Einstellungen zu identifizieren.
 
 ### EXAMPLE 10
 
 ```powershell
-# Monitor configuration changes across sessions
+# Überwachen Sie Konfigurationsänderungen sitzungsübergreifend
 Get-ColorScriptConfiguration |
     Select-Object Cache, Startup |
     Format-List |
     Out-File "./config-snapshot.txt" -Append
 ```
 
-Erstellt zeitgestempelte Momentaufnahmen der Konfiguration zur Verfolgung von Änderungen im Laufe der Zeit.
+Erstellt zeitgestempelte Snapshots der Konfiguration, um Änderungen im Laufe der Zeit zu verfolgen.
 
 ## PARAMETERS
 
 ### -h
 
-Zeigt die ausführliche Hilfe für diesen Befehl an, ohne den Vorgang auszuführen.
+Zeigt detaillierte Hilfe für diesen Befehl an, ohne den Vorgang auszuführen.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -174,16 +177,18 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Dieses Cmdlet unterstützt die allgemeinen Parameter:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Weitere Informationen finden Sie unter
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
 
-Dieses Cmdlet akzeptiert keine Pipeline-Eingabe.
+Dieses Cmdlet akzeptiert keine Pipeline-Eingaben.
 
 ## OUTPUTS
 
@@ -192,37 +197,36 @@ Dieses Cmdlet akzeptiert keine Pipeline-Eingabe.
 Gibt eine verschachtelte Hashtabelle zurück, die die folgende Struktur enthält:
 
 - **Cache** (Hashtable): Cache-bezogene Einstellungen
-  - **Location** (String): Pfad zum Cache-Verzeichnis
-  - **Enabled** (Boolean): Ob Caching aktiv ist
-- **Startup** (Hashtable): Starteinstellungen
-  - **Enabled** (Boolean): Ob Skripte beim Sitzungsstart ausgeführt werden
-  - **ScriptName** (String): Name des standardmäßigen Starts-Skripts
-- **Paths** (Array): Zusätzliche Skriptsuchpfade
-- **Display** (Hashtable): Ausgabeformatierungspräferenzen
+  – **Path** (String): Optionale Überschreibung des persistenten Cache-Pfads
+  - **EffectivePath** (String): Aufgelöstes Cache-Verzeichnis, das derzeit vom Modul verwendet wird
+- **Startup** (Hashtable): Einstellungen für das Startverhalten
+  - **AutoShowOnImport** (Boolean): Ob der Import das Startanzeigeverhalten aufruft
+  - **ProfileAutoShow** (Boolean): Standardauswahl für die automatische Anzeige für verwaltete Profilblöcke
+- **DefaultScript** (String): Optionaler benannter Startup Farbskript
 
 ## NOTES
 
-**Modulinitialisierung**: Die Konfiguration wird automatisch initialisiert, wenn das ColorScripts-Enhanced-Modul geladen wird. Dieses Cmdlet ruft den aktuellen In-Memory-Konfigurationszustand ab.
+**Modulinitialisierung**: Die Konfiguration wird automatisch initialisiert, wenn das ColorScripts-Enhanced-Modul geladen wird. Dieses Cmdlet ruft den aktuellen In-Memory-Konfigurationsstatus ab.
 
-**Keine Änderungen**: Das Aufrufen dieses Cmdlets ist schreibgeschützt und ändert keine persistierten Einstellungen oder die aktive Konfiguration.
+**Keine Änderungen**: Der Aufruf dieses Cmdlets ist schreibgeschützt und ändert keine beibehaltenen Einstellungen oder die aktive Konfiguration.
 
-**Thread-Sicherheit**: Die zurückgegebene Hashtabelle ist eine Kopie der Konfiguration, wodurch sie sicher für gleichzeitigen Zugriff und Änderung ist, ohne den internen Zustand des Moduls zu beeinflussen.
+**Thread-Sicherheit**: Die zurückgegebene Hashtabelle ist eine Kopie der Konfiguration und macht sie für gleichzeitigen Zugriff und Änderungen sicher, ohne den internen Status des Moduls zu beeinträchtigen.
 
-**Leistung**: Die Konfigurationsabfrage ist leichtgewichtig und für häufige Aufrufe geeignet, da sie die zwischengespeicherte In-Memory-Konfiguration zurückgibt, anstatt von der Festplatte zu lesen.
+**Performance**: Der Konfigurationsabruf ist leichtgewichtig und eignet sich für häufige Aufrufe, da er die zwischengespeicherte Konfiguration im Arbeitsspeicher zurückgibt und nicht von der Festplatte liest.
 
-**Konfigurationsdateiformat**: Die persistierte Konfiguration verwendet das JSON-Format mit UTF-8-Kodierung. Manuelle Bearbeitung wird unterstützt, aber nicht empfohlen; verwenden Sie stattdessen `Set-ColorScriptConfiguration`.
+**Konfigurationsdateiformat**: Die persistente Konfiguration verwendet das JSON-Format mit der UTF-8-Kodierung. Manuelle Bearbeitung wird unterstützt, aber nicht empfohlen; Verwenden Sie stattdessen `Set-ColorScriptConfiguration`.
 
-### Best Practices
+### Bewährte Verfahren
 
 - Konfiguration einmal abfragen und das Ergebnis wiederverwenden
-- Konfiguration vor der Verwendung von Werten validieren
-- Konfiguration auf Drift im Laufe der Zeit überwachen
-- Konfigurationssicherungen in Versionskontrolle halten
-- Jegliche an der Konfiguration vorgenommenen Anpassungen dokumentieren
-- Konfigurationsänderungen zuerst in Nicht-Produktionsumgebungen testen
-- Konfigurationsaudit-Logs für Compliance verwenden
+– Überprüfen Sie die Konfiguration, bevor Sie Werte verwenden
+- Überwachen Sie die Konfiguration auf Abweichungen im Laufe der Zeit
+- Bewahren Sie Backups nur dort auf, wo sie keine maschinenspezifischen Pfade oder privaten Daten offenlegen können
+- Dokumentieren Sie alle an der Konfiguration vorgenommenen Anpassungen
+- Testen Sie Konfigurationsänderungen zunächst außerhalb der Produktion
+- Verwenden Sie Konfigurations-Audit-Protokolle zur Einhaltung der Compliance
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
+- [Onlineversion](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Get-ColorScriptConfiguration)
 

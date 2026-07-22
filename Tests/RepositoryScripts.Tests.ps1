@@ -5,6 +5,8 @@ Describe 'Update-DocumentationCounts' {
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
         $script:UpdaterPath = Join-Path -Path $script:RepoRoot -ChildPath 'scripts/Update-DocumentationCounts.ps1'
         $script:CachePolicyPath = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced/CachePolicy.psd1'
+        $script:DynamicPolicyPath = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced/DynamicRenderPolicy.psd1'
+        $script:ManifestPath = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced/ColorScripts-Enhanced.psd1'
     }
 
     It 'keeps the cache marker independent from the total script count' {
@@ -39,6 +41,40 @@ Describe 'Update-DocumentationCounts' {
 
         (Get-Content -LiteralPath $target -Raw) |
             Should -Match "<!-- COLOR_CACHE_TOTAL -->$expectedCacheCount<!-- /COLOR_CACHE_TOTAL -->"
+    }
+
+    It 'derives the dynamic count from the dynamic-render policy' {
+        $policy = Import-PowerShellDataFile -LiteralPath $script:DynamicPolicyPath
+        $expectedDynamicCount = @(
+            $policy.DynamicScripts |
+                Where-Object { $_ -is [string] -and -not [string]::IsNullOrWhiteSpace($_) } |
+                    Sort-Object -Unique
+        ).Count
+        $target = Join-Path -Path $TestDrive -ChildPath 'dynamic-count.md'
+        [System.IO.File]::WriteAllText(
+            $target,
+            '<!-- COLOR_DYNAMIC_TOTAL -->old<!-- /COLOR_DYNAMIC_TOTAL -->',
+            (New-Object System.Text.UTF8Encoding($false)))
+
+        & $script:UpdaterPath -ScriptCount 1 -Files $target
+
+        (Get-Content -LiteralPath $target -Raw) |
+            Should -Match "<!-- COLOR_DYNAMIC_TOTAL -->$expectedDynamicCount<!-- /COLOR_DYNAMIC_TOTAL -->"
+    }
+
+    It 'derives and formats the module version from the manifest' {
+        $manifest = Import-PowerShellDataFile -LiteralPath $script:ManifestPath
+        $expectedModuleVersion = [string]$manifest.ModuleVersion
+        $target = Join-Path -Path $TestDrive -ChildPath 'module-version.md'
+        [System.IO.File]::WriteAllText(
+            $target,
+            '<!-- COLOR_MODULE_VERSION -->`old`<!-- /COLOR_MODULE_VERSION -->',
+            (New-Object System.Text.UTF8Encoding($false)))
+
+        & $script:UpdaterPath -ScriptCount 1 -Files $target
+
+        (Get-Content -LiteralPath $target -Raw) |
+            Should -Match "<!-- COLOR_MODULE_VERSION -->``$([regex]::Escape($expectedModuleVersion))``<!-- /COLOR_MODULE_VERSION -->"
     }
 }
 
@@ -135,10 +171,18 @@ Describe 'Release lint wiring' {
 
         foreach ($cultureName in $cultureNames) {
             $culturePath = Join-Path -Path $script:RepoRoot -ChildPath "ColorScripts-Enhanced/$cultureName"
+            $linkLabels = New-Object 'System.Collections.Generic.HashSet[string]'
             foreach ($markdownPath in Get-ChildItem -LiteralPath $culturePath -Filter '*.md' -File) {
                 $content = Get-Content -LiteralPath $markdownPath.FullName -Raw
-                @([regex]::Matches($content, '(?m)^- \[Online Version\]\(')).Count | Should -Be 1 -Because $markdownPath.FullName
+                $linkMatches = @([regex]::Matches($content, '(?m)^- \[(?<Label>[^]]+)\]\('))
+                $linkMatches.Count | Should -Be 1 -Because $markdownPath.FullName
+                [void]$linkLabels.Add($linkMatches[0].Groups['Label'].Value)
                 $content | Should -Not -Match '(?m)^- \[\]\(' -Because $markdownPath.FullName
+            }
+            $linkLabels.Count | Should -Be 1 -Because "all $cultureName topics should use one localized link label"
+            $expectedLinkLabel = @($linkLabels)[0]
+            if ($cultureName -eq 'en-US') {
+                $expectedLinkLabel | Should -BeExactly 'Online Version'
             }
 
             $mamlPath = Join-Path -Path $culturePath -ChildPath 'ColorScripts-Enhanced-help.xml'
@@ -148,7 +192,8 @@ Describe 'Release lint wiring' {
             foreach ($commandNode in $commandNodes) {
                 $links = @($commandNode.SelectNodes("./*[local-name()='relatedLinks']/*[local-name()='navigationLink']"))
                 $links.Count | Should -Be 1 -Because $mamlPath
-                $links[0].SelectSingleNode("./*[local-name()='linkText']").InnerText | Should -Be 'Online Version' -Because $mamlPath
+                $links[0].SelectSingleNode("./*[local-name()='linkText']").InnerText |
+                    Should -BeExactly $expectedLinkLabel -Because $mamlPath
             }
         }
     }

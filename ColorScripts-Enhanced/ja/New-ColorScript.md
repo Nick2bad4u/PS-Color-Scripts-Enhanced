@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript
 Locale: ja
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: New-ColorScript
 ---
@@ -13,7 +13,7 @@ title: New-ColorScript
 
 ## SYNOPSIS
 
-新しいカラースクリプトをメタデータとテンプレート構造で作成します。
+新しいカラースクリプト ファイルをスキャフォールディングし、必要に応じてメタデータ ガイダンスを出力します。
 
 ## SYNTAX
 
@@ -32,80 +32,135 @@ New-ColorScript [-h] [-Name <string>] [-WhatIf] [-Confirm]
 
 ## ALIASES
 
-This command has no aliases.
+このコマンドにはエイリアスがありません。
 
 ## DESCRIPTION
 
-適切なメタデータ構造とオプションのテンプレートコンテンツを持つ新しいカラースクリプトファイルを作成します。このコマンドレットは、ColorScripts-Enhancedエコシステムにシームレスに統合する新しいカラースクリプトを作成するための標準化された方法を提供します。
+`New-ColorScript` コマンドレットは、文字列配列と各行を書き込むループを含む最小限のカラースクリプト スキャフォールドを作成します。ファイルはバイト オーダー マーク (BOM) のない UTF-8 としてエンコードされます。オプションのメタデータ ガイダンスは、生成されたファイルにコメントとして含めて、結果オブジェクトに返すことができます。
 
-このコマンドレットは以下を生成します：
+スキャフォールディングを行う場合は、`-Name` と `-OutputPath` の両方が必須です。 `-OutputPath` はディレクトリを識別します。このコマンドは、必要に応じてディレクトリを作成し、その中に `<Name>.ps1` を書き込みます。
 
-- 基本構造を持つ新しい.ps1ファイル
-- 分類のための関連メタデータ
-- 選択されたスタイルに基づくテンプレートコンテンツ
-- 適切なファイル組織
+スクリプト名は PowerShell の命名規則に従う必要があります。つまり、英数字で始まる必要があり、アンダースコアまたはハイフンを含めることができます。 `.ps1` 拡張子が指定されていない場合は、自動的に追加されます。 `-Force` スイッチが明示的に指定されていない限り、既存のファイルは誤って上書きされないように保護されます。
 
-利用可能なテンプレートには以下が含まれます：
-
-- Basic: カスタムスクリプトのための最小構造
-- Animated: タイミングコントロールを持つテンプレート
-- Interactive: ユーザー入力処理を持つテンプレート
-- Geometric: 幾何学パターンのためのテンプレート
-- Nature: 自然に着想を得たデザインのためのテンプレート
-
-作成されたスクリプトは、モジュールのキャッシュおよび表示システムに自動的に統合されます。
+`-GenerateMetadataSnippet` と組み合わせると、コマンドレットは `ScriptMetadata.psd1` に追加するエントリを説明するガイダンスを返します。指定されたカテゴリとタグの値も、結果オブジェクトの配列として返されます。
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 
 ```powershell
-New-ColorScript -Name "MyScript"
+New-ColorScript -Name 'my-spectrum' -OutputPath ./ColorScripts-Enhanced/Scripts -GenerateMetadataSnippet -Category 'Artistic' -Tag 'Custom','Demo'
 ```
 
-基本テンプレートで新しいカラースクリプトを作成します。
+要求されたディレクトリに `my-spectrum.ps1` を作成し、ファイル パスとメタデータ ガイダンスを含むオブジェクトを返します。
 
 ### EXAMPLE 2
 
 ```powershell
-New-ColorScript -Name "Sunset" -Category Nature -Tags "animated", "colorful" -Description "Beautiful sunset animation"
+New-ColorScript -Name 'holiday-banner' -OutputPath '~/Dev/colorscripts' -Force
 ```
 
-メタデータを持つ自然テーマのアニメーションカラースクリプトを作成します。
+カスタム ディレクトリ (`~/Dev/colorscripts`) の下にスキャフォールドを生成し、ディレクトリが存在しない場合は作成します。 `holiday-banner.ps1` という名前のファイルがその場所にすでに存在する場合、`-Force` スイッチによりそのファイルは上書きされます。
 
 ### EXAMPLE 3
 
 ```powershell
-New-ColorScript -Name "GeometricPattern" -Template Geometric -Path "./custom-scripts/"
+$result = New-ColorScript -Name 'retro-wave' -OutputPath ./ColorScripts-Enhanced/Scripts -Category 'Artistic' -Tag '80s','Neon' -GenerateMetadataSnippet
+$result.MetadataGuidance | Set-Clipboard
 ```
 
-カスタムディレクトリに幾何学カラースクリプトを作成します。
+新しいカラースクリプトを作成し、メタデータ ガイダンスをクリップボードにコピーして、`ScriptMetadata.psd1` に簡単に貼り付けることができます。
 
 ### EXAMPLE 4
 
 ```powershell
-New-ColorScript -Name "InteractiveDemo" -Template Interactive -WhatIf
+New-ColorScript -Name 'test-pattern' -OutputPath '.\temp' -WhatIf
 ```
 
-実際にファイルを作成せずに何が作成されるかを表示します。
+実際にファイルを作成せずに、`.\temp` ディレクトリにテスト パターン スクリプトを作成すると何が起こるかを示します。実行前にパスと名前を検証するのに役立ちます。
 
 ### EXAMPLE 5
 
 ```powershell
-# Create multiple related scripts
-$themes = @("Forest", "Ocean", "Mountain")
-foreach ($theme in $themes) {
-    New-ColorScript -Name $theme -Category Nature -Tags "landscape"
+# プロジェクトに複数のカラースクリプトを作成する
+$scriptNames = @("company-logo", "team-banner", "status-display")
+foreach ($name in $scriptNames) {
+    New-ColorScript -Name $name -Category "Corporate" -Tag "Custom" -OutputPath ".\src" | Out-Null
+}
+Write-Host "$($scriptNames.Count) カラースクリプト テンプレートを作成しました"
+```
+
+プロジェクトに対して複数のカラースクリプト テンプレートをバッチで作成します。
+
+### EXAMPLE 6
+
+```powershell
+# 作成してエディタですぐに開く
+New-ColorScript -Name "my-art" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Artistic" -GenerateMetadataSnippet -OpenInEditor
+```
+
+カラースクリプトを作成し、プラットフォームの登録済みハンドラーにそれを開くように要求します。
+
+### EXAMPLE 7
+
+```powershell
+# 完全なワークフロー自動化による作成
+$newScript = New-ColorScript -Name "interactive-demo" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Custom" -Tag "Interactive","Demo" -GenerateMetadataSnippet
+Write-Host "作成者: $($newScript.Name)"
+Write-Host "パス: $($newScript.Path)"
+Write-Host "メタデータ ガイダンスをクリップボードに保存可能"
+$newScript.MetadataGuidance | Set-Clipboard
+```
+
+クリップボードに自動的にコピーされたメタデータ ガイダンスを含むカラースクリプトを作成します。
+
+### EXAMPLE 8
+
+```powershell
+# スクリプト名の規則を確認する
+$validName = "123-start"
+$invalidNames = @("-invalid", "_underscore-only", "contains space")
+foreach ($name in $invalidNames) {
+    try {
+        New-ColorScript -Name $name -OutputPath ./temp -WhatIf -ErrorAction Stop
+    } catch {
+        Write-Warning "無効な名前「$name」: $_"
+    }
 }
 ```
 
-複数の自然テーマのカラースクリプトを作成します。
+カラースクリプトの命名規則の検証を示します。
+
+### EXAMPLE 9
+
+```powershell
+# 配布用にポータブルな場所に作成する
+$portableDir = Join-Path $PSScriptRoot "colorscripts"
+$scaffold = New-ColorScript -Name "portable-art" -OutputPath $portableDir -GenerateMetadataSnippet
+Write-Host "移植可能なカラースクリプトを次の場所に作成しました: $($scaffold.Path)"
+```
+
+現在のスクリプトを基準にして移植可能な場所にカラースクリプトを作成します。
+
+### EXAMPLE 10
+
+```powershell
+# カテゴリとタグの検証を使用して作成する
+$categories = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Category -Unique
+if ("Retro" -in $categories) {
+    New-ColorScript -Name "retro-party" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Artistic" -Tag "Fun","Social"
+} else {
+    Write-Warning "レトロ カテゴリが見つかりません"
+}
+```
+
+新しいカラースクリプトを作成する前に、カテゴリが存在することを検証します。
 
 ## PARAMETERS
 
 ### -Category
 
-新しいカラースクリプトのカテゴリを指定します。カテゴリはスクリプトをテーマ別に整理するのに役立ちます。
+スキャフォールドとともに返され、メタデータ ガイダンスに含まれる 1 つ以上のカテゴリを指定します。値は、`ScriptMetadata.psd1` ですでに使用されているカテゴリと一致する必要があります。
 
 ```yaml
 Type: System.String[]
@@ -126,7 +181,7 @@ HelpMessage: ''
 
 ### -Confirm
 
-コマンドレットを実行する前に確認を求めます。
+コマンドレットを実行する前に確認を求めるメッセージが表示されます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -148,7 +203,7 @@ HelpMessage: ''
 
 ### -Force
 
-Overwrites an existing colorscript file at the resolved output path.
+宛先ファイルが既に存在する場合は上書きします。このスイッチを使用しないと、ターゲットの場所に同じ名前のファイルが見つかった場合、コマンドレットはエラーで終了します。データの損失を避けるために注意して使用してください。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -170,7 +225,7 @@ HelpMessage: ''
 
 ### -GenerateMetadataSnippet
 
-Includes metadata guidance for adding the new script to ScriptMetadata.psd1.
+出力には、`ScriptMetadata.psd1` に新しいスクリプトを登録する方法を示すガイダンス スニペットが含まれています。スニペットは、`-Category` および `-Tag` パラメーターが指定されている場合、その値を使用します。これは、モジュール内のすべてのカラースクリプトにわたって一貫したメタデータを維持する場合に特に役立ちます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -219,7 +274,7 @@ HelpMessage: ''
 
 ### -Name
 
-新しいカラースクリプトの名前（.ps1拡張子なし）。
+新しいカラースクリプトの名前を指定します。名前は英数字で始める必要があり、アンダースコアまたはハイフンを含めることができます。 `.ps1` 拡張子が含まれていない場合は、自動的に追加されます。この名前はファイル名として使用され、スクリプトの内容またはテーマを説明するものにする必要があります。
 
 ```yaml
 Type: System.String
@@ -246,7 +301,7 @@ HelpMessage: ''
 
 ### -OpenInEditor
 
-Opens the generated colorscript with the command configured by the environment when creation succeeds.
+作成が成功すると、環境によって設定されたコマンドを使用して、生成されたカラースクリプトを開きます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -267,7 +322,7 @@ HelpMessage: ''
 
 ### -OutputPath
 
-Specifies the target directory or .ps1 file path for the generated colorscript.
+必須の出力先ディレクトリを指定します。このコマンドは、そのディレクトリ内に <Name>.ps1 を作成します。
 
 ```yaml
 Type: System.String
@@ -290,7 +345,7 @@ HelpMessage: ''
 
 ### -Tag
 
-Specifies metadata tags to include in the generated metadata guidance.
+カラースクリプトの 1 つ以上のメタデータ タグを指定します。タグは、主要なカテゴリを超えた追加の分類を提供し、フィルタリングや検索に役立ちます。一般的なタグには、「ミニマル」、「カラフル」、「アニメーション」などのテーマ記述子、「マトリックス」、「ASCII」などのテクノロジー参照、または「ホリデー」、「シーズン」などのコンテキスト マーカーが含まれます。複数のタグをカンマ区切りの配列として指定できます。
 
 ```yaml
 Type: System.String[]
@@ -311,7 +366,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-コマンドレットが実行された場合に何が起こるかを表示します。コマンドレットは実行されません。
+実際にアクションを実行せずにコマンドレットを実行した場合に何が起こるかを示します。作成されるファイル パスと実行される検証チェックが表示されます。このスイッチが指定されている場合、コマンドレットはファイルやディレクトリを作成しません。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -333,30 +388,58 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+このコマンドレットは、次の共通パラメーターをサポートします:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
-[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+詳細については、次を参照してください:
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216)。
 
 ## INPUTS
 
 ### None
 
-このコマンドレットはパイプラインからの入力を許可しません。
+オブジェクトをこのコマンドレットにパイプすることはできません。
 
 ## OUTPUTS
 
-### System.Object
+### System.Management.Automation.PSCustomObject
 
-作成されたカラースクリプトに関する情報を持つオブジェクトを返します。
+コマンドレットは、次のプロパティを持つカスタム オブジェクトを返します。
+
+- **Name**: `.ps1` 拡張子を除いたカラースクリプト名
+- **Path**: 生成されたファイルへのフルパス
+- **Categories**: 指定されたカテゴリ値の配列 (存在する場合)
+- **Tags**: 指定されたタグ値の配列 (存在する場合)
+- **MetadataGuidance**: メタデータ スニペット テキスト (-GenerateMetadataSnippet が使用されている場合のみ)
 
 ## NOTES
 
-**Author:** Nick
-**Module:** ColorScripts-Enhanced
-**Requires:** PowerShell 5.1 以降
+**エンコーディング**: スキャフォールドはバイト オーダー マーク (BOM) なしの UTF-8 エンコーディングで書かれており、さまざまなプラットフォームやエディタ間での互換性が確保されています。
+
+**テンプレートの構造**: 生成されたテンプレートには次のものが含まれます。
+
+- 足場のコメント
+- アートの文字列配列プレースホルダー
+- 各行を`Write-Host`で書き込むループ
+
+**メタデータの統合**: コマンドレットはメタデータ ガイダンスを生成できますが、スクリプトをモジュールの検出および分類システムに完全に統合するには、スニペットを手動で `ScriptMetadata.psd1` に追加する必要があります。
+
+**開発ワークフロー**:
+
+1. `New-ColorScript` を使用して足場を作成します
+2. 生成された .ps1 ファイルを編集して ANSI アートを追加します
+3. メタデータ ガイダンスが生成された場合は、それを `ScriptMetadata.psd1` にコピーします。
+4. `Show-ColorScript -Name <your-script-name>` を使用してスクリプトをテストします。
+
+**ベストプラクティス**:
+
+- スクリプトのテーマを明確に示す、ハイフンでつながれたわかりやすい名前を選択してください
+- 既存のスクリプトと一致する一貫したカテゴリ値を使用します。
+- 複数のタグを適用して発見しやすさを向上させます
+- 互換性を確保するために、さまざまな端末環境でスクリプトをテストします。
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
+- [オンライン バージョン](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=New-ColorScript)
 

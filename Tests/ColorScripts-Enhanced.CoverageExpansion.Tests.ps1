@@ -189,7 +189,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
             $cacheFile = Join-Path $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH 'alpha.cache'
             Set-Content -LiteralPath $cacheFile -Value 'cached data'
 
-            $result = Clear-ColorScriptCache -Name 'alpha'
+            $result = Clear-ColorScriptCache -Name 'alpha' -PassThru
 
             Test-Path -LiteralPath $cacheFile | Should -BeFalse
             $result.Status | Should -Contain 'Removed'
@@ -199,14 +199,14 @@ Describe 'ColorScripts-Enhanced extended coverage' {
             $cacheFile = Join-Path $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH 'alpha.cache'
             Set-Content -LiteralPath $cacheFile -Value 'cached data'
 
-            $result = Clear-ColorScriptCache -Name 'alpha' -DryRun
+            $result = Clear-ColorScriptCache -Name 'alpha' -DryRun -PassThru
 
             Test-Path -LiteralPath $cacheFile | Should -BeTrue
             $result.Status | Should -Contain 'DryRun'
         }
 
         It 'reports missing cache entries' {
-            $result = Clear-ColorScriptCache -Name 'unknown'
+            $result = Clear-ColorScriptCache -Name 'unknown' -PassThru
 
             ($result | Where-Object { $_.Name -eq 'unknown' }).Status | Should -Contain 'Missing'
         }
@@ -216,7 +216,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
             Set-Content -LiteralPath $cacheFile -Value 'cached data'
             Mock -CommandName Remove-Item -ModuleName ColorScripts-Enhanced -MockWith { throw 'remove failure' }
 
-            $result = Clear-ColorScriptCache -Name 'alpha'
+            $result = Clear-ColorScriptCache -Name 'alpha' -PassThru
 
             ($result | Where-Object { $_.Name -eq 'alpha' }).Status | Should -Contain 'Error'
         }
@@ -235,7 +235,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
             Set-Content -LiteralPath $alpha -Value 'alpha'
             Set-Content -LiteralPath $beta -Value 'beta'
 
-            $result = Clear-ColorScriptCache -All
+            $result = Clear-ColorScriptCache -All -PassThru
 
             (Test-Path -LiteralPath $alpha) | Should -BeFalse
             (Test-Path -LiteralPath $beta) | Should -BeFalse
@@ -274,7 +274,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
                 @([pscustomobject]@{ Name = 'alpha' }, [pscustomobject]@{ Name = 'beta' })
             }
 
-            $result = Clear-ColorScriptCache -All -Category 'Test'
+            $result = Clear-ColorScriptCache -All -Category 'Test' -PassThru
 
             (Test-Path -LiteralPath $alpha) | Should -BeFalse
             (Test-Path -LiteralPath $beta) | Should -BeFalse
@@ -293,7 +293,7 @@ Describe 'ColorScripts-Enhanced extended coverage' {
             $cacheFile = Join-Path $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH 'alpha.cache'
             Set-Content -LiteralPath $cacheFile -Value 'alpha'
 
-            $result = Clear-ColorScriptCache -Name 'alpha' -WhatIf
+            $result = Clear-ColorScriptCache -Name 'alpha' -WhatIf -PassThru
 
             Test-Path -LiteralPath $cacheFile | Should -BeTrue
             ($result | Where-Object { $_.Name -eq 'alpha' }).Status | Should -Contain 'SkippedByUser'

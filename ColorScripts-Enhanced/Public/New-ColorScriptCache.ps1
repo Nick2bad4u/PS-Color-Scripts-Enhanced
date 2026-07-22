@@ -144,7 +144,7 @@ function New-ColorScriptCache {
             Invoke-ColorScriptError -Message $script:Messages.SpecifyNameToSelectScripts -ErrorId 'ColorScriptsEnhanced.CacheSelectionMissing' -Category ([System.Management.Automation.ErrorCategory]::InvalidOperation) -Cmdlet $PSCmdlet
         }
 
-        Initialize-CacheDirectory
+        Initialize-CacheDirectory -ReadOnly:$WhatIfPreference
 
         $summary = [pscustomobject]@{
             Processed = 0

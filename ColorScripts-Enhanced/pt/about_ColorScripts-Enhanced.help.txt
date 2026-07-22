@@ -1,78 +1,79 @@
-TOPICO
+TÓPICO
     about_ColorScripts-Enhanced
 
-DESCRICAO BREVE
+DESCRIÇÃO BREVE
     Localize e mostre colorscripts ANSI no PowerShell.
 
-DESCRICAO DETALHADA
-    ColorScripts-Enhanced e um modulo PowerShell multiplataforma com 3156
+DESCRIÇÃO DETALHADA
+    ColorScripts-Enhanced é um módulo PowerShell multiplataforma com milhares de
     colorscripts. Ele oferece suporte ao Windows PowerShell 5.1 e ao PowerShell
     7.x no Windows, macOS e Linux.
 
-    A maioria dos colorscripts e estatica e executada diretamente. O cache de
-    saida e limitado aos 15 renderizadores dispendiosos selecionados em
-    CachePolicy.psd1. Renderizadores que precisam mostrar dados atuais ficam fora
-    do cache quando a reutilizacao alteraria seu comportamento.
+    A maioria dos colorscripts incluídos contém conteúdo estático determinístico e é
+    renderizada no processo atual, sem iniciar um processo filho do PowerShell. O cache de
+    saída é limitado ao pequeno conjunto de renderizadores dispendiosos selecionado em
+    CachePolicy.psd1. Renderizadores que precisam mostrar dados atuais ficam fora do cache
+    quando a reutilização alteraria seu comportamento.
 
-USO BASICO
+USO BÁSICO
     Import-Module ColorScripts-Enhanced
     Show-ColorScript
     Show-ColorScript -Name bars
     Get-ColorScriptList -Category Patterns
 
-    Scripts de Pokemon sao excluidos da selecao aleatoria por padrao. Use
-    -IncludePokemon para inclui-los. Um nome solicitado diretamente continua funcionando.
+    Scripts de Pokémon são excluídos da seleção aleatória por padrão. Use
+    -IncludePokemon para incluí-los. Um nome solicitado diretamente continua funcionando.
 
 COMANDOS
     Show-ColorScript
-        Mostra um colorscript aleatorio ou nomeado. Alias: scs.
+        Mostra um colorscript aleatório ou nomeado. Alias: scs.
 
     Get-ColorScriptList
         Pesquisa scripts por nome, categoria ou tag.
 
     New-ColorScriptCache
-        Cria cache somente para renderizadores selecionados pela politica.
+        Cria cache somente para renderizadores selecionados pela política.
 
     Clear-ColorScriptCache
-        Remove entradas especificas ou todos os dados de cache do modulo.
+        Remove entradas específicas ou todos os dados de cache do módulo.
 
     Add-ColorScriptProfile
-        Adiciona um bloco de inicializacao idempotente a um perfil do PowerShell.
+        Adiciona um bloco de inicialização idempotente a um perfil do PowerShell.
 
     Get-ColorScriptConfiguration, Set-ColorScriptConfiguration,
     Reset-ColorScriptConfiguration
-        Le, salva ou redefine a configuracao do modulo.
+        Lê, salva ou redefine a configuração do módulo.
 
     Export-ColorScriptMetadata
-        Exporta metadados do catalogo, arquivos e cache opcional.
+        Exporta metadados do catálogo, arquivos e cache opcional.
 
     New-ColorScript
-        Cria um modelo UTF-8 e orientacoes de metadados.
+        Cria um modelo UTF-8 e orientações de metadados.
 
-CACHE E CONFIGURACAO
+CACHE E CONFIGURAÇÃO
     New-ColorScriptCache -All
     New-ColorScriptCache -Name Galaxy
     Clear-ColorScriptCache -All
     Get-ColorScriptConfiguration
 
     Consulte Get-ColorScriptConfiguration para obter o caminho efetivo do cache.
-    Defina COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT antes de importar o modulo para
-    mover a configuracao persistente.
+    Defina COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT antes de importar o módulo para
+    mover a configuração persistente.
 
-AJUDA E VERSAO
+AJUDA E VERSÃO
     Cada comando exportado aceita -h (alias -help) para ajuda resumida.
 
     Get-Help Show-ColorScript -Full
     Get-Help Show-ColorScript -Examples
     Get-Module ColorScripts-Enhanced | Select-Object Version
 
-    O manifesto do modulo e a fonte oficial da versao.
+    O manifesto do módulo é a fonte oficial da versão.
 
-CODIFICACAO E PROCEDENCIA
+CODIFICAÇÃO E PROCEDÊNCIA
     Scripts PowerShell gerados usam UTF-8. Arquivos .ANS tradicionais geralmente
-    usam CP437. Obras de terceiros mantem seus autores e termos originais.
+    usam CP437. Obras de terceiros mantêm seus autores e termos originais.
 
-VEJA TAMBEM
+VEJA TAMBÉM
     Show-ColorScript
     Get-ColorScriptList
     New-ColorScriptCache

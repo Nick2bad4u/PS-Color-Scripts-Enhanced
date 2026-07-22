@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript
 Locale: de
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Show-ColorScript
 ---
@@ -13,7 +13,7 @@ title: Show-ColorScript
 
 ## SYNOPSIS
 
-Zeigt ein Farbskript an und verwendet selektives Caching nur für aufwendige Renderer.
+Zeigt einen Farbskript mit selektivem Caching für teure Renderer an.
 
 ## SYNTAX
 
@@ -63,52 +63,232 @@ Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <string
 
 ## DESCRIPTION
 
-Rendert schöne ANSI-Farbskripte in Ihrem Terminal mit intelligenter Leistungsoptimierung. Das Cmdlet bietet vier primäre Betriebsmodi:
+Zeigt ansprechende ANSI-Farbskripte mit intelligenter Leistungsoptimierung im Terminal an. Das Cmdlet bietet vier primäre Betriebsmodi:
 
-**Random Mode (Default):** Zeigt ein zufällig ausgewähltes Farbskript aus der verfügbaren Sammlung an. Dies ist das Standardverhalten, wenn keine Parameter angegeben werden.
+**Zufallsmodus (Standard):** Zeigt ein zufällig ausgewähltes Farbskript aus der verfügbaren Sammlung an. Dies ist das Standardverhalten, wenn keine Parameter angegeben werden.
 
-**Named Mode:** Zeigt ein bestimmtes Farbskript nach Namen an. Unterstützt Platzhaltermuster für flexible Übereinstimmung. Wenn mehrere Skripte einem Muster entsprechen, wird die erste Übereinstimmung in alphabetischer Reihenfolge ausgewählt.
+**Benannter Modus:** Zeigt einen bestimmten Farbskript nach Namen an. Unterstützt Platzhaltermuster für flexiblen Abgleich. Wenn mehrere Skripte mit einem Muster übereinstimmen, wird die erste Übereinstimmung in alphabetischer Reihenfolge ausgewählt.
 
-**List Mode:** Zeigt eine formatierte Liste aller verfügbaren Farbskripte mit ihren Metadaten an, einschließlich Name, Kategorie, Tags und Beschreibungen.
+**Listenmodus:** Zeigt eine kompakte Tabelle mit Farbskriptnamen und Hauptkategorien an. Verwenden Sie `Get-ColorScriptList -AsObject` für vollständige Metadatensätze.
 
-**All Mode:** Durchläuft alle verfügbaren Farbskripte in alphabetischer Reihenfolge. Besonders nützlich, um die gesamte Sammlung zu präsentieren oder neue Skripte zu entdecken.
+**Modus „Alle“:** Durchläuft alle verfügbaren Farbskripte in alphabetischer Reihenfolge. Besonders nützlich, um die gesamte Sammlung zu präsentieren oder neue Skripte zu entdecken.
 
 ## EXAMPLES
 
-#### Beispiel 1: Zufälliges Farbskript beim Start
+### EXAMPLE 1
 
 ```powershell
-# In Ihrer $PROFILE-Datei:
-Import-Module ColorScripts-Enhanced
 Show-ColorScript
 ```
 
-#### Beispiel 2: Tägliches anderes Farbskript
+Zeigt einen zufälligen Farbskript an. Deterministische gebündelte Skripte werden im Prozess gerendert; Berechtigte Computerrenderer können validierte zwischengespeicherte Ausgaben wiederverwenden.
+
+### EXAMPLE 2
 
 ```powershell
-# Verwenden Sie das Datum als Seed für konsistentes tägliches Skript
+Show-ColorScript -Name "mandelbrot-zoom"
+```
+
+Zeigt den angegebenen Farbskript mit dem genauen Namen an. Die Erweiterung .ps1 ist nicht erforderlich.
+
+### EXAMPLE 3
+
+```powershell
+Show-ColorScript -Name "aurora-*"
+```
+
+Zeigt den ersten Farbskript (alphabetisch) an, der dem Platzhaltermuster "aurora-\*" entspricht. Nützlich, wenn Sie sich einen Teil des Skriptnamens merken.
+
+### EXAMPLE 4
+
+```powershell
+scs hearts
+```
+
+Verwendet den Alias 'scs' des Moduls für den schnellen Zugriff auf die Herzen Farbskript. Aliase bieten praktische Verknüpfungen für die häufige Verwendung.
+
+### EXAMPLE 5
+
+```powershell
+Show-ColorScript -List
+```
+
+Listet die verfügbaren Farbskripte nach Name und Hauptkategorie auf. Hilfreich für die schnelle Entdeckung.
+
+### EXAMPLE 6
+
+```powershell
+Show-ColorScript -Name Galaxy -NoCache
+```
+
+Zeigt den geeigneten Galaxy-Renderer an, ohne die zwischengespeicherte Ausgabe zu lesen, wodurch ein neues isoliertes Rendering erzwungen wird. Nützlich beim Testen von Renderer-Änderungen oder beim Untersuchen von Cache-Beschädigungen.
+
+### EXAMPLE 7
+
+```powershell
+Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category
+```
+
+Zeigt ein zufälliges Skript zum Thema Natur an und erfasst sein Metadatenobjekt zur weiteren Überprüfung oder Verarbeitung.
+
+### EXAMPLE 8
+
+```powershell
+Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt
+```
+
+Rendert den Farbskript und speichert die Ausgabe in einer Textdatei. Die gerenderten ANSI-Codes bleiben erhalten, sodass die Datei später mit der richtigen Farbe angezeigt werden kann.
+
+### EXAMPLE 9
+
+```powershell
+Show-ColorScript -All
+```
+
+Zeigt alle Farbskripte in alphabetischer Reihenfolge mit einer kurzen automatischen Verzögerung dazwischen an. Perfekt für eine visuelle Präsentation der gesamten Kollektion.
+
+### EXAMPLE 10
+
+```powershell
+Show-ColorScript -All -WaitForInput
+```
+
+Zeigt alle Farbskripte einzeln an und pausiert nach jedem. Drücken Sie die Leertaste, um zum nächsten Skript zu gelangen, oder drücken Sie 'q', um die Sequenz vorzeitig zu beenden.
+
+### EXAMPLE 11
+
+```powershell
+Show-ColorScript -All -Category Nature -WaitForInput
+```
+
+Durchläuft alle Farbskripte zum Thema Natur mit manuellem Fortschritt. Kombiniert Filterung mit interaktivem Browsen für ein kuratiertes Erlebnis.
+
+### EXAMPLE 12
+
+```powershell
+Show-ColorScript -Tag retro,geometric -Random
+```
+
+Zeigt einen zufälligen Farbskript an, der entweder das Tag "retro" oder "geometric" hat. Mehrere Tag-Werte verwenden die Any-Match-Semantik.
+
+### EXAMPLE 13
+
+```powershell
+Show-ColorScript -List -Category Artistic,Abstract
+```
+
+Listet nur Farbskripte auf, das als "Art" oder "Abstract" kategorisiert ist, und hilft Ihnen, Skripte in bestimmten Themen zu finden.
+
+### EXAMPLE 14
+
+```powershell
+# Überprüfen Sie die Cache-Berechtigung und den Build-Status für einen durch eine Richtlinie ausgewählten Renderer.
+New-ColorScriptCache -Name Galaxy -Force -PassThru |
+    Select-Object Name, Status, CacheFile
+Show-ColorScript -Name Galaxy
+```
+
+Erstellt und überprüft einen Cache-Eintrag für einen geeigneten Renderer, ohne einen maschinenunabhängigen Leistungsmultiplikator zu beanspruchen.
+
+### EXAMPLE 15
+
+```powershell
+# Richten Sie die tägliche Rotation verschiedener Farbskripte ein
 $seed = (Get-Date).DayOfYear
 Get-Random -SetSeed $seed
-Show-ColorScript
+Show-ColorScript -Random -PassThru | Select-Object Name
 ```
 
-#### Beispiel 3: Cache für bevorzugte Skripte erstellen
+Zeigt jeden Tag basierend auf dem Datum einen konsistenten, aber unterschiedlichen Farbskript an.
+
+### EXAMPLE 16
 
 ```powershell
-New-ColorScriptCache -Name Galaxy,rose-curves,wave-interference
+# Exportieren Sie gerendertes Farbskript in eine Datei zur Weitergabe
+Show-ColorScript -Name "aurora-waves" -ReturnText |
+    Out-File -FilePath "./aurora.ansi" -Encoding UTF8
+
+# Später die gespeicherte Datei anzeigen
+Get-Content "./aurora.ansi" -Raw | Write-Host
 ```
 
-#### Beispiel 4: Cache-Neuerstellung erzwingen
+Speichert ein gerendertes Farbskript in einer Datei, die später angezeigt oder mit anderen geteilt werden kann.
+
+### EXAMPLE 17
 
 ```powershell
-New-ColorScriptCache -Force
+# Erstellen Sie eine Diashow mit geometrischem Farbskripte
+Get-ColorScriptList -Category Geometric -AsObject |
+    ForEach-Object {
+        Show-ColorScript -Name $_.Name
+        Start-Sleep -Seconds 3
+    }
 ```
+
+Zeigt automatisch eine Folge geometrischer Farbskripte mit jeweils 3 Sekunden Verzögerung an.
+
+### EXAMPLE 18
+
+```powershell
+# Beispiel für die Fehlerbehandlung
+try {
+    Show-ColorScript -Name "nonexistent-script" -ErrorAction Stop
+} catch {
+    Write-Warning "Skript nicht gefunden: $_"
+    Show-ColorScript  # Ersatzweise eine zufällige Auswahl anzeigen
+}
+```
+
+Demonstriert die Fehlerbehandlung beim Anfordern eines Skripts, das nicht vorhanden ist.
+
+### EXAMPLE 19
+
+```powershell
+# Automatisierungsintegration erstellen
+if ($env:CI) {
+    Show-ColorScript -Name "Galaxy" -NoCache
+} else {
+    Show-ColorScript  # Zufallsanzeige zur interaktiven Verwendung
+}
+```
+
+Zeigt, wie verschiedene Farbskripte in CI/CD-Umgebungen im Vergleich zu interaktiven Sitzungen bedingt angezeigt werden.
+
+### EXAMPLE 20
+
+```powershell
+# Geplante Aufgabe für die Terminalbegrüßung
+$scriptPath = "$(Get-Module ColorScripts-Enhanced).ModuleBase\Scripts\mandelbrot-zoom.ps1"
+if (Test-Path $scriptPath) {
+    & $scriptPath
+} else {
+    Show-ColorScript -Name mandelbrot-zoom
+}
+```
+
+Demonstriert die Ausführung eines bestimmten Farbskript als Teil einer geplanten Aufgabe oder Startautomatisierung.
+
+### EXAMPLE 21
+
+```powershell
+Show-ColorScript -IncludePokemon
+```
+
+Zeigt einen zufälligen Farbskript einschließlich Skripten in der Kategorie `Pokemon` an. Nützlich, wenn Sie Pokémon-Kunst in Ihre zufällige Auswahl aufnehmen möchten.
+
+### EXAMPLE 22
+
+```powershell
+Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming
+```
+
+Zeigt einen zufälligen Farbskript an und schließt dabei die Kategorien `Pokemon` und `Gaming` aus. Kombinieren Sie es mit `-Category` oder `-Tag`, um die Auswahl weiter zu verfeinern.
 
 ## PARAMETERS
 
 ### -All
 
-Durchläuft alle verfügbaren Farbskripte in alphabetischer Reihenfolge. Wenn allein angegeben, werden Skripte kontinuierlich mit einer kurzen automatischen Verzögerung angezeigt. Kombinieren Sie mit `-WaitForInput`, um die Fortsetzung durch die Sammlung manuell zu steuern. Dieser Modus ist ideal, um die gesamte Bibliothek zu präsentieren oder neue Favoriten zu entdecken.
+Durchlaufen Sie alle verfügbaren Farbskripte in alphabetischer Reihenfolge. Bei alleiniger Angabe werden Skripte kontinuierlich mit einer kurzen automatischen Verzögerung angezeigt. Kombinieren Sie es mit `-WaitForInput`, um den Fortschritt in der Sammlung manuell zu steuern. Dieser Modus ist ideal, um die gesamte Bibliothek zu präsentieren oder neue Favoriten zu entdecken.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -129,7 +309,7 @@ HelpMessage: ''
 
 ### -Category
 
-Filtert die verfügbare Skriptsammlung nach einer oder mehreren Kategorien, bevor eine Auswahl oder Anzeige erfolgt. Kategorien sind typischerweise breite Themen wie "Nature", "Abstract", "Art", "Retro" usw. Mehrere Kategorien können als Array angegeben werden. Dieser Parameter funktioniert in Verbindung mit allen Modi (Random, Named, List, All), um den Arbeitsbereich einzugrenzen.
+Filtern Sie die verfügbare Skriptsammlung nach einer oder mehreren Kategorien, bevor eine Auswahl oder Anzeige erfolgt. Bei Kategorien handelt es sich in der Regel um umfassende Themen wie "Nature", "Abstract", "Art", "Retro" usw. Mehrere Kategorien können als Array angegeben werden. Dieser Parameter funktioniert in Verbindung mit allen Modi (Zufällig, Benannt, Liste, Alle), um den Arbeitssatz einzugrenzen.
 
 ```yaml
 Type: System.String[]
@@ -150,8 +330,7 @@ HelpMessage: ''
 
 ### -ExcludeCategory
 
-Exclude scripts from one or more categories.
-Use this to filter out large collections like Pokemon scripts.
+Schließen Sie Skripte aus einer oder mehreren Kategorien aus, bevor die Auswahl erfolgt. Verwenden Sie beispielsweise `-ExcludeCategory Pokemon`, um alle Pokémon-Skripte zu vermeiden, oder geben Sie mehrere Kategorien an, z. B. `-ExcludeCategory Pokemon,Gaming`. Funktioniert in allen Modi (Zufällig, Benannt, Liste, Alle) und kombiniert mit den Filtern `-Category` und `-Tag`.
 
 ```yaml
 Type: System.String[]
@@ -172,7 +351,7 @@ HelpMessage: ''
 
 ### -h
 
-Zeigt die ausführliche Hilfe für diesen Befehl an, ohne den Vorgang auszuführen.
+Zeigt detaillierte Hilfe für diesen Befehl an, ohne den Vorgang auszuführen.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -194,8 +373,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Opt-in flag to include Pokemon colorscripts in the random selection.
-When omitted, Pokemon scripts are filtered out automatically.
+Opt-in-Flag, um Pokémon Farbskripte in die Auswahl aufzunehmen. Wenn es weggelassen wird, werden Pokémon-Skripte automatisch herausgefiltert (Standard). Hinweis: Dies ersetzt den älteren `-ExcludePokemon`-Parameter – die umgestaltete invertierte Semantik, sodass Sie sich jetzt für die Anzeige von Pokémon-Skripten entscheiden, anstatt sie abzulehnen.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -216,7 +394,7 @@ HelpMessage: ''
 
 ### -List
 
-Zeigt eine formatierte Liste aller verfügbaren Farbskripte mit ihren zugehörigen Metadaten an. Die Ausgabe enthält Skriptname, Kategorie, Tags und Beschreibung. Dies ist nützlich, um verfügbare Optionen zu erkunden und die Organisation der Sammlung zu verstehen. Kann mit `-Category` oder `-Tag` kombiniert werden, um nur gefilterte Teilmengen aufzulisten.
+Zeigt eine formatierte Liste aller verfügbaren Farbskripte mit den zugehörigen Metadaten an. Die Ausgabe umfasst Skriptnamen, Kategorie, Tags und Beschreibung. Dies ist nützlich, um die verfügbaren Optionen zu erkunden und die Organisation der Sammlung zu verstehen. Kann mit `-Category` oder `-Tag` kombiniert werden, um nur gefilterte Teilmengen aufzulisten.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -237,7 +415,7 @@ HelpMessage: ''
 
 ### -Name
 
-Der Name des anzuzeigenden Farbskripts (ohne die .ps1-Erweiterung). Unterstützt Platzhaltermuster (\* und ?) für flexible Übereinstimmung. Wenn mehrere Skripte einem Platzhaltermuster entsprechen, wird die erste Übereinstimmung in alphabetischer Reihenfolge ausgewählt und angezeigt. Verwenden Sie `-PassThru`, um zu überprüfen, welches Skript bei Verwendung von Platzhaltern ausgewählt wurde.
+Der Name des anzuzeigenden Farbskript (ohne die Erweiterung .ps1). Unterstützt Platzhaltermuster (\* und ?) für flexiblen Abgleich. Wenn mehrere Skripte mit einem Platzhaltermuster übereinstimmen, wird die erste Übereinstimmung in alphabetischer Reihenfolge ausgewählt und angezeigt. Verwenden Sie `-PassThru`, um zu überprüfen, welches Skript bei der Verwendung von Platzhaltern ausgewählt wurde.
 
 ```yaml
 Type: System.String
@@ -258,7 +436,7 @@ HelpMessage: ''
 
 ### -NoAnsiOutput
 
-Deaktiviert ANSI-Formatierung in Informationsmeldungen und gerenderter Ausgabe für reine Textumgebungen.
+Deaktiviert das ANSI-Format in Informationsmeldungen und gerenderten Ausgaben für Nur-Text-Umgebungen.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -280,7 +458,7 @@ HelpMessage: ''
 
 ### -NoCache
 
-Umgeht das Caching-System und führt das Farbskript direkt aus. Dies erzwingt eine frische Ausführung und kann nützlich sein, wenn Skriptänderungen getestet, Fehler behoben oder Cache-Korruption vermutet wird. Ohne diesen Schalter wird zwischengespeicherte Ausgabe verwendet, wenn verfügbar, für optimale Leistung.
+Umgeht validierte Cache-Lesevorgänge für durch Richtlinien ausgewählte Renderer und erzwingt ein neues isoliertes Rendering. Dies ist nützlich, wenn Sie Renderer-Änderungen testen oder Cache-Beschädigungen untersuchen. Deterministische gebündelte Skripte und nicht aufgeführte oder benutzerdefinierte Skripte umgehen den Cache bereits; Gebündelter deterministischer Inhalt wird weiterhin im Prozess gerendert.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -301,7 +479,7 @@ HelpMessage: ''
 
 ### -NoClear
 
-When cycling through scripts with -All, skip clearing the host between displays so prior output remains visible.
+Überspringen Sie bei Verwendung mit `-All` den automatischen `Clear-Host`-Aufruf zwischen Farbskripte, sodass jedes gerenderte Skript über dem nächsten sichtbar bleibt. Dies ist besonders nützlich, wenn Sie Skripte nebeneinander vergleichen oder die gesamte Präsentation in Sitzungsprotokollen festhalten möchten.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -322,7 +500,7 @@ HelpMessage: ''
 
 ### -PassThru
 
-Gibt das Metadatenobjekt des ausgewählten Farbskripts zusätzlich zur Anzeige des Farbskripts an die Pipeline zurück. Das Metadatenobjekt enthält Eigenschaften wie Name, Pfad, Kategorie, Tags und Beschreibung. Dies ermöglicht programmatischen Zugriff auf Skriptinformationen für Filterung, Protokollierung oder weitere Verarbeitung, während die visuelle Ausgabe weiterhin gerendert wird.
+Geben Sie zusätzlich zur Anzeige des Farbskript das Metadatenobjekt des ausgewählten Farbskript an die Pipeline zurück. Das Metadatenobjekt enthält Eigenschaften wie Name, Path, Category, Tags und Description. Dies ermöglicht den programmgesteuerten Zugriff auf Skriptinformationen zum Filtern, Protokollieren oder zur weiteren Verarbeitung, während gleichzeitig die visuelle Ausgabe gerendert wird.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -349,7 +527,7 @@ HelpMessage: ''
 
 ### -Quiet
 
-Unterdrückt Informationsmeldungen, ohne Befehlsausgaben und Fehler zu unterdrücken.
+Unterdrückt Informationsmeldungen und behält gleichzeitig Befehlsausgaben und Fehler bei.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -370,7 +548,7 @@ HelpMessage: ''
 
 ### -Random
 
-Fordert explizit eine zufällige Farbskriptauswahl an. Dies ist das Standardverhalten, wenn kein Name angegeben wird, daher ist dieser Schalter hauptsächlich nützlich für Klarheit in Skripten oder wenn Sie explizit über den Auswahlmodus sein möchten. Kann mit `-Category` oder `-Tag` kombiniert werden, um innerhalb einer gefilterten Teilmenge zu randomisieren.
+Fordern Sie ausdrücklich eine zufällige Farbskript-Auswahl an. Dies ist das Standardverhalten, wenn kein Name angegeben wird. Daher ist dieser Schalter vor allem aus Gründen der Klarheit in Skripten nützlich oder wenn Sie den Auswahlmodus explizit angeben möchten. Kann mit `-Category` oder `-Tag` kombiniert werden, um eine Randomisierung innerhalb einer gefilterten Teilmenge zu ermöglichen.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -391,7 +569,7 @@ HelpMessage: ''
 
 ### -ReturnText
 
-Gibt das gerenderte Farbskript als Zeichenfolge an die PowerShell-Pipeline aus, anstatt direkt in den Konsolenhost zu schreiben. Dies ermöglicht das Erfassen der Ausgabe in einer Variablen, die Umleitung in eine Datei oder die Weiterleitung an andere Befehle. Die Ausgabe behält alle ANSI-Escape-Sequenzen bei, sodass sie bei späterer Ausgabe in einem kompatiblen Terminal mit richtigen Farben angezeigt wird.
+Geben Sie das gerenderte Farbskript als string an die PowerShell-Pipeline aus, anstatt direkt auf den Konsolenhost zu schreiben. Dadurch kann die Ausgabe in einer Variablen erfasst, in eine Datei umgeleitet oder an andere Befehle weitergeleitet werden. Die Ausgabe behält alle ANSI-Escape-Sequenzen bei, sodass sie beim späteren Schreiben auf ein kompatibles Terminal mit den richtigen Farben angezeigt wird.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -413,7 +591,7 @@ HelpMessage: ''
 
 ### -Tag
 
-Filtert die verfügbare Skriptsammlung nach Metadaten-Tags (Groß-/Kleinschreibung wird nicht beachtet). Tags sind spezifischere Deskriptoren als Kategorien, wie "geometric", "retro", "animated", "minimal" usw. Mehrere Tags können als Array angegeben werden. Skripte, die einem der angegebenen Tags entsprechen, werden in den Arbeitsbereich aufgenommen, bevor die Auswahl erfolgt.
+Filtern Sie die verfügbare Skriptsammlung nach Metadaten-Tags (ohne Berücksichtigung der Groß- und Kleinschreibung). Tags sind spezifischere Deskriptoren als Kategorien, wie z. B. "geometric", "retro", "animated", "minimal" usw. Mehrere Tags können als Array angegeben werden. Skripte, die mit einem der angegebenen Tags übereinstimmen, werden vor der Auswahl in den Arbeitssatz aufgenommen.
 
 ```yaml
 Type: System.String[]
@@ -434,8 +612,7 @@ HelpMessage: ''
 
 ### -ValidateCache
 
-Forces cache validation before rendering.
-Use when you need to rebuild cached colorscript output manually.
+Aktualisiert die Cache-Metadatenmarkierung auf Modulebene vor dem Rendern, auch wenn das Cache-Verzeichnis bereits in der aktuellen Modulsitzung initialisiert wurde. Es werden keine Ausgabe-Cache-Einträge neu erstellt und die normale Validierung pro Eintrag wird nicht ersetzt. Wenn `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` auf `1`, `true` oder `yes` gesetzt wird, wird während der Cache-Initialisierung dieselbe Aktualisierung angefordert.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -456,7 +633,7 @@ HelpMessage: ''
 
 ### -WaitForInput
 
-Bei Verwendung mit `-All` wird nach der Anzeige jedes Farbskripts angehalten und auf Benutzereingabe gewartet, bevor fortgefahren wird. Drücken Sie die Leertaste, um zum nächsten Skript in der Sequenz zu gelangen. Drücken Sie 'q', um die Sequenz frühzeitig zu beenden und zur Eingabeaufforderung zurückzukehren. Dies bietet eine interaktive Browsing-Erfahrung durch die gesamte Sammlung.
+Halten Sie bei Verwendung mit `-All` nach der Anzeige jedes Farbskript inne und warten Sie auf Benutzereingaben, bevor Sie fortfahren. Drücken Sie die Leertaste, um zum nächsten Skript in der Sequenz zu gelangen. Drücken Sie 'q', um die Sequenz vorzeitig zu beenden und zur Eingabeaufforderung zurückzukehren. Dies ermöglicht ein interaktives Durchsuchen der gesamten Sammlung.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -477,38 +654,40 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Dieses Cmdlet unterstützt die allgemeinen Parameter:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Weitere Informationen finden Sie unter
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
-### System.String
+### None
 
-Sie können Farbskriptnamen an Show-ColorScript weiterleiten. Dies ermöglicht pipelinebasierte Workflows, bei denen Skriptnamen von anderen Befehlen generiert oder gefiltert werden.
+Dieses Cmdlet akzeptiert keine Pipeline-Eingaben. Leiten Sie Bestandsdatensätze an `ForEach-Object` weiter und rufen Sie `Show-ColorScript -Name $_.Name` auf, wenn Sie eine Pipeline erstellen.
 
 ## OUTPUTS
 
 ### System.Object
 
-Wenn `-PassThru` angegeben ist, wird das Metadatenobjekt des ausgewählten Farbskripts zurückgegeben, das Eigenschaften wie Name, Pfad, Kategorie, Tags und Beschreibung enthält.
+Wenn `-PassThru` angegeben ist, wird das Metadatenobjekt des ausgewählten Farbskript zurückgegeben, das Eigenschaften wie Name, Path, Category, Tags und Description enthält.
 
 ### System.String (2)
 
-Wenn `-ReturnText` angegeben ist, wird das gerenderte Farbskript als Zeichenfolge an die Pipeline ausgegeben. Diese Zeichenfolge enthält alle ANSI-Escape-Sequenzen für korrekte Farbdarstellung bei Anzeige in einem kompatiblen Terminal.
+Wenn `-ReturnText` angegeben ist, wird das gerenderte Farbskript als string an die Pipeline ausgegeben. Dieses string enthält alle ANSI-Escape-Sequenzen für eine korrekte Farbwiedergabe bei der Anzeige in einem kompatiblen Terminal.
 
 ### None
 
-Bei Standardbetrieb (ohne `-PassThru` oder `-ReturnText`) wird die Ausgabe direkt in den Konsolenhost geschrieben und nichts an die Pipeline zurückgegeben.
+Im Standardbetrieb (ohne `-PassThru` oder `-ReturnText`) wird die Ausgabe direkt auf den Konsolenhost geschrieben und nichts wird an die Pipeline zurückgegeben.
 
 ## NOTES
 
-**Author:** Nick
-**Module:** ColorScripts-Enhanced
-**Requires:** PowerShell 5.1 or later
+**Autor:** Nick
+**Modul:** ColorScripts-Enhanced
+**Erfordert:** PowerShell 5.1 oder höher
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
+- [Onlineversion](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
 

@@ -6,13 +6,14 @@ KORTE BESCHRIJVING
 
 UITGEBREIDE BESCHRIJVING
     ColorScripts-Enhanced is een platformonafhankelijke PowerShell-module met
-    3156 colorscripts. De module ondersteunt Windows PowerShell 5.1 en
+    duizenden colorscripts. De module ondersteunt Windows PowerShell 5.1 en
     PowerShell 7.x op Windows, macOS en Linux.
 
-    De meeste colorscripts zijn statisch en worden rechtstreeks uitgevoerd.
-    Uitvoercaching is beperkt tot de 15 kostbare renderers in CachePolicy.psd1.
-    Renderers die actuele gegevens moeten tonen blijven ongecached wanneer
-    hergebruik hun gedrag zou veranderen.
+    De meeste meegeleverde colorscripts bevatten deterministische statische inhoud en worden
+    in het huidige proces gerenderd zonder een onderliggend PowerShell-proces te starten.
+    Uitvoercaching is beperkt tot de kleine selectie kostbare renderers in CachePolicy.psd1.
+    Renderers die actuele gegevens moeten tonen blijven ongecached wanneer hergebruik hun
+    gedrag zou veranderen.
 
 BASISGEBRUIK
     Import-Module ColorScripts-Enhanced
@@ -20,9 +21,9 @@ BASISGEBRUIK
     Show-ColorScript -Name bars
     Get-ColorScriptList -Category Patterns
 
-    Pokemon-scripts worden standaard uitgesloten van willekeurige selectie.
+    Pokémon-scripts worden standaard uitgesloten van willekeurige selectie.
     Gebruik -IncludePokemon om ze toe te voegen. Een rechtstreeks opgevraagde
-    Pokemon-naam blijft werken.
+    Pokémon-naam blijft werken.
 
 OPDRACHTEN
     Show-ColorScript
@@ -61,7 +62,7 @@ CACHE EN CONFIGURATIE
     permanente configuratie te verplaatsen.
 
 HELP EN VERSIE
-    Elke geexporteerde opdracht accepteert -h (alias -help) voor korte hulp.
+    Elke geëxporteerde opdracht accepteert -h (alias -help) voor korte hulp.
 
     Get-Help Show-ColorScript -Full
     Get-Help Show-ColorScript -Examples

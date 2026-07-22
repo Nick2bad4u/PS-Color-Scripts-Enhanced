@@ -1,284 +1,51 @@
-# MegaLinter & Git-Cliff Setup Complete
+# MegaLinter Configuration
 
-## ✅ Issues Fixed
+The repository retains `.mega-linter.yml` for optional broad repository scans. MegaLinter is not the primary PowerShell quality gate and there is currently no dedicated MegaLinter workflow under `.github/workflows/`.
 
-### 1. Git-Cliff Configuration (`cliff.toml`)
+## Current Quality Gates
 
-- ✅ Updated repository references from `UserStyles` to `PS-Color-Scripts-Enhanced`
-- ✅ Configured for conventional commits
-- ✅ Properly categorizes commits with emojis
-- ✅ Generates clean, formatted changelogs
-
-## Test Command
+Use the repository-owned commands for normal development and CI parity:
 
 ```powershell
-npx git-cliff --config cliff.toml --unreleased
+npm run verify
+npm run verify:strict
+npm test
+npm run markdown:check
+npm run lint:gitleaks
+npm run lint:yamllint
 ```
 
----
+`scripts/Lint-Module.ps1` and `PSScriptAnalyzerSettings.psd1` own PowerShell analysis. Bundled colorscripts are treated as art/data and are validated by the corpus and conversion tests rather than applying the full module analyzer rules to all <!-- COLOR_SCRIPT_COUNT_PLUS -->3186+<!-- /COLOR_SCRIPT_COUNT_PLUS --> files.
 
-### 2. MegaLinter Configuration (`.mega-linter.yml`)
+## Optional MegaLinter Use
 
-## Created comprehensive configuration
+If running MegaLinter locally or adding it to a workflow, use the checked-in `.mega-linter.yml` and review its output as an additional signal. Do not replace the repository's Pester, conversion, ScriptAnalyzer, link, provenance, or package checks with one aggregate linter result.
 
-- ✅ Validates module structure
-- ✅ Lints PowerShell code (`.ps1`, `.psm1`, `.psd1`)
-- ✅ Checks Markdown formatting
-- ✅ Validates JSON and YAML files
-- ✅ Excludes `Scripts/` folder from PowerShell linting (<!-- COLOR_SCRIPT_COUNT_PLUS -->3156+<!-- /COLOR_SCRIPT_COUNT_PLUS --> colorscripts)
-- ✅ Runs ScriptAnalyzer on module code only
-- ✅ Generates detailed reports
-- ✅ Uses custom `PSScriptAnalyzerSettings.psd1`
-- ✅ Configures markdown linting with proper exclusions
-- ✅ Sets up YAML, PowerShell, and Repository linters
-- ✅ Excludes CHANGELOG.md from duplicate heading checks
-- ✅ Notes that ScriptAnalyzer now runs only on PowerShell 7 runners (Windows PowerShell 5.1 executes tests without analyzer to avoid false positives)
+Before enabling a workflow:
 
-## Key Settings
+1. pin the MegaLinter action to a full commit SHA;
+2. grant only the permissions required by the selected reporters;
+3. keep generated reports out of source control unless intentionally published;
+4. confirm the exclusions still match the current repository layout; and
+5. run the existing quality gates independently.
 
-```yaml
-POWERSHELL_POWERSHELL_CONFIG_FILE: PSScriptAnalyzerSettings.psd1
-POWERSHELL_POWERSHELL_FILTER_REGEX_EXCLUDE: '(Scripts/.*\.ps1)'
-MARKDOWN_MARKDOWN_TABLE_FORMATTER_FILTER_REGEX_EXCLUDE: '(CHANGELOG\.md|.*AUDIT.*\.md|.*SUMMARY.*\.md)'
-REPOSITORY_CHECKOV_ARGUMENTS: "--framework github_actions --skip-check CKV_GHA_7,CKV2_GHA_1"
-```
+## Git-Cliff
 
----
-
-### 3. Markdown Linting (`.markdownlint.json`)
-
-## Created configuration to allow
-
-- ✅ MD024: Duplicate headings in different sections
-- ✅ MD033: HTML tags (for images/videos)
-- ✅ MD034: Bare URLs (for demo videos)
-- ✅ MD040: Fenced code blocks without language
-- ✅ MD041: First line not being H1
-
----
-
-### 4. Markdown Link Checking (`.markdown-link-check.json`)
-
-## Configured to
-
-- ✅ Ignore imgur.com links (demo videos)
-- ✅ Ignore GitHub repository links (to avoid rate limits)
-- ✅ Retry on 429 errors
-- ✅ 20-second timeout for slow servers
-
----
-
-### 5. Shellcheck Issue (`.github/workflows/summary.yml`)
-
-## Fixed
-
-```yaml
-# Before (SC2086 warning)
-gh issue comment $ISSUE_NUMBER --body '${{ steps.inference.outputs.response }}'
-
-# After (properly quoted)
-gh issue comment "$ISSUE_NUMBER" --body '${{ steps.inference.outputs.response }}'
-```
-
----
-
-### 6. README.md Updates
-
-## Fixed (2)
-
-- ✅ Changed from H2 to H1 for main heading (MD041)
-- ✅ Added proper Credits section at top
-- ✅ Added Documentation section with all links
-- ✅ Added reference to CHANGELOG.md
-- ✅ Fixed relative links to documentation
-
-## New Documentation Links Section
-
-```markdown
-## Documentation
-
-- 📖 [Quick Start Guide](QUICKSTART.md)
-- 📘 [Quick Reference](QUICKREFERENCE.md)
-- 📋 [Module Summary](MODULE_SUMMARY.md)
-- 🔧 [Development Guide](docs/DEVELOPMENT.md)
-- 📦 [Publishing Guide](docs/PUBLISHING.md)
-- ✅ [Release Checklist](docs/RELEASE_CHECKLIST.md)
-- 🤝 [Contributing Guidelines](CONTRIBUTING.md)
-- 🔄 [Changelog](CHANGELOG.md)
-```
-
----
-
-### 7. GitHub Packages Publishing (`.github/workflows/publish.yml`)
-
-## Fixed authentication issue
-
-- ✅ Removed broken GitHub Packages publish step
-- ✅ Added informative message about limitation
-- ✅ Publishing now focuses on PowerShell Gallery only
-
-**Note:** GitHub Packages doesn't work well with PowerShell modules via `Publish-Module`. Use PowerShell Gallery or GitHub Releases instead.
-
----
-
-### 8. Feature Request Template
-
-## Fixed (3)
-
-```markdown
-# Before
-
-### Feature Type (check all that apply).
-
-# After
-
-### Feature Type (check all that apply)
-```
-
----
-
-## 📁 New Files Created
-
-1. **`.mega-linter.yml`** - MegaLinter configuration
-2. **`.markdownlint.json`** - Markdown linting rules
-3. **`.markdown-link-check.json`** - Link checking configuration
-
----
-
-## 🧪 Testing
-
-### Test Git-Cliff
+Git-cliff configuration comes from the installed `gitcliff-config-nick2bad4u` package, not a root `cliff.toml`.
 
 ```powershell
-# Generate unreleased changelog
-npx git-cliff --config cliff.toml --unreleased
-
-# Generate full changelog
-npx git-cliff --config cliff.toml --output CHANGELOG.md
-
-# Generate with version
-npx git-cliff --config cliff.toml --tag v2025.10.11 --output CHANGELOG.md
+npm run changelog:preview
+npm run release:notes
+npm run release:verify
 ```
 
-### Test MegaLinter Locally
+Release-note generation depends on local tags. Fetch tags before diagnosing a stale range, and preserve the established `--current` contract used by release verification and the publish workflow.
 
-```powershell
-# Run MegaLinter in Docker
-docker run --rm -v ${PWD}:/tmp/lint oxsecurity/megalinter:latest
+## Maintenance
 
-# Or use GitHub Actions workflow_dispatch
-# Go to Actions > MegaLinter > Run workflow
-```
+Treat this document as configuration guidance, not a record of previously “fixed” issues. When `.mega-linter.yml`, package scripts, or CI workflows change, update the claims here from those files rather than retaining historical checklist entries.
 
 ---
 
-## ⚙️ GitHub Actions Integration
-
-### Update Changelog Workflow
-
-The `updateChangeLogs.yml` workflow is properly configured:
-
-- ✅ Uses git-cliff with `cliff.toml`
-- ✅ Creates PR automatically
-- ✅ Adds check run status
-- ✅ Generates summary
-
-## Trigger manually
-
-```text
-Actions > Update ChangeLogs > Run workflow
-```
-
-### MegaLinter Workflow
-
-The `.github/workflows/mega-linter.yml` will use the new configuration:
-
-- ✅ Respects exclusions
-- ✅ Uses custom settings
-- ✅ Auto-fixes when possible
-
----
-
-## 🔒 Checkov Warnings (Informational Only)
-
-The following warnings are **expected and safe to ignore**:
-
-### 1. Workflow Dispatch Inputs
-
-**Warning:** `CKV_GHA_7` - workflow\_dispatch inputs not empty
-
-## Workflows affected
-
-- `git-sizer-dispatch.yml` - Needs repo input
-- `publish.yml` - Needs publish options
-
-**Why it's safe:** These are manual workflows that require user input for configuration.
-
-**Fix applied:** Added to skip list in `.mega-linter.yml`:
-
-```yaml
-REPOSITORY_CHECKOV_ARGUMENTS: "--skip-check CKV_GHA_7,CKV2_GHA_1"
-```
-
-### 2. Top-Level Permissions
-
-**Warning:** `CKV2_GHA_1` - Top-level permissions not set to write-all
-
-**Why it's informational:** Some workflows need write permissions for their function (e.g., creating PRs, updating checks).
-
-**Best practice:** Each workflow has permissions scoped to minimum required.
-
----
-
-## 📊 Expected Results
-
-### ✅ All Linters Pass
-
-- PowerShell: Only module files linted (Scripts/ excluded)
-- Markdown: Relaxed rules for flexibility
-- YAML: Workflows properly formatted
-- Repository: Security checks pass with skipped rules
-
-### ✅ Links Work
-
-- Relative links within repository work
-- External links excluded from checks where appropriate
-- GitHub API links handled with retries
-
-### ✅ Changelogs Generate Cleanly
-
-- Conventional commits parsed correctly
-- Commits grouped by type (features, fixes, chores)
-- Emojis display properly
-- Links to commits/comparisons work
-
----
-
-## 🎯 Summary
-
-All MegaLinter and git-cliff issues resolved:
-
-- ✅ PowerShell linting (excludes colorscripts)
-- ✅ Markdown linting (relaxed for project needs)
-- ✅ Shellcheck warnings fixed
-- ✅ README properly structured
-- ✅ Git-cliff generates clean changelogs
-- ✅ GitHub Packages publish issue resolved
-- ✅ All documentation linked correctly
-
-## Next Steps
-
-1. Commit all changes
-2. Push to GitHub
-3. Run "Update ChangeLogs" workflow to generate latest CHANGELOG
-4. Watch MegaLinter pass on next PR/push
-
----
-
-## 📚 References
-
-- [MegaLinter Documentation](https://megalinter.io/)
-- [git-cliff Documentation](https://git-cliff.org/)
-- [Conventional Commits](https://www.conventionalcommits.org/)
-- [Markdown Lint Rules](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)
+_Last reviewed: July 21, 2026_
 

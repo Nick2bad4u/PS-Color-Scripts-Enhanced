@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata
 Locale: ru
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Export-ColorScriptMetadata
 ---
@@ -13,7 +13,7 @@ title: Export-ColorScriptMetadata
 
 ## SYNOPSIS
 
-Exports comprehensive metadata for all colorscripts to JSON format or emits structured objects to the pipeline.
+Экспортирует полные метаданные для всех цветовых сценариев в формат JSON или отправляет структурированные объекты в конвейер.
 
 ## SYNTAX
 
@@ -26,28 +26,28 @@ Export-ColorScriptMetadata [[-Path] <string>] [-h] [-IncludeFileInfo] [-IncludeC
 
 ## ALIASES
 
-This command has no aliases.
+У этой команды нет псевдонимов.
 
 ## DESCRIPTION
 
-The `Export-ColorScriptMetadata` cmdlet compiles a comprehensive inventory of all colorscripts in the module's catalog and generates a structured dataset describing each entry. This metadata includes essential information such as script names, categories, tags, and optional enrichments.
+Командлет `Export-ColorScriptMetadata` составляет полный перечень всех цветовых сценариев в каталоге модуля и генерирует структурированный набор данных, описывающий каждую запись. Эти метаданные включают важную информацию, такую ​​как имена сценариев, категории, теги и дополнительные дополнения.
 
-By default, the cmdlet returns PowerShell objects to the pipeline. When the `-Path` parameter is provided, it writes the metadata as formatted JSON to the specified file, automatically creating parent directories if they don't exist.
+По умолчанию командлет возвращает объекты PowerShell в конвейер. Если указан параметр `-Path`, он записывает метаданные в формате JSON в указанный файл, автоматически создавая родительские каталоги, если они не существуют.
 
-The cmdlet offers two optional enrichment flags:
+Командлет предлагает два дополнительных флага расширения:
 
-- **IncludeFileInfo**: Adds file system metadata including full paths, file sizes (in bytes), and last modification timestamps
-- **IncludeCacheInfo**: Appends cache-related information including cache file paths, existence status, and cache timestamps
+- **IncludeFileInfo**: добавляет метаданные файловой системы, включая полные пути, размеры файлов (в байтах) и временные метки последнего изменения.
+- **IncludeCacheInfo**: добавляет информацию, связанную с кешем, включая пути к файлам кеша, состояние существования и временные метки кеша.
 
-This cmdlet is particularly useful for:
+Этот командлет особенно полезен для:
 
-- Creating documentation or dashboards showing all available colorscripts
-- Analyzing cache coverage and identifying scripts needing cache rebuilds
-- Feeding metadata to external tools or automation pipelines
-- Auditing colorscript inventory and file system status
-- Generating reports on colorscript usage and organization
+- Создание документации или информационных панелей, показывающих все доступные цветовые сценарии.
+- Отчеты о наличии файлов необработанного кэша и временных метках.
+- Передача метаданных во внешние инструменты или конвейеры автоматизации.
+- Аудит инвентаризации цветовых сценариев и состояния файловой системы.
+- Создание отчетов об использовании и организации цветовых сценариев.
 
-The output is ordered consistently, making it suitable for version control and diff operations when exported to JSON.
+Вывод упорядочивается последовательно, что делает его пригодным для контроля версий и операций сравнения при экспорте в JSON.
 
 ## EXAMPLES
 
@@ -57,7 +57,7 @@ The output is ordered consistently, making it suitable for version control and d
 Export-ColorScriptMetadata
 ```
 
-Exports basic metadata for all colorscripts to the pipeline without file or cache information.
+Экспортирует базовые метаданные для всех цветовых сценариев в конвейер без информации о файле или кэше.
 
 ### EXAMPLE 2
 
@@ -65,7 +65,7 @@ Exports basic metadata for all colorscripts to the pipeline without file or cach
 Export-ColorScriptMetadata -IncludeFileInfo
 ```
 
-Returns objects that include file system details (full path, size, and last write time) for each colorscript.
+Возвращает объекты, содержащие сведения о файловой системе (полный путь, размер и время последней записи) для каждого цветового сценария.
 
 ### EXAMPLE 3
 
@@ -73,7 +73,7 @@ Returns objects that include file system details (full path, size, and last writ
 Export-ColorScriptMetadata -Path './dist/colorscripts.json'
 ```
 
-Generates a JSON file containing basic metadata and writes it to the `dist` directory, creating the folder if it doesn't exist.
+Создает файл JSON, содержащий основные метаданные, и записывает его в каталог `dist`, создавая папку, если она не существует.
 
 ### EXAMPLE 4
 
@@ -81,15 +81,15 @@ Generates a JSON file containing basic metadata and writes it to the `dist` dire
 Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeFileInfo -IncludeCacheInfo
 ```
 
-Generates a comprehensive JSON file with enriched metadata including both file system and cache information, writing it to the `dist` directory.
+Создает полный файл JSON с расширенными метаданными, включая информацию о файловой системе и кэше, записывая его в каталог `dist`.
 
 ### EXAMPLE 5
 
 ```powershell
-Export-ColorScriptMetadata -Path './dist/colorscripts.json' -PassThru | Where-Object { -not $_.CacheExists }
+Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeCacheInfo -PassThru | Where-Object { -not $_.CacheExists }
 ```
 
-Writes the metadata file and also returns the objects to the pipeline, enabling queries that identify scripts without cache files.
+Записывает файл метаданных и возвращает записи, в которых необработанная полезная нагрузка `.cache` отсутствует. Это сообщает только о занятости файла, а не о пригодности к кэшированию, действительности или актуальности.
 
 ### EXAMPLE 6
 
@@ -97,53 +97,51 @@ Writes the metadata file and also returns the objects to the pipeline, enabling 
 Export-ColorScriptMetadata -IncludeFileInfo | Group-Object Category | Select-Object Name, Count
 ```
 
-Groups colorscripts by category and displays counts, useful for analyzing the distribution of scripts across categories.
+Группирует цветовые сценарии по категориям и отображает их количество, что полезно для анализа распределения сценариев по категориям.
 
 ### EXAMPLE 7
 
 ```powershell
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo
-$totalSize = ($metadata | Measure-Object -Property FileSize -Sum).Sum
-Write-Host "Total size of all colorscripts: $($totalSize / 1KB) KB"
+$totalSize = ($metadata | Measure-Object -Property ScriptSizeBytes -Sum).Sum
+Write-Host "Общий размер всех цветовых сценариев: $($totalSize / 1KB) КБ."
 ```
 
-Calculates the total disk space used by all colorscript files.
+Вычисляет общее дисковое пространство, используемое всеми файлами цветных сценариев.
 
 ### EXAMPLE 8
 
 ```powershell
-# Generate statistics and save report
+# Генерация статистики и сохранение отчета
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
 $stats = @{
     TotalScripts = $metadata.Count
     Categories = ($metadata | Select-Object -ExpandProperty Category -Unique).Count
-    CachedScripts = ($metadata | Where-Object CacheExists).Count
-    TotalFileSize = ($metadata | Measure-Object FileSize -Sum).Sum
-    TotalCacheSize = ($metadata | Where-Object CacheExists |
-        Measure-Object CacheFileSize -Sum).Sum
+    CachePayloadFiles = ($metadata | Where-Object CacheExists).Count
+    TotalScriptSizeBytes = ($metadata | Measure-Object ScriptSizeBytes -Sum).Sum
 }
 $stats | ConvertTo-Json | Out-File "./colorscripts-stats.json"
 ```
 
-Generates a comprehensive statistics report including cache coverage and sizes.
+Генерирует статистику инвентаризации и подсчитывает необработанные файлы полезной нагрузки `.cache`. Наличие полезной нагрузки не является проверкой пригодности, действительности или актуальности кэша.
 
 ### EXAMPLE 9
 
 ```powershell
-# Export and compare with previous backup
+# Экспортируйте и сравните с предыдущей резервной копией.
 $current = Export-ColorScriptMetadata -Path "./current-metadata.json" -IncludeFileInfo -PassThru
 $previous = Get-Content "./previous-metadata.json" | ConvertFrom-Json
 $new = $current | Where-Object { $_.Name -notin $previous.Name }
 $removed = $previous | Where-Object { $_.Name -notin $current.Name }
-Write-Host "New scripts: $($new.Count) | Removed scripts: $($removed.Count)"
+Write-Host "Новые скрипты: $($new.Count) | Удалены скрипты: $($removed.Count)"
 ```
 
-Compares current metadata with a previous version to identify changes.
+Сравнивает текущие метаданные с предыдущей версией для выявления изменений.
 
 ### EXAMPLE 10
 
 ```powershell
-# Build API response for web dashboard
+# Создайте ответ API для веб-панели
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
 $apiResponse = @{
     version = (Get-Module ColorScripts-Enhanced | Select-Object Version).Version.ToString()
@@ -154,26 +152,22 @@ $apiResponse = @{
 $apiResponse | Out-File "./api/colorscripts.json" -Encoding UTF8
 ```
 
-Generates API-ready JSON with versioning and timestamp information.
+Генерирует JSON, готовый к API, с информацией о версии и метке времени.
 
 ### EXAMPLE 11
 
 ```powershell
-# Find scripts with missing cache for batch rebuild
-$metadata = Export-ColorScriptMetadata -IncludeCacheInfo -AsObject
-$uncached = $metadata | Where-Object { -not $_.CacheExists } | Select-Object -ExpandProperty Name
-if ($uncached.Count -gt 0) {
-    Write-Host "Rebuilding cache for $($uncached.Count) scripts..."
-    New-ColorScriptCache -Name $uncached
-}
+# Создайте или проверьте каждую запись кэша, выбранную политикой, и просмотрите статусы.
+$results = New-ColorScriptCache -All -PassThru
+$results | Group-Object Status | Select-Object Name, Count
 ```
 
-Identifies and rebuilds cache for scripts that don't have cache files.
+Использует политику кэширования в качестве источника достоверной информации и сообщает, были ли подходящие записи обновлены, уже являются текущими, пропущены или возникли ошибки.
 
 ### EXAMPLE 12
 
 ```powershell
-# Create HTML gallery from metadata
+# Создать HTML-галерею из метаданных
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo
 $html = @"
 <html>
@@ -189,26 +183,26 @@ $html += "</ul></body></html>"
 $html | Out-File "./gallery.html" -Encoding UTF8
 ```
 
-Creates an HTML gallery page listing all available colorscripts.
+Создает страницу галереи HTML со списком всех доступных цветовых сценариев.
 
 ### EXAMPLE 13
 
 ```powershell
-# Monitor script sizes over time
+# Мониторинг размеров скриптов с течением времени
 Export-ColorScriptMetadata -Path "./logs/metadata-$(Get-Date -Format 'yyyyMMdd').json" -IncludeFileInfo
 Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
     ForEach-Object { Get-Content $_ | ConvertFrom-Json } |
     Group-Object { $_.Name } |
-    ForEach-Object { Write-Host "$($_.Name): $(($_.Group | Measure-Object FileSize -Average).Average) bytes avg" }
+    ForEach-Object { Write-Host "$($_.Name): $(($_.Group | Measure-Object ScriptSizeBytes -Average).Average) bytes avg" }
 ```
 
-Tracks file size changes for individual scripts over multiple exports.
+Отслеживает изменения размера файла для отдельных сценариев при многократном экспорте.
 
 ## PARAMETERS
 
 ### -Confirm
 
-Prompts you for confirmation before running the cmdlet.
+Запрашивает подтверждение перед запуском командлета.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -230,7 +224,7 @@ HelpMessage: ''
 
 ### -h
 
-Показывает подробную справку по команде, не выполняя операцию.
+Отображает подробную справку по этой команде без выполнения операции.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -252,7 +246,7 @@ HelpMessage: ''
 
 ### -IncludeCacheInfo
 
-Augments each record with cache metadata, including the cache file path, whether a cache file exists, and its last modification timestamp. This is useful for identifying scripts that may need cache regeneration or analyzing cache coverage across the colorscript library.
+Добавляет к каждой записи путь к необработанной полезной нагрузке `.cache`, флаг наличия файла и время последней записи. Эти поля не сообщают о соответствии политике кэширования, наличии вспомогательного файла `.cacheinfo`, его действительности или актуальности.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -273,7 +267,7 @@ HelpMessage: ''
 
 ### -IncludeFileInfo
 
-Includes file system details (full path, size in bytes, and last write time) in each record. When file metadata cannot be read (due to permissions or missing files), errors are logged via verbose output and the affected properties are set to null values. This switch is valuable for auditing file sizes and modification dates.
+Включает сведения о файловой системе (полный путь, размер в байтах и ​​время последней записи) в каждой записи. Если метаданные файла не могут быть прочитаны (из-за разрешений или отсутствия файлов), ошибки регистрируются посредством подробного вывода, а затронутым свойствам присваиваются нулевые значения. Этот переключатель полезен для проверки размеров файлов и дат изменения.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -294,7 +288,7 @@ HelpMessage: ''
 
 ### -PassThru
 
-Returns the metadata objects to the pipeline even when the `-Path` parameter is specified. This allows you to both save the metadata to a file and perform additional processing or filtering on the objects in a single command. Without this switch, specifying `-Path` suppresses pipeline output.
+Возвращает объекты метаданных в конвейер, даже если указан параметр `-Path`. Это позволяет не только сохранять метаданные в файл, но и выполнять дополнительную обработку или фильтрацию объектов с помощью одной команды. Без этого переключателя указание `-Path` подавляет вывод конвейера.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -315,7 +309,7 @@ HelpMessage: ''
 
 ### -Path
 
-Specifies the destination file path for the JSON export. Supports relative paths, absolute paths, environment variables (e.g., `$env:TEMP\metadata.json`), and tilde expansion (e.g., `~/Documents/metadata.json`). Parent directories are automatically created if they don't exist. When this parameter is omitted, the cmdlet outputs objects directly to the pipeline instead of writing to a file. The JSON output is formatted with indentation for readability.
+Указывает путь к целевому файлу для экспорта JSON. Поддерживает относительные пути, абсолютные пути, переменные среды (например, `$env:TEMP\metadata.json`) и расширение тильды (например, `~/Documents/metadata.json`). Родительские каталоги создаются автоматически, если они не существуют. Если этот параметр опущен, командлет выводит объекты непосредственно в конвейер, а не записывает их в файл. Вывод JSON форматируется с отступами для удобства чтения.
 
 ```yaml
 Type: System.String
@@ -336,7 +330,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Runs the command in a mode that only reports what would happen without performing the actions.
+Запускает команду в режиме, который сообщает только о том, что произойдет, без выполнения действий.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -358,42 +352,46 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Этот командлет поддерживает следующие общие параметры:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Дополнительные сведения см. в разделе
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
 
-This cmdlet does not accept pipeline input.
+Этот командлет не принимает входные данные конвейера.
 
 ## OUTPUTS
 
 ### System.Management.Automation.PSCustomObject
 
-When `-Path` is not specified, or when `-PassThru` is used, the cmdlet returns custom objects. Each object represents a single colorscript with the following base properties:
+Если `-Path` не указан или используется `-PassThru`, командлет возвращает пользовательские объекты. Каждый объект представляет собой один цветовой сценарий со следующими базовыми свойствами:
 
-- **Name**: The colorscript's filename without extension
-- **Category**: The organizational category (e.g., "nature", "abstract", "geometric")
-- **Tags**: An array of descriptive tags for filtering and searching
+- **Name**: имя файла цветового сценария без расширения.
+- **Category**: основная организационная категория.
+- **Categories**: все назначенные категории.
+- **Tags**: массив описательных тегов для фильтрации и поиска.
+- **Description**: описание метаданных.
 
-When `-IncludeFileInfo` is specified, these additional properties are included:
+Если указан `-IncludeFileInfo`, включаются следующие дополнительные свойства:
 
-- **FilePath**: The full filesystem path to the script file
-- **FileSize**: Size in bytes (null if file is inaccessible)
-- **LastWriteTime**: Timestamp of last modification (null if unavailable)
+- **ScriptPath**: полный путь файловой системы к файлу сценария.
+- **ScriptSizeBytes**: размер в байтах (ноль, если файл недоступен).
+- **ScriptLastWriteTimeUtc**: временная метка последнего изменения в формате UTC (нуль, если недоступно).
 
-When `-IncludeCacheInfo` is specified, these additional properties are included:
+Если указан `-IncludeCacheInfo`, включаются следующие дополнительные свойства:
 
-- **CachePath**: The full path to the corresponding cache file
-- **CacheExists**: Boolean indicating whether a cache file exists
-- **CacheLastWriteTime**: Timestamp of cache file modification (null if cache doesn't exist)
+- **CachePath**: полный путь к соответствующему файлу кэша.
+- **CacheExists**: логическое значение наличия необработанного файла полезной нагрузки .cache. Оно не указывает на допустимость по политике, действительность или актуальность кэша
+- **CacheLastWriteTimeUtc**: временная метка UTC изменения файла кэша (нуль, если кэш не существует).
 
 ## NOTES
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata)
+- [Онлайн-версия](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata)
 

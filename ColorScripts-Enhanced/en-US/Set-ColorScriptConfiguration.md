@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration
 Locale: en-US
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Set-ColorScriptConfiguration
 ---
@@ -99,7 +99,7 @@ HelpMessage: ''
 
 ### -CachePath
 
-Specifies the directory where colorscript files and metadata are stored. Supports absolute paths, relative paths (resolved from the current location), environment variables (e.g., `$env:USERPROFILE`), and tilde (`~`) expansion for the home directory.
+Specifies the directory where rendered `.cache` payloads and `.cacheinfo` validation sidecars are stored. Source colorscripts and module metadata remain in the installed module. Supports absolute paths, relative paths (resolved from the current location), environment variables (for example, `$env:USERPROFILE`), and tilde (`~`) expansion.
 
 If the specified directory does not exist, it will be created automatically with appropriate permissions. Provide an empty string (`''`) to clear the custom path and revert to the platform-specific default location. When left unspecified, the existing cache path setting is preserved.
 
@@ -261,9 +261,11 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -280,7 +282,7 @@ By default, this cmdlet produces no output.
 
 ### System.Collections.Hashtable
 
-When `-PassThru` is specified, returns a hashtable containing the complete updated configuration. The structure matches the output of `Get-ColorScriptConfiguration`, with keys such as `CachePath`, `AutoShowOnImport`, `ProfileAutoShow`, and `DefaultScript`.
+When `-PassThru` is specified, returns the nested hashtable produced by `Get-ColorScriptConfiguration`: cache values are under `Cache`, and startup values are under `Startup`.
 
 ## NOTES
 

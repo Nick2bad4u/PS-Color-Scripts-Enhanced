@@ -148,8 +148,8 @@ function Clear-ColorScriptCache {
             return @()
         }
 
-        $cacheInventory = @(Get-ChildItem -Path $cacheRoot -Filter '*.cache' -File -ErrorAction SilentlyContinue)
-        $cacheMetadataInventory = @(Get-ChildItem -Path $cacheRoot -Filter ('*{0}' -f $script:CacheEntryMetadataExtension) -File -ErrorAction SilentlyContinue)
+        $cacheInventory = @(Get-ChildItem -LiteralPath $cacheRoot -Filter '*.cache' -File -ErrorAction SilentlyContinue)
+        $cacheMetadataInventory = @(Get-ChildItem -LiteralPath $cacheRoot -Filter ('*{0}' -f $script:CacheEntryMetadataExtension) -File -ErrorAction SilentlyContinue)
         $cacheEntryInventory = @($cacheInventory + $cacheMetadataInventory | Sort-Object -Property BaseName -Unique)
         $cacheLookup = @{}
 
@@ -467,6 +467,8 @@ function Clear-ColorScriptCache {
             $summaryMessage = $formatString -f $summary.Removed, $summary.Missing, $summary.Skipped, $summary.DryRun, $summary.Errors
             $summarySegment = New-ColorScriptAnsiText -Text $summaryMessage -Color 'Cyan' -NoAnsiOutput:$noAnsiRequested
             Write-ColorScriptInformation -Message $summarySegment -Quiet:$quietRequested -NoAnsiOutput:$noAnsiRequested -PreferConsole:$preferConsoleOutput -Color 'Cyan'
+
+            return
         }
 
         return $output

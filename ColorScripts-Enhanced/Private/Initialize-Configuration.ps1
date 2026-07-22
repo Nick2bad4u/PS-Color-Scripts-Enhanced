@@ -21,7 +21,7 @@ function Initialize-Configuration {
 
         if ($configExists) {
             try {
-                $raw = Get-Content -LiteralPath $script:ConfigurationPath -Raw -ErrorAction Stop
+                $raw = Get-Content -LiteralPath $script:ConfigurationPath -Raw -Encoding UTF8 -ErrorAction Stop
                 if (-not [string]::IsNullOrWhiteSpace($raw)) {
                     $existing = ConvertFrom-JsonToHashtable -InputObject $raw
                 }

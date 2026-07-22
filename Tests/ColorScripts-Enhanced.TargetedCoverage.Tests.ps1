@@ -420,7 +420,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
                 $path
             }
 
-            $result = Clear-ColorScriptCache -Name 'skip' -WhatIf
+            $result = Clear-ColorScriptCache -Name 'skip' -WhatIf -PassThru
 
             $result | Should -HaveCount 1
             $result[0].Status | Should -Be 'SkippedByUser'
@@ -433,7 +433,7 @@ Describe 'ColorScripts-Enhanced targeted coverage' {
                 Set-Content -LiteralPath (Join-Path -Path $script:CacheDir -ChildPath 'all.cache') -Value 'cached' -Encoding UTF8
             }
 
-            $result = Clear-ColorScriptCache -All -WhatIf
+            $result = Clear-ColorScriptCache -All -WhatIf -PassThru
 
             $result | Should -HaveCount 1
             $result[0].Status | Should -Be 'SkippedByUser'

@@ -328,18 +328,35 @@ function Get-StaticColorScriptOutput {
             if (-not $command -or
                 $command.InvocationOperator -ne [System.Management.Automation.Language.TokenKind]::Unknown -or
                 -not [string]::Equals($command.GetCommandName(), 'Write-Host', [System.StringComparison]::OrdinalIgnoreCase) -or
-                $command.Redirections.Count -ne 0 -or
-                $command.CommandElements.Count -gt 2) {
+                $command.Redirections.Count -ne 0) {
                 return $notAvailable
             }
 
             $outputStatementSeen = $true
-            if ($command.CommandElements.Count -eq 2) {
-                $argument = $command.CommandElements[1] -as [System.Management.Automation.Language.ExpressionAst]
-                if (-not $argument) {
+            $argument = $null
+            $noNewline = $false
+            foreach ($element in @($command.CommandElements | Select-Object -Skip 1)) {
+                $parameter = $element -as [System.Management.Automation.Language.CommandParameterAst]
+                if ($parameter) {
+                    if ($noNewline -or
+                        $parameter.Argument -or
+                        -not [string]::Equals($parameter.ParameterName, 'NoNewline', [System.StringComparison]::OrdinalIgnoreCase)) {
+                        return $notAvailable
+                    }
+
+                    $noNewline = $true
+                    continue
+                }
+
+                $expression = $element -as [System.Management.Automation.Language.ExpressionAst]
+                if (-not $expression -or $argument) {
                     return $notAvailable
                 }
 
+                $argument = $expression
+            }
+
+            if ($argument) {
                 $evaluation = Resolve-StaticColorScriptExpression -Expression $argument -Variables $variables
                 if (-not $evaluation.Success -or
                     ($evaluation.Value -isnot [string] -and $evaluation.Value -isnot [char])) {
@@ -349,7 +366,9 @@ function Get-StaticColorScriptOutput {
                 $null = $output.Append([string]$evaluation.Value)
             }
 
-            $null = $output.Append([Environment]::NewLine)
+            if (-not $noNewline) {
+                $null = $output.Append([Environment]::NewLine)
+            }
         }
 
         if (-not $outputStatementSeen) {

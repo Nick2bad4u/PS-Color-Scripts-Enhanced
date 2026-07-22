@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata
 Locale: en-US
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Export-ColorScriptMetadata
 ---
@@ -42,7 +42,7 @@ The cmdlet offers two optional enrichment flags:
 This cmdlet is particularly useful for:
 
 - Creating documentation or dashboards showing all available colorscripts
-- Analyzing cache coverage and identifying scripts needing cache rebuilds
+- Reporting raw cache-payload file presence and timestamps
 - Feeding metadata to external tools or automation pipelines
 - Auditing colorscript inventory and file system status
 - Generating reports on colorscript usage and organization
@@ -86,10 +86,10 @@ Generates a comprehensive JSON file with enriched metadata including both file s
 ### EXAMPLE 5
 
 ```powershell
-Export-ColorScriptMetadata -Path './dist/colorscripts.json' -PassThru | Where-Object { -not $_.CacheExists }
+Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeCacheInfo -PassThru | Where-Object { -not $_.CacheExists }
 ```
 
-Writes the metadata file and also returns the objects to the pipeline, enabling queries that identify scripts without cache files.
+Writes the metadata file and returns records whose raw `.cache` payload is absent. This reports file occupancy only, not cache eligibility, validity, or currentness.
 
 ### EXAMPLE 6
 
@@ -103,7 +103,7 @@ Groups colorscripts by category and displays counts, useful for analyzing the di
 
 ```powershell
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo
-$totalSize = ($metadata | Measure-Object -Property FileSize -Sum).Sum
+$totalSize = ($metadata | Measure-Object -Property ScriptSizeBytes -Sum).Sum
 Write-Host "Total size of all colorscripts: $($totalSize / 1KB) KB"
 ```
 
@@ -117,15 +117,13 @@ $metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
 $stats = @{
     TotalScripts = $metadata.Count
     Categories = ($metadata | Select-Object -ExpandProperty Category -Unique).Count
-    CachedScripts = ($metadata | Where-Object CacheExists).Count
-    TotalFileSize = ($metadata | Measure-Object FileSize -Sum).Sum
-    TotalCacheSize = ($metadata | Where-Object CacheExists |
-        Measure-Object CacheFileSize -Sum).Sum
+    CachePayloadFiles = ($metadata | Where-Object CacheExists).Count
+    TotalScriptSizeBytes = ($metadata | Measure-Object ScriptSizeBytes -Sum).Sum
 }
 $stats | ConvertTo-Json | Out-File "./colorscripts-stats.json"
 ```
 
-Generates a comprehensive statistics report including cache coverage and sizes.
+Generates inventory statistics and counts raw `.cache` payload files. Payload presence is not a cache eligibility, validity, or currentness check.
 
 ### EXAMPLE 9
 
@@ -159,16 +157,12 @@ Generates API-ready JSON with versioning and timestamp information.
 ### EXAMPLE 11
 
 ```powershell
-# Find scripts with missing cache for batch rebuild
-$metadata = Export-ColorScriptMetadata -IncludeCacheInfo -AsObject
-$uncached = $metadata | Where-Object { -not $_.CacheExists } | Select-Object -ExpandProperty Name
-if ($uncached.Count -gt 0) {
-    Write-Host "Rebuilding cache for $($uncached.Count) scripts..."
-    New-ColorScriptCache -Name $uncached
-}
+# Build or validate every policy-selected cache entry and review statuses.
+$results = New-ColorScriptCache -All -PassThru
+$results | Group-Object Status | Select-Object Name, Count
 ```
 
-Identifies and rebuilds cache for scripts that don't have cache files.
+Uses the cache policy as the source of truth and reports whether eligible entries were updated, already current, skipped, or failed.
 
 ### EXAMPLE 12
 
@@ -199,7 +193,7 @@ Export-ColorScriptMetadata -Path "./logs/metadata-$(Get-Date -Format 'yyyyMMdd')
 Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
     ForEach-Object { Get-Content $_ | ConvertFrom-Json } |
     Group-Object { $_.Name } |
-    ForEach-Object { Write-Host "$($_.Name): $(($_.Group | Measure-Object FileSize -Average).Average) bytes avg" }
+    ForEach-Object { Write-Host "$($_.Name): $(($_.Group | Measure-Object ScriptSizeBytes -Average).Average) bytes avg" }
 ```
 
 Tracks file size changes for individual scripts over multiple exports.
@@ -252,7 +246,7 @@ HelpMessage: ''
 
 ### -IncludeCacheInfo
 
-Augments each record with cache metadata, including the cache file path, whether a cache file exists, and its last modification timestamp. This is useful for identifying scripts that may need cache regeneration or analyzing cache coverage across the colorscript library.
+Adds the raw `.cache` payload path, file-presence flag, and last-write timestamp to each record. These fields do not report cache-policy eligibility, `.cacheinfo` sidecar presence, validity, or currentness.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -358,9 +352,11 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+This cmdlet supports the common parameters:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+For more information, see
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
@@ -376,20 +372,22 @@ This cmdlet does not accept pipeline input.
 When `-Path` is not specified, or when `-PassThru` is used, the cmdlet returns custom objects. Each object represents a single colorscript with the following base properties:
 
 - **Name**: The colorscript's filename without extension
-- **Category**: The organizational category (e.g., "nature", "abstract", "geometric")
+- **Category**: The primary organizational category
+- **Categories**: All assigned categories
 - **Tags**: An array of descriptive tags for filtering and searching
+- **Description**: The metadata description
 
 When `-IncludeFileInfo` is specified, these additional properties are included:
 
-- **FilePath**: The full filesystem path to the script file
-- **FileSize**: Size in bytes (null if file is inaccessible)
-- **LastWriteTime**: Timestamp of last modification (null if unavailable)
+- **ScriptPath**: The full filesystem path to the script file
+- **ScriptSizeBytes**: Size in bytes (null if file is inaccessible)
+- **ScriptLastWriteTimeUtc**: UTC timestamp of last modification (null if unavailable)
 
 When `-IncludeCacheInfo` is specified, these additional properties are included:
 
 - **CachePath**: The full path to the corresponding cache file
 - **CacheExists**: Boolean indicating whether a cache file exists
-- **CacheLastWriteTime**: Timestamp of cache file modification (null if cache doesn't exist)
+- **CacheLastWriteTimeUtc**: UTC timestamp of cache file modification (null if cache doesn't exist)
 
 ## NOTES
 

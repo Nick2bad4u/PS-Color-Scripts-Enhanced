@@ -306,7 +306,7 @@ Describe 'ColorScripts-Enhanced Module' {
 
         It 'Should clear specific cache' {
             New-ColorScriptCache -Name 'Galaxy' -Force -PassThru -ErrorAction Stop | Out-Null
-            $result = Clear-ColorScriptCache -Name 'Galaxy' -Confirm:$false
+            $result = Clear-ColorScriptCache -Name 'Galaxy' -Confirm:$false -PassThru
             $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'Galaxy.cache'
 
             $result[0].Status | Should -BeIn @('Removed', 'Missing')
@@ -315,7 +315,7 @@ Describe 'ColorScripts-Enhanced Module' {
 
         It 'Should clear caches using wildcard patterns' {
             New-ColorScriptCache -Name 'wave*' -Force -PassThru -ErrorAction Stop | Out-Null
-            $result = Clear-ColorScriptCache -Name 'wave*' -Confirm:$false
+            $result = Clear-ColorScriptCache -Name 'wave*' -Confirm:$false -PassThru
             $result | Should -Not -BeNullOrEmpty
             $names = $result | Select-Object -ExpandProperty Name
             $names | Should -Contain 'wave-interference'
@@ -325,7 +325,7 @@ Describe 'ColorScripts-Enhanced Module' {
 
         It 'Should support DryRun cache clearing' {
             New-ColorScriptCache -Name 'Galaxy' -Force -PassThru -ErrorAction Stop | Out-Null
-            $dryRun = Clear-ColorScriptCache -Name 'Galaxy' -DryRun
+            $dryRun = Clear-ColorScriptCache -Name 'Galaxy' -DryRun -PassThru
             $dryRun[0].Status | Should -Be 'DryRun'
             $cacheFile = Join-Path -Path $script:CacheDir -ChildPath 'Galaxy.cache'
             Test-Path $cacheFile | Should -Be $true
@@ -626,7 +626,7 @@ Describe 'ColorScripts-Enhanced Module' {
             Set-Content -Path $tempCache -Value 'cache-data' -Encoding utf8
 
             try {
-                $result = Clear-ColorScriptCache -Name 'bars' -Path $tempDir -Confirm:$false
+                $result = Clear-ColorScriptCache -Name 'bars' -Path $tempDir -Confirm:$false -PassThru
                 $result[0].Status | Should -Be 'Removed'
                 Test-Path $tempCache | Should -BeFalse
             }
@@ -637,7 +637,7 @@ Describe 'ColorScripts-Enhanced Module' {
 
         It 'Should accept pipeline input' {
             New-ColorScriptCache -Name 'bars', 'Galaxy' -Force -ErrorAction Stop | Out-Null
-            $result = @('bars', 'Galaxy') | Clear-ColorScriptCache -Confirm:$false
+            $result = @('bars', 'Galaxy') | Clear-ColorScriptCache -Confirm:$false -PassThru
             $result | Should -Not -BeNullOrEmpty
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'Galaxy'
@@ -647,7 +647,7 @@ Describe 'ColorScripts-Enhanced Module' {
             New-ColorScriptCache -Name 'bars', 'Galaxy' -Force -ErrorAction Stop | Out-Null
             $records = Get-ColorScriptList -AsObject -Name 'bars', 'Galaxy'
             $records | Should -Not -BeNullOrEmpty
-            $result = $records | Clear-ColorScriptCache -Confirm:$false
+            $result = $records | Clear-ColorScriptCache -Confirm:$false -PassThru
             $result | Should -Not -BeNullOrEmpty
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'bars'
             ($result | Select-Object -ExpandProperty Name) | Should -Contain 'Galaxy'

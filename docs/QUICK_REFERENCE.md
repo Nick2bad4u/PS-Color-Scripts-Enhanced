@@ -1,567 +1,275 @@
 # ColorScripts-Enhanced Quick Reference
 
-## Installation
+## Install and Import
 
 ```powershell
 Install-Module -Name ColorScripts-Enhanced -Scope CurrentUser
 Import-Module ColorScripts-Enhanced
 ```
 
-## Basic Commands
+PowerShell 5.1 and PowerShell 7+ are supported. Use an ANSI-capable terminal; a Nerd Font is optional and only needed for scripts that use its glyphs.
 
-| Command                          | Alias | Description                          |
-| -------------------------------- | ----- | ------------------------------------ |
-| `Show-ColorScript`               | `scs` | Display colorscripts                 |
-| `Get-ColorScriptList`            | -     | List available scripts               |
-| `New-ColorScriptCache`           | -     | Pre-generate cache                   |
-| `Clear-ColorScriptCache`         | -     | Remove cache files                   |
-| `Add-ColorScriptProfile`         | -     | Append module import/startup snippet |
-| `Get-ColorScriptConfiguration`   | -     | Inspect persisted defaults           |
-| `Set-ColorScriptConfiguration`   | -     | Persist cache/startup preferences    |
-| `Reset-ColorScriptConfiguration` | -     | Restore configuration defaults       |
-| `Export-ColorScriptMetadata`     | -     | Export metadata and cache info       |
-| `New-ColorScript`                | -     | Scaffold a new colorscript template  |
+## Commands and Aliases
 
-## Common Usage
+| Command                          | Alias                                         | Purpose                                      |
+| -------------------------------- | --------------------------------------------- | -------------------------------------------- |
+| `Show-ColorScript`               | `scs`                                         | Render, list, or browse colorscripts         |
+| `Get-ColorScriptList`            | -                                             | Query colorscript inventory records          |
+| `New-ColorScriptCache`           | `Update-ColorScriptCache`, `Build-ColorScriptCache` | Build policy-selected cache entries |
+| `Clear-ColorScriptCache`         | -                                             | Remove selected cache entries                |
+| `Add-ColorScriptProfile`         | -                                             | Add a managed import/startup profile block   |
+| `Get-ColorScriptConfiguration`   | -                                             | Read effective configuration                 |
+| `Set-ColorScriptConfiguration`   | -                                             | Persist cache and startup preferences        |
+| `Reset-ColorScriptConfiguration` | -                                             | Restore built-in configuration defaults      |
+| `Export-ColorScriptMetadata`     | -                                             | Return metadata objects or write JSON        |
+| `New-ColorScript`                | -                                             | Scaffold a UTF-8 colorscript file            |
 
-### Display Random Colorscript
+Every command also accepts `-h` (alias `-help`) for its concise module help.
+
+## Display and Discover
 
 ```powershell
+# Random non-Pokémon script.
 Show-ColorScript
-# or
-scs
-```
 
-### Display Specific Script
-
-```powershell
+# Exact name. Explicit names may select Pokémon without -IncludePokemon.
 Show-ColorScript -Name hearts
-scs mandelbrot-zoom
-Show-ColorScript -IncludePokemon     # Random, including Pokémon scripts
-# Direct Pokémon names bypass the default filter (e.g., `Show-ColorScript -Name Pikachu`)
+
+# Random selection with filters. Multiple values match any requested value.
+Show-ColorScript -Category Geometric,Nature -Tag Recommended
+
+# Include Pokémon in random/list/all selection.
+Show-ColorScript -IncludePokemon
+
+# Browse sequentially. -NoClear preserves earlier output.
+Show-ColorScript -All -WaitForInput -NoClear
+
+# Get rendered text instead of writing it to the host.
+$text = Show-ColorScript -Name bars -ReturnText
+
+# Return selection metadata in Named or Random mode.
+$result = Show-ColorScript -Name bars -PassThru
 ```
 
-### List All Scripts
+`Show-ColorScript -List` writes a compact name/category view. Use `Get-ColorScriptList` for reusable inventory objects:
 
 ```powershell
-Show-ColorScript -List
 Get-ColorScriptList
-
-# Object output for automation
-Get-ColorScriptList -AsObject | Select-Object Name, Category, Tags
-
-# Filter by metadata
+Get-ColorScriptList -Name 'galaxy*' -AsObject -Quiet
 Get-ColorScriptList -Category Patterns -Detailed
-Get-ColorScriptList -Tag Recommended
+Get-ColorScriptList -Tag Recommended -AsObject |
+    Select-Object Name, Category, Tags
 ```
 
-### Build Cache for Fast Loading
+The inventory's current category names are `Abstract`, `Artistic`, `ASCIIArt`, `Custom`, `Default`, `Gaming`, `Geometric`, `Logos`, `Mathematical`, `Nature`, `Patterns`, `Physics`, `Pokemon`, `RGB`, `ShinyPokemon`, `Skull`, `System`, `TerminalThemes`, and `Welcome`.
+
+## Cache Management
+
+Only renderers that require execution-generated output need persistent cache entries. Deterministic bundled output is statically extracted and rendered in-process without executing script code.
 
 ```powershell
-# Build all policy-selected caches
+# Build the small set selected by CachePolicy.psd1.
 New-ColorScriptCache
 
-# Cache specific computational renderers
-New-ColorScriptCache -Name Galaxy,perlin-clouds,rose-curves
+# Explicit names, wildcard names, or metadata filters.
+New-ColorScriptCache -Name Galaxy,perlin-clouds
+New-ColorScriptCache -Name 'rose-*' -Force -PassThru
+New-ColorScriptCache -Category Mathematical
 
-# Force rebuild
-New-ColorScriptCache -Force
-```
+# PowerShell 7+ parallel execution. -Threads is an alias.
+New-ColorScriptCache -All -Parallel -ThrottleLimit 4
 
-> Running `New-ColorScriptCache` without parameters resolves only the scripts selected by `CachePolicy.psd1`; it does not enumerate or display all 3,000+ scripts. Exact names also use a direct lookup. Wildcard, category, and tag selections enumerate only when their matching semantics require it.
+# Include policy-selected Pokémon entries.
+New-ColorScriptCache -All -IncludePokemon
 
-### Clear Cache
-
-```powershell
-# Clear all cache
-Clear-ColorScriptCache -All
-
-# Clear specific cache
+# Clear by name, category, or tag.
 Clear-ColorScriptCache -Name Galaxy
+Clear-ColorScriptCache -Category Mathematical
+Clear-ColorScriptCache -Tag Recommended
 
-# Preview without deleting
+# Clear every entry, or preview the operation.
+Clear-ColorScriptCache -All
 Clear-ColorScriptCache -All -WhatIf
-
-# Dry run or alternate cache root
-Clear-ColorScriptCache -Name Galaxy -DryRun
-Clear-ColorScriptCache -Name Galaxy -Path 'C:/temp/colorscripts-cache'
+Clear-ColorScriptCache -All -DryRun -PassThru
 ```
 
-### Persist Defaults with Configuration
+`-All` selects all applicable records after filters; it does not mean that every static script requires a cache. Both cache commands exclude Pokémon by default unless an explicit name or Pokémon category is requested, or `-IncludePokemon` is supplied.
+
+Use the platform-correct effective cache path instead of constructing an AppData path:
 
 ```powershell
-Get-ColorScriptConfiguration
-(Get-ColorScriptConfiguration).Cache.EffectivePath
-Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -ProfileAutoShow:$false
-Reset-ColorScriptConfiguration
+$cachePath = (Get-ColorScriptConfiguration).Cache.EffectivePath
+Get-ChildItem -LiteralPath $cachePath
 ```
 
-The build summary prints the effective cache directory. Each cached renderer stores its output as `<name>.cache` and its validation sidecar as `<name>.cacheinfo` in that same directory. Sidecars are not rendered output; if a payload is missing, the next build regenerates it. `Clear-ColorScriptCache -All` removes complete entries and orphaned sidecars.
+Set `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` before importing the module to override that path for the process. `Clear-ColorScriptCache -Path` targets an alternate directory for one invocation.
 
-### Export Metadata
+## Configuration
 
 ```powershell
-Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
-Export-ColorScriptMetadata -Path ./dist/colorscripts-metadata.json -IncludeFileInfo
+$config = Get-ColorScriptConfiguration
+$config.Cache.Path
+$config.Cache.EffectivePath
+$config.Startup.AutoShowOnImport
+$config.Startup.ProfileAutoShow
+$config.Startup.DefaultScript
+
+Set-ColorScriptConfiguration `
+    -CachePath 'D:/Temp/ColorScriptsCache' `
+    -AutoShowOnImport:$false `
+    -ProfileAutoShow:$true `
+    -DefaultScript bars `
+    -PassThru
+
+# Empty CachePath or DefaultScript values clear those persisted overrides.
+Set-ColorScriptConfiguration -CachePath '' -DefaultScript ''
+
+Reset-ColorScriptConfiguration -PassThru
 ```
 
-### Scaffold a Colorscript
-
-```powershell
-$scaffold = New-ColorScript -Name 'my-custom-script' -GenerateMetadataSnippet -Category 'Patterns' -Tag 'Custom'
-$scaffold.MetadataGuidance
-```
-
-### Run All Scripts
-
-```powershell
-# Sequential with metadata-rich results
-.\ColorScripts-Enhanced\Test-AllColorScripts.ps1 -Filter 'bars' -Delay 0 -SkipErrors
-
-# Parallel execution (PowerShell 7+)
-.\ColorScripts-Enhanced\Test-AllColorScripts.ps1 -Parallel -SkipErrors -ThrottleLimit 4
-```
-
-### ANSI Toolkit
-
-```powershell
-# Convert ANSI to PowerShell script
-node scripts/Convert-AnsiToColorScript.js .\art.ans
-
-# Split a towering ANSI into smaller chunks (auto-detect gaps)
-node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --auto --dry-run
-
-# Force manual breakpoints and emit ANSI slices instead of PowerShell
-node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --format=ansi --breaks=360,720
-
-# Split an already converted colorscript
-node scripts/Split-AnsiFile.js .\ColorScripts-Enhanced\Scripts\we-acidtrip.ps1 --input=ps1 --heights=320,320
-
-# Split every 120 lines automatically
-node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --every=120
-```
-
-Use `--heights=h1,h2,...` for sequential segment sizes, `--every=<n>` for uniform slices, or `--breaks=row,row,...` for absolute cut points. Combine with `--strip-space-bg` (ANSI input only) to match our converter's treatment of space backgrounds.
-
-## Linting & Tests
-
-```powershell
-pwsh -NoProfile -Command "& .\scripts\Test-Module.ps1"              # Smoke tests + lint gate
-Invoke-Pester -Path ./Tests                                   # Full test suite
-pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1"              # Standard lint
-pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
-pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -Fix         # Apply auto-fixes, then re-run lint
-pwsh -NoProfile -Command "& .\scripts\Lint-PS7.ps1"         # PowerShell 7-only analyzer with auto-fix
-```
-
-## Help System
-
-```powershell
-# Get command help
-Get-Help Show-ColorScript
-Get-Help Show-ColorScript -Full
-Get-Help Show-ColorScript -Examples
-
-# Module help
-Get-Help about_ColorScripts-Enhanced
-
-# List all help topics
-Get-Help *ColorScript*
-```
+Configuration is user-scoped and platform-appropriate. Set `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` before import when an isolated or portable configuration root is required.
 
 ## Profile Integration
 
-Add to your PowerShell profile (`$PROFILE`):
-
 ```powershell
-Add-ColorScriptProfile                     # Import + Show-ColorScript
-Add-ColorScriptProfile -SkipStartupScript  # Import only
-Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost
-```
-
-## Nerd Font Glyphs
-
-- Install a patched font from [nerdfonts.com](https://www.nerdfonts.com/).
-- Windows: unzip → select `.ttf` files → right-click → **Install for all users**.
-- macOS: `brew install --cask font-caskaydia-cove-nerd-font` or add via Font Book.
-- Linux: copy `.ttf` to `~/.local/share/fonts` (or `/usr/local/share/fonts`) and run `fc-cache -fv`.
-- Set your terminal profile font to the Nerd Font and verify with `Show-ColorScript -Name nerd-font-test`.
-
-## Performance Tips
-
-- **Static output**: Runs directly without cache I/O
-- **First eligible run**: Renders and builds a cache entry
-- **Cached eligible run**: Reuses rendered output
-- **Pre-build eligible caches**: `New-ColorScriptCache`
-- **Cache location**: `$env:APPDATA\ColorScripts-Enhanced\cache`
-
-## Script Categories
-
-| Category      | Examples                                         |
-| ------------- | ------------------------------------------------ |
-| **Geometric** | mandelbrot-zoom, sierpinski-carpet, fractal-tree |
-| **Nature**    | galaxy-spiral, aurora-bands, crystal-drift       |
-| **Artistic**  | kaleidoscope, rainbow-waves, color-morphing      |
-| **Gaming**    | doom-original, pacman, space-invaders            |
-| **System**    | colortest, nerd-font-test, terminal-benchmark    |
-| **Logos**     | arch, debian, ubuntu, windows                    |
-| **NerdFont**  | dev-workspace, cloud-services, data-science      |
-| **Patterns**  | bars, gradient-bars, hex-blocks                  |
-
-## Parameters Reference
-
-### Show-ColorScript
-
-```powershell
-Show-ColorScript
-  [-Name <String>]      # Script name (without .ps1)
-  [-List]               # List all scripts
-  [-Random]             # Random selection (default)
-  [-Category <String[]>]
-  [-Tag <String[]>]
-  [-NoCache]            # Bypass cache
-  [-PassThru]           # Return metadata object
-```
-
-### Get-ColorScriptList
-
-```powershell
-Get-ColorScriptList
-  [-Category <String[]>]
-  [-Tag <String[]>]
-  [-AsObject]
-  [-Detailed]
-```
-
-### New-ColorScriptCache
-
-```powershell
-New-ColorScriptCache
-  [-Name <String[]>]    # Specific scripts
-  [-All]                # All scripts
-  [-Force]              # Rebuild existing cache
-  [-PassThru]           # Return detailed results
-  [-Quiet]              # Suppress progress and summary output
-  [-NoAnsiOutput]       # Disable ANSI in summary
-```
-
-### Clear-ColorScriptCache
-
-```powershell
-Clear-ColorScriptCache
-  [-Name <String[]>]    # Specific scripts
-  [-All]                # All cache files
-  [-Path <String>]      # Alternate cache root
-  [-DryRun]             # Preview deletions
-  [-PassThru]           # Return detailed results
-  [-Quiet]              # Suppress summary output
-  [-NoAnsiOutput]       # Disable ANSI in summary
-  [-WhatIf]
-  [-Confirm]
-```
-
-### Add-ColorScriptProfile
-
-```powershell
+# Managed import block plus the configured startup script behavior.
 Add-ColorScriptProfile
-  [-Scope <String>]           # Profile scope (default CurrentUserAllHosts)
-  [-Path <String>]            # Explicit profile path
-  [-SkipStartupScript]        # Only add Import-Module line
-  [-IncludePokemon]           # Opt-in to Pokémon at startup
-  [-PokemonPromptResponse <Y|N>] # Pre-answer Pokémon prompt (also respects env/global overrides)
-  [-SkipCacheBuild]           # Do not pre-warm caches when adding the profile
-  [-Force]                    # Append even if import already exists
-  [-WhatIf]
-  [-Confirm]
+
+# Import only.
+Add-ColorScriptProfile -SkipStartupScript
+
+# Explicit profile file and startup script.
+Add-ColorScriptProfile `
+    -ProfilePath $PROFILE.CurrentUserCurrentHost `
+    -DefaultStartupScript bars `
+    -AutoShow
+
+# Noninteractive Pokémon/cache decisions.
+Add-ColorScriptProfile `
+    -IncludePokemon `
+    -SkipPokemonPrompt `
+    -SkipCacheBuild
 ```
 
-## Examples
+`-ProfilePath` has the alias `-Path`. When omitted, the command uses `$PROFILE.CurrentUserAllHosts` when available and otherwise the first defined profile path. `-Force` replaces the module's managed or legacy block while preserving unrelated profile content; it does not deliberately append duplicates.
 
-### Daily Different Colorscript
+## Metadata Export
 
 ```powershell
-# In your profile
-$seed = (Get-Date).DayOfYear
-Get-Random -SetSeed $seed
-Show-ColorScript
+# Objects: Name, Category, Categories, Tags, Description.
+$metadata = Export-ColorScriptMetadata
+
+# Add ScriptPath, ScriptSizeBytes, and ScriptLastWriteTimeUtc.
+Export-ColorScriptMetadata -IncludeFileInfo
+
+# Add CachePath, CacheExists, and CacheLastWriteTimeUtc.
+Export-ColorScriptMetadata -IncludeCacheInfo
+
+# Write JSON; -PassThru also returns the in-memory objects.
+Export-ColorScriptMetadata `
+    -Path ./dist/colorscripts-metadata.json `
+    -IncludeFileInfo `
+    -IncludeCacheInfo `
+    -PassThru
 ```
 
-### Show All Scripts Sequentially
+## Scaffold a Colorscript
+
+`-Name` and `-OutputPath` are mandatory in the scaffold parameter set. `OutputPath` is a directory; the command creates `<Name>.ps1` within it.
 
 ```powershell
-Get-ColorScriptList | Out-String -Stream |
-  Where-Object { $_.Trim() } |
-  ForEach-Object {
-    $name = $_.Trim().Split()[0]
-    Show-ColorScript -Name $name
-    Start-Sleep -Seconds 2
-  }
+$scaffold = New-ColorScript `
+    -Name 'my-custom-script' `
+    -OutputPath ./ColorScripts-Enhanced/Scripts `
+    -GenerateMetadataSnippet `
+    -Category Patterns `
+    -Tag Custom
+
+$scaffold.Name
+$scaffold.Path
+$scaffold.MetadataGuidance
+$scaffold.Categories
+$scaffold.Tags
 ```
 
-### Find Scripts by Pattern
+The generated file is UTF-8 without BOM. `-Force` overwrites an existing target, and `-OpenInEditor` opens it through the platform's registered handler after creation.
+
+## Parameter Summary
+
+### `Show-ColorScript`
+
+- Selection: `-Name`, `-Random`, `-List`, or `-All`
+- Filters: `-Category`, `-Tag`, `-ExcludeCategory`, `-IncludePokemon`
+- All-mode controls: `-WaitForInput`, `-NoClear`
+- Rendering/output: `-NoCache`, `-PassThru`, `-ReturnText` (alias `-AsString`), `-Quiet`, `-NoAnsiOutput` (alias `-NoColor`), `-ValidateCache`
+
+### `Get-ColorScriptList`
+
+- Filters: `-Name`, `-Category`, `-Tag`
+- Output: `-AsObject`, `-Detailed`, `-Quiet`, `-NoAnsiOutput`
+
+The command always emits inventory records. Without `-AsObject`, it also writes a host-facing table unless `-Quiet` is set.
+
+### `New-ColorScriptCache`
+
+- Selection: `-Name`, `-All`, `-Category`, `-Tag`, `-IncludePokemon`
+- Execution: `-Force`, `-Parallel`, `-ThrottleLimit` (alias `-Threads`)
+- Output: `-PassThru`, `-Quiet`, `-NoAnsiOutput` (alias `-NoColor`)
+- Safety: `-WhatIf`, `-Confirm`
+
+With `-PassThru`, records contain `Name`, `ScriptPath`, `CacheFile`, `Status`, `Message`, `CacheExists`, `ExitCode`, `StdOut`, and `StdErr`.
+
+### `Clear-ColorScriptCache`
+
+- Selection: `-Name`, `-All`, `-Category`, `-Tag`
+- Location: `-Path`
+- Output/safety: `-DryRun`, `-PassThru`, `-Quiet`, `-NoAnsiOutput`, `-WhatIf`, `-Confirm`
+
+With `-PassThru`, records contain `Name`, `CacheFile`, `Status`, and `Message`.
+
+### `Add-ColorScriptProfile`
+
+- Target/startup: `-ProfilePath`, `-DefaultStartupScript`, `-AutoShow`, `-SkipStartupScript`
+- Pokémon/cache prompts: `-IncludePokemon`, `-SkipPokemonPrompt`, `-PokemonPromptResponse Y|N`, `-SkipCacheBuild`
+- Update/safety: `-Force`, `-WhatIf`, `-Confirm`
+
+### Configuration and authoring commands
+
+- `Set-ColorScriptConfiguration`: `-AutoShowOnImport`, `-ProfileAutoShow`, `-CachePath`, `-DefaultScript`, `-PassThru`, `-WhatIf`, `-Confirm`
+- `Reset-ColorScriptConfiguration`: `-PassThru`, `-WhatIf`, `-Confirm`
+- `Export-ColorScriptMetadata`: `-Path`, `-IncludeFileInfo`, `-IncludeCacheInfo`, `-PassThru`, `-WhatIf`, `-Confirm`
+- `New-ColorScript`: `-Name`, `-OutputPath`, `-Force`, `-GenerateMetadataSnippet`, `-Category`, `-Tag`, `-OpenInEditor`, `-WhatIf`, `-Confirm`
+
+## ANSI Conversion Tools
 
 ```powershell
-Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter "*galaxy*.cache" |
-  ForEach-Object {
-    Show-ColorScript -Name $_.BaseName
-  }
+# Convert ANSI to a PowerShell colorscript.
+node scripts/Convert-AnsiToColorScript.js ./art.ans
+
+# Preview automatic blank-gap splitting.
+node scripts/Split-AnsiFile.js ./art.ans --auto --dry-run
+
+# Explicit absolute breakpoints or uniform slices.
+node scripts/Split-AnsiFile.js ./art.ans --breaks=360,720
+node scripts/Split-AnsiFile.js ./art.ans --every=120
 ```
 
-### Cache Statistics
+See [ANSI-CONVERSION-GUIDE.md](ANSI-CONVERSION-GUIDE.md) for encoding, sizing, splitting, and metadata guidance.
+
+## Help and Validation
 
 ```powershell
-$cacheDir = "$env:APPDATA\ColorScripts-Enhanced\cache"
-$caches = Get-ChildItem $cacheDir -Filter *.cache
-Write-Host "Cached scripts: $($caches.Count)"
-Write-Host "Total cache size: $([math]::Round(($caches | Measure-Object Length -Sum).Sum / 1MB, 2)) MB"
+Get-Help Show-ColorScript -Full
+Get-Help about_ColorScripts-Enhanced
+
+npm run build:help
+npm run markdown:check
+npm run verify
+npm run test
 ```
 
-## Troubleshooting
-
-### Scripts not displaying
-
-```powershell
-# Ensure UTF-8 encoding
-[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-
-# Clear and rebuild cache
-Clear-ColorScriptCache -All
-New-ColorScriptCache
-```
-
-### Cache not working
-
-```powershell
-# Check the effective platform-specific cache location
-$cachePath = (Get-ColorScriptConfiguration).Cache.EffectivePath
-Test-Path -LiteralPath $cachePath
-
-# Rebuild a specific eligible cache
-New-ColorScriptCache -Name Galaxy -Force
-```
-
-### Performance issues
-
-```powershell
-# Pre-build all policy-selected caches (one-time)
-New-ColorScriptCache
-
-# Inspect generated cache entries
-Get-ChildItem (Get-ColorScriptConfiguration).Cache.EffectivePath | Measure-Object
-```
-
-## Advanced Usage
-
-### Performance Monitoring
-
-```powershell
-# Measure cache benefit
-$uncached = 1..5 | ForEach-Object { (Measure-Command { Show-ColorScript -Name Galaxy -NoCache }).TotalMilliseconds }
-$cached = 1..5 | ForEach-Object { (Measure-Command { Show-ColorScript -Name Galaxy }).TotalMilliseconds }
-[PSCustomObject]@{
-    UncachedAverageMs = ($uncached | Measure-Object -Average).Average
-    CachedAverageMs = ($cached | Measure-Object -Average).Average
-}
-```
-
-### Batch Automation
-
-```powershell
-# Process all recommended scripts
-Get-ColorScriptList -Tag Recommended -AsObject | ForEach-Object {
-    Show-ColorScript -Name $_.Name
-    Start-Sleep -Seconds 1
-}
-
-# Export to JSON for external tools
-Export-ColorScriptMetadata -Path "./scripts.json" -IncludeFileInfo
-```
-
-### CI/CD Integration
-
-```powershell
-# Pre-build cache for container deployment
-New-ColorScriptCache -Force
-
-# Verify policy-selected cache entries
-$cached = @(Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" -Filter *.cache)
-Write-Host "✓ Cached: $($cached.Count) scripts"
-```
-
-### Environment Detection
-
-```powershell
-# Conditional display based on environment
-if ($env:CI) {
-    Show-ColorScript -NoCache  # Avoid file I/O in ephemeral environments
-} else {
-    Show-ColorScript  # Use cache for faster performance
-}
-```
-
-### Data Analysis
-
-```powershell
-# Category distribution
-Get-ColorScriptList -AsObject |
-    Group-Object Category |
-    ForEach-Object { Write-Host "$($_.Name): $($_.Count) scripts" }
-
-# Find scripts by pattern
-Get-ColorScriptList -AsObject |
-    Where-Object { $_.Tags -contains 'Animated' } |
-    Select-Object Name, Category
-```
-
-## Best Practices
-
-### Installation (2)
-
-- [ ] Use `Install-Module` from PowerShell Gallery when available
-- [ ] Use `-Scope CurrentUser` for user-only installation
-- [ ] Run `New-ColorScriptCache` after installation for optimal performance
-
-### Daily Use
-
-- [ ] Add `Show-ColorScript` to your profile for a colorful greeting
-- [ ] Use aliases: `scs` instead of `Show-ColorScript`
-- [ ] Try `-Random` mode to discover different scripts
-
-### Configuration
-
-- [ ] Run `Add-ColorScriptProfile` to add startup integration
-- [ ] Use `Get-ColorScriptConfiguration` to verify settings
-- [ ] Backup configuration with `Export-ColorScriptMetadata`
-
-### Performance
-
-- [ ] Pre-build cache with `New-ColorScriptCache` after updates
-- [ ] Use `-NoCache` only for script development/testing
-- [ ] Monitor cache size: `Get-ChildItem (Get-ColorScriptConfiguration).Cache.EffectivePath`
-
-### Troubleshooting (2)
-
-- [ ] Verify UTF-8 encoding: `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8`
-- [ ] Check module loads: `Get-Module ColorScripts-Enhanced`
-- [ ] Test cache: `Clear-ColorScriptCache -All; New-ColorScriptCache`
-- [ ] Review help: `Get-Help about_ColorScripts-Enhanced`
-
-## Quick Troubleshooting Matrix
-
-| Issue               | Check             | Solution                                                   |
-| ------------------- | ----------------- | ---------------------------------------------------------- |
-| Scripts not showing | Terminal encoding | `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8` |
-| Eligible renderer repeatedly regenerates | Cache missing or stale | `New-ColorScriptCache -Force -PassThru`       |
-| Garbled characters  | Font support      | Install Nerd Font or try different script                  |
-| Module not found    | Module path       | `$env:PSModulePath -split ';'`                             |
-| Cache errors        | Disk space        | `Clear-ColorScriptCache -All`                              |
-| Startup delays      | Profile heavy     | Use `-SkipStartupScript` option                            |
-
-## Comparison: Commands vs Parameters
-
-### Display Methods
-
-| Goal            | Command            | Parameters           |
-| --------------- | ------------------ | -------------------- |
-| Random display  | `Show-ColorScript` | (none)               |
-| Specific script | `Show-ColorScript` | `-Name "bars"`       |
-| With caching    | `Show-ColorScript` | (default)            |
-| Skip cache      | `Show-ColorScript` | `-NoCache`           |
-| Get metadata    | `Show-ColorScript` | `-PassThru`          |
-| List view       | `Show-ColorScript` | `-List`              |
-| Browse all      | `Show-ColorScript` | `-All -WaitForInput` |
-
-### Filtering Methods
-
-| Goal                | Command               | Parameters                   |
-| ------------------- | --------------------- | ---------------------------- |
-| All scripts         | `Get-ColorScriptList` | (none)                       |
-| One category        | `Get-ColorScriptList` | `-Category Geometric`        |
-| Multiple categories | `Get-ColorScriptList` | `-Category Geometric,Nature` |
-| By tag              | `Get-ColorScriptList` | `-Tag Recommended`           |
-| Object format       | `Get-ColorScriptList` | `-AsObject`                  |
-| Rich details        | `Get-ColorScriptList` | `-Detailed`                  |
-
-## Learning Paths
-
-### Path 1: First Time User (10 min)
-
-1. Install: `Install-Module -Name ColorScripts-Enhanced`
-2. Import: `Import-Module ColorScripts-Enhanced`
-3. Try it: `Show-ColorScript`
-4. Explore: `Get-ColorScriptList`
-5. Setup: `Add-ColorScriptProfile`
-
-### Path 2: Daily Power User (30 min)
-
-1. Read Basic Commands section
-2. Try Examples section (each example)
-3. Setup profile integration
-4. Explore categories and tags
-5. Test performance improvements
-
-### Path 3: Advanced User (1 hour)
-
-1. Read Advanced Usage section
-2. Study Best Practices
-3. Try Performance Monitoring
-4. Explore Batch Automation
-5. Review CI/CD Integration examples
-
-### Path 4: Integration & Automation (2 hours)
-
-1. Study all Advanced Usage examples
-2. Review Environment Detection patterns
-3. Study Data Analysis workflows
-4. Plan custom automation
-5. Review ANSI-CONVERSION-GUIDE for custom scripts
-
-## Keyboard Shortcuts & Aliases
-
-```powershell
-# Define custom aliases for faster access
-Set-Alias -Name cs -Value Show-ColorScript
-Set-Alias -Name csl -Value Get-ColorScriptList
-Set-Alias -Name csb -Value New-ColorScriptCache
-Set-Alias -Name csc -Value Clear-ColorScriptCache
-```
-
-## Environment Variables
-
-```powershell
-# Override cache location
-$env:COLORSCRIPTS_CACHE = "D:\MyCache\ColorScripts"
-
-# Set in profile for persistence
-$env:PSModulePath += ";C:\CustomModulePath"
-```
-
-## For More Information
-
-- **Full Help**: `Get-Help about_ColorScripts-Enhanced`
-- **Command Help**: `Get-Help Show-ColorScript -Full`
-- **Examples**: `Get-Help Show-ColorScript -Examples`
-- **GitHub**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced>
-- **Issues**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues>
-- **Documentation**: `./docs/` folder in repository
-
-## Links
-
-- **GitHub**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced>
-- **Issues**: <https://github.com/Nick2bad4u/ps-color-scripts-enhanced/issues>
-- **License**: Unlicense
-
-## Version
-
-```powershell
-Get-Module ColorScripts-Enhanced | Select-Object Version
-```
-
-The installed version is reported from the module manifest; do not copy a hard-coded version from this guide.
+For implementation and contribution workflows, see [DEVELOPMENT.md](DEVELOPMENT.md) and [TESTING.md](TESTING.md).
 
 ---
 
-**Tip:** For detailed documentation, use: `Get-Help about_ColorScripts-Enhanced`
-
-**Last Reviewed**: July 20, 2026
-**Status**: ✅ Production Ready
+**Last reviewed:** July 21, 2026

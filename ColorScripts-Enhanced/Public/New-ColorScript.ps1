@@ -58,7 +58,6 @@ function New-ColorScript {
     $guidanceComment = ''
     if ($GenerateMetadataSnippet) {
         $categorySummary = ($effectiveCategories -join ', ')
-        $tagSummary = ($effectiveTags -join ', ')
 
         $quotedTags = if ($effectiveTags.Count -gt 0) { ($effectiveTags | ForEach-Object { "'$_'" }) -join ', ' } else { '' }
 

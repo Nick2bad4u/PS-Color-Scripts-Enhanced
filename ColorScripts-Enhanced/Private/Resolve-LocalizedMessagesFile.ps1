@@ -90,7 +90,7 @@ function Resolve-LocalizedMessagesFile {
         }
         else {
             try {
-                $directories = Get-ChildItem -Path $resolvedBase -Directory -ErrorAction Stop
+                $directories = Get-ChildItem -LiteralPath $resolvedBase -Directory -ErrorAction Stop
                 $matched = $null
                 foreach ($directory in $directories) {
                     if ([System.String]::Equals($directory.Name, $cultureName, [System.StringComparison]::OrdinalIgnoreCase)) {

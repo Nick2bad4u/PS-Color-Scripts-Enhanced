@@ -50,6 +50,16 @@ Get-ChildItem -Path "C:\ANSI-Art" -Filter "*.ans" | .\Convert-AnsiToColorScript.
 .\Convert-AnsiToColorScript.ps1 -AnsiFile "art.ans" -OutputDirectory ".\CustomScripts"
 ```
 
+### Preserve an Already-Formatted ANSI Stream
+
+Use passthrough only when the decoded source already contains its final sequential SGR and line-ending stream and does not rely on cursor movement or terminal emulation:
+
+```powershell
+.\Convert-AnsiToColorScript-Advanced.ps1 -AnsiFile "plant.ansi" -Encoding utf8 -Passthrough
+```
+
+Passthrough preserves the decoded source byte-for-byte inside one safe PowerShell literal and emits it with `Write-Host -NoNewline`. This retains exact color transitions, CRLF geometry, and trailing line endings. Artwork containing cursor positioning, erase commands, overstrikes, or terminal-width wrapping must use terminal emulation instead.
+
 ## How It Works
 
 1. **Reads the ANSI file** - Uses CP437 (DOS/OEM) encoding to properly handle box-drawing and extended ASCII characters
@@ -218,6 +228,9 @@ Popular sources for ANSI art files:
 
 - [16colo.rs](https://16colo.rs/) - Large historical ANSI/ASCII art archive
 - [textfiles.com](http://artscene.textfiles.com/artpacks/) - Vintage BBS art packs
+- [botany](https://github.com/jifunks/botany) - ISC-licensed terminal plant scenes
+- [os-ansi](https://codeberg.org/NNB/os-ansi) - ISC-licensed operating-system ANSI art
+- [Roy/SAC ANSI gallery](https://www.roysac.com/roy_ansishow.html) - Roy-authored ANSI art with separate public-domain evidence
 - ANSI art communities and forums
 - Convert your own images using tools like:
   - img2txt (libcaca)
@@ -226,14 +239,15 @@ Popular sources for ANSI art files:
 
 Archive availability does not imply that every work is public domain or compatible with this project's license. Record the source URL, artist/pack attribution, and applicable license or permission for every imported file.
 
-### Collections to Evaluate
+### Reviewed Collections
 
-These repositories are useful candidates for a future, provenance-aware import. They should not be copied wholesale without per-file review, deduplication, rendering tests, and attribution records.
+The collection now contains curated subsets from these sources. See [Artwork Sources and Provenance](ARTWORK_SOURCES.md) for browse/download links, inclusion counts, exact licensing evidence, and the excluded Roy/SAC other-artists gallery.
 
 | Collection | Approximate size | Repository license | Integration note |
 | ---------- | ---------------- | ------------------ | ---------------- |
-| [jifunks/botany](https://github.com/jifunks/botany) | 71 plant scenes | ISC | Small text scenes; verify each asset's authorship and rendering before conversion. |
-| [info-mono/os-ansi](https://github.com/info-mono/os-ansi) | 36 OS-themed scenes | ISC | Likely straightforward to adapt after duplicate and terminal-width checks. |
+| [jifunks/botany](https://github.com/jifunks/botany) | 72 files reviewed | ISC | 17 sequential ANSI streams imported with byte-preserving passthrough conversion. |
+| [NNB/os-ansi](https://codeberg.org/NNB/os-ansi) | 36 files reviewed | ISC | 8 files imported; much of the art credits jschx/ufetch. |
+| [Roy/SAC ANSI gallery](https://www.roysac.com/roy_ansishow.html) | 183 files reviewed | Roy-authored works placed in the public domain | 5 Roy-authored works imported; other artists' gallery is excluded. |
 | [HyFetch](https://github.com/hykilpikonna/hyfetch) | Many distro logos | MIT | Uses application-specific templates/placeholders, so it needs a purpose-built importer rather than raw `.ANS` conversion. |
 
 ## After Conversion
@@ -242,7 +256,7 @@ Once converted, your scripts will:
 
 1. Be automatically discovered by `Get-ColorScriptList`
 2. Work with `Show-ColorScript -Name your-script`
-3. Execute directly by default, like other static colorscripts
+3. Follow the deterministic bundled static-extraction path without executing script code
 4. Support discovery, metadata, filtering, and display through ColorScripts-Enhanced
 
 Only expensive renderers explicitly listed in `CachePolicy.psd1` use output caching. Do not add a static converted artwork to that policy merely because it is frequently displayed.

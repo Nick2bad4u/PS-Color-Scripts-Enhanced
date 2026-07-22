@@ -1,79 +1,80 @@
 TEMA
     about_ColorScripts-Enhanced
 
-DESCRIPCION BREVE
-    Descubre y muestra colorscripts ANSI en PowerShell.
+DESCRIPCIÓN BREVE
+    Descubre y muestra scripts de colores ANSI en PowerShell.
 
-DESCRIPCION DETALLADA
-    ColorScripts-Enhanced es un modulo multiplataforma de PowerShell con 3156
-    colorscripts. Es compatible con Windows PowerShell 5.1 y PowerShell 7.x en
+DESCRIPCIÓN DETALLADA
+    ColorScripts-Enhanced es un módulo multiplataforma de PowerShell con miles de
+    scripts de colores. Es compatible con Windows PowerShell 5.1 y PowerShell 7.x en
     Windows, macOS y Linux.
 
-    La mayoria de los colorscripts son estaticos y se ejecutan directamente. La
-    cache de salida se limita a los 15 renderizadores costosos seleccionados en
-    CachePolicy.psd1. Los renderizadores que deben mostrar datos actuales no se
-    almacenan si reutilizar su salida cambiaria su comportamiento.
+    La mayoría de los scripts de colores incluidos contienen contenido estático determinista y se
+    renderizan en el mismo proceso, sin iniciar un proceso secundario de PowerShell. La caché
+    de salida se limita al pequeño conjunto de renderizadores costosos seleccionado en
+    CachePolicy.psd1. Los renderizadores que deben mostrar datos actuales no se almacenan si
+    reutilizar su salida cambiaría su comportamiento.
 
-USO BASICO
+USO BÁSICO
     Import-Module ColorScripts-Enhanced
     Show-ColorScript
     Show-ColorScript -Name bars
     Get-ColorScriptList -Category Patterns
 
-    Los scripts de Pokemon se excluyen de la seleccion aleatoria de forma
+    Los scripts de Pokémon se excluyen de la selección aleatoria de forma
     predeterminada. Usa -IncludePokemon para incluirlos. Un nombre solicitado
     directamente sigue funcionando.
 
 COMANDOS
     Show-ColorScript
-        Muestra un colorscript aleatorio o por nombre. Alias: scs.
+        Muestra un script de colores aleatorio o por nombre. Alias: scs.
 
     Get-ColorScriptList
-        Consulta scripts por nombre, categoria o etiqueta.
+        Consulta scripts por nombre, categoría o etiqueta.
 
     New-ColorScriptCache
-        Crea cache solo para los renderizadores seleccionados por la politica.
+        Crea caché solo para los renderizadores seleccionados por la política.
 
     Clear-ColorScriptCache
-        Elimina entradas concretas o toda la cache del modulo.
+        Elimina entradas concretas o toda la caché del módulo.
 
     Add-ColorScriptProfile
         Agrega al perfil de PowerShell un bloque de inicio idempotente.
 
     Get-ColorScriptConfiguration, Set-ColorScriptConfiguration,
     Reset-ColorScriptConfiguration
-        Lee, guarda o restablece la configuracion del modulo.
+        Lee, guarda o restablece la configuración del módulo.
 
     Export-ColorScriptMetadata
-        Exporta metadatos del catalogo, archivos y cache opcional.
+        Exporta metadatos del catálogo, archivos y caché opcional.
 
     New-ColorScript
-        Crea una plantilla UTF-8 y orientacion para sus metadatos.
+        Crea una plantilla UTF-8 y orientación para sus metadatos.
 
-CACHE Y CONFIGURACION
+CACHÉ Y CONFIGURACIÓN
     New-ColorScriptCache -All
     New-ColorScriptCache -Name Galaxy
     Clear-ColorScriptCache -All
     Get-ColorScriptConfiguration
 
     Consulta Get-ColorScriptConfiguration para obtener la ruta efectiva de la
-    cache. Define COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT antes de importar el modulo
-    para mover la configuracion persistente.
+    caché. Define COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT antes de importar el módulo
+    para mover la configuración persistente.
 
-AYUDA Y VERSION
+AYUDA Y VERSIÓN
     Todos los comandos exportados aceptan -h (alias -help) para ayuda breve.
 
     Get-Help Show-ColorScript -Full
     Get-Help Show-ColorScript -Examples
     Get-Module ColorScripts-Enhanced | Select-Object Version
 
-    El manifiesto del modulo es la fuente de version autorizada.
+    El manifiesto del módulo es la fuente de versión autorizada.
 
-CODIFICACION Y PROCEDENCIA
+CODIFICACIÓN Y PROCEDENCIA
     Los scripts de PowerShell generados usan UTF-8. Los archivos .ANS tradicionales
-    suelen usar CP437. El arte de terceros conserva su autoria y condiciones.
+    suelen usar CP437. El arte de terceros conserva su autoría y condiciones.
 
-VEASE TAMBIEN
+VÉASE TAMBIÉN
     Show-ColorScript
     Get-ColorScriptList
     New-ColorScriptCache

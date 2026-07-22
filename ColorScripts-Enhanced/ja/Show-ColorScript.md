@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript
 Locale: ja
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Show-ColorScript
 ---
@@ -13,7 +13,7 @@ title: Show-ColorScript
 
 ## SYNOPSIS
 
-カラースクリプトを表示し、高コストなレンダラーにのみ選択的キャッシュを使用します。
+高価なレンダラ用に選択的なキャッシュを使用してカラースクリプトを表示します。
 
 ## SYNTAX
 
@@ -63,15 +63,17 @@ Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <string
 
 ## DESCRIPTION
 
-インテリジェントなパフォーマンス最適化により、ターミナルで美しいANSIカラースクリプトをレンダリングします。このコマンドレットは、4つの主要な操作モードを提供します：
+端末で ANSI カラースクリプトをレンダリングし、高コストなレンダラーにだけ選択的なパフォーマンス最適化を適用します。このコマンドレットには、次の 4 つの主要な操作モードがあります。
 
-**Random Mode (Default):** 利用可能なコレクションからランダムに選択されたカラースクリプトを表示します。これは、パラメータが指定されていない場合のデフォルト動作です。
+**ランダム モード (デフォルト):** 利用可能なコレクションからランダムに選択されたカラースクリプトを表示します。これは、パラメータが指定されていない場合のデフォルトの動作です。
 
-**Named Mode:** 名前で特定のカラースクリプトを表示します。柔軟なマッチングのためのワイルドカードパターンをサポートします。複数のスクリプトがパターンに一致する場合、アルファベット順で最初の一致が選択されます。
+**名前付きモード:** 特定のカラースクリプトを名前で表示します。柔軟なマッチングのためのワイルドカード パターンをサポートします。複数のスクリプトがパターンに一致する場合、アルファベット順で最初に一致したものが選択されます。
 
-**List Mode:** 名前、カテゴリ、タグ、説明などのメタデータを含む、利用可能なすべてのカラースクリプトのフォーマットされたリストを表示します。
+**リスト モード:** カラースクリプト名と主要カテゴリを含むコンパクトなテーブルを表示します。完全なメタデータ レコードには `Get-ColorScriptList -AsObject` を使用します。
 
-**All Mode:** アルファベット順ですべての利用可能なカラースクリプトを循環します。特に、コレクション全体を展示したり、新しいスクリプトを発見したりするのに便利です。
+**すべてモード:** 使用可能なすべてのカラースクリプトをアルファベット順に循環します。コレクション全体を紹介したり、新しいスクリプトを発見したりする場合に特に役立ちます。
+
+静的に抽出できるバンドル スクリプトは、限定的でフェイルクローズな AST 評価によって、スクリプトを実行せずに出力を取得します。明示的に許可されたバンドル済みの動的スクリプトは、分離されたインプロセス実行空間で実行します。不明なスクリプトまたはカスタム スクリプトは、セッション状態の漏えいを防ぐために子プロセスで実行します。実行空間も子プロセスもセキュリティ サンドボックスではなく、スクリプトは現在のユーザーの権限で実行されます。
 
 ## EXAMPLES
 
@@ -81,7 +83,7 @@ Show-ColorScript [-All] [-WaitForInput] [-NoClear] [-NoCache] [-Category <string
 Show-ColorScript
 ```
 
-キャッシングが有効なランダムなカラースクリプトを表示します。これはターミナルセッションに視覚的な魅力を追加する最も速い方法です。
+ランダムなカラースクリプトを表示します。静的に抽出できるバンドル スクリプトは実行せずに出力を取得し、適格な計算レンダラーは検証済みのキャッシュ出力を再利用できます。
 
 ### EXAMPLE 2
 
@@ -89,7 +91,7 @@ Show-ColorScript
 Show-ColorScript -Name "mandelbrot-zoom"
 ```
 
-正確な名前で指定されたカラースクリプトを表示します。 .ps1拡張子は必要ありません。
+指定されたカラースクリプトを正確な名前で表示します。 .ps1 拡張子は必要ありません。
 
 ### EXAMPLE 3
 
@@ -97,7 +99,7 @@ Show-ColorScript -Name "mandelbrot-zoom"
 Show-ColorScript -Name "aurora-*"
 ```
 
-ワイルドカードパターン「aurora-\*」に一致する最初のカラースクリプト（アルファベット順）を表示します。スクリプトの名前の部分を覚えている場合に便利です。
+ワイルドカード パターン「aurora-\*」に一致する最初のカラースクリプトを (アルファベット順に) 表示します。スクリプト名の一部を覚えている場合に役立ちます。
 
 ### EXAMPLE 4
 
@@ -105,7 +107,7 @@ Show-ColorScript -Name "aurora-*"
 scs hearts
 ```
 
-モジュールのエイリアス 'scs' を使用してheartsカラースクリプトに素早くアクセスします。エイリアスは頻繁な使用のための便利なショートカットを提供します。
+ハートのカラースクリプトに素早くアクセスするには、モジュールのエイリアス「scs」を使用します。エイリアスは、頻繁に使用するための便利なショートカットを提供します。
 
 ### EXAMPLE 5
 
@@ -113,15 +115,15 @@ scs hearts
 Show-ColorScript -List
 ```
 
-利用可能なすべてのカラースクリプトをメタデータとともにフォーマットされたテーブルでリストします。利用可能なスクリプトを発見し、その属性を理解するのに役立ちます。
+使用可能なカラースクリプトを名前と主カテゴリ別にリストします。素早い発見に役立ちます。
 
 ### EXAMPLE 6
 
 ```powershell
-Show-ColorScript -Name arch -NoCache
+Show-ColorScript -Name Galaxy -NoCache
 ```
 
-キャッシュを使用せずにarchカラースクリプトを表示し、新鮮な実行を強制します。開発中やキャッシュの問題のトラブルシューティング時に便利です。
+キャッシュされた出力を読み取らずに対象となる Galaxy レンダラーを表示し、新しい分離されたレンダリングを強制します。レンダラーの変更をテストしたり、キャッシュの破損を調査したりするときに役立ちます。
 
 ### EXAMPLE 7
 
@@ -129,7 +131,7 @@ Show-ColorScript -Name arch -NoCache
 Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category
 ```
 
-ランダムな自然テーマのスクリプトを表示し、そのメタデータオブジェクトをさらに検査または処理するためにキャプチャします。
+自然をテーマにしたランダムなスクリプトを表示し、さらに検査または処理するためにそのメタデータ オブジェクトをキャプチャします。
 
 ### EXAMPLE 8
 
@@ -137,7 +139,7 @@ Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category
 Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt
 ```
 
-カラースクリプトをレンダリングし、出力をテキストファイルに保存します。レンダリングされたANSIコードが保持され、後で適切な色付けでファイルを表示できます。
+カラースクリプトをレンダリングし、出力をテキスト ファイルに保存します。レンダリングされた ANSI コードは保存されるため、後でファイルを適切な色で表示できます。
 
 ### EXAMPLE 9
 
@@ -145,7 +147,7 @@ Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt
 Show-ColorScript -All
 ```
 
-すべてのカラースクリプトをアルファベット順に表示し、各間に短い自動遅延を設けます。コレクション全体の視覚的なショーケースに最適です。
+すべてのカラースクリプトをアルファベット順に表示し、それぞれの間に短い自動遅延を設けます。コレクション全体を視覚的に紹介するのに最適です。
 
 ### EXAMPLE 10
 
@@ -153,7 +155,7 @@ Show-ColorScript -All
 Show-ColorScript -All -WaitForInput
 ```
 
-すべてのカラースクリプトを一度に一つずつ表示し、各後に一時停止します。各スクリプトに進むためにスペースバーを押すか、シーケンスを早期に終了するために 'q' を押します。
+すべてのカラースクリプトを一度に 1 つずつ表示し、それぞれの後に一時停止します。スペースバーを押して次のスクリプトに進むか、「q」を押してシーケンスを早期に終了します。
 
 ### EXAMPLE 11
 
@@ -161,7 +163,7 @@ Show-ColorScript -All -WaitForInput
 Show-ColorScript -All -Category Nature -WaitForInput
 ```
 
-すべての自然テーマのカラースクリプトを循環し、手動進行で表示します。フィルタリングとインタラクティブなブラウジングを組み合わせたキュレートされた体験を提供します。
+手動で進行しながら、自然をテーマにしたすべてのカラースクリプトを循環します。フィルタリングとインタラクティブなブラウジングを組み合わせて、厳選されたエクスペリエンスを実現します。
 
 ### EXAMPLE 12
 
@@ -169,55 +171,55 @@ Show-ColorScript -All -Category Nature -WaitForInput
 Show-ColorScript -Tag retro,geometric -Random
 ```
 
-「retro」と「geometric」の両方のタグを持つランダムなカラースクリプトを表示します。タグフィルタリングにより、正確なサブセット選択が可能になります。
+「レトロ」または「幾何学」タグのいずれかを持つランダムなカラースクリプトを表示します。複数のタグ値は、任意一致セマンティクスを使用します。
 
 ### EXAMPLE 13
 
 ```powershell
-Show-ColorScript -List -Category Art,Abstract
+Show-ColorScript -List -Category Artistic,Abstract
 ```
 
-「Art」または「Abstract」として分類されたカラースクリプトのみをリストし、特定のテーマ内のスクリプトを発見するのに役立ちます。
+「アート」または「抽象」に分類されたカラースクリプトのみをリストし、特定のテーマ内のスクリプトを見つけるのに役立ちます。
 
 ### EXAMPLE 14
 
 ```powershell
-# Measure performance improvement from caching
-$uncached = Measure-Command { Show-ColorScript -Name spectrum -NoCache }
-$cached = Measure-Command { Show-ColorScript -Name spectrum }
-Write-Host "Uncached: $($uncached.TotalMilliseconds)ms | Cached: $($cached.TotalMilliseconds)ms | Speedup: $([math]::Round($uncached.TotalMilliseconds / $cached.TotalMilliseconds, 1))x"
+# ポリシーで選択されたレンダラーのキャッシュ適格性とビルド ステータスを検査します。
+New-ColorScriptCache -Name Galaxy -Force -PassThru |
+    Select-Object Name, Status, CacheFile
+Show-ColorScript -Name Galaxy
 ```
 
-キャッシングが提供するパフォーマンス向上を測定することで実証します。
+マシンに依存しないパフォーマンス乗数を要求せずに、対象となるレンダラーのキャッシュ エントリを構築して検査します。
 
 ### EXAMPLE 15
 
 ```powershell
-# Set up daily rotation of different colorscripts
+# さまざまなカラースクリプトの毎日のローテーションを設定する
 $seed = (Get-Date).DayOfYear
 Get-Random -SetSeed $seed
 Show-ColorScript -Random -PassThru | Select-Object Name
 ```
 
-日付に基づいて一貫性がありながら異なるカラースクリプトを毎日表示します。
+日付に基づいて、一貫性がありながらも異なるカラースクリプトを毎日表示します。
 
 ### EXAMPLE 16
 
 ```powershell
-# Export rendered colorscript to file for sharing
+# レンダリングされたカラースクリプトをファイルにエクスポートして共有します
 Show-ColorScript -Name "aurora-waves" -ReturnText |
     Out-File -FilePath "./aurora.ansi" -Encoding UTF8
 
-# Later, display the saved file
+# 後で保存したファイルを表示します
 Get-Content "./aurora.ansi" -Raw | Write-Host
 ```
 
-レンダリングされたカラースクリプトを後で表示したり共有したりできるファイルに保存します。
+レンダリングされたカラースクリプトをファイルに保存し、後で表示したり、他のユーザーと共有したりできます。
 
 ### EXAMPLE 17
 
 ```powershell
-# Create a slideshow of geometric colorscripts
+# 幾何学的なカラースクリプトのスライドショーを作成する
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object {
         Show-ColorScript -Name $_.Name
@@ -225,39 +227,39 @@ Get-ColorScriptList -Category Geometric -AsObject |
     }
 ```
 
-各間に3秒の遅延を設けて、幾何学的なカラースクリプトのシーケンスを自動的に表示します。
+一連の幾何学的なカラースクリプトを、それぞれの間に 3 秒の遅延を設けて自動的に表示します。
 
 ### EXAMPLE 18
 
 ```powershell
-# Error handling example
+# エラー処理例
 try {
     Show-ColorScript -Name "nonexistent-script" -ErrorAction Stop
 } catch {
-    Write-Warning "Script not found: $_"
-    Show-ColorScript  # Fallback to random
+    Write-Warning "スクリプトが見つかりません: $_"
+    Show-ColorScript  # ランダムへのフォールバック
 }
 ```
 
-存在しないスクリプトを要求した場合のエラー処理を実証します。
+存在しないスクリプトをリクエストした場合のエラー処理を示します。
 
 ### EXAMPLE 19
 
 ```powershell
-# Build automation integration
+# ビルド自動化の統合
 if ($env:CI) {
-    Show-ColorScript -Name "nerd-font-test" -NoCache
+    Show-ColorScript -Name "Galaxy" -NoCache
 } else {
-    Show-ColorScript  # Random display for interactive use
+    Show-ColorScript  # インタラクティブな使用のためのランダム表示
 }
 ```
 
-CI/CD環境とインタラクティブセッションで異なるカラースクリプトを条件付きで表示する方法を示します。
+CI/CD 環境と対話型セッションで異なるカラースクリプトを条件付きで表示する方法を示します。
 
 ### EXAMPLE 20
 
 ```powershell
-# Scheduled task for terminal greeting
+# ターミナル グリーティングのスケジュールされたタスク
 $scriptPath = "$(Get-Module ColorScripts-Enhanced).ModuleBase\Scripts\mandelbrot-zoom.ps1"
 if (Test-Path $scriptPath) {
     & $scriptPath
@@ -266,13 +268,29 @@ if (Test-Path $scriptPath) {
 }
 ```
 
-スケジュールされたタスクやスタートアップ自動化の一部として特定のカラースクリプトを実行する方法を実証します。
+スケジュールされたタスクまたは起動自動化の一部として特定のカラースクリプトを実行する方法を示します。
+
+### EXAMPLE 21
+
+```powershell
+Show-ColorScript -IncludePokemon
+```
+
+`Pokemon` カテゴリのスクリプトを含むランダムなカラースクリプトを表示します。ランダム選択にポケモンのアートを含めたい場合に便利です。
+
+### EXAMPLE 22
+
+```powershell
+Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming
+```
+
+`Pokemon` と `Gaming` カテゴリの両方を除外して、ランダムなカラースクリプトを表示します。 `-Category` または `-Tag` と組み合わせて、選択をさらに絞り込みます。
 
 ## PARAMETERS
 
 ### -All
 
-利用可能なすべてのカラースクリプトをアルファベット順に循環します。単独で指定すると、スクリプトは短い自動遅延で連続して表示されます。`-WaitForInput` と組み合わせることで、コレクションを通じた進行を手動で制御できます。このモードは、完全なライブラリを展示したり、新しいお気に入りを見つけるのに理想的です。
+利用可能なすべてのカラースクリプトをアルファベット順に循環します。単独で指定すると、スクリプトは短い自動遅延を伴って継続的に表示されます。 `-WaitForInput` と組み合わせて、コレクションの進行を手動で制御します。このモードは、ライブラリ全体を紹介したり、新しいお気に入りを発見したりするのに最適です。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -293,7 +311,7 @@ HelpMessage: ''
 
 ### -Category
 
-選択または表示が発生する前に、1つ以上のカテゴリで利用可能なスクリプトコレクションをフィルタリングします。カテゴリは通常、「Nature」、「Abstract」、「Art」、「Retro」などの広範なテーマです。複数のカテゴリを配列として指定できます。このパラメータは、すべてのモード（Random、Named、List、All）と連携して作業セットを絞り込みます。
+選択または表示が行われる前に、使用可能なスクリプト コレクションを 1 つ以上のカテゴリでフィルタリングします。カテゴリは通常、「自然」、「抽象」、「アート」、「レトロ」などの広範なテーマです。複数のカテゴリを配列として指定できます。このパラメータは、すべてのモード (ランダム、名前付き、リスト、すべて) と連動して、作業セットを絞り込みます。
 
 ```yaml
 Type: System.String[]
@@ -314,8 +332,7 @@ HelpMessage: ''
 
 ### -ExcludeCategory
 
-Exclude scripts from one or more categories.
-Use this to filter out large collections like Pokemon scripts.
+選択が行われる前に、1 つ以上のカテゴリからスクリプトを除外します。たとえば、`-ExcludeCategory Pokemon` を使用してすべての Pokémon スクリプトを回避するか、`-ExcludeCategory Pokemon,Gaming` などの複数のカテゴリを指定します。すべてのモード (ランダム、名前付き、リスト、すべて) で動作し、`-Category` および `-Tag` フィルターと組み合わせます。
 
 ```yaml
 Type: System.String[]
@@ -358,8 +375,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Opt-in flag to include Pokemon colorscripts in the random selection.
-When omitted, Pokemon scripts are filtered out automatically.
+ポケモンのカラースクリプトを選択範囲に含めるオプトイン フラグ。省略した場合、ポケモンスクリプトは自動的に除外されます (デフォルト)。注: これは古い `-ExcludePokemon` パラメータを置き換えるもので、リファクタリングのセマンティクスが反転されているため、オプトアウトするのではなく、オプトインしてポケモン スクリプトを表示するようになります。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -380,7 +396,7 @@ HelpMessage: ''
 
 ### -List
 
-関連するメタデータとともに、利用可能なすべてのカラースクリプトのフォーマットされたリストを表示します。出力にはスクリプト名、カテゴリ、タグ、説明が含まれます。これは利用可能なオプションを探索し、コレクションの組織を理解するのに役立ちます。`-Category` または `-Tag` と組み合わせることで、フィルタリングされたサブセットのみをリストできます。
+使用可能なすべてのカラースクリプトの書式設定されたリストを、関連するメタデータとともに表示します。出力には、スクリプト名、カテゴリ、タグ、説明が含まれます。これは、利用可能なオプションを調べたり、コレクションの構成を理解したりするのに役立ちます。 `-Category` または `-Tag` と組み合わせて、フィルターされたサブセットのみを一覧表示できます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -401,7 +417,7 @@ HelpMessage: ''
 
 ### -Name
 
-表示するカラースクリプトの名前（.ps1拡張子なし）。柔軟なマッチングのためのワイルドカードパターン（\* と ?）をサポートします。複数のスクリプトがワイルドカードパターンに一致する場合、アルファベット順で最初の一致が選択されて表示されます。ワイルドカードを使用する場合、`-PassThru` を使用してどのスクリプトが選択されたかを確認してください。
+表示するカラースクリプトの名前 (拡張子 .ps1 を除く)。柔軟なマッチングのためのワイルドカード パターン (\* および ?) をサポートします。複数のスクリプトがワイルドカード パターンに一致する場合、アルファベット順で最初に一致したものが選択されて表示されます。 `-PassThru` を使用して、ワイルドカードを使用するときにどのスクリプトが選択されたかを確認します。
 
 ```yaml
 Type: System.String
@@ -422,7 +438,7 @@ HelpMessage: ''
 
 ### -NoAnsiOutput
 
-プレーンテキスト環境向けに、情報メッセージと描画出力の ANSI 装飾を無効にします。
+プレーンテキスト環境の情報メッセージおよびレンダリングされた出力の ANSI スタイルを無効にします。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -444,7 +460,7 @@ HelpMessage: ''
 
 ### -NoCache
 
-キャッシングシステムをバイパスし、カラースクリプトを直接実行します。これにより、新鮮な実行が強制され、スクリプトの変更をテストしたり、デバッグしたり、キャッシュの破損が疑われる場合に役立ちます。このスイッチがない場合、最適なパフォーマンスのために利用可能なキャッシュされた出力が使用されます。
+ポリシーで選択されたレンダラーの検証済みキャッシュ読み取りをバイパスし、新しい分離レンダリングを強制します。レンダラーの変更をテストするときや、キャッシュ破損を調査するときに便利です。静的に抽出できるバンドル スクリプトと、ポリシーにないスクリプトまたはカスタム スクリプトは、もともとキャッシュを使用しません。静的に抽出できるバンドル コンテンツは、引き続きスクリプトを実行せずに取得されます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -465,7 +481,7 @@ HelpMessage: ''
 
 ### -NoClear
 
-When cycling through scripts with -All, skip clearing the host between displays so prior output remains visible.
+`-All` とともに使用すると、カラースクリプト間の自動 `Clear-Host` 呼び出しがスキップされ、レンダリングされた各スクリプトが次のスクリプトの上に表示されたままになります。これは、スクリプトを並べて比較したり、セッションのトランスクリプトでショーケース全体をキャプチャしたりする場合に特に便利です。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -486,7 +502,7 @@ HelpMessage: ''
 
 ### -PassThru
 
-カラースクリプトを表示するだけでなく、選択されたカラースクリプトのメタデータオブジェクトをパイプラインに返します。メタデータオブジェクトには、Name、Path、Category、Tags、Description などのプロパティが含まれます。これにより、視覚出力をレンダリングしながら、スクリプト情報をフィルタリング、ロギング、またはさらなる処理のためにプログラムでアクセスできます。
+カラースクリプトを表示するだけでなく、選択したカラースクリプトのメタデータ オブジェクトをパイプラインに返します。メタデータ オブジェクトには、名前、パス、カテゴリ、タグ、説明などのプロパティが含まれます。これにより、視覚的な出力をレンダリングしながら、フィルタリング、ロギング、またはさらなる処理のためのスクリプト情報にプログラムでアクセスできるようになります。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -513,7 +529,7 @@ HelpMessage: ''
 
 ### -Quiet
 
-コマンドの出力やエラーを維持したまま、情報メッセージを抑制します。
+コマンド出力とエラーを保持しながら、情報メッセージを抑制します。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -534,7 +550,7 @@ HelpMessage: ''
 
 ### -Random
 
-ランダムなカラースクリプトの選択を明示的に要求します。これは名前が指定されていない場合のデフォルト動作なので、このスイッチは主にスクリプトでの明確さや、選択モードを明示的にしたい場合に役立ちます。`-Category` または `-Tag` と組み合わせることで、フィルタリングされたサブセット内でランダマイズできます。
+ランダムなカラースクリプトの選択を明示的にリクエストします。これは、名前が指定されていない場合のデフォルトの動作であるため、このスイッチは主にスクリプトを明確にする場合、または選択モードを明示的にしたい場合に役立ちます。 `-Category` または `-Tag` と組み合わせて、フィルター処理されたサブセット内でランダム化できます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -555,7 +571,7 @@ HelpMessage: ''
 
 ### -ReturnText
 
-レンダリングされたカラースクリプトをコンソールホストに直接書き込む代わりに、文字列として PowerShell パイプラインに送信します。これにより、出力を変数にキャプチャしたり、ファイルにリダイレクトしたり、他のコマンドにパイプしたりできます。出力はすべての ANSI エスケープシーケンスを保持するので、後で互換性のあるターミナルに書き込まれたときに適切な色で表示されます。
+レンダリングされたカラースクリプトを、コンソール ホストに直接書き込むのではなく、PowerShell パイプラインに文字列として出力します。これにより、出力を変数に取り込んだり、ファイルにリダイレクトしたり、他のコマンドにパイプしたりすることができます。出力にはすべての ANSI エスケープ シーケンスが保持されるため、後で互換性のある端末に書き込むときに適切な色で表示されます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -577,7 +593,7 @@ HelpMessage: ''
 
 ### -Tag
 
-メタデータタグ（大文字小文字を区別しない）で利用可能なスクリプトコレクションをフィルタリングします。タグはカテゴリよりも具体的な記述子で、「geometric」、「retro」、「animated」、「minimal」などが含まれます。複数のタグを配列として指定できます。指定されたタグのいずれかに一致するスクリプトが、選択が発生する前に作業セットに含まれます。
+利用可能なスクリプト コレクションをメタデータ タグでフィルター処理します (大文字と小文字は区別されません)。タグは、「幾何学的」、「レトロ」、「アニメーション」、「ミニマル」などのカテゴリよりも具体的な記述子です。複数のタグを配列として指定できます。指定されたタグのいずれかに一致するスクリプトは、選択が行われる前に作業セットに組み込まれます。
 
 ```yaml
 Type: System.String[]
@@ -598,8 +614,7 @@ HelpMessage: ''
 
 ### -ValidateCache
 
-Forces cache validation before rendering.
-Use when you need to rebuild cached colorscript output manually.
+キャッシュ ディレクトリが現在のモジュール セッションですでに初期化されている場合を含め、レンダリング前にモジュール レベルのキャッシュ メタデータ マーカーを更新します。出力キャッシュ エントリを再構築したり、通常のエントリごとの検証を置き換えたりすることはありません。 `COLOR_SCRIPTS_ENHANCED_VALIDATE_CACHE` を `1`、`true`、または `yes` に設定すると、キャッシュの初期化中に同じリフレッシュが要求されます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -620,7 +635,7 @@ HelpMessage: ''
 
 ### -WaitForInput
 
-`-All` と一緒に使用すると、各カラースクリプトを表示した後に一時停止し、続行する前にユーザー入力待ちます。スペースバーを押すとシーケンスの次のスクリプトに進みます。'q' を押すとシーケンスを早期に終了し、プロンプトに戻ります。これにより、コレクション全体を通じたインタラクティブなブラウジング体験が提供されます。
+`-All` とともに使用する場合は、各カラースクリプトを表示した後に一時停止し、続行する前にユーザーの入力を待ちます。スペースバーを押して、シーケンス内の次のスクリプトに進みます。シーケンスを早期に終了してプロンプトに戻るには、「q」を押します。これにより、コレクション全体を通じてインタラクティブな閲覧エクスペリエンスが提供されます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -641,38 +656,40 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+このコマンドレットは、次の共通パラメーターをサポートします:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
-[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+詳細については、次を参照してください:
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216)。
 
 ## INPUTS
 
-### System.String
+### None
 
-Show-ColorScript にカラースクリプト名をパイプできます。これにより、スクリプト名が他のコマンドによって生成またはフィルタリングされるパイプラインベースのワークフローが可能になります。
+このコマンドレットはパイプライン入力を受け入れません。パイプラインを構成するときに、インベントリ レコードを `ForEach-Object` にパイプし、`Show-ColorScript -Name $_.Name` を呼び出します。
 
 ## OUTPUTS
 
 ### System.Object
 
-`-PassThru` が指定された場合、選択されたカラースクリプトのメタデータオブジェクトを返します。このオブジェクトには、Name、Path、Category、Tags、Description などのプロパティが含まれます。
+`-PassThru` が指定されている場合、名前、パス、カテゴリ、タグ、説明などのプロパティを含む選択したカラースクリプトのメタデータ オブジェクトを返します。
 
 ### System.String (2)
 
-`-ReturnText` が指定された場合、レンダリングされたカラースクリプトを文字列としてパイプラインに送信します。この文字列には、互換性のあるターミナルで表示されたときに適切な色でレンダリングするためのすべての ANSI エスケープシーケンスが含まれます。
+`-ReturnText` が指定されている場合、レンダリングされたカラースクリプトを文字列としてパイプラインに出力します。この文字列には、互換性のある端末で表示するときに適切なカラー レンダリングを行うためのすべての ANSI エスケープ シーケンスが含まれています。
 
 ### None
 
-デフォルト操作（`-PassThru` または `-ReturnText` なし）では、出力はコンソールホストに直接書き込まれ、パイプラインには何も返されません。
+デフォルトの操作 (`-PassThru` または `-ReturnText` なし) では、出力はコンソール ホストに直接書き込まれ、パイプラインには何も返されません。
 
 ## NOTES
 
-**Author:** Nick
-**Module:** ColorScripts-Enhanced
-**Requires:** PowerShell 5.1 or later
+**著者:** ニック
+**モジュール:** ColorScripts-Enhanced
+**必要なもの:** PowerShell 5.1 以降
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
+- [オンライン バージョン](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Show-ColorScript)
 

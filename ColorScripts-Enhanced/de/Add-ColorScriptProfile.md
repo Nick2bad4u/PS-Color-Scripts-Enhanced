@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile
 Locale: de
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Add-ColorScriptProfile
 ---
@@ -13,7 +13,7 @@ title: Add-ColorScriptProfile
 
 ## SYNOPSIS
 
-Hängt den Import des ColorScripts-Enhanced-Moduls (und optional Show-ColorScript) an eine PowerShell-Profil-Datei an.
+Fügt einen verwalteten ColorScripts-Enhanced-Startblock in einer PowerShell-Profildatei hinzu oder aktualisiert ihn.
 
 ## SYNTAX
 
@@ -27,84 +27,80 @@ Add-ColorScriptProfile [[-ProfilePath] <string>] [[-DefaultStartupScript] <strin
 
 ## ALIASES
 
-This command has no aliases.
+Dieser Befehl hat keine Aliase.
 
 ## DESCRIPTION
 
-Fügt einen Startup-Snippet zur angegebenen PowerShell-Profil-Datei hinzu. Der Snippet importiert immer das ColorScripts-Enhanced-Modul und fügt, sofern nicht mit `-SkipStartupScript` unterdrückt, einen Aufruf zu `Show-ColorScript` hinzu, sodass ein zufälliges Colorscript beim PowerShell-Start angezeigt wird.
+Fügt dem ausgewählten PowerShell-Profil einen verwalteten Startblock hinzu. Der Block importiert ColorScripts-Enhanced und kann nach dem Import `Show-ColorScript` aufrufen. `-SkipStartupScript` schreibt einen Nur-Import-Block.
 
-Die Profil-Datei wird automatisch erstellt, falls sie noch nicht existiert. Doppelte Importe werden vermieden, es sei denn, `-Force` wird angegeben.
+Wenn `-ProfilePath` weggelassen wird, bevorzugt der Befehl `$PROFILE.CurrentUserAllHosts` und verwendet ansonsten den ersten definierten Profilpfad. Die Profildatei und fehlende übergeordnete Verzeichnisse werden bei Bedarf erstellt.
 
-Der `-Path`-Parameter akzeptiert relative Pfade, Umgebungsvariablen und `~`-Erweiterung, wodurch es einfach ist, Profile außerhalb der Standardorte anzusprechen. Wenn `-Path` nicht angegeben wird, bestimmt der `-Scope`-Parameter, welches standardmäßige PowerShell-Profil modifiziert wird.
+Vorhandene verwaltete oder ältere ColorScripts-Enhanced-Blöcke werden ersetzt statt dupliziert. Wenn das Profil das Modul bereits außerhalb eines verwalteten Blocks importiert, lässt der Befehl es unverändert, es sei denn, `-Force` wird angegeben. `-Force` ermöglicht das Ersetzen erkannter Modulinhalte unter Beibehaltung nicht verwandter Profilinhalte.
+
+Das generierte Startverhalten wird anhand expliziter Parameter und der beibehaltenen Konfiguration aufgelöst. `-AutoShow` aktiviert explizit die Anzeige, `-DefaultStartupScript` wählt ein benanntes Skript aus und die Pokémon-Einbindung kann direkt bereitgestellt oder über die interaktive Eingabeaufforderung und ihre dokumentierten Überschreibungen gelöst werden. Sofern `-SkipCacheBuild` nicht verwendet wird, kann der Befehl nach der Aktualisierung des Profils durch Richtlinien ausgewählte Cache-Einträge vorwärmen.
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 
-Hinzufügen zum Profil des aktuellen Benutzers für alle Hosts (Standardverhalten).
+Zum Profil des aktuellen Benutzers für alle Hosts hinzufügen (Standardverhalten).
 
 ```powershell
 Add-ColorScriptProfile
 ```
 
-Dies fügt sowohl den Modul-Import als auch den `Show-ColorScript`-Aufruf zu `$PROFILE.CurrentUserAllHosts` hinzu.
+Dadurch werden sowohl der Modulimport als auch der `Show-ColorScript`-Aufruf zu `$PROFILE.CurrentUserAllHosts` hinzugefügt.
 
 ### EXAMPLE 2
 
-Hinzufügen zum Profil des aktuellen Benutzers nur für den aktuellen Host, ohne das Startup-Script.
+Nur zum Profil des aktuellen Benutzers für den aktuellen Host hinzufügen, ohne das Startskript.
 
 ```powershell
-Add-ColorScriptProfile -Scope CurrentUserCurrentHost -SkipStartupScript
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost -SkipStartupScript
 ```
 
-Dies fügt nur die `Import-Module ColorScripts-Enhanced`-Zeile zum aktuellen Host-Profil hinzu.
+Dadurch wird dem Profil des aktuellen Hosts ein nur für den Import verwalteter Block hinzugefügt.
 
 ### EXAMPLE 3
 
-Hinzufügen zu einem benutzerdefinierten Profil-Pfad mit Umgebungsvariablen-Erweiterung.
+Zu einem benutzerdefinierten Profilpfad mit Umgebungsvariablenerweiterung hinzufügen.
 
 ```powershell
 Add-ColorScriptProfile -Path "$env:USERPROFILE\Documents\CustomProfile.ps1"
 ```
 
-Dies zielt auf eine spezifische Profil-Datei außerhalb der standardmäßigen PowerShell-Profil-Orte ab.
+Dies zielt auf eine bestimmte Profildatei außerhalb der standardmäßigen PowerShell-Profilspeicherorte ab.
 
 ### EXAMPLE 4
 
-Erzwungenes erneutes Hinzufügen des Snippets, auch wenn es bereits existiert.
+Erzwingen Sie das erneute Hinzufügen des Snippets, auch wenn es bereits vorhanden ist.
 
 ```powershell
 Add-ColorScriptProfile -Force
 ```
 
-Dies hängt den Snippet erneut an, auch wenn das Profil bereits eine Import-Anweisung für ColorScripts-Enhanced enthält.
+Dadurch werden erkannte ColorScripts-Enhanced-Profilinhalte aktualisiert, während nicht verwandte Profillinien erhalten bleiben.
 
 ### EXAMPLE 5
 
-Einrichtung auf einem neuen Computer - Profil erstellen, falls nötig, und ColorScripts zu allen Hosts hinzufügen.
+Einrichtung auf einem neuen Computer – bei Bedarf Profil erstellen und Farbskripte zu allen Hosts hinzufügen.
 
 ```powershell
-$profileExists = Test-Path $PROFILE.CurrentUserAllHosts
-if (-not $profileExists) {
-    New-Item -Path $PROFILE.CurrentUserAllHosts -ItemType File -Force | Out-Null
-}
-Add-ColorScriptProfile -Scope CurrentUserAllHosts -Confirm:$false
-Write-Host "Profil konfiguriert! Starten Sie Ihr Terminal neu, um Colorscripts beim Start zu sehen."
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserAllHosts -Confirm:$false
+Write-Host "Profil konfiguriert! Starten Sie das Terminal neu, um beim Start Farbskripte anzuzeigen."
 ```
 
 ### EXAMPLE 6
 
-Hinzufügen mit einem spezifischen Colorscript für die Anzeige (manuell nach diesem Befehl hinzufügen):
+Fügen Sie mit einem bestimmten Farbskript für die Startanzeige hinzu:
 
 ```powershell
-Add-ColorScriptProfile -SkipStartupScript
-# Dann manuell $PROFILE bearbeiten, um hinzuzufügen:
-# Show-ColorScript -Name mandelbrot-zoom
+Add-ColorScriptProfile -DefaultStartupScript mandelbrot-zoom -AutoShow
 ```
 
 ### EXAMPLE 7
 
-Überprüfen, ob das Profil korrekt hinzugefügt wurde:
+Überprüfen Sie, ob das Profil korrekt hinzugefügt wurde:
 
 ```powershell
 Add-ColorScriptProfile
@@ -113,14 +109,14 @@ Get-Content $PROFILE.CurrentUserAllHosts | Select-String "ColorScripts-Enhanced"
 
 ### EXAMPLE 8
 
-Hinzufügen zu einem spezifischen Profil-Bereich, der nur den aktuellen Host anspricht:
+Zielen Sie explizit auf das Profil „Current-Host“ oder „All-Hosts“:
 
 ```powershell
 # Nur für Windows Terminal oder ConEmu
-Add-ColorScriptProfile -Scope CurrentUserCurrentHost
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost
 
 # Für alle PowerShell-Hosts (ISE, VSCode, Konsole)
-Add-ColorScriptProfile -Scope CurrentUserAllHosts
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserAllHosts
 ```
 
 ### EXAMPLE 9
@@ -131,17 +127,17 @@ Verwendung relativer Pfade und Tilde-Erweiterung:
 # Verwendung der Tilde-Erweiterung für das Home-Verzeichnis
 Add-ColorScriptProfile -Path "~/Documents/PowerShell/profile.ps1"
 
-# Verwendung des aktuellen Verzeichnis-relativen Pfads
+# Verwendet den relativen Pfad des aktuellen Verzeichnisses
 Add-ColorScriptProfile -Path ".\my-profile.ps1"
 ```
 
 ### EXAMPLE 10
 
-Tägliche Anzeige eines anderen Colorscripts durch Hinzufügen benutzerdefinierter Logik:
+Zeigen Sie täglich verschiedene Farbskript an, indem Sie benutzerdefinierte Logik hinzufügen:
 
 ```powershell
 Add-ColorScriptProfile -SkipStartupScript
-# Dann manuell zu $PROFILE hinzufügen:
+# Dann fügen Sie dies manuell zu $PROFILE hinzu:
 # $seed = (Get-Date).DayOfYear
 # Get-Random -SetSeed $seed
 # Show-ColorScript
@@ -149,19 +145,19 @@ Add-ColorScriptProfile -SkipStartupScript
 
 ### EXAMPLE 11
 
-Pokémon beim Start automatisch ausschließen:
+Pokémon-Skripte beim Anzeigen von Startbildern automatisch überspringen:
 
 ```powershell
 Add-ColorScriptProfile -IncludePokemon
 ```
 
-Dadurch wird `Show-ColorScript -IncludePokemon` (in einem try/catch) zum Profil hinzugefügt, sodass beim Start Pokémon-Skripte angezeigt werden können.
+Dadurch wird `Show-ColorScript -IncludePokemon` (umhüllt in ein schützendes try/catch) an das Profil angehängt, sodass das Startbild möglicherweise Pokémon-Skripte enthält.
 
 ## PARAMETERS
 
 ### -AutoShow
 
-Controls whether the managed profile block displays a colorscript after importing the module.
+Steuert, ob der verwaltete Profilblock nach dem Importieren des Moduls einen Farbskript anzeigt.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -182,7 +178,7 @@ HelpMessage: ''
 
 ### -Confirm
 
-Fordert Sie zur Bestätigung auf, bevor das Cmdlet ausgeführt wird.
+Fordert Sie zur Bestätigung auf, bevor Sie das Cmdlet ausführen.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -204,7 +200,7 @@ HelpMessage: ''
 
 ### -DefaultStartupScript
 
-Specifies the colorscript name written to the managed profile block for startup display.
+Gibt den Farbskript-Namen an, der zur Startanzeige in den verwalteten Profilblock geschrieben wird.
 
 ```yaml
 Type: System.String
@@ -225,7 +221,7 @@ HelpMessage: ''
 
 ### -Force
 
-Hängt den Snippet an, auch wenn das Profil bereits eine `Import-Module ColorScripts-Enhanced`-Zeile enthält. Verwenden Sie dies, um doppelte Einträge zu erzwingen oder den Snippet nach manueller Entfernung erneut hinzuzufügen.
+Aktualisiert erkannte ColorScripts-Enhanced-Profilinhalte und behält dabei nicht zugehörige Profilzeilen bei. Es werden nicht absichtlich doppelte verwaltete Blöcke angefügt.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -268,7 +264,7 @@ HelpMessage: ''
 
 ### -IncludePokemon
 
-Fügt dem generierten `Show-ColorScript`-Aufruf den Schalter `-IncludePokemon` hinzu, damit beim Start Pokémon-Colorscripts angezeigt werden können. Wird ignoriert, wenn `-SkipStartupScript` verwendet wird.
+Fügen Sie `-IncludePokemon` zum generierten `Show-ColorScript`-Aufruf hinzu, sodass Pokémon Farbskripte beim Start einbezogen werden, sofern vorhanden. Wird ignoriert, wenn `-SkipStartupScript` verwendet wird.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -289,7 +285,7 @@ HelpMessage: ''
 
 ### -PokemonPromptResponse
 
-Vorb eantwortet die Pokémon-Abfrage (Y/Yes oder N/No). Unterstützt auch die Umgebungsvariable
+Beantworten Sie vorab die Aufforderung zur Aufnahme von Pokémon. Akzeptiert Ja/Ja oder N/Nein. Berücksichtigt auch die Umgebungsvariable
 `COLOR_SCRIPTS_ENHANCED_POKEMON_PROMPT_RESPONSE` und die globale Variable
 `$Global:ColorScriptsEnhancedPokemonPromptResponse`.
 
@@ -312,7 +308,7 @@ HelpMessage: ''
 
 ### -ProfilePath
 
-Specifies the PowerShell profile file to update. The Path alias is also accepted.
+Gibt die zu aktualisierende PowerShell-Profildatei an. Der Alias ​​Path wird ebenfalls akzeptiert.
 
 ```yaml
 Type: System.String
@@ -334,10 +330,11 @@ HelpMessage: ''
 
 ### -SkipCacheBuild
 
-Unterdrückt das Aufwärmen des Caches, wenn das Profil aktualisiert wird. Respektiert auch die
+Unterdrücken Sie das optionale Cache-Vorwärmen. Ein Vorwärmen wird nur dann versucht, wenn das Problem `ProfileAutoShow` behoben ist
+Die Einstellung ist aktiviert, der Cache-Aufbau wurde nicht anderweitig deaktiviert, das Zielprofil liegt außerhalb
+System-Temp-Verzeichnis, und der Vorgang wird von `ShouldProcess` genehmigt. Der Befehl respektiert auch die
 Umgebungsvariable `COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD` und die globale Variable
-`$Global:ColorScriptsEnhancedSkipCacheBuild`. Wird automatisch übersprungen, wenn der Profilpfad unter
-dem temporären Verzeichnis liegt.
+`$Global:ColorScriptsEnhancedSkipCacheBuild`.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -358,7 +355,7 @@ HelpMessage: ''
 
 ### -SkipPokemonPrompt
 
-Skippt die Rückfrage, ob Pokémon-Colorscripts beim Start eingeschlossen werden sollen.
+Überspringen Sie die interaktive Eingabeaufforderung, die beim Start fragt, ob Pokémon Farbskripte einbezogen werden soll.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -379,7 +376,7 @@ HelpMessage: ''
 
 ### -SkipStartupScript
 
-Überspringt das Hinzufügen von `Show-ColorScript` zum Profil. Nur die `Import-Module ColorScripts-Enhanced`-Zeile wird angehängt. Verwenden Sie dies, wenn Sie manuell steuern möchten, wann Colorscripts angezeigt werden.
+Überspringen Sie das Hinzufügen von `Show-ColorScript` zum Profil. Es wird nur die Zeile `Import-Module ColorScripts-Enhanced` angehängt. Verwenden Sie diese Option, wenn Sie manuell steuern möchten, wann Farbskripte angezeigt wird.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -400,7 +397,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-Zeigt, was passieren würde, wenn das Cmdlet ausgeführt wird. Das Cmdlet wird nicht ausgeführt.
+Zeigt, was passieren würde, wenn das Cmdlet ausgeführt würde. Das Cmdlet wird nicht ausgeführt.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -422,16 +419,18 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+Dieses Cmdlet unterstützt die allgemeinen Parameter:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+Weitere Informationen finden Sie unter
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
 
-Dieses Cmdlet akzeptiert keine Pipeline-Eingabe.
+Dieses Cmdlet akzeptiert keine Pipeline-Eingaben.
 
 ## OUTPUTS
 
@@ -439,21 +438,23 @@ Dieses Cmdlet akzeptiert keine Pipeline-Eingabe.
 
 Gibt ein benutzerdefiniertes Objekt mit den folgenden Eigenschaften zurück:
 
-- **ProfilePath** (string): Der vollständige Pfad zur modifizierten Profil-Datei
-- **Changed** (bool): Ob das Profil tatsächlich modifiziert wurde
-- **Message** (string): Eine Statusnachricht, die das Operationsergebnis beschreibt
+- **Path** (string): Der vollständige Pfad zur ausgewählten Profildatei
+- **Changed** (bool): Ob das Profil tatsächlich geändert wurde
+- **Message** (string): Eine Statusmeldung, die das Operationsergebnis beschreibt
+- **IncludePokemon** (bool): Die Startup-Wahl für die Pokémon-Inklusion
+- **CacheBuilt** (bool): Ob die optionale Cache-Aufwärmphase abgeschlossen ist
 
 ## NOTES
 
-**Author:** Nick
-**Module:** ColorScripts-Enhanced
-**Requires:** PowerShell 5.1 oder höher
+**Autor:** Nick
 
-Die Profil-Datei wird automatisch erstellt, falls sie nicht existiert, einschließlich aller notwendigen übergeordneten Verzeichnisse. Doppelte Importe werden erkannt und unterdrückt, es sei denn, `-Force` wird verwendet.
+**Modul:** ColorScripts-Enhanced
 
-Wenn Sie erhöhte Berechtigungen benötigen, um ein AllUsers-Profil zu modifizieren, stellen Sie sicher, dass Sie PowerShell als Administrator ausführen.
+**Erfordert:** PowerShell 5.1 oder höher
+
+Die Profildatei wird automatisch erstellt, wenn sie nicht vorhanden ist, einschließlich der erforderlichen übergeordneten Verzeichnisse. Der Befehl verwaltet vom Benutzer bereitgestellte Dateipfade. Es wird kein separater Bereichsselektor verfügbar gemacht.
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)
+- [Onlineversion](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile)
 

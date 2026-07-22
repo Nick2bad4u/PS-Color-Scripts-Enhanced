@@ -4,7 +4,7 @@ This folder provides turnkey scripts that demonstrate how to use the repository 
 
 ## Prerequisites
 
-- Node.js 18+ (required for the JavaScript conversion utilities)
+- The Node.js version declared in the repository `.node-version` file (required for the JavaScript conversion utilities)
 - PowerShell 7+ (recommended for faster execution)
 - `npm install` in the repository root so `node_modules` is available
 

@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration
 Locale: ja
 Module Name: ColorScripts-Enhanced
-ms.date: 07/20/2026
+ms.date: 07/22/2026
 PlatyPS schema version: 2024-05-01
 title: Set-ColorScriptConfiguration
 ---
@@ -13,7 +13,7 @@ title: Set-ColorScriptConfiguration
 
 ## SYNOPSIS
 
-ColorScripts-Enhanced の構成設定を変更します。
+ColorScripts-Enhanced キャッシュおよび起動設定への変更を保持します。
 
 ## SYNTAX
 
@@ -26,72 +26,59 @@ Set-ColorScriptConfiguration [[-AutoShowOnImport] <bool>] [[-ProfileAutoShow] <b
 
 ## ALIASES
 
-This command has no aliases.
+このコマンドにはエイリアスがありません。
 
 ## DESCRIPTION
 
-ColorScripts-Enhanced の構成設定を永続ストレージで更新します。このコマンドレットは、ユーザーが設定可能なオプションを通じてモジュールの動作をカスタマイズできます。
-
-設定可能な項目には以下が含まれます：
-
-- キャッシュディレクトリの場所
-- パフォーマンス最適化の設定
-- デフォルトの表示動作
-- モジュールの操作設定
-
-変更は自動的にユーザー固有の構成ファイルに保存され、PowerShell セッション間で保持されます。現在の設定を表示するには Get-ColorScriptConfiguration を使用してください。
+`Set-ColorScriptConfiguration` は、ColorScripts-Enhanced モジュールの動作と保存場所をカスタマイズする永続的な方法を提供します。このコマンドレットはモジュールの構成ファイルを更新し、スクリプトのレンダリングと保存のさまざまな側面を制御できるようにします。
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 
 ```powershell
-Set-ColorScriptConfiguration -CachePath "C:\MyCache"
+Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -AutoShowOnImport:$true -ProfileAutoShow:$false -DefaultScript 'bars'
 ```
 
-カスタムのキャッシュディレクトリパスを設定します。
+キャッシュを `D:/Temp/ColorScriptsCache` に移動し、モジュールのインポート時の自動表示を有効にし、プロファイルの自動表示を無効にして、`bars` をデフォルトのスクリプトとして設定します。
 
 ### EXAMPLE 2
 
 ```powershell
-Set-ColorScriptConfiguration -CachePath $env:TEMP
+Set-ColorScriptConfiguration -DefaultScript '' -PassThru
 ```
 
-キャッシュストレージにシステムの一時ディレクトリを使用します。
+デフォルトのスクリプトをクリアし、結果の構成オブジェクトを返すことで、設定が削除されたことを確認できます。
 
 ### EXAMPLE 3
 
 ```powershell
-Set-ColorScriptConfiguration -CachePath "~/.colorscript-cache"
+Set-ColorScriptConfiguration -CachePath "$env:TEMP\ColorScripts" -PassThru | Format-List
 ```
 
-Unix スタイルのホームディレクトリ表記を使用してキャッシュパスを設定します。
+キャッシュを Windows TEMP ディレクトリに再配置し、更新された完全な構成をリスト形式で表示します。一時的なテスト シナリオに役立ちます。
 
 ### EXAMPLE 4
 
 ```powershell
-Set-ColorScriptConfiguration -WhatIf
+Set-ColorScriptConfiguration -AutoShowOnImport:$false
 ```
 
-変更を適用せずに、どのような構成変更が行われるかを表示します。
+モジュールのロード時に自動カラースクリプト レンダリングを無効にします。スクリプトを表示するタイミングを手動で制御したい場合に便利です。
 
 ### EXAMPLE 5
 
 ```powershell
-# 現在の構成をバックアップし、変更してから必要に応じて復元
-$currentConfig = Get-ColorScriptConfiguration
-Set-ColorScriptConfiguration -CachePath "D:\Cache"
-# ... 新しい構成をテスト ...
-# Set-ColorScriptConfiguration -CachePath $currentConfig.CachePath
+Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultScript 'crunch'
 ```
 
-構成のバックアップと復元を示します。
+チルダ展開を使用して Linux/macOS スタイルのキャッシュ パスを設定し、すべての操作のデフォルト スクリプトとして「crunch」を構成します。
 
 ## PARAMETERS
 
 ### -AutoShowOnImport
 
-Controls whether importing the module automatically displays a colorscript.
+モジュールのインポート時のカラースクリプトの自動レンダリングを有効または無効にします。有効にすると (`$true`)、モジュールのインポート時にカラースクリプトがすぐに表示され、即座に視覚的なフィードバックが提供されます。無効にすると (`$false`)、スクリプトは明示的に呼び出された場合にのみ表示されます。指定しない場合、既存の設定は変更されません。
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
@@ -112,7 +99,11 @@ HelpMessage: ''
 
 ### -CachePath
 
-colorscript キャッシュファイルが保存されるディレクトリパスを指定します。
+レンダリングされた `.cache` ペイロードと `.cacheinfo` 検証サイドカーが保存されるディレクトリを指定します。ソースのカラースクリプトとモジュールのメタデータは、インストールされたモジュールに残ります。絶対パス、相対パス (現在の場所から解決)、環境変数 (`$env:USERPROFILE` など)、チルダ (`~`) の展開をサポートします。
+
+指定したディレクトリが存在しない場合は、適切なアクセス許可を使用して自動的に作成されます。空の文字列 (`''`) を指定すると、カスタム パスがクリアされ、プラットフォーム固有のデフォルトの場所に戻ります。指定しない場合、既存のキャッシュ パス設定が保持されます。
+
+**注意**: キャッシュ パスを変更しても、既存のキャッシュ ファイルは自動的に移行されません。ファイルを手動でコピーするか、再生成できるようにする必要がある場合があります。
 
 ```yaml
 Type: System.String
@@ -133,7 +124,7 @@ HelpMessage: ''
 
 ### -Confirm
 
-コマンドレットを実行する前に確認を求めます。
+コマンドレットを実行する前に確認を求めるメッセージが表示されます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -155,7 +146,11 @@ HelpMessage: ''
 
 ### -DefaultScript
 
-Specifies the default colorscript used by startup and profile integration.
+プロファイル ヘルパー、自動表示機能、およびコマンドでスクリプトを明示的に指定しない場合に使用する既定のカラースクリプト名を設定またはクリアします。拡張子を除いたスクリプト ファイルのベース名と一致する必要があります (例: `'bars'`。`'bars.ps1'` ではありません)。
+
+空の文字列 (`''`) を指定すると、保存されているデフォルトが削除され、モジュール レベルのデフォルトの動作 (通常はランダムな選択) に戻ります。このパラメータを省略した場合、現在のデフォルトのスクリプト設定は変更されません。
+
+指定したスクリプトを正常に使用するには、モジュールのスクリプト ディレクトリに存在する必要があります。
 
 ```yaml
 Type: System.String
@@ -198,7 +193,9 @@ HelpMessage: ''
 
 ### -PassThru
 
-Returns the effective configuration after the requested changes succeed.
+変更を加えた後、更新された構成オブジェクトを返します。このスイッチを使用しないと、コマンドレットはサイレントに動作します (出力はありません)。返されたオブジェクトは `Get-ColorScriptConfiguration` と同じ構造を持ち、検査、保存、または他のコマンドレットにパイプしてさらに処理することができます。
+
+構成コマンドの検証、ロギング、または連鎖に役立ちます。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -219,7 +216,9 @@ HelpMessage: ''
 
 ### -ProfileAutoShow
 
-Controls whether profile integration displays a colorscript after importing the module.
+`Add-ColorScriptProfile` によって生成されたプロファイル スニペットに自動 `Show-ColorScript` 呼び出しが含まれるかどうかを制御します。 `$true` の場合、プロファイル コードはシェルの起動ごとにカラースクリプトを表示します。 `$false` の場合、プロファイルはモジュールをロードしますが、自動表示スクリプトはロードしません。
+
+この設定は、新しく生成されたプロファイル コードにのみ影響します。既存のプロファイルの変更は自動的には更新されません。このパラメータを省略すると、現在の設定は変更されません。
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
@@ -240,7 +239,7 @@ HelpMessage: ''
 
 ### -WhatIf
 
-コマンドレットが実行された場合に何が起こるかを表示します。コマンドレットは実行されません。
+アクションを実行せずに、何が起こるかを報告するだけのモードでコマンドを実行します。
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
@@ -262,30 +261,34 @@ HelpMessage: ''
 
 ### CommonParameters
 
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+このコマンドレットは、次の共通パラメーターをサポートします:
+-Debug, -ErrorAction, -ErrorVariable,
 -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
-[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+-ProgressAction, -Verbose, -WarningAction, -WarningVariable
+詳細については、次を参照してください:
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216)。
 
 ## INPUTS
 
 ### None
 
-このコマンドレットは、パイプラインからの入力を許可しません。
+このコマンドレットはパイプライン入力を受け入れません。
 
 ## OUTPUTS
 
 ### None (2)
 
-このコマンドレットは、パイプラインに出力を返しません。
+デフォルトでは、このコマンドレットは出力を生成しません。
+
+### System.Collections.Hashtable
+
+`-PassThru` が指定されている場合、`Get-ColorScriptConfiguration` によって生成されたネストされたハッシュテーブルが返されます。キャッシュ値は `Cache` の下にあり、起動値は `Startup` の下にあります。
 
 ## NOTES
 
-**作成者:** Nick
-**モジュール:** ColorScripts-Enhanced
-**要件:** PowerShell 5.1 以降
+構成は、検証と確認が成功した場合にのみ保持されます。 `-WhatIf` はファイルシステムへの書き込みを実行しません。 `Get-ColorScriptConfiguration` を使用して、操作後の有効な値とストレージ パスを検査します。
 
 ## RELATED LINKS
 
-- [Online Version](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
+- [オンライン バージョン](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Set-ColorScriptConfiguration)
 

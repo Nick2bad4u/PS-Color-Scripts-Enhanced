@@ -1346,7 +1346,7 @@ namespace CoverageHost
                         throw 'Name-only cache clearing must not initialize the full metadata table.'
                     }
 
-                    $result = Clear-ColorScriptCache -Name 'ghost-script'
+                    $result = Clear-ColorScriptCache -Name 'ghost-script' -PassThru
                     Should-Invoke -CommandName Get-ColorScriptEntry -ModuleName ColorScripts-Enhanced -Times 0 -Exactly
 
                     $result | Should -HaveCount 1
@@ -1362,7 +1362,7 @@ namespace CoverageHost
                     $cachePath = Join-Path -Path $script:CacheDir -ChildPath 'alpha.cache'
                     Set-Content -Path $cachePath -Value 'cached output' -Encoding UTF8
 
-                    $result = Clear-ColorScriptCache -Name 'alpha' -DryRun
+                    $result = Clear-ColorScriptCache -Name 'alpha' -DryRun -PassThru
 
                     Test-Path -LiteralPath $cachePath | Should -BeTrue
                     $result | Should -HaveCount 1
@@ -1378,12 +1378,26 @@ namespace CoverageHost
                     $cachePath = Join-Path -Path $script:CacheDir -ChildPath 'beta.cache'
                     Set-Content -Path $cachePath -Value 'cached output' -Encoding UTF8
 
-                    $result = Clear-ColorScriptCache -Name 'beta'
+                    $result = Clear-ColorScriptCache -Name 'beta' -PassThru
 
                     Test-Path -LiteralPath $cachePath | Should -BeFalse
                     $result | Should -HaveCount 1
                     $result[0].Status | Should -Be 'Removed'
                     $result[0].Message | Should -Be ''
+                }
+            }
+
+            It 'emits success-stream records only when PassThru is requested' {
+                InModuleScope ColorScripts-Enhanced {
+                    Mock -CommandName Initialize-CacheDirectory -ModuleName ColorScripts-Enhanced -MockWith { $script:CacheInitialized = $true }
+
+                    $cachePath = Join-Path -Path $script:CacheDir -ChildPath 'quiet.cache'
+                    Set-Content -LiteralPath $cachePath -Value 'cached output' -Encoding UTF8
+
+                    $result = Clear-ColorScriptCache -Name 'quiet' -Quiet
+
+                    $result | Should -BeNullOrEmpty
+                    Test-Path -LiteralPath $cachePath | Should -BeFalse
                 }
             }
 
@@ -1417,7 +1431,7 @@ namespace CoverageHost
                     $metadataPath = Join-Path -Path $script:CacheDir -ChildPath 'orphaned.cacheinfo'
                     Set-Content -LiteralPath $metadataPath -Value '{"Version":1}' -Encoding UTF8
 
-                    $records = @(Clear-ColorScriptCache -All -Confirm:$false)
+                    $records = @(Clear-ColorScriptCache -All -Confirm:$false -PassThru)
                     [pscustomobject]@{
                         Records        = $records
                         MetadataExists = Test-Path -LiteralPath $metadataPath -PathType Leaf
@@ -1441,7 +1455,7 @@ namespace CoverageHost
                         throw [System.IO.IOException]::new('metadata delete denied')
                     }
 
-                    @(Clear-ColorScriptCache -All -Confirm:$false)
+                    @(Clear-ColorScriptCache -All -Confirm:$false -PassThru)
                 }
 
                 $result | Should -HaveCount 1
@@ -1457,7 +1471,7 @@ namespace CoverageHost
                         @([pscustomobject]@{ BaseName = 'orphan'; FullName = Join-Path $script:CacheDir 'orphan.cache'; Extension = '.cache' })
                     }
 
-                    $result = Clear-ColorScriptCache -Name 'orphan'
+                    $result = Clear-ColorScriptCache -Name 'orphan' -PassThru
 
                     $result | Should -HaveCount 1
                     $result[0].Status | Should -Be 'Missing'
@@ -1474,7 +1488,7 @@ namespace CoverageHost
                     Set-Content -LiteralPath $cacheA -Value 'cacheA' -Encoding UTF8
                     Set-Content -LiteralPath $cacheB -Value 'cacheB' -Encoding UTF8
 
-                    $result = Clear-ColorScriptCache -All -DryRun
+                    $result = Clear-ColorScriptCache -All -DryRun -PassThru
 
                     $result | Should -HaveCount 2
                     $result.Status | Sort-Object -Unique | Should -Be @('DryRun')
@@ -1494,7 +1508,7 @@ namespace CoverageHost
                         throw [System.IO.IOException]::new('cannot delete')
                     }
 
-                    $result = Clear-ColorScriptCache -Name 'error'
+                    $result = Clear-ColorScriptCache -Name 'error' -PassThru
 
                     $result | Should -HaveCount 1
                     $result[0].Status | Should -Be 'Error'
@@ -1516,7 +1530,7 @@ namespace CoverageHost
                     }
                 }
 
-                $result = Clear-ColorScriptCache -Name 'keep', 'drop' -Category 'demo'
+                $result = Clear-ColorScriptCache -Name 'keep', 'drop' -Category 'demo' -PassThru
 
                 $result.Name | Should -Contain 'keep'
                 $result.Name | Should -Not -Contain 'drop'
@@ -1533,7 +1547,7 @@ namespace CoverageHost
                     $cachePath = Join-Path -Path $script:CacheDir -ChildPath 'skipped.cache'
                     Set-Content -Path $cachePath -Value 'cached' -Encoding UTF8
 
-                    $result = Clear-ColorScriptCache -Name 'skipped' -WhatIf
+                    $result = Clear-ColorScriptCache -Name 'skipped' -WhatIf -PassThru
 
                     $result | Should -HaveCount 1
                     $result[0].Status | Should -Be 'SkippedByUser'
@@ -1548,7 +1562,7 @@ namespace CoverageHost
                     Set-Content -Path $cachePath -Value 'cached' -Encoding UTF8
                 }
 
-                $result = Clear-ColorScriptCache -All -WhatIf
+                $result = Clear-ColorScriptCache -All -WhatIf -PassThru
 
                 $result | Should -HaveCount 1
                 $result[0].Status | Should -Be 'SkippedByUser'

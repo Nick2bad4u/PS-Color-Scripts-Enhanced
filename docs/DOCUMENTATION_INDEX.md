@@ -44,6 +44,7 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | ---------------------------------------------------- | ---------------------------------------------------- |
 | [ANSI-COLOR-GUIDE.md](ANSI-COLOR-GUIDE.md)           | ANSI escape codes reference and color palette guide  |
 | [ANSI-CONVERSION-GUIDE.md](ANSI-CONVERSION-GUIDE.md) | Converting ANSI art files to PowerShell colorscripts |
+| [ARTWORK\_SOURCES.md](ARTWORK_SOURCES.md)            | Collection links, licensing, and provenance rules    |
 | [POWERSHELL-VERSIONS.md](POWERSHELL-VERSIONS.md)     | PowerShell version compatibility matrix              |
 
 ## Developer Documentation
@@ -63,7 +64,7 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 
 | Document                                     | Description                                                      |
 | -------------------------------------------- | ---------------------------------------------------------------- |
-| [PUBLISHING.md](PUBLISHING.md)               | Publishing to PowerShell Gallery, NuGet.org, and GitHub Packages |
+| [PUBLISHING.md](PUBLISHING.md)               | Publishing to PowerShell Gallery and optional NuGet.org          |
 | [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) | Step-by-step release checklist with git-cliff integration        |
 | [CHANGELOG.md](../CHANGELOG.md)              | Complete project changelog                                       |
 
@@ -142,9 +143,9 @@ Get-Help *ColorScript*
 
 ## Version Information
 
-- **Module Version**: `2026.7.20.35` in the checked-in manifest (the manifest is the source of truth)
-- **Colorscripts**: 3156
-- **Policy-selected cacheable renderers**: 15
+- **Module Version**: <!-- COLOR_MODULE_VERSION -->`2026.7.20.2250`<!-- /COLOR_MODULE_VERSION --> in the checked-in manifest (the manifest is the source of truth)
+- **Colorscripts**: <!-- COLOR_SCRIPT_COUNT -->3186<!-- /COLOR_SCRIPT_COUNT -->
+- **Policy-selected cacheable renderers**: <!-- COLOR_CACHE_TOTAL -->15<!-- /COLOR_CACHE_TOTAL -->
 - **Functions**: 10
 - **PowerShell**: 5.1+ and 7.0+
 - **Platforms**: Windows, macOS, Linux

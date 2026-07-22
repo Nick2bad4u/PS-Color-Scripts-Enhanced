@@ -83,12 +83,14 @@ function Write-Host {
     }
 }
 
-$__csePipelineOutput = & ([ScriptBlock]::Create(
+& ([ScriptBlock]::Create(
         [System.IO.File]::ReadAllText($__cseScriptPath, [System.Text.Encoding]::UTF8)
-    ))
-foreach ($__cseItem in $__csePipelineOutput) {
-    $null = $__cseOutputBuilder.AppendLine([string]$__cseItem)
-}
+    )) | ForEach-Object {
+        # Consume success output as it is produced. Buffering the complete success stream before
+        # appending it moves every Write-Output record after later Write-Host calls and corrupts
+        # the renderer's observable ordering.
+        $null = $__cseOutputBuilder.AppendLine([string]$_)
+    }
 
 return $__cseOutputBuilder.ToString()
 '@

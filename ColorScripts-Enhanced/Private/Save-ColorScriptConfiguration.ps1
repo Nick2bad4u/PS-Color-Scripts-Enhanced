@@ -17,7 +17,7 @@ function Save-ColorScriptConfiguration {
     if (-not $Force) {
         if (-not $ExistingContent -and (Test-Path -LiteralPath $script:ConfigurationPath)) {
             try {
-                $ExistingContent = Get-Content -LiteralPath $script:ConfigurationPath -Raw -ErrorAction Stop
+                $ExistingContent = Get-Content -LiteralPath $script:ConfigurationPath -Raw -Encoding UTF8 -ErrorAction Stop
             }
             catch {
                 $ExistingContent = $null

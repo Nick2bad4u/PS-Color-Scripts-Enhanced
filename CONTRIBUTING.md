@@ -88,12 +88,12 @@ By participating in this project, you agree to maintain a respectful and inclusi
 
 3. **Make your changes**
    - Follow existing code style
-   - Add comment-based help to functions
-   - Update version numbers appropriately
+   - Update external Markdown help for public-command changes
+   - Change the manifest version only when the release scope requires it
    - Test thoroughly
 
 4. **Update documentation**
-   - Update RELEASENOTES.md
+   - Update `CHANGELOG.md` or generated release notes when the release scope requires it
    - Update README.md if needed
    - Add/update help files
    - Include examples
@@ -101,14 +101,11 @@ By participating in this project, you agree to maintain a respectful and inclusi
 5. **Run tests**
 
    ```powershell
-   # Module smoke tests (includes ScriptAnalyzer)
-   pwsh -NoProfile -Command "& .\scripts\Test-Module.ps1"
+   # Node conversion tests, custom module harness, and Pester
+   npm test
 
-   # Full unit tests
-   Invoke-Pester -Path ./Tests
-
-   # Lint (treat warnings as failures)
-   pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -IncludeTests -TreatWarningsAsErrors
+   # Strict lint and Gallery README validation
+   npm run verify:strict
 
    # (Optional) Auto-fix ScriptAnalyzer violations when available
    pwsh -NoProfile -Command "& .\scripts\Lint-Module.ps1" -Fix
@@ -205,7 +202,7 @@ Write-Host "${esc}[0m"
 Before submitting:
 
 - [ ] Code follows style guidelines
-- [ ] All functions have comment-based help
+- [ ] Public command metadata and external help agree
 - [ ] Examples work as documented
 - [ ] Tested on PowerShell 5.1 and 7.x
 - [ ] Tested on Windows Terminal
@@ -224,12 +221,8 @@ ps-color-scripts-enhanced/
 ├── ColorScripts-Enhanced/
 │   ├── ColorScripts-Enhanced.psd1    # Module manifest
 │   ├── ColorScripts-Enhanced.psm1    # Module code
-│   ├── en-US/                         # Help files
-│   │   ├── about_ColorScripts-Enhanced.help.txt
-│   │   ├── Show-ColorScript.md
-│   │   ├── Get-ColorScriptList.md
-│   │   ├── New-ColorScriptCache.md
-│   │   └── Clear-ColorScriptCache.md
+│   ├── en-US/                         # English Markdown/MAML/about help
+│   ├── de/, es/, fr/, ...             # Nine translated help/resource packages
 │   └── Scripts/                       # Colorscript files
 │       ├── hearts.ps1
 │       ├── mandelbrot-zoom.ps1
@@ -262,7 +255,8 @@ ps-color-scripts-enhanced/
    - [ ] Follow code style guidelines
    - [ ] Add tests for new functionality
    - [ ] Update relevant documentation
-   - [ ] Run full test suite: `npm run verify`
+   - [ ] Run non-mutating verification: `npm run verify`
+   - [ ] Run the full test suite: `npm test`
    - [ ] Run linting: `npm run lint:fix`
 
 3. **Before Submitting PR**
@@ -499,10 +493,10 @@ Get-ColorScriptList
 Export-ColorScriptMetadata -IncludeFileInfo
 ```
 
-### Smoke Tests
+### Aggregate Tests
 
 ```powershell
-# Quick validation
+# Conversion tests, custom harness, and Pester
 npm test
 ```
 
@@ -573,49 +567,14 @@ $i++
 
 ### Help Documentation
 
-All public functions must have comment-based help:
+All public functions use external help. Edit the Markdown topic in each culture, then regenerate MAML and HelpInfo:
 
 ```powershell
-<#
-.SYNOPSIS
-    One-line summary (critical)
-
-.DESCRIPTION
-    Detailed explanation of what it does.
-    Include use cases and behavior.
-
-.PARAMETER Name
-    Description of parameter.
-    Include type and valid values.
-
-.PARAMETER Force
-    Switch to override default behavior.
-
-.EXAMPLE
-    Show-ColorScript -Name "hearts"
-
-    Displays the "hearts" colorscript.
-
-.EXAMPLE
-    Show-ColorScript -Random
-
-    Displays a random colorscript.
-
-.INPUTS
-    System.String. You can pipe a script name.
-
-.OUTPUTS
-    None or System.String (with -PassThru)
-
-.NOTES
-    Additional technical notes.
-
-.LINK
-    Get-ColorScriptList
-    New-ColorScriptCache
-    https://github.com/Nick2bad4u/ps-color-scripts-enhanced
-#>
+npm run build:help
+npm run markdown:check
 ```
+
+Command names, parameter names, aliases, output property names, environment variables, and literal accepted values must remain identical across cultures. Preserve translated prose where it is correct, and do not describe a translation as complete while English blocks remain.
 
 ## Approval Process
 

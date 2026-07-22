@@ -1,540 +1,146 @@
 # Testing Guide
 
-This guide covers testing procedures for ColorScripts-Enhanced module development.
+ColorScripts-Enhanced uses Node's test runner for ANSI conversion and Pester 6.0.1 for the PowerShell module, repository tooling, corpus rules, localization, and integration behavior.
 
-## Running Tests
-
-### Smoke Tests
-
-Run the smoke test harness which includes ScriptAnalyzer validation:
+## Standard Commands
 
 ```powershell
-pwsh -NoProfile -Command "& .\scripts\Test-Module.ps1"
-```
-
-Or using npm:
-
-```powershell
+# ANSI conversion + custom module harness + Pester
 npm test
-```
 
-## Test Execution Order
+# Focused suites
+npm run test:conversion
+npm run test:custom
+npm run test:pester
 
-### Development Workflow
+# Coverage
+npm run test:coverage
+npm run test:coverage:detailed
+npm run test:coverage:report
 
-1. **Smoke Tests** (Quick validation)
-
-   ```powershell
-   npm test
-   ```
-
-2. **Linting** (Code quality)
-
-   ```powershell
-   npm run lint
-   npm run lint:fix  # Auto-fix issues
-   ```
-
-3. **Full Test Suite** (Comprehensive)
-
-   ```powershell
-   npm run test:pester
-   ```
-
-4. **Module Lint and Gallery README Verification** (Pre-commit)
-   ```powershell
-   npm run verify
-   ```
-
-## Test File Organization
-
-### Structure
-
-```powershell
-Tests/
-├── ColorScripts-Enhanced.Tests.ps1                      # Core functionality
-├── ColorScripts-Enhanced.Internal.Tests.ps1             # Internal functions
-├── ColorScripts-Enhanced.CoverageCompletion.Tests.ps1   # Code coverage
-├── ColorScripts-Enhanced.AdditionalCoverage.Tests.ps1   # Extra coverage
-├── ColorScripts-Enhanced.TargetedCoverage.Tests.ps1     # Specific features
-└── ... (additional test files)
-```
-
-### Test Categories by File
-
-| File                                               | Coverage           | Purpose             |
-| -------------------------------------------------- | ------------------ | ------------------- |
-| ColorScripts-Enhanced.Tests.ps1                    | Main commands      | Basic functionality |
-| ColorScripts-Enhanced.Internal.Tests.ps1           | Helper functions   | Internal logic      |
-| ColorScripts-Enhanced.CoverageCompletion.Tests.ps1 | Edge cases         | Complete coverage   |
-| ColorScripts-Enhanced.AdditionalCoverage.Tests.ps1 | Advanced scenarios | Extra validation    |
-
-## Writing Custom Tests
-
-### Basic Test Structure
-
-```powershell
-# File: Tests/MyFeature.Tests.ps1
-Describe 'MyFeature' -Tag 'MyTag' {
-    BeforeAll {
-        # Setup before all tests
-        Import-Module .\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1 -Force
-        $testScriptName = 'bars'
-    }
-
-    Context 'When testing basic functionality' {
-        It 'should not throw an error' {
-            { Show-ColorScript -Name $testScriptName } | Should -Not -Throw
-        }
-
-        It 'should return output' {
-            $result = Show-ColorScript -Name $testScriptName -ReturnText
-            $result | Should -Not -BeNullOrEmpty
-        }
-    }
-
-    Context 'When caching is enabled' {
-        It 'should create cache file' {
-            New-ColorScriptCache -Name $testScriptName -Force
-            $cachePath = "$env:APPDATA\ColorScripts-Enhanced\cache\$testScriptName.cache"
-            Test-Path $cachePath | Should -Be $true
-        }
-
-        It 'should use cache on second call' {
-            $firstTime = Measure-Command { Show-ColorScript -Name $testScriptName }
-            $secondTime = Measure-Command { Show-ColorScript -Name $testScriptName }
-            $firstTime.TotalMilliseconds | Should -BeGreaterThan $secondTime.TotalMilliseconds
-        }
-    }
-
-    Context 'When errors occur' {
-        It 'should handle invalid script names gracefully' {
-            { Show-ColorScript -Name 'non-existent-script' -ErrorAction Stop } | Should -Throw
-        }
-    }
-
-    AfterAll {
-        # Cleanup after all tests
-        Clear-ColorScriptCache -All -Confirm:$false -ErrorAction SilentlyContinue
-    }
-}
-```
-
-### Common Test Patterns
-
-## Testing Command Existence
-
-```powershell
-It 'should export Show-ColorScript command' {
-    Get-Command Show-ColorScript -Module ColorScripts-Enhanced | Should -Not -BeNullOrEmpty
-}
-```
-
-## Testing Parameter Validation
-
-```powershell
-It 'should accept pipeline input' {
-    { 'bars' | Show-ColorScript } | Should -Not -Throw
-}
-```
-
-## Testing File Operations
-
-```powershell
-It 'should create cache directory if missing' {
-    $cachePath = Join-Path $TestDrive 'cache'
-    $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $cachePath
-
-    New-ColorScriptCache -Name 'Galaxy' -Force
-    Test-Path $cachePath | Should -Be $true
-}
-```
-
-## Testing Performance
-
-```powershell
-It 'should build and reuse an eligible cache entry' {
-    $build = New-ColorScriptCache -Name 'Galaxy' -Force -PassThru
-    $build.Status | Should -BeIn 'Updated', 'SkippedUpToDate'
-
-    $uncached = 1..5 | ForEach-Object { (Measure-Command { Show-ColorScript -Name 'Galaxy' -NoCache }).TotalMilliseconds }
-    $cached = 1..5 | ForEach-Object { (Measure-Command { Show-ColorScript -Name 'Galaxy' }).TotalMilliseconds }
-
-    # Record distributions for review; do not assert a fixed speedup on shared CI hosts.
-    [PSCustomObject]@{
-        UncachedAverageMs = ($uncached | Measure-Object -Average).Average
-        CachedAverageMs = ($cached | Measure-Object -Average).Average
-    } | Write-Information
-}
-```
-
-## Running Specific Tests
-
-### Filter Tests
-
-```powershell
-# Run tests by tag
-Invoke-Pester -Path ./Tests -Tag 'Cache'
-
-# Run specific describe block
-Invoke-Pester -Path ./Tests -Full | Where-Object { $_.Describe -like '*Cache*' }
-
-# Run tests matching pattern
-Invoke-Pester -Path ./Tests -TestNameFilter '*caching*'
-```
-
-### Test Reporting
-
-```powershell
-# Detailed output
-Invoke-Pester -Path ./Tests -Output Detailed
-
-# Summary only
-Invoke-Pester -Path ./Tests -Output Summary
-
-# JSON output for CI
-Invoke-Pester -Path ./Tests -OutputFile ./testResults.junit.xml -OutputFormat JUnitXml
-```
-
-## Continuous Integration Testing
-
-### GitHub Actions Matrix
-
-Tests run on:
-
-- **Windows**: PowerShell 5.1, 7.x
-- **macOS**: PowerShell 7.x
-- **Linux**: PowerShell 7.x
-
-### Local CI Simulation
-
-```powershell
-# Replicate CI test matrix locally
-# Test on PowerShell 5.1 (Windows only)
-powershell -NoProfile -Command "& .\scripts\Test-Module.ps1"
-
-# Test on PowerShell 7
-pwsh -NoProfile -Command "& .\scripts\Test-Module.ps1"
-
-# Full verification (all checks)
+# Static validation
 npm run verify
+npm run verify:strict
 ```
 
-### CI Configuration
+`npm run test:pester` invokes `scripts/Test-Coverage.ps1 -SkipCoverage`; it is the preferred repository entry point for the complete Pester suite without coverage instrumentation.
 
-See `.github/workflows/test.yml` for the complete test matrix and execution order.
-
-## Test Coverage
-
-### Coverage Reports
+## Focused Pester Runs
 
 ```powershell
-# Generate coverage report
-$coverage = Invoke-Pester -Path ./Tests -CodeCoverage ColorScripts-Enhanced/ColorScripts-Enhanced.psm1 -PassThru
-$coverage.CodeCoverage | Select-Object -Property Function, NumberOfCommandsAnalyzed, NumberOfCommandsExecuted
-
-# Coverage summary
-$coverage.CodeCoverage |
-    Group-Object -Property Function |
-    ForEach-Object {
-        $cov = ($_.Group | Measure-Object -Property CommandCount, CommandExecuted -Sum)
-        $percent = if ($cov[0].Sum -gt 0) { [math]::Round($cov[1].Sum / $cov[0].Sum * 100, 2) } else { 0 }
-        Write-Host "$($_.Name): $percent%"
-    }
+Invoke-Pester -Path ./Tests/RepositoryScripts.Tests.ps1
+Invoke-Pester -Path ./Tests/Localization.Tests.ps1
+Invoke-Pester -Path ./Tests/Show-ColorScript.Tests.ps1
 ```
 
-### Coverage Goals
+Use the actual test filenames returned by `rg --files Tests` rather than copying a guessed path. Keep `-NoProfile` for subprocess-based checks so the developer's profile cannot change module resolution or output.
 
-- **Minimum**: 80% statement coverage
-- **Target**: 90% statement coverage
-- **Ideal**: 95%+ statement coverage with edge cases
+## Test Isolation
 
-## Troubleshooting Tests
-
-### Test Failures
-
-## Module Import Issues
+Tests that persist configuration or cache output must use `$TestDrive` and process-scoped environment overrides:
 
 ```powershell
-# Ensure clean import
-Remove-Module ColorScripts-Enhanced -Force -ErrorAction SilentlyContinue
-Import-Module .\ColorScripts-Enhanced\ColorScripts-Enhanced.psd1 -Force
+BeforeEach {
+    $script:oldCachePath = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
+    $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = Join-Path $TestDrive 'cache'
+}
 
-# Test import directly
-.\ColorScripts-Enhanced\ColorScripts-Enhanced.psm1 | Out-Null
-```
-
-## Syntax Errors in Tests
-
-```powershell
-# Validate test file syntax
-[System.Management.Automation.PSParser]::Tokenize((Get-Content ./Tests/MyTest.Tests.ps1), [ref]$null)
-```
-
-## Pester Configuration
-
-```powershell
-# Check Pester version
-Get-Module Pester | Select-Object Version
-
-# Upgrade Pester if needed
-Update-Module Pester
-```
-
-### Performance Test Issues
-
-```powershell
-# Ensure cache is properly cleared
-Clear-ColorScriptCache -All -Confirm:$false
-
-# Rebuild cache
-New-ColorScriptCache -Force
-
-# Retry performance test
-Invoke-Pester -Path ./Tests -TestNameFilter '*performance*' -Verbose
-```
-
-## Best Practices
-
-### Test Writing
-
-- ✅ **One assertion per test** - Single clear failure point
-- ✅ **Descriptive names** - State what is being tested
-- ✅ **Cleanup properly** - Use AfterAll/AfterEach blocks
-- ✅ **Test in isolation** - No dependencies between tests
-- ✅ **Realistic scenarios** - Test actual usage patterns
-- ✅ **Error cases** - Test both success and failure paths
-
-### Test Execution
-
-- ✅ **Run tests frequently** - After every change
-- ✅ **Use CI** - Automate testing on multiple platforms
-- ✅ **Check coverage** - Aim for high coverage percentage
-- ✅ **Document failures** - Record why tests were added
-
-### Test Maintenance
-
-- ✅ **Update tests with features** - Keep tests current
-- ✅ **Remove obsolete tests** - Clean up old test files
-- ✅ **Refactor test code** - Keep tests maintainable
-- ✅ **Monitor performance** - Track test execution time
-
-## Debugging Tests
-
-### Verbose Output
-
-```powershell
-$VerbosePreference = 'Continue'
-Invoke-Pester -Path ./Tests -Verbose
-$VerbosePreference = 'SilentlyContinue'
-```
-
-### Step Through Tests
-
-```powershell
-# Set breakpoint in test file
-Set-PSBreakpoint -Script ./Tests/MyTest.Tests.ps1 -Line 25
-
-# Run Pester
-Invoke-Pester -Path ./Tests/MyTest.Tests.ps1
-
-# Breakpoint will pause execution
-```
-
-### Inspect Test Variables
-
-```powershell
-# In test context, check variables
-Describe 'MyTest' {
-    It 'should work' {
-        $testVar = 'value'
-        Write-Host "Test variable: $testVar"  # Visible with -Verbose
-        $testVar | Should -Be 'value'
-    }
+AfterEach {
+    $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH = $script:oldCachePath
+    Remove-Module ColorScripts-Enhanced -Force -ErrorAction SilentlyContinue
 }
 ```
 
-## Performance Testing
+Also isolate configuration with `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` where a test writes `config.json`. Never hard-code `$env:APPDATA` in cross-platform tests; query `Get-ColorScriptConfiguration` or set the override explicitly.
 
-### Benchmark Suite
+Tests that modify profiles must pass a `$TestDrive` profile path and assert unrelated content is preserved. Do not write to a developer's real `$PROFILE`.
 
-```powershell
-# Create performance baseline
-function Test-ColorScriptPerformance {
-    param(
-        [string[]]$ScriptNames = @('Galaxy', 'rose-curves', 'wave-interference'),
-        [switch]$SkipCache
-    )
+## What to Test
 
-    $results = @()
+### Public Commands
 
-    foreach ($script in $ScriptNames) {
-        if ($SkipCache) {
-            $time = Measure-Command { Show-ColorScript -Name $script -NoCache }
-        } else {
-            New-ColorScriptCache -Name $script -Force | Out-Null
-            $time = Measure-Command { Show-ColorScript -Name $script }
-        }
+Cover:
 
-        $results += [PSCustomObject]@{
-            Script = $script
-            TimeMS = [math]::Round($time.TotalMilliseconds, 2)
-        }
-    }
+- each parameter set and alias;
+- exact, wildcard, category, and tag selection;
+- empty and unmatched input;
+- pipeline/property binding where declared;
+- `-WhatIf`, `-Confirm`, force, and no-op paths;
+- stable output properties and status values;
+- quiet/plain-text information behavior;
+- Windows PowerShell 5.1 and PowerShell 7 differences.
 
-    return $results
-}
+### Static, Dynamic, and Cache Routing
 
-# Run benchmark
-Test-ColorScriptPerformance | Format-Table
-```
+A bundled deterministic script must be statically extractable. A name may appear in `DynamicRenderPolicy.psd1` only when repeated isolated renders legitimately differ. A dynamic renderer may appear in `CachePolicy.psd1` only when it is expensive enough to justify persistent output.
 
-## Integration Test Examples
-
-### Real-World Workflows
+Cache tests should assert status and files, not a machine-independent speed multiplier:
 
 ```powershell
-# Test complete user workflow
-Describe 'User Workflow' {
-    Context 'Initial setup' {
-        It 'should install and import module' {
-            Import-Module .\ColorScripts-Enhanced -Force
-            Get-Module ColorScripts-Enhanced | Should -Not -BeNullOrEmpty
-        }
-
-        It 'should add to profile' {
-            Add-ColorScriptProfile -SkipStartupScript -Force
-            $profile | Should -Exist
-            Get-Content $profile | Should -Match 'ColorScripts-Enhanced'
-        }
-
-        It 'should pre-build cache' {
-            New-ColorScriptCache
-            (Get-ChildItem "$env:APPDATA\ColorScripts-Enhanced\cache" | Measure-Object).Count | Should -BeGreaterThan 0
-        }
-    }
-
-    Context 'Daily use' {
-        It 'should display random colorscript' {
-            { Show-ColorScript } | Should -Not -Throw
-        }
-
-        It 'should list available scripts' {
-            $list = Get-ColorScriptList -AsObject
-            $list.Count | Should -BeGreaterThan 0
-        }
-
-        It 'should filter by category' {
-            $geo = Get-ColorScriptList -Category Geometric -AsObject
-            $geo.Count | Should -BeGreaterThan 0
-        }
-    }
-}
+$result = New-ColorScriptCache -Name Galaxy -Force -PassThru
+$result.Status | Should -BeIn @('Updated', 'SkippedUpToDate')
+$result.CacheFile | Should -Not -BeNullOrEmpty
 ```
+
+Static names should report `SkippedNotRequired` and should not leave obsolete cache entries.
+
+### ANSI Corpus
+
+Validate:
+
+- CP437 and other declared encodings;
+- cursor-positioned dimensions;
+- deterministic converter output;
+- no duplicate source/output identities;
+- line endings and encoding expected by the renderer;
+- metadata and provenance mappings;
+- normal-size/split boundaries;
+- representative visual rendering.
+
+Node conversion tests live in `Tests/AnsiConversion.Tests.js`. Full collection execution is available through `npm run scripts:test-all`; it is intentionally slower than unit tests.
+
+### Help and Localization
+
+Every culture must contain 10 Markdown topics, a 10-command MAML package, HelpInfo matching `ModuleVersion`, and an about topic. Validate source parameter headings and generated MAML against the live exported commands. Examples must use real parameters and include mandatory arguments.
+
+Runtime `Messages.psd1` files must have exact 72-key parity with English and matching placeholder indices. A structurally complete resource file does not prove that all command-help prose is translated; track remaining English blocks separately.
+
+## CI Matrix
+
+`.github/workflows/test.yml` currently runs:
+
+- ANSI conversion safety on Windows, Ubuntu, and macOS;
+- Windows PowerShell 5.1 coverage/tests;
+- PowerShell 7 coverage/tests on Windows, Ubuntu, and macOS; and
+- additional workflow jobs defined in the checked-in YAML.
+
+The workflow uses the Node version in `.node-version` and Pester 6.0.1. Read the workflow before changing claims about the matrix.
+
+## Coverage and Results
+
+`scripts/Test-Coverage.ps1` owns coverage and JUnit generation. CI variants write `coverage.xml` and `testResults.junit.xml` for artifact and Codecov upload. Do not commit locally generated reports unless a repository workflow explicitly treats them as source.
+
+Coverage is a diagnostic, not permission to add low-value assertions. Prefer behavior and error-path coverage that protects a public contract.
+
+## Troubleshooting
+
+- **Wrong module loaded:** remove existing module instances and import the manifest by explicit repository path.
+- **Real user state changed:** add configuration/cache/profile overrides under `$TestDrive`.
+- **Help appears stale:** run `npm run build:help`, remove the module, and import it again in a clean process.
+- **Only CI fails:** use the workflow's exact PowerShell edition, Node version, Pester version, and command.
+- **ANSI snapshot differs:** verify source encoding and terminal-control semantics before updating a baseline.
+- **Coverage process is slow:** run `npm run test:pester` or a focused Pester file while iterating, then run coverage before handoff.
+
+## Pre-Handoff Checklist
+
+- [ ] Focused regression tests pass.
+- [ ] `npm run test:conversion` passes for converter or collection changes.
+- [ ] `npm run test:pester` passes for module/help changes.
+- [ ] `npm run verify:strict` passes.
+- [ ] Help was regenerated when public metadata changed.
+- [ ] No test touched the real cache, configuration, or profile.
+- [ ] `git diff --check` is clean.
 
 ---
 
-**Last Updated**: July 19, 2026
-**Test Framework**: Pester 6.0.1
-**Coverage Target**: 90%+
-
-## Quick Test Commands
-
-### Test Show-ColorScript
-
-```powershell
-Invoke-Pester -Path ./Tests -Tag "Show-ColorScript"
-```
-
-### Test Cache Functionality
-
-```powershell
-Invoke-Pester -Path ./Tests -Tag "Cache"
-```
-
-### Run Tests with Coverage
-
-```powershell
-$configuration = New-PesterConfiguration
-$configuration.Run.Path = './Tests'
-$configuration.CodeCoverage.Enabled = $true
-$configuration.CodeCoverage.Path = './ColorScripts-Enhanced/*.ps*1'
-Invoke-Pester -Configuration $configuration
-```
-
-## PowerShell Version Testing
-
-### Test on PowerShell 5.1 (Windows)
-
-```powershell
-powershell.exe -Command "& .\scripts\Test-Module.ps1"
-```
-
-### Test on PowerShell 7+
-
-```powershell
-pwsh -Command "& .\scripts\Test-Module.ps1"
-```
-
-### Test All Colorscripts
-
-Run every colorscript to ensure they execute without errors:
-
-````powershell
-.\ColorScripts-Enhanced\Test-AllColorScripts.ps1
-```text
-
-Or using npm:
-
-```powershell
-npm run scripts:test-all
-```powershell
-
-## Linting
-
-See [LINTING.md](LINTING.md) for code quality and linting procedures.
-
-## Test Requirements
-
-- **Pester** 6.0.1
-- **PSScriptAnalyzer** for code analysis
-- PowerShell 5.1+ or PowerShell 7.0+
-
-Install requirements:
-
-```powershell
-Install-Module -Name Pester -RequiredVersion 6.0.1 -Force -SkipPublisherCheck
-Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
-```powershell
-
-## Writing New Tests
-
-When adding new functionality:
-
-1. Add smoke tests to `scripts/Test-Module.ps1` for basic validation
-2. Add comprehensive Pester tests to `Tests/ColorScripts-Enhanced.Tests.ps1`
-3. Use descriptive test names and proper It/Describe blocks
-4. Test both success and failure scenarios
-5. Clean up test artifacts (temp files, cache entries)
-
-Example Pester test structure:
-
-```powershell
-Describe 'New-Command' {
-    It 'Should do something successfully' {
-        $result = New-Command -Parameter Value
-        $result | Should -Not -BeNullOrEmpty
-    }
-
-    It 'Should throw when parameter is invalid' {
-        { New-Command -Parameter InvalidValue } | Should -Throw
-    }
-}
-```text
-
-## See Also
-
-- [Development Guide](DEVELOPMENT.md) - Complete development workflow
-- [Linting Guide](LINTING.md) - Code quality standards
-- [Contributing Guidelines](../../CONTRIBUTING.md) - How to contribute
-````
+_Last reviewed: July 21, 2026_

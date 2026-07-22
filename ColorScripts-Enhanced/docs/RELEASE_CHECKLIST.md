@@ -1,62 +1,48 @@
 # Release Checklist
 
-Use this checklist to produce a production-ready release of **ColorScripts-Enhanced**.
+Use this checklist with [PUBLISHING.md](PUBLISHING.md). The workflow file remains the executable source of truth.
 
-## 1. Pre-flight Checks
+## Preflight
 
-- [ ] Review `CHANGELOG.md` and ensure the latest changes are documented.
-- [ ] Prepend the versioned changelog entry with git-cliff: `npx git-cliff --config node_modules/gitcliff-config-nick2bad4u/cliff.toml --github-repo Nick2bad4u/PS-Color-Scripts-Enhanced --unreleased --tag v<version> --prepend CHANGELOG.md`
-- [ ] Refresh the Gallery release-note snippet with `npm run release:notes`.
-- [ ] Verify release notes align with git-cliff output: `npm run release:verify`
-- [ ] Confirm `README.md` and documentation reflect the latest behavior.
-- [ ] Verify module metadata (`ColorScripts-Enhanced.psd1`) including `ModuleVersion` and `Description`.
-- [ ] Ensure help files are up to date and run `npm run docs:update-counts` to sync markers.
+- [ ] Confirm the worktree contains only intentional release changes.
+- [ ] Confirm `ColorScripts-Enhanced/ColorScripts-Enhanced.psd1` has the intended four-part `yyyy.MM.dd.HHmm` version.
+- [ ] Run `npm run docs:update-counts` and `npm run build:help`; review generated diffs.
+- [ ] Refresh `CHANGELOG.md` and `dist/` release-note artifacts where required.
+- [ ] Run `npm run release:verify` with current tags available.
 
-## 2. Quality Gates
+## Quality Gates
 
-- [ ] Run `npm run build` for the aggregate build, conversion, lint, README, and coverage gates.
-- [ ] Run `npm run verify` for the non-mutating module lint and Gallery README size checks.
-- [ ] Alternatively run individual checks:
-  - [ ] `npm test` - Smoke tests with ScriptAnalyzer
-  - [ ] `npm run test:pester` - Full Pester test suite
-  - [ ] `npm run lint:strict` - ScriptAnalyzer with warnings as errors
-  - [ ] `npm run markdown:check` - Validate all markdown links
-- [ ] (Optional) Run `npm run lint:fix` to apply auto-fixable ScriptAnalyzer rules.
-- [ ] Spot-check a selection of colorscripts (include glyph-heavy scripts like `nerd-font-test`).
-- [ ] Validate caching performance using `New-ColorScriptCache` and verify load times.
+- [ ] `npm run verify:strict`
+- [ ] `npm test`
+- [ ] `npm run test:coverage`
+- [ ] `npm run markdown:check`
+- [ ] `npm run readme:check:strict`
+- [ ] Spot-check static, dynamic, glyph-heavy, Pokémon, and cache-policy-selected scripts.
+- [ ] Review `git diff --check` and the final staged diff.
 
-## 3. Versioning
+`npm test` runs ANSI-conversion tests, the custom module harness, and Pester. It is not only a smoke test.
 
-- [ ] Determine release version (semantic or date-based `yyyy.MM.dd.HHmm`).
-- [ ] Update the manifest version via `build.ps1 -Version <version>`.
-- [ ] Commit and push the version bump (`git commit -am "chore: release <version>"`).
+## Tag and Workflow Contract
 
-## 4. GitHub Release & Publishing
+- [ ] The release tag is exactly `v<ModuleVersion>`.
+- [ ] The tag resolves to the exact commit being released.
+- [ ] That version/tag does not already identify another published package.
+- [ ] Repository secrets use the exact names `PSGALLERYAPIKEY` and, if used, `NUGETAPIKEY`.
+- [ ] Manual dispatch inputs are correct: `publishToNuGet`, `versionOverride`, and `createRelease`.
 
-- [ ] Tag the commit (`git tag v<version>` and `git push origin v<version>`).
-- [ ] Trigger the **Publish** workflow manually via GitHub Actions or let it auto-trigger on tag push.
-- [ ] The workflow will automatically:
-  - [ ] Build and test the module
-  - [ ] Package the `.nupkg` file
-  - [ ] Generate release notes with git-cliff
-  - [ ] Create GitHub Release with changelog and package attached
-  - [ ] Publish to PowerShell Gallery
-  - [ ] Publish to NuGet.org (if enabled)
-  - [ ] Publish to GitHub Packages (if enabled)
-- [ ] Verify the GitHub Release shows:
-  - [ ] git-cliff generated changelog in the release body
-  - [ ] `.nupkg` file attached as a release asset
-  - [ ] Correct version tag
+The Publish workflow runs for a published GitHub release, manual dispatch, or `workflow_call`. It does not trigger merely because a tag was pushed, and it does not publish to GitHub Packages.
 
-## 5. Post-publish Validation
+## Publish Verification
 
-- [ ] Verify module availability on PowerShell Gallery (`Find-Module ColorScripts-Enhanced`).
-- [ ] Install from the gallery on a clean environment.
-- [ ] Update any dependent repositories or profile scripts if necessary.
-- [ ] Announce the release (README badge, social media, etc.).
+- [ ] The workflow built and normalized one `.nupkg`.
+- [ ] The GitHub release has the expected tag, release notes, commit, and package asset.
+- [ ] The package is visible on PowerShell Gallery.
+- [ ] NuGet.org contains the version only when that optional publish was enabled.
+- [ ] Save/install the Gallery package in an isolated location and import it in a clean process.
+- [ ] Verify all 10 commands, aliases, localized help, representative rendering, configuration, and cache behavior from the installed package.
 
-## 6. Housekeeping
+## Housekeeping
 
-- [ ] Close related GitHub issues and mark the version milestone complete.
-- [ ] Update roadmap / TODO items for next iteration.
-- [ ] Archive build artifacts if required by governance policies.
+- [ ] Close or update related issues and milestones.
+- [ ] Update roadmap/status documentation only where the release actually changed it.
+- [ ] Retain required release evidence and artifacts.
