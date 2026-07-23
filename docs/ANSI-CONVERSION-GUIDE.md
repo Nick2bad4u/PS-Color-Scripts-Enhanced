@@ -346,6 +346,45 @@ Each PowerShell part also records its original rendered line and column ranges. 
 
 Each output chunk is normalized with a trailing `ESC[0m` so the terminal resets cleanly after display.
 
+### Verify Conversion Fidelity and Review Gallery Quality
+
+When the raw ANSI/ICE source is available, verify the generated family against
+the original rendered terminal cells:
+
+```powershell
+node .\scripts\Verify-AnsiConversion.mjs `
+  --source=.\ZII-UBBS.ANS `
+  --prefix=16c-mist-30-zii-ubbs `
+  --json=.\temp\zii-ubbs-verification.json
+```
+
+`Verify-AnsiConversion.mjs` checks every declared source-row and source-column
+slice, compares rendered characters and style state, and requires the selected
+scripts to cover the complete source canvas. This deterministically catches
+lost colors, squishing, reflow, cropping, shifted cells, stripped
+background-colored spaces, and missing blank rows. Use repeated `--script`
+options for explicit files, or `--allow-partial` when intentionally verifying
+only selected parts.
+
+For collection-wide curation queues, run:
+
+```powershell
+node .\scripts\Analyze-ColorScripts.mjs `
+  --type=mergeable-adjacent-parts `
+  --type=dense-split-boundary `
+  --type=sauce-height-mismatch `
+  --type=tiny-tail-part `
+  --type=low-structural-complexity `
+  --type=low-color-variety `
+  --json=.\temp\gallery-analysis.json
+```
+
+These are review signals, not automatic deletion rules. In particular, valid
+CP437 art intentionally decodes block and box-drawing bytes to Unicode, so a
+high extended-character ratio is not evidence of a bad conversion. Exact cell
+comparison is the fidelity test; complexity, density, and palette measurements
+help prioritize human review.
+
 ### Other Developer Utilities
 
 The repository includes additional helpers for developers:

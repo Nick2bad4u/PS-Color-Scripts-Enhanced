@@ -73,22 +73,23 @@ Some linters require separately installed CLIs. The Node-backed commands use the
 
 ## ANSI Collection Maintenance
 
-| Command                                     | Purpose                                                                                                                                                                |
-| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `npm run ansi:audit -- <args>`              | Run the resumable 16colors and Roy ANSI/ICE archive audit                                                                                                              |
-| `npm run ansi:audit:offline -- <args>`      | Rebuild audit reports using only the existing ignored cache                                                                                                            |
-| `npm run ansi:gallery-analysis`             | Review static colorscripts for suspicious split geometry, blank boundaries, small output, low terminal-cell complexity, plain ASCII, and derivative-source attribution |
-| `npm run convert -- <args>`                 | Convert ANSI with `--strip-space-bg` enabled                                                                                                                           |
-| `npm run scripts:convert -- <args>`         | Run the Node ANSI converter                                                                                                                                            |
-| `npm run scripts:convert:ps -- <args>`      | Run the PowerShell converter                                                                                                                                           |
-| `npm run scripts:convert:ps:skip -- <args>` | Run the PowerShell converter with space-background stripping                                                                                                           |
-| `npm run scripts:convert:advanced`          | Launch the advanced PowerShell conversion workflow                                                                                                                     |
-| `npm run scripts:split -- <args>`           | Split ANSI or converted PowerShell art                                                                                                                                 |
-| `npm run scripts:count`                     | Count bundled `.ps1` colorscripts                                                                                                                                      |
-| `npm run scripts:format`                    | Format bundled colorscripts                                                                                                                                            |
-| `npm run scripts:test-all`                  | Execute the full colorscript collection harness                                                                                                                        |
-| `npm run scripts:check-dupes`               | Report duplicate ANSI inputs without modifying files                                                                                                                   |
-| `npm run scripts:remove-dupes`              | Run the duplicate remover with confirmation                                                                                                                            |
+| Command                                     | Purpose                                                                                                                                                        |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `npm run ansi:audit -- <args>`              | Run the resumable 16colors and Roy ANSI/ICE archive audit                                                                                                      |
+| `npm run ansi:audit:offline -- <args>`      | Rebuild audit reports using only the existing ignored cache                                                                                                    |
+| `npm run ansi:gallery-analysis`             | Build review queues for split geometry, missing SAUCE rows, decoding damage, sparse or low-complexity output, color variety, and derivative-source attribution |
+| `node ./scripts/Verify-AnsiConversion.mjs` | Compare raw ANSI with generated scripts by exact rendered terminal cells and source-coordinate coverage                                                        |
+| `npm run convert -- <args>`                 | Convert ANSI with `--strip-space-bg` enabled                                                                                                                   |
+| `npm run scripts:convert -- <args>`         | Run the Node ANSI converter                                                                                                                                    |
+| `npm run scripts:convert:ps -- <args>`      | Run the PowerShell converter                                                                                                                                   |
+| `npm run scripts:convert:ps:skip -- <args>` | Run the PowerShell converter with space-background stripping                                                                                                   |
+| `npm run scripts:convert:advanced`          | Launch the advanced PowerShell conversion workflow                                                                                                             |
+| `npm run scripts:split -- <args>`           | Split ANSI or converted PowerShell art                                                                                                                         |
+| `npm run scripts:count`                     | Count bundled `.ps1` colorscripts                                                                                                                              |
+| `npm run scripts:format`                    | Format bundled colorscripts                                                                                                                                    |
+| `npm run scripts:test-all`                  | Execute the full colorscript collection harness                                                                                                                |
+| `npm run scripts:check-dupes`               | Report duplicate ANSI inputs without modifying files                                                                                                           |
+| `npm run scripts:remove-dupes`              | Run the duplicate remover with confirmation                                                                                                                    |
 
 Pass script arguments after `--`, for example:
 
@@ -97,12 +98,17 @@ npm run scripts:split -- ./art.ans --auto --dry-run
 node ./scripts/Audit-AnsiArchives.js --source=16colors --pack=mist0624
 node ./scripts/Audit-AnsiArchives.js --offline --cache-dir=./temp/ansi-archive-audit
 node ./scripts/Analyze-ColorScripts.mjs --type=tiny-tail-part --json=./temp/gallery-analysis/tiny-tails.json
+node ./scripts/Verify-AnsiConversion.mjs --source=./ZII-UBBS.ANS --prefix=16c-mist-30-zii-ubbs
 ```
 
 Gallery-analysis findings are review signals, not automatic deletion
 decisions. The analyzer reconstructs terminal cells, counts background-colored
-spaces as visible, groups split parts by source family, and keeps genuine
-source blank rows distinct from the serializer's presentation newline.
+spaces as visible, groups split parts by source family, reports adjacent parts
+that fit within the row limit, detects dense cuts when a nearby blank boundary
+is available, and distinguishes genuine source blank rows from the serializer's
+presentation newline. Tail-part detection uses both row count and visible-cell
+ratios; sparse density, low structural complexity, and low color variety remain
+separate review signals because none is an artistic verdict by itself.
 Reviewed intentional findings are declared in
 `scripts/ColorScriptAnalysisExceptions.json`; every entry must match exactly
 one current finding or analysis fails, preventing stale suppressions. Use
@@ -111,6 +117,15 @@ another ledger. Use `--type=<issue-name>` more than once to select multiple
 queues. Run `node ./scripts/Analyze-ColorScripts.mjs --help` for threshold and
 exit-code options. Direct Node invocation avoids npm-version-specific
 differences in forwarding flag-like script arguments.
+Use the direct Node form for conversion verification for the same reason.
+
+`Verify-AnsiConversion.mjs` is the authoritative fidelity check when the original
+ANSI/ICE file is available. It compares rendered cell characters, coordinates,
+foreground/background colors, intensity, colored spaces, blank canvas rows,
+and full source-coordinate coverage. A high ratio of Unicode block or
+box-drawing characters is normal for correctly decoded CP437 and is therefore
+not treated as corruption. Use `--allow-partial` only when deliberately checking
+selected parts instead of the complete source canvas.
 
 ## Changelog and Release Notes
 

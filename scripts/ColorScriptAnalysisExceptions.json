@@ -206,6 +206,11 @@
             "reason": "The nine parts are coherent BBS interface panels separated by source blank-row bands; reducing them to the mathematical minimum would combine unrelated panels."
         },
         {
+            "issueType": "mergeable-adjacent-parts",
+            "family": "16c-mist0624-zii-cap2",
+            "reason": "Although adjacent panel ranges fit numerically, the nine parts are separate BBS interface screens and were reviewed as independent gallery entries."
+        },
+        {
             "issueType": "avoidable-extra-part",
             "family": "16c-mist0624-zii-laho",
             "reason": "The six exact full-width ranges are the manually approved Lake House import layout."
@@ -214,6 +219,11 @@
             "issueType": "avoidable-extra-part",
             "family": "16c-mist-30-zii-lpht",
             "reason": "The seven parts follow the seven coherent source panels separated by blank-row bands at rows 25-28, 52-55, 79-82, 105-108, 132-135, and 159-162."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-mist-30-zii-ubbs",
+            "reason": "The six parts follow six coherent source panels separated by blank-row bands at rows 26-29, 54-56, 81-83, 108-110, and 135-137; adjacent complete panels do not fit within 50 rows."
         }
     ],
     "schemaVersion": 1

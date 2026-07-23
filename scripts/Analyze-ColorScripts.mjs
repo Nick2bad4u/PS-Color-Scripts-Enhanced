@@ -15,23 +15,42 @@ const SPLIT_NAME =
     /^(?<base>.+?)(?:-panel(?<panel>\d{2}))?-part(?<part>\d{2})$/u;
 const SOURCE_ROW_RANGE = /^# Lines:\s*(\d+)-(\d+)\s*$/mu;
 const SOURCE_COLUMN_RANGE = /^# Columns:\s*(\d+)-(\d+)\s*$/mu;
+const SAUCE_DIMENSIONS = /^# SAUCE Dimensions:\s*(\d+)x(\d+)\s*$/mu;
 const HEADER_FIELD = /^# ([^:\r\n]+):\s*(.*)$/gmu;
 const DERIVATIVE_SIGNAL =
     /\b(?:after|based on|fan art|original (?:art|artwork|image)|ripped|well[- ]known .{0,30} character)\b/iu;
 const BLOCK_GLYPH = /[\u2580-\u259f]/u;
 const BOX_GLYPH = /[\u2500-\u257f]/u;
 const ASCII_GLYPH = /[\u0021-\u007e]/u;
+const REPLACEMENT_CHARACTER = /\ufffd/gu;
+const MOJIBAKE_SEQUENCE = /(?:Ã[\u0080-\u00bf]|â€|ðŸ|ï»¿)/gu;
+const ANSI_COLOR_FAMILIES = [
+    "neutral",
+    "red",
+    "green",
+    "yellow",
+    "blue",
+    "magenta",
+    "cyan",
+    "neutral",
+];
 const KNOWN_ISSUE_TYPES = new Set([
     "analysis-error",
     "avoidable-extra-part",
     "blank-part",
+    "dense-split-boundary",
     "derivative-attribution-review",
     "leading-blank-run",
     "low-cell-variety",
+    "low-color-variety",
     "low-structural-complexity",
+    "mergeable-adjacent-parts",
     "missing-source-coordinates",
     "mostly-plain-ascii",
+    "sauce-height-mismatch",
     "source-row-gap-or-overlap",
+    "sparse-cell-density",
+    "suspicious-character-decoding",
     "tiny-tail-part",
     "trailing-blank-run",
     "very-small-output",
@@ -68,6 +87,8 @@ const defaultExceptionsPath = path.join(
  * @property {number | null} sourceRowEnd
  * @property {number | null} sourceColumnStart
  * @property {number | null} sourceColumnEnd
+ * @property {number | null} sauceWidth
+ * @property {number | null} sauceHeight
  * @property {string | null} splitBase
  * @property {number | null} panel
  * @property {number | null} part
@@ -189,6 +210,7 @@ function parseArguments(argv) {
  * @returns {{
  *     issueType: string;
  *     family: string;
+ *     boundaryAfterRow?: number;
  *     panel?: number;
  *     reason: string;
  * }[]}
@@ -215,6 +237,7 @@ function loadAnalysisExceptions(filePath) {
         );
     }
     const allowedKeys = new Set([
+        "boundaryAfterRow",
         "family",
         "issueType",
         "panel",
@@ -238,7 +261,8 @@ function loadAnalysisExceptions(filePath) {
                 `Invalid analysis exception ${index + 1} in ${filePath}: unknown field(s) ${unknownKeys.join(", ")}.`
             );
         }
-        const { family, issueType, panel, reason } = exception;
+        const { boundaryAfterRow, family, issueType, panel, reason } =
+            exception;
         if (
             typeof family !== "string" ||
             family.trim() === "" ||
@@ -246,15 +270,22 @@ function loadAnalysisExceptions(filePath) {
             !KNOWN_ISSUE_TYPES.has(issueType) ||
             typeof reason !== "string" ||
             reason.trim() === "" ||
+            (boundaryAfterRow !== undefined &&
+                (!Number.isSafeInteger(boundaryAfterRow) ||
+                    boundaryAfterRow < 1)) ||
             (panel !== undefined && (!Number.isSafeInteger(panel) || panel < 1))
         ) {
             throw new Error(
-                `Invalid analysis exception ${index + 1} in ${filePath}: family, known issueType, and reason are required; panel must be a positive integer when present.`
+                `Invalid analysis exception ${index + 1} in ${filePath}: family, known issueType, and reason are required; boundaryAfterRow and panel must be positive integers when present.`
             );
         }
-        return panel === undefined
-            ? { family, issueType, reason }
-            : { family, issueType, panel, reason };
+        return {
+            ...(boundaryAfterRow === undefined ? {} : { boundaryAfterRow }),
+            family,
+            issueType,
+            ...(panel === undefined ? {} : { panel }),
+            reason,
+        };
     });
 }
 
@@ -274,10 +305,10 @@ function applyAnalysisExceptions(issues, exceptions) {
     const suppressedIndexes = new Set();
     const signatures = new Set();
     for (const exception of exceptions) {
-        const signature = `${exception.issueType}\0${exception.family}\0${exception.panel ?? "*"}`;
+        const signature = `${exception.issueType}\0${exception.family}\0${exception.panel ?? "*"}\0${exception.boundaryAfterRow ?? "*"}`;
         if (signatures.has(signature)) {
             throw new Error(
-                `Duplicate analysis exception for ${exception.issueType}/${exception.family}${exception.panel ? `/panel${exception.panel}` : ""}.`
+                `Duplicate analysis exception for ${exception.issueType}/${exception.family}${exception.panel ? `/panel${exception.panel}` : ""}${exception.boundaryAfterRow ? `/row${exception.boundaryAfterRow}` : ""}.`
             );
         }
         signatures.add(signature);
@@ -288,14 +319,16 @@ function applyAnalysisExceptions(issues, exceptions) {
                 issue.type === exception.issueType &&
                 issue.family === exception.family &&
                 (exception.panel === undefined ||
-                    issue.panel === exception.panel)
+                    issue.panel === exception.panel) &&
+                (exception.boundaryAfterRow === undefined ||
+                    issue.boundaryAfterRow === exception.boundaryAfterRow)
             ) {
                 matchingIndexes.push(index);
             }
         }
         if (matchingIndexes.length !== 1) {
             throw new Error(
-                `Stale or ambiguous analysis exception for ${exception.issueType}/${exception.family}${exception.panel ? `/panel${exception.panel}` : ""}: matched ${matchingIndexes.length} findings.`
+                `Stale or ambiguous analysis exception for ${exception.issueType}/${exception.family}${exception.panel ? `/panel${exception.panel}` : ""}${exception.boundaryAfterRow ? `/row${exception.boundaryAfterRow}` : ""}: matched ${matchingIndexes.length} findings.`
             );
         }
         suppressedIndexes.add(matchingIndexes[0]);
@@ -340,6 +373,140 @@ function styleKey(attributes) {
         value.fg,
         value.bg,
     ]);
+}
+
+/**
+ * Convert an xterm 256-color palette index to RGB.
+ *
+ * @param {number} index
+ *
+ * @returns {{ r: number; g: number; b: number } | null}
+ */
+function paletteColorToRgb(index) {
+    if (!Number.isSafeInteger(index) || index < 16 || index > 255) {
+        return null;
+    }
+    if (index >= 232) {
+        const value = 8 + (index - 232) * 10;
+        return { r: value, g: value, b: value };
+    }
+    const offset = index - 16;
+    const levels = [
+        0,
+        95,
+        135,
+        175,
+        215,
+        255,
+    ];
+    const red = levels[Math.floor(offset / 36)];
+    const green = levels[Math.floor((offset % 36) / 6)];
+    const blue = levels[offset % 6];
+    if (red === undefined || green === undefined || blue === undefined) {
+        return null;
+    }
+    return { r: red, g: green, b: blue };
+}
+
+/**
+ * Collapse RGB colors into broad visual families. Bright and dark variants
+ * intentionally share a family so a duotone work is not misclassified merely
+ * because it uses intensity variants.
+ *
+ * @param {number} red
+ * @param {number} green
+ * @param {number} blue
+ *
+ * @returns {string}
+ */
+function rgbColorFamily(red, green, blue) {
+    const maximum = Math.max(red, green, blue);
+    const minimum = Math.min(red, green, blue);
+    const delta = maximum - minimum;
+    if (maximum === 0 || delta / maximum < 0.2) return "neutral";
+
+    let hue;
+    if (maximum === red) {
+        hue = 60 * (((green - blue) / delta) % 6);
+    } else if (maximum === green) {
+        hue = 60 * ((blue - red) / delta + 2);
+    } else {
+        hue = 60 * ((red - green) / delta + 4);
+    }
+    if (hue < 0) hue += 360;
+    if (hue < 30 || hue >= 330) return "red";
+    if (hue < 90) return "yellow";
+    if (hue < 150) return "green";
+    if (hue < 210) return "cyan";
+    if (hue < 270) return "blue";
+    return "magenta";
+}
+
+/**
+ * @param {unknown} color
+ *
+ * @returns {string}
+ */
+function colorFamily(color) {
+    if (!color || typeof color !== "object") return "neutral";
+    const value = /** @type {Record<string, unknown>} */ (color);
+    if (
+        (value.mode === "basic" || value.mode === "bright") &&
+        typeof value.value === "number"
+    ) {
+        return ANSI_COLOR_FAMILIES[value.value % 8] || "neutral";
+    }
+    if (value.mode === "palette" && typeof value.value === "number") {
+        if (value.value < 16) {
+            return ANSI_COLOR_FAMILIES[value.value % 8] || "neutral";
+        }
+        const rgb = paletteColorToRgb(value.value);
+        return rgb ? rgbColorFamily(rgb.r, rgb.g, rgb.b) : "neutral";
+    }
+    if (
+        value.mode === "rgb" &&
+        typeof value.r === "number" &&
+        typeof value.g === "number" &&
+        typeof value.b === "number"
+    ) {
+        return rgbColorFamily(value.r, value.g, value.b);
+    }
+    return "neutral";
+}
+
+/**
+ * Collect only colors that visibly contribute to the rendered cell. Default
+ * foreground/background colors are treated as one neutral family.
+ *
+ * @param {unknown} cell
+ *
+ * @returns {Set<string>}
+ */
+function visibleCellColorFamilies(cell) {
+    const families = new Set();
+    if (!cell || typeof cell !== "object") return families;
+    const value =
+        /**
+         * @type {{
+         *     char?: string;
+         *     attrs?: {
+         *         bg?: unknown;
+         *         fg?: unknown;
+         *         hidden?: boolean;
+         *         inverse?: boolean;
+         *     };
+         * }}
+         */ (cell);
+    const attributes = value.attrs || {};
+    const foreground = attributes.inverse ? attributes.bg : attributes.fg;
+    const background = attributes.inverse ? attributes.fg : attributes.bg;
+    if (!attributes.hidden && value.char && value.char !== " ") {
+        families.add(colorFamily(foreground));
+    }
+    if (background || attributes.inverse) {
+        families.add(colorFamily(background));
+    }
+    return families;
 }
 
 /**
@@ -390,6 +557,15 @@ function isVisibleCell(cell) {
  *     blockGlyphRatio: number;
  *     boxGlyphRatio: number;
  *     extendedGlyphRatio: number;
+ *     colorFamilies: string[];
+ *     uniqueColorFamilies: number;
+ *     coloredCellRatio: number;
+ *     cellDensity: number;
+ *     firstRowVisibleCells: number;
+ *     lastRowVisibleCells: number;
+ *     rowVisibleCellCounts: number[];
+ *     replacementCharacters: number;
+ *     mojibakeSequences: number;
  *     sgrSequences: number;
  *     width: number;
  * }}
@@ -407,8 +583,11 @@ function analyzeAnsiLines(lines) {
     const glyphs = new Set();
     const styles = new Set();
     const rowPatterns = new Set();
+    const colorFamilies = new Set();
     const blankRows = [];
+    const visibleCellsByRow = [];
     let visibleCells = 0;
+    let coloredCells = 0;
     let asciiGlyphs = 0;
     let blockGlyphs = 0;
     let boxGlyphs = 0;
@@ -424,15 +603,26 @@ function analyzeAnsiLines(lines) {
               )
             : [];
         let rowVisible = false;
+        let rowVisibleCells = 0;
         const pattern = [];
         for (const [column, cell] of entries) {
             if (!isVisibleCell(cell)) continue;
             rowVisible = true;
+            rowVisibleCells += 1;
             visibleCells += 1;
             width = Math.max(width, column + 1);
             const key = styleKey(cell.attrs);
             styles.add(key);
             pattern.push(`${column}:${cell.char}:${key}`);
+            const cellColorFamilies = visibleCellColorFamilies(cell);
+            let cellUsesColor = false;
+            for (const family of cellColorFamilies) {
+                colorFamilies.add(family);
+                if (family !== "neutral") cellUsesColor = true;
+            }
+            if (cellUsesColor) {
+                coloredCells += 1;
+            }
             if (cell.char !== " ") {
                 glyphCount += 1;
                 glyphs.add(cell.char);
@@ -443,6 +633,7 @@ function analyzeAnsiLines(lines) {
             }
         }
         blankRows.push(!rowVisible);
+        visibleCellsByRow.push(rowVisibleCells);
         if (rowVisible) rowPatterns.add(pattern.join("|"));
     }
 
@@ -465,6 +656,7 @@ function analyzeAnsiLines(lines) {
     const trailingBlankRows =
         lastVisibleFromEnd === -1 ? blankRows.length : lastVisibleFromEnd;
     const ratio = (count) => (glyphCount === 0 ? 0 : count / glyphCount);
+    const plainText = content.replace(ESCAPE_SEQUENCE, "");
 
     return {
         rows: lines.length,
@@ -480,6 +672,19 @@ function analyzeAnsiLines(lines) {
         blockGlyphRatio: ratio(blockGlyphs),
         boxGlyphRatio: ratio(boxGlyphs),
         extendedGlyphRatio: ratio(extendedGlyphs),
+        colorFamilies: [...colorFamilies].sort(),
+        uniqueColorFamilies: colorFamilies.size,
+        coloredCellRatio: visibleCells === 0 ? 0 : coloredCells / visibleCells,
+        cellDensity:
+            width === 0 || blankRows.length === 0
+                ? 0
+                : visibleCells / (width * blankRows.length),
+        firstRowVisibleCells: visibleCellsByRow[0] || 0,
+        lastRowVisibleCells: visibleCellsByRow.at(-1) || 0,
+        rowVisibleCellCounts: visibleCellsByRow,
+        replacementCharacters:
+            plainText.match(REPLACEMENT_CHARACTER)?.length || 0,
+        mojibakeSequences: plainText.match(MOJIBAKE_SEQUENCE)?.length || 0,
         sgrSequences: content.match(ESCAPE_SEQUENCE)?.length || 0,
         width,
     };
@@ -495,6 +700,7 @@ function analyzeScript(filePath) {
     const name = path.basename(filePath, path.extname(filePath));
     const rowMatch = SOURCE_ROW_RANGE.exec(source);
     const columnMatch = SOURCE_COLUMN_RANGE.exec(source);
+    const sauceDimensionsMatch = SAUCE_DIMENSIONS.exec(source);
     const splitMatch = SPLIT_NAME.exec(name);
     const header = {};
     for (const match of source.matchAll(HEADER_FIELD)) {
@@ -534,6 +740,12 @@ function analyzeScript(filePath) {
         sourceRowEnd: rowMatch ? Number(rowMatch[2]) : null,
         sourceColumnStart: columnMatch ? Number(columnMatch[1]) : null,
         sourceColumnEnd: columnMatch ? Number(columnMatch[2]) : null,
+        sauceWidth: sauceDimensionsMatch
+            ? Number(sauceDimensionsMatch[1])
+            : null,
+        sauceHeight: sauceDimensionsMatch
+            ? Number(sauceDimensionsMatch[2])
+            : null,
         splitBase: splitMatch?.groups?.base || null,
         panel: splitMatch?.groups?.panel
             ? Number(splitMatch.groups.panel)
@@ -547,6 +759,98 @@ function analyzeScript(filePath) {
             splitMatch?.groups?.base
         ),
     };
+}
+
+/**
+ * Find a nearby source blank row that can replace a dense cut without changing
+ * the part count or violating the row limit. This deliberately avoids reporting
+ * continuous tall artwork whose dense split is unavoidable.
+ *
+ * @param {ScriptRecord} previous
+ * @param {ScriptRecord} current
+ * @param {number} maxRows
+ *
+ * @returns {number | null}
+ */
+function findNearbyBlankBoundary(previous, current, maxRows) {
+    if (
+        !previous.metrics ||
+        !current.metrics ||
+        previous.sourceRowStart === null ||
+        previous.sourceRowEnd === null ||
+        current.sourceRowStart === null ||
+        current.sourceRowEnd === null
+    ) {
+        return null;
+    }
+    const firstSourceRow = previous.sourceRowStart;
+    const currentBoundary = previous.sourceRowEnd;
+    const lastSourceRow = current.sourceRowEnd;
+    const rowCounts = [
+        ...previous.metrics.rowVisibleCellCounts,
+        ...current.metrics.rowVisibleCellCounts,
+    ];
+    const minimumPreviousVisibleRows = Math.min(
+        10,
+        previous.metrics.visibleRows
+    );
+    const minimumNextVisibleRows = Math.min(10, current.metrics.visibleRows);
+    const minimumPartRows = Math.min(10, Math.floor(rowCounts.length / 3));
+    const lowerBound = Math.max(
+        firstSourceRow + minimumPartRows - 1,
+        lastSourceRow - maxRows,
+        currentBoundary - 10
+    );
+    const upperBound = Math.min(
+        firstSourceRow + maxRows - 1,
+        lastSourceRow - minimumPartRows,
+        currentBoundary + 10
+    );
+    const candidates = [];
+    for (
+        let boundaryAfterRow = lowerBound;
+        boundaryAfterRow <= upperBound;
+        boundaryAfterRow += 1
+    ) {
+        if (boundaryAfterRow === currentBoundary) continue;
+        const beforeIndex = boundaryAfterRow - firstSourceRow;
+        const afterIndex = beforeIndex + 1;
+        const beforeCells = rowCounts[beforeIndex];
+        const afterCells = rowCounts[afterIndex];
+        if (
+            beforeCells === undefined ||
+            afterCells === undefined ||
+            (beforeCells !== 0 && afterCells !== 0)
+        ) {
+            continue;
+        }
+        const previousVisibleRows = rowCounts
+            .slice(0, beforeIndex + 1)
+            .filter((count) => count > 0).length;
+        const nextVisibleRows = rowCounts
+            .slice(afterIndex)
+            .filter((count) => count > 0).length;
+        if (
+            previousVisibleRows < minimumPreviousVisibleRows ||
+            nextVisibleRows < minimumNextVisibleRows
+        ) {
+            continue;
+        }
+        candidates.push({
+            boundaryAfterRow,
+            activity: beforeCells + afterCells,
+            distance: Math.abs(boundaryAfterRow - currentBoundary),
+            leavesTrailingBlank: beforeCells === 0 ? 0 : 1,
+        });
+    }
+    candidates.sort(
+        (left, right) =>
+            left.activity - right.activity ||
+            left.leavesTrailingBlank - right.leavesTrailingBlank ||
+            left.distance - right.distance ||
+            left.boundaryAfterRow - right.boundaryAfterRow
+    );
+    return candidates[0]?.boundaryAfterRow ?? null;
 }
 
 /**
@@ -625,6 +929,7 @@ function analyzeSplitFamilies(records, options) {
             });
             continue;
         }
+        const mergeablePairs = [];
         for (let index = 1; index < members.length; index += 1) {
             const previous = members[index - 1];
             const current = members[index];
@@ -636,19 +941,130 @@ function analyzeSplitFamilies(records, options) {
                     previousEnd: previous.sourceRowEnd,
                     currentStart: current.sourceRowStart,
                 });
+                continue;
             }
+            const adjacentRows =
+                previous.sourceRowEnd -
+                previous.sourceRowStart +
+                1 +
+                (current.sourceRowEnd - current.sourceRowStart + 1);
+            if (adjacentRows <= options.maxRows) {
+                mergeablePairs.push({
+                    scripts: [previous.name, current.name],
+                    combinedRows: adjacentRows,
+                    suggestedRange: `${previous.sourceRowStart}-${current.sourceRowEnd}`,
+                });
+            }
+            if (previous.metrics && current.metrics) {
+                const boundaryWidth = Math.min(
+                    previous.metrics.width,
+                    current.metrics.width
+                );
+                const minimumBoundaryCells = Math.max(
+                    12,
+                    Math.ceil(boundaryWidth * 0.25)
+                );
+                if (
+                    boundaryWidth > 0 &&
+                    previous.metrics.lastRowVisibleCells >=
+                        minimumBoundaryCells &&
+                    current.metrics.firstRowVisibleCells >= minimumBoundaryCells
+                ) {
+                    const suggestedBoundaryAfterRow = findNearbyBlankBoundary(
+                        previous,
+                        current,
+                        options.maxRows
+                    );
+                    if (suggestedBoundaryAfterRow !== null) {
+                        issues.push({
+                            type: "dense-split-boundary",
+                            family: first.splitBase,
+                            panel: first.panel,
+                            scripts: [previous.name, current.name],
+                            boundaryAfterRow: previous.sourceRowEnd,
+                            suggestedBoundaryAfterRow,
+                            previousVisibleCells:
+                                previous.metrics.lastRowVisibleCells,
+                            nextVisibleCells:
+                                current.metrics.firstRowVisibleCells,
+                            boundaryWidth,
+                            minimumBoundaryCells,
+                        });
+                    }
+                }
+            }
+        }
+        if (mergeablePairs.length > 0) {
+            issues.push({
+                type: "mergeable-adjacent-parts",
+                family: first.splitBase,
+                panel: first.panel,
+                pairs: mergeablePairs,
+            });
         }
 
         const tailRows = last.sourceRowEnd - last.sourceRowStart + 1;
         const totalRows = last.sourceRowEnd - first.sourceRowStart + 1;
         const minimumParts = Math.ceil(totalRows / options.maxRows);
-        if (tailRows <= options.tinyTailRows) {
+        const previousVisibleCellCounts = members
+            .slice(0, -1)
+            .map((member) => member.metrics?.visibleCells)
+            .filter((count) => typeof count === "number")
+            .sort((left, right) => left - right);
+        const medianPreviousVisibleCells =
+            previousVisibleCellCounts.length === 0
+                ? null
+                : previousVisibleCellCounts[
+                      Math.floor(previousVisibleCellCounts.length / 2)
+                  ];
+        const tailVisibleCellRatio =
+            medianPreviousVisibleCells &&
+            last.metrics &&
+            medianPreviousVisibleCells > 0
+                ? last.metrics.visibleCells / medianPreviousVisibleCells
+                : null;
+        const sauceHeights = [
+            ...new Set(
+                members
+                    .map((member) => member.sauceHeight)
+                    .filter((height) => height !== null)
+            ),
+        ];
+        if (
+            first.sourceRowStart === 1 &&
+            sauceHeights.length === 1 &&
+            last.sourceRowEnd < sauceHeights[0]
+        ) {
+            issues.push({
+                type: "sauce-height-mismatch",
+                family: first.splitBase,
+                panel: first.panel,
+                sauceHeight: sauceHeights[0],
+                coveredRows: `${first.sourceRowStart}-${last.sourceRowEnd}`,
+                missingRows: sauceHeights[0] - last.sourceRowEnd,
+                scripts: members.map((member) => member.name),
+            });
+        }
+        const tailRowRatio = tailRows / options.maxRows;
+        const tinyByRows =
+            tailRows <= options.tinyTailRows || tailRowRatio <= 0.25;
+        const tinyByVisibleCells =
+            tailVisibleCellRatio !== null && tailVisibleCellRatio <= 0.15;
+        if (tinyByRows || tinyByVisibleCells) {
             issues.push({
                 type: "tiny-tail-part",
                 family: first.splitBase,
                 panel: first.panel,
                 script: last.name,
                 tailRows,
+                tailRowRatio,
+                tailVisibleCells: last.metrics?.visibleCells ?? null,
+                medianPreviousVisibleCells,
+                tailVisibleCellRatio,
+                signals: [
+                    ...(tinyByRows ? ["row-count"] : []),
+                    ...(tinyByVisibleCells ? ["visible-cell-ratio"] : []),
+                ],
                 currentRanges: members.map(
                     (member) =>
                         `${member.sourceRowStart}-${member.sourceRowEnd}`
@@ -740,6 +1156,21 @@ function analyzeReviewSignals(records, options) {
             });
         }
         if (
+            metrics.visibleRows >= 10 &&
+            metrics.width >= 20 &&
+            metrics.cellDensity <= 0.04
+        ) {
+            issues.push({
+                type: "sparse-cell-density",
+                script: record.name,
+                rows: metrics.rows,
+                visibleRows: metrics.visibleRows,
+                visibleCells: metrics.visibleCells,
+                width: metrics.width,
+                cellDensity: metrics.cellDensity,
+            });
+        }
+        if (
             metrics.rows >= 10 &&
             metrics.asciiGlyphRatio >= 0.95 &&
             metrics.uniqueStyles <= 4
@@ -749,6 +1180,17 @@ function analyzeReviewSignals(records, options) {
                 script: record.name,
                 asciiGlyphRatio: metrics.asciiGlyphRatio,
                 uniqueStyles: metrics.uniqueStyles,
+            });
+        }
+        if (
+            metrics.replacementCharacters > 0 ||
+            metrics.mojibakeSequences > 0
+        ) {
+            issues.push({
+                type: "suspicious-character-decoding",
+                script: record.name,
+                replacementCharacters: metrics.replacementCharacters,
+                mojibakeSequences: metrics.mojibakeSequences,
             });
         }
     }
@@ -818,6 +1260,27 @@ function analyzeFamilyReviewSignals(records) {
                 family: members[0].splitBase || members[0].name,
                 scripts: members.map((record) => record.name).sort(),
                 evidence,
+            });
+        }
+        const colorMetrics = analyzeAnsiLines(
+            members.flatMap((record) => record.lines)
+        );
+        if (
+            colorMetrics.visibleRows >= 6 &&
+            colorMetrics.visibleCells >= 80 &&
+            colorMetrics.uniqueColorFamilies < 3
+        ) {
+            issues.push({
+                type: "low-color-variety",
+                family: members[0].splitBase || members[0].name,
+                scripts: members
+                    .map((record) => record.name)
+                    .sort((left, right) => left.localeCompare(right)),
+                visibleRows: colorMetrics.visibleRows,
+                visibleCells: colorMetrics.visibleCells,
+                colorFamilies: colorMetrics.colorFamilies,
+                uniqueColorFamilies: colorMetrics.uniqueColorFamilies,
+                coloredCellRatio: colorMetrics.coloredCellRatio,
             });
         }
     }
@@ -900,7 +1363,7 @@ function buildReport(scriptsDirectory, options, exceptions = []) {
             .map(([type, values]) => [type, values.length])
     );
     return {
-        schemaVersion: 2,
+        schemaVersion: 3,
         generatedAt: new Date().toISOString(),
         scriptsDirectory,
         summary: {
@@ -922,7 +1385,13 @@ function buildReport(scriptsDirectory, options, exceptions = []) {
                 record.sourceColumnStart === null
                     ? null
                     : `${record.sourceColumnStart}-${record.sourceColumnEnd}`,
-            metrics: record.metrics,
+            metrics: record.metrics
+                ? Object.fromEntries(
+                      Object.entries(record.metrics).filter(
+                          ([key]) => key !== "rowVisibleCellCounts"
+                      )
+                  )
+                : null,
             analysisError: record.analysisError,
             reviewEligible: record.reviewEligible,
         })),
@@ -970,8 +1439,9 @@ function printUsage() {
     console.log(`Usage: node scripts/Analyze-ColorScripts.mjs [options]
 
 Review static colorscripts for suspicious split geometry, blank boundaries,
-small output, low terminal-cell complexity, plain ASCII, and derivative-source
-attribution. Findings are review signals, not automatic deletion decisions.
+small output, low terminal-cell or color complexity, character-decoding damage,
+plain ASCII, and derivative-source attribution. Findings are review signals,
+not automatic deletion decisions.
 
 Options:
   --json=<path>             Write the complete deterministic-data report as JSON
