@@ -8,7 +8,7 @@ Discover and display ANSI colorscripts in PowerShell. Deterministic bundled scri
 
 ## Features
 
-- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->8513+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
+- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->8756+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
 - ⚡ **Selective Caching** — Reuses output for the 15 expensive renderers listed in `CachePolicy.psd1`
 - 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
 - ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
