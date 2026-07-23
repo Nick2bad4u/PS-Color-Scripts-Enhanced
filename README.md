@@ -41,7 +41,7 @@ A cross-platform PowerShell module for discovering and displaying ANSI colorscri
 
 ## ✨ Features
 
-- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->3217+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
+- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->7380+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
 - ⚡ **Selective Caching** — Reuses output for the 15 computational renderers listed in `CachePolicy.psd1`; deterministic bundled scripts render in-process
 - 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
 - ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
@@ -254,11 +254,11 @@ The collection incorporates art from upstream projects and reviewed archives, in
 
 ## 📄 License
 
-Project-authored code is provided under the [Unlicense](LICENSE). Third-party ANSI art and other incorporated works remain subject to their original authors' rights and source terms; the repository license does not relicense those works.
+Project-authored code is provided under the [Unlicense](LICENSE). Third-party ANSI art and other incorporated works remain subject to their original authors' rights and source terms; the repository license does not relicense those works. Files named `16c-*.ps1` use the documented artist-authorized, project-specific 16colors permission with required attribution, while `roy-sac-*.ps1` remains under FAL-1.3.
 
 ### Artwork Sources and Provenance
 
-New curated imports are mapped in [ArtworkProvenance.psd1](ColorScripts-Enhanced/ArtworkProvenance.psd1), with preserved evidence under [ThirdPartyNotices](ColorScripts-Enhanced/ThirdPartyNotices/) and browsing/licensing context in the [Artwork Sources guide](docs/ARTWORK_SOURCES.md). The older catalog predates complete per-file provenance records; missing historical attribution must not be replaced with guesses.
+New curated imports are mapped in [ArtworkProvenance.psd1](ColorScripts-Enhanced/ArtworkProvenance.psd1), with preserved evidence under [ThirdPartyNotices](ColorScripts-Enhanced/ThirdPartyNotices/) and browsing/licensing context in the [Artwork Sources guide](docs/ARTWORK_SOURCES.md). This includes [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, preserved as six contiguous, full-width scripts, and 126 unique Roy-authored works represented by 153 scripts under FAL-1.3. The 2017-2026 16colors review is complete, and every accepted work from those years is imported; 27 earlier years remain under review. The older catalog predates complete per-file provenance records; missing historical attribution must not be replaced with guesses.
 
 ---
 

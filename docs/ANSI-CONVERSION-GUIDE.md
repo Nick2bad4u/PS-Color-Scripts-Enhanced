@@ -68,6 +68,13 @@ Passthrough preserves the decoded source byte-for-byte inside one safe PowerShel
 4. **Saves to Scripts folder** - Automatically places in ColorScripts-Enhanced/Scripts
 5. **Auto-naming** - Converts filename to lowercase with hyphens (PowerShell convention)
 
+The ordinary single-quoted literal is intentional. A single-quoted here-string
+(`@' ... '@`) is also non-interpolating, but it adds a line-oriented terminator
+that archival text can collide with. A double-quoted here-string (`@" ... "@`)
+is unsafe for arbitrary artwork because PowerShell expands dollar-prefixed
+variables, subexpressions, and backtick escapes. The serializer instead doubles
+literal apostrophes and keeps every other artwork character as data.
+
 ## ANSI File Format
 
 The converter supports standard ANSI art files (.ans) which contain:
@@ -245,14 +252,15 @@ Archive availability does not imply that every work is public domain or compatib
 
 The collection now contains curated subsets from these sources. See [Artwork Sources and Provenance](ARTWORK_SOURCES.md) for browse/download links, inclusion counts, exact licensing evidence, and the excluded Roy/SAC other-artists gallery.
 
-| Collection | Approximate size | Repository license | Integration note |
-| ---------- | ---------------- | ------------------ | ---------------- |
-| [jifunks/botany](https://github.com/jifunks/botany) | 72 files reviewed | ISC | 17 sequential ANSI streams imported with byte-preserving passthrough conversion. |
-| [NNB/os-ansi](https://codeberg.org/NNB/os-ansi) | 36 files reviewed | ISC | 2 genuinely multicolor files imported; 34 monochrome or duotone files rejected. |
-| [Asciiville](https://github.com/doctorfree/Asciiville) | 946 files reviewed | MIT for the imported project wordmark | 1 byte-preserved nine-color wordmark imported; image-derived and restricted galleries excluded. |
-| [Durdraw](https://github.com/durdraw/durdraw) | 16 examples reviewed | BSD-3-Clause | 1 native 80-by-32 ANSI stream imported; `.dur` animations require a frame-aware parser. |
-| [Roy/SAC ANSI gallery](https://www.roysac.com/roy_ansishow.html) and SAC packs | Roy archive plus 45 packs reviewed | FAL-1.3 for each converted Roy file | 35 Roy-authored works represented by 40 scripts; oversized works split, other artists excluded. |
-| [HyFetch](https://github.com/hykilpikonna/hyfetch) | Many distro logos | MIT | Uses application-specific templates/placeholders, so it needs a purpose-built importer rather than raw `.ANS` conversion. |
+| Collection                                                                     | Approximate size                   | Repository license                    | Integration note                                                                                                          |
+| ------------------------------------------------------------------------------ | ---------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| [jifunks/botany](https://github.com/jifunks/botany)                            | 72 files reviewed                  | ISC                                   | 17 sequential ANSI streams imported with byte-preserving passthrough conversion.                                          |
+| [NNB/os-ansi](https://codeberg.org/NNB/os-ansi)                                | 36 files reviewed                  | ISC                                   | 2 genuinely multicolor files imported; 34 monochrome or duotone files rejected.                                           |
+| [Asciiville](https://github.com/doctorfree/Asciiville)                         | 946 files reviewed                 | MIT for the imported project wordmark | 1 byte-preserved nine-color wordmark imported; image-derived and restricted galleries excluded.                           |
+| [Durdraw](https://github.com/durdraw/durdraw)                                  | 16 examples reviewed               | BSD-3-Clause                          | 1 native 80-by-32 ANSI stream imported; `.dur` animations require a frame-aware parser.                                   |
+| [Roy/SAC ANSI gallery](https://www.roysac.com/roy_ansishow.html), official downloads, and 16colors | 62 download archives plus live 16colors Roy inventory reviewed | FAL-1.3 for each converted Roy file | 126 unique Roy-authored works represented by 153 scripts; 2 `.BIN` files are outside the supported `.ANS`/`.ICE` scope. |
+| [16colors](https://16colo.rs/)                                              | 2019-2026 review-complete; 1990-2018 in progress | Project-specific artist/rightsholder permission with attribution | All accepted 2019-2026 works imported; approximately 43,229 candidates remain in the prior 1990-2018 checkpoint. |
+| [HyFetch](https://github.com/hykilpikonna/hyfetch)                             | Many distro logos                  | MIT                                   | Uses application-specific templates/placeholders, so it needs a purpose-built importer rather than raw `.ANS` conversion. |
 
 ## After Conversion
 
@@ -315,6 +323,9 @@ node scripts/Split-AnsiFile.js .\ColorScripts-Enhanced\Scripts\we-acidtrip.ps1 -
 
 # Split every 160 lines automatically
 node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --every=160
+
+# Split a wide ANSI file only at reviewed logical panel boundaries
+node scripts/Split-AnsiFile.js .\wide-menu.ANS --columns=160 --column-ranges=1-80,81-160
 ```
 
 ## Options
@@ -323,12 +334,14 @@ node scripts/Split-AnsiFile.js .\we-ACiDTrip.ANS --every=160
 - `--heights` / `--breaks` - Enforce manual cut points
 - `--output-base` - Set a stable filename prefix for generated parts
 - `--every=<n>` - Evenly divides the render
-- `--strip-space-bg` - (ANSI input only) Clears background colors on plain spaces
+- `--column-ranges=1-80,81-160` - Slices one-based inclusive logical panels from terminal cells; ranges must be ordered and non-overlapping, and this option requires ANSI or ICE input
+- `--strip-space-bg` - (ANSI input only) Clears background colors on plain spaces; do not use this for archival imports unless visual review proves those cells are not part of the artwork
 - `--source-url`, `--source-revision`, `--source-sha256` - Embed the pinned source and original-file hash in every generated part
 - `--source-license`, `--source-attribution` - Embed the applicable license and artist or project credit in every generated part
 - `--source-modification` - Describe the conversion, cropping, or splitting applied to the original artwork
 
-Each PowerShell part also records its original rendered line range. Provenance values use the same validation rules as the main JavaScript converter, so untrusted metadata cannot inject executable source.
+Each PowerShell part also records its original rendered line and column ranges. Horizontal slicing reconstructs the active SGR state from terminal cells at each panel boundary instead of cutting serialized escape sequences. Provenance values use the same validation rules as the main JavaScript converter, so untrusted metadata cannot inject executable source.
+
 - `--dry-run` - Preview without writing files
 
 Each output chunk is normalized with a trailing `ESC[0m` so the terminal resets cleanly after display.

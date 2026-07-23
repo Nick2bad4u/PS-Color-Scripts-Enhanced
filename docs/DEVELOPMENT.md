@@ -101,11 +101,13 @@ Typical commands:
 ```powershell
 node scripts/Convert-AnsiToColorScript.js ./art.ans
 node scripts/Split-AnsiFile.js ./art.ans --auto --dry-run
+npm run ansi:audit -- --source=16colors --pack=mist0624
+npm run ansi:audit:offline -- --cache-dir=./temp/ansi-archive-audit
 npm run scripts:check-dupes
 npm run test:conversion
 ```
 
-Traditional DOS/BBS art is commonly CP437. Do not assume UTF-8 and do not infer redistribution rights from archive availability.
+Traditional DOS/BBS art is commonly CP437. Do not assume UTF-8 and do not infer redistribution rights from archive availability. Archival imports must keep background-colored spaces and source margins; use `--strip-space-bg` only for a source whose review explicitly proves those cells are disposable.
 
 ## Creating a Project-Authored Script
 

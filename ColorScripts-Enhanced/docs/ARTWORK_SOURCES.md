@@ -4,7 +4,7 @@ ColorScripts-Enhanced combines project-authored renderers with curated third-par
 
 ## Current Provenance Records
 
-New curated imports are recorded in [ArtworkProvenance.psd1](../../ColorScripts-Enhanced/ArtworkProvenance.psd1). The data file maps each imported script to its source collection and records pinned source revisions or archive hashes, source-file hashes, encoding, and conversion mode.
+New curated imports are recorded in [ArtworkProvenance.psd1](../../ColorScripts-Enhanced/ArtworkProvenance.psd1). The data file maps each imported script to its source collection and records pinned source revisions or archive hashes, source and rendered hashes, encoding, conversion mode, attribution, SAUCE details, and source coordinates for split works.
 
 The corresponding third-party notices are:
 
@@ -12,6 +12,7 @@ The corresponding third-party notices are:
 - [os-ansi ISC notice](../../ColorScripts-Enhanced/ThirdPartyNotices/os-ansi-ISC.txt)
 - [Asciiville MIT notice](../../ColorScripts-Enhanced/ThirdPartyNotices/asciiville-MIT.txt)
 - [Durdraw BSD-3-Clause notice](../../ColorScripts-Enhanced/ThirdPartyNotices/durdraw-BSD-3-Clause.txt)
+- [16colors artist-authorized permission notice](../../ColorScripts-Enhanced/ThirdPartyNotices/16colors-discord-permission.txt)
 - [Roy/SAC FAL-1.3 notice](../../ColorScripts-Enhanced/ThirdPartyNotices/roy-sac-FAL-1.3.txt)
 
 The older catalog predates this per-file registry. Missing historical provenance must not be replaced with guesses.
@@ -65,19 +66,43 @@ Only Ronald Record's compact 67-by-4 Asciiville wordmark has a sufficiently clea
 
 The native `indyz-kali.utf8.ans` example contains 2,481 SGR sequences across exactly 32 rows and is preserved byte-for-byte instead of being reconstructed at the wrong 61-row geometry. Durdraw's richer `.dur` examples remain future candidates because they require a frame-, timing-, glyph-, and palette-aware parser.
 
+### 16colors artist-authorized archive imports
+
+- Archive browser: <https://16colo.rs/>
+- Canonical API: <https://api.16colo.rs/>
+- API documentation: <https://16colo.rs/api/>
+- Archive rights policy: <https://16colo.rs/faq/>
+- Permission evidence: [maintainer attestation](../../ColorScripts-Enhanced/ThirdPartyNotices/16colors-discord-permission.txt)
+- Accepted source formats: `.ANS` and `.ICE`
+- Current named import: [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, represented by six contiguous scripts
+- Review status: 2017-2026 review-complete, with every accepted work imported; 1990-2016 still in progress
+
+The archive remains a browsing and preservation service; public availability is not treated as a license. For this project, the maintainer attested on 2026-07-22 that artists, rightsholders, or an explicitly authorized representative granted project-specific permission to redistribute and convert artwork from the 16colors and Roy/SAC sites with attribution. This does not relicense the archive for unrelated uses.
+
+The resumable `npm run ansi:audit -- --source=all` workflow enumerates the canonical pack API and Roy download inventory, caches raw candidates and previews under ignored `temp/`, fingerprints source bytes and rendered terminal cells, rejects monochrome and duotone output, and writes an interactive review sheet. A candidate is imported only after general-audience, artistic-quality, composition, terminal-safety, duplicate, and attribution review. The normal gallery limits are 120 columns and 50 rows per script. Tall art is kept in contiguous source-row order; wide art is split only at coherent panel boundaries and is otherwise rejected. Source blank rows, margins, and background-colored spaces are preserved when they are part of the rendered canvas.
+
+The 2017-2026 review is complete and its accepted works are in the module. The 2017 audit covered 869 candidates and imported 93 accepted works as 249 scripts; the 2018 audit covered 815 candidates and imported 185 accepted works as 481 scripts; the 2019 audit covered 855 candidates and imported 180 accepted works as 371 scripts after a final derivative-rights review; and the 2020 audit covered 659 candidates and imported 90 accepted works as 195 scripts. The older archive is not complete: subtracting those four finished inventories from the prior pre-2021 checkpoint leaves approximately 41,545 candidates across 27 years from 1990 through 2016. That backlog total is an estimate from a checkpoint, not a permanent inventory count, because archive refreshes and normalized duplicate detection can change it.
+
+The Lake House is decoded from CP437 at its declared 80-column width without background stripping. Its 200 populated terminal rows are preserved as `1-40`, `41-80`, `81-112`, `113-144`, `145-176`, and `177-200`; the first three scripts form the continuous landscape and the final three preserve its BBS menu panels.
+
 ### Roy/SAC ANSI gallery
 
 - Gallery: <https://www.roysac.com/roy_ansishow.html>
+- Official download index: <https://www.roysac.com/roy-sac_downloads_links.html>
 - Downloadable archive: <https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP>
 - 2006 public-domain statement: <https://www.roysac.com/blog/2006/07/important-decision-made-regarding-my-text-art/>
 - 2008 Free Art License change: <https://www.roysac.com/blog/2008/08/copyleft-vs-public-domain/>
 - Official FAL-1.3 text: <https://artlibre.org/licence/lal/en/>
 - SAC pack browser: <https://16colo.rs/group/sac>
 - Reviewed archive SHA-256: `8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc`
-- Reviewed inventory: 183 files in Roy's archive plus 45 indexed SAC packs
-- Current import: 35 Roy-authored works represented by 40 scripts
+- Dedicated archive inventory: 183 `.ANS` files and 2 unsupported `.BIN` files in `Roy_ANSI.ZIP`; 161 `.ANS` files in `Roy_EarlyANSI.ZIP`
+- Download inventory: 62 official archives audited; 44 yielded `.ANS` candidates
+- Live 16colors Roy inventory: 381 `.ANS` files, 235 unique after deduplication, and no pending decisions
+- Current import: 126 unique Roy-authored works represented by 153 scripts
 
-This is traditional CP437/SAUCE BBS-scene artwork. Five works came from Roy's standalone archive and 30 more were selected from SHA-256-pinned SAC pack archives after preview, multicolor, provenance, duplicate, and geometry review. Two 122-row works are split into three 39-44-row parts, and one 65-row work is split into two parts at a blank boundary. Every Roy script is independently licensed under FAL-1.3, names Roy/SAC (Carsten Cumbrowski), links its exact source, records the source hash and archive hash, and describes the conversion. This deliberately follows Roy's stricter 2008 copyleft statement even though his 2006 and current gallery language says public domain. Approximately 348 works by other SAC artists are excluded because Roy's statements do not license their art.
+This is traditional CP437/SAUCE BBS-scene artwork. The collection comprises 84 works represented by 104 scripts from the dedicated archive review, 35 normalized legacy works represented by 40 scripts, and 7 additional Roy-authored works from 16colors represented by 9 scripts. The live 16colors Roy queue closed with seven accepts and two rejects. The two `.BIN` files are outside this curation plan's supported `.ANS`/`.ICE` formats and were not converted.
+
+Every Roy-authored script remains independently licensed under FAL-1.3, names Roy/SAC (Carsten Cumbrowski), links its exact source, records the available source and archive hashes, and describes the conversion. This includes Roy works discovered through 16colors; they are not moved into the permission-based `16colors-permitted` collection. This deliberately follows Roy's stricter 2008 copyleft statement even though his 2006 and current gallery language says public domain. Other artists represented in SAC packs are evaluated under the separate artist-authorized permission attestation and never relabeled as Roy-authored or FAL-1.3 work.
 
 ## Future Candidates Requiring a Dedicated Renderer
 
@@ -152,8 +177,8 @@ The art-like candidates are `house` (9x4, 5 colors), `togglebit` (14x7, 7), `nur
 
 ## Collections Rejected for Redistribution
 
-- [Blocktronics artpacks](https://github.com/blocktronics/artpacks): pack display/release permission is not a collection-wide derivative and redistribution grant.
-- [Mistigris](https://mistigris.org/): its [pack terms](https://16colo.rs/pack/mist0625/LICENSE.TXT) limit use, prohibit sale/promotion, and require artist contact for other uses.
+- [Blocktronics artpacks](https://github.com/blocktronics/artpacks) outside the covered 16colors archive workflow: pack display/release permission is not by itself a collection-wide derivative and redistribution grant.
+- [Mistigris](https://mistigris.org/) material obtained outside the covered 16colors archive workflow: individual pack terms still apply unless the work is covered by the recorded artist-authorized project permission.
 - [Arttime](https://github.com/poetaman/arttime): `LICENSE_ART` limits collected artwork to personal, noncommercial use.
 - [NNB/ansi](https://codeberg.org/NNB/ansi): the project says material was gathered from Reddit, Joan Stark, ASCII-art sites, and other sources; the repository license cannot establish rights to those works.
 - [ANSI art tutorials](https://github.com/xero/ansi-art-tutorials): the MIT wrapper does not relicense the separately credited scene artwork.
@@ -183,9 +208,9 @@ For every new third-party import:
 1. Record the canonical source URL and a pinned revision or archive hash.
 2. Record the source file path/hash, encoding, artist or pack attribution, and applicable license or permission.
 3. Preserve the exact license or evidence in `ColorScripts-Enhanced/ThirdPartyNotices/`.
-4. Deduplicate against both source ANSI assets and converted scripts.
+4. Deduplicate against both source ANSI assets and normalized rendered terminal-cell fingerprints.
 5. Decode traditional DOS/BBS art using its real encoding, usually CP437.
-6. Validate terminal dimensions and split only where visual composition remains coherent.
+6. Preserve SAUCE geometry, iCE state, colored spaces, margins, and blank rows; validate terminal dimensions and split only where visual composition remains coherent.
 7. Convert deterministically, add metadata, and run corpus/conversion/rendering tests.
 8. Do not claim that an archive, mirror, or gallery relicensed an individual artist's work.
 
