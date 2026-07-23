@@ -1,0 +1,150 @@
+{
+    "exceptions": [
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-blocktronics-dsotb-us-birth-of-mawu-liza",
+            "reason": "Reviewed false positive: the flagged word 'after' appears in the artist's explanatory prose about the public-domain Mawu-Liza mythology, not in a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-blocktronics-darker-image-2-misfit-south-side-selfie",
+            "reason": "Reviewed self-description: 'based on real life' describes Misfit's own original scene and does not identify a protected source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-cx-timeline-006-sc-souls",
+            "reason": "Reviewed false positive: 'after spending' is ordinary prose in the artwork, not a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-fire-45-n-xprev",
+            "reason": "Reviewed false positive: 'after 30 years' describes the artist revisiting 16colors, not a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-fuel30-mx-icon",
+            "reason": "Reviewed false positive: 'after decade+ long break' describes the artist's history, not a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-fuel23-zii-evok",
+            "reason": "Reviewed self-attribution: 'Original Art by Zeus II' credits the ANSI artist's own work and does not identify another source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-laz16-hrv-arcana",
+            "reason": "Reviewed permitted use: the logo is based on the ancient Eye of Horus symbol, not an identified protected modern artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-laz21-us-lazarella",
+            "reason": "Reviewed title reference: the work names the song Lazzarella but contains no copied lyrics and identifies no protected visual source."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-mist-lc-artdisk-2-kyo-mist",
+            "reason": "Reviewed false positive: each flagged 'after' appears in personal narrative prose, not a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-mist0424-the-war-on-christmas-fox-hunt",
+            "reason": "Reviewed public-domain source: the SAUCE credit identifies Winslow Homer's nineteenth-century Fox Hunt, whose underlying artwork is in the public domain."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-mist0526-us-go-stick-your-head-in-a-pig",
+            "reason": "Reviewed false positive: 'shortly after it was erected' appears in historical explanatory prose, not a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-mist0725-codefenix-ginger",
+            "reason": "Reviewed false positive: 'after removing it' appears in prose about a cat and catnip, not a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-thesauna01-ak67-terminal-colloquy",
+            "reason": "Reviewed false positive: 'after the blinding flash' is part of the artwork's narrative, not a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-thesauna01-us-elko",
+            "reason": "Reviewed false positive: 'gave up after' is part of the artwork's narrative, not a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-tw-roth-shipydop",
+            "reason": "Reviewed false positive: 'row after row' is part of the artwork's narrative, not a derivative-source attribution."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-id-1194-ld-bnw",
+            "reason": "Preserve the manually reviewed source-row breaks at 20, 52, and 84 until the composition is visually re-reviewed."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-clear2ooo-ascii-year-lf-tornillius",
+            "reason": "Five parts preserve the source's narrative scenes at reviewed blank-row transitions; reducing to four would cut across multiple scenes."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-clear2ooo-ascii-year-lf-virus-pic",
+            "reason": "Five parts preserve the source's narrative panels and final epilogue scene; reducing to four would cut through major panels."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-clear2ooo-ascii-year-lf-rowghaurd1",
+            "reason": "Five parts preserve the blank intro and outro bands while avoiding the analyzer's dense cuts through the monitor, workstation, and figure."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-clear2ooo-ascii-year-lf-two-troublemakers",
+            "reason": "The eight parts follow eight distinct storyboard beats separated by authentic blank-row bands; adjacent complete beats do not fit within 50 rows."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-laz16-hrv-arcana",
+            "reason": "Six is the smallest layout that keeps five complete logo variants and the separate attribution footer within the 50-row limit."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-laz16-us-vaprdplmcy",
+            "reason": "Fourteen parts preserve the source's title transitions before the continuous montage; the 13-part arithmetic minimum forces avoidable dense cuts through those transitions."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-laz18-hrv-wisdom-owl-wip",
+            "reason": "Six parts preserve the six successive work-in-progress stages at canonical blank separators; fewer parts bisect stages."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-lgcy-004-us-ecda",
+            "reason": "Four parts keep the Ecco illustration, Expression College title block, and landscape footer intact; the three-part arithmetic minimum bisects the title block."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-mist0226-zii-conm",
+            "reason": "Seven parts preserve seven separate Convolution BBS screens at their blank separators; adjacent screens do not fit within 50 rows."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-mist0226-zii-exog",
+            "reason": "Five parts combine only adjacent whole panels that fit within 50 rows and end at authentic blank separators; four parts would bisect panels."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-mist0624-zii-cap2",
+            "reason": "The nine parts are coherent BBS interface panels separated by source blank-row bands; reducing them to the mathematical minimum would combine unrelated panels."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-mist0624-zii-laho",
+            "reason": "The six exact full-width ranges are the manually approved Lake House import layout."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-mist-30-zii-lpht",
+            "reason": "The seven parts follow the seven coherent source panels separated by blank-row bands at rows 25-28, 52-55, 79-82, 105-108, 132-135, and 159-162."
+        }
+    ],
+    "schemaVersion": 1
+}

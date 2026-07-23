@@ -38,6 +38,9 @@
     "types": "types"
   },
   "scripts": {
+    "ansi:audit": "node ./scripts/Audit-AnsiArchives.js",
+    "ansi:audit:offline": "node ./scripts/Audit-AnsiArchives.js --offline",
+    "ansi:gallery-analysis": "node ./scripts/Analyze-ColorScripts.mjs",
     "build": "pwsh -NoProfile -File ./scripts/build.ps1 && npm run release:notes && npm run release:notes:latest && npm run test:conversion && npm run verify && npm run test:coverage",
     "build:help": "pwsh -NoProfile -File ./scripts/Build-Help.ps1 -UpdateMarkdown",
     "build:skip-help": "pwsh -NoProfile -File ./scripts/build.ps1 -SkipHelp",
@@ -84,7 +87,7 @@
     "scripts:test-all": "pwsh -NoProfile -File ./ColorScripts-Enhanced/Test-AllColorScripts.ps1",
     "sort-package": "npx sort-package-json",
     "test": "npm run test:conversion && npm run test:custom && npm run test:pester",
-    "test:conversion": "node --test ./Tests/AnsiConversion.Tests.js",
+    "test:conversion": "node --test ./Tests/AnsiConversion.Tests.js ./Tests/AnsiArchiveAudit.Tests.js ./Tests/ColorScriptAnalysis.Tests.js",
     "test:coverage": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1 -Verbosity Normal",
     "test:coverage:ci": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1 -CI -Verbosity Minimal",
     "test:coverage:detailed": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1 -Verbosity Detailed",

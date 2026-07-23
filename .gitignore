@@ -455,3 +455,5 @@ testResults.nunit.xml
 todo.md
 .lychee.report.md
 .lycheecache
+.playwright-cli/
+output/
