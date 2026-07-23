@@ -56,7 +56,7 @@ Describe 'Curated ANSI artwork provenance' {
                 }
                 if ($entry.MetadataSource -eq '16colors-api-raw-fallback') {
                     $entry.ArchiveSha256 | Should -BeNullOrEmpty
-                    $entry.ArchiveAvailability | Should -Match '^(?:The official 16colors archive was unavailable|The audit intentionally did not retain the disproportionately large official ZIP)'
+                    $entry.ArchiveAvailability | Should -Match '^(?:The official 16colors archive was unavailable|The audit intentionally did not retain the disproportionately large official ZIP|The 16colors API did not supply a ZIP filename)'
                     $entry.SourceRevision | Should -Be "raw-sha256:$($entry.SourceSha256)"
                 }
                 else {

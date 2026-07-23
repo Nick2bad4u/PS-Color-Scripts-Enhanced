@@ -1,0 +1,54 @@
+﻿# Converted from: is-kaasu.ans
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/27inch07/raw/is-kaasu.ans
+# Source Revision: archive-sha256:5c4b66e1867678e92d098b0a815f319c9061dad195e5c4fab9231a0e93c34c5d
+# Source SHA-256: 888852032e049a711289bfec43d47e94c75b4976aa06ee6c9d77ec1d7bd1c249
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: is-kaasu.ans by Prosthesis (27inch07); released in 27inch07 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Lines: 1-43
+# Columns: 1-80
+
+Write-Host '
+
+
+
+
+
+                                      [33m▀ [0;1;33;43m░░[0m
+                                      [33m▀[0;1;33;43m░░▒[0;1;33;40m▀[0m        [1;30m▄[0m
+                               [34m  [0;37m▄▄[0;1;37;47m▄▄██▓[0;1;37;40m▄[0m
+                                ▐[1;47m███[0;1;40m▀▀█▀ ▄[0m   █   ▄
+                                 [1m▀▄ ▄▀[0m [1m▄[0m     ▌ ▄
+                                   [1m▀ ▄▀[0m     ▄[1;47m▄[0m▀
+                                    [1m▀[0m    [1m▄[0;1;47m▄█[0;1;40m▀[0;1;47m▀[0m
+                                    ▐[1m▄▄█▀▀[0m▀
+                              [34m [0;1;30m▄▄[0m ▀▀
+               [1;31m27INCH[0m
+           [1;31m [0m   ▄▄▄▄▄ ▄▄▄▄▄ ▄▄▄▄▄ ▄▄▄▄  ▄▄▄▄▄ ▄   ▄ ▄▄▄▄ ▄▄▄▄  [1;32m▄[0m ▄▄▄▄
+               █   █ █   █ █   █ █       █   █   █ █    █     [1;32m▄[0m █
+               █ ▀▀▀ █ ▀█▀ █ [1;32m [0m █ ▀▀▀▀█   █   █▄▄▄█ █▀▀  ▀▀▀▀█ [1;32m█[0m ▀▀▀▀█
+               █     █  ▀▄ █▄▄▄█  ▄▄▄█   █   █   █ █▄▄▄  ▄▄▄█ [1;32m█[0m  ▄▄▄█
+
+          [1;31m    [0m [1;31m|[0m DOWN BELOW [1;31m|[0m DOWN BELOW[1;31m [0m [1;31m|[0m DOWN BELOW [1;31m|[0m DOWN BELOW [1;31m|[0m
+
+                                  [1;30mterrifying things[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'

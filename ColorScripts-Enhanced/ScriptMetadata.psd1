@@ -74,6 +74,249 @@
         )
 
         Artistic        = @(
+            '16c-antifa-01-zv-afriot-part01',
+            '16c-antifa-01-zv-afriot-part02',
+            '16c-antifa-01-zv-afriot-part03',
+            '16c-antifa-01-zv-afriot-part04',
+            '16c-crisis8-jp-gym2',
+            '16c-crisis8-kf-evo1-part01',
+            '16c-crisis8-kf-evo1-part02',
+            '16c-crisis8-kf-gy',
+            '16c-crisis8-us-mtx',
+            '16c-crisis8-us-myth-part01',
+            '16c-crisis8-us-myth-part02',
+            '16c-crisis8-us-myth-part03',
+            '16c-crisis9-gj-holdup-part01',
+            '16c-crisis9-gj-holdup-part02',
+            '16c-crisis9-us-dist-part01',
+            '16c-crisis9-us-dist-part02',
+            '16c-crisis9-us-dist-part03',
+            '16c-crisis9-us-dist-part04',
+            '16c-mimic81-l-jbk2-part01',
+            '16c-mimic81-l-jbk2-part02',
+            '16c-mimic81-l-jbk2-part03',
+            '16c-rmrs-56-dvn-ani1',
+            '16c-sac-33-w0-aiu-part01',
+            '16c-sac-33-w0-aiu-part02',
+            '16c-sac-33-w0-aiu-part03',
+            '16c-sac-33-w0-aiu-part04',
+            '16c-sadist05-avg-27g',
+            '16c-sadist05-sph-affe',
+            '16c-sadist05-sph-htc-part01',
+            '16c-sadist05-sph-htc-part02',
+            '16c-sadist05-sph-mon-part01',
+            '16c-sadist05-sph-mon-part02',
+            '16c-sadist05-us-54d1-part01',
+            '16c-sadist05-us-54d1-part02',
+            '16c-sadist05-us-wods-part01',
+            '16c-sadist05-us-wods-part02',
+            '16c-sadist05-us-wods-part03',
+            '16c-sadist05-us-wods-part04',
+            '16c-sadist05-vrg-302-part01',
+            '16c-sadist05-vrg-302-part02',
+            '16c-sadist05-vrg-402-part01',
+            '16c-sadist05-vrg-402-part02',
+            '16c-sadist05-vrg-502-part01',
+            '16c-sadist05-vrg-502-part02',
+            '16c-sadist05-vrg-802-part01',
+            '16c-sadist05-vrg-802-part02',
+            '16c-sadist05-vrg-802-part03',
+            '16c-sadist05-vrg-902-part01',
+            '16c-sadist05-vrg-902-part02',
+            '16c-sense22-43-outer-part01',
+            '16c-sense22-43-outer-part02',
+            '16c-sense22-43-outer-part03',
+            '16c-sense22-43-outer-part04',
+            '16c-sense22-43-outer-part05',
+            '16c-sense22-43-outer-part06',
+            '16c-sense22-avg-bmai-part01',
+            '16c-sense22-avg-bmai-part02',
+            '16c-sense22-avg-frc',
+            '16c-sense22-us-cold2-part01',
+            '16c-sense22-us-cold2-part02',
+            '16c-sense22-us-cold2-part03',
+            '16c-sense22-us-cold2-part04',
+            '16c-sense22-zv-lud500-part01',
+            '16c-sense22-zv-lud500-part02',
+            '16c-sense22-zv-lud500-part03',
+            '16c-sense22-zv-lud500-part04',
+            '16c-sense22-zv-lud500-part05',
+            '16c-sense22-zv-lud500-part06',
+            '16c-sense22-zv-lud500-part07',
+            '16c-sense22-zv-lud500-part08',
+            '16c-sense22-zv-lud500-part09',
+            '16c-sense22-zv-lud500-part10',
+            '16c-sense22-zv-lud500-part11',
+            '16c-sense23-avg-lud1-part01',
+            '16c-sense23-avg-lud1-part02',
+            '16c-sense23-avg-lud1-part03',
+            '16c-sense23-m0-roo-part01',
+            '16c-sense23-m0-roo-part02',
+            '16c-sense23-m0-roo-part03',
+            '16c-sense24-sph-e99-part01',
+            '16c-sense24-sph-e99-part02',
+            '16c-sense24-tnt-avec',
+            '16c-sense24-us-elf-part01',
+            '16c-sense24-us-elf-part02',
+            '16c-sense24-us-elf-part03',
+            '16c-sense24-us-evk-part01',
+            '16c-sense24-us-evk-part02',
+            '16c-sense24-us-wick-part01',
+            '16c-sense24-us-wick-part02',
+            '16c-sense24-us-wick-part03',
+            '16c-sense24-zv-colly-part01',
+            '16c-sense24-zv-colly-part02',
+            '16c-sense24-zv-colly-part03',
+            '16c-sense24-zv-colly-part04',
+            '16c-sense24-zv-colly-part05',
+            '16c-sense24-zv-colly-part06',
+            '16c-tnt-010-f543-bye',
+            '16c-tnt-010-n4-bthur',
+            '16c-tnt-010-sp-kia-part01',
+            '16c-tnt-010-sp-kia-part02',
+            '16c-tnt-010-sp-kia-part03',
+            '16c-tnt-010-sp-kia-part04',
+            '16c-tnt-010-us-bzr-part01',
+            '16c-tnt-010-us-bzr-part02',
+            '16c-tnt-010-us-bzr-part03',
+            '16c-tnt-010-us-bzr-part04',
+            '16c-tnt-010-us-switch-part01',
+            '16c-tnt-010-us-switch-part02',
+            '16c-viix2i-viix2-zo-tl2-part01',
+            '16c-viix2i-viix2-zo-tl2-part02',
+            '16c-viix2i-viix2-zo-tl2-part03',
+            '16c-viix2i-viix2-zo-tl2-part04',
+            '16c-viix2i-viix2-zo-tl2-part05',
+            '16c-viix2i-viix2-zo-tl2-part06',
+            '16c-viix2ii-viix2-avg-arts-part01',
+            '16c-viix2ii-viix2-avg-arts-part02',
+            '16c-viix2ii-viix2-avg-arts-part03',
+            '16c-viix2ii-viix2-sph-horse-part01',
+            '16c-viix2ii-viix2-sph-horse-part02',
+            '16c-viix2ii-viix2-sph-wicked-part01',
+            '16c-viix2ii-viix2-sph-wicked-part02',
+            '16c-viix2ii-viix2-sph-wicked-part03',
+            '16c-viix2ii-viix2-xxx-k1-part01',
+            '16c-viix2ii-viix2-xxx-k1-part02',
+            '16c-12317-gdr-123',
+            '16c-12317-smp-123-part01',
+            '16c-12317-smp-123-part02',
+            '16c-12317-smp-std-part01',
+            '16c-12317-smp-std-part02',
+            '16c-27inch06-4d-911',
+            '16c-27inch06-k1-satan-part01',
+            '16c-27inch06-k1-satan-part02',
+            '16c-27inch06-k1-satan-part03',
+            '16c-27inch06-k1-satan-part04',
+            '16c-27inch06-k1-satan-part05',
+            '16c-27inch06-k1-satan-part06',
+            '16c-27inch06-we-fish-part01',
+            '16c-27inch06-we-fish-part02',
+            '16c-27inch06-we-fish-part03',
+            '16c-27inch06-we-sword-part01',
+            '16c-27inch06-we-sword-part02',
+            '16c-27inch06-we-sword-part03',
+            '16c-27inch06-we-sword-part04',
+            '16c-27inch06-we-sword-part05',
+            '16c-27inch07-is-kaasu-part01',
+            '16c-27inch07-is-kaasu-part02',
+            '16c-27inch07-is-kaasu-part03',
+            '16c-27inch07-is-kaasu-part04',
+            '16c-27inch07-tnt-9ine-part01',
+            '16c-27inch07-tnt-9ine-part02',
+            '16c-27inch07-we-candy-part01',
+            '16c-27inch07-we-candy-part02',
+            '16c-27inch07-we-candy-part03',
+            '16c-27inch07-we-code-part01',
+            '16c-27inch07-we-code-part02',
+            '16c-27inch07-we-code-part03',
+            '16c-27inch08-avg-001-part01',
+            '16c-27inch08-avg-001-part02',
+            '16c-27inch08-cg-cf',
+            '16c-27inch08-mx-sol-part01',
+            '16c-27inch08-mx-sol-part02',
+            '16c-27inch08-mx-sol-part03',
+            '16c-27inch08-we-123',
+            '16c-27inch08-we-bronx-part01',
+            '16c-27inch08-we-bronx-part02',
+            '16c-27inch08-we-cyde-part01',
+            '16c-27inch08-we-cyde-part02',
+            '16c-27inch08-we-ot3-part01',
+            '16c-27inch08-we-ot3-part02',
+            '16c-danone003-us-abs-part01',
+            '16c-danone003-us-abs-part02',
+            '16c-danone003-us-abs-part03',
+            '16c-mimic67-ko-thurs-part01',
+            '16c-mimic67-ko-thurs-part02',
+            '16c-mimic73-ak-mmc73-part01',
+            '16c-mimic73-ak-mmc73-part02',
+            '16c-sac-31-nr-flipx-part01',
+            '16c-sac-31-nr-flipx-part02',
+            '16c-sense-18-sph-cab',
+            '16c-sense-18-us-die',
+            '16c-sense-19-avg-non2',
+            '16c-sense-19-k-warder-part01',
+            '16c-sense-19-k-warder-part02',
+            '16c-sense-19-ns-nam-part01',
+            '16c-sense-19-ns-nam-part02',
+            '16c-sense-19-ns-nam-part03',
+            '16c-sense-19-ns-nam-part04',
+            '16c-sense-19-ns-nam-part05',
+            '16c-sense-19-us-bi-part01',
+            '16c-sense-19-us-bi-part02',
+            '16c-sense-19-us-surrl-part01',
+            '16c-sense-19-us-surrl-part02',
+            '16c-sense-20-ts-sns00-part01',
+            '16c-sense-20-ts-sns00-part02',
+            '16c-sense-20-ts-sns00-part03',
+            '16c-sense-20-us-namis-part01',
+            '16c-sense-20-us-namis-part02',
+            '16c-sense-20-us-namis-part03',
+            '16c-sense-20-us-namis-part04',
+            '16c-sense-21-ns-ev0ke-part01',
+            '16c-sense-21-ns-ev0ke-part02',
+            '16c-sense-21-ret-sns5-part01',
+            '16c-sense-21-ret-sns5-part02',
+            '16c-sense-21-tnt43cot-part01',
+            '16c-sense-21-tnt43cot-part02',
+            '16c-sense-21-tnt43cot-part03',
+            '16c-sense-21-us-sns',
+            '16c-tnt-004-zv-911-part01',
+            '16c-tnt-004-zv-911-part02',
+            '16c-tnt-004-zv-911-part03',
+            '16c-tnt-004-zv-911-part04',
+            '16c-tnt-004-zv-vmc-part01',
+            '16c-tnt-004-zv-vmc-part02',
+            '16c-tnt-004-zv-vmc-part03',
+            '16c-tnt-005-re-spa',
+            '16c-tnt-005-u3-gfce-part01',
+            '16c-tnt-005-u3-gfce-part02',
+            '16c-tnt-006-ts-tnt00',
+            '16c-tnt-008-sp-uneek-part01',
+            '16c-tnt-008-sp-uneek-part02',
+            '16c-tnt-008-sp-uneek-part03',
+            '16c-tnt-008-sp-uneek-part04',
+            '16c-tnt-008-us-evol-part01',
+            '16c-tnt-008-us-evol-part02',
+            '16c-tnt-008-us-evol-part03',
+            '16c-tnt-008-us-evol-part04',
+            '16c-tnt-008-us-evol-part05',
+            '16c-tnt-008-zv-euph-part01',
+            '16c-tnt-008-zv-euph-part02',
+            '16c-tnt-008-zv-euph-part03',
+            '16c-tnt-008-zv-evol-part01',
+            '16c-tnt-008-zv-evol-part02',
+            '16c-tnt-008-zv-evol-part03',
+            '16c-tnt-008-zv-evol-part04',
+            '16c-tnt-008-zv-haz2-part01',
+            '16c-tnt-008-zv-haz2-part02',
+            '16c-tnt-009-sp-madd-part01',
+            '16c-tnt-009-sp-madd-part02',
+            '16c-tnt-009-sp-madd-part03',
+            '16c-tnt-009-sp-madd-part04',
+            '16c-tnt-009-zv-lud-part01',
+            '16c-tnt-009-zv-lud-part02',
+            '16c-tnt-009-zv-lud-part03',
             '16c-blocktronics-codename-chris-wirth-70-ansi',
             '16c-blocktronics-codename-chris-wirth-70-sense',
             '16c-blocktronics-codename-chris-wirth-avg-evoke',
@@ -8294,6 +8537,249 @@
         )
 
         ASCIIArt        = @(
+            '16c-antifa-01-zv-afriot-part01',
+            '16c-antifa-01-zv-afriot-part02',
+            '16c-antifa-01-zv-afriot-part03',
+            '16c-antifa-01-zv-afriot-part04',
+            '16c-crisis8-jp-gym2',
+            '16c-crisis8-kf-evo1-part01',
+            '16c-crisis8-kf-evo1-part02',
+            '16c-crisis8-kf-gy',
+            '16c-crisis8-us-mtx',
+            '16c-crisis8-us-myth-part01',
+            '16c-crisis8-us-myth-part02',
+            '16c-crisis8-us-myth-part03',
+            '16c-crisis9-gj-holdup-part01',
+            '16c-crisis9-gj-holdup-part02',
+            '16c-crisis9-us-dist-part01',
+            '16c-crisis9-us-dist-part02',
+            '16c-crisis9-us-dist-part03',
+            '16c-crisis9-us-dist-part04',
+            '16c-mimic81-l-jbk2-part01',
+            '16c-mimic81-l-jbk2-part02',
+            '16c-mimic81-l-jbk2-part03',
+            '16c-rmrs-56-dvn-ani1',
+            '16c-sac-33-w0-aiu-part01',
+            '16c-sac-33-w0-aiu-part02',
+            '16c-sac-33-w0-aiu-part03',
+            '16c-sac-33-w0-aiu-part04',
+            '16c-sadist05-avg-27g',
+            '16c-sadist05-sph-affe',
+            '16c-sadist05-sph-htc-part01',
+            '16c-sadist05-sph-htc-part02',
+            '16c-sadist05-sph-mon-part01',
+            '16c-sadist05-sph-mon-part02',
+            '16c-sadist05-us-54d1-part01',
+            '16c-sadist05-us-54d1-part02',
+            '16c-sadist05-us-wods-part01',
+            '16c-sadist05-us-wods-part02',
+            '16c-sadist05-us-wods-part03',
+            '16c-sadist05-us-wods-part04',
+            '16c-sadist05-vrg-302-part01',
+            '16c-sadist05-vrg-302-part02',
+            '16c-sadist05-vrg-402-part01',
+            '16c-sadist05-vrg-402-part02',
+            '16c-sadist05-vrg-502-part01',
+            '16c-sadist05-vrg-502-part02',
+            '16c-sadist05-vrg-802-part01',
+            '16c-sadist05-vrg-802-part02',
+            '16c-sadist05-vrg-802-part03',
+            '16c-sadist05-vrg-902-part01',
+            '16c-sadist05-vrg-902-part02',
+            '16c-sense22-43-outer-part01',
+            '16c-sense22-43-outer-part02',
+            '16c-sense22-43-outer-part03',
+            '16c-sense22-43-outer-part04',
+            '16c-sense22-43-outer-part05',
+            '16c-sense22-43-outer-part06',
+            '16c-sense22-avg-bmai-part01',
+            '16c-sense22-avg-bmai-part02',
+            '16c-sense22-avg-frc',
+            '16c-sense22-us-cold2-part01',
+            '16c-sense22-us-cold2-part02',
+            '16c-sense22-us-cold2-part03',
+            '16c-sense22-us-cold2-part04',
+            '16c-sense22-zv-lud500-part01',
+            '16c-sense22-zv-lud500-part02',
+            '16c-sense22-zv-lud500-part03',
+            '16c-sense22-zv-lud500-part04',
+            '16c-sense22-zv-lud500-part05',
+            '16c-sense22-zv-lud500-part06',
+            '16c-sense22-zv-lud500-part07',
+            '16c-sense22-zv-lud500-part08',
+            '16c-sense22-zv-lud500-part09',
+            '16c-sense22-zv-lud500-part10',
+            '16c-sense22-zv-lud500-part11',
+            '16c-sense23-avg-lud1-part01',
+            '16c-sense23-avg-lud1-part02',
+            '16c-sense23-avg-lud1-part03',
+            '16c-sense23-m0-roo-part01',
+            '16c-sense23-m0-roo-part02',
+            '16c-sense23-m0-roo-part03',
+            '16c-sense24-sph-e99-part01',
+            '16c-sense24-sph-e99-part02',
+            '16c-sense24-tnt-avec',
+            '16c-sense24-us-elf-part01',
+            '16c-sense24-us-elf-part02',
+            '16c-sense24-us-elf-part03',
+            '16c-sense24-us-evk-part01',
+            '16c-sense24-us-evk-part02',
+            '16c-sense24-us-wick-part01',
+            '16c-sense24-us-wick-part02',
+            '16c-sense24-us-wick-part03',
+            '16c-sense24-zv-colly-part01',
+            '16c-sense24-zv-colly-part02',
+            '16c-sense24-zv-colly-part03',
+            '16c-sense24-zv-colly-part04',
+            '16c-sense24-zv-colly-part05',
+            '16c-sense24-zv-colly-part06',
+            '16c-tnt-010-f543-bye',
+            '16c-tnt-010-n4-bthur',
+            '16c-tnt-010-sp-kia-part01',
+            '16c-tnt-010-sp-kia-part02',
+            '16c-tnt-010-sp-kia-part03',
+            '16c-tnt-010-sp-kia-part04',
+            '16c-tnt-010-us-bzr-part01',
+            '16c-tnt-010-us-bzr-part02',
+            '16c-tnt-010-us-bzr-part03',
+            '16c-tnt-010-us-bzr-part04',
+            '16c-tnt-010-us-switch-part01',
+            '16c-tnt-010-us-switch-part02',
+            '16c-viix2i-viix2-zo-tl2-part01',
+            '16c-viix2i-viix2-zo-tl2-part02',
+            '16c-viix2i-viix2-zo-tl2-part03',
+            '16c-viix2i-viix2-zo-tl2-part04',
+            '16c-viix2i-viix2-zo-tl2-part05',
+            '16c-viix2i-viix2-zo-tl2-part06',
+            '16c-viix2ii-viix2-avg-arts-part01',
+            '16c-viix2ii-viix2-avg-arts-part02',
+            '16c-viix2ii-viix2-avg-arts-part03',
+            '16c-viix2ii-viix2-sph-horse-part01',
+            '16c-viix2ii-viix2-sph-horse-part02',
+            '16c-viix2ii-viix2-sph-wicked-part01',
+            '16c-viix2ii-viix2-sph-wicked-part02',
+            '16c-viix2ii-viix2-sph-wicked-part03',
+            '16c-viix2ii-viix2-xxx-k1-part01',
+            '16c-viix2ii-viix2-xxx-k1-part02',
+            '16c-12317-gdr-123',
+            '16c-12317-smp-123-part01',
+            '16c-12317-smp-123-part02',
+            '16c-12317-smp-std-part01',
+            '16c-12317-smp-std-part02',
+            '16c-27inch06-4d-911',
+            '16c-27inch06-k1-satan-part01',
+            '16c-27inch06-k1-satan-part02',
+            '16c-27inch06-k1-satan-part03',
+            '16c-27inch06-k1-satan-part04',
+            '16c-27inch06-k1-satan-part05',
+            '16c-27inch06-k1-satan-part06',
+            '16c-27inch06-we-fish-part01',
+            '16c-27inch06-we-fish-part02',
+            '16c-27inch06-we-fish-part03',
+            '16c-27inch06-we-sword-part01',
+            '16c-27inch06-we-sword-part02',
+            '16c-27inch06-we-sword-part03',
+            '16c-27inch06-we-sword-part04',
+            '16c-27inch06-we-sword-part05',
+            '16c-27inch07-is-kaasu-part01',
+            '16c-27inch07-is-kaasu-part02',
+            '16c-27inch07-is-kaasu-part03',
+            '16c-27inch07-is-kaasu-part04',
+            '16c-27inch07-tnt-9ine-part01',
+            '16c-27inch07-tnt-9ine-part02',
+            '16c-27inch07-we-candy-part01',
+            '16c-27inch07-we-candy-part02',
+            '16c-27inch07-we-candy-part03',
+            '16c-27inch07-we-code-part01',
+            '16c-27inch07-we-code-part02',
+            '16c-27inch07-we-code-part03',
+            '16c-27inch08-avg-001-part01',
+            '16c-27inch08-avg-001-part02',
+            '16c-27inch08-cg-cf',
+            '16c-27inch08-mx-sol-part01',
+            '16c-27inch08-mx-sol-part02',
+            '16c-27inch08-mx-sol-part03',
+            '16c-27inch08-we-123',
+            '16c-27inch08-we-bronx-part01',
+            '16c-27inch08-we-bronx-part02',
+            '16c-27inch08-we-cyde-part01',
+            '16c-27inch08-we-cyde-part02',
+            '16c-27inch08-we-ot3-part01',
+            '16c-27inch08-we-ot3-part02',
+            '16c-danone003-us-abs-part01',
+            '16c-danone003-us-abs-part02',
+            '16c-danone003-us-abs-part03',
+            '16c-mimic67-ko-thurs-part01',
+            '16c-mimic67-ko-thurs-part02',
+            '16c-mimic73-ak-mmc73-part01',
+            '16c-mimic73-ak-mmc73-part02',
+            '16c-sac-31-nr-flipx-part01',
+            '16c-sac-31-nr-flipx-part02',
+            '16c-sense-18-sph-cab',
+            '16c-sense-18-us-die',
+            '16c-sense-19-avg-non2',
+            '16c-sense-19-k-warder-part01',
+            '16c-sense-19-k-warder-part02',
+            '16c-sense-19-ns-nam-part01',
+            '16c-sense-19-ns-nam-part02',
+            '16c-sense-19-ns-nam-part03',
+            '16c-sense-19-ns-nam-part04',
+            '16c-sense-19-ns-nam-part05',
+            '16c-sense-19-us-bi-part01',
+            '16c-sense-19-us-bi-part02',
+            '16c-sense-19-us-surrl-part01',
+            '16c-sense-19-us-surrl-part02',
+            '16c-sense-20-ts-sns00-part01',
+            '16c-sense-20-ts-sns00-part02',
+            '16c-sense-20-ts-sns00-part03',
+            '16c-sense-20-us-namis-part01',
+            '16c-sense-20-us-namis-part02',
+            '16c-sense-20-us-namis-part03',
+            '16c-sense-20-us-namis-part04',
+            '16c-sense-21-ns-ev0ke-part01',
+            '16c-sense-21-ns-ev0ke-part02',
+            '16c-sense-21-ret-sns5-part01',
+            '16c-sense-21-ret-sns5-part02',
+            '16c-sense-21-tnt43cot-part01',
+            '16c-sense-21-tnt43cot-part02',
+            '16c-sense-21-tnt43cot-part03',
+            '16c-sense-21-us-sns',
+            '16c-tnt-004-zv-911-part01',
+            '16c-tnt-004-zv-911-part02',
+            '16c-tnt-004-zv-911-part03',
+            '16c-tnt-004-zv-911-part04',
+            '16c-tnt-004-zv-vmc-part01',
+            '16c-tnt-004-zv-vmc-part02',
+            '16c-tnt-004-zv-vmc-part03',
+            '16c-tnt-005-re-spa',
+            '16c-tnt-005-u3-gfce-part01',
+            '16c-tnt-005-u3-gfce-part02',
+            '16c-tnt-006-ts-tnt00',
+            '16c-tnt-008-sp-uneek-part01',
+            '16c-tnt-008-sp-uneek-part02',
+            '16c-tnt-008-sp-uneek-part03',
+            '16c-tnt-008-sp-uneek-part04',
+            '16c-tnt-008-us-evol-part01',
+            '16c-tnt-008-us-evol-part02',
+            '16c-tnt-008-us-evol-part03',
+            '16c-tnt-008-us-evol-part04',
+            '16c-tnt-008-us-evol-part05',
+            '16c-tnt-008-zv-euph-part01',
+            '16c-tnt-008-zv-euph-part02',
+            '16c-tnt-008-zv-euph-part03',
+            '16c-tnt-008-zv-evol-part01',
+            '16c-tnt-008-zv-evol-part02',
+            '16c-tnt-008-zv-evol-part03',
+            '16c-tnt-008-zv-evol-part04',
+            '16c-tnt-008-zv-haz2-part01',
+            '16c-tnt-008-zv-haz2-part02',
+            '16c-tnt-009-sp-madd-part01',
+            '16c-tnt-009-sp-madd-part02',
+            '16c-tnt-009-sp-madd-part03',
+            '16c-tnt-009-sp-madd-part04',
+            '16c-tnt-009-zv-lud-part01',
+            '16c-tnt-009-zv-lud-part02',
+            '16c-tnt-009-zv-lud-part03',
             '16c-blocktronics-codename-chris-wirth-70-ansi',
             '16c-blocktronics-codename-chris-wirth-70-sense',
             '16c-blocktronics-codename-chris-wirth-avg-evoke',
@@ -13952,6 +14438,249 @@
     )
 
     Tags         = @{
+        '16c-antifa-01-zv-afriot-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'antifa01', '16colors', 'SplitPart')
+        '16c-antifa-01-zv-afriot-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'antifa01', '16colors', 'SplitPart')
+        '16c-antifa-01-zv-afriot-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'antifa01', '16colors', 'SplitPart')
+        '16c-antifa-01-zv-afriot-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'antifa01', '16colors', 'SplitPart')
+        '16c-crisis8-jp-gym2' = @('ANSI', 'ASCIIArt', 'Artistic', 'jackphlash', 'crisis', 'crisis8', '16colors')
+        '16c-crisis8-kf-evo1-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'KidFrost', 'crisis8', '16colors', 'SplitPart')
+        '16c-crisis8-kf-evo1-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'KidFrost', 'crisis8', '16colors', 'SplitPart')
+        '16c-crisis8-kf-gy' = @('ANSI', 'ASCIIArt', 'Artistic', 'KidFrost', 'crisis8', '16colors')
+        '16c-crisis8-us-mtx' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvgRazghaul', 'crisis8', '16colors')
+        '16c-crisis8-us-myth-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionGrymmjack', 'crisis8', '16colors', 'SplitPart')
+        '16c-crisis8-us-myth-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionGrymmjack', 'crisis8', '16colors', 'SplitPart')
+        '16c-crisis8-us-myth-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionGrymmjack', 'crisis8', '16colors', 'SplitPart')
+        '16c-crisis9-gj-holdup-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Grymmjack', 'crisis9', '16colors', 'SplitPart')
+        '16c-crisis9-gj-holdup-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Grymmjack', 'crisis9', '16colors', 'SplitPart')
+        '16c-crisis9-us-dist-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoFatPacifistKidFrost', 'crisis9', '16colors', 'SplitPart')
+        '16c-crisis9-us-dist-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoFatPacifistKidFrost', 'crisis9', '16colors', 'SplitPart')
+        '16c-crisis9-us-dist-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoFatPacifistKidFrost', 'crisis9', '16colors', 'SplitPart')
+        '16c-crisis9-us-dist-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoFatPacifistKidFrost', 'crisis9', '16colors', 'SplitPart')
+        '16c-mimic81-l-jbk2-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Lame', 'mimic81', '16colors', 'SplitPart')
+        '16c-mimic81-l-jbk2-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Lame', 'mimic81', '16colors', 'SplitPart')
+        '16c-mimic81-l-jbk2-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Lame', 'mimic81', '16colors', 'SplitPart')
+        '16c-rmrs-56-dvn-ani1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Devin', 'rmrs56', '16colors')
+        '16c-sac-33-w0-aiu-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Webpige0', 'sac33', '16colors', 'SplitPart')
+        '16c-sac-33-w0-aiu-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Webpige0', 'sac33', '16colors', 'SplitPart')
+        '16c-sac-33-w0-aiu-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Webpige0', 'sac33', '16colors', 'SplitPart')
+        '16c-sac-33-w0-aiu-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Webpige0', 'sac33', '16colors', 'SplitPart')
+        '16c-sadist05-avg-27g' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'sadist05', '16colors')
+        '16c-sadist05-sph-affe' = @('ANSI', 'ASCIIArt', 'Artistic', 'sephiroth', 'sadist', 'sadist05', '16colors')
+        '16c-sadist05-sph-htc-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sephiroth', 'Sadist', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-sph-htc-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sephiroth', 'Sadist', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-sph-mon-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sephiroth', 'Sadist', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-sph-mon-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sephiroth', 'Sadist', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-us-54d1-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'MixelpicSephiroth', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-us-54d1-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'MixelpicSephiroth', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-us-wods-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'KeetarSephiroth', 'Sadist', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-us-wods-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'KeetarSephiroth', 'Sadist', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-us-wods-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'KeetarSephiroth', 'Sadist', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-us-wods-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'KeetarSephiroth', 'Sadist', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-vrg-302-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'vaRgr', 'SADIST', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-vrg-302-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'vaRgr', 'SADIST', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-vrg-402-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Vargr', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-vrg-402-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Vargr', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-vrg-502-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Vargr', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-vrg-502-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Vargr', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-vrg-802-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Vargr', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-vrg-802-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Vargr', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-vrg-802-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Vargr', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-vrg-902-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'vaRgr', 'Sadist', 'sadist05', '16colors', 'SplitPart')
+        '16c-sadist05-vrg-902-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'vaRgr', 'Sadist', 'sadist05', '16colors', 'SplitPart')
+        '16c-sense22-43-outer-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Aesthetic', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-43-outer-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Aesthetic', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-43-outer-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Aesthetic', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-43-outer-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Aesthetic', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-43-outer-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'Aesthetic', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-43-outer-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'Aesthetic', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-avg-bmai-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-avg-bmai-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-avg-frc' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'sense22', '16colors')
+        '16c-sense22-us-cold2-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'FusionAvengingAngel', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-us-cold2-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'FusionAvengingAngel', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-us-cold2-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'FusionAvengingAngel', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-us-cold2-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'FusionAvengingAngel', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-zv-lud500-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-zv-lud500-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-zv-lud500-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-zv-lud500-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-zv-lud500-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-zv-lud500-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-zv-lud500-part07' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-zv-lud500-part08' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-zv-lud500-part09' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-zv-lud500-part10' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense22', '16colors', 'SplitPart')
+        '16c-sense22-zv-lud500-part11' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense22', '16colors', 'SplitPart')
+        '16c-sense23-avg-lud1-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'sense23', '16colors', 'SplitPart')
+        '16c-sense23-avg-lud1-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'sense23', '16colors', 'SplitPart')
+        '16c-sense23-avg-lud1-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'sense23', '16colors', 'SplitPart')
+        '16c-sense23-m0-roo-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'M0lo', 'sense23', '16colors', 'SplitPart')
+        '16c-sense23-m0-roo-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'M0lo', 'sense23', '16colors', 'SplitPart')
+        '16c-sense23-m0-roo-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'M0lo', 'sense23', '16colors', 'SplitPart')
+        '16c-sense24-sph-e99-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sephiroth', 'sadistsense', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-sph-e99-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sephiroth', 'sadistsense', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-tnt-avec' = @('ANSI', 'ASCIIArt', 'Artistic', 'Taintedx', 'sense24', '16colors')
+        '16c-sense24-us-elf-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngel', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-us-elf-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngel', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-us-elf-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngel', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-us-evk-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'SimonkingCeelowAnsichristAvengingAngel', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-us-evk-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'SimonkingCeelowAnsichristAvengingAngel', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-us-wick-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngel', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-us-wick-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngel', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-us-wick-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngel', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-zv-colly-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-zv-colly-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-zv-colly-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-zv-colly-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-zv-colly-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense24', '16colors', 'SplitPart')
+        '16c-sense24-zv-colly-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'sense24', '16colors', 'SplitPart')
+        '16c-tnt-010-f543-bye' = @('ANSI', 'ASCIIArt', 'Artistic', 'Fusion', 'tnt010', '16colors')
+        '16c-tnt-010-n4-bthur' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sodium', 'tnt010', '16colors')
+        '16c-tnt-010-sp-kia-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Skypager', 'tnt010', '16colors', 'SplitPart')
+        '16c-tnt-010-sp-kia-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Skypager', 'tnt010', '16colors', 'SplitPart')
+        '16c-tnt-010-sp-kia-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Skypager', 'tnt010', '16colors', 'SplitPart')
+        '16c-tnt-010-sp-kia-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Skypager', 'tnt010', '16colors', 'SplitPart')
+        '16c-tnt-010-us-bzr-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalSkypager', 'tnt010', '16colors', 'SplitPart')
+        '16c-tnt-010-us-bzr-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalSkypager', 'tnt010', '16colors', 'SplitPart')
+        '16c-tnt-010-us-bzr-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalSkypager', 'tnt010', '16colors', 'SplitPart')
+        '16c-tnt-010-us-bzr-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalSkypager', 'tnt010', '16colors', 'SplitPart')
+        '16c-tnt-010-us-switch-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AestheticZerovisionSomberlain', 'tnt010', '16colors', 'SplitPart')
+        '16c-tnt-010-us-switch-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AestheticZerovisionSomberlain', 'tnt010', '16colors', 'SplitPart')
+        '16c-viix2i-viix2-zo-tl2-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'viix2i', '16colors', 'SplitPart')
+        '16c-viix2i-viix2-zo-tl2-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'viix2i', '16colors', 'SplitPart')
+        '16c-viix2i-viix2-zo-tl2-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'viix2i', '16colors', 'SplitPart')
+        '16c-viix2i-viix2-zo-tl2-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'viix2i', '16colors', 'SplitPart')
+        '16c-viix2i-viix2-zo-tl2-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'viix2i', '16colors', 'SplitPart')
+        '16c-viix2i-viix2-zo-tl2-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'viix2i', '16colors', 'SplitPart')
+        '16c-viix2ii-viix2-avg-arts-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'viix2ii', '16colors', 'SplitPart')
+        '16c-viix2ii-viix2-avg-arts-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'viix2ii', '16colors', 'SplitPart')
+        '16c-viix2ii-viix2-avg-arts-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'viix2ii', '16colors', 'SplitPart')
+        '16c-viix2ii-viix2-sph-horse-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'sephiroth', 'viix2', 'viix2ii', '16colors', 'SplitPart')
+        '16c-viix2ii-viix2-sph-horse-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'sephiroth', 'viix2', 'viix2ii', '16colors', 'SplitPart')
+        '16c-viix2ii-viix2-sph-wicked-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sephiroth', 'viiX2', 'viix2ii', '16colors', 'SplitPart')
+        '16c-viix2ii-viix2-sph-wicked-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sephiroth', 'viiX2', 'viix2ii', '16colors', 'SplitPart')
+        '16c-viix2ii-viix2-sph-wicked-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sephiroth', 'viiX2', 'viix2ii', '16colors', 'SplitPart')
+        '16c-viix2ii-viix2-xxx-k1-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalSpearEnzoAestheticTaintedx', 'viix2ii', '16colors', 'SplitPart')
+        '16c-viix2ii-viix2-xxx-k1-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalSpearEnzoAestheticTaintedx', 'viix2ii', '16colors', 'SplitPart')
+        '16c-12317-gdr-123' = @('ANSI', 'ASCIIArt', 'Artistic', 'Gravedancer', '12317', '16colors')
+        '16c-12317-smp-123-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Shrimp', '12317', '16colors', 'SplitPart')
+        '16c-12317-smp-123-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Shrimp', '12317', '16colors', 'SplitPart')
+        '16c-12317-smp-std-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Shrimp', '12317', '16colors', 'SplitPart')
+        '16c-12317-smp-std-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Shrimp', '12317', '16colors', 'SplitPart')
+        '16c-27inch06-4d-911' = @('ANSI', 'ASCIIArt', 'Artistic', 'AccessDenied', '27inch06', '16colors')
+        '16c-27inch06-k1-satan-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'knocturnal', '27inch', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch06-k1-satan-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'knocturnal', '27inch', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch06-k1-satan-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'knocturnal', '27inch', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch06-k1-satan-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'knocturnal', '27inch', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch06-k1-satan-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'knocturnal', '27inch', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch06-k1-satan-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'knocturnal', '27inch', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch06-we-fish-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalAvengingAngelSpearEnzo', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch06-we-fish-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalAvengingAngelSpearEnzo', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch06-we-fish-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalAvengingAngelSpearEnzo', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch06-we-sword-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalAvengingAngelEnzoMrWrong', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch06-we-sword-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalAvengingAngelEnzoMrWrong', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch06-we-sword-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalAvengingAngelEnzoMrWrong', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch06-we-sword-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalAvengingAngelEnzoMrWrong', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch06-we-sword-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalAvengingAngelEnzoMrWrong', '27inch06', '16colors', 'SplitPart')
+        '16c-27inch07-is-kaasu-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Prosthesis', '27inch07', '16colors', 'SplitPart')
+        '16c-27inch07-is-kaasu-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Prosthesis', '27inch07', '16colors', 'SplitPart')
+        '16c-27inch07-is-kaasu-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Prosthesis', '27inch07', '16colors', 'SplitPart')
+        '16c-27inch07-is-kaasu-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Prosthesis', '27inch07', '16colors', 'SplitPart')
+        '16c-27inch07-tnt-9ine-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Tainted', '27inch07', '16colors', 'SplitPart')
+        '16c-27inch07-tnt-9ine-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Tainted', '27inch07', '16colors', 'SplitPart')
+        '16c-27inch07-we-candy-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'TaintedxEnzo', '27inch07', '16colors', 'SplitPart')
+        '16c-27inch07-we-candy-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'TaintedxEnzo', '27inch07', '16colors', 'SplitPart')
+        '16c-27inch07-we-candy-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'TaintedxEnzo', '27inch07', '16colors', 'SplitPart')
+        '16c-27inch07-we-code-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoSpear', '27inch07', '16colors', 'SplitPart')
+        '16c-27inch07-we-code-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoSpear', '27inch07', '16colors', 'SplitPart')
+        '16c-27inch07-we-code-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoSpear', '27inch07', '16colors', 'SplitPart')
+        '16c-27inch08-avg-001-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', '27inch08', '16colors', 'SplitPart')
+        '16c-27inch08-avg-001-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', '27inch08', '16colors', 'SplitPart')
+        '16c-27inch08-cg-cf' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cryogenic', '27inch08', '16colors')
+        '16c-27inch08-mx-sol-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'LordMaxxtro', '27inch08', '16colors', 'SplitPart')
+        '16c-27inch08-mx-sol-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'LordMaxxtro', '27inch08', '16colors', 'SplitPart')
+        '16c-27inch08-mx-sol-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'LordMaxxtro', '27inch08', '16colors', 'SplitPart')
+        '16c-27inch08-we-123' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAbstrakt', '27inch08', '16colors')
+        '16c-27inch08-we-bronx-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'QuasarAvgEnzo', '27inch08', '16colors', 'SplitPart')
+        '16c-27inch08-we-bronx-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'QuasarAvgEnzo', '27inch08', '16colors', 'SplitPart')
+        '16c-27inch08-we-cyde-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'TaintedAvengingAngelSavageDragon', '27inch08', '16colors', 'SplitPart')
+        '16c-27inch08-we-cyde-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'TaintedAvengingAngelSavageDragon', '27inch08', '16colors', 'SplitPart')
+        '16c-27inch08-we-ot3-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalEnzoPodsi', '27inch08', '16colors', 'SplitPart')
+        '16c-27inch08-we-ot3-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalEnzoPodsi', '27inch08', '16colors', 'SplitPart')
+        '16c-danone003-us-abs-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'NochesLuminator', 'SenseImagery', 'danone003', '16colors', 'SplitPart')
+        '16c-danone003-us-abs-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'NochesLuminator', 'SenseImagery', 'danone003', '16colors', 'SplitPart')
+        '16c-danone003-us-abs-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'NochesLuminator', 'SenseImagery', 'danone003', '16colors', 'SplitPart')
+        '16c-mimic67-ko-thurs-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Konami', 'mimic67', '16colors', 'SplitPart')
+        '16c-mimic67-ko-thurs-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Konami', 'mimic67', '16colors', 'SplitPart')
+        '16c-mimic73-ak-mmc73-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Abstrakt', 'mimic73', '16colors', 'SplitPart')
+        '16c-mimic73-ak-mmc73-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Abstrakt', 'mimic73', '16colors', 'SplitPart')
+        '16c-sac-31-nr-flipx-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Nerv', 'sac31', '16colors', 'SplitPart')
+        '16c-sac-31-nr-flipx-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Nerv', 'sac31', '16colors', 'SplitPart')
+        '16c-sense-18-sph-cab' = @('ANSI', 'ASCIIArt', 'Artistic', 'sephiroth', 'senseimagerz', 'sense18', '16colors')
+        '16c-sense-18-us-die' = @('ANSI', 'ASCIIArt', 'Artistic', 'AnsichristProwler', 'sense18', '16colors')
+        '16c-sense-19-avg-non2' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'sense19', '16colors')
+        '16c-sense-19-k-warder-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Keetar', 'sense19', '16colors', 'SplitPart')
+        '16c-sense-19-k-warder-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Keetar', 'sense19', '16colors', 'SplitPart')
+        '16c-sense-19-ns-nam-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'sense19', '16colors', 'SplitPart')
+        '16c-sense-19-ns-nam-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'sense19', '16colors', 'SplitPart')
+        '16c-sense-19-ns-nam-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'sense19', '16colors', 'SplitPart')
+        '16c-sense-19-ns-nam-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'sense19', '16colors', 'SplitPart')
+        '16c-sense-19-ns-nam-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'sense19', '16colors', 'SplitPart')
+        '16c-sense-19-us-bi-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionRoodolphAnsichristTefron', 'sense19', '16colors', 'SplitPart')
+        '16c-sense-19-us-bi-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionRoodolphAnsichristTefron', 'sense19', '16colors', 'SplitPart')
+        '16c-sense-19-us-surrl-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'TaintedxAesthetic', 'sense19', '16colors', 'SplitPart')
+        '16c-sense-19-us-surrl-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'TaintedxAesthetic', 'sense19', '16colors', 'SplitPart')
+        '16c-sense-20-ts-sns00-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'transient', 'sense', 'sense20', '16colors', 'SplitPart')
+        '16c-sense-20-ts-sns00-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'transient', 'sense', 'sense20', '16colors', 'SplitPart')
+        '16c-sense-20-ts-sns00-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'transient', 'sense', 'sense20', '16colors', 'SplitPart')
+        '16c-sense-20-us-namis-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'MaytagTaintedx', 'sense', 'sense20', '16colors', 'SplitPart')
+        '16c-sense-20-us-namis-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'MaytagTaintedx', 'sense', 'sense20', '16colors', 'SplitPart')
+        '16c-sense-20-us-namis-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'MaytagTaintedx', 'sense', 'sense20', '16colors', 'SplitPart')
+        '16c-sense-20-us-namis-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'MaytagTaintedx', 'sense', 'sense20', '16colors', 'SplitPart')
+        '16c-sense-21-ns-ev0ke-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'sense', 'sense21', '16colors', 'SplitPart')
+        '16c-sense-21-ns-ev0ke-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'sense', 'sense21', '16colors', 'SplitPart')
+        '16c-sense-21-ret-sns5-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Retribution', 'sense21', '16colors', 'SplitPart')
+        '16c-sense-21-ret-sns5-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Retribution', 'sense21', '16colors', 'SplitPart')
+        '16c-sense-21-tnt43cot-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'TaintedxAesthetic', 'senseimagery', 'sense21', '16colors', 'SplitPart')
+        '16c-sense-21-tnt43cot-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'TaintedxAesthetic', 'senseimagery', 'sense21', '16colors', 'SplitPart')
+        '16c-sense-21-tnt43cot-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'TaintedxAesthetic', 'senseimagery', 'sense21', '16colors', 'SplitPart')
+        '16c-sense-21-us-sns' = @('ANSI', 'ASCIIArt', 'Artistic', 'TaintedxAesthetic', 'sense', 'sense21', '16colors')
+        '16c-tnt-004-zv-911-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt004', '16colors', 'SplitPart')
+        '16c-tnt-004-zv-911-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt004', '16colors', 'SplitPart')
+        '16c-tnt-004-zv-911-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt004', '16colors', 'SplitPart')
+        '16c-tnt-004-zv-911-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt004', '16colors', 'SplitPart')
+        '16c-tnt-004-zv-vmc-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt004', '16colors', 'SplitPart')
+        '16c-tnt-004-zv-vmc-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt004', '16colors', 'SplitPart')
+        '16c-tnt-004-zv-vmc-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt004', '16colors', 'SplitPart')
+        '16c-tnt-005-re-spa' = @('ANSI', 'ASCIIArt', 'Artistic', 'Reevolution', 'tnt005', '16colors')
+        '16c-tnt-005-u3-gfce-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'UnseenFate', 'tnt005', '16colors', 'SplitPart')
+        '16c-tnt-005-u3-gfce-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'UnseenFate', 'tnt005', '16colors', 'SplitPart')
+        '16c-tnt-006-ts-tnt00' = @('ANSI', 'ASCIIArt', 'Artistic', 'Transient', 'tnt006', '16colors')
+        '16c-tnt-008-sp-uneek-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Skypager', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-sp-uneek-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Skypager', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-sp-uneek-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Skypager', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-sp-uneek-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Skypager', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-us-evol-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionGrymmjackSkypager', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-us-evol-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionGrymmjackSkypager', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-us-evol-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionGrymmjackSkypager', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-us-evol-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionGrymmjackSkypager', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-us-evol-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionGrymmjackSkypager', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-zv-euph-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-zv-euph-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-zv-euph-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-zv-evol-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-zv-evol-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-zv-evol-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-zv-evol-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-zv-haz2-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-008-zv-haz2-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt008', '16colors', 'SplitPart')
+        '16c-tnt-009-sp-madd-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Skypager', 'tnt009', '16colors', 'SplitPart')
+        '16c-tnt-009-sp-madd-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Skypager', 'tnt009', '16colors', 'SplitPart')
+        '16c-tnt-009-sp-madd-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Skypager', 'tnt009', '16colors', 'SplitPart')
+        '16c-tnt-009-sp-madd-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Skypager', 'tnt009', '16colors', 'SplitPart')
+        '16c-tnt-009-zv-lud-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt009', '16colors', 'SplitPart')
+        '16c-tnt-009-zv-lud-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt009', '16colors', 'SplitPart')
+        '16c-tnt-009-zv-lud-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'tnt009', '16colors', 'SplitPart')
         '16c-blocktronics-codename-chris-wirth-70-ansi' = @('ANSI', 'ASCIIArt', 'Artistic', 'Tombin', 'blocktronicscodenamechriswirth', '16colors')
         '16c-blocktronics-codename-chris-wirth-70-sense' = @('ANSI', 'ASCIIArt', 'Artistic', 'Tombin', 'blocktronicscodenamechriswirth', '16colors')
         '16c-blocktronics-codename-chris-wirth-avg-evoke' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicscodenamechriswirth', '16colors')
@@ -19642,6 +20371,249 @@
     }
 
     Descriptions = @{
+        '16c-antifa-01-zv-afriot-part01' = 'zv-AFriot.ans by Zerovision from antifa-01, source rows 1-43.'
+        '16c-antifa-01-zv-afriot-part02' = 'zv-AFriot.ans by Zerovision from antifa-01, source rows 44-85.'
+        '16c-antifa-01-zv-afriot-part03' = 'zv-AFriot.ans by Zerovision from antifa-01, source rows 86-127.'
+        '16c-antifa-01-zv-afriot-part04' = 'zv-AFriot.ans by Zerovision from antifa-01, source rows 128-169.'
+        '16c-crisis8-jp-gym2' = 'the graveyard bbs by jack phlash from crisis8.'
+        '16c-crisis8-kf-evo1-part01' = 'kf-evo1.ans by Kid Frost from crisis8, source rows 1-30.'
+        '16c-crisis8-kf-evo1-part02' = 'kf-evo1.ans by Kid Frost from crisis8, source rows 31-59.'
+        '16c-crisis8-kf-gy' = 'kf-gy.ans by Kid Frost from crisis8.'
+        '16c-crisis8-us-mtx' = 'us-mtx.ans by Avg + Razghaul from crisis8.'
+        '16c-crisis8-us-myth-part01' = 'us-myth.ans by Zerovision + Grymmjack from crisis8, source rows 1-45.'
+        '16c-crisis8-us-myth-part02' = 'us-myth.ans by Zerovision + Grymmjack from crisis8, source rows 46-90.'
+        '16c-crisis8-us-myth-part03' = 'us-myth.ans by Zerovision + Grymmjack from crisis8, source rows 91-134.'
+        '16c-crisis9-gj-holdup-part01' = 'gj-holdup.ans by Grymmjack from crisis9, source rows 1-46.'
+        '16c-crisis9-gj-holdup-part02' = 'gj-holdup.ans by Grymmjack from crisis9, source rows 47-92.'
+        '16c-crisis9-us-dist-part01' = 'us-dist.ans by Enzo + Fat Pacifist + Kid Frost from crisis9, source rows 1-50.'
+        '16c-crisis9-us-dist-part02' = 'us-dist.ans by Enzo + Fat Pacifist + Kid Frost from crisis9, source rows 51-100.'
+        '16c-crisis9-us-dist-part03' = 'us-dist.ans by Enzo + Fat Pacifist + Kid Frost from crisis9, source rows 101-149.'
+        '16c-crisis9-us-dist-part04' = 'us-dist.ans by Enzo + Fat Pacifist + Kid Frost from crisis9, source rows 150-198.'
+        '16c-mimic81-l-jbk2-part01' = 'l-jbk2.ans by Lame from mimic81, source rows 1-42.'
+        '16c-mimic81-l-jbk2-part02' = 'l-jbk2.ans by Lame from mimic81, source rows 43-83.'
+        '16c-mimic81-l-jbk2-part03' = 'l-jbk2.ans by Lame from mimic81, source rows 84-124.'
+        '16c-rmrs-56-dvn-ani1' = 'dvn-ani1.ans by Devin from rmrs-56.'
+        '16c-sac-33-w0-aiu-part01' = 'w0-aiu.ans by Webpige0 from sac-33, source rows 1-39.'
+        '16c-sac-33-w0-aiu-part02' = 'w0-aiu.ans by Webpige0 from sac-33, source rows 40-78.'
+        '16c-sac-33-w0-aiu-part03' = 'w0-aiu.ans by Webpige0 from sac-33, source rows 79-117.'
+        '16c-sac-33-w0-aiu-part04' = 'w0-aiu.ans by Webpige0 from sac-33, source rows 118-155.'
+        '16c-sadist05-avg-27g' = 'avg-27g.ans by Avenging Angel from sadist05.'
+        '16c-sadist05-sph-affe' = 'amphetamine by sephiroth from sadist05.'
+        '16c-sadist05-sph-htc-part01' = 'Haunting The Chapel by Sephiroth from sadist05, source rows 1-37.'
+        '16c-sadist05-sph-htc-part02' = 'Haunting The Chapel by Sephiroth from sadist05, source rows 38-73.'
+        '16c-sadist05-sph-mon-part01' = 'Monks by Sephiroth from sadist05, source rows 1-46.'
+        '16c-sadist05-sph-mon-part02' = 'Monks by Sephiroth from sadist05, source rows 47-91.'
+        '16c-sadist05-us-54d1-part01' = 'sadist by Mixelpic + Sephiroth from sadist05, source rows 1-30.'
+        '16c-sadist05-us-54d1-part02' = 'sadist by Mixelpic + Sephiroth from sadist05, source rows 31-60.'
+        '16c-sadist05-us-wods-part01' = 'The Glade by Keetar + Sephiroth from sadist05, source rows 1-44.'
+        '16c-sadist05-us-wods-part02' = 'The Glade by Keetar + Sephiroth from sadist05, source rows 45-88.'
+        '16c-sadist05-us-wods-part03' = 'The Glade by Keetar + Sephiroth from sadist05, source rows 89-132.'
+        '16c-sadist05-us-wods-part04' = 'The Glade by Keetar + Sephiroth from sadist05, source rows 133-176.'
+        '16c-sadist05-vrg-302-part01' = 'the glade by vaRgr from sadist05, source rows 1-26.'
+        '16c-sadist05-vrg-302-part02' = 'the glade by vaRgr from sadist05, source rows 27-52.'
+        '16c-sadist05-vrg-402-part01' = 'VRG-402.ANS by Vargr from sadist05, source rows 1-43.'
+        '16c-sadist05-vrg-402-part02' = 'VRG-402.ANS by Vargr from sadist05, source rows 44-85.'
+        '16c-sadist05-vrg-502-part01' = 'VRG-502.ANS by Vargr from sadist05, source rows 1-49.'
+        '16c-sadist05-vrg-502-part02' = 'VRG-502.ANS by Vargr from sadist05, source rows 50-97.'
+        '16c-sadist05-vrg-802-part01' = 'VRG-802.ans by Vargr from sadist05, source rows 1-41.'
+        '16c-sadist05-vrg-802-part02' = 'VRG-802.ans by Vargr from sadist05, source rows 42-82.'
+        '16c-sadist05-vrg-802-part03' = 'VRG-802.ans by Vargr from sadist05, source rows 83-122.'
+        '16c-sadist05-vrg-902-part01' = 'sexxi boi by vaRgr from sadist05, source rows 1-35.'
+        '16c-sadist05-vrg-902-part02' = 'sexxi boi by vaRgr from sadist05, source rows 36-70.'
+        '16c-sense22-43-outer-part01' = '43-outer.ans by Aesthetic from sense22, source rows 1-43.'
+        '16c-sense22-43-outer-part02' = '43-outer.ans by Aesthetic from sense22, source rows 44-86.'
+        '16c-sense22-43-outer-part03' = '43-outer.ans by Aesthetic from sense22, source rows 87-129.'
+        '16c-sense22-43-outer-part04' = '43-outer.ans by Aesthetic from sense22, source rows 130-171.'
+        '16c-sense22-43-outer-part05' = '43-outer.ans by Aesthetic from sense22, source rows 172-213.'
+        '16c-sense22-43-outer-part06' = '43-outer.ans by Aesthetic from sense22, source rows 214-255.'
+        '16c-sense22-avg-bmai-part01' = 'avg-bmai.ans by Avenging Angel from sense22, source rows 1-32.'
+        '16c-sense22-avg-bmai-part02' = 'avg-bmai.ans by Avenging Angel from sense22, source rows 33-64.'
+        '16c-sense22-avg-frc' = 'avg-frc.ans by Avenging Angel from sense22.'
+        '16c-sense22-us-cold2-part01' = 'us-cold2.ans by Fusion + Avenging Angel from sense22, source rows 1-43.'
+        '16c-sense22-us-cold2-part02' = 'us-cold2.ans by Fusion + Avenging Angel from sense22, source rows 44-86.'
+        '16c-sense22-us-cold2-part03' = 'us-cold2.ans by Fusion + Avenging Angel from sense22, source rows 87-129.'
+        '16c-sense22-us-cold2-part04' = 'us-cold2.ans by Fusion + Avenging Angel from sense22, source rows 130-171.'
+        '16c-sense22-zv-lud500-part01' = 'zv-lud500.ans by Zerovision from sense22, source rows 1-49.'
+        '16c-sense22-zv-lud500-part02' = 'zv-lud500.ans by Zerovision from sense22, source rows 50-98.'
+        '16c-sense22-zv-lud500-part03' = 'zv-lud500.ans by Zerovision from sense22, source rows 99-147.'
+        '16c-sense22-zv-lud500-part04' = 'zv-lud500.ans by Zerovision from sense22, source rows 148-196.'
+        '16c-sense22-zv-lud500-part05' = 'zv-lud500.ans by Zerovision from sense22, source rows 197-245.'
+        '16c-sense22-zv-lud500-part06' = 'zv-lud500.ans by Zerovision from sense22, source rows 246-294.'
+        '16c-sense22-zv-lud500-part07' = 'zv-lud500.ans by Zerovision from sense22, source rows 295-343.'
+        '16c-sense22-zv-lud500-part08' = 'zv-lud500.ans by Zerovision from sense22, source rows 344-392.'
+        '16c-sense22-zv-lud500-part09' = 'zv-lud500.ans by Zerovision from sense22, source rows 393-441.'
+        '16c-sense22-zv-lud500-part10' = 'zv-lud500.ans by Zerovision from sense22, source rows 442-489.'
+        '16c-sense22-zv-lud500-part11' = 'zv-lud500.ans by Zerovision from sense22, source rows 490-537.'
+        '16c-sense23-avg-lud1-part01' = 'AVG-LUD1.ANS by Avenging Angel from sense23, source rows 1-49.'
+        '16c-sense23-avg-lud1-part02' = 'AVG-LUD1.ANS by Avenging Angel from sense23, source rows 50-97.'
+        '16c-sense23-avg-lud1-part03' = 'AVG-LUD1.ANS by Avenging Angel from sense23, source rows 98-145.'
+        '16c-sense23-m0-roo-part01' = 'M0-ROO.ANS by M0lo from sense23, source rows 1-39.'
+        '16c-sense23-m0-roo-part02' = 'M0-ROO.ANS by M0lo from sense23, source rows 40-78.'
+        '16c-sense23-m0-roo-part03' = 'M0-ROO.ANS by M0lo from sense23, source rows 79-116.'
+        '16c-sense24-sph-e99-part01' = 'East99 by Sephiroth from sense24, source rows 1-30.'
+        '16c-sense24-sph-e99-part02' = 'East99 by Sephiroth from sense24, source rows 31-60.'
+        '16c-sense24-tnt-avec' = 'tnt-avec.ans by Taintedx from sense24.'
+        '16c-sense24-us-elf-part01' = 'us-elf.ans by Enzo + Avenging Angel from sense24, source rows 1-38.'
+        '16c-sense24-us-elf-part02' = 'us-elf.ans by Enzo + Avenging Angel from sense24, source rows 39-76.'
+        '16c-sense24-us-elf-part03' = 'us-elf.ans by Enzo + Avenging Angel from sense24, source rows 77-113.'
+        '16c-sense24-us-evk-part01' = 'us-evk.ans by Simonking + Ceelow + Ansichrist + Avenging Angel from sense24, source rows 1-28.'
+        '16c-sense24-us-evk-part02' = 'us-evk.ans by Simonking + Ceelow + Ansichrist + Avenging Angel from sense24, source rows 29-55.'
+        '16c-sense24-us-wick-part01' = 'us-wick.ans by Enzo + Avenging Angel from sense24, source rows 1-39.'
+        '16c-sense24-us-wick-part02' = 'us-wick.ans by Enzo + Avenging Angel from sense24, source rows 40-78.'
+        '16c-sense24-us-wick-part03' = 'us-wick.ans by Enzo + Avenging Angel from sense24, source rows 79-117.'
+        '16c-sense24-zv-colly-part01' = 'zv-colly.ans by Zerovision from sense24, source rows 1-47.'
+        '16c-sense24-zv-colly-part02' = 'zv-colly.ans by Zerovision from sense24, source rows 48-93.'
+        '16c-sense24-zv-colly-part03' = 'zv-colly.ans by Zerovision from sense24, source rows 94-139.'
+        '16c-sense24-zv-colly-part04' = 'zv-colly.ans by Zerovision from sense24, source rows 140-189.'
+        '16c-sense24-zv-colly-part05' = 'zv-colly.ans by Zerovision from sense24, source rows 190-238.'
+        '16c-sense24-zv-colly-part06' = 'zv-colly.ans by Zerovision from sense24, source rows 239-287.'
+        '16c-tnt-010-f543-bye' = 'f543-bye.ans by Fusion from tnt-010.'
+        '16c-tnt-010-n4-bthur' = 'n4-bthur.ans by Sodium from tnt-010.'
+        '16c-tnt-010-sp-kia-part01' = 'sp-kia.ans by Skypager from tnt-010, source rows 1-38.'
+        '16c-tnt-010-sp-kia-part02' = 'sp-kia.ans by Skypager from tnt-010, source rows 39-76.'
+        '16c-tnt-010-sp-kia-part03' = 'sp-kia.ans by Skypager from tnt-010, source rows 77-114.'
+        '16c-tnt-010-sp-kia-part04' = 'sp-kia.ans by Skypager from tnt-010, source rows 115-152.'
+        '16c-tnt-010-us-bzr-part01' = 'us-bzr.ans by Knocturnal + Skypager from tnt-010, source rows 1-41.'
+        '16c-tnt-010-us-bzr-part02' = 'us-bzr.ans by Knocturnal + Skypager from tnt-010, source rows 42-82.'
+        '16c-tnt-010-us-bzr-part03' = 'us-bzr.ans by Knocturnal + Skypager from tnt-010, source rows 83-122.'
+        '16c-tnt-010-us-bzr-part04' = 'us-bzr.ans by Knocturnal + Skypager from tnt-010, source rows 123-162.'
+        '16c-tnt-010-us-switch-part01' = 'us-switch.ans by Aesthetic + Zerovision + Somberlain from tnt-010, source rows 1-48.'
+        '16c-tnt-010-us-switch-part02' = 'us-switch.ans by Aesthetic + Zerovision + Somberlain from tnt-010, source rows 49-95.'
+        '16c-viix2i-viix2-zo-tl2-part01' = 'ViiX2 - zO-tl2.ans by Enzo from viix2i, source rows 1-43.'
+        '16c-viix2i-viix2-zo-tl2-part02' = 'ViiX2 - zO-tl2.ans by Enzo from viix2i, source rows 44-86.'
+        '16c-viix2i-viix2-zo-tl2-part03' = 'ViiX2 - zO-tl2.ans by Enzo from viix2i, source rows 87-128.'
+        '16c-viix2i-viix2-zo-tl2-part04' = 'ViiX2 - zO-tl2.ans by Enzo from viix2i, source rows 129-170.'
+        '16c-viix2i-viix2-zo-tl2-part05' = 'ViiX2 - zO-tl2.ans by Enzo from viix2i, source rows 171-212.'
+        '16c-viix2i-viix2-zo-tl2-part06' = 'ViiX2 - zO-tl2.ans by Enzo from viix2i, source rows 213-254.'
+        '16c-viix2ii-viix2-avg-arts-part01' = 'ViiX2 - AVG - Arts.ans by Avenging Angel from viix2ii, source rows 1-42.'
+        '16c-viix2ii-viix2-avg-arts-part02' = 'ViiX2 - AVG - Arts.ans by Avenging Angel from viix2ii, source rows 43-84.'
+        '16c-viix2ii-viix2-avg-arts-part03' = 'ViiX2 - AVG - Arts.ans by Avenging Angel from viix2ii, source rows 85-125.'
+        '16c-viix2ii-viix2-sph-horse-part01' = 'horse by sephiroth from viix2ii, source rows 1-33.'
+        '16c-viix2ii-viix2-sph-horse-part02' = 'horse by sephiroth from viix2ii, source rows 34-66.'
+        '16c-viix2ii-viix2-sph-wicked-part01' = 'WickedMinority by Sephiroth from viix2ii, source rows 1-40.'
+        '16c-viix2ii-viix2-sph-wicked-part02' = 'WickedMinority by Sephiroth from viix2ii, source rows 41-79.'
+        '16c-viix2ii-viix2-sph-wicked-part03' = 'WickedMinority by Sephiroth from viix2ii, source rows 80-118.'
+        '16c-viix2ii-viix2-xxx-k1-part01' = 'ViiX2 - XXX - K1.ans by Knocturnal + Spear + Enzo + Aesthetic + Taintedx from viix2ii, source rows 1-36.'
+        '16c-viix2ii-viix2-xxx-k1-part02' = 'ViiX2 - XXX - K1.ans by Knocturnal + Spear + Enzo + Aesthetic + Taintedx from viix2ii, source rows 37-72.'
+        '16c-12317-gdr-123' = 'GDR-123.ANS by Gravedancer from 12317.'
+        '16c-12317-smp-123-part01' = 'SMP-123_.ANS by Shrimp from 12317, source rows 1-43.'
+        '16c-12317-smp-123-part02' = 'SMP-123_.ANS by Shrimp from 12317, source rows 44-85.'
+        '16c-12317-smp-std-part01' = 'SMP-STD.ANS by Shrimp from 12317, source rows 1-50.'
+        '16c-12317-smp-std-part02' = 'SMP-STD.ANS by Shrimp from 12317, source rows 51-89.'
+        '16c-27inch06-4d-911' = '4d-911.ans by Access Denied from 27inch06.'
+        '16c-27inch06-k1-satan-part01' = 'Satan loves Pharcyde BBS by knocturnal from 27inch06, source rows 1-47.'
+        '16c-27inch06-k1-satan-part02' = 'Satan loves Pharcyde BBS by knocturnal from 27inch06, source rows 48-94.'
+        '16c-27inch06-k1-satan-part03' = 'Satan loves Pharcyde BBS by knocturnal from 27inch06, source rows 95-141.'
+        '16c-27inch06-k1-satan-part04' = 'Satan loves Pharcyde BBS by knocturnal from 27inch06, source rows 142-188.'
+        '16c-27inch06-k1-satan-part05' = 'Satan loves Pharcyde BBS by knocturnal from 27inch06, source rows 189-234.'
+        '16c-27inch06-k1-satan-part06' = 'Satan loves Pharcyde BBS by knocturnal from 27inch06, source rows 235-280.'
+        '16c-27inch06-we-fish-part01' = 'we-fish.ans by Knocturnal + Avenging Angel + Spear + Enzo from 27inch06, source rows 1-49.'
+        '16c-27inch06-we-fish-part02' = 'we-fish.ans by Knocturnal + Avenging Angel + Spear + Enzo from 27inch06, source rows 50-97.'
+        '16c-27inch06-we-fish-part03' = 'we-fish.ans by Knocturnal + Avenging Angel + Spear + Enzo from 27inch06, source rows 98-145.'
+        '16c-27inch06-we-sword-part01' = 'we-sword.ans by Knocturnal + Avenging Angel + Enzo + Mr Wrong from 27inch06, source rows 1-48.'
+        '16c-27inch06-we-sword-part02' = 'we-sword.ans by Knocturnal + Avenging Angel + Enzo + Mr Wrong from 27inch06, source rows 49-95.'
+        '16c-27inch06-we-sword-part03' = 'we-sword.ans by Knocturnal + Avenging Angel + Enzo + Mr Wrong from 27inch06, source rows 96-142.'
+        '16c-27inch06-we-sword-part04' = 'we-sword.ans by Knocturnal + Avenging Angel + Enzo + Mr Wrong from 27inch06, source rows 143-189.'
+        '16c-27inch06-we-sword-part05' = 'we-sword.ans by Knocturnal + Avenging Angel + Enzo + Mr Wrong from 27inch06, source rows 190-236.'
+        '16c-27inch07-is-kaasu-part01' = 'is-kaasu.ans by Prosthesis from 27inch07, source rows 1-43.'
+        '16c-27inch07-is-kaasu-part02' = 'is-kaasu.ans by Prosthesis from 27inch07, source rows 44-86.'
+        '16c-27inch07-is-kaasu-part03' = 'is-kaasu.ans by Prosthesis from 27inch07, source rows 87-128.'
+        '16c-27inch07-is-kaasu-part04' = 'is-kaasu.ans by Prosthesis from 27inch07, source rows 129-170.'
+        '16c-27inch07-tnt-9ine-part01' = 'tnt-9ine.ans by Tainted from 27inch07, source rows 1-27.'
+        '16c-27inch07-tnt-9ine-part02' = 'tnt-9ine.ans by Tainted from 27inch07, source rows 28-54.'
+        '16c-27inch07-we-candy-part01' = 'we-candy.ans by Taintedx + Enzo from 27inch07, source rows 1-45.'
+        '16c-27inch07-we-candy-part02' = 'we-candy.ans by Taintedx + Enzo from 27inch07, source rows 46-90.'
+        '16c-27inch07-we-candy-part03' = 'we-candy.ans by Taintedx + Enzo from 27inch07, source rows 91-134.'
+        '16c-27inch07-we-code-part01' = 'we-code.ans by Enzo + Spear from 27inch07, source rows 1-50.'
+        '16c-27inch07-we-code-part02' = 'we-code.ans by Enzo + Spear from 27inch07, source rows 51-100.'
+        '16c-27inch07-we-code-part03' = 'we-code.ans by Enzo + Spear from 27inch07, source rows 101-150.'
+        '16c-27inch08-avg-001-part01' = 'avg-001.ans by Avenging Angel from 27inch08, source rows 1-27.'
+        '16c-27inch08-avg-001-part02' = 'avg-001.ans by Avenging Angel from 27inch08, source rows 28-53.'
+        '16c-27inch08-cg-cf' = 'cg-cf.ans by Cryogenic from 27inch08.'
+        '16c-27inch08-mx-sol-part01' = 'MX-SOL.ANS by Lord Maxxtro from 27inch08, source rows 1-39.'
+        '16c-27inch08-mx-sol-part02' = 'MX-SOL.ANS by Lord Maxxtro from 27inch08, source rows 40-77.'
+        '16c-27inch08-mx-sol-part03' = 'MX-SOL.ANS by Lord Maxxtro from 27inch08, source rows 78-115.'
+        '16c-27inch08-we-123' = 'we-123.ans by Enzo + Abstrakt from 27inch08.'
+        '16c-27inch08-we-bronx-part01' = 'we-bronx.ans by Quasar + Avg + Enzo from 27inch08, source rows 1-45.'
+        '16c-27inch08-we-bronx-part02' = 'we-bronx.ans by Quasar + Avg + Enzo from 27inch08, source rows 46-90.'
+        '16c-27inch08-we-cyde-part01' = 'we-cyde.ans by Tainted + Avenging Angel + Savage Dragon from 27inch08, source rows 1-49.'
+        '16c-27inch08-we-cyde-part02' = 'we-cyde.ans by Tainted + Avenging Angel + Savage Dragon from 27inch08, source rows 50-97.'
+        '16c-27inch08-we-ot3-part01' = 'we-ot3.ans by Knocturnal + Enzo + Podsi from 27inch08, source rows 1-29.'
+        '16c-27inch08-we-ot3-part02' = 'we-ot3.ans by Knocturnal + Enzo + Podsi from 27inch08, source rows 30-57.'
+        '16c-danone003-us-abs-part01' = 'b44 p700 by Noches + Luminator from danone003, source rows 1-41.'
+        '16c-danone003-us-abs-part02' = 'b44 p700 by Noches + Luminator from danone003, source rows 42-82.'
+        '16c-danone003-us-abs-part03' = 'b44 p700 by Noches + Luminator from danone003, source rows 83-122.'
+        '16c-mimic67-ko-thurs-part01' = 'ko-thurs.ans by Konami from mimic67, source rows 1-33.'
+        '16c-mimic67-ko-thurs-part02' = 'ko-thurs.ans by Konami from mimic67, source rows 34-66.'
+        '16c-mimic73-ak-mmc73-part01' = 'ak-mmc73.ans by Abstrakt from mimic73, source rows 1-46.'
+        '16c-mimic73-ak-mmc73-part02' = 'ak-mmc73.ans by Abstrakt from mimic73, source rows 47-92.'
+        '16c-sac-31-nr-flipx-part01' = 'nr-flipx.ans by Nerv from sac-31, source rows 1-44.'
+        '16c-sac-31-nr-flipx-part02' = 'nr-flipx.ans by Nerv from sac-31, source rows 45-87.'
+        '16c-sense-18-sph-cab' = 'cabinbythelake by sephiroth from sense-18.'
+        '16c-sense-18-us-die' = 'US-DIE.ANS by Ansichrist + Prowler from sense-18.'
+        '16c-sense-19-avg-non2' = 'AVG-NON2.ANS by Avenging Angel from sense-19.'
+        '16c-sense-19-k-warder-part01' = 'K!WARDER.ANS by Keetar from sense-19, source rows 1-36.'
+        '16c-sense-19-k-warder-part02' = 'K!WARDER.ANS by Keetar from sense-19, source rows 37-71.'
+        '16c-sense-19-ns-nam-part01' = 'ns-nam.ans by Ansichrist from sense-19, source rows 1-42.'
+        '16c-sense-19-ns-nam-part02' = 'ns-nam.ans by Ansichrist from sense-19, source rows 43-84.'
+        '16c-sense-19-ns-nam-part03' = 'ns-nam.ans by Ansichrist from sense-19, source rows 85-125.'
+        '16c-sense-19-ns-nam-part04' = 'ns-nam.ans by Ansichrist from sense-19, source rows 126-166.'
+        '16c-sense-19-ns-nam-part05' = 'ns-nam.ans by Ansichrist from sense-19, source rows 167-207.'
+        '16c-sense-19-us-bi-part01' = 'us-bi.ans by Zerovision + Roodolph + Ansichrist + Tefron from sense-19, source rows 1-49.'
+        '16c-sense-19-us-bi-part02' = 'us-bi.ans by Zerovision + Roodolph + Ansichrist + Tefron from sense-19, source rows 50-97.'
+        '16c-sense-19-us-surrl-part01' = 'us-surrl.ans by Taintedx + Aesthetic from sense-19, source rows 1-40.'
+        '16c-sense-19-us-surrl-part02' = 'us-surrl.ans by Taintedx + Aesthetic from sense-19, source rows 41-79.'
+        '16c-sense-20-ts-sns00-part01' = 'alien dna manipulation by transient from sense-20, source rows 1-50.'
+        '16c-sense-20-ts-sns00-part02' = 'alien dna manipulation by transient from sense-20, source rows 51-100.'
+        '16c-sense-20-ts-sns00-part03' = 'alien dna manipulation by transient from sense-20, source rows 101-150.'
+        '16c-sense-20-us-namis-part01' = 'namistai promo by Maytag + Taintedx from sense-20, source rows 1-50.'
+        '16c-sense-20-us-namis-part02' = 'namistai promo by Maytag + Taintedx from sense-20, source rows 51-99.'
+        '16c-sense-20-us-namis-part03' = 'namistai promo by Maytag + Taintedx from sense-20, source rows 100-148.'
+        '16c-sense-20-us-namis-part04' = 'namistai promo by Maytag + Taintedx from sense-20, source rows 149-197.'
+        '16c-sense-21-ns-ev0ke-part01' = 'evoke sub by ansichrist from sense-21, source rows 1-33.'
+        '16c-sense-21-ns-ev0ke-part02' = 'evoke sub by ansichrist from sense-21, source rows 34-66.'
+        '16c-sense-21-ret-sns5-part01' = 'RET-SNS5.ANS by Retribution from sense-21, source rows 1-30.'
+        '16c-sense-21-ret-sns5-part02' = 'RET-SNS5.ANS by Retribution from sense-21, source rows 31-59.'
+        '16c-sense-21-tnt43cot-part01' = 'cotm(jungle.fevah) by Taintedx + Aesthetic from sense-21, source rows 1-41.'
+        '16c-sense-21-tnt43cot-part02' = 'cotm(jungle.fevah) by Taintedx + Aesthetic from sense-21, source rows 42-81.'
+        '16c-sense-21-tnt43cot-part03' = 'cotm(jungle.fevah) by Taintedx + Aesthetic from sense-21, source rows 82-121.'
+        '16c-sense-21-us-sns' = 'sense 21 promo by Taintedx + Aesthetic from sense-21.'
+        '16c-tnt-004-zv-911-part01' = 'zv-911.ans by Zerovision from tnt-004, source rows 1-45.'
+        '16c-tnt-004-zv-911-part02' = 'zv-911.ans by Zerovision from tnt-004, source rows 46-90.'
+        '16c-tnt-004-zv-911-part03' = 'zv-911.ans by Zerovision from tnt-004, source rows 91-134.'
+        '16c-tnt-004-zv-911-part04' = 'zv-911.ans by Zerovision from tnt-004, source rows 135-178.'
+        '16c-tnt-004-zv-vmc-part01' = 'zv-vmc.ans by Zerovision from tnt-004, source rows 1-49.'
+        '16c-tnt-004-zv-vmc-part02' = 'zv-vmc.ans by Zerovision from tnt-004, source rows 50-98.'
+        '16c-tnt-004-zv-vmc-part03' = 'zv-vmc.ans by Zerovision from tnt-004, source rows 99-146.'
+        '16c-tnt-005-re-spa' = 're-spa.ans by Reevolution from tnt-005.'
+        '16c-tnt-005-u3-gfce-part01' = 'U3-GFCE.ANS by Unseen Fate from tnt-005, source rows 1-42.'
+        '16c-tnt-005-u3-gfce-part02' = 'U3-GFCE.ANS by Unseen Fate from tnt-005, source rows 43-84.'
+        '16c-tnt-006-ts-tnt00' = 'ts-tnt00.ans by Transient from tnt-006.'
+        '16c-tnt-008-sp-uneek-part01' = 'sp!-uneek.ans by Skypager from tnt-008, source rows 1-45.'
+        '16c-tnt-008-sp-uneek-part02' = 'sp!-uneek.ans by Skypager from tnt-008, source rows 46-89.'
+        '16c-tnt-008-sp-uneek-part03' = 'sp!-uneek.ans by Skypager from tnt-008, source rows 90-133.'
+        '16c-tnt-008-sp-uneek-part04' = 'sp!-uneek.ans by Skypager from tnt-008, source rows 134-177.'
+        '16c-tnt-008-us-evol-part01' = 'us-evol.ans by Zerovision + Grymmjack + Skypager from tnt-008, source rows 1-48.'
+        '16c-tnt-008-us-evol-part02' = 'us-evol.ans by Zerovision + Grymmjack + Skypager from tnt-008, source rows 49-96.'
+        '16c-tnt-008-us-evol-part03' = 'us-evol.ans by Zerovision + Grymmjack + Skypager from tnt-008, source rows 97-144.'
+        '16c-tnt-008-us-evol-part04' = 'us-evol.ans by Zerovision + Grymmjack + Skypager from tnt-008, source rows 145-192.'
+        '16c-tnt-008-us-evol-part05' = 'us-evol.ans by Zerovision + Grymmjack + Skypager from tnt-008, source rows 193-240.'
+        '16c-tnt-008-zv-euph-part01' = 'zv-euph.ans by Zerovision from tnt-008, source rows 1-48.'
+        '16c-tnt-008-zv-euph-part02' = 'zv-euph.ans by Zerovision from tnt-008, source rows 49-95.'
+        '16c-tnt-008-zv-euph-part03' = 'zv-euph.ans by Zerovision from tnt-008, source rows 96-142.'
+        '16c-tnt-008-zv-evol-part01' = 'zv-evol.ans by Zerovision from tnt-008, source rows 1-39.'
+        '16c-tnt-008-zv-evol-part02' = 'zv-evol.ans by Zerovision from tnt-008, source rows 40-78.'
+        '16c-tnt-008-zv-evol-part03' = 'zv-evol.ans by Zerovision from tnt-008, source rows 79-117.'
+        '16c-tnt-008-zv-evol-part04' = 'zv-evol.ans by Zerovision from tnt-008, source rows 118-155.'
+        '16c-tnt-008-zv-haz2-part01' = 'zv-haz2.ans by Zerovision from tnt-008, source rows 1-35.'
+        '16c-tnt-008-zv-haz2-part02' = 'zv-haz2.ans by Zerovision from tnt-008, source rows 36-70.'
+        '16c-tnt-009-sp-madd-part01' = 'sp!-madd.ans by Skypager from tnt-009, source rows 1-40.'
+        '16c-tnt-009-sp-madd-part02' = 'sp!-madd.ans by Skypager from tnt-009, source rows 41-80.'
+        '16c-tnt-009-sp-madd-part03' = 'sp!-madd.ans by Skypager from tnt-009, source rows 81-120.'
+        '16c-tnt-009-sp-madd-part04' = 'sp!-madd.ans by Skypager from tnt-009, source rows 121-159.'
+        '16c-tnt-009-zv-lud-part01' = 'zv-lud.ans by Zerovision from tnt-009, source rows 1-35.'
+        '16c-tnt-009-zv-lud-part02' = 'zv-lud.ans by Zerovision from tnt-009, source rows 36-70.'
+        '16c-tnt-009-zv-lud-part03' = 'zv-lud.ans by Zerovision from tnt-009, source rows 71-105.'
         '16c-blocktronics-codename-chris-wirth-70-ansi' = '70-ansi.ans by Tombin from blocktronics_codename_chris_wirth.'
         '16c-blocktronics-codename-chris-wirth-70-sense' = '70-sense.ans by Tombin from blocktronics_codename_chris_wirth.'
         '16c-blocktronics-codename-chris-wirth-avg-evoke' = 'avg-evoke.ans by Avenging Angel from blocktronics_codename_chris_wirth.'
