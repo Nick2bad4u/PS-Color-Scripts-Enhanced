@@ -388,6 +388,11 @@ test("ANSI analysis serializes SAUCE as compact metadata rather than Buffer inte
     assert.doesNotMatch(JSON.stringify(analysis.sauce), /"type":"Buffer"/u);
     assert.equal(analysis.encoding, "CP437");
     assert.equal(analysis.encodingSupported, true);
+    assert.equal(analysis.height, 25);
+    assert.notEqual(
+        analysis.renderSha256,
+        analyzeAnsiBuffer(content).renderSha256
+    );
 });
 
 test("ANSI analysis derives the source encoding from a registered SAUCE font", () => {

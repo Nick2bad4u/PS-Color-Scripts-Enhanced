@@ -15,6 +15,7 @@ const {
     decodeDosAnsi,
     getSauceFontName,
     MAX_TERMINAL_COLUMNS,
+    MAX_TERMINAL_ROWS,
     parseArguments,
     readAnsiFile,
     resolveSauceEncoding,
@@ -32,6 +33,7 @@ const {
     writeChunkPs1,
     writeChunkAnsi,
 } = require("../scripts/Split-AnsiFile.js");
+const conversionVerifier = import("../scripts/Verify-AnsiConversion.mjs");
 
 const temporaryDirectories = [];
 
@@ -824,6 +826,107 @@ test("trailing cursor movement does not serialize phantom blank rows", () => {
     ]);
 });
 
+test("declared minimum canvas height preserves trailing blank rows", () => {
+    const result = convertAnsiToPs1("A\r\n", {
+        columns: 80,
+        minimumRows: 4,
+    });
+
+    assert.deepEqual(result.lines, [
+        "A",
+        "",
+        "",
+        "",
+    ]);
+    assert.equal(result.terminal.maxRow, 3);
+});
+
+test("conversion verifier detects terminal-cell color mutations", async () => {
+    const { verifyAnsiConversion } = await conversionVerifier;
+    const directory = createTemporaryDirectory();
+    const sourcePath = path.join(directory, "fixture.ans");
+    const scriptPath = path.join(directory, "fixture-part01.ps1");
+    const source = "\u001b[31mAB\u001b[0m\r\n\u001b[44m  \u001b[0m";
+    fs.writeFileSync(sourcePath, source, "binary");
+    const converted = convertAnsiToPs1(source, {
+        columns: 80,
+        dosAnsi: true,
+        stripSpaceBackground: false,
+    });
+    fs.writeFileSync(
+        scriptPath,
+        buildChunkPs1(
+            {
+                start: 0,
+                end: converted.lines.length,
+                lines: converted.lines,
+            },
+            {
+                sourceName: "fixture.ans",
+                sourceEncoding: "CP437",
+                sourceColumns: "1-80",
+            }
+        )
+    );
+
+    const matching = verifyAnsiConversion({
+        sourcePath,
+        scriptPaths: [scriptPath],
+        encoding: "cp437",
+    });
+    assert.equal(matching.matches, true);
+    assert.equal(matching.coverage.complete, true);
+    assert.deepEqual(matching.parts[0].mismatchedRows, []);
+
+    const damaged = fs
+        .readFileSync(scriptPath, "utf8")
+        .replace("\u001b[44m", "\u001b[41m");
+    fs.writeFileSync(scriptPath, damaged);
+    const mismatching = verifyAnsiConversion({
+        sourcePath,
+        scriptPaths: [scriptPath],
+        encoding: "cp437",
+    });
+
+    assert.equal(mismatching.matches, false);
+    assert.equal(mismatching.parts[0].matches, false);
+    assert.deepEqual(mismatching.parts[0].mismatchedRows, [2]);
+});
+
+test("conversion verifier arguments bound geometry and iCE overrides", async () => {
+    const { parseArguments: parseVerificationArguments } =
+        await conversionVerifier;
+    const parsed = parseVerificationArguments([
+        "--source=fixture.ice",
+        "--prefix=fixture",
+        "--columns=160",
+        "--ice-colors",
+        "--allow-partial",
+    ]);
+
+    assert.equal(parsed.columns, 160);
+    assert.equal(parsed.iceColors, true);
+    assert.equal(parsed.allowPartial, true);
+    assert.throws(
+        () =>
+            parseVerificationArguments([
+                "--source=fixture.ans",
+                "--prefix=fixture",
+                `--columns=${MAX_TERMINAL_COLUMNS + 1}`,
+            ]),
+        /--columns must be between/
+    );
+    assert.throws(
+        () =>
+            parseVerificationArguments([
+                "--source=fixture.ans",
+                "--prefix=fixture",
+                "--script=fixture.ps1",
+            ]),
+        /either repeated --script options or --prefix/
+    );
+});
+
 test("untrusted terminal dimensions are bounded", () => {
     assert.throws(
         () =>
@@ -831,6 +934,13 @@ test("untrusted terminal dimensions are bounded", () => {
                 columns: MAX_TERMINAL_COLUMNS + 1,
             }),
         /Terminal columns must be between/
+    );
+    assert.throws(
+        () =>
+            convertAnsiToPs1("X", {
+                minimumRows: MAX_TERMINAL_ROWS + 1,
+            }),
+        /Terminal minimum rows must be between/
     );
 });
 

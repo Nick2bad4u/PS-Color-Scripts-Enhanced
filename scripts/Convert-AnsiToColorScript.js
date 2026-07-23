@@ -128,6 +128,7 @@ const SAUCE_DOS_CODE_PAGES = new Set([
  * @property {number} [columns]
  * @property {boolean} [autoWrap]
  * @property {boolean} [stripSpaceBackground]
+ * @property {number} [minimumRows]
  * @property {number} [maxHeight]
  * @property {boolean} [iceColors]
  * @property {boolean} [dosAnsi]
@@ -598,6 +599,18 @@ class TerminalEmulator {
             );
         }
         this.columns = requestedColumns;
+        const requestedMinimumRows =
+            typeof opts.minimumRows === "number" ? opts.minimumRows : 0;
+        if (
+            !Number.isSafeInteger(requestedMinimumRows) ||
+            requestedMinimumRows < 0 ||
+            requestedMinimumRows > MAX_TERMINAL_ROWS
+        ) {
+            throw new RangeError(
+                `Terminal minimum rows must be between 0 and ${MAX_TERMINAL_ROWS}.`
+            );
+        }
+        this.minimumRows = requestedMinimumRows;
         this.autoWrap = opts.autoWrap !== undefined ? opts.autoWrap : true;
         this.clampAtRightMargin = false;
         this.wrapPending = false;
@@ -1390,7 +1403,7 @@ class TerminalEmulator {
     }
 
     recalculateBounds() {
-        let maxRow = 0;
+        let maxRow = Math.max(0, this.minimumRows - 1);
         let maxCol = 0;
         this.rows.forEach((row, index) => {
             this.recalculateRowBounds(index);
@@ -1976,6 +1989,7 @@ function main(argv = process.argv.slice(2)) {
                 (sauce && sauce.tInfo1 ? sauce.tInfo1 : DEFAULT_COLUMNS);
             const { warnings, terminal } = convertAnsiToPs1(content, {
                 columns: terminalColumns,
+                minimumRows: sauce?.tInfo2 || undefined,
                 autoWrap: options.autoWrap,
                 stripSpaceBackground: options.stripSpaceBackground,
                 iceColors: Boolean(sauce && sauce.flags & 1),
@@ -2034,6 +2048,7 @@ function main(argv = process.argv.slice(2)) {
             (sauce && sauce.tInfo1 ? sauce.tInfo1 : DEFAULT_COLUMNS);
         const terminalOptions = {
             columns: terminalColumns,
+            minimumRows: sauce?.tInfo2 || undefined,
             autoWrap: options.autoWrap,
             stripSpaceBackground: options.stripSpaceBackground,
             iceColors: Boolean(sauce && sauce.flags & 1),

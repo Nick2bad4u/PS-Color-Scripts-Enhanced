@@ -216,7 +216,8 @@ For every new third-party import:
 4. Deduplicate against both source ANSI assets and normalized rendered terminal-cell fingerprints.
 5. Decode traditional DOS/BBS art using its real encoding, usually CP437.
 6. Preserve SAUCE geometry, iCE state, colored spaces, margins, and blank rows; validate terminal dimensions and split only where visual composition remains coherent.
-7. Convert deterministically, add metadata, and run corpus/conversion/rendering tests.
-8. Do not claim that an archive, mirror, or gallery relicensed an individual artist's work.
+7. Compare the generated scripts with the raw source using `node ./scripts/Verify-AnsiConversion.mjs --source=<file> --prefix=<script-prefix>`; exact terminal-cell and coordinate coverage must match.
+8. Add metadata and run corpus, conversion, rendering, documentation, and packaging tests.
+9. Do not claim that an archive, mirror, or gallery relicensed an individual artist's work.
 
 See [ANSI-CONVERSION-GUIDE.md](ANSI-CONVERSION-GUIDE.md) for the technical conversion workflow.

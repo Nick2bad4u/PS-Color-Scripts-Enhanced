@@ -4262,6 +4262,8 @@
             '16c-mist-30-zii-ubbs-part02',
             '16c-mist-30-zii-ubbs-part03',
             '16c-mist-30-zii-ubbs-part04',
+            '16c-mist-30-zii-ubbs-part05',
+            '16c-mist-30-zii-ubbs-part06',
             '16c-mist0224-2stoned-manson2-part01',
             '16c-mist0224-2stoned-manson2-part02',
             '16c-mist0224-ni-gjet',
@@ -12480,6 +12482,8 @@
             '16c-mist-30-zii-ubbs-part02',
             '16c-mist-30-zii-ubbs-part03',
             '16c-mist-30-zii-ubbs-part04',
+            '16c-mist-30-zii-ubbs-part05',
+            '16c-mist-30-zii-ubbs-part06',
             '16c-mist0224-2stoned-manson2-part01',
             '16c-mist0224-2stoned-manson2-part02',
             '16c-mist0224-ni-gjet',
@@ -18136,6 +18140,8 @@
         '16c-mist-30-zii-ubbs-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusII', 'Mistigris', '16colors', 'SplitPart')
         '16c-mist-30-zii-ubbs-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusII', 'Mistigris', '16colors', 'SplitPart')
         '16c-mist-30-zii-ubbs-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusII', 'Mistigris', '16colors', 'SplitPart')
+        '16c-mist-30-zii-ubbs-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusII', 'Mistigris', '16colors', 'SplitPart')
+        '16c-mist-30-zii-ubbs-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusII', 'Mistigris', '16colors', 'SplitPart')
         '16c-mist0224-2stoned-manson2-part01' = @('ANSI', 'ASCIIArt', 'Artistic', '2Stoned', 'Mistigris', '16colors', 'SplitPart')
         '16c-mist0224-2stoned-manson2-part02' = @('ANSI', 'ASCIIArt', 'Artistic', '2Stoned', 'Mistigris', '16colors', 'SplitPart')
         '16c-mist0224-ni-gjet' = @('ANSI', 'ASCIIArt', 'Artistic', 'nitron', 'mistigris', '16colors')
@@ -19781,8 +19787,8 @@
         '16c-blocktronics-resvolution-pk-lud' = 'pk-lud.ans by Pook from blocktronics_resvolution.'
         '16c-blocktronics-resvolution-pk-monster-part01' = 'pk-monster.ans by Pook from blocktronics_resvolution, source rows 1-33.'
         '16c-blocktronics-resvolution-pk-monster-part02' = 'pk-monster.ans by Pook from blocktronics_resvolution, source rows 34-66.'
-        '16c-blocktronics-resvolution-we-67-part01' = 'we-67.ans by Pook + Tombin + Avenging Angel from blocktronics_resvolution, source rows 1-30.'
-        '16c-blocktronics-resvolution-we-67-part02' = 'we-67.ans by Pook + Tombin + Avenging Angel from blocktronics_resvolution, source rows 31-59.'
+        '16c-blocktronics-resvolution-we-67-part01' = 'we-67.ans by Pook + Tombin + Avenging Angel from blocktronics_resvolution, source rows 1-39.'
+        '16c-blocktronics-resvolution-we-67-part02' = 'we-67.ans by Pook + Tombin + Avenging Angel from blocktronics_resvolution, source rows 40-59.'
         '16c-blocktronics-resvolution-we-b71-part01' = 'we-b71.ans by Pook + Cardiac Arrest from blocktronics_resvolution, source rows 1-41.'
         '16c-blocktronics-resvolution-we-b71-part02' = 'we-b71.ans by Pook + Cardiac Arrest from blocktronics_resvolution, source rows 42-82.'
         '16c-blocktronics-resvolution-we-bsd' = 'we-bsd.ans by Avenging Angel + Noches from blocktronics_resvolution.'
@@ -20213,8 +20219,8 @@
         '16c-blocktronics-acid-trip-avg-evoke2013-part01' = 'evoke 2013 by avenging angel from blocktronics_acid_trip, source rows 1-28.'
         '16c-blocktronics-acid-trip-avg-evoke2013-part02' = 'evoke 2013 by avenging angel from blocktronics_acid_trip, source rows 29-55.'
         '16c-blocktronics-acid-trip-aw-fluph-part01' = 'Fluph by abdully wahaa from blocktronics_acid_trip, source rows 1-37.'
-        '16c-blocktronics-acid-trip-aw-fluph-part02' = 'Fluph by abdully wahaa from blocktronics_acid_trip, source rows 38-74.'
-        '16c-blocktronics-acid-trip-aw-fluph-part03' = 'Fluph by abdully wahaa from blocktronics_acid_trip, source rows 75-110.'
+        '16c-blocktronics-acid-trip-aw-fluph-part02' = 'Fluph by abdully wahaa from blocktronics_acid_trip, source rows 38-84.'
+        '16c-blocktronics-acid-trip-aw-fluph-part03' = 'Fluph by abdully wahaa from blocktronics_acid_trip, source rows 85-110.'
         '16c-blocktronics-acid-trip-bw-acidtrip-part01' = 'ACiD trip by binary walker from blocktronics_acid_trip, source rows 1-44.'
         '16c-blocktronics-acid-trip-bw-acidtrip-part02' = 'ACiD trip by binary walker from blocktronics_acid_trip, source rows 45-88.'
         '16c-blocktronics-acid-trip-bw-acidtrip-part03' = 'ACiD trip by binary walker from blocktronics_acid_trip, source rows 89-131.'
@@ -20345,8 +20351,8 @@
         '16c-blocktronics-space-invaders-rad2m-bsides-part01' = 'BSides by Rad Man + Mattmatthew from blocktronics_space_invaders, source rows 1-34.'
         '16c-blocktronics-space-invaders-rad2m-bsides-part02' = 'BSides by Rad Man + Mattmatthew from blocktronics_space_invaders, source rows 35-67.'
         '16c-blocktronics-space-invaders-we-diamondie-part01' = 'we-diamondie.ans by Avenging Angel + Delicious + Enzo from blocktronics_space_invaders, source rows 1-36.'
-        '16c-blocktronics-space-invaders-we-diamondie-part02' = 'we-diamondie.ans by Avenging Angel + Delicious + Enzo from blocktronics_space_invaders, source rows 37-72.'
-        '16c-blocktronics-space-invaders-we-diamondie-part03' = 'we-diamondie.ans by Avenging Angel + Delicious + Enzo from blocktronics_space_invaders, source rows 73-108.'
+        '16c-blocktronics-space-invaders-we-diamondie-part02' = 'we-diamondie.ans by Avenging Angel + Delicious + Enzo from blocktronics_space_invaders, source rows 37-82.'
+        '16c-blocktronics-space-invaders-we-diamondie-part03' = 'we-diamondie.ans by Avenging Angel + Delicious + Enzo from blocktronics_space_invaders, source rows 83-108.'
         '16c-fdr-01-cl-bic' = 'Break Into Chat by Cleaner from fdr-01.'
         '16c-fdr-01-cl-fdr' = 'Fire Dream by Cleaner from fdr-01.'
         '16c-fdr-01-cl-go10' = 'Goto10 by Cleaner from fdr-01.'
@@ -20381,8 +20387,8 @@
         '16c-apathy13-jp-apa13-part02' = 'apathy #13 by jack phlash from apathy13, source rows 35-68.'
         '16c-apathy13-jp-apa13-part03' = 'apathy #13 by jack phlash from apathy13, source rows 69-101.'
         '16c-apathy13-lu-happy-birthday-tcf' = 'happy birthday tcf by luciano ayres from apathy13.'
-        '16c-apathy13-lu-liveyourdreams-part01' = 'live your dreams by luciano ayres from apathy13, source rows 1-43.'
-        '16c-apathy13-lu-liveyourdreams-part02' = 'live your dreams by luciano ayres from apathy13, source rows 44-86.'
+        '16c-apathy13-lu-liveyourdreams-part01' = 'live your dreams by luciano ayres from apathy13, source rows 1-50.'
+        '16c-apathy13-lu-liveyourdreams-part02' = 'live your dreams by luciano ayres from apathy13, source rows 51-86.'
         '16c-apathy13-lu-liveyourdreams-part03' = 'live your dreams by luciano ayres from apathy13, source rows 87-129.'
         '16c-apathy13-lu-sweet16c-round-1-part01' = 'sweet 16 round 1 by luciano ayres from apathy13, source rows 1-44.'
         '16c-apathy13-lu-sweet16c-round-1-part02' = 'sweet 16 round 1 by luciano ayres from apathy13, source rows 45-88.'
@@ -20688,8 +20694,8 @@
         '16c-blocktronics-block-n-roll-iluvfilth-part02' = 'iluvfilth.ans by Tcf from blocktronics_block_n_roll, source rows 40-77.'
         '16c-blocktronics-block-n-roll-iluvfilth-part03' = 'iluvfilth.ans by Tcf from blocktronics_block_n_roll, source rows 78-115.'
         '16c-blocktronics-block-n-roll-iluvfilth-part04' = 'iluvfilth.ans by Tcf from blocktronics_block_n_roll, source rows 116-153.'
-        '16c-blocktronics-block-n-roll-luciano-0-neural-robot-panel01-part01' = 'Luciano-0-Neural Robot.ans by Enzo from blocktronics_block_n_roll, source rows 1-41.'
-        '16c-blocktronics-block-n-roll-luciano-0-neural-robot-panel01-part02' = 'Luciano-0-Neural Robot.ans by Enzo from blocktronics_block_n_roll, source rows 42-72.'
+        '16c-blocktronics-block-n-roll-luciano-0-neural-robot-panel01-part01' = 'Luciano-0-Neural Robot.ans by Enzo from blocktronics_block_n_roll, source rows 1-50.'
+        '16c-blocktronics-block-n-roll-luciano-0-neural-robot-panel01-part02' = 'Luciano-0-Neural Robot.ans by Enzo from blocktronics_block_n_roll, source rows 51-77.'
         '16c-blocktronics-block-n-roll-luciano-0-neural-robot-panel01-part03' = 'Luciano-0-Neural Robot.ans by Enzo from blocktronics_block_n_roll, source rows 73-103.'
         '16c-blocktronics-block-n-roll-luciano-0-neural-robot-panel02-part01' = 'Luciano-0-Neural Robot.ans by Enzo from blocktronics_block_n_roll, source rows 1-35.'
         '16c-blocktronics-block-n-roll-luciano-0-neural-robot-panel02-part02' = 'Luciano-0-Neural Robot.ans by Enzo from blocktronics_block_n_roll, source rows 36-69.'
@@ -20706,8 +20712,8 @@
         '16c-blocktronics-block-n-roll-luciano-3-1-shadow-unlimited-part04' = 'Luciano-3-1-Shadow Unlimited.ans by Enzo from blocktronics_block_n_roll, source rows 115-151.'
         '16c-blocktronics-block-n-roll-luciano-5-twg-part01' = 'Luciano-5-TWG.ans by Enzo from blocktronics_block_n_roll, source rows 1-47.'
         '16c-blocktronics-block-n-roll-luciano-5-twg-part02' = 'Luciano-5-TWG.ans by Enzo from blocktronics_block_n_roll, source rows 48-94.'
-        '16c-blocktronics-block-n-roll-luciano-6-freedom-train-game-cities-part01' = 'Luciano-6-Freedom Train Game Cities.ans by Enzo from blocktronics_block_n_roll, source rows 1-39.'
-        '16c-blocktronics-block-n-roll-luciano-6-freedom-train-game-cities-part02' = 'Luciano-6-Freedom Train Game Cities.ans by Enzo from blocktronics_block_n_roll, source rows 40-77.'
+        '16c-blocktronics-block-n-roll-luciano-6-freedom-train-game-cities-part01' = 'Luciano-6-Freedom Train Game Cities.ans by Enzo from blocktronics_block_n_roll, source rows 1-49.'
+        '16c-blocktronics-block-n-roll-luciano-6-freedom-train-game-cities-part02' = 'Luciano-6-Freedom Train Game Cities.ans by Enzo from blocktronics_block_n_roll, source rows 50-77.'
         '16c-blocktronics-block-n-roll-luciano-6-freedom-train-game-cities-part03' = 'Luciano-6-Freedom Train Game Cities.ans by Enzo from blocktronics_block_n_roll, source rows 78-105.'
         '16c-blocktronics-block-n-roll-misfit-fishbrain-part01' = 'misfit - fishbrain.ANS by Misfit from blocktronics_block_n_roll, source rows 1-46.'
         '16c-blocktronics-block-n-roll-misfit-fishbrain-part02' = 'misfit - fishbrain.ANS by Misfit from blocktronics_block_n_roll, source rows 47-92.'
@@ -21225,8 +21231,8 @@
         '16c-cx-timeline-009-sc-stalk-part03' = 'Stalker''s guild logoff by Skarecrow from cx-timeline, source rows 86-127.'
         '16c-cx-timeline-009-sc-stalk-part04' = 'Stalker''s guild logoff by Skarecrow from cx-timeline, source rows 128-169.'
         '16c-cx-timeline-009-sc-stalk-part05' = 'Stalker''s guild logoff by Skarecrow from cx-timeline, source rows 170-211.'
-        '16c-cx-timeline-011-sc-semw-part01' = 'Seminole Wind by Skarecrow from cx-timeline, source rows 1-43.'
-        '16c-cx-timeline-011-sc-semw-part02' = 'Seminole Wind by Skarecrow from cx-timeline, source rows 44-86.'
+        '16c-cx-timeline-011-sc-semw-part01' = 'Seminole Wind by Skarecrow from cx-timeline, source rows 1-50.'
+        '16c-cx-timeline-011-sc-semw-part02' = 'Seminole Wind by Skarecrow from cx-timeline, source rows 51-86.'
         '16c-cx-timeline-011-sc-semw-part03' = 'Seminole Wind by Skarecrow from cx-timeline, source rows 87-128.'
         '16c-cx-timeline-011-sc-semw-part04' = 'Seminole Wind by Skarecrow from cx-timeline, source rows 129-158.'
         '16c-cx-timeline-014-sc-rain-part01' = 'SC-Rain by Skarecrow from cx-timeline, source rows 1-41.'
@@ -21269,8 +21275,8 @@
         '16c-fool27-axii-floo-part02' = 'FLOO by Apollo XIII from fool27, source rows 48-94.'
         '16c-fool27-fs-fool' = 'fool by farts from fool27.'
         '16c-fool27-s-57hate' = '57 - sucktronics by screw from fool27.'
-        '16c-fool27-smm-fool-part01' = 'NO ENERGY LEFT FOR U by SEL MAR MUPERFAR from fool27, source rows 1-30.'
-        '16c-fool27-smm-fool-part02' = 'NO ENERGY LEFT FOR U by SEL MAR MUPERFAR from fool27, source rows 31-59.'
+        '16c-fool27-smm-fool-part01' = 'NO ENERGY LEFT FOR U by SEL MAR MUPERFAR from fool27, source rows 1-40.'
+        '16c-fool27-smm-fool-part02' = 'NO ENERGY LEFT FOR U by SEL MAR MUPERFAR from fool27, source rows 41-59.'
         '16c-fool27-smm-pelican' = 'PELiCAN MAN by SEL MAR MUPERFAR from fool27.'
         '16c-fuel25-gj-fuel' = 'The Fuel and the Fury by grymmjack (gj!) from fuel25.'
         '16c-fuel25-tk-araknet-part01' = 'ArakNet board by the knight from fuel25, source rows 1-31.'
@@ -22041,8 +22047,8 @@
         '16c-mist0420-k-thulu-blocktober-centaur-part02' = 'half shark alligator half man by K-thulu+++ from mist0420, source rows 28-53.'
         '16c-mist0420-rg-6-the-mistigris2020-bee2butterfly-1th-april-joke-part01' = 'Bee2Butterfly by CoaXCable from mist0420, source rows 1-26.'
         '16c-mist0420-rg-6-the-mistigris2020-bee2butterfly-1th-april-joke-part02' = 'Bee2Butterfly by CoaXCable from mist0420, source rows 27-52.'
-        '16c-mist0520-lda-home-part01' = 'Home by LDA from mist0520, source rows 1-45.'
-        '16c-mist0520-lda-home-part02' = 'Home by LDA from mist0520, source rows 46-89.'
+        '16c-mist0520-lda-home-part01' = 'Home by LDA from mist0520, source rows 1-39.'
+        '16c-mist0520-lda-home-part02' = 'Home by LDA from mist0520, source rows 40-89.'
         '16c-mist0520-lda-home-part03' = 'Home by LDA from mist0520, source rows 90-133.'
         '16c-mist0520-lda-home-part04' = 'Home by LDA from mist0520, source rows 134-177.'
         '16c-mist0520-lda-home-part05' = 'Home by LDA from mist0520, source rows 178-221.'
@@ -22082,7 +22088,7 @@
         '16c-mist1220-odd-spirit' = 'Holiday Spirit boss fight by OddManBoi from mist1220.'
         '16c-mist-30-zii-lpht-part05' = 'lopht BBS by Zeus II from mist-30, source rows 109-135.'
         '16c-mist-30-zii-lpht-part06' = 'lopht BBS by Zeus II from mist-30, source rows 136-162.'
-        '16c-mist-30-zii-lpht-part07' = 'lopht BBS by Zeus II from mist-30, source rows 163-184.'
+        '16c-mist-30-zii-lpht-part07' = 'lopht BBS by Zeus II from mist-30, source rows 163-190.'
         'roy-sac-roy-stuf-faith' = 'FAITH.ANS by Roy/SAC aka Carsten Cumbrowski from roy-stuf.'
         'roy-sac-roy-stuf-ph' = 'ROY-PH.ANS by Roy/SAC aka Carsten Cumbrowski from roy-stuf.'
         'roy-sac-roy-stuf-trsi2' = 'TRSI2.ANS by Roy/SAC aka Carsten Cumbrowski from roy-stuf.'
@@ -22133,11 +22139,11 @@
         '16c-cph-artpack28-cxc-capitol-shrill-bbs-covid19gasmask-final' = 'cxc_capitol_shrill_bbs_covid19gasmask_final.ans by Coaxcable from cph.artpack28.'
         '16c-cph-artpack28-cxc-capitol-shrill-bbs-washington-monument-final-part01' = 'cxc-capitol_shrill-bbs_washington_monument_final.ans by Coaxcable from cph.artpack28, source rows 1-27.'
         '16c-cph-artpack28-cxc-capitol-shrill-bbs-washington-monument-final-part02' = 'cxc-capitol_shrill-bbs_washington_monument_final.ans by Coaxcable from cph.artpack28, source rows 28-54.'
-        '16c-cph-artpack28-cxc-cellfish-banners-colly-final-part01' = 'cxc_cellfish_banners_colly_final.ans by Coaxcable from cph.artpack28, source rows 1-29.'
-        '16c-cph-artpack28-cxc-cellfish-banners-colly-final-part02' = 'cxc_cellfish_banners_colly_final.ans by Coaxcable from cph.artpack28, source rows 30-58.'
+        '16c-cph-artpack28-cxc-cellfish-banners-colly-final-part01' = 'cxc_cellfish_banners_colly_final.ans by Coaxcable from cph.artpack28, source rows 1-39.'
+        '16c-cph-artpack28-cxc-cellfish-banners-colly-final-part02' = 'cxc_cellfish_banners_colly_final.ans by Coaxcable from cph.artpack28, source rows 40-58.'
         '16c-cph-artpack28-cxc-creep-of-latex-banner-final' = 'cxc_creep_of_latex_banner_final.ans by Coaxcable from cph.artpack28.'
-        '16c-cph-artpack28-cxc-hackfest-banners-final-colly-part01' = 'cxc_hackfest_banners_final_colly.ans by Coaxcable from cph.artpack28, source rows 1-32.'
-        '16c-cph-artpack28-cxc-hackfest-banners-final-colly-part02' = 'cxc_hackfest_banners_final_colly.ans by Coaxcable from cph.artpack28, source rows 33-63.'
+        '16c-cph-artpack28-cxc-hackfest-banners-final-colly-part01' = 'cxc_hackfest_banners_final_colly.ans by Coaxcable from cph.artpack28, source rows 1-22.'
+        '16c-cph-artpack28-cxc-hackfest-banners-final-colly-part02' = 'cxc_hackfest_banners_final_colly.ans by Coaxcable from cph.artpack28, source rows 23-63.'
         '16c-cph-artpack28-cxc-mysticbbs-banners-colly-final' = 'cxc_mysticbbs-banners_colly_final.ans by Coaxcable from cph.artpack28.'
         '16c-cph-artpack28-cxc-silicon-underground-blue-skull-menu-blood-final-ans' = 'cxc_silicon-underground_blue_skull_menu_blood_final.ans.ans by Coaxcable from cph.artpack28.'
         '16c-cph-artpack28-cxc-sos-parrot-comics-ansi-final' = 'cxc_sos_parrot_comics_ansi_final.ans by Coaxcable from cph.artpack28.'
@@ -23385,7 +23391,7 @@
         '16c-mist1223-2stoned-happy-holidaze-part02' = 'Happy Holidaze by 2Stoned from mist1223, source rows 51-80.'
         '16c-mist1223-2stoned-mistletoe-part01' = 'Season''s Greetings by 2Stoned from mist1223, source rows 1-36.'
         '16c-mist1223-2stoned-mistletoe-part02' = 'Season''s Greetings by 2Stoned from mist1223, source rows 37-71.'
-        '16c-mist1223-2stoned-mistletoe-part03' = 'Season''s Greetings by 2Stoned from mist1223, source rows 72-106.'
+        '16c-mist1223-2stoned-mistletoe-part03' = 'Season''s Greetings by 2Stoned from mist1223, source rows 72-107.'
         '16c-mist1223-darkman-almighty-trekmas-love-story-part01' = 'A Trekmas Love Story by Darkman Almighty from mist1223, source rows 1-50.'
         '16c-mist1223-darkman-almighty-trekmas-love-story-part02' = 'A Trekmas Love Story by Darkman Almighty from mist1223, source rows 51-100.'
         '16c-mist1223-darkman-almighty-trekmas-love-story-part03' = 'A Trekmas Love Story by Darkman Almighty from mist1223, source rows 101-118.'
@@ -23645,10 +23651,10 @@
         '16c-laz18-tv-ibmps1-part01' = 'IBM PS1 by TELEKOVISION from laz18, source rows 1-50.'
         '16c-laz18-tv-ibmps1-part02' = 'IBM PS1 by TELEKOVISION from laz18, source rows 51-100.'
         '16c-laz18-tv-ibmps1-part03' = 'IBM PS1 by TELEKOVISION from laz18, source rows 101-122.'
-        '16c-laz18-tv-phant-part01' = 'The Lazarus - PHANT. by TELEKOVISION from laz18, source rows 1-40.'
-        '16c-laz18-tv-phant-part02' = 'The Lazarus - PHANT. by TELEKOVISION from laz18, source rows 41-80.'
-        '16c-laz18-tv-phant-part03' = 'The Lazarus - PHANT. by TELEKOVISION from laz18, source rows 81-120.'
-        '16c-laz18-tv-phant-part04' = 'The Lazarus - PHANT. by TELEKOVISION from laz18, source rows 121-159.'
+        '16c-laz18-tv-phant-part01' = 'The Lazarus - PHANT. by TELEKOVISION from laz18, source rows 1-50.'
+        '16c-laz18-tv-phant-part02' = 'The Lazarus - PHANT. by TELEKOVISION from laz18, source rows 51-100.'
+        '16c-laz18-tv-phant-part03' = 'The Lazarus - PHANT. by TELEKOVISION from laz18, source rows 101-120.'
+        '16c-laz18-tv-phant-part04' = 'The Lazarus - PHANT. by TELEKOVISION from laz18, source rows 121-161.'
         '16c-laz18-us-16colors-part01' = '16 Serpents by Warpus + Nitron from laz18, source rows 1-50.'
         '16c-laz18-us-16colors-part02' = '16 Serpents by Warpus + Nitron from laz18, source rows 51-100.'
         '16c-laz18-us-16colors-part03' = '16 Serpents by Warpus + Nitron from laz18, source rows 101-132.'
@@ -23820,10 +23826,12 @@
         '16c-mist-30-zii-shur-part01' = 'SHS BBS ansis by Zeus II from mist-30, source rows 1-50.'
         '16c-mist-30-zii-shur-part02' = 'SHS BBS ansis by Zeus II from mist-30, source rows 51-85.'
         '16c-mist-30-zii-shur-part03' = 'SHS BBS ansis by Zeus II from mist-30, source rows 86-107.'
-        '16c-mist-30-zii-ubbs-part01' = 'Uncomfortable Business by Zeus II from mist-30, source rows 1-50.'
-        '16c-mist-30-zii-ubbs-part02' = 'Uncomfortable Business by Zeus II from mist-30, source rows 51-83.'
-        '16c-mist-30-zii-ubbs-part03' = 'Uncomfortable Business by Zeus II from mist-30, source rows 84-133.'
-        '16c-mist-30-zii-ubbs-part04' = 'Uncomfortable Business by Zeus II from mist-30, source rows 134-161.'
+        '16c-mist-30-zii-ubbs-part01' = 'Uncomfortable Business by Zeus II from mist-30, source rows 1-29.'
+        '16c-mist-30-zii-ubbs-part02' = 'Uncomfortable Business by Zeus II from mist-30, source rows 30-56.'
+        '16c-mist-30-zii-ubbs-part03' = 'Uncomfortable Business by Zeus II from mist-30, source rows 57-83.'
+        '16c-mist-30-zii-ubbs-part04' = 'Uncomfortable Business by Zeus II from mist-30, source rows 84-110.'
+        '16c-mist-30-zii-ubbs-part05' = 'Uncomfortable Business by Zeus II from mist-30, source rows 111-137.'
+        '16c-mist-30-zii-ubbs-part06' = 'Uncomfortable Business by Zeus II from mist-30, source rows 138-169.'
         '16c-mist0224-2stoned-manson2-part01' = 'Marilyn Manson by 2Stoned from mist0224, source rows 1-50.'
         '16c-mist0224-2stoned-manson2-part02' = 'Marilyn Manson by 2Stoned from mist0224, source rows 51-63.'
         '16c-mist0224-ni-gjet' = 'groovejet by nitron from mist0224.'

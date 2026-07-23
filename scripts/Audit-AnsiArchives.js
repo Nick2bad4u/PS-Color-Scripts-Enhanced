@@ -1892,6 +1892,7 @@ function analyzeAnsiRender(raw) {
     const columns = sauce?.tInfo1 || 80;
     const converted = convertAnsiToPs1(content, {
         columns,
+        minimumRows: sauce?.tInfo2 || undefined,
         iceColors: Boolean(sauce && sauce.flags & 1),
         stripSpaceBackground: false,
         dosAnsi: true,

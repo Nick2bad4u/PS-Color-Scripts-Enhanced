@@ -41,6 +41,7 @@
     "ansi:audit": "node ./scripts/Audit-AnsiArchives.js",
     "ansi:audit:offline": "node ./scripts/Audit-AnsiArchives.js --offline",
     "ansi:gallery-analysis": "node ./scripts/Analyze-ColorScripts.mjs",
+    "ansi:verify-conversion": "node ./scripts/Verify-AnsiConversion.mjs",
     "build": "pwsh -NoProfile -File ./scripts/build.ps1 && npm run release:notes && npm run release:notes:latest && npm run test:conversion && npm run verify && npm run test:coverage",
     "build:help": "pwsh -NoProfile -File ./scripts/Build-Help.ps1 -UpdateMarkdown",
     "build:skip-help": "pwsh -NoProfile -File ./scripts/build.ps1 -SkipHelp",
