@@ -589,9 +589,6 @@
             '16c-blocktronics-1010-ndh-greater-in-battle-part04',
             '16c-blocktronics-1010-ungenannt-floating-away-part01',
             '16c-blocktronics-1010-ungenannt-floating-away-part02',
-            '16c-blocktronics-1010-zii-retr-part01',
-            '16c-blocktronics-1010-zii-retr-part02',
-            '16c-blocktronics-1010-zii-retr-part03',
             '16c-blocktronics-1980-k1-1967-part01',
             '16c-blocktronics-1980-k1-1967-part02',
             '16c-blocktronics-1980-mr-blob',
@@ -9052,9 +9049,6 @@
             '16c-blocktronics-1010-ndh-greater-in-battle-part04',
             '16c-blocktronics-1010-ungenannt-floating-away-part01',
             '16c-blocktronics-1010-ungenannt-floating-away-part02',
-            '16c-blocktronics-1010-zii-retr-part01',
-            '16c-blocktronics-1010-zii-retr-part02',
-            '16c-blocktronics-1010-zii-retr-part03',
             '16c-blocktronics-1980-k1-1967-part01',
             '16c-blocktronics-1980-k1-1967-part02',
             '16c-blocktronics-1980-mr-blob',
@@ -14953,9 +14947,6 @@
         '16c-blocktronics-1010-ndh-greater-in-battle-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'AndyHerbert', 'blocktronics', '16colors', 'SplitPart')
         '16c-blocktronics-1010-ungenannt-floating-away-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ungenannt', 'blocktronics1010', '16colors', 'SplitPart')
         '16c-blocktronics-1010-ungenannt-floating-away-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ungenannt', 'blocktronics1010', '16colors', 'SplitPart')
-        '16c-blocktronics-1010-zii-retr-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusIi', 'blocktronics1010', '16colors', 'SplitPart')
-        '16c-blocktronics-1010-zii-retr-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusIi', 'blocktronics1010', '16colors', 'SplitPart')
-        '16c-blocktronics-1010-zii-retr-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusIi', 'blocktronics1010', '16colors', 'SplitPart')
         '16c-blocktronics-1980-k1-1967-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'blocktronics1980', '16colors', 'SplitPart')
         '16c-blocktronics-1980-k1-1967-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'blocktronics1980', '16colors', 'SplitPart')
         '16c-blocktronics-1980-mr-blob' = @('ANSI', 'ASCIIArt', 'Artistic', 'MrWrong', 'blocktronics1980', '16colors')
@@ -20886,9 +20877,6 @@
         '16c-blocktronics-1010-ndh-greater-in-battle-part04' = 'Greater in Battle by Andy Herbert from blocktronics_1010, source rows 137-181.'
         '16c-blocktronics-1010-ungenannt-floating-away-part01' = 'ungenannt_floating away.ans by Ungenannt from blocktronics_1010, source rows 1-29.'
         '16c-blocktronics-1010-ungenannt-floating-away-part02' = 'ungenannt_floating away.ans by Ungenannt from blocktronics_1010, source rows 30-58.'
-        '16c-blocktronics-1010-zii-retr-part01' = 'zii-RETR.ans by Zeus Ii from blocktronics_1010, source rows 1-48.'
-        '16c-blocktronics-1010-zii-retr-part02' = 'zii-RETR.ans by Zeus Ii from blocktronics_1010, source rows 49-96.'
-        '16c-blocktronics-1010-zii-retr-part03' = 'zii-RETR.ans by Zeus Ii from blocktronics_1010, source rows 97-143.'
         '16c-blocktronics-1980-k1-1967-part01' = 'k1-1967.ans by Knocturnal from blocktronics_1980, source rows 1-34.'
         '16c-blocktronics-1980-k1-1967-part02' = 'k1-1967.ans by Knocturnal from blocktronics_1980, source rows 35-68.'
         '16c-blocktronics-1980-mr-blob' = 'Mr-Blob.ans by Mr Wrong from blocktronics_1980.'
