@@ -345,6 +345,13 @@ Describe 'Curated ANSI artwork provenance' {
             Should -Be ($years.PackCount | Measure-Object -Sum).Sum
         $script:Checkpoint.SixteenColors.Totals.CandidateCount |
             Should -Be ($years.CandidateCount | Measure-Object -Sum).Sum
+        $script:Checkpoint.SixteenColors.Totals.ApiReportedPackTotal | Should -Be 5487
+        $script:Checkpoint.SixteenColors.Totals.ApiEnumeratedPackCount | Should -Be 5479
+        $script:Checkpoint.SixteenColors.Totals.ApiUnreturnedPackCount | Should -Be 8
+        (
+            $script:Checkpoint.SixteenColors.Totals.ApiReportedPackTotal -
+            $script:Checkpoint.SixteenColors.Totals.ApiEnumeratedPackCount
+        ) | Should -Be $script:Checkpoint.SixteenColors.Totals.ApiUnreturnedPackCount
 
         foreach ($year in $years) {
             $year.InventorySha256 | Should -Match '^[0-9a-f]{64}$'

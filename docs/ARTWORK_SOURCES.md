@@ -86,6 +86,8 @@ The 2008-2026 review is complete and its accepted works are in the module. Acros
 
 The older archive is not complete. Subtracting the 187 candidates now reviewed for 2008-2011 from the previous estimate leaves approximately 39,243 candidates across 18 years from 1990 through 2007. That total is explicitly an estimate, not a permanent inventory count: archive refreshes, API corrections, and normalized duplicate detection can change it.
 
+The API inventory currently reports 5,487 packs but returns 5,479 records. A live refresh on 2026-07-23 reproduced the same eight-record gap at both 500- and 250-record page sizes. Those unreturned records provide no pack name, year, or file metadata to inspect; the checkpoint retains all three counts explicitly. A completed-year claim therefore means every pack record the canonical API actually returned for that year was audited, not that the project inferred or silently skipped the eight opaque records.
+
 The Lake House is decoded from CP437 at its declared 80-column width without background stripping. Its 200 populated terminal rows are preserved as `1-40`, `41-80`, `81-112`, `113-144`, `145-176`, and `177-200`; the first three scripts form the continuous landscape and the final three preserve its BBS menu panels.
 
 ### Roy/SAC ANSI gallery

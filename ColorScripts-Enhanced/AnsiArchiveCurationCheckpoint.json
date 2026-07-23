@@ -22,6 +22,9 @@
   "sixteenColors": {
     "totals": {
       "completedYearCount": 19,
+      "apiReportedPackTotal": 5487,
+      "apiEnumeratedPackCount": 5479,
+      "apiUnreturnedPackCount": 8,
       "packCount": 393,
       "candidateCount": 8781,
       "importedWorkCount": 2252,
