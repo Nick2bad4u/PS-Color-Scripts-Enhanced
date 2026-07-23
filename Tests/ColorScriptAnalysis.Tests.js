@@ -514,6 +514,64 @@ test("split analysis flags dense cuts but not source blank boundaries", async ()
     );
 });
 
+test("split analysis flags continuous dense artwork when no safer boundary exists", async () => {
+    const { analyzeScript, analyzeSplitFamilies } = await analyzer;
+    const directory = createTemporaryDirectory();
+    const denseRows = Array.from(
+        { length: 50 },
+        () => `\u001b[31m${"█".repeat(40)}\u001b[0m`
+    );
+    const records = [
+        analyzeScript(
+            writeScript(
+                directory,
+                "continuous-part01",
+                "1-50",
+                denseRows.join("\n")
+            )
+        ),
+        analyzeScript(
+            writeScript(
+                directory,
+                "continuous-part02",
+                "51-100",
+                denseRows.join("\n")
+            )
+        ),
+    ];
+
+    const issues = analyzeSplitFamilies(records, {
+        blankRun: 3,
+        maxRows: 50,
+        tinyTailRows: 10,
+    });
+    const continuousReview = issues.find(
+        (issue) => issue.type === "continuous-split-review"
+    );
+
+    assert.equal(continuousReview.partCount, 2);
+    assert.equal(continuousReview.boundaryCount, 1);
+    assert.equal(continuousReview.boundaryRatio, 1);
+    assert.equal(continuousReview.sourceRows, "1-100");
+    assert.deepEqual(continuousReview.scripts, [
+        "continuous-part01",
+        "continuous-part02",
+    ]);
+    assert.deepEqual(continuousReview.boundaries, [
+        {
+            scripts: ["continuous-part01", "continuous-part02"],
+            boundaryAfterRow: 50,
+            previousVisibleCells: 40,
+            nextVisibleCells: 40,
+            boundaryWidth: 40,
+            minimumBoundaryCells: 12,
+        },
+    ]);
+    assert.ok(
+        !issues.some((issue) => issue.type === "dense-split-boundary")
+    );
+});
+
 test("analysis arguments reject unsafe thresholds and unknown options", async () => {
     const { parseArguments } = await analyzer;
 

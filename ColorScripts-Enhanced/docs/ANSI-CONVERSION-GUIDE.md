@@ -373,6 +373,7 @@ node .\scripts\Analyze-ColorScripts.mjs `
   --type=mergeable-adjacent-parts `
   --type=avoidable-extra-part `
   --type=dense-split-boundary `
+  --type=continuous-split-review `
   --type=tiny-tail-part `
   --type=leading-blank-run `
   --type=trailing-blank-run `
@@ -389,12 +390,19 @@ high extended-character ratio is not evidence of a bad conversion. Exact cell
 comparison is the fidelity test; complexity, density, and palette measurements
 help prioritize human review.
 
+`dense-split-boundary` means the current cut crosses dense artwork even though
+a nearby blank boundary could keep every part within the row limit.
+`continuous-split-review` means both sides of the cut are dense and no such
+blank boundary exists. The latter requires a preview review: retain it only
+when every emitted part is a coherent standalone gallery entry; otherwise the
+source does not fit the random gallery even when its conversion is exact.
+
 Use the queues according to the defect being investigated:
 
 | Review concern | Relevant issue types |
 | -------------- | -------------------- |
 | Unnecessary or undersized split parts | `mergeable-adjacent-parts`, `avoidable-extra-part`, `tiny-tail-part`, `very-small-output` |
-| Cuts through artwork or blank separators at part edges | `dense-split-boundary`, `leading-blank-run`, `trailing-blank-run` |
+| Cuts through artwork or blank separators at part edges | `dense-split-boundary`, `continuous-split-review`, `leading-blank-run`, `trailing-blank-run` |
 | Repetitive, sparse, or unusually simple output | `low-cell-variety`, `low-structural-complexity`, `sparse-cell-density`, `low-color-variety` |
 | Mostly basic ASCII rather than CP437/block art | `mostly-plain-ascii` |
 | Actual decoding damage | `suspicious-character-decoding` |

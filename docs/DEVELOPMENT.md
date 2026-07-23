@@ -104,7 +104,7 @@ node scripts/Split-AnsiFile.js ./art.ans --auto --dry-run
 npm run ansi:audit -- --source=16colors --pack=mist0624
 npm run ansi:audit:offline -- --cache-dir=./temp/ansi-archive-audit
 node ./scripts/Verify-AnsiConversion.mjs --source=./art.ans --prefix=16c-example
-node ./scripts/Analyze-ColorScripts.mjs --type=tiny-tail-part --type=dense-split-boundary
+node ./scripts/Analyze-ColorScripts.mjs --type=tiny-tail-part --type=dense-split-boundary --type=continuous-split-review
 npm run scripts:check-dupes
 npm run test:conversion
 ```

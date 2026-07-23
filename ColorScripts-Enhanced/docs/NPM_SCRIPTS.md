@@ -99,6 +99,7 @@ node ./scripts/Audit-AnsiArchives.js --source=16colors --pack=mist0624
 node ./scripts/Audit-AnsiArchives.js --offline --cache-dir=./temp/ansi-archive-audit
 node ./scripts/Analyze-ColorScripts.mjs --type=tiny-tail-part --json=./temp/gallery-analysis/tiny-tails.json
 node ./scripts/Analyze-ColorScripts.mjs --type=mergeable-adjacent-parts --type=avoidable-extra-part
+node ./scripts/Analyze-ColorScripts.mjs --type=dense-split-boundary --type=continuous-split-review
 node ./scripts/Analyze-ColorScripts.mjs --type=leading-blank-run --type=trailing-blank-run
 node ./scripts/Analyze-ColorScripts.mjs --type=mostly-plain-ascii --type=low-structural-complexity
 node ./scripts/Verify-AnsiConversion.mjs --source=./ZII-UBBS.ANS --prefix=16c-mist-30-zii-ubbs
@@ -107,8 +108,9 @@ node ./scripts/Verify-AnsiConversion.mjs --source=./ZII-UBBS.ANS --prefix=16c-mi
 Gallery-analysis findings are review signals, not automatic deletion
 decisions. The analyzer reconstructs terminal cells, counts background-colored
 spaces as visible, groups split parts by source family, reports adjacent parts
-that fit within the row limit, detects dense cuts when a nearby blank boundary
-is available, and distinguishes genuine source blank rows from the serializer's
+that fit within the row limit, detects dense cuts with a safer nearby blank
+boundary, separately queues continuous dense cuts that need standalone-panel
+review, and distinguishes genuine source blank rows from the serializer's
 presentation newline. Tail-part detection uses both row count and visible-cell
 ratios; sparse density, low structural complexity, and low color variety remain
 separate review signals because none is an artistic verdict by itself.

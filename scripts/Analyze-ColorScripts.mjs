@@ -37,6 +37,7 @@ const KNOWN_ISSUE_TYPES = new Set([
     "analysis-error",
     "avoidable-extra-part",
     "blank-part",
+    "continuous-split-review",
     "dense-split-boundary",
     "derivative-attribution-review",
     "leading-blank-run",
@@ -919,6 +920,7 @@ function analyzeSplitFamilies(records, options) {
             continue;
         }
         const mergeablePairs = [];
+        const continuousBoundaries = [];
         for (let index = 1; index < members.length; index += 1) {
             const previous = members[index - 1];
             const current = members[index];
@@ -979,9 +981,35 @@ function analyzeSplitFamilies(records, options) {
                             boundaryWidth,
                             minimumBoundaryCells,
                         });
+                    } else {
+                        continuousBoundaries.push({
+                            scripts: [previous.name, current.name],
+                            boundaryAfterRow: previous.sourceRowEnd,
+                            previousVisibleCells:
+                                previous.metrics.lastRowVisibleCells,
+                            nextVisibleCells:
+                                current.metrics.firstRowVisibleCells,
+                            boundaryWidth,
+                            minimumBoundaryCells,
+                        });
                     }
                 }
             }
+        }
+        if (continuousBoundaries.length > 0) {
+            issues.push({
+                type: "continuous-split-review",
+                family: first.splitBase,
+                panel: first.panel,
+                scripts: members.map((member) => member.name),
+                partCount: members.length,
+                boundaryCount: continuousBoundaries.length,
+                boundaryRatio:
+                    continuousBoundaries.length /
+                    Math.max(1, members.length - 1),
+                sourceRows: `${first.sourceRowStart}-${last.sourceRowEnd}`,
+                boundaries: continuousBoundaries,
+            });
         }
         if (mergeablePairs.length > 0) {
             issues.push({
@@ -1420,8 +1448,8 @@ function printUsage() {
 
 Review static colorscripts for suspicious split geometry, blank boundaries,
 small output, low terminal-cell or color complexity, character-decoding damage,
-plain ASCII, and derivative-source attribution. Findings are review signals,
-not automatic deletion decisions.
+plain ASCII, continuous artwork fragments, and derivative-source attribution.
+Findings are review signals, not automatic deletion decisions.
 
 Options:
   --json=<path>             Write the complete deterministic-data report as JSON
