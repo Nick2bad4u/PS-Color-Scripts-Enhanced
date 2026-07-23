@@ -109,7 +109,34 @@ npm run scripts:check-dupes
 npm run test:conversion
 ```
 
+When archive metadata has an incomplete artist or group credit, keep the
+verified file-scoped attribution in the resumable decision record rather than
+editing a generated report:
+
+```json
+{
+  "decisions": {
+    "16colors:pack/ART.ANS": {
+      "disposition": "accepted",
+      "note": "Attribution verified against the pack documentation.",
+      "artists": ["Verified Artist", "Joint Artist"],
+      "groups": ["Verified Group"]
+    }
+  }
+}
+```
+
+`artists` and `groups` are optional non-empty string arrays. The audit trims
+names and rejects blank or case-insensitive duplicate entries so a malformed
+override cannot silently replace archive attribution.
+
 Traditional DOS/BBS art is commonly CP437. Do not assume UTF-8 and do not infer redistribution rights from archive availability. Archival imports must keep background-colored spaces and source margins; use `--strip-space-bg` only for a source whose review explicitly proves those cells are disposable.
+
+Treat SAUCE dimensions as declared provenance, not as permission to synthesize
+unused cells. In particular, `tInfo2` may exceed the ANSI stream's rendered row
+extent. Preserve blank rows produced by source data or cursor movement, but
+compare the stream render with the official preview before treating a shorter
+render as data loss.
 
 ## Creating a Project-Authored Script
 

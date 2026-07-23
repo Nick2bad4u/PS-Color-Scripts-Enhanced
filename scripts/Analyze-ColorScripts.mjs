@@ -15,7 +15,6 @@ const SPLIT_NAME =
     /^(?<base>.+?)(?:-panel(?<panel>\d{2}))?-part(?<part>\d{2})$/u;
 const SOURCE_ROW_RANGE = /^# Lines:\s*(\d+)-(\d+)\s*$/mu;
 const SOURCE_COLUMN_RANGE = /^# Columns:\s*(\d+)-(\d+)\s*$/mu;
-const SAUCE_DIMENSIONS = /^# SAUCE Dimensions:\s*(\d+)x(\d+)\s*$/mu;
 const HEADER_FIELD = /^# ([^:\r\n]+):\s*(.*)$/gmu;
 const DERIVATIVE_SIGNAL =
     /\b(?:after|based on|fan art|original (?:art|artwork|image)|ripped|well[- ]known .{0,30} character)\b/iu;
@@ -47,7 +46,6 @@ const KNOWN_ISSUE_TYPES = new Set([
     "mergeable-adjacent-parts",
     "missing-source-coordinates",
     "mostly-plain-ascii",
-    "sauce-height-mismatch",
     "source-row-gap-or-overlap",
     "sparse-cell-density",
     "suspicious-character-decoding",
@@ -87,8 +85,6 @@ const defaultExceptionsPath = path.join(
  * @property {number | null} sourceRowEnd
  * @property {number | null} sourceColumnStart
  * @property {number | null} sourceColumnEnd
- * @property {number | null} sauceWidth
- * @property {number | null} sauceHeight
  * @property {string | null} splitBase
  * @property {number | null} panel
  * @property {number | null} part
@@ -700,7 +696,6 @@ function analyzeScript(filePath) {
     const name = path.basename(filePath, path.extname(filePath));
     const rowMatch = SOURCE_ROW_RANGE.exec(source);
     const columnMatch = SOURCE_COLUMN_RANGE.exec(source);
-    const sauceDimensionsMatch = SAUCE_DIMENSIONS.exec(source);
     const splitMatch = SPLIT_NAME.exec(name);
     const header = {};
     for (const match of source.matchAll(HEADER_FIELD)) {
@@ -740,12 +735,6 @@ function analyzeScript(filePath) {
         sourceRowEnd: rowMatch ? Number(rowMatch[2]) : null,
         sourceColumnStart: columnMatch ? Number(columnMatch[1]) : null,
         sourceColumnEnd: columnMatch ? Number(columnMatch[2]) : null,
-        sauceWidth: sauceDimensionsMatch
-            ? Number(sauceDimensionsMatch[1])
-            : null,
-        sauceHeight: sauceDimensionsMatch
-            ? Number(sauceDimensionsMatch[2])
-            : null,
         splitBase: splitMatch?.groups?.base || null,
         panel: splitMatch?.groups?.panel
             ? Number(splitMatch.groups.panel)
@@ -1023,28 +1012,6 @@ function analyzeSplitFamilies(records, options) {
             medianPreviousVisibleCells > 0
                 ? last.metrics.visibleCells / medianPreviousVisibleCells
                 : null;
-        const sauceHeights = [
-            ...new Set(
-                members
-                    .map((member) => member.sauceHeight)
-                    .filter((height) => height !== null)
-            ),
-        ];
-        if (
-            first.sourceRowStart === 1 &&
-            sauceHeights.length === 1 &&
-            last.sourceRowEnd < sauceHeights[0]
-        ) {
-            issues.push({
-                type: "sauce-height-mismatch",
-                family: first.splitBase,
-                panel: first.panel,
-                sauceHeight: sauceHeights[0],
-                coveredRows: `${first.sourceRowStart}-${last.sourceRowEnd}`,
-                missingRows: sauceHeights[0] - last.sourceRowEnd,
-                scripts: members.map((member) => member.name),
-            });
-        }
         const tailRowRatio = tailRows / options.maxRows;
         const tinyByRows =
             tailRows <= options.tinyTailRows || tailRowRatio <= 0.25;
@@ -1108,9 +1075,11 @@ function analyzeReviewSignals(records, options) {
     const issues = [];
     for (const record of records) {
         if (!record.reviewEligible) continue;
+        const family = record.name;
         if (!record.metrics) {
             issues.push({
                 type: "analysis-error",
+                family,
                 script: record.name,
                 error: record.analysisError,
             });
@@ -1120,6 +1089,7 @@ function analyzeReviewSignals(records, options) {
         if (metrics.leadingBlankRows >= options.blankRun) {
             issues.push({
                 type: "leading-blank-run",
+                family,
                 script: record.name,
                 rows: metrics.leadingBlankRows,
             });
@@ -1127,15 +1097,21 @@ function analyzeReviewSignals(records, options) {
         if (metrics.trailingBlankRows >= options.blankRun) {
             issues.push({
                 type: "trailing-blank-run",
+                family,
                 script: record.name,
                 rows: metrics.trailingBlankRows,
             });
         }
         if (metrics.visibleRows === 0) {
-            issues.push({ type: "blank-part", script: record.name });
+            issues.push({
+                type: "blank-part",
+                family,
+                script: record.name,
+            });
         } else if (metrics.visibleRows <= 5 || metrics.visibleCells <= 80) {
             issues.push({
                 type: "very-small-output",
+                family,
                 script: record.name,
                 visibleRows: metrics.visibleRows,
                 visibleCells: metrics.visibleCells,
@@ -1149,6 +1125,7 @@ function analyzeReviewSignals(records, options) {
         ) {
             issues.push({
                 type: "low-cell-variety",
+                family,
                 script: record.name,
                 uniqueGlyphs: metrics.uniqueGlyphs,
                 uniqueStyles: metrics.uniqueStyles,
@@ -1162,6 +1139,7 @@ function analyzeReviewSignals(records, options) {
         ) {
             issues.push({
                 type: "sparse-cell-density",
+                family,
                 script: record.name,
                 rows: metrics.rows,
                 visibleRows: metrics.visibleRows,
@@ -1177,6 +1155,7 @@ function analyzeReviewSignals(records, options) {
         ) {
             issues.push({
                 type: "mostly-plain-ascii",
+                family,
                 script: record.name,
                 asciiGlyphRatio: metrics.asciiGlyphRatio,
                 uniqueStyles: metrics.uniqueStyles,
@@ -1188,6 +1167,7 @@ function analyzeReviewSignals(records, options) {
         ) {
             issues.push({
                 type: "suspicious-character-decoding",
+                family,
                 script: record.name,
                 replacementCharacters: metrics.replacementCharacters,
                 mojibakeSequences: metrics.mojibakeSequences,
@@ -1363,7 +1343,7 @@ function buildReport(scriptsDirectory, options, exceptions = []) {
             .map(([type, values]) => [type, values.length])
     );
     return {
-        schemaVersion: 3,
+        schemaVersion: 4,
         generatedAt: new Date().toISOString(),
         scriptsDirectory,
         summary: {

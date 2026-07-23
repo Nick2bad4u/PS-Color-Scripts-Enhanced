@@ -221,6 +221,66 @@
             "reason": "The seven parts follow the seven coherent source panels separated by blank-row bands at rows 25-28, 52-55, 79-82, 105-108, 132-135, and 159-162."
         },
         {
+            "issueType": "mergeable-adjacent-parts",
+            "family": "16c-mist-30-zii-lpht",
+            "reason": "Parts 06 and 07 fit within 50 rows only by stacking two independent BBS interface panels; keep each reviewed source panel as its own gallery entry."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-mist-30-zii-lpht-part01",
+            "reason": "The four trailing source rows are the authentic separator after the first complete BBS interface panel."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-mist-30-zii-lpht-part02",
+            "reason": "The four trailing source rows are the authentic separator after the second complete BBS interface panel."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-mist-30-zii-lpht-part03",
+            "reason": "The four trailing source rows are the authentic separator after the third complete BBS interface panel."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-mist-30-zii-lpht-part04",
+            "reason": "The four trailing source rows are the authentic separator after the fourth complete BBS interface panel."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-mist-30-zii-lpht-part05",
+            "reason": "The four trailing source rows are the authentic separator after the fifth complete BBS interface panel."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-mist-30-zii-lpht-part06",
+            "reason": "The four trailing source rows are the authentic separator after the sixth complete BBS interface panel."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-mist-30-zii-ubbs-part01",
+            "reason": "The four trailing source rows are the authentic separator after the first complete BBS interface panel."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-mist-30-zii-ubbs-part02",
+            "reason": "The three trailing source rows are the authentic separator after the second complete BBS interface panel."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-mist-30-zii-ubbs-part03",
+            "reason": "The three trailing source rows are the authentic separator after the third complete BBS interface panel."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-mist-30-zii-ubbs-part04",
+            "reason": "The three trailing source rows are the authentic separator after the fourth complete BBS interface panel."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-mist-30-zii-ubbs-part05",
+            "reason": "The three trailing source rows are the authentic separator after the fifth complete BBS interface panel."
+        },
+        {
             "issueType": "avoidable-extra-part",
             "family": "16c-mist-30-zii-ubbs",
             "reason": "The six parts follow six coherent source panels separated by blank-row bands at rows 26-29, 54-56, 81-83, 108-110, and 135-137; adjacent complete panels do not fit within 50 rows."

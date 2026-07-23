@@ -91,7 +91,7 @@ test("split analysis reports tiny tails and avoidable extra parts", async () => 
     assert.deepEqual(issues[0].suggestedRanges, ["1-28", "29-56"]);
 });
 
-test("split analysis reports mergeable neighbors and SAUCE height loss", async () => {
+test("split analysis does not infer missing rows from SAUCE height padding", async () => {
     const { analyzeScript, analyzeSplitFamilies } = await analyzer;
     const directory = createTemporaryDirectory();
     const records = [
@@ -122,15 +122,13 @@ test("split analysis reports mergeable neighbors and SAUCE height loss", async (
     const mergeable = issues.find(
         (issue) => issue.type === "mergeable-adjacent-parts"
     );
-    const heightMismatch = issues.find(
-        (issue) => issue.type === "sauce-height-mismatch"
-    );
 
+    assert.deepEqual(
+        issues.map((issue) => issue.type).sort(),
+        ["avoidable-extra-part", "mergeable-adjacent-parts"]
+    );
     assert.equal(mergeable.pairs[0].combinedRows, 40);
     assert.equal(mergeable.pairs[0].suggestedRange, "1-40");
-    assert.equal(heightMismatch.sauceHeight, 45);
-    assert.equal(heightMismatch.coveredRows, "1-40");
-    assert.equal(heightMismatch.missingRows, 5);
 });
 
 test("tiny-tail analysis includes proportional eleven-row credit tails", async () => {
@@ -286,6 +284,48 @@ test("review signals distinguish sparse output and low variety", async () => {
 
     assert.ok(types.includes("low-cell-variety"));
     assert.ok(!types.includes("derivative-attribution-review"));
+    assert.ok(issues.every((issue) => issue.family === "fixture-part01"));
+});
+
+test("review signals distinguish plain ASCII from CP437 block art", async () => {
+    const { analyzeReviewSignals, analyzeScript } = await analyzer;
+    const directory = createTemporaryDirectory();
+    const plainAscii = analyzeScript(
+        writeScript(
+            directory,
+            "plain-part01",
+            "1-10",
+            Array.from({ length: 10 }, () => "ASCII TEXT").join("\n")
+        )
+    );
+    const cp437Art = analyzeScript(
+        writeScript(
+            directory,
+            "cp437-part01",
+            "1-10",
+            Array.from(
+                { length: 10 },
+                () => "\u001b[31m██████████\u001b[0m"
+            ).join("\n")
+        )
+    );
+
+    const options = {
+        blankRun: 3,
+        maxRows: 50,
+        tinyTailRows: 10,
+    };
+    const plainIssues = analyzeReviewSignals([plainAscii], options);
+    const cp437Issues = analyzeReviewSignals([cp437Art], options);
+
+    assert.ok(
+        plainIssues.some((issue) => issue.type === "mostly-plain-ascii")
+    );
+    assert.ok(
+        !cp437Issues.some((issue) => issue.type === "mostly-plain-ascii")
+    );
+    assert.equal(plainAscii.metrics.extendedGlyphRatio, 0);
+    assert.equal(cp437Art.metrics.extendedGlyphRatio, 1);
 });
 
 test("sparse cell density is a review signal rather than decoding damage", async () => {
@@ -627,7 +667,7 @@ test("exception ledger can identify one dense boundary within a family", async (
 test("report filtering keeps only requested review types", async () => {
     const { filterReport } = await analyzer;
     const report = {
-        schemaVersion: 3,
+        schemaVersion: 4,
         generatedAt: "2026-07-23T00:00:00.000Z",
         scriptsDirectory: "fixture",
         summary: {
