@@ -1,11 +1,13 @@
 ﻿# Converted from: ROY-MAZE.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0398/ROY-MAZE.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/sac0398/raw/ROY-MAZE.ANS
 # Source Revision: archive-sha256:5deb0c572555b712853a4e44d44a0abdfad1e60e47bfcff7ce192c9fa583bdec
 # Source SHA-256: f5ed7ec6966eaf35a8f882d8c692a3d8f9048c184ca4cb66bc1c7233627435b0
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: ROY-MAZE.ANS by Roy/SAC aka Carsten Cumbrowski; released in sac0398 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Lines: 1-14
+# Columns: 1-80
 
 Write-Host '
 

@@ -1,16 +1,18 @@
 ﻿# Converted from: ROY-FAITH.ANS
-# Source encoding: cp437
+# Source encoding: CP437
 # Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
 # Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
 # Source SHA-256: 3e160713c19211ecd322dcf5fd6a4a0acf559a4ae63abb260f422adf3de3ceb9
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: ROY-FAITH.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
 # SAUCE Title: Faith
 # SAUCE Author: Roy
 # SAUCE Group: SAC
 # SAUCE Date: 20150901
 # SAUCE Dimensions: 80x41
+# Lines: 1-41
+# Columns: 1-80
 
 Write-Host '
 [30m█ [0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▄▄[0;31;40m▄[0;1;30;40m▄▄▄[0;31;40m▄[0;1;30;40m▄[0m             [1;30;40m▄[0m      [1;30;40m▄▄▄  ▄▒[0;33;40m▒[0;1;30;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
@@ -53,4 +55,4 @@ Write-Host '
 [1;30;40m ░▓░ ░ ░ ▄░[0m     [33;40m■ ▀ ■▀▄▄[0;1;31;40m▀[0;33;40m▀▄ ▀▀▓▀ ▄ [0m▀[1;33;47m░[0;1;33;40m█[0;1;33;47m▓[0;1;33;40m  [0;33;40m▀▄  [0;1;31;40m▄ [0;33;40m▄▀▄▀▄ ▀ ▀▀▀ [0;1;31;40m▄[0;1;30;40m▓[0;1;30;43m░▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
 [1;30;40m  ░ ░▒░░▒▓▓▒ ░[0;33;40m▀ ▀ ▄▀■▀▄■ ▓▄▀▄▒▓▓▓▓▓ [0m▀[1;33;47m▓[0;1;33;40m█[0m▌ [33m▀ ▀▄▄█▄▄▀▄■▀ ▀▄▀▄▀ [0;1;30m▒[0;1;30;43m▒▒░░▒▒▓▓▓▓▓▓░▓[0;1;30;40m▓[0;1;30;43m░░[0m
 [1;30;40m ░ ░ ░▀ ░░░ ░ ░ ░[0;33;40m▄   ▄▄[0;1;31;40m▄█[0;33;40m▀▀▀ ▄▄▀[0;1;31;40m▄[0;33;40m▄▄▄ [0m▀[1;33;47m▓▒[0m▌ [33m▀ [0;1;31m▀[0;33;40m▀▓▀ ▀ ▀▄▓▄ ▄▄■▄[0;1;30;40m░▓[0;1;30;43m░░░▓[0;1;37;43m Roy<SAC>[0;1;30;43m▒░░[0m
-[1;30;40m [0m                          [33;40m▀[0m           ▀'
+[1;30;40m [0m                          [33;40m▀[0m           ▀[0m'

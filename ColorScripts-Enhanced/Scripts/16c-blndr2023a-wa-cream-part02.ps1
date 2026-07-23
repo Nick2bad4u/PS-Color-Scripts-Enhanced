@@ -1,0 +1,51 @@
+﻿# Converted from: WA-CREAM.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/blndr2023a/raw/WA-CREAM.ANS
+# Source Revision: archive-sha256:7bc66b402c6ecbb0a3d7da712390840d202c88fb2fe0c40fdd417fcec6520299
+# Source SHA-256: e3811565dfd34cc4825f737157ce5457bc5cadfda098c49d5f3e555cce166a02
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: WA-CREAM.ANS by warpus (LAZARUS); released in blndr2023a and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: In space no one can hear cream
+# SAUCE Author: warpus
+# SAUCE Group: LAZARUS
+# SAUCE Date: 20230122
+# SAUCE Dimensions: 80x84
+# SAUCE Font: IBM VGA
+# SAUCE Comments: For the Blender
+# Lines: 51-82
+# Columns: 1-80
+
+Write-Host '
+████████████      ▀█████████████▄░░▄   ▐███████████████████████████   ██████████
+███████████        ▀████████████████▌  ▐███████████████████████████   ██████████
+███████████         ███▀████████████     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀     ▀▀▀▀▀▀▀▀▀
+███████████▌       ▐██▀■ ▀▀█████████
+█████████▀▀        ▓████▄  ▐███████▌
+██████▀               ▀██▌  ████████                            [1;30m▄▄█████▄▄[0m
+████▀                   ▀█   ███████                          [1;30m▄██▀[0m  [1;30m█▌[0m [1;30m▀██▄[0m
+██▀     ▄▄                    ██████                         [1;30m██▀[0m    [1;30m█▌[0m   [1;30m▀██[0m
+██    ▄███         ▐██▄       ▐█████                        [1;30m▐█▌[0m     [1;30m█▌[0m    [1;30m▐█▌[0m
+█▌    ▐███▌         █████▄▄▄▄▄██████                        [1;30m██[0m    [1;30m▄███▄[0m    [1;30m██[0m
+█▌     ▀███         ████████████████     [1;33m▄▄███▄▄[0m            [1;30m▐█▌[0m [1;30m▄█▀[0m [1;30m█▌▀█▄[0m [1;30m▐█▌[0m
+█▌       ▀▀         ▐███████████████    [1;33m█████████[0m            [1;30m▀██▀[0m   [1;30m█▌[0m  [1;30m▀██▀[0m
+█▌   ▄▄██▄▄          ███████████████   [1;33m▐█████████▌[0m             [1;30m▀██▄▄█▓▓██▀[0m
+███████████          ▐██████████████    [1;33m█████████[0m                 [1;30m▀▀▀▀▀[0m
+██████████▌           ██████████████     [1;33m▀▀███▀▀[0m
+██████████▌     █     ██████████████▌
+██████████     ██     ██████████████▌
+█████████▌    ▐██▌   ▐██████████████▌
+█████████▌    ███▌   ▐██████████████▀
+█████████    ▐███▌    ██████████████
+████████▌    █████    █████████████                   [1;30m▄▄[0m
+████████    ▐█████    █████████████
+████████    █████▓    ▓████████████
+███████▌    ▐████▌    ▐█████████████▄
+███████▌     ████      ███████████████▄
+███████      ▐██▌      ▐████████████████           ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+██████▌       ██        ████████████████          ▐█████████████████████████████
+█████▀         █         ███████████████▌         ██████████████████████████████
+░░░░░          ░         ░░░░░░░░░░░░░░░░         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+
+                          [1;30min space no one can hear cream[0m'

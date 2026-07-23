@@ -1,14 +1,16 @@
 ﻿# Converted from: Roy-OS-AmigaNew.ANS
-# Source encoding: cp437
+# Source encoding: CP437
 # Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
 # Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
 # Source SHA-256: 680b324dbe0ff7cae218b7bc76b5bc41102e39627f607a0e347f80459544d297
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: Roy-OS-AmigaNew.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
 # SAUCE Date: 20140712
 # SAUCE Dimensions: 80x42
 # SAUCE Font: Amiga Topaz 2+
+# Lines: 1-42
+# Columns: 1-80
 
 Write-Host '
                                         [1;30;40m:[0m                                  [1;30;40m|[0m

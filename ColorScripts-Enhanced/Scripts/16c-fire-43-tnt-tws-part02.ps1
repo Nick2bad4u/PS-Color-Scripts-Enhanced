@@ -1,0 +1,35 @@
+﻿# Converted from: TNT-TWS.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/fire-43/raw/TNT-TWS.ANS
+# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
+# Source SHA-256: ee9154519a61580427e0034eae94b045a9b4abaec7cced59dc761624e4282b2d
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: TNT-TWS.ANS by tainted (fire); released in fire-43 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: twisted
+# SAUCE Author: tainted
+# SAUCE Group: fire
+# SAUCE Date: 20250707
+# SAUCE Dimensions: 80x67
+# SAUCE Font: IBM VGA
+# Lines: 51-67
+# Columns: 1-80
+
+Write-Host '
+        [1;30;47m▓[0m    [1;30m■[0;33m [0;1;30m▄   [0;33m■▄  ▀[0m             [33m▀▀[0;1;31;43m▀[0;43m▀[0;1;31;47m▄▓[0;1;31;43m▄▄[0;33m▄▄▀▀▀[0;1;31;43m░░░[0;33m▀▀ ▄▀▀▀[0m
+        [1;30m█[0m [33m█▄    [0;1;30m▀▄▄    [0;33m▀▀ ▄[0;1;31m▄[0m▄[1;31m▄[0;33m   ▄[0;1;31m▄▄[0m▄▄[1;31m▄▄[0;33m▄▄▀▀▀▀▀▀▀▀  ▄▄▀[0m            [1;30m░[0m
+        [1;30m█[0m  [33m▀▀░[0m     [1;30m▀[0;33m [0;1;30m▀[0m        [33m▀[0;1;31m▀▀[0;33m▄[0;1;31m▄[0;33m▄ ▀[0;1;31m▀▀[0;1;31;43m▓░[0;33m▓▓▒░▄▄ ▄▓▒░[0m       [33m▄▄[0m
+        [1;30m█[0m [33m█▄[0m            [1;30m▀▀[0;33m [0;1;30m▄[0m        [33m▀▀▀▀▄[0;1;31m▄▄[0;33m▄[0;1;31;43m░░[0;33m▀ ▀▀▀  ■  ▄▀ █▀[0m
+        [1;30m█[0m [1;31;43m▓█[0;1;31;47m▓░[0;43m▄[0;40m▄[0;1;31;40m▄[0;33m▄[0m          [33m▄▄▄▄▄[0;1;31m▄▄▄▄[0;1;31;43m▀▀▀[0;33m██▀    ▄[0;1;30m▓░[0;33m▄[0;1;30m▄▀[0m
+        [1;30m█[0m [33m██▄▄[0;1;31;43m▀▀[0;1;31;40m▀[0m▀[1;31;43m█▄[0;33m▄▄ ░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▀   ▄█[0;1;30m▀[0;33m ▄▀    ▄[0;1;30;43m▄█[0;1;30;40m▀[0m
+        [1;30m▄[0m [33m▀█[0;1;31;43m░░░[0;33m████▄[0;1;31;43m▀▀▄▄[0;33m▄▄▄▄   ░░░░░░░░[0m              [33m▐[0;1;30m▓▓[0m
+          [33m▓███▀▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒░░░ ░  [0;1;30m▄▓░[0m      [1;30m░░[0;33m   [0;37mtainted[0;1;30m[[0;33mfire[0;1;30m][0m
+        [33m░[0;37m  [0;33m▀▀▄█ ░░░░░░░░░░░░▄▀▀ ▀[0m     [33m■    [0;1;30m▓▄▀[0m
+          [1;31;43m▄[0;33m▄[0;37m    [0;33m▀  ■[0m                       [1;30m░[0m
+          [33m▀▀[0;1;31;43m▀░[0;33m▄▄[0;37m  [0;33m▄▄[0;37m  [0;33m▀[0m
+       [1;30m■[0m              [33m░░[0m     [1;30m░░[0m
+         [1;30m▀[0m     [33m▀ ▀▀[0m       [1;30m▒▒[0m        [1;30m░[0m
+            [1;30m▀▀▄▄▄▄▄▄▄▄▄▓▓[0m       [1;30m░░[0m
+                 [1;30m▀▀▀▀▀[0m    [1;30m░░░░[0m
+
+                                                                               [30m░[0m'

@@ -1,11 +1,13 @@
 ﻿# Converted from: ROY-BJ.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0695a/ROY-BJ.ANS
-# Source Revision: archive-sha256:fdb220fd949148b42f901401233ee5917f0ab0d506d9b91fc04ce4bed204f9b8
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-BJ.ANS
+# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
 # Source SHA-256: 43fc956a17b083ed09d113685089b3ac8fd6098e0f0b3707ccd133c611cbdf62
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: ROY-BJ.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Lines: 1-50
+# Columns: 1-80
 
 Write-Host '
                          [31m▄▄▄▄▄▄▄▄▄[0m
@@ -57,4 +59,4 @@ Write-Host '
         ██  ██ ██▄ ██ ██  ██ ██  ██ ██  ▀     ██  ██ ██  ██ ██  ██ ██  ▀
         ██▄█▀   ▀████ ██  ██ ██▄█▀  ██         ▀█▄██ ██  ██ ██▄█▀  ██
         ██▀       ▀██ ▀    ▀ ██▀    ▀            ▀██ ▀    ▀ ██▀    ▀
-        ▀           ▀        ▀                     ▀        ▀'
+        ▀           ▀        ▀                     ▀        ▀[0m'

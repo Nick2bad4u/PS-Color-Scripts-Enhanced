@@ -1,11 +1,13 @@
 ﻿# Converted from: ROY-DROW.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0997/ROY-DROW.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/sac0997/raw/ROY-DROW.ANS
 # Source Revision: archive-sha256:da5320832895c3901d4f15edb6d72c8cae3759c8058411ecb6a63c5962f374c9
 # Source SHA-256: 07b933c7d0d0b41e5b96a84a4e2352e2d7b65da99327ac43b5eab95177e461c1
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: ROY-DROW.ANS by Roy/SAC aka Carsten Cumbrowski; released in sac0997 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Lines: 1-20
+# Columns: 1-80
 
 Write-Host '
 

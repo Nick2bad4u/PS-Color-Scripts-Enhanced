@@ -1,11 +1,13 @@
 ﻿# Converted from: ROY-DIMX.ANS
-# Source encoding: cp437
+# Source encoding: CP437
 # Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
 # Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
 # Source SHA-256: 961fe0e0f95af1eae3f9371ccabdd01e6559cb6ad9b2dae962e55f5dab5c47a7
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: ROY-DIMX.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Lines: 1-47
+# Columns: 1-80
 
 Write-Host '
 [1m [0;34m░ [0;1;34m▄▀[0;34m▀▄ ░░░░ [0;1;34m▄▀[0;34m▀▀ [0;1;34m▄▀[0;34m▀▄ [0;1;34m▄▀[0;34m▀ ░░░░ [0;1;34m█▀[0;34m▀▄ [0;1;34m█▀[0;34m▀▄ [0;1;34m▄▀[0;34m▀▄ [0;1;34m█▀[0;34m▀▄ [0;1;34m█  [0;34m█ [0;1;34m▄▀[0;34m▀ [0;1;34m▀[0;34m█▀ [0;1;34m█ ▄▀[0;34m▀▄ [0;1;34m█▀[0;34m▀▄ ░[0m
@@ -53,7 +55,4 @@ Write-Host '
      [1;30m░ ░░░░░░░ ░ [0;34m░▒ ▓   ▒[0m      [34m▀█▓    ▒    ▓█▀▄ ▀▓▀[0m       [34m▒ ▀▄▓▒  [0;1;30m░ ░░░░░░░░ ░[0m
          [1;30m░░░[0m      [34m░ ▒   ░[0m       [34m▓▒    ░    ▒▒    ▒[0m        [34m░   ▒░[0m     [1;30m░░░░[0m
                     [34m░[0m           [34m▒░[0m         [34m░░    ░[0m            [34m░[0m
-                                [34m░[0m           [34m░[0m
-
-SAUCE00Dimention X Logon                  ROY                 READ THE INI FILE
-   19941127H#P'
+                                [34m░[0m           [34m░[0m'

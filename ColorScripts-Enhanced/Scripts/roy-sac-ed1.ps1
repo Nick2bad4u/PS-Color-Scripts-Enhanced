@@ -1,11 +1,13 @@
 ﻿# Converted from: ROY-ED1.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0397b/ROY-ED1.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/sac0397b/raw/ROY-ED1.ANS
 # Source Revision: archive-sha256:4675e986db6899c1d9bb95711f69cdb168742dca5b3bf60822d0bd9e3e64898a
 # Source SHA-256: 1f34ef423308da444c347c502d6666e2e4884f26fd14a9f33a16d146e45af47a
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: ROY-ED1.ANS by Roy/SAC aka Carsten Cumbrowski; released in sac0397b and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Lines: 1-21
+# Columns: 1-80
 
 Write-Host '
                                              [1;30m▀[0m

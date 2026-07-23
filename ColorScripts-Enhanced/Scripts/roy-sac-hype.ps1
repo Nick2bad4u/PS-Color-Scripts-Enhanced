@@ -1,11 +1,13 @@
 ﻿# Converted from: ROY-HYPE.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0396a/ROY-HYPE.ANS
-# Source Revision: archive-sha256:c3d9b108bac9f368f69bc8e60a13ba1af3964411e19719c53ca175ef47f6be86
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-HYPE.ANS
+# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
 # Source SHA-256: 7b739201d2b66f85547ba958d9630267f97ff1953f17cce4a3afd42ff308e8cb
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: ROY-HYPE.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Lines: 1-22
+# Columns: 1-80
 
 Write-Host '
                [1m█[0;1;35m▄[0m

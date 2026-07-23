@@ -1,11 +1,13 @@
 ﻿# Converted from: ROY-SKY.ANS
-# Source encoding: cp437
+# Source encoding: CP437
 # Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
 # Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
 # Source SHA-256: 6f4c685f5429d0b750c3ee9cdb2084544384aec176ada5a91848d65eb12ce5b8
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: ROY-SKY.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Lines: 1-24
+# Columns: 1-80
 
 Write-Host '
   [34m▄▀▀▀ ▀▀ ▀▀▄[0m
@@ -31,6 +33,4 @@ Write-Host '
 [1;30m▓[0m                                                                             [1;30m▓[0m
 [1;30m▒░  ■ ·[0m      [34mNODE 0:  +4[0;1;34m9-(A)SK-DA-E[0;1mLiTE   NODE [0;1;34m1:  +49-[0;34m(T)O-FAST4U    [0;1;30m·  ■  ░▒[0m
 [1;30m░[0m               [34mHARDWARE: 2*[0;1;34m486/33 , 8[0;1mMB , 1 [0;1;34mGiGA H[0;34mD , NOVELL NET[0m             [1;30m░[0m
-[1;30m┐  [0;32m-[0;1;33mPC ONLY[0;32m- · · [0;1;30m· ·[0m       [34m2 VERY M[0;1;34mAGiC [0;1m& C[0;1;34mOOL S[0;34mYSOPS[0m       [1;30m· · [0;32m· · -[0;1;33mPC ONLY[0;32m- [0;1;30m┌[0m
-SAUCE00Skylight                           ROY                 READ THE INI FILE
-   19931217P'
+[1;30m┐  [0;32m-[0;1;33mPC ONLY[0;32m- · · [0;1;30m· ·[0m       [34m2 VERY M[0;1;34mAGiC [0;1m& C[0;1;34mOOL S[0;34mYSOPS[0m       [1;30m· · [0;32m· · -[0;1;33mPC ONLY[0;32m- [0;1;30m┌[0m'

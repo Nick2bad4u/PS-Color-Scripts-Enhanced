@@ -1,0 +1,36 @@
+16colors artist-authorized artwork permission notice
+
+Permission attestation
+----------------------
+
+On 2026-07-22, project maintainer Nick2bad4u attested that members of the
+16colors Discord granted this project permission to use artwork from the
+16colo.rs archive and Roy/SAC website. The maintainer further confirmed that
+the grant came from the artists or rightsholders, or from a representative
+explicitly authorized to grant permission for them.
+
+Project-specific scope
+----------------------
+
+The attested permission covers public redistribution in
+ps-color-scripts-enhanced, conversion of ANSI or ICE streams into safe
+PowerShell colorscripts, and logical vertical or horizontal splitting needed
+to fit the gallery. Artist attribution remains required.
+
+Each imported file header and ArtworkProvenance.psd1 entry identify the
+original artist, group and pack when known, canonical source URL, source and
+rendered SHA-256 checksums, conversion details, and source coordinates for
+split works.
+
+Limitations
+-----------
+
+16colo.rs is an archive and does not itself claim ownership of every archived
+artwork. Its public archive availability is not treated as the source of this
+permission. This notice records the maintainer's project-specific attestation;
+it does not claim an archive-wide public license, transfer copyright, or grant
+rights beyond the stated project use.
+
+Archive rights policy: https://16colo.rs/faq/
+Archive home: https://16colo.rs/
+Roy/SAC home: https://www.roysac.com/

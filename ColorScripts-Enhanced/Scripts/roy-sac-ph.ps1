@@ -1,11 +1,13 @@
 ﻿# Converted from: ROY-PH.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0997/ROY-PH.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/sac0997/raw/ROY-PH.ANS
 # Source Revision: archive-sha256:da5320832895c3901d4f15edb6d72c8cae3759c8058411ecb6a63c5962f374c9
 # Source SHA-256: cb4e67de4ccdfcf93303cac7bbce6d38178dfdf3d3a866c1f5f7d36fe8fd4b77
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: ROY-PH.ANS by Roy/SAC aka Carsten Cumbrowski; released in sac0997 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Lines: 1-22
+# Columns: 1-80
 
 Write-Host '
 
@@ -28,4 +30,4 @@ Write-Host '
 [1;30m  ▄█[0m       ██▓▓   [1;47m░[0m███ ████ [1;30m░ [0;1;47m░[0m███ ████ [1;30m▀ [0;1;47m▓▒░[0m█ ████   [1;47m▒░[0m██ [1;30m░░[0m
 [1;30m ▀█▓▀▀▀▀ ▀ [0m█▓▓▓▀  ████ ████   ████ ▀█████[1;47m░▒░[0m██  ▀█████[1;47m░[0m███ [1;30m░   ▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀[0m
 [1;30m   ▀[0m      ▀▓▓▀      [1;33m· P u r p l e    H a z e ·[0m
-           ▀'
+           ▀[0m'

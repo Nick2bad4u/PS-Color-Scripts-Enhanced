@@ -1,17 +1,18 @@
 ﻿# Converted from: ROY-DS.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac1294/ROY-DS.ANS
-# Source Revision: archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-DS.ANS
+# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
 # Source SHA-256: a32f5a27974c0fb843751a2b34e078fb36ad73287abe531600da02dd400697d8
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437, flattened through bounded terminal emulation, and divided into numbered row segments.
+# Source Attribution: ROY-DS.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
 # SAUCE Title: Desert Storm Logon
 # SAUCE Author: ROY
 # SAUCE Group: READ THE INI FILE
 # SAUCE Date: 19941008
 # SAUCE Dimensions: 80x25
 # Lines: 1-33
+# Columns: 1-80
 
 Write-Host '
      [32m───────── [0;1m▄ ▄▄▄▄ [0m▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄  [1;30m▄ [0m▄▄▄ [1;30m▄ [0m▄▄▄ [1m▄▄▄▄▄ ▄ [0;32m─────────[0m
@@ -44,5 +45,5 @@ Write-Host '
 [1;30m  [0;31m▀ ▄[0;1;33m▀[0;31m▀[0;1;33m▄[0;31m█[0;1;33m▀▄█[0;1;33;43m▀▀▄▀█▀[0;31m█[0;33m█[0;31m▌[0;1;30m▐███ ▐▐▐▐▐▐▐[0m                 [1;30m█ ░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒░░░░░[0m
            [33m▀▀▀▀▀▀[0;31m▀▀ [0;1;30m▄████[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄ [1;30m▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
               [1;30m▀████████[0;1;30;47m▀[0m███████████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-                [1;30m▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀  ▀
-[0m'
+                [1;30m▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀  ▀[0m
+'

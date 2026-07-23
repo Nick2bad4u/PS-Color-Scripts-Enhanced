@@ -1,0 +1,58 @@
+﻿# Converted from: HRV_Wisdom_Owl_WiP.ans
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/laz18/raw/HRV_Wisdom_Owl_WiP.ans
+# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
+# Source SHA-256: a1df1bb4d8bdc6ed5855edcb5e62140c0338ecc0896b4d7b7d7ff9f605ec8f13
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: HRV_Wisdom_Owl_WiP.ans by harvest (Lazarus); released in laz18 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at manually reviewed compositional transitions.
+# SAUCE Title: OWL
+# SAUCE Author: harvest
+# SAUCE Group: Lazarus
+# SAUCE Date: 20230804
+# SAUCE Dimensions: 80x188
+# SAUCE Font: IBM VGA
+# Lines: 1-40
+# Columns: 1-80
+
+Write-Host '
+       [1;30m▀▄▄[0m [1;30m▀█[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▄[0m█ [1;30m▌▌                         █▀[0m▄████[1;30m▄▄██████▄▄▀[0m              [1;30m█▄[0m
+      [1;30m▄▄[0;34m [0;1;30m▀████[0;1;30;47m▄[0m███[1;30m▐▐[0m                        [1;30m█[0m ▄████[1;30;47m▄[0;1;30;40m▀▄▄▄[0m [1;30m▀▀▀▀[0m   [1;30m▀██▄          ▀█[0m
+    [1;30m▄███▀[0m  [1;30m▀██[0;1;30;47m▄▄[0m██▄[1;30m▀▄[0m                      [1;30m█[0m ▄████[1;30;47m▀▄[0;1;30;40m█▀▀▀█■[0m        [1;30m▀██▄         ▀[0m
+    [1;30m██▀[0;34m     [0;37m▄[0;1;30;47m▀[0;1;30;40m▀[0;1;30;47m▀[0;1;30;40m▀[0m██▄ [1;30m▀▄[0m                  [1;30m▄▀[0m ▄██████▀[1;30m▬▄▄[0m            [1;30m▀███▄[0m
+   [1;30m██▀[0m   ▄▄██▀  ▀███▄ [1;30m▀▄[0m               [1;30m▄▀[0m ▄██████▄   [1;30m▄▄▀▀▄▄[0m          [1;30m████[0m
+   [1;30m██   [0m▀██▀  [1;30m▄▐█[0m▀████▄ [1;30m▀[0m [1;30m▄[0m    ▄   [1;30m▄[0m  [1;30m▀[0m  ████▀▀       [1;30m██▄▄[0m [1;30m▀▀▬[0m       [1;30m▐███▌[0m
+  [1;30m▐██[0m    [1;30m▀▬▄[0m [1;30;47m▀▀[0;1;30;40m█▌[0m  ▀████▄     ██▄      ▄███▀[1;30m██[0m▌       ▐█[1;30;47m▀▌[0m            [1;30m████[0m
+  [1;30m███[0m      [1;30m█[0m ███     ▀████[1;30m▄[0m ▄█████ [1;30m▄[0m▄███▀   [1;30m█[0;1;30;47m▀[0m█       ███             [1;30m████[0m
+  [1;30m███[0m      [1;30m█▄▐[0m██[1;30;47m▐[0m     [1;30m▄[0;1;30;47m▄[0m███████▀██████▀  [1;30m▄[0m   ███▄   ▄███▌             [1;30m████[0m
+  [1;30m███      ▀█▄▀[0m███▄▄▄█[1;30;47m▀[0;1;30;40m▀[0m  ▀██[1;30;47m▄[0;1;30;40m▀[0m  ███▀  [1;30m▄██▄▄[0m  ▀████████▀             [1;30m▐████[0m
+  [1;30m▐██▌[0m       [1;30m█▄[0m ▀[1;30;47m▄[0m██[1;30;47m▄[0m▀ [1;30m▄▀▄[0m  ▀    ▀▀   [1;30m▄▀███▄▀▄▄[0m  ▀▀▀                 [1;30m████▌[0m
+   [1;30m███[0m        [1;30m▀█▄▄▄▄[0m [1;30m▄▀[0m [1;30m▄▀[0m          [1;30m▄▄▀[0m [1;30m▌▌▌▌▀▄[0m [1;30m▀▄[0m                   [1;30m▐███▀[0m
+   [1;30m▀██▌[0;34m          [0;1;30m▀[0m [1;30m▄▀[0m [1;30m▄▀▄▀[0m   [1;30m▄▀▀▄[0m [1;30m▄██▀[0m  [1;30m▌ ▌▐  ▀▄[0m  [1;30m▀▀▀▀▬[0m            [1;30m▐███▌[0m
+    [1;30m███▌[0m       [1;30m▬▄■▀▄▄▀▄▀[0m   [1;30m▐▐[0m    [1;30m▌█▀[0m    [1;30m▐[0m [1;30m▐ ▀▄[0m  [1;30m▀▄▄[0m               [1;30m▐███▌[0m
+     [1;30m███[0m         [1;30m▀▀▄▄▀[0m    [1;30m█▌[0m      [1;30m▀[0m      [1;30m▌[0m [1;30m▀▄[0m [1;30m▀▬[0m   [1;30m▀▀▬▬[0m           [1;30m▌█▀ ▄▄▄ ▄[0m
+     [1;30m█▀█▌[0m       [1;30m▬▀▀[0m      [1;30m▄                   ▬[0m                   [1;30m▐   ▄█████▄[0m
+    [1;30m██[0m  [1;30m▀[0m                [1;30m██▐[0m                                         [1;30m█████████▄[0m
+   [1;30m████[0m▀▄                [1;30m███[0m        [1;30m██▄[0m                             [1;30m████████████[0m
+  [1;30m█████[0;1;30;47m▄[0m███▄             [1;30m▀██▌[0m      [1;30m▄███▄▄[0m                        [1;30m▄▄████████▀[0m  [1;30m▀▀[0m
+  [1;30m▀██████[0m████             [1;30m███[0m      [1;30m█████[0m                        [1;30m▀▀███████▀[0m
+   [1;30m▀████▀[0m ▀▀               [1;30m██▄[0m     [1;30m███[0m                             [1;30m▀▀███▀[0m
+    [1;30m▀██▀[0m                    [1;30m██[0m    [1;30m██▀[0m
+                            [1;30m▀██[0m   [1;30m█[0m
+ [1;30m•[0;1;33m W i s d o[0;33m [0;1;33mm[0;33m  [0;1;33m0 w l [0;1;30m• • •[0m  [1;30m▀▀█[0m [1;30m▄█[0m
+                               [1;30m▀█▀[0m    ▄███████ ██   ██  ▄██████▄  ▄█▀█▄ ▄█▀█▄
+ [33mHey there! This is a quick          [0;37m██▀       ██  ██▀ ▄██▀  ▀██▄ ▀   █ ▀   ██ ▀[0m
+[37m [0;33mstage WiP from the[0;36m Evoke 2023      [0;37m████████   ██ ██▀  ███    ███   ▄█▀   ▄█▀[0m
+[37m [0;33mentry. Do check out the other       [0;37m██▄       ████    ▀██▄  ▄██▀ ▄█▀    ▀  █▄[0m
+[37m [0;33mawesome entries, top notch pieces[0;37m    ▀███████ ███      ▀██████▀  █  ▄█ █▄ ▄█▀[0m
+[37m [0;33mwith[0;31m FiRE [0;33mmembers dominationg in[0;37m                                 ▀▀▀▀▀  ▀▀▀[0m
+[37m [0;33mvolume and quality of submission.[0m
+[37m [0;33mAs always these events are driven[0m
+[37m [0;33mby public vote never the less the[0m
+[33m tight 80x25 no ice format is one[0m
+[37m [0;33mthe more appealing compos outthere[0m
+[37m [0;33mfor both veterans and newcomers.[0m
+[37m [0;33mThanks for keeping it this way EVOKE Staff [0;1;31m♥[0m [1;33mharvest[0m
+
+ [1;31mhttps://demozoo.org/parties/4512/#competition_18081[0m
+'

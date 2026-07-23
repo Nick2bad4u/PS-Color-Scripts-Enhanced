@@ -1,0 +1,50 @@
+﻿# Converted from: ak-effect.ans
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/laz15/raw/ak-effect.ans
+# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
+# Source SHA-256: b3fd185d49e5189b27e7592bff8c5888532a3bb25829443fa2258b0714870c69
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: ak-effect.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: sleep effect
+# SAUCE Author: abstrakt
+# SAUCE Group: lazarus
+# SAUCE Date: 20220609
+# SAUCE Dimensions: 80x182
+# SAUCE Font: IBM VGA
+# Lines: 151-182
+# Columns: 1-80
+
+Write-Host '
+$$$$$$$$$$$$$$$$7 [1;30m4$$jl[0m   [1;30m`''┘$$$*┘²└$P`[0m ,,.                    [1;30m`[0m d$$$$$$$$$$$$S#
+[1;30m$[0m$$$$$$$$$$$$$$$$b.[1;30m''`[0m.┌#SS#a. [1;30m`[0m  .┐. .d[1;30m([0m )$$/.          .,._    d$$$$$$$$$$$$$$[1;30m$[0m
+[1;30m²`[0m^"└Q$$$[1;30m$*[0m$$$$$$$$$$$$$$$$$$b[1;30m  [0md$$$a7[1;30m''[0m   `4$$.,┌s¬┐,.d$$$$$$#%$$$$$$$$$$$$$P┘[1;30m"^[0m
+      `4[1;30m$  [0mj$$$$7[1;30m┘"`^[0m"4$$$$$$$$d$$$$b /   b,$$$$$j$$$$$$[1;30m$~[0m$S$$$$$P[1;30m`[0m$$$$$[1;30m7''''[0m`  [33m.┌[0m
+[33m┌¬┐.    [0;1;30m''[0m j$$$$[1;30m\[0m       Y$$$$$$$$$$$$[1m►[0;1;33mΦ[0;1;37m◄[0m [1;30m.[0m $$$$$$[1;30m`  [0m`Y$P[1;30m"`[0m  _$$$[1;30m$''[0m j$$$$[1;30m$.    [0;33m\$$[0m
+[33m$$$$b[0;37m     ²└4$$[0;1;30ml[0m  [1;30mtHE  [0mI$$$$[1;30m^~[0mS$$$$$$$[1;30m$[0m l l$$$$[1;30ml[0m    :$bs[1;30ml[0m  $$$$$[1;30mb[0m Y$$jP┘[1;30m''`[0m  [33md$$$[0m
+[33m$$$$$$j⌂*┐,.[0;37m `4[0;1;30mI[0m [1;30msCENE[0;31m [0;37ml$$[0;1;30m$[0;35m   [0;37m_$$$$$S[0;1;30m*┘[0m '' [1;30m┘[0mQ$$$[1;30m:[0m    l$$S[1;30m;[0m  $$$$$[1;30mP[0m l$/  [33m.d$bd$$$$[0m
+[33m$$\j┘`    `┘/.[0;37m [0;1;30mT[0m       :$$$[1;30m$[0m  $*²"` [33m.┌s#S#┐.[0;37m`''`     [0;33m┐,,┌a┌/,.[0;37m`''²[0;1;30m└[0m  '' [33m.dj*┘''^''┘Q$[0m
+[33m└`   [0;1;37m.┌* ''[0;33m   `   [0;1;37m.[0m              [33m\┘`[0;37m              [0;33m\$$$$$$$$$$$$j\$.,$$┘`[0;37m        [0;33m''[0m
+[33m   [0;1;37m,\`.sS$$#s,.┐`  .,┌'' ./$$Ss.   b.`4$$$$$$$$$P .[0m              [33m`YP`[0;1;37m .sS$$Ss.[0m
+[1m  .7 d$$jS7`d$²''4,d$7`  `^''└4$$k. $$b.`4$$$$$$P d$b.`4$$$$$$$$$b.[0;33m`[0;1;37m .d$$$$$$$$b[0m
+[1m,d$$$$$7   /[0m└4$b.[1m`47   .┌j#a.`$$7 `4$$b    .$P  `4$$b[0m        `[1m4$7 d$$$$P┘²└Q$$b[0m
+[1m`4$$$Q$[[0m      `$$.[1m `b. └'' `4$ l7   [0mb[1m`4$   d$` [0;33md/[0;37m .[0;1;37m`4$[0m $$$$$$b.[1m ` d$$[0mP`.┌sa,[1m T$Q[0m
+[1m  `V'' `Y.   [0;33mdb[0;37m `$$.[0;1;37m ''~[0m,[1m / ,jP `[0m.b  \[1m l$   `   [0;33m`[0;37m / [0;1;37md$$[0m         `[1m <$$$[0m.\┘"^''$[1m l$$[0m
+.db.[1m    4b  [0;33m"^[0;1;37m  [0m`$l.,d$[1m `    [0m.d7''[1m    $$┐.[0m       ` [1m4$$b.   \┌s%\b.`4Q[0m`  [33mdb[0;37m T[0;1;37m l$$[0m
+`4$7     [1m\b.[0m     `$$P┘''[1m [0m$##sj7''  d$b[1m $$`└Sj¬¬[0m      [1m`4`4`.  `┘''^$$b `[0m\  [33m└''[0;37m I[0;1;37m $$$[0m
+[1m  [0m`       [1m`4b.    [0mY$[1m   [0md$$$`     Vj7[1m $$.┌j*┘"[0m          [1m`4b.    $$$[0m        l[1m $$$[0m
+[1m    [0m.d      [1m`4$s.[0m └l[1m   [0m`4$l          [1m$$7`[0m        /[1mb.b┌⌐j$$$l   $$$[0m        $[1m $$$[0m
+[1m  [0m.d7$        [1m`*j$#s┐.   [0m$b.       /[1m $$[0m         d[1m $$$^"²└*⌂'' .d$$$[0m       ,$[1m/$$$[0m
+ d7` $:          [1m''$$$$b  [0mY$[1m b.[0m     $[1m $$ .┌**┐.  [0m$[1m $$$[0m       [1m/└^$$$[0m     ,dP''[1mj$$P[0m
+ $   $l           ┐.[1m''$$L [0ml$[1m $$b.   [0m`[1m $$┘"^``''┘b[0m 4[1m $$$[0m        [1m.┌$$7[0m$%s⌂┘²`[1m.d$$P[0m
+ $[1m   [0m$$           l$ [1m$$$ [0ml$[1m $$7`  .d$P [0m.⌐%%¬.[1m `$  $$$[0m      [1m.j⌐²$$Y$$$bs#$$$P''[0m
+ $[1m  .[0m`4b.         I$ [1m$$$ [0ml$[1m 7`   dj$P[0m d$$$$$$.d$l[1m $$$[0m     [1m.┘   $$ `└4$$$P┘`[0m
+[1m [0m`[1m.d$, [0m`4/.       $$ [1m$$$ [0ml$.┌s%a.  [1m` [0m.$$$$$$$$$$$[1m $$$[0m          [1m$$.[0m
+[1m <$$$$b.  ,[0m`.   .d$''[1m $$$[0m l$$P''^└Qb.             $[1m $$$b,.,⌐#Sb. \$$[0mb.     ,┘$b
+[1m  `4$7'' .d$b.[0m`4j$┘''[1m.4$$$[0m $7''[1m.┌┐. [0m`└Qs#$$$$$$''   P[1m 7''$$$$j$$$$$b T$l[0m`Pj¬┐,..$$;
+[1m    ` [0m.[1m`4$$$$b┐.\┌d$$$$P[0m ''[1m.d$j$$Ss. [0m`''''[1m $$$P[0m  .`[1m  .d$7┘` /$$$$F 4$$b.[0m `''└**┘''[1m,[0m
+     ,$b.`[1m4$$$$$$$$$$$$''  `47 `└S$$Ss┌┐dW$$''[0m d  [1m.d$7`  ,d$$$$`[0m ,$[1m`4j$b┐.., ./[0m
+[1m   [0m.d$$$$>[1m `4$$$$$$$$P''[0m          [1m`└j$$$$$P''  [0m$[1m.d$7`    `4$$$''[0m.d$$b.[1m `''²└$$P`[0m
+[1m    [0m''4$7`[1m    `└4$$S┘`   [0ms[1mleep [0mf[1mx    `²└²`[0m                [1m4$''  [0m`4$7''[1m .┌jS┘`  [0;1;30mabs[0m
+      `                                                   [1mY[0m     `[1m .┘"`[0m
+[1;30m\.[0m                                                               [1m`[0m            [1;30m./[0m'

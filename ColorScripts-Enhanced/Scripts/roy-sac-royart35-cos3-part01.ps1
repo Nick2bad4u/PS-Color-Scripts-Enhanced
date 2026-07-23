@@ -1,0 +1,43 @@
+﻿# Converted from: COS3.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/royart35/raw/COS3.ANS
+# Source Revision: archive-sha256:86d300e54d2c1a49c804ff27241477ef0faa1a7b1adfe774960d39a0e0bd5f39
+# Source SHA-256: 1fdca85d6cc4384f010dcd726236fc99d0a7af9c441d6b20d919d461adfa293f
+# Source License: FAL-1.3
+# Source Attribution: COS3.ANS by Roy/SAC aka Carsten Cumbrowski; released in royart35 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed compositional transitions.
+# Lines: 1-32
+# Columns: 1-80
+
+Write-Host '
+                          [1m▄▄[0;1;34m▄[0;1m▄[0;1;34m▄▄[0;1m▄[0;1;34m▄▄▄▄▄▄[0m
+                         [34m▄  ░▒▓███▓▒░  [0;1;34m▀[0;34m▄[0m
+                       [1;34m▄▀   [0;34m░▒▓███▓▒░[0m
+                     [1;34m▄▀[0m     [34m░▒▓███▓▒░[0m
+                    [1m█[0m       [34m░▒▓███▓▒░[0m
+                   [1m█[0m        [34m░▒▓███▓▒░[0m
+                  [1;34m█[0m         [34m░▒▓███▓▒░[0m
+                  [1;34m█[0m         [34m░▒▓███▓▒░[0m
+                  [1;34m▀▄[0m        [34m░▒▓███▓▒░[0m
+                    [1;34m▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;34m▄[0;1;34m▄▄[0;34m▄[0;1;34m▄[0;34m▄▄▀[0m
+                             [1;30m▓░   [0m░▓
+                             [1;30m▓░ ▌ [0m░▓
+     [32m───────── [0;1m▄ ▄▄▄▄ [0m▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄  [1;30m▄ [0m▄▄▄ [1;30m▄ [0m▄▄▄ [1m▄▄▄▄▄ ▄ [0;32m─────────[0m
+     [32m·[0;1;33mA[0;32m·[0;1;33mN[0;32m·[0;1;33mS[0;32m·[0;1;33mI[0;32m·  [0;1m▄ ▄▄▄▄ [0m▀▀▀▀▀▀███ ▀▀▀▀▀▀▀▀███ [1;30m█ [0m███ [1;30m▀ [0m███ [1m▄▄▄▄ ▄  [0;32m·[0;1;33m1[0;32m·[0;1;33m9[0;32m·[0;1;33m9[0;32m·[0;1;33m4[0;32m·[0m
+     [32m─────────── [0;1m▄ ▄▄▄ [0m███ ▄▄██▀ [1;30m█ [0m███ [1;30m█ [0m███ [1;30m█▄ [0m▀▀▀▀▀███ [1m▄▄▄ ▄ [0;32m───────────[0m
+                    [1;30m▄▄ [0m███ [1;30m▄ [0m███ [1;30m█ [0m███▄▄▄▄▄▄▄▄  ▄▄▄▄▄███ [1;30m▄▄[0m
+                       ▀▀▀   ███ [1;30m▀  [0m▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀
+                             [1;30m▄  [0;31m▄█[0m░▓
+                             [1;30m▓░[0;31m██▓[0m░▓
+                             [1;30m▓░[0;31m█▓▒[0m░▓
+                             [1;30m▓░[0;31m▓▒░[0m░▓
+                             [1;30m▓░[0;31m▒░ [0m░▓
+                             [1;30m▓░[0;31m░[0;1;30m▌ [0m░▓
+                             [1;30m▓░ ▌[0;31m░[0m░▓
+                             [1;30m▓░ ▌ [0m░▓
+                             [1;30m▓░ ▌ [0m░▓
+                             [1;30m▓░ ▌ [0m░▓
+                             [1;30m▓░   [0m░▓
+                              [1;30m▀▄ [0m▄▀
+                                ▀[0m
+'

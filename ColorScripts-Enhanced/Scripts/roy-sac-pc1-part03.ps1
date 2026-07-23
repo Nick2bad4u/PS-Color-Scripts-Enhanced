@@ -1,19 +1,21 @@
 ﻿# Converted from: ROY-PC1.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0395/ROY-PC1.ANS
-# Source Revision: archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-PC1.ANS
+# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
 # Source SHA-256: b823bdacce5d24d70985f7694503b3bdfd98d75eac9110af79c20d1c277968a9
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437, flattened through bounded terminal emulation, and divided into three numbered row segments.
+# Source Attribution: ROY-PC1.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
 # SAUCE Title: Park Central
 # SAUCE Author: ROY
 # SAUCE Group: READ THE INI FILE
 # SAUCE Date: 19950209
 # SAUCE Dimensions: 80x25
-# Lines: 84-122
+# Lines: 83-122
+# Columns: 1-80
 
 Write-Host '
+[1;30m ░░░▒▒▓[0m░▒[1;30;47m▓▒▓[0m▒░[1;30m▒▒▓▓▓▓███▓▓▓▒▒▓▓███▓▓▓▒▒▒░░░▒▓▒░░▒▒▒▓▓▓██[0m▒[1;30;47m▓▓▓▒▒░▒▓▓[0m▓▒[1;30m████▓▓▒▒░░░[0m
 [1;30m░  ░░▒▒▒[0m░▒▓▒░[1;30m▒▒░▒▒▒▓▓▓▓▒▒▓▓███▓▓▓▒▒▒░░░▒▒░░░▒▒▒▓▓▓██████▓[0m░▒▓▓▒▒░[1;30m▓████▓▓▒▒░░ ░ ░[0m
 [1;30m ░▒  ░░▒▒[0m░▒░[1;30m▒▒░▒░▒▒▒▒▓▓▓▒▒░▒▓████▓▓▓▒▒▒░░▒▒▒░░░▒▒▒▓▓▓████▓▓[0m░░[1;30m▒░░▒▓▓███▓▒░░ ░░[0m
 [1;30m ▒▓▒░ ░░░▒[0m░[1;30m▒▒▒▒░▒░▒▓▒▒▒▓▓▒▒▓▒░▒▒▓▓██▓▓▓▒▒▒░░░▒▓▓▓▒▒▒▒▓▓█▓▒▒▓▒░▒▒▓▓█▓█▓▒▒░░▒▓▒░░[0m
@@ -52,4 +54,4 @@ Write-Host '
           [1;30m15 BLAZi[0;32mNG NODES[0;31m░[0;32m-/\- 15+ [0;1;33mGIGS SPACE FOR WAR[0;32mEZ -/\- PC/AM[0;1;30miGA/MAC[0m
                      [1;30m░[0;31m░▓█▒░[0;1;30m░[0m
                       [1;30m░[0;31m▒▓░[0;1;30m░[0m                               [1;30mANSI BY ROY<SAC>[0m
-                      [1;30m░[0;31m░[0m'
+                       [1;30m░[0;31m░[0m'

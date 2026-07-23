@@ -1,11 +1,13 @@
 ﻿# Converted from: ROY-TDT.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0998b/ROY-TDT.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/sac0998b/raw/ROY-TDT.ANS
 # Source Revision: archive-sha256:19c53dfc47387efbbd82613dca5be9c93436f5cc68bae78cca35e6d1a766cbaa
 # Source SHA-256: 1439e06a8a0f3e69309e54d12f107e3bb19593bab6e0eeeead5ec8e6dda9310f
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: ROY-TDT.ANS by Roy/SAC aka Carsten Cumbrowski; released in sac0998b and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Lines: 1-21
+# Columns: 1-80
 
 Write-Host '
 

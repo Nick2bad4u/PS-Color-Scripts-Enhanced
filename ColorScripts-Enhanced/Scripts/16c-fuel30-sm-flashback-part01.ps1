@@ -1,0 +1,58 @@
+﻿# Converted from: sm-flashback.ans
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/fuel30/raw/sm-flashback.ans
+# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
+# Source SHA-256: f437b550477691a738426799ecb0bfd35cfe231b110709c4fd4da9bfec59c3bf
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: sm-flashback.ans by Smooth (Fuel); released in fuel30 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: Flashback Party 2019 promo
+# SAUCE Author: Smooth
+# SAUCE Group: Fuel
+# SAUCE Date: 20190630
+# SAUCE Dimensions: 80x163
+# SAUCE Font: IBM VGA
+# Lines: 1-41
+# Columns: 1-80
+
+Write-Host '
+
+
+
+
+                                         [36;40m▀[0;37;40m [0;36;40m▄[0m
+                                          [36;40m▄[0m
+                                         [36;40m█[0m
+                                         [36;40m██[0m
+                                          [36;40m█[0m
+                                         [36;40m▀[0m
+                                         [36;40m▄[0m
+
+                                        [36;40m▄[0m       [36;40m▄[0m
+                                       [36;40m▐[0m      [36;40m▀▀[0m
+                                   [36;40m▄▄[0;37;40m  [0;36;40m▌[0m      [36;40m▄[0m
+                                     [36;40m▀[0;37;40m [0;36;40m▌[0m     [36;40m▄[0m
+                                     [36;40m▄▌▄[0;37;40m    [0;1;37;40m█[0;36m▀[0m
+                                      [36m▌[0m     [1;37m█[0m
+                                      [36m▌[0m
+                                       [36m█[0m
+                                       [36m█[0m
+                                      [36m█[0;1;36m█[0;36m█[0m              [32m■[0m
+                                    [1;37m [0m  [1;36m▓[0m [36m▄[0;37m  [0;36m█[0m                   [32m .[0m
+                     [32m.[0m               [1;37m▀[0;36m▄▀█[0;37m  [0;36m█[0m            [32m▄[0m         [32mo[0m
+                    [32m:[0m                 [36m▀▄[0;37m  [0;36m█[0;37m    [0;32m▀▄[0m
+                      [32m.[0m                  [36m▄█▄[0;32m▄▀[0;37m [0;32m▀[0m         [32m▀[0m      [32mx[0m
+                       [32m)[0m               [36m█▐[0;32m▀[0m              [32m▄[0m
+                      [32m/[0m                 [36m█[0m              [32m█[0m          [32m■[0m
+                     [32m:[0m                [36m███[0m               [36m▀▄[0m      [32m.[0m
+                      [32m▄[0m                [36m█[0m                 [36m▀[0m     [32m([0m
+[37m   [0;32m+[0m                    [36m▀▄[0m                               [36m▄[0m     [32m .[0m
+                         [36m█[0m               [36m█[0m              [36m▀[0m        [32m)[0m
+[37m    [0;32mx[0m                   [32m▄[0m                              [36m█[0;1;37m▄[0m       [32m.[0m
+                      [36m▄▀[0m                 [36m▄[0m              [36m▀[0m      [32m:[0m
+[37m   [0;32m.[0m                   [36m▀█[0m                                       [32m\[0m
+[37m  [0;32m:[0m                   [36m▀▄▀▀▄[0m             [36m█[0m                 [36m▒[0m       [32m.[0m
+[37m   [0;32m.[0m                    [36m▀[0;32m▄[0;36m▄█▄[0m           [36m█[0m                 [1;37m▄[0;36m▒[0m        [32m▄[0m
+[37m    [0;32m)[0m                      [36m▀▄[0;1;36m▓[0m            [36m▀▄[0m                          [32m▀▄[0m
+[37m   [0;32m/[0m                     [36m [0;37m  [0;36m█[0;1;36m█[0;36m▌[0m                          [1;37m▄[0m             [32m░▒[0m
+[37m  [0;32m([0m                         [36m▐[0;1;36m▓[0m         [1;36m██[0m               [1m▀[0m              [32m█[0m'

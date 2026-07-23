@@ -1,0 +1,38 @@
+﻿# Converted from: us-gav.ans
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/laz16/raw/us-gav.ans
+# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
+# Source SHA-256: 74b4d6db581bf8727724417d43f03abe7707134b69bd24bbb8a24e8ebbfd40b3
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: us-gav.ans by Warpus + The Knight (Lazarus); released in laz16 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: Gay American Vampire
+# SAUCE Author: Warpus + The Knight
+# SAUCE Group: Lazarus
+# SAUCE Date: 20230103
+# SAUCE Dimensions: 80x69
+# SAUCE Font: IBM VGA
+# SAUCE Comments: In the vampires from around the world series
+# Lines: 51-69
+# Columns: 1-80
+
+Write-Host '
+[37m                  [0;1;30m▒    [0;30m▐█[0;35m▐██[0;34m██[0;32m██[0;1;33m██[0;1;31m ██[0;31m██[0;34m██[0;35m██[0;32m▌[0;30m██[0m
+[37m                   [0;1;30m░    [0;30m█[0;35m▐██[0;34m██[0;32m██[0;1;33m█▌[0;1;31m▐██[0;31m██[0;34m██[0;35m██[0;30m██[0m
+[37m                        [0;30m██[0;35m█[0;35;44m▌[0;34;40m█[0;32;44m▐[0;32;40m██[0;1;33;40m█▌[0;1;31;40m▐██[0;31m██[0;34m██[0;35m█▌[0;30m█[0m
+[1;30m                        [0;30m▐█[0;35m█[0;35;44m▌[0;34;40m█[0;32;44m▐[0;32;40m██[0;1;33;40m█▌[0;1;31;40m▐██[0;31m██[0;34m██[0;35m█[0;30m█▌[0m
+[37m                        [0;30m▐█[0;35m█[0;35;44m▌[0;34;40m█[0;32;44m▐[0;32;40m██[0;1;33;40m█▌[0;1;31;40m▐██[0;31m██[0;34m██[0;35m█[0;30m█[0m
+[37m                         [0;30m█[0;35m▐[0;35;44m▌[0;34;40m█[0;32;44m▐[0;32;40m█[0;1;33;42m▐[0;1;33;40m█▌[0;1;31;40m▐█[0;1;31;41m█[0;31m██[0;34m██[0;35m▌[0;30m▌[0m
+[37m                         [0;30m▐[0;35m▐[0;34m██[0;32;44m▐[0;32;40m█[0;1;33;42m▐[0;1;33;40m█▌[0;1;31;40m▐█[0;1;31;41m▌[0;31m██[0;34m██[0;35m▌[0m
+[37m                          [0;30m█[0;34m██[0;32;44m█[0;32;40m█[0;1;33;42m▐[0;1;33;40m█▌[0;1;31;40m▐█[0;1;31;41m▌[0;31m██[0;34m██[0;30m▌[0m
+[37m                          [0;30m▐[0;34m██[0;32m██[0;1;33m██▌[0;1;31m▐█[0;1;31;41m▌[0;31m██[0;34m█▌[0m
+[37m         [0;30m▌▐[0;37m               [0;30m▐[0;34m██[0;32m██[0;1;33m██ [0;1;31m▐█[0;31m██[0;34;41m▐[0;34;40m█▌[0m
+[37;40m                           [0;34;40m▐█[0;32;40m██[0;1;33;40m██[0m [1;31m██[0;31m██[0;34;41m▐[0;34;40m█[0m
+[37;40m                           [0;34;40m▐█[0;32;40m██[0;1;33;40m██[0m [1;31m██[0;31m██[0;34m█▌[0m
+[37m                            [0;34m█[0;32m██[0;1;33m██[0m [1;31m██[0;31m██[0;34m█[0m
+[37m                            [0;34m▐[0;32m██[0;1;33m██[0m [1;31m██[0;31m██[0;34m▌[0m
+[37m                             [0;32m██[0;1;33m██[0m [1;31m██[0;31m██[0m
+[37m                             [0;32m▀█[0;1;33m██[0m [1;31m██[0;31m█[0m
+[37m                               [0;1;33m▀[0;1;31m▓ ▓[0;35m▀[0m
+
+[37m                                           [0;30m█[0m'

@@ -1,11 +1,13 @@
 ﻿# Converted from: ROY-KIT.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0397b/ROY-KIT.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/sac0397b/raw/ROY-KIT.ANS
 # Source Revision: archive-sha256:4675e986db6899c1d9bb95711f69cdb168742dca5b3bf60822d0bd9e3e64898a
 # Source SHA-256: 55568fd0050c5d8061a14f12a22aa1864ea4268498ce0cde2c4a0e73c28c4f62
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: ROY-KIT.ANS by Roy/SAC aka Carsten Cumbrowski; released in sac0397b and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Lines: 1-20
+# Columns: 1-80
 
 Write-Host '
 [1m    [0;1;47m▓[0;1;40m▄[0m              [1;47m▓[0;1;40m▄[0m                 [1;47m▓[0;1;40m▄[0m

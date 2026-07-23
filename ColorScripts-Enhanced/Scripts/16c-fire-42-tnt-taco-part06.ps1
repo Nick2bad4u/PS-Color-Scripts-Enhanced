@@ -1,0 +1,32 @@
+﻿# Converted from: TNT-TACO.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/fire-42/raw/TNT-TACO.ANS
+# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
+# Source SHA-256: bbecf9c3cbc6e0fbee1497f1665f139756760dad0f43c1cd027597d5febe2f5d
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: TNT-TACO.ANS by tainted (fire); released in fire-42 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: taco pronto
+# SAUCE Author: tainted
+# SAUCE Group: fire
+# SAUCE Date: 20250303
+# SAUCE Dimensions: 80x264
+# SAUCE Font: IBM VGA
+# Lines: 251-264
+# Columns: 1-80
+
+Write-Host '
+          [1;30m▐█▌[0;33m▐[0;1;33;43m░[0;33m█▌[0;1;30m▐█▌▀▀[0m  [1;30m▐██[0m [33m███[0;37m [0;33m██▓▀░[0m         [1;33m▀[0;1;33;43m▀[0;1;33;40m▄[0m  [33m███▌[0;37m [0;33m▐██[0;37m   [0;33m██▀[0;37m [0;1;30m▄██▀[0m
+           [1;30m██[0m [33m███[0;37m [0;1;30m██[0m     [1;30m▐██[0m [33m███▐▓▒[0;37m    [0;32m▀[0;1;32;42m▀[0;32m░[0;37m [0;1;33m▀██▄[0m [33m▀[0;1;33;43m▀[0;1;33;40m▄[0m [33m██▌[0;37m [0;33m░▓▀[0;37m [0;1;30m█▄▄▄▄██▀▄▄▀[0m
+           [1;30m▐█▌[0;33m▐█▀[0;1;30m▄██[0m      [1;30m▐██[0m [33m██▓▒░[0;31m▄█░[0;37m   [0;33m▀▄[0;37m [0;32m▄[0;37m   [0;32m▀▄[0;33m▀[0;1;33;43m▓[0m [33m▀[0;37m   [0;1;30m▄▄████▀▀▄██▀[0m
+            [1;30m██▄▄██▀[0m        [1;30m▐██[0m [33m▀░░[0;37m   [0;33m▄[0;37m [0;1;33;43m▄[0;1;37;43m▄██▄[0m [32m▀[0;37m [0;1;33m▀▓░[0m [33m▐[0;1;33;43m▒[0m [1;30m░▓██▀▀ ▄▄██▀█▄▀[0m
+             [1;30m▀▀▀[0m             [1;30m▀▓░[0m   [33m█[0;37m [0;1;33;43m▓▓[0;33m░[0;1;33;43m▓▓[0m [1;33;43m▓█[0m       [1;33;43m▒[0m      [1;30m▀▀▀▀[0m  [1;30m▀▀[0m
+                                  [1;30m▄[0m [33m▀[0;37m [0;1;33;43m░░[0;33m▓[0;1;33;43m▒▒[0m [1;33;43m▒█[0m [31m▄[0;37m   [0;32m░[0;1;33;43m░[0m  [33mtnt[0;1;30m[[0;1;33mfire[0;1;30m][0m
+                                        [33m▀▀[0;1;33;43m░░[0m [1;33;43m░[0;33m▌[0;37m    [0;32m▀[0;1;33;43m░[0m
+                                            [33m▀[0;37m [0;33m█▄[0;37m  [0;33m▄[0;1;33;43m░[0;33m▌[0;37m [0;32m▄░[0m
+                                           [32m▄[0;37m    [0;33m▀▀▀[0;37m  [0;32m▀▀[0m
+                                         [32m▀[0;1;32;42m░░[0;32m▀[0m
+
+                        [1;33mt[0m [1;33ma[0;33m [0;1;33mc[0m [1;33mo[0m   [1;33mp[0m [1;33mr[0m [1;33mo[0m [1;33mn[0m [1;33mt[0m [1;33mo[0m  [33m+o phigan[0m
+                           [1;30mtelnet://tacopronto.bbs.io[0m
+                                                                              [30m░[0m'

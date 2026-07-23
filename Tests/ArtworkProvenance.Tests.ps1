@@ -4,8 +4,10 @@ Describe 'Curated ANSI artwork provenance' {
         $script:ModuleRoot = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
         $script:ScriptsRoot = Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts'
         $script:ProvenancePath = Join-Path -Path $script:ModuleRoot -ChildPath 'ArtworkProvenance.psd1'
-        $script:Provenance = Import-PowerShellDataFile -Path $script:ProvenancePath
-        $script:ImportedPrefixes = @('asciiville-', 'botany-', 'durdraw-', 'os-ansi-', 'roy-sac-')
+        # The trusted, checked-in provenance map intentionally exceeds
+        # Import-PowerShellDataFile's conservative default AST-size limit.
+        $script:Provenance = Import-PowerShellDataFile -Path $script:ProvenancePath -SkipLimitCheck
+        $script:ImportedPrefixes = @('16c-', 'asciiville-', 'botany-', 'durdraw-', 'os-ansi-', 'roy-sac-')
         $script:ImportedScriptFiles = @(Get-ChildItem -LiteralPath $script:ScriptsRoot -File -Filter '*.ps1' | Where-Object {
                 $name = $_.BaseName
                 @($script:ImportedPrefixes | Where-Object { $name.StartsWith($_, [System.StringComparison]::OrdinalIgnoreCase) }).Count -gt 0
@@ -18,10 +20,9 @@ Describe 'Curated ANSI artwork provenance' {
     }
 
     It 'declares a valid collection for every imported script without orphan mappings' {
-        $script:Provenance.SchemaVersion | Should -Be 1
-        @($script:Provenance.Collections.Keys) | Should -HaveCount 5
-        @($script:Provenance.Scripts.Keys) | Should -HaveCount 61
-        $script:ImportedScriptFiles | Should -HaveCount 61
+        $script:Provenance.SchemaVersion | Should -Be 2
+        @($script:Provenance.Collections.Keys) | Should -HaveCount 6
+        @($script:Provenance.Scripts.Keys) | Should -HaveCount $script:ImportedScriptFiles.Count
 
         $mappedNames = @($script:Provenance.Scripts.Keys | Sort-Object)
         $checkedInNames = @($script:ImportedScriptFiles.BaseName | Sort-Object)
@@ -33,8 +34,68 @@ Describe 'Curated ANSI artwork provenance' {
             $entry.SourceFile | Should -Not -BeNullOrEmpty
             $entry.SourceUrl | Should -Match '^https://[^\s]+$'
             $entry.SourceSha256 | Should -Match '^[0-9a-f]{64}$'
-            $entry.InputEncoding | Should -BeIn @('cp437', 'utf8')
+            $entry.InputEncoding | Should -BeIn @('cp437', 'cp860', 'utf8')
             $entry.ConversionMode | Should -BeIn @('Passthrough', 'TerminalEmulation')
+
+            if ($entry.Collection -eq '16colors-permitted') {
+                $entry.OriginalFilename | Should -Not -BeNullOrEmpty
+                $entry.Format | Should -BeIn @('ANS', 'ICE')
+                $entry.ArchiveUrl | Should -Match '^https://16colo\.rs/archive/'
+                if ($entry.MetadataSource -eq '16colors-archive-recovery') {
+                    $entry.SourceUrl | Should -Be $entry.ArchiveUrl
+                    $entry.GalleryUrl | Should -Be $entry.ArchiveUrl
+                    $entry.PreviewUrl | Should -BeNullOrEmpty
+                    $entry.PreviewAvailability | Should -Match '^Unavailable from 16colors;'
+                }
+                else {
+                    $entry.SourceUrl | Should -Match '^https://16colo\.rs/pack/[^/]+/raw/'
+                    $entry.GalleryUrl | Should -Match '^https://16colo\.rs/pack/'
+                    $entry.PreviewUrl | Should -Match '^https://16colo\.rs/pack/[^/]+/x1/'
+                }
+                if ($entry.MetadataSource -eq '16colors-api-raw-fallback') {
+                    $entry.ArchiveSha256 | Should -BeNullOrEmpty
+                    $entry.ArchiveAvailability | Should -Match '^The official 16colors archive was unavailable'
+                    $entry.SourceRevision | Should -Be "raw-sha256:$($entry.SourceSha256)"
+                }
+                else {
+                    $entry.ArchiveSha256 | Should -Match '^[0-9a-f]{64}$'
+                    $entry.ArchiveAvailability | Should -BeNullOrEmpty
+                    $entry.SourceRevision | Should -Be "archive-sha256:$($entry.ArchiveSha256)"
+                }
+                $entry.SourceRevision | Should -Not -BeNullOrEmpty
+                $entry.RenderSha256 | Should -Match '^[0-9a-f]{64}$'
+                $entry.SourceRows | Should -Match '^\d+-\d+$'
+                $entry.SourceColumns | Should -Match '^\d+-\d+$'
+                $entry.Artist | Should -Not -BeNullOrEmpty
+                $entry.Group | Should -Not -BeNullOrEmpty
+                $entry.Pack | Should -Not -BeNullOrEmpty
+                $hasKnownDate =
+                ($null -ne $entry.ArtworkDate -and $entry.ArtworkDate -match '^\d{4}-\d{2}-\d{2}$') -or
+                ($null -ne $entry.ArtworkYear -and $entry.ArtworkYear -match '^\d{4}$')
+                $hasKnownDate | Should -BeTrue -Because "'$scriptName' needs the most precise available archive date"
+                if ($null -ne $entry.ArtworkDate) {
+                    $parsedArtworkDate = [datetime]::MinValue
+                    [datetime]::TryParseExact(
+                        $entry.ArtworkDate,
+                        'yyyy-MM-dd',
+                        [cultureinfo]::InvariantCulture,
+                        [Globalization.DateTimeStyles]::None,
+                        [ref]$parsedArtworkDate
+                    ) | Should -BeTrue -Because "'$scriptName' must have a real calendar date"
+                }
+                $entry.HasSauce | Should -BeOfType ([bool])
+                $entry.IceColors | Should -BeOfType ([bool])
+                if ($entry.HasSauce) {
+                    $entry.SauceDimensions | Should -Match '^\d+x\d+$'
+                    $entry.SauceFlags | Should -BeOfType ([int])
+                    $entry.SauceFont | Should -Not -BeNullOrEmpty
+                }
+                else {
+                    $entry.SauceDimensions | Should -BeNullOrEmpty
+                    $entry.SauceFlags | Should -BeNullOrEmpty
+                    $entry.SauceFont | Should -BeNullOrEmpty
+                }
+            }
         }
     }
 
@@ -58,9 +119,18 @@ Describe 'Curated ANSI artwork provenance' {
             $contents | Should -Match ([regex]::Escape("# Source Revision: $revision"))
             $contents | Should -Match ([regex]::Escape("# Source SHA-256: $($entry.SourceSha256)"))
             $contents | Should -Match ([regex]::Escape("# Source License: $($collection.License)"))
-            $contents | Should -Match ([regex]::Escape("# Source Attribution: $($collection.Attribution)"))
+            $attribution = if ($null -ne $entry.Attribution) {
+                $entry.Attribution
+            }
+            else {
+                $collection.Attribution
+            }
+            $contents | Should -Match ([regex]::Escape("# Source Attribution: $attribution"))
             if ($null -ne $entry.SourceRows) {
                 $contents | Should -Match ([regex]::Escape("# Lines: $($entry.SourceRows)"))
+            }
+            if ($null -ne $entry.SourceColumns) {
+                $contents | Should -Match ([regex]::Escape("# Columns: $($entry.SourceColumns)"))
             }
             $contents | Should -Not -Match '# Conversion date:'
         }
@@ -88,7 +158,26 @@ Describe 'Curated ANSI artwork provenance' {
             $scriptPath = Join-Path -Path $script:ScriptsRoot -ChildPath "$scriptName.ps1"
             $contents = [System.IO.File]::ReadAllText($scriptPath)
             $contents | Should -Match '# Source License: FAL-1\.3'
-            $contents | Should -Match '# Source Attribution: Roy/SAC aka Carsten Cumbrowski'
+            $contents | Should -Match '# Source Attribution: .*Roy/SAC aka Carsten Cumbrowski'
+            $contents | Should -Match '# Source Modification: '
+        }
+    }
+
+    It 'keeps every 16colors permission import outside the repository Unlicense' {
+        $collection = $script:Provenance.Collections['16colors-permitted']
+        $collection.License | Should -Be 'LicenseRef-16colors-discord-permission'
+        $collection.LicenseEvidence | Should -Be 'ThirdPartyNotices/16colors-discord-permission.txt'
+        $collection.PermissionDate | Should -Be '2026-07-22'
+
+        $rootLicense = [System.IO.File]::ReadAllText((Join-Path -Path $script:RepoRoot -ChildPath 'LICENSE'))
+        $rootLicense | Should -Match ([regex]::Escape('ColorScripts-Enhanced/Scripts/16c-*.ps1'))
+        $rootLicense | Should -Match 'project-specific artist-authorized grant'
+
+        foreach ($scriptName in @($script:Provenance.Scripts.Keys | Where-Object { $_.StartsWith('16c-', [System.StringComparison]::Ordinal) })) {
+            $scriptPath = Join-Path -Path $script:ScriptsRoot -ChildPath "$scriptName.ps1"
+            $contents = [System.IO.File]::ReadAllText($scriptPath)
+            $contents | Should -Match '# Source License: LicenseRef-16colors-discord-permission'
+            $contents | Should -Match '# Source Attribution: '
             $contents | Should -Match '# Source Modification: '
         }
     }
@@ -195,12 +284,16 @@ Describe 'Curated ANSI artwork provenance' {
                     Available = $result.Available
                     Length    = if ($null -eq $result.Content) { 0 } else { $result.Content.Length }
                     HasEscape = $null -ne $result.Content -and $result.Content.Contains([char]27)
+                    UnsafeC0  = $null -ne $result.Content -and [regex]::IsMatch(
+                        $result.Content,
+                        '[\x00-\x08\x0B\x0C\x0E-\x1A\x1C-\x1F\x7F]'
+                    )
                 }
             }
         }
 
-        @($results) | Should -HaveCount 61
-        @($results | Where-Object { -not $_.Available -or $_.Length -eq 0 -or -not $_.HasEscape }) | Should -BeNullOrEmpty
+        @($results) | Should -HaveCount $script:ImportedScriptFiles.Count
+        @($results | Where-Object { -not $_.Available -or $_.Length -eq 0 -or -not $_.HasEscape -or $_.UnsafeC0 }) | Should -BeNullOrEmpty
     }
 
     It 'keeps the os-ansi import limited to the audited multicolor sources' {
@@ -236,7 +329,7 @@ Describe 'Curated ANSI artwork provenance' {
             Should -BeNullOrEmpty -Because 'oversized artwork must be split without reflowing or squishing it'
     }
 
-    It 'does not contain duplicate rendered output within the imported set' {
+    It 'does not duplicate a whole work or two parts from the same source' {
         $duplicates = InModuleScope ColorScripts-Enhanced -Parameters @{
             paths = @($script:ImportedScriptFiles.FullName)
         } {
@@ -267,6 +360,23 @@ Describe 'Curated ANSI artwork provenance' {
             }
         }
 
-        @($duplicates) | Should -BeNullOrEmpty
+        $sourcePartCounts = @{}
+        foreach ($scriptName in $script:Provenance.Scripts.Keys) {
+            $sourceHash = $script:Provenance.Scripts[$scriptName].SourceSha256
+            $sourcePartCounts[$sourceHash] = 1 + [int]$sourcePartCounts[$sourceHash]
+        }
+        $invalidDuplicates = foreach ($duplicate in @($duplicates)) {
+            $firstEntry = $script:Provenance.Scripts[$duplicate.First]
+            $secondEntry = $script:Provenance.Scripts[$duplicate.Second]
+            $sameSource = $firstEntry.SourceSha256 -eq $secondEntry.SourceSha256
+            $bothWholeWorks =
+            $sourcePartCounts[$firstEntry.SourceSha256] -eq 1 -and
+            $sourcePartCounts[$secondEntry.SourceSha256] -eq 1
+            if ($sameSource -or $bothWholeWorks) {
+                $duplicate
+            }
+        }
+
+        @($invalidDuplicates) | Should -BeNullOrEmpty -Because 'source-level normalized render hashes must be unique; identical shared panels may recur across otherwise distinct split originals'
     }
 }

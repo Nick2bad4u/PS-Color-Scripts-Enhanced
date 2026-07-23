@@ -1,0 +1,31 @@
+﻿# Converted from: rowghaurd1.ans
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/clear2ooo-ascii-year-lf/raw/rowghaurd1.ans
+# Source Revision: archive-sha256:dd383b5bee47a74826e2ee2d07d90cd2a401abc53b70a009479dbf2d94c53f24
+# Source SHA-256: 5ad90397149e70f9c570c687f4c532b1154b23d9fbfd36838181930e9587e791
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: rowghaurd1.ans by clear2ooo (clear2ooo-ascii-year-lf); released in clear2ooo-ascii-year-lf and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: row-ghaurd
+# SAUCE Author: clear2ooo
+# SAUCE Date: 20250227
+# SAUCE Dimensions: 80x200
+# SAUCE Font: IBM EGA43 437
+# Lines: 187-200
+# Columns: 1-80
+
+Write-Host '
+    ████████   ██     ██    ███████    ██     ██    ███████    ███████     ██
+    ████████   ██     ██    ███████    ██     ██    ████████   ████████    ██
+   ██          ██     ██   ██     ██   ██     ██   ██     ██   ██     ██   ██
+   ██          ██     ██   ██     ██   ██     ██   ██     ██   ██     ██   ██
+   ██          ██     ██   ██     ██   ██     ██   ██     ██   ██     ██   ██
+   ██          ██     ██   ██     ██   ██     ██   ██     ██   ██     ██   ██
+   ██     ██   █████████   █████████   ██     ██   █████████   ██     ██   ██
+   ██     ██   █████████   █████████   ██     ██   ██████      ██     ██   ██
+   ██     ██   ██     ██   ██     ██   ██     ██   ██   ██     ██     ██   ██
+   ██     ██   ██     ██   ██     ██   ██     ██   ██   ██     ██     ██
+   ██     ██   ██     ██   ██     ██   ██     ██   ██    ██    ██     ██
+   ██     ██   ██     ██   ██     ██   ██     ██   ██    ██    ██     ██   ██
+    ████████   ██     ██   ██     ██   █████████   ██     ██   █████████   ██
+    ████████   ██     ██   ██     ██   █████████   ██     ██   ████████    ██[0m'

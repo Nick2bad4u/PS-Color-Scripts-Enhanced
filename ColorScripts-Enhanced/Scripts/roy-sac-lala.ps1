@@ -1,11 +1,13 @@
 ﻿# Converted from: ROY-LALA.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0995/ROY-LALA.ANS
-# Source Revision: archive-sha256:cc360b79185ba045775293710395ac2d0a043a893088560f3313eb0514dcb071
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-LALA.ANS
+# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
 # Source SHA-256: 94d81605fd6f5dfebc3417fc32355a5c9b5749549231f8a47e1bc10e0ffb925b
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: ROY-LALA.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Lines: 1-20
+# Columns: 1-80
 
 Write-Host '
                                                             ▀  ▄▄▀  █▄  ▄

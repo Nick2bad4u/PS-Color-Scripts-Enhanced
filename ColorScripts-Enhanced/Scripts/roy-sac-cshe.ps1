@@ -1,11 +1,13 @@
 ﻿# Converted from: ROY-CSHE.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0398/ROY-CSHE.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/sac0398/raw/ROY-CSHE.ANS
 # Source Revision: archive-sha256:5deb0c572555b712853a4e44d44a0abdfad1e60e47bfcff7ce192c9fa583bdec
 # Source SHA-256: eebaea8a83a30b88528d1bfaced5a96e52e98e1933e87376573cc292b050e3d2
 # Source License: FAL-1.3
-# Source Attribution: Roy/SAC aka Carsten Cumbrowski
-# Source Modification: Decoded from CP437 and flattened through bounded terminal emulation into a safe PowerShell literal.
+# Source Attribution: ROY-CSHE.ANS by Roy/SAC aka Carsten Cumbrowski; released in sac0398 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Lines: 1-14
+# Columns: 1-80
 
 Write-Host '
 
