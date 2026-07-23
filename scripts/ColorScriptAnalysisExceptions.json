@@ -7,6 +7,66 @@
         },
         {
             "issueType": "derivative-attribution-review",
+            "family": "16c-33rules-33-drool",
+            "reason": "Reviewed self-description: the artwork explicitly calls itself an original; the joking phrase 'ripped from' does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-33rules-33-pin",
+            "reason": "Reviewed false positive: 'my place is ripped' is narrative prose about a damaged location, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-blocktronics-blockfury-balkan-madness-and-ret-bye-sense",
+            "reason": "Reviewed false positive: 'after me there shall be no more' is text within the artwork, not a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-blocktronics-acid-trip-fil-bloq",
+            "reason": "Reviewed false positive: every flagged use of 'after' appears in the artist's narrative essay about creating the ANSI, not in a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-blocktronics-acid-trip-zo-classic",
+            "reason": "Reviewed false positive: 'After Hours BBS' is the proper name of the depicted bulletin board system, not a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-blocktronics-1010-mt-business-shirt",
+            "reason": "Reviewed self-attribution: the text identifies original ANSI work by the participating artists and does not name an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-blocktronics-1980-zo-retroverse",
+            "reason": "Reviewed self-attribution: 'original artwork by enzO' credits the ANSI artist's own work and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-blocktronics-blockalypse-2mz0avgrm-blackflag",
+            "reason": "Reviewed false positive: 'after the arm/tshirt' is compositional commentary within the artwork, not a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-blocktronics-blockalypse-goo-unleash",
+            "reason": "Reviewed false positive: both uses of 'after' are ordinary narrative prose, not derivative-source attributions."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-mist1014-wz-clockmaker",
+            "reason": "Reviewed false positive: 'after' and 'ripped up from their moorings' occur within the artwork's fictional story, not in a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-tcf20-1998-07-fev-stah",
+            "reason": "Reviewed self-description: 'ripped from the ideas of thousands before me' is nonspecific artistic commentary and identifies no external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-tcf20-2005-02-tcf-002",
+            "reason": "Reviewed self-attribution: 'All Original Art' identifies The Creep Fever's own work and does not name an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
             "family": "16c-blocktronics-darker-image-2-misfit-south-side-selfie",
             "reason": "Reviewed self-description: 'based on real life' describes Misfit's own original scene and does not identify a protected source artwork."
         },

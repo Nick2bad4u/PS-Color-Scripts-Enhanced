@@ -73,15 +73,18 @@ The native `indyz-kali.utf8.ans` example contains 2,481 SGR sequences across exa
 - API documentation: <https://16colo.rs/api/>
 - Archive rights policy: <https://16colo.rs/faq/>
 - Permission evidence: [maintainer attestation](../ColorScripts-Enhanced/ThirdPartyNotices/16colors-discord-permission.txt)
+- Compact audit checkpoint: [AnsiArchiveCurationCheckpoint.json](../ColorScripts-Enhanced/AnsiArchiveCurationCheckpoint.json)
 - Accepted source formats: `.ANS` and `.ICE`
 - Current named import: [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, represented by six contiguous scripts
-- Review status: 2017-2026 review-complete, with every accepted work imported; 1990-2016 still in progress
+- Review status: 2012-2026 review-complete, with every accepted work imported; 1990-2011 still in progress
 
 The archive remains a browsing and preservation service; public availability is not treated as a license. For this project, the maintainer attested on 2026-07-22 that artists, rightsholders, or an explicitly authorized representative granted project-specific permission to redistribute and convert artwork from the 16colors and Roy/SAC sites with attribution. This does not relicense the archive for unrelated uses.
 
 The resumable `npm run ansi:audit -- --source=all` workflow enumerates the canonical pack API and Roy download inventory, caches raw candidates and previews under ignored `temp/`, fingerprints source bytes and rendered terminal cells, rejects monochrome and duotone output, and writes an interactive review sheet. A candidate is imported only after general-audience, artistic-quality, composition, terminal-safety, duplicate, and attribution review. The normal gallery limits are 120 columns and 50 rows per script. Tall art is kept in contiguous source-row order; wide art is split only at coherent panel boundaries and is otherwise rejected. Source blank rows, margins, and background-colored spaces are preserved when they are part of the rendered canvas.
 
-The 2017-2026 review is complete and its accepted works are in the module. The 2017 audit covered 869 candidates and imported 93 accepted works as 249 scripts; the 2018 audit covered 815 candidates and imported 185 accepted works as 481 scripts; the 2019 audit covered 855 candidates and imported 180 accepted works as 371 scripts after a final derivative-rights review; and the 2020 audit covered 659 candidates and imported 90 accepted works as 195 scripts. The older archive is not complete: subtracting those four finished inventories from the prior pre-2021 checkpoint leaves approximately 41,545 candidates across 27 years from 1990 through 2016. That backlog total is an estimate from a checkpoint, not a permanent inventory count, because archive refreshes and normalized duplicate detection can change it.
+The 2012-2026 review is complete and its accepted works are in the module. Across those 15 archive years, the audit covered 373 packs and 8,594 `.ANS` or `.ICE` candidates, accepted 2,149 works, and emitted 4,733 scripts after exact row or panel splitting. The newly completed older years contributed 11 works as 16 scripts from 2012, 50 works as 147 scripts from 2013, 93 works as 318 scripts from 2014, 67 works as 220 scripts from 2015, and 71 works as 184 scripts from 2016. The checked-in compact checkpoint records each year's inventory fingerprint, disposition totals, and accepted source/hash list.
+
+The older archive is not complete. Subtracting the 2,115 candidates reviewed for 2012-2016 from the previous pre-2017 backlog estimate leaves approximately 39,430 candidates across 22 years from 1990 through 2011. That total is explicitly an estimate, not a permanent inventory count: archive refreshes, API corrections, and normalized duplicate detection can change it.
 
 The Lake House is decoded from CP437 at its declared 80-column width without background stripping. Its 200 populated terminal rows are preserved as `1-40`, `41-80`, `81-112`, `113-144`, `145-176`, and `177-200`; the first three scripts form the continuous landscape and the final three preserve its BBS menu panels.
 

@@ -4,9 +4,11 @@ Describe 'Curated ANSI artwork provenance' {
         $script:ModuleRoot = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
         $script:ScriptsRoot = Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts'
         $script:ProvenancePath = Join-Path -Path $script:ModuleRoot -ChildPath 'ArtworkProvenance.psd1'
+        $script:CheckpointPath = Join-Path -Path $script:ModuleRoot -ChildPath 'AnsiArchiveCurationCheckpoint.json'
         # The trusted, checked-in provenance map intentionally exceeds
         # Import-PowerShellDataFile's conservative default AST-size limit.
         $script:Provenance = Import-PowerShellDataFile -Path $script:ProvenancePath -SkipLimitCheck
+        $script:Checkpoint = Get-Content -Raw -LiteralPath $script:CheckpointPath | ConvertFrom-Json -Depth 100
         $script:ImportedPrefixes = @('16c-', 'asciiville-', 'botany-', 'durdraw-', 'os-ansi-', 'roy-sac-')
         $script:ImportedScriptFiles = @(Get-ChildItem -LiteralPath $script:ScriptsRoot -File -Filter '*.ps1' | Where-Object {
                 $name = $_.BaseName
@@ -54,7 +56,7 @@ Describe 'Curated ANSI artwork provenance' {
                 }
                 if ($entry.MetadataSource -eq '16colors-api-raw-fallback') {
                     $entry.ArchiveSha256 | Should -BeNullOrEmpty
-                    $entry.ArchiveAvailability | Should -Match '^The official 16colors archive was unavailable'
+                    $entry.ArchiveAvailability | Should -Match '^(?:The official 16colors archive was unavailable|The audit intentionally did not retain the disproportionately large official ZIP)'
                     $entry.SourceRevision | Should -Be "raw-sha256:$($entry.SourceSha256)"
                 }
                 else {
@@ -327,6 +329,55 @@ Describe 'Curated ANSI artwork provenance' {
 
         @($dimensions | Where-Object { $_.Width -gt 120 -or $_.Height -gt 50 }) |
             Should -BeNullOrEmpty -Because 'oversized artwork must be split without reflowing or squishing it'
+    }
+
+    It 'ships a complete compact checkpoint for every finished archive year' {
+        $script:Checkpoint.SchemaVersion | Should -Be 1
+        $script:Checkpoint.ScanDate | Should -Be '2026-07-23'
+        $script:Checkpoint.Scope.SixteenColorsCompletedYears | Should -Be '2012-2026'
+        $script:Checkpoint.Scope.SixteenColorsPendingYears | Should -Be '1990-2011'
+        $script:Checkpoint.CombinedInventorySha256 | Should -Match '^[0-9a-f]{64}$'
+
+        $years = @($script:Checkpoint.SixteenColors.Years)
+        $years | Should -HaveCount 15
+        @($years.Year) | Should -Be (2012..2026)
+        $script:Checkpoint.SixteenColors.Totals.PackCount |
+            Should -Be ($years.PackCount | Measure-Object -Sum).Sum
+        $script:Checkpoint.SixteenColors.Totals.CandidateCount |
+            Should -Be ($years.CandidateCount | Measure-Object -Sum).Sum
+
+        foreach ($year in $years) {
+            $year.InventorySha256 | Should -Match '^[0-9a-f]{64}$'
+            $year.AuditCheckpointSha256 | Should -Match '^[0-9a-f]{64}$'
+            $dispositionCount = @(
+                $year.DispositionTotals.PSObject.Properties.Value
+            ) | Measure-Object -Sum
+            $dispositionCount.Sum | Should -Be $year.CandidateCount -Because "every candidate from $($year.Year) needs a disposition"
+        }
+
+        $knownSourceHashes = @{}
+        foreach ($entry in $script:Provenance.Scripts.Values) {
+            $knownSourceHashes[$entry.SourceSha256] = $true
+        }
+        foreach ($source in $script:Checkpoint.SixteenColors.AcceptedSources) {
+            $source.ArchiveYear | Should -BeIn (2012..2026)
+            $source.SourceUrl | Should -Match '^https://16colo\.rs/pack/'
+            $source.SourceSha256 | Should -Match '^[0-9a-f]{64}$'
+            $source.RenderSha256 | Should -Match '^[0-9a-f]{64}$'
+            $knownSourceHashes.ContainsKey($source.SourceSha256) |
+                Should -BeTrue -Because "'$($source.Id)' must resolve to a checked-in provenance entry"
+        }
+
+        $roy = $script:Checkpoint.Roy
+        $roy.FinalImportedWorkCount | Should -Be 126
+        $roy.EmittedScriptCount | Should -Be 153
+        @($roy.AcceptedSources) | Should -HaveCount $roy.FinalImportedWorkCount
+        foreach ($source in $roy.AcceptedSources) {
+            $source.SourceSha256 | Should -Match '^[0-9a-f]{64}$'
+            $source.RenderSha256 | Should -Match '^[0-9a-f]{64}$'
+            $knownSourceHashes.ContainsKey($source.SourceSha256) |
+                Should -BeTrue -Because "'$($source.OriginalFilename)' must resolve to a checked-in provenance entry"
+        }
     }
 
     It 'does not duplicate a whole work or two parts from the same source' {
