@@ -15,6 +15,69 @@ const MAX_TERMINAL_COLUMNS = 2048;
 const MAX_TERMINAL_ROWS = 8192;
 const MAX_TERMINAL_CELLS = 2_000_000;
 const MAX_CSI_PARAMETER = 10_000;
+// iconv-lite deliberately preserves ASCII C0 controls when decoding CP437,
+// but DOS text-mode art uses most of those byte values as visible glyphs.
+// Keep only the bytes interpreted structurally by the ANSI renderer. This
+// matches the official 16colors/Ansilove preview behavior while emitting safe
+// Unicode instead of terminal control characters in generated scripts.
+const CP437_C0_GLYPHS = [
+    " ",
+    "☺",
+    "☻",
+    "♥",
+    "♦",
+    "♣",
+    "♠",
+    "•",
+    "◘",
+    null, // HT
+    null, // LF
+    "♂",
+    "♀",
+    null, // CR
+    "♫",
+    "☼",
+    "►",
+    "◄",
+    "↕",
+    "‼",
+    "¶",
+    "§",
+    "▬",
+    "↨",
+    "↑",
+    "↓",
+    "→",
+    null, // ESC
+    "∟",
+    "↔",
+    "▲",
+    "▼",
+];
+const SAUCE_DOS_CODE_PAGES = new Set([
+    "437",
+    "720",
+    "737",
+    "775",
+    "819",
+    "850",
+    "852",
+    "855",
+    "857",
+    "858",
+    "860",
+    "861",
+    "862",
+    "863",
+    "864",
+    "865",
+    "866",
+    "869",
+    "872",
+    "KAM",
+    "MAZ",
+    "MIK",
+]);
 
 /**
  * @typedef {"basic" | "bright" | "palette" | "rgb"} ColorMode
@@ -67,6 +130,7 @@ const MAX_CSI_PARAMETER = 10_000;
  * @property {boolean} [stripSpaceBackground]
  * @property {number} [maxHeight]
  * @property {boolean} [iceColors]
+ * @property {boolean} [dosAnsi]
  */
 
 /**
@@ -136,6 +200,100 @@ function cloneAttrs(attrs) {
         strike: attrs.strike,
         fg: attrs.fg ? { ...attrs.fg } : null,
         bg: attrs.bg ? { ...attrs.bg } : null,
+    };
+}
+
+/**
+ * Decode single-byte DOS ANSI data without leaking graphic control-range bytes
+ * into the Unicode output. TAB, LF, CR, and ESC retain their ANSI semantics;
+ * the remaining C0 bytes and DEL use the glyphs displayed by IBM text fonts.
+ *
+ * @param {Buffer} buffer
+ * @param {string} [encoding="cp437"]
+ *
+ * @returns {string}
+ */
+function decodeDosAnsi(buffer, encoding = "cp437") {
+    if (!iconv.encodingExists(encoding)) {
+        throw new RangeError(`Unsupported DOS text encoding: ${encoding}.`);
+    }
+    const decoded = iconv.decode(buffer, encoding);
+    if (decoded.length !== buffer.length) {
+        throw new Error(
+            `DOS text encoding ${encoding} did not decode one character per source byte.`
+        );
+    }
+    let output = "";
+    for (let index = 0; index < buffer.length; index += 1) {
+        const byte = buffer[index];
+        if (byte === 0x7f) {
+            output += "⌂";
+        } else if (byte < CP437_C0_GLYPHS.length) {
+            output += CP437_C0_GLYPHS[byte] ?? decoded[index];
+        } else {
+            output += decoded[index];
+        }
+    }
+    return output;
+}
+
+/**
+ * Decode CP437 ANSI data while preserving the DOS graphic-control glyphs.
+ *
+ * @param {Buffer} buffer
+ *
+ * @returns {string}
+ */
+function decodeCp437Ansi(buffer) {
+    return decodeDosAnsi(buffer, "cp437");
+}
+
+/**
+ * Resolve a SAUCE ANSI font name to the DOS character encoding it declares.
+ * The SAUCE specification defines an optional code-page suffix for the IBM
+ * EGA/VGA font families. Unknown or malformed font strings are metadata, not
+ * evidence of a different character set, so they retain the historical CP437
+ * fallback. A recognized but unavailable code page is reported as unsupported
+ * so archive tooling can reject it instead of silently corrupting glyphs.
+ *
+ * @param {string | null | undefined} fontName
+ *
+ * @returns {{
+ *     encoding: string;
+ *     label: string;
+ *     supported: boolean;
+ *     explicit: boolean;
+ *     codePage: string;
+ * }}
+ */
+function resolveSauceEncoding(fontName) {
+    const normalizedFont = String(fontName || "").trim();
+    const match =
+        /^IBM (?:VGA|VGA50|VGA25G|EGA|EGA43)(?: (\d{3}|KAM|MAZ|MIK))?$/iu.exec(
+            normalizedFont
+        );
+    if (!match) {
+        return {
+            encoding: "cp437",
+            label: "CP437",
+            supported: true,
+            explicit: false,
+            codePage: "437",
+        };
+    }
+
+    const codePage = (match[1] || "437").toUpperCase();
+    const encoding = /^\d{3}$/u.test(codePage)
+        ? `cp${codePage}`
+        : codePage.toLowerCase();
+    return {
+        encoding,
+        label: /^\d{3}$/u.test(codePage) ? `CP${codePage}` : codePage,
+        supported:
+            SAUCE_DOS_CODE_PAGES.has(codePage) &&
+            iconv.encodingExists(encoding),
+        explicit: Boolean(match[1]),
+        codePage,
     };
 }
 
@@ -339,8 +497,35 @@ function parseSauceRecord(buffer) {
  */
 function stripSauce(buffer) {
     const SAUCE_LENGTH = 128;
+    /**
+     * @param {number} offset
+     *
+     * @returns {number}
+     */
+    const trimDosEofMarkers = (offset) => {
+        while (offset > 0 && buffer[offset - 1] === 0x1a) {
+            offset -= 1;
+        }
+        return offset;
+    };
+    const contentEnd = trimDosEofMarkers(buffer.length);
+    const truncatedMarker = buffer.lastIndexOf(
+        Buffer.from("\x1aSAUCE00", "binary")
+    );
+    if (
+        truncatedMarker >= 0 &&
+        buffer.length - truncatedMarker - 1 < SAUCE_LENGTH
+    ) {
+        // A few historical archives contain a visibly truncated SAUCE record.
+        // It cannot be parsed safely, but the explicit DOS EOF + SAUCE00
+        // framing is still metadata and must never leak into rendered art.
+        return {
+            buffer: buffer.subarray(0, trimDosEofMarkers(truncatedMarker)),
+            sauce: null,
+        };
+    }
     if (buffer.length < SAUCE_LENGTH) {
-        return { buffer, sauce: null };
+        return { buffer: buffer.subarray(0, contentEnd), sauce: null };
     }
 
     const sauceOffset = buffer.length - SAUCE_LENGTH;
@@ -348,7 +533,7 @@ function stripSauce(buffer) {
         .subarray(sauceOffset, sauceOffset + 5)
         .toString("ascii");
     if (sauceId !== "SAUCE") {
-        return { buffer, sauce: null };
+        return { buffer: buffer.subarray(0, contentEnd), sauce: null };
     }
 
     const sauceRecord = buffer.subarray(
@@ -387,9 +572,7 @@ function stripSauce(buffer) {
 
     // A DOS 0x1A end-of-file marker commonly precedes COMNT/SAUCE metadata.
     // It is metadata framing, not artwork; preserve any SUB bytes elsewhere.
-    if (trimOffset > 0 && buffer[trimOffset - 1] === 0x1a) {
-        trimOffset -= 1;
-    }
+    trimOffset = trimDosEofMarkers(trimOffset);
 
     return {
         buffer: buffer.subarray(0, trimOffset),
@@ -423,12 +606,14 @@ class TerminalEmulator {
         this.cursorX = 0;
         this.cursorY = 0;
         this.currentAttrs = createDefaultAttrs();
-        /** @type {{
-    x: number;
-    y: number;
-    attrs: CellAttributes;
-    iceBackground: boolean;
-}} */
+        /**
+         * @type {{
+         *     x: number;
+         *     y: number;
+         *     attrs: CellAttributes;
+         *     iceBackground: boolean;
+         * }}
+         */
         this.savedCursor = {
             x: 0,
             y: 0,
@@ -441,6 +626,11 @@ class TerminalEmulator {
         this.maxCol = 0;
         this.stripSpaceBackground = opts.stripSpaceBackground === true;
         this.iceColors = opts.iceColors === true;
+        // DOS ANSI.SYS and the canonical 16colors/Ansilove renderer do not
+        // implement the later ECMA-48 bright-color aliases (90-97/100-107).
+        // CP437 archival artwork can contain those sequences incidentally;
+        // treating them as modern colors changes the artist-reviewed palette.
+        this.dosAnsi = opts.dosAnsi === true;
         this.iceBackground = false;
         this.writtenCellCount = 0;
     }
@@ -480,7 +670,11 @@ class TerminalEmulator {
      */
     setCursor(x, y) {
         this.assertCursorPosition(x, y);
-        this.cursorX = x;
+        // Real ANSI terminals constrain absolute and relative horizontal cursor
+        // movement to the active right margin. Keeping an out-of-range column
+        // here silently widens nominally 80-column artwork and makes later
+        // serialization disagree with SAUCE and official renderers.
+        this.cursorX = Math.min(x, this.columns - 1);
         this.cursorY = y;
         this.wrapPending = false;
     }
@@ -605,9 +799,6 @@ class TerminalEmulator {
     lineFeed(count) {
         const step = count || 1;
         this.setCursor(this.cursorX, this.cursorY + step);
-        if (this.cursorY > this.maxRow) {
-            this.maxRow = this.cursorY;
-        }
     }
 
     carriageReturn() {
@@ -620,42 +811,33 @@ class TerminalEmulator {
      */
     insertCharacters(count) {
         const n = Math.max(1, count || 1);
-        if (this.cursorX + n > MAX_TERMINAL_COLUMNS) {
-            throw new RangeError(
-                `ANSI insert operation exceeds the supported ${MAX_TERMINAL_COLUMNS}-column terminal bound.`
-            );
-        }
+        const inserted = Math.min(n, this.columns - this.cursorX);
         const row = this.ensureRow(this.cursorY);
         const updated = new Map();
         for (const [col, cell] of row.cells.entries()) {
             if (col >= this.cursorX) {
-                if (col + n >= MAX_TERMINAL_COLUMNS) {
-                    throw new RangeError(
-                        `ANSI insert operation exceeds the supported ${MAX_TERMINAL_COLUMNS}-column terminal bound.`
-                    );
+                const destination = col + inserted;
+                if (destination < this.columns) {
+                    updated.set(destination, cell);
                 }
-                updated.set(col + n, cell);
             } else {
                 updated.set(col, cell);
             }
         }
-        for (let i = 0; i < n; i += 1) {
+        for (let i = 0; i < inserted; i += 1) {
             updated.set(this.cursorX + i, {
                 char: " ",
                 attrs: cloneAttrs(this.currentAttrs),
             });
         }
-        this.writtenCellCount += n;
+        this.writtenCellCount += inserted;
         if (this.writtenCellCount > MAX_TERMINAL_CELLS) {
             throw new RangeError(
                 `ANSI input exceeds the ${MAX_TERMINAL_CELLS} rendered-cell limit.`
             );
         }
         row.cells = updated;
-        row.maxCol = Math.max(row.maxCol, this.cursorX + n - 1);
-        if (row.maxCol > this.maxCol) {
-            this.maxCol = row.maxCol;
-        }
+        this.recalculateRowBounds(this.cursorY);
     }
 
     /**
@@ -903,7 +1085,11 @@ class TerminalEmulator {
                             mode: "basic",
                             value: code - 30,
                         };
-                    } else if (code >= 90 && code <= 97) {
+                    } else if (
+                        !this.dosAnsi &&
+                        code >= 90 &&
+                        code <= 97
+                    ) {
                         this.currentAttrs.fg = {
                             mode: "bright",
                             value: code - 90,
@@ -913,7 +1099,11 @@ class TerminalEmulator {
                             mode: this.iceBackground ? "bright" : "basic",
                             value: code - 40,
                         };
-                    } else if (code >= 100 && code <= 107) {
+                    } else if (
+                        !this.dosAnsi &&
+                        code >= 100 &&
+                        code <= 107
+                    ) {
                         this.currentAttrs.bg = {
                             mode: "bright",
                             value: code - 100,
@@ -963,9 +1153,6 @@ class TerminalEmulator {
                 break;
             case "B":
                 this.setCursor(this.cursorX, this.cursorY + getParam(0, 1));
-                if (this.cursorY > this.maxRow) {
-                    this.maxRow = this.cursorY;
-                }
                 break;
             case "C":
                 this.setCursor(this.cursorX + getParam(0, 1), this.cursorY);
@@ -1220,18 +1407,42 @@ class TerminalEmulator {
         this.maxCol = maxCol;
     }
 
-    buildLines() {
+    /**
+     * Serialize the rendered terminal, optionally limiting each row to an
+     * inclusive zero-based column range. Column slicing happens against the
+     * terminal cell matrix so SGR state is reconstructed at the beginning of
+     * every emitted row instead of cutting through escape sequences.
+     *
+     * @param {{ start: number; end: number } | null} [columnRange]
+     *
+     * @returns {string[]}
+     */
+    buildLines(columnRange = null) {
         this.recalculateBounds();
+        const startColumn = columnRange ? columnRange.start : 0;
+        const endColumn = columnRange ? columnRange.end : this.maxCol;
+        if (
+            !Number.isSafeInteger(startColumn) ||
+            !Number.isSafeInteger(endColumn) ||
+            startColumn < 0 ||
+            endColumn < startColumn ||
+            endColumn >= MAX_TERMINAL_COLUMNS
+        ) {
+            throw new RangeError(
+                `Column range must be within the supported 1-${MAX_TERMINAL_COLUMNS} terminal columns.`
+            );
+        }
         const lines = [];
         const defaultAttrs = createDefaultAttrs();
         for (let rowIndex = 0; rowIndex <= this.maxRow; rowIndex += 1) {
             const row = this.rows.get(rowIndex);
-            if (!row || row.maxCol < 0) {
+            if (!row || row.maxCol < startColumn) {
                 lines.push("");
                 continue;
             }
             const cells = [];
-            for (let col = 0; col <= row.maxCol; col += 1) {
+            const lastColumn = Math.min(row.maxCol, endColumn);
+            for (let col = startColumn; col <= lastColumn; col += 1) {
                 const cell = row.cells.get(col);
                 if (cell) {
                     let attrsToUse = cell.attrs;
@@ -1634,11 +1845,16 @@ function readAnsiFile(filePath, encoding = "cp437") {
         );
     }
     const { buffer, sauce } = stripSauce(raw);
-    // For UTF-8, read as string directly; for others, use iconv
+    const normalizedEncoding = encoding.toLowerCase();
     const content =
-        encoding === "utf8"
+        normalizedEncoding === "utf8" || normalizedEncoding === "utf-8"
             ? buffer.toString("utf8")
-            : iconv.decode(buffer, encoding);
+            : decodeDosAnsi(
+                  buffer,
+                  normalizedEncoding === "437"
+                      ? "cp437"
+                      : normalizedEncoding
+              );
     return { content, sauce };
 }
 
@@ -1763,6 +1979,7 @@ function main(argv = process.argv.slice(2)) {
                 autoWrap: options.autoWrap,
                 stripSpaceBackground: options.stripSpaceBackground,
                 iceColors: Boolean(sauce && sauce.flags & 1),
+                dosAnsi: options.encoding.toLowerCase() === "cp437",
             });
             process.stdout.write(
                 JSON.stringify({
@@ -1820,6 +2037,7 @@ function main(argv = process.argv.slice(2)) {
             autoWrap: options.autoWrap,
             stripSpaceBackground: options.stripSpaceBackground,
             iceColors: Boolean(sauce && sauce.flags & 1),
+            dosAnsi: options.encoding.toLowerCase() === "cp437",
         };
 
         const sauceFontName = getSauceFontName(sauce);
@@ -1928,6 +2146,8 @@ if (require.main === module) {
 
 module.exports = {
     TerminalEmulator,
+    decodeDosAnsi,
+    decodeCp437Ansi,
     readAnsiFile,
     convertAnsiToPs1,
     parseArguments,
@@ -1941,6 +2161,7 @@ module.exports = {
     buildPowerShellOutput,
     writePowerShellFile,
     getSauceFontName,
+    resolveSauceEncoding,
     main,
     createDefaultAttrs,
     stripSauce,

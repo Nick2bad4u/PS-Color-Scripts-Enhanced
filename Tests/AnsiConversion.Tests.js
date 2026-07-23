@@ -11,16 +11,23 @@ const {
     buildPowerShellOutput,
     buildSourceMetadataHeader,
     convertAnsiToPs1,
+    decodeCp437Ansi,
+    decodeDosAnsi,
     getSauceFontName,
     MAX_TERMINAL_COLUMNS,
     parseArguments,
     readAnsiFile,
+    resolveSauceEncoding,
     stripSauce,
     trimSauceTextField,
     writePowerShellFile,
 } = require("../scripts/Convert-AnsiToColorScript.js");
 const {
+    buildChunkPs1,
+    chooseBalancedBreaks,
+    ensureTrailingReset,
     extractLinesFromPs1,
+    parseColumnRanges,
     parseArguments: parseSplitArguments,
     writeChunkPs1,
     writeChunkAnsi,
@@ -100,6 +107,44 @@ test("terminal-emulated output starts artwork below Write-Host", () => {
         }),
         "Write-Host '\nalready separated'\n"
     );
+});
+
+test("CP437 decoding preserves ANSI controls and emits visible DOS glyphs", () => {
+    const input = Buffer.from([
+        0x1b,
+        ...Buffer.from("[1;34;44m", "ascii"),
+        0x00,
+        0x07,
+        0x08,
+        0x0b,
+        0x0c,
+        0x0e,
+        0x0f,
+        0x1a,
+        0x1c,
+        0x1f,
+        0x7f,
+        0x09,
+        0x0d,
+        0x0a,
+    ]);
+
+    assert.equal(decodeCp437Ansi(input), "\u001b[1;34;44m •◘♂♀♫☼→∟▼⌂\t\r\n");
+    const rendered = convertAnsiToPs1(decodeCp437Ansi(input), {
+        columns: 80,
+        stripSpaceBackground: false,
+    });
+    assert.match(rendered.lines[0], /•◘♂♀♫☼→∟▼⌂/u);
+    assert.doesNotMatch(
+        rendered.lines.join("\n"),
+        /[\u0000-\u0008\u000b\u000c\u000e-\u001a\u001c-\u001f\u007f]/u
+    );
+});
+
+test("split output terminates style state without adding a phantom row", () => {
+    assert.equal(ensureTrailingReset("art"), "art\u001b[0m");
+    assert.equal(ensureTrailingReset("art\n"), "art\u001b[0m\n");
+    assert.equal(ensureTrailingReset("art\u001b[0m\n"), "art\u001b[0m\n");
 });
 
 test("passthrough preserves sequential ANSI colors, line endings, and apostrophes", () => {
@@ -309,36 +354,46 @@ test("splitter writes and reads the safe literal format", () => {
             sha256: "a".repeat(64),
             license: "ISC",
             attribution: "Example Artist",
-            modification: "Converted to a safe PowerShell literal and split by rendered rows.",
+            modification:
+                "Converted to a safe PowerShell literal and split by rendered rows.",
         },
     };
 
-    writeChunkPs1(
-        scriptPath,
-        { start: 0, end: lines.length, lines },
-        baseInfo
-    );
+    writeChunkPs1(scriptPath, { start: 0, end: lines.length, lines }, baseInfo);
     writeChunkPs1(
         repeatedScriptPath,
         { start: 0, end: lines.length, lines },
         baseInfo
     );
+    assert.equal(
+        fs.readFileSync(scriptPath, "utf8"),
+        `\ufeff${buildChunkPs1(
+            { start: 0, end: lines.length, lines },
+            baseInfo
+        )}`
+    );
 
     assert.deepEqual(extractLinesFromPs1(scriptPath), [
         "",
-        ...lines,
-        "\u001b[0m",
+        ...lines.slice(0, -1),
+        `${lines.at(-1)}\u001b[0m`,
     ]);
     const outputs = runPowerShell(scriptPath);
     outputs.forEach((stdout) =>
-        assert.equal(stdout, `\n${lines.join("\n")}\n\u001b[0m\n`)
+        assert.equal(
+            stdout,
+            `\n${lines.slice(0, -1).join("\n")}\n${lines.at(-1)}\u001b[0m\n`
+        )
     );
     assert.deepEqual(
         fs.readFileSync(scriptPath),
         fs.readFileSync(repeatedScriptPath)
     );
     const generatedSource = fs.readFileSync(scriptPath, "utf8");
-    assert.match(generatedSource, /# Source URL: https:\/\/example\.test\/art\.ans/);
+    assert.match(
+        generatedSource,
+        /# Source URL: https:\/\/example\.test\/art\.ans/
+    );
     assert.match(generatedSource, /# Source Revision: archive-2026\.07/);
     assert.match(generatedSource, /# Source SHA-256: a{64}/);
     assert.match(generatedSource, /# Source License: ISC/);
@@ -371,6 +426,30 @@ test("stripSauce removes EOF before a valid COMNT block", () => {
     assert.deepEqual([...result.buffer], [0x41]);
     assert.equal(result.sauce?.comments, 1);
     assert.equal(result.sauce?.title, "A\0B");
+});
+
+test("stripSauce removes explicitly framed truncated legacy metadata", () => {
+    const artwork = Buffer.from([
+        0x41,
+        0x1a,
+        0x42,
+    ]);
+    const truncated = Buffer.from(
+        "\x1aSAUCE00Legacy title                    ROY",
+        "binary"
+    );
+
+    const result = stripSauce(Buffer.concat([artwork, truncated]));
+
+    assert.deepEqual(
+        [...result.buffer],
+        [
+            0x41,
+            0x1a,
+            0x42,
+        ]
+    );
+    assert.equal(result.sauce, null);
 });
 
 test("SAUCE text fields remove null-before-space padding without deleting embedded nulls", () => {
@@ -446,7 +525,8 @@ test("converter and splitter provenance options validate and normalize metadata"
         sha256: sha256.toLowerCase(),
         license: "LicenseRef-Public-Domain",
         attribution: "Roy/SAC aka Carsten Cumbrowski",
-        modification: "Decoded from CP437 and flattened through terminal emulation.",
+        modification:
+            "Decoded from CP437 and flattened through terminal emulation.",
     });
     const splitOptions = parseSplitArguments([
         "--output-base=ROY-SAC-PC1",
@@ -552,12 +632,148 @@ test("iCE background intensity survives cursor save and restore", () => {
     assert.deepEqual(result.lines, ["\u001b[101mX\u001b[0m"]);
 });
 
+test("DOS ANSI mode ignores modern bright-color aliases like the canonical archive renderer", () => {
+    const source = "\u001b[31mA\u001b[95mB\u001b[41mC\u001b[104mD";
+    const modern = convertAnsiToPs1(source, { columns: 80 });
+    const dos = convertAnsiToPs1(source, { columns: 80, dosAnsi: true });
+
+    assert.deepEqual(modern.terminal.rows.get(0).cells.get(1).attrs.fg, {
+        mode: "bright",
+        value: 5,
+    });
+    assert.deepEqual(modern.terminal.rows.get(0).cells.get(3).attrs.bg, {
+        mode: "bright",
+        value: 4,
+    });
+    assert.deepEqual(dos.terminal.rows.get(0).cells.get(1).attrs.fg, {
+        mode: "basic",
+        value: 1,
+    });
+    assert.deepEqual(dos.terminal.rows.get(0).cells.get(3).attrs.bg, {
+        mode: "basic",
+        value: 1,
+    });
+});
+
+test("terminal column slicing reconstructs active style without reflowing cells", () => {
+    const result = convertAnsiToPs1(
+        "\u001b[31mABCD\u001b[44mEFGH\r\n\u001b[0m12345678",
+        { columns: 8 }
+    );
+
+    assert.deepEqual(result.terminal.buildLines({ start: 4, end: 7 }), [
+        "\u001b[31;44mEFGH\u001b[0m",
+        "5678",
+    ]);
+    assert.deepEqual(result.terminal.buildLines({ start: 0, end: 3 }), [
+        "\u001b[31mABCD\u001b[0m",
+        "1234",
+    ]);
+});
+
+test("column ranges are one-based, ordered, bounded, and non-overlapping", () => {
+    assert.deepEqual(parseColumnRanges("1-80, 81-160"), [
+        { start: 0, end: 79 },
+        { start: 80, end: 159 },
+    ]);
+    assert.throws(() => parseColumnRanges(""), /cannot be empty/);
+    assert.throws(() => parseColumnRanges("80"), /Invalid column range/);
+    assert.throws(() => parseColumnRanges("20-10"), /start no greater/);
+    assert.throws(() => parseColumnRanges("1-80,80-120"), /must not overlap/);
+    assert.throws(
+        () => parseColumnRanges(`1-${MAX_TERMINAL_COLUMNS + 1}`),
+        /must be within/
+    );
+});
+
+test("balanced splitting uses the minimum part count without tiny tails", () => {
+    assert.deepEqual(chooseBalancedBreaks(50), []);
+    assert.deepEqual(chooseBalancedBreaks(56), [28]);
+    assert.deepEqual(chooseBalancedBreaks(107), [36, 72]);
+    assert.deepEqual(
+        chooseBalancedBreaks(184),
+        [
+            46,
+            92,
+            138,
+        ]
+    );
+
+    for (let totalLines = 1; totalLines <= 500; totalLines += 1) {
+        const breakpoints = chooseBalancedBreaks(totalLines, 50);
+        const endpoints = [
+            0,
+            ...breakpoints,
+            totalLines,
+        ];
+        const lengths = endpoints
+            .slice(1)
+            .map((end, index) => end - endpoints[index]);
+        assert.equal(lengths.length, Math.ceil(totalLines / 50));
+        assert.equal(Math.max(...lengths) <= 50, true);
+        assert.equal(Math.max(...lengths) - Math.min(...lengths) <= 1, true);
+    }
+});
+
+test("balanced splitting prefers viable reviewed transitions deterministically", () => {
+    const preferred = [
+        50,
+        100,
+        135,
+    ];
+    assert.deepEqual(
+        chooseBalancedBreaks(184, 50, preferred),
+        [
+            50,
+            100,
+            135,
+        ]
+    );
+    assert.deepEqual(
+        chooseBalancedBreaks(184, 50, [...preferred].reverse()),
+        [
+            50,
+            100,
+            135,
+        ]
+    );
+
+    const breakpoints = chooseBalancedBreaks(
+        107,
+        50,
+        [
+            20,
+            36,
+            72,
+            90,
+        ]
+    );
+    assert.deepEqual(breakpoints, [36, 72]);
+});
+
+test("balanced splitting rejects invalid dimensions and transitions", () => {
+    assert.throws(() => chooseBalancedBreaks(0), /positive safe-integer/);
+    assert.throws(() => chooseBalancedBreaks(10, 0), /positive safe-integer/);
+    assert.throws(
+        () => chooseBalancedBreaks(10, 5, /** @type {number[]} */ (null)),
+        /must be an array/
+    );
+    assert.throws(() => chooseBalancedBreaks(10, 5, [0]), /within the artwork/);
+    assert.throws(
+        () => chooseBalancedBreaks(10, 5, [10]),
+        /within the artwork/
+    );
+    assert.throws(
+        () => chooseBalancedBreaks(10, 5, [1.5]),
+        /within the artwork/
+    );
+});
+
 test("hostile cursor coordinates fail before terminal allocation", () => {
     for (const source of [
         "\u001b[1000000000;1000000000HX",
         "\u001b[1000000000CX",
         "\u001b[1000000000BX",
-        "\u001b[10000@X",
         "\u001b[10000LX",
     ]) {
         assert.throws(
@@ -565,6 +781,47 @@ test("hostile cursor coordinates fail before terminal allocation", () => {
             /exceeds the supported/
         );
     }
+});
+
+test("horizontal cursor movement is clamped to the terminal right margin", () => {
+    const absolute = convertAnsiToPs1("\u001b[1;99HX", { columns: 4 });
+    const relative = convertAnsiToPs1("A\u001b[99CX", { columns: 4 });
+
+    assert.deepEqual(absolute.lines, ["   X"]);
+    assert.deepEqual(relative.lines, ["A  X"]);
+    assert.equal(absolute.terminal.maxCol, 3);
+    assert.equal(relative.terminal.maxCol, 3);
+});
+
+test("insert-character operations clip cells at the terminal right margin", () => {
+    const result = convertAnsiToPs1("ABCD\r\u001b[3G\u001b[2@X", {
+        columns: 4,
+    });
+
+    assert.deepEqual(result.lines, ["ABX"]);
+    assert.equal(result.terminal.maxCol, 3);
+});
+
+test("trailing cursor movement does not serialize phantom blank rows", () => {
+    const trailingNewline = convertAnsiToPs1("A\r\n", { columns: 80 });
+    const trailingCursorMove = convertAnsiToPs1("A\u001b[20B", {
+        columns: 80,
+    });
+    const interiorBlank = convertAnsiToPs1("A\r\n\r\nB", { columns: 80 });
+    const leadingBlank = convertAnsiToPs1("\u001b[3;1HB", { columns: 80 });
+
+    assert.deepEqual(trailingNewline.lines, ["A"]);
+    assert.deepEqual(trailingCursorMove.lines, ["A"]);
+    assert.deepEqual(interiorBlank.lines, [
+        "A",
+        "",
+        "B",
+    ]);
+    assert.deepEqual(leadingBlank.lines, [
+        "",
+        "",
+        "B",
+    ]);
 });
 
 test("untrusted terminal dimensions are bounded", () => {
@@ -677,11 +934,12 @@ test("analysis CLI reports cells written after cursor positioning", () => {
     });
 });
 
-test("stripSauce removes only the metadata-adjacent DOS EOF marker", () => {
+test("stripSauce removes repeated metadata-adjacent DOS EOF markers", () => {
     const content = Buffer.from([
         0x41,
         0x1a,
         0x42,
+        0x1a,
         0x1a,
     ]);
     const sauce = Buffer.alloc(128);
@@ -699,6 +957,28 @@ test("stripSauce removes only the metadata-adjacent DOS EOF marker", () => {
         ]
     );
     assert.ok(result.sauce);
+});
+
+test("stripSauce removes standalone trailing DOS EOF markers", () => {
+    const result = stripSauce(
+        Buffer.from([
+            0x41,
+            0x1a,
+            0x42,
+            0x1a,
+            0x1a,
+        ])
+    );
+
+    assert.deepEqual(
+        [...result.buffer],
+        [
+            0x41,
+            0x1a,
+            0x42,
+        ]
+    );
+    assert.equal(result.sauce, null);
 });
 
 test("splitter CLI can convert ANSI input in dry-run mode", () => {
@@ -721,6 +1001,60 @@ test("splitter CLI can convert ANSI input in dry-run mode", () => {
     assert.match(result.stdout, /Dry run complete; no files written\./);
 });
 
+test("splitter emits deterministic cell-aware panel and part files", () => {
+    const directory = createTemporaryDirectory();
+    const inputPath = path.join(directory, "panels.ans");
+    fs.writeFileSync(
+        inputPath,
+        "\u001b[31mABCD\u001b[44mEFGH\r\n\u001b[0m12345678",
+        "utf8"
+    );
+
+    const result = spawnSync(
+        process.execPath,
+        [
+            path.join(__dirname, "../scripts/Split-AnsiFile.js"),
+            "--input=ansi",
+            "--encoding=utf8",
+            "--columns=8",
+            "--column-ranges=1-4,5-8",
+            "--breaks=1",
+            `--output-dir=${directory}`,
+            "--output-base=logical-panels",
+            inputPath,
+        ],
+        { encoding: "utf8" }
+    );
+
+    assert.equal(result.status, 0, result.stderr || result.stdout);
+    const expectedFiles = [
+        "logical-panels-panel01-part01.ps1",
+        "logical-panels-panel01-part02.ps1",
+        "logical-panels-panel02-part01.ps1",
+        "logical-panels-panel02-part02.ps1",
+    ];
+    assert.deepEqual(
+        fs
+            .readdirSync(directory)
+            .filter((name) => name.endsWith(".ps1"))
+            .sort(),
+        expectedFiles
+    );
+
+    const firstRightPanel = fs.readFileSync(
+        path.join(directory, "logical-panels-panel02-part01.ps1"),
+        "utf8"
+    );
+    assert.match(firstRightPanel, /# Lines: 1-1/);
+    assert.match(firstRightPanel, /# Columns: 5-8/);
+    assert.match(firstRightPanel, /\u001b\[31;44mEFGH\u001b\[0m/u);
+    assert.ok(
+        extractLinesFromPs1(path.join(directory, expectedFiles[3])).includes(
+            "5678\u001b[0m"
+        )
+    );
+});
+
 test("ANSI split output preserves the selected source encoding", () => {
     const directory = createTemporaryDirectory();
     const cp437Path = path.join(directory, "cp437.ans");
@@ -729,8 +1063,39 @@ test("ANSI split output preserves the selected source encoding", () => {
     writeChunkAnsi(cp437Path, { start: 0, end: 1, lines: ["café ░"] }, "cp437");
     writeChunkAnsi(utf8Path, { start: 0, end: 1, lines: ["snow 雪"] }, "utf8");
 
-    assert.equal(readAnsiFile(cp437Path, "cp437").content, "café ░\n\u001b[0m");
-    assert.equal(readAnsiFile(utf8Path, "utf8").content, "snow 雪\n\u001b[0m");
+    assert.equal(readAnsiFile(cp437Path, "cp437").content, "café ░\u001b[0m");
+    assert.equal(readAnsiFile(utf8Path, "utf8").content, "snow 雪\u001b[0m");
+});
+
+test("SAUCE IBM font names resolve only registered DOS code-page suffixes", () => {
+    assert.deepEqual(resolveSauceEncoding("IBM VGA 860"), {
+        encoding: "cp860",
+        label: "CP860",
+        supported: true,
+        explicit: true,
+        codePage: "860",
+    });
+    assert.deepEqual(resolveSauceEncoding("IBM VGA25G"), {
+        encoding: "cp437",
+        label: "CP437",
+        supported: true,
+        explicit: false,
+        codePage: "437",
+    });
+    assert.equal(resolveSauceEncoding("IBM VGA 872").supported, false);
+    assert.equal(resolveSauceEncoding("IBM VGA MAZ").supported, false);
+    assert.equal(resolveSauceEncoding("garbage-font-860").label, "CP437");
+    assert.equal(resolveSauceEncoding("IBM VGA 1251").label, "CP437");
+});
+
+test("DOS decoding honors non-CP437 glyphs without leaking graphic controls", () => {
+    const bytes = Buffer.from([
+        0x86,
+        0x0f,
+        0x91,
+    ]);
+    assert.notEqual(decodeDosAnsi(bytes, "cp860"), decodeCp437Ansi(bytes));
+    assert.equal(decodeDosAnsi(Buffer.from([0x0f]), "cp860"), "☼");
 });
 
 test("converter and splitter reject unknown options and unsafe overwrites", () => {
