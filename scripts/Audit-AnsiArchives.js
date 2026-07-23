@@ -1892,7 +1892,6 @@ function analyzeAnsiRender(raw) {
     const columns = sauce?.tInfo1 || 80;
     const converted = convertAnsiToPs1(content, {
         columns,
-        minimumRows: sauce?.tInfo2 || undefined,
         iceColors: Boolean(sauce && sauce.flags & 1),
         stripSpaceBackground: false,
         dosAnsi: true,
@@ -2314,6 +2313,47 @@ async function analyzeCandidates(candidates, options, existingHashes) {
 }
 
 /**
+ * @param {Record<string, unknown>} record
+ * @param {string} candidateId
+ * @param {"artists" | "groups"} property
+ *
+ * @returns {string[] | undefined}
+ */
+function readDecisionAttributionOverride(record, candidateId, property) {
+    if (record[property] === undefined) return undefined;
+    const values = requireArray(
+        record[property],
+        `${candidateId} ${property}`
+    );
+    if (values.length === 0) {
+        throw new TypeError(
+            `${candidateId} ${property} must contain at least one name.`
+        );
+    }
+    const normalized = values.map((value, index) => {
+        const name = requireString(
+            value,
+            `${candidateId} ${property} item ${index + 1}`
+        ).trim();
+        if (name.length === 0) {
+            throw new TypeError(
+                `${candidateId} ${property} item ${index + 1} must not be blank.`
+            );
+        }
+        return name;
+    });
+    const uniqueNames = new Set(
+        normalized.map((name) => name.toLocaleLowerCase("en-US"))
+    );
+    if (uniqueNames.size !== normalized.length) {
+        throw new TypeError(
+            `${candidateId} ${property} must not contain duplicate names.`
+        );
+    }
+    return normalized;
+}
+
+/**
  * @param {Record<string, unknown>[]} candidates
  * @param {string | null} decisionsPath
  *
@@ -2345,10 +2385,25 @@ function mergeDecisions(candidates, decisionsPath) {
                 `${candidate.id} decision must be accepted or a rejected-* reason.`
             );
         }
+        // File-scoped overrides keep verified attribution in the resumable
+        // decision instead of a generated report that the next refresh
+        // overwrites.
+        const artists = readDecisionAttributionOverride(
+            record,
+            String(candidate.id),
+            "artists"
+        );
+        const groups = readDecisionAttributionOverride(
+            record,
+            String(candidate.id),
+            "groups"
+        );
         return {
             ...candidate,
             disposition,
             review: false,
+            ...(artists ? { artists } : {}),
+            ...(groups ? { groups } : {}),
             reviewNote:
                 typeof record.note === "string" ? record.note : undefined,
         };

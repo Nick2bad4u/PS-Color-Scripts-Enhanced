@@ -388,8 +388,8 @@ test("ANSI analysis serializes SAUCE as compact metadata rather than Buffer inte
     assert.doesNotMatch(JSON.stringify(analysis.sauce), /"type":"Buffer"/u);
     assert.equal(analysis.encoding, "CP437");
     assert.equal(analysis.encodingSupported, true);
-    assert.equal(analysis.height, 25);
-    assert.notEqual(
+    assert.equal(analysis.height, 1);
+    assert.equal(
         analysis.renderSha256,
         analyzeAnsiBuffer(content).renderSha256
     );
@@ -830,6 +830,8 @@ test("review decisions, summaries, checkpoints, and HTML remain deterministic", 
                 "16colors:pack/ART.ANS": {
                     disposition: "accepted",
                     note: "Strong landscape",
+                    artists: ["Verified Artist", "Joint Artist"],
+                    groups: ["Verified Group"],
                 },
             },
         })
@@ -869,6 +871,11 @@ test("review decisions, summaries, checkpoints, and HTML remain deterministic", 
     };
     const checkpoint = createCheckpoint(report);
     assert.deepEqual(report.summary, { accepted: 1 });
+    assert.deepEqual(candidates[0].artists, [
+        "Verified Artist",
+        "Joint Artist",
+    ]);
+    assert.deepEqual(candidates[0].groups, ["Verified Group"]);
     assert.equal(checkpoint.accepted.length, 1);
     assert.match(checkpoint.canonicalInventorySha256, /^[a-f\d]{64}$/u);
     assert.deepEqual(createCheckpoint(report), checkpoint);
@@ -908,6 +915,39 @@ test("review decisions, summaries, checkpoints, and HTML remain deterministic", 
     assert.match(html, /Strong landscape|ART\.ANS/);
     assert.match(html, /grid\.replaceChildren/);
     assert.doesNotMatch(html, /<script[^>]+src=/u);
+});
+
+test("review decision attribution overrides fail closed on malformed names", () => {
+    const directory = createTemporaryDirectory();
+    const decisionsPath = path.join(directory, "decisions.json");
+    const candidate = {
+        id: "16colors:pack/ART.ANS",
+        artists: ["Archive Artist"],
+        disposition: "pending-review",
+        review: true,
+    };
+    for (const artists of [
+        [],
+        [" "],
+        ["Artist", "artist"],
+        "Artist",
+    ]) {
+        fs.writeFileSync(
+            decisionsPath,
+            JSON.stringify({
+                decisions: {
+                    [candidate.id]: {
+                        disposition: "accepted",
+                        artists,
+                    },
+                },
+            })
+        );
+        assert.throws(
+            () => mergeDecisions([candidate], decisionsPath),
+            /artists/u
+        );
+    }
 });
 
 test("local review previews brighten the default DOS foreground", () => {

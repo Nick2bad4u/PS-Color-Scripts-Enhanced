@@ -128,7 +128,8 @@ const SAUCE_DOS_CODE_PAGES = new Set([
  * @property {number} [columns]
  * @property {boolean} [autoWrap]
  * @property {boolean} [stripSpaceBackground]
- * @property {number} [minimumRows]
+ * @property {number} [minimumRows] Explicit logical canvas floor. Do not infer
+ *     this from SAUCE tInfo2, which may include unused trailing padding.
  * @property {number} [maxHeight]
  * @property {boolean} [iceColors]
  * @property {boolean} [dosAnsi]
@@ -1989,7 +1990,6 @@ function main(argv = process.argv.slice(2)) {
                 (sauce && sauce.tInfo1 ? sauce.tInfo1 : DEFAULT_COLUMNS);
             const { warnings, terminal } = convertAnsiToPs1(content, {
                 columns: terminalColumns,
-                minimumRows: sauce?.tInfo2 || undefined,
                 autoWrap: options.autoWrap,
                 stripSpaceBackground: options.stripSpaceBackground,
                 iceColors: Boolean(sauce && sauce.flags & 1),
@@ -2048,7 +2048,6 @@ function main(argv = process.argv.slice(2)) {
             (sauce && sauce.tInfo1 ? sauce.tInfo1 : DEFAULT_COLUMNS);
         const terminalOptions = {
             columns: terminalColumns,
-            minimumRows: sauce?.tInfo2 || undefined,
             autoWrap: options.autoWrap,
             stripSpaceBackground: options.stripSpaceBackground,
             iceColors: Boolean(sauce && sauce.flags & 1),

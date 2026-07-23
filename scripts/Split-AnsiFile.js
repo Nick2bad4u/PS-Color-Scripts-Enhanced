@@ -809,7 +809,6 @@ function main(argv = process.argv.slice(2)) {
 
         const terminalOptions = {
             columns: columns || undefined,
-            minimumRows: sauce?.tInfo2 || undefined,
             stripSpaceBackground: options.stripSpaceBackground,
             iceColors: Boolean(sauce && sauce.flags & 1),
             dosAnsi: sourceEncoding.toLowerCase() === "cp437",

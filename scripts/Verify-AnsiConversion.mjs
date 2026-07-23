@@ -306,7 +306,6 @@ function verifyAnsiConversion(options) {
         (options.iceColors !== false && Boolean(sauce && sauce.flags & 1));
     const convertedSource = convertAnsiToPs1(content, {
         columns: sourceWidth,
-        minimumRows: sauce?.tInfo2 || undefined,
         iceColors,
         stripSpaceBackground: false,
         dosAnsi: !/^(?:utf8|utf-8)$/u.test(
