@@ -7,6 +7,16 @@
         },
         {
             "issueType": "derivative-attribution-review",
+            "family": "16c-blocktronics-resvolution-zo-lud",
+            "reason": "Reviewed false positive: 'original artwork in a copycat world' describes the artist's own ANSI work and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-blocktronics-codename-chris-wirth-we-myth",
+            "reason": "Reviewed self-attribution: Grindstoned identifies this as original art and credits fellow scene artist Jack Phlash only as stylistic inspiration, not as an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
             "family": "16c-33rules-33-drool",
             "reason": "Reviewed self-description: the artwork explicitly calls itself an original; the joking phrase 'ripped from' does not identify an external source artwork."
         },

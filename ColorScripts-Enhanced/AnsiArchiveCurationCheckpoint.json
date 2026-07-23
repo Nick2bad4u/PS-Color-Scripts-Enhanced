@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "scanDate": "2026-07-23",
   "scope": {
-    "sixteenColorsCompletedYears": "2012-2026",
-    "sixteenColorsPendingYears": "1990-2011",
+    "sixteenColorsCompletedYears": "2008-2026",
+    "sixteenColorsPendingYears": "1990-2007",
     "royArchiveComplete": true
   },
   "policy": {
@@ -18,34 +18,105 @@
     "exactCellGeometryRequired": true,
     "logicalPanelSplitsOnly": true
   },
-  "combinedInventorySha256": "e2050333e66397a37f45d2271c6a912c0efc4d6ae83b86c0cd5ec045b25a95e2",
+  "combinedInventorySha256": "a658c5e012b691f3a2bb1fdd07ed9fb179455f73c2eee7c6a39c83b21eecb07b",
   "sixteenColors": {
     "totals": {
-      "completedYearCount": 15,
-      "packCount": 373,
-      "candidateCount": 8594,
-      "importedWorkCount": 2149,
-      "emittedScriptCount": 4733,
-      "acceptedSourceCount": 2186,
+      "completedYearCount": 19,
+      "packCount": 393,
+      "candidateCount": 8781,
+      "importedWorkCount": 2252,
+      "emittedScriptCount": 4979,
+      "acceptedSourceCount": 2291,
       "dispositionTotals": {
-        "accepted": 2149,
-        "rejected-licensing": 1351,
-        "rejected-monochrome": 766,
-        "rejected-quality": 781,
+        "accepted": 2252,
+        "rejected-composition": 1212,
+        "rejected-content": 237,
+        "rejected-duotone": 517,
+        "rejected-licensing": 1380,
+        "rejected-monochrome": 773,
+        "rejected-quality": 794,
+        "already-imported-source": 49,
         "already-imported-render": 6,
-        "rejected-composition": 1199,
-        "rejected-content": 231,
-        "rejected-duotone": 503,
         "rejected-duplicate-render": 9,
         "rejected-duplicate-source": 138,
         "rejected-malformed": 12,
         "rejected-unsupported-terminal": 280,
-        "already-imported-source": 47,
         "rejected-unsupported-font": 1115,
         "rejected-duplicate": 7
       }
     },
     "years": [
+      {
+        "year": 2008,
+        "scannedAt": "2026-07-23T10:58:42.486Z",
+        "packCount": 7,
+        "candidateCount": 95,
+        "importedWorkCount": 62,
+        "emittedScriptCount": 138,
+        "inventorySha256": "9526376116575f6481986ab1717c4fdc3f8475ec31cbab677bb0c536a2e360b1",
+        "auditCheckpointSha256": "d230fda6db72006d56b1beab6bdc57d16ab8b6837617d66b0741706e9e00333c",
+        "dispositionTotals": {
+          "accepted": 62,
+          "rejected-composition": 4,
+          "rejected-content": 5,
+          "rejected-duotone": 5,
+          "rejected-licensing": 10,
+          "rejected-monochrome": 2,
+          "rejected-quality": 7
+        }
+      },
+      {
+        "year": 2009,
+        "scannedAt": "2026-07-23T11:11:52.190Z",
+        "packCount": 4,
+        "candidateCount": 71,
+        "importedWorkCount": 34,
+        "emittedScriptCount": 98,
+        "inventorySha256": "785614b4b1c65c4aa3208fdea50ba666726e26e19f16d2d274da646450f66beb",
+        "auditCheckpointSha256": "6518330158a965bfd81bd22191ac998c16bc650282dabe817ec8e79c241d3eb7",
+        "dispositionTotals": {
+          "accepted": 34,
+          "already-imported-source": 2,
+          "rejected-composition": 7,
+          "rejected-content": 1,
+          "rejected-duotone": 2,
+          "rejected-licensing": 17,
+          "rejected-monochrome": 4,
+          "rejected-quality": 4
+        }
+      },
+      {
+        "year": 2010,
+        "scannedAt": "2026-07-23T10:36:56.305Z",
+        "packCount": 4,
+        "candidateCount": 18,
+        "importedWorkCount": 7,
+        "emittedScriptCount": 10,
+        "inventorySha256": "97e6be564b95aac235c252d39a25a329ebc37bcb745d71ae26489ea230b33e6e",
+        "auditCheckpointSha256": "50f7b7c43886b772b6e2c6b2dbee9e31d25e6f1768a3e53acbfdceff1b7b7244",
+        "dispositionTotals": {
+          "accepted": 7,
+          "rejected-composition": 1,
+          "rejected-duotone": 5,
+          "rejected-licensing": 2,
+          "rejected-monochrome": 1,
+          "rejected-quality": 2
+        }
+      },
+      {
+        "year": 2011,
+        "scannedAt": "2026-07-23T10:35:36.511Z",
+        "packCount": 5,
+        "candidateCount": 3,
+        "importedWorkCount": 0,
+        "emittedScriptCount": 0,
+        "inventorySha256": "78f3a39dddee7e97729f367419704d9cd656d6c302311d8edc8284664eb3ab6f",
+        "auditCheckpointSha256": "0c88d2f139989b0a74cd3e79ba7d0df233ba5e8aac0ebe90322e698742978d8c",
+        "dispositionTotals": {
+          "rejected-composition": 1,
+          "rejected-duotone": 2
+        }
+      },
       {
         "year": 2012,
         "scannedAt": "2026-07-23T09:35:08.075Z",
@@ -389,6 +460,846 @@
       }
     ],
     "acceptedSources": [
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/_blocktronics_res[v]olution.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/_blocktronics_res%5Bv%5Dolution.ans",
+        "sourceSha256": "e60e7e5f22989d906c7b8afe36ba18900047a60bd7589862e0a50aadd092653c",
+        "renderSha256": "61f9015c6fb27458280b84db241d81143eebf7b6199602d622249fbc3d3de6fd"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/43-25ln01.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/43-25ln01.ans",
+        "sourceSha256": "ed0816f5ce342055d79290aa382bfc95fdcbfec151d5c52375212505a787ec1a",
+        "renderSha256": "855685c9aba75a5f076a7f17d23dfbd7355cbb0e89173eaa6ffe5e2e6631c00b"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/70-haciend.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/70-haciend.ans",
+        "sourceSha256": "43601ad7bb22630f3ea0ec9b48425832c2e74cfc1571ed9d1c4efc3f8b5034bc",
+        "renderSha256": "6cc62dc1e2887902ed28507abb20c48d86a09252801b5ab13be46986e8eabfc7"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/70-twilight.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/70-twilight.ans",
+        "sourceSha256": "f35fd18e18b408727a920c7c0ffba4def552665f22f8061c03f19ad904e7968c",
+        "renderSha256": "2da9158cefa65b7d63fefa99cbd27fc29e239228be8d104e82b0700bc428d46d"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/avg-aid.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/avg-aid.ans",
+        "sourceSha256": "fa91d87c0d13938f31dc04cb2d030682970ac75d3dcb4b3aacfe81fa3ff0887e",
+        "renderSha256": "908f85077a6a63ef6a36438c0f596a952ffe5158e50d03d770fe63bab97a290c"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/avg-b7.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/avg-b7.ans",
+        "sourceSha256": "ac8681f80e42aaca6af9c81730265496df706fef1c6f722604da443c0dc8cfa2",
+        "renderSha256": "d1cbd1d2bfe69ced186b47eaf0b192d4f18dd13b63e17be8de463f5bf177f584"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/avg-carz.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/avg-carz.ans",
+        "sourceSha256": "9ef010edc188d14b7dd57fc59bddf1d87baec65551f87191b47a9a8b64fc9ce5",
+        "renderSha256": "0e1e4fc06b9f0747f0b35ebecab11f263fddb5d8e1d6553893817694a336562d"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/avg-ice.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/avg-ice.ans",
+        "sourceSha256": "0419b13733f236071277602a75d1dd2a7fc998faf366b237905a9535c41c8407",
+        "renderSha256": "53e2c791a1abf4116a1e0f36dd6334864ee1e3182885f4597dfc38c372cd9d40"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/avg-inf.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/avg-inf.ans",
+        "sourceSha256": "ab0aa5e2c2781fe33b7e5ab52889b24132d2476f67e36badd2f2d3e486552096",
+        "renderSha256": "cb49f468a8136c74e691bf7226de6d42384f3a1136a51c1fa8b7e5deb25dc723"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/avg-rip.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/avg-rip.ans",
+        "sourceSha256": "6bbf95db7d0ba6ee2c4a7871c976bac7697a1744f6e51794ef698de05f32dc33",
+        "renderSha256": "1881816b52d86a827a6360d2da2b6a8ee86dc8523655f4706d9ea76fc07740a6"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/cg-ice.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/cg-ice.ans",
+        "sourceSha256": "f6447aa5801077ffd8ba31e040823dabeae3d2efc83c3f8c1b3ff725b77d7510",
+        "renderSha256": "6c142a889473fee2ada815a9d41609c24df3453ccc04616bebf7dbc3c7edee79"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/cg-sc.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/cg-sc.ans",
+        "sourceSha256": "6a627ecf7c99f749ba357f8843af7fb92bee8391251fe74be0d6ef23530c2e84",
+        "renderSha256": "a44df3adde1c498d12d7c6226e135cfc6f9acd7a429e9f9c9da5c33c8fab3dbe"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/cs-colly.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/cs-colly.ans",
+        "sourceSha256": "f54fc06b9f43ed79a39c338c01de810b03f925e59a52d55b3b6d2fc0a8e582f8",
+        "renderSha256": "b7486c266ca6d2e019fd81320fba2fa183d0b0aa552ab680b4fd6626dcb7cb86"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/cS-deadlines.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/cS-deadlines.ans",
+        "sourceSha256": "87c22da579d96bc3144567764581f67586ed1a0d09984ff19d00a39bf8208601",
+        "renderSha256": "1433f261bcdb8030261c2db68b11e830a6b7b61b1e29c1e96e2990065bf7b505"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/gs-sense.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/gs-sense.ans",
+        "sourceSha256": "de5a55152dbc38e9cb7b931ee5281d9d30da3e47bcaae05682de03bd48ac9b13",
+        "renderSha256": "56306386558940ba7c30e41057875cdf0257c7bca212872c860cebc3894d3a2e"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/n4-wendy.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/n4-wendy.ans",
+        "sourceSha256": "e8be5273927507f3e3e04d274601fd84bee7f7679fc140c39a7a2e216326a190",
+        "renderSha256": "6e0155ff984f2b0d7766a593aa8d6e22d42154e9542fdc5752d52338ada7e840"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/pk-angel.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/pk-angel.ans",
+        "sourceSha256": "4bfe4f7112ef76fe30ea1791ef48b9e5f6b7db8d31076396197937a1c798f65a",
+        "renderSha256": "eac891503fa449c1ad2033b6b094031632d9316d29a8d6d92c6f78a70a7546f1"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/pk-lud.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/pk-lud.ans",
+        "sourceSha256": "17432bf81a498e601656958ec93431453bc81e10f43f68c94b43b94a8faa3471",
+        "renderSha256": "fe2f97773bad5f5eebb46f34c853925f49714c3b93a0b49d3781f08839f3ed0d"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/pk-monster.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/pk-monster.ans",
+        "sourceSha256": "7f9f6de413c339052f185197d0633205a24f90c04baf8ce94fbfa857d06addac",
+        "renderSha256": "b33fcb9a97e9366ebe31ee8b55333ced071943451696ffa400a9a54c65b41ea3"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-67.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-67.ans",
+        "sourceSha256": "19aa22d6d42a88e3819595172d95eaec66f5efb10ac3384978fa2414dfd239da",
+        "renderSha256": "dbbc7b06382abda0d68a6e4d016ee9dc7d511eae7e65c620bafa50428600003b"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-b71.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-b71.ans",
+        "sourceSha256": "ddd945ecb6816e11172fae832310b9ecbcbc572f69fe7c875bb3d980f4fd6bd2",
+        "renderSha256": "89590f48975b67cc9dc41865e009bad90be986ed8332ac578bf0e4fdea085de5"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-bsd.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-bsd.ans",
+        "sourceSha256": "4d3b788b96ac92e27a6353d31d68a0bfd8ed2bdc47b22f102f8406df60b0a2f5",
+        "renderSha256": "29d93a1133d17cb436dcbd94dd0f09d1ae6ae37f6060c3b98e064042f9fa56af"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-caps.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-caps.ans",
+        "sourceSha256": "4aa51e04b06f3482192458a2304f990bdd20261d5b34a1b7f06f05eb85dd5ea7",
+        "renderSha256": "04b81574005c83b9f9ad054eb6b1d737191b6bf0acad17eeb40239792c85b688"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-cent.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-cent.ans",
+        "sourceSha256": "91ecd5791379792657de8023344139bd714336409679a8186f08478c7af879c0",
+        "renderSha256": "8d2cfdf4f7495d7d86629d16a459dd14e5c7bee3474cb04697531bc235792faa"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-centre.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-centre.ans",
+        "sourceSha256": "8e6d5b3a4c664a8341d82ec646cfdf5b8fdd59b157a6fc4cf3efc58bd29e1923",
+        "renderSha256": "7a383f8b39213ec1b2bc0e2f03538a5692c74eb453c1a264b84c07a16249dad7"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-collide.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-collide.ans",
+        "sourceSha256": "329529ba363ce4b6846843900c7d192902fd8365e6ff236f5757e34ef06059b3",
+        "renderSha256": "91bad118f4078f24f4cd92051ce96b83ef0a7ac4462f838d0b82e2ef37e3d7bf"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-cougar.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-cougar.ans",
+        "sourceSha256": "4d610fd40e9a0b0118277147c759112aa732db81a918cd5c93032e12fc235044",
+        "renderSha256": "0cd63ecc24db9c830db48d8c78342788ae7f9d9e1894a7d6958462216b394e69"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-ds.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-ds.ans",
+        "sourceSha256": "9a27fcbdacafc7a26e13e69d7a8697c866b6bcee59f0a1c2c5fda8894c43accc",
+        "renderSha256": "f4c9ced3ab4f363579c5b28f65ae34e713ed752f2363aaa40a97f2ec14941584"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-exet.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-exet.ans",
+        "sourceSha256": "d1ae371105a7dc2604d342067437c248c2be10bdd78b049642ec4f587e8dbf45",
+        "renderSha256": "1ea526cc86de39b0c901dab00530f1af0e916d7124470aa0247dc8bbd24ea93b"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-HTC.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-HTC.ans",
+        "sourceSha256": "892feb15b96a50c258ba635239d05ab9cd59e61d8eb40ab7db9f4cc3b47783d5",
+        "renderSha256": "f529e02aeba98826fb7610436459708dc6805a8c99ead869c5a4598580703331"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-outzoneRemix.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-outzoneRemix.ans",
+        "sourceSha256": "2ddc44ab137249c88257a2d1f50beb79ae75bc9d4a2080aadf2a1c4051232345",
+        "renderSha256": "77c5d5d5532ee0d5e972c21aca20d2cbbcfe832c096c4395183f60b767a38d57"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-radman.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-radman.ans",
+        "sourceSha256": "3adca4da873feb018487722aa8e645c633fa4209f5d5027c3c3d9337c78c6985",
+        "renderSha256": "e1cf60ddb209dee5d4529d0122c4ba9226ce5eddfa15abf98e6b4b4316165023"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-rank.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-rank.ans",
+        "sourceSha256": "0f12cb4185723ef337eab33cf4c0a3fa2831c27aa4e8d8cfdf6478e4958bccb8",
+        "renderSha256": "c6604e46d3679b9f85645bd40ff7194bbbadecb2dd29048d4245c37e87d32f46"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-rem.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-rem.ans",
+        "sourceSha256": "118854d56a709707778b4d77e68452e47b11f0ecddeabded46f722678cfbaae1",
+        "renderSha256": "73a054be2e63b8180b034dda198fa7c766e63b4c8e07a7ec4bb7776650570d70"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-scum.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-scum.ans",
+        "sourceSha256": "8267a559a04cceb2a33ac5197882fbb5ef8a82d20c9308831f9a409f3d7f5882",
+        "renderSha256": "3361c2519620743eaee86e5b8dbe1c3780a5d5ac1983c03719e7a720233d2d18"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-theCentre.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-theCentre.ans",
+        "sourceSha256": "75af12c428d7d2a464793a0bfbb9b1186b9e3b9ff3f4b1e0dc19b241dcf4563c",
+        "renderSha256": "9270044d4f9f07639dc2198fb9d34aa9d5ff80d593960d97ca4d89854b2fd01d"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/we-trisk.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/we-trisk.ans",
+        "sourceSha256": "1640c2387517ade782155944eaf1bea966efbf6f0d16dc5c73ec8e9977830c5f",
+        "renderSha256": "99436eb5d4008af31296ade06e0a2bb5939c6b921ed3f159c6fbedbb47642a72"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/zO-experiment.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/zO-experiment.ans",
+        "sourceSha256": "4b09fb0c6ee84b3565a9ba6ffaf597a14529fbe8627fc20328966c39dcdff9be",
+        "renderSha256": "7466094c4bf2e0660cbd145228766d71c8acff3e1d49a0aa520ce60a65eab9e6"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/zO-lud.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/zO-lud.ans",
+        "sourceSha256": "007bec96c128afbfc105a95490d6f68c7e62be35c94e771333154d295a246343",
+        "renderSha256": "176716e7b055de9313f85588202d8094489ae5de751738992ffc1dd67a4225e8"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/zv-018.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/zv-018.ans",
+        "sourceSha256": "0c37502097393234b991fe680c2e1b9dcebcb1b3a9c3f12c920897e0f69bbacf",
+        "renderSha256": "17b6fe113bd92a74f58f5aaf3f372c53b7d5c0f61db4d42341b107f3e38dc8e7"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:blocktronics_resvolution/zv-v01d.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_resvolution/raw/zv-v01d.ans",
+        "sourceSha256": "365794c6cdc94c2b0179eb586d36e5053335e66deba2f9ee10667c64d465a132",
+        "renderSha256": "74fcdf841f0f9ec1da8b606e36dc6aa625c850692d9b15a6ede36f531bb4f7b5"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:l0p24_08/yhl_mbecrew.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/l0p24_08/raw/yhl_mbecrew.ans",
+        "sourceSha256": "1519adf92b87e969d6382bdc9793333e56c52fd6b5b0c4cd024e7e6f0485bc2a",
+        "renderSha256": "9a4e4abbab3ca45d88c8661a30d87f7ab7aa772edf2495219bf30225d3b74947"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:mimic86/kf-ggate.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/mimic86/raw/kf-ggate.ans",
+        "sourceSha256": "232b198bf5ee154e437f8b15029f8f2d83e035e1b670c9cdb38eb228d01a3fb6",
+        "renderSha256": "58431cbc7f7834d3b369b85539427d0914736d88bc43485b7444d991f2da701f"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots01/CW-CNTST.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots01/raw/CW-CNTST.ANS",
+        "sourceSha256": "ecf3059e191243b0c8c57e910fa28c893c07a019aad98163c23a26bc46f6d6b2",
+        "renderSha256": "9a4b43607f5007001de837dd46c3d3e4cd71a5830d0997b73510797249d779da"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots01/jp-eob.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots01/raw/jp-eob.ans",
+        "sourceSha256": "c200d6ce4a502da6f20acc7b09ffc1fddbbeb66b9bd1cd691f34d40ca6cbd3b3",
+        "renderSha256": "55f191fd596047302838a149fc957322c65080943461d90dbccd97a0291419a3"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots01/KF-SAT9.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots01/raw/KF-SAT9.ANS",
+        "sourceSha256": "e24b6a589ede2e68cbb35b608780d79bacb769dfdb18834e2380a27d12d7dc2f",
+        "renderSha256": "f7d59b97937395085eb0df86af7ea955fd13c037ae28b913f0c19d04759a47c9"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots01/KF-VORTX.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots01/raw/KF-VORTX.ANS",
+        "sourceSha256": "bcacb0a30df35fbeeebed29e7a438efdfdfc4011e5d7a1655d6538b9f8697e27",
+        "renderSha256": "175bdaa213cdf3b752462c84e20ec36c41bbe7149848c32bb93bb6c165da92f0"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots01/RET-RAIN.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots01/raw/RET-RAIN.ANS",
+        "sourceSha256": "e93c73d1e626775d225da95c8509f4ed976b187706d1b315693b80692c15e096",
+        "renderSha256": "f43856976af21e23e8bd99100fe16c162f12cc078ff39c4c374c68f1bda75342"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots01/TIF-ENT.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots01/raw/TIF-ENT.ANS",
+        "sourceSha256": "73633ad3a5ff5b34cbe87a47e60c93fc75916024bb97bd0bfe7b7518b0ea6bac",
+        "renderSha256": "84fbe2ce4ead3ec5f2755f7c6ab341fb201534a9205b53751af27414f528d398"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots01/US-ROOTS.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots01/raw/US-ROOTS.ANS",
+        "sourceSha256": "2ce1262a677203ef65abc4497d33aba462c01fbc6c1209dce56ac9c242dee84f",
+        "renderSha256": "442153254115301c88019d38a47f936e78c3797d358bd5b44b5bc6805dd84876"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots01/US-SENSE.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots01/raw/US-SENSE.ANS",
+        "sourceSha256": "2897ee6cb609a4c488123b39fb2d5dbb746520d8e7d085a8c68137b703cbd906",
+        "renderSha256": "188a3975f5d92afaf3d72db36f3486b1a83c522181dce604b166c40eed004e4c"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots01/US-SLURG.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots01/raw/US-SLURG.ANS",
+        "sourceSha256": "36ffecbfa2ce63cc5875d36be8d493cc74cb2f445fdaedbb3186d623e5706021",
+        "renderSha256": "346d280741843af18a44c60be8de935125eaa4a5bb612b6aa3f817f8f87ab3e5"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots01/US-UTC.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots01/raw/US-UTC.ANS",
+        "sourceSha256": "2bf1b8050d458e396e688c99b3bb4206eb966666110f44b9d7e92252b18beea8",
+        "renderSha256": "829f21881c34580ba71e340a7e6ce1dfe89d501a32a83e1f8ad7a3bf447bb508"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots02/70-epic.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots02/raw/70-epic.ans",
+        "sourceSha256": "4d1d22e1aa25fd8b91cd9d61013785586a48e3ad428c2cd396587f9c7d38db2d",
+        "renderSha256": "a0bba65984db2fc388d27ac588ff13458938f963baae771aa82a1a7ada2aa25a"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots02/avg-dem1.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots02/raw/avg-dem1.ans",
+        "sourceSha256": "7d6c49512044ba52364162844df30d992a330e342b5eb5a1c50ff96b1327500e",
+        "renderSha256": "546355e3eb02db06dccc112cc619f4c4b3567aaa4ecfe6c51bea6632dde7c6d8"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots02/cw-ct2.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots02/raw/cw-ct2.ans",
+        "sourceSha256": "19c60d24c4c3456ade8aa041084919e814978b7a66c175415fd934552f5872dd",
+        "renderSha256": "8d92fbec12e6f78177bce0f1bb3b80eb6f83a016c9ee232cd9854ec83032eeac"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots02/JP-DS2.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots02/raw/JP-DS2.ANS",
+        "sourceSha256": "26f7fe655729061f89a28d5e58725db0715aa38ce2e25f265f2eac2d1a395d5d",
+        "renderSha256": "50e38136cab4d94798047637c80db9b3b69f522f91bee3dfa2e979b952efba44"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots02/kf-roots.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots02/raw/kf-roots.ans",
+        "sourceSha256": "48d9da7079c5fbcef2146532ec4f7081513f3e6f944e9f97d4eb10fd4a03483b",
+        "renderSha256": "eb9552c677074a14ee0f39c02d84a3b4ea9dd4d0007556015a2c9edfe55c3d91"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots02/us-cent.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots02/raw/us-cent.ans",
+        "sourceSha256": "379886385c3ae28cb9947eef65f6d58d35dc58a5945141f80f98e90ab9b53702",
+        "renderSha256": "b7e23405c2604c76042e70f98629310b3634f18c36860f19032f8f69fe15d54e"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots02/us-dist.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots02/raw/us-dist.ans",
+        "sourceSha256": "97d3f4f7bbe50a01ed26249250a79279a6171a36bbd898c5ac0729114bad0b70",
+        "renderSha256": "334c1780c55146329eaacc3480e570f157b6b3fee368af98949ff4d407b53480"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots02/us-roots.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots02/raw/us-roots.ans",
+        "sourceSha256": "51467b9edece7dd201ff0cabd22a5f09ebd0f31955cb9cfdf4d891001f57bf06",
+        "renderSha256": "bf7efa28cf36b5cd4a65f6c5b959e40502a7064b84ed471dc4a45837597fb8f5"
+      },
+      {
+        "archiveYear": 2008,
+        "id": "16colors:roots02/us-skill.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/roots02/raw/us-skill.ans",
+        "sourceSha256": "afcf02941c5f6c2da9ca62bd773fe8906978062e8dcca32ef30f95b0a6d2eaf6",
+        "renderSha256": "715f2a67909653d07914a2aa7acc58df725623c5b9f2361a7d12b46c6a806c6d"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/70-ansi.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/70-ansi.ans",
+        "sourceSha256": "dcb642ec43761bd74a48eca3040c2c297caa42fd70639552d389a6cf4d47a9c6",
+        "renderSha256": "946c7da0678a3d38b4c6c4ca76444b0d6e57e38e44eb1003b0d6c69dcd1d98be"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/70-sense.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/70-sense.ans",
+        "sourceSha256": "688219a531163f3e48bf8e48c7761a7da50e18d71517a3feabb5b5f4aa296471",
+        "renderSha256": "d7b3500e21b226ccb1b4ed1633650901102dd27971483bd41293377fd3f7fbf1"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/avg-evoke.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/avg-evoke.ans",
+        "sourceSha256": "aab9bbde9e91537248e3b9ac3146da39051aafc26ed8319efe24d43ce74f7108",
+        "renderSha256": "bdc2b2900115f9b28696d3358dcc73f886abefdd33f5d6302cc001da55046a20"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/avg-sense3d.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/avg-sense3d.ans",
+        "sourceSha256": "1e19452da796fed16cc62a79cb1c6522ab61cacc4e4f3c4048fa5a09974054a3",
+        "renderSha256": "a09cf43c668c88c7be9198002df5823956d5ecb97e21f1e4603c9649b7efff12"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/cs-capslogo.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/cs-capslogo.ans",
+        "sourceSha256": "78dc761bc0435c1008f7c354a635fd8568ad33da148fd4e7ec697e34badcb75d",
+        "renderSha256": "098e267ea45a63c469f96cff5b241710375ac6740dae1913ac8aed4877c4455c"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/GOO-blockbrains.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/GOO-blockbrains.ans",
+        "sourceSha256": "b46b81af71ef153454fd672907af4e7b05be5bce1a13f391743cd9ac4870d44b",
+        "renderSha256": "44d3dea7edef1873a433e3607d13ea4d0935dcc22406cf119c589576ca0c2ebf"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/ns-ansilove.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/ns-ansilove.ans",
+        "sourceSha256": "24ebc08e922ab148a5d97ae791e0e50f4e08a6084f638342a87a8385e6db160a",
+        "renderSha256": "72a5b30a3ce359cb589266f54bfc79d2c9a88772e374f28db924b8b4427dea4e"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/ns-distortion.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/ns-distortion.ans",
+        "sourceSha256": "fe325e2e3eea0b017590ee16715175d2424d34ea348a6242f5405264258ea68c",
+        "renderSha256": "e069cdbb5a7a2599574bc87f882beeac4093c4cb84ad025aad7898d19ee23912"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/ns-TheTelephoneBoot.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/ns-TheTelephoneBoot.ans",
+        "sourceSha256": "0851d328f3f7edc2c2e0ec9efc43d54e689edc2f3fae191af7065076be318d9a",
+        "renderSha256": "429e063af70242d4699e81ac4ac0bf276e5a9f2f50206bb37e457453c7c40fa0"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/ns-void.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/ns-void.ans",
+        "sourceSha256": "5743d7b12f7ab83bbde1317fdfa311858687b6654dfda67766f299d22be84667",
+        "renderSha256": "136ad0bd0213bc1412232d127eb7f4b913b4c553743f4c2fe4e432c55c503994"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/ret-entropy.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/ret-entropy.ans",
+        "sourceSha256": "48080e0836611186c11fe5bc22006ce6abc472fd79e2e7f83b618d8e5d9b0d4e",
+        "renderSha256": "deae6e0b0e8a9ff7eefea34970c77c0c50a4fc6abd4784d9977c72cf456e7733"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/ret-revolt.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/ret-revolt.ans",
+        "sourceSha256": "4bb1290a35f05ea5021ec612dddd8ed31555d825094c12ee1d3928893e0db983",
+        "renderSha256": "9bb79f232ff5ef5ee7af89b6d95baee11bffadf27e62681cb28c0f279cd0c221"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/tcf-HTC.ans",
+        "disposition": "already-imported-source",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/tcf-HTC.ans",
+        "sourceSha256": "15a7232268f56bbeba49d5b132076b76e8517013ed08201f3f03a4cef0eb30cd",
+        "renderSha256": "78c24873aa7a2008af1ef905bbb1b6c6806fdb3ff2fb763d29c08be51ee72f18"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/tna-7diz.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/tna-7diz.ans",
+        "sourceSha256": "5cefc5ed5adb8cf0a2370149ff6de2e7aeece715eba3353feeb6484ae373d642",
+        "renderSha256": "3102eed46bf59b336a2d9810086e2d26e0aa324fc0537636fc1e8a53fcfaa616"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/tna-asm2000.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/tna-asm2000.ans",
+        "sourceSha256": "ce113ca10c970f0e6555b0aa5fd2732526ec9be7612d46d857acc6dc3eb77abe",
+        "renderSha256": "7d5dfd7db3eccb1a0030872e0457535ea0ecdc936e98fd2e0abb9434fcfa1cde"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-67.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-67.ans",
+        "sourceSha256": "ca6b5791f3458c92cc238e217b3b9a9d32f992bea82b9aa085f5bc81f27f2434",
+        "renderSha256": "de090057bd4386dfeadc3ac948c5a06e5dc2b79f11d72ce0efbbf35b4b76a56b"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-AWEtronics.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-AWEtronics.ans",
+        "sourceSha256": "7470d94de8695d3f65e24c7805a171250ad3f81e1c198d973a9c891cc0bc8227",
+        "renderSha256": "551f58b2fc343a1db72b67dd8c3688fcc34c0f267b3630fcd6c212c07733b9f6"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-barrytronics.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-barrytronics.ans",
+        "sourceSha256": "cc1ec06751902008815ff72c04bc5d186f684025e6751304547d06a0150f878c",
+        "renderSha256": "36a311a0da6303a3faa047990cddc54aeb13dcde3bd120610dadf89e193cf218"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-btnique.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-btnique.ans",
+        "sourceSha256": "07ec624a138cb2afa705822768119d1300e8baa7f9a9936ba9e4de86d7239479",
+        "renderSha256": "683ca2e33569010098eb0635e3fa4cd7b012b7ac54364244b6c3bd1d6d9f88a7"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-bunny.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-bunny.ans",
+        "sourceSha256": "81d7faf761691c30bb6b6cd917e67eed817003beba8e923dbeb73c826fd17517",
+        "renderSha256": "305fbff59fcd55307fde4a97e51be9f3bed18cb137a5e8fde97c1f0b0a90400e"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-ent.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-ent.ans",
+        "sourceSha256": "3b88f9fbb3fc745be6378eed74db52ad35619d1188d96c35898df35249815dd9",
+        "renderSha256": "8d3f1178c5640a7e391e58b264ad40c4c5696cf262e7230e61dc3590abbe3e56"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-enthral.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-enthral.ans",
+        "sourceSha256": "ab08f5a08998d88c830bb187f3491783e6ced21121b775b73cab2b073be81df1",
+        "renderSha256": "87c58caa2056474588712b5678c26cfea2e2ff7eb013293f4c4ac3fa0ed8c502"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-entropy.ans",
+        "disposition": "already-imported-source",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-entropy.ans",
+        "sourceSha256": "cbb376ba13ed3c17bbf2388ad8412072ad8701159c1e72e098ca8b2295fda74c",
+        "renderSha256": "cd2601fa49604fb0ecb715309f0449dd1a9531f95d030bd9ea6fc798c62d696c"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-fredKokaine.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-fredKokaine.ans",
+        "sourceSha256": "54eb783671537ecddb4ddb088d514dda40993afdba66243b2b09bf3c5c3bb932",
+        "renderSha256": "1db3e4017ce73e4aeaffc7eaf7518cbe4008d4cb300b07d1b3caea667e6be67f"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-lud.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-lud.ans",
+        "sourceSha256": "0785d817660148f94f54a2126e7d5fceca37a3c3c52a67554615deb8dc854aa6",
+        "renderSha256": "a114818a7fa18295984fc33328e6b97e095c627ffd91b0ce5f6eeed1afeb9b3d"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-myth.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-myth.ans",
+        "sourceSha256": "17519f2a625dca5f28eb9b51e3a8bee32a8120f0698d8408b9d04f158f6d9a85",
+        "renderSha256": "b0621df3022e7befb7bd94460ad8cea9418b4c8c11f929594d141d746d30d1f7"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-radman.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-radman.ans",
+        "sourceSha256": "ec4651dd506db6fd03064c2c48abba628efe625679357d753df8a3fce2ce3cf5",
+        "renderSha256": "305ff609d5066165ab25922a50bca3cf4097a20566dc9dc3e08a847c5cf9aee6"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-satantronics.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-satantronics.ans",
+        "sourceSha256": "70f25b8f8a165faeecf20e2bbf77d0b80c390a99abe9069017eba25b7abd8ff7",
+        "renderSha256": "b39b1634fa0ffcbb385bdf1c889a8f058cccf6b001868e54a724688fb18a4c2e"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-thevoid.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-thevoid.ans",
+        "sourceSha256": "af61fff493cb775c5a364652e4acfa110aa4152b619893de07c05ff89044693d",
+        "renderSha256": "ec1467a94974a299957f272aff1f2c1c9d7360bd83ac7de3c2a4f071b66c638e"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/we-viewtronics.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-viewtronics.ans",
+        "sourceSha256": "4f75349659b8069ab23c87f318d5ff87f61041798644f9531154c560c994cdc8",
+        "renderSha256": "61368e061ebce03588b86b468775a49f9cdcd6551736ed2a26610670baba2428"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/zO-acid.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/zO-acid.ans",
+        "sourceSha256": "bafcf73433622173f08c59340b6c18287cf58411b10cb40f0e8dbd62aaf40f27",
+        "renderSha256": "3a0c8fb07af2e106fab47b3c57c2e2eddbe02758b402ba1dd71c802e0cd6bc23"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/zO-FITC.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/zO-FITC.ans",
+        "sourceSha256": "5b7b70e67e02fa70ed6549f777b89a3914145084916ea9a09203c4704ac4a5bd",
+        "renderSha256": "8f5fdc497ecdcea59118488fc743403c4344307a09c9bd5f35db6d85f6e0bdf8"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:blocktronics_codename_chris_wirth/zv-greyVoid.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/zv-greyVoid.ans",
+        "sourceSha256": "f4aafe963d07e0d135479da311369e029dbc70382cebbaf429f5a156fae612d0",
+        "renderSha256": "1d64971b1f56c86cebbf89c48dad745c0022f9763670841dffd611dcb41e91e6"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:chemical.reaction.foie.gras.artpack-cro/zemra-evoke.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/chemical.reaction.foie.gras.artpack-cro/raw/zemra-evoke.ans",
+        "sourceSha256": "c05aa18512b3afbf7eeedeadba5e05ec778006aae4d3205c9997e8eef2076c9c",
+        "renderSha256": "fc67a33a9b16611fa3063b0bb5c7a68b97009d7c2b44eb27c56223e0c8a376f5"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:cro-22/cpn-c4.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/cro-22/raw/cpn-c4.ans",
+        "sourceSha256": "3bac5962cb8dd5041a24798e1cee4856b02353eb20f1e63bda93369d9c877e5a",
+        "renderSha256": "1f418b785826f4d313393309e97c3382440271516441df2ea45c9111b117498c"
+      },
+      {
+        "archiveYear": 2009,
+        "id": "16colors:sac-36/ee-cl.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/sac-36/raw/ee-cl.ans",
+        "sourceSha256": "d3e3c35909df829701de0be70d5d44752ff33b872394fb86f6a71af832f63a45",
+        "renderSha256": "38956f7cf111a8589971f13af6fccc6d3d7e16655769e6c080d9cd670974cbc0"
+      },
+      {
+        "archiveYear": 2010,
+        "id": "16colors:chemical.reaction.blocks.in.my.brain.artpack.24-cro/0-ACME4K.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/chemical.reaction.blocks.in.my.brain.artpack.24-cro/raw/0-ACME4K.ANS",
+        "sourceSha256": "49a7485014e07d8cf1595db619d03fbaa899bb0b54a4ff5eda281dbc552b846f",
+        "renderSha256": "704fefc923942dc96d9ca415c933220d4b11e0aabcbab80388f494012a58df02"
+      },
+      {
+        "archiveYear": 2010,
+        "id": "16colors:chemical.reaction.blocks.in.my.brain.artpack.24-cro/0-KLOGO4.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/chemical.reaction.blocks.in.my.brain.artpack.24-cro/raw/0-KLOGO4.ANS",
+        "sourceSha256": "ce8ccc27341f0f0de7157defe0176cfce11c34530987bf407d3df1b0a4bf7008",
+        "renderSha256": "b10a5babde8e0217b8c98569db890301fdc4459182203ca28175af494d98000a"
+      },
+      {
+        "archiveYear": 2010,
+        "id": "16colors:chemical.reaction.blocks.in.my.brain.artpack.24-cro/f3!xmas_card.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/chemical.reaction.blocks.in.my.brain.artpack.24-cro/raw/f3!xmas_card.ans",
+        "sourceSha256": "20b4ba9fed4972ebba5564c7991c4bbd23cc3a695236d7b5f0551fabcb08cad4",
+        "renderSha256": "56f4fea560bb99b9562b26be539b40b755437868262f00e7b0be1c05d6ce4346"
+      },
+      {
+        "archiveYear": 2010,
+        "id": "16colors:chemical.reaction.blocks.in.my.brain.artpack.24-cro/f3!zargon.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/chemical.reaction.blocks.in.my.brain.artpack.24-cro/raw/f3!zargon.ans",
+        "sourceSha256": "fe95e1bca74cb739564ae898a6675ecaf5603e83714b8c4c20ae0a10662753e1",
+        "renderSha256": "daa100f34e9327860622c531b8bcbd60117f3047b551790eec40acdbb4a6c5b6"
+      },
+      {
+        "archiveYear": 2010,
+        "id": "16colors:mdx.endofyear.readnfo.artpack.2010-pcl/mdx-fixato.ans",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/mdx.endofyear.readnfo.artpack.2010-pcl/raw/mdx-fixato.ans",
+        "sourceSha256": "7f315180aaa30f883e3c6b19960eefeb3c43e16b86572d2cfa5a1b66065555d1",
+        "renderSha256": "1776b952e0872094f7c39bceaa5d944ab8c87d5c7734e2c7fe921b7a9df91be5"
+      },
+      {
+        "archiveYear": 2010,
+        "id": "16colors:spleen02/CL!-EL15.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/spleen02/raw/CL!-EL15.ANS",
+        "sourceSha256": "096fce3e4237a65bde2c8db39187d6afac4963d2349b6d02ded13d5f81922ded",
+        "renderSha256": "110afb13d485482c400e2fad04a8debee6f67040eb059cc6213bf5afc4982c80"
+      },
+      {
+        "archiveYear": 2010,
+        "id": "16colors:spleen02/CL!-SP03.ANS",
+        "disposition": "accepted",
+        "sourceUrl": "https://16colo.rs/pack/spleen02/raw/CL!-SP03.ANS",
+        "sourceSha256": "1a730b635a62a964802bd3eb464b63a64263536cbaa64fc1f45fa1923802e2ec",
+        "renderSha256": "22d578dab81c85fc41066d643adfd63c917050003f93bf05ccad282d1899acbe"
+      },
       {
         "archiveYear": 2012,
         "id": "16colors:fdr-01/CL!-BIC.ANS",

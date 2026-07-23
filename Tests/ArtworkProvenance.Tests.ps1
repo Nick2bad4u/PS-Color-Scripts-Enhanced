@@ -334,13 +334,13 @@ Describe 'Curated ANSI artwork provenance' {
     It 'ships a complete compact checkpoint for every finished archive year' {
         $script:Checkpoint.SchemaVersion | Should -Be 1
         $script:Checkpoint.ScanDate | Should -Be '2026-07-23'
-        $script:Checkpoint.Scope.SixteenColorsCompletedYears | Should -Be '2012-2026'
-        $script:Checkpoint.Scope.SixteenColorsPendingYears | Should -Be '1990-2011'
+        $script:Checkpoint.Scope.SixteenColorsCompletedYears | Should -Be '2008-2026'
+        $script:Checkpoint.Scope.SixteenColorsPendingYears | Should -Be '1990-2007'
         $script:Checkpoint.CombinedInventorySha256 | Should -Match '^[0-9a-f]{64}$'
 
         $years = @($script:Checkpoint.SixteenColors.Years)
-        $years | Should -HaveCount 15
-        @($years.Year) | Should -Be (2012..2026)
+        $years | Should -HaveCount 19
+        @($years.Year) | Should -Be (2008..2026)
         $script:Checkpoint.SixteenColors.Totals.PackCount |
             Should -Be ($years.PackCount | Measure-Object -Sum).Sum
         $script:Checkpoint.SixteenColors.Totals.CandidateCount |
@@ -360,7 +360,7 @@ Describe 'Curated ANSI artwork provenance' {
             $knownSourceHashes[$entry.SourceSha256] = $true
         }
         foreach ($source in $script:Checkpoint.SixteenColors.AcceptedSources) {
-            $source.ArchiveYear | Should -BeIn (2012..2026)
+            $source.ArchiveYear | Should -BeIn (2008..2026)
             $source.SourceUrl | Should -Match '^https://16colo\.rs/pack/'
             $source.SourceSha256 | Should -Match '^[0-9a-f]{64}$'
             $source.RenderSha256 | Should -Match '^[0-9a-f]{64}$'

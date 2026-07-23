@@ -74,6 +74,252 @@
         )
 
         Artistic        = @(
+            '16c-blocktronics-codename-chris-wirth-70-ansi',
+            '16c-blocktronics-codename-chris-wirth-70-sense',
+            '16c-blocktronics-codename-chris-wirth-avg-evoke',
+            '16c-blocktronics-codename-chris-wirth-avg-sense3d-part01',
+            '16c-blocktronics-codename-chris-wirth-avg-sense3d-part02',
+            '16c-blocktronics-codename-chris-wirth-avg-sense3d-part03',
+            '16c-blocktronics-codename-chris-wirth-avg-sense3d-part04',
+            '16c-blocktronics-codename-chris-wirth-cs-capslogo',
+            '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part01',
+            '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part02',
+            '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part03',
+            '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part04',
+            '16c-blocktronics-codename-chris-wirth-ns-ansilove-part01',
+            '16c-blocktronics-codename-chris-wirth-ns-ansilove-part02',
+            '16c-blocktronics-codename-chris-wirth-ns-ansilove-part03',
+            '16c-blocktronics-codename-chris-wirth-ns-distortion-part01',
+            '16c-blocktronics-codename-chris-wirth-ns-distortion-part02',
+            '16c-blocktronics-codename-chris-wirth-ns-distortion-part03',
+            '16c-blocktronics-codename-chris-wirth-ns-distortion-part04',
+            '16c-blocktronics-codename-chris-wirth-ns-thetelephoneboot',
+            '16c-blocktronics-codename-chris-wirth-ns-void',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part01',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part02',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part03',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part04',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part05',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part06',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part07',
+            '16c-blocktronics-codename-chris-wirth-ret-revolt-part01',
+            '16c-blocktronics-codename-chris-wirth-ret-revolt-part02',
+            '16c-blocktronics-codename-chris-wirth-ret-revolt-part03',
+            '16c-blocktronics-codename-chris-wirth-tna-7diz',
+            '16c-blocktronics-codename-chris-wirth-tna-asm2000',
+            '16c-blocktronics-codename-chris-wirth-we-67',
+            '16c-blocktronics-codename-chris-wirth-we-awetronics-part01',
+            '16c-blocktronics-codename-chris-wirth-we-awetronics-part02',
+            '16c-blocktronics-codename-chris-wirth-we-barrytronics-part01',
+            '16c-blocktronics-codename-chris-wirth-we-barrytronics-part02',
+            '16c-blocktronics-codename-chris-wirth-we-barrytronics-part03',
+            '16c-blocktronics-codename-chris-wirth-we-barrytronics-part04',
+            '16c-blocktronics-codename-chris-wirth-we-barrytronics-part05',
+            '16c-blocktronics-codename-chris-wirth-we-btnique',
+            '16c-blocktronics-codename-chris-wirth-we-bunny-part01',
+            '16c-blocktronics-codename-chris-wirth-we-bunny-part02',
+            '16c-blocktronics-codename-chris-wirth-we-ent-part01',
+            '16c-blocktronics-codename-chris-wirth-we-ent-part02',
+            '16c-blocktronics-codename-chris-wirth-we-ent-part03',
+            '16c-blocktronics-codename-chris-wirth-we-ent-part04',
+            '16c-blocktronics-codename-chris-wirth-we-enthral-part01',
+            '16c-blocktronics-codename-chris-wirth-we-enthral-part02',
+            '16c-blocktronics-codename-chris-wirth-we-enthral-part03',
+            '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part01',
+            '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part02',
+            '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part03',
+            '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part04',
+            '16c-blocktronics-codename-chris-wirth-we-lud-part01',
+            '16c-blocktronics-codename-chris-wirth-we-lud-part02',
+            '16c-blocktronics-codename-chris-wirth-we-lud-part03',
+            '16c-blocktronics-codename-chris-wirth-we-lud-part04',
+            '16c-blocktronics-codename-chris-wirth-we-lud-part05',
+            '16c-blocktronics-codename-chris-wirth-we-myth-part01',
+            '16c-blocktronics-codename-chris-wirth-we-myth-part02',
+            '16c-blocktronics-codename-chris-wirth-we-myth-part03',
+            '16c-blocktronics-codename-chris-wirth-we-radman-part01',
+            '16c-blocktronics-codename-chris-wirth-we-radman-part02',
+            '16c-blocktronics-codename-chris-wirth-we-radman-part03',
+            '16c-blocktronics-codename-chris-wirth-we-satantronics-part01',
+            '16c-blocktronics-codename-chris-wirth-we-satantronics-part02',
+            '16c-blocktronics-codename-chris-wirth-we-satantronics-part03',
+            '16c-blocktronics-codename-chris-wirth-we-satantronics-part04',
+            '16c-blocktronics-codename-chris-wirth-we-satantronics-part05',
+            '16c-blocktronics-codename-chris-wirth-we-satantronics-part06',
+            '16c-blocktronics-codename-chris-wirth-we-thevoid',
+            '16c-blocktronics-codename-chris-wirth-we-viewtronics',
+            '16c-blocktronics-codename-chris-wirth-zo-acid-part01',
+            '16c-blocktronics-codename-chris-wirth-zo-acid-part02',
+            '16c-blocktronics-codename-chris-wirth-zo-acid-part03',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part01',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part02',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part03',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part04',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part05',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part06',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part07',
+            '16c-blocktronics-codename-chris-wirth-zv-greyvoid-part01',
+            '16c-blocktronics-codename-chris-wirth-zv-greyvoid-part02',
+            '16c-blocktronics-codename-chris-wirth-zv-greyvoid-part03',
+            '16c-chemical-reaction-foie-gras-artpack-cro-zemra-evoke-part01',
+            '16c-chemical-reaction-foie-gras-artpack-cro-zemra-evoke-part02',
+            '16c-cro-22-cpn-c4-part01',
+            '16c-cro-22-cpn-c4-part02',
+            '16c-cro-22-cpn-c4-part03',
+            '16c-cro-22-cpn-c4-part04',
+            '16c-sac-36-ee-cl-part01',
+            '16c-sac-36-ee-cl-part02',
+            '16c-sac-36-ee-cl-part03',
+            '16c-sac-36-ee-cl-part04',
+            '16c-sac-36-ee-cl-part05',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-acme4k',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-klogo4-part01',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-klogo4-part02',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-xmas-card-part01',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-xmas-card-part02',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-xmas-card-part03',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-zargon',
+            '16c-mdx-endofyear-readnfo-artpack-2010-pcl-mdx-fixato',
+            '16c-spleen02-cl-el15',
+            '16c-spleen02-cl-sp03',
+            '16c-blocktronics-resvolution-43-25ln01',
+            '16c-blocktronics-resvolution-70-haciend',
+            '16c-blocktronics-resvolution-70-twilight',
+            '16c-blocktronics-resvolution-avg-aid-part01',
+            '16c-blocktronics-resvolution-avg-aid-part02',
+            '16c-blocktronics-resvolution-avg-aid-part03',
+            '16c-blocktronics-resvolution-avg-b7-part01',
+            '16c-blocktronics-resvolution-avg-b7-part02',
+            '16c-blocktronics-resvolution-avg-b7-part03',
+            '16c-blocktronics-resvolution-avg-b7-part04',
+            '16c-blocktronics-resvolution-avg-carz',
+            '16c-blocktronics-resvolution-avg-ice',
+            '16c-blocktronics-resvolution-avg-inf',
+            '16c-blocktronics-resvolution-avg-rip-part01',
+            '16c-blocktronics-resvolution-avg-rip-part02',
+            '16c-blocktronics-resvolution-avg-rip-part03',
+            '16c-blocktronics-resvolution-avg-rip-part04',
+            '16c-blocktronics-resvolution-avg-rip-part05',
+            '16c-blocktronics-resvolution-avg-rip-part06',
+            '16c-blocktronics-resvolution-avg-rip-part07',
+            '16c-blocktronics-resvolution-blocktronics-res-v-olution-part01',
+            '16c-blocktronics-resvolution-blocktronics-res-v-olution-part02',
+            '16c-blocktronics-resvolution-blocktronics-res-v-olution-part03',
+            '16c-blocktronics-resvolution-blocktronics-res-v-olution-part04',
+            '16c-blocktronics-resvolution-blocktronics-res-v-olution-part05',
+            '16c-blocktronics-resvolution-cg-ice',
+            '16c-blocktronics-resvolution-cg-sc',
+            '16c-blocktronics-resvolution-cs-colly-part01',
+            '16c-blocktronics-resvolution-cs-colly-part02',
+            '16c-blocktronics-resvolution-cs-deadlines',
+            '16c-blocktronics-resvolution-gs-sense',
+            '16c-blocktronics-resvolution-n4-wendy-part01',
+            '16c-blocktronics-resvolution-n4-wendy-part02',
+            '16c-blocktronics-resvolution-pk-angel',
+            '16c-blocktronics-resvolution-pk-lud',
+            '16c-blocktronics-resvolution-pk-monster-part01',
+            '16c-blocktronics-resvolution-pk-monster-part02',
+            '16c-blocktronics-resvolution-we-67-part01',
+            '16c-blocktronics-resvolution-we-67-part02',
+            '16c-blocktronics-resvolution-we-b71-part01',
+            '16c-blocktronics-resvolution-we-b71-part02',
+            '16c-blocktronics-resvolution-we-bsd',
+            '16c-blocktronics-resvolution-we-caps',
+            '16c-blocktronics-resvolution-we-cent',
+            '16c-blocktronics-resvolution-we-centre-part01',
+            '16c-blocktronics-resvolution-we-centre-part02',
+            '16c-blocktronics-resvolution-we-centre-part03',
+            '16c-blocktronics-resvolution-we-centre-part04',
+            '16c-blocktronics-resvolution-we-collide',
+            '16c-blocktronics-resvolution-we-cougar-part01',
+            '16c-blocktronics-resvolution-we-cougar-part02',
+            '16c-blocktronics-resvolution-we-ds',
+            '16c-blocktronics-resvolution-we-exet-part01',
+            '16c-blocktronics-resvolution-we-exet-part02',
+            '16c-blocktronics-resvolution-we-htc-part01',
+            '16c-blocktronics-resvolution-we-htc-part02',
+            '16c-blocktronics-resvolution-we-htc-part03',
+            '16c-blocktronics-resvolution-we-htc-part04',
+            '16c-blocktronics-resvolution-we-htc-part05',
+            '16c-blocktronics-resvolution-we-outzoneremix-part01',
+            '16c-blocktronics-resvolution-we-outzoneremix-part02',
+            '16c-blocktronics-resvolution-we-outzoneremix-part03',
+            '16c-blocktronics-resvolution-we-outzoneremix-part04',
+            '16c-blocktronics-resvolution-we-radman-part01',
+            '16c-blocktronics-resvolution-we-radman-part02',
+            '16c-blocktronics-resvolution-we-rank',
+            '16c-blocktronics-resvolution-we-rem',
+            '16c-blocktronics-resvolution-we-scum-part01',
+            '16c-blocktronics-resvolution-we-scum-part02',
+            '16c-blocktronics-resvolution-we-thecentre-part01',
+            '16c-blocktronics-resvolution-we-thecentre-part02',
+            '16c-blocktronics-resvolution-we-thecentre-part03',
+            '16c-blocktronics-resvolution-we-thecentre-part04',
+            '16c-blocktronics-resvolution-we-thecentre-part05',
+            '16c-blocktronics-resvolution-we-thecentre-part06',
+            '16c-blocktronics-resvolution-we-thecentre-part07',
+            '16c-blocktronics-resvolution-we-thecentre-part08',
+            '16c-blocktronics-resvolution-we-thecentre-part09',
+            '16c-blocktronics-resvolution-we-trisk-part01',
+            '16c-blocktronics-resvolution-we-trisk-part02',
+            '16c-blocktronics-resvolution-zo-experiment',
+            '16c-blocktronics-resvolution-zo-lud-part01',
+            '16c-blocktronics-resvolution-zo-lud-part02',
+            '16c-blocktronics-resvolution-zo-lud-part03',
+            '16c-blocktronics-resvolution-zo-lud-part04',
+            '16c-blocktronics-resvolution-zo-lud-part05',
+            '16c-blocktronics-resvolution-zo-lud-part06',
+            '16c-blocktronics-resvolution-zv-018-part01',
+            '16c-blocktronics-resvolution-zv-018-part02',
+            '16c-blocktronics-resvolution-zv-018-part03',
+            '16c-blocktronics-resvolution-zv-018-part04',
+            '16c-blocktronics-resvolution-zv-018-part05',
+            '16c-blocktronics-resvolution-zv-v01d-part01',
+            '16c-blocktronics-resvolution-zv-v01d-part02',
+            '16c-blocktronics-resvolution-zv-v01d-part03',
+            '16c-blocktronics-resvolution-zv-v01d-part04',
+            '16c-l0p24-08-yhl-mbecrew-part01',
+            '16c-l0p24-08-yhl-mbecrew-part02',
+            '16c-l0p24-08-yhl-mbecrew-part03',
+            '16c-mimic86-kf-ggate-part01',
+            '16c-mimic86-kf-ggate-part02',
+            '16c-roots01-cw-cntst-part01',
+            '16c-roots01-cw-cntst-part02',
+            '16c-roots01-jp-eob',
+            '16c-roots01-kf-sat9-part01',
+            '16c-roots01-kf-sat9-part02',
+            '16c-roots01-kf-sat9-part03',
+            '16c-roots01-kf-sat9-part04',
+            '16c-roots01-kf-sat9-part05',
+            '16c-roots01-kf-sat9-part06',
+            '16c-roots01-kf-sat9-part07',
+            '16c-roots01-kf-sat9-part08',
+            '16c-roots01-kf-sat9-part09',
+            '16c-roots01-kf-vortx',
+            '16c-roots01-ret-rain-part01',
+            '16c-roots01-ret-rain-part02',
+            '16c-roots01-ret-rain-part03',
+            '16c-roots01-tif-ent',
+            '16c-roots01-us-roots',
+            '16c-roots01-us-sense',
+            '16c-roots01-us-slurg',
+            '16c-roots01-us-utc',
+            '16c-roots02-70-epic',
+            '16c-roots02-avg-dem1-part01',
+            '16c-roots02-avg-dem1-part02',
+            '16c-roots02-avg-dem1-part03',
+            '16c-roots02-cw-ct2',
+            '16c-roots02-jp-ds2',
+            '16c-roots02-kf-roots-part01',
+            '16c-roots02-kf-roots-part02',
+            '16c-roots02-kf-roots-part03',
+            '16c-roots02-us-cent',
+            '16c-roots02-us-dist-part01',
+            '16c-roots02-us-dist-part02',
+            '16c-roots02-us-dist-part03',
+            '16c-roots02-us-dist-part04',
+            '16c-roots02-us-roots',
+            '16c-roots02-us-skill',
             '16c-blocktronics-1010-2m-0909-part01',
             '16c-blocktronics-1010-2m-0909-part02',
             '16c-blocktronics-1010-avg-tenten1010',
@@ -8046,6 +8292,252 @@
         )
 
         ASCIIArt        = @(
+            '16c-blocktronics-codename-chris-wirth-70-ansi',
+            '16c-blocktronics-codename-chris-wirth-70-sense',
+            '16c-blocktronics-codename-chris-wirth-avg-evoke',
+            '16c-blocktronics-codename-chris-wirth-avg-sense3d-part01',
+            '16c-blocktronics-codename-chris-wirth-avg-sense3d-part02',
+            '16c-blocktronics-codename-chris-wirth-avg-sense3d-part03',
+            '16c-blocktronics-codename-chris-wirth-avg-sense3d-part04',
+            '16c-blocktronics-codename-chris-wirth-cs-capslogo',
+            '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part01',
+            '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part02',
+            '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part03',
+            '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part04',
+            '16c-blocktronics-codename-chris-wirth-ns-ansilove-part01',
+            '16c-blocktronics-codename-chris-wirth-ns-ansilove-part02',
+            '16c-blocktronics-codename-chris-wirth-ns-ansilove-part03',
+            '16c-blocktronics-codename-chris-wirth-ns-distortion-part01',
+            '16c-blocktronics-codename-chris-wirth-ns-distortion-part02',
+            '16c-blocktronics-codename-chris-wirth-ns-distortion-part03',
+            '16c-blocktronics-codename-chris-wirth-ns-distortion-part04',
+            '16c-blocktronics-codename-chris-wirth-ns-thetelephoneboot',
+            '16c-blocktronics-codename-chris-wirth-ns-void',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part01',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part02',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part03',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part04',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part05',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part06',
+            '16c-blocktronics-codename-chris-wirth-ret-entropy-part07',
+            '16c-blocktronics-codename-chris-wirth-ret-revolt-part01',
+            '16c-blocktronics-codename-chris-wirth-ret-revolt-part02',
+            '16c-blocktronics-codename-chris-wirth-ret-revolt-part03',
+            '16c-blocktronics-codename-chris-wirth-tna-7diz',
+            '16c-blocktronics-codename-chris-wirth-tna-asm2000',
+            '16c-blocktronics-codename-chris-wirth-we-67',
+            '16c-blocktronics-codename-chris-wirth-we-awetronics-part01',
+            '16c-blocktronics-codename-chris-wirth-we-awetronics-part02',
+            '16c-blocktronics-codename-chris-wirth-we-barrytronics-part01',
+            '16c-blocktronics-codename-chris-wirth-we-barrytronics-part02',
+            '16c-blocktronics-codename-chris-wirth-we-barrytronics-part03',
+            '16c-blocktronics-codename-chris-wirth-we-barrytronics-part04',
+            '16c-blocktronics-codename-chris-wirth-we-barrytronics-part05',
+            '16c-blocktronics-codename-chris-wirth-we-btnique',
+            '16c-blocktronics-codename-chris-wirth-we-bunny-part01',
+            '16c-blocktronics-codename-chris-wirth-we-bunny-part02',
+            '16c-blocktronics-codename-chris-wirth-we-ent-part01',
+            '16c-blocktronics-codename-chris-wirth-we-ent-part02',
+            '16c-blocktronics-codename-chris-wirth-we-ent-part03',
+            '16c-blocktronics-codename-chris-wirth-we-ent-part04',
+            '16c-blocktronics-codename-chris-wirth-we-enthral-part01',
+            '16c-blocktronics-codename-chris-wirth-we-enthral-part02',
+            '16c-blocktronics-codename-chris-wirth-we-enthral-part03',
+            '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part01',
+            '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part02',
+            '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part03',
+            '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part04',
+            '16c-blocktronics-codename-chris-wirth-we-lud-part01',
+            '16c-blocktronics-codename-chris-wirth-we-lud-part02',
+            '16c-blocktronics-codename-chris-wirth-we-lud-part03',
+            '16c-blocktronics-codename-chris-wirth-we-lud-part04',
+            '16c-blocktronics-codename-chris-wirth-we-lud-part05',
+            '16c-blocktronics-codename-chris-wirth-we-myth-part01',
+            '16c-blocktronics-codename-chris-wirth-we-myth-part02',
+            '16c-blocktronics-codename-chris-wirth-we-myth-part03',
+            '16c-blocktronics-codename-chris-wirth-we-radman-part01',
+            '16c-blocktronics-codename-chris-wirth-we-radman-part02',
+            '16c-blocktronics-codename-chris-wirth-we-radman-part03',
+            '16c-blocktronics-codename-chris-wirth-we-satantronics-part01',
+            '16c-blocktronics-codename-chris-wirth-we-satantronics-part02',
+            '16c-blocktronics-codename-chris-wirth-we-satantronics-part03',
+            '16c-blocktronics-codename-chris-wirth-we-satantronics-part04',
+            '16c-blocktronics-codename-chris-wirth-we-satantronics-part05',
+            '16c-blocktronics-codename-chris-wirth-we-satantronics-part06',
+            '16c-blocktronics-codename-chris-wirth-we-thevoid',
+            '16c-blocktronics-codename-chris-wirth-we-viewtronics',
+            '16c-blocktronics-codename-chris-wirth-zo-acid-part01',
+            '16c-blocktronics-codename-chris-wirth-zo-acid-part02',
+            '16c-blocktronics-codename-chris-wirth-zo-acid-part03',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part01',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part02',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part03',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part04',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part05',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part06',
+            '16c-blocktronics-codename-chris-wirth-zo-fitc-part07',
+            '16c-blocktronics-codename-chris-wirth-zv-greyvoid-part01',
+            '16c-blocktronics-codename-chris-wirth-zv-greyvoid-part02',
+            '16c-blocktronics-codename-chris-wirth-zv-greyvoid-part03',
+            '16c-chemical-reaction-foie-gras-artpack-cro-zemra-evoke-part01',
+            '16c-chemical-reaction-foie-gras-artpack-cro-zemra-evoke-part02',
+            '16c-cro-22-cpn-c4-part01',
+            '16c-cro-22-cpn-c4-part02',
+            '16c-cro-22-cpn-c4-part03',
+            '16c-cro-22-cpn-c4-part04',
+            '16c-sac-36-ee-cl-part01',
+            '16c-sac-36-ee-cl-part02',
+            '16c-sac-36-ee-cl-part03',
+            '16c-sac-36-ee-cl-part04',
+            '16c-sac-36-ee-cl-part05',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-acme4k',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-klogo4-part01',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-klogo4-part02',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-xmas-card-part01',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-xmas-card-part02',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-xmas-card-part03',
+            '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-zargon',
+            '16c-mdx-endofyear-readnfo-artpack-2010-pcl-mdx-fixato',
+            '16c-spleen02-cl-el15',
+            '16c-spleen02-cl-sp03',
+            '16c-blocktronics-resvolution-43-25ln01',
+            '16c-blocktronics-resvolution-70-haciend',
+            '16c-blocktronics-resvolution-70-twilight',
+            '16c-blocktronics-resvolution-avg-aid-part01',
+            '16c-blocktronics-resvolution-avg-aid-part02',
+            '16c-blocktronics-resvolution-avg-aid-part03',
+            '16c-blocktronics-resvolution-avg-b7-part01',
+            '16c-blocktronics-resvolution-avg-b7-part02',
+            '16c-blocktronics-resvolution-avg-b7-part03',
+            '16c-blocktronics-resvolution-avg-b7-part04',
+            '16c-blocktronics-resvolution-avg-carz',
+            '16c-blocktronics-resvolution-avg-ice',
+            '16c-blocktronics-resvolution-avg-inf',
+            '16c-blocktronics-resvolution-avg-rip-part01',
+            '16c-blocktronics-resvolution-avg-rip-part02',
+            '16c-blocktronics-resvolution-avg-rip-part03',
+            '16c-blocktronics-resvolution-avg-rip-part04',
+            '16c-blocktronics-resvolution-avg-rip-part05',
+            '16c-blocktronics-resvolution-avg-rip-part06',
+            '16c-blocktronics-resvolution-avg-rip-part07',
+            '16c-blocktronics-resvolution-blocktronics-res-v-olution-part01',
+            '16c-blocktronics-resvolution-blocktronics-res-v-olution-part02',
+            '16c-blocktronics-resvolution-blocktronics-res-v-olution-part03',
+            '16c-blocktronics-resvolution-blocktronics-res-v-olution-part04',
+            '16c-blocktronics-resvolution-blocktronics-res-v-olution-part05',
+            '16c-blocktronics-resvolution-cg-ice',
+            '16c-blocktronics-resvolution-cg-sc',
+            '16c-blocktronics-resvolution-cs-colly-part01',
+            '16c-blocktronics-resvolution-cs-colly-part02',
+            '16c-blocktronics-resvolution-cs-deadlines',
+            '16c-blocktronics-resvolution-gs-sense',
+            '16c-blocktronics-resvolution-n4-wendy-part01',
+            '16c-blocktronics-resvolution-n4-wendy-part02',
+            '16c-blocktronics-resvolution-pk-angel',
+            '16c-blocktronics-resvolution-pk-lud',
+            '16c-blocktronics-resvolution-pk-monster-part01',
+            '16c-blocktronics-resvolution-pk-monster-part02',
+            '16c-blocktronics-resvolution-we-67-part01',
+            '16c-blocktronics-resvolution-we-67-part02',
+            '16c-blocktronics-resvolution-we-b71-part01',
+            '16c-blocktronics-resvolution-we-b71-part02',
+            '16c-blocktronics-resvolution-we-bsd',
+            '16c-blocktronics-resvolution-we-caps',
+            '16c-blocktronics-resvolution-we-cent',
+            '16c-blocktronics-resvolution-we-centre-part01',
+            '16c-blocktronics-resvolution-we-centre-part02',
+            '16c-blocktronics-resvolution-we-centre-part03',
+            '16c-blocktronics-resvolution-we-centre-part04',
+            '16c-blocktronics-resvolution-we-collide',
+            '16c-blocktronics-resvolution-we-cougar-part01',
+            '16c-blocktronics-resvolution-we-cougar-part02',
+            '16c-blocktronics-resvolution-we-ds',
+            '16c-blocktronics-resvolution-we-exet-part01',
+            '16c-blocktronics-resvolution-we-exet-part02',
+            '16c-blocktronics-resvolution-we-htc-part01',
+            '16c-blocktronics-resvolution-we-htc-part02',
+            '16c-blocktronics-resvolution-we-htc-part03',
+            '16c-blocktronics-resvolution-we-htc-part04',
+            '16c-blocktronics-resvolution-we-htc-part05',
+            '16c-blocktronics-resvolution-we-outzoneremix-part01',
+            '16c-blocktronics-resvolution-we-outzoneremix-part02',
+            '16c-blocktronics-resvolution-we-outzoneremix-part03',
+            '16c-blocktronics-resvolution-we-outzoneremix-part04',
+            '16c-blocktronics-resvolution-we-radman-part01',
+            '16c-blocktronics-resvolution-we-radman-part02',
+            '16c-blocktronics-resvolution-we-rank',
+            '16c-blocktronics-resvolution-we-rem',
+            '16c-blocktronics-resvolution-we-scum-part01',
+            '16c-blocktronics-resvolution-we-scum-part02',
+            '16c-blocktronics-resvolution-we-thecentre-part01',
+            '16c-blocktronics-resvolution-we-thecentre-part02',
+            '16c-blocktronics-resvolution-we-thecentre-part03',
+            '16c-blocktronics-resvolution-we-thecentre-part04',
+            '16c-blocktronics-resvolution-we-thecentre-part05',
+            '16c-blocktronics-resvolution-we-thecentre-part06',
+            '16c-blocktronics-resvolution-we-thecentre-part07',
+            '16c-blocktronics-resvolution-we-thecentre-part08',
+            '16c-blocktronics-resvolution-we-thecentre-part09',
+            '16c-blocktronics-resvolution-we-trisk-part01',
+            '16c-blocktronics-resvolution-we-trisk-part02',
+            '16c-blocktronics-resvolution-zo-experiment',
+            '16c-blocktronics-resvolution-zo-lud-part01',
+            '16c-blocktronics-resvolution-zo-lud-part02',
+            '16c-blocktronics-resvolution-zo-lud-part03',
+            '16c-blocktronics-resvolution-zo-lud-part04',
+            '16c-blocktronics-resvolution-zo-lud-part05',
+            '16c-blocktronics-resvolution-zo-lud-part06',
+            '16c-blocktronics-resvolution-zv-018-part01',
+            '16c-blocktronics-resvolution-zv-018-part02',
+            '16c-blocktronics-resvolution-zv-018-part03',
+            '16c-blocktronics-resvolution-zv-018-part04',
+            '16c-blocktronics-resvolution-zv-018-part05',
+            '16c-blocktronics-resvolution-zv-v01d-part01',
+            '16c-blocktronics-resvolution-zv-v01d-part02',
+            '16c-blocktronics-resvolution-zv-v01d-part03',
+            '16c-blocktronics-resvolution-zv-v01d-part04',
+            '16c-l0p24-08-yhl-mbecrew-part01',
+            '16c-l0p24-08-yhl-mbecrew-part02',
+            '16c-l0p24-08-yhl-mbecrew-part03',
+            '16c-mimic86-kf-ggate-part01',
+            '16c-mimic86-kf-ggate-part02',
+            '16c-roots01-cw-cntst-part01',
+            '16c-roots01-cw-cntst-part02',
+            '16c-roots01-jp-eob',
+            '16c-roots01-kf-sat9-part01',
+            '16c-roots01-kf-sat9-part02',
+            '16c-roots01-kf-sat9-part03',
+            '16c-roots01-kf-sat9-part04',
+            '16c-roots01-kf-sat9-part05',
+            '16c-roots01-kf-sat9-part06',
+            '16c-roots01-kf-sat9-part07',
+            '16c-roots01-kf-sat9-part08',
+            '16c-roots01-kf-sat9-part09',
+            '16c-roots01-kf-vortx',
+            '16c-roots01-ret-rain-part01',
+            '16c-roots01-ret-rain-part02',
+            '16c-roots01-ret-rain-part03',
+            '16c-roots01-tif-ent',
+            '16c-roots01-us-roots',
+            '16c-roots01-us-sense',
+            '16c-roots01-us-slurg',
+            '16c-roots01-us-utc',
+            '16c-roots02-70-epic',
+            '16c-roots02-avg-dem1-part01',
+            '16c-roots02-avg-dem1-part02',
+            '16c-roots02-avg-dem1-part03',
+            '16c-roots02-cw-ct2',
+            '16c-roots02-jp-ds2',
+            '16c-roots02-kf-roots-part01',
+            '16c-roots02-kf-roots-part02',
+            '16c-roots02-kf-roots-part03',
+            '16c-roots02-us-cent',
+            '16c-roots02-us-dist-part01',
+            '16c-roots02-us-dist-part02',
+            '16c-roots02-us-dist-part03',
+            '16c-roots02-us-dist-part04',
+            '16c-roots02-us-roots',
+            '16c-roots02-us-skill',
             '16c-blocktronics-1010-2m-0909-part01',
             '16c-blocktronics-1010-2m-0909-part02',
             '16c-blocktronics-1010-avg-tenten1010',
@@ -13456,6 +13948,252 @@
     )
 
     Tags         = @{
+        '16c-blocktronics-codename-chris-wirth-70-ansi' = @('ANSI', 'ASCIIArt', 'Artistic', 'Tombin', 'blocktronicscodenamechriswirth', '16colors')
+        '16c-blocktronics-codename-chris-wirth-70-sense' = @('ANSI', 'ASCIIArt', 'Artistic', 'Tombin', 'blocktronicscodenamechriswirth', '16colors')
+        '16c-blocktronics-codename-chris-wirth-avg-evoke' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicscodenamechriswirth', '16colors')
+        '16c-blocktronics-codename-chris-wirth-avg-sense3d-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-avg-sense3d-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-avg-sense3d-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-avg-sense3d-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-cs-capslogo' = @('ANSI', 'ASCIIArt', 'Artistic', 'Capsone', 'blocktronicscodenamechriswirth', '16colors')
+        '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Mypalgoo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Mypalgoo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Mypalgoo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Mypalgoo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ns-ansilove-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ns-ansilove-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ns-ansilove-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ns-distortion-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ns-distortion-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ns-distortion-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ns-distortion-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ns-thetelephoneboot' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'blocktronicscodenamechriswirth', '16colors')
+        '16c-blocktronics-codename-chris-wirth-ns-void' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'blocktronicscodenamechriswirth', '16colors')
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Retribution', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Retribution', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Retribution', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Retribution', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'Retribution', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'Retribution', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part07' = @('ANSI', 'ASCIIArt', 'Artistic', 'Retribution', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ret-revolt-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Retribution', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ret-revolt-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Retribution', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-ret-revolt-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Retribution', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-tna-7diz' = @('ANSI', 'ASCIIArt', 'Artistic', 'TheNightAngel', 'blocktronicscodenamechriswirth', '16colors')
+        '16c-blocktronics-codename-chris-wirth-tna-asm2000' = @('ANSI', 'ASCIIArt', 'Artistic', 'TheNightAngel', 'blocktronicscodenamechriswirth', '16colors')
+        '16c-blocktronics-codename-chris-wirth-we-67' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelKnocturnal', 'blocktronicscodenamechriswirth', '16colors')
+        '16c-blocktronics-codename-chris-wirth-we-awetronics-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-awetronics-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-barrytronics-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvgGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-barrytronics-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvgGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-barrytronics-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvgGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-barrytronics-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvgGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-barrytronics-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvgGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-btnique' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelNoches', 'blocktronicscodenamechriswirth', '16colors')
+        '16c-blocktronics-codename-chris-wirth-we-bunny-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'OberEnzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-bunny-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'OberEnzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-ent-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelAesthetic', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-ent-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelAesthetic', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-ent-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelAesthetic', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-ent-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelAesthetic', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-enthral-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngelPook', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-enthral-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngelPook', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-enthral-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngelPook', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzoSpear', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzoSpear', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzoSpear', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzoSpear', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-lud-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'GrindstoneEnzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-lud-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'GrindstoneEnzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-lud-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'GrindstoneEnzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-lud-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'GrindstoneEnzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-lud-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'GrindstoneEnzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-myth-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-myth-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-myth-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-radman-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionEnzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-radman-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionEnzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-radman-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionEnzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-satantronics-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzoGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-satantronics-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzoGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-satantronics-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzoGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-satantronics-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzoGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-satantronics-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzoGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-satantronics-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzoGrindstoned', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-we-thevoid' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoGrindstone', 'blocktronicscodenamechriswirth', '16colors')
+        '16c-blocktronics-codename-chris-wirth-we-viewtronics' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzo', 'blocktronicscodenamechriswirth', '16colors')
+        '16c-blocktronics-codename-chris-wirth-zo-acid-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-zo-acid-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-zo-acid-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part07' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-zv-greyvoid-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-zv-greyvoid-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-blocktronics-codename-chris-wirth-zv-greyvoid-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'blocktronicscodenamechriswirth', '16colors', 'SplitPart')
+        '16c-chemical-reaction-foie-gras-artpack-cro-zemra-evoke-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zemra', 'chemicalreactionfoiegrasartpackcro', '16colors', 'SplitPart')
+        '16c-chemical-reaction-foie-gras-artpack-cro-zemra-evoke-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zemra', 'chemicalreactionfoiegrasartpackcro', '16colors', 'SplitPart')
+        '16c-cro-22-cpn-c4-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cpn', 'cro22', '16colors', 'SplitPart')
+        '16c-cro-22-cpn-c4-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cpn', 'cro22', '16colors', 'SplitPart')
+        '16c-cro-22-cpn-c4-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cpn', 'cro22', '16colors', 'SplitPart')
+        '16c-cro-22-cpn-c4-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cpn', 'cro22', '16colors', 'SplitPart')
+        '16c-sac-36-ee-cl-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Elle', 'sac36', '16colors', 'SplitPart')
+        '16c-sac-36-ee-cl-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Elle', 'sac36', '16colors', 'SplitPart')
+        '16c-sac-36-ee-cl-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Elle', 'sac36', '16colors', 'SplitPart')
+        '16c-sac-36-ee-cl-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Elle', 'sac36', '16colors', 'SplitPart')
+        '16c-sac-36-ee-cl-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'Elle', 'sac36', '16colors', 'SplitPart')
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-acme4k' = @('ANSI', 'ASCIIArt', 'Artistic', 'ChemicalReaction', 'chemicalreactionblocksinmybrainartpack24cro', '16colors')
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-klogo4-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'ChemicalReaction', 'chemicalreactionblocksinmybrainartpack24cro', '16colors', 'SplitPart')
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-klogo4-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'ChemicalReaction', 'chemicalreactionblocksinmybrainartpack24cro', '16colors', 'SplitPart')
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-xmas-card-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'F3Cro', 'chemicalreactionblocksinmybrainartpack24cro', '16colors', 'SplitPart')
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-xmas-card-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'F3Cro', 'chemicalreactionblocksinmybrainartpack24cro', '16colors', 'SplitPart')
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-xmas-card-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'F3Cro', 'chemicalreactionblocksinmybrainartpack24cro', '16colors', 'SplitPart')
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-zargon' = @('ANSI', 'ASCIIArt', 'Artistic', 'F3Cro', 'chemicalreactionblocksinmybrainartpack24cro', '16colors')
+        '16c-mdx-endofyear-readnfo-artpack-2010-pcl-mdx-fixato' = @('ANSI', 'ASCIIArt', 'Artistic', 'Mdx', 'mdxendofyearreadnfoartpack2010pcl', '16colors')
+        '16c-spleen02-cl-el15' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cleaner', 'spleen02', '16colors')
+        '16c-spleen02-cl-sp03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cleaner', 'spleen02', '16colors')
+        '16c-blocktronics-resvolution-43-25ln01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Aesthetic', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-70-haciend' = @('ANSI', 'ASCIIArt', 'Artistic', 'Tombin', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-70-twilight' = @('ANSI', 'ASCIIArt', 'Artistic', 'Tombin', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-avg-aid-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-avg-aid-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-avg-aid-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-avg-b7-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-avg-b7-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-avg-b7-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-avg-b7-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-avg-carz' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-avg-ice' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-avg-inf' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-avg-rip-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-avg-rip-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-avg-rip-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-avg-rip-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-avg-rip-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-avg-rip-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-avg-rip-part07' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-blocktronics-res-v-olution-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzo', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-blocktronics-res-v-olution-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzo', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-blocktronics-res-v-olution-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzo', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-blocktronics-res-v-olution-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzo', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-blocktronics-res-v-olution-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzo', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-cg-ice' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cryogenic', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-cg-sc' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cryogenic', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-cs-colly-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Capsone', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-cs-colly-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Capsone', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-cs-deadlines' = @('ANSI', 'ASCIIArt', 'Artistic', 'Capsone', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-gs-sense' = @('ANSI', 'ASCIIArt', 'Artistic', 'Grindstone', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-n4-wendy-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sodium', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-n4-wendy-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sodium', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-pk-angel' = @('ANSI', 'ASCIIArt', 'Artistic', 'Pook', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-pk-lud' = @('ANSI', 'ASCIIArt', 'Artistic', 'Pook', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-pk-monster-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Pook', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-pk-monster-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Pook', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-67-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'PookTombinAvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-67-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'PookTombinAvengingAngel', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-b71-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'PookCardiacArrest', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-b71-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'PookCardiacArrest', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-bsd' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelNoches', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-we-caps' = @('ANSI', 'ASCIIArt', 'Artistic', 'CapsoneAvengingAngel', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-we-cent' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoSkypager', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-we-centre-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'RetributionAvengingAngelTombin', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-centre-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'RetributionAvengingAngelTombin', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-centre-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'RetributionAvengingAngelTombin', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-centre-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'RetributionAvengingAngelTombin', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-collide' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelEnzoSodiumSkypager', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-we-cougar-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelTombin', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-cougar-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelTombin', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-ds' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelTombin', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-we-exet-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionSephiroth', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-exet-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionSephiroth', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-htc-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelRetributionZerovisionEnzoCapsone', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-htc-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelRetributionZerovisionEnzoCapsone', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-htc-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelRetributionZerovisionEnzoCapsone', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-htc-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelRetributionZerovisionEnzoCapsone', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-htc-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelRetributionZerovisionEnzoCapsone', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-outzoneremix-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoCapsone', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-outzoneremix-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoCapsone', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-outzoneremix-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoCapsone', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-outzoneremix-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoCapsone', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-radman-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelRadMan', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-radman-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelRadMan', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-rank' = @('ANSI', 'ASCIIArt', 'Artistic', 'NochesAvengingAngel', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-we-rem' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelGrindstoned', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-we-scum-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionNoches', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-scum-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerovisionNoches', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-thecentre-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngelJeepee', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-thecentre-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngelJeepee', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-thecentre-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngelJeepee', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-thecentre-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngelJeepee', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-thecentre-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngelJeepee', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-thecentre-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngelJeepee', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-thecentre-part07' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngelJeepee', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-thecentre-part08' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngelJeepee', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-thecentre-part09' = @('ANSI', 'ASCIIArt', 'Artistic', 'EnzoAvengingAngelJeepee', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-trisk-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'PookZerovision', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-we-trisk-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'PookZerovision', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zo-experiment' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicsresvolution', '16colors')
+        '16c-blocktronics-resvolution-zo-lud-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zo-lud-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zo-lud-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zo-lud-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zo-lud-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zo-lud-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'Enzo', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zv-018-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zv-018-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zv-018-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zv-018-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zv-018-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zv-v01d-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zv-v01d-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zv-v01d-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-blocktronics-resvolution-zv-v01d-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'blocktronicsresvolution', '16colors', 'SplitPart')
+        '16c-l0p24-08-yhl-mbecrew-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Yhl', 'l0p2408', '16colors', 'SplitPart')
+        '16c-l0p24-08-yhl-mbecrew-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Yhl', 'l0p2408', '16colors', 'SplitPart')
+        '16c-l0p24-08-yhl-mbecrew-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Yhl', 'l0p2408', '16colors', 'SplitPart')
+        '16c-mimic86-kf-ggate-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Kf', 'mimic86', '16colors', 'SplitPart')
+        '16c-mimic86-kf-ggate-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Kf', 'mimic86', '16colors', 'SplitPart')
+        '16c-roots01-cw-cntst-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'CeelowAnsichrist', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-cw-cntst-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'CeelowAnsichrist', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-jp-eob' = @('ANSI', 'ASCIIArt', 'Artistic', 'jackphlash', 'roots', '16colors')
+        '16c-roots01-kf-sat9-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'kidfrost', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-kf-sat9-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'kidfrost', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-kf-sat9-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'kidfrost', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-kf-sat9-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'kidfrost', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-kf-sat9-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'kidfrost', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-kf-sat9-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'kidfrost', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-kf-sat9-part07' = @('ANSI', 'ASCIIArt', 'Artistic', 'kidfrost', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-kf-sat9-part08' = @('ANSI', 'ASCIIArt', 'Artistic', 'kidfrost', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-kf-sat9-part09' = @('ANSI', 'ASCIIArt', 'Artistic', 'kidfrost', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-kf-vortx' = @('ANSI', 'ASCIIArt', 'Artistic', 'kidfrost', 'roots', '16colors')
+        '16c-roots01-ret-rain-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'retribution', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-ret-rain-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'retribution', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-ret-rain-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'retribution', 'roots', '16colors', 'SplitPart')
+        '16c-roots01-tif-ent' = @('ANSI', 'ASCIIArt', 'Artistic', 'TIFoaDAM', 'roots', '16colors')
+        '16c-roots01-us-roots' = @('ANSI', 'ASCIIArt', 'Artistic', 'RetributionCeelow', 'roots', '16colors')
+        '16c-roots01-us-sense' = @('ANSI', 'ASCIIArt', 'Artistic', 'CeelowRetributionTeflon', 'roots', '16colors')
+        '16c-roots01-us-slurg' = @('ANSI', 'ASCIIArt', 'Artistic', 'CeelowTeflon', 'roots', '16colors')
+        '16c-roots01-us-utc' = @('ANSI', 'ASCIIArt', 'Artistic', 'RetributionKidFrost', 'roots', '16colors')
+        '16c-roots02-70-epic' = @('ANSI', 'ASCIIArt', 'Artistic', 'Tombin', 'roots02', '16colors')
+        '16c-roots02-avg-dem1-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'roots02', '16colors', 'SplitPart')
+        '16c-roots02-avg-dem1-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'roots02', '16colors', 'SplitPart')
+        '16c-roots02-avg-dem1-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'roots02', '16colors', 'SplitPart')
+        '16c-roots02-cw-ct2' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ceelow', 'roots02', '16colors')
+        '16c-roots02-jp-ds2' = @('ANSI', 'ASCIIArt', 'Artistic', 'JackPhlash', 'roots02', '16colors')
+        '16c-roots02-kf-roots-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'KidFrost', 'roots02', '16colors', 'SplitPart')
+        '16c-roots02-kf-roots-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'KidFrost', 'roots02', '16colors', 'SplitPart')
+        '16c-roots02-kf-roots-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'KidFrost', 'roots02', '16colors', 'SplitPart')
+        '16c-roots02-us-cent' = @('ANSI', 'ASCIIArt', 'Artistic', 'TombinAvengingAngel', 'roots02', '16colors')
+        '16c-roots02-us-dist-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'KargusFrostyAvengingAngel', 'roots02', '16colors', 'SplitPart')
+        '16c-roots02-us-dist-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'KargusFrostyAvengingAngel', 'roots02', '16colors', 'SplitPart')
+        '16c-roots02-us-dist-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'KargusFrostyAvengingAngel', 'roots02', '16colors', 'SplitPart')
+        '16c-roots02-us-dist-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'KargusFrostyAvengingAngel', 'roots02', '16colors', 'SplitPart')
+        '16c-roots02-us-roots' = @('ANSI', 'ASCIIArt', 'Artistic', 'TombinAvengingAngel', 'roots02', '16colors')
+        '16c-roots02-us-skill' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelCeelow', 'roots02', '16colors')
         '16c-blocktronics-1010-2m-0909-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'mattmatthew', 'Blocktronics', '16colors', 'SplitPart')
         '16c-blocktronics-1010-2m-0909-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'mattmatthew', 'Blocktronics', '16colors', 'SplitPart')
         '16c-blocktronics-1010-avg-tenten1010' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'blocktronics1010', '16colors')
@@ -18898,6 +19636,252 @@
     }
 
     Descriptions = @{
+        '16c-blocktronics-codename-chris-wirth-70-ansi' = '70-ansi.ans by Tombin from blocktronics_codename_chris_wirth.'
+        '16c-blocktronics-codename-chris-wirth-70-sense' = '70-sense.ans by Tombin from blocktronics_codename_chris_wirth.'
+        '16c-blocktronics-codename-chris-wirth-avg-evoke' = 'avg-evoke.ans by Avenging Angel from blocktronics_codename_chris_wirth.'
+        '16c-blocktronics-codename-chris-wirth-avg-sense3d-part01' = 'avg-sense3d.ans by Avenging Angel from blocktronics_codename_chris_wirth, source rows 1-41.'
+        '16c-blocktronics-codename-chris-wirth-avg-sense3d-part02' = 'avg-sense3d.ans by Avenging Angel from blocktronics_codename_chris_wirth, source rows 42-81.'
+        '16c-blocktronics-codename-chris-wirth-avg-sense3d-part03' = 'avg-sense3d.ans by Avenging Angel from blocktronics_codename_chris_wirth, source rows 82-121.'
+        '16c-blocktronics-codename-chris-wirth-avg-sense3d-part04' = 'avg-sense3d.ans by Avenging Angel from blocktronics_codename_chris_wirth, source rows 122-161.'
+        '16c-blocktronics-codename-chris-wirth-cs-capslogo' = 'cs-capslogo.ans by Capsone from blocktronics_codename_chris_wirth.'
+        '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part01' = 'GOO-blockbrains.ans by Mypalgoo from blocktronics_codename_chris_wirth, source rows 1-47.'
+        '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part02' = 'GOO-blockbrains.ans by Mypalgoo from blocktronics_codename_chris_wirth, source rows 48-94.'
+        '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part03' = 'GOO-blockbrains.ans by Mypalgoo from blocktronics_codename_chris_wirth, source rows 95-141.'
+        '16c-blocktronics-codename-chris-wirth-goo-blockbrains-part04' = 'GOO-blockbrains.ans by Mypalgoo from blocktronics_codename_chris_wirth, source rows 142-187.'
+        '16c-blocktronics-codename-chris-wirth-ns-ansilove-part01' = 'ns-ansilove.ans by Ansichrist from blocktronics_codename_chris_wirth, source rows 1-39.'
+        '16c-blocktronics-codename-chris-wirth-ns-ansilove-part02' = 'ns-ansilove.ans by Ansichrist from blocktronics_codename_chris_wirth, source rows 40-78.'
+        '16c-blocktronics-codename-chris-wirth-ns-ansilove-part03' = 'ns-ansilove.ans by Ansichrist from blocktronics_codename_chris_wirth, source rows 79-116.'
+        '16c-blocktronics-codename-chris-wirth-ns-distortion-part01' = 'ns-distortion.ans by Ansichrist from blocktronics_codename_chris_wirth, source rows 1-42.'
+        '16c-blocktronics-codename-chris-wirth-ns-distortion-part02' = 'ns-distortion.ans by Ansichrist from blocktronics_codename_chris_wirth, source rows 43-84.'
+        '16c-blocktronics-codename-chris-wirth-ns-distortion-part03' = 'ns-distortion.ans by Ansichrist from blocktronics_codename_chris_wirth, source rows 85-125.'
+        '16c-blocktronics-codename-chris-wirth-ns-distortion-part04' = 'ns-distortion.ans by Ansichrist from blocktronics_codename_chris_wirth, source rows 126-158.'
+        '16c-blocktronics-codename-chris-wirth-ns-thetelephoneboot' = 'ns-TheTelephoneBoot.ans by Ansichrist from blocktronics_codename_chris_wirth.'
+        '16c-blocktronics-codename-chris-wirth-ns-void' = 'ns-void.ans by Ansichrist from blocktronics_codename_chris_wirth.'
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part01' = 'ret-entropy.ans by Retribution from blocktronics_codename_chris_wirth, source rows 1-44.'
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part02' = 'ret-entropy.ans by Retribution from blocktronics_codename_chris_wirth, source rows 45-88.'
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part03' = 'ret-entropy.ans by Retribution from blocktronics_codename_chris_wirth, source rows 89-132.'
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part04' = 'ret-entropy.ans by Retribution from blocktronics_codename_chris_wirth, source rows 133-176.'
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part05' = 'ret-entropy.ans by Retribution from blocktronics_codename_chris_wirth, source rows 177-219.'
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part06' = 'ret-entropy.ans by Retribution from blocktronics_codename_chris_wirth, source rows 220-262.'
+        '16c-blocktronics-codename-chris-wirth-ret-entropy-part07' = 'ret-entropy.ans by Retribution from blocktronics_codename_chris_wirth, source rows 263-305.'
+        '16c-blocktronics-codename-chris-wirth-ret-revolt-part01' = 'ret-revolt.ans by Retribution from blocktronics_codename_chris_wirth, source rows 1-43.'
+        '16c-blocktronics-codename-chris-wirth-ret-revolt-part02' = 'ret-revolt.ans by Retribution from blocktronics_codename_chris_wirth, source rows 44-86.'
+        '16c-blocktronics-codename-chris-wirth-ret-revolt-part03' = 'ret-revolt.ans by Retribution from blocktronics_codename_chris_wirth, source rows 87-128.'
+        '16c-blocktronics-codename-chris-wirth-tna-7diz' = 'tna-7diz.ans by The Night Angel from blocktronics_codename_chris_wirth.'
+        '16c-blocktronics-codename-chris-wirth-tna-asm2000' = 'tna-asm2000.ans by The Night Angel from blocktronics_codename_chris_wirth.'
+        '16c-blocktronics-codename-chris-wirth-we-67' = 'we-67.ans by Avenging Angel + Knocturnal from blocktronics_codename_chris_wirth.'
+        '16c-blocktronics-codename-chris-wirth-we-awetronics-part01' = 'we-AWEtronics.ans by Avenging Angel + Enzo from blocktronics_codename_chris_wirth, source rows 1-29.'
+        '16c-blocktronics-codename-chris-wirth-we-awetronics-part02' = 'we-AWEtronics.ans by Avenging Angel + Enzo from blocktronics_codename_chris_wirth, source rows 30-57.'
+        '16c-blocktronics-codename-chris-wirth-we-barrytronics-part01' = 'we-barrytronics.ans by Enzo + Avg + Grindstoned from blocktronics_codename_chris_wirth, source rows 1-48.'
+        '16c-blocktronics-codename-chris-wirth-we-barrytronics-part02' = 'we-barrytronics.ans by Enzo + Avg + Grindstoned from blocktronics_codename_chris_wirth, source rows 49-95.'
+        '16c-blocktronics-codename-chris-wirth-we-barrytronics-part03' = 'we-barrytronics.ans by Enzo + Avg + Grindstoned from blocktronics_codename_chris_wirth, source rows 96-142.'
+        '16c-blocktronics-codename-chris-wirth-we-barrytronics-part04' = 'we-barrytronics.ans by Enzo + Avg + Grindstoned from blocktronics_codename_chris_wirth, source rows 143-189.'
+        '16c-blocktronics-codename-chris-wirth-we-barrytronics-part05' = 'we-barrytronics.ans by Enzo + Avg + Grindstoned from blocktronics_codename_chris_wirth, source rows 190-227.'
+        '16c-blocktronics-codename-chris-wirth-we-btnique' = 'we-btnique.ans by Avenging Angel + Noches from blocktronics_codename_chris_wirth.'
+        '16c-blocktronics-codename-chris-wirth-we-bunny-part01' = 'we-bunny.ans by Ober + Enzo from blocktronics_codename_chris_wirth, source rows 1-32.'
+        '16c-blocktronics-codename-chris-wirth-we-bunny-part02' = 'we-bunny.ans by Ober + Enzo from blocktronics_codename_chris_wirth, source rows 33-63.'
+        '16c-blocktronics-codename-chris-wirth-we-ent-part01' = 'we-ent.ans by Avenging Angel + Aesthetic from blocktronics_codename_chris_wirth, source rows 1-48.'
+        '16c-blocktronics-codename-chris-wirth-we-ent-part02' = 'we-ent.ans by Avenging Angel + Aesthetic from blocktronics_codename_chris_wirth, source rows 49-96.'
+        '16c-blocktronics-codename-chris-wirth-we-ent-part03' = 'we-ent.ans by Avenging Angel + Aesthetic from blocktronics_codename_chris_wirth, source rows 97-144.'
+        '16c-blocktronics-codename-chris-wirth-we-ent-part04' = 'we-ent.ans by Avenging Angel + Aesthetic from blocktronics_codename_chris_wirth, source rows 145-191.'
+        '16c-blocktronics-codename-chris-wirth-we-enthral-part01' = 'we-enthral.ans by Enzo + Avenging Angel + Pook from blocktronics_codename_chris_wirth, source rows 1-35.'
+        '16c-blocktronics-codename-chris-wirth-we-enthral-part02' = 'we-enthral.ans by Enzo + Avenging Angel + Pook from blocktronics_codename_chris_wirth, source rows 36-69.'
+        '16c-blocktronics-codename-chris-wirth-we-enthral-part03' = 'we-enthral.ans by Enzo + Avenging Angel + Pook from blocktronics_codename_chris_wirth, source rows 70-103.'
+        '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part01' = 'we-fredKokaine.ans by Avenging Angel + Enzo + Spear from blocktronics_codename_chris_wirth, source rows 1-41.'
+        '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part02' = 'we-fredKokaine.ans by Avenging Angel + Enzo + Spear from blocktronics_codename_chris_wirth, source rows 42-82.'
+        '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part03' = 'we-fredKokaine.ans by Avenging Angel + Enzo + Spear from blocktronics_codename_chris_wirth, source rows 83-122.'
+        '16c-blocktronics-codename-chris-wirth-we-fredkokaine-part04' = 'we-fredKokaine.ans by Avenging Angel + Enzo + Spear from blocktronics_codename_chris_wirth, source rows 123-162.'
+        '16c-blocktronics-codename-chris-wirth-we-lud-part01' = 'we-lud.ans by Grindstone + Enzo from blocktronics_codename_chris_wirth, source rows 1-41.'
+        '16c-blocktronics-codename-chris-wirth-we-lud-part02' = 'we-lud.ans by Grindstone + Enzo from blocktronics_codename_chris_wirth, source rows 42-82.'
+        '16c-blocktronics-codename-chris-wirth-we-lud-part03' = 'we-lud.ans by Grindstone + Enzo from blocktronics_codename_chris_wirth, source rows 83-123.'
+        '16c-blocktronics-codename-chris-wirth-we-lud-part04' = 'we-lud.ans by Grindstone + Enzo from blocktronics_codename_chris_wirth, source rows 124-164.'
+        '16c-blocktronics-codename-chris-wirth-we-lud-part05' = 'we-lud.ans by Grindstone + Enzo from blocktronics_codename_chris_wirth, source rows 165-204.'
+        '16c-blocktronics-codename-chris-wirth-we-myth-part01' = 'we-myth.ans by Avenging Angel + Grindstoned from blocktronics_codename_chris_wirth, source rows 1-38.'
+        '16c-blocktronics-codename-chris-wirth-we-myth-part02' = 'we-myth.ans by Avenging Angel + Grindstoned from blocktronics_codename_chris_wirth, source rows 39-75.'
+        '16c-blocktronics-codename-chris-wirth-we-myth-part03' = 'we-myth.ans by Avenging Angel + Grindstoned from blocktronics_codename_chris_wirth, source rows 76-112.'
+        '16c-blocktronics-codename-chris-wirth-we-radman-part01' = 'we-radman.ans by Zerovision + Enzo from blocktronics_codename_chris_wirth, source rows 1-34.'
+        '16c-blocktronics-codename-chris-wirth-we-radman-part02' = 'we-radman.ans by Zerovision + Enzo from blocktronics_codename_chris_wirth, source rows 35-68.'
+        '16c-blocktronics-codename-chris-wirth-we-radman-part03' = 'we-radman.ans by Zerovision + Enzo from blocktronics_codename_chris_wirth, source rows 69-101.'
+        '16c-blocktronics-codename-chris-wirth-we-satantronics-part01' = 'we-satantronics.ans by Avenging Angel + Enzo + Grindstoned from blocktronics_codename_chris_wirth, source rows 1-33.'
+        '16c-blocktronics-codename-chris-wirth-we-satantronics-part02' = 'we-satantronics.ans by Avenging Angel + Enzo + Grindstoned from blocktronics_codename_chris_wirth, source rows 34-68.'
+        '16c-blocktronics-codename-chris-wirth-we-satantronics-part03' = 'we-satantronics.ans by Avenging Angel + Enzo + Grindstoned from blocktronics_codename_chris_wirth, source rows 69-118.'
+        '16c-blocktronics-codename-chris-wirth-we-satantronics-part04' = 'we-satantronics.ans by Avenging Angel + Enzo + Grindstoned from blocktronics_codename_chris_wirth, source rows 119-168.'
+        '16c-blocktronics-codename-chris-wirth-we-satantronics-part05' = 'we-satantronics.ans by Avenging Angel + Enzo + Grindstoned from blocktronics_codename_chris_wirth, source rows 169-218.'
+        '16c-blocktronics-codename-chris-wirth-we-satantronics-part06' = 'we-satantronics.ans by Avenging Angel + Enzo + Grindstoned from blocktronics_codename_chris_wirth, source rows 219-267.'
+        '16c-blocktronics-codename-chris-wirth-we-thevoid' = 'we-thevoid.ans by Enzo + Grindstone from blocktronics_codename_chris_wirth.'
+        '16c-blocktronics-codename-chris-wirth-we-viewtronics' = 'we-viewtronics.ans by Avenging Angel + Enzo from blocktronics_codename_chris_wirth.'
+        '16c-blocktronics-codename-chris-wirth-zo-acid-part01' = 'zO-acid.ans by Enzo from blocktronics_codename_chris_wirth, source rows 1-36.'
+        '16c-blocktronics-codename-chris-wirth-zo-acid-part02' = 'zO-acid.ans by Enzo from blocktronics_codename_chris_wirth, source rows 37-71.'
+        '16c-blocktronics-codename-chris-wirth-zo-acid-part03' = 'zO-acid.ans by Enzo from blocktronics_codename_chris_wirth, source rows 72-106.'
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part01' = 'zO-FITC.ans by Enzo from blocktronics_codename_chris_wirth, source rows 1-44.'
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part02' = 'zO-FITC.ans by Enzo from blocktronics_codename_chris_wirth, source rows 45-88.'
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part03' = 'zO-FITC.ans by Enzo from blocktronics_codename_chris_wirth, source rows 89-132.'
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part04' = 'zO-FITC.ans by Enzo from blocktronics_codename_chris_wirth, source rows 133-176.'
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part05' = 'zO-FITC.ans by Enzo from blocktronics_codename_chris_wirth, source rows 177-220.'
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part06' = 'zO-FITC.ans by Enzo from blocktronics_codename_chris_wirth, source rows 221-263.'
+        '16c-blocktronics-codename-chris-wirth-zo-fitc-part07' = 'zO-FITC.ans by Enzo from blocktronics_codename_chris_wirth, source rows 264-306.'
+        '16c-blocktronics-codename-chris-wirth-zv-greyvoid-part01' = 'zv-greyVoid.ans by Zerovision from blocktronics_codename_chris_wirth, source rows 1-49.'
+        '16c-blocktronics-codename-chris-wirth-zv-greyvoid-part02' = 'zv-greyVoid.ans by Zerovision from blocktronics_codename_chris_wirth, source rows 50-98.'
+        '16c-blocktronics-codename-chris-wirth-zv-greyvoid-part03' = 'zv-greyVoid.ans by Zerovision from blocktronics_codename_chris_wirth, source rows 99-146.'
+        '16c-chemical-reaction-foie-gras-artpack-cro-zemra-evoke-part01' = 'zemra-evoke.ans by Zemra from chemical.reaction.foie.gras.artpack-cro, source rows 1-29.'
+        '16c-chemical-reaction-foie-gras-artpack-cro-zemra-evoke-part02' = 'zemra-evoke.ans by Zemra from chemical.reaction.foie.gras.artpack-cro, source rows 30-58.'
+        '16c-cro-22-cpn-c4-part01' = 'cpn-c4.ans by Cpn from cro-22, source rows 1-40.'
+        '16c-cro-22-cpn-c4-part02' = 'cpn-c4.ans by Cpn from cro-22, source rows 41-80.'
+        '16c-cro-22-cpn-c4-part03' = 'cpn-c4.ans by Cpn from cro-22, source rows 81-119.'
+        '16c-cro-22-cpn-c4-part04' = 'cpn-c4.ans by Cpn from cro-22, source rows 120-158.'
+        '16c-sac-36-ee-cl-part01' = 'ee-cl.ans by Elle from sac-36, source rows 1-41.'
+        '16c-sac-36-ee-cl-part02' = 'ee-cl.ans by Elle from sac-36, source rows 42-81.'
+        '16c-sac-36-ee-cl-part03' = 'ee-cl.ans by Elle from sac-36, source rows 82-121.'
+        '16c-sac-36-ee-cl-part04' = 'ee-cl.ans by Elle from sac-36, source rows 122-161.'
+        '16c-sac-36-ee-cl-part05' = 'ee-cl.ans by Elle from sac-36, source rows 162-201.'
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-acme4k' = '0-ACME4K.ANS by Chemical Reaction from chemical.reaction.blocks.in.my.brain.artpack.24-cro.'
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-klogo4-part01' = '0-KLOGO4.ANS by Chemical Reaction from chemical.reaction.blocks.in.my.brain.artpack.24-cro, source rows 1-43.'
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-klogo4-part02' = '0-KLOGO4.ANS by Chemical Reaction from chemical.reaction.blocks.in.my.brain.artpack.24-cro, source rows 44-85.'
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-xmas-card-part01' = 'f3!xmas_card.ans by F3-Cro from chemical.reaction.blocks.in.my.brain.artpack.24-cro, source rows 1-45.'
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-xmas-card-part02' = 'f3!xmas_card.ans by F3-Cro from chemical.reaction.blocks.in.my.brain.artpack.24-cro, source rows 46-89.'
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-xmas-card-part03' = 'f3!xmas_card.ans by F3-Cro from chemical.reaction.blocks.in.my.brain.artpack.24-cro, source rows 90-133.'
+        '16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-zargon' = 'f3!zargon.ans by F3-Cro from chemical.reaction.blocks.in.my.brain.artpack.24-cro.'
+        '16c-mdx-endofyear-readnfo-artpack-2010-pcl-mdx-fixato' = 'mdx-fixato.ans by Mdx from mdx.endofyear.readnfo.artpack.2010-pcl.'
+        '16c-spleen02-cl-el15' = 'CL!-EL15.ANS by Cleaner from spleen02.'
+        '16c-spleen02-cl-sp03' = 'CL!-SP03.ANS by Cleaner from spleen02.'
+        '16c-blocktronics-resvolution-43-25ln01' = '43-25ln01.ans by Aesthetic from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-70-haciend' = '70-haciend.ans by Tombin from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-70-twilight' = '70-twilight.ans by Tombin from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-avg-aid-part01' = 'avg-aid.ans by Avenging Angel from blocktronics_resvolution, source rows 1-38.'
+        '16c-blocktronics-resvolution-avg-aid-part02' = 'avg-aid.ans by Avenging Angel from blocktronics_resvolution, source rows 39-76.'
+        '16c-blocktronics-resvolution-avg-aid-part03' = 'avg-aid.ans by Avenging Angel from blocktronics_resvolution, source rows 77-113.'
+        '16c-blocktronics-resvolution-avg-b7-part01' = 'avg-b7.ans by Avenging Angel from blocktronics_resvolution, source rows 1-39.'
+        '16c-blocktronics-resvolution-avg-b7-part02' = 'avg-b7.ans by Avenging Angel from blocktronics_resvolution, source rows 40-78.'
+        '16c-blocktronics-resvolution-avg-b7-part03' = 'avg-b7.ans by Avenging Angel from blocktronics_resvolution, source rows 79-117.'
+        '16c-blocktronics-resvolution-avg-b7-part04' = 'avg-b7.ans by Avenging Angel from blocktronics_resvolution, source rows 118-156.'
+        '16c-blocktronics-resvolution-avg-carz' = 'avg-carz.ans by Avenging Angel from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-avg-ice' = 'avg-ice.ans by Avenging Angel from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-avg-inf' = 'avg-inf.ans by Avenging Angel from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-avg-rip-part01' = 'avg-rip.ans by Avenging Angel from blocktronics_resvolution, source rows 1-46.'
+        '16c-blocktronics-resvolution-avg-rip-part02' = 'avg-rip.ans by Avenging Angel from blocktronics_resvolution, source rows 47-92.'
+        '16c-blocktronics-resvolution-avg-rip-part03' = 'avg-rip.ans by Avenging Angel from blocktronics_resvolution, source rows 93-138.'
+        '16c-blocktronics-resvolution-avg-rip-part04' = 'avg-rip.ans by Avenging Angel from blocktronics_resvolution, source rows 139-184.'
+        '16c-blocktronics-resvolution-avg-rip-part05' = 'avg-rip.ans by Avenging Angel from blocktronics_resvolution, source rows 185-229.'
+        '16c-blocktronics-resvolution-avg-rip-part06' = 'avg-rip.ans by Avenging Angel from blocktronics_resvolution, source rows 230-274.'
+        '16c-blocktronics-resvolution-avg-rip-part07' = 'avg-rip.ans by Avenging Angel from blocktronics_resvolution, source rows 275-319.'
+        '16c-blocktronics-resvolution-blocktronics-res-v-olution-part01' = '_blocktronics_res[v]olution.ans by Avenging Angel + Enzo from blocktronics_resvolution, source rows 1-48.'
+        '16c-blocktronics-resvolution-blocktronics-res-v-olution-part02' = '_blocktronics_res[v]olution.ans by Avenging Angel + Enzo from blocktronics_resvolution, source rows 49-96.'
+        '16c-blocktronics-resvolution-blocktronics-res-v-olution-part03' = '_blocktronics_res[v]olution.ans by Avenging Angel + Enzo from blocktronics_resvolution, source rows 97-144.'
+        '16c-blocktronics-resvolution-blocktronics-res-v-olution-part04' = '_blocktronics_res[v]olution.ans by Avenging Angel + Enzo from blocktronics_resvolution, source rows 145-192.'
+        '16c-blocktronics-resvolution-blocktronics-res-v-olution-part05' = '_blocktronics_res[v]olution.ans by Avenging Angel + Enzo from blocktronics_resvolution, source rows 193-240.'
+        '16c-blocktronics-resvolution-cg-ice' = 'cg-ice.ans by Cryogenic from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-cg-sc' = 'cg-sc.ans by Cryogenic from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-cs-colly-part01' = 'cs-colly.ans by Capsone from blocktronics_resvolution, source rows 1-34.'
+        '16c-blocktronics-resvolution-cs-colly-part02' = 'cs-colly.ans by Capsone from blocktronics_resvolution, source rows 35-56.'
+        '16c-blocktronics-resvolution-cs-deadlines' = 'cS-deadlines.ans by Capsone from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-gs-sense' = 'gs-sense.ans by Grindstone from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-n4-wendy-part01' = 'n4-wendy.ans by Sodium from blocktronics_resvolution, source rows 1-30.'
+        '16c-blocktronics-resvolution-n4-wendy-part02' = 'n4-wendy.ans by Sodium from blocktronics_resvolution, source rows 31-59.'
+        '16c-blocktronics-resvolution-pk-angel' = 'pk-angel.ans by Pook from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-pk-lud' = 'pk-lud.ans by Pook from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-pk-monster-part01' = 'pk-monster.ans by Pook from blocktronics_resvolution, source rows 1-33.'
+        '16c-blocktronics-resvolution-pk-monster-part02' = 'pk-monster.ans by Pook from blocktronics_resvolution, source rows 34-66.'
+        '16c-blocktronics-resvolution-we-67-part01' = 'we-67.ans by Pook + Tombin + Avenging Angel from blocktronics_resvolution, source rows 1-30.'
+        '16c-blocktronics-resvolution-we-67-part02' = 'we-67.ans by Pook + Tombin + Avenging Angel from blocktronics_resvolution, source rows 31-59.'
+        '16c-blocktronics-resvolution-we-b71-part01' = 'we-b71.ans by Pook + Cardiac Arrest from blocktronics_resvolution, source rows 1-41.'
+        '16c-blocktronics-resvolution-we-b71-part02' = 'we-b71.ans by Pook + Cardiac Arrest from blocktronics_resvolution, source rows 42-82.'
+        '16c-blocktronics-resvolution-we-bsd' = 'we-bsd.ans by Avenging Angel + Noches from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-we-caps' = 'we-caps.ans by Capsone + Avenging Angel from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-we-cent' = 'we-cent.ans by Enzo + Skypager from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-we-centre-part01' = 'we-centre.ans by Retribution + Avenging Angel + Tombin from blocktronics_resvolution, source rows 1-42.'
+        '16c-blocktronics-resvolution-we-centre-part02' = 'we-centre.ans by Retribution + Avenging Angel + Tombin from blocktronics_resvolution, source rows 43-84.'
+        '16c-blocktronics-resvolution-we-centre-part03' = 'we-centre.ans by Retribution + Avenging Angel + Tombin from blocktronics_resvolution, source rows 85-126.'
+        '16c-blocktronics-resvolution-we-centre-part04' = 'we-centre.ans by Retribution + Avenging Angel + Tombin from blocktronics_resvolution, source rows 127-167.'
+        '16c-blocktronics-resvolution-we-collide' = 'we-collide.ans by Avenging Angel + Enzo + Sodium + Skypager from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-we-cougar-part01' = 'we-cougar.ans by Avenging Angel + Tombin from blocktronics_resvolution, source rows 1-28.'
+        '16c-blocktronics-resvolution-we-cougar-part02' = 'we-cougar.ans by Avenging Angel + Tombin from blocktronics_resvolution, source rows 29-56.'
+        '16c-blocktronics-resvolution-we-ds' = 'we-ds.ans by Avenging Angel + Tombin from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-we-exet-part01' = 'we-exet.ans by Zerovision + Sephiroth from blocktronics_resvolution, source rows 1-47.'
+        '16c-blocktronics-resvolution-we-exet-part02' = 'we-exet.ans by Zerovision + Sephiroth from blocktronics_resvolution, source rows 48-94.'
+        '16c-blocktronics-resvolution-we-htc-part01' = 'we-HTC.ans by Avenging Angel + Retribution + Zerovision + Enzo + Capsone from blocktronics_resvolution, source rows 1-47.'
+        '16c-blocktronics-resvolution-we-htc-part02' = 'we-HTC.ans by Avenging Angel + Retribution + Zerovision + Enzo + Capsone from blocktronics_resvolution, source rows 48-94.'
+        '16c-blocktronics-resvolution-we-htc-part03' = 'we-HTC.ans by Avenging Angel + Retribution + Zerovision + Enzo + Capsone from blocktronics_resvolution, source rows 95-141.'
+        '16c-blocktronics-resvolution-we-htc-part04' = 'we-HTC.ans by Avenging Angel + Retribution + Zerovision + Enzo + Capsone from blocktronics_resvolution, source rows 142-187.'
+        '16c-blocktronics-resvolution-we-htc-part05' = 'we-HTC.ans by Avenging Angel + Retribution + Zerovision + Enzo + Capsone from blocktronics_resvolution, source rows 188-233.'
+        '16c-blocktronics-resvolution-we-outzoneremix-part01' = 'we-outzoneRemix.ans by Enzo + Capsone from blocktronics_resvolution, source rows 1-29.'
+        '16c-blocktronics-resvolution-we-outzoneremix-part02' = 'we-outzoneRemix.ans by Enzo + Capsone from blocktronics_resvolution, source rows 30-74.'
+        '16c-blocktronics-resvolution-we-outzoneremix-part03' = 'we-outzoneRemix.ans by Enzo + Capsone from blocktronics_resvolution, source rows 75-118.'
+        '16c-blocktronics-resvolution-we-outzoneremix-part04' = 'we-outzoneRemix.ans by Enzo + Capsone from blocktronics_resvolution, source rows 119-162.'
+        '16c-blocktronics-resvolution-we-radman-part01' = 'we-radman.ans by Avenging Angel + Rad Man from blocktronics_resvolution, source rows 1-48.'
+        '16c-blocktronics-resvolution-we-radman-part02' = 'we-radman.ans by Avenging Angel + Rad Man from blocktronics_resvolution, source rows 49-80.'
+        '16c-blocktronics-resvolution-we-rank' = 'we-rank.ans by Noches + Avenging Angel from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-we-rem' = 'we-rem.ans by Avenging Angel + Grindstoned from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-we-scum-part01' = 'we-scum.ans by Zerovision + Noches from blocktronics_resvolution, source rows 1-40.'
+        '16c-blocktronics-resvolution-we-scum-part02' = 'we-scum.ans by Zerovision + Noches from blocktronics_resvolution, source rows 41-80.'
+        '16c-blocktronics-resvolution-we-thecentre-part01' = 'we-theCentre.ans by Enzo + Avenging Angel + Jeepee from blocktronics_resvolution, source rows 1-46.'
+        '16c-blocktronics-resvolution-we-thecentre-part02' = 'we-theCentre.ans by Enzo + Avenging Angel + Jeepee from blocktronics_resvolution, source rows 47-92.'
+        '16c-blocktronics-resvolution-we-thecentre-part03' = 'we-theCentre.ans by Enzo + Avenging Angel + Jeepee from blocktronics_resvolution, source rows 93-138.'
+        '16c-blocktronics-resvolution-we-thecentre-part04' = 'we-theCentre.ans by Enzo + Avenging Angel + Jeepee from blocktronics_resvolution, source rows 139-184.'
+        '16c-blocktronics-resvolution-we-thecentre-part05' = 'we-theCentre.ans by Enzo + Avenging Angel + Jeepee from blocktronics_resvolution, source rows 185-230.'
+        '16c-blocktronics-resvolution-we-thecentre-part06' = 'we-theCentre.ans by Enzo + Avenging Angel + Jeepee from blocktronics_resvolution, source rows 231-276.'
+        '16c-blocktronics-resvolution-we-thecentre-part07' = 'we-theCentre.ans by Enzo + Avenging Angel + Jeepee from blocktronics_resvolution, source rows 277-321.'
+        '16c-blocktronics-resvolution-we-thecentre-part08' = 'we-theCentre.ans by Enzo + Avenging Angel + Jeepee from blocktronics_resvolution, source rows 322-366.'
+        '16c-blocktronics-resvolution-we-thecentre-part09' = 'we-theCentre.ans by Enzo + Avenging Angel + Jeepee from blocktronics_resvolution, source rows 367-411.'
+        '16c-blocktronics-resvolution-we-trisk-part01' = 'we-trisk.ans by Pook + Zerovision from blocktronics_resvolution, source rows 1-28.'
+        '16c-blocktronics-resvolution-we-trisk-part02' = 'we-trisk.ans by Pook + Zerovision from blocktronics_resvolution, source rows 29-56.'
+        '16c-blocktronics-resvolution-zo-experiment' = 'zO-experiment.ans by Enzo from blocktronics_resvolution.'
+        '16c-blocktronics-resvolution-zo-lud-part01' = 'zO-lud.ans by Enzo from blocktronics_resvolution, source rows 1-43.'
+        '16c-blocktronics-resvolution-zo-lud-part02' = 'zO-lud.ans by Enzo from blocktronics_resvolution, source rows 44-86.'
+        '16c-blocktronics-resvolution-zo-lud-part03' = 'zO-lud.ans by Enzo from blocktronics_resvolution, source rows 87-129.'
+        '16c-blocktronics-resvolution-zo-lud-part04' = 'zO-lud.ans by Enzo from blocktronics_resvolution, source rows 130-172.'
+        '16c-blocktronics-resvolution-zo-lud-part05' = 'zO-lud.ans by Enzo from blocktronics_resvolution, source rows 173-215.'
+        '16c-blocktronics-resvolution-zo-lud-part06' = 'zO-lud.ans by Enzo from blocktronics_resvolution, source rows 216-258.'
+        '16c-blocktronics-resvolution-zv-018-part01' = 'zv-018.ans by Zerovision from blocktronics_resvolution, source rows 1-42.'
+        '16c-blocktronics-resvolution-zv-018-part02' = 'zv-018.ans by Zerovision from blocktronics_resvolution, source rows 43-83.'
+        '16c-blocktronics-resvolution-zv-018-part03' = 'zv-018.ans by Zerovision from blocktronics_resvolution, source rows 84-124.'
+        '16c-blocktronics-resvolution-zv-018-part04' = 'zv-018.ans by Zerovision from blocktronics_resvolution, source rows 125-165.'
+        '16c-blocktronics-resvolution-zv-018-part05' = 'zv-018.ans by Zerovision from blocktronics_resvolution, source rows 166-206.'
+        '16c-blocktronics-resvolution-zv-v01d-part01' = 'zv-v01d.ans by Zerovision from blocktronics_resvolution, source rows 1-40.'
+        '16c-blocktronics-resvolution-zv-v01d-part02' = 'zv-v01d.ans by Zerovision from blocktronics_resvolution, source rows 41-80.'
+        '16c-blocktronics-resvolution-zv-v01d-part03' = 'zv-v01d.ans by Zerovision from blocktronics_resvolution, source rows 81-120.'
+        '16c-blocktronics-resvolution-zv-v01d-part04' = 'zv-v01d.ans by Zerovision from blocktronics_resvolution, source rows 121-160.'
+        '16c-l0p24-08-yhl-mbecrew-part01' = 'yhl_mbecrew.ans by Yhl from l0p24_08, source rows 1-39.'
+        '16c-l0p24-08-yhl-mbecrew-part02' = 'yhl_mbecrew.ans by Yhl from l0p24_08, source rows 40-77.'
+        '16c-l0p24-08-yhl-mbecrew-part03' = 'yhl_mbecrew.ans by Yhl from l0p24_08, source rows 78-115.'
+        '16c-mimic86-kf-ggate-part01' = 'kf-ggate.ans by Kf from mimic86, source rows 1-27.'
+        '16c-mimic86-kf-ggate-part02' = 'kf-ggate.ans by Kf from mimic86, source rows 28-53.'
+        '16c-roots01-cw-cntst-part01' = 'ansichrist contest by Ceelow + Ansichrist from roots01, source rows 1-46.'
+        '16c-roots01-cw-cntst-part02' = 'ansichrist contest by Ceelow + Ansichrist from roots01, source rows 47-94.'
+        '16c-roots01-jp-eob' = 'edge of oblivion by jack phlash from roots01.'
+        '16c-roots01-kf-sat9-part01' = 'sat9 by kid frost from roots01, source rows 1-50.'
+        '16c-roots01-kf-sat9-part02' = 'sat9 by kid frost from roots01, source rows 51-100.'
+        '16c-roots01-kf-sat9-part03' = 'sat9 by kid frost from roots01, source rows 101-150.'
+        '16c-roots01-kf-sat9-part04' = 'sat9 by kid frost from roots01, source rows 151-200.'
+        '16c-roots01-kf-sat9-part05' = 'sat9 by kid frost from roots01, source rows 201-250.'
+        '16c-roots01-kf-sat9-part06' = 'sat9 by kid frost from roots01, source rows 251-300.'
+        '16c-roots01-kf-sat9-part07' = 'sat9 by kid frost from roots01, source rows 301-350.'
+        '16c-roots01-kf-sat9-part08' = 'sat9 by kid frost from roots01, source rows 351-400.'
+        '16c-roots01-kf-sat9-part09' = 'sat9 by kid frost from roots01, source rows 401-450.'
+        '16c-roots01-kf-vortx' = 'vortex by kid frost from roots01.'
+        '16c-roots01-ret-rain-part01' = '"rain" by retribution from roots01, source rows 1-40.'
+        '16c-roots01-ret-rain-part02' = '"rain" by retribution from roots01, source rows 41-79.'
+        '16c-roots01-ret-rain-part03' = '"rain" by retribution from roots01, source rows 80-118.'
+        '16c-roots01-tif-ent' = 'entropy by TIFoaDAM from roots01.'
+        '16c-roots01-us-roots' = 'roots promo by Retribution + Ceelow from roots01.'
+        '16c-roots01-us-sense' = 'sense font by Ceelow + Retribution + Teflon from roots01.'
+        '16c-roots01-us-slurg' = 'slurge font by Ceelow + Teflon from roots01.'
+        '16c-roots01-us-utc' = 'uptown connections by Retribution + Kid Frost from roots01.'
+        '16c-roots02-70-epic' = '70-epic.ans by Tombin from roots02.'
+        '16c-roots02-avg-dem1-part01' = 'avg-dem1.ans by Avenging Angel from roots02, source rows 1-42.'
+        '16c-roots02-avg-dem1-part02' = 'avg-dem1.ans by Avenging Angel from roots02, source rows 43-84.'
+        '16c-roots02-avg-dem1-part03' = 'avg-dem1.ans by Avenging Angel from roots02, source rows 85-125.'
+        '16c-roots02-cw-ct2' = 'cw-ct2.ans by Ceelow from roots02.'
+        '16c-roots02-jp-ds2' = 'JP-DS2.ANS by Jack Phlash from roots02.'
+        '16c-roots02-kf-roots-part01' = 'kf-roots.ans by Kid Frost from roots02, source rows 1-49.'
+        '16c-roots02-kf-roots-part02' = 'kf-roots.ans by Kid Frost from roots02, source rows 50-89.'
+        '16c-roots02-kf-roots-part03' = 'kf-roots.ans by Kid Frost from roots02, source rows 90-129.'
+        '16c-roots02-us-cent' = 'us-cent.ans by Tombin + Avenging Angel from roots02.'
+        '16c-roots02-us-dist-part01' = 'us-dist.ans by Kargus + Frosty + Avenging Angel from roots02, source rows 1-43.'
+        '16c-roots02-us-dist-part02' = 'us-dist.ans by Kargus + Frosty + Avenging Angel from roots02, source rows 44-86.'
+        '16c-roots02-us-dist-part03' = 'us-dist.ans by Kargus + Frosty + Avenging Angel from roots02, source rows 87-128.'
+        '16c-roots02-us-dist-part04' = 'us-dist.ans by Kargus + Frosty + Avenging Angel from roots02, source rows 129-170.'
+        '16c-roots02-us-roots' = 'us-roots.ans by Tombin + Avenging Angel from roots02.'
+        '16c-roots02-us-skill' = 'us-skill.ans by Avenging Angel + Ceelow from roots02.'
         '16c-blocktronics-1010-2m-0909-part01' = '0909 by mattmatthew from blocktronics_1010, source rows 1-33.'
         '16c-blocktronics-1010-2m-0909-part02' = '0909 by mattmatthew from blocktronics_1010, source rows 34-65.'
         '16c-blocktronics-1010-avg-tenten1010' = 'avg-tenten1010.ans by Avenging Angel from blocktronics_1010.'
