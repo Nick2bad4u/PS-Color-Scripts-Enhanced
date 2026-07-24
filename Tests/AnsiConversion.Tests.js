@@ -1105,6 +1105,15 @@ test("stripSauce removes standalone trailing DOS EOF markers", () => {
     assert.equal(result.sauce, null);
 });
 
+test("stripSauce removes a DOS EOF marker followed only by newlines", () => {
+    const result = stripSauce(
+        Buffer.from("ART\r\n\r\n\x1a\r\n", "binary")
+    );
+
+    assert.equal(result.buffer.toString("binary"), "ART\r\n\r\n");
+    assert.equal(result.sauce, null);
+});
+
 test("splitter CLI can convert ANSI input in dry-run mode", () => {
     const directory = createTemporaryDirectory();
     const inputPath = path.join(directory, "input.ans");

@@ -506,10 +506,19 @@ function stripSauce(buffer) {
      * @returns {number}
      */
     const trimDosEofMarkers = (offset) => {
-        while (offset > 0 && buffer[offset - 1] === 0x1a) {
-            offset -= 1;
+        let markerEnd = offset;
+        while (
+            markerEnd > 0 &&
+            (buffer[markerEnd - 1] === 0x0a ||
+                buffer[markerEnd - 1] === 0x0d)
+        ) {
+            markerEnd -= 1;
         }
-        return offset;
+        let markerStart = markerEnd;
+        while (markerStart > 0 && buffer[markerStart - 1] === 0x1a) {
+            markerStart -= 1;
+        }
+        return markerStart < markerEnd ? markerStart : offset;
     };
     const contentEnd = trimDosEofMarkers(buffer.length);
     const truncatedMarker = buffer.lastIndexOf(
