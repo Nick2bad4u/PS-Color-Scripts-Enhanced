@@ -74,6 +74,45 @@
         )
 
         Artistic        = @(
+            '16c-1465-001-4d-ds69',
+            '16c-1465-001-4d-legn',
+            '16c-1465-001-4d-lord',
+            '16c-1465-001-4d-viix2',
+            '16c-1465-001-avg-clown',
+            '16c-1465-001-k1-1465',
+            '16c-1465-001-k1-nodrm',
+            '16c-1465-001-us-myriad',
+            '16c-1465-001-we-death',
+            '16c-1465-001-we-iqtm',
+            '16c-reunion02-jtr-senfo',
+            '16c-reunion02-tsk-fus1',
+            '16c-reunion02-we-aom',
+            '16c-sadist06-lm-spit',
+            '16c-sadist06-us-j22',
+            '16c-sense27-avg-27ic1',
+            '16c-sense27-avg-pc1',
+            '16c-sense27-avg-sen27',
+            '16c-sense27-k1-sense',
+            '16c-sense27-us-alov',
+            '16c-sense27-us-drugz',
+            '16c-sense27-us-rmrs1',
+            '16c-sense27-us-spleen',
+            '16c-12318-a-tag',
+            '16c-12318-ak-sars',
+            '16c-12318-pdzw0-p',
+            '16c-pen15-07-bw-pen',
+            '16c-reunion00-we-entr',
+            '16c-reunion00-we-relogo',
+            '16c-sense25-ack-sns1',
+            '16c-sense25-cl-elit',
+            '16c-sense25-m0-ansi',
+            '16c-sense26-us-bm00',
+            '16c-sense26-us-bmsen',
+            '16c-spleen01-cl-el',
+            '16c-spleen01-cl-sp01',
+            '16c-spleen01-cl-sp02',
+            '16c-supa01-bn-kd',
+            '16c-supa01-bn-sadist',
             '16c-antifa-01-zv-afriot-part01',
             '16c-antifa-01-zv-afriot-part02',
             '16c-antifa-01-zv-afriot-part03',
@@ -8534,6 +8573,45 @@
         )
 
         ASCIIArt        = @(
+            '16c-1465-001-4d-ds69',
+            '16c-1465-001-4d-legn',
+            '16c-1465-001-4d-lord',
+            '16c-1465-001-4d-viix2',
+            '16c-1465-001-avg-clown',
+            '16c-1465-001-k1-1465',
+            '16c-1465-001-k1-nodrm',
+            '16c-1465-001-us-myriad',
+            '16c-1465-001-we-death',
+            '16c-1465-001-we-iqtm',
+            '16c-reunion02-jtr-senfo',
+            '16c-reunion02-tsk-fus1',
+            '16c-reunion02-we-aom',
+            '16c-sadist06-lm-spit',
+            '16c-sadist06-us-j22',
+            '16c-sense27-avg-27ic1',
+            '16c-sense27-avg-pc1',
+            '16c-sense27-avg-sen27',
+            '16c-sense27-k1-sense',
+            '16c-sense27-us-alov',
+            '16c-sense27-us-drugz',
+            '16c-sense27-us-rmrs1',
+            '16c-sense27-us-spleen',
+            '16c-12318-a-tag',
+            '16c-12318-ak-sars',
+            '16c-12318-pdzw0-p',
+            '16c-pen15-07-bw-pen',
+            '16c-reunion00-we-entr',
+            '16c-reunion00-we-relogo',
+            '16c-sense25-ack-sns1',
+            '16c-sense25-cl-elit',
+            '16c-sense25-m0-ansi',
+            '16c-sense26-us-bm00',
+            '16c-sense26-us-bmsen',
+            '16c-spleen01-cl-el',
+            '16c-spleen01-cl-sp01',
+            '16c-spleen01-cl-sp02',
+            '16c-supa01-bn-kd',
+            '16c-supa01-bn-sadist',
             '16c-antifa-01-zv-afriot-part01',
             '16c-antifa-01-zv-afriot-part02',
             '16c-antifa-01-zv-afriot-part03',
@@ -14432,6 +14510,45 @@
     )
 
     Tags         = @{
+        '16c-1465-001-4d-ds69' = @('ANSI', 'ASCIIArt', 'Artistic', 'AccessDenied', '1465001', '16colors')
+        '16c-1465-001-4d-legn' = @('ANSI', 'ASCIIArt', 'Artistic', 'AccessDenied', '1465001', '16colors')
+        '16c-1465-001-4d-lord' = @('ANSI', 'ASCIIArt', 'Artistic', 'AccessDenied', '1465001', '16colors')
+        '16c-1465-001-4d-viix2' = @('ANSI', 'ASCIIArt', 'Artistic', 'AccessDenied', '1465001', '16colors')
+        '16c-1465-001-avg-clown' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', '1465001', '16colors')
+        '16c-1465-001-k1-1465' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', '1465001', '16colors')
+        '16c-1465-001-k1-nodrm' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', '1465001', '16colors')
+        '16c-1465-001-us-myriad' = @('ANSI', 'ASCIIArt', 'Artistic', 'H7KnocturnalAvengingAngel', '1465001', '16colors')
+        '16c-1465-001-we-death' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalAvengingAngel', '1465001', '16colors')
+        '16c-1465-001-we-iqtm' = @('ANSI', 'ASCIIArt', 'Artistic', 'AccessDeniedAvengingAngelEnzo', '1465001', '16colors')
+        '16c-reunion02-jtr-senfo' = @('ANSI', 'ASCIIArt', 'Artistic', 'JackTheRipper', 'reunion02', '16colors')
+        '16c-reunion02-tsk-fus1' = @('ANSI', 'ASCIIArt', 'Artistic', 'TheSilentKiller', 'reunion02', '16colors')
+        '16c-reunion02-we-aom' = @('ANSI', 'ASCIIArt', 'Artistic', 'MaestroTheSilentKiller', 'reunion02', '16colors')
+        '16c-sadist06-lm-spit' = @('ANSI', 'ASCIIArt', 'Artistic', 'Lichmist', 'sadist06', '16colors')
+        '16c-sadist06-us-j22' = @('ANSI', 'ASCIIArt', 'Artistic', 'SephirothTcf', 'sadist06', '16colors')
+        '16c-sense27-avg-27ic1' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'sense27', '16colors')
+        '16c-sense27-avg-pc1' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'sense27', '16colors')
+        '16c-sense27-avg-sen27' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'sense27', '16colors')
+        '16c-sense27-k1-sense' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'sense27', '16colors')
+        '16c-sense27-us-alov' = @('ANSI', 'ASCIIArt', 'Artistic', 'NochesAvengingAngel', 'sense27', '16colors')
+        '16c-sense27-us-drugz' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelAesthetic', 'sense27', '16colors')
+        '16c-sense27-us-rmrs1' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelCryogenic', 'sense27', '16colors')
+        '16c-sense27-us-spleen' = @('ANSI', 'ASCIIArt', 'Artistic', 'KnocturnalAvengingAngelNoches', 'sense27', '16colors')
+        '16c-12318-a-tag' = @('ANSI', 'ASCIIArt', 'Artistic', 'TAbsentSpinsister', '12318', '16colors')
+        '16c-12318-ak-sars' = @('ANSI', 'ASCIIArt', 'Artistic', 'Abstrakt', '12318', '16colors')
+        '16c-12318-pdzw0-p' = @('ANSI', 'ASCIIArt', 'Artistic', 'Podsi', '12318', '16colors')
+        '16c-pen15-07-bw-pen' = @('ANSI', 'ASCIIArt', 'Artistic', 'BinaryWalker', 'pen1507', '16colors')
+        '16c-reunion00-we-entr' = @('ANSI', 'ASCIIArt', 'Artistic', 'CreatorTron', 'reunion00', '16colors')
+        '16c-reunion00-we-relogo' = @('ANSI', 'ASCIIArt', 'Artistic', 'Fake', 'reunion00', '16colors')
+        '16c-sense25-ack-sns1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Arrogance', 'sense25', '16colors')
+        '16c-sense25-cl-elit' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cleaner', 'sense25', '16colors')
+        '16c-sense25-m0-ansi' = @('ANSI', 'ASCIIArt', 'Artistic', 'M0lo', 'sense25', '16colors')
+        '16c-sense26-us-bm00' = @('ANSI', 'ASCIIArt', 'Artistic', 'Aesthetic', 'sense26', '16colors')
+        '16c-sense26-us-bmsen' = @('ANSI', 'ASCIIArt', 'Artistic', 'AestheticAvengingAngel', 'sense26', '16colors')
+        '16c-spleen01-cl-el' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cleaner', 'spleen01', '16colors')
+        '16c-spleen01-cl-sp01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cleaner', 'spleen01', '16colors')
+        '16c-spleen01-cl-sp02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cleaner', 'spleen01', '16colors')
+        '16c-supa01-bn-kd' = @('ANSI', 'ASCIIArt', 'Artistic', 'Bern', 'supa01', '16colors')
+        '16c-supa01-bn-sadist' = @('ANSI', 'ASCIIArt', 'Artistic', 'Bern', 'supa01', '16colors')
         '16c-antifa-01-zv-afriot-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'antifa01', '16colors', 'SplitPart')
         '16c-antifa-01-zv-afriot-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'antifa01', '16colors', 'SplitPart')
         '16c-antifa-01-zv-afriot-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerovision', 'antifa01', '16colors', 'SplitPart')
@@ -20362,6 +20479,45 @@
     }
 
     Descriptions = @{
+        '16c-1465-001-4d-ds69' = '4d-ds69.ans by Access Denied from 1465-001.'
+        '16c-1465-001-4d-legn' = '4d-legn.ans by Access Denied from 1465-001.'
+        '16c-1465-001-4d-lord' = '4d-lord.ans by Access Denied from 1465-001.'
+        '16c-1465-001-4d-viix2' = '4d-viix2.ans by Access Denied from 1465-001.'
+        '16c-1465-001-avg-clown' = 'avg-clown.ans by Avenging Angel from 1465-001.'
+        '16c-1465-001-k1-1465' = 'k1-1465.ans by Knocturnal from 1465-001.'
+        '16c-1465-001-k1-nodrm' = 'k1-nodrm.ans by Knocturnal from 1465-001.'
+        '16c-1465-001-us-myriad' = 'us-myriad.ans by H7 + Knocturnal + Avenging Angel from 1465-001.'
+        '16c-1465-001-we-death' = 'we-death.ans by Knocturnal + Avenging Angel from 1465-001.'
+        '16c-1465-001-we-iqtm' = 'we-iqtm.ans by Access Denied + Avenging Angel + Enzo from 1465-001.'
+        '16c-reunion02-jtr-senfo' = 'jtr-senfo.ans by Jack The Ripper from reunion02.'
+        '16c-reunion02-tsk-fus1' = 'tsk-fus1.ans by The Silent Killer from reunion02.'
+        '16c-reunion02-we-aom' = 'we-aom.ans by Maestro + The Silent Killer from reunion02.'
+        '16c-sadist06-lm-spit' = 'LM-SPIT.ANS by Lichmist from sadist06.'
+        '16c-sadist06-us-j22' = 'US-J22.ANS by Sephiroth + Tcf from sadist06.'
+        '16c-sense27-avg-27ic1' = 'avg-27ic1.ans by Avenging Angel from sense27.'
+        '16c-sense27-avg-pc1' = 'avg-pc1.ans by Avenging Angel from sense27.'
+        '16c-sense27-avg-sen27' = 'avg-sen27.ans by Avenging Angel from sense27.'
+        '16c-sense27-k1-sense' = 'k1-sense.ans by Knocturnal from sense27.'
+        '16c-sense27-us-alov' = 'us-alov.ans by Noches + Avenging Angel from sense27.'
+        '16c-sense27-us-drugz' = 'us-drugz.ans by Avenging Angel + Aesthetic from sense27.'
+        '16c-sense27-us-rmrs1' = 'us-rmrs1.ans by Avenging Angel + Cryogenic from sense27.'
+        '16c-sense27-us-spleen' = 'us-spleen.ans by Knocturnal + Avenging Angel + Noches from sense27.'
+        '16c-12318-a-tag' = '_A-TAG.ANS by T. Absent Spinsister from 12318.'
+        '16c-12318-ak-sars' = 'AK-SARS.ANS by Abstrakt from 12318.'
+        '16c-12318-pdzw0-p' = 'pdzw0-p.ans by Podsi from 12318.'
+        '16c-pen15-07-bw-pen' = 'bw_pen.ans by Binary Walker from pen15-07.'
+        '16c-reunion00-we-entr' = 'we-entr.ans by Creator + Tron from reunion00.'
+        '16c-reunion00-we-relogo' = 'we-relogo.ans by Fake from reunion00.'
+        '16c-sense25-ack-sns1' = 'ack-sns1.ans by Arrogance from sense25.'
+        '16c-sense25-cl-elit' = 'cl!-elit.ans by Cleaner from sense25.'
+        '16c-sense25-m0-ansi' = 'm0-ansi.ans by M0lo from sense25.'
+        '16c-sense26-us-bm00' = 'us-bm00.ans by Aesthetic from sense26.'
+        '16c-sense26-us-bmsen' = 'us-bmsen.ans by Aesthetic + Avenging Angel from sense26.'
+        '16c-spleen01-cl-el' = 'CL!-EL.ANS by Cleaner from spleen01.'
+        '16c-spleen01-cl-sp01' = 'CL!-SP01.ANS by Cleaner from spleen01.'
+        '16c-spleen01-cl-sp02' = 'CL!-SP02.ANS by Cleaner from spleen01.'
+        '16c-supa01-bn-kd' = 'bn-kd.ans by Bern from supa01.'
+        '16c-supa01-bn-sadist' = 'bn-sadist.ans by Bern from supa01.'
         '16c-antifa-01-zv-afriot-part01' = 'zv-AFriot.ans by Zerovision from antifa-01, source rows 1-43.'
         '16c-antifa-01-zv-afriot-part02' = 'zv-AFriot.ans by Zerovision from antifa-01, source rows 44-85.'
         '16c-antifa-01-zv-afriot-part03' = 'zv-AFriot.ans by Zerovision from antifa-01, source rows 86-127.'

@@ -1,0 +1,39 @@
+﻿# Converted from: pdzw0-p.ans
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/12318/raw/pdzw0-p.ans
+# Source Revision: archive-sha256:8359e16f49f42e2c460172ce01977fb5fbee410f8f2dd001d4cfcdb4bcff56f5
+# Source SHA-256: 592b6a709a9d056b1ba7069a92fc803211d40d3d4e5779113ce8380ee7300fc5
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: pdzw0-p.ans by Podsi (12318); released in 12318 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Lines: 1-28
+# Columns: 1-80
+
+Write-Host '
+
+                ,[1ms[0m.         [1m  .┌%#[0m$[1m#%┐[0m.
+                [1m`ⁿ''[0m         [1m [0md[1m$$$$$$$$$b[0m
+                            [1m:ⁿ°5$$$#"''ⁿ$:[0m                  [1m*[0m
+                   [1md$b[0m [1m ,*#*[0m [1;33m,4[0m [1m└7`[0;1;33m.┐4.[0m  [1;33m.d$$$$$l:  [0;1;37m [0m,[1m┌%#%┐[0m.[1md$b[0m
+                   °[1mⁿ''[0m [1m:$$┘[0;1;33m.1$$:[0m [36m,[0;1;33m4$$$$┐[0m [1;33m`Q$$$$b.   [0;1;37mj$$$$$$$$"[0m`
+            [1m [0m,[1m┌#$$#┐[0m,  [1m`Q [0;1;33m:$$$$ld$$$$$$$b[0;36m.[0;1;33m `Q$$$$b. [0;1;37m└└└└$$$$$: [0m   [36m.[0;1;33m┌*┐[0m
+            [1mj$$$$$$$$┘[0m  [1;33m.┌└Q$$$$$$$$7└Q$$$b[0;36m.[0;1;33m "$$$$$b┐┐┐[0m [1m$$┘"[0m` [1;33m.┌sS$7ⁿ°[0m
+            [1m"└*Q$$$7 [0;36m,[0;1;33md$$$$$S$$$$$$$$┐[0m [1;33m`$$$$$b┐$$$*ⁿ"`` ___sd$$$$"`[0;33m-└[0m
+[37m    [0;1;33m ┌*S$$$$S*┐.[0;1;37m`"*[0m [1;33mj$$$t┘"`"└Q$7└Q$$$t[0;36m.[0;37m [0;1;33m`\$$$$/''[0m   [36m.[0;1;33m┌$$$$$`$$$$$$┐dS$Ss┐.[0m
+    [36m"[0;1;33m└Q$$$$$┘└Q$$b.[0m [1;33m$$$Y[0m  [33m"`Q*[0;37m `[0;33m,b.[0;1;33m"\$$$b[0;36m.[0;37m [0;1;33m`\$''.,┌d$$$$$$$$ `$$$$$$$$$$$$$$b.[0m
+    [36m [0;37m  [0;1;33m`Q$$$[0;36m.[0;1;33m  Y$$$$$$$$$l[0;36m:[0;37m [0;33m ""[0;37m  [0;33m`7s[0;37m [0;1;33m`$$$$b. ` "└└*SS*$$$$$[0m [33m.[0;1;33m`7$$$$$L`└$$$$$$[0;36mL[0m
+         [1;33mY$$$b [0;36m:[0;1;33m$$$$$$$L[0m  :: [1;33m,4$┐.  :l$$$$$┘[0m [33m:$*┐,.[0;37m [0;1;33m j$$$$$[0m [33mQb[0;1;33m "$*┘²"[0;33m┌.[0;37m [0;1;33mY$$$$$[0m
+         [36m:[0;1;33m$$$$[0;36m:[0;1;33m_$$P"`T$$b,.[0m  [1;33m`?$$$b.[0m [33m._____.[0;37m [0;33ml$$$P`.[0;1;33m $$$$$$ .,┌[0m      [33m::[0;37m [0;1;33mj$$$$7[0m
+          [1;33m$$$$l`"`[0;33m,d$.[0;1;33m°$$$S$$S$$$$$$b[0m [33mQ$$$$l[0;37m [0;33m└└└''[0;37m [0;33m''[0;1;33m_.$$$$$$$*┘".d5$$┘[0;33m ''[0;1;33m,$$$$$''[0m
+         [36m:[0;1;33m$$$$''[0;33m.$*┐,.`''[0;37m [0;1;33m`└S$$$$$$$$7''[0;33m.[0;37m [0;33m`Q$$l[0m     [1;33m│$7┘ⁿ"^` [0;33m_.┌[0;1;33m .$$$$[0;36m`[0;1;33m .[0;36m1[0;1;33m$$$$7[0m
+       [1;33m.J$$$t''[0;33m.`"└*$j/''[0;1;37m.,[0;33m`·,[0;1;33m`''"""`[0;33m_.┌$$\.[0;1;37m  _  [0m  [33m._.,┌*%#'',*$''[0;1;33m.$$$$Y,s$$$$7`[0m
+      [1;33m└"^`[0;33m_.┌*$$S*┐..[0;37m [0;1;37mj$$$s.[0;33m°√QS$$$$$$7[0;37m [0;1;37m.d$$$b[0m [33m:$$$$*",*$$P''[0;1;33mj$$$$$$$$$$7`[0m
+        [33m`^"└*#$$$$$$:[0;37m [0;1;37mQ$$$$#[0m, [33m `''"""` [0;37m,[0;1;37m1$$$$$$ [0;33m*┘"`  :$$$l:[0;37m:[0;1;33m$$$$$$$7$┘`[0m
+                [33m`"[0;37m    [0;1;37m [0m°[1mⁿ└ⁿ[0m"[1m [0m [1md$b[0m     [1m$$$$$$$$mm[0m      [33m`Q$$┐.[0;1;33m`└*SS7┘`[0m
+                           [1m*[0m  [1m`[0mⁿ''     [1m`Q$$$$$t7[0m''        [33m`^""""[0m
+                         [1;37mdb[0m           [1m  `°ⁿⁿ°d$b *[0m
+                         [1m`[0m''                  `[1m"[0m`
+
+serving: pdz
+original font from which there is no evidence whatsoever anymore: w0
+greetz: 123, SAC, impure, mimic, remorse, reddog[0m'
