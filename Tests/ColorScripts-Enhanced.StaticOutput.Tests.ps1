@@ -212,8 +212,8 @@ Describe 'Static colorscript output extraction' {
         }
 
         It 'locks the corpus to static output plus the explicit dynamic policy' {
-            $script:BundledCorpusAudit.Total | Should -Be 8792
-            $script:BundledCorpusAudit.Available | Should -Be 8775
+            $script:BundledCorpusAudit.Total | Should -Be 8974
+            $script:BundledCorpusAudit.Available | Should -Be 8957
             $script:BundledCorpusAudit.Unavailable | Should -Be 17
             Compare-Object $script:BundledCorpusAudit.DynamicPolicyNames $script:BundledCorpusAudit.UnavailableNames | Should -BeNullOrEmpty
         }
