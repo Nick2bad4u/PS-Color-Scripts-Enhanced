@@ -9,7 +9,6 @@
 # SAUCE Title: Read My Lips: No More Fights
 # SAUCE Author: Noel Gamboa
 # SAUCE Date: 20190423
-# SAUCE Dimensions: unknownxunknown
 # Lines: 1-23
 # Columns: 1-80
 

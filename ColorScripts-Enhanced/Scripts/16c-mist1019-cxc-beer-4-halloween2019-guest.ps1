@@ -10,7 +10,6 @@
 # SAUCE Author: CoaXCable
 # SAUCE Group: CoolPHat
 # SAUCE Date: 20191012
-# SAUCE Dimensions: unknownxunknown
 # Lines: 1-50
 # Columns: 1-80
 

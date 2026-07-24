@@ -9,7 +9,6 @@
 # SAUCE Title: Thraddash prank
 # SAUCE Author: VileR
 # SAUCE Group: Mistigris
-# SAUCE Date: 200906 2
 # SAUCE Dimensions: 80x60
 # Lines: 1-30
 # Columns: 1-80

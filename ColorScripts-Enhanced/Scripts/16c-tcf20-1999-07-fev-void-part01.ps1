@@ -10,7 +10,6 @@
 # SAUCE Author: slim shady
 # SAUCE Group: S7E7V7E7N
 # SAUCE Date: 19990317
-# SAUCE Dimensions: unknownxunknown
 # SAUCE Comments: Original pic of the void.
 # Lines: 1-45
 # Columns: 1-80

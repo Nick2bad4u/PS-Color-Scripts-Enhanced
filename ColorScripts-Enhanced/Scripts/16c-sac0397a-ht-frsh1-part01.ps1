@@ -9,7 +9,6 @@
 # SAUCE Title: Fresh BBS
 # SAUCE Author: Hetero
 # SAUCE Group: Lkcc~Sac~Dynasty
-# SAUCE Date: ????????
 # SAUCE Dimensions: 80x25
 # Lines: 1-50
 # Columns: 1-80

@@ -10,7 +10,6 @@
 # SAUCE Author: CoaXCable
 # SAUCE Group: MiSTiGRiS
 # SAUCE Date: 20200331
-# SAUCE Dimensions: unknownxunknown
 # Lines: 27-52
 # Columns: 1-80
 

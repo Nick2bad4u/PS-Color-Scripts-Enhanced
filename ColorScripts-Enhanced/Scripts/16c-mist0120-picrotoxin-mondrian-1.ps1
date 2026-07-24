@@ -10,7 +10,6 @@
 # SAUCE Author: Picrotoxin
 # SAUCE Group: Mistigris
 # SAUCE Date: 20200118
-# SAUCE Dimensions: unknownxunknown
 # Lines: 1-35
 # Columns: 1-80
 

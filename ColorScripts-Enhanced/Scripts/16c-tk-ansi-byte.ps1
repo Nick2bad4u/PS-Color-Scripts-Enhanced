@@ -9,7 +9,6 @@
 # SAUCE Title: Computer Board
 # SAUCE Author: Tank
 # SAUCE Group: NeXX
-# SAUCE Date: 199207 5
 # SAUCE Dimensions: 80x23
 # Lines: 1-17
 # Columns: 1-80

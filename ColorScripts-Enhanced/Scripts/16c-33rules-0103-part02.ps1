@@ -9,7 +9,6 @@
 # SAUCE Title: Samsara Promotional [j]
 # SAUCE Author: Samsara 09/96
 # SAUCE Group: Numb/Eerie
-# SAUCE Date: 199901 1
 # SAUCE Dimensions: 80x25
 # Lines: 32-61
 # Columns: 1-80

@@ -9,7 +9,6 @@
 # SAUCE Title: Final Fantasy BBS Ad
 # SAUCE Author: Tank
 # SAUCE Group: NeXX
-# SAUCE Date: 199107 2
 # SAUCE Dimensions: 80x24
 # Lines: 1-24
 # Columns: 1-80

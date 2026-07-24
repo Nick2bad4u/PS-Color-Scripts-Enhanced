@@ -9,7 +9,6 @@
 # SAUCE Title: THE FATE GATE
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
-# SAUCE Date: 19943110
 # SAUCE Dimensions: 80x25
 # Lines: 1-50
 # Columns: 1-80

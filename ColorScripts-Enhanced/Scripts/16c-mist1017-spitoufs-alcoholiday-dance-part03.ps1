@@ -9,7 +9,6 @@
 # SAUCE Title: Jouir du Alcoholiday
 # SAUCE Author: Spitoufs
 # SAUCE Group: Mistigris
-# SAUCE Date: 201611 3
 # SAUCE Dimensions: 80x134
 # Lines: 91-134
 # Columns: 1-80

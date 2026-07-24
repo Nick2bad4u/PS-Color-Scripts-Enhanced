@@ -9,7 +9,6 @@
 # SAUCE Title: Out Of Order [j]
 # SAUCE Author: Samsara 10/96
 # SAUCE Group: Mice & Eerie
-# SAUCE Date: 199610 4
 # SAUCE Dimensions: 80x25
 # Lines: 1-36
 # Columns: 1-80

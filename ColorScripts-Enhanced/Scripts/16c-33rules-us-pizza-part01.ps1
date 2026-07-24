@@ -9,7 +9,6 @@
 # SAUCE Title: Neon Pizza [j]
 # SAUCE Author: Samsara 09/96
 # SAUCE Group: Outkast & Eerie
-# SAUCE Date: 199609 2
 # SAUCE Dimensions: 80x25
 # Lines: 1-30
 # Columns: 1-80

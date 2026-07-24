@@ -9,7 +9,6 @@
 # SAUCE Title: CyberCrime International
 # SAUCE Author: Pure Voltage
 # SAUCE Group: MiSTiGRiS
-# SAUCE Date: 199710 2
 # SAUCE Dimensions: 80x25
 # Lines: 1-23
 # Columns: 1-80

@@ -10,7 +10,6 @@
 # SAUCE Author: Jate
 # SAUCE Group: HiRMU
 # SAUCE Date: 19960304
-# SAUCE Dimensions: unknownxunknown
 # SAUCE Font: IBM VGA
 # Lines: 29-55
 # Columns: 1-80

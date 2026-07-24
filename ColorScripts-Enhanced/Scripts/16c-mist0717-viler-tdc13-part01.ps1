@@ -9,7 +9,6 @@
 # SAUCE Title: TDC #13
 # SAUCE Author: VileR
 # SAUCE Date: 20170213
-# SAUCE Dimensions: unknownxunknown
 # Lines: 1-47
 # Columns: 1-80
 

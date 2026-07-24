@@ -9,8 +9,6 @@
 # SAUCE Title: Parental Advisory
 # SAUCE Author: Fever
 # SAUCE Group: seviin
-# SAUCE Date: 199905 8
-# SAUCE Dimensions: unknownxunknown
 # Lines: 1-36
 # Columns: 1-80
 

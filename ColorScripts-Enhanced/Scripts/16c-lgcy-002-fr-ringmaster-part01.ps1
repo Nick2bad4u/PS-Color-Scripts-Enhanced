@@ -10,7 +10,6 @@
 # SAUCE Author: FreshRich
 # SAUCE Group: Legacy Krew
 # SAUCE Date: 20190825
-# SAUCE Dimensions: unknownxunknown
 # Lines: 1-40
 # Columns: 1-80
 

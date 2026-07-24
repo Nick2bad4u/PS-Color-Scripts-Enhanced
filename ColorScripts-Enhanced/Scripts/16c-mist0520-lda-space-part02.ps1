@@ -10,7 +10,6 @@
 # SAUCE Author: LDA
 # SAUCE Group: Mistigris
 # SAUCE Date: 20200502
-# SAUCE Dimensions: unknownxunknown
 # Lines: 27-52
 # Columns: 1-80
 

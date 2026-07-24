@@ -9,7 +9,6 @@
 # SAUCE Title: Musicport
 # SAUCE Author: Hetero
 # SAUCE Group: Lkcc~Sac~Dns~Rzr1911
-# SAUCE Date: ????????
 # SAUCE Dimensions: 80x25
 # Lines: 1-23
 # Columns: 1-80

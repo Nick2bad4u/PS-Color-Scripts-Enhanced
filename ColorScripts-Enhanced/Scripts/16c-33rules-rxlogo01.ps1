@@ -10,7 +10,6 @@
 # SAUCE Author: Early work
 # SAUCE Group: Eerie
 # SAUCE Date: 20940104
-# SAUCE Dimensions: unknownxunknown
 # Lines: 1-26
 # Columns: 1-80
 

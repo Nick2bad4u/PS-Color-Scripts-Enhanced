@@ -508,6 +508,60 @@ test("source metadata comments sanitize controls and preserve SAUCE provenance",
     );
 });
 
+test("source metadata comments omit incomplete or invalid SAUCE fields", () => {
+    const sauce = {
+        version: "00",
+        title: "Arpegio",
+        author: "Squarel00p",
+        group: "b0ca junio",
+        date: "\0".repeat(8),
+        fileSize: 1,
+        dataType: 0,
+        fileType: 0,
+        tInfo1: 0,
+        tInfo2: 0,
+        tInfo3: 0,
+        tInfo4: 0,
+        comments: 0,
+        flags: 0,
+        tInfoS: Buffer.from("empathy by skaboy\0", "ascii"),
+        commentLines: [],
+    };
+
+    const incompleteHeader = buildSourceMetadataHeader(
+        "SL-L00P.ANS",
+        "cp437",
+        sauce
+    );
+    assert.doesNotMatch(incompleteHeader, /# SAUCE Date:/);
+    assert.doesNotMatch(incompleteHeader, /# SAUCE Dimensions:/);
+    assert.match(incompleteHeader, /# SAUCE Font: empathy by skaboy/);
+
+    for (const invalidDate of [
+        "00000000",
+        "20260229",
+        "20261301",
+        "20260700",
+        "200201 2",
+    ]) {
+        assert.doesNotMatch(
+            buildSourceMetadataHeader("invalid.ans", "cp437", {
+                ...sauce,
+                date: invalidDate,
+            }),
+            /# SAUCE Date:/
+        );
+    }
+
+    assert.match(
+        buildSourceMetadataHeader("leap-day.ans", "cp437", {
+            ...sauce,
+            date: "20240229",
+        }),
+        /# SAUCE Date: 20240229/
+    );
+});
+
 test("converter and splitter provenance options validate and normalize metadata", () => {
     const sha256 = "ABCDEF0123456789".repeat(4);
     const { options } = parseArguments([

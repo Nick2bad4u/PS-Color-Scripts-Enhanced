@@ -1548,6 +1548,28 @@ function sanitizePowerShellComment(value) {
 }
 
 /**
+ * Return a SAUCE date only when the fixed-width field contains a valid YYYYMMDD
+ * calendar date. Empty, partial, and producer-specific placeholder values are
+ * metadata omissions rather than dates and must not be serialized into
+ * generated script comments.
+ *
+ * @param {string} value
+ *
+ * @returns {string | null}
+ */
+function getValidSauceDate(value) {
+    if (!/^[1-9]\d{3}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])$/.test(value)) {
+        return null;
+    }
+
+    const year = Number(value.slice(0, 4));
+    const month = Number(value.slice(4, 6));
+    const day = Number(value.slice(6, 8));
+    const daysInMonth = new Date(Date.UTC(year, month, 0)).getUTCDate();
+    return day <= daysInMonth ? value : null;
+}
+
+/**
  * Build non-executable source-provenance comments for generated colorscripts.
  *
  * @param {string} sourceName
@@ -1587,15 +1609,21 @@ function buildSourceMetadataHeader(
             ["Title", sauce.title],
             ["Author", sauce.author],
             ["Group", sauce.group],
-            ["Date", sauce.date],
-            [
-                "Dimensions",
-                `${sauce.tInfo1 || "unknown"}x${sauce.tInfo2 || "unknown"}`,
-            ],
+            ["Date", getValidSauceDate(sauce.date)],
+            Number.isSafeInteger(sauce.tInfo1) &&
+            sauce.tInfo1 > 0 &&
+            Number.isSafeInteger(sauce.tInfo2) &&
+            sauce.tInfo2 > 0
+                ? ["Dimensions", `${sauce.tInfo1}x${sauce.tInfo2}`]
+                : null,
             ["Font", getSauceFontName(sauce)],
             ["Comments", sauce.commentLines.join(" | ")],
         ];
-        for (const [label, value] of metadata) {
+        for (const entry of metadata) {
+            if (!entry) {
+                continue;
+            }
+            const [label, value] = entry;
             if (value) {
                 lines.push(
                     `# SAUCE ${label}: ${sanitizePowerShellComment(value)}`

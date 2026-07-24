@@ -10,7 +10,6 @@
 # SAUCE Author: Muton
 # SAUCE Group: MiSTiGRiS
 # SAUCE Date: 19970930
-# SAUCE Dimensions: unknownxunknown
 # Lines: 1-39
 # Columns: 1-80
 

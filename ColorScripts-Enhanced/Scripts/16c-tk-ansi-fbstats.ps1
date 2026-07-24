@@ -9,7 +9,6 @@
 # SAUCE Title: FlashBack BBS Software User Stats
 # SAUCE Author: Tank
 # SAUCE Group: ACiD Productions
-# SAUCE Date: 199205 4
 # SAUCE Dimensions: 80x23
 # Lines: 1-23
 # Columns: 1-80

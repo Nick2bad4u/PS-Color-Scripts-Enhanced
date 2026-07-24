@@ -9,7 +9,6 @@
 # SAUCE Title: Total DOS Collection 9
 # SAUCE Author: VileR
 # SAUCE Group: Mistigris
-# SAUCE Date: 201511 5
 # SAUCE Dimensions: 80x119
 # Lines: 81-119
 # Columns: 1-80
