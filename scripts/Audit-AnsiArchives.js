@@ -34,6 +34,8 @@ const MAX_ZIP_UNCOMPRESSED_BYTES = 512 * 1024 * 1024;
 const ARCHIVE_REQUEST_TIMEOUT_MS = 5 * 60_000;
 const MIXED_MEDIA_ARCHIVE_THRESHOLD_BYTES = 32 * 1024 * 1024;
 const MAX_LOCAL_PREVIEW_CELLS = 250_000;
+const DECISION_SCHEMA_VERSION = 2;
+const SHA256_PATTERN = /^[a-f\d]{64}$/u;
 const ANSI_FAMILY_NAMES = [
     "neutral",
     "red",
@@ -155,6 +157,22 @@ function requireString(value, label) {
         throw new TypeError(`${label} must be a non-empty string.`);
     }
     return value;
+}
+
+/**
+ * @param {unknown} value
+ * @param {string} label
+ * @param {number} minimum
+ *
+ * @returns {number}
+ */
+function requireSafeInteger(value, label, minimum = 0) {
+    if (!Number.isSafeInteger(value) || Number(value) < minimum) {
+        throw new TypeError(
+            `${label} must be an integer greater than or equal to ${minimum}.`
+        );
+    }
+    return Number(value);
 }
 
 /**
@@ -2321,10 +2339,7 @@ async function analyzeCandidates(candidates, options, existingHashes) {
  */
 function readDecisionAttributionOverride(record, candidateId, property) {
     if (record[property] === undefined) return undefined;
-    const values = requireArray(
-        record[property],
-        `${candidateId} ${property}`
-    );
+    const values = requireArray(record[property], `${candidateId} ${property}`);
     if (values.length === 0) {
         throw new TypeError(
             `${candidateId} ${property} must contain at least one name.`
@@ -2354,6 +2369,83 @@ function readDecisionAttributionOverride(record, candidateId, property) {
 }
 
 /**
+ * Capture the converter-derived evidence a manual review actually evaluated.
+ * Source and rendered-cell hashes detect byte or terminal-semantics changes;
+ * geometry and color-family counts also catch meaningful analyzer changes that
+ * may not affect the occupied-cell fingerprint (for example, trailing rows).
+ *
+ * @param {Record<string, unknown>} candidate
+ *
+ * @returns {{
+ *     sourceSha256: string;
+ *     renderSha256: string;
+ *     width: number;
+ *     height: number;
+ *     colorFamilyCount: number;
+ * }}
+ */
+function createDecisionEvidence(candidate) {
+    const candidateId = String(candidate.id);
+    const analysis = requireObject(
+        candidate.analysis,
+        `${candidateId} analysis`
+    );
+    const sourceSha256 = requireString(
+        analysis.sourceSha256,
+        `${candidateId} sourceSha256`
+    ).toLowerCase();
+    const renderSha256 = requireString(
+        analysis.renderSha256,
+        `${candidateId} renderSha256`
+    ).toLowerCase();
+    if (!SHA256_PATTERN.test(sourceSha256)) {
+        throw new TypeError(
+            `${candidateId} sourceSha256 must be a lowercase SHA-256 hash.`
+        );
+    }
+    if (!SHA256_PATTERN.test(renderSha256)) {
+        throw new TypeError(
+            `${candidateId} renderSha256 must be a lowercase SHA-256 hash.`
+        );
+    }
+    return {
+        sourceSha256,
+        renderSha256,
+        width: requireSafeInteger(analysis.width, `${candidateId} width`, 1),
+        height: requireSafeInteger(analysis.height, `${candidateId} height`, 1),
+        colorFamilyCount: requireSafeInteger(
+            analysis.colorFamilyCount,
+            `${candidateId} colorFamilyCount`
+        ),
+    };
+}
+
+/**
+ * @param {Record<string, unknown>} record
+ * @param {Record<string, unknown>} candidate
+ */
+function validateDecisionEvidence(record, candidate) {
+    const candidateId = String(candidate.id);
+    const supplied = requireObject(
+        record.evidence,
+        `${candidateId} decision evidence`
+    );
+    const expected = createDecisionEvidence(candidate);
+    for (const [property, expectedValue] of Object.entries(expected)) {
+        const suppliedValue = supplied[property];
+        if (suppliedValue !== expectedValue) {
+            throw new Error(
+                `${candidateId} decision evidence is stale: ${property} changed from ${JSON.stringify(
+                    suppliedValue
+                )} to ${JSON.stringify(
+                    expectedValue
+                )}. Review this candidate again before reusing the decision.`
+            );
+        }
+    }
+}
+
+/**
  * @param {Record<string, unknown>[]} candidates
  * @param {string | null} decisionsPath
  *
@@ -2365,6 +2457,19 @@ function mergeDecisions(candidates, decisionsPath) {
         JSON.parse(fs.readFileSync(decisionsPath, "utf8")),
         "review decisions"
     );
+    const schemaVersion =
+        parsed.schemaVersion === undefined
+            ? 1
+            : requireSafeInteger(
+                  parsed.schemaVersion,
+                  "review decision schemaVersion",
+                  1
+              );
+    if (schemaVersion > DECISION_SCHEMA_VERSION) {
+        throw new Error(
+            `Review decision schemaVersion ${schemaVersion} is newer than the supported version ${DECISION_SCHEMA_VERSION}.`
+        );
+    }
     const decisions = requireObject(
         parsed.decisions || parsed,
         "decisions map"
@@ -2384,6 +2489,9 @@ function mergeDecisions(candidates, decisionsPath) {
             throw new Error(
                 `${candidate.id} decision must be accepted or a rejected-* reason.`
             );
+        }
+        if (schemaVersion >= 2) {
+            validateDecisionEvidence(record, candidate);
         }
         // File-scoped overrides keep verified attribution in the resumable
         // decision instead of a generated report that the next refresh
@@ -2684,6 +2792,7 @@ function writeReviewHtml(report, htmlPath) {
                 : "",
             source: String(candidate.galleryUrl || candidate.sourceUrl),
             disposition: String(candidate.disposition),
+            evidence: createDecisionEvidence(candidate),
             preview,
         };
     });
@@ -2691,7 +2800,7 @@ function writeReviewHtml(report, htmlPath) {
         "<",
         "\\u003c"
     );
-    const html = `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>ANSI archive review</title><style>body{background:#111;color:#eee;font:14px system-ui;margin:1rem}.controls{align-items:center;background:#111;display:flex;flex-wrap:wrap;gap:.5rem;position:sticky;top:0;z-index:2;padding:.5rem 0}.controls button{padding:.6rem .9rem}.controls input,.controls select{min-width:12rem;padding:.55rem}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.card{background:#222;border:1px solid #444;padding:.75rem}.card img{background:#000;display:block;height:360px;image-rendering:pixelated;object-fit:contain;width:100%}.missing{align-content:center;background:#000;color:#888;height:360px;text-align:center}h2{font-size:1rem;overflow-wrap:anywhere}label{display:block;margin-top:.5rem}.card input,.card select{box-sizing:border-box;width:100%}a{color:#7cc7ff}</style><h1>ANSI archive review</h1><p>${candidates.length} candidates require or retain a manual decision. At most 200 cards are rendered at once. Decisions are stored in this browser and exported as JSON for <code>--decisions</code>.</p><div class="controls"><input id="search" type="search" placeholder="Filter artist, pack, filename"><select id="disposition"><option value="">All dispositions</option></select><button id="previous">Previous</button><span id="page"></span><button id="next">Next</button><button id="export">Export decisions</button></div><main class="grid" id="grid"></main><script id="review-data" type="application/json">${serializedData}</script><script>const data=JSON.parse(document.querySelector("#review-data").textContent);const key="ps-color-scripts-enhanced-ansi-decisions-v1";const saved=JSON.parse(localStorage.getItem(key)||"{}");const grid=document.querySelector("#grid");const search=document.querySelector("#search");const disposition=document.querySelector("#disposition");const pageLabel=document.querySelector("#page");const pageSize=200;let page=0;for(const value of [...new Set(data.map(item=>item.disposition))].sort()){const option=document.createElement("option");option.value=value;option.textContent=value;disposition.append(option)}const filtered=()=>{const term=search.value.trim().toLocaleLowerCase();return data.filter(item=>(!disposition.value||item.disposition===disposition.value)&&(!term||[item.filename,item.artists,item.pack,item.disposition].some(value=>value.toLocaleLowerCase().includes(term))))};const textElement=(tag,text,className)=>{const element=document.createElement(tag);element.textContent=text;if(className)element.className=className;return element};const render=()=>{const results=filtered();const pageCount=Math.max(1,Math.ceil(results.length/pageSize));page=Math.min(page,pageCount-1);const visible=results.slice(page*pageSize,(page+1)*pageSize);grid.replaceChildren();for(const item of visible){const card=document.createElement("article");card.className="card";card.dataset.id=item.id;if(item.preview){const preview=document.createElement("img");preview.loading="lazy";preview.src=item.preview;preview.alt="";card.append(preview)}else{card.append(textElement("div","No preview supplied","missing"))}card.append(textElement("h2",item.filename));card.append(textElement("p",(item.artists||"Unknown artist")+" · "+item.pack));card.append(textElement("p",item.width+"×"+item.height+" · "+item.colors));const sourceLine=document.createElement("p");const source=document.createElement("a");source.href=item.source;source.textContent="Source";sourceLine.append(source,document.createTextNode(" · "));sourceLine.append(textElement("code",item.disposition));card.append(sourceLine);const decisionLabel=document.createElement("label");decisionLabel.append(document.createTextNode("Decision "));const select=document.createElement("select");for(const [value,label] of [["","Undecided"],["accepted","Accept"],["rejected-quality","Reject: quality"],["rejected-content","Reject: content"],["rejected-duplicate","Reject: duplicate"],["rejected-composition","Reject: composition"]]){const option=document.createElement("option");option.value=value;option.textContent=label;select.append(option)}decisionLabel.append(select);const noteLabel=document.createElement("label");noteLabel.append(document.createTextNode("Note "));const input=document.createElement("input");input.type="text";noteLabel.append(input);card.append(decisionLabel,noteLabel);if(saved[item.id]){select.value=saved[item.id].disposition||"";input.value=saved[item.id].note||""}const persist=()=>{if(select.value){saved[item.id]={disposition:select.value,note:input.value}}else{delete saved[item.id]}localStorage.setItem(key,JSON.stringify(saved))};select.addEventListener("change",persist);input.addEventListener("change",persist);grid.append(card)}pageLabel.textContent=results.length+" matches · page "+(page+1)+"/"+pageCount;document.querySelector("#previous").disabled=page===0;document.querySelector("#next").disabled=page+1>=pageCount};search.addEventListener("input",()=>{page=0;render()});disposition.addEventListener("change",()=>{page=0;render()});document.querySelector("#previous").addEventListener("click",()=>{page-=1;render()});document.querySelector("#next").addEventListener("click",()=>{page+=1;render()});document.querySelector("#export").addEventListener("click",()=>{const blob=new Blob([JSON.stringify({schemaVersion:1,decisions:saved},null,2)+"\\n"],{type:"application/json"});const link=document.createElement("a");link.href=URL.createObjectURL(blob);link.download="ansi-archive-decisions.json";link.click();URL.revokeObjectURL(link.href)});render();</script></html>`;
+    const html = `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>ANSI archive review</title><style>body{background:#111;color:#eee;font:14px system-ui;margin:1rem}.controls{align-items:center;background:#111;display:flex;flex-wrap:wrap;gap:.5rem;position:sticky;top:0;z-index:2;padding:.5rem 0}.controls button{padding:.6rem .9rem}.controls input,.controls select{min-width:12rem;padding:.55rem}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}.card{background:#222;border:1px solid #444;padding:.75rem}.card img{background:#000;display:block;height:360px;image-rendering:pixelated;object-fit:contain;width:100%}.missing{align-content:center;background:#000;color:#888;height:360px;text-align:center}h2{font-size:1rem;overflow-wrap:anywhere}label{display:block;margin-top:.5rem}.card input,.card select{box-sizing:border-box;width:100%}a{color:#7cc7ff}</style><h1>ANSI archive review</h1><p>${candidates.length} candidates require or retain a manual decision. At most 200 cards are rendered at once. Decisions are stored in this browser and exported as JSON for <code>--decisions</code>. Exported decisions include the reviewed source, render, geometry, and color evidence so stale decisions fail closed after converter changes.</p><div class="controls"><input id="search" type="search" placeholder="Filter artist, pack, filename"><select id="disposition"><option value="">All dispositions</option></select><button id="previous">Previous</button><span id="page"></span><button id="next">Next</button><button id="export">Export decisions</button></div><main class="grid" id="grid"></main><script id="review-data" type="application/json">${serializedData}</script><script>const data=JSON.parse(document.querySelector("#review-data").textContent);const key="ps-color-scripts-enhanced-ansi-decisions-v2";const saved=JSON.parse(localStorage.getItem(key)||"{}");const grid=document.querySelector("#grid");const search=document.querySelector("#search");const disposition=document.querySelector("#disposition");const pageLabel=document.querySelector("#page");const pageSize=200;let page=0;for(const value of [...new Set(data.map(item=>item.disposition))].sort()){const option=document.createElement("option");option.value=value;option.textContent=value;disposition.append(option)}const filtered=()=>{const term=search.value.trim().toLocaleLowerCase();return data.filter(item=>(!disposition.value||item.disposition===disposition.value)&&(!term||[item.filename,item.artists,item.pack,item.disposition].some(value=>value.toLocaleLowerCase().includes(term))))};const textElement=(tag,text,className)=>{const element=document.createElement(tag);element.textContent=text;if(className)element.className=className;return element};const evidenceMatches=(decision,item)=>JSON.stringify(decision?.evidence)===JSON.stringify(item.evidence);const render=()=>{const results=filtered();const pageCount=Math.max(1,Math.ceil(results.length/pageSize));page=Math.min(page,pageCount-1);const visible=results.slice(page*pageSize,(page+1)*pageSize);grid.replaceChildren();for(const item of visible){const card=document.createElement("article");card.className="card";card.dataset.id=item.id;if(item.preview){const preview=document.createElement("img");preview.loading="lazy";preview.src=item.preview;preview.alt="";card.append(preview)}else{card.append(textElement("div","No preview supplied","missing"))}card.append(textElement("h2",item.filename));card.append(textElement("p",(item.artists||"Unknown artist")+" · "+item.pack));card.append(textElement("p",item.width+"×"+item.height+" · "+item.colors));const sourceLine=document.createElement("p");const source=document.createElement("a");source.href=item.source;source.textContent="Source";sourceLine.append(source,document.createTextNode(" · "));sourceLine.append(textElement("code",item.disposition));card.append(sourceLine);const decisionLabel=document.createElement("label");decisionLabel.append(document.createTextNode("Decision "));const select=document.createElement("select");for(const [value,label] of [["","Undecided"],["accepted","Accept"],["rejected-quality","Reject: quality"],["rejected-content","Reject: content"],["rejected-duplicate","Reject: duplicate"],["rejected-composition","Reject: composition"]]){const option=document.createElement("option");option.value=value;option.textContent=label;select.append(option)}decisionLabel.append(select);const noteLabel=document.createElement("label");noteLabel.append(document.createTextNode("Note "));const input=document.createElement("input");input.type="text";noteLabel.append(input);card.append(decisionLabel,noteLabel);if(saved[item.id]&&!evidenceMatches(saved[item.id],item)){delete saved[item.id];localStorage.setItem(key,JSON.stringify(saved))}if(saved[item.id]){select.value=saved[item.id].disposition||"";input.value=saved[item.id].note||""}const persist=()=>{if(select.value){saved[item.id]={disposition:select.value,note:input.value,evidence:item.evidence}}else{delete saved[item.id]}localStorage.setItem(key,JSON.stringify(saved))};select.addEventListener("change",persist);input.addEventListener("change",persist);grid.append(card)}pageLabel.textContent=results.length+" matches · page "+(page+1)+"/"+pageCount;document.querySelector("#previous").disabled=page===0;document.querySelector("#next").disabled=page+1>=pageCount};search.addEventListener("input",()=>{page=0;render()});disposition.addEventListener("change",()=>{page=0;render()});document.querySelector("#previous").addEventListener("click",()=>{page-=1;render()});document.querySelector("#next").addEventListener("click",()=>{page+=1;render()});document.querySelector("#export").addEventListener("click",()=>{const currentIds=new Set(data.map(item=>item.id));const decisions=Object.fromEntries(Object.entries(saved).filter(([id,decision])=>currentIds.has(id)&&evidenceMatches(decision,data.find(item=>item.id===id))));const blob=new Blob([JSON.stringify({schemaVersion:${DECISION_SCHEMA_VERSION},decisions},null,2)+"\\n"],{type:"application/json"});const link=document.createElement("a");link.href=URL.createObjectURL(blob);link.download="ansi-archive-decisions.json";link.click();URL.revokeObjectURL(link.href)});render();</script></html>`;
     writeFileAtomic(htmlPath, html);
 }
 
@@ -2976,6 +3085,7 @@ module.exports = {
     analyzeCandidates,
     cacheSixteenColorsArchive,
     classifyCandidate,
+    createDecisionEvidence,
     createCheckpoint,
     deduplicateCandidates,
     extractRoyArchiveUrls,

@@ -11,6 +11,7 @@ const {
     analyzeCandidates,
     cacheSixteenColorsArchive,
     classifyCandidate,
+    createDecisionEvidence,
     createCheckpoint,
     deduplicateCandidates,
     extractRoyArchiveUrls,
@@ -396,7 +397,14 @@ test("ANSI analysis serializes SAUCE as compact metadata rather than Buffer inte
 });
 
 test("ANSI analysis derives the source encoding from a registered SAUCE font", () => {
-    const content = Buffer.from([0x1b, 0x5b, 0x33, 0x31, 0x6d, 0x86]);
+    const content = Buffer.from([
+        0x1b,
+        0x5b,
+        0x33,
+        0x31,
+        0x6d,
+        0x86,
+    ]);
     const sauce = Buffer.alloc(128);
     sauce.write("SAUCE00", 0, "ascii");
     sauce.writeUInt32LE(content.length, 90);
@@ -496,7 +504,10 @@ test("classification rejects source fonts whose glyphs or aspect cannot survive 
         );
         assert.equal(result.disposition, "rejected-unsupported-font");
         assert.equal(result.review, false);
-        assert.match(String(result.reviewNote), /cannot be (?:reproduced|preserved)/u);
+        assert.match(
+            String(result.reviewNote),
+            /cannot be (?:reproduced|preserved)/u
+        );
     }
 
     assert.equal(
@@ -852,6 +863,7 @@ test("review decisions, summaries, checkpoints, and HTML remain deterministic", 
                     renderSha256: "b".repeat(64),
                     width: 80,
                     height: 25,
+                    colorFamilyCount: 3,
                     colorFamilies: [
                         "blue",
                         "green",
@@ -912,9 +924,135 @@ test("review decisions, summaries, checkpoints, and HTML remain deterministic", 
     const html = fs.readFileSync(htmlPath, "utf8");
     assert.match(html, /Export decisions/);
     assert.match(html, /At most 200 cards/);
+    assert.match(html, /ansi-decisions-v2/);
+    assert.match(html, /schemaVersion:2/);
+    assert.match(html, new RegExp("a{64}", "u"));
+    assert.match(html, new RegExp("b{64}", "u"));
     assert.match(html, /Strong landscape|ART\.ANS/);
     assert.match(html, /grid\.replaceChildren/);
     assert.doesNotMatch(html, /<script[^>]+src=/u);
+});
+
+test("schema 2 review decisions fail closed when analyzed evidence changes", () => {
+    const directory = createTemporaryDirectory();
+    const decisionsPath = path.join(directory, "decisions.json");
+    const candidate = {
+        id: "16colors:pack/ART.ANS",
+        filename: "ART.ANS",
+        pack: "pack",
+        sourceUrl: "https://example.test/ART.ANS",
+        artists: ["Archive Artist"],
+        disposition: "pending-review",
+        review: true,
+        analysis: {
+            sourceSha256: "a".repeat(64),
+            renderSha256: "b".repeat(64),
+            width: 80,
+            height: 35,
+            colorFamilyCount: 6,
+        },
+    };
+    const evidence = createDecisionEvidence(candidate);
+
+    fs.writeFileSync(
+        decisionsPath,
+        JSON.stringify({
+            schemaVersion: 2,
+            decisions: {
+                [candidate.id]: {
+                    disposition: "accepted",
+                    note: "Reviewed against current converter output.",
+                    evidence,
+                },
+            },
+        })
+    );
+    assert.equal(
+        mergeDecisions([candidate], decisionsPath)[0].disposition,
+        "accepted"
+    );
+
+    for (const [property, value] of [
+        ["sourceSha256", "c".repeat(64)],
+        ["renderSha256", "d".repeat(64)],
+        ["width", 79],
+        ["height", 53],
+        ["colorFamilyCount", 5],
+    ]) {
+        fs.writeFileSync(
+            decisionsPath,
+            JSON.stringify({
+                schemaVersion: 2,
+                decisions: {
+                    [candidate.id]: {
+                        disposition: "accepted",
+                        evidence: { ...evidence, [property]: value },
+                    },
+                },
+            })
+        );
+        assert.throws(
+            () => mergeDecisions([candidate], decisionsPath),
+            new RegExp(`decision evidence is stale: ${property} changed`, "u")
+        );
+    }
+});
+
+test("decision evidence validates schema and required analysis fields", () => {
+    const directory = createTemporaryDirectory();
+    const decisionsPath = path.join(directory, "decisions.json");
+    const candidate = {
+        id: "16colors:pack/ART.ANS",
+        disposition: "pending-review",
+        review: true,
+        analysis: {
+            sourceSha256: "a".repeat(64),
+            renderSha256: "b".repeat(64),
+            width: 80,
+            height: 25,
+            colorFamilyCount: 3,
+        },
+    };
+
+    fs.writeFileSync(
+        decisionsPath,
+        JSON.stringify({
+            schemaVersion: 2,
+            decisions: {
+                [candidate.id]: {
+                    disposition: "accepted",
+                },
+            },
+        })
+    );
+    assert.throws(
+        () => mergeDecisions([candidate], decisionsPath),
+        /decision evidence must be a JSON object/u
+    );
+
+    fs.writeFileSync(
+        decisionsPath,
+        JSON.stringify({
+            schemaVersion: 3,
+            decisions: {},
+        })
+    );
+    assert.throws(
+        () => mergeDecisions([candidate], decisionsPath),
+        /newer than the supported version 2/u
+    );
+
+    assert.throws(
+        () =>
+            createDecisionEvidence({
+                ...candidate,
+                analysis: {
+                    ...candidate.analysis,
+                    sourceSha256: "not-a-hash",
+                },
+            }),
+        /sourceSha256 must be a lowercase SHA-256 hash/u
+    );
 });
 
 test("review decision attribution overrides fail closed on malformed names", () => {
