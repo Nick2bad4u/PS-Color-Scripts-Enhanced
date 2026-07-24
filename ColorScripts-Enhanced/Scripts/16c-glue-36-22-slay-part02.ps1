@@ -1,0 +1,41 @@
+﻿# Converted from: 22-SLAY.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/glue-36/raw/22-SLAY.ANS
+# Source Revision: archive-sha256:bf477dfe5f73a7addcb3cfde3273a28cc631116bf697d10a376cdba3af8b6c78
+# Source SHA-256: 122d4a53ca17c3d16f944c5a83f3327b81ed1b48e36dfe0678be26537835cfc0
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: 22-SLAY.ANS by catch22 (glue); released in glue-36 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: someone call animal rights!
+# SAUCE Author: catch22
+# SAUCE Group: glue
+# SAUCE Date: 20011201
+# SAUCE Dimensions: 80x71
+# Lines: 48-71
+# Columns: 1-80
+
+Write-Host '
+[1;30;40m▀▀▀▀▀███████▄▄▄▄▄▄▄▄[0m     [31m▀▀[0;1;33m [0;31m▀ ▀  ▐[0;35;41m█▀[0m                                           [33;40m▄[0m
+[33;40m▄▄▄▄▄[0m        [33;40m▄▄▄ ▐██▄[0m        [1;30;40m▀▀▀▀██████▄▄[0m          [33m▄▄[0m     [33m▄▄▄[0m                [33m ▐█[0m
+[33m█████▌[0m     [33m▄█████ ████▄[0m
+      [33m▄▄████▌[0m     [33m▀███▄▄[0m             [33m ▀████▀[0m    [33m▄██████▌ ▐█████▄[0m
+   [33m▄███████▀[0m   [33m▄█▄  ▀█████▄[0m           [33m▐█▄▀█  ▄▄███████▀[0m   [33m▀███▀ ▄███▄[0m
+    [33m▀███▀▀[0m   [33m▄█████▄  ▀██████▄[0m        [33m▐██▌ ▄███████▀▀[0m          [33m▐██████▄[0m      [33m  [0m
+           [33m▄████████▌[0m    [33m▀█████▄▄[0m    [33m▄▄▄█████▀▀▀[0m               [33m▄███████▌ ▄▄▄███▄[0m
+[33m██████████▌[0m       [33m▀██████▄████▀███▌[0;1;30m▄[0m                [33m▄█████████▄████████[0m      [33m▄██[0m
+[33m█████████[0m           [33m▀███████▌ ▐███▌[0;1;30m█▌[0m             [33m▄███████▀ ▄█████▀▀▀██[0m   [33m▄█████[0m
+[33m████████[0m              [33m▀██████▄ ▀██▌[0;1;30m█▌[0m      [33m▄▄[0m   [33m▄███████▀[0;1;30m▄▀[0;33m▐█████▌[0m   [33m▐█▐████████[0m
+[33m███████[0m     [33m▄███▀[0m       [33m▀████████▀ [0;1;30m▀[0m     [33m▄████▄▐██████▀[0;1;30m▄█▀[0;33m ▐██████▄ ▄██ ▀███████[0m
+[33m██████[0m                     [33m▀█████████▄▄█████████▀██████▄[0;1;30m▀▄[0;33m  ██████▄████ [0;1;30m▀▄[0;33m▀█████[0m
+[33m████▀[0m                        [33m▀███████████████████▌▀▀████▌[0;1;30m▐▌[0;33m  ▀▀▀▄██████[0m   [1;30m▀█▄[0;33m▀▀█[0m
+[33m█▀▀[0m                          [33m ▄█▀██████████████▀[0m    [33m▐██▀[0;1;30m▄▀[0m    [33m▄███████▀[0m      [1;30m▀▀[0;33m▐[0m
+[33m█████▄ ▀▀▀████▀▀[0m       [33m▀▀[0m      [33m▄███████▀[0m
+                                    [33m▄█████▀[0m    [33m▐██▄[0m                [33m▄███████▀  ▄▄[0m
+[33m████▀[0;1;30;43m▄[0;1;30;40m▄▀[0m     [33m▐████▄▄[0m          [33m▄██▄ ▐██▀▄▄████[0m                             [33m▄▄▄██▀[0m
+[33m▀▀[0;1;30m▄█▀▀[0m         [33m▀██████▄▄▄[0m   [33m▄████▀▄██████████[0m                          [33m▀▀▀▀  [0;1;30m▀▀▀[0m
+[1;30m   [0m              [33m▀█████████████▀██████████▀▀[0m
+                                                      [33m▀▀███████▀ ▄███████▀▀ [0;1;30m▄▄▀[0;33m▀[0m
+[33m▀██▄██████▀▀ [0;1;30m▄▄█▀▀[0m
+[1;30mstone that the builder refuse,[0m                             [33m▐█████▀▀ [0;1;30m▄▄██▀▀[0m
+[1;30mshall always be the head corner stone.[0m                       [33m▀▀ [0;1;30m▄▄▀▀▀[0m
+                                                                           [1;30m22222[0m'

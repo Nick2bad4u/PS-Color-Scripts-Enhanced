@@ -409,6 +409,261 @@
             "issueType": "derivative-attribution-review",
             "family": "16c-sense-18-us-die",
             "reason": "Reviewed title text: 'after the years' is prose within the artwork, not a derivative-source attribution."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-bmbook22-ave-cl20",
+            "reason": "Seven visually independent illustrated logo panels were preserved at reviewed source transitions; the six-part minimum would bisect or combine unrelated compositions."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-glue-35-ns-coll5",
+            "reason": "Eight complete illustrated logo panels were preserved at reviewed source transitions; the six-part minimum would combine unrelated compositions."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-ice-200102a-09-backg",
+            "reason": "The three parts are three distinct complete background designs; reducing to two would combine or bisect separate works."
+        },
+        {
+            "issueType": "continuous-split-review",
+            "family": "16c-bmbook22-ave-cl20",
+            "reason": "The flagged row-41 transition separates complete logo compositions in the official preview; no rendered cells were cropped or reflowed."
+        },
+        {
+            "issueType": "continuous-split-review",
+            "family": "16c-glue-36-22-slay",
+            "reason": "The dense row-47 transition separates two complete standalone compositions confirmed against the official preview."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-2fluid2-u3-shl",
+            "reason": "Reviewed false positive: 'died after 3 packs' is scene-history prose, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-bommc01-mmc27-07",
+            "reason": "Reviewed false positive: 'ripped hers out' is figurative narrative text about heartbreak, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-l0p12-01-sk-12th",
+            "reason": "Reviewed false positive: 'some days after the abstract party 2001' dates the work's creation, not an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-tus-01-smp-oz-2",
+            "reason": "Reviewed artist statement: Shrimp says 'I drew this' and names Discofunk only as stylistic influence, not as an external source artwork."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-1fluid1-del-1-part01",
+            "reason": "The 13 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-bmbook22-jr-goat",
+            "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-bmbook22-us-sec7",
+            "reason": "The 5 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-galza-10-crs-fds",
+            "reason": "The 4 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-glue-35-gj-cwo",
+            "reason": "The 7 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-glue-35-gj-tir",
+            "reason": "The 7 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-glue-36-gj-dope",
+            "reason": "The 5 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-glue-36-gj-geng",
+            "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-hiero-05-fed-beta",
+            "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-hiero-05-us-core1",
+            "reason": "The 4 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-hiero-06-ns-hg7",
+            "reason": "The 4 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-ikeadeus-bym-ma",
+            "reason": "The 5 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-ikeadeus-ds-ikea",
+            "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-ikeadeus-mmang-wm",
+            "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-jtxa-04-crs-xtr",
+            "reason": "The 8 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-l0p10-01-sk-kore",
+            "reason": "The 4 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-l0p10-01-sk-rappi",
+            "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-l0p12-01-ave-lp3",
+            "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-l0p12-01-us-thing",
+            "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-l0p12-01-wdk-rood",
+            "reason": "The 4 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-lure001-avg-nfo1",
+            "reason": "The 4 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-lure001-avg-pyro",
+            "reason": "The 5 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-mimic31-lmenase",
+            "reason": "The 6 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-sae-006-m0d-beer",
+            "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-sae005-m0d-shre",
+            "reason": "The 4 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-sclr-14-phz-neam",
+            "reason": "The 8 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-sclr-22-x-s-real",
+            "reason": "The 4 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-smr-05-mph-clr",
+            "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-tus-02-us-cen",
+            "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-wrlk001-gj-wl2",
+            "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-bmbook22-ave-cl20-part02",
+            "reason": "The 6 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-bmbook22-ave-cl20-part04",
+            "reason": "The 6 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-bmbook22-ave-cl20-part06",
+            "reason": "The 3 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-bmbook22-us-bm01",
+            "reason": "The 6 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-galza-10-crs-fds",
+            "reason": "The 5 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-galza-10-crs-for",
+            "reason": "The 6 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-hiero-05-avg-k31",
+            "reason": "The 3 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-jtxa-04-crs-xtr",
+            "reason": "The 7 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-l0p12-01-sk-12th-part04",
+            "reason": "The 3 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-lure001-avg-nfo1",
+            "reason": "The 4 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-lure001-avg-pyro",
+            "reason": "The 3 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-spr-01-mst-eye2",
+            "reason": "The 3 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
         }
     ],
     "schemaVersion": 1
