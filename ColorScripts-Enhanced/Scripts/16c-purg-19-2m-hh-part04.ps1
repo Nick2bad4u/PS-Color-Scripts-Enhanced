@@ -1,0 +1,59 @@
+﻿# Converted from: 2m-hh.ans
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/purg-19/raw/2m-hh.ans
+# Source Revision: archive-sha256:973645330deeaa55200a76667992f7df744f6791bfc9d10652f5f3b6ae2bccbf
+# Source SHA-256: 612a5ef60efd54675a3355e4c7728f3a3970944739579e40ef0c55bf44a102a0
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: 2m-hh.ans by 2mStone (purg!logo's); released in purg-19 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: Happy Halloween!
+# SAUCE Author: 2mStone
+# SAUCE Group: purg!logo's
+# SAUCE Date: 19981028
+# SAUCE Dimensions: 80x174
+# Lines: 133-174
+# Columns: 1-80
+
+Write-Host '
+                                        [1;34;45m░░░▒▒░[0;1;34;40m█[0m      [1;34m▄[0;1;34;45m▒▒▓░░▒▒▓[0m     [1;33ml[0m
+        [1;34m▄▄▄▄▄▄[0m           [1;34m▄████▄[0m          [1;35;45m░[0;1;34;45m░░░▒[0;35m▌[0m    [1;34m▄[0;1;34;45m░░░▒[0;35m▀[0;1;34;45m▒░░░[0;1;34;40m▌[0m   [1;33ml[0m
+      [1;34m▄[0;1;34;45m█[0;1;34;40m████████▄[0m       [1;34m████████▄[0m        [35m▐[0;1;35;45m░[0;1;34;45m▒[0;1;35;45m░[0;1;34;45m░[0;35m▌[0;37m  [0;35m▄[0;1;35;45m▒[0;1;34;45m░░[0;35m▀▀[0;37m  [0;1;35;45m░░[0;1;34;45m░▓[0;1;34;40m▌[0m [1;33ma[0m
+     [1;34m███[0;1;34;45m████[0;1;34;40m█[0;1;34;45m▓▓[0;1;34;40m███[0m     [1;34m█████[0;1;34;45m▓▓[0;1;34;40m███▌[0m        [1;35;45m░░░░[0m [35m▄[0;1;35;45m░▒[0;35m▀[0m      [1;35;45m░░░░[0;35m▌[0m
+    [1;34m▐[0;1;34;45m█▓[0;1;34;40m█[0;1;34;45m█████▓▓▒[0;1;34;40m██▌[0m   [1;34m▐[0;1;34;45m▓[0;1;34;40m█[0;1;34;45m▓[0;1;34;40m██[0;1;34;45m█▓▓[0;1;34;40m███[0m        [35m▐[0;1;35;45m▒░░░[0;35m▀[0m         [1;35;45m░░░░[0m
+    [1;34m▐█[0;1;34;45m▓[0;1;34;40m█[0;1;34;45m▓▓███████[0;1;34;40m█▌[0m    [1;34;45m▓[0;1;34;40m██[0;1;34;45m█[0;1;34;40m█[0;1;34;45m▒█[0;1;34;40m████[0m         [1;35;45m▒▒▒[0m           [1;35m▐[0;1;35;45m▒░░[0m
+     [1;34;45m▓▓[0;1;34;40m█[0;1;34;45m▓▒[0;1;34;40m█[0;1;34;45m▒▓█▓▓█[0;1;34;40m█[0m     [1;34m▐[0;1;34;45m▓▓[0;1;34;40m███[0;1;34;45m▒[0;1;34;40m███[0m          [1;35;45m▓▓▒[0m           [1;35m▐[0;1;35;45m▒░[0;35m▌[0m
+      [35m▀[0;1;34;45m▒▓▓[0;1;34;40m█[0;1;34;45m▒[0;1;34;40m█[0;1;34;45m▒▒[0;1;34;40m█[0;1;34;45m▓[0;35m▌[0m      [1;34;45m▓▓[0;1;34;40m█[0;1;34;45m▒[0;1;34;40m█[0;1;34;45m▓█[0;1;34;40m█[0m            [1;35;45m▓▓[0m           [1;35m▐[0;1;35;45m▒▒[0;35m▌[0m
+       [35m▀[0;1;34;45m░▒▒▓▓▓▓▒[0;1;34;40m█[0m        [1;34;45m▓▓▓[0;1;34;40m█[0;1;34;45m▒▒[0;1;34;40m█[0m            [1;35m▐[0;1;35;45m▓[0m           [1;35m▐[0;1;35;45m▓▒[0;1;30;40m [0m
+        [1;30m [0;1;34;45m░░▒▒▓▓▓[0;1;34;40m█[0m        [1;34m▀[0;1;34;45m▒▒▓▓▓[0;1;34;40m█[0m       [1;33my[0m     [1;35;45m▓[0m           [1;35m▐[0;1;35;45m▓▓[0;1;30;40m [0m
+          [1;34;45m░░░▒▒░[0;1;34;40m█[0m      [1;34m▄[0;1;34;45m▒▒▓░░▒▒▓[0m     [1;33mp[0m       [1;35m▐[0m           [1;35m▐[0;1;35;45m▓[0;1;35;40m▌[0;1;30;40m [0m
+           [1;35;45m░[0;1;34;45m░░░▒[0;35m▌[0m    [1;34m▄[0;1;34;45m░░░▒[0;35m▀[0;1;34;45m▒░░░[0;1;34;40m▌[0m   [1;33mp[0m                     [1;35m▐[0;1;35;45m▓[0;1;35;40m▌[0;1;30;40m [0m
+           [35m▐[0;1;35;45m░[0;1;34;45m▒[0;1;35;45m░[0;1;34;45m░[0;35m▌[0;37m  [0;35m▄[0;1;35;45m▒[0;1;34;45m░░[0;35m▀▀[0;37m  [0;1;35;45m░░[0;1;34;45m░▓[0;1;34;40m▌[0m [1;33ma[0m                       [1;35m▐[0;1;35;45m▓[0;1;30;40m  [0m
+            [1;35;45m░░░░[0m [35m▄[0;1;35;45m░▒[0;35m▀[0m      [1;35;45m░░░░[0;35m▌[0m                         [1;35m▐▌[0m
+            [35m▐[0;1;35;45m▒░░░[0;35m▀[0m         [1;35;45m░░░░[0m                          [1;35m▐[0m
+             [1;35;45m▒▒▒[0m           [1;35m▐[0;1;35;45m▒░░[0m                          [1;30m [0m
+             [1;35;45m▓▓▒[0m           [1;35m▐[0;1;35;45m▒░[0;35m▌[0m
+              [1;35;45m▓▓[0m           [1;35m▐[0;1;35;45m▒▒[0;35m▌[0m
+              [1;35m▐[0;1;35;45m▓[0m           [1;35m▐[0;1;35;45m▓▒[0;1;30;40m [0m
+               [1;35;45m▓[0m           [1;35m▐[0;1;35;45m▓▓[0;1;30;40m [0m
+               [1;35m▐[0m           [1;35m▐[0;1;35;45m▓[0;1;35;40m▌[0;1;30;40m [0m
+                           [1;35m▐[0;1;35;45m▓[0;1;35;40m▌[0;1;30;40m [0m
+                           [1;35m▐[0;1;35;45m▓[0;1;30;40m  [0m
+                           [1;35m▐▌[0m
+                           [1;35m▐[0m
+[1;30m------------------------------------bobbit--------------------------------------[0m
+[1;30mI know my shading still needs work, but I think I''ve made some noticible[0m
+[1;30mimprovments.[0m [1;30m=][0m [1;30mAnd yes, I block copied and pasted the H. So what, I got lazy!@#[0m
+[1;30m;> AAAAANNNDDD yes, I realize that I SUCK at hair... give me time.... =)[0m
+[1;30mAlso, note that I left the background blank ON PURPOSE. I''m going for that[0m
+[1;30mwhole, fade to black thing... :p[0m
+
+[1;30mAnyways![0m
+
+[1;30mThis is for ANYONE to use, so go ahead and use it if you like it - just leave in[0m
+[1;30mthe inits <not neccessarily the logo at the top, just the inits beside the [0m
+[1;30mskull).[0m
+
+[1;30mGreets to: Tung-Lo, DyingSoul, Filth, Tee_Are, Jandor, BlackEyez, Gwydian, [0m
+           [1;30mDJ_Lethal, SOR, and anyone else who I fergot! :)[0m
+                                                                         [1;30m  -2m[0m
+                                                                       [1;30m    latez[0m'
