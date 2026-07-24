@@ -336,6 +336,24 @@ test("ANSI analysis preserves cell geometry and detects visible color families",
         analysis.renderSha256,
         "691028cd4f4a9bb8933cf47388d03ba1be2adaa8ed090c486bd09558247a7925"
     );
+    assert.match(analysis.normalizedRenderSha256, /^[a-f\d]{64}$/u);
+});
+
+test("ANSI analysis separately detects identical generated gallery output", () => {
+    const art = "\u001b[31mR\u001b[32mG\u001b[34mB\u001b[0m";
+    const withoutSourceMargin = analyzeAnsiBuffer(Buffer.from(art, "binary"));
+    const withSourceMargin = analyzeAnsiBuffer(
+        Buffer.from(`\r\n${art}`, "binary")
+    );
+
+    assert.notEqual(
+        withoutSourceMargin.renderSha256,
+        withSourceMargin.renderSha256
+    );
+    assert.equal(
+        withoutSourceMargin.normalizedRenderSha256,
+        withSourceMargin.normalizedRenderSha256
+    );
 });
 
 test("ANSI analysis fingerprints CP437 graphic controls as visible cells", () => {
@@ -426,6 +444,7 @@ test("classification rejects duplicates and low-color art before manual review",
         analysis: {
             sourceSha256: "a".repeat(64),
             renderSha256: "b".repeat(64),
+            normalizedRenderSha256: "c".repeat(64),
             warnings: [],
             colorFamilyCount: 3,
             width: 80,
@@ -438,6 +457,13 @@ test("classification rejects duplicates and low-color art before manual review",
             render: new Set(),
         }).disposition,
         "already-imported-source"
+    );
+    assert.equal(
+        classifyCandidate(base, {
+            source: new Set(),
+            render: new Set(["c".repeat(64)]),
+        }).disposition,
+        "already-imported-render"
     );
     assert.equal(
         classifyCandidate(
@@ -603,6 +629,37 @@ test("scan-local duplicates retain one deterministic canonical candidate", () =>
     assert.equal(candidates[2].duplicateOf, candidates[0].id);
 });
 
+test("scan-local duplicate detection prefers normalized gallery output", () => {
+    const candidates = deduplicateCandidates([
+        {
+            id: "16colors:pack/ORIGINAL.ANS",
+            disposition: "pending-review",
+            review: true,
+            artists: ["Artist"],
+            analysis: {
+                sourceSha256: "a".repeat(64),
+                renderSha256: "b".repeat(64),
+                normalizedRenderSha256: "c".repeat(64),
+            },
+        },
+        {
+            id: "16colors:pack/REPUBLISHED.ANS",
+            disposition: "pending-review",
+            review: true,
+            artists: ["Artist"],
+            analysis: {
+                sourceSha256: "d".repeat(64),
+                renderSha256: "e".repeat(64),
+                normalizedRenderSha256: "c".repeat(64),
+            },
+        },
+    ]);
+
+    assert.equal(candidates[0].disposition, "pending-review");
+    assert.equal(candidates[1].disposition, "rejected-duplicate-render");
+    assert.equal(candidates[1].duplicateOf, candidates[0].id);
+});
+
 test("manual rejections remain canonical across duplicate repacks", () => {
     const analysis = {
         sourceSha256: "d".repeat(64),
@@ -649,7 +706,7 @@ test("existing script render indexing is cached and ignores generated presentati
     const second = indexExistingScriptRenders(scriptsDirectory, cachePath);
     const sourceFingerprint = analyzeAnsiBuffer(
         Buffer.from("\u001b[31mR\u001b[32mG\u001b[34mB\u001b[0m", "binary")
-    ).renderSha256;
+    ).normalizedRenderSha256;
 
     assert.equal(first.indexed, 2);
     assert.equal(first.unique, 1);

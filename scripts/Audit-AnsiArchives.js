@@ -14,6 +14,7 @@ const {
     resolveSauceEncoding,
     stripSauce,
     MAX_INPUT_BYTES,
+    MAX_TERMINAL_COLUMNS,
 } = require("./Convert-AnsiToColorScript.js");
 const { extractLinesFromPs1 } = require("./Split-AnsiFile.js");
 
@@ -1855,6 +1856,31 @@ function fingerprintTerminal(terminal) {
 }
 
 /**
+ * Fingerprint the terminal content as it will appear in a generated gallery
+ * script. Archival scripts always start on a fresh display line, so a source
+ * that already begins with one empty row and an otherwise identical source
+ * without that row produce the same Write-Host output. Reparse the serialized
+ * rows with that presentation row removed to detect the duplicate without
+ * weakening the geometry-sensitive archival render hash.
+ *
+ * @param {import("./Convert-AnsiToColorScript.js").TerminalEmulator} terminal
+ *
+ * @returns {string}
+ */
+function fingerprintGalleryOutput(terminal) {
+    const lines = terminal.buildLines();
+    if (lines[0] === "") {
+        lines.shift();
+    }
+    const normalized = convertAnsiToPs1(lines.join("\r\n"), {
+        columns: MAX_TERMINAL_COLUMNS,
+        autoWrap: false,
+        stripSpaceBackground: false,
+    });
+    return fingerprintTerminal(normalized.terminal).renderSha256;
+}
+
+/**
  * Keep audit reports compact and JSON-native. The converter's SAUCE record
  * intentionally retains the fixed-width tInfoS Buffer, but serializing that
  * Buffer for every archive candidate would expand it into an object of byte
@@ -1919,6 +1945,9 @@ function analyzeAnsiRender(raw) {
         analysis: {
             sourceSha256: sha256(raw),
             renderSha256: fingerprint.renderSha256,
+            normalizedRenderSha256: fingerprintGalleryOutput(
+                converted.terminal
+            ),
             colorFamilies: fingerprint.families,
             colorFamilyCount: fingerprint.families.length,
             width:
@@ -1992,7 +2021,7 @@ function indexExistingScriptRenders(scriptsDirectory, cachePath) {
      *     {
      *         size: number;
      *         mtimeMs: number;
-     *         renderSha256?: string;
+     *         normalizedRenderSha256?: string;
      *         error?: string;
      *     }
      * >}
@@ -2004,7 +2033,7 @@ function indexExistingScriptRenders(scriptsDirectory, cachePath) {
                 JSON.parse(fs.readFileSync(cachePath, "utf8")),
                 "existing render cache"
             );
-            if (parsed.algorithmVersion === 2) {
+            if (parsed.algorithmVersion === 3) {
                 cached = /** @type {typeof cached} */ (parsed.files || {});
             }
         } catch {
@@ -2046,8 +2075,9 @@ function indexExistingScriptRenders(scriptsDirectory, cachePath) {
                 next[scriptName] = {
                     size: stats.size,
                     mtimeMs: stats.mtimeMs,
-                    renderSha256: fingerprintTerminal(converted.terminal)
-                        .renderSha256,
+                    normalizedRenderSha256: fingerprintTerminal(
+                        converted.terminal
+                    ).renderSha256,
                 };
             } catch (error) {
                 next[scriptName] = {
@@ -2059,18 +2089,18 @@ function indexExistingScriptRenders(scriptsDirectory, cachePath) {
             }
         }
         const entry = next[scriptName];
-        if (entry.renderSha256) {
-            hashes.add(entry.renderSha256);
+        if (entry.normalizedRenderSha256) {
+            hashes.add(entry.normalizedRenderSha256);
         } else if (entry.error) {
             failed[scriptName] = entry.error;
         }
     }
     writeFileAtomic(
         cachePath,
-        `${JSON.stringify({ algorithmVersion: 2, files: next }, null, 2)}\n`
+        `${JSON.stringify({ algorithmVersion: 3, files: next }, null, 2)}\n`
     );
     const indexed = Object.values(next).filter(
-        (entry) => typeof entry.renderSha256 === "string"
+        (entry) => typeof entry.normalizedRenderSha256 === "string"
     ).length;
     return { hashes, indexed, unique: hashes.size, failed };
 }
@@ -2097,9 +2127,9 @@ function classifyCandidate(candidate, existingHashes) {
         analysis.sourceSha256,
         `${candidate.id} source hash`
     );
-    const renderHash = requireString(
-        analysis.renderSha256,
-        `${candidate.id} render hash`
+    const normalizedRenderHash = requireString(
+        analysis.normalizedRenderSha256 || analysis.renderSha256,
+        `${candidate.id} normalized render hash`
     );
     if (existingHashes.source.has(sourceHash)) {
         return {
@@ -2108,7 +2138,7 @@ function classifyCandidate(candidate, existingHashes) {
             review: false,
         };
     }
-    if (existingHashes.render.has(renderHash)) {
+    if (existingHashes.render.has(normalizedRenderHash)) {
         return {
             ...candidate,
             disposition: "already-imported-render",
@@ -2645,7 +2675,7 @@ function deduplicateCandidates(candidates) {
             return priority || String(left.id).localeCompare(String(right.id));
         })[0];
     /**
-     * @param {"sourceSha256" | "renderSha256"} hashName
+     * @param {"sourceSha256" | "renderSha256" | "normalizedRenderSha256"} hashName
      * @param {Set<string>} excludedDispositions
      *
      * @returns {Map<string, Record<string, unknown>[]>}
@@ -2695,8 +2725,24 @@ function deduplicateCandidates(candidates) {
         ...sourceExclusions,
         "rejected-duplicate-source",
     ]);
+    for (const candidate of records) {
+        const analysis = candidate.analysis;
+        if (!analysis || typeof analysis !== "object") {
+            continue;
+        }
+        const analysisRecord = /** @type {Record<string, unknown>} */ (
+            analysis
+        );
+        if (
+            typeof analysisRecord.normalizedRenderSha256 !== "string" &&
+            typeof analysisRecord.renderSha256 === "string"
+        ) {
+            analysisRecord.normalizedRenderSha256 =
+                analysisRecord.renderSha256;
+        }
+    }
     for (const group of groupByHash(
-        "renderSha256",
+        "normalizedRenderSha256",
         renderExclusions
     ).values()) {
         if (group.length < 2) continue;
@@ -3099,6 +3145,7 @@ module.exports = {
     extractSixteenColorsCandidates,
     extractZipEntry,
     fetchCached,
+    fingerprintGalleryOutput,
     fingerprintTerminal,
     getColorFamily,
     listSixteenColorsPacks,
