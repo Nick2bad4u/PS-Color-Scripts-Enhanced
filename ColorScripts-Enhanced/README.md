@@ -41,7 +41,7 @@ A cross-platform PowerShell module for discovering and displaying ANSI colorscri
 
 ## ✨ Features
 
-- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->10174+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
+- 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->12591+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
 - ⚡ **Selective Caching** — Reuses output for the 15 computational renderers listed in `CachePolicy.psd1`; deterministic bundled scripts render in-process
 - 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
 - ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
@@ -258,7 +258,7 @@ Project-authored code is provided under the [Unlicense](https://github.com/Nick2
 
 ### Artwork Sources and Provenance
 
-New curated imports are mapped in [ArtworkProvenance.psd1](ArtworkProvenance.psd1), with preserved evidence under [ThirdPartyNotices](ThirdPartyNotices/), a compact [archive checkpoint](AnsiArchiveCurationCheckpoint.json), and browsing/licensing context in the [Artwork Sources guide](docs/ARTWORK_SOURCES.md). This includes [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, preserved as six contiguous, full-width scripts, and 126 unique Roy-authored works represented by 153 scripts under FAL-1.3. The exhaustive 2000-2026 16colors review is complete: 14,623 candidates across 1,239 packs yielded 3,674 accepted works and 6,642 scripts. The ten earlier years from 1990 through 1999 remain under review. The older catalog predates complete per-file provenance records; missing historical attribution must not be replaced with guesses.
+New curated imports are mapped in [ArtworkProvenance.psd1](ArtworkProvenance.psd1), with preserved evidence under [ThirdPartyNotices](ThirdPartyNotices/), a compact [archive checkpoint](AnsiArchiveCurationCheckpoint.json), and browsing/licensing context in the [Artwork Sources guide](docs/ARTWORK_SOURCES.md). This includes [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, preserved as six contiguous, full-width scripts, and 126 unique Roy-authored works represented by 153 scripts under FAL-1.3. The exhaustive 1998-2026 16colors review is complete: 23,569 candidates across 2,212 packs yielded 5,788 accepted works and 9,059 scripts. The eight earlier years from 1990 through 1997 remain under review. The older catalog predates complete per-file provenance records; missing historical attribution must not be replaced with guesses.
 
 ---
 

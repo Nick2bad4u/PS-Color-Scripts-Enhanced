@@ -15,7 +15,7 @@ npm run lint:gitleaks
 npm run lint:yamllint
 ```
 
-`scripts/Lint-Module.ps1` and `PSScriptAnalyzerSettings.psd1` own PowerShell analysis. Bundled colorscripts are treated as art/data and are validated by the corpus and conversion tests rather than applying the full module analyzer rules to all <!-- COLOR_SCRIPT_COUNT_PLUS -->10174+<!-- /COLOR_SCRIPT_COUNT_PLUS --> files.
+`scripts/Lint-Module.ps1` and `PSScriptAnalyzerSettings.psd1` own PowerShell analysis. Bundled colorscripts are treated as art/data and are validated by the corpus and conversion tests rather than applying the full module analyzer rules to all <!-- COLOR_SCRIPT_COUNT_PLUS -->12591+<!-- /COLOR_SCRIPT_COUNT_PLUS --> files.
 
 ## Optional MegaLinter Use
 
