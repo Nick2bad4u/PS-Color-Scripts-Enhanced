@@ -284,6 +284,131 @@
             "issueType": "avoidable-extra-part",
             "family": "16c-mist-30-zii-ubbs",
             "reason": "The six parts follow six coherent source panels separated by blank-row bands at rows 26-29, 54-56, 81-83, 108-110, and 135-137; adjacent complete panels do not fit within 50 rows."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-ice-200208-qz-logo1",
+            "reason": "The five parts preserve five complete standalone logos at reviewed source transitions; minimizing the part count would combine unrelated works or cut through a logo."
+        },
+        {
+            "issueType": "mergeable-adjacent-parts",
+            "family": "16c-ice-200208-qz-logo1",
+            "reason": "The numerically mergeable ranges are independent logos and remain separate so every random gallery entry is a coherent work."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-ice-200208-qz-logo1-part01",
+            "reason": "The three trailing source rows are the authentic separator after the first complete logo."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-ice-200208-qz-logo1-part02",
+            "reason": "The four trailing source rows are the authentic separator after the second complete logo."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-ice-200208-qz-logo1-part03",
+            "reason": "The four trailing source rows are the authentic separator after the third complete logo."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-ice-200208-qz-logo1-part04",
+            "reason": "The four trailing source rows are the authentic separator after the fourth complete logo."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-ice-200210-sm-colly",
+            "reason": "The seven parts preserve seven visually independent ANSI panels at reviewed source transitions; reducing the count would combine unrelated compositions."
+        },
+        {
+            "issueType": "mergeable-adjacent-parts",
+            "family": "16c-ice-200210-sm-colly",
+            "reason": "The numerically mergeable ranges contain independent panels and remain separate so every random gallery entry is coherent."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-sense09j-po-col2",
+            "reason": "The three parts preserve three complete standalone logo and interface panels at reviewed source transitions."
+        },
+        {
+            "issueType": "avoidable-extra-part",
+            "family": "16c-spr-06-mst-sin",
+            "reason": "The six parts preserve six complete standalone logos at reviewed source transitions; minimizing the part count would combine unrelated works."
+        },
+        {
+            "issueType": "mergeable-adjacent-parts",
+            "family": "16c-spr-06-mst-sin",
+            "reason": "The numerically mergeable final ranges are independent logos and remain separate so every random gallery entry is coherent."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-spr-06-mst-sin-part03",
+            "reason": "The six trailing source rows are the authentic separator after the third complete logo."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-spr-06-mst-sin-part04",
+            "reason": "The five trailing source rows are the authentic separator after the fourth complete logo."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-spr-06-mst-sin-part05",
+            "reason": "The four trailing source rows are the authentic separator after the fifth complete logo."
+        },
+        {
+            "issueType": "continuous-split-review",
+            "family": "16c-rev0902-bym-ld01",
+            "reason": "The dense row-42 boundary separates two complete illustrated interface panels; both sides were compared with the official preview and are coherent standalone entries."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-jasper05-ra-rikos",
+            "reason": "Reviewed false positive: 'after being away' is personal prose, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-l0p16-02-sk-l001",
+            "reason": "Reviewed false positive: both uses of 'after' discuss exams and vacation, not an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-lure003-cl-lure",
+            "reason": "Reviewed false positive: 'after smoking' is the artist's personal prose, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-rev0402-t1-rev01",
+            "reason": "Reviewed false positive: 'after a long time out' describes the artist returning to ANSI, not an external source."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-rev0502-smp-loop",
+            "reason": "Reviewed self-attribution: the embedded 'Original artwork by Shrimp' credit agrees with the SAUCE author and imported attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-sclr-27-f-nap",
+            "reason": "Reviewed false positive: 'life after death' is text within the artwork, not a derivative-source attribution."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-sense09j-cg-tma2",
+            "reason": "Reviewed title text: 'The Mourning After' is the depicted BBS name, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-sense10j-plz-sens",
+            "reason": "Reviewed self-description: the artist explicitly identifies the ANSI as completely original."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-mimic65-jn-speed",
+            "reason": "Reviewed false positive: 'colored+fixed after the compo' describes post-competition revision work, not an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-sense-18-us-die",
+            "reason": "Reviewed title text: 'after the years' is prose within the artwork, not a derivative-source attribution."
         }
     ],
     "schemaVersion": 1

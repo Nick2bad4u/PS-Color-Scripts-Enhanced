@@ -88,7 +88,9 @@ Describe 'Curated ANSI artwork provenance' {
                 $entry.HasSauce | Should -BeOfType ([bool])
                 $entry.IceColors | Should -BeOfType ([bool])
                 if ($entry.HasSauce) {
-                    $entry.SauceDimensions | Should -Match '^\d+x\d+$'
+                    if ($null -ne $entry.SauceDimensions) {
+                        $entry.SauceDimensions | Should -Match '^[1-9]\d*x[1-9]\d*$'
+                    }
                     $entry.SauceFlags | Should -BeOfType ([int])
                     $entry.SauceFont | Should -Not -BeNullOrEmpty
                 }
@@ -133,6 +135,22 @@ Describe 'Curated ANSI artwork provenance' {
             }
             if ($null -ne $entry.SourceColumns) {
                 $contents | Should -Match ([regex]::Escape("# Columns: $($entry.SourceColumns)"))
+            }
+            $sauceDateMatch = [regex]::Match($contents, '(?m)^# SAUCE Date: (?<Date>[^\r\n]+)$')
+            if ($sauceDateMatch.Success) {
+                $parsedSauceDate = [datetime]::MinValue
+                [datetime]::TryParseExact(
+                    $sauceDateMatch.Groups['Date'].Value,
+                    'yyyyMMdd',
+                    [cultureinfo]::InvariantCulture,
+                    [Globalization.DateTimeStyles]::None,
+                    [ref]$parsedSauceDate
+                ) | Should -BeTrue -Because "'$scriptName' must not serialize an incomplete or invalid SAUCE date"
+            }
+            $sauceDimensionsMatch = [regex]::Match($contents, '(?m)^# SAUCE Dimensions: (?<Dimensions>[^\r\n]+)$')
+            if ($sauceDimensionsMatch.Success) {
+                $sauceDimensionsMatch.Groups['Dimensions'].Value |
+                    Should -Match '^[1-9]\d*x[1-9]\d*$' -Because "'$scriptName' must not serialize missing SAUCE dimensions"
             }
             $contents | Should -Not -Match '# Conversion date:'
         }
@@ -334,13 +352,13 @@ Describe 'Curated ANSI artwork provenance' {
     It 'ships a complete compact checkpoint for every finished archive year' {
         $script:Checkpoint.SchemaVersion | Should -Be 1
         $script:Checkpoint.ScanDate | Should -Be '2026-07-23'
-        $script:Checkpoint.Scope.SixteenColorsCompletedYears | Should -Be '2003-2026'
-        $script:Checkpoint.Scope.SixteenColorsPendingYears | Should -Be '1990-2002'
+        $script:Checkpoint.Scope.SixteenColorsCompletedYears | Should -Be '2002-2026'
+        $script:Checkpoint.Scope.SixteenColorsPendingYears | Should -Be '1990-2001'
         $script:Checkpoint.CombinedInventorySha256 | Should -Match '^[0-9a-f]{64}$'
 
         $years = @($script:Checkpoint.SixteenColors.Years)
-        $years | Should -HaveCount 24
-        @($years.Year) | Should -Be (2003..2026)
+        $years | Should -HaveCount 25
+        @($years.Year) | Should -Be (2002..2026)
         $script:Checkpoint.SixteenColors.Totals.PackCount |
             Should -Be ($years.PackCount | Measure-Object -Sum).Sum
         $script:Checkpoint.SixteenColors.Totals.CandidateCount |
@@ -367,7 +385,7 @@ Describe 'Curated ANSI artwork provenance' {
             $knownSourceHashes[$entry.SourceSha256] = $true
         }
         foreach ($source in $script:Checkpoint.SixteenColors.AcceptedSources) {
-            $source.ArchiveYear | Should -BeIn (2003..2026)
+            $source.ArchiveYear | Should -BeIn (2002..2026)
             $source.SourceUrl | Should -Match '^https://16colo\.rs/pack/'
             $source.SourceSha256 | Should -Match '^[0-9a-f]{64}$'
             $source.RenderSha256 | Should -Match '^[0-9a-f]{64}$'
