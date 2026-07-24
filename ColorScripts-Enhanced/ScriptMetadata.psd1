@@ -74,6 +74,399 @@
         )
 
         Artistic        = @(
+            '16c-aeron-a-bc-aeron',
+            '16c-aeron-a-cw-opp',
+            '16c-aeron-a-dsk-350',
+            '16c-aeron-a-sz-opp',
+            '16c-aeron-a-sz-solar',
+            '16c-aidbox01-kr-kalv2-part01',
+            '16c-aidbox01-kr-kalv2-part02',
+            '16c-arc-16-dlt-arc',
+            '16c-arc-16-s7-wm',
+            '16c-arc-16-tii-arc',
+            '16c-arc-16-tii-arse',
+            '16c-arc-16-tii-sae',
+            '16c-arc-16-tii-twr',
+            '16c-arc-16-us-shs',
+            '16c-arc-17-dlt-arc',
+            '16c-arc-17-us-arc',
+            '16c-arc-17-us-arc2',
+            '16c-arc-17-us-sae',
+            '16c-bleu001-dr-bleu',
+            '16c-bleu001-go-bleu',
+            '16c-bleu001-pr-hell4',
+            '16c-bleu001-us-nd',
+            '16c-bmbook21-ave-ac',
+            '16c-bmbook21-shn-cats',
+            '16c-bmbook21-sm-burn',
+            '16c-bmbook21-sp-bm2',
+            '16c-bmbook21-t-crack',
+            '16c-bmbook21-t-hel',
+            '16c-bmbook21-t-shine',
+            '16c-bmbook21-us-nerp',
+            '16c-bmbook21-us-parad',
+            '16c-bmbook21-us-phat',
+            '16c-bmbook21-us-phx1',
+            '16c-buttz01-ppe-font',
+            '16c-buttz01-zii-c-9',
+            '16c-buttz01-zii-c-9b',
+            '16c-buttz01-zii-woez',
+            '16c-buttz02-del-memb',
+            '16c-buttz02-zii-dsrw',
+            '16c-buttz03-avg-bm2',
+            '16c-buttz03-avg-br1',
+            '16c-buttz03-ppe-fm3',
+            '16c-buttz03-s7-blas',
+            '16c-buttz03-sq-br01',
+            '16c-buttz03-us-bfont',
+            '16c-ceg-010a-crs-jtx',
+            '16c-ceg-010a-crs-mad',
+            '16c-ceg-010a-crs-orio',
+            '16c-ceg-010a-mb-icede',
+            '16c-ceg-010a-mb-irn-part01',
+            '16c-ceg-010a-mb-irn-part02',
+            '16c-ceg-010a-mb-malol',
+            '16c-cro0400-dntph2a',
+            '16c-cro0400-rad001',
+            '16c-cro0400-rad003',
+            '16c-eco-17-074-fina',
+            '16c-eco-17-074-kerm',
+            '16c-eco-17-cl-eco',
+            '16c-eco-17-cpl-opt',
+            '16c-eco-17-pd-eco',
+            '16c-eco-17-pr-woe',
+            '16c-eco-17-slc-coll-part01',
+            '16c-eco-17-slc-coll-part02',
+            '16c-eco-17-us-tea',
+            '16c-epic0005-ax-inhal',
+            '16c-epic0005-us-wolf',
+            '16c-epic0006-h7-asm2k',
+            '16c-epic0007-del-plf2',
+            '16c-epic0007-ns-epic7',
+            '16c-equate01-po-pb01-part01',
+            '16c-equate01-po-pb01-part02',
+            '16c-equate01-po-pb01-part03',
+            '16c-equate01-po-pb01-part04',
+            '16c-equate01-po-pb01-part05',
+            '16c-equate01-po-uglee-part01',
+            '16c-equate01-po-uglee-part02',
+            '16c-equate01-po-uglee-part03',
+            '16c-galza-08-om-lice',
+            '16c-gen-09-kmb-gen2',
+            '16c-gen-09-kmb-gl2k',
+            '16c-gen-09-kmb-stol',
+            '16c-gen-09-l44-gen',
+            '16c-gen-09-rl-prev',
+            '16c-gen-09-rl-raw',
+            '16c-getready-ds-oct',
+            '16c-getready-ma-body',
+            '16c-glue-29-22-medu1',
+            '16c-glue-29-pr-glue',
+            '16c-glue-29-sob-gl2k',
+            '16c-glue-30-22-nvr3',
+            '16c-glue-30-22-nvr4',
+            '16c-glue-30-pr-last',
+            '16c-glue-30-s7-medu',
+            '16c-glue-30-us-used3',
+            '16c-glue-31-us-ds1',
+            '16c-glue-31-us-epic1',
+            '16c-glue-31-us-fuzzz',
+            '16c-glue-31-us-xtc1',
+            '16c-glue-31-zv-caff-part01',
+            '16c-glue-31-zv-caff-part02',
+            '16c-glue-31-zv-col5-part01',
+            '16c-glue-31-zv-col5-part02',
+            '16c-glue-31-zv-col5-part03',
+            '16c-glue-31-zv-col5-part04',
+            '16c-glue-32-tcf-bjob',
+            '16c-glue-32-us-ctv1',
+            '16c-hazmat08-jp-mh1',
+            '16c-hazmat08-tb-haz-part01',
+            '16c-hazmat08-tb-haz-part02',
+            '16c-hazmat09-tb-pvl',
+            '16c-hen-solo1-hen-2',
+            '16c-hiero-02-3i-burn',
+            '16c-hiero-02-cg-hg',
+            '16c-hiero-02-cg-lure0',
+            '16c-hiero-02-d1-elf1',
+            '16c-hiero-02-d1-lure1',
+            '16c-hiero-02-d1-nine1',
+            '16c-hiero-02-k1-aex',
+            '16c-hiero-02-k1-emp1',
+            '16c-hiero-02-k1-main',
+            '16c-hiero-02-k1-statk',
+            '16c-hiero-02-k1-statm',
+            '16c-hiero-02-k1-tt',
+            '16c-hiero-02-k1-urtsc',
+            '16c-hiero-02-k1-v2',
+            '16c-hiero-02-k1-wm',
+            '16c-hiero-02-smi-slt2',
+            '16c-hiero-03-3i-epik',
+            '16c-hiero-03-3i-livem',
+            '16c-hiero-03-avg-ds',
+            '16c-hiero-03-avg-epic',
+            '16c-hiero-03-avg-hier',
+            '16c-hiero-03-cg-avg',
+            '16c-hiero-03-cg-drks',
+            '16c-hiero-03-d1-wm1',
+            '16c-hiero-03-ns-c9b',
+            '16c-hiero-03-ns-hg111',
+            '16c-hiero-03-ns-hg112',
+            '16c-hiero-03-ns-iii',
+            '16c-hiero-03-ns-usddd',
+            '16c-hiero-03-sp-e1',
+            '16c-hiero-03-sp-fm1',
+            '16c-hiero-03-sp-thc1',
+            '16c-hiero-03-us-h2',
+            '16c-hiero-03-us-use4',
+            '16c-hiero-04-avg-hg2',
+            '16c-hiero-04-cg-fm',
+            '16c-hiero-04-d1-hg1',
+            '16c-hiero-04-ns-hg333',
+            '16c-hiero-04-ppe-fm82',
+            '16c-hiero-04-sz-clar1',
+            '16c-hiero-04-us-dank1',
+            '16c-hiero-04-zip-bd',
+            '16c-hiero-04-zip-neck',
+            '16c-ice0001a-09-ice2',
+            '16c-ice0001a-tna-002',
+            '16c-ice0001a-tna-003',
+            '16c-ice0002a-us-idraw',
+            '16c-ice0004a-09-ice3',
+            '16c-ice0004a-09-info',
+            '16c-ice0004a-tna-004',
+            '16c-ice0004a-us-slt1',
+            '16c-ice0005a-09-fc3',
+            '16c-ice0005a-us-001',
+            '16c-ice0010a-mt-back',
+            '16c-ice0012a-prm-m5d',
+            '16c-ice0012a-us-m0d1-part01',
+            '16c-ice0012a-us-m0d1-part02',
+            '16c-ikeauno-zii-ilc1-part01',
+            '16c-ikeauno-zii-ilc1-part02',
+            '16c-ikeauno-zii-ilc1-part03',
+            '16c-jtxa-03-srb-b',
+            '16c-kbsart04-ktz-eb',
+            '16c-kbsart04-lm-ewa',
+            '16c-kbsart04-lm-metal',
+            '16c-kbsart04-sob-de',
+            '16c-kbsart04-sob-mcf',
+            '16c-kbsart05-lemon-kb',
+            '16c-kbsart05-us-inf1',
+            '16c-l0p05-00-riv-nico',
+            '16c-l0p05-00-riv-phto',
+            '16c-l0p05-00-sk-aster',
+            '16c-l0p05-00-sk-confu',
+            '16c-l0p05-00-sk-fcs',
+            '16c-l0p05-00-sk-piese',
+            '16c-l0p05-00-sk-plane',
+            '16c-l0p05-00-sk-screa',
+            '16c-l0p06-00-5p-drago',
+            '16c-l0p06-00-dx-maneo',
+            '16c-l0p06-00-dx-repic',
+            '16c-l0p06-00-dx-sk',
+            '16c-l0p06-00-no-l0p',
+            '16c-l0p06-00-no-simon',
+            '16c-l0p06-00-ppa-drag',
+            '16c-l0p06-00-ppa-noth',
+            '16c-l0p06-00-sk-2400b',
+            '16c-l0p06-00-sk-matri-part01',
+            '16c-l0p06-00-sk-matri-part02',
+            '16c-l0p06-00-sk-noche',
+            '16c-l0p06-00-sk-riven',
+            '16c-l0p06-00-sk-tds',
+            '16c-l0p06-00-sk-zwier',
+            '16c-l0p07-00-no-coll1-part01',
+            '16c-l0p07-00-no-coll1-part02',
+            '16c-l0p07-00-sk-alien',
+            '16c-l0p07-00-sk-insec',
+            '16c-l0p07-00-sk-log01-part01',
+            '16c-l0p07-00-sk-log01-part02',
+            '16c-l0p07-00-sk-log01-part03',
+            '16c-l0p08-00-no-coll2-part01',
+            '16c-l0p08-00-no-coll2-part02',
+            '16c-l0p08-00-no-coll2-part03',
+            '16c-l0p08-00-sk-artc2',
+            '16c-l0p08-00-sk-with',
+            '16c-l0p09-00-ppa-d0n',
+            '16c-l0p09-00-sk-astur',
+            '16c-l0p09-00-sk-deus',
+            '16c-l0p09-00-sk-lo0p',
+            '16c-l0p09-00-sk-logou-part01',
+            '16c-l0p09-00-sk-logou-part02',
+            '16c-l0p09-00-sk-riven',
+            '16c-l0p09-00-sk-x-mas',
+            '16c-l0p09-00-us-gnom',
+            '16c-l0p09-00-us-lo0p',
+            '16c-l0p09-00-us-tlo0p',
+            '16c-locus-08-avg-cg1',
+            '16c-locus-08-avg-raw1',
+            '16c-locus-08-ppe-10',
+            '16c-locus-08-ppe-2112',
+            '16c-locus-08-ppe-a10',
+            '16c-locus-08-us-ks1',
+            '16c-locus-08-us-loc1',
+            '16c-locus-08-us-somb1',
+            '16c-mimic20-bjasc181',
+            '16c-mimic21-emk-acid',
+            '16c-mimic21-gnk-crck',
+            '16c-mimic22-gnk-prev',
+            '16c-mimic25-dr-masc',
+            '16c-mimic25-dr-sys2',
+            '16c-mimic25-mp-july',
+            '16c-mimic27-jn-surp',
+            '16c-mimic28-no-done',
+            '16c-mimic30-dr-iori',
+            '16c-mimic30-gdr-mim2',
+            '16c-omega001-df-omega',
+            '16c-out-0100-out-uc',
+            '16c-out-0100-out-welc',
+            '16c-out-0200-out-dome',
+            '16c-out-0200-out-hmbd',
+            '16c-out-0200-out-tigr',
+            '16c-plenty-bl-loop',
+            '16c-plenty-bl-woju',
+            '16c-plenty-dx-100ln-part01',
+            '16c-plenty-dx-100ln-part02',
+            '16c-plenty-dx-avd',
+            '16c-plenty-dx-gdevl',
+            '16c-plenty-dx-lgs',
+            '16c-plenty-dx-plant',
+            '16c-plenty-ins-plan',
+            '16c-plenty-p0d-agd',
+            '16c-plf-24-mmang-rn',
+            '16c-plf-24-t-grunge',
+            '16c-plf-24-t-prvail',
+            '16c-sac-19-frx-hp01',
+            '16c-sac-19-frx-hp02',
+            '16c-sae-1al-dlt-arc',
+            '16c-sae-1al-dlt-sae',
+            '16c-sae-1al-eb-ecl2',
+            '16c-sae-1al-eb-stile',
+            '16c-sae-1al-eb-tsr',
+            '16c-sae-1bl-eb-wcity',
+            '16c-sae-1cl-us-sae',
+            '16c-sae-2al-eb-santa',
+            '16c-sclr-03-dg-16ium',
+            '16c-sclr-03-dg-1st',
+            '16c-sclr-12-as-pg',
+            '16c-sclr-13-as-acid',
+            '16c-sclr-13-as-gn',
+            '16c-sclr-13-s-she-w',
+            '16c-sclr-13-srb-bezn-part01',
+            '16c-sclr-13-srb-bezn-part02',
+            '16c-sclr-13-srb-bezn-part03',
+            '16c-sclr-13-srb-bezn-part04',
+            '16c-smr-02-xr',
+            '16c-smr-03-as-gbmat',
+            '16c-smr-03-as-lits',
+            '16c-sys2-02-us-used',
+            '16c-sys2-02-zs-btwos',
+            '16c-sys2-02-zs-dahau',
+            '16c-sys2-02-zs-dek',
+            '16c-sys2-02-zs-ko',
+            '16c-sys2-02-zs-mmc5',
+            '16c-sys2-02-zs-sii05',
+            '16c-sys2-03-sm-df3',
+            '16c-sys2-03-sm-s7',
+            '16c-sys2-03-us-girl',
+            '16c-sys2-03-us-plex',
+            '16c-sys2-03-us-wm',
+            '16c-sys2-03-zs-exalt',
+            '16c-sys2-03-zs-free',
+            '16c-sys2-03-zs-worm',
+            '16c-sys2-04-sm-2',
+            '16c-sys2-04-sm-relic',
+            '16c-sys2-04-zs-s213',
+            '16c-sys2-05-im-peas',
+            '16c-sys2-05-sm-wblade',
+            '16c-used-02-ak-ttime',
+            '16c-used-02-avg-ave1',
+            '16c-used-02-avg-ctv1',
+            '16c-used-02-avg-raw1',
+            '16c-used-02-avg-usd1',
+            '16c-used-02-avg-vii',
+            '16c-used-02-cg-ais',
+            '16c-used-02-cg-helli',
+            '16c-used-02-cg-wm',
+            '16c-used-02-d3-used1',
+            '16c-used-02-sp-wm1',
+            '16c-used-02-te-st01',
+            '16c-used-02-te-st02-part01',
+            '16c-used-02-te-st02-part02',
+            '16c-used-02-us-epic1',
+            '16c-used-02-us-epic2',
+            '16c-used-02-us-pw-part01',
+            '16c-used-02-us-pw-part02',
+            '16c-used-02-us-raw1',
+            '16c-used-02-us-used1',
+            '16c-used-03-avg-ais1',
+            '16c-used-03-avg-ave2',
+            '16c-used-03-avg-eco1',
+            '16c-used-03-avg-epi1',
+            '16c-used-03-cg-ais2-part01',
+            '16c-used-03-cg-ais2-part02',
+            '16c-used-03-k1-epic',
+            '16c-used-03-lem-used',
+            '16c-used-03-mr-die01',
+            '16c-used-03-ppe-djec',
+            '16c-used-03-ppe-h5',
+            '16c-used-03-rz-iio',
+            '16c-used-03-rz-used',
+            '16c-used-03-sp-bm1',
+            '16c-used-03-sp-cmm1',
+            '16c-used-03-tr-used',
+            '16c-used-03-us-cia1',
+            '16c-used-03-us-h5',
+            '16c-used-03-us-ihale',
+            '16c-used-03-us-prev1',
+            '16c-used-04-4thcover',
+            '16c-used-04-avg-awe1',
+            '16c-used-04-avg-ice1',
+            '16c-used-04-cg-used2',
+            '16c-used-04-gj-dem',
+            '16c-used-04-gj-drk',
+            '16c-used-04-gj-wm',
+            '16c-used-04-k1-eflow',
+            '16c-used-04-k1-tisx',
+            '16c-used-04-k1-wickm',
+            '16c-used-04-mr-used4',
+            '16c-used-04-ns-c0000-part01',
+            '16c-used-04-ns-c0000-part02',
+            '16c-used-04-ns-c0000-part03',
+            '16c-used-04-ns-c0000-part04',
+            '16c-used-04-ns-used1',
+            '16c-used-04-ppe-smok-part01',
+            '16c-used-04-ppe-smok-part02',
+            '16c-used-04-ppe-smok-part03',
+            '16c-used-04-ppe-wm',
+            '16c-used-04-us-h6',
+            '16c-used-04-us-rant2',
+            '16c-used-05-avg-use1',
+            '16c-used-05-cg-free',
+            '16c-used-05-cg-lure1',
+            '16c-used-05-mr-s701',
+            '16c-used-05-ns-123-part01',
+            '16c-used-05-ns-123-part02',
+            '16c-used-05-ns-123-part03',
+            '16c-used-05-ns-123-part04',
+            '16c-used-05-ns-123-part05',
+            '16c-used-05-ns-123-part06',
+            '16c-used-05-ppe-ice1',
+            '16c-used-05-us-dh01',
+            '16c-used-05-us-inf1',
+            '16c-used-07-mr-bvhc1',
+            '16c-used-07-mr-used6',
+            '16c-used-07-po-idlob-part01',
+            '16c-used-07-po-idlob-part02',
+            '16c-used-666-avg-bm1',
+            '16c-used-666-avg-kbs1',
+            '16c-used-666-mr-id01',
+            '16c-used-666-mr-plf02',
+            '16c-used-666-us-cia',
+            '16c-used-666-us-rzr01',
+            '16c-used-666-us-spade',
+            '16c-used-666-us-tuc1',
             '16c-1fluid1-avg-fld',
             '16c-1fluid1-del-1-part01',
             '16c-1fluid1-del-1-part02',
@@ -9562,6 +9955,399 @@
         )
 
         ASCIIArt        = @(
+            '16c-aeron-a-bc-aeron',
+            '16c-aeron-a-cw-opp',
+            '16c-aeron-a-dsk-350',
+            '16c-aeron-a-sz-opp',
+            '16c-aeron-a-sz-solar',
+            '16c-aidbox01-kr-kalv2-part01',
+            '16c-aidbox01-kr-kalv2-part02',
+            '16c-arc-16-dlt-arc',
+            '16c-arc-16-s7-wm',
+            '16c-arc-16-tii-arc',
+            '16c-arc-16-tii-arse',
+            '16c-arc-16-tii-sae',
+            '16c-arc-16-tii-twr',
+            '16c-arc-16-us-shs',
+            '16c-arc-17-dlt-arc',
+            '16c-arc-17-us-arc',
+            '16c-arc-17-us-arc2',
+            '16c-arc-17-us-sae',
+            '16c-bleu001-dr-bleu',
+            '16c-bleu001-go-bleu',
+            '16c-bleu001-pr-hell4',
+            '16c-bleu001-us-nd',
+            '16c-bmbook21-ave-ac',
+            '16c-bmbook21-shn-cats',
+            '16c-bmbook21-sm-burn',
+            '16c-bmbook21-sp-bm2',
+            '16c-bmbook21-t-crack',
+            '16c-bmbook21-t-hel',
+            '16c-bmbook21-t-shine',
+            '16c-bmbook21-us-nerp',
+            '16c-bmbook21-us-parad',
+            '16c-bmbook21-us-phat',
+            '16c-bmbook21-us-phx1',
+            '16c-buttz01-ppe-font',
+            '16c-buttz01-zii-c-9',
+            '16c-buttz01-zii-c-9b',
+            '16c-buttz01-zii-woez',
+            '16c-buttz02-del-memb',
+            '16c-buttz02-zii-dsrw',
+            '16c-buttz03-avg-bm2',
+            '16c-buttz03-avg-br1',
+            '16c-buttz03-ppe-fm3',
+            '16c-buttz03-s7-blas',
+            '16c-buttz03-sq-br01',
+            '16c-buttz03-us-bfont',
+            '16c-ceg-010a-crs-jtx',
+            '16c-ceg-010a-crs-mad',
+            '16c-ceg-010a-crs-orio',
+            '16c-ceg-010a-mb-icede',
+            '16c-ceg-010a-mb-irn-part01',
+            '16c-ceg-010a-mb-irn-part02',
+            '16c-ceg-010a-mb-malol',
+            '16c-cro0400-dntph2a',
+            '16c-cro0400-rad001',
+            '16c-cro0400-rad003',
+            '16c-eco-17-074-fina',
+            '16c-eco-17-074-kerm',
+            '16c-eco-17-cl-eco',
+            '16c-eco-17-cpl-opt',
+            '16c-eco-17-pd-eco',
+            '16c-eco-17-pr-woe',
+            '16c-eco-17-slc-coll-part01',
+            '16c-eco-17-slc-coll-part02',
+            '16c-eco-17-us-tea',
+            '16c-epic0005-ax-inhal',
+            '16c-epic0005-us-wolf',
+            '16c-epic0006-h7-asm2k',
+            '16c-epic0007-del-plf2',
+            '16c-epic0007-ns-epic7',
+            '16c-equate01-po-pb01-part01',
+            '16c-equate01-po-pb01-part02',
+            '16c-equate01-po-pb01-part03',
+            '16c-equate01-po-pb01-part04',
+            '16c-equate01-po-pb01-part05',
+            '16c-equate01-po-uglee-part01',
+            '16c-equate01-po-uglee-part02',
+            '16c-equate01-po-uglee-part03',
+            '16c-galza-08-om-lice',
+            '16c-gen-09-kmb-gen2',
+            '16c-gen-09-kmb-gl2k',
+            '16c-gen-09-kmb-stol',
+            '16c-gen-09-l44-gen',
+            '16c-gen-09-rl-prev',
+            '16c-gen-09-rl-raw',
+            '16c-getready-ds-oct',
+            '16c-getready-ma-body',
+            '16c-glue-29-22-medu1',
+            '16c-glue-29-pr-glue',
+            '16c-glue-29-sob-gl2k',
+            '16c-glue-30-22-nvr3',
+            '16c-glue-30-22-nvr4',
+            '16c-glue-30-pr-last',
+            '16c-glue-30-s7-medu',
+            '16c-glue-30-us-used3',
+            '16c-glue-31-us-ds1',
+            '16c-glue-31-us-epic1',
+            '16c-glue-31-us-fuzzz',
+            '16c-glue-31-us-xtc1',
+            '16c-glue-31-zv-caff-part01',
+            '16c-glue-31-zv-caff-part02',
+            '16c-glue-31-zv-col5-part01',
+            '16c-glue-31-zv-col5-part02',
+            '16c-glue-31-zv-col5-part03',
+            '16c-glue-31-zv-col5-part04',
+            '16c-glue-32-tcf-bjob',
+            '16c-glue-32-us-ctv1',
+            '16c-hazmat08-jp-mh1',
+            '16c-hazmat08-tb-haz-part01',
+            '16c-hazmat08-tb-haz-part02',
+            '16c-hazmat09-tb-pvl',
+            '16c-hen-solo1-hen-2',
+            '16c-hiero-02-3i-burn',
+            '16c-hiero-02-cg-hg',
+            '16c-hiero-02-cg-lure0',
+            '16c-hiero-02-d1-elf1',
+            '16c-hiero-02-d1-lure1',
+            '16c-hiero-02-d1-nine1',
+            '16c-hiero-02-k1-aex',
+            '16c-hiero-02-k1-emp1',
+            '16c-hiero-02-k1-main',
+            '16c-hiero-02-k1-statk',
+            '16c-hiero-02-k1-statm',
+            '16c-hiero-02-k1-tt',
+            '16c-hiero-02-k1-urtsc',
+            '16c-hiero-02-k1-v2',
+            '16c-hiero-02-k1-wm',
+            '16c-hiero-02-smi-slt2',
+            '16c-hiero-03-3i-epik',
+            '16c-hiero-03-3i-livem',
+            '16c-hiero-03-avg-ds',
+            '16c-hiero-03-avg-epic',
+            '16c-hiero-03-avg-hier',
+            '16c-hiero-03-cg-avg',
+            '16c-hiero-03-cg-drks',
+            '16c-hiero-03-d1-wm1',
+            '16c-hiero-03-ns-c9b',
+            '16c-hiero-03-ns-hg111',
+            '16c-hiero-03-ns-hg112',
+            '16c-hiero-03-ns-iii',
+            '16c-hiero-03-ns-usddd',
+            '16c-hiero-03-sp-e1',
+            '16c-hiero-03-sp-fm1',
+            '16c-hiero-03-sp-thc1',
+            '16c-hiero-03-us-h2',
+            '16c-hiero-03-us-use4',
+            '16c-hiero-04-avg-hg2',
+            '16c-hiero-04-cg-fm',
+            '16c-hiero-04-d1-hg1',
+            '16c-hiero-04-ns-hg333',
+            '16c-hiero-04-ppe-fm82',
+            '16c-hiero-04-sz-clar1',
+            '16c-hiero-04-us-dank1',
+            '16c-hiero-04-zip-bd',
+            '16c-hiero-04-zip-neck',
+            '16c-ice0001a-09-ice2',
+            '16c-ice0001a-tna-002',
+            '16c-ice0001a-tna-003',
+            '16c-ice0002a-us-idraw',
+            '16c-ice0004a-09-ice3',
+            '16c-ice0004a-09-info',
+            '16c-ice0004a-tna-004',
+            '16c-ice0004a-us-slt1',
+            '16c-ice0005a-09-fc3',
+            '16c-ice0005a-us-001',
+            '16c-ice0010a-mt-back',
+            '16c-ice0012a-prm-m5d',
+            '16c-ice0012a-us-m0d1-part01',
+            '16c-ice0012a-us-m0d1-part02',
+            '16c-ikeauno-zii-ilc1-part01',
+            '16c-ikeauno-zii-ilc1-part02',
+            '16c-ikeauno-zii-ilc1-part03',
+            '16c-jtxa-03-srb-b',
+            '16c-kbsart04-ktz-eb',
+            '16c-kbsart04-lm-ewa',
+            '16c-kbsart04-lm-metal',
+            '16c-kbsart04-sob-de',
+            '16c-kbsart04-sob-mcf',
+            '16c-kbsart05-lemon-kb',
+            '16c-kbsart05-us-inf1',
+            '16c-l0p05-00-riv-nico',
+            '16c-l0p05-00-riv-phto',
+            '16c-l0p05-00-sk-aster',
+            '16c-l0p05-00-sk-confu',
+            '16c-l0p05-00-sk-fcs',
+            '16c-l0p05-00-sk-piese',
+            '16c-l0p05-00-sk-plane',
+            '16c-l0p05-00-sk-screa',
+            '16c-l0p06-00-5p-drago',
+            '16c-l0p06-00-dx-maneo',
+            '16c-l0p06-00-dx-repic',
+            '16c-l0p06-00-dx-sk',
+            '16c-l0p06-00-no-l0p',
+            '16c-l0p06-00-no-simon',
+            '16c-l0p06-00-ppa-drag',
+            '16c-l0p06-00-ppa-noth',
+            '16c-l0p06-00-sk-2400b',
+            '16c-l0p06-00-sk-matri-part01',
+            '16c-l0p06-00-sk-matri-part02',
+            '16c-l0p06-00-sk-noche',
+            '16c-l0p06-00-sk-riven',
+            '16c-l0p06-00-sk-tds',
+            '16c-l0p06-00-sk-zwier',
+            '16c-l0p07-00-no-coll1-part01',
+            '16c-l0p07-00-no-coll1-part02',
+            '16c-l0p07-00-sk-alien',
+            '16c-l0p07-00-sk-insec',
+            '16c-l0p07-00-sk-log01-part01',
+            '16c-l0p07-00-sk-log01-part02',
+            '16c-l0p07-00-sk-log01-part03',
+            '16c-l0p08-00-no-coll2-part01',
+            '16c-l0p08-00-no-coll2-part02',
+            '16c-l0p08-00-no-coll2-part03',
+            '16c-l0p08-00-sk-artc2',
+            '16c-l0p08-00-sk-with',
+            '16c-l0p09-00-ppa-d0n',
+            '16c-l0p09-00-sk-astur',
+            '16c-l0p09-00-sk-deus',
+            '16c-l0p09-00-sk-lo0p',
+            '16c-l0p09-00-sk-logou-part01',
+            '16c-l0p09-00-sk-logou-part02',
+            '16c-l0p09-00-sk-riven',
+            '16c-l0p09-00-sk-x-mas',
+            '16c-l0p09-00-us-gnom',
+            '16c-l0p09-00-us-lo0p',
+            '16c-l0p09-00-us-tlo0p',
+            '16c-locus-08-avg-cg1',
+            '16c-locus-08-avg-raw1',
+            '16c-locus-08-ppe-10',
+            '16c-locus-08-ppe-2112',
+            '16c-locus-08-ppe-a10',
+            '16c-locus-08-us-ks1',
+            '16c-locus-08-us-loc1',
+            '16c-locus-08-us-somb1',
+            '16c-mimic20-bjasc181',
+            '16c-mimic21-emk-acid',
+            '16c-mimic21-gnk-crck',
+            '16c-mimic22-gnk-prev',
+            '16c-mimic25-dr-masc',
+            '16c-mimic25-dr-sys2',
+            '16c-mimic25-mp-july',
+            '16c-mimic27-jn-surp',
+            '16c-mimic28-no-done',
+            '16c-mimic30-dr-iori',
+            '16c-mimic30-gdr-mim2',
+            '16c-omega001-df-omega',
+            '16c-out-0100-out-uc',
+            '16c-out-0100-out-welc',
+            '16c-out-0200-out-dome',
+            '16c-out-0200-out-hmbd',
+            '16c-out-0200-out-tigr',
+            '16c-plenty-bl-loop',
+            '16c-plenty-bl-woju',
+            '16c-plenty-dx-100ln-part01',
+            '16c-plenty-dx-100ln-part02',
+            '16c-plenty-dx-avd',
+            '16c-plenty-dx-gdevl',
+            '16c-plenty-dx-lgs',
+            '16c-plenty-dx-plant',
+            '16c-plenty-ins-plan',
+            '16c-plenty-p0d-agd',
+            '16c-plf-24-mmang-rn',
+            '16c-plf-24-t-grunge',
+            '16c-plf-24-t-prvail',
+            '16c-sac-19-frx-hp01',
+            '16c-sac-19-frx-hp02',
+            '16c-sae-1al-dlt-arc',
+            '16c-sae-1al-dlt-sae',
+            '16c-sae-1al-eb-ecl2',
+            '16c-sae-1al-eb-stile',
+            '16c-sae-1al-eb-tsr',
+            '16c-sae-1bl-eb-wcity',
+            '16c-sae-1cl-us-sae',
+            '16c-sae-2al-eb-santa',
+            '16c-sclr-03-dg-16ium',
+            '16c-sclr-03-dg-1st',
+            '16c-sclr-12-as-pg',
+            '16c-sclr-13-as-acid',
+            '16c-sclr-13-as-gn',
+            '16c-sclr-13-s-she-w',
+            '16c-sclr-13-srb-bezn-part01',
+            '16c-sclr-13-srb-bezn-part02',
+            '16c-sclr-13-srb-bezn-part03',
+            '16c-sclr-13-srb-bezn-part04',
+            '16c-smr-02-xr',
+            '16c-smr-03-as-gbmat',
+            '16c-smr-03-as-lits',
+            '16c-sys2-02-us-used',
+            '16c-sys2-02-zs-btwos',
+            '16c-sys2-02-zs-dahau',
+            '16c-sys2-02-zs-dek',
+            '16c-sys2-02-zs-ko',
+            '16c-sys2-02-zs-mmc5',
+            '16c-sys2-02-zs-sii05',
+            '16c-sys2-03-sm-df3',
+            '16c-sys2-03-sm-s7',
+            '16c-sys2-03-us-girl',
+            '16c-sys2-03-us-plex',
+            '16c-sys2-03-us-wm',
+            '16c-sys2-03-zs-exalt',
+            '16c-sys2-03-zs-free',
+            '16c-sys2-03-zs-worm',
+            '16c-sys2-04-sm-2',
+            '16c-sys2-04-sm-relic',
+            '16c-sys2-04-zs-s213',
+            '16c-sys2-05-im-peas',
+            '16c-sys2-05-sm-wblade',
+            '16c-used-02-ak-ttime',
+            '16c-used-02-avg-ave1',
+            '16c-used-02-avg-ctv1',
+            '16c-used-02-avg-raw1',
+            '16c-used-02-avg-usd1',
+            '16c-used-02-avg-vii',
+            '16c-used-02-cg-ais',
+            '16c-used-02-cg-helli',
+            '16c-used-02-cg-wm',
+            '16c-used-02-d3-used1',
+            '16c-used-02-sp-wm1',
+            '16c-used-02-te-st01',
+            '16c-used-02-te-st02-part01',
+            '16c-used-02-te-st02-part02',
+            '16c-used-02-us-epic1',
+            '16c-used-02-us-epic2',
+            '16c-used-02-us-pw-part01',
+            '16c-used-02-us-pw-part02',
+            '16c-used-02-us-raw1',
+            '16c-used-02-us-used1',
+            '16c-used-03-avg-ais1',
+            '16c-used-03-avg-ave2',
+            '16c-used-03-avg-eco1',
+            '16c-used-03-avg-epi1',
+            '16c-used-03-cg-ais2-part01',
+            '16c-used-03-cg-ais2-part02',
+            '16c-used-03-k1-epic',
+            '16c-used-03-lem-used',
+            '16c-used-03-mr-die01',
+            '16c-used-03-ppe-djec',
+            '16c-used-03-ppe-h5',
+            '16c-used-03-rz-iio',
+            '16c-used-03-rz-used',
+            '16c-used-03-sp-bm1',
+            '16c-used-03-sp-cmm1',
+            '16c-used-03-tr-used',
+            '16c-used-03-us-cia1',
+            '16c-used-03-us-h5',
+            '16c-used-03-us-ihale',
+            '16c-used-03-us-prev1',
+            '16c-used-04-4thcover',
+            '16c-used-04-avg-awe1',
+            '16c-used-04-avg-ice1',
+            '16c-used-04-cg-used2',
+            '16c-used-04-gj-dem',
+            '16c-used-04-gj-drk',
+            '16c-used-04-gj-wm',
+            '16c-used-04-k1-eflow',
+            '16c-used-04-k1-tisx',
+            '16c-used-04-k1-wickm',
+            '16c-used-04-mr-used4',
+            '16c-used-04-ns-c0000-part01',
+            '16c-used-04-ns-c0000-part02',
+            '16c-used-04-ns-c0000-part03',
+            '16c-used-04-ns-c0000-part04',
+            '16c-used-04-ns-used1',
+            '16c-used-04-ppe-smok-part01',
+            '16c-used-04-ppe-smok-part02',
+            '16c-used-04-ppe-smok-part03',
+            '16c-used-04-ppe-wm',
+            '16c-used-04-us-h6',
+            '16c-used-04-us-rant2',
+            '16c-used-05-avg-use1',
+            '16c-used-05-cg-free',
+            '16c-used-05-cg-lure1',
+            '16c-used-05-mr-s701',
+            '16c-used-05-ns-123-part01',
+            '16c-used-05-ns-123-part02',
+            '16c-used-05-ns-123-part03',
+            '16c-used-05-ns-123-part04',
+            '16c-used-05-ns-123-part05',
+            '16c-used-05-ns-123-part06',
+            '16c-used-05-ppe-ice1',
+            '16c-used-05-us-dh01',
+            '16c-used-05-us-inf1',
+            '16c-used-07-mr-bvhc1',
+            '16c-used-07-mr-used6',
+            '16c-used-07-po-idlob-part01',
+            '16c-used-07-po-idlob-part02',
+            '16c-used-666-avg-bm1',
+            '16c-used-666-avg-kbs1',
+            '16c-used-666-mr-id01',
+            '16c-used-666-mr-plf02',
+            '16c-used-666-us-cia',
+            '16c-used-666-us-rzr01',
+            '16c-used-666-us-spade',
+            '16c-used-666-us-tuc1',
             '16c-1fluid1-avg-fld',
             '16c-1fluid1-del-1-part01',
             '16c-1fluid1-del-1-part02',
@@ -16488,6 +17274,399 @@
     )
 
     Tags         = @{
+        '16c-aeron-a-bc-aeron' = @('ANSI', 'ASCIIArt', 'Artistic', 'Bluecalx', 'aerona', '16colors')
+        '16c-aeron-a-cw-opp' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ceelow', 'aerona', '16colors')
+        '16c-aeron-a-dsk-350' = @('ANSI', 'ASCIIArt', 'Artistic', 'Deesink', 'aerona', '16colors')
+        '16c-aeron-a-sz-opp' = @('ANSI', 'ASCIIArt', 'Artistic', 'Slackzor', 'aerona', '16colors')
+        '16c-aeron-a-sz-solar' = @('ANSI', 'ASCIIArt', 'Artistic', 'Slackzor', 'aerona', '16colors')
+        '16c-aidbox01-kr-kalv2-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'kr', 'yknow', 'aidbox01', '16colors', 'SplitPart')
+        '16c-aidbox01-kr-kalv2-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'kr', 'yknow', 'aidbox01', '16colors', 'SplitPart')
+        '16c-arc-16-dlt-arc' = @('ANSI', 'ASCIIArt', 'Artistic', 'dalton', 'arcplf', 'arc16', '16colors')
+        '16c-arc-16-s7-wm' = @('ANSI', 'ASCIIArt', 'Artistic', 'Somberlain', 'Kibosh', 'arc16', '16colors')
+        '16c-arc-16-tii-arc' = @('ANSI', 'ASCIIArt', 'Artistic', 'tetsuoii', 'arc16', '16colors')
+        '16c-arc-16-tii-arse' = @('ANSI', 'ASCIIArt', 'Artistic', 'tetsuoii', 'arc16', '16colors')
+        '16c-arc-16-tii-sae' = @('ANSI', 'ASCIIArt', 'Artistic', 'tetsuoii', 'arc16', '16colors')
+        '16c-arc-16-tii-twr' = @('ANSI', 'ASCIIArt', 'Artistic', 'tetsuoii', 'arc16', '16colors')
+        '16c-arc-16-us-shs' = @('ANSI', 'ASCIIArt', 'Artistic', 'SomberlainAllaXul', 'GlueiTP', 'arc16', '16colors')
+        '16c-arc-17-dlt-arc' = @('ANSI', 'ASCIIArt', 'Artistic', 'dalton', 'ArcPlf', 'arc17', '16colors')
+        '16c-arc-17-us-arc' = @('ANSI', 'ASCIIArt', 'Artistic', 'DaltonWoffel', 'Alphaforce', 'arc17', '16colors')
+        '16c-arc-17-us-arc2' = @('ANSI', 'ASCIIArt', 'Artistic', 'SomberlainDalton', 'Arc', 'arc17', '16colors')
+        '16c-arc-17-us-sae' = @('ANSI', 'ASCIIArt', 'Artistic', 'DaltonDatachild', 'arc17', '16colors')
+        '16c-bleu001-dr-bleu' = @('ANSI', 'ASCIIArt', 'Artistic', 'DrShizuma', 'bleu001', '16colors')
+        '16c-bleu001-go-bleu' = @('ANSI', 'ASCIIArt', 'Artistic', 'Gould', 'bleu001', '16colors')
+        '16c-bleu001-pr-hell4' = @('ANSI', 'ASCIIArt', 'Artistic', 'Propane', 'bleu001', '16colors')
+        '16c-bleu001-us-nd' = @('ANSI', 'ASCIIArt', 'Artistic', 'MaytagBizzarro', 'bleu001', '16colors')
+        '16c-bmbook21-ave-ac' = @('ANSI', 'ASCIIArt', 'Artistic', 'avenger', 'blackmaiden', 'bmbook21', '16colors')
+        '16c-bmbook21-shn-cats' = @('ANSI', 'ASCIIArt', 'Artistic', 'shine', 'blackmaiden', 'bmbook21', '16colors')
+        '16c-bmbook21-sm-burn' = @('ANSI', 'ASCIIArt', 'Artistic', 'smoke', 'blackmaiden', 'bmbook21', '16colors')
+        '16c-bmbook21-sp-bm2' = @('ANSI', 'ASCIIArt', 'Artistic', 'Spear', 'bmbook21', '16colors')
+        '16c-bmbook21-t-crack' = @('ANSI', 'ASCIIArt', 'Artistic', 'toot', 'blackmaiden', 'bmbook21', '16colors')
+        '16c-bmbook21-t-hel' = @('ANSI', 'ASCIIArt', 'Artistic', 'toot', 'blackmaiden', 'bmbook21', '16colors')
+        '16c-bmbook21-t-shine' = @('ANSI', 'ASCIIArt', 'Artistic', 'toot', 'blackmaiden', 'bmbook21', '16colors')
+        '16c-bmbook21-us-nerp' = @('ANSI', 'ASCIIArt', 'Artistic', 'SpearToot', 'nerp', 'bmbook21', '16colors')
+        '16c-bmbook21-us-parad' = @('ANSI', 'ASCIIArt', 'Artistic', 'ShineMaytag', 'blackmaiden2kbleu', 'bmbook21', '16colors')
+        '16c-bmbook21-us-phat' = @('ANSI', 'ASCIIArt', 'Artistic', 'PotzkotenSpear', 'bmbook21', '16colors')
+        '16c-bmbook21-us-phx1' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengerSpear', 'blackmaiden', 'bmbook21', '16colors')
+        '16c-buttz01-ppe-font' = @('ANSI', 'ASCIIArt', 'Artistic', 'propane', 'USED', 'buttz01', '16colors')
+        '16c-buttz01-zii-c-9' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusII', 'buttraiderz', 'buttz01', '16colors')
+        '16c-buttz01-zii-c-9b' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusII', 'buttraiderz', 'buttz01', '16colors')
+        '16c-buttz01-zii-woez' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusII', 'buttraiderz', 'buttz01', '16colors')
+        '16c-buttz02-del-memb' = @('ANSI', 'ASCIIArt', 'Artistic', 'delicious', 'buttraiderzguest', 'buttz02', '16colors')
+        '16c-buttz02-zii-dsrw' = @('ANSI', 'ASCIIArt', 'Artistic', 'FunkyPunx', 'B00tRaiduz', 'buttz02', '16colors')
+        '16c-buttz03-avg-bm2' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'buttz03', '16colors')
+        '16c-buttz03-avg-br1' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'buttz03', '16colors')
+        '16c-buttz03-ppe-fm3' = @('ANSI', 'ASCIIArt', 'Artistic', 'Propane', 'buttz03', '16colors')
+        '16c-buttz03-s7-blas' = @('ANSI', 'ASCIIArt', 'Artistic', 'Somberlain', 'Buttraiderz', 'buttz03', '16colors')
+        '16c-buttz03-sq-br01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sobriquet', 'buttz03', '16colors')
+        '16c-buttz03-us-bfont' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusIiSomberlain', 'Buttraiderz', 'buttz03', '16colors')
+        '16c-ceg-010a-crs-jtx' = @('ANSI', 'ASCIIArt', 'Artistic', 'Crasher', 'jUStX', 'ceg010a', '16colors')
+        '16c-ceg-010a-crs-mad' = @('ANSI', 'ASCIIArt', 'Artistic', 'Crasher', 'jUStX', 'ceg010a', '16colors')
+        '16c-ceg-010a-crs-orio' = @('ANSI', 'ASCIIArt', 'Artistic', 'Crasher', 'jUStX', 'ceg010a', '16colors')
+        '16c-ceg-010a-mb-icede' = @('ANSI', 'ASCIIArt', 'Artistic', 'mrbyte', 'chaosenergygroup', 'ceg010a', '16colors')
+        '16c-ceg-010a-mb-irn-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'mrbyte', 'chaosenergygroop', 'ceg010a', '16colors', 'SplitPart')
+        '16c-ceg-010a-mb-irn-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'mrbyte', 'chaosenergygroop', 'ceg010a', '16colors', 'SplitPart')
+        '16c-ceg-010a-mb-malol' = @('ANSI', 'ASCIIArt', 'Artistic', 'mrbyte', 'chaosenergygroup', 'ceg010a', '16colors')
+        '16c-cro0400-dntph2a' = @('ANSI', 'ASCIIArt', 'Artistic', 'Dennison', 'cro0400', '16colors')
+        '16c-cro0400-rad001' = @('ANSI', 'ASCIIArt', 'Artistic', 'Radiators', 'cro0400', '16colors')
+        '16c-cro0400-rad003' = @('ANSI', 'ASCIIArt', 'Artistic', 'Radiators', 'cro0400', '16colors')
+        '16c-eco-17-074-fina' = @('ANSI', 'ASCIIArt', 'Artistic', 'lemon1zer', 'ecolove', 'eco17', '16colors')
+        '16c-eco-17-074-kerm' = @('ANSI', 'ASCIIArt', 'Artistic', 'lemon1zer', 'ecoloveecl', 'eco17', '16colors')
+        '16c-eco-17-cl-eco' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cleaner', 'Nitrophusion', 'eco17', '16colors')
+        '16c-eco-17-cpl-opt' = @('ANSI', 'ASCIIArt', 'Artistic', 'CommissarisPlons', 'Ecolovestill', 'eco17', '16colors')
+        '16c-eco-17-pd-eco' = @('ANSI', 'ASCIIArt', 'Artistic', 'PoSeidon', 'OSF', 'eco17', '16colors')
+        '16c-eco-17-pr-woe' = @('ANSI', 'ASCIIArt', 'Artistic', 'president', 'ecolove', 'eco17', '16colors')
+        '16c-eco-17-slc-coll-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'silence', 'ecolove', 'eco17', '16colors', 'SplitPart')
+        '16c-eco-17-slc-coll-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'silence', 'ecolove', 'eco17', '16colors', 'SplitPart')
+        '16c-eco-17-us-tea' = @('ANSI', 'ASCIIArt', 'Artistic', 'SpearLemon1zer', 'groep3', 'eco17', '16colors')
+        '16c-epic0005-ax-inhal' = @('ANSI', 'ASCIIArt', 'Artistic', 'allaxul', 'epic', 'epic0005', '16colors')
+        '16c-epic0005-us-wolf' = @('ANSI', 'ASCIIArt', 'Artistic', 'thextargon', 'epic', 'epic0005', '16colors')
+        '16c-epic0006-h7-asm2k' = @('ANSI', 'ASCIIArt', 'Artistic', 'h7', 'epic', 'epic0006', '16colors')
+        '16c-epic0007-del-plf2' = @('ANSI', 'ASCIIArt', 'Artistic', 'delicious', 'epicart', 'epic0007', '16colors')
+        '16c-epic0007-ns-epic7' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'epic0007', '16colors')
+        '16c-equate01-po-pb01-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Portia', 'equate01', '16colors', 'SplitPart')
+        '16c-equate01-po-pb01-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Portia', 'equate01', '16colors', 'SplitPart')
+        '16c-equate01-po-pb01-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Portia', 'equate01', '16colors', 'SplitPart')
+        '16c-equate01-po-pb01-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'Portia', 'equate01', '16colors', 'SplitPart')
+        '16c-equate01-po-pb01-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'Portia', 'equate01', '16colors', 'SplitPart')
+        '16c-equate01-po-uglee-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Portia', 'equate01', '16colors', 'SplitPart')
+        '16c-equate01-po-uglee-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Portia', 'equate01', '16colors', 'SplitPart')
+        '16c-equate01-po-uglee-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Portia', 'equate01', '16colors', 'SplitPart')
+        '16c-galza-08-om-lice' = @('ANSI', 'ASCIIArt', 'Artistic', 'OtiumMan', 'galza08', '16colors')
+        '16c-gen-09-kmb-gen2' = @('ANSI', 'ASCIIArt', 'Artistic', 'Kumb4', 'gen09', '16colors')
+        '16c-gen-09-kmb-gl2k' = @('ANSI', 'ASCIIArt', 'Artistic', 'Kumb4', 'gen09', '16colors')
+        '16c-gen-09-kmb-stol' = @('ANSI', 'ASCIIArt', 'Artistic', 'Kumb4', 'gen09', '16colors')
+        '16c-gen-09-l44-gen' = @('ANSI', 'ASCIIArt', 'Artistic', 'lemoniqe', 'homeless', 'gen09', '16colors')
+        '16c-gen-09-rl-prev' = @('ANSI', 'ASCIIArt', 'Artistic', 'Rawlock', 'gen09', '16colors')
+        '16c-gen-09-rl-raw' = @('ANSI', 'ASCIIArt', 'Artistic', 'Rawlock', 'gen09', '16colors')
+        '16c-getready-ds-oct' = @('ANSI', 'ASCIIArt', 'Artistic', 'DeadSoulandCthulu', 'mISTFUNK1998', 'getready', '16colors')
+        '16c-getready-ma-body' = @('ANSI', 'ASCIIArt', 'Artistic', 'MageandCthulu', 'IntegrityandMist', 'getready', '16colors')
+        '16c-glue-29-22-medu1' = @('ANSI', 'ASCIIArt', 'Artistic', 'catch22', 'glue', 'glue29', '16colors')
+        '16c-glue-29-pr-glue' = @('ANSI', 'ASCIIArt', 'Artistic', 'president', 'glue', 'glue29', '16colors')
+        '16c-glue-29-sob-gl2k' = @('ANSI', 'ASCIIArt', 'Artistic', 'Somberlain', 'Glue', 'glue29', '16colors')
+        '16c-glue-30-22-nvr3' = @('ANSI', 'ASCIIArt', 'Artistic', 'catch22', 'glue', 'glue30', '16colors')
+        '16c-glue-30-22-nvr4' = @('ANSI', 'ASCIIArt', 'Artistic', 'catch22', 'glue', 'glue30', '16colors')
+        '16c-glue-30-pr-last' = @('ANSI', 'ASCIIArt', 'Artistic', 'president', 'glue', 'glue30', '16colors')
+        '16c-glue-30-s7-medu' = @('ANSI', 'ASCIIArt', 'Artistic', 'SomberlainZerovision', 'Glue', 'glue30', '16colors')
+        '16c-glue-30-us-used3' = @('ANSI', 'ASCIIArt', 'Artistic', 'SomberlainAvengingAngel', 'TheUsedCoalition', 'glue30', '16colors')
+        '16c-glue-31-us-ds1' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengerAvengingAngel', 'glue31', '16colors')
+        '16c-glue-31-us-epic1' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZedfactorAvengingAngel', 'glue31', '16colors')
+        '16c-glue-31-us-fuzzz' = @('ANSI', 'ASCIIArt', 'Artistic', 'Klumzee', 'glue31', '16colors')
+        '16c-glue-31-us-xtc1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Catch22Somberlain', 'Glue', 'glue31', '16colors')
+        '16c-glue-31-zv-caff-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'zeroVision', 'GLUE', 'glue31', '16colors', 'SplitPart')
+        '16c-glue-31-zv-caff-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'zeroVision', 'GLUE', 'glue31', '16colors', 'SplitPart')
+        '16c-glue-31-zv-col5-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'zeroVision', 'GLUE', 'glue31', '16colors', 'SplitPart')
+        '16c-glue-31-zv-col5-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'zeroVision', 'GLUE', 'glue31', '16colors', 'SplitPart')
+        '16c-glue-31-zv-col5-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'zeroVision', 'GLUE', 'glue31', '16colors', 'SplitPart')
+        '16c-glue-31-zv-col5-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'zeroVision', 'GLUE', 'glue31', '16colors', 'SplitPart')
+        '16c-glue-32-tcf-bjob' = @('ANSI', 'ASCIIArt', 'Artistic', 'Tcf', 'glue32', '16colors')
+        '16c-glue-32-us-ctv1' = @('ANSI', 'ASCIIArt', 'Artistic', 'SomberlainAvg', 'GlueUsed', 'glue32', '16colors')
+        '16c-hazmat08-jp-mh1' = @('ANSI', 'ASCIIArt', 'Artistic', 'JackPhlash', 'hazmat08', '16colors')
+        '16c-hazmat08-tb-haz-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'TBob', 'hazmat08', '16colors', 'SplitPart')
+        '16c-hazmat08-tb-haz-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'TBob', 'hazmat08', '16colors', 'SplitPart')
+        '16c-hazmat09-tb-pvl' = @('ANSI', 'ASCIIArt', 'Artistic', 'TBob', 'hazmat09', '16colors')
+        '16c-hen-solo1-hen-2' = @('ANSI', 'ASCIIArt', 'Artistic', 'hennifer', 'solo', 'hensolo1', '16colors')
+        '16c-hiero-02-3i-burn' = @('ANSI', 'ASCIIArt', 'Artistic', 'Nitrifik', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-cg-hg' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cryogenic', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-cg-lure0' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cryogenic', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-d1-elf1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Dissonance', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-d1-lure1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Dissonance', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-d1-nine1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Dissonance', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-k1-aex' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-k1-emp1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-k1-main' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-k1-statk' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-k1-statm' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-k1-tt' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-k1-urtsc' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-k1-v2' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-k1-wm' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'Hieroglyphics', 'hiero02', '16colors')
+        '16c-hiero-02-smi-slt2' = @('ANSI', 'ASCIIArt', 'Artistic', 'Samurai', 'HieroglyphicsGuest', 'hiero02', '16colors')
+        '16c-hiero-03-3i-epik' = @('ANSI', 'ASCIIArt', 'Artistic', 'Nitrifik', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-3i-livem' = @('ANSI', 'ASCIIArt', 'Artistic', 'Nitrifik', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-avg-ds' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-avg-epic' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-avg-hier' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-cg-avg' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cryogenic', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-cg-drks' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cryogenic', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-d1-wm1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Dissonance', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-ns-c9b' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-ns-hg111' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-ns-hg112' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-ns-iii' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-ns-usddd' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-sp-e1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Spearfx', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-sp-fm1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Spearfx', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-sp-thc1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Spearfx', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-us-h2' = @('ANSI', 'ASCIIArt', 'Artistic', 'DissonanceAvengingAngel', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-03-us-use4' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelDissonance', 'Hieroglyphics', 'hiero03', '16colors')
+        '16c-hiero-04-avg-hg2' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'Hieroglyphics', 'hiero04', '16colors')
+        '16c-hiero-04-cg-fm' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cryogenic', 'Hieroglyphics', 'hiero04', '16colors')
+        '16c-hiero-04-d1-hg1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Dissonance', 'Hieroglyphics', 'hiero04', '16colors')
+        '16c-hiero-04-ns-hg333' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ansichrist', 'Hieroglyphics', 'hiero04', '16colors')
+        '16c-hiero-04-ppe-fm82' = @('ANSI', 'ASCIIArt', 'Artistic', 'Propane', 'Hieroglyphics', 'hiero04', '16colors')
+        '16c-hiero-04-sz-clar1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Slackzor', 'Hieroglyphics', 'hiero04', '16colors')
+        '16c-hiero-04-us-dank1' = @('ANSI', 'ASCIIArt', 'Artistic', 'TeflonSomberlainFirehead', 'Hieroglyphics', 'hiero04', '16colors')
+        '16c-hiero-04-zip-bd' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zippy', 'Hieroglyphics', 'hiero04', '16colors')
+        '16c-hiero-04-zip-neck' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zippy', 'Hieroglyphics', 'hiero04', '16colors')
+        '16c-ice0001a-09-ice2' = @('ANSI', 'ASCIIArt', 'Artistic', 'Fluor', 'ice0001a', '16colors')
+        '16c-ice0001a-tna-002' = @('ANSI', 'ASCIIArt', 'Artistic', 'TheNightAngel', 'ice0001a', '16colors')
+        '16c-ice0001a-tna-003' = @('ANSI', 'ASCIIArt', 'Artistic', 'TheNightAngelMaytag', 'ice0001a', '16colors')
+        '16c-ice0002a-us-idraw' = @('ANSI', 'ASCIIArt', 'Artistic', 'Kitiara', 'ice0002a', '16colors')
+        '16c-ice0004a-09-ice3' = @('ANSI', 'ASCIIArt', 'Artistic', 'Fluor', 'ice0004a', '16colors')
+        '16c-ice0004a-09-info' = @('ANSI', 'ASCIIArt', 'Artistic', 'Fluor', 'ice0004a', '16colors')
+        '16c-ice0004a-tna-004' = @('ANSI', 'ASCIIArt', 'Artistic', 'TheNightAngel', 'ice0004a', '16colors')
+        '16c-ice0004a-us-slt1' = @('ANSI', 'ASCIIArt', 'Artistic', 'TheNightAngelMrWrong', 'ice0004a', '16colors')
+        '16c-ice0005a-09-fc3' = @('ANSI', 'ASCIIArt', 'Artistic', 'Fluor', 'ice0005a', '16colors')
+        '16c-ice0005a-us-001' = @('ANSI', 'ASCIIArt', 'Artistic', 'TheNightAngelMrWrong', 'ice0005a', '16colors')
+        '16c-ice0010a-mt-back' = @('ANSI', 'ASCIIArt', 'Artistic', 'Misfit', 'ice0010a', '16colors')
+        '16c-ice0012a-prm-m5d' = @('ANSI', 'ASCIIArt', 'Artistic', 'Prizm', 'iCE', 'ice0012a', '16colors')
+        '16c-ice0012a-us-m0d1-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'discyplePrizm', 'iCE', 'ice0012a', '16colors', 'SplitPart')
+        '16c-ice0012a-us-m0d1-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'discyplePrizm', 'iCE', 'ice0012a', '16colors', 'SplitPart')
+        '16c-ikeauno-zii-ilc1-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusII', 'IKEA', 'ikeauno', '16colors', 'SplitPart')
+        '16c-ikeauno-zii-ilc1-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusII', 'IKEA', 'ikeauno', '16colors', 'SplitPart')
+        '16c-ikeauno-zii-ilc1-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZeusII', 'IKEA', 'ikeauno', '16colors', 'SplitPart')
+        '16c-jtxa-03-srb-b' = @('ANSI', 'ASCIIArt', 'Artistic', 'SketchRimanez', 'jtxa03', '16colors')
+        '16c-kbsart04-ktz-eb' = @('ANSI', 'ASCIIArt', 'Artistic', 'DrKatz', 'kibosh', 'kbsart04', '16colors')
+        '16c-kbsart04-lm-ewa' = @('ANSI', 'ASCIIArt', 'Artistic', 'lichmistress', 'genuine', 'kbsart04', '16colors')
+        '16c-kbsart04-lm-metal' = @('ANSI', 'ASCIIArt', 'Artistic', 'lichmistress', 'genuine', 'kbsart04', '16colors')
+        '16c-kbsart04-sob-de' = @('ANSI', 'ASCIIArt', 'Artistic', 'Somberlain', 'Kibosh', 'kbsart04', '16colors')
+        '16c-kbsart04-sob-mcf' = @('ANSI', 'ASCIIArt', 'Artistic', 'TheSomberlain', 'Kibosh', 'kbsart04', '16colors')
+        '16c-kbsart05-lemon-kb' = @('ANSI', 'ASCIIArt', 'Artistic', 'lemon44', 'groupless', 'kbsart05', '16colors')
+        '16c-kbsart05-us-inf1' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelGoatboy', 'kbsart05', '16colors')
+        '16c-l0p05-00-riv-nico' = @('ANSI', 'ASCIIArt', 'Artistic', 'Riven', 'Thelo0p', 'l0p0500', '16colors')
+        '16c-l0p05-00-riv-phto' = @('ANSI', 'ASCIIArt', 'Artistic', 'rIVEN', 'pLATOON', 'l0p0500', '16colors')
+        '16c-l0p05-00-sk-aster' = @('ANSI', 'ASCIIArt', 'Artistic', 'Simonking', 'l0p0500', '16colors')
+        '16c-l0p05-00-sk-confu' = @('ANSI', 'ASCIIArt', 'Artistic', 'Simonking', 'l0p0500', '16colors')
+        '16c-l0p05-00-sk-fcs' = @('ANSI', 'ASCIIArt', 'Artistic', 'Simonking', 'l0p0500', '16colors')
+        '16c-l0p05-00-sk-piese' = @('ANSI', 'ASCIIArt', 'Artistic', 'Simonking', 'l0p0500', '16colors')
+        '16c-l0p05-00-sk-plane' = @('ANSI', 'ASCIIArt', 'Artistic', 'Simonking', 'l0p0500', '16colors')
+        '16c-l0p05-00-sk-screa' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'tHElo0pmYSTICbYTES', 'l0p0500', '16colors')
+        '16c-l0p06-00-5p-drago' = @('ANSI', 'ASCIIArt', 'Artistic', 'Snap', 'l0p0600', '16colors')
+        '16c-l0p06-00-dx-maneo' = @('ANSI', 'ASCIIArt', 'Artistic', 'dxka', 'ka', 'l0p0600', '16colors')
+        '16c-l0p06-00-dx-repic' = @('ANSI', 'ASCIIArt', 'Artistic', 'dxka', 'kaion', 'l0p0600', '16colors')
+        '16c-l0p06-00-dx-sk' = @('ANSI', 'ASCIIArt', 'Artistic', 'dxka', 'ka', 'l0p0600', '16colors')
+        '16c-l0p06-00-no-l0p' = @('ANSI', 'ASCIIArt', 'Artistic', 'noches', 'thelo0p', 'l0p0600', '16colors')
+        '16c-l0p06-00-no-simon' = @('ANSI', 'ASCIIArt', 'Artistic', 'noches', 'thelo0p', 'l0p0600', '16colors')
+        '16c-l0p06-00-ppa-drag' = @('ANSI', 'ASCIIArt', 'Artistic', 'protoplasta', 'kwadrat', 'l0p0600', '16colors')
+        '16c-l0p06-00-ppa-noth' = @('ANSI', 'ASCIIArt', 'Artistic', 'protoplasta', 'kwadrat', 'l0p0600', '16colors')
+        '16c-l0p06-00-sk-2400b' = @('ANSI', 'ASCIIArt', 'Artistic', 'Simonking', 'l0p0600', '16colors')
+        '16c-l0p06-00-sk-matri-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Simonking', 'l0p0600', '16colors', 'SplitPart')
+        '16c-l0p06-00-sk-matri-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Simonking', 'l0p0600', '16colors', 'SplitPart')
+        '16c-l0p06-00-sk-noche' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'tHElo0p', 'l0p0600', '16colors')
+        '16c-l0p06-00-sk-riven' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'tHelo0p', 'l0p0600', '16colors')
+        '16c-l0p06-00-sk-tds' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'tHelo0p', 'l0p0600', '16colors')
+        '16c-l0p06-00-sk-zwier' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'thelo0p', 'l0p0600', '16colors')
+        '16c-l0p07-00-no-coll1-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'noches', 'thelo0p', 'l0p0700', '16colors', 'SplitPart')
+        '16c-l0p07-00-no-coll1-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'noches', 'thelo0p', 'l0p0700', '16colors', 'SplitPart')
+        '16c-l0p07-00-sk-alien' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'tHElo0p', 'l0p0700', '16colors')
+        '16c-l0p07-00-sk-insec' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'tHElo0p', 'l0p0700', '16colors')
+        '16c-l0p07-00-sk-log01-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkiNG', 'thelo0p', 'l0p0700', '16colors', 'SplitPart')
+        '16c-l0p07-00-sk-log01-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkiNG', 'thelo0p', 'l0p0700', '16colors', 'SplitPart')
+        '16c-l0p07-00-sk-log01-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkiNG', 'thelo0p', 'l0p0700', '16colors', 'SplitPart')
+        '16c-l0p08-00-no-coll2-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'noches', 'thelo0p', 'l0p0800', '16colors', 'SplitPart')
+        '16c-l0p08-00-no-coll2-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'noches', 'thelo0p', 'l0p0800', '16colors', 'SplitPart')
+        '16c-l0p08-00-no-coll2-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'noches', 'thelo0p', 'l0p0800', '16colors', 'SplitPart')
+        '16c-l0p08-00-sk-artc2' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'tHELo0p', 'l0p0800', '16colors')
+        '16c-l0p08-00-sk-with' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'tHElo0p', 'l0p0800', '16colors')
+        '16c-l0p09-00-ppa-d0n' = @('ANSI', 'ASCIIArt', 'Artistic', 'protoplasta', 'kwadrat', 'l0p0900', '16colors')
+        '16c-l0p09-00-sk-astur' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'tHElo0p', 'l0p0900', '16colors')
+        '16c-l0p09-00-sk-deus' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'tHELo0p', 'l0p0900', '16colors')
+        '16c-l0p09-00-sk-lo0p' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'tHElo0p', 'l0p0900', '16colors')
+        '16c-l0p09-00-sk-logou-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Simonking', 'l0p0900', '16colors', 'SplitPart')
+        '16c-l0p09-00-sk-logou-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Simonking', 'l0p0900', '16colors', 'SplitPart')
+        '16c-l0p09-00-sk-riven' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'tHElo0p', 'l0p0900', '16colors')
+        '16c-l0p09-00-sk-x-mas' = @('ANSI', 'ASCIIArt', 'Artistic', 'sIMONkING', 'tHelo0p', 'l0p0900', '16colors')
+        '16c-l0p09-00-us-gnom' = @('ANSI', 'ASCIIArt', 'Artistic', 'ProtoplastaSimonking', 'thelo0p', 'l0p0900', '16colors')
+        '16c-l0p09-00-us-lo0p' = @('ANSI', 'ASCIIArt', 'Artistic', 'SimonkingAvenger', 'join', 'l0p0900', '16colors')
+        '16c-l0p09-00-us-tlo0p' = @('ANSI', 'ASCIIArt', 'Artistic', 'SimonkingPotzkoten', 'bml0p', 'l0p0900', '16colors')
+        '16c-locus-08-avg-cg1' = @('ANSI', 'ASCIIArt', 'Artistic', 'theavengingangel', 'locus2001', 'locus08', '16colors')
+        '16c-locus-08-avg-raw1' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'locus08', '16colors')
+        '16c-locus-08-ppe-10' = @('ANSI', 'ASCIIArt', 'Artistic', 'Propane', 'locus08', '16colors')
+        '16c-locus-08-ppe-2112' = @('ANSI', 'ASCIIArt', 'Artistic', 'propane', 'TheUsedCoalition', 'locus08', '16colors')
+        '16c-locus-08-ppe-a10' = @('ANSI', 'ASCIIArt', 'Artistic', 'Propane', 'locus08', '16colors')
+        '16c-locus-08-us-ks1' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelSomberlain', 'locus08', '16colors')
+        '16c-locus-08-us-loc1' = @('ANSI', 'ASCIIArt', 'Artistic', 'KartoonAvengingAngel', 'locus08', '16colors')
+        '16c-locus-08-us-somb1' = @('ANSI', 'ASCIIArt', 'Artistic', 'RippaAvengingAngel', 'locus08', '16colors')
+        '16c-mimic20-bjasc181' = @('ANSI', 'ASCIIArt', 'Artistic', 'BlackJack', 'mimic20', '16colors')
+        '16c-mimic21-emk-acid' = @('ANSI', 'ASCIIArt', 'Artistic', 'emok', 'mimic', 'mimic21', '16colors')
+        '16c-mimic21-gnk-crck' = @('ANSI', 'ASCIIArt', 'Artistic', 'Genick', 'mimic21', '16colors')
+        '16c-mimic22-gnk-prev' = @('ANSI', 'ASCIIArt', 'Artistic', 'Genick', 'mimic22', '16colors')
+        '16c-mimic25-dr-masc' = @('ANSI', 'ASCIIArt', 'Artistic', 'DrShizuma', 'mimic25', '16colors')
+        '16c-mimic25-dr-sys2' = @('ANSI', 'ASCIIArt', 'Artistic', 'DrShizuma', 'mimic25', '16colors')
+        '16c-mimic25-mp-july' = @('ANSI', 'ASCIIArt', 'Artistic', 'Meatpod', 'mimic25', '16colors')
+        '16c-mimic27-jn-surp' = @('ANSI', 'ASCIIArt', 'Artistic', 'Jashiin', 'mimic27', '16colors')
+        '16c-mimic28-no-done' = @('ANSI', 'ASCIIArt', 'Artistic', 'noches', 'l124mimic', 'mimic28', '16colors')
+        '16c-mimic30-dr-iori' = @('ANSI', 'ASCIIArt', 'Artistic', 'DrShizuma', 'mimic30', '16colors')
+        '16c-mimic30-gdr-mim2' = @('ANSI', 'ASCIIArt', 'Artistic', 'Gravedancer', 'mimic30', '16colors')
+        '16c-omega001-df-omega' = @('ANSI', 'ASCIIArt', 'Artistic', 'Darkform', 'omega001', '16colors')
+        '16c-out-0100-out-uc' = @('ANSI', 'ASCIIArt', 'Artistic', 'SandyChidester', 'out0100', '16colors')
+        '16c-out-0100-out-welc' = @('ANSI', 'ASCIIArt', 'Artistic', 'SandyChidester', 'out0100', '16colors')
+        '16c-out-0200-out-dome' = @('ANSI', 'ASCIIArt', 'Artistic', 'SandyChidester', 'out0200', '16colors')
+        '16c-out-0200-out-hmbd' = @('ANSI', 'ASCIIArt', 'Artistic', 'SandyChidester', 'out0200', '16colors')
+        '16c-out-0200-out-tigr' = @('ANSI', 'ASCIIArt', 'Artistic', 'SandyChidester', 'out0200', '16colors')
+        '16c-plenty-bl-loop' = @('ANSI', 'ASCIIArt', 'Artistic', 'Bull', 'plenty', '16colors')
+        '16c-plenty-bl-woju' = @('ANSI', 'ASCIIArt', 'Artistic', 'Bull', 'plenty', '16colors')
+        '16c-plenty-dx-100ln-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'dexter', 'sloganarts', 'plenty', '16colors', 'SplitPart')
+        '16c-plenty-dx-100ln-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'dexter', 'sloganarts', 'plenty', '16colors', 'SplitPart')
+        '16c-plenty-dx-avd' = @('ANSI', 'ASCIIArt', 'Artistic', 'dexter', 'sloganarts', 'plenty', '16colors')
+        '16c-plenty-dx-gdevl' = @('ANSI', 'ASCIIArt', 'Artistic', 'dexter', 'sloganarts', 'plenty', '16colors')
+        '16c-plenty-dx-lgs' = @('ANSI', 'ASCIIArt', 'Artistic', 'dexter', 'slogan', 'plenty', '16colors')
+        '16c-plenty-dx-plant' = @('ANSI', 'ASCIIArt', 'Artistic', 'dexter', 'dreampanters', 'plenty', '16colors')
+        '16c-plenty-ins-plan' = @('ANSI', 'ASCIIArt', 'Artistic', 'insect', 'kaa', 'plenty', '16colors')
+        '16c-plenty-p0d-agd' = @('ANSI', 'ASCIIArt', 'Artistic', 'Podo', 'plenty', '16colors')
+        '16c-plf-24-mmang-rn' = @('ANSI', 'ASCIIArt', 'Artistic', 'milkmang1979', 'plf24', '16colors')
+        '16c-plf-24-t-grunge' = @('ANSI', 'ASCIIArt', 'Artistic', 'toot', 'plf', 'plf24', '16colors')
+        '16c-plf-24-t-prvail' = @('ANSI', 'ASCIIArt', 'Artistic', 'toot', 'poffelipoff', 'plf24', '16colors')
+        '16c-sac-19-frx-hp01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ferrex', 'sac19', '16colors')
+        '16c-sac-19-frx-hp02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Ferrex', 'sac19', '16colors')
+        '16c-sae-1al-dlt-arc' = @('ANSI', 'ASCIIArt', 'Artistic', 'Dalton', 'ShareAndEnjoy', 'sae1al', '16colors')
+        '16c-sae-1al-dlt-sae' = @('ANSI', 'ASCIIArt', 'Artistic', 'Dalton', 'ShareAndEnjoy', 'sae1al', '16colors')
+        '16c-sae-1al-eb-ecl2' = @('ANSI', 'ASCIIArt', 'Artistic', 'Eboy', 'sae1al', '16colors')
+        '16c-sae-1al-eb-stile' = @('ANSI', 'ASCIIArt', 'Artistic', 'Eboy', 'sae1al', '16colors')
+        '16c-sae-1al-eb-tsr' = @('ANSI', 'ASCIIArt', 'Artistic', 'Eboy', 'sae1al', '16colors')
+        '16c-sae-1bl-eb-wcity' = @('ANSI', 'ASCIIArt', 'Artistic', 'Eboy', 'sae1bl', '16colors')
+        '16c-sae-1cl-us-sae' = @('ANSI', 'ASCIIArt', 'Artistic', 'EllusM0dium', 'sae1cl', '16colors')
+        '16c-sae-2al-eb-santa' = @('ANSI', 'ASCIIArt', 'Artistic', 'Eboy', 'sae2al', '16colors')
+        '16c-sclr-03-dg-16ium' = @('ANSI', 'ASCIIArt', 'Artistic', 'Digi', 'sclr03', '16colors')
+        '16c-sclr-03-dg-1st' = @('ANSI', 'ASCIIArt', 'Artistic', 'Digi', 'sclr03', '16colors')
+        '16c-sclr-12-as-pg' = @('ANSI', 'ASCIIArt', 'Artistic', 'asd', 'secular', 'sclr12', '16colors')
+        '16c-sclr-13-as-acid' = @('ANSI', 'ASCIIArt', 'Artistic', 'Asd', 'sclr13', '16colors')
+        '16c-sclr-13-as-gn' = @('ANSI', 'ASCIIArt', 'Artistic', 'Asd', 'sclr13', '16colors')
+        '16c-sclr-13-s-she-w' = @('ANSI', 'ASCIIArt', 'Artistic', 'Sandman604', 'sclr13', '16colors')
+        '16c-sclr-13-srb-bezn-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'SketchRimanez', 'sclr13', '16colors', 'SplitPart')
+        '16c-sclr-13-srb-bezn-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'SketchRimanez', 'sclr13', '16colors', 'SplitPart')
+        '16c-sclr-13-srb-bezn-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'SketchRimanez', 'sclr13', '16colors', 'SplitPart')
+        '16c-sclr-13-srb-bezn-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'SketchRimanez', 'sclr13', '16colors', 'SplitPart')
+        '16c-smr-02-xr' = @('ANSI', 'ASCIIArt', 'Artistic', 'xrip', 'smr', 'smr02', '16colors')
+        '16c-smr-03-as-gbmat' = @('ANSI', 'ASCIIArt', 'Artistic', 'Asd', 'smr03', '16colors')
+        '16c-smr-03-as-lits' = @('ANSI', 'ASCIIArt', 'Artistic', 'Asd', 'smr03', '16colors')
+        '16c-sys2-02-us-used' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerostarSomber', 'sys202', '16colors')
+        '16c-sys2-02-zs-btwos' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys202', '16colors')
+        '16c-sys2-02-zs-dahau' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys202', '16colors')
+        '16c-sys2-02-zs-dek' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys202', '16colors')
+        '16c-sys2-02-zs-ko' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys202', '16colors')
+        '16c-sys2-02-zs-mmc5' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys202', '16colors')
+        '16c-sys2-02-zs-sii05' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys202', '16colors')
+        '16c-sys2-03-sm-df3' = @('ANSI', 'ASCIIArt', 'Artistic', 'Smoke', 'sys203', '16colors')
+        '16c-sys2-03-sm-s7' = @('ANSI', 'ASCIIArt', 'Artistic', 'Smoke', 'sys203', '16colors')
+        '16c-sys2-03-us-girl' = @('ANSI', 'ASCIIArt', 'Artistic', 'DoubleZeroCleaner', 'sys203', '16colors')
+        '16c-sys2-03-us-plex' = @('ANSI', 'ASCIIArt', 'Artistic', 'ZerostarAnsichristTeflon', 'sys203', '16colors')
+        '16c-sys2-03-us-wm' = @('ANSI', 'ASCIIArt', 'Artistic', 'zerostar', 'SystemII', 'sys203', '16colors')
+        '16c-sys2-03-zs-exalt' = @('ANSI', 'ASCIIArt', 'Artistic', 'zerostar', 'SystemII', 'sys203', '16colors')
+        '16c-sys2-03-zs-free' = @('ANSI', 'ASCIIArt', 'Artistic', 'zerostar', 'SystemII', 'sys203', '16colors')
+        '16c-sys2-03-zs-worm' = @('ANSI', 'ASCIIArt', 'Artistic', 'zerostar', 'SystemII', 'sys203', '16colors')
+        '16c-sys2-04-sm-2' = @('ANSI', 'ASCIIArt', 'Artistic', 'Smoke', 'sys204', '16colors')
+        '16c-sys2-04-sm-relic' = @('ANSI', 'ASCIIArt', 'Artistic', 'Smoke', 'sys204', '16colors')
+        '16c-sys2-04-zs-s213' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys204', '16colors')
+        '16c-sys2-05-im-peas' = @('ANSI', 'ASCIIArt', 'Artistic', 'Icedmouse', 'sys205', '16colors')
+        '16c-sys2-05-sm-wblade' = @('ANSI', 'ASCIIArt', 'Artistic', 'Smoke', 'sys205', '16colors')
+        '16c-used-02-ak-ttime' = @('ANSI', 'ASCIIArt', 'Artistic', 'Abstrakt', 'used02', '16colors')
+        '16c-used-02-avg-ave1' = @('ANSI', 'ASCIIArt', 'Artistic', 'avengingangel', 'theUSEDcoalition', 'used02', '16colors')
+        '16c-used-02-avg-ctv1' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'theusedcoalition', 'used02', '16colors')
+        '16c-used-02-avg-raw1' = @('ANSI', 'ASCIIArt', 'Artistic', 'avengingangel', 'theusedcoalition', 'used02', '16colors')
+        '16c-used-02-avg-usd1' = @('ANSI', 'ASCIIArt', 'Artistic', 'avengingangel', 'theusedcoalition', 'used02', '16colors')
+        '16c-used-02-avg-vii' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'theusedcoalition', 'used02', '16colors')
+        '16c-used-02-cg-ais' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cryogenic', 'used02', '16colors')
+        '16c-used-02-cg-helli' = @('ANSI', 'ASCIIArt', 'Artistic', 'cryogenic', 'used', 'used02', '16colors')
+        '16c-used-02-cg-wm' = @('ANSI', 'ASCIIArt', 'Artistic', 'cryogenic', 'used', 'used02', '16colors')
+        '16c-used-02-d3-used1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Demonized', 'used02', '16colors')
+        '16c-used-02-sp-wm1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Spearfx', 'TheUsedCoalition', 'used02', '16colors')
+        '16c-used-02-te-st01' = @('ANSI', 'ASCIIArt', 'Artistic', 'tHEXT', 'Used', 'used02', '16colors')
+        '16c-used-02-te-st02-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'tHEXT', 'TheUsedCoalition', 'used02', '16colors', 'SplitPart')
+        '16c-used-02-te-st02-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'tHEXT', 'TheUsedCoalition', 'used02', '16colors', 'SplitPart')
+        '16c-used-02-us-epic1' = @('ANSI', 'ASCIIArt', 'Artistic', 'ArgonAvengingAngel', 'theusedcoalition', 'used02', '16colors')
+        '16c-used-02-us-epic2' = @('ANSI', 'ASCIIArt', 'Artistic', 'SpearCryogenic', 'Used', 'used02', '16colors')
+        '16c-used-02-us-pw-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelGoatboy', 'theusedcoalition', 'used02', '16colors', 'SplitPart')
+        '16c-used-02-us-pw-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelGoatboy', 'theusedcoalition', 'used02', '16colors', 'SplitPart')
+        '16c-used-02-us-raw1' = @('ANSI', 'ASCIIArt', 'Artistic', 'SpearProdukt', 'used02', '16colors')
+        '16c-used-02-us-used1' = @('ANSI', 'ASCIIArt', 'Artistic', 'SpearRzicusThext', 'Used', 'used02', '16colors')
+        '16c-used-03-avg-ais1' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'TheUsedCoalition', 'used03', '16colors')
+        '16c-used-03-avg-ave2' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'TheUsedCoalition', 'used03', '16colors')
+        '16c-used-03-avg-eco1' = @('ANSI', 'ASCIIArt', 'Artistic', 'avengingangel', 'theusedcoalition', 'used03', '16colors')
+        '16c-used-03-avg-epi1' = @('ANSI', 'ASCIIArt', 'Artistic', 'avengingangel', 'theusedcoalition', 'used03', '16colors')
+        '16c-used-03-cg-ais2-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'CryogenicSpear', 'used', 'used03', '16colors', 'SplitPart')
+        '16c-used-03-cg-ais2-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'CryogenicSpear', 'used', 'used03', '16colors', 'SplitPart')
+        '16c-used-03-k1-epic' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'TheUsedCoalition', 'used03', '16colors')
+        '16c-used-03-lem-used' = @('ANSI', 'ASCIIArt', 'Artistic', 'lemOn1one', 'groupless', 'used03', '16colors')
+        '16c-used-03-mr-die01' = @('ANSI', 'ASCIIArt', 'Artistic', 'MrWrong', 'TheUsedCoalition', 'used03', '16colors')
+        '16c-used-03-ppe-djec' = @('ANSI', 'ASCIIArt', 'Artistic', 'Propane', 'TheUsedCoalition', 'used03', '16colors')
+        '16c-used-03-ppe-h5' = @('ANSI', 'ASCIIArt', 'Artistic', 'Propane', 'TheUsedCoalition', 'used03', '16colors')
+        '16c-used-03-rz-iio' = @('ANSI', 'ASCIIArt', 'Artistic', 'rzicus', 'used', 'used03', '16colors')
+        '16c-used-03-rz-used' = @('ANSI', 'ASCIIArt', 'Artistic', 'rzicus', 'used', 'used03', '16colors')
+        '16c-used-03-sp-bm1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Spearfx', 'TheUsedCoalition', 'used03', '16colors')
+        '16c-used-03-sp-cmm1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Spearfx', 'TheUsedCoalition', 'used03', '16colors')
+        '16c-used-03-tr-used' = @('ANSI', 'ASCIIArt', 'Artistic', 'Tarot', 'TheUsedCoalition', 'used03', '16colors')
+        '16c-used-03-us-cia1' = @('ANSI', 'ASCIIArt', 'Artistic', 'SpearPropane', 'used03', '16colors')
+        '16c-used-03-us-h5' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelPropane', 'theusedcoalition', 'used03', '16colors')
+        '16c-used-03-us-ihale' = @('ANSI', 'ASCIIArt', 'Artistic', 'MultipleArtists', 'TheUsedCoalition', 'used03', '16colors')
+        '16c-used-03-us-prev1' = @('ANSI', 'ASCIIArt', 'Artistic', 'MrWrongSpear', 'theusedcoalition', 'used03', '16colors')
+        '16c-used-04-4thcover' = @('ANSI', 'ASCIIArt', 'Artistic', 'SpearZerovision', 'Used', 'used04', '16colors')
+        '16c-used-04-avg-awe1' = @('ANSI', 'ASCIIArt', 'Artistic', 'theavengingangel', 'theusedcoalition', 'used04', '16colors')
+        '16c-used-04-avg-ice1' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'Used', 'used04', '16colors')
+        '16c-used-04-cg-used2' = @('ANSI', 'ASCIIArt', 'Artistic', 'cryogenic', 'TheUsedCoalition', 'used04', '16colors')
+        '16c-used-04-gj-dem' = @('ANSI', 'ASCIIArt', 'Artistic', 'Grymmjack', 'used04', '16colors')
+        '16c-used-04-gj-drk' = @('ANSI', 'ASCIIArt', 'Artistic', 'Grymmjack', 'used04', '16colors')
+        '16c-used-04-gj-wm' = @('ANSI', 'ASCIIArt', 'Artistic', 'Grymmjack', 'used04', '16colors')
+        '16c-used-04-k1-eflow' = @('ANSI', 'ASCIIArt', 'Artistic', 'knocturnal', 'used', 'used04', '16colors')
+        '16c-used-04-k1-tisx' = @('ANSI', 'ASCIIArt', 'Artistic', 'knocturnal', 'used', 'used04', '16colors')
+        '16c-used-04-k1-wickm' = @('ANSI', 'ASCIIArt', 'Artistic', 'Knocturnal', 'TheUsedCoalition', 'used04', '16colors')
+        '16c-used-04-mr-used4' = @('ANSI', 'ASCIIArt', 'Artistic', 'MrWrong', 'TheUsedCoalition', 'used04', '16colors')
+        '16c-used-04-ns-c0000-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'TheUsedCoalition', 'used04', '16colors', 'SplitPart')
+        '16c-used-04-ns-c0000-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'TheUsedCoalition', 'used04', '16colors', 'SplitPart')
+        '16c-used-04-ns-c0000-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'TheUsedCoalition', 'used04', '16colors', 'SplitPart')
+        '16c-used-04-ns-c0000-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'TheUsedCoalition', 'used04', '16colors', 'SplitPart')
+        '16c-used-04-ns-used1' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'used', 'used04', '16colors')
+        '16c-used-04-ppe-smok-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'propane', 'used', 'used04', '16colors', 'SplitPart')
+        '16c-used-04-ppe-smok-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'propane', 'used', 'used04', '16colors', 'SplitPart')
+        '16c-used-04-ppe-smok-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'propane', 'used', 'used04', '16colors', 'SplitPart')
+        '16c-used-04-ppe-wm' = @('ANSI', 'ASCIIArt', 'Artistic', 'propane', 'TheUsedCoalition', 'used04', '16colors')
+        '16c-used-04-us-h6' = @('ANSI', 'ASCIIArt', 'Artistic', 'PropaneCryogenic', 'used', 'used04', '16colors')
+        '16c-used-04-us-rant2' = @('ANSI', 'ASCIIArt', 'Artistic', 'MrWrongAvengingAngel', 'TheUsedCoalition', 'used04', '16colors')
+        '16c-used-05-avg-use1' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngel', 'TheUsedCoalition', 'used05', '16colors')
+        '16c-used-05-cg-free' = @('ANSI', 'ASCIIArt', 'Artistic', 'cryogenic', 'used', 'used05', '16colors')
+        '16c-used-05-cg-lure1' = @('ANSI', 'ASCIIArt', 'Artistic', 'cryogenic', 'lure', 'used05', '16colors')
+        '16c-used-05-mr-s701' = @('ANSI', 'ASCIIArt', 'Artistic', 'MrWrong', 'TheUsedCoalition', 'used05', '16colors')
+        '16c-used-05-ns-123-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'usedcoalition', 'used05', '16colors', 'SplitPart')
+        '16c-used-05-ns-123-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'usedcoalition', 'used05', '16colors', 'SplitPart')
+        '16c-used-05-ns-123-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'usedcoalition', 'used05', '16colors', 'SplitPart')
+        '16c-used-05-ns-123-part04' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'usedcoalition', 'used05', '16colors', 'SplitPart')
+        '16c-used-05-ns-123-part05' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'usedcoalition', 'used05', '16colors', 'SplitPart')
+        '16c-used-05-ns-123-part06' = @('ANSI', 'ASCIIArt', 'Artistic', 'ansichrist', 'usedcoalition', 'used05', '16colors', 'SplitPart')
+        '16c-used-05-ppe-ice1' = @('ANSI', 'ASCIIArt', 'Artistic', 'propane', 'TheUsedCoalition', 'used05', '16colors')
+        '16c-used-05-us-dh01' = @('ANSI', 'ASCIIArt', 'Artistic', 'GrymmjackMrWrong', 'TheUsedCoalition', 'used05', '16colors')
+        '16c-used-05-us-inf1' = @('ANSI', 'ASCIIArt', 'Artistic', 'SpearCleaner', 'TheUsedCoalition', 'used05', '16colors')
+        '16c-used-07-mr-bvhc1' = @('ANSI', 'ASCIIArt', 'Artistic', 'MrWrong', 'used07', '16colors')
+        '16c-used-07-mr-used6' = @('ANSI', 'ASCIIArt', 'Artistic', 'MrWrong', 'TheUsedCoalition', 'used07', '16colors')
+        '16c-used-07-po-idlob-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'portia', 'used', 'used07', '16colors', 'SplitPart')
+        '16c-used-07-po-idlob-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'portia', 'used', 'used07', '16colors', 'SplitPart')
+        '16c-used-666-avg-bm1' = @('ANSI', 'ASCIIArt', 'Artistic', 'TheAvengingAngel', 'TheUsedCoalition', 'used666', '16colors')
+        '16c-used-666-avg-kbs1' = @('ANSI', 'ASCIIArt', 'Artistic', 'theavengingangel', 'youzd', 'used666', '16colors')
+        '16c-used-666-mr-id01' = @('ANSI', 'ASCIIArt', 'Artistic', 'MrWrong', 'TheUsedCoalition', 'used666', '16colors')
+        '16c-used-666-mr-plf02' = @('ANSI', 'ASCIIArt', 'Artistic', 'MrWrong', 'TheUsedCoalition', 'used666', '16colors')
+        '16c-used-666-us-cia' = @('ANSI', 'ASCIIArt', 'Artistic', 'AnsichristTefron', 'TheUsedCoalition', 'used666', '16colors')
+        '16c-used-666-us-rzr01' = @('ANSI', 'ASCIIArt', 'Artistic', 'SpearMrWrongThext', 'TheUsedCoalition', 'used666', '16colors')
+        '16c-used-666-us-spade' = @('ANSI', 'ASCIIArt', 'Artistic', 'AvengingAngelTeflon', 'TheUsedCoalition', 'used666', '16colors')
+        '16c-used-666-us-tuc1' = @('ANSI', 'ASCIIArt', 'Artistic', 'SpearGrymmjack', 'TheUsedCoalition', 'used666', '16colors')
         '16c-1fluid1-avg-fld' = @('ANSI', 'ASCIIArt', 'Artistic', 'avg', 'GuestArtist', '1fluid1', '16colors')
         '16c-1fluid1-del-1-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'delicious', 'fluid', '1fluid1', '16colors', 'SplitPart')
         '16c-1fluid1-del-1-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'delicious', 'fluid', '1fluid1', '16colors', 'SplitPart')
@@ -23446,6 +24625,399 @@
     }
 
     Descriptions = @{
+        '16c-aeron-a-bc-aeron' = 'Bc-aeron.ans by Bluecalx from aeron-a.'
+        '16c-aeron-a-cw-opp' = 'Cw-opp.ans by Ceelow from aeron-a.'
+        '16c-aeron-a-dsk-350' = 'dsk-350.ans by Deesink from aeron-a.'
+        '16c-aeron-a-sz-opp' = 'sz-opp.ans by Slackzor from aeron-a.'
+        '16c-aeron-a-sz-solar' = 'Sz-solar.ans by Slackzor from aeron-a.'
+        '16c-aidbox01-kr-kalv2-part01' = 'kalav by kr?!@ from aidbox01, source rows 1-49.'
+        '16c-aidbox01-kr-kalv2-part02' = 'kalav by kr?!@ from aidbox01, source rows 50-99.'
+        '16c-arc-16-dlt-arc' = 'rka by dalton from arc-16.'
+        '16c-arc-16-s7-wm' = 'WM menu by Somberlain from arc-16.'
+        '16c-arc-16-tii-arc' = 'alphaforce by tetsuo_ii from arc-16.'
+        '16c-arc-16-tii-arse' = 'arse by tetsuo_ii from arc-16.'
+        '16c-arc-16-tii-sae' = 'share and enjoy by tetsuo_ii from arc-16.'
+        '16c-arc-16-tii-twr' = 'the war room bbs by tetsuo_ii from arc-16.'
+        '16c-arc-16-us-shs' = 'SHS by Somberlain + Alla Xul from arc-16.'
+        '16c-arc-17-dlt-arc' = 'Arc by dalton from arc-17.'
+        '16c-arc-17-us-arc' = 'Alphaforce by Dalton + Woffel from arc-17.'
+        '16c-arc-17-us-arc2' = 'Alphaforce low resolution art by Somberlain + Dalton from arc-17.'
+        '16c-arc-17-us-sae' = 'Share And Enjoy by Dalton + Datachild from arc-17.'
+        '16c-bleu001-dr-bleu' = 'DR-BLEU.ANS by Dr Shizuma from bleu001.'
+        '16c-bleu001-go-bleu' = 'GO-BLEU.ANS by Gould from bleu001.'
+        '16c-bleu001-pr-hell4' = 'PR-HELL4.ANS by Propane from bleu001.'
+        '16c-bleu001-us-nd' = 'US-ND.ANS by Maytag + Bizzarro from bleu001.'
+        '16c-bmbook21-ave-ac' = 'err. astrocity or something by avenger from bmbook21.'
+        '16c-bmbook21-shn-cats' = 'samuraipizzacats 2000 vs. gutter by shine from bmbook21.'
+        '16c-bmbook21-sm-burn' = 'burn by smoke from bmbook21.'
+        '16c-bmbook21-sp-bm2' = 'SP-BM2.ANS by Spear from bmbook21.'
+        '16c-bmbook21-t-crack' = 'crack by toot from bmbook21.'
+        '16c-bmbook21-t-hel' = 'hellium by toot from bmbook21.'
+        '16c-bmbook21-t-shine' = 'shine by toot from bmbook21.'
+        '16c-bmbook21-us-nerp' = 'nerp by Spear + Toot from bmbook21.'
+        '16c-bmbook21-us-parad' = 'paradise mysteries by Shine + Maytag from bmbook21.'
+        '16c-bmbook21-us-phat' = 'phat studios by Potzkoten + Spear from bmbook21.'
+        '16c-bmbook21-us-phx1' = 'phunxion by Avenger + Spear from bmbook21.'
+        '16c-buttz01-ppe-font' = 'Ansi Font by propane from buttz01.'
+        '16c-buttz01-zii-c-9' = 'Cloud#9 by Zeus II from buttz01.'
+        '16c-buttz01-zii-c-9b' = 'cloud#9 by Zeus II from buttz01.'
+        '16c-buttz01-zii-woez' = 'woezine thang by Zeus II from buttz01.'
+        '16c-buttz02-del-memb' = 'memberlisting by delicious from buttz02.'
+        '16c-buttz02-zii-dsrw' = 'your ass is on fire! by Funky Punx from buttz02.'
+        '16c-buttz03-avg-bm2' = 'AVG-BM2.ANS by Avenging Angel from buttz03.'
+        '16c-buttz03-avg-br1' = 'AVG-BR1.ANS by Avenging Angel from buttz03.'
+        '16c-buttz03-ppe-fm3' = 'PPE-FM3.ANS by Propane from buttz03.'
+        '16c-buttz03-s7-blas' = 'Blasphemy by Somberlain from buttz03.'
+        '16c-buttz03-sq-br01' = 'SQ-BR01.ANS by Sobriquet from buttz03.'
+        '16c-buttz03-us-bfont' = 'Buttraiderz Fontage by Zeus Ii + Somberlain from buttz03.'
+        '16c-ceg-010a-crs-jtx' = 'jUSt-X by Crasher from ceg-010a.'
+        '16c-ceg-010a-crs-mad' = 'mad by Crasher from ceg-010a.'
+        '16c-ceg-010a-crs-orio' = 'Orion by Crasher from ceg-010a.'
+        '16c-ceg-010a-mb-icede' = '''iced earth bbs logo'' by mr.byte from ceg-010a.'
+        '16c-ceg-010a-mb-irn-part01' = '''ceg is not a limonade'' by mr.byte from ceg-010a, source rows 1-29.'
+        '16c-ceg-010a-mb-irn-part02' = '''ceg is not a limonade'' by mr.byte from ceg-010a, source rows 30-57.'
+        '16c-ceg-010a-mb-malol' = '''maloletka'' by mr.byte from ceg-010a.'
+        '16c-cro0400-dntph2a' = 'DNTPH2A.ANS by Dennison from cro0400.'
+        '16c-cro0400-rad001' = 'RAD001.ANS by Radiators from cro0400.'
+        '16c-cro0400-rad003' = 'RAD003.ANS by Radiators from cro0400.'
+        '16c-eco-17-074-fina' = 'final notes by lemon1zer from eco-17.'
+        '16c-eco-17-074-kerm' = 'kermit de kikker by lemon1zer from eco-17.'
+        '16c-eco-17-cl-eco' = 'Ecolove by Cleaner from eco-17.'
+        '16c-eco-17-cpl-opt' = 'The Option-Dude by Commissaris Plons from eco-17.'
+        '16c-eco-17-pd-eco' = '1st contribution by PoSeidon from eco-17.'
+        '16c-eco-17-pr-woe' = 'woe zine by president from eco-17.'
+        '16c-eco-17-slc-coll-part01' = 'colly by silence from eco-17, source rows 1-40.'
+        '16c-eco-17-slc-coll-part02' = 'colly by silence from eco-17, source rows 41-61.'
+        '16c-eco-17-us-tea' = 'tea! by Spear + Lemon1zer from eco-17.'
+        '16c-epic0005-ax-inhal' = 'inhale by alla xul from epic0005.'
+        '16c-epic0005-us-wolf' = 'wolf by thext/argon from epic0005.'
+        '16c-epic0006-h7-asm2k' = 'pimpin aint e-z by h7 from epic0006.'
+        '16c-epic0007-del-plf2' = 'sodapop by delicious from epic0007.'
+        '16c-epic0007-ns-epic7' = 'epic7 by ansichrist from epic0007.'
+        '16c-equate01-po-pb01-part01' = 'po-pb01.ans by Portia from equate01, source rows 1-45.'
+        '16c-equate01-po-pb01-part02' = 'po-pb01.ans by Portia from equate01, source rows 46-91.'
+        '16c-equate01-po-pb01-part03' = 'po-pb01.ans by Portia from equate01, source rows 92-139.'
+        '16c-equate01-po-pb01-part04' = 'po-pb01.ans by Portia from equate01, source rows 140-188.'
+        '16c-equate01-po-pb01-part05' = 'po-pb01.ans by Portia from equate01, source rows 189-219.'
+        '16c-equate01-po-uglee-part01' = 'po-uglee.ans by Portia from equate01, source rows 1-43.'
+        '16c-equate01-po-uglee-part02' = 'po-uglee.ans by Portia from equate01, source rows 44-93.'
+        '16c-equate01-po-uglee-part03' = 'po-uglee.ans by Portia from equate01, source rows 94-141.'
+        '16c-galza-08-om-lice' = 'OM-LICE.ANS by Otium Man from galza-08.'
+        '16c-gen-09-kmb-gen2' = 'kmb-gen2.ans by Kumb4 from gen-09.'
+        '16c-gen-09-kmb-gl2k' = 'kmb-gl2k.ans by Kumb4 from gen-09.'
+        '16c-gen-09-kmb-stol' = 'kmb-stol.ans by Kumb4 from gen-09.'
+        '16c-gen-09-l44-gen' = 'genuine,kicks ass by lemoniqe from gen-09.'
+        '16c-gen-09-rl-prev' = 'rl-prev.ans by Rawlock from gen-09.'
+        '16c-gen-09-rl-raw' = 'rl-raw.ans by Rawlock from gen-09.'
+        '16c-getready-ds-oct' = 'Octopus by Dead Soul and Cthulu from getready.'
+        '16c-getready-ma-body' = 'She''s got a great body (of water) by Mage and Cthulu from getready.'
+        '16c-glue-29-22-medu1' = 'medusa bbs screen by catch22 from glue-29.'
+        '16c-glue-29-pr-glue' = 'glue by president from glue-29.'
+        '16c-glue-29-sob-gl2k' = 'Glue2k by Somberlain from glue-29.'
+        '16c-glue-30-22-nvr3' = 'menu for my bbs by catch22 from glue-30.'
+        '16c-glue-30-22-nvr4' = 'menu for my bbs by catch22 from glue-30.'
+        '16c-glue-30-pr-last' = 'last man standing by president from glue-30.'
+        '16c-glue-30-s7-medu' = 'Medusa BBS Software by Somberlain + Zerovision from glue-30.'
+        '16c-glue-30-us-used3' = 'Used by Somberlain + Avenging Angel from glue-30.'
+        '16c-glue-31-us-ds1' = 'US-DS1.ANS by Avenger + Avenging Angel from glue-31.'
+        '16c-glue-31-us-epic1' = 'US-EPIC1.ANS by Zedfactor + Avenging Angel from glue-31.'
+        '16c-glue-31-us-fuzzz' = 'us-fuzzz.ans by Klumzee from glue-31.'
+        '16c-glue-31-us-xtc1' = 'ecstacy menu by Catch 22 + Somberlain from glue-31.'
+        '16c-glue-31-zv-caff-part01' = 'caffeine by zeroVision from glue-31, source rows 1-38.'
+        '16c-glue-31-zv-caff-part02' = 'caffeine by zeroVision from glue-31, source rows 39-75.'
+        '16c-glue-31-zv-col5-part01' = 'collected art #5 by zeroVision from glue-31, source rows 1-47.'
+        '16c-glue-31-zv-col5-part02' = 'collected art #5 by zeroVision from glue-31, source rows 48-97.'
+        '16c-glue-31-zv-col5-part03' = 'collected art #5 by zeroVision from glue-31, source rows 98-121.'
+        '16c-glue-31-zv-col5-part04' = 'collected art #5 by zeroVision from glue-31, source rows 122-164.'
+        '16c-glue-32-tcf-bjob' = 'tcf-bjob.ans by Tcf from glue-32.'
+        '16c-glue-32-us-ctv1' = 'Color Tv by Somberlain / Avg from glue-32.'
+        '16c-hazmat08-jp-mh1' = 'jp-mh1.ans by Jack Phlash from hazmat08.'
+        '16c-hazmat08-tb-haz-part01' = 'TB-HAZ.ANS by T-Bob from hazmat08, source rows 1-27.'
+        '16c-hazmat08-tb-haz-part02' = 'TB-HAZ.ANS by T-Bob from hazmat08, source rows 28-54.'
+        '16c-hazmat09-tb-pvl' = 'TB-PVL.ANS by T-Bob from hazmat09.'
+        '16c-hen-solo1-hen-2' = '##2 by hennifer from hen-solo1.'
+        '16c-hiero-02-3i-burn' = 'Burn by Nitrifik from hiero-02.'
+        '16c-hiero-02-cg-hg' = 'Hieroglyphics by Cryogenic from hiero-02.'
+        '16c-hiero-02-cg-lure0' = 'Lure by Cryogenic from hiero-02.'
+        '16c-hiero-02-d1-elf1' = 'Elf by Dissonance from hiero-02.'
+        '16c-hiero-02-d1-lure1' = 'Lure by Dissonance from hiero-02.'
+        '16c-hiero-02-d1-nine1' = 'Cloud 9 by Dissonance from hiero-02.'
+        '16c-hiero-02-k1-aex' = 'Autechre by Knocturnal from hiero-02.'
+        '16c-hiero-02-k1-emp1' = 'Statik Empire by Knocturnal from hiero-02.'
+        '16c-hiero-02-k1-main' = 'Statik Empire by Knocturnal from hiero-02.'
+        '16c-hiero-02-k1-statk' = 'Statik Empire by Knocturnal from hiero-02.'
+        '16c-hiero-02-k1-statm' = 'Statik Empire by Knocturnal from hiero-02.'
+        '16c-hiero-02-k1-tt' = 'Tir Tairngire by Knocturnal from hiero-02.'
+        '16c-hiero-02-k1-urtsc' = 'Umberto Raye / The Shell Collective by Knocturnal from hiero-02.'
+        '16c-hiero-02-k1-v2' = 'Vision/2 by Knocturnal from hiero-02.'
+        '16c-hiero-02-k1-wm' = 'Wicked Minority by Knocturnal from hiero-02.'
+        '16c-hiero-02-smi-slt2' = 'Salt by Samurai from hiero-02.'
+        '16c-hiero-03-3i-epik' = 'Epik by Nitrifik from hiero-03.'
+        '16c-hiero-03-3i-livem' = 'Live Meat by Nitrifik from hiero-03.'
+        '16c-hiero-03-avg-ds' = 'Dark Sorrow by Avenging Angel from hiero-03.'
+        '16c-hiero-03-avg-epic' = 'Epic by Avenging Angel from hiero-03.'
+        '16c-hiero-03-avg-hier' = 'Hieroglyphics by Avenging Angel from hiero-03.'
+        '16c-hiero-03-cg-avg' = 'For Ivan by Cryogenic from hiero-03.'
+        '16c-hiero-03-cg-drks' = 'Dark Sorrow by Cryogenic from hiero-03.'
+        '16c-hiero-03-d1-wm1' = 'Wicked Minority by Dissonance from hiero-03.'
+        '16c-hiero-03-ns-c9b' = 'Cloud 9 by Ansichrist from hiero-03.'
+        '16c-hiero-03-ns-hg111' = 'Hieroglyphics by Ansichrist from hiero-03.'
+        '16c-hiero-03-ns-hg112' = 'Hieroglyphics by Ansichrist from hiero-03.'
+        '16c-hiero-03-ns-iii' = 'Epic by Ansichrist from hiero-03.'
+        '16c-hiero-03-ns-usddd' = 'Used by Ansichrist from hiero-03.'
+        '16c-hiero-03-sp-e1' = 'Ecstacy by Spearfx from hiero-03.'
+        '16c-hiero-03-sp-fm1' = 'Fuck Monkey by Spearfx from hiero-03.'
+        '16c-hiero-03-sp-thc1' = 'THC by Spearfx from hiero-03.'
+        '16c-hiero-03-us-h2' = 'Hazard/2 by Dissonance + Avenging Angel from hiero-03.'
+        '16c-hiero-03-us-use4' = 'Used by Avenging Angel + Dissonance from hiero-03.'
+        '16c-hiero-04-avg-hg2' = 'Hieroglyphics by Avenging Angel from hiero-04.'
+        '16c-hiero-04-cg-fm' = 'Fuck Monkey by Cryogenic from hiero-04.'
+        '16c-hiero-04-d1-hg1' = 'Hieroglyphics by Dissonance from hiero-04.'
+        '16c-hiero-04-ns-hg333' = 'Hieroglyphics by Ansichrist from hiero-04.'
+        '16c-hiero-04-ppe-fm82' = 'Fuck Monkey by Propane from hiero-04.'
+        '16c-hiero-04-sz-clar1' = 'Clarity by Slackzor from hiero-04.'
+        '16c-hiero-04-us-dank1' = 'Dank by Teflon + Somberlain + Firehead from hiero-04.'
+        '16c-hiero-04-zip-bd' = 'Brain Damage by Zippy from hiero-04.'
+        '16c-hiero-04-zip-neck' = 'Neck by Zippy from hiero-04.'
+        '16c-ice0001a-09-ice2' = '09-ice2.ice by Fluor from ice0001a.'
+        '16c-ice0001a-tna-002' = 'tna-002.ice by The Night Angel from ice0001a.'
+        '16c-ice0001a-tna-003' = 'tna-003.ice by The Night Angel + Maytag from ice0001a.'
+        '16c-ice0002a-us-idraw' = 'US-IDRAW.ICE by Kitiara from ice0002a.'
+        '16c-ice0004a-09-ice3' = '09-ICE3.ICE by Fluor from ice0004a.'
+        '16c-ice0004a-09-info' = '09-INFO.ICE by Fluor from ice0004a.'
+        '16c-ice0004a-tna-004' = 'TNA-004.ICE by The Night Angel from ice0004a.'
+        '16c-ice0004a-us-slt1' = 'US-SLT1.ICE by The Night Angel + Mr Wrong from ice0004a.'
+        '16c-ice0005a-09-fc3' = '09-FC3.ICE by Fluor from ice0005a.'
+        '16c-ice0005a-us-001' = 'US-001.ICE by The Night Angel + Mr Wrong from ice0005a.'
+        '16c-ice0010a-mt-back' = 'mt-back.ice by Misfit from ice0010a.'
+        '16c-ice0012a-prm-m5d' = 'mr self destruct(mSd) by Prizm from ice0012a.'
+        '16c-ice0012a-us-m0d1-part01' = 'scribbl3s by discyple/Prizm from ice0012a, source rows 1-36.'
+        '16c-ice0012a-us-m0d1-part02' = 'scribbl3s by discyple/Prizm from ice0012a, source rows 37-66.'
+        '16c-ikeauno-zii-ilc1-part01' = 'ikea logo colly 1 by Zeus II from ikeauno, source rows 1-42.'
+        '16c-ikeauno-zii-ilc1-part02' = 'ikea logo colly 1 by Zeus II from ikeauno, source rows 43-87.'
+        '16c-ikeauno-zii-ilc1-part03' = 'ikea logo colly 1 by Zeus II from ikeauno, source rows 88-133.'
+        '16c-jtxa-03-srb-b' = 'SRB-B.ANS by Sketch Rimanez from jtxa-03.'
+        '16c-kbsart04-ktz-eb' = 'EB by Dr Katz from kbsart04.'
+        '16c-kbsart04-lm-ewa' = 'Lm-ewa.ans by lichmistress from kbsart04.'
+        '16c-kbsart04-lm-metal' = 'Lm-metal.ans by lichmistress from kbsart04.'
+        '16c-kbsart04-sob-de' = 'deadend.darktech.org by Somberlain from kbsart04.'
+        '16c-kbsart04-sob-mcf' = 'SOB-MCF.ANS by The Somberlain from kbsart04.'
+        '16c-kbsart05-lemon-kb' = 'lemon-kbs by lemon44 from kbsart05.'
+        '16c-kbsart05-us-inf1' = 'us-inf1.ans by Avenging Angel + Goatboy from kbsart05.'
+        '16c-l0p05-00-riv-nico' = 'Nico zabojca? 8) by Riven from l0p05_00.'
+        '16c-l0p05-00-riv-phto' = 'pHOTOSLIDE by rIVEN from l0p05_00.'
+        '16c-l0p05-00-sk-aster' = 'SK!ASTER.ANS by Simonking from l0p05_00.'
+        '16c-l0p05-00-sk-confu' = 'SK!CONFU.ANS by Simonking from l0p05_00.'
+        '16c-l0p05-00-sk-fcs' = 'SK!FCS.ANS by Simonking from l0p05_00.'
+        '16c-l0p05-00-sk-piese' = 'SK!PIESE.ANS by Simonking from l0p05_00.'
+        '16c-l0p05-00-sk-plane' = 'SK!PLANE.ANS by Simonking from l0p05_00.'
+        '16c-l0p05-00-sk-screa' = 'sCREAM pelen KOBIET ;) by sIMONkING from l0p05_00.'
+        '16c-l0p06-00-5p-drago' = '5P!DRAGO.ANS by Snap from l0p06_00.'
+        '16c-l0p06-00-dx-maneo' = 'maneo by dx[ka] from l0p06_00.'
+        '16c-l0p06-00-dx-repic' = 're/thc with pic by dx[ka] from l0p06_00.'
+        '16c-l0p06-00-dx-sk' = 'sK! with face by dx[ka] from l0p06_00.'
+        '16c-l0p06-00-no-l0p' = 'lop by noches from l0p06_00.'
+        '16c-l0p06-00-no-simon' = 'simon by noches from l0p06_00.'
+        '16c-l0p06-00-ppa-drag' = 'dragonman by protoplasta from l0p06_00.'
+        '16c-l0p06-00-ppa-noth' = 'thelo0p and nothing more... by protoplasta from l0p06_00.'
+        '16c-l0p06-00-sk-2400b' = 'SK!2400B.ANS by Simonking from l0p06_00.'
+        '16c-l0p06-00-sk-matri-part01' = 'SK!MATRI.ANS by Simonking from l0p06_00, source rows 1-43.'
+        '16c-l0p06-00-sk-matri-part02' = 'SK!MATRI.ANS by Simonking from l0p06_00, source rows 44-78.'
+        '16c-l0p06-00-sk-noche' = 'kRwaWA cZERWIEN by sIMONkING from l0p06_00.'
+        '16c-l0p06-00-sk-riven' = 'rIVEN fANTASTIC ;) by sIMONkING from l0p06_00.'
+        '16c-l0p06-00-sk-tds' = 'the demented sphere bbs by sIMONkING from l0p06_00.'
+        '16c-l0p06-00-sk-zwier' = 'zezloszczony zwierzak =) by sIMONkING from l0p06_00.'
+        '16c-l0p07-00-no-coll1-part01' = 'logo colly by noches from l0p07_00, source rows 1-38.'
+        '16c-l0p07-00-no-coll1-part02' = 'logo colly by noches from l0p07_00, source rows 39-80.'
+        '16c-l0p07-00-sk-alien' = 'aLIEN foR eSIDE by sIMONkING from l0p07_00.'
+        '16c-l0p07-00-sk-insec' = 'iNSECT by sIMONkING from l0p07_00.'
+        '16c-l0p07-00-sk-log01-part01' = 'paczka logoskow do 007/2000 by sIMONkiNG from l0p07_00, source rows 1-47.'
+        '16c-l0p07-00-sk-log01-part02' = 'paczka logoskow do 007/2000 by sIMONkiNG from l0p07_00, source rows 48-94.'
+        '16c-l0p07-00-sk-log01-part03' = 'paczka logoskow do 007/2000 by sIMONkiNG from l0p07_00, source rows 95-141.'
+        '16c-l0p08-00-no-coll2-part01' = 'logo colly 2 by noches from l0p08_00, source rows 1-46.'
+        '16c-l0p08-00-no-coll2-part02' = 'logo colly 2 by noches from l0p08_00, source rows 47-84.'
+        '16c-l0p08-00-no-coll2-part03' = 'logo colly 2 by noches from l0p08_00, source rows 85-130.'
+        '16c-l0p08-00-sk-artc2' = 'aRTC2000 by sIMONkING from l0p08_00.'
+        '16c-l0p08-00-sk-with' = 'wITH by sIMONkING from l0p08_00.'
+        '16c-l0p09-00-ppa-d0n' = 'd0n w stylu anomite by protoplasta from l0p09_00.'
+        '16c-l0p09-00-sk-astur' = 'aSTURN - pHREAK gROUP by sIMONkING from l0p09_00.'
+        '16c-l0p09-00-sk-deus' = 'dEUS by sIMONkING from l0p09_00.'
+        '16c-l0p09-00-sk-lo0p' = 'tHElo0p art by sIMONkING from l0p09_00.'
+        '16c-l0p09-00-sk-logou-part01' = 'SK!LOGOU.ANS by Simonking from l0p09_00, source rows 1-26.'
+        '16c-l0p09-00-sk-logou-part02' = 'SK!LOGOU.ANS by Simonking from l0p09_00, source rows 27-53.'
+        '16c-l0p09-00-sk-riven' = 'rIVEN ty nie mozesz odejsc! by sIMONkING from l0p09_00.'
+        '16c-l0p09-00-sk-x-mas' = 'zyczenia od mikolaja by sIMONkING from l0p09_00.'
+        '16c-l0p09-00-us-gnom' = 'gnom for radman by Protoplasta + Simonking from l0p09_00.'
+        '16c-l0p09-00-us-lo0p' = 'thelo0p by Simonking + Avenger from l0p09_00.'
+        '16c-l0p09-00-us-tlo0p' = 'thelo0p by Simonking + Potzkoten from l0p09_00.'
+        '16c-locus-08-avg-cg1' = 'cryo rocks.. by the avenging angel from locus-08.'
+        '16c-locus-08-avg-raw1' = 'AVG-RAW1.ANS by Avenging Angel from locus-08.'
+        '16c-locus-08-ppe-10' = 'PPE-10.ANS by Propane from locus-08.'
+        '16c-locus-08-ppe-2112' = 'PPE-2112.ANS by propane from locus-08.'
+        '16c-locus-08-ppe-a10' = 'PPE-A10.ANS by Propane from locus-08.'
+        '16c-locus-08-us-ks1' = 'US-KS1.ANS by Avenging Angel + Somberlain from locus-08.'
+        '16c-locus-08-us-loc1' = 'US-LOC1.ANS by Kartoon + Avenging Angel from locus-08.'
+        '16c-locus-08-us-somb1' = 'US-SOMB1.ANS by Rippa + Avenging Angel from locus-08.'
+        '16c-mimic20-bjasc181' = 'bjasc181.ans by Black Jack from mimic20.'
+        '16c-mimic21-emk-acid' = 'i lost my skillz by emok from mimic21.'
+        '16c-mimic21-gnk-crck' = 'gnk-crck.ans by Genick from mimic21.'
+        '16c-mimic22-gnk-prev' = 'gnk-prev.ans by Genick from mimic22.'
+        '16c-mimic25-dr-masc' = 'dr-masc.ans by Dr Shizuma from mimic25.'
+        '16c-mimic25-dr-sys2' = 'dr-sys2.ans by Dr Shizuma from mimic25.'
+        '16c-mimic25-mp-july' = 'mp-july.ans by Meatpod from mimic25.'
+        '16c-mimic27-jn-surp' = 'jn-surp.ans by Jashiin from mimic27.'
+        '16c-mimic28-no-done' = 'info layout by noches from mimic28.'
+        '16c-mimic30-dr-iori' = 'dr-iori.ans by Dr Shizuma from mimic30.'
+        '16c-mimic30-gdr-mim2' = 'gdr-mim2.ans by Gravedancer from mimic30.'
+        '16c-omega001-df-omega' = 'DF-OMEGA.ANS by Darkform from omega001.'
+        '16c-out-0100-out-uc' = 'OUT-UC.ANS by Sandy Chidester from out-0100.'
+        '16c-out-0100-out-welc' = 'OUT-WELC.ANS by Sandy Chidester from out-0100.'
+        '16c-out-0200-out-dome' = 'OUT-DOME.ANS by Sandy Chidester from out-0200.'
+        '16c-out-0200-out-hmbd' = 'OUT-HMBD.ANS by Sandy Chidester from out-0200.'
+        '16c-out-0200-out-tigr' = 'OUT-TIGR.ANS by Sandy Chidester from out-0200.'
+        '16c-plenty-bl-loop' = 'BL!_LOOP.ANS by Bull from plenty.'
+        '16c-plenty-bl-woju' = 'BL!_WOJU.ANS by Bull from plenty.'
+        '16c-plenty-dx-100ln-part01' = '100 line ansi by dexter from plenty, source rows 1-50.'
+        '16c-plenty-dx-100ln-part02' = '100 line ansi by dexter from plenty, source rows 51-100.'
+        '16c-plenty-dx-avd' = 'fire of agravedict by dexter from plenty.'
+        '16c-plenty-dx-gdevl' = 'good and evil by dexter from plenty.'
+        '16c-plenty-dx-lgs' = 'crown of logrus by dexter from plenty.'
+        '16c-plenty-dx-plant' = 'motywy roslinne w poezji ;) by dexter from plenty.'
+        '16c-plenty-ins-plan' = 'planet by insect from plenty.'
+        '16c-plenty-p0d-agd' = 'P0D_AGD.ANS by Podo from plenty.'
+        '16c-plf-24-mmang-rn' = 'ronin, fuckeveryonewhodidn''tcare by milkmang 1979 from plf-24.'
+        '16c-plf-24-t-grunge' = 'grunge by toot from plf-24.'
+        '16c-plf-24-t-prvail' = 'prevail by toot from plf-24.'
+        '16c-sac-19-frx-hp01' = 'Frx-hp01.ans by Ferrex from sac-19.'
+        '16c-sac-19-frx-hp02' = 'Frx-hp02.ans by Ferrex from sac-19.'
+        '16c-sae-1al-dlt-arc' = 'Alpha Force by Dalton from sae-1al.'
+        '16c-sae-1al-dlt-sae' = 'Share And Enjoy by Dalton from sae-1al.'
+        '16c-sae-1al-eb-ecl2' = 'EB-ECL2.ANS by Eboy from sae-1al.'
+        '16c-sae-1al-eb-stile' = 'EB-STILE.ANS by Eboy from sae-1al.'
+        '16c-sae-1al-eb-tsr' = 'EB-TSR.ANS by Eboy from sae-1al.'
+        '16c-sae-1bl-eb-wcity' = 'EB-WCITY.ANS by Eboy from sae-1bl.'
+        '16c-sae-1cl-us-sae' = 'US-SAE!.ANS by Ellus + M0dium from sae-1cl.'
+        '16c-sae-2al-eb-santa' = 'EB-SANTA.ANS by Eboy from sae-2al.'
+        '16c-sclr-03-dg-16ium' = 'DG-16IUM.ANS by Digi from sclr-03.'
+        '16c-sclr-03-dg-1st' = 'DG-1ST.ANS by Digi from sclr-03.'
+        '16c-sclr-12-as-pg' = 'pappy girl by as-d from sclr-12.'
+        '16c-sclr-13-as-acid' = 'AS-ACID.ANS by Asd from sclr-13.'
+        '16c-sclr-13-as-gn' = 'AS-GN.ANS by Asd from sclr-13.'
+        '16c-sclr-13-s-she-w' = 'S&-SHE_W.ANS by Sandman604 from sclr-13.'
+        '16c-sclr-13-srb-bezn-part01' = 'SRB-BEZN.ANS by Sketch Rimanez from sclr-13, source rows 1-47.'
+        '16c-sclr-13-srb-bezn-part02' = 'SRB-BEZN.ANS by Sketch Rimanez from sclr-13, source rows 48-93.'
+        '16c-sclr-13-srb-bezn-part03' = 'SRB-BEZN.ANS by Sketch Rimanez from sclr-13, source rows 94-139.'
+        '16c-sclr-13-srb-bezn-part04' = 'SRB-BEZN.ANS by Sketch Rimanez from sclr-13, source rows 140-186.'
+        '16c-smr-02-xr' = 'Smr Logo by xrip from smr-02.'
+        '16c-smr-03-as-gbmat' = 'AS-GBMAT.ANS by Asd from smr-03.'
+        '16c-smr-03-as-lits' = 'AS-LITS.ANS by Asd from smr-03.'
+        '16c-sys2-02-us-used' = 'US-USED.ANS by Zerostar + Somber from sys2_02.'
+        '16c-sys2-02-zs-btwos' = 'ZS-BTWOS.ANS by Zerostar from sys2_02.'
+        '16c-sys2-02-zs-dahau' = 'ZS-DAHAU.ANS by Zerostar from sys2_02.'
+        '16c-sys2-02-zs-dek' = 'zs-dek.ans by Zerostar from sys2_02.'
+        '16c-sys2-02-zs-ko' = 'ZS-KO.ANS by Zerostar from sys2_02.'
+        '16c-sys2-02-zs-mmc5' = 'zs-mmc5.ans by Zerostar from sys2_02.'
+        '16c-sys2-02-zs-sii05' = 'ZS-SII05.ANS by Zerostar from sys2_02.'
+        '16c-sys2-03-sm-df3' = 'SM-DF3.ANS by Smoke from sys2_03.'
+        '16c-sys2-03-sm-s7' = 'SM-S7.ANS by Smoke from sys2_03.'
+        '16c-sys2-03-us-girl' = 'us-girl.ans by Double Zero + Cleaner from sys2_03.'
+        '16c-sys2-03-us-plex' = 'US-PLEX.ANS by Zerostar + Ansichrist + Teflon from sys2_03.'
+        '16c-sys2-03-us-wm' = 'US-WM.ANS by zerostar from sys2_03.'
+        '16c-sys2-03-zs-exalt' = 'ZS-EXALT.ANS by zerostar from sys2_03.'
+        '16c-sys2-03-zs-free' = 'free head.. erm. headers. by zerostar from sys2_03.'
+        '16c-sys2-03-zs-worm' = 'ZS-WORM.ANS by zerostar from sys2_03.'
+        '16c-sys2-04-sm-2' = 'sm-2.ans by Smoke from sys2_04.'
+        '16c-sys2-04-sm-relic' = 'sm-relic.ans by Smoke from sys2_04.'
+        '16c-sys2-04-zs-s213' = 'ZS-S213.ANS by Zerostar from sys2_04.'
+        '16c-sys2-05-im-peas' = 'im-peas.ans by Icedmouse from sys2_05.'
+        '16c-sys2-05-sm-wblade' = 'sm-wblade.ans by Smoke from sys2_05.'
+        '16c-used-02-ak-ttime' = 'Tea by Abstrakt from used-02.'
+        '16c-used-02-avg-ave1' = 'ave.. by avenging angel from used-02.'
+        '16c-used-02-avg-ctv1' = 'Color TV by Avenging Angel from used-02.'
+        '16c-used-02-avg-raw1' = 'raw promo by avenging angel from used-02.'
+        '16c-used-02-avg-usd1' = 'used promo1 by avenging angel from used-02.'
+        '16c-used-02-avg-vii' = 'VII by Avenging Angel from used-02.'
+        '16c-used-02-cg-ais' = 'AIS by Cryogenic from used-02.'
+        '16c-used-02-cg-helli' = 'hellium by cryogenic from used-02.'
+        '16c-used-02-cg-wm' = 'wm by cryogenic from used-02.'
+        '16c-used-02-d3-used1' = 'Used by Demonized from used-02.'
+        '16c-used-02-sp-wm1' = 'Wicked Minority by Spearfx from used-02.'
+        '16c-used-02-te-st01' = 'Sietch Tabr statscreen by tHEXT from used-02.'
+        '16c-used-02-te-st02-part01' = 'Sietch Tabr by tHEXT from used-02, source rows 1-32.'
+        '16c-used-02-te-st02-part02' = 'Sietch Tabr by tHEXT from used-02, source rows 33-56.'
+        '16c-used-02-us-epic1' = 'Epic Ansi by Argon + Avenging Angel from used-02.'
+        '16c-used-02-us-epic2' = 'Epic Arts by Spear + Cryogenic from used-02.'
+        '16c-used-02-us-pw-part01' = 'PW by Avenging Angel + Goatboy from used-02, source rows 1-28.'
+        '16c-used-02-us-pw-part02' = 'PW by Avenging Angel + Goatboy from used-02, source rows 29-51.'
+        '16c-used-02-us-raw1' = 'Raw by Spear + Produkt from used-02.'
+        '16c-used-02-us-used1' = 'Used by Spear + Rzicus + Thext from used-02.'
+        '16c-used-03-avg-ais1' = 'Ais by Avenging_Angel from used-03.'
+        '16c-used-03-avg-ave2' = 'Ave by Avenging_Angel from used-03.'
+        '16c-used-03-avg-eco1' = 'yo momo by avenging angel from used-03.'
+        '16c-used-03-avg-epi1' = 'epic ansi by avenging angel from used-03.'
+        '16c-used-03-cg-ais2-part01' = 'ais by Cryogenic + Spear from used-03, source rows 1-17.'
+        '16c-used-03-cg-ais2-part02' = 'ais by Cryogenic + Spear from used-03, source rows 18-66.'
+        '16c-used-03-k1-epic' = 'Epic by Knocturnal from used-03.'
+        '16c-used-03-lem-used' = 'USED3 by lemOn 1one from used-03.'
+        '16c-used-03-mr-die01' = '.D.I.E. by Mr.Wrong from used-03.'
+        '16c-used-03-ppe-djec' = 'Djec by Propane from used-03.'
+        '16c-used-03-ppe-h5' = 'H5 by Propane from used-03.'
+        '16c-used-03-rz-iio' = 'http://iv.ice.org by _rzicus from used-03.'
+        '16c-used-03-rz-used' = 'used by _rzicus from used-03.'
+        '16c-used-03-sp-bm1' = 'Black Maiden by Spearfx from used-03.'
+        '16c-used-03-sp-cmm1' = 'Cash Money Millionaires by Spearfx from used-03.'
+        '16c-used-03-tr-used' = 'Used by Tarot from used-03.'
+        '16c-used-03-us-cia1' = 'cia?! by Spear + Propane from used-03.'
+        '16c-used-03-us-h5' = 'who said pimpn was hard labour?. by Avenging Angel + Propane from used-03.'
+        '16c-used-03-us-ihale' = 'Inhale by Multiple Artists from used-03.'
+        '16c-used-03-us-prev1' = 'Prevail by Mr Wrong + Spear from used-03.'
+        '16c-used-04-4thcover' = 'Cover Ansi by Spear + Zerovision from used-04.'
+        '16c-used-04-avg-awe1' = 'awe promo ;) by the avenging angel from used-04.'
+        '16c-used-04-avg-ice1' = 'Ice by Avenging Angel from used-04.'
+        '16c-used-04-cg-used2' = 'used by cryogenic from used-04.'
+        '16c-used-04-gj-dem' = 'Demonic by Grymmjack from used-04.'
+        '16c-used-04-gj-drk' = 'Darkness by Grymmjack from used-04.'
+        '16c-used-04-gj-wm' = 'Wicked Minority by Grymmjack from used-04.'
+        '16c-used-04-k1-eflow' = 'Evenflow by knocturnal from used-04.'
+        '16c-used-04-k1-tisx' = 'Trance Induced by knocturnal from used-04.'
+        '16c-used-04-k1-wickm' = 'Wicked Minority by Knocturnal from used-04.'
+        '16c-used-04-mr-used4' = 'The Used Coalition by Mr.Wrong from used-04.'
+        '16c-used-04-ns-c0000-part01' = 'Logo colly by ansichrist from used-04, source rows 1-50.'
+        '16c-used-04-ns-c0000-part02' = 'Logo colly by ansichrist from used-04, source rows 51-98.'
+        '16c-used-04-ns-c0000-part03' = 'Logo colly by ansichrist from used-04, source rows 99-148.'
+        '16c-used-04-ns-c0000-part04' = 'Logo colly by ansichrist from used-04, source rows 149-198.'
+        '16c-used-04-ns-used1' = 'used by ansichrist from used-04.'
+        '16c-used-04-ppe-smok-part01' = 'wicked minority by propane from used-04, source rows 1-24.'
+        '16c-used-04-ppe-smok-part02' = 'wicked minority by propane from used-04, source rows 25-62.'
+        '16c-used-04-ppe-smok-part03' = 'wicked minority by propane from used-04, source rows 63-104.'
+        '16c-used-04-ppe-wm' = 'wicked minority by propane from used-04.'
+        '16c-used-04-us-h6' = 'hellium by Propane + Cryogenic from used-04.'
+        '16c-used-04-us-rant2' = 'Rant by Mr Wrong + Avenging Angel from used-04.'
+        '16c-used-05-avg-use1' = 'The Used Coalition by Avenging_Angel from used-05.'
+        '16c-used-05-cg-free' = 'free coke by cryogenic from used-05.'
+        '16c-used-05-cg-lure1' = 'lure by cryogenic from used-05.'
+        '16c-used-05-mr-s701' = 'Sector 7 by Mr.Wrong from used-05.'
+        '16c-used-05-ns-123-part01' = 'showing my skills... or not. by ansichrist from used-05, source rows 1-50.'
+        '16c-used-05-ns-123-part02' = 'showing my skills... or not. by ansichrist from used-05, source rows 51-97.'
+        '16c-used-05-ns-123-part03' = 'showing my skills... or not. by ansichrist from used-05, source rows 98-147.'
+        '16c-used-05-ns-123-part04' = 'showing my skills... or not. by ansichrist from used-05, source rows 148-197.'
+        '16c-used-05-ns-123-part05' = 'showing my skills... or not. by ansichrist from used-05, source rows 198-246.'
+        '16c-used-05-ns-123-part06' = 'showing my skills... or not. by ansichrist from used-05, source rows 247-284.'
+        '16c-used-05-ppe-ice1' = 'PPE-ICE1.ANS by propane from used-05.'
+        '16c-used-05-us-dh01' = 'Dark Horizons by Grymmjack + Mr Wrong from used-05.'
+        '16c-used-05-us-inf1' = 'Inflicted by Spear + Cleaner from used-05.'
+        '16c-used-07-mr-bvhc1' = 'Basse-ville hardcore by Mr.Wrong from used-07.'
+        '16c-used-07-mr-used6' = 'The Used Coalition by Mr.Wrong from used-07.'
+        '16c-used-07-po-idlob-part01' = 'idle lobster by portia from used-07, source rows 1-40.'
+        '16c-used-07-po-idlob-part02' = 'idle lobster by portia from used-07, source rows 41-65.'
+        '16c-used-666-avg-bm1' = 'Black Maiden by The Avenging Angel from used-666.'
+        '16c-used-666-avg-kbs1' = 'kibosh mr wrong style.. by the avenging angel from used-666.'
+        '16c-used-666-mr-id01' = 'Idle dreams by Mr.Wrong from used-666.'
+        '16c-used-666-mr-plf02' = 'PLF by Mr.Wrong from used-666.'
+        '16c-used-666-us-cia' = 'Cia by Ansichrist + Tefron from used-666.'
+        '16c-used-666-us-rzr01' = 'Razor by Spear + Mr Wrong + Thext from used-666.'
+        '16c-used-666-us-spade' = 'Spade by Avenging Angel + Teflon from used-666.'
+        '16c-used-666-us-tuc1' = 'The Used Coalition by Spear + Grymmjack from used-666.'
         '16c-1fluid1-avg-fld' = 'Fluid Logo by avg from 1fluid1.'
         '16c-1fluid1-del-1-part01' = 'cOlly1 by delicious from 1fluid1, source rows 1-50.'
         '16c-1fluid1-del-1-part02' = 'cOlly1 by delicious from 1fluid1, source rows 51-79.'
