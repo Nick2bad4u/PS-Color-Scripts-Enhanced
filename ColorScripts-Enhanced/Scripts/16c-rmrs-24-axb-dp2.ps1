@@ -1,0 +1,31 @@
+﻿# Converted from: AXB-DP2.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/rmrs-24/raw/AXB-DP2.ANS
+# Source Revision: archive-sha256:4d7ae4c66dfbaa69fb09c857c73a0265787f84c667a8f375f61ef2bb99d7b256
+# Source SHA-256: 77eedcab65c192f09b144ac2106fa584a721aec3ec3cd8df6062653df2197a0f
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: AXB-DP2.ANS by Axb (rmrs-24); released in rmrs-24 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Lines: 1-19
+# Columns: 1-80
+
+Write-Host '
+                                                  [32m_  [0m
+                                  [32m [0m        [32m_,[0;1;32m,[0;32ms[0;1;32ms[0;32mSS$$S [0m
+                                   [32m [0;37m  [0;32m_`"``[0;37m [0;32m [0;37m [0;32m  [0;37m  [0;32m$$[0;1;32m"`[0m          [32m,$S`s[0;33ms,[0m
+        [32m$$[0m                    [1;32m__,,[0;32ms[0;1;32ms[0;32mSS$$S[0m        [32m$"[0;1;32m  _,,s[0;32ms[0;1;32ms[0;32m,[0;1;32m,[0;32m_s$$'',1[0;33mS"[0m
+      [33m$[0;32m$`"[0;1;32m''[0m             [1;32ms[0;32ms[0;1;32ms"""[0m      [32m$$"`_[0m        [32m_,[0;1;32m"[0;32m`[0m        [32m`"s, ``[0m
+       [33m$[0;32m$, [0;1;32m$ss,[0m          [1;32m`[0;32m$,[0m        [32m$$ 1$s,,,,,   1[0;37m  [0;1;30m  [0m [1;30maxb.  [0m  [32m$$ [0;1;30m.[0m
+        [33m`` [0;32mS$$$s,,__[0m       [32m$_[0m           [32m_,ss""    $`,_[0m        [32m,$$`[0;1;30m_;[0m
+          [1;30m;, [0;32m``""""""""Sssss$___,,,,   $$,[0m         [32m,$ `~~--,,sS" [0;1;30m,;;[0m
+          [1;30m;; [0;32m$,[0;37m  [0;1;30macid.[0m      [32m_[0;35m,[0;32mss"`      `"*[0m        [35m`[0;32m$, [0;1;30m~--,,,,,;;;;;[0m
+          [1;30m;;, [0;35m$,[0m      [35m_,,sS"`,[0m       [32ms[0;35mS$,  [0;32m`[0;35m _,,[0;32m,s[0;35ms[0;32ms[0;35m$$s_[0;1;30m`;1;;1;;;;;;[0m
+          [1;30m;;;, [0;33m$$_,,s$S"`[0;1;30m., [0;33m$$[0m        [32m`[0;33m$$, [0;32m [0;33m"`[0;1;30m_,,,,,_ [0;33m"$s,_[0;1;30m``'''';;;;;[0m
+          [1;30m;;;i, [0;33m$$$$" [0;1;30m,-ii; [0;33m$$_  _,,,sss$$s_ [0;1;30m~;ii;;;;i [0;33m`$$$$"[0;32m [0;1;30m_;;;;;[0m
+          [1;30m;;;ii [0;33m$$" [0;1;30m,i;;ii; [0;33m$$$$"` [0;1;30m_..,._ [0;33m`~`[0;1;30m_.ii;;;;ii, [0;33m"''[0;1;30m,;1;;;;;;[0m
+          [1;30m;;;ii,,_,'';;;;ii; [0;33m""`[0;1;30m_,;;;;;;;;;;;;;;ii;;;;ii1;;1;;i;;;;;;[0m
+          [1;30m;;;iii;;;;;;;;ii;;;;ii;;;;;;;;;;;;;;;ii;;;;iii;;i;;i;;;;;l[0m
+
+          [30;41m[        [0;1;37;41mt[0;30;41m   [0;1;37;41mE[0;30;41m            [0;1;37;41me[0;30;41m        [0;1;37;41m4 1 zero[0;30;41m              ][0m
+          [30;43m[          [0;1;37;43mh        d  E     p          [0;30;43m    [0;1;37;43m/[0;30;43m  [0;1;37;43m(c)1998[0;30;43m   ][0m
+          [30;42m[                                                        ][0m'

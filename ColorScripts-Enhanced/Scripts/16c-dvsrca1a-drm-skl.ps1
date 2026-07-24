@@ -1,0 +1,47 @@
+﻿# Converted from: DRM-SKL.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/dvsrca1a/raw/DRM-SKL.ANS
+# Source Revision: archive-sha256:3f9580d6c0b0bf383b20f6abd16722659a4bc1bb71a9db546c43d39c1c24a952
+# Source SHA-256: 25a733faa5f8c7ffc1472a3fec17b26a4b5c1fd7e1474a63084f45475fa8f4ad
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: DRM-SKL.ANS by dorm & shaman (dvs); released in dvsrca1a and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: ascii skull
+# SAUCE Author: dorm & shaman
+# SAUCE Group: dvs
+# SAUCE Date: 19980709
+# Lines: 1-32
+# Columns: 1-80
+
+Write-Host '
+                  _.,,syys,,._   [31m,sS§§§Ss,[0m                [1;33m       [0m
+              _,sS§§§§§§§§§§§§§Ss,,[31m`"²[0;1;31m*§§§[0;31mb◄►[0m            [1;33m [0;1;30m,S§[0;33m [0;1;30m§S,[0m [33m,[0;1;30mS§[0m [1;30m,S§²²§S,[0m
+ [35m,sS$§§§Ss, [0;37m d§§[0;1;37m§§§§§§§§§§§§§§§§§§§[0m§§Ss,[1;31m`*[0;31m§[0m    [1;33m     [0m     [33m [0;1;30m§[0;33m§[0;1;30m§[0m [1;30m§§[0;33m§[0;37m [0;1;30m§§[0;33m§[0;37m [0;1;30m§§[0;33m§[0;1;33m░[0m [1;30m§[0;33m§[0;1;30m§[0m
+[35m §§[0;1;35m§§§§§[0;35m§§P [0;37md§§[0;30;47m§§[0;37;40m§[0;1;37;40m§§§§§[0;1;37;47m§§§[0;1;37;40m§§§§§§§§§§§§[0m§§§,     [1;33m     [0m     [1;33m [0;33m§§§[0;1;33m [0;33m§§[0;1;30m§[0m [33m§§[0;1;30m§[0m [33m§§[0;1;30m§[0m
+[35m 7§§[0;1;35m§§§[0;35m§§P[0;37m d[0;30;47m§§§[0;37;40m§§§§§[0;1;37;40m§§§§§§§§§§§§§§§§§§§§§[0m§b,   [1;33m     [0m     [1;33m [0;33m§[0;1;30m§[0;33mP[0;1;33m [0;1;30mP[0;33m§§[0;37m [0;1;30m§[0;33m§P[0;37m [0;33m`²§§ ,[0;1;30mS[0;33m,[0m
+[35m◄►`7§§P²` [0;37md§§§§[0;1;37m§P[0m^^  ''''$[1m§§[0m§[1m§[0m§§[30;47m§[0;37;40m§§§§§§[0;1;37;40m§§§§[0m§§§:  [1;33m     [0m [33m.,sS§P'',[0;37m [0;33m.`7[0;37m [0;33mP'',[0m    [33m''[0;37m [0;33m§§§[0m
+    [37m      §§[0;1;37m§§[0m"        :§§§§§[1m§7[0m²²"''^`§§[1m§[0m§§[30;47m§[0;37;40m§§[0m        [33;40m§§§''[0;37;40m [0;33;40m,§§[0;37;40m [0;33;40m§§.[0;37;40m [0;33;40m,§§[0;37;40m [0;33;40m§§§[0;37;40m  [0;33;40m§§§[0m
+[37;40m          `^²[0;1;37;40m§Ss,[0m      [30;47m§[0;37;40m§§§[0;1;37;40m§[0m`   [31m`§[0;1;31m§§[0;31m''[0;37m:[0;1;37m§[0m§§[30;47m§§[0;37;40m§§ [0;36;40m§Ss,[0m   [33;40m:::[0;1;33;40m▒[0m [33m§§§[0;37m [0;33m§§§[0;37m [0;33m§§§[0;37m [0;33m§§§[0;37m  [0;33m§§§[0m
+[37m       .d§§§§§§§§Ss,_ s§§§§[0;1;37m§[0m:     [31m`7[0;37m §§[0;30;47m§§§§[0;37;40m§: [0;36;40m§[0;1;36;40m§[0;36m§§S,[0;37m [0;33m`.,sS§P''[0;37m [0;33m''7§s§P''[0;37m [0;33m`²§ss§P''[0m
+     [37m,d§§§§[0;1;37m§§§§[0m§§§§§§§§" §§[1m§[0m§Ss,._  ,§§[30;47m§§§[0;37;40m§§ [0;36;40m:§[0;1;36;40m§§§[0;36m§§[0m
+   [37m d§§§[0;1;37m§§§§§§§[0m§§[30;47m§§§[0;37;40m§§:  :[0;1;37;40m§[0m ²§§§§§§§§§§§§§§¶ [36m§[0;1;36m§[0;36m§*²^`[0;37m [0;31m_.,s%#@&S§§§§§§[0;1;31;41m§[0;31m§§§§§§§§§§ [0m
+[37m    §§§[0;1;37m§§§§§§[0m▓§§§[30;47m§§[0;37;40m§§: [0m   [1;37;40m§[0;32m◄►[0;37m:§§§§§§▓§§s"" ,,[0;36m`²S,[0;37m [0;31m*§§§§§§[0;1;31m§§§§§§§§§[0;31m§§§§§§§7*²"''` [0m
+[37m  [0;33m [0;37m :§§§§[0;1;37m§§§§[0m§§[30;47m§§§[0;37;40m§§§; [0;32;40m◄►[0;37;40m:[0;1;37;40m§[0m   §§§§§§§[1m§[0m§§§§§§§§,[36m`Sb[0;37m [0;31ml§§[0;1;31;41m§[0;1;31;40m§§§[0;1;31;41m░§[0;1;31;40m§§[0;31m§[0;1;31;41m§[0;31m§§§§7*²"       [0m
+     [37m7§§§§§§§§§§[0;30;47m§§§[0;37;40m§§§§ss§[0;1;37;40m§[0m§ss§[30;47m§§[0;37;40m§§§§[0;1;37;40m§[0m§[1m§§§§§[0m§§§ [36m§[0;1;36m§[0m [31m:§§§[0;1;31m§§§[0;31m§§§7*²"''` [0;37m  [0;1;31mdE[0;31mVI[0;30;41mO[0;31;40mUS[0;1;31;40m!?[0m
+      `^"''²* ,sS§§§§§§§§§§§§§§§§§§§§§§[1m§§§§§§[0m§§: [36m²''[0;37m  [0;31m`²§§§§²''[0m
+            [37m²§§§§§§P²````^^''''''""²²*§§§§§§§§§§"[0m        [31m`7P''[0m    [31mdevious is leet![0m
+           [37m   :§§§'' [0;32m [0;33m     [0;37m         [0;30;47m`7§§§§^`[0m    [37;40m [0m       [31;40m`[0m
+               [37;40m§§:[0;33;40m        [0m           [30;47m`§§:[0m
+             [37;40m  ll[0;33;40m         [0m            [30;47m§l:[0m
+               [37;40m:: [0;33;40m        [0m            [37;40m  [0;30;47m`[0m
+
+[37;40m── ─- ═-═ -─--═══- ─-─ ═══-< [0;1;37;40mcut!? [0m>═══ --─--─- ══-─--══ ─═ ═─-═ -─═-═─═─═─═ -─-
+Ok, well, the skull was done for my board (amnesia), and i needed a skull in
+this ascii, so i used it,. thanks shaman! :) .. the rest is all dorm ascii :)
+Greets:  smak - get yur ass back in twisted
+         esc - i like your ascii
+         shaman - thanks
+Info:  Ok.. like i said in muh pic, i dont do requests for free,. i charge
+3 - 4 bux an ansi, or ascii :),. i do dew trades, if you want to trade or do
+a joint, email me at [1mdorm_bah@hotmail.com [0m,. cya
+dorm[0m'

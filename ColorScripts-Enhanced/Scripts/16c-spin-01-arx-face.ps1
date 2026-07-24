@@ -1,0 +1,43 @@
+﻿# Converted from: ARX_FACE.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/spin-01/raw/ARX_FACE.ANS
+# Source Revision: archive-sha256:ba78f741c8c48f614ecb0f3e5f78207f43cce4239d36fe3e606be09c2119943e
+# Source SHA-256: d8b7515b57330fca1053dfc0840535b4f072b340821aa53e9ac52658b3492f6b
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: ARX_FACE.ANS by ARX (SPIN); released in spin-01 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Author: ARX
+# SAUCE Group: SPIN
+# SAUCE Date: 19980719
+# SAUCE Dimensions: 80x29
+# Lines: 1-27
+# Columns: 1-80
+
+Write-Host '
+      [35m┌$$$$$┐[0m        [1;30miI$ [0m$$ [1;30m$IIi[0m                      [1;35m_[0;35m,ssz[0;1;36mzzs[0;36mszzs[0;1;37m,_[0m          [35m┌$[0m
+[1;30m$b.   [0;35m`Y[0;1;37m$[0;35m$[0;1;37m$[0;35mY''[0m       [1;30miII$ [0m└$ [1;30m$Ii[0m     [35m_[0;1;35m,zzs[0;35mzszs,[0;1;36m_[0m     [1;35m,d$[0;35m$$[0;1;36mb$¿ßß$$[0;36m$WI[0;1;37mI┤,[0m        [35m`Y[0m
+[35m ,Y$[0;1;37m$b,`$ⁿ$'',d$[0;35m$b,   [0;1;30miI$ [0m┌$ [1;30m$IIi  [0;36m,╦[0;35m$$[0;1;35m¿[0;36m$[0;1;35mß[0;35mß$$[0;1;36mß[0;35mß[0;1;36m$b, [0;35m,[0;1;35md$[0;35mß[0;1;35mß[0;1;36mß[0;35m$[0;1;36mß$$$$II*T[0;36mT[0;1;37mTTI,  [0;35m,Y$[0;1;37m$b,`[0m
+[35m:$$[0;1;37m$$$$Y   Y$$$$[0;35m$$; [0;1;30miII$ [0m$$ [1;30m$Ii   [0;36mi$¿[0;35mß[0;36mß$ß[0;35m$[0;36m¿[0;35m$[0;36m¿[0;1;36m$ßß$u[0;35m$[0;1;35m$[0;1;36mß[0;35mß[0;1;36m$ßß$ßßß$$¿$$[0;36mTTW[0;1;37mII,[0;35m:$$[0;1;37m$$$$Y[0m
+[1;37m [0;35m`Y$[0;1;37m$P'',$u$,`Y$[0;35m$P''   [0;1;30miI$ [0m$$ [1;30m$IIi  [0;36m:Y$[0;35m$[0;36mß$$¿$[0;35m$[0;1;36m$P''^^`[0;35mY[0;1;36m$ß[0;35m$[0;1;36m$$╧''^^^^^`Y$¿[0;36m$[0;1;37m$WWI [0;35m`Y$[0;1;37m$P'',[0m
+[1;37m   [0m,n [35m,[0;1;37mY$[0;35m$[0;1;37m$Y[0;35m, [0;37m.[0;1;37mn,   [0;1;30miII$ [0m$$ [1;30m$Ii    [0;36mⁿY¿ßßß$[0;1;36mP''[0;1;30m,[0m┐[1;30m$[0m$[1;30m$b,[0;1;36m`Y$P''[0;1;30m,┬$$$[0mT[1;30mI┐, [0;1;36m$[0;36mß$$[0;1;37mII[0m      [35m,[0;1;37mY[0m
+[1;37m [0;1;30m.d[0m$'' [35m└$$$$$┘[0;37m,d[0;1;37mP''    [0;1;30miI$ [0m$┘ [1;30m$IIi    [0;36m`Y¿$ßP''[0;37m,$$$$[0;1;30m$[0mWI[1;30m,[0;1;36mⁿⁿ[0;1;30m,$[0m$$[1;30m$[0m*[1;30m$[0mTT[1;30mII [0;1;36m$[0;36m$W[0;1;37mII''[0m      [35m└$[0m
+[35m [0;1;30mI[0m$:       ,d[1m$''[0m     [1;30miII$ [0m$┐ [1;30m$Ii[0m      [36m`Y$¿ß [0;37mI$$$$$WWI, [0;1;30m└[0m$$$$$$WWI''[1;36m,$[0;36m$[0;1;37mWI''[0m
+[1m [0;1;30m`[0m$b,    ,d$'' [35m┌$$$$$┐ [0;1;30mI$ [0m$$ [1;30m$IIi  [0;36mS,  `╩$¿,[0;1;37m`[0m┘[1m$[0m$$$[1m$[0mTT: [1m:$[0m$[1m$[0m5 [1m$[0m$W[1mI [0;1;36m$$[0;36m¿W[0;1;37mI,[0m     [1m,┌,[0m
+[1m   [0m`Y$,,dP''   [35m`Y[0;1;37m$[0;35m$[0;1;37m$[0;35mY''  [0;1;30mⁿ [0m$$ [1;30m$Ii  [0;36m:$$b   )ß$ [0;37m:[0;1;37m$ ⁿ$$$[0mT[1mI i$$$P $TWW [0;1;36m*$W[0;36mWW[0;1;37mI┐,_,d$$$[0m`
+ⁿ$ [35m,Y$[0;1;37m$b,`$ⁿ$'',d$[0;35m$b,  [0;1;30m$IIi [0;36mi$ß¿b,,d$$ [0;1;37mi$$ $$WWT I$$$u$$5WW [0;1;36m╞$$ß[0;36mß$WWT[0;1;37mW[0;36mT[0;1;37mW[0;36mI[0;1;37mII   [0m,d$
+'' [35m:$$[0;1;37m$$$$Y   Y$$$$[0;35m$$; [0;1;30m$Ii  [0;36m:$¿ßßß$ß$$ [0;1;37mI$$u$$5WW 5$$$$$TWWI [0;1;36m$$ßßß¿ß[0;36m$[0;1;36m$TTT[0;36mII[0;1;37mi [0;1;30m,d[0m$''
+   [35m`Y$[0;1;37m$P'',$u$,`Y$[0;35m$P''  [0;1;30m$IIi  [0;36m$ßß$ß¿$ßß [0;1;37m`$$$$5WI'' `$$$$5WIP'' [0;1;36m$$¿ß$*I$TTWII[0;36mI; [0;1;30m`[0mY$,[35m,[0m
+[1;37mY$[0;35m$[0;1;37m$Y[0;35m,  [0;1;30mn [0m$$ [1;30m$Ii   [0;36m`Y$ß$ß¿P''[0;1;30m,┬zszszszd$[0mbzss[1mszszd┬ [0;1;36m`Y$$ßß¿TTWIIP[0;36m''[0m
+[36m   [0;37m`ⁿ$;[0m       [35m└$$$$$┘[0;37m.[0;1;37mn  [0m└$ [1;30m$IIi    [0;36m`²²²''[0;1;30m,┐$$$$$$$$$$$$$[0m$$$$[1m$WWWI┐,[0;1;36m`²²²²²²²²''[0m
+      [35m┌$$$$$┐[0m        [37m`Y[0;1;37m; [0m┌$ [1;30m$Ii[0m         [1;30m;I$$$$$$$$$$$$$$├I[0mI$$[1m$WWWWI;[0m        [35m┌$$`[0m
+[35mY[0;1;37m$[0;35m$[0;1;37m$[0;35mY''[0m        [37m,[0;1;37m$'' [0m$$ [1;30m$IIi[0m        [1;30mII$$$$$''`Y$$$$$$$[0m$Ü[1mÜ$$$TWWI''[0m        [35m`Y[0;1;37m$[0;35m$ ,Y$[0;1;37m$b,[0m
+[1;37m`$ⁿ$'',d$[0;35m$b,  [0;37m,$[0;1;37m''[0;1;30m. [0m$$ [1;30m$Ii[0m         [1;30mWTTT$$$,,d$$$$$[0m$ÜÜÜ$I[1m$WWI┘''    [0;35m,Y$[0;1;37m$b,`$ⁿ[0;35m:$$[0;1;37m$$$$[0m
+[1;37mY   Y$$$$[0;35m$$; [0;37m$'' [0;1;30m$ [0m$$ [1;30m$IIi[0m        [1;30m`YTTT$$$$$$$$$ÜÜ[0mÜÜ$[1mTTWIP''[0m     [35m:$$[0;1;37m$$$$Y[0m
+[1m [0;35m`Y$[0;1;37m$P'',$u$,`Y$[0;35m$P''[0;37m.    [0;1;30m$ [0m$┘ [1;30m$Ii[0m           [1;30m`²²²²²²²²²²²²²[0m²²²[1m²²²''[0m        [35m`Y$[0;1;37m$P'',$[0;35m,[0m
+[1;37mY$[0;35m$[0;1;37m$Y[0;35m,  [0;37mn.`Y$,  [0;1;30m$ [0m$┐ [1;30m$IIi[0m                                            [35m,[0;1;37mY$[0;35m$[0m      [35m└[0m
+[35m$$$$$┘ [0;37m$P[0m       [1;30m$ [0m$$ [1;30m$Ii[0m                                             [35m└$$$[0m
+[37m- - ----- - ---------------------------------]swap Id here[------------- -  -- -[0m
+[37m   An ugly face....reminds me of all so called "busshoror"...real ugly,[0m
+[37m   stinking, f#%#%% buss drivers in south schwiiden....huuuuuhh!!!...[0m
+[37m   rEACH: arx@hotmail.com[0m
+                                     [37m% ArX % ART % 98;23.19 %[0m'
