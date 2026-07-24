@@ -2493,6 +2493,13 @@ function mergeDecisions(candidates, decisionsPath) {
         if (schemaVersion >= 2) {
             validateDecisionEvidence(record, candidate);
         }
+        // Manual review can only resolve candidates that still require manual
+        // review. A later corpus import, parser hardening, or automatic safety
+        // classification must remain authoritative even when the candidate's
+        // own rendered evidence is unchanged.
+        if (!String(candidate.disposition).startsWith("pending-review")) {
+            return candidate;
+        }
         // File-scoped overrides keep verified attribution in the resumable
         // decision instead of a generated report that the next refresh
         // overwrites.

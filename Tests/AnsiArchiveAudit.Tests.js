@@ -998,6 +998,43 @@ test("schema 2 review decisions fail closed when analyzed evidence changes", () 
     }
 });
 
+test("manual decisions cannot override current automatic classifications", () => {
+    const directory = createTemporaryDirectory();
+    const decisionsPath = path.join(directory, "decisions.json");
+    const candidate = {
+        id: "16colors:pack/ART.ANS",
+        filename: "ART.ANS",
+        pack: "pack",
+        disposition: "already-imported-source",
+        review: false,
+        analysis: {
+            sourceSha256: "a".repeat(64),
+            renderSha256: "b".repeat(64),
+            width: 80,
+            height: 25,
+            colorFamilyCount: 3,
+        },
+    };
+    fs.writeFileSync(
+        decisionsPath,
+        `${JSON.stringify({
+            schemaVersion: 2,
+            decisions: {
+                [candidate.id]: {
+                    disposition: "accepted",
+                    note: "Previously accepted during visual review.",
+                    evidence: createDecisionEvidence(candidate),
+                },
+            },
+        })}\n`
+    );
+
+    const [result] = mergeDecisions([candidate], decisionsPath);
+    assert.equal(result.disposition, "already-imported-source");
+    assert.equal(result.review, false);
+    assert.equal(result.reviewNote, undefined);
+});
+
 test("decision evidence validates schema and required analysis fields", () => {
     const directory = createTemporaryDirectory();
     const decisionsPath = path.join(directory, "decisions.json");
