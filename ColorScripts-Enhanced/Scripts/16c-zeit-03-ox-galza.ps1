@@ -1,0 +1,37 @@
+﻿# Converted from: OX-GALZA.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/zeit_03/raw/OX-GALZA.ANS
+# Source Revision: archive-sha256:0f9aa90d271cb9f5663c4d5256433330359ce733d79970bb273efd1a8913f551
+# Source SHA-256: 087443240f86da7f91ab97c31ed0c320aa7094bd2a0b647ca78197c0663fd240
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: OX-GALZA.ANS by 0xel (zeit_03); released in zeit_03 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Lines: 1-25
+# Columns: 1-80
+
+Write-Host '
+[1m                        [0;1;34;41m        .`[0;41m     [0m
+[1;40m                        [0;1;34;41m       j''     .[0;34m`[0m
+[1;37m                        [0;1;34;41m      :l     j''[0m
+[1m                        [0;1;34;41m   .  :l    :l[0;41m [0m
+[1;40m                        [0;1;34;41m  ;    /,   :l[0;41m [0m
+[1;40m                        [0;1;34;41m   /   j;    ?L[0m
+[31m      .d[0;1;37m                [0;1;34;41m?:  '' .:      ''[0;34m/.[0m
+[31m    .dP$$$$$$$$$$$$$$$:[0;1;37m [0;1;34;41mJ:   jP   . [0;1;31;41m$$$[0;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
+[31m  .dS└²²┘$i$$$$$$$$$$7[0;1;37m [0;34mj[0;1;34;41mP   :P   d'' [0;1;31;41m$$$[0;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
+[31m.d$P[0;32m   [0;1;32m .[0;31m:i$$$$$$$$$: [0;34m:P[0;1;34;41m    l:   ?. [0;1;31;41m$$$[0;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
+[31m''?$L[0;32m   [0;1;32mji[0;31m:i$$$$$$$$$  [0;34ml:[0;1;34;41m    :L    '' [0;1;31;41m$$$[0;31m$$$$$$$$$$$$$$$$$$$$$$$$$SS$$j│$$$$$$$$[0m
+[31m  ''?bs┐┐s$i$$$$$$$$$: [0;34m:L[0;1;34;41m     ?b    .[0;1;31;41m$$$[0;31m$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;37m__    [0;31m~''↕j$$$$[0m
+[31m    ''?b$$$$$$$$$$$$$L,[0;1;37m [0;34m?[0;1;34;41mb_    `┘*   [0;1;31;41m$$$[0;31m$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;37m$$$$Q#╖,  [0;31m''/$│[0m
+[31m      ''?[0;1;32m$$$$$$$$$$$$$$b.[0;1;34;41m''*/┐▬,...,▬┐\²''[0;1;37;40m                           ``"²?$$L, [0;31m`┘[0m
+[1;37m       [0;1;32m$$$$$$$$$$$│j$$j├[0;1;34;41m    ~^"""^~    [0;1;37;40m                                 `$$L[0m
+[1m       [0;1;32m$$$$$$│\┘"~[0;1;37m_.,,._                                                  ?$$,[0m
+[1m       [0;1;32m$$$$$² [0;1;37m.┐S┘"^~~^"                                [0;1;36m   ,y#$$Q#╖,  [0;1;37m     $$&[0m
+[1m       [0;1;32m$$$P [0;1;37m dP                                         [0;1;36m  I$$''   `?$$,[0;1;37m     I$$[0m
+[1m            J$:    .......[0m   .┐#↕↕#┐.^''?#[1;30m:[0m     [1m........[0m [1;36m$$$$I      $$$[0;1;37m     $$?[0m
+[1m            ?$:    [0;1;30m:[0mil li[1;30m:[0m  j$''    ii  ii           JP'' [1;36m           I$$I[0;1;37m   J$$''[0m
+[1m             ?L    [0mli[1;30m:[0;1;37m.[0mii[1m...[0m""    [1;30m:[0mil [1;30m:[0mil  [1m.....[0m  .\`   [1;36m I$$$$$$$$$$$$;[0;1;37m ,$$?[0m
+[1m              ''┘S┐,.__[0;1;30m:[0;1;37mSl  ......[0m li[1;30m:[0m li[1;30m:[0m    li[1;30m:[0m .i[1;30m:[0m    [1;36m_$$$       $$$[0;1;37md$$?`[0m
+[1m                  ~^""^~   [0;1;30m:[0mil [1m...[0mii [1;30m:[0mii[1m.....[0mii  ii[1m.....[0;1;36m$$$I   [0;1;37mQQ$$$$S?^[0m
+[1m                           [0mli[1;30m:[0;1;37m.....[0m [1;30mLEt tHE[0m babe burn   [1;36mI$$;   [0;1;37m^^```[0m
+[1m                                                        [0;1;36m$$$$$$$$$[0m'
