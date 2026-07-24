@@ -657,6 +657,20 @@ test("DOS ANSI mode ignores modern bright-color aliases like the canonical archi
     });
 });
 
+test("DOS ANSI mode treats bare LF as a new line like the canonical archive renderer", () => {
+    const source = "\u001b[6C\u001b[31mA\n\u001b[4C\u001b[32mB";
+    const modern = convertAnsiToPs1(source, { columns: 80 });
+    const dos = convertAnsiToPs1(source, { columns: 80, dosAnsi: true });
+    const dosCrLf = convertAnsiToPs1(source.replace("\n", "\r\n"), {
+        columns: 80,
+        dosAnsi: true,
+    });
+
+    assert.equal(modern.terminal.rows.get(1).cells.get(11).char, "B");
+    assert.equal(dos.terminal.rows.get(1).cells.get(4).char, "B");
+    assert.deepEqual(dos.lines, dosCrLf.lines);
+});
+
 test("terminal column slicing reconstructs active style without reflowing cells", () => {
     const result = convertAnsiToPs1(
         "\u001b[31mABCD\u001b[44mEFGH\r\n\u001b[0m12345678",

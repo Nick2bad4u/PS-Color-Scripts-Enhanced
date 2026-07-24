@@ -132,7 +132,8 @@ const SAUCE_DOS_CODE_PAGES = new Set([
  *     this from SAUCE tInfo2, which may include unused trailing padding.
  * @property {number} [maxHeight]
  * @property {boolean} [iceColors]
- * @property {boolean} [dosAnsi]
+ * @property {boolean} [dosAnsi] Match DOS ANSI-art/Ansilove behavior for
+ *     legacy color aliases and bare-LF line endings.
  */
 
 /**
@@ -640,10 +641,11 @@ class TerminalEmulator {
         this.maxCol = 0;
         this.stripSpaceBackground = opts.stripSpaceBackground === true;
         this.iceColors = opts.iceColors === true;
-        // DOS ANSI.SYS and the canonical 16colors/Ansilove renderer do not
-        // implement the later ECMA-48 bright-color aliases (90-97/100-107).
-        // CP437 archival artwork can contain those sequences incidentally;
-        // treating them as modern colors changes the artist-reviewed palette.
+        // DOS ANSI art and the canonical 16colors/Ansilove renderer differ
+        // from a modern ECMA-48 terminal in two relevant ways: they do not
+        // implement the later bright-color aliases (90-97/100-107), and a
+        // bare LF in archived DOS text starts a new line at column zero.
+        // CP437 artwork commonly relies on both behaviors.
         this.dosAnsi = opts.dosAnsi === true;
         this.iceBackground = false;
         this.writtenCellCount = 0;
@@ -778,6 +780,9 @@ class TerminalEmulator {
                 break;
             case 0x0a: // LF
                 this.lineFeed(1);
+                if (this.dosAnsi) {
+                    this.carriageReturn();
+                }
                 break;
             case 0x0b: // VT
             case 0x0c: // FF
