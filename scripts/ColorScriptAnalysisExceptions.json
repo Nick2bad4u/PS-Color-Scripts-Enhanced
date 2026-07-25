@@ -1217,11 +1217,6 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-eco-13-ecl-nfo",
-            "reason": "Reviewed false positive: 'three days after' dates the pack release relative to the Ambience scene party and does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-fokus05-avg-loc",
             "reason": "Reviewed idea-level inspiration: the artist says a conversation influenced the logo's mood; no external source image or copied composition is identified."
         },
@@ -2022,11 +2017,6 @@
         },
         {
             "issueType": "leading-blank-run",
-            "family": "16c-avenge14-biz-coll-part01",
-            "reason": "The 6 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
-        },
-        {
-            "issueType": "leading-blank-run",
             "family": "16c-avenge14-gso-pr6-part01",
             "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
         },
@@ -2229,11 +2219,6 @@
             "issueType": "leading-blank-run",
             "family": "16c-soda03-ph-punk-part01",
             "reason": "The 6 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-sys2-01-zs-light-part02",
-            "reason": "The 4 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
         },
         {
             "issueType": "leading-blank-run",
@@ -2643,11 +2628,6 @@
         {
             "issueType": "trailing-blank-run",
             "family": "16c-glue-22-pc-logoz-part01",
-            "reason": "The 3 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
-        },
-        {
-            "issueType": "trailing-blank-run",
-            "family": "16c-itpnazis-ax-milan-part01",
             "reason": "The 3 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
         },
         {

@@ -378,7 +378,33 @@ Describe 'Curated ANSI artwork provenance' {
                 $year.DispositionTotals.PSObject.Properties.Value
             ) | Measure-Object -Sum
             $dispositionCount.Sum | Should -Be $year.CandidateCount -Because "every candidate from $($year.Year) needs a disposition"
+
+            $acceptedSourcesForYear = @(
+                $script:Checkpoint.SixteenColors.AcceptedSources |
+                    Where-Object { $_.ArchiveYear -eq $year.Year }
+            )
+            @($acceptedSourcesForYear | Where-Object { $_.Disposition -eq 'accepted' }) |
+                Should -HaveCount $year.ImportedWorkCount -Because (
+                    "the accepted-source checkpoint for {0} must contain exactly one accepted entry per imported original work" -f
+                    $year.Year
+                )
+            $unexpectedCheckpointSources = @(
+                $acceptedSourcesForYear |
+                    Where-Object { $_.Disposition -notin @('accepted', 'already-imported-source') }
+            )
+            $unexpectedCheckpointSources | Should -BeNullOrEmpty -Because (
+                'the compact source list records only imported works and exact-source evidence already represented by provenance'
+            )
         }
+
+        @($script:Checkpoint.SixteenColors.AcceptedSources) |
+            Should -HaveCount $script:Checkpoint.SixteenColors.Totals.AcceptedSourceCount
+        $acceptedCheckpointSources = @(
+            $script:Checkpoint.SixteenColors.AcceptedSources |
+                Where-Object { $_.Disposition -eq 'accepted' }
+        )
+        $acceptedCheckpointSources |
+            Should -HaveCount $script:Checkpoint.SixteenColors.Totals.ImportedWorkCount
 
         $knownSourceHashes = @{}
         foreach ($entry in $script:Provenance.Scripts.Values) {

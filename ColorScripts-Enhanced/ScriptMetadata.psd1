@@ -137,9 +137,6 @@
             '16c-avenge14-biz-abs2-part02',
             '16c-avenge14-biz-abs3-part01',
             '16c-avenge14-biz-abs3-part02',
-            '16c-avenge14-biz-coll-part01',
-            '16c-avenge14-biz-coll-part02',
-            '16c-avenge14-biz-coll-part03',
             '16c-avenge14-gso-pr6-part01',
             '16c-avenge14-gso-pr6-part02',
             '16c-avenge14-kg-0399-part01',
@@ -345,8 +342,6 @@
             '16c-eco-12-vld-snwl',
             '16c-eco-12-vld-wast',
             '16c-eco-13-cl-ecl',
-            '16c-eco-13-ecl-nfo-part01',
-            '16c-eco-13-ecl-nfo-part02',
             '16c-eco-13-sn-sol-part01',
             '16c-eco-13-sn-sol-part02',
             '16c-eco-13-sn-sol-part03',
@@ -590,8 +585,6 @@
             '16c-glue-20-int-spoo',
             '16c-glue-20-mnc-skll',
             '16c-glue-20-pc-glue',
-            '16c-glue-20-smp-eld-part01',
-            '16c-glue-20-smp-eld-part02',
             '16c-glue-20-zf0-gene',
             '16c-glue-21-int-gut1',
             '16c-glue-21-int-tn1',
@@ -720,8 +713,6 @@
             '16c-itpnazis-ax-infi-part01',
             '16c-itpnazis-ax-infi-part02',
             '16c-itpnazis-ax-lansc',
-            '16c-itpnazis-ax-milan-part01',
-            '16c-itpnazis-ax-milan-part02',
             '16c-itpnazis-ax-sick',
             '16c-itpnazis-ax-skog',
             '16c-itpnazis-ax-stats',
@@ -1020,8 +1011,6 @@
             '16c-sublim01-pg-colly-part02',
             '16c-sys2-01-zs-drmii',
             '16c-sys2-01-zs-elem',
-            '16c-sys2-01-zs-light-part01',
-            '16c-sys2-01-zs-light-part02',
             '16c-sys2-01-zs-milan',
             '16c-sys2-01-zs-true',
             '16c-sys2-01-zs-vid2',
@@ -1030,8 +1019,6 @@
             '16c-tone0199-d-ur3-part01',
             '16c-tone0199-d-ur3-part02',
             '16c-tone0199-s3-abs',
-            '16c-tone0199-s3-alien-part01',
-            '16c-tone0199-s3-alien-part02',
             '16c-tone0199-s3-fm',
             '16c-tone0199-s3-lm',
             '16c-tone0199-soul-2',
@@ -12435,9 +12422,6 @@
             '16c-avenge14-biz-abs2-part02',
             '16c-avenge14-biz-abs3-part01',
             '16c-avenge14-biz-abs3-part02',
-            '16c-avenge14-biz-coll-part01',
-            '16c-avenge14-biz-coll-part02',
-            '16c-avenge14-biz-coll-part03',
             '16c-avenge14-gso-pr6-part01',
             '16c-avenge14-gso-pr6-part02',
             '16c-avenge14-kg-0399-part01',
@@ -12643,8 +12627,6 @@
             '16c-eco-12-vld-snwl',
             '16c-eco-12-vld-wast',
             '16c-eco-13-cl-ecl',
-            '16c-eco-13-ecl-nfo-part01',
-            '16c-eco-13-ecl-nfo-part02',
             '16c-eco-13-sn-sol-part01',
             '16c-eco-13-sn-sol-part02',
             '16c-eco-13-sn-sol-part03',
@@ -12888,8 +12870,6 @@
             '16c-glue-20-int-spoo',
             '16c-glue-20-mnc-skll',
             '16c-glue-20-pc-glue',
-            '16c-glue-20-smp-eld-part01',
-            '16c-glue-20-smp-eld-part02',
             '16c-glue-20-zf0-gene',
             '16c-glue-21-int-gut1',
             '16c-glue-21-int-tn1',
@@ -13018,8 +12998,6 @@
             '16c-itpnazis-ax-infi-part01',
             '16c-itpnazis-ax-infi-part02',
             '16c-itpnazis-ax-lansc',
-            '16c-itpnazis-ax-milan-part01',
-            '16c-itpnazis-ax-milan-part02',
             '16c-itpnazis-ax-sick',
             '16c-itpnazis-ax-skog',
             '16c-itpnazis-ax-stats',
@@ -13318,8 +13296,6 @@
             '16c-sublim01-pg-colly-part02',
             '16c-sys2-01-zs-drmii',
             '16c-sys2-01-zs-elem',
-            '16c-sys2-01-zs-light-part01',
-            '16c-sys2-01-zs-light-part02',
             '16c-sys2-01-zs-milan',
             '16c-sys2-01-zs-true',
             '16c-sys2-01-zs-vid2',
@@ -13328,8 +13304,6 @@
             '16c-tone0199-d-ur3-part01',
             '16c-tone0199-d-ur3-part02',
             '16c-tone0199-s3-abs',
-            '16c-tone0199-s3-alien-part01',
-            '16c-tone0199-s3-alien-part02',
             '16c-tone0199-s3-fm',
             '16c-tone0199-s3-lm',
             '16c-tone0199-soul-2',
@@ -22171,9 +22145,6 @@
         '16c-avenge14-biz-abs2-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Bizzarro', 'TheAvengeCult', 'avenge14', '16colors', 'SplitPart')
         '16c-avenge14-biz-abs3-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Bizzarro', 'TheAvengeCult', 'avenge14', '16colors', 'SplitPart')
         '16c-avenge14-biz-abs3-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Bizzarro', 'TheAvengeCult', 'avenge14', '16colors', 'SplitPart')
-        '16c-avenge14-biz-coll-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Bizzarro', 'TheAvengeCult', 'avenge14', '16colors', 'SplitPart')
-        '16c-avenge14-biz-coll-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Bizzarro', 'TheAvengeCult', 'avenge14', '16colors', 'SplitPart')
-        '16c-avenge14-biz-coll-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Bizzarro', 'TheAvengeCult', 'avenge14', '16colors', 'SplitPart')
         '16c-avenge14-gso-pr6-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'gso', 'TheAvengeCult', 'avenge14', '16colors', 'SplitPart')
         '16c-avenge14-gso-pr6-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'gso', 'TheAvengeCult', 'avenge14', '16colors', 'SplitPart')
         '16c-avenge14-kg-0399-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'KargusCreator', 'TheAvengeCult', 'avenge14', '16colors', 'SplitPart')
@@ -22379,8 +22350,6 @@
         '16c-eco-12-vld-snwl' = @('ANSI', 'ASCIIArt', 'Artistic', 'velodrome', 'ecolove', 'eco12', '16colors')
         '16c-eco-12-vld-wast' = @('ANSI', 'ASCIIArt', 'Artistic', 'velodrome', 'ecolove', 'eco12', '16colors')
         '16c-eco-13-cl-ecl' = @('ANSI', 'ASCIIArt', 'Artistic', 'Cleaner', 'Ecolove', 'eco13', '16colors')
-        '16c-eco-13-ecl-nfo-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'theavenger', 'ecolove', 'eco13', '16colors', 'SplitPart')
-        '16c-eco-13-ecl-nfo-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'theavenger', 'ecolove', 'eco13', '16colors', 'SplitPart')
         '16c-eco-13-sn-sol-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Snowball', 'Ecolove', 'eco13', '16colors', 'SplitPart')
         '16c-eco-13-sn-sol-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Snowball', 'Ecolove', 'eco13', '16colors', 'SplitPart')
         '16c-eco-13-sn-sol-part03' = @('ANSI', 'ASCIIArt', 'Artistic', 'Snowball', 'Ecolove', 'eco13', '16colors', 'SplitPart')
@@ -22624,8 +22593,6 @@
         '16c-glue-20-int-spoo' = @('ANSI', 'ASCIIArt', 'Artistic', 'Internal', 'glue20', '16colors')
         '16c-glue-20-mnc-skll' = @('ANSI', 'ASCIIArt', 'Artistic', 'menace', 'fokus', 'glue20', '16colors')
         '16c-glue-20-pc-glue' = @('ANSI', 'ASCIIArt', 'Artistic', 'PutridCarcass', 'glue20', '16colors')
-        '16c-glue-20-smp-eld-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Shrimp', 'glue20', '16colors', 'SplitPart')
-        '16c-glue-20-smp-eld-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Shrimp', 'glue20', '16colors', 'SplitPart')
         '16c-glue-20-zf0-gene' = @('ANSI', 'ASCIIArt', 'Artistic', 'zedfact0r', 'glue', 'glue20', '16colors')
         '16c-glue-21-int-gut1' = @('ANSI', 'ASCIIArt', 'Artistic', 'internal', 'glue', 'glue21', '16colors')
         '16c-glue-21-int-tn1' = @('ANSI', 'ASCIIArt', 'Artistic', 'Internal', 'glue21', '16colors')
@@ -22754,8 +22721,6 @@
         '16c-itpnazis-ax-infi-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AllaXul', 'itpnazis', '16colors', 'SplitPart')
         '16c-itpnazis-ax-infi-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AllaXul', 'itpnazis', '16colors', 'SplitPart')
         '16c-itpnazis-ax-lansc' = @('ANSI', 'ASCIIArt', 'Artistic', 'AllaXul', 'itpnazis', '16colors')
-        '16c-itpnazis-ax-milan-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'AllaXul', 'itpnazis', '16colors', 'SplitPart')
-        '16c-itpnazis-ax-milan-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'AllaXul', 'itpnazis', '16colors', 'SplitPart')
         '16c-itpnazis-ax-sick' = @('ANSI', 'ASCIIArt', 'Artistic', 'AllaXul', 'itpnazis', '16colors')
         '16c-itpnazis-ax-skog' = @('ANSI', 'ASCIIArt', 'Artistic', 'AllaXul', 'itpnazis', '16colors')
         '16c-itpnazis-ax-stats' = @('ANSI', 'ASCIIArt', 'Artistic', 'AllaXul', 'itpnazis', '16colors')
@@ -23054,8 +23019,6 @@
         '16c-sublim01-pg-colly-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Polygon', 'Sublime', 'sublim01', '16colors', 'SplitPart')
         '16c-sys2-01-zs-drmii' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys201', '16colors')
         '16c-sys2-01-zs-elem' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys201', '16colors')
-        '16c-sys2-01-zs-light-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys201', '16colors', 'SplitPart')
-        '16c-sys2-01-zs-light-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys201', '16colors', 'SplitPart')
         '16c-sys2-01-zs-milan' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys201', '16colors')
         '16c-sys2-01-zs-true' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys201', '16colors')
         '16c-sys2-01-zs-vid2' = @('ANSI', 'ASCIIArt', 'Artistic', 'Zerostar', 'sys201', '16colors')
@@ -23064,8 +23027,6 @@
         '16c-tone0199-d-ur3-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'deathrai', 'tone', 'tone0199', '16colors', 'SplitPart')
         '16c-tone0199-d-ur3-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'deathrai', 'tone', 'tone0199', '16colors', 'SplitPart')
         '16c-tone0199-s3-abs' = @('ANSI', 'ASCIIArt', 'Artistic', 'seltorn', 'tone', 'tone0199', '16colors')
-        '16c-tone0199-s3-alien-part01' = @('ANSI', 'ASCIIArt', 'Artistic', 'seltorn', 'tone', 'tone0199', '16colors', 'SplitPart')
-        '16c-tone0199-s3-alien-part02' = @('ANSI', 'ASCIIArt', 'Artistic', 'seltorn', 'tone', 'tone0199', '16colors', 'SplitPart')
         '16c-tone0199-s3-fm' = @('ANSI', 'ASCIIArt', 'Artistic', 'seltorn', 'tone', 'tone0199', '16colors')
         '16c-tone0199-s3-lm' = @('ANSI', 'ASCIIArt', 'Artistic', 'seltorn', 'tone', 'tone0199', '16colors')
         '16c-tone0199-soul-2' = @('ANSI', 'ASCIIArt', 'Artistic', 'SoulScream', 'none', 'tone0199', '16colors')
@@ -31939,9 +31900,6 @@
         '16c-avenge14-biz-abs2-part02' = 'ABS2 by Bizzarro from avenge14, source rows 24-58.'
         '16c-avenge14-biz-abs3-part01' = 'ABS3 by Bizzarro from avenge14, source rows 1-24.'
         '16c-avenge14-biz-abs3-part02' = 'ABS3 by Bizzarro from avenge14, source rows 25-68.'
-        '16c-avenge14-biz-coll-part01' = 'Logo Colly by Bizzarro from avenge14, source rows 1-38.'
-        '16c-avenge14-biz-coll-part02' = 'Logo Colly by Bizzarro from avenge14, source rows 39-88.'
-        '16c-avenge14-biz-coll-part03' = 'Logo Colly by Bizzarro from avenge14, source rows 89-138.'
         '16c-avenge14-gso-pr6-part01' = 'kanske by gso from avenge14, source rows 1-30.'
         '16c-avenge14-gso-pr6-part02' = 'kanske by gso from avenge14, source rows 31-53.'
         '16c-avenge14-kg-0399-part01' = 'GUEST LOGOS by Kargus + Creator from avenge14, source rows 1-32.'
@@ -32147,8 +32105,6 @@
         '16c-eco-12-vld-snwl' = 'snow login by velodrome from eco-12.'
         '16c-eco-12-vld-wast' = 'wasted by velodrome from eco-12.'
         '16c-eco-13-cl-ecl' = 'Ecolove Promotional by Cleaner from eco-13.'
-        '16c-eco-13-ecl-nfo-part01' = 'infofile pack 13 by the avenger from eco-13, source rows 1-19.'
-        '16c-eco-13-ecl-nfo-part02' = 'infofile pack 13 by the avenger from eco-13, source rows 20-60.'
         '16c-eco-13-sn-sol-part01' = '" Old soldiers never die " by Snowball from eco-13, source rows 1-46.'
         '16c-eco-13-sn-sol-part02' = '" Old soldiers never die " by Snowball from eco-13, source rows 47-90.'
         '16c-eco-13-sn-sol-part03' = '" Old soldiers never die " by Snowball from eco-13, source rows 91-135.'
@@ -32392,8 +32348,6 @@
         '16c-glue-20-int-spoo' = 'INT-SPOO.ANS by Internal from glue-20.'
         '16c-glue-20-mnc-skll' = 'glue guest by menace from glue-20.'
         '16c-glue-20-pc-glue' = 'PC-GLUE.ANS by Putrid Carcass from glue-20.'
-        '16c-glue-20-smp-eld-part01' = 'SMP-ELD.ANS by Shrimp from glue-20, source rows 1-25.'
-        '16c-glue-20-smp-eld-part02' = 'SMP-ELD.ANS by Shrimp from glue-20, source rows 26-55.'
         '16c-glue-20-zf0-gene' = 'genesis by zedfact0r from glue-20.'
         '16c-glue-21-int-gut1' = 'gutter by internal from glue-21.'
         '16c-glue-21-int-tn1' = 'INT-TN1.ANS by Internal from glue-21.'
@@ -32522,8 +32476,6 @@
         '16c-itpnazis-ax-infi-part01' = 'AX_INFI.ANS by Alla Xul from itpnazis, source rows 1-45.'
         '16c-itpnazis-ax-infi-part02' = 'AX_INFI.ANS by Alla Xul from itpnazis, source rows 46-91.'
         '16c-itpnazis-ax-lansc' = 'AX_LANSC.ANS by Alla Xul from itpnazis.'
-        '16c-itpnazis-ax-milan-part01' = 'AX_MILAN.ANS by Alla Xul from itpnazis, source rows 1-41.'
-        '16c-itpnazis-ax-milan-part02' = 'AX_MILAN.ANS by Alla Xul from itpnazis, source rows 42-86.'
         '16c-itpnazis-ax-sick' = 'AX_SICK.ANS by Alla Xul from itpnazis.'
         '16c-itpnazis-ax-skog' = 'AX_SKOG.ANS by Alla Xul from itpnazis.'
         '16c-itpnazis-ax-stats' = 'AX_STATS.ANS by Alla Xul from itpnazis.'
@@ -32822,8 +32774,6 @@
         '16c-sublim01-pg-colly-part02' = 'Logo Colly by Polygon from sublim01, source rows 48-88.'
         '16c-sys2-01-zs-drmii' = 'zs-drmii.ans by Zerostar from sys2_01.'
         '16c-sys2-01-zs-elem' = 'zs-elem.ans by Zerostar from sys2_01.'
-        '16c-sys2-01-zs-light-part01' = 'zs-light.ans by Zerostar from sys2_01, source rows 1-37.'
-        '16c-sys2-01-zs-light-part02' = 'zs-light.ans by Zerostar from sys2_01, source rows 38-69.'
         '16c-sys2-01-zs-milan' = 'zs-milan.ans by Zerostar from sys2_01.'
         '16c-sys2-01-zs-true' = 'ZS-TRUE.ANS by Zerostar from sys2_01.'
         '16c-sys2-01-zs-vid2' = 'ZS-VID2.ANS by Zerostar from sys2_01.'
@@ -32832,8 +32782,6 @@
         '16c-tone0199-d-ur3-part01' = 'urinal 3 by deathrai from tone0199, source rows 1-32.'
         '16c-tone0199-d-ur3-part02' = 'urinal 3 by deathrai from tone0199, source rows 33-64.'
         '16c-tone0199-s3-abs' = 'absurdian by seltorn from tone0199.'
-        '16c-tone0199-s3-alien-part01' = 'alien pub by seltorn from tone0199, source rows 1-33.'
-        '16c-tone0199-s3-alien-part02' = 'alien pub by seltorn from tone0199, source rows 34-51.'
         '16c-tone0199-s3-fm' = 'file menu by seltorn from tone0199.'
         '16c-tone0199-s3-lm' = 'logoff menu by seltorn from tone0199.'
         '16c-tone0199-soul-2' = 'I''m back... 2000 by SoulScream from tone0199.'

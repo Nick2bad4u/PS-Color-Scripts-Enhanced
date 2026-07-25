@@ -27,24 +27,24 @@
       "apiUnreturnedPackCount": 8,
       "packCount": 2212,
       "candidateCount": 23569,
-      "importedWorkCount": 5788,
-      "emittedScriptCount": 9059,
-      "acceptedSourceCount": 5888,
+      "importedWorkCount": 5782,
+      "emittedScriptCount": 9046,
+      "acceptedSourceCount": 5881,
       "dispositionTotals": {
-        "accepted": 5788,
-        "already-imported-render": 20,
-        "already-imported-source": 133,
+        "accepted": 5782,
+        "already-imported-render": 19,
+        "already-imported-source": 132,
         "rejected-attribution": 4,
-        "rejected-composition": 2986,
+        "rejected-composition": 2991,
         "rejected-content": 466,
         "rejected-duotone": 1974,
         "rejected-duplicate-render": 126,
         "rejected-duplicate-source": 678,
         "rejected-filler": 852,
-        "rejected-licensing": 2446,
+        "rejected-licensing": 2447,
         "rejected-malformed": 229,
         "rejected-monochrome": 2398,
-        "rejected-quality": 4061,
+        "rejected-quality": 4063,
         "rejected-unsupported-terminal": 286,
         "rejected-unsupported-font": 1115,
         "rejected-duplicate": 7
@@ -79,26 +79,26 @@
       },
       {
         "year": 1999,
-        "scannedAt": "2026-07-24T22:20:33.344Z",
+        "scannedAt": "2026-07-25T00:03:45.892Z",
         "packCount": 405,
         "candidateCount": 2836,
-        "importedWorkCount": 676,
-        "emittedScriptCount": 979,
+        "importedWorkCount": 670,
+        "emittedScriptCount": 966,
         "inventorySha256": "0e41cb1fb253b73c4a3a1d8ed21ab8e43ca02b3b6bdf555b6116bd5f83390dd4",
-        "auditCheckpointSha256": "370230a8361d87722981fe0504231ffa0fd7255347029055797325a1977b81fc",
+        "auditCheckpointSha256": "03115c74c9e366d60e1b6a926f024cb7164be5dbbaad350ed68850e41237a7ca",
         "dispositionTotals": {
-          "accepted": 676,
-          "already-imported-render": 5,
-          "already-imported-source": 14,
-          "rejected-composition": 277,
+          "accepted": 670,
+          "already-imported-render": 4,
+          "already-imported-source": 13,
+          "rejected-composition": 282,
           "rejected-content": 54,
           "rejected-duotone": 235,
           "rejected-duplicate-render": 18,
           "rejected-duplicate-source": 98,
           "rejected-filler": 222,
-          "rejected-licensing": 169,
+          "rejected-licensing": 170,
           "rejected-monochrome": 342,
-          "rejected-quality": 725,
+          "rejected-quality": 727,
           "rejected-unsupported-terminal": 1
         }
       },
@@ -12580,14 +12580,6 @@
       },
       {
         "archiveYear": 1999,
-        "id": "16colors:avenge14/BIZ-COLL.ANS",
-        "disposition": "accepted",
-        "sourceUrl": "https://16colo.rs/pack/avenge14/raw/BIZ-COLL.ANS",
-        "sourceSha256": "d12fd08c9616925e8d21d1bd10acbbeb5f77930f5c1615c2986d2c9b9359802b",
-        "renderSha256": "2f995f5f0889d06d90dec81ef25db5e7d04fb76bbed64dd00e11e996818df0c4"
-      },
-      {
-        "archiveYear": 1999,
         "id": "16colors:avenge14/GSO-PR6.ANS",
         "disposition": "accepted",
         "sourceUrl": "https://16colo.rs/pack/avenge14/raw/GSO-PR6.ANS",
@@ -13761,14 +13753,6 @@
         "sourceUrl": "https://16colo.rs/pack/eco-13/raw/CL!-ECL.ANS",
         "sourceSha256": "f918fcfbcf58fbfc701c09b8fa24dde7621aee81d2ad85281eebfea705213fa7",
         "renderSha256": "84d2db7573695b79041300712ec48d1be13eed34cba5fe8890a931c9fb8be410"
-      },
-      {
-        "archiveYear": 1999,
-        "id": "16colors:eco-13/ECL-NFO.ANS",
-        "disposition": "accepted",
-        "sourceUrl": "https://16colo.rs/pack/eco-13/raw/ECL-NFO.ANS",
-        "sourceSha256": "f7877671998854f42a8e3362f32c34cfda1bb82211be9de7c6f75b03af45cab8",
-        "renderSha256": "7ffb7e05a128282c5f2d88bae6ccddef1f55beafd95706d5d19f4e7102a21d8b"
       },
       {
         "archiveYear": 1999,
@@ -15108,14 +15092,6 @@
       },
       {
         "archiveYear": 1999,
-        "id": "16colors:glue-20/SMP-ELD.ANS",
-        "disposition": "accepted",
-        "sourceUrl": "https://16colo.rs/pack/glue-20/raw/SMP-ELD.ANS",
-        "sourceSha256": "71ae92d663ed06f71d29f8a0cf15a78cbe7242605ff1b021443fefdf8375cb5e",
-        "renderSha256": "2f51e50a897cfd5fb79584bf77de3739aa191c5e518fa51fc5582bdb9b0a26fa"
-      },
-      {
-        "archiveYear": 1999,
         "id": "16colors:glue-20/ZF0-GENE.ANS",
         "disposition": "accepted",
         "sourceUrl": "https://16colo.rs/pack/glue-20/raw/ZF0-GENE.ANS",
@@ -15745,14 +15721,6 @@
         "sourceUrl": "https://16colo.rs/pack/itpnazis/raw/AX_LANSC.ANS",
         "sourceSha256": "2574d90ba994d5c54f8ab2787909d32b41093337bf6ac4c71f7b2d62140ea062",
         "renderSha256": "fb9ddd89daf433b77f569bec70585b12b2838adc0998c6a8c6722e8ec4e1501c"
-      },
-      {
-        "archiveYear": 1999,
-        "id": "16colors:itpnazis/AX_MILAN.ANS",
-        "disposition": "accepted",
-        "sourceUrl": "https://16colo.rs/pack/itpnazis/raw/AX_MILAN.ANS",
-        "sourceSha256": "094428fe0d932974d5e504ffae7c34d2fbcd4cfe39dbd4fc7b22b38a5d807b0d",
-        "renderSha256": "9735b7b1a46382ab7e3104edbc88c5e6401a33de032b702a3917ae1b30a00fbe"
       },
       {
         "archiveYear": 1999,
@@ -17244,14 +17212,6 @@
       },
       {
         "archiveYear": 1999,
-        "id": "16colors:sadist02/CL!-SAD.ANS",
-        "disposition": "already-imported-source",
-        "sourceUrl": "https://16colo.rs/pack/sadist02/raw/CL!-SAD.ANS",
-        "sourceSha256": "3f5c1de6b415a3157a8b5daa7f7acc151b471263623d8530d9ce3e1b0e2c492e",
-        "renderSha256": "9e79e1362d77870127a557ddfb6e931aaadde7438925b7a177fde856d28a4691"
-      },
-      {
-        "archiveYear": 1999,
         "id": "16colors:sadist02/DZ-181.ANS",
         "disposition": "accepted",
         "sourceUrl": "https://16colo.rs/pack/sadist02/raw/DZ-181.ANS",
@@ -17524,14 +17484,6 @@
       },
       {
         "archiveYear": 1999,
-        "id": "16colors:sys2_01/zs-light.ans",
-        "disposition": "accepted",
-        "sourceUrl": "https://16colo.rs/pack/sys2_01/raw/zs-light.ans",
-        "sourceSha256": "93dbccf23f82160198ff3b4c80a2694beb12320a4feb572ffaa9c1d9a04ba638",
-        "renderSha256": "0489327b83b5a07889daabb8e761bc48f79ad7e3894bb45632a6fa46311a2afb"
-      },
-      {
-        "archiveYear": 1999,
         "id": "16colors:sys2_01/zs-milan.ans",
         "disposition": "accepted",
         "sourceUrl": "https://16colo.rs/pack/sys2_01/raw/zs-milan.ans",
@@ -17585,14 +17537,6 @@
         "sourceUrl": "https://16colo.rs/pack/tone0199/raw/S3-ABS.ANS",
         "sourceSha256": "ac9645f3bd99932e8b492e247b7f3851c32481fb04c93961dc459799c206dcd7",
         "renderSha256": "a559bfd39383808156c25bd724bbb72680735cc6a3ff53c519fa2e1117bc450f"
-      },
-      {
-        "archiveYear": 1999,
-        "id": "16colors:tone0199/S3-ALIEN.ANS",
-        "disposition": "accepted",
-        "sourceUrl": "https://16colo.rs/pack/tone0199/raw/S3-ALIEN.ANS",
-        "sourceSha256": "a89903f0664c6846f04846b63f98c3f55242890b0b28bc3bade4006834609d71",
-        "renderSha256": "74b5f677cd60caa6832ac852b705f3731b4f2a0241379ae928f72d115627555b"
       },
       {
         "archiveYear": 1999,
