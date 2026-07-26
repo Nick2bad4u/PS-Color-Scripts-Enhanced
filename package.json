@@ -40,10 +40,14 @@
   "scripts": {
     "ansi:audit": "node ./scripts/Audit-AnsiArchives.js",
     "ansi:audit:offline": "node ./scripts/Audit-AnsiArchives.js --offline",
+    "ansi:checkpoint:check": "node ./scripts/Build-AnsiArchiveCurationCheckpoint.js",
+    "ansi:checkpoint:update": "node ./scripts/Build-AnsiArchiveCurationCheckpoint.js --write",
     "ansi:gallery-analysis": "node ./scripts/Analyze-ColorScripts.mjs",
+    "ansi:gallery-analysis:check": "node ./scripts/Analyze-ColorScripts.mjs --type=analysis-error --type=avoidable-extra-part --type=blank-part --type=derivative-attribution-review --type=embedded-dos-eof --type=mergeable-adjacent-parts --type=missing-source-coordinates --type=source-row-gap-or-overlap --type=suspicious-character-decoding --check",
     "ansi:verify-conversion": "node ./scripts/Verify-AnsiConversion.mjs",
     "build": "pwsh -NoProfile -File ./scripts/build.ps1 && npm run release:notes && npm run release:notes:latest && npm run test:conversion && npm run verify && npm run test:coverage",
     "build:help": "pwsh -NoProfile -File ./scripts/Build-Help.ps1 -UpdateMarkdown",
+    "build:help:check": "pwsh -NoProfile -File ./scripts/Build-UpdatableHelp.ps1 -Check",
     "build:skip-help": "pwsh -NoProfile -File ./scripts/build.ps1 -SkipHelp",
     "changelog:generate": "npx git-cliff --config node_modules/gitcliff-config-nick2bad4u/cliff.toml --github-repo Nick2bad4u/PS-Color-Scripts-Enhanced --output CHANGELOG.md",
     "changelog:preview": "npx git-cliff --config node_modules/gitcliff-config-nick2bad4u/cliff.toml --github-repo Nick2bad4u/PS-Color-Scripts-Enhanced --unreleased",
@@ -88,7 +92,7 @@
     "scripts:test-all": "pwsh -NoProfile -File ./ColorScripts-Enhanced/Test-AllColorScripts.ps1",
     "sort-package": "npx sort-package-json",
     "test": "npm run test:conversion && npm run test:custom && npm run test:pester",
-    "test:conversion": "node --test ./Tests/AnsiConversion.Tests.js ./Tests/AnsiArchiveAudit.Tests.js ./Tests/ColorScriptAnalysis.Tests.js",
+    "test:conversion": "node --test ./Tests/AnsiConversion.Tests.js ./Tests/AnsiArchiveAudit.Tests.js ./Tests/AnsiCheckpointValidation.Tests.js ./Tests/ColorScriptAnalysis.Tests.js",
     "test:coverage": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1 -Verbosity Normal",
     "test:coverage:ci": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1 -CI -Verbosity Minimal",
     "test:coverage:detailed": "pwsh -NoProfile -File ./scripts/Test-Coverage.ps1 -Verbosity Detailed",
@@ -102,7 +106,7 @@
     "update-actions": "npx actions-up --yes --style sha",
     "update-deps": "npx ncu --configFileName .ncurc.json --configFilePath node_modules/ncu-config-nick2bad4u && node ./scripts/sync-node-version-files.mjs && npm install --force",
     "verify": "npm run lint && npm run readme:check",
-    "verify:strict": "npm run lint:strict && npm run readme:check"
+    "verify:strict": "npm run lint:strict && npm run readme:check && npm run ansi:gallery-analysis:check"
   },
   "overrides": {
     "adm-zip": "^0.6.0",

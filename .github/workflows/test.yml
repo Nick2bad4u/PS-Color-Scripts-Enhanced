@@ -51,6 +51,11 @@ jobs:
               shell: pwsh
               run: npm run test:conversion
 
+            - name: Run ANSI gallery integrity analysis
+              if: matrix.os == 'ubuntu-latest'
+              shell: pwsh
+              run: npm run ansi:gallery-analysis:check
+
     windows-powershell:
         name: Windows PowerShell 5.1
         runs-on: windows-latest
