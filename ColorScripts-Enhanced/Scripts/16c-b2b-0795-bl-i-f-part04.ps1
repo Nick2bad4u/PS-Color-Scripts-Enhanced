@@ -1,0 +1,45 @@
+﻿# Converted from: BL-I!F.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/b2b-0795/raw/BL-I!F.ANS
+# Source Revision: archive-sha256:8e10b7c1c977a26397c38c863229df8f735caadc9af3741f089d2a5031818bc8
+# Source SHA-256: cdcd351738d1c3d7e44586bc8487263bf27568126874950593d55a9411c93cd9
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: BL-I!F.ANS by Blind Enemy (Back to Basix); released in b2b-0795 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: iNSANE!FARPOiNT
+# SAUCE Author: Blind Enemy
+# SAUCE Group: Back to Basix
+# SAUCE Date: 19950626
+# SAUCE Dimensions: 80x165
+# Lines: 137-165
+# Columns: 1-80
+
+Write-Host '
+
+
+
+
+
+
+   [1;30m▄▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀[0m    [1;30m▀▀[0m                      [1;30m           ▀▀ ▀▀▀▀  ▀▀▀▀▀▀▀▀▄ [0m
+ [1;30m█▀ [0m▄▀▀▀▀▀ ▀▀  ▀                                               ▀ ▀▀ ▀▀▀▀▀▀▄  [1;30m▀█[0m
+ [1;30m▄▀[0m█ [1;32m█[0;1;32;42m▀[0;32m▀ ▀[0;37m                [0;1;30m1.7 GiGS  DEMOS AND ART ONLiNE[0m           [32m▀ ▀[0;1;32;42m▄██[0;1;32;40m▄[0m █ [1;30m█[0m
+ [1;30m█[0m▐[1;30m [0;1;32;42m▌[0;32m▀[0;37m  [0m          [1;30m [0m  [1;30m [0m    [1;30m [0m [1;30mRUNNiNG ON PCBOARD 15.23     [0m                [1;32;42m▐[0m ▐ [1;30m█[0m
+ [1;30m█[0m■ [32m▌[0m             [1;30m [0m  [1;30m [0m  [1;30m [0m                               [1;30m   [0m              [32m▐[0;37m ■ [0;1;30m▐[0m
+[1;30m ▌   [0m           [1;30m   [0m    [1;30m [0m    [1;30m.·-──────SUPPORT─────-·. [0m       [1;30m     [0m            [1;30m■[0m
+ [1;30m■[0m                          [1;30m`THE COEXiSTENCE·──·WHQ'' [0m
+[1;30m     [0m                 [1;30m  [0m    [1;30m RR·──────·SUPPORT SiTE[0m  [1;30m   [0m   [1;30m [0m
+                      [1;30m      [0m [1;30mSUPREME·─────────·DiST[0m  [1;30m          [0m
+[1;30m     [0m                       [1;30m K.L.F·───────────·DiST[0m
+                             [1;30mJ!P·─────────────·DiST[0m
+                             [1;30mCELTiC·───────────·MBR[0m
+
+                            [1;30m.·-─────NETWORKS─────-·.[0m
+                            [1;30m`iCE·─·47:42o/1oo·─·EHQ''[0m
+ [1;30m■[0m                  [1;30m    [0m  [1;30m  [0m [1;30mDGi·─·68:49o/o·───·GHQ[0m  [1;30m    [0m                    [1;30m■[0m
+ [1;30m▌[0m                          [1;30m CMN·─·1o:49/o·────·GHQ[0m     [1;30m [0m                    [1;30m▌[0m
+ [1;30m█[0m  [32m▌[0;1;30m [0m [1;30m [0m               [1;30m  [0m                           [1;30m   [0m  [1;30m [0m [1;30m [0m             [32m ▌[0;37m ▌[0;1;30m█[0m
+ [1;30m█[0m▐ [1;32;42m▌[0;32m▄[0;37m   [0m                    [1;30m.·-──────STUFF──────-·.   [0m   [1;30m [0m             [32m▄[0;1;32;42m▐[0m █ [1;30m█[0m
+ [1;30m▐[0m █ [1;32;42m█▄[0;32m▄▄▄■[0m                  [1;30m`STiNGRAY·───────·[TC]''[0m              [32m▄[0;37m [0;32m▄[0;1;32;42m▄[0;32m█[0;1;32;42m▄█[0m ▄▀ [1;30m█[0m
+ [1;30m ▌[0m▀▄▄▄▄ ▄▄  ▄                [1;30miNSPiRE·────────·[TC][0m       [1;30m    [0m ▄  ▄ ▄▄▄▄▄▀▄ [1;30m▄█[0m
+[1;30mbl▀▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄▄▄[0m  [1;30m▄▄[0m      [1;30m▄[0m                        [1;30m▄▄▄[0m [1;30m▄▄▄[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▀ ▀[0m'

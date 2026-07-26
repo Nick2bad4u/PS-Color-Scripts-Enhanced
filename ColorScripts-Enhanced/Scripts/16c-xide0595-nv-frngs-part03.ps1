@@ -1,0 +1,34 @@
+﻿# Converted from: NV-FRNGS.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/xide0595/raw/NV-FRNGS.ANS
+# Source Revision: archive-sha256:466351a1eca094d1b53ab4889d24356e9cdae414dc2e0fc07f0097ac118c9b27
+# Source SHA-256: 3ea0e626b60cead7c51b0e1d7687c61a49cf07bae9f07b70e5e1b85896bfccf4
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: NV-FRNGS.ANS by Nevermind (READ THE INI FILE); released in xide0595 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: The Fringes
+# SAUCE Author: Nevermind
+# SAUCE Group: READ THE INI FILE
+# SAUCE Date: 19950503
+# SAUCE Dimensions: 80x25
+# Lines: 92-109
+# Columns: 1-80
+
+Write-Host '
+
+        [37m   ▄▄▄▄▄[0;1;37m▄■ [0;1;34m [0m     ▄█▄ █▄█ ██
+       ▄▄██████[1;47m█[0m         [1;30m█[0m█[1;30m█[0m █[1;30m█[0m█ █[1;30;47m▀[0m
+[1m [0m  ▄▄██████████[1m▌[0m         [1m [0;1;30m█[0;1;37m [0m [1;30m█[0m [1;30m█[0m [1;30m██[0m
+[1m■▀[0;1;47m▄[0m████████[1;47m▄▄▄▄[0;1;40m▌[0m
+  [1m▐[0m█████[1;47m▄[0;1;40m▀▀[0;1;34;40m [0m
+  [1;34m [0m█████[1;34m   [0;1;37m■▄[0m▄▄▄▄▄▄▄      [1m■▄[0m▄▄▄▄[1m▄■■▄[0m▄▄▄▄[1m▄■[0m [1m■▄[0m▄▄▄[1m▄■[0m   ▄▄▄▄▄[1m▄■■▄[0m▄▄▄▄▄▄[1m■[0m   ▄▄▄▄▄[1m▄■[0m
+  [1;34m [0m██████[1;47m▄[0;1;40m▀■▐[0m████[1;47m▄▄▄[0m███▄   [1m▐[0m████[1m▌[0m  [1m▐[0m██████▄ [1m▐[0m███[1m▌[0m ▄███████▌  [1m▐[0m███[1;47m▄▄[0;1;40m▌[0m ▄███████▌
+  [1;34m [0;1;37;47m░[0m███[1;47m░[0;1;40m▀[0;1;34;40m   [0m [1;47m░[0m███   [1m▀[0m███[1;47m▄[0;1;31;40m [0m  [1;47m░[0m██[1;47m░[0m    [1;47m░[0m██[1;47m [0m████▄[1;47m [0m█[1;47m░[0m ████[1;47m▄[0;1;40m▀▀▀▀▀■[0m  [1;47m░[0m██    [1m▀[0;1;47m▄▄[0m██[1m▀▀▀▀■[0m
+  [1;34m [0;1;37;47m▒[0m███[1;47m▒[0m [1;34m   [0m [1;47m▒[0m██[1;47m [0m▄▄▄██[1;47m░[0;1;40m▀[0m    [1;47m▒[0m██[1;47m▒[0m    [1;47m▒[0m████████[1;47m [0m█[1;47m▒[0m ████▄ [1m■[0m▄▄▄[1m■[0m  [1;47m▒[0m██[1;47m▄[0m [1m■[0m▄▄▄[1m■[0m▀███▄
+  [1;34m [0;1;37;47m▓[0m███[1;47m▓[0m  [1;34m [0m  [1;47m▓[0m██[1;47m▒[0;1;40m▀▀▀[0;1;47m▒[0m█[1;47m▒[0m     [1;47m▓[0m██[1;47m▓[0m    [1;47m▓[0m██[1;47m▓[0;1;40m▀[0;1;47m▄[0m███[1;47m [0m█[1;47m▓[0m [1;47m▄[0m████████[1m▌[0m   [1;47m▓[0m██   [1m▐[0m████████[1;47m▄[0m
+  [1m▐[0;1;47m▌[0m███[1;47m▐[0;1;40m▌[0m [1;34m [0m [1m▐[0;1;47m▌[0m██[1;47m▓[0;1;40m▌[0m  [1m▐[0m██[1;47m▓[0m   [1m▐[0;1;47m▌[0m██[1;47m▐[0;1;40m▌[0m  [1m▐[0;1;47m▌[0m██[1;47m▐[0;1;40m▌[0m [1m▀[0;1;47m▄[0m█[1;47m [0m█[1;47m▐[0;1;40m▌[0m [1m▀[0;1;47m▄▄[0m██[1;47m ▄▄[0m   [1m▐[0;1;47m▌[0m████▌ [1m▀[0;1;47m▄ [0m██[1;47m▄▄[0;1;40m▀[0m
+[1;34m [0;1;37m■▀▀▀▀▀▀▀■[0;1;34m [0;1;37m■▀▀▀▀▀▀■■▀▀▀▀▀■■▀▀▀▀▀▀■■▀▀▀▀▀▀▀■■▀▀▀▀▀▀■[0m  [1m▀▀▀[0m    [1m■▀▀▀▀▀▀▀■[0m  [1m▀▀▀[0m  [1m  [0m
+
+[1m                            [0m        [1mFRINGES[0m      [1m            [0m
+
+                              [1m    [0m [1mOBV/2 WHQ[0m'
