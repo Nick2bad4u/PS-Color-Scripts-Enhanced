@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "scanDate": "2026-07-24",
+  "scanDate": "2026-07-26",
   "scope": {
     "sixteenColorsCompletedYears": "1998-2026",
     "sixteenColorsPendingYears": "1990-1997",
@@ -27,24 +27,24 @@
       "apiUnreturnedPackCount": 8,
       "packCount": 2212,
       "candidateCount": 23569,
-      "importedWorkCount": 5782,
-      "emittedScriptCount": 9046,
-      "acceptedSourceCount": 5881,
+      "importedWorkCount": 5775,
+      "emittedScriptCount": 9032,
+      "acceptedSourceCount": 5875,
       "dispositionTotals": {
-        "accepted": 5782,
-        "already-imported-render": 19,
-        "already-imported-source": 132,
+        "accepted": 5775,
+        "already-imported-render": 35,
+        "already-imported-source": 133,
         "rejected-attribution": 4,
-        "rejected-composition": 2991,
+        "rejected-composition": 2990,
         "rejected-content": 466,
         "rejected-duotone": 1974,
-        "rejected-duplicate-render": 126,
+        "rejected-duplicate-render": 133,
         "rejected-duplicate-source": 678,
         "rejected-filler": 852,
-        "rejected-licensing": 2447,
+        "rejected-licensing": 2446,
         "rejected-malformed": 229,
         "rejected-monochrome": 2398,
-        "rejected-quality": 4063,
+        "rejected-quality": 4048,
         "rejected-unsupported-terminal": 286,
         "rejected-unsupported-font": 1115,
         "rejected-duplicate": 7
@@ -447,23 +447,25 @@
       },
       {
         "year": 2016,
-        "scannedAt": "2026-07-23T08:07:58.093Z",
+        "scannedAt": "2026-07-26T08:28:00.601Z",
         "packCount": 20,
         "candidateCount": 627,
-        "importedWorkCount": 71,
-        "emittedScriptCount": 184,
+        "importedWorkCount": 64,
+        "emittedScriptCount": 170,
         "inventorySha256": "67cb073f47b635c6a0cc6c25540ed1a167d7fa65c47710f7b3ff3f85ab48bc84",
-        "auditCheckpointSha256": "791d936d2e60e53f6b3037790915c206d60bdb73ac4806d694cbaf2eee0fcb4b",
+        "auditCheckpointSha256": "fc56b06f484d547845b5b32c86928e8c0931b08ec9d6f71644d74c28e53b53a9",
         "dispositionTotals": {
-          "accepted": 71,
-          "already-imported-source": 2,
-          "rejected-composition": 74,
+          "accepted": 64,
+          "already-imported-render": 16,
+          "already-imported-source": 3,
+          "rejected-composition": 73,
           "rejected-content": 20,
           "rejected-duotone": 39,
+          "rejected-duplicate-render": 7,
           "rejected-duplicate-source": 1,
-          "rejected-licensing": 61,
+          "rejected-licensing": 60,
           "rejected-monochrome": 30,
-          "rejected-quality": 155,
+          "rejected-quality": 140,
           "rejected-unsupported-font": 160,
           "rejected-unsupported-terminal": 14
         }
@@ -32124,14 +32126,6 @@
       },
       {
         "archiveYear": 2016,
-        "id": "16colors:33rules/33-EE2.ANS",
-        "disposition": "accepted",
-        "sourceUrl": "https://16colo.rs/pack/33rules/raw/33-EE2.ANS",
-        "sourceSha256": "9eff54d6afbc28b2efd04268168c483c7f2dae159376065e13d32c2d993b1cc4",
-        "renderSha256": "dcbe33a665a04f420b3cea8cb053cda2aed884ff5349ad07deb3335c3575c12e"
-      },
-      {
-        "archiveYear": 2016,
         "id": "16colors:33rules/33-ELIX.ANS",
         "disposition": "accepted",
         "sourceUrl": "https://16colo.rs/pack/33rules/raw/33-ELIX.ANS",
@@ -32177,14 +32171,6 @@
         "sourceUrl": "https://16colo.rs/pack/33rules/raw/33-GUTTR.ANS",
         "sourceSha256": "1c77b367d4d68d5533c02acfcad0f9fdf831ecc5ef306864ddd62aab54cd445a",
         "renderSha256": "54080925bf5221776bb7487b2e5081b05dbc87b23c23cfc116b741b4336ee586"
-      },
-      {
-        "archiveYear": 2016,
-        "id": "16colors:33rules/33-HAZ.ANS",
-        "disposition": "accepted",
-        "sourceUrl": "https://16colo.rs/pack/33rules/raw/33-HAZ.ANS",
-        "sourceSha256": "23ab5b10ffb90ba4afc7b5e180a33ece3f5e5a82b8e8b189445ab864037410db",
-        "renderSha256": "f1a471909bcd01cf0836076de55cf29239a33ee723632842a2d8b520dbed8ee9"
       },
       {
         "archiveYear": 2016,
@@ -32236,14 +32222,6 @@
       },
       {
         "archiveYear": 2016,
-        "id": "16colors:33rules/33-POO2.ANS",
-        "disposition": "accepted",
-        "sourceUrl": "https://16colo.rs/pack/33rules/raw/33-POO2.ANS",
-        "sourceSha256": "448447b78de00879516aeadaa74f9ccc91932d628f9aaeff0c1db8f75b21f0a7",
-        "renderSha256": "fdbb55132bfa18d9d08a604def2e4539b18d5184067e49ab94cd6de69c41e616"
-      },
-      {
-        "archiveYear": 2016,
         "id": "16colors:33rules/33-PROD2.ANS",
         "disposition": "accepted",
         "sourceUrl": "https://16colo.rs/pack/33rules/raw/33-PROD2.ANS",
@@ -32273,14 +32251,6 @@
         "sourceUrl": "https://16colo.rs/pack/33rules/raw/33-SBZ.ANS",
         "sourceSha256": "821e7118d7274258bd21aa7c1adb230ecf69af3677ff935cbe7f26cc408842d1",
         "renderSha256": "5e6627d10452ae4861956882d1a9eb97de1a6424d58ec139125fa4cc57139c33"
-      },
-      {
-        "archiveYear": 2016,
-        "id": "16colors:33rules/33-SILK.ANS",
-        "disposition": "accepted",
-        "sourceUrl": "https://16colo.rs/pack/33rules/raw/33-SILK.ANS",
-        "sourceSha256": "bb38aebe01e6ae20d0e707944a0148fbaebd0564840b389a7a7ec93d49956588",
-        "renderSha256": "91741af14abff75db7502aefda76bc08eca379819b033e4df68f3d3610a8dac6"
       },
       {
         "archiveYear": 2016,
@@ -32364,27 +32334,11 @@
       },
       {
         "archiveYear": 2016,
-        "id": "16colors:33rules/US-OOO.ANS",
-        "disposition": "accepted",
-        "sourceUrl": "https://16colo.rs/pack/33rules/raw/US-OOO.ANS",
-        "sourceSha256": "114fa382725c185347547607de25742d3ab87cb5a4a32b450f5abba5287aa0a2",
-        "renderSha256": "79ec4e210e31f1dfe5f44a51295a411dc90f1e11458e3617f958263cd51c2112"
-      },
-      {
-        "archiveYear": 2016,
-        "id": "16colors:33rules/US-PIZZA.ANS",
-        "disposition": "accepted",
-        "sourceUrl": "https://16colo.rs/pack/33rules/raw/US-PIZZA.ANS",
-        "sourceSha256": "321dc6b01f25af8fc19c553acb7edd78edc2873a1147fdf047d32f556c09d107",
-        "renderSha256": "970cce22ddf04a2a0d3538f41093ef1549fce02058a213b699bf06fab40854dd"
-      },
-      {
-        "archiveYear": 2016,
-        "id": "16colors:33rules/US-RMS1.ANS",
-        "disposition": "accepted",
-        "sourceUrl": "https://16colo.rs/pack/33rules/raw/US-RMS1.ANS",
-        "sourceSha256": "772577eb4b74c0db30df325020d71ea952e4a4149e14d03b5b90b188bf4855e2",
-        "renderSha256": "200acd56287ba5b97561380d8104119b545f3b29fd71943a0459edd1e410ee89"
+        "id": "16colors:33rules/WE-CIZB.ANS",
+        "disposition": "already-imported-source",
+        "sourceUrl": "https://16colo.rs/pack/33rules/raw/WE-CIZB.ANS",
+        "sourceSha256": "7d393ab0775dd41c4bcf6a467ac0410b005a91aa2d156eaae47b8677d16da94c",
+        "renderSha256": "4a2ea53a5a281b37576ee2a7d46c20259ad3f8883e68646635d103cd8d43a2d1"
       },
       {
         "archiveYear": 2016,

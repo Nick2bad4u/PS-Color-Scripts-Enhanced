@@ -351,7 +351,7 @@ Describe 'Curated ANSI artwork provenance' {
 
     It 'ships a complete compact checkpoint for every finished archive year' {
         $script:Checkpoint.SchemaVersion | Should -Be 1
-        $script:Checkpoint.ScanDate | Should -Be '2026-07-24'
+        $script:Checkpoint.ScanDate | Should -Be '2026-07-26'
         $script:Checkpoint.Scope.SixteenColorsCompletedYears | Should -Be '1998-2026'
         $script:Checkpoint.Scope.SixteenColorsPendingYears | Should -Be '1990-1997'
         $script:Checkpoint.CombinedInventorySha256 | Should -Match '^[0-9a-f]{64}$'
@@ -405,6 +405,15 @@ Describe 'Curated ANSI artwork provenance' {
         )
         $acceptedCheckpointSources |
             Should -HaveCount $script:Checkpoint.SixteenColors.Totals.ImportedWorkCount
+        foreach ($hashProperty in @('SourceSha256', 'RenderSha256')) {
+            $duplicateAcceptedHashes = @(
+                $acceptedCheckpointSources |
+                    Group-Object -Property $hashProperty |
+                    Where-Object { $_.Count -gt 1 }
+            )
+            $duplicateAcceptedHashes |
+                Should -BeNullOrEmpty -Because "accepted archive works must have unique $hashProperty values"
+        }
 
         $knownSourceHashes = @{}
         foreach ($entry in $script:Provenance.Scripts.Values) {
