@@ -22,6 +22,8 @@ const {
     listSixteenColorsPacks,
     mergeDecisions,
     parseArguments,
+    readExistingHashes,
+    readExistingManifestExclusions,
     readResponseWithLimit,
     readZipDirectory,
     summarizeDispositions,
@@ -94,6 +96,8 @@ test("audit arguments keep report paths aligned with a custom cache", () => {
         "--pagesize=250",
         "--pack=mist0624",
         "--year=2024",
+        `--exclude-existing-manifest=${path.join(directory, "first.json")}`,
+        `--exclude-existing-manifest=${path.join(directory, "second.json")}`,
     ]);
 
     assert.equal(options.source, "16colors");
@@ -102,6 +106,10 @@ test("audit arguments keep report paths aligned with a custom cache", () => {
     assert.equal(options.concurrency, 3);
     assert.equal(options.pageSize, 250);
     assert.deepEqual(options.packs, ["mist0624"]);
+    assert.deepEqual(options.excludedExistingManifestPaths, [
+        path.join(directory, "first.json"),
+        path.join(directory, "second.json"),
+    ]);
     assert.throws(
         () => parseArguments(["--concurrency=0"]),
         /between 1 and 12/
@@ -113,6 +121,10 @@ test("audit arguments keep report paths aligned with a custom cache", () => {
     assert.throws(
         () => parseArguments(["--pack=../escape"]),
         /safe 16colors pack name/
+    );
+    assert.throws(
+        () => parseArguments(["--exclude-existing-manifest="]),
+        /must name an import manifest/
     );
 });
 
@@ -704,6 +716,11 @@ test("existing script render indexing is cached and ignores generated presentati
 
     const first = indexExistingScriptRenders(scriptsDirectory, cachePath);
     const second = indexExistingScriptRenders(scriptsDirectory, cachePath);
+    const excluded = indexExistingScriptRenders(
+        scriptsDirectory,
+        cachePath,
+        new Set(["generated"])
+    );
     const sourceFingerprint = analyzeAnsiBuffer(
         Buffer.from("\u001b[31mR\u001b[32mG\u001b[34mB\u001b[0m", "binary")
     ).normalizedRenderSha256;
@@ -712,7 +729,92 @@ test("existing script render indexing is cached and ignores generated presentati
     assert.equal(first.unique, 1);
     assert.deepEqual([...first.hashes], [sourceFingerprint]);
     assert.deepEqual([...second.hashes], [...first.hashes]);
+    assert.equal(excluded.indexed, 1);
+    assert.equal(excluded.unique, 1);
     assert.deepEqual(second.failed, {});
+});
+
+test("existing import manifests can be excluded from provenance hashes", () => {
+    const directory = createTemporaryDirectory();
+    const provenancePath = path.join(directory, "ArtworkProvenance.psd1");
+    const manifestPath = path.join(directory, "import-manifest.json");
+    const sourceA = "a".repeat(64);
+    const renderA = "b".repeat(64);
+    const sourceB = "c".repeat(64);
+    const renderB = "d".repeat(64);
+    fs.writeFileSync(
+        provenancePath,
+        `@{
+    Scripts = @{
+        '16c-pack-a' = @{
+            SourceSha256 = '${sourceA}'
+            RenderSha256 = '${renderA}'
+        }
+        '16c-pack-b' = @{
+            SourceSha256 = '${sourceB}'
+            RenderSha256 = '${renderB}'
+        }
+        'legacy-source-only' = @{
+            SourceSha256 = '${"f".repeat(64)}'
+        }
+    }
+}
+`
+    );
+    fs.writeFileSync(
+        manifestPath,
+        `${JSON.stringify(
+            {
+                scripts: [
+                    {
+                        scriptName: "16c-pack-a",
+                        sourceSha256: sourceA,
+                        renderSha256: renderA,
+                    },
+                ],
+            },
+            undefined,
+            2
+        )}\n`
+    );
+
+    const exclusions = readExistingManifestExclusions([manifestPath]);
+    const hashes = readExistingHashes(provenancePath, exclusions);
+
+    assert.equal(exclusions.manifestCount, 1);
+    assert.deepEqual([...hashes.source], [sourceB, "f".repeat(64)]);
+    assert.deepEqual([...hashes.render], [renderB]);
+    assert.deepEqual([...exclusions.matchedScriptNames], ["16c-pack-a"]);
+
+    fs.writeFileSync(
+        manifestPath,
+        JSON.stringify({
+            scripts: [
+                {
+                    scriptName: "16c-pack-a",
+                    sourceSha256: "e".repeat(64),
+                    renderSha256: renderA,
+                },
+            ],
+        })
+    );
+    assert.throws(
+        () =>
+            readExistingHashes(
+                provenancePath,
+                readExistingManifestExclusions([manifestPath])
+            ),
+        /do not match checked-in provenance/
+    );
+    assert.throws(
+        () => readExistingManifestExclusions([manifestPath, manifestPath]),
+        /supplied more than once/
+    );
+    fs.writeFileSync(manifestPath, JSON.stringify({ scripts: [] }));
+    assert.throws(
+        () => readExistingManifestExclusions([manifestPath]),
+        /must contain at least one script/
+    );
 });
 
 test("bounded ZIP reader inventories and verifies Roy ANSI entries", () => {

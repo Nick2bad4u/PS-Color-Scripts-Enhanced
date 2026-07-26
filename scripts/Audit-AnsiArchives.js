@@ -77,6 +77,7 @@ const ANSI_PREVIEW_PALETTE = [
  * @property {string} htmlPath
  * @property {string | null} checkpointPath
  * @property {string | null} decisionsPath
+ * @property {string[]} excludedExistingManifestPaths
  * @property {boolean} offline
  * @property {boolean} metadataOnly
  * @property {number} concurrency
@@ -210,6 +211,7 @@ function parseArguments(argv) {
         htmlPath: path.join(DEFAULT_CACHE_DIR, "review.html"),
         checkpointPath: null,
         decisionsPath: null,
+        excludedExistingManifestPaths: [],
         offline: false,
         metadataOnly: false,
         concurrency: 4,
@@ -247,6 +249,18 @@ function parseArguments(argv) {
         } else if (arg.startsWith("--decisions=")) {
             options.decisionsPath = path.resolve(
                 arg.slice("--decisions=".length)
+            );
+        } else if (arg.startsWith("--exclude-existing-manifest=")) {
+            const manifestPath = arg
+                .slice("--exclude-existing-manifest=".length)
+                .trim();
+            if (!manifestPath) {
+                throw new Error(
+                    "--exclude-existing-manifest must name an import manifest."
+                );
+            }
+            options.excludedExistingManifestPaths.push(
+                path.resolve(manifestPath)
             );
         } else if (arg.startsWith("--concurrency=")) {
             options.concurrency = parseBoundedInteger(
@@ -352,6 +366,9 @@ function printHelp() {
         "  --limit-packs=<count>      Bound a smoke or fixture-backed run"
     );
     console.log("  --decisions=<path>         Merge exported review decisions");
+    console.log(
+        "  --exclude-existing-manifest=<path>  Exclude a prior import from the gallery baseline; may be repeated"
+    );
     console.log("  --report=<path>            Full JSON report output");
     console.log(
         "  --html=<path>              Interactive contact-sheet output"
@@ -1978,25 +1995,182 @@ function analyzeAnsiBuffer(raw) {
 
 /**
  * @param {string} provenancePath
+ * @param {{
+ *     scriptsByName: Map<
+ *         string,
+ *         { sourceSha256: string; renderSha256: string }
+ *     >;
+ *     matchedScriptNames: Set<string>;
+ * } | null} exclusions
  *
  * @returns {{ source: Set<string>; render: Set<string> }}
  */
-function readExistingHashes(provenancePath) {
+function readExistingHashes(provenancePath, exclusions = null) {
     const source = new Set();
     const render = new Set();
-    if (!fs.existsSync(provenancePath)) return { source, render };
-    const text = fs.readFileSync(provenancePath, "utf8");
-    for (const match of text.matchAll(
-        /SourceSha256\s*=\s*'([a-f\d]{64})'/giu
-    )) {
-        source.add(match[1].toLowerCase());
+    if (!fs.existsSync(provenancePath)) {
+        if (exclusions && exclusions.scriptsByName.size > 0) {
+            throw new Error(
+                "Cannot exclude existing imports without an artwork provenance file."
+            );
+        }
+        return { source, render };
     }
+    const text = fs.readFileSync(provenancePath, "utf8");
+    exclusions?.matchedScriptNames.clear();
+    const entries = new Map();
     for (const match of text.matchAll(
-        /RenderSha256\s*=\s*'([a-f\d]{64})'/giu
+        /^ {8}'((?:[^']|'')+)' = @\{\r?\n([\s\S]*?)^ {8}\}\r?$/gmu
     )) {
-        render.add(match[1].toLowerCase());
+        const scriptName = match[1].replaceAll("''", "'");
+        const block = match[2];
+        const sourceMatch = /SourceSha256\s*=\s*'([a-f\d]{64})'/iu.exec(block);
+        const renderMatch = /RenderSha256\s*=\s*'([a-f\d]{64})'/iu.exec(block);
+        if (!sourceMatch && !renderMatch) {
+            continue;
+        }
+        if (entries.has(scriptName)) {
+            throw new Error(`Duplicate provenance entry: ${scriptName}`);
+        }
+        entries.set(scriptName, {
+            sourceSha256: sourceMatch?.[1].toLowerCase() ?? null,
+            renderSha256: renderMatch?.[1].toLowerCase() ?? null,
+        });
+    }
+
+    const sourceHashCount = [
+        ...text.matchAll(/SourceSha256\s*=\s*'([a-f\d]{64})'/giu),
+    ].length;
+    const renderHashCount = [
+        ...text.matchAll(/RenderSha256\s*=\s*'([a-f\d]{64})'/giu),
+    ].length;
+    const mappedSourceHashCount = [...entries.values()].filter(
+        (entry) => entry.sourceSha256
+    ).length;
+    const mappedRenderHashCount = [...entries.values()].filter(
+        (entry) => entry.renderSha256
+    ).length;
+    if (
+        mappedSourceHashCount !== sourceHashCount ||
+        mappedRenderHashCount !== renderHashCount
+    ) {
+        throw new Error(
+            "Unable to map every provenance source/render hash to one script entry."
+        );
+    }
+
+    for (const [scriptName, entry] of entries) {
+        const excluded = exclusions?.scriptsByName.get(scriptName);
+        if (excluded) {
+            if (
+                excluded.sourceSha256 !== entry.sourceSha256 ||
+                excluded.renderSha256 !== entry.renderSha256
+            ) {
+                throw new Error(
+                    `${scriptName}: exclusion manifest hashes do not match checked-in provenance.`
+                );
+            }
+            exclusions.matchedScriptNames.add(scriptName);
+            continue;
+        }
+        if (entry.sourceSha256) {
+            source.add(entry.sourceSha256);
+        }
+        if (entry.renderSha256) {
+            render.add(entry.renderSha256);
+        }
+    }
+    if (
+        exclusions &&
+        exclusions.matchedScriptNames.size !== exclusions.scriptsByName.size
+    ) {
+        const missing = [...exclusions.scriptsByName.keys()].filter(
+            (scriptName) => !exclusions.matchedScriptNames.has(scriptName)
+        );
+        throw new Error(
+            `Exclusion manifest scripts are missing from checked-in provenance: ${missing.join(", ")}`
+        );
     }
     return { source, render };
+}
+
+/**
+ * @param {string[]} manifestPaths
+ *
+ * @returns {{
+ *     manifestCount: number;
+ *     scriptsByName: Map<
+ *         string,
+ *         { sourceSha256: string; renderSha256: string }
+ *     >;
+ *     matchedScriptNames: Set<string>;
+ * }}
+ */
+function readExistingManifestExclusions(manifestPaths) {
+    const scriptsByName = new Map();
+    const resolvedPaths = new Set();
+    for (const manifestPath of manifestPaths) {
+        const resolvedPath = path.resolve(manifestPath);
+        if (resolvedPaths.has(resolvedPath)) {
+            throw new Error(
+                `Existing import manifest was supplied more than once: ${resolvedPath}`
+            );
+        }
+        resolvedPaths.add(resolvedPath);
+        const manifest = requireObject(
+            JSON.parse(fs.readFileSync(resolvedPath, "utf8")),
+            `${resolvedPath} import manifest`
+        );
+        const scripts = requireArray(
+            manifest.scripts,
+            `${resolvedPath} scripts`
+        );
+        if (scripts.length === 0) {
+            throw new Error(
+                `${resolvedPath}: exclusion manifest must contain at least one script.`
+            );
+        }
+        for (const [index, value] of scripts.entries()) {
+            const script = requireObject(
+                value,
+                `${resolvedPath} script ${index + 1}`
+            );
+            const scriptName = requireString(
+                script.scriptName,
+                `${resolvedPath} script ${index + 1} name`
+            );
+            if (scriptsByName.has(scriptName)) {
+                throw new Error(
+                    `Existing import script was supplied more than once: ${scriptName}`
+                );
+            }
+            const sourceSha256 = requireString(
+                script.sourceSha256,
+                `${scriptName} source SHA-256`
+            ).toLowerCase();
+            const renderSha256 = requireString(
+                script.renderSha256,
+                `${scriptName} render SHA-256`
+            ).toLowerCase();
+            if (
+                !SHA256_PATTERN.test(sourceSha256) ||
+                !SHA256_PATTERN.test(renderSha256)
+            ) {
+                throw new Error(
+                    `${scriptName}: exclusion manifest hashes must be SHA-256 values.`
+                );
+            }
+            scriptsByName.set(scriptName, {
+                sourceSha256,
+                renderSha256,
+            });
+        }
+    }
+    return {
+        manifestCount: resolvedPaths.size,
+        scriptsByName,
+        matchedScriptNames: new Set(),
+    };
 }
 
 /**
@@ -2014,7 +2188,11 @@ function readExistingHashes(provenancePath) {
  *     failed: Record<string, string>;
  * }}
  */
-function indexExistingScriptRenders(scriptsDirectory, cachePath) {
+function indexExistingScriptRenders(
+    scriptsDirectory,
+    cachePath,
+    excludedScriptNames = new Set()
+) {
     /**
      * @type {Record<
      *     string,
@@ -2048,7 +2226,11 @@ function indexExistingScriptRenders(scriptsDirectory, cachePath) {
     const failed = {};
     const scriptNames = fs
         .readdirSync(scriptsDirectory)
-        .filter((name) => name.toLowerCase().endsWith(".ps1"))
+        .filter(
+            (name) =>
+                name.toLowerCase().endsWith(".ps1") &&
+                !excludedScriptNames.has(path.parse(name).name)
+        )
         .sort((left, right) => left.localeCompare(right));
     for (const scriptName of scriptNames) {
         const filePath = path.join(scriptsDirectory, scriptName);
@@ -2737,8 +2919,7 @@ function deduplicateCandidates(candidates) {
             typeof analysisRecord.normalizedRenderSha256 !== "string" &&
             typeof analysisRecord.renderSha256 === "string"
         ) {
-            analysisRecord.normalizedRenderSha256 =
-                analysisRecord.renderSha256;
+            analysisRecord.normalizedRenderSha256 = analysisRecord.renderSha256;
         }
     }
     for (const group of groupByHash(
@@ -2870,7 +3051,10 @@ async function runAudit(options) {
         "ColorScripts-Enhanced",
         "ArtworkProvenance.psd1"
     );
-    const existingHashes = readExistingHashes(provenancePath);
+    const exclusions = readExistingManifestExclusions(
+        options.excludedExistingManifestPaths
+    );
+    const existingHashes = readExistingHashes(provenancePath, exclusions);
     const scriptsDirectory = path.resolve(
         __dirname,
         "..",
@@ -2879,7 +3063,8 @@ async function runAudit(options) {
     );
     const existingRenderIndex = indexExistingScriptRenders(
         scriptsDirectory,
-        path.join(options.cacheDir, "existing-render-hashes.json")
+        path.join(options.cacheDir, "existing-render-hashes.json"),
+        new Set(exclusions.scriptsByName.keys())
     );
     for (const hash of existingRenderIndex.hashes) {
         existingHashes.render.add(hash);
@@ -2893,6 +3078,8 @@ async function runAudit(options) {
         uniqueRenderCount: existingRenderIndex.unique,
         failedRenderCount: Object.keys(existingRenderIndex.failed).length,
         failedRenders: existingRenderIndex.failed,
+        excludedManifestCount: exclusions.manifestCount,
+        excludedScriptCount: exclusions.scriptsByName.size,
     };
 
     if (options.source === "16colors" || options.source === "all") {
@@ -3152,6 +3339,7 @@ module.exports = {
     mapConcurrent,
     mergeDecisions,
     parseArguments,
+    readExistingManifestExclusions,
     readExistingHashes,
     readResponseWithLimit,
     indexExistingScriptRenders,
