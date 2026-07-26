@@ -23,6 +23,7 @@ const BOX_GLYPH = /[\u2500-\u257f]/u;
 const ASCII_GLYPH = /[\u0021-\u007e]/u;
 const REPLACEMENT_CHARACTER = /\ufffd/gu;
 const MOJIBAKE_SEQUENCE = /(?:Ã[\u0080-\u00bf]|â€|ðŸ|ï»¿)/gu;
+const DOS_EOF_CHARACTER = /\u001a/gu;
 const ANSI_COLOR_FAMILIES = [
     "neutral",
     "red",
@@ -40,6 +41,7 @@ const KNOWN_ISSUE_TYPES = new Set([
     "continuous-split-review",
     "dense-split-boundary",
     "derivative-attribution-review",
+    "embedded-dos-eof",
     "leading-blank-run",
     "low-cell-variety",
     "low-color-variety",
@@ -563,6 +565,7 @@ function isVisibleCell(cell) {
  *     rowVisibleCellCounts: number[];
  *     replacementCharacters: number;
  *     mojibakeSequences: number;
+ *     dosEofCharacters: number;
  *     sgrSequences: number;
  *     width: number;
  * }}
@@ -682,6 +685,7 @@ function analyzeAnsiLines(lines) {
         replacementCharacters:
             plainText.match(REPLACEMENT_CHARACTER)?.length || 0,
         mojibakeSequences: plainText.match(MOJIBAKE_SEQUENCE)?.length || 0,
+        dosEofCharacters: plainText.match(DOS_EOF_CHARACTER)?.length || 0,
         sgrSequences: content.match(ESCAPE_SEQUENCE)?.length || 0,
         width,
     };
@@ -1199,6 +1203,14 @@ function analyzeReviewSignals(records, options) {
                 script: record.name,
                 replacementCharacters: metrics.replacementCharacters,
                 mojibakeSequences: metrics.mojibakeSequences,
+            });
+        }
+        if (metrics.dosEofCharacters > 0) {
+            issues.push({
+                type: "embedded-dos-eof",
+                family,
+                script: record.name,
+                characters: metrics.dosEofCharacters,
             });
         }
     }

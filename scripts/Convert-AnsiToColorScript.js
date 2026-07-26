@@ -2017,11 +2017,16 @@ function getSauceFontName(sauce) {
         return "";
     }
 
-    const field = sauce.tInfoS.toString("ascii");
-    const terminatorIndex = field.indexOf("\0");
-    return (
-        terminatorIndex === -1 ? field : field.slice(0, terminatorIndex)
-    ).trim();
+    const terminatorIndex = sauce.tInfoS.indexOf(0);
+    const field =
+        terminatorIndex === -1
+            ? sauce.tInfoS
+            : sauce.tInfoS.subarray(0, terminatorIndex);
+    if (field.some((byte) => byte < 0x20 || byte > 0x7e)) {
+        return "";
+    }
+
+    return field.toString("ascii").trim();
 }
 
 /**

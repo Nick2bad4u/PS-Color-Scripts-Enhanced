@@ -1,5 +1,5 @@
 ﻿# Converted from: LD-BNW.ANS
-# Source encoding: CP437
+# Source encoding: cp437
 # Source URL: https://16colo.rs/archive/1994/id-1194.zip
 # Source Revision: archive-sha256:e4287e2f7c251cb296d97cfef2d3a7cb7be107b4159284bac2c6b0e68634a939
 # Source SHA-256: 7c6d3ca2dc1408ed66cdc5a85bfdb11c91e192001fd4500b945102f99f12e594
@@ -12,7 +12,7 @@
 # SAUCE Date: 19941024
 # SAUCE Dimensions: 80x25
 # SAUCE Comments: This ansi was done by Living Death and Mr. Muff
-# Lines: 1-20
+# Lines: 1-22
 # Columns: 1-80
 
 Write-Host '
@@ -32,6 +32,8 @@ Write-Host '
 [1;35m│[0;1;34m┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘[0;36m┘┘┘[0;1;30m▀▀[0;31m▀▀[0;1;31m▀[0;36m┘┘┘[0;1;30m▀▀[0;36m┘┘┘[0;1;34m┘┘┘┘┘[0;34m┘┘┘┘┘┘┘┘┘┘┘┘┘[0;35m│[0;1;37mthrough CiP, POTSDAM, or the[0;1;35m│[0m
 [35m│[0;1;34m┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘[0;36m┘┘┘┘┘┘┘[0;1;34m┘[0;36m┘┘┘┘[0;1;34m┘┘┘┘[0;34m┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘[0;35m│[0;1;37miDENTiTY art coordinator.   [0;1;35m│[0m
 [35m└─────────────────────────────────────────────────┴───────[0;1;35m─[0;35m──────────[0;1;35m─[0;35m──[0;1;35m───────┘[0m
+
+
 
 
 

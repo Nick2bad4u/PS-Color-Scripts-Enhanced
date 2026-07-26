@@ -1,5 +1,5 @@
 ﻿# Converted from: TNT-TACO.ANS
-# Source encoding: CP437
+# Source encoding: cp437
 # Source URL: https://16colo.rs/pack/fire-42/raw/TNT-TACO.ANS
 # Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
 # Source SHA-256: bbecf9c3cbc6e0fbee1497f1665f139756760dad0f43c1cd027597d5febe2f5d

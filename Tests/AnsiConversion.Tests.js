@@ -58,6 +58,12 @@ function getPowerShellExecutables() {
 }
 
 function runPowerShell(scriptPath) {
+    const environment = {
+        ...process.env,
+        TERM: "xterm-256color",
+    };
+    delete environment.NO_COLOR;
+
     return getPowerShellExecutables().map((executable) => {
         const result = spawnSync(
             executable,
@@ -68,7 +74,11 @@ function runPowerShell(scriptPath) {
                 "-File",
                 scriptPath,
             ],
-            { encoding: "utf8", cwd: path.dirname(scriptPath) }
+            {
+                cwd: path.dirname(scriptPath),
+                encoding: "utf8",
+                env: environment,
+            }
         );
 
         assert.equal(
@@ -666,7 +676,7 @@ test("identical ANSI input and options produce byte-identical scripts", () => {
     );
 });
 
-test("SAUCE font names stop at the first null terminator without regex backtracking", () => {
+test("SAUCE font names accept only printable ASCII before the first null terminator", () => {
     assert.equal(getSauceFontName(null), "");
     assert.equal(
         getSauceFontName({ tInfoS: Buffer.from("  IBM VGA  ", "ascii") }),
@@ -674,10 +684,24 @@ test("SAUCE font names stop at the first null terminator without regex backtrack
     );
     assert.equal(
         getSauceFontName({
-            tInfoS: Buffer.from("IBM VGA\0ignored metadata", "ascii"),
+            tInfoS: Buffer.concat([
+                Buffer.from("IBM VGA\0", "ascii"),
+                Buffer.from([0x1b, 0x80, 0xff]),
+            ]),
         }),
         "IBM VGA"
     );
+    for (const invalidByte of [0x00, 0x09, 0x0d, 0x1b, 0x7f, 0x80, 0xff]) {
+        const activePrefix =
+            invalidByte === 0x00
+                ? Buffer.from([0x00, 0x41])
+                : Buffer.from([0x41, invalidByte, 0x00]);
+        assert.equal(
+            getSauceFontName({ tInfoS: activePrefix }),
+            "",
+            `byte 0x${invalidByte.toString(16)}`
+        );
+    }
 });
 
 test("iCE background intensity survives cursor save and restore", () => {
@@ -1421,6 +1445,13 @@ test("SAUCE IBM font names resolve only registered DOS code-page suffixes", () =
         supported: true,
         explicit: true,
         codePage: "860",
+    });
+    assert.deepEqual(resolveSauceEncoding("IBM VGA 866"), {
+        encoding: "cp866",
+        label: "CP866",
+        supported: true,
+        explicit: true,
+        codePage: "866",
     });
     assert.deepEqual(resolveSauceEncoding("IBM VGA25G"), {
         encoding: "cp437",

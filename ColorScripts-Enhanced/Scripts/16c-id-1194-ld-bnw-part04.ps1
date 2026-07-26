@@ -1,5 +1,5 @@
 ﻿# Converted from: LD-BNW.ANS
-# Source encoding: CP437
+# Source encoding: cp437
 # Source URL: https://16colo.rs/archive/1994/id-1194.zip
 # Source Revision: archive-sha256:e4287e2f7c251cb296d97cfef2d3a7cb7be107b4159284bac2c6b0e68634a939
 # Source SHA-256: 7c6d3ca2dc1408ed66cdc5a85bfdb11c91e192001fd4500b945102f99f12e594
@@ -12,7 +12,7 @@
 # SAUCE Date: 19941024
 # SAUCE Dimensions: 80x25
 # SAUCE Comments: This ansi was done by Living Death and Mr. Muff
-# Lines: 85-115
+# Lines: 87-118
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ Write-Host '
 
 
 [1;37m-------======[0m==[1m=[0m===≡≡[1;34m≡≡[0m≡[1;34m≡≡≡≡≡│[0;34m► [0;1;37mBRAVE NEW WORLD [0;34m◄[0;1;34m│≡≡≡≡≡[0m≡[1;34m≡≡[0m≡≡===[1m=[0m==[1m======--------[0m
+
        [34mC[0;1;34miA[0m [34mW[0;1;34morld[0m [34mH[0;1;34meadquar[0;34mter[0;37m [0;1;34m [0m [34mi[0;1;34mDENTi[0;34mTY[0;37m [0;34mE[0;1;34maste[0;34mrn[0;37m [0;1;34mH[0;34mQ[0m  [1;34m [0m [34mR[0;1;34main[0m [34mC[0;1;34mourie[0;34mr''s[0;37m [0;1;34mWH[0;34mQ[0m
            [37m  [0m  [34mD[0;1;34mark[0m [34mS[0;1;34mite[0m [1;34m [0m  [34mC[0;1;34mor[0m [34mS[0;1;34mite[0m [1;34m [0m [34mC[0;1;34miA[0m [34mS[0;1;34meni[0;34mor[0;37m [0;34mM[0;1;34memberBo[0;34mard[0m
                    [34mC[0;1;34miP[0m [34mN[0;1;34met[0m [34mE[0;1;34maste[0;34mrn[0;37m [0;34mH[0;1;34mub[0m  [34mV[0;1;34m/2[0m [34mP[0;1;34mrojec[0;34mts[0;37m [0;34mS[0;1;34mite[0m

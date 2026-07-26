@@ -36,7 +36,7 @@ Describe 'Curated ANSI artwork provenance' {
             $entry.SourceFile | Should -Not -BeNullOrEmpty
             $entry.SourceUrl | Should -Match '^https://[^\s]+$'
             $entry.SourceSha256 | Should -Match '^[0-9a-f]{64}$'
-            $entry.InputEncoding | Should -BeIn @('cp437', 'cp860', 'utf8')
+            $entry.InputEncoding | Should -BeIn @('cp437', 'cp860', 'cp866', 'utf8')
             $entry.ConversionMode | Should -BeIn @('Passthrough', 'TerminalEmulation')
 
             if ($entry.Collection -eq '16colors-permitted') {
@@ -66,6 +66,7 @@ Describe 'Curated ANSI artwork provenance' {
                 }
                 $entry.SourceRevision | Should -Not -BeNullOrEmpty
                 $entry.RenderSha256 | Should -Match '^[0-9a-f]{64}$'
+                $entry.NormalizedRenderSha256 | Should -Match '^[0-9a-f]{64}$'
                 $entry.SourceRows | Should -Match '^\d+-\d+$'
                 $entry.SourceColumns | Should -Match '^\d+-\d+$'
                 $entry.Artist | Should -Not -BeNullOrEmpty
@@ -92,7 +93,10 @@ Describe 'Curated ANSI artwork provenance' {
                         $entry.SauceDimensions | Should -Match '^[1-9]\d*x[1-9]\d*$'
                     }
                     $entry.SauceFlags | Should -BeOfType ([int])
-                    $entry.SauceFont | Should -Not -BeNullOrEmpty
+                    if ($null -ne $entry.SauceFont) {
+                        $entry.SauceFont | Should -BeOfType ([string])
+                        $entry.SauceFont | Should -Match '^[\x20-\x7e]+$'
+                    }
                 }
                 else {
                     $entry.SauceDimensions | Should -BeNullOrEmpty
@@ -353,29 +357,80 @@ Describe 'Curated ANSI artwork provenance' {
 
         @($dimensions | Where-Object { $_.Width -gt 120 -or $_.Height -gt 50 }) |
             Should -BeNullOrEmpty -Because 'oversized artwork must be split without reflowing or squishing it'
+
+        $invalidSourceCoordinates = foreach ($name in $script:ImportedScriptNames) {
+            $entry = $script:Provenance.Scripts[$name]
+            $rowMatch = [regex]::Match(
+                [string]$entry.SourceRows,
+                '^(?<Start>\d+)-(?<End>\d+)$'
+            )
+            $columnMatch = [regex]::Match(
+                [string]$entry.SourceColumns,
+                '^(?<Start>\d+)-(?<End>\d+)$'
+            )
+            if (-not $rowMatch.Success -or -not $columnMatch.Success) {
+                $name
+                continue
+            }
+
+            $rowCount = (
+                [int]$rowMatch.Groups['End'].Value -
+                [int]$rowMatch.Groups['Start'].Value +
+                1
+            )
+            $columnCount = (
+                [int]$columnMatch.Groups['End'].Value -
+                [int]$columnMatch.Groups['Start'].Value +
+                1
+            )
+            if ($rowCount -gt 50 -or $columnCount -gt 120) {
+                $name
+            }
+        }
+        @($invalidSourceCoordinates) |
+            Should -BeNullOrEmpty -Because 'provenance must not conceal oversized source geometry behind visually blank cells'
     }
 
     It 'ships a complete compact checkpoint for every finished archive year' {
         $script:Checkpoint.SchemaVersion | Should -Be 1
         $script:Checkpoint.ScanDate | Should -Be '2026-07-26'
-        $script:Checkpoint.Scope.SixteenColorsCompletedYears | Should -Be '1998-2026'
-        $script:Checkpoint.Scope.SixteenColorsPendingYears | Should -Be '1990-1997'
+        $script:Checkpoint.Scope.SixteenColorsCompletedYears | Should -Be '1990-2026'
+        $script:Checkpoint.Scope.SixteenColorsPendingYears | Should -Be 'none'
         $script:Checkpoint.CombinedInventorySha256 | Should -Match '^[0-9a-f]{64}$'
 
         $years = @($script:Checkpoint.SixteenColors.Years)
-        $years | Should -HaveCount 29
-        @($years.Year) | Should -Be (1998..2026)
+        $years | Should -HaveCount 37
+        @($years.Year) | Should -Be (1990..2026)
         $script:Checkpoint.SixteenColors.Totals.PackCount |
             Should -Be ($years.PackCount | Measure-Object -Sum).Sum
         $script:Checkpoint.SixteenColors.Totals.CandidateCount |
             Should -Be ($years.CandidateCount | Measure-Object -Sum).Sum
+        $script:Checkpoint.SixteenColors.Totals.ImportedWorkCount |
+            Should -Be ($years.ImportedWorkCount | Measure-Object -Sum).Sum
+        $script:Checkpoint.SixteenColors.Totals.EmittedScriptCount |
+            Should -Be ($years.EmittedScriptCount | Measure-Object -Sum).Sum
         $script:Checkpoint.SixteenColors.Totals.ApiReportedPackTotal | Should -Be 5487
         $script:Checkpoint.SixteenColors.Totals.ApiEnumeratedPackCount | Should -Be 5479
         $script:Checkpoint.SixteenColors.Totals.ApiUnreturnedPackCount | Should -Be 8
+        $script:Checkpoint.SixteenColors.Totals.PackCount | Should -Be 5479
+        $script:Checkpoint.SixteenColors.Totals.CandidateCount | Should -Be 64929
+        $script:Checkpoint.SixteenColors.Totals.ImportedWorkCount | Should -Be 15244
+        $script:Checkpoint.SixteenColors.Totals.EmittedScriptCount | Should -Be 21794
         (
             $script:Checkpoint.SixteenColors.Totals.ApiReportedPackTotal -
             $script:Checkpoint.SixteenColors.Totals.ApiEnumeratedPackCount
         ) | Should -Be $script:Checkpoint.SixteenColors.Totals.ApiUnreturnedPackCount
+
+        $emittedScriptCountBySourceHash = @{}
+        foreach ($entry in $script:Provenance.Scripts.Values) {
+            if ($entry.Collection -ne '16colors-permitted') {
+                continue
+            }
+
+            $emittedScriptCountBySourceHash[$entry.SourceSha256] = (
+                1 + [int]$emittedScriptCountBySourceHash[$entry.SourceSha256]
+            )
+        }
 
         foreach ($year in $years) {
             $year.InventorySha256 | Should -Match '^[0-9a-f]{64}$'
@@ -392,6 +447,17 @@ Describe 'Curated ANSI artwork provenance' {
             @($acceptedSourcesForYear | Where-Object { $_.Disposition -eq 'accepted' }) |
                 Should -HaveCount $year.ImportedWorkCount -Because (
                     "the accepted-source checkpoint for {0} must contain exactly one accepted entry per imported original work" -f
+                    $year.Year
+                )
+            $emittedScriptCountForYear = (
+                $acceptedSourcesForYear |
+                    Where-Object { $_.Disposition -eq 'accepted' } |
+                        ForEach-Object { $emittedScriptCountBySourceHash[$_.SourceSha256] } |
+                            Measure-Object -Sum
+            ).Sum
+            $emittedScriptCountForYear |
+                Should -Be $year.EmittedScriptCount -Because (
+                    "the emitted-script checkpoint for {0} must equal the checked-in provenance split count" -f
                     $year.Year
                 )
             $unexpectedCheckpointSources = @(
@@ -411,11 +477,11 @@ Describe 'Curated ANSI artwork provenance' {
         )
         $acceptedCheckpointSources |
             Should -HaveCount $script:Checkpoint.SixteenColors.Totals.ImportedWorkCount
-        foreach ($hashProperty in @('SourceSha256', 'RenderSha256')) {
+        foreach ($hashProperty in @('SourceSha256', 'RenderSha256', 'NormalizedRenderSha256')) {
             $duplicateAcceptedHashes = @(
                 $acceptedCheckpointSources |
                     Group-Object -Property $hashProperty |
-                    Where-Object { $_.Count -gt 1 }
+                        Where-Object { $_.Count -gt 1 }
             )
             $duplicateAcceptedHashes |
                 Should -BeNullOrEmpty -Because "accepted archive works must have unique $hashProperty values"
@@ -426,10 +492,11 @@ Describe 'Curated ANSI artwork provenance' {
             $knownSourceHashes[$entry.SourceSha256] = $true
         }
         foreach ($source in $script:Checkpoint.SixteenColors.AcceptedSources) {
-            $source.ArchiveYear | Should -BeIn (1998..2026)
-            $source.SourceUrl | Should -Match '^https://16colo\.rs/pack/'
+            $source.ArchiveYear | Should -BeIn (1990..2026)
+            $source.SourceUrl | Should -Match '^https://16colo\.rs/(?:pack/|archive/)'
             $source.SourceSha256 | Should -Match '^[0-9a-f]{64}$'
             $source.RenderSha256 | Should -Match '^[0-9a-f]{64}$'
+            $source.NormalizedRenderSha256 | Should -Match '^[0-9a-f]{64}$'
             $knownSourceHashes.ContainsKey($source.SourceSha256) |
                 Should -BeTrue -Because "'$($source.Id)' must resolve to a checked-in provenance entry"
         }

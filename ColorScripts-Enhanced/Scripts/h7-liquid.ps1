@@ -20,5 +20,5 @@ Write-Host @"
 [1;30m ▄▀▀▀[0m                                                                     [1;30m▀▀ ▄[0m
 [1;30m▀[0m
 
-[1;30mcolor it like its 1996![0m
+[1;30mcolor it like its 1996![0m
 "@

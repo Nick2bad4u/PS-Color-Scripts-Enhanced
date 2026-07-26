@@ -1,5 +1,5 @@
 ﻿# Converted from: NS-COLL5.ANS
-# Source encoding: CP437
+# Source encoding: cp437
 # Source URL: https://16colo.rs/pack/glue-35/raw/NS-COLL5.ANS
 # Source Revision: archive-sha256:bc92204ac679e4231b1db133abb983c42252574e71b83e8773e063911f5f3ee6
 # Source SHA-256: 347d242ea5abfc53bc9f2350c595a12da0897fd85a6fe765c17956e660ae4f02

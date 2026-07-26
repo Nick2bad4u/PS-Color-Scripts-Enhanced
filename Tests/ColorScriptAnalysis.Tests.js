@@ -210,6 +210,41 @@ test("cell analysis reports broad color families and decoding damage", async () 
     assert.equal(metrics.mojibakeSequences, 4);
 });
 
+test("embedded DOS EOF controls are reported independently of decoding damage", async () => {
+    const { analyzeReviewSignals, analyzeScript } = await analyzer;
+    const directory = createTemporaryDirectory();
+    const record = analyzeScript(
+        writeScript(
+            directory,
+            "fixture",
+            "1-1",
+            "\u001b[31mvisible\u001aoutput\u001b[0m"
+        )
+    );
+
+    const issues = analyzeReviewSignals([record], {
+        blankRun: 3,
+        maxRows: 50,
+        tinyTailRows: 10,
+    });
+    const eofIssue = issues.find(
+        (issue) => issue.type === "embedded-dos-eof"
+    );
+
+    assert.equal(record.metrics.dosEofCharacters, 1);
+    assert.deepEqual(eofIssue, {
+        type: "embedded-dos-eof",
+        family: "fixture",
+        script: "fixture",
+        characters: 1,
+    });
+    assert.ok(
+        !issues.some(
+            (issue) => issue.type === "suspicious-character-decoding"
+        )
+    );
+});
+
 test("script analysis removes only the generated presentation newline", async () => {
     const { analyzeScript } = await analyzer;
     const directory = createTemporaryDirectory();

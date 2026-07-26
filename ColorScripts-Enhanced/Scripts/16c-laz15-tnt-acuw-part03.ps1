@@ -1,5 +1,5 @@
 ﻿# Converted from: tnt-acuw.ans
-# Source encoding: CP437
+# Source encoding: cp437
 # Source URL: https://16colo.rs/pack/laz15/raw/tnt-acuw.ans
 # Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
 # Source SHA-256: 69a759cdac646b1314323ab16d8e4754051dc89d158385eedd85bd27c7ba0aaf

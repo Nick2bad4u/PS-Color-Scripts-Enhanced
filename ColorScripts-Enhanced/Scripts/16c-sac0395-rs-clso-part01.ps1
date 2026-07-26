@@ -1,5 +1,5 @@
 ﻿# Converted from: RS-CLSO.ANS
-# Source encoding: CP437
+# Source encoding: cp437
 # Source URL: https://16colo.rs/pack/sac0395/raw/RS-CLSO.ANS
 # Source Revision: archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425
 # Source SHA-256: dc30d6368ec5a119b3b69861f353f93edb165b7c113c832950a397f49267ed1e

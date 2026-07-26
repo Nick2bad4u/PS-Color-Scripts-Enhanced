@@ -1,5 +1,5 @@
 ﻿# Converted from: NS-APE.ANS
-# Source encoding: CP437
+# Source encoding: cp437
 # Source URL: https://16colo.rs/pack/b2k-008/raw/NS-APE.ANS
 # Source Revision: archive-sha256:3e9b4d7ccfde9a1c352ae7ce24e0af4f59bdd242e0d3360fde6cc827e611aabf
 # Source SHA-256: a1d444ea612c329af12959b3d4333d375d920e67a5051e601df63617273ad775

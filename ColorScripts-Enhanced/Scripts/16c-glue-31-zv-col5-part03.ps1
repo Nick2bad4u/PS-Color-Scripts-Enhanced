@@ -1,5 +1,5 @@
 ﻿# Converted from: zv-col5.ans
-# Source encoding: CP437
+# Source encoding: cp437
 # Source URL: https://16colo.rs/pack/glue-31/raw/zv-col5.ans
 # Source Revision: archive-sha256:125b240e4f7c12edf343cce3b91cea614ad5d43fdbdf64dc76d9a06354b6a99c
 # Source SHA-256: c1ffd738bc8bb90305337056492ec940ea615c3365e8c01a28d4e2dabb9762ea

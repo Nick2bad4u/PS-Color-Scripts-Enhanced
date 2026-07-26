@@ -1,5 +1,5 @@
 ﻿# Converted from: TNT-RUIN.ANS
-# Source encoding: CP437
+# Source encoding: cp437
 # Source URL: https://16colo.rs/pack/fire-43/raw/TNT-RUIN.ANS
 # Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
 # Source SHA-256: 68cb1b4ac6966d09b06ca9d9fbeba87cf6b5095085ef8258feef32c66abad951

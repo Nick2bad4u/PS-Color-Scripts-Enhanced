@@ -27,11 +27,6 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-blocktronics-blockfury-balkan-madness-and-ret-bye-sense",
-            "reason": "Reviewed false positive: 'after me there shall be no more' is text within the artwork, not a derivative-source attribution."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-blocktronics-acid-trip-fil-bloq",
             "reason": "Reviewed false positive: every flagged use of 'after' appears in the artist's narrative essay about creating the ANSI, not in a derivative-source attribution."
         },
@@ -122,18 +117,8 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-mist0526-us-go-stick-your-head-in-a-pig",
-            "reason": "Reviewed false positive: 'shortly after it was erected' appears in historical explanatory prose, not a derivative-source attribution."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-mist0725-codefenix-ginger",
             "reason": "Reviewed false positive: 'after removing it' appears in prose about a cat and catnip, not a derivative-source attribution."
-        },
-        {
-            "issueType": "derivative-attribution-review",
-            "family": "16c-thesauna01-ak67-terminal-colloquy",
-            "reason": "Reviewed false positive: 'after the blinding flash' is part of the artwork's narrative, not a derivative-source attribution."
         },
         {
             "issueType": "derivative-attribution-review",
@@ -148,7 +133,7 @@
         {
             "issueType": "avoidable-extra-part",
             "family": "16c-id-1194-ld-bnw",
-            "reason": "Preserve the manually reviewed source-row breaks at 20, 52, and 84 until the composition is visually re-reviewed."
+            "reason": "Reviewed source and local render: four parts preserve the header, two figure segments, and complete title/footer at exact source-row breaks 22, 52, and 86."
         },
         {
             "issueType": "avoidable-extra-part",
@@ -182,23 +167,8 @@
         },
         {
             "issueType": "avoidable-extra-part",
-            "family": "16c-laz18-hrv-wisdom-owl-wip",
-            "reason": "Six parts preserve the six successive work-in-progress stages at canonical blank separators; fewer parts bisect stages."
-        },
-        {
-            "issueType": "avoidable-extra-part",
             "family": "16c-lgcy-004-us-ecda",
             "reason": "Four parts keep the Ecco illustration, Expression College title block, and landscape footer intact; the three-part arithmetic minimum bisects the title block."
-        },
-        {
-            "issueType": "avoidable-extra-part",
-            "family": "16c-mist0226-zii-conm",
-            "reason": "Seven parts preserve seven separate Convolution BBS screens at their blank separators; adjacent screens do not fit within 50 rows."
-        },
-        {
-            "issueType": "avoidable-extra-part",
-            "family": "16c-mist0226-zii-exog",
-            "reason": "Five parts combine only adjacent whole panels that fit within 50 rows and end at authentic blank separators; four parts would bisect panels."
         },
         {
             "issueType": "avoidable-extra-part",
@@ -221,11 +191,6 @@
             "reason": "The seven parts follow the seven coherent source panels separated by blank-row bands at rows 25-28, 52-55, 79-82, 105-108, 132-135, and 159-162."
         },
         {
-            "issueType": "mergeable-adjacent-parts",
-            "family": "16c-mist-30-zii-lpht",
-            "reason": "Parts 06 and 07 fit within 50 rows only by stacking two independent BBS interface panels; keep each reviewed source panel as its own gallery entry."
-        },
-        {
             "issueType": "trailing-blank-run",
             "family": "16c-mist-30-zii-lpht-part01",
             "reason": "The four trailing source rows are the authentic separator after the first complete BBS interface panel."
@@ -242,78 +207,8 @@
         },
         {
             "issueType": "trailing-blank-run",
-            "family": "16c-mist-30-zii-lpht-part04",
-            "reason": "The four trailing source rows are the authentic separator after the fourth complete BBS interface panel."
-        },
-        {
-            "issueType": "trailing-blank-run",
-            "family": "16c-mist-30-zii-lpht-part05",
-            "reason": "The four trailing source rows are the authentic separator after the fifth complete BBS interface panel."
-        },
-        {
-            "issueType": "trailing-blank-run",
-            "family": "16c-mist-30-zii-lpht-part06",
-            "reason": "The four trailing source rows are the authentic separator after the sixth complete BBS interface panel."
-        },
-        {
-            "issueType": "trailing-blank-run",
-            "family": "16c-mist-30-zii-ubbs-part01",
-            "reason": "The four trailing source rows are the authentic separator after the first complete BBS interface panel."
-        },
-        {
-            "issueType": "trailing-blank-run",
-            "family": "16c-mist-30-zii-ubbs-part02",
-            "reason": "The three trailing source rows are the authentic separator after the second complete BBS interface panel."
-        },
-        {
-            "issueType": "trailing-blank-run",
-            "family": "16c-mist-30-zii-ubbs-part03",
-            "reason": "The three trailing source rows are the authentic separator after the third complete BBS interface panel."
-        },
-        {
-            "issueType": "trailing-blank-run",
-            "family": "16c-mist-30-zii-ubbs-part04",
-            "reason": "The three trailing source rows are the authentic separator after the fourth complete BBS interface panel."
-        },
-        {
-            "issueType": "trailing-blank-run",
-            "family": "16c-mist-30-zii-ubbs-part05",
-            "reason": "The three trailing source rows are the authentic separator after the fifth complete BBS interface panel."
-        },
-        {
-            "issueType": "avoidable-extra-part",
-            "family": "16c-mist-30-zii-ubbs",
-            "reason": "The six parts follow six coherent source panels separated by blank-row bands at rows 26-29, 54-56, 81-83, 108-110, and 135-137; adjacent complete panels do not fit within 50 rows."
-        },
-        {
-            "issueType": "avoidable-extra-part",
-            "family": "16c-ice-200208-qz-logo1",
-            "reason": "The five parts preserve five complete standalone logos at reviewed source transitions; minimizing the part count would combine unrelated works or cut through a logo."
-        },
-        {
-            "issueType": "mergeable-adjacent-parts",
-            "family": "16c-ice-200208-qz-logo1",
-            "reason": "The numerically mergeable ranges are independent logos and remain separate so every random gallery entry is a coherent work."
-        },
-        {
-            "issueType": "trailing-blank-run",
-            "family": "16c-ice-200208-qz-logo1-part01",
-            "reason": "The three trailing source rows are the authentic separator after the first complete logo."
-        },
-        {
-            "issueType": "trailing-blank-run",
             "family": "16c-ice-200208-qz-logo1-part02",
             "reason": "The four trailing source rows are the authentic separator after the second complete logo."
-        },
-        {
-            "issueType": "trailing-blank-run",
-            "family": "16c-ice-200208-qz-logo1-part03",
-            "reason": "The four trailing source rows are the authentic separator after the third complete logo."
-        },
-        {
-            "issueType": "trailing-blank-run",
-            "family": "16c-ice-200208-qz-logo1-part04",
-            "reason": "The four trailing source rows are the authentic separator after the fourth complete logo."
         },
         {
             "issueType": "avoidable-extra-part",
@@ -324,11 +219,6 @@
             "issueType": "mergeable-adjacent-parts",
             "family": "16c-ice-200210-sm-colly",
             "reason": "The numerically mergeable ranges contain independent panels and remain separate so every random gallery entry is coherent."
-        },
-        {
-            "issueType": "avoidable-extra-part",
-            "family": "16c-sense09j-po-col2",
-            "reason": "The three parts preserve three complete standalone logo and interface panels at reviewed source transitions."
         },
         {
             "issueType": "avoidable-extra-part",
@@ -354,11 +244,6 @@
             "issueType": "trailing-blank-run",
             "family": "16c-spr-06-mst-sin-part05",
             "reason": "The four trailing source rows are the authentic separator after the fifth complete logo."
-        },
-        {
-            "issueType": "continuous-split-review",
-            "family": "16c-rev0902-bym-ld01",
-            "reason": "The dense row-42 boundary separates two complete illustrated interface panels; both sides were compared with the official preview and are coherent standalone entries."
         },
         {
             "issueType": "derivative-attribution-review",
@@ -411,26 +296,6 @@
             "reason": "Reviewed title text: 'after the years' is prose within the artwork, not a derivative-source attribution."
         },
         {
-            "issueType": "avoidable-extra-part",
-            "family": "16c-bmbook22-ave-cl20",
-            "reason": "Seven visually independent illustrated logo panels were preserved at reviewed source transitions; the six-part minimum would bisect or combine unrelated compositions."
-        },
-        {
-            "issueType": "avoidable-extra-part",
-            "family": "16c-glue-35-ns-coll5",
-            "reason": "Eight complete illustrated logo panels were preserved at reviewed source transitions; the six-part minimum would combine unrelated compositions."
-        },
-        {
-            "issueType": "avoidable-extra-part",
-            "family": "16c-ice-200102a-09-backg",
-            "reason": "The three parts are three distinct complete background designs; reducing to two would combine or bisect separate works."
-        },
-        {
-            "issueType": "continuous-split-review",
-            "family": "16c-bmbook22-ave-cl20",
-            "reason": "The flagged row-41 transition separates complete logo compositions in the official preview; no rendered cells were cropped or reflowed."
-        },
-        {
             "issueType": "continuous-split-review",
             "family": "16c-glue-36-22-slay",
             "reason": "The dense row-47 transition separates two complete standalone compositions confirmed against the official preview."
@@ -443,11 +308,6 @@
         {
             "issueType": "continuous-split-review",
             "family": "16c-equate01-po-pb01",
-            "reason": "Visually reviewed: the selected boundaries separate coherent stacked panels or standalone artworks; no figure or composition is cropped, reflowed, or narrowed."
-        },
-        {
-            "issueType": "continuous-split-review",
-            "family": "16c-glue-31-zv-col5",
             "reason": "Visually reviewed: the selected boundaries separate coherent stacked panels or standalone artworks; no figure or composition is cropped, reflowed, or narrowed."
         },
         {
@@ -508,11 +368,6 @@
         {
             "issueType": "continuous-split-review",
             "family": "16c-avenge15-cg-salt",
-            "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
-        },
-        {
-            "issueType": "continuous-split-review",
-            "family": "16c-avenge16-cg-col02",
             "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
         },
         {
@@ -647,11 +502,6 @@
         },
         {
             "issueType": "continuous-split-review",
-            "family": "16c-eco-15-ld-mtrx",
-            "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
-        },
-        {
-            "issueType": "continuous-split-review",
             "family": "16c-eco-15-us-legio",
             "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
         },
@@ -718,11 +568,6 @@
         {
             "issueType": "continuous-split-review",
             "family": "16c-epic0004-ar-prevl",
-            "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
-        },
-        {
-            "issueType": "continuous-split-review",
-            "family": "16c-epic0004-cg-rox0r",
             "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
         },
         {
@@ -978,11 +823,6 @@
         {
             "issueType": "continuous-split-review",
             "family": "16c-plf-1299-bym-2000",
-            "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
-        },
-        {
-            "issueType": "continuous-split-review",
-            "family": "16c-prjct006-kt-mist1",
             "reason": "Visually reviewed: the selected boundary separates coherent stacked panels or standalone artwork regions; no figure or composition is cropped, reflowed, or narrowed."
         },
         {
@@ -2052,11 +1892,6 @@
         },
         {
             "issueType": "leading-blank-run",
-            "family": "16c-bmbook19-ave-s-2-part02",
-            "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
-        },
-        {
-            "issueType": "leading-blank-run",
             "family": "16c-bmbook19-us-np2h",
             "reason": "The 5 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
         },
@@ -2147,11 +1982,6 @@
         },
         {
             "issueType": "leading-blank-run",
-            "family": "16c-kibosh01-cp-ds60",
-            "reason": "The 5 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
-        },
-        {
-            "issueType": "leading-blank-run",
             "family": "16c-kibosh01-us-gston-part01",
             "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
         },
@@ -2237,11 +2067,6 @@
         },
         {
             "issueType": "trailing-blank-run",
-            "family": "16c-bmbook22-ave-cl20-part06",
-            "reason": "The 3 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
-        },
-        {
-            "issueType": "trailing-blank-run",
             "family": "16c-bmbook22-us-bm01",
             "reason": "The 6 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
         },
@@ -2264,11 +2089,6 @@
             "issueType": "trailing-blank-run",
             "family": "16c-jtxa-04-crs-xtr",
             "reason": "The 7 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
-        },
-        {
-            "issueType": "trailing-blank-run",
-            "family": "16c-l0p12-01-sk-12th-part04",
-            "reason": "The 3 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
         },
         {
             "issueType": "trailing-blank-run",
@@ -2652,11 +2472,6 @@
         },
         {
             "issueType": "trailing-blank-run",
-            "family": "16c-sadist02-dz-mang-part02",
-            "reason": "The 6 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
-        },
-        {
-            "issueType": "trailing-blank-run",
             "family": "16c-sadist03-sph-fat-part02",
             "reason": "The 3 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
         },
@@ -2669,6 +2484,1286 @@
             "issueType": "trailing-blank-run",
             "family": "16c-soda05-is-hell-part01",
             "reason": "The 3 trailing blank source rows are the artwork's authentic lower margin or panel separator; trimming them would alter the archived geometry."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-1991-aselibbs",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-3o3pack4-ps-toast",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-acdu0394-t2-amber",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-avpack06-hq-drag",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-bdp-0195-ug-waste",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-bdp-1095-co-pl",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-bgs-num1-jy-eyes",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-blend06-13-art01",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-blndr008-mm-tgsm1",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-blndr009-us-blndr",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-bmbook12-po-uc",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-bmbook14-shv",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-d38-07a-cr-worm6",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-d38-09-bs-tox1",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-dkrew-06-ex-trin",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-ensigm-tg-crypt",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-fear1294-ci-awda",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-fire0796-id-info",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-fire0897-rr-dl",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-fsn-0597-iz-slamc",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-ftc-05-lg-tdn2",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-fti-0695-cndx-kt",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-ice9503a-tg-elx1",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-ice9509a-tg-kp1",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-ice9703a-tg-f1",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-legend02-id-laugh",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-mdn-9702-p8-photo",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-moi-1296-mh-pervp",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-mpir0494-rl-tpp1",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-mtx-05a-mb-jterm",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-opx-0696-zii-slam",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-phat0697-a-fun",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-prz-9607-cn-news",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-rca16-a-bf-pod6",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-riot0897-md-colly",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-shv-0695-st-union",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-sknk0396-st-xskan",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-su-1194-nd-bio1",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-toxic-02-k0-huma",
+            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-acid-s-z-voidjed2",
+            "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-ansis-c-callnow",
+            "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-ansis-c-crwl2acd",
+            "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-ansis-t-tt-cl",
+            "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-awe-13-kl-after",
+            "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-ecl-07-lm-afor",
+            "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-fld9612-px-mat1",
+            "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-grim-03-ml-crwl",
+            "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-ice-9402-fd-adc",
+            "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-ice-9404-pn-twos1",
+            "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-wbt-0195-rlwi-cor",
+            "reason": "Reviewed title/name false positive: the flagged phrase is a proper name, filename, title, BBS name, or quoted label, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-acdu0295-stc-rebl",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-acdu0995-stc-lgcy",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-aim-0995-th-tfh",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-apathy07-sd-b1",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-fire0597-4o-dumb",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-ice-9402-ct-idi2",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-lap-1094-gh-chaos",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-lap-1294-gh-efg1",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-lap-1294-te-sod",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-max-400r-sd-whipl",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-max-artpack-0793-sd-id",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-max1093-ba-ir",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-odium-03-ce-pee",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-oph-0018-blion-06",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-opx-1196-zii-sese",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-rmrs-08-kx-angel",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-saga9510-stc-flat",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-vpr0695-vz-lomat",
+            "reason": "Reviewed self-attribution: the text identifies the ANSI as original or non-ripped, or warns others not to copy it; it does not identify incorporated external artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-dsco0895-mw-inner",
+            "reason": "Reviewed subject reference: the work is based on the Australian frilled-neck lizard, a natural animal subject rather than an identified protected artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-root04-mq-logo1",
+            "reason": "Reviewed stylistic banter: 'logos are cool after all' and 'taking after you' do not identify a copied source composition."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-spas9503-dp-crap",
+            "reason": "Reviewed generic influence: 'based on the art scene' identifies a community theme rather than a source artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-trans03-pc-screa",
+            "reason": "Reviewed self-conversion: the artist states that they drew the Windows icon themselves before converting their own icon to ANSI."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-awe9612-hos-tri",
+            "reason": "Reviewed outward-looking reference: the text says Trendkill may have copied the current artist, not that this work copied Trendkill."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-d38-05-bs-adgap",
+            "reason": "Reviewed figurative phrase: 'get your balls ripped' is a comedic tagline, not a source-art credit."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-d38-06-bs-spycn",
+            "reason": "Reviewed anti-ripping discussion: the text rejects a copied-lettering accusation and discusses others copying this work; it identifies no incorporated source."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-drl-0895-ik-uf02",
+            "reason": "Reviewed anticipated copying: the artist predicts that the current picture will later be ripped by others, not that this work copied a source."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-eph0695-mw-zone",
+            "reason": "Reviewed greeting banter: 'I ripped everyone including you' is exaggerated prose and does not identify incorporated source art."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-img0994-c-tdh2",
+            "reason": "Reviewed idiom: 'hooker that ripped him off' describes a financial or social interaction, not copied artwork."
+        },
+        {
+            "issueType": "derivative-attribution-review",
+            "family": "16c-acdu0594-km-tasb1",
+            "reason": "Reviewed attributed non-art reuse: the footer explicitly credits operational BBS statistics to CC-TASB.iCE; the copied statistics are not the illustration or central composition, and the source credit is preserved verbatim."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-mist0624-zii-cap2",
+            "reason": "Reviewed panel geometry: part 09 is a separately reviewed BBS interface panel with 589 visible cells; its source transition is intentional and arithmetic balancing would merge distinct panels."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-fire-42-ak-true",
+            "reason": "Reviewed preview: part 05 is a deliberately isolated Valentine heart vignette after the main composition."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-tcf20-1998-15-joint-us-eless",
+            "reason": "Reviewed preview: part 03 preserves the authentic sparse lower symbols and joint credit as one final region."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-blocktronics-dsotb-akfil-airavata",
+            "reason": "Reviewed false positive: part 07 already contains the full 50-row limit and the analyzer's suggested ranges exactly equal the current ranges."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-acdu1294-ld-lod1",
+            "reason": "Reviewed source transition: the final part is a coherent logo panel separated from the preceding composition."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-ansis-t-tt-iq",
+            "reason": "Reviewed source transition: the final part is a coherent BBS-information panel separated from the preceding composition."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-blde9404-tp-spade",
+            "reason": "Reviewed source transition: the final part is a coherent credit panel separated from the preceding composition."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-bleach01-s0g-da",
+            "reason": "Reviewed source transition: the final part is a coherent credit panel separated from the preceding composition."
+        },
+        {
+            "issueType": "low-cell-variety",
+            "family": "16c-clear2ooo-ascii-year-lf-goofloop-part03",
+            "reason": "Reviewed preview: the work is intentional multicolor background-cell pixel art; its uniform full-block foreground glyph is the drawing technique, not missing complexity."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "2002-18-fv-view",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "ak67-null",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "ansi-star-wars-fil-rojo",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "ansi-star-wars-km-carbonite",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "ansi-star-wars-ndh-darth",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "ansi-star-wars-rd-clonetrooper",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "del-flag",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "h7-d1stortion",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "ig-apathy13",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "mx-cali",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "ndh-cat",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "nf-marble",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "nf-usagi",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "nf-yoursinsareforgiven",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "of-ap1",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "om-dude",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "om-ie",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "ti-apmo",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "low-color-variety",
+            "family": "us-evo11",
+            "reason": "Reviewed intentional limited palette: this is a substantive grayscale or deliberately restricted-palette illustration, not a malformed or low-complexity conversion."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-bmb-0796-int-dyr",
+            "reason": "Reviewed styled ASCII: the source deliberately uses colored or composed ASCII glyphs; a high ASCII ratio does not indicate missing ANSI artwork."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-hpm-04-us-redcomet-part01",
+            "reason": "Reviewed styled ASCII: the source deliberately uses colored or composed ASCII glyphs; a high ASCII ratio does not indicate missing ANSI artwork."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-impure80-5m-araknet-part02",
+            "reason": "Reviewed styled ASCII: the source deliberately uses colored or composed ASCII glyphs; a high ASCII ratio does not indicate missing ANSI artwork."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-innate04-jn-innte",
+            "reason": "Reviewed styled ASCII: the source deliberately uses colored or composed ASCII glyphs; a high ASCII ratio does not indicate missing ANSI artwork."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-mist0223-mm-programmedsouls-part01",
+            "reason": "Reviewed styled ASCII: the source deliberately uses colored or composed ASCII glyphs; a high ASCII ratio does not indicate missing ANSI artwork."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-nph1097-hrc-xgj1",
+            "reason": "Reviewed styled ASCII: the source deliberately uses colored or composed ASCII glyphs; a high ASCII ratio does not indicate missing ANSI artwork."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-phat0396-my-spir1",
+            "reason": "Reviewed styled ASCII: the source deliberately uses colored or composed ASCII glyphs; a high ASCII ratio does not indicate missing ANSI artwork."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-riot0697-pm-wworl-part01",
+            "reason": "Reviewed styled ASCII: the source deliberately uses colored or composed ASCII glyphs; a high ASCII ratio does not indicate missing ANSI artwork."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-root0497-ds-dsc",
+            "reason": "Reviewed styled ASCII: the source deliberately uses colored or composed ASCII glyphs; a high ASCII ratio does not indicate missing ANSI artwork."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-tl199512-gi-mv-part02",
+            "reason": "Reviewed styled ASCII: the source deliberately uses colored or composed ASCII glyphs; a high ASCII ratio does not indicate missing ANSI artwork."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-33rules-33-glo-part01",
+            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-blde9509-mb-shoc2-part02",
+            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-blocktronics-acid-trip-fil-bloq-part06",
+            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-blocktronics-baud-dudes-nu-sdn-xibalba-part01",
+            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-blocktronics-resvolution-zo-lud-part01",
+            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-blocktronics-space-invaders-we-diamondie-part03",
+            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-crime-dreams-part01",
+            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-hpm-04-checs-casa-robada-part02",
+            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-mist1014-wz-clockmaker-part01",
+            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-mist1014-wz-clockmaker-part10",
+            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-mist1014-wz-clockmaker-part11",
+            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-agave",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-baobab",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-brugmansia",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-cactus",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-columbine",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-daffodil",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-fern",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-ficus",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-hemp",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-iris",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-jadeplant",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-lithops",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-moss",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-palm",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-snapdragon",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "botany-sunflower",
+            "reason": "Reviewed collection design: this is an intentionally compact ANSI-colored ASCII plant from botany's final-stage artwork, preserved at its authentic upstream geometry."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "asciiville-wordmark",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-baobab",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-brugmansia",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-cactus",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-columbine",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-daffodil",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-fern",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-hemp",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-iris",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-jadeplant",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-lithops",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-moss",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-palm",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-snapdragon",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "botany-sunflower",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "os-ansi-centos",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "os-ansi-macos",
+            "reason": "Reviewed collection geometry: this is a complete, intentionally compact multicolor work from an independently audited collection, not a truncated split or failed conversion."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-blocktronics-6710-nf-anothertriptothemoon",
+            "reason": "Reviewed official preview: the final segment preserves the authored sparse cable, stars, and signature below the completed skull; moving the seam would cut the skull."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-blocktronics-block-n-roll-luciano-1-neural-tree",
+            "reason": "Reviewed official preview: panel 1 part 02 is the authentic narrow trunk/root continuation and trailing canvas; moving the cut provides no visual improvement."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-blocktronics-block-n-roll-luciano-2-neural-monster",
+            "reason": "Reviewed official preview: panel 1 part 02 contains the monster's lower contours and drips; arithmetic balancing would sever the main body."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-blocktronicsonice-aeleus-booette",
+            "reason": "Reviewed official preview: part 07 is a substantive final blue water/vortex vignette; redistributing seven boundaries would cut the continuous character composition."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-blocktronicsonice-us-spidygirl",
+            "reason": "Reviewed official preview: part 08 is the authored webbed footer, title/credit region, and final scene edge; rebalancing would cut the continuous portrait."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-fire-36-zir-d34d",
+            "reason": "Reviewed official preview: part 02 is the deliberately isolated ANSI ART SHOW wordmark and footer below the portrait."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-fire-43-n-prowse",
+            "reason": "Reviewed official preview: part 02 preserves the lower collar, shoulder, and credits; balancing would cut directly through the face."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-fire-46-n-carlop",
+            "reason": "Reviewed official preview: part 02 is the lower neck and shoulder region; balancing would cut through the face."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-fire0696-ad-sg",
+            "reason": "Reviewed official preview: part 02 is a separate logo and credit panel beginning at the authored blank transition."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-hr09-94-themaxx",
+            "reason": "Reviewed official preview: part 02 contains the green drips, lower face, and signature after the mushroom-cap composition."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-impure91-us-impre",
+            "reason": "Reviewed official preview: part 02 is the intentionally isolated Nail/Tainted/FIRE credit flourish after the main dragon and wordmark."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-lap-1294-wx-dead1",
+            "reason": "Reviewed official preview: part 04 preserves the authored sparse drips and credits beneath the complete DEADLY wordmark."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-laz17-us-chaostw",
+            "reason": "Reviewed official preview: part 03 is the coherent title and credit panel beneath the completed character composition."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-laz17-us-yaktribute",
+            "reason": "Reviewed official preview: part 05 is the complete boxed credits, palette legend, attribution, and closing text; moving the seam would sever the books or credit box."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-laz18-us-16colors",
+            "reason": "Reviewed official preview: part 03 completes the portrait edge and contains the standalone 16 title, palette marks, and artist credit; balancing would bisect the face."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-laz18-us-17colors",
+            "reason": "Reviewed official preview: part 03 completes the scarf and contains the 17 title, palette, and credit footer; balancing would cut the dolphin."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-laz18-us-bottomless-abyss",
+            "reason": "Reviewed official preview: part 08 is the authored lower-water and signature strip with its magenta credit line; no visible source row is missing."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-laz20-us-lazarus-chronicles",
+            "reason": "Reviewed official preview: part 09 completes the Chronicles title treatment and closing artist/source credits; the current seam is the least damaging boundary."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-mist0222-geronimoe-alien",
+            "reason": "Reviewed official preview: part 05 is the complete ALIEN title and artist-credit footer after the portrait; moving the cut would bisect the face or title."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-myst5-95-xp-myst2",
+            "reason": "Reviewed official preview: part 02 is a complete MYSTIC wordmark, palette, and signature at the exact scene/footer boundary."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-roc-0795-bp-bv",
+            "reason": "Reviewed official preview: part 02 contains the authored hands, signature, and credit footer below the principal bust; balancing would slice the face or torso."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-stl-003-se-cry",
+            "reason": "Reviewed official preview: part 02 is the complete ChronicS logo and credit panel beginning at the exact portrait/footer boundary."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-toon0895-wo-fc",
+            "reason": "Reviewed official preview: part 02 is the complete mascot/logo and production-credit footer after the illustrated scene."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-toon1095-77-toon1",
+            "reason": "Reviewed official preview: part 02 is a complete TOON wordmark and signature panel separated from the character at the authored boundary."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-toon1095-ep-oa",
+            "reason": "Reviewed official preview: part 02 contains the complete OA logo and authored prose/credits after the cat composition."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-zal-n-leon",
+            "reason": "Reviewed official preview: the final segment is the portrait's neck and collar continuation; every numerical rebalance crosses facial features."
+        },
+        {
+            "issueType": "tiny-tail-part",
+            "family": "16c-fuel28-mfs-dktm",
+            "reason": "Reviewed official preview: part 02 is the authored separator and prose panel after the continuous wrestling illustration; moving the seam would cut dense art."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-fuel28-mfs-dktm-part02",
+            "reason": "Reviewed official preview: the leading blank rows are the authored separator before the artist's prose panel."
+        },
+        {
+            "issueType": "mostly-plain-ascii",
+            "family": "16c-fuel28-mfs-dktm-part02",
+            "reason": "Reviewed official preview: this is the artist's intentionally plain prose panel following the illustrated scene, not a failed ANSI conversion."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-27inch07-is-kaasu-part02",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-acdu0494-vs-fed1-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-allnc-01-la-colbx-part02",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-ane-1195-cc-god-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-apathy13-fil-saga-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-blocktronics-1980-smk2m-nvscene-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-blocktronics-block-n-roll-luciano-0-neural-robot-panel01-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-blocktronics-blockfury-ar-thnkr-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-blocktronics-blocky-horror-us-fzdlr-part02",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-blocktronics-miracle-on-67th-street-misfit-aphidtwix-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-blocktronics-miracle-on-67th-street-misfit-snowflake-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-blocktronics-yotb-avg-pendellgate101-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-cnc-0494-htf-madh-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-cnc-0494-htf-madh-part07",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-cnc-0894-sl-wmin3-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-force-01-fixer-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-hrp-6-aaa0041-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-ice9503a-lo-aney1-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-lbo-r2-top-coc-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-lgcy-001-5m-crow-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-roc-0795-7a-rocnt-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-sense22-us-cold2-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-tnt-010-sp-kia-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "leading-blank-run",
+            "family": "16c-tri-1094-pb-triad-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-123-15-ak-bi",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-acdu0294-bk-ch02-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-acdu0294-t2-teh1-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-blocktronics-blockalypse-goo-unleash-part04",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-blocktronics-blockalypse-goo-unleash-part05",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-blocktronics-blockalypse-goo-unleash-part09",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-blocktronics-blocky-horror-us-fzdlr-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-clear2ooo-ascii-year-lf-virus-pic-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-esp0296-rd-new1",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-fire0597-sf-file",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-ice-9401-rt-para1-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-laz16-us-vaprdplmcy-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-raid-09-nm-girl1-part02",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-rem-0794-ng-pain-part01",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-rem-0794-ng-pain-part02",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-sac-20-tpk-cna1",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "trailing-blank-run",
+            "family": "16c-sliver02-rn-parrt",
+            "reason": "Reviewed against the official preview: this is authored source canvas, inter-panel spacing, or negative-space composition; the converted rows remain contiguous and uncropped."
+        },
+        {
+            "issueType": "low-cell-variety",
+            "family": "16c-blocktronics-1980-smk2m-nvscene-part01",
+            "reason": "Reviewed official preview and raw hash: the 45-row leading canvas and first logo cells are authentic source geometry; moving the split would cut the logo without eliminating the sparse panel."
+        },
+        {
+            "issueType": "low-cell-variety",
+            "family": "16c-blocktronics-blockalypse-goo-unleash-part05",
+            "reason": "Reviewed official preview and raw hash: the near-black suspense frame and small red eyes are the deliberate transition between the forest fade and next scene; all twelve panels are near the row limit."
+        },
+        {
+            "issueType": "low-cell-variety",
+            "family": "16c-blocktronics-darker-image-2-us-grift-part06",
+            "reason": "Reviewed official preview, part sheet, and raw hash: background-space rendering triggers the heuristic, but the panel contains the lower logo, tagline, and terminating composition across 31 visible rows."
+        },
+        {
+            "issueType": "low-cell-variety",
+            "family": "16c-tri-1094-pb-triad-part01",
+            "reason": "Reviewed official preview and raw hash: the 38-row top margin and first portrait row are authentic source geometry; moving the split would sever the portrait."
+        },
+        {
+            "issueType": "sparse-cell-density",
+            "family": "16c-acdu0494-ld-cod-part02",
+            "reason": "Reviewed official preview and raw hash: this is the authored vertical descent and negative-space transition between the opening panel and castle scene; adjacent parts cannot be merged under 50 rows."
+        },
+        {
+            "issueType": "sparse-cell-density",
+            "family": "16c-acdu0594-ld-fd-part03",
+            "reason": "Reviewed official preview and raw hash: this is the intentional rain and vertical-line transition before the main figure; moving the seam would cut the following portrait."
+        },
+        {
+            "issueType": "sparse-cell-density",
+            "family": "16c-blocktronics-block-to-the-future-goo-oscillation-part01",
+            "reason": "Reviewed official preview and raw hash: this is a coherent cosmic opener with stars, atom motif, and title line; sparsity is the intended composition."
+        },
+        {
+            "issueType": "sparse-cell-density",
+            "family": "16c-blocktronics-block-to-the-future-goo-oscillation-part03",
+            "reason": "Reviewed official preview and raw hash: this is a continuous oscillating-line frame between denser sections; all six source panels are already 46-50 rows."
+        },
+        {
+            "issueType": "sparse-cell-density",
+            "family": "16c-blocktronics-blockalypse-goo-unleash-part09",
+            "reason": "Reviewed official preview and raw hash: this is the authored fade-out between the close-up and mask reveal; adjacent panels cannot be combined under 50 rows."
+        },
+        {
+            "issueType": "sparse-cell-density",
+            "family": "16c-blocktronics-resvolution-zo-lud-part01",
+            "reason": "Reviewed official preview and raw hash: this is a coherent typographic opener with the two believe lines, diagonal artist credit, and beginning of the matrix transition."
+        },
+        {
+            "issueType": "sparse-cell-density",
+            "family": "16c-fut-1094-ot-rot01-part01",
+            "reason": "Reviewed official preview and raw hash: the cyan-to-blue falling-light introduction is an intentional first half of an exact 100-row work."
+        },
+        {
+            "issueType": "sparse-cell-density",
+            "family": "16c-ice-9407-sc-tfr-part01",
+            "reason": "Reviewed official preview and raw hash: the dark upper field and right-edge silhouette introduce the portrait beginning at row 33; the boundary is compositional."
+        },
+        {
+            "issueType": "sparse-cell-density",
+            "family": "16c-mist0520-lda-home-part01",
+            "reason": "Reviewed official preview and raw hash: this is the deliberate multicolor starfield prologue before the moon enters at row 40; moving the seam would cut the moon."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "16c-33rules-33-glo-part01",
+            "reason": "Reviewed official preview and raw hash: the two centered lines are the deliberate prologue before the multicolor title at row 25; moving the seam would cut that title."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "16c-acdu0494-ld-cod-part02",
+            "reason": "Reviewed official preview and raw hash: this is the authored vertical descent and negative-space transition between the opening panel and castle scene; adjacent parts cannot be merged under 50 rows."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "16c-acdu0594-ld-fd-part03",
+            "reason": "Reviewed official preview and raw hash: this is the intentional rain and vertical-line transition before the main figure; moving the seam would cut the following portrait."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "16c-blocktronics-1980-smk2m-nvscene-part01",
+            "reason": "Reviewed official preview and raw hash: the 45-row leading canvas and first logo cells are authentic source geometry; moving the split would cut the logo without eliminating the sparse panel."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "16c-blocktronics-baud-dudes-nu-sdn-xibalba-part01",
+            "reason": "Reviewed official preview and raw hash: the centered prologue and darkness are a coherent opening panel before the rain begins at row 28; the remaining rows already require three full panels."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "16c-blocktronics-blockalypse-goo-unleash-part05",
+            "reason": "Reviewed official preview and raw hash: the near-black suspense frame and small red eyes are the deliberate transition between the forest fade and next scene; all twelve panels are near the row limit."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "16c-blocktronics-blockalypse-goo-unleash-part09",
+            "reason": "Reviewed official preview and raw hash: this is the authored fade-out between the close-up and mask reveal; adjacent panels cannot be combined under 50 rows."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "16c-blocktronics-resvolution-zo-lud-part01",
+            "reason": "Reviewed official preview and raw hash: this is a coherent typographic opener with the two believe lines, diagonal artist credit, and beginning of the matrix transition."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "16c-crime-goodbye-lulu-part01",
+            "reason": "Reviewed official preview and raw hash: the prose and symbol prologue is intentionally separated from the portrait beginning at row 27; the second part is already 49 rows."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "16c-crime-ill-go-down-swinging-part01",
+            "reason": "Reviewed official preview and raw hash: the prose prologue is a separate authored panel before the underwater illustration at row 23; redistribution would cut the illustration."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "16c-mist0520-lda-home-part01",
+            "reason": "Reviewed official preview and raw hash: this is the deliberate multicolor starfield prologue before the moon enters at row 40; moving the seam would cut the moon."
+        },
+        {
+            "issueType": "very-small-output",
+            "family": "16c-tri-1094-pb-triad-part01",
+            "reason": "Reviewed official preview and raw hash: the 38-row top margin and first portrait row are authentic source geometry; moving the split would sever the portrait."
         }
     ],
     "schemaVersion": 1
