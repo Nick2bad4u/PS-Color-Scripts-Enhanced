@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KS-PLOST.ANS by Kronos (acdu0194); released in acdu0194 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 50-98
+# Lines: 50-97
 # Columns: 1-80
 
 Write-Host '
@@ -57,5 +57,4 @@ Write-Host '
                    [1;30m"Well, this is my 2nd.. any better?"[0m
 [1;30m   "Yeah, so I borrowed the font from Eternal Darkness.. or was it Data?:)"[0m
 
-[1;30m   ─[0m─[1m─[0m─[1;30m─ [0;1;36mA[0;1;30mn[0ms[1;36mi d[0mr[1;30ma[0mw[1;36mn s[0mo[1;36ml[0;1;30me[0ml[1;36my b[0my [1;36mK[0mr[1;36mo[0;1;30mn[0mo[1;36ms o[0mf [1;34mAC[0;1;37mi[0;1;34mD [0;1;36mP[0mr[1;30mo[0;1;36md[0;1;30mu[0mc[1;36mt[0mi[1;30mo[0mn[1;36ms o[0mn [1;36m1[0m2[1;30m/[0;1;36m1[0;1;30m/[0m9[1;36m3 [0;1;30m─[0m─[1m─[0m─[1;30m─[0m
-Paradise Lost[0m'
+[1;30m   ─[0m─[1m─[0m─[1;30m─ [0;1;36mA[0;1;30mn[0ms[1;36mi d[0mr[1;30ma[0mw[1;36mn s[0mo[1;36ml[0;1;30me[0ml[1;36my b[0my [1;36mK[0mr[1;36mo[0;1;30mn[0mo[1;36ms o[0mf [1;34mAC[0;1;37mi[0;1;34mD [0;1;36mP[0mr[1;30mo[0;1;36md[0;1;30mu[0mc[1;36mt[0mi[1;30mo[0mn[1;36ms o[0mn [1;36m1[0m2[1;30m/[0;1;36m1[0;1;30m/[0m9[1;36m3 [0;1;30m─[0m─[1m─[0m─[1;30m─[0m'

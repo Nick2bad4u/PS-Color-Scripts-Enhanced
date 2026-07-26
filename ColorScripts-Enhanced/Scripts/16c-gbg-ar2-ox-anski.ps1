@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OX-ANSKI.ANS by Orcx (gbg-ar2); released in gbg-ar2 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-35
+# Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
@@ -33,7 +33,8 @@ Write-Host '
 [33m$$$$$$$$$$$$$Ss.sS$$$$[0;37m $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ [0;33m$$$$Ss.sS$$$$$$$$$$$$$$$ [0m
 [33m$$$$$$$$$$$$$$$$$$$$$$[0;37m `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$'' [0;33m$$$$$$$$$$$$$$$$$$$$$$$$ [0m
 [33m$$$$$$$$$$$$$$$$$$$$$$s.[0;37m`²$$$$$$$$$$$$$$$$$$$$$$$$$²''[0;33m.s$$$$$$$$$$$$$$$$$$$$$$$$ [0m
-[33m [0;37m [0;33m [0;37m ''052/411541''[0;1;30m$$$$$$[0;37m        .U.L.T.I.M.A.T.E. [0;1;30m$$$$$$$$$$$$$$$$$$$$$$$$$!S%s,. [0m
+[1;30m.,s%S!$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$!S%s,. [0m
+[33m [0;37m [0;33m [0;37m ''052/411541''[0m      [37m        .U.L.T.I.M.A.T.E. [0m
 [33m [0;37m  [0;33m [0m                   [1;30m²"""""''[0m                 [1;30m`"""""²[0m
 [33m [0m   [33m [0m
 [33m [0m    [33m [0;37m [0;1;30m.,sS!~$~!Ss,.[0m [1;30m.,sS!~!Ss,.[0m [1;30m.,sS! !Ss,.[0m [1;30m.,sS!~Ss.[0m [1;30m.,sS!~!Ss,.[0m [1;30m.,sS! !Ss,[0m

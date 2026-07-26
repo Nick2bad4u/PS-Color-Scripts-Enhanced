@@ -41,6 +41,6 @@ Write-Host '
 [1;30m--------------------------------------------------------------------------------[0m
  please email me if you have any requests or wanna trade something =)
 
-                                                              cyberphreak//sensp
-human@icon.co.za
+                                                              cyberphreak//sense
+                                                              phuman@icon.co.za
 [1;30m--------------------------------------------------------------------------------[0m'

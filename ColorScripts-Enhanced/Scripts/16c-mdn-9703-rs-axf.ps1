@@ -11,7 +11,7 @@
 # SAUCE Group: Maiden Brazil
 # SAUCE Date: 19970205
 # SAUCE Dimensions: 80x32
-# Lines: 1-31
+# Lines: 1-32
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
 
 
 [1;30;40m----->8-----[0mcut here[1;30m------------------------------------------------------------[0m
+
                      [36mansi logo by [0;1;36mrorshack [0;36mof [0;1;36mmaiden brazil[0m
              [36mgreets goes to [0;1;36mraptor[0;36m, [0;1;36miron eagle[0;36m, [0;1;36mlmg[0;36m and [0;1;36mottoserv[0;36m :)[0m
 

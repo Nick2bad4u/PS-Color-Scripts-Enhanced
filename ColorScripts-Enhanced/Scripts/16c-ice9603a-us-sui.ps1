@@ -11,7 +11,7 @@
 # SAUCE Group: iCE '96
 # SAUCE Date: 19960331
 # SAUCE Dimensions: 80x31
-# Lines: 1-28
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -39,7 +39,9 @@ Write-Host '
 
 
 
+
 [33m░░░░[0m                                                                       [33m░░░░[0;37m [0m
+
 [1;30m[eof]------- ------ ---- -- -[0m
 
 [1;37m- B[0mo[1;30mAsaurus [0;1;37m-[0m               [1;37mi[0mC[1;30mE [0;1;37mA[0md[1;30mvertisements [0;1;37m19[0m9[1;30m6[0m              [1;37m- C[0mo[1;30mld n [0;1;37mU[0mg[1;30mly [0;1;37m-[0m'

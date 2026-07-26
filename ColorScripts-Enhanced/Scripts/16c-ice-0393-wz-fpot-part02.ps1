@@ -6,13 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WZ-FPOT.ICE by Wiz (ice-0393); released in ice-0393 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 33-58
+# Lines: 36-58
 # Columns: 1-80
 
 Write-Host '
-     [34m░▀ [0;33m▒▒░·    ░▒[0;34m▄ [0;33m·▄▄▀[0;31m▒ [0;33m▄▄[0;1;37;43m▄[0;33;41m▀▀[0;33;40m▄▄[0m      [33;44m   [0m   [34;40m▐[0m       [34;40m▌  ▐[0;34;44m [0m [34;40m▌  █  ▀[0;34;44m     [0;34;40m▀   ▐[0;34;44m  [0;34;40m██[0m
-[34;40m▒░ [0m      [33;40m▓ ■ [0;31;40m▒░▄▌[0;33;40m▄ [0;34;40m▌[0;33;40m■▐  [0;31;40m░[0;33;40m▀[0;1;37;47m▐[0;1;37;40m▀▀█[0;31m▒[0;33;41m▐[0;33;40m▒ ░   [0;34;40m▄███▄▄  ▀▄▄▄▄▀▐   ▐[0;34;44m [0m [34;40m▌▀▀[0m     [34;40m▀▀▀[0m      [34;40m▀█[0;34;44m [0;34;40m█[0m
-[34;40m    ▐▒░ [0;33;40m░▓▌▒[0;31;40m▐▒■▀ [0;33;40m▒[0;34;40m▐▒ [0;33;40m▓▌▀[0;33;41m▌[0;37;40m▐[0;1;37;40m▌[0;1;37;44m■·[0;1;37;40m▐▌[0;33;41m▐[0;33;40m▌ ░    [0;34;40m▌[0m                   [34;40m▌[0m
 [34;40m    ▒░ [0;33;40m░▒▓▓ [0;31;40m░▬▄▬[0;33;40m▓▒[0;34;40m▐▒ [0;33;40m▒█■▐[0;31;40m▒[0;1;37;47m▐[0;1;37;40m▄▄█[0;31m▒[0;33m▒ ░[0m                         [34m▌[0m
 [34m    ▓░ [0;33m░▒▓▓▓▄░▒▓▓░[0;34m▐▒ [0;33m░▓▐ ▀[0;33;41m▄[0;33;47m▄[0;1;37;43m▀[0;33;41m▄[0;33;40m▒░░░[0;34;40m<wIz/[0;1;36;40mi[0;36mC[0;1;34mE Euro[0;34m> ,80x50''   ▌[0m
 [34m    ▐░ [0;33m░▒▓▓▓[0;31;43m··[0;33;40m▄▄▄ [0;34;40m█▒ [0;33;40m░▒  ▓▓▓▒▒▒░░░[0m                         [34;40m▌[0m

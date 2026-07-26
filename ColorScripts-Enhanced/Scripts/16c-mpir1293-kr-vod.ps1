@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KR-VOD.ANS by Killraven (mpir1293); released in mpir1293 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
+# Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
@@ -56,5 +56,6 @@ Write-Host '
 [33m▒░░░ [0;31m▒  [0;1;32mRun[0;32mning [0;1;32mReg[0;32mistered [0;1;32mV[0;1;30m/[0;32m2 v[0;1;30m.[0;1;32m72[0;32mb[0m      [1;30mansi by [0;1;31mK[0;31mill[0;1;31mR[0;31maven [0;1;30m[[0;35mEMP[0;1;35mi[0;35mRE[0;1;30m][0m      [31m▒  [0;33m░░░[0m
 [33m░░   [0;31m░[0m                                                                    [31m░ [0;33m░ ░░[0m
 [33m░ ░[0m     [30mKR-VOD1.ANS (11/24/93) - Not so great, but I grow tired... --KR[0m        [33m░[0m
+                                                                             [33m░[0m
 [33m░[0m                                                                              [33m░[0m
 [33m ░[0m'

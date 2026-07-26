@@ -6,12 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GU-GOD1.ANS by Guile (acdu0194); released in acdu0194 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 230-279
+# Lines: 232-278
 # Columns: 1-80
 
 Write-Host '
-                          [34m▀▀▀▄▄▄[0;36m▀ [0;34m▄▄▄▄▀▀▀▀[0m                          [1;47m░[0m███████ [1;31;41m  [0m
-                                [34m▀▀[0m                                   [1;47m░[0m███████ [1;31;41m [0m
                                                                       [1;47m░░[0m██████
                                                                        [1;47m▒░[0m██████
                                                                         [1;47m░░[0m█████
@@ -58,5 +56,4 @@ Write-Host '
  [1m▀[0m▀[1;30m▀ [0m▀[1;30m▀    ▀▀[0m▀[1m▀[0m                                                 [1m▀[0m▀[1;30m▀▀    ▀[0m▀ [1;30m▀[0m▀[1m▀[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
 [1;30m [0mA N S I   :   G U I L E   ■   1 9 9 3   [1mA [0;1;36mC [0;1;34mi [0;34mD   [0mP R O D U C T I O N S (tm)
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m
-→♂GU-GOD1.ANS ►Gates of Destinynational[0m'
+[1;30m───────────────────────────────────────────────────────────────────────────────[0m'

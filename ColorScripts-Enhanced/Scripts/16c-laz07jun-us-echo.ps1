@@ -11,11 +11,12 @@
 # SAUCE Group: Lazurus & Echo
 # SAUCE Date: 19970531
 # SAUCE Dimensions: 80x30
-# Lines: 1-28
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
  [1mHennifer[0m([1mlaz[0m)                                                   [1m   watOr[0m([1mecho[0m)
+
            [1m [0m
          [1m   [0m   [1m▄▄▄[0m  [1m▀[0m    [1m ▄█▄   ▄▄▄▄ ▀[0m  [1m▄███▄[0m           [1m▄▄▄▄[0m    [1m▄[0m
           [1m ▀[0m  [1m▀████[0m [1m▄███▄  ▀   ▀████▄██▄[0m [1m▀▀█▄▄▄■[0m    [1m▐[0m  [1m██████[0m  [1m▀█▀[0m   [1m▀[0m
@@ -37,8 +38,8 @@ Write-Host '
             [34;40m░[0;30;44m▓[0m                                                     [34;40m░[0;30;44m▓[0m
                      [37;40mit''s phonetic spelling.  ''ek-(,)o = echo[0m
 
-[1;30;40m───────────────────────────────────────────────────────────────────────────────[0m
- - Just when you feel you''ve explored all    aspects of different colouring
+[1;30;40m────────────────────────────────────────────────────────────────────────────────[0m
+    - Just when you feel you''ve explored all aspects of different colouring
       styles and techniques.. you come up with something like this
 
                                                                     - [1mwatOr[0m'

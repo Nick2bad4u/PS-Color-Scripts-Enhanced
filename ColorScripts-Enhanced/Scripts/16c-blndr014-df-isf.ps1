@@ -11,7 +11,7 @@
 # SAUCE Group: poem
 # SAUCE Date: 19970224
 # SAUCE Dimensions: 80x27
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -39,5 +39,6 @@ av dataflödeht
                                   [1;5;31m█[0m [1;5;31m█[0m [1;5;31m█▄█[0m [1;5;31m█▄▄▀[0m [1;5;31m█[0m [1;5;31m█▀▀█[0m [1;5;31m▄[0m [1;5;31m▀█▀█▀[0m
 
 [1;30m--------------------------------------------------------------------------------[0m
+
 wow.. i must be really creative today, i did a tune AND this really really
 erEET ansi.. beat that!$£&@#%,.[0m'

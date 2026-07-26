@@ -11,7 +11,7 @@
 # SAUCE Group: lacidus
 # SAUCE Date: 19970427
 # SAUCE Dimensions: 80x33
-# Lines: 1-32
+# Lines: 1-33
 # Columns: 1-80
 
 Write-Host '
@@ -45,5 +45,6 @@ Write-Host '
 [30;44m                                                                                [0m
 [30;44m                                                                                [0m
 [30;44m                                                                                [0m
+
 [34;40mthis is a quicky by madman and nitris of lacidus.  it''s for blender and the[0m
 [34;40mwords were spies, fighting, underwater.  pHEAR lACIDUS bITCHES![0m'

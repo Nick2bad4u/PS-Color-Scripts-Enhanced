@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SX-CP1.ANS by Sushi X (acdu0194); released in acdu0194 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 85-127
+# Lines: 85-125
 # Columns: 1-80
 
 Write-Host '
@@ -50,6 +50,4 @@ T[1mKN · Psychos[0;1;34mi[0;34ms[0m              [34m▀▄[0;1;34;44m▀
 [34m▓  [0;37mPsychotic [0;1;37m▀[0m▄    [1m▀[0m▄  Kronos  ▄[1m▀  [0mQuasar  ▀[1;30m▄  ▀   [0mDeep Freeze  ▄[1m▀[0m        [1mby. [0;31m▓[0m
 [34m▒  [0;37mFiend[0m               [1;30m[ACiD][0m      [1;30m[ACiD][0m      [1;30m▀   [MiRAGE][0m            SUSHiX [31m▒[0m
 [34m▄  [0;1;30m[SysOp(s)][0m                                                          [1;30m─/┤Ci> [0;31m▄[0m
-[31m [0;1;34m▀─[0;34m─────────────────[0;1;30m─ ■ [0m[[1m516[0m] [1m897 0857 [0mor [[1m516[0m] [1m897 8837 [0;1;30m... ─[0;31m──────────────[0;1;31m─▀[0m
-→
-SX-CP1.ANSS ►Corrosive Poison[0m'
+[31m [0;1;34m▀─[0;34m─────────────────[0;1;30m─ ■ [0m[[1m516[0m] [1m897 0857 [0mor [[1m516[0m] [1m897 8837 [0;1;30m... ─[0;31m──────────────[0;1;31m─▀[0m'

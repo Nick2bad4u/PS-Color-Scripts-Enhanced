@@ -6,10 +6,13 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB-CDX.ANS by Surfer Boy (cnc-0894); released in cnc-0894 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 147-192
+# Lines: 149-197
 # Columns: 1-80
 
 Write-Host '
+[1;30m█▓█▓▓░░▄[0m▀███████████[1;47m░▒▒░[0m▄[1;30m▀▓██▓▓▀[0m
+[1;30m▓███▓▒▒░░[0m▀███████████[1;47m░░[0m▀[1;30m▓████▓[0m
+[1;30m▓████▓▓█▒░▄▄[0m▀██████▀▀[1m▄▄ [0m▄▄[1;30m▓▀█▀[0m
 [1;30m██████▓▓▓▒░▓   [0m▀▀[1m▄▄██[0;1;47m▒▒[0m ██[1;30m▓ [0;1;37;47m▓[0m
 [1;30;40m█████▀▓▓█▒▒▒    [0;1;37;40m████[0;1;37;47m░▓▓[0;1;37;40m▄[0m▀[1;47m░▒[0;1;30;40m▓ [0;1;37;47m▒[0m
 [1;30;40m████ [0;1;37;40m█▄[0;1;30;40m▀▓█▒[0m      [1;37;40m████[0;1;37;47m▒▓▓[0;1;37;40m▄[0m▀[1;47m▒[0m██ [1;47m▓[0m

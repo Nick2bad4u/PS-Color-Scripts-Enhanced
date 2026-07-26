@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AF-C02.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
+# Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
@@ -58,4 +58,5 @@ Write-Host '
                 [31m▄   ▀████[0;1;37;41m░░▒▓█████▓▓▒░[0;31m██[0;1;37;41m░▒▓██▓▒░░░░[0;31m█████▄▄▄▀▀▀[0m
             [31m▄ ▄   ▀▀██████[0;1;37;41m░▒▓▓▓███▓▒░[0;31m███[0;1;37;41m░▒▓█▓▒░░[0;31m▀▀██████▀[0m
                [31m▄▄▄▀▀▀██████[0;1;37;41m░▒▒▓▓▓▓▒░[0;31m████[0;1;37;41m░▒▓▓▓░ [0;31m█[0;1;33m▐█▄[0;31m▀▀██▌[0m     [31m▄[0m
-              [31m▀▀  [0;1;33m███[0;31m▐██████[0;1;37;41m░░▒▒▒▒░[0;31m█████[0;1;37;41m░▒▒▒▒░░[0;31m█▌[0;1;33m██▒░[0;31m▐█▄[0m'
+              [31m▀▀  [0;1;33m███[0;31m▐██████[0;1;37;41m░░▒▒▒▒░[0;31m█████[0;1;37;41m░▒▒▒▒░░[0;31m█▌[0;1;33m██▒░[0;31m▐█▄[0m
+           [31m▀▄    [0;1;33m▓▓██▌[0;31m███████[0;31;41m  [0;1;37;41m░░░░ [0;31m█████[0;1;37;41m░░░░░[0;31m██▌[0;1;33m██▓▒░  [0;31m▀[0m     [31m▀[0m'

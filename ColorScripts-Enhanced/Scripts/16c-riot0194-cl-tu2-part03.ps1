@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL-TU2.ANS by Crime Lord (riot0194); released in riot0194 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 97-141
+# Lines: 97-143
 # Columns: 1-80
 
 Write-Host '
@@ -30,16 +30,17 @@ Write-Host '
 [31m████▄[0;1m▀▀▀▀▀████[0;31m▐█▌[0;1;47m████[0m [1m▀▀▀▀[0;31m▐████▄███▌[0;1m▀▀▀▀[0;31m▐█▌[0;1;47m████[0;31m▐████▄[0;1m▀▀▀[0;31m▄██▄[0;1m▀▀[0;31m▄▄[0;1m▀▀▀▀▀▀[0;31m██▌[0;1;47m████[0;31m▐██[0m
 [31m██████████▄▄▄▄███▄▄▄▄██████████████████████▄▄▄▄██████████████████████████▄▄▄▄█[0;30;41mCL[0m
 [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;47m▓▓▒▒░░ [0m▄  ▄[1;47m▓▓[0m   [1;47m▓██[0;1m█[0;1;47m▓▓▒▒░[0m▄     [1;47m██[0;1m██[0;1;47m██████████[0;1m█▀ ▀ [0;1;30mT[0mh[1me Unknow[0mn [1;30m2 [0;1m▄ ▄[0;1;47m████████████[0;1;30m▄[0m
-[1;30m▄ [0;1;47m▒▒[0m▀    [1;47m▒▒[0m [1;30m▄▄   [0m▀[1;30;47m░░[0m    [1;47m█▓[0m                                             [1;47m█[0m       [1;30;47m▓[0m
-[1;30;47m▓[0m [1;30;47m  [0m     [1;47m░░[0m [1;30;47m▓▓[0m    [1;30;47m▒▒[0m    [1;47m▓▒[0m [1mS[0m: [1mT[0mhe [1mR[0med [1mH[0merring [1;30m■ [0;1m1 G[0mig [1mO[0mnline [1;30m■ [0;1mR[0munning [1;47m▓[0m       [1;30;47m▒[0m
-[1;30;47m▒[0m [1;30;47m░░[0m     [1;30;47m  [0m [1;30;47m▓▒[0m    [1;30;47m▓▓[0m    [1;47m▒░[0m [1mS[0mynchronet [1;30m■ [0;1mO[0mbtain [1mN[0mUP [1mF[0mrom [1mA Q[0muality [1mB[0mBS  [1;47m▒[0m       [1;30;47m░[0m
-[1;30;47m░[0m [1;30;47m▒▒[0m [1;30;47m▓▓[0m ▄[1;30;47m░░[0m [1;30;47m▒░[0m▄   [1;30m▀▀    [0;1;47m░ [0m                                             [1;47m░[0m       [1;47m [0m
-[1;47m [0m [1;30;47m▓▓[0;1;30m▌[0;1;30;47m▒▒░░[0m▀   ▀[1;30;47m░ [0;1;47m░▒▓[0;1m█    [0;1;47m  [0m██[47m           [0m▄  ▄ [1;30m8[0mi[1m8.FIN.DI[0mD[1;30m! [0m▀ ▀[47m            [0m       [47m [0m
+[1;47m▓▓▒▒░░ [0m▄  ▄[1;47m▓▓[0m   [1;47m▓██[0;1m█[0;1;47m▓▓▒▒░[0m▄     [1;47m██[0;1m██[0;1;47m██████████[0;1m█▀ ▀ [0;1;30mT[0mh[1me Unknow[0mn [1;30m2 [0;1m▄ ▄[0;1;47m█████████████[0m
+      [1;30m▄▄ [0;1;47m▒▒[0m▀    [1;47m▒▒[0m [1;30m▄▄   [0m▀[1;30;47m░░[0m    [1;47m█▓[0m                                             [1;47m█▓[0m
+      [1;30;47m▓▓[0m [1;30;47m  [0m     [1;47m░░[0m [1;30;47m▓▓[0m    [1;30;47m▒▒[0m    [1;47m▓▒[0m [1mS[0m: [1mT[0mhe [1mR[0med [1mH[0merring [1;30m■ [0;1m1 G[0mig [1mO[0mnline [1;30m■ [0;1mR[0munning [1;47m▓▓[0m
+      [1;30;47m▒▒[0m [1;30;47m░░[0m     [1;30;47m  [0m [1;30;47m▓▒[0m    [1;30;47m▓▓[0m    [1;47m▒░[0m [1mS[0mynchronet [1;30m■ [0;1mO[0mbtain [1mN[0mUP [1mF[0mrom [1mA Q[0muality [1mB[0mBS  [1;47m▒░[0m
+      [1;30;47m░░[0m [1;30;47m▒▒[0m [1;30;47m▓▓[0m ▄[1;30;47m░░[0m [1;30;47m▒░[0m▄   [1;30m▀▀    [0;1;47m░ [0m                                             [1;47m░ [0m
+      [1;47m  [0m [1;30;47m▓▓[0;1;30m▌[0;1;30;47m▒▒░░[0m▀   ▀[1;30;47m░ [0;1;47m░▒▓[0;1m█    [0;1;47m  [0m██[47m           [0m▄  ▄ [1;30m8[0mi[1m8.FIN.DI[0mD[1;30m! [0m▀ ▀[47m             [0m
+
 [1;30mNote: The "the" & "two" fonts were borrowed from VN[0m
 
-[1m▀ [0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀ [1;30mD[0m
-[1;30mue to a recent encounter with the authorities, The Unknown II is no[0m
+[1m▀ [0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀ [1m▀[0m
+     [1;30mDue to a recent encounter with the authorities, The Unknown II is no[0m
      [1;30mlonger in service... but I finished this ansi for The Red Herring and[0m
      [1;30mintend to release it anyhow. I guess this is a warning to all SysOps[0m
      [1;30mto be careful... as usual, you can contact me for an ansi in any of[0m
@@ -47,6 +48,7 @@ Write-Host '
 
      [1;30m"Will ansi for food"[0m
 [1m▄ [0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄ [1m▄[0m
+
                                 [1mA[0mn[1;30msi: [0;1mC[0mr[1;30mime [0;1mL[0mo[1;30mrd[0m
                 [1;30m"Why can''t I give you a BJ?" asked the gay cannibal...[0m
 

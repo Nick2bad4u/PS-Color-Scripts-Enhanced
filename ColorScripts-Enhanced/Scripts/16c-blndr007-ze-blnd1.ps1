@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZE-BLND1.ANS by Ezmpf (blndr007); released in blndr007 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -32,6 +32,7 @@ zempf                                            it''s [35mradman[0;37m''s aci
 [33m$$$$$$$$$$$$$[0;37m [0;33m$$$$$$$[0m                                        [33m$$$$$$$$[0;37m [0;33m$$$$$$$$$$[0m
 [33m$$$$$$$$$$$$$[0;37m [0;33m$$$$$$$,[0m                                      [33m,$$$$$$$$[0;37m [0;33m$$$$$$$$$$[0m
 [33m$$$$$$$$$$$$$[0;37m [0;33m$$$$$$$$$b,[0m                                [33m,d$$$$$$$$$$[0;37m [0;33m$$$$$$$$$$[0m
+
      [37m▲[0m                   [37mthere once was a MaN named RaD.[0m
      [37m│[0m                   [37mwho removed all the clothes that[0m
      [37mpic[0m                     [37mhe had.[0m

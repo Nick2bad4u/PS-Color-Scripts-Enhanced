@@ -11,7 +11,7 @@
 # SAUCE Group: dezign
 # SAUCE Date: 19960829
 # SAUCE Dimensions: 80x25
-# Lines: 1-28
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -19,6 +19,7 @@ Write-Host '
 [1;37m had no other logos from desert .. so this is the shortest ansi colly in this[0m
 [1m paq ;) ...[0m
 [1;30m+------------------------------------------------------------------------------+[0m
+
 
                                                                    [35m░▒▓▒[0m
                                                                  [35m▒▓▓▒▒[0;35;45m [0;1;35;45m░[0;35m▓[0m

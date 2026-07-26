@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-[1;34m(([0;34m [0;1;37mx-mas greets[0;1;34m ))[0m  [1;34m(([0m [1mspecial ones[0m [1;34m)) :[0m [1mthe avenger,delusion,sfinx,cyberlul !![0;1;34m└[0m
-[1;34m────────---───────────────--──-────────┘[0m [1mdirtbag,x-it,gloomy,president,emetic,sn[0m
-[1mowball,sequence,virago,inclusive,[0m
+[1;34m(([0;34m [0;1;37mx-mas greets[0;1;34m ))[0m  [1;34m(([0m [1mspecial ones[0m [1;34m)) :[0m [1mthe avenger,delusion,sfinx,cyberlul !![0;1;34m.[0m
+                                       [1;34m└────────---───────────────--──-────────┘[0m
+ [1mdirtbag,x-it,gloomy,president,emetic,snowball,sequence,virago,inclusive,[0m
  [1mernie,mr.livestyl,pino,kenetic,silence,gromit,mnemonix,termite,all girls =)[0m
  [1mAnd sorry if i forgot you... =)[0m [1m..[0m
  [1mzod,ecolove,xpo,xpl,rbi,rvl,stx... [0m

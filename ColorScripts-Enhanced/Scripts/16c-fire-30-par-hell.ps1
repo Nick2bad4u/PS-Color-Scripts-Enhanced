@@ -12,11 +12,12 @@
 # SAUCE Date: 19970914
 # SAUCE Dimensions: 80x25
 # SAUCE Comments: A nice solid logo.. the background isn't anything special, but | creates the needed effect and the 'stuck' bottom portions of the | h and the b create a nice effect too. Overall it's near perfect. | Objective rating - 8.75
-# Lines: 1-17
+# Lines: 1-18
 # Columns: 1-80
 
 Write-Host '
 (c)[1mPariah [0m                 [31m                       [0;37m    [0;31m [0;37m [0;1;37mHellbound[0;31m [0;37m+o dark shadow[0m
+
             [33m.[0m                      [31m [0;33m.[0m
           [31m, [0m                [37m  [0;1;30m   [0;31m ,[0;1;30m             [0m
 [1;34m         [0;1;31m [0m [31m,[0;1;31m_[0m                     [31m ,_[0;37m                 [0m                    [1;31m [0;1;34m     [0m

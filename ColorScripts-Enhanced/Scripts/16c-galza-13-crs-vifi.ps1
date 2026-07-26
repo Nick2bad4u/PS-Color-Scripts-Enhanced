@@ -11,7 +11,7 @@
 # SAUCE Group: just-x/galza
 # SAUCE Date: 20010509
 # SAUCE Dimensions: 80x50
-# Lines: 1-49
+# Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
@@ -53,6 +53,7 @@ Write-Host '
 [34m                                               [0;1;30m:[0;34m                                [0m
 [34m                                                                                [0m
 [34m                                                                                [0m
+
 
                                       [1;34m■[0m
                           [1;34m▀[0m [1;34m██[0m     [1;34m▄[0m

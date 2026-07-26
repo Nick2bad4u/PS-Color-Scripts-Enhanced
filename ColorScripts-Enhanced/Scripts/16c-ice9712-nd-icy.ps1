@@ -11,7 +11,7 @@
 # SAUCE Group: iCe
 # SAUCE Date: 19980104
 # SAUCE Dimensions: 80x33
-# Lines: 1-32
+# Lines: 1-33
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
 
                                            [1;30m [0m
 [1;30m--------------------------------<cut>-------------------------------------------[0m
+
 [1;30mhey everybody.. i''m back.. well sort of.. this is my first ansi for a very long [0m
 [1;30mtime.. i think my last release was back in late 96/early 97, almost a year ago  [0m
 [1;30manyway i''d just like to wish everyone in the scene the best in the new year and [0m

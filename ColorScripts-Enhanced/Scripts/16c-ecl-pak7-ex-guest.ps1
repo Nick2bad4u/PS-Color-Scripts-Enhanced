@@ -11,7 +11,7 @@
 # SAUCE Group: ecolove
 # SAUCE Date: 19980613
 # SAUCE Dimensions: 80x33
-# Lines: 1-32
+# Lines: 1-33
 # Columns: 1-80
 
 Write-Host '
@@ -41,6 +41,7 @@ Write-Host '
 
 
 [1;30m---( knip hier! 8< )----------------------------------------------------------- [0m
+
  [1;30mmade by exocet of ecolove (c) 1998  ... guest release for pEN15!!!!![0m
 
  [1;30mgreets go to: dirt bag, silence, gromit, the avenger, gloomy, timeless...[0m

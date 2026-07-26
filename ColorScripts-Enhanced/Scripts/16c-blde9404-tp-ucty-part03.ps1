@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-UCTY.ANS by Technophreak (blde9404); released in blde9404 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 60-105
+# Lines: 60-106
 # Columns: 1-80
 
 Write-Host '
@@ -32,9 +32,10 @@ Write-Host '
                   ▀▄ [1m▀ [0m▄ [1m▀ [0m▄ [1m▀▀▀ [0m▄▄▄▄▀▀▄▄▄ [1m▀ ▌ [0m▄▄ [1m▀▀▀▀▀▀  ▀▀▀ [0m▄▄ [1m▀[0m▄ [1m▀███▀ [0m▄▀
 [1m/┤NSi: [0;31mT[0;1;31mech[0;1;37mnoPh[0;1;31mrea[0;31mK [0;37m▀▀▀ ▀▀▀ ▀▀▀▀▀[0m         [37m▀▀▄▄▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀ ▀▄▄▄▄▄▀[0m
 
-[1;30m───────────────────────────────────────────────────────────────────────────────[0;1;37mt[0m
-[1;37m    h    e[0m      [1;37mu    n    d    e    r    c    i    t    y[0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
+           [1;37mt    h    e[0m      [1;37mu    n    d    e    r    c    i    t    y[0m
+[1;30m────────────────────────────────────────────────────────────────────────────────[0m
+
                        [35mT[0;1;35mh[0;1;30me finest H/P/A board in 2[0;1;35mO[0;35m9[0m
 
           [35m2    [0;1;35mO    [0;1;30m9    [0;1;37m·    [0;1;30m6    8    3    [0;1;37m·    [0;1;30m3    6    [0;1;35m7    [0;35m3[0m

@@ -10,7 +10,7 @@
 # SAUCE Author: Blind Sniper
 # SAUCE Group: Department 38
 # SAUCE Dimensions: 80x25
-# Lines: 1-42
+# Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
 [1;36;46m:[0;36m▄[0m                                [31m▐[0m                                           [36m▄[0;1;36;46m:[0m
 [1;36;46m\\%o,._[0;36m█[0;1;36;46m_.,sS$`''∙,∙''`∙,· ·░ [0;36m▌▌█▐  [0;1;36;41mc[0;1;36;40mOMMAND[0;1;37;40m:[0;36m CMD   ▌█▐▐[0;1;36;46m░· ·,∙`''∙,∙''`$Ss,._ _.,o%//[0m
 >Cut Here F0o!<-----------------------------------------------------------------
+
 [1;32mO[0;32mkays, heres the sucessful steps to getting a menu request from me.[0m
 
 [1;32m1[0;32m. Call up tHE AGENCY (649-410-6940), or e-mail (rsmith@ihug.co.nz) [0m

@@ -11,7 +11,7 @@
 # SAUCE Group: Axial Force
 # SAUCE Date: 19960913
 # SAUCE Dimensions: 80x27
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -36,6 +36,7 @@ Write-Host '
 [1;30m [0m [1;30m\[0m [1;30m|[0m                                                                  [1;33m▀▀ [0m [1;32m▐▌ [0m [1;30m|[0m
 [1;34mbX[0m [1;30m\|[0m                                                                       [1;32m█  [0;1;30m|[0m
 [34mAxF[0;37m [0;1;30m` ----------[0;36mWhen[0;1;30m-[0;36myou''re[0;1;30m-[0;36min[0;1;30m-[0;36mdanger,[0;1;30m-[0;36myou[0;1;30m-[0;36mneed[0;1;30m-[0;36msome[0;1;30m-[0;1;36mcamouflage[0;1;30m-------------[0;1;32m▀▄[0;1;30m-''[0m
+
 -----<cut here>-----------------------------------------------------------------
 ''Cool-Slogan'' (tm) by baxter :)
 dunno if this bbs still exists, one of my first ansi''s on request ...

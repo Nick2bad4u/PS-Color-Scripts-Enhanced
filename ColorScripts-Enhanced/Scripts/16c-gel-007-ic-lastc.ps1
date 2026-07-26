@@ -10,7 +10,7 @@
 # SAUCE Author: eye+cee
 # SAUCE Group: gel
 # SAUCE Dimensions: 80x25
-# Lines: 1-24
+# Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
@@ -29,6 +29,7 @@ Write-Host '
 [32m██▀█▀██████▀[0;1;30m─────────-─-─────-───────-─────────-──────--[0m [1;30m─[0m [1;30m▀[0;32m▀▀▀██▓░ [0;1;30m──────-[0;32m▀▀███[0m
 [32m  [0m
 [1;34m► [0;36m█[0;1;36;46mtime[0;36m███▓░[0;37m  [0;36m█[0;1;36;46mname[0;36m█████████████▓░[0;37m  [0;36m█[0;1;36;46mcalling[0;36m█[0;1;36;46mfrom[0;36m███████▓░[0;37m  [0;36m█[0;1;36;46maffiliation/s[0;36m████▓░[0m
+
 [34m►[0;37m  9:30am[0m      [37mincesticide[0m           [37mchronic distortion[0m      [37mgel,slime,poison[0m
 [34m►[0;37m  9:31am[0m      [37mincesticide[0m           [37mchronic distortion[0m      [37mgel,slime,poison[0m
 [34m►[0;37m  9:32am[0m      [37mincesticide[0m           [37mchronic distortion[0m      [37mgel,slime,poison[0m

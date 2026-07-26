@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LOGIC!ST.ANS by KERmit (twat0898); released in twat0898 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
+# Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
@@ -27,6 +27,7 @@ Write-Host '
 
 
 [31m──[[0;32mK[0;1;37mE[0;32mR[0;1;37mm[0;32mi[0;1;37mt[0;31m]───────────────────────────────────────────────────────────────[[0;1;36mtWat[0;31m]─[0m
+
    [1;30mWell, now... it''s like 5:oo in the morning and lame ass me is sitting drawing[0m
 [1;30mshit, on my shit computer?! hrmm.. smart me =)[0m
 [1;30mWell this goes out +o[0m [1;30msquibby.. g00d luck on your new board.?[0m

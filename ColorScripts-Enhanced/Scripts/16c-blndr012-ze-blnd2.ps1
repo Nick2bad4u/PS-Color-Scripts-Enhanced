@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZE-BLND2.ANS by Ezmpf (blndr012); released in blndr012 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -33,6 +33,7 @@ Write-Host '
 [1;33m$$$$$$$$$$$$$$$$$,[0;1;30m`$$$$$$b,[0;1;33m [0;1;30m`$$$$╜''[0;1;33m,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ggggggg[0m
 [1;33m$$$$$$$$$$$$$$$$$$b,[0;1;30m`╜$$$$P [0;1;33m,[0;1;30m`P''[0;1;33m,d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
                        [1;30m `"`[0m                                          zempf*blade
+
     woohoo...this ascii sucks some major shit. but, i''m bored, so i felt like
     doodling. anyways, the cyborg-type thing''s holding a bloody knife, cause
     he just murdered somebody. (the bermuda triangle is in the backround some-

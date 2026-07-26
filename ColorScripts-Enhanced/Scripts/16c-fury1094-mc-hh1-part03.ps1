@@ -6,10 +6,14 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC-HH1.ANS by Mr Corruption (fury1094); released in fury1094 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 95-138
+# Lines: 96-143
 # Columns: 1-80
 
 Write-Host '
+[1;34;44m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
+[1;34;44m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
+                     [1;31;40m■[0m
+                     [1;31;40m▐   ▄[0m
 [1;33;40m███[0m                [1;31;40m▀▄[0;1;31;41m▒[0;1;33;40m███[0;1;31;40m▄[0;1;33;40m███[0m
 [1;33;40m███   [0;1;32;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31;42m▄[0;1;31;41m▓[0;1;33;40m███[0;1;31;41m▓[0;1;31;42m▄▄[0;1;32;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;33;40m███[0m                [1;31;40m▀ [0;1;31;41m░[0;1;33;40m███[0;1;31;41m▒[0;1;33;40m███[0m

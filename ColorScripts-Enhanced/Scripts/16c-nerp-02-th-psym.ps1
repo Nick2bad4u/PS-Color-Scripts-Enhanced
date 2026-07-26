@@ -11,7 +11,7 @@
 # SAUCE Group: nerp
 # SAUCE Date: 19971102
 # SAUCE Dimensions: 80x32
-# Lines: 1-31
+# Lines: 1-32
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
    [1;36mx[0m [1;34mcommand[0m              [1;36mx[0m [1;34mcommand[0m     [34m▀[0m         [1;36mx[0m [1;34mcommand[0m
 
 -- scheur ---------------------------------------------------------------------
+
 weird style main menu for psy factor.
 
 later!

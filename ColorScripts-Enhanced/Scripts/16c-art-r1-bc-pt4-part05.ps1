@@ -11,10 +11,14 @@
 # SAUCE Group: aRT
 # SAUCE Date: 19941216
 # SAUCE Dimensions: 80x213
-# Lines: 178-207
+# Lines: 178-212
 # Columns: 1-80
 
 Write-Host '
+[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
+
+ [34mX-Ville : The story continues ...[0m
+
    [34mFeaturing the following kewl message bases: [0m
 
 [34m    1. MAGIC, the gathering[0m [34m(rules, discussions, trading)[0m
@@ -34,6 +38,7 @@ Write-Host '
 [34m    Check your local ZoNE-X board for opening details ...[0m
 
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
+
 [32mEnd of transmission[0m
 [32mCommLink aborted[0m
 [32mNext System: Strathoria V[0m

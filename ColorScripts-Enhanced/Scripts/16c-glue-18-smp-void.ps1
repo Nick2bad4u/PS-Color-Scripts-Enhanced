@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-VOID.ANS by Shrimp (glue-18); released in glue-18 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -32,7 +32,8 @@ Write-Host '
 [34m▐▌[0;37m [0;34m  ▓[0;37m [0;34m▓[0;37m  [0;1;37m▌[0m [34m▓[0;37m [0;1;37m▀[0m  [34m ▒▓[0;37m [0;34m▀[0;1;34;44m▐▓[0;34m [0;37m [0;34m░[0;37m  [0;1;37;47m▒[0m  [1m▓[0m [1;34;44m░░[0m [1m▌[0m   [34m▓█[0;1;34;44m▄█[0;34m▌[0;37m  [0;1;37m▀[0m      [1;47m▒[0m [34m░[0;31m [0;1;37;47m▒[0m            [1;30mthe[0m [34m ▀▀▓[0m
 [37m [0;34m▀▓[0;37m  [0;34m▓[0;37m [0;34m▓[0;37m  [0;1;37m▌[0m [1;34;44m░[0m    [34m ░▓ [0;37m [0;34m▐[0;1;34;44m░[0;34m  [0m   [1;37;47m▓[0m  [1m▀[0m    [1m▌[0m    [34m▓█[0;1;34;44m▀▄[0;1;34;40m▄[0m        [1m▓[0m [34m▒[0;37m ▀[0m      [34m▄▀▀█▄ [0;1;30mv[0;31m0[0;1;31mi[0;1;30md[0;34m  ▄█[0m
 [34m▄▄[0;1;34;44m░[0m  [34m▒[0;37m [0;34m▀[0;37m  [0;1;37m▌[0m [1;34;44m▒[0m   [34m [0;37m  [0;34m▒ [0;37m [0;34m █[0;37m  [0;34m  [0;37m [0;1;37m▀[0m       [1m▌[0m    [34m░[0;37m  [0;34m▀▀[0;1;34;44m▀▄[0;34m▄[0m     [1;37m▀[0m [34m▓[0;37m [0;1;30m@[0mgstoner   [34m▀[0;1;34;44m░[0;34m▄▄ ▄▄[0;1;34;44m▄▀[0;34m▓[0m
-[34m▀[0m    [34m░[0m    [37m▌ [0;1;34;44m▓[0m [34m▄[0;37m [0;34m▄[0;1;34;44m▒[0m [34m░[0m   [34m▓[0;37m  [0;1;34m▓▄[0;34m▄[0;37m [0;34m▄[0m   [34m▄[0;1;34m▄▄[0;34m▄[0;1;34m▄[0;34m▄[0m         [34m▀▀▄[0m     [1;34;44m▄[0;34m▄▄[0;37m [0;34m▄▄▄[0m   [34m▄[0m    [34m▀[0;1;34;44m▀▐▀[0;34m▀▀[0;37m [0;34m▓[0m
+[34m▀[0m    [34m░[0m    [37m▌ [0;1;34;44m▓[0m [34m▄[0;37m [0;34m▄[0;1;34;44m▒[0m [34m░[0m   [34m▓[0;37m  [0;1;34m▓▄[0;34m▄[0;37m [0;34m▄[0m   [34m▄[0;1;34m▄▄[0;34m▄[0;1;34m▄[0;34m▄[0m         [34m▀▀▄[0m     [1;34;44m▄[0;34m▄▄[0;37m [0;34m▄▄▄[0m   [34m▄[0m    [34m▀[0;1;34;44m▀▐▀[0;34m▀▀[0;37m [0;34m░[0m
+                                                   [34m▓[0m                      [34m▓[0m
 [1;30m──────────────────────────────────────────────────[0m [34m░[0;37m [0;1;30m────────────────────[0m [34m░[0;37m [0;1;30m────[0m
 [1;30mWell, I think this ansi is an extremely ugly piece of art, sorry gs :([0m
 [31ms[0;37mm[0;1;37mp[0;1;33m.[0m'

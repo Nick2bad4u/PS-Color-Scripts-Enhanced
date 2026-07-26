@@ -1,0 +1,45 @@
+﻿# Converted from: bj-asc49.ans
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc49.ans
+# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
+# Source SHA-256: 41d6d742b3445bd2c6100e0a4c02d4f262aba8c4b663ddf1621fd1115b4642cb
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: bj-asc49.ans by Multiple Artists (Cia/Acid); released in bj-creep and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: Gloom
+# SAUCE Author: Multiple Artists
+# SAUCE Group: Cia/Acid
+# SAUCE Date: 19961216
+# SAUCE Dimensions: 80x54
+# Lines: 1-28
+# Columns: 1-80
+
+Write-Host '
+   [1;30m`b,_[0m              [1;30m     [0m  [1;30m;[0m  [1;30m`[0m
+[1;30m@m,_[0m [1;30m~"°ⁿ@m,_[0m      [1;30m     [0m     [1;30m+,_[0m
+ [1;30m`ⁿY$b,m@PⁿY$$$Pⁿ°ⁿ$S@m,_ ` +,_"°ⁿb,_[0m     [1;30m`b,[0m     [1;30m`"ⁿ@m,[0m
+[1;30m@Pⁿ°"`Yb,_[0m  [1;30m`ⁿ$$b,_[0m [1;30m`ⁿY$[0;34m$[0;1;30mb,_ ,mbS$ⁿ°"°ⁿ@m,_`$b,[0m [1;30m,d,  :`Yb,[0m [1;30m   [0m
+[1;30m,m@Pⁿ°"°ⁿY$b,_[0m [1;30m~"°ⁿ$$b$$Pⁿ$$bm,`YS@m,  `"°ⁿ@m$$d[0;34m$[0;1;30m$b,   `Y$b,  [0m
+[1;30m$''[0m       [1;30m`$$[0;34m$[0;1;30m$Sb,_  `Y$$''[0m  [1;30m`ⁿ$$b`Y$$$b,  ,m$$[0;34m$$[0;1;30m$$PⁿYmd$b,`ⁿ$$b,[0m
+[1;30m, ~~d$$$@ndPⁿ°"Y$P'',m$$$b,_   `"ⁿb,`"°ⁿbd$$$[0;1;34m$[0;34m$[0;1;30m$$$b, Y$''`ⁿb,_[0;34m$[0;1;30m$b,[0m  [1;30m,m@ⁿ°"~[0m   [1;30m.[0m
+[1;30mⁿ°"~`[0m    [1;30m`''[0m     [1;30m`Yb$$$[0;34m$[0;1;30m$$Pⁿ°"~°ⁿ@[0;34m$[0;1;30m$b,m@P$$$$$[0;34m$[0;1;30m$$$$l,.$b,_,d$$$$[0m [1;30m.dP''[0m         [1;30m;[0m
+[1;30mYb,_ _,m@Pⁿ°"~ⁿ@d$$[0;34mY$[0;1;30m$$$S@m,_[0m  [1;30m`$$$P''[0m   [1;30m`Y$$$$$[0;34m$[0;1;30mPⁿ°":`$$$$$[0;34m$[0;1;34m$[0;1;30m$$b$''ⁿb,  _  +  [0m
+[1;30m `°ⁿ°"~`[0m  [1;30m`b,_[0m [1;30m$$[0;34m$[0;1;34m$[0;1;30m$$Pⁿ°"~[0m [1;30m4$$b,_`ⁿYb,__,m$$$PⁿYb,_,l[0m. [1;30m`d$[0;34m$[0;1;30m$$$Pⁿ''[0m
+             [1;30m`Y$$$$Pⁿ°"b,_[0m m ,[1;30m`$@md$@$Pⁿ''[0m, m _[1;30m, $$Pⁿ$[0m:,m@S$$b[1;30m$b,+ .  _ [0m
+               [1;30m`Y$P''[0m,d$$$$$$$$$$S@mmm@S$$$$$$$$$bm,md$$$$$$$$$$b,_
+              ,d$$$$$$$$$$$$$$$$$$$$$$$$$$`$$$$$$$$$$$$$$$@m`$$$$$b,
+        _ ,m[1;30mⁿ[0m$$$$$$$$$:$$$ⁿ$P$$$$$$$$$$$P[1;30m''[0m `Y$$$$$$$$$$$$$$$b,Y$$$$$b, _  ,
+    [1m`[0m `ⁿ$$$$$[1;30mb[0m`$$$$$$$b`$''dⁿ,d$$$$$$Pⁿ''  [1m_, [0m`Y$$$$$$$$$$$$$$$$d$$$$$$$$~"ⁿ@m, _
+      [1m [0m [1;30m`[0mY$$$l,d$$$$$$$b$b''d$$$Pⁿ°"[1m__,mS$$$b [0m`Y$$$i$$$$$$$$$$$$$$$$$$$$m, _  ,_
+         [1m [0m`Y$$$$b,$$$$$$Pⁿ:$$P[1m_,m@$$$$$$$$$$b,[0m`Yⁿ",$$$$$$$$$Pⁿ''"ⁿY$$$$$ⁿ°"~ +,_
+         [1;30m,[0md$$$$$$$$$&$$$$b,_ⁿ'',d$$$$$$$[1m$$$[0m$$b,ⁿ$P$$$$[1m$[0m$$$$ⁿ'',d$b,`ⁿY$$$mm@S$b`Yb
+      [1m [0;1;30m,[0md$$$$$$$$$$$$$I$$$$$$$$$$$$$$$[1m$$[0m$$$$$$b,m$$$$$[1m$$[0m$$.d$Pⁿ°"b,''$$$$$$$$$$$$
+      [1m [0;1;30ml[0m$$$$$$$$$$&$$$$$$$$$$$$$$$$$$[1m$[0m$$$$b`Y$$$$$$[1m$[0m$[1m$[0m$$$$i$Pⁿ@m,d$,$$$$$Pⁿ°"~,$
+        [1;30m`Y[0m$$$$$$$$$$$$$$$$$$$$$$$$$$$$Pⁿ°"~ ~ⁿY"ⁿY$$$[1m$[0m$[1m$[0m$$$$Sm@S$$$i$$$mm@S$$$$$
+         ,[1;30m`Y[0mⁿ°"~  ~''[1m _[0m,[1m,[0m`ⁿ°"~ `°"~"°ⁿ''      ,m,$b$$$$$$$$$$"°ⁿ°"'',$$$$$$$$$$$$$$
+        l$[1mb[0m ,m@[1mSP''[0m,mS[1m$$P[0m,@S[1m$b, ,mb, [0m [1m [0m,_   .~""ⁿ$$$$$$$$$$$S@m@S$$$$$&li: .:i&$$
+         Y$[1m,[0ml$[1m$$l[0m $$[1m$$$''[0ml$[1m$$$$[0m.$[1m$$$[0mb[1m:$$[0m$,`[1mY[0mi,[1m`[0m$b,`Y$$$$$$$$$$$$$$$$$$$i:. :.il&$
+       [1m`[0m `ⁿl[1m,[0mⁿY[1m$b[0m Y$$[1m$$b[0m Y$[1m$$$:[0mY$[1m$P[0m''[1md$[0m$$P[1m $[0m$P [1mP[0mⁿ"  `$&$$$$$$Y$$$$$$$$$$li:ilI&$$
+            [1m  [0m  `[1m~[0m `~~[1m""[0m `""[1m°ⁿ [0m`dⁿ[1m [0m [1m`ⁿ[0m°" ''~  [1m`[0m      iI$$$Pⁿ",$$$$$$$$$$$$$$$$$$$
+                              [1m [0m ''[1m  [0;1;30m`b,[0m              :l$$$ d$$$$$$$$$$$$$$li$[1m$$[0m$$
+                                    [1;30m`Yb[0m              i$$$i&$$$m,`$$$$$$$$$i:$$[1m$[0m$[0m'

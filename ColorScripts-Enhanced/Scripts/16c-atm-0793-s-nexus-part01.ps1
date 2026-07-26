@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S-NEXUS.ANS by Surface (atm-0793); released in atm-0793 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-38
+# Lines: 1-37
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
 [1;30;47m█████████████████████████████████████████████████████████████████████████████[0;1;30;40m█[0m█▄
 
 
+
  [34m▄████████████████████████████████████████████████████████████████████████████▄[0m
 [34m█[0;1;34;42m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;34m█[0m
 [34m█[0;1;34;42m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;34m█[0m
@@ -44,6 +45,4 @@ Write-Host '
                                [34m█[0;1;34;42m░░░░░░▒▒▒▒[0;34m█[0m
                                [34m█[0;1;34;42m░░░░░▒▒▒▒▒[0;34m█[0m
                                [34m█[0;1;34;42m░░░▒▒▒▒▒▒▒[0;34m█[0m
-                               [34m█[0;1;34;42m░░▒▒▒▒▒▒▒▒[0;34m█[0m
-                               [34m█[0;1;34;42m▒▒▒▒▒▒▒▒▒▒[0;34m███[0m
-                               [34m█[0;1;34;42m▒▒▒▒▒▒▒▒▒▒[0;34m█[0;1;34;42m▒▓[0;34m█▄[0m'
+                               [34m█[0;1;34;42m░░▒▒▒▒▒▒▒▒[0;34m█[0m'

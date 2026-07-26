@@ -11,7 +11,7 @@
 # SAUCE Group: avenge cult
 # SAUCE Date: 19980510
 # SAUCE Dimensions: 80x32
-# Lines: 1-31
+# Lines: 1-32
 # Columns: 1-80
 
 Write-Host '
@@ -42,6 +42,7 @@ Write-Host '
 [1;34;44m░░░▒▒▒[0;1;34;40m▓▓▓[0;1;34;44m▓▓█ [0;34m▐[0;1;34;47m█▓█▓▒▒▓▓▓▓[0;1;34;44m▓[0;1;34;40m▓[0;1;34;44m▓▒▒░[0;1;34;40m▒[0;1;34;44m░[0;34m▓▓▄▄▄▄▄[0;31m [0;34m▄[0;1;30m▄[0m   [1;30m  [0;31m [0;33m [0;1;30m▀▀▀[0;1;30;43m▒░[0;33m███░[0;30;43m▓[0;33;40m░[0;31;40m [0;37;40m          [0;36;40m▀▀▀▀▀▀▀▀[0m
 
 [1;30;40m---8<---------------------------------------------------------------------------[0m
+
 [1;30mThis matrix is for _iy''s fear factor.[0m [1;30mIt was originally an 80+ line ansi but[0m
 [1;30msince that didn''t turn out well, I''ve ditched it.[0m
 [1;30m_rz (a.k.a doOdleboy)[0m [1;30mof the avenge cult![0m

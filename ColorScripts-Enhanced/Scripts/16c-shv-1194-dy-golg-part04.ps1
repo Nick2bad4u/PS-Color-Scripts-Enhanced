@@ -11,7 +11,7 @@
 # SAUCE Group: Shiver
 # SAUCE Date: 19941101
 # SAUCE Dimensions: 80x183
-# Lines: 141-180
+# Lines: 142-182
 # Columns: 1-80
 
 Write-Host '

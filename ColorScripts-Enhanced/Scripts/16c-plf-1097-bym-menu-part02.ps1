@@ -11,7 +11,7 @@
 # SAUCE Group: poffelipoff
 # SAUCE Date: 19971028
 # SAUCE Dimensions: 80x146
-# Lines: 49-98
+# Lines: 50-99
 # Columns: 1-80
 
 Write-Host '

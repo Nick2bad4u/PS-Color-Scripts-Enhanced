@@ -11,7 +11,7 @@
 # SAUCE Group: plAn 9
 # SAUCE Date: 19970125
 # SAUCE Dimensions: 80x150
-# Lines: 100-149
+# Lines: 101-150
 # Columns: 1-80
 
 Write-Host '

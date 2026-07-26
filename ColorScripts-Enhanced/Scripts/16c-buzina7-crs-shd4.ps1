@@ -11,7 +11,7 @@
 # SAUCE Group: galza
 # SAUCE Date: 20030402
 # SAUCE Dimensions: 80x31
-# Lines: 1-30
+# Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ Write-Host '
 [1;33m$$Y$$L $L,  ,d$$$Y$$$$┘` ,d$l  ,f  j$$i  ,d$$$  $$s┐s$$$$$E ┐ ,┐$$│$i j$│Fj$$│$│[0m
 [1;33mYY$│Z$L?$$$$ZZ$│$$Z$7,┌sS$$│$L ?$sd$Z$F,d$$$│$L ?$$$$$$ZZ$$$┐ $$ZZ$$Fj$$Z$$$ZZZZ[0m
 [1;33miiYYZZ$$$│ZZYZZ$$ZZ$$$$ZYYZZ$$L$$Z$Z│$$$ZYY└$$$$d$$┘$│ZYYZ$Z$j$ZYYZ$i$ZYYZ$│shd.[0m
+
 
 
 

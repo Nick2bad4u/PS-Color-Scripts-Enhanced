@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-CRAIN.ANS by Clorox Cowboy (cran1094); released in cran1094 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 40-79
+# Lines: 42-81
 # Columns: 1-80
 
 Write-Host '
@@ -47,6 +47,6 @@ Write-Host '
 [1;34;44m░░[0m       [1;34;44m░░[0m    [1;34;44m░▒[0m [1;34;44m░░[0m   [30;47m█[0;1;34;44m░▒[0m [1;34;44m░░[0m    [1;34;44m░░[0m [1;34;44m ░[0m    [1;34;44m░ [0m [1;34;44m░ [0m     [30;47m█[0m [1;34;44m░░[0m   [1;34;44m ░[0m [1;34;44m░░[0m [30;47m██[0m [1;34;44m░░[0m [1;34;44m░░[0m   [30;47m██[0;1;34;44m░░[0m
 [1;34;44m ░[0m       [1;34;44m░ [0m    [1;34;44m░ [0m [1;34;44m  [0m   [30;47m█[0;30;44m [0;1;34;44m░[0m [1;34;44m░ [0m    [1;34;44m ░[0m [1;34;44m  [0m [1;34;41m    [0;1;34;44m [0m [1;34;44m  [0m     [30;47m█[0m [1;34;44m░░[0m   [1;34;44m  [0m [1;34;44m ░ [0;30;47m███[0;30;44m [0;1;34;44m░[0m [1;34;44m ░[0m   [30;47m██[0;30;44m  [0m
 [30;44m   [0m      [30;44m   [0m   [30;44m  [0m [30;44m▄      ▄█  [0;30;41m░░[0;31;40m█[0;31;44m   [0m [30;44m▄[0;30;41m░░    [0;30;44m▄[0m [30;44m▄     [0m [30;47m█[0m [30;44m  [0m   [30;44m  [0;30;47m█[0;30;44m▄      ▄[0m [30;44m  [0m   [30;47m██[0;30;44m  [0m
-[32;40m───────────────────[0;1;32;40m───────────[0;30;41m░░[0;1;32;40m──────[0;30;41m░  ░[0;1;32;40m──────────────[0;32m───────────────────────[0;1;37mY[0m
-[1;37m O U [0;1;35mR   S O U [0;35mR C E  [0;30;41m▀[0;31;40m▀[0;35;40mF O R  [0;30;41m░░[0m [30;41m▄[0m [35;40mA N S I   W I T [0;1;35;40mH   A   B R [0;1;37;40mA I N[0m
+[32;40m───────────────────[0;1;32;40m───────────[0;30;41m░░[0;1;32;40m──────[0;30;41m░  ░[0;1;32;40m──────────────[0;32m────────────────────────[0m
+       [1;37mY O U [0;1;35mR   S O U [0;35mR C E  [0;30;41m▀[0;31;40m▀[0;35;40mF O R  [0;30;41m░░[0m [30;41m▄[0m [35;40mA N S I   W I T [0;1;35;40mH   A   B R [0;1;37;40mA I N[0m
 [32m───────────────────[0;1;32m─────────────────────────────────────[0;32m────────────────────────[0m'

@@ -11,7 +11,7 @@
 # SAUCE Group: The AvengeCult
 # SAUCE Date: 19990228
 # SAUCE Dimensions: 80x69
-# Lines: 25-68
+# Lines: 25-69
 # Columns: 1-80
 
 Write-Host '
@@ -56,5 +56,6 @@ Write-Host '
                                       [32m░[0;37m [0;32m▀[0m          [32m░[0m           [1;32m░░[0m  biz  [1;32m▒[0;32m▌[0m
                                       [32m▀[0m            [32m▀[0;37m  [0;1;32m░[0m         [31m [0m    [32m ▄[0;37m [0;32m▀[0m
                                                       [32m▀[0m            [32m░[0m           [37m [0m
+
 
 [37m------------- [ abstrakkt art part tres. i''m going slightly mad. ] -------------[0m'

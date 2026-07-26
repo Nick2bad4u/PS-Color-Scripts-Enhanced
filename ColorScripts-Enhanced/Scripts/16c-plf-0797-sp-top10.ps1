@@ -31,8 +31,8 @@ Write-Host '
        [1;34m [0m                [1;30m    [0m        [33m  [0;37m  [0;1;30m▀[0;34m▀▀▀[0;1;30m▀[0m
 
 
-[1;30m───────────────────────────────────────────────────────────────────────────────[0;1;37mW[0m
-[1;37melps.. this one is for choff and his board.. hmm.. mortal dreams? :)[0m
+[1;30m────────────────────────────────────────────────────────────────────────────────[0m
+   [1;37mWelps.. this one is for choff and his board.. hmm.. mortal dreams? :)[0m
    [1;37mI haven''t been drawin'' for like.. one month so i''m not 100% pleased[0m
              [1;37mwith the logo and the rest of the shit.  //spinal[0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

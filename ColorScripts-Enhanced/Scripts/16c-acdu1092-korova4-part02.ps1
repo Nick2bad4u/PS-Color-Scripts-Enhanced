@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KOROVA4.ANS by Sonic (acdu1092); released in acdu1092 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 41-79
+# Lines: 41-80
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ Write-Host '
 [1;30m██▓▓▓▓▓▓▓▓███▓▓▒▒▒▒▓▓▓█▓▓▒▒▒▓▓███████████████████████▒▒▓▓███▓▓▓▒▒▒▒▓▓▓▓▓▓▒▒▒▓▓██[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;33m─────[0;33m─[0;1;33m────[0;33m─[0;1;33m───[0;33m─[0;1;33m──[0;33m─[0;1;33m─[0;33m──[0;1;33m─[0;33m───[0;1;33m─[0;33m────────────────────────────[0;1;33m─[0;33m───[0;1;33m─[0;33m──[0;1;33m─[0;33m─[0;1;33m──[0;33m─[0;1;33m───[0;33m─[0;1;33m────[0;33m─[0;1;33m─────[0m
+
                           [1;37m3[0mo[1;30m5.[0;1;37m8[0m9[1;30m3.[0;1;37m1[0m5[1;30mo8    [0;1;37m9[0m6[1;30moo+ [0;1;37mP[0ml[1;30mease[0m
                                  AC[1mi[0mD [1mFL O[0mu[1;30mtpost[0m
                       [1;37m2[0mo[1;30moo+ [0;1;37mT[0me[1;30mxts of all [0;1;37mS[0mo[1;30mrts [0;1;37m· [0mo[1;30m-[0m7 [1mD[0ma[1;30my [0;1;37mW[0ma[1;30mrez[0m

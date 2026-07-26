@@ -11,7 +11,7 @@
 # SAUCE Group: black maiden
 # SAUCE Date: 19960914
 # SAUCE Dimensions: 80x39
-# Lines: 1-38
+# Lines: 1-39
 # Columns: 1-80
 
 Write-Host '
@@ -50,5 +50,6 @@ Write-Host '
 [36m  [0;33m [0;36m [0;33m [0;36m  [0;33m [0;36m [0;33m· [0;36m    [0;33m ▀▀[0;1;31;43m▀░[0;33m [0;37m  [0;33ma[0;37m [0;1;31m▄[0;33m ▀▀▀▀[0;37m [0;33m▀▀[0;37m  [0;33mi[0m                                  [32m [0m   [32m■[0m
 [37m  [0;33m [0m               [33m▀[0;37m [0;33m·[0m   [1;31;43m▓▀▀[0;33m▀[0m   [33m·[0m
 [33m-[0;1;31m+[0;33m-[0;1;31mcut![0;33m-------------------------------------------------------------[0;1;31mw0o0o0o0![0;33m-[0;1;31m+[0;33m-[0m
+
 [33mVoice:[0;37m [0;33mYou said, I would draw like ck and so I do ;)[0m
 [33myou: if you like, use it in your bbs - but leave the sig![0m'

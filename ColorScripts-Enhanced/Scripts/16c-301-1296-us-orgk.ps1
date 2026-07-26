@@ -11,7 +11,7 @@
 # SAUCE Group: project/301
 # SAUCE Date: 19961227
 # SAUCE Dimensions: 80x24
-# Lines: 1-23
+# Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
@@ -33,6 +33,7 @@ Write-Host '
       [34m░▀[0;1;34m▀▀▀[0;1;37;44mo[0;1;37;40mriginal kaos[0m
 
 [1;30m--------------------------------------------------------------------------------[0m
+
 [1;30m [0moriginal outline by [1mcriminal enigma[0m
 [1m [0mshading and touchups by [1millogic[0m
 SAUCE00original kaos                      Multiple Artists    301/fORCE

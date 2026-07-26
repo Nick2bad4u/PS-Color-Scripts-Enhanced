@@ -11,7 +11,7 @@
 # SAUCE Group: sOciety
 # SAUCE Date: 19970315
 # SAUCE Dimensions: 80x25
-# Lines: 1-46
+# Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
@@ -59,4 +59,5 @@ Write-Host '
 [1;30;47m░[0;1;37;47m░[0m▌        [1mthis is my logoff ansi for my board.[0m
 [1;47m▒[0m▌         [1mif you would like me to make you an ansi for free call me at[0m
 [1;47m▓█[0m▌                    [1mf.e.a.r. [ 9 o 5 ] 6 o 2 - 8 i 5 2.[0m
-[1m ▀[0;1;47m█[0;1;40m█▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄[0;1;47m▒[0;1;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▒▄▄▄▄▄▄▄▄▄▒▒▄▄▄▄▄▄▄▄▓[0m'
+[1m ▀[0;1;47m█[0;1;40m█▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄[0;1;47m▒[0;1;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▒▄▄▄▄▄▄▄▄▄▒▒▄▄▄▄▄▄▄▄▄[0m
+                                            [1;40m▓[0m'

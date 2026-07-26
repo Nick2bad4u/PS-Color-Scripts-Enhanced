@@ -11,7 +11,7 @@
 # SAUCE Group: prbmb
 # SAUCE Date: 19971024
 # SAUCE Dimensions: 80x25
-# Lines: 1-17
+# Lines: 1-18
 # Columns: 1-80
 
 Write-Host '
@@ -27,6 +27,7 @@ Write-Host '
                                                             [1;34m▀▀▌ [0;36m▄[0;1;36m▄[0;1;36;46m▄▀[0;1;36;40m▀[0;1;36;46m█▀[0;1;36;40m▀▀[0;36m▀[0;1;36m▐█[0;1;36;46m█▓▓[0m
   [1m([0madd lamer[1m)[0m  download list   who wrote?   list ''em   quit       [36m▀[0;1;36m▀ ▌     [0m
                                                               [1m ░[0m [1m░░[0m [1;36m ▀  [0;1;30mfluxbmb[0m
+
 
 --
 this is a lamer lister ansi.. it could fit perfectly to prlamerlister, but i''d

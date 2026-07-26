@@ -33,7 +33,7 @@ Write-Host '
 [36;47m  [0;1;36;47m▀▀▀██[0;1;36;46m████▓▒█▒▓█▒▒██████[0;1;36;47m▀▀▀[0;36;47m    [0;37;40m▀▀  [0m
 [37;40m▐[0;30;47m       [0;1;36;47m▀▀▀▀▀▀▀▀▀▀▀▀[0;30;47m▄▄▄▄▄▄▄▄[0;37;40m       [0m
 [37;40m   ▀▀▀[0;30;47m▄▄▄▄▄▄[0;37;40m                        [0m
-[37;40m------------------------------------<[BiTCHiN'']>-------------------------------a[0m
-[37;40mlright.. dis be fer ma bbs.. uhkey.. uhm.. jha if ye want sumthin dun..[0m
+[37;40m------------------------------------<[BiTCHiN'']>--------------------------------[0m
+       [37;40malright.. dis be fer ma bbs.. uhkey.. uhm.. jha if ye want sumthin dun..[0m
        [37;40mden.. email meh.. lensman@rinx.com   uhhhkay.. das awl.. or email me [0m
        [37;40mon beyond da grave.. 1-4o3-228-i93i  laytah :)[0m'

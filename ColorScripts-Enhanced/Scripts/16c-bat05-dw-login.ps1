@@ -36,8 +36,8 @@ Write-Host '
     [32m█[0;37m [0;1;30m█▄▄▄▄▄▄▄▄▄▄▄▄█ █▄▄▄▄▄▄▄▄▄▄▄▄█ █▄▄▄▄▄▄▄▄▄▄▄▄█ █▄▄▄▄▄▄█ █▄▄▄▄▄▄▄▄▄▄▄▄█[0m [32m█[0m
     [32m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
             [33m [0m                              [37m   [0m
-[37m-----------------chop chop----------------------------------------------------- [0m
-[37m      [0m
+[37m-----------------chop chop------------------------------------------------------[0m
+       [37m       [0m
 [37m   hi! this is an ansi that u can use on your board IF u mail me first at[0m
 [37m   darkwing@gim.net.... gr8 huh??  oki... well... now sum greets:[0m
 [37m   vader+allotherbatmembers, ghostface, rezaad, doom, ironeagle and mum[0m

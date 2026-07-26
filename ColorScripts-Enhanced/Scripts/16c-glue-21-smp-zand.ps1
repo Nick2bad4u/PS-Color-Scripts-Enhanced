@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-ZAND.ANS by Shrimp (glue-21); released in glue-21 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
+# Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
@@ -35,6 +35,7 @@ Write-Host '
 [30;47mShrimp[0;1;30;47m░▒▓[0;1;30;40m [0;1;30;47m▓▓▒░░▀▀▀▀▀[0m▄[1;33m▄[0m▄[1;30m▄[0m                             [33mZandura, [0;1;33m+o[0;1;37m:[0m [33msQuinty[0m
 
 [1;30m--8<------8<-----8<---------8<---------8<--------8<-------8<-------8<-----8<----[0m
+
 [1;30mHey, I think this is one of the best art works I have ever made in the past 4[0m
 [1;30myears, if not the best.[0m [1;30mCatch me up on IRC. Love you,[0m
 [1;30mShrimp.[0m

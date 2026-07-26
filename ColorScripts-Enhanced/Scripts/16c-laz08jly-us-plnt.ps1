@@ -43,5 +43,5 @@ Write-Host '
 
 
 [1;30;40mHEN> i said it needed red and yellow.  they thought i was cRAZY!@#  but i KNEW[0m [1;30m [0m
-[1;30m     red and yellow were the ONLY WAY!#$%  THEY MOCKED ME.  WELL I SHOWED THEM!A[0m
-[1;30mHAHHAHAhhahahhahHAHAAEH!H[0m      [1;30mH$HT$>T>!>#>rg!bGtcasg,,..[0m'
+[1;30m     red and yellow were the ONLY WAY!#$%  THEY MOCKED ME.  WELL I SHOWED THEM!![0m
+     [1;30mAHAHHAHAhhahahhahHAHAAEH!HH$HT$>T>!>#>rg!bGtcasg,,..[0m'

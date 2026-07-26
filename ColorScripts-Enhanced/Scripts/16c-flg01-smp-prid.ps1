@@ -10,7 +10,7 @@
 # SAUCE Group: Foliage
 # SAUCE Date: 20010703
 # SAUCE Dimensions: 80x30
-# Lines: 1-29
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
                        [31m     [0;37m  [0;31m   [0m                         [36m.`[0m
 [37m [0;1;32mP[0;36mride.[0m
 [37m────────[cut]───────────────────────────────────────────────────────────────────[0m
+
 [36mI really like this one, don''t ask me why :) try viewing in VGA & 50x80 modes. [0m
 [36mI can''t seem to drop[0;37m [0;36mthis curly-wavy effect on the fonts I draw :))[0m
 

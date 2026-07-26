@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: po-pb01.ans by Portia (equate01); released in equate01 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 46-91
+# Lines: 46-92
 # Columns: 1-80
 
 Write-Host '
@@ -55,4 +55,5 @@ Write-Host '
 [35m  ▄ ░░ [0m    [35m░░[0m   [35m▀[0m              [36mdrying steel ,, burning suns[0m
 [35m ▀▄█[0;1;35m▒[0;1;31m▒[0;35m▄▄[0m        [35m░[0m   [35m░  ░▀[0m      [36mthe memory of an entry wound [0m          [35m░░[0m
 [1;35m░░▒[0;1;35;45m▓▄[0;1;35;40m▒[0;35m▀▐▐[0m        [35m ░▓▄█  [0;1;34m [0;36m   [0m   [36mburns the eyes of the new born[0m      [35m [0;37m [0;35m░▓▓[0m
-[35m  [0;1;35m░[0;35m ▀▀ [0m         [35m░▐[0;1;35m▒▒[0;35m█▄▀[0m        [36mreligion stained dreams tear the[0m    [35m░ ▓██▓▄░[0m'
+[35m  [0;1;35m░[0;35m ▀▀ [0m         [35m░▐[0;1;35m▒▒[0;35m█▄▀[0m        [36mreligion stained dreams tear the[0m    [35m░ ▓██▓▄░[0m
+    [35m░[0m    [35m▓▓▓[0;1;35m░[0m   [35m▓█[0;1;35m░░[0;35m▀▄  ▄[0;37m [0;36m         [0m       [36m  [0m     [36mnew of freedom[0m    [35m ▄[0;1;31m▒[0;1;35m░░░[0;35m█▌[0m'

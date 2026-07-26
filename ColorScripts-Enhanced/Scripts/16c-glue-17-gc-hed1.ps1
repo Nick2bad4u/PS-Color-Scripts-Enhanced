@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GC-HED1.ANS by Galanacer (glue-17); released in glue-17 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
+# Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
@@ -32,6 +32,7 @@ Write-Host '
 [36mh[0;1;36me[0;1;32mdo[0;31mn[0;1;31mic,[0;1;35m.[0;35m.[0m       [31m░[0;30;41m▓[0;31;40m░[0;37;40m  [0;31;40m░░[0;30;41m▓[0;37;40m [0;31;40m░[0;37;40m [0;31;40m░[0;30;41m▓[0m                             [35;40m░[0;30;45m░[0;35;40m▓[0;1;35;40m▓▓░░░░[0m
                                                             [35m░░[0;30;45m▓[0;35;40m░[0m
 [37;40m-(cut)------------------------------------------------------------------------- [0m
+
 [37;40mAgain this is Galanacer, formerly Boba Fett with another attempt at ansi...  my[0m
 [37;40msecond in months so give me a break...  Anyway due to some criticism from[0m
 [37;40mWarpus I have decided to experiment some more with colors.  Please comment, all[0m

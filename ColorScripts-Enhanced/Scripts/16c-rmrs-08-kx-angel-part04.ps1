@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KX-ANGEL.ANS by Kxmode (rmrs-08); released in rmrs-08 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 147-196
+# Lines: 146-195
 # Columns: 1-80
 
 Write-Host '
+[34m~~[0;1;34m~[0;1;30m:[0;1;37m    [0mtranquility in truth[1m.      [0m:[34m:~[0;1;34m~~~[0;33m [0;1;33mRUUI[0;33m$$$l$$$X$$$$N#RM!!!!!!R[0;1;33m$[0;33mX$$$$MMM[0m
 [34m~~~[0;1;30m:[0;1;37m   [0mi have been here before[1m.    [0m:[34m~[0;1;34m~~~ [0;33m [0;1;33m:!!![0;33m$$>l>>$>!$$!!!$:~!::!:![0;1;33m![0;33m:>>$$#$#[0m
 [34m~~~[0;1;30m:[0;1;37m   [0minnerjoy through unheld[1m     [0m:[34m~~[0;1;34m~~~[0;33m  [0;1;33m<%%[0;33m$###%%$$$$$$>$&&**!!!:>[0;1;33m:[0;33m::$  ~ [0;1;37m  [0m
 [34m~~~[0;1;30m:[0;1;37m    [0m   commitments[1m.[0m     [1m       [0m:[34m~[0;1;34m [0;34m~[0;1;34m~~~[0;1;37m   [0;1;33m :#[0;33m$ :  @ .    <>~"  $n.     $#.[0;1;37m  [0m
@@ -58,5 +59,4 @@ Write-Host '
 [1m  [0;1;30m         [0;1;37m      [0m    [1m. c             [0;1;30m  [0;1;37m+[0;1;30m!$[0mMX@[1;30m![0m![1;30m![0m*[1;30m~[0m"[1;30m`[0m`[1;30m ..usX!R8M@@$$[0;1;37m$8$[0m@[1;30m$$MN[0m!!![1m [0m
  [1m    [0m [1m      `    [0m !#x[1mMH "           .[0;1;30m  [0;1;37m^[0mX#[1;30m     ...ue@$$@$MNMRR$$$t?R?!M!!!#   [0;1;37m [0m
   [1m   [0m.[1m [0m [1m    .   ''[0m*" U[1m %      [0m+[1m  [0;1;30m   [0;1;37m8E[0;1;30m [0;1;37m~`![0;1;30m-..ueW$R*R*$TMMM$""""`)`[0;1;37m              [0m
-    [1m [0m"[1m [0m [1m         [0m.xe *F''[1m        :W$W[0;1;30mooddNd$$R@8MMXH@[0;1;37m"[0m   ^"[1m  [0m4CCx[1m !       . )?  [0m
-    [1m [0m [1m [0m.[1m  [0m.[1m     X[0m`` M ( [1m  x    :!~[0;1;30m"T#?MM!###!!~`*$R [0;1;37m.[0m(.UUW[1m  [0m`!!:[1m   .      [0m!([0m'
+    [1m [0m"[1m [0m [1m         [0m.xe *F''[1m        :W$W[0;1;30mooddNd$$R@8MMXH@[0;1;37m"[0m   ^"[1m  [0m4CCx[1m !       . )?  [0m'

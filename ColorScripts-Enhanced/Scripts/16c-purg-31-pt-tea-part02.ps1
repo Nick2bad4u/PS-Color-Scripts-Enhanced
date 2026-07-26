@@ -24,8 +24,8 @@ Write-Host '
                       [31m▀[0;1;31m▀▀▀[0m [31m▄▄[0;1;31m▄[0;34m▄[0;1;34m▄[0m [34m░[0m             [1;30m▒[0m▒▒▒▒                [31m▀[0;1;31m▀[0m
                                  [34m░[0m             [1;30m▒▒▒▒▒[0m
 
-==============================-====Ç|_|7=======================================m
-y goal in this version was to draw something drasticly fucked up.
+==============================-====Ç|_|7========================================
+        my goal in this version was to draw something drasticly fucked up.
 
         there are two perspectives to this ansi. the sideways(what you
         probably see when you first look) and the shadowed(he''s looking

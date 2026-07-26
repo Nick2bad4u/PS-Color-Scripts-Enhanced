@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-AMEN.ANS by Cyberpunch (rib-003); released in rib-003 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
+# Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
@@ -32,4 +32,5 @@ Write-Host '
 [34m██[0;1;34;44m░░[0m [1;34;46m▌░ ▐[0m [34m██▌██[0;37m [0;1;35;45m▒▓█▌[0;35m▒[0;35;44m░░░░░[0;34;40m▌███▌█[0;37;40m [0;1;32;42m▐[0;1;37;42m██[0;1;32;42m▌[0m [34m▐██[0;1;34;44m██▌[0m   [34m▐[0;1;34;44m█[0;1;34;47m▓[0;34m▌[0;37m  [0;34mmain commands [0;37m [0;34m▐[0;1;34;44m█▌[0;34m▒░░░░ [0m
 [34m▓▓██[0;37m [0;1;34;46m▒▄▄▐[0m [1;34;44m░░[0;34m▌█▌[0;35m▐[0;1;35;45m█[0;1;37;40m█[0;1;35;45m█[0;35m▌[0;34m▐▀▀▀▀▀ [0;32m▄▄▄▄▄▄[0;1;32;42m▄█[0;1;37;42m█[0;1;32;42m█[0;32m▌[0;37m [0;34m█[0;1;34;44m▐▀[0;34m▀[0;37m [0;34m░░[0;37m  [0;34m▀[0;1;34;44m▀▌[0;34m     [0;37m [0;34mmenu[0;37m  [0;34m     [0;1;34;44m▐▀[0;34m▀[0m     [34m [0m
 [34m▐[0;1;34;44m▄[0;34m██▄▄▄▄▄▄██▌█[0;37m [0;1;35;45m▐▀▀▒░[0;35m█[0;32;45m░▒▓▓[0;32;40m███▀▀▀▀▀▀▀▀▀▀[0;37;40m [0;34;40m██▌ ▄▒▒[0m   [34;40m▐▓▌drawed by {Ph?!▐▓▌[0m    [34;40m▄[0;37;40m [0;34;40m░░[0m
-[34;40m ▀▀▀▀▀▀▀▀▀▀▀[0m                 [34;40m▀▀▀▀▀▀██▓▓██▀▀▀▀▀▀▀▀▀▀[0m                 [34;40m▀▀▀▀█ ▀▀▀▀▀ [0m'
+[34;40m ▀▀▀▀▀▀▀▀▀▀▀[0m                 [34;40m▀▀▀▀▀▀██▓▓██▀▀▀▀▀▀▀▀▀▀[0m                 [34;40m▀▀▀▀█ ▀▀▀▀▀ [0m
+                                  [34;40m [0m'

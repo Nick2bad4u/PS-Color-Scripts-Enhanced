@@ -10,10 +10,11 @@
 # SAUCE Author: Glutz
 # SAUCE Group: Hallucigenia
 # SAUCE Dimensions: 80x25
-# Lines: 29-53
+# Lines: 29-54
 # Columns: 1-80
 
 Write-Host '
+                              [1;30m                    [0m
                             [1;30m    [0m             [1;30m   [0m
                        [1;30m     [0;30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;1;30;40m    [0m
                     [1;30m      [0;30;47m▀[0;1;30;47m▄██████████████▄[0;30;47m▀[0;1;30;40m     [0m

@@ -6,10 +6,13 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DTU-PUBE.ANS by Deathlok The Ugly (cnc-0494); released in cnc-0494 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 149-191
+# Lines: 149-196
 # Columns: 1-80
 
 Write-Host '
+               [1;34mta[0;34mke h[0;31mim [0;34mover as he wipes [0;31mthe [0;34mblood [0;31mform h[0;34mis d[0;31magg[0;1;30me[0;1;34mr[0m
+       [1;37mB[0;1;34mlood Flows [0;34mFree [0;31mFrom the steaming cor[0;34mpse i[0;31ms Pulled [0;34min[0;31mto [0;1;34man inferm[0;1;30mo[0m
+             [1;37mN[0;1;34moise h[0;34mairs [0;31mTwitch at t[0;34mhe sm[0;31mel[0;34ml of [0;31mBurning F[0;34mle[0;31ms[0;1;34mh Pollute[0;1;30ms[0m
                              [1;34mT[0;34mhe [0;31mLast [0;34mConsicra[0;31mted [0;34mair[0;1;30m.[0m
               [1;37mP[0;1;34mossesed By The t[0;34mhoug[0;31mht of watch[0;34ming anoth[0;1;34mer mans deat[0;1;30mh[0m
                             [1;34mh[0;31me t[0;34murns [0;31mtowards T[0;34mhe mirrow[0;1;30m,[0m
@@ -23,6 +26,7 @@ Write-Host '
 
 
 
+
 [1m░▒▓███████████   ░▒▓█   ░▒▓█    ░▒▓████████[0m     [1m░▒▓██████▓▒░[0m       [1m░▒▓████████[0m
 [1m    ░▒▓█▒▒▒▒▒▒▒  ░▒▓█▒  ░▒▓█▒   ░▒▓█▒▒▒▒▒▒▒▒    ░▒▓█▒▒▒▒▒▒▓▒░[0m      [1m░▒▓█▒▒▒▒▒▒▒▒[0m
 [1m    ░▒▓█▒[0m        [1m░▒▓█▒  ░▒▓█▒   ░▒▓█▒[0m           [1m░▒▓█▒[0m     [1m▓▒░▒[0m     [1m░▒▓█▒[0m
@@ -32,6 +36,7 @@ Write-Host '
 [1m    ░▒▓█▒[0m        [1m░▒▓█▒  ░▒▓█▒   ░▒▓█▒[0m           [1m░▒▓█▒    ░▒▓█[0m      [1m░▒▓█▒[0m
 [1m    ░▒▓█▒[0m        [1m░▒▓█▒  ░▒▓█▒   ░▒▓█████████    ░▒▓█▒[0m      [1m░▒▓█    ░▒▓█████████[0m
      [1m▒▒▒▒[0m         [1m▒▒▒▒   ▒▒▒▒    ▒▒▒▒▒▒▒▒▒▒▒▒    ▒▒▒▒[0m       [1m▒▒▒▒    ▒▒▒▒▒▒▒▒▒▒▒▒[0m
+
           [1m░▒▓█[0m        [1m░▒▓████████[0m                 [1m░▒▓████▒[0m
            [1m▒▒▒▒[0m       [1m░▒▓█▒▒▒▒▒▒▒▒[0m                [1m░▒▓█████▒[0m
           [1m░▒▓█▒[0m       [1m░▒▓█▒[0m                     [1m░▒▓█▒ ▓████▒[0m

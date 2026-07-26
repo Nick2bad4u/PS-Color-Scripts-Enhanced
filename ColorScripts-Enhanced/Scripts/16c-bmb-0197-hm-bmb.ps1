@@ -11,7 +11,7 @@
 # SAUCE Group: Bamboosh
 # SAUCE Date: 19961230
 # SAUCE Dimensions: 80x21
-# Lines: 1-20
+# Lines: 1-21
 # Columns: 1-80
 
 Write-Host '
@@ -32,5 +32,6 @@ Write-Host '
        [35m  ▀▀▀██████████████[0;33;45m  [0;35;40m█[0;33;45m [0;35;40m██[0;33;45mb a m b o o s h [0;35;40m████████████████████▀▀▀  [0m
 
                                                                     [35;40m [[0;33;40mhead m[0;35;40mO[0;33;40mnk[0;35;40m][0m
+
 [1;30;40m--[0m
 [1;30mkinda ugly! to much colors! stinx![0m'

@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HX-KEG.ICE by Hoaks (ice-9404); released in ice-9404 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 96-131
+# Lines: 99-135
 # Columns: 1-80
 
 Write-Host '
+               [1;34m▄█▄[0m                                                   [35m▄▄[0m
 [35m °■▄  ▄▀▀▄▀▀ [0;34m▄[0;1;34m██▀ ▄ [0;35m▀▀▄[0m       [35m°■▄  ▄▀▀▄▀▀▄▄▄[0m                      [35m▄■▀  ▀▀■.[0m
 [35m [0;34m───[0;35m▀▀[0;34m────▄[0;1;34m█▄[0;34m─▀[0;1;34;44m▀[0;1;34;40m██[0;34m─[0;1;34m▄█[0;34m▄─[0;35m▀■[0;34m────[0;1;34m▄▄▄[0;34m─[0;35m▀▀[0;34m─────────[0;35m▀■▄[0;34m────────────────[0;35m▄■▀[0;34m─∙ESOTERiC∙──[0m
         [1;34m▄  [0;34m▀[0;1;34m██▄ [0;34m▀[0;1;34;44m▀█▀[0;34m▀  [0;35m▄▀  [0;1;34m▄▀  ▀█[0;1;34;44m▓[0;1;34;40m▄[0m          [35m▄▀[0m                 [35m▀▄[0m

@@ -6,10 +6,13 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-ORDER.ANS by Hunter (bli-0994); released in bli-0994 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 79-118
+# Lines: 87-129
 # Columns: 1-80
 
 Write-Host '
+[1;34;46m░░░░░░░░░[0;1;34;40m [0;31;44m▓▓▓▒▒▒▒▒▒░░░░░░░░░░░░░░░[0;34;40m░▒▓▓▓▓█[0;34;44m [0;32;44m░▒▒▓▒▓▓▓▒[0;1;37;40m∙▄▄█████▌ [0;32m▓█▌[0m
+[1;34;46m░░░░░░░░░░[0;1;34;40m [0;31;44m▓▓▓▒▒▒▒▒▒░░░░░░░░░░░░[0;34;40m░░░░░▓▓▓[0;34;44m  [0;32;44m░▒▒▓▓▓▒▒[0;32;40m [0;1;37;40m■  ▀▀▀█▀ [0;32;44m▓▓[0;32;40m▓█▌[0m
+[1;34;46m░░░░░░░░░░[0;1;34;40m [0;31;44m▓▓▓▓▒▒▒▒▒░░░░░░░░░[0;34;40m░░░░ ▄▄▄▄░▓▓█[0;34;44m [0;32;44m░▒▒▓[0;32;40m  [0;34;42m░░[0;32;44m░░░[0m      [32;44m▓▓▓[0;32;40m▓█▌[0m
 [1;34;46m░░░░░░░░░░[0;1;34;40m [0;31;44m▓▓▓▓▓▒▒▒▒▒░░░░░░░[0;34;40m░░░ ████████▓▓[0;34;44m  [0;32;44m░▒▒▓[0;34;42m░░[0;32;44m▓[0;1;33;42m▒▒▒▒▒▓█[0;32;44m▓▓▓▓▓▓[0;32;40m▓█▌[0m
 [1;34;46m░░░░░░░░░░░[0;1;34;40m [0;31;44m▓▓▓▓▒▒▒▒▒▒░░░░░░[0;34;40m░░ ████  ▒▒██░██[0;34;44m [0;32;44m░▒▒[0;34;42m░[0;32;42m██████[0;1;33;42m░▒▓█[0;32m▓▓[0;32;44m▓▓▓[0;32;40m▓▓█▌[0m
 [1;34;46m░░░░░░░░░░░░[0;1;34;40m [0;31;44m▓▓▓▓▒▒▒▒▒▒░░░░░[0;34;40m░░ ████   ▒████░[0;32;44m░▒▒[0;34;42m▓▒░[0;32;42m██████[0;1;33;42m░▒▓█[0;32m░░░▒▓███▄[0m

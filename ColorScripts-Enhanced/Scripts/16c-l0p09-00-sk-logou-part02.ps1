@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!LOGOU.ANS by Simonking (l0p09_00); released in l0p09_00 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 27-53
+# Lines: 26-51
 # Columns: 1-80
 
 Write-Host '
+
 [34m▒▒▒▒▒▒▒░░░░░[0;37m  [0;1;30m%simonking/thelo0p[0m              [34m░░░░░░░░░[0m             [34m░░░░░░░░░░░[0m
 [34m▓▓▓▓▓[0m        [37m               [0;34m░░░[0;37m  [0m    [1;34m▄▄▄▄▄▄[0m      [34m▒▒▒▒▒▒░░░░░░░░░░░░░░░[0m    [34m░░░░░[0m
 [34m████ [0;37m [0;1;34;46m▒▒▒▒▒[0m   [34m░░[0;37m  [0m   [1;34m▄▄▄▄▄▄[0m      [1;34m▐[0;1;34;46m▓▓▓▓▒▒▒▒▒░░░[0m     [34m▓▓▓▓[0m                   [34m▒▒▒▒▒[0m
@@ -33,6 +34,4 @@ Write-Host '
 [34m▒▒▒░[0m    [1;34m▀▀▀▀▀▀[0m    [34m▒▒[0;37m  [0;34m▀[0;1;34;44m▓▓▓▓▓▓▓[0;1;34;40m▀▀▀[0m   [34m▒▒▒▒▒▒▒▒[0;37m [0;1;34;46m▒▒▒▒▒[0m  [34m░░░[0m                   [1;37m██[0m
 [34m░░░░░░░░[0m        [34m░░░░░░[0m    [37m       [0;34m░░░░░░░░░░░[0m        [34m░░░[0m                     [1;37m [0m██
 [34m░░░░░░░░░░░░░░[0m         [34m [0;1;36ml[0;36mo[0;1;34mg[0;34mou[0;1;30mt[0m                 [34m░░░░░░░░[0m                   [1;30m██[0m
-                                                                             [1;30msK![0m
-→SAUCE00logout                             sIMONkING           tHElo0p
-  ☺☺P ↑[0m'
+                                                                             [1;30msK![0m'

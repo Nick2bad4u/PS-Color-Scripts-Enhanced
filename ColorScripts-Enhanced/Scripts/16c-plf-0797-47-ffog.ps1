@@ -10,7 +10,7 @@
 # SAUCE Author: dflower
 # SAUCE Group: phobia
 # SAUCE Dimensions: 80x25
-# Lines: 1-36
+# Lines: 1-37
 # Columns: 1-80
 
 Write-Host '
@@ -48,5 +48,6 @@ Write-Host '
                                [1;31m [0m [1;31m [0m
 
 [1;30m--------------------------------------------------------------------------------[0m
+
  [31mmade for stridh''s funeral fog. [0m
 [37m [0;31mdedicated to emma ♥[0m'

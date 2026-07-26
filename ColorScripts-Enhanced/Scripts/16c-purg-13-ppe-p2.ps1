@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPE-P2.ANS by Purplee (purg-13); released in purg-13 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
+# Lines: 1-28
 # Columns: 1-80
 
 Write-Host '
@@ -36,4 +36,5 @@ Write-Host '
 
 
 [1;33m..debypurpleeforthemostawsomegrouppurgjoinpurgon#purgefnetyeppewhyareyoustills..[0m
+
    [1mthiz iz my 2:nd[0m [1mascee for purg .. hope yo''ll like it =)[0m'

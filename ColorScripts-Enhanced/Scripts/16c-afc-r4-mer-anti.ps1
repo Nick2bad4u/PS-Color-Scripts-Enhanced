@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MER-ANTI.ANS by Mercer (afc-r4); released in afc-r4 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-45
+# Lines: 1-46
 # Columns: 1-80
 
 Write-Host '
@@ -46,6 +46,7 @@ Write-Host '
 [1;32m█████████████████████████████████████████████████▌[0;1;37;47m░░░░░░░░░░░░░░░░░░░ [0m▀[1;32m▄████████[0m
 [1;32m██████████████████████████████████████████████████▄[0m▀[47m [0;1;47mα∩s¡ ßµ M≡ΓC≡Γ [0m▀[1;32m▄[0;1;32;47m██████████[0m
 [1;32;40m████████████████████████████████████████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄████████████[0m
+
 [1;32;40m [0;1;37;40mY[0;1;36;40mO[0;1;34;40mU [0;1;37;40mW[0;1;36;40mAN[0;1;34;40mT [0;1;37;40mT[0;1;36;40mHI[0;1;34;40mS [0;1;37;40mG[0;1;36;40mU[0;1;34;40mY [0;1;37;40mT[0;1;36;40mO [0;1;37;40mANT[0;1;36;40mI-FRE[0;1;34;40mEZE [0;1;37;40mY[0;1;36;40mOU[0;1;34;40mR [0;1;37;40mREFRI[0;1;36;40mDGERA[0;1;34;40mTOR? [0;1;37;40mN[0;1;36;40mO[0;1;34;40m? [0;1;37;40mT[0;1;36;40mHE[0;1;34;40mN [0;1;37;40mC[0;1;36;40mAL[0;1;34;40mL [0;1;37;40mQU[0;1;36;40mICK[0;1;34;40mLY [0;1;37;40mT[0;1;36;40mO[0m
 
 [36m▐█▌ █▌ █ ███ █[0m     [36m███ ██▌ ███ ███ ███ ███ [0;34m·∙■ (90) 2258936[0m

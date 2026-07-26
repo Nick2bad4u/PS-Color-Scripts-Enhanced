@@ -46,5 +46,5 @@ Write-Host '
 [34m$$$$$ⁿ[0m    [34ml$$ⁿⁿⁿ^^^      ''$╝ⁿⁿ^^^"""""[0m            [34m"""  ^ⁿⁿ[0m       [34m''[0m         [34m$$$$$[0m
 [34m$$$ⁿ[0m      [34m:[0m              [34mⁿ''[0m                                             [34m:[0m   [34m$$$$[0m
 [34m$$''[0;37m [0;34m   [0m                                                                  [34mⁿ,  $$$[0m
-[34mⁿ╝+,[0m                           [1;34mboil proudly presents[0m                         [34m`ⁿ[0;1;34m"[0m
-[1;34malien workshop"[0m                            [34mjer[0m'
+[34mⁿ╝+,[0m                           [1;34mboil proudly presents[0m                         [34m`ⁿⁿ[0m
+                                 [1;34m"alien workshop"[0m                            [34mjer[0m'

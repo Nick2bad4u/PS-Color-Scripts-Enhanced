@@ -11,7 +11,7 @@
 # SAUCE Group: swat,surge,twisted
 # SAUCE Date: 19970416
 # SAUCE Dimensions: 80x30
-# Lines: 1-28
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -37,7 +37,9 @@ Write-Host '
 [36m$$$$$$$$[0;1;30m $$$$$h[0;1;32m`$$$$$$$$$$$$$$[0;32m$.[0;36m [0;1;30mn [0;36mnnn$$$$$$$$$$$$$$$$n.[0m                      [36m,$[0m
 [36m$$$$$$$$[0;1;30m,$$$$$$$nnnnnnnnnnnnnnnn$''[0;36m$$$$$$$$$$$$$$imi^srg$n.[0m                   [36m,$$[0m
 [36m$$$$$$$[0;1;30m $$$$$$$$$$$$$$$$$$$$$$$$$ [0;36m$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;30m $$$$$$$$$$$ [0;36m$$$$$$$$[0m
+
 [1;30m---------------[0m [1;30mOh, yet another grey line to cut away --------------------------[0m
+
 [1;30mThis parrot was my friend when I lived in the jungle. I called him Polly.[0m
 [1;30mBut I killed him when he bit on my tail. [0m
 [1;30mThe background sucked, eh?[0m

@@ -6,11 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FR-BC.ANS by Fracture (cnc-0494); released in cnc-0494 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 50-99
+# Lines: 51-100
 # Columns: 1-80
 
 Write-Host '
-[1;37;47m██▓▒░ [0;1;30;47m░▒▓█[0m                      [1;37;40m█[0;1;37;44m     [0;1;34;44m░▒[0;1;30;40m█[0m                             [1;30;47m█▓▒░ [0;1;37;47m░▒▓██[0m
 [1;37;47m██▓▒░ [0;1;30;47m░▒▓█[0m                      [1;37;40m█[0;1;37;44m    [0;1;34;44m░▒▓[0;1;30;47m▀[0;1;37;40m▄▄▄▄▄▄▄▄[0m                     [1;30;47m█▓▒░ [0;1;37;47m░▒▓██[0m
 [1;37;47m██▓▒░ [0;1;30;47m░▒▓█[0m                      [1;37;40m█[0;1;37;44m   [0;1;34;44m░▒▓█▓█▓▒░   [0;1;30;40m█[0m                     [1;30;47m█▓▒░ [0;1;37;47m░▒▓██[0m
 [1;37;47m██▓▒░ [0;1;30;47m░▒▓█[0m                      [1;37;40m█[0;1;37;44m  [0;1;34;44m░▒▓█▓▒▓█▓▒░  [0;1;30;40m█[0m                     [1;30;47m█▓▒░ [0;1;37;47m░▒▓██[0m
@@ -57,6 +56,7 @@ Write-Host '
 [1;37;47m█████▓▒░ [0;1;30;47m░▒▓█[0m                                                      [1;30;47m█▓▒░ [0;1;37;47m░▒▓█████[0m
 [1;37;47m██████▓▒░ [0;1;30;47m░▒▓█[0m           [1;30;40mG[0me[1mt [0;1;31mN[0;31mu[0;1;31mP [0;1;37mfrom any QuALiTY BoaR[0mD[1;30m![0m          [1;30;47m█▓▒░ [0;1;37;47m░▒▓██████[0m
 [1;37;47m███████▓▒░ [0;1;30;47m░▒▓█[0m                                                  [1;30;47m█▓▒░ [0;1;37;47m░▒▓███████[0m
-[1;37;40m───[0m─────[1;30m────────────────────────────────────────────────────────────────[0m─────[1m──a[0m
-N[1;30mSi B[0my[1m: f[0mrac[1;30m┼[0mur[1me    ([0mc[1;30m) 1[0m99[1m4    A[0mll [1;30mRights Reser[0mve[1md[0m
+
+[1;37;40m───[0m─────[1;30m────────────────────────────────────────────────────────────────[0m─────[1m───[0m
+              [1ma[0mN[1;30mSi B[0my[1m: f[0mrac[1;30m┼[0mur[1me    ([0mc[1;30m) 1[0m99[1m4    A[0mll [1;30mRights Reser[0mve[1md[0m
 [1m───[0m─────[1;30m────────────────────────────────────────────────────────────────[0m─────[1m───[0m'

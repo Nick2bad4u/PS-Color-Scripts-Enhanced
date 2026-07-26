@@ -11,11 +11,12 @@
 # SAUCE Group: homeless
 # SAUCE Date: 20000111
 # SAUCE Dimensions: 80x32
-# Lines: 1-30
+# Lines: 1-32
 # Columns: 1-80
 
 Write-Host '
 [1m░░▒▓ (( begin )) ▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▓▓▓███[0m
+
 
 
                  [33m▄[0;37m  [0;32m▀▀▄▄[0;1;33;42m▄[0;32m▄ [0m             [33m▄[0;32m [0m
@@ -39,6 +40,7 @@ Write-Host '
 
 
 [1;37m░░▒▓ (( end )) ▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▓▓▓███[0m
+
 [1mthis guest ansi was made just to let the world see my style 1once again.[0m
 [1mhope you enjoy it, beacause i lost the spirit of joy about ansi :([0m
 [1mbigtime respect too the "always ECOLOVE" members.[0m

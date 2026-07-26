@@ -10,7 +10,7 @@
 # SAUCE Author: [Joint Effort]
 # SAUCE Group: Department 38
 # SAUCE Dimensions: 80x25
-# Lines: 1-31
+# Lines: 1-33
 # Columns: 1-80
 
 Write-Host '
@@ -41,7 +41,9 @@ Write-Host '
      [1;30m ▄   ▄▄▄▄  ▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄█░[0m  [1;30m6-49-410-6940[0m
                                           [1;30m░[0m          [1;30m  [0m
 [30;41mPicture By [0;1;31;41mM[0;30;41madcap And Font By [0;1;31;41mB[0;30;41mlind [0;1;31;41mS[0;30;41mniper Of The [0;1;31;41mD[0;30;41mepartment [0;1;31;41mT[0;30;41mre-[0;1;31;41mE[0;30;41might░░░▒▓▓██▓▓[0m
+
 [37;40m>Cut It Up Son<-----------------------------------------------------------------[0m
+
 [1;30;40m[[0;1;32;40mBlind Sniper[0;1;30;40m] [0;32mNot bad for a quicky font is it?[0m
                [32mRip this font and I''ll rip slugs through your chest because this[0m
                [32mansi is obviously for my bbs called tHE AGENCY[0m'

@@ -11,7 +11,7 @@
 # SAUCE Group: SeNSE
 # SAUCE Date: 19980608
 # SAUCE Dimensions: 80x27
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -36,6 +36,7 @@ Write-Host '
 [1;32ml[0m                                                                              [32ml[0m
 [32m$,[0m                                                                            [32m,[0;1;32m$[0m
 [1;32m`╙[0;32mb,[0;1;32m.[0;32m_[0m    [32m_[0m     [32m_[0;37m  [0;32m_[0m        [32m_[0;37m [0;32m_[0m          [32m_[0m            [32m__[0m   [32m_[0m           [32m_[0;37m  [0;1;32m_[0;32m.,[0;1;32md╜[0;32m''[0m
+
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
 [1;30mDone for Lord Esher, the sysop of yet another board in 403.  932-0935, give it[0m
 [1;30ma call. :)[0m

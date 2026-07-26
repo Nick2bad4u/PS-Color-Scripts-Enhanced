@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-DM1.ANS by Boba Fett (laz07jun); released in laz07jun and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-35
+# Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
 [34m░[0;30;44m▓[0m                               [34;40m░[0;30;44m▓[0;34;40m░[0;37;40m [0;33;40m▀▀▄▄[0;1;33;43m░[0m [33m  [0;37m  [0;33m  [0;37m  bitch!@%!&! [0;33m▐▌[0;37m  [0;33m▄▀ ▐▌[0m   [33m▐▌[0m
 [30;44m░[0;34;40m▓░[0;30;44m▓[0;1;37;40mbobafett! / lAZ![0m           [34m░[0;30;44m▓░[0;34;40m▓▓░[0;37;40m [0;33;40m▀[0;1;33;43m▀[0;33m▀▄[0;1;33;43m▄[0;33m▄    [0m                [33m▀■[0;37m [0;33m   [0;37m [0;33m▀[0;34m [0;33m▄[0;37m [0;33m▀[0m
 [1;30m---<[0;1;37msplice it here![0;1;30m>------------------------------------------------------------[0m
+
 [1mw000!  Here I am in lazarus...[0m  [1mThanx to Hennifer and Grind King for allowing me[0m
 [1ma chance to show you guys what I''m made of.  [0m
 

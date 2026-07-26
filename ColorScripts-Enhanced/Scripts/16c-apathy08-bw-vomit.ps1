@@ -11,16 +11,16 @@
 # SAUCE Group: Apathy
 # SAUCE Date: 19960316
 # SAUCE Dimensions: 80x25
-# Lines: 1-36
+# Lines: 1-37
 # Columns: 1-80
 
 Write-Host '
-       [1m▄[0m     [1m▀▀█▄[0;1;30m [0m    [1m▄▄███▄[0m  [1;30m<---not the most intellectually depth header but.[0;1m█[0m
-[1m██[0m [1m▄▄███▄▄[0;1;30m  [0;34m▄[0;37m [0;1;37m███████▌[0m
-     [34m▌[0;1;37m▐████▄██████[0;1;30m [0;34m [0;1;37m▐██████▀[0m    [1;30msup yee''all.. give it up harlem for the toony  [0;34m█[0m
-[34m█[0;37m [0;1;37m███████████[0m [1;30m [0;1;37m█████▀[0m [34m▄█[0m    [1;30mdewdler himself, the jive to be[0m [1;30mfrom apathy mr.[0m   [34m▐█[0m
-[34m█▌[0;1;37m▐████████▀[0;1;30m [0m▄[1;47m▄[0;1;40m▄███[0;1;30;40m  [0;34m███▌[0;37m [0;1;30mballs "get your hand outta my pants for the last [0m    [34m█[0m
-[34m██[0;37m [0;1;37m███▀▀▀[0;1;30m  [0m▀[1;47m▄[0;1;40m▀[0;1;30;40m [0;1;37;40m▀█▀[0;1;30;40m [0;34m ████[0m     [1;30mtime!@" wilson, baby!@ [0m
+       [1m▄[0m     [1m▀▀█▄[0;1;30m [0m    [1m▄▄███▄[0m  [1;30m<---not the most intellectually depth header but..[0m
+      [1m███[0m [1m▄▄███▄▄[0;1;30m  [0;34m▄[0;37m [0;1;37m███████▌[0m
+     [34m▌[0;1;37m▐████▄██████[0;1;30m [0;34m [0;1;37m▐██████▀[0m    [1;30msup yee''all.. give it up harlem for the toony   [0m
+    [34m██[0;37m [0;1;37m███████████[0m [1;30m [0;1;37m█████▀[0m [34m▄█[0m    [1;30mdewdler himself, the jive to be[0m [1;30mfrom apathy mr.[0m
+   [34m▐██▌[0;1;37m▐████████▀[0;1;30m [0m▄[1;47m▄[0;1;40m▄███[0;1;30;40m  [0;34m███▌[0;37m [0;1;30mballs "get your hand outta my pants for the last [0m
+    [34m███[0;37m [0;1;37m███▀▀▀[0;1;30m  [0m▀[1;47m▄[0;1;40m▀[0;1;30;40m [0;1;37;40m▀█▀[0;1;30;40m [0;34m ████[0m     [1;30mtime!@" wilson, baby!@ [0m
      [34m▀█▄ [0;1;37m▀[0m ▄▄[1;47m▄▄▄[0m▄[1;30m [0m▄[1;47m▄[0m▄ ▄[1;47m▄[0;1;40m▄[0;34m █▀[0m                [1;30mrough rough rough-> ,o>[0m [1;30m_o> _O)[0m
         [34m▀ [0m    [1;37m▀▀▀▀▀▀▀▀▀▀[0m [34m [0m    [1;30mremember the Arsenio Hall show! [the dog pound][0m
 [1;30m   [0m                            [1;30mreach me at p0o! or toastyCoM[0m [1;30mor else, baby!@[0m
@@ -46,8 +46,9 @@ Write-Host '
 [33m▄[0;1;31m ▀█[0m   [34m■▀█▄[0;1;30m [0;34m▀█████▀[0;37m  [0;34m██████████[0;1;30m [0;34m▀■▄[0;33m▀▀[0;1;30m▄▄[0;1;30;42m▄[0;32m████▄▄[0;1;31m▀[0m █▌        [1;5m3 p.m. [0mto [1;5m7 p.m.[0m     [1;30m│[0m
 [1;31;43m ▀[0;1;31;40m▄██▄[0m    [34m██[0;37m [0;34m▐███▀[0m   [34m▐██████████▄[0;37m     [0;1;30m▀▀██[0;1;30;42m▄■[0;32m█▀[0;37m ▀█          art / no warez  [0m    [1;30m│[0m
 [1;31m [0;33m▀▀[0;1;31m▀ [0;34m [0;37m  [0;34m▄█▀[0;37m [0;34m▄█▀▀ [0m   [1;30m [0;34m██████████████▄▄[0;37m           ▐         6o2 . 917 . 0516     [0;1;30m│[0m
-  [1;31m [0m  [34m■▀▀ [0;37m  [0;34m▀[0m       [34m▄█████████████[0;1;34;44mbw![0;34m▀▀ [0m        [37m▄[0;1;37;47m▒[0;1;37;40m▄[0m      op''d by Balls Wilson   [1;30m [0m
- [1;30m [0;34m▀▀▀▀▀█████▀▀▀[0;1;30m [0m [34m▄█▄[0m        [37m [0;1;37m▀[0m             Kamikaze         [1;30m│[0m
+  [1;31m [0m  [34m■▀▀ [0;37m  [0;34m▀[0m       [34m▄█████████████[0;1;34;44mbw![0;34m▀▀ [0m        [37m▄[0;1;37;47m▒[0;1;37;40m▄[0m      op''d by Balls Wilson   [1;30m│[0m
+                  [1;30m [0m [1;30m [0;34m▀▀▀▀▀█████▀▀▀[0;1;30m [0m [34m▄█▄[0m        [37m [0;1;37m▀[0m             Kamikaze         [1;30m│[0m
+
 --_ever wonder what life would be like without ansi!@&^&$# AHAHAHAAAHAHAHA!@#_--
 w0W00w0w0W00wWOOW00!@#@! yeah a 24 line ad for my board.. woo woo woo.. i
 normally use it for umm message ads.. ohwell in da paq and under attaq!@#[0m'

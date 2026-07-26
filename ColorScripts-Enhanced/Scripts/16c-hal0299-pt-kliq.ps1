@@ -10,7 +10,7 @@
 # SAUCE Author: Produkt
 # SAUCE Group: Hallucigenia
 # SAUCE Dimensions: 80x25
-# Lines: 1-29
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,4 @@ Write-Host '
                                        [1;36m▒▄▄[0m [1;30m▀▀[0;1;30;47m▓▒▓[0;1;30;40m█[0;1;36;40m▓▒[0m
                                        [1;36m░[0m [1;36m▓▓[0m  [1;36m░[0m    [1;36m░[0m
                                          [1;36m▒[0m        [1;36m░[0m
-                                       [1;36m░[0m [1;36m░[0m
-[1;36m→SAUCE00Kliq                               Grimmy              Hallucigenia     [0m
-[1;36m               ☺☺P ↓                             [0m'
+                                       [1;36m░[0m [1;36m░[0m'

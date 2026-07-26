@@ -11,7 +11,7 @@
 # SAUCE Group: .%.AXss.%. -97
 # SAUCE Date: 19970708
 # SAUCE Dimensions: 80x38
-# Lines: 1-37
+# Lines: 1-38
 # Columns: 1-80
 
 Write-Host '
@@ -47,6 +47,7 @@ Write-Host '
 [1;30m─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-[0m
   [30;44mN[0;1;32;40mame[0;34m: [0;30;44mI[0;1;32;40mnternet ppe Ansi for BD ![0m      [30;44mB[0;1;32;40my[0;34m: [0;30;44mS[0;1;32;40mhinigami//AXss[0m              [30;44m1[0;1;32;40m997[0;1;5;32;40m_[0m
 [1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-[0m
+
   [1;32mBurning Desire BBS Ansis for a special ppe. All requests by Cockroach ![0m
   [1;32mRip this... and you will die...[0m
   [1;32mlllll-ll-l-l-8aaAAAAAA !?![0m

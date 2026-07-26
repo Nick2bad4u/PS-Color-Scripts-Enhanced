@@ -11,7 +11,7 @@
 # SAUCE Group: boil
 # SAUCE Date: 19970413
 # SAUCE Dimensions: 80x27
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -31,10 +31,11 @@ Write-Host '
 [33m▓░ [0m        [33m▀░[0m    [33m░[0m                                [33m░░[0m                          [33m░▒[0m
 [33m▒[0;37m [0;33m [0;37m j[0;1;30m conference[0m     ulby[1;30m line[0m         r [1;30mread msg[0m         [33m░[0;37m  user [0;1;30mlist[0m
 [33m   [0;37m f [0;1;30mfile area[0m      top [1;30musers[0m         e [1;30menter msg[0m           agal [1;30mart-galery[0m  [33m░▓[0m
-[33m░[0m   [37mu [0;1;30mupload[0m         w [1;30mwrite stats [0m    cmt [1;30mcomment 2 crew[0m    h8[1;30m hate-door[0m     [33m░[0;37md[0m
-[37m [0;1;30mdownload[0m       v [1;30mview stats[0m      o [1;30moperator page[0m       wall [1;30moneliner [0m
+[33m░[0m   [37mu [0;1;30mupload[0m         w [1;30mwrite stats [0m    cmt [1;30mcomment 2 crew[0m    h8[1;30m hate-door[0m     [33m░░[0m
+    [37md [0;1;30mdownload[0m       v [1;30mview stats[0m      o [1;30moperator page[0m       wall [1;30moneliner [0m
     z [1;30mzippy scan[0m     who [1;30mis online[0m     web [1;30mpage lister[0m
     l [1;30mlocate[0m [1;30mfile[0m    [1;30mgroup [0mchat        bbs [1;30mboardlister[0m       bye [1;30mlogoff[0m        [33m░[0m
+
 
 
 

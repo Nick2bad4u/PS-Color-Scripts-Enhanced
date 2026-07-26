@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LOGIC!TW.ANS by KERmit (twat0898); released in twat0898 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-14
+# Lines: 1-15
 # Columns: 1-80
 
 Write-Host '
@@ -20,6 +20,7 @@ Write-Host '
   [34m      [0m    [1;37m ██[0;1;36;46m▀▀▀▀▀▀▀[0;36m▀[0;37m   [0;1;37m▀▀[0;1;36;46m▀▀▀[0;36m▀[0;37m      [0;36m▀▀▀▀[0;34m [0;36m [0;37m [0;36m▀[0;37m  [0;36m [0;37m   [0;1;37m██[0;1;36;46m█[0;36m▌[0m        [1;36m ▀[0;36m▀▀▀▀▀[0m
                                                      [1;37m▀[0;1;36m▀[0m
 [31m──[[0;32mK[0;1;37mE[0;32mR[0;1;37mm[0;32mi[0;1;37mt[0;31m]───────────────────────────────────────────────────────────────[[0;1;36mtWat[0;31m]─[0m
+
 [1;30mThis is on3 of +he punK ASS[0m [1;30mM3Nu[0m [1;30mH3aD3rS[0m [1;30myOU wANTED... iT''s n0+ MuCH bUT!?[0m
 [1;30mJus lik3 inser+ your c0mmandS where they should g0! =)[0m
 [1;30mand pu+ the r3n3gad3[0m [1;30mmc1 cl3ar scr33n code a+ th3 top.. what the h3ll iS iT? [0m

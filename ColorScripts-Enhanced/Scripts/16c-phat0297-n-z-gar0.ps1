@@ -9,7 +9,7 @@
 # SAUCE Title: garbage-logo i
 # SAUCE Author: noize
 # SAUCE Group: phat studios '97
-# Lines: 1-27
+# Lines: 1-28
 # Columns: 1-80
 
 Write-Host '
@@ -38,4 +38,5 @@ Write-Host '
 
 
 [1;30m--------------------------------------------------------------------------------[0m
+
 [1;30mthats for the garbage.[0m'

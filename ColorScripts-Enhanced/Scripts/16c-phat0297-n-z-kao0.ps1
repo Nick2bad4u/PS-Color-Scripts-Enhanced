@@ -9,7 +9,7 @@
 # SAUCE Title: kaoz-logo i
 # SAUCE Author: noize
 # SAUCE Group: phat studios '97
-# Lines: 1-27
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -37,6 +37,8 @@ Write-Host '
 
 
 
+
 [1;30m--------------------------------------------------------------------------------[0m
+
 [1;30mguess what !? it''s for the kaoz. its for poti. 2nd version. fixed bg & shading.[0m
 [1;30mtstst.[0m'

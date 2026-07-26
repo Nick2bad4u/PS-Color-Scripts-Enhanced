@@ -11,7 +11,7 @@
 # SAUCE Group: galza
 # SAUCE Date: 20030402
 # SAUCE Dimensions: 80x28
-# Lines: 1-27
+# Lines: 1-28
 # Columns: 1-80
 
 Write-Host '
@@ -40,5 +40,6 @@ ____┌  ─-─┼┴──────┐ [1;30m .             .       [0;36
 [32m        .─┐    ─┐ ┐ ──┐ .──┐   │:││ │ │  ─┘ │ │ ───┐   ┌ ···───┘ ┌─[0m    [32m─ ││┌──[0m
 [32m└       _    ┌···        ─┐    │ │:   │ .─ .  │  ─ ·   │[0m       [32m···  . .─ │[0m    [32m──[0m
 [1;30m│││ this is my coldless world...[0m   [1;30m···[0m  [1;30m.[0m   [1;30m·[0m     [1;30m:[0m    [1;30m·[0m   [1;30m:[0m    [1;30m.[0m     [1;30m      shd.[0m
+
     [1;30moriginal by Shadow[0m
     [1;30mbuzined by Crasher[0m'

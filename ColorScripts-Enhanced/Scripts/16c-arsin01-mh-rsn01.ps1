@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MH!RSN01.ANS by Maddog Hoek (arsin01); released in arsin01 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -27,10 +27,16 @@ Write-Host '
    [1;30m▐▌[0m          [1;31mA  R  S  i  N[0m     [1;31mP  r  o  d  u  c  t  i  o  n  s[0m           [1;30m▐▌[0m
 [1;30m ▄■▀[0m                                                                        [1;30m▀■▄[0m
 [1;30m▐▌[0m                                                                            [1;30m▐▌[0m
+
 [1;30m█[0m                                                                              [1;30m█[0m
+
 [1;30m█[0m                                                                              [1;30m█[0m
+
 [1;30m█[0m                                                                              [1;30m█[0m
+
 [1;30m█[0m                                                                              [1;30m█[0m
+
 [1;30m▐▌[0m                                                                            [1;30m▐▌[0m
+
 [1;30m ▀■▄▄[0m                                                                      [1;30m▄▄■▀[0m
      [1;30m▀▀▀▀▀▀▀▀▀▀■▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄■▀▀▀▀▀▀▀▀▀▀[0m'

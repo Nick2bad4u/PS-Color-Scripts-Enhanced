@@ -57,5 +57,5 @@ Write-Host '
 
 
 
-                                                                   [37melastic <[0;1;37miCE[0mn
-umb <[1mn/a[0m>[0m'
+                                                                   [37melastic <[0;1;37miCE[0m>
+                                                                   numb <[1mn/a[0m>[0m'

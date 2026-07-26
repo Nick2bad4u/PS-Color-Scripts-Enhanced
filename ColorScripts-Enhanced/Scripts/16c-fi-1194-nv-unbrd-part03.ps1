@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NV-UNBRD.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 92-121
+# Lines: 93-124
 # Columns: 1-80
 
 Write-Host '
+
 
 [1;31;41m█▀▀[0m   [1;30;40m▐▌[0;31m█[0;1;30m▌[0;1;31;41m█▀▀▀[0m  [1;30;40m█[0;31m▐[0;1;30;41m▐[0;1;30;40m▌[0;1;31;41m█▀▀[0;1;31;40m▀▀▀[0;31m▄[0;1;30m▐▌[0;1;31;41m█▀▀[0;1;31;40m▀▀▀▀[0;31m▄[0;1;30m▀ [0;1;31m▀▀▀[0;1;31;41m▓[0;31m▀▀▀[0;1;30m▌[0;1;31;41m█▀▀[0;31m▀▀▀▄[0;1;30m▐▌[0;1;31;41m█▀▀[0m   [1;30;40m▐▌[0;1;31;41m█▀▀[0;1;31;40m▀▀▀▀[0;1;30;40m▌[0;1;31;41m█▀▀[0;1;31;40m▀▀▀[0;31m▄[0m
 [1;31;41m▓ [0;31m█   [0;1;30m▐▌[0;31m█[0;1;30m▌[0;1;31;41m▓ [0;31m█▐▌ [0;1;30m█[0;31m▐[0;1;30;41m▐[0;1;30;40m▌[0;1;31;41m▓ [0;31m█  [0;1;30m▐▌[0;31m█[0;1;30m▌[0;1;31;41m▓ [0;31m█   [0;1;30m▐▌[0;31m█  [0;1;30m▐▌[0;1;31;41m▒[0m  [1;30;40m▐▌[0;1;31;41m▓ [0;31m█  [0;1;30m▐▌[0;31m█[0;1;30m▌[0;1;31;41m▓ [0;31m█   [0;1;30m▐▌[0;1;31;41m▓ [0;31m█   [0;1;30m▐▌[0;1;31;41m▓ [0;31m█  [0;1;30m▐▌[0;31m█[0m
@@ -30,7 +31,8 @@ Write-Host '
 [32m▌[0m       [32m██  ░░▒▓█▀   ░░▒▓██▀ ▌[0m       [32m██ ▌  ░░▒▓██▀  ▄▄▄███▀[0m      [32m██[0m      [32m██[0m
 
 
-[1;32;42m█▄██▀▄  ▀  [0;1;30;42m▄ ▀[0;1;30;40m█▀▄ ▀  ▄ [0;1;32;40m8  1  3  -  4  4  2  -  3  4  3  4[0;1;30;40m▄  ▀  ▄▀[0;1;30;42m█▀ ▄  [0;1;32;42m▀  ▄▀██▄[0;1;30;40m│[0m
+[1;32;42m█▄██▀▄  ▀  [0;1;30;42m▄ ▀[0;1;30;40m█▀▄ ▀  ▄ [0;1;32;40m8  1  3  -  4  4  2  -  3  4  3  4[0;1;30;40m▄  ▀  ▄▀[0;1;30;42m█▀ ▄  [0;1;32;42m▀  ▄▀██▄█[0m
+                     [1;30;40m│[0m                                   [1;30;40m│[0m
                      [1;30;40m├─ [0;1;32;40mHours - 10 pm to 2:15 afternoon [0;1;30;40m─┤[0m
                      [1;30;40m│[0m                                   [1;30;40m│[0m
                      [1;30;40m├─── ── ─ [0;1;32;40mMonday to Friday [0;1;30;40m─ ── ────┤[0m

@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-EI.ICE by Toon Goon (ice-9410); released in ice-9410 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 87-117
+# Lines: 86-117
 # Columns: 1-80
 
 Write-Host '
+[34m    [0;37m░[0m                                           [34m░  ▌[0m             [1;37m▄[0m
 [1;30mtg[0m                        [1;37m▄▄[0m     [1;33m▀  ▄[0m                            [1;37m▐▌[0m       [31m▄▄▄▄▄▄[0m
 [31m ▄▄▄██[0;1;31;41m▄[0;31m█[0;1;31;41m▄▄[0;1;37;41m▄[0;31m▄▄▄[0m       [1;37m░   ▐█▌[0m                                [1;37m░  ▄▄█[0m      [1;37;41m [0;1;31;41m▄▓▀▀[0;31m█[0;31;41m [0;31;40m█[0m
 [31;40m██[0;1;37;41m░[0;31m██████[0;31;41m [0;1;31;41m▀▀██▄[0;31m▄  [0;1;37m▄▄█▓▀▀▀██ [0;31m▀ ▄[0;1;31;41m▄[0;31m█▄   [0;1;37m░[0m            [1;37m▄▄████████▓██▀▀   [0;31m▄[0;1;31;41m▄[0;31m██▄[0;31;41m [0;1;31;41m░[0;31m█████[0m

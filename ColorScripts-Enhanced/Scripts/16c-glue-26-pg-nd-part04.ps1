@@ -11,7 +11,7 @@
 # SAUCE Group: glue
 # SAUCE Date: 19991006
 # SAUCE Dimensions: 80x153
-# Lines: 116-152
+# Lines: 116-153
 # Columns: 1-80
 
 Write-Host '
@@ -41,6 +41,7 @@ Write-Host '
            [35;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   [0m
 
 [35;40mpolygon-glue------------------------------------------------------------------- [0m
+
 [35;40mAlright, well, this ansi has a big value for me.[0m
 [35;40mthis ansi is dedicate to the art god called Night Daemon, who commit suicide[0m
 [35;40mI know this will look like i''m alittle late in time since he died to 2 years[0m

@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SUM-POS1.ANS by Sumixam (max_artpack_0993); released in max_artpack_0993 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
+# Lines: 1-44
 # Columns: 1-80
 
 Write-Host '
@@ -41,7 +41,8 @@ Write-Host '
 [1;30m   [0m∙        [1;30m∙[0m           [1;30m∙  [0;32m▀▀ ▀▀  ▀▀▀  [0;1;30m∙   [0;32m▀▀▀▀▀[0m      [1;30m∙[0m     ∙       [1m·  [0;1;30m∙[0m     [1;30m∙[0m
        [1;37m∙[0m          ·              ·            ∙ [1m·[0m                [1;30m·[0m
           [34m▄[0;1;34;44m▓▒[0;34m▀██▄ ██[0;1;34;44m▓▒░[0;34m██ [0;1;34;44m▓▒░[0;34m▀██▄ ▄[0;1;34;44m▓▒[0;34m▀██▄ [0;1;34;44m▓▒░[0;34m▄  [0;1;34;44m▒░[0;34m█ ▄[0;1;34;44m▓▒[0;34m▀██▄  ▄[0;1;34;44m▓▒[0;34m▀██▄  [0;1;30m·[0m     ·
-    [1;30m∙   [0m· [32m▄▄▄ ███ [0;1;37m∙ [0;1;32;42m░  [0m · [1;32;42m░  [0m [1;34;44m░[0;34m██ [0;1;32;42m▒░[0;32m█████ [0;1;32;42m░  [0;34m█[0;32m▀████ [0;1;32;42m▒░[0;32m█ ███▀ [0;1;32;42m▒░[0;32m█ ▄▄▄  [0;37m·[0m  [37m∙[0m     [1;37m·[0m
+    [1;30m∙   [0;1;37m· [0;34m▀[0;1;34;44m▒░[0;34m▄▄▄    [0;1;34;44m▒░ [0m   [1;34;44m▒░ [0m [1;34;44m░[0;34m██ [0;1;34;44m▓▒░[0m [1;34;44m   [0m [1;34;44m▒░[0;34m███▄[0;1;34;44m░[0;34m██ [0;1;34;44m▓▒░[0m      [1;34;44m▓▒░[0;34m▄[0m        [37m∙[0m     [1;37m·[0m
+        · [32m▄▄▄ ███ [0;1;37m∙ [0;1;32;42m░  [0m · [1;32;42m░  [0m     [1;32;42m▒░[0;32m█████ [0;1;32;42m░  [0m [32m▀████ [0;1;32;42m▒░[0;32m█ ███▀ [0;1;32;42m▒░[0;32m█ ▄▄▄  [0;37m·[0m
 [37m [0;1;30m∙  [0m∙ [1;30m∙   [0;1;32;42m▓▒░[0;32m████   [0;32;42m   [0m [37;40m· [0;37;42m   [0m [1;37;40m·[0;1;30;40m∙  [0;1;32;42m░[0;32m██ ███ [0;32;42m   [0m [37;40m· [0;32;40m███ [0;1;32;42m░[0;32m██████  [0;1;32;42m░[0;32m██████ [0;1;37m·   [0;1;30m∙   [0m∙
            [32m▀▀▀▀▀    ▀▀▀   ▀▀▀[0m      [32m▀▀ ▀▀  ▀▀▀   ▀▀▀  ▀▀▀▀▀ [0;37m∙  [0;32m▀▀▀▀▀[0m
      [37m·[0m       [1;30m·[0m     [1;37m·    [0;1;32msUMIxAM [0;32m<[0;1;32mM/┤X Productions 1993[0;32m>[0m         [1;30m·[0m     [1;30m∙[0m

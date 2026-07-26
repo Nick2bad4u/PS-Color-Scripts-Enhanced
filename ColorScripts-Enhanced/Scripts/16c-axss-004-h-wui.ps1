@@ -11,7 +11,7 @@
 # SAUCE Group: .%.AXss.%. -97
 # SAUCE Date: 19970617
 # SAUCE Dimensions: 80x35
-# Lines: 1-34
+# Lines: 1-35
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ Write-Host '
 [1;30;40m─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-[0m
   [30;44mN[0;1;34;40mame[0;34m: [0;30;44mW[0;1;34;40mrite User Info for RB ![0m        [30;44mB[0;1;34;40my[0;34m: [0;30;44mS[0;1;34;40mhinigami//AXss[0m              [30;44m1[0;1;34;40m997[0;1;5;34;40m_[0m
 [1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-[0m
+
   [1;34mThis Ansi is a Write User Info Ansi for RaveBase. Ordered by Maverick sumtime[0m
   [1;34mago in the beginning of ninety-seven... Anywayz, you know the score, please[0m
   [1;34mdon''t rip my pics (although I do admit that the fish may resemble work from[0m

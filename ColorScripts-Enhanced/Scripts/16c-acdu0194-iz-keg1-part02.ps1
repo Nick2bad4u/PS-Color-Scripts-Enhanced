@@ -10,6 +10,7 @@
 # Columns: 1-80
 
 Write-Host '
+               [1;30m▀░░░░░░▐▌▒▒▒▒▒▀▓ █▓█▀██    ██▀█▓█▓ ▀▒▒▒▒▒▌▐░░░░░ ▀[0m
                   [1;30m▀▀▀░░ ░░░░░▐▒▒░▒▒▐▌░░  ░░▌▐▒▒▓▒▒▐░░░░░ ░░▀▀▀[0m
                   [1;30m▄[0m       [1;30m▀▀▀░░░▒░░▀▀ ▀  ▀ ▀▀░░▒░░░▀▀▀[0m       [1;30m▄[0m
                    [1;30m▓▄▄[0m          [1;30m▀[0m              [1;30m▀[0m          [1;30m▄▄▓[0m
@@ -58,5 +59,4 @@ Write-Host '
          [34m▀ . ,  ,[0m                                             [34m,   · ▄[0m
                        [1;30mANSI BY ICSZER OF ACID PRODUCTIONS[0m
          [1;30mIf you would like an ansi like this one for your board/group,[0m
-                           [1;30mcall me at 1-800-521-5804[0m
-→♂IZ-KEG1.ANS •The Keg[0m'
+                           [1;30mcall me at 1-800-521-5804[0m'

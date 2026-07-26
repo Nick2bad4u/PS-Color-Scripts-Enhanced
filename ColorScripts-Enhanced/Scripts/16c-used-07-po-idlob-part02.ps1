@@ -11,7 +11,7 @@
 # SAUCE Group: used
 # SAUCE Date: 20000806
 # SAUCE Dimensions: 80x66
-# Lines: 41-65
+# Lines: 42-66
 # Columns: 1-80
 
 Write-Host '

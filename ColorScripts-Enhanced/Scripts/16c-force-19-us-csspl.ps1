@@ -11,7 +11,7 @@
 # SAUCE Group: force
 # SAUCE Date: 19970630
 # SAUCE Dimensions: 80x33
-# Lines: 1-32
+# Lines: 1-33
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ Write-Host '
 
 
 [1;30m+------------------------------------------------------------------------------>[0m
+
   [1;30mthis ansi is for aspyre''s "Cess Pool".[0m
 
 [1;30m  [0m [1;30mrzarectOr: font + shading[0m

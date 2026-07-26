@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-UR01.ANS by The Reaper (purg-22); released in purg-22 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
+# Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
@@ -33,7 +33,8 @@ Write-Host '
 [1;30;41m░[0;31m█[0;30;41m░░▒▒▓▓[0m     [30;41m▓[0;1;30;40m░[0m  [1;31m▐▓[0;1;31;41m▒░▐[0;1;31;40m▓▄[0m ■ [1;31m▓▌[0;31m██[0;30;41m▓[0;1;37;40m [0m■ [31m▄[0;1;31m▓[0;1;31;41m█░▒[0;1;31;40m▓▌[0m    [1;30m░[0;30;41m▓[0m                [1;30;40m▐░[0m      [1;30m▀▌[0m   [1;30m░[0m
 [1;30;41m▒░[0;31m██[0;30;41m░░▒▒▓▓[0m    [31;40m [0;30;41m▓[0;37;40m [0;31;40m [0;1;31;40m▐[0;1;31;41m▓▒░▀[0;1;31;40m▒[0;31m▄▄▄[0;1;31;41m░[0;31m▄[0;1;31;41m░[0;31m█[0;1;31;41m░[0;31m▄▄▄[0;1;31m▄[0;1;31;41m▀░▒▓[0;1;31;40m▌[0m    [30;41m▓[0m     [37;40m+o shade  [0m
 [1;30;41m▓▓░░[0;31m██[0;30;41m░░▒▒▓▓▓[0m   [1;30;40m░[0;30;41m▓[0;37;40m [0;1;31;40m▀[0;1;31;41m▓▒░[0;30;41m░▒ [0;1;31;41m░▒░▒░▒░ [0;30;41m▒░[0;1;31;41m░▒▓[0;1;31;40m▀ [0m  [1;30m░[0;30;41m▓[0m    [37;40mtelnet://lotuslnd.ml.org[0m
-[37;40m1oo% original ansi by the reaper of purg productions for shade and no one else. [0m
+[37;40m1oo% original ansi by the reaper of purg productions for shade and no one else..[0m
+                             [37;40m [0m
 
 
 

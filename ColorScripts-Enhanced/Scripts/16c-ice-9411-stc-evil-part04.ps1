@@ -6,10 +6,12 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-EVIL.ICE by Stone The Crow (ice-9411); released in ice-9411 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 140-179
+# Lines: 138-179
 # Columns: 1-80
 
 Write-Host '
+         [36m▒[0m [36m░[0m [1;30m [0;36m░[0;1;30m  [0;36m▐[0;1;36;46m▒[0;36m▌[0;1;30m [0m  [1;30m  [0m                             [1;30m  [0m  [1;30m [0;36m▐▒▌[0;1;30m  [0;36m░[0;1;30m [0m [36m░[0m [36m▒[0m
+         [36m▓[0m [36m▒[0m  [36m░[0m  [1;30m [0;1;36;46m░[0;1;30;40m    [0m [1;30;40m [0m                             [1;30;40m [0m [1;30;40m    [0;36m▓[0;1;30m [0m  [36m░[0m  [36m▒[0m [36m▓[0m
          [36m▓[0m [36m▒[0m  [36m░[0m   [36m▐[0m   [1;30m     [0m   [1;31m                    [0m  [1;30m     [0m   [36m▌[0m   [36m░[0m  [36m▒[0m [36m▓[0m
          [36m▓[0m [36m▒[0m  [36m▒[0m            [1;30ms t o n e  t h e  c r o w[0m            [36m▒[0m  [36m▒[0m [36m▓[0m
     [36m   [0m  [1;36;46m░[0m [36m▓[0m  [36m▓     [0m              [1;30mi [0m   [1;30mc [0m   [1;30me [0m                  [36m▓[0m  [36m▓[0m [1;36;46m░[0m

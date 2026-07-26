@@ -11,7 +11,7 @@
 # SAUCE Group: purg!logo's
 # SAUCE Date: 19981028
 # SAUCE Dimensions: 80x174
-# Lines: 1-47
+# Lines: 1-44
 # Columns: 1-80
 
 Write-Host '
@@ -54,9 +54,6 @@ Write-Host '
                               [1;30m [0m     [1;30m PgDn[0m
                                       [1;30m||[0m
                                       [1;30m\/[0m
-
-
-
 
 
 

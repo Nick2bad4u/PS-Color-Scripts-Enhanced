@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Os-27in.ans by Offset (rmrs-51); released in rmrs-51 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
+# Lines: 1-42
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
 [34;40m███████████████████████████████[0;30;44m                                  [0;34;40m██████████████[0m
 
 [1;30;40m------------------------(usEless infOrmation below)---------------------------- [0m
+
 [1;30mWatashi no namewa [0mOffset [1;30mdesu, hiroshiku o-ne-gashimasu... This is the first of[0m
 [1;30mmany, soon to [0;1;37mCUM[0;1;30m ([0mNokturnalE[1;30m) 27" insult [0;1;31mA[0;1;34mN[0;1;32mS[0;1;33mI[0;1;30m. Watch the [0;1;33mSIGNS[0;1;30m ([0;33mGREAT MOVIE!![0;1;30m)[0m
                               [1;30m                      [0m

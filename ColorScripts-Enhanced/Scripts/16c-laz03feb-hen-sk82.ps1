@@ -11,7 +11,7 @@
 # SAUCE Group: lazarus
 # SAUCE Date: 19970129
 # SAUCE Dimensions: 80x27
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -37,6 +37,7 @@ Write-Host '
                                [31m▀▀▀▀▀▀▀░[0;30;41m▓[0m
 
 [1;30;40m--------------------------------------------------------------------------------[0m
+
 [1;30mi like this font =)  its for my bubba, stereo and his FANSi skateshop.[0m
 
                         [1mLAZARUS - [0;1;33mWE PUT THE LAZ IN ARUS![0m'

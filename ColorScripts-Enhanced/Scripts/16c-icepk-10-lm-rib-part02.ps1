@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LM-RIB.ICE by Lord Mischief (icepk-10); released in icepk-10 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 51-84
+# Lines: 51-85
 # Columns: 1-80
 
 Write-Host '
+                       [31m██████[0;1;31;41m▀[0;31m█[0m     [31m███▄[0m     [31m████[0;1;31;41m▄[0;31m█[0m        [31m██▀[0m     [31m▀[0m
                      [31m▄█[0;1;31;41m▄[0;31m███  ▀[0m     [31m▐████▄    ▀████[0;1;31;41m█[0;31m█[0m      [31m███[0m
                      [31m█[0;1;31;41m█[0;31m█████[0m       [31m▐[0;1;31;41m█[0;31m████[0m     [31m▀████▀[0m     [31m█[0;1;31;41m█[0;31m███[0m
                       [31m▀▀██▀[0m         [31m▀[0;1;31;41m▀[0;31m██▀[0m       [31m▀▀[0m       [31m▀█[0;1;31;41m▀[0;31m▀[0m

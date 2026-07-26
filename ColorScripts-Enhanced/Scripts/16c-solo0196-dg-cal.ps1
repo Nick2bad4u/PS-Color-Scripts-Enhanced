@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DG-CAL.ANS by Dillinger (solo0196); released in solo0196 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
+# Lines: 1-48
 # Columns: 1-80
 
 Write-Host '
@@ -51,6 +51,7 @@ Write-Host '
 [1;34m██████████████████████████████████████████████████▄▄▄▄▄▄▄▄▄█████████████████████[0m
 [1;34m████████████████████████████████████████████████████████████████████████████████[0m
 [1;34m████████████████████████████████████████████████████████████████████████████████[0m
+
                                  [1;30mgreets go to:[0m
                            [1;30mvlado: yo g. party girls?[0m
                          [1;30mkinko: umm, here''s yer greet.[0m

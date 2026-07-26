@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[31m░[0;37m [0;31m░▒▓█[0;1;31;41mcardiac presents ...[0;31m▌[0m                                [1;31mmagma[0m [1;31mproductions[0m [31m`9[0;35m [0m
-[35m                                              [0;37m [0;35m  [0m
+[31m░[0;37m [0;31m░▒▓█[0;1;31;41mcardiac presents ...[0;31m▌[0m                                [1;31mmagma[0m [1;31mproductions[0m [31m`97[0m
+       [35m                                               [0;37m [0;35m  [0m
 
        [32m                     [0m          [32m                [0;37m [0;32m [0m
        [31m▐██▄▄[0m   [35m      [0;37m [0;35m      [0m                     [1;35m     [0m

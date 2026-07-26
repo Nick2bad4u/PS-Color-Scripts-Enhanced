@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-MERGE.ANS by Mr D (purg-24a); released in purg-24a and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 51-89
+# Lines: 51-91
 # Columns: 1-80
 
 Write-Host '
+              [35m▄[0;1;35m▄[0;1;35;45m▄[0;35m█[0;1;35;45m▄▄▌▄▄▄[0;35m█[0m   [35m▐[0;1;35;45m▓▓▄[0;35m█[0;1;35;45m▄[0;35m▄▄[0m       [37m▀▀▀[0;1;37;47m░[0m█▄▄[1;47m░[0;1;30;40m░▓█[0;1;30;47m▓░ ░ ░▓[0;1;30;40m█▀▀▀▀ ▄▄▄▄▄[0m
             [1;35;45m░▄▀[0;35m▀▀[0;36m [0;1;35;45m░▓▓▓▓▓[0;35m▌[0m    [1;35;45m░░░[0;36m [0;35m▀▀[0;1;35;45m▀▓[0;35m█[0;1;35;45m▄▄[0;35m█[0;36m   [0m        [1;30m▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m█▀▀▀ [0;35m█[0;1;35;45m▄[0;35m█[0;1;30m ███▓▌[0m
            [36m [0;35m▐[0;1;35;45m▓░[0;35m▌[0;1;30m [0;35m▐[0;1;35;45m░░░░░░[0;36m     [0;35m▐██▌[0;36m [0;35m▐[0;1;35;45m░▓[0;35m▌[0;1;35;45m░▓░[0;35m███▄▄[0;36m [0;35m█[0;1;35;45m▄[0;35m█▄▄▄▄[0;37m [0;1;30m▄▄[0m [35m▄▄███[0;1;35;45m░▓[0;35m▌[0;1;30m ▀██▓░[0m [1;30m-mrd[0m
 [36m          [0;37m [0;1;30m░[0;34m ▄▄▄[0;37m  [0;1;30m ▄[0;34m ▄▄▄[0m    [34m      ▄▄▄  ▄▄▄  ▄▄▄▄▄   ▄▄▄▄▄▄▄   ▄▄▄ [0;36m      [0;1;30m [0;36m [0;1;30m     [0m
@@ -40,6 +41,7 @@ Write-Host '
 
 
 ─[1;30m( ya gotta cut along THIS LINE! )[0m──────────────────────────────────────────────
+
  [1;30mIts a worm from the new worms armageddon.[0m
  [1;30mPerhaps my first seriously researched ansi...[0m
  [1;30m...almost certainly one of my best. [0m

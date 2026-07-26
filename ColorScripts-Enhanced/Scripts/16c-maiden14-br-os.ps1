@@ -11,7 +11,7 @@
 # SAUCE Group: Maiden
 # SAUCE Date: 19971203
 # SAUCE Dimensions: 80x34
-# Lines: 1-33
+# Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
@@ -38,6 +38,7 @@ Write-Host '
                                        [30;47m▓▓▓[0m              [37;40m       [0m
 
 [1;30;40m--─-─<beerfull@hotmail.com>----─-────────-─-─-─-─--─-─────────-─-─-─-─-─-─-─────[0m
+
   [34m-[0;37m [0;34mThis Piece of Pure and Earnest Art was made by beerfull..! =P[0m
 
 [37m  [0;34m-[0;37m [0;34mThanx for Blind Guardian for mading "Imaginations from the other[0m

@@ -11,7 +11,7 @@
 # SAUCE Group: dezign
 # SAUCE Date: 19960829
 # SAUCE Dimensions: 80x25
-# Lines: 29-53
+# Lines: 30-54
 # Columns: 1-80
 
 Write-Host '

@@ -8,7 +8,7 @@
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Date: 19960511
 # SAUCE Dimensions: 80x24
-# Lines: 1-23
+# Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
@@ -31,6 +31,7 @@ Write-Host '
 [1;35;45m█▓█[0m     [1;35;45m█▓█[0m [1;35;45m█▓█[0m [1;35;45m█▓█[0m [1;35;45m█▓█[0m [1;35;45m█▓█[0m [1;35;45m█▓█[0m [1;35;45m█▓█[0m [1;35;45m█▓█[0m   [1;35;45m█▓█[0m     [1;35;45m█▓█[0m   [1;35;45m█▓█[0m    [1;35;45m█▓█[0m [1;35;45m█▓█[0m    [1;35;45m█[0m [1;35;45m█[0m [1;35;45m█▓[0m
 [1;35;45m███[0m     [1;35m███ ███ ███ ███ ███ ███ ███ ███[0m   [1;35m███[0m     [1;35m███[0m   [1;35m███[0m    [1;35m███ ███[0m    [1;35m█[0m [1;35m█ ██[0m
 [1;35;45m███[0m     [1;35m███ ███ ███ ███ ███ ███ ███ ███[0m   [1;35m███[0m     [1;35m███[0m   [1;35m███[0m    [1;35m███ ███[0m    [1;35m█[0m [1;35m█ ██[0m
+[1;35;45m███[0m     [1;35m███▄███ ███ ███ ███▄███ ███▄███[0m   [1;35m███[0m     [1;35m███[0m   [1;35m██████ ███ ███[0m    [1;35m█[0m [1;35m█▄██[0m
 [35m────────────────────────────────────────────────────────────────────────────────[0m
 [35mOops  here''s a logo  but  I think I  had better start making some pics.  We need[0m
 [35mpics  big  time.  Greetz Cain, Gokou <HAHA, and Munchie.  Dis wuz  made 4 OASIS![0m'

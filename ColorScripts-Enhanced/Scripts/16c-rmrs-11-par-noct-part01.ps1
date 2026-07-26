@@ -11,7 +11,7 @@
 # SAUCE Group: REMORSE
 # SAUCE Date: 19970502
 # SAUCE Dimensions: 80x89
-# Lines: 1-44
+# Lines: 1-45
 # Columns: 1-80
 
 Write-Host '
@@ -22,6 +22,7 @@ Trades/Pay Requests = [1mpariah@digitaldreams.ml.org[0m (Also email me if you 
 me up with a cheap price on a drum machine, nothing more than $250).
 [1;30m--------------------------------------------------------------------------------[0m
 [1;37m╘IISCNA [0m- [1;36mpariah[0;1;37m                                            [0;1;36mNOCTURNE[0;1;37m +o hx^flesh[0m
+
                                                                  [34m55[0;1;34m$[0;1;36m$$[0;1;34m$[0;34m$[0m    [30m [0m
       [34m_[0;1;34m,gτ@58$85@τg[0;34m,_[0;37m   [0;34m_,[0;1;34mgτ@58$85@τg[0;34m,_[0;37m    `$[0;1;37m$$[0;1;33m$$[0;1;37m$[0m58   [34m_,[0;1;34mgτ@58$$$$$$$$$[0;34m$[0m    [30m  [0m
      [34md[0;1;34m$$$$[0;34mPⁿ"~[0;1;34m"ⁿ7$$$$[0;34mh[0;37m [0;34md[0;1;34m$$$$[0;34mPⁿ"[0;1;34m~"ⁿ7$$$$[0;34mh[0;37m    $[0;1;37m$$$$$$[0m$  [34md[0;1;34m$$$$[0;34mPⁿ"~[0;1;34m"ⁿ7$$$$$$[0m    [30m  [0m

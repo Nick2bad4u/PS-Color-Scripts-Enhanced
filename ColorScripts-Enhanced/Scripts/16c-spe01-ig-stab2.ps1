@@ -11,7 +11,7 @@
 # SAUCE Group: Stab Productions
 # SAUCE Date: 19960511
 # SAUCE Dimensions: 80x32
-# Lines: 1-31
+# Lines: 1-32
 # Columns: 1-80
 
 Write-Host '
@@ -38,6 +38,7 @@ Write-Host '
 [37m [0;32m▐█[0;1;32;42m▓██▓[0;32m▄▄▄▄[0;1;32;42m▄██[0;1;32;46m▒[0;1;32;42m [0;32m▌[0;37m  [0;1;32;42m ██▒[0;32m█[0m      [1;30m▀▌[0;31m▐[0;1;31;41m░▒▓█[0;1;31;47m▓▓[0;1;31;41m█▓▒░[0;31m▌▐[0;1;31;41m▒▒[0;31m▌[0;1;30m▐▀[0m      [32m█[0;1;32;42m██▒[0;32m█[0;37m  [0;32m█[0;1;32;42m███▒[0;32m▄▄▄▄▄[0;1;32;42m▄██▒[0;32m█▌[0m
 [37m  [0;32m▀[0;1;32m▒[0;32m▀▀▀▀▀▀▀▀▀▀▀▀[0;37m   [0;32m▀▀▀▓▀[0m        [1;30m░[0;31m▀[0;1;31;41m░░▀█▓▓ ░[0;31m▄▓█▓▀[0;1;30m░[0m [1;34m  [0m     [32m▀▀▀▒▀[0;37m  [0;32m▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀[0;1;30mig[0m
 -+-+-+-+-+-+-+-+-+-+-+[32m░[0;37m+-+-+-+-+-+-+[0;31m░▀▀▀▀▀▀[0;37m-+-+-+-+-+-+-+-+-+-+-+-+[ Tear Me ]+-[0m
+
 [1;30mokay.. uhh yeah.. cool no? ..uhh special thanks to pixel pushah :)..uhh he[0m
 [1;30mhelped out the shading and gave me some ideas..thanks man.. greets to : blind,[0m
 [1;30mstraka,kosh,STABmasterArson,kobby,all the stab boys, skism guys, sphere guys,[0m

@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DE-WP.ANS by Deception (rave-01); released in rave-01 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 83-123
+# Lines: 90-131
 # Columns: 1-80
 
 Write-Host '
+
                                                      [1m▄  [0;1;36m▄▄▄▄   ▄▄▄▄▄[0m
                                                    [1;37m▄▀[0;1;36m▄▀▀▄▄▄▄▀▀▀▄▄▄▄▄▀▀▄▄▀▀▄[0m
                                                  [1;37m▄▀[0;1;36m▄▀▄[0;1;36;46m██[0;1;36;40m▀▀▀▀[0;1;36;46m███[0;1;36;40m▀▀▀▀[0;1;36;46m███[0;1;36;40m▄▄[0;1;36;46m██[0;1;36;40m▄▀▄[0m

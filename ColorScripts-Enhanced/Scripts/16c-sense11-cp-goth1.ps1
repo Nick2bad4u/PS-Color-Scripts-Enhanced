@@ -43,6 +43,6 @@ Write-Host '
  requested by julien for his board ''goth'', a bit colorful eh ? im not too
 [1;30m [0mhappy with the color/shading, but it was fun anyways =P.
 
-                                                              cyberphreak//sens[1;30m([0m
-[1;30mrequests)[0m phuman@icon.co.za
+                                                              cyberphreak//sense
+                                                   [1;30m(requests)[0m phuman@icon.co.za
 [1;30m--------------------------------------------------------------------------------[0m'

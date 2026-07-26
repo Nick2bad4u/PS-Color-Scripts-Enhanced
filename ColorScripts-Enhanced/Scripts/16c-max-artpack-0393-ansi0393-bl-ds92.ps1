@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-DS92.ANS by Blades (max_artpack_0393-ansi0393); released in max_artpack_0393-ansi0393 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
+# Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
@@ -14,6 +14,7 @@ Write-Host '
 [1;30m  [0;34m.  ·.[0;1;30m▀▄    [0;34m· .[0m     [34m· .    · .· [0;1;30m█    ░▒▓██ [0;34m.   · .· [0;1;30m█    [0;34m· .[0;1;30m█[0m     [34m.  ·[0;1;30m▀    [0;34m· .[0m
 [1;30m░▒▓██[0;34m. ·[0;1;30m█ ░▒▓██[0;34m.· [0;1;30m░▒▓██[0;34m.· [0;1;30m░▒▓███▀[0m       [34m·.[0;1;30m▀██ ░▒▓███▀  ░▒▓█[0;34m·[0;1;30m▀█  ░▒▓█ [0;34m·.[0;1;30m▄ ░▒▓██[0;34m.·[0m
 [1;30m░▒▓███▄▀  ░▒▓████ ░▒▓████ ░▒▓██[0m       [1;30m░▒▓██▀  ░▒▓██   ░▒▓█  [0;34m.·[0;1;30m█ ░▒▓██▄▀  ░▒▓████[0m
+
                                 [31m░▒▒▓▓▓▓▓▓▓▓▒▒░[0m
                               [31m▒▒▓▓▓██▀▀▀▀▀██▓▓▓▒░[0m
 [31m D [0;1;30me e p [0;31mS [0;1;30mp a c e [0;31mN [0;1;30mi n e   [0;31m▒▓█▀▀▀[0m         [31m▀█▓▓▓   D [0;1;30me e p [0;31mS [0;1;30mp a c e [0;31mN [0;1;30mi n e[0m

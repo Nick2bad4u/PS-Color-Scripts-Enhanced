@@ -11,7 +11,7 @@
 # SAUCE Group: Foliage
 # SAUCE Date: 20010703
 # SAUCE Dimensions: 80x31
-# Lines: 1-30
+# Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
@@ -38,6 +38,7 @@ Write-Host '
 [37m  [0;1;36mG[0;36moodbye[0;34m/[0;1;36mL[0;36mocal Time[0;34m/[0;1;36mN[0;36mew File Scan[0;34m/[0;1;36mP[0;36mage Shrimp[0;34m/[0;1;36mR[0;36mead MSG''s[0;34m/[0;1;36mU[0;36mpload[0;34m/[0;36mE[0;1;36mX[0;36mpert mode[0;34m/[0;37m  ▐[0m
 [37m  [0;1;36mZ[0;36mippy Search[0;34m/[0;35m [0;1;36mL[0;36mast [0;1;36mC[0;36mallers[0;34m/[0;35m [0;1;36mWHO[0;36m''s online[0;34m/[0;35m [0;1;36mONE[0;36mliners[0;34m/[0;35m [0;1;36mUSER[0;35m [0;36mlist[0;34m/[0;35m [0;1;36mMORE[0;35m [0;36mshits[0;34m/[0;37m  [0;1;37;47m░[0m
 [1;37;47m░[0m▄▄▄▄▄   ▄▄[1m▄▄▄▄▄[0m▄▄▄ [35m  [0;37m▄▄[0;35m   [0;37m [0;35mEnter[0;37m [0;35mcommand? [0;1;35m<[0;5m    [0;1;35m>[0m ▄[1m▄▄[0m▄▄  ▄[1m▄▄▄[0m▄[1m▄▄▄▄▄▄▄▄▄[0m▄▄▄▄ ▄▄[1;47m▄[0;1;37;47m▓[0m
+
 ────────────────────────────────────────────────────────────────────────────────
 [35mIt says APHiD. YES. ALL FIVE LETTERS ARE PRESENT. all you need is a little [0m
 [35mimagination. Now - I really need art for my board. PLEASE[0;37m [0;35mdraw for it. It is [0m

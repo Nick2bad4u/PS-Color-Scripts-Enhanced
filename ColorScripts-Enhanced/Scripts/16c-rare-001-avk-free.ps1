@@ -11,7 +11,7 @@
 # SAUCE Group: rARE!ASCii
 # SAUCE Date: 19980305
 # SAUCE Dimensions: 80x18
-# Lines: 1-17
+# Lines: 1-18
 # Columns: 1-80
 
 Write-Host '
@@ -28,6 +28,7 @@ Write-Host '
  [1;36m¢[0;36m¢¢¢¢ [0;1;34m$$Ñ$$,[0;1;36m`¢[0;36m¢¢¢¢* [0;1;36m`''[0;36m╜*¢¢ [0;1;34mÑ$,[0;1;36m`''[0;36m╜*¢¢ [0;1;36m¢[0;36m¢¢¢¢*╜'' [0;1;36m¢¢[0;36m¢¢ [0;1;34mÑ$$[0;36m [0;1;36m¢[0;36m¢¢¢¢ [0;1;36m¢[0;36m¢¢¢*╜''[0;1;34m,$,[0;1;36m`''[0;36m╜*¢¢ [0;1;34m$[0m
 [1;34mSomxvsn₧MÑSMÑSnxnomvnÑÑSÑM₧₧MSMÑS@%nswnonmx%@Snnmnon₧MÑnnwxnnsnmnn%@SM₧SMS%@wmxÑ[0m
 [1;34m───[0;34m─[0;1;34m─[0;34m──────[0;1;34m─[0;34m─[0;1;34m──═[[[0;1;36m[[0;1;37m[[0m [1;36mf[0;36mf[0;1;30mf[0m [1;36mr[0;36mr[0;1;30mr[0m   [1;36me[0;36me[0;1;30me[0m [1;36me[0;36me[0;1;30me[0m  [1;36mb[0;36mb[0;1;30mb[0m  [1;36ma[0;36ma[0;1;30ma[0m    [1;36ms[0;36ms[0;1;30ms[0m  [1;36me[0;36me[0;1;30me[0m [1m][0;1;36m][0;1;34m]]═─────[0;34m─[0;1;34m─[0;34m─[avk]─[0m
+
 
 [37m   [0m        [37mAscii for Ernie^RVL who changed his handle into "freebase"[0m
 [37m   [0m                  [37mIt''s now part of his reader about it[0m

@@ -12,7 +12,7 @@
 # SAUCE Date: 19940613
 # SAUCE Dimensions: 80x250
 # SAUCE Comments: What can I say?  Im the shittiest artist in the whole fucking | world.  I want to die, but not until I have killed everyone | else first.  Is that so unreasonable?
-# Lines: 1-44
+# Lines: 1-48
 # Columns: 1-80
 
 Write-Host '
@@ -59,4 +59,8 @@ Write-Host '
                                ·         [1;30m·[0m       [1;30m·  ·[0m        [1;37m·    [0;1;30m·[0m        [1;37m·[0m
 [1;37m  [0;1;30m·[0m      [1;30m·[0m                                               .          [1;30m·  [0m.
               .          [1;30m·[0m       [1;30m·[0m
-                                [1;37m.[0m     .          [1;30m·[0m'
+                                [1;37m.[0m     .          [1;30m·[0m
+              ·    ·     [1;30m·[0m              ·    [32m▄▄▄[0m           [32m░░▒▒▒▓▓█[0;1;32;42m░░▒▒▓▓██▓▒▒░[0m
+[1;32;40m [0m·             [1;30m·[0m             [1;30m.[0m        [32m▄▄▄[0;32;42m    [0;32;40m▓▓▒▒░░    ░░▒▒▓▓███[0;32;42m [0;1;32;42m░░▒▒▓▓███▓▓▒▒░[0m
+           ·       ·            [1;32m▄▄▄[0;1;32;42m▓▒░[0;32m████▓▓▒▒▒░░   ░░▒▒▓▓███[0;32;42m [0;1;32;42m░░░▒▒▒▓▓███▓▓▓▒▒▒[0m
+                            [1;32;40m▄▄█[0;1;32;42m▓▒▒░  [0;32m██▓▓▒▒░░[0m      [32m░░▒▒▓▓███[0;1;32;42m░░░▒▒▒▓▓▓████▓▓▓▒▒▒[0m'

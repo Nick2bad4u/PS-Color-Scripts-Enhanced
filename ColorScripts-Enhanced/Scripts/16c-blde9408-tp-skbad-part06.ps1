@@ -6,10 +6,12 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-SKBAD.ANS by Technophreak (blde9408); released in blde9408 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 246-293
+# Lines: 246-295
 # Columns: 1-80
 
 Write-Host '
+      [1m▀▀▀▀[0;1;47m▓▓[0;1;40m▀▀▄▄▄▄▄█▄[0;31m▀[0;1;37m▄████████████████[0;1;37;47m▓[0;1;37;40m██[0;1;37;47m▓[0;1;37;40m██████[0;1;37;47m▓[0;1;37;40m██[0;1;37;47m▓▓▓[0;1;37;40m█▀▀[0m▄▄▄▄▄▄▄[1m▀▀[0;1;47m░░[0m▀▀▀▀▀
+            [1m▐[0;1;47m▓▓[0;1;40m█[0;1;47m▓▓[0;1;40m█████▄▄▀███████████████████████[0;1;47m▓▓▓▓[0;1;40m▀▀[0;1;47m▓▓▓▓▒▒▒▒░░░[0m▌
             [1;47m▓▓▓▓[0;1;40m████████████████████████████████[0;1;47m▓▓▓▓[0;1;40m▄[0;1;47m▓▓▓▓▓▒▒▓▒▒▒▒░[0m█
            [1m▐[0;1;47m▓[0;1;40m█[0;1;47m▓[0;1;40m█████████[0;1;47m▓[0;1;40m████[0;1;47m▓[0;1;40m▄▀▀█[0;1;47m▓[0;1;40m████▄▀█▀███▄▀[0;1;47m▓[0;1;40m▀[0;1;47m▓▓▓▓▓▓▓▒▓▒▒▒▓▒▒▒░[0m▌
             [1m█[0;1;47m▓▓▓▓[0;1;40m██████▀█[0;1;47m▓▓[0;1;40m█[0;1;47m▓▓[0;1;40m█▀[0;1;47m▓[0;1;40m██[0;1;47m▓▓[0;1;40m███▀▄████[0;1;47m▓▓▓▓[0;1;40m▀▄█[0;1;47m▓▓▓▒░▒▓▒[0m▄[1m▀[0;1;47m▒░░[0m█

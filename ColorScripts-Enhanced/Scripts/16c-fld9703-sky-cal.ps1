@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SKY-CAL.ANS by Skylord (fld9703); released in fld9703 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
+# Lines: 1-28
 # Columns: 1-80
 
 Write-Host '
@@ -35,5 +35,6 @@ Write-Host '
 
 
 [37m---------[ chop ]---------------------------------------------------------------[0m
+
    [37mthis one is an security ansi for claustrophobic dimension...[0m
    [37mkindacool  =)[0m'

@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-WM.ANS by Produkt + Mrd (purg-30a); released in purg-30a and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 28-62
+# Lines: 28-63
 # Columns: 1-80
 
 Write-Host '
@@ -40,8 +40,9 @@ Write-Host '
 [30;41m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒░░░░░░[0;37;40m [0;33;40m░░[0;31;40m [0;30;41m░░[0;31;40m▓[0;1;30;40m░[0;31m▓[0;30;41m░░░░░░░░░░░░░░[0m
 [30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;31;40m░░[0;30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 
-[37;40m-------------------------------------------------------------------------------1[0m
-[37;40m00% original ansi''d straight out of my head                    [0m
+
+[37;40m--------------------------------------------------------------------------------[0m
+           [37;40m100% original ansi''d straight out of my head                    [0m
         [37;40m   (other than most of the font outlines by Mr_D) [0m
 
                                          [37;40m-produkt[0m'

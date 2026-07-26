@@ -10,9 +10,9 @@
 # Columns: 1-80
 
 Write-Host '
-                              [1;30mescape the nightmare[0m                          [31m┌┼┘[0;1;30my[0m
-[1;30mou can''t even dream[0m                          [31m`[0;1;33m┌┼┘[0m                    [1;30myour nature[0m
-[1;30m is human you ain''t no machine[0m
+                              [1;30mescape the nightmare[0m                          [31m┌┼┘[0;1;33m,[0m
+                              [1;30myou can''t even dream[0m                          [31m`[0;1;33m┌┼┘[0m
+                    [1;30myour nature is human you ain''t no machine[0m
 
                              [31m   .[0;37m [0;1;30m [0m         [1;30m [0m  [31m.   [0m
                            [1;31m.[0;31m┌\[0;1;31m`[0m        [1;30m__[0m        [31m`[0;37m/[0;1;31m┌[0;31m.[0m

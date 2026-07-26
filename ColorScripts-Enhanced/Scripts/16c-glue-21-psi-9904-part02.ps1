@@ -11,11 +11,10 @@
 # SAUCE Group: Glue
 # SAUCE Date: 19990429
 # SAUCE Dimensions: 80x25
-# Lines: 20-51
+# Lines: 25-55
 # Columns: 1-80
 
 Write-Host '
-[1;30m--[0m [1mThe Skateshop [0;1;30m-- [0mfor Squibby [1;30m----------------------------------------------- [0m
                  [1;34m░░[0;34m▄▄[0m
        [1;34m░░[0m          [34m▀▀[0;1;34m▒▒[0;34m▄▄[0m                 [1;30m  [0m
        [1;34m▒▒ [0;34m  [0;35m▄▄[0;34m   ▀▀▀▄▄▄█▀█[0;1;34;44m▄[0;34m▄▄[0m           [34m  [0;35;44m▄[0;1;34;40m░[0;34m [0m      [34m▄  [0m
@@ -30,6 +29,7 @@ Write-Host '
         [1;37mthe skateshop[0m            [34m    [0m        [34m [0m
 
 [1;30m------------------------------------------------------------------------------- [0m
+
 [1mNews: [0mNone of you actually care, but I''m going to ramble on for a bit, because
 this is my colly - not yours.  I used to be Quip, but now I''m Psidream.  I plan
 to spend most of my time becoming more acquainted with the music module scene,

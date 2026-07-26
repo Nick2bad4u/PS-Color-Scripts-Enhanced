@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: E7-ASC.ANS by Qk + Da Drug (ascnt-02); released in ascnt-02 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
+# Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
@@ -29,6 +29,7 @@ Write-Host '
 [1;35;45m▌[0;35m███[0;37m [0;1;30;43m▓░[0;33m█████▀▀███████████████▌[0;35m▐██[0;1;35m [0;30;45m▓[0;1;35;40m [0;1;35;45m [0;1;35;40m [0;30;45m█[0;1;35;40m [0;35m▄[0;1;35m [0;30;45m▓[0;1;35;40m [0;35m▀   ▀ [0;30;45m▓[0;35;40m █ [0;30;45m▓[0;35;40m ██[0;1;35;45m   ▄▄    [0;35m██████████[0;1;35;45m ▄[0;1;35;40m█[0m
 [1;35;45m█▄▄  [0;35m▄[0;1;30m▀[0;33m▀[0;1;30;43m▄[0;33m██████████████████▀▀[0;35m▄[0;1;35;45m   [0;1;35;40m [0;30;45m▓[0;1;35;40m [0;1;35;45m▄▄▄▄▄[0;35m   [0;1;35m▀▀▀▀[0;1;35;45m▓[0;35m [0;30;45m▓[0;35;40m ▀   [0;1;35;45m▄▄███████▄▄       [0;35m██[0;1;35;45m▄██[0;1;35;40m█[0m
 [1;35;45m██████▄▄[0;1;35;40m▄▄[0;1;30;40m▀[0;33m▀▀▀[0;1;30;43m▄[0;33m█████▀▀▀▀▀[0;1;35m▄▄[0;1;35;45m▄▄▄█[0;1;35;40m██▄▄▄[0;1;35;45m█[0;1;35;40m████████▄▄▄█▄▄▄██[0;1;35;45m████████████████▄▄▄▄█████[0;1;35;40m█[0m
+
             [1;30m [0m                                                        [1;30m+[0m
                                                                      [1;30m└-[0m  [1;30m--[0;36m [0;1;30m┐[0m
 [1;30m- -- [0;36m░[0;30;46m▓▒▒░[0;36;40m▓█[0;30;46menmity (da drug)          [0;36;40m████[0;1;36;46m↓[0;36m██[0;1;36;46m░░▒▓▓███████████████████[0m [1;36m█▐[0m [1;36m--[0;36m-┘ [0m

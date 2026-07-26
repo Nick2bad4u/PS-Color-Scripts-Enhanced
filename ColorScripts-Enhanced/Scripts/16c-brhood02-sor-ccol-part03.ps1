@@ -11,10 +11,14 @@
 # SAUCE Group: Brotherhood
 # SAUCE Date: 19981223
 # SAUCE Dimensions: 80x199
-# Lines: 101-146
+# Lines: 100-149
 # Columns: 1-80
 
 Write-Host '
+[37m - sor-snow.ans - started out okey but then it got all fucked up and didnt even[0m
+                  [37mturn out like I wanted it too.. oh well I was late to enter[0m
+                  [37mthis compo too.[0m
+
 [1;30m100% original by spirit of rage of brotherhood[0m [1;30mfor a compo in #compo2[0m
 
 [1;30m                             ▄▄▄▄▄██████[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▀▀▀[0;1;30;40m▄▄▄▄▄             [0m
@@ -59,4 +63,5 @@ Write-Host '
                         ▀▀▀█[1;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m█▀▀▀
 
    [1;30mmade in a hurry.. snowman going bersark in the scene...[0m
-   [1;30mdamn i hate compos with short time to make a damn ansi...[0m'
+   [1;30mdamn i hate compos with short time to make a damn ansi...[0m
+'

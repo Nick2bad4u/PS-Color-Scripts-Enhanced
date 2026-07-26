@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NAT-23.ANS by Sudden Death (avenge03); released in avenge03 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -35,4 +35,5 @@ Write-Host '
 [1;31;43m███████████[0;1;31;40m████[0;1;31;47m██[0;1;31;40m████████████[0;1;31;43m████████[0;1;31;40m███████[0;1;31;43m▓░[0;1;31;40m▄████▀[0;1;31;43m▄▄[0;1;31;40m▄[0m [1;31;43m▓▒░░[0m  [1;31m▄█████[0;1;31;43m▓▓▒▒░░[0;1;37;40m░▒▓▓▓▓[0m
 [1;31;43m█████████████[0;1;31;40m██████████████[0;1;31;43m███████████[0;1;31;40m████████████████[0;1;31;43m▓▒▒░[0m  [1;31m ▄████[0;1;31;43m█▓▓▒░░░░[0m [1m░▒▒▒▒[0m
 [1;31;43m█████████████████████████████████████[0;1;31;40m█████████████████[0;1;31;43m▓▒▒[0;1;31;40m ▄[0m [1;31m█████[0;1;31;43m██▓▓▓▒▒░░[0m    [1m░░[0m
+
   This is Natalie''s First ansi she has done. Outline was done by Sudden Death.[0m'

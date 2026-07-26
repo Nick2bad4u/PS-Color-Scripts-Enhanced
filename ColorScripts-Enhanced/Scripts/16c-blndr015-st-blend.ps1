@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-BLEND.ANS by Stereo (blndr015); released in blndr015 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
+# Lines: 1-44
 # Columns: 1-80
 
 Write-Host '
@@ -40,7 +40,9 @@ Write-Host '
 
 
 [1;30mOK THIS IS SANTA RIDING HIS SKATEBOARD LIKE A CAT WOULD.. .. HIS FACE LOOKS LIKE[0m
+
 [1;30mIT DOES BECUASE HE JUST STUCK IT DOWN THE SEWER.. AND I GUESS THE SEWER HAD SOME[0m
+
 [1;30mTOXIC STUFF IN IT..[0m
 
                     [1;30mAND THAT THING THAT IS STICKING OUT FROM HIS BUTT.. I DON''T[0m

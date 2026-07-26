@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WE-FUCKU.ANS by Velodrome + Cryogenic + Aesthetic (sense15j); released in sense15j and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
+# Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
@@ -39,7 +39,8 @@ Write-Host '
 [34m▓░[0;1;34;44m░[0;34m▓█[0;1;33m ▒   [0;34m░▓░▓▓░▓▓░░[0;1;33m    [0;34m▒▓█▓█[0;1;34;44m░[0;34m█[0;1;33m ░ [0;34m█▓█▓▓[0;1;33m  [0;34m▓▓ ▒ [0;1;33m  ░▓░  [0;34m▓[0;1;34;44m▓▓[0;1;34;40m▓▄[0;34m▄▓[0m           [1;37;42m▀[0;1;33;40m▓▒  [0;1;34;44m▒▒[0;34m▓[0;1;34;44m░[0m
 [34m▒░▓▒▓[0;1;33m ░    [0;34m░[0;1;33m [0;34m▒▒[0;1;33m [0;34m░[0;1;33m [0;34m░[0m     [34m░░▓▒▓█▓[0;1;33m   [0;34m▓▒▓░░[0;1;33m  [0;34m▓░ ░[0;1;33m    ░   [0;34m░[0;1;34m▒▒░[0;34m▓[0;1;34m▒[0;34m░[0;1;33m [0;34m █▓██▓[0;1;34m▒[0;1;34;44m░[0;34m▓[0;1;33m  ▒░  [0;34m▓▓▒▓[0m
 [34m░[0;1;33m [0;34m░ ░[0m        [34m░░[0m           [34m▒░░▓▒[0;1;33m   [0;34m▒░░░[0;1;33m   [0;34m▒[0;1;33m [0;34m [0;1;33m  [0;1;37m fuck?![0;1;33m [0;34m░░[0;1;34m [0;34m░░[0;1;33m  [0;34m▓▓░▓▓░[0;1;34m░[0;34m▓▒ [0;1;33m ░[0m   [34m░░[0;37m [0;34m░[0m
-[1;33m  [0;34m▒░[0;1;33m   [0;34m░[0;1;33m  [0;34m░[0;1;33m   [0;34m░[0m               [34m    ░░ ▒   ░[0m       [34m░░[0;1;33m [0;34m░[0m                          [34m░[0m
-[34m [0;37m  [0;34m  [0m                         [34m    ░   [0m        [34m [0;37m  [0;34m░[0m
+                          [34m░[0;1;33m  [0;34m▒░[0;1;33m   [0;34m░[0;1;33m  [0;34m░[0;1;33m   [0;34m░[0m               [34m    ░░ ▒   ░[0m       [34m░░[0;1;33m [0;34m░[0m
+                             [34m░ [0;37m  [0;34m  [0m                         [34m    ░   [0m        [34m [0;37m  [0;34m░[0m
+
       [37moutlines by [0;1;37mcryogenic.  [0mtouchups and shades by [1mvelo [0mand [1maes[0m [[1mFSOA[0m]
             [1;30mfsoa :: finding a clitoris no matter how well hidden.[0m'

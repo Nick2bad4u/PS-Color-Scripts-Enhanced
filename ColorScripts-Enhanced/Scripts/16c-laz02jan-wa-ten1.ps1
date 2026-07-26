@@ -11,7 +11,7 @@
 # SAUCE Group: lazarus
 # SAUCE Date: 19961223
 # SAUCE Dimensions: 80x33
-# Lines: 1-31
+# Lines: 1-32
 # Columns: 1-80
 
 Write-Host '
@@ -38,6 +38,7 @@ Write-Host '
                         [32m [0m
 
 [1;30m------------------------------------------------------------------------------- [0m
+
 [1;30mman, i haven''t done ansi in such a long time.  first came exams, then i had[0m
 [1;30mto move.  and now it''s time for christmas...  i almost had to force myself[0m
 [1;30mto do that font :)  it''s for phantams''s new board, tenuous.  i think i spelled[0m

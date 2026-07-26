@@ -49,8 +49,8 @@ Write-Host '
 █████[1;30;47m▀▀▀▀▀▀▀[0m██▄▄▄█[47m [0;40m▀▀▀▀▀▀▀▀▀▀▀▀███████████████████████████████████▄▄▄▄▄████▓██[0m
 [40m ▐█[0;1;36;47m▄░[0m█▀▀▓██[1;36;47m▄▒▌[0m█                 ███[1;36;47m▒[0m█▀▀▀▀▀▀▀▀▀▀█[47m [0;1;36;47m▓▓[0m█▌
   [1;36;47m▀▓[0m█     ▐█[1;36;47m█▌[0m [31mNew ending for a  [0;37m▀[0;1;36;47m▀█▒█[0m        ▐█[1;36;47m▐█▄[0m██ [31mPredestination between[0m
-[31m   [0;37m▀[0m       [37m▀   [0;31mdance of wheels,[0m     [37m▀█▄[0m        [37m██[0;1;36;47m█▓[0m█▌ [31mWhite lines of the highwa[0;37m■[0m
-[37m   [0;1;36;47m▓[0m     [31mInterconnected freeways[0m         [37m▀██▀   [0;31mNeither to the left[0m
+[31m   [0;37m▀[0m       [37m▀   [0;31mdance of wheels,[0m     [37m▀█▄[0m        [37m██[0;1;36;47m█▓[0m█▌ [31mWhite lines of the highway[0m
+     [37m■   [0;1;36;47m▓[0m     [31mInterconnected freeways[0m         [37m▀██▀   [0;31mNeither to the left[0m
                [31mTunnel vision swimmers in the[0m     [1;36;47m▓[0m  ▄ [31mNor the right[0m
                [31mdrivers box[0m                            [31mStraight[0m
                [31mthe engine of the heart,[0m               [31mThe highway [0;5;36m▄[0m

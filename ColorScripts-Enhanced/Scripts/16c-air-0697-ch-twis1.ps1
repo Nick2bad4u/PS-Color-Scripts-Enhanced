@@ -11,7 +11,7 @@
 # SAUCE Group: air
 # SAUCE Date: 19970601
 # SAUCE Dimensions: 80x27
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -37,6 +37,7 @@ Write-Host '
      [32m`·.[0m                                       [36m`²$s,_ [0;1;36m$[0;36m$[0m                 [32m`·.[0m
    [36m [0;37m [0;32m.·''[0m                                          [36m`²"ⁿ''[0m                  [32m.·''[0m
 [32m [0;37m─────────[0;1;30m<[0;1;36ms[0;1;34mnipp[0;1;30m,[0;1;34m [0;1;36ms[0;1;34mnapp[0;1;30m,[0;1;34m [0;1;36ms[0;1;34mnut[0;1;30m,[0;1;34m så var sagan slut[0;1;30m>[0m──────────────────────────────
+
  [32mthis one''s on request by .. ehm .. spin i think ... for twisted society[0m
 [32m and you can''t say this ascii isn''t twisted =) .. hehe .. well well .. [0m
 [32m enjoy or spit at .. [0m

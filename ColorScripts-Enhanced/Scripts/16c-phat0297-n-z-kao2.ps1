@@ -9,7 +9,7 @@
 # SAUCE Title: kaoz-logo iii
 # SAUCE Author: noize
 # SAUCE Group: phat studios '97
-# Lines: 1-29
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -38,6 +38,7 @@ Write-Host '
 
 
 [1;30m--------------------------------------------------------------------------------[0m
+
 [1;30mi just recognized that i overwrote some ansis. i have too much of ''em.[0m
 [1;30mi''ll get confused. i''ll hace to sort them between phat and sargahd without[0m
 [1;30mpissing somebody on ...[0m'

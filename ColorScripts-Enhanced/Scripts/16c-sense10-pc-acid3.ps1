@@ -11,7 +11,7 @@
 # SAUCE Group: SeNSE
 # SAUCE Date: 19980611
 # SAUCE Dimensions: 80x29
-# Lines: 1-28
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -38,6 +38,7 @@ Write-Host '
 [35m$$$$$$[0;30;45m$[0;1;35;40m$[0m [31ml[0m                                                              [1;31m,[0;31m+[0;1;31mⁿ[0;31m''[0;35m,$$$[0m
 [35m$$$$[0;30;45m$[0;1;35;40m$P''[0;31m,[0;1;31m°[0m                                                            [1;31m.[0;31m`[0;35m,g#S$$$[0;1;35m$[0m
 [1;35m╙╜ⁿ°`[0;1;31m_.[0m                                                              [1;31m.[0m [35md$$$$$[0;30;45m$[0;1;35;40m$$[0m
+
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
 [1;30mYet another for HeXD.  Wasn''t really requested, he just wanted me to do him[0m
 [1;30msome stuff so I have been. :)[0m

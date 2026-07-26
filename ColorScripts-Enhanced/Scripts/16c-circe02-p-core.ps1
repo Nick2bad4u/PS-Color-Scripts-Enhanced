@@ -11,7 +11,7 @@
 # SAUCE Group: circe
 # SAUCE Date: 19971203
 # SAUCE Dimensions: 80x32
-# Lines: 1-31
+# Lines: 1-32
 # Columns: 1-80
 
 Write-Host '
@@ -38,6 +38,7 @@ Write-Host '
 
 
 ----[ Saludos ]--------------------------------------------------------------↓--
+
 Primeramente quisiera saludar a todos mis compañer@s en Circe. Segundamente qui
 siera saludar a Helmut, Lisandro, Spektor, Coda, Nervioz, Javier, Chaco, Larry
 Simon, Sludge, Cromos, Sodi, Eze, Predicador, Mamani, Gallego, Werner, Gavilán

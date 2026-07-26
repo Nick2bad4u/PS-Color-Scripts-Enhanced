@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZS-OOPS.ANS by Zerostar (sense12j); released in sense12j and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
+# Lines: 1-32
 # Columns: 1-80
 
 Write-Host '
@@ -39,5 +39,6 @@ Write-Host '
 [34m▌░▐[0;37m   [0;34m  ▬  ▀▀[0m                                             [34m▀[0;37m [0;34m▄█▄▄▄█▄▄[0;37m [0;34m▀▀[0m    [34m ▌[0;37m [0;34m▌░[0m
 [34m▌ ▐[0m                                                           [34m▀▀[0m           [34m ▀▀[0;37m [0;34m░[0m
 [34m█▄▀[0m                                                                            [34m░[0m
+
                [32m20 minutes into this ANSI, i realized i was[0m
                [32mdrawing the word "jasper" instead of "sense" :)[0m'

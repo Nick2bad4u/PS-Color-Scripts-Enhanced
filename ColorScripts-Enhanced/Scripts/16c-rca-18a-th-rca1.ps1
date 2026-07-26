@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-RCA1.ANS by The Hornet (rca-18a); released in rca-18a and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
+# Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
@@ -29,5 +29,7 @@ Write-Host '
 [1;30m├[0;1;34m,$[0;34m$$$$$$$$$$b,[0;37m───[0;1;34m`$[0;34m$$$$$$$$$$$$$$''[0;31m$$$$ba[0;1;31maad$[0;31m$$$[0;1;34m,$[0;34m$$$$$$$$$$b,[0;1;34m`4[0;34m$$$$$$$$$$$$²[0;1;30m──┤[0m
 [1;30m├───[0;1;34m`[0;34m²4$$$$$$$b[0;37m────[0;1;34m`4[0;34m$$$$$$$$$$$$²[0;31m$$$$$$$$$$$$$$$$$[0;1;34m`[0;34m²4$$$$$$$b[0;37m──[0;34m`²4$$$$$$$P''[0;1;30m───┤[0m
 [1;30m├───────[0;34m`²4$$$$l[0;37m─────[0;34m`²4$$$$$$$P''[0;1;37m─[0;31m`²7$$$$$$$$$$$$P²`[0;37m───[0;34m`²4$$$$l[0;37m───[0;1;30m─[0;34m`''²²²''`[0;1;30m─────┤[0m
+[1;30m├──────────[0;34m`²$$$.[0;37m───────[0;34m`''²²²''`[0;1;37m───────[0;31m`''²²²²²²''`[0;1;37m─[0m─────────[34m`²$$$.[0;37m──[0;1;30m─────────────┤[0m
 [1;30m├────────────[0m─[34m`$$[0;37m─────────[0;1;30m[Re[0;34maL[0;1;37m─[0;34mC[0;1;34mRe[0;1;36maTi[0;1;37mVe─[0;1;36maRT[0;1;34miS[0;34mTS[0;1;37m─[0;34m''[0;1;30m98][0m────────[34m`$$[0;37m──[0;1;30m────────[tH]─┤[0m
-[1;30m└────────────[0m───[1;34m7[0;34m,[0;37m────────────[0;1;37m───────────────────[0m──────────────[1;34m7[0;34m,[0;37m─[0;1;30m─────────────[0;1;34m`[0m'
+[1;30m└────────────[0m───[1;34m7[0;34m,[0;37m────────────[0;1;37m───────────────────[0m──────────────[1;34m7[0;34m,[0;37m─[0;1;30m─────────────┘[0m
+                 [1;34m`[0m                                              [1;34m`[0m'

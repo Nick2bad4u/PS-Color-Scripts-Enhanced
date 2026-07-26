@@ -6,11 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR-TD.ANS by Pericles (lght9406); released in lght9406 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 50-99
+# Lines: 51-100
 # Columns: 1-80
 
 Write-Host '
-                    [33m██[0;1;33;43m░▒░░   [0;33m███▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄███[0;1;33;43m   ░░▒░[0;33m██[0m
                [1;33m▄▄[0;1;33;43m▓[0;33m▌▐█[0;1;33;43m░▒▓▒▒░░░░░░                ░░░░░░▒▒▓▒░[0;33m█▌▐[0;1;33;43m▓[0;1;33m▄▄[0m
            [1;33m▄▄██[0;1;33;43m▓▓▒[0m [33m█[0;1;33;43m░▒▓[0;1;33m█[0;1;33;43m▓▓▒▒▒▒▒▒░░░░░░░░░░░░░░░░▒▒▒▒▒▒▓▓[0;1;33m█[0;1;33;43m▓▒░[0;33m█ [0;1;33;43m▒▓▓[0;1;33m██▄▄[0m
        [1;33m▄▄█████[0;1;33;43m▓▒░[0;33m▌▐[0;1;33;43m░▒▓[0;1;33m████[0;1;33;43m▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓[0;1;33m█████[0;1;33;43m▓▒░[0;33m▌▐[0;1;33;43m░▒▓[0;1;33m█████▄▄[0m
@@ -38,6 +37,7 @@ Write-Host '
 [1;30m───[0m────[1m─────────────────────────────────────────────────────────────────────────[0m
 [1mL  [0;1;33mi  [0;33mG  [0mH  [1mT    P  r  o  d  u  c  t  i  o  n  s[0m     [1m1  9  9  4  !  !  !  !  ![0m
 [1m─────────────────────────────────────────────────────────────────────────[0m────[1;30m───[0m
+
 
 
 

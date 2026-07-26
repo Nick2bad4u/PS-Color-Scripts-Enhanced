@@ -18,17 +18,17 @@ Write-Host '
                              [1;30;40m▄[0;1;30;47m▓▓[0;1;30;41m▓▓▓▓[0;1;30;47m░░[0m
                             [1;30;40m▄[0;1;30;47m▓[0;1;30;41m▓▓▓▓[0;1;30;47m░[0;1;37;47m██[0m▀ [1m▄[0m [1m▄[0m
                            [1;30m▄[0;1;30;47m▓[0;1;30;41m▓▓▓[0;1;30;47m▒░[0;1;37;47m██[0m▀[1m▄[0m  [1m▄[0m
-                          [1;30m▄[0;1;30;47m▓▓[0;1;30;41m▓[0;1;30;47m▓[0;1;30;41m▒[0;1;30;47m▒░[0;1;37;47m█[0m▀ [1;30;41m▓[0m [1;37;40m▀[0m     "Through the thiefs hands, he hold[1;30m▄[0m
-[1;30;47m▓▓[0;1;30;41m▓[0;1;30;47m▓▒[0;1;30;41m░[0;1;30;47m░░[0m▀[1m▀▄[0;1;30;41m▒[0m [1;37;40m▄[0m      his lockpicks. The silver lock
-                        [1;30m▄[0;1;30;47m▓▓▓[0;1;30;41m▒[0;1;30;47m▓▒▒░[0m▀ [1m  [0;1;30;41m░[0;1;37;40m▄[0m       seems unbreakable. The pick slide[1;30m▄[0m
-[1;30;47m▓▓▓▓[0;1;30;41m░[0;1;30;47m▓[0;1;30;41m▓[0;1;30;47m▒[0m▀  [1;30;41m▓[0;1;37;40m▀[0m         in. 6 minutes pass. A soft click
+                          [1;30m▄[0;1;30;47m▓▓[0;1;30;41m▓[0;1;30;47m▓[0;1;30;41m▒[0;1;30;47m▒░[0;1;37;47m█[0m▀ [1;30;41m▓[0m [1;37;40m▀[0m     "Through the thiefs hands, he holds
+                         [1;30m▄[0;1;30;47m▓▓[0;1;30;41m▓[0;1;30;47m▓▒[0;1;30;41m░[0;1;30;47m░░[0m▀[1m▀▄[0;1;30;41m▒[0m [1;37;40m▄[0m      his lockpicks. The silver lock
+                        [1;30m▄[0;1;30;47m▓▓▓[0;1;30;41m▒[0;1;30;47m▓▒▒░[0m▀ [1m  [0;1;30;41m░[0;1;37;40m▄[0m       seems unbreakable. The pick slides
+                       [1;30m▄[0;1;30;47m▓▓▓▓[0;1;30;41m░[0;1;30;47m▓[0;1;30;41m▓[0;1;30;47m▒[0m▀  [1;30;41m▓[0;1;37;40m▀[0m         in. 6 minutes pass. A soft click
                       [1;30m▄[0;1;30;47m▓▓▓▓▓▓▓[0;1;30;41m▒[0;1;30;40m▀[0m   [1;30;41m▒[0m          confirms the door is open. The
-               [33m▓▓▄[0m   [1;30m▄[0;1;30;47m▓▓▓▓▓▓▓▓[0;1;30;41m░[0m    [1;30;41m░[0m [1;30;41m▓[0m        fighter walks ahead. With a groan[33m▄[0m
-[33m▓▓▓▓▄[0;1;30m▄[0;1;30;47m▓▓▓▓▓▓▓▓[0;1;30;40m▀[0m       [1;30;41m▒[0m        the door is open. Sparkling jewel               [33m▐[0m
-[33m▓▓▓▓▓▓▓▓▓▓[0;1;30;47m▓▓▓▓[0;1;30;40m▀[0m        [1;30;41m░[0m        and gold blind the eyes of the
-              [33m▀▒▒▒▓▓▓▓▓▓▓▓[0;1;30;47m▓[0;1;30;40m▀[0m                  adventurers. Suddenly it all fall[33m▀[0m
-[33m░░░▒▒▒▒▓▓▓▄[0m     [1;30;41m▓[0m           into the floor. Which is no longe                  [33m [0m
-[33m▒▒▒▒░░░▒▒▒▒▒[0m     [1;30;41m▒[0m           there. Orcs dance, holding bows
+               [33m▓▓▄[0m   [1;30m▄[0;1;30;47m▓▓▓▓▓▓▓▓[0;1;30;41m░[0m    [1;30;41m░[0m [1;30;41m▓[0m        fighter walks ahead. With a groan
+              [33m▄▓▓▓▓▄[0;1;30m▄[0;1;30;47m▓▓▓▓▓▓▓▓[0;1;30;40m▀[0m       [1;30;41m▒[0m        the door is open. Sparkling jewels
+             [33m▐▓▓▓▓▓▓▓▓▓▓[0;1;30;47m▓▓▓▓[0;1;30;40m▀[0m        [1;30;41m░[0m        and gold blind the eyes of the
+              [33m▀▒▒▒▓▓▓▓▓▓▓▓[0;1;30;47m▓[0;1;30;40m▀[0m                  adventurers. Suddenly it all falls
+                 [33m▀░░░▒▒▒▒▓▓▓▄[0m     [1;30;41m▓[0m           into the floor. Which is no longer
+                [33m ▒▒▒▒░░░▒▒▒▒▒[0m     [1;30;41m▒[0m           there. Orcs dance, holding bows
                 [33m▒▒▓▓▒[0m  [33m▀░░░▒▀[0m     [1;30;41m░[0m    [1;30;41m▓[0m      and blades. The party falls,
               [33m ▒▒▓█▓[0m                   [1;30;41m▒[0m      clashing into combat...."
               [33m▒▒▓██[0m                    [1;30;41m░[0m

@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UC-SPAZM.ANS by Unknown Comic (blnt0494); released in blnt0494 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 90-122
+# Lines: 90-123
 # Columns: 1-80
 
 Write-Host '
@@ -41,5 +41,6 @@ Write-Host '
 [30m████████[0;1;30m▀▀▀▀▀[0;30m██████████[0;1;30m███[0;30m████████████████████████[0;1;30m▀▀▀▀[0;30m█████████████████████████[0m
 [1;35m══════════════════════[0;30m█[0;1;30m███[0;30m█[0;1;35m═══════════════════════════════════════════════════[0;30m█[0m
 [30m███████████████████████[0;1;30m██▀[0;30m██████████████████████████[0m■[35mU[0;1;35mN[0;1mKNOWN [0;35mC[0;1;35mO[0;1mMiC[0;30m█[0;34m([0;1;34mB[0;36mL[0;1;36muNT[0;34m)[0m■[30m█████[0m
+
 [30m███████████████████████[0;1;30m█▀[0;30m████████████████████████████████[0m                [30m██████[0m
 [30m████████████████████████████████████████████████████[0m        [30m███████████████████[0m'

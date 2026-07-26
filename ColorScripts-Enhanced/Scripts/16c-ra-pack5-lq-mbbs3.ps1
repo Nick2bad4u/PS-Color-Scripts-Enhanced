@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-                                                         [36mlQ![0;1;30mARS[0mi[1;30mN Productions[0;36m([0;1;30mc[0;36m''[0m
-[1;30m98[0m
+                                                         [36mlQ![0;1;30mARS[0mi[1;30mN Productions[0;36m([0;1;30mc[0;36m)[0m
+                                                                      [36m''[0;1;30m98[0m
                   [34m,s[0;1;34mS$[0;34mSs,[0m       [34m,s[0;1;34mS[0;34m$Ss,[0m                 [34m   ,[0;1;34msS$[0;34mSs,[0m
         [34m,[0;1;34msS[0;34m$Ss,sS$Ss,$$$$Ss,s[0;1;34mS$S[0;34m$$$$$$$S$Ss,[0m      [36m  [0;34m,[0;1;34msS$[0;34mSs,$$$$$$$$S,sS$Ss,[0m
    [34m,sS$Ss,$$$$$,sS$Ss,$²''$$$$Ss,`²$S$²''$$$$$sS$Ss,sS$Ss,$$$S$S,sS$Ss$$$$$$$[0m

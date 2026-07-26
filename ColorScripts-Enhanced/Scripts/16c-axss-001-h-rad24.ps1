@@ -11,7 +11,7 @@
 # SAUCE Group: .%.AXss.%. -97
 # SAUCE Date: 19970530
 # SAUCE Dimensions: 80x39
-# Lines: 1-38
+# Lines: 1-39
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ Write-Host '
 [1;30m─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-[0m
   [30;42mN[0;1;32;40mame[0;32m: [0;30;42mR[0;1;32;40madio 24 Logo ![0m                 [30;42mB[0;1;32;40my[0;32m: [0;30;42mS[0;1;32;40mhinigami//AXss[0m              [30;42m1[0;1;32;40m997[0;1;5;32;40m_[0m
 [1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-[0m
+
   [32mHello boyz and girlz ! Here''s a little Ansi I made for [0;1;32mRadio 24[0;32m cause he was[0m
 [37m  [0;32mkind enough to help my m8 Maverick in getting his board back into business by[0m
 [37m  [0;32msending him sum new files to put online ! thanks ![0m

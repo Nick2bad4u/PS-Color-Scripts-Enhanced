@@ -11,7 +11,7 @@
 # SAUCE Group: black maiden
 # SAUCE Date: 19970629
 # SAUCE Dimensions: 80x334
-# Lines: 284-333
+# Lines: 285-334
 # Columns: 1-80
 
 Write-Host '

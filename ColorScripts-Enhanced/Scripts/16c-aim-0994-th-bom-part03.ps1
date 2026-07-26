@@ -6,14 +6,15 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-BOM.ANS by Threshold (aim-0994); released in aim-0994 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 98-141
+# Lines: 98-143
 # Columns: 1-80
 
 Write-Host '
-[31m█████▀[0m [1;30m░▒▓▓████████▒▐███▓[0m [31m██████▀▀▀▀[0m [31m▓▓▓▓[0m [1;30m▒▒▒▒▒▒▒▒▒▒░░░░░░░▒[0m      [34m     [0m
+ [31m▄█████▀[0m [1;30m░▒▓▓████████▒▐███▓[0m [31m██████▀▀▀▀[0m [31m▓▓▓▓[0m [1;30m▒▒▒▒▒▒▒▒▒▒░░░░░░░▒[0m      [34m     [0m
 [31m▓█████▀[0m  [1;30m░▒▓▓████████▒▐█▓▓▓▓[0m [31m▀▀▀▀[0m [31m▓▓▓▓▓▓▒▒▒▒[0m [1;30m▒▒░░░░░░░░░░░[0m  [1;30m▒[0m  [34m     ░░░░░░░░[0m
 [31m▓▓███[0m    [1;30m░▒▓▓████████▒▐▒▒▒▒▒[0m [31m▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒[0m [1;30m▒░░░░░░░░[0m     [1;30m▒[0m    [34m░░░░░░░░░░░░░░░░[0m
 [37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
+
 
 
    [31m [0;1;30m▄[0;1;30;41m██████[0;1;31;40m▄[0m
@@ -44,6 +45,7 @@ Write-Host '
 
 
 [1;30m ─  ──  ────────────────────────────────────────────────────────────────  ──  ─ [0m
+
                [34m   [0m     [34mB[0;37m  [0;1;34mU[0m  [1;34mR[0m  N  [1mO  U  T   [0m M  [1;34mO[0m  [1;34mD[0m  [34mE[0m
 
                         [37m [0m       [34m([0;1;34mIt[0ms[1m)[0m [1mPri-[0mV[1;34mat[0;34me[0m
@@ -52,5 +54,5 @@ Write-Host '
 
                               [37m  [0m  [34m2[0;1;34m8[0m.[1m8[0m [1mVF[0mA[1;34mS[0;34mT[0m
 
-[1;30m ─ ──  ───   ─────────────────────────────────────────────────────   ───  ──  ─/[0m
-[1;30m┤NSí By [0;31mT[0;1;31mh[0;1;37mre[0ms[1mho[0;1;31ml[0;31md[0m [1;30m[[0;34mA[0;1;34mi[0;34mM[0;1;30m][0m'
+[1;30m ─ ──  ───   ─────────────────────────────────────────────────────   ───  ──  ─ [0m
+                                                     [1;30m/┤NSí By [0;31mT[0;1;31mh[0;1;37mre[0ms[1mho[0;1;31ml[0;31md[0m [1;30m[[0;34mA[0;1;34mi[0;34mM[0;1;30m][0m'

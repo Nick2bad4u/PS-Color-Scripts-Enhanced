@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-SOH3.ICE by Cephalon Tsurphr (ice-9402); released in ice-9402 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 42-91
+# Lines: 41-90
 # Columns: 1-80
 
 Write-Host '
+                                                                  ▄▄▄  [1;30;47m░[0;1;37;47m░▓▄[0m▄
                                                             ▄▄[1;47m░░[0m▄[1;30m▀[0;1;30;47m░[0;1;37;47m░▒▓[0;1;37;40m▄▄[0;1;37;47m▄[0;1;37;40m▀▀▀[0;43m▀[0;40m▄[0m
                                                       [40m▄▄▄[0;1;47m░░▒▒▒▓▓▓[0m█ [1;30;47m▒[0;1;37;47m▀[0;1;37;40m▀▀[0;33m▄[0;37m▄[0;1;30m▀[0;1;30;47m░[0;43m▄[0;1;33;43m░▒[0;1;33;47m▄[0m
                                              ▄▄▄   [1;30m▄[0;1;37;47m░░░▒▒▒▒▓▓▓[0;1;37;40m█[0;1;37;47m▀[0;1;30;47m▄▓[0m [1;30;40m▀[0;1;30;47m░ [0;43m▄[0;1;33;43m▒▓[0;1;33;47m▄[0m▄▀[1;30;47m░[0;1;33;47m▀[0;1;30;47m░[0m
@@ -58,5 +59,4 @@ Write-Host '
 [1;30m  │ [0;31m[[0;1;31mA[0;31mssault/[0;1;31mL[0;31mupus] [0;1;31m¬[0;31m⌐ [0;1;31mT[0;31mhe [0;1;31mD[0;31mark [0;1;31mH[0;31malf [[0;1;31mA[0;31mssault] [0;1;31m¬[0;31m⌐ [0;1;31mD[0;31memon [0;1;31mS[0;31mlayer [[0;1;31mC[0;31mhaos/[0;1;31mR[0;31miot] [0;1;30m│[0m
 [1;30m  │ [0;1;31m2[0;31m4 [0;1;31mv[0;31marious [0;1;31ma[0;31mffiliations [0;1;31m¬[0;31m⌐ [0;1;31mC[0;31mCiNet,[0;1;31mV[0;31maliantNet,[0;1;31mA[0;31mssaultNet,[0;1;31mT[0;31mFNet,[0;1;31mG[0;31mripNet   [0;1;30m│[0m
 [1;30m  │ [0;1;31mB[0;31moasting [0;1;31mt[0;31mhe [0;1;31ml[0;31margest [0;1;31mA[0;31mNSI/[0;1;31mV[0;31mGA [0;1;31mC[0;31mollection [0;1;31mt[0;31mhis [0;1;31ms[0;31mide [0;1;31mo[0;31mf [0;1;31mt[0;31mhe [0;1;31mM[0;31mississippi!  [0;1;30m│[0m
-[1;30m  └──[ansi by c.t of ice]───────────────────────────────────────────────────┘[0m
-→CT-SOH3.ICE bSouth of Hell - Cephalon Tsurphr ☼ ╕♦☼┘*[0m'
+[1;30m  └──[ansi by c.t of ice]───────────────────────────────────────────────────┘[0m'

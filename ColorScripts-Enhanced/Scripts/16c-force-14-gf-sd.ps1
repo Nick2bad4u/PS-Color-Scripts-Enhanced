@@ -11,7 +11,7 @@
 # SAUCE Group: fORCE
 # SAUCE Date: 19930126
 # SAUCE Dimensions: 80x50
-# Lines: 1-47
+# Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
@@ -52,10 +52,13 @@ Write-Host '
 
 
 [1;30m-[eof]--------------------------------------------------------------------------[0m
+
 [1;30mrAh! I can''t draw backgrounds for shit, and I keep using the same color scheme,[0m
 [1;30mbut i rekon this pic is nice ..bRiTE COLORS RUlE!!!! :) Hehehe anywayz, this was[0m
 [1;30mdone in about two hours ..I jus wish I could add some kinda backround ..owell :)[0m
+
 [1;30m-[0m[greets][1;30m-----------------------------------------------------------------------[0m
+
 [1;30mSpoonman, The Budweiser, and all of fTS, Cryptic (hope ya like this), MZ, RH, [0m
 [1;30mTrinisis, The MLIR team, Anibus, Kurrupt, Krisis, and all the dudes in fORCE![0m
 

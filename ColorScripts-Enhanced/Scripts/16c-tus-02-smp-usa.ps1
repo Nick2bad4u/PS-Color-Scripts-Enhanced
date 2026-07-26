@@ -8,7 +8,7 @@
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Date: 20010917
 # SAUCE Dimensions: 80x26
-# Lines: 1-25
+# Lines: 1-26
 # Columns: 1-80
 
 Write-Host '
@@ -36,4 +36,5 @@ Write-Host '
 [1;34m☻☻☻☻☻☻☻☻☻[0m $$$[1m$[0m$$$$ [1;34m☻☻☻☻☻☻[0m $[1m$[0m$$$[1m$[0m$$ [1;34m☻☻☻[0m $[1m$[0m$$[1m$[0m$ $$$$$$$$$$$  $$[1m$$$$$$$$$[0m$$ [1;34m☻☻☻☻☻☻☻[0m
 [1;34m╚╩╩╩╩╩╩╩╝[0m $[1m$[0m$$$[1m$[0m$$ [1;34m☻☻☻☻☻☻[0m $$$[1m$[0m$$$$ [1;34m☻☻☻[0m $$$$$$ $[1m$[0m$$[1m$[0m$$$[1m$[0m$$  $$[1m$$$$$$$$$[0m$$ [1;34m☻☻☻☻☻☻☻[0m
 aaaaaaaaaa$$$[1m$[0m$$$$ [1;34m☻☻☻☻☻☻[0m $$$$$$$$ [1;34m☻☻☻[0m $[1m$[0m$$[1m$[0m$ $$$$$$$$$$$  $$[1m$$$$$$$$$[0m$$aaaaaaaa
+
 Sorry.[0m'

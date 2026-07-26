@@ -10,7 +10,7 @@
 # SAUCE Author: Blind Sniper
 # SAUCE Group: Department 38
 # SAUCE Dimensions: 80x25
-# Lines: 1-49
+# Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
@@ -33,6 +33,7 @@ Write-Host '
      [30;46m▓▓[0;36;40m░[0;37;40m [0;36;40m░[0m   [37;40mSanity..[0m         [37;40m    [0m      [1;37;40m▀▀▀▀███████▓▀▀▀▀ [0m
 
 >Y''all Cut This Shit Out<-------------------------------------------------------
+
 [1;30m[[0;1;32mBlind Sniper[0;1;30m] [0;32mWell, here''s a goodbye screen for Streamed Sanity...[0m
                [32mNot requested, but I couldn''t help myself touching up the [0m
                [32moriginal smiley face...[0m

@@ -6,14 +6,14 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TGAW1.ANS by Forego + Ansiman (lght9405); released in lght9405 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 50-96
+# Lines: 51-97
 # Columns: 1-80
 
 Write-Host '
-[1;30m▓▓▓▓▒▓░░░░░░░[0m                 [1;30m░░░░░░░░░░░░░▒▒▒░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒███████████▓▒▒█[0m
-[1;30m▓▓▓▒░[0m           [1;30m▀█▓▓▓▓▓▒▒▒░░░░░░░░░░░████████████████████████▓▓▓▓██████▒▓▓▓▓▓▓▓░[0m
-[1;30m░░░░░▒▓▓▓█████████████████████▓▒▒░░░░░░░▒█▓█████████[0m                 [1;30m▒▓▓░░░░░░░[0;34m░[0m
-[34m░░░[0;1;30m▒▒▒▒▒▒▒▒▓▓▓▓░░░░░░░░░░░░░░░[0m            [1;30m░░░░░░░░░░░▓▓▓▓▓▓▓[0m        [1;30m███▒▒▓░░░░░[0m
+                 [1;30m█▓▓▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░███████████████▓▓██████▒▒▒░░█░[0m
+                [1;30m▀█▓▓▓▓▓▒▒▒░░░░░░░░░░░████████████████████████▓▓▓▓██████▒▓▓▓▓▓▓▓░[0m
+                [1;30m░░░░░░▒▓▓▓█████████████████████▓▒▒░░░░░░░▒█▓█████████▒▓▓░░░░░░░▓[0m
+           [34m░░░░[0;1;30m▒▒▒▒▒▒▒▒▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓▓▓▓▓▓[0m        [1;30m███▒▒▓░░░░░[0m
        [34m░░░░░░░[0;33m▒▒[0;1;30m▒▒▒▒▒▓▓▒▒▓[0m               [1;30m▓▓▓▓▓▒▒░░░░▒[0m                    [1;30m▒▓▓▓▓▓[0m
 [1;30m  [0;34m░░░░░▒▓░░░░[0;33m▒▒   [0;1;30m▒▒▓▓▓▓▓[0m       [1;30m▒▒▒▒▓▓▓▓▓█[0m
 [34m░░░░░▒▒░░▒▒░[0;33m▒▒[0m        [1;30m▓▓▓▓▓▓▓▓▓█[0m

@@ -11,7 +11,7 @@
 # SAUCE Group: blND
 # SAUCE Date: 19970112
 # SAUCE Dimensions: 80x25
-# Lines: 1-46
+# Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
@@ -57,6 +57,7 @@ from the mystery files of shelby woo comes an eleven dreams production:
        [32m▄▀[0;37m [0;32m▓█▄[0m    [32m▐[0m    [32m█[0m
           [32m█░▀▀[0m   [32m▐[0m    [32m▀[0m
 [1;32m==========[0;32m▓[0;1;32m-=====[0;32m▀[0;1;32m===[0;32m█[0;1;32m-=========================================================[0m
+
 
 [1;44mansi done by mel farr suppastar (p301) and iceage (lazarus). [0m
 [1;44m       [0m

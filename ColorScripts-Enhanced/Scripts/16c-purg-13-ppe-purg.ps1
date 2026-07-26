@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPE-PURG.ANS by Purplee (purg-13); released in purg-13 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
+# Lines: 1-28
 # Columns: 1-80
 
 Write-Host '
@@ -26,6 +26,7 @@ Write-Host '
 [33m§[0;1;33m§§§§Ss[0;36m`[0;1;30my$$[0;1;30;47m$[0;1;30;40m$$[0;36m.[0;31m [0;37m [0;36m$[0;1;30m$$$$$'',$$$$$[0;36m$[0;37m [0;1;33m§a[0;36m`[0;1;30my$$$$[0;36m$[0;37m [0;1;33m§§§§§§[0m [36m$[0;1;30m$$[0;1;30;47m$[0;1;30;40m$$[0;36m''[0;37m [0;36mSⁿ[0;1;30m$ⁿ$[0;1;30;47m$[0;1;30;40m$$[0;36m''[0;1;33ma§§§§§§§§§§§§[0;33m§[0m
 [33m`ⁿS§§§Ss[0;36m`ⁿS$Sⁿ''[0;33mss[0;36m`ⁿS$$$$$$$$Sⁿ''[0;33msSSs[0;36m`ⁿSSⁿ''[0;33msS§§§§Ss[0;36m`ⁿS$$$$$$$$y$Sⁿ''[0;33msS§§§§§§§§§§Sⁿ''[0m
 
+
                        [1;37m- -- [%[0;1;30m] [Purg[0m][1m [0m[%] -- -
 
        [33m    [0m
@@ -34,4 +35,5 @@ Write-Host '
 
 
 [36m--------------------------------------------------------------------------------[0m
+
 [36m       [0m    [1;36mmaybe a little bit to much colors ... =([0m'

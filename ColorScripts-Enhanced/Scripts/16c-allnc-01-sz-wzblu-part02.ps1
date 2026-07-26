@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-WZBLU.ANS by Schizo (allnc-01); released in allnc-01 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-96
+# Lines: 49-98
 # Columns: 1-80
 
 Write-Host '
@@ -57,4 +57,6 @@ Write-Host '
                                   [1;35;40m▄▄▄[0;1;35;45m▀▀[0;35;45m████[0;35;40m▀[0m         [1;35;40m▄[0;1;35;45m▀▀[0;35;45m██[0;30;40m█[0m                 [1;35;40m█[0;30m█[0m
                            [1;35m▄▄▄[0;1;35;45m▀▀▀▀[0;35;45m████████[0;35;40m▀[0m       [1;35;40m▄▄[0;1;35;45m▀[0;35;45m███[0;35;40m▀[0m                  [1;35;40m█[0;35;45m█[0;30;40m█[0m
                        [1;35;40m▄▄[0;1;35;45m▀▀[0;35;45m██████████████[0;30;40m█ [0;1;35;40m▄[0;1;35;45m▀▀▀▀▀▀[0;35;45m██████[0;30;40m█[0m               [1;35;40m▄[0;1;35;45m▀▀[0;35;45m██[0;30;40m█[0m
-                    [1;35;40m▄[0;1;35;45m▀▀[0;35;45m███████████████████[0;30;40m█[0;35;40m▀[0;35;45m████████████[0;30;40m█[0m            [1;35;40m▄▄[0;1;35;45m▀[0;35;45m█████[0;30;40m█[0m'
+                    [1;35;40m▄[0;1;35;45m▀▀[0;35;45m███████████████████[0;30;40m█[0;35;40m▀[0;35;45m████████████[0;30;40m█[0m            [1;35;40m▄▄[0;1;35;45m▀[0;35;45m█████[0;30;40m█[0m
+                 [1;35;40m▄[0;1;35;45m▀▀[0;35;45m███████████████████████[0;30;40m█[0;35;40m▀[0;35;45m████████████[0;30;40m█[0m        [1;35;40m▄[0;1;35;45m▀▀[0;35;45m█████████[0;30;40m█[0m
+              [1;35;40m▄▄[0;1;35;45m▀[0;35;45m█████████████████████[0;35;40m▀[0;35;45m█████[0;30;45m▀[0;30;40m█[0;35;40m▀[0;35;45m███████████[0;30;45m▀[0;30;40m█   [0;1;35;40m▄[0;1;35;45m▀▀[0;35;45m████████████[0;30;40m█[0m'

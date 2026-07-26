@@ -11,7 +11,7 @@
 # SAUCE Group: Phat Studios '97
 # SAUCE Date: 19970531
 # SAUCE Dimensions: 80x24
-# Lines: 1-23
+# Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
@@ -32,6 +32,7 @@ Write-Host '
    [34m░[0;30;44m▓[0;37;40m [0;34;40m ▀[0;1;34;40m▀▀▀[0;34m [0m   [1;30m▀[0m▀▀[1m▀[0m         [36m''[0m     [33m░[0;30;43m▓[0;33;40m [0;37;40m [0;33;40m ▀[0;1;33;40m▀▀[0;1;37;40m▀▀▀[0;1;33;40m▀[0;33m▀[0m    [1;30m▀[0m▀▀[1m▀▀▀[0m▀▀[1;30m▀[0m      [36m░[0;30;46m▓[0m
              [34;40m     [0;37;40m  [0;1;30;40m  [0m            [30;43m██[0m
 [1;30;40m─(vomit),────── ─ ───────────-- - ─────────── ───────── ---────────── - ────────[0m
+
  [1;30mWuaah, to be honest[0m [1;30m- I hate this ansi, one of my first newskool tries[0m
 [1;30m ever. No comment =)[0m [1;30m.........[0m
  [1;30maber hallo and super duper to 40 ;)[0m [1;30m- I think I''ll draw soon a new one hehe[0m

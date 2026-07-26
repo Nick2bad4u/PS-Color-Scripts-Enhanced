@@ -11,12 +11,12 @@
 # SAUCE Group: SUiCiDE
 # SAUCE Date: 19941020
 # SAUCE Dimensions: 80x141
-# Lines: 93-138
+# Lines: 94-140
 # Columns: 1-80
 
 Write-Host '
-
 [1;30m─[0m─[1m────────────────────────────────────────────────────────────────────────────[0m─[1;30m─[0m
+
 
                     [1;30;47m▓▒░[0m
                     [1;30;47m▒░[0m█
@@ -47,6 +47,7 @@ Write-Host '
 [1;30mNuclear Dreamer [SUiCiDE][0m
 
 [1;30m─[0m─[1m────────────────────────────────────────────────────────────────────────────[0m─[1;30m─[0m
+
 [1;30m                                  P[0ms[1mychoNet WHQ[0m
 [1;30m                                   S[0mU[1miCiDENet[0m
 [1;30m                                  S[0mU[1miCiDE Site[0m

@@ -11,7 +11,7 @@
 # SAUCE Group: moonlight
 # SAUCE Date: 19960818
 # SAUCE Dimensions: 80x20
-# Lines: 1-19
+# Lines: 1-20
 # Columns: 1-80
 
 Write-Host '
@@ -32,4 +32,5 @@ Write-Host '
  [1;34mwell i was lookin for [0;1;30m░[0;1;30;43m▒[0;33m▀▀[0m       [1;31ms[0;33m:[0;37m [0;1;31ma[0;33mlloy[0m               [1;37m░[0m  ▀[1;47m▀▓▄█▀[0m▀▀▀       ▐[1;47m▒[0m▌
  [1;34msome 0-day aplle ][e [0m  [33m▀▓[0;1;31mc[0;33mheeze [0;1;31mm[0;33monkey[0;1;33m(([0;1;31mm[0;33moonlight[0;1;33m))[0;1;34m   [0m       ▀[1;47m▀[0m▀[1m [0m        ▄[1m■[0m▀[1;47m░[0m■[1m▄[0m
  [1;34mwarez and i had to trade[0;33m░[0;1;34m     [0;33m [0m                               [37m░[0m         [1;37m▐[0m▌  [30;47m▓[0;37;40m [0;1;37;40m▐[0m
- [1;34mit for oregon trails :)[0m                     [1;35m░░[0m                           [1m▀■▄[0m▄[1m■░[0m'
+ [1;34mit for oregon trails :)[0m                     [1;35m░░[0m                           [1m▀■▄[0m▄[1m■[0m▀
+                                                         [1m░[0m'

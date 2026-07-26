@@ -11,7 +11,7 @@
 # SAUCE Group: hOMO
 # SAUCE Date: 19970803
 # SAUCE Dimensions: 80x33
-# Lines: 1-32
+# Lines: 1-33
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
 [1;30m     [0;1;37m      [0m  [1;30m              [0;1;35m [0;35m?$b,_[0;1;37m [0;34ml[0;1;34m$$[0;34m:[0;1;37m [0;1;35m [0;35mⁿ"`│*┴.[0;1;37m       [0;1;35m [0;35m.*┘""└?$[0;1;35m$$$$[0;35m$''[0;1;37m     [0;1;35m [0;1;37m   [0m
 [1;30m              [0;1;37m   [0;1;30m           [0;1;37m [0;35m`└?$─────[0;1;35m─────[0;35m┘[0;37m  [0;1;37m [0;35m`*._[0;1;35m [0;35m./`[0;1;35m [0m      [35m`└**┘''[0;1;35m  [0m
 [cut here]-8X-------------------------------------------------------------------
+
 this ascii is by the TRIUMVIRATE -- sargon, discyple, and meatpod. this
 particular piece is for meatpod''s board, Flash Traffick ((212)595-2798).
 

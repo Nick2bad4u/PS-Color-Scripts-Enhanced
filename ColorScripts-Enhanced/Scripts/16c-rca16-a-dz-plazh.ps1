@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ-PLAZH.ANS by Dz (rca16-a); released in rca16-a and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
+# Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
@@ -29,11 +29,12 @@ Write-Host '
 [1;33m█[0;1;33;43m██▓▓[0m  [1;30m██[0m     [1;30m▄▄[0m     [1;30m▀[0m                   [1;30m▓█[0;1;30;47m▀░[0;1;30;40m▌█[0m     [1;30m▄▄██[0;1;30;47m▄[0;1;30;40m▀ [0m     [1mbalbbabas[0m
 [1m█[0;1;33;43m███[0;1;33;40m▀[0m [1;30m▐█▌[0m     [1;30m▀[0m         [1;30m▄[0m               [1;30m▄▓█[0;1;30;47m▓[0;1;30;40m▌[0m [33m▄[0;1;30m▀▀[0;33m▄[0;1;30m▀▀[0;33m      [0;31m▄[0m        [1;37mbalalb[0m
 [1m███▀[0m  [1;30m▓█[0m                  [1;30m▀▄[0m          [1;30m▄▓██▀[0;33m░░▄▓████     [0;37m [0;31m █[0m       [1;37mblbalbal[0m
-[1;47m▓[0;1;40m▀ [0m  [1;30;41m▓[0;1;30;40m█▌[0m          [1;30m▄[0m          [1;30m▀▐▄█▄▄▄[0m [1;30m▀[0m  [33m░▒▄▄[0;1;31;43m ▄█▄ ░[0;33m█▌[0m   [31m▄  █▌[0m        [1;37mblbal[0m     [33m [0;1;30;41m▓[0m
-[1;30;40m█▀[0m          [1;30m█▌[0m       [1;30m▄▄▄▓█▀[0;36m▀[0;1;30m [0;33m░░▄▄▓[0;1;31;43m  ▄▄██▓[0;1;31;40m▀[0;33m▄▄▄▄▄[0;37m [0;31m▄▄▄█▄▀█[0m                        [1;33;43m░[0m
+[1;47m▓[0;1;40m▀ [0m  [1;30;41m▓[0;1;30;40m█▌[0m          [1;30m▄[0m          [1;30m▀▐▄█▄▄▄[0m [1;30m▀[0m  [33m░▒▄▄[0;1;31;43m ▄█▄ ░[0;33m█▌[0m   [31m▄  █▌[0m        [1;37mblbal[0m     [33m ▄[0m
+    [1;30;41m▓[0;1;30;40m█▀[0m          [1;30m█▌[0m       [1;30m▄▄▄▓█▀[0;36m▀[0;1;30m [0;33m░░▄▄▓[0;1;31;43m  ▄▄██▓[0;1;31;40m▀[0;33m▄▄▄▄▄[0;37m [0;31m▄▄▄█▄▀█[0m                   [1;33;43m░[0m
  [1;30m▄▄██[0m      [1;30m▄█▄[0m  [1;30m▐█▄[0m          [1;30m▀▀▓▄[0m [33m▀▀[0;1;31;43m░  ▀▀██[0;1;31;47m▓▓[0;1;31;43m█▄[0;1;31;47m██[0;1;31;40m█[0;1;31;47m▀[0;1;31;40m▌[0m  [33m [0;31m▀██[0;33;41m░░▓[0;33;40m▄[0m              [33;40m ▄[0;1;33;43m░▄[0m
 [1;30;40m█▀▀[0m         [1;30m▀[0m      [1;30m▀[0m           [1;30m▐██▓▄▄[0m  [33m▀▀▀[0;1;31;43m▀[0;1;31;40m█████[0;1;31;47m█[0;1;31;40m█[0;1;31;47m▓[0m     [31m▐[0;1;31;41m░[0;31m█[0;31;43m▀░░[0;33;41m██[0;33;40m▄▄[0m    [31;40m  [0;33;40m  ▄▄[0;1;33;43m░▄▓[0;1;33;40m█[0m
 [1;30;40m▀[0m                       [1;30m▄▀[0m  [1;30m▄[0m [1;30m▄█[0;1;30;47m▓[0m   [1;30m▀▀▀▀▀[0m    [1;31m▀▀▀▀[0m▀     [31m▀▀▀▀▀▀[0;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;33m▀▀▀▀[0;1;37m▀[0m
+
 [1mwoah, 24 liners![0m
 [1mwell, phew words from me...[0m [1mi just wanted to say [0m
 [1mmarry Xmas[0m [1mtoall ov''ya around the world...[0m

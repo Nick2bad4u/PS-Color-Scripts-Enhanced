@@ -11,7 +11,7 @@
 # SAUCE Group: homo
 # SAUCE Date: 19970803
 # SAUCE Dimensions: 80x30
-# Lines: 1-29
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ $$[1;30m__[0m  `[1m?$[0m$$[1m$$$$P[0m`[33m,dP``└%,._[0;31m`^`[0;33m_.
        [31m└`,[0m    [31m `[0m                   [31m `, [0m
 
 [37m[cut here]-8X-------------------------------------------------------------------[0m
+
 [37mthis is a present for aneurizm, cosysop of morals obscured. he got me partially[0m
 [37min touch with msd, who still, btw, owes me a 175 line $20 ascii (ahem).[0m
 

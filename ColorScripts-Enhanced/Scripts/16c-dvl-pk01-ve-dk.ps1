@@ -34,6 +34,6 @@ Write-Host '
 [1;30mGHTRJTKHIOIGFgfjfjh[0;31m:½½,[0;37m`²S  `²[0;31m,,[0;37m`²''[0;31m,,[0;37m`²S  `²  `²S$$S²''[0;31m,½¼½b [0;1;30m$$$$ggEE$$$gTTTYHHC[0m
 [1;30mGJHFJGHTRRE GHGD$$$ [0;31md½½$Ss½½$S½½SsS½¼$Ss½¼Ss½¼SssssssS¼½¼½½Ss[0;1;30m`$$Z$T$$$TTT$$hFFFH[0m
 [1;30mRETREHFUJHGFDBFHGHD$ [0;31m`²S¼½½¼½½¼½¼½¼½¼½½¼½¼¼½¼½¼½¼½¼½¼½¼½½¼¼S²''[0;1;30m,$FxXXVBbFFHJGFJGh[0m
-[1;30mGGHHGGHDGHFGHGFH$$$$$$SsssssssssssssssssssssssssssssssssssssS$$$GFFGGGGHHGJKHGT[0mT
-his iS a Publicity OF DEVIL KiNG BBS, The Board Of VeNoMouS
+[1;30mGGHHGGHDGHFGHGFH$$$$$$SsssssssssssssssssssssssssssssssssssssS$$$GFFGGGGHHGJKHGTY[0m
+        This iS a Publicity OF DEVIL KiNG BBS, The Board Of VeNoMouS
                        MagiK Numba: See iT In THe NFo[0m'

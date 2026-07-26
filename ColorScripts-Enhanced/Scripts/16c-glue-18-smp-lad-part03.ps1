@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-LAD.ANS by Shrimp (glue-18); released in glue-18 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 70-106
+# Lines: 70-107
 # Columns: 1-80
 
 Write-Host '
@@ -35,7 +35,8 @@ Write-Host '
  [1;30m▄▄[0;1;30;47m▓█[0;1;30;40m▄ ▀▀▀█▓▀  ▄▄[0m  [1;30m▓[0m  [1;30;47m█▀ ░▄[0;1;30;40m▄▓░[0m [1;30m▓▓█ [0;36m▌[0;1;30m▐ [0;36m▓[0;1;30m▓▄[0;1;30;47m▀   ░▒▓▓[0;1;30;40m█▓▓ ░▓█[0;1;30;47m ░░▒[0;1;30;40m▄[0m  [1;30m ▄█▀█[0;1;30;47m▀  ░▒▓[0;1;30;40m█▄██▄░[0m
 [1;30;40m▐█[0;1;30;47m▓░▄[0;1;30;40m██ ░  ▄▄▄█[0;1;30;47m▀▀█[0m   [1;30m▓[0;1;30;47m▐ ░▒▓▓█[0;1;30;40m▄[0m [1;30m██[0;1;30;47m▀[0;1;30;40m▄▄[0;1;30;47m░[0;1;30;40m [0;36m░[0;1;30m█▀[0;1;30;47m█▄░░▓[0;1;30;40m█▀▀░ ░░ ▌[0;1;30;47m█[0;1;30;40m█[0;1;30;47m▄▄░[0;1;30;40m▀▀[0m [1;30m▄█[0;1;30;47m▀ ░░▄░░▓[0;1;30;40m▓█[0;1;30;47m░▓[0;1;30;40m█▀░[0m
  [1;30m▀[0;1;30;47m▄[0;1;30;40m▀[0m [1;30m▄██[0;1;30;47m▓[0;1;30;40m███[0;1;30;47m▀░▄▄ ▐[0;1;30;40m▓▀▀▓▓▓▀██▓▓▀[0m [1;30m▀▓▓▀▀[0m [1;30m▄▄▄▓[0m [1;30m▀▀▀[0m  [1;30m▄▓▓▄▄▓▄▄[0m [1;30m▀▀[0m     [1;30m▀██[0;1;30;47m▄░▓[0;1;30;40m█[0;1;30;47m▒▒█▀▄[0;1;30;40m██▓░[0m
-[1;30m▄▄[0m  [1;30m░▓█[0;1;30;47m░░▄[0;1;30;40m▀▀▀▀░[0m [1;30m-----[0m [1;30m▒░░------------------------------------------------------░[0m
+[1;30m▄▄[0m  [1;30m░▓█[0;1;30;47m░░▄[0;1;30;40m▀▀▀▀░[0m [1;30m-----[0m [1;30m▒░░-------------------------------------------------------[0m
+                      [1;30m░[0m
 [1;30maensi be dedicAYEted Ta Me gRRRandf''dah[0m [1;30mColin Lilley aND Ta mE cawntRRRy[0m [1;30manD ta[0m
 [1;30mTheee pEopLe O'' ScAtlan'' aNd Ta tHeirrr WhIsKee. i Be GaNnIng nO'' sew GoodbyE[0m
 [1;30mME lAdz, yEE.[0m

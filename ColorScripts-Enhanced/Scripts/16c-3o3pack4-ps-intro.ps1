@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PS-INTRO.ANS by Psychic (3o3pack4); released in 3o3pack4 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
+# Lines: 1-35
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
                                    [1;35m☺[0m
 
 [1;30m<------------------------------------------------------------------------------>[0m
+
            [1;30mThis is my first 3o3-released pic!... it is a intro-file for[0m
            [1;30mmy board... refusal. ;) well thats all for now![0m
 

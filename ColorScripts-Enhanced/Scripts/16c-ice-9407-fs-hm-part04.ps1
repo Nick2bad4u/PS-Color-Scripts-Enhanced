@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-HM.ICE by Fistandantilus (ice-9407); released in ice-9407 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 118-159
+# Lines: 125-166
 # Columns: 1-80
 
 Write-Host '
@@ -45,10 +45,10 @@ Write-Host '
                [1m▐[0;1;47m▓▒░[0;1;30;47m░▒[0;1;30m▀▀▀ ██▌   [0m▄[1;30;47m░[0;1;47m░▒▓[0;1m▌[0m        [1;47m▓▒░[0;1;30;47m░▒[0;1;30m▌ [0;1m▄[0m▄   [1m▀[0;1;47m▓[0;1m▌ [0;1;30m▄▀   ░[0m
                 [1m▀[0;1;47m▓[0m▀          [1;30m▀[0m▀[1;30;47m▒░[0;1;47m░▒▓[0m         [1;47m▓▒░[0;1;30;47m░▒[0;1;30m▌[0m        [1m▀[0m▀
                                 ▀[1;47m▓[0;1m▀[0m          [1;47m▓▒░[0;1;30;47m░▒▓[0m        [1;30mm[0m     [1;30mo[0m     o     [1mn[0m
-[1m▀▀[0m▀[1m▀[0m▀▀▀[1m▀[0m▀▀[1;30m▀[0m▀[1;30m▀▀▀[0m▀[1;30m▀▀▀▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀ [0;1m▐[0;1;47m▓▒░[0;1;30;47m░▒[0m▀[1;30m▀▀  ▀▀   ▀▀▀   ▀▀▀   ▀▀▀   s[0m
-[1;30mysop qu''r[0m                     [1;30man[0m              [1m▀[0;1;47m▓[0m▀
+[1m▀▀[0m▀[1m▀[0m▀▀▀[1m▀[0m▀▀[1;30m▀[0m▀[1;30m▀▀▀[0m▀[1;30m▀▀▀▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀ [0;1m▐[0;1;47m▓▒░[0;1;30;47m░▒[0m▀[1;30m▀▀  ▀▀   ▀▀▀   ▀▀▀   ▀▀▀   ▀[0m
+                    [1;30msysop qu''ran[0m              [1m▀[0;1;47m▓[0m▀
                     [1;30mhosting a real big fuckin art collection[0m
                     [1;30maccepting quality users only[0m
                     [1;30mxxx.xxx.xxxx[0m
-[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄▄[0m▄[1;30m▄[0m▄▄[1;30m▄[0m▄▄▄[1m▄[0m▄▄▄[1m▄[0m▄[1m▄▄[0m▄[1m▄▄[0;1;30ma[0m
-[1;30mnsi forged by fistandantilus of  insane cr[0m          [1;30meators enterprises[0m'
+[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄▄[0m▄[1;30m▄[0m▄▄[1;30m▄[0m▄▄▄[1m▄[0m▄▄▄[1m▄[0m▄[1m▄▄[0m▄[1m▄▄▄[0m
+         [1;30mansi forged by fistandantilus of  insane creators enterprises[0m'

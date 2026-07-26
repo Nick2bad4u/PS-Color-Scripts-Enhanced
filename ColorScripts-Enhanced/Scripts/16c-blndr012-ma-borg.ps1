@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-BORG.ANS by Mafesto (blndr012); released in blndr012 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
+# Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
@@ -42,4 +42,5 @@ Write-Host '
 [1;30;40m--------------------------------------------------------------------------------[0m
 [1;30;40mit''s a cyborg .. the bremuda triangle is the little symbol on his chest, and[0m
 [1;30;40mhe''s about to do some major killing. :) this is for the skate shop. - mafesto.[0m
- [1;30;40m[bremuda triangle, cyborg, killing]--[blender]-----[mafesto∙riot]--------------[0m'
+[1;30;40m-[bremuda triangle, cyborg, killing]--[blender]-----[mafesto∙riot]--------------[0m
+'

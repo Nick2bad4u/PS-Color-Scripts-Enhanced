@@ -11,7 +11,7 @@
 # SAUCE Group: .%.AXss.%. -97
 # SAUCE Date: 19970708
 # SAUCE Dimensions: 80x35
-# Lines: 1-34
+# Lines: 1-35
 # Columns: 1-80
 
 Write-Host '
@@ -42,6 +42,7 @@ Write-Host '
 [1;30m─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-[0m
   [1;34mN[0;1;32mame[0;1;34m: N[0;1;32mew user Ansi thingy...[0m         [1;34mB[0;1;32my[0;1;34m: S[0;1;32mhinigami//AXss[0m              [1;34m1[0;1;32m997[0;1;5;32m_[0m
 [1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-[0m
+
   [1;32mJust a little Ansi made under request from Cockroach for his board...[0m
   [1;32mPlease do not rip this crap...[0m
   [1;32mSee you l8a... (a LOT later...)...[0m

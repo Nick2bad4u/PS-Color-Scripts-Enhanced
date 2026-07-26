@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-LOCO!.ANS by Sudden Massacre (locus-05); released in locus-05 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -35,6 +35,7 @@ Write-Host '
 [32m ▀████▀   [0m                                 [32m▀▀ [0;37m [0;32m▌▀[0m
    [32m▀[0m   [32m   [0m                                     [32m▌[0m
 [37m [0;34m--------------------------------------------  [0;32m▀[0;37m  [0;34m------------------------------[0m
+
 [34mLOCO! i couldnt fit locus in so i wrote loco instead. If anyone wants it TELL[0m
 [34mME![0;37m [0;34mBtw: Ave you suck ;)[0m
                           [34mSudden massacre 99[0m'

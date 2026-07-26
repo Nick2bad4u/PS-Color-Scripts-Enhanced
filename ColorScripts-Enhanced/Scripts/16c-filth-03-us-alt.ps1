@@ -11,7 +11,7 @@
 # SAUCE Group: fIlth?!
 # SAUCE Date: 19970718
 # SAUCE Dimensions: 80x31
-# Lines: 1-30
+# Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
@@ -41,6 +41,7 @@ Write-Host '
                                          [34;40m▀[0m
 
 [34;40m─────────────────────────────────────────────────────────────────────────────── [0m
+
 [34;40mThis is a joint between [0;1;34;40mPanaji[0;34m and [0;1;34manOmite[0;34m,..[0m
 [34mturned out pretty good.[0m
 [1;34mpanaji[0;34m; outline, color and a little shading on the "a"[0m

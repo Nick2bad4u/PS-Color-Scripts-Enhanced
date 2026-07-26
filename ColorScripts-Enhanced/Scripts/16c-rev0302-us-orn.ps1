@@ -11,7 +11,7 @@
 # SAUCE Group: Revival 2002
 # SAUCE Date: 20020315
 # SAUCE Dimensions: 80x26
-# Lines: 1-25
+# Lines: 1-26
 # Columns: 1-80
 
 Write-Host '
@@ -37,5 +37,6 @@ Write-Host '
 
                                              [37mcolor/shading: ceelow/revival[0m
                                      [37m font/outline/touchup: ZeusII/revival      [0m
+
                                       [37mNOTE:[0m      [37mbe looking for another[0m
                                                  [37mversion of this by davek.[0m'

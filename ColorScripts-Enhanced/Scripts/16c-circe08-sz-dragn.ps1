@@ -42,7 +42,7 @@ Write-Host '
 
 
 
-                                        [1;30mtrying to draw like zerovision only gavm[0m
-[1;30me more respect for his style, props to[0m
+                                        [1;30mtrying to draw like zerovision only gave[0m
+                                        [1;30mme more respect for his style, props to[0m
                                         [1;30mave for waiting on me[0m
                                            [1;30m>>slackzor[0m'

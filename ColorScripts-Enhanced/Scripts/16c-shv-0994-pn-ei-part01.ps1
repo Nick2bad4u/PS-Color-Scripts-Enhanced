@@ -11,11 +11,14 @@
 # SAUCE Group: Shiver
 # SAUCE Date: 19940829
 # SAUCE Dimensions: 80x25
-# Lines: 1-41
+# Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
+[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀  [0mEternal Illusions  [1;30m▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
+[1;37mScreen No. [0m05 [1m- P[0mi[1mSTON  [0;1;30m█ [0m379 [1mLines [0;1;30m█ [0;1;37mCompleted - [0m08[1m/[0m29[1m/[0m94 [1;30m█ [0;1;37mShiver Products ''94[0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
+
 
 
 
@@ -51,6 +54,11 @@ Write-Host '
 
 
                                              [1m∙[0m
+
+
+
+
+
 
 
 

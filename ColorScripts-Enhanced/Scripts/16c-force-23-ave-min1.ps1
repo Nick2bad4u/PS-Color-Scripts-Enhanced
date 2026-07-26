@@ -42,6 +42,6 @@ Write-Host '
 [1;30m--------------------------------------------------------------------------------[0m
 [1;30mthis is for Minister Of light''s board [0mministry of the fools[1;30m, requests at:[0m
 dramax0r@hotmail.com[1;30m ..[0m [1;30mgreets to: [0mCryo, rzicus, terrOr 1O8, tremOr, image,
-                                   rippa, taintedx, chr0nix, d_Skwerl, Syndromem
-inister,(you owe me 1), cyanide, platoonim
+                                   rippa, taintedx, chr0nix, d_Skwerl, Syndrome,
+                                   minister,(you owe me 1), cyanide, platoonim
                                    and any felt out person....[0m'

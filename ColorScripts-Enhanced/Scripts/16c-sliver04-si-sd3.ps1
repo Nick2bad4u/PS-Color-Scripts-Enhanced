@@ -30,7 +30,7 @@ Write-Host '
             [30;46m▄▄▄▄▄▄[0m       [30;42m▌▐[0m    [30;42m▄[0m
                           [30;42m▄[0;30;47m█[0;30;42m▀▄[0m
                          [30;47m██████[0m
-[36;40m+----------░---------------------------------------░▒-----------░------------▒-[0;1;36;40mt[0m
-[1;36;40mhis ansi belongs to red thunder and his bbs subsonic dream.[0m
+[36;40m+----------░---------------------------------------░▒-----------░------------▒-+[0m
+          [1;36;40mthis ansi belongs to red thunder and his bbs subsonic dream.[0m
            [1;36mplease do not rip it.  if you would like one of your own,[0m
                   [1;36mdrop me a line at ditan@telusplanet.net.                [0m'

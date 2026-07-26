@@ -35,8 +35,8 @@ Write-Host '
   [1;30m `ⁿ$$$$$$$$g,∙[0m   [1;35m·-[0;35m1[0;1;35m»[0m [1;30mhigh casualties[0m  [1;35m·-[0;35m6[0;1;35m»[0m [1;30mhigh casualties[0m     [1;30m?$$$P`[0m     [1;30m.[0m
       [1;30m`$$$$$$''[0m     [1;35m·-[0;35m2[0;1;35m»[0m [1;30mhigh casualties[0m  [1;35m·-[0;35m7[0;1;35m»[0m [1;30mhigh casualties[0m     [1;30m:$$$[0m        [1;30m:[0m
  [1;30m   _,g$$$$$l[0m      [1;35m·-[0;35m3[0;1;35m»[0m [1;30mhigh casualties[0m  [1;35m·-[0;35m8[0;1;35m»[0m [1;30mhigh casualties[0m   [1;30m_,$$$$,_[0m    [1;30m_,l[0m
- [1;30m`?$$$$$P╜╜?$,[0m     [1;35m·-[0;35m4[0;1;35m»[0m [1;30mhigh casualties[0m  [1;35m·-[0;35m9[0;1;35m»[0m [1;30mhigh casualties[0m    [1;30m`╙$$$$$$SS$$$$$[0m
-[1;30mP`[0m       [1;30m`+.[0m   [1;35m·-[0;35m5[0;1;35m»[0m [1;30mhigh casualties[0m  [1;35m·-[0;35m0[0;1;35m»[0m [1;30mhigh casualties[0m      [1;30m`$ⁿ`[0m     [1;30m`?`[0m
+ [1;30m`?$$$$$P╜╜?$,[0m     [1;35m·-[0;35m4[0;1;35m»[0m [1;30mhigh casualties[0m  [1;35m·-[0;35m9[0;1;35m»[0m [1;30mhigh casualties[0m    [1;30m`╙$$$$$$SS$$$$b[0m
+   [1;30m$P`[0m       [1;30m`+.[0m   [1;35m·-[0;35m5[0;1;35m»[0m [1;30mhigh casualties[0m  [1;35m·-[0;35m0[0;1;35m»[0m [1;30mhigh casualties[0m      [1;30m`$ⁿ`[0m     [1;30m`?`[0m
    [1;30m''[0m                                                                [1;30m''[0m        [1;30m:[0m
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
 [1;30mYeee.. goody, this one turned out decent. :)  High Casualties - 403-258-2200,[0m

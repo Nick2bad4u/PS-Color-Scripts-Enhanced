@@ -6,10 +6,12 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DF-KASK.ANS by Darkfire (shv-0694); released in shv-0694 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 84-127
+# Lines: 82-127
 # Columns: 1-80
 
 Write-Host '
+              [1;37;40m▀[0;1;37;47m█[0;1;37;40m▄[0;1;37;47m████████▒░  ▓███▓████▓██▓███▓▒ ▒▓████████[0;1;37;40m█▐[0;1;37;47m██[0;1;37;40m▀[0m
+                [1;37;40m▀▀[0;1;37;47m█[0;1;37;40m▄▀[0;1;37;47m██[0;1;37;40m▐[0;1;37;47m▓█▓░ [0;1;37;40m▀[0;1;37;47m▓▒▓▓█▓[0;1;37;40m█[0;1;37;47m▓██▓███▓[0;1;37;40m▀[0;1;37;47m░░▒▓████[0;1;37;40m▌█[0;1;37;47m██[0;1;37;40m▌█▀[0m
                    [1;37;40m▀▌▀[0;1;37;47m█[0;1;37;40m▌[0;1;37;47m███▓░ [0m▄▀[1;47m▒[0;1;40m▀[0;1;47m▓[0;1;40m▄▀█[0;1;47m█▓█▓▓[0;1;40m▀▄[0;30;47m■▄▀[0;1;37;47m▒███[0;1;37;40m█[0;1;37;47m█[0;1;37;40m▐[0;1;37;47m██[0;1;37;40m█[0m
                         [1;37;40m▀[0;1;37;47m███▒░░[0m▄[1;47m█▒[0m [1;47m▓[0;30;47m▀▄[0;1;37;47m▓▓▒▓[0m [1;37;47m░ [0;30;47m▄▀[0;1;37;47m▓█[0;1;37;40m█[0;1;37;47m█[0;1;37;40m▀▄[0;1;37;47m█[0;1;37;40m▌▀▀[0m
 [1;37;40m    [0;31m▀▄▄▄[0m                  [1;37;47m██[0;30;47m▀█[0;1;30;47m░░[0;1;37;40m▀▄[0;1;37;47m▒█▒░[0;30;47m▀▄■[0;1;37;47m░[0;1;30;47m░[0;1;37;47m▐[0;30;47m▄▀[0;1;37;47m▓[0m▌[1m▌▀ [0;1;47m▓█[0m                   [31m▄[0m

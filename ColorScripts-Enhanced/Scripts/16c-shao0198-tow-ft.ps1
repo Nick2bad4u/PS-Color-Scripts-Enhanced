@@ -10,7 +10,7 @@
 # SAUCE Author: Towser
 # SAUCE Group: Shaolin's Finest
 # SAUCE Dimensions: 80x40
-# Lines: 1-39
+# Lines: 1-40
 # Columns: 1-80
 
 Write-Host '
@@ -37,6 +37,7 @@ Write-Host '
 
 
 ---------[1;30m[[0;1;32mC[0;36mut[0;1;32m![0;1;30m][0m-----------------------------------------------------------------
+
 [36mi did this for silencer, why? I ACTUALLY GOT A REQUEST! <yaaay!!> >=) heheh [0m
 [36mhope you like it sil![0;37m [0;36manyway this is a short one[0m
 

@@ -11,7 +11,7 @@
 # SAUCE Group: Shaolin's Finest
 # SAUCE Date: 19980521
 # SAUCE Dimensions: 80x45
-# Lines: 1-43
+# Lines: 1-45
 # Columns: 1-80
 
 Write-Host '
@@ -53,7 +53,9 @@ Write-Host '
 [1;34;44m░▒▓▓░[0;34m▌[0m                                                                     [34m▀█[0;1;34;44m░░[0;34m█[0m
 [34m█[0;1;34;44m ░▒░[0;34m▌[0m                                                                     [34m▐██[0;1;34;44m░[0;34m█[0m
 [34m███[0;1;34;44m░[0;34m▄[0m                                                                       [34m▄███[0m
-[1;33mhey![0;1;30m----------------------------------------------------------------------------[0m
+
+[1;30m--------------------------------------------------------------------------------[0m
+[1;33mhey![0m
 [1;33msorry, nothing much from me this month.. reason? those damn things we call exams[0m
 [1;33moh well.. expect more next month..[0m
 [1;33m!odb[0m'

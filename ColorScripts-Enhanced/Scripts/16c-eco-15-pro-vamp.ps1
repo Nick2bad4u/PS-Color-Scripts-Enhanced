@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PRO-VAMP.ANS by Propher (eco-15); released in eco-15 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-38
+# Lines: 1-40
 # Columns: 1-80
 
 Write-Host '
@@ -18,6 +18,7 @@ Write-Host '
    █ ███   ▄██████   ▀███▐██▄█▐▄██▌███   ▄██████    ██████▀▀▀▀▀▀ ███
    █ ▓███████▀ ███   ▄███ ▀██[1;47m   [0m█▀ ████████▀ ███    ██▓███       ███
 ▄▄▄█▄▄▄▄▄▄▄▄▄▄▄████████▀ prO.▐▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█████████▌█▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
 [1m███▀▓▀▀▀▀▀▀█▀▀▀▀▀[0m▀[1m▀[0m▀▌▀▀ ▐▀▓▀▀▀▀▀▀▀[1m▀▀▀▀▀[0m▀[1m▀[0m▀[1m▓▀█[0m▓[1;30m █[0;1;30;47m         ▄▄▄▄[0;1;30;40m█▀▀ ▄▄▀▀   [0;1;30;47m▀▐[0;1;30;40m▀[0m [1;30m ░▒▓[0m
 [1;37m██[0m         [1m█▌[0m     ▐ ▌   ▐         [1;30m▄[0m▄▄[1m▄▄▄▄[0m▄[1;30m▄[0m [1m▐[0;1;30;47m▐[0;1;30;40m ▐[0;1;30;47m▄   ▄▄▄[0;1;30;40m█▀▀▀ ▄[0m▄▄[1;30m▀▀[0m [1;30m [0;1;37m▄[0m▄[1;30m▄▒[0;1;30;47m▌▐[0;1;30;40m  ░░▒▓█[0m
 [1;37;40m█▌[0m    ■    ▓[1m▌[0m     ▐▀▌   ■     [1;30m▄[0m▄[1;47m▄▄▓██████▌[0m█▌▐[1;47m▌[0;1;30;40m░ ▀█▀▀▀ [0m ▄▄[1;30;47m▀▄[0m▀[1;30m▀▄▌[0m   ▀[1;30m▀▀[0;1;30;47m▄▀▒[0;1;30;40m▓▄▄  ░░▓[0m
@@ -42,6 +43,7 @@ Write-Host '
 ▌▌   ▐              [1;30m▄[0m▄[1;30;47m▀[0;1;37;47m▄▄██▓▓▒░░[0;1;30;47m▀[0m██[1;30;47m▄[0;1;30;40m██[0;1;30;47m▀▀▀▄█▀ ▄[0;1;30;40m▓░[0m█[1;30m▌▐█[0;1;30;47m▒[0m██[1;30;47m▐[0;1;30;40m██░[0m [1;30m▄▄▀[0m   [1;30m░░░▒▒▓██[0;1;30;47m ▐█[0;1;30;40m█▓▓[0m
  ▌▄  █       ▐   [1;30m▄[0;1;30;47m▀[0;1;37;47m▓███████▓▓▓▒▒▒░[0;1;30;47m    ▄▄█▀  ▐█[0;1;30;40m▄[0m█[1;30m▌▐█[0;1;30;47m▓[0m████[1;30;47m█[0;1;30;40m██[0m     [1;30m░░░▒▒▒▓▓█[0;1;30;47m▌ ▐[0;1;30;40m██▓▓[0m
 ▌▌▌ ▄█▄▄▄▄▄▄▌▐▄▄[1;30;47m▀[0;1;37;47m▓████████▓▓▓▒▒░░[0m██[1;30;47m ▀▀       ▀▄[0;1;30;40m▀▄█[0;1;30;47m▓░[0m█████[1;30;47m▀[0;1;30;40m██[0m  [1;30m░░░▒▒▒▓▓▓█[0;1;30;47m▀   [0;1;30;40m█▓▓▒[0m
+
 hi ppl
 
 as the avenger ( hopefully ) noticed in the infofile, i changed my handle from

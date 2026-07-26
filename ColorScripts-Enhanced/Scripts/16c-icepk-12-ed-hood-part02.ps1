@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ED-HOOD.ICE by Eternal Darkness (icepk-12); released in icepk-12 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 31-52
+# Lines: 32-54
 # Columns: 1-80
 
 Write-Host '
@@ -26,6 +26,7 @@ Write-Host '
 [30;47m   ████       ████    ▀██▄       ▄██▀     ▀██▄       ▄██▀     ████      ▄██▀    [0m
 [30;47m ▄▄████▄     ▄████▄▄    ▀▀██▄▄▄██▀▀         ▀▀██▄▄▄██▀▀     ▄▄████▄▄▄▄██▀▀      [0m
 [30;47m                                                                                [0m
+
            [37;40mBoyz of the Hood[0;1;30;40m: [0mBerserker [1;30m& [0mIce Pick  [1;30mφ  [0m1[1;30m.[0m2 Gigs OnLine
       Fairlight Member Site  [1;30mφ  ([0m416[1;30m)[0m642[1;30m-[0m2910 [1;30m& [0m642[1;30m-[0m4774  [1;30mφ [0mTwo 16[1;30m.[0m8 Duals
 

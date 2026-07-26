@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-WARLI.ANS by Slackzor (purg-30a); released in purg-30a and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
 [1;32;42m▀[0;1;32;40m▀████[0;1;32;42m▀[0;32m█▓█[0;1;32;42m░░[0;32m█[0;1;32;42m▀██░[0;32m█[0;1;30;42m░▓[0;1;30;40m▌[0m ▀[1;31m▀█▌[0;1;30m░▓[0;1;30;47m█[0;1;30;40m▄[0;32m▐[0;1;32;42m▀█▄[0;32m▄[0;1;30m▀▀[0;32m▄██▀[0;1;31m▄[0;1;31;43m  [0;43m▄[0;33;40m█▓█[0;1;31;43m▀▀[0;33m█▄▀[0;32m▄[0;1;32m▄█[0;1;32;42m▄ [0;32m▄██[0;1;32m█████[0;1;32;42m▄[0;32m█[0;1;32;42m ░▒▓[0;1;32;40m██[0;1;32;42m▄▄[0;32m█[0;1;32m██[0;1;32;42m▌[0m
 [1;32;40m███[0;1;32;42m██▀[0;32m██▀▄██[0;1;32;42m▄[0;1;32;40m███[0;1;32;42m▓[0;32m█▄▄▄[0;1;30m▄▀[0m [33m▀▀▄[0;1;30m▀▀[0;36m [0;1;32;42m▄[0;1;32;40m██[0;1;32;42m▀█▄[0;32m█▀[0;33m▄[0;1;31m▄█[0;33m█[0;37;43m ░░[0;33;40m▓░▀▀▐▌[0;32;40m▐[0;1;32;42m░░▒▀[0;1;32;40m██[0;1;32;42m█▄▄[0;32m█[0;1;32;42m▀▀█▀[0;1;32;40m█[0;1;32;42m▓░[0;32m█[0;1;32;42m ▀[0;1;32;40m███[0;1;32;42m▓░[0;32m█[0;1;32;42m▐[0;1;32;40m█[0m
 [1;32;40m█[0;1;32;42m▀▀▄█▀[0;32m█▓[0;37m [0;32m░▓█[0;1;32;42m▀[0;1;32;40m██[0;1;32;42m▀█▀▀[0;32m█[0;1;32m▀▀[0;32m▀[0;1;30m▀[0m [1;30m▀[0m [33m▀[0;30;43msz[0;1;32;43m█[0;1;32;40m█▀[0;32m ▓ [0;33m▄█[0;1;31m██[0;33m█[0;32m▄[0;36;42m▄[0;33;40m▐▌[0;1;30;40m▀▄[0m [1;30m▀[0;32m▄[0;1;33m▄▒▒[0;32m█[0;1;32;42m▄█▀[0;1;32;40m▀██[0;1;32;42m▄▄[0;32m█[0;1;32;42m▀▀▀[0;1;32;40m███[0;1;32;42m▄▄[0;1;32;40m▒▒[0;1;32;42m▀▀[0;1;32;40m██[0;1;32;42m█▄[0;1;32;40m█[0m
+
   [32m..This one is for facade and gloss for warlike #3.. I''m thinking if they get[0m
 [37m  [0;32menough art for it, they may get around to finishing it :)  ..no font, maybe[0m
 [37m  [0;32mlater.  //slackzor(purg/.*^ANALSAUCE^*.)[0m

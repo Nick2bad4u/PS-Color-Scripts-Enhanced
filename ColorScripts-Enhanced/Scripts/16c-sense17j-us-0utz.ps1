@@ -11,7 +11,7 @@
 # SAUCE Group: senseimagery
 # SAUCE Date: 20031110
 # SAUCE Dimensions: 80x27
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -38,6 +38,7 @@ Write-Host '
 [34m▄▄▄▄██▄████████▄▄▄▄█▐██▄▄[0;31m ░[0;30;41m▓[0;31;40m [0;34;40m▄████[0;31;40m ░ [0;34;40m██▌█████████▓▌████ ▓[0;37;40m [0;1;30;40m░[0m [1;30mroodolph!.......[0m [34m▓[0;37m [0;34m█[0m
 [34m████████████████████▐████▄▄▄▄█████▄▄▄██▌██████████[0;30;44m■[0;34;40m████ ▒[0;37;40m [0;1;30;40m░[0m [1;30mansichrist......[0m [34m▒ █[0m
 [1;34m▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;34m█[0;1;34m▒[0;34m████  ▀▀▓▓▀██████████▓▓ ▄▄▄█▄██████████ ░[0;37m [0;1;30m░[0m [1;30msense.2oo3......[0m [34m░[0;37m [0;34m█[0m
+
 
 [1;30ma lil'' joint by roodolph [outlines] and ansichrist [colours&background]... .[0m
 [1;30mboth of the sense imagery crew... .  for outzone bbsystem... .[0m'

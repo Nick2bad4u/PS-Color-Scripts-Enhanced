@@ -11,7 +11,7 @@
 # SAUCE Group: glue
 # SAUCE Date: 19990331
 # SAUCE Dimensions: 80x72
-# Lines: 1-36
+# Lines: 1-37
 # Columns: 1-80
 
 Write-Host '
@@ -23,8 +23,9 @@ Write-Host '
  [1;35m░[0;1;35;45m░░▓▓▒░[0;1;31;40m ░░▓[0;1;31;41m▓█▒[0;31m▀  [0;35m▄█[0;1;34;45m░▒▓[0;34m░[0m   [1;30mand perfection .. Man must therefore respect the[0m
  [1;35m░[0;1;35;45m  ░░░[0;35m██[0;37m  [0;1;31m  [0;31m▀[0;37m [0;35m ▄█[0;1;34;45m░▒▓[0;1;34;44m▓[0;1;34;47m▀[0;34m▒[0m   [1;30mparticular goodness of every creature. "[0m
   [1;30mthis is original.[0m
-                                                              [1;30m- Catechism of thC[0m
-[1;30matholic Church[0m                    [33m░[0;1;30m▄▄▄[0m
+                                                              [1;30m- Catechism of the[0m
+                                                                 [1;30mCatholic Church[0m
+                    [33m░[0;1;30m▄▄▄[0m
               [1;33m [0m  [33m ░▒▓[0;1;30;43m░[0;33m█[0;1;30;43m░▒[0;1;30;40m▄[0;34m▀██▄▄  ▀▄▄▄[0m
                 [1;31m [0;33m ▒▓[0;1;30;43m░[0;33m████[0;1;30;43m▒█[0;1;31;40m [0;34m▀▄▀▀█▄▄ ▀▀███▄▄[0m
                 [34m▒▒[0;33m▓[0;1;30;43m░[0;33m██████[0;1;30;43m▒█[0;34m    ▄▄█▀█▄▄▄ ▀▀▀█▄▄[0m

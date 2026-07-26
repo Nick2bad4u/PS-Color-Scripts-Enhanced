@@ -11,7 +11,7 @@
 # SAUCE Group: SKANK
 # SAUCE Date: 19960225
 # SAUCE Dimensions: 80x95
-# Lines: 50-92
+# Lines: 50-95
 # Columns: 1-80
 
 Write-Host '
@@ -53,8 +53,11 @@ Write-Host '
                       [1;30;40mGa[0;33mngr[0;1;33mene [0;1;34m(7[0;34m13[0;1;34m) 72[0;1;36m1-13[0;1;34m18[0m
 
 [34m▓▀[0;37m [0;34m▀[0;37m [0;34m▀[0m                                                                    [34m▀[0;37m [0;34m▀[0;37m [0;34m▀▓[0m
+[34m▓[0m                                                                              [34m▓[0m
 [34m▒[0m   [34mThis ansi goes to a board that im not eleeeeeeeet enough to get on!     [0m   [34m▒[0m
+[34m▒[0m                                                                              [34m▒[0m
 [34m░[0m                                                                              [34m░[0m
+
 [34m░[0m                                                                              [34m░[0m
 [34m▒[0m                                                                              [34m▒[0m
 [34m▓▄▄[0;37m [0;34m▄[0m                                                                      [34m▄[0;37m [0;34m▄▄▓[0m'

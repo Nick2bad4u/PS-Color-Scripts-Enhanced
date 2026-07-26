@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MTM(SCN).ANS by Mtm (pro-0597); released in pro-0597 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
+# Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
@@ -51,8 +51,11 @@ Write-Host '
 
 
                              [1;30;40mYOU ARE INVITED 2  ![0m
-                                                                               [1;30;40mS[0m
-[1;30;40mO BE SURE TO COME ![0m
                                                                                [1;30;40m│[0m
-                                                                               [1;30;40m─[0m
-[1;30;40m ── ───┘[0m'
+                             [1;30;40mSO BE SURE TO COME ![0m
+                                                                               [1;30;40m│[0m
+                                                                               [1;30;40m│[0m
+
+                                                                               [1;30;40m│[0m
+                                                                               [1;30;40m│[0m
+                                                                       [1;30;40m─ ── ───┘[0m'

@@ -6,11 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DJ-COD.ANS by Dr Jekyll (cnc-0494); released in cnc-0494 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 197-246
+# Lines: 198-247
 # Columns: 1-80
 
 Write-Host '
-[1;33m [0;31m▐  ▐[0m     [1;33m█[0m                  [1;33m▄██    █[0m          [1;33m██[0m         [31m▐[0m                  [31m▌[0m
 [31m  ▐▌ ▌   [0;1;33m█  █[0m      [31m▌   ▌[0m     [1;33m██[0m      [1;33m█[0m        [1;33m███▄   ▐  [0;31m▌ ▐  ▐  ▌[0m      [31m▌[0m
         [1;33m█  ██[0m       [31m▌[0m        [1;33m█ ██▄▄▄ ▄   █  ██████▄  ■[0m           [31m▐ ▌[0m        [31m▌ ▌[0m
 [31m ▌   ▌    [0;1;33m██    [0;31m▌    ▌▌ ▌   [0;1;33m███████ ▄▄███████████████  [0;31m▐    ▌[0m          [1;33m▐[0m
@@ -34,15 +33,16 @@ Write-Host '
 [31m▌  [0;1;33m█[0m      [1;33m███ █[0m      [1;33m█ █[0m      [1;33m█ █   ██  █ ▐    ██  █  █   ██[0m        [1;33m██[0m        [1;33m██[0m
 [1;33m   █  ███████ █[0m      [1;33m█ █[0m      [1;33m█ █   ██  █ █[0m      [1;33m███  ██  ███ ██[0m     [1;33m█   █[0m     [1;33m█[0m
 [1;33m   █████████  █[0m      [1;33m█ █[0m      [1;33m█ █   ███ ███[0m      [1;33m███  ██████████████████████████[0m
+
 [1;30m─────────────────────[0;1m─[0;1;30m──────[0;1m────────────────────────[0;1;30m────────[0;1m─[0;1;30m───────────────────[0m
-[1;30m  ────────────────────[0;1m─────────────────────────────────────────────────────────C[0m
-AST[1;30mL[0;1mE O[0mF [1mD[0mARKN[1;30mESS[0m
+[1;30m  ────────────────────[0;1m──────────────────────────────────────────────────────────[0m
+                              [1mC[0mAST[1;30mL[0;1mE O[0mF [1mD[0mARKN[1;30mESS[0m
                   0-7 Day warez [1;33m■ [0mH/P/A/C/V [1;33m■ [0mANSI/VGA/DEMOS
              USHQ [1;30mLETHAL [0;1;33m■ [0mHousing [1;30mLETHAL [0mNET (TM) [1;33m■ [0mCaNCeR Courier HQ
                       S: EAR [1;33m■ [0mC: Dr.Jekyll [1;33m■ [0mNode 1: (714) 282-7644
            STRICT NUV [1;33m■ [0mNUP REQUIRED [1;33m■ [0m14400 v.32bis only
-───────────────────────────────────────────────────────────────────────────────[1;30m─[0m
-[1;30m──────────────────────────────────────────[0m
+────────────────────────────────────────────────────────────────────────────────
+                  [1;30m───────────────────────────────────────────[0m
                               Ansi by [1m: Dr[0m. [1mJ[0mek[1;30myll [ CaNCeR ][0m
                   [1;30m───────────────────────────────────────────[0m
 

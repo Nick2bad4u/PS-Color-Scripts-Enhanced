@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-TER06.ANS by Drakula (tsd-1); released in tsd-1 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
+# Lines: 1-40
 # Columns: 1-80
 
 Write-Host '
@@ -41,4 +41,12 @@ Write-Host '
                         [32m░░░░░▒▒▒▒▒▓▓▓▓▓▓▓▓▒▒░░░    ░[0m                      [1;30m│[0mr
                      [32m░░░   ░░░ ░  ░░░ ░░   ░░ ░[0m                            [1;37mÆ[0m
                      [32m░ ░░░ ░░ ░ ░░░  ░  ░░░░ ░ ░░[0m                          [37mk[0m
-                         [32m░░ ░░ ░░░░ ░  ░ ░░ ░ ░ ░[0m                          [1;30mu[0m'
+                         [32m░░ ░░ ░░░░ ░  ░ ░░ ░ ░ ░[0m                          [1;30mu[0m
+                      [32m░ ░░░ ░ ░░░  ░  ░░   ░░  ░ ░[0m                         [1;30mL│[0m
+                     [32m░░░ ░ ░ ░ ░ ░░ ░░ ░ [0;1;31m▌  [0;32m░░ ░░ ░[0m                        [1;30mÆ[0m│
+ [1;31m█[0m          [1;31m▌[0m       [32m░  ░░   [0;1;31m▌ [0;32m░  ░ ░░ ░  [0;1;31m█▌ [0;32m░  ░   ░[0m     [1;31m▌[0m     [1;31m▌[0m          [1;30m└[0m─[1m┘[0m
+            [1;31m█[0m     [32m░ ░ ░    [0;1;31m██ [0;32m░░░  ░ ░ ░ [0;1;31m██    [0;32m░░░[0m      [1;31m█[0;31m█[0m     [1;31m█[0;31m▄[0m         [1;31m▌[0m
+[1;31m  █[0;31m█[0m        [1;31m█[0;31m█[0m     [32m░[0m      [1;31m█[0;31m██  [0;32m░  ░░    [0;1;31m▐[0;31m████[0m         [1;31m█[0;31m███[0m      [1;31m█[0;31m█[0m       [1;31m▐[0;31m█[0m
+[31m   [0;1;31m█[0;31m██[0m      [31m██[0;1;31m█[0m          [1;31m█[0;31m████[0m          [1;31m█[0;31m████████    [0;1;31m▐█[0;31m███[0m      [31m███[0m      [1;31m█[0;31m█[0;1;31m▌[0m
+[1;31m   ▐[0;31m████ ▄▄███████[0;1;31m▄▄    [0;31m████████▄[0;1;31m▄▄    █[0;31m█████████████████[0m      [31m█████   ▄████[0m
+[31m▄▄[0;1;31m█[0;31m████████████████████████████████████████████████████████▄▄▄███████████████▄▄▄[0m'

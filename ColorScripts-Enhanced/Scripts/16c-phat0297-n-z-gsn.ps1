@@ -9,7 +9,7 @@
 # SAUCE Title: gathering the scene in a network
 # SAUCE Author: noize
 # SAUCE Group: phat studios '97
-# Lines: 1-27
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -37,6 +37,8 @@ Write-Host '
 
 
 
+
 [1;30m--------------------------------------------------------------------------------[0m
+
 [1;30m''athering the scene in an network''. it didn''t cometed anyway cause i thought it[0m
 [1;30mwould be do bad. gna. no.[0m'

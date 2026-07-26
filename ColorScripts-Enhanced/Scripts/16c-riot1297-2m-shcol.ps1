@@ -11,7 +11,7 @@
 # SAUCE Group: RioT Productions
 # SAUCE Date: 19971219
 # SAUCE Dimensions: 80x47
-# Lines: 1-45
+# Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
@@ -20,6 +20,7 @@ Write-Host '
 [1;30mand mail it''s out put to me> at: turbine@geocities.com[0m
 [1;30mHAPPY HOLIDAYS!!![0m
 [1;30m--------------------------------------------------------------------------------[0m
+
 [1;30mEV[0;1;30;47mi[0;1;30;40mL MODD[0;1;30;47mi[0;1;30;40mNG [0;1;30;47mi[0;1;30;40mNCORPORATED?[0;1;30;47m![0;1;30;40m??[0m
           [1;30m\[0m
      [1;30m    [0m   [34m███████████████████████████████████████████████████████[0m
@@ -39,6 +40,7 @@ Write-Host '
 
 [1;30;40mKinda shitty. Aw well, fuq it! Fer da EMi krew.[0m
 [1;30m--------------------------------------------------------------------------------[0m
+
 
                                               [1;32m■▄[0m
            [1;30mB[0;1;30;47moi[0;1;30;40mNK??![0m                            [1;32m▀█▄[0m           [1;32m▄ [0m

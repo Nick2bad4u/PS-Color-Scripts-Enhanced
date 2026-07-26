@@ -11,11 +11,12 @@
 # SAUCE Group: fusion
 # SAUCE Date: 19961216
 # SAUCE Dimensions: 80x23
-# Lines: 1-22
+# Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
 [1;33mize) [0m                                                                        [1;33m  ([0m
+
 
              [1;31m        [0m
                   [30;46m█[0m

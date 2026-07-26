@@ -36,10 +36,10 @@ Write-Host '
 [37m [0;34m$[0;37m  [0;1;34mMY BALLS     [0;34m [0;33m`╙$$$$$P╨╨?P$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$l;%%d$$$$$$$b[0;37m `.,gd$[0m
 [37m [0;34ml[0;37m  [0;1;34mDUDE!!!!!!!! [0;34m l  [0;33m`^"╨$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$:$$$$$$$$$$$$$,[0;37m`?$[0;1;37;47m$[0m$
  [34m:[0m            [34m    : [0;1;30mmp.[0;33m ;$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$.$$$$$$$$$$$$$$b.[0;37m`?$[0m
-[37m [0;34m..[0;37m  [0;34m...... .. .. .   [0;33m.d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$y$$$$$$$$$$$$$$$$b.[0;34m [0m
-[34m    [0;33m,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;37m-[cut heah, bitz][0m
-[37m------------------------------------------------------X8-------sorry I didn''t ju[0m
-[37mst draw you a font dude... like... sorry. =)  but I think this[0m
+[37m [0;34m..[0;37m  [0;34m...... .. .. .   [0;33m.d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$y$$$$$$$$$$$$$$$$b.[0;37m`[0m
+                [34m     [0;33m,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
+[37m-[cut heah, bitz]------------------------------------------------------X8-------[0m
+[37msorry I didn''t just draw you a font dude... like... sorry. =)  but I think this[0m
 [37mis a pretty cool pic even if the little 2-letter job kinda sucks. I''m not much[0m
 [37mon the inverse letter deal... sargon''s better than me. at everything. god I[0m
 [37mreally suck. anyway... this is for the prodigy. if you rip it, I''ll be pleased,[0m

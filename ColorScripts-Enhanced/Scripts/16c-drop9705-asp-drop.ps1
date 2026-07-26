@@ -34,7 +34,7 @@ Write-Host '
 
 
 [37m.·∙⌐~"^''≥¬,∙'' [0;1;37mte[0mar `∙. ¬.                                         . · ∙ ,
-         `∙.  [1mhe[0mre  ,∙· `∙.·''+ - . · ↨ ≥ ∙ . ÷ « ≥ ╥ æ > º . · ∙ '' [1masP[0myre ` ∙ ·`
-∙ ._ . ∙ ''    `   [1mgre[0mets [1mray[0mden [1m& mell_[0mfarr    [1m..[0m. [1mdi[0ms [1masc[0mii [1mfe[0mr [1ma[0mir _ [1mdr[0mop [1mpa[0mck
- [1m≥ -[0m┐
+         `∙.  [1mhe[0mre  ,∙· `∙.·''+ - . · ↨ ≥ ∙ . ÷ « ≥ ╥ æ > º . · ∙ '' [1masP[0myre ` ∙ ·.
+            `      ''                                            `∙ ._ . ∙ ''    `
+   [1mgre[0mets [1mray[0mden [1m& mell_[0mfarr    [1m..[0m. [1mdi[0ms [1masc[0mii [1mfe[0mr [1ma[0mir _ [1mdr[0mop [1mpa[0mck [1m≥ -[0m┐
         [1m╙ [0m& [1mri[0mnk_[1mra[0mt ╜             /[1m>[0m> [1mdr[0mop [1mstic[0mker [1msty[0mle [1mlo[0mgo ≤ ─[1m-[0m-─[1m┘[0m'

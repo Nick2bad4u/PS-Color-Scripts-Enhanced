@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-LOGON.ANS by Mangafan (dvt-a002); released in dvt-a002 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
+# Lines: 1-33
 # Columns: 1-80
 
 Write-Host '
@@ -37,6 +37,7 @@ Write-Host '
   [1;36mB[0;1;34mecause [0;1;36mo[0;1;34mf [0;1;36mt[0;1;34mhis, [0;1;36my[0;1;34mou [0;1;36mm[0;1;34may [0;1;36mN[0;1;34mOT [0;1;36mu[0;1;34mse [0;1;36mt[0;1;34mhis [0;1;36mp[0;1;34micture [0;1;36mu[0;1;34mnless [0;1;36my[0;1;34mou [0;1;36ma[0;1;34msk [0;1;36mp[0;1;34mermission [0;1;36mf[0;1;34mrom[0m
   [1;36mh[0;1;34mim [0;1;36mp[0;1;34mersonally, [0;1;36ma[0;1;34mnd [0;1;36mu[0;1;34mnless [0;1;36mh[0;1;34me [0;1;36ms[0;1;34mays [0;1;36my[0;1;34mes, [0;1;36my[0;1;34mou [0;1;36mm[0;1;34may [0;1;36mN[0;1;34mOT [0;1;36mu[0;1;34mse [0;1;36mi[0;1;34mt.[0m [1;36mI[0;1;34mf [0;1;36my[0;1;34mou [0;1;36mu[0;1;34mse [0;1;36mi[0;1;34mt[0m
   [1;36mw[0;1;34mithout [0;1;36mp[0;1;34mermission, [0;1;36mI[0;1;34m [0;1;36mW[0;1;34mILL [0;1;36mg[0;1;34met [0;1;36mh[0;1;34mold [0;1;36mo[0;1;34mf [0;1;36my[0;1;34mour [0;1;36mh[0;1;34mouse [0;1;36ma[0;1;34mdress, [0;1;36ma[0;1;34mnd [0;1;36mI[0;1;34m [0;1;36mW[0;1;34mILL [0;1;36mK[0;1;34mILL [0;1;36mY[0;1;34mOU.[0m
+
                                                         [1;36m/[0;1;34m\/\ /┤ ∩ Ç /┤ ƒ /┤ ∩[0m
                            [1;36mF[0;1;34mor[0m [1;36mq[0;1;34muestions,[0;34m [0;1;36mc[0;1;34montact...[0m
                                 [1;36mB[0;1;34mBS:[0m [1;36mR[0;1;34mavebase[0m

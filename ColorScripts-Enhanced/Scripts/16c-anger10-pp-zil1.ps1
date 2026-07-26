@@ -9,7 +9,7 @@
 # SAUCE Title: zillion
 # SAUCE Author: pixel_pusher
 # SAUCE Group: anger
-# Lines: 1-16
+# Lines: 1-17
 # Columns: 1-80
 
 Write-Host '
@@ -28,4 +28,5 @@ Write-Host '
 [1;35;40m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
 [1;35;40m░░=======================  fresh[0;35m:=[0;1;35mp[0;1;35;45mI[0;1;35;40mxel[0;35m+[0;1;35mpu[0;1;35;45m$[0;1;35;40mher[0;35m+[0;1;35manger =========================░░[0m
 [35m░░[0m                                                                            [35m░░[0m
+
                  [35mheya blazemore..use this for whatever brotha..[0m'

@@ -6,12 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-WWORL.ANS by Precious Metal (riot0697); released in riot0697 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 28-55
+# Lines: 30-57
 # Columns: 1-80
 
 Write-Host '
-[1;30m$$$²[0;1;33m,s$,[0m  [1;33m$::$[0m  [1;33m$::$[0m                            [1;33m$::$[0m         [1;33m$::$[0m [1;30m,s$$$$$$$$$$$$[0m
-[1;30m$s,[0m [1;33m$::$[0m  [1;33m$::$[0m  [1;33m$::$[0m                            [1;33m$::$[0m         [1;33m$::$[0m [1;30m,s$$$$$$$$$$$$[0m
 [1;30m$s,[0m [1;33m$::$[0m  [1;33m$::$[0m  [1;33m$::$[0m                            [1;33m$::$[0m         [1;33m$::$[0m [1;30m,s$$$$$$$$$$$$[0m
 [1;30m$s,[0m [1;33m$::$[0m  [1;33m$::$[0m  [1;33m$::$[0m  [1;33m,s$²"²"²"²s,[0m [1;33m  ,s$²"²"²",[0m [1;33m$::$[0m         [1;33m$::$[0m [1;30m,s$$$$$$$$$$$$[0m
 [1;30m$s,[0m [1;33m$::$[0m  [1;33m$::$[0m  [1;33m$::$[0m  [1;33m$::$[0m    [1;33m$::$[0m   [1;33m$::$$sss"[0m  [1;33m$::$[0m         [1;33m$::$[0m [1;30m,s$$$$$$$$$$$$[0m
@@ -31,7 +29,9 @@ Write-Host '
 [1;30m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 
 
+
 [1;30m--------------------------------------snip--------------------------------------[0m
+
 Rastaman, here''s you''re non-rasta ansi =)
 fer your BBS  Hope it''s bright enough! <VBG>
 

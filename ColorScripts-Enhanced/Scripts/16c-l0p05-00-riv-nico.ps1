@@ -11,7 +11,7 @@
 # SAUCE Group: Thelo0p
 # SAUCE Date: 20000131
 # SAUCE Dimensions: 80x27
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -38,5 +38,6 @@ Write-Host '
               [1ma[0mNSI [1ma[0mRT [1md[0mESIGN: [1mr[0mIVEN/[1mt[0mHELo0P ([1mr[0mIVENG@[1mp[0mOCZTA.[1mo[0mNET.[1mp[0mL)
            [1md[0mATE, [1mt[0mIME & [1mp[0mLACE: [1m3[0m1.[1mo[0m1.[1m2[0mooo, [1m1[0m7:[1mo[0m7pm, [1mv[0mARSOVIA, [1mp[0mOLONIA
 ───────────────────────────────────────────────────────────────────────────────
+
 [1;30m        [0m
 [1;30m        [0m'

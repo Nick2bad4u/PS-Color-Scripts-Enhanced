@@ -11,7 +11,7 @@
 # SAUCE Group: fACt!
 # SAUCE Date: 19960604
 # SAUCE Dimensions: 80x38
-# Lines: 1-37
+# Lines: 1-38
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ Write-Host '
 [33m  [0;32m▀▀▀  [0;33m▀[0m      [31mdA[0;33mY [0;31mo[0;33mR [0;31mni[0;33mGht [0;31mwi[0;33mLL [0;31mrU[0;33mSh [0;31mth[0;33mA [0;31mli[0;33mGht - [0;31mwE[0;33mEd [0;31msM[0;33mOkAS [0;31mwE[0;33mlCOMe :)[0m
 
 [37m+[0;1;30m---[0m+[1;30m-----------------[0m+[1;30m--------------[0m+[1;30m-------[0m[ [1;30mC[0mU[1;30mT [0mH[1;30mE[0mR[1;30mE [0m][1;30m--------[0m+++++[1;30m---------[0m+
+
 [1;30m'' oooorriigiiinnaalll [0mpussylover [1;30mproduction... now it''s [0mjungle [1;30mstyle :) .. well[0m
 [1;30m  this [0mpeace [1;30mrulez, ''cause it''Z >[0mDOWNBEAT IN THE JUNGLE 2[1;30m< inspiration .. rulez![0m
 [1;30m  well dewdz..stay kewl and cry.. cya! and alwayZ think about this : jeesas is[0m

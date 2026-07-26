@@ -11,7 +11,7 @@
 # SAUCE Group: phat!
 # SAUCE Date: 19961201
 # SAUCE Dimensions: 80x31
-# Lines: 1-30
+# Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
@@ -38,6 +38,7 @@ Write-Host '
 [31m [0;30m██████████████[0;31m     [0;30;41mG█[0;31;40ma r b a g e : op''d by lord chaos^b2b[0;30;40m    ▐█████████████████[0m
 [30;40m▐█████████████████▀                                          ▀█████████████████▌[0m
 [30;40m ▀███████████████                                                               [0m
+
 [37;40m--------------------------------------------------------------------------------[0m
 [37;40mwell, not that much for the pack, but i thougt i had 12 days more to do my [0m
 [37;40mthings. mhhhh, fuck. so you''ll see the now unfinished things in the next pack.[0m

@@ -39,7 +39,7 @@ Write-Host '
                                                       [36m░░[0m
                                                                         [1;30mig+kyo[0m
 
-[1;30m[tear]─────────────────────────────────────────────────────────────────────────l[0m
-[1;30mike this is for phonyeye''s speed loader.. i dont'' know where kyo went[0m
+[1;30m[tear]──────────────────────────────────────────────────────────────────────────[0m
+    [1;30mlike this is for phonyeye''s speed loader.. i dont'' know where kyo went[0m
     [1;30mhe started the outline and i colored / fixed it up but he disappeared on me [0m
 [1;30m    so i finished it.. ig out[0m'

@@ -11,7 +11,7 @@
 # SAUCE Group: Plain [11/02/96]
 # SAUCE Date: 19961102
 # SAUCE Dimensions: 80x30
-# Lines: 1-29
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ i     ;    `"$$b  [1m,d,   `    ,d&$$&IIli:.,m$$$$$$$$$$l   [0md$$$''
        [37m. _ .+''[0m                 [37m''  :[0m
 
 [37m-----------------------[0;1;37m[shn1p[0m-[1mhere][0m---------------------------------------------
+
  ok, well this one took about 45 mins .. wow, ahwell .. I still do reqs for
 those who are wondering .. so find me, and I''ll do you one too.. wowy..
 

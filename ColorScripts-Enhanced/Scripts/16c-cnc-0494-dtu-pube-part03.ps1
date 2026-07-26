@@ -10,6 +10,8 @@
 # Columns: 1-80
 
 Write-Host '
+[1;35m▓[0;31m███▓▓▒░░[0m                             [31m░▒▓▒░[0m                             [31m░░▓▓[0;1;35;41m▒░[0;31m██[0m
+[1;35m▒▓[0;31m███▓▓▒░░[0m                           [31m░▒▓█▓▒░[0m                           [31m░░▒▓[0;1;35;41m▒░[0;31m███[0m
 [31m▒[0;1;35;41m▒[0;31m████▓▓▒░░[0m                         [31m░▒▓███▓▒░[0m                        [31m░░░▒▓[0;1;35;41m▒░[0;31m███░[0m
 [31m ▒[0;1;35;41m▓[0;31m████▓▓▒░░[0m                       [31m░▒▓█████▓▒░[0m                     [31m░░▒▓▓█[0;1;35;41m▒░[0;31m███▒░[0m
 [31m  ▒[0;1;35;41m█[0;31m████▓▓▒░░[0m                     [31m░▒▓███▓██[0;1;31m▓[0;31m▓▒░[0m                   [31m░░▒▓█[0;1;35;41m▓▒░[0;31m███▒░[0m
@@ -49,12 +51,10 @@ Write-Host '
                              [31m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 
 [1m──────────────[0m──────────[1;34m─────────[0;31m──────────────[0;1;34m─────────[0m──────────[1m──────────────[0m
+
                    [1mDa[0;1;34mrknes[0;1;30ms [0;1;34ms[0;31mur[0;34mroun[0;31mds the m[0;34minds [0;31mof [0;1;30mal[0;1;34ml who live[0m
                  [1;37mCo[0;1;34mntin[0;1;30mo[0;34mus [0;31mDis[0;34mruptio[0;31mn of so [0;34mca[0;31mlled [0;1;30m"[0;34mSane [0;1;34mActions[0;1;30m"[0m
             [1;37mTru[0;1;34me Ana[0;34mrchy s[0;31mprea[0;34mds far [0;31mfrom Contain[0;34mment of [0;31mLaW [0;1;34mand order[0m
                [1;37mF[0;1;34mami[0;34mly memb[0;31mers [0;34mthrust [0;31mda[0;34mggers [0;31minto [0;34meach o[0;31mthe[0;34mrs [0;1;30mb[0;1;34macks[0m
                   [31mo[0;34mmnious l[0;31maughter fi[0;34mlls The [0;31mhalls of the[0;34mre home[0;1;30m,[0m
-              [1;37mO[0;1;34mnl[0;31my t[0;34mhe last li[0;31mving m[0;34members [0;31mfe[0;34mels [0;31mThe ext[0;34mra in[0;31msani[0;1;34mty[0m
-               [1;34mta[0;34mke h[0;31mim [0;34mover as he wipes [0;31mthe [0;34mblood [0;31mform h[0;34mis d[0;31magg[0;1;30me[0;1;34mr[0m
-       [1;37mB[0;1;34mlood Flows [0;34mFree [0;31mFrom the steaming cor[0;34mpse i[0;31ms Pulled [0;34min[0;31mto [0;1;34man inferm[0;1;30mo[0m
-             [1;37mN[0;1;34moise h[0;34mairs [0;31mTwitch at t[0;34mhe sm[0;31mel[0;34ml of [0;31mBurning F[0;34mle[0;31ms[0;1;34mh Pollute[0;1;30ms[0m'
+              [1;37mO[0;1;34mnl[0;31my t[0;34mhe last li[0;31mving m[0;34members [0;31mfe[0;34mels [0;31mThe ext[0;34mra in[0;31msani[0;1;34mty[0m'

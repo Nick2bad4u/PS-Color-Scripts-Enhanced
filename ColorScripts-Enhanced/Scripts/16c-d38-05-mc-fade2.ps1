@@ -11,7 +11,7 @@
 # SAUCE Group: Department 38
 # SAUCE Date: 19960224
 # SAUCE Dimensions: 80x25
-# Lines: 1-27
+# Lines: 1-26
 # Columns: 1-80
 
 Write-Host '
@@ -40,5 +40,4 @@ Write-Host '
 
 [35m-[0;1;35m-[0;1;37m<hehe>--[0;1;35m----[0;35m---------[0m
 
-[1;35mMC> All the colours of the capsicum, and a few more.[0m
-→[0m'
+[1;35mMC> All the colours of the capsicum, and a few more.[0m'

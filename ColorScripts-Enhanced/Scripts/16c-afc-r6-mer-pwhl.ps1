@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MER-PWHL.ANS by Mercer (afc-r6); released in afc-r6 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
+# Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
@@ -24,7 +24,8 @@ Write-Host '
 [37m  ▀▄▀  ▀ ▀▄▀▀▀▀▀▀[0m                                         [37m▀ █▄█▀██▀ ▀█▄██▀▀▀[0m
 [1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [30;47m∙  THE POWER WHEEL BBS ≡ +358-61-3152385 ≡ V.32bis ≡ 24H ≡ DelightNet, ZooNet  ∙[0m
-[1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37;40m·[0m
+[1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
+                          [1;37;40m·[0m
 [1;37;40m  [0;1;33;40m▄█▄[0m                            ·          ·     [1m·[0m                 [1m·[0m       [1;30m·[0m
 [1;30m [0;1;33m▐███▌[0m            [1;30m·[0m                                       ·    [1;30m·[0m
 [1;30m [0;1;33m█████   [0m·     [1m·[0m                       [1m·[0m       [1;30m·[0m
@@ -53,6 +54,6 @@ Write-Host '
 
 
 
-                                                      [1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;47m∙[0m
-[30;47m ANSi BY MERCER/AFC ''93 [0m                                                       [1;30;40m▀[0m
-[1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'
+                                                      [1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
+                                                      [30;47m∙ ANSi BY MERCER/AFC ''93 ∙[0m
+                                                      [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

@@ -11,7 +11,7 @@
 # SAUCE Group: Department 38
 # SAUCE Date: 19970512
 # SAUCE Dimensions: 80x25
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
 [1;35;45m      [0;35m▌[0;1;35m [0m [1m▄▄▄▄▄▄[0m  ▀▀▀▀▀▓███████████████[30;47m▀  ▀▀▀▀▀▀▀▀▀▀▀▀[0;37;40m▀▀▀▀▀░░▄▄▌ [0;1;35;40m [0;35m▐[0;1;35;45m              [0m
 [1;35;45m       [0;1;35;40m [0m [1m▐█████████▄▄▄▄▄▄▄▄▄▄▄▄░░          ▄▄▄▄▄▄▄▄▄▄▄▄██[0;1;47m▄▄▄ [0;1;30;47m░[0m   [1;35;45m               [0m
 [30;45m▒▒▓[0;35;40m░░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;37;40m [0m        [1;37;40m▀▀▀▀▀▀▀▀[0;1;37;47m░░[0;1;37;40m██████████████████████▀▀▀▀▀▀▀[0m        [35m▀▀▀▀░[0;30;45m▓▓[0;35;40m░░[0;30;45m▓[0;35;40m░░[0;30;45m▓[0;35;40m░[0;30;45m▓▓[0m
+
 [1;32;40mT[0;32mhere was a logo up the top that said Computer Overuse... but it was the worst[0m
 [32mfont I have EVER done... beleive me; TDRAW were trying to sue me coz they [0m
 [32mthought I''d ripped one of there fonts ::) ah well, not my fault, War Child [0m

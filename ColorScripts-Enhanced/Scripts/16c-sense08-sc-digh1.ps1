@@ -11,7 +11,7 @@
 # SAUCE Group: sense
 # SAUCE Date: 19980412
 # SAUCE Dimensions: 80x23
-# Lines: 1-22
+# Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
@@ -36,4 +36,5 @@ Write-Host '
 [36m░░░░░░░░░░░░░░░░░[0m                         [36m ■[0m           [36m▀[0;1;36;46m▀[0;36m▀[0m      [36m▄■[0m
                               [36m░░░[0m            [36m▀▀▀▄▄▄▄[0m     [36m ▄▄▄▄▀▀[0m
                                                      [36m▀▀▀▀[0m
-[1;30m---- This was requested for a new local board.. Don''t rip this... -------------[0;1;36m [0m'
+[1;30m---- This was requested for a new local board.. Don''t rip this... --------------[0m
+                             [1;36m [0m'

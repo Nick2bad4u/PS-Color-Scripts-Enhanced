@@ -9,7 +9,7 @@
 # SAUCE Title: brainless-logo
 # SAUCE Author: noize
 # SAUCE Group: phat studios '97
-# Lines: 1-27
+# Lines: 1-28
 # Columns: 1-80
 
 Write-Host '
@@ -38,4 +38,5 @@ Write-Host '
 
 
 [1;30m--------------------------------------------------------------------------------[0m
+
 [1;30msays ''b'' for brainless. don''t know why ...[0m'

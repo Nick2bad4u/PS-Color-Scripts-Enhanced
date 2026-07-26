@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AF-TBS1.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 51-78
+# Lines: 51-79
 # Columns: 1-80
 
 Write-Host '
@@ -27,6 +27,7 @@ Write-Host '
                         [1;30;40m▀[0m
 
 [1;30;40m────────────────────────────[0;1;37;40m·T[0;1;30;40mhe[0;1;37;40m·B[0;1;30;40murning[0;1;37;40m·S[0;1;30;40manctuary[0;1;37;40m·[0;1;30;40m─────────────────────────────[0m
+
                                 [1;30;40m(713)988-4457[0m
               [1;30;40mSysop:  Misery Man [Union Trial/Tempest Senior][0m
               [1;30;40mCo''s :  Dark Spectre [TeRRaTRoN Senior/FDN Senior][0m

@@ -11,7 +11,7 @@
 # SAUCE Group: opium graphix
 # SAUCE Date: 19960901
 # SAUCE Dimensions: 80x37
-# Lines: 1-36
+# Lines: 1-37
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ Write-Host '
 [1;30m░[0;36m ▀░░[0m   [1;34m░░[0m  [36m▀[0m      [36m░[0m        [1;30m░[0m       [1;34m░[0m       [36m░▀  [0m    [36m▀[0m   [36m░[0;30;46m▓[0m    [1;34;40m░[0m    [36m▀░  [0;1;30m░[0m    [36m░[0;30;46m▓[0m
 
 [1;31;40m--────-─-────----───-─-─----─--────-─---─---────-─-─--(chop, chop)-────-─-──----[0m
+
                      [1;31mi have no fuckin'' idea why i drew this one.. [0m
                   [1;31mdidn''t take too long time though.. well.. whatever..[0m
 

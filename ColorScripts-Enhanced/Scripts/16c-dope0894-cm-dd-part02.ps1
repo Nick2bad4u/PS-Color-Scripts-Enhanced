@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CM-DD.ANS by Crackerman (dope0894); released in dope0894 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 45-85
+# Lines: 45-86
 # Columns: 1-80
 
 Write-Host '
@@ -37,9 +37,10 @@ Write-Host '
 [33;40m██████[0;30;43m▄[0;33;40m███[0;37;40m▀███▓▓▓███▓▓▓▓▓█▄[0;1;30;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;33m█████[0;30;43m▄▄▀[0;33;40m██████████████[0m
 [33;40m████[0;30;43m▄▄▀[0;33;40m█████[0;37;40m▀▓▓██▓▓▓▓▓▓▓▓▓▓▄[0;1;30;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;33m████████████████████[0m
 [33m██[0;30;43m▄▄▀[0;33;40m█████████[0;37;40m▀▓▓▓▓▓▓▓▓▓▓▓▓▓▀[0;1;30;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;33m███████████████████[0m
-[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37mD[0m
-o[1;30mPE [0;1;37mP[0mo[1;30mlluting [0m          [1;37mT[0mh[1;30me [0;1;37mW[0mo[1;30mrld [0;1;37mI[0mn [1m''[0m9[1;30m4!!   [0;1;37mA[0mN[1;30mSi [0;1;37mB[0my [1mC[0mr[1;30mackerman [[0mD[1mo[0mPE[1;30m][0m
+[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
+         [1;37mD[0mo[1;30mPE [0;1;37mP[0mo[1;30mlluting [0;1;37mT[0mh[1;30me [0;1;37mW[0mo[1;30mrld [0;1;37mI[0mn [1m''[0m9[1;30m4!!   [0;1;37mA[0mN[1;30mSi [0;1;37mB[0my [1mC[0mr[1;30mackerman [[0mD[1mo[0mPE[1;30m][0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
+
 
 ▐[1;30m█▀▀▄[0m▐[1;30m█[0m▐[1;30m█▀▀█[0m▐[1;30m█ ▀▀█▀▀[0m▐[1;30m█▀▀█[0m▐[1;30m█[0m      ▐[1;30m█▀▀▄[0m▐[1;30m█[0m▐[1;30m█▀▀█ ▀▀█▀▀[0m▐[1;30m█▀▀█[0m▐[1;30m█▀▀█ ▀▀█▀▀[0m▐[1;30m█[0m▐[1;30m█▀▀█[0m▐[1;30m██ █[0m
 ▐[1;30m█  █[0m▐[1;30m█[0m▐[1;30m█ ▄▄[0m▐[1;30m█  [0m▐[1;30m█  [0m▐[1;30m█▄▄█[0m▐[1;30m█[0m      ▐[1;30m█  █[0m▐[1;30m█ ▀▀▄▄  [0m▐[1;30m█  [0m▐[1;30m█  █[0m▐[1;30m█▄▄█  [0m▐[1;30m█  [0m▐[1;30m█[0m▐[1;30m█  █[0m▐[1;30m█▐▌█[0m

@@ -11,7 +11,7 @@
 # SAUCE Group: deranged^eden
 # SAUCE Date: 19970108
 # SAUCE Dimensions: 80x24
-# Lines: 1-23
+# Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
@@ -36,5 +36,6 @@ Write-Host '
                [1;30mopped by wave░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░[0m
   [1;30m     [0m
  [1;30m============================ cut here ======================================== [0m
+
   [1;30msorry wave, i seem to have lost your affils. if you wanna use this, add them[0m
   [1;30myourself. that''s it, i guess. have a nice day.[0m'

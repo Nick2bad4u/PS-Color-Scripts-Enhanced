@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BLNDR.ANS by Stereo + Mafesto (lacidus5); released in lacidus5 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
+# Lines: 1-35
 # Columns: 1-80
 
 Write-Host '
@@ -14,8 +14,8 @@ Write-Host '
 [1m      \[0m
           [1;30m▄▄[0;1;37m▄▄[0;1;30m▄▄[0m    [1;30m<--look theres some freak with a stripe of white down the [0m
        [1;30m▄█▀▀[0m   [1;30m ▀█[0m      [1;30mmiddle of his head.. what an iddiot! :)[0m
-      [1;30m██[0m    [1m    [0m [1;30m█[0m                                    [1;5;32;45m▓▓▓▓▓▓[0m                  [1;5;32;45m▓[0m▐
-[44m█[0m    [31;40m■[0;1;37;40m [0;31m■[0;1;37m [0m  [1;30m█[0m                            [1;5;32;45m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m             [1;5;32;45m▓▓▓[0m       [1;5;32;45m▓[0m
+      [1;30m██[0m    [1m    [0m [1;30m█[0m                                    [1;5;32;45m▓▓▓▓▓▓[0m                  [1;5;32;45m▓▓[0m
+      ▐[44m█[0m    [31;40m■[0;1;37;40m [0;31m■[0;1;37m [0m  [1;30m█[0m                            [1;5;32;45m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m             [1;5;32;45m▓▓▓▓[0m
   [1m▄▄▄▀[0m [44m█[0m     [31;40m▄[0;1;37;40m   [0m █ [1;5;32m▓▓▓[0;1;5;32;45m▓[0;1;5;32;40m▓▓▓[0m        [1;5;32;45m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 ▀[5;32m▓▓▓▓▓▓[0m ▀▀▄    ▄▄▀[1m▄[0;1;5;32m▓▓▓▓▓▓▓▓▓[0m   [1;5;32m▓▓▓▓▓▓[0;1;5;32;45m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [1;5;32;40m▓▓▓▓▓[0m▄▄█▄▄ ▀▀▀▀ ▄▄███▄▄[1;5;32m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
@@ -37,6 +37,7 @@ Write-Host '
 [1;34;44m▒░▓[0;1;37;40m▀[0m█████[1;34;44m▒▒[0;1;33;44m▒▒[0;1;34;44m▒▒[0;45m█████[0;1;34;45m███████████████████████████[0;1;34;44m▒[0;35m███████[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▓▄▄▄▓▄█████████[0m
 [1;34;44m░▒[0m███████[1;34;45m██████[0;45m████████[0;1;34;44m▓[0;1;34;45m███[0;1;34;44m▓▓▓▓▓[0;1;37;44mreally really shallow water, of course. :)[0;1;34;44m░▒▒▒▒▒[0m
 [1;34;44m░▒[0m███████[1;34;45m█████[0;1;34;44m▓[0;45m████████[0;1;34;44m▓▓▓▓[0;1;34;45m███████████████████████[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
+
 
                        venice, playing wat0r polo,
 

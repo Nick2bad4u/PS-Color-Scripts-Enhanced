@@ -41,6 +41,6 @@ Write-Host '
 
 
 [1;30m---------------------------------------------------------(lippen!)--------------[0m
-...und nun laßt uns alle singen, ihr kinder dieser welt,         [1;30mfastjack^boil[0m .
-..denn wer weiß wie lange
+...und nun laßt uns alle singen, ihr kinder dieser welt,         [1;30mfastjack^boil[0m [1;30m░[0m
+                 ...denn wer weiß wie lange
                             ...dieser geile rausch noch anhält...[0m'

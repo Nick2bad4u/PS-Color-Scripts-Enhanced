@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HL-PHAL.ANS by Hellion (ali-0794); released in ali-0794 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-95
+# Lines: 49-96
 # Columns: 1-80
 
 Write-Host '
@@ -19,7 +19,8 @@ Write-Host '
      [33m▒░  ░[0m             [33m▒▒▓▒[0m                         [33m░[0m
 [33m  ░ ░▓▒░░▒░    ░    ░░▒▓▓█▓▒░[0m                       [33m░[0m
 [33m   ▒▒[0;31;43m░[0;33;40m▓▒░░ ░░   ░░ ░▒▒▓▓█[0;31;43m░[0;33;40m█▓▓▒▒░░░[0m
-[31;43m▒▒░[0;33;40m▓[0;31;40m▀[0;31;43m▒▓▓[0;31;40m▄ ▓▓█▌[0;31;43m█▓▓▒▓[0;31;40m▀[0;31;43m▓▓▒▒░▒░▒▒▒▓[0m [31;43m▓█[0m [31;43m█[0;31;40m█ █ ▄▄▄▄ ▄▄[0m       [31;40m▄   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;33;40m░[0m
+[31;43m▒▒░[0;33;40m▓[0;31;40m▀[0;31;43m▒▓▓[0;31;40m▄ ▓▓█▌[0;31;43m█▓▓▒▓[0;31;40m▀[0;31;43m▓▓▒▒░▒░▒▒▒▓[0m [31;43m▓█[0m [31;43m█[0;31;40m█ █ ▄▄▄▄ ▄▄[0m       [31;40m▄   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
+                                                    [33;40m░[0m
                                                     [33;40m░[0m
 [33;40m   [0;37;40m▄▄▀▀■[0m
 [37;40m ▄[0;37;47m█[0;37;40m▀▄[0;37;47m [0;1;37;47m░▒[0;1;37;41m▓[0;1;37;40m▄  [0m▄[1;47m░▒[0;1;41m▓[0;1;40m▄[0m              ▄[1;47m░▒[0;1;41m▓[0;1;40m▄  [0m▄[1;47m░▒[0;1;41m▓[0;1;40m▄[0m         [33m░[0m               [37m▄[0;1;37;47m░▒[0;1;37;41m▓[0;1;37;40m▄[0m

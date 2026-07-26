@@ -6,10 +6,12 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: YNG-BFRQ.ANS by Young (astk0194); released in astk0194 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 187-231
+# Lines: 186-232
 # Columns: 1-80
 
 Write-Host '
+                                  [1;31;41m▒▒▒▒[0m       [31m▐[0;1;31;41m▒▒▒▒▒[0m
+                                  [1;31;41m▓▓▓▓[0m        [1;31;41m▓▓▓▓▓[0m
                                   [1;31;47m▓▓▓▓[0m        ▐[1;31;47m▓▓▓▓[0m
                                  ▐[1;31;47m▒▒▒▒[0m▌       ▐[1;31;47m▒▒▒▒[0m▌
                                  ▀▀▀▀▀▀       ▀▀▀▀▀▀

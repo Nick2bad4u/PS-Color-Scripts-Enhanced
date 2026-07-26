@@ -11,7 +11,7 @@
 # SAUCE Group: lazarus
 # SAUCE Date: 19970802
 # SAUCE Dimensions: 80x27
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -35,6 +35,7 @@ Write-Host '
                               [34;40m░[0;30;44m▓[0;34;40m [0m   [1;37;40merror emag. [0m
                                [34m   [0m
 [37m<cut/klipp])--------------------------------------------------------------------[0m
+
 [37m uhm.. this one''s for my emag called [0;1;37merror[0m.
  if you want to join / contribute with art/articles/anythingelsethatwouldsuita-
  artscenemag just email me at [1mob_shad@hotmail.com[0m

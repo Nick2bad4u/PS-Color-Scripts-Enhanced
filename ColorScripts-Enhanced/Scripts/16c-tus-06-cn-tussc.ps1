@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CN-TUSSC.ANS by Cain (tus-06); released in tus-06 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
+# Lines: 1-40
 # Columns: 1-80
 
 Write-Host '
@@ -44,8 +44,9 @@ Write-Host '
 [1m    `''└*?$$$P*┘''````''└Q$$P┘'' j$$$$P┘`[0;34m,d$$b.[0;1;37m`└?$$$$$$$$$$$$/''[0;34m,$''[0;1;37m┌$$$$$P┘`,d$$$$[0m
 [1m      [0;34m$[0;1;36m$[0;34mb┐┐┌d$$$$$$$$b┐┐┌┌d''[0;1;37mjP┘''`[0;34m.┌*&$$$$$$$b┐,[0;1;37m`''└└**└┘''`[0;34m,j$$''[0;1;37mj$*┘''`[0;34m,d,[0;1;37m?$$$$$$  [0m
 [1;37m    [0;34m__$[0;1;36m$[0;34m$$$$$$$$$$$$$$$$$''[0;1;37m j`[0m [34m,d$$$$$$$$$$$$$$$$$$$$$$$$$$$$''[0;1;37mj┘[0;34m,$$$$[0;1;36m$[0;34m$$b┐[0;1;37m`''└*Q┐[0m
-    [34m`\$[0;1;36m$$$$[0;34m$[0;1;36m$[0;34m$$$$$$$$$$$''[0;37m [0;1;37m,[0m   [34m`\$$$$$$$$$$$$$$$$$$$$$$$$$$$$┐┌*&[0;1;36m$[0;34m$[0;1;36m$$$[0;34m$$$$$b[0m   [1;37m`[0;34m`[0m
-[34m''└*&Q$$$$$$$$$$l[0m         [34m`''[0m        [34m└*Q$$$$$[0;1;32m [0;34m$$$$$$$$*┘''````''└*Q$$$$/┘''```''└[0;1;37m$[0;34m┐[0;37m [0;1;37m [0m
-             [34m`''\$┘''``''└b[0m   [1;37m`  ┐[0m [1m  [0m    [34mj┘''``''└?$''[0;37m  [0;1;37mTHE U[0;1;35m$[0;1;37mUAL SUSPECTS[0m        [34m└ [0;37m [0;1;37m`[0m
+    [34m`\$[0;1;36m$$$$[0;34m$[0;1;36m$[0;34m$$$$$$$$$$$''[0;37m [0;1;37m,[0m   [34m`\$$$$$$$$$$$$$$$$$$$$$$$$$$$$┐┌*&[0;1;36m$[0;34m$[0;1;36m$$$[0;34m$$$$$b[0m   [1;37m`,[0m
+       [34m`''└*&Q$$$$$$$$$$l[0m         [34m`''└*Q$$$$$[0;1;32m [0;34m$$$$$$$$*┘''````''└*Q$$$$/┘''```''└[0;1;37m$[0;34m┐[0;37m [0;1;37m [0m
+             [34m`''\$┘''``''└b[0m   [1;37m`  ┐[0m [1m  [0m    [34m`$$$$$$$$$P''`[0m            [34m`└/`[0m         [34m└ [0;37m [0;1;37m [0m
+                        [34m`[0m        [1;37m`[0m    [34mj┘''``''└?$''[0;37m  [0;1;37mTHE U[0;1;35m$[0;1;37mUAL SUSPECTS[0m
                                 [1m .[0m [1m''[0m               [1;33mTIGHT ASCII CREW[0m
                             [1m,[0m [1m`  [0m                     [1m [0m [1m       [0m'

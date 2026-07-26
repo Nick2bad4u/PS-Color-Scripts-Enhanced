@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GU-GOD1.ANS by Guile (acdu0194); released in acdu0194 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
+# Lines: 1-44
 # Columns: 1-80
 
 Write-Host '
@@ -37,4 +37,19 @@ Write-Host '
                          [31m▀▀▄ ▀▀▄ ▄▀▀ ▄▀▀ ▄▀▀ [0;1;31;41m░[0;31m▀▄ [0;1;31m▀[0;1;31;41m░[0;31m▀ ▄▀▀[0m
                       [1;31m▀▀ ▄[0;31m▀  [0;1;31m▄[0;31m▀▄ [0;1;31;41m▒[0;31m▀   [0;1;31;41m░[0m  [1;31;41m▒[0;31m▀  [0;1;31;41m▒[0m [31m█  [0;1;31;41m▒[0m   [1;31;41m░[0m  [31m▀▀[0m
                          [1;31;41m▓[0m   [1;31;41m▓[0m [1;31;41m░[0m [1;31;41m▓[0;1;31m▄[0;31m▄ [0;1;31m▄▄[0;31m▀ [0;1;31;41m▓[0;1;31m▄[0;31m▄ [0;1;31;41m▓[0m [1;31;41m░[0m  [1;31;41m▓[0m  [1;31m▄▄[0;31m▀[0m
-'
+
+
+[1;30m──────────────┬─────────────────────────────────────────────────────┬──────────[0m
+[1;30m [0mGU-GOD1 .ANS [1;30m│ [0mGuile ■ Gates of Destiny                            [1;30m│ [0m12/20/93
+[1;30m──────────────┴─────────────────────────────────────────────────────┴──────────[0m
+[1;30m Picture taken from Hero Volume 1, Number 5, Page 54, panel on far left.[0m
+[1;30m Whoever this is is (tm) and (c) Jim Lee.[0m
+[1;30m If you would like to purchase an ACiD ansi or VGA by me or any other ACiD[0m
+[1;30m artist, please contact them on ToXiCNet, or the closest or most convenient[0m
+[1;30m ACiD affiliated board for you.  I can be easily reached on Sushi Bar Z[0m
+[1;30m [619].[0m
+[1;30m Thanks to LC, AE, LI, TT, IC, QS, LP, ML, and VN for the inspirations and[0m
+[1;30m styles.  Personal greets to Starman, SUSHi X, and all my friends back in[0m
+[1;30m 619.[0m
+[1;30m───────────────────────────────────────────────────────────────────────────────[0m
+[1;30m [0mA N S I   :   G U I L E   ■   1 9 9 3   [1mA [0;1;36mC [0;1;34mi [0;34mD   [0mP R O D U C T I O N S (tm)[0m'

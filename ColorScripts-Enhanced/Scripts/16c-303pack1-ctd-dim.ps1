@@ -11,7 +11,7 @@
 # SAUCE Group: 3o3 Productions
 # SAUCE Date: 19970227
 # SAUCE Dimensions: 80x29
-# Lines: 1-28
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ Write-Host '
 [32m [0;1;32m▀[0;32m    [0;1;32m     [0;32m▀[0;1;32m          [0m  ▀[1m▀▀[0m [1;32m [0m▀  ▀▀[1;32m  [0;1;37m▀▀[0m ▀▀[1m▀▀▀[0m ▀[1m▀▀[0;1;32m  ▀[0;32m■[0;1;32m  [0;32m▀[0;1;32m [0m▀[1;32m    [0m [1m▀[0;1;32m       [0;1;37m [0m
 
 [1;30m---(cut-cut-cut..)--------------------------------------------------------------[0m
+
         [1;30mWow!! this REALLY sucks!! =) but i decided to release it [0m
 [1;30m     [0m   [1;30manyway.. hope you don''t mind too much..[0m
         [1;30m//Crash Test Dummy^3o3[0m'

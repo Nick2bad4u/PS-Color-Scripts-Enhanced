@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-EVD.ANS by Tee_Are (rare-003); released in rare-003 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
+# Lines: 1-20
 # Columns: 1-80
 
 Write-Host '
@@ -23,6 +23,7 @@ tee_are?!rare!ascii
 [34mÑÑ[0;1;33mÑ[0;34mÑÑ[0;1;37mb.[0;1;30m`√g┐,._[0;34m _[0;1;34m_[0;34m_[0;1;34m_[0m   [1;30m_.,g└''[0m   [1;30m`┘g,._[0m   [1m_[0;34m_[0;1;37m__[0;34m [0;1;37m_.[0;35m,┌g7[0;1;37m''[0;1;34m.[0;1;37md[0;1;34mÑ[0;34mÑ[0;1;33mÑ[0;1;34mÑ[0;34mÑÑ[0;37m [0;35m;[0;1;35mi,[0;35md[0;1;35m`[0;1;34m,Ñ[0;1;33mÑ[0;34mÑ[0;1;34m.[0m [1m√[0m [34m''[0;1;37m;[0;1;35mÑ7[0m [1;34m,[0m
 [34mⁿ[0;1;37m"[0;34m` [0;1;30m_.,┌d└ⁿ''^`[0;34m_Ñ[0;1;33mÑ[0;34mÑÑ[0;1;37m_`"[0;1;30m°ⁿ┘s[0;1;37m,[0;1;30m [0m   [1m_,[0;1;30ms└ⁿ°[0;1;37m"`_[0;34mÑ[0;1;34mÑ[0;1;33mÑÑ[0;1;37m_[0;1;35m`^''[0;35mⁿ┘[0;1;35mÑg,[0;1;37m._[0;1;34m`"[0;1;33mⁿ[0;1;37m┘[0;1;33mÑ[0m [1;35m`[0;35ml[0;1;35mÑ`[0;1;37m,[0;34mÑ[0;1;33mÑ[0;34mÑ[0;1;34m┘[0;1;37m''[0;35m,[0;1;37ml[0m,[35md[0;1;35m7`[0;1;37m,ñ[0;1;33mÑ[0m
  [1m`^"[0;1;30m°²ⁿ┘*┐[0;1;37m,._[0;1;30m [0;1;37m`[0;34mÑ[0;1;33mÑ[0;34mÑÑ[0;1;33mÑÑ[0;34mÑ[0;1;33mñ[0;34mg[0;1;37m┐[0;34m┐┐[0;1;37mg[0;34mÑ[0;1;34mÑ[0;1;37mg[0;34m┐[0;1;37m┐[0;34m┐g[0;1;34mñ[0;34mÑ[0;1;33mÑÑ[0;1;34mÑ[0;34mÑ[0;1;33mÑ[0;1;34mÑ[0;34mÑ[0;1;34mÑ[0;34mÑÑ[0;1;34mñg[0;1;37m┐.[0;35m`''[0;1;35m²°"[0;1;37m^`,[0;1;34mÑ[0m [1;30m [0;1;37m;`,Ñ[0;1;33mÑ[0;34mÑ┘[0;35m,d[0;1;35m7[0;35m┘[0;1;37m"`[0;1;34m.[0;1;37mñ[0;34mÑ[0;1;33mÑ[0;1;34mÑ[0m
+
 
 
 sQuare - I don''t know where you can use this on your board but you''ll find

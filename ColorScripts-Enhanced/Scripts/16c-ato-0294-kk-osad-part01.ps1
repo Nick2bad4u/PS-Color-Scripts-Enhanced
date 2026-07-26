@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KK-OSAD.ANS by Krisis In De Kremlin (ato-0294); released in ato-0294 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
+# Lines: 1-45
 # Columns: 1-80
 
 Write-Host '
@@ -49,4 +49,8 @@ Write-Host '
               [31m· ▄▀[0;31;41m  [0;1;31;41m░▒▓█▓▒░  [0;1;37;41m░▒▓▒░   [0;1;31;41m░▒▓▒░  [0m [31m▀▄ ▌▐[0m
                [31m▐▀▄ [0;31;41m  [0;1;31;41m░▒▓█▓▒░  [0;1;37;41m░▒░  [0;1;31;41m░ ░▒▓▒░  [0;31m▀▄▀  █[0m
                 [31m▌▀▄[0;31;41m  [0;1;31;41m░▒▓█▓▒░  [0;1;37;41m░▒░ [0;1;31;41m░  ░▒▓▒░  [0;31m▄▄▄▀▀[0m
-                [31m▐ ■[0;31;41m  [0;1;31;41m░▒▓█▓▒░ ░[0;1;37;41m░▒░ [0;1;31;41m░  ░▒▓▒░  [0m  [31m■[0m'
+                [31m▐ ■[0;31;41m  [0;1;31;41m░▒▓█▓▒░ ░[0;1;37;41m░▒░ [0;1;31;41m░  ░▒▓▒░  [0m  [31m■[0m
+              [31;41m [0m [31;40m▌ [0;31;41m [0;1;31;41m░░▒▓▓█▓▒░  [0;1;37;41m░▒░ [0;1;31;41m░░ ░▓▓▒░░░ [0m   [1;31;41m [0m
+             [1;31;41m ░   ░▒▒▓▓█▓▒░  ░ [0;1;37;41m░▒░  [0;1;31;41m░░▓▓▓▒▒▒░   ░ [0m
+            [1;31;41m ░░░░░▒▓███▓▒░ [0;1;37;41m░[0;1;31;41m░  [0;1;37;41m░▒▒░ ░ [0;1;31;41m░▓█▓▓▓▒░░░░░ [0m
+             [1;31;41m  ░▒▒▓█▓▒▒   [0;1;37;41m░[0;1;31;41m░  ░[0;1;37;41m░▒▓▒░▒░ [0;1;31;41m▒░███▓▒▒░  [0m'

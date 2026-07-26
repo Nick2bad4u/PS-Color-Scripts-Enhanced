@@ -6,15 +6,15 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mp-ebol2.ans by Meatpod (ftube000); released in ftube000 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
                                                           [1;30m  [0m         _[1;30m [0m
                        [34m [0m   [34m,%%.[0m                          [34m [0;1;30m  [0m [1;30m_.[0m   [1;30m [0m  [1;30m$$&by┐[0m,.
       [1;30m [0m     [1;30m [0m       [34m.\$$$/.`²²`.. [0;1;33m [0;34m. [0;1;33m [0;34m  [0;1;33m [0;32m__[0;1;33m   [0;34m    .,┌y [0;37m_.┌[0;1;30my&$$$[0m [1;30m;┐.[0m ;[1;30m$,$$$"$$ [0m [1;30m [0m
-[1;30m      [0;34m  [0m   [34m;$$$$$$$;,d$$$\''[0;32m,[0;1;33my&│$$$$$$│&y[0;32m,[0;34m `/$$;[0;37m`[0;1;30m$$"$$,$;[0m [1;30m$$ [0ml[1;30m$$$$$$$l[0m  [1;30m [0m [1;30mmp.[0m  [1;30m  [0m
-[1;30m [0m_  [34m   _   $$$$[0;1;34m$$[0;34m$$$$$$;[0;1;33m [0;32m\[0;1;33m$$$$P**?$$$$$$$$[0;32m/[0;1;33m [0;34m;$$[0;37m ;[0;1;30m$$$$$$$[0m [1;30m;;[0m [1;30m$,$$$$$$;[0m
+       [1;30m       [0;34m  [0m   [34m;$$$$$$$;,d$$$\''[0;32m,[0;1;33my&│$$$$$$│&y[0;32m,[0;34m `/$$;[0;37m`[0;1;30m$$"$$,$;[0m [1;30m$$ [0ml[1;30m$$$$$$$l[0m  [1;30m [0m
+ [1;30mmp.[0m  [1;30m   [0m_  [34m   _   $$$$[0;1;34m$$[0;34m$$$$$$;[0;1;33m [0;32m\[0;1;33m$$$$P**?$$$$$$$$[0;32m/[0;1;33m [0;34m;$$[0;37m ;[0;1;30m$$$$$$$[0m [1;30m;;[0m [1;30m$,$$$$$$;[0m
  _.,[1;30m┌yd&$$[0m [1;30m; .[0;34m $/  `/P*┘²"^``[0;33m_[0;34m`[0;37m [0;32m;[0;1;33m$$$[0;32m''[0;36m.┌[0;1;36myy[0;36m┐[0;1;36m [0;32m`[0;1;33m$$$$$$$[0;32m;[0;37m [0;34m$$;[0;37m [0;1;30m$$"$$,$;[0m  ;[1;30m$$$$$"$$[0m [1;30m [0m
  ''[1;30m$$"$$$┌$''[0;33m,[0;1;31m&y[0;33m┐._[0;34m  [0;1;31m [0;33m.,┌[0;1;31my%&$$$$[0;1;33m$[0;1;31m$[0;1;33m$$$$[0;32m.[0;1;36m [0;36m└[0;1;36m**[0;36m┘''[0;32m.[0;1;33m$$[0;1;35m$$[0;1;33m$$$$[0m [34m`  [0;37m ;[0;1;30m$P!?$$P''[0m l[1;30m$$$$$$$l[0m [1;30m [0m
   l[1;30m$$$$$\ [0;33m;[0;1;31m$$$[0;33m?[0;1;31m$$$&y[0;33m;[0;1;31m$$$\P*[0;33m┘²²└/[0;1;33m$$$$$$b%%d$$$$$$$$$[0;32m;[0;37m [0;36m.[0;34m   [0;37m  [0;36m.,.[0;1;30m`[0;36m.,[0;1;36m┌┐[0;36m,.[0;1;30m`└$$$$;[0m [1;30m [0m
@@ -35,6 +35,7 @@ Write-Host '
                                                          [36m`└[0;1;36mP[0;36m''[0m
 
 [37m[ebola]------------------------------------------------- - - - -- fuck you -----[0m
+
 [37mit says ebola... I did this because I felt like it.  I don''t even fucking[0m
 [37mremember who runs ebola, but fuck it.  and fuck you.[0m
 

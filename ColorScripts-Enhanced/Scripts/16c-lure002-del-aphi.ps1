@@ -38,10 +38,10 @@ Write-Host '
           [1;30m▀[0;1;30;47m▄[0;1;30;40m▓[0;1;30;47m▀[0;1;30;40m▄█[0m   [1;30m█[0;1;30;47m▄█[0;1;30;40m▄██▀▀[0m    [30;46m░[0;36;40m▓█▀▀▀▀[0m       [1;30;40m▓▀▀▀▀▀▀▀[0;1;30;47m▄[0;1;30;40m██[0;1;30;47m█[0;1;30;40m▄▄▄[0;1;30;47m█▄[0;1;30;40m█▀▀[0m [1;30mdel[0m
              [1;30m▀▀▀▀[0m [1;30m▀[0m
                                                                         [1;30m- ---[0m+[1;30m-[0m
-                                                           [36maphid[0;1;30m, [0;35mshrimp[0;1;30m''[0;35ms boar[0;1;30mk[0m
-[1;30meep the politics out[0m                                                          [1;30mof[0m
-[1;30m our dying scene its[0m                                                           [1;30mm[0m
-[1;30making me really sick[0m                                                          [36mde[0m
-[36mlicious[0;1;30m@[0;36mphreaker[0;1;30m.[0;36mnet[0m                                                      [35m www[0;1;30m.[0;35ma[0m
-[35mlteredperception[0;1;30m.[0;35morg[0m                                                           [35mi[0m
-[35mcq[0;1;30m:[0;36m96683620[0m'
+                                                           [36maphid[0;1;30m, [0;35mshrimp[0;1;30m''[0;35ms board[0m
+                                                           [1;30mkeep the politics out[0m
+                                                          [1;30mof our dying scene its[0m
+                                                           [1;30mmaking me really sick[0m
+                                                          [36mdelicious[0;1;30m@[0;36mphreaker[0;1;30m.[0;36mnet[0m
+                                                      [35m www[0;1;30m.[0;35malteredperception[0;1;30m.[0;35morg[0m
+                                                                    [35micq[0;1;30m:[0;36m96683620[0m'

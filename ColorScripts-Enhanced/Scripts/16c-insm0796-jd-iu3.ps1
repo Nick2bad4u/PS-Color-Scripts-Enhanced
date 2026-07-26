@@ -11,7 +11,7 @@
 # SAUCE Group: insomnia
 # SAUCE Date: 19960603
 # SAUCE Dimensions: 80x25
-# Lines: 1-20
+# Lines: 1-18
 # Columns: 1-80
 
 Write-Host '
@@ -31,6 +31,4 @@ Write-Host '
            [1;30m└-─-─--─-─-─--─--─--─--─--─[0;35m▄▄[0;1;30m-─-─┘[0m  [35m▄▀[0m         [31m▒[0;37m [0;31m  [0m             [31m▀[0m
           [1;31m░[0m                              [35m▀▀▀[0m              [31m░[0m      [31m▄[0m        [31m▄[0m
                                                                        [31m▄[0;37m [0;1;30mjandor[0m
-                                                                        [1;30m     [0m
-→→SAUCE00Insanity U
-    19960603╩◘  ☺☺P ↕[0m'
+                                                                        [1;30m     [0m'

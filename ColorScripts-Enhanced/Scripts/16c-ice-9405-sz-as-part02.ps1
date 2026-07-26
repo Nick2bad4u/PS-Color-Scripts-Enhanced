@@ -11,7 +11,7 @@
 # SAUCE Group: iCE
 # SAUCE Date: 19940526
 # SAUCE Dimensions: 80x25
-# Lines: 50-99
+# Lines: 51-100
 # Columns: 1-80
 
 Write-Host '

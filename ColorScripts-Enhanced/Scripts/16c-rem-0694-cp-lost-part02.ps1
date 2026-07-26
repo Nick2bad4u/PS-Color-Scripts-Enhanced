@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CP-LOST.ANS by Coruption (rem-0694); released in rem-0694 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 44-84
+# Lines: 44-85
 # Columns: 1-80
 
 Write-Host '
+
                          [34m███████████[0m     [34m▄██████[0m
                          [34m███ ███ ███[0m     [34;44m   [0m [34;40m███[0m
                              [34;44m   [0m [34;40m▄▄▄ [0;34;44m  [0;34;40m█ [0;34;44m   [0m [34;40m███[0m

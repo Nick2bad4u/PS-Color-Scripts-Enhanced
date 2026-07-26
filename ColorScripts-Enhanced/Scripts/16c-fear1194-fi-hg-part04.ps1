@@ -11,10 +11,11 @@
 # SAUCE Group: [FEAR]
 # SAUCE Date: 19941104
 # SAUCE Dimensions: 80x153
-# Lines: 119-153
+# Lines: 118-153
 # Columns: 1-80
 
 Write-Host '
+                         [1m║    [0;1;30m▐██[0m▌
                          [1m│    [0;1;30m▐██[0m
              ▄           [1m│    [0;1;30m███[0m
             [1;30m▐█[0m▌          [1m·   [0m▐[1;30m██▌[0m
@@ -44,9 +45,9 @@ Write-Host '
                   [1;33;43m▐[0;1;31;43m││[0;31;43m││[0;1;30;43m▌[0m                               [1;33;43m▐[0;1;31;43m││[0;31;43m││[0;1;30;43m▌[0m
                    [33m▀▀▀▀[0m                                 [33m▀▀▀▀[0m
 
-[1;30m──═[0m═[[1mF[0muture [1mI[0mmperfect]═[1;30m═───────────────────────────────────────────────────────O[0m
-[1;30mne of my first %100 original ansis.  ok, well the font was from a font book.[0m
+[1;30m──═[0m═[[1mF[0muture [1mI[0mmperfect]═[1;30m═────────────────────────────────────────────────────────[0m
+  [1;30mOne of my first %100 original ansis.  ok, well the font was from a font book.[0m
 [1;30m  Mage ■ Just BUY Desqview![0m
 [1;30m  MeMBrAiN ■ Start doing something!  You''ve got enough members![0m
-[1;30m────────────────────────────────────────────────────────────────────═[0;31m═[[0;1;31mF[0;31mEAR]═[0;1;30m═─[0;31mC[0m
-[31mOPREZ[0m'
+[1;30m────────────────────────────────────────────────────────────────────═[0;31m═[[0;1;31mF[0;31mEAR]═[0;1;30m═──[0m
+                                                                      [31mCOPREZ[0m'

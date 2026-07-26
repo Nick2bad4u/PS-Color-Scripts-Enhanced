@@ -60,5 +60,5 @@ Write-Host '
 [1;36;46m▒[0m [36moutlines:[0;37m [0;1;37mslackzor[0;36m. additional outlines/shading/touchups:[0;37m [0;1;37msimonking[0;36m.[0;1;37mthelo0p[0;36m.[0;37m [0;1;36;46m▒[0m
 [1;36;46m░                                                                              ░[0m
 [1;36;46m                          m y   s t y l e   e m e r g e s                       [0m
-[1;36;46m                                                                               [0;1;36ma[0m
-[1;36mnsi, i[0m [31mlove[0;37m [0;1;36myou and i need you[0m'
+[1;36;46m                                                                                [0m
+                          [1;36mansi, i[0m [31mlove[0;37m [0;1;36myou and i need you[0m'

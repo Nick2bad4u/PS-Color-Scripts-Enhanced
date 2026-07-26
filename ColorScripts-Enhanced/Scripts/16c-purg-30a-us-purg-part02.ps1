@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PURG.ANS by Slackzor + Produkt (purg-30a); released in purg-30a and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 40-81
+# Lines: 40-83
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
 
 
 [37m----------------CUUUUUUUUUUUUUUUT-----------------------CUTCUTCUTCUT-----SLUT---[0m
+
 [37m  me and slack were both bored, so uh.. i drew this gay little outline that[0m
 [37m  slightly resembles this, except 10x smaller and really stupid looking because[0m
 [37m  i spent 3 seconds on it.[0m
@@ -46,6 +47,7 @@ Write-Host '
 [37mprodukt (touchups[or touchdowns =],coloring,shading,background,font,etc =)[0m
 
 [37m [0;1;37mi hate inversing slackzor''s outlines.[0m [1mi hate inversing slackzor''s outlines. !$#[0m
+
   wasnt that a thrilling story.
 
   yes, it was a thrilling story.

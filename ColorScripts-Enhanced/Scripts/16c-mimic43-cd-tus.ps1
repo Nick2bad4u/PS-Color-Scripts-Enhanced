@@ -10,7 +10,7 @@
 # SAUCE Group: mimic
 # SAUCE Date: 20020103
 # SAUCE Dimensions: 80x32
-# Lines: 1-31
+# Lines: 1-32
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ l$$$$$$$$$$$$$$$$$$$$$$$$$L  [35m`└**⌂⌂SS[0;1;35m$$$$$$$$$$$$$$$$$$$$$$$
 [37m 7$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ [0;1;33m::..[0m  [1;35m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;35m7[0;37m [0m
 [37m  `└*⌂S$$$$$$$$$$$$$$$$$$$$$$$$$$ [0;35m.┌4[0;1;35m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S⌂[0;35m*┘`[0;37m  [0m
 [37m`┐,.________________________________________________________________________.,┌''[0m
+
 [37m  this is an ascii for the usual suspects.[0m
 [37m  cain, (at one time or another) wanted me to draw a guest ascii for tus.[0m
 [37m  i chose to draw a tus ascii, for release in a mimic pack.[0m

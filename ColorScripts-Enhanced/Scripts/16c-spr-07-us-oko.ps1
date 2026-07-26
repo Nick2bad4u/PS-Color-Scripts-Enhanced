@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US!OKO.ANS by Mike + Mist (spr_07); released in spr_07 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
+# Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
@@ -30,6 +30,7 @@ Write-Host '
       ▄        [1;30m▀▄[0m       ▀ mike+mist    [1;47m▓[0m
                         ▀              [1;47m▒[0m
 [1;30m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;47m░[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30m▄[0m
+
  Po prawej stronie [1;30m [0mwidac ascii [1mMike[0m''a,
  natomiast po lewej [1;30m [0mstronie [1;30m [0mprzerobke
  tego samego ascii wykonana przezemnie.

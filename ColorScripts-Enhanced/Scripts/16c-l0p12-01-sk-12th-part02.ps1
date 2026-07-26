@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!12TH!.ANS by Simonking (l0p12_01); released in l0p12_01 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 50-95
+# Lines: 51-98
 # Columns: 1-80
 
 Write-Host '
+
                                                        [1;30m  [0m       [1;30m▀[0m
                                       [1;34;47m▄ dEminTRI ▀[0m     [1;30m [0m [1;30m [0m     [1;30m [0m   [1;30m  ▄[0m
     [34m░░░[0m        [1;30m█▀▀[0m ▀[1;30m▄[0m         [1;30m█▀[0m                [1;30m     [0m     [1;30m [0m   ▀   [1;30m ▄[0m        [1;30m▀[0m
@@ -28,6 +29,7 @@ Write-Host '
 [1;30m▌[0m             [37m▄█[0;1;30;47m▀[0;1;30;40m▄[0m           [37m████[0;1;30;47m▀[0;1;30;40m▄[0m▀█[1;30;47m▀[0;1;30;40m▄[0m       [37m█[0;1;37;47m▄[0m██    [1;30m▄[0m       [1;30m▄[0m    [37m█[0;1;30;47m█[0m          [1;30;47m▀[0m
 █[1;30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m███[1;30;47m ▀▀▀▀▀▀▀▀▀▀▀[0m█[1;47m▄██▄[0m█[1;30;47m▀[0m███[1;30;47m▀▀▀▀▀▀▀[0m████[1;30;47m▀▀▀▀[0m█[1;30;47m▀▀▀▀▀▀▀[0m█[1;30;47m▀▀▀▀[0m██[1;30;47m▀▀▀▀▀▀▀▀▀▀[0m█
 -[1;30m--[[0ma[1;30mnsi: [0ms[1;30mIMON[0mk[1;30mING/[0mt[1;30mhelo0p^[0mf[1;30mLUID^[0mB[1;30mAFH][0m-[1;30m---[[0mr[1;30mequested: [0mc[1;30mEELOW/[0mf[1;30mLUID^[0md[1;30mEMINTRI][0m-[1;30m--[0m
+
 
 
 

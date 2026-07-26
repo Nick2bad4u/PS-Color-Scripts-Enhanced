@@ -11,11 +11,12 @@
 # SAUCE Group: BLACK MAiDEN
 # SAUCE Date: 19961212
 # SAUCE Dimensions: 80x34
-# Lines: 1-32
+# Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
 [1m-──[[0m Neutron [1m]────────────────────────────────────────────────────────────────--[0m
+
                                         [1m▄█[0m
                                        [1;46m▓[0;1;40m█[0;1;47m▓[0;1;40m▌[0m
                                  [1m▄▄▄▄▄[0;1;47m▓[0;1;40m█[0;1;47m▓▒▓[0m
@@ -35,6 +36,7 @@ Write-Host '
              [35m ░░[0;1;35m  n  [0;35m░░[0;1;35m  e  [0;35m░░[0;1;35m  u [0;35m░░[0;1;35m   t  [0;35m░░[0;1;35m  r  [0;35m░[0;36m░[0;1;35m  o  [0;35m░░[0;1;35m  n[0m [35m ░░[0m
 
 [1;37m-──[[0m Speech... [1m]──────────────────────────────────────────────────────────────--[0m
+
   Well, besides the usual lack of time, I have a little problem with my phone
 right now which doesn''t accept modem calls anymore. So I lack a bit the
 communication with the rest of the pals, but I hope to get that fixed soon.

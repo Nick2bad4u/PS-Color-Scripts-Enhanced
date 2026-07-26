@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OT-ROT01.ANS by Omot (fut-1094); released in fut-1094 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
+# Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
@@ -49,10 +49,14 @@ Write-Host '
 [1;34;46m▓[0m                               [1;34;46m░[0m                                  [1;34;46m▓[0m
 [1;34;46m▓[0m                               [1;34;46m▒[0m            [1;34;44m▓[0m
                                 [1;34;46m▓[0m            [1;34;44m▒[0m                                 [1;34;44m▓[0m
+           [1;34;44m▓[0m                    [1;34;46m▓[0m            [1;34;44m▒[0m                                 [1;34;44m▓[0m
+           [1;34;44m▓[0m                                 [1;34;44m░[0m              [1;34;44m▓[0m                  [1;34;44mf[0m
+           [1;34;44m▒[0m          [1;34;44m▓[0m                      [1;34;44m░[0m              [1;34;44m▒[0m                  [1;34;44mu[0m
+           [1;34;44m▒[0m          [1;34;44m▒[0m                                     [1;34;44m░[0m                  [1;34;44mt[0m
+           [1;34;44m▒[0m          [1;34;44m░[0m                                     [1;34;44m░[0m                  [1;34;44mi[0m
+           [1;34;44m░[0m                                                [1;34;44m░[0m                  [1;34;44ml[0m
+                              [1;34;44m▓[0m                                                [1;34;44me[0m
+    [1;34;44m▓[0m                         [1;34;44m▓[0m
 [35m    [0;1;34;44m▓[0m                         [1;34;44m▒[0m        [1;34;44m▓[0m
 [35m    [0;1;34;44m▒[0m                         [1;34;44m▒[0m        [1;34;44m▓[0m                             [1;34;44m▓[0m
-[35m    [0;1;34;44m▒[0m                         [1;34;44m░[0m        [1;34;44m▒[0m                             [1;34;44m▓[0m
-[35m    [0;1;34;44m░[0m                         [1;34;44m░[0m        [1;34;44m▒[0m                             [1;34;44m▒[0m
-               [1;34;44m▓[0m                       [1;34;44m░[0m                             [1;34;44m▒[0m
-               [1;34;44m▓[0m                       [31;44m▒[0m                             [31;44m▒[0m
-               [1;34;44m▒[0m                                     [1;34;44m▓[0m               [31;44m▒[0m'
+[35m    [0;1;34;44m▒[0m                         [1;34;44m░[0m        [1;34;44m▒[0m                             [1;34;44m▓[0m'

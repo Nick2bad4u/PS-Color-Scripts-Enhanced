@@ -11,11 +11,12 @@
 # SAUCE Group: twisted
 # SAUCE Date: 19970426
 # SAUCE Dimensions: 80x31
-# Lines: 1-29
+# Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
                                                                         [1;30mcatch 22[0m
+
                                                 [1;31m▄▄▄▄[0m
                                    [1;31m▄██▄[0m     [1;31m▄▄███[0;1;31;43m▓▓▓▒▒[0;33m▄[0m
                                  [1;31m▄██████▄[0m [1;31m▄████████[0;1;31;43m▓▓▒▒[0;33m▌[0m
@@ -38,6 +39,7 @@ Write-Host '
 [1;31m██▄▄▄[0m                                                                      [1;31m▄▄▄██[0m
 [1;31m████████████[0;1;31;41m▓▒▒░[0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m          [0m        [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31;41m░▒▒▓[0;1;31;40m████████████[0m
 [1;31;40m██████████████[0;1;31;41m▓▒░  [0;31m██████████████[0;30;41mtitle goes here.[0;31;40m████████████[0;1;31;41m░▒▓[0;1;31;40m████████████████[0m
+
 [31mmickey mouse bones minnie every night.. he told me so when i visited disney [0m
 [31mworld.  well actually i think it was the drunk old man with a beer belly [0m
 [31mspeaking underneath the costume.. but he had a voice like mickey mouse.  umm[0m

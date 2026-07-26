@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GRAVYARD.ANS by Blade Runner (acdu0992); released in acdu0992 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 41-76
+# Lines: 42-79
 # Columns: 1-80
 
 Write-Host '
@@ -44,5 +44,7 @@ Write-Host '
 
 
 [1;37m··  ·───────[0;1;32m─[0;1;37m──[0;1;32m───────────────[0;32m─[0;1;32m─[0;32m───────────────────[0;1;32m─[0;32m─[0;1;32m─────────────────[0;1;37m─[0;1;32m─[0;1;37m───·  ··[0m
+
 [1;37mT[0mh[1;30me  [0mG R A [1;30mV E [0;35m· [0;1;30mY A [0mR D                                          [35m[[0;1;37m714[0;35m] [0;1;37m563[0;35m.[0;1;37m1717[0m
+
 [35m·[0;1;35m·o[0;35m-[0;1;37m14 Day [0;35m"[0;1;35mo[0;1;37mNLY[0;35m" [0;1;37mBoard[0;1;35m·[0;35m·[0m      [35m·[0;1;35m·[0;1;37m144[0;1;35moo [0;1;37mDual Standard[0;1;35m·[0;35m·   ·[0;1;35m·[0;1;37mSysop[0;1;35m: [0;1;30mShadow[0;1;37mKeeper[0;1;35m·[0;35m·[0m'

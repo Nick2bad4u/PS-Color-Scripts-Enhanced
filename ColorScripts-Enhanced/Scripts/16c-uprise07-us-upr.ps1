@@ -11,7 +11,7 @@
 # SAUCE Group: Uprise
 # SAUCE Date: 19980723
 # SAUCE Dimensions: 80x25
-# Lines: 1-20
+# Lines: 1-19
 # Columns: 1-80
 
 Write-Host '
@@ -33,5 +33,4 @@ Write-Host '
 [35;40m [0;30;44m░░[0;34;40m▀▀ [0;30;44m░░░░░░▓[0m    [30;44m▓▓[0;35;40m▄▄[0;1;35;45m▀▀[0;30;45m░[0;35;40m▄▄ [0;1;34;44m░[0m                     [1;34;44m░▒▓[0;34m ▀▀▀▀▀[0m                [30;44m▓▓[0;1;34;44m░[0;30;44m░▓[0m
 [37;40m [0;30;44m▓▓[0m   [30;44m▓▓▓▓▓▓█[0m          [30;45m█[0m                         [34;40m▀▀▀[0m                         [30;44m▓[0m
 
-[1;30;40mAnsi Joint between Cleaner (Logo Outline) and Sephiroth (Shading + Background)[0m
-→[0m'
+[1;30;40mAnsi Joint between Cleaner (Logo Outline) and Sephiroth (Shading + Background)[0m'

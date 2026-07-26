@@ -43,9 +43,9 @@ Write-Host '
 [1;30m@!#$Matrix vinda diretamente do sertao pra um caba da peste chamado [0;1;37mMinobitz[0;1;30m@#!&[0m
 [1;30m Eu dedico essa ansi a mim mesmo, me homenageio atraves dela por ter passado no[0m
 [1;30mvestibular sem ter estudado nada, so passei devido as aulas dos seguintes profe [0m
-[1;30mssores;[0m [1mPenha Cotozinha, Alcides Cearense, Roberto Percevejo, Paulo Hellraiser,R[0m
-[1mogerio Tiradentes, Theobaldo Super-Mula,[0m [1mJoao Cotonete,[0m [1mJoao Calombo, [0m
-        [1mGilberto Nariz-de-Foguete, Eduardo Chambaril, "des" Graca, Marilson Cu-d[0m
-[1me-Fogo, Venusa Bafo-de-Onca e Andre Cana-Brava.[0m
+[1;30mssores;[0m [1mPenha Cotozinha, Alcides Cearense, Roberto Percevejo, Paulo Hellraiser, [0m
+        [1mRogerio Tiradentes, Theobaldo Super-Mula,[0m [1mJoao Cotonete,[0m [1mJoao Calombo, [0m
+        [1mGilberto Nariz-de-Foguete, Eduardo Chambaril, "des" Graca, Marilson Cu- [0m
+        [1mde-Fogo, Venusa Bafo-de-Onca e Andre Cana-Brava.[0m
                                                          valeu bando de mane''!
                                                         [1mLuciano Ayres aka enzo[0m'

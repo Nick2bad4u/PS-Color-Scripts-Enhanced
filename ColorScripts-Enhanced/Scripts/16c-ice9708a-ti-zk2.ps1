@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-ZK2.ICE by Trip (ice9708a); released in ice9708a and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -33,6 +33,7 @@ Write-Host '
 [30;42mtrip [0;32;40m██[0;37;40m [0;33;40m█[0;37;43m░[0;33;40m████[0;37;40m [0;33;40m█ ▀▀▀[0;35;40m▄▄▄▄█[0;37;45m░▒▒[0;1;36;45m  [0;35m██▄▄▄█[0;37;45m▒▓[0;35;40m▄▀[0;37;40m [0;35;40m░▒▓[0;1;35;45m▒[0m [1;47m▒[0m▌[35m▐[0;1;35;45m▒░[0;35m▓░ █▀▀▄▄█[0;37;45m▓▓▒░░[0;35;40m███████████████[0m
 [30;42miCE[0;32;40m█▀▀▀[0;37;40m [0;33;40m█[0;37;43m░ ░[0;33;40m██[0;37;40m  [0;35;40m█████[0;1;36;45m ░[0;35m██[0;1;36;45m  ░░░[0;35m▄▄▄▄▄█████▄▄▀▀▀[0;37m [0;1;37;47m░[0m [35m▀▀▀▀▄▄▄██████▀▀▀▀▀▀▀[0;1;36;45m░░░[0;35m█▄▄▄▄▄▄▄█[0m
 [33m▄▄▄▄███ █[0;37;43m░ [0;33;40m███[0;37;40m  [0;35;40m███[0;1;36;45m░[0;35m█[0;1;36;45m▒▒ ▓▓▓███▓▓▓▒▓▓▒░░[0;35m█[0;1;36;45m░░[0;35m█[0;1;36;45m [0;35m██▄[0;37m [0;35m▀██████[0;1;36;45m░░ [0;35m█[0;1;36;45m▄▄▄▓████▓██▓▓░▒░░[0;35m█[0;1;36;45m░[0;35m██[0m
+
 [37m----[0m
 [37mwoo! a 100% original.. guy. with a sign. it''s pretty tho![0m
 [37mi''d like to greet Kamikaze from 602, the guy who got me into the art scene.[0m

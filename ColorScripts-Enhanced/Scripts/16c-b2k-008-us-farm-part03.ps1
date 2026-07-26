@@ -47,8 +47,8 @@ Write-Host '
 [33;40m██▌▀█▌[0;37;40m   [0;34;40m░[0;37;40m  [0;34;40m░[0;37;40m  [0;34;40m░[0;37;40m [0;34;40m░░░░░ ░░▒░░░▒░▒░[0m      [33;40m▄▄██▀▀[0;37;40m [0;33;40m▄▄█▀▀[0;37;40m  [0;36;40m░▒░▒▒░░▒░░░░ ░  ░ ░[0m
 [33;40m█▀ ▄▀▀[0m               [34;40m░[0;37;40m  [0;34;40m░[0;37;40m [0;34;40m░[0;37;40m [0;34;40m░[0;37;40m [0;34;40m░░[0m                     [36;40m░ ░░ ░  ░[0m
 
-[37;40m  [0;1;37;40m- Ah!.. fresh moyeno human milk!!![0m      [1;37m- Ah!... fresh moyeno mokey dollars!![0mb
-ig yellow mankey [1;30m/ [0mplf                 spirit of farmer rage [1;30m/[0m hood
+[37;40m  [0;1;37;40m- Ah!.. fresh moyeno human milk!!![0m      [1;37m- Ah!... fresh moyeno mokey dollars!!![0m
+    big yellow mankey [1;30m/ [0mplf                 spirit of farmer rage [1;30m/[0m hood
 
 
 [1;30ma fine example of dealing with the liquid white gold... if you dont want to have[0m

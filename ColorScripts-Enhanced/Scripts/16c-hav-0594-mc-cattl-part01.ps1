@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC-CATTL.ANS by Mr Corruption (hav-0594); released in hav-0594 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
+# Lines: 1-48
 # Columns: 1-80
 
 Write-Host '
@@ -22,6 +22,7 @@ Write-Host '
 [1;37m█ [0;1;34m. Corrupt[0;34mi[0;1;30mo [0;1;30;47m█[0;34m░░░░░[0;1;30;47m█[0m [1;30;47m█[0;34m░░░░░[0;1;30;47m█[0m [1;30;40mo[0;34mr[0;1;30mr [0;1;30;47m█[0;34m░░░░░[0;1;30;47m█[0;34m░░░░░░░░░░░░░░░░░░░░[0;1;30;47m█[0m [1;30;40mn [0;1;34;40m· Havok · Mr. [0;1;37;40m█[0m
 [1;37;40m█  [0;1;34;40m· Mr. Co[0;34mr[0;1;30mr ▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀ M[0;34mr[0;1;30m. ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ r[0;34mu[0;1;34mption · Havok  [0;1;37m█[0m
 [1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
+
 
                                [1;47m░[0m
                                [1;47m░[0m
@@ -55,7 +56,4 @@ Write-Host '
      [1;47m▒[0m             [1;47m▓[0m                                         [1;47m█[0m
      [1;47m▒[0m             [1;47m▓[0m
      [1;47m▒[0m             [1;47m█[0m
-     [1;47m▓[0m                                           [1;47m░[0m
-     [1;47m▓[0m                                           [1;47m▒[0m
-     [1;47m▓[0m                     [1;47m░[0m                     [1;47m▒[0m
-     [1;47m█[0m                     [1;47m▒[0m                     [1;47m▒[0m'
+     [1;47m▓[0m                                           [1;47m░[0m'

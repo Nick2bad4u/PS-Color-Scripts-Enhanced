@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DTU-PUBE.ANS by Deathlok The Ugly (cnc-0494); released in cnc-0494 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 192-238
+# Lines: 197-244
 # Columns: 1-80
 
 Write-Host '
@@ -53,6 +53,7 @@ Write-Host '
           [31mAS[0;1;36m: [0;1mD[0;1;30meathlok [0;1mT[0;1;30mhe [0;1mU[0;1;30mgly [ [0;1mL[0maW [1;36m-=- C[0maNCeR [1;30m][0m
 
      [1m·[0m         [1m·[0m      [1m∙    ∙∙   ∙∙∙─────────────────────[0m─────────────[1;30m───────────[0m
+
 
 
                     Copyrights (c) CaNCeR Products.. 1994[0m'

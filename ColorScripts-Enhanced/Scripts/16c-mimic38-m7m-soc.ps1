@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: m7m-soc.ans by Metal Militia (mimic38); released in mimic38 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
+# Lines: 1-26
 # Columns: 1-80
 
 Write-Host '
@@ -34,4 +34,5 @@ Write-Host '
 [1;31m     [0;31m  .\Y[0;1;31m [0;31mY$$[0;35m$$$$$$$[0;31m$$Y[0;35m [0m        [31m\$$$$Y$$$$[0m   [31ml[0;35m$$$$$$$$[0;31m│[0;35m$8[0;31m8888$$$$$$$$$$$$8\*`[0m
 [31m│Q##Q8\└` [0;1;31m [0;35m [0;31m`²╩╩╩╩╩╩╩²''[0;35m       [0;31m_.,7\*└` `*/Ñ[0m   [31ml[0;35m$QQ[0;31m\`²╩╩╩╩╩╩╩╩*\`└[0;35m*[0;31m/[0;35m7,[0;31m._       [0m
               [35m [0m     [35m    [0;31m \²`[0m         [35m [0m      [35m    [0m             [35m   [0m         [31m''²/  ↓↓[0m
+
                                      [37msocialist justice in israel now. m7mMERETZ[0m'

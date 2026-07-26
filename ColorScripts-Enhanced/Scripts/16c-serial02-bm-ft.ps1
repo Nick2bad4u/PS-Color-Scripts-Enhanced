@@ -11,7 +11,7 @@
 # SAUCE Group: serial
 # SAUCE Date: 19970206
 # SAUCE Dimensions: 80x29
-# Lines: 1-28
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
                  [34;40m;[0m
 
 [37;40m--------------------------------------------------------------------------------[0m
+
 [37;40mi offered, so i put out.  uh...  this snazzy FT font (yes, that''s what it says)[0m
 [37;40mis for meatpod''s board Flash Traffik (uhm, well, I *think* it''s his board).. [0m
 [37;40mif you want an ascii or ansi.. send email to blazemore@earthlink.net.. if the [0m

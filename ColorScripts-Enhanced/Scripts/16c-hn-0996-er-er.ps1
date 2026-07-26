@@ -24,8 +24,8 @@ Write-Host '
               [36m [0m              [33ml$$$$[0;1;30ml[0m             what i drew maybe its not.
                              [33m`$$$$$[0;1;30m.[0m            such a crappy azz-key this.
                               [33m`$$$''.[0;37m  [0m          [37mtime blahh i don''t know you.[0m
-                                [1;30mⁿ[0;1;36m.[0;36m$$$[0;1;36mSs.[0m        can let me know if its ne good.[1;36ml[0m
-[36m$$$$[0;1;36m$[0;1;37ml[0m
+                                [1;30mⁿ[0;1;36m.[0;36m$$$[0;1;36mSs.[0m        can let me know if its ne good.
+                                 [1;36ml[0;36m$$$$[0;1;36m$[0;1;37ml[0m
                                  [1;36m`[0;36m$$$$[0;1;36m$''[0m
                                    [1;36m`ⁿ$f[0m
                                       [1;36m`[0m'

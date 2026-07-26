@@ -10,7 +10,7 @@
 # SAUCE Author: bass lion
 # SAUCE Date: 19960917
 # SAUCE Dimensions: 80x22
-# Lines: 1-21
+# Lines: 1-22
 # Columns: 1-80
 
 Write-Host '
@@ -28,6 +28,7 @@ Write-Host '
 
 [1;30m=======[hey, im black knight.. inspired by wator!]==============================[0m
 [1;30m=================[but not bloody ripped!]=======================================[0m
+
 extended: mind the little joke gag there... means nothing.. said and done.
           but this logo is for smok3y if he wants it... take it.. i owe u
           nuff shit as it is.

@@ -11,7 +11,7 @@
 # SAUCE Group: blend
 # SAUCE Date: 19970212
 # SAUCE Dimensions: 80x50
-# Lines: 1-49
+# Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
@@ -60,6 +60,7 @@ Write-Host '
 [1mterminating connect ...[0m
 
 --------------------------------------------------------------------------------
+
 
 [32mwanna askii?[0m
 [32mask.[0m'

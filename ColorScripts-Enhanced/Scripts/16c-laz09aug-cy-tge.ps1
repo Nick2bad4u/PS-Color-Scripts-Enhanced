@@ -11,7 +11,7 @@
 # SAUCE Group: Rile
 # SAUCE Date: 19970418
 # SAUCE Dimensions: 80x27
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -40,4 +40,5 @@ Write-Host '
                  [37m.[0m             [37m.   ■[0m     [37m·[0m                    [37m.[0m        [37m.[0m
 
 [1;30m≡[THE GREAT ESCAPE 1999]≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡[(C) REVCRAYON 1997]≡[0m
+
 [1;30mIf you cant see, that grey thing is SUPPOSED to be a spaceship.[0m'

@@ -9,7 +9,7 @@
 # SAUCE Title: color shock
 # SAUCE Author: gunthar
 # SAUCE Group: fire
-# Lines: 1-24
+# Lines: 1-22
 # Columns: 1-80
 
 Write-Host '
@@ -33,6 +33,4 @@ Write-Host '
                         ░░ ░  [1;35m▀    [0m░      [35m■▄[0m        [37m░░[0m
 
             [37m- -─[0;1;37m+[0m-  [1;33mc   o   l   o   r[0m     [1;33ms   h   o   c   k  [0m─[1m+[0m-- -
-                  +o : [1me x u l t e d    [0m+[1m1 [0m- [1mxxx [0m- [1mxxx [0m- [1mxxxx[0m
-→SAUCE00color shock                        gunthar             n/a
-   19951101§♫  ☺☺[0m'
+                  +o : [1me x u l t e d    [0m+[1m1 [0m- [1mxxx [0m- [1mxxx [0m- [1mxxxx[0m'

@@ -11,7 +11,7 @@
 # SAUCE Group: opium.graphics
 # SAUCE Date: 19961022
 # SAUCE Dimensions: 80x31
-# Lines: 1-30
+# Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
@@ -38,6 +38,7 @@ Write-Host '
 [31m    ▄▄▒▓█▓▓▒▀  ▄▄▒▓█▓▒▄ ▒▓ [0;33m▀█[0;1;33;43m░▒▓[0;1;33;40m█▄▄▄▄▄▄▄▄▄[0;1;33;43m▒░[0;33m▌[0;1;33m [0;31m▄█[0;30;41m"i choose pets, coz[0;31;40m█▓▄▄▄▄ [0;33;40m▀█████[0m
 [31;40m ▄▒▓███▓▒▀ ▄▄▒▓██████▓▒▌ ▒▓[0;37;40m [0;33;40m▀█[0;1;33;43m░▒▓▓[0;1;33;40m██████[0;1;33;43m▓▒░[0;33m█[0;31m ▄▓[0;30;41mit gives me loadsa phun &[0;31;40m▓▒▄▄▄▄ [0;33;40m▀[0m
 [31;40m▒▓████▓▒  ▒▓████████▓▒▀   ▒▓[0;1;33;40m [0;33m▀██[0;1;33;43m░ ▀░▀▀▀ ░[0;33m██▌[0;31m▐▓[0;30;41maction for tha honey!"[0;31;40m██████[0;30;41mvain[0;31;40m▓▒[0m
+
         [37;40mwell ... this aint too good, but it`s still a picture i like[0m
         [37;40ma bit... now i think u should go call pets... it`s one of[0m
         [37;40mswedens best boards... (nah!) but it`s still one of the coolest![0m

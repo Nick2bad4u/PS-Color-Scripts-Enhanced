@@ -6,11 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-AIM1.ANS by Pharcyde (aim-0002); released in aim-0002 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 50-96
+# Lines: 51-96
 # Columns: 1-80
 
 Write-Host '
-          [33m█▓▒▀▄██▓▒░ ▒▒▓███████▀▄████████████████▄▄████████████████[0m
            [33m▄██████▓▒░ ░░▓██████ ░░▒▒▓▓████████████████████████████▌[0m
           [33m████████▓▓▒░ ▒▓███████▄▀░▀▀▀▀▀▄██▄▄▄▀▀▀███████████████▀▀[0m
           [33m████████▓▒░ ▒▓█████████ ▄▓████████████████████░▀▀▀▀▀▄▄▓▒[0m

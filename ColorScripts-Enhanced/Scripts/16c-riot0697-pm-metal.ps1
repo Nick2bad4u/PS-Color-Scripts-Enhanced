@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-METAL.ANS by Precious Metal (riot0697); released in riot0697 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-35
+# Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
 [1;34m$$$$$$$$$$$$$$$$$$$$[0;34m$$[0;33m$$$$[0;31m$[0;1;33m$$$$$$$$[0;33m$$$$$$[0;31m$[0;1;33m$$$$$$$[0;34m$[0;1;34m$$$$$[0;34m$[0;1;33m$$$$$$$$$$$[0;33m$[0;34m$[0;33m$$$$$$$$[0;31m$[0;1;33m$$[0m
 [1;34m$$$$$$$$$$$$$$$$$$$$$[0;34m$$$$$$$$$$$$$$$$$$$[0;31m$[0;34m$$$$$$$$[0;1;34m$$$$$$$[0;34m$$$$$$$$$$$$$$$$$$$$$$[0;31m$[0;1;34m$[0m
 [1;34m$$$$$$$$$$$$$$$$$$$$$$[0;34m$$$$$$$$$$$$$$$$$[0;31m$[0;34m$$$$$$$$[0;1;34m$$$$$$$$$[0;34m$$$$$$$$$$$$$$$$$$$$[0;31m$[0;1;34m$$[0m
+
 [1m   [0m                        [1m <<[0m  [34m6[0;1;34m1[0;34m9[0;1;34m-[0;34m4[0;1;34m2[0;34m3-4[0;1;34m97[0;34m0[0;37m [0;1;37m>>[0m
    [1m  [0m                    [1m  [0m [1m<<[0m  [34mW[0;1;34marloc[0;34mk W[0;1;34mH[0;34mQ[0;37m  [0;1;37m>>[0m
                        [1m    [0m [1m<<[0m  [34mM[0;1;34metalNe[0;34mt W[0;1;34mH[0;34mQ[0;37m [0;1;37m>>[0m

@@ -11,7 +11,7 @@
 # SAUCE Group: black maiden
 # SAUCE Date: 19970629
 # SAUCE Dimensions: 80x334
-# Lines: 1-43
+# Lines: 1-44
 # Columns: 1-80
 
 Write-Host '
@@ -27,6 +27,7 @@ Write-Host '
              [37mpack. thank you. greets to all guys reading this shit.[0m
 
 [37m [0;36m// [0;1;37mavengerbm@aol.com[0m [36m//[0;37m  .[0;35mno requests, babe[0;37m  [0;36m//[0;37m [0;1;37mhazard/2 +49.2406.929269isdn[0m [36m//[0m
+
 
 
 

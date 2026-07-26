@@ -11,7 +11,7 @@
 # SAUCE Group: phat studios '97
 # SAUCE Date: 19970326
 # SAUCE Dimensions: 80x98
-# Lines: 50-97
+# Lines: 51-98
 # Columns: 1-80
 
 Write-Host '

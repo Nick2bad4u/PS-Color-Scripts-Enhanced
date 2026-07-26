@@ -10,7 +10,7 @@
 # SAUCE Author: tetsuo_ii
 # SAUCE Date: 20000401
 # SAUCE Dimensions: 80x40
-# Lines: 1-39
+# Lines: 1-40
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
                                                          [1;30m░[0m
 
 [1;30m- ---------------------------------------------------------------------------- -[0m
+
  [1;30mshare and enjoy ─────┐[0m                     [1;30mthis ansi is old and already[0m
                       [1;30m:[0m                     [1;30mreleased with an SAE scene -[0m
   ____^\    ______   _______/^__            [1;30mpack (sept 99). but  since i[0m

@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RO-SANCT.ANS by Repete Ophender (grim-03); released in grim-03 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 75-110
+# Lines: 75-111
 # Columns: 1-80
 
 Write-Host '
@@ -30,6 +30,7 @@ Write-Host '
 [1;37;47m█  [0;30;47mHave you joined the RePete Ophender FanClub yet? Look at the FAN_CLUB.ANS  [0;1;30;47m█[0m
 [1;37;47m█  [0;30;47mfile for more details. [GRiM - Graphics Rendered in Magnificence]- 1992\8  [0;1;30;47m█[0m
 [1;37;47m▀[0;1;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;30;40m [0m
+
       ▄▄▄ ▄
     ▄[1;33;47m▄[0;1;33;40m███[0;1;33;47m▄[0;1;33;43m▀[0;33m▀[0m
 [33m  [0;37m▄[0;1;33;47m▄[0;1;33;43m▀[0;33m▀▀▀▀▀[0m

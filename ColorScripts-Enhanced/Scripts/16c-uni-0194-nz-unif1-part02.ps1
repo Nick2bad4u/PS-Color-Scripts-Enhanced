@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-UNIF1.ANS by Nailz (uni-0194); released in uni-0194 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-95
+# Lines: 50-96
 # Columns: 1-80
 
 Write-Host '
@@ -46,8 +46,8 @@ Write-Host '
 [1m   ▐█▌ ▐█▌ ██   ██ ██ ██[0m     [1m██  ▐█▌ ▐█▌ ██   ██    ██[0m     [1m██ ▐█▌ ▐█▌ ██   ██[0m
 [1m    ▀█ █▀  ██   ██ ██ ██[0m     [1m██   ▀█ █▀  ██   ██    ██[0m     [1m██  ▀█ █▀  ██   ██[0m
       [1m▀    ▀[0m     [1m▀ ▀  ▀[0m      [1m▀[0m      [1m▀    ▀[0m     [1m▀    ▀[0m      [1m▀[0m     [1m▀    ▀[0m     [1m▀[0m
-[1m───────────────────────────────────────────────────────────────────────────────U[0m
-[1mnification  -/-  613.224.8279[0m
+[1m────────────────────────────────────────────────────────────────────────────────[0m
+                      [1mUnification  -/-  613.224.8279[0m
 
           [1m-/- UNiON World Headquarters -/- Primal Net World HUB -/-[0m
                [1mBoard open to all UNiON Members and Applicants[0m

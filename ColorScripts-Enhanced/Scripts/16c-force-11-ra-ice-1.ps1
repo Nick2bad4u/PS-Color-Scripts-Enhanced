@@ -32,6 +32,6 @@ Write-Host '
  [1;31;41m▐▄[0;31m▓▒░░░ ░  [0;1;33m [0m [1;33m  [0m     [31m░[0;37m      [0;34m░▀▀▀[0;1;34;44m▀░[0;34m ▄[0;1;34;44m▄▀▀▀▀[0;34m▀  [0m                  [34m▀[0;1;34;44m▀[0;34m▌[0;37m [0;1;30m [0m
  [31m [0;1;31;41m▀[0;31m▀[0m                             [34m ▀▀▀░[0m                         [34m ▀[0;37m [0;1;34m-Ra[0m
 
-[1m---[0m [1mCUt hERE ------------------------------------------------------------------t[0m
-[1mhe logo h[0m               [1mas nothing to do with the group ice hehe... [0m
+[1m---[0m [1mCUt hERE -------------------------------------------------------------------[0m
+              [1mthe logo has nothing to do with the group ice hehe... [0m
         [1mSome kick arse art is bout to hit yaz from me so stay tuned ppls...[0m'

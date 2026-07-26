@@ -6,10 +6,16 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-WZGRN.ANS by Schizo (allnc-01); released in allnc-01 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 101-140
+# Lines: 101-145
 # Columns: 1-80
 
 Write-Host '
+                  [34;40m▄[0m         [34;40m▄[0m     [34;40m▄ ▀[0m       [34;40m▀ [0;30;44m▀[0;30;40m█[0m         [34;40m▀[0m      [34;40m▄[0m     [30;44m▀[0;30;40m█[0m
+              [34;40m▀[0m             [30;44m▀[0;30;40m█[0m        [30;44m▀[0;30;40m█[0m           [34;40m▀▀[0m        [34;40m▀    ▀[0m
+                       [34;40m▀   ▀[0m                         [34;40m▄[0m        [34;40m▀[0m
+                  [34;40m▄[0m                                       [34;40m▀[0m
+
+
 
 [40m [0;1;30m████▓▓▓▓▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▓▓▓▓████[0m
 [1;30m █ █ ▓ ▒ ░ ░[0m                                                        [1;30m░ ░ ▒ ▓ █ █[0m

@@ -6,11 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CP-TOTBR.ANS by Capn Pugwash + Acid Trooper (adfa1193); released in adfa1193 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 43-85
+# Lines: 44-86
 # Columns: 1-80
 
 Write-Host '
-     [1;30m▀█░█▄[0m             [1;30m▄█░█▀[0m                   [1;30m█▓▒░[0m               [1;30m░▒▓█[0m
 [1;30m   ▄▄▄▄█▒░█[0m           [1;30m█░▒█▄▄▄▄[0m
 [1;30m▄██▓▒░  ▀▄ ▀▄▄▄▄▄▄▄▄▄▀ ▄▀  ░▒▓██▄[0m                  [1;30m▄▀▀▀▀▀▀▀▀▀▀▀▀▀▄[0m
 [1;30m▓▒░[0m       [1;30m▀▄[0m         [1;30m▄▀[0m       [1;30m░▒▓█▀▄[0m             [1;30m▄▀ ▄▄▄▄▄▄▄▄▄▄▄▄▄ ▀▄[0m
@@ -26,14 +25,15 @@ Write-Host '
 [1;30m  █▓▒░▀▄ █ ▄▀[0m       [1;30m▀▄ █ ▄▀░▒▓█[0m       [1;30m█▓█▓▒░[0m          [1;30m▀   [0;1;33m▄   [0;1;30m▀[0m          [1;30m░▒▓█▓█[0m
 [1;30m   █▓▒░ ▀▀▀[0m           [1;30m▀▀  ░▒▓█[0m       [1;30m█▓░░█░[0m             [1;33m▄▀ ▀▄[0m             [1;30m░█░░▓█[0m
 [1;30m    █▓▒░[0m                 [1;30m░▒▓█[0m        [1;30m█▓▒░ ▀▄[0m            [1;33m▀▄ ▄▀[0m            [1;30m▄▀ ░▒▓█[0m
-[1;30m▓▒░[0m               [1;30m░▒▓█[0m         [1;30m▀█▓▒░  ▀▄[0m        [1;33m▀▀▀▀█▀▀▀▀[0m        [1;30m▄▀  ░▒▓█▀[0m     [1;30m▀[0m
-[1;30m█░    ▀▄[0m         [30;47m▀[0m█[30;47m▀[0m         [1;30m▄▀    ░█▀[0m
+     [1;30m█▓▒░[0m               [1;30m░▒▓█[0m         [1;30m▀█▓▒░  ▀▄[0m        [1;33m▀▀▀▀█▀▀▀▀[0m        [1;30m▄▀  ░▒▓█▀[0m
+                                       [1;30m▀█░    ▀▄[0m         [30;47m▀[0m█[30;47m▀[0m         [1;30m▄▀    ░█▀[0m
                                         [1;30m█▀▄[0m     [1;30m▀▄▄    [0m▄█[30;47m▀[0;1;33;47m▀[0;30;47m▀[0m█▄    [1;30m▄▄▀[0m     [1;30m▄▀█[0m
                                          [1;30m▀▄▀▄[0m      [1;30m▀█▀▀[0m██[30;47m▀[0;1;33;47m▀[0;30;47m▀[0m██[1;30m▀▀█▀[0m      [1;30m▄▀▄▀[0m
 
 [1;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 ██████████[47m                [0;30;47mThe Order of the Black Robe[0m███████████████████████████
 [1;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
+
 
                 [36mF[0;1;36mi[0;1mnd [0;36mR[0;1;36me[0;1mfu[0;1;36mg[0;36me w[0;1;36mi[0;1mth[0;1;36mi[0;36mn T[0;1;36mh[0;1myse[0;1;36ml[0;36mf, f[0;1;36mo[0;1mrg[0;1;36me[0;36mt t[0;1;36mh[0;1my [0;36mw[0;1;36mo[0;1mrld[0;1;36ml[0;36my[0m
                    [36md[0;1;36me[0;1msir[0;1;36me[0;36ms a[0;1;36mn[0;1md [0;36mc[0;1;36mo[0;1mme [0;36mw[0;1;36mi[0;1mth [0;36mm[0;1;36me [0;36mi[0;1;36mn[0;1mto [0;36mE[0;1;36mt[0;1merni[0;1;36mt[0;36my,[0m

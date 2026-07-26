@@ -42,8 +42,8 @@ Write-Host '
 
 [37m---[0m
 [37mthis is one of my first picks. so now you know the reason why it sucks :)[0m
-[37mgreets to antik, mankind & funk-e. contact me at photek@speedrulz.com    -phote [0m
-[37m    [0m
+[37mgreets to antik, mankind & funk-e. contact me at photek@speedrulz.com    -photek[0m
+                                                                    [37m     [0m
 
 
                                                           [37m [0m'

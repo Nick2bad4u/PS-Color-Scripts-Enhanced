@@ -6,14 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-ENIGM.ANS by Technophreak (blde9407); released in blde9407 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 92-139
+# Lines: 99-143
 # Columns: 1-80
 
 Write-Host '
-                                                      [35m░  ░[0;1;37;46m▒▓[0;1;37;47m▄[0;1;30;47m░▒▓[0;1;30;40m▄▄▄[0m
-                                                       [35m░   [0;1;37m▀[0;1;37;46m▒▒▓▓[0;1;37;40m▄▄▄[0;1;30;40m▀▀■[0m
-                                                              [1;37;40m▀▀[0;1;37;46m▓▓▓[0;1;37;40m█████▄▄▄▄▄▄[0m
-                                                                  [1;37;40m▀▀▀▀███████▀▀▀[0m
 ▀■ [1;30mT[0mP''[1;30ms G[0mr[1me[0met[1;30mz: ■▀[0m
 [1;30mM[0min[1mdCrime: Shit, we are havin fun now![0m
 [1;30mS[0mou[1ml Seeker: Killer ANSi''s...[0m

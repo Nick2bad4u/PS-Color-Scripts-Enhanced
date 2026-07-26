@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mp-july.ans by Meatpod (mimic25); released in mimic25 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-35
+# Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
                            [31m   [0;33m`[0;31m   [0;33m .. -*┘`[0m
 
 [37m[July 15th]-[for: Jeff, Julian, Justin, others]--------- - - - -- fuck you -----[0m
+
 [37mHappy birthday, cancers![0m
 [37mHappy anniversary, Mimic![0m
 [37mI love [0;1;37m18[0m-year-old Jeffrey Fourrier.

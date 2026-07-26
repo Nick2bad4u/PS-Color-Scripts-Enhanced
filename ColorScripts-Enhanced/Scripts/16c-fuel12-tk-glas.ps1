@@ -11,7 +11,7 @@
 # SAUCE Group: Fuel Productions
 # SAUCE Date: 19970401
 # SAUCE Dimensions: 80x25
-# Lines: 1-29
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ Write-Host '
 [1;30m  ░░▀▀▀▀███▓█▀▓█▄█████▒▐██▌█████████▓███████▄▄[0m [32m▀░[0;37m  [0;1;30mtk(fuel)[0m [1;31m  [0;33m ▀▀[0;1;31m [0;33m▄[0;1;31;43m  ░▒▒▒▓▓[0;1;31;40m████[0m
 
 [1;35m:::::::  :::: : : ►[0;30;45m►↑ cut there ↑[0;35;40m►[0;1;35;40m► ::::::  :::: :::::::::::::::: :: :::::::::::[0m
+
  ah, i tried some different shadings on this one, coz everybody kept bitching
  i was drawing oldschool.. bah, i don''t give a fuck whatschool i draw, i like
  the result of this one. by the way, don''t use  this on your board,  it''s for

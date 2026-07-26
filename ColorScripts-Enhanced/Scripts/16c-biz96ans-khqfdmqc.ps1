@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KHQFDMQC.ANS by Tk (biz96ans); released in biz96ans and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
+# Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
@@ -33,5 +33,4 @@ Write-Host '
 [37m  [0;1;30m▀▀▀[0m [1;30m      ▀▀▀[0m           [1;30m▀▄▄[0;1;32;47m▄[0;1;30;40m▄▄▀[0m  [1;30m [[0mNode [1m1[0;1;30m][0m [1;30m[[0;1;37m++41[0;1;30m-[0;1;37m22[0;1;30m-[0;1;37m9600621 [0mUSR V.34+ 33k6[1;30m][0m
 4 GB HD! [1;30mφ [0mQIC-80 [1;30mφ [0mDAT 4 GB [32m█[0m      [1;30m[[0mNode [1m2[0;1;30m][0m [1;30m[[0;1;37m++41[0;1;30m-[0;1;37m22[0;1;30m-[0;1;37m9600622 [0mUSR V.34+ 33k6[1;30m][0m
 PCBoard 15.21 [1;30mφ[0m Swiss Finest [32m▓[0m      [1;30m[[0mNode [1m3[0;1;30m][0m [1;30m[[0;1;37m++41[0;1;30m-[0;1;37m22[0;1;30m-[0;1;37m9600623 [0mZyX X.75  64kb[1;30m][0m
-Support for Quality HQ/Sites [32m▄[0m
-→[0m'
+Support for Quality HQ/Sites [32m▄[0m'

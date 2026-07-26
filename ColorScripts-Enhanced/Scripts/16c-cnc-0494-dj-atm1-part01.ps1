@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DJ-ATM1.ANS by Dr Jekyll (cnc-0494); released in cnc-0494 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
+# Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
@@ -58,5 +58,4 @@ Write-Host '
                                                         [31m▄ ▄▄▄▄▄███████████▀[0m
                                                          [31m▀▀▀▀▀▀    ▀▀▀▀▀▀█[0m
                                                           [1mPRODUCTION [0;31m█[0m
-
 '

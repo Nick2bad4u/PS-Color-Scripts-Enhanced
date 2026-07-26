@@ -11,11 +11,12 @@
 # SAUCE Group: impact
 # SAUCE Date: 19970421
 # SAUCE Dimensions: 80x19
-# Lines: 1-18
+# Lines: 1-19
 # Columns: 1-80
 
 Write-Host '
-                                                 ▄▄█▄██[1;30;47m([0;1;37;47mauthwhore[0;1;30;47m)[0;30;47m:[0;37;40m► twisted fo▀[0m
+                                                 ▄▄█▄██[1;30;47m([0;1;37;47mauthwhore[0;1;30;47m)[0;30;47m:[0;37;40m► twisted foo[0m
+                                                   [37;40m▒[0m        [37;40m▀[0m
 
 
 

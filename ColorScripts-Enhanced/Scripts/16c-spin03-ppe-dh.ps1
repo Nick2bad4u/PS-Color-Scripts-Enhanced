@@ -10,11 +10,12 @@
 # SAUCE Group: spin
 # SAUCE Date: 19981012
 # SAUCE Dimensions: 80x28
-# Lines: 1-27
+# Lines: 1-28
 # Columns: 1-80
 
 Write-Host '
                                                                        (ppe)spin
+
 
  [31m [0m                           [1;30m■[0m [1;30m■■[0m
 [31m [0m           [1;30m░░[0m
@@ -37,7 +38,7 @@ Write-Host '
                 [1;30m░░[0m
 
 
-[1;31m....________________________________________________________________________...T[0m
-[1;31mhis is a new scewl a did to zulles board Devils Hall...[0m
+[1;31m....________________________________________________________________________....[0m
+             [1;31mThis is a new scewl a did to zulles board Devils Hall...[0m
              [1;31mI understand if he dont want it ;) .. It is a fuckin [0m
              [1;31mfrog in the background :)..   │_8ter![0m'

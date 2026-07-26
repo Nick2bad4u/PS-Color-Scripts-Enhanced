@@ -11,7 +11,7 @@
 # SAUCE Group: fuel productions
 # SAUCE Date: 19970714
 # SAUCE Dimensions: 80x25
-# Lines: 1-23
+# Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
@@ -37,4 +37,5 @@ Write-Host '
  p[1mushing[0m m[1me[0m a[1mlittle[0m i[1mnto[0m t[1mhis[0m a[1mnsi[0m a[1mnimation[0m t[1mhingy..[0m i[1mt''s[0m p[1mretty[0m p[1mhun.[0m [1m;)[0m
 
                   [1;30m░░[0m                                        L[1mATER[0m a[1mll.[0m
-'
+
+[31m▀[0m'

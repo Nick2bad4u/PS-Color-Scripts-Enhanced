@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REP-GRD.ANS by Reptical (karma-06); released in karma-06 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
 
 
 >>> [1;32mgradius[0m --- [1;32mfor konami[0m ----[1;32m  [0m---[1;32m   [0m  [1;32m [0m-·[1;32m                                    [0m
+
 hi, this ascii was made for konami''s Gradius , it was a trade , he made me
 something for Dust , and i this. hope you like it.. thanks, bye.
 ** i might try and re-do some of the parts in the ascii, maybe.

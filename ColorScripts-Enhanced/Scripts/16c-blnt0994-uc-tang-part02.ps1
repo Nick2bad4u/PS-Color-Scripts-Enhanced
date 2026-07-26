@@ -6,11 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UC-TANG.ANS by Unknown Comic (blnt0994); released in blnt0994 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 44-88
+# Lines: 45-88
 # Columns: 1-80
 
 Write-Host '
-[1;30;40m [0;1;30;44m▓[0m [1;30;40m████████[0m     [1;30;40m▄[0m                                            [1;30;40m▀[0m          [1;30;40m█  █▌[0m
 [1;30;40m▐[0;1;30;44m▓[0;1;30;40m█████▀██▌   ▄█[0m         [1;30;40m▄[0m                                       [1;30;40m▀▄[0m     [1;30;40m▌█ ▌█[0m
 [1;30;40m▐▐█▐███▐██   ██[0m        [1;30;40m▄[0m                                    [1;30;40m▀▄[0m      [1;30;40m▄   █▐▐  █[0m
 [1;30;40m█[0;1;30;44m▓▓[0;1;30;40m██[0;1;30;44m▓[0;1;30;40m████  ██▌[0m      [1;30;40m▄▀[0m                                       [1;30;40m█▄▀    █   █▌   █[0m

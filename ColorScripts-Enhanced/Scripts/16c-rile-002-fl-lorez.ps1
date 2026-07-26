@@ -11,7 +11,7 @@
 # SAUCE Group: RILE
 # SAUCE Date: 19970217
 # SAUCE Dimensions: 80x25
-# Lines: 1-31
+# Lines: 1-32
 # Columns: 1-80
 
 Write-Host '
@@ -43,6 +43,7 @@ Write-Host '
 [35m ▐[0;1;31;45m▀[0;1;37;41m░[0;1;31;40m▄▄▄[0;35m▄[0m        [35m▀▀▀ ▀[0;1;31m▀▀▀[0;35m▀▀░[0m     [35m░▀▀▀   [0;31m░█▓▓░ [0;1;31;45m▐[0;1;37;41m░[0;1;31;45m▄[0;35m▄[0;31m░░ [0;35m▄[0;1;31;45m▄[0;35m▄   [0;30;41m▓[0;31;40m░░░ [0;35;40m▄▄[0;1;31;45m▄[0;1;31;40m▌ ▀[0;1;37;41m░[0;1;31;40m▄[0;35m▀[0m     [35m▀▀[0m
 [35m   ▀[0;1;31m▀[0;35m▀[0m                                  [31m░   [0;35m░█[0;1;31;45m▀[0;35m▀[0m
 [31m:::::[0;1;36mLOWREZ[0;31m::::::::: [0;36mlo-rez, it''s better than breakfast! [0;31m:::::: :: :  :  :[0m     [31m:[0m
+
 [33mhey.  made in thedraw!  talk about your lo-fi craziness..[0m
 
 [36m"[0;34mit''s so lo-rez, it looks fuzzy@![0;36m"[0m'

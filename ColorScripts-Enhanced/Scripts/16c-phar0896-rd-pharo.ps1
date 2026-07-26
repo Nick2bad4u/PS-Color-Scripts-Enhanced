@@ -11,7 +11,7 @@
 # SAUCE Group: PHaR
 # SAUCE Date: 19960727
 # SAUCE Dimensions: 80x47
-# Lines: 1-46
+# Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
@@ -54,6 +54,7 @@ Write-Host '
  Like pharout, mang! Outta sight! Can I be 3l33t now? Yeah.. whatever. Fuck you.
 --------------------------------------------------------------------------------
 ----------------------------------------------------------------------[EoF]-----
+
 
                   [1m  [0m                [1m [0m
                   [1m  [0m                [1m [0m

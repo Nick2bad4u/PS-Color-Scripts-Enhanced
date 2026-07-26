@@ -11,7 +11,7 @@
 # SAUCE Group: SeNSE
 # SAUCE Date: 19980618
 # SAUCE Dimensions: 80x27
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -35,6 +35,7 @@ Write-Host '
 [34m:[0;37m  [0m    [35m·∙[0;1;35mC[0;35m>[0;37m [0;1;30moptions...[0m         [35m·∙[0;1;35mG[0;35m>[0;37m [0;1;30moptions...[0m         [35m·∙[0;1;35mK[0;35m>[0;37m [0;1;30moptions...[0m         [34m:[0m
 [34ml[0;37m  [0m    [35m·∙[0;1;35mD[0;35m>[0;37m [0;1;30moptions...[0m         [35m·∙[0;1;35mH[0;35m>[0;37m [0;1;30moptions...[0m         [35m·∙[0;1;35mL[0;35m>[0;37m [0;1;30moptions...[0m         [1;34ml[0m
 [34m└─-─-────-──────────---────-────-─[0;1;34m─[0;34m─────────-[0;1;34m─[0;34m─-─-──[0;1;34m─[0;34m─-──[0;1;34m─-───-[0;34m──[0;1;34m─-[0;34m──────--[0;1;34m─[0;34m─[0;1;34m─[0;34m-┘[0m
+
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
 [1;30mCool font but I got lazy on the background.  Mainly because it couldn''t be[0m
 [1;30mlonger than 20 lines, and if I had done a better background, there would hardly[0m

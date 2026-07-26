@@ -33,7 +33,7 @@ Write-Host '
 
 ------[1;30m[[0;34msMAcK[0;1;30m][0m----------------------------------------------------------------
    [1;30m   [0m
-   [1;30mahhh...shit is that crappy oh well i forgot to draw here is a quicky before t[0m
-[1;30mhe pack goes out =)[0m
+   [1;30mahhh...shit is that crappy oh well i forgot to draw here is a quicky before  [0m
+   [1;30mthe pack goes out =)[0m
 
        [1;30ms9[0mU[1m1[0mB[1;30mBy[0m[[36mT[0;1;36mw[0;36mAT[0;1;30m?![0m][0m'

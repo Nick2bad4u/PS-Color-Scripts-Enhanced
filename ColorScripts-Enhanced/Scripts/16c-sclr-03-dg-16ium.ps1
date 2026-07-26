@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DG-16IUM.ANS by Digi (sclr-03); released in sclr-03 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
+# Lines: 1-41
 # Columns: 1-80
 
 Write-Host '
@@ -49,4 +49,5 @@ Write-Host '
             [1;37m`` ''/[0m         [1;35m.[0;1;34m`/┐,._ [0;34m_ .┌[0;1;34m\''[0m                     [1;37m`[0m
                  [1;37m''[0m       [1;35m,iy┐.[0;1;34m`''²┘+└²''[0m
                        [1;35m:│☻☻☺[0;35m☺☺│☺☺b,[0m
-[35m  [0;1;30m.  D ...  [0mi [1;30m.. . [0;1;37;45mg[0m [1;30;40m. [0;1;35;40mi☻☻☺[0;35m☺☺☺☺☺☺☺Mi / ,_[0m      [1;37;45ms[0m  [45mi[0m [35;40mx [0;30;45mT[0m [35;40mE  [0;1;35;40mE [0;1;37;40mN [0;1;30;40m. [0mi u [1;30m. m .. ...[0;35m`[0m'
+[35m  [0;1;30m.  D ...  [0mi [1;30m.. . [0;1;37;45mg[0m [1;30;40m. [0;1;35;40mi☻☻☺[0;35m☺☺☺☺☺☺☺Mi / ,_[0m      [1;37;45ms[0m  [45mi[0m [35;40mx [0;30;45mT[0m [35;40mE  [0;1;35;40mE [0;1;37;40mN [0;1;30;40m. [0mi u [1;30m. m .. ...[0;1;5;30m_[0m
+                                           [35m`[0m'

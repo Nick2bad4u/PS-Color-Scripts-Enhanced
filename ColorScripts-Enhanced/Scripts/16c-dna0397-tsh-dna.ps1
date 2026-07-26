@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSH-DNA.ANS by The Shadow (dna0397); released in dna0397 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -19,6 +19,7 @@ A 100% made ansee by tHE sHADOW
 Requested by: Dryice^dNA
 ────────────────────────────────────────────────────────────────────────────────
 ──────────────────────────────────────────────[ CUT  CUT  CUT ]─────────────────
+
                                 [34m▄▄[0m
                             [34m▄▄█[0;1;34;44m▄[0;34m█▌[0m
                             [34m█[0;1;34m███[0;34m█[0m                   [37ma.[0m

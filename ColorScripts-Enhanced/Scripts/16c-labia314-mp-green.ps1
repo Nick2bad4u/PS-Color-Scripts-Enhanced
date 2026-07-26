@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mp-green.ans by Meatpod (labia314); released in labia314 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-37
+# Lines: 1-38
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
  [1;30mdark tonight.. . [0m                                              [32m`└*┐,.[0;37m [0;1;32m [0;32m`^└┴[0;1;32m$$$[0m
            [1;30m      [0m                                                   [32m `._[0;37m [0;32m     [0;1;32m [0m
 [cut here]-8X-------------------------------------------------------------------
+
 here ya go, haws... greensting all the way. I thought this one of the best
 logos I''ve ever drawn, but everyone I''ve talked to about it has given me
 lukewarm responses...

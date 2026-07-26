@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WE-FBAR.ANS by Enzo + Abstrakt (27inch04); released in 27inch04 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -35,4 +35,5 @@ Write-Host '
 [1;32m░[0m  [35m▀ [0;1;35;45m▀█[0;35m  [0;1;35;45m▄[0;1;35;47m▀[0;1;35;40m█▀[0;35m ▄[0;1;35;45m▄█[0;1;35;47m▀[0;1;35;45m█▀[0;35m▀[0;37m  [0;1;30m██[0m  [32m▀▄[0;33m ▌   ▀▀  [0;1;36ma[0;36mbs[0;1;36me[0;36m0[0;37m [0;1;30m [0;30;42m▒[0;37;40m [0;32;40m▄[0;1;30;40m  [0;32m▄▄[0;1;30m [0m    [33m   ·[0;37m    [0;32m▌[0;37m  [0;32m [0m        [32m░░░[0m
 [1;32m▒▒[0;32m [0;37m   [0;35m▀▄ ▀[0;1;35;45m▀[0;35m  █[0;1;35;45m█[0;1;35;47m ▄[0;1;35;40m▀[0m   [1;30m░▓▓[0m   [1;32;42m░[0;32m▌[0m      [32m▄[0;37m [0;32m▀[0m      [36m [0;32m▀▌▄[0;1;32;42m▄▒[0;32m▀[0;1;30m [0m         [1;30m    [0m [32m█ [0;1;32;42m▄[0;32m▄■[0m     [32m▄[0;1;32;42m░░[0;32m▓[0m
 [1;32;42m▓▓▄[0;32m▄[0;1;32;42m▄[0;1;32;40m▄[0;32m▄[0;37m   [0;35m ▀  ▀[0;1;35;45m▀[0;35m [0;37m   [0;1;30m░░░ [0m [1;32m░[0;1;32;42m░▒▓▄[0;1;32;40m▄▄[0;32m▄[0;37m [0;32m▀[0;1;32m▀[0m   [32m▄[0;37m [0;32m▄▄[0;1;32;42m▄▓▓█▀▀[0;32m▓▀[0;1;32;42m■[0;32m▄▄[0;1;32m▒▒[0;32m▄▄ ░░░[0;37m  [0;32m▄▄[0;1;32m [0;1;32;42m▄███▄[0;32m█▄▄▄[0;1;32;42m▄▓▓░[0m
+
 [31m■■■■■■■■■■■ ansi color madness experience by abstrakt and enzo.27" ■■■■■■■■■■■■■[0m'

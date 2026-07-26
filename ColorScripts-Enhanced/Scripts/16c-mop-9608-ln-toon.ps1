@@ -11,7 +11,7 @@
 # SAUCE Group: MOP
 # SAUCE Date: 19960810
 # SAUCE Dimensions: 80x29
-# Lines: 1-28
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -38,6 +38,7 @@ Write-Host '
 [31m▄▄[0;31;45m▓▓[0;31;40m████[0;31;45m██[0;31;40m███████████████████████▓▓▀▀[0;37;40m  [0;1;31;40m████▄[0;33m▄▄[0;1;31;43m░[0;1;31;40m██[0;1;31;43m███████[0;1;31;40m██████████████████████[0m
                                     [31m [0m
 [1;30m--------------------------------------------------------------------------------[0m
+
  [1;30mThis is for #graffiti ansi compo. wator ; you can do whatever you want with it,[0m
  [1;30mjust keep the Liithn thing somewere.[0m
  [1;30mI saw Akira (anime film) at my friend some days ago so i figured it could be[0m

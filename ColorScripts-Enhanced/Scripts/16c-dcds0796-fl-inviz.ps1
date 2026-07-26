@@ -41,8 +41,8 @@ Write-Host '
                            [35m    [0;31m▀▀▀▒[0;30;41m▒[0;31;40m▒[0;35;40m  [0m             [32;40m└ o2[0;1;36;40ms[0;36min[0;35m  [0;1;37m▐██[0;35m  [0;37m ▀▀[0;1;37m▀▀▀▀▀▀▀▀░░[0m
                                 [35m [0m     [35m  [0m
 [37m  .'' in case you''re wondering what these frames have to do with each other,[0m
-[37m     keep wondering.  if you ever find out, i''d like to know too. thanks..! `. [0;30;41m [0m
-[1;37;41m*s[0;1;33;41mi[0;33;41mg[0;37;40mh[0;30;41m*..░▒[0;31;40m░░[0m
+[37m     keep wondering.  if you ever find out, i''d like to know too. thanks..! `.  [0m
+         [30;41m [0;1;37;41m*s[0;1;33;41mi[0;33;41mg[0;37;40mh[0;30;41m*..░▒[0;31;40m░░[0m
 
      [1;30;40moh, and don''t request ansi''s from me.  i have no time for requests now..[0m
 [1;30m  sorry... but that''s the way things go.  besides, why would you want an ansi[0m

@@ -6,10 +6,21 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FD-PUP.ICE by Final Descendant (ice-9403); released in ice-9403 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 51-69
+# Lines: 42-70
 # Columns: 1-80
 
 Write-Host '
+      [1;31m▄▄▄▄▄▄▄▄▄[0m      [1;31m▄▄[0m                                    [1;31m▄████▄▄[0m
+[1;31m   ▄████[0m     [1;31m▀██▄    █████[0m           [1;31m▄▀▀▄▄▄[0m              [1;31m▄████████▀▀ ▄▄██[0;1;31;41m▓▓▒░ [0m
+[1;31;40m    ████[0m      [1;31;41m▓▓▓[0m    [1;31;40m████   ▄██[0;1;31;41m▓[0;31m▄   [0;1;31m█    ▀██▄    ▄▄▄   ▄█▀▀▀▀▀[0m     [1;31m▄▀    [0;31m▀▀[0;1;31;41m░ [0m
+     [1;31;40m███▌[0;31m▀▄▄▄[0;1;31;41m░▒▒[0;1;31;40m▀    ███  ▄█▀▀▀[0;1;31;41m▓▒▒[0m [1;31;40m▐▌[0m     [1;31;40m███▌  [0;31m█[0;1;31;41m░▒▓[0;1;31;40m█  █[0m           [1;31;40m▀▄[0m
+      [1;31;40m█[0;1;31;41m▓▓[0m   [31m▀▀▀[0m     [1;31m▐[0;1;31;41m▓[0;1;31;40m█  ▀█[0m     [1;31;41m░[0;31m▀ [0;1;31;41m▓[0;1;31;40m▌[0;31m▀▄▄▄[0;1;31;41m▒▓▓[0;1;31;40m█    [0;31m▀▀▀   [0;1;31m▐[0;1;31;41m▓[0m [31m▀[0;1;31m▀▀[0m        [1;31m▀[0;31m▀▄▄▄[0m
+       [1;31;41m▓▒[0;1;31;40m▌[0m     [1;31;41m░[0m    [1;31;40m▐[0;1;31;41m▓[0m    [1;31;41m▓[0m [31m▀▄▄▀  ▐[0;1;31;41m▒[0;31m▌  ▀[0;1;31;41m░▒▓[0;1;31;40m▀[0m      [1;31;40m█[0m     [1;31;41m▓▒[0m      [1;31;40m▄█▄[0m     [31m▀▀[0;1;31;41m░░[0;1;31;40m▄[0m
+        [1;31;41m▒░[0m     [31m▐▌   [0;1;31;41m▒[0;1;31;40m▌    [0;1;31;41m▓[0;31m▌[0m     [31m▄[0;1;31;41m░░[0;31m▌[0m            [1;31;41m▒▓[0m     [1;31;41m▒░ [0m [31m▄▄[0;1;31;41m░▒▓[0;1;31;40m▀▀▀▄[0m      [1;31;41m▒▒▒[0m
+         [1;31;41m░[0;31m▌[0m     [31m▀▄▄[0;1;31;41m░[0;31m▀[0m     [1;31;41m▒░[0;31m▄[0m     [31m▀[0;31;41m [0;31;40m▌[0m          [31;40m▄[0;31;41m [0;1;31;41m░▒[0m      [31m▀[0m           [1;31m▀▄  ▄[0;1;31;41m▓▓▒[0;1;31;40m▌[0m
+          [1;31;41m [0m               [1;31;41m░[0;31m▀[0m        [31m▀[0m            [31m▀▀[0m                    [1;31m▀███[0;1;31;41m▓▓[0m
+[1;31;40m    [0;1;30;40m▄▄[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▄▄ [0;1;31m▀█▀[0m
+
 [1;31m    [0;1;30mOf[0mfi[1mcial iCE Member B[0moa[1;30mrd[0m                   [1;30mSy[0mso[1mp - Final Descendant [[0miC[1;30mE][0m
 [1;30m    Of[0mfi[1mcial Reflections Found[0mer [1;30mHQ[0m                  [1;30mCo[0mSy[1msops - Final Eter[0mni[1;30mty[0m
 [1;30m    Of[0mfi[1mcial Primus Support [0mSi[1;30mte[0m                            [1;30mSt[0mor[1mm Lord [UN[0miT[1;30mY][0m

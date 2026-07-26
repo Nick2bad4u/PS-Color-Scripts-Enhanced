@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-POD6.ANS by Boba Fett (rca16-a); released in rca16-a and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
+# Lines: 1-35
 # Columns: 1-80
 
 Write-Host '
@@ -35,6 +35,7 @@ Write-Host '
 [1;34m████████[0;1;34;44m▀[0;1;34;40m▀[0;1;34;44m░[0;34m▀▄[0;1;34;44m░▄[0;1;34;40m█[0;1;34;44m▓[0;1;34;40m██[0;1;34;44m▄[0;34m▄[0;37m [0;33m▀▀[0;1;31;43m▀▀██▀▀▀▀▀[0;33m▀▀▀[0;37m [0;33m▄▄▄[0;1;31;43m░▄▄█████[0;1;33;41m▓▓░[0m                      [1m▄▄[0;1;33m██[0;1;37m█▄[0m
 [1;34;44m▀[0;1;34;40m▀▀▀[0;34m▀▄▄[0;1;34m▄▄[0;1;34;44m▄▓██▓██▀░▀███▄[0;1;34;40m▄[0;34m▄[0;37m [0;33m▀▀▀[0;37m [0;33m▄▄▄[0;1;31;43m░▒▄▄▄█▓▓█████[0;1;33;41m▓▓█[0;1;37;41m█[0;1;33;41m▓░[0m [31mbobafett! ([0;1;31mrCa[0;31m)[0m      [1;37m▓▀▀[0m
 -(cut)--------------------------------------------------------------------------
+
 [1mOH MY GOD!  ITS SIGOURNEY WEAVER![0m  [1mJust kidding...  Here I am back in rCa after[0m
 [1ma bit of flitting around...  I''d like to thank Starlord and Kitiara [0;1;33mALOT[0;1;37m for[0m
 [1mletting me come back home again and be ansi head.  [0m

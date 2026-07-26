@@ -11,7 +11,7 @@
 # SAUCE Group: fluid
 # SAUCE Date: 19961023
 # SAUCE Dimensions: 80x49
-# Lines: 1-48
+# Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ This was an logo i did for the great ascii artist purify(pagan), He liked it and
 then did an anscii version of it. It can be viewed below this text.
                                                 / pharcyde <fluid>
 --------------------------------------------------------------------------------
+
                                                            [1;30m:[0m  [1;30m.[0m
                   [1;30m-[0m     [1;30m-ph<fluid> --- -- -─[0m  [1;30m──[0m [1;30m─────────────[0;1;30;47m$[0;1;30;40m`[0m
            [34m  [0;37m [0;34m░[0;30;44m▓[0;34;40mg$gggggggggggg[0;1;34;40mg[0;34mg[0;1;34;44m$[0;34mgggg[0;1;34mg[0;34mg[0;1;34mgg[0;34mg[0;1;34mgg$gg[0;1;33m,g$g[0mgs[1;33mg$[0m$$[1;33m$[0m$[1m$[0m  [1;30m$[0m

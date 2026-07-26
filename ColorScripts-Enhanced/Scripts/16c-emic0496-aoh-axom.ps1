@@ -23,8 +23,8 @@ Write-Host '
                   [35m`$[0;1;36m$$[0;35m$ $ ''$$'' `[0;1;31m$$$ [0;35m`[0;1;31m$[0;35m$$$   $$$[0;1;36m$ [0;35m$$   $[0;1;31m$$$[0;35m$[0m
                    [1;36m`$$[0;35m$ $ $$''    [0;1;31m`$$ [0;35m$$$$   `$[0;1;36m$$ [0;35m$$$ ,$$$$$[0m
                     [35m²''  $ $$ [0;36maoh  [0;35m$$ $$$$   $[0;1;36m$$'' [0;35m²²''  `²²²''[0m
-[35m [0;31mmmmmmmmmmmmmmmmmmmmmmm [0;35m$,`², [0;31mmmm [0;35m`$ $$$$ s$² [0;31mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm[0;35m$[0m
-[35m ²$$''[0m
+[35m [0;31mmmmmmmmmmmmmmmmmmmmmmm [0;35m$,`², [0;31mmmm [0;35m`$ $$$$ s$² [0;31mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm[0m
+                                   [35m$ ²$$''[0m
 
 
 

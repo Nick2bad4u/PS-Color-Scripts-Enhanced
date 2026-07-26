@@ -10,7 +10,7 @@
 # SAUCE Author: gunthar
 # SAUCE Group: rune
 # SAUCE Date: 19960201
-# Lines: 1-42
+# Lines: 1-39
 # Columns: 1-80
 
 Write-Host '
@@ -52,7 +52,4 @@ Write-Host '
                 ..this system is affiliated with [1mrUne [0mstudios..
                             ..(i)star .. world hq..
 [1;30m---[cUt!]-------------------------------------------------------------[cUt!]---[0m
-           [1;30mchange ''..(i)star .. world hq..'' to your bbs name n affil[0m
-
-→SAUCE00rune two                           gunthar             rune
-   19951224Φ[0m'
+           [1;30mchange ''..(i)star .. world hq..'' to your bbs name n affil[0m'

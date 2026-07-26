@@ -11,7 +11,7 @@
 # SAUCE Group: Dead Krew!
 # SAUCE Date: 19970408
 # SAUCE Dimensions: 80x19
-# Lines: 1-18
+# Lines: 1-19
 # Columns: 1-80
 
 Write-Host '
@@ -31,4 +31,5 @@ Write-Host '
 [1;30;40m [0m
 [1;30m─-─--──--──--──--──--──--──--──--──[cut]-──--──--──--──--──--──--──--──--──--─--[0m
 [1;30mWOW! finaly an ansi that ex-con does[0m [1;30mhimself without having lancelot shading it.[0m
+
 [1;30mI know[0m [1;30mit''s not the best but well, hey I''m a NEWBIE (DOES IT SHOW)!![0m'

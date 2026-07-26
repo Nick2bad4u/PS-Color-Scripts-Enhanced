@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LA-COLBX.ANS by Liquid Acid (allnc-01); released in allnc-01 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
+# Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
@@ -26,7 +26,8 @@ Write-Host '
 [32m▐▓█▓▀▀▀▀▀▒▒░░░[0m                       [34m██▓▀▀▀▓▒▒[0m       [1;30m▐▌█    [0;34mLiquid Acid...[0m
 [34m [0;32m█▓█[0;35m██[0;35;45mCOJ██ COJJ███[0m              [35;45mCOJ█[0;34;45m█[0;34;40m▓█[0;35;40m███ [0;34;40m▒░▒[0m       [1;30;40m█▌[0m
 [1;30;40m  [0;32;42mLA█[0;35;42m█[0;35;40m▓▓▓▓█▓▓▓█▓██[0m              [35;40m██▓▓[0;34;40m▒▒▒[0;35;40m▓▓▓██[0;34;40m░░░[0m      [1;30;40m▐▌█[0;34mOK...[0m
-[34m [0;32m░[0;35m███▓[0;32m▓▓▓[0;35m░▒▓█▓██[0;32m░░[0m            [35m██▓█▓██[0;34m░░ [0;35m██▓▓██[0m       [1;30m▐▌█[0;34mso I would appreciatensi[0m
+[34m  [0;35m██[0;32m█▓█[0;35m▒▒▒▒▒▓▓▓██[0;32m░[0m             [35m██▓▓▓[0;34m░▒░[0;35m██▓▓██[0;34m░[0m        [1;30m█▌   [0;34mThis is my first ansi[0m
+[34m [0;32m░[0;35m███▓[0;32m▓▓▓[0;35m░▒▓█▓██[0;32m░░[0m            [35m██▓█▓██[0;34m░░ [0;35m██▓▓██[0m       [1;30m▐▌█[0;34mso I would appreciate[0m
 [32m░░[0;35m██▓▓▓▒[0;32m▒▒▒[0;35m▓▓██  [0;32m░▒[0m          [35m██▓▓▓▓█  [0;34m░░ [0;35m█▓█▓██  [0;34m░░   [0;1;30m█▌[0;34many complements,[0m
 [34m [0;32m▒▒[0;35m█▓█▓░ ░[0;32m░▒░[0;35m█    [0;32m▒▒[0;35m▄▄    [0;34m░░[0;35m██▓▒░▒▓█[0;35;45mCOJ█[0;35;40m▓██▒░▓██[0;34;40m░░▒░ [0;1;30;40m▐▌█[0;34mcontributions, credit[0m
 [34m  [0;32m▓▒▓[0;35m▓▒░░▓▓█[0;32m░░░ [0;35m▄▄█[0;32m▓▒▓   [0;34m░░[0;35m██▓█░ ░█▓█[0;35;45mCOJ█[0;35;40m▓█░ ▒▓██  [0;34;40m▒▒ [0;1;30;40m█▌[0;34mcard numbers, or[0m
@@ -36,17 +37,14 @@ Write-Host '
 [34m  [0;35;45mCoJ████[0;32;40m▓▒▓[0;35;40m██[0;35;45mCOJ█████[0;35;40m ██[0;35;45mCOJ██[0;34;45m███[0;35;45m█[0;34;40m▓▒▓▒   ▒▒[0;35;45mCOJ[0;34;45m███[0;35;45mCOJ█[0;35;40m [0;1;30;40m█▌[0;34mhehe.. perhaps not.[0m
           [32m▒▒▒▄▄░░░[0m              [34m▀▓▓▓▓[0m      [34m▓▓▓██▀    [0;1;30m▐▌█[0m
             [32m▒▒▒▒[0m                            [34m▀▀[0m        [1;30m█▌[0m
-[1;30m▀█▄█▀█▄█▀█▄█▀█▄█▀█▄██▀█▄█▀█▄█▀█▄█▀█▄█▀█▄█▀█▄█▀█▄█▀█▄█▀▀ [0;31mView in VGA mode[0;1;30m▀█▄█▀█▄█[0m
+[1;30m ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄▐▌█ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄[0m
+[1;30m▀█▄█▀█▄█▀█▄█▀█▄█▀█▄██▀█▄█▀█▄█▀█▄█▀█▄█▀█▄█▀█▄█▀█▄█▀█▄█▀█▀▀█▄█▀█▄█▀█▄█▀█▄█▀█▄█▀█▄█[0m
+                                                      [1;30m▀ [0;31mView in VGA mode[0m
 [31m   [0;35m│[0m                                                  [1;30;47m▀[0m
 [1;30;40m   [0;1;35;40m│[0m                                                  ▄▄ ▄[1m▄▄  ▄    ▄[0m      [1m▄[0m
 [35m──[0;1;35m─[0;1;37m┼[0;1;35m─[0;35m── 100% Orginal[0m
 [35m▄▄ [0;1;35m│ [0;35m▄▄ ▄[0;1;35m▄  ▄▄[0;1;37m▄  ▄▄  ▄    ▄[0m        [1;37m▄[0m
 [1;37m   [0;35m│[0m
-
-
-
-
-
 
 
 

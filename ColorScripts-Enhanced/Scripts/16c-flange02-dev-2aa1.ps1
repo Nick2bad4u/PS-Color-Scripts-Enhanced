@@ -45,9 +45,9 @@ Write-Host '
 [1;30m│[0m                   [33m$[0;1;31m$$[0;33m`[0m                                                       [1;30m│[0m
 [1;30m│[0m                   [33m`[0;1;31m$`[0m                                                        [1;30m [0m
 [1;30m┴──── ─ ─ [0m [1;30m─[0m [1;30m─[0m       [1;31m`[0m                                                         [1;30m│[0m
-[1;30mWell there you go people. [0m                                                     [1;30mH[0m
-[1;30mere is a pic which means nothing but is simply[0m [1;30minteresting to look at. [0m  [1;30m│[0m     [1;30mI[0m
-[1;30mt wasn''t requested. [0m     [1;30mIt wasn''t for a bbs. [0m      [1;30mIts art![0m     [1;30m│[0m [1;30mCommon you ar[0m
-[1;30mt people![0m                                                        [1;30m│[0m             [1;30mL[0m
-[1;30mets see some more weird/abstract/normal art for no reason.│[0m                    [1;30m─[0m
- [1;30m─[0m [1;30m─[0m [1;30m──────┘[0m'
+[1;30mWell there you go people. [0m                                                     [1;30m│[0m
+     [1;30mHere is a pic which means nothing but is simply[0m [1;30minteresting to look at. [0m  [1;30m│[0m
+             [1;30mIt wasn''t requested. [0m     [1;30mIt wasn''t for a bbs. [0m      [1;30mIts art![0m     [1;30m│[0m
+ [1;30mCommon you art people![0m                                                        [1;30m│[0m
+                    [1;30mLets see some more weird/abstract/normal art for no reason.│[0m
+                                                                   [1;30m─[0m [1;30m─[0m [1;30m─[0m [1;30m──────┘[0m'

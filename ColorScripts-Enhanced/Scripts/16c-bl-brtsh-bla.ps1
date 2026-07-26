@@ -11,7 +11,7 @@
 # SAUCE Group: awe
 # SAUCE Date: 19970524
 # SAUCE Dimensions: 80x50
-# Lines: 1-49
+# Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
 
 
                                                                            [30;42mpgdn↓[0m
+
 
 
 

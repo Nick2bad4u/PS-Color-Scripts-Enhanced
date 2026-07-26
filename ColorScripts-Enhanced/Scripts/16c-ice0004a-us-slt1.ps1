@@ -34,6 +34,6 @@ Write-Host '
     [33m ▀▀▀[0;1;33;43m░[0;33m▄▄[0;37m [0;33m▀[0m   [1;30m▀[0m [33m   ▀▀▀▄▄[0;37m  [0;33m▀▀▄[0m   [33m ▀[0;37m ▄▄▀▀  [0;33m▀ ▄[0;1;33;43m░[0;33m▀▀[0;1;30m ▄[0m [1;30m▀[0m    [1;30m▄▀[0m   [33m▄▀▀ ▄▄[0;1;33m▒[0;33m▀▀▀ [0m    [1;30m▀[0m
           [33m▀▀▄[0m         [33m [0m   [33m▀▄[0;37m  [0;33m ▄[0;37m  [0;1;30m▀▀[0m       [33m ▀[0m           [1;30;47m▓[0;1;30;40m▌[0m   [33m▄[0;37m  [0;33m▄▀▀[0m       [37m    [0m
             [33m▐[0;1;33;43m░[0m             [33m ▄[0;37m [0;33m [0m           [33m ▀[0m             [1;30m▀[0m [1;30m▄[0m   [1;33;43m░[0;33m▌[0m
-          [33m▄[0;37m [0;33m▀[0m                                                   [33m▀[0;1;30m              o[0m
-[1;30mriginal outline by The Night Angel [0m                                       [1;30mof Icr[0m
-[1;30memixing, shading and backgroun[0m               [1;30md by Mr.Wrong of The Used Coalition[0m'
+          [33m▄[0;37m [0;33m▀[0m                                                   [33m▀[0;1;30m               [0m
+                                      [1;30moriginal outline by The Night Angel of Ice[0m
+              [1;30mremixing, shading and background by Mr.Wrong of The Used Coalition[0m'

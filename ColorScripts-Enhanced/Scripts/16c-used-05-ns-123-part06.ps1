@@ -11,7 +11,7 @@
 # SAUCE Group: used coalition
 # SAUCE Date: 20000604
 # SAUCE Dimensions: 80x285
-# Lines: 247-284
+# Lines: 247-285
 # Columns: 1-80
 
 Write-Host '

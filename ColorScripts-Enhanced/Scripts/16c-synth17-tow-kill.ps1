@@ -11,7 +11,7 @@
 # SAUCE Group: Synthetic Org!
 # SAUCE Dimensions: 80x25
 # SAUCE Comments: Fuck comments bitch
-# Lines: 1-25
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -29,7 +29,9 @@ Write-Host '
  [1;30m$TOW[SF^SC]$$$$S#s╖,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S#s╖,$$$$$$$$$S#s╖,$$$$$[0m
 
  --------------------- Killer -- BBS -- +613-9853-1207 ------------------------
+
 ─────────[1;30m[[0;1;32mC[0;36mut[0;1;32m![0;1;30m][0m─────────────────────────────────────────────────────────────────
+
 [36mSmall Aski, thought i''d put it here anyway.. [0m
 [36mDid it for [0;1;36mBoogie Man[0;36m.. Yes!!!!!! thats the[0m                [1;30m!Sⁿ[0m[[1;32mT[0;1;30mha[0;1;32mh[0;1;36m^[0;1;32mS[0;1;30mea[0;1;32ml[0;1;36m^[0;1;32mO[0;1;30mf[0m][1;30mⁿS![0m
 [36msecond request this month! let the good times[0m              [1;30m$[0m [36mrip [0;37m [0;36mit[0;37m [0;36mand[0;37m [0;36m ill [0;1;30m$[0m

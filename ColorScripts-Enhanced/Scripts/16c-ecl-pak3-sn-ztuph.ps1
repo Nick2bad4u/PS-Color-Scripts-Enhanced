@@ -53,8 +53,8 @@ Write-Host '
  [36m█[0;1;30m█[0m    [36m█[0;1;30m██[0m
    [1m▄▄▄[0;1;30m▄▄[0;36m▄▄[0;37m  [0;32m  [0m                [37m   [0m
    [1;37;47m▓[0m     [1;36;46m▒[0m [1;30mSnow[0;36mba[0;1;36mll[0;36m greetz in random [0;1;30mor[0;36mde[0;1;36mr[0;36m: [0;1;30mThe A[0mvenger, Timeless, Emetic,
- [1;30m [0m [1;36;46m▓[0m   [1m▀[0m [1;36;46m░[0m [1;30m▀[0;1;37;46m░[0m                            [1;30m  [0m President, Kenetic, Exocet,        [1;36m▀[0m
-[1;36m▀▀▀[0;36m▀▀▀[0;37m  [0;1;37;46m▒[0m                           [1;30m  [0m  Sepulcrum, Xam, Douby, The Saint
+ [1;30m [0m [1;36;46m▓[0m   [1m▀[0m [1;36;46m░[0m [1;30m▀[0;1;37;46m░[0m                            [1;30m  [0m President, Kenetic, Exocet,
+   [1;36m▀▀▀▀[0;36m▀▀▀[0;37m  [0;1;37;46m▒[0m                           [1;30m  [0m  Sepulcrum, Xam, Douby, The Saint
   [36m▀[0;1;30m▀[0m   [1;47m▓[0;1;40m▄▄[0;1;36;40m▄▄[0;1;36;46m▓[0m                           [1;30m  [0m  Lord Zeepsop, Pambe, Woodstock
                                             Commissar[1;30mis[0m [1;30mPlons[0m
                                                     [33m    [0m

@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KX-ANGEL.ANS by Kxmode (rmrs-08); released in rmrs-08 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 97-146
+# Lines: 97-145
 # Columns: 1-80
 
 Write-Host '
@@ -58,5 +58,4 @@ Write-Host '
 [34m~~~[0;1;30m:[0;1;37m    [0m love and strength[1m.        [0m:[34m ~ :[0;1;34m''  [0m [33m [0;1;33m)[0;33m$R@$$$$$$R$$$$$$MM!!![0;1;33mR[0;33mK$$$$$$$MX[0m
 [34m~~[0;1;34m<[0;1;30m:[0;1;37m   [0mi have seen this[1m [0mplace[1m      [0m:[34m~< :[0;1;34m [0;33m  [0;1;33m`<[0;33m$$@$$$$$$5@%$$$$$MM!!![0;1;33m!$[0;33mM$$$$$$@M[0m
 [34m~[0;1;34m~~[0;1;30m:[0;1;37m    [0m   you dwell in[1m.           [0m:[34m~~~~[0;1;34m [0;33m  [0;1;33m''W[0;33m$W$$$$$$$$$X$$$$MM!!!!~[0;1;33m$[0;33m!$$$$$$8$[0m
-[34m~[0;1;34m~~[0;1;30m:[0;1;37m    [0m               [1m            [0m:[34m~~~[0;1;34m~ [0;33m  [0;1;33m:$[0;33mW$$$I$$RR$K$WR$$MH!!!!![0;1;33m$N[0;33mR$$$$$$R[0m
-[34m~~[0;1;34m~[0;1;30m:[0;1;37m    [0mtranquility in truth[1m.      [0m:[34m:~[0;1;34m~~~[0;33m [0;1;33mRUUI[0;33m$$$l$$$X$$$$N#RM!!!!!!R[0;1;33m$[0;33mX$$$$MMM[0m'
+[34m~[0;1;34m~~[0;1;30m:[0;1;37m    [0m               [1m            [0m:[34m~~~[0;1;34m~ [0;33m  [0;1;33m:$[0;33mW$$$I$$RR$K$WR$$MH!!!!![0;1;33m$N[0;33mR$$$$$$R[0m'

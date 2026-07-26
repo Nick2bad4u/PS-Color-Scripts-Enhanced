@@ -10,8 +10,8 @@
 # Columns: 1-80
 
 Write-Host '
-   [1;30m▀▄▄▓▒░░▒▓▓█▀[0m                      [32m▄[0;1;32m▄[0;32m▄[0;1;32m▄▄▄[0m      [1mO[0mu[1;30mtWorld Arts Distribution Sit▀[0m
-▄[1;30m▄▓ ░▒▓▀[0m                    [32m▄[0;1;32m██▀█▀█▀ ▀█[0;32m▄   [0;1mA[0mn[1;30msi/RIP1.54/RIP2/VGA Graphics[0m
+   [1;30m▀▄▄▓▒░░▒▓▓█▀[0m                      [32m▄[0;1;32m▄[0;32m▄[0;1;32m▄▄▄[0m      [1mO[0mu[1;30mtWorld Arts Distribution Site[0m
+     [1;30m▀[0m▄[1;30m▄▓ ░▒▓▀[0m                    [32m▄[0;1;32m██▀█▀█▀ ▀█[0;32m▄   [0;1mA[0mn[1;30msi/RIP1.54/RIP2/VGA Graphics[0m
         [1;30m▀▓   [0;32m▀[0;1;32m▄[0m                  [32m▐[0;1;32m█  ██▀[0m     [1;32m▀[0;32m█  [0;1mA[0mr[1;30mtpack released monthly[0m
          ▐[1;30m▌  [0;32m░▓▓[0;1;32m▄[0m               [1;32m▐█ ▄█▀[0;32m█[0;1;32m█  [0;32m▄[0;1;32m▀█[0;32m▄█▌ [0;1mh[0mt[1;30mtp://www.outworldarts.com/[0m
           [1m█[0m▄   [32m░▓[0;1;32m█[0m              [1;32m▐█▀   [0;33m▓[0;32m▀▄▀[0;33m▒░ [0;32m▀▐▌ [0;1mg[0mr[1;30maphics@outworldarts.com[0m

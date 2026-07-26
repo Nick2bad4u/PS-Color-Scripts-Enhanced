@@ -24,12 +24,12 @@ Write-Host '
 [1m▀[0m [31m▀▀▀[0;37m [0;31m▀[0;32m█[0;37m [0;32m▌[0;1;37m▀[0;32m▄[0;1;32;42m░▒░[0;32m▄[0;37m  [0;1;37m▀[0m             [1;34mravaging their tyranny on mortal man. Spring may[0m
 [1;37m■▀[0;1;32m▄[0;1;32;42m█▀▀░[0;32m▄▄▐[0;1;32;42m░[0;32m▀[0;37m [0;1;37m■[0m  [32m▀[0;1;37m■[0m              [1;34mbring life, but it also brings DEATH in its wake[0m
 [1;32m▄█[0;1;32;42m▀▄▄▄[0;1;32;40m▀[0m [32m▐▀[0;37m [0;1;31m▄▄[0m [1m▀[0m [1m▄[0m               [1;34mFear the ides of March for the downfall it may[0m
-[1;32m█[0;1;32;42m▓[0;1;32;40m▀▀▀[0m  [1;31m▄[0;31m▄[0;1;31;41m▄[0;1;31;40m▀[0;31m▄▄[0;1;31m▀▄[0m                 [1;34mbring. Yet in all this chaos and rebirth we fin[0;1m▀[0m
- [31m▄[0;1;31;41m▄█ ▓[0;1;31;40m▄[0;31m▀▀[0;1;31m▄[0;1;31;41m▀[0;1;31;40m [0m                [1;34mspring also brings love. Love the ultimate[0m [1;34mforce[0m [1m■[0m [1m▄[0m
- [31m██[0;1;31;41m▓[0;31m▀[0;1;31;41m▀█[0;1;31;40m▄[0;1;31;41m▀▄▓▀[0m                [1;34mthat can wreck so much pain yet how beautiful it[0m  [1m■[0m
- [31m▓[0;1;31;41m ▓[0;1;31;40m▄[0;31m▀▀[0;1;31m▄[0;1;31;41m▓▀ [0m [1m▄[0m               [1;34mis. I myself have already fell game to this but[0m
-   [1m■[0;1;32;42m▓[0;32m▄[0;31m▓█[0;1;31;41m▓[0;31m█▓██▀[0;1;37m■[0m     [1m■[0m           [1;34mwill not bring my downfall for I have melded it[0;1;32;42m▒[0m
-[1;32;42m░[0;31;42m▀[0;31;40m▀[0;32;40m█[0;37;40m [0;32;40m▄[0;1;32;42m░▒░[0;32m▄[0;37m [0;1;37m▀[0m              [1;34minto the device which it serves purpose. In the[0m
+[1;32m█[0;1;32;42m▓[0;1;32;40m▀▀▀[0m  [1;31m▄[0;31m▄[0;1;31;41m▄[0;1;31;40m▀[0;31m▄▄[0;1;31m▀▄[0m                 [1;34mbring. Yet in all this chaos and rebirth we find[0m
+   [1m▀[0m [31m▄[0;1;31;41m▄█ ▓[0;1;31;40m▄[0;31m▀▀[0;1;31m▄[0;1;31;41m▀[0;1;31;40m [0m                [1;34mspring also brings love. Love the ultimate[0m [1;34mforce[0m
+ [1m■[0m [1m▄[0m [31m██[0;1;31;41m▓[0;31m▀[0;1;31;41m▀█[0;1;31;40m▄[0;1;31;41m▀▄▓▀[0m                [1;34mthat can wreck so much pain yet how beautiful it[0m
+  [1m■[0m  [31m▓[0;1;31;41m ▓[0;1;31;40m▄[0;31m▀▀[0;1;31m▄[0;1;31;41m▓▀ [0m [1m▄[0m               [1;34mis. I myself have already fell game to this but[0m
+   [1m■[0;1;32;42m▓[0;32m▄[0;31m▓█[0;1;31;41m▓[0;31m█▓██▀[0;1;37m■[0m     [1m■[0m           [1;34mwill not bring my downfall for I have melded it,[0m
+     [1;32;42m▒░[0;31;42m▀[0;31;40m▀[0;32;40m█[0;37;40m [0;32;40m▄[0;1;32;42m░▒░[0;32m▄[0;37m [0;1;37m▀[0m              [1;34minto the device which it serves purpose. In the[0m
       [32m▀[0;1;32;42m░[0;32m▄▌[0;1;32;42m░[0;32m▀[0;37m [0;1;37m■[0m [32m▀[0m                [1;34mEnd though its just more Spring Sentiment[0m
   [1;32m▄[0m [1;32m▀▀▄█▀▄[0m  [1m▀[0m [1m▄[0m
    [1;32m▀▀█▀█[0m [1;32m▀▄[0m

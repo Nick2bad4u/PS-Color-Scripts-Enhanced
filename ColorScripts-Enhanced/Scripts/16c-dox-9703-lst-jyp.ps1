@@ -12,7 +12,7 @@
 # SAUCE Date: 19970215
 # SAUCE Dimensions: 80x25
 # SAUCE Comments: fuck me like a dog
-# Lines: 1-21
+# Lines: 1-19
 # Columns: 1-80
 
 Write-Host '
@@ -33,6 +33,4 @@ Write-Host '
               [1;30m▒ sysop!. raster        [0m  [1;30m▄[0m [1;30m▄▄▄▄▄▄▄ ▄ ▄▄▓▀▀[0m [1;30m▀[0m [1;30m█[0m [1;30m▀▀▀▀▀[0m [1;30m▀[0m
               [1;30m░ [0m                                  [1;30m▓[0m         [1;30m [0m
                                                   [1;30m▒[0m         [1;30m [0m
-                                                  [1;30m░[0m         [1;30m [0m
-→SAUCE00jyp!. its for you and me!          soul trader         dox product 97
-   19970215K      ☺☺P ‼[0m'
+                                                  [1;30m░[0m         [1;30m [0m'

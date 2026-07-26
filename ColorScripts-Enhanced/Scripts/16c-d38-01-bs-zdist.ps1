@@ -10,7 +10,7 @@
 # SAUCE Author: Blind Sniper
 # SAUCE Group: Department 38
 # SAUCE Dimensions: 80x25
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -37,5 +37,6 @@ Write-Host '
              [31m [0m     [1;35;45mZ[0m [35me[0;37m [0;35mn i[0;37m [0;35mt[0;37m [0;35mh[0;37m [0;32m░[0;37m [0;1;35;45mZ[0m [35mi[0;37m [0;35mn[0;37m [0;35me[0;37m [0;34m░[0;37m [0;1;35;45mD[0m [35mi[0;37m [0;35ms[0;37m [0;35mt[0;37m [0;35mr[0;37m [0;35mo[0m      [34m░[0m    [1;34m [0;1;37m  [0;1;36m°[0;1;32m^[0;1;30mD∙38[0;1;32m^[0;1;36m°[0;1;37m  [0;1;34m [0m
                                                                  [1;34m [0m  [1m         [0m [1;34m [0m
 >Blah blah<---------------------------------------------------------------------
+
 [1;30m[[0;1;32mBlind Sniper[0;1;30m][0m [32mI dont give a toss if you''ve already seen it in Zenith Zine...[0m
                [32m:):):):):):):)[0m'

@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ATLS#P&R.ANS by Rage + Paz (btg_ans2); released in btg_ans2 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 31-61
+# Lines: 31-62
 # Columns: 1-80
 
 Write-Host '
@@ -17,6 +17,7 @@ Write-Host '
 [1;34;44m░░░▒▓▓▒[0;34m▀▀▀▀▀▀▀▀▀[0;34;43m       [0;34;40m▀▀▀▀▀▀[0;1;34;44m▒░░░[0;33m▐▓▓▒▒▒▒░▒▒▓▓█[0m           [33m█▓▓▒▒░▒▒▒▒▓▓█[0;34m▐[0;1;34;44m█[0;34m▀▀▀█[0;1;34;44m█▓▓[0;30m█[0m
 [34m▀▀▀▀▀▀▀[0;34;43m         [0;1;33;43m░░░░░░░      [0;34m▀▀▀▀[0;33m▐█▓▓▒▒▒▒▒▒▓▓█[0m           [33m█▓▓▒▒▒▒▒▒▓▓█▌[0;34m▀▀[0;34;43m   [0;34;40m▀▀▀▀[0;30;40m█[0m
 [30;43m       [0;1;33;43m░░░░░░░░░▒▒░░░░░░░░░░░    [0;33m▐█▓▓▓▓▓▒▒▒▓▓█[0m           [33m█▓▓▒▒▒▓▓▓▓▓█▌[0;33;43m  [0;1;33;43m░░░    [0;30m█[0m
+[1;33;43m░░░░░░░░▒▒▒▒▒▒░░░░▒▒▒▒▒▒▒▒▒▒▒░░░░[0;33m▐█▓▓▓▓▓▓▓▓▓▓█[0m           [33m█▓▓▓▓▓▓▓▓▓▓█▌[0;1;33;43m░░▒▒░░░░░[0;30m█[0m
 [1;33;43m░░░▒▒▒▒░░░░░░░▒▒▒▒▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒[0;33m▀█████▓▓▓▓▓█[0m           [33m█▓▓▓▓▓█████▀[0;1;33;43m░░▒▒▒▒░▒▒▒[0;30m█[0m
 [1;33;43m▒▒▒░░░▒▒▒▒▒▒▒▒▓▓▓▓▒▒▒▒░░░░░░░░▒▒▒▒▒[0m [33m▀▀▀██████▀[0;1;33;43m░░░░░░░░░░░[0;33m▀█████▀▀▀▀▀[0;1;33;43m░▒▒▒░░░▒░░░[0;30m█[0m
 [1;33;43m▓▓▒▒▒▒░░░░░░░▒▒▒▒▒░░░░▒▒▒▒▒▒▒▒░░░░░░░░░[0m [33m▀▀▀▀▀[0;1;33;43m░▒▒▒▒▒▒▒▒▒▒▒░[0;33m▀▀▀▀▀[0;1;33;43m░░░░░▒▒▒▒▒░░░▒▒▒[0;30m█[0m

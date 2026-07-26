@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WG!OL.ANS by Wargod (twat0898); released in twat0898 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
+# Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
@@ -33,6 +33,7 @@ Write-Host '
 [36m [0m   [37m  [0m
 
 [1;30m----------------[[0;1;37mcUT tHIS sTUPH[0;1;30m]------------------------------------------------[0m
+
 [1m  This shit is for my board eternal nitemare... nobody better rip it or i''ll[0m
 [1mhave to kill you with a monkey wrench... and that goes out to squibby too =)[0m
 

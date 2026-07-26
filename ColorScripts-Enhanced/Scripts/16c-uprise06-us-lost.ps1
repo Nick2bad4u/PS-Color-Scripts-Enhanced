@@ -10,7 +10,7 @@
 # SAUCE Author: mulitiple
 # SAUCE Group: uprise
 # SAUCE Date: 19980728
-# Lines: 1-19
+# Lines: 1-20
 # Columns: 1-80
 
 Write-Host '
@@ -30,5 +30,6 @@ Write-Host '
 [32m      [0;37m  ▀▀▀[0m      [1;37m▀▀▓▀[0;1;37;47m▒[0;1;37;40m▓▀▀▀▀▀▀▀▀[0m▀▀[1m [0m   ▀▀▀ [1;47m▓[0;1;40m▓▀▀▓▀▀[0m▀     ▀▀ [1m ▀▀▓▀[0;1;47m▓[0;31m  [0;1;32m░[0;32m▀▀███▀▌[0;31m [0;32m      [0m
 [32m                    [0;37m [0;1;37m░▒[0m o+  [1;33mdyingsoul[0m    [1;47m▒[0m   [1m▒[0m [1;33m###[0m/[1;33m###[0m/[1;33m####[0m [1;47m▒[0m [32m                  [0m
 [32m                      [0;1;37m░[0m [32m                 [0;1;37m░[0m [32m                                     [0m
+
 [1;30mfont: dyingsoul[0m
 [1;30mtouchups: minister of light[0m'

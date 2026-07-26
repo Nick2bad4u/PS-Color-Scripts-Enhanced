@@ -11,7 +11,7 @@
 # SAUCE Group: Zenith
 # SAUCE Date: 19980616
 # SAUCE Dimensions: 80x25
-# Lines: 1-46
+# Lines: 1-45
 # Columns: 1-80
 
 Write-Host '
@@ -59,5 +59,4 @@ Write-Host '
 [1;30mthext''s bullshit[0m
 
              [1;30moutline/colors by sudden death<cia>[0m
-             [1;30mshading by retribution<zenith>[0m
-→[0m'
+             [1;30mshading by retribution<zenith>[0m'

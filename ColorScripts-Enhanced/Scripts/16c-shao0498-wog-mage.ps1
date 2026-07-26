@@ -10,7 +10,7 @@
 # SAUCE Author: Wooga
 # SAUCE Group: Shaolin's Finest
 # SAUCE Dimensions: 80x33
-# Lines: 1-32
+# Lines: 1-33
 # Columns: 1-80
 
 Write-Host '
@@ -33,6 +33,7 @@ Write-Host '
 
 
 [37m-8<muther-fuken-cut-here>8--[title: mage type dude]-----------------------------[0m
+
 [37mok here we have a 100 fucking % original ansi by wooga - my first attempt at a [0m
 [37mhumanoid face... like it? i fucking love it!(for the time being and imho) :)[0m
 [37mits supposed to be some type of mage (old - note grey hair with white streak) :)[0m

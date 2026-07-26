@@ -41,8 +41,8 @@ Write-Host '
 [30;43m░[0;33;40m█▀ [0;32;40m▄▄[0;36;42m▄[0;36;40m██[0;30;46m░░[0;36;40m███[0;1;36;46m░▀█▀[0;36m█[0;1;36;46m▄████▄░[0;30;46m▐▀░[0;36;40m▄▄▄[0m     [35;40m▀▀▀▀▀▀▀▀[0m    [30;43m▓[0m     [30;43m▓[0m    [35;40m▀▀▀▀▀▀▀▀[0m
 [1;30;40m------------------------------------------------------------------------------- [0m
 [1;30;40mWell,if this gets reviewed..then oh well,but just remember,i put TIME into this[0m
-[1;30m-------------------------------------------------------------------------------A[0m
-[1;30mlderAAn is cool..its sysop is cool..and..uhh..blah[0m
+[1;30m------------------------------------------------------------------------------- [0m
+            [1;30mAlderAAn is cool..its sysop is cool..and..uhh..blah[0m
                          [1;30mAnsi by Zork of Blade..[0m
            [1;30mHave a request for Zork [Blade] or Grifter [Acid] ???[0m
                       [1;30mThen call : tL! 8o5.486.2797[0m

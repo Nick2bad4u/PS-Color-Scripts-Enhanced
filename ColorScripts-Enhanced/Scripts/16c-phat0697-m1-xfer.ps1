@@ -11,7 +11,7 @@
 # SAUCE Group: Phat Studios '97
 # SAUCE Date: 19970517
 # SAUCE Dimensions: 80x30
-# Lines: 1-29
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
  [33m▀[0;1;33m▀▌▀[0m                                                                   [36m▀[0;1;36m▀[0m   [1;30m ▀[0m
 
 [1;30m─(bzzzzzz),────────────  ─ ───--- -- ──────── ─ ─────  ───--─────── ─────── ────[0m
+
  [1;30mThis ansi is supposed to be delivered with the soon released "last-transfers"[0m
  [1;30mppe of our group "cannabis".[0m [1;30mThe strange phont over there should say[0m
 [1;30m "LAST", huhu, can you read it? - i can''t ... never mind =) looks fresh...[0m

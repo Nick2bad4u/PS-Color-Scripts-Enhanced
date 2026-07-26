@@ -44,6 +44,6 @@ static4/tainted/kitiara/darkjedi
                              .......Kitiara.......
 
 
-<s4> sorry dj if i erased uhm.. well.. your part =) so .. do a font or somethig
-       =)<dj> not enough room for the whole word rush.. hope the r will do thoug
-h.. :)[0m'
+<s4> sorry dj if i erased uhm.. well.. your part =) so .. do a font or somethign
+                                                                              =)
+<dj> not enough room for the whole word rush.. hope the r will do though.. :)[0m'

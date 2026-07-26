@@ -11,7 +11,7 @@
 # SAUCE Group: dox
 # SAUCE Date: 19970315
 # SAUCE Dimensions: 80x25
-# Lines: 1-25
+# Lines: 1-22
 # Columns: 1-80
 
 Write-Host '
@@ -36,7 +36,4 @@ Write-Host '
                        [1;36m▀▀▀▀▀▀[0;1;36;46m▒▒▒░░░░░[0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄██[0;37;46m░░▒[0;36;40m▀[0;37;40m [0;1;30;40m░░[0m
                     [1;30m░░░░░                   [0m
                     [1;30m▀[0m
-                             [1;30m  [0m
-→SAUCE00Razor Sharp                        Chef
-   19970314B
-  ☺☺P ▬[0m'
+                             [1;30m  [0m'

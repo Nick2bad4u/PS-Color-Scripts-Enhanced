@@ -10,7 +10,7 @@
 # SAUCE Author: Towser
 # SAUCE Group: Synthetic Org!
 # SAUCE Dimensions: 80x25
-# Lines: 1-39
+# Lines: 1-40
 # Columns: 1-80
 
 Write-Host '
@@ -48,6 +48,7 @@ Write-Host '
      [37m`²$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S²'' [0m
 
 [1;30m---------------------------------[Snippeth]-------------------------------------[0m
+
 [1;32mA[0;32mS[0;1;30mki shiet Cyborg Knight first pic for Synth, kindah old but not too shabby yo?[0m
 [1;30mmaybe i should stick to logo''s? [0;1;36m>[0;36m=[0;1;30m) [0m
 

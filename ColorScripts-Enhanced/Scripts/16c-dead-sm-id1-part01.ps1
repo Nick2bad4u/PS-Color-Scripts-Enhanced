@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-ID1.ANS by Soundmaster (dead); released in dead and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
+# Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
@@ -48,8 +48,10 @@ Write-Host '
 [1;30m▒▒▒░░░░░░░░[0m               [1;30m░░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▒▒▒▒▒░░░░░░░[0m            [1;30m░░░░░░▒▒▒▒▒[0m
 [1;30m▒░░░░░[0m                        [1;30m░░░░░░▒▒▒▒▒▓▓▒▒▒▒░░░░░░░[0m                  [1;30m░░░░░▒▒▒[0m
 [1;30m░░░[0m                                [1;30m░░░░▒▒▒▒▒▒░░░[0m                          [1;30m░░░░▒▒[0m
-[1;30m░[0m                                    [1;30m░░░░░░░░░[0m                              [1;30m░░░░[0m
-[31m▄█████▄▄▄▄▄[0m                                                                    [1;30m░[0m
+[1;30m░[0m                                    [1;30m░░░░░░░░░[0m                              [1;30m░░░▒[0m
+                                                                              [1;30m░░[0m
+                                                                               [1;30m░[0m
+[31m▄█████▄▄▄▄▄[0m
 [31m  ▀▀▀▀▀▀▀▀▀▀▀ ▄▄▄[0m     [31m▄▄▄▄▄   ███████▄▄▄▄[0m     [31m▄▄▄▄[0m                [31m█[0m
 [31m    ▐█▓▓[0m     [31m▓▓██   ▀███████  ▓▓█▀ ▀▀▀▀   ▄  █▓▓▓▓█[0m      [31m█  ▄█ ▀█████▄ ▄██▀▀▀▀▄[0m
      [31m▐▒▓▓   ▓▒ ██▓▓   ███▓█  ▄▓▓  ▄[0m      [31m██▄ ▓▓  ▓▓▓[0m     [31m█  █▀    ▓    █▀[0m
@@ -57,5 +59,4 @@ Write-Host '
      [31m▓▓▒▒   ▒▒▒▒  ▓▒▒▒  ▒▓   ▒▒[0m         [31m▓▓    ▓▒  ▒▓    ▓▓  ▓▓   ▓▒▓  ▓▓▒▄▄▄▄[0m
      [31m░▒▒[0m     [31m▒░░░   ▒▒  ▒▒   ▒[0m         [31m▓▓▒   ▒▒░  ░▒░  ▓▒▓  ▒▓   ▒▒▒  ▓▒[0m
 [31m ░░░▒▒░▒▒▒▒░▒   ░   ▒   ░    ░[0m          [31m▒░  ▒▒░▒  ░▒  ▒░▒  ▒▒▒   ░▓▒ ▒░▒[0m      [31m░[0m
-[31m  ░░░░░░░░░░   ░░   ░░░░░    ░[0m         [31m░░   ░░░    ░░░░░  ░░▒░   ░░░ ░░░░░░░░░[0m
-'
+[31m  ░░░░░░░░░░   ░░   ░░░░░    ░[0m         [31m░░   ░░░    ░░░░░  ░░▒░   ░░░ ░░░░░░░░░[0m'

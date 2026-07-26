@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GC-ARA1.ANS by Galanacer (glue-17); released in glue-17 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
+# Lines: 1-40
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
 [1;36m▄▀▀[0;1;37m [0;1;30m▄▄[0;1;30;46m█▄░[0;36m▀[0;1;37m [0;1;36m▄▀[0;1;37m    [0;1;36m▓░[0;36m▌[0;1;37m    ([0;1;36mf[0;1;37m) [0;1;36mco[0;36mmmand[0;1;37m  ([0;1;36ml[0;1;37m) [0;1;36mco[0;36mmmand[0;1;37m  ([0;1;36mr[0;1;37m) [0;1;36mco[0;36mmmand[0;1;37m [0;1;30;46m▓░░░[0;36m█[0;1;30;46m▄▌░░▄[0;1;30;40m▌[0m [1;30m [0m
 [1;30m▄▄[0;1;30;46m▓███▓[0;1;30;40m▀[0;1;37;40m [0;1;36;40m▄▀[0;1;37;40m     [0;1;36;40m░░░[0;1;37;40m  ([0;1;36;40m?[0;1;37;40m) [0;1;5;37;40m_[0m                                   [1;30m▄█[0;1;30;46m▓▓▓[0;1;30;40m███▓▓▀▀▀[0m [1;30m■[0m
 [1;30m-(cut line)---------------------------------------------------------------------[0m
+
                                   !!!ATTENTION!!!
 
 First of all, I am Boba Fett, aka b0b4fett, back with a new nick, galanacer,

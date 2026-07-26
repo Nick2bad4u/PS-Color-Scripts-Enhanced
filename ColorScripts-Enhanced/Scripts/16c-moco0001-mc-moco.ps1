@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC^MOCO.ANS by Macmas (moco0001); released in moco0001 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
+# Lines: 1-17
 # Columns: 1-80
 
 Write-Host '
@@ -25,4 +25,5 @@ Write-Host '
 [1;35m [0;32m$$$[0;1;32m$$[0;1;35m $$$ [0;1;32m$$$$$[0;1;35m $$$$$$$$ [0;32m$[0;1;32m$$$$$$$$$$$$[0;1;35m $$$[0;1;32m [0;32m$$[0;1;32m$[0;1;35m "" [0;1;32m$$$$[0;1;35m $$$$ [0;32m$[0;1;32m$$$$$$$$$$$$[0;1;35m $$$$$[0m
 [1;35m$[0;32m`%$[0;1;32m$[0;32m''[0;1;35m$$$$$[0;32m`%[0;1;32m$$''[0;1;35m$$$[0;1;32m$$[0;1;35m$$$$$ [0;32m`.[0;1;32m:;$$$$;:.''[0;1;35m$$[0;1;32m$$[0;1;35m$[0;32m`$$[0;1;32m$$$$$$$''[0;1;35m$$$[0;1;32m$$[0;1;35m$ [0;32m`.[0;1;32m:;$$$$;:.''[0;1;35m$$[0;1;32m$$[0;1;35m$$[0m
 [1;35m$$sss$$$$$$$sss$$$$$$$$$$$$$sssss[0;35msss[0;1;35mss$$$$$$$s[0;35msss[0;1;35msssss$$$$$$$$$ssssssssss$$$$+Mc[0m
+
     [1;30m          "[0;1;33mS[0;1;30mi[0;1;33m [0;1;30m [0;1;33mT[0;1;30mu[0;1;33m [0;1;30m [0;1;33mN[0;1;30mo[0;1;33m [0;1;30m [0;1;33mT[0;1;30me[0;1;33m [0;1;30m [0;1;33mU[0;1;30mnes[0;1;33m [0;1;30m [0;1;33mA [0;1;30m [0;1;33mE[0;1;30ml,[0;1;33m [0;1;30m [0;1;33mE[0;1;30ml[0;1;33m [0;1;30m [0;1;33mS[0;1;30me[0;1;33m [0;1;30m [0;1;33mU[0;1;30mnira[0;1;33m [0;1;30m [0;1;33mA [0;1;30m [0;1;33mT[0;1;30mi"[0m'

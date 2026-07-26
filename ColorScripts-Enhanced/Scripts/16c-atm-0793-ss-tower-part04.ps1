@@ -6,19 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-TOWER.ANS by Sargonnas (atm-0793); released in atm-0793 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 104-153
+# Lines: 114-154
 # Columns: 1-80
 
 Write-Host '
-                [33m▒░░░░░[0m                      [34m░░░░▒▒▒▓[0m
-                [33m░░░░░░[0m                      [34m░░░░░▒▒▒[0m
-                [33m░░░░░░[0m                      [34m░░░░░░▒▒[0m
-                [33m░░░░░░[0m                      [34m░░░░░░░▒[0m
-            ▄▄▄▄▄▄     ▄▄▄▄▄▄               [34m░░░░░░░░   [0m▄▄▄▄
-            █[1;34m░░░░[0;1;30m█[0m     █[1;34m░░░░[0;1;30m█[0m                          █[34m░░[0m█
-            █[1;34m▒▒░░[0;1;30m█[0m     █[1;34m▒▒░░[0;1;30m█[0m                          █[34m▒░[0m█
-            █[1;34m▒▒▒▒[0;1;30m█[0m     █[1;34m▒▒▒▒[0;1;30m█[0m                          █[34m▒▒[0m█
-            █[1;34m█▒▓▓[0;1;30m█[0m     █[1;34m█▒▓▓[0;1;30m█[0m                          █[34m▓▒[0m█
             █[1;34m██▓▓[0;1;30m█[0m     █[1;34m██▓▓[0;1;30m█  [0m▄▄▄▄                    █[34m▓▓[0m█
             █[1;34m███▓[0;1;30m█[0m▄▄▄▄▄█[1;34m███▓[0;1;30m█  [0m█[36m██[0;1;30m█[0m                    █[34m█▓[0m█
             █[1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m█  [0m▀[1;30m▀▀▀[0m                    █[34m▀▀[0m█▄▄▄▄▄▄

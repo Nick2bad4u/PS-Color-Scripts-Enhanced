@@ -11,7 +11,7 @@
 # SAUCE Group: Irato.
 # SAUCE Date: 19971002
 # SAUCE Dimensions: 80x34
-# Lines: 1-33
+# Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
      [35m▀▀▀█[0;1;35;45m▀▀▓▀▀░[0;35m▀▀▀▀[0m          [1;30m    [0;35m▀[0m      [35m▀▀▀▀▀▀[0m    [1;30m [0m          [35m▀▀▀▀█[0;1;35;45m▀▀▀▀▒[0;35m█▀▀▀[0m
 
 [34m──────[0;1;34m───[0;1;36m──────[0;1;34m───[0;34m─────────────[0;1;34m──[0;1;36m─[0;1;34m──[0;34m───[0;1;34m──[0;34m─────────[0;1;34m──[0;1;36m─────[0;1;34m──[0;34m───────[0;1;34m───[0;1;36m────[0;1;34m──[0;34m─────[0m
+
 [37mi drew this ansi for atomik punk [0;1;30m[[0mfreak zone[1;30m].[0m i actually[1;30m,[0m don[1;30m''[0mt know if he[1;30m''[0mll
 use it [1;30m''[0mcause i[1;30m''[0mm describing the pic as i am finishing it[1;30m.[0m
 

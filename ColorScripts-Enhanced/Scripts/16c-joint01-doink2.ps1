@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DOINK2.ANS by The Joint (joint01); released in joint01 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
+# Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
@@ -31,6 +31,4 @@ Write-Host '
                              [1;36;46m [0;1;36;40m████░[0m   [1;36;46m [0;1;36;40m████  [0;36m░[0;1;36;46m [0;1;36;40m████░[0m     [1;36m [0;36m▀▀▀[0;1;36m▀[0;1;36;46m▀▀▀[0;1;36;40m█▓░[0m
 
 cz -               i know.. it sucks.. for doink, ''doi'' so far.. sue me ;)
-cy -               Phear the sideways ''k'' and inverted ankh
-→SAUCE00
-   19960720├      ☺☺P ↨[0m'
+cy -               Phear the sideways ''k'' and inverted ankh[0m'

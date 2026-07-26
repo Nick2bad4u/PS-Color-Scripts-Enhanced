@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NG-PAIN.ANS by Yuehwoungdade + Ng (rem-0794); released in rem-0794 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 240-285
+# Lines: 240-286
 # Columns: 1-80
 
 Write-Host '
+                        [34m░  ░[0m                [1;34m▀▄[0m         [1;34m█[0m
                                               [1;34m▀▀▄[0m     [1;34m█[0m
                                                  [1;34m█    █[0m
                                                  [1;34m▓   ▓[0m

@@ -53,8 +53,8 @@ Write-Host '
   [1;33m386) that they don''t want[0m [1;33mand would like to give me... propably no, hmmmmmmm.[0m
   [1;33mWell, go ans see the rest of my great (!?!) ANSI art (damn, I wish I could[0m
   [1;33mmake sum VGA art too...), and may we meet again another day, C U... :)[0m
-[32m===============================================================================[0;37m [0m
-[1;33m/\/\ /┤ ∩ Ç /┤ ƒ /┤ ∩[0m
+[32m================================================================================[0m
+                                                       [37m [0;1;33m/\/\ /┤ ∩ Ç /┤ ƒ /┤ ∩[0m
                            [1;33mFor questions, contact...[0m
 
                                 [1;33mBBS: Ravebase[0m

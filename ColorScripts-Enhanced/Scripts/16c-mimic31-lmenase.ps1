@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: lmenase.ans by Lame (mimic31); released in mimic31 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
+# Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
@@ -19,7 +19,7 @@ Write-Host '
 [31mÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ[0m
 [31mÿÿÿ[0;1;31mQ*┘²²²└*t[0;31mÿÿÿÿÿÿÿÿÿ[0;1;31mQ*┘²²²└*t[0;31mÿÿÿÿ[0;1;31mQ*┘²²²²²²└*t[0;31mÿÿÿÿÿ[0;1;31mQ*┘²²²²²²└*t[0;31mÿÿÿÿ[0;1;31mQ*┘²²²²²²└*t[0;31mÿ[0m
 [31mÿ[0;1;31m7`[0m         [1;31m`√[0;31mÿÿÿÿÿ[0;1;31m7`[0m         [1;31m`[0;31mÿ[0;1;31m7`[0m           [1;31m `√[0;31mÿ[0;1;31m7`[0m      [1;31m  [0m   [1;31m `[0;31mÿ[0;1;31m7`[0m           [1;31m `[0m
-[1;31m√[0;31mÿÿ[0;1;31m''[0m                            [1;32m      [0m     [32m  [0;1;31m   . [0m   [1;31m   .  [0m
+              [1;31m`√[0;31mÿÿ[0;1;31m''[0m                            [1;32m      [0m     [32m  [0;1;31m   . [0m   [1;31m   .  [0m
                 [1;31m`√[0m                     [31m  [0m        [1;32m    [0m        [1;31m''`[0m    [1;31m  ''`[0;32m    [0;1;31m [0m
                                        [31m  [0m          [1;32m              [0m      [1;31m [0m
                                        [31m    [0m        [1;32m         [0m
@@ -28,6 +28,7 @@ Write-Host '
 [32mÿÿÿ[0;1;32my┐.___.┌y[0;32mÿÿÿÿÿÿÿ[0;1;32my┐.___.┌y[0;32mÿÿÿÿy[0;1;32m,___,ÿ[0;32mÿ[0;1;32mÿ,___,y[0;32mÿÿy[0;1;32m┌,_________,┐y[0;32mÿy[0;1;32m,___________,┌[0m
 [32mÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ[0m
 [32m────────────────────────────────────────────────────────────────────────────────[0m
+
 
 
 

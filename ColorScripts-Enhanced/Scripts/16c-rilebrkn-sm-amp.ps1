@@ -54,5 +54,5 @@ Write-Host '
 [32;40m██▀▀▀▀▀▀▀▀█▀▀▀▀▀█     █[0;30;42m│[0;32;40m  █  ▀▀▀▀▀▀     █▀▀▀▀▀█  ▌▐▀▀▀▀▀▌▐      █▀▀▀█▀▀▀▀██[0;30;42m┌▄[0;32;40m   [0m
 [32;40m██[0;1;32;42mscribbles, message, font, pic, colored blocks, triteness, and angst [0;32m▀▀▀▀ [0;1;32m this[0m
 [32m██[0;1;32;42mby an unknown artist named sammael in a art group[0;32m█▀▀▀▀▀▀▀▀▀▀▀ [0;1;32mwas all done for[0m
-[32m██[0;1;32;42mby the name of rile[0;32m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;32ma friend named eerie and his bbs ampersand[0m
+[32m██[0;1;32;42mby the name of rile[0;32m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;32ma friend named eerie and his bbs ampersand.[0m
 '

@@ -8,7 +8,7 @@
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Date: 20010723
 # SAUCE Dimensions: 80x34
-# Lines: 1-33
+# Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
@@ -41,6 +41,7 @@ Write-Host '
 [1;30m☺☺☺☺☺☺/a.[0m  [1;33m`└*/│☻☻☻☻/┐,._[0m               [1;33m,d☻☻b┐,..__..,▬┌g%#☻☻☻☻☻☻☻☻☻│j☻\*┘`[0m  [1;30m,⌂☺[0m
 [1;30m☺☺☺☺☺☺☺☺☺☺/┐▬.[0m [1;33m `└*/$│☻☻☻☻W#⌂g┐┐▬,,▬┌┌g#☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻│$☻\*┘ⁿ"^~[0m   [1;30m_.,▬┌a\☺☺☺[0m
 Shrimp[32mFLG[0;1;30m☺☺☺☺☺/a┐,_[0m  [1;33m ~^"ⁿ└└**∟☻☻☻§§§§§§§§§§☻☻☻∟**└└ⁿ"^~[0m  [1;30m __.,▬┌g%S☺☺☺☺☺☺☺☺☺☺☺☺[0m
+
                      O [36mr a c u l a r [0m       [37mZ [0;36me a l o t r y[0m
 
 [37m--------------------------------------------------------------------------------[0m

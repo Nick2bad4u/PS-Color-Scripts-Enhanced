@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVL-ABD.ANS by Anvil (shl-0897); released in shl-0897 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
+# Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
@@ -30,6 +30,7 @@ Write-Host '
 [32m$$$$""""$$$[0;37m [0;32m`$$$$Sy╖yS$$$$$'' $$$$_y$$''$$$$╖$$$$[0;37m [0;32m$$$$╖y$[0;37m  [0;32m$$$$[0m   [32m$[0;1;32m$[0;1;32;42m$[0;32m$[0;37m [0;32m$$$╓$[0;37m [0;32m$$$[0;37m [0;32m$[0m
 [31myyyy$$$yyyyS$yyyyyyyyyyyyyyS$yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy$yyyyyyyyyyyyyyyyy[0m
 [31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
+
 [34mheh.. this is pretty lousy one.. but... [0m
 [1;34mnomad@sgic.fi[0m
 [1;34mhmm.. still old alias in email.. :)[0m'

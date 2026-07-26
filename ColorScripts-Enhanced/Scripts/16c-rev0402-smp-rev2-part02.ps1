@@ -11,11 +11,10 @@
 # SAUCE Group: the legion
 # SAUCE Date: 20020412
 # SAUCE Dimensions: 80x60
-# Lines: 24-59
+# Lines: 25-60
 # Columns: 1-80
 
 Write-Host '
-                                                          [37;40m  [0m                   [37;40m↓[0m
 [37;40mShrimp[0;1;37;40m([0;1;33;40mRevival[0;1;37;40m)[0m
                     [32m▄▄▄▄▄▄[0m
               [32m  ▄▄[0;1;32;42m  [0;32m███[0;1;32;42m▄[0;32m████▄▄[0m                     [32m▄▄[0m

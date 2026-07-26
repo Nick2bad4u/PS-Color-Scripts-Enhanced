@@ -11,7 +11,7 @@
 # SAUCE Group: air / vortex
 # SAUCE Date: 19970423
 # SAUCE Dimensions: 80x30
-# Lines: 1-29
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
 
 
  [1;30m────([0m klipp då förfan[1;30m )─────────────────────────────────────────────────────── [0m
+
   this one is a request from q-bic to his soon-up board jolt.
   My 4th loggo *ever* .. enjoy, or spit at.
 

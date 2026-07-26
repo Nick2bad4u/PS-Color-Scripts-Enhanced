@@ -10,7 +10,7 @@
 # SAUCE Group: spin
 # SAUCE Date: 19981201
 # SAUCE Dimensions: 80x34
-# Lines: 1-33
+# Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
@@ -38,6 +38,7 @@ Write-Host '
 
 [37m(read down)[0m                                                                 [37mppe![0m
 [37m<------------------------------------------------------------------------------>[0m
+
 [37m  [0;1;37mHey purplee is talkin.[0m
   [1mi just wanna say that this is my first pic to natural.[0m
   [1mI dont know if i am going to join natural, i dont know.[0m [1mBtw i even[0m

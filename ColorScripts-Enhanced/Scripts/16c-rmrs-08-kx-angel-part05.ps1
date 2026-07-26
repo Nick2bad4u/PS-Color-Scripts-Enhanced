@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KX-ANGEL.ANS by Kxmode (rmrs-08); released in rmrs-08 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 197-246
+# Lines: 196-245
 # Columns: 1-80
 
 Write-Host '
+    [1m [0m [1m [0m.[1m  [0m.[1m     X[0m`` M ( [1m  x    :!~[0;1;30m"T#?MM!###!!~`*$R [0;1;37m.[0m(.UUW[1m  [0m`!!:[1m   .      [0m!(
 $ 4>[1m [0m [1m [0m@[1m  [0mC''[1m     [0m@R.*[1m.Le> $k         ''<.       [0m .9:[1m $$x$$$: "$[0m$$$[1m [0;35m:4![0;1;37mn. [0m [1m>[0m! %.[1m [0m
 " ''@[1m [0m@[1m [0m$[1m*''4[0m.[1m    H X[0mE[1m `[0m""''[1m $$  :x:XHeu `XX: [0;1;30m::''[0m!$[1m$6X''$?WZ$$$: #$$$>[0;35m!''X!![0;1;37m`[0m [1m [0m :''`[1m [0m
  ''.*[1m [0m*.[1mR  [0m""[1m  ~ # ""x[0m   [1m  *#XXU$[0mN[1m$$$Bk.!$$c[0;1;30m''X![0;1;37m>[0mM[1m$$X''$C??$R  u@$$$ [0;35m~ !!)[0;1;37m .   '' [0m
@@ -58,5 +59,4 @@ $[1m.  [0m"[1mT[0m''[1m.d!W$$$$$$[0mRTW[1m$$$$$$WM$$$$$$[0mR9[1m$$$[0m
 [1;30m$$$$$RI$$Z$$$$$R$5~*T?R$$@$T$Z@$T@@$$[0m$[1m9:   :f`<$B8[0m$R[1;30m>X4%!![0m~@[1m$X![0m8E[1m        *[0m= tX
 [1;30m$$RT$$$$B$8$$$$$BB)/?k$$$$$B$$$M$WM?$9@X[0;1;37m.  -`<$$$$$[0m$>[1;30mC!!!!:[0m$[1m$S[0m@![1m"r      "`[0m:es$
 [1;30m$$2$@R$@$$#$$$$$8X.t.!9Z6I$$$B$ZBMSM*ZM[0m6[1m     <$$$$$[0m$!&[1;30m`!!!~[0m*[1mS[0m$5[1m(d$.      "[0m*lR$
-[1;30m$$RB$$B$R$@$$R$$#!.-!tTW$$$$$$$$RMURXB@[0mM[1mL     #t$M$$![0m$[1;30m!!!!!''[0m$$[1m*F"*"       [0m!~ !
-→[0m'
+[1;30m$$RB$$B$R$@$$R$$#!.-!tTW$$$$$$$$RMURXB@[0mM[1mL     #t$M$$![0m$[1;30m!!!!!''[0m$$[1m*F"*"       [0m!~ ![0m'

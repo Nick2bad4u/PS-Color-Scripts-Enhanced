@@ -11,7 +11,7 @@
 # SAUCE Group: phat
 # SAUCE Date: 19961110
 # SAUCE Dimensions: 80x27
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -20,6 +20,7 @@ Write-Host '
 [37m  [0;35m▄[0m     [1;30mpicture by sht^fbk. not request.[0m [35m▌[0m   [35m▐[0;37m [0;1;30mn: muchos fleischos[0m  [1;45m▀[0;1;35;40m▓[0m
      [1;35m■[0;1;30m░[0m  [35m▄▄▄▄▄▄▄▄▄▄[0m    [35m▄▄▄▄▄▄▄▄▄▄[0m       [35m▄▓[0m   [35m▐[0;37m [0;1;30m4: tcr!''s hacienda[0m  [35m [0;1;35m▀[0m
 [1;35m░▄[0m                                          [1;30m░[0;35m▄▄[0m         [35m▄▄▄[0m     [35m■[0;37m [0;1;35m▀[0m            [1;30m░[0m
+
 
                                     [31m▄▄▄▄▄███[0;1;31;41m▄▄▄[0;31m█▄▄▄[0m       [31mhistoria hacienda[0m
                               [31m▄▄▄[0;1;37;41m▄[0;31m██[0;1;31;41m▄▄[0;1;31;40m████████[0;1;31;41m▓██▄▄[0;31m██▄[0m

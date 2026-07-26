@@ -8,7 +8,7 @@
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Ease (2 versions)
 # SAUCE Author: Dislogic & Necrolyte
-# Lines: 1-20
+# Lines: 1-21
 # Columns: 1-80
 
 Write-Host '
@@ -20,6 +20,7 @@ Write-Host '
 █[1m█[0;1;44m█▓▓█[0;1;47m▀[0m█▀ [34m█[0;1;34;44m███[0;1;34;47m█[0;34m█ [0;1;37m▄[0;1;37;47m▓[0;1;37;40m▄ [0;1;37;44m [0;1;34;44m██[0;1;34;47m▓▓[0;1;34;44m███[0;34m█ [0;1;37;47m░▄ [0m [34m█[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m█[0;34m█ [0;37m▀▀▀▀▀▀[0;1;37;47m░[0m [34m▐[0;1;34;44m▐██[0;1;34;47m▓▓[0;1;34;44m██[0;34m█ [0;37m▄[0;1;37;47m░[0m▄ [34m▓[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m█[0;34m█░[0;37m░[0;30;47m▓[0m [37;40m█[0;1;37;40m██[0;1;37;44m▓▓▓[0;1;37;47m█ [0m
 █[1m█[0;1;47m████[0m█ [30;44m▓▓[0;34;40m█[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m█[0;1;34;47m█[0;34;47m█[0;34;40m▄▄▄▄▄█[0;1;34;44m▀▀▀████[0;34m█ [0;37m▀▀▀ [0;34m█[0;1;34;47m█[0;1;34;44m██▄▄▄▄▄ [0;34m▌ [0;1;37;47m▒[0m [34m▐[0;1;34;44m▐██[0;1;34;47m█[0;1;34;44m███[0;34m█▄▄▄▄▄█[0;1;34;44m▀▀▀[0;34m█ [0;37m▄▄▄[0;37;47m [0;1;37;47m██████ [0m
 ██[1;47m▀▀▀▀▀[0m█▄ [34m█[0;1;34;44m▀▀▀▀[0;34m█▄▄▄▄ [0;37m▄▄ [0;34m█[0;1;34;44m▀▀▀▀[0;34m█▀▀▀▀▀█[0;1;34;44m▀▀▀▀▀▀▀▀▀[0;34m█▄▄▄█[0;1;34;44m▀▀▀▀▀▀▀[0;34m█▄▄▄ [0;37m▄▄▄▄▄▄▄[0;37;47m  [0;1;37;47m▀▀▀▀▀▀▀▀ [0m
+
 
 [1;30;40mnecrolyte''s remix version[0m
 

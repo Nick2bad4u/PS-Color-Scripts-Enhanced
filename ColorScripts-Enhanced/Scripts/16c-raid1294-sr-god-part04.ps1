@@ -11,7 +11,7 @@
 # SAUCE Group: RAiD
 # SAUCE Date: 19941126
 # SAUCE Dimensions: 80x25
-# Lines: 150-199
+# Lines: 151-200
 # Columns: 1-80
 
 Write-Host '

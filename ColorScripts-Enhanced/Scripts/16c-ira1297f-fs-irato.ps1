@@ -11,7 +11,7 @@
 # SAUCE Group: irato
 # SAUCE Date: 19971125
 # SAUCE Dimensions: 80x34
-# Lines: 1-33
+# Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
  [1;30m┌    │├┤└─┘├└─├┤┘└┐│     └─┤└├─┘└┐  ├┌└┐─┘├[0;32m┌┐─┘├[0;1;30m┤┌─┐└│┘├┌ ─┤┘┤┌┐─└┘┌└┐─┘├     [0m
 
 [1;35m┌┬┬┬┬([0;1;30m [0;1;34mcheckez ca en vga[0;1;30m [0;1;35m)┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┐[0m
+
 [35m et voila. une screen de plus pour le pack.. c''est mon premier logo full-screen[0m
 [35m pour irato et vous avez pas idee combien j''ai pus en arracher pour ecrire ca.[0m
 

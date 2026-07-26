@@ -10,7 +10,7 @@
 # SAUCE Author: drawzer
 # SAUCE Group: fuel
 # SAUCE Dimensions: 80x25
-# Lines: 1-37
+# Lines: 1-38
 # Columns: 1-80
 
 Write-Host '
@@ -42,6 +42,7 @@ Write-Host '
       [1m [0m_|[1m [0m|_
       ([1m [0m0[1m [0mo )                                                                 [1m  [0m
 ──[1m [0mOOO[1m [0m─ U ─[1m [0mOOO[1m [0m───────────────────────────────────────────────────────────────
+
  okah, im not dizzy, my sign'' is almost the same, but i[1mm [0mnot.
  allow me to introduce myself,im..[1m D[0;1;31mR[0;31mAWZER![0;37m (phear me.[0;1;37m.[0m)
  well, im proud to be now part of fuel.. and i just wan[1mn[0ma[1m [0msay

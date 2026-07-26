@@ -11,7 +11,7 @@
 # SAUCE Group: pHaT
 # SAUCE Date: 19961010
 # SAUCE Dimensions: 80x25
-# Lines: 1-25
+# Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
@@ -37,6 +37,4 @@ Write-Host '
 [1;30m▐████▌[0;34m■▄█████▀▀▀▀▀▀[0;37m [0;1;30m████████[0m [34m■▀▀▀███▄[0;37m [0;1;30m■[0m [34m▀▀▀█▄[0;37m [0;34m▀█[0;1;34;44m▀■[0;34m█▄■███▀▄■[0;1;30m▐█▄[0m [34m▀▀[0;37m [0;1;30m▄▄████████▌[0m
  [1;30m▀■███▄▄▄▄▄▄▄▄██████████████████▄▄▄▄▄▄████▄▄▄■■▄▄▄▄▄▄▄▄▄▄▄▄███████▀▀▀▀█████▀■[0m
     [1;30m▀▀▀▀▀ ▀▀[0m        [1;30m                                             [0m p[1;30mhat [0m
-          [1;30mya can request ansis from me from riku99@sci.fi[0m
-→SAUCE00Phat!                              insert
-   19960929└►  ☺☺P ↨                              [0m'
+          [1;30mya can request ansis from me from riku99@sci.fi[0m'

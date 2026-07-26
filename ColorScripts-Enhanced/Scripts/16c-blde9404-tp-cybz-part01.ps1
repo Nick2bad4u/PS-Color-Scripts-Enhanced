@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-CYBZ.ANS by Technophreak (blde9404); released in blde9404 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
+# Lines: 1-42
 # Columns: 1-80
 
 Write-Host '
@@ -49,4 +49,5 @@ Write-Host '
                    [1;31;43m▓[0;1;31;40m█ [0;1;31;43m▓▓▓[0;1;31;40m█▄▄[0m▀▀▀▀▀[1;31m▄▄▄▄████[0;1;31;43m▓[0;1;31;40m█▄▄▄[0m▀▀▀▀▀▀[1;31m▄▄████ █[0;1;31;43m▓[0m
                    [1;31;43m▒▒[0;1;31;40m█▄▀[0;1;31;43m▓▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m██████████▌[0;1;31;43m▓▓[0;1;31;40m█████████████▀▄██[0;1;31;43m▓[0m
                   [1;31;40m▐[0;1;31;43m▒▒[0;1;31;40m███ [0;1;31;43m▓▓▓[0;1;31;40m█[0;1;31;43m▓▓▓[0;1;31;40m████████ █[0;1;31;43m▓▓▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m████████ ███[0;1;31;43m▓[0;1;31;40m█▌[0m
-                  [1;31;43m▓▒[0;1;31;40m████▌▀█[0;1;31;43m▓▓▓[0;1;31;40m█[0;1;31;43m▓▓[0;1;31;40m████▀▀▄▄▄▀▀[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓▓▓▓[0;1;31;40m████ ███[0;1;31;43m▓▓▓[0;1;31;40m█[0m'
+                  [1;31;43m▓▒[0;1;31;40m████▌▀█[0;1;31;43m▓▓▓[0;1;31;40m█[0;1;31;43m▓▓[0;1;31;40m████▀▀▄▄▄▀▀[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓▓▓▓[0;1;31;40m████ ███[0;1;31;43m▓▓▓[0;1;31;40m█[0m
+                 [1;31;40m▐█[0;1;31;43m▓[0;1;31;40m█▄████▄▄▀▀▀▀▀▀▀▄▄███[0;1;31;43m▓[0;1;31;40m███▄▄▀▀▀▀▀▀▄▄█████████[0m'

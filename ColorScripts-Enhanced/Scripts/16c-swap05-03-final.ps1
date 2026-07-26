@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 03-FINAL.ANS by Pariah + Black Viper + Widowmaker + Cheeze + Vade79 + Flame + Darkflame (swap05); released in swap05 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
+# Lines: 1-44
 # Columns: 1-80
 
 Write-Host '
@@ -29,6 +29,7 @@ Write-Host '
 [1;32;40m▌[0;36m [0;37m█[0;1;37;47m▄▓████████▄▄░[0m█▀[1m▀▀▀[0;1;47m▀[0;1;40m██▀▀[0m▀▄▄▄▄[1;47m░▄▄▄[0m█▓▄░░      ▐▌[1;35m  ▐█[0;1;35;45m▓[0;1;35;40m█[0;1;35;46m▀■▄▄[0;36m█[0;1;33;46m░▌[0;1;36;46m░[0;1;33;46m▌░[0;36m█[0;1;33;46m░░[0;36m██[0;1;33;46m▀▌[0;1;34;46m▄[0;1;34;44m▓[0;1;34;46m▌[0;36m█[0;1;34;46m░▒▓[0;1;34;40m█[0;1;34;44m▓[0m
 ░▐[1;47m▐▓████[0m██[1;47m░▀▀▓██▄▄▄[0m█[1;47m▄[0m█▄▄▄█[1;47m▄▓███▀▓██▌[0m█▓█▓▓▒░     [1;35m   [0;1;35;45m▓[0;1;35;46m▓▒░[0;36m██[0;1;32;46m░[0;1;37;46m░[0;36m█[0;1;33;46m▌[0;36m█[0;1;36;46m░[0;36m▀▀▀ [0;1;32;46m░[0;36m█[0;1;36;46m░▒░[0;1;34;46m▓▀░▒▓[0;1;34;40m█[0;1;34;44m▓[0;1;34;40m█[0m
  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░      [1;35m   ▀▀▀[0;36m▀▀▀▀▀▀▀▀▀▀▀▀     ▀▀▀▀[0;1;34m▀▀▀▀▀[0m
+
                                ▄▄▄▄
                ▄[1;31m [0m▀              [1;47m░░[0;1;31;47m░[0m█   [31m▄[0m   [31m▀[0;1;31m  [0;31m▄[0;1;31m▄[0;31m▄[0m
               [37m▐▌[0m                [1;31m▐[0;1;31;47m░▓░▓[0;1;31;40m▀[0m         [31m▀[0;1;31;41m▀[0;1;31;47m▓[0;1;31;41m▌[0;31m▌[0m

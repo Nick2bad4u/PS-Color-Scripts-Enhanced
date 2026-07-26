@@ -11,7 +11,7 @@
 # SAUCE Group: Hieroglyphics
 # SAUCE Date: 20001011
 # SAUCE Dimensions: 80x32
-# Lines: 1-31
+# Lines: 1-32
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
 [1;37;40m████████████████████████████████████████████████████████████████████████████████[0m
 [1;37;40m████████████████████████████████████████████████████████████████████████████████[0m
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
 [1;33m nitrifik [0;35m>> [0;37mhieroglyphics[0m
 
 [1;30m Not intended to be anything of the following; good, revolutionary, original, [0m

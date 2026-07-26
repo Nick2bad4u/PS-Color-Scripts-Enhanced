@@ -8,11 +8,12 @@
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Sod JiVE whq
 # SAUCE Author: Zippy
-# Lines: 1-25
+# Lines: 1-26
 # Columns: 1-80
 
 Write-Host '
                                         [35m  [0m
+[31m▄▄▄▄▄▄▄[0;37m [0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;31;41m▄▄▄░[0m [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [31m█[0;1;31;41m░[0;31m█████[0;37m [0;1;31;41m ▓█▌[0m [31m▄▄▄▄▄▄▄ [0;1;31;41m ▀▀▀░[0m [1;31;41m ███▓ [0;31m ▄ █[0;1;31;41m██████▓░[0m [1;31;41m░██▓▀[0;31m█[0;37m [0;31m▄[0;37m [0;1;31;41m ▓█████▓[0;31m█[0;37m [0;31m████████████[0;1;31;41m░▒[0;31m█[0m
 [31m███████ ▀▀▀▀[0;37m [0;31m▀▀▀▀▀▀▀[0m      [31m ▀▀▀▀▀▀ ▀[0;37m [0;31m▀▀▀▀▀▀▀▀▀[0;37m [0;31m▀▀▀▀▀▀[0;37m [0;31m▀ ▀▀▀▀▀▀▀▀▀[0;37m [0;31m▀▀▀▀▀▀▀▀█████[0;1;31;41m░[0;31m█[0m
 [31m█▓▓▓▓██[0;37m [0;1;35m▀▀▀▀[0;35m▀[0;1;35m▀[0;35m▀▀▀▀▀[0;1;31;45m    [0;1;37;45m ▄[0;1;31;45m [0m [1;35;45m█▀▀[0;1;31;45m [0;1;35;45m▀[0;1;37;45m▄[0;1;31;45m [0m [1;35;45m█▀[0;35m██[0;1;35;45m▀[0;35m█████ [0;1;35;45m█▀▀[0;1;31;45m [0;1;35;45m▀[0;1;37;45m▄[0;1;31;45m [0m [1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀▀▀▀▀▀▀[0;1;31;45m    [0;1;37;45m ▄[0;1;31;45m [0m [31m█▓▓████[0m

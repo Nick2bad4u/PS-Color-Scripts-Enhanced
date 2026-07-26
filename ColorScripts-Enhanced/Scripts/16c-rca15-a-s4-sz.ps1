@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S4-SZ.ANS by Static Addiction (rca15-a); released in rca15-a and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -33,6 +33,7 @@ Write-Host '
 [37m▄[0;1;30;47m░▓[0;1;30;40m▄[0;35m▀▄[0;1;30m▀▀[0;1;30;47m▓[0;1;30;40m▄▄▌[0;35m▐▌[0;1;30m▐▌[0;35m▐▌[0;1;30m▐▓▀▀▀[0;1;30;47m▓[0;30;47m░[0;1;30;47m▓▓[0;1;30;40m█▄▄[0m  [34m▐▌[0;1;30m▐[0;1;30;47m▓[0;1;30;40m▌[0;34m▐▌[0;1;30m▐[0;1;30;47m▓▓[0;1;30;40m▄[0m  [1;30m▀[0;1;30;47m▓[0;1;30;40m██[0m [1;30m█[0;1;30;47m▓▓[0;1;30;40m▓█[0m [1;30;47m▒▓[0;1;30;40m█[0;1;30;47m▓▓[0;1;30;40m▄▄▄[0;35m▀▀▄▀██▀[0;1;30m▄▄▄█▓▓[0;1;30;47m▓▓[0;1;30;40m▌[0m
 ▐█[1;30;47m░▓[0;1;30;40m▀▄[0m [35m▀[0;1;30m▄[0;1;30;47m▓▓[0;1;30;40m▓▄[0;35m▀▄▄▀[0;1;30m▄[0;1;30;47m▓[0;1;30;40m▄[0;35m▀[0;1;35m▀[0m [1;30m▄[0;1;30;47m▓░▒▓[0;1;30;40m█▓▌▐▄[0;34m▀[0;37m [0;34m▄▄▀[0;1;30m▄[0;1;30;47m▓░▓[0;1;30;40m▄▄[0;34m▀▀[0;1;30m▄▄[0;1;30;47m▓[0;1;30;40m▌▐█▓▓▌[0m▐[1;30;47m░▒▓[0;1;30;40m██▓▓▀▀▌[0;35m▐▌▐█▌[0;1;30m▐▓▀[0;35m▄[0;1;35m▄▄[0;35m▄[0;1;30m▀█[0m
 ▀[1;30;47m░▓[0;1;30;40m▄▓▄[0;1;30;47m▓▓[0;1;30;40m▄▄▄▀▀▀▄▄[0;1;30;47m▓▒░▓[0;1;30;40m██[0;1;30;47m▓▒░ ░▒▓[0;1;30;40m▀▀[0m [1;30m▀[0;1;30;47m▓▓[0;1;30;40m▄▄█[0;1;30;47m▓░ ░▓[0;1;30;40m███[0;1;30;47m▓▒▓[0;1;30;40m█▄█▀▀[0m▄█[1;30;47m░░[0;1;30;40m▀▀[0m [1;30m▄▄▄[0;1;30;47m▓▓[0;1;30;40m▄▄▄▄▄[0;1;30;47m▓▓[0;1;30;40m█▄▄▄▄[0;1;30;47m▓[0;1;30;40m▌[0m
+
 [1;30mshatter zone ansi for kitiara and starlord.. [0m
 [1;30mi have new respect for the work that tna does.. damn.. it takes LONG to do this[0m
 [1;30mtype of ansi.[0m

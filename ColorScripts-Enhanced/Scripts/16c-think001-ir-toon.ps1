@@ -11,7 +11,7 @@
 # SAUCE Group: think
 # SAUCE Date: 19971125
 # SAUCE Dimensions: 80x38
-# Lines: 1-37
+# Lines: 1-38
 # Columns: 1-80
 
 Write-Host '
@@ -50,4 +50,5 @@ Write-Host '
 
 
 ////////////////////////////////////////////////////////////////////////////////
+
 my first toon...i know..i know..it could use a noze job..;)[0m'

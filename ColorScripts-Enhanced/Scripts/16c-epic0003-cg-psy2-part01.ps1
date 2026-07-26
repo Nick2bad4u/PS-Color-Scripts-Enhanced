@@ -11,11 +11,12 @@
 # SAUCE Group: Epic
 # SAUCE Date: 19990825
 # SAUCE Dimensions: 80x83
-# Lines: 1-41
+# Lines: 1-42
 # Columns: 1-80
 
 Write-Host '
 e[1mpicansi[0m                                                               c[1mryogenic[0m
+
      [30mi KNOW its off-centre... i dont care... =)[0m
                                                               [35m▐[0m
                       [35m▄▄[0m     [35m▬[0m      [35m▄█▄[0m   [35m▄▄[0m           [37m [0m      [35m▐[0m     [35m▬[0m

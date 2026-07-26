@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VD!RAGE.ANS by Vigod (rage9605); released in rage9605 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
+# Lines: 1-20
 # Columns: 1-80
 
 Write-Host '
@@ -27,4 +27,5 @@ Write-Host '
 [33;47m▒       ▒[0;33;40m [0;33;47m▒░░░░▒▒▒▒[0;1;33;40m [0;33;47m▒▒▒▒░░  ▒[0;1;30;40m [0;33;47m▒       ▒[0;1;30;40m [0;33;47m▒░░░░░░░▒[0;1;30;40m  [0;33;47m▒       ▒[0;1;30;40m [0;33;47m▒       ▒[0;1;30;40m [0;33;47m▒░░░░░░░▒[0m
 [33;47m▓       ▓[0;33;40m [0;33;47m▓       ▓[0;1;33;40m [0;33;47m▓░░     ▓[0;1;30;40m [0;33;47m▓       ▓[0;1;30;40m [0;33;47m▓       ▓[0;1;30;40m  [0;33;47m▓       ▓[0;1;30;40m [0;33;47m▓       ▓[0;1;30;40m [0;33;47m▓       ▓[0m
 [33;47m█▄▄▄▄▄▄▄█[0;33;40m [0;33;47m█▄▄▄▄▄▄▄█[0;1;33;40m [0;33;47m█▄▄▄▄▄▄▄█[0;1;30;40m [0;33;47m█▄▄▄▄▄▄▄█[0;1;30;40m [0;33m▀[0;33;47m▄▄▄▄▄▄▄█[0;33;40m▄▄[0;33;47m█▄▄▄▄▄▄▄[0;33;40m▀[0;1;30;40m [0;33m▀[0;33;47m▄▄▄▄▄▄▄█[0;33;40m▄█[0;33;47m▄▄▄▄▄▄▄[0;33;40m▀[0m
+
 [1;36;40m──[0m [33mv[0;37m [0;1;36m───── [0;33mI[0;1;36m ─────[0m [33mG[0;37m [0;1;36m───── [0;33mo[0;37m [0;1;36m─────[0m [33md[0;37m [0;1;36m─────[0m [1;33m/[0m [1;36m─────[0m [36mR[0;37m [0;1;36m─────[0m [36mA[0;37m [0;1;36m───── [0;36mG[0;37m [0;1;36m─────[0m [36mE[0;37m [0;1;36m───[0m'

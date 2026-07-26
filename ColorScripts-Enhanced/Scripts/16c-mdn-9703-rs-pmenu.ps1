@@ -11,7 +11,7 @@
 # SAUCE Group: Maiden Brazil
 # SAUCE Date: 19970221
 # SAUCE Dimensions: 80x28
-# Lines: 1-27
+# Lines: 1-28
 # Columns: 1-80
 
 Write-Host '
@@ -36,6 +36,7 @@ Write-Host '
      [1;30m[[0;1;37mx[0;1;30m][0m [1ma[0;1;32mdven[0;32mtures [0;1;30mof lolo [0m [1;30m[[0;1;37mx[0;1;30m][0m [1mb[0;1;32meavi[0;32ms & bu[0;1;30mtthead[0m   [1;30m[[0;1;37mx[0;1;30m][0m [1mo[0;1;32mk, t[0;32mhe end[0m
 
 [1;30m------>8---cut cut cut cut ctu ctu tcu cctutcut ctunct cutn cunt cunt cunt------[0m
+
   [36mle comentés[0m
 [37m  [0;36m-> this menuset is done for [0;1;36mhexadecimal[0;36m, sysop of [0;1;36mparanoia[0m
   [36m-> requested ''alive'' on the meganet meeting (feb/1996)[0m

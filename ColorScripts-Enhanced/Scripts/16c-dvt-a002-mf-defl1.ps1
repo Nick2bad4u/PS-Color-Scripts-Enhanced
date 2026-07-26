@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-DEFL1.ANS by Mangafan (dvt-a002); released in dvt-a002 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
+# Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
@@ -37,6 +37,7 @@ Write-Host '
                         [1;34m▀█▄▄▄▄█▀[0m     [1;34mFIRST[0m [1;34mEDITION[0m [1;34mOUT[0m [1;34mMID[0m [1;34mOCTOBER[0m
 [1;34m================================================================================[0m
 [1;36mDEF LINE, a new 100% top secret disc mag by a bunch of guys who know their stuff[0m
+
               [1;36mDEF LINE is brought to you by the followin[0m [1;36mgroups...[0m
                            [1;36mBLACKTRON[0m [1;36mPRODUCTIONS[0m
                                  [1;36mDEATH ROW[0m
@@ -52,8 +53,8 @@ Write-Host '
              [1;36mRAMIREZ :[0m [1;36mFor spreading the damn thing around the globe.[0m
              [1;36mSKULLRAZOR : Sum more articles.[0m
              [1;36mMANGAfan : It''s me, and I write sum more articles too :).[0m
-[1;34m===============================================================================[0m
-[1;36m/[0;1;34m\/\ /┤ ∩ Ç /┤ ƒ /┤ ∩[0m
+[1;34m================================================================================[0m
+                                                        [1;36m/[0;1;34m\/\ /┤ ∩ Ç /┤ ƒ /┤ ∩[0m
                            [1;36mF[0;1;34mor[0m [1;36mq[0;1;34muestions,[0;34m [0;1;36mc[0;1;34montact...[0m
 
                                 [1;36mB[0;1;34mBS:[0m [1;36mR[0;1;34mavebase[0m

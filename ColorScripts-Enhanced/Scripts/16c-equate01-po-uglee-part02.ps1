@@ -6,14 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: po-uglee.ans by Portia (equate01); released in equate01 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 44-93
+# Lines: 48-93
 # Columns: 1-80
 
 Write-Host '
-        [1;33m░░[0m                        [36m░[0;37m [0;1;36m▀[0m [36m▄▐[0;1;34;46m░▄[0m
-        [1;33m░░[0m                     [1;31m░[0;36m░[0;37m [0;1;33m▄██▄▄[0;36m▀[0;1;32;46m [0;1;36;46m░[0;1;34;46m▀[0;36m░[0m
-        [1;33m##[0m                       [1;33m█▀██▀▓█▄[0;36m▀▓▓▌[0m
-        [1;33m##[0m                       [1;33m▐███[0;1;33;44m█▄[0;1;33;40m▄█▌[0m [36m░░[0m
         [1;33m##[0m                   [1;33m░░  [0m [1;33m▀▓████▀[0m [1;31m░░[0m
         [1;33m33[0m                    [1;35m▄[0;1;33m▄[0;1;33;45m▄[0;1;33;40m██▄▄█▀[0;1;35;40m▄[0;35m▄[0;1;35m▒[0;1;35;45m▄[0;1;33;45m▀[0;1;33;40m▄ [0;1;37;40m▀▄[0m
         [1;33m33[0m            [1mugle3ee[0;1;33m▐[0;1;37m█[0;1;33m█████▄█[0;1;33;45m▓▄[0;1;35;40m▒[0;1;33;45m▒[0;1;35;45m░[0;1;33;45m [0;1;35;40m▒[0;1;33;40m▌[0m

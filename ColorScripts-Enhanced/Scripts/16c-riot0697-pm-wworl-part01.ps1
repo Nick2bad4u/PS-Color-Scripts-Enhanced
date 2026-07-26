@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-WWORL.ANS by Precious Metal (riot0697); released in riot0697 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -36,4 +36,6 @@ Write-Host '
 [1;30m$$$$$$$$$$$s,[0;36m `²$[0m                                        [1;30m''''   [0m    [1;30m,s$$$$$$$$$$$$[0m
 [1;30m$$$$$$$$$$$s,[0m [1;30m.[0m [1;33m,s$,[0m                            [1;33m,s$,[0m         [1;33m,s$$s[0m [1;30m,s$$$$$$$$$$$[0m
 [1;30m$$$$$$$s,²[0;1;33m,s$,[0m  [1;33m$::$[0m                            [1;33m$::$[0m         [1;33m$::$[0m [1;30m,s$$$$$$$$$$$$[0m
-[1;30m$$$$$² [0m   [1;33m$::$[0m  [1;33m$::$[0m                            [1;33m$::$[0m         [1;33m$::$[0m [1;30m,s$$$$$$$$$$$$[0m'
+[1;30m$$$$$² [0m   [1;33m$::$[0m  [1;33m$::$[0m                            [1;33m$::$[0m         [1;33m$::$[0m [1;30m,s$$$$$$$$$$$$[0m
+[1;30m$$$²[0;1;33m,s$,[0m  [1;33m$::$[0m  [1;33m$::$[0m                            [1;33m$::$[0m         [1;33m$::$[0m [1;30m,s$$$$$$$$$$$$[0m
+[1;30m$s,[0m [1;33m$::$[0m  [1;33m$::$[0m  [1;33m$::$[0m                            [1;33m$::$[0m         [1;33m$::$[0m [1;30m,s$$$$$$$$$$$$[0m'

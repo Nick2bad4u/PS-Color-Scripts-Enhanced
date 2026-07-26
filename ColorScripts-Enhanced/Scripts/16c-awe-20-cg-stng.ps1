@@ -50,5 +50,5 @@ Write-Host '
 
 [1;30mcryogenic[0m [1;30m- force[0m
 
-[1;30mps. fuck... i forgot.. sting changed his nick like 4 months ago... =)  oh well.a[0m
-[1;30mnybody called sting can use this then.. =)[0m'
+[1;30mps. fuck... i forgot.. sting changed his nick like 4 months ago... =)  oh well..[0m
+    [1;30manybody called sting can use this then.. =)[0m'

@@ -6,11 +6,12 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ASCII-08.ANS by Konami (ttdmisyk); released in ttdmisyk and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
+# Lines: 1-37
 # Columns: 1-80
 
 Write-Host '
 [35m-[0;37m [0;1;37mkONAMIkUN[0;35m-- [0;1;37makira toriyama styles[0;35m//[0;37m [0;35m------------------------------------------[0m
+
     [1;37mODELAY[0;35m||[0m                  [35m,,n[0;1;35mnnnnn[0;1;37mn,,[0m         [35m_____[0m
     [1mASCII![0;35m||[0m           [35m,n[0;1;35mnNNÑÑÑÑÑÑÑÑÑÑ[0;1;37mÑÑÑÑn[0;1;35m     [0;35mnN[0;1;35mNÑÑÑÑNNnn,,[0m
                     [35m,n[0;1;35mÑÑÑÑÑÑÑÑÑÑÑÑÑ[0;35mÑÑ[0;1;35m`````[0;35m-----Ñ[0;1;35mÑ[0;1;37mÑÑÑÑÑÑÑÑÑ[0;1;35mÑÑÑNn[0m
@@ -44,5 +45,5 @@ Write-Host '
                                    [1;31m  [0;36m``²²ÑÑ[0;1;37m▓▓▓▓[0;1;36mÑÑÑÑÑ∩n[0;36m, [0m
    [35m"[0;1;37m nothing is impossible[0m       [1mnÑÑÑÑ[0;1;31mnn,[0;1;37m [0;36m``²²[0;1;36mÑÑÑÑÑÑÑÑ[0;36mÑÑ[0;1;36mn,[0;1;37m  [0m
        [1m.. for us!![0m [35m""[0m          [1;37m;ÑÑÑ▓▓▓▓[0;1;31mÑÑÑ7[0m   [1;36m ``²²ÑÑÑ[0;36mÑÑÑÑ[0;1;36mn[0;36m [0m
-[35m------------------------------[0;37m [0;1;37mÑÑÑÑ▓▓▓▓[0;1;31mÑÑ7[0m [35m--------[0;36m [0;1;36m`[0;36m`²²ÑÑÑ[0;1;36m7[0;36m [0;35m------------------[0;1;37m`[0m
-[1;37mÑÑÑ[0m                                [1;31mÑÑ²²`[0m                  [1;36m```[0m'
+[35m------------------------------[0;37m [0;1;37mÑÑÑÑ▓▓▓▓[0;1;31mÑÑ7[0m [35m--------[0;36m [0;1;36m`[0;36m`²²ÑÑÑ[0;1;36m7[0;36m [0;35m-------------------[0m
+                               [1;37m`ÑÑÑ[0;1;31mÑÑ²²`[0m                  [1;36m```[0m'

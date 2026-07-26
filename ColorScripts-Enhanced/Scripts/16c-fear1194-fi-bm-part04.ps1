@@ -11,7 +11,7 @@
 # SAUCE Group: [FEAR]
 # SAUCE Date: 19941104
 # SAUCE Dimensions: 80x189
-# Lines: 144-188
+# Lines: 145-189
 # Columns: 1-80
 
 Write-Host '
@@ -58,5 +58,5 @@ Write-Host '
 [1;30m  a font book...[0m
 [1;30m  Hellblazer ■ Remember, this was done for 50 lines...  [0m
 [1;30m  Azrael ■ I''m checking with Cynical Servant right now![0m
-[1;30m────────────────────────────────────────────────────────────────────═[0;31m═[[0;1;31mF[0;31mEAR]═[0;1;30m═─[0;31mC[0m
-[31mOPREZ[0m'
+[1;30m────────────────────────────────────────────────────────────────────═[0;31m═[[0;1;31mF[0;31mEAR]═[0;1;30m═──[0m
+                                                                      [31mCOPREZ[0m'

@@ -38,8 +38,8 @@ Write-Host '
 [1;36m█[0;1;36;46m█▀[0;36m█████▌[0;37m [0;31m▄▓▓█▓██▓▓▀[0;37m [0;31m▀▓▒▀████████▓████[0;1;31m [0;31m▒▀▀████▌[0;1;31m [0;36m██████[0;1;36;46m░▒[0;36m██████████████████████[0;1;36;46m▓[0m
 [1;36;46m▓▄▄[0;36m████▄▄[0;37m  [0;31m▀█[0;1;33;41m░[0;31m▒▀[0;36m         [0;37m [0;31m▀▀▓▓▓▀▀▒▀▀[0;37m [0;36m [0;37m [0;31m░[0;36m   [0;37m [0;31m▀▓▀[0;36m▐███████[0;1;36;46m░[0;36m█████████████████████[0;1;36;46m▄█[0m
 [1;36m▀█▀▀▀[0;36m▀▀▀█▌▄[0m   [31m░[0;36m                 [0;37m [0;31m░ [0;36m         [0;31m■▒[0;1;31m [0;36m▀██████████████████████[0;1;36;46m▄▄▄[0;1;36;40m██[0;1;36;46m▓[0;1;36;40m███[0;36m [0m
-[1;30m------------------------------(Greetz)--------------------------------------[0;1;36m▀[0;1;30m--S[0m
-[1;30mup all.. I would like to send greetz out to: [0;1;37mall the boyz on IRC and the  [0m
+[1;30m------------------------------(Greetz)--------------------------------------[0;1;36m▀[0;1;30m---[0m
+   [1;30mSup all.. I would like to send greetz out to: [0;1;37mall the boyz on IRC and the  [0m
 [1mgalz! ≈)...Free Fall, Axiom, WatOr, Silver Spy, The 4th Disciple, Hermes,[0m
 [1mMaster of Darkness, The Red Death, Access Denied.. and any other Hypist.. [0m
 [1;30mIf you like to join or be a guest look for Tri^hype on IRC or catch me at 4i6[0m

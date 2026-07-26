@@ -11,7 +11,7 @@
 # SAUCE Group: twiSted
 # SAUCE Date: 19970624
 # SAUCE Dimensions: 80x26
-# Lines: 1-25
+# Lines: 1-26
 # Columns: 1-80
 
 Write-Host '
@@ -39,4 +39,5 @@ Write-Host '
 [33m▄[0;37m  [0;1;33;43m░[0m       [31m▀▀[0;1;31;41m░▀▀▀[0;31m█[0;1;31;41m▓▀▀▀[0;31m▀▀[0;37m  [0;1;37m▀[0;1;37;47m [0;1;37;42m▀░[0;1;37;40m█[0m         [33m▄  [0m                  [1;37m [0m   [33m▄▄▄▄▄▄[0m    [33m▄[0m
                 [31m▀▀▀[0;37m [0m        [1;37m▀▀[0m                                             [33m▀[0m
 [36m---[0;1;33m([0;1;36m cut [0;1;33m)[0;36m-[0;1;33m([0m [1;36mfaded ambition [0;36m,[0;1;36m requested from toth[0m [1;33m)[0;36m----------------------------[0;1;36m [0m
+
 this ones for my buddy Toth. Hope ya like it dude ;)[0m'

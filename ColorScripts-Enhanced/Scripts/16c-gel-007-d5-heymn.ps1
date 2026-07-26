@@ -11,7 +11,7 @@
 # SAUCE Group: gel
 # SAUCE Date: 19970903
 # SAUCE Dimensions: 80x25
-# Lines: 1-36
+# Lines: 1-37
 # Columns: 1-80
 
 Write-Host '
@@ -42,6 +42,7 @@ Write-Host '
 [1;40m        [0;1;47m█                         d5 - i wish i woulda met u, i''d say nice shot [0m
 [1;40m        [0;1;47m█                                                                       [0m
 [1;30;40m-[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-[0;1;36m   Shhnip!   [0;1;30m·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+[1m■[0m+[1;30m-·-[0m+
+
 [1mH[0mey y''all i''m back again... i''ll try to do more ansis in the future but i''ve
 been so !%*()&in busy u wouldn''t believe it... moving once is bad enuff but
 moving somewhere else within the week?! ack... ummm i coulda gone to vancouver

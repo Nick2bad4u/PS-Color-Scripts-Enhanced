@@ -6,11 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DFORCE2.ANS by Senator (tst-july); released in tst-july and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 40-73
+# Lines: 41-75
 # Columns: 1-80
 
 Write-Host '
-                             [37m██[0m      [37m██   ██   ▀█ █▀[0m
                              [37m▀▀[0m      [37m▀▀   ▀▀[0m     [37m▀[0m
                         [37m▄▄▄[0m        [37m▄[0m      [37m▄▄▄[0m     [37m▄▄   ▄▄[0m
                        [37m██  █▄    ▄█ █▄   ██  █▄   ██   ██[0m
@@ -35,8 +34,10 @@ Write-Host '
 
            [31m──────────────────────────────────────────────────────────[0m
      [31m══════════════════════════════════════════════════════════════════════[0m
-[31m───────────────────────────[0;36m·∙■ TST Member Board ■∙·[0;31m─────────────────────────────[0m
-[36m·∙■ 19.2oo TΣRbΘ SpΣΣD ■·∙■ Ru∩∩i∩ u∩dα PcBΘαRd 15.1 ■∙· ΘvΣr 500MB Hd-SpαcΣ ■∙·[0m
+[31m────────────────────────────────────────────────────────────────────────────────[0m
+                           [36m·∙■ TST Member Board ■∙·[0m
+[36m·∙■ 19.2oo TΣRbΘ SpΣΣD ■∙·  ·∙■ 24 HΘuRz Θ∩li∩Σ ■∙·  ·∙■ ΘvΣr 500MB Hd-SpαcΣ ■∙·[0m
+                        [36m·∙■ Ru∩∩i∩ u∩dα PcBΘαRd 15.1 ■∙·[0m
        [36m·∙■ SµSφP: SENATOR ■∙·[0m                      [36m·∙■ CφSµSφP: HAGIE ■∙·[0m
         [36m·∙■ KΣWL DΣmΘ CΘllΣcTiΘ∩s ■∙·    ·∙■ KΣWL AnSi CΘllΣcTiΘ∩s ■∙·[0m
                            [36m·∙■ MΣGα PPE SuPPφRt ■∙·[0m

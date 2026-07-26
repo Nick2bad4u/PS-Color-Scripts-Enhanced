@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MT-SATRN.ANS by Morbid Thought (fos-0196); released in fos-0196 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -35,4 +35,5 @@ Write-Host '
 [1;34m████▓▀▀[0m [32m█[0;1;30m▀[0;1;30;47m▄[0m██[1;30;47m▀▄[0m██[1;30;47m▄[0;1;30;40m▀[0;1;30;47m▓[0m██▄▄█[1;30;47m▄[0;1;33;40m▐[0m [1;30;47m▄[0m██ [1;30;47m▓[0m██▄██[1;30;47m █[0m [1;30;47m█[0m█▌[1;33m▄▄[0m▐█ [1;30m▄[0m█[1;30;47m▐[0;1;33;40m▀▄[0;1;30;40m▐[0m██[1;30m▌[0;1;33m▐███[0m [1;30m▄[0m█[1;30m [0;1;33m█[0;32m█[0;37m  [0;1;34m▀████▀▀▀▀█[0m
 [1;33m▄▄▄▄▄▄[0;1;33;42m▄[0;32m█[0;1;33m██▄[0;1;30m▀[0m▀▀▀▀[1;30m▀[0;1;33m▄█▄[0;1;30m▀[0m▀▀▀[1;30m▀[0;1;33m▄▄[0;1;30m▀[0m▀▀▀▀ ▀▀▀▀ [1;30m▀[0m [1;30m▀[0m▀▀▀[1;33m▄█▄[0m▀▀▀▀▀▀ ▀▀▀▀ [1;33m▀▀[0m ▀▀[1;30m▀[0;1;30;47m▓[0;1;30;40m [0;1;33;40m█[0;32m█[0;1;33;42m▄[0;1;33;40m▄▄▄▄▄▄[0;1;33;42m▄▄[0;32m▄▄[0m
 [1;30;47m        [0m████████████████[1;30;47m put some stats here or sumthin[0;47m█████████████████████[0;40m████[0m
+
                          [1;36;40m  [0m  ▄▄▄  [1;36msup'' whore[0m  ▄▄▄[0m'

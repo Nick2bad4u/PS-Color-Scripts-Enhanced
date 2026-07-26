@@ -12,7 +12,7 @@
 # SAUCE Date: 19940609
 # SAUCE Dimensions: 80x81
 # SAUCE Comments: Call Street Rage To Apply To MiiS (8i3)785-9308
-# Lines: 47-81
+# Lines: 48-82
 # Columns: 1-80
 
 Write-Host '

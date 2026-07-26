@@ -11,7 +11,7 @@
 # SAUCE Group: apathy
 # SAUCE Date: 19960227
 # SAUCE Dimensions: 80x30
-# Lines: 1-28
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -34,11 +34,13 @@ succotash
 
 
 --------------------------------------------------------------------------------
+
 well, thats all for this month..  been busy.. i just wanna release my first ansi
 with some greets on it..  *grin*  ..greets go out to trip, misfit (kissing up to
 the bosses)  f3, chromedego  (dunno if i spelled it right?!)  radman, nootropic,
 epidemic,  spear, khz  (the up-and-coming best ansi artist)  lord jazz  (just so
 people think i''m cool)  asphix, nG, kadaver, lemonade, kal, fractal, point blank
 (whatever your new name is) and all the peeps i forgot..                   lates
+
 
 wurl@earthlink.net                                                        shoony[0m'

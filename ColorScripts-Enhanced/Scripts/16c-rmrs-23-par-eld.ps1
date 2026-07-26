@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-ELD.ANS by Pariah (rmrs-23); released in rmrs-23 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
+# Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
@@ -32,7 +32,4 @@ Write-Host '
          [31m`^[0;1;31m''ⁿ[0;31m''[0;37m [0;31m;[0;1;31m$$$$$$$[0;31m;[0;37m [0;31m`╙╨[0;1;31m╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨[0;31m╨╜[0;33m [0;1;31m$$$$$[0;31ml[0;37m [0;31m;[0;1;31m$$$$$$$[0;31m;[0;37m [0;31m)[0;1;31m$P[0;31mⁿ''[0;37m      [0m
 [37m([0;1;37mc[0m) [1mPariah[0m      [31m`[0;1;31mⁿ╨╩╨ⁿ[0;31m''[0;37m                                     [0;31m`[0;1;31mⁿ╨╩╨ⁿ[0;31m''[0;37m             [0m
 [37m                             [0m
-                       [37m                  [0m
-→SAUCE00Eldorado                           Pariah
-   19980328v♂  ☺☺P ↑     ☻                       ☺☺P ▬     ☻[0m
-'
+                       [37m                  [0m'

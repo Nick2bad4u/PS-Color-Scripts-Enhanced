@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ASCII.ANS by Prizm + Discyple (tus-05); released in tus-05 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
+# Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
 [1;30masciiscene.org[0;35m┌┐$$$$$$$$$$$$$$$$$$$.[0;37m [0;35m$[0;1;35m$$[0;35m$b.[0m         [36m.d$$b[0;1;32m$$$b[0;36m.[0;1;32m$$[0;32m`[0;1;32m4$b[0;36m.[0;37m [0;36m$$[0;37m  [0;36m$$  [0m
               [35m└┘[0m        [35m`└*⌂⌂*┘''[0;37m [0;35m`└┘[0;37m  [0;35m`└*┘''[0m      [36m.[0;37m [0;36m└┘''``[0;1;32m''$$`4$$$[0m  [32m`[0;1;32m4$[0;36mb$$[0;37m  [0;36m$$   [0m
                                                               [36m$$[0m   [36m `$$$[0;37m  [0;36m$$    [0m
+
 
       [1;37masciiscene.org  - drugs, guns, violence, and sex[0m
 [1m   [0;1;36m;[0m  [1mand let''s not forget ice[0m

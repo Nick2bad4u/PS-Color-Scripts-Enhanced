@@ -11,7 +11,7 @@
 # SAUCE Group: MATRiX
 # SAUCE Date: 19951201
 # SAUCE Dimensions: 80x25
-# Lines: 1-40
+# Lines: 1-37
 # Columns: 1-80
 
 Write-Host '
@@ -50,7 +50,4 @@ Write-Host '
 [1m█▀███▌[0;31m▐▌[0;1;37m▐[0;1;37;47m▒▒▓▓▓█[0;1;37;40m██████████████████████████[0;1;37;47m█[0;1;37;40m███[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓▓▓▓[0m
 [1m▄████[0m [31m██[0;37m [0;1;37;47m▒▒▒▒▓▓▓▓▓[0;1;37;40m███████████████████████[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓▓▓▓▓▓▓[0m [1;30m   [0m
 
-[1;30m       [0m [1;30m"Ain''t got much to say here... So that''s it for this ANSi :)"[0m [1;30m-MB[0m
-→→     Well, I was at school and fuckin'' overbored so I decided to copythis from
- a Ren & Stimpy comicbook... It took about an hour...  Enjoy...[0m
-'
+[1;30m       [0m [1;30m"Ain''t got much to say here... So that''s it for this ANSi :)"[0m [1;30m-MB[0m'

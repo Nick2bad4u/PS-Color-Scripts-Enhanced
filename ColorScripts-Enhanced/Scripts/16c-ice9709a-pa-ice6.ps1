@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PA-ICE6.ICE by Parasite (ice9709a); released in ice9709a and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -36,5 +36,6 @@ Write-Host '
 [34m    [0;31m▀[0;1;31;41m▀░[0;31m█[0;1;31m▒[0;1;31;41m█▄[0;31m▄▄[0;37m [0;1;37m  [0m▀[1;47m▀█[0;1;40m▒[0m [1;31mpa[0m ▀▌    [34m [0;31m▀[0;37m  [0;33m ▄[0;1;33m▄▄▄[0;1;37m▄▄[0;1;33;43m▄███▀[0;1;33;40m▀▀[0;33m▀▀▀████▄▄▄▄▄   ▄▄░[0;37m [0;34m▀[0;33m ▄[0;1;33;43m░░░▒▒[0;33m▄[0;37m [0;1;33m▀[0;1;33;43m▓░[0m
 [34m    [0;31m ▐▀▀[0;34m [0;31m▐▀▀▀[0;1;31;41m░[0;31m▄[0;1;37m  [0m ▀[1;47m░[0m▄[1;30m▄[0m     [31m ▄[0;37m [0;33m▄[0;1;33m██[0;1;37m█▀▀[0;1;33m▀[0;33m▀  ▄[0;1;33m▄▄▄[0;1;33;43m███▓▓▒░[0;33m██████████[0;37m [0;33m░▓░[0;37m [0;33m ▄[0;1;33;43m░░   ░░[0;33m▓▌[0;37m [0;33m▐[0;1;33;43m▒[0m
 [34m   [0;31m▄[0;34m [0;31m▀[0;34m   [0;31m▐[0;34m  [0;37m   [0;31m▀▄[0;1;37m  [0m [1;30m▀[0m▀[1;30m░[0m■ [31m▄[0;1;31;41m▄[0;31m▀[0;37m  [0;33m▄[0;1;33m▄▄[0;1;33;43m███[0;1;37;40m████[0;1;33;43m██[0;1;37;40m██[0;1;33;43m█████▓░░░[0;33m█[0;1;33;43m░░░[0;33m████[0;37m [0;33m░░░▀░░▄█▀▀▄█▀░[0;37m [0;33m▄[0;1;33;43m ░[0m
+
 [35m░░[0;1;35m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;35m░░[0m
 [1;36m      [0m                            [1mparasite[0;1;36m ([0;1;37miCe[0;1;36m)[0m'

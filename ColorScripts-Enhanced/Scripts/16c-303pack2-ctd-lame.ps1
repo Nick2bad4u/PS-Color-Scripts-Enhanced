@@ -11,7 +11,7 @@
 # SAUCE Group: [3o3] 4r7 !?!
 # SAUCE Date: 19970413
 # SAUCE Dimensions: 80x47
-# Lines: 1-46
+# Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
@@ -56,6 +56,7 @@ Write-Host '
 
 
 [1;37m-------------------------------------------------------------------([0;33m [0;1;32mc[0;33m [0;1;33mu[0;33m [0;1;36mt[0;33m [0;1;37m)----[0m
+
      [1mif you want this pic to your board or something, leave me an email and[0m
      [1mtell me the name of your board, and i''ll add a logo to it.. [0m
 [1m     greetings to ... ..  ..  nibc, the raven, bym, vader, red, dbn, [0m

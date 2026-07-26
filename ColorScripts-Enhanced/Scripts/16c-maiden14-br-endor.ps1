@@ -11,7 +11,7 @@
 # SAUCE Group: maiden
 # SAUCE Date: 19971202
 # SAUCE Dimensions: 80x31
-# Lines: 1-30
+# Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
 
 
 [1;30;40m─<beerfull@hotmail.com>-─-─-──--─-─-─-─-─-─-─--─-─-─-----─-──--─--────────-──-─-[0m
+
 [1;35m<[0;35mdopi3[0;1;35m> [0;1;30mCoeh beer, me come aeh![0m
 [1;35m<[0;35mbeerfull[0;1;35m>[0m [1;30mPo, eu nao sou chegado em comer homem [0m
 [1;35m<[0;35mdopi3[0;1;35m>[0m [1;30mcoeh po... intao deixa eu te pagar um bola gato?[0m

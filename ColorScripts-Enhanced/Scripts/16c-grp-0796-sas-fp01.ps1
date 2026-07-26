@@ -11,11 +11,12 @@
 # SAUCE Group: gRAPE aSSkEY
 # SAUCE Date: 19960618
 # SAUCE Dimensions: 80x29
-# Lines: 1-27
+# Lines: 1-28
 # Columns: 1-80
 
 Write-Host '
 [1m..,-*''^`-*,..,*-''^`-*,..,-*''^`> sassafras.grape <''^`-*,..,*-''^`-*,..,-*''^`-*,..,[0m
+
 [1;31m$$$$$$$[0m$$$$a.                      .aa$$$aa.
 [1;31m$$²''[0;36m [0;1;31m`²$$$[0m$$$a.                  .a$$[1;31m$$$$$$[0m$a
 [1;31m²''[0m     [1;31m`²$$$$$[0m$a.              .a$[1;31m$$$$$$$$[0m$²''               [1;31m∙[0mFiLTH PiG[1;31m∙[0m

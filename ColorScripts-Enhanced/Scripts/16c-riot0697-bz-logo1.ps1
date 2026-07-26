@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BZ-LOGO1.ANS by Blaze-Riot (riot0697); released in riot0697 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
+# Lines: 1-45
 # Columns: 1-80
 
 Write-Host '
@@ -14,6 +14,7 @@ Write-Host '
 
 
                                                                [34m                 [0m
+
                                                                  [34m    [0m
 
 
@@ -26,7 +27,7 @@ Write-Host '
             [1;30m [0m                                       [36m-[0;34mB[0;1;34mZ[0m
 
                                                                            [34m     [0m
-[34m     [0m
+                                                          [34m      [0m
                                           [34m [0m    [34m                  [0m
               [1;34m          [0;34m            [0m                  [1;37m [0m                 [1m [0m
 [1;34mWell this isn''t the best work i''ve done, i thought that i might put some awesome[0m
@@ -40,6 +41,7 @@ Write-Host '
                                 [1;34mGreetings [0m             [34m   [0m
 [34m{[0;1;34mThe one and only [0;31mT[0;1;31mU[0;1;33mR[0;1;37mB[0;1;33mI[0;1;31mN[0;31mE[0;1;34m, Niche, Cyber Bob, And anyone new in the group this[0;34m [0;37m [0;34m}[0m
 [34m{[0;1;34mmonth!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0;34m}[0m
+
 
 
 [1;5;33mTO PLACE A FREE REQUEST SEND ME E-MAIL AT:[0m [1;31mpraise@cnx.net[0m

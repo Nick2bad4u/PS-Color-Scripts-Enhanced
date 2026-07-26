@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KU-AW.ANS by Kung Lao (cnc-0894); released in cnc-0894 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 188-221
+# Lines: 193-227
 # Columns: 1-80
 
 Write-Host '
@@ -38,8 +38,8 @@ Write-Host '
                                  [1;30mF[0mLC [36mS[0;1;36mite[0m
                                  [1;30mN[0mup[1m/[0;36mN[0;1;36muv [0;36mS[0;1;36mtrictly [0;36mE[0;1;36mnforced[0m
                                  [1;30m0[0m-3 [36mD[0;1;36may [0;36mW[0;1;36marez[0;36m/A[0;1;36mnsi [0;36mV[0;1;36mga/[0;36mD[0;1;36memo[0m
-[1;36m───────────────────────────────────────────────────────────────────────────────▄[0m
-[1;36m▄▄▄  ▄▄▄▄▄  ▄▄▄ ▄  ▄▄▄▄  ▄▄▄▄  ▄▄▄▄▄  [0;34m(C)opywr[0m                      [34might: 94''[0m
+[1;36m────────────────────────────────────────────────────────────────────────────────[0m
+                     [1;36m▄▄▄▄  ▄▄▄▄▄  ▄▄▄ ▄  ▄▄▄▄  ▄▄▄▄  ▄▄▄▄▄  [0;34m(C)opywright: 94''[0m
                      [1;36m█[0m     [1;36m█   █  █ █ █  █[0m     [1;36m█[0m     [1;36m█   █[0m     [34mCNC Productions[0m
                      [34m█[0m     [34m█   █  █ █ █  █[0m     [34m█▀▀▀  █▀▀▀▀▄[0m
                      [34m█▄▄▄  █   █  █ █▄█  █▄▄▄  █▄▄▄  █    █[0m

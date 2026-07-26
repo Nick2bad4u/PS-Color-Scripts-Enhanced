@@ -10,7 +10,7 @@
 # SAUCE Group: RioT Productions
 # SAUCE Date: 19980224
 # SAUCE Dimensions: 80x34
-# Lines: 1-33
+# Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
@@ -45,4 +45,5 @@ Write-Host '
                                          [1;34m▌[0m [1;34m▌▐ ▐[0m
 [1;30m2m[0m                                       [1;34m▀▀ [0m [1;34m▀▀[0m
 [1;30m---------------------------------------- render --------------------------------[0m
+
 [1;30mUhm, this is the Rossignol chicken. Looks pretty SHITTY in ansi, but that''s him.[0m'

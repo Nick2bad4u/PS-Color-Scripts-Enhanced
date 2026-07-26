@@ -10,7 +10,7 @@
 # SAUCE Author: poetic justice
 # SAUCE Date: 19960917
 # SAUCE Dimensions: 80x41
-# Lines: 1-40
+# Lines: 1-41
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ Write-Host '
 
 
 [1;30m─[[0mcomments[1;30m]─────────────────────────────────────────────────────────────────────[0m
+
 [1;30mHey everybody..  Wow this is my first release for Ophdiac. :)  Anyhow, this one[0m
 [1;30mwas long overdue, to aOh, sorry about the delay, but it''s done now.  Hopefully[0m
 [1;30mI''ll have more in the third pack, but this is all I could pull off this month.[0m

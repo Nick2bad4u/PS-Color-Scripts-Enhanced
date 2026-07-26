@@ -11,7 +11,7 @@
 # SAUCE Group: fbk.sargahd
 # SAUCE Date: 19961104
 # SAUCE Dimensions: 80x62
-# Lines: 31-61
+# Lines: 32-62
 # Columns: 1-80
 
 Write-Host '

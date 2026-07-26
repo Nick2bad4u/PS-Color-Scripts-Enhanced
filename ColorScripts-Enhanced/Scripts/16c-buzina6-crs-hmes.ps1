@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: crs-hmes.ans by Crasher + Shadow (buzina6); released in buzina6 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-38
+# Lines: 1-39
 # Columns: 1-80
 
 Write-Host '
@@ -46,5 +46,6 @@ Write-Host '
 [32m,▄D_╞F{Zf▌_å¿eτ╚ⁿ.¥°≤,,╒╪(;┌√wo7N ║\ ═[D Φm>-╦▓╚  M┤ö¥ ûL YÖÆb:≡, Y:@/┤¢Ω`;πg4╔ÿ[0m
 [32má/Gïr=O<ß!╘┤uÆ└╧(Ñ┼µkL;¥≈j┌ε6ß|4╞╝┤┌9e¢à┐°B_τ;Q`÷ë,∞∙3èΘ;~X╓²$Nùxu▌⌡ VqN#û-∙╚└"²[0m
 [32m#τ╝,δ≤,v╢└ÅS¼⌡├Q▐M⌠▄╓ì╟º╩═_+╛gyE=£l┌┬q²F▌ú&δåo[Æ┬äFR»┘açS=&xQê+Tj[f÷ç¡éêzúö shd.[0m
+
 [1;32moriginal by Shadow[0m
 [1;34mbuzined by Crasher[0m'

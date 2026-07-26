@@ -11,7 +11,7 @@
 # SAUCE Group: Quad-P
 # SAUCE Date: 19960222
 # SAUCE Dimensions: 80x22
-# Lines: 1-21
+# Lines: 1-22
 # Columns: 1-80
 
 Write-Host '
@@ -30,6 +30,7 @@ Write-Host '
     [1;30m░[0m      [1;30m [0;34m  [0;1;30m [0m   [1;30m░[0m             [1;30m░[0m             [1;30m░[0m             [1;30m░[0m            [1;30m░[0m
 
 [1;30m<------------------------------------------------------------------------------>[0m
+
         [1;30mmithy told me that rheostatic was startin'' up a new art group and I [0m
 [1;30mthought well, seeing as me and digital practically killed his old one, I''d do[0m
 [1;30ma little pic for him.[0m

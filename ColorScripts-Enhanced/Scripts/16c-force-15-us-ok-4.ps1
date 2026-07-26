@@ -11,7 +11,7 @@
 # SAUCE Group: fORCE
 # SAUCE Date: 19970119
 # SAUCE Dimensions: 80x23
-# Lines: 1-22
+# Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
@@ -34,5 +34,6 @@ Write-Host '
                       [32m█[0m                                    [32m█[0;37m [0;1;30mc3 + ill[0m
   [1;31m            [0m [1;31m   [0m    [32m▌[0m                                    [32m▐[0m
 [1;30m--------------------------------------------------------------------------------[0m
+
 [1;30m [0moutline + background by [1mcriminal enigma[0m
 [1m [0mshading and touchups by [1millogic[0m'

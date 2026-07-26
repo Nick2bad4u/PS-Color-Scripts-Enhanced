@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RAGECOLI.ANS by Blizzard (rg-0197a); released in rg-0197a and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
+# Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
@@ -29,4 +29,26 @@ Write-Host '
                   [1mBlizzarD''s First Ansi Colly For Rage[0m     [1m▐▌[0m
                                               [1m    [0m
                                        [35m  [0;1;37m           [0m      [1m▀[0m
-'
+
+                   [33m.sS$$$Ss.[0m                [33m.sS$$$Ss.[0m
+                  [33m,$$$ⁿ $$$$,[0m              [33m,$$$$ ⁿ$$$,[0m
+   [1;37mA         [0m     [33m$$$$ s$$$$$[0m              [33m$$$$$s $$$$[0m
+[37m [0;1;37mBeaver ... :][0m    [33m`$$$$s $$$''[0;37m [0;33m_.,sS$$$$s,._''$$$ s$$$$`[0m
+     [1;37m     [0m         [33m`ⁿ$$ⁿ°.,sS$$$$$$$$$$$$$$Ss,.°ⁿ$$ⁿ`[0m
+     [1;37m    [0m [1m           [0;33m [0;1;30m [0;33ms$$$$$ⁿⁿ$$$$$$$$$$$ⁿⁿ$$$$$s  [0;1;37m   [0m
+     [1m                [0m [33m$$$$$ⁿ[0;37msS[0;1;37mSs[0;33mⁿ$$$$$$$ⁿ[0;37ms$[0;1;37m$s[0;33mⁿ$$$$$ [0;1;37m    [0m
+     [1m               [0m [33m$$$$$''[0;37m$$[0;1;37m$$$$[0;33m`$$$$$''[0;37m$$[0;1;37m$$$$[0;33m`$$$$$     [0m
+     [1;37m        [0;33m       $$$$$l[0;37ml$[0;1;37m$$$$$l[0;33ml$$$l[0;37ml$[0;1;37m$$$$$l[0;33ml$$$$$    [0m     [33m  [0m
+     [33m      .ss$$$ⁿs $$$$$[0;1;37m [0m$$[1m$$ⁿ   [0;33m''l$$'' [0;1;37m [0;33m [0;1;37mⁿ$$$$[0;33m $$$$$ sss$$$$ss.[0m
+     [33m  .ss$$$$$$$$$sⁿⁿ$$$l[0;37ml$[0;1;37m$l   $ [0;33ml$l   [0;1;37m  l$$l[0;33ml$$$ⁿⁿs$$$$$$$$$$$ss.[0m
+     [1;37m [0;33m`  s$$$$$$$$$$$$Ss.ⁿ [0;37m$[0;1;37m$$[0m     [33ml$l[0;1;37m $ [0m  [1m$$$[0m [33mⁿ.sS$$$$$$$$$$$$$$s  ''[0m
+     [33m  s$$$$$$$$$$$$$$$$$$ [0;37mⁿ$[0;1;37m$l[0m    [33ml$l [0;1;37m [0;33m  [0;1;37ml$$ⁿ[0;33m $$$$$$$$$$$$$$$$$$$$s[0m
+     [33m $$$$s$$$$$$$$$$[0;37msSSSsⁿ[0;31m _.,ggSS$$$$SSgg,._[0;37mⁿsSSSs[0;33m$$$$$$$$$$$$s$$$$[0m
+     [33ml$ⁿs$$$$$$$$$$[0;37ml$$$$$$[0;31m,$$$$$$$$$$$$$$$$$$$.[0;37m$$$$$$l[0;33m$$$$$$$$$$$$sⁿ$l[0m
+     [33mⁿ l$$$$$$$$$$[0;37ml$$$$$$''[0;31ml$$$$$$$$$$$$$$$$$$$l[0;37m`$$$$$$l[0;33m$$$$$$$$$$$$l ⁿ[0m
+     [33m .$$$$$$$$$$$$[0;37ml$$$$$$s[0;31m`°ⁿ╝╝#SS$$$$S#╝╝ⁿ°`[0;37ms$$$$$$l[0;33m$$$$$$$$$$$$$.[0m
+     [33m l$$$s$$$$$$$$$$[0;37mⁿSSSSSSⁿ,$[0;1;37m$$d%s [0ms[1m%S$$$$.[0mⁿSSSSSⁿ[33m$$$$$$$$$$s$$$$l [0m
+     [33m l$ⁿs$$$$$$$$$$$$$$$$ⁿ[0;37m,$[0;1;37m$$$$$$$ [0m$[1m$$$$$$$d[0;33m`$$$$$$$$$$$$$$$$$sⁿ$l[0m
+     [33m  ⁿs ⁿ$$$$$$$$$$$$$ⁿ[0;37m,$[0;1;37m$$$$$$$$$ [0m$[1m$$$$$$$$$,[0;33mⁿ$$$$$$$$$$$$$ⁿⁿ sⁿ[0m
+     [33m       ⁿⁿⁿⁿⁿ$$SSⁿⁿ° [0;37m$[0;1;37m$$$$$$$$$$ [0m$[1m$$$$$$$$$$.[0;33m°ⁿⁿSS$$$ⁿⁿ°° [0;37m-blz-[0;33m  [0m
+                        [1;37m [0m `[1m"²$QQ░Q$²[0m $[1m$$$$$$$$$$''[0m     [33m               [0m'

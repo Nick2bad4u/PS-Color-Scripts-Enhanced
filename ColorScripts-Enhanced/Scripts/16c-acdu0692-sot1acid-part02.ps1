@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOT1ACID.ANS by Spectral Illusion (acdu0692); released in acdu0692 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 39-75
+# Lines: 39-76
 # Columns: 1-80
 
 Write-Host '
@@ -42,6 +42,7 @@ Write-Host '
                 █[1m█  [0m█[1m█▀[0;1;47m▀▄ [0;1;40m█▀[0;1;47m▀[0;1;40m█[0m█[1m█[0m▀[1;47m▀[0;1;40m█[0m█[1m█[0m▄[1;47m▄[0;1;40m█[0m█[1m█ [0m█[1m█[0m█[1m█[0m█[1m█  [0m█[1m█  [0m█[1m█  [0m▀[1m▀[0;1;47m▀[0;1;40m█[0m
                 ▀[1m▀  [0m▀[1m▀ [0m▀[1m▀[0m▀[1m▀ [0m▀[1m▀[0m▀[1m▀ [0m▀[1m▀ [0m▀[1m▀▀[0;1;47m▀[0;1;40m▄[0m▀[1m▀▀ [0m▀[1m▀[0m▀[1m▀▀▀[0m▀[1m▀  [0m▀[1m▀    [0m▀[1m▀[0m
 ───[1;30m──[0m─[1;30m─[0m──[1;30m──[0m─[1;30m────[0;1;37m4[0;1;30m────[0;1;37m1[0;1;30m────[0;1;37m6[0;1;30m─────[0;1;37m3[0;1;30m────[0;1;37m9[0;1;30m────[0;1;37m1[0;1;30m────[0;1;37m1[0;1;30m────[0;1;37m3[0;1;30m────[0;1;37m1[0;1;30m────[0;1;37m2[0;1;30m─────[0m─[1;30m─[0m─[1;30m──[0m──[1;30m──[0m───
+
   [1mACiD M[0mem[1;30mber [0;1;37mS[0mit[1;30me [0;1;37m-/- INC T[0mra[1;30miners [0;1;37mS[0mit[1;30me [0;1;37m-/- SDA D[0mis[1;30mt [0;1;37m-/- R[0mAZ[1;30mOR [0;1;37m19[0m1[1;30m1 [0;1;37mA[0mff[1;30miliate[0m
 [1;30m  [0;1;37m2 N[0mod[1;30mes [0;1;37mR[0min[1;30mg [0;1;37mD[0mow[1;30mn [0;1;37m-/- D[0mia[1;30mmonD [0;1;37mE[0mas[1;30mtern [0;1;37mH[0mom[1;30me [0;1;37m-/- U[0mnr[1;30meal [0;1;37mM[0mag[1;30mazine [0;1;37mS[0mit[1;30me[0m
   [1m6[0m00 [1mM[0meg[1;30ms [0;1;37m-/- [0;1;30mStaff: [0;1;37mQ[0mUi[1;30mCk [0;1;37mS[0miL[1;30mVεR - [0;1;37mS[0mpe[1;30mctral [0;1;37mI[0mll[1;30musion - [0;1;37mT[0mh[1;30me [0;1;37mH[0maw[1;30mk [0;1;37m-/- C[0mel[1;30merity[0m

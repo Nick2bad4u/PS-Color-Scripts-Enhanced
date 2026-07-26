@@ -59,4 +59,4 @@ Write-Host '
                                    [1;30m£i[0;32mT[0;1;32m:[0m
                                 [1;30m─St[0mr[1m¡[0mc[1;30mt9─[0m
 
-→→MftInfFmt01Eternal NightFall Ansi        Paradox          43094[0m'
+                       [1;30m-[0;1;32mR[0;32ma[0;1;30mluka: [0;1;32mH[0;32mi[0;1;30mdden [0;1;32mO[0;32mb[0;1;30msessions-[0m'

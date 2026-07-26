@@ -11,7 +11,7 @@
 # SAUCE Group: glue
 # SAUCE Date: 19971031
 # SAUCE Dimensions: 80x66
-# Lines: 47-65
+# Lines: 47-66
 # Columns: 1-80
 
 Write-Host '
@@ -28,6 +28,7 @@ Write-Host '
 
 
 [1;37;40m────────────────────────────────────────────────────────────────────────────────[0m
+
 Exile for Toons Xillion. This is the first 50+ liner pic i''ve done in a looong
 time, tell me what you think.
 

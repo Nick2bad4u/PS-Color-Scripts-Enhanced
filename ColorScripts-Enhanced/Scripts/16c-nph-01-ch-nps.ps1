@@ -35,5 +35,5 @@ Write-Host '
                       [1;30m░[0m                         [1;30m░[0m
                                  [1;30m.[0;32m:[0;1;30m[[0;32mn[0;1;37mITrO[0;32mP[0;1;37mHu[0;32mS[0;1;37mIoN[0;1;30m][0;32m:[0;1;30m.[0m
 
-[1;30m===CuT=HeRe===CuT=HeRe===CuT=HeRe===CuT=HeRe===CuT=HeRe===CuT=HeRe===CuT=HeRe==n[0m
-[1;30m0 RaTiO[0m  [1;30m∙[0m [1;30mKaLL mY BoaRd DreAm MoUNtainS 04.50.27.72.98 ∙ [0m [1;30mn0 RaTiO[0m'
+[1;30m===CuT=HeRe===CuT=HeRe===CuT=HeRe===CuT=HeRe===CuT=HeRe===CuT=HeRe===CuT=HeRe===[0m
+      [1;30mn0 RaTiO[0m  [1;30m∙[0m [1;30mKaLL mY BoaRd DreAm MoUNtainS 04.50.27.72.98 ∙ [0m [1;30mn0 RaTiO[0m'

@@ -11,7 +11,7 @@
 # SAUCE Group: IKEA
 # SAUCE Date: 20001214
 # SAUCE Dimensions: 80x134
-# Lines: 43-87
+# Lines: 44-88
 # Columns: 1-80
 
 Write-Host '

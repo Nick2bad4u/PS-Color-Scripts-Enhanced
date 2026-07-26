@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!PLANE.ANS by Madcap (d38-10); released in d38-10 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -39,5 +39,4 @@ Write-Host '
 [1;35;40m       effect to it.. but damn it took ages.. oh well.. it says                 [0m
 [1;35;40m        "My nAmE iS CON AIR, eYe yaM a BBS ph00!"                               [0m
 [1;35;40m                                                                                [0m
-[1;35;40m                                                                                [0m
-→[40m                                                                               [0m'
+[1;35;40m                                                                                [0m'

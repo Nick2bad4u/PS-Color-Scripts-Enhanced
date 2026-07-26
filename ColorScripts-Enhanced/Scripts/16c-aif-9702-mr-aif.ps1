@@ -10,7 +10,7 @@
 # SAUCE Author: .,s$(minotaur)$s,.
 # SAUCE Group: .,s$(CSF)$s,.
 # SAUCE Date: 19970203
-# Lines: 1-30
+# Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
@@ -41,6 +41,7 @@ Write-Host '
                                [1;33m░░▓[0m
                                  [1;33m░[0m
 [1;30m--------------------------------------------------------------------------------[0m
+
 [1;30m- AiF[0m [1;30m= ART iN FUCK ( FUCK GROUP ART DiViSiON ) [0m
 [1;30m- i DONT KNOW WHAT THAT YELLOW-BROWN-GRAY SPOTS MEAN , BUT FUCK![0m
 [1;30m- minotaur@nitnet.com.br ( [0m'

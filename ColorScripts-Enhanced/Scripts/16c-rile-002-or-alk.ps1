@@ -11,7 +11,7 @@
 # SAUCE Group: rile
 # SAUCE Date: 19970304
 # SAUCE Dimensions: 80x30
-# Lines: 1-28
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -25,6 +25,7 @@ Write-Host '
 [30;43m▓▓[0;36;40m   [0m        [35;40m▐[0m   [30;44m▓[0;37;40m  [0;36;40mALKOHOL [0m    [30;45m▓▓▓[0m     [30;44m▓▓[0m        [30;44m▓▓[0m           [30;45m▓▓[0m
 
 [33;40m───────[0;1;35;40m>>[0m outraider[33m [0;1;35m<<[0;33m─────────────────────────[0;1;35m>>[0;33m [0;37malkohol [0;1;35m<<[0;33m────────────────────[0m
+
 [36mthere''s a country called [0;1;36mGermany[0;36m somewhere on this globe and i can tell you-[0m
 [36mit sucks. ALKOHOL will be Germany''s[0;37m [0;1;36mfirst[0;36m art-related GERMAN emag. You may[0m
 [36mcontribute art (like headers, logos "ALK", "ALKOHOL") or even [0;1;36marticles[0;36m,[0;37m [0;36mi''ll[0m
@@ -34,6 +35,7 @@ Write-Host '
 [32mdaniel [0m
 
 [33m───────────────────[0;1;35m<<[0m ALKOHOL [33m-[0;37m issue 1 [0;33m-[0;37m xx.x.xx [0;1;35m>>[0;33m────────────────────────────[0m
+
    [31m░▄▄▄▀▀▀[0m   [30;41m▓▓[0;31;40m▄▄▄▄[0;30;41m█[0m
 [31;40m░░[0;1;31;41m▄░[0;31m▀[0;30;45m▓[0;31;40m  ▄▄[0;33;41m░[0;31;43m▓[0;31;40m█[0;30;41m░░░[0;31;40m██[0;30;41m░[0;31;40m▌ [0;1;37;40mALKOHOL[0m emag
 [31m▐[0;1;31;41m▓▓[0;31m [0;37m [0;31m▄[0;33;41m▄▄[0;1;33;43m [0;31;43m░[0;33;41m▓▓[0;31;43m▓[0;31;40m▄  [0;30;41m█[0;31;40m▀▀▌ [0;37;40m [0;31;40m [0m

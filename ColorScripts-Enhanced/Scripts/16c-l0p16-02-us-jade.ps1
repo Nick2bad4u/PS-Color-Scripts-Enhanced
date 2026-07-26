@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-JADE.ANS by Simonking + Ize (l0p16_02); released in l0p16_02 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
+# Lines: 1-44
 # Columns: 1-80
 
 Write-Host '
@@ -52,9 +52,4 @@ Write-Host '
 [1m       [0;1;32m█[0;1;33m██[0;1;32m██[0;1;32;42m▓▓▓▒[0;1;32;40m▀[0;1;37;40m [0;1;30;40m▄[0;1;37;40m [0;1;32;40m▓▀▀[0;1;37;40m  [0;1;30;40m▀[0;1;37;40m       [0;1;32;40m▀[0;1;32;42m▒▒▒▒▒░[0;1;37;40m             [0;32m▓▀▀▀▀▀[0;1;32m▀▀▀▀[0;1;37m [0;1;32m▐[0;1;32;42m▓▓[0;1;32;40m▀[0;1;37;40m [0;1;30;40m▄▀[0m
 [33m░░░░░ [0;32m░[0;1;33m█[0;1;37m██[0;1;33m██[0;1;32m█▀▀[0;1;37m [0;1;30m▄▀[0;1;37m    [0;33m░░░░░░░░░░░[0;1;37m  [0;1;32;42m▓▓▓▓▒[0;1;32;40m▄█▌[0;1;37;40m [0;33m░░░░░░ [0;1;30m+o quasar[0;1;37m [0;33m░░[0;1;37m [0;1;32m▐▀[0;1;37m  [0;1;30m▀[0;1;37m  [0;33m░░░░░░[0m
 [1;37m       [0;1;32m█[0;1;33m██[0;1;32m██[0;1;33m█[0;1;32m▄[0;1;37m                      [0;1;32m▐██[0;1;32;42m▓[0;1;33;40m██[0;1;32;40m▌[0m
-[1m       [0;32m░░░░░[0;1;37m                        [0;1;32m▀[0;1;33m▀▀▀▀▀[0;1;32m▀[0m
-→
-
-
-→SAUCE00
-   20020426b♀  ☺☺P ▬[0m'
+[1m       [0;32m░░░░░[0;1;37m                        [0;1;32m▀[0;1;33m▀▀▀▀▀[0;1;32m▀[0m'

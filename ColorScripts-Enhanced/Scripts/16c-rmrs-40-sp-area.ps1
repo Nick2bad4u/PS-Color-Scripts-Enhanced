@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sp-area.ans by Spinsane (rmrs-40); released in rmrs-40 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
+# Lines: 1-18
 # Columns: 1-80
 
 Write-Host '
@@ -21,7 +21,8 @@ Write-Host '
 [1;35m:::::::::::::[0;32m╠[0;1;32;42m░░ [0;32m╬[0;1;32m╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬7[0m    [1;36m.4╪┼╫╫╬╬╬[0;36m7`[0m     [1;32m.f╬╬╬╬[0;32m╬b.[0m    [1;37m [0;36m`4╬╬╬╬b.[0;1;31m╙[0m
 [1;35m:::::::::::::::::::::::::::::::::[0;1;32m╠[0;32mY`[0m                   [1;32m.f[0;32m╬>`╩╩╩╩╩╩╝[0;1;37m [0m    [1m [0;36m`4╬╬╪╪b[0m
 [1;35m::::::::[0;1;37maREa[0;1;35m:::::::::::::::::::::[0;1;32m╠[0;32m.[0m          [32m█▒░[0m     [1;32m.f[0;32m╬╬╬>,╬╬╬╬╬╬╬╬b.[0m     [1;36m`4╬╬╬[0m
-[1;35m::::::::::::::::::::::::::::::::[0;1;37m81?[0;1;35m:::::[0m [1;35m:[0m [1;35m:[0m [32m█▒░[0;37m [0;32m░[0;37m  [0;32m░░▒▒▓▓▓▒▓███████████b.[0m   [1;36m`4╬[0m
+[1;35m:::::::::::::::::::::::::::::::::[0;1;32m╠╬╬╬╬╬╬╬╬╬╬╬[0;32m╬[0;1;32m╬╬╬╬[0;32m╬╬[0;1;32m╬[0;32m╬╬╬╬╬╬╬╬╬╬▓╬▓▓██╬b.[0m     [1;36m`4╬[0m
+[1;35m::::::::::::::::::::::::::::::::[0;1;37m81?[0;1;35m:::::[0m [1;35m:[0m [1;35m:[0m [32m█▒░[0;37m [0;32m░[0;37m  [0;32m░░▒▒▓▓▓▒▓███████████b.[0m
 [1;33;43m-------------------------------------------------)cut(--------------------------[0m
 [1;33;43mnotice the color illusions on the left and right color[0;36m 3 [0;1;33;43mappears as color [0;1;36;40m11[0m
 [32m2 [0;1;33;43mappears as[0;1;32;40m 10[0m

@@ -43,6 +43,7 @@ Write-Host '
 
 
 [1;30m--------------------------------------------------------------------------------[0m
+
 [1;30mhere''s just one of the many ansi''s i owe you voice! =] hope you like it, i did[0m
 [1;30mit in under 20 minutes.. but i''ll do you a pic or something next time.. anyway[0m
 [1;30mgreets to all gas members and some personal greets to the following people.. to[0m
@@ -52,5 +53,4 @@ Write-Host '
 [1;30mguys! thats it from me, if you want one of my lame ansi''s email gas@ion.com.au[0m
 [1;30mand i am sure i can do something for you.. okay.. later![0m
 
-                                                         [1;30m-tribal`gas founder[0m
-→[0m'
+                                                         [1;30m-tribal`gas founder[0m'

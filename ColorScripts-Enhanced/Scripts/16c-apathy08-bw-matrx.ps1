@@ -11,16 +11,16 @@
 # SAUCE Group: apathy
 # SAUCE Date: 19960312
 # SAUCE Dimensions: 80x39
-# Lines: 1-38
+# Lines: 1-39
 # Columns: 1-80
 
 Write-Host '
-       [1m▄[0m     [1m▀▀█▄[0;1;30m [0m    [1m▄▄███▄[0m  [1;30m<---not the most intellectually depth header but.[0;1m█[0m
-[1m██[0m [1m▄▄███▄▄[0;1;30m  [0;34m▄[0;37m [0;1;37m███████▌[0m
-     [34m▌[0;1;37m▐████▄██████[0;1;30m [0;34m [0;1;37m▐██████▀[0m    [1;30msup yee''all.. give it up harlem for the toony  [0;34m█[0m
-[34m█[0;37m [0;1;37m███████████[0m [1;30m [0;1;37m█████▀[0m [34m▄█[0m    [1;30mdewdler himself, the jive to be[0m [1;30mfrom apathy mr.[0m   [34m▐█[0m
-[34m█▌[0;1;37m▐████████▀[0;1;30m [0m▄[1;47m▄[0;1;40m▄███[0;1;30;40m  [0;34m███▌[0;37m [0;1;30mballs "get your hand outta my pants for the last [0m    [34m█[0m
-[34m██[0;37m [0;1;37m███▀▀▀[0;1;30m  [0m▀[1;47m▄[0;1;40m▀[0;1;30;40m [0;1;37;40m▀█▀[0;1;30;40m [0;34m ████[0m     [1;30mtime!@" wilson, baby!@ [0m
+       [1m▄[0m     [1m▀▀█▄[0;1;30m [0m    [1m▄▄███▄[0m  [1;30m<---not the most intellectually depth header but..[0m
+      [1m███[0m [1m▄▄███▄▄[0;1;30m  [0;34m▄[0;37m [0;1;37m███████▌[0m
+     [34m▌[0;1;37m▐████▄██████[0;1;30m [0;34m [0;1;37m▐██████▀[0m    [1;30msup yee''all.. give it up harlem for the toony   [0m
+    [34m██[0;37m [0;1;37m███████████[0m [1;30m [0;1;37m█████▀[0m [34m▄█[0m    [1;30mdewdler himself, the jive to be[0m [1;30mfrom apathy mr.[0m
+   [34m▐██▌[0;1;37m▐████████▀[0;1;30m [0m▄[1;47m▄[0;1;40m▄███[0;1;30;40m  [0;34m███▌[0;37m [0;1;30mballs "get your hand outta my pants for the last [0m
+    [34m███[0;37m [0;1;37m███▀▀▀[0;1;30m  [0m▀[1;47m▄[0;1;40m▀[0;1;30;40m [0;1;37;40m▀█▀[0;1;30;40m [0;34m ████[0m     [1;30mtime!@" wilson, baby!@ [0m
      [34m▀█▄ [0;1;37m▀[0m ▄▄[1;47m▄▄▄[0m▄[1;30m [0m▄[1;47m▄[0m▄ ▄[1;47m▄[0;1;40m▄[0;34m █▀[0m                [1;30mrough rough rough-> ,o>[0m [1;30m_o> _O)[0m
         [34m▀ [0m    [1;37m▀▀▀▀▀▀▀▀▀▀[0m [34m [0m    [1;30mremember the Arsenio Hall show! [the dog pound][0m
 [1;30m   [0m                            [1;30mreach me at p0o! or toastyCoM[0m [1;30mor else, baby!@[0m
@@ -50,6 +50,7 @@ Write-Host '
          [1;36m    [0;36m▀▀▀█████▀▀▀▀████▄[0m      [1;30m [0m              [1;30mi wanna split![0m             [1;30m▌[0m
 
 [1;30m---------------[snip snip snip away at the files balls, baby!@]-----------------[0m
+
 [1;30mwow an ansi for my board.. that''s right nig''s for my board only not yours but an[0m
 [1;30mansi or rip or ascii from me check out my connections and we can talk.. but if u[0m
 [1;30mwant to be truely elite rip it!@$@@![0m'

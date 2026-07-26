@@ -11,7 +11,7 @@
 # SAUCE Group: sadist
 # SAUCE Date: 19981130
 # SAUCE Dimensions: 80x31
-# Lines: 1-28
+# Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
@@ -36,8 +36,11 @@ Write-Host '
     [1m▒▒▄[0m   ▐█[1m░░░[0m        [34m▐▐[0;1;34;44m░░[0m  [1m░░[0m  [1m▐[0m  [31m▀▀▀▀▀▀▀▀▀▀▀[0;1;37;47m█▓░[0;30;47mS4D[0;1;37;47m░[0;30;47m 15T[0;1;37;40m██[0m█[31m▀▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;1;30m▌[0m
   [1m▄▄▓▓[0m     █[1m▒▒▒▒▒▒ [0m ▀  [34m█▐██[0m   [1;37m▓▓[0m [1m▌[0m  [1;30m▀▓  ░░[0;1;33m   [0m░░▒▀▀▀▀▀▀▀▀▀▀▀▀▓░░   [1;30m ░░░░ [0m [1;30m▀[0m
 [1m██▀[0m     [1m ░░[0m█▌[1m███▓▓▓[0m    [1;30m▀[0m▌███[1;30m▄[0m [34m [0;1;37m▀▀█[0m [1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;1;37m░░░[0;1;30m░░░[0m
+[1;37m▓█▓█▓███▄▓▓████████▄▄█▄▄▄█▄███████▌[0;1;30m▐█▓▓██████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓▓▓▓▓[0m█[1m██[0m▒▒[1;30m▓[0m
 [1;37m███████▓▓▓▓▓▓▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓██████▌[0;1;30m█████████████████████████████[0m░░░[1;30m███[0m░░░▓[1m███[0m▓▓[1;30m█[0m
-[1;33m░░░░░░░░░░░░[0;1m way[0;1;33m ░░███░░[0;1me suburb Farsta to his home, Skarpnack,ah..sweet suburb.[0m
+
+[1mDizzy on his way from the suburb Farsta to his home, Skarpnack,ah..sweet suburb.[0m
+[1;33m░░░░░░░░░░░░[0m    [1;33m ░░███░░[0m
 [1ma xmas greeting to all ya out there.. and when we do have a pack to release[0m
 [1mi also want to say that i hope that 1999 will be a eaven more greater year[0m
 [1mof the l0wr3s scene.. see ya in 99..[0m

@@ -6,14 +6,14 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FA-EU3.ANS by Fade (rem-0694); released in rem-0694 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
+# Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
-[1;30m────[0m──[1;30m[[0mDanger![1;30m-[0mREM[1;30m-[0miNC[1;30m-[0mProduction[1;30m-[0mahead![1;30m─-[0mSo[1;30m-[0mpay[1;30m-[0msome[1;30m-[0mfucking[1;30m-[0mattention![1;30m][0m─[1;30m─[0m──[1;30m──[0;1;31m▄[0m
-[1;31m▄[0;31m▄[0;1;31m▄[0;31m▄▄[0;1;31m▄[0m           [1;30mW[0melcome to another (another?) big ANS[1;30mi [0mby Fade[1;30m/[0mREM[1;30m.[0m
-     [1;31m▄[0;1;31;41m██▓▓▓▒[0;1;31;40m▀[0;31m▀[0;1;31m▀[0m            [1;30mY[0meah, I can tell you''re happy already.  Well, this i[1;31m▀[0m
-[1;31;41m▒▒░[0;1;31;40m▀    ▄[0;1;31;41m▓▓▒▒[0;1;31;40m▄[0m      [1;30;40mm[0my first noteworthy non-logo ansi in a while, so b[1;30me[0m
+[1;30m────[0m──[1;30m[[0mDanger![1;30m-[0mREM[1;30m-[0miNC[1;30m-[0mProduction[1;30m-[0mahead![1;30m─-[0mSo[1;30m-[0mpay[1;30m-[0msome[1;30m-[0mfucking[1;30m-[0mattention![1;30m][0m─[1;30m─[0m──[1;30m───[0m
+         [1;31m▄▄[0;31m▄[0;1;31m▄[0;31m▄▄[0;1;31m▄[0m           [1;30mW[0melcome to another (another?) big ANS[1;30mi [0mby Fade[1;30m/[0mREM[1;30m.[0m
+     [1;31m▄[0;1;31;41m██▓▓▓▒[0;1;31;40m▀[0;31m▀[0;1;31m▀[0m            [1;30mY[0meah, I can tell you''re happy already.  Well, this i[1;30ms[0m
+      [1;31m▀[0;1;31;41m▒▒░[0;1;31;40m▀    ▄[0;1;31;41m▓▓▒▒[0;1;31;40m▄[0m      [1;30;40mm[0my first noteworthy non-logo ansi in a while, so b[1;30me[0m
      [1;31m▐▄▄ ▄▄[0;31m▄▄ [0;1;31;41m▓▒[0;1;31;40m▀ ▀[0;1;31;41m▓▒[0;1;31;40m▄[0m     [1;30;40mn[0mice.  This HAPPY CHARACTER was respectfully[1;30m? [0mrippe[1;30md[0m
       [1;31;41m█▓[0;1;31;40m▌▀[0;31m▀[0;1;31m▀ ▄[0;31m▄[0;1;31m▄▄[0;31m▄[0;1;31m▄[0;1;31;41m▒▒[0;1;31;40m▀[0m     [1;30;40mf[0mrom the best game on Earth - [1mUFO[0m!  I''ve been tryin[1;30mg[0m
       [1;31;41m▓▓▒░[0m  [1;31;41m██▓▒[0;31m▀[0;1;31m▀[0;31m▀ [0;1;31m▄[0m      [1;30mt[0mo draw the fucker for weeks & this one works, or a[1;30mt[0m
@@ -57,4 +57,5 @@ Write-Host '
                     [1;30;40m▒▓▒[0m        [1;30;40m▀  ▀  [0m▀[1;30m▀ [0m▀[1;30m▀  ▀ [0m▀[1;30m▀   ▒▓█▒[0m
                    [1;30m▒▓▓▒▒▓▓████▓▒░ ░▒▓▒▒▒░ ░▒▓██▓█▓▒▒▒▒░[0m
                      [1;30m░░░░▒▒▓▓▓▒▒   ░░░░░   ░▒▒▒▒▒▒▒░░░[0m
-'
+
+┌ ─            ─                                                        ─  ─  ─┐[0m'

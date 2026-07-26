@@ -11,7 +11,7 @@
 # SAUCE Group: Department 38
 # SAUCE Date: 19970510
 # SAUCE Dimensions: 80x25
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -34,6 +34,7 @@ Write-Host '
 
 
 [1;30m------------>cut here <---------------------------------------------------------[0m
+
 [1;30mphew.. finally finished.. =) well hope you like... =))[0m
 [1;30ml8r[0m
 

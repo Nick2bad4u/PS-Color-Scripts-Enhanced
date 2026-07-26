@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TC.ICE by Tempus Thales (ice-9407); released in ice-9407 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 31-74
+# Lines: 31-73
 # Columns: 1-80
 
 Write-Host '
@@ -52,5 +52,4 @@ Write-Host '
        [31m▓█  ▀[0m            [33m▐▒░░  ░▒░ ▄████▀   ░░  ▒▓[0;1;31;43m░▒░[0;33m████[0;1;31;43m░▒▓█[0;1;31;40m█ [0;33m░▓██▓▒    [0;1;31m▀[0;1;31;47m█[0;1;31;43m▓▓[0;1;31;40m▄ [0;33m░[0m
      [31m▄ ▀[0m                 [33m█▓▒░  ░ ▓████▄▓▒▒▒▒░ ░▓[0;1;31;43m░▒▓▒░░[0;33m█[0;1;31;43m░▒▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m█ [0;33m░▒▓██▓░  [0;1;31m▄▄ [0;33m▀[0;1;31m▀[0;1;31;43m▒[0;33m▄[0m
                           [33m▀▓▒░  ▓██▀▄▄██▓▓▓▒▒  ▒▀▀[0;1;31;43m▒░[0;33m█[0;1;31;43m░░▒▓█[0;1;31;47m▓▒[0;1;31;40m▌[0;33m░▒▓▓▀▀▓  [0;1;31;43m▒▓▓▒▒[0;33m▄▄▀[0m
-                            [33m▀ ▄▓▒▀▄██████[0;33;43m [0;33;40m█▓▓▒  ▀   ▀▀▀[0;1;31;43m░▒▓█[0;1;31;40m▀[0m      [33m▀  [0;1;31;43m░░▒▒░░░░░[0m
-                             [33m▓▓▒▒▐█████████[0;33;43m [0;33;40m█▓▓▒▒░[0m                [1;31;43m▒░░[0;33m█[0;33;43m [0;1;31;43m░░[0;33m█[0;33;43m [0;33;40m▀▀[0m'
+                            [33m▀ ▄▓▒▀▄██████[0;33;43m [0;33;40m█▓▓▒  ▀   ▀▀▀[0;1;31;43m░▒▓█[0;1;31;40m▀[0m      [33m▀  [0;1;31;43m░░▒▒░░░░░[0m'

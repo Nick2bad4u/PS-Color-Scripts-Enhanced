@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NS-20VII.ANS by Ansichrist (27inch05); released in 27inch05 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
+# Lines: 1-28
 # Columns: 1-80
 
 Write-Host '
@@ -35,5 +35,6 @@ Write-Host '
 [1;35m▓[0;30me[0;1;35;45m▄▓▓[0;1;35;40m█[0;1;35;45m█[0;1;35;40m█[0;1;35;45m▀[0;1;35;40m▀[0;35m▀[0;37m ▄[0;1;37m▄[0;1;37;47m▄[0;1;37;40m█[0;1;37;47m▄[0m▄  [35m▀[0;1;35;45m▀▄[0;1;36;40m▄[0;35m▄[0;1;33m [0;35m▓[0;1;35;45m▓▓▓▄[0;1;35;40m▄[0;35m▄[0;37m [0;1;33m [0m■[1;33m  [0m▄    [35m▀[0;1;35m [0;35m▄▄[0;1;33m   [0;33m▀▀[0;1;33m  [0;33m■[0;1;33m [0;35m▓▓[0;37m [0;1;33m  [0;35m▀▒[0;1;33m [0;1;37;47m▒[0;1;37;40m████▓▓▓█████[0;30m55[0;1;37m█[0m
 [1;36m█[0;30ms[0;1;35;45m▀[0;1;35;40m▀▀▀[0;35m▀[0;1;33m [0m▄[1m▄[0;1;47m▄[0;1;40m████████[0;1;47m▄[0m▄ [1;33m [0;35m▀[0;1;35;45m▀▄[0;1;35;40m▄[0;1;35;45m▓[0;35m░░[0;1;33m [0;35m▀▀[0;37m [0;1;35;45m▓▄[0;1;35;40m▄[0;35m▄[0;1;33m  [0m▀[1m▀[0;1;47m▀▄[0m▄[1;33m   [0;35m▀[0;1;33m  [0m▀[1;33m  [0;35m▒▒[0;1;33m  [0m [1;47m▄[0;1;40m█[0;1;33;40m [0;35m░[0;1;33m [0;1;37;47m▓[0;1;37;40m█████████[0;30m55[0;1;37m▀[0;30m55[0;1;37m█[0m
 ▄[30m![0;37m▄[0;1;37m▄[0;1;37;47m▄[0;1;37;40m▓▓▓██████████████[0;1;37;47m▄[0m▄[1;33m [0;35m▀[0;1;35m▀[0;1;35;45m▀▄[0;35m▄[0;1;33m [0m▀[1;47m▒[0m ▄▄[1;33m [0;35m▀[0;1;35m▀[0;35m▀[0;1;33m [0;35m▄[0;1;33m [0m▀[1m▀[0;1;47m▀[0;1;40m▓▓[0;1;47m▄[0m▄[1;47m▒[0;1;33;40m [0;35m░░[0;1;33m  [0m▄[1;47m▄[0m [1m██▄▄▄████▄█▄█▄██▄▄▄██[0m
+
 SAUCE0027"                                ansichrist          senseimagery
   20031127╜#  ☺☺P       ☺[0m'

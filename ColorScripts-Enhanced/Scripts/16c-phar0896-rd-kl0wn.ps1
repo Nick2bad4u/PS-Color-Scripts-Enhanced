@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD!KL0WN.ANS by Rabid Doctor (phar0896); released in phar0896 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
+# Lines: 1-17
 # Columns: 1-80
 
 Write-Host '
@@ -26,6 +26,4 @@ code.                                                                         [
 --------------------------------------------------------------------------------
 ----------------------------------------------------------------------[eof]-----
 [1m   [0m                                                                           [1m [0m
-[1m                                                                               [0m
-→SAUCE00kl0wn                              RaBiD DoCToR        PHaR
-   19960801|♂  ☺☺P ↓[0m'
+[1m                                                                               [0m'

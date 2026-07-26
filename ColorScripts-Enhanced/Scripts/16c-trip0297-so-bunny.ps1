@@ -12,7 +12,7 @@
 # SAUCE Date: 19970111
 # SAUCE Dimensions: 80x25
 # SAUCE Comments: Hell yea....  this sucks, but thats i-ight...
-# Lines: 1-37
+# Lines: 1-38
 # Columns: 1-80
 
 Write-Host '
@@ -43,6 +43,7 @@ Write-Host '
 [1;33m▀▀▀▀▀│▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  [0m [36m▀▀▀▀▀▀▀▀▀▀▀▀[0;37m  [0;1;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;33m────▄█[0m
 [1;30m--------------------------------------------------------------------------------[0m
+
 [1;30mForgive me viewer, for I have sinned..   [0m
 
 [1;30mIf you''re wonderin''[0m [1;30mits a bunny biznotch...[0m

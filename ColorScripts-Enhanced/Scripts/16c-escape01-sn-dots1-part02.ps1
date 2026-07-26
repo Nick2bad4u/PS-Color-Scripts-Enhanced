@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN-DOTS1.ANS by Synergy (escape01); released in escape01 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 51-99
+# Lines: 51-100
 # Columns: 1-80
 
 Write-Host '
@@ -33,7 +33,8 @@ Write-Host '
 .                                    ·                          .
      [1m.[0m             .                 .        .  .            .        ·
                         █▀▀█  █▀▀ ·     ▀▀█▀▀ █    █▀▀            . [1m·    [0m.·
- .     [1m.[0m                ▀▀▀▀  ▀▀          ▀   ▀  ▀ ▀▀▀  .       [1m.[0m    ·         [1m.[0m
+ .     [1m.[0m                █  █  █▀          █   █▀▀█ █▀                ·         [1m.[0m
+      [1m.[0m                 ▀▀▀▀  ▀           ▀   ▀  ▀ ▀▀▀  .       [1m.[0m
 .  .                                                    .               [1m.[0m
 .              [1m.[0m                                        [1m.[0m          [1m·[0m           .
  .                   .       [34m█▀▀▀   [0;1;34m█ ▄▀  [0;36m▀▄   ▄▀[0m                       [37m·[0m     [37m·[0m

@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!12TH!.ANS by Simonking (l0p12_01); released in l0p12_01 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 142-186
+# Lines: 144-188
 # Columns: 1-80
 
 Write-Host '
@@ -52,6 +52,5 @@ Write-Host '
 [1;30m     all glue stuff (especially for ansichrist), nitrifik, cd, docjones,[0m
 [1;30m    [0m  [1;30mBAFH members (kiss for[0m [1;30mbumax and ic_666), riven, mc_laser, jinx,[0m
 [1;30m        noches, kempy, twisterek (join us!), avenger, cleaner, #ans![0m
-
 
 '

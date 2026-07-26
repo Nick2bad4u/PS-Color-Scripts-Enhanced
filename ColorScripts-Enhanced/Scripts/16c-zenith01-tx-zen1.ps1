@@ -35,8 +35,8 @@ Write-Host '
 [34m [0;1;30m████▀▀▓▓█████▀▀▀██████▓ ██▄   zenith ,. we stand for ansi[0m     [34m█[0;1;34;44m░[0;34m██▌[0m     [34m▐███▓░[0m
           [1;30m■  ▄███▄ ▄██▄ ▄██▀   in the 98; were not going[0m      [34m░▓▀██▌[0m     [34m▐█[0;34;47m▓▓[0;34m█[0m
           [1;30m▄█▄ ▀▀▀▄ ▀█[0;1;30;47m▓[0;1;30m▀[0m        [1;30mto fade away,. so adjust[0m        [34m▐███▌[0m     [34m▐████[0m
-           [1;30m▀ [0m░░ [1;30m▀[0;1;30;47m▓[0;1;30m▀[0m     [1;30m▀  [0m░░  [1;30myour screen for zenith[0m          [34m▐███▌[0m     [34m▐████▀[0;1;30me[0m
-[1;30mmulation ,,.. and sit back[0m     [34m▐███▓░    ▀▀[0m
+           [1;30m▀ [0m░░ [1;30m▀[0;1;30;47m▓[0;1;30m▀[0m     [1;30m▀  [0m░░  [1;30myour screen for zenith[0m          [34m▐███▌[0m     [34m▐████▀▀[0m
+                               [1;30memulation ,,.. and sit back[0m     [34m▐███▓░    ▀▀[0m
                                                                [34m▀▀▀[0m
 
      hey boys, this is tx here; i know that i haven''t been around alot but

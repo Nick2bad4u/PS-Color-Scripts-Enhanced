@@ -10,7 +10,7 @@
 # SAUCE Author: Produkt
 # SAUCE Group: hallucigenia
 # SAUCE Dimensions: 80x25
-# Lines: 1-26
+# Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
@@ -36,6 +36,4 @@ Write-Host '
      [37;40m░▒▒░ ░░░░▒▒░░░░   ░ ░▒▒░   ░▒▒▒▒  ▒▒▒▒░░░▒░   ░░  ░ ░  ░ ░[0m
       [37;40m░░   ░  ░░ ░░[0m       [37;40m░░ ░░  ░░░░░  ░░░   ░  ░   ░    ░[0m
       [37;40m░[0m       [37;40m░   ░[0m               [37;40m░░    ░░    ░[0m
-                                   [37;40m░[0m     [37;40m░[0m
-[37;40m→SAUCE00the blob                           grim                hallucigenia     [0m
-[37;40m               ☺☺P ↓                             [0m'
+                                   [37;40m░[0m     [37;40m░[0m'

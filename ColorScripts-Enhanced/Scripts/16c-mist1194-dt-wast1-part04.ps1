@@ -11,7 +11,7 @@
 # SAUCE Group: mistigris
 # SAUCE Date: 19941110
 # SAUCE Dimensions: 80x177
-# Lines: 111-159
+# Lines: 128-176
 # Columns: 1-80
 
 Write-Host '

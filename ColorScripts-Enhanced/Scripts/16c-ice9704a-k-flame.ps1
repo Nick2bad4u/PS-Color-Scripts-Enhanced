@@ -11,7 +11,7 @@
 # SAUCE Group: ice
 # SAUCE Date: 19970502
 # SAUCE Dimensions: 80x43
-# Lines: 1-41
+# Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
@@ -41,6 +41,7 @@ Write-Host '
 
 
 [37m-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-[0m
+
 [37mlandscape screen for flame / fire. hope you like it as much as i enjoyed making[0m
 [37mit. here''s the stuff you''re supposed to see, heh: two clouds, two mountains,[0m
 [37mtwo birds, a sun and a big blue eye as well as a sky. [0m
@@ -55,4 +56,5 @@ Write-Host '
 
 [37m                       [0m         [37mreminds in silence, your ansi''n''vga doodler, kyp[0m
 [37m         [0m                                 [37m[ethos9■ice■mean scheme] [kyp@ice.org][0m
+
 [37m-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-[0m'

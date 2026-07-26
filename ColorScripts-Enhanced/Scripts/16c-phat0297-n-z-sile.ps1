@@ -9,7 +9,7 @@
 # SAUCE Title: silence of the lambs
 # SAUCE Author: noize
 # SAUCE Group: phat studios '97
-# Lines: 1-27
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -37,6 +37,8 @@ Write-Host '
 ▀▀▀▌███[1;30;47m├[0m█[1;30;47m0.9[0m██████████[1;30;47m║[0m███▀▀[30;47m░[0;37;40m▓███████████▀▀▀▀▀▀▀▀▀▀▀████[0;30;47m▓▓[0;37;40m██████▀▀▀▀▀▀▀▀▀▀▀▀[0;30;47m░[0;37;40m▓  [0m
 
 
+
 [1;30;40m--------------------------------------------------------------------------------[0m
+
 [1;30mthis is just for myself. just amusement. possibly art not just design.[0m
 [1;30mi love it ...[0m'

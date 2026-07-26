@@ -9,7 +9,7 @@
 # SAUCE Title: support-header
 # SAUCE Author: noize
 # SAUCE Group: phat studios '97
-# Lines: 1-28
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -37,7 +37,9 @@ Write-Host '
 
 
 
+
 [1;30;40m--------------------------------------------------------------------------------[0m
+
 [1;30mtoday i met ave in an chat. he''s surely cool. okay heres an ansi 4 him.[0m
 [1;30mdebug your board man ! if it''s properly modded one like me might be able to use[0m
 [1;30mit. i''m the lamest dude who ever called a board ... believe me ..[0m'

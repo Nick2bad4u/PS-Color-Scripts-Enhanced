@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JESTER.ANS by Mad Dog (ansi); released in ansi and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
+# Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
@@ -33,7 +33,4 @@ Write-Host '
 [30;44m          ▀█[0;30;42m▄ ▀▀▀▀▀▀▀▀▀▀▀▀   ▀[0;30;44m█[0;1;37;40m▀███▄[0;30;44m█[0;30;41m▄▄▄▄▄▄▄[0;30;44m█[0;1;37;40m▄███▀[0;30;44m█[0;30;42m▀   ▀▀▀▀▀▀▀▀▀▀▀▀ ▄[0;30;44m█▀         [0m
 [30;44m [0;1;36;44mScreen By  [0;30;44m▀█[0;30;42m▄▄▄▄▄▄           ▀[0m [1;37;40m▀█████████████▀[0;30;44m█[0;30;42m▀          ▄▄▄▄▄▄▄[0;30;44m█▀           [0m
 [30;44m  [0;32;44mM[0;1;33;44mad [0;32;44mD[0;1;33;44mog      [0;30;44m▄▄▄█[0;30;42m▀             ▀▀▀[0;30;44m█[0;1;37;40m▀▀▀▀▀▀▀[0;30;44m█[0;30;42m▀▀▀[0;32;40m█[0;32;42m            [0;30;42m▀[0;30;44m█▄▄▄              [0m
-[30;44m             ▄█[0;30;42m▀          ▄[0;30;44m▀[0;30;42m▄          ▄[0;30;44m▀[0;30;42m▄          ▄[0;30;44m▀[0;30;42m▄          ▀[0;30;44m█▄            [0m
-→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→
-♥2Origin:           ♥6Home♥1brew ♥7USA ♥2*♥5 Node 5200
-            ♥5(502) 426-9540 ♥2*♥4 170 Megs ♥2*♥3 9600 HST[0m'
+[30;44m             ▄█[0;30;42m▀          ▄[0;30;44m▀[0;30;42m▄          ▄[0;30;44m▀[0;30;42m▄          ▄[0;30;44m▀[0;30;42m▄          ▀[0;30;44m█▄            [0m'

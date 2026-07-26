@@ -42,9 +42,9 @@ Write-Host '
       [1;34;40m   [0;1;30;40mFL/L7/Ex [0m                [1;36m▀██████▀[0m            [1;36m( 613 ) ###-####[0m
 [1;34m        [0;34m [0m                           [1;36m▀▀▀[0m
                                                                  [1;30m┌─────────────┐[0m
-[1;30m.[0m [1;30m··[0m [1;30m·[0m  [1;30m∙∙─---──-────--──────────────────-────-─────-─-──────────| [0;1;37m■[0mJoint End[1m■[0;1;30m └[0m
-[1;30m─────────────┘[0m   [1mW[0mo[1;30mw!  This worked out pretty good :)  Well as you can see this [0m
-[1;30mis a joi[0mn[1mt[0m
+[1;30m.[0m [1;30m··[0m [1;30m·[0m  [1;30m∙∙─---──-────--──────────────────-────-─────-─-──────────| [0;1;37m■[0mJoint End[1m■[0;1;30m |[0m
+                                                                 [1;30m└─────────────┘[0m
+   [1mW[0mo[1;30mw!  This worked out pretty good :)  Well as you can see this is a joi[0mn[1mt[0m
 [1;30m  [0m [1mb[0my[1;30m [0;36mEx-Con[0;1;30m <Started with a cheap logo>, then gave it to [0;36mLancelot[0;1;30m so he c[0ma[1mn[0m
 [1;30m  [0m [1md[0mo[1;30m some shading and stuff.  Finally!  [0;36mLancelot[0;1;30m sent it to [0;36mFlare[0;1;30m to do t[0mh[1me[0;1;30m [0m
 [1;30m  [0m [1mf[0mi[1;30mnal touches, but [0;36mFlare[0;1;30m doesn''t like to finish logos.  Ah well!, now i[0mt[1ms[0m

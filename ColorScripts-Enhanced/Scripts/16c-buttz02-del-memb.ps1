@@ -11,14 +11,15 @@
 # SAUCE Group: buttraiderz (guest)
 # SAUCE Date: 20001019
 # SAUCE Dimensions: 80x42
-# Lines: 1-41
+# Lines: 1-42
 # Columns: 1-80
 
 Write-Host '
-                                                     [30mhttp://www.stas.net/1/jamit[0m
-[30mhe scene''s revival[0m                                                            [30mcl[0m
-[30moud#9 is comming..[0m                                                         [30mdelic[0m
-[30mious@unbounded.com[0m
+                                                     [30mhttp://www.stas.net/1/jamie[0m
+                                                             [30mthe scene''s revival[0m
+                                                            [30mcloud#9 is comming..[0m
+                                                         [30mdelicious@unbounded.com[0m
+
 
 
 

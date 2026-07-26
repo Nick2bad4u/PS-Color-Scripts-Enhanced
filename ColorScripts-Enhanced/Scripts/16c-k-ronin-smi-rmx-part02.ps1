@@ -11,7 +11,7 @@
 # SAUCE Group: klexikal
 # SAUCE Date: 19990524
 # SAUCE Dimensions: 80x148
-# Lines: 49-97
+# Lines: 49-98
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
 [1;30myears ago.  it''s been a while ... phew.  so anyways, check the before and after[0m
 [1;30mand see how whack i''ve become.[0m
 [1;30m================================================================================[0m
+
  [1;33mback in the day ...[0m           ▄■              ■▄    [36m▄[0m
                               [37m▐▌[0m              [37m▄▄█▀[0;36m▄■▀▓▀■[0;37m [0;1;30m  [0m               [34m▄■[0m
     [34m▄▓▀▀▀[0;37m [0;1;30m▄▄▄▄▓▄▄▄▄[0m [34m▀▀▀▀▀▀▀▀[0;37m ▄[0;1;30m■[0;1;37;47m░[0m■▄[1m▄▓▄[0m [34m▀▀[0;37m [0;1;37m▄█[0;1;37;47m▓[0;1;37;40m▄[0m▀▓▀ [36m▀▀▀[0;37m  [0;34m▀▀▀▀▀▀[0;37m [0;1;37m▄▄▄▄▄▄[0m [34m▀▀▀▀▀▀▓▄[0m

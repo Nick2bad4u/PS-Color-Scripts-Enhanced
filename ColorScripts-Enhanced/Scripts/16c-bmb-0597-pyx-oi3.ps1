@@ -11,7 +11,7 @@
 # SAUCE Group: Bamboosh
 # SAUCE Date: 19970213
 # SAUCE Dimensions: 80x25
-# Lines: 1-31
+# Lines: 1-32
 # Columns: 1-80
 
 Write-Host '
@@ -40,6 +40,7 @@ Write-Host '
 [32m░█▒▀▀  ▓[0;37m  [0;32m░▓██▀▓[0;37m  [0;32m▀▀▀▓█[0;1;32;42m░░[0;32m▀▓▓██[0;1;32;42m░░[0;32m▓▓█▀██[0;1;32;42m░▒▒▒▓▓[0;1;32;40m▀[0;32m [0;1;30m▄▓▄[0m [34m▀[0;1;34;44m▀▀▀▀▀▒[0;34m▀[0;37m [0;1;30m▄▒[0m [1;34;44m░▀▀▀▀░[0;34m▄[0;37m [0;1;30m██████pyx[0m
 
 -------------------------------------------------------------------------------
+
 Wosh.. Yiha! Another ansi finished, and it turned out ... well, you
 judge. Anyway, I am very satisfied with myself. It''s not often I do this
 kind of style, but expect more of this in the near future! It was a

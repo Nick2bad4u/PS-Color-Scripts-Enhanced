@@ -32,7 +32,7 @@ Write-Host '
 [1;34m█▄[0;1;36m   [0;1;34m▀███▌[0m [1;30m▄[0;1;30;47m▀      ░▀[0;1;30;40m▄[0m [1;30m▄[0;1;30;47m▀     ░ ▀[0;1;30;40m▄[0m          [1;30muse the ▲/▼ arrows to change,[0m    [1;34m  [0m
 [1;34m██▀[0m    [1;34m▀█▄[0m [1;30m▀█[0;1;30;47m▄▄▄▄▄▄▄[0;1;30;40m█▀[0m [1;30m▀█[0;1;30;47m▄▄▄▄▄▄▄[0;1;30;40m█▀ [0m [1;30m░[0m          [1;30m     ENTER Select[0;1;34m   [0m [1;34m    [0m [1;34m      [0m
 [1;34m▀[0m [1;34mck[0m     [1;34m▀▀▄▄[0m         [1;34m▄[0m       [1;30m [0m   [1;30m░[0m          [1;34m                      [0m [1;34m            [0m
-[1;34m [0m
+                               [1;30m [0m                                          [1;34m  [0m
 [1;30m--------------------------a0=0c=23510fAsA--ACK![0m
 [1;30m   Dont rip this.. unless you run a board called Legion of Fools.. this is not[0m
 [1;30mfor you. GreTz:  CyberPunk(where the hell are you),SS,TI,BW,SPINSANE,6o2 Boys,  [0m

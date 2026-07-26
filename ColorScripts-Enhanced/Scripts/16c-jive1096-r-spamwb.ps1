@@ -8,7 +8,7 @@
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Spam
 # SAUCE Author: The Riddler
-# Lines: 1-15
+# Lines: 1-16
 # Columns: 1-80
 
 Write-Host '
@@ -26,4 +26,5 @@ Riddler@!@!of[1mJiVE[0m@!$!@
 [1;34;44m ▒▒▒ [0;1;35;40m ▄[0;1;35;47m▓▓▓▓[0;1;35;40m▌[0;34m▐[0;1;34;44m [0;34m▌[0;1;35m▐[0;1;35;47m▓▓▓▓[0;1;35;40m▌[0;1;35;47m▓▓▓▓[0;1;35;40m▄[0;34m ▀[0;1;34;44m░[0;34m▌[0;1;35m▐[0;1;35;47m▓▓▓▓[0;1;35;40m▌▐[0;1;35;47m▓▓▓▓▓[0;1;35;40m▌[0;34m▐[0;1;34;44m [0;34m▌[0;1;35m▐[0;1;35;47m▓▓▓▓▓▓▓▓▓[0;1;35;40m▄ [0;1;34;44m░░░[0m [1;35;47m▓▓▓▓▓[0m [34m█[0;1;34;44m [0;1;35;40m [0;1;35;47m▓▓▓▓▓[0m [1;34;44m░░░[0m
 [1;34;44m ░░░░[0;34m▄[0;1;35m ▀▀███▄▄▄██[0;1;35;45m▀[0;1;35;40m▀▀ ██████▄▄▄██[0;1;35;45m▀[0;1;35;40m▀▀ [0;34m▄░[0;1;35m▀▀███▄▄▄██████████[0;1;35;45m [0m [1;34;44m   [0;34m▄▄▄▄▄▄▄█[0;37m [0;1;35m▐████▌[0;34m▐[0;1;34;44m   [0m
 [34m▀▀▀▀▀▀▀▀[0m           [34m▀[0;37m [0;1;35m████[0;1;35;45m [0m        [34m▀▀▀▀▀[0m        [1;35m▀▀▀▀▀████[0;1;35;45m [0m [34m▀▀▀▀▀▀▀▀▀[0;1;35mr!▄██[0;1;35;45m▀[0;35m▀▀[0;37m [0;34m▀▀▀▀[0m
+
                                                  [1;30m        [0m'

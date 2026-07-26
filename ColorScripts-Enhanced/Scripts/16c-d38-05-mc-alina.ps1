@@ -11,7 +11,7 @@
 # SAUCE Group: Department 38
 # SAUCE Date: 19970410
 # SAUCE Dimensions: 80x25
-# Lines: 1-37
+# Lines: 1-38
 # Columns: 1-80
 
 Write-Host '
@@ -50,5 +50,6 @@ Write-Host '
 [1;35mMC> ok.. the lit aint that great.. but yeah.. I was stuck for something to go[0;30m•••[0m
 [1;35mthere... *:o)[0;35m... [0;1;35mAnd yeah.. Nike sportswear!.. remember if ya wanna use this,[0;30m•••[0m
 [1;35mremember where to send the royalties![0;30m•••••••••••••••••••••••••••••••••••••••••••[0m
+
 [1;32mO[0;32mkays, I cut out teh font at the bottom that said Alien Nation.. Mainly because[0m
 [32mwell, Madcap you know why :)[0m'
