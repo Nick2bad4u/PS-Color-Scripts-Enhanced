@@ -175,6 +175,12 @@ Describe 'Curated ANSI artwork provenance' {
         $rootLicense | Should -Match 'Free Art License 1\.3'
 
         foreach ($scriptName in @($script:Provenance.Scripts.Keys | Where-Object { $_.StartsWith('roy-sac-', [System.StringComparison]::Ordinal) })) {
+            $entry = $script:Provenance.Scripts[$scriptName]
+            $entry.RenderSha256 | Should -Match '^[0-9a-f]{64}$'
+            $entry.NormalizedRenderSha256 | Should -Match '^[0-9a-f]{64}$'
+            $entry.SourceRows | Should -Match '^[1-9]\d*-[1-9]\d*$'
+            $entry.SourceColumns | Should -Match '^[1-9]\d*-[1-9]\d*$'
+
             $scriptPath = Join-Path -Path $script:ScriptsRoot -ChildPath "$scriptName.ps1"
             $contents = [System.IO.File]::ReadAllText($scriptPath)
             $contents | Should -Match '# Source License: FAL-1\.3'
