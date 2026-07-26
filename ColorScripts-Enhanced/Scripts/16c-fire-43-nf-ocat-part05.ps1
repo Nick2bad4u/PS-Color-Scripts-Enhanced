@@ -12,7 +12,7 @@
 # SAUCE Date: 20250707
 # SAUCE Dimensions: 80x240
 # SAUCE Font: IBM VGA
-# Lines: 196-238
+# Lines: 197-240
 # Columns: 1-80
 
 Write-Host '

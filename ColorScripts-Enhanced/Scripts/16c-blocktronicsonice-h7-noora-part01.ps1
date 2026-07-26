@@ -5,7 +5,7 @@
 # Source SHA-256: dabecdb4d52c0ca5ce2371d4e69cde05b9500e80dfe6287ceb309e21b54344ee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: H7-noora.ans by H7 (Blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: noora
 # SAUCE Author: H7
 # SAUCE Group: Blocktronics

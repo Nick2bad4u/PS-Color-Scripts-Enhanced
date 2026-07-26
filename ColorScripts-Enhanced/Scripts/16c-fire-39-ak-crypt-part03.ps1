@@ -5,21 +5,23 @@
 # Source SHA-256: 0280e4e927a3ab0ae778fc5c8af5cc88bfff5bed56bfc3c121416379f9dc199a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-CRYPT.ANS by Abstrakt (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: The Crypt
 # SAUCE Author: Abstrakt
 # SAUCE Group: Fire
 # SAUCE Date: 20240303
 # SAUCE Dimensions: 80x104
 # SAUCE Font: IBM VGA
-# Lines: 71-104
+# Lines: 69-104
 # Columns: 1-80
 
 Write-Host '
-[37m$,`$[0;1;30m$[0mb[1;30m4b.[0m   4[1m$$$.└$$$b`$$$l[0m [1mY$$$$$$[0m$[1m'' Y$$[0m$`''[1m   [0;31m4$$$$lllii::∙.[0m          [37m.d$$$$┘.$[0m
-[37m$$,`Q$.└[0;1;30m$[0m.[1;30m   [0m`└[1m4$ └$$$b`$$$: Y$$[0m$[1m$P[0m''[1m  :$[0m┘''   [1;30md\[0m [31m`4$$ljliiii:::::∙∙∙[0;37m .┌$$P''$$┘[0;1;30m.[0m$$
-$$$. \$.└$\      [1m`[0m `4[1m$$b`└$l  [0m4$[1m$[0mb.''      [1;30m\[0;1;37m [0;1;30m`┘''/,[0m [31m`\`[0;37m_.,,..[0;1;30m [0;31m`''[0;37m .,┌s$$$P'',$P'',$$$[0m
-[37mP.$$. Y$.''$$[0;1;30m.  [0m`.  [1;30m¬.[0m`''[1m`[0m   [1m`   [0m`''          ''[1;30m┐.`4$b.[0m
+[31mi:∙[0m                     [37m,[0;1;30m [0mY$[1;30m$$$b [0m`└$[1m$b[0m [1mj$$┐ $$$$ :$$$$$$$$$$$$[0m$[1m$$$$$7''` `[0m [31m,$$$$$[0m
+[31mli:∙[0m                   [37m/$b$$L`$[0;1;30m$b┌.[0;1;37m `''[0m 4[1m$$$.''$$$L $$$$l4$$$$$$$$[0m$[1m`$$,j$[0mb''[31m 4$$$$$[0m
+[31mlii:∙.[0m               [37m.d$$$;$$,`$[0;1;30m$[0mb[1;30m4b.[0m   4[1m$$$.└$$$b`$$$l[0m [1mY$$$$$$[0m$[1m'' Y$$[0m$`''[1m   [0;31m4$$$$[0m
+[31mlllii::∙.[0m          [37m.d$$$$┘.$$$,`Q$.└[0;1;30m$[0m.[1;30m   [0m`└[1m4$ └$$$b`$$$: Y$$[0m$[1m$P[0m''[1m  :$[0m┘''   [1;30md\[0m [31m`4$$[0m
+[31mljliiii:::::∙∙∙[0;37m .┌$$P''$$┘[0;1;30m.[0m$$$$$. \$.└$\      [1m`[0m `4[1m$$b`└$l  [0m4$[1m$[0mb.''      [1;30m\[0;1;37m [0;1;30m`┘''/,[0m [31m`\[0m
+[31m`[0;37m_.,,..[0;1;30m [0;31m`''[0;37m .,┌s$$$P'',$P'',$$$P.$$. Y$.''$$[0;1;30m.  [0m`.  [1;30m¬.[0m`''[1m`[0m   [1m`   [0m`''          ''[1;30m┐.`4$b.[0m
 S$$$│$$$#┌[1;30m$$[0m$$$j┘''.d$''.┌$$$P d$$$. Y$┐`4$b[1;30m.  [0m`┐[1;30m.└b   :b┐[0m.     [1;30m.┌[0m.       `[1;30m4b.`└$b[0m
 7┘'' .,┌$$$$$S┘` ,d$'' /$$$\'' d$[1;30m$[0m$$$, └jb └$$[1;30mb,[0m  4b┐[1;30m$\[0m  [1;30mY[0m$[1;30m$[0m$[1;30mb[0m  [1;30m:$[0m$[1;30m4b[0m        [1;30m`''   `[0m
 4L,d$$j$S↕┘` .┌$P`[1;30m /$[0m$$⌐` .d$[1;30m$''[0mj$$$\  \$. └$$b. `4$$b  4$`4$\ `[1;30m┘[0m `/[1;30m\[0m

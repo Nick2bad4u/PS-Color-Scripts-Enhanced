@@ -5,7 +5,7 @@
 # Source SHA-256: 9b6e678f8a51796a48ac96d28114d9ab4f78fc5075fee19b0ce1fcf37537e268
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GRIS.ANS by Zeus Ii + Cthulu (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Get down w/ the GRIS
 # SAUCE Author: Cthulu / Zeus II
 # SAUCE Group: Mistigris

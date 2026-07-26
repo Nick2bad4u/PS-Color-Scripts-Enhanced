@@ -12,7 +12,7 @@
 # SAUCE Date: 20240920
 # SAUCE Dimensions: 80x50
 # SAUCE Font: IBM VGA
-# Lines: 1-49
+# Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
@@ -61,6 +61,7 @@ Write-Host '
 [1;30;46m▓▓▓▓▓▓▓▓▓▓▓▓▓▄▄▄▄▄[0;1;30;40m██▓▓▓▓▓▄▄▄▄▄▄[0m░░░[1;30m▄ ▄ ▄   ▄■▄█[0;1;30;47m▓▓▓[0;1;30;40m▄▄▄▄▄██[0;1;30;46m█▀▀▀▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒[0m
 [1;30;46m▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▒▀▀▀[0;1;30;40m█████████████▄█▄█▄██████[0;1;30;46m▄▄▄▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;36m▓▓▓▓▓▒▒▒[0m
 [1;30;46m▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m░░░░[1;30;46m█████████[0;1;30;40m▀▀▀■  ▀▄▀▄▀[0;1;30;46m███████[0m░░░░░░░░░░[1;30;46m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒[0;36m▓▓▓▓[0m
+
 [37m  [0;1;31mkamalas greatest fear is lipstick on the starbucks coffee cup.[0m
 [1;31m  WON''T SOMEBODY CHANGE THE DAMN COLOR LID ON THE STARBUCKS COFFEE BEFORE[0m
 [1;31m  KAMALA HAS A HEART ATTACK[0m

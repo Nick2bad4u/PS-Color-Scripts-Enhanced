@@ -5,7 +5,7 @@
 # Source SHA-256: f76da403e5ec36f9cd836e11436252b6c0268719601e15a20d500ffb9b1bb2dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N-PHRACK.ANS by nail (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: phrack gnome
 # SAUCE Author: nail
 # SAUCE Group: fire

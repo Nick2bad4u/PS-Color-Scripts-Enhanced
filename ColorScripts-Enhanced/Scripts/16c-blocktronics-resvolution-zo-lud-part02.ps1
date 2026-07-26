@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zO-lud.ans by Enzo (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 44-86
+# Lines: 43-85
 # Columns: 1-80
 
 Write-Host '
+
                                      [32m1[0m
                                      [32m0[0m
                                      [32m1[0m
@@ -50,5 +51,4 @@ Write-Host '
 [32m ▒   [0;1;32m ▀▀█[0;32m ███ [0;1;32m█   [0m                 [32m▓   [0;1;32m [0;32m  ▄█████[0;1;32m▒    [0;32m ▓[0m     [1;32m   ▀[0m     [1;32m▀[0m
           [32m▀██ [0;1;32m▀█  [0m        [32m▄██[0m          [1;32m   [0;32m██▄ ██    [0;1;32m [0m       [1;32m  ▄▀[0;32m▄████▄[0;1;32m▀▄  [0;32m  ▄▀▄[0m
 [32m▄▀▄[0m      [32m█████ [0;1;32m█  [0m          [32m█[0m     [32m▀█   [0;1;32m   [0;32m██ ▀██    [0;1;32m [0;32m▄▀▄    [0;1;32m █ [0;32m██▒  ███[0;1;32m██ [0;32m  █▄▀[0m
-[32m█▄▀ [0;1;32m   ▄▄[0m      [1;32m   [0m         [32m▒▒    [0;1;32m  ▓[0m     [1;32m▒[0;32m▀███▀[0m     [1;32m [0;32m█▄▀    [0;1;32m   [0;32m██ █ ███[0;1;32m █[0m
-[32m    [0;1;32m ▄▀[0;32m ▄████▄[0m             [32m░░    [0;1;32m [0m     [1;32m   ▀    ░  [0;32m  [0;1;32m [0m       [1;32m ▒ [0;32m██   ███[0;1;32m ▒ [0;32m  ▀█[0m'
+[32m█▄▀ [0;1;32m   ▄▄[0m      [1;32m   [0m         [32m▒▒    [0;1;32m  ▓[0m     [1;32m▒[0;32m▀███▀[0m     [1;32m [0;32m█▄▀    [0;1;32m   [0;32m██ █ ███[0;1;32m █[0m'

@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-evoke13.ans by Avenging Angel (blocktronics_space_invaders); released in blocktronics_space_invaders and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 87-128
+# Lines: 87-127
 # Columns: 1-80
 
 Write-Host '
@@ -50,5 +50,4 @@ Write-Host '
 
                   [31m▄▄[0m
                 [31m▄█▀▀[0m
-
 '

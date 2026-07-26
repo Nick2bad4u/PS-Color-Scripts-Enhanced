@@ -5,7 +5,7 @@
 # Source SHA-256: 381fa0c61efffdf59c0217897b962cdebca6b4b37f9df560a3f34d0352f4267b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-PORTRAIT.ANS by Mavenmob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Self Portrait
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris

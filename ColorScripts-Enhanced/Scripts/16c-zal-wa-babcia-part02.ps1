@@ -5,7 +5,7 @@
 # Source SHA-256: 8ee7dd6da53273d33ced94dddf4ab37ff644f8d6b76a4fe640e069beabb11ffa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-babcia.ans by warpus (LAZARUS); released in zal and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: babcia
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS

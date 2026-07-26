@@ -13,7 +13,7 @@
 # SAUCE Dimensions: 80x586
 # SAUCE Font: IBM VGA
 # SAUCE Comments: better hide...
-# Lines: 536-584
+# Lines: 538-586
 # Columns: 1-80
 
 Write-Host '

@@ -5,7 +5,7 @@
 # Source SHA-256: 1d8095aa76b47cb6b21059ddfb6374a052f368fa613a763d936e0374209e4ed6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-TV.ANS by tainted (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: The Vault BBS
 # SAUCE Author: tainted
 # SAUCE Group: Fire

@@ -5,7 +5,7 @@
 # Source SHA-256: 775e22f3b90b019995ce7e4e6993be0b2aa96fba12b32e695147f0a2781559a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-FLAG.ANS by Savage (Fire Graphics); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at manually reviewed compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Black Flag BBS
 # SAUCE Author: Savage
 # SAUCE Group: Fire Graphics
@@ -13,7 +13,7 @@
 # SAUCE Dimensions: 80x297
 # SAUCE Font: IBM VGA
 # SAUCE Comments: Rest in Peace Hawk Hubbard
-# Lines: 1-50
+# Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
@@ -64,5 +64,4 @@ Write-Host '
                                                    ██[1;30m▄[0m       [1;30m▀[0m▀▀▀     [1;30m▄▄▄▄▄AVG_[0m
                    [33m░░░░[0;30;43m▓[0;33;40m░  ░ ░░[0;30;43m▓▓▓▓[0;33;40m░░░░░░░░░░░░░░[0;1;30;40m▄▄ [0m▀[1;47m·[0m▄[1;30m▄[0m          [1;30m▄[0m▄[1m▄[0;1;47m▄██▀[0m▄▒▒▒▄
       [1;30m■[0m [1;30m░░░░░░░░░░▄▄[0m▄▄▄[1;30;47m▀▀▀▀▀▀[0m▄▄▄[33m░░░░░░[0;30;43m▓▓▓[0;33;40m░░░░░░░░░[0;30;43m▓▓[0;33;40m░[0;1;30;40m▄[0m▀[1;47m■[0m▄[1;30m▄▄[0m  [1;30m▄▄[0m▄[1m▄[0;1;47m▄█▀[0;1;40m▀[0m▀▄[1;47m▄■[0m▀  ▀▀▓▄
-  [1;30m▄▄[0;33m░░░░[0;30;43m▓▓[0;33;40m░░[0;1;30;40m▄[0m▄[1m▄▄[0;1;47m▄▄[0;1;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;47m▄▄[0;1;40m▄▄[0m▄[33m▒▒▒░░░░░░░░░░[0;30;43m▓▓[0;33;40m░[0;37;40m▀[0;1;37;47m▀[0;1;37;40m▓▓▓▓[0;1;37;47m▀[0;1;37;40m▀▀[0m▀  ▄[1;47m█▄[0m▀       ▀
-[1;30m▄[0;33m░░░[0;30;43m▓▓[0;33;40m░[0;37;40m▄[0;1;37;40m▄▄[0;1;37;47m▄[0;1;37;40m▓▓▓▓▓[0;1;37;47m■  ▓▓▓▓▓███[0;1;37;40m███████████████[0;1;37;47m▄[0;1;37;40m▄▄[0m▄[33m▒▒▒▒▒▒▒▒▒▒░░░[0;30;43m▓▓[0;33;40m░░[0;30;43m▓[0;33;40m░░░[0;1;30;47m [0m█▀[33m░░[0;1;30m▒▒[0m'
+  [1;30m▄▄[0;33m░░░░[0;30;43m▓▓[0;33;40m░░[0;1;30;40m▄[0m▄[1m▄▄[0;1;47m▄▄[0;1;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;47m▄▄[0;1;40m▄▄[0m▄[33m▒▒▒░░░░░░░░░░[0;30;43m▓▓[0;33;40m░[0;37;40m▀[0;1;37;47m▀[0;1;37;40m▓▓▓▓[0;1;37;47m▀[0;1;37;40m▀▀[0m▀  ▄[1;47m█▄[0m▀       ▀[0m'

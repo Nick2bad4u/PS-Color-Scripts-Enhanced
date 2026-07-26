@@ -5,7 +5,7 @@
 # Source SHA-256: 591d43c8c2a15a664f5ccf6004c53f0ff29edb09295653d68eeba41cd6c4211b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HRV_Arcana.ans by harvest (Lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at manually reviewed compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Arcana
 # SAUCE Author: harvest
 # SAUCE Group: Lazarus

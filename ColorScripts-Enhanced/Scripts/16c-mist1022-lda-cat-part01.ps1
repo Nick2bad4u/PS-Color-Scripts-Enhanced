@@ -5,7 +5,7 @@
 # Source SHA-256: 550daa5d23fb70f2246a811745854af78317e93b116a4451b8bb6955643d4d9c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LDA-CAT.ANS by LDA (Mistigris); released in mist1022 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: cat
 # SAUCE Author: LDA
 # SAUCE Group: Mistigris

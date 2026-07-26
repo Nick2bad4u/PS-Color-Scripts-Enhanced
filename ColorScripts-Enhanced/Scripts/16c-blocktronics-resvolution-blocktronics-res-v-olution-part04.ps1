@@ -6,12 +6,10 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: _blocktronics_res[v]olution.ans by Avenging Angel + Enzo (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 145-192
+# Lines: 147-194
 # Columns: 1-80
 
 Write-Host '
- [1;30m░░[0;32m [0;37m  [0;31m █ [0;1;34m▄▀[0m         [1;34m▀▒[0;31m [0;37;41m  [0;31;40m█[0;31;47m██[0;31;40m▀▀▀[0;1;34;40m▄█  ▀▀▀▀▀  [0;31m [0;1;34m ▀[0m      [1;34m▀▄ [0;31m▀[0;31;47m▄[0;1;37;47m ▀[0;41m█[0;31;47m██[0;31;40m██  ▀[0;31;47m▄▒[0;31;40m██▀ [0;1;34;40m▄▀[0m
- [1;30m▒▒[0;32m [0;37m  [0;31m▒  [0;1;34m    [0m        [1;34m   ▄▄█▀▀▀[0;31m [0m           [31m [0m           [1;34m▀█▄[0;31m▀▀▀▀▀[0m       [1;34m▀▀[0m
  [1;30;46m██[0;32m [0;37m   [0;32m  [0m          [31m  [0;1;34m  ▀[0m            [32mEPISODE ONE[0m           [1;34m▀▀▀▀▀[0m
 [1;30m▒[0;1;30;46m██[0;32m [0;1;30m▒▒[0;32m [0;1;30m▒▒[0;32m  [0m                        [1;32mRES([0;32mV[0;1;32m)OLUTION[0m                             [1;30;42m██[0;1;30;40m▒[0m
 [1;30;42m███[0;32m [0;1;30m██▒██[0;32m  [0m                                                          [32m  [0;1;30m▒▒[0;32m [0;1;30m▒▒[0;32m [0;1;30;42m███[0m
@@ -57,4 +55,6 @@ Write-Host '
 [32m███ [0;1;36;42m    ▄[0;32m [0;37m  [0;35mthe reality: You are dead! Ansi lives in the secret garden[0;1;30m  ▀[0;1;30;42m▄[0;1;36;42m██[0;1;30;42m▄[0;1;36;42m   [0m
 [1;36;42m░░░[0;32m █████  [0;37m [0;35mof blocktronics, a place that you will never be or unders[0;37m [0;1;30m [0;1;36;42m   ██[0;1;30;40m▒[0;1;36;42m░░░[0m
 [1;36;42m▓▓▓[0;1;30;42m▀[0;32m███[0;1;36;42m  [0;32m [0;37m  [0;35mtand, safe from your lies and negative thinking, where [0;37m    [0;1;36;42m   ▒▒[0;32m [0;1;36;42m▓▓▓[0m
-[1;36;42m███    ░░[0m   [35mcreative and genuine artists like [0;1;35mzeroVision [0;35mand many[0m      [1;36;42m░░   [0m [1;36;42m███[0m'
+[1;36;42m███    ░░[0m   [35mcreative and genuine artists like [0;1;35mzeroVision [0;35mand many[0m      [1;36;42m░░   [0m [1;36;42m███[0m
+[1;36;42m███ ░░ ▓▓[0m   [35mothers reinvent themselves daily, with a magical mix of[0;37m    [0;1;36;42m▓▓[0;32m▒[0;1;36;42m  [0m [1;36;42m███[0m
+[1;36;42m███[0;32m█[0;1;36;42m▓▓[0;32m▒[0;1;36;42m██[0;32m  [0;37m [0;35mtalent, commitment and hard work.[0m                        [32m  [0;1;36;42m██[0;32m [0;1;36;42m   ███[0m'

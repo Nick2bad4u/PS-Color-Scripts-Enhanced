@@ -5,7 +5,7 @@
 # Source SHA-256: 2b980a535a53a24142e6b540549e810bb023a50787ad1b79ed6a8877ee85bb2f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: jj-ganya.ans by KF/jj (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Gears of War 3's Anya
 # SAUCE Author: KF/jj
 # SAUCE Group: Legacy Krew

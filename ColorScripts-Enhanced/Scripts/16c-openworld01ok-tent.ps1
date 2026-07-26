@@ -4,8 +4,8 @@
 # Source Revision: archive-sha256:0bbffa67a24aa77245d61809e45ade0bbedb9387ba99f1f1dc6ea49d67fa7e3a
 # Source SHA-256: 5f0c665b52e9c524243b9260538bd3881bc3bc32968daf14b05dd792734e7a70
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tent.ans by Luxuse (OpenWorld); released in openworld01ok and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, scaling, or background-space stripping; split only into contiguous source-row ranges at manually reviewed composition boundaries when required.
+# Source Attribution: tent.ans by Luxuse (openworld01ok); released in openworld01ok and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -15,9 +15,9 @@ Write-Host '
 [35;40m    ░░░█▒[0m     [31;40m░[0;30;45m▄▄[0;30;40m [0;1;35;40m▀ [0;30;45m▄[0;31;40m░[0;35;40m░░░░░▒░░[0m                        [35;40m▒[0;1;35;45m▄█[0;35;45m███[0m        [1;30;40m░[0m
      [35m░▓░    [0;1;30m░ [0;31m░[0m     [35m░░ [0;1;30m░░▒[0m       [1;30m░░░░░  [0;35m░░░░[0m         [1;30m░[0;35m█[0;1;35m█[0;35m██[0;30;45m▄[0m     [1;30;40m░░░░[0m
             [1;30;40m░▒[0m     [1;30;40m░░░░[0m     [1;30;40m░░░░░[0;35m░░░░░░░[0m         [1;30m░░░░[0;35m█████▒  [0;1;30m░░░[0m
-             [1;30m▒ ░░░░   ░░░░[0;35m▒▒░░░░░[0m           [1;30m░░░░░   [0;35m░[0;35;41m▀[0;31;41m█[0;35;45m▄██[0;1;30;40m░░░   ░░[0m            [1;30;40m░░[0m
-[1;30;40m░░░▓  ░░░░░[0m                   [1;30;40m░░░[0m        [35m█[0;31m█[0;35m██[0;30;45m▄[0m     [1;30;40m░░[0m             [1;30;40m▒░ [0m      [1;30;40m░░░░ [0m
-[1;30;40m   ░▒░[0m                  [1;30;40m░░░░░░[0m          [1;30;40m░[0;1;31;45m▀[0;35;45m███[0;35;40m    [0;1;30;40m░░[0m             [1;30;40m░░[0m
+             [1;30m▒ ░░░░   ░░░░[0;35m▒▒░░░░░[0m           [1;30m░░░░░   [0;35m░[0;35;41m▀[0;31;41m█[0;35;45m▄██[0;1;30;40m░░░   ░░[0m            [1;30;40m░ [0m
+          [1;30;40m░░░░▓  ░░░░░[0m                   [1;30;40m░░░[0m        [35m█[0;31m█[0;35m██[0;30;45m▄[0m     [1;30;40m░░[0m             [1;30;40m▒░ [0m
+      [1;30;40m░░░░    ░▒░[0m                  [1;30;40m░░░░░░[0m          [1;30;40m░[0;1;31;45m▀[0;35;45m███[0;35;40m    [0;1;30;40m░░[0m             [1;30;40m░░[0m
 [1;30;40m   ░░░[0m       [1;30;40m░░▒[0m              [1;30;40m░░░░░[0m             [1;30;40m░░░[0;35m░[0;30;45m▄[0;1;31;45m▄[0;35;45m▄[0;1;35;40m░   [0;1;30;40m░░[0m             [1;30;40m░░[0m
            [1;30;40m░░  ▒  ▒ ░░   ░░░░░[0m                 [1;30;40m░░    [0;31m░   [0;1;30m░░[0m              [1;30m▒[0m
            [1;30m▒   ▒ ▒ ░░[0m                                   [1;30m░░[0m             [1;30m░▒[0m

@@ -12,10 +12,11 @@
 # SAUCE Date: 20180523
 # SAUCE Dimensions: 80x148
 # SAUCE Font: IBM VGA
-# Lines: 100-148
+# Lines: 99-148
 # Columns: 1-80
 
 Write-Host '
+        phosphorescent rainbow tic-tac blocks        [1;30m▐[0m      [31m [0;1;30m █▄▐  ▐▌[0m
         like radioactive ice cream sprinkles         [1;30m▐▀▄[0m    [31m [0;1;30m  ▀▐  █[0m
         magnetically assembling in perfect arcs           [1;30m■[0m [31m  [0m     [1;30m▓▐[0m
         on comically small cathode ray tubes                [31m   ▐▄[0;1;30m   ▀[0m

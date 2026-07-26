@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 1999 - 05 - FEV-FICT.ans by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
+# Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
@@ -35,6 +35,7 @@ Write-Host '
 [1;30m▀[0m░░[1;30m██▓▓▓▒▒▒░░░[0m                [1;30m▀█[0;1;30;47m▄[0;1;30;46m█[0;1;30;41m▓[0m [1;30m█▄[0;30;47m██[0;1;30;40m█[0m  [1;30m▀▀▀█[0;1;30;41m▓[0;31m▀[0;1;30m▀▀[0m   [1;33m▀▀████████████████████████[0m
 [1;30m▄ ▀[0m░░░[1;30m███▀▀[0m          [1;30m▄▄▄[0m        [1;30m▀[0;1;30;46m█[0;1;30;41m▓[0m [1;30m█[0;30;47m█████[0;37;40m [0;1;30;40m▀███[0;1;30;41m▓[0;31m▄[0;1;30m▄▀[0m  [30;47m█[0;1;33;40m▀█████████████████████████[0m
 [1;30;40m██  ▀[0m ░░░         [1;30m█▓▓▓▀▀▀▀[0m        [31m▀[0;37m [0;1;30m▀░[0;30;47m█[0;37;40m [0;30;47m█[0;1;30;40m▄[0m░   [1;30m▀▀[0m     [1;33m▀▀█▄███████████████████████[0m
+
  [1;30mThe Cobold[0m
 
  [1;30mI limited this pic to 25 lines, i''m happy with how it turned out however.[0m

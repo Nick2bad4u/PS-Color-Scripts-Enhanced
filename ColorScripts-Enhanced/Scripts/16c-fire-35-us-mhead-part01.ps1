@@ -5,7 +5,7 @@
 # Source SHA-256: 0d8df788a867e7219a7b9ff41debeb744f3d6b5ad8ba7426ec47cf9defa7fd77
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-MHEAD.ANS by Necro + Nail (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: motorhead
 # SAUCE Author: necro + nail
 # SAUCE Group: fire

@@ -5,7 +5,7 @@
 # Source SHA-256: 51f2dc5e3e64785cf89cab35ffc2a6e961af7936e3e8da799836684285250d63
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: H7-SKROL.ANS by H7 (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: skrolli
 # SAUCE Author: H7
 # SAUCE Group: fire

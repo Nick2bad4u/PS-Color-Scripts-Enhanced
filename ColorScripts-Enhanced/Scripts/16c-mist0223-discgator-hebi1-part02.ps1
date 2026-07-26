@@ -5,7 +5,7 @@
 # Source SHA-256: d972c8a63e62027e00de59503402d64ee5d49ed059deb3f1a9ea2dfe8e4048ad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DISCGATOR-HEBI1.ANS by discGator (mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: hebi1
 # SAUCE Author: discGator
 # SAUCE Group: mistigris

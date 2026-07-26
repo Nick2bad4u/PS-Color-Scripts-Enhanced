@@ -5,7 +5,7 @@
 # Source SHA-256: 7f0238d97909366b2d89ce586ba392161b1e4e3f43e3e96ffc3ebfb00c1a5d96
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-SKINCOLOR.ANS by Mavenmob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Skin In The Color
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris

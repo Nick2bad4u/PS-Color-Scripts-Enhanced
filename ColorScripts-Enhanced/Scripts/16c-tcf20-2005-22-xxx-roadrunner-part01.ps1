@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2005 - 22 - XXX - Roadrunner.ans by Avenging Angel + Enzo + The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-44
+# Lines: 1-45
 # Columns: 1-80
 
 Write-Host '
@@ -52,4 +52,5 @@ Write-Host '
 [1;33m [0;1;32m███▄▄  [0;1;33m [0;1;32m▀▄▄[0;1;33m ▀▀▄▄███████████████[0;1;33;43m▄[0;1;33;40m▄▄▄▄[0;33m▄[0;37m    [0;1;33m [0;33m▀[0;1;33m████████████  ███████ [0;32m▀▀[0;1;33;42m▄[0;1;33;40m▄▄█████▄██[0m
 [1;33;40m [0;1;32;40m▀▀███████▄███▄▄ [0;1;33;40m▀▀▄████████████████████[0;1;33;43m▄[0;1;33;40m▄▄▄▀███████████  █████████████████████[0m
 [1;33;40m██▄▄[0;1;32;40m ▀▀███████████▄▄ [0;1;33;40m▀▀███████████████████████▀█████████░░█████████████████████[0m
-[1;33;40m██████▄▄ [0;1;32;40m▀▀███████████▄▄[0;1;33;40m ▀▀█████████████████████████████▓▓█████████████████████[0m'
+[1;33;40m██████▄▄ [0;1;32;40m▀▀███████████▄▄[0;1;33;40m ▀▀█████████████████████████████▓▓█████████████████████[0m
+[1;33;40m██████████▄▄ [0;1;32;40m▀▀█████▀[0;1;30;40m▄[0;1;32;40m ███▄▄ [0;1;33;40m▀▀████████████████████████████████████████████████[0m'

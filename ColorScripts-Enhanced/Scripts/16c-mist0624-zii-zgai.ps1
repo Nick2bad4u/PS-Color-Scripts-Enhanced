@@ -4,7 +4,7 @@
 # Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
 # Source SHA-256: 5f0b379c6ea4f3bf9d89a9fc6d9935a6c7e2bd0108cacbb8ef3e92dbcc31d5e2
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-ZGAI.ANS by Zeus II (?); released in mist0624 and preserved by 16colors.
+# Source Attribution: ZII-ZGAI.ANS by Zeus II (mist0624); released in mist0624 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Ten-Oh Hyuga login
 # SAUCE Author: Zeus II

@@ -5,14 +5,14 @@
 # Source SHA-256: bf27250276fe056fbdae40052e04dfb7cab48d1b95bb1fa94071e08104343205
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: berdyx-evangelion.ans by berdyx (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: evangelion CGA
 # SAUCE Author: berdyx
 # SAUCE Group: HPM
 # SAUCE Date: 20250917
 # SAUCE Dimensions: 60x55
 # SAUCE Font: IBM VGA
-# Lines: 1-26
+# Lines: 1-27
 # Columns: 1-60
 
 Write-Host '
@@ -41,4 +41,5 @@ Write-Host '
 [1;36m████[0;1;35m███████████████[0;30;105m▐██▌[0;1;35m██[0;30;105m █[0;1;35m█[0;30;105m██████[0;1;35m█[0;30;105m█ [0;1;35m██[0;30;105m▐██▌[0;1;35m██████████████[0;1;36m███[0m
 [1;36m█████[0;1;35m███████████████[0;30;105m██ [0;1;35m██[0;30;105m▐██████████▌[0;1;35m██[0;30;105m ██[0;1;35m██████████████[0;1;36m████[0m
 [1;36m██████[0;1;35m██████████████[0;30;105m██ [0;1;35m██[0;30;105m████████████[0;1;35m██[0;30;105m ██[0;1;35m█████████████[0;1;36m█████[0m
-[1;36m███████[0;1;35;106m▀[0;1;35m████████████[0;30;105m██ [0;1;35m█[0;30;105m▐███▌████▐███▌[0;1;35m█[0;30;105m ██[0;1;35m███████████[0;1;35;106m▀[0;1;36m██████[0m'
+[1;36m███████[0;1;35;106m▀[0;1;35m████████████[0;30;105m██ [0;1;35m█[0;30;105m▐███▌████▐███▌[0;1;35m█[0;30;105m ██[0;1;35m███████████[0;1;35;106m▀[0;1;36m██████[0m
+[1;36m████████[0;1;35;106m▀[0;1;35m██████████[0;30;105m▐██  █████[0;1;35m██[0;30;105m  █████[0;1;35m█[0;30;105m ██▌[0;1;35m█████████[0;1;35;106m▀[0;1;36m███████[0m'

@@ -9,7 +9,7 @@
 # SAUCE Date: 20160125
 # SAUCE Dimensions: 80x77
 # SAUCE Font: IBM VGA
-# Lines: 1-34
+# Lines: 1-33
 # Columns: 1-80
 
 Write-Host '
@@ -43,6 +43,5 @@ Write-Host '
 
 
     [1;34mandy, if you''re out there, you are awesome at doing awesome things![0m
-
 
 '

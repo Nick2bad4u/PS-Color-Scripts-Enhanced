@@ -5,7 +5,7 @@
 # Source SHA-256: b9238604268bec81efd4a458c72166275750b8eae4f76c5daeae3a3c2e18146f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-REAL.ANS by filth (FiRE); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: ARE SEE EY!
 # SAUCE Author: filth
 # SAUCE Group: FiRE

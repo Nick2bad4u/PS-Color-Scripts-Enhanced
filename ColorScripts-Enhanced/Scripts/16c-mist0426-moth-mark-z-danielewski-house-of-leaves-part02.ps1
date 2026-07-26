@@ -5,7 +5,7 @@
 # Source SHA-256: d9670b586f69806ffa1e60a7901f66bb02bfbd14adea7a3af070f84f1c0d57bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MOTH-MARK_Z_DANIELEWSKI-HOUSE_OF_LEAVES.ANS by moth (mist0426); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Author: moth
 # SAUCE Date: 20260428
 # SAUCE Dimensions: 80x51

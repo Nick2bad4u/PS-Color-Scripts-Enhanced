@@ -5,7 +5,7 @@
 # Source SHA-256: bfae9655d097844efb3e3dec4a3ff537d71e71da0ffb907c2a69b563399988c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RA-DIES.ans by Randers (LAZARUS); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: LAZ
 # SAUCE Author: Randers
 # SAUCE Group: LAZARUS

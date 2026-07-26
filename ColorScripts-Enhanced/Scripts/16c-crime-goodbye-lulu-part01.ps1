@@ -9,7 +9,7 @@
 # SAUCE Date: 20160125
 # SAUCE Dimensions: 80x74
 # SAUCE Font: IBM VGA
-# Lines: 1-30
+# Lines: 1-26
 # Columns: 1-80
 
 Write-Host '
@@ -37,8 +37,4 @@ Write-Host '
 
 
 
-
-
-                 [1;33mi get more nasty than a backseat of a taxi gets[0m
-                           [1;33m(and i don''t have to confess)[0m
 '

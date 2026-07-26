@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bw-msq_welcome.ans by Binary Walker (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 50-97
+# Lines: 49-96
 # Columns: 1-80
 
 Write-Host '
+   ▐█[1;47m░[0m██▄ ▐█████████████████▀░  █[1;47m▄[0m███████▄██▀[1m▀[0m ▄▄▄▄█[1;47m▀▀[0m▀[1;30m▄▓▒[0m ▐[1;47m▐▓▒[0m▌[1;30m▐▒░[0m
     ██[1;47m░░[0m█░███████▀███[1;47m▄[0m████▀[1;30m ▄[0m ▄▄███████████▄█[1;47m▄[0m█▀[1m▀▀[0m▀   [1;30m▀[0m▄▄▄▄[1;47m▄█▀[0m▀[1;30m▄▓[0m
      ▀███▓███[1;30;47m [0m█████████[1;47m▀▄[0m▌[1;30m ░[0m ▄████████[1;30;47m  [0m████▀[1;30m▄▄▀[0m▄▄▄[1;47m▄▄▄▄[0m█[1;47m▀▀[0m█▀▀▀[1;30m▄▀[0m
        ▀████[1;30;47m  [0m██▄  ▀████[1;47m▐[0m [1;30m [0m ███[1;47m▄█▀[0m███[1;30;47m   [0m███▀▄█[1;47m▄[0m██[1;47m▀▀[0m▀▀▀▀     [1;30m▀▀[0m
@@ -56,5 +57,4 @@ Write-Host '
 ████▓░▓█ ▓████████▒██░   ▀▀▀ ▀[1;30;47m▐██▓▓[0m█ ▄▄      █▌      █    ▓     ░▓█▀▀▀ ▀  ▄█[1;47m▄▀▓▒[0m
 ▀███▀  █ ▒████████▓██▓░ [1;30m  [0m   ▐[1;30;47m▓▓▓░░[0m█▌█▄▀▀▀▄  ▀█      ▀▄  ▐▌        ▄▄▄███[1;47m▄[0m█[1;47m▀▌[0m▌▐[1;47m▓[0m
 ▄ ▀▄▄▄▀   ████████ ███▓[1;30m  [0m     ▀[1;30;47m░░░[0m█▀███████   [1;30;47m▄[0m▄      [1;30m [0m▀▄█     ▄▄██████████▀▀ [1;47m▐█[0m
-██▄   ▄▀  ▓███████ ████[1;30m░[0m            ▌█████▌   [1;30m [0m  ▀      ▐▌ ▄▄▓██▀▀▀▀      ▄▄▄[1;47m▄▀[0m▀
-███▓█▀ ▐  ▓███████ ██[1;47m [0m█[1;30m░[0m             ▀▀▄▄▄            [1;30m [0m▄▀█░▓▓▀   ▄▄▄▄███████▀█▄▄[0m'
+██▄   ▄▀  ▓███████ ████[1;30m░[0m            ▌█████▌   [1;30m [0m  ▀      ▐▌ ▄▄▓██▀▀▀▀      ▄▄▄[1;47m▄▀[0m▀[0m'

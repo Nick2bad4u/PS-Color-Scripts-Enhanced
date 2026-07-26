@@ -12,10 +12,12 @@
 # SAUCE Date: 20250917
 # SAUCE Dimensions: 80x56
 # SAUCE Font: IBM VGA
-# Lines: 41-54
+# Lines: 40-55
 # Columns: 1-80
 
 Write-Host '
+  Instrucciones:
+
 [1;30m  [0m1.Se reparten 3 cartas a cada candidato
 [1;30m  [0m2.Sobre la mesa, 4 facciones al descubierto:
 [1;30m    [0mLa Izquierda socialista, Futboleros apolíticos,

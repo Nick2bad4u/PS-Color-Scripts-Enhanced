@@ -5,7 +5,7 @@
 # Source SHA-256: 9088fd2284a6c7ff9a3341be9094d80d7e6ba8256d7d7c6d821c971ae57f7481
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-EMIT.ANS by zir (FiRE); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: emitter
 # SAUCE Author: zir
 # SAUCE Group: FiRE

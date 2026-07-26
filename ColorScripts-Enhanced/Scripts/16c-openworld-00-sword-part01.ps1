@@ -9,7 +9,6 @@
 # SAUCE Title: the-sword
 # SAUCE Author: luxuse
 # SAUCE Group: Openworld
-# SAUCE Date:
 # SAUCE Dimensions: 68x80
 # SAUCE Comments: ansi have somme bugs
 # Lines: 1-50

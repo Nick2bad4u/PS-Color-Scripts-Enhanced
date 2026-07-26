@@ -4,7 +4,7 @@
 # Source Revision: archive-sha256:62e93186540813ec7aaaeb24433016d426de59526762a0e3f8dda1eb133ed05c
 # Source SHA-256: e2e5afdc4cf3d7bcc74378044a0947024d7d376ac64769323782edadc22086df
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-BERT.ANS by Zeus II (?); released in mist0823 and preserved by 16colors.
+# Source Attribution: ZII-BERT.ANS by Zeus II (mist0823); released in mist0823 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Bert.org promo
 # SAUCE Author: Zeus II

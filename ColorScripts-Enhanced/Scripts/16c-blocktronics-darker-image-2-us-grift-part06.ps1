@@ -12,13 +12,10 @@
 # SAUCE Date: 20171018
 # SAUCE Dimensions: 80x293
 # SAUCE Font: IBM VGA
-# Lines: 245-293
+# Lines: 247-293
 # Columns: 1-80
 
 Write-Host '
-                      a new resource for aspiring ansi artists
-
-
 
 
 

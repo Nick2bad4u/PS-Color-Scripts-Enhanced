@@ -12,7 +12,7 @@
 # SAUCE Date: 20230623
 # SAUCE Dimensions: 80x47
 # SAUCE Font: IBM VGA
-# Lines: 1-46
+# Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
@@ -39,6 +39,7 @@ Write-Host '
 
 
 [1;30m------------------------------------------------------------------------>8------[0m
+
 
 
 [1;30m                     8 - B I T    M O N O    V E R S I O N[0m

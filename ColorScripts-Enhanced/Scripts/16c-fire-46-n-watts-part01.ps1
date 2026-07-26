@@ -5,14 +5,14 @@
 # Source SHA-256: 9e9ea6b5c6ff8604f9fca2a927b8661b2469969bd2cf4c254fafc29a113e6dec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N-WATTS.ANS by nail (fire); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: there's something about mary
 # SAUCE Author: nail
 # SAUCE Group: fire
 # SAUCE Date: 20260707
 # SAUCE Dimensions: 80x59
 # SAUCE Font: IBM VGA
-# Lines: 1-30
+# Lines: 1-32
 # Columns: 1-80
 
 Write-Host '
@@ -44,4 +44,6 @@ Write-Host '
            [33m▄  ░▓▀ ▐[0;37m  [0;33m▓███████[0;1;31;43m▒▓▓[0;1;31;40m███[0;1;31;47m▓▓░░░░░▓▓[0;1;31;43m▄[0;1;31;40m██[0;1;31;43m▀   ▄[0;1;31;47m▓▒▒[0;1;31;43m█[0;1;31;47m▓▓[0;1;31;40m█[0;33m▌[0;37m [0;1;31;41m▄▀[0;31m▄█▀▄██▄▄▄[0;1;31m▀▓▄[0;31m▀█[0m
 [37m    [0;33m░[0m     [33m█[0;33;43m [0;33;40m▄    ▀▓▓▓▓███████[0;1;31;43m░▒▒▓▓[0;1;31;40m██[0;1;31;47m▓▒▒▒▒▓▓[0;1;31;40m███[0;33m██[0;1;31;43m ▄[0;1;31;40m██[0;1;31;47m█▓▓[0;1;31;40m▌▐█[0;1;31;43m▌[0m [31m▐█[0;37m [0;31m██▀[0m     [31m▀█▄[0;1;31m▀▄[0;31m▐▌[0m
 [37m    [0;33m░░[0;37m    [0;33m▀[0;33;43m [0;1;31;43m▓▄[0;33m▄[0;1;31;43m▄▄[0;33m▄██▓▓████████[0;1;31;43m░░▒▒▓▓[0;1;31;40m█[0;1;31;47m▓▓▓▓▓[0;1;31;40m███[0;33m▓[0;1;31;43m  [0;1;31;40m█▀[0;33m░▄[0;1;31;43m▀▀[0;1;31;40m▀[0;33m▄█[0;1;31m█[0;33m▓[0;37m [0;1;31;41m░[0;31m▌▐█[0;37m [0;33m▄[0;1;31;43m  ▓▄[0;1;31;40m▄[0;33m▄[0;37m [0;1;31;41m▓▓[0;31m▀[0;37m [0;31m▓[0m
-     [33m░░[0m     [33m▀[0;1;31;43m▀░▓▓▀[0;33m██████████████[0;1;31;43m░░▒▒▓█[0;1;31;40m█[0;1;31;47m▓▓▓▓[0;1;31;40m██[0;1;31;43m▄[0;33m▄[0;30;43m▄▄[0;1;31;43m▀[0;1;31;40m██[0;1;31;43m▄▄▄[0;1;31;47m▓▓[0;1;31;40m█[0;33m▌[0;37m [0;1;31;41m▓[0m [1;31;41m░[0;31m▌[0;33m▐[0;1;31;43m ░▓[0;1;31;40m█[0;1;31;47m▓░░[0;1;31;43m▄[0m [31m▀[0;1;31;41m▓[0;31m▄▓[0m'
+     [33m░░[0m     [33m▀[0;1;31;43m▀░▓▓▀[0;33m██████████████[0;1;31;43m░░▒▒▓█[0;1;31;40m█[0;1;31;47m▓▓▓▓[0;1;31;40m██[0;1;31;43m▄[0;33m▄[0;30;43m▄▄[0;1;31;43m▀[0;1;31;40m██[0;1;31;43m▄▄▄[0;1;31;47m▓▓[0;1;31;40m█[0;33m▌[0;37m [0;1;31;41m▓[0m [1;31;41m░[0;31m▌[0;33m▐[0;1;31;43m ░▓[0;1;31;40m█[0;1;31;47m▓░░[0;1;31;43m▄[0m [31m▀[0;1;31;41m▓[0;31m▄▓[0m
+      [33m▓▓[0m      [33m▀█[0;30;47m▀[0;30;43m▄[0;33;40m████████████████[0;1;31;43m░▒▓▓██[0;1;31;40m█[0;1;31;47m▓▓▓▓[0;1;31;40m███████[0;1;31;47m▓▓▓▓▓[0;1;31;43m▌[0;33m▌[0;31m▐[0;1;31;41m░[0;31m▐[0;1;31;41m▓[0m [33m█[0;1;31;43m ▒[0;1;31;40m██[0;1;31;47m▓▓▒░[0;1;31;43m▄[0m [31m▀[0;1;31;41m▓[0;31m▓[0m
+       [33m▀[0m        [33m▀▀▀▄███████████████[0;1;31;43m░▒▓▓██[0;1;31;40m████████[0;1;31;41m█[0;1;31;47m▀▀[0;1;31;41m█[0;1;31;47m▀[0;1;31;41m▀[0;1;31;40m█[0;1;31;47m▓[0;1;31;43m▌[0;33m [0;31m▐▌▐[0;1;31;41m█[0;31m [0;33m██[0;1;31;43m░▓[0;1;31;40m██[0;1;31;47m▓▓▒░[0;1;31;43m▄[0m [31m▀▓[0m'

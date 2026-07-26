@@ -12,7 +12,7 @@
 # SAUCE Date: 20190724
 # SAUCE Dimensions: 80x148
 # SAUCE Font: IBM VGA
-# Lines: 99-147
+# Lines: 99-148
 # Columns: 1-80
 
 Write-Host '
@@ -64,4 +64,5 @@ Write-Host '
                                                                [31m▄█[0;32m█[0;1;32m█[0m
                                                                   [1;32m▀[0m
 [35m________________________________________________________________________________[0m
+
 [37m  [0;35mblocktronicsacidtrip                                                    bym[0m'

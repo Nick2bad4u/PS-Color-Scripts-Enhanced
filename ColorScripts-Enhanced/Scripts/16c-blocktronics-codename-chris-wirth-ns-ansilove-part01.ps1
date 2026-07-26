@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ns-ansilove.ans by Ansichrist (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
+# Lines: 1-40
 # Columns: 1-80
 
 Write-Host '
@@ -47,4 +47,5 @@ Write-Host '
 [34m███████████████████████████████▀[0;37m [0;1;37m [0m▄[1m▄[0m▄ [34m▀▀▓▓▀[0;37m [0;1;37;47m▄[0;1;37;40m███████████[0m▌[34m░▀[0m     [34m▀▌[0;37m [0;1;37;47m▄[0;1;37;40m██████████[0;1;37;47m▄[0m
 [34m█████████████████████████████▓[0;37m ▄[0;1;37;47m▄[0;1;37;40m█████[0;1;37;47m▄[0;1;37;40m▄[0m ▄▄▐[1;46m▓▓▓[0;1;40m█[0;1;46m▓[0;1;40m███████▓[0m ▄[1;47m▄[0;1;40m███[0;1;47m▄[0m▄ ▐[1;47m▓[0;1;46m▓▓[0;1;40m████░████▌[0m
 [34m████████████████████████████▀[0;37m ▐[0;1;37;47m▓[0;1;37;40m████████[0;1;37;47m▄[0;1;37;40m█▓▓████████████▓▓███████▓[0m [1;47m▀[0;1;40m██████ █████[0m
-[34m█████████████████████▓█▀▀[0;37m ▄[0;1;37m▄▄[0m▄▀[1m▀[0;1;47m▀[0;1;40m████████████████████████[0;1;47m▀[0;1;40m▀[0;1;47m▄[0;1;40m██████[0;1;47m▄[0;1;40m▄[0;1;47m▀[0;1;40m███[0;1;47m█[0;1;40m▌▐████[0;1;47m▓[0m'
+[34m█████████████████████▓█▀▀[0;37m ▄[0;1;37m▄▄[0m▄▀[1m▀[0;1;47m▀[0;1;40m████████████████████████[0;1;47m▀[0;1;40m▀[0;1;47m▄[0;1;40m██████[0;1;47m▄[0;1;40m▄[0;1;47m▀[0;1;40m███[0;1;47m█[0;1;40m▌▐████[0;1;47m▓[0m
+[34m████████████████▀▌▀▌▀░ [0;37m▄[0;1;37;47m▄[0;1;37;40m██████[0;1;37;47m▄[0;1;37;40m▄[0;1;37;47m▓[0;1;37;40m██████████████████[0;1;37;47m▀[0;1;37;40m▀▀[0m▀[1m  [0;1;47m▄[0;1;40m████[0;1;46m▓▓[0;1;40m███████[0;1;47m▀[0;1;40m ████[0;1;47m▓[0m▌[0m'

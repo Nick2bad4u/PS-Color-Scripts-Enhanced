@@ -9,7 +9,7 @@
 # SAUCE Date: 20140228
 # SAUCE Dimensions: 80x914
 # SAUCE Font: IBM VGA
-# Lines: 1-50
+# Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
@@ -61,5 +61,4 @@ Write-Host '
                more piratey stuff below. what do you think? -matt
     [1;31;45m10/23/13 - tentacle fun fun -matt :)[0m
 [1;31m    [0;1;34m10/23/13 - blocktronics font, trying to do water bubbles off the letters[0m
-               [1;34m-matt[0m
-[1;34m    [0m10/25/13 - background behind enzo''s background ... lettering sigs in the[0m'
+               [1;34m-matt[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 418c713bedfa86816f2280e59f714f689daf3615f622788e1c7a3e8e883ced98
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-CHAC.ANS by Zeus II (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Chaotic Factor x2
 # SAUCE Author: Zeus II
 # SAUCE Group: Mistigris
@@ -13,7 +13,7 @@
 # SAUCE Dimensions: 80x60
 # SAUCE Font: IBM VGA
 # SAUCE Comments: Chaotic Factor BBS, the hot new BBS in town! Obviously I would n | ever draw copyrighted characters. These guys are called Stevenom | and Cornage.
-# Lines: 29-55
+# Lines: 30-56
 # Columns: 1-80
 
 Write-Host '

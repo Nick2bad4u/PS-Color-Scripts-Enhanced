@@ -12,10 +12,24 @@
 # SAUCE Date: 20140820
 # SAUCE Dimensions: 80x505
 # SAUCE Font: IBM VGA
-# Lines: 429-462
+# Lines: 416-462
 # Columns: 1-80
 
 Write-Host '
+[36mAfter the wedding vows were spoken, the priest led the clock maker and his wife[0m
+[36mup the stairwell leading to the top of the clock tower, so that the couple could[0m
+[36mbe seen on the balcony by the assembled crowd below. It was a fitting spot for[0m
+[36mthe completion of the ceremony, the priest had argued, with the clock maker[0m
+[36mstanding next to his greatest works in view of everyone. And at that moment, the[0m
+[36mchurch bells would ring in celebration.[0m
+
+[36mAt the top of the tower, behind the four great clock faces that displayed the[0m
+[36mtime in each direction, was the room that stored the clockwork machinery the[0m
+[36mclock maker had designed years ago. A large pendulum swung to one side, while[0m
+[36man intricate web of gears, weights, and springs clicked and clacked with each[0m
+[36mpassing second. Above it all, accessible by an old ladder that led to a rickety[0m
+[36mplatform, hung the two great bronze cast bells of the church tower.[0m
+
 [36mIt was here that the priest had laid his trap. At the right moment, seconds[0m
 [36mbefore the hour struck, the clock maker and his wife stepped out onto the[0m
 [36mbalcony of the clock tower to raise their arms to the gathered throng below. The[0m
@@ -48,5 +62,4 @@ Write-Host '
 [36mhis head hitting the floor with a hard thud that knocked him senseless. His wife[0m
 [36mran over and knelt over him in fear, and the last thing the clock maker saw as[0m
 [36mhis eyes clouded over was the priest hitting his wife in the back of the head[0m
-[36mwith a large shovel.[0m
-'
+[36mwith a large shovel.[0m'

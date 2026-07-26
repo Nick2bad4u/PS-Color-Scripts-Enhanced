@@ -5,7 +5,7 @@
 # Source SHA-256: a5086aa2dec0093d7ea60560fe3168e87f478127abc25f9015af293d0a1f895a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-KURT_VONNEGUT-BREAKFAST_OF_CHAMPIONS.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Breakfast of Champions
 # SAUCE Author: Cthulu
 # SAUCE Group: Mistigris

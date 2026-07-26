@@ -5,7 +5,7 @@
 # Source SHA-256: 5065c67773a8402cf4200cb75873068692f95a0f278c0666afdc2e09538f9a3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-TRMR.ANS by tainted (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: tremor
 # SAUCE Author: tainted
 # SAUCE Group: fire

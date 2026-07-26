@@ -5,14 +5,14 @@
 # Source SHA-256: a1df1bb4d8bdc6ed5855edcb5e62140c0338ecc0896b4d7b7d7ff9f605ec8f13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HRV_Wisdom_Owl_WiP.ans by harvest (Lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at manually reviewed compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: OWL
 # SAUCE Author: harvest
 # SAUCE Group: Lazarus
 # SAUCE Date: 20230804
 # SAUCE Dimensions: 80x188
 # SAUCE Font: IBM VGA
-# Lines: 1-40
+# Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
@@ -55,4 +55,14 @@ Write-Host '
 [37m [0;33mThanks for keeping it this way EVOKE Staff [0;1;31m♥[0m [1;33mharvest[0m
 
  [1;31mhttps://demozoo.org/parties/4512/#competition_18081[0m
-'
+
+▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄
+       [1;30m▀▄▄[0m [1;30m▀▄[0m▄ ▀█ [1;30m▌▌                         █▀[0m▄████▀[1;30;47m▄[0;1;30;40m██████▄▄▀[0m              [1;30m█▄[0m
+      [1;30m▄▄[0;34m [0;1;30m▀█▄[0m  ▀███[1;30m▐▐[0m                        [1;30m█[0m ▄████[1;30;47m▄[0m▀[1;30m▄▄▄[0m [1;30m▀▀▀▀[0m   [1;30m▀██▄          ▀█[0m
+    [1;30m▄███▀[0m  [1;30m▀█[0m▀▀███▄[1;30m▀▄[0m                      [1;30m█[0m ▄████[1;30;47m▀▄▄[0;1;30;40m▀▀▀█■[0m        [1;30m▀██▄         ▀[0m
+    [1;30m██▀[0;34m     [0;37m▄▄▀▄▀██▄ [0;1;30m▀▄[0m                  [1;30m▄▀[0m ▄█████▀▀[1;30m▬▄▄[0m            [1;30m▀███▄[0m
+   [1;30m██▀[0m   ▄▄██▀  ▀███▄ [1;30m▀▄[0m               [1;30m▄▀[0m ▄██████▄   [33m▒▓[0;1;30m▀▀▄▄[0m          [1;30m████[0m
+   [1;30m██   [0m▀██▀  [33m▄▒▒[0;37m▀████▄ [0;1;30m▀[0m [1;30m▄[0m    ▄   [1;30m▄[0m  [1;30m▀[0m  █████▀▀   [1m■[0m  [33m▓█▄[0;37m  [0;1;30m▀▀▬[0m       [1;30m▐███▌[0m
+  [1;30m▐██[0m    [1;30m▀▬▄[0m [1;33;43m▄[0;33m▓▓▌[0;37m [0;1;37m•[0m▀████▄     ██▄      ▄███▀[33m▒▓[0;1;33m▌[0m       [1;33m▐█[0;1;33;43m▄[0;33m▌[0;37m [0;1;30m█[0m          [1;30m████[0m
+  [1;30m███[0m      [1;30m█[0m [1;33m▒██[0m     ▀████[1;30m▄[0m ▄█████ [1;30m▄[0m▄███▀   [33m█[0;1;33;43m▄[0;1;33;40m█[0m       [1;33m███[0m [1;30m▄▀[0m          [1;30m████[0m
+  [1;30m███[0m      [1;30m█[0m [33m▐[0;1;33m▓█[0;1;33;43m▌[0m     [33m▄[0;33;47m▄[0;37;40m███████▀██████▀ [0;1;30;40m▄▄[0m   [1;33m▓██▄[0m   [1;33m▄██▓▌[0m [1;30m█[0m           [1;30m████[0m'

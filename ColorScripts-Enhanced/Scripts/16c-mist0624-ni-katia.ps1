@@ -1,18 +1,16 @@
 ﻿# Converted from: NI-KATIA.ANS
-# Source encoding: cp437
+# Source encoding: CP866
 # Source URL: https://16colo.rs/pack/mist0624/raw/NI-KATIA.ANS
 # Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
 # Source SHA-256: 3a69866c7ffc4790b1ecb835fcbb39ca6a9a03bac15f2f7f0cebbf4fc9ad6f70
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Katia by Nitron of Mistigris (2024). Archived by 16colo.rs.
-# Source Modification: Decoded from CP437 and terminal-emulated at the declared canvas width without scaling, reflow, cropping, or background-space stripping.
+# Source Attribution: NI-KATIA.ANS by Nitron (Mistigris); released in mist0624 and preserved by 16colors.
+# Source Modification: Decoded as CP866 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Katia
 # SAUCE Author: Nitron
 # SAUCE Group: Mistigris
 # SAUCE Date: 20240522
 # SAUCE Dimensions: 80x25
-
-
 # SAUCE Font: IBM VGA 866
 # SAUCE Comments: geofflatterairshows.com
 # Lines: 1-25
@@ -27,7 +25,7 @@ Write-Host '
 [1;34;44m░░░░░░░░░░░░[0;34m▀[0;1;30m [0;1;37m▬[0;34m▀[0;1;34;44m░░░░[0;34m██████████████████[0;1;37;103m [0;31m▓▓[0;1;33;41m▄[0;1;33;44m▀[0;34m█[0;1;37;103m [0;31m▓[0;1;37;103m [0;1;34;44m░[0;1;37;103m [0;31m▓▓[0;1;33;41m▄[0;1;33;44m▀[0;34m█[0;1;37;103m [0;31m▓[0;1;37;103m [0;34m████[0;1;37;103m [0;31m▓[0;1;37;103m [0;34m████[0;1;37;103m [0;31m▓[0;1;37;103m [0;34m█[0;1;33;44m▀[0;1;33;41m▄[0;31m▓▓[0;1;37;103m [0;34m███[0m
 [1;34;44m░░░░░[0;34m█[0;1;34;44m░[0;34m███▀[0;1;30m [0;1;37m▄▀▒[0m▄[1;30m [0;34m▀[0;1;34;44m░░░░░░░░░░░░░░░░░[0;34m█[0;1;34;44m░[0;34m█[0;1;33;43m▓[0;1;33;41m▄[0;1;33;40m█[0;34m███[0;1;33;43m▓[0;1;33;41m▄[0;1;33;40m█[0;1;34;44m░[0;1;33;43m▓[0;1;33;41m▄[0;1;33;40m█[0;34m███[0;1;33;43m▓[0;1;33;41m▄[0;1;33;40m█[0;34m████[0;1;33;43m▓[0;1;33;41m▄[0;1;33;40m█[0;34m███[0;1;34;44m░[0;1;33;43m▓[0;1;33;41m▄[0;1;33;40m█[0;34m███[0;1;33;43m▓[0;1;33;41m▄[0;1;33;40m█[0;34m███[0m
 [1;34;44m░[0;44m░░[0;1;34;44m░░░░░░░[0;1;30;40m [0;1;37;40m▀▄▓[0m▐[1;30;47m░[0m█ [34m▀██[0;1;34;44m░░[0;34m█████████████████████████████████████████████████████████[0m
-[1;34;44m░░░░░░░░░[0;1;30;40m [0;1;37;40m▄▀▄▓[0m▐[1;30;47m░░[0m█ [34m▀[0;1;34;44m░░░░░░░░░░░░░[0;44m░░[0;1;34;44m░░░░░░░░░░░░[0;34m█████[0;1;33;44mƒ¬oó½eó[0;34m█[0;1;33;44mƒ¬-50[0;34m█████████[0;1;34;44m░░[0;34m████[0m
+[1;34;44m░░░░░░░░░[0;1;30;40m [0;1;37;40m▄▀▄▓[0m▐[1;30;47m░░[0m█ [34m▀[0;1;34;44m░░░░░░░░░░░░░[0;44m░░[0;1;34;44m░░░░░░░░░░░░[0;34m█████[0;1;33;44mЯкoвлeв[0;34m█[0;1;33;44mЯк-50[0;34m█████████[0;1;34;44m░░[0;34m████[0m
 [37;44m░░░░░░[0;1;34;44m░░[0;34m▌[0;37m [0;1;37m▄▀▄▓[0m▐[1;30;47m░░░[0m█ [34m▀[0;1;34;44m░[0;34m▀▀▀▀▀▀[0;1;34;44m░░░░░░░░░[0;34m▀▀▀▀▀▀[0;1;34;44m░░░░░░░░░░░░░░░░░░[0;34m███████████████████[0m
 [37;44m░░░░░░░░[0;37;40m [0;1;37;40m▀▄▀▄▀[0m▐[1;30;47m░░[0m█[1;30;47m▓▓[0;1;30;40m▄[0m▄▄█[1;47m▀[0m▄[1m▀[0;1;30m [0;44m░░░░[0;34;40m▀▀[0;37;40m [0;1;30;40m▄▄[0m [1;30m▄ ═─▄▄[0m [34m▀[0;1;34;44m░░[0;34m██[0;1;34;44m░░░░░░░░░░░░░░░░░░░[0m [31;47m▀[0;1;30;40m░[0;1;34;44m░░░░░░░░[0m
 [44m░░[0;1;34;40m▀▀▀[0m [1;30m▄[0m▄▄▄▄▄▄▄▒▒[1;30;47m▄▓▒▒▒▓▓[0m█▄▄▄▄▄▄▄[1;30m ▄▀▀ ▌▐[0;30;43m░[0;1;30;43m▐[0m [1;30m▐▌ ▀▄[0m [34m▀▀▀▀▀[0;1;34;44m░░░░░░░░░░░[0;34m▀▀▀[0;37m [0;1;30m▄[0;1;37m▄ ▓[0;1;30m░[0;1;37m ▄[0m [1;34;44m░░[0;34m██[0;1;34;44m░[0m

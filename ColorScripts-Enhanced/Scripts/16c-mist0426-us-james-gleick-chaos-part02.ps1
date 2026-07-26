@@ -5,7 +5,7 @@
 # Source SHA-256: 62123d367c838717e7734067c9b9661f85dc449426c158b92dd8ab8ddb6e5c1d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-JAMES_GLEICK-CHAOS.ANS by LDA + Moth (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Chaos
 # SAUCE Author: Moth / LDA
 # SAUCE Group: Mistigris

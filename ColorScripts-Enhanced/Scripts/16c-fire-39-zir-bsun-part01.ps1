@@ -5,7 +5,7 @@
 # Source SHA-256: 628d5d78b4121097d24ea99b0ae229c240f2beb4f9ff21b878468b788000e6ad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-BSUN.ANS by zir (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Black Sun
 # SAUCE Author: zir
 # SAUCE Group: Fire

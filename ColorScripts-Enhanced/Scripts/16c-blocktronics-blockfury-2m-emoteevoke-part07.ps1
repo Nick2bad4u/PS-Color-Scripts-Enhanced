@@ -6,10 +6,11 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2m-EMOTEevoke.ans by Mattmatthew (blocktronics_blockfury); released in blocktronics_blockfury and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 300-348
+# Lines: 299-348
 # Columns: 1-80
 
 Write-Host '
+[1;30m$$█[0m [1;30m$$$:::::$$$$$$$[0m [1;30;46m▒[0m       [1;30m`V$$b, `V$$$b,[0m  [1;30m [0;34m▀▀▀▄[0;1;30m [0m [1;30m`V$$$$$$$b[0;35m▀▀[0;1;30m `V$$[0;1;36m▒[0;1;30m$$$b,   `[0;1;36m▒[0;1;30m$[0m
 [1;30m$$█[0m [1;30m$$$$$:::::$$$$$[0m [1;30;46m▒[0;1;30;40m `V$$$$$$$$$$b, `V$$$b,  `V$$$$$$$b,[0m         [1;30m`V$$$$$$b, [0;1;36m▐▌[0;1;30m`[0m
 [1;30m$$[0m▒[1;30m▄▄▄▄▄[0m░░▒▒[1;30m▄▄[0m▄▄▄▄▄[1;30m▄█b, `V$$$$$$$$$$b, `V$$$b,  `V$$$$$$$b,[0m  [1;30m`V$$$$$$[0;1;36m▓[0;1;30m$$b,  [0m [1m█[0m
 [1;30m`V$$$$$$$$$b,   `V$$$$$b, `V$$$$$b,[0m     [34m█[0;1;30m`V$$$b,  `V$$$$$$$b,  `V$$$$[0;1;36m▐▌[0;1;30m$$$b,[0;1;36m▐▌[0;1;30m`V[0m

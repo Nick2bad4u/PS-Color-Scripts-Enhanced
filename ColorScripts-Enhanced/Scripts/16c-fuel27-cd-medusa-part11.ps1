@@ -12,7 +12,7 @@
 # SAUCE Date: 20180428
 # SAUCE Dimensions: 80x513
 # SAUCE Font: IBM VGA
-# Lines: 472-512
+# Lines: 473-513
 # Columns: 1-80
 
 Write-Host '

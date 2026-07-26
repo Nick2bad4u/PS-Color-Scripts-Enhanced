@@ -9,7 +9,6 @@
 # SAUCE Title: icy term
 # SAUCE Author: grymmjack
 # SAUCE Group: MiSTiGRiS
-# SAUCE Date:
 # SAUCE Dimensions: 80x25
 # SAUCE Comments: Made for one of the friendliest nerds around! Mike Krueger | check | icy term here: https://github.com/mkrueger/icy_term | also check out icy draw :) https://github.com/mkrueger/icy_tools | - part of the icy tools pacakge
 # Lines: 1-25

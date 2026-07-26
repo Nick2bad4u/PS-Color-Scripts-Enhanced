@@ -12,7 +12,7 @@
 # SAUCE Date: 20130528
 # SAUCE Dimensions: 80x64
 # SAUCE Font: IBM VGA
-# Lines: 34-65
+# Lines: 35-65
 # Columns: 1-80
 
 Write-Host '
@@ -46,5 +46,4 @@ Write-Host '
 
 
 
-      [37;40m"Man is something to be surpassed." -Nietzsche[0m
-[37;40m→   [0m'
+      [37;40m"Man is something to be surpassed." -Nietzsche[0m'

@@ -1,5 +1,5 @@
 ﻿# Converted from: ZII-LPHT.ANS
-# Source encoding: cp437
+# Source encoding: CP437
 # Source URL: https://16colo.rs/pack/mist-30/raw/ZII-LPHT.ANS
 # Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
 # Source SHA-256: e7a4a936e7324237d02ef925b347194b90bc147e0a28b3a3e12e427724367967
@@ -12,7 +12,7 @@
 # SAUCE Date: 20241230
 # SAUCE Dimensions: 80x190
 # SAUCE Font: IBM VGA
-# Lines: 56-82
+# Lines: 55-81
 # Columns: 1-80
 
 Write-Host '
@@ -39,7 +39,6 @@ Write-Host '
 [32m▄▄[0;36m▐████████████████████████████████████████████[0;1;30;46m░▓[0;1;30;40m▒░[0m  [1m██[0;1;47m▓[0m  [1m▀▀▀▀▀▀▀[0m   [1m▄████▄[0m
 [36m▄[0;32m▄[0;36m  ▄███████████████████████████████████████████[0;1;30;46m▒[0;1;30;40m▓▒[0m   [1m███▄▄[0m        [1m▀▀▀▀▀▀▀▀▀[0m   ▄
 [36m▀▀ [0;32m█[0;36m [0;1;31m▌[0;36m▓▓█▓██████████████████████████████████████[0;1;30;46m▓[0;1;30;40m█▓ZII[0m [1m█▄▀[0;1;47m▓[0;1;40m████▄▄▄▄▄▄▄▄[0m▄▄▄[1;47m▄▄[0;1;40m█[0;1;47m▓▒░[0m
-
 
 
 '

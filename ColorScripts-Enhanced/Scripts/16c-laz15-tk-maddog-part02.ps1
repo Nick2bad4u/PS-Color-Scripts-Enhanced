@@ -5,7 +5,7 @@
 # Source SHA-256: 511a508dca2705c96c366e31a7534dfcf0c8e3bda067fe080a7faea03e271b72
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-maddog.ans by The Knight (Lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Maddog
 # SAUCE Author: The Knight
 # SAUCE Group: Lazarus

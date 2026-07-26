@@ -5,7 +5,7 @@
 # Source SHA-256: 26fe8082c322c9800af5460e1b196d65ea25b359d4347b46dc52f2b388994e0b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-DAVID_AHL-101_BASIC_GAMES.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: 101 BASIC Computer Games
 # SAUCE Author: Cthulu
 # SAUCE Group: Mistigris

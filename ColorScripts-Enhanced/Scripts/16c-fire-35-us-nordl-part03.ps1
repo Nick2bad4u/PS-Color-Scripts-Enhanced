@@ -5,17 +5,18 @@
 # Source SHA-256: 37605aeea2aa470ebef09a07a2b02bedeea928a766a4b4a90a49b824f6259b47
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-NORDL.ANS by Nail + Tainted (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: nordlicht
 # SAUCE Author: nail + tainted
 # SAUCE Group: fire
 # SAUCE Date: 20220907
 # SAUCE Dimensions: 80x156
 # SAUCE Font: IBM VGA
-# Lines: 79-117
+# Lines: 78-118
 # Columns: 1-80
 
 Write-Host '
+[1;34m░▓█▓█[0;1;34;47m▓▓[0;1;34;40m█▓▓[0m ░[1;34m ▀▄▄[0;1;30m■[0;1;34m [0m░░░░▒▒▒▒▒▄[1;34m [0m▄[1;34m [0m▄[1;34m [0m▄[1;34m  ▀■▀▒▒▄ ▀▓▓▓▄▀▓▓▀▀▓▓▓▄▄[0m      [1;34m░[0;1;37m░░[0;1;34m░[0m  [1;36m▐[0;31m [0;1;37m▓▒░[0m▐[1m▌[0;1;34m▓▓▓[0m
 [1;34m▓▓▓▒▒▒▒░░░[0m ▓▓▓▄[1;34m ▀  [0m▓▓▓▓▓▓▓▓[1;30;47m▒[0m▓[1;34m [0m█[1;34m [0m█[1;34m [0m▓▓▓▄▄[1;34m ▀▀   ▀▓▓▓▄▄▀███▓▓▓▓▄▄▄▓▓▓▓▓▓▀▀[0;1;37m▐█▓▒░[0m▐[1m▌[0;1;34m▓▓▓[0m
 [1;34m▓█▀▀█▀█[0;1;34;47m▓▓[0;1;34;40m█[0m ▓▓▓▀▄▄[1;34m  [0;1;30;47m▒[0;1;37;47m░░░░░░░░ [0m█[1;34m [0m█[1;34m [0m█[1;34m [0;1;37;47m▒▒▓▓▄[0m▄[1;34m ▀▀▄▄▀█[0;1;34;47m▓▓[0;1;34;40m██▄▄▀██[0;1;34;47m▓▓▓[0;1;34;40m█[0;1;34;47m▓[0;1;34;40m ▀█▀▀▄▓▓[0;1;31;40m▐[0;1;31;41m▓░[0;31m▒░▐▌[0;1;34m▒▒▓[0m
 [1;34m▒▒░░░▒▒▒▓▒[0m ▓▓▀▄██▓  [1;30;47m░[0;1;37;47m░░░░▒▒▓▓ █[0m █ [1;47m░[0m [1;47m▀████▄[0m ▄ [1;34m▀▓▄▀▓▓░░▓▓▄▀▀▓▓▓▌▐▄▄▄████[0;1;31m▐[0;31m ▓▒░▐▌[0;1;34m░▒▓[0m
@@ -54,4 +55,5 @@ Write-Host '
 [36m▄█▄▄▄▀████[0;1;37;46m▄▌▄▌[0;36m█[0;1;36;46m▐▄[0;1;37;46m▀▐[0;36m███[0;37m   [0;36m░░[0;37m  [0;36m▄██████[0;1;37;46m▄▄████[0;1;37;40m██▀█▄▄▀▀[0m      [1m▄▄███▀▀[0m [1m▄▄ ▀[0m  [1m██[0;1;47m▀[0;1;40m█▌[0m
 [36m▀▀[0;1;37;46m░▐▄[0;36m██[0;1;37;46m▄▄▓▓▀[0;1;36;46m▄▄▓▓▓▀[0;36m▀▀▀[0m              [1;37m█[0;1;37;46m██[0;1;37;40m██▀▀▄█▀▀[0m      [1m▄▄▀▀█████▀▀[0m      ▐[1;47m▓[0;1;40m▌[0m▐[1;47m▓[0;1;40m▌[0m
 [1;36;46m▀▀[0;36m▄▄▀▀█████▀▀▀  [0;1;37m▄███▄[0;36m ░░░░▒▒▒▒▒[0;37m    [0;1;37m█▀█▄▀▀[0m       [1m▄▓▓[0m [1m▄▄███▀▀[0m          █[1;47m▒[0;1;40m [0m▐[1;47m▒[0m▌
-[36m██████  ▀[0;37m    [0;36m░ [0;1;37m▓▓▀▀██▌[0;36m ▒[0;37m   ▄[0;1;37m▄▄▄[0m   [1m▄[0m [1m▀[0m       [1m▄░░[0m  [1m▄▓▓▓█▀[0m              █[1;47m░[0;1;40m [0m▐[1;47m░[0m▌[0m'
+[36m██████  ▀[0;37m    [0;36m░ [0;1;37m▓▓▀▀██▌[0;36m ▒[0;37m   ▄[0;1;37m▄▄▄[0m   [1m▄[0m [1m▀[0m       [1m▄░░[0m  [1m▄▓▓▓█▀[0m              █[1;47m░[0;1;40m [0m▐[1;47m░[0m▌
+[36m▀▀█▄▄█▀▀[0;37m [0;36m░░▀░ [0;1;37m▐█▌[0m  [1m▐█▌[0m   [1m▄█████▓■[0m       [1m▄░░[0m    [1m▓▓▓▀▀[0m                 ██ ▐█▌[0m'

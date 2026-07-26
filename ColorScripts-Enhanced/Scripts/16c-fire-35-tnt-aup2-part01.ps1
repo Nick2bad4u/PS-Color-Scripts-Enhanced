@@ -5,7 +5,7 @@
 # Source SHA-256: 17ae343f40b4c351c8714e623cb0a842e30d9f9567ecfcc067b5c9b7a33a7c7a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-AUP2.ANS by tainted (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: acid underworld promo 2
 # SAUCE Author: tainted
 # SAUCE Group: fire
@@ -39,12 +39,12 @@ Write-Host '
 [1;30m░░░░░░░░░░░░░░░░░░░░░░░[0m   [1;30m░░[0m   [1;30m░[0m
 
 
-[1;30m░░░░░░░░░░░░░░[0m      [1;30m░░░[0m                                 [1;30m░[0m   [1;30m░░░░░░░░░░░░░░░░░░░[0;33m░[0m
-[33m░░░░░░░░░[0;37m [0;33m░░[0m
+[1;30m░░░░░░░░░░░░░░[0m      [1;30m░░░[0m                                 [1;30m░[0m   [1;30m░░░░░░░░░░░░░░░░░░░░[0m
+                                   [33m░░░░░░░░░░[0;37m [0;33m░░[0m
                             [33m░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░[0m
                           [33m▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒░[0m
-[1;30m░░░░░░░░░░░░░░░░░░░░[0m [33m▄▄█████████████[0;1;33;43m         [0;33m████████████▄▄[0;37m  [0;1;30m░░░░░░░░░░░░░░░░░░[0;33m░[0m
-[33m░░▒▒▒▓▓▓██[0;1;33;43m ░░░░░░░░░░░░ ░[0;33m██████▓█▓▓▓▀[0;1;30m▄[0m
+[1;30m░░░░░░░░░░░░░░░░░░░░[0m [33m▄▄█████████████[0;1;33;43m         [0;33m████████████▄▄[0;37m  [0;1;30m░░░░░░░░░░░░░░░░░░░[0m
+                      [33m░░░▒▒▒▓▓▓██[0;1;33;43m ░░░░░░░░░░░░ ░[0;33m██████▓█▓▓▓▀[0;1;30m▄[0m
 [1;30m░░░░░░░░░░░░░░░[0m  [33m▄████████[0;1;33;43m [0;33m█[0;1;33;43m░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░[0;33m████[0;1;31;43m [0;33m████▄[0;37m  [0;1;30m░░░░░░░░░░░░░░░[0m
 [1;30m░░░░░░░░░░░░░[0m  [33m▄███████[0;1;33;43m  ■▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░[0;33m█[0;1;31;43m██░[0;33m█▀▀▀▀[0;1;30m▄[0m
               [33m▄▄▄▄▄█▄[0;1;33;43m▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄░░[0;33m██[0;1;33;43m [0;33m████▄[0m

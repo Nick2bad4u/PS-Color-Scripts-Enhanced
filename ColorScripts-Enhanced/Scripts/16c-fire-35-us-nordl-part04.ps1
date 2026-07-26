@@ -5,18 +5,17 @@
 # Source SHA-256: 37605aeea2aa470ebef09a07a2b02bedeea928a766a4b4a90a49b824f6259b47
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-NORDL.ANS by Nail + Tainted (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: nordlicht
 # SAUCE Author: nail + tainted
 # SAUCE Group: fire
 # SAUCE Date: 20220907
 # SAUCE Dimensions: 80x156
 # SAUCE Font: IBM VGA
-# Lines: 118-156
+# Lines: 119-156
 # Columns: 1-80
 
 Write-Host '
-[36m▀▀█▄▄█▀▀[0;37m [0;36m░░▀░ [0;1;37m▐█▌[0m  [1m▐█▌[0m   [1m▄█████▓■[0m       [1m▄░░[0m    [1m▓▓▓▀▀[0m                 ██ ▐█▌
 [36m▀▀▀[0;37m [0;36m▄▄ ▀▀[0m     [1;37m██[0m   [1m██[0m  ▄[1m████▀[0m  ▓▌     [1m▀[0m                              ▐█[1m▌[0m▐█▌
  [36m▀▀▀░░[0m       [37m▐[0;1;37m█▌[0m  [1m▐█▌[0m ▄[1m███▀[0;33m▄█[0;37m  █▌[0m            [33m██[0m                      [37m▐█[0;1;37m▌▐[0;1;37;47m░[0m▌
    [36m▄▄ ▀[0m      [1;37m▐█▌[0m  [1;47m▓▓[0m ▄[1m███[0m   [33m▓[0;37m █▀[0m            [33m██[0m                  [37m▄[0;1;37;47m░░[0m▄  [1m█▌▐[0;1;47m░[0m▌
@@ -30,8 +29,8 @@ Write-Host '
  [1;47m░▓[0;1;40m▄▄▄[0;1;47m▄[0;1;40m█[0;1;47m▀[0;1;40m▀[0m    ▐[1;47m░[0m▌[1m▐[0;1;47m▓▒[0;33m▀▀▐[0;37m [0;33m█[0;1;31;43m░░[0;33m▌▐[0;37m [0;33m░░▀▀▀█▓▄█▀▀▀▀▓▓▌▐[0;1;31;43m░░[0;33m█[0;37m [0;33m▌▀▀[0;1;37m██[0m▌     [1m██[0;1;47m▓[0m   [1m [0m [1m▐██[0;1;47m▓[0m     ▌
   ▀[1;47m▓▓▀[0;1;40m▀[0m▀      ▐█[1;47m░[0;1;40m▐[0;1;47m▒░[0m    [33m▐███[0m      [33m██[0;37m  [0;33m██[0m      [33m█[0;1;31;43m▓▓[0;33m▌[0;37m ▄▌ [0;1;37m██[0m▌     [1m█[0;1;47m█▒[0m   [1m [0m [1m███[0;1;47m█[0m▌
                ███[1;47m░[0m▌     [33m███▌[0;37m    [0;33m██[0;37m    [0;33m██[0;37m    [0;33m▐[0;1;31;43m▄[0;33m██[0;37m ▐█  [0;1;37;47m▓▓[0m▌     [1;47m▐▓░[0m   [1m ▐█▌▐█[0m▌    ▐
-██▌▌      [33m█▓▓▄[0;37m  [0;33m▓▓[0m      [33m▓▓[0;37m  [0;33m▄███[0;37m  █▌  [0;1;37;47m▒▒[0m▌     ▐[1;47m▒[0m█▌   [1m██[0m  [1m█[0;1;47m▓[0m▄  ▄▀               █
-█▌▌       [33m▀▓▓▓▄[0m          [33m▄[0;1;31;43m▄▀[0;33m█▀[0;37m   █▌ ▐[0;1;37;47m░[0m█       [1;47m░░[0m█▄[1m▄█[0;1;47m▀[0m▀   ▀[1;47m░░[0m▀
+               ▐██▌▌      [33m█▓▓▄[0;37m  [0;33m▓▓[0m      [33m▓▓[0;37m  [0;33m▄███[0;37m  █▌  [0;1;37;47m▒▒[0m▌     ▐[1;47m▒[0m█▌   [1m██[0m  [1m█[0;1;47m▓[0m▄  ▄▀
+                ██▌▌       [33m▀▓▓▓▄[0m          [33m▄[0;1;31;43m▄▀[0;33m█▀[0;37m   █▌ ▐[0;1;37;47m░[0m█       [1;47m░░[0m█▄[1m▄█[0;1;47m▀[0m▀   ▀[1;47m░░[0m▀
      ▄▄▒[1;30m▓▄[0m       █▌[1m▄▓▓▒[0m▄     [33m▀█▄▓▓▄▄▄▄▄▄█[0;1;31;43m▀▀[0;33m█▀[0m     [37m▐█▄█▀▌[0m        [37m▀█▓▓▀[0m
 [1;37m   [0m▄[1;47m░[0m▀   ▀[1;30;47m▀[0m      [1m▄█[0;1;47m█▀[0m▀[1;47m▄░[0m▌    [33m▓▄[0;37m [0;33m▀▀▐███▓▓▀▀[0;37m [0;33m▄▓[0;37m    ▄[0;1;37;47m▄[0;1;37;40m████▄  [0m        [1m▓▓█[0m
 [1m  [0m▐[1;47m░[0m▌     ▐     [1m▓▓[0;1;47m▀[0m▀  [1;47m█▓[0m▓   [33m██[0m              [33m██[0;37m  ▐[0;1;37m█[0;1;37;47m▓[0;1;30;40m▀[0;1;37;40m [0m▀[1;47m▀▓[0;1;40m▌  [0m       [1;47m▐[0;1;40m██[0m

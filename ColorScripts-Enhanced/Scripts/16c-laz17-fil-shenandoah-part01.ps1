@@ -5,7 +5,7 @@
 # Source SHA-256: a8c957c1505756e494af23225f28d0727e871b4ad1694ad2292afcef359ecad9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FiL-SHENANDOAH.ans by FiLTH (lAZARtR0NiCS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: MEL FAR AMiSH STAR
 # SAUCE Author: FiLTH
 # SAUCE Group: lAZARtR0NiCS

@@ -12,7 +12,7 @@
 # SAUCE Date: 20140820
 # SAUCE Dimensions: 80x505
 # SAUCE Font: IBM VGA
-# Lines: 45-93
+# Lines: 46-91
 # Columns: 1-80
 
 Write-Host '
@@ -50,18 +50,15 @@ Write-Host '
                   [1;37m██[0m [36m  of a life with her.[0m
                   [1;37m▐▌[0m
                   [1m▐▌[0m [36mIt was the child Joseph who first noticed the clock[0;37m [0;36mmaker[0m
-                  [1;37m▐▌[0;36m [0m            [36mhad finally emerged from his house of solitude[0;1m [0m
-[1m▄██▄[0m [36m With a yell and a[0;37m [0;36mjump he ran off to tell his[0m                   [1;37m█▄  ▄▄▄███[0m
-[1;37m███▀[0m  [36mfather, who within[0;37m [0;36mminutes came jogging up to[0m                [1;37m▄▄█████▀▀▀▀[0m
-  [36m   the clock maker''s[0;37m [0;36mhouse, slowing[0;37m [0;36mas he neared[0m
+                  [1;37m▐▌[0;36m [0m            [36mhad finally emerged from his house of solitude.[0m
+                   [1;37m█[0m        [1m ▄██▄[0m [36m With a yell and a[0;37m [0;36mjump he ran off to tell his[0m
+                   [1;37m█▄  ▄▄▄██████▀[0m  [36mfather, who within[0;37m [0;36mminutes came jogging up to[0m
+                [1;37m▄▄█████▀▀▀▀[0m    [36m   the clock maker''s[0;37m [0;36mhouse, slowing[0;37m [0;36mas he neared[0m
       [1;37m  ▄▄▄▄▄███▀▀▀█[0m   [36m [0;37m  [0;36m until they stood[0;37m [0;36mten feet[0;37m [0;36mapart,[0;37m [0;36mas if he were unsure[0m
-[1;30m [0m    [1m  ▐███▀▀[0m      [1m▐▌[0;36m [0;37m [0;36mif he should come[0;37m [0;36many closer. But the clock maker smiled[0;1;37m [0m
-[1;37m ▀▀[0m         [1m▐▌[0m  [36mand said "Hello[0;37m [0;36mSamuel," and soon they were hugging as[0m
+[1;30m [0m    [1m  ▐███▀▀[0m      [1m▐▌[0;36m [0;37m [0;36mif he should come[0;37m [0;36many closer. But the clock maker smiled,[0m
+      [1;37m  ▀▀[0m         [1m▐▌[0m  [36mand said "Hello[0;37m [0;36mSamuel," and soon they were hugging as[0m
                    [1;37m▐▌[0m  [36mSamuel welcomed the clock maker back into the world[0;37m [0;36mhe[0m
-                    [1;37m█[0m   [36mhad forsaken for so[0;37m [0;36mlong. Word spread quickly around th[0;1;37m█[0m
-   [36mneighbourhood, and[0;37m [0;36msoon there was a large crowd of[0;37m [0;36mold[0m
+                    [1;37m█[0m   [36mhad forsaken for so[0;37m [0;36mlong. Word spread quickly around the[0m
+                    [1;37m█[0m   [36mneighbourhood, and[0;37m [0;36msoon there was a large crowd of[0;37m [0;36mold[0m
                     [1;37m█[0m   [36mfriends waiting to receive the clock maker back[0;37m [0;36minto[0m
-                    [1;37m█[0m   [36mtheir lives.[0m
-                    [1;37m▐▌[0m
-                    [1m▐▌[0m   [36mAfter numerous greetings and welcomes, the questions o[0;1;37m▐[0m
-[1;37m▌[0m   [36mhow he was and what he had been doing, the clock maker[0m'
+                    [1;37m█[0m   [36mtheir lives.[0m'

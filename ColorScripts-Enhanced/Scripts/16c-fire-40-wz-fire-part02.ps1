@@ -5,7 +5,7 @@
 # Source SHA-256: e28e35bf90d358c8711e7c7b1e6b3bfaa48d369773115a5d3e794d6a2825651c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WZ-FIRE.ANS by Whazzit (Blocktronics); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Fire 40
 # SAUCE Author: Whazzit
 # SAUCE Group: Blocktronics

@@ -5,7 +5,7 @@
 # Source SHA-256: 909eb01b90f1a1f122f8d198dc6afbd6c67353afe5abdce1529b23b4a0013860
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CODEFENIX-GINGER.ANS by codefenix (MiSTiGRiS); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at manually reviewed compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Ginger
 # SAUCE Author: codefenix
 # SAUCE Group: MiSTiGRiS

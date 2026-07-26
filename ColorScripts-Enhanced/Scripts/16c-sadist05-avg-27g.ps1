@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-27g.ans by Avenging Angel (sadist05); released in sadist05 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
+# Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
@@ -36,7 +36,8 @@ Write-Host '
 [1;30;40m ▀[0;1;30;46m██[0;1;30;40m▄▄[0;1;30;46m▀  ▒[0;1;30;40m [0m  [35m▀▀▀[0;37m  [0;1;30m▄[0;1;36;46m▒▒[0;1;30;40m▀▀[0;1;30;43m█[0;1;30;46m█▒[0;1;36;46m▒█▄[0;1;30;46m▀[0;1;30;40m▄[0m    [1;30m█[0;1;30;46m▄[0;1;30;40m▀[0m  [1;30m▄[0;1;30;46m▀[0;1;36;46m▄  [0;1;30;46m▀[0;1;30;40m▄▄▄▄██▄▄ [0m  [35m▀[0;1;35m▀▀[0;35m▀[0;37m  [0;1;30m▄[0;1;30;46m▀[0;1;36;46m▄████▒[0;1;30;46m  ▒[0;1;30;40m█[0;1;30;46m ▀[0;1;30;40m░[0m
 [1;30;46m  ▄[0;1;30;40m▀█[0;1;30;46m▀▀[0;1;30;40m▄[0m  [1;30m avg_[0m  [1;30m█[0;1;30;43m█[0;1;36;46m██▒[0;1;30;46m ░[0;1;30;43m█[0;1;30;40m▄█▀[0;1;30;46m▄▄[0;1;30;40m██ [0m      [1;30m▓[0;1;30;46m▒▄▄[0;1;36;46m▀██▒[0;1;30;46m█[0;1;30;40m█▀█[0;1;30;46m▒ [0;1;36;46m  [0;1;30;46m▀[0;1;30;40m▄[0m     [1;30m▓[0;1;30;46m▒[0;1;36;46m [0;1;30;46m   ▀[0;1;30;40m▄▄██▀▀[0;1;30;46m▄ [0;1;30;40m█░[0m
  [1;30m██[0;1;30;46m█▄[0;36m▀▀[0;1;30m▀[0m               [1;30m▀▀▀▀▓[0m   [1;30m▀█[0m     [1;30m░[0m       [1;30m▀▀▀██▄[0m  [1;30m▀▀▀█▄[0m  [1;30m░[0m        [1;30m▀▀▀█▄[0m  [1;30m▀█[0m
-      [1;30m▀[0m                     [1;30m░[0m   [1;30m ▌[0m      [1;30m27 inch[0m    [1;30m▀▀▄[0m     [1;30m▀ [0m              [1;30m▀[0m [1;30m  ▀[0m
+      [1;30m▀[0m                     [1;30m░[0m   [1;30m ▌[0m      [1;30m27 inch[0m    [1;30m▀▀▄[0m     [1;30m▀ [0m              [1;30m▀[0m [1;30m  ▌[0m
+                                                       [1;30m▄[0m     [1;30m▀[0m
 
 [1;30mthis is a guest for sephiroth, and his group sadist, i know it''s not a sadist[0m
 [1;30mlogo, but ohwell!, this is my first logo in 8 months, so yeah.. im back avg_[0m'

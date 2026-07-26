@@ -64,4 +64,4 @@ Write-Host '
 [30m░░░░░░░░░░░░░░░░░░░░░░ so fuck it.. (wow! a la neurotic!) ░░░░░░░░░░░░░░░░░░░░░[0m
 
         [1;34m1o0 pErCeNt oRiGiOnAl aNsEe bY tHe oNe wHo tRuLy mIsUnDeRsTaNdS[0m
-→SAUC[1;34mA![0m                           [1;34meErIe(oNiOn)[0m                          [1;34mvErUcA![0m'
+[1;34mvErUcA![0m                           [1;34meErIe(oNiOn)[0m                          [1;34mvErUcA![0m'

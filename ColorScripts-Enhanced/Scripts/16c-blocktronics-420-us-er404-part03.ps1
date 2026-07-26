@@ -12,10 +12,12 @@
 # SAUCE Date: 20171206
 # SAUCE Dimensions: 80x135
 # SAUCE Font: IBM VGA
-# Lines: 93-137
+# Lines: 91-136
 # Columns: 1-80
 
 Write-Host '
+                                  [33m    ███▀[0m                       [33m█[0;1;31;43m█▀[0;33m█[0m
+                                        [33m▀▀██▄   [0m                [33m█[0;1;31;43m█▀[0;33m▀[0m
                                   [33m    [0;37m    [0;33m ▀▓▓  [0;37m [0;33m   █[0m          [33m█[0;1;31;43m▓[0;33m█[0m
                                                   [33m▄██[0m         [33m█[0;1;31;43m░[0;33m█[0m
                                                 [33m▄███[0m         [33m███[0m         [33m▓[0m
@@ -59,5 +61,4 @@ Write-Host '
 
                         [1;30mhellboy created by mike mignola.[0m
 
-     [1;30mansi by horsenburger and nail of blocktronics[0m [1;30m ░[0m [1;30m www.blocktronics.org[0m
-[1;30m→   [0m'
+     [1;30mansi by horsenburger and nail of blocktronics[0m [1;30m ░[0m [1;30m www.blocktronics.org[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 129226bdfb53aa63a1d335673e7fd94e170d75d2d3ec54bbae0e6cfa6afc34d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: checs_espacio_liminal_linea_144.ans by checs (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: espacio liminal
 # SAUCE Author: checs
 # SAUCE Group: HPM

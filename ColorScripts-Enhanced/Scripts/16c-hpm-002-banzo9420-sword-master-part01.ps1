@@ -5,7 +5,7 @@
 # Source SHA-256: 0de19742146f4ae1daf8215e3a192028a68a86a0130566c1ecce9f0b0760e46b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Banzo9420-Sword_Master.ans by Banzo9420 (hpm-002); released in hpm-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Date: 20220620
 # SAUCE Dimensions: 80x55
 # SAUCE Font: IBM VGA

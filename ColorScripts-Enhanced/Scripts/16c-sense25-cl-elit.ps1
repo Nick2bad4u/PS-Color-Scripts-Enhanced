@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cl!-elit.ans by Cleaner (sense25); released in sense25 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
+# Lines: 1-26
 # Columns: 1-80
 
 Write-Host '
@@ -32,5 +32,6 @@ Write-Host '
 [1;30m ▄▀[0m     Ellu Ellu Ellu Ellu Ellu Ellu Ellu Ellu Ellu Ellu Ellu Ellu Ellu     [36m▀▄[0m
 [1;30m▀[0;36m▄[0;1;30m ░░[0m                                                                      [1;30m░░ [0;36m▄▀[0m
 [36m███▄[0;1;30m▀▄ [0;36m▀▄[0;1;30m  ▀▄[0m                                                      [1;30m▄▀  [0;36m▄▀[0;1;30m ▄▀[0;36m▄███[0m
+
 [37m  Cleaner[0;1;30m([0mSense[1;30m)[0m [1;30m-[0m December 2005                 http[1;30m://[0mcleaner[1;30m.[0muntergrund[1;30m.[0mnet
                                   [30m ■ A N S i ■[0m'

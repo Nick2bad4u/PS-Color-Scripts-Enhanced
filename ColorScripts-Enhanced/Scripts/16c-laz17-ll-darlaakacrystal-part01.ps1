@@ -5,7 +5,7 @@
 # Source SHA-256: e870f131b4b7e651f439aab65f3ea076a1a52680c70032a78e16b4b1654929e4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ll-darlaakacrystal.ans by lucaslink (lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: darla aka crystal
 # SAUCE Author: lucaslink
 # SAUCE Group: lazarus

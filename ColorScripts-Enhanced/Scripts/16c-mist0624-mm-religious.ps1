@@ -1,18 +1,16 @@
 ﻿# Converted from: MM-RELIGIOUS.ANS
-# Source encoding: cp437
+# Source encoding: CP437
 # Source URL: https://16colo.rs/pack/mist0624/raw/MM-RELIGIOUS.ANS
 # Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
 # Source SHA-256: 3678a32209be2b26a5244f3494b9323afd7bbaa24d5f1749801b98987c4b2610
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Tears Blood Dance Floor by Mavenmob of Mistigris (2024). Archived by 16colo.rs.
-# Source Modification: Decoded from CP437 and terminal-emulated at the declared canvas width without scaling, reflow, cropping, or background-space stripping.
+# Source Attribution: MM-RELIGIOUS.ANS by Mavenmob (Mistigris); released in mist0624 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Tears Blood Dance Floor
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris
 # SAUCE Date: 20240408
 # SAUCE Dimensions: 80x40
-
-
 # SAUCE Font: IBM VGA
 # Lines: 1-40
 # Columns: 1-80

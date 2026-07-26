@@ -5,7 +5,7 @@
 # Source SHA-256: 6c7e4b5642313fa0600d8fa8363bfb153c1122a12d55784f7418bc4b689ddf79
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SOCKINGTON.ANS by Cthulu + LDA + Moth (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: RIP Sockington
 # SAUCE Author: Cthulu / LDA / Moth
 # SAUCE Group: Mistigris

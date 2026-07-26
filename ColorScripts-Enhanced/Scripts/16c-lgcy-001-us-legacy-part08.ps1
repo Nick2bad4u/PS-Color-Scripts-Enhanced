@@ -13,7 +13,7 @@
 # SAUCE Dimensions: 80x374
 # SAUCE Font: IBM VGA
 # SAUCE Comments: Enter the Lion.  Enter the Legacy Krew 90% of this thing comes | from the mind of warpus.  tk provided the lion and several key i | mprovements and additions.  smooth drew some things and a whole | letter that ended up being completely removed due to an unfortun | ate diplomatic incident.  However, parts of that letter have bee | n repurposed.  Long live the lion
-# Lines: 327-372
+# Lines: 329-374
 # Columns: 1-80
 
 Write-Host '

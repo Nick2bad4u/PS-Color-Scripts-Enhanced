@@ -13,10 +13,11 @@
 # SAUCE Dimensions: 80x349
 # SAUCE Font: IBM VGA
 # SAUCE Comments: For the cap.
-# Lines: 300-348
+# Lines: 300-349
 # Columns: 1-80
 
 Write-Host '
+[31m █  ▓   █  ░▒ ▒  ░ ▒    ▒ ░  ░ ▒ ▒ ░ ░  ▒ ▒░ ░  ░  ▒  ░  ░  ░  ░[0m           [31m░[0m
 [31m █  ▒   ▓  ░▒ ▒  ░ ▒    ▒ ░  ░ ▒ ▒ ░ ░  ▒ ▒░ ░[0m     [31m▒  ░  ░  ░  ░[0m
 [31m ▓  ▒   ▓  ░▒ ▒  ░ ▒    ▒ ░    ▒ ▒ ░ ░  ▒ ▒░ ░  ░  ▒[0m     [31m░  ░  ░[0m
 [31m ▓  ▒   ▓  ░▒ ▒  ░ ▒    ▒ ░    ▒ ░ ░ ░  ▒ ▒  ░  ░  ░[0m     [31m░  ░  ░[0m

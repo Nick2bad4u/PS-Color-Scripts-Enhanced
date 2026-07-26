@@ -5,7 +5,7 @@
 # Source SHA-256: 382b8b42e00db8834c6208880d854c952f4a1c6684feaa5ee151052a882484ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DOSDOC-CALL_OF_CTHULHU.ANS by DosDoc (Mistigris); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: The Call of Cthulhu
 # SAUCE Author: DosDoc
 # SAUCE Group: Mistigris

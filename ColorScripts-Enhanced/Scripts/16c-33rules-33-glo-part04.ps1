@@ -11,7 +11,7 @@
 # SAUCE Group: Eerie
 # SAUCE Date: 19950930
 # SAUCE Dimensions: 80x25
-# Lines: 115-151
+# Lines: 115-153
 # Columns: 1-80
 
 Write-Host '
@@ -34,8 +34,8 @@ Write-Host '
 [1;30m░    [0;1;37m▄▓▀[0m        [1;37m▓▌  ▀[0m        [1;37m▐▓  ▀[0m     [1;37m▀    ▀████▄  ▄   ▄▓▌▀▀■▄   [0;1;30m▀[0;1;30;47m▒[0m▄   [1m▀ ▀▄  [0;1;30m░[0m
 [1;30m▓   [0;1;37m▓▌ ▄■▀   ▀ ▀[0m           [1;37m▄ ▀[0m           [1;37m▀[0m                [1;37m▀■   ▀[0m     ▀[1;47m▒▓[0;1;40m▄  ▐▓[0m
 [1;30;40m█▓[0m   [1;37;40m▀[0m       [1mglo (in the dark) ree [0;1;30m- [0mops: voiz [1;30m- [0msaga member board       [1m▀ ▀[0m  [1;30m▓ [0m
-[1;30m▄[0;1;30;47m▓[0;1;30;40m▄░▄[0m [1;30m▄▄[0m  [1;30m▄[0m       [1;30m▄▄[0;1;30;47m▓[0;1;30;40m▄[0m                  [1;30;40m▄▄▄▓[0;1;30;47m▓[0;1;30;40m▄[0m  [1;30m▄[0m                      [1;30m▄[0m  [1;30m▄█▓▄[0;1;30;47m▓[0;1;30m░[0m
-[1;30m▀[0m                               [1;30m  [0m
+[1;30m▄[0;1;30;47m▓[0;1;30;40m▄░▄[0m [1;30m▄▄[0m  [1;30m▄[0m       [1;30m▄▄[0;1;30;47m▓[0;1;30;40m▄[0m                  [1;30;40m▄▄▄▓[0;1;30;47m▓[0;1;30;40m▄[0m  [1;30m▄[0m                      [1;30m▄[0m  [1;30m▄█▓▄[0;1;30;47m▓[0m
+                    [1;30m▀[0m                      [1;30m░▀[0m                               [1;30m  [0m
 
 [1;30mjeez louise..  another ansi from [0;1;37meerie[0;1;30m [[0;1;31mfire[0;1;30m]..  still alive, although i[0m
 [1;30mhave this sucky-o monochrome screen here.  tho, it''s not that bad, prevents me[0m
@@ -43,7 +43,9 @@ Write-Host '
 
 [1;30mby the way, this is an original ansi you fucking dork..  not a comic rip!       [0m
 [1;30mif i did comic rips i''d be in your motherfucking top 10 right now!&#            [0m
+
 [1;30mbetter not complain, my mom''s kathleen turner!&*(/                              [0m
+
 [1;30mgreets to the guys in integrity who now joined acid..  ahah..  losers :P[0m
 [1;30msmoochy greets to the fire posse and the dto posse..  extra bonus greet to nc.[0m
 

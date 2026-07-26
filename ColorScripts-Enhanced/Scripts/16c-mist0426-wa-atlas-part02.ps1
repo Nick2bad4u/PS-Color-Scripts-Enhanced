@@ -5,7 +5,7 @@
 # Source SHA-256: 7845e9470586c51c5e9f9c5c480ad744bea195f082eb59b49c4390e70f41268e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WA-ATLAS.ANS by warpus (LAZARUS); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: ATLAS HISTORYCZNY SWIATA
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS

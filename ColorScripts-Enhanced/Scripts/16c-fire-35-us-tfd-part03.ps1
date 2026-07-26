@@ -5,17 +5,18 @@
 # Source SHA-256: 66211dd14f362de90e42e81374770aaa520ab45c392fa352bb9f1e64f75f41f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TFD.ANS by Nail + Halaster (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: The Fiction's All I Got (Sometimes)
 # SAUCE Author: nail + halaster
 # SAUCE Group: fire
 # SAUCE Date: 20221009
 # SAUCE Dimensions: 80x108
 # SAUCE Font: IBM VGA
-# Lines: 73-108
+# Lines: 72-108
 # Columns: 1-80
 
 Write-Host '
+[1;30;40m▌[0m  [33m▀[0;1;33;43m▀▄░░[0;33m███████[0;1;33;43m ░▒▓[0;1;33;40m██[0;1;33;43m▓▓▓[0;33m▀[0;34m▄▀[0;1;30m▄▄[0m▒[1;30m▄[0;1;30;47m▀▄[0;1;30;40m███[0m [1;30m░░▄[0m [1;30m▀[0;1;30;47m▄[0;1;37;47m░░▓▓[0;1;37;40m███████[0;1;37;47m▄[0m [1;34m█[0;1;34;44m▓▓█[0m [1;47m▀[0;1;40m██▀█▌[0;1;34;40m▐[0;1;34;47m▓▓[0;1;34;40m█[0;1;37;40m [0;1;37;47m [0;1;37;40m [0;1;37;47m▀▓▓▓[0m
 [1;30m█[0m [1;34m ▀▄[0;33m▀[0;1;33;43m▀░░[0;33m██████[0;1;33;43m ░▒▓[0;1;33;40m█[0;1;33;43m▀[0;1;33;40m▀[0;33m▀[0;34m▄█▀[0;1;30m▄[0;1;30;47m█▓▓▓█[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m▀ ▓▓▓▓█▄ ▀[0;1;30;47m▄[0;1;37;47m░░▓▓▓█[0;1;37;40m████[0;1;37;47m▄[0m [1;34m█[0;1;34;44m▓▓[0;1;34;40m█[0m [1;47m▀▓[0;1;40m▌▐[0;1;47m▓[0m [1;34m█[0;1;34;47m▓▓[0;1;34;40m▌[0m▐[1;47m▄[0;1;40m [0;1;47m░▒░[0m
 [1;30m█[0m  ▄[34m▀[0;1;34;44m▓[0;34m▄[0;33m▀▀███████▀[0;1;33m▀[0;33m▀[0;34m▄[0;1;34m▄[0;1;34;44m▓░[0;34m▀[0;1;30m▄[0;1;30;47m█▓[0m█[1;30;47m░░░█▓[0;1;30;40m▌ ▓▓███[0;1;30;47m▓▓▓[0;1;30;40m▄ ▀[0;1;30;47m▄[0;1;37;47m░░░▓▓▓▓▓▓[0m█ [1;34m█[0;1;34;44m▓▓[0;1;34;40m█[0m [1;47m░░[0;1;40m [0;1;47m▒[0m [1;34;44m▓[0;1;34;40m███[0;1;37;40m [0;1;37;47m▓[0;1;37;40m▌[0m▐[1;47m░[0m█
 [1;30;46m▓[0;1;30;40m▌[0m  █[1;30m▄[0;34m▀[0;1;34;44m░░[0;34m▄▄▄▄▄▄▄█[0;1;34;44m░░▓[0;1;34;40m█▀[0;1;30;40m▄[0;1;30;47m███[0m█[1;30;47m   █▓▄[0;1;30;40m ████[0;1;30;47m▓▓░░░█▓[0;1;30;40m█▄▀[0m▀[1;30;47m▄[0;1;37;47m░░░░░░[0m██ [1;34m█[0;1;34;44m▓▓[0;1;34;40m█[0m █[1m [0;1;47m░[0m [1;34;44m▓▓[0;1;34;40m██[0m [1;47m░[0m▌▐█▌

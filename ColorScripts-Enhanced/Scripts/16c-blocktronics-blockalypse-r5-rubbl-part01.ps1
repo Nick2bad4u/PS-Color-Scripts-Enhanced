@@ -4,7 +4,7 @@
 # Source Revision: archive-sha256:29ba148fe5fc8b4a774ee58a56a5b6d8104f139a95cba3df944ffda7c075e06a
 # Source SHA-256: 2782ee91f44ac8506fbdcdbf793de5d2cde856e13bd9a6b88c01ea3513f1ba69
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: r5-RUBBL.ans by resetsurvivor (??????????); released in blocktronics_blockalypse and preserved by 16colors.
+# Source Attribution: r5-RUBBL.ans by resetsurvivor (blocktronics_blockalypse); released in blocktronics_blockalypse and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: RUBBL
 # SAUCE Author: resetsurvivor

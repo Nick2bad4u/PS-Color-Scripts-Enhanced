@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-ice.ans by Avenging Angel (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
+# Lines: 1-37
 # Columns: 1-80
 
 Write-Host '
@@ -41,7 +41,8 @@ Write-Host '
 [1;37;46m███▄[0;36m▄[0;37m  [0;34m▀[0;1;34m▀▀[0;1;34;44m▀███[0;1;34;40m█▄[0m      [34m▀[0;1;34;44m▀███▀[0;1;34;40m▀[0;34m▀[0;1;34;44m▀▀██████▀[0;34m▀[0;1;34;46m██[0;1;34;44m██▄[0;34m▄[0;37m [0;34m▀[0;1;34;44m▀█▄  ▄██▀▀██▀[0;1;34;40m▀[0;34m▀[0;37m [0;1;34m▄█[0;1;34;44m███▀[0;1;34;40m▀▀[0;34m▀[0;37m   [0;36m▄[0;1;37;46m▄[0;1;37;43m██[0m
 [1;37;46m█████▄[0;33m▄[0;37m [0;1;30m█▄▄[0m   [34m▀▀▀[0m     [34m▄[0;1;34m▓▀[0;34m▀[0;37m   [0;34m▀[0;1;34;44m [0;36;44m▀[0;1;34;44m▄█▀[0;1;34;40m▀[0;34m▀[0;37m [0;1;34m▄█[0;1;34;44m██████[0;34m█[0;37m   [0;34m▀▀[0;1;34;44m▀███▀[0;34m▀▀[0;37m    [0;1;34m▀▀[0;34m▀[0;37m   [0;1;30m▄[0;33m▄[0;1;30;43m▀█[0m [33m▄[0;1;37;46m▄[0;1;37;43m████[0m
 [1;37;43m▓▓▓▓▓▓▓[0;1;33;43m [0;1;30;40m▀[0;1;30;43m▄[0;1;36;43m  [0;33m█▒[0m        [1;34m░[0m    [34m▄██[0;36;44m▄[0;34;40m▄[0;37;40m    [0;1;34;40m▄█[0;1;34;44m█▀[0;1;34;40m▀▀▀[0;34m▀[0m          [34m▀▀▀▀[0;37m  [0;1;30;43m   [0;33m▒[0;37m  [0;33m▒█[0;36;43m   [0;1;30;43m▄[0;1;30;40m▀[0;33m█[0;1;37;43m▓▓▓▓▓▓[0m
-[33m▓▓▓▓▓▓▓▓[0m                    [34m▀▀▀[0;37m [0;34m [0;37m  [0;1;34m▓▀[0m                                    [33m▓▓▓▓▓▓[0;1;34m░[0m
+[33m▓▓▓▓▓▓▓▓[0m                    [34m▀▀▀[0;37m [0;34m [0;37m  [0;1;34m▓▀[0m                                    [33m▓▓▓▓▓▓▓[0m
+                                  [1;34m░[0m
 
 
 [1;30mto steve.. this is how it''s done mate :)[0m'

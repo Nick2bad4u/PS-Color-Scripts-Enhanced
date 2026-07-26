@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zO-lud.ans by Enzo (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
+# Lines: 1-42
 # Columns: 1-80
 
 Write-Host '
@@ -41,7 +41,6 @@ Write-Host '
 
 
                            [35m   [0;1;35m  [0;1;32m  8[0m
-
 
 
 

@@ -12,10 +12,17 @@
 # SAUCE Date: 20211214
 # SAUCE Dimensions: 80x765
 # SAUCE Font: IBM VGA
-# Lines: 674-718
+# Lines: 669-717
 # Columns: 1-80
 
 Write-Host '
+          [36mSpecial Thanks to [0;1;35mWarpus [0;36mfor inviting me to Lazarus and encouraging[0m
+[37m          [0;36mme to the max. He wanted to contribute to my traphouse opus and did[0m
+[36m          a wonderful job with the moody HOUSE logo.  Thanks Warpy![0m
+[36m          You are an awesome ringleader and have amazing ideas. The Lazarus[0m
+[36m          shoe sale was a runaway success and I''m so happy I got to take part[0m
+[36m          in such inspired fun[0m
+
 [37m          [0;1;36mThere''s so much more I''ve removed from this [0;1;30m765[0;1;36m liner but i think[0m
           [1;36mthose details are better left out. One of those things that works[0m
 [1;36m          better in your head, execution is amazing[0;1;30m/shit[0;1;36m, but doesn''t fit[0m
@@ -57,7 +64,4 @@ Write-Host '
 [1;37m██[0;1;37;47m▄▄[0m█▄▄▄[31m▀█[0;1;31m███[0;1;30m█[0;1;30;41m▄[0;1;31;41m▄[0;1;31;40m███[0;1;31;41m▄▄[0;1;31;40m█[0;1;31;47m▀[0m█[1;47m▄[0;1;40m█[0;1;47m▄[0m█▄[33m██████[0;37m▄▄[0;1;37;47m▄[0;1;37;40m████████████████[0m█▀[33m▀▒▒▒▒▒▒▄▄▄▀▀▀[0m
 [1;37m████████[0;1;30m█[0;31m█[0;1;31m███[0;1;31;41m▄[0;1;31;40m███████[0m█[1;47m▄[0;1;40m███[0;1;47m▀▀[0m██▄▄▄█[1;47m▄▄[0;1;40m█████████████████[0;1;106m▀[0m▀[33m▄▄▄▀▀▀▀▀[0m
 [1;37m█████▀[0;1;30m▀▀[0;33m▄[0;31m█[0;1;31m████████▀▀[0;1;37m▄[0;1m██[0;1;47m▀[0m█[1;47m▄▄[0;1;40m█████████████████████████[0;1;36;40m█▀[0m    [1;30m█[0m     [1;30mif i draw this[0m
-[1m███▀[0;1;30m█[0m    [31m█[0;1;31m██████▀[0;1;30m█[0;1;37m▄[0;1m███▀[0;1;47m▄[0;1;40m███████████████████████████[0;1;36;40m█▀[0m    [1;30m▄▀[0m  [1;30mguy any bigger[0m
-[1m███[0;1;30m█▄▄[0m  [31m█[0;1;31m█▀▀▀▀[0;1;37m▄▄▄[0;1m████[0;1;30m█[0;1;37m▄[0;1m███████████████████████████[0;1;36m█[0m     [1;30m▄█[0m     [1;30mit ruins it FAK![0m
-[1m██▀▄█▄▄▄▄▄▄█████████▀[0;1;30m█[0;1;37m██████████████████████████[0;1;37;106m▀[0;1;36m█[0m   [1;30m▄█[0;1;30;47m▀▀[0;34m▄▀▀▀▀▄▄▄▄▄▄[0;37m     [0;1;30mZm[0m
-[1m▀▄██████████████████[0;1;30m█[0;1;37m██████████████████████████[0;1;37;106m▀[0;1;36m█[0;1;30m▄[0m  [1;30m▄█[0m██[34m▄▀[0;37m          [0;34m▀▀█▄▄▄[0m'
+[1m███▀[0;1;30m█[0m    [31m█[0;1;31m██████▀[0;1;30m█[0;1;37m▄[0;1m███▀[0;1;47m▄[0;1;40m███████████████████████████[0;1;36;40m█▀[0m    [1;30m▄▀[0m  [1;30mguy any bigger[0m'

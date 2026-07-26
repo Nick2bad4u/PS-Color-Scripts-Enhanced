@@ -9,10 +9,11 @@
 # SAUCE Date: 20151207
 # SAUCE Dimensions: 80x79
 # SAUCE Font: IBM VGA
-# Lines: 42-81
+# Lines: 41-80
 # Columns: 1-80
 
 Write-Host '
+              ███████[1;30;47m░░░░░░[0m██████[1m███[0m█████[1m█████[0m█[1m████[0m█[1m█████████████  [0m      [1;36m·[0m
               ████████[1;30;47m░░░░░[0m███████[1m██[0m██████[1m██████[0m█[1m███[0m██[1m██████[0m██[1m████[0m
               ███████████[1;30;47m░░░[0m██████████████[1m███████████[0m█████[1m█████████[0m
                ██████[1;30;47m░░[0m██[1;30;47m░░░[0m███████████████[1m███████████[0m█████[1m██████████[0m
@@ -51,5 +52,4 @@ Write-Host '
                                   [1mCo-SysOp: White Fang[0m
 
               [1;34m [0m             [1;34m  ANSi By Wolf Biker[0m
-[1;34m  [0m              [1;34mGreets to all my Wolf Brothers in DuoDaughters[0m
-[1;34m→   [0m'
+[1;34m  [0m              [1;34mGreets to all my Wolf Brothers in DuoDaughters[0m'

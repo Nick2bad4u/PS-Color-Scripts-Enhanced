@@ -5,7 +5,7 @@
 # Source SHA-256: ebc782e215788426e558cfa1cbe00be0f65f87c8bbeed2715bdce824592c7628
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-CHRISTIAN_BOK-EUNOIA.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Eunoia
 # SAUCE Author: Cthulu
 # SAUCE Group: Mistigris

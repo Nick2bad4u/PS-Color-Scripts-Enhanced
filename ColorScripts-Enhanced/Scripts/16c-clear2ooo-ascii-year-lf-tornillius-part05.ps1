@@ -5,7 +5,7 @@
 # Source SHA-256: 7957a6ce3b7a88236aea32514dfdb7a70f42df74edc5533333035d5a96f60039
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tornillius.ans by clear2ooo (clear2ooo-ascii-year-lf); released in clear2ooo-ascii-year-lf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at manually reviewed compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: tornillius
 # SAUCE Author: clear2ooo
 # SAUCE Date: 20250208

@@ -13,7 +13,7 @@
 # SAUCE Dimensions: 80x289
 # SAUCE Font: IBM VGA
 # SAUCE Comments: 4 evenings of fun blockhours :)
-# Lines: 48-96
+# Lines: 47-94
 # Columns: 1-80
 
 Write-Host '
@@ -63,6 +63,4 @@ Write-Host '
                                              ▀[1;30m█[0m
                                         [1m.[0m     [1;30m█[0m▀▄
                                               [1;30m█[0m ▐▌
-                                              [1;30m█[0m▄▀
-                                            ▄▀[1;30m█[0m                 [1m.[0m
-           [1m·[0m                               ▐▌ [1;30m█[0m'
+                                              [1;30m█[0m▄▀[0m'

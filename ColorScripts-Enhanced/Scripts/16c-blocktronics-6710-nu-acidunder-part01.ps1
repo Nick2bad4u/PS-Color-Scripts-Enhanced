@@ -13,7 +13,7 @@
 # SAUCE Dimensions: 80x349
 # SAUCE Font: IBM VGA
 # SAUCE Comments: For the cap.
-# Lines: 1-50
+# Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
@@ -64,5 +64,4 @@ Write-Host '
             [1;30ms[0m        [1;30mns[0m [1;30mt[0m [1;30mo[0m   [1;30mf[0m [1;30mfa[0m [1;30mn[0m     [1;30mb[0m [1;30mc[0m       [1;30ms[0m       [1;30mt[0m   [1;30mm[0m             [1;30ml[0m
   [1;30mh[0m     [1;30mz[0m        [1;30md[0m [1;30msen[0m [1;30ma[0m [1;30mio[0m          [1;30mi[0m   [1;30mb[0m  [1;30ma[0m [1;30me[0m      [1;30mr[0m [1;30mn[0m  [1;30ma[0m   [1;30mi[0m      [1;30ma[0m  [1;30mI[0m
    [1;30me[0m  [1;30m [0m [1;30mz[0m [1;30mn[0m [1;30ms[0m  [1;30m  d  en a  o  of f i  i [0m [1;30m be am[0m   [1;30mo[0m    [1;30mo g[0m     [1;30mi[0m [1;30mes[0m [1;30mtha[0m      [1;30mu[0m
-[1;30m   e[0m  [1;30mi[0m [1;30mz[0m [1;30mn[0m [1;30ms[0m  [1;30m nd se sation of fainti g became  o st o g  t tim s  ha    cou[0m
-[1;30m The dizziness and sensation of fainting became so strong at times that I could[0m'
+[1;30m   e[0m  [1;30mi[0m [1;30mz[0m [1;30mn[0m [1;30ms[0m  [1;30m nd se sation of fainti g became  o st o g  t tim s  ha    cou[0m'

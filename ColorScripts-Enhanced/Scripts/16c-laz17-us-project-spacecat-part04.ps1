@@ -5,7 +5,7 @@
 # Source SHA-256: 370d77d35b7870d1032ee0b61fb3f93f29c5e10b7f54fa446506f02782ca65f6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-project_spacecat.ans by Filth + Pinguino + Warpus (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Project Spacecat
 # SAUCE Author: FilthPinguinoWarpus
 # SAUCE Group: LAZARUS

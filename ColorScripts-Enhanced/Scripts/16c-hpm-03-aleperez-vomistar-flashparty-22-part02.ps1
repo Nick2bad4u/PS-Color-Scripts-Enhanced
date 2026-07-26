@@ -11,7 +11,7 @@
 # SAUCE Date: 20221016
 # SAUCE Dimensions: 80x250
 # SAUCE Font: IBM VGA
-# Lines: 51-100
+# Lines: 51-99
 # Columns: 1-80
 
 Write-Host '
@@ -63,5 +63,4 @@ Write-Host '
 [37m                    [0;1;34m████[0m                              [32m▀██████▀[0m
 [37m                    [0;1;34m████[0m                                [32m▀▀▀▀[0m
 [37m                    [0;1;34m████[0m
-                    [1;34m████[0m
                     [1;34m████[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 69e08ea6a02160ddf9f7ed2870c2c9d31f03daa5afd2bb520bca5467b6519f71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-stcharles.ans by Warpus + Mel Farr Suppastar (Lazarus); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at manually reviewed compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: St Charles Avenue
 # SAUCE Author: warpus + MFS
 # SAUCE Group: Lazarus
@@ -13,7 +13,7 @@
 # SAUCE Dimensions: 80x464
 # SAUCE Font: IBM VGA
 # SAUCE Comments: Criss Angel appears courtesy of reprise records.
-# Lines: 1-49
+# Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
@@ -60,8 +60,6 @@ Write-Host '
 [35;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;30;46m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [1;36;40m░░[0;1;30;40m▒▌[0;35m▒▒[0;35;47m▒[0;37;45m▒[0;37;40m  [0;37;45m▒[0;35;47m▒[0;35;40m▒▒[0;1;30;40m▒▒  [0;45m▒[0;35;47m▒[0;35;40m▒▒[0;1;30;40m▒▒  [0;1;37;45m░░[0;35m▒▒[0;1;30m▒▒  ▒[0m                                       [45m▒[0;1;30;47m▒▒[0;1;36;40m░░[0;1;30;46m▓[0m
 [36m░░[0;1;30m░[0m [35m░░[0;37m▒▒  ░░[0;35m░░[0;1;30m░░[0m  ▒▒[35m░░[0;1;30m░░[0m  ▒▒[0m
-
-
 
 
 '

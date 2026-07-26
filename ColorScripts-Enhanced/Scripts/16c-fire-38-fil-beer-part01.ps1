@@ -5,14 +5,14 @@
 # Source SHA-256: b053bffa36face7d03917aaeb670f648da9de5987e08feb07b1fbe3b9108ce90
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-BEER.ANS by filth (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: ROCK THE 40 oz.
 # SAUCE Author: filth
 # SAUCE Group: FiRE
 # SAUCE Date: 20231111
 # SAUCE Dimensions: 80x101
 # SAUCE Font: IBM VGA
-# Lines: 1-34
+# Lines: 1-35
 # Columns: 1-80
 
 Write-Host '
@@ -48,4 +48,5 @@ Write-Host '
 [1;35;40m█[0;34;45m▀▄▄▄[0;1;37;45m▐[0;1;37;47m░[0;44m░░[0;34;47m▄▄█[0;1;34;44m░[0;35;44m▀[0;1;34;44m░░[0m   [33m░░▓▓▓█▓████[0;1;31;43m░░░[0;33m█[0;1;31;43m░[0;33m▄▄   [0;1;30m▀▀█████▓███▀▄████████[0m    [1;30m░[0;34m█████[0;35m██[0;37;44m░[0;1;30;40m█[0;34m████[0;1;35m█[0m
 [1;35m█[0;34m██[0;34;45m▀[0;35;47m█[0;1;37;40m█[0;45m░░░░[0;34;45m▀▀[0;1;34;44m░░░░[0m  [33m░[0;37m [0;33m▓▓█▓▓██▓▓███[0;1;31;43m░░░▓[0;1;31;40m████▄[0;33m▄  [0;1;30m▀▀██▀▄▄██████████[0m    [1;30m░[0m [35m▓[0;34m██▀▀[0;1;30m  █[0;1;37m [0m▄ [34;44m▄[0;1;35;40m█[0m
 [1;35;40m█[0;35m██[0;34;45m░░[0;1;37;47m▓[0;45m░[0;44m░░[0;1;34;44m░[0;44m░[0;1;34;44m░[0;44m░░[0;1;34;44m░[0;44m░[0;40m [0;33;40m░░░▓█▓██████[0;1;31;43m░[0;33m█[0;1;31;43m░░░▒░[0;1;31;40m█████[0;1;31;43m▓▓▄[0;1;31;40m▄[0;33m▄[0;37m  [0;1;30m████████████▌[0m      [35m▀[0;1;30m ▄▄█  █[0m▐█ [34m█[0;1;35m█[0m
-[1;35m█[0;35m█[0;34;45m░░[0;1;37;45m▐▌[0;44m░░░░░░[0;1;34;44m░░░[0m  [33m░ ░▓▓█▄▀[0;1;31;43m░░  [0;33m█████[0;1;31;43m░░▓▀[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m███[0;1;31;43m▓▓▄[0m [1;30m▀███████████▌[0m      [1;30m▄███▌[0m▐[1;30;47m▐▌[0m██ [35m█[0;1;35m█[0m'
+[1;35m█[0;35m█[0;34;45m░░[0;1;37;45m▐▌[0;44m░░░░░░[0;1;34;44m░░░[0m  [33m░ ░▓▓█▄▀[0;1;31;43m░░  [0;33m█████[0;1;31;43m░░▓▀[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m███[0;1;31;43m▓▓▄[0m [1;30m▀███████████▌[0m      [1;30m▄███▌[0m▐[1;30;47m▐▌[0m██ [35m█[0;1;35m█[0m
+[1;35m█[0;34;45m░░[0;35;40m█[0;1;37;45m▐▌[0;44m░░░░░░[0;1;34;44m░░░[0m      [33m▀▀▐██▓[0;1;31;43m  [0m [33m▌▀    ▀[0;1;31m▀█▀██[0;1;31;47m▓[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m█[0;33m▌[0;37m [0;1;30m███████████[0m       [1;30m██▓█ [0m█ [1;30;47m▌[0m▓▓ [34m█[0;1;35m█[0m'

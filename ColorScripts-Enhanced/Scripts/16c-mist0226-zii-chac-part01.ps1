@@ -5,7 +5,7 @@
 # Source SHA-256: 418c713bedfa86816f2280e59f714f689daf3615f622788e1c7a3e8e883ced98
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-CHAC.ANS by Zeus II (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Chaotic Factor x2
 # SAUCE Author: Zeus II
 # SAUCE Group: Mistigris
@@ -13,7 +13,7 @@
 # SAUCE Dimensions: 80x60
 # SAUCE Font: IBM VGA
 # SAUCE Comments: Chaotic Factor BBS, the hot new BBS in town! Obviously I would n | ever draw copyrighted characters. These guys are called Stevenom | and Cornage.
-# Lines: 1-28
+# Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
@@ -43,4 +43,5 @@ Write-Host '
 [1;34;44m▄▀[0;34m▀▀[0;1;34;44m▀[0;34m█▄[0;37m  [0;1;34;44m▄▀[0;34m▀▒░[0;37m  [0;34m▄▄▀[0;37m [0;36m▀▄[0;1;36m▄▀▀▄[0;36m▄▀[0;37m  [0;34m▄[0;1;34;44m▓[0;34m█[0;37m  [0;31m▒▒▓▐[0;1;31;41m▒▒░[0;31m▄▄[0;37m [0;34m▀[0;37m [0;34m▐[0;1;34;44m░[0m ▄  [31m▄[0;1;31;47m▀[0;1;31;41m▌[0;31m▓░[0;37m  [0;1;31;41m▄[0;1;31;47m▀ [0;1;31;41m▌[0;31m▓░[0;37m  [0;1;37m▌[0m▀[34m ▌[0;37m    [0;34m▀[0;1;34;44m▀[0;1;34;40m▄[0;34m░[0m
 [34m▀[0;37m [0;35m░[0;34m ░[0;37m [0;34m▀▓█▄▄▒▓▀[0;37m   [0;34m▄[0;1;34m▄▄[0;34m▄[0;37m       [0;1;34m▄[0;1;34;44m▄▀[0;34m█[0;37m    [0;31m▓[0;1;31;41m [0;31m▄█[0;1;31;41m░░░░[0;31m██▄▄▄▄▄[0;1;31;41m░▒▀[0;31m█▀▀▄▄[0;1;31;41m▄[0;1;31;47m▓░[0;1;31;41m█[0;31m▓▒[0;37m  [0;1;37m▌[0m▀[34m [0;35;44m░[0;34;40m▌█[0;37;40m [0;34;40m▄[0;37;40m [0;34;40m▄█▀[0;1;34;44m░[0m
 [34mZeus II[0;37m [0;34m▀▀▀▀[0;37m    [0;34m▀[0;37m    [0;34m▀▄[0;1;34m▄▄[0;34m█[0;1;34;44m▀▀[0;34m▀▀▀[0;37m [0;34m▄[0;1;34m▒[0;34m▀  [0;31m▀[0;1;31;41m  [0;31m▄▀▀▀██▓[0;1;31;41m░░░[0;31m███▄▄[0;1;31;41m░░▒▒▓▓▀ [0;31m▀[0;37m [0;1;37m▓[0m▄▀ [35;44m▒[0;34;40m▀[0;35;44m░[0;37;40m   [0;34;40m▀▄[0;1;34;44m▄▀[0;34m▀[0m
+
 '

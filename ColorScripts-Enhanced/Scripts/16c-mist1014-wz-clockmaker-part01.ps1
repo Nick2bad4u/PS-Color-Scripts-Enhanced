@@ -12,7 +12,7 @@
 # SAUCE Date: 20140820
 # SAUCE Dimensions: 80x505
 # SAUCE Font: IBM VGA
-# Lines: 1-44
+# Lines: 1-45
 # Columns: 1-80
 
 Write-Host '
@@ -48,6 +48,7 @@ Write-Host '
 [36;40mfather''s handiwork wind around its face with the inexorable precision of death''s[0m
 [36;40membrace, and wondered how it was that we should measure our lives in minutes and[0m
 [36;40myears as if we were little more than the gears and pendulums of his life''s work.[0m
+
 [36;40mWe are more than that, aren''t we? He asked himself over and over. But what if[0m
 [36;40mwe aren''t? What if we aren''t?[0m
 

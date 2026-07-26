@@ -5,14 +5,14 @@
 # Source SHA-256: b9238604268bec81efd4a458c72166275750b8eae4f76c5daeae3a3c2e18146f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-REAL.ANS by filth (FiRE); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: ARE SEE EY!
 # SAUCE Author: filth
 # SAUCE Group: FiRE
 # SAUCE Date: 20250707
 # SAUCE Dimensions: 80x152
 # SAUCE Font: IBM VGA
-# Lines: 81-119
+# Lines: 81-120
 # Columns: 1-80
 
 Write-Host '
@@ -32,6 +32,7 @@ Write-Host '
 [1;31;43m▀[0;1;30;40m ▓▀[0m                     [30m▌[0;37m▐[0;1;37;47m░[0m▌[1;30m ███▀▄▓▓█▌▐[0;1;30;43m▓[0;1;30;40m [0;1;30;43m▓[0;1;30;40m [0;1;30;43m▓[0;1;30;40m▌▐▓▓▓▓▓▓▓ █▀[0;1;30;47m▀[0;1;37;40m▄[0m   [1;30m▀█▄ ▀▀▄▄█▓▓▓[0;1;30;47m▓▄▄▓▄▓[0m
 [1;30;40m ░[0m                        [1;47m▒░[0m▌[1;30m▐██▀▄▓▓██▌▐[0;1;30;43m▓[0;1;30;40m [0;1;30;43m▓[0;1;30;40m [0;1;30;43m▓[0;1;30;40m▌▐▓▓▓▓▓█ ▓[0m [1m▀[0;31m▐▄ ▓▄[0;37m  [0;1;30m▀▄▓▓▀▀▀▄▄▄▄▄▄▄▄▄[0m
 [1;30m▓[0m                         ██▌[1;30m▐▀▄▓▓████▌▐[0;1;30;43m▓[0;1;30;40m [0;1;30;43m▓[0;1;30;40m [0;1;30;43m▓[0;1;30;40m▌▐▓▓▓▓▓▄▓▌[0;31m■▀▐[0;37m [0;31m▌█[0;37m  [0;1;30m▄▓▀▄▓▓▓▓[0;1;30;47m▓[0;1;30;40m█▓▓██[0;1;30;47m▓▓▓[0m
+
 [1;30m   [0;1;35;45m░▀[0m        [35m▀[0;1;35;45m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;35m▀[0m         [1;35;45m▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;35m▀[0m      [1;35;45m▀░[0m
 [1;30m   [0;1;35;45m [0;35m█[0;1;30m █[0;1;30;47m▀▀▀▀▀▀[0;1;30;40m▄ [0;35m▀██▄[0m                  [35m▄██▀[0;1;30m ▄[0;1;30;47m▀▀▀▀▀▀▀[0;1;30;40m█ [0;1;35;45m░[0;35m█[0m         [35m▄██▀[0;1;30m ▄[0;1;30;47m▀▀▀▀[0;1;30;40m█ [0;35m█[0;1;35;45m░[0m
 [1;30m   [0;35m██▄[0;1;30m ▀[0;1;30;47m▓▓▓▓▓▓▓[0;1;30;40m▄ [0;35m▀██▄[0m              [35m▄██▀[0;1;30m ▄[0;1;30;47m▓▓▓▓▓▓▓▓▓█[0;35m░██[0m       [35m▄██▀[0;1;30m ▄[0;1;30;47m▓▓▓▓▓▓█[0;1;30;40m [0;35m██[0m

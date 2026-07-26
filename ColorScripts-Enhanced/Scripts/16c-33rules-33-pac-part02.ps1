@@ -64,4 +64,4 @@ Write-Host '
 
 [1;30;40m  [0;31mshrapnel is (c)1995, young and eerie. dont fuq with her without asking first[0m
      [31mgreets: hey, i dunno.. all the spas crew.. cuz they all rule too much[0m
-→SAUC [31mand neurotic: look! i can do cool pics with lots of grey in them! =)[0m'
+      [31mand neurotic: look! i can do cool pics with lots of grey in them! =)[0m'

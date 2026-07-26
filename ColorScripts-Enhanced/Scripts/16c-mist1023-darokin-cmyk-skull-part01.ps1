@@ -5,7 +5,7 @@
 # Source SHA-256: 2018dfd923af494bdf17a6db5616971787e49648fc5dac1f75c74721038ce2cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DAROKIN_CMYK-SKULL.ANS by Darokin (mist1023); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: CMYK skull
 # SAUCE Author: Darokin
 # SAUCE Date: 20231025

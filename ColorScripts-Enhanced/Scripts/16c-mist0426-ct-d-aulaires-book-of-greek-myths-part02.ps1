@@ -5,7 +5,7 @@
 # Source SHA-256: 4cbf2a3cfa2c19ebd811a7da71672a1e132cb3a3294a2b0e98fc68132ca63295
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-D'AULAIRES_BOOK_OF_GREEK_MYTHS.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: D'Aulaires' Book of Greek Myths
 # SAUCE Author: Cthulu
 # SAUCE Group: Mistigris

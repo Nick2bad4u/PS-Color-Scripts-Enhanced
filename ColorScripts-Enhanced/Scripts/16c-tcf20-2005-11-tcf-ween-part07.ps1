@@ -6,10 +6,20 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2005 - 11 - tcf-ween.ans by Tcf (tcf20); released in tcf20 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 282-315
+# Lines: 272-315
 # Columns: 1-80
 
 Write-Host '
+                                  [33m▀ [0;1;30;43m█[0;33m [0;1;30;43m█[0;33m [0;1;30m▐ [0;1;30;43m▓[0;1;30;40m▒[0;33m [0m           [32m▀▒[0m
+           [32m▄▀[0m                       [33m  ▀ [0;1;30m▐[0;33m [0;1;30;43m█[0;1;30;40m░[0m     [32m▄▄▄[0;33m▄[0m                          [33m▐[0m
+          [32m▐▌[0m                             [33m [0;1;30m▀[0;33m [0m        [32m▀▀[0;32;43m▓▓[0;32;40m▄▄[0;33;40m▄[0m                    [33;40m▒[0m
+         [32;40m█[0;37;40m [0;32;40m▓▓▓[0m      [31;40m▀▀[0m                                   [32;40m▀▀[0;32;43m▓▓▓[0;32;40m▄▄[0m              [33;40m▐[0m
+         [32;40m█[0;37;42m░[0;32;40m ▒▒▒▒[0m          [31;40m▀[0m                                   [32;40m▀▀[0m
+         [32;40m▐█[0;37;42m░[0;32;40m  ░░░[0m
+          [32;40m██[0;37;42m░[0;32;40m▄  ░░ [0m                                                   [32;40m▄▀[0m
+           [32;40m▀█[0;37;42m░░░[0;32;40m  ░░▄▄▀[0m                                              [32;40m█▀▀[0m
+             [32;40m▀   ▀▀[0;37;40m [0;32;40m░░░[0m
+
                      [34;40m█████▄▄[0m             [37;40m░[0m
                      [34;40m█[0;37;44m░░░░░░░[0;34;40m█▄[0;37;40m   [0;34;40m▀■[0m
                      [34;40m█[0;37;44m▒▒[0;37;40m    [0;34;40m▀[0;37;44m░░░[0;34;40m▄[0;37;40m    [0;34;40m·[0m

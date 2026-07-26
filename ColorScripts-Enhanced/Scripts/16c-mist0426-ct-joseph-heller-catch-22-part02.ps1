@@ -5,7 +5,7 @@
 # Source SHA-256: 209e537da94cdf0eb192fd38fa51c79311d0267955bcf75acb450d2091928d3e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-JOSEPH_HELLER-CATCH-22.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Catch-22
 # SAUCE Author: Cthulu
 # SAUCE Group: Mistigris

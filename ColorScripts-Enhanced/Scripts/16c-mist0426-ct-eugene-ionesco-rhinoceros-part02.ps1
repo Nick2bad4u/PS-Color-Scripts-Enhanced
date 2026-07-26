@@ -5,7 +5,7 @@
 # Source SHA-256: 6642edde16601038485e81e4010f4674d85147c844c914cf992418484de0f797
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-EUGENE_IONESCO-RHINOCEROS.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Rhinoceros
 # SAUCE Author: Cthulu
 # SAUCE Group: Mistigris
@@ -13,7 +13,7 @@
 # SAUCE Dimensions: 80x60
 # SAUCE Font: IBM VGA
 # SAUCE Comments: 1960 Grove Press edition, cover design by Roy Kuhlman.
-# Lines: 30-58
+# Lines: 30-59
 # Columns: 1-80
 
 Write-Host '
@@ -43,6 +43,7 @@ Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m
 [1m████████████████████████████████████████████████████████████████████████████████[0m
 [1m████████████████████████████████████████████████████████████████████████████████[0m
+
   [1m▄▄[0m [1m▄[0m [1m▄[0m [1m▄▄[0m [1m▄▄[0m   [1m▄▄[0m [1m▄▄[0m  [1m▄▄[0m [1m▄▄[0m [1m▄[0m [1m▄[0m   [1m▄[0m  [1m▄▄[0m  [1m▄[0m  [1m▄▄[0m [1m▄[0m [1m▄[0m [1m▄[0m  [1m▄[0m  [1m▄[0m                [1m/[0m
   [1m█▄[0m [1m█ █[0m [1m█▄[0m [1m█▄▀[0m [1m█[0m [1m▄ █▄▀[0m [1m█▄[0m [1m█▄[0m [1m█▌█[0m  [1m█ █[0m [1m█▄▀[0m [1m█[0m [1m█[0m [1m▄[0m [1m█[0m [1m█▌█[0m [1m█▄█[0m [1m█[0m   [1mE-259 #1.95 --[0m
   [1m█▄[0m  [1m█[0m  [1m█▄[0m [1m█ █[0m [1m▀▄█ █ █[0m [1m█▄[0m [1m█▄[0m [1m█▐█[0m  [1m▀▄▀[0m [1m█ █[0m [1m█[0m [1m▀▄█[0m [1m█[0m [1m█▐█[0m [1m█[0m [1m█[0m [1m█▄[0m               [1m\[0m'

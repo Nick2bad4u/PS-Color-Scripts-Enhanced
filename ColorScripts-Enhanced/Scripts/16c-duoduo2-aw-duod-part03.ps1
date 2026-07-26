@@ -9,11 +9,10 @@
 # SAUCE Date: 20151219
 # SAUCE Dimensions: 80x139
 # SAUCE Font: IBM VGA
-# Lines: 95-140
+# Lines: 97-140
 # Columns: 1-80
 
 Write-Host '
-              [1;30m▀▀[0m    [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
                                   [1;30m▄    ▄[0m
                        [1;30m■[0m     [1;30m▀▀▄   ▀  ▀   ▄▀▀[0m
                          [1;30m▀▀▄▄   ▀▄  ■■  ▄▀   ▄▄▀▀[0m
@@ -57,5 +56,4 @@ Write-Host '
 [1;37m DUS NOT LIYK JEWS MENS. HE ALWAYS VERY ANGRIES BECOZ OF JEWS MENS STEELING[0m
 [1;37m SAKRID PALESTINES LAND. JEWS IS TERRORISTS MAST NOT BE FORGIVEN THEY KILL[0m
 [1;37m PROPHET JESUS WHY THEY DO DIS? WHY KIL JESUS IF JEWS IS NICE PEEPUL DEY NOT[0m
-[1;37m KILL JEESUS. I VERY UPSET WEN JESUS DIE.[0m
-[1;37m→   [0m'
+[1;37m KILL JEESUS. I VERY UPSET WEN JESUS DIE.[0m'

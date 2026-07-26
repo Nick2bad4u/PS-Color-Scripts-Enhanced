@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zv-911.ans by Zerovision (tnt-004); released in tnt-004 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 135-178
+# Lines: 135-179
 # Columns: 1-80
 
 Write-Host '
@@ -37,7 +37,8 @@ Write-Host '
    [31m [0;1;37m▀[0m  [1m▐█▀▌[0m [35m█[0;37m [0;1;37m▄▄█▌[0m  [1m ▀▀▀ ▀[0m    [1m [0m      [1m░[0m  [1m▀[0m                 [1mnine.one.one[0m
        [1m▀[0m      [1m▓[0m [1m▀[0m                                         [1m+o reevolution[0m
               [1m▓[0m
-[1;30m------------[0m  [1m▒[0m [1;30m---------------------------------------------------------------[0;1m░[0m
+[1;30m------------[0m  [1m▒[0m [1;30m----------------------------------------------------------------[0m
+              [1m░[0m
 
 if you''re having deja vu, this outline was done before as a joint but i
 forgot about it and finished it myself. You get to see it twice.

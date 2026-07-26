@@ -5,7 +5,7 @@
 # Source SHA-256: 5d29a7fc77ad92b07b4927877233913168f9140597eb68af2632c428880499bd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-lgcy.ans by WARPUS (LAZARUS); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: LEGACY KREW
 # SAUCE Author: WARPUS
 # SAUCE Group: LAZARUS

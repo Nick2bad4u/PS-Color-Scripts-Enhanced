@@ -5,7 +5,7 @@
 # Source SHA-256: e61089bc0c80a1ebb48d1795fe0210a7f0edef7ed4f38b7ccf30fc43ff5db466
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: g-2001.ans by G. (lEGACY kREW!); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: 2001: A Space Odyssey
 # SAUCE Author: G.
 # SAUCE Group: lEGACY kREW!

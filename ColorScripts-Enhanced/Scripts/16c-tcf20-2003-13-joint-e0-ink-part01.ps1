@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2003 - 13 - Joint - E0-INK.ANS by Enzo + The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
+# Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
@@ -55,5 +55,4 @@ Write-Host '
 [34m█████[0;1;34;44m░░[0;34m█████▀▄██████▄████████ ▓  [0;37m [0;33m▀[0;36;43m░[0;37;40m [0;33;40m▀[0;1;33;43m▀[0;33m▄[0;1;33m▄▄[0;1;33;43m▀[0;33m▀[0;37m [0;33m█▀[0;37m [0;34m ▐███▐████▓█▄█████[0;1;34;44m ░[0;34m████████████[0m
 [34m███████████ ▄████████[0;1;34;44m ░[0;34m██████▌█▄░  [0;37m [0;33m▀[0;37m  [0;33m▀▀▀[0;37m [0;33m▄▀[0;37m [0;34m ░ ▄▀▀▄██████████████████████▓████[0m
 [34m███[0;1;34;44m░[0;34m███▓████████████[0;1;34;44m░░░░[0;34m████████▓░ ░ [0;37m [0;33m▀░░░▀[0;37m [0;34m░  ▓▌████████████████[0;1;33;44m [0;34m█████████▒████[0m
-[34m███████ ▓██████████[0;1;34;44m▒░▒░[0;34m██████████▓▒░ ▀[0m     [34m░▓ ▓█████████████████████[0;1;33;44m [0;34m██[0;1;34;44m░░[0;34m███████[0m
-[34m█████▓████████████[0;1;34;44m▒▓▒▓▒  [0;34m██▓██████▓▒▓▄▄█ █▐▓█▐██▌███████████████▓▓██████[0;1;34;44m▒▒░[0;34m█████[0m'
+[34m███████ ▓██████████[0;1;34;44m▒░▒░[0;34m██████████▓▒░ ▀[0m     [34m░▓ ▓█████████████████████[0;1;33;44m [0;34m██[0;1;34;44m░░[0;34m███████[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 568dd0abf3bb0bca23626f29f1fa86cb8a5720aceaff696d4a600e0ad29c8b6d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: jj-Nyx.ans by KF/jj (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Quake Champion's Nyx
 # SAUCE Author: KF/jj
 # SAUCE Group: Legacy Krew

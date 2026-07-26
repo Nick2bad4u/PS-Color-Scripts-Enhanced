@@ -6,10 +6,12 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: is-kaasu.ans by Prosthesis (27inch07); released in 27inch07 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 129-170
+# Lines: 127-170
 # Columns: 1-80
 
 Write-Host '
+[1;30m███ [0m              [1;30m▄█████▒[0m
+[1;30m███ [0m               [1;30m▀▓▓▓▓▒[0m
 [1;30m███▄[0m                [1;30m▒▒▒▒[0m           [1;30m▄▄█[0m [1;30m███[0m                          [1;30m▒[0m
 [1;30m████[0m                             [1;30m▒████████[0m                          [1;30m▒[0m
 [1;30m█████ [0m                           [1;30m█████████[0m                          [1;30m▒[0m

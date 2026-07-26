@@ -5,7 +5,7 @@
 # Source SHA-256: 9a4133455140b8b3df81880884f7b25d3f0c66f954f13452b12aa406c9fb8ef7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CXC-DEMOSPLASH2024.ANS by CoaXCable (mistigris); released in mist1025 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: zombosplash 2024
 # SAUCE Author: CoaXCable
 # SAUCE Group: mistigris

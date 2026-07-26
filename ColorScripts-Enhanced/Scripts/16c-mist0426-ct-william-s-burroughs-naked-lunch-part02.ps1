@@ -5,7 +5,7 @@
 # Source SHA-256: 889828af84667301c46dc8050398271ed94a5b5739bc1a20405cfb24e61bdf75
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-WILLIAM_S_BURROUGHS-NAKED_LUNCH.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Naked Lunch
 # SAUCE Author: Cthulu
 # SAUCE Group: Mistigris

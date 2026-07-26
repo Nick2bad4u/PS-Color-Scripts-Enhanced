@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-clutch25.ans by Avenging Angel (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
+# Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
@@ -35,6 +35,7 @@ Write-Host '
 [44m▄█[0;1;34;40m▄[0;36;44m░░[0;1;32;44m▓▓▓[0;1;34;46m  [0;36m█[0;1;34;46m▄[0;1;37;47m [0;1;32;47m ▄▄[0;1;32;40m█[0;1;33;46m██▀▀[0;36m█[0;1;32m█[0;1;32;41m▓▓▓[0;1;31;41m▄[0;1;31;40m██████[0;1;31;47m█[0;1;36;41m▒▄[0;31m▄[0;1;30m [0;1;30;46m [0;36m▄[0;1;35;45m ▄[0;1;35;40m▄[0;35m▄[0;1;31;45m ▀[0;1;31;40m██[0;1;31;41m▄[0;1;31;40m▄[0;1;35;41m▀█[0;1;31;40m█[0;1;37;40m█[0;1;37;41m█[0;1;36;40m█[0m [1;30m█[0m [1;33m █▄ [0;1;36m▀▀[0;1;31m [0m [1;35m█▄[0;34m ▄▄[0;1;30;44m▀[0;36m [0;1;30m  [0;1;32m███[0;36m█[0m
 [34m█[0;1;34;44m▀▀[0;34m█[0;36;44m▓▓[0;1;32;40m███[0;1;34;46m  ▀▀[0;1;32;47m█[0;1;32;40m████[0;36m███[0;1;35;46m▄[0;1;35;40m███[0;1;31;47m█[0;1;31;40m█████[0;1;31;47m███[0;1;31;40m█[0;1;36;40m██[0;31m▄[0;36m▐[0;1;37;46m [0;1;35;46m▐[0;1;35;47m███[0;1;31;40m█[0;1;31;45m▄▒[0;1;31;40m█████[0;1;31;41m██[0;1;37;40m▀▓[0;1;36;40m▓[0m [1;33m  [0m [1;36m [0;1;33m▄[0;1;31m  [0;1;35m█▄[0;1;36m   [0;34m▀▀▀████▄[0;36;44m▓▓[0m
 [34;40m███[0;1;34;40m██[0;36m██[0;1;32m███[0;1;34;46m  [0;1;33;46m [0;36m█[0;1;32m█████[0;36m█[0;1;35;46m▒[0;1;35;40m███[0;1;31;40m████████[0;1;37;41m░░███[0;1;36;41m█[0;36m▐[0;1;37;46m██[0;1;37;45m░░[0;1;35;47m█[0;1;35;40m█[0;1;31;40m█████████▒[0m [1m░[0;1;36m░[0m [1;30mavg[0;1;33m▀▀[0m       [1;36m ▀▀[0m [34m▀▀[0;36;44m░░░[0m
+
 
 [1;33m25liner for clutch bbs... it''s payday.. finally.. IM RICH BEEYATCH.. HONK HONK![0m
 

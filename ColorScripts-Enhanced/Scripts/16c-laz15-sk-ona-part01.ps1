@@ -5,7 +5,7 @@
 # Source SHA-256: 1c2e1dd099897efe0e5646269d0b618b82e6ae5f2277fa27ad0d23a6f5d59dc0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sk!ona.ans by sIMONkING (LAZARUS); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Ona
 # SAUCE Author: sIMONkING
 # SAUCE Group: LAZARUS

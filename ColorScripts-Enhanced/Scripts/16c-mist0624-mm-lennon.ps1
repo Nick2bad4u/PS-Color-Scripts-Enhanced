@@ -1,18 +1,16 @@
 ﻿# Converted from: MM-LENNON.ANS
-# Source encoding: cp437
+# Source encoding: CP437
 # Source URL: https://16colo.rs/pack/mist0624/raw/MM-LENNON.ANS
 # Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
 # Source SHA-256: a0f933202dfb6c4937922fe9455b195664769d8767da7bbe76f285c1f09e2eec
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Oh My Love by Mavenmob of Mistigris (2024). Archived by 16colo.rs.
-# Source Modification: Decoded from CP437 and terminal-emulated at the declared canvas width without scaling, reflow, cropping, or background-space stripping.
+# Source Attribution: MM-LENNON.ANS by Mavenmob (Mistigris); released in mist0624 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Oh My Love
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris
 # SAUCE Date: 20240408
 # SAUCE Dimensions: 80x40
-
-
 # SAUCE Font: IBM VGA
 # Lines: 1-40
 # Columns: 1-80

@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2005 - 02 - tcf-002.ans by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 122-161
+# Lines: 122-162
 # Columns: 1-80
 
 Write-Host '
@@ -43,6 +43,7 @@ Write-Host '
 [1;30m$$$$$$ $$[0;33m$$$[0;1;31m$$$$$$$$$$$$$[0;33m$$[0;1;30m$  $$[0;33m$c,.[0;1;31m`"$$$$$$$$$$$[0;33m$$[0;1;30m :$[0;33m$$$$$$$$$$$$$[0;1;31m$$$$$$$$$$[0m$$[1;31m$[0m
 [1;30m$$$$$$ $$[0;33m$$$[0;1;31m$$$$$$$$$$$$$[0;33m$$[0;1;30m$  $$[0;33m$$$$$$$s$$[0;1;31m"$$$$$[0;33m$$ [0;1;30m $$[0;33m$$#└'',s$$$$[0;1;31m$$$$$$$$$$$$$$$[0m
 [1;30m$$$$$$ $$[0;33m$$$[0;1;31m$$$$$$$$$$$$$[0;33m$$[0;1;30m$  $$$$[0;33m$$$[0;1;31m$$$[0;33m$$$$$[0;1;31m$$[0;33m$$[0;1;31m [0;1;30m ░$$[0;33m"`,s$$$$$[0;1;31m$$$$$$$$$[0m$$$[1;31m$$$$$[0m
+
 
        [1;30m ▄░░░░░░▄[0m                                              [1;30m ▄░░░░░░▄[0m
        [1;30m▐▒▒██████▌[0m            [36mMimic Art Productions[0m            [1;30m▐▒▒██████▌[0m

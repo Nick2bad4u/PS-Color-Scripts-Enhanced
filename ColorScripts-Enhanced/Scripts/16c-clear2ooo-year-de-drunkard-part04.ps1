@@ -5,7 +5,7 @@
 # Source SHA-256: 81912038d53ef786c5c86c965a3bc5aaf863b8a9b75993ecad462966f6e5cf2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: drunkard.ans by clear2ooo (clear2ooo-year-de); released in clear2ooo-year-de and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: drunkard
 # SAUCE Author: clear2ooo
 # SAUCE Date: 20250122

@@ -13,10 +13,18 @@
 # SAUCE Dimensions: 80x290
 # SAUCE Font: IBM VGA
 # SAUCE Comments: How to make a Jackie Welles: | Shot of vodka, lime juice, ginger beer, and most importantly, a | splash of love. | 1. Fill a copper mug (or highball glass) with ice. | 2. Pour in the vodka and lime juice. | 3. Add the "splash of love" (e.g., grenadine). | 4. Top with ginger beer and stir gently. | 5. Garnish with a lime wedge. | 6. Enjoy, choom!
-# Lines: 251-290
+# Lines: 243-290
 # Columns: 1-80
 
 Write-Host '
+[1;33;41m   D35720, Di42MUiD, Di6i741 23M0253, DiM35, DJ B3ND32, D2. CPU, D2. K3V02Ki4N  [0m
+[1;33;41m     D2460N, D2iV32 8, DYZ, EDiCiU5, E1U5iV3 Vi5i0N, 3QUiN0X, 3224N7 4N631      [0m
+[1;33;41m  3553NC3, 374N4, 370, 3Vi1 CU223N7, 3X42-KUN, 3X3CU7i0N32, F45CiMi13, F14i2    [0m
+[1;33;41m   F1423, F100D, F100D MY7H, F1UX, F1YiN6 Fi4H, F001i5H Bi2D, F02C3 0F N47U23   [0m
+[1;33;41m  F0263, F2i7Z, 624FX, 623ND31, G23Y H4WK, 62YMMJ4CK, H00P7i3, H4CK, H4NDiB0Y   [0m
+[1;33;41m  H42D 1iQU02, H3115 FU2Y, H31732, H0Mi3 D. C10WN, iC0NCi457, i15UND41, iM463   [0m
+[1;33;41m    iNFiNi7Y, iN723P3D, 102i Y464Mi, i20NM4N, J4K3 B1U35, J4NZiK D42KN355       [0m
+[1;33;41m      J0U2N3Y, JU6H34D, JU1i4N, Ki114 H327Z, Ki1132 iN5TiNC7, KiWi, KN0-3       [0m
 [1;33;41m    KN0CTU2N1, KUM4, KUN6 140, KY0, 1iQUiD B1U3, 1i70Z, 1i7713 FUNKY N3620      [0m
 [1;33;41m  10N35742, 102D 45H, 1UCiF32, 1UK3 5KYW41K32, M43V3 W01F, M46N470P, M41i602    [0m
 [1;33;41m    M455 D3572UC7i0N, M455 MU2D3232, M45732, M4V2iK, M4XW311, M364!, M31K02     [0m
@@ -43,8 +51,8 @@ Write-Host '
 [1;33;41m again, here''s some more random VIP members!: 4CiDiC 504P, Bi0H4Z42D, 5WiND132, [0m
 [30;41m└[0;1;33;41m D234MD3M0N, M020531, 0M364 23D, P0P3 J0HN P4U1, 24iNM4K32, 234P32 Wi1DW00D.  [0;30;41m┘[0m
 [31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30;41m│║▌▐│║││║│▌▐║[0;31;40m▀[0m
-[31;40m██████████████████████████████████████████████████████████████████[0;30;41m│║▌▐│║││║│▌▐║│[0m
-[30;41m║▌▐│║││║│▌▐║[0m
+[31;40m██████████████████████████████████████████████████████████████████[0;30;41m│║▌▐│║││║│▌▐║[0;31;40m█[0m
+                                                                  [30;41m│║▌▐│║││║│▌▐║[0m
                                  [31mORiGiNAL 2077[0m                    [30;41m│║▌▐│║││║│▌▐║[0m
                                  [31mBY YOUR CHOOM[0m                    [30;41m│║▌▐│║││║│▌▐║[0m
                                  [31m┌[0m           [31m┐[0m                    [30;41m│║▌▐│║││║│▌▐║[0m

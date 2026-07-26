@@ -11,10 +11,11 @@
 # SAUCE Group: Eerie
 # SAUCE Date: 19950531
 # SAUCE Dimensions: 80x124
-# Lines: 92-121
+# Lines: 92-124
 # Columns: 1-80
 
 Write-Host '
+[1;34m                          [0;33m [0;1;34m     [0m
 [34m┌───────────────────────────────[0;1;34mwwiv mode on[0;34m──────────────────────────────────┐ [0m
 [34m│[0m                                                                             [34m│[0;37m [0m
 [34m│[0;1;33m               [0m  [1;33m->[0m [1;37mSARCASTIC TOASTER PHONE NUMBER CHANGE [0;1;33m<-[0m                 [34m│[0;37m [0m
@@ -27,11 +28,13 @@ Write-Host '
 [34m│[0m                                                                             [34m│[0;37m [0m
 [34m│[0m                   [1;33mOPS[0;1;37m - [0;1;32mYOUNG[0;1;37m / [0;1;32mEERIE[0;1;37m.. [0;1;34mCALL IT NOW BITCH![0m                  [34m│[0;37m [0m
 [34m│[0m                                                                             [34m│[0;37m [0m
-[34m└───────────────────────────────[0;1;34mwwiv mode off[0;34m─────────────────────────────────┘[0;1;30m.[0m
-[1;30m.[0m [1;37mansi by eerie from integrity, the guy who thinks arrogance is a virtue[0;1;30m ..[0m
+[34m└───────────────────────────────[0;1;34mwwiv mode off[0;34m─────────────────────────────────┘ [0m
+                                                                              [34m [0;37m [0m
+  [1;30m..[0m [1;37mansi by eerie from integrity, the guy who thinks arrogance is a virtue[0;1;30m ..[0m
 [1;30m                       ummm.. i definitely suck, don''t i?[0m
 
 [34m─────────────────────────────────────────────────────────────────────────────── [0m
+
 [37mgroup greets: [0;1;37mcancer, dark, emerge, integrity, mad, quad-p, rival,[0m [1;37mteklordz,[0m
 [1;37m              shiver, spastic, union, virtue..[0m
 

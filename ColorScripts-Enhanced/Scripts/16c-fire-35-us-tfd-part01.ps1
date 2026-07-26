@@ -5,14 +5,14 @@
 # Source SHA-256: 66211dd14f362de90e42e81374770aaa520ab45c392fa352bb9f1e64f75f41f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TFD.ANS by Nail + Halaster (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: The Fiction's All I Got (Sometimes)
 # SAUCE Author: nail + halaster
 # SAUCE Group: fire
 # SAUCE Date: 20221009
 # SAUCE Dimensions: 80x108
 # SAUCE Font: IBM VGA
-# Lines: 1-36
+# Lines: 1-35
 # Columns: 1-80
 
 Write-Host '
@@ -31,8 +31,8 @@ Write-Host '
 [37m   or I could take that correspondence course [0;34m▄▄▄▄▀▀▀[0;37m    [0;34m▀▀▄▄[0;37m [0;34m▄▄[0;37m  [0;34m   [0;37m  [0;35m░[0;30;45m▓[0m
    get a job near my mom up north                    [35m░[0;30;45m▓[0;35;40m [0m        [35;40m■[0m          [35;40m▄▄[0m
 [37;40m   I know it''s not in my plot[0m                         [35;40m  ▀▄▄▄▄░[0;30;45m▓[0;35;40m▄▄[0;37;40m [0;35;40m▀▄▄▄░░[0;30;45m▓[0;35;40m▄[0;1;37;45m■[0;1;33;45m░░[0;35m▀█▄[0m
-[37m [0;35m  [0;37mbut the fiction''s all I got[0m                      [35m▄▄▄[0;37m   [0;35m▀▀▓[0;30;45m░[0;35;40m▓▄▄[0;1;37;45m■[0;35m██▄▄▀▀[0;30;45m░[0;35;40m▓▀▀▄[0;37;40m  [0;35;40m░[0m
-[37;40m   [0;35;40m░[0;30;45m▓[0;37;40m  [0;35;40m░[0;30;45m▓[0;35;40m▒▒▓▓█[0;1;37;45m■[0;35m█[0;1;37;45m░░[0;1;35;45m░░░[0;35m███[0;1;35;45m░[0;1;37;45m░░[0;1;35;45m░░[0;1;33;45m░░[0;35m█[0;1;37;45m■[0;35m█[0;1;37;45m░░[0;1;35;45m░[0;35m▄ [0;37m [0;35m▀■[0m
+[37m [0;35m  [0;37mbut the fiction''s all I got[0m                      [35m▄▄▄[0;37m   [0;35m▀▀▓[0;30;45m░[0;35;40m▓▄▄[0;1;37;45m■[0;35m██▄▄▀▀[0;30;45m░[0;35;40m▓▀▀▄[0;37;40m  [0;35;40m▀[0m
+                                    [35;40m░[0;37;40m   [0;35;40m░[0;30;45m▓[0;37;40m  [0;35;40m░[0;30;45m▓[0;35;40m▒▒▓▓█[0;1;37;45m■[0;35m█[0;1;37;45m░░[0;1;35;45m░░░[0;35m███[0;1;35;45m░[0;1;37;45m░░[0;1;35;45m░░[0;1;33;45m░░[0;35m█[0;1;37;45m■[0;35m█[0;1;37;45m░░[0;1;35;45m░[0;35m▄ [0;37m [0;35m▀■[0m
                [35m▄[0m                                   [35m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;37;40m   [0;35;40m▄▄[0;37;40m [0;35;40m▀▀▀▀▀▀▀▀[0;1;35;45m░░[0;35m▓▄  ▀[0m
               [35m■[0m     [35m■[0m                                   [35m▀[0m                [35m▀▀▄▄[0;37m [0;35m▀[0m
              [35m▐[0m     [35m▀  ▀▄[0m          [37mSometimes I''m pouring for myself[0m
@@ -49,5 +49,4 @@ Write-Host '
      [31m▐█▀▀  ▀▀[0;1;31m▀▀▀[0;1;31;41m▀▀[0;1;31;40m█████[0;1;37;41m██▌[0m        I know it''s not in my plot
       [31m▄[0;1;37;41m▄[0;31m██[0;1;31;41m░░▓▓[0;1;31;40m██[0;1;31;41m▄▄[0;1;31;40m▄[0;31m▄▀[0;1;31m▀[0;31m█[0;1;37;41m▓▓[0;31m▌[0m        [37mbut the fiction''s all I got sometimes[0m
 [35m    [0;37m [0;1;37;41m [0;1;37;40m█[0;1;37;41m▓[0;31m███████[0;1;31;41m▀▀[0;1;31;40m████[0;1;37;41m▄[0;1;31;40m▄[0;31m▀[0;1;37;41m [0;31m▌[0m
-[35m    [0;31m▐[0;1;37;41m▐[0;1;37;40m█[0;1;37;41m░[0;31m█▓██[0;1;31;41m░░▒▒▓▓[0;1;31;40m████[0;1;37;40m█[0;1;37;41m▄[0;31m▄[0m
-[35m   [0;37m [0;31m▐[0;1;37;41m▐▓[0;31m█▓▒█[0;1;31;41m░░▒▒▓▓[0;1;31;40m█████[0;1;37;40m█[0;1;37;41m▓ [0m'
+[35m    [0;31m▐[0;1;37;41m▐[0;1;37;40m█[0;1;37;41m░[0;31m█▓██[0;1;31;41m░░▒▒▓▓[0;1;31;40m████[0;1;37;40m█[0;1;37;41m▄[0;31m▄[0m'

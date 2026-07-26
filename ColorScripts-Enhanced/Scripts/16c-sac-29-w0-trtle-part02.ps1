@@ -4,8 +4,8 @@
 # Source Revision: archive-sha256:4a7b5662970be48b68a4478e5f403ec3affc1f2b03d21be3f154e5f81c6d2e6e
 # Source SHA-256: f8561f47ab916202dca23635c4be5004aeea738a25dce132739e387e93ff8d1e
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: W0-TRTLE.ANS by webpige0; released in sac-29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Attribution: W0-TRTLE.ANS by Webpige0 (sac-29); released in sac-29 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # Lines: 51-100
 # Columns: 1-80
 

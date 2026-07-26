@@ -5,7 +5,7 @@
 # Source SHA-256: ef5cdc709448ce72e650b063e8213cdf9640cd403359358877be52d424779223
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-N01Z.ANS by zir (FiRE); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: l1N3 n01Z3
 # SAUCE Author: zir
 # SAUCE Group: FiRE

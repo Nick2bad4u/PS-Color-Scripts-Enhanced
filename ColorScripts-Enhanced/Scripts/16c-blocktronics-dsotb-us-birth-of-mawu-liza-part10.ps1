@@ -13,10 +13,28 @@
 # SAUCE Dimensions: 80x466
 # SAUCE Font: IBM VGA
 # SAUCE Comments: Nana Buluku created the universe. In addition, she gave birth to |  twins which which were to rule the world after she retired. Li | za was bestowed the powers of the day and being a god of war, he | at and strength. Due to a fiery nature he lived in the sun itsel | f. His sister and wife, Mawu, was his opposite. She was bestowe | d the wisdom, peace & grace of night. She was the goddess of fer | tility, joy and rest. As was her nature she lived in the moon. A | nd thus, Mawu Lisa, the two divine entities, ruled the world.
-# Lines: 436-465
+# Lines: 420-466
 # Columns: 1-80
 
 Write-Host '
+[37m               ▀▀▄[0;1;37m▄▄[0m     ▄[1m▄▄[0;1;33;47m▄▄▄██▀[0;33m▀ [0;1;33;47m▓[0;1;37;40m█[0m▐[1;33;47m█[0;33m▌[0;37m█[0;1;33;47m█[0;1;33;43m▒[0;1;33;47m▐[0;33m▄▀[0;1;33;43m░░[0m█▀▀
+                    ▀▀[1m▀███▀[0m▀▀▀[33m  [0;37m▄▄[0;1;37m███[0m▄[1;33;47m█▓[0;1;37;40m▒[0m▐[1;33;47m█[0m▐[33m█[0;1;33;47m██[0;33m▀▄       [0;1;33m▒▒[0m
+                           ▄▄[1;33;47m░[0m▀[1m▀▀▄▄█▄▐[0;1;33;47m█[0m▌[1m▓[0m▐[1m█[0;33m▐ █[0;1;33;47m███[0;33m█[0;1;37m▄▄[0m      [1;33m░░[0m
+       [1;33m▄[0m              [1m▀▀[0;33m [0;1;37m▀▀▀[0;1;33;47m▀▀▀▀█[0;1;37;40m▄▄▀[0;1;33;47m▀░[0;1;37;40m▀[0;1;33;40m▌[0;1;37;40m█[0m▄[1;33;47m▄[0;1;37;40m█[0;33m█▄▀█[0;1;37m██[0;1;33;47m██░[0m
+         [1;33m■[0m                  ▄[1m▄▀▀▀▀█[0;1;33;47m░[0m▀[33m [0;1;33m▐[0;1;37m▀█[0;1;33;47m▒▓██▄[0;33m▄ [0;37m█[0;1;33;47m▌[0m [1;33;47m██▄[0m▄
+                                 ▀[1;33m▌[0;33m  [0;37m▀[0;1;33m▐[0;33m  [0;37m▀[0;1;33;47m▒▓▐[0;33m [0;1;33;47m▀[0;33m▌▄▀[0;1;37m██[0m▄▀[1;33;47m▀░[0m    [1;33m░░[0m
+                                      [1;33m▐    [0;1;37m█[0;1;33;47m░░[0;33m [0;37m█[0;1;33;47m▀▄[0;33m▄[0;37m▀▀█[0;1;33;47m▀▀▄▄[0m▄
+                                  [1;33m░[0;33m        [0;1;33m▓[0m▀▐█[33m [0;37m▀█[0;1;37m█[0;33m▄[0;1;37m▄[0;33m▄▄[0;1;33m▓[0m▀[1m▀▀▀[0m  [1m▄[0m
+                                           [1;33m▒[0;33m [0;37m▀[0;1;33;47m░[0m▌[1;33m▌[0m [1m▀▌[0;33m▀[0;1;37m▀▀[0;1;33m▓[0;1;37m▀[0m▀
+                                           ░  ▐        [1;33m▒[0m     [1;33m░[0m
+                                  [1;33m▌[0m   [1;33m▐[0m
+                      [1;33m░░[0m                   [1;33m░[0m    [1;33m▌[0m      [1;33m░[0m
+                                           [1;33m░[0m    [1;33m▌[0m
+                  [1;33m░░[0m                                   [1;33m░[0m
+                                                       [1;33m░[0m
+                [1;33m░░[0m                [1;33m■[0m
+
+
                                                           [1;33m░░[0m
 
                                                               [1;33m░░[0m

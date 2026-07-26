@@ -1,5 +1,5 @@
 ﻿# Converted from: 2STONED-MISTLETOE.ANS
-# Source encoding: cp437
+# Source encoding: CP437
 # Source URL: https://16colo.rs/pack/mist1223/raw/2STONED-MISTLETOE.ANS
 # Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
 # Source SHA-256: 1156df85d891a4a1df3d5c64aea898fe57798dd6b209e42b292c47c004d735b7

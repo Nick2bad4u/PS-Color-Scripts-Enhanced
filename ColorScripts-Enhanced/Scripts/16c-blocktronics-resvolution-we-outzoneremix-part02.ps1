@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-outzoneRemix.ans by Enzo + Capsone (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 30-74
+# Lines: 29-74
 # Columns: 1-80
 
 Write-Host '

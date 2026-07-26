@@ -5,7 +5,7 @@
 # Source SHA-256: f394118c219e04638f4c1fe309ac8dc849da507a46b3e3dcc19ca53baa2cd832
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us_drinkup.ans by Warpus + Pinguino (lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: 8p wed
 # SAUCE Author: pinguino and warpus
 # SAUCE Group: lazarus

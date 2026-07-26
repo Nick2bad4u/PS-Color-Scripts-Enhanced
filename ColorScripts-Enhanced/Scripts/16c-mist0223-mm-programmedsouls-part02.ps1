@@ -5,7 +5,7 @@
 # Source SHA-256: ea9a215648fdeedc668d470e169538abff980165bf7d3f27c950da4a0d403137
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-PROGRAMMEDSOULS.ANS by MavenMob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: programmed souls
 # SAUCE Author: MavenMob
 # SAUCE Group: Mistigris

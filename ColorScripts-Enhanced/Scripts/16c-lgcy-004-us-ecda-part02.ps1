@@ -5,7 +5,7 @@
 # Source SHA-256: 2dbc0c54b84effa71e13f971df3858da7bf6c4202c32cbb5689a049f6fe93ffc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-ECDA.ans by Jj + Access Denied (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at manually reviewed compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Ecco/Ex'pression College
 # SAUCE Author: KF/jj (& AccessD)
 # SAUCE Group: Legacy Krew

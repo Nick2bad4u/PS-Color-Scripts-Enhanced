@@ -1,11 +1,11 @@
 ﻿# Converted from: DARMAN_ALMIGHTY-RAF_HAWKER-HURRICANE.ANS
-# Source encoding: cp437
+# Source encoding: CP437
 # Source URL: https://16colo.rs/pack/mist0624/raw/DARMAN_ALMIGHTY-RAF_HAWKER-HURRICANE.ANS
 # Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
 # Source SHA-256: 403cec42eed2dc95839ceeef784b50527f84cbf1585fb69dc22e342c72dca179
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Hawker Hurricane by Darkman Almighty of Mistigris (2024). Archived by 16colo.rs.
-# Source Modification: Decoded from CP437, terminal-emulated at the declared canvas width, and split into contiguous row segments without scaling, reflow, cropping, or background-space stripping.
+# Source Attribution: DARMAN_ALMIGHTY-RAF_HAWKER-HURRICANE.ANS by Darkman Almighty (Mistigris); released in mist0624 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Hawker Hurricane
 # SAUCE Author: Darkman Almighty
 # SAUCE Group: Mistigris

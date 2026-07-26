@@ -47,9 +47,9 @@ Write-Host '
 [1;36m█████████▀▄▀▄▀▄▄ [0;1;31m ███████████ [0;33m███████████▄▀▄ ███▄█▀▄▀▄▀▄▀ ▄ ████████[0;1;36m▄▀▄▀▀▀▄▄▀▄██[0m
 [1;36m▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▀ ▄[0;1;31m▀████████ [0;33m███████████▀▄▀ █████▄▀▄▀▄▀▄▀▄ █████████[0;1;36m   ▀▄▀▄ ▄███[0m
 [1;36m▄▀▄▀▄▀▄▀▄▄▄▀▄▀▄▀▀▄▀▄ [0;1;31m▀▀▀▀▀▀[0;33m▄███████████▄▀▄ ▄▀▄▀▄▀▄▀▄▀▄▀▄▀ ██████████[0;1;36m  ▄▀▄▀▄▀▄▄██[0m
+
 [1;33meverytim that asshole todd tells me to be nice to my mother i think of the[0m
 [1;33mbestest seen in the whole wide world in movies from termentator 2 where jon[0m
 [1;33mkonna tells todd (the asshole) that she is not her mother TODD![0m
 
-[1;33mansi by ronald j[0m
-[1;33m→   [0m'
+[1;33mansi by ronald j[0m'

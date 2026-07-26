@@ -12,7 +12,7 @@
 # SAUCE Date: 20151207
 # SAUCE Dimensions: 80x86
 # SAUCE Font: IBM VGA
-# Lines: 41-86
+# Lines: 40-86
 # Columns: 1-80
 
 Write-Host '

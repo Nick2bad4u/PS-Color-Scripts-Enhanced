@@ -12,10 +12,29 @@
 # SAUCE Date: 20140820
 # SAUCE Dimensions: 80x505
 # SAUCE Font: IBM VGA
-# Lines: 388-428
+# Lines: 370-415
 # Columns: 1-80
 
 Write-Host '
+                  [1;38;2;203;134;65m [0;30;47m [0;1;38;2;203;134;65;47m░▒▓[0;1;38;2;203;134;65;40m████████[0m [1;30m████▓▓▌[0m
+                   [1;38;2;203;134;65m [0;30;47m [0;1;38;2;203;134;65;47m░▒▓[0;1;38;2;203;134;65;40m██████▀▀[0;1;30;40m▄▀█▓▓▌[0m  [36mIt was the priest, however, who[0m
+                    [1;38;2;203;134;65m [0;30;47m [0;1;38;2;203;134;65;47m░▒▓[0;1;38;2;203;134;65;40m▀▀[0;1;30;40m▄▄▄██▌▐█▓▓[0m  [36msuggested the most elegant solution. They[0m
+                     [1;38;2;203;134;65m [0;1;30m▄[0;30;47m▀[0;1;30;47m ░▒[0;1;30;40m█████▌▐█▓▌[0m [36mwould simply have to be remarried as soon[0m
+                      [1;38;2;203;134;65m [0;1;30m▀[0;1;30;47m▄ ░▒▓[0;1;30;40m████[0m [1;30m█▓▌[0m [36mas possible, and he would be happy to do[0m
+                         [1;30m▀[0;1;30;47m▄ ░▓[0;1;30;40m███▄▀▓▓[0m  [36mthe honour himself at the church alter at[0m
+                           [1;30m█[0;1;30;47m ░▓[0;1;30;40m███▄▀▀▀▄[0m  [36mthe base of the great clock tower.[0m
+                            [1;30m█[0;1;30;47m ░▓[0;1;30;40m███▄[0m▀█▄[1;30m▀▄[0m
+                          ▄  [1;30m█[0;1;30;47m ░▒[0;1;30;40m████▄[0m █  ▄  [36mThe clock maker at first resisted[0m
+                        [37m▄▀  [0;1;30m▌▐[0;1;30;47m▌░▓[0;1;30;40m███▀▀▀▄▀▓▄[0m▀[1;30m [0m     [1;38;2;255;128;64m  [0;1;30m▄▄[0m [36m the idea, believing it[0m
+                      [37m▄▀[0;1;30m [0;1;38;2;203;134;65m [0;1;30m▄▓▓[0;38;2;193;130;66m [0;1;30m█[0;1;30;47m ░[0;1;30;40m▀[0;30;47m▀▀   ▀[0;1;30;40m▀▄▀▓▄▄▄▄▀▀▀▀[0m    [36mwould imply that his[0m
+                     [1;30m▄▄▄▄▓▓▓▓[0m [1;30;47m▓▌[0;1;30;40m [0;30;47m [0;1;37;47m▄▓░[0;30;47m    [0;37;40m [0;1;30;40m■[0;1;38;2;255;128;64;40m [0;38;2;193;130;66m   [0m     [1;30m▄▄▀[0m  [36mwife was not the woman[0m
+          [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;38;2;193;130;66m  [0;37m  [0;1;30;47m▒[0;1;30;40m▌[0;30;47m▌ [0;1;37;47m█░[0;30;47m    ▐[0;1;30;40m█▄[0m▀▄[1;38;2;255;128;64m [0;38;2;193;130;66m  [0;1;38;2;255;128;64m [0;1;30m▄▄▀[0m  [36mhe had married; but at the[0m
+                         [38;2;193;130;66m  [0;37m  [0;38;2;193;130;66m [0;1;30;47m▓[0;1;30;40m▀[0;38;2;193;130;66m [0;30;47m [0;1;37;47m▓▀[0;30;47m   ▄[0;1;30;40m▄███▄▄▄▀▀[0m  [36murging of those around him,[0m
+                        [38;2;193;130;66m  [0;37m [0;38;2;193;130;66m [0;37m▄▀[0;1;38;2;255;128;64m [0;38;2;193;130;66m  [0;1;30m▄[0;30;47m▄▄[0;1;30;40m▄▄▄███▀▀▀[0m  [36min order to put this minor[0m
+                       [38;2;193;130;66m  [0;1;38;2;255;128;64m [0m▄▀[1;38;2;255;128;64m [0;38;2;193;130;66m [0;1;30m▄▄█████▀▀▀[0m  [36mcontroversy to rest, and despite his[0m
+                    [1;30m ▄▄▄▄▄▄██▀▀▀▀▀[0m   [36mown misgivings, he finally agreed. They[0m
+           [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     [36m would be remarried at the end of the[0;37m [0;36mmonth.[0m
+
 [36mThe priest was invaluable at that time. He took control of all matters[0m
 [36mpertaining to the wedding, from the details of the ceremony to the organization[0m
 [36mof the public celebration afterwards. He managed everything. His hand was seen[0m
@@ -42,18 +61,4 @@ Write-Host '
 
 [36m"So therefore let this marriage be a symbol of all we are capable of, and all we[0m
 [36mhope."[0m
-
-[36mAfter the wedding vows were spoken, the priest led the clock maker and his wife[0m
-[36mup the stairwell leading to the top of the clock tower, so that the couple could[0m
-[36mbe seen on the balcony by the assembled crowd below. It was a fitting spot for[0m
-[36mthe completion of the ceremony, the priest had argued, with the clock maker[0m
-[36mstanding next to his greatest works in view of everyone. And at that moment, the[0m
-[36mchurch bells would ring in celebration.[0m
-
-[36mAt the top of the tower, behind the four great clock faces that displayed the[0m
-[36mtime in each direction, was the room that stored the clockwork machinery the[0m
-[36mclock maker had designed years ago. A large pendulum swung to one side, while[0m
-[36man intricate web of gears, weights, and springs clicked and clacked with each[0m
-[36mpassing second. Above it all, accessible by an old ladder that led to a rickety[0m
-[36mplatform, hung the two great bronze cast bells of the church tower.[0m
 '

@@ -12,7 +12,7 @@
 # SAUCE Date: 20211017
 # SAUCE Dimensions: 80x100
 # SAUCE Font: IBM VGA
-# Lines: 50-98
+# Lines: 50-99
 # Columns: 1-80
 
 Write-Host '
@@ -64,4 +64,5 @@ Write-Host '
 
                              [1;30mtainted[0m[blocktronics]
 [1;30m--------------------------------------------------------------------------------[0m
+
            [1;30mgreets to filth, tcf and whazzit - i stole your styles =)[0m'

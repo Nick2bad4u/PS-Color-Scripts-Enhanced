@@ -5,14 +5,14 @@
 # Source SHA-256: 7408e1139a7c832313206928ce9960b8818b06c08afc674a76e3f20a5f096594
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-HH23.ANS by Toon Goon (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Happy Halloween 2023
 # SAUCE Author: Toon Goon
 # SAUCE Group: FiRE
 # SAUCE Date: 20231022
 # SAUCE Dimensions: 80x58
 # SAUCE Font: IBM VGA
-# Lines: 1-29
+# Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
@@ -41,7 +41,5 @@ Write-Host '
 [1;31;41m▄[0m  [34m▄[0;37m [0;34m▄[0;31m  ██[0;1;33m█[0;1;37;43m███[0;1;33;43m█[0;1;33;40m███████ [0;34m███[0m         [1;30m▀▀▄█[0m                       [34m▀▄[0;1;33m▀██████[0;1;33;43m [0;1;33;40m██[0;1;31;41m▄[0;31m█[0m
 [1;31;41m▀[0m  [34m█[0;37m [0;1;34;44m▒[0;31m  ███[0;1;33m█[0;1;37;43m██[0;1;33;40m████████ ▄[0;34m██▄█[0m           [1;30m▀▀▀ ▄▄▄[0m                   [34m▄ [0;1;33m▀██[0;1;33;43m█ [0;1;33;40m█[0;31m█[0;1;31;41m▀▀[0m [1;30m▄▀▄[0m
 [31m█  [0;1;30m▀▀▀[0;31m  ███[0;1;33;41m▀[0;1;33;40m████████████▄[0;34m▀███[0;1;33m [0;34m▄[0m                                      [33m▀▀[0;1;33m█[0;1;33;41m▀[0;1;31;41m▀[0;31m▀[0;1;30m▄▀ ▄[0m
-          [31m▀▀[0;1;33;43m█[0;1;33;41m██[0;1;33;40m██████████▄[0;34m █▀█▓▄[0m                                      [34m▀▀ ▄[0;1;30m▀ ▄▀▄[0;1;33m▀[0m
-[1;33;43m█[0;1;33;41m███[0;1;33;40m████████▄█ [0;34m██▀█▄[0m                                 [34m▄▄▄[0m       [1;30m▀▀█[0m             [1;33m▀[0m
-[1;33m▀▀███████▀▀▀▀▄▄▀▄[0;1;33;44m▄[0;34m▀█▄▄[0m                                 [34m▀▀[0m      [1;30m▄[0m   [34m▄ █▄[0m        [1;33m▄[0m
-[1;33m██████▀[0;32m▄▀▀▀█[0;1;32m▄[0;32m▄[0;1;33m▀▀███▄▄[0;34m▀[0m                     [1;33m▄[0m              [1;30m▀████[0m   [34m▄ ▄▄[0m       [31m██[0;1;33;41m▀[0m'
+          [31m▀▀[0;1;33;43m█[0;1;33;41m██[0;1;33;40m██████████▄[0;34m █▀█▓▄[0m                                      [34m▀▀ ▄[0;1;30m▀ ▄▀▄█[0m
+             [1;33m▀[0;1;33;43m█[0;1;33;41m███[0;1;33;40m████████▄█ [0;34m██▀█▄[0m                                 [34m▄▄▄[0m       [1;30m▀▀█[0m'

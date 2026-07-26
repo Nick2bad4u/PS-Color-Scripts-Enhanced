@@ -1,18 +1,16 @@
 ﻿# Converted from: LDA-TGH.ANS
-# Source encoding: cp437
+# Source encoding: CP437
 # Source URL: https://16colo.rs/pack/mist0624/raw/LDA-TGH.ANS
 # Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
 # Source SHA-256: c5fb097ce434a17e36c5c1ee66d8fb43eda8c04a02b76ac2e4507c12f60899d7
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: The Green Herring by LDA of Mistigris (2024). Archived by 16colo.rs.
-# Source Modification: Decoded from CP437 and terminal-emulated at the declared canvas width without scaling, reflow, cropping, or background-space stripping.
+# Source Attribution: LDA-TGH.ANS by LDA (Mistigris); released in mist0624 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: The Green Herring
 # SAUCE Author: LDA
 # SAUCE Group: Mistigris
 # SAUCE Date: 20240624
 # SAUCE Dimensions: 80x25
-
-
 # SAUCE Font: IBM EGA
 # SAUCE Comments: Did you know that ZZT is free on Epic Games? I didn't.
 # Lines: 1-25

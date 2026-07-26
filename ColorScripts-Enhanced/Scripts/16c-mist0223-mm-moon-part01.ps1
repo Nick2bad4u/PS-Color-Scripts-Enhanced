@@ -5,7 +5,7 @@
 # Source SHA-256: 51e85de847ace5ed9a0862c02415776bbcb55f4e893b15f130d4e5acd15131cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-MOON.ANS by Mavenmob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Moon
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris

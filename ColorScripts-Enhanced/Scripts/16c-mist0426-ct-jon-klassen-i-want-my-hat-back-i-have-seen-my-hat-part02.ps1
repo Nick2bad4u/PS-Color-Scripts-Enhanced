@@ -5,7 +5,7 @@
 # Source SHA-256: 1a6cf5dc8a275557cb8f4dc73afcc05e0cee5e859d55d395ecc12c4f22be1ed2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-JON_KLASSEN-I_WANT_MY_HAT_BACK-I HAVE SEEN MY HAT.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: I Want My Hat Back
 # SAUCE Author: Cthulu
 # SAUCE Group: Mistigris

@@ -5,7 +5,7 @@
 # Source SHA-256: ac33d3308c7b0b3844041139999130556f25e8fa8b84ca7c977533936efba689
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N-RBBS.ANS by nail (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: rbbs
 # SAUCE Author: nail
 # SAUCE Group: fire

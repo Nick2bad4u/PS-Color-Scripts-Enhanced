@@ -4,8 +4,8 @@
 # Source Revision: archive-sha256:92dc53c0e5f4d9f8253eb19e90c60f29e746ef99f68b94abfe63fcff5d853870
 # Source SHA-256: 4990e101f59167407d03c26e321ccc77a7ee0ab32af00862a2ebd3885379db7d
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wpz-asgd.ans by pdz + webpige0; released in sac-32 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Attribution: wpz-asgd.ans by Pdz + Webpige0 (sac-32); released in sac-32 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # Lines: 1-26
 # Columns: 1-80
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 3b09ac14b17e7e2298acc6f468056de1b880bfd207c139adb77eef079969e58a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PICROTOXIN-BOTS.ANS by aleyna (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: bots
 # SAUCE Author: aleyna
 # SAUCE Group: Mistigris

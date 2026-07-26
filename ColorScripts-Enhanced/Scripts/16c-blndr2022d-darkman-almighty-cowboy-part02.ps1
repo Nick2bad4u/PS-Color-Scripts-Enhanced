@@ -5,7 +5,7 @@
 # Source SHA-256: b40f9bd6558de7e45124e18ce4e7b79eca874637cd6d7bb549a766d2ba30c4d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DARKMAN_ALMIGHTY-COWBOY.ANS by Darkman Almighty (Mistigris); released in blndr2022d and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: VR Cowboy
 # SAUCE Author: Darkman Almighty
 # SAUCE Group: Mistigris

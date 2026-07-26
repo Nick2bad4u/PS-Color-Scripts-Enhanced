@@ -13,10 +13,11 @@
 # SAUCE Dimensions: 80x349
 # SAUCE Font: IBM VGA
 # SAUCE Comments: For the cap.
-# Lines: 51-100
+# Lines: 50-99
 # Columns: 1-80
 
 Write-Host '
+[1;30m The dizziness and sensation of fainting became so strong at times that I could[0m
 [1;30mno longer hold myself erect, and had to lie down on a sofa. My surroundings had[0m
 [1;30m now transformed themselves in more [0mterrifying[1;30m ways. Everything in the room spun[0m
 [1;30m   around, and the familiar objects and pieces of furniture assumed [0;35m░░[0;1;30motesque,[0m
@@ -65,5 +66,4 @@ Write-Host '
                     [35m░░[0m                              [31m░░[0m
 
 [37m    [0;31m░░[0m                              [31m░░[0m                              [31m░░[0m
-
 '

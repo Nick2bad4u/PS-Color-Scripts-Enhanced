@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-123.ans by Enzo + Abstrakt (27inch08); released in 27inch08 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-38
+# Lines: 1-39
 # Columns: 1-80
 
 Write-Host '
@@ -46,4 +46,5 @@ Write-Host '
 [32m███▒[0;37m [0;33m▌  █ [0;32m█[0;1;32;42m▓▓[0;32m██████[0;1;32;42m▄[0;32m█[0;1;32;42m [0;32m▄[0;1;32;42m  [0;32m██████▀[0;1;36m▄[0;32m▄█▀██[0;1;33;42m▒▀[0;32m█▒[0;37m   [0;32m▓▓[0;37m    [0;1;32;42m▒[0;32m██████[0;1;32;42m▄▀[0;32m█▀█▄█[0;1;33;42m▄[0;32m█[0;1;33;42m    [0;32m█[0;1;33m███[0;32m██[0;1;32;42m▄█▀[0m
 [32m███[0;37m  [0;33m  ▌ [0;32m█[0;1;32;42m▒▒[0;32m█████[0;1;32;42m▄█[0;32m▀▄█████[0;1;32;42m▄[0;32m█[0;1;32;42m▀▀▄[0;32m▄▀▀▀▄[0;1;33;42m░ [0;32m██  [0;37m  [0;32m██[0;37m   [0;32m▒[0;1;32;42m░[0;32m██████[0;1;32;42m██[0;32m▀  [0;1;33;42m▄█[0;32m█████[0;1;33;42m  [0;32m███[0;1;32;42m▄█▀[0;32m▀▀▄[0m
 [1;30;42m░░[0;32m [0m     [32m▒[0;1;32;42m░[0;32m██████[0;1;32;42m ▀[0;32m ▒█████[0;1;32;42m█▀[0;32m▀[0;1;36m▄[0;32m▄▀███████▒    [0;1;32m▒▒[0;32m   ▒████████[0;1;32;42m▀▀[0;32m  █[0;1;33;42m▀[0;32m████████[0;1;32;42m▀[0;32m▀▀▀   ▒[0;1;30;42m░[0m
+
 [32m_[0;37m [0;35muno [0;1;31mdois [0;31mthree[0;37m [0;36m* 2004[0m               [32mthis has been an abstrenzo ansi c[0;36mO[0;32mmb[0;36mOOOO[0m'

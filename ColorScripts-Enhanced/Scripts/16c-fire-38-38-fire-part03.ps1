@@ -5,7 +5,7 @@
 # Source SHA-256: 6cbe71fbc9752750037097d322aea863c3783e1aebda9313b37bc7aa4be14841
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: #38_FIRE.ANS by abstrakt (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: fire #38 members
 # SAUCE Author: abstrakt
 # SAUCE Group: fire

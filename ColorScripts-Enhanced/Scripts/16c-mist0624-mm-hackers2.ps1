@@ -1,20 +1,18 @@
 ﻿# Converted from: MM-HACKERS2.ANS
-# Source encoding: cp437
+# Source encoding: CP437
 # Source URL: https://16colo.rs/pack/mist0624/raw/MM-HACKERS2.ANS
 # Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
 # Source SHA-256: f25d989d171ca8884df632f9dc3fbb223195f2b61bbf76a38e85333a89d7debc
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Computer Girlfriend by Mavenmob of Mistigris (2024). Archived by 16colo.rs.
-# Source Modification: Decoded from CP437 and terminal-emulated at the declared canvas width without scaling, reflow, cropping, or background-space stripping.
+# Source Attribution: MM-HACKERS2.ANS by Mavenmob (Mistigris); released in mist0624 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Computer Girlfriend
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris
 # SAUCE Date: 20240408
 # SAUCE Dimensions: 100x25
-
-
 # SAUCE Font: IBM VGA
-# Lines: 1-23
+# Lines: 1-24
 # Columns: 1-100
 
 Write-Host '
@@ -39,4 +37,5 @@ Write-Host '
 [30m█████████████████████[0;31m▀███[0;1;31;47m▓[0;1;31;41m░[0;1;37;41m██[0;107m/[0;1m█[0;1;101m▀[0;31m█[0;30m████████████│[0;37m [0;31m▀█[0;1;37;101m▀[0;1;37;107m▀[0;1m█[0;1;107m▀[0;1m█████[0;1;41m▀▀[0;1;40m██████████████████████████[0;1;41m▀[0;31m██[0;1;37m█[0;1;37;41m██[0;31;107m│[0;1;31;41m░[0;1;37;41m [0m   [30m██[0m
 [30m█████████████████████[0;31m░░[0;30;41m:[0;31;40m█[0;1;31;41m░░▐[0;1;37;41m██[0;31;107m│[0;31m█[0;30m████████████████[0;31m▀██[0;1;37;41m▀▀[0;35;41m▀[0;1;31;40m▀[0;31m▀▀▀[0;1;31;41m░[0;31m█[0;1;37m█████████████████████████[0;1;37;41m▌[0;31m██[0;1;37;41m███▀ [0;31m██[0;37m   [0;30m██[0m
 [30m██████████████████████[0;30;41m▌//[0;31;40m██[0;1;31;41m░[0;1;37;41m▀▀ [0;30;41m▓▓▓[0;30;40m████████████████[0;31;40m│█[0;1;31;40m███[0;31m▄▄█[0;1;31;41m░[0;1;37;41m▄[0;107m////[0;1m███████████████████[0;107m/[0;31;107m│[0;1;41m [0;31m█▀▀███[0;30;41m▓▓▓[0;37;40m   [0;30;40m██[0m
+
 [37;40m   [0;30;41m▄▐▐ This is our world now.[0;1;37;41m [0;41mThe world of the electron and the switch:[0;1;41m the beauty of the baud[0;30;41m▄▐▄[0m'

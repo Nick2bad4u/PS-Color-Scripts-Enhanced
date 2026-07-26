@@ -5,7 +5,7 @@
 # Source SHA-256: 0f4851387811f4cbe87964db0e62b4078fa1800a97c59e4fcac909fdca970e2e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HRV_Jack_Grin.ans by harvest (Lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: Jack Grin
 # SAUCE Author: harvest
 # SAUCE Group: Lazarus

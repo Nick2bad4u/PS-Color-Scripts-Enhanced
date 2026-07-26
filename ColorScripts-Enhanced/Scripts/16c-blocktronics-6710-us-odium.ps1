@@ -12,7 +12,7 @@
 # SAUCE Date: 20180731
 # SAUCE Dimensions: 80x48
 # SAUCE Font: IBM VGA
-# Lines: 1-50
+# Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
@@ -64,5 +64,4 @@ Write-Host '
 [1;37m    fractal, pathogen-x, reflexion, maxx, pinhead, outkast, solitude,[0m
 [1;37m    spear, mr. sandman, thecrow[0m
 
-[1;37m    oh. and some poser named suicidalsnowman.[0m
-[1;37m→   [0m'
+[1;37m    oh. and some poser named suicidalsnowman.[0m'

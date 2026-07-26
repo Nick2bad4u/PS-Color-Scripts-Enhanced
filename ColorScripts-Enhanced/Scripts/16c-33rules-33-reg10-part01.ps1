@@ -11,7 +11,7 @@
 # SAUCE Group: Eerie & Dieznyik
 # SAUCE Date: 19960601
 # SAUCE Dimensions: 80x25
-# Lines: 1-43
+# Lines: 1-42
 # Columns: 1-80
 
 Write-Host '
@@ -55,5 +55,4 @@ Write-Host '
  █▌     ▐▌
  ▐▌     ▐▌
  ▐▌     ▐▌
- ▐▀     █▌
-  █     █▌[0m'
+ ▐▀     █▌[0m'

@@ -13,7 +13,7 @@
 # SAUCE Dimensions: 80x466
 # SAUCE Font: IBM VGA
 # SAUCE Comments: Nana Buluku created the universe. In addition, she gave birth to |  twins which which were to rule the world after she retired. Li | za was bestowed the powers of the day and being a god of war, he | at and strength. Due to a fiery nature he lived in the sun itsel | f. His sister and wife, Mawu, was his opposite. She was bestowe | d the wisdom, peace & grace of night. She was the goddess of fer | tility, joy and rest. As was her nature she lived in the moon. A | nd thus, Mawu Lisa, the two divine entities, ruled the world.
-# Lines: 1-48
+# Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
@@ -62,5 +62,4 @@ Write-Host '
                   [1;36m▀   ▀ ▀ ▀ ▀   ▀  ▀▀[0;1;30m   ▀ ▀ ▀ ▀ ▀▀▀   [0;1;33m▀▀ ▀ ▀▀▀ ▀ ▀[0m
            [35m░░░                                                                 ░[0m
 [37m           [0;35m░░░                                                        ░░[0m
-
 '

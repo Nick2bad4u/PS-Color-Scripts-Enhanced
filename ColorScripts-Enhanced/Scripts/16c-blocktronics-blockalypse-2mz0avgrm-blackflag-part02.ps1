@@ -9,10 +9,11 @@
 # SAUCE Date: 20140228
 # SAUCE Dimensions: 80x914
 # SAUCE Font: IBM VGA
-# Lines: 51-99
+# Lines: 50-99
 # Columns: 1-80
 
 Write-Host '
+[1;34m    [0m10/25/13 - background behind enzo''s background ... lettering sigs in the
                middle of the piece.... sleep... sweet sweet sleep... :)matt
                [1;31mwho knows what me and enzo did... stuffs... lots of stuffs...[0m
                [1;31mfor 4 hours... buya[0m

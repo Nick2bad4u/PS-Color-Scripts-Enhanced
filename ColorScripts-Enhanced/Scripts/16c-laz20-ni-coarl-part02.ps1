@@ -5,7 +5,7 @@
 # Source SHA-256: e93f95362466fdd4bb2126ebf2a864bc9934747ea1c95b6c7f6d9166b58fbb4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-COARL.ANS by Nitron (Lazarus); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: u/ComeOnArlene Portrait
 # SAUCE Author: Nitron
 # SAUCE Group: Lazarus

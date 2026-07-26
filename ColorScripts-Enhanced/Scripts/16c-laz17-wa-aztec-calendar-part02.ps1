@@ -5,7 +5,7 @@
 # Source SHA-256: c3f9a072207eded327a10c1b243dbd67ed5530ed404fff600b3ee6ac60bc996f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-aztec-calendar.ans by warpus (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: THE LAZARUS AZTEC CALENDAR
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS

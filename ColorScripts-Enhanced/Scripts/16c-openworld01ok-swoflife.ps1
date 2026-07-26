@@ -4,8 +4,8 @@
 # Source Revision: archive-sha256:0bbffa67a24aa77245d61809e45ade0bbedb9387ba99f1f1dc6ea49d67fa7e3a
 # Source SHA-256: df7ab60227012206b61e0553073753cdee9bc83509fdac0eb7253e45ab1b6739
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: swoflife.ans by Luxuse (OpenWorld); released in openworld01ok and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, scaling, or background-space stripping; split only into contiguous source-row ranges at manually reviewed composition boundaries when required.
+# Source Attribution: swoflife.ans by Luxuse (openworld01ok); released in openworld01ok and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # Lines: 1-25
 # Columns: 1-80
 

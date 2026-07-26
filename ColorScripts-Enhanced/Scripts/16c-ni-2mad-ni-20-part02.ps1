@@ -5,7 +5,7 @@
 # Source SHA-256: ee191fa2e5907e726b3c580d28a118da07fd7a5e525937787fbd93e45facc998
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: !NI-20.ANS by nitron (ni-2mad); released in ni-2mad and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: 20 For Beers
 # SAUCE Author: nitron
 # SAUCE Date: 20221226

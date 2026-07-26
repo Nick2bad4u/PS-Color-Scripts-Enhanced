@@ -4,8 +4,8 @@
 # Source Revision: archive-sha256:92dc53c0e5f4d9f8253eb19e90c60f29e746ef99f68b94abfe63fcff5d853870
 # Source SHA-256: 77b7d4073c0470fbf2ddb10c305fc5c07c8403084269137fda4d3adba801c03f
 # Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: w0-asdfs.ans by webpige0; released in sac-32 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Attribution: w0-asdfs.ans by Webpige0 (sac-32); released in sac-32 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # Lines: 51-95
 # Columns: 1-80
 

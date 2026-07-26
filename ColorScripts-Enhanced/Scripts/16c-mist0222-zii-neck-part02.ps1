@@ -5,7 +5,7 @@
 # Source SHA-256: ae14aac740ee1c3006eddd3c64d1b54a0b09dea567a3dcb5c510a43281c587bd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-NECK.ANS by Zeus II (Mistigris); released in mist0222 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at manually reviewed compositional transitions.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
 # SAUCE Title: ROUGH NECK
 # SAUCE Author: Zeus II
 # SAUCE Group: Mistigris

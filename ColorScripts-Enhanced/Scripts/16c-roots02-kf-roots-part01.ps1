@@ -6,7 +6,7 @@
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: kf-roots.ans by Kid Frost (roots02); released in roots02 and preserved by 16colors.
 # Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
+# Lines: 1-48
 # Columns: 1-80
 
 Write-Host '
@@ -57,5 +57,4 @@ Write-Host '
  [1;30m│[0;1;33m█████[0;1;33;47m▄[0m█▄[33m  ▒▒███[0;1;31;43m░▒▒[0;33m▄[0;37m▀[0;33m▄[0;37m▐▒▐[0;1;37;47m▒[0;1;37;40m██▄[0m    [33m▒█[0;1;31;43m▄▌[0;33m▄▌  ▄[0;1;31;43m ░▌[0;33m▒[0;1;34m   [0m [1m▄██[0;1;47m▒[0m ▒▌[33m▄[0;37m▀[0;33m▄[0;1;31;43m░▒░░[0;33m█▒▒  [0;37m▄█[0;1;33;47m▄[0;1;33;40m█████[0;1;30;40m│[0m
  [1;30m│[0;1;33m███[0;1;33;47m████▄[0m█▄[33m  ▒▒██[0;1;31;43m░░[0;1;30;43m ░[0;33m▄[0;37m  ▄█[0;1;37;47m▒[0;1;37;40m███▄[0m [33m▒▓[0;1;31;43m▄██▄[0;1;30;43m  [0;33m▄▐[0;1;31;43m▐▄▌[0;33m▓▒[0;1;34m [0;1;37m▄███[0;1;37;47m▒[0m█▄  [33m▄[0;1;30;43m░░ [0;1;31;43m░[0;33m█▒▒  [0;37m▄█[0;1;33;47m▄[0;1;33;40m████[0;1;33;47m█[0;1;33;40m██[0;1;30;40m│[0m
  [1;30m└────────────────────────────────────────────────────────────────────────────┘[0m
-                               [1m.[0;1;30m [0m.[1;30m.[0;1;37ma[0;1;30m [0;1;37mc[0ml[1;30mean [0;1;37ms[0mh[1;30maven [0;1;37mb[0mi[1;30match, [0;1;37ma[0mn[1;30md [0ma[1;30m [0;1;37mn[0me[1;30mw [0;1;37mh[0ma[1;30mir-[0;1;37md[0mo[1;30m![0m [1;30m=)[0m
-'
+                               [1m.[0;1;30m [0m.[1;30m.[0;1;37ma[0;1;30m [0;1;37mc[0ml[1;30mean [0;1;37ms[0mh[1;30maven [0;1;37mb[0mi[1;30match, [0;1;37ma[0mn[1;30md [0ma[1;30m [0;1;37mn[0me[1;30mw [0;1;37mh[0ma[1;30mir-[0;1;37md[0mo[1;30m![0m [1;30m=)[0m'

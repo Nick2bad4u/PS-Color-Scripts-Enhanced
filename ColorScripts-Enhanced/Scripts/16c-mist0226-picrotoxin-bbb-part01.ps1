@@ -12,7 +12,7 @@
 # SAUCE Date: 20260228
 # SAUCE Dimensions: 80x86
 # SAUCE Font: IBM VGA
-# Lines: 1-46
+# Lines: 1-45
 # Columns: 1-80
 
 Write-Host '
@@ -60,5 +60,4 @@ Write-Host '
 [1;34m██████████████████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄███████████████████████████████[0m
 [1;34m████████████████████████████████████████████████████████████████████████████████[0m
 [1;34m████████████████████████████████████████████████████████████████████████████████[0m
-   picrotoxin ────┐────────┘ beer''s yellin'' at bots and bunnies coz why not?[0m
-'
+   picrotoxin ────┐────────┘ beer''s yellin'' at bots and bunnies coz why not?[0m'
