@@ -144,7 +144,7 @@ Get-Help *ColorScript*
 ## Version Information
 
 - **Module Version**: <!-- COLOR_MODULE_VERSION -->`2026.7.20.2250`<!-- /COLOR_MODULE_VERSION --> in the checked-in manifest (the manifest is the source of truth)
-- **Colorscripts**: <!-- COLOR_SCRIPT_COUNT -->12578<!-- /COLOR_SCRIPT_COUNT -->
+- **Colorscripts**: <!-- COLOR_SCRIPT_COUNT -->25121<!-- /COLOR_SCRIPT_COUNT -->
 - **Policy-selected cacheable renderers**: <!-- COLOR_CACHE_TOTAL -->15<!-- /COLOR_CACHE_TOTAL -->
 - **Functions**: 10
 - **PowerShell**: 5.1+ and 7.0+

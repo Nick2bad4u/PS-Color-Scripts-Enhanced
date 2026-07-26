@@ -76,15 +76,13 @@ The native `indyz-kali.utf8.ans` example contains 2,481 SGR sequences across exa
 - Compact audit checkpoint: [AnsiArchiveCurationCheckpoint.json](../ColorScripts-Enhanced/AnsiArchiveCurationCheckpoint.json)
 - Accepted source formats: `.ANS` and `.ICE`
 - Current named import: [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, represented by six contiguous scripts
-- Review status: 1998-2026 review-complete, with every accepted work imported; 1990-1997 still in progress
+- Review status: 1990-2026 review-complete, with every accepted work imported
 
 The archive remains a browsing and preservation service; public availability is not treated as a license. For this project, the maintainer attested on 2026-07-22 that artists, rightsholders, or an explicitly authorized representative granted project-specific permission to redistribute and convert artwork from the 16colors and Roy/SAC sites with attribution. This does not relicense the archive for unrelated uses.
 
 The resumable `npm run ansi:audit -- --source=all` workflow enumerates the canonical pack API and Roy download inventory, caches raw candidates and previews under ignored `temp/`, fingerprints source bytes and rendered terminal cells, rejects monochrome and duotone output, and writes an interactive review sheet. A candidate is imported only after general-audience, artistic-quality, composition, terminal-safety, duplicate, and attribution review. The normal gallery limits are 120 columns and 50 rows per script. Tall art is kept in contiguous source-row order; wide art is split only at coherent panel boundaries and is otherwise rejected. Source blank rows, margins, and background-colored spaces are preserved when they are part of the rendered canvas.
 
-The 1998-2026 review is complete and its accepted works are in the module. Across those 29 archive years, the audit covered 2,212 packs and 23,569 `.ANS` or `.ICE` candidates, accepted 5,782 works, and emitted 9,046 scripts after exact row or panel splitting. The latest completed tranches contributed 2,108 works as 2,404 scripts from 1998 and 1999. The checked-in compact checkpoint records each year's inventory fingerprint and disposition totals, one source/hash entry per imported original work, and exact-source duplicates already represented elsewhere in the gallery.
-
-The older archive is not complete. The current 1990-1997 inventory covers 3,267 packs and 41,360 `.ANS` or `.ICE` candidates; automatic format, color, terminal, and duplicate checks reduced that inventory to 30,929 visual-review candidates, including 603 probable filler candidates that still require visual confirmation. Manual selection and split-boundary review are still in progress, so these figures describe the audit workload rather than a final accepted total. Archive refreshes, API corrections, and normalized duplicate detection can still change them.
+The 1990-2026 review is complete and its accepted works are in the module. Across those 37 archive years, the audit enumerated 5,479 packs and reviewed 64,929 `.ANS` or `.ICE` candidates, accepted 15,244 works, and emitted 21,794 scripts after exact row or panel splitting. The checked-in compact checkpoint records each year's inventory fingerprint and disposition totals, one source/hash entry per imported original work, and exact-source duplicates already represented elsewhere in the gallery.
 
 The API inventory currently reports 5,487 packs but returns 5,479 records. Live refreshes through 2026-07-24 reproduced the same eight-record gap at both 500- and 250-record page sizes. Those unreturned records provide no pack name, year, or file metadata to inspect; the checkpoint retains all three counts explicitly. A completed-year claim therefore means every pack record the canonical API actually returned for that year was audited, not that the project inferred or silently skipped the eight opaque records.
 
@@ -216,7 +214,7 @@ For every new third-party import:
 4. Deduplicate against both source ANSI assets and normalized rendered terminal-cell fingerprints.
 5. Decode traditional DOS/BBS art using its real encoding, usually CP437.
 6. Preserve SAUCE geometry, iCE state, colored spaces, margins, and blank rows; validate terminal dimensions and split only where visual composition remains coherent.
-7. Compare the generated scripts with the raw source using `node ./scripts/Verify-AnsiConversion.mjs --source=<file> --prefix=<script-prefix>`; exact terminal-cell and coordinate coverage must match.
+7. Compare the generated scripts with the raw source using `npm run ansi:verify-conversion -- --source=<file> --prefix=<script-prefix>`; exact terminal-cell and coordinate coverage must match.
 8. Add metadata and run corpus, conversion, rendering, documentation, and packaging tests.
 9. Do not claim that an archive, mirror, or gallery relicensed an individual artist's work.
 

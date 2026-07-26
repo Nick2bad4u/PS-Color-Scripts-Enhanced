@@ -29,7 +29,7 @@ docs/                                # Repository documentation
 - The Node.js version in `.node-version` (currently 25.8.1).
 - npm dependencies installed from `package-lock.json`.
 - Pester 6.0.1 and PSScriptAnalyzer for local PowerShell validation.
-- Microsoft.PowerShell.PlatyPS 1.0.2 when regenerating help.
+- Microsoft.PowerShell.PlatyPS 1.0.3 when regenerating help.
 
 Install dependencies and run the primary gates:
 
@@ -104,8 +104,11 @@ node scripts/Split-AnsiFile.js ./art.ans --auto --dry-run
 npm run ansi:audit -- --source=16colors --pack=mist0624
 npm run ansi:audit:offline -- --cache-dir=./temp/ansi-archive-audit
 npm run ansi:audit:offline -- --year=2016 --decisions=./temp/ansi-archive-audit/decisions.json --exclude-existing-manifest=./temp/ansi-archive-audit/import-manifest.json
-node ./scripts/Verify-AnsiConversion.mjs --source=./art.ans --prefix=16c-example
+npm run ansi:checkpoint:check
+npm run ansi:checkpoint:update
+npm run ansi:verify-conversion -- --source=./art.ans --prefix=16c-example
 node ./scripts/Analyze-ColorScripts.mjs --type=tiny-tail-part --type=dense-split-boundary --type=continuous-split-review
+npm run ansi:gallery-analysis:check
 npm run scripts:check-dupes
 npm run test:conversion
 ```

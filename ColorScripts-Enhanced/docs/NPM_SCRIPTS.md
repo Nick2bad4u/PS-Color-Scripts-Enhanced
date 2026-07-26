@@ -9,7 +9,7 @@
 | `npm run build`           | Build the module, generate release notes, run conversion checks, verify lint/README, and run coverage |
 | `npm run build:skip-help` | Run `scripts/build.ps1 -SkipHelp`                                                                     |
 | `npm run verify`          | Run non-mutating module lint and the gallery README size check                                        |
-| `npm run verify:strict`   | Include tests in strict ScriptAnalyzer validation, then check gallery README size                     |
+| `npm run verify:strict`   | Include tests in strict ScriptAnalyzer validation, check gallery README size, then analyze the complete ANSI gallery |
 | `npm test`                | Run Node ANSI-conversion tests, the custom module harness, and the Pester suite                       |
 | `npm run lint`            | Run the normal PowerShell lint entry point                                                            |
 | `npm run lint:strict`     | Analyze module and tests, treating warnings as errors                                                 |
@@ -18,16 +18,22 @@
 
 ## Build and Documentation
 
-| Command                                            | Purpose                                                                        |
-| -------------------------------------------------- | ------------------------------------------------------------------------------ |
-| `npm run build:help`                               | Synchronize Markdown help metadata and generate culture-specific MAML/HelpInfo |
-| `npm run docs:update-counts`                       | Refresh script, cache-policy, dynamic-policy, and module-version markers       |
-| `npm run markdown:check`                           | Run the repository Markdown link-check wrapper                                 |
-| `npm run readme:check`                             | Check the PowerShell Gallery README size                                       |
-| `npm run readme:check:strict`                      | Apply the strict gallery README size limit                                     |
-| `npm run package:metadata -- --PackagePath <file>` | Normalize a staged NuGet package's README, license, icon, and metadata         |
+| Command                                            | Purpose                                                                                 |
+| -------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `npm run build:help`                               | Synchronize Markdown help and generate MAML plus deterministic Updatable Help packages  |
+| `npm run build:help:check`                         | Rebuild Updatable Help in isolation and fail when checked-in artifacts are stale        |
+| `npm run docs:update-counts`                       | Refresh script, cache-policy, dynamic-policy, and module-version markers                |
+| `npm run markdown:check`                           | Run the repository Markdown link-check wrapper                                          |
+| `npm run readme:check`                             | Check the PowerShell Gallery README size                                                |
+| `npm run readme:check:strict`                      | Apply the strict gallery README size limit                                              |
+| `npm run package:metadata -- --PackagePath <file>` | Normalize a staged NuGet package's README, license, icon, and metadata                  |
 
 The repository does not define a `docs:validate-links` script. Use `npm run markdown:check`.
+
+Updatable Help always generates and validates HelpInfo and ZIP artifacts. CAB
+generation and byte comparison run when `makecab.exe` is available. Other
+platforms preserve the expected checked-in CAB files, remove obsolete
+culture-named CABs, and exclude CAB bytes from the cross-platform comparison.
 
 ## Tests and Coverage
 
@@ -77,8 +83,11 @@ Some linters require separately installed CLIs. The Node-backed commands use the
 | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `npm run ansi:audit -- <args>`              | Run the resumable 16colors and Roy ANSI/ICE archive audit                                                                                                              |
 | `npm run ansi:audit:offline -- <args>`      | Rebuild audit reports using only the existing ignored cache                                                                                                            |
+| `npm run ansi:checkpoint:check`             | Reconcile final archive reports with provenance and fail if the compact checkpoint is stale                                                                            |
+| `npm run ansi:checkpoint:update`            | Reconcile final archive reports and rewrite the compact checkpoint after review                                                                                        |
 | `npm run ansi:gallery-analysis`             | Build review queues for split geometry, authentic blank boundaries, decoding damage, sparse or low-complexity output, color variety, and derivative-source attribution |
-| `node ./scripts/Verify-AnsiConversion.mjs`  | Compare raw ANSI with generated scripts by exact rendered terminal cells and source-coordinate coverage                                                                |
+| `npm run ansi:gallery-analysis:check`       | Fail on unresolved archive-quality findings, stale review exceptions, or malformed analysis state                                                                      |
+| `npm run ansi:verify-conversion -- <args>`  | Compare raw ANSI with generated scripts by exact rendered terminal cells and source-coordinate coverage                                                                |
 | `npm run convert -- <args>`                 | Convert ANSI with `--strip-space-bg` enabled                                                                                                                           |
 | `npm run scripts:convert -- <args>`         | Run the Node ANSI converter                                                                                                                                            |
 | `npm run scripts:convert:ps -- <args>`      | Run the PowerShell converter                                                                                                                                           |
@@ -97,13 +106,20 @@ Pass script arguments after `--`, for example:
 npm run scripts:split -- ./art.ans --auto --dry-run
 node ./scripts/Audit-AnsiArchives.js --source=16colors --pack=mist0624
 node ./scripts/Audit-AnsiArchives.js --offline --cache-dir=./temp/ansi-archive-audit
+node ./scripts/Audit-AnsiArchives.js --offline --year=2016 --decisions=./temp/ansi-archive-audit/decisions.json --exclude-existing-manifest=./temp/ansi-archive-audit/import-manifest.json
 node ./scripts/Analyze-ColorScripts.mjs --type=tiny-tail-part --json=./temp/gallery-analysis/tiny-tails.json
 node ./scripts/Analyze-ColorScripts.mjs --type=mergeable-adjacent-parts --type=avoidable-extra-part
 node ./scripts/Analyze-ColorScripts.mjs --type=dense-split-boundary --type=continuous-split-review
 node ./scripts/Analyze-ColorScripts.mjs --type=leading-blank-run --type=trailing-blank-run
 node ./scripts/Analyze-ColorScripts.mjs --type=mostly-plain-ascii --type=low-structural-complexity
-node ./scripts/Verify-AnsiConversion.mjs --source=./ZII-UBBS.ANS --prefix=16c-mist-30-zii-ubbs
+npm run ansi:verify-conversion -- --source=./ZII-UBBS.ANS --prefix=16c-mist-30-zii-ubbs
 ```
+
+`--exclude-existing-manifest=<path>` is repeatable and is intended for
+rebuilding an already imported tranche. The audit validates every named
+script and hash against checked-in provenance, excludes only those scripts
+from the gallery baseline, and continues to detect unrelated duplicates. Empty,
+repeated, malformed, stale, or hash-mismatched manifests terminate the audit.
 
 Gallery-analysis findings are review signals, not automatic deletion
 decisions. The analyzer reconstructs terminal cells, counts background-colored
