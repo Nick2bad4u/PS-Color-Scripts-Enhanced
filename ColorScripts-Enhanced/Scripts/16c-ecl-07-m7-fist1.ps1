@@ -1,0 +1,35 @@
+﻿# Converted from: M7-FIST1.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/ecl-07/raw/M7-FIST1.ANS
+# Source Revision: archive-sha256:3007ab392a2ea4e107d02b3029b445696a097ac55d389caab2dbfe0944556beb
+# Source SHA-256: 1d1ee3aace898f236299eddd82f5b99a5700a9f6b6b61894e2496f4326f18259
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: M7-FIST1.ANS by magnatop (eclipse); released in ecl-07 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: fag
+# SAUCE Author: magnatop
+# SAUCE Group: eclipse
+# SAUCE Date: 19960915
+# SAUCE Dimensions: 80x18
+# Lines: 1-18
+# Columns: 1-80
+
+Write-Host '
+             [1;44m▓[0;1;40m▄▄▄▄▄▄▄▄[0m  [1m██▀[0m   ▀[1m▀[0;1;44m▓▓[0;1;40m███████▄▄▄▄▄▄▄[0m▄ [1m▄▄▄▄[0m▄         [1m▄▄▄▄▄▄▄▄▄[0;1;33m▄▄▄[0m▄
+[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀     [1m▀▓▓[0;1;47m▀[0;1;44m▓▓[0;1;40m█▄▄▄▄██▄▄▄▄▄▄▄▄[0m▄[1m██████[0m█ [34m▄▄▄[0m          [1;37m█████[0;1;37;47m▀[0;1;37;40m▀██[0m█ [1;33m█[0;1;33;47m▌[0m▌
+[1;44m▓▓[0;1;47m [0m [1;44m▓▓[0;1;40m████[0;1;47m▀[0;1;40m▀▀▀▀▀▀▀▀█▄▄▄▄████[0;1;47m▄[0;1;40m▄▄▄▄▄[0m▄ [1m▐██[0;1;47m▓▓▓▓▓▓[0;1;40m█[0;1;47m▓[0;1;40m█[0m█ [1;34;44m▒██▄[0;34m▀▀▀▀[0m      [1;37m████[0m█ [1m██[0m█ [1;33;47m▓░[0m
+[1;44m▓▓[0;1;47m▌[0m▌[1m▐████[0;1;47m▌[0;1;30;47m▐[0;1;30;40m░░[0m [1;30m░[0m         [1m████[0;1;47m▄[0;1;40m▄▄▄▄▄▄▄████[0;47m█[0;40m [0;1;40m█████[0;1;47m▌[0m▌  [34m▀▀▀▀▀[0;37m  [0;1;37m▄▄▄[0m     [1m▀▀▀▀▀▀▀▀▀[0;30;47m▄[0m
+[1;37;47m█[0;1;37;40m██[0;1;37;47m [0m [1m█████[0;1;47m▀[0m▀[1m▄▄▄▄▄▄[0m  [1m▀▀▀▀████[0;1;47m▌[0m│[1;30m░░[0m        [1m▄████▀▀[0m▀ [1m▄█[0;1;47m▓▓▓▌[0m▌   [1m███[0;1;47m [0m      [1m▄▄▄▄[0;1;33m▄[0;1;37m▄▄[0;1;33m▄▄[0m▄
+[1;47m█[0;1;40m██[0;1;47m▄[0m▄ [1m▀▀██[0;1;47m▀[0;1;40m▀▀[0m▀       [1m█▄▄▄███[0;1;47m▌[0m│       [1m▀▀▀▀▀[0m▀      [1m▐███[0;1;47m▀[0;1;40m▀[0m▀   [1m▐██[0;1;47m▌[0;1;40m▐███[0;1;47m▌[0m▌    [1;47m▓▓▓▓[0;1;33;40m███[0m
+[1;37;47m███[0;1;37;40m██[0;1;37;47m▀[0m▀[1;30m▀[0m    [1;30m░░[0m   [1m▄▄██[0;1;47m▀[0;1;40m▀[0m▀ [1m▀▀█[0;1;47m▌[0m│  [1m▀[0m▀ [1;30m░░[0m     [1;47m▓▓▓[0;1;40m█[0;1;47m▌[0m┐  [1m▀▀[0m▀      [1m█[0;1;47m▓▓░[0m [1m█[0;1;47m▓▓▓░[0m░[30;47m▓[0;37;40m░ ░ [0;1;37;40m▀▀[0;1;33;40m█[0m█▀
+ [1m▀▀▀[0;1;31m███[0;1;37m▀▀▀▀▀█[0m█░[30;47m▓[0;37;40m  [0;1;37;40m▀▀███[0;1;37;47m▄[0;1;37;40m████[0;1;37;47m▌[0m┘   [1m▄▄▄▄█████████[0;1;47m [0m│      [34m░░[0;37m [0;1;37m▄██[0;1;37;47m▀[0m   [1m████[0;1;47m [0m [1m▄▄[0;1;33m▄[0m▄
+            [1m▀[0m▀  [1;30m░░[0m     [1m▐██[0;1;47m▌[0m│                [1m▀▀▀▀▀[0m▀[1m▄▄▄[0m [1m▀▀▀▀▀[0m     [1m████[0;1;47m [0m [1;47m▓▓▓[0;1;33;40m█[0;1;37;47m▌[0m▌
+            [1m▀[0m▀         [1m▐██[0;1;47m▌[0m┘  [1;31m                 [0m [1m▐█████[0;1;47m▄[0;1;40m▄▄[0m         [1m▀[0m▀ [1m▐████[0;1;47m [0m
+            [1;31m▐[0;1;37;47m▌[0m▌         [1m█▀█[0m█                   [1m█████[0;1;47m▓▓▓▓▓▓▓░[0m [34m░░[0m     [1;37m▐████[0;1;37;47m▌[0m▌
+          [1m▄▄████[0m█       [1m█▌▐[0m█[33;47m fistagon ... ░░   [0;1;37;40m█████[0;1;37;47m▀[0;1;37;40m▀▀▀[0m▀       [1m█[0;1;47m▄[0;1;40m▄▄███[0;1;47m [0m
+             [1m▀▀▀████[0;1;47m▄[0;1;40m▄▄▄█▀█[0m█    [1m▄▄▄▄▄▄▄▄▄[0m▄ [1m▄[0m▄  [1m▐████[0;1;47m▄[0;1;40m▄▄[0m▄      [1;47m▓▓▓▓▓░[0m
+                       [1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀               [1m▀▀▀▀▀▀▀▀▀▀[0m▀
+-----
+Hi.  This may not look much like my style.. but I DON''T GIVE A FUCK.
+greetz.. ri, st, lm, mm, smok3y, sd, napalm, chiggidy cheeze, soul mang, uh.
+and a bunch of other people that I just can''t think of off the top of my head.[0m'

@@ -1,0 +1,37 @@
+﻿# Converted from: NO-HEAD1.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/apathy05/raw/NO-HEAD1.ANS
+# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
+# Source SHA-256: 52f0a66eb9b533773c9d367ea47a6a7f77ef79af824e8a08abe7d652f6763ae3
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: NO-HEAD1.ANS by Nosferatu (apathy!); released in apathy05 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: .h. .e. .a. .d. .?.
+# SAUCE Author: Nosferatu
+# SAUCE Group: apathy!
+# SAUCE Date: 19960103
+# SAUCE Dimensions: 80x25
+# Lines: 1-21
+# Columns: 1-80
+
+Write-Host '
+[1m    [0m` you can flick me off as much as you want Hauser, but we''re different.
+             you see, I have what''s called an apposable thumb... ''
+
+           ┌▄[1m▄▄▄▄_▄    ▄─   ─[0m                  [1m─[0m      [1m─▄   _▄ ▄▄▄▄[0m▄┐
+            [1;47m░[0m█[1;47m▀[0m▄                   ▄▓▄           ▄▓▄           ▄[1;47m▀▓▀[0m
+            ██[47m [0;40m██▌▄▄[0m           [40m▄▄█████▌[0m      [40m▄▄██▀██▌[0m      [40m▄▄████[0;1;47m░[0m█
+            [1;31;47m░▄░▄░[0m▌[1;31;47m░▄░▄[0;1;31;40m▄[0m     [1;31;40m▄[0;1;31;47m▒▄▄ ▄░▄░▄[0m▓   [1;31m▄[0;1;31;47m░▄░▄░[0m▀  ▀[1;31;47m░[0m   [1;31;40m▄[0;1;31;47m▄▄░▄▄░▄░▄░[0m
+            [1;31;47m▒[0;1;31;40m████▌[0;1;31;47m▒█[0;1;31;40m███[0;1;31;47m▓[0m   [1;31;40m▄▄▄▄▄ ▐[0;1;31;47m▒[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m██  ██[0;1;31;47m▒[0;1;31;40m█▌▀▀▀▀▀▀▀  ██[0;1;31;47m█[0;1;31;40m█[0;1;31;47m▒[0;1;31;40m█▐[0;1;31;47m▓[0;1;31;40m███[0;1;31;47m▒[0m
+[1;31;40m   [0;35m▄▄▄▄▄▄▄▄[0;1;31m▐[0;1;31;47m▓[0;1;31;40m████▌[0;1;31;47m▓[0;1;31;40m█████▌ ▐█████▌▐[0;1;31;47m▓[0;1;31;40m████▌▐██[0;1;31;47m▓[0;1;31;40m█▌███████▌▐████[0;1;31;47m▓[0;1;31;40m▌▐████[0;1;31;47m▓[0;1;31;40m▌[0;35m▄▄▄▄▄▄▄▄[0m
+[35m  █▀ [0;1;35m▄▄▄▄▄ [0;1;31m▐█████████████ ████▀▀ ▐█████▌█████▌███████▌████▀▀ ▐█████▌ [0;1;35m▄▄▄▄▄ [0;35m▀█[0m
+[35m▀▀▀ [0;1;35m███████ [0;1;31m█████▌███████ █████▄ ▐█████ █████▌███████ █████▄ ▐█████ [0;1;35m███████ [0;35m▀▀▀▀[0m
+[1;34;44m█[0;1;34;40m██ [0;1;35;40m███████▌[0;1;31;40m▐████▌██████▌ ▐█████▌▐████▌ ▐████▌██████▌ ▐█████▌▐████▌[0;1;35;40m▐███████ [0;1;34;40m██[0;1;34;44m██[0m
+[1;34;44m▀▀█[0m [1;35;40m████████ [0;1;31;40m▀▓██▌████▓▀ [0;1;35;40m▄ [0;1;31;40m▀▓████▐██▓▀ [0;1;35;40m▄ [0;1;31;40m▀███▌████▓▀ [0;1;35;40m▄ [0;1;31;40m▀▓████▐██▓▀ [0;1;35;40m████████ [0;1;34;40m█[0;1;34;44m▀▀▀[0m
+[1;34;44m  ░[0m [1;35;45m▀▀[0;1;35;40m███████▄ [0;1;31;40m▀▀▌█▓▀▀ [0;1;35;40m▄███▄ [0;1;31;40m▀▀▓██▀▀ [0;1;35;40m▄███▄ [0;1;31;40m▀▀██▓▀▀ [0;1;35;40m▄███▄ [0;1;31;40m▀▀▓██▀▀ [0;1;35;40m▄███████[0;1;35;45m▀▀[0m [1;34;44m░   [0m
+[30;44m░  [0m [30;45m    [0;1;35;45m░▀▀▀▀[0;1;35;40m█[0;1;35;45m▀[0;1;35;40m█▄[0;35m▄[0;1;35m▄▄▄█████████▄▄▄▄▄█████████▄▄▄▄▄█████████▄▄▄[0;35m▄[0;1;35m▄█[0;1;35;45m▀[0;1;35;40m█[0;1;35;45m▀▀▀▀  ░  [0m [1;35;44m   [0;30;44m░[0m
+                       [35;40m.h.[0m       [35;40m.e.[0m       [35;40m.a.[0m       [35;40m.d.[0m
+
+              [1;30;40mlogo by ` what we need is a pipebomb... '' [0mnos[1;30mferatu[0m
+→SAUCE00Head                               Nosferatu           apathy!
+   19950103S◘[0m'

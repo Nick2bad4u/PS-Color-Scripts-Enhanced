@@ -1,0 +1,40 @@
+﻿# Converted from: PAR-ENT.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/rmrs-14/raw/PAR-ENT.ANS
+# Source Revision: archive-sha256:d4dc94c4a43b86c69b68ecae7df6f65f116ce9e415743dc1a1b1adfbec9a8dbe
+# Source SHA-256: 54a292316fee5ca46e5a1219ebe8b2b95dc3ec16014e98eced59d0df91268cd5
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: PAR-ENT.ANS by Pariah (ACID(remorse1981)); released in rmrs-14 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: Entrophy
+# SAUCE Author: Pariah
+# SAUCE Group: ACID(remorse1981)
+# SAUCE Date: 19970722
+# SAUCE Dimensions: 80x25
+# SAUCE Comments: Very good.. not as detailed as par-doe.ans, but blends nicely. | Objective rating - 8.79
+# Lines: 1-23
+# Columns: 1-80
+
+Write-Host '
+
+              [1;36m            [0m
+   [34m  [0m        [1;36m                      [0m
+[1mDRAWNby [0m- [1;36mpariah   [0m       [1;36m                        [0m [1m          [0;1;36mENTROPHY[0m [1m+o elastic[0m
+[33m                                     [0;1;36m            [0;33m                               [0m
+[33m   [0m             [1;31m______[0;31m__[0;1;31m_________[0;31m__[0m     [1;36m      [0m        [31m`7ç[0;1;31myyy[0;31myy[0m              [33m    [0m
+[31m  [0;33m [0;1;31m   [0m  [31m_,[0;1;31m╥g#8ÑÑ$$$$$$$$$$$$$$$$$$[0;31m$[0;37m [0;31m_,[0;1;31mg@5Ñ$$Ñ5@g[0;31m,_[0;37m  [0;31m_[0;1;31m__[0;31m$[0;1;31m$$$$$[0;31m$____[0;1;31m   [0;31m__[0;1;31m     [0;31m_[0;1;31m [0;33m  [0m
+[33m    [0;1;31m  [0m [31mÇ$[0;1;31m$$$$$$$$$$$$$$$~~[0;31m""$[0;1;31m$$$$$$[0;31my[0;1;31m$$$$$$$$$$$$$$[0;31mb,`7[0;1;31m$$$$$$$$$$$[0;31m$[0;1;31m   $$ [0;31m  [0;1;31m  $ [0;33m  [0m
+[1;36m    [0;36m [0;33m [0;37m [0;31m$[0;1;31m$$$$$~[0;31m`  [0;1;31m $$$$$[0;31m$[0;37m    [0;31m$[0;1;31m$$$$$$$[0;31mP╩ⁿ"[0;1;31m~"ⁿ╩[0;31m7[0;1;31m$$$$$$$[0;31mb[0;37m [0;31m~[0;1;31m$$$$$$$[0;31m~~~~[0;1;31m   [0;31m~~[0;1;31m     [0;31m~[0;1;31m [0;33m  [0m
+[37m [0;1;36m    [0m  [31m$[0;1;31m$$$$$_[0;31m__[0;37m            [0;31m$[0;1;31m$$$$$$[0;31m''[0;37m     [0;31m  [0;37m  [0;31m`$[0;1;31m$$$$$$[0;31m;[0;1;31m $$$$$$$[0m      [31m  [0;37m [0;31m  [0m
+[34m__[0;1;34m__[0;34m__[0;37m [0;31m$[0;1;31m$$$$$ÑÑ[0;31mÑ[0;37m [0;34m_[0;37m  _[0;1;37m____[0m__ [31m$[0;1;31m$$$$$$[0m [34m__[0;1;34m_____[0;34m__[0;37m yy[0;1;37myyyyyyyyyyyyy[0my,  [34m__[0;1;34m___________[0;34m__[0m
+[34m0[0;1;34m0000[0;34m0[0;37m [0;31m$$[0;1;31m$$$$"~[0;31m~[0;34m,[0;1;34m0k[0;34m,[0;37m`[0;1;37m$$$$$[0m$ [31m$$[0;1;31m$$$$$[0m [34m0[0;1;34m0000000[0;34m0[0;37m $[0;1;37m$$$$$$$$$$$$$$$$[0mh,_[34m`"[0;1;34mⁿ╧╩╩╩╩╩╩╩[0;34m╩╩╩[0m
+[34m0[0;1;34m0000[0;34m0[0;37m yy[0;1;37myyy[0my  [34m0[0;1;34m000[0;34m0[0;37m [0;1;37m$$$$$$[0m [34mpp[0;1;34mpppp[0;34mpp0[0;1;34m0000000[0;34m0[0;37m ""[0;1;37m~~~~~"[0m"`7[1m$$$$$$$$$ÑÑ8855555555[0m55
+yy[1myyyyy$$$$$$h[0m,_[34m`[0;1;34m"[0;34m''[0;37m_,[0;1;37m$$$$$$[0m [34m0[0;1;34m00000000000000000000000000[0;34mk,[0;37m`ⁿ[0;1;37m╩7$$$$$$$ [0myy[1myy$$$$$$[0m$
+$[1m$$╨╩╩╩$$$$$$$$$ÑÑÑ$$$$$$$[0m$ [34m0[0;1;34m00000000000000000000000000000[0;34mï@[0;1;34m%ppppg[0;34mgg[0;1;37m [0m$[1m$$╨╩╩╩$$$[0m$
+$[1m$$[0m [34m0[0;1;34m0[0m [1m$$$[0m$"[1m$$$$$$$$$$$$$[0m$$ [1;34m000000000000000000000000000000000000000[0;34m0[0;1;37m [0m$[1m$$ [0;1;34m0[0;34m0[0;1;37m $$$[0m$
+$[1m$$[0;1;36myy[0;1;37myyÑ$$[0m$ [34mpp[0;1;34mpppppppppppp[0;34mpp[0;1;34m000000[0;1;36m00[0;1;34m0000000000000000000000[0;34m"0[0;1;34m0000000[0;34m0[0;1;37m [0m$[1m$Ñyy[0;1;36myy[0;1;37m$$$[0m$
+~~[1m"""""""[0m~~ [34m0[0;1;34m00000000000000000000000000000000000000000y0y[0;34mg[0;1;34m [0;34my[0;1;34m0000000[0;34m0[0;1;37m [0m~"[1m"""""""[0m~~
+[34m00[0;1;34m0000000000000000000000000000000000000000000000000000000000000000000000000000[0;34m00[0m
+[1;30m                                                                                [0m
+[1;30m--------------------------------------------------------------------------------[0m
+[1;30m send all comments/requests to pariah@breaks.for.alienz.org or pariahFAT on irc[0m'

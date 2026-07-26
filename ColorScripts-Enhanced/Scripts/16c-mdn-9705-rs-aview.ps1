@@ -1,0 +1,37 @@
+﻿# Converted from: RS-AVIEW.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/mdn-9705/raw/RS-AVIEW.ANS
+# Source Revision: archive-sha256:42f41174635a4b9e44304d5d0f48b9b5aa0b6be93e48c5ea196226a31ced9fa8
+# Source SHA-256: 0a189a63c0d7282c8bdf4a0bc6e79e6f917c261c31656b218d7f90121a601149
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: RS-AVIEW.ANS by rorshack (Maiden Brazil); released in mdn-9705 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: aifview layout
+# SAUCE Author: rorshack
+# SAUCE Group: Maiden Brazil
+# SAUCE Date: 19970428
+# SAUCE Dimensions: 80x25
+# Lines: 1-20
+# Columns: 1-80
+
+Write-Host '
+[30;47m [0;1;37;40m  Maybe  [0;30;47m  Some    Menu    Here    Maybe    Some    Menu    Here    Maybe    So[0m
+[1;37;40m▄[0;1;35;40m▄▄[0;35m▄▄▄▄▄[0;1;35m▄[0;35m▄▄▄▄[0m          [35m▄▄▄▄▄▄▄▄[0;1;35m▄[0;35m▄▄▄[0;1;35m▄▄[0;35m▄▄[0;1;35m▄[0;35m▄▄[0m          [35m▄▄▄▄▄ [0;1;37mrorshack [0;1;33m([0;1;37mmaiden[0;1;33m/[0;1;37mecho[0;1;33m)[0m
+[1;35m█▀▀▀[0;35m▀[0;1;35m▀[0;35m▀▀▀▀▀▀[0;1;30m  [0;1;37m▄[0;1;33m██▀███▄[0m [1;36m▄▄▄[0;36m▄[0;1;36m▄▄[0;36m▄▄▄▄[0;37m [0;35m▀▀[0;1;35m▀▀[0;35m▀█[0;1;34;45m░[0m  [1;34m▄██▀███▄[0m [36m▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;35m▀[0;1;35m▀[0;35m▀▀▀▀▀███[0;1;35;45m░▓██[0;1;35;47m▓░[0m
+[1;37m█[0;1;36m▀▀▀[0;1;37m▀[0;1;36m▀▀▀[0;36m [0;1;32m█▀▀ [0m [1;33m▀██▄██[0;1;33;43m▀[0;33m▀▌[0;1;32m▄▄[0;32m▄[0;37m  [0;1;36m█▄█[0m [1;32m▓▀▀[0m  [36m█▀▀▀▀[0;37m [0;1;34m▀█████[0;1;34;44m▀[0;34m▀[0;37m [0;1;32m░[0;36m [0;37m  [0;36m▄▄▄▄▄▄▄[0;37m [0;1;32m▓▀▀[0;32m▀[0;37m [0;36m█▄▄█ [0;1;32m▄▄▄[0;32m▄[0;36m █[0m
+[1;36m█[0m [1;32m█▀▀[0m  [1;36m█[0m [1;32m▓[0m   [1;32m [0m  [1;32m [0m    [36m [0m      [1;37m▄▄[0;1;36m▄[0m [1;32m░[0m    [36m█[0;37m [0;1;32m█▀▀[0m  [36m [0m           [1;36;46m▀[0m [1;32m▄▄[0;32m▄[0m   [1;32m░[0m    [36m█[0;37m  [0;36m█[0;37m [0;1;32m▓[0m  [36m  █[0m
+[37m [0;1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀█▄▄▄▄[0;1;36m▄[0;1;37m▄█[0;32m [0;35m▄▄▄▄▄▄▄█▄[0;1;36m ▀▀▀[0;1;37m▀[0;1;36m▀▀▀▀▀ █▄▄▄▄▄▄█[0m [1;35m▄[0;35m▄▄▄▄▄▄▄▄[0;37m [0;1;36m▀▀[0;36m▀[0;1;36m▀▀[0;36m▀▀▀▀▀▀▀[0;1;36m▀[0;36m▀▀▀▀█[0m
+[1;30m▄[0m [1mc:\path\  [0;35m█▄▄▄▄▄▄▄▄▄▄█[0;1;37;45m▀[0;1;35;45m▀[0;35m█[0;1;35;45m▀  ▀[0;35m███████████▄▄▄▄▄[0;1;35m▄[0;35m▄▄[0;1;35m▄▄██[0;1;35;45m▓░[0;35m███[0;1;35;45m░▓████[0;1;37;40m██[0;1;35;45m███▐[0;35m██[0;1;35;45m▌  │[0;1;30m  ▄[0m
+[1;30m█──────────────────────────────────────────────────────────────────────────────█[0m
+[1;30m█  sample!@.ans  12345678901234567890123456789012345  12345678901234567890  A  █[0m
+[1;30m█  filename───┐  sauce description <───────────────┐  sauce author───────┐  ░  █[0m
+[1;30m█  ┌─────┐[0m    [1;30m│  │[0m                                 [1;30m│  ┌─────>[0m            [1;30m│  ░  █[0m
+[1;30m█  │[0m     [1;30m│[0m    [1;30m│  │[0m                                 [1;30m│  │[0m                  [1;30m│  ░  █[0m
+[1;30m█  │[0m     [1;30m│[0m    [1;30m│  │[0m                                 [1;30m│  │  hehehe[0m          [1;30m│  ▒  █[0m
+[1;30m█  │[0m     [1;30m│[0m    [1;30m│  │[0m                                 [1;30m│  │  scroll bar or[0m   [1;30m│  ░  █[0m
+[1;30m█  │[0m     [1;30m│[0m    [1;30m│  │[0m                                 [1;30m│  │[0m     [1;30msomething[0m    [1;30m│  ░  █[0m
+[1;30m█  │[0m     [1;30m│[0m    [1;30m│  │[0m                                 [1;30m│  │[0m        [1;30m│[0m         [1;30m│  ░  █[0m
+[1;30m█  │[0m   [1;30m<─┘[0m    [1;30m│  │[0m                                 [1;30m│  │[0m        [1;30m└─────────│  ░  █[0m
+[1;30m█  └──────────┘  └─────────────────────────────────┘  └──────────────────┘  V  █[0m
+[1;30m▀──────────────────────────────────────────────────────────────────────────────▀[0m
+[1;37;44m maybe the status line goes here maybe the status line goes here maybe the stat [0m'

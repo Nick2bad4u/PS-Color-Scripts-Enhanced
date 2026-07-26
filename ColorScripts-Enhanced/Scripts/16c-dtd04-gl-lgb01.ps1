@@ -1,0 +1,39 @@
+﻿# Converted from: GL-LGB01.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/dtd04/raw/GL-LGB01.ANS
+# Source Revision: archive-sha256:7091bf957c6673d9b005844355015c4c77947e5b00fc05939206b31997a09f74
+# Source SHA-256: 7becb7646f8fb9b9adaaa461c6808810f01f0ad6181b8ae2700faf06f008564f
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: GL-LGB01.ANS by glandyth-a-krae (DEVOTiON TO DARKNESS); released in dtd04 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: lugburz menu letter.
+# SAUCE Author: glandyth-a-krae
+# SAUCE Group: DEVOTiON TO DARKNESS
+# SAUCE Dimensions: 80x25
+# Lines: 1-24
+# Columns: 1-80
+
+Write-Host '
+   [34m▀ ▄▄[0m     [34m░[0m               [30;44m▓[0;34;40m░[0m            [31;40m      [0m
+[34;40m ▄▄[0m   [34;40m▀[0;1;34;44m░▄[0;30;44m░[0;34;40m▓▄▓▄[0;1;34;40m▄[0;34m▄[0;1;34;44m░[0;34m▀▀▀[0m       [34m▄[0;30;44m░[0;34;40m▓ █▄ ▐▄[0m      [37;40m■ battle related commands[0m
+[37;40m [0;34;40m   ▀▄[0;37;40m [0;34;40m▀[0;1;34;44m▀▓▓█▀[0;34m▀▀[0;1;37m  [0;31m░[0;30;41m▓[0;31;40m▄[0;1;31;40m▄▄▄[0;31m▄[0;37m [0;34m ▀[0;1;34;44m▀[0;1;34;47m▓[0;1;34;44m▌[0;34m▌▐[0;1;34;44m▀[0;34m▄▄[0;1;34;44m▄▀[0;34m▀[0m
+[37m [0;34m [0;30;44m▓[0;34;40m░[0;37;40m [0;34;40m▐[0;1;34;44m▄[0;34m▄[0;1;34;44m░▀[0;34m▀▀[0;37m [0;31m ▄[0;1;31m▄[0;1;31;41m▄██▀[0;31m▀  ▀▓ [0;37m [0;34m▐[0;1;34;44m█[0;34m█▄[0;1;34;44m▄▄[0;34m▄[0;1;34;44m▄[0;1;34;47m▓[0;1;34;44m▌[0;34m░[0m    [1;31m''e'' [0;31m- to enter some provocation(s)[0m
+[31m [0;34m▀[0;30;44m░░[0;34;40m▀▀▀▀[0;31;40m  [0;30;41m▓[0;31;40m▄[0;1;31;40m▄[0;1;31;41m▄█▀[0;31m▀▐[0;1;31;41m▓[0;31m▌[0;1;30mgl[0m  [31m [0;37m  [0;34m▐[0;1;34;44m▄[0;34m▄[0;1;34;44m▄█[0;1;34;47m▓▒▄[0;1;34;44m▀▌[0;34m░ [0m   [1;31m''r'' [0;31m- to read provocation(s)[0m
+[1;30m [0;34m▓▀ [0;1;30m [0;31m▄[0;1;31m▄▄[0;1;31;41m▄[0;1;31;47m▓▓[0;1;31;41m▓██▌[0;1;37;40m   [0;31m▀[0;1;31;41m░[0;1;31;40m▄[0;31m▄▀[0m   [34m▄[0;1;34;44m▄██▀[0;34m▀▀▀▀[0;37m [0;34m▀▓ [0m   [1;31m''c'' [0;31m- to challange the beholder![0m
+[31m [0;34m░[0;31m    ▀[0;1;31;41m▀[0;1;31;47m▄░[0;1;31;41m▀[0;31m▀ [0;1;31;41m▐▓[0;31m▄      ▄░[0;34m [0;37m  [0;34m ▀▀[0;1;34;44m▀▄▄▄▄[0;34m▄█ [0m    [1;31m''o'' [0;31m- to serve the beholder...[0m
+[31m   [0;30;44m██[0;31;40m  ▐[0;1;31;41m▐[0;1;31;47m▓[0;1;31;41m▌[0;31m▌  ▀[0;1;31;41m▀▓▄[0;1;31;40m▄▄▄[0;1;31;41m░[0;31m▀[0m     [34m [0;37m  [0;34m▀[0;1;34;44m▀▀[0;34m▀[0m       [1;31m''qwk'' [0;31m- to download provocation(s)[0m
+[31m    [0;30;44m██[0;31;40m  █[0;1;31;41m█[0;1;31;47m█[0;1;31;41m▄[0;31m▄    ▀[0;1;31m▀▀[0;31m▀[0m           [34m▐█▀[0m       [1;31m''who'' [0;31m- which spirits are in libary[0m
+[31m [0;34m░  [0;31m    ▐[0;1;31;41m▐[0;1;31;47m▄▓[0;1;31;41m▓▄[0;1;31;40m▄[0;31m▄               [0;34m▄▀[0;31m   █[0m     [1;31m''provocate'' [0;31m- to provocate mage[0m
+[31m [0;34m▓[0;31m  [0;34m▀▄  [0;31m [0;1;31;41m▐█▌[0;31m▌▀[0;1;31m▀[0;1;31;41m▀█▄[0;31m▄▄░░    [0;34m▄▄[0;31m [0;34m▀[0;31m     █[0;1;31;41m░[0m
+[1;30m [0;1;34;44m░[0;1;30;40m  [0;34m░[0;30;44m░[0;34;40m▌[0;1;30;40m  [0;1;31;41m▐▓▌[0;31m▌    ▀[0;1;31;41m▀█▄[0;31m▄           ▄[0;1;31;41m▄▓[0;31m█[0m     [37m■ spell casting commands[0m
+[31m [0;1;34;44m▀[0;34m▀▀▀▀ [0;31m ▐[0;1;31;41m▓█[0;31m█▒     ▐[0;1;31;41m▐▓[0;31m█        ▄[0;1;31m▄[0;1;31;41m▄[0;1;31;47m▀▓[0;1;31;41m▌[0;31m▌[0m     [37m [0m
+[31m   ▄▄ ▄[0;1;31m▄[0;1;31;41m░[0;1;31;40m▀[0;31m▀ ░    ▄[0;1;31;41m▄▀[0;31m▀     ▄[0;1;31m▄[0;1;31;41m▄██▀[0;31m▀[0;1;31;41m▀█[0;31m█[0m      [1;31m''u'' [0;31m- to cast some spell(s)[0m
+[31m ░▓▀  ▀ ▄░ ░▓▄▄▀[0;1;31m▀[0;31m▀ ▄[0;1;31m▄▄▄[0;1;31;41m▄██▀[0;1;31;40m▀[0;31m▀░░ █[0;1;31;41m▓▌[0m       [1;31m''d'' [0;31m- to recieve some spell(s)[0m
+[31m        ▐▓▄▀▀ ▄[0;1;31m▄[0;1;31;41m▄▓█▀[0;1;31;40m▀▀▀[0;31m▀░░      ▀[0;1;31;41m░▌[0m       [1;31m''z'' [0;31m- to search some spell(s)[0m
+[1;37m        [0;31m█▀ ▄[0;1;31;41m▄▀[0;1;31;40m▀▀[0;31m▀           ▄[0;1;31m▄[0;1;31;41m▄██▓▓▄[0m      [1;31m''l'' [0;31m- to locate some spell(s)[0m
+[1;37m       [0;31m [0;1;37m [0;31m▄[0;1;31;41m▒[0;31m▀              ▄▀▀    ▀[0;1;31m▀▀[0;1;31;41m░[0;31m▄[0m    [1;31m''t'' [0;31m- to choose kind of casting[0m
+[31m        [0;1;31;41m░[0;31m▀                            ▀[0m   [1;31m''sign'' [0;31m- to sign your spell(s)[0m
+[31m       ▐▀[0m                                 [1;31m''erase'' [0;31m- to erase some spell(s)[0m
+        [31m▀[0m
+
+[1;37mfor the lugburz bbs.[0m'

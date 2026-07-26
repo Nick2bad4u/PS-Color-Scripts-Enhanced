@@ -1,0 +1,34 @@
+﻿# Converted from: DD-FRTM.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/circe03/raw/DD-FRTM.ANS
+# Source Revision: raw-sha256:20670bb0e8cca1b442f47ab6682150b88495f2531e0cd82a7d004ee0a6e515fe
+# Source SHA-256: 20670bb0e8cca1b442f47ab6682150b88495f2531e0cd82a7d004ee0a6e515fe
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: DD-FRTM.ANS by Diamond Darrell (Circe Argentina); released in circe03 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: "Feretro Main Menu"
+# SAUCE Author: Diamond Darrell
+# SAUCE Group: Circe Argentina
+# SAUCE Date: 19971213
+# SAUCE Dimensions: 80x18
+# Lines: 1-17
+# Columns: 1-80
+
+Write-Host '
+[1;47m██[0;1;36;40m██▀▀[0;36m▀▀[0;37m [0;1;31m [0m▄[1m▄▄▄█▓░[0;1;31m [0m ███[1;47mM[0;1;30;47m [0;1;37;47ma i n  M e n u   [0m▓▀[1;31m [0m▄[1m▄▄▄▄[0;1;31m [0m▀▀▀▀█▓▓█████████[1;30;47m  ░░░▄[0;1;30;40m█▀▀[0m
+[1;47m█[0;1;36;40m██▓[0m [1;31;47m▓▓[0;1;31;40m██▀▀[0m▀[1m▓[0m    [1;31m [0m▀▀[1;31m▄▄▄▄ [0m▓█▀▀▀[1;31m ▄▄▄ [0m▀[1;31m ▄[0;1;31;47m▓▓[0;1;31;40m▄▄   [0;1;31;47m▄[0;1;37;47m▓█[0;1;37;40m█▀▀▀[0m▀[1;31m [0m ░░▀▀[1;31m ▄▄▄▄▄ [0m▀▀▀[1;31m ▄▄▄▄[0mDd![34m ░░[0m
+[1;36m██[0;36m█[0;37m  [0;1;31m████  ▄▄▄▓▓█▀▀██[0;1;31;47m▓▓[0;1;31;40m▌ ▄▄▄██▀█▓▓ ███▀▀▀▐██▀[0;1;31;41m▓▓[0;1;31;40m█▌  ▄▄░░▄▄[0;1;31;47m▓▓[0;1;31;40m██▀█▓▓ ▄█[0;1;31;47m▓▓[0;1;31;40m▀████[0m  [34m▓▓▓[0m
+[1;36m▀[0;36m▓▓[0;37m [0;31m [0;1;31;41m▀▓▓[0;1;31;40m█▀▀▀░[0;31m [0;1;31m██[0;31m▌[0m   [1;31;41m█▓▓[0;31m ▐[0;1;31;41m▀▀[0;31m▌  [0;1;31m▐[0;1;31;41m██[0;31m▌[0;1;31m▐[0;1;31;41m█▓[0;31m▌[0m   [1;31;41m█▓▓[0;31m █[0;1;31;41m░░[0;31m▌  [0;1;31;41m█[0;1;31;40m▓▓▀▐[0;1;31;47m▓▓[0;31m▌  ▐▓▓[0;1;31;41m▀██[0;31m▌[0m   [1;31;41m█▓▓▓[0m [1;34m [0;34m█[0;1;34m██[0m
+[1;36m░░[0m   [30;41m░░[0;31;40m██[0m    [31;40m▐[0;1;31;41m▀[0;31m█▄▄▄▄[0;1;31;41m░░[0;31m▌░▓██[0m   [31m███ ▐[0;1;31;41m░░[0;31m▄▄▄[0;1;31;41m▀▀ [0;31m▌░▓[0;30;41m░[0;31;40m█▌ [0;1;31;40m▐[0;1;31;41m▀▀[0;31m█ [0;1;31m██[0;31m█[0m   [30;41m░░[0;31;40m█ [0;1;31;41m▀[0;31m█[0m    [1;31;41m▒▒▒[0;1;31;40m [0m [1;34;44m ▄[0;1;34;47m█[0;31m█[0m
+[31m███[0m    [31m ███▄▄▄▄[0m   [30;41m░[0;31;40m▓█[0m        [31;40m▀[0;30;41m░[0;31;40m▓▄▄▄▄   ▀████[0;30;41m░░░[0;31;40m▌ ███[0m       [31;40m▀[0;30;41m░░[0;31;40m▄▄[0;1;31;41m░░░[0;31m [0;34m▄▄[0;1;34;44m █[0;1;34;47m▓[0m      [1;34m▀[0m
+[1;34m▀▓[0m  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m
+  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m
+  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m
+  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m
+  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m
+  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m
+  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m
+  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m  [1;33mx[0m [1;32mcommand name goes here[0m
+[1;30m░░▄[0m                  ░░                          ▄▄▄░░                       [1;30m [0;1;37m▄▄[0m
+[1;30m▀▓▓[0;1;30;47m██▓▓▀ ░░░[0m█[1;30;47m░[0m██████▓▓█████████████[30;47m░[0;37;40m▓[0;30;47m░[0;37;40m█[0;30;47m░░░[0;37;40m█████████[0;30;47m░[0;37;40m▓███████████[0;30;47m░░[0;1;37;47m░[0m█[1;47m░░░[0m████[1;47m ▄▄█[0;1;40m▀[0m
+'

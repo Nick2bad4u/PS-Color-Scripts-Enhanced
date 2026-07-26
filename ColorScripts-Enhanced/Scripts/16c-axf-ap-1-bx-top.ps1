@@ -1,0 +1,40 @@
+﻿# Converted from: BX-TOP.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/axf-ap-1/raw/BX-TOP.ANS
+# Source Revision: archive-sha256:677d92e3c1456f7d379a6bfd6ef2a3e9f4462186ed5fa427899c9f4c329d0aa2
+# Source SHA-256: 4b9faaf4752ff260ebe9d6177b65be200699b3bbb851c9bd73c684b732e613ff
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: BX-TOP.ANS by baxter (axial force); released in axf-ap-1 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: top-uppers screen
+# SAUCE Author: baxter
+# SAUCE Group: axial force
+# SAUCE Date: 19960913
+# SAUCE Dimensions: 80x23
+# Lines: 1-23
+# Columns: 1-80
+
+Write-Host '
+        [35m▄██[0;1;35;45m░[0;35m█[0;1;35;45m░░▒░[0;35m██[0;1;35;45m░[0;35m█[0;1;35;45m░░[0;1;33;45m░[0;35m▀▀▀█[0;1;35;45m░▒░[0;35m▄[0m                   [1;30m.-[0mVirtual Hell prod. inc.[1;30m--.[0m
+        [35m███▀▀█[0;1;35;45m▒░[0;35m▀▀▀  [0;33m▄[0;31m [0;1;33m▒[0;1;30m [0;33m▄[0;35m   ▀[0;1;35;45m░▒[0;35m▌[0m                  [1;30m| [0mbrings you the one and   [1;30m|[0m
+        [1;35;45m░[0;35m█[0;37m [0;1;37;47m░[0m▄[35m ▀[0;31m    [0;1;30m [0;33m▀[0;31m [0;37m [0;1;33m▄[0;1;30m [0m▄[33;47m▀[0;37;40m▄▄[0;31;40m [0;35;40m █[0;1;35;45m░[0m                  [1;30m|[0m only, clean tasting,     [1;30m|[0m
+[1;33m░[0m [1;33m░[0m  [1;33m░[0m [1;33m░[0;1;33;45m░▒[0m▐[1;33;47m░[0;1;37;47m▒[0;1;37;40m▌[0;1;33;40m ░░[0m▄[1;47m░[0;1;33;47m░░▒▓[0;1;33;41m█[0;1;33;47m▌░[0;1;37;47m░[0m▀[1;33;47m░[0;1;37;47m▓[0m▄[35m [0;1;33;45m░[0m [1;33m░[0m   [1;33m░░[0m  [1;33m░[0m   [1;33m░░[0m   [1;30m|[0m fresh looking :          [1;30m|[0m
+        [35m█ [0;37m█[0;1;37;47m▒▓[0;1;37;40m▀▀[0;31m [0;37m▐[0;1;37;47m░▒[0;1;37;40m▀[0;33m▄[0;37m▀[0;1;37;47m [0;1;33;47m▓[0;1;37;40m▐[0;1;37;47m▓[0;33m▄[0;37m░░[0;1;37m▐[0;1;37;47m▓[0m▌[35m▐[0m                  [1;30m|[0m [1;35mV[0mirtual [1;35mH[0mell [1;35mT[0mop [1;35mU[0mppers. [1;30m|[0m
+  [1;30m   [0m   [35m█ [0;1;37;47m░▓[0;1;37;40m▌  [0m ▐[1;47m▒▓[0;1;40m▌[0;31m [0;33m▀[0;1;37;47m░[0;1;33;47m▒[0;1;37;40m▐[0;33;47m▀[0;1;37;47m░[0m▄▄[1;47m▒░[0;35m █[0m                  [1;30m|[0m Be part of this great[1;30m   [0m [1;30m|[0m
+   [1;30m   [0m [35m▐[0;1;35;45m░[0;35m▌[0;37m▐[0;1;37;47m░▓[0;1;37;40m▄▄[0;31m [0;37m▄[0;1;37;47m ░▓[0;1;37;40m▄[0m▐[1;33;47m░[0m▌▐[1;47m▓░[0m▀▀▀ [35m▐█[0m                  [1;30m| [0mlist: upload ![1;30m           |[0m
+    [1;30m  [0m [1;35;45m░▒[0;35m█▄[0;37m▀[0;1;37;47m ░▒░[0m▀[31m [0;37m▀[0;1;37;47m░▓▒[0m▀[35m▄[0;37m▐[0;1;37;47m▒ ░[0m▄ [35m █[0;1;35;45m░[0m                  [1;30m|[0m This list is calculated  [1;30m|[0m
+      [35m▐[0;1;35;45m▓▓▒ ░[0;35m▄▄▄▄█[0;1;35;45m░[0;35m▄▄▄▄[0;1;35;45m░▒[0;35m▄[0;37m▀[0;1;37;47m░ [0m▀[35m ██[0;1;35;45m░[0m                  [1;30m|[0m only once a day!         [1;30m| [0m
+[1;30m.------[0;35m▀[0;1;35;45m▀▒░░░░░   ░░░▒▒▓░[0;35m█▄▄███▀[0;1;30m-------------------''                          |[0m
+
+[1;30m| [0mdata here                                                                   [1;30m|[0m
+
+[1;30m`---------------------------------------------------------------------bx/axf--''[0m
+[1;30m [0m                        [32m  [0;37m                      [0m
+[37m--------------------------------------------------------------------------------[0m
+[37mdunno why I''m releasing this one. I liked it once, but don''t like it anymore :)[0m
+[37mso if you want to use it, just delete the stuff in tha box and replace it with[0m
+[37msome of your mind-blowing txt''s[0m
+
+[37mno greets, but another quote =) oh boy, we do love quotes don''t we =)[0m
+[37m" where is the sound I heard before ?[0m
+[37m are they only echos I heard before ?" - the mackenzie[0m'

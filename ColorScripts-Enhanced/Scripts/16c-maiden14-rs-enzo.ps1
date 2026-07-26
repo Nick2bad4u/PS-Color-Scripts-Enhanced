@@ -1,0 +1,39 @@
+﻿# Converted from: RS-ENZO.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/maiden14/raw/RS-ENZO.ANS
+# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
+# Source SHA-256: e28175e2f94cd05836d86e6e85f4187712d9010365d83501a13c9975f6067b77
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: RS-ENZO.ANS by rorshack (Maiden Brazil); released in maiden14 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: enzo enzimas ferrari da silva jr.
+# SAUCE Author: rorshack
+# SAUCE Group: Maiden Brazil
+# SAUCE Date: 19971213
+# SAUCE Dimensions: 80x25
+# Lines: 1-22
+# Columns: 1-80
+
+Write-Host '
+                   [1;30m█[0m                   [1;30m▄[0m
+           [1;30m▄[0m        [1;30m█[0m     [33m▄▄▄[0m        [1;30m▄▀[0m
+            [1;30m▀▄[0m    [1m░ ▄▄[0m▄ [33m▀▀[0;1;31;43m▄▓██▄[0;33m▄[0m    [1;30m▀[0m
+              [1;30m▀[0m  ▄[1;47m▓[0;1;40m█████[0;1;47m▄[0m▄ [1;31;43m████[0;1;31;47m▓[0;1;31;43m▄[0;33m▄[0m
+    [1;30m▀▀▄▄[0m        ▐[1;47m▓[0;1;40m███████[0;1;47m▌[0m▌[1;31m▐[0;1;31;43m██[0;1;31;47m▓▒░[0;43m▌[0;33;40m▌[0;1;30;40mrs[0m   [1;30m▄▄▄▀▀▀[0m
+        [1;30m▀▀[0m   [33m▄▄[0;37m [0;1;37;47m░[0;1;37;40m█████▀▀▀█[0m█[1m [0;1;31m▀[0m [1m▄▄▄[0m  [33m ░▄[0;1;31m▄[0m    [1m▄▄▄▄▄[0m [1m▐█[0m     [1m██[0m      [1m██[0m   [1m██[0m
+            [30;43m▓░[0;33;40m▌[0;37;40m [0;1;37;47m▓[0;1;37;40m████▌ █▌▐[0;1;37;47m░[0;1;37;40m▄█▀██[0;1;37;47m▓[0;1;37;40m▀[0;1;37;47m▄[0m▄ [33m▐[0;1;31;43m▓[0;1;31;40m▌[0m  [1m▐█▌[0m [1m▀[0;1;47m▓[0;1;40m▌[0m [1;47m▓▓[0m █▌[1m▐[0;1;47m▓▓▒░[0m   [1;47m▓▓▓[0;1;40m▌[0m [1m ▐█▌[0m
+             [33m▀▀[0;37m [0;1;37m▐█████▄▄▄█[0;1;37;47m▐[0;1;37;40m█▌     ▐[0;1;37;47m▌[0m▌[33m▀[0;1;31m▀[0m   [1m▐[0;1;47m▓▓[0m ▄[1;47m░[0m▀ ▐[1;47m░[0m▌██▐[1;47m░░[0m███ █[1;47m░[0m▄[1;47m░░[0m  [1m▐[0;1;47m▓[0;1;40m▌[0m
+      [1;30m▄▄▀▀[0m    [33m ▄[0;37m [0;1;37m▀██████[0;1;37;47m▀[0m▀ [1m▀█▄  [0m▄[1m▄[0;1;47m▀[0m▀ [33m█[0;1;31;43m▄[0;33m▄[0m   [1;37;47m░░[0m▀▀▀[1;30;47m░[0m▄ ██▌████▌ ██[1;30;47m░[0m  ▐█▌  [1;47m░[0m█
+    [1;30m▀▀[0m      [33m▄██[0;1;31;43m▄▄[0;33m▄▄[0;1;37m ▀▀[0m▀[33m ▄[0;1;31m▄▀▄▄[0m [1m▀▀▀[0m [33m▄▄[0;1;31;43m▄██[0;1;31;47m▓[0m▌  ▐██  [1;30;47m▓░[0m ▐█ ▀▀[1;30;47m░░[0m▀▀▀[1;30;47m░▓[0m   ██  ██
+           [30;43m▓░[0;1;31;43m▐█[0;1;31;47m▌▄[0;1;31;43m████▄▄▄█[0;1;31;40m▀▀▀▀[0;1;31;43m▀[0;1;31;40m███[0;1;31;43m█████[0;1;31;47m▓▒[0m▀ [1m  [0m▀▀▀[1;30m▀▀ [0m     [1;30m▐[0;1;30;47m▓[0;1;30;40m▌[0m    [1;30m██[0m      [1;30m▄▄[0m
+            [33m▀█[0;1;31;43m▀▀[0;1;31;40m█[0;1;31;43m█████[0;1;31;40m█▀[0;31m  ▀█ [0;1;37m▄[0m [33m▀[0;1;31;43m▀██[0;1;31;40m█▀▀[0m    [1m▄▄█▀▀[0m
+          [1;30m▄[0m     [33m▀▀▀[0;1;31;43m▐█[0;1;31;40m█[0m [1m▐▀[0m    [1m▀[0m   [1;31;43m▒█[0;1;31;40m▌[0m  [1m▄▄█▀▀[0m
+        [1;30m▄▀[0m        [30;43m▓[0;33;40m█[0;1;31;43m█[0;1;31;40m▌[0;33m [0m   [1;31m░[0;33m▄▄[0m   [33m ▐[0;1;31m█[0m [1m ▀▀[0m
+       [1;30m▀[0m            [33m█[0;1;31;43m█[0;1;31;40m▄[0m▄[33m▄[0;1;31;43m▄▓████[0;1;31;40m▄▄█▓░[0m
+[1;30m────────────────────[0m [33m▀[0;1;31;43m▀[0;1;37;40m█[0;1;31;43m██████[0;1;31;47m▓▒[0;1;31;40m▀[0m [1;30m─────────────────────────────────────────────[0m
+                       [1m▐[0;33m▀▀[0;1;31m▀▀▀▀[0m ░   Parabéns ENZO, por viver!
+                       [1m▐[0m
+                                   E parabéns CLAUDIA RAIA, por parir um
+                       [1m▀[0m           menino täo cuti-cuti assim! :)
+[1;30m───────────────────────────────────────────────────────────────────────────────[0m
+  Homenagem bem-humorada de [1mRorshack[0m a [1mEnzo[0m, o melhor ansi artist de Recife.[0m'

@@ -1,0 +1,27 @@
+﻿# Converted from: SE-RIGE4.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/adfa0793/raw/SE-RIGE4.ANS
+# Source Revision: archive-sha256:75d1f25740b75c34b3bfe18643b11dc7e3b1eb72c9fabf9bf9fb54581a3b914a
+# Source SHA-256: 8ccbee42a0ad6aaf4113419f06a6d75e8255909d7ff32aecb8fbcf2040832afe
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: SE-RIGE4.ANS by Side Effect (adfa0793); released in adfa0793 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Lines: 1-15
+# Columns: 1-80
+
+Write-Host '
+   [35m░▀▀▀▀▀▀▀▀▀▀▀▄    ░▀▀▀▀▀░  ░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░  ░▀▀▀▀▀░[0m      [1;30m·[0m
+[1;30m   [0;35m▒[0m            [35m▀▄  ▒[0m     [35m▒  ▒[0m                              [35m▒  ▒[0m     [35m▒[0m
+[1;37m.  [0;35m▓[0m             [35m▓  ▓▄▄▄▄▄▓  ▓[0m     [35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓  ▓[0m     [35m▓[0m
+[35m   ▀▀▀▀▀▀▀▀▀▄    [0;35;45m [0m           [35;40m█[0m     [35;40m█[0m                           [35;40m█[0m     [35;45m [0m         [1;37;40m.[0m
+[1;37;40m   [0;1;37;45m [0;35m▀▀▀▀▀▀▀▀[0m     [35;45m [0m  [35;45m [0;35;40m▀▀▀▀▀[0;35;45m [0m  [35;45m [0m     [35;40m█ █▀▀▀▀▀▀█  [0;35;45m [0;35;40m▀▀▀▀▀▀▀▀▀▀▀▀█  [0;35;45m [0m     [35;45m [0m
+[35;40m   [0;1;35;45m░[0m            [35m▄▀  [0;1;35;45m░[0m     [1;35;45m░[0m  [1;35;45m░[0m     [1;35;45m░[0m [1;35;45m░[0m      [1;35;45m▒[0m  [1;35;45m░[0m            [1;35;45m░[0m  [1;35;45m░[0m     [1;35;45m░[0m
+[1;35;40m   [0;1;35;45m▒[0;1;35;40m▄▄▄▄▄▄[0m     [35m▀▄   [0;1;35;45m▒[0m     [1;35;45m▒[0m  [1;35;45m▒[0m     [1;35;45m▒[0m [1;35;45m▓[0;1;35;40m▄▄    [0;1;35;45m▓[0m  [1;35;45m▒[0m     [1;35;40m▄▄▄▄▄▄▄[0;1;35;45m▒[0m  [1;35;45m▒[0m     [1;35;45m▒[0m   ∙
+[1;30m·[0m         [1;35m▀▄[0m     [1;35;45m▓[0m  [1;35;45m▓[0m     [1;35;45m▓[0m  [1;35;45m▓[0m     [1;35;45m▓[0m   [1;35;45m▓[0m    [1;35;45m▓[0m  [1;35;45m▓[0m     [1;35;45m▓[0m         [1;35;45m▓[0m     [1;35;45m▓[0m
+           [1;35;40m█[0m     [1;35;45m█[0m  [1;35;45m█[0m     [1;35;45m█[0m  [1;35;45m█[0m     [1;35;40m▀▀▀▀▀    █  █[0m     [1;35;40m▀▀▀▀▀▀▀[0;1;35;45m█[0m  [1;35;45m█[0m     [1;35;40m▀▀▀▀▀▀▀▀[0;1;35;45m█[0m
+       [1;30;40m·   [0;1;35;40m█[0m     [1;35;45m█[0m  [1;35;45m█[0m     [1;35;45m█[0m  [1;35;45m█[0m              [1;35;40m█  █[0m            [1;35;45m█[0m  [1;35;45m█[0m             [1;35;45m█[0m
+           [1;35;40m█▄▄▄▄▄[0;1;35;45m█[0m  [1;35;45m█[0;1;35;40m▄▄▄▄▄[0;1;35;45m█[0m  [1;35;45m█[0;1;35;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄█  █▄▄▄▄▄▄▄▄▄▄▄▄[0;1;35;45m█[0m  [1;35;45m█[0;1;35;40m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;35;45m█[0m
+∙    [1m■[0m
+
+                     [35m.[0;1;35m.[0;1;37mC[0mome [1mf[0meel [1mt[0mhe [1mf[0morce [1ma[0mt [1mR[0migel [1mI[0mV[1;35m.[0;35m.[0m           [37m∙[0m           [1;37m.[0m
+'

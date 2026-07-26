@@ -1,0 +1,35 @@
+﻿# Converted from: TT-SI.ICE
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/icepk-09/raw/TT-SI.ICE
+# Source Revision: archive-sha256:1fcbf4aa1710b0a53349a8ea40276f5225ba911f5e9d163ab7e96a35bbed2cd0
+# Source SHA-256: 703f32c73652b5143335f5dcaa82a8bc757ae00841075d33c7f3b73f7e3be9e9
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: TT-SI.ICE by Tempus Thales (icepk-09); released in icepk-09 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Lines: 1-24
+# Columns: 1-80
+
+Write-Host '
+
+
+
+
+                              [1m▄▀[0m                 ▀▄
+                            [1m▄[0;1;44m▀[0;44m▐[0;40m▌[0m                 [40m▐[0;44m▌▀[0;40m▄[0m
+                          [1;40m▄[0;1;44m▀[0;1;34;44m░░░[0;44m▀▀▀▀▀▀▀▀[0;1;30;47m░[0m [1;37;47m█[0;1;37;44m▀▀▀▀▀▀▀[0;44m▀[0;1;34;44m░░░[0;44m▀[0;40m▄[0m
+                        [1;40m▄[0;1;44m▀[0;1;34;44m▒▒▒▒▒▒▒▒▒▒▒▒▒[0;1;30;47m▒[0m [1;37;47m▓[0;1;34;44m▒▒▒▒▒▒▒▒▒▒▒▒▒[0;44m▀[0;40m▄[0m
+                      [1;40m▄▀[0;1;30;40m▀▀▀▀▀▀[0;1;37;40m█[0;1;34;44m▓▓▓[0;1;30;47m░[0m▀▀▀▀[1;30m▀ [0m▀[1;30m▀▀▀▀[0;1;37;47m█[0;1;34;44m▓▓▓[0;1;30;47m░[0m▀[1;30m▀▀▀▀▀[0m▀▄
+                              [1;47m▓[0;33m▄▄▄[0;1;30;47m░[0m           [1;37;47m▓[0;33m▄▄▄[0;1;30;47m░[0m
+                              [1;37;47m▒[0;1;33;43m░░[0;33m█[0;1;30;47m░[0m           [1;37;47m▒[0;33m█[0;1;33;43m░░[0;1;30;47m░[0m
+                              [1;37;47m░[0;1;33;43m▒▒░[0;1;30;47m▒[0m           [1;37;47m░[0;1;33;43m░▒▒[0;1;30;47m▓[0m
+                             ▐[1;33;47m▐[0;1;33;43m▓▓▒[0;1;30;47m▒[0m           [1;30;47m [0;1;33;43m▒▓▓[0;1;33;47m▌[0;1;30;40m▌[0m
+                             ▀[1;33;47m▀[0;1;33;43m██▓[0;1;30;47m▓[0m           █[1;33;43m▓██[0;1;33;47m▀[0;1;30;40m▀[0m
+                               ▀[1;33;47m▀[0;1;33;43m█[0;1;30;47m▓[0m           █[1;33m█[0;1;33;47m▀[0m▀
+                                 ▀[1;30m█[0m           █▀ [1;30m:)[0m
+
+                                 [35mProductions ''92[0m
+
+
+
+
+'

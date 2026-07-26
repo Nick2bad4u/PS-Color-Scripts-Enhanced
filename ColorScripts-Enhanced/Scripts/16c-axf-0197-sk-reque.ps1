@@ -1,0 +1,28 @@
+﻿# Converted from: SK-REQUE.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/axf-0197/raw/SK-REQUE.ANS
+# Source Revision: archive-sha256:08e3420d6f5bf039e22601d044f43006678a0458956ba31375be1cbab8367813
+# Source SHA-256: 9e30f703868253e6390948623b0edeafc06c946499db0867fc023bc25321f284
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: SK-REQUE.ANS by .o!Skyknight-o. (AXF.ANL.ELP); released in axf-0197 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: Request
+# SAUCE Author: .o!Skyknight-o.
+# SAUCE Group: AXF.ANL.ELP
+# SAUCE Date: 19961206
+# SAUCE Dimensions: 80x11
+# Lines: 1-11
+# Columns: 1-80
+
+Write-Host '
+      [1;32m▄▄▄▄▄[0;32m▄[0m         [1;36m [0;36m▄[0;30;46m░[0;36;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;46m░[0;36;40m▄[0;1;36;40m [0m
+     [1;32;42m▓[0;1;32;40m▀▀▀▀▀▀[0;32m▀■▄[0m      [1;36;46m░[0;36m█▀[0;37m [0;1;35m▄▄▄[0;35m▄[0;37m [0;36m▀[0;37m [0;1;35m▄▄▄[0;35m▄[0;37m [0;36m▀[0;37m [0;1;35m▄▄▄[0;35m▄[0;37m [0;36m▀[0;37m [0;1;35m▄[0m  [35m▄ [0;36m▀[0;37m [0;1;35m▄▄▄[0;35m▄[0;37m [0;36m▀[0;37m [0;1;35m▄▄▄[0;35m▄[0;37m [0;36m▀▀[0;37m [0;1;35m▄[0m [36m█[0;1;36;46m░[0;46m░[0;36;40m█[0m
+     [33;40m▄[0;1;37;40m [0;1;37;47m▓[0;1;37;40m▀[0m [1;47m▓[0;1;40m▀[0;1;31;40m [0;33m▄[0m       [37;46m░[0;36;40m█[0;37;40m [0;1;35;40m██[0m  [1;35;45m▒░[0m [1;35m██[0m  [1;35;45m▒░[0m [1;35m██[0m  [1;35;45m▒░[0m [1;35m██[0;36m  [0;1;35;45m▒░[0m [1;35m██[0m  [1;35;45m▒░[0m [1;35m██[0m  [35m▀▀[0;37m [0;1;35m▄█[0;1;35;45m▓[0;1;35;40m▄[0;35m▄[0;37m [0;36m██[0m
+[1;30m▒▒▒▒ [0;1;31;43m▓[0;1;31;40m▄▄[0m [1;31m▀[0m [1;31m▄[0;1;31;43m▒[0;33m [0;1;30m▒▒▒▒▒▒▒[0;36m█[0;37;46m░[0;37;40m [0;1;35;45m█▓[0;1;35;40m▄[0;35m▄[0;1;35;45m░[0;35m▀[0;37m [0;1;35;45m█▓[0;1;35;40m▀▀[0;35m▀▀[0;37m [0;1;35m█[0;1;35;45m▓[0m  [1;35;45m░[0;35m█[0;37m [0;1;35m█[0;1;35;45m▓[0;36m  [0;1;35;45m░[0;35m█[0;1;35m █[0;1;35;45m▓[0;1;35;40m▀▀[0;35m▀▀[0;37m  [0;1;35m▀▀[0;35m▀[0;1;35;45m░[0;35m▄[0;37m  [0;1;35;45m▓▒[0m [36m▄▄█[0;1;36;46m [0;1;30;40m▒▒▒▒▒[0;1;31m▀[0m
+[1;31;43m▒▓[0;1;31;40m▀▀[0;1;31;43m▓[0;33m▌[0m       [36m █[0;37;46m░[0;37;40m [0;1;35;45m▓▒[0m  [35;47m█[0;35;40m█[0;37;40m [0;1;35;40m▀[0;1;35;45m▒[0;35m▄▄█▀[0;37m [0;1;35m▀[0;1;35;45m▒[0;35m▄[0;1;35;45m░[0;35m█▀[0;37m [0;1;35m▀[0;1;35;45m▒[0;35m▄▄█▀[0;37m [0;1;35m▀[0;1;35;45m▒[0;35m▄▄█▀[0;37m [0;1;35m▀[0;1;35;45m▒[0;35m▄▄█▀[0;37m  [0;1;35m▀[0;1;35;45m░[0m [36m█[0;37;46m░[0;1;36;46m░[0;36m█[0;37m ![0;36mSk[0;37m¡[0m
+        [1;31m▀▀[0;33m▀[0;37m  [0;36m        █[0;1;36;46m▒[0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37;46m░[0;36;40m▄▄▄▄[0;37;40m [0;35;40m▀[0;37;40m [0;36;40m▄▄▄▄▄▄█▄▄▄▄▄▄█▄▄▄▄▄▄██▄▄▄[0;1;36;46m▒[0;46m░[0;1;36;46m [0;36m█[0m
+                     [1;36m [0;36m▀▀▀▀[0;30;46m░[0;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30;46m░[0;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36;40m [0m
+[1;30m--------------------------[ cut[0m [1;30mhere ]-----------------------------------------[0m
+  [1;30m.[0m [1;30m.∙[0m This ansi is inspired by EH [1;30m∙.[0m [1;30m.[0m
+[1;30m.∙[0m Greetz goez 2 Red Rebel,Werdix,Gaze,Dopedood,Miasma,Tomahawk,Iron Eagle,Jazz
+ and all members of Axial Force,Analyze and Elysium Power [1;30m∙.[0m ![36mSkyknight[0;37m¡[0m'

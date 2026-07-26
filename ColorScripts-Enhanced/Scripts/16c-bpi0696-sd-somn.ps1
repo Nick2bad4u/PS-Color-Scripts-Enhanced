@@ -1,0 +1,36 @@
+﻿# Converted from: SD!SOMN.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/bpi0696/raw/SD!SOMN.ANS
+# Source Revision: archive-sha256:24ba7f715feb33b38dd9d80af37fadd76c049ffae04949fb7d26267bd16ca3cf
+# Source SHA-256: 9c61194916294153118488995f7b789709ed0457ff9beac47e4e861318c37a96
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: SD!SOMN.ANS by sad (black pyramid! inc.); released in bpi0696 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: system overload main menu
+# SAUCE Author: sad
+# SAUCE Group: black pyramid! inc.
+# SAUCE Date: 19960515
+# SAUCE Dimensions: 80x20
+# Lines: 1-20
+# Columns: 1-80
+
+Write-Host '
+[34m  [0;1;33m▀[0;1;33;44m▓▒[0;1;33;40m▀▀▀[0;34m [0;1;33m▀▀[0;1;33;44m▓[0;1;33;40m█[0m   [1;33;44m░[0;1;33;40m█[0;34m [0;1;33m▀█[0;1;33;44m▓[0;1;33;40m▀▀▀[0;34m [0;1;33m▀▀[0;1;33;44m░[0;1;33;40m█[0m      [1;33m█[0;1;33;44m░[0;1;33;40m▀▀▀[0;1;33;44m▓[0;1;33;40m█[0;34m [0;1;33m▀[0;1;33;44m░▓[0;1;33;40m▀█▀█[0;1;33;44m░[0;1;33;40m o v e r l o a d[0m
+[1;30m  [0;34m ▀▀▀▀▀[0;1;34;44m░ [0;34m ▀▀▀▀▀[0;1;34;44m░ [0;34m  ▀▀▀▀▀█[0;1;34;44m░[0;34m [0;1;34;44m░[0;1;33;44m░[0;34m▀▀▀▀ ▀[0;1;33;44m░[0;1;34;44m░[0;34m▀▀▀▀▀  [0;1;34;44m░[0;34m█ [0;1;33m▀[0;34m █[0;1;34;44m░[0;34m [0;1;33mm a i n m e n u[0m
+[1;30m▄[0m [1;34m▐█▌[0;1;30msd[0;1;34m▐[0;1;34;44m▒[0;34m▌[0;1;34m▐█▌  [0;34m▐[0;1;34;44m▒[0;1;34;40m▌ ▐█▌  [0;34m▐[0;1;34;44m▒[0;1;34;40m▌ ▐[0;1;34;44m▒[0;34m▌[0;1;34m  ▐█▌[0;34m▐[0;1;34;44m▓[0;1;34;40m▌  ▐█▌ [0;1;34;44m▒▄[0;1;34;40m   [0;1;34;44m▐▒[0;1;34;40m [0;1;30;40m▄▄▄▄▄▄▄▄▄[0m▄▄[1;30m▓▄▄▄▄[0m▄[1;30m▓▄▄▓[0m▄▄[1;30m▄▄▄[0m
+[1;30;47m▓[0;1;30;40m▄[0m [1;34m▀█▄▄█▀  ▀█▄▄█▀ [0;1;30m▄[0;1;34m ▀█▄▄█▀ [0;1;30m▄[0;1;34m ▀█▄▄█▀  ▀█▄▄█▀ [0m [1;34m▐█▌ ▐█▌ [0;1;30;47m█[0m▓██████████████████████▓[1;30;47m▓[0m
+[1;30;47m▒▀[0;1;30;40m█▄[0;1;34;40m ▀▀ [0;1;30;40m▄██▄[0;1;34;40m ▀▀ [0;1;30;40m▄█[0;1;30;47m▀[0;1;30;40m█▄[0;1;34;40m ▀▀ [0;1;30;40m▄█[0;1;30;47m▀[0;1;30;40m█▄[0;1;34;40m ▀▀ [0;1;30;40m▄██▄[0;1;34;40m ▀▀ [0;1;30;40m▄█▄[0;1;34;40m ▀▀ ▀▀ [0;1;30;40m▄[0;1;30;47m█[0m████████████████████████[1;30;47m▒[0m
+[1;30;47m░[0m██[1;30;47m▀▀▀▀▀▀[0m██[1;30;47m▀▀▀▀▀▀[0m█▀█[1;30;47m▀▀▀▀▀▀[0m███[1;30;47m▀▀▀▀▀▀[0m██[1;30;47m▀▀▀▀▀▀[0m█[1;30;47m▀▀▀▀▀▀▀▀▀[0m█████████████▀▓▓▀████████[1;30;47m░[0m
+▀▀[1m▐[0m█▀   ▀█▀▀▀▀▀▓▓   █[1m▌[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▌▐[1;47m▄[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▌    [1m▐[0m█▀▀▀▀▀▀▀
+   [1m▀█▄[0m▓▓█▀      ▀█[1m▄█▀[0m                     [1m▀▀[0m                     ▀▓▓[1m▄▄▀[0m
+
+[35m ([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m
+[35m ([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m
+[35m ([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m
+[35m ([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m
+[35m ([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m
+[35m ([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m    [35m([0;1;31mx[0;35m)[0;1;31mthis and that[0m
+   [1m▄▄▄[0m        [1m▄▄▄▄▄[0m                       [1m▄▄[0m
+▄▄[1;47m▀[0m▌ [1m▐[0m▓▄▄▄▄▄▐▓▓   [1m▐[0;1;47m▀[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▌▐[1;47m▀[0m▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▐█[1m▀▀▀▀█[0;1;47m▀[0m▄▄▄▄▄▄▄▄▄
+[1;30;47m▄▓▓▒░  ░       [0m▄▄▄[1;30;47m                                              [0m█▄▓[1;30;47m     ░ ░▒▓▓▄[0m
+[1;30m▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▓▀▀▀▀▀▀▀▀▀▀▀▀▓[0m▀[1;30m▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m'

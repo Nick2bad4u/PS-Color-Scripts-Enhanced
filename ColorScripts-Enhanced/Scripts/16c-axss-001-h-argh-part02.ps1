@@ -1,0 +1,32 @@
+﻿# Converted from: $H-ARGH.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/axss-001/raw/%24H-ARGH.ANS
+# Source Revision: archive-sha256:176d32795f2951cddf3670ed00cc6480fb77c7876a0a6bdca896b1d8ec0d4ac2
+# Source SHA-256: 5a0b27a2b04dabb17db27ebeb9c4418062a3e118e35a5beb39d200fe2a8ebeca
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: $H-ARGH.ANS by Shinigami (.%.AXss.%. -97); released in axss-001 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: Bye Ansi and Logo for TNT !
+# SAUCE Author: Shinigami
+# SAUCE Group: .%.AXss.%. -97
+# SAUCE Date: 19970529
+# SAUCE Dimensions: 80x65
+# Lines: 49-64
+# Columns: 1-80
+
+Write-Host '
+          [1;33;41mw[0;31mR[0;1;33;41mi[0;31mTE D[0;1;33;41mo[0;31mWN [0;1;33;41ms[0;31mUM B[0;1;33;41mo[0;31mARD NAME[0;1;33;41ms[0;31m HERE DE[0;1;33;41mw[0;31mD... A[0;1;33;41ms[0;31m MAN[0;1;33;41my[0;31m A[0;1;33;41ms[0;31m U [0;1;33;41mw[0;31mANT :)[0m
+
+       [31mB[0;1;33;41mo[0;31mARD NAME ∙ [0;1;33;41ms[0;31mY[0;1;33;41ms[0;31mOP DE[0;1;33;41mw[0;31mD ∙ PH[0;1;33;41mo[0;31mNE NUMBAH ∙ [0;1;33;41mw[0;31mA[0;1;33;41my[0;31m T[0;1;33;41mo[0;31m HACK [0;1;33;41mi[0;31mT... UMM :-)[0m
+
+[1;30m─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-[0m
+  [1;33mN[0;31mame: [0;1;33mB[0;31mye [0;1;33mA[0;31mnsi [0;1;33ma[0;31mnd [0;1;33mL[0;31mogo [0;1;33mf[0;31mor [0;1;33mT[0;31mNT ![0m     [1;33mB[0;31my: [0;1;33mS[0;31mhinigami//AXss[0m              [1;33m1[0;31m997[0;5;31m_[0m
+[1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-[0m
+  [1;33mA[0;31mnd [0;1;33ma[0;31mnother [0;1;33mg[0;31moddamn [0;1;33mL[0;31mogo [0;1;33mf[0;31mor [0;1;33mC[0;31mhemosh, [0;1;33mt[0;31mhat [0;1;33md[0;31moode [0;1;33mn[0;31mever [0;1;33ml[0;31mikes [0;1;33mm[0;31my [0;1;33ma[0;31mrt, [0;1;33mb[0;31mut [0;1;33mh[0;31me[0m
+[1;33mk[0;31meeps [0;1;33mo[0;31mn [0;1;33ma[0;31msking [0;1;33mm[0;31me [0;1;33mt[0;31mo [0;1;33mm[0;31make [0;1;33mm[0;31more [0;1;33mf[0;31mor [0;1;33mh[0;31mim, [0;1;33mw[0;31mho [0;1;33mt[0;31mhe [0;1;33mh[0;31mell [0;1;33mc[0;31montrols [0;1;33mh[0;31mim [0;1;33m?[0;31m?? [0;1;33mW[0;31mell,[0m
+[1;33ma[0;31mnywayz, [0;1;33md[0;31mon''t [0;1;33mr[0;31mip [0;1;33mt[0;31mhis [0;1;33mp[0;31mic [0;1;33m([0;31mespecially [0;1;33mt[0;31mhe [0;1;33mh[0;31mead... [0;1;33mi[0;31mt''s [0;1;33mr[0;31meally [0;1;33mc[0;31mewl [0;1;33ma[0;31mnd [0;1;33mi[0;31mf [0;1;33mu[0m
+[1;33md[0;31mo [0;1;33mw[0;31manna [0;1;33mu[0;31mse [0;1;33mt[0;31mhe [0;1;33mh[0;31mead, [0;1;33mt[0;31mhen [0;1;33mu[0;31m [0;1;33mc[0;31man, [0;1;33mb[0;31mut [0;1;33mu[0;31m [0;1;33mm[0;31must [0;1;33mg[0;31mive [0;1;33mm[0;31me [0;1;33mc[0;31mredit [0;1;33mw[0;31mithout [0;1;33mh[0;31maving[0m
+[1;33ma[0;31mctually [0;1;33mc[0;31mhanged [0;1;33mt[0;31mhe [0;1;33mh[0;31mead [0;1;33mi[0;31mn [0;1;33ma[0;31mnyway). [0;1;33mC[0;31m [0;1;33mU[0;31m [0;1;33mt[0;31mhen [0;1;33md[0;31moodes, [0;1;33ml[0;31m8erz.[0m
+
+                                                      [37m  [0m    [1;33m$[0;31m h í ∩ í Ç /┤ m ì[0m
+                             [1;30mI command the Devil...[0m'

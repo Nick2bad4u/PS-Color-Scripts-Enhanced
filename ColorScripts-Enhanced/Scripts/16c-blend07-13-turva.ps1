@@ -1,0 +1,29 @@
+﻿# Converted from: 13-TURVA.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/blend07/raw/13-TURVA.ANS
+# Source Revision: archive-sha256:ca5dd679a175bb824bf5bf250a5bbd7f932645b5aabbf63799cb92711cab24b8
+# Source SHA-256: d776aa6ce7a4e641be5f5a2166caecbea6d562f45b55f2e51d0d3b8d52940bdb
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: 13-TURVA.ANS by ville (blend&fire); released in blend07 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: asylum
+# SAUCE Author: ville
+# SAUCE Group: blend&fire
+# SAUCE Date: 19970303
+# SAUCE Dimensions: 80x12
+# Lines: 1-12
+# Columns: 1-80
+
+Write-Host '
+[34m _13  [0m
+   [34m░ ▄[0;1;34m░[0;34m  ▄ ▀  [0;1;30m░[0m   ░░░        [1;30m▄[0m▄▄▄[1m░[0m                   [36m░░░░░░[0m            [34m▄[0m
+[34m ▒▀▄▀ ▄▀  ▄▀  [0;1;30m▄▄ ▀▐[0;1;37m░[0m▓█[1;47m▄░[0m▓▄[1;30m░ ▀▀▀[0;1;30;47m▓[0m▀[1;30m▄▄[0m▄▄   [1;30m░ [0m░           [34m▀▀[0;34;46m▄▀▄▀[0;34;40m▄▄  ▄[0;34;46m▀▓[0;34;40m▄  [0;34;46m▓[0;1;36;46m▒[0;36m▓[0;34m▌[0m
+[34m ▄▀[0;34;46m▓[0;34;40m▐▀ ▄▀  [0;1;30;40m░▓[0;1;30;47m▓▀▌▀[0;1;30;40m▄  ▀▌  [0m▀▄▒▒▌[1;30m   ▌▐  [0m▌   [1;30m▐ [0m▌[1;30m ▄▌▀[0;1;30;47m▓▀[0;1;30;40m▄[0m▄[1;30;47m▀▓[0m▓▄   [34;46m▓▀▓[0;34;40m▄▀▀[0;34;46m▌[0;1;36;46m▒▄[0;34;46m [0;34;40m▌  ▀▀  ▀▄[0m
+[1;36;40m░[0;34m▌▄▀▄▀[0;1;30m  ▄░  ▀[0;1;30;47m▄[0;1;30;40m░▀▄▀▐▄[0m      [1;30;47m▓[0;1;30;40m [0;1;30;47m▓[0;1;30;40m   ▌[0m   [1;30m▌  ░▓ [0m▌[1;30m▀ ▒▒▄[0;1;30;47m▀[0;1;37;40m▒[0;1;37;47m▀[0;1;30;47m▐[0;1;30;40m▀▄ [0m▀▄[1;30m [0;36m░[0;34;46m▌[0;34;40m▀ ▄▄▐[0;36;40m▀▀[0;34;40m▀▄[0m   [34;40m▄▄░  ░[0m
+[34;40m░ ▌[0;34;46m▀[0;34;40m▌ [0;1;30;40m▄▀  ░▄ ░▀▄░  ▀▐░ [0m░[1;30m▄[0m▌[1;30m [0m▄▀[1;30m   ░[0m   ▒   [1;30m▐ [0m▌[1;30m ▄░▀ [0m▌[1;30m [0m░[1;30m▌ ▐  [0m░▌[1;30m [0;34;46m▌█[0;1;34;40m▒[0;34;46m  ▓[0;34;40m [0;34;46m▓[0;34;40m ▌ ▄[0;34;46m▓[0;1;36;46m▒[0;34;46m▐[0;34;40m▓░░[0m
+[34;40m▌▐▌[0;34;46m▌[0;34;40m [0;37;40m░[0;1;30;47m▐[0;1;30;40m░▄[0m░[1;30m▀   ▄▄▄[0;1;30;47m▓[0;1;30;40m▄░  ░ ▀▀▄ ▀▄  ░[0m   [1;30m░  ▄▀[0m░▌[1;30m░[0m    ▌[1;30m ░▌ ▐   [0m▌[1;30m [0;34;46m▓▐[0;34;40m░▀▀▌ [0;34;46m▌[0;34;40m▌▀▄ [0;34;46m▌▀▄▀[0;34;40m▄ ░[0m
+[34;40m ▐ [0;34;46m▓[0;34;40m [0;37;40m░[0;1;30;40m▓▓▀   ░░░▓▓▀▀▒▒▒[0m    [1;30m▐▌░[0;1;30;47m▓[0;1;30;40m▌ ░[0m   [1;30m  ▀ ▄[0m▀      [1;30m▌[0m    [1;30m▐  ░▌ [0;36m░[0;34;46m▓[0;34;40m ▄[0;34;46m░▀[0;34;40m▄ ▀▄  ▄▀[0;36;40m▀▄[0;34;40m ▀▓░[0m
+[34;40m ░ ▓ [0;37;40m░ [0;1;30;40m        [0m      [1;30m░░░ ░▀░▄▀[0m      [1;30m░░▀░    [0m    [1;30m▀▀░  ▐░▓▓▌ [0;34m [0;36m▒[0;34m▐[0;34;46m▌[0;1;36;46m░▀[0;34;46m▒[0;34;40m▌  ▀▄ ▀░ [0;36;40m▄[0;34;40m ▐▌[0m
+   [34;40m░[0m   [34;40m  asylum    [0m       [1;30;40m░[0m                          [1;30m▀▀▒▀▀[0m    [34m░▀▀[0;36m░[0m    [1;36m░[0;34m▌ ▐ [0;36m▐[0m
+                                                                      [34m░[0m
+[35mfor psyko&assasin. renegade rulz! nothing else to say. fanmail: ville@fan.net[0m'

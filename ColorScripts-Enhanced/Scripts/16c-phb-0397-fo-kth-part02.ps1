@@ -1,0 +1,31 @@
+﻿# Converted from: FO-KTH.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/phb-0397/raw/FO-KTH.ANS
+# Source Revision: archive-sha256:d18868f8faf7726799689b37fb1a0005133cfca83163c8b652f242ae3ef3a67d
+# Source SHA-256: 9088f60b9d560a36144e37672c2fb38880d7bb217b0fc2c945deef274078f962
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: FO-KTH.ANS by flexor (phobia); released in phb-0397 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: earthbound central
+# SAUCE Author: flexor
+# SAUCE Group: phobia
+# SAUCE Date: 19970301
+# SAUCE Dimensions: 80x59
+# Lines: 45-58
+# Columns: 1-80
+
+Write-Host '
+                                       [33m  [0m
+[1;30m            [0m    [1;30m▄█▀▀▀█[0m [1;30m▄[0;1;30;47m▓[0;1;30;40m▀▀▀█[0m [1;30m▄[0;1;30;47m▓[0;1;30;40m▀▀▀█ █▄[0m     [1;30m▄[0;1;30;47m▓[0;1;30;40m▀▀▀█  ▀▀▀█▄ [0;1;30;47m▓[0m
+[1;30m            [0m    [1;30;47m▓[0;1;30;40m    ▄[0m [1;30m█▀▀▀▀▀[0m [1;30m█[0m    [1;30m█[0m [1;30;47m▓[0m   [1;30m▄█[0m [1;30m█[0m     [1;30m [0;1;30;47m▓[0;1;30;40m▀▀▀▀█ █▄[0m  [1;30m █[0m
+[1;30m                ▀▀▀▀▀▀ ▀▓▀▀▀  ▀    █ ▀▀▀▀▀  ▀      ▀▀▀▀▀▀  ▀▀▓▀▀                [0m
+[1;30m                                                           [0m           [34m [0;1;34m█▄▄▄[0m    [1;30m [0m
+[1;30m        [0m                                  [34m    [0;1;34m▄▄█[0;1;34;44m███████[0;1;34;40m▄▄▄▄▄▄▄▄▄[0m              [1;34m [0m
+[1;34m▄▄▄▄▄▄▄▄▄[0;1;34;44m██████[0m                                                                [1;34;44m█[0m
+[1;34;44m███████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;1;34;40m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;34;44m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██████████[0m
+[1;34;44m██▀▀▀▀▀[0;34m████████████████████████████████████████████████████████████████████[0;1;34;44m▀▀▀▀▀[0m
+[34m██[0;1;34;44m░▒▓▒░░[0;34m███[0;1;34;44m░[0;34m██████████████████████████████[0;1;34;44m░░░[0;34m███████████[0;1;34;44m▓▓░▒[0;34m████████████████████[0m
+[34m███████████████████████████▀▀▀▀▀▀[0m             [34m▀▀▀▀▀▀▀▀▀███████████[0;1;34;44m░░[0;34m███[0;1;34;44m▒▓[0;34m███████[0m
+[34m██████████████▀▀▀▀▀▀▀▀    [0;37m [0;1;30m [0m [1;30m [0m [1;30mSelf Portrait? :)[0m                [34m▀▀▀▀▀▀██████████[0m
+[34m████▀▀▀▀▀▀▀[0m                                                                [34m▀▀▀██[0m
+[34m▀[0m'

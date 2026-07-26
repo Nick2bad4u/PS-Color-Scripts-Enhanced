@@ -1,0 +1,47 @@
+﻿# Converted from: KN!EVID.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/ecl-pak3/raw/KN!EVID.ANS
+# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
+# Source SHA-256: 0c14d4728c5f174b34ca78f3fd5f8db4773fba7c2f30dc39bdefe841862a272d
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: KN!EVID.ANS by Kenetic <KN!> (Ecolove (guest)); released in ecl-pak3 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: Evidence
+# SAUCE Author: Kenetic <KN!>
+# SAUCE Group: Ecolove (guest)
+# SAUCE Date: 19980123
+# SAUCE Dimensions: 80x31
+# Lines: 1-31
+# Columns: 1-80
+
+Write-Host '
+[1m┌ [0;1;30m [0;34m    [0;1;30mE[0;31m   [0;1;30mv   [0mi[1;30m   d   e   n   c   e     [0m
+                                            [1;30mMember board of: [0m
+   [1m┌[0m    [1;30mS y s o p[0m  :   [1;30mK e n e t [0mi[1;30m c[0m
+         [1;30m ·[0m  [31m_  _[0;1;31m_[0;31m __[0;1;31m__[0;31m_____[0;1;31m__[0;31m_ [0;1;31m_[0;31m_ _[0m       [1;30m   [0m  [1;30mrARE!ASCII " Expose[0m [1;30m" Fade[0m
+        [31m [0;1;30m·:|[0;31milIS&$[0;1;31m$$[0;31m$$$$$$$[0;1;31m$[0;31mP[0;1;31m╝²°[0;31m^[0;1;31m`[0;31m`[0;37m [0;31m`[0;37m  [0;31m`[0m     [1;30m     Rave Beatz Int. " Remote[0m
+        [31m  [0;1;30m|[0;31mil&$$$$$$$$[0;1;31mP[0;31m╝²[0;1;31m°`[0;35m_,▬yS$$b [0m        [1;30m                 [0m [1;30mAccess Force [0m
+        [31m  l&$[0;1;31m$[0;31m$[0;1;31m$[0;31mP[0;1;31m╝[0;31m²[0;1;31m°`[0;35m_,▬gS$[0;1;35m$$[0;35mP╝²°`[0m   [1;30m [0m
+        [31m  P╝[0;1;31m²[0;31m°[0;1;31m`[0;35m_,▬gS$[0;1;35m$[0;35m$P╝²°`[0m     [35m [0;31m   [0m   [35m [0m     [31m_ __[0;1;31m_[0;31m__[0;1;31m__[0;31m_ _[0;1;31m_[0;31m  _[0m
+        [31m [0;35m_,▬sS$[0;1;35m$[0;35m$P╝[0;1;35m²[0;35m°`[0m     [35m [0m     [31m   [0;35m  [0;31m [0;35m [0;1;30m∙:|i[0;31ml$[0;1;31m$$[0;31m$$$$$$P[0;1;31m*╝[0;31m²[0;1;31m°[0;31m`[0;1;31m`[0;31m `  `[0;35m &[0;1;35m$$[0;35m& [0;31m [0m
+   [35m_,▬gS$[0;1;35m$$[0;35mP╝²°`[0m        [35m ┌my, [0;31m [0m         [1;30m:|[0;31m&$$$$$[0;1;31m¢[0;31m╝[0;1;31m²[0;31m°`[0;35m_,▬╓g%@S$$$b l[0;1;35m$$[0;35m$:[0m
+   [35m`^°²╚*T[0;1;35m$$[0;35m$S%g╖▬,._ [0m   [35m`╚[0;1;35mT$[0;35m$,[0m         [1;30m|[0;31mi[0;1;31m$[0;31m$$P°[0;1;31m`[0;35m_,gS[0;1;35m$$$$[0;35m$P*╝²°^`` :$[0;1;35m$$[0;35ml[0m
+        [35m   `^°[0;1;35m²[0;35m╚*T$[0;1;35m$$[0;35m$[0;1;35m$[0;35mS%y╖▬,[0;1;35m`[0;35m$,[0;31m [0m       [31ml[0;1;31m$[0;31m$[0;1;31mP''[0;35m.gS[0;1;35m$$$[0;35mP╝°`[0m          [35m  &[0;1;35m$$[0;35m&[0m
+            [35m_.y%S$$$P[0;1;35m*[0;35m╝ⁿ[0;1;35m°^[0;35m`[0;1;35m`[0;35m,[0;1;35md$[0;35m$,[0m       [31m&P[0;1;31m''[0;35m,S$[0;1;35m$$[0;35mP²`  _.,▬╓yy╖▬,._  l$[0;1;35m$[0;35m$:[0m
+        [1;30m [0;35m.yS[0;1;35m$$$[0;35mP╝°[0;1;35m`[0;1;30m   [0;35m [0;1;30m [0m    [35m`$[0;1;35m$$[0;35m$,[0;31m [0m     [1;31mP[0;35m ╔$[0;1;35m$$[0;35mP''_▬s[0;1;35mS$$[0;35mP*╝ⁿ²²ⁿ╚*T$$S[0;1;35m$$$$[0;35ml[0m
+[37m [0;31m ▬[0;1;31myy╖[0;31m [0;35m,d[0;1;35m$$$[0;35mP°`[0;1;30m [0m             [35m`$[0;1;35m$$[0;35m$,[0m     [35m d[0;1;35m$$[0;35m$''┌S[0;1;35m$$[0;35mP°`[0m            [35m`°T[0;1;35m$$$[0;35m&[0m
+[37m [0;31m $$$[0;1;31m''[0;35m┌$[0;1;35m$$[0;35m$'' [0m              [35m   `$[0;1;35m$$[0;35m$,[0;31m  [0;35m ,d[0;1;35m$$[0;35m$''d[0;1;35m$$[0;35m$''[0m              [1;30m    [0;35m`$[0;1;35m$[0;35m$:[0m
+[37m [0;35m [0;31m&$l [0;35mS[0;1;35m$$[0;35m$l [0;1;30m   [0m               [35m `T[0;1;35m$$[0;35m$b▬d$[0;1;35m$$[0;35mP''l[0;1;35m$$$[0;35ml[0m                 [1;30m  [0m [35ml[0;1;35m$$[0;35ml [0;1;31myy[0;31m╖[0m
+[37m [0;35m [0;31ml$S [0;35m└$[0;1;35m$$[0;35m$,[0m                 [35m,y[0;1;35mS[0;35mb`╚T[0;1;35m$$[0;35m$P╝''   T[0;1;35m$$[0;35m$,[0m              [1;30m   [0m [35m,$[0;1;35m$[0;35m$P [0;31ml[0;1;31m$[0;31m&[0m
+[37m [0;35m [0;1;30m|[0;31mi$b[0;1;31m,[0;35m`╚T[0;1;35m$$[0;35m$Sg▬,._ _ _.,╓yS$[0;1;35m$P[0;35m╝''[0m   [35m   [0m   [35m    └$[0;1;35m$$[0;35mb,_[0m            [35m_,d[0;1;35m$$[0;35mP┘ [0;1;31m,[0;31m$&l[0m
+[37m [0;35m [0;1;30m:|[0;31m&$$S[0;1;31ms[0;31m▬[0;1;31m.[0;35m`°[0;1;35m²[0;35m╚[0;1;35m*T[0;35m$[0;1;35m$[0;35m$$$$P*╝²°` [0m               [1;30m [0m  [35m`╚T[0;1;35m$$$[0;35mS%s╖▬▬╓s%S$$$P╝'' [0;1;31m,d[0;31m$$i[0;1;30m|[0m
+ [35m [0;1;30m∙:|i[0;31mlS&$$$$S@[0;1;31m%[0;31ms[0;1;31m╖▬[0;31m,[0;1;31m,[0;31m, ,[0;1;31m,[0m   [31m,[0m         [37m»[0;1;30m>[0m [1;30mKenetic[0m!    [35m`^°²╨╩╩╩╩╨ⁿ°^`[0;1;31m.╓s[0;31mS$$$&[0;1;30m|;[0;31m  [0m
+[37m [0m                                       [37m [0m   [37m [0m      [31m ,[0m    [31m,[0;37m [0;1;31m,[0;31m,[0;1;31m▬╓[0;31ms[0;1;31m%[0;31mS$$$$&Sl[0;1;30mi|;∙ [0m
+.
+|--- --  -     -
+| [1;30myEAH finally a pretty neat ascii for my board (evidence).[0m
+: [1;30mI just like this style, curving etc..[0m
+∙
+  [1;30mContacting me: Evidence +31-(0)76-5938027 (isdn/28k8) 3 nodes[0m
+·                [1;30mKenetic@concepts.nl[0m
+                 [1;30mUndernet: #nlcoders[0m'

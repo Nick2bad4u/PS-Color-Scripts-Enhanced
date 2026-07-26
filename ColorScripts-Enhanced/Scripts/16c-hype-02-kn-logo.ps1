@@ -1,0 +1,31 @@
+﻿# Converted from: KN-LOGO.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/hype-02/raw/KN-LOGO.ANS
+# Source Revision: archive-sha256:85e01eadce5f9498d81aff1ce740b243afce4b217290d5d85773c523660d0b86
+# Source SHA-256: 34a86516f377c9e7ee6ea871b75f554d4a63edccaa73f280e47ad921b07694c3
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: KN-LOGO.ANS by Kaneda (Hype); released in hype-02 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: Kaneda Logo2
+# SAUCE Author: Kaneda
+# SAUCE Group: Hype
+# SAUCE Dimensions: 80x25
+# Lines: 1-15
+# Columns: 1-80
+
+Write-Host '
+                [1m%hype% logo by kaneda of seven one four bizatch![0m
+               [1;34m▄▄▄▄[0m
+        [1;35m▄▄▄[0m   [1;34;44m██████[0m                            [1;35m▄▀▀▀[0;1;35;45m▓[0;1;35;40m▄[0m
+       [1;35m▀ [0m  [1;35m▀[0;1;35;45m▒[0m [1;34;44m██[0;1;36;40m█[0;34m██[0;1;34;44m▓[0;34m [0m     [1;35m▄▀▀▀▀▄[0m               [1;35;45m░░[0;1;35;40m     ▀▄[0m              [1;35m▄[0;1;35;45m▓[0;1;35;40m▄[0m
+     [1;35;45m░[0;35mkn![0m   [1;35m█[0m [1;34;44m▓[0;34m████[0;1;34;44m▒[0m [1;34m [0m   [1;35;45m▓[0m     [1;35;45m░░[0m                      [1;35;45m▒[0m            [1;35m▄▀[0m   [1;35m▀▄[0;1;35;45m▓[0m
+     [1;35;45m▒[0m   [1;35m▄▄▀[0m  [1;34;44m▒[0;34m███▓[0;1;34;44m▒[0m [1;34m▀[0;1;34;44m█[0;1;34;40m▀[0;1;36;40m█[0;1;34;40m▄[0;1;35;40m▄[0;1;34;40m▄[0;1;34;44m██[0;1;34;40m▄[0m   [1;34m▄[0;1;36m█[0;1;34;44m█[0;1;34;40m▄[0m [1;34m▄[0;1;36m█[0;1;34;44m██[0;1;34;40m▄▄[0;1;36;40m█[0;1;34;44m██[0;1;34;40m▄[0m [34m [0;1;34m▄[0;1;36m█[0;1;34;44m█[0;1;34;40m▀[0;34m█[0;1;34m▄[0;1;36m█[0;1;34m▀▀▀[0;1;34;44m▒[0m     [1;35m█[0m       [1;35;45m▒[0m
+     [1;35;45m▓[0;1;35;40m▄▀▀▄▄▄▄▄[0;1;34;44m░[0;34m██▄▒█▀[0;37m [0;1;34;44m▒[0;34m██[0;1;34;44m▒[0m [1;34;44m▓[0;34m██[0;1;34;44m▒[0m   [1;34;44m▓[0;34m█▀[0;1;34;44m▒[0m [1;34;44m█[0;34m▀██[0;1;34;44m▓[0m  [34m█▄█[0;1;34;44m▒[0m [1;34;44m▓[0;34m███▒█ █▄▄▓[0m     [1;35m▀▄[0m
+[1;35m▀▀▀████▀▀▀[0m    [1;34;44m░[0;34m ▀█▓█[0;1;35m▀▀[0;1;34;44m░[0;34m ▀[0;1;34;44m░[0;1;35;40m▀[0;1;34;44m░[0;34m ▀[0;1;34;44m░[0;34m▄[0;1;35m▄[0;34m▀[0;1;34;44m▒[0;34m█▒[0;1;34;44m░[0;1;35;40m▄[0;1;34;44m▓[0;34m██▒[0;1;34;44m▒[0m [34m▀█▀ [0;1;34;44m░[0;1;35;40m▀[0;1;34;44m▒[0;34m ▀█▓█[0;1;35m▀▀▀▀[0;34m▄[0;1;35m▀▀███▄▄█▄[0m
+      [1;35m▀▄[0m    [1;35m [0m  [34m▀▀▀▀▓kn[0;37m [0;34m▀▀▓[0;1;35m▄▀[0;34m▀▀▀▀▀▓███▓[0;37m [0;1;34;44m▒[0;34m█▀█[0;1;34;44m░[0;34m▀▓▀▀▀▓[0;1;35m▄▀[0;34m▀▀▀▀▓▀▀▀▀▓[0;37m [0;1;35m▄▀[0;35mkn[0m    [1;35m▀▀▀█▄▄▄▄▀[0m
+[1;35;45m▓[0m       [1;35m▀▄[0m [1;35m  [0m             [1;35m▀▄[0m  [1;35m▄▀[0;34m▄███[0;37m  [0;1;35m [0;1;34;44m░ [0;34m██[0;1;34;44m░[0m      [1;35;45m▓[0m       [1;35m▄[0m    [1;35m▀▄[0;1;35;45m▒[0m [1;35m▄▀[0m
+[1;35;45m░[0m       [1;35m █[0m  [1;35m [0m   [34m▄▄▄███████████████▀[0m   [1;35m [0;1;34;44m░[0;34m████[0m       [1;35m▀▄[0m    [1;35m▄▀[0m     [1;35m ▀▀[0m
+[1;35m▀[0;1;35;45m░[0m      [1;35;45m▓[0;1;35;40m▀[0m                  [34m▀▀▀▀▀[0m     [1;35m [0m [34m▀▀▀[0m          [1;35m▀▀▀▀[0;1;35;45m░[0m
+  [1;35m▀▄▄▄▄▀[0m                            [1;35m    [0m                 [1;35m [0m
+
+ [1m [0m    [1mshit already! i know that the background sucks dick! but deal with it![0m'

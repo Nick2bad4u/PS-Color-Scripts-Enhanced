@@ -1,0 +1,38 @@
+﻿# Converted from: RD-PHA2.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/phar0796/raw/RD-PHA2.ANS
+# Source Revision: archive-sha256:0bbb57a5611ace6464dcbff61380889167ded23847139e255a2f0848c50f7473
+# Source SHA-256: 4b2625920b65cb032a0838d679d7d175d2a13634d1a620d30dd8e38542750ddc
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: RD-PHA2.ANS by Rabid Doctor (phar0796); released in phar0796 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Lines: 1-26
+# Columns: 1-80
+
+Write-Host '
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1m@$$$$$[0;1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0;1;37m''$$[0;35m$$$[0;1;37m$A[0;1;30mPH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0;1;37m$$$[0;35m$$$[0;1;37m$$[0;1;30mPH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^P[0;1;37ma$$$$[0;35m$$[0;1;37m$$a[0;1;30mH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^P[0;1;37m@$$$$$$p$$Ppp.[0;1;30mPH[0ma[1;30mR^P[0;1;37m$$[0;1;30mR[0;1;37m9$[0;35m$$$[0;1;37m$$[0;1;30mH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^P[0;1;37m"$[0;35m$$$$[0;1;37m$P~$$[0;35m$$[0;1;37m$$.[0ma[1;30mR^[0;1;37m9$A[0;1;30mR[0;1;37m!$[0;35m$$$[0;1;37m$$a[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0;1;37m$$[0;35m$$[0;1;37m$$P[0;1;30m^[0;1;37m9$[0;35m$$$[0;1;37m$$[0ma[1;30mR[0;1;37m:$$$$$$[0;35m$$$$[0;1;37m$$[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0;1;37m$$[0;35m$$[0;1;37m$$P[0;1;30m^[0;1;37m9$$[0;35m$$[0;1;37m$$[0ma[1;30mR[0;1;37m@$A'' `!$[0;35m$$$$[0;1;37m$A[0;1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0;1;37m$$[0;35m$$[0;1;37m$$P[0;1;30m^[0;1;37m9$$$$$"[0;1;35m.[0;1;37ma$$A.[0;1;30mR^[0;1;35mA[0;1;37m$$$$$$$a[0;1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0;1;37m$$[0;35m$$[0;1;37m$$p$$$$*"[0;1;30mPH[0;1;35m`""""[0ma[1;30mR[0;1;35m`"""""""""[0;1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0;1;37m$$[0;35m$$[0;1;37m$$P[0;1;30m^P[0;1;37m$$$$$$$$Hh$$$$$$$$[0;1;30m^P[0;1;37mr$$$$$$$r$$$Rr.[0;1;30mH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^P[0;1;35m,[0;1;37m$$[0;35m$$[0;1;37m$$P[0;1;30m^P[0;1;37m9$[0;35m$$$$[0;1;37m$H[0;1;30m^P[0;1;37m$$[0;35m$$$[0;1;37m$$[0;1;30mR^P[0;1;37m`"$[0;35m$$$$[0;1;37m$[0;1;30m^[0;1;37mR$[0;35m$$[0;1;37m$$R[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^P[0;1;35mp[0;1;37m$$$$$$$p[0;1;30mP[0;1;37m''$$[0;35m$$[0;1;37m$$H[0;1;30m^P[0;1;37m$$[0;35m$$$[0;1;37m$$[0;1;30mR^PH[0ma[1m$$[0;35m$$[0;1;37m$$[0;1;30m^[0;1;37m`$[0;35m$$$[0;1;37m$$R[0;1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^[0;1;35m`"""""""""[0;1;30mP[0;1;37m''$$[0;35m$$[0;1;37m$$H[0;1;30m^[0;1;37m,$$[0;35m$$$[0;1;37m$$[0;1;30mR^PH[0ma[1m$$[0;35m$$[0;1;37m$$[0;1;30m^P[0;1;37m$[0;35m$[0;1;37m$$$$[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^P[0;1;37m''$$[0;35m$$[0;1;37m$$h$$$$[0;35m$$$[0;1;37m$$[0;1;30mR^PH[0ma[1m$$[0;35m$$[0;1;37m$$:$$[0;35m$[0;1;37m$R"[0;1;30mH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^P[0;1;37m''$$[0;35m$$[0;1;37m$$H `$$[0;35m$$$[0;1;37m$$[0;1;30mR^PH[0ma[1m$$[0;35m$$[0;1;37m$$''`$[0;35m$[0;1;37m$$$e[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^P[0;1;37m''$$[0;35m$$[0;1;37m$$H[0;1;30m^P[0;1;37m$$[0;35m$$$[0;1;37m$$[0;1;30mR^PH[0ma[1m$$[0;35m$$[0;1;37m$$[0;1;30m^P[0;1;37m$[0;35m$$$[0;1;37m$$[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^P[0;1;37m''$$[0;35m$$[0;1;37m$$H[0;1;30m^P[0;1;37m$[0;35m$$$$$[0;1;37m$[0;1;30mR^PH[0ma[1m$$[0;35m$$[0;1;37m$$[0;1;30m^P[0;1;37m$$[0;35m$$$[0;1;37m$[0ma[1m.[0;1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^P[0;1;35mh[0;1;37m$$$$$$$hH$$$$$$$h[0;1;30m^P[0;1;35m.@[0;1;37m$$$$$$r[0;1;30mP[0;1;35m`$[0;1;37m$$$$$[0;1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^[0;1;35m`""""""""""""""""""[0;1;30m^P[0;1;35m`""""""""[0;1;30mPH[0;1;35m`""""[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0m
+[1;30m^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR^PH[0ma[1;30mR[0;1;34m---RD[0m
+-----[PSYCHoTiC]----------------------------------------------------------------
+ PHaR ASCii shaking major booty in the disco scene.. oh yeah, and the art  scene
+too! Next month I do some other logos rather than just PHaR all the time.[0m'

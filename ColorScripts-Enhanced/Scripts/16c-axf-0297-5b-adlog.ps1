@@ -1,0 +1,37 @@
+﻿# Converted from: 5B-ADLOG.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/axf-0297/raw/5B-ADLOG.ANS
+# Source Revision: archive-sha256:60e502c9a1ba0703538ea6854865054cb1103c69d11b9a8571db69144d294d40
+# Source SHA-256: 0ef8d90f24a3ced8e31a6ea9490310642feab186b1b363a25f903d46af44f36c
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: 5B-ADLOG.ANS by 5b (axf); released in axf-0297 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# SAUCE Title: ad login
+# SAUCE Author: 5b
+# SAUCE Group: axf
+# SAUCE Date: 19970110
+# SAUCE Dimensions: 80x21
+# Lines: 1-21
+# Columns: 1-80
+
+Write-Host '
+
+                                                    [1m [0m
+             [1m  [0ma[1;36m [0;1;30m  ░[0m [36m▀[0;1;32;46m■▄[0;36m▄▄▄[0;1;30m░[0m n[1;30m [0m                  e    [1;30m░[0;1;32;46m■░[0;36m▄▄[0;37m l[0m
+      [1;30m▄▄▄▄▄▄▄ ░[0;36m▄▄[0;1;32;46m▄[0;36m█▀▀▄[0;1;32;46m░█▓░[0;1;30;40m [0;36m▄▄▄[0;1;32;46m▄▄■[0m [1;30m░[0;1;32;46m░[0;1;32;40m▄[0;36m▄[0;1;30m░[0;36m [0;37mg[0;1;30m░[0;36m▄▄[0;1;32m▄[0;1;32;46m■[0;36m▀▓[0;1;32;46m▄█[0;1;32;40m▄[0;36m▄[0;37m  [0;1;37m [0;1;32;46m ▐█░[0;36m▄▄[0;37m [0m   [1;30m▄▄▄▄▄▄▄▄▄[0m
+      [1;30;47m▓[0;1;30;40m▀ ▀███[0m [1;32;46m░▓█░[0;1;30;40m █▄[0;36m▐[0;1;32;46m▐█▌[0;36m▌[0;1;30m [0;36m▐[0;1;32;46m ██▓[0;1;30;40m █[0m [1;32;46m░▐█▄[0;36m▌[0;37m [0;1;32;46m░▀█▀[0m [1;30m█ [0;1;32;46m░▀▀░[0;36m▀[0;37m [0;36m▐[0;1;32;46m░██▌[0m [1;30m▄ [0;1;32;46m■░[0;36m▄▄[0;37m [0;1;30m███████[0m
+      [1;30;47m▓█[0;1;30;40m▄█▓█▌[0;36m▐[0;1;32;46m▐█▌[0;36m▌[0;1;30m▐[0;1;30;47m▓[0;1;30;40m▌[0;36m▐[0;1;32;46m▐█▌[0;36m▌[0;1;30m [0;36m█[0;1;32;46m██▒[0;36m▌[0;1;30m▐[0;1;30;47m▓[0;1;30;40m▌[0;36m▐[0;1;32;46m▐█▌[0;36m▓[0;37m [0;36m▄▄[0;37m [0;36m▀▀■▄▄▄[0;1;32m▄[0;36m▄[0;1;30m [0m [36m▓[0;1;32;46m▐██░[0m [1;30m▓ [0;1;32;46m░█▓█[0;36m▌[0;1;30m █[0;1;30;47m▓[0;1;30;40m▄▓▀[0;1;30;47m▓[0m
+      [1;30;47m▓▓[0;1;30;40m▄[0;1;30;47m▓▓[0;1;30;40m█[0m [36m█[0;1;32;46m░▓█[0;36m█[0;1;30m █[0m [36m█[0;1;32;46m██░[0;1;30;40m ▌[0;36m▐[0;1;32;46m▐█▌[0;36m▌[0;1;30m ▓[0m [1;32;46m▒██[0;36m█[0;1;30m [0m [1;32;46m░█▄ [0m [1;30m▀▌[0;36m▐[0;1;32;46m▐█▌[0;36m▌[0;37m [0;36m▐[0;1;32;46m██▌[0;36m▌[0;1;37m [0;1;30;47m▓[0;1;30;40m▌[0;36m▐[0;1;32;46m▐█▌[0m [1;30m▐▀██[0;1;30;47m▓▓▓[0m
+      [1;30;47m▒▓▓▓▒[0;1;30;40m█▄ [0;36m▀▀[0;1;32;46m░■[0;36m▄[0;37m  [0;1;32;46m░▒▓░[0;1;30;40m █▄[0;36m▀[0;1;32;46m▀▓░[0;36m▄■▀[0;1;32;46m░▀░[0;36m█ [0;1;30m▄ [0;36m▀▀[0;1;32;46m░[0;36m▀■▄[0;1;32;46m░█[0;1;32;40m█[0;1;32;46m▀■[0m [36m▄[0;1;32;46m░█░[0m [1;30m▐▀ [0;1;32;46m░▀█[0;36m▓[0;37m [0;1;30m███[0;1;30;47m▓▓▒░[0m
+      [1;30m░─░───[0m [1;30m░-───[0m [36m■▀▀▀[0;1;32;46m▒░[0;36m▌[0;1;30m░ ─[0m [36m▀▀ [0;1;30m───-─-──░─  ── [0;36m▀[0;1;32;46m░[0;36m▀▀[0;1;30m--[0m [36m▀█[0;1;32;46m■[0;36m█▄▄█[0;1;32;46m [0;36m▀▀[0;37m [0;1;30m-░5b!░─░[0m
+      [1;30mangel%dust%op%snowblind%here%u%find%bbs%mods%art%demos%intros%music![0m
+
+        handle [1minput in white[0m                                      handle
+      usernote                                                     usernote
+      password                                                     password
+
+[1;30m--------------------------------------------------------------------------------[0m
+[1;30mok, this was orginally for my board angel dust, but finding out that there[0m
+[1;30mwas a board in finland called angel dust i changed name. This one is a login[0m
+[1;30mthing but it looks like crap.. So, if your board is called angel dust, use[0m
+[1;30mthis if u want to..[0m       [1;30m/5b[0m'

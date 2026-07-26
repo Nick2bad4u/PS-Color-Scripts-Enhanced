@@ -1,0 +1,35 @@
+﻿# Converted from: ANS-0014.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/ansis/raw/ANS-0014.ANS
+# Source Revision: archive-sha256:cabd7c46b38b213194457f50f766681b723f86902e0b5d87c41548c28c231d67
+# Source SHA-256: e37841888e814d4005c50d2900de4c93c3025d9e045e97748fa3c06f77d83a69
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: ANS-0014.ANS by Tim Christofferson (ansis); released in ansis and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Lines: 1-23
+# Columns: 1-80
+
+Write-Host '
+[37;40m                                                                                [0m
+[1;36;46m                                                                              [0;37;40m  [0m
+[1;36;46m      [0;34;46m╔═╦═╗ ╔═╗ ╗ ╔═══╗ ╔═══╗[0;1;36;46m      [0;34;46m╔═══╗  ╔   ╗ ╔═══╗ ╔═══╗ ╔══╦══╗[0;1;36;46m           [0;37;40m  [0m
+[1;36;46m        [0;34;46m║   ║ ║ ║ ║     ║   ║[0;1;36;46m      [0;34;46m║   ║  ║   ║ ║     ║        ║[0;1;36;46m              [0;37;40m  [0m
+[1;36;46m        [0;34;46m║   ║ ║ ║ ╠══╗  ║ [0;5;31;46m█[0;34;46m ║[0;1;36;46m      [0;34;46m║   ║  ║   ║ ╠══╗  ╚═══╗    ║[0;1;36;46m [0;1;37;46mADVANTAGE[0;1;36;46m    [0;37;40m  [0m
+[1;36;46m        [0;34;46m║   ║ ║ ║ ║     ║   ║[0;1;36;46m      [0;34;46m║  ╚╬╗ ║   ║ ║         ║    ║[0;1;36;46m              [0;37;40m  [0m
+[1;36;46m      [0;34;46m╚═╩═╝ ╚ ╚═╝ ╚═    ╚═══╝[0;1;36;46m      [0;34;46m╚═══╝  ╚═══╝ ╚═══╝ ╚═══╝  ╚═╩═╝[0;1;36;46m            [0;37;40m  [0m
+[1;36;46m                                                                              [0;37;40m  [0m
+[1;36;46m [0;1;36;44m ╓───────────────────────────╖ [0;1;36;46m                                              [0;37;40m  [0m
+[1;36;46m [0;1;36;44m ║                           ║ [0;1;36;46m                    [0;30;43m╓────────────────────╖[0;1;36;46m    [0;37;40m  [0m
+[1;36;46m [0;1;36;44m ║    [0;1;37;44mInfoQuest Advantage[0;1;36;44m    ║ [0;1;36;46m                    [0;30;43m║ Sysops:            ║[0;1;36;46m    [0;37;40m  [0m
+[1;36;46m [0;1;36;44m ║                           ║ [0;1;36;46m                    [0;30;43m║                    ║[0;1;36;46m    [0;37;40m  [0m
+[1;36;46m [0;1;36;44m ║      (801) 254-0344       ║ [0;1;36;46m                    [0;30;43m║ Tim Christofferson ║[0;1;36;46m    [0;37;40m  [0m
+[1;36;46m [0;1;36;44m ║       Riverton, UT        ║ [0;1;30;40m──[0;1;36;44m───────────╖ [0;1;36;46m     [0;30;43m║ David W. Terry     ║[0;1;36;46m    [0;37;40m  [0m
+[1;36;46m [0;1;36;44m ║                           ║ [0;37;40m  [0;1;36;44m 1200/2400 ║ [0;1;36;46m     [0;30;43m╙────────────────────╜[0;1;36;46m    [0;37;40m  [0m
+[1;36;46m [0;1;36;44m ╙───────────────────────────╜ [0;37;40m  [0;1;36;44m    Baud   ║ [0;1;36;46m                               [0;37;40m  [0m
+[1;36;46m                [0;37;40m [0;1;30;40m║[0;37;40m                [0;1;36;44m           ║ [0;1;36;46m                               [0;37;40m  [0m
+[1;36;46m                [0;1;36;44m ║ 24 Hours/Day  7 Days/Week ║ [0;1;36;46m                               [0;37;40m  [0m
+[1;36;46m                [0;1;36;44m ║                           ║ [0;1;36;46m             [0;1;30;47m╓─────────╖[0;1;36;46m       [0;37;40m  [0m
+[1;36;46m                [0;1;36;44m ║ (Closed between 1AM & 2AM ║ [0;1;36;46m             [0;1;30;47m║ PCBoard ║[0;1;36;46m       [0;37;40m  [0m
+[1;36;46m                [0;1;36;44m ║   for daily maintenance.) ║ [0;1;36;46m             [0;1;30;47m║BETA Test║[0;1;36;46m       [0;37;40m  [0m
+[1;36;46m                [0;1;36;44m ╙───────────────────────────╜ [0;1;36;46m             [0;1;30;47m╙─────────╜[0;1;36;46m       [0;37;40m  [0m
+[1;36;46m                                                                              [0;37;40m  [0m'
