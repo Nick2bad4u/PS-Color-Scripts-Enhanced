@@ -103,11 +103,20 @@ node scripts/Convert-AnsiToColorScript.js ./art.ans
 node scripts/Split-AnsiFile.js ./art.ans --auto --dry-run
 npm run ansi:audit -- --source=16colors --pack=mist0624
 npm run ansi:audit:offline -- --cache-dir=./temp/ansi-archive-audit
+npm run ansi:audit:offline -- --year=2016 --decisions=./temp/ansi-archive-audit/decisions.json --exclude-existing-manifest=./temp/ansi-archive-audit/import-manifest.json
 node ./scripts/Verify-AnsiConversion.mjs --source=./art.ans --prefix=16c-example
 node ./scripts/Analyze-ColorScripts.mjs --type=tiny-tail-part --type=dense-split-boundary --type=continuous-split-review
 npm run scripts:check-dupes
 npm run test:conversion
 ```
+
+Use `--exclude-existing-manifest=<path>` when reproducibly rebuilding a year
+whose scripts are already in the gallery. It removes only the named manifest's
+scripts from the existing-gallery source and rendered-cell indexes, allowing
+the audit to reconsider that same import without treating it as its own
+duplicate. The option is repeatable and fails closed for empty, repeated,
+malformed, stale, or hash-mismatched manifests; it does not suppress unrelated
+gallery duplicates.
 
 When archive metadata has an incomplete artist or group credit, keep the
 verified file-scoped attribution in the resumable decision record rather than

@@ -97,6 +97,7 @@ Pass script arguments after `--`, for example:
 npm run scripts:split -- ./art.ans --auto --dry-run
 node ./scripts/Audit-AnsiArchives.js --source=16colors --pack=mist0624
 node ./scripts/Audit-AnsiArchives.js --offline --cache-dir=./temp/ansi-archive-audit
+node ./scripts/Audit-AnsiArchives.js --offline --year=2016 --decisions=./temp/ansi-archive-audit/decisions.json --exclude-existing-manifest=./temp/ansi-archive-audit/import-manifest.json
 node ./scripts/Analyze-ColorScripts.mjs --type=tiny-tail-part --json=./temp/gallery-analysis/tiny-tails.json
 node ./scripts/Analyze-ColorScripts.mjs --type=mergeable-adjacent-parts --type=avoidable-extra-part
 node ./scripts/Analyze-ColorScripts.mjs --type=dense-split-boundary --type=continuous-split-review
@@ -104,6 +105,12 @@ node ./scripts/Analyze-ColorScripts.mjs --type=leading-blank-run --type=trailing
 node ./scripts/Analyze-ColorScripts.mjs --type=mostly-plain-ascii --type=low-structural-complexity
 node ./scripts/Verify-AnsiConversion.mjs --source=./ZII-UBBS.ANS --prefix=16c-mist-30-zii-ubbs
 ```
+
+`--exclude-existing-manifest=<path>` is repeatable and is intended for
+rebuilding an already imported tranche. The audit validates every named
+script and hash against checked-in provenance, excludes only those scripts
+from the gallery baseline, and continues to detect unrelated duplicates. Empty,
+repeated, malformed, stale, or hash-mismatched manifests terminate the audit.
 
 Gallery-analysis findings are review signals, not automatic deletion
 decisions. The analyzer reconstructs terminal cells, counts background-colored
