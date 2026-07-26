@@ -10,10 +10,13 @@
       <command:noun>ColorScriptProfile</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>Aggiunge un blocco di avvio gestito al profilo PowerShell selezionato. Il blocco importa ColorScripts-Enhanced e può richiamare `Show-ColorScript` dopo l'importazione. `-SkipStartupScript` scrive un blocco di sola importazione.</maml:para>
-      <maml:para>Quando `-ProfilePath` viene omesso, il comando preferisce `$PROFILE.CurrentUserAllHosts` e altrimenti utilizza il primo percorso del profilo definito. Il file del profilo e le directory principali mancanti vengono create quando necessario.</maml:para>
-      <maml:para>I blocchi ColorScripts-Enhanced gestiti o legacy esistenti vengono sostituiti anziché duplicati. Se il profilo importa già il modulo all'esterno di un blocco gestito, il comando lo lascia invariato a meno che non venga specificato `-Force`. `-Force` consente di sostituire il contenuto del modulo riconosciuto preservando il contenuto del profilo non correlato.</maml:para>
-      <maml:para>Il comportamento di avvio generato viene risolto da parametri espliciti e configurazione persistente. `-AutoShow` abilita esplicitamente la visualizzazione, `-DefaultStartupScript` seleziona uno script con nome e l'inclusione dei Pokémon può essere fornita direttamente o risolta tramite il prompt interattivo e le sue sostituzioni documentate. A meno che non venga utilizzato `-SkipCacheBuild`, il comando può preriscaldare le voci della cache selezionate dai criteri dopo l'aggiornamento del profilo.</maml:para>
+      <maml:para>Aggiunge un blocco di avvio gestito al profilo PowerShell selezionato. Il blocco importa ColorScripts-Enhanced e può richiamare `Show-ColorScript` dopo l'importazione. `-SkipStartupScript` scrive un blocco di sola importazione.
+
+Quando `-ProfilePath` viene omesso, il comando preferisce `$PROFILE.CurrentUserAllHosts` e altrimenti utilizza il primo percorso del profilo definito. Il file del profilo e le directory principali mancanti vengono create quando necessario.
+
+I blocchi ColorScripts-Enhanced gestiti o legacy esistenti vengono sostituiti anziché duplicati. Se il profilo importa già il modulo all'esterno di un blocco gestito, il comando lo lascia invariato a meno che non venga specificato `-Force`. `-Force` consente di sostituire il contenuto del modulo riconosciuto preservando il contenuto del profilo non correlato.
+
+Il comportamento di avvio generato viene risolto da parametri espliciti e configurazione persistente. `-AutoShow` abilita esplicitamente la visualizzazione, `-DefaultStartupScript` seleziona uno script con nome e l'inclusione dei Pokémon può essere fornita direttamente o risolta tramite il prompt interattivo e le sue sostituzioni documentate. A meno che non venga utilizzato `-SkipCacheBuild`, il comando può preriscaldare le voci della cache selezionate dai criteri dopo l'aggiornamento del profilo.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -268,157 +271,113 @@ Il file del profilo viene creato automaticamente se non esiste, comprese le dire
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
         <maml:introduction>
           <maml:para>Aggiungi al profilo dell'utente corrente per tutti gli host (comportamento predefinito).</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile
-```</maml:para>
-          <maml:para></maml:para>
-          <maml:para>Ciò aggiunge sia l'importazione del modulo che la chiamata `Show-ColorScript` a `$PROFILE.CurrentUserAllHosts`.</maml:para>
         </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        <dev:code>Add-ColorScriptProfile</dev:code>
+        <dev:remarks>
+          <maml:para>Ciò aggiunge sia l'importazione del modulo che la chiamata `Show-ColorScript` a `$PROFILE.CurrentUserAllHosts`.</maml:para>
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
         <maml:introduction>
           <maml:para>Aggiungi al profilo dell'utente corrente solo per l'host corrente, senza lo script di avvio.</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost -SkipStartupScript
-```</maml:para>
-          <maml:para></maml:para>
-          <maml:para>Ciò aggiunge un blocco gestito di sola importazione al profilo dell'host corrente.</maml:para>
         </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        <dev:code>Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost -SkipStartupScript</dev:code>
+        <dev:remarks>
+          <maml:para>Ciò aggiunge un blocco gestito di sola importazione al profilo dell'host corrente.</maml:para>
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
         <maml:introduction>
           <maml:para>Aggiungi a un percorso di profilo personalizzato con espansione della variabile di ambiente.</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -Path "$env:USERPROFILE\Documents\CustomProfile.ps1"
-```</maml:para>
-          <maml:para></maml:para>
-          <maml:para>Questo ha come target un file di profilo specifico al di fuori delle posizioni dei profili PowerShell standard.</maml:para>
         </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        <dev:code>Add-ColorScriptProfile -Path "$env:USERPROFILE\Documents\CustomProfile.ps1"</dev:code>
+        <dev:remarks>
+          <maml:para>Questo ha come target un file di profilo specifico al di fuori delle posizioni dei profili PowerShell standard.</maml:para>
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
         <maml:introduction>
           <maml:para>Forza la riaggiunta dello snippet anche se esiste già.</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -Force
-```</maml:para>
-          <maml:para></maml:para>
-          <maml:para>Questo aggiornamento riconosce il contenuto del profilo ColorScripts-Enhanced preservando le linee del profilo non correlate.</maml:para>
         </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        <dev:code>Add-ColorScriptProfile -Force</dev:code>
+        <dev:remarks>
+          <maml:para>Questo aggiornamento riconosce il contenuto del profilo ColorScripts-Enhanced preservando le linee del profilo non correlate.</maml:para>
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
         <maml:introduction>
           <maml:para>Configurazione su una nuova macchina: crea un profilo se necessario e aggiungi ColorScript a tutti gli host.</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserAllHosts -Confirm:$false
-Write-Host "Profilo configurato. Riavvia il terminale per visualizzare i colorscript all'avvio."
-```</maml:para>
         </maml:introduction>
-        <dev:code />
+        <dev:code>Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserAllHosts -Confirm:$false
+Write-Host "Profilo configurato. Riavvia il terminale per visualizzare i colorscript all'avvio."</dev:code>
         <dev:remarks />
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
         <maml:introduction>
           <maml:para>Aggiungi con un colorscript specifico per la visualizzazione all'avvio:</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -DefaultStartupScript mandelbrot-zoom -AutoShow
-```</maml:para>
         </maml:introduction>
-        <dev:code />
+        <dev:code>Add-ColorScriptProfile -DefaultStartupScript mandelbrot-zoom -AutoShow</dev:code>
         <dev:remarks />
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
         <maml:introduction>
           <maml:para>Verifica che il profilo sia stato aggiunto correttamente:</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile
-Get-Content $PROFILE.CurrentUserAllHosts | Select-String "ColorScripts-Enhanced"
-```</maml:para>
         </maml:introduction>
-        <dev:code />
+        <dev:code>Add-ColorScriptProfile
+Get-Content $PROFILE.CurrentUserAllHosts | Select-String "ColorScripts-Enhanced"</dev:code>
         <dev:remarks />
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
         <maml:introduction>
           <maml:para>Scegli come target esplicitamente il profilo current-host o all-hosts:</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-# Solo per terminale Windows o ConEmu
-Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost</maml:para>
-          <maml:para></maml:para>
-          <maml:para># Per tutti gli host PowerShell (ISE, VSCode, Console)
-Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserAllHosts
-```</maml:para>
         </maml:introduction>
-        <dev:code />
+        <dev:code># Solo per terminale Windows o ConEmu
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost
+
+# Per tutti gli host PowerShell (ISE, VSCode, Console)
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserAllHosts</dev:code>
         <dev:remarks />
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
         <maml:introduction>
           <maml:para>Utilizzando percorsi relativi ed espansione della tilde:</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-# Utilizzo dell'espansione tilde per la directory home
-Add-ColorScriptProfile -Path "~/Documents/PowerShell/profile.ps1"</maml:para>
-          <maml:para></maml:para>
-          <maml:para># Utilizzando il percorso relativo della directory corrente
-Add-ColorScriptProfile -Path ".\my-profile.ps1"
-```</maml:para>
         </maml:introduction>
-        <dev:code />
+        <dev:code># Utilizzo dell'espansione tilde per la directory home
+Add-ColorScriptProfile -Path "~/Documents/PowerShell/profile.ps1"
+
+# Utilizzando il percorso relativo della directory corrente
+Add-ColorScriptProfile -Path ".\my-profile.ps1"</dev:code>
         <dev:remarks />
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
         <maml:introduction>
           <maml:para>Visualizza colorscript diversi ogni giorno aggiungendo logica personalizzata:</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -SkipStartupScript
+        </maml:introduction>
+        <dev:code>Add-ColorScriptProfile -SkipStartupScript
 # Quindi aggiungi manualmente quanto segue a $PROFILE
 # $seed = (Get-Date).DayOfYear
 # Get-Random -SetSeed $seed
-# Show-ColorScript
-```</maml:para>
-        </maml:introduction>
-        <dev:code />
+# Show-ColorScript</dev:code>
         <dev:remarks />
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
         <maml:introduction>
           <maml:para>Salta automaticamente gli script Pokémon quando viene mostrata l'immagine di avvio:</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -IncludePokemon
-```</maml:para>
-          <maml:para></maml:para>
-          <maml:para>Questo aggiunge `Show-ColorScript -IncludePokemon` (avvolto in un try/catch protettivo) al profilo in modo che la grafica del lancio possa includere script Pokémon.</maml:para>
         </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        <dev:code>Add-ColorScriptProfile -IncludePokemon</dev:code>
+        <dev:remarks>
+          <maml:para>Questo aggiunge `Show-ColorScript -IncludePokemon` (avvolto in un try/catch protettivo) al profilo in modo che la grafica del lancio possa includere script Pokémon.</maml:para>
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -438,11 +397,15 @@ Add-ColorScriptProfile -IncludePokemon
       <command:noun>ColorScriptCache</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>Il cmdlet `Clear-ColorScriptCache` rimuove i file di output memorizzati nella cache generati dal modulo ColorScripts-Enhanced. Ogni voce è costituita da un payload `&lt;name&gt;.cache` renderizzato e da un sidecar di convalida `&lt;name&gt;.cacheinfo` nella directory della cache effettiva.</maml:para>
-      <maml:para>È possibile eliminare le voci della cache in modo selettivo utilizzando il parametro `-Name` con caratteri jolly oppure rimuovere tutte le voci contemporaneamente con il parametro `-All`. `-All` rimuove anche i sidecar orfani il cui carico utile è stato eliminato. Il cmdlet supporta il filtraggio in base a `-Category` e `-Tag` per indirizzare sottoinsiemi specifici di script memorizzati nella cache.</maml:para>
-      <maml:para>I nomi di script senza corrispondenza riportano uno stato `Missing` nei risultati. Utilizzare `-DryRun` per visualizzare in anteprima le azioni di rimozione senza modificare il file system e `-Path` per indirizzare una directory della cache alternativa (utile per configurazioni di cache personalizzate o ambienti CI/CD).</maml:para>
-      <maml:para>Le voci della cache idonee vengono rigenerate quando viene visualizzato il renderer selezionato dalla policy corrispondente o viene richiamato `New-ColorScriptCache`. Gli script deterministici in bundle eseguono il rendering in-process e non creano voci nella cache.</maml:para>
-      <maml:para>Per gli scenari di automazione, combina `-PassThru` per acquisire risultati strutturati, `-Quiet` per eliminare il messaggio di riepilogo o `-NoAnsiOutput` per emettere riepiloghi in testo semplice senza codici colore ANSI.</maml:para>
+      <maml:para>Il cmdlet `Clear-ColorScriptCache` rimuove i file di output memorizzati nella cache generati dal modulo ColorScripts-Enhanced. Ogni voce è costituita da un payload `&lt;name&gt;.cache` renderizzato e da un sidecar di convalida `&lt;name&gt;.cacheinfo` nella directory della cache effettiva.
+
+È possibile eliminare le voci della cache in modo selettivo utilizzando il parametro `-Name` con caratteri jolly oppure rimuovere tutte le voci contemporaneamente con il parametro `-All`. `-All` rimuove anche i sidecar orfani il cui carico utile è stato eliminato. Il cmdlet supporta il filtraggio in base a `-Category` e `-Tag` per indirizzare sottoinsiemi specifici di script memorizzati nella cache.
+
+I nomi di script senza corrispondenza riportano uno stato `Missing` nei risultati. Utilizzare `-DryRun` per visualizzare in anteprima le azioni di rimozione senza modificare il file system e `-Path` per indirizzare una directory della cache alternativa (utile per configurazioni di cache personalizzate o ambienti CI/CD).
+
+Le voci della cache idonee vengono rigenerate quando viene visualizzato il renderer selezionato dalla policy corrispondente o viene richiamato `New-ColorScriptCache`. Gli script deterministici in bundle eseguono il rendering in-process e non creano voci nella cache.
+
+Per gli scenari di automazione, combina `-PassThru` per acquisire risultati strutturati, `-Quiet` per eliminare il messaggio di riepilogo o `-NoAnsiOutput` per emettere riepiloghi in testo semplice senza codici colore ANSI.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -822,96 +785,67 @@ Il filtraggio in base a `-Category` o `-Tag` richiede che gli script abbiano met
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -All -Confirm:$false
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Clear-ColorScriptCache -All -Confirm:$false</dev:code>
+        <dev:remarks>
           <maml:para>Rimuove tutti i file della cache nella directory della cache predefinita senza richiedere conferma. Ciò è utile per aggiornare completamente la cache dopo gli aggiornamenti del modulo o durante la risoluzione dei problemi di visualizzazione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name 'aurora-*' -DryRun
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Clear-ColorScriptCache -Name 'aurora-*' -DryRun</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza in anteprima quali file di cache a tema Aurora verranno rimossi senza effettivamente eliminarli. L'output mostra i file della cache che corrispondono al modello, consentendoti di verificare la selezione prima di procedere all'eliminazione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name Galaxy -Path $env:TEMP -Confirm:$false
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Clear-ColorScriptCache -Name Galaxy -Path $env:TEMP -Confirm:$false</dev:code>
+        <dev:remarks>
           <maml:para>Cancella il file di cache per il renderer 'Galaxy' idoneo da una directory personalizzata in TEMP. Ciò è utile quando si testa `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` o un'altra posizione cache isolata.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Category Mathematical -WhatIf
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Clear-ColorScriptCache -Category Mathematical -WhatIf</dev:code>
+        <dev:remarks>
           <maml:para>Mostra cosa accadrebbe se i file di cache per gli script nella categoria `Mathematical` venissero rimossi. Il parametro `-WhatIf` impedisce la cancellazione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -Tag retro | Clear-ColorScriptCache -DryRun
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -Tag retro | Clear-ColorScriptCache -DryRun</dev:code>
+        <dev:remarks>
           <maml:para>Utilizza l'input della pipeline per visualizzare in anteprima la rimozione dei file di cache per tutti gli script contrassegnati come 'retro'. Combina il filtraggio per tag con un'anteprima di prova prima di impegnarsi nell'eliminazione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name 'test-*', 'demo-*' -Confirm:$false
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Clear-ColorScriptCache -Name 'test-*', 'demo-*' -Confirm:$false</dev:code>
+        <dev:remarks>
           <maml:para>Rimuove i file di cache per tutti gli script i cui nomi iniziano con 'test-' o 'demo-' senza conferma. È possibile specificare più modelli di caratteri jolly come array.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Cancella i file di cache esistenti e ricostruisci le voci selezionate dalla policy
+        <maml:introduction></maml:introduction>
+        <dev:code># Cancella i file di cache esistenti e ricostruisci le voci selezionate dalla policy
 Clear-ColorScriptCache -All -Confirm:$false
 New-ColorScriptCache -PassThru | Measure-Object
-Write-Host "Cache ricostruita correttamente"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "Cache ricostruita correttamente"</dev:code>
+        <dev:remarks>
           <maml:para>Cancella tutti i payload della cache, ricostruisce le voci selezionate dalla policy della cache dinamica e quindi mostra le statistiche relative alle voci ricostruite.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Cancella le vecchie voci della cache risalenti a più di 30 giorni fa
+        <maml:introduction></maml:introduction>
+        <dev:code># Cancella le vecchie voci della cache risalenti a più di 30 giorni fa
 $cacheDir = (Get-ColorScriptConfiguration).Cache.EffectivePath
 $thirtyDaysAgo = (Get-Date).AddDays(-30)
 Get-ChildItem $cacheDir -Filter "*.cache" |
@@ -919,61 +853,46 @@ Get-ChildItem $cacheDir -Filter "*.cache" |
     ForEach-Object {
         Clear-ColorScriptCache -Name $_.BaseName -Confirm:$false
     }
-Write-Host "File di cache obsoleti rimossi"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "File di cache obsoleti rimossi"</dev:code>
+        <dev:remarks>
           <maml:para>Rimuove i file della cache che non sono stati aggiornati da più di 30 giorni.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Rapporto sulla gestione della cache
+        <maml:introduction></maml:introduction>
+        <dev:code># Rapporto sulla gestione della cache
 $cacheDir = (Get-ColorScriptConfiguration).Cache.EffectivePath
 $beforeCount = @(Get-ChildItem $cacheDir -Filter "*.cache" -ErrorAction SilentlyContinue).Count
 Clear-ColorScriptCache -Category Geometric -Confirm:$false
 $afterCount = @(Get-ChildItem $cacheDir -Filter "*.cache" -ErrorAction SilentlyContinue).Count
-Write-Host "Rimossi $($beforeCount - $afterCount) file di cache geometrici"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "Rimossi $($beforeCount - $afterCount) file di cache geometrici"</dev:code>
+        <dev:remarks>
           <maml:para>Mostra le statistiche sulle operazioni di svuotamento della cache.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Risoluzione dei problemi: cancella e ricostruisci lo script specifico
+        <maml:introduction></maml:introduction>
+        <dev:code># Risoluzione dei problemi: cancella e ricostruisci lo script specifico
 $scriptName = "Galaxy"
 Clear-ColorScriptCache -Name $scriptName -Confirm:$false
 New-ColorScriptCache -Name $scriptName -Force
-Show-ColorScript -Name $scriptName
-```</maml:para>
-          <maml:para></maml:para>
+Show-ColorScript -Name $scriptName</dev:code>
+        <dev:remarks>
           <maml:para>Cancella e ricostruisce la cache per un singolo renderer idoneo in base alla policy, quindi lo visualizza per la verifica.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Filtra per più categorie
+        <maml:introduction></maml:introduction>
+        <dev:code># Filtra per più categorie
 Clear-ColorScriptCache -Category Geometric,Abstract -DryRun -PassThru |
     Select-Object CacheFile |
-    Measure-Object
-```</maml:para>
-          <maml:para></maml:para>
+    Measure-Object</dev:code>
+        <dev:remarks>
           <maml:para>Mostra quanti file di cache verrebbero eliminati se si filtrasse per più categorie.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -993,13 +912,24 @@ Clear-ColorScriptCache -Category Geometric,Abstract -DryRun -PassThru |
       <command:noun>ColorScriptMetadata</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>Il cmdlet `Export-ColorScriptMetadata` compila un inventario completo di tutti gli script di colori nel catalogo del modulo e genera un set di dati strutturato che descrive ciascuna voce. Questi metadati includono informazioni essenziali come nomi di script, categorie, tag e arricchimenti facoltativi.</maml:para>
-      <maml:para>Per impostazione predefinita, il cmdlet restituisce gli oggetti PowerShell alla pipeline. Quando viene fornito il parametro `-Path`, scrive i metadati come formattato JSON nel file specificato, creando automaticamente le directory principali se non esistono.</maml:para>
-      <maml:para>Il cmdlet offre due flag di arricchimento facoltativi:</maml:para>
-      <maml:para>- **IncludeFileInfo**: aggiunge metadati del file system inclusi percorsi completi, dimensioni dei file (in byte) e timestamp dell'ultima modifica - **IncludeCacheInfo**: aggiunge informazioni relative alla cache inclusi percorsi dei file di cache, stato di esistenza e timestamp della cache</maml:para>
-      <maml:para>Questo cmdlet è particolarmente utile per:</maml:para>
-      <maml:para>- Creazione di documentazione o dashboard che mostrano tutti gli script di colori disponibili - Segnalazione della presenza e dei timestamp dei file di payload della cache non elaborati - Alimentazione di metadati a strumenti esterni o pipeline di automazione - Controllo dell'inventario colorscript e dello stato del file system - Generazione di report sull'utilizzo e l'organizzazione di colorscript</maml:para>
-      <maml:para>L'output è ordinato in modo coerente, rendendolo adatto per il controllo della versione e le operazioni di differenza quando esportato in JSON.</maml:para>
+      <maml:para>Il cmdlet `Export-ColorScriptMetadata` compila un inventario completo di tutti gli script di colori nel catalogo del modulo e genera un set di dati strutturato che descrive ciascuna voce. Questi metadati includono informazioni essenziali come nomi di script, categorie, tag e arricchimenti facoltativi.
+
+Per impostazione predefinita, il cmdlet restituisce gli oggetti PowerShell alla pipeline. Quando viene fornito il parametro `-Path`, scrive i metadati come formattato JSON nel file specificato, creando automaticamente le directory principali se non esistono.
+
+Il cmdlet offre due flag di arricchimento facoltativi:
+
+- **IncludeFileInfo**: aggiunge metadati del file system inclusi percorsi completi, dimensioni dei file (in byte) e timestamp dell'ultima modifica
+- **IncludeCacheInfo**: aggiunge informazioni relative alla cache inclusi percorsi dei file di cache, stato di esistenza e timestamp della cache
+
+Questo cmdlet è particolarmente utile per:
+
+- Creazione di documentazione o dashboard che mostrano tutti gli script di colori disponibili
+- Segnalazione della presenza e dei timestamp dei file di payload della cache non elaborati
+- Alimentazione di metadati a strumenti esterni o pipeline di automazione
+- Controllo dell'inventario colorscript e dello stato del file system
+- Generazione di report sull'utilizzo e l'organizzazione di colorscript
+
+L'output è ordinato in modo coerente, rendendolo adatto per il controllo della versione e le operazioni di differenza quando esportato in JSON.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -1162,101 +1092,72 @@ Quando viene specificato `-IncludeCacheInfo`, vengono incluse queste proprietà 
     </command:returnValues>
     <maml:alertSet>
       <maml:alert>
-        <maml:para />
+        <maml:para>Nessuna.</maml:para>
       </maml:alert>
     </maml:alertSet>
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Export-ColorScriptMetadata
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Export-ColorScriptMetadata</dev:code>
+        <dev:remarks>
           <maml:para>Esporta i metadati di base per tutti gli script di colori nella pipeline senza informazioni su file o cache.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Export-ColorScriptMetadata -IncludeFileInfo
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Export-ColorScriptMetadata -IncludeFileInfo</dev:code>
+        <dev:remarks>
           <maml:para>Restituisce oggetti che includono i dettagli del file system (percorso completo, dimensione e ora dell'ultima scrittura) per ogni colorscript.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Export-ColorScriptMetadata -Path './dist/colorscripts.json'
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Export-ColorScriptMetadata -Path './dist/colorscripts.json'</dev:code>
+        <dev:remarks>
           <maml:para>Genera un file JSON contenente metadati di base e lo scrive nella directory `dist`, creando la cartella se non esiste.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeFileInfo -IncludeCacheInfo
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeFileInfo -IncludeCacheInfo</dev:code>
+        <dev:remarks>
           <maml:para>Genera un file JSON completo con metadati arricchiti che includono sia informazioni sul file system che sulla cache, scrivendolo nella directory `dist`.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeCacheInfo -PassThru | Where-Object { -not $_.CacheExists }
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeCacheInfo -PassThru | Where-Object { -not $_.CacheExists }</dev:code>
+        <dev:remarks>
           <maml:para>Scrive il file di metadati e restituisce i record il cui payload `.cache` non elaborato è assente. Ciò segnala solo l'occupazione dei file, non l'idoneità, la validità o l'attualità della cache.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Export-ColorScriptMetadata -IncludeFileInfo | Group-Object Category | Select-Object Name, Count
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Export-ColorScriptMetadata -IncludeFileInfo | Group-Object Category | Select-Object Name, Count</dev:code>
+        <dev:remarks>
           <maml:para>Raggruppa gli script a colori per categoria e visualizza i conteggi, utili per analizzare la distribuzione degli script tra le categorie.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$metadata = Export-ColorScriptMetadata -IncludeFileInfo
+        <maml:introduction></maml:introduction>
+        <dev:code>$metadata = Export-ColorScriptMetadata -IncludeFileInfo
 $totalSize = ($metadata | Measure-Object -Property ScriptSizeBytes -Sum).Sum
-Write-Host "Dimensione totale di tutti i colorscript: $($totalSize / 1KB) KB"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "Dimensione totale di tutti i colorscript: $($totalSize / 1KB) KB"</dev:code>
+        <dev:remarks>
           <maml:para>Calcola lo spazio su disco totale utilizzato da tutti i file colorscript.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Genera statistiche e salva report
+        <maml:introduction></maml:introduction>
+        <dev:code># Genera statistiche e salva report
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
 $stats = @{
     TotalScripts = $metadata.Count
@@ -1264,36 +1165,28 @@ $stats = @{
     CachePayloadFiles = ($metadata | Where-Object CacheExists).Count
     TotalScriptSizeBytes = ($metadata | Measure-Object ScriptSizeBytes -Sum).Sum
 }
-$stats | ConvertTo-Json | Out-File "./colorscripts-stats.json"
-```</maml:para>
-          <maml:para></maml:para>
+$stats | ConvertTo-Json | Out-File "./colorscripts-stats.json"</dev:code>
+        <dev:remarks>
           <maml:para>Genera statistiche di inventario e conta i file di carico utile `.cache` non elaborati. La presenza del payload non è un controllo di idoneità, validità o attualità della cache.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Esporta e confronta con il backup precedente
+        <maml:introduction></maml:introduction>
+        <dev:code># Esporta e confronta con il backup precedente
 $current = Export-ColorScriptMetadata -Path "./current-metadata.json" -IncludeFileInfo -PassThru
 $previous = Get-Content "./previous-metadata.json" | ConvertFrom-Json
 $new = $current | Where-Object { $_.Name -notin $previous.Name }
 $removed = $previous | Where-Object { $_.Name -notin $current.Name }
-Write-Host "Nuovi script: $($new.Count) | Script rimossi: $($removed.Count)"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "Nuovi script: $($new.Count) | Script rimossi: $($removed.Count)"</dev:code>
+        <dev:remarks>
           <maml:para>Confronta i metadati attuali con una versione precedente per identificare le modifiche.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Crea una risposta API per la dashboard web
+        <maml:introduction></maml:introduction>
+        <dev:code># Crea una risposta API per la dashboard web
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
 $apiResponse = @{
     version = (Get-Module ColorScripts-Enhanced | Select-Object Version).Version.ToString()
@@ -1301,33 +1194,25 @@ $apiResponse = @{
     count = $metadata.Count
     scripts = $metadata
 } | ConvertTo-Json -Depth 5
-$apiResponse | Out-File "./api/colorscripts.json" -Encoding UTF8
-```</maml:para>
-          <maml:para></maml:para>
+$apiResponse | Out-File "./api/colorscripts.json" -Encoding UTF8</dev:code>
+        <dev:remarks>
           <maml:para>Genera JSON pronto per l'API con informazioni su versione e timestamp.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Crea o convalida ogni voce della cache selezionata dalla policy e rivedi gli stati.
+        <maml:introduction></maml:introduction>
+        <dev:code># Crea o convalida ogni voce della cache selezionata dalla policy e rivedi gli stati.
 $results = New-ColorScriptCache -All -PassThru
-$results | Group-Object Status | Select-Object Name, Count
-```</maml:para>
-          <maml:para></maml:para>
+$results | Group-Object Status | Select-Object Name, Count</dev:code>
+        <dev:remarks>
           <maml:para>Utilizza la policy della cache come fonte attendibile e segnala se le voci idonee sono state aggiornate, già correnti, ignorate o non riuscite.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 12 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Crea una galleria HTML dai metadati
+        <maml:introduction></maml:introduction>
+        <dev:code># Crea una galleria HTML dai metadati
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo
 $html = @"
 &lt;html&gt;
@@ -1340,30 +1225,23 @@ foreach ($script in $metadata) {
     $html += "&lt;li&gt;&lt;strong&gt;$($script.Name)&lt;/strong&gt; [$($script.Category)]&lt;/li&gt;`n"
 }
 $html += "&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"
-$html | Out-File "./gallery.html" -Encoding UTF8
-```</maml:para>
-          <maml:para></maml:para>
+$html | Out-File "./gallery.html" -Encoding UTF8</dev:code>
+        <dev:remarks>
           <maml:para>Crea una pagina di galleria HTML che elenca tutti gli script di colori disponibili.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 13 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Monitorare le dimensioni degli script nel tempo
+        <maml:introduction></maml:introduction>
+        <dev:code># Monitorare le dimensioni degli script nel tempo
 Export-ColorScriptMetadata -Path "./logs/metadata-$(Get-Date -Format 'yyyyMMdd').json" -IncludeFileInfo
 Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
     ForEach-Object { Get-Content $_ | ConvertFrom-Json } |
     Group-Object { $_.Name } |
-    ForEach-Object { Write-Host "$($_.Name): $(($_.Group | Measure-Object ScriptSizeBytes -Average).Average) bytes avg" }
-```</maml:para>
-          <maml:para></maml:para>
+    ForEach-Object { Write-Host "$($_.Name): $(($_.Group | Measure-Object ScriptSizeBytes -Average).Average) bytes avg" }</dev:code>
+        <dev:remarks>
           <maml:para>Tiene traccia delle modifiche alle dimensioni dei file per singoli script su più esportazioni.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -1383,12 +1261,20 @@ Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
       <command:noun>ColorScriptConfiguration</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>`Get-ColorScriptConfiguration` restituisce una copia della configurazione effettiva del modulo. Lo schema attuale contiene:</maml:para>
-      <maml:para>- **Impostazioni cache**: la sostituzione configurata e la directory della cache effettiva risolta - **Comportamento all'avvio**: `AutoShowOnImport`, `ProfileAutoShow` e `DefaultScript`</maml:para>
-      <maml:para>La configurazione è assemblata da più fonti in ordine di precedenza:</maml:para>
-      <maml:para>1. Impostazioni predefinite del modulo integrato (priorità più bassa) 2. L'utente persistente esegue l'override dal file di configurazione 3. `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` per il percorso cache effettivo restituito</maml:para>
-      <maml:para>Il file di configurazione si trova in genere in `%APPDATA%\ColorScripts-Enhanced\config.json` su Windows o `~/.config/ColorScripts-Enhanced/config.json` su sistemi simili a Unix.</maml:para>
-      <maml:para>La tabella hash restituita è un'istantanea dello stato di configurazione corrente e può essere ispezionata, clonata o serializzata in modo sicuro senza influire sulla configurazione attiva.</maml:para>
+      <maml:para>`Get-ColorScriptConfiguration` restituisce una copia della configurazione effettiva del modulo. Lo schema attuale contiene:
+
+- **Impostazioni cache**: la sostituzione configurata e la directory della cache effettiva risolta
+- **Comportamento all'avvio**: `AutoShowOnImport`, `ProfileAutoShow` e `DefaultScript`
+
+La configurazione è assemblata da più fonti in ordine di precedenza:
+
+1. Impostazioni predefinite del modulo integrato (priorità più bassa)
+2. L'utente persistente esegue l'override dal file di configurazione
+3. `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` per il percorso cache effettivo restituito
+
+Il file di configurazione si trova in genere in `%APPDATA%\ColorScripts-Enhanced\config.json` su Windows o `~/.config/ColorScripts-Enhanced/config.json` su sistemi simili a Unix.
+
+La tabella hash restituita è un'istantanea dello stato di configurazione corrente e può essere ispezionata, clonata o serializzata in modo sicuro senza influire sulla configurazione attiva.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -1467,148 +1353,108 @@ Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptConfiguration
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptConfiguration</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza la configurazione corrente utilizzando la visualizzazione tabella predefinita, mostrando tutte le impostazioni della cache e di avvio.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptConfiguration | ConvertTo-Json -Depth 4
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptConfiguration | ConvertTo-Json -Depth 4</dev:code>
+        <dev:remarks>
           <maml:para>Serializza la configurazione nel formato JSON per la registrazione, il debug o l'esportazione in altri strumenti.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$config = Get-ColorScriptConfiguration
-$config.Cache.EffectivePath
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>$config = Get-ColorScriptConfiguration
+$config.Cache.EffectivePath</dev:code>
+        <dev:remarks>
           <maml:para>Recupera la directory della cache risolta. `Cache.Path` rimane l'override opzionale configurato dall'utente;
 `Cache.EffectivePath` mostra la directory che il modulo utilizza effettivamente dopo le impostazioni predefinite della piattaforma e
 vengono applicate le sostituzioni dell'ambiente.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$config = Get-ColorScriptConfiguration
+        <maml:introduction></maml:introduction>
+        <dev:code>$config = Get-ColorScriptConfiguration
 if ($config.Startup.AutoShowOnImport) {
     Write-Host "Gli script di avvio sono abilitati"
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>Controlla se gli script di avvio sono abilitati nella configurazione corrente.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptConfiguration | Format-List *
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptConfiguration | Format-List *</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza tutte le proprietà di configurazione in un formato di elenco dettagliato per un'ispezione completa.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$config = Get-ColorScriptConfiguration
+        <maml:introduction></maml:introduction>
+        <dev:code>$config = Get-ColorScriptConfiguration
 Write-Host "Percorso cache: $($config.Cache.Path)"
 Write-Host "Visualizzazione automatica del profilo: $($config.Startup.ProfileAutoShow)"
-Write-Host "Script predefinito: $($config.Startup.DefaultScript)"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "Script predefinito: $($config.Startup.DefaultScript)"</dev:code>
+        <dev:remarks>
           <maml:para>Estrae e visualizza proprietà di configurazione specifiche per scopi di controllo o scripting.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$config = Get-ColorScriptConfiguration
+        <maml:introduction></maml:introduction>
+        <dev:code>$config = Get-ColorScriptConfiguration
 if ($config.Cache.Path) {
     Write-Host "Percorso cache personalizzato configurato: $($config.Cache.Path)"
 } else {
     Write-Host "Utilizzo del percorso cache predefinito"
-}</maml:para>
-          <maml:para></maml:para>
-          <maml:para>Write-Host "Percorso cache effettivo: $($config.Cache.EffectivePath)"
-```</maml:para>
-          <maml:para></maml:para>
+}
+
+Write-Host "Percorso cache effettivo: $($config.Cache.EffectivePath)"</dev:code>
+        <dev:remarks>
           <maml:para>Determina se è configurato un percorso cache personalizzato rispetto all'utilizzo delle impostazioni predefinite del modulo.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$config = Get-ColorScriptConfiguration
+        <maml:introduction></maml:introduction>
+        <dev:code>$config = Get-ColorScriptConfiguration
 $config | ConvertTo-Json -Depth 5 |
-    Out-File -FilePath "./backup-config.json" -Encoding UTF8
-```</maml:para>
-          <maml:para></maml:para>
+    Out-File -FilePath "./backup-config.json" -Encoding UTF8</dev:code>
+        <dev:remarks>
           <maml:para>Esegue il backup della configurazione corrente in un file JSON per l'archiviazione o il ripristino di emergenza.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Confronta la configurazione attuale con le impostazioni predefinite
+        <maml:introduction></maml:introduction>
+        <dev:code># Confronta la configurazione attuale con le impostazioni predefinite
 $current = Get-ColorScriptConfiguration
 Reset-ColorScriptConfiguration -WhatIf
-# Esamina l'output -WhatIf per vedere cosa cambierebbe
-```</maml:para>
-          <maml:para></maml:para>
+# Esamina l'output -WhatIf per vedere cosa cambierebbe</dev:code>
+        <dev:remarks>
           <maml:para>Confronta la configurazione corrente con le impostazioni predefinite del modulo per identificare le impostazioni personalizzate.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Monitorare le modifiche alla configurazione tra le sessioni
+        <maml:introduction></maml:introduction>
+        <dev:code># Monitorare le modifiche alla configurazione tra le sessioni
 Get-ColorScriptConfiguration |
     Select-Object Cache, Startup |
     Format-List |
-    Out-File "./config-snapshot.txt" -Append
-```</maml:para>
-          <maml:para></maml:para>
+    Out-File "./config-snapshot.txt" -Append</dev:code>
+        <dev:remarks>
           <maml:para>Crea istantanee della configurazione con timestamp per tenere traccia delle modifiche nel tempo.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -1628,12 +1474,19 @@ Get-ColorScriptConfiguration |
       <command:noun>ColorScriptList</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>Il cmdlet `Get-ColorScriptList` recupera e visualizza tutti gli colorscripts inclusi nel modulo ColorScripts-Enhanced. Fornisce opzioni di filtro flessibili e molteplici formati di output per adattarsi a diversi casi d'uso.</maml:para>
-      <maml:para>Per impostazione predefinita, il cmdlet visualizza una tabella formattata concisa che mostra i nomi e le categorie degli script. Lo switch `-Detailed` espande questa visualizzazione per includere tag e descrizioni, fornendo più contesto a colpo d'occhio.</maml:para>
-      <maml:para>Il cmdlet restituisce sempre i record di metadati alla pipeline di successo. Senza `-AsObject`, scrive anche una vista host formattata; `-AsObject` sopprime la formattazione dell'host per un'automazione pulita. I record includono nome, percorso, categoria, categorie, tag, descrizione e la proprietà dei metadati originali.</maml:para>
-      <maml:para>Le funzionalità di filtro consentono di restringere l'elenco in base a:</maml:para>
-      <maml:para>- **Name**: supporta modelli di caratteri jolly (ad esempio, `aurora-*`) per una corrispondenza flessibile - **Category**: filtra per uno o più nomi di categoria (senza distinzione tra maiuscole e minuscole) - **Tag**: filtra per tag di metadati come "Recommended" o "Animated" (senza distinzione tra maiuscole e minuscole)</maml:para>
-      <maml:para>Il cmdlet convalida i modelli di filtro e genera avvisi per eventuali modelli di nome senza corrispondenza, aiutandoti a identificare potenziali errori di battitura o script mancanti.</maml:para>
+      <maml:para>Il cmdlet `Get-ColorScriptList` recupera e visualizza tutti gli colorscripts inclusi nel modulo ColorScripts-Enhanced. Fornisce opzioni di filtro flessibili e molteplici formati di output per adattarsi a diversi casi d'uso.
+
+Per impostazione predefinita, il cmdlet visualizza una tabella formattata concisa che mostra i nomi e le categorie degli script. Lo switch `-Detailed` espande questa visualizzazione per includere tag e descrizioni, fornendo più contesto a colpo d'occhio.
+
+Il cmdlet restituisce sempre i record di metadati alla pipeline di successo. Senza `-AsObject`, scrive anche una vista host formattata; `-AsObject` sopprime la formattazione dell'host per un'automazione pulita. I record includono nome, percorso, categoria, categorie, tag, descrizione e la proprietà dei metadati originali.
+
+Le funzionalità di filtro consentono di restringere l'elenco in base a:
+
+- **Name**: supporta modelli di caratteri jolly (ad esempio, `aurora-*`) per una corrispondenza flessibile
+- **Category**: filtra per uno o più nomi di categoria (senza distinzione tra maiuscole e minuscole)
+- **Tag**: filtra per tag di metadati come "Recommended" o "Animated" (senza distinzione tra maiuscole e minuscole)
+
+Il cmdlet convalida i modelli di filtro e genera avvisi per eventuali modelli di nome senza corrispondenza, aiutandoti a identificare potenziali errori di battitura o script mancanti.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -1838,204 +1691,147 @@ Per ottenere i migliori risultati quando si integra colorscripts nel profilo Pow
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza tutti gli colorscripts disponibili in un formato tabella compatto che mostra il nome e la categoria di ciascuno script.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -Detailed
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -Detailed</dev:code>
+        <dev:remarks>
           <maml:para>Mostra tutti gli colorscripts con colonne aggiuntive che includono tag e descrizioni per una panoramica completa.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -Detailed -Category Patterns
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -Detailed -Category Patterns</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza solo gli script nella categoria "Patterns" con metadati completi inclusi tag e descrizioni.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -AsObject -Name 'aurora-*' | Select-Object Name, Tags
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -AsObject -Name 'aurora-*' | Select-Object Name, Tags</dev:code>
+        <dev:remarks>
           <maml:para>Restituisce oggetti strutturati per ogni script il cui nome corrisponde al modello di caratteri jolly, quindi seleziona solo le proprietà Name e Tags per la visualizzazione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -AsObject -Tag Recommended | Sort-Object Name
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -AsObject -Tag Recommended | Sort-Object Name</dev:code>
+        <dev:remarks>
           <maml:para>Recupera tutti gli script contrassegnati come "Recommended" e li ordina in ordine alfabetico per nome. Utile per trovare script curati adatti all'integrazione del profilo.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -AsObject -Category Geometric,Abstract | Where-Object { $_.Tags -contains 'Colorful' }
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -AsObject -Category Geometric,Abstract | Where-Object { $_.Tags -contains 'Colorful' }</dev:code>
+        <dev:remarks>
           <maml:para>Combina il filtraggio di categorie e tag per trovare script che si trovano sia nelle categorie Geometrico che Astratto e contrassegnati come Colorati.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -Name blocks,pipes,matrix -AsObject | ForEach-Object { Show-ColorScript -Name $_.Name }
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -Name blocks,pipes,matrix -AsObject | ForEach-Object { Show-ColorScript -Name $_.Name }</dev:code>
+        <dev:remarks>
           <maml:para>Recupera script con nome specifico ed esegue ciascuno di essi in sequenza, dimostrando l'integrazione della pipeline con `Show-ColorScript`.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Conta gli script per categoria a scopo di inventario
+        <maml:introduction></maml:introduction>
+        <dev:code># Conta gli script per categoria a scopo di inventario
 Get-ColorScriptList -AsObject |
     Group-Object Category |
     Select-Object Name, Count |
-    Sort-Object Count -Descending
-```</maml:para>
-          <maml:para></maml:para>
+    Sort-Object Count -Descending</dev:code>
+        <dev:remarks>
           <maml:para>Fornisce un riepilogo di quanti colorscripts esistono in ciascuna categoria.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Trova script con parole chiave specifiche nella descrizione
+        <maml:introduction></maml:introduction>
+        <dev:code># Trova script con parole chiave specifiche nella descrizione
 $scripts = Get-ColorScriptList -AsObject
 $scripts |
     Where-Object { $_.Description -match 'fractal|mandelbrot' } |
-    Select-Object Name, Category, Description
-```</maml:para>
-          <maml:para></maml:para>
+    Select-Object Name, Category, Description</dev:code>
+        <dev:remarks>
           <maml:para>Cerca gli script in base al contenuto della descrizione utilizzando la corrispondenza dei modelli.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Esporta in CSV per l'elaborazione di strumenti esterni
+        <maml:introduction></maml:introduction>
+        <dev:code># Esporta in CSV per l'elaborazione di strumenti esterni
 Get-ColorScriptList -AsObject -Detailed |
     Select-Object Name, Category, Tags, Description |
-    Export-Csv -Path "./colorscripts-inventory.csv" -NoTypeInformation
-```</maml:para>
-          <maml:para></maml:para>
+    Export-Csv -Path "./colorscripts-inventory.csv" -NoTypeInformation</dev:code>
+        <dev:remarks>
           <maml:para>Esporta l'inventario colorscript completo in formato CSV per l'utilizzo in applicazioni per fogli di calcolo.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Controlla gli script senza una categoria specifica
+        <maml:introduction></maml:introduction>
+        <dev:code># Controlla gli script senza una categoria specifica
 $allScripts = Get-ColorScriptList -AsObject
 $uncategorized = $allScripts | Where-Object { -not $_.Category }
 Write-Host "Script senza categoria: $($uncategorized.Count)"
-$uncategorized | Select-Object Name
-```</maml:para>
-          <maml:para></maml:para>
+$uncategorized | Select-Object Name</dev:code>
+        <dev:remarks>
           <maml:para>Identifica gli script a cui mancano i metadati della categoria.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 12 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Crea cache per script filtrati
+        <maml:introduction></maml:introduction>
+        <dev:code># Crea cache per script filtrati
 Get-ColorScriptList -Tag Recommended -AsObject |
     ForEach-Object {
         New-ColorScriptCache -Name $_.Name -PassThru
     } |
-    Format-Table Name, Status
-```</maml:para>
-          <maml:para></maml:para>
+    Format-Table Name, Status</dev:code>
+        <dev:remarks>
           <maml:para>Valuta gli script contrassegnati con `Recommended`; vengono creati solo renderer idonei ai criteri di cache e altri record riportano `SkippedNotRequired`.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 13 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Crea un report formattato di tutti gli script geometrici
+        <maml:introduction></maml:introduction>
+        <dev:code># Crea un report formattato di tutti gli script geometrici
 Get-ColorScriptList -Category Geometric -Detailed |
     Out-String |
-    Tee-Object -FilePath "./geometric-report.txt"
-```</maml:para>
-          <maml:para></maml:para>
+    Tee-Object -FilePath "./geometric-report.txt"</dev:code>
+        <dev:remarks>
           <maml:para>Genera e salva un rapporto dettagliato della categoria geometrica colorscripts in un file.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 14 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Trova il primo script che corrisponde a un modello per una visualizzazione rapida
+        <maml:introduction></maml:introduction>
+        <dev:code># Trova il primo script che corrisponde a un modello per una visualizzazione rapida
 $script = Get-ColorScriptList -Name "aurora-*" -AsObject | Select-Object -First 1
 if ($script) {
     Show-ColorScript -Name $script.Name -PassThru
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza rapidamente il primo script corrispondente in base a un modello di caratteri jolly.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 15 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Verificare che tutti gli script di riferimento esistano prima di eseguire l'automazione
+        <maml:introduction></maml:introduction>
+        <dev:code># Verificare che tutti gli script di riferimento esistano prima di eseguire l'automazione
 $requiredScripts = @("bars", "arch", "mandelbrot-zoom")
 $available = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Name
 $missing = $requiredScripts | Where-Object { $_ -notin $available }
@@ -2043,13 +1839,10 @@ if ($missing) {
     Write-Warning "Script mancanti: $($missing -join ', ')"
 } else {
     Write-Host "Tutti gli script richiesti sono disponibili"
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>Verifica che tutti gli script richiesti esistano prima dell'esecuzione dell'automazione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -2069,10 +1862,13 @@ if ($missing) {
       <command:noun>ColorScript</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>Il cmdlet `New-ColorScript` crea un'impalcatura colorscript minima contenente un array string e un ciclo che scrive ogni riga. Il file è codificato come UTF-8 senza contrassegno dell'ordine dei byte (BOM). È possibile includere indicazioni facoltative sui metadati come commento nel file generato e restituirle nell'oggetto risultato.</maml:para>
-      <maml:para>Sia `-Name` che `-OutputPath` sono obbligatori per i ponteggi. `-OutputPath` identifica una directory; il comando crea la directory quando necessario e scrive al suo interno `&lt;Name&gt;.ps1`.</maml:para>
-      <maml:para>I nomi degli script devono seguire le convenzioni di denominazione PowerShell: devono iniziare con un carattere alfanumerico e possono includere caratteri di sottolineatura o trattini. Se non fornita, l'estensione `.ps1` viene aggiunta automaticamente. I file esistenti sono protetti da sovrascritture accidentali a meno che l'interruttore `-Force` non sia esplicitamente specificato.</maml:para>
-      <maml:para>Se combinato con `-GenerateMetadataSnippet`, il cmdlet restituisce indicazioni che descrivono la voce da aggiungere a `ScriptMetadata.psd1`. Anche la categoria e i valori dei tag forniti vengono restituiti come matrici sull'oggetto risultato.</maml:para>
+      <maml:para>Il cmdlet `New-ColorScript` crea un'impalcatura colorscript minima contenente un array string e un ciclo che scrive ogni riga. Il file è codificato come UTF-8 senza contrassegno dell'ordine dei byte (BOM). È possibile includere indicazioni facoltative sui metadati come commento nel file generato e restituirle nell'oggetto risultato.
+
+Sia `-Name` che `-OutputPath` sono obbligatori per i ponteggi. `-OutputPath` identifica una directory; il comando crea la directory quando necessario e scrive al suo interno `&lt;Name&gt;.ps1`.
+
+I nomi degli script devono seguire le convenzioni di denominazione PowerShell: devono iniziare con un carattere alfanumerico e possono includere caratteri di sottolineatura o trattini. Se non fornita, l'estensione `.ps1` viene aggiunta automaticamente. I file esistenti sono protetti da sovrascritture accidentali a meno che l'interruttore `-Force` non sia esplicitamente specificato.
+
+Se combinato con `-GenerateMetadataSnippet`, il cmdlet restituisce indicazioni che descrivono la voce da aggiungere a `ScriptMetadata.psd1`. Anche la categoria e i valori dei tag forniti vengono restituiti come matrici sull'oggetto risultato.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2337,105 +2133,76 @@ if ($missing) {
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScript -Name 'my-spectrum' -OutputPath ./ColorScripts-Enhanced/Scripts -GenerateMetadataSnippet -Category 'Artistic' -Tag 'Custom','Demo'
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScript -Name 'my-spectrum' -OutputPath ./ColorScripts-Enhanced/Scripts -GenerateMetadataSnippet -Category 'Artistic' -Tag 'Custom','Demo'</dev:code>
+        <dev:remarks>
           <maml:para>Crea `my-spectrum.ps1` nella directory richiesta e restituisce un oggetto contenente il percorso del file e la guida ai metadati.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScript -Name 'holiday-banner' -OutputPath '~/Dev/colorscripts' -Force
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScript -Name 'holiday-banner' -OutputPath '~/Dev/colorscripts' -Force</dev:code>
+        <dev:remarks>
           <maml:para>Genera l'impalcatura in una directory personalizzata (`~/Dev/colorscripts`), creando la directory se non esiste. Se in quella posizione esiste già un file denominato `holiday-banner.ps1`, verrà sovrascritto a causa dello switch `-Force`.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$result = New-ColorScript -Name 'retro-wave' -OutputPath ./ColorScripts-Enhanced/Scripts -Category 'Artistic' -Tag '80s','Neon' -GenerateMetadataSnippet
-$result.MetadataGuidance | Set-Clipboard
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>$result = New-ColorScript -Name 'retro-wave' -OutputPath ./ColorScripts-Enhanced/Scripts -Category 'Artistic' -Tag '80s','Neon' -GenerateMetadataSnippet
+$result.MetadataGuidance | Set-Clipboard</dev:code>
+        <dev:remarks>
           <maml:para>Crea un nuovo script di colori e copia la guida dei metadati negli appunti, facilitandone l'incollaggio in `ScriptMetadata.psd1`.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScript -Name 'test-pattern' -OutputPath '.\temp' -WhatIf
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScript -Name 'test-pattern' -OutputPath '.\temp' -WhatIf</dev:code>
+        <dev:remarks>
           <maml:para>Mostra cosa accadrebbe quando si crea uno script di modello di prova nella directory `.\temp` senza creare effettivamente il file. Utile per convalidare percorsi e nomi prima dell'esecuzione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Crea più colorscripts per un progetto
+        <maml:introduction></maml:introduction>
+        <dev:code># Crea più colorscripts per un progetto
 $scriptNames = @("company-logo", "team-banner", "status-display")
 foreach ($name in $scriptNames) {
     New-ColorScript -Name $name -Category "Corporate" -Tag "Custom" -OutputPath ".\src" | Out-Null
 }
-Write-Host "Creati $($scriptNames.Count) modelli colorscript"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "Creati $($scriptNames.Count) modelli colorscript"</dev:code>
+        <dev:remarks>
           <maml:para>Crea più modelli colorscript in batch per un progetto.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Crea e apri immediatamente nell'editor
-New-ColorScript -Name "my-art" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Artistic" -GenerateMetadataSnippet -OpenInEditor
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code># Crea e apri immediatamente nell'editor
+New-ColorScript -Name "my-art" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Artistic" -GenerateMetadataSnippet -OpenInEditor</dev:code>
+        <dev:remarks>
           <maml:para>Crea un colorscript e chiede al gestore registrato della piattaforma di aprirlo.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Crea con l'automazione completa del flusso di lavoro
+        <maml:introduction></maml:introduction>
+        <dev:code># Crea con l'automazione completa del flusso di lavoro
 $newScript = New-ColorScript -Name "interactive-demo" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Custom" -Tag "Interactive","Demo" -GenerateMetadataSnippet
 Write-Host "Creato: $($newScript.Name)"
 Write-Host "Percorso: $($newScript.Path)"
 Write-Host "Indicazioni sui metadati copiate negli appunti"
-$newScript.MetadataGuidance | Set-Clipboard
-```</maml:para>
-          <maml:para></maml:para>
+$newScript.MetadataGuidance | Set-Clipboard</dev:code>
+        <dev:remarks>
           <maml:para>Crea un colorscript con la guida dei metadati copiata automaticamente negli appunti.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Verificare le convenzioni sui nomi degli script
+        <maml:introduction></maml:introduction>
+        <dev:code># Verificare le convenzioni sui nomi degli script
 $validName = "123-start"
 $invalidNames = @("-invalid", "_underscore-only", "contains space")
 foreach ($name in $invalidNames) {
@@ -2444,46 +2211,35 @@ foreach ($name in $invalidNames) {
     } catch {
         Write-Warning "Nome non valido '$name': $_"
     }
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>Dimostra la convalida delle convenzioni di denominazione per gli script di colori.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Crea in una posizione portatile per la distribuzione
+        <maml:introduction></maml:introduction>
+        <dev:code># Crea in una posizione portatile per la distribuzione
 $portableDir = Join-Path $PSScriptRoot "colorscripts"
 $scaffold = New-ColorScript -Name "portable-art" -OutputPath $portableDir -GenerateMetadataSnippet
-Write-Host "Colorscript portatile creato in: $($scaffold.Path)"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "Colorscript portatile creato in: $($scaffold.Path)"</dev:code>
+        <dev:remarks>
           <maml:para>Crea script di colori in una posizione portatile rispetto allo script corrente.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Crea con la convalida di categorie e tag
+        <maml:introduction></maml:introduction>
+        <dev:code># Crea con la convalida di categorie e tag
 $categories = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Category -Unique
 if ("Retro" -in $categories) {
     New-ColorScript -Name "retro-party" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Artistic" -Tag "Fun","Social"
 } else {
     Write-Warning "Categoria Retro non trovata"
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>Verifica che una categoria esista prima di creare un nuovo colorscript.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -2503,12 +2259,17 @@ if ("Retro" -in $categories) {
       <command:noun>ColorScriptCache</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>`New-ColorScriptCache` esegue il rendering dei colorscript computazionali selezionati in base ai criteri e salva l'output come UTF-8 senza BOM. I renderer in bundle idonei utilizzano il percorso di esecuzione isolato del modulo; i lavoratori paralleli sono disponibili su PowerShell 7+. Gli script deterministici in bundle eseguono il rendering in-process e non creano mai file di cache. Gli alias sono `Update-ColorScriptCache` e `Build-ColorScriptCache`.</maml:para>
-      <maml:para>È possibile indirizzare gli script per nome (caratteri jolly supportati), categoria o tag. Quando non vengono specificati parametri, il cmdlet risolve direttamente i nomi in `CachePolicy.psd1` invece di enumerare l'intera raccolta. Anche i nomi esatti raggruppati utilizzano una ricerca diretta di file. Le richieste di caratteri jolly, categorie e tag vengono enumerate solo quando la semantica corrispondente lo richiede. Gli script espliciti non elencati vengono restituiti con lo stato `SkippedNotRequired` quando viene utilizzato `-PassThru` e tutti i file di cache obsoleti per tali script vengono rimossi.</maml:para>
-      <maml:para>Per impostazione predefinita, il cmdlet visualizza lo stato di avanzamento oltre a un riepilogo conciso dell'operazione di memorizzazione nella cache e della directory della cache effettiva. Utilizza `-PassThru` per restituire oggetti risultato dettagliati per ogni script, che puoi ispezionare a livello di codice per verificare lo stato, l'output standard e i flussi di errore. Combina `-Quiet` per sopprimere completamente l'avanzamento e il riepilogo oppure `-NoAnsiOutput` per generare riepiloghi in testo semplice senza codici colore ANSI per ambienti che non li supportano.</maml:para>
-      <maml:para>Il cmdlet ignora in modo intelligente gli script i cui file di cache sono già aggiornati a meno che non si specifichi il parametro `-Force`. Le build ripetute convalidano il piccolo sidecar `&lt;name&gt;.cacheinfo` senza caricare il payload `&lt;name&gt;.cache` renderizzato. `-Force` ricostruisce le voci della cache idonee ma non sovrascrive mai la policy della cache.</maml:para>
-      <maml:para>Entrambi i file risiedono in `(Get-ColorScriptConfiguration).Cache.EffectivePath`. Il file `.cache` contiene l'output del terminale renderizzato; `.cacheinfo` contiene solo metadati di convalida. Un sidecar senza il suo carico utile non è una voce della cache utilizzabile e viene riparato dalla build successiva. `Clear-ColorScriptCache -All` rimuove le voci complete e i sidecar orfani.</maml:para>
-      <maml:para>Per ricostruzioni più rapide su sistemi multi-core, utilizzare lo switch `-Parallel` insieme al parametro `-ThrottleLimit` (o `-Threads`) per controllare il conteggio dei lavoratori. Il cmdlet ripristina automaticamente l'esecuzione sequenziale quando non è possibile creare spazi di esecuzione paralleli sull'host corrente.</maml:para>
+      <maml:para>`New-ColorScriptCache` esegue il rendering dei colorscript computazionali selezionati in base ai criteri e salva l'output come UTF-8 senza BOM. I renderer in bundle idonei utilizzano il percorso di esecuzione isolato del modulo; i lavoratori paralleli sono disponibili su PowerShell 7+. Gli script deterministici in bundle eseguono il rendering in-process e non creano mai file di cache. Gli alias sono `Update-ColorScriptCache` e `Build-ColorScriptCache`.
+
+È possibile indirizzare gli script per nome (caratteri jolly supportati), categoria o tag. Quando non vengono specificati parametri, il cmdlet risolve direttamente i nomi in `CachePolicy.psd1` invece di enumerare l'intera raccolta. Anche i nomi esatti raggruppati utilizzano una ricerca diretta di file. Le richieste di caratteri jolly, categorie e tag vengono enumerate solo quando la semantica corrispondente lo richiede. Gli script espliciti non elencati vengono restituiti con lo stato `SkippedNotRequired` quando viene utilizzato `-PassThru` e tutti i file di cache obsoleti per tali script vengono rimossi.
+
+Per impostazione predefinita, il cmdlet visualizza lo stato di avanzamento oltre a un riepilogo conciso dell'operazione di memorizzazione nella cache e della directory della cache effettiva. Utilizza `-PassThru` per restituire oggetti risultato dettagliati per ogni script, che puoi ispezionare a livello di codice per verificare lo stato, l'output standard e i flussi di errore. Combina `-Quiet` per sopprimere completamente l'avanzamento e il riepilogo oppure `-NoAnsiOutput` per generare riepiloghi in testo semplice senza codici colore ANSI per ambienti che non li supportano.
+
+Il cmdlet ignora in modo intelligente gli script i cui file di cache sono già aggiornati a meno che non si specifichi il parametro `-Force`. Le build ripetute convalidano il piccolo sidecar `&lt;name&gt;.cacheinfo` senza caricare il payload `&lt;name&gt;.cache` renderizzato. `-Force` ricostruisce le voci della cache idonee ma non sovrascrive mai la policy della cache.
+
+Entrambi i file risiedono in `(Get-ColorScriptConfiguration).Cache.EffectivePath`. Il file `.cache` contiene l'output del terminale renderizzato; `.cacheinfo` contiene solo metadati di convalida. Un sidecar senza il suo carico utile non è una voce della cache utilizzabile e viene riparato dalla build successiva. `Clear-ColorScriptCache -All` rimuove le voci complete e i sidecar orfani.
+
+Per ricostruzioni più rapide su sistemi multi-core, utilizzare lo switch `-Parallel` insieme al parametro `-ThrottleLimit` (o `-Threads`) per controllare il conteggio dei lavoratori. Il cmdlet ripristina automaticamente l'esecuzione sequenziale quando non è possibile creare spazi di esecuzione paralleli sull'host corrente.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2904,191 +2665,135 @@ Il cmdlet memorizza nella cache solo i renderer che richiedono l'esecuzione e so
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScriptCache</dev:code>
+        <dev:remarks>
           <maml:para>Risolvi e riscalda solo i renderer computazionali selezionati dalla policy senza enumerare tutti gli script forniti con il modulo. Questo è il comportamento predefinito quando non vengono specificati parametri.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache -Name Galaxy, 'rose-*'
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScriptCache -Name Galaxy, 'rose-*'</dev:code>
+        <dev:remarks>
           <maml:para>Memorizza nella cache un mix di corrispondenze esatte e con caratteri jolly. Vengono create solo le partite incluse in `CachePolicy.psd1`; altre corrispondenze riportano `SkippedNotRequired` con `-PassThru`.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache -Name Galaxy -Force -PassThru | Format-List
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScriptCache -Name Galaxy -Force -PassThru | Format-List</dev:code>
+        <dev:remarks>
           <maml:para>Forzare una ricostruzione della cache 'Galaxy' idonea anche se è aggiornata ed esaminare l'oggetto risultato dettagliato.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache -Category 'Mathematical' -PassThru
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScriptCache -Category 'Mathematical' -PassThru</dev:code>
+        <dev:remarks>
           <maml:para>Valuta gli script nella categoria `Mathematical`, memorizza nella cache i renderer idonei e restituisce risultati dettagliati per ogni corrispondenza.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache -Tag 'geometric', 'colorful' -Force
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScriptCache -Tag 'geometric', 'colorful' -Force</dev:code>
+        <dev:remarks>
           <maml:para>Ricostruisci le cache idonee per gli script contrassegnati con 'geometric' o 'colorful', forzando la rigenerazione anche se le cache sono correnti.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -Category Mathematical -AsObject | New-ColorScriptCache -PassThru
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -Category Mathematical -AsObject | New-ColorScriptCache -PassThru</dev:code>
+        <dev:remarks>
           <maml:para>Esempio di pipeline: valuta gli script nella categoria `Mathematical`, memorizza nella cache tutti i renderer selezionati dai criteri e restituisce un risultato per ogni corrispondenza.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Controlla le statistiche della cache dopo la creazione
+        <maml:introduction></maml:introduction>
+        <dev:code># Controlla le statistiche della cache dopo la creazione
 $cachePath = (Get-ColorScriptConfiguration).Cache.EffectivePath
 $before = @(Get-ChildItem $cachePath -Filter "*.cache" -ErrorAction SilentlyContinue).Count
 New-ColorScriptCache
 $after = @(Get-ChildItem $cachePath -Filter "*.cache").Count
-Write-Host "Script memorizzati nella cache: $before -&gt; $after"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "Script memorizzati nella cache: $before -&gt; $after"</dev:code>
+        <dev:remarks>
           <maml:para>Misura la crescita della cache contando i file di cache selezionati dai criteri prima e dopo l'operazione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Crea cache per renderer computazionali utilizzati di frequente
+        <maml:introduction></maml:introduction>
+        <dev:code># Crea cache per renderer computazionali utilizzati di frequente
 $frequentScripts = @('Galaxy', 'rose-curves', 'wave-interference')
-New-ColorScriptCache -Name $frequentScripts -PassThru | Format-Table Name, Status, ExitCode
-```</maml:para>
-          <maml:para></maml:para>
+New-ColorScriptCache -Name $frequentScripts -PassThru | Format-Table Name, Status, ExitCode</dev:code>
+        <dev:remarks>
           <maml:para>Crea cache per gli script elencati idonei in `CachePolicy.psd1`; i nomi non elencati vengono saltati.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Utilizza la visualizzazione dell'avanzamento integrata nell'ambito dei criteri
-New-ColorScriptCache -All
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code># Utilizza la visualizzazione dell'avanzamento integrata nell'ambito dei criteri
+New-ColorScriptCache -All</dev:code>
+        <dev:remarks>
           <maml:para>Mostra l'avanzamento integrato per i renderer selezionati tramite policy senza ripetere manualmente tutti gli script disponibili.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Facoltativamente, primerizza le voci di policy mancanti o obsolete da un profilo PowerShell.
+        <maml:introduction></maml:introduction>
+        <dev:code># Facoltativamente, primerizza le voci di policy mancanti o obsolete da un profilo PowerShell.
 Import-Module ColorScripts-Enhanced
-New-ColorScriptCache -Quiet
-```</maml:para>
-          <maml:para></maml:para>
+New-ColorScriptCache -Quiet</dev:code>
+        <dev:remarks>
           <maml:para>Controlla le voci selezionate dai criteri quando il profilo viene caricato e crea solo le voci mancanti o obsolete. Omettere questo passaggio del profilo quando non si desidera il funzionamento della cache di avvio.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Ricostruisci ogni voce selezionata dalla policy per la distribuzione
+        <maml:introduction></maml:introduction>
+        <dev:code># Ricostruisci ogni voce selezionata dalla policy per la distribuzione
 New-ColorScriptCache -All -Force -PassThru |
     Select-Object Name, Status |
-    Export-Csv "./cache-deployment.csv"
-```</maml:para>
-          <maml:para></maml:para>
+    Export-Csv "./cache-deployment.csv"</dev:code>
+        <dev:remarks>
           <maml:para>Ricostruisce ogni voce della cache selezionata dalla policy ed esporta gli stati in un manifesto di distribuzione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 12 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Trova gli errori di compilazione della cache
+        <maml:introduction></maml:introduction>
+        <dev:code># Trova gli errori di compilazione della cache
 New-ColorScriptCache -Name "Galaxy" -Force -PassThru |
     Where-Object Status -eq 'Failed' |
-    Select-Object Name, StdErr
-```</maml:para>
-          <maml:para></maml:para>
+    Select-Object Name, StdErr</dev:code>
+        <dev:remarks>
           <maml:para>Identifica gli errori di memorizzazione nella cache senza considerare i salti dei criteri come errori.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 13 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Conta le voci selezionate dai criteri aggiornate da questa esecuzione
+        <maml:introduction></maml:introduction>
+        <dev:code># Conta le voci selezionate dai criteri aggiornate da questa esecuzione
 New-ColorScriptCache -All -PassThru |
     Where-Object Status -eq 'Updated' |
     Measure-Object |
-    Select-Object @{N='ScriptsCached'; E={$_.Count}}
-```</maml:para>
-          <maml:para></maml:para>
+    Select-Object @{N='ScriptsCached'; E={$_.Count}}</dev:code>
+        <dev:remarks>
           <maml:para>Controlla ogni voce selezionata dalla policy e mostra quanti payload della cache sono stati aggiornati da questa esecuzione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 14 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache -All -Parallel -Threads 8
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScriptCache -All -Parallel -Threads 8</dev:code>
+        <dev:remarks>
           <maml:para>Crea tutte le cache selezionate dalla policy utilizzando otto thread di lavoro. Il cmdlet torna automaticamente all'esecuzione sequenziale quando i processi paralleli non sono disponibili sull'host corrente.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -3108,10 +2813,16 @@ New-ColorScriptCache -All -Parallel -Threads 8
       <command:noun>ColorScriptConfiguration</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>`Reset-ColorScriptConfiguration` sostituisce la configurazione persistente con le impostazioni predefinite integrate e ripristina lo stato della cache in memoria del modulo. Una volta eseguito, questo cmdlet:</maml:para>
-      <maml:para>- Cancella l'override del percorso cache configurato in modo che venga utilizzata l'effettiva impostazione predefinita della piattaforma - Ripristina `AutoShowOnImport`, `ProfileAutoShow` e `DefaultScript` - Scrive la configurazione predefinita su `config.json` - Cancella lo stato di configurazione/cache in memoria in modo che le operazioni successive utilizzino i valori di ripristino</maml:para>
-      <maml:para>Questo cmdlet supporta i parametri `-WhatIf` e `-Confirm` perché esegue un'operazione distruttiva sovrascrivendo il file di configurazione. L'operazione di ripristino non può essere annullata automaticamente, quindi gli utenti dovrebbero prendere in considerazione la possibilità di eseguire il backup della configurazione corrente utilizzando `Get-ColorScriptConfiguration` prima di procedere.</maml:para>
-      <maml:para>Utilizzare il parametro `-PassThru` per controllare immediatamente le impostazioni predefinite appena ripristinate al termine del ripristino.</maml:para>
+      <maml:para>`Reset-ColorScriptConfiguration` sostituisce la configurazione persistente con le impostazioni predefinite integrate e ripristina lo stato della cache in memoria del modulo. Una volta eseguito, questo cmdlet:
+
+- Cancella l'override del percorso cache configurato in modo che venga utilizzata l'effettiva impostazione predefinita della piattaforma
+- Ripristina `AutoShowOnImport`, `ProfileAutoShow` e `DefaultScript`
+- Scrive la configurazione predefinita su `config.json`
+- Cancella lo stato di configurazione/cache in memoria in modo che le operazioni successive utilizzino i valori di ripristino
+
+Questo cmdlet supporta i parametri `-WhatIf` e `-Confirm` perché esegue un'operazione distruttiva sovrascrivendo il file di configurazione. L'operazione di ripristino non può essere annullata automaticamente, quindi gli utenti dovrebbero prendere in considerazione la possibilità di eseguire il backup della configurazione corrente utilizzando `Get-ColorScriptConfiguration` prima di procedere.
+
+Utilizzare il parametro `-PassThru` per controllare immediatamente le impostazioni predefinite appena ripristinate al termine del ripristino.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -3217,87 +2928,63 @@ La variabile di ambiente `COLOR_SCRIPTS_ENHANCED_CONFIG_ROOT` può sovrascrivere
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Reset-ColorScriptConfiguration -Confirm:$false
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Reset-ColorScriptConfiguration -Confirm:$false</dev:code>
+        <dev:remarks>
           <maml:para>Reimposta la configurazione senza richiedere conferma. Ciò è utile negli script automatizzati o quando sei sicuro di ripristinare le impostazioni predefinite.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Reset-ColorScriptConfiguration -PassThru
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Reset-ColorScriptConfiguration -PassThru</dev:code>
+        <dev:remarks>
           <maml:para>Reimposta la configurazione e restituisce la tabella hash risultante per l'ispezione, consentendo di verificare i valori predefiniti.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Eseguire il backup della configurazione corrente prima del ripristino
+        <maml:introduction></maml:introduction>
+        <dev:code># Eseguire il backup della configurazione corrente prima del ripristino
 $backup = Get-ColorScriptConfiguration
-Reset-ColorScriptConfiguration -WhatIf
-```</maml:para>
-          <maml:para></maml:para>
+Reset-ColorScriptConfiguration -WhatIf</dev:code>
+        <dev:remarks>
           <maml:para>Utilizza `-WhatIf` per visualizzare in anteprima l'operazione di ripristino senza eseguirla effettivamente, dopo aver eseguito il backup della configurazione corrente.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Reset-ColorScriptConfiguration -Verbose
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Reset-ColorScriptConfiguration -Verbose</dev:code>
+        <dev:remarks>
           <maml:para>Reimposta la configurazione con output dettagliato per visualizzare informazioni dettagliate sull'operazione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Ripristina la configurazione e cancella la cache per un ripristino completo delle impostazioni di fabbrica
+        <maml:introduction></maml:introduction>
+        <dev:code># Ripristina la configurazione e cancella la cache per un ripristino completo delle impostazioni di fabbrica
 Reset-ColorScriptConfiguration -Confirm:$false
 Clear-ColorScriptCache -All -Confirm:$false
 New-ColorScriptCache
-Write-Host "Modulo ripristinato ai valori predefiniti di fabbrica."
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "Modulo ripristinato ai valori predefiniti di fabbrica."</dev:code>
+        <dev:remarks>
           <maml:para>Esegue un ripristino completo delle impostazioni di fabbrica, inclusa la configurazione, la cache e la ricostruzione della cache.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Verificare che il ripristino abbia avuto esito positivo
+        <maml:introduction></maml:introduction>
+        <dev:code># Verificare che il ripristino abbia avuto esito positivo
 $config = Reset-ColorScriptConfiguration -PassThru
 if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
     Write-Host "Configurazione ripristinata correttamente al valore predefinito della piattaforma"
 } else {
     Write-Host "Configurazione ripristinata, ma è in uso un percorso personalizzato: $($config.Cache.Path)"
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>Reimposta e verifica che l'override della cache persistente sia vuoto e che sia disponibile un percorso della piattaforma efficace.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -3504,63 +3191,43 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -AutoShowOnImport:$true -ProfileAutoShow:$false -DefaultScript 'bars'
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -AutoShowOnImport:$true -ProfileAutoShow:$false -DefaultScript 'bars'</dev:code>
+        <dev:remarks>
           <maml:para>Sposta la cache in `D:/Temp/ColorScriptsCache`, abilita la visualizzazione automatica all'importazione del modulo, disabilita la visualizzazione automatica del profilo e imposta `bars` come script predefinito.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Set-ColorScriptConfiguration -DefaultScript '' -PassThru
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Set-ColorScriptConfiguration -DefaultScript '' -PassThru</dev:code>
+        <dev:remarks>
           <maml:para>Cancella lo script predefinito e restituisce l'oggetto di configurazione risultante, consentendo di verificare che l'impostazione sia stata rimossa.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Set-ColorScriptConfiguration -CachePath "$env:TEMP\ColorScripts" -PassThru | Format-List
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Set-ColorScriptConfiguration -CachePath "$env:TEMP\ColorScripts" -PassThru | Format-List</dev:code>
+        <dev:remarks>
           <maml:para>Riposiziona la cache nella directory TEMP di Windows e visualizza la configurazione aggiornata completa in formato elenco. Utile per scenari di test temporanei.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Set-ColorScriptConfiguration -AutoShowOnImport:$false
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Set-ColorScriptConfiguration -AutoShowOnImport:$false</dev:code>
+        <dev:remarks>
           <maml:para>Disabilita il rendering automatico colorscript al caricamento del modulo. Utile se preferisci il controllo manuale sulla visualizzazione degli script.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultScript 'crunch'
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultScript 'crunch'</dev:code>
+        <dev:remarks>
           <maml:para>Imposta un percorso cache in stile Linux/macOS utilizzando l'espansione tilde e configura 'crunch' come script predefinito per tutte le operazioni.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -3580,11 +3247,15 @@ Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultSc
       <command:noun>ColorScript</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>Rende bellissimi ANSI colorscripts nel tuo terminale con l'ottimizzazione intelligente delle prestazioni. Il cmdlet fornisce quattro modalità operative principali:</maml:para>
-      <maml:para>**Modalità casuale (impostazione predefinita):** Visualizza uno colorscript selezionato casualmente dalla collezione disponibile. Questo è il comportamento predefinito quando non vengono specificati parametri.</maml:para>
-      <maml:para>**Modalità con nome:** Visualizza uno colorscript specifico per nome. Supporta modelli di caratteri jolly per una corrispondenza flessibile. Quando più script corrispondono a un modello, viene selezionata la prima corrispondenza in ordine alfabetico.</maml:para>
-      <maml:para>**Modalità elenco:** Visualizza una tabella compatta contenente i nomi colorscript e le categorie primarie. Utilizzare `Get-ColorScriptList -AsObject` per record di metadati completi.</maml:para>
-      <maml:para>**Tutte le modalità:** scorre tutti gli colorscripts disponibili in ordine alfabetico. Particolarmente utile per mostrare l'intera collezione o scoprire nuovi script.</maml:para>
+      <maml:para>Rende bellissimi ANSI colorscripts nel tuo terminale con l'ottimizzazione intelligente delle prestazioni. Il cmdlet fornisce quattro modalità operative principali:
+
+**Modalità casuale (impostazione predefinita):** Visualizza uno colorscript selezionato casualmente dalla collezione disponibile. Questo è il comportamento predefinito quando non vengono specificati parametri.
+
+**Modalità con nome:** Visualizza uno colorscript specifico per nome. Supporta modelli di caratteri jolly per una corrispondenza flessibile. Quando più script corrispondono a un modello, viene selezionata la prima corrispondenza in ordine alfabetico.
+
+**Modalità elenco:** Visualizza una tabella compatta contenente i nomi colorscript e le categorie primarie. Utilizzare `Get-ColorScriptList -AsObject` per record di metadati completi.
+
+**Tutte le modalità:** scorre tutti gli colorscripts disponibili in ordine alfabetico. Particolarmente utile per mostrare l'intera collezione o scoprire nuovi script.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -4202,300 +3873,212 @@ Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultSc
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza uno colorscript casuale. Gli script deterministici in bundle eseguono il rendering in-process; i renderer computazionali idonei possono riutilizzare l'output memorizzato nella cache convalidato.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Name "mandelbrot-zoom"
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Name "mandelbrot-zoom"</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza lo colorscript specificato per nome esatto. L'estensione .ps1 non è richiesta.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Name "aurora-*"
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Name "aurora-*"</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza il primo colorscript (in ordine alfabetico) che corrisponde al modello di carattere jolly "aurora-\*". Utile quando ricordi parte del nome di uno script.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-scs hearts
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>scs hearts</dev:code>
+        <dev:remarks>
           <maml:para>Utilizza l'alias del modulo 'scs' per un rapido accesso ai cuori colorscript. Gli alias forniscono comode scorciatoie per un uso frequente.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -List
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -List</dev:code>
+        <dev:remarks>
           <maml:para>Elenca colorscripts disponibili per nome e categoria principale. Utile per una rapida scoperta.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Name Galaxy -NoCache
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Name Galaxy -NoCache</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza il renderer Galaxy idoneo senza leggere l'output memorizzato nella cache, forzando un nuovo rendering isolato. Utile quando si testano le modifiche del renderer o si indaga sulla corruzione della cache.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza uno script casuale a tema naturale e ne acquisisce l'oggetto metadati per un'ulteriore ispezione o elaborazione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt</dev:code>
+        <dev:remarks>
           <maml:para>Esegue il rendering di colorscript e salva l'output in un file di testo. I codici ANSI renderizzati vengono conservati, consentendo la visualizzazione successiva del file con la colorazione corretta.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -All
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -All</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza tutti gli colorscripts in ordine alfabetico con un breve ritardo automatico tra ciascuno. Perfetto per una vetrina visiva dell'intera collezione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -All -WaitForInput
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -All -WaitForInput</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza tutti gli colorscripts uno alla volta, facendo una pausa dopo ciascuno. Premi la barra spaziatrice per avanzare allo script successivo oppure premi 'q' per uscire anticipatamente dalla sequenza.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -All -Category Nature -WaitForInput
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -All -Category Nature -WaitForInput</dev:code>
+        <dev:remarks>
           <maml:para>Passa attraverso tutti gli colorscripts a tema naturale con progressione manuale. Combina il filtraggio con la navigazione interattiva per un'esperienza curata.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 12 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Tag retro,geometric -Random
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Tag retro,geometric -Random</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza uno colorscript casuale con il tag "retro" o "geometric". Più valori di tag utilizzano la semantica di corrispondenza qualsiasi.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 13 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -List -Category Artistic,Abstract
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -List -Category Artistic,Abstract</dev:code>
+        <dev:remarks>
           <maml:para>Elenca solo colorscripts classificato come "Art" o "Abstract", aiutandoti a scoprire script all'interno di temi specifici.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 14 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Esamina l'idoneità della cache e lo stato di creazione per un renderer selezionato tramite policy.
+        <maml:introduction></maml:introduction>
+        <dev:code># Esamina l'idoneità della cache e lo stato di creazione per un renderer selezionato tramite policy.
 New-ColorScriptCache -Name Galaxy -Force -PassThru |
     Select-Object Name, Status, CacheFile
-Show-ColorScript -Name Galaxy
-```</maml:para>
-          <maml:para></maml:para>
+Show-ColorScript -Name Galaxy</dev:code>
+        <dev:remarks>
           <maml:para>Crea e controlla una voce della cache per un renderer idoneo senza richiedere un moltiplicatore di prestazioni indipendente dalla macchina.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 15 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Imposta la rotazione giornaliera di diversi colorscripts
+        <maml:introduction></maml:introduction>
+        <dev:code># Imposta la rotazione giornaliera di diversi colorscripts
 $seed = (Get-Date).DayOfYear
 Get-Random -SetSeed $seed
-Show-ColorScript -Random -PassThru | Select-Object Name
-```</maml:para>
-          <maml:para></maml:para>
+Show-ColorScript -Random -PassThru | Select-Object Name</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza un colorscript coerente ma diverso ogni giorno in base alla data.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 16 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Esporta colorscript renderizzato in un file per la condivisione
+        <maml:introduction></maml:introduction>
+        <dev:code># Esporta colorscript renderizzato in un file per la condivisione
 Show-ColorScript -Name "aurora-waves" -ReturnText |
-    Out-File -FilePath "./aurora.ansi" -Encoding UTF8</maml:para>
-          <maml:para></maml:para>
-          <maml:para># Successivamente, visualizza il file salvato
-Get-Content "./aurora.ansi" -Raw | Write-Host
-```</maml:para>
-          <maml:para></maml:para>
+    Out-File -FilePath "./aurora.ansi" -Encoding UTF8
+
+# Successivamente, visualizza il file salvato
+Get-Content "./aurora.ansi" -Raw | Write-Host</dev:code>
+        <dev:remarks>
           <maml:para>Salva uno colorscript renderizzato in un file che può essere visualizzato in seguito o condiviso con altri.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 17 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Crea una presentazione di colorscripts geometrico
+        <maml:introduction></maml:introduction>
+        <dev:code># Crea una presentazione di colorscripts geometrico
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object {
         Show-ColorScript -Name $_.Name
         Start-Sleep -Seconds 3
-    }
-```</maml:para>
-          <maml:para></maml:para>
+    }</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza automaticamente una sequenza di colorscripts geometrici con ritardi di 3 secondi tra ciascuno.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 18 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Esempio di gestione degli errori
+        <maml:introduction></maml:introduction>
+        <dev:code># Esempio di gestione degli errori
 try {
     Show-ColorScript -Name "nonexistent-script" -ErrorAction Stop
 } catch {
     Write-Warning "Script non trovato: $_"
     Show-ColorScript  # Ritorno al casuale
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>Dimostra la gestione degli errori quando si richiede uno script che non esiste.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 19 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Costruisci l'integrazione dell'automazione
+        <maml:introduction></maml:introduction>
+        <dev:code># Costruisci l'integrazione dell'automazione
 if ($env:CI) {
     Show-ColorScript -Name "Galaxy" -NoCache
 } else {
     Show-ColorScript  # Visualizzazione casuale per uso interattivo
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>Mostra come visualizzare in modo condizionale diversi colorscripts negli ambienti CI/CD rispetto alle sessioni interattive.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 20 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# Attività pianificata per il saluto del terminale
+        <maml:introduction></maml:introduction>
+        <dev:code># Attività pianificata per il saluto del terminale
 $scriptPath = "$(Get-Module ColorScripts-Enhanced).ModuleBase\Scripts\mandelbrot-zoom.ps1"
 if (Test-Path $scriptPath) {
     &amp; $scriptPath
 } else {
     Show-ColorScript -Name mandelbrot-zoom
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>Dimostra l'esecuzione di uno colorscript specifico come parte di un'attività pianificata o dell'automazione dell'avvio.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 21 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -IncludePokemon
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -IncludePokemon</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza uno colorscript casuale inclusi gli script nella categoria `Pokemon`. Utile quando vuoi che le illustrazioni dei Pokémon siano incluse nella tua selezione casuale.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 22 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming</dev:code>
+        <dev:remarks>
           <maml:para>Visualizza uno colorscript casuale escludendo entrambe le categorie `Pokemon` e `Gaming`. Combinalo con `-Category` o `-Tag` per perfezionare ulteriormente la selezione.</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>

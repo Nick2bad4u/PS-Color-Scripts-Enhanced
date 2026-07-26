@@ -22,7 +22,14 @@ param(
     [string]$Culture,
 
     [Parameter(Mandatory)]
-    [string]$PlatyModuleName
+    [string]$PlatyModuleName,
+
+    [Parameter(Mandatory)]
+    [version]$PlatyModuleVersion,
+
+    [Parameter(Mandatory)]
+    [ValidatePattern('^\d{2}/\d{2}/\d{4}$')]
+    [string]$MetadataDate
 )
 
 Set-StrictMode -Version Latest
@@ -211,6 +218,7 @@ $authoritativeParameterDescriptions = @{
 $localizedMetadataText = @{
     'en-US' = @{
         NoAliases                     = 'This command has no aliases.'
+        NoNotes                       = 'None.'
         OnlineVersion                 = 'Online Version'
         CommonParametersIntro         = 'This cmdlet supports the common parameters:'
         CommonParametersMoreInfo      = 'For more information, see'
@@ -218,6 +226,7 @@ $localizedMetadataText = @{
     }
     de      = @{
         NoAliases                     = 'Dieser Befehl hat keine Aliase.'
+        NoNotes                       = 'Keine.'
         OnlineVersion                 = 'Onlineversion'
         CommonParametersIntro         = 'Dieses Cmdlet unterstützt die allgemeinen Parameter:'
         CommonParametersMoreInfo      = 'Weitere Informationen finden Sie unter'
@@ -225,6 +234,7 @@ $localizedMetadataText = @{
     }
     es      = @{
         NoAliases                     = 'Este comando no tiene alias.'
+        NoNotes                       = 'Ninguna.'
         OnlineVersion                 = 'Versión en línea'
         CommonParametersIntro         = 'Este cmdlet admite los parámetros comunes:'
         CommonParametersMoreInfo      = 'Para obtener más información, consulte'
@@ -232,6 +242,7 @@ $localizedMetadataText = @{
     }
     fr      = @{
         NoAliases                     = 'Cette commande ne possède aucun alias.'
+        NoNotes                       = 'Aucune.'
         OnlineVersion                 = 'Version en ligne'
         CommonParametersIntro         = 'Cette applet de commande prend en charge les paramètres communs :'
         CommonParametersMoreInfo      = 'Pour plus d''informations, consultez'
@@ -239,6 +250,7 @@ $localizedMetadataText = @{
     }
     it      = @{
         NoAliases                     = 'Questo comando non ha alias.'
+        NoNotes                       = 'Nessuna.'
         OnlineVersion                 = 'Versione online'
         CommonParametersIntro         = 'Questo cmdlet supporta i parametri comuni:'
         CommonParametersMoreInfo      = 'Per ulteriori informazioni, vedere'
@@ -246,6 +258,7 @@ $localizedMetadataText = @{
     }
     ja      = @{
         NoAliases                     = 'このコマンドにはエイリアスがありません。'
+        NoNotes                       = 'ありません。'
         OnlineVersion                 = 'オンライン バージョン'
         CommonParametersIntro         = 'このコマンドレットは、次の共通パラメーターをサポートします:'
         CommonParametersMoreInfo      = '詳細については、次を参照してください:'
@@ -253,6 +266,7 @@ $localizedMetadataText = @{
     }
     nl      = @{
         NoAliases                     = 'Deze opdracht heeft geen aliassen.'
+        NoNotes                       = 'Geen.'
         OnlineVersion                 = 'Onlineversie'
         CommonParametersIntro         = 'Deze cmdlet ondersteunt de algemene parameters:'
         CommonParametersMoreInfo      = 'Zie voor meer informatie'
@@ -260,6 +274,7 @@ $localizedMetadataText = @{
     }
     pt      = @{
         NoAliases                     = 'Este comando não tem aliases.'
+        NoNotes                       = 'Nenhuma.'
         OnlineVersion                 = 'Versão online'
         CommonParametersIntro         = 'Este cmdlet suporta os parâmetros comuns:'
         CommonParametersMoreInfo      = 'Para obter mais informações, consulte'
@@ -267,6 +282,7 @@ $localizedMetadataText = @{
     }
     ru      = @{
         NoAliases                     = 'У этой команды нет псевдонимов.'
+        NoNotes                       = 'Нет.'
         OnlineVersion                 = 'Онлайн-версия'
         CommonParametersIntro         = 'Этот командлет поддерживает следующие общие параметры:'
         CommonParametersMoreInfo      = 'Дополнительные сведения см. в разделе'
@@ -274,6 +290,7 @@ $localizedMetadataText = @{
     }
     'zh-CN' = @{
         NoAliases                     = '此命令没有别名。'
+        NoNotes                       = '无。'
         OnlineVersion                 = '在线版本'
         CommonParametersIntro         = '此 cmdlet 支持以下常用参数：'
         CommonParametersMoreInfo      = '有关详细信息，请参阅'
@@ -384,9 +401,13 @@ function Set-MarkdownCommonParametersDescription {
 }
 
 Import-Module -Name $ModuleManifestPath -Force -ErrorAction Stop
-Import-Module -Name $PlatyModuleName -Force -ErrorAction Stop
+Import-Module `
+    -Name $PlatyModuleName `
+    -RequiredVersion $PlatyModuleVersion `
+    -Force `
+    -ErrorAction Stop
 
-# PlatyPS 1.0.2 reads optional CommandInfo properties dynamically and is not compatible with
+# PlatyPS 1.0.x reads optional CommandInfo properties dynamically and is not compatible with
 # a caller-scoped StrictMode. Keep strict validation for this script's setup, then disable it
 # only for the PlatyPS object-model operations below.
 Set-StrictMode -Off
@@ -422,6 +443,11 @@ try {
             '(?im)^external help file:\s*.*$',
             'external help file: ColorScripts-Enhanced-help.xml'
         )
+        $mergedContent = [regex]::Replace(
+            $mergedContent,
+            '(?im)^ms\.date:\s*.*$',
+            "ms.date: $MetadataDate"
+        )
         $parameterDescriptions = @{}
         $englishParameterDescriptions = @{}
         $englishPath = Join-Path `
@@ -452,7 +478,15 @@ try {
                         $null
                     }
 
-                    if (-not [string]::IsNullOrWhiteSpace($localizedSection) -and
+                    if ($heading -eq 'NOTES' -and
+                        [string]::IsNullOrWhiteSpace($localizedSection) -and
+                        [string]::IsNullOrWhiteSpace($englishSection)) {
+                        $mergedContent = Set-MarkdownSection `
+                            -Content $mergedContent `
+                            -Heading $heading `
+                            -Body $cultureMetadataText.NoNotes
+                    }
+                    elseif (-not [string]::IsNullOrWhiteSpace($localizedSection) -and
                         $localizedSection -notmatch '\{\{') {
                         $mergedContent = Set-MarkdownSection -Content $mergedContent -Heading $heading -Body $localizedSection
                     }
@@ -523,9 +557,6 @@ try {
 
         $commonParametersDescription = @(
             $cultureMetadataText.CommonParametersIntro
-            '-Debug, -ErrorAction, -ErrorVariable,'
-            '-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,'
-            '-ProgressAction, -Verbose, -WarningAction, -WarningVariable'
             $cultureMetadataText.CommonParametersMoreInfo
             ('[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216){0}' -f
             $cultureMetadataText.CommonParametersLinkSuffix)

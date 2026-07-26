@@ -4,7 +4,7 @@ external help file: ColorScripts-Enhanced-help.xml
 HelpUri: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Export-ColorScriptMetadata
 Locale: de
 Module Name: ColorScripts-Enhanced
-ms.date: 07/22/2026
+ms.date: 07/26/2026
 PlatyPS schema version: 2024-05-01
 title: Export-ColorScriptMetadata
 ---
@@ -353,9 +353,6 @@ HelpMessage: ''
 ### CommonParameters
 
 Dieses Cmdlet unterstützt die allgemeinen Parameter:
--Debug, -ErrorAction, -ErrorVariable,
--InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
--ProgressAction, -Verbose, -WarningAction, -WarningVariable
 Weitere Informationen finden Sie unter
 [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -390,6 +387,8 @@ Wenn `-IncludeCacheInfo` angegeben wird, sind diese zusätzlichen Eigenschaften 
 - **CacheLastWriteTimeUtc**: UTC-Zeitstempel der Änderung der Cache-Datei (null, wenn der Cache nicht vorhanden ist)
 
 ## NOTES
+
+Keine.
 
 ## RELATED LINKS
 

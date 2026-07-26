@@ -10,10 +10,13 @@
       <command:noun>ColorScriptProfile</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>将托管启动块添加到选定的 PowerShell 配置文件。该块导入 ColorScripts-Enhanced，并可以在导入后调用 `Show-ColorScript`。 `-SkipStartupScript` 写入仅导入块。</maml:para>
-      <maml:para>当省略 `-ProfilePath` 时，该命令优先选择 `$PROFILE.CurrentUserAllHosts`，否则使用第一个定义的配置文件路径。需要时会创建配置文件和缺失的父目录。</maml:para>
-      <maml:para>现有的托管或旧版 ColorScripts-Enhanced 块将被替换而不是重复。如果配置文件已导入托管块外部的模块，则该命令将使其保持不变，除非指定 `-Force`。 `-Force` 允许替换已识别的模块内容，同时保留不相关的配置文件内容。</maml:para>
-      <maml:para>生成的启动行为是通过显式参数和持久配置解析的。 `-AutoShow` 明确启用显示，`-DefaultStartupScript` 选择命名脚本，并且可以直接提供神奇宝贝包含或通过交互式提示及其记录的覆盖来解决。除非使用 `-SkipCacheBuild`，否则该命令可以在更新配置文件后预热策略选择的缓存条目。</maml:para>
+      <maml:para>将托管启动块添加到选定的 PowerShell 配置文件。该块导入 ColorScripts-Enhanced，并可以在导入后调用 `Show-ColorScript`。 `-SkipStartupScript` 写入仅导入块。
+
+当省略 `-ProfilePath` 时，该命令优先选择 `$PROFILE.CurrentUserAllHosts`，否则使用第一个定义的配置文件路径。需要时会创建配置文件和缺失的父目录。
+
+现有的托管或旧版 ColorScripts-Enhanced 块将被替换而不是重复。如果配置文件已导入托管块外部的模块，则该命令将使其保持不变，除非指定 `-Force`。 `-Force` 允许替换已识别的模块内容，同时保留不相关的配置文件内容。
+
+生成的启动行为是通过显式参数和持久配置解析的。 `-AutoShow` 明确启用显示，`-DefaultStartupScript` 选择命名脚本，并且可以直接提供神奇宝贝包含或通过交互式提示及其记录的覆盖来解决。除非使用 `-SkipCacheBuild`，否则该命令可以在更新配置文件后预热策略选择的缓存条目。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -268,157 +271,113 @@
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
         <maml:introduction>
           <maml:para>添加到所有主机的当前用户配置文件（默认行为）。</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile
-```</maml:para>
-          <maml:para></maml:para>
-          <maml:para>这会将模块导入和 `Show-ColorScript` 调用添加到 `$PROFILE.CurrentUserAllHosts` 中。</maml:para>
         </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        <dev:code>Add-ColorScriptProfile</dev:code>
+        <dev:remarks>
+          <maml:para>这会将模块导入和 `Show-ColorScript` 调用添加到 `$PROFILE.CurrentUserAllHosts` 中。</maml:para>
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
         <maml:introduction>
           <maml:para>仅添加到当前主机的当前用户配置文件，而不添加启动脚本。</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost -SkipStartupScript
-```</maml:para>
-          <maml:para></maml:para>
-          <maml:para>这会将仅导入的托管块添加到当前主机配置文件中。</maml:para>
         </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        <dev:code>Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost -SkipStartupScript</dev:code>
+        <dev:remarks>
+          <maml:para>这会将仅导入的托管块添加到当前主机配置文件中。</maml:para>
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
         <maml:introduction>
           <maml:para>添加到具有环境变量扩展的自定义配置文件路径。</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -Path "$env:USERPROFILE\Documents\CustomProfile.ps1"
-```</maml:para>
-          <maml:para></maml:para>
-          <maml:para>这针对的是标准 PowerShell 配置文件位置之外的特定配置文件。</maml:para>
         </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        <dev:code>Add-ColorScriptProfile -Path "$env:USERPROFILE\Documents\CustomProfile.ps1"</dev:code>
+        <dev:remarks>
+          <maml:para>这针对的是标准 PowerShell 配置文件位置之外的特定配置文件。</maml:para>
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
         <maml:introduction>
           <maml:para>强制重新添加片段，即使它已经存在。</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -Force
-```</maml:para>
-          <maml:para></maml:para>
-          <maml:para>这会更新已识别的 ColorScripts-Enhanced 配置文件内容，同时保留不相关的配置文件行。</maml:para>
         </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        <dev:code>Add-ColorScriptProfile -Force</dev:code>
+        <dev:remarks>
+          <maml:para>这会更新已识别的 ColorScripts-Enhanced 配置文件内容，同时保留不相关的配置文件行。</maml:para>
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
         <maml:introduction>
           <maml:para>在新计算机上进行设置 - 如果需要，创建配置文件并将 ColorScript 添加到所有主机。</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserAllHosts -Confirm:$false
-Write-Host "配置文件已配置！重新启动终端以在启动时查看颜色脚本。"
-```</maml:para>
         </maml:introduction>
-        <dev:code />
+        <dev:code>Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserAllHosts -Confirm:$false
+Write-Host "配置文件已配置！重新启动终端以在启动时查看颜色脚本。"</dev:code>
         <dev:remarks />
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
         <maml:introduction>
           <maml:para>添加特定的颜色脚本以用于启动显示：</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -DefaultStartupScript mandelbrot-zoom -AutoShow
-```</maml:para>
         </maml:introduction>
-        <dev:code />
+        <dev:code>Add-ColorScriptProfile -DefaultStartupScript mandelbrot-zoom -AutoShow</dev:code>
         <dev:remarks />
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
         <maml:introduction>
           <maml:para>验证配置文件是否已正确添加：</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile
-Get-Content $PROFILE.CurrentUserAllHosts | Select-String "ColorScripts-Enhanced"
-```</maml:para>
         </maml:introduction>
-        <dev:code />
+        <dev:code>Add-ColorScriptProfile
+Get-Content $PROFILE.CurrentUserAllHosts | Select-String "ColorScripts-Enhanced"</dev:code>
         <dev:remarks />
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
         <maml:introduction>
           <maml:para>明确以当前主机或所有主机配置文件为目标：</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-# 仅适用于 Windows 终端或 ConEmu
-Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost</maml:para>
-          <maml:para></maml:para>
-          <maml:para># 对于所有 PowerShell 主机（ISE、VSCode、控制台）
-Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserAllHosts
-```</maml:para>
         </maml:introduction>
-        <dev:code />
+        <dev:code># 仅适用于 Windows 终端或 ConEmu
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserCurrentHost
+
+# 对于所有 PowerShell 主机（ISE、VSCode、控制台）
+Add-ColorScriptProfile -ProfilePath $PROFILE.CurrentUserAllHosts</dev:code>
         <dev:remarks />
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
         <maml:introduction>
           <maml:para>使用相对路径和波形符扩展：</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-# 对主目录使用波形符扩展
-Add-ColorScriptProfile -Path "~/Documents/PowerShell/profile.ps1"</maml:para>
-          <maml:para></maml:para>
-          <maml:para># 使用当前目录相对路径
-Add-ColorScriptProfile -Path ".\my-profile.ps1"
-```</maml:para>
         </maml:introduction>
-        <dev:code />
+        <dev:code># 对主目录使用波形符扩展
+Add-ColorScriptProfile -Path "~/Documents/PowerShell/profile.ps1"
+
+# 使用当前目录相对路径
+Add-ColorScriptProfile -Path ".\my-profile.ps1"</dev:code>
         <dev:remarks />
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
         <maml:introduction>
           <maml:para>通过添加自定义逻辑显示每日不同的颜色脚本：</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -SkipStartupScript
+        </maml:introduction>
+        <dev:code>Add-ColorScriptProfile -SkipStartupScript
 # 然后手动将其添加到 $PROFILE 中：
 # $seed = (Get-Date).DayOfYear
 # Get-Random -SetSeed $seed
-# Show-ColorScript
-```</maml:para>
-        </maml:introduction>
-        <dev:code />
+# Show-ColorScript</dev:code>
         <dev:remarks />
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
         <maml:introduction>
           <maml:para>显示启动艺术时自动跳过神奇宝贝脚本：</maml:para>
-          <maml:para></maml:para>
-          <maml:para>```powershell
-Add-ColorScriptProfile -IncludePokemon
-```</maml:para>
-          <maml:para></maml:para>
-          <maml:para>这会将 `Show-ColorScript -IncludePokemon` （包装在保护性的 try/catch 中）附加到配置文件中，因此启动艺术可能包括 Pokémon 脚本。</maml:para>
         </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        <dev:code>Add-ColorScriptProfile -IncludePokemon</dev:code>
+        <dev:remarks>
+          <maml:para>这会将 `Show-ColorScript -IncludePokemon` （包装在保护性的 try/catch 中）附加到配置文件中，因此启动艺术可能包括 Pokémon 脚本。</maml:para>
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -438,11 +397,15 @@ Add-ColorScriptProfile -IncludePokemon
       <command:noun>ColorScriptCache</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>`Clear-ColorScriptCache` cmdlet 删除 ColorScripts-Enhanced 模块生成的缓存输出文件。每个条目由有效缓存目录中渲染后的 `&lt;name&gt;.cache` 有效负载和 `&lt;name&gt;.cacheinfo` 验证伴随元数据文件组成。</maml:para>
-      <maml:para>您可以使用带有通配符模式的 `-Name` 参数有选择地删除缓存条目，或使用 `-All` 参数一次性删除所有条目。`-All` 还会删除有效负载已被删除的孤立伴随元数据文件。该 cmdlet 支持按 `-Category` 和 `-Tag` 进行筛选，以定位缓存脚本的特定子集。</maml:para>
-      <maml:para>不匹配的脚本名称在结果中报告 `Missing` 状态。使用 `-DryRun` 预览删除操作而不修改文件系统，并使用 `-Path` 定位备用缓存目录（对于自定义缓存配置或 CI/CD 环境很有用）。</maml:para>
-      <maml:para>显示相应的策略选定渲染器或调用 `New-ColorScriptCache` 时，会重新生成符合条件的缓存条目。可静态提取的捆绑脚本不符合缓存条件，也不会创建缓存条目。</maml:para>
-      <maml:para>对于自动化场景，结合 `-PassThru` 捕获结构化结果，结合 `-Quiet` 抑制摘要消息，或结合 `-NoAnsiOutput` 发出不带 ANSI 颜色代码的纯文本摘要。</maml:para>
+      <maml:para>`Clear-ColorScriptCache` cmdlet 删除 ColorScripts-Enhanced 模块生成的缓存输出文件。每个条目由有效缓存目录中渲染后的 `&lt;name&gt;.cache` 有效负载和 `&lt;name&gt;.cacheinfo` 验证伴随元数据文件组成。
+
+您可以使用带有通配符模式的 `-Name` 参数有选择地删除缓存条目，或使用 `-All` 参数一次性删除所有条目。`-All` 还会删除有效负载已被删除的孤立伴随元数据文件。该 cmdlet 支持按 `-Category` 和 `-Tag` 进行筛选，以定位缓存脚本的特定子集。
+
+不匹配的脚本名称在结果中报告 `Missing` 状态。使用 `-DryRun` 预览删除操作而不修改文件系统，并使用 `-Path` 定位备用缓存目录（对于自定义缓存配置或 CI/CD 环境很有用）。
+
+显示相应的策略选定渲染器或调用 `New-ColorScriptCache` 时，会重新生成符合条件的缓存条目。可静态提取的捆绑脚本不符合缓存条件，也不会创建缓存条目。
+
+对于自动化场景，结合 `-PassThru` 捕获结构化结果，结合 `-Quiet` 抑制摘要消息，或结合 `-NoAnsiOutput` 发出不带 ANSI 颜色代码的纯文本摘要。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -822,96 +785,67 @@ Add-ColorScriptProfile -IncludePokemon
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -All -Confirm:$false
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Clear-ColorScriptCache -All -Confirm:$false</dev:code>
+        <dev:remarks>
           <maml:para>删除默认缓存目录中的每个缓存文件，而不提示确认。这对于在模块更新后或排除显示问题时完全刷新缓存非常有用。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name 'aurora-*' -DryRun
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Clear-ColorScriptCache -Name 'aurora-*' -DryRun</dev:code>
+        <dev:remarks>
           <maml:para>预览将删除哪些极光主题缓存文件，而不实际删除它们。输出显示与模式匹配的缓存文件，允许您在提交删除之前验证选择。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name Galaxy -Path $env:TEMP -Confirm:$false
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Clear-ColorScriptCache -Name Galaxy -Path $env:TEMP -Confirm:$false</dev:code>
+        <dev:remarks>
           <maml:para>从 TEMP 下的自定义目录中清除符合条件的“Galaxy”渲染器的缓存文件。这在测试 `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` 或其他隔离的缓存位置时很有用。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Category Mathematical -WhatIf
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Clear-ColorScriptCache -Category Mathematical -WhatIf</dev:code>
+        <dev:remarks>
           <maml:para>显示如果删除 `Mathematical` 类别中的脚本的缓存文件会发生什么情况。 `-WhatIf` 参数可防止删除。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -Tag retro | Clear-ColorScriptCache -DryRun
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -Tag retro | Clear-ColorScriptCache -DryRun</dev:code>
+        <dev:remarks>
           <maml:para>使用管道输入预览标记为“retro”的所有脚本的缓存文件的删除。将按标签过滤与提交删除之前的试运行预览相结合。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Clear-ColorScriptCache -Name 'test-*', 'demo-*' -Confirm:$false
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Clear-ColorScriptCache -Name 'test-*', 'demo-*' -Confirm:$false</dev:code>
+        <dev:remarks>
           <maml:para>删除名称以“test-”或“demo-”开头的所有脚本的缓存文件，无需确认。可以将多个通配符模式指定为数组。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 清除现有缓存文件并重建策略选定条目
+        <maml:introduction></maml:introduction>
+        <dev:code># 清除现有缓存文件并重建策略选定条目
 Clear-ColorScriptCache -All -Confirm:$false
 New-ColorScriptCache -PassThru | Measure-Object
-Write-Host "缓存重建成功"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "缓存重建成功"</dev:code>
+        <dev:remarks>
           <maml:para>清除所有缓存有效负载，仅重建动态缓存策略选定的条目，然后显示这些重建条目的统计信息。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 清除超过 30 天的旧缓存条目
+        <maml:introduction></maml:introduction>
+        <dev:code># 清除超过 30 天的旧缓存条目
 $cacheDir = (Get-ColorScriptConfiguration).Cache.EffectivePath
 $thirtyDaysAgo = (Get-Date).AddDays(-30)
 Get-ChildItem $cacheDir -Filter "*.cache" |
@@ -919,61 +853,46 @@ Get-ChildItem $cacheDir -Filter "*.cache" |
     ForEach-Object {
         Clear-ColorScriptCache -Name $_.BaseName -Confirm:$false
     }
-Write-Host "旧的缓存文件已清理"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "旧的缓存文件已清理"</dev:code>
+        <dev:remarks>
           <maml:para>删除超过 30 天未更新的缓存文件。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 缓存管理报告
+        <maml:introduction></maml:introduction>
+        <dev:code># 缓存管理报告
 $cacheDir = (Get-ColorScriptConfiguration).Cache.EffectivePath
 $beforeCount = @(Get-ChildItem $cacheDir -Filter "*.cache" -ErrorAction SilentlyContinue).Count
 Clear-ColorScriptCache -Category Geometric -Confirm:$false
 $afterCount = @(Get-ChildItem $cacheDir -Filter "*.cache" -ErrorAction SilentlyContinue).Count
-Write-Host "清除$($beforeCount - $afterCount)几何缓存文件"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "清除$($beforeCount - $afterCount)几何缓存文件"</dev:code>
+        <dev:remarks>
           <maml:para>显示有关缓存清除操作的统计信息。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 故障排除 - 清除并重建特定脚本
+        <maml:introduction></maml:introduction>
+        <dev:code># 故障排除 - 清除并重建特定脚本
 $scriptName = "Galaxy"
 Clear-ColorScriptCache -Name $scriptName -Confirm:$false
 New-ColorScriptCache -Name $scriptName -Force
-Show-ColorScript -Name $scriptName
-```</maml:para>
-          <maml:para></maml:para>
+Show-ColorScript -Name $scriptName</dev:code>
+        <dev:remarks>
           <maml:para>清除并重建一个符合策略条件的渲染器缓存，然后显示该渲染器以进行验证。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 按多个类别过滤
+        <maml:introduction></maml:introduction>
+        <dev:code># 按多个类别过滤
 Clear-ColorScriptCache -Category Geometric,Abstract -DryRun -PassThru |
     Select-Object CacheFile |
-    Measure-Object
-```</maml:para>
-          <maml:para></maml:para>
+    Measure-Object</dev:code>
+        <dev:remarks>
           <maml:para>显示按多个类别过滤时将删除多少个缓存文件。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -993,13 +912,24 @@ Clear-ColorScriptCache -Category Geometric,Abstract -DryRun -PassThru |
       <command:noun>ColorScriptMetadata</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>`Export-ColorScriptMetadata` cmdlet 编译模块目录中所有颜色脚本的全面清单，并生成描述每个条目的结构化数据集。此元数据包括基本信息，例如脚本名称、类别、标签和可选的丰富内容。</maml:para>
-      <maml:para>默认情况下，cmdlet 将 PowerShell 对象返回到管道。当提供 `-Path` 参数时，它将元数据以 JSON 格式写入指定文件，如果父目录不存在，则自动创建父目录。</maml:para>
-      <maml:para>该 cmdlet 提供两个可选的丰富标志：</maml:para>
-      <maml:para>- **IncludeFileInfo**：添加文件系统元数据，包括完整路径、文件大小（以字节为单位）和上次修改时间戳 - **IncludeCacheInfo**：附加缓存相关信息，包括缓存文件路径、存在状态和缓存时间戳</maml:para>
-      <maml:para>此 cmdlet 特别适用于：</maml:para>
-      <maml:para>- 创建显示所有可用颜色脚本的文档或仪表板 - 报告原始缓存有效负载文件的存在和时间戳 - 将元数据提供给外部工具或自动化管道 - 审核颜色脚本清单和文件系统状态 - 生成有关颜色脚本使用和组织的报告</maml:para>
-      <maml:para>输出的顺序一致，使其适合导出为 JSON 时的版本控制和 diff 操作。</maml:para>
+      <maml:para>`Export-ColorScriptMetadata` cmdlet 编译模块目录中所有颜色脚本的全面清单，并生成描述每个条目的结构化数据集。此元数据包括基本信息，例如脚本名称、类别、标签和可选的丰富内容。
+
+默认情况下，cmdlet 将 PowerShell 对象返回到管道。当提供 `-Path` 参数时，它将元数据以 JSON 格式写入指定文件，如果父目录不存在，则自动创建父目录。
+
+该 cmdlet 提供两个可选的丰富标志：
+
+- **IncludeFileInfo**：添加文件系统元数据，包括完整路径、文件大小（以字节为单位）和上次修改时间戳
+- **IncludeCacheInfo**：附加缓存相关信息，包括缓存文件路径、存在状态和缓存时间戳
+
+此 cmdlet 特别适用于：
+
+- 创建显示所有可用颜色脚本的文档或仪表板
+- 报告原始缓存有效负载文件的存在和时间戳
+- 将元数据提供给外部工具或自动化管道
+- 审核颜色脚本清单和文件系统状态
+- 生成有关颜色脚本使用和组织的报告
+
+输出的顺序一致，使其适合导出为 JSON 时的版本控制和 diff 操作。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -1162,101 +1092,72 @@ Clear-ColorScriptCache -Category Geometric,Abstract -DryRun -PassThru |
     </command:returnValues>
     <maml:alertSet>
       <maml:alert>
-        <maml:para />
+        <maml:para>无。</maml:para>
       </maml:alert>
     </maml:alertSet>
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Export-ColorScriptMetadata
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Export-ColorScriptMetadata</dev:code>
+        <dev:remarks>
           <maml:para>将所有颜色脚本的基本元数据导出到管道，无需文件或缓存信息。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Export-ColorScriptMetadata -IncludeFileInfo
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Export-ColorScriptMetadata -IncludeFileInfo</dev:code>
+        <dev:remarks>
           <maml:para>返回包含每个颜色脚本的文件系统详细信息（完整路径、大小和上次写入时间）的对象。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Export-ColorScriptMetadata -Path './dist/colorscripts.json'
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Export-ColorScriptMetadata -Path './dist/colorscripts.json'</dev:code>
+        <dev:remarks>
           <maml:para>生成包含基本元数据的 JSON 文件并将其写入 `dist` 目录，如果该文件夹不存在则创建该文件夹。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeFileInfo -IncludeCacheInfo
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeFileInfo -IncludeCacheInfo</dev:code>
+        <dev:remarks>
           <maml:para>生成一个全面的 JSON 文件，其中包含丰富的元数据，包括文件系统和缓存信息，并将其写入 `dist` 目录。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeCacheInfo -PassThru | Where-Object { -not $_.CacheExists }
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Export-ColorScriptMetadata -Path './dist/colorscripts.json' -IncludeCacheInfo -PassThru | Where-Object { -not $_.CacheExists }</dev:code>
+        <dev:remarks>
           <maml:para>写入元数据文件并返回原始 `.cache` 负载不存在的记录。这仅报告文件占用情况，而不报告缓存资格、有效性或当前性。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Export-ColorScriptMetadata -IncludeFileInfo | Group-Object Category | Select-Object Name, Count
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Export-ColorScriptMetadata -IncludeFileInfo | Group-Object Category | Select-Object Name, Count</dev:code>
+        <dev:remarks>
           <maml:para>按类别对颜色脚本进行分组并显示计数，这对于分析跨类别的脚本分布很有用。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$metadata = Export-ColorScriptMetadata -IncludeFileInfo
+        <maml:introduction></maml:introduction>
+        <dev:code>$metadata = Export-ColorScriptMetadata -IncludeFileInfo
 $totalSize = ($metadata | Measure-Object -Property ScriptSizeBytes -Sum).Sum
-Write-Host "所有彩色脚本的总大小：$($totalSize / 1KB) KB"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "所有彩色脚本的总大小：$($totalSize / 1KB) KB"</dev:code>
+        <dev:remarks>
           <maml:para>计算所有颜色脚本文件使用的总磁盘空间。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 生成统计数据并保存报告
+        <maml:introduction></maml:introduction>
+        <dev:code># 生成统计数据并保存报告
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
 $stats = @{
     TotalScripts = $metadata.Count
@@ -1264,36 +1165,28 @@ $stats = @{
     CachePayloadFiles = ($metadata | Where-Object CacheExists).Count
     TotalScriptSizeBytes = ($metadata | Measure-Object ScriptSizeBytes -Sum).Sum
 }
-$stats | ConvertTo-Json | Out-File "./colorscripts-stats.json"
-```</maml:para>
-          <maml:para></maml:para>
+$stats | ConvertTo-Json | Out-File "./colorscripts-stats.json"</dev:code>
+        <dev:remarks>
           <maml:para>生成库存统计信息并计算原始 `.cache` 有效负载文件。有效负载存在不是缓存资格、有效性或当前性检查。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 导出并与之前的备份进行比较
+        <maml:introduction></maml:introduction>
+        <dev:code># 导出并与之前的备份进行比较
 $current = Export-ColorScriptMetadata -Path "./current-metadata.json" -IncludeFileInfo -PassThru
 $previous = Get-Content "./previous-metadata.json" | ConvertFrom-Json
 $new = $current | Where-Object { $_.Name -notin $previous.Name }
 $removed = $previous | Where-Object { $_.Name -notin $current.Name }
-Write-Host "新脚本：$($new.Count) | 删除的脚本：$($removed.Count)"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "新脚本：$($new.Count) | 删除的脚本：$($removed.Count)"</dev:code>
+        <dev:remarks>
           <maml:para>将当前元数据与先前版本进行比较以识别更改。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 为 Web 仪表板构建 API 响应
+        <maml:introduction></maml:introduction>
+        <dev:code># 为 Web 仪表板构建 API 响应
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo -IncludeCacheInfo
 $apiResponse = @{
     version = (Get-Module ColorScripts-Enhanced | Select-Object Version).Version.ToString()
@@ -1301,33 +1194,25 @@ $apiResponse = @{
     count = $metadata.Count
     scripts = $metadata
 } | ConvertTo-Json -Depth 5
-$apiResponse | Out-File "./api/colorscripts.json" -Encoding UTF8
-```</maml:para>
-          <maml:para></maml:para>
+$apiResponse | Out-File "./api/colorscripts.json" -Encoding UTF8</dev:code>
+        <dev:remarks>
           <maml:para>生成包含版本控制和时间戳信息的 API 就绪 JSON。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 构建或验证每个策略选择的缓存条目并审查状态。
+        <maml:introduction></maml:introduction>
+        <dev:code># 构建或验证每个策略选择的缓存条目并审查状态。
 $results = New-ColorScriptCache -All -PassThru
-$results | Group-Object Status | Select-Object Name, Count
-```</maml:para>
-          <maml:para></maml:para>
+$results | Group-Object Status | Select-Object Name, Count</dev:code>
+        <dev:remarks>
           <maml:para>使用缓存策略作为事实来源，并报告符合条件的条目是否已更新、已为最新、已跳过或失败。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 12 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 从元数据创建 HTML 画廊
+        <maml:introduction></maml:introduction>
+        <dev:code># 从元数据创建 HTML 画廊
 $metadata = Export-ColorScriptMetadata -IncludeFileInfo
 $html = @"
 &lt;html&gt;
@@ -1340,30 +1225,23 @@ foreach ($script in $metadata) {
     $html += "&lt;li&gt;&lt;strong&gt;$($script.Name)&lt;/strong&gt; [$($script.Category)]&lt;/li&gt;`n"
 }
 $html += "&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"
-$html | Out-File "./gallery.html" -Encoding UTF8
-```</maml:para>
-          <maml:para></maml:para>
+$html | Out-File "./gallery.html" -Encoding UTF8</dev:code>
+        <dev:remarks>
           <maml:para>创建一个 HTML 画廊页面，列出所有可用的颜色脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 13 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 随着时间的推移监控脚本大小
+        <maml:introduction></maml:introduction>
+        <dev:code># 随着时间的推移监控脚本大小
 Export-ColorScriptMetadata -Path "./logs/metadata-$(Get-Date -Format 'yyyyMMdd').json" -IncludeFileInfo
 Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
     ForEach-Object { Get-Content $_ | ConvertFrom-Json } |
     Group-Object { $_.Name } |
-    ForEach-Object { Write-Host "$($_.Name): $(($_.Group | Measure-Object ScriptSizeBytes -Average).Average) bytes avg" }
-```</maml:para>
-          <maml:para></maml:para>
+    ForEach-Object { Write-Host "$($_.Name): $(($_.Group | Measure-Object ScriptSizeBytes -Average).Average) bytes avg" }</dev:code>
+        <dev:remarks>
           <maml:para>跟踪多个导出过程中各个脚本的文件大小变化。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -1383,12 +1261,20 @@ Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
       <command:noun>ColorScriptConfiguration</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>`Get-ColorScriptConfiguration` 返回有效模块配置的副本。当前架构包含：</maml:para>
-      <maml:para>- **缓存设置**：配置的覆盖和解析的有效缓存目录 - **启动行为**：`AutoShowOnImport`、`ProfileAutoShow` 和 `DefaultScript`</maml:para>
-      <maml:para>配置由多个源按优先顺序组装而成：</maml:para>
-      <maml:para>1.内置模块默认（最低优先级） 2. 从配置文件中保留用户覆盖 3、`COLOR_SCRIPTS_ENHANCED_CACHE_PATH`为返回的有效缓存路径</maml:para>
-      <maml:para>配置文件通常位于 Windows 上的 `%APPDATA%\ColorScripts-Enhanced\config.json` 或类 Unix 系统上的 `~/.config/ColorScripts-Enhanced/config.json` 处。</maml:para>
-      <maml:para>返回的哈希表是当前配置状态的快照，可以安全地检查、克隆或序列化，而不会影响活动配置。</maml:para>
+      <maml:para>`Get-ColorScriptConfiguration` 返回有效模块配置的副本。当前架构包含：
+
+- **缓存设置**：配置的覆盖和解析的有效缓存目录
+- **启动行为**：`AutoShowOnImport`、`ProfileAutoShow` 和 `DefaultScript`
+
+配置由多个源按优先顺序组装而成：
+
+1.内置模块默认（最低优先级）
+2. 从配置文件中保留用户覆盖
+3、`COLOR_SCRIPTS_ENHANCED_CACHE_PATH`为返回的有效缓存路径
+
+配置文件通常位于 Windows 上的 `%APPDATA%\ColorScripts-Enhanced\config.json` 或类 Unix 系统上的 `~/.config/ColorScripts-Enhanced/config.json` 处。
+
+返回的哈希表是当前配置状态的快照，可以安全地检查、克隆或序列化，而不会影响活动配置。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -1467,148 +1353,108 @@ Get-ChildItem "./logs/metadata-*.json" | Select-Object -Last 5 |
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptConfiguration
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptConfiguration</dev:code>
+        <dev:remarks>
           <maml:para>使用默认表视图显示当前配置，显示所有缓存和启动设置。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptConfiguration | ConvertTo-Json -Depth 4
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptConfiguration | ConvertTo-Json -Depth 4</dev:code>
+        <dev:remarks>
           <maml:para>将配置序列化为 JSON 格式，以便进行日志记录、调试或导出到其他工具。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$config = Get-ColorScriptConfiguration
-$config.Cache.EffectivePath
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>$config = Get-ColorScriptConfiguration
+$config.Cache.EffectivePath</dev:code>
+        <dev:remarks>
           <maml:para>检索已解析的缓存目录。 `Cache.Path` 仍然是可选的用户配置覆盖；
 `Cache.EffectivePath` 显示平台默认后模块实际使用的目录
 应用环境覆盖。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$config = Get-ColorScriptConfiguration
+        <maml:introduction></maml:introduction>
+        <dev:code>$config = Get-ColorScriptConfiguration
 if ($config.Startup.AutoShowOnImport) {
     Write-Host "启动脚本已启用"
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>检查当前配置中是否启用启动脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptConfiguration | Format-List *
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptConfiguration | Format-List *</dev:code>
+        <dev:remarks>
           <maml:para>以详细列表格式显示所有配置属性，以便进行全面检查。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$config = Get-ColorScriptConfiguration
+        <maml:introduction></maml:introduction>
+        <dev:code>$config = Get-ColorScriptConfiguration
 Write-Host "缓存路径：$($config.Cache.Path)"
 Write-Host "配置文件自动显示：$($config.Startup.ProfileAutoShow)"
-Write-Host "默认脚本：$($config.Startup.DefaultScript)"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "默认脚本：$($config.Startup.DefaultScript)"</dev:code>
+        <dev:remarks>
           <maml:para>提取并显示特定的配置属性以用于审核或脚本编写目的。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$config = Get-ColorScriptConfiguration
+        <maml:introduction></maml:introduction>
+        <dev:code>$config = Get-ColorScriptConfiguration
 if ($config.Cache.Path) {
     Write-Host "配置的自定义缓存路径：$($config.Cache.Path)"
 } else {
     Write-Host "使用默认缓存路径"
-}</maml:para>
-          <maml:para></maml:para>
-          <maml:para>Write-Host "有效缓存路径：$($config.Cache.EffectivePath)"
-```</maml:para>
-          <maml:para></maml:para>
+}
+
+Write-Host "有效缓存路径：$($config.Cache.EffectivePath)"</dev:code>
+        <dev:remarks>
           <maml:para>确定是否配置自定义缓存路径与使用模块默认值。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$config = Get-ColorScriptConfiguration
+        <maml:introduction></maml:introduction>
+        <dev:code>$config = Get-ColorScriptConfiguration
 $config | ConvertTo-Json -Depth 5 |
-    Out-File -FilePath "./backup-config.json" -Encoding UTF8
-```</maml:para>
-          <maml:para></maml:para>
+    Out-File -FilePath "./backup-config.json" -Encoding UTF8</dev:code>
+        <dev:remarks>
           <maml:para>将当前配置备份到 JSON 文件以进行存档或灾难恢复。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 将当前配置与默认配置进行比较
+        <maml:introduction></maml:introduction>
+        <dev:code># 将当前配置与默认配置进行比较
 $current = Get-ColorScriptConfiguration
 Reset-ColorScriptConfiguration -WhatIf
-# 查看 -WhatIf 输出以查看会发生什么变化
-```</maml:para>
-          <maml:para></maml:para>
+# 查看 -WhatIf 输出以查看会发生什么变化</dev:code>
+        <dev:remarks>
           <maml:para>将当前配置与模块默认值进行比较以识别自定义设置。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 监控跨会话的配置更改
+        <maml:introduction></maml:introduction>
+        <dev:code># 监控跨会话的配置更改
 Get-ColorScriptConfiguration |
     Select-Object Cache, Startup |
     Format-List |
-    Out-File "./config-snapshot.txt" -Append
-```</maml:para>
-          <maml:para></maml:para>
+    Out-File "./config-snapshot.txt" -Append</dev:code>
+        <dev:remarks>
           <maml:para>创建带有时间戳的配置快照，以跟踪一段时间内的更改。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -1628,12 +1474,19 @@ Get-ColorScriptConfiguration |
       <command:noun>ColorScriptList</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>`Get-ColorScriptList` cmdlet 检索并显示与 ColorScripts-Enhanced 模块一起打包的所有颜色脚本。它提供灵活的过滤选项和多种输出格式以适应不同的用例。</maml:para>
-      <maml:para>默认情况下，cmdlet 显示一个简洁的格式化表，其中显示脚本名称和类别。 `-Detailed` 开关扩展了此视图以包含标签和描述，从而提供更多上下文一目了然。</maml:para>
-      <maml:para>该 cmdlet 始终将元数据记录返回到成功管道。如果没有`-AsObject`，它也会写入一个格式化的宿主视图； `-AsObject` 抑制主机格式以实现干净的自动化。记录包括名称、路径、类别、类别、标签、描述和原始元数据属性。</maml:para>
-      <maml:para>过滤功能允许您通过以下方式缩小列表范围：</maml:para>
-      <maml:para>- **Name**：支持通配符模式（例如 `aurora-*`）以进行灵活匹配 - **Category**：按一个或多个类别名称筛选（不区分大小写） - **Tag**：按元数据标签筛选，例如“推荐”或“动画”（不区分大小写）</maml:para>
-      <maml:para>该 cmdlet 验证筛选模式并针对任何不匹配的名称模式生成警告，帮助您识别潜在的拼写错误或丢失的脚本。</maml:para>
+      <maml:para>`Get-ColorScriptList` cmdlet 检索并显示与 ColorScripts-Enhanced 模块一起打包的所有颜色脚本。它提供灵活的过滤选项和多种输出格式以适应不同的用例。
+
+默认情况下，cmdlet 显示一个简洁的格式化表，其中显示脚本名称和类别。 `-Detailed` 开关扩展了此视图以包含标签和描述，从而提供更多上下文一目了然。
+
+该 cmdlet 始终将元数据记录返回到成功管道。如果没有`-AsObject`，它也会写入一个格式化的宿主视图； `-AsObject` 抑制主机格式以实现干净的自动化。记录包括名称、路径、类别、类别、标签、描述和原始元数据属性。
+
+过滤功能允许您通过以下方式缩小列表范围：
+
+- **Name**：支持通配符模式（例如 `aurora-*`）以进行灵活匹配
+- **Category**：按一个或多个类别名称筛选（不区分大小写）
+- **Tag**：按元数据标签筛选，例如“推荐”或“动画”（不区分大小写）
+
+该 cmdlet 验证筛选模式并针对任何不匹配的名称模式生成警告，帮助您识别潜在的拼写错误或丢失的脚本。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -1838,204 +1691,147 @@ Get-ColorScriptConfiguration |
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList</dev:code>
+        <dev:remarks>
           <maml:para>以紧凑的表格格式显示所有可用的颜色脚本，并显示每个脚本的名称和类别。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -Detailed
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -Detailed</dev:code>
+        <dev:remarks>
           <maml:para>显示所有颜色脚本以及附加列，包括标签和描述以进行全面概述。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -Detailed -Category Patterns
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -Detailed -Category Patterns</dev:code>
+        <dev:remarks>
           <maml:para>仅显示“模式”类别中的脚本以及完整的元数据，包括标签和描述。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -AsObject -Name 'aurora-*' | Select-Object Name, Tags
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -AsObject -Name 'aurora-*' | Select-Object Name, Tags</dev:code>
+        <dev:remarks>
           <maml:para>返回名称与通配符模式匹配的每个脚本的结构化对象，然后仅选择“名称”和“标签”属性进行显示。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -AsObject -Tag Recommended | Sort-Object Name
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -AsObject -Tag Recommended | Sort-Object Name</dev:code>
+        <dev:remarks>
           <maml:para>检索所有标记为“推荐”的脚本并按名称字母顺序对它们进行排序。对于查找适合配置文件集成的精选脚本很有用。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -AsObject -Category Geometric,Abstract | Where-Object { $_.Tags -contains 'Colorful' }
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -AsObject -Category Geometric,Abstract | Where-Object { $_.Tags -contains 'Colorful' }</dev:code>
+        <dev:remarks>
           <maml:para>结合类别和标签过滤来查找属于几何或抽象类别并标记为彩色的脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -Name blocks,pipes,matrix -AsObject | ForEach-Object { Show-ColorScript -Name $_.Name }
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -Name blocks,pipes,matrix -AsObject | ForEach-Object { Show-ColorScript -Name $_.Name }</dev:code>
+        <dev:remarks>
           <maml:para>检索特定的命名脚本并按顺序执行每个脚本，演示与 `Show-ColorScript` 的管道集成。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 按类别对脚本进行计数以用于库存目的
+        <maml:introduction></maml:introduction>
+        <dev:code># 按类别对脚本进行计数以用于库存目的
 Get-ColorScriptList -AsObject |
     Group-Object Category |
     Select-Object Name, Count |
-    Sort-Object Count -Descending
-```</maml:para>
-          <maml:para></maml:para>
+    Sort-Object Count -Descending</dev:code>
+        <dev:remarks>
           <maml:para>提供每个类别中存在多少个颜色脚本的摘要。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 查找描述中包含特定关键字的脚本
+        <maml:introduction></maml:introduction>
+        <dev:code># 查找描述中包含特定关键字的脚本
 $scripts = Get-ColorScriptList -AsObject
 $scripts |
     Where-Object { $_.Description -match 'fractal|mandelbrot' } |
-    Select-Object Name, Category, Description
-```</maml:para>
-          <maml:para></maml:para>
+    Select-Object Name, Category, Description</dev:code>
+        <dev:remarks>
           <maml:para>使用模式匹配根据描述内容搜索脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 导出为 CSV 以供外部工具处理
+        <maml:introduction></maml:introduction>
+        <dev:code># 导出为 CSV 以供外部工具处理
 Get-ColorScriptList -AsObject -Detailed |
     Select-Object Name, Category, Tags, Description |
-    Export-Csv -Path "./colorscripts-inventory.csv" -NoTypeInformation
-```</maml:para>
-          <maml:para></maml:para>
+    Export-Csv -Path "./colorscripts-inventory.csv" -NoTypeInformation</dev:code>
+        <dev:remarks>
           <maml:para>将完整的颜色脚本清单导出为 CSV 格式，以便在电子表格应用程序中使用。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 检查没有特定类别的脚本
+        <maml:introduction></maml:introduction>
+        <dev:code># 检查没有特定类别的脚本
 $allScripts = Get-ColorScriptList -AsObject
 $uncategorized = $allScripts | Where-Object { -not $_.Category }
 Write-Host "未分类的脚本：$($uncategorized.Count)"
-$uncategorized | Select-Object Name
-```</maml:para>
-          <maml:para></maml:para>
+$uncategorized | Select-Object Name</dev:code>
+        <dev:remarks>
           <maml:para>识别缺少类别元数据的脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 12 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 为过滤后的脚本构建缓存
+        <maml:introduction></maml:introduction>
+        <dev:code># 为过滤后的脚本构建缓存
 Get-ColorScriptList -Tag Recommended -AsObject |
     ForEach-Object {
         New-ColorScriptCache -Name $_.Name -PassThru
     } |
-    Format-Table Name, Status
-```</maml:para>
-          <maml:para></maml:para>
+    Format-Table Name, Status</dev:code>
+        <dev:remarks>
           <maml:para>评估标记为 `Recommended` 的脚本；仅构建符合缓存策略资格的渲染器，其他记录报告 `SkippedNotRequired`。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 13 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 创建所有几何脚本的格式化报告
+        <maml:introduction></maml:introduction>
+        <dev:code># 创建所有几何脚本的格式化报告
 Get-ColorScriptList -Category Geometric -Detailed |
     Out-String |
-    Tee-Object -FilePath "./geometric-report.txt"
-```</maml:para>
-          <maml:para></maml:para>
+    Tee-Object -FilePath "./geometric-report.txt"</dev:code>
+        <dev:remarks>
           <maml:para>生成几何类别颜色脚本的详细报告并将其保存到文件中。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 14 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 查找第一个与模式匹配的脚本以快速显示
+        <maml:introduction></maml:introduction>
+        <dev:code># 查找第一个与模式匹配的脚本以快速显示
 $script = Get-ColorScriptList -Name "aurora-*" -AsObject | Select-Object -First 1
 if ($script) {
     Show-ColorScript -Name $script.Name -PassThru
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>根据通配符模式快速显示第一个匹配的脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 15 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 在运行自动化之前验证所有引用的脚本是否存在
+        <maml:introduction></maml:introduction>
+        <dev:code># 在运行自动化之前验证所有引用的脚本是否存在
 $requiredScripts = @("bars", "arch", "mandelbrot-zoom")
 $available = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Name
 $missing = $requiredScripts | Where-Object { $_ -notin $available }
@@ -2043,13 +1839,10 @@ if ($missing) {
     Write-Warning "缺少脚本：$($missing -join ', ')"
 } else {
     Write-Host "所有必需的脚本均可用"
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>在自动化运行之前验证所有必需的脚本是否存在。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -2069,10 +1862,13 @@ if ($missing) {
       <command:noun>ColorScript</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>`New-ColorScript` cmdlet 创建一个最小的颜色脚本脚手架，其中包含一个字符串数组和一个逐行写入的循环。该文件使用不带字节顺序标记 (BOM) 的 UTF-8 编码。可选的元数据指导可以作为注释包含在生成的文件中，并在结果对象中返回。</maml:para>
-      <maml:para>搭建脚手架时，`-Name` 和 `-OutputPath` 都是必需的。 `-OutputPath` 标识一个目录；该命令在需要时创建目录并在其中写入 `&lt;Name&gt;.ps1` 。</maml:para>
-      <maml:para>脚本名称必须遵循 PowerShell 命名约定：它们必须以字母数字字符开头，并且可以包含下划线或连字符。如果未提供，则会自动附加 `.ps1` 扩展名。除非显式指定 `-Force` 开关，否则现有文件将受到保护，不会被意外覆盖。</maml:para>
-      <maml:para>与 `-GenerateMetadataSnippet` 结合使用时，cmdlet 返回描述要添加到 `ScriptMetadata.psd1` 的条目的指导。提供的类别和标签值也会作为结果对象上的数组返回。</maml:para>
+      <maml:para>`New-ColorScript` cmdlet 创建一个最小的颜色脚本脚手架，其中包含一个字符串数组和一个逐行写入的循环。该文件使用不带字节顺序标记 (BOM) 的 UTF-8 编码。可选的元数据指导可以作为注释包含在生成的文件中，并在结果对象中返回。
+
+搭建脚手架时，`-Name` 和 `-OutputPath` 都是必需的。 `-OutputPath` 标识一个目录；该命令在需要时创建目录并在其中写入 `&lt;Name&gt;.ps1` 。
+
+脚本名称必须遵循 PowerShell 命名约定：它们必须以字母数字字符开头，并且可以包含下划线或连字符。如果未提供，则会自动附加 `.ps1` 扩展名。除非显式指定 `-Force` 开关，否则现有文件将受到保护，不会被意外覆盖。
+
+与 `-GenerateMetadataSnippet` 结合使用时，cmdlet 返回描述要添加到 `ScriptMetadata.psd1` 的条目的指导。提供的类别和标签值也会作为结果对象上的数组返回。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2337,105 +2133,76 @@ if ($missing) {
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScript -Name 'my-spectrum' -OutputPath ./ColorScripts-Enhanced/Scripts -GenerateMetadataSnippet -Category 'Artistic' -Tag 'Custom','Demo'
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScript -Name 'my-spectrum' -OutputPath ./ColorScripts-Enhanced/Scripts -GenerateMetadataSnippet -Category 'Artistic' -Tag 'Custom','Demo'</dev:code>
+        <dev:remarks>
           <maml:para>在请求的目录中创建 `my-spectrum.ps1` 并返回包含文件路径和元数据指导的对象。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScript -Name 'holiday-banner' -OutputPath '~/Dev/colorscripts' -Force
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScript -Name 'holiday-banner' -OutputPath '~/Dev/colorscripts' -Force</dev:code>
+        <dev:remarks>
           <maml:para>在自定义目录 (`~/Dev/colorscripts`) 下生成脚手架，如果该目录不存在则创建该目录。如果该位置已存在名为 `holiday-banner.ps1` 的文件，则由于 `-Force` 开关，该文件将被覆盖。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-$result = New-ColorScript -Name 'retro-wave' -OutputPath ./ColorScripts-Enhanced/Scripts -Category 'Artistic' -Tag '80s','Neon' -GenerateMetadataSnippet
-$result.MetadataGuidance | Set-Clipboard
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>$result = New-ColorScript -Name 'retro-wave' -OutputPath ./ColorScripts-Enhanced/Scripts -Category 'Artistic' -Tag '80s','Neon' -GenerateMetadataSnippet
+$result.MetadataGuidance | Set-Clipboard</dev:code>
+        <dev:remarks>
           <maml:para>创建新的颜色脚本并将元数据指南复制到剪贴板，以便轻松粘贴到 `ScriptMetadata.psd1` 中。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScript -Name 'test-pattern' -OutputPath '.\temp' -WhatIf
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScript -Name 'test-pattern' -OutputPath '.\temp' -WhatIf</dev:code>
+        <dev:remarks>
           <maml:para>显示在 `.\temp` 目录中创建测试模式脚本而不实际创建文件时会发生什么。对于在执行之前验证路径和名称很有用。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 为一个项目创建多个颜色脚本
+        <maml:introduction></maml:introduction>
+        <dev:code># 为一个项目创建多个颜色脚本
 $scriptNames = @("company-logo", "team-banner", "status-display")
 foreach ($name in $scriptNames) {
     New-ColorScript -Name $name -Category "Corporate" -Tag "Custom" -OutputPath ".\src" | Out-Null
 }
-Write-Host "创建了 $($scriptNames.Count) 个颜色脚本模板"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "创建了 $($scriptNames.Count) 个颜色脚本模板"</dev:code>
+        <dev:remarks>
           <maml:para>为一个项目批量创建多个颜色脚本模板。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 创建并立即在编辑器中打开
-New-ColorScript -Name "my-art" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Artistic" -GenerateMetadataSnippet -OpenInEditor
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code># 创建并立即在编辑器中打开
+New-ColorScript -Name "my-art" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Artistic" -GenerateMetadataSnippet -OpenInEditor</dev:code>
+        <dev:remarks>
           <maml:para>创建一个颜色脚本并要求平台的注册处理程序打开它。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 通过完整的工作流程自动化进行创建
+        <maml:introduction></maml:introduction>
+        <dev:code># 通过完整的工作流程自动化进行创建
 $newScript = New-ColorScript -Name "interactive-demo" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Custom" -Tag "Interactive","Demo" -GenerateMetadataSnippet
 Write-Host "创建：$($newScript.Name)"
 Write-Host "路径：$($newScript.Path)"
 Write-Host "剪贴板中已准备好元数据指南"
-$newScript.MetadataGuidance | Set-Clipboard
-```</maml:para>
-          <maml:para></maml:para>
+$newScript.MetadataGuidance | Set-Clipboard</dev:code>
+        <dev:remarks>
           <maml:para>创建带有自动复制到剪贴板的元数据指导的颜色脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 验证脚本名称约定
+        <maml:introduction></maml:introduction>
+        <dev:code># 验证脚本名称约定
 $validName = "123-start"
 $invalidNames = @("-invalid", "_underscore-only", "contains space")
 foreach ($name in $invalidNames) {
@@ -2444,46 +2211,35 @@ foreach ($name in $invalidNames) {
     } catch {
         Write-Warning "无效名称“$name”：$_"
     }
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>演示颜色脚本的命名约定验证。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 在便携式位置创建以便分发
+        <maml:introduction></maml:introduction>
+        <dev:code># 在便携式位置创建以便分发
 $portableDir = Join-Path $PSScriptRoot "colorscripts"
 $scaffold = New-ColorScript -Name "portable-art" -OutputPath $portableDir -GenerateMetadataSnippet
-Write-Host "在 $($scaffold.Path) 创建了便携式彩色脚本"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "在 $($scaffold.Path) 创建了便携式彩色脚本"</dev:code>
+        <dev:remarks>
           <maml:para>在相对于当前脚本的可移植位置创建颜色脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 使用类别和标签验证进行创建
+        <maml:introduction></maml:introduction>
+        <dev:code># 使用类别和标签验证进行创建
 $categories = Get-ColorScriptList -AsObject | Select-Object -ExpandProperty Category -Unique
 if ("Retro" -in $categories) {
     New-ColorScript -Name "retro-party" -OutputPath ./ColorScripts-Enhanced/Scripts -Category "Artistic" -Tag "Fun","Social"
 } else {
     Write-Warning "未找到复古类别"
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>在创建新的颜色脚本之前验证类别是否存在。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -2503,12 +2259,17 @@ if ("Retro" -in $categories) {
       <command:noun>ColorScriptCache</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>`New-ColorScriptCache` 渲染策略选定的计算型颜色脚本，并将其输出保存为无 BOM 的 UTF-8。合格的捆绑渲染器使用模块的隔离执行路径；并行工作程序可在 PowerShell 7 及更高版本中使用。可静态提取的捆绑脚本不符合缓存条件，也不会创建缓存文件。别名为 `Update-ColorScriptCache` 和 `Build-ColorScriptCache`。</maml:para>
-      <maml:para>您可以按名称（支持通配符）、类别或标签来定位脚本。未指定参数时，cmdlet 会直接解析 `CachePolicy.psd1` 中的名称，而不会枚举完整集合。精确的捆绑名称也使用直接文件查找。仅当匹配语义需要时，才会枚举通配符、类别和标签请求。显式指定但不在策略中的脚本会标记为 `SkippedNotRequired`；使用 `-PassThru` 时会返回该结果，并删除这些脚本的所有过时缓存文件。</maml:para>
-      <maml:para>默认情况下，cmdlet 显示进度以及缓存操作和有效缓存目录的简明摘要。使用 `-PassThru` 返回每个脚本的详细结果对象，您可以通过编程方式检查其状态、标准输出和错误流。结合 `-Quiet` 来完全抑制进度和摘要，或者结合 `-NoAnsiOutput` 来为不支持它们的环境发出没有 ANSI 颜色代码的纯文本摘要。</maml:para>
-      <maml:para>除非指定 `-Force` 参数，否则 cmdlet 会跳过缓存文件已是最新的脚本。重复构建会验证小型 `&lt;name&gt;.cacheinfo` 伴随元数据文件，而不加载渲染后的 `&lt;name&gt;.cache` 有效负载。`-Force` 会重建符合条件的缓存条目，但绝不会覆盖缓存策略。</maml:para>
-      <maml:para>这两个文件都位于 `(Get-ColorScriptConfiguration).Cache.EffectivePath` 中。`.cache` 文件包含渲染后的终端输出；`.cacheinfo` 仅包含验证元数据。没有有效负载的伴随元数据文件不是可用的缓存条目，将由下一次构建修复。`Clear-ColorScriptCache -All` 会删除完整条目和孤立的伴随元数据文件。</maml:para>
-      <maml:para>为了在多核系统上更快地重建，请将 `-Parallel` 开关与 `-ThrottleLimit` （或 `-Threads`）参数一起使用来控制工作线程数。当无法在当前主机上创建并行运行空间时，cmdlet 会自动恢复为顺序执行。</maml:para>
+      <maml:para>`New-ColorScriptCache` 渲染策略选定的计算型颜色脚本，并将其输出保存为无 BOM 的 UTF-8。合格的捆绑渲染器使用模块的隔离执行路径；并行工作程序可在 PowerShell 7 及更高版本中使用。可静态提取的捆绑脚本不符合缓存条件，也不会创建缓存文件。别名为 `Update-ColorScriptCache` 和 `Build-ColorScriptCache`。
+
+您可以按名称（支持通配符）、类别或标签来定位脚本。未指定参数时，cmdlet 会直接解析 `CachePolicy.psd1` 中的名称，而不会枚举完整集合。精确的捆绑名称也使用直接文件查找。仅当匹配语义需要时，才会枚举通配符、类别和标签请求。显式指定但不在策略中的脚本会标记为 `SkippedNotRequired`；使用 `-PassThru` 时会返回该结果，并删除这些脚本的所有过时缓存文件。
+
+默认情况下，cmdlet 显示进度以及缓存操作和有效缓存目录的简明摘要。使用 `-PassThru` 返回每个脚本的详细结果对象，您可以通过编程方式检查其状态、标准输出和错误流。结合 `-Quiet` 来完全抑制进度和摘要，或者结合 `-NoAnsiOutput` 来为不支持它们的环境发出没有 ANSI 颜色代码的纯文本摘要。
+
+除非指定 `-Force` 参数，否则 cmdlet 会跳过缓存文件已是最新的脚本。重复构建会验证小型 `&lt;name&gt;.cacheinfo` 伴随元数据文件，而不加载渲染后的 `&lt;name&gt;.cache` 有效负载。`-Force` 会重建符合条件的缓存条目，但绝不会覆盖缓存策略。
+
+这两个文件都位于 `(Get-ColorScriptConfiguration).Cache.EffectivePath` 中。`.cache` 文件包含渲染后的终端输出；`.cacheinfo` 仅包含验证元数据。没有有效负载的伴随元数据文件不是可用的缓存条目，将由下一次构建修复。`Clear-ColorScriptCache -All` 会删除完整条目和孤立的伴随元数据文件。
+
+为了在多核系统上更快地重建，请将 `-Parallel` 开关与 `-ThrottleLimit` （或 `-Threads`）参数一起使用来控制工作线程数。当无法在当前主机上创建并行运行空间时，cmdlet 会自动恢复为顺序执行。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2904,191 +2665,135 @@ if ("Retro" -in $categories) {
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScriptCache</dev:code>
+        <dev:remarks>
           <maml:para>仅解析和预热策略选择的计算渲染器，而不枚举模块附带的每个脚本。这是未指定参数时的默认行为。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache -Name Galaxy, 'rose-*'
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScriptCache -Name Galaxy, 'rose-*'</dev:code>
+        <dev:remarks>
           <maml:para>缓存精确匹配和通配符匹配的混合。仅构建 `CachePolicy.psd1` 中包含的匹配；其他匹配报告 `SkippedNotRequired` 和 `-PassThru`。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache -Name Galaxy -Force -PassThru | Format-List
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScriptCache -Name Galaxy -Force -PassThru | Format-List</dev:code>
+        <dev:remarks>
           <maml:para>强制重建符合条件的“Galaxy”缓存，即使它是最新的，并检查详细的结果对象。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache -Category 'Mathematical' -PassThru
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScriptCache -Category 'Mathematical' -PassThru</dev:code>
+        <dev:remarks>
           <maml:para>评估 `Mathematical` 类别中的脚本，缓存符合条件的渲染器，并返回每场比赛的详细结果。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache -Tag 'geometric', 'colorful' -Force
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScriptCache -Tag 'geometric', 'colorful' -Force</dev:code>
+        <dev:remarks>
           <maml:para>为标记有“几何”或“彩色”的脚本重建符合条件的缓存，即使缓存是最新的，也强制重新生成。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Get-ColorScriptList -Category Mathematical -AsObject | New-ColorScriptCache -PassThru
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Get-ColorScriptList -Category Mathematical -AsObject | New-ColorScriptCache -PassThru</dev:code>
+        <dev:remarks>
           <maml:para>管道示例：评估 `Mathematical` 类别中的脚本，缓存任何策略选择的渲染器，并返回每个匹配的结果。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 构建后检查缓存统计信息
+        <maml:introduction></maml:introduction>
+        <dev:code># 构建后检查缓存统计信息
 $cachePath = (Get-ColorScriptConfiguration).Cache.EffectivePath
 $before = @(Get-ChildItem $cachePath -Filter "*.cache" -ErrorAction SilentlyContinue).Count
 New-ColorScriptCache
 $after = @(Get-ChildItem $cachePath -Filter "*.cache").Count
-Write-Host "缓存脚本：$before -&gt; $after"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "缓存脚本：$before -&gt; $after"</dev:code>
+        <dev:remarks>
           <maml:para>通过在操作之前和之后对策略选择的缓存文件进行计数来测量缓存增长。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 为常用的计算渲染器构建缓存
+        <maml:introduction></maml:introduction>
+        <dev:code># 为常用的计算渲染器构建缓存
 $frequentScripts = @('Galaxy', 'rose-curves', 'wave-interference')
-New-ColorScriptCache -Name $frequentScripts -PassThru | Format-Table Name, Status, ExitCode
-```</maml:para>
-          <maml:para></maml:para>
+New-ColorScriptCache -Name $frequentScripts -PassThru | Format-Table Name, Status, ExitCode</dev:code>
+        <dev:remarks>
           <maml:para>为 `CachePolicy.psd1` 下符合条件的列出脚本构建缓存；未列出的名称将被跳过。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 使用内置的策略范围进度显示
-New-ColorScriptCache -All
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code># 使用内置的策略范围进度显示
+New-ColorScriptCache -All</dev:code>
+        <dev:remarks>
           <maml:para>显示策略选择渲染器的内置进度，无需手动迭代所有可用脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# （可选）从 PowerShell 配置文件中填充丢失或过时的策略条目。
+        <maml:introduction></maml:introduction>
+        <dev:code># （可选）从 PowerShell 配置文件中填充丢失或过时的策略条目。
 Import-Module ColorScripts-Enhanced
-New-ColorScriptCache -Quiet
-```</maml:para>
-          <maml:para></maml:para>
+New-ColorScriptCache -Quiet</dev:code>
+        <dev:remarks>
           <maml:para>当配置文件加载时检查策略选择的条目，并仅构建丢失或过时的条目。当不需要启动缓存工作时，请忽略此配置文件步骤。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 重建每个策略选择的部署条目
+        <maml:introduction></maml:introduction>
+        <dev:code># 重建每个策略选择的部署条目
 New-ColorScriptCache -All -Force -PassThru |
     Select-Object Name, Status |
-    Export-Csv "./cache-deployment.csv"
-```</maml:para>
-          <maml:para></maml:para>
+    Export-Csv "./cache-deployment.csv"</dev:code>
+        <dev:remarks>
           <maml:para>重建每个策略选择的缓存条目并将状态导出到部署清单。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 12 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 查找缓存构建失败
+        <maml:introduction></maml:introduction>
+        <dev:code># 查找缓存构建失败
 New-ColorScriptCache -Name "Galaxy" -Force -PassThru |
     Where-Object Status -eq 'Failed' |
-    Select-Object Name, StdErr
-```</maml:para>
-          <maml:para></maml:para>
+    Select-Object Name, StdErr</dev:code>
+        <dev:remarks>
           <maml:para>识别缓存失败，而不将策略跳过视为错误。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 13 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 计算本次运行更新的策略选择条目的数量
+        <maml:introduction></maml:introduction>
+        <dev:code># 计算本次运行更新的策略选择条目的数量
 New-ColorScriptCache -All -PassThru |
     Where-Object Status -eq 'Updated' |
     Measure-Object |
-    Select-Object @{N='ScriptsCached'; E={$_.Count}}
-```</maml:para>
-          <maml:para></maml:para>
+    Select-Object @{N='ScriptsCached'; E={$_.Count}}</dev:code>
+        <dev:remarks>
           <maml:para>检查每个策略选择的条目并显示本次运行更新了多少缓存有效负载。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 14 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-New-ColorScriptCache -All -Parallel -Threads 8
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>New-ColorScriptCache -All -Parallel -Threads 8</dev:code>
+        <dev:remarks>
           <maml:para>使用八个工作线程构建所有策略选择的缓存。当并行作业在当前主机上不可用时，cmdlet 会自动回退到顺序执行。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -3108,10 +2813,16 @@ New-ColorScriptCache -All -Parallel -Threads 8
       <command:noun>ColorScriptConfiguration</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>`Reset-ColorScriptConfiguration` 用内置默认值替换持久配置，并重置模块的内存缓存状态。执行时，此 cmdlet：</maml:para>
-      <maml:para>- 清除配置的缓存路径覆盖，以便使用有效的平台默认值 - 恢复 `AutoShowOnImport`、`ProfileAutoShow` 和 `DefaultScript` - 将默认配置写入 `config.json` - 清除内存缓存/配置状态，以便后续操作使用重置值</maml:para>
-      <maml:para>此 cmdlet 支持 `-WhatIf` 和 `-Confirm` 参数，因为它通过覆盖配置文件来执行破坏性操作。重置操作无法自动撤消，因此用户应考虑在继续之前使用 `Get-ColorScriptConfiguration` 备份当前配置。</maml:para>
-      <maml:para>重置完成后，使用 `-PassThru` 参数立即检查新恢复的默认设置。</maml:para>
+      <maml:para>`Reset-ColorScriptConfiguration` 用内置默认值替换持久配置，并重置模块的内存缓存状态。执行时，此 cmdlet：
+
+- 清除配置的缓存路径覆盖，以便使用有效的平台默认值
+- 恢复 `AutoShowOnImport`、`ProfileAutoShow` 和 `DefaultScript`
+- 将默认配置写入 `config.json`
+- 清除内存缓存/配置状态，以便后续操作使用重置值
+
+此 cmdlet 支持 `-WhatIf` 和 `-Confirm` 参数，因为它通过覆盖配置文件来执行破坏性操作。重置操作无法自动撤消，因此用户应考虑在继续之前使用 `Get-ColorScriptConfiguration` 备份当前配置。
+
+重置完成后，使用 `-PassThru` 参数立即检查新恢复的默认设置。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -3217,87 +2928,63 @@ New-ColorScriptCache -All -Parallel -Threads 8
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Reset-ColorScriptConfiguration -Confirm:$false
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Reset-ColorScriptConfiguration -Confirm:$false</dev:code>
+        <dev:remarks>
           <maml:para>重置配置而不提示确认。这在自动化脚本中或当您确定要重置为默认值时非常有用。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Reset-ColorScriptConfiguration -PassThru
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Reset-ColorScriptConfiguration -PassThru</dev:code>
+        <dev:remarks>
           <maml:para>重置配置并返回生成的哈希表以供检查，从而允许您验证默认值。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 重置前备份当前配置
+        <maml:introduction></maml:introduction>
+        <dev:code># 重置前备份当前配置
 $backup = Get-ColorScriptConfiguration
-Reset-ColorScriptConfiguration -WhatIf
-```</maml:para>
-          <maml:para></maml:para>
+Reset-ColorScriptConfiguration -WhatIf</dev:code>
+        <dev:remarks>
           <maml:para>备份当前配置后，使用 `-WhatIf` 预览重置操作而不实际执行它。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Reset-ColorScriptConfiguration -Verbose
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Reset-ColorScriptConfiguration -Verbose</dev:code>
+        <dev:remarks>
           <maml:para>使用详细输出重置配置以查看有关操作的详细信息。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 重置配置并清除缓存以完全恢复出厂设置
+        <maml:introduction></maml:introduction>
+        <dev:code># 重置配置并清除缓存以完全恢复出厂设置
 Reset-ColorScriptConfiguration -Confirm:$false
 Clear-ColorScriptCache -All -Confirm:$false
 New-ColorScriptCache
-Write-Host "模块重置为出厂默认设置！"
-```</maml:para>
-          <maml:para></maml:para>
+Write-Host "模块重置为出厂默认设置！"</dev:code>
+        <dev:remarks>
           <maml:para>执行完整的出厂重置，包括配置、缓存和重建缓存。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 验证重置是否成功
+        <maml:introduction></maml:introduction>
+        <dev:code># 验证重置是否成功
 $config = Reset-ColorScriptConfiguration -PassThru
 if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
     Write-Host "配置成功重置为平台默认值"
 } else {
     Write-Host "配置重置但使用自定义路径：$($config.Cache.Path)"
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>重置并验证持久缓存覆盖是否为空以及有效的平台路径是否可用。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -3504,63 +3191,43 @@ if ($null -eq $config.Cache.Path -and $config.Cache.EffectivePath) {
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -AutoShowOnImport:$true -ProfileAutoShow:$false -DefaultScript 'bars'
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Set-ColorScriptConfiguration -CachePath 'D:/Temp/ColorScriptsCache' -AutoShowOnImport:$true -ProfileAutoShow:$false -DefaultScript 'bars'</dev:code>
+        <dev:remarks>
           <maml:para>将缓存移至 `D:/Temp/ColorScriptsCache`，启用模块导入时自动显示，禁用配置文件自动显示，并将 `bars` 设置为默认脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Set-ColorScriptConfiguration -DefaultScript '' -PassThru
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Set-ColorScriptConfiguration -DefaultScript '' -PassThru</dev:code>
+        <dev:remarks>
           <maml:para>清除默认脚本并返回生成的配置对象，以便您验证设置是否已删除。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Set-ColorScriptConfiguration -CachePath "$env:TEMP\ColorScripts" -PassThru | Format-List
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Set-ColorScriptConfiguration -CachePath "$env:TEMP\ColorScripts" -PassThru | Format-List</dev:code>
+        <dev:remarks>
           <maml:para>将缓存重新定位到 Windows TEMP 目录并以列表格式显示完整更新的配置。对于临时测试场景很有用。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Set-ColorScriptConfiguration -AutoShowOnImport:$false
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Set-ColorScriptConfiguration -AutoShowOnImport:$false</dev:code>
+        <dev:remarks>
           <maml:para>模块加载时禁用自动颜色脚本渲染。如果您更喜欢手动控制脚本的显示时间，这很有用。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultScript 'crunch'
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultScript 'crunch'</dev:code>
+        <dev:remarks>
           <maml:para>使用波浪号扩展设置 Linux/macOS 样式的缓存路径，并将“crunch”配置为所有操作的默认脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>
@@ -3580,12 +3247,17 @@ Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultSc
       <command:noun>ColorScript</command:noun>
     </command:details>
     <maml:description>
-      <maml:para>在终端中渲染 ANSI 颜色脚本，并且只对高开销渲染器应用选择性性能优化。该 cmdlet 提供四种主要操作模式：</maml:para>
-      <maml:para>**随机模式（默认）：** 显示从可用集合中随机选择的颜色脚本。这是未指定参数时的默认行为。</maml:para>
-      <maml:para>**命名模式：** 按名称显示特定的颜色脚本。支持通配符模式，灵活匹配。当多个脚本与某个模式匹配时，将选择按字母顺序排列的第一个匹配项。</maml:para>
-      <maml:para>**列表模式：** 显示包含颜色脚本名称和主要类别的紧凑表格。使用 `Get-ColorScriptList -AsObject` 获取完整的元数据记录。</maml:para>
-      <maml:para>**所有模式：** 按字母顺序循环显示所有可用的颜色脚本。对于展示整个集合或发现新脚本特别有用。</maml:para>
-      <maml:para>对于可静态提取的捆绑脚本，模块通过范围受限且失败时拒绝处理的 AST 求值器获取输出，而不执行脚本。明确列入允许列表的捆绑动态脚本在隔离的进程内运行空间中执行。未知或自定义脚本在子进程中执行，以防止会话状态泄漏。运行空间和子进程都不是安全沙箱；脚本以当前用户的权限运行。</maml:para>
+      <maml:para>在终端中渲染 ANSI 颜色脚本，并且只对高开销渲染器应用选择性性能优化。该 cmdlet 提供四种主要操作模式：
+
+**随机模式（默认）：** 显示从可用集合中随机选择的颜色脚本。这是未指定参数时的默认行为。
+
+**命名模式：** 按名称显示特定的颜色脚本。支持通配符模式，灵活匹配。当多个脚本与某个模式匹配时，将选择按字母顺序排列的第一个匹配项。
+
+**列表模式：** 显示包含颜色脚本名称和主要类别的紧凑表格。使用 `Get-ColorScriptList -AsObject` 获取完整的元数据记录。
+
+**所有模式：** 按字母顺序循环显示所有可用的颜色脚本。对于展示整个集合或发现新脚本特别有用。
+
+对于可静态提取的捆绑脚本，模块通过范围受限且失败时拒绝处理的 AST 求值器获取输出，而不执行脚本。明确列入允许列表的捆绑动态脚本在隔离的进程内运行空间中执行。未知或自定义脚本在子进程中执行，以防止会话状态泄漏。运行空间和子进程都不是安全沙箱；脚本以当前用户的权限运行。</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -4203,300 +3875,212 @@ Set-ColorScriptConfiguration -CachePath '~/.local/share/colorscripts' -DefaultSc
     <command:examples>
       <command:example>
         <maml:title>--------- EXAMPLE 1 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript</dev:code>
+        <dev:remarks>
           <maml:para>显示随机颜色脚本。可静态提取的捆绑脚本无需执行即可获取输出；合格的计算型渲染器可以重用经过验证的缓存输出。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 2 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Name "mandelbrot-zoom"
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Name "mandelbrot-zoom"</dev:code>
+        <dev:remarks>
           <maml:para>按确切名称显示指定的颜色脚本。不需要 .ps1 扩展名。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 3 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Name "aurora-*"
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Name "aurora-*"</dev:code>
+        <dev:remarks>
           <maml:para>显示与通配符模式“aurora-\*”匹配的第一个颜色脚本（按字母顺序）。当您记住脚本名称的一部分时很有用。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 4 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-scs hearts
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>scs hearts</dev:code>
+        <dev:remarks>
           <maml:para>使用模块的别名“scs”快速访问红心颜色脚本。别名为频繁使用提供了方便的快捷方式。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 5 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -List
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -List</dev:code>
+        <dev:remarks>
           <maml:para>按名称和主要类别列出可用的颜色脚本。有助于快速发现。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 6 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Name Galaxy -NoCache
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Name Galaxy -NoCache</dev:code>
+        <dev:remarks>
           <maml:para>显示符合条件的 Galaxy 渲染器，而不读取缓存的输出，强制进行新的隔离渲染。在测试渲染器更改或调查缓存损坏时很有用。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 7 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Category Nature -PassThru | Select-Object Name, Category</dev:code>
+        <dev:remarks>
           <maml:para>显示随机的自然主题脚本并捕获其元数据对象以供进一步检查或处理。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 8 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Name "bars" -ReturnText | Set-Content bars.txt</dev:code>
+        <dev:remarks>
           <maml:para>渲染颜色脚本并将输出保存到文本文件。渲染的 ANSI 代码将被保留，以便稍后以适当的颜色显示文件。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 9 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -All
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -All</dev:code>
+        <dev:remarks>
           <maml:para>按字母顺序显示所有颜色脚本，每个颜色脚本之间有短暂的自动延迟。非常适合整个系列的视觉展示。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 10 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -All -WaitForInput
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -All -WaitForInput</dev:code>
+        <dev:remarks>
           <maml:para>一次显示一个所有颜色脚本，每个颜色脚本后暂停。按空格键前进到下一个脚本，或按“q”提前退出序列。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 11 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -All -Category Nature -WaitForInput
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -All -Category Nature -WaitForInput</dev:code>
+        <dev:remarks>
           <maml:para>通过手动进度循环浏览所有以自然为主题的颜色脚本。将过滤与交互式浏览相结合，提供精心策划的体验。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 12 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Tag retro,geometric -Random
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Tag retro,geometric -Random</dev:code>
+        <dev:remarks>
           <maml:para>显示带有“复古”或“几何”标签的随机颜色脚本。多个标签值使用任意匹配语义。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 13 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -List -Category Artistic,Abstract
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -List -Category Artistic,Abstract</dev:code>
+        <dev:remarks>
           <maml:para>仅列出分类为“艺术”或“抽象”的彩色脚本，帮助您发现特定主题内的脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 14 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 检查策略选择的渲染器的缓存资格和构建状态。
+        <maml:introduction></maml:introduction>
+        <dev:code># 检查策略选择的渲染器的缓存资格和构建状态。
 New-ColorScriptCache -Name Galaxy -Force -PassThru |
     Select-Object Name, Status, CacheFile
-Show-ColorScript -Name Galaxy
-```</maml:para>
-          <maml:para></maml:para>
+Show-ColorScript -Name Galaxy</dev:code>
+        <dev:remarks>
           <maml:para>构建并检查符合条件的渲染器的缓存条目，而无需声明独立于机器的性能乘数。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 15 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 设置不同颜色脚本的每日轮换
+        <maml:introduction></maml:introduction>
+        <dev:code># 设置不同颜色脚本的每日轮换
 $seed = (Get-Date).DayOfYear
 Get-Random -SetSeed $seed
-Show-ColorScript -Random -PassThru | Select-Object Name
-```</maml:para>
-          <maml:para></maml:para>
+Show-ColorScript -Random -PassThru | Select-Object Name</dev:code>
+        <dev:remarks>
           <maml:para>每天根据日期显示一致但不同的颜色脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 16 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 将渲染的颜色脚本导出到文件以供共享
+        <maml:introduction></maml:introduction>
+        <dev:code># 将渲染的颜色脚本导出到文件以供共享
 Show-ColorScript -Name "aurora-waves" -ReturnText |
-    Out-File -FilePath "./aurora.ansi" -Encoding UTF8</maml:para>
-          <maml:para></maml:para>
-          <maml:para># 稍后显示保存的文件
-Get-Content "./aurora.ansi" -Raw | Write-Host
-```</maml:para>
-          <maml:para></maml:para>
+    Out-File -FilePath "./aurora.ansi" -Encoding UTF8
+
+# 稍后显示保存的文件
+Get-Content "./aurora.ansi" -Raw | Write-Host</dev:code>
+        <dev:remarks>
           <maml:para>将渲染的颜色脚本保存到文件中，以便稍后显示或与其他人共享。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 17 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 创建几何彩色脚本的幻灯片
+        <maml:introduction></maml:introduction>
+        <dev:code># 创建几何彩色脚本的幻灯片
 Get-ColorScriptList -Category Geometric -AsObject |
     ForEach-Object {
         Show-ColorScript -Name $_.Name
         Start-Sleep -Seconds 3
-    }
-```</maml:para>
-          <maml:para></maml:para>
+    }</dev:code>
+        <dev:remarks>
           <maml:para>自动显示一系列几何彩色脚本，每个几何彩色脚本之间有 3 秒的延迟。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 18 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 错误处理示例
+        <maml:introduction></maml:introduction>
+        <dev:code># 错误处理示例
 try {
     Show-ColorScript -Name "nonexistent-script" -ErrorAction Stop
 } catch {
     Write-Warning "未找到脚本：$_"
     Show-ColorScript  # 回退到随机
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>演示请求不存在的脚本时的错误处理。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 19 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 构建自动化集成
+        <maml:introduction></maml:introduction>
+        <dev:code># 构建自动化集成
 if ($env:CI) {
     Show-ColorScript -Name "Galaxy" -NoCache
 } else {
     Show-ColorScript  # 随机显示供交互使用
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>展示如何在 CI/CD 环境与交互式会话中有条件地显示不同的颜色脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 20 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-# 终端问候定时任务
+        <maml:introduction></maml:introduction>
+        <dev:code># 终端问候定时任务
 $scriptPath = "$(Get-Module ColorScripts-Enhanced).ModuleBase\Scripts\mandelbrot-zoom.ps1"
 if (Test-Path $scriptPath) {
     &amp; $scriptPath
 } else {
     Show-ColorScript -Name mandelbrot-zoom
-}
-```</maml:para>
-          <maml:para></maml:para>
+}</dev:code>
+        <dev:remarks>
           <maml:para>演示作为计划任务或启动自动化的一部分运行特定的颜色脚本。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 21 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -IncludePokemon
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -IncludePokemon</dev:code>
+        <dev:remarks>
           <maml:para>显示随机颜色脚本，包括 `Pokemon` 类别中的脚本。当您希望将神奇宝贝艺术包含在随机选择中时很有用。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>--------- EXAMPLE 22 ---------</maml:title>
-        <maml:introduction>
-          <maml:para>```powershell
-Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming
-```</maml:para>
-          <maml:para></maml:para>
+        <maml:introduction></maml:introduction>
+        <dev:code>Show-ColorScript -Random -ExcludeCategory Pokemon,Gaming</dev:code>
+        <dev:remarks>
           <maml:para>显示随机颜色脚本，同时排除 `Pokemon` 和 `Gaming` 类别。与 `-Category` 或 `-Tag` 结合以进一步细化选择。</maml:para>
-        </maml:introduction>
-        <dev:code />
-        <dev:remarks />
+        </dev:remarks>
       </command:example>
     </command:examples>
     <command:relatedLinks>

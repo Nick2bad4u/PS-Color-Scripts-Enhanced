@@ -457,3 +457,8 @@ todo.md
 .lycheecache
 .playwright-cli/
 output/
+
+# Updatable Help release payloads are generated deterministically and published
+# from this repository.
+!docs/ColorScripts-Enhanced/*_HelpContent.zip
+!docs/ColorScripts-Enhanced/*_HelpContent.cab
