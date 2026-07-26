@@ -13,6 +13,7 @@ const {
     getSauceFontName,
     resolveSauceEncoding,
     stripSauce,
+    truncateDosAnsiAtEof,
     MAX_INPUT_BYTES,
     MAX_TERMINAL_COLUMNS,
 } = require("./Convert-AnsiToColorScript.js");
@@ -1947,7 +1948,7 @@ function analyzeAnsiRender(raw) {
     const sauce = stripped.sauce;
     const sourceEncoding = resolveSauceEncoding(getSauceFontName(sauce));
     const content = decodeDosAnsi(
-        stripped.buffer,
+        truncateDosAnsiAtEof(stripped.buffer),
         sourceEncoding.supported ? sourceEncoding.encoding : "cp437"
     );
     const columns = sauce?.tInfo1 || 80;

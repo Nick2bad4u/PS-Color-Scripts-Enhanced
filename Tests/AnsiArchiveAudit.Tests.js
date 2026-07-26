@@ -351,6 +351,25 @@ test("ANSI analysis preserves cell geometry and detects visible color families",
     assert.match(analysis.normalizedRenderSha256, /^[a-f\d]{64}$/u);
 });
 
+test("ANSI analysis ignores all DOS bytes after the first EOF marker", () => {
+    const visible = Buffer.from("VISIBLE", "binary");
+    const withPostEofBytes = Buffer.from(
+        "VISIBLE\x1a\r\nHIDDEN\x1a",
+        "binary"
+    );
+    const expected = analyzeAnsiBuffer(visible);
+    const actual = analyzeAnsiBuffer(withPostEofBytes);
+
+    assert.equal(actual.width, 7);
+    assert.equal(actual.height, 1);
+    assert.equal(actual.renderSha256, expected.renderSha256);
+    assert.equal(
+        actual.normalizedRenderSha256,
+        expected.normalizedRenderSha256
+    );
+    assert.notEqual(actual.sourceSha256, expected.sourceSha256);
+});
+
 test("ANSI analysis separately detects identical generated gallery output", () => {
     const art = "\u001b[31mR\u001b[32mG\u001b[34mB\u001b[0m";
     const withoutSourceMargin = analyzeAnsiBuffer(Buffer.from(art, "binary"));

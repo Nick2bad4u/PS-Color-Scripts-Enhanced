@@ -20,7 +20,9 @@ const {
     readAnsiFile,
     resolveSauceEncoding,
     stripSauce,
+    truncateDosAnsiAtEof,
     trimSauceTextField,
+    usesDosAnsiSemantics,
     writePowerShellFile,
 } = require("../scripts/Convert-AnsiToColorScript.js");
 const {
@@ -725,6 +727,106 @@ test("DOS ANSI mode treats bare LF as a new line like the canonical archive rend
     assert.deepEqual(dos.lines, dosCrLf.lines);
 });
 
+test("DOS ANSI mode resolves a full-width row before CRLF like libansilove", () => {
+    const fullWidthRow = "A".repeat(80);
+    const source = `${fullWidthRow}\r\nB`;
+    const modern = convertAnsiToPs1(source, { columns: 80 });
+    const dos = convertAnsiToPs1(source, { columns: 80, dosAnsi: true });
+
+    assert.deepEqual(modern.lines, [fullWidthRow, "B"]);
+    assert.deepEqual(dos.lines, [fullWidthRow, "", "B"]);
+});
+
+test("DOS ANSI mode resolves a full-width row before bare LF", () => {
+    const fullWidthRow = "A".repeat(80);
+    const dos = convertAnsiToPs1(`${fullWidthRow}\nB`, {
+        columns: 80,
+        dosAnsi: true,
+    });
+
+    assert.deepEqual(dos.lines, [fullWidthRow, "", "B"]);
+});
+
+test("DOS ANSI mode ignores bare CR while modern mode returns to column zero", () => {
+    const source = "ABC\rD";
+    const modern = convertAnsiToPs1(source, { columns: 80 });
+    const dos = convertAnsiToPs1(source, { columns: 80, dosAnsi: true });
+
+    assert.deepEqual(modern.lines, ["DBC"]);
+    assert.deepEqual(dos.lines, ["ABCD"]);
+});
+
+test("DOS ANSI TAB advances eight columns without painting gap cells", () => {
+    const source = "\u001b[41mA\tB";
+    const modern = convertAnsiToPs1(source, { columns: 80 });
+    const dos = convertAnsiToPs1(source, { columns: 80, dosAnsi: true });
+
+    assert.equal(modern.terminal.rows.get(0).cells.get(8).char, "B");
+    assert.equal(dos.terminal.rows.get(0).cells.get(9).char, "B");
+    for (let column = 1; column <= 8; column += 1) {
+        assert.equal(dos.terminal.rows.get(0).cells.has(column), false);
+    }
+});
+
+test("DOS ANSI mode resolves a full-width row before cursor control", () => {
+    const fullWidthRow = "A".repeat(80);
+    const source = `${fullWidthRow}\u001b[1AB`;
+    const modern = convertAnsiToPs1(source, { columns: 80 });
+    const dos = convertAnsiToPs1(source, { columns: 80, dosAnsi: true });
+
+    assert.equal(modern.lines[0], `${"A".repeat(79)}B`);
+    assert.equal(dos.lines[0], `B${"A".repeat(79)}`);
+});
+
+test("DOS ANSI cursor-forward preserves the right-margin wrap sentinel", () => {
+    const fullWidthRow = "A".repeat(80);
+    const dos = convertAnsiToPs1(`${fullWidthRow}\u001b[80CB`, {
+        columns: 80,
+        dosAnsi: true,
+    });
+
+    assert.deepEqual(dos.lines, [fullWidthRow, "", "B"]);
+});
+
+test("DOS ANSI absolute cursor positioning can target the wrap sentinel", () => {
+    for (const flag of ["H", "f"]) {
+        const dos = convertAnsiToPs1(`A\u001b[1;81${flag}B`, {
+            columns: 80,
+            dosAnsi: true,
+        });
+
+        assert.deepEqual(dos.lines, ["A", "B"]);
+    }
+});
+
+test("all supported DOS code pages use archival ANSI semantics", () => {
+    assert.equal(usesDosAnsiSemantics("cp437"), true);
+    assert.equal(usesDosAnsiSemantics("CP850"), true);
+    assert.equal(usesDosAnsiSemantics("cp860"), true);
+    assert.equal(usesDosAnsiSemantics("utf8"), false);
+    assert.equal(usesDosAnsiSemantics("UTF-8"), false);
+});
+
+test("converter CLI applies DOS wrapping to a non-CP437 code page", () => {
+    const directory = createTemporaryDirectory();
+    const inputPath = path.join(directory, "cp860.ans");
+    fs.writeFileSync(inputPath, `${"A".repeat(80)}\r\nB`, "ascii");
+
+    const result = spawnSync(
+        process.execPath,
+        [
+            path.join(__dirname, "../scripts/Convert-AnsiToColorScript.js"),
+            "--analyze-json",
+            "--encoding=cp860",
+            inputPath,
+        ],
+        { encoding: "utf8" }
+    );
+
+    assert.equal(result.status, 0, result.stderr || result.stdout);
+    assert.equal(JSON.parse(result.stdout).height, 3);
+});
+
 test("terminal column slicing reconstructs active style without reflowing cells", () => {
     const result = convertAnsiToPs1(
         "\u001b[31mABCD\u001b[44mEFGH\r\n\u001b[0m12345678",
@@ -1137,6 +1239,43 @@ test("stripSauce removes repeated metadata-adjacent DOS EOF markers", () => {
     assert.ok(result.sauce);
 });
 
+test("stripSauce removes newline-separated metadata-adjacent DOS EOF markers", () => {
+    const content = Buffer.from("ART\r\n\r\n\x1a\r\n\x1a", "binary");
+    const sauce = Buffer.alloc(128);
+    sauce.write("SAUCE00", 0, "ascii");
+    sauce.writeUInt32LE(7, 90);
+
+    const result = stripSauce(Buffer.concat([content, sauce]));
+
+    assert.equal(result.buffer.toString("binary"), "ART\r\n\r\n");
+    assert.ok(result.sauce);
+});
+
+test("stripSauce preserves artwork rows before newline-separated COMNT EOF markers", () => {
+    const content = Buffer.from("ART\r\n\x1a\r\n\x1a", "binary");
+    const comments = Buffer.alloc(69);
+    comments.write("COMNT", 0, "ascii");
+    comments.write("reviewed", 5, "ascii");
+    const sauce = Buffer.alloc(128);
+    sauce.write("SAUCE00", 0, "ascii");
+    sauce.writeUInt32LE(content.length, 90);
+    sauce.writeUInt8(1, 104);
+
+    const result = stripSauce(Buffer.concat([content, comments, sauce]));
+
+    assert.equal(result.buffer.toString("binary"), "ART\r\n");
+    assert.deepEqual(result.sauce?.commentLines, ["reviewed"]);
+});
+
+test("stripSauce removes newline-separated EOF markers before truncated SAUCE metadata", () => {
+    const result = stripSauce(
+        Buffer.from("ART\r\n\x1a\r\n\x1aSAUCE00broken", "binary")
+    );
+
+    assert.equal(result.buffer.toString("binary"), "ART\r\n");
+    assert.equal(result.sauce, null);
+});
+
 test("stripSauce removes standalone trailing DOS EOF markers", () => {
     const result = stripSauce(
         Buffer.from([
@@ -1166,6 +1305,27 @@ test("stripSauce removes a DOS EOF marker followed only by newlines", () => {
 
     assert.equal(result.buffer.toString("binary"), "ART\r\n\r\n");
     assert.equal(result.sauce, null);
+});
+
+test("readAnsiFile stops DOS artwork at the first EOF marker", () => {
+    const directory = createTemporaryDirectory();
+    const inputPath = path.join(directory, "eof.ans");
+    fs.writeFileSync(
+        inputPath,
+        Buffer.from("VISIBLE\x1a\r\nHIDDEN\x1a", "binary")
+    );
+
+    assert.equal(readAnsiFile(inputPath, "cp437").content, "VISIBLE");
+    assert.equal(
+        readAnsiFile(inputPath, "utf8").content,
+        "VISIBLE\x1a\r\nHIDDEN"
+    );
+    assert.equal(
+        truncateDosAnsiAtEof(Buffer.from("VISIBLE\x1aHIDDEN", "binary")).toString(
+            "binary"
+        ),
+        "VISIBLE"
+    );
 });
 
 test("splitter CLI can convert ANSI input in dry-run mode", () => {

@@ -14,6 +14,7 @@ const {
     buildSourceMetadataHeader,
     buildPowerShellOutput,
     writePowerShellFile,
+    usesDosAnsiSemantics,
     MAX_INPUT_BYTES,
     MAX_TERMINAL_COLUMNS,
 } = require("./Convert-AnsiToColorScript.js");
@@ -811,7 +812,7 @@ function main(argv = process.argv.slice(2)) {
             columns: columns || undefined,
             stripSpaceBackground: options.stripSpaceBackground,
             iceColors: Boolean(sauce && sauce.flags & 1),
-            dosAnsi: sourceEncoding.toLowerCase() === "cp437",
+            dosAnsi: usesDosAnsiSemantics(sourceEncoding),
         };
 
         const converted = convertAnsiToPs1(content, terminalOptions);

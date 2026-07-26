@@ -132,8 +132,9 @@ const SAUCE_DOS_CODE_PAGES = new Set([
  *     this from SAUCE tInfo2, which may include unused trailing padding.
  * @property {number} [maxHeight]
  * @property {boolean} [iceColors]
- * @property {boolean} [dosAnsi] Match DOS ANSI-art/Ansilove behavior for
- *     legacy color aliases and bare-LF line endings.
+ * @property {boolean} [dosAnsi] Match DOS ANSI-art/libansilove behavior for
+ *     legacy color aliases, bare-LF line endings, and immediate right-margin
+ *     wrapping.
  */
 
 /**
@@ -249,6 +250,35 @@ function decodeDosAnsi(buffer, encoding = "cp437") {
  */
 function decodeCp437Ansi(buffer) {
     return decodeDosAnsi(buffer, "cp437");
+}
+
+/**
+ * Determine whether an input encoding uses the archival DOS ANSI terminal
+ * model. UTF-8 inputs target modern Unicode terminals; every supported
+ * single-byte code page is decoded as DOS text and therefore needs the same
+ * libansilove cursor, wrapping, and color behavior as CP437.
+ *
+ * @param {string} encoding
+ *
+ * @returns {boolean}
+ */
+function usesDosAnsiSemantics(encoding) {
+    const normalizedEncoding = String(encoding).toLowerCase();
+    return (
+        normalizedEncoding !== "utf8" && normalizedEncoding !== "utf-8"
+    );
+}
+
+/**
+ * Truncate a DOS byte stream at its first SUB (0x1A) logical EOF marker.
+ *
+ * @param {Buffer} buffer
+ *
+ * @returns {Buffer}
+ */
+function truncateDosAnsiAtEof(buffer) {
+    const eofOffset = buffer.indexOf(0x1a);
+    return eofOffset === -1 ? buffer : buffer.subarray(0, eofOffset);
 }
 
 /**
@@ -506,19 +536,31 @@ function stripSauce(buffer) {
      * @returns {number}
      */
     const trimDosEofMarkers = (offset) => {
-        let markerEnd = offset;
-        while (
-            markerEnd > 0 &&
-            (buffer[markerEnd - 1] === 0x0a ||
-                buffer[markerEnd - 1] === 0x0d)
-        ) {
-            markerEnd -= 1;
+        let markerStart = offset;
+        let foundMarker = false;
+        while (markerStart > 0) {
+            let markerEnd = markerStart;
+            while (
+                markerEnd > 0 &&
+                (buffer[markerEnd - 1] === 0x0a ||
+                    buffer[markerEnd - 1] === 0x0d)
+            ) {
+                markerEnd -= 1;
+            }
+            let nextMarkerStart = markerEnd;
+            while (
+                nextMarkerStart > 0 &&
+                buffer[nextMarkerStart - 1] === 0x1a
+            ) {
+                nextMarkerStart -= 1;
+            }
+            if (nextMarkerStart === markerEnd) {
+                break;
+            }
+            foundMarker = true;
+            markerStart = nextMarkerStart;
         }
-        let markerStart = markerEnd;
-        while (markerStart > 0 && buffer[markerStart - 1] === 0x1a) {
-            markerStart -= 1;
-        }
-        return markerStart < markerEnd ? markerStart : offset;
+        return foundMarker ? markerStart : offset;
     };
     const contentEnd = trimDosEofMarkers(buffer.length);
     const truncatedMarker = buffer.lastIndexOf(
@@ -583,7 +625,8 @@ function stripSauce(buffer) {
     }
 
     // A DOS 0x1A end-of-file marker commonly precedes COMNT/SAUCE metadata.
-    // It is metadata framing, not artwork; preserve any SUB bytes elsewhere.
+    // Remove only metadata-adjacent markers here. DOS stream truncation is
+    // centralized separately so UTF-8 callers can retain interior SUB bytes.
     trimOffset = trimDosEofMarkers(trimOffset);
 
     return {
@@ -650,11 +693,10 @@ class TerminalEmulator {
         this.maxCol = 0;
         this.stripSpaceBackground = opts.stripSpaceBackground === true;
         this.iceColors = opts.iceColors === true;
-        // DOS ANSI art and the canonical 16colors/Ansilove renderer differ
-        // from a modern ECMA-48 terminal in two relevant ways: they do not
-        // implement the later bright-color aliases (90-97/100-107), and a
-        // bare LF in archived DOS text starts a new line at column zero.
-        // CP437 artwork commonly relies on both behaviors.
+        // DOS ANSI art and the canonical 16colors/libansilove renderer differ
+        // from a modern ECMA-48 terminal in their legacy color aliases,
+        // CR/LF/TAB cursor semantics, and immediate right-margin wrapping.
+        // Archived single-byte DOS artwork commonly relies on these behaviors.
         this.dosAnsi = opts.dosAnsi === true;
         this.iceBackground = false;
         this.writtenCellCount = 0;
@@ -692,29 +734,38 @@ class TerminalEmulator {
     /**
      * @param {number} x
      * @param {number} y
+     * @param {boolean} [allowRightMarginSentinel]
      */
-    setCursor(x, y) {
-        this.assertCursorPosition(x, y);
+    setCursor(x, y, allowRightMarginSentinel = false) {
+        const useRightMarginSentinel =
+            allowRightMarginSentinel &&
+            this.autoWrap &&
+            x >= this.columns;
+        this.assertCursorPosition(x, y, useRightMarginSentinel);
         // Real ANSI terminals constrain absolute and relative horizontal cursor
-        // movement to the active right margin. Keeping an out-of-range column
-        // here silently widens nominally 80-column artwork and makes later
-        // serialization disagree with SAUCE and official renderers.
+        // movement to the active right margin. libansilove additionally retains
+        // a one-column sentinel for DOS cursor movement that reaches the margin;
+        // the next input byte resolves that sentinel as a wrap.
         this.cursorX = Math.min(x, this.columns - 1);
         this.cursorY = y;
-        this.wrapPending = false;
+        this.wrapPending = useRightMarginSentinel;
     }
 
     /**
      * @param {number} x
      * @param {number} y
+     * @param {boolean} [allowRightMarginSentinel]
      */
-    assertCursorPosition(x, y) {
+    assertCursorPosition(x, y, allowRightMarginSentinel = false) {
+        const maximumX = allowRightMarginSentinel
+            ? MAX_TERMINAL_COLUMNS
+            : MAX_TERMINAL_COLUMNS - 1;
         if (
             !Number.isSafeInteger(x) ||
             !Number.isSafeInteger(y) ||
             x < 0 ||
             y < 0 ||
-            x >= MAX_TERMINAL_COLUMNS ||
+            x > maximumX ||
             y >= MAX_TERMINAL_ROWS
         ) {
             throw new RangeError(
@@ -730,9 +781,7 @@ class TerminalEmulator {
         if (ch === "\0") {
             return;
         }
-        if (this.autoWrap && this.wrapPending) {
-            this.setCursor(0, this.cursorY + 1);
-        }
+        this.resolvePendingWrap();
         this.assertCursorPosition(this.cursorX, this.cursorY);
         const row = this.ensureRow(this.cursorY);
         if (!row.cells.has(this.cursorX)) {
@@ -779,6 +828,13 @@ class TerminalEmulator {
      * @param {string} ch
      */
     printChar(ch) {
+        // libansilove resolves a full-width row before it processes the next
+        // byte, including a CR/LF control byte. A modern terminal keeps the
+        // wrap pending until the next printable character, so preserve that
+        // behavior outside the archival DOS mode.
+        if (this.dosAnsi) {
+            this.resolvePendingWrap();
+        }
         const code = ch.charCodeAt(0);
         switch (code) {
             case 0x08: // BS
@@ -798,7 +854,12 @@ class TerminalEmulator {
                 this.lineFeed(1);
                 break;
             case 0x0d: // CR
-                this.carriageReturn();
+                // libansilove ignores CR and performs both the row increment
+                // and column reset on LF. Preserve modern CR behavior for
+                // Unicode/non-archival input.
+                if (!this.dosAnsi) {
+                    this.carriageReturn();
+                }
                 break;
             default:
                 this.writeChar(ch);
@@ -813,7 +874,19 @@ class TerminalEmulator {
         }
     }
 
+    resolvePendingWrap() {
+        if (this.autoWrap && this.wrapPending) {
+            this.setCursor(0, this.cursorY + 1);
+        }
+    }
+
     horizontalTab() {
+        if (this.dosAnsi) {
+            // libansilove advances DOS TAB by eight columns without painting
+            // intervening cells. This is deliberately not a modern tab stop.
+            this.setCursor(this.cursorX + 8, this.cursorY, true);
+            return;
+        }
         const nextStop = (Math.floor(this.cursorX / 8) + 1) * 8;
         const spaces = Math.max(1, nextStop - this.cursorX);
         for (let i = 0; i < spaces; i += 1) {
@@ -1183,7 +1256,11 @@ class TerminalEmulator {
                 this.setCursor(this.cursorX, this.cursorY + getParam(0, 1));
                 break;
             case "C":
-                this.setCursor(this.cursorX + getParam(0, 1), this.cursorY);
+                this.setCursor(
+                    this.cursorX + getParam(0, 1),
+                    this.cursorY,
+                    this.dosAnsi
+                );
                 break;
             case "D":
                 this.setCursor(
@@ -1198,13 +1275,17 @@ class TerminalEmulator {
                 this.setCursor(0, Math.max(0, this.cursorY - getParam(0, 1)));
                 break;
             case "G":
-                this.setCursor(Math.max(0, getParam(0, 1) - 1), this.cursorY);
+                this.setCursor(
+                    Math.max(0, getParam(0, 1) - 1),
+                    this.cursorY,
+                    this.dosAnsi
+                );
                 break;
             case "H":
             case "f": {
                 const row = Math.max(0, getParam(0, 1) - 1);
                 const col = Math.max(0, getParam(1, 1) - 1);
-                this.setCursor(col, row);
+                this.setCursor(col, row, this.dosAnsi);
                 break;
             }
             case "J":
@@ -1375,6 +1456,9 @@ class TerminalEmulator {
      * @param {string} flag
      */
     inst_c(collected, params, flag) {
+        if (this.dosAnsi) {
+            this.resolvePendingWrap();
+        }
         this.applyCsi(collected, params, flag);
     }
 
@@ -1383,6 +1467,9 @@ class TerminalEmulator {
      * @param {string} flag
      */
     inst_e(collected, flag) {
+        if (this.dosAnsi) {
+            this.resolvePendingWrap();
+        }
         this.applyEsc(collected, flag);
     }
 
@@ -1902,11 +1989,17 @@ function readAnsiFile(filePath, encoding = "cp437") {
     }
     const { buffer, sauce } = stripSauce(raw);
     const normalizedEncoding = encoding.toLowerCase();
+    const isUtf8 = !usesDosAnsiSemantics(normalizedEncoding);
+    // DOS and libansilove treat SUB (0x1A) as the logical end of an ANSI
+    // stream. Some historical packs contain line breaks, duplicate EOF
+    // markers, or other bytes between the first SUB and SAUCE metadata; none
+    // of those bytes are part of the rendered artwork.
+    const contentBuffer = isUtf8 ? buffer : truncateDosAnsiAtEof(buffer);
     const content =
-        normalizedEncoding === "utf8" || normalizedEncoding === "utf-8"
-            ? buffer.toString("utf8")
+        isUtf8
+            ? contentBuffer.toString("utf8")
             : decodeDosAnsi(
-                  buffer,
+                  contentBuffer,
                   normalizedEncoding === "437"
                       ? "cp437"
                       : normalizedEncoding
@@ -2035,7 +2128,7 @@ function main(argv = process.argv.slice(2)) {
                 autoWrap: options.autoWrap,
                 stripSpaceBackground: options.stripSpaceBackground,
                 iceColors: Boolean(sauce && sauce.flags & 1),
-                dosAnsi: options.encoding.toLowerCase() === "cp437",
+                dosAnsi: usesDosAnsiSemantics(options.encoding),
             });
             process.stdout.write(
                 JSON.stringify({
@@ -2093,7 +2186,7 @@ function main(argv = process.argv.slice(2)) {
             autoWrap: options.autoWrap,
             stripSpaceBackground: options.stripSpaceBackground,
             iceColors: Boolean(sauce && sauce.flags & 1),
-            dosAnsi: options.encoding.toLowerCase() === "cp437",
+            dosAnsi: usesDosAnsiSemantics(options.encoding),
         };
 
         const sauceFontName = getSauceFontName(sauce);
@@ -2218,6 +2311,8 @@ module.exports = {
     writePowerShellFile,
     getSauceFontName,
     resolveSauceEncoding,
+    truncateDosAnsiAtEof,
+    usesDosAnsiSemantics,
     main,
     createDefaultAttrs,
     stripSauce,
