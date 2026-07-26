@@ -1,0 +1,32 @@
+﻿# Converted from: HX-WILD.ICE
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/ice-9403/raw/HX-WILD.ICE
+# Source Revision: archive-sha256:256add313f6fb2d9526e695b09f6039aacb3931a76c34081a80ce81f3cc3dbc4
+# Source SHA-256: b4adf8efba7e773f6cedf85b2188f9d014154369f5f3d7fc462bb56142c7031e
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: HX-WILD.ICE by Hoaks (ice-9403); released in ice-9403 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Lines: 99-118
+# Columns: 1-80
+
+Write-Host '
+[30m████████[0m         [32m▄▄▄▄[0m
+[30m██████[0m       [32m█▀▀██[0;1;32;42m░░░▒▒▒▓▓▓▓███[0;1;32;40m▀▀▀[0m
+[30m████[0m       [32m▄██▄  ▀█[0;1;32;42m░░▒▒▒▓▓▓[0;1;32;40m▀[0m
+[30m██[0m        [32m▄█  █▄   ▀ ██ [0;1;32m▀[0;32m────────[0;1;32m──[0;32m───[0;1;32m───────[0;32m───────────[0;1;32m─[0;32m───────────[0;1;32m──[0;32m──[0;1;32m────[0;32m──┐[0m
+[30m████[0m     [32m▄█    █▄[0m          [1;30mT A K E  A  [0mW A L K  [1mO N  T H [0mE  W I L [1;30mD  S I D E  [0;32m│[0m
+[30m██████  [0;32m▄█[0m      [32m█▄[0m       [1;30m──────────────[0m───────[1m───────────[0m────────[1;30m───────────  [0;1;32m│[0m
+[30m████████[0;32m█  [0;30m███   [0;32m█[0m           [30m██[0m              [37mW[0;1;37mild Visions[0m                     [32m│[0m
+[30m███████[0;32m▄█    [0;31m▓██▄[0;32;41m▀▀[0;31;40m▄██▄[0m     [30;40m███[0m                                               [32;40m│[0m
+[30;40m███████[0;32;40m█[0;30;40m█   [0;31;40m▒▓█[0;1;31;41m░▒▒░[0;31m█[0;1;31;41m▒▒░[0m      [1;30;40mNode #1 ([0m616)866-[1m6865  Node [0m#2 (616)[1;30m***-****[0m     [1;32m│[0m
+[30m███████[0;32m█[0;30m███[0;31m▒▓█[0;1;31;41m░▒▓▓▒░[0;31m█[0;1;31;41m▓▒░[0;30m█   ███[0m                                               [32m.[0m
+[32m [0;30m██████[0;32m█[0;30m██[0;31m▒▓█[0;1;31;41m░▒▓██▓▒░[0;31m█[0;1;31;41m▓▒░[0m  [30m█[0m       [1;30mSys[0mOps: Spo[1mck · Hoaks [0m· Contro[1;30ml[0m            [32m:[0m
+[32m   [0;31m▓██▄[0;32;41m▀▀[0;31;40m▄██▓█[0;1;31;41m░▒▓▓▒░[0;31m█[0;1;31;41m▓▒░[0m   [30m████[0m                                               [32m·[0m
+[32m  [0;31m▒▓█[0;1;31;41m░▒▒░[0;31m█[0;1;31;41m▒▒░[0;31m▓█[0;1;31;41m░▒▒░[0;31m█[0;1;31;41m▒▒░[0m                 Runnin[1m'' Renegade 7-[0m17                 [31m·[0m
+[30m█[0;31m▒▓█[0;1;31;41m░▒▓▓▒░[0;31m█[0;1;31;41m▓▒░[0;31m██▀▀▀▀██▀[0;30m██[0m                                                     [31m│[0m
+[31m▒▓█[0;1;31;41m░▒▓██▓▒░[0;31m█[0;1;31;41m▓▒░[0m                   [1;30;40mLarg[0me Art Co[1mllection · [0mAdult Fi[1;30mles[0m          [1;31m│[0m
+[1;31m [0;31m▒▓█[0;1;31;41m░▒▓▓▒░[0;31m█[0;1;31;41m▓▒░[0m [30m████████████████[0m                                               [31m│[0m
+[31m  ▓▓█[0;1;31;41m░▒▒░[0;31m█[0;1;31;41m▒▒░[0m  [30m████████████████[0m            [37mAdu[0;1;37mlt Links Me[0mmber                 [1;31m│[0m
+[30m██[0;31m▀███▀▀▀███▀[0;30m█[0;1;31m─────[0;31m────────[0;1;31m───[0;31m─[0;1;31m─[0;31m───────[0;1;31m────────────────────[0;31m─────────[0;1;31m───[0;31m──[0;1;31m─[0;31m────[0;1;31m┘[0m
+[30m██████████████████████████████████[0m                                   [1;30mH·[0mO·[1mA[0m·K[1;30m·S[0m
+                                                                        [1;36mi[0;1;34mC[0;34mE[0m'

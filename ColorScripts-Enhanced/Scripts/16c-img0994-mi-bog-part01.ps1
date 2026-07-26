@@ -1,0 +1,26 @@
+﻿# Converted from: MI-BOG.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/img0994/raw/MI-BOG.ANS
+# Source Revision: archive-sha256:f71d8ed85ca0ccb865692dde13b0ccd32121cde3b55a48a2d905a2c94a7df80f
+# Source SHA-256: 95124feeffffaa678693c8f6fa8208f7a00025f51eff00da97d40d61f5c1223c
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: MI-BOG.ANS by Ministry (img0994); released in img0994 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Lines: 1-15
+# Columns: 1-80
+
+Write-Host '
+
+
+
+                                                     [31m▄[0;1;30;41m▒▓▓[0;1;30;40m▄▄[0m
+                   [1;30;40m▄▄[0;1;30;41m▓▓▒[0;31m▄[0m                          [31m▄██[0;1;30;41m░░▒▒▓▓[0;1;30;40m▄▄[0m
+                [1;30;40m▄▄[0;1;30;41m▓▓▒▒░░[0;31m██▄[0m                      [1;31m▄[0;1;31;41m▒▒░░[0;31m██[0;1;30;41m░░▒▒▓▓[0;1;30;40m█▄[0m
+              [1;30;40m▄█[0;1;30;41m▓▓▒▒░░[0;31m██[0;1;31;41m░░▒▒[0;1;31;40m▄[0m                  [1;31;40m▄█[0;1;31;41m▓▓▒▒░░[0;31m██[0;1;30;41m░░▒▒▓▓[0;1;30;40m█▌[0m
+             [1;30;40m▐█[0;1;30;41m▓▓▒▒░░[0;31m██[0;1;31;41m░░▒▒▓▓[0;1;31;40m█▄[0m              [1;31;40m▄████[0;1;31;41m▓▓▒▒░░[0;31m██[0;1;30;41m░░▒▒▓▓[0;1;30;40m█[0m
+             [1;30;40m█[0;1;30;41m▓▓▒▒░░[0;31m██[0;1;31;41m░░▒▒▓▓[0;1;31;40m████▄[0m          [1;31;40m▄██████[0;1;31;41m▓▓[0;31m▀▀   ▀▀[0;1;30;41m▒▒▓▓[0;1;30;40m█▌[0m
+             [1;30;40m▐█[0;1;30;41m▓▓▒▒[0;31m▀▀   ▀▀[0;1;31;41m▓▓[0;1;31;40m██████▄[0m      [1;31;40m▄██████▀▀[0m          [1;30;40m▄██▀[0m
+              [1;30;40m▀██▄[0m          [1;31;40m▀▀██████▄   ▐███▀▀[0m            [1;30;40m▄█▀[0m
+                 [1;30;40m▀█▄[0m            [1;31;40m▀▀███▌   ▀▄▄[0m      [31m▀[0m     [1;30m▄█▀[0m
+                   [1;30m▀█▄[0m     [31m▀[0m      [1;31m▄▄▀[0m
+'

@@ -1,0 +1,47 @@
+﻿# Converted from: MIRAGE.ANS
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/pois0494/raw/MIRAGE.ANS
+# Source Revision: archive-sha256:491866387951b2ac589a87cb05ec6fb2ce1d9286bafcc428bf1287707f65c9ac
+# Source SHA-256: 30b1f8a7b551ec1b2aafaaa61aaa8dd98ad36674a983c937d1d3166810691e99
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: MIRAGE.ANS by Bum (pois0494); released in pois0494 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Lines: 30-64
+# Columns: 1-80
+
+Write-Host '
+[1;30m    █▓▒░[0m                                                              [1;30m░▒▓█[0m
+[1;30m   █▓▒░[0m                             ▄▄▄▄▄▄▄                            [1;30m░▒▓█[0m
+[1;30m    █▓▒░[0m                          ▄[1;47m▄[0;1;40m███████[0;1;47m▄[0m▄                         [1;30m░░░▒▓█[0m
+     [1;30m█▓▒░[0m                       ▄[1;47m▄[0;1;40m█▀[0;1;47m▒▓[0m▀ ▀[1;47m▓▒[0;1;40m▀█[0;1;47m▄[0m▄                      [1;30m░░░▒▓█[0m
+      [1;30m▀█▓▒[0m                    ▄[1;47m▄▀░[0m▌ [1;47m█[0m▌   ▐[1m█ [0m▐[1;30;47m░[0;1;37;47m▀▄[0m▄                   [1;30m░░░▒▓█[0m
+        [1;30m█▓▒[0m                  ▀[1m█ [0;1;47m▒[0;1;30;47m▐[0m  [1;37;40m█[0m     [1;37;40m█ [0m▐[1;47m░▓[0m [1;40m█[0m▀                  [1;30m░░▒▓█[0m
+         [1;30m█▓▒[0m                  [1;37m▌ [0;1;37;47m▓[0m▌  [1;41m▌[0m     [1;40m▐  [0;1;47m▓[0;1;40m▌ ▐[0m                  [1;30;40m▒▒▓█▀[0m
+          [1;30;40m█▓▒[0m                   [1;37;40m▐   [0;31m▌[0m        [1;37m▐[0m                    [1;30m▒▓█▀[0m
+           [1;30m█▓▒[0m                      [31m▌[0m                            [1;30m▒▓█[0m
+            [1;30m█▓▒[0m                     [31m▌[0m                           [1;30m▒▓█[0m
+             [1;30m█▓▒[0m                    [31m█[0m                          [1;30m▒▓█[0m
+              [1;30m█▓▒[0m                   [1;37;41m▌[0m     [1;37;40m▐[0m                   [1;30;40m▒▓█[0m
+               [1;30;40m█▓▒[0m              [1;37;40m▄   [0;1;37;47m█[0m     [1;37;40m█   ▄[0m              [1;30;40m▒▓█[0m
+                [1;30;40m█▓▒    ▒▒[0m      ▀▄[1m█▄ [0;1;47m▒▓[0m▄ ▄[1;47m▓▒[0m [1;40m▄█[0m▄▀      [1;30m▒▒    ▒▓█[0m
+                 [1;30m█▓▒  ▒▓▓▒▒[0m      ▀[1;47m▀▀▀▀███▀▀▀▀[0m▀      [1;30m▒▒▓▓▒  ▒▓█[0m
+                  [1;30m█▓▒▒▓██▓▓▒[0m          ▀▀▀          [1;30m▒▓▓██▓▒▒▓█[0m
+                   [1;30m█▓▓█  ██▓▒[0m                     [1;30m▒▓██  █▓▓█[0m
+                    [1;30m██[0m     [1;30m█▓▒[0m       [1;30m▒   ▒[0m       [1;30m▒▓█[0m     [1;30m██[0m
+                            [1;30m█▓▒▒    ▒▓▒ ▒▓▒    ▒▒▓█[0m
+                             [1;30m█▓▓▒▒ ▒▓█▓▒▓█▓▒ ▒▒▓▓█[0m
+                              [1;30m██▓▓▒▓█ █▓█ █▓▒▓▓██[0m
+                                [1;30m██▓█   █   █▓██[0m
+                                  [1;30m█[0m         [1;30m█[0m
+
+
+
+[1;30m────────────────────────────────────────────────────────────────────────────────[0m
+[1;32mT  H  I  N  G  S    A  R  E    N  O  T    W  H  A  T    T  H  E  Y    S  E  E  M[0m
+[1;36m────────────────────────────────────────────────────────────────────────────────[0m
+[1;30m▄██▄▄▄█▄▄▄▄▄▄▄█▄▄[0m               [36m────────────────[0m
+[1;30m▐[0mBuM[1;30m█[0mPOiSON[1;30m█[0m1994[1;30m▌[0m                     [32mA  T[0m
+[1;30m▀   ▐[0m      [1;30m▌    ▀[0m               [36m────────────────[0m
+[36m    [0;1;30m▐[0m
+[1;30m    .[0m      [1;30m.[0m
+'

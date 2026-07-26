@@ -1,0 +1,43 @@
+﻿# Converted from: SC-TFR.ICE
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/ice-9407/raw/SC-TFR.ICE
+# Source Revision: archive-sha256:c6a6b9362995bb76d0cbb2d7dbf54e671ec2870d25bfdff1a5d3a538190c7d91
+# Source SHA-256: e01602e7e1f0246f3c18c4221e3e02cbf77dd8f618a831a8a4d9766c7522f0dd
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: SC-TFR.ICE by Sliver Cut (ice-9407); released in ice-9407 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Lines: 1-32
+# Columns: 1-80
+
+Write-Host '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                              [35m░[0m
+                                                                          [35m▄   ▒[0m
+                                                                      [35m▄[0;1;35;45m░[0;35m▀▀  ▀▓▓[0m
+                                                                       [1;35;45m▓▒[0;35m▄█ ▄█▐[0m
+                                                                       [1;35m▐[0;1;35;45m▓▒░[0;35m███▀[0m
+                                                                        [1;35m▀[0;35m▀▀▀  ░[0m
+                                                                      [35m▐▄▄▄▄▓▀ ▒[0m
+                                                                       [1;35;45m░▒[0;35m▌   ▐▓[0m
+                                                                       [1;35m▐[0;1;35;45m▓▒░[0;35m▄██▀[0m
+                                                                 [35m░[0m     [1;35m▀▀[0;35m▀▀[0;1;35;45m░[0;35m█▌░[0m
+                                                                  [35m▒▓▄  ▄[0m      [35m▒[0m
+                                                                    [35m▓█▄▐███▄▄[0;1;35;45m░[0;35m▓[0m
+                                                                        [35m██[0;1;35;45m░[0;35m█[0;1;35;45m░▒[0;35m█[0m
+                                                                           [35m▀▀[0;1;35;45m▓[0;1;35m█[0m
+                                                                              [1;35m▐[0m'

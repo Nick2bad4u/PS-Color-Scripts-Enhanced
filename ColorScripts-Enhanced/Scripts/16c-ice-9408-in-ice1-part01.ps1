@@ -1,0 +1,48 @@
+﻿# Converted from: IN-ICE1.ICE
+# Source encoding: CP437
+# Source URL: https://16colo.rs/pack/ice-9408/raw/IN-ICE1.ICE
+# Source Revision: archive-sha256:fa8a4e27d9a185cd662254cdd4d5c7083c450d81415053054b7d17d8e404dca2
+# Source SHA-256: 25e52b44f9f80c98087223e8dbc3b7923bf740c7bc106b0c5bd64f49916bb343
+# Source License: LicenseRef-16colors-discord-permission
+# Source Attribution: IN-ICE1.ICE by Incubus (ice-9408); released in ice-9408 and preserved by 16colors.
+# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Lines: 1-36
+# Columns: 1-80
+
+Write-Host '
+[30mLord SLoth likes using fuzzy-pink[0m     ▄  ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+[30mhandcuffs, especially when he''s[0m              ▀[1;47m▓░░[0m███▀▓  ▀▀██[1;47m░[0m▀[1m▀[0;1;47m▓▒░      [0m ▀██▓█
+[30mspread-eagle on my bed begging   This space    [0;1;47m▒░[0m▀  [30m↑[0m░[30miNKY↑ [0m▀▀▄ [1m▀[0;1;47m▓░[0;30;47m░[0m███▌  ▐▓▓
+[30mto be spank[0;34m▄[0;30med[0;1;34m▀▄    [0;34m▄[0;1;34m▄[0;34m▀[0;1;34;44m▀▄[0;34m▄[0;1;34m▀▄[0m     [30mis reserved   [0m█▌    ░[30mcum!!    [0m▀█▄[1;47m░[0m█████▄▄▓ ▒
+[30mlike   [0;34m▄[0;1;34m▄[0;34m▀▀[0;1;34;44m▀▀▄[0;34m▀ [0m▄[1m▄▄[0;34m▀▀[0;1;34m▄[0;34m▀▐[0;1;34m▄[0;34m▀▄[0;1;34;44m▀█[0;1;34m▄    [0;30mfor black on [0m▓ [30mWhy do I put   [0m▓▀████▓███▌ ░
+[30mthe  [0;34m▄▀▄▄█▀▄ [0m▄[1;47m▄▄[0;1m█████▄[0;34m▀▄▀[0;1m▄▄  [0;34m▀[0;1;34;44m▀[0;1;34m▄ [0;30mblack text..  [0m▒ [30mblack on black [0m▒ ▀███▌▐██  ░
+[30mdike[0;34m▐█▀█[0;1;34;44m▄▀[0;34m█ [0;1;47m [0;1m██████████ [0;1;47m▀[0;1m███▄ [0;1;34;44m▐[0m [1;34m▌[0m              ░ [30mon my ansis?   [0m░ ▐▐█▓  ██
+[30mthat[0;34m█[0;1;34m▄[0;34m▀█▄█ [0;1;47m ▐[0;1m███████████ [0;1;47m▐[0;1m▀[0;1;44m▀[0;1m█▌[0;34m▐[0;1;34m▌ [0;30mWant an ANSI? [0m░ [30mbecause Lord   [0m░ ▐[1;47m▒[0m█▓ ▐[1;47m▒[0m▌  ░
+[30mhe [0;34m█[0;1;34m▐[0;34m█[0;1;34;44m▄[0;1;34m▀[0;1;34;44m [0;1;34m▄[0;34m▀[0m▀[1;47m▐██[0;1m████▀[0;1;34m▄[0;1m▐█▀[0m▄[1m██[0;1;44m▄[0;1m▀ [0;34m▀ [0;30mthen talk to[0m     [30mSloth loves to    [0;1;47m░[0m█▓░▐[1;47m░[0m   ░
+[30mis![0;34m█[0;1;34;44m▐[0;34m█ █▐█[0;1;34m▀ [0m▀[1;47m▀[0;1m██████▄█▀[0;33m▄▄[0;1m▀▀ [0;30mLord Soth, he''ll   [0m░ [30mread black on[0m     ███▒█[1;47m░[0m▐
+   [34m▐▐[0;1;34;44m▐▌[0;34m██[0;1;34m▌[0;33m▄▀█▄[0m▀▀[1;47m▀[0;1m██▀▀[0;33m▄[0;30;43m   [0;33m██▄ [0;30mdo one for you.[0m     [30mblack text.[0m      [1;47m░[0m███▓██▐
+    [34m█[0;1;34;44m▄▀[0;34m▌█ [0;33m▐▌▄███▄▄▄█[0;30;43m   [0;33m▀▄███▌  [0;30mI''ve come to the conclusion that [0;1m▄[0;1;47m░[0m████████▄
+   [34m▐[0;1;34;44m▐[0m [34m█ [0;1;34;44m▐[0m  [33m▀▌[0;1;33m▄[0;33m▀█[0;30;43m      [0;33m██▄▀▀▀ [0;30mpeople dont want to see ansis[0m     [1;47m▓▒░[0m███████[1;47m░[0m██▄
+    [1;34;44m▀▄[0;34m▄█[0;1;34;44m▀▐[0m [1;33m▀▄[0;1m▀ [0;33m▐█[0;30;43m   [0;33m▀[0;30;43m [0;33m██▀ [0;30manymore, they want to see black on  [0m▄[1m▀[0;1;47m░[0m███▓▓██[1;47m░▒[0m█▓██
+     [1;34;44m▐[0m [1;34;44m■[0;34m█▐[0;1;34m▌   [0;33m▄██[0;30;43m  [0m [30;43m [0;33m██ [0;1;31;41m▀[0;1;31m███████████████████████████[0;1;31;41m▀[0;1;31m█▄[0m     [1m▄[0;1;47m░[0m██▄▀▀░▒▄███▓▓▒▓█
+    [34m▄  ▐▌[0;1;34;44m▀▀[0;1;34m▄   [0;33m▀[0;30;43m    [0;33m▄███▄[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄[0;1;31;41m▄[0;1;31m██   [0;1;47m░▒░[0m██████████▄▀▀░▒▒
+        [34m▀▄ ▀[0;1;34;44m▀[0;34m▄[0;1;34m▄  [0;33m▄▀▀[0;30;43m   [0;33m█▌    [0;30m↑[0m       [1;30m▌[0m            [31m▐▐[0;1;31;41m▐[0;1;31m██   [0;1m▐[0;1;47m▓▓▒░[0m██████████▓▓▄▄
+              [34m▀▀[0;1;34m▀[0;34m▄[0;33m▀█▄▀▀▀ [0;30mThat''s Lord [0;1;30m▌[0m             [31m▀▀[0;1;31m▀[0m     [1m▀[0;1;47m▒░░░[0m████████▓▓▒░ ░
+             [36m▄ [0;33m▄█▄██▌ [0;30mSloth''s cock![0;1;30m▐ █[0m                       █[1m▀▀[0;1;47m▒░░[0m███▓▓▒░  ░░
+           [33m▄█▄[0;36m▀▄[0;33m▀███▄[0;36m▀▄[0m      ▄ [33m▀■ ▄[0;1;30m▀ ▐▌[0m        ░             ▒    ▀▀▀▀▀▀ ▄▄▓░
+[30mLord Sloth[0;33m▐████ [0;36m█▄[0;33m▀▀ [0;36m▄[0;1;36;46m  [0;30mtrust [0;33m▄[0m▀▀█▄[1;30m▄  ▀▄[0m       [1m░[0m             ░       ▀▀▓█▓▒░
+[30mis a horny [0;33m███▀[0;36m▐██[0;1;36;46m░░[0;36m███[0;1;36;46m░░[0;36m▄[0;30mme [0;33m▄▄█▀[0;1;30m▄ [0;31m▀   [0;1;30m█[0m                     ░         ▒▀▀░
+[30mwife who   [0;33m▐██▌[0;1;30;46m░[0;36m███[0;1;36;46m░▒[0;36m▄▀█[0;1;36;46m░░▒[0m [33m█▀▀   [0;1;30m▀▄▄▄▀[0m                                ░
+[30malways wants[0;33m██▌[0;1;30;46m▒░[0;36m███[0;1;36;46m░[0;36m▀▄[0;1;30;46m  [0;1;36;46m░[0;36m▀[0m                                               ░
+[30msex! He uses[0;33m▐█▄ [0;1;30m▀▀[0;36m▀▀ [0;1;30m▀▀[0;36m▀  [0;30mIf you''re viewing[0m
+[30mme for sex   [0;33m██▄ ▄[0;1;30;43m░[0;33m████▄ [0;30mthis black on black text in ACiDView, then you[0m
+[30mand that''s it![0;33m██ ▀███▄▀[0;34m▄ [0;30mprobably have a real bad headache because of all that[0m
+[30mI feel so    [0;1;33m▀[0;1m▄[0;1;33m▄▀ [0;34m▄▄▄▄[0;30;44m▄[0;1;34;44m░▒[0m [30mdamn blinking text![0m                         [30mWEED[0m
+[30mdirty!!!!!   [0;34m▐ [0;33m▄█▀[0;34m▄[0;1;34;44m░[0;34m█[0;1;34;44m░[0;30;44m▐ [0;1;34;44m░[0;34m█▄[0m                                           [30mWEED[0m
+             [34m▄[0;1;30;44m▒[0;34m▄▄[0;30;44m [0;1;34;44m░▒ ░▒[0;30;44m▀▄ [0;1;34;44m░[0;34m▀ [0;30miCE Rules, you[0m                           [30mWEED[0m
+[30mbisexual    [0;1;30;44m▒░░▒[0;30;44m▀▄▄▀  [0;1;34;44m░░[0;30;44m▄▀▐█[0;30mit, you just wont[0m                        [30mshrooms[0m
+[30mchicks[0m      [34m▄▀▀[0;1;30;44m░  ░[0;30;44m▄    [0;1;34;44m░[0;34m▄[0;30;44m▄█[0m   [30madmit it..[0m                             [30mWEED[0m
+[30mrule![0m       [34m▀▀▄▄▄▀▀▀▄▄▄▀▀[0;1m▄[0;30;44m▄[0m                                           [30macid[0m
+             ▄▄▄  [34m▀▀▀[0m▄▄[1;47m░▒▓[0;1m▀[0m                                           [30mWEED[0m
+[30mIn order to fully enjoy this ansi, you must smoke about a quarter ounce of weed[0m
+     [1m▄▄▄▄▄[0m'
