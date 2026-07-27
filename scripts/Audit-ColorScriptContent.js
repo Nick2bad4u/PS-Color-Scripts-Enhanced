@@ -32,6 +32,8 @@ const CONTACT_CONTEXT_PATTERN =
     /\b(?:bbs|board|call|contact|data|dial|fax|host|line|node|number|nup|pager|phone|sysop|tel|telephone|vmb|voice)\b/iu;
 const CONTACT_FALSE_POSITIVE_CONTEXT_PATTERN =
     /\b(?:anniversary|baud|birthday|bps|date|kbps|open|version|v\d{2}(?:bis)?)\b/iu;
+const DATE_TIME_BAUD_PATTERN =
+    /\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{2,4}\b[^\r\n]{0,40}\b\d{1,2}\s*:\s*\d{2}\b[^\r\n]{0,40}\b(?:300|1200|2400|4800|9600|14400|16800|19200|28800|33600|56000|115200)\b/iu;
 const EMAIL_PATTERN =
     /[\p{L}\p{N}._%+-]+@[\p{L}\p{N}.-]+\.[\p{L}]{2,}/giu;
 const NETWORK_ENDPOINT_PATTERN =
@@ -42,6 +44,14 @@ const SOURCE_FIDELITY_LOCK_PATTERN =
     /^# Source Conversion Mode:\s*Passthrough\s*$/imu;
 const CURATION_MODIFICATION_NOTICE =
     "# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.";
+const FUNCTIONAL_CONTACT_EXCEPTIONS = new Map([
+    [
+        "nerd-font-test.ps1",
+        new Set([
+            "a22f84546f017b195e858cadd8fee57579c5649b691693482df9461c9b6509a2",
+        ]),
+    ],
+]);
 
 const POLICY_TERMS = Object.freeze({
     hate: Object.freeze([
@@ -305,6 +315,9 @@ function isHighConfidencePhone(candidate, visible) {
         return false;
     }
     if (/^[01]+$/u.test(digits) && !hasContactContext) {
+        return false;
+    }
+    if (DATE_TIME_BAUD_PATTERN.test(visible)) {
         return false;
     }
     if (
@@ -624,6 +637,20 @@ function getReviewEvidenceHash(visible) {
     return createHash("sha256")
         .update(visible.trim(), "utf8")
         .digest("hex");
+}
+
+/**
+ * Keep functional first-party endpoint instructions while making any content
+ * drift re-enter review. Exceptions are scoped to an exact file and rendered
+ * row hash rather than a broad URL allowlist.
+ *
+ * @param {string} file
+ * @param {{ text: string }} row
+ * @returns {boolean}
+ */
+function isFunctionalContactException(file, row) {
+    const hashes = FUNCTIONAL_CONTACT_EXCEPTIONS.get(path.basename(file));
+    return hashes?.has(getReviewEvidenceHash(row.text)) === true;
 }
 
 /**
@@ -1049,6 +1076,37 @@ function auditSource(source) {
 }
 
 /**
+ * A script can fail terminal rendering or use a dynamic Write-Host expression
+ * that the static payload extractor intentionally rejects. Search its authored
+ * executable lines as a conservative fallback so those failures do not become
+ * a blind spot for literal contact data. Provenance comments are excluded.
+ *
+ * @param {string} source
+ * @returns {{
+ *     categories: string[];
+ *     row: number;
+ *     text: string;
+ *     values: string[];
+ * }[]}
+ */
+function auditAuthoredSourceContacts(source) {
+    const contactRows = [];
+    const rows = source.replace(/\r\n?/gu, "\n").split("\n");
+    for (const [index, row] of rows.entries()) {
+        if (/^\s*#/u.test(row)) continue;
+        const analysis = analyzeRow(row);
+        if (analysis.contactValues.length === 0) continue;
+        contactRows.push({
+            categories: analysis.contactCategories,
+            row: index + 1,
+            text: analysis.visible,
+            values: analysis.contactValues,
+        });
+    }
+    return contactRows;
+}
+
+/**
  * @param {string} revision
  * @param {string} scriptsDirectory
  * @returns {string[]}
@@ -1217,8 +1275,10 @@ function main(arguments_ = process.argv.slice(2)) {
     let documentedFiles = 0;
     let removedTrailingRows = 0;
     let skippedSourceFidelityFiles = 0;
+    const functionalContactExceptions = [];
 
     for (const file of files) {
+        let source = null;
         try {
             const stat = fs.statSync(file);
             if (stat.size > MAX_SOURCE_BYTES) {
@@ -1226,7 +1286,7 @@ function main(arguments_ = process.argv.slice(2)) {
                     `Source exceeds the ${MAX_SOURCE_BYTES}-byte safety limit.`
                 );
             }
-            let source = fs.readFileSync(file, "utf8");
+            source = fs.readFileSync(file, "utf8");
             if (isSourceFidelityLocked(source)) {
                 skippedSourceFidelityFiles += 1;
                 continue;
@@ -1277,24 +1337,49 @@ function main(arguments_ = process.argv.slice(2)) {
                 (options.fixTrailing && postTextAudit.trailingBlankRows > 0)
                     ? auditSource(source)
                     : postTextAudit;
+            const contactRows = finalAudit.contactRows.filter((row) => {
+                if (!isFunctionalContactException(file, row)) {
+                    return true;
+                }
+                functionalContactExceptions.push({
+                    file: path
+                        .relative(REPOSITORY_ROOT, file)
+                        .replaceAll(path.sep, "/"),
+                    row: row.row,
+                    sha256: getReviewEvidenceHash(row.text),
+                });
+                return false;
+            });
+            const reportAudit = {
+                ...finalAudit,
+                contactRows,
+            };
             if (
-                finalAudit.contactRows.length > 0 ||
-                finalAudit.internalBlankRuns.some((run) => run.count >= 3) ||
-                finalAudit.leadingBlankRows >= 3 ||
-                finalAudit.trailingBlankRows > 0 ||
-                finalAudit.textRows.length > 0 ||
-                finalAudit.policyRows.length > 0
+                reportAudit.contactRows.length > 0 ||
+                reportAudit.internalBlankRuns.some((run) => run.count >= 3) ||
+                reportAudit.leadingBlankRows >= 3 ||
+                reportAudit.trailingBlankRows > 0 ||
+                reportAudit.textRows.length > 0 ||
+                reportAudit.policyRows.length > 0
             ) {
                 records.push({
                     file: path
                         .relative(REPOSITORY_ROOT, file)
                         .replaceAll(path.sep, "/"),
-                    ...finalAudit,
+                    ...reportAudit,
                 });
             }
         } catch (error) {
+            const fallbackContactRows =
+                source == null
+                    ? []
+                    : auditAuthoredSourceContacts(source).filter(
+                          (row) =>
+                              !isFunctionalContactException(file, row)
+                      );
             failures.push({
                 error: error instanceof Error ? error.message : String(error),
+                fallbackContactRows,
                 file: path
                     .relative(REPOSITORY_ROOT, file)
                     .replaceAll(path.sep, "/"),
@@ -1321,6 +1406,16 @@ function main(arguments_ = process.argv.slice(2)) {
             documentedFiles,
             filesWithContactRows: records.filter(
                 (record) => record.contactRows.length > 0
+            ).length,
+            functionalContactExceptions:
+                functionalContactExceptions.length,
+            failedFileContactRows: failures.reduce(
+                (total, failure) =>
+                    total + failure.fallbackContactRows.length,
+                0
+            ),
+            failedFilesWithContactRows: failures.filter(
+                (failure) => failure.fallbackContactRows.length > 0
             ).length,
             filesWithInternalBlankRuns: records.filter((record) =>
                 record.internalBlankRuns.some((run) => run.count >= 3)
@@ -1370,6 +1465,7 @@ function main(arguments_ = process.argv.slice(2)) {
                 0
             ),
         },
+        functionalContactExceptions,
         failures,
         records,
     };
@@ -1393,6 +1489,7 @@ if (require.main === module) {
 
 module.exports = {
     analyzeRow,
+    auditAuthoredSourceContacts,
     applyReviewedRows,
     auditSource,
     blankTextRow,
@@ -1406,9 +1503,11 @@ module.exports = {
     getRenderedBlankRows,
     getReviewEvidenceHash,
     getWorkingTreeFiles,
+    isFunctionalContactException,
     isSourceFidelityLocked,
     isHighConfidencePhone,
     parseArguments,
+    replacePayloadRows,
     removeRowsPreservingControls,
     removeFlaggedText,
     removeTrailingBlankRows,

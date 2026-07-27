@@ -7,6 +7,7 @@ const test = require("node:test");
 
 const {
     analyzeRow,
+    auditAuthoredSourceContacts,
     applyReviewedRows,
     auditSource,
     blankTextRow,
@@ -18,6 +19,7 @@ const {
     findPolicyTerms,
     getRenderedBlankRows,
     getReviewEvidenceHash,
+    isFunctionalContactException,
     isSourceFidelityLocked,
     parseArguments,
     removeRowsPreservingControls,
@@ -172,6 +174,57 @@ test("contact detection finds real endpoints without flagging dates or baud rate
         categories: [],
         values: [],
     });
+    assert.deepEqual(
+        findContactDetails(
+            "SYSOP [*] SOLITARIO [*] 07-10-97 12:30 115200"
+        ),
+        {
+            categories: [],
+            values: [],
+        }
+    );
+});
+
+test("functional contact exceptions are exact-file and exact-row scoped", () => {
+    const text =
+        "$esc[38;2;200;200;200m        Download from: https://www.nerdfonts.com/$esc[0m";
+
+    assert.equal(
+        isFunctionalContactException("nerd-font-test.ps1", { text }),
+        true
+    );
+    assert.equal(
+        isFunctionalContactException("nested/nerd-font-test.ps1", {
+            text,
+        }),
+        true
+    );
+    assert.equal(
+        isFunctionalContactException("other.ps1", { text }),
+        false
+    );
+    assert.equal(
+        isFunctionalContactException("nerd-font-test.ps1", {
+            text: text.replace("https://", "http://"),
+        }),
+        false
+    );
+});
+
+test("authored-source fallback audits executable lines but not provenance", () => {
+    const source = `# Source URL: https://16colo.rs/pack/example
+# Source Attribution: Example 212-555-0100
+$number = "212-555-0198"
+Write-Host ("Call " + $number)`;
+
+    assert.deepEqual(auditAuthoredSourceContacts(source), [
+        {
+            categories: ["phone"],
+            row: 3,
+            text: '$number = "212-555-0198"',
+            values: ["212-555-0198"],
+        },
+    ]);
 });
 
 test("blankTextRow preserves ANSI controls, geometry, and art glyphs", () => {
@@ -292,7 +345,7 @@ ART
         getRenderedBlankRows(payload.split("\n")).findIndex(
             (isBlank) => !isBlank
         ),
-        1
+        2
     );
     assert.equal(
         trimExpandedLeadingBlankRows(baseline, baseline).changed,

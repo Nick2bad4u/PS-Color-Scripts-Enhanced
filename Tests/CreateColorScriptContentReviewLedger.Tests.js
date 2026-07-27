@@ -90,6 +90,7 @@ test("createReviewLedger retains hashes and metadata but not identifying text", 
                 {
                     evidence: [
                         {
+                            action: "remove-row",
                             category: ["phone"],
                             row: 2,
                             severity: "high",
@@ -132,6 +133,10 @@ test("createReviewLedger retains hashes and metadata but not identifying text", 
         );
         assert.equal(ledger.sourceAudit.reviewedFalsePositiveRows, 2);
         assert.equal(ledger.sourceAudit.parseFailures, 1);
+        assert.equal(
+            ledger.candidates[0].evidence[0].action,
+            "remove-row"
+        );
         assert.doesNotMatch(serialized, /212-555-0198/u);
         assert.doesNotMatch(serialized, /Remove this footer/u);
         assert.match(serialized, /[a-f\d]{64}/u);
@@ -141,4 +146,31 @@ test("createReviewLedger retains hashes and metadata but not identifying text", 
             recursive: true,
         });
     }
+});
+
+test("createReviewLedger rejects unsupported raw actions", () => {
+    assert.throws(
+        () =>
+            createReviewLedger(
+                {
+                    candidates: [
+                        {
+                            evidence: [
+                                {
+                                    action: "crop-art",
+                                    category: ["phone"],
+                                    row: 1,
+                                    text: "Call 212-555-0198",
+                                },
+                            ],
+                            file: "contact.ps1",
+                            sourceFidelityLocked: false,
+                        },
+                    ],
+                },
+                [],
+                "."
+            ),
+        /raw row evidence is malformed/u
+    );
 });

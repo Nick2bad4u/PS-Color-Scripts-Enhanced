@@ -188,7 +188,10 @@ function createReviewLedger(
                 typeof evidence !== "object" ||
                 !Number.isInteger(evidence.row) ||
                 evidence.row < 1 ||
-                typeof evidence.text !== "string"
+                typeof evidence.text !== "string" ||
+                (evidence.action != null &&
+                    evidence.action !== "blank-text" &&
+                    evidence.action !== "remove-row")
             ) {
                 throw new Error(
                     `${candidate.file}: raw row evidence is malformed.`
@@ -200,8 +203,13 @@ function createReviewLedger(
                     ? evidence.severity
                     : undefined;
             addEvidence(candidates, {
-                action: "blank-text",
-                categories: normalizeCategories(evidence.category),
+                action:
+                    evidence.action === "remove-row"
+                        ? "remove-row"
+                        : "blank-text",
+                categories: normalizeCategories(
+                    evidence.categories ?? evidence.category
+                ),
                 file: candidate.file,
                 row: evidence.row,
                 ...(severity ? { severity } : {}),
