@@ -28,36 +28,90 @@ const CURATION_MODIFICATION_NOTICE =
     "# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.";
 
 const POLICY_TERMS = Object.freeze({
+    hate: Object.freeze([
+        "kkk",
+        "nazi",
+        "swastika",
+        "white power",
+        "whitepower",
+    ]),
     profanity: Object.freeze([
+        "arse",
+        "ass",
         "asshole",
         "bastard",
         "bitch",
+        "bollocks",
         "bullshit",
+        "cock",
         "cocksucker",
+        "crap",
         "cunt",
+        "damn",
+        "dick",
         "dickhead",
+        "douche",
+        "douchebag",
         "fuck",
+        "hell",
         "motherfucker",
         "piss",
         "shit",
+        "slut",
+        "wanker",
         "whore",
     ]),
     sexual: Object.freeze([
+        "anal",
         "blowjob",
+        "boobs",
+        "cum",
         "cumshot",
+        "dildo",
+        "erection",
         "hardcore",
         "hentai",
+        "incest",
+        "masturbate",
+        "masturbation",
+        "naked",
+        "nude",
+        "nudes",
+        "orgasm",
+        "penis",
         "porn",
         "porno",
         "pussy",
+        "rape",
+        "raped",
         "sex",
+        "sexy",
+        "tit",
+        "tits",
+        "vagina",
     ]),
     slur: Object.freeze([
+        "chink",
+        "coon",
+        "dyke",
+        "fag",
         "faggot",
+        "gook",
+        "kike",
         "nigga",
         "nigger",
         "retard",
+        "spic",
         "tranny",
+        "wetback",
+    ]),
+    violence: Object.freeze([
+        "beheading",
+        "decapitate",
+        "decapitated",
+        "dismember",
+        "dismembered",
+        "torture",
     ]),
 });
 const POLICY_MATCHERS = Object.freeze(
@@ -65,17 +119,7 @@ const POLICY_MATCHERS = Object.freeze(
         terms.map((term) =>
             Object.freeze({
                 category,
-                separatedPattern: new RegExp(
-                    String.raw`(?:^|[^\p{L}\p{N}])${[...term]
-                        .map((character) => escapeRegExp(character))
-                        .join(String.raw`[^\p{L}\p{N}]*`)}(?:$|[^\p{L}\p{N}])`,
-                    "u"
-                ),
                 term,
-                wordPattern: new RegExp(
-                    String.raw`(?:^|\s)${escapeRegExp(term)}(?:$|\s)`,
-                    "u"
-                ),
             })
         )
     )
@@ -130,14 +174,6 @@ function countMatches(value, pattern) {
 }
 
 /**
- * @param {string} value
- * @returns {string}
- */
-function escapeRegExp(value) {
-    return value.replace(/[.*+?^${}()|[\]\\]/gu, String.raw`\$&`);
-}
-
-/**
  * @param {string} visible
  * @returns {{ categories: string[]; terms: string[] }}
  */
@@ -146,14 +182,25 @@ function findPolicyTerms(visible) {
     const normalized = lowercase
         .replace(/[^\p{L}\p{N}]+/gu, " ")
         .trim();
+    const normalizedTokens = new Set(
+        normalized.length === 0 ? [] : normalized.split(/\s+/gu)
+    );
+    const collapsedTokens = new Set(
+        lowercase
+            .split(/\s+/gu)
+            .map((token) => token.replace(/[^\p{L}\p{N}]/gu, ""))
+            .filter(Boolean)
+    );
+    const paddedNormalized = ` ${normalized} `;
     const categories = new Set();
     const terms = new Set();
 
     for (const matcher of POLICY_MATCHERS) {
         if (
-            matcher.wordPattern.test(normalized) ||
-            (matcher.term.length >= 4 &&
-                matcher.separatedPattern.test(lowercase))
+            normalizedTokens.has(matcher.term) ||
+            collapsedTokens.has(matcher.term) ||
+            (matcher.term.includes(" ") &&
+                paddedNormalized.includes(` ${matcher.term} `))
         ) {
             categories.add(matcher.category);
             terms.add(matcher.term);

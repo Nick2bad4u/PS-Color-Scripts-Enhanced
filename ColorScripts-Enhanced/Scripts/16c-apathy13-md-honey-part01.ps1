@@ -5,7 +5,7 @@
 # Source SHA-256: ee161bb0f8fcb29e991d6ca86dade19a3097854f890d54b5b321aa8564f6081b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: md-honey.ans by MSd!@# (Soap); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Honey Blunt
 # SAUCE Author: MSd!@#
 # SAUCE Group: Soap
@@ -32,7 +32,7 @@ $ Sq$[1;30m S $ S $ b`$$$P`[0;1;33m,g[0;33mS$[0;1;30ma. `.[0;1;37m  [0;33m
 $bg[1;30m [0m$[1;30m $ $ g $ $ $$$''[0;1;37m  [0;1;33m`4[0;33m$$$[0;1;30mb.[0;1;37m [0;1;30m4b.[0;33m`4$[0;1;30m$[0;33m$[0;1;30m$b╓,.[0;1;37m [0;1;33m`[0;33m`[0;37m.d[0;1;30m$$$$$$$$$$$P[0;1;37m [0;1;30m;. [0m&#[1;30ma[0mg╓[1;30m╓╓[0m,[1;30m,,.,..[0m
 $[1;30m [0m$[1;30m $ $ $ $ $ $ $$''[0;1;33m,[0;33m$a,[0;1;30m.[0;1;33m`4[0;33m$$$[0;1;30mb.[0;33m`4[0;1;30mb.[0;33m`²S$[0;1;30m$[0;33mP[0;1;30m''`[0m,&$[1;30m$[0m$[1;30m$$$$$$$$$P'',d''[0;1;33m,[0;1;30m [0m$$[1;30m$[0m$[1;30m$$$$$$$$$$[0m
 $[1;30m [0m$[1;30m [0m$[1;30m $ $ $ $ gd$² [0;1;33m`4[0;33mP''[0;1;30m"~[0;1;37m [0;1;33m.`[0;33m4$[0;1;30m$b[0;1;37m [0;33m$[0;1;30m$Sa*+[0;1;37m [0;33m,y[0;1;30m╓,.[0m`²²S[1;30m$$$$$$D'',d7[0;1;37m J [0mj$$[1;30m$$$$$$$$$$$$[0m
-$[1;30m [0mg[1;30md$bgd$g$g$g$''[0;1;37m [0;1;30m,db,[0;1;33m`.[0;1;37m [0;1;33m,d[0;33m$b,[0;1;30m`²²'';''[0;33m,g[0;1;30m$''[0;33md$[0;1;30mP''[0;33m,aSS[0;1;30m#a.[0m`[1;30m²''`[0;33m.a$[0;1;30miP[0;1;37m d[0;1;33mi[0;1;37m [0m$[1;30m$[0m$[1;30m$$$$$$$$$$$$[0m
+ [1;30m [0m [1;30m             [0;1;37m [0;1;30m    [0;1;33m  [0;1;37m [0;1;33m  [0;33m   [0;1;30m      [0;33m  [0;1;30m  [0;33m  [0;1;30m  [0;33m    [0;1;30m   [0m [1;30m   [0;33m   [0;1;30m  [0;1;37m  [0;1;33m [0;1;37m [0m [1;30m [0m [1;30m            [0m
 $S$[1;30m$$$$$$$$$$P[0m [1;30m,[0md[1;30mP[0m"[1;30m``''.[0;1;33m;$[0;33m$$$[0;1;30mP''[0;33m,n[0;1;30md''[0;1;33m,[0;33m$[0;1;30m$[0;33m [0;1;33m;[0;33m$[0;1;30m$[0;1;37m [0;33m;$$[0;1;30m$P[0;1;33m;[0;33mg%@&S$$$[0;1;30m$:[0;1;37m ''4[0;1;33mI[0;1;37m [0m$[1;30m$$$$$$$$$$$$$$[0m
 $[1;30m$[0m$[1;30m$$$$$$$$P''[0;1;37m [0mj'' `.. .[1m [0;1;33m$$[0;33m$$[0;1;30m$[0;1;37m [0;1;33m;[0;33m$$[0;1;30m$[0;1;37m [0;1;33m$[0;33m$[0;1;30m$[0;1;37m [0;1;33m$[0;33m$[0;1;30m$[0;1;37m [0;1;33m$[0;33m$$[0;1;30m$[0;1;37m [0;1;33m$$[0;33m$[0;1;33m$[0;33m$$[0;1;30m$[0;33mS[0;1;30m²''.[0;1;37m  [0;1;33m S[0;1;37m [0m$[1;30m$$$$$$$$$$$$$$[0m
 $[1;30m$$$$$$$$$$ [0m.''`. [1m     [0;1;30m,[0;1;33m`4[0;33m$$[0;1;30m$[0;1;37m [0;1;33m$[0;33m$$[0;1;30m$[0;1;37m [0;1;33m4[0;33m$[0;1;30m$.[0;1;33m`$[0;33m$[0;1;30mb[0;1;33m`$[0;33m$$[0;1;30mb.[0;1;33m`''"''[0;33m`[0;1;37m,a[0;1;33mb,..,df[0;1;37m [0m$[1;30m$$$$$$$$$$$$$$[0m

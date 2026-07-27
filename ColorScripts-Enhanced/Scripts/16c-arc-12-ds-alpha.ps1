@@ -5,7 +5,7 @@
 # Source SHA-256: fdeb8d03b8ce0eb08f1dc2d00c70ff004163b85ca318d3f165400ebe7c150d28
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ds-alpha.ans by Dying Soul (Dominio); released in arc-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Dying Soul
 # SAUCE Group: Dominio
 # SAUCE Date: 19990223
@@ -37,4 +37,4 @@ Write-Host '
 [30md[0m            [34m▀[0;1;34;44m▀█[0;1;34;40m▄[0m [34m▄[0m               [33m▀[0;1;33m▀▀[0;33m▀[0;37m  [0m     [33m▐[0;1;33;43m▐[0;1;33;40m██[0;1;37;40m███[0;1;33;40m█[0;1;33;43m▄[0;1;33;40m▄[0;33m▄[0m   [34m  [0;33m▄[0;1;33;43m▄[0;1;33;40m█[0;1;37;40m███[0;1;33;40m█[0;1;33;43m▌[0;33m▌[0m     [1;33;43m [0;1;33;40m█[0;1;37;40m██[0;1;33;43m▌[0m
 [30ms[0;37m [0;34m░[0;30;44m▓[0m       [34;40m▀[0;1;34;44m▀[0m            [1;30mds?[0m   [34m░[0;30;44m▓[0m             [33;40m▀[0;1;33;43m▀[0;1;33;40m████████████████[0;1;33;43m▀[0;1;33;40m████[0;1;33;43m [0;1;33;40m [0;30mds[0;37m [0;33m▐[0;1;33;43m▐[0;1;33;40m███[0;1;33;43m [0m
 [30md[0m       [34m▄[0;37m [0;34m▀[0m                                     [33m▀[0;1;33m▀▀[0;1;33;43m▀[0;1;33;40m████████[0;1;33;43m▀[0;1;33;40m▀▀[0;33m▀[0;37m [0;33m▀[0;1;33;43m▀[0;1;33;40m███[0;1;33;43m▄[0;1;33;40m▄▄▄[0;1;33;43m▄[0;1;33;40m███[0;1;33;43m▀[0;33m▀[0m
-[30ms[0m    [34m▀ [0;37m  [0;30mDYINGSOUL OWNS YOUR ASS!@#[0m                                [33m▀[0;1;33m▀[0;1;33;43m▀[0;1;33;40m████[0;1;33;43m▀[0;1;33;40m▀[0;33m▀[0m'
+[30m [0m    [34m▀ [0;37m  [0;30m                          [0m                                [33m▀[0;1;33m▀[0;1;33;43m▀[0;1;33;40m████[0;1;33;43m▀[0;1;33;40m▀[0;33m▀[0m'

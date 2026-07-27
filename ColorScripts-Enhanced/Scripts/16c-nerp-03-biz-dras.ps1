@@ -5,7 +5,7 @@
 # Source SHA-256: 98beb2ffcc9082f0c7bd5b1986ff2acdd83292f987fefcc04a1d51ee68d1a496
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIZ-DRAS.ANS by bizzarro (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: drastique?
 # SAUCE Author: bizzarro
 # SAUCE Group: nerp
@@ -20,7 +20,7 @@ Write-Host '
      [31m░▄▄▀[0;37m [0;1;30m [0m [1;30m ▄▄███▀[0m  ▄[1;30m▀█▀▀[0m [31m██[0;1;31;41m▀[0;31m█▄[0;37m [0;1;30m▀[0m  [1;30m▄[0m    [31m ▄░░[0m
    [31m▄█[0;1;31;41m [0;31m [0;37m [0;1;30m▄▄█▌█[0;1;33;47m░[0;1;30;40m▀[0m [1;30m█[0m░  ▀█[1;47m▄[0;1;30;40m█[0m [31m░░██▀▀▀ ██[0;37m    [0;1;30m▀▄[0m [31m█▓▓ [0m   [37mseven deadly sins[0m
 [37m  [0;31m▄[0;1;31;41m▄█▄[0;31m█[0;37m [0;1;30m▀▀[0;1;30;47m [0m▓[1;47m█[0;1;33;47m█░[0m [1;30m█[0;1;30;47m▓[0;1;30;40m░[0m  ▀[1;47m▀[0m█   [31m░░[0;37m ░░[0;1;30m▄[0m   ░ ▄[1;30;47m▓[0;1;30;40m▀[0m [1;31;41m░░[0;31m█░[0m   [37mseven ways to win[0m
-[37m [0;31m▄[0;1;31;41m▄[0;1;31;47m▀▌[0;1;37;47m▄[0;1;31;47m▓[0;1;31;41m [0;1;30;40m▄[0m [1;30m▀[0m█[1;47m░[0;1;33;47m▓▓[0m [1;30;47m▓░[0;1;30;40m░[0m  [1;30m▄[0m▄▀█[1;30m▄[0m [1m░[0m [1;30m▀[0m█[1;47m▀[0m▌▄[1m░[0m▐[1;33;47m░[0m▌▀▀ [31m▄[0;1;31;41m▓▓[0;31m█[0m    [37mseven holy paths to hell[0m
+[37m [0;31m▄[0;1;31;41m▄[0;1;31;47m▀▌[0;1;37;47m▄[0;1;31;47m▓[0;1;31;41m [0;1;30;40m▄[0m [1;30m▀[0m█[1;47m░[0;1;33;47m▓▓[0m [1;30;47m▓░[0;1;30;40m░[0m  [1;30m▄[0m▄▀█[1;30m▄[0m [1m░[0m [1;30m▀[0m█[1;47m▀[0m▌▄[1m░[0m▐[1;33;47m░[0m▌▀▀ [31m▄[0;1;31;41m▓▓[0;31m█[0m    [37m                        [0m
 [37m [0;31m█[0;1;31;41m█[0;1;31;47m [0;1;37;47m▀[0;1;31;47m [0;1;31;41m█▀[0;31m█▄▄[0;37m [0;1;30m▀[0;1;37;47m░[0;1;33;47m░[0m▄[1;30;47m░[0;1;37;40m▒[0m▄▄▀[1;47m▀█▄[0m██▐[1m▒[0m▄ ▀▄[1;47m▄█[0;1;40m▒[0m▐[1;33;47m▀[0m▌  [31m█[0;1;31;41m█[0;1;31;47m▀[0;31m██░[0m   [37mand your trip begins[0m
 [31m▀▄[0;1;31;41m░▀[0;1;31;47m▄[0;1;31;41m▓[0;31m█▌▀▀[0;37m  ▄[0;1;37m▓▓█[0;1;37;47m▀[0m▀▀▀[1;30m▄[0m▓[1;47m░▓▓░[0m▐[1m▓[0;1;47m▄[0m▄▄[1;47m▄█▀[0m▀  ▀ [1;30m▀[0;31m██[0;1;31;47m▓[0;31m██░[0m
 [31m███[0;1;31;41m░░[0;31m▀[0;37m [0;1;30m▄[0m▄▄█▌█[1;47m███▀[0m▀ [1;30m▀▀[0m░░▓▓▓▐[1;47m██[0;1;33;40m███[0m█  [1;30m▀[0;31m███▄▀████░[0m   [37mseven downward slopes[0m

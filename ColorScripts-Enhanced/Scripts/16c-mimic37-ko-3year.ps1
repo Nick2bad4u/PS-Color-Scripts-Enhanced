@@ -5,7 +5,7 @@
 # Source SHA-256: fd107febf1a76bb9d193f3cf203144752198300938aa60440063678d4c8ca956
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ko-3year.ans by Konami (mimic37); released in mimic37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
    [1m☻☻[0;1;33m☻☻☻☻☻[0;33m☻[0;1;33m☻☻☻[0;1;37m☻[0;1;33m☻[0;33m☻[0;1;33m☻☻☻[0;1;37m☻[0;1;33m☻[0;33m☻[0;1;37m☻[0;1;33m☻☻☻; [0m [1;30m☻☻[0m     [1;33m(☻[0;1;31m☻[0;1;33m☻[0;1;31m☻[0;1;33m)[0m   [1;33m(☻[0;1;31m☻[0;1;33m☻[0;1;31m☻[0;1;33m)[0m   [1;33m(☻[0;1;31m☻[0;1;33m☻[0;1;31m☻[0;1;33m)[0m    [1;34m☻[0m  [1;34m☻[0m  [1;34m☻[0m  [1;34m☻[0m  [1;34m☻[0m
    [1;33ml[0;1;37m☻[0;1;33m☻☻☻☻☻[0;33m☻[0;1;33m☻☻☻☻☻[0;33m☻[0;1;33m☻☻☻☻☻[0;33m☻[0;1;33m☻☻☻☻[0;1;31m [0m [1;36m☻☻☺[0;36m☻[0;1;30ml[0m  [31m...[0;1;31m☻☺[0;31m...[0;37m [0;31m...[0;1;31m☻☺[0;31m...[0;37m [0;31m...[0;1;31m☻☺[0;31m...[0m   [1;34m☻[0m  [1;34m; [0m [1;34m;[0m  [1;34m;[0m  [1;34m☻[0m
    [1;33m;☻☻☻☻☻[0;1;31m ☺☺☻☻☻☻☻☻☻☻[0;33m☻[0;1;33m☻☻☻[0;1;31m☻☻[0;33m☻[0;37m [0;1;36m;☻[0;36m☻☻☻[0;1;30m;[0m [31m`[0;1;31m-__☺[0;31m☻[0;1;31m__[0;31m_`[0;1;31m-__☺[0;31m☻[0;1;31m__[0;31m_`[0;1;31m-__☺[0;31m☻[0;1;31m__[0;31m_''[0;37m  [0;1;34m☻[0m           [1;34m☻[0m
-    [1;33m☻☻`7☻[0;1;31ml☻☻☻☻┼☻☻☻☻☻☻☻☻☻☻☺[0;33m☻[0;37m [0;1;36ml☺[0;36m☻☻[0;1;30m☻ [0;1;37m  [0m ( it''s time to kick ass     [1;34m;[0m   [1;31m☻☻☻☻☻[0m   [1;34m;[0m
+    [1;33m     [0;1;31m     ┼           [0;33m [0;37m [0;1;36m  [0;36m  [0;1;30m  [0;1;37m  [0m                             [1;34m [0m   [1;31m     [0m   [1;34m [0m
   [1;31ml☻☻☻b,[0;1;33m"[0;1;31m;☻☻☻`   [0;1;35m/[0;1;31m "²²"  [0;1;35m/[0;1;31m`[0m [1;36m☻[0;36m☻☻""l[0;37m  /[0;1;37m  [0m                             [1;31m,☻☻☻☻7[0m
    [1;31m☻☻☺[0;33m ☻[0;1;31m☺☻☻☻☺, [0;1;35m/`[0;1;31m [0;33m /[0;1;31mss[0;33m;[0;1;35m/`[0;1;31m [0;33m.[0;1;30ml[0;1;36m☺[0;36m7[0;1;30m l/⌐,[0m    and chew bubblegum!       [1;31md☻☻☻☻`[0m  [1;33m☻☻☻☻☻[0m
    [1;36mss[0;1;31m [0;33ml☻[0;1;31m☺☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻l [0;1;30m☻[0;36m☻[0;1;30m ;☻☻☻[0m☺l                             [1;31m☻☻☻☻☻[0m  [1;33m,☻☻☻☻7[0m

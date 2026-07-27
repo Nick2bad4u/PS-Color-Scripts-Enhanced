@@ -5,7 +5,7 @@
 # Source SHA-256: e64b15311c03b58c78ff74bc796740bff1cd0c34b635127efc771d95c00d6baf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KH-SFISH.ANS by Killa Hertz (ACiD Productions); released in rmrs-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Skull Fish
 # SAUCE Author: Killa Hertz
 # SAUCE Group: ACiD Productions
@@ -41,7 +41,7 @@ Write-Host '
          [1;30m  [0m [1;30m`$$$[0;1;30;46m$[0;1;30;40m$$a,[0m                  [1;30m$,[0;35m:[0m      [1;30m`$i[0m [1;30m$;[0m           [1;30m$$$$$,[0m
               [1;30m²$$$$$$$$a,[0m [1;30m$[0m            [1;30m,$[0m       [1;30m,$$a$i [0m        [1;30ma"`"²$$$²`²[0m
 [35m:[0;37m  [0;35m..[0m   [35m.[0m      [1;30m,a$$$$▓$[0;1;30;47m▀[0;1;30;40m$$[0m            [1;30ma²a,[0m   [1;30m,aS▌$²`[0m   [1;30m,[0m [1;30m²[0m           [1;30m`[0m       [35m.[0m
-[35m.[0m           [1;30m░[0m [1;30mi²[0m [1;30m,a$$²$²$$a$$;[0m     [1;30m,a²[0m   [1;30m$,i$$²``"²,a²`[0;31m,aSS$$$$$$² [0m
+[35m [0m           [1;30m░[0m [1;30m  [0m [1;30m             [0m     [1;30m   [0m   [1;30m              [0;31m            [0m
 [35m:[0m               [1;30mi$²`[0m [1;30m$$a,a$$$i[0m    [1;30m$²`[0m    [1;30m$$[0;1;30;47m▓[0;1;30;40m²[0m     [1;30m,²[0m [31maiSS$$$[0;1;37m$$$$[0;31mi[0m
         [31m`a [0m     [1;30m$i[0m  [1;30m,$²`[0m   [1;30m`$$;[0m   [1;30m$,[0m    [1;30m,$²[0m  [1;30m`²[0m    [31m :iSS$$$$$[0;1;37m$[0;31m$i[0m     [1;30m²"`[0m
          [31m $a [0m    [1;30m:[0m [1;30m i [0m       [1;30m`$,[0m  [1;30mi$ [0m [1;30m,$$i,.[0m      [31m,:iSS$$$$$$$$:[0m   [1;30m,[0m  [1;30m$, [0m    [35m.[0m

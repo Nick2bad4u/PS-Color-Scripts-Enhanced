@@ -5,7 +5,7 @@
 # Source SHA-256: 60f0fa3d66125bda3598c5d6f44bfd14d54d6fd55446cc1b13e1fa9be4734ddb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB_B!Q.ANS by Sticky Baboon (TATOO); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The march of the black Queen
 # SAUCE Author: Sticky Baboon
 # SAUCE Group: TATOO
@@ -57,7 +57,7 @@ Write-Host '
    [1;35m▒[0m      [31m█[0;1;33;41m▒▓▓▓██[0;31m  F[0;33mo[0;1;30mrget[0;31m [0;1;30myour singalongs and your lullab[0;33mie[0;31ms[0;37m [0;31m▀[0;1;33;41m▀███▓▒[0;31m▄[0m       [1;30m▀▄[0m
    [1;35m▒[0m       [31m█[0;1;33;41m░▒▒▓▓█[0;31m Su[0;33mr[0;1;30mrender to the city of the firefl[0;33mie[0;31ms[0;37m  [0;31m▄▄[0;1;33;41m▄▀[0;31m▀[0;1;33;41m░▓█▓░[0m     [1;30m▀▀▄▀▌[0m
    [1;35m░[0m   [1;30m▄[0m    [31m▀▀█[0;1;33;41m░▒[0;31m  Da[0;33mnc[0;1;30me with the devil in the beat with the b[0;33man[0;31md▀█[0;1;33;41m▓[0m    [1;30m▀▀▄▀▌[0m
-   [1;35m░[0m  [1;30m▀▀▄[0m      [31m█ ▀ T[0;33mo[0;1;30m hell with all of you hand-in-h[0;33man[0;31md[0m     [31m▄▄[0;1;33;41m▓▄[0;31m▄█[0;1;33;41m▓[0m      [1;30m▐[0m [1;30m▌[0m
+   [1;35m░[0m  [1;30m▀▀▄[0m      [31m█ ▀  [0;33m [0;1;30m                               [0;33m  [0;31m [0m     [31m▄▄[0;1;33;41m▓▄[0;31m▄█[0;1;33;41m▓[0m      [1;30m▐[0m [1;30m▌[0m
    [1;35m░[0m     [1;30m▀▄▄[0m   [1;30m▄██▄[0;31mB[0;33mu[0;1;30mt now it''s[0;31m [0;1;30mtime to be gone - fore[0;33mve[0;31mr[0;37m [0;31m ▀[0;1;30m [0;31m▀[0;1;33;41m▒[0;31m▀ ▀[0m
    [1;35m░[0m     [1;30m▀[0m    [1;30m▐▀█▀▓▌███▄[0m [1;30m▄▀▄[0m   [1;33;41m▐[0;31m▌[0;37m  [0;1;30m ▄██▓[0m    [1;30m▄██▓▄[0m  [1;35;45m▓[0m [1;30m ▄▄▄ [0m [1;30m  ▄[0m [31m▀▄[0m
    [1;35m░[0m           [1;30m▀▄▓▀▐▓▄▀▄▌▌▌[0m [1;30m▄▀[0;31m▐[0;1;33m█[0;1;33;41m▓[0;31m█[0;37m [0;1;30m▐▄▀▄█ [0;31m▄▀[0;1;30m▒▓▀▄█▓[0m  [1;35;45m▓[0m [1;30m▓▀█▀▌[0m [1;30m▄▀▀[0m  [1;33;41m░[0m

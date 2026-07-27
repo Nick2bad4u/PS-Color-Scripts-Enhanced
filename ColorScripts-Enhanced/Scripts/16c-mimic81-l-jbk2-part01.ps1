@@ -5,7 +5,7 @@
 # Source SHA-256: 15cf2c7606bd4888028b6ffa9e674e95b0cf25dcdad3b58ba1baf18f31e44f47
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: l-jbk2.ans by Lame (mimic81); released in mimic81 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -45,7 +45,7 @@ Write-Host '
 [31m$$$$$$''[0;37m  j''  .d$$$$$$$$$$$$$$$$$[0;1;37m$$$$$$$$$$7''[0m                    [1mdSS┐[0m  [31m?$$$$$$$$$[0m
 [31m$$$$$''[0;37m  |'' .$$$$$$$$$$$$j$S⌂*└²²²┘*⌂j$$[0;1;37m$$Y  l$SS@@%%aa⌐¬┌┐,,__  ?$$$Y.[0m [31m`$$$$$$$$[0m
 [31m$$$$''[0;37m   : j$$$$$$$$$j7└''[0m             [37m~²/jQ. ``''''²²└┘**∟∟⌂[0;1;37m⌂SS$$   }$$$$.[0m [31mTY$$$$$$[0m
-[31m$$$''[0;37m j$  j$$$$$$j7┘''  [0;1;37m [0;32m _.┐a%#SS#%┌.[0m                          [1;37m_.J$$$$$l[0m [31m:$$$$$$$[0m
+[31m    [0;37m              ┘   [0;1;37m [0;32m   ┐       ┌ [0m                          [1;37m         [0m [31m        [0m
 [31m$$''[0;37m j$'' .$$$$$7~[0m      [32m.J$$$$$$$$$$$$$[0;1;32mt┌. [0m                   `~└[1m$k$$$$$''[0m [31ml$$$$$$$[0m
 [31m$''[0;37m .$''  l$$$7''[0m       [32m: `4$jj$$$$$$$$$$$$[0;1;32m$b.[0;32m  ┌[0;1;32ma%S$$Sa┐[0;32m  [0;1;32m,a┌. [0;32m [0;37m `└*⌂[0;1;37m*┘''[0m [31m/$$$$$$$$[0m
 [31ml[0;37m  l/j$.[0m       [32m  ,┌j$|[0m      [32m```^''²└*⌂j$$$$[0;1;32m$b.[0;32m ?$$$$[0;1;32m$$l [0;32m :$$$$[0;1;32m$   [0m     [31m:$$$$$$$$$[0m

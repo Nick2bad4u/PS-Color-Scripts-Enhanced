@@ -5,7 +5,7 @@
 # Source SHA-256: e32010f059a84eeae6a79ffe0e12cf2ab65e2c9b43fb7358ce0382873f7c86a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KK-TGMAD.ANS by Kamikaze (thst995a); released in thst995a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -23,11 +23,11 @@ Write-Host '
 [31m [0;1;30m▓ ▓  ▓[0m                             [1;30m▓ [0;33m▀■▓ [0;37m█[0;1;37;47m▀▓▓[0;1;37;40m██[0m▓▀▀▄▄ [1;31m▀▀ ■▀▄■▓[0;1;30m▄ ▓ ▀[0;31m▄▄▓[0;1;31;41m░▒░▓[0;31m▓█[0;1;31;41m░[0m [1;30;40m░[0m
 [1;30;40m   ▄[0m     [1;30;40mawps - GöD - hand of fate[0m     [33m▀ [0;1;31m▄  [0m▀▀[1;47m▀[0m▓[1;47m▀[0m▄▓▀  [1;31m▄▀▄▀ ▓[0;1;31;43m▓[0;1;31;40m▌[0;1;30;40m▓▌ ▒[0;31m▀▀█▓[0;1;31;41m░[0;31m▓█▀▀  [0;1;30m▄[0m
 [1;30m █ ▓  ▓   running ohh-bee-vee two   ▓    [0;1;31m▓▀■▄  ▄   ▄▄■[0;1;31;43m▓[0;1;31;40m▓▀ █[0;1;31;43m▓▒[0;1;31;40m█ [0;1;30;40m▓ ▄▀■ ▀▄▄■▄▄▀▀[0m
-      [1;30;40m▒   two phat ass 28.8 nodes   ▒ ▓  [0;1;31;40m█■█[0;1;31;43m▒░[0;1;31;40m▄▄▀[0;1;31;43m▓[0;1;31;40m█▄▓[0;1;31;43m▓▓[0m  [1;31;40m█[0;1;31;43m▓▓█▒[0;1;31;40m▓ [0;1;30;40m█ ▓▀▄▀░ ░   ■░[0m
-[1;30;40m █ ▓   ▓ two phat ass gigs online!    ▒   [0;1;31;40m▓[0;1;31;43m▓▓[0;1;31;40m▄[0;1;31;43m░[0;1;31;40m▓[0;1;31;43m▓[0;1;31;40m▄▀■▀  ▄█▓[0;1;31;43m▒░[0;1;31;40m▓[0;1;31;43m░▓[0;1;31;40m█ [0;1;30;40m▌▀▄ ▓ ▐▒ ▄░ ▒[0m
+      [1;30;40m▒                             ▒ ▓  [0;1;31;40m█■█[0;1;31;43m▒░[0;1;31;40m▄▄▀[0;1;31;43m▓[0;1;31;40m█▄▓[0;1;31;43m▓▓[0m  [1;31;40m█[0;1;31;43m▓▓█▒[0;1;31;40m▓ [0;1;30;40m█ ▓▀▄▀░ ░   ■░[0m
+[1;30;40m █ ▓   ▓                              ▒   [0;1;31;40m▓[0;1;31;43m▓▓[0;1;31;40m▄[0;1;31;43m░[0;1;31;40m▓[0;1;31;43m▓[0;1;31;40m▄▀■▀  ▄█▓[0;1;31;43m▒░[0;1;31;40m▓[0;1;31;43m░▓[0;1;31;40m█ [0;1;30;40m▌▀▄ ▓ ▐▒ ▄░ ▒[0m
 [1;30;40m   ▓   ▒   KatzNet message distro   ▓[0m     [1;31;43m▓[0;1;31;40m▐▄[0;1;31;43m▓[0;1;31;40m▄[0;1;31;43m▓[0;1;31;40m▄▀ ▄▓▄▀ ▀█[0;1;31;43m▓[0;1;31;40m▓██[0;1;31;43m▓[0;1;31;40m▀ [0;1;30;40m▓ ▓■ ▓  ░ ▒[0m
 [1;30;40m ▓   ▓   file not found distro site[0m       [1;31;40m▓▄[0;1;31;43m▓[0;1;31;40m▀▀ ▓▄[0;1;31;43m▓[0;1;31;40m▓▄▄▄▀▄▄ ▀▀ ▄[0;1;30;40m■▀ ▄█ ▓ ▓ ▒ ▀[0m
-[1;30;40m █   ▒  fast ass o to 3 day warez [0;32m▄[0;1;32;42m▀▀[0;32m▓▀▓▀  [0;1;31m▓▀ ▓[0;1;31;43m▓▒█▀[0;1;31;40m▀[0;33m▀[0m     [1;31m▀▀▀▀  [0;1;30m▄▓■▄▀ ▓ ▐  ░[0m
+[1;30;40m █   ▒                            [0;32m▄[0;1;32;42m▀▀[0;32m▓▀▓▀  [0;1;31m▓▀ ▓[0;1;31;43m▓▒█▀[0;1;31;40m▀[0;33m▀[0m     [1;31m▀▀▀▀  [0;1;30m▄▓■▄▀ ▓ ▐  ░[0m
        [1;30mnode1-6o2-99i-7o42 [0;32m▄[0;1;32;42m▄■▀▀[0;32m▓[0;1;32;42m▄[0;32m▀▓[0;1;32;42m■[0;32m▀ ▀▓ ▄ [0;1;31m▐ █[0;1;31;43m▓▒[0;33m▀  ▄[0;1;31m▄[0;33m▀[0;1;31m▓■[0;1;31;43m▄[0;1;31;40m▀[0;1;31;43m▄▄[0;1;31;40m▀▓[0;1;31;43m▄[0;1;31;40m▄▄■[0;1;30;40m▀ ▄▓  ░[0m
 [1;30;40m ▓  node2-6o2-99i-i294[0;32m▄[0;1;32;42m▀▄[0;32m▓███▓▓█  ░█  █░    [0;1;31m▀▀[0;33m■▄[0;1;31m▄▄▓██▓▄▓[0;1;31;43m▓█[0;1;31;40m█▓▓[0;1;31;43m░▓[0;1;31;40m█▄▄[0;1;30;40m■▀ ▄■▒[0m
 [1;30;40m █    nup:[ifergot][0;32m▓[0;1;32;42m▀■[0;32m▄▓██ █▀  ░▒   ▓░ ▒█  ░[0m     [1;31m▀▀███▓[0;1;31;43m▓[0;1;31;40m█▓[0;1;31;43m▒▓[0;1;31;40m█▓█[0;1;31;43m░[0;1;31;40m██▀[0;1;30;40m▄▀[0m

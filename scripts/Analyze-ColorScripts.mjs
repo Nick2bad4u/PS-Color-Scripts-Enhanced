@@ -925,6 +925,15 @@ function analyzeSplitFamilies(records, options) {
         }
         const mergeablePairs = [];
         const continuousBoundaries = [];
+        if (first.sourceRowStart !== 1) {
+            issues.push({
+                type: "source-row-gap-or-overlap",
+                family: first.splitBase,
+                scripts: [first.name],
+                previousEnd: 0,
+                currentStart: first.sourceRowStart,
+            });
+        }
         for (let index = 1; index < members.length; index += 1) {
             const previous = members[index - 1];
             const current = members[index];

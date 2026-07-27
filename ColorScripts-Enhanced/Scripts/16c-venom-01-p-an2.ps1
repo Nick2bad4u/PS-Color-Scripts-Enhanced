@@ -5,7 +5,7 @@
 # Source SHA-256: 21f997b52a13b81072d602029dc81d563d9d04c3c57219184e59a6e71ac7bbeb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P-AN2.ANS by Pezclown (venom-01); released in venom-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -25,7 +25,7 @@ Write-Host '
 [32m▐[0;1;32m█    [0;32m▐[0;1;32m█▌[0m         [32m▐[0;1;32m██     [0;32m▐[0;1;32m▌[0;32m░[0;30;42m▓[0;32;40m█▄[0;1;32;40m    ▐[0m      [32m█[0;1;32m    [0;1;32;42m [0m   [32m█[0;1;32m██[0;32m▀▀[0;1;32m▀█[0m      [35m▐[0;1;35m█████▌[0m  [35m▄[0;1;35m█▌[0m
 [32m▐[0;1;32m█▄▄ [0;32m░[0;30;42m▓[0;32;40m█[0;1;32;40m▌[0m          [32m█[0;1;32m██   [0;32m █[0;1;32m█[0;32m  ▐█[0;1;32m██▄▄[0;1;32;42m [0;1;32;40m▌[0m     [32m▐▌[0;1;32m   [0;1;32;42m [0;1;32;40m▌[0m [32m▀[0;1;32m██▄  [0;32m▄█[0;30;42m░[0;32;40m▓ [0m    [35;40m▀[0;1;35;45m▀[0;1;35;40m██▀[0m [35m▄[0;1;35m██[0;35m▀[0m
 [37m  [0;32m▀[0;1;32;42m▀[0;1;32;40m█▄▄▄█[0;1;32;42m▄[0;1;32;40m▄▄▄▄▄▄▄▄▄▄███▄▄███▌[0m              [32m▐[0;1;32m▄▄[0;1;32;42m▄[0;1;32;40m██▌[0m   [32m▀[0;1;32m▀▀▀▀[0m        [35m▄[0;1;35;45m▄[0;1;35;40m██▄█[0;35m▀[0;1;35m  [0;1;30mlame[0m
-                                                              [1;35m [0;35m▄[0;1;35m████[0;1;35;45m▓▓[0;1;35;40m███▄[0m   [1;30mass[0m
+                                                              [1;35m [0;35m▄[0;1;35m████[0;1;35;45m▓▓[0;1;35;40m███▄[0m   [1;30m   [0m
 [1;37;41m ANEURYSM                              +O - WARNERVE      [0;31m░[0m   [35m▐[0;1;35;45m▀    ▀[0;1;35;40m█[0;1;37;40m██[0;1;35;40m██▌[0m [1;30mbong[0m
                                                              [35m░[0;30;45m▓[0;35;40m█[0;1;35;45m    ▄[0;1;35;40m█████[0m
                                                                 [35m▀▀[0;1;35;45m▄[0;1;35;40m████▀▀ [0m  [1;30mp [0m'

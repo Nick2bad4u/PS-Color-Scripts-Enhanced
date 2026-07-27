@@ -5,7 +5,7 @@
 # Source SHA-256: c14dde433f841581b7f5df974079d60a5a4aff4afc1327eb611ac55e29460619
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SRB-B.ANS by Sketch Rimanez (jtxa-03); released in jtxa-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -41,7 +41,7 @@ Write-Host '
 [34m        [0;1;34m  i§[0;34m§§§§Sa,   [0;1;37m  [0mY[1m§§§§§[0m§§?╛"`  [1m [0m  [1;30m,[0mS§[1m§§§§§§§§§§§§§§§§[0m§§§§[1;30m§[0;1;37m  [0;33m"?§§§.[0m
 [34m        [0;1;34m  ┼[0;34m§§i"╘+?    [0;1;30m  `[0m?§@╛"` [1m       [0m [1;30m╡[0m§[1m§§§§§§§§§§§§§§§§§§§§§[0m§§L[1m [0;33m   `""╘[0m
 [34m        [0;1;34m  §[0;34m§§;        [0;1;37m                 [0m  ?[1m§§§§§[0;1;33m§§§§§§§§§§§[0;1;37m§§§§§§§§[0mL
-[34m          §§§; a##SS§§╡                [0;1;37m   ?[0;1;33m§§§§§§§§§§§§§§§§§§§§§§[0;1;37m§§§a_[0m
+[34m                      ╡                [0;1;37m    [0;1;33m                      [0;1;37m     [0m
 [34m         [0;1;34m;[0;34m§§§ j§§?╧╡§§I     [0;1;34m  _., [0;34m     [0;1;37m    [0;1;33m^"╛╛*÷[0;1;32mSS§§╡╡§§§[0;1;33m§§§§§§§§§§§[0;1;37m§§Sa▄,_[0m
 [34m         [0;1;34m;[0;34m§§§      i§§I[0;1;34m_.,▄s[0;34mS§§§§L     [0;1;37m            [0;1;32m    `"§§§§§§[0;1;33m§§§§╡§?╛╛[0;1;37m""```[0m
 [34m         [0;1;34mi[0;34m§§Y   [0;1;34m_.,[0;34mI§§§§§§§§§╪§§§§L    [0;1;37m      [0;32m    _,aL [0;1;37m  [0;1;32mj§§§§§§╡7"`[0m

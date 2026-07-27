@@ -5,7 +5,7 @@
 # Source SHA-256: 7afa21b17d0a11100c4b2b40577aeca5dd49c7643a06d1581ca67bffa4955cde
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-LOFF.ANS by Cleaner (Nitrophusion); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nitrophusion.Logoff.Matrix
 # SAUCE Author: Cleaner
 # SAUCE Group: Nitrophusion
@@ -34,6 +34,6 @@ Write-Host '
 [36m████████[0;1;33;46m░░[0;36m▄▄▄▄ [0;35m▀▀[0;1;35;45m░▒▓[0;1;35;40m█▌[0m■[36m [0;37m▀[0;1;31;47m░▒▓▓[0;1;31;40m████[0;1;31;43m▓▓[0;1;31;40m█[0;1;31;43m▄[0;1;31;40m▄[0;33m▄[0;31m▀▀▄▄▄▀[0;33m▄[0;1;31;43m░▒▒░░[0;33m███[0;1;30;43m░░[0;33m▀[0;36m▄█  [0;37m [0;1;30mn[0mP[1mH[0m [1mLOGO[0mF[1;30mf[0m [1m1[0m.[1;30mo[0m [36m  █[0m
 [36m██[0;1;36;46m░░[0;36m████████████▄▄ [0;1;35m▀▀▀[0;36m [0;1;31;47m▒[0;33m▄ [0;37m▀[0;1;31;47m░▒▓▓[0;1;31;40m████[0;1;31;43m█▓▓[0;1;31;40m██[0;1;31;43m▄[0;1;31;40m▄▄▄[0;1;31;43m▓▒▒░░[0;33m███[0;1;30;43m░░[0;33m▀[0;36m▄██[0;30;46m░░[0;36;40m───────────────────[0;30;46m░[0m
 [36;40m████████████[0;1;36;46m░░[0;36m█████[0;1;31m [0;1;31;47m ░▒▓▓[0;1;31;43m▓[0;33m▄[0;37m ▀▀[0;1;31;47m▒▓▓[0;1;31;40m████[0;1;31;43m███[0;1;31;40m██[0;1;31;43m█▓▒░░[0;33m███[0;1;30;43m░░[0;33m▀[0;36m▄█[0;1;36;46m░░[0;36m██ [0;37m Return to Board! [0;30;46m▓▒[0m
-[36;40m█[0;1;36;46m Code and Ansi   [0;36m▌[0;37m▐[0;1;31;47m░▒▒▓▓[0;1;31;40m█[0;1;31;43m▓▓▒[0;33m▄▄[0;37m ▀[0;1;31m▀[0;1;31;47m▒▓[0;1;31;40m█████[0;1;31;43m▓▓▒░[0;33m██[0;1;30;43m░░[0;33m▀▀[0;36m▄███████ [0;1;36;44m Get the Hell off [0;36m [0;30;46m░[0m
+[36;40m█[0;1;36;46m                 [0;36m▌[0;37m▐[0;1;31;47m░▒▒▓▓[0;1;31;40m█[0;1;31;43m▓▓▒[0;33m▄▄[0;37m ▀[0;1;31m▀[0;1;31;47m▒▓[0;1;31;40m█████[0;1;31;43m▓▓▒░[0;33m██[0;1;30;43m░░[0;33m▀▀[0;36m▄███████ [0;1;36;44m                  [0;36m [0;30;46m░[0m
 [36;40m█[0;1;36;46m By Cleaner''98 ░░[0;36m▌[0;37m▐[0;1;31;47m░▓▒▒▓▓[0;1;31;43m█▓▓▒▒░░[0;33m▄▄[0;37m ▀[0;1;31m▀▀[0;1;31;43m▓▓▒░[0;1;30;43m░[0;33m▀▀▀[0;36m▄▄███[0;1;33;46m░░[0;36m███[0;30;46m░▒▓[0;36;40m [0;37;40mPage the Sysgewd[0;36;40m  █[0m
 [36;40m█[0;1;33;46m░░[0;36m███████████████[0;1;31m [0;1;31;47m░▒▒▒▓▓[0;1;31;40m███[0;1;31;43m▓▓▒▒░░░░ ░[0;33m▄▄▄ [0;36m▄▄[0;1;36;46mCl![0;36m█[0;1;36;46m░░[0;36m█████████▄▄▄▄▄▄▄▄▄[0;1;33;46m░[0;36m▄▄▄▄▄▄▄▄▄[0;30;46m▒░[0m'

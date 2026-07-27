@@ -5,7 +5,7 @@
 # Source SHA-256: 52d51448d6fcf9ff7da5b785c5dc75bd402b2c91d45ddb8fa3a5ad90b891d903
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PX-IC.ANS by Phoenix (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ill Communication
 # SAUCE Author: Phoenix
 # SAUCE Group: Union
@@ -55,7 +55,7 @@ Write-Host '
 [1;35m   [0;1;30m█████▄▄    [0;32m▀▀▀▀▀▀▀▀▀[0;1;30m▄▄█[0m
 [1;30m  █████████████▄███████████[0m                 [1;35m+ [0;35m3 [0;1;30mi 4 . 6 4 5 . 1 8 [0;35m9 [0;1;35m3[0m
 [1;35m  [0;1;30m████████████ ████████████[0m
-[1;30m   ██████████▌ ████████████[0m                [1;35ms[0;35my[0;1;30msops [0;1;35m:[0;35m: [0;1;30mprophet·hell spa[0;35mw[0;1;35mn[0m
+[1;30m   ██████████▌ ████████████[0m                [1;35m [0;35m [0;1;30m     [0;1;35m [0;35m  [0;1;30m                [0;35m [0;1;35m [0m
 [1;35m    [0;1;30m▀████████  ▐██████████[0m
 [1;30m ▄█▄▀ ▀▀▀████▌ █████████▀ ■▄[0m                      [1;35mR[0;35mi[0;1;30mGiD dist si[0;35mt[0;1;35me[0m
 [1;35m  [0;1;30m▓██▄▄▄▄▄▄██▄ ▄█████▄▄▄▄▀█[0m                      [1;35mE[0;35mP[0;1;30miNCiON dist si[0;35mt[0;1;35me[0m

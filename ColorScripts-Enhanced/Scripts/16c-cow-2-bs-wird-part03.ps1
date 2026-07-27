@@ -5,7 +5,7 @@
 # Source SHA-256: d618ae88f0a29e056415936ce42916adadbfa649ea1126a64a28689df5fda68e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-WIRD.ANS by burps (cow); released in cow-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: wired '95 contribution
 # SAUCE Author: burps
 # SAUCE Group: cow
@@ -43,9 +43,9 @@ Write-Host '
 [1;40m          ▓▀    [0m▀▀[1;47m░▀▀▀▓[0;1;40m██▀▀                                                     [0m
 [1;40m                                                        [0m▄  ▄▄    ▄   ▄░ ▄[40m       [0m
 [36m▄█▓▀▀▀▀▀ ▀  ▓▀▓▀▀▀▀▀▀▀ ▀[0;46m▓[0;36m▀[0;46m▓[0;36m▀▀▀▓▀▀▀ ▀ ▀▀▀▀▀▀▓ ▀▀▀▀█[0;46m▓[0;36m▄ [0m■▀▓▀[1;47m░[0;36m [0;1;31m▄ [0m▀ ░▀[1;47m░[0m▀▀■[1;31m▄ [0;31m░[0m▀▓▌ [36m▄[0;46m▓[0;36m▄[0;36;40m [0m
-[46m▓[0;36m█▌     [0;32mansi raped by burps for wired ''95[0;1;32m.       [0;36m▐█▓▀  [0m░ [1;31m▄▐██▓▄▄█▄████▓▄▌[0m░  [36m▐██[0;36;40m [0m
+[46m▓[0;36m█▌     [0;32m                                 [0;1;32m        [0;36m▐█▓▀  [0m░ [1;31m▄▐██▓▄▄█▄████▓▄▌[0m░  [36m▐██[0;36;40m [0m
 [36;40m██    [0;32mdrawing ansi''s in a hurry is cool! like     [0;36m█▌ [0m░  [31m░[0;1;31m▐[0;1;31;41m▓[0;1;31;40m██▀▓▀█[0;1;31;41m▓[0;1;31;40m▌▐[0;1;31;47m▓[0;1;31;40m██[0;1;31;41m▓[0;1;31;40m   [0m░ [36m▓█[0;36;40m [0m
 [36;40m▀█  [0;32malways i''m trying to fill this up with some   [0;36m█▄ ▄▓▄  [0;1;31m▀[0;1;31;41m▓[0;36m [0;1;31;47m▓[0;1;31;40m▌▐▌▐█▄▀█▀ [0;36m▄▓▄ ▄██[0;36;40m [0m
-[36;40m█▓▌  [0;32mcrap. and look! i succeeded! almost :)      [0;36m▐██▀███▀ [0;1;31m▄▀▐█ ▀▒ █[0;1;31;47m▓[0;1;31;40m▌ [0;36m▄▓████▓█▄[0;36;40m [0m
+[36;40m█▓▌  [0;32m                                            [0;36m▐██▀███▀ [0;1;31m▄▀▐█ ▀▒ █[0;1;31;47m▓[0;1;31;40m▌ [0;36m▄▓████▓█▄[0;36;40m [0m
 [36;40m▀▄█▄▄▄ ▓▄▄▄▄▄ ▄[0;46m▓[0;36m▄▄▄▄▄ ▄ ▄▓▄▓▄▄▄▄▄▄ [0;32;46m▓[0;36m▄▄▄ ▄▄▄▓▄▄ ▄▓█[0;46m▓[0;36m█▓██▌ [0;1;31m▐▓ █[0;1;31;47m▓[0;1;31;40m▌▐[0;1;31;41m▓[0;1;31;40m▌ ▀ [0;36m▄█▄██▀███▀[0;36;40m [0m
 [36;40m  ░    ░                              ░    ░        ░     [0;1;31;40m▀■ ▀  ▀         [0;36m░[0;36;40m     [0m'

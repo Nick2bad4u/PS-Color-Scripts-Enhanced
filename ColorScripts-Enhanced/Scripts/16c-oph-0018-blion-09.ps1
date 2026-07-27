@@ -5,7 +5,7 @@
 # Source SHA-256: 11e2a343425f329aa11a654ed2badc01d36256374abf66317c7e0d5c9cd8aa09
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLION-09.ANS by bass lion (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 0              02[[[[[[[[[[[___[0
 # SAUCE Author: bass lion
 # SAUCE Date: 19960917
@@ -27,4 +27,4 @@ Write-Host '
 [37m  [0;30;44m░c/o61░[0;36;40m   [0;1;34;40m▀▀[0;1;34;44m░[0;34m▀▀[0;37m [0m    [1;32;42m█▀▄[0;32m▌[0;37m  [0;1;32;42m░[0;32m▀▀[0;37m [0m      [1;31m▀▀[0;1;31;41m░[0m     [31m▀▀▀[0m   [1;35m▀▀[0;1;35;45m░[0m    [1;36m▀[0m   [1;36;46m░[0;36m▀▀[0;37m   [0;30;46m░ophid.░[0m
 [1;37;40m  [0;1;34;40m----[0;1;37;40m [0;1;34;40m---[0;1;37;40m       [0;34m--[0;1;37m  [0;1;32m▐[0;1;32;42m▓ [0;32m█[0;37m [0;1;37m [0m  [1m  [0;32m--[0;1;37m  [0;32m-[0;1;31m-[0;1;37m  [0;1;31m-[0;1;37m  [0;31mophidiac[0;1;37m  [0;1;35m-[0;1;37m    [0;35m-[0;1;37m [0;1;36m --[0;1;37m   [0;36m-[0;1;37m  [0;36m----[0;1;37m [0;36m----[0m
    [1;30m▓▄▄█▀▀▓██▀[0m [1;30m▄[0m  [1;30m   [0m [1;32m█[0;1;32;42m▓▒[0;32m▌[0m                                           [1;30m▀▀█▓░░[0m [1;30m░[0m
-  [1m.[0m [1m [0m   [1;30m▄▄█▓░░[0m [1;30m░[0m  [1m  [0m  [1;32m▀▀[0;1;32;42m▓[0;1;32;40m▄[0m  [1mcovering the wh0le damn spectrum[0m   [1;30m▓▀▀█▄▄▓██▄[0m [1;30m▀[0m [1m.[0m'
+  [1m [0m [1m [0m   [1;30m▄▄█▓░░[0m [1;30m░[0m  [1m  [0m  [1;32m▀▀[0;1;32;42m▓[0;1;32;40m▄[0m  [1m                                [0m   [1;30m▓▀▀█▄▄▓██▄[0m [1;30m▀[0m [1m [0m'

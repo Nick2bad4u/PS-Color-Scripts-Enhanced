@@ -5,7 +5,7 @@
 # Source SHA-256: 6adf25a28f90343d4b42d44041b0b86551b30bfb911ffa7ea8952a0d631eb846
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-steamy.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: steamy
 # SAUCE Author: abstrakt
 # SAUCE Group: lazarus
@@ -30,7 +30,7 @@ d7[1;36m 4[0;1;32m$$$S[0;1;36m##S$$$[0;1;32m$$$$$$[0;1;36mP [0;1;32m$$$$[
 7[1;36m 4$[0;1;32m$$$$$$$$$$$$$$$[0;1;36mP  `^"''''    `$[0;1;32mj7[0;1;36m`[0m  [1;36m`[0;1;32m4j$$$$$jP[0;1;36m`[0m   [1;32md$$[0;1;36m$    `[0;1;32mj$$$$$[0;36m;[0;37m      [0;36m$[0;1;32m$$$$$[0m
 [1;36m <$[0;1;32m$$$$$$$$$$$$$j[0;1;36mP`  [0;1;30m$[0m          [1;36m''[0m        [1;32m`''"''[0;1;36m`[0m     [1;36m\^```[0m      [1;32m4$$$$[0;36ml[0m
 [37m  [0;1;36m`└*S[0;1;32m$$$$$$S*[0;1;36m┘`[0m   [1;30m.$$[0m   [1;30mb.[0m         [1;30m.d [0;35mb.[0;37m         [0;1;36m`[0m      [1;30m$\[0m    [1;36m4$$Q[0;36mQ[0;37m      [0;35m$$[0;1;30m$b[0m
-[1;30m.[0m                [1;30m.4$$''[0m   [1;30m$$[0m  $b  [1;30m,a$$$[0m [35m`$[0;1;30m$#ass#$./[0m  [1;30ml__[0m  [1;30m$$[0m .          b,. [30m$[0;1;30m$$b[0m
+[1;30m [0m                [1;30m     [0m   [1;30m  [0m      [1;30m     [0m [35m  [0;1;30m         [0m  [1;30m   [0m  [1;30m  [0m                [30m [0;1;30m   [0m
  [35m`[0;1;30m4┐,.[0m    [1;30m_ .,┌s$$$$''[0m .l [35m$[0;1;30m$  [0m$$b  [1;30m4$7''[0m. [35m`$[0;1;30m$$$$$$$''[0m  ;$$  [35m$[0;1;30m$[0m $b       [1;30ml[0m $$$$ [1;30m$$$b[0m
    [35m`└[0;1;30m$$7  [0;35m\[0;1;30m$$$$$$jP`[0m  $$ [35m$[0;1;30m$$[0m $4$b [30m$$[0;37m.d$. [0;35m`└[0;1;30m$jj$*''[0m   \$$     $$b [35m`/[0;1;30m┐,.$[0m $$ \
 /.    [35m`''[0;1;30m┘ [0;35m`┘⌂[0;1;30m⌂*┘`[0m    4$P     $[30m$[0;37m4$b,d$$$$b.        ,4$$''/$$$$$`4$.[0;35m `4[0;1;30m$$[0m $$ $$$$$$

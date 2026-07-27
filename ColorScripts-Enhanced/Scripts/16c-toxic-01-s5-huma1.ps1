@@ -5,7 +5,7 @@
 # Source SHA-256: d7e7058d825f399d846e9c1c1ff49ce357dbb7f1f29dffa5b82f513527fa065b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S5-HUMA1.ANS by SuicidalSnowman (TOXiC); released in toxic-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hUMA!
 # SAUCE Author: SuicidalSnowman
 # SAUCE Group: TOXiC
@@ -29,7 +29,7 @@ Write-Host '
 [31m   [0;37mrunning [0;1;37mobv/twoo [0mv2.25     [1;31m▄[0;31m█▀▀ [0;1;31m█▄▄██▀▀▀█[0;31m▀█[0;1;31m█████[0;1;31;41m▄[0;31m▄ ▀█▄▄▄▄▄▄██[0;1;31m██████[0;1;31;47m▓▓[0;1;31;40m█[0;31m▌   █[0;31;47m▓[0m
     [1;30;40mtONZ''O''aNSI Support[0m      [1;31;40m▐[0;1;31;41m▌[0;31m▌[0;1;31m▐▌▐[0;1;31;47m▓[0;1;31;40m███▄████▌[0;31m▐[0;1;31m███████[0;1;31;41m▄▄[0;31m▄▄▀▀▀▀▀[0;1;31m▄███████[0;1;31;47m▓[0;1;31;40m█[0;31m█    ▐█[0m
                               [1;31m▀[0;1;31;41m▄[0;31m▄  [0;1;31m▀▀▀▀   ▀▀[0;31m▄█[0;1;31m█████████[0;1;31;41m██▄▄▄▄[0;1;31;40m████████[0;1;31;41m▀[0;1;31;40m▀[0;31m▀    ▄██[0m
-[31m  [0;1;32mt0XiC [0mUSHQ [1;30m: [0;1;35mVAGINA [0mWHQ      [1;31m▐[0;1;31;41m▌[0;31m▌[0m      [31m░ [0;31;41m  [0;1;31;41m▄[0;1;31;40m███████████████████[0;1;31;41m▀[0;31m▀▀   ▄▄█[0;1;31m░░░[0;31m███[0m
+[31m  [0;1;32m      [0m     [1;30m  [0;1;35m       [0m         [1;31m▐[0;1;31;41m▌[0;31m▌[0m      [31m░ [0;31;41m  [0;1;31;41m▄[0;1;31;40m███████████████████[0;1;31;41m▀[0;31m▀▀   ▄▄█[0;1;31m░░░[0;31m███[0m
        [1;31maSH [0mMemberboard         [1;31m██[0;31m█[0m       [31m█[0;31;41m [0;1;31;41m▐[0;1;31;40m████[0;1;31;41m▀[0;1;31;40m▀[0;1;33;40m▄ [0;31m█[0;1;31m██████[0;1;31;41m▀[0;1;31;40m▀▀█[0;1;31;41m▌[0;31m▌   ▐[0;1;31m░░░[0;31m███████[0m
         [1;37mCLASSIC [0mWHQ         [1;33m█ [0;1;31m▐█[0;31m█▀█▄   ▄█[0;1;31m░░[0;1;31;41m ▀▀▀ [0m [1;33;43m▐[0;1;33;40m▌[0;31m▐[0;1;31;41m▀▀[0;1;31;40m▀▀▀▀▀[0;1;31;41m█▄[0;1;31;40m▄▀█[0;31m█▄▄████████████[0m
 [31m   [0;1;33mCARRYING ZOMBIEnet![0m     [1;33;43m▐[0;1;33;47m▓[0;1;33;40m▌[0;31m▐[0;31;47m▓[0;31;40m██▄████▀▀▀▀▀▀▀▀ [0;33;40m▐[0;1;33;40m█[0;1;33;47m▓[0m    [33m▀[0;1;33;43m▐[0;1;33;40m█▌▄ [0;1;31;40m▀[0;1;31;41m▄[0;1;31;40m█[0;31m█▄  ▀████████[0;31;47m▓[0;31;40m█[0m

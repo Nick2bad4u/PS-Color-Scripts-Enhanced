@@ -5,7 +5,7 @@
 # Source SHA-256: ead373ba49826c27a859a411f39331690eb2aa3e18f5e0605ac391e1486b18c5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-laz1.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: laza
 # SAUCE Author: abstrakt
 # SAUCE Group: lazarus
@@ -26,7 +26,7 @@ $$$$$[1;30m$b    [0;36m`*┐, ┘^[0;1;36m`[0;1;30m   [0;36m`└S[0;1;36mj
 [1;30m  [0m$$l[1;30m $  [0m.┐s%s$$[1;30m7  [0md$7    .┐s%s$[1;30m$P [0ml[1m$$[0m$P   [1m$$$$$$$$[0m$$$$$$.[1m`┘$j$$j[0m$P''.d[1m$$$$[0m$$s%#$
 [1;30m  [0m$$l[1;30m T [0md$P[1;30m┘''[0m`$$[1;30mb.[0md$7    d$$┘''`$$[1;30m: :[0m$7''   [1md$$$$$$$$$[0m$$`  .[1md$[0mb,.`` .┐$[1m$$$[0m$$$$$P┘`
 [1;30m  [0m$$l[1;30m l [0m$$   ,$$$$$7  ._l$$\   $$l[1;30m  ''[0m   [1m.d$$$$$$$$$[0m$[1m$$$$$$$$$$$$$$$$$$[0m$$$$$P''.d$
-[1;30m  [0m$$l[1;30m : [0m4$AsS$$$$$$b┐.$$$j$$s%$$$$     [1m.$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m$'' d$$$
+[1;30m  [0m   [1;30m   [0m            ┐                  [1m                                  [0m       
 [1;30m [0md$$$[1;30m┐,. [0m`└⌂*''Y[1;30m$`[0m└4j$$$$[1;30m7 `[0m└⌂*''[1;30mY[0m$$[1;30mb[0m   [1m,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m$''[1m [0md$$j[1;30m$[0m
 [1;30m [0mW$$$$$$$/[1;30m.  [0m,┐*┌.[1;30m  `[0m²j[1;30m7  [0md%┐.   [1;30m.┐[0m  [1m,$$$$$$$$$Q$$[0m$Q[1m$$$$$$$$$$$$$$P dj$j[0m$b[1m [0m4$P
 [1;30m [0m`²"^^''└4$$b[1;30m `[0m$$$$b     .d$$$$$#$[1;30m$7[0m [1m`4$$$$$$$[0m/$[1m `[0mY$ Y[1m$$$$$$$$$$$$$  `   Y$$[0m$P

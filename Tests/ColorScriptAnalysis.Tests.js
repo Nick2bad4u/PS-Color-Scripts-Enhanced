@@ -549,6 +549,39 @@ test("split analysis flags dense cuts but not source blank boundaries", async ()
     );
 });
 
+test("split analysis flags a family whose first surviving part starts after row one", async () => {
+    const { analyzeScript, analyzeSplitFamilies } = await analyzer;
+    const directory = createTemporaryDirectory();
+    const record = analyzeScript(
+        writeScript(
+            directory,
+            "missing-intro-part02",
+            "21-40",
+            Array.from(
+                { length: 20 },
+                () => `\u001b[31m${"█".repeat(40)}\u001b[0m`
+            ).join("\n")
+        )
+    );
+
+    const issues = analyzeSplitFamilies([record], {
+        blankRun: 3,
+        maxRows: 50,
+        tinyTailRows: 10,
+    });
+    const gap = issues.find(
+        (issue) => issue.type === "source-row-gap-or-overlap"
+    );
+
+    assert.deepEqual(gap, {
+        type: "source-row-gap-or-overlap",
+        family: "missing-intro",
+        scripts: ["missing-intro-part02"],
+        previousEnd: 0,
+        currentStart: 21,
+    });
+});
+
 test("split analysis flags continuous dense artwork when no safer boundary exists", async () => {
     const { analyzeScript, analyzeSplitFamilies } = await analyzer;
     const directory = createTemporaryDirectory();

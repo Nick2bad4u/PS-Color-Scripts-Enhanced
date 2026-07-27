@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-07-27",
+  "baseline": {
+    "ref": "origin/main",
+    "commit": "661bad139913e67f110ff871ab1226b52dac580d"
+  },
+  "checkpointCommit": "7a63e6107434739ed6ac914f87f4ba81de3d37aa",
+  "scope": {
+    "initialAddedScripts": 21968,
+    "removedScripts": 207,
+    "remainingAddedScripts": 21761,
+    "finalGalleryScripts": 24914
+  },
+  "contentCleanup": {
+    "initialTextCandidateRows": 31626,
+    "initialPolicyRows": 1013,
+    "initialRowsBlankedAfterOverlapDeduplication": 32051,
+    "expandedPolicyRows": 265,
+    "totalRowsBlanked": 32316,
+    "initialTrailingRows": 5152,
+    "trailingRowsExposedByInitialTextCleanup": 17765,
+    "trailingRowsExposedByExpandedPolicyCleanup": 20,
+    "totalTrailingRowsRemoved": 22937
+  },
+  "policyReview": {
+    "expandedCategoryRowCounts": {
+      "hate": 1,
+      "profanity": 219,
+      "sexual": 46,
+      "slur": 1,
+      "violence": 0
+    },
+    "matching": "Exact normalized words and phrases plus exact punctuation-obfuscated tokens; arbitrary spaced-letter substrings, phone-number masking, and ambiguous surnames are excluded to avoid false positives."
+  },
+  "removals": {
+    "allBlankScripts": 10,
+    "lowQualityScripts": 146,
+    "incompleteSourceScripts": 51,
+    "incompleteSourceWorks": [
+      "16colors:33rules/33-GLO.ANS",
+      "16colors:amish-0717/filth - camp.ans",
+      "16colors:blocktronics-6710/nu-acidunder.ans",
+      "16colors:blocktronics_baud_dudes/nu+sdn-xibalba.ans",
+      "16colors:blocktronics_blockalypse/2mz0avgrm- blackflag.ans",
+      "16colors:crime/dreams.ans",
+      "16colors:crime/goodbye lulu.ans",
+      "16colors:crime/ill go down swinging.ans",
+      "16colors:impure79/sp-mircart.ans",
+      "16colors:laz17/LAZ17NFO.ans",
+      "16colors:mist0221/US-BACK_TO_THE_BBS.ANS",
+      "16colors:mist1014/wz-clockmaker.ans"
+    ],
+    "reason": "When a text-only or low-quality part was removed, every surviving sibling from the same accepted source was also removed if retaining it would omit source rows. The source disposition was changed from accepted to rejected-quality."
+  },
+  "archiveState": {
+    "accepted16colorsSources": 15121,
+    "emitted16colorsScripts": 21587,
+    "rejectedQualitySources": 13992,
+    "reviewedAnalysisExceptions": 459
+  },
+  "finalAudit": {
+    "failedFiles": 0,
+    "filesWithPolicyRows": 0,
+    "filesWithTextRows": 0,
+    "filesWithTrailingBlankRows": 0,
+    "policyRows": 0,
+    "textRows": 0,
+    "trailingBlankRows": 0
+  },
+  "finalFreshContentOrIntegrityFindings": {
+    "analysis-error": 0,
+    "blank-part": 0,
+    "derivative-attribution-review": 0,
+    "embedded-dos-eof": 0,
+    "low-cell-variety": 0,
+    "low-color-variety": 0,
+    "missing-source-coordinates": 0,
+    "mostly-plain-ascii": 0,
+    "source-row-gap-or-overlap": 0,
+    "sparse-cell-density": 0,
+    "suspicious-character-decoding": 0,
+    "very-small-output": 0
+  },
+  "residualStructuralReviewSignals": {
+    "continuous-split-review": 2072,
+    "dense-split-boundary": 16,
+    "leading-blank-run": 1980,
+    "tiny-tail-part": 42
+  },
+  "notes": [
+    "Residual structural findings are retained as review queues; they do not indicate written text, policy terms, trailing blank output, malformed provenance, or decoding damage.",
+    "Two legacy scripts outside the new-script scope retain three trailing rows: k1-apthy and mx-ping.",
+    "The full archive checkpoint builder completed source-coordinate validation but could not rebuild its inventory fingerprint because the ignored multi-gigabyte reconciliation cache had previously been intentionally cleared. The tracked archive checkpoint, current provenance, gallery analyzer, and fixture tests provide the retained verification evidence."
+  ]
+}

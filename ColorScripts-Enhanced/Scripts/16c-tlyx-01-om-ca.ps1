@@ -5,7 +5,7 @@
 # Source SHA-256: 2665374232b4756ba61a7712b138c0af828aa2058f86d8111233a04777bc8146
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OM-CA.ANS by Otium Man (tlyx-01); released in tlyx-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -32,7 +32,7 @@ Write-Host '
          [1;30m;[0;33m$$ $$$lS[0;37mⁿ°"[0;33m"""  "  __.,,,,. ""[0;1;30m"°°[0;33m°ⁿ¶$a`$[0;37ml[0;33m [0;1;30mj[0;33m$$$$$$$$$j$$$L[0m
          [1;30m$[0;1;30;43m▓[0;33mk;l''s$$SsssSSssSS$$$$$$$$$$$$$$$$@as$a$[0;37m$[0;33m [0;1;30mj[0;33m$$$$$$$$$$$$$;[0m
          [1;30m`S[0;33m;$$,l$$$$$$$$SSPⁿ°ⁿ°"[0;1;30m""°°ⁿ[0;33m$$$$$$$$$$$$$[0;37mP[0;1;30mj[0;33m$$$$$$$$$$$$$$l[0m
-     [33m  [0;1;30mom[0;33m [0;1;30m`a[0;33m`Ss `↔§$$[0;37mⁿ°~~[0;33m~`[0;1;30m~~~~[0;33m   ~~ [0;1;30m`$[0;33m$$$$$$lⁿ s$$$$$$$$$$$$$$$$$;[0m
+     [33m  [0;1;30m  [0;33m [0;1;30m  [0;33m     ↔   [0;37m    [0;33m  [0;1;30m    [0;33m      [0;1;30m  [0;33m                            [0m
            [33m [0;1;30m`~~[0m   [33m~`[0;37m~[0m                  [1;30m`[0;33m~~°ⁿⁿ° `$P°ⁿⁿⁿⁿⁿⁿⁿⁿⁿ"""ⁿⁿ°[0m
 
 

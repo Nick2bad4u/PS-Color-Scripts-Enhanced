@@ -1,6 +1,8 @@
 "use strict";
 
 const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const path = require("node:path");
 const test = require("node:test");
 
 const {
@@ -35,6 +37,18 @@ test("analyzeRow distinguishes prose-like rows from ANSI art rows", () => {
 test("findPolicyTerms detects plain and separator-obfuscated terms", () => {
     assert.deepEqual(findPolicyTerms("this is shit").terms, ["shit"]);
     assert.deepEqual(findPolicyTerms("f.u.c.k").terms, ["fuck"]);
+    assert.deepEqual(findPolicyTerms("damn n.a.z.i naked"), {
+        categories: ["hate", "profanity", "sexual"],
+        terms: ["damn", "naked", "nazi"],
+    });
+    assert.deepEqual(findPolicyTerms("a grape illustration").terms, []);
+    assert.deepEqual(findPolicyTerms("g r a p e").terms, []);
+    assert.deepEqual(findPolicyTerms("masked 555-xxx-xxxx").terms, []);
+    assert.deepEqual(findPolicyTerms("Amroth Gore").terms, []);
+    assert.deepEqual(findPolicyTerms("white power slogans"), {
+        categories: ["hate"],
+        terms: ["white power"],
+    });
     assert.deepEqual(findPolicyTerms("classic artwork").terms, []);
 });
 
@@ -138,4 +152,68 @@ test("parseArguments accepts explicit audit options", () => {
     assert.equal(options.fixText, true);
     assert.equal(options.fixTrailing, true);
     assert.match(options.output, /temp[\\/]report\.json$/u);
+});
+
+test("content curation checkpoint matches the retained gallery state", () => {
+    const checkpoint = JSON.parse(
+        fs.readFileSync(
+            path.resolve(
+                __dirname,
+                "..",
+                "ColorScripts-Enhanced",
+                "AnsiContentCurationCheckpoint.json"
+            ),
+            "utf8"
+        )
+    );
+    const archiveCheckpoint = JSON.parse(
+        fs.readFileSync(
+            path.resolve(
+                __dirname,
+                "..",
+                "ColorScripts-Enhanced",
+                "AnsiArchiveCurationCheckpoint.json"
+            ),
+            "utf8"
+        )
+    );
+    const scriptCount = fs
+        .readdirSync(
+            path.resolve(
+                __dirname,
+                "..",
+                "ColorScripts-Enhanced",
+                "Scripts"
+            ),
+            { withFileTypes: true }
+        )
+        .filter(
+            (entry) =>
+                entry.isFile() &&
+                entry.name.toLocaleLowerCase("en-US").endsWith(".ps1")
+        ).length;
+
+    assert.equal(checkpoint.schemaVersion, 1);
+    assert.equal(
+        checkpoint.scope.initialAddedScripts - checkpoint.scope.removedScripts,
+        checkpoint.scope.remainingAddedScripts
+    );
+    assert.equal(checkpoint.scope.finalGalleryScripts, scriptCount);
+    assert.equal(
+        checkpoint.archiveState.accepted16colorsSources,
+        archiveCheckpoint.sixteenColors.totals.acceptedSourceCount
+    );
+    assert.equal(
+        checkpoint.archiveState.emitted16colorsScripts,
+        archiveCheckpoint.sixteenColors.totals.emittedScriptCount
+    );
+    assert.equal(checkpoint.removals.incompleteSourceWorks.length, 12);
+    assert.ok(
+        Object.values(checkpoint.finalAudit).every((count) => count === 0)
+    );
+    assert.ok(
+        Object.values(
+            checkpoint.finalFreshContentOrIntegrityFindings
+        ).every((count) => count === 0)
+    );
 });

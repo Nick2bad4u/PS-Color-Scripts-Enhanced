@@ -5,7 +5,7 @@
 # Source SHA-256: 67124a59a7c7fe80f6fed514eb77c2a6cf2d7e3a88aa80a25e932f0989f01dfa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 09-FC.ANS by Fluor (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Free Coke
 # SAUCE Author: Fluor
 # SAUCE Group: AWE Lettering
@@ -36,7 +36,7 @@ Write-Host '
 [37m  [0;1;34m▐[0;1;34;44m▓[0;1;34;47m▀▓[0;1;34;44m█░[0;1;33;40m [0;34m▀[0;37m [0;1;37m [0;1;33;43m▄▓░ ░ [0;33m▀[0;1;37m   [0;30;44m▓[0;1;34;44m░[0;34m▌[0;37m [0;34m▀[0;1;34;44m▀[0;1;34;47m▀▓[0;1;34;44m▓[0;1;34;40m▓[0;1;34;44m▒░[0;34m█▌[0;37m [0;1;37m [0m  [1m   [0;1;33m▀[0;1;33;43m▒░░ ░[0;33m█▀░[0;1;37m [0;1;31m░[0;34m░[0;1;37m [0;34m▀[0;1;34;44m█▓[0m  [1maffils[0;1;34m:[0m [1mawe[0;1;34m,[0m [1mfire[0;1;34m,[0m
 [1m [0;1;34m▄█[0;1;34;44m█▀[0;1;34;40m▀[0;34m▀ [0m   [33m█▄[0;1;33;43m░[0;33m▀▀[0;1;37m [0;33m░[0;1;37m [0m [1m  [0m  [34m▀░░[0;37m [0;34m▀[0;1;34m▀[0;1;34;44m▀█▓▀[0m [34m▀■░[0;37m [0;1;37m [0m [33m▄▄█[0;1;33;43m░[0;33m▀▀[0;34m ▄[0;1;34m▄▄▄[0m [1;31m░[0;1;34m▐▄[0;1;34;47m▀▓[0;1;34;44m▀[0;34m▀[0;37m [0;1;37mmean scheme[0;1;34m,[0m [1mblade[0;1;34m,[0m
   [1m..,0[0;1;33m9![0m [33m▄▀▀[0m                 [37m [0;1;34m░[0m [34m▀█[0;1;37m [0m    [33m▄▀▀[0;37m  [0;34m▄[0;1;34m▄[0;1;34;44m▄▓[0;1;34;47m█[0;1;34;40m▀▓▄▄▄█[0;1;34;44m▀[0;1;34;40m▀[0;34m▀[0;1;37m blend[0;1;34m,[0m [1mfuel[0;1;34m,[0m [1mfade[0;1;34m,[0m
-        [33m▒[0;1;37m [0m [34mtna[0;1;34m''s[0;34m,[0;1;34m..fr[0mee c[1mo[0mc[1mk![0m    [34m▐[0m    [33m■[0;37m [0;1;34m░▒▓[0;1;34;44m▓█[0;1;34;47m▄▓█[0;1;34;44m█▀[0;1;34;40m▒▀▀[0;34m▀[0;37m [0;1;37m twilight[0;1;34m &[0;1;37m teklordz[0;1;34m,...[0m
+        [33m▒[0;1;37m [0m [34m   [0;1;34m  [0;34m [0;1;34m    [0m    [1m [0m [1m  [0m    [34m▐[0m    [33m■[0;37m [0;1;34m░▒▓[0;1;34;44m▓█[0;1;34;47m▄▓█[0;1;34;44m█▀[0;1;34;40m▒▀▀[0;34m▀[0;37m [0;1;37m         [0;1;34m  [0;1;37m         [0;1;34m    [0m
        [33m░[0m                             [33m░[0m      [1;34m▄▀[0;34m▀[0m   [1;34m░[0m
                                           [34;47m▓[0;1;34;47m▓[0;1;34;40m▌[0m
                                             [1;34m▀[0m'

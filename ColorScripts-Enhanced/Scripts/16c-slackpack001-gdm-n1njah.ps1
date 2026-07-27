@@ -5,7 +5,7 @@
 # Source SHA-256: ecb3d68ca271e3e906b0fefce4a2b6af77da59518d44fcdb270792376bda82f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: gDm-n1njah.ans by GngrDr3dM4n (Slackers); released in slackpack001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: n1njah
 # SAUCE Author: GngrDr3dM4n
 # SAUCE Group: Slackers
@@ -23,7 +23,7 @@ Write-Host '
 [34m│ [0;1;30m█████████████[0m [34m▄▄▄[0;37m                      [0;1;30m▀██████[0;34m│[0;37m   [0;1;32mA[0m [1;32mTeenage[0;32m [0;1;32mMutant[0;32m [0;1;32mNinja[0m
 [34m│ [0;1;30m████████████[0;34m ░░▒▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄████████▄[0;1;37m [0;1;30m█████[0;34m│[0;37m    [0;1;32mTurtle Walks Into A Bar[0;32m.[0m
 [34m│ [0;1;30m████████████[0;1;37m [0;34m█▒                          [0;1;30m█████[0;34m│[0;37m   [0;1;32mThe Bartender Says [0;32m"[0;1;32mGet[0m
-[34m│ [0;1;30m███████████[0;1;37m [0;34m▒▓[0;1;37m           [0m▄▄▄▄▄▄[33m   [0;37m▄▄▄▄   [0;1;30m█████[0;34m│[0;37m     [0;1;32mThe Hell Out Of Here[0;32m!"[0m
+[34m│ [0;1;30m███████████[0;1;37m [0;34m▒▓[0;1;37m           [0m▄▄▄▄▄▄[33m   [0;37m▄▄▄▄   [0;1;30m█████[0;34m│[0;37m     [0;1;32m                    [0;32m  [0m
 [34m│ [0;1;30m███████████[0;1;37m [0;34m░▓[0;1;37m     [0;33m░▒▓▓▌[0;37m▓█▀[0;34m [0;1;31m▄▄▄[0;33m ░ [0;1;31m▄[0;34m [0;37m▀█▓[0;1;37m  [0;1;30m█████[0;1;34m│[0m
 [34m│ [0;1;30m███████████[0;1;37m       [0;33m░░▒▓█▌[0;37m▓█ [0;1;31m██[0;1;37m   [0;33m░  [0;1;31m█[0m ██[1m  [0;1;30m█████[0;1;36m└[0;1;34m──[0;34m─────────────────────────[0;1;34m──[0;1;36m┐[0m
 [34m│ [0;1;30m██████████████[0;1;37m    [0;33m░░▒▓█▌[0;37m▓█▄[0;34m [0;1;31m▀▀▀[0;33m ░ [0;1;31m▀[0;34m [0;37m▄█▓[0;1;37m  [0;1;30m██████████████████████████████████[0m [1;34m│[0m

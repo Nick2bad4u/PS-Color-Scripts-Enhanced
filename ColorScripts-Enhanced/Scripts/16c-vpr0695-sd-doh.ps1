@@ -5,7 +5,7 @@
 # Source SHA-256: a36a659fe9cf8e91d5697db27fceece8bae00896e9bcd2a12b6aa8bc79ecb3ec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-DOH.ANS by sirdeath (vapor); released in vpr0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: sirdeath
 # SAUCE Group: vapor
 # SAUCE Date: 19950507
@@ -40,7 +40,7 @@ Write-Host '
       [31m▓██▄▄ ▓▐ [0;1;30msd[0;33m▐█▌▓██▀[0;1;31m▄█▓▄[0;1;37m▀[0;33m▄█▓█▄[0;1;37m▀▀[0;33m▄▄▀▀▓██▓█[0;1;31;43m░▒[0;1;31;40m▄[0;1;37;40m▀[0;33m▄█▓█▄[0;1;37m▀[0;33m█▄[0;1;31m▄ [0;31m▓▀ ▀■  [0;1;30m▀ deeude!  ■[0m
         [31m▀██▓▄ ▓▀ [0;33m▄██▀▓▓[0;1;31m▐[0;1;31;43m█▓▒░[0;33m█████▓█▀ ▄██▄▓███[0;1;31;43m░▒▓█[0;1;31;40m▄[0;33m▀██▓█[0;1;31;43m░▒▓█[0;1;31;40m▄    [0;1;30;40m▀  call that ▓▌[0m
           [31m▀██▄▄ [0;33m▐█▓▄███▄[0;1;31m▀█[0;1;31;43m▓▒░[0;33m█▓███▌ ▐▓████████[0;1;31;43m░▒▓█[0;1;31;40m▌[0;33m▐████[0;1;31;43m░▒▓█[0;1;31;40m▌  [0;1;30;40m▐▓ darkside of▐█[0m
-            [31m▀▄▓█▄[0;33m▀████████▄▄▀▀███▓▓▄▄▀██▀▀███▓[0;1;31;43m░▒▓[0;1;31;40m▀[0;33m▄█▓██[0;1;31;43m░▒▓█[0;1;31;40m▀[0m     [1;30;40m■   hell!  ▄▓▀[0m
+            [31m▀▄▓█▄[0;33m▀████████▄▄▀▀███▓▓▄▄▀██▀▀███▓[0;1;31;43m░▒▓[0;1;31;40m▀[0;33m▄█▓██[0;1;31;43m░▒▓█[0;1;31;40m▀[0m     [1;30;40m■          ▄▓▀[0m
                [31m▀▀▀■[0;33m▐▓███▀▄■▓▀█▄▓██[0;31m▐▄▄[0;33m▀  [0;1;30m▀▓▄▄[0;33m▀▀▀▀▄▓█■██▄▓█[0;1;31m▀[0m       [1;30m▄ ▀■ ▄  ▄ ▀▀[0m
                    [33m▐█▓█▌▐█▓████■▀[0;31m▄▓▄ ▀▀▀▄▄▄▄▓▄▄▄▄■[0;33m▀█▓▀▀▄▌    [0;1;30m■ ▀[0m
                     [33m████▄▀███████▄█▄[0;31m▀▀▄▄▄[0m     [31m▄▄▀[0;1;30;43m░░[0;33m▄▄[0;1;30;43m░░[0;33m█[0m

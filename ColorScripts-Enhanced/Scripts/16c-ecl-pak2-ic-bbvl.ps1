@@ -5,7 +5,7 @@
 # Source SHA-256: 83fd62f6525cc40757c5a454504292d92465260a971ab721ed68080c3cb4d986
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-BBVL!.ANS by Inclusive (ecl-pak2); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19971206
 # SAUCE Dimensions: 80x24
 # Lines: 1-24
@@ -29,7 +29,7 @@ Write-Host '
                               ▐ █[1;33m█████▌[0m░[33m▐[0;1;31;43m░[0;1;31;40m█ [0;1;33;40m█[0;33m▐[0;1;31;43m▄▄█[0;1;31;40m██ [0m█[1;33m█[0;1;31m [0;1;31;43m [0;1;31;40m██▀▀[0;1;30;40m░░[0m    [1;31m░[0;1;33m [0;1;33;47m░[0;1;33;40m███▄ [0m▀[1;33;47m▀[0;1;33;40m████[0m
         apply newuser_        ▐░[1;33;47m░▐[0;1;33;40m████▓[0m [33m▐[0;1;31;43m░▐[0;1;31;40m▓▄ [0;1;31;43m░[0;1;31;40m████▌[0m▐[1;33;47m▐[0;1;31;40m [0;1;31;43m [0;1;31;40m██[0;1;31;43m▓[0;33m▄[0;1;31m  [0;1;37m°▀[0m▀ [36m░░[0;1;33m [0m▀[1;33;47m▀[0;1;33;40m███▄▄[0;1;33;47m▄▓▓[0;1;33;40m█[0m
                               ▀ ▐[1;33;47m▐[0;1;33;40m█[0;1;33;47m▓▓[0;1;33;40m█[0;1;33;47m▓[0;1;33;40m▌[0;33m █[0;1;31;43m▐[0;1;31;40m█████████ [0;1;33;47m░[0;1;33;40m▌[0;33m▐[0;1;31;43m▐[0;1;31;40m█████[0;1;31;43m▄[0;1;31;40m▄▄▄[0;1;31;43m▄▓[0;1;31;40m▄░[0;1;33;40m [0m▀[1;33;47m▀▀[0;1;33;40m██████[0m
-        page velo-ass_           █[1;33m█ [0;1;33;47m [0;1;33;40m███[0m [33m█[0;1;31;43m▐[0;1;31;40m██[0;1;31;47m▓[0;1;31;40m██▀▀[0;1;31;43m▀[0;1;31;40m██ [0m▀[1;31m [0;1;31;43m [0;1;31;40m▓████[0;1;31;43m▓▓[0;1;31;40m██████▄[0;33m▄[0;1;31m░[0;1;33m [0m▀▀[1;33;47m▀[0;1;33;40m▀[0;1;33;47m▀[0;1;33;40m█[0m
+                                 █[1;33m█ [0;1;33;47m [0;1;33;40m███[0m [33m█[0;1;31;43m▐[0;1;31;40m██[0;1;31;47m▓[0;1;31;40m██▀▀[0;1;31;43m▀[0;1;31;40m██ [0m▀[1;31m [0;1;31;43m [0;1;31;40m▓████[0;1;31;43m▓▓[0;1;31;40m██████▄[0;33m▄[0;1;31m░[0;1;33m [0m▀▀[1;33;47m▀[0;1;33;40m▀[0;1;33;47m▀[0;1;33;40m█[0m
                               [1;30m░[0m░ ▐[1;33m█▌[0m▐[1;33;47m▐[0;1;33;40m█▓▌[0;33m▐█[0;1;31;43m▐[0;1;31;40m█████▄▄▄[0;1;31;43m▄[0;1;31;40m█▀▀[0;33m▀█[0;1;31;43m▓▓[0;1;31;40m██[0;1;31;43m█▓▓[0;1;31;40m██████[0;1;31;43m▓[0;33m▄[0;1;31m [0m [1;33;47m░▄[0;1;33;40m███[0m
         leave this one_          █[1;33m█▌[0m▐[1;33;47m▐[0;1;33;40m██[0;1;33;47m▓[0m [33m▓█[0;1;31m███[0;1;31;41m█[0;1;31;40m████████[0;1;31;47m▓▓[0;1;31;40m█████[0;1;31;47m▓▓[0;1;31;40m██████[0;33m█[0;37m ▄[0;1;33;47m░[0;1;33;40m█████[0m
                                 ▐[1;33;47m▐[0;1;33;40m█ [0;1;33;47m░▐[0;1;33;40m███▌[0m [33m█[0;1;31;43m░█[0;1;31;40m████▀▀[0;1;31;43m▒▓[0;1;31;40m███████████████[0;1;31;43m▒[0m  ▐[1;33;47m▐[0;1;33;40m████[0;1;33;47m▓▌[0m
